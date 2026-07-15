@@ -17,6 +17,10 @@ There is deliberately no evaluation script here: **building your own harness is
 a Stage 1 deliverable** — the exercise page documents exactly what it must
 measure (relevance, hallucination rate, citation accuracy, latency).
 
+> **Team — Stage 1 work on `matan/stage1-setup`:** see **[STAGE1.md](STAGE1.md)**
+> for our eval harness, prompt experiments, results, and interactive reports
+> (`stage1_prompt_strategy_comparison.html`, `data_exploration.html`).
+
 ## Quickstart
 
 ```bash

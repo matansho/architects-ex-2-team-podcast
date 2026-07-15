@@ -1,0 +1,103 @@
+[
+  {
+    "id": "fs-e01-travel-easy",
+    "domain": "travel",
+    "difficulty": "easy",
+    "question": "אני מטייל בחו\"ל ורוצה לדעת — האם ביטוח הנסיעות של הראל כולל שירות חילוץ והצלה במקרה חירום?",
+    "answer": "כן. ביטוח הנסיעות לחו\"ל כולל יחידת חילוץ והצלה \"הראל 669\" עם מוקד חירום וחילוץ 24/7.",
+    "citations": [
+      {"file": "travel/pages/travel.txt", "page": null}
+    ]
+  },
+  {
+    "id": "fs-e02-car-easy",
+    "domain": "car",
+    "difficulty": "easy",
+    "question": "קניתי רכב חדש. האם אני חייב לרכוש ביטוח חובה לפני שאני נוסע בו?",
+    "answer": "כן. כל מי שמחזיק ונוהג ברכב מחויב לרכוש ביטוח חובה על פי חוק.",
+    "citations": [
+      {"file": "car/pages/compulsory.txt", "page": null}
+    ]
+  },
+  {
+    "id": "fs-e03-health-easy",
+    "domain": "health",
+    "difficulty": "easy",
+    "question": "רופא המשפחה שלח אותי לבדיקת MRI באשפוז יום. האם הכיסוי האמבולטורי של הראל מכסה MRI?",
+    "answer": "כן. הכיסוי האמבולטורי כולל שירותים רפואיים שאינם במסגרת אשפוז בבית חולים, ובין היתר בדיקות MRI.",
+    "citations": [
+      {"file": "health/pages/ambulatory-care.txt", "page": null}
+    ]
+  },
+  {
+    "id": "fs-e04-loss-of-working-ability-easy",
+    "domain": "loss-of-working-ability",
+    "difficulty": "easy",
+    "question": "אני בן 62 ושוקל להצטרף לנספח \"שחרור בלבד\" של הראל. האם הגיל שלי מתאים להצטרפות?",
+    "answer": "לא. ההצטרפות לנספח שחרור בלבד מתאפשרת למבוטחים מגיל 18 ועד 60.",
+    "citations": [
+      {"file": "loss-of-working-ability/pages/premium-release.txt", "page": null}
+    ]
+  },
+  {
+    "id": "fs-m05-travel-medium",
+    "domain": "travel",
+    "difficulty": "medium",
+    "question": "רכשתי פוליסת דרכון First Class וטסתי לחו\"ל, והמזוודה שלי לא הגיעה. עד איזה סכום אקבל תשלום מראש על המזוודה המאחרת?",
+    "answer": "עד 155$ תשלום מראש על מזוודה שמאחרת להגיע.",
+    "citations": [
+      {"file": "travel/pages/first-class.txt", "page": null}
+    ]
+  },
+  {
+    "id": "fs-m06-travel-medium",
+    "domain": "travel",
+    "difficulty": "medium",
+    "question": "נפצעתי בתאונה בחו\"ל ואחרי שחזרתי לארץ צריך להמשיך טיפולים. עד איזה סכום מכסה First Class המשך טיפול בארץ?",
+    "answer": "עד 10,000$ לכיסוי המשך טיפול בארץ לאחר תאונה בחו\"ל.",
+    "citations": [
+      {"file": "travel/pages/first-class.txt", "page": null}
+    ]
+  },
+  {
+    "id": "fs-m07-apartment-medium",
+    "domain": "apartment",
+    "difficulty": "medium",
+    "question": "הדירה שלי נפגעה מנזק מכוסה ואני צריך לעבור לדירה חלופית. לכמה זמן ביטוח הדירה של הראל מכסה הוצאות שכר דירה או אובדן הכנסות משכירות?",
+    "answer": "ל-12 החודשים הראשונים, ללא עלות נוספת.",
+    "citations": [
+      {"file": "apartment/pages/apartment.txt", "page": null}
+    ]
+  },
+  {
+    "id": "fs-m08-apartment-medium",
+    "domain": "apartment",
+    "difficulty": "medium",
+    "question": "יש לי ביטוח דירה עם כיסוי תכשיטים במתנה. מה התקרה לכיסוי התכשיטים ביחס לסכום התכולה?",
+    "answer": "עד 20% מסכום התכולה.",
+    "citations": [
+      {"file": "apartment/pages/apartment.txt", "page": null}
+    ]
+  },
+  {
+    "id": "fs-h09-apartment-hard",
+    "domain": "apartment",
+    "difficulty": "hard",
+    "question": "התכולה בדירה שלי מבוטחת ב-800,000 ש\"ח, ויש לי גם את כיסוי התכשיטים במתנה. מה הסכום המקסימלי שהביטוח ישלם על נזק לתכשיטים?",
+    "answer": "160,000 ש\"ח — כיסוי התכשיטים במתנה מוגבל ל-20% מסכום התכולה: 20% × 800,000 = 160,000 ש\"ח.",
+    "citations": [
+      {"file": "apartment/pages/apartment.txt", "page": null}
+    ]
+  },
+  {
+    "id": "fs-h10-travel-hard",
+    "domain": "travel",
+    "difficulty": "hard",
+    "question": "אני נוסע לחו\"ל עם ביטוח נסיעות של הראל ורוצה גם eSIM וגם כיסוי למזוודה מאחרת. מה מגיע לי בכל אחד מהמוצרים?",
+    "answer": "בפוליסת דרכון First Class מגיע עד 155$ תשלום מראש על מזוודה מאחרת. בנפרד, ללקוחות ביטוח הנסיעות מגיעה הטבת eSIM: 20% הנחה על חבילות גלישה ו-1,000 דקות חינם לישראל בכל חבילה.",
+    "citations": [
+      {"file": "travel/pages/first-class.txt", "page": null},
+      {"file": "travel/pages/esim.txt", "page": null}
+    ]
+  }
+]

@@ -147,6 +147,7 @@ reports/
 scripts/
   activate.sh
   generate_compare_dashboard.py
+  regen_dashboard.sh      # one-shot wrapper: regenerate the 8-way comparison report
   prompt_catalog.py       # resolves each run's system prompt + few-shot examples for the report
   generate_data_report.py
 
@@ -196,20 +197,9 @@ python run_eval.py \
   --no-citation-judge
 #   -> rel 42% / hall 31% / ref 17%  (worse: ~50%-precise `confident` flag injects hallucinations)
 
-# Regenerate 5-way dashboard
-python scripts/generate_compare_dashboard.py \
-  --title "Stage 1 — Prompt Strategy Comparison" \
-  --run "Baseline|baseline_answers.jsonl" \
-  --run "Few-shot + cite|reports/few_shot_answers.jsonl" \
-  --run "Few-shot + concise|reports/concise_few_shot_answers.jsonl" \
-  --run "Few-shot, no cite (run 1)|reports/no_cite_few_shot_answers.jsonl" \
-  --run "Few-shot, no cite (run 2)|reports/no_cite_few_shot_2_answers.jsonl" \
-  --eval "Baseline|reports/baseline_eval.json" \
-  --eval "Few-shot + cite|reports/few_shot_eval.json" \
-  --eval "Few-shot + concise|reports/concise_few_shot_eval.json" \
-  --eval "Few-shot, no cite (run 1)|reports/no_cite_few_shot_eval.json" \
-  --eval "Few-shot, no cite (run 2)|reports/no_cite_few_shot_2_eval.json" \
-  --out reports/stage1_prompt_strategy_comparison.html
+# Regenerate the 8-way comparison report (baseline + few-shot presets + contrast).
+# Pure local render, no API calls. Wraps generate_compare_dashboard.py with all runs.
+bash scripts/regen_dashboard.sh
 ```
 
 Estimated API spend: ~$0.30 (baseline + few-shot presets + two contrast runs; ~288 generation + ~288 judge calls). Note the ~4–5pp run-to-run swing on 48 questions — see the contrast rows above and the variance note under "Contrast: single-call abstention gating."

@@ -22,6 +22,8 @@ def infer_preset_from_label(label: str) -> str | None:
     lower = label.lower()
     if "baseline" in lower:
         return "baseline"
+    if "contrast" in lower:  # check before few-shot: "Few-shot, contrast" contains both
+        return "contrast"
     if "no cite" in lower or "no-cite" in lower:
         return "no-cite"
     if "concise" in lower:
@@ -38,6 +40,8 @@ def infer_preset_from_answers(answers_path: Path) -> str | None:
         if not line.strip():
             continue
         rec = json.loads(line)
+        if rec.get("approach") == "contrast":
+            return "contrast"
         preset = rec.get("preset")
         if preset:
             return preset
@@ -71,6 +75,37 @@ def build_prompt_spec(preset: str) -> dict:
             "note": "Each dev question is sent as a single user message after the system prompt.",
         }
 
+    if preset == "contrast":
+        import contrast_runner as cr
+
+        examples = cr.load_examples()
+        sample_question = "[dev question from reference_questions.json]"
+        messages = cr.build_messages(sample_question, examples)
+        rendered_examples = []
+        for ex in examples:
+            rendered_examples.append(
+                {
+                    "id": ex.get("id"),
+                    "question": ex["question"],
+                    # assistant turn is the JSON object the model is trained to emit
+                    "assistant": json.dumps(ex["answer"], ensure_ascii=False, indent=2),
+                    "assistant_dir": "ltr",  # JSON, not Hebrew prose
+                }
+            )
+        return {
+            "preset": "contrast",
+            "runner": "contrast_runner.py",
+            "system_prompt": cr.CONTRAST_SYSTEM,
+            "examples_file": cr.DEFAULT_EXAMPLES,
+            "examples": rendered_examples,
+            "message_count": len(messages),
+            "note": (
+                f"{len(examples)} few-shot user/assistant turns (JSON schema: qualitative + "
+                "specifics{best, alt, confident}) precede each dev question; a Python gate then "
+                "commits or hedges each specific."
+            ),
+        }
+
     examples_path = Path(PRESET_EXAMPLES.get(preset, PRESET_EXAMPLES["default"]))
     examples = load_examples(ROOT / examples_path)
     sample_question = "[dev question from reference_questions.json]"
@@ -82,6 +117,7 @@ def build_prompt_spec(preset: str) -> dict:
                 "id": ex.get("id"),
                 "question": ex["question"],
                 "assistant": format_assistant_answer(ex),
+                "assistant_dir": "rtl",
             }
         )
     return {
@@ -92,7 +128,8 @@ def build_prompt_spec(preset: str) -> dict:
         "examples": rendered_examples,
         "message_count": len(messages),
         "note": (
-            "Ten few-shot user/assistant turns precede each dev question as the final user message."
+            f"{len(examples)} few-shot user/assistant turns precede each dev question "
+            "as the final user message."
         ),
     }
 
@@ -103,6 +140,8 @@ def render_prompt_section(specs: list[tuple[str, dict]]) -> str:
         example_blocks = []
         for i, ex in enumerate(spec["examples"], 1):
             ex_id = html.escape(ex.get("id") or f"example-{i}")
+            adir = ex.get("assistant_dir", "rtl")
+            acls = "prompt-text hebrew" if adir == "rtl" else "prompt-text"
             example_blocks.append(
                 f"""
                 <details class="prompt-example">
@@ -113,7 +152,7 @@ def render_prompt_section(specs: list[tuple[str, dict]]) -> str:
                   </div>
                   <div class="prompt-turn">
                     <div class="prompt-role">Assistant</div>
-                    <pre class="prompt-text hebrew" dir="rtl">{html.escape(ex['assistant'])}</pre>
+                    <pre class="{acls}" dir="{adir}">{html.escape(ex['assistant'])}</pre>
                   </div>
                 </details>
                 """

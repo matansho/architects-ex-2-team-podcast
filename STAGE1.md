@@ -59,8 +59,17 @@ Ten exemplar Q&As in `few_shot_examples.json`, authored from uncited corpus page
 | Few-shot + concise | 25.0% | 70.8% | 4.2% | 1,544 ms |
 | Few-shot, no cite (run 1) | 43.8% | 47.9% | 8.3% | 2,265 ms |
 | Few-shot, no cite (run 2) | 43.8% | 52.1% | 4.2% | 1,505 ms |
+| Contrast (far-apart, run 1) | 45.8% | 22.9% | 14.6% | 3,897 ms |
+| Contrast (far-apart, run 2) | 41.7% | 27.1% | 12.5% | 3,288 ms |
+| Contrast (no far-apart) | 42% | 31% | 17% | 2,780 ms |
 
 Citation accuracy is 0% across all runs — expected without retrieval.
+
+The three contrast rows share one config's answer style but differ in the render-time
+gate: **far-apart** hedges every specific whose stated alternative is materially
+different from its best guess (in practice, all of them); **no far-apart** commits any
+value the model self-labels `confident`. Files: `reports/contrast_*` (far-apart, run 1),
+`reports/contrast_2_*` (far-apart, run 2), and the no-far-apart run.
 
 ### Main finding: citation-shaped hallucinations
 
@@ -78,6 +87,33 @@ Few-shot + concise was worse on both relevance and hallucination — brevity did
 ### Consistency check
 
 Two identical no-cite runs agreed on relevance for 36/48 questions (75%) and produced the same aggregate relevance (43.8%). Hallucination labels agreed 67%. Some per-question variance from judge/answer stochasticity, but the headline metrics are stable.
+
+### Contrast: single-call abstention gating
+
+`contrast_runner.py` makes **one** LLM call per question and returns structured JSON: a
+`qualitative` answer (yes/no + how-it-works, which earns relevance) plus a list of
+`specifics`, each with a `best` value, a plausible `alt`ernative, and a `confident` flag.
+A deterministic Python gate then decides per specific whether to commit the value or
+replace it with a hedge — no second model call, so cost stays ≈ one generation.
+
+**Robust finding:** hedging unverifiable specifics roughly **halves hallucination** vs
+no-cite (~48% → ~23–31%) while holding relevance in the same ~42–46% band. Relevance is
+carried by the qualitative core; hedging the numbers avoids the hallucination tax (a wrong
+checkable fact forces `relevant=False`, so it costs both axes at once).
+
+**Run-to-run variance is the dominant effect at n=48.** Two runs of the *identical*
+far-apart config gave 45.8%/22.9% and 41.7%/27.1% — a ~4–5pp swing from generation + judge
+stochasticity (even at `temperature=0`; the served MoE model is not fully deterministic).
+The standard error on a ~45% rate over 48 questions is ≈7pp, so differences under ~10pp
+between hedging variants are **not resolvable** on a single run. The one effect larger than
+the noise is the ~20pp hallucination cut vs no-cite.
+
+**`--far-apart` vs commit-on-confident (option 1).** The `confident` flag is only ~50%
+precise (measured on the run's specifics: dev-12 correct; dev-24, dev-42 confidently wrong).
+Committing those values (no far-apart) therefore injects double-penalty hallucinations and
+scored worse (42%/31%). Keeping `--far-apart` — which in practice hedges every specific —
+is the safer default for a bare model. Committing real numbers is what **retrieval (Stage 2)**
+unlocks, not a smarter render gate.
 
 ### Failure patterns worth noting
 
@@ -111,6 +147,7 @@ reports/
 scripts/
   activate.sh
   generate_compare_dashboard.py
+  prompt_catalog.py       # resolves each run's system prompt + few-shot examples for the report
   generate_data_report.py
 
 .env.example
@@ -140,6 +177,25 @@ python run_eval.py \
   --out reports/no_cite_few_shot_eval.json \
   --no-citation-judge
 
+# Contrast — single-call abstention gating.
+# Recommended mode: --far-apart hedges every unverifiable specific (bare-model default).
+python contrast_runner.py --far-apart \
+  --out reports/contrast_answers.jsonl
+python run_eval.py \
+  --answers reports/contrast_answers.jsonl \
+  --out reports/contrast_eval.json \
+  --no-citation-judge
+#   -> rel 45.8% / hall 22.9% / ref 14.6%  (run 2: 41.7% / 27.1% / 12.5% -- run-to-run noise)
+
+# Variant: commit values the model self-labels `confident` (no far-apart gate).
+python contrast_runner.py \
+  --out reports/contrast_no_far_apart_answers.jsonl
+python run_eval.py \
+  --answers reports/contrast_no_far_apart_answers.jsonl \
+  --out reports/contrast_no_far_apart_eval.json \
+  --no-citation-judge
+#   -> rel 42% / hall 31% / ref 17%  (worse: ~50%-precise `confident` flag injects hallucinations)
+
 # Regenerate 5-way dashboard
 python scripts/generate_compare_dashboard.py \
   --title "Stage 1 — Prompt Strategy Comparison" \
@@ -156,7 +212,7 @@ python scripts/generate_compare_dashboard.py \
   --out reports/stage1_prompt_strategy_comparison.html
 ```
 
-Estimated API spend: ~$0.22 (192 generation + 192 judge calls).
+Estimated API spend: ~$0.30 (baseline + few-shot presets + two contrast runs; ~288 generation + ~288 judge calls). Note the ~4–5pp run-to-run swing on 48 questions — see the contrast rows above and the variance note under "Contrast: single-call abstention gating."
 
 ## Implications for Stage 2
 

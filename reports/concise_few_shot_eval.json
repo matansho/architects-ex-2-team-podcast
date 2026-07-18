@@ -1,5 +1,5 @@
 {
-  "run_label": "Concise few-shot",
+  "run_label": "Few-shot + concise",
   "total": 48,
   "relevance_rate": 0.25,
   "hallucination_rate": 0.7083333333333334,
@@ -7,7 +7,7 @@
   "citation_accuracy": 0.0,
   "latency_ms_avg": 1543.6838765939076,
   "latency_ms_p50": 1477.8330326080322,
-  "judge_cost_usd": 0.019389,
+  "judge_cost_usd": 0.019437,
   "by_difficulty": {
     "easy": {
       "count": 16,
@@ -118,7 +118,7 @@
       "relevant": true,
       "hallucination": false,
       "refusal": false,
-      "judge_reasoning": "The model answer correctly states that contacting the insurance company does not stop the statute of limitations and that filing a lawsuit is required, which fully agrees with the ground truth.",
+      "judge_reasoning": "The model answer correctly states that contacting the insurance company does not stop the statute of limitations and that filing a lawsuit is required, which fully aligns with the ground truth.",
       "judge_cost_usd": 0.0003405
     },
     {
@@ -158,8 +158,8 @@
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "The model answer incorrectly claims the state fund pays a basic amount for residential damage, while the ground truth states the law only covers agricultural infrastructure and the state is not obligated to compensate residential buildings. This contradicts the core fact and invents a specific checkable fact about state compensation.",
-      "judge_cost_usd": 0.0004355
+      "judge_reasoning": "The model answer incorrectly claims the state fund pays a basic amount for residential damage, while the ground truth states the law only covers agricultural infrastructure and the state is not obligated to compensate for residential damage. This is a specific, checkable fact that contradicts the ground truth.",
+      "judge_cost_usd": 0.0004315
     },
     {
       "id": "dev-04-apartment-medium",
@@ -178,8 +178,8 @@
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "המודל טוען שהסכום הוא 30,000 ש\"ח, בעוד שהאמת המוחלטת קובעת שהסכום הוא 6,000 ש\"ח. מדובר בקביעה מספרית סותרת, ולכן התשובה אינה רלוונטית וכוללת הזיה.",
-      "judge_cost_usd": 0.0004035
+      "judge_reasoning": "המודל טוען שהסכום הוא 30,000 ש\"ח, בעוד שהאמת בשטח מציינת 6,000 ש\"ח. מדובר בקביעה מספרית סותרת, ולכן יש הזיה.",
+      "judge_cost_usd": 0.0003635
     },
     {
       "id": "dev-05-apartment-hard",
@@ -198,8 +198,8 @@
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "The ground truth states that joining both insurances is done through an insurance agent. The model answer provides specific alternative methods (website, app, phone number, callback) that are not mentioned in the ground truth, thus inventing checkable facts.",
-      "judge_cost_usd": 0.0003955
+      "judge_reasoning": "The ground truth states that joining both insurances is done through an insurance agent. The model answer provides specific alternative channels (website, app, phone number) for the building insurance, which contradicts the ground truth's single channel, and invents a specific phone number (*4440) not mentioned in the ground truth.",
+      "judge_cost_usd": 0.0004235
     },
     {
       "id": "dev-06-apartment-hard",
@@ -218,8 +218,8 @@
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "המודל טוען שהכיסוי לגינה מוגבל ל-1% מסכום הביטוח (12,000 ש\"ח), בעוד שהתשובה הנכונה היא 2% (24,000 ש\"ח). מדובר בקביעה מספרית סותרת ולכן מהווה הזיה.",
-      "judge_cost_usd": 0.0004405
+      "judge_reasoning": "המודל טוען שהכיסוי לגינה מוגבל ל-1% ומחשב 12,000 ש\"ח, בעוד שהתשובה הנכונה היא 2% ו-24,000 ש\"ח. מדובר בקביעה עובדתית שגויה (אחוז ומספר) הסותרת את המקור.",
+      "judge_cost_usd": 0.0004525
     },
     {
       "id": "dev-07-business-easy",
@@ -258,8 +258,8 @@
       "relevant": true,
       "hallucination": false,
       "refusal": false,
-      "judge_reasoning": "The model answer correctly states the obligation to notify the insurer in writing about any material change, which matches the ground truth. The phrasing is slightly different but conveys the same core fact.",
-      "judge_cost_usd": 0.000344
+      "judge_reasoning": "המודל מסכים עם התשובה הנכונה ומציין את חובת ההודעה בכתב על שינוי מהותי באופן מיידי, תוך התאמה לעובדות המרכזיות שבתשובת הייחוס.",
+      "judge_cost_usd": 0.000382
     },
     {
       "id": "dev-09-business-medium",
@@ -278,8 +278,8 @@
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "המודל טוען שהפיצוי המרבי הוא 12 חודשים, בעוד שהתשובה הנכונה מציינת 100 ימים. מדובר בקביעה עובדתית סותרת, ולכן התשובה אינה רלוונטית וכוללת הזיה.",
-      "judge_cost_usd": 0.000394
+      "judge_reasoning": "The ground truth states the indemnity period ends at the end of the shutdown period but no later than 100 days from the start of the shutdown. The model answer gives a completely different specific limit of 'up to 12 months', which contradicts the 100-day limit and is an invented checkable fact.",
+      "judge_cost_usd": 0.00038
     },
     {
       "id": "dev-10-business-medium",
@@ -298,8 +298,8 @@
       "relevant": true,
       "hallucination": false,
       "refusal": false,
-      "judge_reasoning": "Both answers agree that insurance is required for a clinical trial approved by a Helsinki committee. The model answer cites a different legal source ('פקודת בריאות הציבור') but does not contradict the ground truth's reference to Ministry of Health procedures, and no specific checkable fact is invented or contradicted.",
-      "judge_cost_usd": 0.00042
+      "judge_reasoning": "Both answers agree that insurance is required for a clinical trial. The model answer cites a different legal basis ('פקודת בריאות הציבור') than the ground truth ('נוהלי משרד הבריאות'), but this is a minor wording difference and does not contradict the core fact that insurance is mandatory.",
+      "judge_cost_usd": 0.000424
     },
     {
       "id": "dev-11-business-hard",
@@ -318,8 +318,8 @@
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "The model answer incorrectly claims that Harel Biz does not include business interruption (אובדן תוצאתי) at all, which contradicts the ground truth that it does cover such expenses with a specific cap. This is a specific, checkable fact that is false.",
-      "judge_cost_usd": 0.0004195
+      "judge_reasoning": "The model answer incorrectly claims that Harel Biz does not include consequential loss at all, which contradicts the ground truth that it does cover such expenses with a specific cap. This is a specific, checkable fact that is false.",
+      "judge_cost_usd": 0.0004015
     },
     {
       "id": "dev-12-business-hard",
@@ -338,8 +338,8 @@
       "relevant": true,
       "hallucination": false,
       "refusal": false,
-      "judge_reasoning": "The model answer correctly states the proportional split (75% / 25%) based on the sum insured, which matches the core fact in the ground truth. It omits the additional procedural note about notifying the insurer, but that does not contradict the ground truth or introduce a false fact.",
-      "judge_cost_usd": 0.0004435
+      "judge_reasoning": "The model answer correctly states the proportional split (75% / 25%) based on the given sums insured, which matches the core fact in the ground truth. It omits the additional procedural note about notifying the insurer, but the main factual question is answered accurately.",
+      "judge_cost_usd": 0.0004355
     },
     {
       "id": "dev-13-car-easy",
@@ -358,8 +358,8 @@
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "The model answer adds a condition ('אם רכשת כיסוי נעילה') that is not mentioned in the ground truth, which states the service is provided without any such prerequisite. This is a specific, checkable fact that contradicts the ground truth.",
-      "judge_cost_usd": 0.0003625
+      "judge_reasoning": "המודל מוסיף תנאי 'אם רכשת כיסוי נעילה' שאינו מופיע בתשובת האמת, ומצמצם את הזכאות לביטוח חובה בלבד, בעוד שהאמת קובעת זכאות ללא סייגים אלו.",
+      "judge_cost_usd": 0.0003945
     },
     {
       "id": "dev-14-car-easy",
@@ -418,8 +418,8 @@
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "השאלה שואלת היכן לרכוש את הביטוח לטיול בסיני. התשובה הנכונה מציינת רכישה בעמדת מילגם במעבר הגבול. תשובת המודל טוענת שהביטוח נרכש באתר האינטרנט של הראל, עובדה ספציפית הניתנת לבדיקה הסותרת את המידע הנכון ולכן מהווה הזיה.",
-      "judge_cost_usd": 0.000485
+      "judge_reasoning": "The ground truth states the insurance is purchased at the Milgam sales point at the border crossing, while the model answer claims it is purchased on Harel's website. This is a specific, checkable fact that contradicts the ground truth.",
+      "judge_cost_usd": 0.000363
     },
     {
       "id": "dev-17-car-hard",
@@ -438,8 +438,8 @@
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "The model answer invents a specific requirement ('התקנת אפליקציה ייעודית') for joining Harel Switch that is absent from the ground truth, which only mentions online or phone (*2010) for both products. This is a checkable fact that contradicts the ground truth.",
-      "judge_cost_usd": 0.00049
+      "judge_reasoning": "The model answer invents a specific requirement ('התקנת אפליקציה ייעודית') for joining Harel Switch that is absent from the ground truth, which only mentions online or phone registration. It also omits the shared phone number (*2010) and the specific per-km payment structure mentioned in the ground truth.",
+      "judge_cost_usd": 0.000506
     },
     {
       "id": "dev-18-car-hard",
@@ -458,8 +458,8 @@
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "המודל מחשב החזר של 1,945 ₪ על בסיס יחס ימי, בעוד שהתשובה הנכונה היא 1,882 ₪ על פי חישוב ניכוי של 5% ועוד 0.3% ליום מהיום השמיני. המודל ממציא שיטת חישוב שגויה ומציג סכום ספציפי שסותר את המידע הנכון.",
-      "judge_cost_usd": 0.000513
+      "judge_reasoning": "The model answer calculates the refund as 1,945 ₪ using a pro-rata method (355/365), which contradicts the ground-truth calculation of 1,882 ₪ based on a 5% deduction plus a daily rate for days 8-10. The model asserts a specific, checkable monetary amount that is factually wrong according to the reference.",
+      "judge_cost_usd": 0.000463
     },
     {
       "id": "dev-19-dental-easy",
@@ -478,8 +478,8 @@
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "The ground truth states documents should be sent by email to a specific address, while the model answer explicitly contradicts this by saying they should be sent via a dedicated online form and not by regular email. This is a specific, checkable fact that contradicts the reference.",
-      "judge_cost_usd": 0.000364
+      "judge_reasoning": "The ground truth states that the form and documents should be sent by email to a specific address. The model answer contradicts this by claiming they should be sent via a dedicated online form and not by regular email, inventing a specific fact (the submission method) that is absent from the ground truth.",
+      "judge_cost_usd": 0.000378
     },
     {
       "id": "dev-20-dental-easy",
@@ -498,8 +498,8 @@
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "The ground truth states that double recovery is prohibited, while the model answer claims it is allowed for the unreimbursed portion. This directly contradicts the core fact and invents a specific permission (claiming the difference) that is absent from the ground truth.",
-      "judge_cost_usd": 0.0003595
+      "judge_reasoning": "המודל טוען שמותר לתבוע את ההפרש, בעוד שהאמת בשטח קובעת שאסור לתבוע החזר על אותם סכומים כלל. זוהי עובדה ספציפית (כן/לא) הסותרת את המידע הנכון.",
+      "judge_cost_usd": 0.0004015
     },
     {
       "id": "dev-21-dental-medium",
@@ -518,8 +518,8 @@
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "The model answer provides a specific phone number (03-9301010) that is absent from the ground truth (which gives *2735) and omits the required cancellation form and other accepted channels (email, fax, agent). The invented phone number is a checkable fact that contradicts the reference, making it a hallucination.",
-      "judge_cost_usd": 0.000445
+      "judge_reasoning": "The model answer provides a specific phone number (03-9301010) that is not mentioned in the ground truth, which lists *2735 as the contact number. This is a specific, checkable fact that contradicts the reference, constituting a hallucination. Additionally, the model omits other valid cancellation methods like the personal area, email, fax, and agent, making the answer incomplete and not fully relevant.",
+      "judge_cost_usd": 0.000477
     },
     {
       "id": "dev-22-dental-medium",
@@ -538,8 +538,8 @@
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "The model answer contradicts the ground truth by stating that payment can be transferred to a minor's bank account (including Bit), while the ground truth explicitly says this is only possible from age 18 and up. This is a specific, checkable fact that is wrong.",
-      "judge_cost_usd": 0.000362
+      "judge_reasoning": "המודל טוען שניתן להעביר תגמולים לחשבון ביט של קטין בהסכמת הורה, בעוד שהתשובה הנכונה קובעת שהעברה בביט אפשרית רק מגיל 18. זוהי עובדה ספציפית (גיל מינימלי) הסותרת את המידע האמיתי.",
+      "judge_cost_usd": 0.000436
     },
     {
       "id": "dev-23-dental-hard",
@@ -558,8 +558,8 @@
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "The model provides a different email address (briut@harel-ins.co.il) and a different phone number (03-7547878) than the ground truth (polisotbs@harel-ins.co.il and 03-7547222). Both are specific checkable facts that contradict the reference, making the answer not fully relevant and containing hallucinations.",
-      "judge_cost_usd": 0.0004355
+      "judge_reasoning": "The model provides a different email address and a different phone number than the ground truth, both of which are specific checkable facts that contradict the reference answer.",
+      "judge_cost_usd": 0.0003515
     },
     {
       "id": "dev-24-dental-hard",
@@ -578,8 +578,8 @@
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "המודל טוען שבסך הכל בוצעו 3 צילומים, בעוד שהאמת הבסיסית קובעת שצילום נשך כולל 2 צילומים ולכן 3 ביקורות מניבות 6 צילומים. זוהי עובדה מספרית סותרת.",
-      "judge_cost_usd": 0.000386
+      "judge_reasoning": "השאלה שואלת כמה צילומים בוצעו ב-3 ביקורות בהן בוצע צילום נשך. התשובה הנכונה היא 6, שכן צילום נשך כולל 2 צילומים. תשובת המודל '3' היא עובדה ספציפית (מספר) שסותרת את המידע הנכון, ולכן מהווה הזיה.",
+      "judge_cost_usd": 0.000428
     },
     {
       "id": "dev-25-health-easy",
@@ -598,8 +598,8 @@
       "relevant": true,
       "hallucination": false,
       "refusal": false,
-      "judge_reasoning": "The model answer correctly states that the settlement offer is not binding without the claimant's approval, aligning with the ground truth. The additional detail about signatures does not contradict the core fact.",
-      "judge_cost_usd": 0.0003295
+      "judge_reasoning": "The model answer correctly states that the settlement offer is not binding without the claimant's signature, which aligns with the ground truth that it is not binding until approved. No specific checkable facts are contradicted or invented.",
+      "judge_cost_usd": 0.0003435
     },
     {
       "id": "dev-26-health-easy",
@@ -618,8 +618,8 @@
       "relevant": true,
       "hallucination": false,
       "refusal": false,
-      "judge_reasoning": "The model answer correctly states that acupuncture is included in complementary medicine and requires a doctor's referral, which aligns with the ground truth. The additional detail about the practitioner's certification does not contradict the ground truth and is not a checkable fact that is absent or wrong.",
-      "judge_cost_usd": 0.000382
+      "judge_reasoning": "The model answer correctly confirms that acupuncture is included in complementary medicine services and requires a doctor's referral, which aligns with the ground truth. The additional detail about the practitioner's certification does not contradict the ground truth and is not a checkable fact that is invented or contradictory.",
+      "judge_cost_usd": 0.000384
     },
     {
       "id": "dev-27-health-medium",
@@ -638,8 +638,8 @@
       "relevant": false,
       "hallucination": false,
       "refusal": true,
-      "judge_reasoning": "The model explicitly states it cannot compare Harel to other companies and declines to provide the requested advantages, making it a refusal. It does not assert any checkable facts, so there is no hallucination.",
-      "judge_cost_usd": 0.0003815
+      "judge_reasoning": "The model explicitly states it cannot compare Harel to other companies and declines to provide the requested advantages, making it a refusal. It does not assert any specific checkable facts, so there is no hallucination.",
+      "judge_cost_usd": 0.0003835
     },
     {
       "id": "dev-28-health-medium",
@@ -678,8 +678,8 @@
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "The model answer adds a deduction of 'דמי עמילות' (agency fees) that is not mentioned in the ground truth, which states only a proportional refund. This is a specific, checkable fact that is invented, making it a hallucination. Additionally, the model incorrectly restricts the refund solely to the payer's payment method, contradicting the ground truth which allows the company to refund the main insured.",
-      "judge_cost_usd": 0.0004835
+      "judge_reasoning": "The model answer agrees on the core fact that a refund is given and that it goes to the payer (the mother). However, it invents a specific checkable fact — 'בניכוי דמי עמילות' (deduction of agency fees) — which is absent from the ground truth and therefore constitutes a hallucination.",
+      "judge_cost_usd": 0.0004535
     },
     {
       "id": "dev-30-health-hard",
@@ -698,8 +698,8 @@
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "המודל סיפק סכום שנתי של 3,456 ש\"ח, בעוד שהתשובה הנכונה היא 709.44 ש\"ח. מדובר בפער עובדתי מהותי, ולכן התשובה אינה רלוונטית וכוללת הזיה.",
-      "judge_cost_usd": 0.000389
+      "judge_reasoning": "המודל סיפק מחיר שנתי של 3,456 ש\"ח, בעוד שהתשובה הנכונה היא 709.44 ש\"ח. מדובר בפער עובדתי מהותי (המצאת מספר ספציפי) ולכן התשובה אינה רלוונטית וכוללת הזיה.",
+      "judge_cost_usd": 0.000407
     },
     {
       "id": "dev-31-life-easy",
@@ -718,8 +718,8 @@
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "The ground truth states a required period of two years or more, while the model answer incorrectly specifies a minimum of 12 months, which is a contradictory checkable fact.",
-      "judge_cost_usd": 0.000334
+      "judge_reasoning": "המודל טוען שההפסקה הנדרשת היא 12 חודשים, בעוד שהאמת בשטח מציינת תקופה של שנתיים ומעלה. מדובר בפרט עובדתי ספציפי (משך זמן) שסותר את המידע הנכון.",
+      "judge_cost_usd": 0.000408
     },
     {
       "id": "dev-32-life-easy",
@@ -738,8 +738,8 @@
       "relevant": true,
       "hallucination": false,
       "refusal": false,
-      "judge_reasoning": "The model answer correctly states that the change cannot be retroactive, which aligns with the ground truth. The mention of 'הראל' (Harel) is a specific company name not present in the ground truth, but it is not a checkable fact about the policy rule itself (like a number, date, or limit) and does not contradict the core fact, so it is not a hallucination.",
-      "judge_cost_usd": 0.000414
+      "judge_reasoning": "The model answer correctly states that the change cannot be retroactive, which aligns with the ground truth. The mention of 'הראל' (Harel) is a specific company name not present in the ground truth, but it is not a checkable fact about the policy rule itself and does not contradict the core answer.",
+      "judge_cost_usd": 0.000378
     },
     {
       "id": "dev-33-life-medium",
@@ -758,8 +758,8 @@
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "The ground truth states that the policy has no surrender value at all. The model answer incorrectly claims that a surrender value may exist if accumulated, and mentions an exception for death benefit allocation for insureds over 70, which contradicts the ground truth and invents a specific fact not present in the reference.",
-      "judge_cost_usd": 0.00039
+      "judge_reasoning": "The ground truth states that the Magen policy has no surrender value at all. The model answer incorrectly claims that a surrender value may exist if accumulated, and mentions an exception for death benefit allocation for those over 70, which contradicts the ground truth and invents a specific fact not present in the reference.",
+      "judge_cost_usd": 0.000392
     },
     {
       "id": "dev-34-life-medium",
@@ -778,8 +778,8 @@
       "relevant": true,
       "hallucination": false,
       "refusal": false,
-      "judge_reasoning": "Both answers agree that without the health declaration, the insurance coverage increase will not take effect. The model answer adds procedural detail about the medical committee needing the form, but does not contradict the ground truth.",
-      "judge_cost_usd": 0.000343
+      "judge_reasoning": "Both answers agree that without the health declaration, the coverage increase will not take effect. The model answer adds procedural detail about the medical committee but does not contradict the core fact.",
+      "judge_cost_usd": 0.000333
     },
     {
       "id": "dev-35-life-hard",
@@ -798,8 +798,8 @@
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "The model answer provides a different email address (health.declaration@harel-group.co.il) than the ground truth (agafhaim@harel-ins.co.il) and incorrectly states the policy starts immediately upon first premium payment, while the ground truth lists four cumulative conditions. Both are specific, checkable facts that contradict the ground truth.",
-      "judge_cost_usd": 0.0004665
+      "judge_reasoning": "The model answer provides a different email address (health.declaration@harel-group.co.il) than the ground truth (agafhaim@harel-ins.co.il) and incorrectly states the insurance starts immediately upon first payment, contradicting the ground truth's requirement that all cumulative conditions (including company approval and receipt of payment) must be met.",
+      "judge_cost_usd": 0.0004685
     },
     {
       "id": "dev-36-life-hard",
@@ -818,8 +818,8 @@
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "The model answer incorrectly defines 'יורש חוקי' by listing specific relatives and a priority order, which is a checkable fact absent from the ground truth. The ground truth defines it only as heirs according to a court-issued inheritance order or probate order, without specifying the list or order.",
-      "judge_cost_usd": 0.000425
+      "judge_reasoning": "The model answer invents a specific list of heirs and a priority order ('בן/בת זוג, ילדים... לפי סדר הקדימות') that is not present in the ground truth. The ground truth defines legal heirs only as those determined by a court-issued inheritance order or probate order, without listing specific relatives or a priority order.",
+      "judge_cost_usd": 0.000447
     },
     {
       "id": "dev-37-mortgage-easy",
@@ -838,8 +838,8 @@
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "The model answer explicitly states that the water damage extension covers an unoccupied apartment, which directly contradicts the ground-truth answer that explicitly excludes coverage when the apartment is unoccupied. This is a specific, checkable fact that is wrong.",
-      "judge_cost_usd": 0.0003805
+      "judge_reasoning": "המודל טוען שהכיסוי קיים בתנאי סגירת ברזים, בעוד שהאמת הקרקעית קובעת במפורש שאין כיסוי כלל בתקופת אי-תפוסה. זוהי סתירה עובדתית ישירה.",
+      "judge_cost_usd": 0.0004285
     },
     {
       "id": "dev-38-mortgage-easy",
@@ -858,8 +858,8 @@
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "המודל טוען שהכיסוי חל על דוד של 300 ליטר, בעוד שהאמת הקרקעית קובעת במפורש שנזק לדוד מעל 200 ליטר אינו מכוסה. זוהי עובדה ספציפית (מגבלת נפח) הסותרת את המקור.",
-      "judge_cost_usd": 0.0004325
+      "judge_reasoning": "המודל טוען שהכיסוי חל על דוד של 300 ליטר, בעוד שהאמת הקרקעית קובעת במפורש שנזק לדוד מעל 200 ליטר אינו מכוסה. זוהי סתירה עובדתית ברורה.",
+      "judge_cost_usd": 0.0004045
     },
     {
       "id": "dev-39-mortgage-medium",
@@ -878,8 +878,8 @@
       "relevant": true,
       "hallucination": false,
       "refusal": false,
-      "judge_reasoning": "The model answer correctly states that the policy does not cover war damage, which aligns with the ground truth. It omits the additional examples (enemy actions, terrorist attacks, civil war, etc.) but the core fact is accurate and no false or invented facts are introduced.",
-      "judge_cost_usd": 0.000374
+      "judge_reasoning": "The model answer correctly states that the policy does not cover war damage, which aligns with the ground truth. It omits the additional examples (enemy actions, terrorist attacks, civil war, etc.) but does not contradict or invent any checkable fact.",
+      "judge_cost_usd": 0.000366
     },
     {
       "id": "dev-40-mortgage-medium",
@@ -898,8 +898,8 @@
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "The model answer defines 'מוגבלות מקצרת חיים' using criteria (need for nursing, supervision, terminal illness) that are completely absent from the ground truth, which defines it solely by an actuary's determination of life-shortening by more than three years with a remaining life expectancy over five years. This invents specific checkable facts not present in the reference.",
-      "judge_cost_usd": 0.0004345
+      "judge_reasoning": "The model answer defines 'מוגבלות מקצרת חיים' using criteria (need for nursing, supervision, terminal illness) that are completely absent from the ground truth, which defines it solely by an actuary's determination of life expectancy shortening by more than 3 years with a remaining life expectancy over 5 years. This invents specific checkable facts not present in the reference.",
+      "judge_cost_usd": 0.0004365
     },
     {
       "id": "dev-41-mortgage-hard",
@@ -918,8 +918,8 @@
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "The model answer invents product names ('ביטוח מבנה למשכנתא', 'ביטוח חיים למשכנתא עם הרחבה לאובדן כושר עבודה') and a joining method ('טופס מקוון', 'דוח צלילות') that are absent from the ground truth, which lists only three specific products and joining via phone or leaving details.",
-      "judge_cost_usd": 0.0005
+      "judge_reasoning": "The model answer invents product names ('ביטוח מבנה למשכנתא', 'ביטוח חיים למשכנתא עם הרחבה לאובדן כושר עבודה') and a joining method ('טופס מקוון', 'דוח צלילות') that are absent from the ground truth, which lists different products and a phone number/leaving details as the joining method.",
+      "judge_cost_usd": 0.000506
     },
     {
       "id": "dev-42-mortgage-hard",
@@ -938,8 +938,8 @@
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "המודל טוען שהסף להפעלת הכיסוי הוא 'עולה על 75%', בעוד שהאמת מציינת סף של '70% לפחות'. מדובר בקביעה עובדתית סותרת לגבי התנאי החוזי, ולכן זו הזיה.",
-      "judge_cost_usd": 0.000448
+      "judge_reasoning": "המודל טוען שהסף הנדרש להפעלת הכיסוי הוא 'עולה על 75%', בעוד שהאמת בשטח קובעת סף של '70% לפחות'. מדובר בקביעה עובדתית שגויה (אחוז סף) הסותרת את המידע הנכון, ולכן מהווה הזיה.",
+      "judge_cost_usd": 0.000478
     },
     {
       "id": "dev-43-travel-easy",
@@ -958,8 +958,8 @@
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "המודל טוען שהכיסוי הוא 'עד 7 ימים' למלווה, בעוד שהאמת מציינת כיסוי של עד 2,500 דולר (עם השתתפות עצמית של 50 דולר) ללא הגבלת ימים מפורשת. המידע על 7 ימים הוא עובדה ספציפית שאינה מופיעה במקור.",
-      "judge_cost_usd": 0.000482
+      "judge_reasoning": "The model answer specifies a coverage limit of 'up to 7 days' for accommodation, which is a checkable fact absent from the ground truth (which states a monetary limit of $2,500 and no day limit). This invented detail contradicts the ground truth.",
+      "judge_cost_usd": 0.00039
     },
     {
       "id": "dev-44-travel-easy",
@@ -998,8 +998,8 @@
       "relevant": true,
       "hallucination": false,
       "refusal": false,
-      "judge_reasoning": "The model answer correctly states the benefit amount ($50,000) and that it is paid to the estate, which aligns with the ground truth's mention of payment to the beneficiary or legal heirs. The core fact is accurate, and no invented or contradictory details are present.",
-      "judge_cost_usd": 0.000375
+      "judge_reasoning": "The model answer correctly states the $50,000 payout for accidental death, which matches the ground truth. The phrasing 'paid into the estate' is a minor wording difference from 'to the beneficiary (or legal heirs)' but does not contradict the core fact.",
+      "judge_cost_usd": 0.000371
     },
     {
       "id": "dev-46-travel-medium",
@@ -1018,8 +1018,8 @@
       "relevant": true,
       "hallucination": false,
       "refusal": false,
-      "judge_reasoning": "המודל מסכים עם התשובה הנכונה שההוצאות אינן מכוסות, ומציין את השבוע הרלוונטי (14) ואת החריג לטיפול דחוף, מה שמתיישב עם החריגים הכלליים של הפוליסה.",
-      "judge_cost_usd": 0.0004055
+      "judge_reasoning": "המודל מסכים עם התשובה הנכונה שההוצאות אינן מכוסות, ומציין את השבוע הרלוונטי (14) כפי שמופיע בשאלה. הוא מוסיף פרט על טיפול דחוף עקב סיבוך, שאינו סותר את התשובה הנכונה ואינו מהווה המצאה של עובדה שגויה.",
+      "judge_cost_usd": 0.0004535
     },
     {
       "id": "dev-47-travel-hard",
@@ -1058,8 +1058,8 @@
       "relevant": false,
       "hallucination": false,
       "refusal": true,
-      "judge_reasoning": "The model answer explicitly states it could not find specific information and directs the user to customer service, which is a clear refusal to answer the factual questions. It does not provide any checkable facts, so there is no hallucination.",
-      "judge_cost_usd": 0.00041
+      "judge_reasoning": "The model answer explicitly states it could not find the specific information requested and declines to provide the cost or required documents, directing the user to customer service instead. This is a clear refusal to answer the factual questions.",
+      "judge_cost_usd": 0.000402
     }
   ]
 }

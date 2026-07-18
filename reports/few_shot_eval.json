@@ -1,26 +1,26 @@
 {
-  "run_label": "DeepSeek few-shot",
+  "run_label": "Few-shot + cite",
   "total": 48,
   "relevance_rate": 0.3541666666666667,
-  "hallucination_rate": 0.6041666666666666,
-  "refusal_rate": 0.020833333333333332,
+  "hallucination_rate": 0.625,
+  "refusal_rate": 0.0,
   "citation_accuracy": 0.0,
   "latency_ms_avg": 2185.4892124732337,
   "latency_ms_p50": 1425.8909225463867,
-  "judge_cost_usd": 0.019672500000000002,
+  "judge_cost_usd": 0.0195945,
   "by_difficulty": {
     "easy": {
       "count": 16,
-      "relevance_rate": 0.5625,
-      "hallucination_rate": 0.4375,
+      "relevance_rate": 0.5,
+      "hallucination_rate": 0.5,
       "refusal_rate": 0.0,
       "citation_accuracy": 0.0,
       "latency_ms_avg": 2371.508374810219
     },
     "hard": {
       "count": 16,
-      "relevance_rate": 0.1875,
-      "hallucination_rate": 0.75,
+      "relevance_rate": 0.25,
+      "hallucination_rate": 0.6875,
       "refusal_rate": 0.0,
       "citation_accuracy": 0.0,
       "latency_ms_avg": 2117.2467917203903
@@ -28,8 +28,8 @@
     "medium": {
       "count": 16,
       "relevance_rate": 0.3125,
-      "hallucination_rate": 0.625,
-      "refusal_rate": 0.0625,
+      "hallucination_rate": 0.6875,
+      "refusal_rate": 0.0,
       "citation_accuracy": 0.0,
       "latency_ms_avg": 2067.7124708890915
     }
@@ -46,14 +46,14 @@
     "business": {
       "count": 6,
       "relevance_rate": 0.5,
-      "hallucination_rate": 0.5,
+      "hallucination_rate": 0.3333333333333333,
       "refusal_rate": 0.0,
       "citation_accuracy": 0.0,
       "latency_ms_avg": 1414.7886037826538
     },
     "car": {
       "count": 6,
-      "relevance_rate": 0.16666666666666666,
+      "relevance_rate": 0.3333333333333333,
       "hallucination_rate": 0.6666666666666666,
       "refusal_rate": 0.0,
       "citation_accuracy": 0.0,
@@ -70,8 +70,8 @@
     "health": {
       "count": 6,
       "relevance_rate": 0.6666666666666666,
-      "hallucination_rate": 0.16666666666666666,
-      "refusal_rate": 0.16666666666666666,
+      "hallucination_rate": 0.3333333333333333,
+      "refusal_rate": 0.0,
       "citation_accuracy": 0.0,
       "latency_ms_avg": 1740.767240524292
     },
@@ -85,8 +85,8 @@
     },
     "mortgage": {
       "count": 6,
-      "relevance_rate": 0.16666666666666666,
-      "hallucination_rate": 0.8333333333333334,
+      "relevance_rate": 0.0,
+      "hallucination_rate": 1.0,
       "refusal_rate": 0.0,
       "citation_accuracy": 0.0,
       "latency_ms_avg": 1432.491620381673
@@ -110,14 +110,16 @@
       "ground_truth_answer": "לא, ככלל הגשת תביעה לגוף מוסדי אינה עוצרת את מרוץ ההתיישנות ורק הגשת תביעה לבית משפט עוצרת אותו.",
       "latency_ms": 8753.473043441772,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['apartment/files/חוברת-הכללים-לגבי-פוליסות-שנרכשו-לאחר-ה-030917.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "The model answer explicitly states that a written claim to the insurance company stops the statute of limitations, which directly contradicts the ground truth that only filing a lawsuit in court stops it. This is a specific, checkable legal fact that is incorrect.",
-      "judge_cost_usd": 0.000366
+      "judge_reasoning": "The model answer directly contradicts the ground truth by stating that a written claim to the insurance company stops the statute of limitations, whereas the ground truth explicitly says it does not and only filing a court claim does.",
+      "judge_cost_usd": 0.000352
     },
     {
       "id": "dev-02-apartment-easy",
@@ -128,14 +130,16 @@
       "ground_truth_answer": "כן, תקופת ההתיישנות של תביעה לתגמולי ביטוח היא שלוש שנים לאחר שקרה מקרה הביטוח.",
       "latency_ms": 8521.454095840454,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['apartment/files/הודעה-על-תקופת-התיישנות.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": true,
       "hallucination": false,
       "refusal": false,
-      "judge_reasoning": "The model answer correctly states the 3-year limitation period from the date of the insured event, which matches the ground truth exactly. No invented or contradictory facts are present.",
-      "judge_cost_usd": 0.0003245
+      "judge_reasoning": "The model answer correctly states that a claim must be filed within 3 years from the date of the insured event, which matches the ground truth exactly. No invented or contradictory facts are present.",
+      "judge_cost_usd": 0.0003325
     },
     {
       "id": "dev-03-apartment-medium",
@@ -146,14 +150,16 @@
       "ground_truth_answer": "לא. חוק פיצוי נפגעי אסון טבע אמנם כולל רעידות אדמה, אך הוא מתייחס לנזקים לתשתית חקלאית בלבד — המדינה אינה מחויבת לפצות אזרחים על נזקים למבני מגורים. לכן חשוב לא לוותר על כיסוי רעידת אדמה בביטוח הדירה.",
       "latency_ms": 9826.725959777832,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['apartment/pages/earthquak-insurance-coverage.txt'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "המודל טוען שהמדינה מחויבת לפצות על נזקי רעידת אדמה למבני מגורים לפי חוק מיסוי מקרקעין, עם מגבלה של 5% משווי המבנה. האמת היא שהמדינה אינה מחויבת לפצות על נזקים למבני מגורים כלל (החוק מתייחס לתשתית חקלאית בלבד). לכן המודל ממציא עובדה ספציפית (חובת פיצוי ומגבלת 5%) שאינה קיימת במקור.",
-      "judge_cost_usd": 0.000615
+      "judge_reasoning": "The model answer incorrectly claims the state is obligated to compensate for earthquake damage under the Land Taxation Law, up to 5% of the building's value, which contradicts the ground truth that state compensation only covers agricultural infrastructure. This is a specific, checkable fact that is both invented and contradictory.",
+      "judge_cost_usd": 0.000453
     },
     {
       "id": "dev-04-apartment-medium",
@@ -164,14 +170,16 @@
       "ground_truth_answer": "עד סכום השווה בשקלים ל-6,000 ₪ ביום קרות מקרה הביטוח.",
       "latency_ms": 954.8630714416504,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['apartment/files/פוליסה-לביטוח-דירה-ותכולתה-ש-מהדורת-אוגוסט-2020.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "המודל טוען לסכום של 50,000 ש\"ח, בעוד שהאמת הקרקעית מציינת סכום של 6,000 ש\"ח. מדובר בקביעה עובדתית סותרת, ולכן יש הזיה.",
-      "judge_cost_usd": 0.000379
+      "judge_reasoning": "המודל טוען לסכום של 50,000 ש\"ח, בעוד שהתשובה הנכונה היא 6,000 ש\"ח. מדובר בקביעה עובדתית סותרת ולכן מהווה הזיה.",
+      "judge_cost_usd": 0.000367
     },
     {
       "id": "dev-05-apartment-hard",
@@ -182,15 +190,16 @@
       "ground_truth_answer": "בשני המקרים ההצטרפות נעשית דרך סוכן הביטוח שלך: גם לביטוח \"עד הגג\" לבית המשותף וגם לביטוח Fine Art Collector's Insurance לאוספי אומנות יש לפנות לסוכן הביטוח להצטרפות.",
       "latency_ms": 10985.503911972046,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['apartment/pages/condominium.txt'])",
-        "group 2: miss (expected one of ['apartment/pages/fine-art-collector.txt'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "The model answer invents specific checkable facts (a phone call only for the building insurance, a phone call or in-person meeting for art insurance, and a requirement for a health declaration) that are absent from the ground truth, which simply states both are done through an insurance agent.",
-      "judge_cost_usd": 0.000429
+      "judge_reasoning": "The ground truth states that joining both insurances is done through your insurance agent. The model answer invents specific checkable facts (a phone call only for the building, a phone call or frontal meeting for art, and a requirement for health declaration) that are absent from the ground truth and contradict the agent-based process.",
+      "judge_cost_usd": 0.000445
     },
     {
       "id": "dev-06-apartment-hard",
@@ -201,14 +210,16 @@
       "ground_truth_answer": "24,000 ש\"ח. אחריות המבטח בהרחבה לצמחים, מדשאות ומערכות השקיה מוגבלת ל-2% מסכום הביטוח לפרק ביטוח הדירה: 2% × 1,200,000 = 24,000 ש\"ח.",
       "latency_ms": 1612.907886505127,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['apartment/files/תנאי-פוליסת-ביטוח-דירה-אדירה-כסף-מהדורת-פברואר-2025.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "המודל טוען שהכיסוי מוגבל ל-1% ומציג סכום של 12,000 ש\"ח, בעוד שהאמת מציינת 2% ו-24,000 ש\"ח. מדובר בקביעה עובדתית סותרת (אחוז וסכום) ולכן יש הזיה.",
-      "judge_cost_usd": 0.0004635
+      "judge_reasoning": "המודל טוען שהכיסוי מוגבל ל-1% ומגיע ל-12,000 ש\"ח, בעוד שהאמת מציינת 2% ו-24,000 ש\"ח. מדובר בנתון ספציפי (אחוז וסכום) שסותר את התשובה הנכונה, ולכן מהווה הזיה.",
+      "judge_cost_usd": 0.0004775
     },
     {
       "id": "dev-07-business-easy",
@@ -219,14 +230,16 @@
       "ground_truth_answer": "לא. הפרק מחריג במפורש את חבות המבוטח כלפי קבלן, עובד של קבלן או קבלן משנה, עובד של קבלן משנה ועובדי חברות כוח אדם.",
       "latency_ms": 1404.237985610962,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['business/files/תנאי-פוליסת-ביטוח-מכלול-למשרד-מהדורת-ינואר-2024-באנגלית.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "The model answer directly contradicts the ground truth by stating that the policy covers liability towards subcontractor employees, whereas the ground truth explicitly states that such liability is excluded. This is a specific, checkable fact that is wrong.",
-      "judge_cost_usd": 0.000374
+      "judge_reasoning": "The model answer directly contradicts the ground truth by stating that the policy covers liability towards subcontractor employees, whereas the ground truth explicitly says it is excluded. This is a specific, checkable fact that is wrong.",
+      "judge_cost_usd": 0.00037
     },
     {
       "id": "dev-08-business-easy",
@@ -237,14 +250,16 @@
       "ground_truth_answer": "כן. הפוליסה קובעת שבמשך תקופת הביטוח על המבוטח לגלות למבטח בכתב כל שינוי בעניין מהותי, באופן מיידי מעת שנודע לו על כך.",
       "latency_ms": 1253.530740737915,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['business/files/פוליסה-לביטוח-ציוד-אלקטרוני-הראל-ביט-ינואר-2023.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": true,
       "hallucination": false,
       "refusal": false,
-      "judge_reasoning": "The model answer correctly states that the insured must notify the insurance company in writing of any material change, which aligns with the ground truth. The slight difference in phrasing ('בהקדם האפשרי' vs. 'באופן מיידי') does not change the core fact.",
-      "judge_cost_usd": 0.00039
+      "judge_reasoning": "התשובה של המודל מסכימה עם התשובה הנכונה בכך שהיא מאשרת את החובה להודיע בכתב על שינוי מהותי. ההבדל בניסוח ('בהקדם האפשרי' לעומת 'באופן מיידי') הוא מינורי ואינו משנה את העובדה המרכזית.",
+      "judge_cost_usd": 0.000438
     },
     {
       "id": "dev-09-business-medium",
@@ -255,14 +270,16 @@
       "ground_truth_answer": "תקופת השיפוי מסתיימת בתום תקופת ההשבתה ולא יאוחר מ-100 ימים מתחילת ההשבתה, אלא אם נקבע אחרת ברשימה.",
       "latency_ms": 1048.5022068023682,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['business/files/תנאי-פוליסת-ביטוח-מכלול-למשרד-מהדורת-ינואר-2024-באנגלית.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "המודל טוען שהפיצוי ניתן עד 8 חודשים, בעוד שהאמת הקרקעית קובעת תקופה של עד 100 ימים. מדובר בקביעה עובדתית סותרת (משך זמן) ולכן מהווה הזיה.",
-      "judge_cost_usd": 0.0003875
+      "judge_reasoning": "The ground truth states the maximum indemnity period is 100 days, while the model answer claims it is 8 months. This is a direct contradiction of a specific checkable fact (the duration limit).",
+      "judge_cost_usd": 0.0003415
     },
     {
       "id": "dev-10-business-medium",
@@ -273,14 +290,16 @@
       "ground_truth_answer": "כן. פוליסת ביטוח ניסויים קליניים נדרשת עבור כל ניסוי קליני המאושר על-ידי ועדת הלסינקי, בהתאם לנוהלי משרד הבריאות. הפוליסה מכסה תביעות נזיקין של משתתפים בניסוי או צד ג' וכוללת כיסוי הוצאות הגנה משפטית.",
       "latency_ms": 1107.2139739990234,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['business/pages/clinical-trials.txt'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": true,
       "hallucination": false,
       "refusal": false,
-      "judge_reasoning": "The model answer correctly states that the initiator of a clinical trial is obligated to obtain insurance in advance, which aligns with the ground truth's requirement for clinical trial insurance approved by the Helsinki Committee. No specific checkable facts are contradicted or invented.",
-      "judge_cost_usd": 0.000388
+      "judge_reasoning": "The model answer correctly states that the clinical trial initiator is obligated to obtain insurance in advance, which aligns with the ground truth's requirement for clinical trial insurance approved by the Helsinki Committee. No specific checkable facts contradict or invent details beyond the ground truth.",
+      "judge_cost_usd": 0.00039
     },
     {
       "id": "dev-11-business-hard",
@@ -291,15 +310,16 @@
       "ground_truth_answer": "כן, בשתיהן יש תקרה: בשיר לעסק סך ההוצאות המוגדלות לא יעלה על הפסד ההכנסה שהיה נגרם אלמלא הוצאו. בהראל ביט הסכום שישולם על כל הוצאה לא יעלה על שיעור הרווח הגולמי כפול אותו חלק של המחזור שאובדנו נמנע בזכות ההוצאה, בניכוי סכומים שנחסכו בתקופת השיפוי.",
       "latency_ms": 1832.7088356018066,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['business/files/ביטוח-שיר-לעסק-ביטוח-לבית-העסק-מבית-שירביט-מהדורת-אפריל-2021.pdf'])",
-        "group 2: miss (expected one of ['business/files/פוליסה-משולבת-לביטוח-אש-מורחב-ואובדן-תוצאתי-הראל-ביט-ינואר-2023.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": false,
-      "hallucination": true,
+      "hallucination": false,
       "refusal": false,
-      "judge_reasoning": "The model answer provides specific but incorrect definitions for the caps in both policies. For 'שיר לעסק' it vaguely says 'defined in the coverage details' instead of the actual cap (expenses not exceeding the loss of income that would have occurred), and for 'הראל ביט' it invents a cap ('sum of independent caps') that contradicts the ground truth (gross profit rate times the turnover saved, minus saved sums).",
-      "judge_cost_usd": 0.000511
+      "judge_reasoning": "The model answer states that both policies have a cap, which agrees with the ground truth, but it fails to provide the specific caps required by the question. The ground truth details the exact formulas for each cap, while the model gives only vague descriptions ('מוגדרת בפירוט הכיסוי', 'סך התקרות הבלתי-תלויות'). Since the core fact asked is the specific cap, and the model does not provide it, the answer is incomplete and thus not fully relevant.",
+      "judge_cost_usd": 0.000535
     },
     {
       "id": "dev-12-business-hard",
@@ -310,14 +330,16 @@
       "ground_truth_answer": "בביטוח כפל המבטחים מתחלקים ביניהם לפי היחס שבין סכומי הביטוח: הראל תישא ב-75% (300,000 מתוך 400,000 = 3/4) והמבטח האחר ב-25% (100,000 מתוך 400,000 = 1/4). כלפיך כל מבטח אחראי לחוד על מלוא הסכום, ועליך להודיע למבטח מיד על ביטוח הכפל.",
       "latency_ms": 1842.5378799438477,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['business/files/פוליסת-מכלול-לחבר-מושב-מהדורת-ינואר-2023.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": true,
       "hallucination": false,
       "refusal": false,
-      "judge_reasoning": "The model answer correctly states the proportional split (75% from Harel, 25% from the other insurer) based on the sum insured, which matches the ground truth. It omits the additional detail about each insurer being individually liable for the full amount and the duty to notify, but the core fact asked is present and correct.",
-      "judge_cost_usd": 0.0004805
+      "judge_reasoning": "The model answer correctly states the proportional split (75% from Harel, 25% from the other insurer) based on the sum insured, which matches the core fact in the ground truth. It omits the additional procedural note about notifying the insurer, but that does not contradict the ground truth and the main factual question is answered accurately.",
+      "judge_cost_usd": 0.0004845
     },
     {
       "id": "dev-13-car-easy",
@@ -328,14 +350,16 @@
       "ground_truth_answer": "כן, במקרה שהמפתחות ננעלו בתוך הרכב יגיע נציג מטעם נותן השירות למקום הרכב וינסה לפרוץ אותו.",
       "latency_ms": 1284.9671840667725,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['car/files/פוליסה-לביטוח-רכב-פרטי-ורכב-מסחרי-עד-35-טון-מבית-שירביט-מהדורת-יוני-2023.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": true,
       "hallucination": false,
       "refusal": false,
-      "judge_reasoning": "המודל מסכים עם התשובה הנכונה ומספק פרטים נוספים (זמינות 24/7, עד 3 אירועים בשנה) שאינם סותרים את המידע הבסיסי, ולכן התשובה רלוונטית, אינה סרבנית ואינה הוזיה.",
-      "judge_cost_usd": 0.0004135
+      "judge_reasoning": "המודל מסכים עם התשובה הנכונה ומספק פרטים נוספים (24/7, עד 3 אירועים) שאינם סותרים את המידע הבסיסי, אך לא ניתן לאמת אותם מול התשובה הנכונה. לכן, אין סתירה או המצאה של עובדה מהותית.",
+      "judge_cost_usd": 0.0004235
     },
     {
       "id": "dev-14-car-easy",
@@ -346,14 +370,16 @@
       "ground_truth_answer": "לא, בכל מקרה של מתן שירות החלפת גלגל משלם מקבל השירות דמי השתתפות עצמית בסך 59 ₪ כולל מע\"מ לנותן השירות.",
       "latency_ms": 1355.3621768951416,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['car/files/פוליסה-לביטוח-רכב-פרטי-ורכב-מסחרי-עד-35-טון-מבית-שירביט-מהדורת-יוני-2023.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "The model answer incorrectly states the service is free except for materials or Highway 6 equipment, while the ground truth specifies a mandatory 59 NIS participation fee. This contradicts the ground truth and invents a different cost structure.",
-      "judge_cost_usd": 0.000354
+      "judge_reasoning": "The model answer incorrectly states the service is free except for materials or Highway 6 equipment, while the ground truth specifies a mandatory 59 NIS participation fee for any tire replacement service. This contradicts the ground truth and invents a different cost structure.",
+      "judge_cost_usd": 0.000364
     },
     {
       "id": "dev-15-car-medium",
@@ -364,14 +390,16 @@
       "ground_truth_answer": "כן, ביטוח צד ג' לרכב של הראל כולל ביטוח על אובדן מפתחות או שלטים לרכב ללא תשלום פרמיה נוספת.",
       "latency_ms": 1407.9322814941406,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['car/pages/third-party.txt'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "The model answer contradicts the ground truth by stating that third-party insurance does not cover lost keys/remote, while the ground truth explicitly says it does, without extra premium. The model also invents specific extensions ('שירותי דרך', 'רכב חלופי') and an extra payment requirement that are absent from the ground truth.",
-      "judge_cost_usd": 0.0004095
+      "judge_reasoning": "The model answer contradicts the ground truth by stating that third-party insurance alone does not cover lost keys/remote, and that such coverage requires a paid add-on. The ground truth explicitly says it is included without additional premium.",
+      "judge_cost_usd": 0.0003615
     },
     {
       "id": "dev-16-car-medium",
@@ -382,14 +410,16 @@
       "ground_truth_answer": "מצטרפים בעת היציאה מהארץ, בעמדת המכירה של מילגם הממוקמת במעבר הגבול.",
       "latency_ms": 1087.0840549468994,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['car/pages/traveler-car.txt'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "The ground truth states the insurance is purchased at the Milgam sales point at the border crossing, while the model answer claims it is sold via a direct telephone sale at a specific number. This contradicts the ground truth on the core fact of where/how to purchase, and the phone number is an invented checkable fact absent from the ground truth.",
-      "judge_cost_usd": 0.000385
+      "judge_reasoning": "המודל טוען שהביטוח נמכר במוקד טלפוני ומספק מספר טלפון, בעוד שהאמת הבסיסית מציינת שהרכישה מתבצעת בעמדת מכירה במעבר הגבול. המספר הטלפוני הוא עובדה ספציפית שאינה מופיעה במקור.",
+      "judge_cost_usd": 0.000421
     },
     {
       "id": "dev-17-car-hard",
@@ -400,15 +430,16 @@
       "ground_truth_answer": "בהראל סוויץ' התשלום החודשי מורכב מרכיב קבוע ורכיב שמשתנה לפי הקילומטרים – נוסעים פחות, משלמים פחות, ומצטרפים אונליין או בטלפון *2010. בביטוח המקיף הרגיל מקבלים הגנה מקיפה מפני תאונה, גניבה, שריפה ונזקי טבע, ומצטרפים בהשארת פרטים או בטלפון *2010.",
       "latency_ms": 2494.163990020752,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['car/pages/harel-switch.txt'])",
-        "group 2: miss (expected one of ['car/pages/comprehensive.txt'])"
+        "no citations provided"
       ],
-      "relevant": false,
+      "citation_reasoning": null,
+      "relevant": true,
       "hallucination": false,
       "refusal": false,
-      "judge_reasoning": "The model answer omits the core fact that the regular comprehensive insurance covers accident, theft, fire, and natural disasters, and it invents a '24/7' connection detail not in the ground truth. However, it does not contradict the ground truth with a specific checkable fact, so it is not a hallucination, but it fails to provide the required information, making it not relevant.",
-      "judge_cost_usd": 0.0005255
+      "judge_reasoning": "The model answer correctly distinguishes Switch as a usage-based policy (pay per driving) and regular comprehensive as standard immediate coverage, and provides valid joining methods for both, aligning with the ground truth's core facts.",
+      "judge_cost_usd": 0.0004475
     },
     {
       "id": "dev-18-car-hard",
@@ -419,14 +450,16 @@
       "ground_truth_answer": "1,882 ₪ — מנכים 5% מדמי הביטוח השנתיים (100 ₪) בתוספת 0.3% לכל יום החל מהיום השמיני, כלומר 3 ימים: 2,000 × 0.003 × 3 = 18 ₪. סך הניכוי 118 ₪, ולכן ההחזר: 2,000 − 118 = 1,882 ₪.",
       "latency_ms": 1604.4349670410156,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['car/files/מהדורת-יוני-2023-upgrade-פוליסת-הראל.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "המודל טוען שההחזר הוא 1,950 ₪, בעוד שהתשובה הנכונה היא 1,882 ₪. הוא מחשב את ההחזר לפי חישוב יחסי של 10 ימים (50 ₪), אך מתעלם מניכוי של 5% ומהחישוב היומי של 0.3% מהיום השמיני, ובכך ממציא סכום שגוי.",
-      "judge_cost_usd": 0.000523
+      "judge_reasoning": "The model answer states a specific refund amount (1,950 ₪) and a calculation method (10 days ≈ 50 ₪) that contradicts the ground-truth calculation (1,882 ₪ after deducting 5% + 0.3% per day from day 8). This is a specific, checkable fact that is incorrect.",
+      "judge_cost_usd": 0.000463
     },
     {
       "id": "dev-19-dental-easy",
@@ -437,14 +470,16 @@
       "ground_truth_answer": "כן, את הטופס המלא יחד עם המסמכים הנדרשים שולחים במייל לכתובת services@harel-ins.co.il.",
       "latency_ms": 1513.0460262298584,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['dental/files/טופס-כיסוי-הוצאות-רפואת-שיניים-באנגלית-dental-claim-form.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "The model answer provides a specific email address (claims1@harel-ins.co.il) that contradicts the ground-truth email address (services@harel-ins.co.il). This is a checkable fact that is incorrect, making it a hallucination.",
-      "judge_cost_usd": 0.000361
+      "judge_reasoning": "המודל מספק כתובת אימייל שגויה (claims1@harel-ins.co.il) שאינה תואמת את הכתובת הנכונה (services@harel-ins.co.il) המופיעה בתשובת האמת, ולכן עובדה ספציפית זו סותרת את האמת.",
+      "judge_cost_usd": 0.000409
     },
     {
       "id": "dev-20-dental-easy",
@@ -455,14 +490,16 @@
       "ground_truth_answer": "לא, אסור לתבוע החזר על אותם סכומים מגורמים שונים, וקבלת החזר כפול היא הפרה של הוראות הדין ותנאי הפוליסה.",
       "latency_ms": 1256.6840648651123,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['dental/files/טופס-כיסוי-הוצאות-רפואת-שיניים-באנגלית-dental-claim-form.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": true,
       "hallucination": false,
       "refusal": false,
-      "judge_reasoning": "Both answers agree that double recovery is not allowed. The model answer adds a specific operational detail (covering only the remaining co-pay after HMO reimbursement) that is consistent with the ground truth's prohibition and does not contradict it.",
-      "judge_cost_usd": 0.0003585
+      "judge_reasoning": "The model answer correctly states that double recovery is not allowed, which aligns with the ground truth. The additional detail about covering only the remaining self-participation does not contradict the ground truth and is a plausible elaboration.",
+      "judge_cost_usd": 0.0003525
     },
     {
       "id": "dev-21-dental-medium",
@@ -473,14 +510,16 @@
       "ground_truth_answer": "יש למלא טופס בקשה לביטול פוליסת ביטוח שיניים, ואפשר להגיש את הבקשה בכמה דרכים: דרך האזור האישי באתר (אונליין), במייל, בפקס, בפנייה למוקד שירות הלקוחות בטלפון 2735*, או באמצעות סוכן ביטוח.",
       "latency_ms": 4315.295934677124,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['dental/pages/cancellation.txt'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "The model answer provides a specific phone number (*6418) that contradicts the ground-truth number (*2735) and omits the required form and other submission methods (website, email, fax, agent), making it factually incorrect and containing a hallucinated detail.",
-      "judge_cost_usd": 0.000421
+      "judge_reasoning": "The model answer provides a specific phone number (*6418) that contradicts the ground-truth number (*2735). It also omits several valid cancellation methods (online, email, fax, agent) mentioned in the ground truth, but the contradictory specific fact is the primary issue.",
+      "judge_cost_usd": 0.000425
     },
     {
       "id": "dev-22-dental-medium",
@@ -491,14 +530,16 @@
       "ground_truth_answer": "לא. העברת תשלום בביט (וגם העברה בנקאית לחשבון מקבל הטיפול) אפשרית רק מגיל 18 ומעלה.",
       "latency_ms": 1542.612075805664,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['dental/files/377164_tofes_b_sofi_mail-מונגש-1.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "The model answer contradicts the ground truth by stating that a 17-year-old can receive payment via Bit, while the ground truth specifies this is only possible from age 18. The model also invents a fact about family transfers not present in the ground truth.",
-      "judge_cost_usd": 0.0003645
+      "judge_reasoning": "The model answer contradicts the ground truth by stating that a 17-year-old can receive payment via Bit, while the ground truth explicitly says this is only possible from age 18. The model also invents a specific age threshold (15) not present in the ground truth.",
+      "judge_cost_usd": 0.0003705
     },
     {
       "id": "dev-23-dental-hard",
@@ -509,15 +550,16 @@
       "ground_truth_answer": "את טופס הביטול שולחים לאגף הבריאות במייל polisotbs@harel-ins.co.il, והטלפון של אגף ביטוח השיניים בהראל הוא 03-7547222.",
       "latency_ms": 1289.8399829864502,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['dental/files/טופס-בקשה-לביטול-פוליסה-ביטוח-שיניים.pdf'])",
-        "group 2: miss (expected one of ['dental/files/377164_tofes_b_sofi_mail-מונגש-1.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "The model provides a different email address (H-Dental@harel-group.co.il) and a different phone number (03-7547500) than the ground truth (polisotbs@harel-ins.co.il and 03-7547222). Both are specific, checkable facts that contradict the reference, making the answer incorrect and hallucinated.",
-      "judge_cost_usd": 0.000433
+      "judge_reasoning": "The model provides a different email address (H-Dental@harel-group.co.il) and a different phone number (03-7547500) than the ground truth (polisotbs@harel-ins.co.il and 03-7547222). Both are specific checkable facts that contradict the reference, making the answer incorrect and hallucinated.",
+      "judge_cost_usd": 0.000431
     },
     {
       "id": "dev-24-dental-hard",
@@ -528,14 +570,16 @@
       "ground_truth_answer": "6 צילומים. צילום נשך כולל שני צילומים, ולכן 3 ביקורות × 2 צילומים = 6 צילומים.",
       "latency_ms": 834.1188430786133,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['dental/files/377164_tofes_b_sofi_mail-מונגש-1.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "המודל טוען שבסך הכל בוצעו 3 צילומים, בעוד שהאמת הקרקעית קובעת שצילום נשך כולל 2 צילומים ולכן 3 ביקורות מניבות 6 צילומים. זוהי עובדה מספרית סותרת.",
-      "judge_cost_usd": 0.000401
+      "judge_reasoning": "המודל טוען שבסך הכל בוצעו 3 צילומים, בעוד שהאמת הקרקעית קובעת שצילום נשך כולל 2 צילומים ולכן 3 ביקורות מניבות 6 צילומים. זוהי עובדה ספציפית (מספר) הסותרת את האמת.",
+      "judge_cost_usd": 0.000419
     },
     {
       "id": "dev-25-health-easy",
@@ -546,14 +590,16 @@
       "ground_truth_answer": "לא, כל עוד לא אישר התובע את הודעת הפשרה היא אינה מחייבת את הצדדים.",
       "latency_ms": 1820.7850456237793,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['health/files/מערכת-כללים-לבירור-וליישוב-תביעות-ביטוח-בריאות.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": true,
       "hallucination": false,
       "refusal": false,
-      "judge_reasoning": "The model answer correctly states that the offer is not binding until the claimant approves it, which matches the ground truth. The additional detail about signing and checking existing debts does not contradict the ground truth and is not a specific checkable fact that is invented or wrong.",
-      "judge_cost_usd": 0.0003765
+      "judge_reasoning": "The model answer correctly states that the offer is not binding until the claimant approves it, which matches the ground truth. It adds extra procedural detail (signature, checking debts) but does not contradict the core fact.",
+      "judge_cost_usd": 0.0003585
     },
     {
       "id": "dev-26-health-easy",
@@ -564,14 +610,16 @@
       "ground_truth_answer": "כן, אקופונקטורה נכללת ברשימת טיפולי הרפואה המשלימה שמנוי עם הפניה בכתב מרופא זכאי לבצע אצל נותן שירות שבהסכם.",
       "latency_ms": 2374.2239475250244,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['health/files/כתב-שירות-שירותי-רפואה-משלימה-אלטרנטיבית.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": true,
       "hallucination": false,
       "refusal": false,
-      "judge_reasoning": "The model answer correctly confirms that acupuncture is included, which matches the ground truth. The additional conditions mentioned (covered medical condition, waiting period, price cap) are not present in the ground truth but are general procedural context rather than specific contradictory facts, so no hallucination is triggered.",
-      "judge_cost_usd": 0.000394
+      "judge_reasoning": "The model answer correctly states that acupuncture is included, which matches the ground truth. The additional conditions mentioned (covered medical condition, waiting period, price cap) are not present in the ground truth but are general procedural details, not specific checkable facts that contradict the core answer.",
+      "judge_cost_usd": 0.000392
     },
     {
       "id": "dev-27-health-medium",
@@ -582,14 +630,16 @@
       "ground_truth_answer": "הראל היא חברת ביטוחי הבריאות הגדולה בישראל, ומציעה הטסת מנתחים מומחים מכל העולם, רשת רופאים מומחים בפריסה ארצית, הסכמים בינלאומיים עם מרכזים רפואיים, וכלים דיגיטליים מתקדמים עם מסלול מהיר לאישור תביעות בנושאי בדיקות, טיפולים ותרופות.",
       "latency_ms": 2185.8341693878174,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['health/pages/health.txt'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": false,
-      "hallucination": false,
-      "refusal": true,
-      "judge_reasoning": "The model explicitly states it lacks comparative information and cannot detail advantages over other companies, which constitutes a refusal. It then provides some general features of Harel's insurance, but these do not contradict the ground truth and are not specific checkable facts absent from it, so no hallucination is present.",
-      "judge_cost_usd": 0.000448
+      "hallucination": true,
+      "refusal": false,
+      "judge_reasoning": "The model answer invents specific features ('הראל 360', 'זמינות 24/7') that are not mentioned in the ground truth, while omitting the core advantages listed there (e.g., flying in surgeons, international agreements, digital tools). This constitutes hallucination of checkable facts.",
+      "judge_cost_usd": 0.000456
     },
     {
       "id": "dev-28-health-medium",
@@ -600,14 +650,16 @@
       "ground_truth_answer": "לא. אקנה מוחרג במפורש ואינו נחשב מקרה רפואי בתחום מחלות עור (יחד עם פטרת עורית חיצונית, נשירת שיער ומחלות מין); השירות ניתן רק למחלת עור בעלת אופי כרוני.",
       "latency_ms": 1548.063039779663,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['health/files/כתב-שירות-רופא-מלווה-אישי.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": true,
       "hallucination": false,
       "refusal": false,
-      "judge_reasoning": "The model correctly states that acne is not covered under the personal physician service for skin diseases, aligning with the ground truth that acne is excluded. The model mentions chronic conditions and exclusion, which matches the core fact, though it does not explicitly list the other excluded conditions.",
-      "judge_cost_usd": 0.0003945
+      "judge_reasoning": "The model correctly states that acne is not covered under the personal accompanying physician service for skin diseases, which aligns with the ground truth. It does not invent any contradictory or absent checkable facts.",
+      "judge_cost_usd": 0.0003645
     },
     {
       "id": "dev-29-health-hard",
@@ -618,15 +670,16 @@
       "ground_truth_answer": "כן - הביטול בתוקף ממועד קבלת ההודעה בחברה, ויוחזר החלק היחסי של הפרמיה ששולמה עבור התקופה שלאחר הביטול. ההחזר מבוצע לאמצעי התשלום שבו שולמה הפוליסה (אלא אם החברה תחליט להחזירו למבוטח הראשי).",
       "latency_ms": 1419.2461967468262,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['health/files/כתב-שירות-שירותי-רפואה-משלימה-אלטרנטיבית.pdf'])",
-        "group 2: miss (expected one of ['health/files/62025-טופס-הצעה-לביטוח-רפואי-ביטוח-בריאות.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": true,
       "hallucination": false,
       "refusal": false,
-      "judge_reasoning": "התשובה מסכימה עם העובדה המרכזית (החזר יחסי) ומציינת שהכסף יוחזר למשלם (האמא), מה שמתיישב עם החזר לאמצעי התשלום המקורי. תוספת 'בניכוי דמי ביטול' אינה מופיעה במקור, אך אינה סותרת עובדה קיימת ואינה מהווה המצאת נתון מספרי/תאריך/סכום, ולכן אינה הזיה.",
-      "judge_cost_usd": 0.0005475
+      "judge_reasoning": "התשובה מסכימה עם העובדה המרכזית שמגיע החזר יחסי ושהכסף יוחזר למשלם (האם). היא מוסיפה פרט על 'דמי ביטול' שאינו מופיע במקור, אך מדובר בפרט שולי שאינו סותר את האמת ואינו מהווה עובדה בדוקה מהותית, ולכן אינה הזיה.",
+      "judge_cost_usd": 0.0004975
     },
     {
       "id": "dev-30-health-hard",
@@ -637,14 +690,16 @@
       "ground_truth_answer": "709.44 ₪ לשנה: המחיר החודשי לגיל 31-40 הוא 59.12 ₪, כפול 12 חודשים = 709.44 ₪.",
       "latency_ms": 1096.4510440826416,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['health/files/גילוי-נאות-לניתוחים-upgrade.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "The model answer states a specific annual price (1,404 ₪) and monthly price (117 ₪) that contradict the ground truth (709.44 ₪ annually, 59.12 ₪ monthly). This is a checkable fact that is wrong, so it is a hallucination.",
-      "judge_cost_usd": 0.000387
+      "judge_reasoning": "המודל נוקב במחיר שגוי (1,404 ש\"ח) שסותר את המחיר הנכון (709.44 ש\"ח) המופיע בתשובת הבסיס, ולכן מדובר בהזיה עובדתית.",
+      "judge_cost_usd": 0.000383
     },
     {
       "id": "dev-31-life-easy",
@@ -655,14 +710,16 @@
       "ground_truth_answer": "כן, מי שהפסיק לעשן לתקופה ממושכת של שנתיים ומעלה יכול לעדכן את החברה בצירוף תצהיר מתאים כדי שתיבחן אפשרות לשינוי התעריף בכיסויים הרלוונטיים.",
       "latency_ms": 1437.1740818023682,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['life/files/הצהרת-בריאות-מלאה.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "המודל טוען שההגדרה דורשת 12 חודשים, בעוד שהאמת מציינת תקופה של שנתיים ומעלה. מדובר בנתון ספציפי שסותר את המקור.",
-      "judge_cost_usd": 0.00039
+      "judge_reasoning": "המודל טוען שההגדרה דורשת 12 חודשים, בעוד שהאמת מציינת שנתיים ומעלה. מדובר בנתון ספציפי שסותר את המקור.",
+      "judge_cost_usd": 0.000384
     },
     {
       "id": "dev-32-life-easy",
@@ -673,9 +730,11 @@
       "ground_truth_answer": "לא, השינויים יבוצעו החל מחודש הבקשה או מחודש קבלת המסמכים בחברה, לפי המאוחר מביניהם.",
       "latency_ms": 1425.8909225463867,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['life/files/טופס-בקשה-להקטנת-כיסויים-בפוליסת-ביטוח-למקרה-מוות.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": true,
       "hallucination": false,
       "refusal": false,
@@ -691,13 +750,15 @@
       "ground_truth_answer": "לא. לפוליסה זו אין ערכי פדיון ואין ערכי סילוק.",
       "latency_ms": 1359.1458797454834,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['life/files/תנאי_פוליסת_ביטוח_למקרה_מוות_-_מגן_1.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "The model answer contradicts the ground truth by stating that the policy accumulates a surrender value after 36 months, whereas the ground truth explicitly says there are no surrender values. This is a specific, checkable fact that is false.",
+      "judge_reasoning": "The model answer contradicts the ground truth by stating that the policy accumulates a surrender value after 36 months, whereas the ground truth explicitly says there are no surrender values. This is a specific, checkable fact that is incorrect.",
       "judge_cost_usd": 0.000348
     },
     {
@@ -709,14 +770,16 @@
       "ground_truth_answer": "ככל שלא תצורף הצהרת בריאות, הכיסוי הביטוחי לא ייכנס לתוקפו.",
       "latency_ms": 1309.2968463897705,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['life/files/טופס-בקשה-להוספת-או-הגדלת-כיסויים-פוליסת-ביטוח-למקרה-מוות.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": true,
       "hallucination": false,
       "refusal": false,
-      "judge_reasoning": "Both answers agree that without the health declaration the coverage will not take effect. The model adds that the application won't be processed and the declaration becomes part of the policy, which does not contradict the ground truth and does not invent a specific checkable fact absent from it.",
-      "judge_cost_usd": 0.000365
+      "judge_reasoning": "Both answers agree that without the health declaration the coverage will not take effect. The model adds that the application won't be processed and the declaration becomes part of the policy, which does not contradict the ground truth and does not invent a checkable fact absent from it.",
+      "judge_cost_usd": 0.000363
     },
     {
       "id": "dev-35-life-hard",
@@ -727,15 +790,16 @@
       "ground_truth_answer": "את הצהרת הבריאות שולחים לפקס 03-7348169 או למייל agafhaim@harel-ins.co.il. הפוליסה נכנסת לתוקף רק כשמתקיימים כל התנאים במצטבר: התקבל בחברה טופס הצעה לביטוח, החברה נתנה הסכמתה לעריכת הביטוח, החברה קיבלה את תשלום הפרמיה הראשונה (או אמצעי תשלום), והמבוטח חי באותו מועד.",
       "latency_ms": 1339.9789333343506,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['life/files/הצהרת-בריאות-מלאה.pdf'])",
-        "group 2: miss (expected one of ['life/files/הראל-מגן-משלים-לילד-144.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "The model answer provides a different email address (Life.Health@harel-group.co.il) than the ground truth (agafhaim@harel-ins.co.il) and omits the fax option, which is a specific checkable fact that contradicts the ground truth. It also fails to mention the cumulative conditions for the policy to take effect, making it incomplete.",
-      "judge_cost_usd": 0.0004645
+      "judge_reasoning": "The model answer provides a specific email address (Life.Health@harel-group.co.il) that differs from the ground-truth email (agafhaim@harel-ins.co.il), which is a checkable fact. It also omits the required cumulative conditions for the policy to take effect, making it incomplete.",
+      "judge_cost_usd": 0.0004465
     },
     {
       "id": "dev-36-life-hard",
@@ -746,15 +810,16 @@
       "ground_truth_answer": "בהעדר מינוי מוטבים הסכומים ישולמו ליורשים החוקיים על פי הדין, בהתאם לצו ירושה או צו קיום צוואה. יורשים חוקיים הם יורשים לפי צו ירושה או נהנים לפי צו קיום צוואה שניתנו על ידי ערכאה שיפוטית מוסמכת.",
       "latency_ms": 1473.7720489501953,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['life/files/טופס-הצטרפות-לביטוח-חיים-17-שאלות-בהצהרת-הבריאות.pdf'])",
-        "group 2: miss (expected one of ['life/files/תנאי-פוליסת-ביטוח-למקרה-מוות-מגן-1.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": true,
       "hallucination": false,
       "refusal": false,
-      "judge_reasoning": "The model answer correctly states that the sum will be paid to the legal heirs according to law and defines a legal heir as someone entitled to inherit under the Inheritance Law, which aligns with the ground truth's reference to heirs by succession order or probate order.",
-      "judge_cost_usd": 0.000405
+      "judge_reasoning": "The model answer correctly states that the sum will be paid to legal heirs according to law and defines a legal heir as someone entitled to inherit under the Inheritance Law, which aligns with the ground truth's reference to court orders and legal heirs.",
+      "judge_cost_usd": 0.000397
     },
     {
       "id": "dev-37-mortgage-easy",
@@ -765,14 +830,16 @@
       "ground_truth_answer": "לא, בדף המידע המהותי מובהר כי לא יינתן כיסוי לנזקי מים ונוזלים אחרים בתקופה שבה הדירה אינה תפוסה.",
       "latency_ms": 1234.6858978271484,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['mortgage/files/מידע-מהותי-משכנתא-בטוחה-ב-מהדורת-יולי-2016.pdf'])"
+        "no citations provided"
       ],
-      "relevant": true,
-      "hallucination": false,
+      "citation_reasoning": null,
+      "relevant": false,
+      "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "Both answers agree that standard coverage does not apply when the apartment is unoccupied. The model adds a condition about purchasing a specific extension, which is not in the ground truth, but it does not contradict the core fact that coverage is denied without it.",
-      "judge_cost_usd": 0.0003735
+      "judge_reasoning": "המודל טוען עובדה ספציפית — 'מכוסים רק אם רכשת במפורש הרחבה לכיסוי מים לדירה ריקה' — שאינה מופיעה בתשובת האמת, שלפיה לא ניתן כיסוי כלל בתקופת אי-תפוסה. זוהי המצאת פרט בידוק שאינו קיים במקור.",
+      "judge_cost_usd": 0.0004615
     },
     {
       "id": "dev-38-mortgage-easy",
@@ -783,13 +850,15 @@
       "ground_truth_answer": "לא, בחריגי הכיסוי לדוודים נקבע במפורש שנזק לדוד שנפחו מעל 200 ליטר אינו מכוסה.",
       "latency_ms": 1413.8329029083252,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['mortgage/files/תנאי-פוליסת-ביטוח-מבנה-דירה-משכנתא-בטוחה-מהדורה-חדשה-בתוקף-החל-מ-2-12-2019.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "המודל טוען שהכיסוי חל על דוודים עד 500 ליטר, בעוד שהאמת הקרקעית קובעת במפורש שנזק לדוד מעל 200 ליטר אינו מכוסה. זוהי עובדה ספציפית (מגבלת נפח) הסותרת את המקור.",
+      "judge_reasoning": "המודל טוען שהכיסוי חל על דוודים עד 500 ליטר, בעוד שהאמת הבסיסית קובעת במפורש שנזק לדוד מעל 200 ליטר אינו מכוסה. זוהי עובדה ספציפית (מגבלת נפח) הסותרת את המקור.",
       "judge_cost_usd": 0.0004305
     },
     {
@@ -801,14 +870,16 @@
       "ground_truth_answer": "לא. הפוליסה אינה מכסה אבדן או נזק שנגרמו כתוצאה ממלחמה, פעולות אויב או פיגועים חבלניים (וגם לא ממלחמת אזרחים, מרד או מהפכה).",
       "latency_ms": 1422.8878021240234,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['mortgage/files/תנאי-פוליסת-משכנתה-בטוחה-ב.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "The model answer explicitly states that war damage is covered, which directly contradicts the ground-truth answer that the policy excludes loss or damage caused by war, enemy acts, or terrorist attacks.",
-      "judge_cost_usd": 0.000346
+      "judge_reasoning": "The model answer directly contradicts the ground truth by stating that war damage is covered, while the ground truth explicitly excludes it. This is a specific, checkable fact that is wrong.",
+      "judge_cost_usd": 0.000344
     },
     {
       "id": "dev-40-mortgage-medium",
@@ -819,14 +890,16 @@
       "ground_truth_answer": "אדם שאקטואר ממונה הכיר במוגבלותו ככזו שעלולה לקצר את תוחלת חייו ביותר משלוש שנים לעומת תוחלת חיים ממוצעת, ובלבד שהאקטואר קבע שתוחלת חייו עולה על חמש שנים.",
       "latency_ms": 1515.9249305725098,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['mortgage/files/נספח-משכנתא-לאנשים-עם-מוגבלות-מקצרת-חיים.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "The model answer defines the condition based on a doctor's opinion of a terminal illness with a life expectancy of up to 24 months, while the ground truth defines it based on an actuary's recognition of a disability that may shorten life expectancy by more than three years, with a minimum life expectancy of over five years. The model's specific timeframes (24 months) and the authority (doctor vs. actuary) contradict the ground truth and invent facts not present in it.",
-      "judge_cost_usd": 0.000482
+      "judge_reasoning": "The model answer defines the condition based on a doctor's opinion and a 24-month prognosis, while the ground truth requires an actuary's recognition of a life-shortening disability exceeding three years, with a minimum five-year life expectancy. The model invents specific checkable facts (doctor, 24 months) that contradict the ground truth.",
+      "judge_cost_usd": 0.000428
     },
     {
       "id": "dev-41-mortgage-hard",
@@ -837,15 +910,16 @@
       "ground_truth_answer": "להראל שלושה מוצרי ביטוח משכנתא: ביטוח חיים למשכנתא, משכנתא בטוחה ומשכנתא בטוחה (ב). לביטוח חיים למשכנתא מצטרפים בהתקשרות ל-2735* או בהשארת פרטים.",
       "latency_ms": 1727.020025253296,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['mortgage/pages/policies.txt'])",
-        "group 2: miss (expected one of ['mortgage/pages/safe-mortgage.txt'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "The model answer lists only two types of mortgage insurance (structure and life) and omits the two 'משכנתא בטוחה' products mentioned in the ground truth. It also invents a specific 30-day deadline for joining life insurance, which is not present in the ground truth.",
-      "judge_cost_usd": 0.000424
+      "judge_reasoning": "The model answer lists only two types of mortgage insurance (structure and life) and omits the two 'משכנתא בטוחה' products mentioned in the ground truth. It also invents a specific 30-day deadline for joining life insurance, which is absent from the ground truth.",
+      "judge_cost_usd": 0.000422
     },
     {
       "id": "dev-42-mortgage-hard",
@@ -856,14 +930,16 @@
       "ground_truth_answer": "כן. הנזק מהווה 75% מסכום ביטוח הדירה (1,350,000 ÷ 1,800,000 = 75%), וזה מעל הסף הנדרש של 70% לפחות, ולכן מתקיים מקרה הביטוח והסכום הנוסף שצוין במפרט ישולם.",
       "latency_ms": 1280.5981636047363,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['mortgage/files/תנאי-פוליסת-ביטוח-מבנה-דירה-משכנתא-בטוחה-מהדורה-חדשה-בתוקף-החל-מ-2-12-2019.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "The model answer incorrectly states that the additional sum is paid only for total destruction, contradicting the ground truth which specifies a 70% damage threshold. This is a specific, checkable fact that is wrong.",
-      "judge_cost_usd": 0.000386
+      "judge_reasoning": "המודל טוען שהסכום הנוסף ישולם רק אם המבנה ניזוק לחלוטין או נהרס, בעוד שהתשובה הנכונה קובעת שהתנאי הוא נזק של 70% לפחות מסכום הביטוח. זוהי עובדה ספציפית (תנאי סף) הסותרת את האמת.",
+      "judge_cost_usd": 0.000486
     },
     {
       "id": "dev-43-travel-easy",
@@ -874,14 +950,16 @@
       "ground_truth_answer": "כן, במקרה של אשפוז בחו\"ל מעל 3 ימים המבטח ישלם למלווה אחד כרטיס טיסה במחלקת תיירים, הוצאות נסיעה ולינה עד 2,500 דולר בכפוף להשתתפות עצמית של 50 דולר.",
       "latency_ms": 1560.4429244995117,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-אנגלית-first-class.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "The model answer states a specific monetary limit of $150 for lodging, which contradicts the ground truth limit of $2,500 (with a $50 deductible). This is a specific checkable fact that is incorrect.",
-      "judge_cost_usd": 0.000376
+      "judge_reasoning": "The model answer states a specific monetary limit of $150 for lodging, which contradicts the ground truth limit of $2,500 (with a $50 deductible). This is a checkable fact that is incorrect.",
+      "judge_cost_usd": 0.000374
     },
     {
       "id": "dev-44-travel-easy",
@@ -892,14 +970,16 @@
       "ground_truth_answer": "לא, הכיסוי להיריון שאובחן לראשונה בחו\"ל חל רק על הוצאות שהוצאו עד שבוע 12 ועד בכלל.",
       "latency_ms": 1334.3429565429688,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-אנגלית-first-class.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": true,
       "hallucination": false,
       "refusal": false,
-      "judge_reasoning": "The model answer correctly states that coverage is limited to a new pregnancy during the trip and only up to the end of the 12th week, which aligns with the ground truth that coverage applies only to expenses incurred up to and including week 12. No specific checkable facts are contradicted or invented.",
-      "judge_cost_usd": 0.000389
+      "judge_reasoning": "The model answer correctly states that coverage is limited to a new pregnancy diagnosed during the trip and only up to the end of the 12th week, which aligns with the ground truth that coverage applies only to expenses incurred up to and including week 12. No specific checkable facts are contradicted or invented.",
+      "judge_cost_usd": 0.000391
     },
     {
       "id": "dev-45-travel-medium",
@@ -910,14 +990,16 @@
       "ground_truth_answer": "ישולם פיצוי חד-פעמי בסך 50,000$ למוטב (ובהיעדר מוטב - ליורשים החוקיים), בתנאי שהמוות אירע כתוצאה ישירה מתאונה בחו\"ל ולא יותר מ-3 שנים לאחר מועד התאונה.",
       "latency_ms": 1413.4347438812256,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-דרכון-פרימיום.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": true,
       "hallucination": false,
       "refusal": false,
-      "judge_reasoning": "The model correctly states the $50,000 accidental death benefit, which matches the ground truth. The additional mention of $25,000 for repatriation/burial is extra detail not contradicting the core fact asked.",
-      "judge_cost_usd": 0.0003645
+      "judge_reasoning": "The model answer correctly states the $50,000 compensation for death due to an accident, which matches the ground truth. The additional mention of $25,000 for repatriation/burial is extra information not contradicting the core fact.",
+      "judge_cost_usd": 0.0003725
     },
     {
       "id": "dev-46-travel-medium",
@@ -928,14 +1010,16 @@
       "ground_truth_answer": "לא. היריון שהתגלה לראשונה בחו\"ל לאחר שבוע 12 מוחרג מהכיסוי בחריגים הכלליים של הפוליסה.",
       "latency_ms": 1038.5825634002686,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-דרכון-פרימיום.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": true,
       "hallucination": false,
       "refusal": false,
-      "judge_reasoning": "Both answers agree that the pregnancy is not covered, and the model correctly states the 12-week cutoff, which matches the ground truth's exclusion after week 12.",
-      "judge_cost_usd": 0.000331
+      "judge_reasoning": "המודל מסכים עם התשובה הנכונה שההוצאות אינן מכוסות, ומציין את השבוע ה-12 כגבול הכיסוי, מה שמתיישב עם ההחרגה של גילוי לאחר שבוע 12.",
+      "judge_cost_usd": 0.000385
     },
     {
       "id": "dev-47-travel-hard",
@@ -946,15 +1030,16 @@
       "ground_truth_answer": "כן, יש כיסוי חבות כלפי צד ג' עד 150,000$ ללא השתתפות עצמית. הכיסוי כלול בפוליסה הבסיסית וניתן כהטבה ללא עלות לכל הגילאים.",
       "latency_ms": 1516.9768333435059,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-first-class.pdf'])",
-        "group 2: miss (expected one of ['travel/files/תעריפון-דרכון-first-class.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": false,
       "hallucination": true,
       "refusal": false,
-      "judge_reasoning": "The model answer states the coverage limit is $500,000, which contradicts the ground-truth limit of $150,000. This is a specific checkable fact that is incorrect, making the answer not relevant and a hallucination.",
-      "judge_cost_usd": 0.000387
+      "judge_reasoning": "המודל טוען שהכיסוי הוא עד 500,000$ בעוד שהאמת מציינת 150,000$. מדובר בנתון ספציפי שסותר את המידע הנכון, ולכן התשובה אינה רלוונטית וכוללת הזיה.",
+      "judge_cost_usd": 0.000431
     },
     {
       "id": "dev-48-travel-hard",
@@ -965,10 +1050,11 @@
       "ground_truth_answer": "הכיסוי המיוחד לפריט יקר ערך (כולל רחפן) עולה 1$ ליום, וניתן לרכוש אותו רק אם נרכש גם כיסוי כבודה בסיסי, עד תקרה של 2,000$. במקרה גניבה יש להמציא דו\"ח מהמשטרה המקומית או אישור גורם מוסמך אחר במקום הגניבה, המפרט את נסיבות האירוע ואת הפריט שנגנב.",
       "latency_ms": 1525.6891250610352,
       "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
       "citation_details": [
-        "group 1: miss (expected one of ['travel/files/תעריפון-דרכון-first-class.pdf'])",
-        "group 2: miss (expected one of ['travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-first-class.pdf'])"
+        "no citations provided"
       ],
+      "citation_reasoning": null,
       "relevant": false,
       "hallucination": true,
       "refusal": false,

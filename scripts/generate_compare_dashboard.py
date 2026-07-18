@@ -23,8 +23,10 @@ import plotly.io as pio
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
+sys.path.insert(0, str(ROOT / "scripts"))
 
 from eval.citation import score_citations, score_citations_legacy
+from prompt_catalog import build_prompt_spec, render_prompt_section, resolve_preset
 
 DOMAIN_LABELS = {
     "apartment": "Apartment",
@@ -345,6 +347,7 @@ def build_html(
     run_answers: list[tuple[str, dict[str, dict]]],
     run_evals: list[tuple[str, dict[str, dict] | None]],
     title: str = "Run Comparison Dashboard",
+    prompt_specs: list[tuple[str, dict]] | None = None,
 ) -> str:
     has_eval = any(r["relevance_rate"] is not None for r in runs)
     generated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
@@ -366,6 +369,8 @@ def build_html(
     chart_sections = "".join(f'<div class="chart">{c}</div>' for c in charts)
     qdata = question_payload(questions, run_answers, run_evals)
     run_labels = json.dumps([r["label"] for r in runs], ensure_ascii=False)
+    prompts_html = render_prompt_section(prompt_specs) if prompt_specs else ""
+    prompts_nav = '<a href="#prompts">Prompts</a>' if prompt_specs else ""
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -469,6 +474,19 @@ def build_html(
     .outcome-pill.wrong {{ background: var(--neutral-bg); color: #4b5563; }}
     .outcome-pill.missing {{ background: #f3f4f6; color: #9ca3af; }}
     .count-label {{ font-size: .78rem; color: var(--muted); margin-left: auto; }}
+    .section-note {{ margin: 0 0 .85rem; color: var(--muted); font-size: .88rem; }}
+    .prompt-list {{ display: grid; gap: .75rem; }}
+    .prompt-run {{ border: 1px solid var(--border); border-radius: 12px; padding: .75rem .85rem; background: #fafbfc; }}
+    .prompt-run > summary {{ cursor: pointer; font-size: .95rem; color: var(--accent); margin-bottom: .45rem; }}
+    .prompt-meta {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: .35rem .75rem; font-size: .8rem; margin-bottom: .55rem; }}
+    .prompt-meta .k {{ color: var(--muted); margin-right: .35rem; }}
+    .prompt-meta .v {{ font-weight: 600; }}
+    .prompt-note {{ margin: 0 0 .65rem; font-size: .82rem; color: var(--muted); }}
+    .prompt-turn {{ margin-bottom: .65rem; }}
+    .prompt-role {{ font-size: .72rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; margin-bottom: .2rem; }}
+    .prompt-text {{ margin: 0; padding: .65rem .75rem; background: white; border: 1px solid var(--border); border-radius: 8px; white-space: pre-wrap; word-break: break-word; font-size: .84rem; line-height: 1.55; overflow-x: auto; }}
+    .prompt-example {{ border: 1px solid var(--border); border-radius: 8px; padding: .45rem .55rem; margin-bottom: .45rem; background: white; }}
+    .prompt-example > summary {{ cursor: pointer; font-size: .82rem; font-weight: 600; color: #374151; }}
   </style>
 </head>
 <body>
@@ -477,6 +495,7 @@ def build_html(
     <p>{len(runs)} run(s) · {len(questions)} questions · generated {generated}</p>
     <nav class="toc">
       <a href="#summary">Summary</a>
+      {prompts_nav}
       <a href="#charts">Charts</a>
       <a href="#explorer">Explorer</a>
       <a href="#table">All questions</a>
@@ -487,6 +506,8 @@ def build_html(
       <h2>Run summary</h2>
       {summary_cards(runs)}
     </section>
+
+    {prompts_html}
 
     <section id="charts">
       <h2>Metrics comparison</h2>
@@ -747,15 +768,26 @@ def main() -> None:
     ap.add_argument("--eval", action="append", default=[], help='Optional eval JSON: "Label|path.jsonl"')
     ap.add_argument("--out", default="reports/compare_dashboard.html")
     ap.add_argument("--title", default="Run Comparison Dashboard", help="Page title shown in browser and header")
+    ap.add_argument(
+        "--prompt",
+        action="append",
+        default=[],
+        help='Optional preset per run: "Label|baseline|default|concise|no-cite" (auto-inferred if omitted)',
+    )
     args = ap.parse_args()
 
     questions = load_questions(ROOT / args.questions)
     run_specs = [parse_labeled_arg(r) for r in args.run]
     eval_map = {label: path for label, path in (parse_labeled_arg(e) for e in args.eval)}
+    prompt_map: dict[str, str] = {}
+    for raw in args.prompt:
+        label, preset = parse_labeled_arg(raw)
+        prompt_map[label] = preset
 
     run_answers: list[tuple[str, dict[str, dict]]] = []
     run_evals: list[tuple[str, dict[str, dict] | None]] = []
     runs: list[dict] = []
+    prompt_specs: list[tuple[str, dict]] = []
 
     for label, path in run_specs:
         answers = load_answers(ROOT / path)
@@ -764,10 +796,15 @@ def main() -> None:
         run_answers.append((label, answers))
         run_evals.append((label, ev_rows))
         runs.append(build_run_stats(label, answers, questions, ev_rows))
+        preset = resolve_preset(label, ROOT / path, prompt_map.get(label))
+        prompt_specs.append((label, build_prompt_spec(preset)))
 
     out = ROOT / args.out
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(build_html(runs, questions, run_answers, run_evals, title=args.title), encoding="utf-8")
+    out.write_text(
+        build_html(runs, questions, run_answers, run_evals, title=args.title, prompt_specs=prompt_specs),
+        encoding="utf-8",
+    )
     print(f"Wrote {out}")
 
 

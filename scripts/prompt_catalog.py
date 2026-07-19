@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import html
 import json
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -22,7 +23,7 @@ def infer_preset_from_label(label: str) -> str | None:
     lower = label.lower()
     if "baseline" in lower:
         return "baseline"
-    if "contrast" in lower:  # check before few-shot: "Few-shot, contrast" contains both
+    if "contrast" in lower:
         return "contrast"
     if "no cite" in lower or "no-cite" in lower:
         return "no-cite"
@@ -63,6 +64,13 @@ def resolve_preset(label: str, answers_path: Path, explicit: str | None) -> str:
     return "baseline"
 
 
+def _truncate(text: str, limit: int = 80) -> str:
+    text = re.sub(r"\s+", " ", (text or "").strip())
+    if len(text) <= limit:
+        return text
+    return text[: limit - 1] + "…"
+
+
 def build_prompt_spec(preset: str) -> dict:
     if preset == "baseline":
         return {
@@ -72,7 +80,7 @@ def build_prompt_spec(preset: str) -> dict:
             "examples_file": None,
             "examples": [],
             "message_count": 2,
-            "note": "Each dev question is sent as a single user message after the system prompt.",
+            "note": "System prompt + one user message per dev question.",
         }
 
     if preset == "contrast":
@@ -87,9 +95,8 @@ def build_prompt_spec(preset: str) -> dict:
                 {
                     "id": ex.get("id"),
                     "question": ex["question"],
-                    # assistant turn is the JSON object the model is trained to emit
                     "assistant": json.dumps(ex["answer"], ensure_ascii=False, indent=2),
-                    "assistant_dir": "ltr",  # JSON, not Hebrew prose
+                    "assistant_dir": "ltr",
                 }
             )
         return {
@@ -100,9 +107,8 @@ def build_prompt_spec(preset: str) -> dict:
             "examples": rendered_examples,
             "message_count": len(messages),
             "note": (
-                f"{len(examples)} few-shot user/assistant turns (JSON schema: qualitative + "
-                "specifics{best, alt, confident}) precede each dev question; a Python gate then "
-                "commits or hedges each specific."
+                "JSON schema (qualitative + specifics{best, alt, confident}); "
+                "Python gate commits or hedges each specific."
             ),
         }
 
@@ -127,59 +133,83 @@ def build_prompt_spec(preset: str) -> dict:
         "examples_file": str(examples_path),
         "examples": rendered_examples,
         "message_count": len(messages),
-        "note": (
-            f"{len(examples)} few-shot user/assistant turns precede each dev question "
-            "as the final user message."
-        ),
+        "note": f"{len(examples)} few-shot turns, then the dev question.",
     }
 
 
-def render_prompt_section(specs: list[tuple[str, dict]]) -> str:
-    blocks = []
+def _dedupe_specs(specs: list[tuple[str, dict]]) -> tuple[list[tuple[str, str]], dict[str, dict]]:
+    mappings: list[tuple[str, str]] = []
+    unique: dict[str, dict] = {}
     for label, spec in specs:
-        example_blocks = []
-        for i, ex in enumerate(spec["examples"], 1):
-            ex_id = html.escape(ex.get("id") or f"example-{i}")
-            adir = ex.get("assistant_dir", "rtl")
-            acls = "prompt-text hebrew" if adir == "rtl" else "prompt-text"
-            example_blocks.append(
-                f"""
-                <details class="prompt-example">
-                  <summary>Example {i}{f' · {ex_id}' if ex.get('id') else ''}</summary>
-                  <div class="prompt-turn">
-                    <div class="prompt-role">User</div>
-                    <pre class="prompt-text hebrew" dir="rtl">{html.escape(ex['question'])}</pre>
-                  </div>
-                  <div class="prompt-turn">
-                    <div class="prompt-role">Assistant</div>
-                    <pre class="{acls}" dir="{adir}">{html.escape(ex['assistant'])}</pre>
-                  </div>
-                </details>
-                """
-            )
+        preset = spec["preset"]
+        mappings.append((label, preset))
+        if preset not in unique:
+            unique[preset] = spec
+    return mappings, unique
 
+
+def _render_examples_compact(examples: list[dict]) -> str:
+    if not examples:
+        return ""
+
+    rows = []
+    for i, ex in enumerate(examples, 1):
+        ex_id = html.escape(ex.get("id") or f"ex-{i}")
+        q_prev = html.escape(_truncate(ex["question"], 90))
+        a_prev = html.escape(_truncate(ex["assistant"], 90))
+        adir = ex.get("assistant_dir", "rtl")
+        rows.append(
+            f"""
+            <details class="prompt-example">
+              <summary><span class="ex-num">{i}</span> {ex_id} · {q_prev}</summary>
+              <div class="prompt-turn">
+                <div class="prompt-role">User</div>
+                <pre class="prompt-text hebrew" dir="rtl">{html.escape(ex['question'])}</pre>
+              </div>
+              <div class="prompt-turn">
+                <div class="prompt-role">Assistant</div>
+                <pre class="prompt-text{' hebrew' if adir == 'rtl' else ''}" dir="{adir}">{html.escape(ex['assistant'])}</pre>
+              </div>
+            </details>
+            """
+        )
+
+    return f"""
+    <details class="prompt-examples-wrap">
+      <summary>{len(examples)} few-shot examples — previews; expand any row for full text</summary>
+      <div class="prompt-examples-list">{''.join(rows)}</div>
+    </details>
+    """
+
+
+def render_prompt_section(specs: list[tuple[str, dict]]) -> str:
+    mappings, unique = _dedupe_specs(specs)
+
+    map_rows = "".join(
+        f"<tr><td>{html.escape(label)}</td><td><code>{html.escape(preset)}</code></td></tr>"
+        for label, preset in mappings
+    )
+
+    preset_blocks = []
+    for preset, spec in unique.items():
         meta = [
-            f"<div><span class=\"k\">Runner</span><span class=\"v\">{html.escape(spec['runner'])}</span></div>",
-            f"<div><span class=\"k\">Preset</span><span class=\"v\">{html.escape(spec['preset'])}</span></div>",
-            f"<div><span class=\"k\">Messages</span><span class=\"v\">{spec['message_count']}</span></div>",
+            f"<span><code>{html.escape(spec['runner'])}</code></span>",
+            f"<span>{spec['message_count']} msgs</span>",
         ]
         if spec["examples_file"]:
-            meta.append(
-                f"<div><span class=\"k\">Examples file</span>"
-                f"<span class=\"v\"><code>{html.escape(spec['examples_file'])}</code></span></div>"
-            )
+            meta.append(f"<span><code>{html.escape(spec['examples_file'])}</code></span>")
+        meta_html = " · ".join(meta)
 
-        blocks.append(
+        preset_blocks.append(
             f"""
-            <details class="prompt-run" open>
-              <summary><strong>{html.escape(label)}</strong></summary>
-              <div class="prompt-meta">{''.join(meta)}</div>
+            <details class="prompt-preset">
+              <summary><strong>{html.escape(preset)}</strong> — {meta_html}</summary>
               <p class="prompt-note">{html.escape(spec['note'])}</p>
-              <div class="prompt-turn">
-                <div class="prompt-role">System</div>
+              <details class="prompt-system">
+                <summary>System prompt</summary>
                 <pre class="prompt-text">{html.escape(spec['system_prompt'])}</pre>
-              </div>
-              {''.join(example_blocks) if example_blocks else ''}
+              </details>
+              {_render_examples_compact(spec['examples'])}
             </details>
             """
         )
@@ -187,7 +217,13 @@ def render_prompt_section(specs: list[tuple[str, dict]]) -> str:
     return f"""
     <section id="prompts">
       <h2>Prompt configurations</h2>
-      <p class="section-note">Full system prompts and few-shot examples used for each run.</p>
-      <div class="prompt-list">{''.join(blocks)}</div>
+      <p class="section-note">Five unique presets across {len(mappings)} runs. Expand for system prompts and examples.</p>
+      <div class="prompt-map-wrap">
+        <table class="prompt-map">
+          <thead><tr><th>Run</th><th>Preset</th></tr></thead>
+          <tbody>{map_rows}</tbody>
+        </table>
+      </div>
+      <div class="prompt-list">{''.join(preset_blocks)}</div>
     </section>
     """

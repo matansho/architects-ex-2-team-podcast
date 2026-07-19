@@ -27,6 +27,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 from eval.citation import score_citations, score_citations_legacy
 from prompt_catalog import build_prompt_spec, render_prompt_section, resolve_preset
+from report_docs import render_deliverables_section
 
 DOMAIN_LABELS = {
     "apartment": "Apartment",
@@ -348,6 +349,7 @@ def build_html(
     run_evals: list[tuple[str, dict[str, dict] | None]],
     title: str = "Run Comparison Dashboard",
     prompt_specs: list[tuple[str, dict]] | None = None,
+    deliverables_html: str = "",
 ) -> str:
     has_eval = any(r["relevance_rate"] is not None for r in runs)
     generated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
@@ -371,6 +373,7 @@ def build_html(
     run_labels = json.dumps([r["label"] for r in runs], ensure_ascii=False)
     prompts_html = render_prompt_section(prompt_specs) if prompt_specs else ""
     prompts_nav = '<a href="#prompts">Prompts</a>' if prompt_specs else ""
+    report_nav = '<a href="#report">Report</a>' if deliverables_html else ""
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -475,9 +478,7 @@ def build_html(
     .outcome-pill.missing {{ background: #f3f4f6; color: #9ca3af; }}
     .count-label {{ font-size: .78rem; color: var(--muted); margin-left: auto; }}
     .section-note {{ margin: 0 0 .85rem; color: var(--muted); font-size: .88rem; }}
-    .prompt-list {{ display: grid; gap: .75rem; }}
-    .prompt-run {{ border: 1px solid var(--border); border-radius: 12px; padding: .75rem .85rem; background: #fafbfc; }}
-    .prompt-run > summary {{ cursor: pointer; font-size: .95rem; color: var(--accent); margin-bottom: .45rem; }}
+    .prompt-list {{ display: grid; gap: .45rem; }}
     .prompt-meta {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: .35rem .75rem; font-size: .8rem; margin-bottom: .55rem; }}
     .prompt-meta .k {{ color: var(--muted); margin-right: .35rem; }}
     .prompt-meta .v {{ font-weight: 600; }}
@@ -485,8 +486,27 @@ def build_html(
     .prompt-turn {{ margin-bottom: .65rem; }}
     .prompt-role {{ font-size: .72rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; margin-bottom: .2rem; }}
     .prompt-text {{ margin: 0; padding: .65rem .75rem; background: white; border: 1px solid var(--border); border-radius: 8px; white-space: pre-wrap; word-break: break-word; font-size: .84rem; line-height: 1.55; overflow-x: auto; }}
-    .prompt-example {{ border: 1px solid var(--border); border-radius: 8px; padding: .45rem .55rem; margin-bottom: .45rem; background: white; }}
-    .prompt-example > summary {{ cursor: pointer; font-size: .82rem; font-weight: 600; color: #374151; }}
+    .prompt-example {{ border: 1px solid var(--border); border-radius: 8px; padding: .35rem .5rem; margin-bottom: .35rem; background: white; }}
+    .prompt-example > summary {{ cursor: pointer; font-size: .78rem; color: #374151; }}
+    .prompt-example .ex-num {{ color: var(--muted); font-weight: 600; }}
+    .prompt-preset {{ border: 1px solid var(--border); border-radius: 10px; padding: .55rem .65rem; margin-bottom: .55rem; background: #fafbfc; }}
+    .prompt-preset > summary {{ cursor: pointer; font-size: .88rem; color: var(--accent); }}
+    .prompt-system {{ margin: .45rem 0; }}
+    .prompt-system > summary {{ cursor: pointer; font-size: .8rem; color: var(--muted); }}
+    .prompt-examples-wrap {{ margin-top: .45rem; }}
+    .prompt-examples-wrap > summary {{ cursor: pointer; font-size: .8rem; font-weight: 600; color: #374151; }}
+    .prompt-examples-list {{ margin-top: .4rem; }}
+    .prompt-map-wrap {{ overflow-x: auto; margin-bottom: .75rem; border: 1px solid var(--border); border-radius: 10px; }}
+    .prompt-map {{ width: 100%; border-collapse: collapse; font-size: .8rem; }}
+    .prompt-map th, .prompt-map td {{ padding: .4rem .55rem; border-bottom: 1px solid var(--border); text-align: left; }}
+    .prompt-map th {{ background: #f8fafc; color: var(--muted); font-weight: 600; }}
+    .doc-list {{ display: grid; gap: .65rem; }}
+    .doc-block {{ border: 1px solid var(--border); border-radius: 10px; padding: .65rem .75rem; background: #fafbfc; }}
+    .doc-block > summary {{ cursor: pointer; font-size: .92rem; color: var(--accent); margin-bottom: .35rem; }}
+    .doc-body {{ font-size: .9rem; line-height: 1.6; color: #1f2937; }}
+    .doc-body h3 {{ margin: .85rem 0 .4rem; font-size: .92rem; color: #111827; }}
+    .doc-body p {{ margin: 0 0 .65rem; }}
+    .doc-body .doc-lead {{ color: var(--muted); font-size: .88rem; }}
   </style>
 </head>
 <body>
@@ -495,6 +515,7 @@ def build_html(
     <p>{len(runs)} run(s) · {len(questions)} questions · generated {generated}</p>
     <nav class="toc">
       <a href="#summary">Summary</a>
+      {report_nav}
       {prompts_nav}
       <a href="#charts">Charts</a>
       <a href="#explorer">Explorer</a>
@@ -506,6 +527,8 @@ def build_html(
       <h2>Run summary</h2>
       {summary_cards(runs)}
     </section>
+
+    {deliverables_html}
 
     {prompts_html}
 
@@ -774,6 +797,11 @@ def main() -> None:
         default=[],
         help='Optional preset per run: "Label|baseline|default|concise|no-cite" (auto-inferred if omitted)',
     )
+    ap.add_argument(
+        "--deliverables-dir",
+        default="deliverables",
+        help="Directory of *.md deliverables to embed (set empty to skip)",
+    )
     args = ap.parse_args()
 
     questions = load_questions(ROOT / args.questions)
@@ -799,10 +827,23 @@ def main() -> None:
         preset = resolve_preset(label, ROOT / path, prompt_map.get(label))
         prompt_specs.append((label, build_prompt_spec(preset)))
 
+    deliverables_dir = args.deliverables_dir.strip()
+    deliverables_html = (
+        render_deliverables_section(ROOT / deliverables_dir) if deliverables_dir else ""
+    )
+
     out = ROOT / args.out
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(
-        build_html(runs, questions, run_answers, run_evals, title=args.title, prompt_specs=prompt_specs),
+        build_html(
+            runs,
+            questions,
+            run_answers,
+            run_evals,
+            title=args.title,
+            prompt_specs=prompt_specs,
+            deliverables_html=deliverables_html,
+        ),
         encoding="utf-8",
     )
     print(f"Wrote {out}")

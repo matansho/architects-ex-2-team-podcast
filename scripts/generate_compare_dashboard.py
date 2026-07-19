@@ -135,6 +135,10 @@ def build_run_stats(
 
 RUN_COLORS = ["#4C78A8", "#F58518", "#E45756", "#B279A2", "#54A24B", "#EECA3B", "#9D755D", "#FF9DA6"]
 PLOTLY_CONFIG = {"responsive": True, "displayModeBar": False}
+CHART_HEIGHT = 520
+CHART_MARGIN_TOP = 72
+CHART_MARGIN_LEFT = 60
+CHART_MARGIN_RIGHT = 35
 
 
 def _run_colors(n: int) -> list[str]:
@@ -151,31 +155,46 @@ def _y_headroom(vals: list[float], *, as_pct: bool = False) -> float:
     return ymax * 1.18 + max(ymax * 0.05, 50.0)
 
 
+def _legend_bottom_margin(n_series: int) -> tuple[int, float]:
+    """Reserve space below the plot for a horizontal legend (wraps ~4 items/row)."""
+    rows = max(1, (n_series + 3) // 4)
+    bottom = 48 + rows * 26
+    y = -0.12 - (rows - 1) * 0.14
+    return bottom, y
+
+
 def _apply_chart_layout(
     fig: go.Figure,
     *,
-    height: int,
     y_vals: list[float],
     as_pct: bool = False,
     legend: bool = False,
     n_series: int = 0,
+    margin_bottom: int = 48,
 ) -> None:
-    top = 90 if legend else 75
-    if legend and n_series > 4:
-        top = 110 + min(n_series - 4, 4) * 12
-    layout = dict(
-        height=height,
+    bottom = margin_bottom
+    layout: dict = dict(
+        height=CHART_HEIGHT,
         autosize=True,
-        margin=dict(t=top, r=35, b=55, l=60),
+        margin=dict(
+            t=CHART_MARGIN_TOP,
+            r=CHART_MARGIN_RIGHT,
+            b=bottom,
+            l=CHART_MARGIN_LEFT,
+        ),
         yaxis=dict(automargin=True, range=[0, _y_headroom(y_vals, as_pct=as_pct)]),
     )
     if legend:
+        legend_bottom, legend_y = _legend_bottom_margin(n_series)
+        layout["margin"]["b"] = max(bottom, legend_bottom)
         layout["legend"] = dict(
             orientation="h",
-            yanchor="bottom",
-            y=1.0 + (0.04 if n_series <= 4 else 0.08),
+            yanchor="top",
+            y=legend_y,
             xanchor="center",
             x=0.5,
+            font=dict(size=10),
+            tracegroupgap=6,
         )
     fig.update_layout(**layout)
 
@@ -198,9 +217,10 @@ def fig_metric_bars(runs: list[dict], metric: str, title: str, as_pct: bool = Fa
 
     fig = go.Figure(go.Bar(x=labels, y=vals, text=text, textposition="outside", marker_color=color))
     fig.update_layout(title=title, yaxis_title=ytitle)
+    bottom = 96 if len(labels) > 4 else 48
     if len(labels) > 4:
-        fig.update_layout(xaxis_tickangle=-25, margin=dict(b=90))
-    _apply_chart_layout(fig, height=440, y_vals=vals, as_pct=as_pct)
+        fig.update_layout(xaxis_tickangle=-25)
+    _apply_chart_layout(fig, y_vals=vals, as_pct=as_pct, margin_bottom=bottom)
     return _chart_html(fig)
 
 
@@ -225,7 +245,7 @@ def fig_grouped_metric_by_difficulty(runs: list[dict], metric: str, title: str) 
             marker_color=color,
         )
     fig.update_layout(title=title, barmode="group", yaxis_title="%")
-    _apply_chart_layout(fig, height=480, y_vals=all_y, as_pct=True, legend=True, n_series=len(runs))
+    _apply_chart_layout(fig, y_vals=all_y, as_pct=True, legend=True, n_series=len(runs))
     return _chart_html(fig)
 
 
@@ -420,10 +440,10 @@ def build_html(
     .metrics {{ display: grid; grid-template-columns: 1fr 1fr; gap: .3rem .5rem; font-size: .8rem; }}
     .metrics .k {{ color: var(--muted); }}
     .metrics .v {{ font-weight: 600; text-align: right; }}
-    .charts {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(520px, 1fr)); gap: 1rem; }}
-    .chart {{ min-width: 0; overflow: visible; }}
-    .chart > div {{ overflow: visible !important; }}
-    .chart .plotly-graph-div {{ overflow: visible !important; }}
+    .charts {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(520px, 1fr)); gap: 1rem; align-items: start; }}
+    .chart {{ min-width: 0; overflow: visible; min-height: {CHART_HEIGHT}px; }}
+    .chart > div {{ overflow: visible !important; height: {CHART_HEIGHT}px !important; }}
+    .chart .plotly-graph-div {{ overflow: visible !important; height: {CHART_HEIGHT}px !important; }}
     .controls {{ display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; margin-bottom: .75rem; }}
     .controls label {{ font-size: .78rem; color: var(--muted); display: flex; flex-direction: column; gap: .15rem; }}
     select, input {{ padding: .4rem .55rem; border: 1px solid var(--border); border-radius: 8px; font-size: .88rem; background: white; }}

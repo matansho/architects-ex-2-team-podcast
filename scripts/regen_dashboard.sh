@@ -28,3 +28,6 @@ python scripts/generate_compare_dashboard.py \
   --eval "Few-shot, contrast (run 2)|reports/contrast_2_eval.json" \
   --eval "Few-shot, contrast no far apart|reports/contrast_no_far_apart_eval.json" \
   --out reports/stage1_prompt_strategy_comparison.html
+
+cp reports/stage1_prompt_strategy_comparison.html deliverables/stage1_prompt_strategy_comparison.html
+echo "Copied to deliverables/stage1_prompt_strategy_comparison.html"

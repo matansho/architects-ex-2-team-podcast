@@ -195,16 +195,31 @@ def _apply_chart_layout(
     margin_bottom: int = 48,
 ) -> None:
     bottom = margin_bottom
+    axis = dict(
+        automargin=True,
+        gridcolor="#2a3544",
+        zerolinecolor="#2a3544",
+        tickfont=dict(color="#94a3b8"),
+        title_font=dict(color="#94a3b8"),
+    )
     layout: dict = dict(
         height=CHART_HEIGHT,
         autosize=True,
+        paper_bgcolor="#151b24",
+        plot_bgcolor="#151b24",
+        font=dict(color="#e5e7eb"),
+        title_font=dict(color="#f1f5f9"),
         margin=dict(
             t=CHART_MARGIN_TOP,
             r=CHART_MARGIN_RIGHT,
             b=bottom,
             l=CHART_MARGIN_LEFT,
         ),
-        yaxis=dict(automargin=True, range=[0, _y_headroom(y_vals, as_pct=as_pct)]),
+        xaxis=dict(**axis),
+        yaxis=dict(
+            **axis,
+            range=[0, _y_headroom(y_vals, as_pct=as_pct)],
+        ),
     )
     if legend:
         legend_bottom, legend_y = _legend_bottom_margin(n_series)
@@ -215,7 +230,8 @@ def _apply_chart_layout(
             y=legend_y,
             xanchor="center",
             x=0.5,
-            font=dict(size=10),
+            font=dict(size=10, color="#cbd5e1"),
+            bgcolor="rgba(0,0,0,0)",
             tracegroupgap=6,
         )
     fig.update_layout(**layout)
@@ -267,7 +283,7 @@ def fig_precision_recall_scatter(runs: list[dict]) -> str:
                 y=[prec],
                 mode="markers",
                 name=r["label"],
-                marker=dict(size=14, color=color, line=dict(width=1, color="#111827")),
+                marker=dict(size=14, color=color, line=dict(width=1, color="#e2e8f0")),
                 hovertemplate=(
                     f"<b>{r['label']}</b><br>"
                     f"Recall: {rec:.1f}%<br>"
@@ -286,7 +302,7 @@ def fig_precision_recall_scatter(runs: list[dict]) -> str:
         y0=100,
         x1=100,
         y1=100,
-        line=dict(color="#d1d5db", width=1, dash="dot"),
+        line=dict(color="#475569", width=1, dash="dot"),
     )
     fig.add_shape(
         type="line",
@@ -294,7 +310,7 @@ def fig_precision_recall_scatter(runs: list[dict]) -> str:
         y0=0,
         x1=100,
         y1=100,
-        line=dict(color="#d1d5db", width=1, dash="dot"),
+        line=dict(color="#475569", width=1, dash="dot"),
     )
 
     fig.update_layout(
@@ -304,8 +320,6 @@ def fig_precision_recall_scatter(runs: list[dict]) -> str:
         ),
         xaxis_title="Recall (%)",
         yaxis_title="Precision (%)",
-        xaxis=dict(range=[0, 105], automargin=True),
-        yaxis=dict(range=[0, 105], automargin=True, scaleanchor="x", scaleratio=1),
         showlegend=True,
     )
     _apply_chart_layout(
@@ -316,8 +330,11 @@ def fig_precision_recall_scatter(runs: list[dict]) -> str:
         n_series=len(pts),
         margin_bottom=48,
     )
-    # Square axes already set; don't let y-headroom squash the top
-    fig.update_layout(yaxis=dict(range=[0, 105]))
+    # Keep square-ish axes at 0–105 without wiping dark-theme axis colors
+    fig.update_layout(
+        xaxis=dict(range=[0, 105]),
+        yaxis=dict(range=[0, 105], scaleanchor="x", scaleratio=1),
+    )
     return _chart_html(fig)
 
 
@@ -506,33 +523,35 @@ def build_html(
   <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
   <style>
     :root {{
-      --bg: #f0f4f8;
-      --card: #ffffff;
-      --text: #111827;
-      --muted: #6b7280;
-      --accent: #1d4ed8;
-      --border: #e5e7eb;
-      --good: #059669;
-      --good-bg: #d1fae5;
-      --bad: #dc2626;
-      --bad-bg: #fee2e2;
-      --warn: #d97706;
-      --warn-bg: #fef3c7;
-      --neutral-bg: #f3f4f6;
+      --bg: #0b0f14;
+      --card: #151b24;
+      --text: #e5e7eb;
+      --muted: #94a3b8;
+      --accent: #60a5fa;
+      --border: #2a3544;
+      --good: #34d399;
+      --good-bg: #064e3b;
+      --bad: #f87171;
+      --bad-bg: #7f1d1d;
+      --warn: #fbbf24;
+      --warn-bg: #78350f;
+      --neutral-bg: #1e293b;
+      --surface: #1a222d;
+      --input: #0f141c;
     }}
     * {{ box-sizing: border-box; }}
     body {{ margin: 0; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); }}
-    header {{ background: linear-gradient(135deg, #0f2744, #1d4ed8); color: white; padding: 1.5rem 2rem 1.2rem; }}
+    header {{ background: linear-gradient(135deg, #0a1628, #1e3a5f); color: white; padding: 1.5rem 2rem 1.2rem; border-bottom: 1px solid var(--border); }}
     header h1 {{ margin: 0 0 .3rem; font-size: 1.55rem; font-weight: 700; }}
     header p {{ margin: 0; opacity: .88; font-size: .92rem; }}
     nav.toc {{ display: flex; gap: .5rem; flex-wrap: wrap; margin-top: .9rem; }}
     nav.toc a {{ color: white; opacity: .85; text-decoration: none; font-size: .82rem; padding: .25rem .55rem; border: 1px solid rgba(255,255,255,.25); border-radius: 999px; }}
     nav.toc a:hover {{ opacity: 1; background: rgba(255,255,255,.12); }}
     main {{ max-width: 1500px; margin: 0 auto; padding: 1.1rem 1.25rem 2.5rem; }}
-    section {{ background: var(--card); border-radius: 14px; box-shadow: 0 1px 4px rgba(0,0,0,.06); padding: 1rem 1.15rem; margin-bottom: 1rem; }}
-    h2 {{ margin: 0 0 .75rem; font-size: 1.05rem; font-weight: 650; }}
+    section {{ background: var(--card); border-radius: 14px; border: 1px solid var(--border); box-shadow: 0 1px 4px rgba(0,0,0,.35); padding: 1rem 1.15rem; margin-bottom: 1rem; }}
+    h2 {{ margin: 0 0 .75rem; font-size: 1.05rem; font-weight: 650; color: #f1f5f9; }}
     .run-cards {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: .75rem; }}
-    .run-card {{ border: 1px solid var(--border); border-radius: 12px; padding: .85rem; background: #fafbfc; }}
+    .run-card {{ border: 1px solid var(--border); border-radius: 12px; padding: .85rem; background: var(--surface); }}
     .run-card h3 {{ margin: 0 0 .55rem; color: var(--accent); font-size: .95rem; }}
     .hero-metrics {{ display: grid; grid-template-columns: 1fr 1fr; gap: .45rem; margin-bottom: .55rem; }}
     .hero {{ border-radius: 10px; padding: .45rem .55rem; text-align: center; background: var(--neutral-bg); }}
@@ -550,21 +569,21 @@ def build_html(
     .chart .plotly-graph-div {{ overflow: visible !important; height: {CHART_HEIGHT}px !important; }}
     .controls {{ display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; margin-bottom: .75rem; }}
     .controls label {{ font-size: .78rem; color: var(--muted); display: flex; flex-direction: column; gap: .15rem; }}
-    select, input {{ padding: .4rem .55rem; border: 1px solid var(--border); border-radius: 8px; font-size: .88rem; background: white; }}
+    select, input {{ padding: .4rem .55rem; border: 1px solid var(--border); border-radius: 8px; font-size: .88rem; background: var(--input); color: var(--text); }}
     #q-select {{ min-width: 340px; }}
     .badge {{ display: inline-block; padding: .12rem .42rem; border-radius: 999px; font-size: .72rem; font-weight: 600; }}
-    .badge.easy {{ background: var(--good-bg); color: #065f46; }}
-    .badge.medium {{ background: var(--warn-bg); color: #92400e; }}
-    .badge.hard {{ background: var(--bad-bg); color: #991b1b; }}
-    .badge.domain {{ background: #e0e7ff; color: #3730a3; }}
+    .badge.easy {{ background: var(--good-bg); color: #6ee7b7; }}
+    .badge.medium {{ background: var(--warn-bg); color: #fcd34d; }}
+    .badge.hard {{ background: var(--bad-bg); color: #fca5a5; }}
+    .badge.domain {{ background: #1e3a5f; color: #93c5fd; }}
     .panel {{ display: grid; gap: .65rem; }}
-    .block {{ border: 1px solid var(--border); border-radius: 10px; padding: .75rem .85rem; }}
+    .block {{ border: 1px solid var(--border); border-radius: 10px; padding: .75rem .85rem; background: var(--surface); }}
     .block h4 {{ margin: 0 0 .45rem; font-size: .78rem; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }}
     .hebrew {{ line-height: 1.6; font-size: .95rem; }}
     .runs-grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: .65rem; }}
-    .run-answer {{ border: 1px solid var(--border); border-radius: 10px; padding: .75rem; background: #fcfdff; }}
-    .run-answer.fail {{ border-color: #fecaca; background: #fffafa; }}
-    .run-answer.ok {{ border-color: #bbf7d0; background: #f8fffb; }}
+    .run-answer {{ border: 1px solid var(--border); border-radius: 10px; padding: .75rem; background: var(--surface); }}
+    .run-answer.fail {{ border-color: #7f1d1d; background: #1a1010; }}
+    .run-answer.ok {{ border-color: #065f46; background: #0f1a16; }}
     .run-answer h5 {{ margin: 0 0 .35rem; color: var(--accent); font-size: .88rem; }}
     .pills {{ display: flex; flex-wrap: wrap; gap: .3rem; margin-bottom: .45rem; }}
     .pill {{ font-size: .7rem; font-weight: 600; padding: .12rem .4rem; border-radius: 999px; }}
@@ -572,34 +591,34 @@ def build_html(
     .pill.no {{ background: var(--bad-bg); color: var(--bad); }}
     .pill.neutral {{ background: var(--neutral-bg); color: var(--muted); }}
     .pill.warn {{ background: var(--warn-bg); color: var(--warn); }}
-    .judge-box {{ margin-top: .5rem; padding: .45rem .55rem; background: #f8fafc; border-radius: 8px; font-size: .8rem; color: #374151; border-left: 3px solid var(--accent); }}
+    .judge-box {{ margin-top: .5rem; padding: .45rem .55rem; background: var(--input); border-radius: 8px; font-size: .8rem; color: #cbd5e1; border-left: 3px solid var(--accent); }}
     .sources {{ font-size: .78rem; color: var(--muted); margin-top: .35rem; }}
-    .sources code {{ background: #eef2ff; padding: .08rem .28rem; border-radius: 4px; font-size: .74rem; }}
+    .sources code {{ background: #1e3a5f; padding: .08rem .28rem; border-radius: 4px; font-size: .74rem; color: #93c5fd; }}
     .table-toolbar {{ display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; margin-bottom: .6rem; }}
     .table-wrap {{ max-height: 620px; overflow: auto; border: 1px solid var(--border); border-radius: 10px; }}
     table {{ width: 100%; border-collapse: separate; border-spacing: 0; font-size: .78rem; }}
     th, td {{ border-bottom: 1px solid var(--border); padding: .38rem .45rem; text-align: center; vertical-align: middle; }}
-    th {{ background: #f8fafc; position: sticky; top: 0; z-index: 2; }}
-    th.run-group {{ background: #eef2ff; color: #1e3a8a; font-size: .76rem; border-left: 2px solid #c7d2fe; }}
+    th {{ background: #1a222d; position: sticky; top: 0; z-index: 2; color: #cbd5e1; }}
+    th.run-group {{ background: #1e3a5f; color: #93c5fd; font-size: .76rem; border-left: 2px solid #3b82f6; }}
     th.sub {{ top: 28px; font-size: .7rem; color: var(--muted); font-weight: 500; }}
     th.sortable {{ cursor: pointer; user-select: none; }}
-    th.sortable:hover {{ background: #e5e7eb; }}
-    td.id-cell {{ text-align: left; font-weight: 500; color: #1f2937; white-space: nowrap; }}
+    th.sortable:hover {{ background: #243044; }}
+    td.id-cell {{ text-align: left; font-weight: 500; color: #e2e8f0; white-space: nowrap; }}
     td.domain-cell {{ text-align: left; color: var(--muted); }}
     tr.data-row {{ cursor: pointer; }}
-    tr.data-row:hover {{ background: #f0f9ff; }}
-    tr.data-row.active {{ background: #dbeafe; }}
-    tr.data-row:nth-child(even) {{ background: #fafbfc; }}
-    tr.data-row:nth-child(even):hover {{ background: #f0f9ff; }}
+    tr.data-row:hover {{ background: #1e293b; }}
+    tr.data-row.active {{ background: #1e3a5f; }}
+    tr.data-row:nth-child(even) {{ background: #121820; }}
+    tr.data-row:nth-child(even):hover {{ background: #1e293b; }}
     .cell-yes {{ color: var(--good); font-weight: 700; }}
     .cell-no {{ color: var(--bad); font-weight: 700; }}
-    .cell-dash {{ color: #9ca3af; }}
+    .cell-dash {{ color: #64748b; }}
     .outcome-pill {{ display: inline-block; padding: .1rem .38rem; border-radius: 999px; font-size: .68rem; font-weight: 700; text-transform: uppercase; }}
     .outcome-pill.relevant {{ background: var(--good-bg); color: var(--good); }}
     .outcome-pill.hallucination {{ background: var(--bad-bg); color: var(--bad); }}
     .outcome-pill.refusal {{ background: var(--warn-bg); color: var(--warn); }}
-    .outcome-pill.wrong {{ background: var(--neutral-bg); color: #4b5563; }}
-    .outcome-pill.missing {{ background: #f3f4f6; color: #9ca3af; }}
+    .outcome-pill.wrong {{ background: var(--neutral-bg); color: #94a3b8; }}
+    .outcome-pill.missing {{ background: #1e293b; color: #64748b; }}
     .count-label {{ font-size: .78rem; color: var(--muted); margin-left: auto; }}
     .section-note {{ margin: 0 0 .85rem; color: var(--muted); font-size: .88rem; }}
     .prompt-list {{ display: grid; gap: .45rem; }}
@@ -609,26 +628,26 @@ def build_html(
     .prompt-note {{ margin: 0 0 .65rem; font-size: .82rem; color: var(--muted); }}
     .prompt-turn {{ margin-bottom: .65rem; }}
     .prompt-role {{ font-size: .72rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; margin-bottom: .2rem; }}
-    .prompt-text {{ margin: 0; padding: .65rem .75rem; background: white; border: 1px solid var(--border); border-radius: 8px; white-space: pre-wrap; word-break: break-word; font-size: .84rem; line-height: 1.55; overflow-x: auto; }}
-    .prompt-example {{ border: 1px solid var(--border); border-radius: 8px; padding: .35rem .5rem; margin-bottom: .35rem; background: white; }}
-    .prompt-example > summary {{ cursor: pointer; font-size: .78rem; color: #374151; }}
+    .prompt-text {{ margin: 0; padding: .65rem .75rem; background: var(--input); border: 1px solid var(--border); border-radius: 8px; white-space: pre-wrap; word-break: break-word; font-size: .84rem; line-height: 1.55; overflow-x: auto; color: var(--text); }}
+    .prompt-example {{ border: 1px solid var(--border); border-radius: 8px; padding: .35rem .5rem; margin-bottom: .35rem; background: var(--input); }}
+    .prompt-example > summary {{ cursor: pointer; font-size: .78rem; color: #cbd5e1; }}
     .prompt-example .ex-num {{ color: var(--muted); font-weight: 600; }}
-    .prompt-preset {{ border: 1px solid var(--border); border-radius: 10px; padding: .55rem .65rem; margin-bottom: .55rem; background: #fafbfc; }}
+    .prompt-preset {{ border: 1px solid var(--border); border-radius: 10px; padding: .55rem .65rem; margin-bottom: .55rem; background: var(--surface); }}
     .prompt-preset > summary {{ cursor: pointer; font-size: .88rem; color: var(--accent); }}
     .prompt-system {{ margin: .45rem 0; }}
     .prompt-system > summary {{ cursor: pointer; font-size: .8rem; color: var(--muted); }}
     .prompt-examples-wrap {{ margin-top: .45rem; }}
-    .prompt-examples-wrap > summary {{ cursor: pointer; font-size: .8rem; font-weight: 600; color: #374151; }}
+    .prompt-examples-wrap > summary {{ cursor: pointer; font-size: .8rem; font-weight: 600; color: #cbd5e1; }}
     .prompt-examples-list {{ margin-top: .4rem; }}
     .prompt-map-wrap {{ overflow-x: auto; margin-bottom: .75rem; border: 1px solid var(--border); border-radius: 10px; }}
     .prompt-map {{ width: 100%; border-collapse: collapse; font-size: .8rem; }}
     .prompt-map th, .prompt-map td {{ padding: .4rem .55rem; border-bottom: 1px solid var(--border); text-align: left; }}
-    .prompt-map th {{ background: #f8fafc; color: var(--muted); font-weight: 600; }}
+    .prompt-map th {{ background: #1a222d; color: var(--muted); font-weight: 600; }}
     .doc-list {{ display: grid; gap: .65rem; }}
-    .doc-block {{ border: 1px solid var(--border); border-radius: 10px; padding: .65rem .75rem; background: #fafbfc; }}
+    .doc-block {{ border: 1px solid var(--border); border-radius: 10px; padding: .65rem .75rem; background: var(--surface); }}
     .doc-block > summary {{ cursor: pointer; font-size: .92rem; color: var(--accent); margin-bottom: .35rem; }}
-    .doc-body {{ font-size: .9rem; line-height: 1.6; color: #1f2937; }}
-    .doc-body h3 {{ margin: .85rem 0 .4rem; font-size: .92rem; color: #111827; }}
+    .doc-body {{ font-size: .9rem; line-height: 1.6; color: #e2e8f0; }}
+    .doc-body h3 {{ margin: .85rem 0 .4rem; font-size: .92rem; color: #f1f5f9; }}
     .doc-body p {{ margin: 0 0 .65rem; }}
     .doc-body .doc-lead {{ color: var(--muted); font-size: .88rem; }}
   </style>

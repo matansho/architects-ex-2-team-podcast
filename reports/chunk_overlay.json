@@ -1,0 +1,4942 @@
+{
+  "pdf": "corpus/business/files/פוליסת-מכלול-לחבר-מושב-מהדורת-ינואר-2023.pdf",
+  "n_chunks": 487,
+  "token_p50": 369,
+  "token_mean": 348.6,
+  "kinds": {
+    "section_pack": 376,
+    "orphan_pack": 5,
+    "split": 2,
+    "clause": 76,
+    "subclause": 28
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "kind": "orphan_pack",
+      "label": "p1",
+      "tokens": 36,
+      "pages": [
+        1
+      ],
+      "section_ref": null
+    },
+    {
+      "id": 1,
+      "kind": "orphan_pack",
+      "label": "p2",
+      "tokens": 336,
+      "pages": [
+        2
+      ],
+      "section_ref": null
+    },
+    {
+      "id": 2,
+      "kind": "orphan_pack",
+      "label": "p3",
+      "tokens": 11,
+      "pages": [
+        3
+      ],
+      "section_ref": null
+    },
+    {
+      "id": 3,
+      "kind": "split",
+      "label": "p3",
+      "tokens": 992,
+      "pages": [
+        3
+      ],
+      "section_ref": null
+    },
+    {
+      "id": 4,
+      "kind": "split",
+      "label": "p3",
+      "tokens": 770,
+      "pages": [
+        3
+      ],
+      "section_ref": null
+    },
+    {
+      "id": 5,
+      "kind": "orphan_pack",
+      "label": "p3",
+      "tokens": 18,
+      "pages": [
+        3
+      ],
+      "section_ref": null
+    },
+    {
+      "id": 6,
+      "kind": "orphan_pack",
+      "label": "p4",
+      "tokens": 205,
+      "pages": [
+        4
+      ],
+      "section_ref": null
+    },
+    {
+      "id": 7,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 199,
+      "pages": [
+        4
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 8,
+      "kind": "section_pack",
+      "label": "§3",
+      "tokens": 298,
+      "pages": [
+        4
+      ],
+      "section_ref": "3"
+    },
+    {
+      "id": 9,
+      "kind": "section_pack",
+      "label": "§4",
+      "tokens": 33,
+      "pages": [
+        4
+      ],
+      "section_ref": "4"
+    },
+    {
+      "id": 10,
+      "kind": "section_pack",
+      "label": "§5",
+      "tokens": 416,
+      "pages": [
+        4
+      ],
+      "section_ref": "5"
+    },
+    {
+      "id": 11,
+      "kind": "section_pack",
+      "label": "§8",
+      "tokens": 450,
+      "pages": [
+        4
+      ],
+      "section_ref": "8"
+    },
+    {
+      "id": 12,
+      "kind": "section_pack",
+      "label": "§9",
+      "tokens": 492,
+      "pages": [
+        4
+      ],
+      "section_ref": "9"
+    },
+    {
+      "id": 13,
+      "kind": "section_pack",
+      "label": "§10",
+      "tokens": 84,
+      "pages": [
+        4
+      ],
+      "section_ref": "10"
+    },
+    {
+      "id": 14,
+      "kind": "section_pack",
+      "label": "§11",
+      "tokens": 46,
+      "pages": [
+        4
+      ],
+      "section_ref": "11"
+    },
+    {
+      "id": 15,
+      "kind": "section_pack",
+      "label": "§12",
+      "tokens": 359,
+      "pages": [
+        4,
+        5
+      ],
+      "section_ref": "12"
+    },
+    {
+      "id": 16,
+      "kind": "section_pack",
+      "label": "§12",
+      "tokens": 154,
+      "pages": [
+        5
+      ],
+      "section_ref": "12"
+    },
+    {
+      "id": 17,
+      "kind": "section_pack",
+      "label": "§15",
+      "tokens": 72,
+      "pages": [
+        5
+      ],
+      "section_ref": "15"
+    },
+    {
+      "id": 18,
+      "kind": "section_pack",
+      "label": "§16",
+      "tokens": 223,
+      "pages": [
+        5
+      ],
+      "section_ref": "16"
+    },
+    {
+      "id": 19,
+      "kind": "section_pack",
+      "label": "§18",
+      "tokens": 434,
+      "pages": [
+        5
+      ],
+      "section_ref": "18"
+    },
+    {
+      "id": 20,
+      "kind": "section_pack",
+      "label": "§18",
+      "tokens": 482,
+      "pages": [
+        5
+      ],
+      "section_ref": "18"
+    },
+    {
+      "id": 21,
+      "kind": "section_pack",
+      "label": "§18",
+      "tokens": 300,
+      "pages": [
+        6
+      ],
+      "section_ref": "18"
+    },
+    {
+      "id": 22,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 413,
+      "pages": [
+        6
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 23,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 452,
+      "pages": [
+        6
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 24,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 519,
+      "pages": [
+        6
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 25,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 428,
+      "pages": [
+        6
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 26,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 451,
+      "pages": [
+        6,
+        7
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 27,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 427,
+      "pages": [
+        7
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 28,
+      "kind": "clause",
+      "label": "§1.1",
+      "tokens": 60,
+      "pages": [
+        7
+      ],
+      "section_ref": "1.1"
+    },
+    {
+      "id": 29,
+      "kind": "section_pack",
+      "label": "§3",
+      "tokens": 285,
+      "pages": [
+        7
+      ],
+      "section_ref": "3"
+    },
+    {
+      "id": 30,
+      "kind": "section_pack",
+      "label": "§3",
+      "tokens": 510,
+      "pages": [
+        7
+      ],
+      "section_ref": "3"
+    },
+    {
+      "id": 31,
+      "kind": "section_pack",
+      "label": "§3",
+      "tokens": 230,
+      "pages": [
+        7
+      ],
+      "section_ref": "3"
+    },
+    {
+      "id": 32,
+      "kind": "section_pack",
+      "label": "§3",
+      "tokens": 448,
+      "pages": [
+        7
+      ],
+      "section_ref": "3"
+    },
+    {
+      "id": 33,
+      "kind": "section_pack",
+      "label": "§3",
+      "tokens": 287,
+      "pages": [
+        7
+      ],
+      "section_ref": "3"
+    },
+    {
+      "id": 34,
+      "kind": "section_pack",
+      "label": "§3",
+      "tokens": 523,
+      "pages": [
+        8
+      ],
+      "section_ref": "3"
+    },
+    {
+      "id": 35,
+      "kind": "section_pack",
+      "label": "§9",
+      "tokens": 33,
+      "pages": [
+        8
+      ],
+      "section_ref": "9"
+    },
+    {
+      "id": 36,
+      "kind": "section_pack",
+      "label": "§10",
+      "tokens": 300,
+      "pages": [
+        8
+      ],
+      "section_ref": "10"
+    },
+    {
+      "id": 37,
+      "kind": "section_pack",
+      "label": "§12",
+      "tokens": 497,
+      "pages": [
+        8
+      ],
+      "section_ref": "12"
+    },
+    {
+      "id": 38,
+      "kind": "section_pack",
+      "label": "§12",
+      "tokens": 189,
+      "pages": [
+        8
+      ],
+      "section_ref": "12"
+    },
+    {
+      "id": 39,
+      "kind": "section_pack",
+      "label": "§13",
+      "tokens": 440,
+      "pages": [
+        8,
+        9
+      ],
+      "section_ref": "13"
+    },
+    {
+      "id": 40,
+      "kind": "section_pack",
+      "label": "§13",
+      "tokens": 258,
+      "pages": [
+        9
+      ],
+      "section_ref": "13"
+    },
+    {
+      "id": 41,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 495,
+      "pages": [
+        9
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 42,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 494,
+      "pages": [
+        9
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 43,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 430,
+      "pages": [
+        9
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 44,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 252,
+      "pages": [
+        9
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 45,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 347,
+      "pages": [
+        9,
+        10
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 46,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 267,
+      "pages": [
+        10
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 47,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 386,
+      "pages": [
+        10
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 48,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 310,
+      "pages": [
+        10
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 49,
+      "kind": "section_pack",
+      "label": "§4",
+      "tokens": 386,
+      "pages": [
+        10
+      ],
+      "section_ref": "4"
+    },
+    {
+      "id": 50,
+      "kind": "section_pack",
+      "label": "§4",
+      "tokens": 485,
+      "pages": [
+        10
+      ],
+      "section_ref": "4"
+    },
+    {
+      "id": 51,
+      "kind": "section_pack",
+      "label": "§4",
+      "tokens": 433,
+      "pages": [
+        10
+      ],
+      "section_ref": "4"
+    },
+    {
+      "id": 52,
+      "kind": "section_pack",
+      "label": "§4",
+      "tokens": 177,
+      "pages": [
+        10
+      ],
+      "section_ref": "4"
+    },
+    {
+      "id": 53,
+      "kind": "section_pack",
+      "label": "§5",
+      "tokens": 447,
+      "pages": [
+        11
+      ],
+      "section_ref": "5"
+    },
+    {
+      "id": 54,
+      "kind": "section_pack",
+      "label": "§5",
+      "tokens": 469,
+      "pages": [
+        11
+      ],
+      "section_ref": "5"
+    },
+    {
+      "id": 55,
+      "kind": "section_pack",
+      "label": "§5",
+      "tokens": 424,
+      "pages": [
+        11
+      ],
+      "section_ref": "5"
+    },
+    {
+      "id": 56,
+      "kind": "section_pack",
+      "label": "§5",
+      "tokens": 423,
+      "pages": [
+        11
+      ],
+      "section_ref": "5"
+    },
+    {
+      "id": 57,
+      "kind": "section_pack",
+      "label": "§5",
+      "tokens": 327,
+      "pages": [
+        11
+      ],
+      "section_ref": "5"
+    },
+    {
+      "id": 58,
+      "kind": "section_pack",
+      "label": "§5",
+      "tokens": 449,
+      "pages": [
+        11,
+        12
+      ],
+      "section_ref": "5"
+    },
+    {
+      "id": 59,
+      "kind": "section_pack",
+      "label": "§5",
+      "tokens": 287,
+      "pages": [
+        12
+      ],
+      "section_ref": "5"
+    },
+    {
+      "id": 60,
+      "kind": "section_pack",
+      "label": "§5",
+      "tokens": 264,
+      "pages": [
+        12
+      ],
+      "section_ref": "5"
+    },
+    {
+      "id": 61,
+      "kind": "section_pack",
+      "label": "§72",
+      "tokens": 428,
+      "pages": [
+        12
+      ],
+      "section_ref": "72"
+    },
+    {
+      "id": 62,
+      "kind": "section_pack",
+      "label": "§72",
+      "tokens": 464,
+      "pages": [
+        12
+      ],
+      "section_ref": "72"
+    },
+    {
+      "id": 63,
+      "kind": "section_pack",
+      "label": "§72",
+      "tokens": 446,
+      "pages": [
+        12
+      ],
+      "section_ref": "72"
+    },
+    {
+      "id": 64,
+      "kind": "section_pack",
+      "label": "§72",
+      "tokens": 471,
+      "pages": [
+        12,
+        13
+      ],
+      "section_ref": "72"
+    },
+    {
+      "id": 65,
+      "kind": "section_pack",
+      "label": "§72",
+      "tokens": 265,
+      "pages": [
+        13
+      ],
+      "section_ref": "72"
+    },
+    {
+      "id": 66,
+      "kind": "section_pack",
+      "label": "§72",
+      "tokens": 390,
+      "pages": [
+        13
+      ],
+      "section_ref": "72"
+    },
+    {
+      "id": 67,
+      "kind": "clause",
+      "label": "§5.1",
+      "tokens": 979,
+      "pages": [
+        13
+      ],
+      "section_ref": "5.1"
+    },
+    {
+      "id": 68,
+      "kind": "clause",
+      "label": "§5.1",
+      "tokens": 993,
+      "pages": [
+        13,
+        14
+      ],
+      "section_ref": "5.1"
+    },
+    {
+      "id": 69,
+      "kind": "clause",
+      "label": "§5.1",
+      "tokens": 969,
+      "pages": [
+        14
+      ],
+      "section_ref": "5.1"
+    },
+    {
+      "id": 70,
+      "kind": "clause",
+      "label": "§5.1",
+      "tokens": 907,
+      "pages": [
+        14,
+        15
+      ],
+      "section_ref": "5.1"
+    },
+    {
+      "id": 71,
+      "kind": "clause",
+      "label": "§5.1",
+      "tokens": 924,
+      "pages": [
+        15
+      ],
+      "section_ref": "5.1"
+    },
+    {
+      "id": 72,
+      "kind": "clause",
+      "label": "§5.1",
+      "tokens": 212,
+      "pages": [
+        15
+      ],
+      "section_ref": "5.1"
+    },
+    {
+      "id": 73,
+      "kind": "section_pack",
+      "label": "§5",
+      "tokens": 464,
+      "pages": [
+        15
+      ],
+      "section_ref": "5"
+    },
+    {
+      "id": 74,
+      "kind": "section_pack",
+      "label": "§5",
+      "tokens": 364,
+      "pages": [
+        15,
+        16
+      ],
+      "section_ref": "5"
+    },
+    {
+      "id": 75,
+      "kind": "section_pack",
+      "label": "§7",
+      "tokens": 244,
+      "pages": [
+        16
+      ],
+      "section_ref": "7"
+    },
+    {
+      "id": 76,
+      "kind": "section_pack",
+      "label": "§7",
+      "tokens": 321,
+      "pages": [
+        16
+      ],
+      "section_ref": "7"
+    },
+    {
+      "id": 77,
+      "kind": "section_pack",
+      "label": "§7",
+      "tokens": 214,
+      "pages": [
+        16
+      ],
+      "section_ref": "7"
+    },
+    {
+      "id": 78,
+      "kind": "subclause",
+      "label": "§7.1.2",
+      "tokens": 997,
+      "pages": [
+        16
+      ],
+      "section_ref": "7.1.2"
+    },
+    {
+      "id": 79,
+      "kind": "subclause",
+      "label": "§7.1.2",
+      "tokens": 782,
+      "pages": [
+        16,
+        17
+      ],
+      "section_ref": "7.1.2"
+    },
+    {
+      "id": 80,
+      "kind": "subclause",
+      "label": "§7.1.2",
+      "tokens": 841,
+      "pages": [
+        17
+      ],
+      "section_ref": "7.1.2"
+    },
+    {
+      "id": 81,
+      "kind": "section_pack",
+      "label": "§8",
+      "tokens": 487,
+      "pages": [
+        17
+      ],
+      "section_ref": "8"
+    },
+    {
+      "id": 82,
+      "kind": "section_pack",
+      "label": "§8",
+      "tokens": 499,
+      "pages": [
+        17,
+        18
+      ],
+      "section_ref": "8"
+    },
+    {
+      "id": 83,
+      "kind": "section_pack",
+      "label": "§8",
+      "tokens": 487,
+      "pages": [
+        18
+      ],
+      "section_ref": "8"
+    },
+    {
+      "id": 84,
+      "kind": "section_pack",
+      "label": "§8",
+      "tokens": 313,
+      "pages": [
+        18
+      ],
+      "section_ref": "8"
+    },
+    {
+      "id": 85,
+      "kind": "section_pack",
+      "label": "§8",
+      "tokens": 433,
+      "pages": [
+        18
+      ],
+      "section_ref": "8"
+    },
+    {
+      "id": 86,
+      "kind": "section_pack",
+      "label": "§8",
+      "tokens": 488,
+      "pages": [
+        18
+      ],
+      "section_ref": "8"
+    },
+    {
+      "id": 87,
+      "kind": "section_pack",
+      "label": "§8",
+      "tokens": 439,
+      "pages": [
+        18,
+        19
+      ],
+      "section_ref": "8"
+    },
+    {
+      "id": 88,
+      "kind": "section_pack",
+      "label": "§8",
+      "tokens": 432,
+      "pages": [
+        19
+      ],
+      "section_ref": "8"
+    },
+    {
+      "id": 89,
+      "kind": "section_pack",
+      "label": "§3",
+      "tokens": 195,
+      "pages": [
+        19
+      ],
+      "section_ref": "3"
+    },
+    {
+      "id": 90,
+      "kind": "subclause",
+      "label": "§8.4.6",
+      "tokens": 184,
+      "pages": [
+        19
+      ],
+      "section_ref": "8.4.6"
+    },
+    {
+      "id": 91,
+      "kind": "section_pack",
+      "label": "§9",
+      "tokens": 542,
+      "pages": [
+        19
+      ],
+      "section_ref": "9"
+    },
+    {
+      "id": 92,
+      "kind": "section_pack",
+      "label": "§9",
+      "tokens": 395,
+      "pages": [
+        19,
+        20
+      ],
+      "section_ref": "9"
+    },
+    {
+      "id": 93,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 452,
+      "pages": [
+        20
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 94,
+      "kind": "section_pack",
+      "label": "§2",
+      "tokens": 273,
+      "pages": [
+        20
+      ],
+      "section_ref": "2"
+    },
+    {
+      "id": 95,
+      "kind": "section_pack",
+      "label": "§2",
+      "tokens": 543,
+      "pages": [
+        20
+      ],
+      "section_ref": "2"
+    },
+    {
+      "id": 96,
+      "kind": "section_pack",
+      "label": "§2",
+      "tokens": 418,
+      "pages": [
+        20
+      ],
+      "section_ref": "2"
+    },
+    {
+      "id": 97,
+      "kind": "section_pack",
+      "label": "§2",
+      "tokens": 476,
+      "pages": [
+        20,
+        21
+      ],
+      "section_ref": "2"
+    },
+    {
+      "id": 98,
+      "kind": "section_pack",
+      "label": "§2",
+      "tokens": 417,
+      "pages": [
+        21
+      ],
+      "section_ref": "2"
+    },
+    {
+      "id": 99,
+      "kind": "section_pack",
+      "label": "§2",
+      "tokens": 429,
+      "pages": [
+        21
+      ],
+      "section_ref": "2"
+    },
+    {
+      "id": 100,
+      "kind": "section_pack",
+      "label": "§2",
+      "tokens": 423,
+      "pages": [
+        21
+      ],
+      "section_ref": "2"
+    },
+    {
+      "id": 101,
+      "kind": "section_pack",
+      "label": "§2",
+      "tokens": 106,
+      "pages": [
+        21
+      ],
+      "section_ref": "2"
+    },
+    {
+      "id": 102,
+      "kind": "section_pack",
+      "label": "§3",
+      "tokens": 335,
+      "pages": [
+        21
+      ],
+      "section_ref": "3"
+    },
+    {
+      "id": 103,
+      "kind": "section_pack",
+      "label": "§4",
+      "tokens": 542,
+      "pages": [
+        21
+      ],
+      "section_ref": "4"
+    },
+    {
+      "id": 104,
+      "kind": "section_pack",
+      "label": "§4",
+      "tokens": 477,
+      "pages": [
+        22
+      ],
+      "section_ref": "4"
+    },
+    {
+      "id": 105,
+      "kind": "section_pack",
+      "label": "§4",
+      "tokens": 544,
+      "pages": [
+        22
+      ],
+      "section_ref": "4"
+    },
+    {
+      "id": 106,
+      "kind": "section_pack",
+      "label": "§4",
+      "tokens": 273,
+      "pages": [
+        23
+      ],
+      "section_ref": "4"
+    },
+    {
+      "id": 107,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 495,
+      "pages": [
+        23
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 108,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 492,
+      "pages": [
+        23
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 109,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 182,
+      "pages": [
+        23
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 110,
+      "kind": "section_pack",
+      "label": "§2",
+      "tokens": 499,
+      "pages": [
+        23,
+        24
+      ],
+      "section_ref": "2"
+    },
+    {
+      "id": 111,
+      "kind": "section_pack",
+      "label": "§2",
+      "tokens": 503,
+      "pages": [
+        24
+      ],
+      "section_ref": "2"
+    },
+    {
+      "id": 112,
+      "kind": "section_pack",
+      "label": "§2",
+      "tokens": 401,
+      "pages": [
+        24
+      ],
+      "section_ref": "2"
+    },
+    {
+      "id": 113,
+      "kind": "section_pack",
+      "label": "§2",
+      "tokens": 316,
+      "pages": [
+        24
+      ],
+      "section_ref": "2"
+    },
+    {
+      "id": 114,
+      "kind": "section_pack",
+      "label": "§10",
+      "tokens": 523,
+      "pages": [
+        24,
+        25
+      ],
+      "section_ref": "10"
+    },
+    {
+      "id": 115,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 499,
+      "pages": [
+        25
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 116,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 479,
+      "pages": [
+        25
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 117,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 464,
+      "pages": [
+        25
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 118,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 497,
+      "pages": [
+        25,
+        26
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 119,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 480,
+      "pages": [
+        26
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 120,
+      "kind": "section_pack",
+      "label": "§2",
+      "tokens": 458,
+      "pages": [
+        26
+      ],
+      "section_ref": "2"
+    },
+    {
+      "id": 121,
+      "kind": "section_pack",
+      "label": "§2",
+      "tokens": 467,
+      "pages": [
+        26
+      ],
+      "section_ref": "2"
+    },
+    {
+      "id": 122,
+      "kind": "section_pack",
+      "label": "§2",
+      "tokens": 414,
+      "pages": [
+        26
+      ],
+      "section_ref": "2"
+    },
+    {
+      "id": 123,
+      "kind": "section_pack",
+      "label": "§2",
+      "tokens": 440,
+      "pages": [
+        27
+      ],
+      "section_ref": "2"
+    },
+    {
+      "id": 124,
+      "kind": "clause",
+      "label": "§2.11",
+      "tokens": 789,
+      "pages": [
+        27
+      ],
+      "section_ref": "2.11"
+    },
+    {
+      "id": 125,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 59,
+      "pages": [
+        27
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 126,
+      "kind": "section_pack",
+      "label": "§2",
+      "tokens": 59,
+      "pages": [
+        27
+      ],
+      "section_ref": "2"
+    },
+    {
+      "id": 127,
+      "kind": "section_pack",
+      "label": "§3",
+      "tokens": 417,
+      "pages": [
+        27
+      ],
+      "section_ref": "3"
+    },
+    {
+      "id": 128,
+      "kind": "clause",
+      "label": "§2.14",
+      "tokens": 305,
+      "pages": [
+        27
+      ],
+      "section_ref": "2.14"
+    },
+    {
+      "id": 129,
+      "kind": "clause",
+      "label": "§2.15",
+      "tokens": 46,
+      "pages": [
+        27
+      ],
+      "section_ref": "2.15"
+    },
+    {
+      "id": 130,
+      "kind": "subclause",
+      "label": "§2.15.1",
+      "tokens": 981,
+      "pages": [
+        27,
+        28
+      ],
+      "section_ref": "2.15.1"
+    },
+    {
+      "id": 131,
+      "kind": "subclause",
+      "label": "§2.15.1",
+      "tokens": 137,
+      "pages": [
+        28
+      ],
+      "section_ref": "2.15.1"
+    },
+    {
+      "id": 132,
+      "kind": "clause",
+      "label": "§2.19",
+      "tokens": 862,
+      "pages": [
+        28
+      ],
+      "section_ref": "2.19"
+    },
+    {
+      "id": 133,
+      "kind": "clause",
+      "label": "§2.21",
+      "tokens": 46,
+      "pages": [
+        28
+      ],
+      "section_ref": "2.21"
+    },
+    {
+      "id": 134,
+      "kind": "clause",
+      "label": "§2.22",
+      "tokens": 510,
+      "pages": [
+        28
+      ],
+      "section_ref": "2.22"
+    },
+    {
+      "id": 135,
+      "kind": "clause",
+      "label": "§2.16",
+      "tokens": 3,
+      "pages": [
+        28
+      ],
+      "section_ref": "2.16"
+    },
+    {
+      "id": 136,
+      "kind": "clause",
+      "label": "§2.26",
+      "tokens": 18,
+      "pages": [
+        29
+      ],
+      "section_ref": "2.26"
+    },
+    {
+      "id": 137,
+      "kind": "clause",
+      "label": "§2.27",
+      "tokens": 43,
+      "pages": [
+        29
+      ],
+      "section_ref": "2.27"
+    },
+    {
+      "id": 138,
+      "kind": "section_pack",
+      "label": "§3",
+      "tokens": 366,
+      "pages": [
+        29
+      ],
+      "section_ref": "3"
+    },
+    {
+      "id": 139,
+      "kind": "section_pack",
+      "label": "§3",
+      "tokens": 440,
+      "pages": [
+        29
+      ],
+      "section_ref": "3"
+    },
+    {
+      "id": 140,
+      "kind": "section_pack",
+      "label": "§3",
+      "tokens": 513,
+      "pages": [
+        29
+      ],
+      "section_ref": "3"
+    },
+    {
+      "id": 141,
+      "kind": "section_pack",
+      "label": "§3",
+      "tokens": 498,
+      "pages": [
+        29
+      ],
+      "section_ref": "3"
+    },
+    {
+      "id": 142,
+      "kind": "section_pack",
+      "label": "§3",
+      "tokens": 523,
+      "pages": [
+        29
+      ],
+      "section_ref": "3"
+    },
+    {
+      "id": 143,
+      "kind": "section_pack",
+      "label": "§3",
+      "tokens": 493,
+      "pages": [
+        30
+      ],
+      "section_ref": "3"
+    },
+    {
+      "id": 144,
+      "kind": "section_pack",
+      "label": "§3",
+      "tokens": 467,
+      "pages": [
+        30
+      ],
+      "section_ref": "3"
+    },
+    {
+      "id": 145,
+      "kind": "section_pack",
+      "label": "§3",
+      "tokens": 201,
+      "pages": [
+        30
+      ],
+      "section_ref": "3"
+    },
+    {
+      "id": 146,
+      "kind": "section_pack",
+      "label": "§3",
+      "tokens": 481,
+      "pages": [
+        30
+      ],
+      "section_ref": "3"
+    },
+    {
+      "id": 147,
+      "kind": "section_pack",
+      "label": "§3",
+      "tokens": 473,
+      "pages": [
+        30
+      ],
+      "section_ref": "3"
+    },
+    {
+      "id": 148,
+      "kind": "section_pack",
+      "label": "§2",
+      "tokens": 303,
+      "pages": [
+        30,
+        31
+      ],
+      "section_ref": "2"
+    },
+    {
+      "id": 149,
+      "kind": "section_pack",
+      "label": "§2",
+      "tokens": 465,
+      "pages": [
+        31
+      ],
+      "section_ref": "2"
+    },
+    {
+      "id": 150,
+      "kind": "section_pack",
+      "label": "§2",
+      "tokens": 445,
+      "pages": [
+        31
+      ],
+      "section_ref": "2"
+    },
+    {
+      "id": 151,
+      "kind": "section_pack",
+      "label": "§2",
+      "tokens": 399,
+      "pages": [
+        31
+      ],
+      "section_ref": "2"
+    },
+    {
+      "id": 152,
+      "kind": "section_pack",
+      "label": "§60",
+      "tokens": 368,
+      "pages": [
+        31
+      ],
+      "section_ref": "60"
+    },
+    {
+      "id": 153,
+      "kind": "section_pack",
+      "label": "§60",
+      "tokens": 388,
+      "pages": [
+        31,
+        32
+      ],
+      "section_ref": "60"
+    },
+    {
+      "id": 154,
+      "kind": "section_pack",
+      "label": "§60",
+      "tokens": 334,
+      "pages": [
+        32
+      ],
+      "section_ref": "60"
+    },
+    {
+      "id": 155,
+      "kind": "section_pack",
+      "label": "§60",
+      "tokens": 305,
+      "pages": [
+        32
+      ],
+      "section_ref": "60"
+    },
+    {
+      "id": 156,
+      "kind": "section_pack",
+      "label": "§60",
+      "tokens": 482,
+      "pages": [
+        32
+      ],
+      "section_ref": "60"
+    },
+    {
+      "id": 157,
+      "kind": "clause",
+      "label": "§3.10",
+      "tokens": 564,
+      "pages": [
+        32
+      ],
+      "section_ref": "3.10"
+    },
+    {
+      "id": 158,
+      "kind": "clause",
+      "label": "§3.11",
+      "tokens": 26,
+      "pages": [
+        32
+      ],
+      "section_ref": "3.11"
+    },
+    {
+      "id": 159,
+      "kind": "subclause",
+      "label": "§1.4.7",
+      "tokens": 712,
+      "pages": [
+        32,
+        33
+      ],
+      "section_ref": "1.4.7"
+    },
+    {
+      "id": 160,
+      "kind": "subclause",
+      "label": "§1.4.7",
+      "tokens": 341,
+      "pages": [
+        33
+      ],
+      "section_ref": "1.4.7"
+    },
+    {
+      "id": 161,
+      "kind": "clause",
+      "label": "§3.12",
+      "tokens": 870,
+      "pages": [
+        33,
+        34
+      ],
+      "section_ref": "3.12"
+    },
+    {
+      "id": 162,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 240,
+      "pages": [
+        34
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 163,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 686,
+      "pages": [
+        34
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 164,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 405,
+      "pages": [
+        34
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 165,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 353,
+      "pages": [
+        34
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 166,
+      "kind": "section_pack",
+      "label": "§2",
+      "tokens": 226,
+      "pages": [
+        35
+      ],
+      "section_ref": "2"
+    },
+    {
+      "id": 167,
+      "kind": "section_pack",
+      "label": "§2",
+      "tokens": 366,
+      "pages": [
+        35
+      ],
+      "section_ref": "2"
+    },
+    {
+      "id": 168,
+      "kind": "section_pack",
+      "label": "§2",
+      "tokens": 377,
+      "pages": [
+        35
+      ],
+      "section_ref": "2"
+    },
+    {
+      "id": 169,
+      "kind": "section_pack",
+      "label": "§2",
+      "tokens": 953,
+      "pages": [
+        35
+      ],
+      "section_ref": "2"
+    },
+    {
+      "id": 170,
+      "kind": "section_pack",
+      "label": "§2",
+      "tokens": 374,
+      "pages": [
+        35
+      ],
+      "section_ref": "2"
+    },
+    {
+      "id": 171,
+      "kind": "section_pack",
+      "label": "§2",
+      "tokens": 380,
+      "pages": [
+        35,
+        36
+      ],
+      "section_ref": "2"
+    },
+    {
+      "id": 172,
+      "kind": "section_pack",
+      "label": "§3",
+      "tokens": 255,
+      "pages": [
+        36
+      ],
+      "section_ref": "3"
+    },
+    {
+      "id": 173,
+      "kind": "section_pack",
+      "label": "§3",
+      "tokens": 484,
+      "pages": [
+        36
+      ],
+      "section_ref": "3"
+    },
+    {
+      "id": 174,
+      "kind": "section_pack",
+      "label": "§3",
+      "tokens": 212,
+      "pages": [
+        36
+      ],
+      "section_ref": "3"
+    },
+    {
+      "id": 175,
+      "kind": "section_pack",
+      "label": "§3",
+      "tokens": 303,
+      "pages": [
+        36
+      ],
+      "section_ref": "3"
+    },
+    {
+      "id": 176,
+      "kind": "section_pack",
+      "label": "§3",
+      "tokens": 432,
+      "pages": [
+        36
+      ],
+      "section_ref": "3"
+    },
+    {
+      "id": 177,
+      "kind": "section_pack",
+      "label": "§3",
+      "tokens": 500,
+      "pages": [
+        36
+      ],
+      "section_ref": "3"
+    },
+    {
+      "id": 178,
+      "kind": "section_pack",
+      "label": "§3",
+      "tokens": 489,
+      "pages": [
+        36,
+        37
+      ],
+      "section_ref": "3"
+    },
+    {
+      "id": 179,
+      "kind": "section_pack",
+      "label": "§3",
+      "tokens": 204,
+      "pages": [
+        37
+      ],
+      "section_ref": "3"
+    },
+    {
+      "id": 180,
+      "kind": "subclause",
+      "label": "§3.8.4",
+      "tokens": 147,
+      "pages": [
+        37
+      ],
+      "section_ref": "3.8.4"
+    },
+    {
+      "id": 181,
+      "kind": "clause",
+      "label": "§3.10",
+      "tokens": 168,
+      "pages": [
+        37
+      ],
+      "section_ref": "3.10"
+    },
+    {
+      "id": 182,
+      "kind": "clause",
+      "label": "§3.12",
+      "tokens": 39,
+      "pages": [
+        37
+      ],
+      "section_ref": "3.12"
+    },
+    {
+      "id": 183,
+      "kind": "clause",
+      "label": "§3.13",
+      "tokens": 952,
+      "pages": [
+        37,
+        38
+      ],
+      "section_ref": "3.13"
+    },
+    {
+      "id": 184,
+      "kind": "section_pack",
+      "label": "§60",
+      "tokens": 435,
+      "pages": [
+        38,
+        39
+      ],
+      "section_ref": "60"
+    },
+    {
+      "id": 185,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 498,
+      "pages": [
+        39
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 186,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 473,
+      "pages": [
+        39
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 187,
+      "kind": "clause",
+      "label": "§1.10",
+      "tokens": 542,
+      "pages": [
+        39
+      ],
+      "section_ref": "1.10"
+    },
+    {
+      "id": 188,
+      "kind": "section_pack",
+      "label": "§3",
+      "tokens": 17,
+      "pages": [
+        39
+      ],
+      "section_ref": "3"
+    },
+    {
+      "id": 189,
+      "kind": "section_pack",
+      "label": "§38",
+      "tokens": 279,
+      "pages": [
+        39
+      ],
+      "section_ref": "38"
+    },
+    {
+      "id": 190,
+      "kind": "clause",
+      "label": "§3.1",
+      "tokens": 928,
+      "pages": [
+        40
+      ],
+      "section_ref": "3.1"
+    },
+    {
+      "id": 191,
+      "kind": "section_pack",
+      "label": "§4",
+      "tokens": 98,
+      "pages": [
+        40
+      ],
+      "section_ref": "4"
+    },
+    {
+      "id": 192,
+      "kind": "section_pack",
+      "label": "§5",
+      "tokens": 553,
+      "pages": [
+        40
+      ],
+      "section_ref": "5"
+    },
+    {
+      "id": 193,
+      "kind": "section_pack",
+      "label": "§5",
+      "tokens": 480,
+      "pages": [
+        40
+      ],
+      "section_ref": "5"
+    },
+    {
+      "id": 194,
+      "kind": "section_pack",
+      "label": "§5",
+      "tokens": 477,
+      "pages": [
+        40,
+        41
+      ],
+      "section_ref": "5"
+    },
+    {
+      "id": 195,
+      "kind": "section_pack",
+      "label": "§5",
+      "tokens": 432,
+      "pages": [
+        41
+      ],
+      "section_ref": "5"
+    },
+    {
+      "id": 196,
+      "kind": "section_pack",
+      "label": "§5",
+      "tokens": 193,
+      "pages": [
+        41
+      ],
+      "section_ref": "5"
+    },
+    {
+      "id": 197,
+      "kind": "section_pack",
+      "label": "§6",
+      "tokens": 345,
+      "pages": [
+        41
+      ],
+      "section_ref": "6"
+    },
+    {
+      "id": 198,
+      "kind": "section_pack",
+      "label": "§2",
+      "tokens": 179,
+      "pages": [
+        41
+      ],
+      "section_ref": "2"
+    },
+    {
+      "id": 199,
+      "kind": "section_pack",
+      "label": "§7",
+      "tokens": 399,
+      "pages": [
+        41,
+        42
+      ],
+      "section_ref": "7"
+    },
+    {
+      "id": 200,
+      "kind": "subclause",
+      "label": "§7.1.2",
+      "tokens": 875,
+      "pages": [
+        42
+      ],
+      "section_ref": "7.1.2"
+    },
+    {
+      "id": 201,
+      "kind": "section_pack",
+      "label": "§50",
+      "tokens": 489,
+      "pages": [
+        42
+      ],
+      "section_ref": "50"
+    },
+    {
+      "id": 202,
+      "kind": "section_pack",
+      "label": "§50",
+      "tokens": 89,
+      "pages": [
+        42
+      ],
+      "section_ref": "50"
+    },
+    {
+      "id": 203,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 409,
+      "pages": [
+        42
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 204,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 111,
+      "pages": [
+        42
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 205,
+      "kind": "section_pack",
+      "label": "§15",
+      "tokens": 180,
+      "pages": [
+        42
+      ],
+      "section_ref": "15"
+    },
+    {
+      "id": 206,
+      "kind": "section_pack",
+      "label": "§30",
+      "tokens": 106,
+      "pages": [
+        43
+      ],
+      "section_ref": "30"
+    },
+    {
+      "id": 207,
+      "kind": "clause",
+      "label": "§8.6",
+      "tokens": 623,
+      "pages": [
+        43
+      ],
+      "section_ref": "8.6"
+    },
+    {
+      "id": 208,
+      "kind": "section_pack",
+      "label": "§4",
+      "tokens": 286,
+      "pages": [
+        43
+      ],
+      "section_ref": "4"
+    },
+    {
+      "id": 209,
+      "kind": "section_pack",
+      "label": "§9",
+      "tokens": 449,
+      "pages": [
+        43
+      ],
+      "section_ref": "9"
+    },
+    {
+      "id": 210,
+      "kind": "section_pack",
+      "label": "§9",
+      "tokens": 349,
+      "pages": [
+        43
+      ],
+      "section_ref": "9"
+    },
+    {
+      "id": 211,
+      "kind": "section_pack",
+      "label": "§10",
+      "tokens": 295,
+      "pages": [
+        43,
+        44
+      ],
+      "section_ref": "10"
+    },
+    {
+      "id": 212,
+      "kind": "section_pack",
+      "label": "§10",
+      "tokens": 356,
+      "pages": [
+        44
+      ],
+      "section_ref": "10"
+    },
+    {
+      "id": 213,
+      "kind": "section_pack",
+      "label": "§11",
+      "tokens": 247,
+      "pages": [
+        44
+      ],
+      "section_ref": "11"
+    },
+    {
+      "id": 214,
+      "kind": "section_pack",
+      "label": "§12",
+      "tokens": 21,
+      "pages": [
+        44
+      ],
+      "section_ref": "12"
+    },
+    {
+      "id": 215,
+      "kind": "section_pack",
+      "label": "§60",
+      "tokens": 340,
+      "pages": [
+        44,
+        45
+      ],
+      "section_ref": "60"
+    },
+    {
+      "id": 216,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 200,
+      "pages": [
+        45,
+        46
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 217,
+      "kind": "section_pack",
+      "label": "§13",
+      "tokens": 133,
+      "pages": [
+        46
+      ],
+      "section_ref": "13"
+    },
+    {
+      "id": 218,
+      "kind": "clause",
+      "label": "§13.1",
+      "tokens": 62,
+      "pages": [
+        46
+      ],
+      "section_ref": "13.1"
+    },
+    {
+      "id": 219,
+      "kind": "clause",
+      "label": "§13.2",
+      "tokens": 16,
+      "pages": [
+        46
+      ],
+      "section_ref": "13.2"
+    },
+    {
+      "id": 220,
+      "kind": "clause",
+      "label": "§13.3",
+      "tokens": 55,
+      "pages": [
+        46
+      ],
+      "section_ref": "13.3"
+    },
+    {
+      "id": 221,
+      "kind": "clause",
+      "label": "§13.4",
+      "tokens": 155,
+      "pages": [
+        46
+      ],
+      "section_ref": "13.4"
+    },
+    {
+      "id": 222,
+      "kind": "clause",
+      "label": "§13.6",
+      "tokens": 37,
+      "pages": [
+        46
+      ],
+      "section_ref": "13.6"
+    },
+    {
+      "id": 223,
+      "kind": "clause",
+      "label": "§13.7",
+      "tokens": 64,
+      "pages": [
+        46
+      ],
+      "section_ref": "13.7"
+    },
+    {
+      "id": 224,
+      "kind": "clause",
+      "label": "§13.8",
+      "tokens": 42,
+      "pages": [
+        46
+      ],
+      "section_ref": "13.8"
+    },
+    {
+      "id": 225,
+      "kind": "clause",
+      "label": "§13.9",
+      "tokens": 392,
+      "pages": [
+        46
+      ],
+      "section_ref": "13.9"
+    },
+    {
+      "id": 226,
+      "kind": "section_pack",
+      "label": "§14",
+      "tokens": 251,
+      "pages": [
+        46
+      ],
+      "section_ref": "14"
+    },
+    {
+      "id": 227,
+      "kind": "section_pack",
+      "label": "§10",
+      "tokens": 233,
+      "pages": [
+        46
+      ],
+      "section_ref": "10"
+    },
+    {
+      "id": 228,
+      "kind": "section_pack",
+      "label": "§5",
+      "tokens": 89,
+      "pages": [
+        46
+      ],
+      "section_ref": "5"
+    },
+    {
+      "id": 229,
+      "kind": "section_pack",
+      "label": "§10",
+      "tokens": 94,
+      "pages": [
+        46
+      ],
+      "section_ref": "10"
+    },
+    {
+      "id": 230,
+      "kind": "section_pack",
+      "label": "§60",
+      "tokens": 114,
+      "pages": [
+        46
+      ],
+      "section_ref": "60"
+    },
+    {
+      "id": 231,
+      "kind": "section_pack",
+      "label": "§15",
+      "tokens": 112,
+      "pages": [
+        47
+      ],
+      "section_ref": "15"
+    },
+    {
+      "id": 232,
+      "kind": "clause",
+      "label": "§15.1",
+      "tokens": 68,
+      "pages": [
+        47
+      ],
+      "section_ref": "15.1"
+    },
+    {
+      "id": 233,
+      "kind": "clause",
+      "label": "§15.2",
+      "tokens": 27,
+      "pages": [
+        47
+      ],
+      "section_ref": "15.2"
+    },
+    {
+      "id": 234,
+      "kind": "clause",
+      "label": "§15.3",
+      "tokens": 118,
+      "pages": [
+        47
+      ],
+      "section_ref": "15.3"
+    },
+    {
+      "id": 235,
+      "kind": "clause",
+      "label": "§15.4",
+      "tokens": 76,
+      "pages": [
+        47
+      ],
+      "section_ref": "15.4"
+    },
+    {
+      "id": 236,
+      "kind": "clause",
+      "label": "§15.5",
+      "tokens": 37,
+      "pages": [
+        47
+      ],
+      "section_ref": "15.5"
+    },
+    {
+      "id": 237,
+      "kind": "clause",
+      "label": "§15.6",
+      "tokens": 25,
+      "pages": [
+        47
+      ],
+      "section_ref": "15.6"
+    },
+    {
+      "id": 238,
+      "kind": "subclause",
+      "label": "§15.6.1",
+      "tokens": 42,
+      "pages": [
+        47
+      ],
+      "section_ref": "15.6.1"
+    },
+    {
+      "id": 239,
+      "kind": "subclause",
+      "label": "§15.6.2",
+      "tokens": 60,
+      "pages": [
+        47
+      ],
+      "section_ref": "15.6.2"
+    },
+    {
+      "id": 240,
+      "kind": "subclause",
+      "label": "§15.6.3",
+      "tokens": 72,
+      "pages": [
+        47
+      ],
+      "section_ref": "15.6.3"
+    },
+    {
+      "id": 241,
+      "kind": "clause",
+      "label": "§15.7",
+      "tokens": 40,
+      "pages": [
+        47
+      ],
+      "section_ref": "15.7"
+    },
+    {
+      "id": 242,
+      "kind": "subclause",
+      "label": "§15.7.1",
+      "tokens": 30,
+      "pages": [
+        47
+      ],
+      "section_ref": "15.7.1"
+    },
+    {
+      "id": 243,
+      "kind": "subclause",
+      "label": "§15.7.2",
+      "tokens": 53,
+      "pages": [
+        47
+      ],
+      "section_ref": "15.7.2"
+    },
+    {
+      "id": 244,
+      "kind": "subclause",
+      "label": "§15.7.3",
+      "tokens": 149,
+      "pages": [
+        47
+      ],
+      "section_ref": "15.7.3"
+    },
+    {
+      "id": 245,
+      "kind": "subclause",
+      "label": "§15.7.4",
+      "tokens": 28,
+      "pages": [
+        47
+      ],
+      "section_ref": "15.7.4"
+    },
+    {
+      "id": 246,
+      "kind": "clause",
+      "label": "§15.8",
+      "tokens": 272,
+      "pages": [
+        47
+      ],
+      "section_ref": "15.8"
+    },
+    {
+      "id": 247,
+      "kind": "clause",
+      "label": "§15.10",
+      "tokens": 68,
+      "pages": [
+        47
+      ],
+      "section_ref": "15.10"
+    },
+    {
+      "id": 248,
+      "kind": "clause",
+      "label": "§14.9",
+      "tokens": 165,
+      "pages": [
+        47
+      ],
+      "section_ref": "14.9"
+    },
+    {
+      "id": 249,
+      "kind": "section_pack",
+      "label": "§16",
+      "tokens": 89,
+      "pages": [
+        47
+      ],
+      "section_ref": "16"
+    },
+    {
+      "id": 250,
+      "kind": "clause",
+      "label": "§16.1",
+      "tokens": 41,
+      "pages": [
+        47
+      ],
+      "section_ref": "16.1"
+    },
+    {
+      "id": 251,
+      "kind": "clause",
+      "label": "§16.2",
+      "tokens": 55,
+      "pages": [
+        47
+      ],
+      "section_ref": "16.2"
+    },
+    {
+      "id": 252,
+      "kind": "clause",
+      "label": "§16.3",
+      "tokens": 87,
+      "pages": [
+        47
+      ],
+      "section_ref": "16.3"
+    },
+    {
+      "id": 253,
+      "kind": "clause",
+      "label": "§16.4",
+      "tokens": 101,
+      "pages": [
+        47
+      ],
+      "section_ref": "16.4"
+    },
+    {
+      "id": 254,
+      "kind": "section_pack",
+      "label": "§17",
+      "tokens": 177,
+      "pages": [
+        48
+      ],
+      "section_ref": "17"
+    },
+    {
+      "id": 255,
+      "kind": "subclause",
+      "label": "§17.1.2",
+      "tokens": 30,
+      "pages": [
+        48
+      ],
+      "section_ref": "17.1.2"
+    },
+    {
+      "id": 256,
+      "kind": "subclause",
+      "label": "§17.1.3",
+      "tokens": 29,
+      "pages": [
+        48
+      ],
+      "section_ref": "17.1.3"
+    },
+    {
+      "id": 257,
+      "kind": "clause",
+      "label": "§17.2",
+      "tokens": 53,
+      "pages": [
+        48
+      ],
+      "section_ref": "17.2"
+    },
+    {
+      "id": 258,
+      "kind": "section_pack",
+      "label": "§18",
+      "tokens": 406,
+      "pages": [
+        48
+      ],
+      "section_ref": "18"
+    },
+    {
+      "id": 259,
+      "kind": "section_pack",
+      "label": "§5",
+      "tokens": 147,
+      "pages": [
+        48
+      ],
+      "section_ref": "5"
+    },
+    {
+      "id": 260,
+      "kind": "section_pack",
+      "label": "§19",
+      "tokens": 342,
+      "pages": [
+        48
+      ],
+      "section_ref": "19"
+    },
+    {
+      "id": 261,
+      "kind": "section_pack",
+      "label": "§20",
+      "tokens": 561,
+      "pages": [
+        48
+      ],
+      "section_ref": "20"
+    },
+    {
+      "id": 262,
+      "kind": "section_pack",
+      "label": "§20",
+      "tokens": 77,
+      "pages": [
+        48
+      ],
+      "section_ref": "20"
+    },
+    {
+      "id": 263,
+      "kind": "section_pack",
+      "label": "§21",
+      "tokens": 30,
+      "pages": [
+        48
+      ],
+      "section_ref": "21"
+    },
+    {
+      "id": 264,
+      "kind": "clause",
+      "label": "§21.1",
+      "tokens": 28,
+      "pages": [
+        48
+      ],
+      "section_ref": "21.1"
+    },
+    {
+      "id": 265,
+      "kind": "section_pack",
+      "label": "§5",
+      "tokens": 271,
+      "pages": [
+        48
+      ],
+      "section_ref": "5"
+    },
+    {
+      "id": 266,
+      "kind": "clause",
+      "label": "§21.2",
+      "tokens": 396,
+      "pages": [
+        49
+      ],
+      "section_ref": "21.2"
+    },
+    {
+      "id": 267,
+      "kind": "section_pack",
+      "label": "§10",
+      "tokens": 417,
+      "pages": [
+        49
+      ],
+      "section_ref": "10"
+    },
+    {
+      "id": 268,
+      "kind": "section_pack",
+      "label": "§10",
+      "tokens": 488,
+      "pages": [
+        49
+      ],
+      "section_ref": "10"
+    },
+    {
+      "id": 269,
+      "kind": "section_pack",
+      "label": "§10",
+      "tokens": 398,
+      "pages": [
+        49
+      ],
+      "section_ref": "10"
+    },
+    {
+      "id": 270,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 228,
+      "pages": [
+        49
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 271,
+      "kind": "section_pack",
+      "label": "§22",
+      "tokens": 441,
+      "pages": [
+        49,
+        50
+      ],
+      "section_ref": "22"
+    },
+    {
+      "id": 272,
+      "kind": "section_pack",
+      "label": "§22",
+      "tokens": 496,
+      "pages": [
+        50
+      ],
+      "section_ref": "22"
+    },
+    {
+      "id": 273,
+      "kind": "section_pack",
+      "label": "§22",
+      "tokens": 385,
+      "pages": [
+        50
+      ],
+      "section_ref": "22"
+    },
+    {
+      "id": 274,
+      "kind": "subclause",
+      "label": "§22.3.2",
+      "tokens": 805,
+      "pages": [
+        50
+      ],
+      "section_ref": "22.3.2"
+    },
+    {
+      "id": 275,
+      "kind": "section_pack",
+      "label": "§23",
+      "tokens": 489,
+      "pages": [
+        51
+      ],
+      "section_ref": "23"
+    },
+    {
+      "id": 276,
+      "kind": "section_pack",
+      "label": "§23",
+      "tokens": 469,
+      "pages": [
+        51
+      ],
+      "section_ref": "23"
+    },
+    {
+      "id": 277,
+      "kind": "section_pack",
+      "label": "§23",
+      "tokens": 122,
+      "pages": [
+        51
+      ],
+      "section_ref": "23"
+    },
+    {
+      "id": 278,
+      "kind": "clause",
+      "label": "§23.4",
+      "tokens": 633,
+      "pages": [
+        51
+      ],
+      "section_ref": "23.4"
+    },
+    {
+      "id": 279,
+      "kind": "section_pack",
+      "label": "§2",
+      "tokens": 340,
+      "pages": [
+        51
+      ],
+      "section_ref": "2"
+    },
+    {
+      "id": 280,
+      "kind": "section_pack",
+      "label": "§2",
+      "tokens": 477,
+      "pages": [
+        51,
+        52
+      ],
+      "section_ref": "2"
+    },
+    {
+      "id": 281,
+      "kind": "section_pack",
+      "label": "§2",
+      "tokens": 255,
+      "pages": [
+        52
+      ],
+      "section_ref": "2"
+    },
+    {
+      "id": 282,
+      "kind": "section_pack",
+      "label": "§2",
+      "tokens": 384,
+      "pages": [
+        52
+      ],
+      "section_ref": "2"
+    },
+    {
+      "id": 283,
+      "kind": "section_pack",
+      "label": "§2",
+      "tokens": 268,
+      "pages": [
+        52
+      ],
+      "section_ref": "2"
+    },
+    {
+      "id": 284,
+      "kind": "section_pack",
+      "label": "§5",
+      "tokens": 401,
+      "pages": [
+        52
+      ],
+      "section_ref": "5"
+    },
+    {
+      "id": 285,
+      "kind": "section_pack",
+      "label": "§5",
+      "tokens": 184,
+      "pages": [
+        52
+      ],
+      "section_ref": "5"
+    },
+    {
+      "id": 286,
+      "kind": "section_pack",
+      "label": "§24",
+      "tokens": 163,
+      "pages": [
+        52
+      ],
+      "section_ref": "24"
+    },
+    {
+      "id": 287,
+      "kind": "clause",
+      "label": "§24.1",
+      "tokens": 451,
+      "pages": [
+        52
+      ],
+      "section_ref": "24.1"
+    },
+    {
+      "id": 288,
+      "kind": "section_pack",
+      "label": "§25",
+      "tokens": 499,
+      "pages": [
+        53
+      ],
+      "section_ref": "25"
+    },
+    {
+      "id": 289,
+      "kind": "section_pack",
+      "label": "§25",
+      "tokens": 465,
+      "pages": [
+        53
+      ],
+      "section_ref": "25"
+    },
+    {
+      "id": 290,
+      "kind": "section_pack",
+      "label": "§25",
+      "tokens": 469,
+      "pages": [
+        53
+      ],
+      "section_ref": "25"
+    },
+    {
+      "id": 291,
+      "kind": "section_pack",
+      "label": "§26",
+      "tokens": 227,
+      "pages": [
+        53
+      ],
+      "section_ref": "26"
+    },
+    {
+      "id": 292,
+      "kind": "clause",
+      "label": "§26.1",
+      "tokens": 876,
+      "pages": [
+        53,
+        54
+      ],
+      "section_ref": "26.1"
+    },
+    {
+      "id": 293,
+      "kind": "section_pack",
+      "label": "§10",
+      "tokens": 248,
+      "pages": [
+        54,
+        55
+      ],
+      "section_ref": "10"
+    },
+    {
+      "id": 294,
+      "kind": "section_pack",
+      "label": "§27",
+      "tokens": 201,
+      "pages": [
+        55
+      ],
+      "section_ref": "27"
+    },
+    {
+      "id": 295,
+      "kind": "clause",
+      "label": "§27.1",
+      "tokens": 58,
+      "pages": [
+        55
+      ],
+      "section_ref": "27.1"
+    },
+    {
+      "id": 296,
+      "kind": "clause",
+      "label": "§27.2",
+      "tokens": 34,
+      "pages": [
+        55
+      ],
+      "section_ref": "27.2"
+    },
+    {
+      "id": 297,
+      "kind": "section_pack",
+      "label": "§28",
+      "tokens": 261,
+      "pages": [
+        55
+      ],
+      "section_ref": "28"
+    },
+    {
+      "id": 298,
+      "kind": "section_pack",
+      "label": "§28",
+      "tokens": 402,
+      "pages": [
+        55
+      ],
+      "section_ref": "28"
+    },
+    {
+      "id": 299,
+      "kind": "section_pack",
+      "label": "§28",
+      "tokens": 378,
+      "pages": [
+        55
+      ],
+      "section_ref": "28"
+    },
+    {
+      "id": 300,
+      "kind": "section_pack",
+      "label": "§29",
+      "tokens": 161,
+      "pages": [
+        55
+      ],
+      "section_ref": "29"
+    },
+    {
+      "id": 301,
+      "kind": "section_pack",
+      "label": "§30",
+      "tokens": 484,
+      "pages": [
+        55
+      ],
+      "section_ref": "30"
+    },
+    {
+      "id": 302,
+      "kind": "section_pack",
+      "label": "§30",
+      "tokens": 445,
+      "pages": [
+        56
+      ],
+      "section_ref": "30"
+    },
+    {
+      "id": 303,
+      "kind": "section_pack",
+      "label": "§30",
+      "tokens": 61,
+      "pages": [
+        56
+      ],
+      "section_ref": "30"
+    },
+    {
+      "id": 304,
+      "kind": "section_pack",
+      "label": "§31",
+      "tokens": 21,
+      "pages": [
+        56
+      ],
+      "section_ref": "31"
+    },
+    {
+      "id": 305,
+      "kind": "section_pack",
+      "label": "§60",
+      "tokens": 41,
+      "pages": [
+        56
+      ],
+      "section_ref": "60"
+    },
+    {
+      "id": 306,
+      "kind": "section_pack",
+      "label": "§32",
+      "tokens": 218,
+      "pages": [
+        56
+      ],
+      "section_ref": "32"
+    },
+    {
+      "id": 307,
+      "kind": "section_pack",
+      "label": "§33",
+      "tokens": 388,
+      "pages": [
+        56
+      ],
+      "section_ref": "33"
+    },
+    {
+      "id": 308,
+      "kind": "section_pack",
+      "label": "§33",
+      "tokens": 350,
+      "pages": [
+        56
+      ],
+      "section_ref": "33"
+    },
+    {
+      "id": 309,
+      "kind": "section_pack",
+      "label": "§33",
+      "tokens": 424,
+      "pages": [
+        56
+      ],
+      "section_ref": "33"
+    },
+    {
+      "id": 310,
+      "kind": "section_pack",
+      "label": "§33",
+      "tokens": 410,
+      "pages": [
+        56,
+        57
+      ],
+      "section_ref": "33"
+    },
+    {
+      "id": 311,
+      "kind": "section_pack",
+      "label": "§50",
+      "tokens": 350,
+      "pages": [
+        57,
+        58
+      ],
+      "section_ref": "50"
+    },
+    {
+      "id": 312,
+      "kind": "section_pack",
+      "label": "§50",
+      "tokens": 471,
+      "pages": [
+        58
+      ],
+      "section_ref": "50"
+    },
+    {
+      "id": 313,
+      "kind": "clause",
+      "label": "§34.1",
+      "tokens": 190,
+      "pages": [
+        58
+      ],
+      "section_ref": "34.1"
+    },
+    {
+      "id": 314,
+      "kind": "clause",
+      "label": "§34.2",
+      "tokens": 388,
+      "pages": [
+        58
+      ],
+      "section_ref": "34.2"
+    },
+    {
+      "id": 315,
+      "kind": "section_pack",
+      "label": "§10",
+      "tokens": 268,
+      "pages": [
+        58
+      ],
+      "section_ref": "10"
+    },
+    {
+      "id": 316,
+      "kind": "section_pack",
+      "label": "§10",
+      "tokens": 431,
+      "pages": [
+        58
+      ],
+      "section_ref": "10"
+    },
+    {
+      "id": 317,
+      "kind": "section_pack",
+      "label": "§10",
+      "tokens": 104,
+      "pages": [
+        58
+      ],
+      "section_ref": "10"
+    },
+    {
+      "id": 318,
+      "kind": "clause",
+      "label": "§34.4",
+      "tokens": 148,
+      "pages": [
+        58
+      ],
+      "section_ref": "34.4"
+    },
+    {
+      "id": 319,
+      "kind": "subclause",
+      "label": "§34.4.1",
+      "tokens": 721,
+      "pages": [
+        58,
+        59
+      ],
+      "section_ref": "34.4.1"
+    },
+    {
+      "id": 320,
+      "kind": "subclause",
+      "label": "§35.1.1",
+      "tokens": 911,
+      "pages": [
+        59
+      ],
+      "section_ref": "35.1.1"
+    },
+    {
+      "id": 321,
+      "kind": "subclause",
+      "label": "§35.1.1",
+      "tokens": 288,
+      "pages": [
+        59
+      ],
+      "section_ref": "35.1.1"
+    },
+    {
+      "id": 322,
+      "kind": "subclause",
+      "label": "§35.1.11",
+      "tokens": 25,
+      "pages": [
+        59
+      ],
+      "section_ref": "35.1.11"
+    },
+    {
+      "id": 323,
+      "kind": "subclause",
+      "label": "§35.1.12",
+      "tokens": 36,
+      "pages": [
+        59
+      ],
+      "section_ref": "35.1.12"
+    },
+    {
+      "id": 324,
+      "kind": "section_pack",
+      "label": "§36",
+      "tokens": 61,
+      "pages": [
+        60
+      ],
+      "section_ref": "36"
+    },
+    {
+      "id": 325,
+      "kind": "clause",
+      "label": "§36.1",
+      "tokens": 889,
+      "pages": [
+        60
+      ],
+      "section_ref": "36.1"
+    },
+    {
+      "id": 326,
+      "kind": "clause",
+      "label": "§36.1",
+      "tokens": 285,
+      "pages": [
+        60
+      ],
+      "section_ref": "36.1"
+    },
+    {
+      "id": 327,
+      "kind": "clause",
+      "label": "§36.10",
+      "tokens": 24,
+      "pages": [
+        60
+      ],
+      "section_ref": "36.10"
+    },
+    {
+      "id": 328,
+      "kind": "clause",
+      "label": "§36.11",
+      "tokens": 75,
+      "pages": [
+        60,
+        61
+      ],
+      "section_ref": "36.11"
+    },
+    {
+      "id": 329,
+      "kind": "section_pack",
+      "label": "§37",
+      "tokens": 78,
+      "pages": [
+        61
+      ],
+      "section_ref": "37"
+    },
+    {
+      "id": 330,
+      "kind": "clause",
+      "label": "§37.1",
+      "tokens": 360,
+      "pages": [
+        61
+      ],
+      "section_ref": "37.1"
+    },
+    {
+      "id": 331,
+      "kind": "section_pack",
+      "label": "§38",
+      "tokens": 474,
+      "pages": [
+        61
+      ],
+      "section_ref": "38"
+    },
+    {
+      "id": 332,
+      "kind": "section_pack",
+      "label": "§38",
+      "tokens": 285,
+      "pages": [
+        61
+      ],
+      "section_ref": "38"
+    },
+    {
+      "id": 333,
+      "kind": "section_pack",
+      "label": "§39",
+      "tokens": 349,
+      "pages": [
+        61
+      ],
+      "section_ref": "39"
+    },
+    {
+      "id": 334,
+      "kind": "section_pack",
+      "label": "§39",
+      "tokens": 263,
+      "pages": [
+        61
+      ],
+      "section_ref": "39"
+    },
+    {
+      "id": 335,
+      "kind": "section_pack",
+      "label": "§40",
+      "tokens": 271,
+      "pages": [
+        61
+      ],
+      "section_ref": "40"
+    },
+    {
+      "id": 336,
+      "kind": "section_pack",
+      "label": "§40",
+      "tokens": 369,
+      "pages": [
+        61,
+        62
+      ],
+      "section_ref": "40"
+    },
+    {
+      "id": 337,
+      "kind": "section_pack",
+      "label": "§40",
+      "tokens": 383,
+      "pages": [
+        62
+      ],
+      "section_ref": "40"
+    },
+    {
+      "id": 338,
+      "kind": "section_pack",
+      "label": "§40",
+      "tokens": 405,
+      "pages": [
+        62
+      ],
+      "section_ref": "40"
+    },
+    {
+      "id": 339,
+      "kind": "section_pack",
+      "label": "§41",
+      "tokens": 389,
+      "pages": [
+        62
+      ],
+      "section_ref": "41"
+    },
+    {
+      "id": 340,
+      "kind": "section_pack",
+      "label": "§42",
+      "tokens": 447,
+      "pages": [
+        62
+      ],
+      "section_ref": "42"
+    },
+    {
+      "id": 341,
+      "kind": "section_pack",
+      "label": "§43",
+      "tokens": 180,
+      "pages": [
+        62
+      ],
+      "section_ref": "43"
+    },
+    {
+      "id": 342,
+      "kind": "section_pack",
+      "label": "§30",
+      "tokens": 270,
+      "pages": [
+        62
+      ],
+      "section_ref": "30"
+    },
+    {
+      "id": 343,
+      "kind": "section_pack",
+      "label": "§30",
+      "tokens": 366,
+      "pages": [
+        62
+      ],
+      "section_ref": "30"
+    },
+    {
+      "id": 344,
+      "kind": "section_pack",
+      "label": "§30",
+      "tokens": 388,
+      "pages": [
+        63
+      ],
+      "section_ref": "30"
+    },
+    {
+      "id": 345,
+      "kind": "section_pack",
+      "label": "§44",
+      "tokens": 318,
+      "pages": [
+        63
+      ],
+      "section_ref": "44"
+    },
+    {
+      "id": 346,
+      "kind": "section_pack",
+      "label": "§45",
+      "tokens": 14,
+      "pages": [
+        63
+      ],
+      "section_ref": "45"
+    },
+    {
+      "id": 347,
+      "kind": "section_pack",
+      "label": "§3",
+      "tokens": 348,
+      "pages": [
+        63
+      ],
+      "section_ref": "3"
+    },
+    {
+      "id": 348,
+      "kind": "section_pack",
+      "label": "§3",
+      "tokens": 322,
+      "pages": [
+        63
+      ],
+      "section_ref": "3"
+    },
+    {
+      "id": 349,
+      "kind": "section_pack",
+      "label": "§3",
+      "tokens": 326,
+      "pages": [
+        63
+      ],
+      "section_ref": "3"
+    },
+    {
+      "id": 350,
+      "kind": "section_pack",
+      "label": "§46",
+      "tokens": 446,
+      "pages": [
+        63,
+        64
+      ],
+      "section_ref": "46"
+    },
+    {
+      "id": 351,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 325,
+      "pages": [
+        64
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 352,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 409,
+      "pages": [
+        64
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 353,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 489,
+      "pages": [
+        64
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 354,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 406,
+      "pages": [
+        64
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 355,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 405,
+      "pages": [
+        64,
+        65
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 356,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 384,
+      "pages": [
+        65
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 357,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 456,
+      "pages": [
+        65
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 358,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 598,
+      "pages": [
+        65
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 359,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 388,
+      "pages": [
+        65
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 360,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 403,
+      "pages": [
+        65
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 361,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 469,
+      "pages": [
+        65,
+        66
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 362,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 144,
+      "pages": [
+        66
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 363,
+      "kind": "section_pack",
+      "label": "§30",
+      "tokens": 495,
+      "pages": [
+        66
+      ],
+      "section_ref": "30"
+    },
+    {
+      "id": 364,
+      "kind": "section_pack",
+      "label": "§30",
+      "tokens": 453,
+      "pages": [
+        66
+      ],
+      "section_ref": "30"
+    },
+    {
+      "id": 365,
+      "kind": "section_pack",
+      "label": "§30",
+      "tokens": 377,
+      "pages": [
+        66
+      ],
+      "section_ref": "30"
+    },
+    {
+      "id": 366,
+      "kind": "section_pack",
+      "label": "§30",
+      "tokens": 408,
+      "pages": [
+        66
+      ],
+      "section_ref": "30"
+    },
+    {
+      "id": 367,
+      "kind": "section_pack",
+      "label": "§30",
+      "tokens": 161,
+      "pages": [
+        67
+      ],
+      "section_ref": "30"
+    },
+    {
+      "id": 368,
+      "kind": "subclause",
+      "label": "§3.2.12",
+      "tokens": 56,
+      "pages": [
+        67
+      ],
+      "section_ref": "3.2.12"
+    },
+    {
+      "id": 369,
+      "kind": "subclause",
+      "label": "§3.2.13",
+      "tokens": 160,
+      "pages": [
+        67
+      ],
+      "section_ref": "3.2.13"
+    },
+    {
+      "id": 370,
+      "kind": "section_pack",
+      "label": "§4",
+      "tokens": 243,
+      "pages": [
+        67
+      ],
+      "section_ref": "4"
+    },
+    {
+      "id": 371,
+      "kind": "clause",
+      "label": "§4.2",
+      "tokens": 705,
+      "pages": [
+        67
+      ],
+      "section_ref": "4.2"
+    },
+    {
+      "id": 372,
+      "kind": "clause",
+      "label": "§4.2",
+      "tokens": 818,
+      "pages": [
+        67
+      ],
+      "section_ref": "4.2"
+    },
+    {
+      "id": 373,
+      "kind": "clause",
+      "label": "§4.2",
+      "tokens": 938,
+      "pages": [
+        68
+      ],
+      "section_ref": "4.2"
+    },
+    {
+      "id": 374,
+      "kind": "clause",
+      "label": "§4.2",
+      "tokens": 896,
+      "pages": [
+        68
+      ],
+      "section_ref": "4.2"
+    },
+    {
+      "id": 375,
+      "kind": "clause",
+      "label": "§4.2",
+      "tokens": 448,
+      "pages": [
+        68,
+        69
+      ],
+      "section_ref": "4.2"
+    },
+    {
+      "id": 376,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 476,
+      "pages": [
+        69
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 377,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 265,
+      "pages": [
+        69
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 378,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 311,
+      "pages": [
+        69
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 379,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 476,
+      "pages": [
+        69
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 380,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 376,
+      "pages": [
+        69
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 381,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 412,
+      "pages": [
+        70
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 382,
+      "kind": "section_pack",
+      "label": "§3",
+      "tokens": 44,
+      "pages": [
+        70
+      ],
+      "section_ref": "3"
+    },
+    {
+      "id": 383,
+      "kind": "section_pack",
+      "label": "§4",
+      "tokens": 16,
+      "pages": [
+        70
+      ],
+      "section_ref": "4"
+    },
+    {
+      "id": 384,
+      "kind": "section_pack",
+      "label": "§5",
+      "tokens": 40,
+      "pages": [
+        70
+      ],
+      "section_ref": "5"
+    },
+    {
+      "id": 385,
+      "kind": "section_pack",
+      "label": "§6",
+      "tokens": 58,
+      "pages": [
+        70
+      ],
+      "section_ref": "6"
+    },
+    {
+      "id": 386,
+      "kind": "section_pack",
+      "label": "§7",
+      "tokens": 458,
+      "pages": [
+        70
+      ],
+      "section_ref": "7"
+    },
+    {
+      "id": 387,
+      "kind": "clause",
+      "label": "§4.2",
+      "tokens": 662,
+      "pages": [
+        70
+      ],
+      "section_ref": "4.2"
+    },
+    {
+      "id": 388,
+      "kind": "section_pack",
+      "label": "§72",
+      "tokens": 441,
+      "pages": [
+        70
+      ],
+      "section_ref": "72"
+    },
+    {
+      "id": 389,
+      "kind": "section_pack",
+      "label": "§72",
+      "tokens": 215,
+      "pages": [
+        70,
+        71
+      ],
+      "section_ref": "72"
+    },
+    {
+      "id": 390,
+      "kind": "section_pack",
+      "label": "§72",
+      "tokens": 452,
+      "pages": [
+        71
+      ],
+      "section_ref": "72"
+    },
+    {
+      "id": 391,
+      "kind": "section_pack",
+      "label": "§72",
+      "tokens": 298,
+      "pages": [
+        71
+      ],
+      "section_ref": "72"
+    },
+    {
+      "id": 392,
+      "kind": "section_pack",
+      "label": "§72",
+      "tokens": 436,
+      "pages": [
+        71
+      ],
+      "section_ref": "72"
+    },
+    {
+      "id": 393,
+      "kind": "section_pack",
+      "label": "§72",
+      "tokens": 435,
+      "pages": [
+        71
+      ],
+      "section_ref": "72"
+    },
+    {
+      "id": 394,
+      "kind": "section_pack",
+      "label": "§72",
+      "tokens": 401,
+      "pages": [
+        71
+      ],
+      "section_ref": "72"
+    },
+    {
+      "id": 395,
+      "kind": "section_pack",
+      "label": "§72",
+      "tokens": 450,
+      "pages": [
+        71,
+        72
+      ],
+      "section_ref": "72"
+    },
+    {
+      "id": 396,
+      "kind": "section_pack",
+      "label": "§72",
+      "tokens": 479,
+      "pages": [
+        72
+      ],
+      "section_ref": "72"
+    },
+    {
+      "id": 397,
+      "kind": "section_pack",
+      "label": "§72",
+      "tokens": 311,
+      "pages": [
+        72
+      ],
+      "section_ref": "72"
+    },
+    {
+      "id": 398,
+      "kind": "section_pack",
+      "label": "§72",
+      "tokens": 295,
+      "pages": [
+        72
+      ],
+      "section_ref": "72"
+    },
+    {
+      "id": 399,
+      "kind": "section_pack",
+      "label": "§72",
+      "tokens": 486,
+      "pages": [
+        72
+      ],
+      "section_ref": "72"
+    },
+    {
+      "id": 400,
+      "kind": "section_pack",
+      "label": "§72",
+      "tokens": 489,
+      "pages": [
+        72,
+        73
+      ],
+      "section_ref": "72"
+    },
+    {
+      "id": 401,
+      "kind": "section_pack",
+      "label": "§72",
+      "tokens": 403,
+      "pages": [
+        73
+      ],
+      "section_ref": "72"
+    },
+    {
+      "id": 402,
+      "kind": "section_pack",
+      "label": "§72",
+      "tokens": 444,
+      "pages": [
+        73
+      ],
+      "section_ref": "72"
+    },
+    {
+      "id": 403,
+      "kind": "section_pack",
+      "label": "§72",
+      "tokens": 317,
+      "pages": [
+        73
+      ],
+      "section_ref": "72"
+    },
+    {
+      "id": 404,
+      "kind": "section_pack",
+      "label": "§72",
+      "tokens": 382,
+      "pages": [
+        73
+      ],
+      "section_ref": "72"
+    },
+    {
+      "id": 405,
+      "kind": "section_pack",
+      "label": "§72",
+      "tokens": 347,
+      "pages": [
+        73,
+        74
+      ],
+      "section_ref": "72"
+    },
+    {
+      "id": 406,
+      "kind": "section_pack",
+      "label": "§72",
+      "tokens": 263,
+      "pages": [
+        74
+      ],
+      "section_ref": "72"
+    },
+    {
+      "id": 407,
+      "kind": "section_pack",
+      "label": "§72",
+      "tokens": 294,
+      "pages": [
+        74
+      ],
+      "section_ref": "72"
+    },
+    {
+      "id": 408,
+      "kind": "section_pack",
+      "label": "§72",
+      "tokens": 399,
+      "pages": [
+        74
+      ],
+      "section_ref": "72"
+    },
+    {
+      "id": 409,
+      "kind": "section_pack",
+      "label": "§72",
+      "tokens": 469,
+      "pages": [
+        74
+      ],
+      "section_ref": "72"
+    },
+    {
+      "id": 410,
+      "kind": "section_pack",
+      "label": "§72",
+      "tokens": 405,
+      "pages": [
+        74
+      ],
+      "section_ref": "72"
+    },
+    {
+      "id": 411,
+      "kind": "section_pack",
+      "label": "§72",
+      "tokens": 414,
+      "pages": [
+        75
+      ],
+      "section_ref": "72"
+    },
+    {
+      "id": 412,
+      "kind": "section_pack",
+      "label": "§72",
+      "tokens": 344,
+      "pages": [
+        75
+      ],
+      "section_ref": "72"
+    },
+    {
+      "id": 413,
+      "kind": "section_pack",
+      "label": "§72",
+      "tokens": 357,
+      "pages": [
+        75
+      ],
+      "section_ref": "72"
+    },
+    {
+      "id": 414,
+      "kind": "section_pack",
+      "label": "§72",
+      "tokens": 383,
+      "pages": [
+        75,
+        76
+      ],
+      "section_ref": "72"
+    },
+    {
+      "id": 415,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 379,
+      "pages": [
+        76
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 416,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 336,
+      "pages": [
+        76
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 417,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 336,
+      "pages": [
+        76
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 418,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 456,
+      "pages": [
+        76
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 419,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 323,
+      "pages": [
+        76
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 420,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 336,
+      "pages": [
+        76,
+        77
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 421,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 499,
+      "pages": [
+        77
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 422,
+      "kind": "section_pack",
+      "label": "§1",
+      "tokens": 233,
+      "pages": [
+        77
+      ],
+      "section_ref": "1"
+    },
+    {
+      "id": 423,
+      "kind": "clause",
+      "label": "§2.11",
+      "tokens": 66,
+      "pages": [
+        77
+      ],
+      "section_ref": "2.11"
+    },
+    {
+      "id": 424,
+      "kind": "section_pack",
+      "label": "§3",
+      "tokens": 265,
+      "pages": [
+        77
+      ],
+      "section_ref": "3"
+    },
+    {
+      "id": 425,
+      "kind": "section_pack",
+      "label": "§4",
+      "tokens": 301,
+      "pages": [
+        77
+      ],
+      "section_ref": "4"
+    },
+    {
+      "id": 426,
+      "kind": "section_pack",
+      "label": "§5",
+      "tokens": 305,
+      "pages": [
+        77
+      ],
+      "section_ref": "5"
+    },
+    {
+      "id": 427,
+      "kind": "section_pack",
+      "label": "§5",
+      "tokens": 322,
+      "pages": [
+        77,
+        78
+      ],
+      "section_ref": "5"
+    },
+    {
+      "id": 428,
+      "kind": "section_pack",
+      "label": "§5",
+      "tokens": 436,
+      "pages": [
+        78
+      ],
+      "section_ref": "5"
+    },
+    {
+      "id": 429,
+      "kind": "clause",
+      "label": "§5.7",
+      "tokens": 164,
+      "pages": [
+        78
+      ],
+      "section_ref": "5.7"
+    },
+    {
+      "id": 430,
+      "kind": "section_pack",
+      "label": "§15",
+      "tokens": 474,
+      "pages": [
+        78
+      ],
+      "section_ref": "15"
+    },
+    {
+      "id": 431,
+      "kind": "section_pack",
+      "label": "§15",
+      "tokens": 218,
+      "pages": [
+        78
+      ],
+      "section_ref": "15"
+    },
+    {
+      "id": 432,
+      "kind": "section_pack",
+      "label": "§15",
+      "tokens": 494,
+      "pages": [
+        78
+      ],
+      "section_ref": "15"
+    },
+    {
+      "id": 433,
+      "kind": "section_pack",
+      "label": "§15",
+      "tokens": 441,
+      "pages": [
+        78
+      ],
+      "section_ref": "15"
+    },
+    {
+      "id": 434,
+      "kind": "section_pack",
+      "label": "§15",
+      "tokens": 263,
+      "pages": [
+        78,
+        79
+      ],
+      "section_ref": "15"
+    },
+    {
+      "id": 435,
+      "kind": "section_pack",
+      "label": "§30",
+      "tokens": 134,
+      "pages": [
+        79
+      ],
+      "section_ref": "30"
+    },
+    {
+      "id": 436,
+      "kind": "section_pack",
+      "label": "§6",
+      "tokens": 151,
+      "pages": [
+        79
+      ],
+      "section_ref": "6"
+    },
+    {
+      "id": 437,
+      "kind": "section_pack",
+      "label": "§7",
+      "tokens": 338,
+      "pages": [
+        79
+      ],
+      "section_ref": "7"
+    },
+    {
+      "id": 438,
+      "kind": "section_pack",
+      "label": "§8",
+      "tokens": 484,
+      "pages": [
+        79
+      ],
+      "section_ref": "8"
+    },
+    {
+      "id": 439,
+      "kind": "section_pack",
+      "label": "§8",
+      "tokens": 454,
+      "pages": [
+        79
+      ],
+      "section_ref": "8"
+    },
+    {
+      "id": 440,
+      "kind": "section_pack",
+      "label": "§8",
+      "tokens": 530,
+      "pages": [
+        79
+      ],
+      "section_ref": "8"
+    },
+    {
+      "id": 441,
+      "kind": "section_pack",
+      "label": "§8",
+      "tokens": 227,
+      "pages": [
+        79,
+        80
+      ],
+      "section_ref": "8"
+    },
+    {
+      "id": 442,
+      "kind": "section_pack",
+      "label": "§8",
+      "tokens": 497,
+      "pages": [
+        80
+      ],
+      "section_ref": "8"
+    },
+    {
+      "id": 443,
+      "kind": "section_pack",
+      "label": "§8",
+      "tokens": 111,
+      "pages": [
+        80
+      ],
+      "section_ref": "8"
+    },
+    {
+      "id": 444,
+      "kind": "section_pack",
+      "label": "§10",
+      "tokens": 388,
+      "pages": [
+        80
+      ],
+      "section_ref": "10"
+    },
+    {
+      "id": 445,
+      "kind": "section_pack",
+      "label": "§12",
+      "tokens": 470,
+      "pages": [
+        80
+      ],
+      "section_ref": "12"
+    },
+    {
+      "id": 446,
+      "kind": "section_pack",
+      "label": "§12",
+      "tokens": 461,
+      "pages": [
+        80
+      ],
+      "section_ref": "12"
+    },
+    {
+      "id": 447,
+      "kind": "section_pack",
+      "label": "§12",
+      "tokens": 479,
+      "pages": [
+        80,
+        81
+      ],
+      "section_ref": "12"
+    },
+    {
+      "id": 448,
+      "kind": "section_pack",
+      "label": "§13",
+      "tokens": 42,
+      "pages": [
+        81
+      ],
+      "section_ref": "13"
+    },
+    {
+      "id": 449,
+      "kind": "clause",
+      "label": "§13.1",
+      "tokens": 846,
+      "pages": [
+        81
+      ],
+      "section_ref": "13.1"
+    },
+    {
+      "id": 450,
+      "kind": "clause",
+      "label": "§13.1",
+      "tokens": 501,
+      "pages": [
+        81
+      ],
+      "section_ref": "13.1"
+    },
+    {
+      "id": 451,
+      "kind": "section_pack",
+      "label": "§14",
+      "tokens": 167,
+      "pages": [
+        81
+      ],
+      "section_ref": "14"
+    },
+    {
+      "id": 452,
+      "kind": "section_pack",
+      "label": "§15",
+      "tokens": 355,
+      "pages": [
+        81
+      ],
+      "section_ref": "15"
+    },
+    {
+      "id": 453,
+      "kind": "section_pack",
+      "label": "§15",
+      "tokens": 344,
+      "pages": [
+        81
+      ],
+      "section_ref": "15"
+    },
+    {
+      "id": 454,
+      "kind": "section_pack",
+      "label": "§16",
+      "tokens": 296,
+      "pages": [
+        82
+      ],
+      "section_ref": "16"
+    },
+    {
+      "id": 455,
+      "kind": "section_pack",
+      "label": "§17",
+      "tokens": 315,
+      "pages": [
+        82
+      ],
+      "section_ref": "17"
+    },
+    {
+      "id": 456,
+      "kind": "section_pack",
+      "label": "§18",
+      "tokens": 526,
+      "pages": [
+        82
+      ],
+      "section_ref": "18"
+    },
+    {
+      "id": 457,
+      "kind": "section_pack",
+      "label": "§18",
+      "tokens": 191,
+      "pages": [
+        82
+      ],
+      "section_ref": "18"
+    },
+    {
+      "id": 458,
+      "kind": "section_pack",
+      "label": "§19",
+      "tokens": 450,
+      "pages": [
+        82
+      ],
+      "section_ref": "19"
+    },
+    {
+      "id": 459,
+      "kind": "section_pack",
+      "label": "§19",
+      "tokens": 501,
+      "pages": [
+        82
+      ],
+      "section_ref": "19"
+    },
+    {
+      "id": 460,
+      "kind": "section_pack",
+      "label": "§19",
+      "tokens": 207,
+      "pages": [
+        82
+      ],
+      "section_ref": "19"
+    },
+    {
+      "id": 461,
+      "kind": "section_pack",
+      "label": "§20",
+      "tokens": 398,
+      "pages": [
+        83
+      ],
+      "section_ref": "20"
+    },
+    {
+      "id": 462,
+      "kind": "section_pack",
+      "label": "§20",
+      "tokens": 405,
+      "pages": [
+        83
+      ],
+      "section_ref": "20"
+    },
+    {
+      "id": 463,
+      "kind": "section_pack",
+      "label": "§21",
+      "tokens": 459,
+      "pages": [
+        83
+      ],
+      "section_ref": "21"
+    },
+    {
+      "id": 464,
+      "kind": "section_pack",
+      "label": "§56",
+      "tokens": 181,
+      "pages": [
+        83
+      ],
+      "section_ref": "56"
+    },
+    {
+      "id": 465,
+      "kind": "clause",
+      "label": "§21.4",
+      "tokens": 63,
+      "pages": [
+        83
+      ],
+      "section_ref": "21.4"
+    },
+    {
+      "id": 466,
+      "kind": "section_pack",
+      "label": "§22",
+      "tokens": 24,
+      "pages": [
+        83
+      ],
+      "section_ref": "22"
+    },
+    {
+      "id": 467,
+      "kind": "clause",
+      "label": "§22.1",
+      "tokens": 158,
+      "pages": [
+        83
+      ],
+      "section_ref": "22.1"
+    },
+    {
+      "id": 468,
+      "kind": "subclause",
+      "label": "§22.1.2",
+      "tokens": 870,
+      "pages": [
+        83,
+        84
+      ],
+      "section_ref": "22.1.2"
+    },
+    {
+      "id": 469,
+      "kind": "section_pack",
+      "label": "§23",
+      "tokens": 519,
+      "pages": [
+        84
+      ],
+      "section_ref": "23"
+    },
+    {
+      "id": 470,
+      "kind": "section_pack",
+      "label": "§23",
+      "tokens": 269,
+      "pages": [
+        84
+      ],
+      "section_ref": "23"
+    },
+    {
+      "id": 471,
+      "kind": "section_pack",
+      "label": "§24",
+      "tokens": 231,
+      "pages": [
+        84
+      ],
+      "section_ref": "24"
+    },
+    {
+      "id": 472,
+      "kind": "section_pack",
+      "label": "§25",
+      "tokens": 21,
+      "pages": [
+        84
+      ],
+      "section_ref": "25"
+    },
+    {
+      "id": 473,
+      "kind": "clause",
+      "label": "§25.1",
+      "tokens": 374,
+      "pages": [
+        84
+      ],
+      "section_ref": "25.1"
+    },
+    {
+      "id": 474,
+      "kind": "section_pack",
+      "label": "§26",
+      "tokens": 459,
+      "pages": [
+        84
+      ],
+      "section_ref": "26"
+    },
+    {
+      "id": 475,
+      "kind": "section_pack",
+      "label": "§27",
+      "tokens": 277,
+      "pages": [
+        85
+      ],
+      "section_ref": "27"
+    },
+    {
+      "id": 476,
+      "kind": "section_pack",
+      "label": "§28",
+      "tokens": 372,
+      "pages": [
+        85
+      ],
+      "section_ref": "28"
+    },
+    {
+      "id": 477,
+      "kind": "section_pack",
+      "label": "§28",
+      "tokens": 371,
+      "pages": [
+        85
+      ],
+      "section_ref": "28"
+    },
+    {
+      "id": 478,
+      "kind": "section_pack",
+      "label": "§29",
+      "tokens": 511,
+      "pages": [
+        85
+      ],
+      "section_ref": "29"
+    },
+    {
+      "id": 479,
+      "kind": "section_pack",
+      "label": "§29",
+      "tokens": 332,
+      "pages": [
+        85
+      ],
+      "section_ref": "29"
+    },
+    {
+      "id": 480,
+      "kind": "section_pack",
+      "label": "§29",
+      "tokens": 512,
+      "pages": [
+        85
+      ],
+      "section_ref": "29"
+    },
+    {
+      "id": 481,
+      "kind": "section_pack",
+      "label": "§29",
+      "tokens": 589,
+      "pages": [
+        85,
+        86
+      ],
+      "section_ref": "29"
+    },
+    {
+      "id": 482,
+      "kind": "section_pack",
+      "label": "§29",
+      "tokens": 76,
+      "pages": [
+        86
+      ],
+      "section_ref": "29"
+    },
+    {
+      "id": 483,
+      "kind": "section_pack",
+      "label": "§31",
+      "tokens": 298,
+      "pages": [
+        86
+      ],
+      "section_ref": "31"
+    },
+    {
+      "id": 484,
+      "kind": "section_pack",
+      "label": "§31",
+      "tokens": 435,
+      "pages": [
+        86
+      ],
+      "section_ref": "31"
+    },
+    {
+      "id": 485,
+      "kind": "section_pack",
+      "label": "§32",
+      "tokens": 471,
+      "pages": [
+        86,
+        87
+      ],
+      "section_ref": "32"
+    },
+    {
+      "id": 486,
+      "kind": "section_pack",
+      "label": "§32",
+      "tokens": 86,
+      "pages": [
+        87
+      ],
+      "section_ref": "32"
+    }
+  ]
+}

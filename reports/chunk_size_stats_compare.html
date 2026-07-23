@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Chunk stats comparison — naive vs policies</title>
+  <style>
+    :root { --bg:#f4f6f9; --card:#fff; --text:#111827; --muted:#6b7280; --border:#e5e7eb; }
+    body { margin:0; font-family:Inter,system-ui,sans-serif; background:var(--bg); color:var(--text); }
+    header { background:#1e3a5f; color:#fff; padding:1.2rem 1.5rem; }
+    header h1 { margin:0 0 .35rem; font-size:1.25rem; }
+    header p { margin:0; opacity:.9; font-size:.88rem; }
+    main { max-width:1100px; margin:0 auto; padding:1rem 1.25rem 2.5rem; }
+    section { background:var(--card); border-radius:12px; padding:1rem 1.1rem; margin-bottom:1rem;
+               box-shadow:0 1px 3px rgba(0,0,0,.06); }
+    h2 { margin:0 0 .65rem; font-size:1.05rem; }
+    h3 { margin:.75rem 0 .35rem; font-size:.92rem; }
+    .note { background:#eff6ff; border-left:3px solid #2563eb; padding:.55rem .75rem;
+             border-radius:8px; font-size:.86rem; margin:0 0 .75rem; }
+    table { width:100%; border-collapse:collapse; font-size:.8rem; }
+    th, td { padding:.4rem .45rem; border-bottom:1px solid var(--border); text-align:left; }
+    th { font-size:.68rem; text-transform:uppercase; letter-spacing:.04em; color:var(--muted); }
+    td.num { text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap; }
+    tr.pol td { background:#f8fafc; }
+    tr.delta td { color:#047857; font-size:.75rem; background:#f0fdf4; }
+    .muted { color:var(--muted); font-size:.75rem; }
+    ul.files { font-size:.78rem; columns:2; padding-left:1.1rem; margin:.25rem 0 0; }
+    code { font-size:.76rem; background:#f3f4f6; padding:.05rem .25rem; border-radius:4px; }
+    a { color:#2563eb; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Chunk token stats — naive vs policies sample</h1>
+    <p>12 PDFs each · tiktoken cl100k_base · 2026-07-21 14:48 UTC</p>
+  </header>
+  <main>
+    <section>
+      <h2>Sampling difference</h2>
+      <p class="note"><strong>Naive:</strong> largest files per domain (byte size) — includes forms, tariffs, help pages.<br/>
+      <strong>Policies:</strong> filename matches פוליס / תנאי / כתב-שירות; drops טופס, תעריפון, גילוי נאות, דפי עזר, ויתור, באנגלית, etc.</p>
+      <p>Full reports:
+        <a href="chunk_size_stats.html">naive</a> ·
+        <a href="chunk_size_stats_policies.html">policies</a>
+      </p>
+    </section>
+
+    <section>
+      <h2>Side-by-side (tokens)</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Level</th><th>Sample</th>
+            <th>N</th><th>Mean</th><th>Min</th><th>P50</th><th>P75</th>
+            <th>P90</th><th>P95</th><th>P99</th><th>Max</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+              <td rowspan="2"><strong>Full document</strong></td>
+              <td>Naive</td>
+              <td class="num">12</td><td class="num">40,585.8</td><td class="num">132</td><td class="num">20,342</td><td class="num">50,098</td><td class="num">114,886</td><td class="num">133,841</td><td class="num">146,723</td><td class="num">149,944</td>
+            </tr>
+            <tr class="pol">
+              <td>Policies</td>
+              <td class="num">12</td><td class="num">58,732.8</td><td class="num">3,901</td><td class="num">54,358</td><td class="num">72,760</td><td class="num">116,666</td><td class="num">142,854</td><td class="num">164,551</td><td class="num">169,975</td>
+            </tr>
+            <tr class="delta">
+              <td></td><td>Δ</td>
+              <td class="num">+0 (+0%)</td><td class="num">+18,147.0 (+45%)</td><td class="num">+3,769 (+2855%)</td><td class="num">+34,016 (+167%)</td><td class="num">+22,662 (+45%)</td><td class="num">+1,780 (+2%)</td><td class="num">+9,013 (+7%)</td><td class="num">+17,828 (+12%)</td><td class="num">+20,031 (+13%)</td>
+            </tr><tr>
+              <td rowspan="2"><strong>Page</strong></td>
+              <td>Naive</td>
+              <td class="num">328</td><td class="num">1,484.4</td><td class="num">12</td><td class="num">1,710</td><td class="num">2,224</td><td class="num">2,436</td><td class="num">2,577</td><td class="num">2,882</td><td class="num">3,301</td>
+            </tr>
+            <tr class="pol">
+              <td>Policies</td>
+              <td class="num">466</td><td class="num">1,512.0</td><td class="num">25</td><td class="num">1,756</td><td class="num">2,212</td><td class="num">2,400</td><td class="num">2,529</td><td class="num">2,737</td><td class="num">3,001</td>
+            </tr>
+            <tr class="delta">
+              <td></td><td>Δ</td>
+              <td class="num">+138 (+42%)</td><td class="num">+27.6 (+2%)</td><td class="num">+13 (+108%)</td><td class="num">+46 (+3%)</td><td class="num">-12 (-1%)</td><td class="num">-36 (-1%)</td><td class="num">-48 (-2%)</td><td class="num">-145 (-5%)</td><td class="num">-300 (-9%)</td>
+            </tr><tr>
+              <td rowspan="2"><strong>Section (§N)</strong></td>
+              <td>Naive</td>
+              <td class="num">426</td><td class="num">1,109.5</td><td class="num">1</td><td class="num">180</td><td class="num">1,042</td><td class="num">2,927</td><td class="num">5,102</td><td class="num">15,475</td><td class="num">21,786</td>
+            </tr>
+            <tr class="pol">
+              <td>Policies</td>
+              <td class="num">586</td><td class="num">1,178.3</td><td class="num">1</td><td class="num">147</td><td class="num">1,002</td><td class="num">3,162</td><td class="num">5,448</td><td class="num">14,977</td><td class="num">44,314</td>
+            </tr>
+            <tr class="delta">
+              <td></td><td>Δ</td>
+              <td class="num">+160 (+38%)</td><td class="num">+68.8 (+6%)</td><td class="num">+0 (+0%)</td><td class="num">-33 (-18%)</td><td class="num">-40 (-4%)</td><td class="num">+235 (+8%)</td><td class="num">+346 (+7%)</td><td class="num">-498 (-3%)</td><td class="num">+22,528 (+103%)</td>
+            </tr><tr>
+              <td rowspan="2"><strong>Clause (§N.M)</strong></td>
+              <td>Naive</td>
+              <td class="num">522</td><td class="num">389.2</td><td class="num">3</td><td class="num">142</td><td class="num">373</td><td class="num">926</td><td class="num">1,563</td><td class="num">3,450</td><td class="num">8,368</td>
+            </tr>
+            <tr class="pol">
+              <td>Policies</td>
+              <td class="num">478</td><td class="num">513.9</td><td class="num">3</td><td class="num">228</td><td class="num">577</td><td class="num">1,309</td><td class="num">1,907</td><td class="num">3,688</td><td class="num">7,092</td>
+            </tr>
+            <tr class="delta">
+              <td></td><td>Δ</td>
+              <td class="num">-44 (-8%)</td><td class="num">+124.7 (+32%)</td><td class="num">+0 (+0%)</td><td class="num">+86 (+61%)</td><td class="num">+204 (+55%)</td><td class="num">+383 (+41%)</td><td class="num">+344 (+22%)</td><td class="num">+238 (+7%)</td><td class="num">-1,276 (-15%)</td>
+            </tr><tr>
+              <td rowspan="2"><strong>Sub-clause (§N.M.K+)</strong></td>
+              <td>Naive</td>
+              <td class="num">337</td><td class="num">265.8</td><td class="num">5</td><td class="num">105</td><td class="num">265</td><td class="num">595</td><td class="num">986</td><td class="num">2,212</td><td class="num">5,503</td>
+            </tr>
+            <tr class="pol">
+              <td>Policies</td>
+              <td class="num">319</td><td class="num">358.9</td><td class="num">5</td><td class="num">161</td><td class="num">408</td><td class="num">885</td><td class="num">1,251</td><td class="num">2,241</td><td class="num">5,503</td>
+            </tr>
+            <tr class="delta">
+              <td></td><td>Δ</td>
+              <td class="num">-18 (-5%)</td><td class="num">+93.1 (+35%)</td><td class="num">+0 (+0%)</td><td class="num">+56 (+53%)</td><td class="num">+143 (+54%)</td><td class="num">+290 (+49%)</td><td class="num">+265 (+27%)</td><td class="num">+29 (+1%)</td><td class="num">+0 (+0%)</td>
+            </tr><tr>
+              <td rowspan="2"><strong>Paragraph / item</strong></td>
+              <td>Naive</td>
+              <td class="num">4,713</td><td class="num">101.8</td><td class="num">1</td><td class="num">66</td><td class="num">139</td><td class="num">244</td><td class="num">316</td><td class="num">502</td><td class="num">1,762</td>
+            </tr>
+            <tr class="pol">
+              <td>Policies</td>
+              <td class="num">6,063</td><td class="num">115.1</td><td class="num">1</td><td class="num">85</td><td class="num">159</td><td class="num">255</td><td class="num">324</td><td class="num">496</td><td class="num">1,762</td>
+            </tr>
+            <tr class="delta">
+              <td></td><td>Δ</td>
+              <td class="num">+1,350 (+29%)</td><td class="num">+13.3 (+13%)</td><td class="num">+0 (+0%)</td><td class="num">+19 (+29%)</td><td class="num">+20 (+14%)</td><td class="num">+11 (+5%)</td><td class="num">+8 (+3%)</td><td class="num">-6 (-1%)</td><td class="num">+0 (+0%)</td>
+            </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Chart</h2>
+      <div style="height:480px; width:100%;">                        <script>window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-3.7.0.min.js" integrity="sha256-jvTGqxNp8AGWEcvNLVuKr+8j5dGe9Yw51LQkmDH+IYA=" crossorigin="anonymous"></script>                <div id="766c08b5-1ff5-4f88-967f-52943208ea47" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("766c08b5-1ff5-4f88-967f-52943208ea47")) {                    Plotly.newPlot(                        "766c08b5-1ff5-4f88-967f-52943208ea47",                        [{"marker":{"color":"#94a3b8"},"name":"Naive \u00b7 mean","x":["Full document","Page","Section (\u00a7N)","Clause (\u00a7N.M)","Sub-clause (\u00a7N.M.K+)","Paragraph \u002f item"],"y":[40585.8,1484.4,1109.5,389.2,265.8,101.8],"type":"bar"},{"marker":{"color":"#2563eb"},"name":"Policies \u00b7 mean","x":["Full document","Page","Section (\u00a7N)","Clause (\u00a7N.M)","Sub-clause (\u00a7N.M.K+)","Paragraph \u002f item"],"y":[58732.8,1512.0,1178.3,513.9,358.9,115.1],"type":"bar"},{"marker":{"color":"#94a3b8"},"name":"Naive \u00b7 p50","x":["Full document","Page","Section (\u00a7N)","Clause (\u00a7N.M)","Sub-clause (\u00a7N.M.K+)","Paragraph \u002f item"],"y":[20342,1710,180,142,105,66],"type":"bar"},{"marker":{"color":"#2563eb"},"name":"Policies \u00b7 p50","x":["Full document","Page","Section (\u00a7N)","Clause (\u00a7N.M)","Sub-clause (\u00a7N.M.K+)","Paragraph \u002f item"],"y":[54358,1756,147,228,161,85],"type":"bar"},{"marker":{"color":"#94a3b8"},"name":"Naive \u00b7 p95","x":["Full document","Page","Section (\u00a7N)","Clause (\u00a7N.M)","Sub-clause (\u00a7N.M.K+)","Paragraph \u002f item"],"y":[133841,2577,5102,1563,986,316],"type":"bar"},{"marker":{"color":"#2563eb"},"name":"Policies \u00b7 p95","x":["Full document","Page","Section (\u00a7N)","Clause (\u00a7N.M)","Sub-clause (\u00a7N.M.K+)","Paragraph \u002f item"],"y":[142854,2529,5448,1907,1251,324],"type":"bar"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scattermap":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermap"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"yaxis":{"title":{"text":"Tokens (log)"},"type":"log"},"legend":{"orientation":"h","y":-0.2},"margin":{"l":60,"r":20,"t":50,"b":80},"barmode":"group","title":{"text":"Naive vs policies sample \u2014 mean \u002f p50 \u002f p95 tokens"},"height":480},                        {"responsive": true}                    )                };            </script>        </div>
+    </section>
+
+    <section>
+      <h2>Files sampled</h2>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
+        <h3>Naive</h3><ul class='files'><li><code>פוליסת-אדירה-זהב-מהדורת-נובמבר-2019-באנגלית.pdf</code> <span class='muted'>apartment</span></li><li><code>מכלול-למושב-ינואר-2023.pdf</code> <span class='muted'>business</span></li><li><code>פוליסה-לביטוח-רכב-פרטי-ורכב-מסחרי-עד-35-טון-מבית-שירביט-מהדורת-יוני-2023.pdf</code> <span class='muted'>car</span></li><li><code>טופס-בדיקה-לטיפולים-פריודונטליים-ביטוח-שיניים.pdf</code> <span class='muted'>dental</span></li><li><code>תנאי-פוליסת-ביטוח-מחלות-קשות-מענקית-זהב-1.pdf</code> <span class='muted'>diseases-disabilities</span></li><li><code>דפי-עזר-לשימוש-בשירות-רפואה-אישית-on-line.pdf</code> <span class='muted'>health</span></li><li><code>תנאי-הכנסה-למשפחה.pdf</code> <span class='muted'>life</span></li><li><code>иск-о-пособии-по-уходу.pdf</code> <span class='muted'>long-term-care</span></li><li><code>תנאי-פוליסת-ביטוח-אובדן-כושר-עבודה-הראל-לעתיד-חדש.pdf</code> <span class='muted'>loss-of-working-ability</span></li><li><code>תנאי-פוליסת-ביטוח-מבנה-דירה-משכנתא-בטוחה-מהדורה-חדשה-בתוקף-החל-מ-2-12-2019.pdf</code> <span class='muted'>mortgage</span></li><li><code>גילוי-נאות-הראל-ביטוח-תאונות-אישיות.pdf</code> <span class='muted'>personal-accident</span></li><li><code>תעריפון-דרכון-פרימיום.pdf</code> <span class='muted'>travel</span></li></ul>
+        <h3>Policies</h3><ul class='files'><li><code>דף-מידע-פוליסה-אדירה-זהב-יולי-2015.pdf</code> <span class='muted'>apartment</span></li><li><code>פוליסת-מכלול-לחבר-מושב-מהדורת-ינואר-2023.pdf</code> <span class='muted'>business</span></li><li><code>פוליסה-לביטוח-רכב-פרטי-ורכב-מסחרי-עד-35-טון-מבית-שירביט-מהדורת-יוני-2023.pdf</code> <span class='muted'>car</span></li><li><code>תנאי-פוליסת-ביטוח-מחלות-קשות-מענקית-זהב-1.pdf</code> <span class='muted'>diseases-disabilities</span></li><li><code>כתב-שירות-רפואה-אישית-onlineplus.pdf</code> <span class='muted'>health</span></li><li><code>תנאי-הכנסה-למשפחה.pdf</code> <span class='muted'>life</span></li><li><code>תנאי-פוליסת-ביטוח-אובדן-כושר-עבודה-הראל-לעתיד-חדש.pdf</code> <span class='muted'>loss-of-working-ability</span></li><li><code>תנאי-פוליסת-ביטוח-מבנה-דירה-משכנתא-בטוחה-מהדורה-חדשה-בתוקף-החל-מ-2-12-2019.pdf</code> <span class='muted'>mortgage</span></li><li><code>תנאי-פוליסת-ביטוח-צלילה-ספורטיבית.pdf</code> <span class='muted'>personal-accident</span></li><li><code>תנאי-פוליסת-ביטוח-נסיעות-לחול-רוסיתfirst-class.pdf</code> <span class='muted'>travel</span></li><li><code>תנאי-פוליסת-ביטוח-עד-הגג-לביטוח-בית-משותף.pdf</code> <span class='muted'>apartment</span></li><li><code>פוליסה-משולבת-לביטוח-אש-מורחב-ואובדן-תוצאתי-הראל-ביט-ינואר-2023.pdf</code> <span class='muted'>business</span></li></ul>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

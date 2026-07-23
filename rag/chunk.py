@@ -20,6 +20,24 @@ class VectorChunk:
     pages: list[int] = field(default_factory=list)
 
 
+def _is_header(block: Block) -> bool:
+    """Docling section headers (and short heading-like lines) should lead a chunk."""
+    if block.kind == "SectionHeaderItem":
+        return True
+    text = (block.text or "").strip()
+    if not text or len(text) > 90:
+        return False
+    # Own numbered title (not inherited body under a parent ref)
+    if (
+        block.kind in ("ListItem", "TextItem")
+        and block.section_ref
+        and not block.inherited
+        and section_depth(block.section_ref) <= 3
+    ):
+        return True
+    return False
+
+
 def _unit_key(block: Block) -> tuple:
     """Grouping key before packing."""
     if block.kind == "TableItem":
@@ -38,6 +56,54 @@ def _unit_key(block: Block) -> tuple:
     if d == 2:
         return ("clause", ref)
     return ("section", ref)
+
+
+def _attach_leading_headers(
+    groups: list[tuple[str, str | None, list[Block]]],
+) -> list[tuple[str, str | None, list[Block]]]:
+    """Keep headers with the body that follows them.
+
+    1. Lone ``§N`` header group → merge into following ``§N.M`` clause.
+    2. Any group that *ends* on a header → move that header to the next group
+       (fixes pack splits and section→section boundaries).
+    """
+    if not groups:
+        return groups
+
+    # Pass 1: merge header-only section groups into following clause/subclause
+    merged: list[tuple[str, str | None, list[Block]]] = []
+    i = 0
+    while i < len(groups):
+        kind, ref, blist = groups[i]
+        if (
+            i + 1 < len(groups)
+            and kind == "section"
+            and ref
+            and blist
+            and all(_is_header(b) for b in blist)
+        ):
+            nkind, nref, nlist = groups[i + 1]
+            if nkind in ("clause", "subclause") and nref and (
+                nref == ref or nref.startswith(ref + ".")
+            ):
+                merged.append((nkind, nref, blist + nlist))
+                i += 2
+                continue
+        merged.append((kind, ref, blist))
+        i += 1
+
+    # Pass 2: peel trailing headers onto the next group
+    for i in range(len(merged) - 1):
+        kind, ref, blist = merged[i]
+        moved: list[Block] = []
+        while blist and _is_header(blist[-1]):
+            moved.insert(0, blist.pop())
+        if moved:
+            nkind, nref, nlist = merged[i + 1]
+            merged[i] = (kind, ref, blist)
+            merged[i + 1] = (nkind, nref, moved + nlist)
+
+    return [(k, r, b) for k, r, b in merged if b]
 
 
 def _flush_group(
@@ -63,6 +129,20 @@ def _flush_group(
     return _pack_blocks(kind + "_pack", ref, blocks, target, max_tokens, encoding)
 
 
+def _emit_pack(
+    kind: str,
+    ref: str | None,
+    buf: list[Block],
+) -> tuple[list[Block], list[Block]]:
+    """Emit buf but keep a trailing header for the next pack."""
+    if not buf:
+        return [], []
+    carry: list[Block] = []
+    while buf and _is_header(buf[-1]):
+        carry.insert(0, buf.pop())
+    return buf, carry
+
+
 def _pack_blocks(
     kind: str,
     ref: str | None,
@@ -76,18 +156,32 @@ def _pack_blocks(
     buf_tok = 0
     for b in blocks:
         bt = count_tokens(b.text, encoding)
-        if buf and buf_tok + bt > target and buf_tok >= target * 0.4:
-            out.append((kind, ref, buf))
-            buf, buf_tok = [], 0
+        # Headers start a new pack (stay with following body)
+        if buf and _is_header(b):
+            emitted, carry = _emit_pack(kind, ref, buf)
+            if emitted:
+                out.append((kind, ref, emitted))
+            buf = carry
+            buf_tok = sum(count_tokens(x.text, encoding) for x in buf)
+        elif buf and buf_tok + bt > target and buf_tok >= target * 0.4:
+            emitted, carry = _emit_pack(kind, ref, buf)
+            if emitted:
+                out.append((kind, ref, emitted))
+            buf = carry
+            buf_tok = sum(count_tokens(x.text, encoding) for x in buf)
         if bt > max_tokens:
             if buf:
-                out.append((kind, ref, buf))
-                buf, buf_tok = [], 0
+                emitted, carry = _emit_pack(kind, ref, buf)
+                if emitted:
+                    out.append((kind, ref, emitted))
+                buf = carry
+                buf_tok = sum(count_tokens(x.text, encoding) for x in buf)
             out.extend(_split_blocks("split", ref, [b], max_tokens, encoding))
             continue
         buf.append(b)
         buf_tok += bt
     if buf:
+        # Final pack may still end on a header if it's the last block — unavoidable
         out.append((kind, ref, buf))
     return out
 
@@ -106,8 +200,11 @@ def _split_blocks(
         bt = count_tokens(b.text, encoding)
         if bt > max_tokens:
             if buf:
-                out.append((kind, ref, buf))
-                buf, buf_tok = [], 0
+                emitted, carry = _emit_pack(kind, ref, buf)
+                if emitted:
+                    out.append((kind, ref, emitted))
+                buf = carry
+                buf_tok = sum(count_tokens(x.text, encoding) for x in buf)
             # hard-split single oversized block by characters
             text = b.text
             approx = max(200, int(len(text) * max_tokens / max(bt, 1)))
@@ -125,9 +222,18 @@ def _split_blocks(
                 )
                 out.append(("split", ref, [piece]))
             continue
-        if buf and buf_tok + bt > max_tokens:
-            out.append((kind, ref, buf))
-            buf, buf_tok = [], 0
+        if buf and _is_header(b):
+            emitted, carry = _emit_pack(kind, ref, buf)
+            if emitted:
+                out.append((kind, ref, emitted))
+            buf = carry
+            buf_tok = sum(count_tokens(x.text, encoding) for x in buf)
+        elif buf and buf_tok + bt > max_tokens:
+            emitted, carry = _emit_pack(kind, ref, buf)
+            if emitted:
+                out.append((kind, ref, emitted))
+            buf = carry
+            buf_tok = sum(count_tokens(x.text, encoding) for x in buf)
         buf.append(b)
         buf_tok += bt
     if buf:
@@ -168,6 +274,8 @@ def chunk_blocks(
         kind = cur_key[0]
         ref = cur_key[1] if kind != "orphan" and len(cur_key) > 1 else None
         groups.append((kind, ref, cur_blocks))
+
+    groups = _attach_leading_headers(groups)
 
     pieces: list[tuple[str, str | None, list[Block]]] = []
     for kind, ref, blist in groups:

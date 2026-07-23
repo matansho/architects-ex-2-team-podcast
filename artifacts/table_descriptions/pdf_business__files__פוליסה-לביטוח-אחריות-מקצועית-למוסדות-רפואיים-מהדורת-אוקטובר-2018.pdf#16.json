@@ -1,0 +1,26 @@
+{
+  "id": "pdf:business/files/פוליסה-לביטוח-אחריות-מקצועית-למוסדות-רפואיים-מהדורת-אוקטובר-2018.pdf#16",
+  "source": "llm",
+  "description": {
+    "title": "פוליסת אחריות מקצועית",
+    "summary": "This table details covered damages under a professional liability insurance policy. It lists different types of damages and whether they are covered by the policy.",
+    "embed_passage": "פוליסת אחריות מקצועית למוסדות רפואיים מכסה נזקים שונים כתוצאה ממקרה ביטוח. לדוגמה, נזק גופני, נזק נפשי, חולי, מחלה או מוות שנגרמו לצד שלישי כתוצאה מנזק לגוף, וכן כל נזק שאינו נזק גוף, כגון נזק כספי ישיר או עקיף.",
+    "row_axis": "type of damage (נזק)",
+    "column_axis": "coverage details (covered/not covered)",
+    "units": [],
+    "notable_values": [
+      "נזק גופני: covered",
+      "נזק נפשי: covered",
+      "נזק פיננסי טהור: covered",
+      "נזק לרכוש: covered",
+      "הוצאות משפטיות: covered"
+    ],
+    "product_hints": [
+      "פוליסת אחריות מקצועית",
+      "אחריות מקצועית למוסדות רפואיים"
+    ]
+  },
+  "sketch": "נזק גופני, נזק נפשי, חולי, מחלה או מוות שנגרמו לצד שלישי כתוצאה נזק לגוף. 1.10 ישירה ממקרה ביטוח.\nכל נזק שאינו נזק גוף, בין היתר, נזק כספי ישיר או עקיף שנגרם נזק פיננסי טהור. 1.11 בעקבות מקרה ביטוח מכוסה.",
+  "embed_text": "פוליסת אחריות מקצועית למוסדות רפואיים מכסה נזקים שונים כתוצאה ממקרה ביטוח. לדוגמה, נזק גופני, נזק נפשי, חולי, מחלה או מוות שנגרמו לצד שלישי כתוצאה מנזק לגוף, וכן כל נזק שאינו נזק גוף, כגון נזק כספי ישיר או עקיף.",
+  "payload": "טבלה: פוליסת אחריות מקצועית\nThis table details covered damages under a professional liability insurance policy. It lists different types of damages and whether they are covered by the policy.\nממדים: type of damage (נזק), coverage details (covered/not covered)\n\nנזק גופני, נזק נפשי, חולי, מחלה או מוות שנגרמו לצד שלישי כתוצאה נזק לגוף. 1.10 ישירה ממקרה ביטוח.\nכל נזק שאינו נזק גוף, בין היתר, נזק כספי ישיר או עקיף שנגרם נזק פיננסי טהור. 1.11 בעקבות מקרה ביטוח מכוסה."
+}

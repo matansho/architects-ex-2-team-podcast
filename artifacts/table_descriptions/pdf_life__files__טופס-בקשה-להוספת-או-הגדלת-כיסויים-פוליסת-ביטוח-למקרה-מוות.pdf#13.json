@@ -1,0 +1,25 @@
+{
+  "id": "pdf:life/files/טופס-בקשה-להוספת-או-הגדלת-כיסויים-פוליסת-ביטוח-למקרה-מוות.pdf#13",
+  "source": "llm",
+  "description": {
+    "title": "בקשת כיסוי נוסף",
+    "summary": "This table is a request form for adding or increasing coverage to an existing life insurance policy. It determines if the applicant already has a similar policy and their intentions regarding the existing policy when adding new coverage.",
+    "embed_passage": "טופס זה משמש לבקשת כיסוי נוסף לפוליסת ביטוח קיימת של הראל. הכיסוי הנוסף מבטח מקרה ביטוח דומה לקיים, וייגבו דמי ביטוח נוספים. לדוגמה, ניתן להקטין את היקף הפיצוי בפוליסה קיימת או לבטל אותה לחלוטין.",
+    "row_axis": "Applicant's choice regarding existing policy",
+    "column_axis": "Action related to existing policy (keep, reduce, cancel)",
+    "units": [],
+    "notable_values": [
+      "product: הראל",
+      "action: להשאיר את הפוליסה הקיימת",
+      "action: להקטין את היקף הפיצוי",
+      "action: לבטל את הפוליסה הקיימת"
+    ],
+    "product_hints": [
+      "הראל",
+      "פוליסת ביטוח"
+    ]
+  },
+  "sketch": "לידיעתך, הכיסוי אליו את/ה מבקש/ת להצטרף הינו כיסוי נוסף, המבטח מקרה ביטוח דומה לכיסוי הקיים שבידך וייגבו דמי ביטוח נוספים עבור כיסוי זה. אני מאשר/ת את רכישת הכיסוי וגביית הפרמיה הנוספת.\nאני מעוניין/ת להשאיר את הפוליסה הקיימת ולהקטין בה את היקף הפיצוי: ברכישת כיסוי מסוג נכויות:\nלידיעתך/כם, הכיסוי אליו את/ה מבקש/ת להצטרף הינו כיסוי נוסף, המבטח מקרה ביטוח דומה לכיסוי הקיים שבידך וייגבו דמי ביטוח נוספים עבור . כיסוי זה. את/ה מאשר/ת את רכישת הכיסוי וגביית הפרמיה הנוספת",
+  "embed_text": "טופס זה משמש לבקשת כיסוי נוסף לפוליסת ביטוח קיימת של הראל. הכיסוי הנוסף מבטח מקרה ביטוח דומה לקיים, וייגבו דמי ביטוח נוספים. לדוגמה, ניתן להקטין את היקף הפיצוי בפוליסה קיימת או לבטל אותה לחלוטין.",
+  "payload": "טבלה: בקשת כיסוי נוסף\nThis table is a request form for adding or increasing coverage to an existing life insurance policy. It determines if the applicant already has a similar policy and their intentions regarding the existing policy when adding new coverage.\nממדים: Applicant's choice regarding existing policy, Action related to existing policy (keep, reduce, cancel)\n\nלידיעתך, הכיסוי אליו את/ה מבקש/ת להצטרף הינו כיסוי נוסף, המבטח מקרה ביטוח דומה לכיסוי הקיים שבידך וייגבו דמי ביטוח נוספים עבור כיסוי זה. אני מאשר/ת את רכישת הכיסוי וגביית הפרמיה הנוספת.\nאני מעוניין/ת להשאיר את הפוליסה הקיימת ולהקטין בה את היקף הפיצוי: ברכישת כיסוי מסוג נכויות:\nלידיעתך/כם, הכיסוי אליו את/ה מבקש/ת להצטרף הינו כיסוי נוסף, המבטח מקרה ביטוח דומה לכיסוי הקיים שבידך וייגבו דמי ביטוח נוספים עבור . כיסוי זה. את/ה מאשר/ת את רכישת הכיסוי וגביית הפרמיה הנוספת"
+}

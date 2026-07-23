@@ -10,14 +10,16 @@ Best end-to-end result: **79.2% relevance** (vs **43.8%** Stage 1 no-cite, no re
 
 ## Reports
 
-| Report | File | Contents |
-|---|---|---|
-| Strategy comparison (Stage 1 + all RAG) | [`reports/stage1/stage1_prompt_strategy_comparison.html`](reports/stage1/stage1_prompt_strategy_comparison.html) | Metrics, charts, per-question explorer across prompt runs and RAG variants |
-| Docling explorer | [`reports/stage2/docling_explorer.html`](reports/stage2/docling_explorer.html) | Parsed PDF/TXT samples — layout, sections, tables |
-| PDF chunking | [`reports/stage2/chunking_report.html`](reports/stage2/chunking_report.html) | Hierarchical / structural packing (~500 tok target) |
-| TXT chunking | [`reports/stage2/txt_chunking_report.html`](reports/stage2/txt_chunking_report.html) | Web-page cleaning and packs |
-| Dense retrieval vs GT | [`reports/stage2/retrieval_eval.html`](reports/stage2/retrieval_eval.html) | File/page hit rates @1/3/5/10 |
-| Embedding space | [`reports/stage2/embedding_tsne.html`](reports/stage2/embedding_tsne.html) | PCA / t-SNE of the index |
+
+| Report                                  | File                                                                                                             | Contents                                                                   |
+| --------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| Strategy comparison (Stage 1 + all RAG) | `[reports/stage1/stage1_prompt_strategy_comparison.html](reports/stage1/stage1_prompt_strategy_comparison.html)` | Metrics, charts, per-question explorer across prompt runs and RAG variants |
+| Docling explorer                        | `[reports/stage2/docling_explorer.html](reports/stage2/docling_explorer.html)`                                   | Parsed PDF/TXT samples — layout, sections, tables                          |
+| PDF chunking                            | `[reports/stage2/chunking_report.html](reports/stage2/chunking_report.html)`                                     | Hierarchical / structural packing (~500 tok target)                        |
+| TXT chunking                            | `[reports/stage2/txt_chunking_report.html](reports/stage2/txt_chunking_report.html)`                             | Web-page cleaning and packs                                                |
+| Dense retrieval vs GT                   | `[reports/stage2/retrieval_eval.html](reports/stage2/retrieval_eval.html)`                                       | File/page hit rates @1/3/5/10                                              |
+| Embedding space                         | `[reports/stage2/embedding_tsne.html](reports/stage2/embedding_tsne.html)`                                       | PCA / t-SNE of the index                                                   |
+
 
 ## Process
 
@@ -44,20 +46,22 @@ corpus/ (PDFs + pages/*.txt)
   → table dual-rep (rag/table_describe.py)
        embed_text = short NL description (search)
        text       = caption + full CSV (generator)
+  → apply shipped LLM descriptions: artifacts/table_descriptions/ (3,612, git-tracked)
   → E5 embed → data/index/{config.json, vectors.jsonl, embeddings.npy}
-  → LLM describe cache: data/cache/table_descriptions/ (3,612)
 ```
 
 Live index: **20,520** vectors (528 TXT + 19,992 PDF), dim 768, L2-normalized; **3,612** with table `embed_text` (3,607 LLM + 5 heuristic).
 
 ### Retrieval (`rag/retrieve.py`, `rag_runner.py --retrieve`)
 
-| Mode | Mechanism | Eval’d? |
-|---|---|---|
-| `dense` | Cosine over E5; expand ±window neighbors by chunk id | Yes — k/window sweep |
-| `cascade` | File BM25 → dense inside those files | Code only |
-| `rrf` | Fuse dense + chunk-BM25 (RRF), then expand | Yes — no win vs dense |
-| `rerank` | Dense top-`candidate_n` → cross-encoder on **`embed_text`** → top_k → expand | Yes — best path |
+
+| Mode      | Mechanism                                                                    | Eval’d?               |
+| --------- | ---------------------------------------------------------------------------- | --------------------- |
+| `dense`   | Cosine over E5; expand ±window neighbors by chunk id                         | Yes — k/window sweep  |
+| `cascade` | File BM25 → dense inside those files                                         | Code only             |
+| `rrf`     | Fuse dense + chunk-BM25 (RRF), then expand                                   | Yes — no win vs dense |
+| `rerank`  | Dense top-`candidate_n` → cross-encoder on `**embed_text**` → top_k → expand | Yes — best path       |
+
 
 ### Generation
 
@@ -67,44 +71,52 @@ Live index: **20,520** vectors (528 TXT + 19,992 PDF), dim 768, L2-normalized; *
 
 Insurance tariffs live in Docling tables. Embedding raw CSV matched poorly; truncating tables lost numbers like **59.12**.
 
-| Field | Role |
-|---|---|
-| `embed_text` | 2–3 fluent sentences for E5 + reranker |
-| `text` | Full table body for the LLM answer |
 
-Describe with a **sketch** (headers + sample rows + neighbors), not the whole grid. Gemma returns JSON with `embed_passage` (+ axes / `notable_values` / `product_hints` for debugging). `scripts/llm_describe_tables.py` patches an existing index and re-embeds only table rows (~$0.30–1.50 one-time).
+| Field        | Role                                   |
+| ------------ | -------------------------------------- |
+| `embed_text` | 2–3 fluent sentences for E5 + reranker |
+| `text`       | Full table body for the LLM answer     |
+
+
+Describe with a **sketch** (headers + sample rows + neighbors), not the whole grid. Gemma returns JSON with `embed_passage` (+ axes / `notable_values` / `product_hints` for debugging). Descriptions are shipped under `artifacts/table_descriptions/` and applied at embed time (`--table-desc-cache`). `scripts/llm_describe_tables.py` can regenerate/patch an existing index (~$0.30–1.50 one-time if cache is empty).
 
 ## Results (48 questions, answer judge)
 
-| Run | Relevance | Hallucination | Refusal | Avg latency |
-|---|---:|---:|---:|---:|
-| Stage 1 few-shot no-cite (ref) | 43.8% | ~48–52% | ~4–8% | ~1.5–2.3 s |
-| Dense k5 ±1 | 52.1% | 10.4% | 31.2% | 7.3 s |
-| Dense k10 ±2 | 64.6% | 6.2% | 18.8% | 4.0 s |
-| Dense k20 ±2 | 68.8% | 8.3% | 10.4% | 5.4 s |
-| Dense k20 ±4 | 62.5% | 14.6% | 12.5% | 7.4 s |
-| RRF k20 ±2 | 64.6% | 14.6% | 16.7% | 7.0 s |
-| Rerank 100→20 ±2 | 70.8% | 12.5% | 10.4% | 18.6 s |
-| **Rerank + LLM tables** | **79.2%** | **10.4%** | **4.2%** | 14.4 s |
+
+| Run                            | Relevance | Hallucination | Refusal  | Avg latency |
+| ------------------------------ | --------- | ------------- | -------- | ----------- |
+| Stage 1 few-shot no-cite (ref) | 43.8%     | ~48–52%       | ~4–8%    | ~1.5–2.3 s  |
+| Dense k5 ±1                    | 52.1%     | 10.4%         | 31.2%    | 7.3 s       |
+| Dense k10 ±2                   | 64.6%     | 6.2%          | 18.8%    | 4.0 s       |
+| Dense k20 ±2                   | 68.8%     | 8.3%          | 10.4%    | 5.4 s       |
+| Dense k20 ±4                   | 62.5%     | 14.6%         | 12.5%    | 7.4 s       |
+| RRF k20 ±2                     | 64.6%     | 14.6%         | 16.7%    | 7.0 s       |
+| Rerank 100→20 ±2               | 70.8%     | 12.5%         | 10.4%    | 18.6 s      |
+| **Rerank + LLM tables**        | **79.2%** | **10.4%**     | **4.2%** | 14.4 s      |
+
 
 Citation accuracy is 0% — expected (`citations: []`, `--no-citation-judge`).
 
 ### By difficulty (relevance)
 
-| Run | Easy | Medium | Hard |
-|---|---:|---:|---:|
-| Dense k20 ±2 | 93.8% | 81.2% | 31.2% |
-| Rerank 100→20 ±2 | 87.5% | 75.0% | 50.0% |
+
+| Run                     | Easy  | Medium    | Hard      |
+| ----------------------- | ----- | --------- | --------- |
+| Dense k20 ±2            | 93.8% | 81.2%     | 31.2%     |
+| Rerank 100→20 ±2        | 87.5% | 75.0%     | 50.0%     |
 | **Rerank + LLM tables** | 87.5% | **87.5%** | **62.5%** |
+
 
 Hard questions are where retrieval quality matters most; tables + rerank moved hard from ~31% (dense) → 50% → **62.5%**.
 
 ### Offline dense retrieval (GT sources, window ±2)
 
-| Metric | @1 | @3 | @5 | @10 |
-|---|---:|---:|---:|---:|
-| File hit | 17% | 42% | 48% | 58% |
+
+| Metric     | @1  | @3  | @5  | @10 |
+| ---------- | --- | --- | --- | --- |
+| File hit   | 17% | 42% | 48% | 58% |
 | Page group | 14% | 34% | 36% | 44% |
+
 
 Answer quality can exceed file@10 because neighbor expand + generation tolerate near-misses — but missing the right tariff page still fails hard numbers.
 
@@ -139,6 +151,7 @@ Other description examples:
 ## Todos / gaps
 
 ### Next: citations + citation judge
+
 - [ ] Emit real `{file, page}` in `rag_runner.py` (today: `citations: []`)
 - [ ] Keep **no-cite** answer prompt (don’t reintroduce Hebrew `מקורות` — Stage 1 showed that hurts relevance)
 - [ ] MVP: fill citations from retrieved hit locations (dedupe top‑N unique `(file, page)`; TXT → `page: null`) — not free-form model paths
@@ -147,7 +160,8 @@ Other description examples:
 - [ ] If cite score is weak while answers stay strong: hybrid (model returns passage indices `[1],[3]` → map to `{file, page}`)
 
 ### Other open items
-- [ ] **Reproducibility** — commit Stage 2 scripts (`embed_corpus.py`, `llm_describe_tables.py`, `table_describe.py`, …); decide whether to ship `data/cache/table_descriptions/` or a frozen index artifact (LLM describe is not bit-identical without API/cache)
+
+- [x] **Reproducibility (table descriptions)** — shipped in `artifacts/table_descriptions/`; `embed_corpus.py` / `llm_describe_tables.py` load them (no API needed to rebuild embeddings from cache)
 - [ ] **Cascade eval** — `--retrieve cascade` implemented; no scored JSONL yet
 - [ ] **Qdrant** — client pinned; still on-disk numpy index (`rag/index_store.py`)
 - [ ] **Tighten `looks_like_table`** — detector is loose (comma-heavy prose/forms count as tables); require stronger signals (numeric cells, Docling `TableItem`, etc.)
@@ -159,32 +173,37 @@ Other description examples:
 
 ## Files
 
-| Path | Role |
-|---|---|
-| `rag/parse.py` | Docling → blocks; full table CSV |
-| `rag/chunk.py` / `rag/txt.py` | PDF hierarchical + TXT packs |
-| `rag/corpus_chunks.py` | Corpus collect, PDF cache, table enrich |
-| `rag/table_describe.py` | Sketch, LLM JSON, embed_passage, repair |
-| `rag/embed.py` | multilingual-e5-base |
-| `rag/index_store.py` | On-disk vectors + embeddings.npy |
-| `rag/retrieve.py` / `rag/bm25.py` / `rag/rerank.py` | dense / cascade / rrf / rerank |
-| `rag/generate.py` | Grounded no-cite prompts |
-| `rag_runner.py` | End-to-end retrieve → generate |
-| `scripts/embed_corpus.py` | Full index build |
-| `scripts/llm_describe_tables.py` | Second-pass LLM describe + re-embed |
-| `scripts/eval_retrieval.py` | GT hit-rate HTML |
-| `scripts/generate_*_report.py` / `regen_dashboard.sh` | Diagnostics + comparison HTML |
-| `run_eval.py` | Answer (+ optional citation) judge |
+
+| Path                                                  | Role                                    |
+| ----------------------------------------------------- | --------------------------------------- |
+| `rag/parse.py`                                        | Docling → blocks; full table CSV        |
+| `rag/chunk.py` / `rag/txt.py`                         | PDF hierarchical + TXT packs            |
+| `rag/corpus_chunks.py`                                | Corpus collect, PDF cache, table enrich |
+| `rag/table_describe.py`                               | Sketch, LLM JSON, embed_passage, repair |
+| `rag/table_cache.py`                                  | Load/save/apply shipped table descriptions |
+| `artifacts/table_descriptions/`                       | Git-tracked LLM describe cache (~3.6k) |
+| `rag/embed.py`                                        | multilingual-e5-base                    |
+| `rag/index_store.py`                                  | On-disk vectors + embeddings.npy        |
+| `rag/retrieve.py` / `rag/bm25.py` / `rag/rerank.py`   | dense / cascade / rrf / rerank          |
+| `rag/generate.py`                                     | Grounded no-cite prompts                |
+| `rag_runner.py`                                       | End-to-end retrieve → generate          |
+| `scripts/embed_corpus.py`                             | Full index build                        |
+| `scripts/llm_describe_tables.py`                      | Second-pass LLM describe + re-embed     |
+| `scripts/eval_retrieval.py`                           | GT hit-rate HTML                        |
+| `scripts/generate_*_report.py` / `regen_dashboard.sh` | Diagnostics + comparison HTML           |
+| `run_eval.py`                                         | Answer (+ optional citation) judge      |
+
 
 ## Reproduce
 
 ```bash
 source scripts/activate.sh   # venv + .env
 
-# Full re-index (Docling; slow)
+# Full re-index (Docling; slow). Applies shipped table descriptions by default
+# from artifacts/table_descriptions/ — no Gemma call needed.
 python scripts/embed_corpus.py
 
-# LLM table descriptions + re-embed table vectors (uses cache)
+# Optional: regenerate / patch descriptions via API, then re-embed table rows
 python scripts/llm_describe_tables.py --workers 8
 
 # Best RAG config
@@ -204,3 +223,4 @@ bash scripts/regen_dashboard.sh
 - Citations + judge are now a near-term Stage 2 todo (see above); Stage 3 still needs `/ask` wiring.
 - Optionally move the index to Qdrant (or similar) behind the same retrieve API.
 - Expose `/ask` via the course contract; keep the no-cite answer style unless the API requires citations in text.
+

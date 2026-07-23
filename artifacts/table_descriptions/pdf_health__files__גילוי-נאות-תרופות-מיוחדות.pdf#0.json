@@ -1,0 +1,25 @@
+{
+  "id": "pdf:health/files/גילוי-נאות-תרופות-מיוחדות.pdf#0",
+  "source": "llm",
+  "description": {
+    "title": "דמי ביטוח - הראל",
+    "summary": "This table shows insurance premiums for Harel insurance. It appears to be used to look up the cost of insurance based on the insured's age.",
+    "embed_passage": "דמי הביטוח של הראל משתנים בהתאם לגיל המבוטח. לדוגמה, גיל המבוטח יקבע את דמי הביטוח בפוליסה. ניתן להשוות בין מחירי השירות מדד וציון הביטוח באמצעות מחשבון באתר רשות ההון שוק הביטוח.",
+    "row_axis": "insured's age",
+    "column_axis": "premium details (phone, fax, address, website)",
+    "units": [],
+    "notable_values": [
+      "phone: 037348178",
+      "fax: 037348178",
+      "postcode: 5200901",
+      "website: www.harel-group.co.il",
+      "post office box: 10951"
+    ],
+    "product_hints": [
+      "הראל"
+    ]
+  },
+  "sketch": "0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",ט רנ האינט אתר תובת כ www.harel-group.co.il",
+  "embed_text": "דמי הביטוח של הראל משתנים בהתאם לגיל המבוטח. לדוגמה, גיל המבוטח יקבע את דמי הביטוח בפוליסה. ניתן להשוות בין מחירי השירות מדד וציון הביטוח באמצעות מחשבון באתר רשות ההון שוק הביטוח.",
+  "payload": "טבלה: דמי ביטוח - הראל\nThis table shows insurance premiums for Harel insurance. It appears to be used to look up the cost of insurance based on the insured's age.\nממדים: insured's age, premium details (phone, fax, address, website)\n\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",ט רנ האינט אתר תובת כ www.harel-group.co.il"
+}

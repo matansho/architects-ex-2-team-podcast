@@ -1,0 +1,23 @@
+{
+  "id": "pdf:business/files/מכלול-למושב-ינואר-2023.pdf#45",
+  "source": "llm",
+  "description": {
+    "title": "מכלול ביטוח",
+    "summary": "This table details covered risks under an insurance policy, specifically outlining what damages are included and excluded. It's used to determine coverage based on the type of damage sustained.",
+    "embed_passage": "פוליסת 'מכלול' מכסה נזקים כתוצאה מאש, התפוצצות, ופריצת מים, אך לא נזקים לכוורות או לגידולי שדה. כיסוי קיים עבור דוודים ומכלים הנמצאים תחת לחץ, בתנאי שיש אישור תקינות תקף. לדוגמה, סעיף 4.1 מציין כי נזק מאש אינו חל על כוורות ודבורים.",
+    "row_axis": "Type of insured risk (e.g., fire, explosion, water leakage)",
+    "column_axis": "Coverage details, including exclusions",
+    "units": [],
+    "notable_values": [
+      "סעיף 4.1: אש אינה מכסה כוורות ודבורים",
+      "סעיף 4.2: התפוצצות לא מכסה ציוד ללא אישור תקינות",
+      "סעיף 4.3: פריצת מים לא מכסה עצים על פריים"
+    ],
+    "product_hints": [
+      "מכלול"
+    ]
+  },
+  "sketch": "התפוצצות לרבות הימעכות, קריסה היסדקות וחימום יתר של דוודים, מכלים וכלים .4.2 אך לא לציוד הנזכר בסעיף זה אשר בעת קרות -הנמצאים תחת לחץ או תת לחץ מקרה הביטוח לא היה לגביו אישור תקינות תקף, ככל שאישור כאמור נדרש על פי הוראות הדין.\n, נזק מיידי שייגרם לרכוש המבוטח ב/מ פריצת מים ונוזלים אחרים מדוודים, מכלים .4.3 אך לא לעצים על פריים, לגידולי שדה, לעצי , מערכות צנרת, מתקני ביוב והסקה ולצמחי נוי, לכוורות ולדבורים.",
+  "embed_text": "פוליסת 'מכלול' מכסה נזקים כתוצאה מאש, התפוצצות, ופריצת מים, אך לא נזקים לכוורות או לגידולי שדה. כיסוי קיים עבור דוודים ומכלים הנמצאים תחת לחץ, בתנאי שיש אישור תקינות תקף. לדוגמה, סעיף 4.1 מציין כי נזק מאש אינו חל על כוורות ודבורים.",
+  "payload": "טבלה: מכלול ביטוח\nThis table details covered risks under an insurance policy, specifically outlining what damages are included and excluded. It's used to determine coverage based on the type of damage sustained.\nממדים: Type of insured risk (e.g., fire, explosion, water leakage), Coverage details, including exclusions\n\nהתפוצצות לרבות הימעכות, קריסה היסדקות וחימום יתר של דוודים, מכלים וכלים .4.2 אך לא לציוד הנזכר בסעיף זה אשר בעת קרות -הנמצאים תחת לחץ או תת לחץ מקרה הביטוח לא היה לגביו אישור תקינות תקף, ככל שאישור כאמור נדרש על פי הוראות הדין.\n, נזק מיידי שייגרם לרכוש המבוטח ב/מ פריצת מים ונוזלים אחרים מדוודים, מכלים .4.3 אך לא לעצים על פריים, לגידולי שדה, לעצי , מערכות צנרת, מתקני ביוב והסקה ולצמחי נוי, לכוורות ולדבורים."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "pdf:apartment/files/טופס-הצעה-לפוליסת-ביטוח-רכוש-כל-הסיכונים-לדברי-ערך.pdf#17",
+  "source": "llm",
+  "description": {
+    "title": "ביטוח רכוש כל הסיכונים",
+    "summary": "This table details all-risks property insurance for valuables. It's used to determine coverage based on the value of items being insured.",
+    "embed_passage": "פוליסת ביטוח רכוש כל הסיכונים של הראל מציעה כיסוי לדברי ערך כמו תכשיטים, שעונים וזהב. ערך התמונות המוצעות לביטוח מצוין בשקלים או דולרים, לדוגמה 1, 2, 3, 7, 8, 9 ו-10. יש לצרף הערכת מעריך מוסמך עבור כל התמונות.",
+    "row_axis": "Item being insured",
+    "column_axis": "Details related to the insured item (e.g., value, date of purchase)",
+    "units": [
+      "ש\"ח/דולר"
+    ],
+    "notable_values": [
+      "Value 1",
+      "Value 2",
+      "Value 3",
+      "Value 7",
+      "Value 8"
+    ],
+    "product_hints": [
+      "ביטוח רכוש כל הסיכונים",
+      "הראל"
+    ]
+  },
+  "sketch": "ר\"\n,,,,.1\n,,,,.2\n,,,,.3\n…\n,,,,.7\n,,,,.8\n,,,,.9\n,,,,.10",
+  "embed_text": "פוליסת ביטוח רכוש כל הסיכונים של הראל מציעה כיסוי לדברי ערך כמו תכשיטים, שעונים וזהב. ערך התמונות המוצעות לביטוח מצוין בשקלים או דולרים, לדוגמה 1, 2, 3, 7, 8, 9 ו-10. יש לצרף הערכת מעריך מוסמך עבור כל התמונות.",
+  "payload": "טבלה: ביטוח רכוש כל הסיכונים\nThis table details all-risks property insurance for valuables. It's used to determine coverage based on the value of items being insured.\nממדים: Item being insured, Details related to the insured item (e.g., value, date of purchase)\n\nר\"\n,,,,.1\n,,,,.2\n,,,,.3\n,,,,.4\n,,,,.5\n,,,,.6\n,,,,.7\n,,,,.8\n,,,,.9\n,,,,.10"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "pdf:business/files/טופס-הצעה-לביטוח-עסקי-זיהום.pdf#10",
+  "source": "llm",
+  "description": {
+    "title": "זיהום ביטוח עסקי",
+    "summary": "This table details historical environmental and regulatory information for a business pollution insurance policy. It's used to assess risk based on past handling of regulated substances.",
+    "embed_passage": "ביטוח זיהום עסקי בודק האם היו דיירים או שוכרים שייצרו, אחסנו או טיפלו בחומרים מוסדרים. אם התשובה היא 'כן', יש לצרף פרטים. האפשרויות לתשובה הן 'כן', 'לא' או 'לא ידוע'.",
+    "row_axis": "Historical environmental and regulatory questions",
+    "column_axis": "Response options (Yes, No, Unknown)",
+    "units": [],
+    "notable_values": [
+      "Question 34: Have there been any occupants/tenants that generated, stored or handle regulated substances?",
+      "Response options: Yes, No, Unknown"
+    ],
+    "product_hints": [
+      "ביטוח זיהום עסקי"
+    ]
+  },
+  "sketch": "IV. Historical Environmental and Regulatory Information\n34.\nHave there been any occupants/tenants that generated, stored or handle regulated substances?\nIf \"Yes\", attach details.\n…\n Yes\n No\n Unknown\nIf \"Yes\", attach details.",
+  "embed_text": "ביטוח זיהום עסקי בודק האם היו דיירים או שוכרים שייצרו, אחסנו או טיפלו בחומרים מוסדרים. אם התשובה היא 'כן', יש לצרף פרטים. האפשרויות לתשובה הן 'כן', 'לא' או 'לא ידוע'.",
+  "payload": "טבלה: זיהום ביטוח עסקי\nThis table details historical environmental and regulatory information for a business pollution insurance policy. It's used to assess risk based on past handling of regulated substances.\nממדים: Historical environmental and regulatory questions, Response options (Yes, No, Unknown)\n\nIV. Historical Environmental and Regulatory Information\n34.\nHave there been any occupants/tenants that generated, stored or handle regulated substances?\nIf \"Yes\", attach details.\n Yes\n No\n Unknown\nAre there any current occupants/tenants that generate, store or handle regulated substances?\nIf \"Yes\", attach details.\n Yes\n No\n Unknown\nAre there any current or former operations which require closure or post-closure activities per the Code of\nFederal Regulations, Title 40 or other similar state law or regulations? If \"Yes\", attach details.\n Yes  No\n Unknown\nIs the property now, or has it ever been connected to a septic system/leach field?\nIf \"Yes\", attach details.\n Yes\n No\n Unknown\nAre there now, or have there ever been any lagoons, cesspools, collection ponds, etc.?\nIf \"Yes\", attach details.\n Yes\n No\n Unknown\nAre there wetlands on site?\n Yes\n No\na. If \"Yes\", are the wetlands delineated?\n Yes\n No\nb. If \"Yes\", will the wetlands be impacted by any proposed development?\n Yes\n No\nHave there been any reportable releases of any regulated substances?\n Yes  No\n Unknown\nIf \"Yes\", attach details.\nHave there been any remedial actions conducted?\n Yes\n No\n Unknown\nIf \"Yes\", attach details."
+}

@@ -1,0 +1,27 @@
+{
+  "id": "pdf:travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-אנגלית-first-class.pdf#123",
+  "source": "llm",
+  "description": {
+    "title": "כוויות - פיצויים",
+    "summary": "This table details the compensation amounts for burns sustained abroad, as part of a travel insurance policy. It allows lookup of payment based on burn extent and degree.",
+    "embed_passage": "פוליסת ביטוח נסיעות לחול First Class כוללת פיצויים במקרה של כוויות. גובה הפיצוי משתנה בהתאם לשטח הכוויה ביחס לשטח הגוף הכולל ולדרגת הכוויה. לדוגמה, כוויה מדרגה שנייה בשטח של 20% - 27% מזכה ב־40% מסכום הביטוח, בעוד כוויה מדרגה שלישית באותו שטח מזכה ב־80%.",
+    "row_axis": "Extent of burn (percentage of total body surface area)",
+    "column_axis": "Burn degree (Second, Third)",
+    "units": [
+      "%"
+    ],
+    "notable_values": [
+      "28% - 100%: 50%",
+      "20% - 27%: 40%",
+      "10% - 19%: 30%",
+      "4.5% - 9%: 10%"
+    ],
+    "product_hints": [
+      "First Class",
+      "ביטוח נסיעות לחול"
+    ]
+  },
+  "sketch": "25.2.4.2.\n0,1,2\nThe extent of the burn in relation to the total shell area of the body,Second degree burn,Third degree burn\n28% - 100%,50%,100%\n20% - 27%,40%,80%\n10% - 19%,30%,60%\n4.5% - 9%,10%,20%",
+  "embed_text": "פוליסת ביטוח נסיעות לחול First Class כוללת פיצויים במקרה של כוויות. גובה הפיצוי משתנה בהתאם לשטח הכוויה ביחס לשטח הגוף הכולל ולדרגת הכוויה. לדוגמה, כוויה מדרגה שנייה בשטח של 20% - 27% מזכה ב־40% מסכום הביטוח, בעוד כוויה מדרגה שלישית באותו שטח מזכה ב־80%.",
+  "payload": "טבלה: כוויות - פיצויים\nThis table details the compensation amounts for burns sustained abroad, as part of a travel insurance policy. It allows lookup of payment based on burn extent and degree.\nממדים: Extent of burn (percentage of total body surface area), Burn degree (Second, Third)\n\n25.2.4.2.\n0,1,2\nThe extent of the burn in relation to the total shell area of the body,Second degree burn,Third degree burn\n28% - 100%,50%,100%\n20% - 27%,40%,80%\n10% - 19%,30%,60%\n4.5% - 9%,10%,20%"
+}

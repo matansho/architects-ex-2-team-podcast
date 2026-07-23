@@ -1,0 +1,27 @@
+{
+  "id": "pdf:health/files/גילוי-נאות-לניתוחים-upgrade.pdf#0",
+  "source": "llm",
+  "description": {
+    "title": "דמי ביטוח - ניתוחים Upgrade",
+    "summary": "This table shows the cost of insurance (דמי ביטוח) for the 'ניתוחים Upgrade' plan. It allows you to look up the price based on the insured's age.",
+    "embed_passage": "פוליסת 'ניתוחים Upgrade' מציעה ביטוח ניתוחים עם עלות המשתנה בהתאם לגיל המבוטח. לדוגמה, עבור גילאים 31-40 העלות היא 59.12, והטבלה כוללת גם פרטי התקשרות כגון טלפון 037348178 וכתובת דואר אלקטרוני polisotbs@harel-ins.co.il.",
+    "row_axis": "Age range of the insured (גיל המבוטח)",
+    "column_axis": "Insurance cost (דמי ביטוח), contact information",
+    "units": [
+      "₪"
+    ],
+    "notable_values": [
+      "Phone: 037348178",
+      "Email: polisotbs@harel-ins.co.il",
+      "Age range: 31-40",
+      "Cost: 59.12"
+    ],
+    "product_hints": [
+      "ניתוחים Upgrade",
+      "Harel"
+    ]
+  },
+  "sketch": "0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",ט רנ האינט אתר תובת כ www.harel-group.co.il",
+  "embed_text": "פוליסת 'ניתוחים Upgrade' מציעה ביטוח ניתוחים עם עלות המשתנה בהתאם לגיל המבוטח. לדוגמה, עבור גילאים 31-40 העלות היא 59.12, והטבלה כוללת גם פרטי התקשרות כגון טלפון 037348178 וכתובת דואר אלקטרוני polisotbs@harel-ins.co.il.",
+  "payload": "טבלה: דמי ביטוח - ניתוחים Upgrade\nThis table shows the cost of insurance (דמי ביטוח) for the 'ניתוחים Upgrade' plan. It allows you to look up the price based on the insured's age.\nממדים: Age range of the insured (גיל המבוטח), Insurance cost (דמי ביטוח), contact information\n\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",ט רנ האינט אתר תובת כ www.harel-group.co.il"
+}

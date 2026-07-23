@@ -1,0 +1,29 @@
+{
+  "id": "pdf:business/files/טופס-הצעה-לפוליסת-מכלול-לחבר-מושב.pdf#38",
+  "source": "llm",
+  "description": {
+    "title": "מכלול - פוליסת חבר מושב",
+    "summary": "This table details the insurance premiums and coverage limits for the 'מכלול' policy for members of a cooperative settlement. It allows looking up costs for increased liability limits and coverage for malicious damage.",
+    "embed_passage": "פוליסת 'מכלול' מציעה כיסוי לנזקים שונים, כאשר גבול האחריות של המבטח לפרק ראשון יכול להגיע עד 5,000,000 ₪. עבור כל מיליון ש\"ח נוספים, ייגבו דמי ביטוח נוספים בשיעור של 10%. סכום הביטוח לנזקי זדון והצתה בזדון לא יעלה על 250,000 ₪.",
+    "row_axis": "Coverage/Liability Scenarios",
+    "column_axis": "Premium/Limit Details",
+    "units": [
+      "₪",
+      "₪/מיליון ש\"ח",
+      "%"
+    ],
+    "notable_values": [
+      "גבול אחריות: 2,000,000 ₪",
+      "דמי ביטוח נוספים: 10%",
+      "הגדלת גבול אחריות: 5,000,000 ₪",
+      "סכום ביטוח לנזקי זדון: 250,000 ₪"
+    ],
+    "product_hints": [
+      "מכלול",
+      "פוליסת חבר מושב"
+    ]
+  },
+  "sketch": "מסה\"כ דמי הביטוח של פרק ראשון לעיל. 10% .  עבור כיסוי לכל מיליון ש\"ח נוספים ייגבו דמי ביטוח נוספים בשיעור של 2\nבלבד. ₪  5,000,000 הגדלת גבול האחריות של המבטח לפרק ראשון אפשרית עד לסך\nלמקרה אחד וסה\"כ במצטבר לתקופת הביטוח )כחלק מסכום הביטוח הכללי(, אלא ₪  250,000 .  סכום הביטוח לנזקי זדון והצתה בזדון לא יעלה על סך של 3 אם צוין אחרת ברשימה.",
+  "embed_text": "פוליסת 'מכלול' מציעה כיסוי לנזקים שונים, כאשר גבול האחריות של המבטח לפרק ראשון יכול להגיע עד 5,000,000 ₪. עבור כל מיליון ש\"ח נוספים, ייגבו דמי ביטוח נוספים בשיעור של 10%. סכום הביטוח לנזקי זדון והצתה בזדון לא יעלה על 250,000 ₪.",
+  "payload": "טבלה: מכלול - פוליסת חבר מושב\nThis table details the insurance premiums and coverage limits for the 'מכלול' policy for members of a cooperative settlement. It allows looking up costs for increased liability limits and coverage for malicious damage.\nממדים: Coverage/Liability Scenarios, Premium/Limit Details\n\nמסה\"כ דמי הביטוח של פרק ראשון לעיל. 10% .  עבור כיסוי לכל מיליון ש\"ח נוספים ייגבו דמי ביטוח נוספים בשיעור של 2\nבלבד. ₪  5,000,000 הגדלת גבול האחריות של המבטח לפרק ראשון אפשרית עד לסך\nלמקרה אחד וסה\"כ במצטבר לתקופת הביטוח )כחלק מסכום הביטוח הכללי(, אלא ₪  250,000 .  סכום הביטוח לנזקי זדון והצתה בזדון לא יעלה על סך של 3 אם צוין אחרת ברשימה."
+}

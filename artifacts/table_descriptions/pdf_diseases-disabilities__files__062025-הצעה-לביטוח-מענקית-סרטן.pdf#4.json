@@ -1,0 +1,27 @@
+{
+  "id": "pdf:diseases-disabilities/files/062025-הצעה-לביטוח-מענקית-סרטן.pdf#4",
+  "source": "llm",
+  "description": {
+    "title": "מענקית סרטן",
+    "summary": "This table details compensation amounts for cancer coverage under the 'מענקית סרטן' policy. It shows the payout amount (in ₪) based on the number of children covered.",
+    "embed_passage": "פוליסת 'מענקית סרטן' מספקת פיצוי במקרה של אבחון מחלת סרטן. גובה הפיצוי משתנה בהתאם למספר הילדים המבוטחים, לדוגמה, עבור ילד אחד סכום הפיצוי הוא ₪3, עבור 2 ילדים סכום הפיצוי הוא ₪2, ועבור 4 ילדים סכום הפיצוי הוא ₪4.",
+    "row_axis": "Number of children covered",
+    "column_axis": "Compensation amount (₪) for cancer diagnosis",
+    "units": [
+      "₪"
+    ],
+    "notable_values": [
+      "1 child: ₪3",
+      "2 children: ₪2",
+      "3 children: ₪3",
+      "4 children: ₪4"
+    ],
+    "product_hints": [
+      "מענקית סרטן",
+      "ביטוח סרטן"
+    ]
+  },
+  "sketch": "0,1,2,3,4,5,6\n4 ילד סכום ₪ ב ביטוח,3 ילד סכום ₪ ב ביטוח,2 ילד סכום ₪ ב ביטוח,1 ילד סכום ₪ ב ביטוח,זוג בן/בת סכום ₪ ב ביטוח,י ראש סכום ₪ ב ביטוח,ת התוכני שם ן הסרט למחלת פיצוי - סרטן מענקית",
+  "embed_text": "פוליסת 'מענקית סרטן' מספקת פיצוי במקרה של אבחון מחלת סרטן. גובה הפיצוי משתנה בהתאם למספר הילדים המבוטחים, לדוגמה, עבור ילד אחד סכום הפיצוי הוא ₪3, עבור 2 ילדים סכום הפיצוי הוא ₪2, ועבור 4 ילדים סכום הפיצוי הוא ₪4.",
+  "payload": "טבלה: מענקית סרטן\nThis table details compensation amounts for cancer coverage under the 'מענקית סרטן' policy. It shows the payout amount (in ₪) based on the number of children covered.\nממדים: Number of children covered, Compensation amount (₪) for cancer diagnosis\n\n0,1,2,3,4,5,6\n4 ילד סכום ₪ ב ביטוח,3 ילד סכום ₪ ב ביטוח,2 ילד סכום ₪ ב ביטוח,1 ילד סכום ₪ ב ביטוח,זוג בן/בת סכום ₪ ב ביטוח,י ראש סכום ₪ ב ביטוח,ת התוכני שם ן הסרט למחלת פיצוי - סרטן מענקית"
+}

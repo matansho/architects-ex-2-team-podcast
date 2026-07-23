@@ -1,0 +1,24 @@
+{
+  "id": "pdf:car/files/תנאי-פוליסת-ביטוח-לרכב-פרטי-ומסחרי-עד-35-טון-יוני-2023-באנגלית.pdf#188",
+  "source": "llm",
+  "description": {
+    "title": "שבר שמשות",
+    "summary": "This table details the service levels for windshield repair/replacement under a car insurance policy. It specifies timeframes for repair completion, both at a service station and at the insured's location.",
+    "embed_passage": "פוליסת ביטוח לרכב פרטי ומסחרי כוללת כיסוי לשבר שמשות. במקרה של רכב עם שמשות מודבקות, התיקון או ההחלפה יבוצעו תוך 12 שעות עבודה מרגע הגעת הרכב למוסך וקבלת אישור מהמבצע, ועד סוף יום העבודה. שירות 'שבר שמשות בבית' ניתן בתוך 8 שעות עבודה מרגע הבקשה.",
+    "row_axis": "Service scenario (e.g., repair at station, repair at home)",
+    "column_axis": "Timeframe for service completion",
+    "units": [
+      "שעות עבודה"
+    ],
+    "notable_values": [
+      "שעות עבודה לתיקון שמשות מודבקות: 12",
+      "שעות עבודה לשבר שמשות בבית: 8"
+    ],
+    "product_hints": [
+      "ביטוח לרכב פרטי ומסחרי"
+    ]
+  },
+  "sketch": "4.3 The insurer or the executor of the repair shall have the right to examine any damage before granting an authorization to execute the repair and in any event of a reasonable suspicion, to demand a police authorization in regard to the damage/s, at its discretion, on condition that it does not deviate from the service dates.\n5. Windshield cover at home\nIf the specification expressly notes that this cover is valid, the service in regard to windshield breakage insurance will be provided wherever the vehicle is located, according to the insured's choice provided that the insured approaches the executor of the service center and request it to receive 'windshield cover at home'.",
+  "embed_text": "פוליסת ביטוח לרכב פרטי ומסחרי כוללת כיסוי לשבר שמשות. במקרה של רכב עם שמשות מודבקות, התיקון או ההחלפה יבוצעו תוך 12 שעות עבודה מרגע הגעת הרכב למוסך וקבלת אישור מהמבצע, ועד סוף יום העבודה. שירות 'שבר שמשות בבית' ניתן בתוך 8 שעות עבודה מרגע הבקשה.",
+  "payload": "טבלה: שבר שמשות\nThis table details the service levels for windshield repair/replacement under a car insurance policy. It specifies timeframes for repair completion, both at a service station and at the insured's location.\nממדים: Service scenario (e.g., repair at station, repair at home), Timeframe for service completion\n\n4.3 The insurer or the executor of the repair shall have the right to examine any damage before granting an authorization to execute the repair and in any event of a reasonable suspicion, to demand a police authorization in regard to the damage/s, at its discretion, on condition that it does not deviate from the service dates.\n5. Windshield cover at home\nIf the specification expressly notes that this cover is valid, the service in regard to windshield breakage insurance will be provided wherever the vehicle is located, according to the insured's choice provided that the insured approaches the executor of the service center and request it to receive 'windshield cover at home'."
+}

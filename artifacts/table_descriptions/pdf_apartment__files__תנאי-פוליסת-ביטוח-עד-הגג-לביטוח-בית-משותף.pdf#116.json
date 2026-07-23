@@ -1,0 +1,24 @@
+{
+  "id": "pdf:apartment/files/תנאי-פוליסת-ביטוח-עד-הגג-לביטוח-בית-משותף.pdf#116",
+  "source": "llm",
+  "description": {
+    "title": "תנאי פוליסת עד הגג",
+    "summary": "This table details coverage exclusions for a 'עד הגג' (Up to the Roof) apartment insurance policy. It lists various liabilities and specifies whether they are covered, often contingent on details in a separate specification.",
+    "embed_passage": "פוליסת 'עד הגג' לביטוח בית משותף כוללת סייגים שונים לחבות. לדוגמה, סעיף 4.18 מתייחס לחבות בגין שימוש במתקן חניה רובוטי, וסעיף 4.19 עוסק בקנסות ופיצוים. הכיסויים תלויים בפרטים המפורטים במפרט.",
+    "row_axis": "Liability/Exclusion",
+    "column_axis": "Coverage Condition (covered/excluded, often with specification reference)",
+    "units": [],
+    "notable_values": [
+      "4.18: Robotic parking facility",
+      "4.19: Penalties and punitive damages",
+      "4.20: Air, water, or soil pollution (excluding accidental events)"
+    ],
+    "product_hints": [
+      "עד הגג",
+      "ביטוח בית משותף"
+    ]
+  },
+  "sketch": ".  חבות בגין שימוש במתקן חניה רובוטי בבית המשותף, אלא אם צוין אחרת במפרט. 4.18\n.  קנסות, כפל פיצויים, פיצויי ענישה ופיצויים לדוגמה. 4.19\n.  זיהום אויר או זיהום מים או זיהום קרקע, למעט זיהום שהוא תוצאה של אירוע 4.20 תאונתי, פתאומי ובלתי צפוי מראש.",
+  "embed_text": "פוליסת 'עד הגג' לביטוח בית משותף כוללת סייגים שונים לחבות. לדוגמה, סעיף 4.18 מתייחס לחבות בגין שימוש במתקן חניה רובוטי, וסעיף 4.19 עוסק בקנסות ופיצוים. הכיסויים תלויים בפרטים המפורטים במפרט.",
+  "payload": "טבלה: תנאי פוליסת עד הגג\nThis table details coverage exclusions for a 'עד הגג' (Up to the Roof) apartment insurance policy. It lists various liabilities and specifies whether they are covered, often contingent on details in a separate specification.\nממדים: Liability/Exclusion, Coverage Condition (covered/excluded, often with specification reference)\n\n.  חבות בגין שימוש במתקן חניה רובוטי בבית המשותף, אלא אם צוין אחרת במפרט. 4.18\n.  קנסות, כפל פיצויים, פיצויי ענישה ופיצויים לדוגמה. 4.19\n.  זיהום אויר או זיהום מים או זיהום קרקע, למעט זיהום שהוא תוצאה של אירוע 4.20 תאונתי, פתאומי ובלתי צפוי מראש."
+}

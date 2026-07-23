@@ -1,0 +1,25 @@
+{
+  "id": "pdf:business/files/טופס-הצעה-לביטוח-עסקי-ביטוח-חבות-משולב-לחברות-תוכנה-וחומרה.pdf#23",
+  "source": "llm",
+  "description": {
+    "title": "תביעות וחליפות",
+    "summary": "This table details past and potential claims, suits, or actions against a business, specifically related to Sections 1 and 2 of an insurance policy. It's used to assess risk and determine coverage eligibility.",
+    "embed_passage": "טופס זה בודק האם החברה קיבלה הודעות או אזהרות כלשהן בנוגע לתביעות אפשריות, או האם מודעים לתלונות או מחלוקות שעלולות להוביל לתביעה. השאלות בוחנות מודעות לתביעות קודמות, ודורשות פירוט של התאריך והנסיבות. מטרת הבדיקה היא להעריך את הסיכון הביטוחי של החברה.",
+    "row_axis": "Claim/Suit/Action Inquiry",
+    "column_axis": "Response (Yes/No) and Details",
+    "units": [],
+    "notable_values": [
+      "Sections 1 and 2: Claim inquiry",
+      "Notice/Warning: Yes/No response",
+      "Complaints/Disputes: Yes/No response",
+      "Claims made: Yes/No response"
+    ],
+    "product_hints": [
+      "ביטוח חבות משולב",
+      "ביטוח עסקי"
+    ]
+  },
+  "sketch": "Claims, Suits or Actions for Sections 1 and 2\nHave you ever received any notice or warning, whether written or oral, with respect to any possible or actual right claim against you? Yes No\nIf Yes, please provide details about the type, date and circumstances of such notice or warning:\nAre you aware of any complaints, disputes or any other circumstances, which might lead to a claim against you?\nYes\nNo\nIf Yes, please provide full details:\nAre you aware of any claims ever having been made against you covered or could have been covered under a policy of the type being considered here? Yes No If Yes, please provide full details:",
+  "embed_text": "טופס זה בודק האם החברה קיבלה הודעות או אזהרות כלשהן בנוגע לתביעות אפשריות, או האם מודעים לתלונות או מחלוקות שעלולות להוביל לתביעה. השאלות בוחנות מודעות לתביעות קודמות, ודורשות פירוט של התאריך והנסיבות. מטרת הבדיקה היא להעריך את הסיכון הביטוחי של החברה.",
+  "payload": "טבלה: תביעות וחליפות\nThis table details past and potential claims, suits, or actions against a business, specifically related to Sections 1 and 2 of an insurance policy. It's used to assess risk and determine coverage eligibility.\nממדים: Claim/Suit/Action Inquiry, Response (Yes/No) and Details\n\nClaims, Suits or Actions for Sections 1 and 2\nHave you ever received any notice or warning, whether written or oral, with respect to any possible or actual right claim against you? Yes No\nIf Yes, please provide details about the type, date and circumstances of such notice or warning:\nAre you aware of any complaints, disputes or any other circumstances, which might lead to a claim against you?\nYes\nNo\nIf Yes, please provide full details:\nAre you aware of any claims ever having been made against you covered or could have been covered under a policy of the type being considered here? Yes No If Yes, please provide full details:"
+}

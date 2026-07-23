@@ -1,0 +1,26 @@
+{
+  "id": "pdf:business/files/פוליסה-לביטוח-אחריות-מקצועית-הראל-מהדורת-ינואר-2023.pdf#25",
+  "source": "llm",
+  "description": {
+    "title": "פוליסת אחריות מקצועית הראל",
+    "summary": "This table details exclusions to professional liability insurance provided by Harel. It lists scenarios where the insurance policy does not cover the insured, such as liabilities related to manufactured products or motor vehicles.",
+    "embed_passage": "פוליסת אחריות מקצועית הראל אינה מכסה חבות הנובעת ממוצר שהמבוטח ייצר, הפיק, מכר או תיקן. לדוגמה, חבות שחובה לבטחה על פי דין בגין כלי רכב מנועי אינה כלולה, וכן אחריות הנובעת ממעמד של דירקטור או מנהל. סעיפים 2.6, 2.7 ו-2.8 מפרטים את ההגבלות הללו.",
+    "row_axis": "exclusion to coverage",
+    "column_axis": "description of exclusion",
+    "units": [],
+    "notable_values": [
+      "2.6: product manufactured by the insured",
+      "2.7: liability for motor vehicles",
+      "2.8: liability as a director or officer",
+      "2.13: failure to estimate costs",
+      "2.14: costs to repair work"
+    ],
+    "product_hints": [
+      "אחריות מקצועית הראל",
+      "Harel Professional Liability"
+    ]
+  },
+  "sketch": ", מוצר שהמבוטח ייצר, הפיק, מכר, תיקן, טיפל בו, הרכיב, שיווק, סיפק, הפיץ .2.6 ייבא או ייצא.\nחבות שחובה לבטחה על פי דין בגין כלי רכב מנועי, כולל חבות של מי שיש לו .2.7 פטור מחובת ביטוח על פי פקודת ביטוח רכב מנועי וגם או חבות שבוטחה בביטוח \"חובה\", וכן חבות בגין נזק לרכוש צד שלישי הנובעת משימוש בכלי רכב מנועי או כלי ממונע כלשהו המשמש לנסיעה.",
+  "embed_text": "פוליסת אחריות מקצועית הראל אינה מכסה חבות הנובעת ממוצר שהמבוטח ייצר, הפיק, מכר או תיקן. לדוגמה, חבות שחובה לבטחה על פי דין בגין כלי רכב מנועי אינה כלולה, וכן אחריות הנובעת ממעמד של דירקטור או מנהל. סעיפים 2.6, 2.7 ו-2.8 מפרטים את ההגבלות הללו.",
+  "payload": "טבלה: פוליסת אחריות מקצועית הראל\nThis table details exclusions to professional liability insurance provided by Harel. It lists scenarios where the insurance policy does not cover the insured, such as liabilities related to manufactured products or motor vehicles.\nממדים: exclusion to coverage, description of exclusion\n\n, מוצר שהמבוטח ייצר, הפיק, מכר, תיקן, טיפל בו, הרכיב, שיווק, סיפק, הפיץ .2.6 ייבא או ייצא.\nחבות שחובה לבטחה על פי דין בגין כלי רכב מנועי, כולל חבות של מי שיש לו .2.7 פטור מחובת ביטוח על פי פקודת ביטוח רכב מנועי וגם או חבות שבוטחה בביטוח \"חובה\", וכן חבות בגין נזק לרכוש צד שלישי הנובעת משימוש בכלי רכב מנועי או כלי ממונע כלשהו המשמש לנסיעה."
+}

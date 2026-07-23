@@ -1,0 +1,23 @@
+{
+  "id": "pdf:business/files/תנאי-פוליסה-ביטוח-מכלול-למשרד-מהדורת-ינואר-2024.pdf#252",
+  "source": "llm",
+  "description": {
+    "title": "תנאי פוליסה – מכלול",
+    "summary": "This table outlines conditions related to insurance claim reductions for misrepresentation or fraud. It details scenarios where the insurer may offer reduced or no compensation based on the accuracy of information provided by the insured.",
+    "embed_passage": "פוליסת מכלול עשויה להציע תגמולים מופחתים במקרה של מצג שווא. לדוגמה, אם המבטח סביר לא היה מתקשר בפוליסה גם בדמי ביטוח מרובים יותר, אילו ידע את המצב האמיתי, הוא עשוי להיות פטור כליל מתשלום. התנאים מתייחסים למקרים בהם ניתנו תשובות לא מלאות או לא כנות בכוונת מרמה.",
+    "row_axis": "conditions for reduced/nullified claim",
+    "column_axis": "scenario/reason for reduction",
+    "units": [],
+    "notable_values": [
+      "9.2.5: response given with intent to defraud",
+      "9.2.6: insurer would not have agreed to the policy",
+      "9.2.8: reduced compensation proportional to paid vs. actual premiums"
+    ],
+    "product_hints": [
+      "מכלול"
+    ]
+  },
+  "sketch": ".9.2.8 זה, אין המבטח 9.2 קרה מקרה הביטוח לפני שנתבטל החוזה מכוח תנאי חייב אלא בתגמולי ביטוח מופחתים בשיעור יחסי, שהוא כיחס שבין דמי הביטוח שהיו משתלמים כמקובל אצלו לפי המצב לאמיתו לבין דמי הביטוח המוסכמים, והוא פטור כליל בכל אחת מאלה:\n.9.2.8.1 ,) (לפי העניין 9.2.5 התשובה או אי מתן הודעה, כאמור בתנאי ניתנו בכוונת מרמה;\n.9.2.8.2 מבטח סביר לא היה מתקשר באותה פוליסה, אף בדמי ביטוח מרובים יותר, אילו ידע שהמצב הוא כפי שהוא.",
+  "embed_text": "פוליסת מכלול עשויה להציע תגמולים מופחתים במקרה של מצג שווא. לדוגמה, אם המבטח סביר לא היה מתקשר בפוליסה גם בדמי ביטוח מרובים יותר, אילו ידע את המצב האמיתי, הוא עשוי להיות פטור כליל מתשלום. התנאים מתייחסים למקרים בהם ניתנו תשובות לא מלאות או לא כנות בכוונת מרמה.",
+  "payload": "טבלה: תנאי פוליסה – מכלול\nThis table outlines conditions related to insurance claim reductions for misrepresentation or fraud. It details scenarios where the insurer may offer reduced or no compensation based on the accuracy of information provided by the insured.\nממדים: conditions for reduced/nullified claim, scenario/reason for reduction\n\n.9.2.8 זה, אין המבטח 9.2 קרה מקרה הביטוח לפני שנתבטל החוזה מכוח תנאי חייב אלא בתגמולי ביטוח מופחתים בשיעור יחסי, שהוא כיחס שבין דמי הביטוח שהיו משתלמים כמקובל אצלו לפי המצב לאמיתו לבין דמי הביטוח המוסכמים, והוא פטור כליל בכל אחת מאלה:\n.9.2.8.1 ,) (לפי העניין 9.2.5 התשובה או אי מתן הודעה, כאמור בתנאי ניתנו בכוונת מרמה;\n.9.2.8.2 מבטח סביר לא היה מתקשר באותה פוליסה, אף בדמי ביטוח מרובים יותר, אילו ידע שהמצב הוא כפי שהוא."
+}

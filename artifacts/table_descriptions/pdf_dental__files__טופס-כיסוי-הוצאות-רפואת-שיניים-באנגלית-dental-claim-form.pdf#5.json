@@ -1,0 +1,26 @@
+{
+  "id": "pdf:dental/files/טופס-כיסוי-הוצאות-רפואת-שיניים-באנגלית-dental-claim-form.pdf#5",
+  "source": "llm",
+  "description": {
+    "title": "רפואת שיניים - הליכים",
+    "summary": "This table lists dental procedures and their associated codes. It is used to document the details of dental treatments, including X-ray requirements.",
+    "embed_passage": "טופס כיסוי הוצאות רפואת שיניים כולל רשימה של הליכים כמו Periodic oral assessment - known patient (D0120000) ו-Bitewing X-rays - 2 X-rays (D272000). הליכים מסוימים דורשים צילומי רנטגן לפני ואחרי הטיפול, כפי שמסומן בעמודה X-Ray. לדוגמה, עבור Hemi-section (D3920000) נדרשת צילום רנטגן.",
+    "row_axis": "Dental procedure",
+    "column_axis": "Procedure details (code, X-ray requirements, diagnosis)",
+    "units": [],
+    "notable_values": [
+      "Procedure code: D0120000",
+      "Procedure name: Bitewing X-rays - 2 X-rays",
+      "Procedure code: D272000",
+      "Procedure name: Hemi-section",
+      "Procedure code: D3920000"
+    ],
+    "product_hints": [
+      "רפואת שיניים",
+      "טופס כיסוי הוצאות רפואת שיניים"
+    ]
+  },
+  "sketch": "Reason Code,Procedure name,Procedure code,X-Ray After Before,\nDiagnosis,Diagnosis,Diagnosis,Diagnosis,Diagnosis\n,Periodic oral assessment - known patient,D0120000,,\n,Bitewing X-rays - 2 X-rays,D272000,X,\n…\n,Hemi-section,D3920000,X,\n,Incision and draining of tooth abscess - in soft tissue,D7510000,X,\nin mouth Other procedure,in mouth Other procedure,in mouth Other procedure,in mouth Other procedure,in mouth Other procedure\n,First aid - treatment of toothache,",
+  "embed_text": "טופס כיסוי הוצאות רפואת שיניים כולל רשימה של הליכים כמו Periodic oral assessment - known patient (D0120000) ו-Bitewing X-rays - 2 X-rays (D272000). הליכים מסוימים דורשים צילומי רנטגן לפני ואחרי הטיפול, כפי שמסומן בעמודה X-Ray. לדוגמה, עבור Hemi-section (D3920000) נדרשת צילום רנטגן.",
+  "payload": "טבלה: רפואת שיניים - הליכים\nThis table lists dental procedures and their associated codes. It is used to document the details of dental treatments, including X-ray requirements.\nממדים: Dental procedure, Procedure details (code, X-ray requirements, diagnosis)\n\nReason Code,Procedure name,Procedure code,X-Ray After Before,\nDiagnosis,Diagnosis,Diagnosis,Diagnosis,Diagnosis\n,Periodic oral assessment - known patient,D0120000,,\n,Bitewing X-rays - 2 X-rays,D272000,X,\n,Periapical X-ray,D0220000,X,\n,Panoramic X-ray,D0330000,X,\n,Full status x-ray,D0210000,X,\n,Full dental status X-ray using paralleling technique,D0210020,X,\n,Cephalometric X-ray,D0340000,X,\n,Tomography of temporomandibular joint,D0322000,X,\n,Mouth/face X-rays,D0350000,X,\n,\"Diagnostic casts, die and study model\",D0470000,,\nPrevention,Prevention,Prevention,Prevention,Prevention\n,\"Preventative treatment - adult, removal of layer, plaque and stains in permanent and transitional dentition\",D1110000,,\n,\"Fissure seals, for each tooth\",D1351000,,\nPreservative Dentistry,Preservative Dentistry,Preservative Dentistry,Preservative Dentistry,Preservative Dentistry\n,\"Restoration of amalgam, 1 surface, primary or permanent dentition\",D2140000,,\n,\"Complex restoration on resin/acrylic basis, 1 surface, frontal\",D2330000,,\nRoot Canal,Root Canal,Root Canal,Root Canal,Root Canal\n,Root canal - not including final restoration,D3310000,X,X\n,Renewal of root canal,D3346000,X,X\nReasons for RC/Renewed RC,Reasons for RC/Renewed RC,Reasons for RC/Renewed RC,Reasons for RC/Renewed RC,Reasons for RC/Renewed RC\n51,RC due to caries,,,\n52,RC as result of a process,,,\n54,RC as a result of a gum problem,,,\n57,RC for prosthetic/aesthetic purpose,,,\n81,Renewed RC for prosthetic purpose,,,\n82,Renewed RC a result of a process,,,\n83,Renewed RC as result of incomplete RC Pulpotomy of primary or permanent,D3220000,X,\n,tooth Apexification,D3351000,X,\nSurgery,Surgery,Surgery,Surgery,Surgery\n,\"Extraction, erupted tooth or exposed root, 1 tooth\",D7140000,X,\n,Surgical extraction - tooth erupted into mouth,D7210000,X,\n,Surgical extraction - tooth impacted in soft tissue,D7220000,X,\n,Surgical extraction - tooth fully impacted in hard tissue,D7240000,X,\nReasons for Extraction,Reasons for Extraction,Reasons for Extraction,Reasons for Extraction,Reasons for Extraction\n60,Extraction due to extensive crown decay,,,\n63,Extraction due to a gum problem,,,\n64,Extraction for orthodontal purpose,,,\n67,Extraction for prosthetic purpose,,,\n68,Extraction of extra tooth Apicoectomy (root end surgery),D3410000,X,\n,Hemi-section,D3920000,X,\n,Incision and draining of tooth abscess - in soft tissue,D7510000,X,\nin mouth Other procedure,in mouth Other procedure,in mouth Other procedure,in mouth Other procedure,in mouth Other procedure\n,First aid - treatment of toothache,"
+}

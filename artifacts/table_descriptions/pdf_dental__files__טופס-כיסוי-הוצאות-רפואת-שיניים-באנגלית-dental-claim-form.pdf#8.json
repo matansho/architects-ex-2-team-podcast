@@ -1,0 +1,25 @@
+{
+  "id": "pdf:dental/files/טופס-כיסוי-הוצאות-רפואת-שיניים-באנגלית-dental-claim-form.pdf#8",
+  "source": "llm",
+  "description": {
+    "title": "רפואת שיניים - פרוצדורות",
+    "summary": "This table lists dental procedures and their corresponding codes. It is used to detail the type of dental work performed for claim processing.",
+    "embed_passage": "טופס כיסוי הוצאות רפואת שיניים כולל פרוצדורות שונות כמו D4341000, D4260000 ו-D4240000. הפרוצדורות מוגדרות לפי קוד, סיבה, שן ממנה ושן אליה. הטופס משמש לתיעוד הטיפולים לצורך החזר הוצאות.",
+    "row_axis": "Dental procedure",
+    "column_axis": "Procedure details (code, reason, tooth range, X-ray requirement)",
+    "units": [],
+    "notable_values": [
+      "Procedure code: D4341000",
+      "Procedure code: D4260000",
+      "Procedure code: D4240000",
+      "X-ray required: X"
+    ],
+    "product_hints": [
+      "רפואת שיניים",
+      "טופס כיסוי הוצאות רפואת שיניים"
+    ]
+  },
+  "sketch": "more teeth,D4341000,,\n,Periodontal surgery including,D4260000,,\n,shaping bone - 4 or more teeth,,,\n,\"Raising flap, including root planing Any other procedure not\",D4240000 defined in the table,X,",
+  "embed_text": "טופס כיסוי הוצאות רפואת שיניים כולל פרוצדורות שונות כמו D4341000, D4260000 ו-D4240000. הפרוצדורות מוגדרות לפי קוד, סיבה, שן ממנה ושן אליה. הטופס משמש לתיעוד הטיפולים לצורך החזר הוצאות.",
+  "payload": "טבלה: רפואת שיניים - פרוצדורות\nThis table lists dental procedures and their corresponding codes. It is used to detail the type of dental work performed for claim processing.\nממדים: Dental procedure, Procedure details (code, reason, tooth range, X-ray requirement)\n\nmore teeth,D4341000,,\n,Periodontal surgery including,D4260000,,\n,shaping bone - 4 or more teeth,,,\n,\"Raising flap, including root planing Any other procedure not\",D4240000 defined in the table,X,"
+}

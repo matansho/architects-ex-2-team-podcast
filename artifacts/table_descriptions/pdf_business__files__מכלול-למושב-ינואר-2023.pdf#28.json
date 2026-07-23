@@ -1,0 +1,25 @@
+{
+  "id": "pdf:business/files/מכלול-למושב-ינואר-2023.pdf#28",
+  "source": "llm",
+  "description": {
+    "title": "מכלול - חריגים",
+    "summary": "This table lists exclusions to an insurance policy, detailing events or circumstances not covered by the insurance. It helps determine what is *not* covered under the 'Mekhalel' policy.",
+    "embed_passage": "פוליסת 'מכלול' אינה מכסה נזקים הנובעים מבורות זבל או ספורט אתגרי. ספורט אתגרי מוגדר כענפי ספורט מסוכנים הדורשים רמות גבוהות של קושי וגובה, כפי שמפורט באתר המבטח. לדוגמה, חבות שמקורה בבורות זבל אינה כלולה בכיסוי.",
+    "row_axis": "exclusion type",
+    "column_axis": "description/details",
+    "units": [],
+    "notable_values": [
+      "exclusion: נזק מבורות זבל",
+      "exclusion: ספורט אתגרי",
+      "reference: אתר המבטח - הגדרת ספורט אתגרי",
+      "number: 11 - exclusion number",
+      "number: 12 - exclusion number"
+    ],
+    "product_hints": [
+      "מכלול"
+    ]
+  },
+  "sketch": ". נזק או חבות מכל סוג שהוא, שמקורם בבורות זבל, בורות ספיגה או מזבלות מכל סוג 11 שהוא, אלא אם צוין במפורש אחרת ברשימה.\n. ספורט אתגרי - ענפי ספורט הנחשבים למסוכנים במיוחד והכוללים/דורשים בין היתר 12 מהעוסקים בהם רמות גבוהות של קושי ו/או מאמץ גופני, מהירות, גובה וסכנה. לעניין פרוט ענפי הספורט הנכללים בהגדרה זו, ראה פירוט באתר המבטח \"הגדרת .\" ספורט אתגרי",
+  "embed_text": "פוליסת 'מכלול' אינה מכסה נזקים הנובעים מבורות זבל או ספורט אתגרי. ספורט אתגרי מוגדר כענפי ספורט מסוכנים הדורשים רמות גבוהות של קושי וגובה, כפי שמפורט באתר המבטח. לדוגמה, חבות שמקורה בבורות זבל אינה כלולה בכיסוי.",
+  "payload": "טבלה: מכלול - חריגים\nThis table lists exclusions to an insurance policy, detailing events or circumstances not covered by the insurance. It helps determine what is *not* covered under the 'Mekhalel' policy.\nממדים: exclusion type, description/details\n\n. נזק או חבות מכל סוג שהוא, שמקורם בבורות זבל, בורות ספיגה או מזבלות מכל סוג 11 שהוא, אלא אם צוין במפורש אחרת ברשימה.\n. ספורט אתגרי - ענפי ספורט הנחשבים למסוכנים במיוחד והכוללים/דורשים בין היתר 12 מהעוסקים בהם רמות גבוהות של קושי ו/או מאמץ גופני, מהירות, גובה וסכנה. לעניין פרוט ענפי הספורט הנכללים בהגדרה זו, ראה פירוט באתר המבטח \"הגדרת .\" ספורט אתגרי"
+}

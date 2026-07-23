@@ -37,6 +37,10 @@ sys.path.insert(0, str(ROOT))
 from rag.corpus_chunks import collect_pdf_chunks, collect_txt_chunks  # noqa: E402
 from rag.embed import DEFAULT_MODEL, Embedder  # noqa: E402
 from rag.index_store import chunk_to_indexed, save_index  # noqa: E402
+from rag.table_cache import (  # noqa: E402
+    DEFAULT_TABLE_DESC_DIR,
+    apply_cached_table_descriptions,
+)
 
 
 def main() -> None:
@@ -63,18 +67,29 @@ def main() -> None:
     ap.add_argument(
         "--llm-tables",
         action="store_true",
-        help="Use LLM to write table descriptions (else heuristic)",
+        help="Use LLM to write table descriptions during parse (slow; prefer shipped cache)",
     )
     ap.add_argument(
         "--no-table-descriptions",
         action="store_true",
-        help="Skip table description enrichment",
+        help="Skip heuristic table description enrichment during parse",
+    )
+    ap.add_argument(
+        "--table-desc-cache",
+        default=str(DEFAULT_TABLE_DESC_DIR),
+        help=(
+            "Apply shipped LLM table descriptions from this dir after chunking "
+            f"(default: {DEFAULT_TABLE_DESC_DIR}). Empty string disables."
+        ),
     )
     args = ap.parse_args()
 
     corpus = ROOT / args.corpus
     out_dir = ROOT / args.out
     cache_dir = (ROOT / args.pdf_cache) if args.pdf_cache else None
+    table_desc_dir = (
+        (ROOT / args.table_desc_cache) if args.table_desc_cache else None
+    )
 
     chunks = []
     if not args.pdf_only:
@@ -110,6 +125,13 @@ def main() -> None:
     if not chunks:
         raise SystemExit("No chunks collected")
 
+    if table_desc_dir is not None:
+        n_applied = apply_cached_table_descriptions(chunks, table_desc_dir)
+        print(
+            f"Applied {n_applied} table descriptions from {table_desc_dir}",
+            flush=True,
+        )
+
     print(f"Embedding {len(chunks)} chunks with {args.model}…", flush=True)
     embedder = Embedder(model_name=args.model, batch_size=args.batch_size)
     matrix = embedder.embed_passages([c.text_for_embedding() for c in chunks])
@@ -127,6 +149,7 @@ def main() -> None:
             "target_tokens": args.target,
             "max_tokens": args.max_tokens,
             "table_descriptions": n_table_desc,
+            "table_desc_cache": str(table_desc_dir) if table_desc_dir else None,
         },
     )
 

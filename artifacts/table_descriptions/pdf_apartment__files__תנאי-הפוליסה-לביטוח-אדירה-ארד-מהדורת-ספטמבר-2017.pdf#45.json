@@ -1,0 +1,24 @@
+{
+  "id": "pdf:apartment/files/תנאי-הפוליסה-לביטוח-אדירה-ארד-מהדורת-ספטמבר-2017.pdf#45",
+  "source": "llm",
+  "description": {
+    "title": "אדירה ארד - סיכונים לא מכוסים",
+    "summary": "This table lists risks not covered under the Adira Erd insurance policy. It's used to determine if a claim will be honored based on the cause of loss.",
+    "embed_passage": "פוליסת אדירה ארד אינה מכסה נזקים שנגרמו ממלחמה, פעולות אויב או פיגועים חבלניים (12.1). כמו כן, לא מכוסים נזקים מקרינה מייננת או תהליכים גרעיניים (12.3). הפקעה של רכוש על ידי הממשלה או הצבא אף היא אינה כלולה (12.4).",
+    "row_axis": "Specific risk/cause of loss",
+    "column_axis": "Risk description/exclusion clause",
+    "units": [],
+    "notable_values": [
+      "12.1: מלחמה",
+      "12.2: מלחמת אזרחים",
+      "12.3: קרינה מייננת",
+      "12.4: תפיסה על ידי הממשלה"
+    ],
+    "product_hints": [
+      "אדירה ארד"
+    ]
+  },
+  "sketch": ".  מלחמת אזרחים, מרד, התקוממות צבאית או עממית, מהפכה. 12.2\nקרינה מייננת, זיהום רדיואקטיבי, תהליכים גרעיניים, חומר גרעיני או פסולת גרעינית. .12.3\n.  תפיסה, הפקעה, החרמה, השמדה או הריסה של רכוש בידי הממשלה, הצבא, רשות 12.4 מקומית, או אדם הפועל על פי דין.",
+  "embed_text": "פוליסת אדירה ארד אינה מכסה נזקים שנגרמו ממלחמה, פעולות אויב או פיגועים חבלניים (12.1). כמו כן, לא מכוסים נזקים מקרינה מייננת או תהליכים גרעיניים (12.3). הפקעה של רכוש על ידי הממשלה או הצבא אף היא אינה כלולה (12.4).",
+  "payload": "טבלה: אדירה ארד - סיכונים לא מכוסים\nThis table lists risks not covered under the Adira Erd insurance policy. It's used to determine if a claim will be honored based on the cause of loss.\nממדים: Specific risk/cause of loss, Risk description/exclusion clause\n\n.  מלחמת אזרחים, מרד, התקוממות צבאית או עממית, מהפכה. 12.2\nקרינה מייננת, זיהום רדיואקטיבי, תהליכים גרעיניים, חומר גרעיני או פסולת גרעינית. .12.3\n.  תפיסה, הפקעה, החרמה, השמדה או הריסה של רכוש בידי הממשלה, הצבא, רשות 12.4 מקומית, או אדם הפועל על פי דין."
+}

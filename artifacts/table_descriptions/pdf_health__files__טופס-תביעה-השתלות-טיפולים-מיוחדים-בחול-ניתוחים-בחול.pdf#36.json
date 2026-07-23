@@ -1,0 +1,25 @@
+{
+  "id": "pdf:health/files/טופס-תביעה-השתלות-טיפולים-מיוחדים-בחול-ניתוחים-בחול.pdf#36",
+  "source": "llm",
+  "description": {
+    "title": "טופס תביעה - השתלות",
+    "summary": "This table is a claim form for transplants and specialized treatments abroad. It's used by medical professionals to detail a patient's medical history and treatment plan.",
+    "embed_passage": "טופס זה מיועד לתיעוד טיפולים רפואיים של מבוטחים, כולל פירוט מחלות וליקויים מהם סובל המבוטח. הרופא המטפל יפרט את תאריך תחילת הטיפול, חודש ושנה. לדוגמה, ניתן לציין שהמבוטח החל בטיפולים בשנת 2023.",
+    "row_axis": "Individual patient claim / medical report",
+    "column_axis": "Details provided by the treating physician (date of treatment, medical conditions, contact information)",
+    "units": [],
+    "notable_values": [
+      "שנה: 2023",
+      "חודש: unspecified",
+      "מתאריך: unspecified"
+    ],
+    "product_hints": [
+      "השתלות",
+      "טיפולים מיוחדים בחול",
+      "ניתוחים בחול"
+    ]
+  },
+  "sketch": "חלק ב' - למילוי בידי רופא מקצועי מטפל\nחלק זה ימולא על ידי רופא מקצועי המטפל במבוטח, ובהיעדר רופא מקצועי מטפל, ימולא על-ידי רופא משפחה/ילדים.\n,,,,הרופא פרטי א\nפקס מספר,מיקוד,יישוב,בית מספר,רחוב\n…\nמתאריך,במבוטח הטיפול.המבוטח סובל מהם וליקויים מחלות,ג.,ג.\n,,המבוטח החל בטיפולי,המבוטח החל בטיפולי\n,מתאריך,,שנה\n,,חודש,",
+  "embed_text": "טופס זה מיועד לתיעוד טיפולים רפואיים של מבוטחים, כולל פירוט מחלות וליקויים מהם סובל המבוטח. הרופא המטפל יפרט את תאריך תחילת הטיפול, חודש ושנה. לדוגמה, ניתן לציין שהמבוטח החל בטיפולים בשנת 2023.",
+  "payload": "טבלה: טופס תביעה - השתלות\nThis table is a claim form for transplants and specialized treatments abroad. It's used by medical professionals to detail a patient's medical history and treatment plan.\nממדים: Individual patient claim / medical report, Details provided by the treating physician (date of treatment, medical conditions, contact information)\n\nחלק ב' - למילוי בידי רופא מקצועי מטפל\nחלק זה ימולא על ידי רופא מקצועי המטפל במבוטח, ובהיעדר רופא מקצועי מטפל, ימולא על-ידי רופא משפחה/ילדים.\n,,,,הרופא פרטי א\nפקס מספר,מיקוד,יישוב,בית מספר,רחוב\nזהות מספר,המבוטח פרטי ב.משפחה שם\nמתאריך,במבוטח הטיפול.המבוטח סובל מהם וליקויים מחלות,ג.,ג.\n,,המבוטח החל בטיפולי,המבוטח החל בטיפולי\n,מתאריך,,שנה\n,,חודש,"
+}

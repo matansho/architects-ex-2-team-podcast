@@ -1,0 +1,27 @@
+{
+  "id": "pdf:business/files/טופס-הצטרפות-לביטוח-ניסויים-קליניים.pdf#2",
+  "source": "llm",
+  "description": {
+    "title": "ביטוח ניסויים קליניים",
+    "summary": "This table details liability insurance for clinical trials. It's used to assess risk factors and determine coverage limits for potential incidents during trials.",
+    "embed_passage": "ביטוח ניסויים קליניים מכסה נזקים אפשריים במהלך מחקרים רפואיים. גובה הכיסוי המבוקש הוא בדולרים אמריקאים (USD) לכל תביעה או אירוע, וכן סכום מצטבר לתקופת הביטוח. לדוגמה, ניתן לבקש כיסוי של 1 מיליון דולר לכל תביעה.",
+    "row_axis": "Risk factor or incident report request related to the clinical trial",
+    "column_axis": "Response (Yes/No) or details of past incidents",
+    "units": [
+      "USD"
+    ],
+    "notable_values": [
+      "Claim limit per occurrence: USD",
+      "Aggregate limit during insurance period: USD",
+      "Years of incident history requested: 5",
+      "Invasive medical devices/implants: Yes/No",
+      "Administration route: intravenous/intra-arteriel/intrathecal"
+    ],
+    "product_hints": [
+      "ביטוח ניסויים קליניים"
+    ]
+  },
+  "sketch": "1 18. Is the trial performed with invasive  medical devices/implants?\nYes\nNo\nIs the route of administration intravenous/ 2 intra-arteriel/intrathecal ?\n…\nRequested Limits of Liability USD per anyone claim / occurrence USD in the Aggregate during the period\nof Insurance.\nGive  details  of  incidents  during  the  last  5  years  resulting  in  death, injury,  disease  or  illness  (physical  or  mental)  to  patients  or  volunteers participating in similar or related clinical trials, and any circumstances which might give rise to a claim for compensation against the Contracting Party, the Sponsor, the Investigator or the manufacturer of the  medication  or  device  which  is  to  be  investigated  in  the  Trial  for which coverage is sought.\n1 Relating to a technique in which the body is entered by puncture or incision",
+  "embed_text": "ביטוח ניסויים קליניים מכסה נזקים אפשריים במהלך מחקרים רפואיים. גובה הכיסוי המבוקש הוא בדולרים אמריקאים (USD) לכל תביעה או אירוע, וכן סכום מצטבר לתקופת הביטוח. לדוגמה, ניתן לבקש כיסוי של 1 מיליון דולר לכל תביעה.",
+  "payload": "טבלה: ביטוח ניסויים קליניים\nThis table details liability insurance for clinical trials. It's used to assess risk factors and determine coverage limits for potential incidents during trials.\nממדים: Risk factor or incident report request related to the clinical trial, Response (Yes/No) or details of past incidents\n\n1 18. Is the trial performed with invasive  medical devices/implants?\nYes\nNo\nIs the route of administration intravenous/ 2 intra-arteriel/intrathecal ?\nYes\nNo\nDoes the study involve invasive removal and/or implantation of cells, organic tissue, organs, blood and/or bloodserum (beyond routine withdrawal of blood)?\nYes\nNo\nDoes the study involve any viruses, bacteria and/or cells that have been genetically modified?\nYes\nNo\nDoes the study involve gentherapy or stem cells?\nYes\nNo\nComments:\nPlease provide any additional comments on the trial.\n24.\nRequested Limits of Liability USD per anyone claim / occurrence USD in the Aggregate during the period\nof Insurance.\nGive  details  of  incidents  during  the  last  5  years  resulting  in  death, injury,  disease  or  illness  (physical  or  mental)  to  patients  or  volunteers participating in similar or related clinical trials, and any circumstances which might give rise to a claim for compensation against the Contracting Party, the Sponsor, the Investigator or the manufacturer of the  medication  or  device  which  is  to  be  investigated  in  the  Trial  for which coverage is sought.\n1 Relating to a technique in which the body is entered by puncture or incision"
+}

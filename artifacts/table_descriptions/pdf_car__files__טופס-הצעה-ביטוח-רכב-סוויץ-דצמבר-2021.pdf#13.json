@@ -1,0 +1,26 @@
+{
+  "id": "pdf:car/files/טופס-הצעה-ביטוח-רכב-סוויץ-דצמבר-2021.pdf#13",
+  "source": "llm",
+  "description": {
+    "title": "הצעת ביטוח רכב סוויץ",
+    "summary": "This table is for a car insurance quote from Switch (סוויץ). It collects driver information, including driving experience and license details, to assess risk and determine policy terms.",
+    "embed_passage": "טופס זה משמש להצעת ביטוח רכב מסוג סוויץ׳. נתונים כמו תאריך לידה, שנת קבלת רישיון נהיגה, וותק נהיגה (לדוגמה, מעל שנתיים או בין 24 חודשים), וכן האם הנהג בעל ותק נהיגה פחות משנתיים, נלקחים בחשבון. לדוגמה, נהג עם ותק של 2 שנים.",
+    "row_axis": "Driver",
+    "column_axis": "Driver details (date of birth, license year, driving experience)",
+    "units": [],
+    "notable_values": [
+      "Driving experience less than 2 years: 2",
+      "License year: / /",
+      "Driving experience: מעל שנתיים",
+      "Driving experience: חודשים 24 עד",
+      "Driver named: 3"
+    ],
+    "product_hints": [
+      "סוויץ",
+      "ביטוח רכב סוויץ"
+    ]
+  },
+  "sketch": "נהגים נקובים בשם 3\nבני זוג נקובים בשם\n? האם ינהג ברכב נהג בעל ותק נהיגה פחות משנתיים\n2                                    :\n…\nתאריך לידה:                 /           /            שנת קבלת רישיון נהיגה לרכב מסוג זה בישראל\nמעל שנתיים\nתושב זמני, תייר\nחודשים 24 עד",
+  "embed_text": "טופס זה משמש להצעת ביטוח רכב מסוג סוויץ׳. נתונים כמו תאריך לידה, שנת קבלת רישיון נהיגה, וותק נהיגה (לדוגמה, מעל שנתיים או בין 24 חודשים), וכן האם הנהג בעל ותק נהיגה פחות משנתיים, נלקחים בחשבון. לדוגמה, נהג עם ותק של 2 שנים.",
+  "payload": "טבלה: הצעת ביטוח רכב סוויץ\nThis table is for a car insurance quote from Switch (סוויץ). It collects driver information, including driving experience and license details, to assess risk and determine policy terms.\nממדים: Driver, Driver details (date of birth, license year, driving experience)\n\nנהגים נקובים בשם 3\nבני זוג נקובים בשם\n? האם ינהג ברכב נהג בעל ותק נהיגה פחות משנתיים\n2                                    :\nגוף נפגעי עם תאונות מספר,נהיגה רישיון שלילות מספר,מין,לידה תאריך,ת.זהות מס',משפחה שם,\n,,נ ז,,,,עיקרי נהג\n,,נ ז,,,,נוסף נהג\n,,נ ז,,,,זוג בן/בת\n,,נ ז,,,,צעיר נהג\n:\n: אחר\nנכה\n. נא לציין את מקום החנייה בלילה 1\nתאריך לידה:                 /           /            שנת קבלת רישיון נהיגה לרכב מסוג זה בישראל\nמעל שנתיים\nתושב זמני, תייר\nחודשים 24 עד"
+}

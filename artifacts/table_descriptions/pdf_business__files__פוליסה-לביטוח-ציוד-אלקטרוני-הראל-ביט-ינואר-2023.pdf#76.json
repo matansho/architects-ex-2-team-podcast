@@ -1,0 +1,25 @@
+{
+  "id": "pdf:business/files/פוליסה-לביטוח-ציוד-אלקטרוני-הראל-ביט-ינואר-2023.pdf#76",
+  "source": "llm",
+  "description": {
+    "title": "סכומי ביטוח - ביטוח אבדן תוצאתי",
+    "summary": "This table details the insured amounts for business interruption coverage under the Harel insurance policy. It defines how key financial metrics are calculated for coverage limits.",
+    "embed_passage": "פוליסת ביטוח אבדן תוצאתי של הראל מגדירה את סכומי הביטוח על בסיס רווח גולמי שנתי, שכר עבודה, ומחזור. לדוגמה, הרווח הגולמי השנתי של העסק כולל שכר עבודה, ותקופת השיפוי יכולה להיות קצרה או ארוכה משנה. סכום הביטוח משקף את הרווח הגולמי המלא לתקופה הרלוונטית.",
+    "row_axis": "insured amount type (e.g., gross profit, payroll)",
+    "column_axis": "definition/calculation method",
+    "units": [],
+    "notable_values": [
+      "רווח גולמי: calculated from total revenue, closing inventory, and deducting processing costs",
+      "שכר עבודה: includes social security expenses",
+      "תקופת השיפוי: begins on the date of the insured event",
+      "מחזור: funds paid or due for goods sold or services rendered"
+    ],
+    "product_hints": [
+      "ביטוח אבדן תוצאתי הראל",
+      "Harel Business Interruption Insurance"
+    ]
+  },
+  "sketch": "רווח גולמי .14.2\nהסכום המתקבל מסך כל מחזור הכנסות עסקו של המבוטח, בתוספת מלאי הסגירה ובניכוי סכום הוצאות העיבוד )הבלתי מבוטחות(המפורטות ברשימה, בניכוי מלאי פתיחה.\nשכר עבודה .14.3\nסך כל התמורה המשתלמת לכל עובדיו השכירים של המבוטח, לרבות ההוצאות הסוציאליות, למעט עובדים ששכרם נכלל בהוצאות הנהלה וכלליות.",
+  "embed_text": "פוליסת ביטוח אבדן תוצאתי של הראל מגדירה את סכומי הביטוח על בסיס רווח גולמי שנתי, שכר עבודה, ומחזור. לדוגמה, הרווח הגולמי השנתי של העסק כולל שכר עבודה, ותקופת השיפוי יכולה להיות קצרה או ארוכה משנה. סכום הביטוח משקף את הרווח הגולמי המלא לתקופה הרלוונטית.",
+  "payload": "טבלה: סכומי ביטוח - ביטוח אבדן תוצאתי\nThis table details the insured amounts for business interruption coverage under the Harel insurance policy. It defines how key financial metrics are calculated for coverage limits.\nממדים: insured amount type (e.g., gross profit, payroll), definition/calculation method\n\nרווח גולמי .14.2\nהסכום המתקבל מסך כל מחזור הכנסות עסקו של המבוטח, בתוספת מלאי הסגירה ובניכוי סכום הוצאות העיבוד )הבלתי מבוטחות(המפורטות ברשימה, בניכוי מלאי פתיחה.\nשכר עבודה .14.3\nסך כל התמורה המשתלמת לכל עובדיו השכירים של המבוטח, לרבות ההוצאות הסוציאליות, למעט עובדים ששכרם נכלל בהוצאות הנהלה וכלליות."
+}

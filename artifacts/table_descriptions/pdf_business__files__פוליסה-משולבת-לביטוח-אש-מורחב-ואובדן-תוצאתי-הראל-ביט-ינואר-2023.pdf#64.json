@@ -1,0 +1,28 @@
+{
+  "id": "pdf:business/files/פוליסה-משולבת-לביטוח-אש-מורחב-ואובדן-תוצאתי-הראל-ביט-ינואר-2023.pdf#64",
+  "source": "llm",
+  "description": {
+    "title": "הרחבות ביטוח הראל",
+    "summary": "This table details coverage extensions for Harel insurance policies, specifically outlining limits for various types of damage. It allows you to look up the maximum coverage amount for specific incidents.",
+    "embed_passage": "פוליסת ביטוח הראל מורחבת לכסות נזקים שונים, כגון נזק ללוחות חשמל או התמוטטות מדפים. סכום הכיסוי משתנה בהתאם לסוג הנזק, לדוגמה, עד ₪ 200,000 לנזק ללוחות חשמל, ועד ₪ 1,000,000 לנזק למדפים. הכיסוי מבוסס על נזק ראשון ואינו כפוף לתנאים מיוחדים.",
+    "row_axis": "type of damage (e.g., damage to electrical panels, shelf collapse)",
+    "column_axis": "coverage details (e.g., coverage limit, conditions)",
+    "units": [
+      "₪"
+    ],
+    "notable_values": [
+      "coverage limit for electrical panel damage: ₪ 200,000",
+      "coverage limit for shelf collapse: ₪ 1,000,000",
+      "coverage is based on 'first loss'",
+      "coverage is not subject to special conditions in chapter A"
+    ],
+    "product_hints": [
+      "ביטוח אש מורחב",
+      "ביטוח הראל",
+      "אובדן תוצאתי"
+    ]
+  },
+  "sketch": "נזק ללוחות חשמל .3.18\n- \"נזק למתקנים חשמליים\" מהסייגים לפרק זה, הביטוח 4.2 ' על אף האמור בסייג מס , על פי פרק זה מורחב לכסות נזק ללוחות חשמל כתוצאה מ: מתח יתר, עומס יתר קצר, קשת חשמלית, התחממות עצמית ו/או אש )במקור הנזק( הנובעת מהם, אשר נגרמו מכל סיבה שהיא כולל ברק.\nאלא אם צוין אחרת ברשימה, אחריותו של המבטח על פי הרחבה זו מוגבלת עד .₪  200,000 לסך של\n\"ביטוח חסר\" מהתנאים 5.7 סכום זה הינו על בסיס נזק ראשון שאינו כפוף לתנאי .' המיוחדים בפרק א",
+  "embed_text": "פוליסת ביטוח הראל מורחבת לכסות נזקים שונים, כגון נזק ללוחות חשמל או התמוטטות מדפים. סכום הכיסוי משתנה בהתאם לסוג הנזק, לדוגמה, עד ₪ 200,000 לנזק ללוחות חשמל, ועד ₪ 1,000,000 לנזק למדפים. הכיסוי מבוסס על נזק ראשון ואינו כפוף לתנאים מיוחדים.",
+  "payload": "טבלה: הרחבות ביטוח הראל\nThis table details coverage extensions for Harel insurance policies, specifically outlining limits for various types of damage. It allows you to look up the maximum coverage amount for specific incidents.\nממדים: type of damage (e.g., damage to electrical panels, shelf collapse), coverage details (e.g., coverage limit, conditions)\n\nנזק ללוחות חשמל .3.18\n- \"נזק למתקנים חשמליים\" מהסייגים לפרק זה, הביטוח 4.2 ' על אף האמור בסייג מס , על פי פרק זה מורחב לכסות נזק ללוחות חשמל כתוצאה מ: מתח יתר, עומס יתר קצר, קשת חשמלית, התחממות עצמית ו/או אש )במקור הנזק( הנובעת מהם, אשר נגרמו מכל סיבה שהיא כולל ברק.\nאלא אם צוין אחרת ברשימה, אחריותו של המבטח על פי הרחבה זו מוגבלת עד .₪  200,000 לסך של\n\"ביטוח חסר\" מהתנאים 5.7 סכום זה הינו על בסיס נזק ראשון שאינו כפוף לתנאי .' המיוחדים בפרק א"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "pdf:apartment/files/פוליסה-לביטוח-דירה-ותכולתה-ש-מהדורת-אוגוסט-2020.pdf#141",
+  "source": "llm",
+  "description": {
+    "title": "סייגים לפוליסה",
+    "summary": "This table lists general exclusions to all extensions of the insurance policy. It details events or causes that the insurer is not liable for, such as war, radiation, or government confiscation.",
+    "embed_passage": "פוליסה לביטוח דירה ותכולתה כוללת סייגים רבים, למשל סייג למלחמה (1), קרינה מיננת (3) ותפיסה על ידי הממשלה (4). סייגים אלו מגדירים מצבים בהם הכיסוי הביטוחי אינו חל.",
+    "row_axis": "exclusion type",
+    "column_axis": "description of exclusion",
+    "units": [],
+    "notable_values": [
+      "war: 1",
+      "radiation: 3",
+      "government confiscation: 4"
+    ],
+    "product_hints": [
+      "ביטוח דירה ותכולתה"
+    ]
+  },
+  "sketch": "( מלחמת אזרחים, מרד, התקוממות צבאית או עממית, מהפכה. 2\n( קרינה מיננת, זיהום רדיו אקטיבי, תהליכים גרעיניים, וכל אובדן או נזק, עקב חומר 3 גרעיני או פסולת גרעינית.\n, ( תפיסה, הפקעה, החרמה, השמדה או הריסה של הרכוש, על ידי הממשלה, הצבא 4 רשות מקומית או אדם הפועל על פי דין.",
+  "embed_text": "פוליסה לביטוח דירה ותכולתה כוללת סייגים רבים, למשל סייג למלחמה (1), קרינה מיננת (3) ותפיסה על ידי הממשלה (4). סייגים אלו מגדירים מצבים בהם הכיסוי הביטוחי אינו חל.",
+  "payload": "טבלה: סייגים לפוליסה\nThis table lists general exclusions to all extensions of the insurance policy. It details events or causes that the insurer is not liable for, such as war, radiation, or government confiscation.\nממדים: exclusion type, description of exclusion\n\n( מלחמת אזרחים, מרד, התקוממות צבאית או עממית, מהפכה. 2\n( קרינה מיננת, זיהום רדיו אקטיבי, תהליכים גרעיניים, וכל אובדן או נזק, עקב חומר 3 גרעיני או פסולת גרעינית.\n, ( תפיסה, הפקעה, החרמה, השמדה או הריסה של הרכוש, על ידי הממשלה, הצבא 4 רשות מקומית או אדם הפועל על פי דין."
+}

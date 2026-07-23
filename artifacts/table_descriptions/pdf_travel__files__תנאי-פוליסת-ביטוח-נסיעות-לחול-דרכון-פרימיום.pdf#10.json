@@ -1,0 +1,29 @@
+{
+  "id": "pdf:travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-דרכון-פרימיום.pdf#10",
+  "source": "llm",
+  "description": {
+    "title": "גבולות אחריות - דרכון פרימיום",
+    "summary": "This table details the coverage limits and self-participation amounts for the 'דרכון פרימיום' travel insurance policy. It allows you to look up the financial responsibility for different types of expenses.",
+    "embed_passage": "פוליסת 'דרכון פרימיום' של הראל מספקת כיסוי להוצאות רפואיות, חילוץ, הוצאות משפטיות ועוד. גבול האחריות להוצאות רפואיות יכול להגיע עד $ 5000, בעוד שההשתתפות העצמית עומדת על $ 50. כיסוי להוצאות קבורה בחו״ל עומד על $ 5000.",
+    "row_axis": "type of coverage (e.g., medical expenses, legal expenses)",
+    "column_axis": "coverage details (self-participation, liability limit, policy section)",
+    "units": [
+      "$",
+      "₪"
+    ],
+    "notable_values": [
+      "self-participation: $ 50",
+      "medical expenses limit: $ 5000",
+      "legal expenses limit: $ 5000",
+      "search and rescue limit: $ 250,000",
+      "third party liability limit: $ 150,000"
+    ],
+    "product_hints": [
+      "דרכון פרימיום",
+      "הראל"
+    ]
+  },
+  "sketch": "השתתפות עצמית,האחריות גבול,הכיסוי,הסעיף בפוליסה\n$ 50,להוצאות האחריות בגבול כלול רפואיות,אשפוז בעת רפואיות הוצאות,4.3.2\n,להוצאות האחריות בגבול כלול רפואיות,גופה העברת הוצאות,4.4\n$ 50,$ 5000,\"בחו\"\"ל משפטיות הוצאות\",4.5\n,$ 5000,\"בחו\"\"ל קבורה הוצאות\",4.6\n,\"$ 250,000\",באמצעות וחילוץ איתור חיפוש והצלה חילוץ הראל,5 פרק\n,\"$ 150,000\",ג' צד כלפי חבות,6 פרק",
+  "embed_text": "פוליסת 'דרכון פרימיום' של הראל מספקת כיסוי להוצאות רפואיות, חילוץ, הוצאות משפטיות ועוד. גבול האחריות להוצאות רפואיות יכול להגיע עד $ 5000, בעוד שההשתתפות העצמית עומדת על $ 50. כיסוי להוצאות קבורה בחו״ל עומד על $ 5000.",
+  "payload": "טבלה: גבולות אחריות - דרכון פרימיום\nThis table details the coverage limits and self-participation amounts for the 'דרכון פרימיום' travel insurance policy. It allows you to look up the financial responsibility for different types of expenses.\nממדים: type of coverage (e.g., medical expenses, legal expenses), coverage details (self-participation, liability limit, policy section)\n\nהשתתפות עצמית,האחריות גבול,הכיסוי,הסעיף בפוליסה\n$ 50,להוצאות האחריות בגבול כלול רפואיות,אשפוז בעת רפואיות הוצאות,4.3.2\n,להוצאות האחריות בגבול כלול רפואיות,גופה העברת הוצאות,4.4\n$ 50,$ 5000,\"בחו\"\"ל משפטיות הוצאות\",4.5\n,$ 5000,\"בחו\"\"ל קבורה הוצאות\",4.6\n,\"$ 250,000\",באמצעות וחילוץ איתור חיפוש והצלה חילוץ הראל,5 פרק\n,\"$ 150,000\",ג' צד כלפי חבות,6 פרק"
+}

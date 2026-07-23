@@ -1,0 +1,27 @@
+{
+  "id": "pdf:travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-אנגלית-first-class.pdf#121",
+  "source": "llm",
+  "description": {
+    "title": "שברים כתוצאה מתאונה בחו״ל",
+    "summary": "This table details insurance benefits for fractures sustained abroad due to accidents, specifying the percentage of the insurance sum paid based on the fractured limb. It applies to insured individuals up to age 70.",
+    "embed_passage": "פוליסת ביטוח נסיעות לחול First Class כוללת כיסוי לשברים כתוצאה מתאונה בחו״ל. גובה הפיצוי משתנה בהתאם לאיבר שנשבר, כאחוז מסכום הביטוח, עד למקסימום של $1,000. הכיסוי מיועד למבוטחים בגילאי 24 עד 70.",
+    "row_axis": "fractured limb",
+    "column_axis": "percentage of insurance sum",
+    "units": [
+      "% of insurance sum",
+      "$"
+    ],
+    "notable_values": [
+      "maximum insurance amount: $1,000",
+      "age limit: 70",
+      "driver age: 24-75"
+    ],
+    "product_hints": [
+      "ביטוח נסיעות לחול First Class",
+      "First Class"
+    ]
+  },
+  "sketch": "25.2.3.1. Fracture from an accident abroad:\nIn  the  event of an accident abroad, which within three months of the date of occurrence caused a fracture to the insured in the organs listed in the table only, the company will pay the insured insurance benefits at the rate specified in  the  table  below in relation to the organ in which the fracture occurred, out of a maximum insurance amount of $1,000 to cover fractures due to an accident as stated in the table of liability limits For the avoidance of doubt, it is clarified that you will not be entitled to receive insurance benefits for fractures that do not originate in an accident, including the following fractures:\n0,1\nThe limb in which the accidental fracture occurred:,% of insurance sum\n…\n■ Pathological fractures - due to a disease process located under the bone such as a tumor, cyst, infection, etc.\n■ Stress  fractures  and/or  walking  fractures - due  to repetitive processes of compression and/or tension.\n■ Insufficiency fractures - the thinning of the bone and a decrease in its mechanical strength due to diseases such as calcium leakage, rickets, a defect in the process of creating and building the bone.\n■ A self-inflicted fracture",
+  "embed_text": "פוליסת ביטוח נסיעות לחול First Class כוללת כיסוי לשברים כתוצאה מתאונה בחו״ל. גובה הפיצוי משתנה בהתאם לאיבר שנשבר, כאחוז מסכום הביטוח, עד למקסימום של $1,000. הכיסוי מיועד למבוטחים בגילאי 24 עד 70.",
+  "payload": "טבלה: שברים כתוצאה מתאונה בחו״ל\nThis table details insurance benefits for fractures sustained abroad due to accidents, specifying the percentage of the insurance sum paid based on the fractured limb. It applies to insured individuals up to age 70.\nממדים: fractured limb, percentage of insurance sum\n\n25.2.3.1. Fracture from an accident abroad:\nIn  the  event of an accident abroad, which within three months of the date of occurrence caused a fracture to the insured in the organs listed in the table only, the company will pay the insured insurance benefits at the rate specified in  the  table  below in relation to the organ in which the fracture occurred, out of a maximum insurance amount of $1,000 to cover fractures due to an accident as stated in the table of liability limits For the avoidance of doubt, it is clarified that you will not be entitled to receive insurance benefits for fractures that do not originate in an accident, including the following fractures:\n0,1\nThe limb in which the accidental fracture occurred:,% of insurance sum\nVertebra - a vertebral body (except the coccyx ),100%\nPelvis,100%\nSkull,35%\nChest,35%\nShoulder,35%\nHand,35%\nLeg,35%\nVertebra - vertebral arch (except the coccyx ),35%\nWrist,10%\nAnkle,10%\nTail bone,10\nHand,3%\nFoot and one or more fingers,3%\nNose,3%\n■ Pathological fractures - due to a disease process located under the bone such as a tumor, cyst, infection, etc.\n■ Stress  fractures  and/or  walking  fractures - due  to repetitive processes of compression and/or tension.\n■ Insufficiency fractures - the thinning of the bone and a decrease in its mechanical strength due to diseases such as calcium leakage, rickets, a defect in the process of creating and building the bone.\n■ A self-inflicted fracture"
+}

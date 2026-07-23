@@ -1,0 +1,24 @@
+{
+  "id": "pdf:business/files/תנאי-פוליסת-ביטוח-מכלול-למשרד-מהדורת-ינואר-2024-באנגלית.pdf#142",
+  "source": "llm",
+  "description": {
+    "title": "מכלול - הגבלת אחריות",
+    "summary": "This table details how the insurer’s liability limits are adjusted following a claim or damage, particularly when a compromise is proposed and rejected. It outlines the maximum indemnification the insurer will provide, tying it to the potential compromise amount.",
+    "embed_passage": "פוליסת מכלול מגדירה את גובה הפיצוי המקסימלי שניתן לקבל במקרה של תביעה, בהתאם לסכום ההסדר המוצע. במקרה של דחיית הסדר, סכום הפיצוי לא יעלה על הסכום שהיה משולם בהסדר. לדוגמה, אם ההסדר המוצע היה 10000 ש״ח, זה יהיה הגבול העליון של הפיצוי גם אם התביעה נמשכת.",
+    "row_axis": "Scenarios related to claim compromise and litigation",
+    "column_axis": "Insurer's liability and indemnification limits",
+    "units": [
+      "₪"
+    ],
+    "notable_values": [
+      "compromise: 10000",
+      "expenses: reasonable"
+    ],
+    "product_hints": [
+      "מכלול"
+    ]
+  },
+  "sketch": "9.28.2 In the event that the insurer proposes to the insured to conclude a claim, or series of claims, or any matter whatsoever which may be claimed according to this policy by way of compromise, and the insured objects to the compromise, the insurer's limit of liability shall be limited to the inclusive sum which the insurer would have paid had the insured not refused to settle the claim, the series of claims or the matter, and this, even if the proceedings continue. The insurer shall not be obliged to bear more than the sum it could have paid in the framework of the compromise.\nIn the event that the insured continues with the proceedings which result in:\n9.28.2.1 Striking out/ rejection of the claim and/or full and final cancellation of any possibility of same being filed - the insurer shall indemnify the insured for the reasonable expenses incurred by the insured for the purpose of the proceedings, aforementioned, however, in no instance no\nmore than the sum which the insurer would have paid in the framework of the compromise.\n9.28.2.2 In the event that the compensation sum is reduced, and as a result thereof the insured bears reasonable defense expenses - the insurer shall indemnify the insured in accordance with the compensation sum, after any sum of sums which have already been paid as insurance benefits under the policy are deducted.\nIn addition, the insurer shall provide indemnification in regard to reasonable defense expenses, however, in no instance no more than the inclusive sum which the insurer would have paid in the framework of the compromise.",
+  "embed_text": "פוליסת מכלול מגדירה את גובה הפיצוי המקסימלי שניתן לקבל במקרה של תביעה, בהתאם לסכום ההסדר המוצע. במקרה של דחיית הסדר, סכום הפיצוי לא יעלה על הסכום שהיה משולם בהסדר. לדוגמה, אם ההסדר המוצע היה 10000 ש״ח, זה יהיה הגבול העליון של הפיצוי גם אם התביעה נמשכת.",
+  "payload": "טבלה: מכלול - הגבלת אחריות\nThis table details how the insurer’s liability limits are adjusted following a claim or damage, particularly when a compromise is proposed and rejected. It outlines the maximum indemnification the insurer will provide, tying it to the potential compromise amount.\nממדים: Scenarios related to claim compromise and litigation, Insurer's liability and indemnification limits\n\n9.28.2 In the event that the insurer proposes to the insured to conclude a claim, or series of claims, or any matter whatsoever which may be claimed according to this policy by way of compromise, and the insured objects to the compromise, the insurer's limit of liability shall be limited to the inclusive sum which the insurer would have paid had the insured not refused to settle the claim, the series of claims or the matter, and this, even if the proceedings continue. The insurer shall not be obliged to bear more than the sum it could have paid in the framework of the compromise.\nIn the event that the insured continues with the proceedings which result in:\n9.28.2.1 Striking out/ rejection of the claim and/or full and final cancellation of any possibility of same being filed - the insurer shall indemnify the insured for the reasonable expenses incurred by the insured for the purpose of the proceedings, aforementioned, however, in no instance no\nmore than the sum which the insurer would have paid in the framework of the compromise.\n9.28.2.2 In the event that the compensation sum is reduced, and as a result thereof the insured bears reasonable defense expenses - the insurer shall indemnify the insured in accordance with the compensation sum, after any sum of sums which have already been paid as insurance benefits under the policy are deducted.\nIn addition, the insurer shall provide indemnification in regard to reasonable defense expenses, however, in no instance no more than the inclusive sum which the insurer would have paid in the framework of the compromise."
+}

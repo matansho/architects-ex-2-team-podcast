@@ -1,0 +1,27 @@
+{
+  "id": "pdf:travel/files/תעריפון-דרכון-first-class.pdf#3",
+  "source": "llm",
+  "description": {
+    "title": "תעריפון דרכון First Class",
+    "summary": "This table shows the insurance premiums for 'דרכון First Class' travel insurance based on the duration of coverage and the insured's age. You can look up the daily rate for different age groups and trip lengths.",
+    "embed_passage": "ביטוח הנסיעות 'דרכון First Class' מציע כיסוי בסיסי, כולל חבות צד שלישי ואיתור וחילוץ. דמי הביטוח משתנים בהתאם לגיל המבוטח ומשך הביטוח, למשל $3.70 ליום עבור גילאים 0-50 למשך 365 יום, או $21.20 ליום עבור גילאים 81-85 למשך 30 יום.",
+    "row_axis": "Age range of the insured (גיל המובטח)",
+    "column_axis": "Duration of insurance (תקופה)",
+    "units": [
+      "$ / יום"
+    ],
+    "notable_values": [
+      "Duration: 365 יום",
+      "Age 0-50: $3.70",
+      "Age 51-60: $3.70",
+      "Duration: 30 יום",
+      "Age 81-85: $21.20"
+    ],
+    "product_hints": [
+      "דרכון First Class"
+    ]
+  },
+  "sketch": "ואילך 21פוליסה בסיסית - דמי ביטוח החל מהיום ה\nמרבית תקופה,\"ליום: הביטוח דמי ,' ג צד כלפי חבות בסיס, וחילוץ* איתור חיפוש\",המובטח גיל\nיום 365,$3.70,0-50\nיום 180,$3.70,51-60\n…\nיום 30,$21.20,81-85\nיום 30,$32.50,86-95\nליום וכיסוי חבות צד שלישי ניתן כהטבה ללא עלות. ניתן לבקש להסיר כיסויים אלה. $  0.20 *המחיר כולל כיסוי לאיתור וחילוץ בסך של\nהחברה שומרת לעצמה את הזכות לעדכן מעת לעת את היעדים אליהם לא ניתן לרכוש ביטוח נסיעות לחו\"ל.",
+  "embed_text": "ביטוח הנסיעות 'דרכון First Class' מציע כיסוי בסיסי, כולל חבות צד שלישי ואיתור וחילוץ. דמי הביטוח משתנים בהתאם לגיל המבוטח ומשך הביטוח, למשל $3.70 ליום עבור גילאים 0-50 למשך 365 יום, או $21.20 ליום עבור גילאים 81-85 למשך 30 יום.",
+  "payload": "טבלה: תעריפון דרכון First Class\nThis table shows the insurance premiums for 'דרכון First Class' travel insurance based on the duration of coverage and the insured's age. You can look up the daily rate for different age groups and trip lengths.\nממדים: Age range of the insured (גיל המובטח), Duration of insurance (תקופה)\n\nואילך 21פוליסה בסיסית - דמי ביטוח החל מהיום ה\nמרבית תקופה,\"ליום: הביטוח דמי ,' ג צד כלפי חבות בסיס, וחילוץ* איתור חיפוש\",המובטח גיל\nיום 365,$3.70,0-50\nיום 180,$3.70,51-60\nיום 120,$6.80,61-65\nיום 120,$9.70,66-70\nיום 120,$11.60,71-75\nיום 60,$21.20,76-80\nיום 30,$21.20,81-85\nיום 30,$32.50,86-95\nליום וכיסוי חבות צד שלישי ניתן כהטבה ללא עלות. ניתן לבקש להסיר כיסויים אלה. $  0.20 *המחיר כולל כיסוי לאיתור וחילוץ בסך של\nהחברה שומרת לעצמה את הזכות לעדכן מעת לעת את היעדים אליהם לא ניתן לרכוש ביטוח נסיעות לחו\"ל."
+}

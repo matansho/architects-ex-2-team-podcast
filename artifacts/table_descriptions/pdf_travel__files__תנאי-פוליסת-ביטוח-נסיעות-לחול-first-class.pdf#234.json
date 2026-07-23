@@ -1,0 +1,26 @@
+{
+  "id": "pdf:travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-first-class.pdf#234",
+  "source": "llm",
+  "description": {
+    "title": "נכות מתאונה",
+    "summary": "This table details insurance payouts for disabilities resulting from accidents abroad under the First Class travel insurance policy. It looks up compensation based on the degree of disability and the total insurance amount.",
+    "embed_passage": "פוליסת ביטוח הנסיעות First Class מספקת פיצוי במקרה של נכות כתוצאה מתאונה בחו״ל. גובה הפיצוי תלוי באחוז הנכות שנקבע על ידי רופא מומחה, ביחס לסכום הביטוח המלא. לדוגמה, נכות מוחלטת של הרגל עשויה לזכות את המבוטח ב-$16,000, אם סכום הביטוח המלא הוא $40,000.",
+    "row_axis": "degree of disability (e.g., partial, total)",
+    "column_axis": "insurance payout calculation",
+    "units": [
+      "$"
+    ],
+    "notable_values": [
+      "insurance amount: $40,000",
+      "disability percentage: 40%",
+      "payout for 40% disability: $16,000"
+    ],
+    "product_hints": [
+      "First Class",
+      "ביטוח נסיעות"
+    ]
+  },
+  "sketch": "כאמור 11 נקבעה למבוטח על ידי רופא מומחה על פי תקנה דוגמא: , וסכום הביטוח המירבי 40% לעיל, נכות מוחלטת של הרגל בגובה .$  40,000 הנקוב בטבלת גבולות האחריות לנכות מתאונה הנו 40% X $  40,000= $  16,000 : תגמולי הביטוח יחושבו במקרה זה כך\n. היתה למבוטח עילה לתביעה עקב קרות מקרה הביטוח, גם מהמוסד 25.2.2.3 לביטוח לאומי - אגף נפגעי עבודה עקב קרות מקרה הביטוח, תחייב הקביעה של המוסד לביטוח לאומי לגבי שיעור נכותו הרפואית של . המבוטח הנובעת ממקרה הביטוח גם את הצדדים לפוליסה זו יודגש כי, קביעת המוסד לביטוח לאומי אגף נפגעי עבודה, תגבר , הן על החלטת הרופא התעסוקתי או רופא מומחה בתחום הפגיעה בין אם תטיב עם המבוטח ובין אם לאו.",
+  "embed_text": "פוליסת ביטוח הנסיעות First Class מספקת פיצוי במקרה של נכות כתוצאה מתאונה בחו״ל. גובה הפיצוי תלוי באחוז הנכות שנקבע על ידי רופא מומחה, ביחס לסכום הביטוח המלא. לדוגמה, נכות מוחלטת של הרגל עשויה לזכות את המבוטח ב-$16,000, אם סכום הביטוח המלא הוא $40,000.",
+  "payload": "טבלה: נכות מתאונה\nThis table details insurance payouts for disabilities resulting from accidents abroad under the First Class travel insurance policy. It looks up compensation based on the degree of disability and the total insurance amount.\nממדים: degree of disability (e.g., partial, total), insurance payout calculation\n\nכאמור 11 נקבעה למבוטח על ידי רופא מומחה על פי תקנה דוגמא: , וסכום הביטוח המירבי 40% לעיל, נכות מוחלטת של הרגל בגובה .$  40,000 הנקוב בטבלת גבולות האחריות לנכות מתאונה הנו 40% X $  40,000= $  16,000 : תגמולי הביטוח יחושבו במקרה זה כך\n. היתה למבוטח עילה לתביעה עקב קרות מקרה הביטוח, גם מהמוסד 25.2.2.3 לביטוח לאומי - אגף נפגעי עבודה עקב קרות מקרה הביטוח, תחייב הקביעה של המוסד לביטוח לאומי לגבי שיעור נכותו הרפואית של . המבוטח הנובעת ממקרה הביטוח גם את הצדדים לפוליסה זו יודגש כי, קביעת המוסד לביטוח לאומי אגף נפגעי עבודה, תגבר , הן על החלטת הרופא התעסוקתי או רופא מומחה בתחום הפגיעה בין אם תטיב עם המבוטח ובין אם לאו."
+}

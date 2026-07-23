@@ -1,0 +1,25 @@
+{
+  "id": "pdf:dental/files/טופס-כיסוי-הוצאות-רפואת-שיניים-באנגלית-dental-claim-form.pdf#6",
+  "source": "llm",
+  "description": {
+    "title": "רפואת שיניים - הליכים",
+    "summary": "This table lists dental procedures and whether X-rays are required. It is used to look up procedure details based on a procedure code.",
+    "embed_passage": "טופס כיסוי הוצאות רפואת שיניים כולל רשימת הליכים רפואיים כגון D9110000, D1510000 ו-D2930000. עבור כל הליך מצוין האם נדרשת צילום רנטגן (X). הטבלה מסייעת לקבוע את הצורך בצילומי רנטגן עבור כל טיפול.",
+    "row_axis": "procedure code",
+    "column_axis": "X-ray requirement",
+    "units": [],
+    "notable_values": [
+      "procedure code: D9110000",
+      "procedure code: D1510000",
+      "procedure code: D2930000",
+      "X-ray required: X"
+    ],
+    "product_hints": [
+      "רפואת שיניים",
+      "טופס כיסוי הוצאות רפואת שיניים"
+    ]
+  },
+  "sketch": "D9110000,X,\n,Permanent space maintainer - insertion,D1510000,X,\n,Prefabricated stainless steel crown - primary tooth,D2930000,X,",
+  "embed_text": "טופס כיסוי הוצאות רפואת שיניים כולל רשימת הליכים רפואיים כגון D9110000, D1510000 ו-D2930000. עבור כל הליך מצוין האם נדרשת צילום רנטגן (X). הטבלה מסייעת לקבוע את הצורך בצילומי רנטגן עבור כל טיפול.",
+  "payload": "טבלה: רפואת שיניים - הליכים\nThis table lists dental procedures and whether X-rays are required. It is used to look up procedure details based on a procedure code.\nממדים: procedure code, X-ray requirement\n\nD9110000,X,\n,Permanent space maintainer - insertion,D1510000,X,\n,Prefabricated stainless steel crown - primary tooth,D2930000,X,"
+}

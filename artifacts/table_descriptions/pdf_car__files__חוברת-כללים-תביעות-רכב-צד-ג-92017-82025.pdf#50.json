@@ -1,0 +1,24 @@
+{
+  "id": "pdf:car/files/חוברת-כללים-תביעות-רכב-צד-ג-92017-82025.pdf#50",
+  "source": "llm",
+  "description": {
+    "title": "פרטי אירוע רכב",
+    "summary": "This table captures details of a car accident event. It is used to record information about the event itself, involved parties, and vehicles.",
+    "embed_passage": "טופס זה מיועד לרישום פרטי אירוע רכב, כגון תאריך האירוע, שעת האירוע ומקום האירוע. נרשמים גם פרטי הנהגים המעורבים, שמות העדים ומספרי רישוי של הרכבים המעורבים. לדוגמה, ניתן לרשום את תאריך האירוע כ׳1׳ ואת מספר רישוי הרכב הראשון כ׳2׳.",
+    "row_axis": "Each row represents a specific accident event.",
+    "column_axis": "Columns represent details of the event: date, time, location, witnesses, involved vehicles, and driver information.",
+    "units": [],
+    "notable_values": [
+      "רישוי מס' 1",
+      "רישוי מס' 2",
+      "עדים היו האם: לא ",
+      "רכבים מעורבים היו האם: כן "
+    ],
+    "product_hints": [
+      "רכב צד ג'"
+    ]
+  },
+  "sketch": "ב,,,פרטי,\nהאירוע פרטי האירוע תאריך,לאירוע? עדים היו האם כן  לא , לא  נוספים? רכבים מעורבים היו האם,1 רישוי מס',2 רישוי מס'\nהאירוע שעת,העד שם, לא  נוספים? רכבים מעורבים היו האם,הנהג שם,הנהג שם\nהאירוע מקום,,,,\n,טלפון,,טלפון,טלפון",
+  "embed_text": "טופס זה מיועד לרישום פרטי אירוע רכב, כגון תאריך האירוע, שעת האירוע ומקום האירוע. נרשמים גם פרטי הנהגים המעורבים, שמות העדים ומספרי רישוי של הרכבים המעורבים. לדוגמה, ניתן לרשום את תאריך האירוע כ׳1׳ ואת מספר רישוי הרכב הראשון כ׳2׳.",
+  "payload": "טבלה: פרטי אירוע רכב\nThis table captures details of a car accident event. It is used to record information about the event itself, involved parties, and vehicles.\nממדים: Each row represents a specific accident event., Columns represent details of the event: date, time, location, witnesses, involved vehicles, and driver information.\n\nב,,,פרטי,\nהאירוע פרטי האירוע תאריך,לאירוע? עדים היו האם כן  לא , לא  נוספים? רכבים מעורבים היו האם,1 רישוי מס',2 רישוי מס'\nהאירוע שעת,העד שם, לא  נוספים? רכבים מעורבים היו האם,הנהג שם,הנהג שם\nהאירוע מקום,,,,\n,טלפון,,טלפון,טלפון"
+}

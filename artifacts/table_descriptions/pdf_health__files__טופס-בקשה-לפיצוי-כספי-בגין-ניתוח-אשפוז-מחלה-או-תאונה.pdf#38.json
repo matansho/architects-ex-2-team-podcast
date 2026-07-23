@@ -1,0 +1,29 @@
+{
+  "id": "pdf:health/files/טופס-בקשה-לפיצוי-כספי-בגין-ניתוח-אשפוז-מחלה-או-תאונה.pdf#38",
+  "source": "llm",
+  "description": {
+    "title": "בקשת פיצוי רפואי",
+    "summary": "This table is for submitting a claim for medical compensation following an illness, accident, or hospitalization. It details the patient’s medical history, complaints, diagnoses, and whether an accident was involved.",
+    "embed_passage": "טופס זה משמש לבקשת פיצוי כספי בגין ניתוח, אשפוז, מחלה או תאונה. הטופס מתעד את תלונות המבוטח, האבחנה הנוכחית, ותאריך התחלת הטיפול. לדוגמה, המבוטח החל מתאריך מסוים וסובל מליקויים ומחלות.",
+    "row_axis": "Individual claim / patient",
+    "column_axis": "Medical history details (dates of symptoms, diagnoses, accident information)",
+    "units": [],
+    "notable_values": [
+      "תאריך התחלת התלונות: unknown",
+      "סוג התאונה: תאונת עבודה",
+      "אבחנה נוכחית: unknown",
+      "טיפולים: unknown",
+      "ליקויים ומחלות: unknown"
+    ],
+    "product_hints": [
+      "פיצוי כספי",
+      "אשפוז",
+      "ניתוח",
+      "מחלה",
+      "תאונה"
+    ]
+  },
+  "sketch": ",,במבוטח הטיפול ג,במבוטח הטיפול ג\nמתאריך,המבוטח סובל מהם וליקויים מחלות,המבוטח החל מתאריך,\n,בטיפולי,המבוטח החל מתאריך,\n,חודש שנה,המבוטח החל מתאריך,\n…\nהנוכחית האבחנה,הנוכחית האבחנה,הנוכחית האבחנה\n- בתאריך התחילו הנוכחית למחלה התלונות/הסימנים,- מתאריך החל זו לאבחנה בנוגע בטיפולי המבוטח,- מתאריך החל זו לאבחנה בנוגע בטיפולי המבוטח\nדרכים תאונת עבודה תאונת,דרכים תאונת עבודה תאונת,\"של: תוצאה הן הנוכחית והתלונה האבחנה האם פרט כן, אם\"\n:",
+  "embed_text": "טופס זה משמש לבקשת פיצוי כספי בגין ניתוח, אשפוז, מחלה או תאונה. הטופס מתעד את תלונות המבוטח, האבחנה הנוכחית, ותאריך התחלת הטיפול. לדוגמה, המבוטח החל מתאריך מסוים וסובל מליקויים ומחלות.",
+  "payload": "טבלה: בקשת פיצוי רפואי\nThis table is for submitting a claim for medical compensation following an illness, accident, or hospitalization. It details the patient’s medical history, complaints, diagnoses, and whether an accident was involved.\nממדים: Individual claim / patient, Medical history details (dates of symptoms, diagnoses, accident information)\n\n,,במבוטח הטיפול ג,במבוטח הטיפול ג\nמתאריך,המבוטח סובל מהם וליקויים מחלות,המבוטח החל מתאריך,\n,בטיפולי,המבוטח החל מתאריך,\n,חודש שנה,המבוטח החל מתאריך,\n,,המבוטח החל מתאריך,\n,,המבוטח החל מתאריך,\n,,המבוטח החל מתאריך,\n,,המבוטח החל מתאריך,\n,,המבוטח החל מתאריך,\n,,האבחנה ד\nהנוכחית האבחנה,הנוכחית האבחנה,הנוכחית האבחנה\n- בתאריך התחילו הנוכחית למחלה התלונות/הסימנים,- מתאריך החל זו לאבחנה בנוגע בטיפולי המבוטח,- מתאריך החל זו לאבחנה בנוגע בטיפולי המבוטח\nדרכים תאונת עבודה תאונת,דרכים תאונת עבודה תאונת,\"של: תוצאה הן הנוכחית והתלונה האבחנה האם פרט כן, אם\"\n:"
+}

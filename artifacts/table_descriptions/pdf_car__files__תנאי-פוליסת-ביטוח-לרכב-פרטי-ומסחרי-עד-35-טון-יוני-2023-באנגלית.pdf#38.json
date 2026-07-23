@@ -1,0 +1,24 @@
+{
+  "id": "pdf:car/files/תנאי-פוליסת-ביטוח-לרכב-פרטי-ומסחרי-עד-35-טון-יוני-2023-באנגלית.pdf#38",
+  "source": "llm",
+  "description": {
+    "title": "דוח תביעות",
+    "summary": "This table describes the claims report provided by the insurer to the policy owner. It details when the report is sent and what information it contains regarding claims filed during the policy period.",
+    "embed_passage": "פוליסת ביטוח לרכב פרטי ומסחרי מספקת דוח תביעות המפרט את כל התביעות שהוגשו עד למועד מסוים. הדוח נשלח חודש לפני סיום תקופת הביטוח, או מיד עם סיומה במקרה של סיום בלתי צפוי. הדוח יפרט תביעות שהוגשו בשלוש השנים האחרונות או בתקופת הביטוח, המוקדמת מביניהן.",
+    "row_axis": "Report conditions / details",
+    "column_axis": "Report timing / content",
+    "units": [],
+    "notable_values": [
+      "report timing: One month prior to end of insurance period",
+      "report content: all claims filed until that time",
+      "claims period: 3 years",
+      "report update: immediately upon filing of claim"
+    ],
+    "product_hints": [
+      "פוליסת ביטוח לרכב פרטי ומסחרי"
+    ]
+  },
+  "sketch": "21. Claims report\n21.1 One month prior to the end of the insurance period, or immediately upon the end thereof -if same ends unexpectedly -the insurer shall send a claims report to the policy owner, detailing all the claims filed until that time, if any, (hereinafter the 'claims report').\n21.2 In the claims report, the insurer shall provide details of the driver involved in the accident in regard to any claim filed during the 3 years preceding the date on which the report is sent, or claims filed during the period when the policy owner was insured by the insurer - the shorter of the two.\n21.3 In the event that a claim is filed during the month prior to the end of the insurance period, the insurer shall send a claims report update immediately upon the filing of the claim.",
+  "embed_text": "פוליסת ביטוח לרכב פרטי ומסחרי מספקת דוח תביעות המפרט את כל התביעות שהוגשו עד למועד מסוים. הדוח נשלח חודש לפני סיום תקופת הביטוח, או מיד עם סיומה במקרה של סיום בלתי צפוי. הדוח יפרט תביעות שהוגשו בשלוש השנים האחרונות או בתקופת הביטוח, המוקדמת מביניהן.",
+  "payload": "טבלה: דוח תביעות\nThis table describes the claims report provided by the insurer to the policy owner. It details when the report is sent and what information it contains regarding claims filed during the policy period.\nממדים: Report conditions / details, Report timing / content\n\n21. Claims report\n21.1 One month prior to the end of the insurance period, or immediately upon the end thereof -if same ends unexpectedly -the insurer shall send a claims report to the policy owner, detailing all the claims filed until that time, if any, (hereinafter the 'claims report').\n21.2 In the claims report, the insurer shall provide details of the driver involved in the accident in regard to any claim filed during the 3 years preceding the date on which the report is sent, or claims filed during the period when the policy owner was insured by the insurer - the shorter of the two.\n21.3 In the event that a claim is filed during the month prior to the end of the insurance period, the insurer shall send a claims report update immediately upon the filing of the claim."
+}

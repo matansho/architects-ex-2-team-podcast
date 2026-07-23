@@ -1,0 +1,25 @@
+{
+  "id": "pdf:health/files/62025-טופס-הצעה-לביטוח-רפואי-ביטוח-בריאות.pdf#63",
+  "source": "llm",
+  "description": {
+    "title": "הרשאה לחיוב חשבון",
+    "summary": "This table outlines the authorization for direct debit from a bank account. It specifies collection dates and allows for setting limitations on the charged amounts.",
+    "embed_passage": "טופס זה מתייחס להרשאה לחיוב חשבון, המאפשרת גביית תשלומים במועדים שונים, כגון 20-25, 10-15 או 1. ניתן לציין מועד גבייה מועדף, או לבחור בהרשאה כללית ללא הגבלות.",
+    "row_axis": "Bank account authorization details",
+    "column_axis": "Collection date options and related instructions",
+    "units": [],
+    "notable_values": [
+      "קוד מסלקה: 8",
+      "מועד גבייה: 20-25",
+      "מועד גבייה: 10-15",
+      "מועד גבייה: 1",
+      "קוד המוסד: 6"
+    ],
+    "product_hints": [
+      "הרשאה לחיוב חשבון"
+    ]
+  },
+  "sketch": "8\n0\n6\nקוד מסלקה\n…\n20-25 / 10-15 / 1\t-5 : מועד גבייה □\nלתשומת לבך,\nאי סימון אחת מהחלופות המוצגות לעיל, משמעה בחירה בהרשאה כללית, שאינה כוללת הגבלות.\nאם יישלחו על ידי המוטב חיובים שאינם עומדים בהגבלות שקבע הלקוח, הם יוחזרו על ידי הבנק, על כל המשמעויות הכרוכות בכך.",
+  "embed_text": "טופס זה מתייחס להרשאה לחיוב חשבון, המאפשרת גביית תשלומים במועדים שונים, כגון 20-25, 10-15 או 1. ניתן לציין מועד גבייה מועדף, או לבחור בהרשאה כללית ללא הגבלות.",
+  "payload": "טבלה: הרשאה לחיוב חשבון\nThis table outlines the authorization for direct debit from a bank account. It specifies collection dates and allows for setting limitations on the charged amounts.\nממדים: Bank account authorization details, Collection date options and related instructions\n\n8\n0\n6\nקוד מסלקה\nבנק\nסניף\nסוג חשבון\nמספר חשבון בנק\n- הרשאה כללית, שאינה כוללת הגבלות. או □\nהרשאה הכוללת לפחות אחת מההגבלות הבאות: □\n□ מועד פקיעת תוקף ההרשאה - ביום\nתקרת סכום החיוב: .₪ □\n/\n/\n20-25 / 10-15 / 1\t-5 : מועד גבייה □\nלתשומת לבך,\nאי סימון אחת מהחלופות המוצגות לעיל, משמעה בחירה בהרשאה כללית, שאינה כוללת הגבלות.\nאם יישלחו על ידי המוטב חיובים שאינם עומדים בהגבלות שקבע הלקוח, הם יוחזרו על ידי הבנק, על כל המשמעויות הכרוכות בכך."
+}

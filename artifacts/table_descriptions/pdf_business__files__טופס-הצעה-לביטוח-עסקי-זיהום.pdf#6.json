@@ -1,0 +1,25 @@
+{
+  "id": "pdf:business/files/טופס-הצעה-לביטוח-עסקי-זיהום.pdf#6",
+  "source": "llm",
+  "description": {
+    "title": "טופס הצעה לביטוח עסקי זיהום",
+    "summary": "This table is a business insurance proposal form for pollution coverage. It collects information about the Named Insured and potential environmental concerns related to the property.",
+    "embed_passage": "טופס ההצעה לביטוח עסקי זיהום אוסף מידע על המבוטח, כולל שאלות לגבי מודעות לזיהום באתר או בסביבתו. השאלות בודקות האם המבוטח מודע לנזקים למשאבי טבע או מינים בסכנת הכחדה, והאם הוא משתמש בקבלן חיצוני. תשובות 'כן' או 'לא' ניתנות לשאלות אלו.",
+    "row_axis": "Questions regarding the Named Insured's environmental risk profile",
+    "column_axis": "Response (Yes/No/Explanation)",
+    "units": [],
+    "notable_values": [
+      "Deductible: $10,000",
+      "Deductible: $25,000",
+      "Deductible: $50,000",
+      "Deductible: $100,000",
+      "Deductible: $1,000,000"
+    ],
+    "product_hints": [
+      "ביטוח עסקי זיהום"
+    ]
+  },
+  "sketch": "E-mail address\nInternet website address\nNamed Insured is a:\n Corporation\n…\nIs  the  Named  Insured  aware  of  any  contamination  on  the  property(ies),  or  on  any  of  the immediately adjacent properties which may impact the insured location?  Yes  No If \"Yes\", attach detailed explanation.\nIs  the  Named  Insured  aware  of  any  natural  resource  damage,  assessments  or  any  threat  to endangered species, protective habitat or other similar resources/species  Yes  No\nDoes the Named Insured subcontract with any third party vendor for any aspect of its business, including, but not limited to in any advisory capacity?  Yes  No If yes, please attach detailed explanation including, but not limited to, identification of particular aspects that are subcontracted.\nIs  the  Named  Insured  the  successor  in  interest  to  a  bankrupt  entity?  If  yes,  please  attach  a detailed explanation including, but not limited to, the name of the precedessor and the particular type of bankruptcy.",
+  "embed_text": "טופס ההצעה לביטוח עסקי זיהום אוסף מידע על המבוטח, כולל שאלות לגבי מודעות לזיהום באתר או בסביבתו. השאלות בודקות האם המבוטח מודע לנזקים למשאבי טבע או מינים בסכנת הכחדה, והאם הוא משתמש בקבלן חיצוני. תשובות 'כן' או 'לא' ניתנות לשאלות אלו.",
+  "payload": "טבלה: טופס הצעה לביטוח עסקי זיהום\nThis table is a business insurance proposal form for pollution coverage. It collects information about the Named Insured and potential environmental concerns related to the property.\nממדים: Questions regarding the Named Insured's environmental risk profile, Response (Yes/No/Explanation)\n\nE-mail address\nInternet website address\nNamed Insured is a:\n Corporation\n Partnership\n Joint Venture\n Individual\n LLC\n Other\nPlease attach a copy of the entity's most recent organizational chart or a diagram of the corporate structure\nDo you anticipate utilizing a premium finance company for the policy premium?\n Yes\n No\nProposed effective date of coverage\nDuring the last tree(3) years has any insurance been declined or canceled?\n Yes\n No\nIf \"Yes\", provide details:\nPlease provide a list of environmental insurance policies for the past three (3) years relevant to the  locations  for  which  this  coverage  is  being  sought.  Attached  list  should  specifically  list  the dates of issuance, identification of the carrier, applicable retroactive dates (if any), and limits of liability.\nWhat is the property interest of the Named Insured\n Owner  Tenant  Lender  Partner  Other (please specify)\nIs the Named insured also the occupant of the locations(s)?\n Yes \nNo\nIs  the  Named  Insured  aware  of  any  contamination  on  the  property(ies),  or  on  any  of  the immediately adjacent properties which may impact the insured location?  Yes  No If \"Yes\", attach detailed explanation.\nIs  the  Named  Insured  aware  of  any  natural  resource  damage,  assessments  or  any  threat  to endangered species, protective habitat or other similar resources/species  Yes  No\nDoes the Named Insured subcontract with any third party vendor for any aspect of its business, including, but not limited to in any advisory capacity?  Yes  No If yes, please attach detailed explanation including, but not limited to, identification of particular aspects that are subcontracted.\nIs  the  Named  Insured  the  successor  in  interest  to  a  bankrupt  entity?  If  yes,  please  attach  a detailed explanation including, but not limited to, the name of the precedessor and the particular type of bankruptcy."
+}

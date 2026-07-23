@@ -1,0 +1,25 @@
+{
+  "id": "pdf:business/files/פוליסת-מכלול-לחבר-מושב-מהדורת-ינואר-2023.pdf#145",
+  "source": "llm",
+  "description": {
+    "title": "פוליסת מכלול - חבות המבוטח",
+    "summary": "This table details the liabilities of the insured under the 'Makhol' policy. It specifies exclusions to coverage, particularly regarding liability to employees, contractors, and family members.",
+    "embed_passage": "פוליסת מכלול מגדירה את חבות המבוטח כלפי עובדים, קבלנים ובני משפחה. לדוגמה, הפוליסה מציינת סייגים לחבות כלפי עובדים בגין נזק שנגרם בעת עבודתם אצל המבוטח, וכן כלפי קבלן או קבלן משנה ועובדיהם. סייגים אלו חלים על מקרי ביטוח שונים.",
+    "row_axis": "types of liability exclusions",
+    "column_axis": "details of the exclusion",
+    "units": [],
+    "notable_values": [
+      "exclusion type: 2.3",
+      "liability to employees: 2.3.1",
+      "liability to contractors: 2.3.2",
+      "liability to family: 2.3.3"
+    ],
+    "product_hints": [
+      "מכלול",
+      "פוליסת מכלול"
+    ]
+  },
+  "sketch": "חבות המבוטח: .2.3\nכלפי עובדיו בגין נזק, למעט נזק רכוש, שנגרם להם בעת עבודתם אצל .2.3.1 המבוטח וגם או עבורו.\nכלפי קבלן, או קבלן משנה ועובדיהם, או כלפי כל אדם אחר הקשור עם .2.3.2 המבוטח בחוזה עבודה מפורש או מכללא.\nכלפי בן משפחה או בני משק ביתו של המבוטח. .2.3.3",
+  "embed_text": "פוליסת מכלול מגדירה את חבות המבוטח כלפי עובדים, קבלנים ובני משפחה. לדוגמה, הפוליסה מציינת סייגים לחבות כלפי עובדים בגין נזק שנגרם בעת עבודתם אצל המבוטח, וכן כלפי קבלן או קבלן משנה ועובדיהם. סייגים אלו חלים על מקרי ביטוח שונים.",
+  "payload": "טבלה: פוליסת מכלול - חבות המבוטח\nThis table details the liabilities of the insured under the 'Makhol' policy. It specifies exclusions to coverage, particularly regarding liability to employees, contractors, and family members.\nממדים: types of liability exclusions, details of the exclusion\n\nחבות המבוטח: .2.3\nכלפי עובדיו בגין נזק, למעט נזק רכוש, שנגרם להם בעת עבודתם אצל .2.3.1 המבוטח וגם או עבורו.\nכלפי קבלן, או קבלן משנה ועובדיהם, או כלפי כל אדם אחר הקשור עם .2.3.2 המבוטח בחוזה עבודה מפורש או מכללא.\nכלפי בן משפחה או בני משק ביתו של המבוטח. .2.3.3"
+}

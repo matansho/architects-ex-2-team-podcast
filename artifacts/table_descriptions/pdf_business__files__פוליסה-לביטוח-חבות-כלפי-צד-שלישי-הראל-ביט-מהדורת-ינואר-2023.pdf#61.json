@@ -1,0 +1,25 @@
+{
+  "id": "pdf:business/files/פוליסה-לביטוח-חבות-כלפי-צד-שלישי-הראל-ביט-מהדורת-ינואר-2023.pdf#61",
+  "source": "llm",
+  "description": {
+    "title": "ביטול פוליסה",
+    "summary": "This table details the conditions under which a policyholder can cancel their insurance policy with Harel, and the potential refunds they may receive. It outlines scenarios related to cancellation requests and prior commitments.",
+    "embed_passage": "פוליסת חבות כלפי צד שלישי של הראל ביט מאפשרת למבוטח לבטל את הביטוח בכל עת לפני תום התקופה, בהתאם לשיקול דעתו. במקרה של ביטול, המבוטח עשוי להיות זכאי להחזר דמי ביטוח יחסיים עבור התקופה שלאחר הביטול. לדוגמה, עבור תקופה של עד 7 ימים, יוחזר חלק מדמי הביטוח השנתיים.",
+    "row_axis": "Cancellation Scenarios/Conditions",
+    "column_axis": "Cancellation Terms/Refund Details",
+    "units": [],
+    "notable_values": [
+      "60: Notice period for cancellation by the insurer (days)",
+      "7: Days for partial refund calculation",
+      "5%: Minimum refund threshold for longer periods",
+      "0.3%: Daily refund rate after the 7th day"
+    ],
+    "product_hints": [
+      "Harel Bit",
+      "פוליסת חבות כלפי צד שלישי"
+    ]
+  },
+  "sketch": "המבוטח רשאי לבטל את הביטוח בכל עת לפני תום תקופת הביטוח, לפי .5.4.2 שיקול דעתו, ובלבד שהודעה על כך תישלח בדואר למבטח לפני התאריך בו יתבטל הביטוח.\nעל אף האמור לעיל, היה והמבוטח דרש מהמבטח לחתום על אישורי ביטוח ו/או שיעבוד בהם נכללה התחייבות של המבטח לבטל את הביטוח רק לאחר מתן הודעה מראש למקבל ההתחייבות, תבוטל הפוליסה בכפוף למתן הודעה כאמור, לאחר תום התקופה שצוינה כמועד ביטולה באותו אישור או בסעיף השיעבוד.",
+  "embed_text": "פוליסת חבות כלפי צד שלישי של הראל ביט מאפשרת למבוטח לבטל את הביטוח בכל עת לפני תום התקופה, בהתאם לשיקול דעתו. במקרה של ביטול, המבוטח עשוי להיות זכאי להחזר דמי ביטוח יחסיים עבור התקופה שלאחר הביטול. לדוגמה, עבור תקופה של עד 7 ימים, יוחזר חלק מדמי הביטוח השנתיים.",
+  "payload": "טבלה: ביטול פוליסה\nThis table details the conditions under which a policyholder can cancel their insurance policy with Harel, and the potential refunds they may receive. It outlines scenarios related to cancellation requests and prior commitments.\nממדים: Cancellation Scenarios/Conditions, Cancellation Terms/Refund Details\n\nהמבוטח רשאי לבטל את הביטוח בכל עת לפני תום תקופת הביטוח, לפי .5.4.2 שיקול דעתו, ובלבד שהודעה על כך תישלח בדואר למבטח לפני התאריך בו יתבטל הביטוח.\nעל אף האמור לעיל, היה והמבוטח דרש מהמבטח לחתום על אישורי ביטוח ו/או שיעבוד בהם נכללה התחייבות של המבטח לבטל את הביטוח רק לאחר מתן הודעה מראש למקבל ההתחייבות, תבוטל הפוליסה בכפוף למתן הודעה כאמור, לאחר תום התקופה שצוינה כמועד ביטולה באותו אישור או בסעיף השיעבוד."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "pdf:apartment/files/הודעה-על-אירוע-או-תביעת-נזק-רכוש-ביטוח-דירה.pdf#2",
+  "source": "llm",
+  "description": {
+    "title": "תביעות נזק רכוש",
+    "summary": "This table lists details of property damage claims filed with Harel insurance. It allows looking up claim information by policyholder details, event details, and estimated damage costs.",
+    "embed_passage": "ביטוח דירה של הראל מספק כיסוי לנזקים שנגרמו לרכוש. ניתן לדווח על אירוע נזק בצירוף פרטי המבוטח, תאריך האירוע, שעת האירוע, ומקום האירוע. לדוגמה, נזק משוער יכול להיות בסך 33582.8.",
+    "row_axis": "Individual claim report",
+    "column_axis": "Claim details: policyholder information, event details, damage description, and estimated costs.",
+    "units": [],
+    "notable_values": [
+      "33582.8: משוער כספי נזק",
+      "08/2022: האירוע תאריך"
+    ],
+    "product_hints": [
+      "ביטוח דירה",
+      "הראל"
+    ]
+  },
+  "sketch": "\"ח\"\"פ / ת.ז. מס'.\",המבוטח/תובע פרטי א.המבוטח שם.רחוב\nאלקטרוני דואר,בית טלפון\nהאירוע פרטי ב,האירוע פרטי ב,האירוע פרטי ב,האירוע פרטי ב\nהאירוע מקום,משוער כספי נזק,האירוע שעת,האירוע תאריך\nונסיבותיו: הנזק של מפורט תיאור,ונסיבותיו: הנזק של מפורט תיאור,ונסיבותיו: הנזק של מפורט תיאור,ונסיבותיו: הנזק של מפורט תיאור\nג",
+  "embed_text": "ביטוח דירה של הראל מספק כיסוי לנזקים שנגרמו לרכוש. ניתן לדווח על אירוע נזק בצירוף פרטי המבוטח, תאריך האירוע, שעת האירוע, ומקום האירוע. לדוגמה, נזק משוער יכול להיות בסך 33582.8.",
+  "payload": "טבלה: תביעות נזק רכוש\nThis table lists details of property damage claims filed with Harel insurance. It allows looking up claim information by policyholder details, event details, and estimated damage costs.\nממדים: Individual claim report, Claim details: policyholder information, event details, damage description, and estimated costs.\n\n\"ח\"\"פ / ת.ז. מס'.\",המבוטח/תובע פרטי א.המבוטח שם.רחוב\nאלקטרוני דואר,בית טלפון\nהאירוע פרטי ב,האירוע פרטי ב,האירוע פרטי ב,האירוע פרטי ב\nהאירוע מקום,משוער כספי נזק,האירוע שעת,האירוע תאריך\nונסיבותיו: הנזק של מפורט תיאור,ונסיבותיו: הנזק של מפורט תיאור,ונסיבותיו: הנזק של מפורט תיאור,ונסיבותיו: הנזק של מפורט תיאור\nג"
+}

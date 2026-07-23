@@ -1,0 +1,24 @@
+{
+  "id": "pdf:business/files/מכלול-למושב-ינואר-2023.pdf#156",
+  "source": "llm",
+  "description": {
+    "title": "מכלול - סייגים",
+    "summary": "This table details exclusions to insurance coverage under the 'מכלול' policy. It specifies situations where the insurer will not compensate the insured or third parties, focusing on liabilities related to employees, contractors, and family members.",
+    "embed_passage": "פוליסת 'מכלול' אינה מכסה חבות המבוטח כלפי עובדיו בגין נזק שנגרם להם בעת עבודתם, וכן אינה מכסה חבות כלפי קבלן או קבלן משנה. סייגים אלו חלים על נזקים שאינם נזקי רכוש, ומתייחסים למקרים בהם הנזק נגרם בעת עבודה עבור המבוטח.",
+    "row_axis": "exclusion category",
+    "column_axis": "details of the exclusion",
+    "units": [],
+    "notable_values": [
+      "2.3: Liability towards employees",
+      "2.3.1: Injury to employees",
+      "2.3.2: Liability towards contractors",
+      "2.3.3: Liability towards family members"
+    ],
+    "product_hints": [
+      "מכלול"
+    ]
+  },
+  "sketch": "חבות המבוטח: .2.3\nכלפי עובדיו בגין נזק, למעט נזק רכוש, שנגרם להם בעת עבודתם אצל .2.3.1 המבוטח וגם או עבורו.\nכלפי קבלן, או קבלן משנה ועובדיהם, או כלפי כל אדם אחר הקשור עם .2.3.2 המבוטח בחוזה עבודה מפורש או מכללא.\nכלפי בן משפחה או בני משק ביתו של המבוטח. .2.3.3",
+  "embed_text": "פוליסת 'מכלול' אינה מכסה חבות המבוטח כלפי עובדיו בגין נזק שנגרם להם בעת עבודתם, וכן אינה מכסה חבות כלפי קבלן או קבלן משנה. סייגים אלו חלים על נזקים שאינם נזקי רכוש, ומתייחסים למקרים בהם הנזק נגרם בעת עבודה עבור המבוטח.",
+  "payload": "טבלה: מכלול - סייגים\nThis table details exclusions to insurance coverage under the 'מכלול' policy. It specifies situations where the insurer will not compensate the insured or third parties, focusing on liabilities related to employees, contractors, and family members.\nממדים: exclusion category, details of the exclusion\n\nחבות המבוטח: .2.3\nכלפי עובדיו בגין נזק, למעט נזק רכוש, שנגרם להם בעת עבודתם אצל .2.3.1 המבוטח וגם או עבורו.\nכלפי קבלן, או קבלן משנה ועובדיהם, או כלפי כל אדם אחר הקשור עם .2.3.2 המבוטח בחוזה עבודה מפורש או מכללא.\nכלפי בן משפחה או בני משק ביתו של המבוטח. .2.3.3"
+}

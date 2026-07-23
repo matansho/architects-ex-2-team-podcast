@@ -1,0 +1,26 @@
+{
+  "id": "pdf:travel/files/תעריפון-דרכון-first-class.pdf#4",
+  "source": "llm",
+  "description": {
+    "title": "תעריפון דרכון First Class",
+    "summary": "This table details optional extensions to a basic travel insurance policy, specifically for 'First Class' plans. It allows looking up the daily cost of extensions based on age group.",
+    "embed_passage": "פוליסת 'First Class' מציעה הרחבות שונות, כגון חילוץ ואיתור חיפוש בעלות של $0.20 ליום לכל הגילאים. הרחבה נוספת היא חבות כלפי צד ג', גם היא בעלות יומית. העלות משתנה בהתאם לקבוצת הגיל.",
+    "row_axis": "Insurance extension",
+    "column_axis": "Extension details (age group, daily cost)",
+    "units": [
+      "$0.20/יום"
+    ],
+    "notable_values": [
+      "חילוץ ואיתור חיפוש: $0.20",
+      "גיל קבוצת: כל הגילאים",
+      "חבות כלפי צד ג': עלות ללא הטבה ניתן"
+    ],
+    "product_hints": [
+      "First Class",
+      "דרכון"
+    ]
+  },
+  "sketch": "הרחבות הכלולות בפוליסה הבסיסית, שניתן להסירן\nיומית עלות,גיל קבוצת,הרחבה\n$0.20,הגילאים כל,וחילוץ איתור חיפוש\nעלות ללא כהטבה ניתן,הגילאים כל,ג' צד כלפי חבות",
+  "embed_text": "פוליסת 'First Class' מציעה הרחבות שונות, כגון חילוץ ואיתור חיפוש בעלות של $0.20 ליום לכל הגילאים. הרחבה נוספת היא חבות כלפי צד ג', גם היא בעלות יומית. העלות משתנה בהתאם לקבוצת הגיל.",
+  "payload": "טבלה: תעריפון דרכון First Class\nThis table details optional extensions to a basic travel insurance policy, specifically for 'First Class' plans. It allows looking up the daily cost of extensions based on age group.\nממדים: Insurance extension, Extension details (age group, daily cost)\n\nהרחבות הכלולות בפוליסה הבסיסית, שניתן להסירן\nיומית עלות,גיל קבוצת,הרחבה\n$0.20,הגילאים כל,וחילוץ איתור חיפוש\nעלות ללא כהטבה ניתן,הגילאים כל,ג' צד כלפי חבות"
+}

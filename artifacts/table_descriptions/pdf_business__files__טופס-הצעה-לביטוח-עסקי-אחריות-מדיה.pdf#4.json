@@ -1,0 +1,25 @@
+{
+  "id": "pdf:business/files/טופס-הצעה-לביטוח-עסקי-אחריות-מדיה.pdf#4",
+  "source": "llm",
+  "description": {
+    "title": "אחריות מדיה - פרטי פרסומים",
+    "summary": "This table details publications for Media Liability insurance. It's used to assess risk based on publication details like circulation length, print volume, and legal review processes.",
+    "embed_passage": "טופס זה משמש לביטוח אחריות מדיה, ובו נרשמים פרטים על כל הפרסומים. לדוגמה, מצוין מספר הפרסומים המודפסים בשבוע, משך זמן ההפצה, והאם קיימת בדיקה משפטית לחומרים לפני פרסום. השדות כוללים גם את סוג הפרסום, כגון עיתון או כתב עת מקצועי.",
+    "row_axis": "Publication",
+    "column_axis": "Publication details (circulation, print run, legal review)",
+    "units": [],
+    "notable_values": [
+      "0,1,2,3: appears as a header row",
+      "Approximate number printed per week: a key risk factor",
+      "How long has each publication been in circulation: indicates stability",
+      "Countries in which circulated: defines geographic scope",
+      "Nature of publication: newspaper, trade journal, etc."
+    ],
+    "product_hints": [
+      "אחריות מדיה"
+    ]
+  },
+  "sketch": "Important Note:\nDetails should be given of any discontinued publications stating when last published. In the case of newspapers Specimen copy of each of such publications.\n0,1,2,3\nCountries in which circulated,How long has each publication been in circulation,Territories in which published,\"Whether you have any procedures/ systems for legally checking any material which may need to be examined prior to publication. If so, please give particulars including names of counsel/solicitors\"\nDo you require the policy to be extended to include your liability as printers in respect of material not published? If so, please state\nName of all publications,\"Nature of publication (newspaper, trade journal, etc.)\",Approximate number printed per week,How long have you been printing each publication?,Is there a formal print contract between yourself and the Customer?",
+  "embed_text": "טופס זה משמש לביטוח אחריות מדיה, ובו נרשמים פרטים על כל הפרסומים. לדוגמה, מצוין מספר הפרסומים המודפסים בשבוע, משך זמן ההפצה, והאם קיימת בדיקה משפטית לחומרים לפני פרסום. השדות כוללים גם את סוג הפרסום, כגון עיתון או כתב עת מקצועי.",
+  "payload": "טבלה: אחריות מדיה - פרטי פרסומים\nThis table details publications for Media Liability insurance. It's used to assess risk based on publication details like circulation length, print volume, and legal review processes.\nממדים: Publication, Publication details (circulation, print run, legal review)\n\nImportant Note:\nDetails should be given of any discontinued publications stating when last published. In the case of newspapers Specimen copy of each of such publications.\n0,1,2,3\nCountries in which circulated,How long has each publication been in circulation,Territories in which published,\"Whether you have any procedures/ systems for legally checking any material which may need to be examined prior to publication. If so, please give particulars including names of counsel/solicitors\"\nDo you require the policy to be extended to include your liability as printers in respect of material not published? If so, please state\nName of all publications,\"Nature of publication (newspaper, trade journal, etc.)\",Approximate number printed per week,How long have you been printing each publication?,Is there a formal print contract between yourself and the Customer?"
+}

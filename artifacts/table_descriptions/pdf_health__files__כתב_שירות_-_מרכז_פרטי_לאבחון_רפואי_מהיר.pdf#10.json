@@ -1,0 +1,24 @@
+{
+  "id": "pdf:health/files/כתב_שירות_-_מרכז_פרטי_לאבחון_רפואי_מהיר.pdf#10",
+  "source": "llm",
+  "description": {
+    "title": "אבחון רפואי מהיר",
+    "summary": "This table details medical diagnostic processes and hospitalization conditions covered under a health insurance plan. It outlines what constitutes a diagnosis and hospitalization, including required durations and exclusions.",
+    "embed_passage": "פוליסת ביטוח בריאות הראל כוללת תהליך אבחון רפואי, שבו מנוי עובר בדיקות רפואיות על פי סימנים ותסמינים באמצעות רופא מומחה. אשפוז מוגדר כשהייה רצופה של המבוטח בבית חולים למשך 24 שעות לפחות, למעט מחלקות שיקום. תהליך האבחון קובע את אופי המחלה או ההפרעה.",
+    "row_axis": "types of medical services/events",
+    "column_axis": "definitions/conditions",
+    "units": [],
+    "notable_values": [
+      "אבחון: תהליך רפואי לקביעת אופי המחלה",
+      "אשפוז: שהייה רצופה של 24 שעות",
+      "אשפוז: למעט מחלקות שיקום"
+    ],
+    "product_hints": [
+      "הראל",
+      "ביטוח בריאות"
+    ]
+  },
+  "sketch": ", ( - תהליך רפואי שעובר מנוי כדי לקבוע את אופי המחלה או ההפרעה Diagnosis) תהליך אבחון .1.12 . בחנתיות על פי סימנים ותסמינים, באמצעות רופא מומחה ובדיקות רפואיות   א\n, שהייה רצופה של המבוטח בבית חולים ציבורי או פרטי על פי הוראה מפורשת של רופא מוסמך : אשפוז .1.13 שעות ברציפות, במחלקות המוגדרות על ידי בית החולים ו/או משרד הבריאות כמחלקות 24 לפחות . למעט מחלקות שיקום , אשפוז",
+  "embed_text": "פוליסת ביטוח בריאות הראל כוללת תהליך אבחון רפואי, שבו מנוי עובר בדיקות רפואיות על פי סימנים ותסמינים באמצעות רופא מומחה. אשפוז מוגדר כשהייה רצופה של המבוטח בבית חולים למשך 24 שעות לפחות, למעט מחלקות שיקום. תהליך האבחון קובע את אופי המחלה או ההפרעה.",
+  "payload": "טבלה: אבחון רפואי מהיר\nThis table details medical diagnostic processes and hospitalization conditions covered under a health insurance plan. It outlines what constitutes a diagnosis and hospitalization, including required durations and exclusions.\nממדים: types of medical services/events, definitions/conditions\n\n, ( - תהליך רפואי שעובר מנוי כדי לקבוע את אופי המחלה או ההפרעה Diagnosis) תהליך אבחון .1.12 . בחנתיות על פי סימנים ותסמינים, באמצעות רופא מומחה ובדיקות רפואיות   א\n, שהייה רצופה של המבוטח בבית חולים ציבורי או פרטי על פי הוראה מפורשת של רופא מוסמך : אשפוז .1.13 שעות ברציפות, במחלקות המוגדרות על ידי בית החולים ו/או משרד הבריאות כמחלקות 24 לפחות . למעט מחלקות שיקום , אשפוז"
+}

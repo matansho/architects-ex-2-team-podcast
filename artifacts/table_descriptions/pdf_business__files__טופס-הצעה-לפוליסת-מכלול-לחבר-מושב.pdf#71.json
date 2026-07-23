@@ -1,0 +1,27 @@
+{
+  "id": "pdf:business/files/טופס-הצעה-לפוליסת-מכלול-לחבר-מושב.pdf#71",
+  "source": "llm",
+  "description": {
+    "title": "מכלול - הצעה לפוליסה",
+    "summary": "This table details coverage options and premiums for a 'Mekhalel' insurance policy. It allows users to specify desired coverage levels (e.g., earthquake, liability) and view associated costs.",
+    "embed_passage": "פוליסת מכלול מציעה כיסויים שונים, כולל רעידת אדמה לדירה וכן חבות כלפי עובדי משק הבית. דמי הביטוח משתנים בהתאם לגבול האחריות הנבחר, לדוגמה ₪ 6,000,000 או ₪ 20,000,000. ניתן לבחור כיסויים נוספים כגון אחריות כלפי צד שלישי.",
+    "row_axis": "Coverage options (e.g., earthquake coverage, liability coverage)",
+    "column_axis": "Coverage request (Yes/No), Insurance premium (₪)",
+    "units": [
+      "₪"
+    ],
+    "notable_values": [
+      "Insurance amount: ₪ 20,000,000",
+      "Liability limit: ₪ 6,000,000",
+      "Third-party liability limit: ₪ 600,000",
+      "Coverage request: כן",
+      "Coverage request: לא"
+    ],
+    "product_hints": [
+      "מכלול"
+    ]
+  },
+  "sketch": "לא )אם התשובה לא, נא לצרף טופס ויתור על הכיסוי החתום על ידך( כג כן ? האם מתבקש כיסוי כיסוי רעידת אדמה לדירה\nבית מגורים - מבנה לפי סכום ביטוח\nכן\nלא\n…\nדמי ביטוח\nלכל האירועים( ₪  20,000,000- לתובע ו ₪  6,000,000 )בגבולות אחריות כה ביטוח חבות כלפי עובדי משק הבית\nלא\nכן",
+  "embed_text": "פוליסת מכלול מציעה כיסויים שונים, כולל רעידת אדמה לדירה וכן חבות כלפי עובדי משק הבית. דמי הביטוח משתנים בהתאם לגבול האחריות הנבחר, לדוגמה ₪ 6,000,000 או ₪ 20,000,000. ניתן לבחור כיסויים נוספים כגון אחריות כלפי צד שלישי.",
+  "payload": "טבלה: מכלול - הצעה לפוליסה\nThis table details coverage options and premiums for a 'Mekhalel' insurance policy. It allows users to specify desired coverage levels (e.g., earthquake, liability) and view associated costs.\nממדים: Coverage options (e.g., earthquake coverage, liability coverage), Coverage request (Yes/No), Insurance premium (₪)\n\nלא )אם התשובה לא, נא לצרף טופס ויתור על הכיסוי החתום על ידך( כג כן ? האם מתבקש כיסוי כיסוי רעידת אדמה לדירה\nבית מגורים - מבנה לפי סכום ביטוח\nכן\nלא\nבית מגורים - תכולה לפי סכום ביטוח\nכן\nלא\nלא\nכד ? האם מתבקש כיסוי כיסוי נזקי טרור\nכן\nבלבד. עפ\"י תנאי כיסוי בהראל. 1967 בתחומי גבולות מדינת ישראל עד יוני\nעבור מבנה ו/או תכולה. ₪  1,000,000- כן, עד לסך השווה ל\nלא מבנה ותכולת מבנה המגורים - בפוליסה נפרדת\nדמי ביטוח\nלכל האירועים( ₪  20,000,000- לתובע ו ₪  6,000,000 )בגבולות אחריות כה ביטוח חבות כלפי עובדי משק הבית\nלא\nכן"
+}

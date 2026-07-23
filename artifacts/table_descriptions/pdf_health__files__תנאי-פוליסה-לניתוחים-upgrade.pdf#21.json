@@ -1,0 +1,25 @@
+{
+  "id": "pdf:health/files/תנאי-פוליסה-לניתוחים-upgrade.pdf#21",
+  "source": "llm",
+  "description": {
+    "title": "תנאי פוליסה לניתוחים",
+    "summary": "This table outlines exclusions to a surgery insurance policy. It details situations where the insurance company is not liable to pay benefits, such as pre-existing conditions or cosmetic procedures.",
+    "embed_passage": "פוליסת \"ניתוחים upgrade\" אינה מכסה ניתוחים אסתטיים שאינם נובעים מצורך רפואי. כמו כן, הפוליסה לא תכסה ניתוח שהתרחש לפני תחילת הביטוח או לאחר תום תקופת הביטוח. לדוגמה, ניתוח מחליף ניתוח מסיבות של עקרות לא יכוסה.",
+    "row_axis": "exclusion reason",
+    "column_axis": "details of exclusion",
+    "units": [],
+    "notable_values": [
+      "exclusion start date: before policy start date",
+      "exclusion end date: after policy end date",
+      "BMI threshold: 36",
+      "BMI threshold: 40",
+      "exclusion: fertility treatments"
+    ],
+    "product_hints": [
+      "ניתוחים upgrade"
+    ]
+  },
+  "sketch": ": החברה לא תהא אחראית ולא תהא חייבת לשלם תגמולי ביטוח בכל אחד מהמקרים הבאים\n; מקרה הביטוח אירע לפני יום תחילת הביטוח, לאחר תום תקופת הביטוח או במהלך תקופת האכשרה 6.1 ניתוח או טיפול מחליף ניתוח מסיבות של עקרות, פוריות, עיקור מרצון והפלה, למעט הפלה הנדרשת 6.2\n; מסיבה רפואית ה ה, קוסמטיק ניתוח או טיפול מחליף ניתוח או טיפול שאינו נובע מצורך רפואי ונועד למטרות  אסתטיק 6.3 : ם ם הבאי או תיקון קוצר ראיה, למעט הניתוחי",
+  "embed_text": "פוליסת \"ניתוחים upgrade\" אינה מכסה ניתוחים אסתטיים שאינם נובעים מצורך רפואי. כמו כן, הפוליסה לא תכסה ניתוח שהתרחש לפני תחילת הביטוח או לאחר תום תקופת הביטוח. לדוגמה, ניתוח מחליף ניתוח מסיבות של עקרות לא יכוסה.",
+  "payload": "טבלה: תנאי פוליסה לניתוחים\nThis table outlines exclusions to a surgery insurance policy. It details situations where the insurance company is not liable to pay benefits, such as pre-existing conditions or cosmetic procedures.\nממדים: exclusion reason, details of exclusion\n\n: החברה לא תהא אחראית ולא תהא חייבת לשלם תגמולי ביטוח בכל אחד מהמקרים הבאים\n; מקרה הביטוח אירע לפני יום תחילת הביטוח, לאחר תום תקופת הביטוח או במהלך תקופת האכשרה 6.1 ניתוח או טיפול מחליף ניתוח מסיבות של עקרות, פוריות, עיקור מרצון והפלה, למעט הפלה הנדרשת 6.2\n; מסיבה רפואית ה ה, קוסמטיק ניתוח או טיפול מחליף ניתוח או טיפול שאינו נובע מצורך רפואי ונועד למטרות  אסתטיק 6.3 : ם ם הבאי או תיקון קוצר ראיה, למעט הניתוחי"
+}

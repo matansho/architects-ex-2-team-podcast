@@ -1,0 +1,25 @@
+{
+  "id": "pdf:apartment/files/תנאי-פוליסת-ביטוח-עד-הגג-לביטוח-בית-משותף.pdf#65",
+  "source": "llm",
+  "description": {
+    "title": "תנאי פוליסת ביטוח עד הגג",
+    "summary": "This table details the covered risks under the 'עד הגג' home insurance policy. It lists various events that cause loss or damage to property and whether they are covered by the policy.",
+    "embed_passage": "פוליסת 'עד הגג' מכסה נזקים הנגרמים כתוצאה מאש, ברק, רעם ועשן יוצא דופן. הפוליסה אינה מכסה נזקים שנגרמו מרוח שמהירותה עולה על 30, או מדליפת מי גשם. הכיסוי מתייחס לתכולה הנמצאת בתוך מבנה הבית המשותף.",
+    "row_axis": "covered risk/event",
+    "column_axis": "risk description",
+    "units": [],
+    "notable_values": [
+      "wind speed: 30",
+      "risk 2.1: fire, lightning, thunder",
+      "risk 2.2: explosion or ignition",
+      "risk 2.3: wind speed over 30",
+      "risk 2.4: falling aircraft"
+    ],
+    "product_hints": [
+      "עד הגג"
+    ]
+  },
+  "sketch": "אש, ברק, רעם וכן עשן שהוא תופעה יוצאת דופן ולא תופעה קבועה. .2.1\nהתפוצצות או התלקחות. .2.2\nולמעט , קשר, לרבות גשם שירד באותה עת, שלג או ברד 30 רוח שמהירותה עולה על .2.3 דליפת מי גשם מבעד לקירות או לתקרה או ספיגתם בהם.\nנפילת כלי טיס, נפילת חפצים מכלי טיס, רעד על קולי הנגרם מכלי טיס. .2.4",
+  "embed_text": "פוליסת 'עד הגג' מכסה נזקים הנגרמים כתוצאה מאש, ברק, רעם ועשן יוצא דופן. הפוליסה אינה מכסה נזקים שנגרמו מרוח שמהירותה עולה על 30, או מדליפת מי גשם. הכיסוי מתייחס לתכולה הנמצאת בתוך מבנה הבית המשותף.",
+  "payload": "טבלה: תנאי פוליסת ביטוח עד הגג\nThis table details the covered risks under the 'עד הגג' home insurance policy. It lists various events that cause loss or damage to property and whether they are covered by the policy.\nממדים: covered risk/event, risk description\n\nאש, ברק, רעם וכן עשן שהוא תופעה יוצאת דופן ולא תופעה קבועה. .2.1\nהתפוצצות או התלקחות. .2.2\nולמעט , קשר, לרבות גשם שירד באותה עת, שלג או ברד 30 רוח שמהירותה עולה על .2.3 דליפת מי גשם מבעד לקירות או לתקרה או ספיגתם בהם.\nנפילת כלי טיס, נפילת חפצים מכלי טיס, רעד על קולי הנגרם מכלי טיס. .2.4"
+}

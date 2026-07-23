@@ -1,0 +1,26 @@
+{
+  "id": "pdf:health/files/גילוי-נאות-לנספח-ההרחבה-ניתוחים-פרטיים-בחול.pdf#0",
+  "source": "llm",
+  "description": {
+    "title": "דמי ביטוח - הרחבה ניתוחים פרטיים",
+    "summary": "This table shows the insurance premium for the 'הרחבה ניתוחים פרטיים' product. You look up the premium based on the insured's age.",
+    "embed_passage": "דמי הביטוח עבור הרחבה ניתוחים פרטיים משתנים בהתאם לגיל המבוטח. לדוגמה, גיל 40 יקבע את דמי הביטוח, וניתן לראות את המדד 13396. טלפון 037348178 זמין לפניות.",
+    "row_axis": "Age of the insured (in years)",
+    "column_axis": "Insurance premium details (e.g., premium amount, contact information)",
+    "units": [],
+    "notable_values": [
+      "Phone: 037348178",
+      "Fax: 037348178",
+      "Post Office Box: 10951",
+      "Address: 5200901 גן רמת, 3 הלל אבא",
+      "Website: www.harel-group.co.il"
+    ],
+    "product_hints": [
+      "הרחבה ניתוחים פרטיים",
+      "Harel"
+    ]
+  },
+  "sketch": "0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",ט רנ האינט אתר תובת כ www.harel-group.co.il",
+  "embed_text": "דמי הביטוח עבור הרחבה ניתוחים פרטיים משתנים בהתאם לגיל המבוטח. לדוגמה, גיל 40 יקבע את דמי הביטוח, וניתן לראות את המדד 13396. טלפון 037348178 זמין לפניות.",
+  "payload": "טבלה: דמי ביטוח - הרחבה ניתוחים פרטיים\nThis table shows the insurance premium for the 'הרחבה ניתוחים פרטיים' product. You look up the premium based on the insured's age.\nממדים: Age of the insured (in years), Insurance premium details (e.g., premium amount, contact information)\n\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",ט רנ האינט אתר תובת כ www.harel-group.co.il"
+}

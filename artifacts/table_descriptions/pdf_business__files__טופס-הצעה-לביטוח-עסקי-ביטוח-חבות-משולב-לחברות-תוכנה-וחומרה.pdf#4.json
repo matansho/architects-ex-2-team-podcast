@@ -1,0 +1,26 @@
+{
+  "id": "pdf:business/files/טופס-הצעה-לביטוח-עסקי-ביטוח-חבות-משולב-לחברות-תוכנה-וחומרה.pdf#4",
+  "source": "llm",
+  "description": {
+    "title": "חבות משולבת - סוגי מוצרים/שירותים",
+    "summary": "This table details the types of products and services offered by a company applying for combined liability insurance. It's used to assess risk based on the percentage of revenue each product/service generates.",
+    "embed_passage": "טופס ההצעה לביטוח חבות משולב לחברות תוכנה וחומרה מבקש פירוט של סוגי המוצרים והשירותים שהחברה מספקת, כמו גם אחוז ההכנסות השנתיות שלהם. לדוגמה, ייצור חומרה, תוכנה יישומית ארוזה מראש, והשכרת מתכנתים זמניים. הנתונים מסייעים לקבוע את רמת הסיכון הביטוחי.",
+    "row_axis": "Type of product or service",
+    "column_axis": "Percentage of prior year revenue, Percentage of annual revenue",
+    "units": [
+      "%"
+    ],
+    "notable_values": [
+      "Hardware Manufacturing: no value provided",
+      "Application Software - Pre-Packaged: no value provided",
+      "Temporary Leasing of computer programmers: no value provided"
+    ],
+    "product_hints": [
+      "חבות משולבת",
+      "ביטוח חבות"
+    ]
+  },
+  "sketch": "2.\nTypes of Products/Services,% of Prior Year Revenue,% of Your Annual Revenue\nHardware Manufacturing,,\nApplication Software - Pre-Packaged,,\n…\nTemporary Leasing of computer programmers,,\nOther (Explain below),,\nPlease outline other:\nList your top three competitors:",
+  "embed_text": "טופס ההצעה לביטוח חבות משולב לחברות תוכנה וחומרה מבקש פירוט של סוגי המוצרים והשירותים שהחברה מספקת, כמו גם אחוז ההכנסות השנתיות שלהם. לדוגמה, ייצור חומרה, תוכנה יישומית ארוזה מראש, והשכרת מתכנתים זמניים. הנתונים מסייעים לקבוע את רמת הסיכון הביטוחי.",
+  "payload": "טבלה: חבות משולבת - סוגי מוצרים/שירותים\nThis table details the types of products and services offered by a company applying for combined liability insurance. It's used to assess risk based on the percentage of revenue each product/service generates.\nממדים: Type of product or service, Percentage of prior year revenue, Percentage of annual revenue\n\n2.\nTypes of Products/Services,% of Prior Year Revenue,% of Your Annual Revenue\nHardware Manufacturing,,\nApplication Software - Pre-Packaged,,\nApplication Software - Custom,,\nOperating Software - Pre Packaged,,\nOperating Software - Custom,,\nNetwork or Communications Software- Pre Package,,\nNetwork or Communications Software- Custom,,\n\"Systems Integration, Value added reselling\",,\n\"Consulting, Speciality Programming or Services\",,\n\"Data Entry, Time sharing, Processing Services\",,\nRetail or Wholesale Sales,,\nMaintenance of Service Revenues,,\nWeb hosting,,\nWeb Design,,\n\"Infrastructure, equipment and components mfg.\",,\nInternet Service /Access Provider,,\nInternet Infrastructure Software,,\nInternet Portal,,\nData Retrieval/Informediary,,\nBroadcasting/Streaming,,\nApplication Software Providers,,\nTemporary Leasing of computer programmers,,\nOther (Explain below),,\nPlease outline other:\nList your top three competitors:"
+}

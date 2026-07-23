@@ -1,0 +1,26 @@
+{
+  "id": "pdf:car/files/הודעה-על-תאונת-רכב.pdf#5",
+  "source": "llm",
+  "description": {
+    "title": "הודעה על תאונת רכב",
+    "summary": "This table is a car accident report form. It collects details about the accident, the vehicles involved, and the parties involved for insurance claims.",
+    "embed_passage": "טופס זה משמש לדיווח על תאונת רכב. הוא כולל פרטים על הרכב, כגון סוג הרכב ורישוי מס', וכן פרטי הנהג והצד השני המעורב בתאונה. לדוגמה, סוג הרכב יכול להיות 'רכב קל' או 'רכב כבד', והביטוח חברת שם יכול להיות 'הראל'.",
+    "row_axis": "Individual involved party (צד ג')",
+    "column_axis": "Details about the accident, vehicle, and parties involved (e.g., name, ID, vehicle type, damage description)",
+    "units": [],
+    "notable_values": [
+      "סוג רכב: רכב קל",
+      "סוג רכב: רכב כבד",
+      "רישוי מס': unknown",
+      "ת.ז. מס': unknown",
+      "הביטוח חברת שם: הראל"
+    ],
+    "product_hints": [
+      "ביטוח מקיף",
+      "הראל"
+    ]
+  },
+  "sketch": "ג' צד - המעורב פרטי זה( בפרק הפרטים כל את למלא )חובה ד,ג' צד - המעורב פרטי זה( בפרק הפרטים כל את למלא )חובה ד,ג' צד - המעורב פרטי זה( בפרק הפרטים כל את למלא )חובה ד,ג' צד - המעורב פרטי זה( בפרק הפרטים כל את למלא )חובה ד\nחובה ג' צד מקיף ביטוח: סוג,חובה ג' צד מקיף ביטוח: סוג,טון 4 מעל כבד רכב קל רכב הרכב: סוג,רישוי מס'\nטלפון,כתובת,ת.ז. מס',הרכב בעל שם\nטלפון,כתובת,ת.ז. מס',הנהג שם\nג' לצד הנזק מיקום / הנזק תיאור,ג' לצד הנזק מיקום / הנזק תיאור,הפוליסה מס',הביטוח חברת שם",
+  "embed_text": "טופס זה משמש לדיווח על תאונת רכב. הוא כולל פרטים על הרכב, כגון סוג הרכב ורישוי מס', וכן פרטי הנהג והצד השני המעורב בתאונה. לדוגמה, סוג הרכב יכול להיות 'רכב קל' או 'רכב כבד', והביטוח חברת שם יכול להיות 'הראל'.",
+  "payload": "טבלה: הודעה על תאונת רכב\nThis table is a car accident report form. It collects details about the accident, the vehicles involved, and the parties involved for insurance claims.\nממדים: Individual involved party (צד ג'), Details about the accident, vehicle, and parties involved (e.g., name, ID, vehicle type, damage description)\n\nג' צד - המעורב פרטי זה( בפרק הפרטים כל את למלא )חובה ד,ג' צד - המעורב פרטי זה( בפרק הפרטים כל את למלא )חובה ד,ג' צד - המעורב פרטי זה( בפרק הפרטים כל את למלא )חובה ד,ג' צד - המעורב פרטי זה( בפרק הפרטים כל את למלא )חובה ד\nחובה ג' צד מקיף ביטוח: סוג,חובה ג' צד מקיף ביטוח: סוג,טון 4 מעל כבד רכב קל רכב הרכב: סוג,רישוי מס'\nטלפון,כתובת,ת.ז. מס',הרכב בעל שם\nטלפון,כתובת,ת.ז. מס',הנהג שם\nג' לצד הנזק מיקום / הנזק תיאור,ג' לצד הנזק מיקום / הנזק תיאור,הפוליסה מס',הביטוח חברת שם"
+}

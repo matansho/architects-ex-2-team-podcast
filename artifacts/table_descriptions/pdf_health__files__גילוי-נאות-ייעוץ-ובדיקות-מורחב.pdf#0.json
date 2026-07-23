@@ -1,0 +1,25 @@
+{
+  "id": "pdf:health/files/גילוי-נאות-ייעוץ-ובדיקות-מורחב.pdf#0",
+  "source": "llm",
+  "description": {
+    "title": "דמי ביטוח - הרל",
+    "summary": "This table shows the insurance premiums for a Harel plan, varying by the insured's age. It is used to look up the cost of insurance based on age.",
+    "embed_passage": "דמי הביטוח עבור תוכנית הרל משתנים בהתאם לגיל המבוטח. לדוגמה, עבור גילאי 61-65, דמי הביטוח הם 89.64, בעוד שעבור גילאי 71-75 הם 177.14. טבלת דמי הביטוח תקבע את עלות הפוליסה בהתאם לגיל המבוטח ביום הולדתו.",
+    "row_axis": "Age range of the insured",
+    "column_axis": "Insurance premium",
+    "units": [
+      "₪"
+    ],
+    "notable_values": [
+      "61-65: 89.64",
+      "66-70: 134.78",
+      "71-75: 177.14"
+    ],
+    "product_hints": [
+      "הרל"
+    ]
+  },
+  "sketch": "0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",ט רנ האינט אתר תובת כ www.harel-group.co.il",
+  "embed_text": "דמי הביטוח עבור תוכנית הרל משתנים בהתאם לגיל המבוטח. לדוגמה, עבור גילאי 61-65, דמי הביטוח הם 89.64, בעוד שעבור גילאי 71-75 הם 177.14. טבלת דמי הביטוח תקבע את עלות הפוליסה בהתאם לגיל המבוטח ביום הולדתו.",
+  "payload": "טבלה: דמי ביטוח - הרל\nThis table shows the insurance premiums for a Harel plan, varying by the insured's age. It is used to look up the cost of insurance based on age.\nממדים: Age range of the insured, Insurance premium\n\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",ט רנ האינט אתר תובת כ www.harel-group.co.il"
+}

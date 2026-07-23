@@ -1,0 +1,27 @@
+{
+  "id": "pdf:travel/files/תעריפון-דרכון-first-class.pdf#7",
+  "source": "llm",
+  "description": {
+    "title": "תעריפון דרכון First Class",
+    "summary": "This table details the pricing for travel insurance extensions offered by 'דרכון First Class'. It allows you to look up the cost of coverage based on age range and the type of activity.",
+    "embed_passage": "ביטוח הנסיעה 'דרכון First Class' מציע הרחבות בתוספת תשלום עבור פעילויות ספורט אתגריות וחורף. לדוגמה, עבור חובבני אתגרי ספורט בגילאי 42 עד 50, העלות היא $10.00, בעוד שספורט חורף עולה $9.50 עד גיל 75.",
+    "row_axis": "Type of coverage extension (e.g., pre-existing medical condition, winter sports)",
+    "column_axis": "Age range of the insured (e.g., 18-50, 51-60) and price",
+    "units": [
+      "$"
+    ],
+    "notable_values": [
+      "Age 18-50: $6.25",
+      "Age 51-60: $6.50",
+      "Winter sports: $9.50",
+      "Amateur extreme sports (42-50): $10.00",
+      "Professional sports: $2.5 to $25"
+    ],
+    "product_hints": [
+      "דרכון First Class"
+    ]
+  },
+  "sketch": "ה( כיסוי )כולל\n,$6.25 $6.50,$6.25 $6.50,18-50 51-60 61-65 66-70,מצב של החמרה קודם רפואי\n,,,75 עד,\nהנסיעה. מתקופת חלק עבור לרכוש ניתן,$10.00,,76-85,42 עד שגילה למבוטחת חובבני אתגרי ספורט\n…\n,$9.50,,75 עד,חורף ספורט\nהנסיעה. מתקופת חלק עבור לרכוש ניתן,,$13.50,76-80,\n,$25 ועד $2.5,$25 ועד $2.5,0-75,מקצועני ספורט\n,לנסיעה,,,",
+  "embed_text": "ביטוח הנסיעה 'דרכון First Class' מציע הרחבות בתוספת תשלום עבור פעילויות ספורט אתגריות וחורף. לדוגמה, עבור חובבני אתגרי ספורט בגילאי 42 עד 50, העלות היא $10.00, בעוד שספורט חורף עולה $9.50 עד גיל 75.",
+  "payload": "טבלה: תעריפון דרכון First Class\nThis table details the pricing for travel insurance extensions offered by 'דרכון First Class'. It allows you to look up the cost of coverage based on age range and the type of activity.\nממדים: Type of coverage extension (e.g., pre-existing medical condition, winter sports), Age range of the insured (e.g., 18-50, 51-60) and price\n\nה( כיסוי )כולל\n,$6.25 $6.50,$6.25 $6.50,18-50 51-60 61-65 66-70,מצב של החמרה קודם רפואי\n,,,75 עד,\nהנסיעה. מתקופת חלק עבור לרכוש ניתן,$10.00,,76-85,42 עד שגילה למבוטחת חובבני אתגרי ספורט\nהנסיעה. מתקופת חלק עבור לרכוש ניתן,$0.50 $2.0,,,\n,$9.50,,75 עד,חורף ספורט\nהנסיעה. מתקופת חלק עבור לרכוש ניתן,,$13.50,76-80,\n,$25 ועד $2.5,$25 ועד $2.5,0-75,מקצועני ספורט\n,לנסיעה,,,"
+}

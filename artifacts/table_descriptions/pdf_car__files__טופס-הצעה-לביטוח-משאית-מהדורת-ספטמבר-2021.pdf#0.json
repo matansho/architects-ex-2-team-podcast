@@ -1,0 +1,23 @@
+{
+  "id": "pdf:car/files/טופס-הצעה-לביטוח-משאית-מהדורת-ספטמבר-2021.pdf#0",
+  "source": "llm",
+  "description": {
+    "title": "פרטי סוכן",
+    "summary": "This table lists details about insurance agents. You can look up agent information using their previous policy number, policy number, agency name, agent name, or agent ID.",
+    "embed_passage": "טופס זה מיועד לרישום פרטי סוכן ביטוח, כולל מספר פוליסה קודם, מספר הפוליסה הנוכחית ושם הסוכנות. לדוגמה, ניתן למצוא סוכן עם מספר פוליסה קודם 0, או סוכן עם מספר 0,1,2,3,4.",
+    "row_axis": "Agent",
+    "column_axis": "Agent Details (Previous Policy Number, Policy Number, Agency Name, Agent Name, Agent ID)",
+    "units": [],
+    "notable_values": [
+      "מהדורה: 09/21",
+      "קודם פוליסה מס': 0",
+      "הפוליסה מס': 0,1,2,3,4"
+    ],
+    "product_hints": [
+      "ביטוח משאית"
+    ]
+  },
+  "sketch": "(09/21 )מהדורה\n0,1,2,3,4\nקודם פוליסה מס',הפוליסה מס',הסוכנות שם,הסוכן שם,הסוכן מס'",
+  "embed_text": "טופס זה מיועד לרישום פרטי סוכן ביטוח, כולל מספר פוליסה קודם, מספר הפוליסה הנוכחית ושם הסוכנות. לדוגמה, ניתן למצוא סוכן עם מספר פוליסה קודם 0, או סוכן עם מספר 0,1,2,3,4.",
+  "payload": "טבלה: פרטי סוכן\nThis table lists details about insurance agents. You can look up agent information using their previous policy number, policy number, agency name, agent name, or agent ID.\nממדים: Agent, Agent Details (Previous Policy Number, Policy Number, Agency Name, Agent Name, Agent ID)\n\n(09/21 )מהדורה\n0,1,2,3,4\nקודם פוליסה מס',הפוליסה מס',הסוכנות שם,הסוכן שם,הסוכן מס'"
+}

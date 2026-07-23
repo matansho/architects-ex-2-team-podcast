@@ -1,0 +1,29 @@
+{
+  "id": "pdf:travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-אנגלית-first-class.pdf#75",
+  "source": "llm",
+  "description": {
+    "title": "תנאי פוליסת ביטוח נסיעות",
+    "summary": "This table details the limits of liability and deductibles for various coverage types within a travel insurance policy. It allows you to look up coverage based on the section in the policy and the type of event.",
+    "embed_passage": "פוליסת ביטוח נסיעות לחול מספקת כיסוי עבור מגוון מצבים, כגון אובדן תשלומים בחו״ל או ביטול נסיעה. סכום הפיצוי משתנה בהתאם לסעיף בפוליסה ולסוג האירוע, לדוגמה, עבור הוצאות לינה במקרה של אירוע רפואי עקב מגיפה, ניתן לקבל עד $1,000. במקרים מסוימים, ישנו ניכוי עצמי.",
+    "row_axis": "Section in Policy / Coverage type",
+    "column_axis": "Coverage details (Limit of liability, Deductible)",
+    "units": [
+      "$",
+      "₪"
+    ],
+    "notable_values": [
+      "Limit of liability: $1,000",
+      "Deductible: No deductible",
+      "Trip cancellation ticket: $5,000 $2,000",
+      "Stay expenses per day: $150",
+      "Reimbursement ceiling: $400"
+    ],
+    "product_hints": [
+      "ביטוח נסיעות לחול",
+      "First Class"
+    ]
+  },
+  "sketch": "Section in Policy,Coverage,Limit of liability,Deductible\n15.5,Loss of payments abroad in the event of a Medical Event due to an epidemic,\"$150 stay expenses per day and up to a maximum amount of $1,000\",No deductible\n15.7,Increasing the reimbursement ceiling for expansion for canceling and shortening a trip during an epidemic: (for additional insurance premiums),Increasing the reimbursement ceiling for expansion for canceling and shortening a trip during an epidemic: (for additional insurance premiums),Increasing the reimbursement ceiling for expansion for canceling and shortening a trip during an epidemic: (for additional insurance premiums)\n15.7.1,Trip cancellation Out of which: travel ticket for an Insured,\"$150 stay expenses and up to a total amount of $5,000 $2,000\",\n…\n15.4,Reimbursement for a canceled ticket in the event of a medical event due to an epidemic,$400,No deductible\n15.5,Loss of payments abroad in the event of a medical event due to an epidemic,\"$150 stay expenses and up to a maximum amount of $1,000\",No deductible\n15.7,Increasing the reimbursement ceiling for expansion for canceling and shortening a trip during an epidemic premiums),Increasing the reimbursement ceiling for expansion for canceling and shortening a trip during an epidemic premiums),\n15.7.1,(for additional insurance Cancellation of a trip Within it: ticket for the insured,\"$150 stay expenses and up to a total amount of $5,000 $2,000\",",
+  "embed_text": "פוליסת ביטוח נסיעות לחול מספקת כיסוי עבור מגוון מצבים, כגון אובדן תשלומים בחו״ל או ביטול נסיעה. סכום הפיצוי משתנה בהתאם לסעיף בפוליסה ולסוג האירוע, לדוגמה, עבור הוצאות לינה במקרה של אירוע רפואי עקב מגיפה, ניתן לקבל עד $1,000. במקרים מסוימים, ישנו ניכוי עצמי.",
+  "payload": "טבלה: תנאי פוליסת ביטוח נסיעות\nThis table details the limits of liability and deductibles for various coverage types within a travel insurance policy. It allows you to look up coverage based on the section in the policy and the type of event.\nממדים: Section in Policy / Coverage type, Coverage details (Limit of liability, Deductible)\n\nSection in Policy,Coverage,Limit of liability,Deductible\n15.5,Loss of payments abroad in the event of a Medical Event due to an epidemic,\"$150 stay expenses per day and up to a maximum amount of $1,000\",No deductible\n15.7,Increasing the reimbursement ceiling for expansion for canceling and shortening a trip during an epidemic: (for additional insurance premiums),Increasing the reimbursement ceiling for expansion for canceling and shortening a trip during an epidemic: (for additional insurance premiums),Increasing the reimbursement ceiling for expansion for canceling and shortening a trip during an epidemic: (for additional insurance premiums)\n15.7.1,Trip cancellation Out of which: travel ticket for an Insured,\"$150 stay expenses and up to a total amount of $5,000 $2,000\",\n15.7.2,Extending or shortening a stay abroad,\"$150 stay expenses and up to a total of $5,000\",\nChapter 15B,Cancellation of a trip and shortening of a trip - Extended,,\n15.2 B,Cancellation of a trip Within it: ticket for the insured,\"$10,000 $3,000\",$50\n15.3 B,Shortening of a trip Within it: ticket for the insured,\"$12,000 $3,000\",$50\n15.3.2,Travel plan change - without travel shortening,\"$1,000\",$50\n15.4,Reimbursement for a canceled ticket in the event of a medical event due to an epidemic,$400,No deductible\n15.5,Loss of payments abroad in the event of a medical event due to an epidemic,\"$150 stay expenses and up to a maximum amount of $1,000\",No deductible\n15.7,Increasing the reimbursement ceiling for expansion for canceling and shortening a trip during an epidemic premiums),Increasing the reimbursement ceiling for expansion for canceling and shortening a trip during an epidemic premiums),\n15.7.1,(for additional insurance Cancellation of a trip Within it: ticket for the insured,\"$150 stay expenses and up to a total amount of $5,000 $2,000\","
+}

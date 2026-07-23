@@ -1,0 +1,25 @@
+{
+  "id": "pdf:car/files/פוליסה-לביטוח-רכב-מטיילים-בסיני-ובירדן.pdf#28",
+  "source": "llm",
+  "description": {
+    "title": "כיסויים ביטוחיים",
+    "summary": "This table lists covered events under a car insurance policy. It details the types of incidents for which the insured may receive compensation.",
+    "embed_passage": "פוליסת ביטוח רכב מטיילים בסיני ובירדן מכסה מגוון רחב של מקרים, כגון אש, ברק, התנגשות מקרית, וגניבה. במקרה של גניבה, אם הרכב לא נמצא במשך 30 ימים, התגמול ישולם בהתאם לשווי האובדן או הנזק לרכב ביום קרות הנזק.",
+    "row_axis": "covered event",
+    "column_axis": "event description",
+    "units": [],
+    "notable_values": [
+      "event: אש",
+      "event: התנגשות מקרית",
+      "event: גניבה",
+      "days until claim: 30"
+    ],
+    "product_hints": [
+      "ביטוח רכב מטיילים בסיני ובירדן",
+      "פוליסת ביטוח רכב"
+    ]
+  },
+  "sketch": "1.1 . אש, ברק, התפוצצות, התלקחות.\n1.2 . התנגשות מקרית, התהפכות.\n1.3 . ימים וכל נזק תוך כדי גניבה ובעת 30 גניבה אשר בעקבותיה לא נמצא הרכב במשך ניסיון גניבה.\n1.4 . שטפון, סערה, התפרצות הר געש.",
+  "embed_text": "פוליסת ביטוח רכב מטיילים בסיני ובירדן מכסה מגוון רחב של מקרים, כגון אש, ברק, התנגשות מקרית, וגניבה. במקרה של גניבה, אם הרכב לא נמצא במשך 30 ימים, התגמול ישולם בהתאם לשווי האובדן או הנזק לרכב ביום קרות הנזק.",
+  "payload": "טבלה: כיסויים ביטוחיים\nThis table lists covered events under a car insurance policy. It details the types of incidents for which the insured may receive compensation.\nממדים: covered event, event description\n\n1.1 . אש, ברק, התפוצצות, התלקחות.\n1.2 . התנגשות מקרית, התהפכות.\n1.3 . ימים וכל נזק תוך כדי גניבה ובעת 30 גניבה אשר בעקבותיה לא נמצא הרכב במשך ניסיון גניבה.\n1.4 . שטפון, סערה, התפרצות הר געש."
+}

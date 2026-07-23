@@ -1,0 +1,24 @@
+{
+  "id": "pdf:life/files/טופס-בקשה-לביטול-פוליסה.pdf#8",
+  "source": "llm",
+  "description": {
+    "title": "טופס ביטול פוליסה",
+    "summary": "This table is a form for requesting cancellation of an insurance policy. It captures details about the policyholder's request, including identification and dates.",
+    "embed_passage": "טופס זה משמש לביטול פוליסה של הראל בע״מ. הפוליסה יכולה להיות מבוטלת עבור מבוטח ראשי או בן/בת הזוג. לדוגמה, תאריך ביטול הפוליסה המבוקש הוא 07/2025.",
+    "row_axis": "Policy cancellation request",
+    "column_axis": "Policyholder details, cancellation date, signatures",
+    "units": [],
+    "notable_values": [
+      "תאריך: 07/2025",
+      "מספר תעודת זהות: 47597.37",
+      "סוג מבוטח: ראשי מבוטח",
+      "סוג מבוטח: הזוג בן/בת"
+    ],
+    "product_hints": [
+      "הראל בע״מ"
+    ]
+  },
+  "sketch": "47597.37\n07/2025\nחתימה,עבורם הפוליסה ביטול מתבקש אשר המבוטחים חתימות ה.תאריך,עבורם הפוליסה ביטול מתבקש אשר המבוטחים חתימות ה.זהות תעודת מספר,עבורם הפוליסה ביטול מתבקש אשר המבוטחים חתימות ה.,עבורם הפוליסה ביטול מתבקש אשר המבוטחים חתימות ה.\n,,,ראשי מבוטח,\n,,,הזוג בן/בת,",
+  "embed_text": "טופס זה משמש לביטול פוליסה של הראל בע״מ. הפוליסה יכולה להיות מבוטלת עבור מבוטח ראשי או בן/בת הזוג. לדוגמה, תאריך ביטול הפוליסה המבוקש הוא 07/2025.",
+  "payload": "טבלה: טופס ביטול פוליסה\nThis table is a form for requesting cancellation of an insurance policy. It captures details about the policyholder's request, including identification and dates.\nממדים: Policy cancellation request, Policyholder details, cancellation date, signatures\n\n47597.37\n07/2025\nחתימה,עבורם הפוליסה ביטול מתבקש אשר המבוטחים חתימות ה.תאריך,עבורם הפוליסה ביטול מתבקש אשר המבוטחים חתימות ה.זהות תעודת מספר,עבורם הפוליסה ביטול מתבקש אשר המבוטחים חתימות ה.,עבורם הפוליסה ביטול מתבקש אשר המבוטחים חתימות ה.\n,,,ראשי מבוטח,\n,,,הזוג בן/בת,"
+}

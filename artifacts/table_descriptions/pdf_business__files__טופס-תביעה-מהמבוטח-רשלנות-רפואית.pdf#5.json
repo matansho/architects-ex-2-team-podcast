@@ -1,0 +1,24 @@
+{
+  "id": "pdf:business/files/טופס-תביעה-מהמבוטח-רשלנות-רפואית.pdf#5",
+  "source": "llm",
+  "description": {
+    "title": "טופס תביעה רשלנות רפואית",
+    "summary": "This table is a claim form for medical malpractice insurance. It collects details about the incident and the insured's declaration regarding the claim's accuracy and handling.",
+    "embed_passage": "טופס זה משמש להגשת תביעה במסגרת ביטוח רשלנות רפואית של הראל. יש לצרף רשומה רפואית מלאה, כולל טופסי הסכמה, ככל שקיימים, לצורך בחינת הנסיבות. המבוטח מצהיר על נכונות הפרטים ומסכים לטיפול בתביעות צד ג' על ידי החברה.",
+    "row_axis": "Claim details and insured's declaration",
+    "column_axis": "Sections of the claim form (e.g., incident description, external review)",
+    "units": [],
+    "notable_values": [
+      "form type: תביעה",
+      "company: הראל",
+      "declaration: כל הפרטים נכונים"
+    ],
+    "product_hints": [
+      "רשלנות רפואית",
+      "הראל"
+    ]
+  },
+  "sketch": "-- חסוי - המידע נמסר לקראת התדיינות משפטית וכחלק מההיערכות אליה\nטופס תביעה מהמבוטח - התיחסות ענינית לטענות\n:( תיאור נסיבות הארוע והתייחסותך )נא לצרף רשומה רפואית מלאה, לרבות טופסי הסכמה, ככל שקיימים\n:\n…\n? האם האירוע נבחן ע\"י גורם חיצוני או ועדת בדיקה פנימית כלשהי\nהנני להצהיר בזה כי כל הפרטים דלעיל נכונים, מדויקים ומלאים. אבקש כי תביעת צד ג' שתוגש נגדי תטופל ע\"י החברה, וכן הנני להתחייב להעביר את ההשתתפות העצמית על פי כל תנאי הפוליסה מיד עם קבלת הדרישה.\nחתימת המבוטח\nתאריך",
+  "embed_text": "טופס זה משמש להגשת תביעה במסגרת ביטוח רשלנות רפואית של הראל. יש לצרף רשומה רפואית מלאה, כולל טופסי הסכמה, ככל שקיימים, לצורך בחינת הנסיבות. המבוטח מצהיר על נכונות הפרטים ומסכים לטיפול בתביעות צד ג' על ידי החברה.",
+  "payload": "טבלה: טופס תביעה רשלנות רפואית\nThis table is a claim form for medical malpractice insurance. It collects details about the incident and the insured's declaration regarding the claim's accuracy and handling.\nממדים: Claim details and insured's declaration, Sections of the claim form (e.g., incident description, external review)\n\n-- חסוי - המידע נמסר לקראת התדיינות משפטית וכחלק מההיערכות אליה\nטופס תביעה מהמבוטח - התיחסות ענינית לטענות\n:( תיאור נסיבות הארוע והתייחסותך )נא לצרף רשומה רפואית מלאה, לרבות טופסי הסכמה, ככל שקיימים\n:\nעדי ראיה\n:\nכן, נא לפרט\nלא\n? האם האירוע נבחן ע\"י גורם חיצוני או ועדת בדיקה פנימית כלשהי\nהנני להצהיר בזה כי כל הפרטים דלעיל נכונים, מדויקים ומלאים. אבקש כי תביעת צד ג' שתוגש נגדי תטופל ע\"י החברה, וכן הנני להתחייב להעביר את ההשתתפות העצמית על פי כל תנאי הפוליסה מיד עם קבלת הדרישה.\nחתימת המבוטח\nתאריך"
+}

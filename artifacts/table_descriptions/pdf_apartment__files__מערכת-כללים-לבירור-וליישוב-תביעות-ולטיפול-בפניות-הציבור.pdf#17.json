@@ -1,0 +1,24 @@
+{
+  "id": "pdf:apartment/files/מערכת-כללים-לבירור-וליישוב-תביעות-ולטיפול-בפניות-הציבור.pdf#17",
+  "source": "llm",
+  "description": {
+    "title": "תשלום חלקי של תביעה",
+    "summary": "This table details the notification requirements when an insurance claim is partially approved and partially denied. It outlines what information must be provided to the claimant regarding the approved payment and the reasons for the denial.",
+    "embed_passage": "בהראל, במקרה של תשלום חלקי של תביעה, התובע יקבל הודעה בכתב המפרטת את מרכיבי התשלום שאושר ואת הנימוקים לדחיית חלק מהתביעה. ההודעה תכלול מידע על סכומים שנדרשו או עילות שנדרשו, בהתאם להחלטה על תשלום חלקי.",
+    "row_axis": "Scenario: Partial claim approval/denial",
+    "column_axis": "Notification requirements for partial claim payments",
+    "units": [],
+    "notable_values": [
+      "סעיף: 2",
+      "סעיף ד': mentioned as an exception",
+      "החלק הראשון: details payment components",
+      "החלק השני: details reasons for denial"
+    ],
+    "product_hints": [
+      "הראל"
+    ]
+  },
+  "sketch": "אם נתקבלה החלטה על תשלום חלקי של התביעה תוך דחיית חלק מהתביעה .2 לגבי סכומים שנדרשו או חלק מהעילות שנדרשו - תימסר לתובע במועד התשלום הודעה בכתב הכוללת שני חלקים כמפורט להלן:\nשיפרט את מרכיביו של התשלום שאושר בהתאם למפורט לעיל; , החלק הראשון שיפרט את הנימוקים לדחיית חלק מהתביעה, כמפורט בהמשך. , החלק השני\nבכל מקרה בו נתקבלה החלטה על תשלום התביעה, לא יהיה צורך במשלוח המסמכים המפורטים בסעיף ד' לעיל, למעט העתק מערכת כללים זו.",
+  "embed_text": "בהראל, במקרה של תשלום חלקי של תביעה, התובע יקבל הודעה בכתב המפרטת את מרכיבי התשלום שאושר ואת הנימוקים לדחיית חלק מהתביעה. ההודעה תכלול מידע על סכומים שנדרשו או עילות שנדרשו, בהתאם להחלטה על תשלום חלקי.",
+  "payload": "טבלה: תשלום חלקי של תביעה\nThis table details the notification requirements when an insurance claim is partially approved and partially denied. It outlines what information must be provided to the claimant regarding the approved payment and the reasons for the denial.\nממדים: Scenario: Partial claim approval/denial, Notification requirements for partial claim payments\n\nאם נתקבלה החלטה על תשלום חלקי של התביעה תוך דחיית חלק מהתביעה .2 לגבי סכומים שנדרשו או חלק מהעילות שנדרשו - תימסר לתובע במועד התשלום הודעה בכתב הכוללת שני חלקים כמפורט להלן:\nשיפרט את מרכיביו של התשלום שאושר בהתאם למפורט לעיל; , החלק הראשון שיפרט את הנימוקים לדחיית חלק מהתביעה, כמפורט בהמשך. , החלק השני\nבכל מקרה בו נתקבלה החלטה על תשלום התביעה, לא יהיה צורך במשלוח המסמכים המפורטים בסעיף ד' לעיל, למעט העתק מערכת כללים זו."
+}

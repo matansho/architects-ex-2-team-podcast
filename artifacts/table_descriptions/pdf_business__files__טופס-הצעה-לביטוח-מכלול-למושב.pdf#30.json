@@ -1,0 +1,28 @@
+{
+  "id": "pdf:business/files/טופס-הצעה-לביטוח-מכלול-למושב.pdf#30",
+  "source": "llm",
+  "description": {
+    "title": "מכלול ביטוח רכוש",
+    "summary": "This table details property insurance coverage options from מכלול, specifically focusing on theft and equipment coverage. It allows you to look up the self-participation amount (השתתפות עצמית) and coverage limits (גבולות אחריות) for different scenarios.",
+    "embed_passage": "ביטוח מכלול מציע כיסוי רכוש מגוון, כאשר גובה ההשתתפות העצמית משתנה בהתאם לסוג הכיסוי. לדוגמה, עבור גניבת ציוד חקלאי בגבול נייח, ההשתתפות העצמית יכולה להיות ₪ 60,000, בעוד שכיסוי לגניבת רכוש במעבר עשוי לדרוש השתתפות עצמית של ₪ 60,000. סכום הכיסוי יכול להגיע עד ₪ 22M עבור נזקי טמפרטורה.",
+    "row_axis": "Type of property/risk (e.g., agricultural equipment, property in transit)",
+    "column_axis": "Coverage details (self-participation, coverage limit)",
+    "units": [
+      "₪",
+      "M"
+    ],
+    "notable_values": [
+      "self-participation: ₪ 10,000",
+      "coverage limit: ₪ 6MM",
+      "self-participation: ₪ 60,000",
+      "coverage limit: ₪ 22M",
+      "minimum damage: ₪ 8,000"
+    ],
+    "product_hints": [
+      "מכלול ביטוח רכוש"
+    ]
+  },
+  "sketch": ".₪  10,000 השתתפות עצמית לתשתית וגני משחקים .6\nנוספים וכיסויים הרחבות יב.ביטוח דמי,נוספים וכיסויים הרחבות יב.לסך עד אחריות גבולות,נוספים וכיסויים הרחבות יב.ההרחבה את לרכוש ברצונך האם בכן/לא לציין נא\n₪ 6MM,\"לא כן לאירוע ₪ 66,000\",מבוטח* לרכוש רק - גניבה\n₪ 8MM,\"לא כן לאירוע ₪ 30,000\",האחריות* בגבול נייח חקלאי ציוד גניבת\n₪ 14MM,\"לא כן לאירוע ₪ 60,000\",האחריות* בגבול נייח חקלאי ציוד גניבת\n₪ 22M,\"לא כן לאירוע ₪ 50,000\",בפוליסה( כמפורט טמפרטורה שינויי על התראה מערכת )מחייב בקירור חקלאית תוצרת\n₪ 2MM,\"לא כן לאירוע ₪ 60,000\",מבוטח לרכוש במעבר רכוש\n,,\"₪ 8,000 מינימום מהנזק, 1M% בגניבה עצמית *השתתפות\"",
+  "embed_text": "ביטוח מכלול מציע כיסוי רכוש מגוון, כאשר גובה ההשתתפות העצמית משתנה בהתאם לסוג הכיסוי. לדוגמה, עבור גניבת ציוד חקלאי בגבול נייח, ההשתתפות העצמית יכולה להיות ₪ 60,000, בעוד שכיסוי לגניבת רכוש במעבר עשוי לדרוש השתתפות עצמית של ₪ 60,000. סכום הכיסוי יכול להגיע עד ₪ 22M עבור נזקי טמפרטורה.",
+  "payload": "טבלה: מכלול ביטוח רכוש\nThis table details property insurance coverage options from מכלול, specifically focusing on theft and equipment coverage. It allows you to look up the self-participation amount (השתתפות עצמית) and coverage limits (גבולות אחריות) for different scenarios.\nממדים: Type of property/risk (e.g., agricultural equipment, property in transit), Coverage details (self-participation, coverage limit)\n\n.₪  10,000 השתתפות עצמית לתשתית וגני משחקים .6\nנוספים וכיסויים הרחבות יב.ביטוח דמי,נוספים וכיסויים הרחבות יב.לסך עד אחריות גבולות,נוספים וכיסויים הרחבות יב.ההרחבה את לרכוש ברצונך האם בכן/לא לציין נא\n₪ 6MM,\"לא כן לאירוע ₪ 66,000\",מבוטח* לרכוש רק - גניבה\n₪ 8MM,\"לא כן לאירוע ₪ 30,000\",האחריות* בגבול נייח חקלאי ציוד גניבת\n₪ 14MM,\"לא כן לאירוע ₪ 60,000\",האחריות* בגבול נייח חקלאי ציוד גניבת\n₪ 22M,\"לא כן לאירוע ₪ 50,000\",בפוליסה( כמפורט טמפרטורה שינויי על התראה מערכת )מחייב בקירור חקלאית תוצרת\n₪ 2MM,\"לא כן לאירוע ₪ 60,000\",מבוטח לרכוש במעבר רכוש\n,,\"₪ 8,000 מינימום מהנזק, 1M% בגניבה עצמית *השתתפות\""
+}

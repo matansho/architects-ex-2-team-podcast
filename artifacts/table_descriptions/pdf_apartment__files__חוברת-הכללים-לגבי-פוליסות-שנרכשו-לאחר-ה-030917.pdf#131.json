@@ -1,0 +1,27 @@
+{
+  "id": "pdf:apartment/files/חוברת-הכללים-לגבי-פוליסות-שנרכשו-לאחר-ה-030917.pdf#131",
+  "source": "llm",
+  "description": {
+    "title": "מועדי טיפול בתביעות",
+    "summary": "This table details the timeframes for handling claims, specifically regarding water damage, as outlined in circulars related to claim settlement and public inquiries. It specifies the number of business days required for various steps in the process.",
+    "embed_passage": "פוליסת ביטוח דירה כוללת מועדי טיפול מוגדרים בתביעות נזקי מים. לדוגמה, מסירת העתקים של הפוליסה תיעשה תוך 14 ימי עסקים ממועד הבקשה, או 21 ימי עסקים אם התובע חתם על מסמך. תיקון נזק באמצעות שרברב בהסדר יתחיל תוך 2 ימי עסקים.",
+    "row_axis": "Claim handling step",
+    "column_axis": "Timeframe (business days)",
+    "units": [
+      "ימי עסקים"
+    ],
+    "notable_values": [
+      "מסירת העתקים: 14",
+      "מסירת העתקים (חתם התובע): 21",
+      "תיקון נזק (שרברב): 2",
+      "זמן המתנה לשרברב: 3",
+      "ית בכתב מענה: 8"
+    ],
+    "product_hints": [
+      "ביטוח דירה"
+    ]
+  },
+  "sketch": "ית בכתב מענה,)יד( 8\nהבקשה. קבלת ממועד עסקים ימי 14,או מפוליסה העתקים מסירת מתקנון.,(1)( )טו 8\nהבקשה. קבלת ממועד עסקים ימי 21,שעליו מסמך מכל העתקים מסירת התובע. חתם,(3)( )טו 8\nהניהול. לחברת הפניה ממועד עבודה ימי 2,באמצעות הנזק תיקון תחילת שבהסדר. שרברב,(1) ה\nשעתיים. על יעלה לא,שבהסדר. לשרברב המתנה זמן,(3) ה",
+  "embed_text": "פוליסת ביטוח דירה כוללת מועדי טיפול מוגדרים בתביעות נזקי מים. לדוגמה, מסירת העתקים של הפוליסה תיעשה תוך 14 ימי עסקים ממועד הבקשה, או 21 ימי עסקים אם התובע חתם על מסמך. תיקון נזק באמצעות שרברב בהסדר יתחיל תוך 2 ימי עסקים.",
+  "payload": "טבלה: מועדי טיפול בתביעות\nThis table details the timeframes for handling claims, specifically regarding water damage, as outlined in circulars related to claim settlement and public inquiries. It specifies the number of business days required for various steps in the process.\nממדים: Claim handling step, Timeframe (business days)\n\nית בכתב מענה,)יד( 8\nהבקשה. קבלת ממועד עסקים ימי 14,או מפוליסה העתקים מסירת מתקנון.,(1)( )טו 8\nהבקשה. קבלת ממועד עסקים ימי 21,שעליו מסמך מכל העתקים מסירת התובע. חתם,(3)( )טו 8\nהניהול. לחברת הפניה ממועד עבודה ימי 2,באמצעות הנזק תיקון תחילת שבהסדר. שרברב,(1) ה\nשעתיים. על יעלה לא,שבהסדר. לשרברב המתנה זמן,(3) ה"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "pdf:car/files/תנאי-פוליסת-ביטוח-חובה-לרכב-מהדורת-ספטמבר-2021.pdf#46",
+  "source": "llm",
+  "description": {
+    "title": "ביטול פוליסת ביטוח חובה",
+    "summary": "This table details the conditions for canceling a mandatory car insurance policy and the refund of premiums. It outlines how the proportional part of the insurance premium is calculated and returned to the policyholder.",
+    "embed_passage": "פוליסת ביטוח חובה מאפשרת החזר דמי ביטוח במקרה של ביטול. החלק היחסי מחושב על ידי הכפלת דמי הביטוח ביחס בין מספר הימים שנותרו עד תום תקופת הביטוח המקורית, לבין מספר הימים בתקופת הביטוח המקורית. לדוגמה, אם נותרו 7 ימים לתום הפוליסה, יוחזר חלק יחסי מדמי הביטוח.",
+    "row_axis": "Cancellation scenarios / conditions",
+    "column_axis": "Refund details / calculations",
+    "units": [],
+    "notable_values": [
+      "7: Number of days before cancellation affects refund calculation",
+      "16.2: Section number regarding refund timing",
+      "16.3: Section number detailing proportional refund calculation",
+      "21: Minimum number of days notice required for cancellation"
+    ],
+    "product_hints": [
+      "ביטוח חובה"
+    ]
+  },
+  "sketch": "ימים לפני 7.  ביטל המבטח את הפוליסה, יחזיר לבעל הפוליסה בהקדם ולא יאוחר מ 16.2 המועד שבו תתבטל הפוליסה, את החלק היחסי מדמי הביטוח ששולמו.\n.  החלק היחסי כאמור יחושב על ידי הכפלת דמי הביטוח שגבה המבטח ביחס שבין 16.3 מספר הימים שנותרו, במועד הביטול עד תום תקופת הביטוח המקורית, ובין מספר הימים הנכללים בתקופת הביטוח המקורית.",
+  "embed_text": "פוליסת ביטוח חובה מאפשרת החזר דמי ביטוח במקרה של ביטול. החלק היחסי מחושב על ידי הכפלת דמי הביטוח ביחס בין מספר הימים שנותרו עד תום תקופת הביטוח המקורית, לבין מספר הימים בתקופת הביטוח המקורית. לדוגמה, אם נותרו 7 ימים לתום הפוליסה, יוחזר חלק יחסי מדמי הביטוח.",
+  "payload": "טבלה: ביטול פוליסת ביטוח חובה\nThis table details the conditions for canceling a mandatory car insurance policy and the refund of premiums. It outlines how the proportional part of the insurance premium is calculated and returned to the policyholder.\nממדים: Cancellation scenarios / conditions, Refund details / calculations\n\nימים לפני 7.  ביטל המבטח את הפוליסה, יחזיר לבעל הפוליסה בהקדם ולא יאוחר מ 16.2 המועד שבו תתבטל הפוליסה, את החלק היחסי מדמי הביטוח ששולמו.\n.  החלק היחסי כאמור יחושב על ידי הכפלת דמי הביטוח שגבה המבטח ביחס שבין 16.3 מספר הימים שנותרו, במועד הביטול עד תום תקופת הביטוח המקורית, ובין מספר הימים הנכללים בתקופת הביטוח המקורית."
+}

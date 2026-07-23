@@ -1,0 +1,29 @@
+{
+  "id": "pdf:travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-דרכון-פרימיום.pdf#127",
+  "source": "llm",
+  "description": {
+    "title": "ביטוח נסיעות לחול - דרכון פרימיום",
+    "summary": "This table details coverage amounts for trip cancellation and interruption under the 'דרכון פרימיום' travel insurance policy. It shows the maximum coverage amount per $5,000 or $7,000 of the trip ticket cost, and also covers hospitalisation and medical event refunds.",
+    "embed_passage": "פוליסת 'דרכון פרימיום' מספקת כיסוי עבור ביטול או קיצור נסיעה. גובה הפיצוי משתנה בהתאם לעלות כרטיס הטיסה, כאשר עבור כל 5,000$ או 7,000$ בעלות הכרטיס, ניתן לקבל החזר של 50$. הכיסוי יכול להגיע עד 2,000$ עבור ביטול נסיעה, וגם כולל החזר עבור אשפוז או אירוע רפואי.",
+    "row_axis": "type of coverage (e.g., trip cancellation, trip shortening, hospitalisation)",
+    "column_axis": "coverage details (e.g., amount, conditions)",
+    "units": [
+      "$",
+      "₪"
+    ],
+    "notable_values": [
+      "coverage per $5,000 ticket: $50",
+      "coverage per $7,000 ticket: $50",
+      "maximum coverage: $2,000",
+      "hospitalisation coverage: $1,000",
+      "medical event refund: $400"
+    ],
+    "product_hints": [
+      "דרכון פרימיום",
+      "ביטוח נסיעות לחול"
+    ]
+  },
+  "sketch": "צור נסיעה ביטול,15 פרק\n,)מורחב( ב' 15 או )בסיס( א' 15 מהפרקים,- נסיעה וקיצור נסיעה ביטול בסיס,פרק א' 15\n$ 50,\"לכל $ 5,000 של מקסימלי סכום כרטיס )כולל א' 15 בפרק הכיסויים $ 2,000 עד יכוסו מתוכו ,( נסיעה נסיעה כרטיס עבור\",נסיעה ביטול למבוטח נסיעה כרטיס ומתוכו:,א' 15.2\n$ 50,\"לכל $ 7,000 של מקסימלי סכום כרטיס )כולל א' 15 בפרק הכיסויים $ 2,000 עד יכוסו מתוכו ,( נסיעה נסיעה כרטיס עבור\",נסיעה קיצור למבוטח נסיעה כרטיס ומתוכו:,א' 15.3\n$ 50,\"$ 1,000\",- אשפוז בשל נסיעה תכנית שינוי נסיעה קיצור ללא,15.3.2\nה.ע ללא,$ 400,שבוטל נסיעה כרטיס עבור החזר עקב רפואי אירוע של במקרה מגיפה,15.4",
+  "embed_text": "פוליסת 'דרכון פרימיום' מספקת כיסוי עבור ביטול או קיצור נסיעה. גובה הפיצוי משתנה בהתאם לעלות כרטיס הטיסה, כאשר עבור כל 5,000$ או 7,000$ בעלות הכרטיס, ניתן לקבל החזר של 50$. הכיסוי יכול להגיע עד 2,000$ עבור ביטול נסיעה, וגם כולל החזר עבור אשפוז או אירוע רפואי.",
+  "payload": "טבלה: ביטוח נסיעות לחול - דרכון פרימיום\nThis table details coverage amounts for trip cancellation and interruption under the 'דרכון פרימיום' travel insurance policy. It shows the maximum coverage amount per $5,000 or $7,000 of the trip ticket cost, and also covers hospitalisation and medical event refunds.\nממדים: type of coverage (e.g., trip cancellation, trip shortening, hospitalisation), coverage details (e.g., amount, conditions)\n\nצור נסיעה ביטול,15 פרק\n,)מורחב( ב' 15 או )בסיס( א' 15 מהפרקים,- נסיעה וקיצור נסיעה ביטול בסיס,פרק א' 15\n$ 50,\"לכל $ 5,000 של מקסימלי סכום כרטיס )כולל א' 15 בפרק הכיסויים $ 2,000 עד יכוסו מתוכו ,( נסיעה נסיעה כרטיס עבור\",נסיעה ביטול למבוטח נסיעה כרטיס ומתוכו:,א' 15.2\n$ 50,\"לכל $ 7,000 של מקסימלי סכום כרטיס )כולל א' 15 בפרק הכיסויים $ 2,000 עד יכוסו מתוכו ,( נסיעה נסיעה כרטיס עבור\",נסיעה קיצור למבוטח נסיעה כרטיס ומתוכו:,א' 15.3\n$ 50,\"$ 1,000\",- אשפוז בשל נסיעה תכנית שינוי נסיעה קיצור ללא,15.3.2\nה.ע ללא,$ 400,שבוטל נסיעה כרטיס עבור החזר עקב רפואי אירוע של במקרה מגיפה,15.4"
+}

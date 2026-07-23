@@ -1,0 +1,28 @@
+{
+  "id": "pdf:business/files/טופס-הצעה-לפוליסת-מכלול-לחבר-מושב.pdf#32",
+  "source": "llm",
+  "description": {
+    "title": "מכלול - הצעה לפוליסה",
+    "summary": "This table details insurance quotes for 'Mekhalel' policies, likely for agricultural properties. It allows looking up coverage costs based on property details like area and type of cultivation.",
+    "embed_passage": "פוליסת 'מכלול' מציעה כיסוי מקיף לרכוש חקלאי, כאשר עלות הביטוח משתנה בהתאם לשטח הנכס ולסוג הגידול. לדוגמה, עבור שטח לולים של 15 מ\"ר, סכום הביטוח הוא ₪700,000, ועבור מטעי זיתים, סכום הביטוח יכול להגיע ל-₪900,000.",
+    "row_axis": "Type of agricultural land/property (e.g., chicken coops, olive groves)",
+    "column_axis": "Insurance details (e.g., insurance amount, coverage options)",
+    "units": [
+      "₪",
+      "מ\"ר"
+    ],
+    "notable_values": [
+      "Insurance amount for chicken coops: ₪700,000",
+      "Area of chicken coops: 15 מ\"ר",
+      "Insurance amount for olive groves: ₪900,000",
+      "Value: 12.5",
+      "Value: 100"
+    ],
+    "product_hints": [
+      "מכלול"
+    ]
+  },
+  "sketch": "12.5\n12.5\n₪  700,000\n100\n…\n53,35,26,20,,,,נשירים\n,45,30,,,,,בעל זיתים\n,53,45,32,,,,שלחין זיתים\n,,,,,,,:( לפרט )נא אחרים",
+  "embed_text": "פוליסת 'מכלול' מציעה כיסוי מקיף לרכוש חקלאי, כאשר עלות הביטוח משתנה בהתאם לשטח הנכס ולסוג הגידול. לדוגמה, עבור שטח לולים של 15 מ\"ר, סכום הביטוח הוא ₪700,000, ועבור מטעי זיתים, סכום הביטוח יכול להגיע ל-₪900,000.",
+  "payload": "טבלה: מכלול - הצעה לפוליסה\nThis table details insurance quotes for 'Mekhalel' policies, likely for agricultural properties. It allows looking up coverage costs based on property details like area and type of cultivation.\nממדים: Type of agricultural land/property (e.g., chicken coops, olive groves), Insurance details (e.g., insurance amount, coverage options)\n\n12.5\n12.5\n₪  700,000\n100\n\"הנדרש( גבול את ביטוח דמי.₪ 35,000\",\"הנדרש( גבול את ביטוח דמי.₪ 25,000\",\"הנדרש( גבול את ביטוח דמי.₪ 20,000\",\"הנדרש( גבול את ביטוח דמי.₪ 15,000\",\"לא כן.בדונמים המטע שטח.סה\"\"כ\",לא כן.בדונמים המטע שטח.מניב,לא כן.בדונמים המטע שטח.מניב לא,כיסוי? מתבקש האם מטעים..\n65,45,30,,,,,נצרים( אובדן כולל )לא תמרים\n,,26,,,,,הדרים\n,40,30,22,,,,אבוקדו\n43,35,,,,,,מנגו\n53,40,,,,,,נצרים( אובדן כולל )לא בננות\n53,35,26,,,,,כרם\n53,35,26,20,,,,נשירים\n,45,30,,,,,בעל זיתים\n,53,45,32,,,,שלחין זיתים\n,,,,,,,:( לפרט )נא אחרים"
+}

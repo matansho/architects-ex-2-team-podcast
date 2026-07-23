@@ -1,0 +1,27 @@
+{
+  "id": "pdf:life/files/טופס-הצטרפות-לביטוח-חיים-17-שאלות-בהצהרת-הבריאות.pdf#69",
+  "source": "llm",
+  "description": {
+    "title": "הרשאה לחיוב חשבון",
+    "summary": "This table details authorization for direct debit from a bank account, specifying limits and expiration dates. It allows users to set a maximum charge amount (in ₪) and an expiration date for the authorization.",
+    "embed_passage": "טופס זה עוסק בהרשאה לחיוב חשבון בבנק, המאפשרת למוטב לחייב את חשבון הלקוח בסכומים ובמועדים שיומצאו. ניתן להגביל את החיוב לתקרת סכום מסוים בשקלים חדשים (₪) ולקבוע מועד פקיעת תוקף להרשאה. לדוגמה, תקרת סכום החיוב יכולה להיות ₪6.",
+    "row_axis": "Types of authorization (general vs. limited)",
+    "column_axis": "Authorization details (expiration date, maximum amount)",
+    "units": [
+      "₪"
+    ],
+    "notable_values": [
+      "expiration date: / /",
+      "maximum charge amount: ₪",
+      "bank code: 6",
+      "account type: 0"
+    ],
+    "product_hints": [
+      "הרשאה לחיוב חשבון",
+      "הראל"
+    ]
+  },
+  "sketch": "8\nאו . הרשאה כללית, שאינה כוללת הגבלות\nהרשאה הכוללת לפחות אחת מההגבלות הבאות:\n.       /       / מועד פקיעת תוקף ההרשאה - ביום\n.₪                                - תקרת סכום החיוב\nלתשומת לבך,\nאי סימון אחת מהחלופות המוצגות לעיל, משמעה בחירה בהרשאה כללית, שאינה כוללת הגבלות.\nאם יישלחו על ידי המוטב חיובים שאינם עומדים בהגבלות שקבע הלקוח, הם יוחזרו על ידי הבנק, על כל המשמעויות הכרוכות בכך.",
+  "embed_text": "טופס זה עוסק בהרשאה לחיוב חשבון בבנק, המאפשרת למוטב לחייב את חשבון הלקוח בסכומים ובמועדים שיומצאו. ניתן להגביל את החיוב לתקרת סכום מסוים בשקלים חדשים (₪) ולקבוע מועד פקיעת תוקף להרשאה. לדוגמה, תקרת סכום החיוב יכולה להיות ₪6.",
+  "payload": "טבלה: הרשאה לחיוב חשבון\nThis table details authorization for direct debit from a bank account, specifying limits and expiration dates. It allows users to set a maximum charge amount (in ₪) and an expiration date for the authorization.\nממדים: Types of authorization (general vs. limited), Authorization details (expiration date, maximum amount)\n\n8\nאו . הרשאה כללית, שאינה כוללת הגבלות\nהרשאה הכוללת לפחות אחת מההגבלות הבאות:\n.       /       / מועד פקיעת תוקף ההרשאה - ביום\n.₪                                - תקרת סכום החיוב\nלתשומת לבך,\nאי סימון אחת מהחלופות המוצגות לעיל, משמעה בחירה בהרשאה כללית, שאינה כוללת הגבלות.\nאם יישלחו על ידי המוטב חיובים שאינם עומדים בהגבלות שקבע הלקוח, הם יוחזרו על ידי הבנק, על כל המשמעויות הכרוכות בכך."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pdf:car/files/פוליסת-ביטוח-רכב-הראל-סוויץ-מהדורת-דצמבר-2021.pdf#55",
+  "source": "llm",
+  "description": {
+    "title": "כיסויים ביטוחיים - הראל סוויץ׳",
+    "summary": "This table lists covered perils under the 'Harel Switch' car insurance policy. It details the types of incidents the policy protects against, such as fire, theft, and collisions.",
+    "embed_passage": "פוליסת הראל סוויץ׳ מכסה מגוון רחב של סיכונים לרכב, כולל אש, ברק והתפוצצות (1.1), גניבה (1.3) ונזקים כתוצאה מהתנגשות (1.2). הכיסויים מפורטים בסעיפים שונים בפוליסה.",
+    "row_axis": "type of covered peril",
+    "column_axis": "peril description / code",
+    "units": [],
+    "notable_values": [
+      "אש, ברק, התפוצצות, התלקחות: 1.1",
+      "התנגשות מקרית: 1.2",
+      "גניבה: 1.3",
+      "נזק עקב ניסיון גניבה: 1.4",
+      "שיטפון, סערה, ברד: 1.5"
+    ],
+    "product_hints": [
+      "הראל סוויץ׳",
+      "Harel Switch"
+    ]
+  },
+  "sketch": ". אש, ברק, התפוצצות, התלקחות; 1.1\n. התנגשות מקרית, התהפכות ותאונה מכל סוג שהוא; 1.2\n. גניבה; 1.3\n. כל נזק שנגרם עקב גניבה תוך כדי גניבה ובעת ניסיון גניבה; 1.4\n. שיטפון, סערה, שלג, ברד, התפרצות הר געש; 1.5\n, אולם אם נגרם מקרה הביטוח בידי המבוטח או בידי מי מטעמו במתכוון , . מעשה זדון 1.6 פטור המבטח מחבותו.",
+  "embed_text": "פוליסת הראל סוויץ׳ מכסה מגוון רחב של סיכונים לרכב, כולל אש, ברק והתפוצצות (1.1), גניבה (1.3) ונזקים כתוצאה מהתנגשות (1.2). הכיסויים מפורטים בסעיפים שונים בפוליסה.",
+  "payload": "טבלה: כיסויים ביטוחיים - הראל סוויץ׳\nThis table lists covered perils under the 'Harel Switch' car insurance policy. It details the types of incidents the policy protects against, such as fire, theft, and collisions.\nממדים: type of covered peril, peril description / code\n\n. אש, ברק, התפוצצות, התלקחות; 1.1\n. התנגשות מקרית, התהפכות ותאונה מכל סוג שהוא; 1.2\n. גניבה; 1.3\n. כל נזק שנגרם עקב גניבה תוך כדי גניבה ובעת ניסיון גניבה; 1.4\n. שיטפון, סערה, שלג, ברד, התפרצות הר געש; 1.5\n, אולם אם נגרם מקרה הביטוח בידי המבוטח או בידי מי מטעמו במתכוון , . מעשה זדון 1.6 פטור המבטח מחבותו."
+}

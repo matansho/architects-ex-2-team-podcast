@@ -1,0 +1,25 @@
+{
+  "id": "pdf:business/files/טופס-הצעה-לביטוח-אחריות-מקצועית.pdf#6",
+  "source": "llm",
+  "description": {
+    "title": "הצעת ביטוח אחריות מקצועית",
+    "summary": "This table captures details from a professional liability insurance proposal form. It's used to look up policy information based on agent and policy numbers.",
+    "embed_passage": "טופס זה משמש להצעת ביטוח אחריות מקצועית. ניתן לחפש מידע על הפוליסה לפי מספר הפוליסה, לדוגמה 12345, או לפי שם הסוכן. השאלה 'האם פיטרת עובד בשל טעות מקצועית?' היא חלק מהמידע הנאסף.",
+    "row_axis": "Individual insurance proposal / applicant",
+    "column_axis": "Proposal details (e.g., agent information, employment history, policy number)",
+    "units": [],
+    "notable_values": [
+      "מספר סוכן: unknown",
+      "שם סוכן: unknown",
+      "מס' הפוליסה: unknown",
+      "שנת ייסוד העסק: unknown",
+      "מחזור הכנסות כולל בשנה האחרונה: unknown"
+    ],
+    "product_hints": [
+      "ביטוח אחריות מקצועית"
+    ]
+  },
+  "sketch": "? האם פיטרת עובד, או חשבת לפטרו, בשל טעות מקצועית\n:\nכן, פרט\nלא\n…\nפרט\nמספר סוכן\nשם סוכן\nמס' הפוליסה",
+  "embed_text": "טופס זה משמש להצעת ביטוח אחריות מקצועית. ניתן לחפש מידע על הפוליסה לפי מספר הפוליסה, לדוגמה 12345, או לפי שם הסוכן. השאלה 'האם פיטרת עובד בשל טעות מקצועית?' היא חלק מהמידע הנאסף.",
+  "payload": "טבלה: הצעת ביטוח אחריות מקצועית\nThis table captures details from a professional liability insurance proposal form. It's used to look up policy information based on agent and policy numbers.\nממדים: Individual insurance proposal / applicant, Proposal details (e.g., agent information, employment history, policy number)\n\n? האם פיטרת עובד, או חשבת לפטרו, בשל טעות מקצועית\n:\nכן, פרט\nלא\n? האם מצויים בידך נתונים כלשהם החשובים לצורך הערכת הסיכון בגין ביטוח זה\nמה מספר המועסקים בעסק הנדון? שותפים ומנהלים                        סגל מקצועי                        שאר העובדים                        סה\"כ\nכן\nלא\n? השנים האחרונות שינויים בבעלות, השתלטות, פיצול או שינוי בשם הפירמה 3- האם בוצעו ב\n:\nפרט\nמספר סוכן\nשם סוכן\nמס' הפוליסה"
+}

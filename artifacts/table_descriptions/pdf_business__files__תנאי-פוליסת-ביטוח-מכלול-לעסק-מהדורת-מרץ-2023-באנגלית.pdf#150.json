@@ -1,0 +1,25 @@
+{
+  "id": "pdf:business/files/תנאי-פוליסת-ביטוח-מכלול-לעסק-מהדורת-מרץ-2023-באנגלית.pdf#150",
+  "source": "llm",
+  "description": {
+    "title": "מכלול - חריגות",
+    "summary": "This table lists exclusions to coverage under the 'מכלול' insurance policy for businesses. It details situations where the policy will not provide coverage, such as fines or damage from defamation.",
+    "embed_passage": "פוליסת 'מכלול' אינה מכסה קנסות, היטלים או נזקים עונשיים (3.16). כמו כן, הפוליסה לא תכסה תביעות הנובעות מנזק כספי, אלא אם כן הנזק נגרם ישירות כתוצאה מנזק לרכוש (3.17). הפוליסה גם לא מכסה אחריות כנושא משרה או דירקטור, אלא אם כן האחריות הייתה חלה גם אם המבוטח לא היה נושא משרה (3.18).",
+    "row_axis": "Type of exclusion",
+    "column_axis": "N/A - each row is a distinct exclusion",
+    "units": [],
+    "notable_values": [
+      "exclusion: fines",
+      "exclusion: financial damage",
+      "exclusion: defamation",
+      "exclusion: director liability",
+      "exclusion: document loss"
+    ],
+    "product_hints": [
+      "מכלול"
+    ]
+  },
+  "sketch": "3.16 Fines, levies, multiple damages, punitive damages, exemplary damages.\n3.17 Claims arising from financial damage, unless such damage is caused directly and subsequent to actual property damage.\n3.18 Liability as a director and/or officer, including as a manager or senior official, unless such would have applied to the defendant/ insured had he not been an officer.\n3.19 Loss of documents, loss of ability or right to use them or their delay.\n3.20 Advertisement, defamation, slander, reviling or libel in any form.",
+  "embed_text": "פוליסת 'מכלול' אינה מכסה קנסות, היטלים או נזקים עונשיים (3.16). כמו כן, הפוליסה לא תכסה תביעות הנובעות מנזק כספי, אלא אם כן הנזק נגרם ישירות כתוצאה מנזק לרכוש (3.17). הפוליסה גם לא מכסה אחריות כנושא משרה או דירקטור, אלא אם כן האחריות הייתה חלה גם אם המבוטח לא היה נושא משרה (3.18).",
+  "payload": "טבלה: מכלול - חריגות\nThis table lists exclusions to coverage under the 'מכלול' insurance policy for businesses. It details situations where the policy will not provide coverage, such as fines or damage from defamation.\nממדים: Type of exclusion, N/A - each row is a distinct exclusion\n\n3.16 Fines, levies, multiple damages, punitive damages, exemplary damages.\n3.17 Claims arising from financial damage, unless such damage is caused directly and subsequent to actual property damage.\n3.18 Liability as a director and/or officer, including as a manager or senior official, unless such would have applied to the defendant/ insured had he not been an officer.\n3.19 Loss of documents, loss of ability or right to use them or their delay.\n3.20 Advertisement, defamation, slander, reviling or libel in any form."
+}

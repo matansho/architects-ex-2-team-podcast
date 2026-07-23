@@ -1,0 +1,28 @@
+{
+  "id": "pdf:loss-of-working-ability/files/טופס-הצעה-לביטוח-חיים-ואובדן-כושר-עבודה.pdf#13",
+  "source": "llm",
+  "description": {
+    "title": "מוטבים",
+    "summary": "This table lists beneficiaries for a life and disability insurance policy. It details the beneficiary's name, ID, date of birth, relationship to the insured, and their percentage of the benefit.",
+    "embed_passage": "תוכנית הראל לעתיד חדש מאפשרת מינוי מוטבים למקרה מוות. הנתונים כוללים שם פרטי, מספר ת״ז, תאריך לידה, קרבה למבוטח ואחוז החלק המגיע לכל אחד. לדוגמה, ניתן לציין מוטב עם 100% מהסכום הכולל.",
+    "row_axis": "beneficiary",
+    "column_axis": "beneficiary details (name, ID, date of birth, relationship, percentage)",
+    "units": [
+      "%"
+    ],
+    "notable_values": [
+      "percentage: 100%",
+      "label: סה״כ",
+      "label: ת.ז. מספר",
+      "label: תאריך לידה"
+    ],
+    "product_hints": [
+      "הראל לעתיד חדש",
+      "ביטוח חיים",
+      "אובדן כושר עבודה"
+    ]
+  },
+  "sketch": "3 לכל אחד מהנספחים עלות נפרדת. מוסכם ומוצהר בזה כי המבוטח יהיה רשאי לבטל נספח מהנספחים של התכנית הראל לעתיד חדש במהלך תקופת הביטוח מבלי לפגוע בזכותו להמשיך את תכנית הבסיס והנספחים הנותרים, אם קיימים.\n4 המוטבים למקרה מוות\nד\nבאחוזים והחלק,קרבה,לידה תאריך,ת.ז. מספר,פרטי שם,שם\n…\n,,,,,.5\n,,,,,.6\n100%,\"סה\"\"כ\",,,,\n4 בהעדר מינוי מוטבים, הסכומים ישולמו ליורשים החוקיים על-פי הדין בהתאם לצו ירושה או על-פי צו קיום צוואה.",
+  "embed_text": "תוכנית הראל לעתיד חדש מאפשרת מינוי מוטבים למקרה מוות. הנתונים כוללים שם פרטי, מספר ת״ז, תאריך לידה, קרבה למבוטח ואחוז החלק המגיע לכל אחד. לדוגמה, ניתן לציין מוטב עם 100% מהסכום הכולל.",
+  "payload": "טבלה: מוטבים\nThis table lists beneficiaries for a life and disability insurance policy. It details the beneficiary's name, ID, date of birth, relationship to the insured, and their percentage of the benefit.\nממדים: beneficiary, beneficiary details (name, ID, date of birth, relationship, percentage)\n\n3 לכל אחד מהנספחים עלות נפרדת. מוסכם ומוצהר בזה כי המבוטח יהיה רשאי לבטל נספח מהנספחים של התכנית הראל לעתיד חדש במהלך תקופת הביטוח מבלי לפגוע בזכותו להמשיך את תכנית הבסיס והנספחים הנותרים, אם קיימים.\n4 המוטבים למקרה מוות\nד\nבאחוזים והחלק,קרבה,לידה תאריך,ת.ז. מספר,פרטי שם,שם\n,,,,,.1\n,,,,,.2\n,,,,,.3\n,,,,,.4\n,,,,,.5\n,,,,,.6\n100%,\"סה\"\"כ\",,,,\n4 בהעדר מינוי מוטבים, הסכומים ישולמו ליורשים החוקיים על-פי הדין בהתאם לצו ירושה או על-פי צו קיום צוואה."
+}

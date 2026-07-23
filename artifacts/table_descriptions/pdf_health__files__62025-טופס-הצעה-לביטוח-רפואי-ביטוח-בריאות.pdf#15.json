@@ -1,0 +1,23 @@
+{
+  "id": "pdf:health/files/62025-טופס-הצעה-לביטוח-רפואי-ביטוח-בריאות.pdf#15",
+  "source": "llm",
+  "description": {
+    "title": "הצהרת בריאות",
+    "summary": "This table is a health declaration form used to assess risk for health insurance. It lists various medical conditions to determine eligibility and potential premium adjustments.",
+    "embed_passage": "טופס הצהרת הבריאות בוחן היסטוריה משפחתית ומצב בריאותי קיים, כגון סרטן הערמונית, סרטן השחלות, סוכרת, או ניוון שרירים. תשובות 'כן' לשאלות אלו עשויות לדרוש שאלון מפורט יותר או תעודה מהרופא המטפל. לדוגמה, שאלה 24 בודקת היסטוריה של סרטן במשפחה, בעוד ששאלה 25 מתייחסת למחלות נוירולוגיות כמו אלצהיימר.",
+    "row_axis": "medical condition / health question",
+    "column_axis": "response (implicitly 'yes'/'no')",
+    "units": [],
+    "notable_values": [
+      "question number: 24",
+      "question number: 25",
+      "question number: 27"
+    ],
+    "product_hints": [
+      "ביטוח בריאות"
+    ]
+  },
+  "sketch": "משפחה קרובי משפחתי, פוליפוזיס כולל המעי סרטן ,) (פרוסטטה הערמונית סרטן השחלות, סרטן\",24\n,,,,,,,,,\"אצל השד, כליות שרירים, ניוון נפוצה, טרשת פרקינסון, אלצהיימר, העצבים: מערכת סוכרת, פוליציסטיות, ]27[ הנטינטון?\",25",
+  "embed_text": "טופס הצהרת הבריאות בוחן היסטוריה משפחתית ומצב בריאותי קיים, כגון סרטן הערמונית, סרטן השחלות, סוכרת, או ניוון שרירים. תשובות 'כן' לשאלות אלו עשויות לדרוש שאלון מפורט יותר או תעודה מהרופא המטפל. לדוגמה, שאלה 24 בודקת היסטוריה של סרטן במשפחה, בעוד ששאלה 25 מתייחסת למחלות נוירולוגיות כמו אלצהיימר.",
+  "payload": "טבלה: הצהרת בריאות\nThis table is a health declaration form used to assess risk for health insurance. It lists various medical conditions to determine eligibility and potential premium adjustments.\nממדים: medical condition / health question, response (implicitly 'yes'/'no')\n\nמשפחה קרובי משפחתי, פוליפוזיס כולל המעי סרטן ,) (פרוסטטה הערמונית סרטן השחלות, סרטן\",24\n,,,,,,,,,\"אצל השד, כליות שרירים, ניוון נפוצה, טרשת פרקינסון, אלצהיימר, העצבים: מערכת סוכרת, פוליציסטיות, ]27[ הנטינטון?\",25"
+}

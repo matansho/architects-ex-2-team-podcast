@@ -1,0 +1,25 @@
+{
+  "id": "pdf:business/files/פוליסת-מכלול-לחבר-מושב-מהדורת-ינואר-2023.pdf#25",
+  "source": "llm",
+  "description": {
+    "title": "סייגים לפוליסה",
+    "summary": "This table lists exclusions to the insurance policy. It details situations where the policy will not provide coverage, such as damage caused by nuclear materials or acts of terror.",
+    "embed_passage": "פוליסת מכלול כוללת סייגים רבים, למשל נזק תוצאתי (סעיף 3) או נזק שקיים פיצוי בגינו על פי חוק מס רכוש וקרן פיצויים (סעיף 4). הפוליסה אינה מכסה מעשה זדון שבוצע על ידי המבוטח או בן משפחתו (סעיף 6).",
+    "row_axis": "exclusion type",
+    "column_axis": "description/details of exclusion",
+    "units": [],
+    "notable_values": [
+      "סעיף 3: נזק תוצאתי",
+      "סעיף 4: חוק מס רכוש וקרן פיצויים",
+      "סעיף 5: רכוש שניטש",
+      "סעיף 6: מעשה זדון",
+      "סעיף 7: שימוש ברכב מנועי"
+    ],
+    "product_hints": [
+      "מכלול"
+    ]
+  },
+  "sketch": ".  נזק תוצאתי. 3\n, .  נזק כלשהו, שבגינו יש למבוטח הזכות לפיצויים על פי חוק מס רכוש וקרן פיצויים 4 , גם אם זכות זו נמנעה ממנו עקב אי קיום הוראה כלשהי מהוראות 1961 התשכ\"א החוק הנ\"ל;\n.  אבדן, נזק, או חבות כלשהם אשר נגרמו לרכוש שיצא מכלל שימוש באופן קבוע או 5 C לרכוש שניטש וגם/או מרכוש שניטש",
+  "embed_text": "פוליסת מכלול כוללת סייגים רבים, למשל נזק תוצאתי (סעיף 3) או נזק שקיים פיצוי בגינו על פי חוק מס רכוש וקרן פיצויים (סעיף 4). הפוליסה אינה מכסה מעשה זדון שבוצע על ידי המבוטח או בן משפחתו (סעיף 6).",
+  "payload": "טבלה: סייגים לפוליסה\nThis table lists exclusions to the insurance policy. It details situations where the policy will not provide coverage, such as damage caused by nuclear materials or acts of terror.\nממדים: exclusion type, description/details of exclusion\n\n.  נזק תוצאתי. 3\n, .  נזק כלשהו, שבגינו יש למבוטח הזכות לפיצויים על פי חוק מס רכוש וקרן פיצויים 4 , גם אם זכות זו נמנעה ממנו עקב אי קיום הוראה כלשהי מהוראות 1961 התשכ\"א החוק הנ\"ל;\n.  אבדן, נזק, או חבות כלשהם אשר נגרמו לרכוש שיצא מכלל שימוש באופן קבוע או 5 C לרכוש שניטש וגם/או מרכוש שניטש"
+}

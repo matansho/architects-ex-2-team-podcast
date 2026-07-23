@@ -1,0 +1,25 @@
+{
+  "id": "pdf:business/files/טופס-הצטרפות-לביטוח-ניסויים-קליניים.pdf#4",
+  "source": "llm",
+  "description": {
+    "title": "רשימת חריגות תרופות",
+    "summary": "This table lists pharmaceutical products and substances excluded from clinical trial insurance coverage. It's used to determine if a trial involving specific drugs is eligible for insurance.",
+    "embed_passage": "רשימת חריגות תרופות זו כוללת תרופות שאינן מכוסות בפוליסת ביטוח ניסויים קליניים. לדוגמה, התרופות Adalimumab, Mibefradil ו- Valdecoxib מופיעות ברשימה זו. הרשימה כוללת גם חיסונים כמו LYMErix vaccine.",
+    "row_axis": "Pharmaceutical product/substance",
+    "column_axis": "Exclusion criteria (likely related to risk or coverage)",
+    "units": [],
+    "notable_values": [
+      "Adalimumab: excluded",
+      "Mibefradil: excluded",
+      "Valdecoxib: excluded",
+      "LYMErix vaccine: excluded",
+      "Levonorgestrel (marketed as OTC): excluded"
+    ],
+    "product_hints": [
+      "ביטוח ניסויים קליניים"
+    ]
+  },
+  "sketch": "Pharmaceutical products/substances exclusion list\n0,1,2\n8-Hydroxy-quinolines,-,Mibefradil\nAdalimumab,-,Nefazodone\n…\nLevomethadyl,-,Trovafloxacin\nLevonorgestrel (marketed as OTC),-,Valdecoxib\nLYMErix vaccine,-,Vardenafil\nMethylphenidate (MPH),,",
+  "embed_text": "רשימת חריגות תרופות זו כוללת תרופות שאינן מכוסות בפוליסת ביטוח ניסויים קליניים. לדוגמה, התרופות Adalimumab, Mibefradil ו- Valdecoxib מופיעות ברשימה זו. הרשימה כוללת גם חיסונים כמו LYMErix vaccine.",
+  "payload": "טבלה: רשימת חריגות תרופות\nThis table lists pharmaceutical products and substances excluded from clinical trial insurance coverage. It's used to determine if a trial involving specific drugs is eligible for insurance.\nממדים: Pharmaceutical product/substance, Exclusion criteria (likely related to risk or coverage)\n\nPharmaceutical products/substances exclusion list\n0,1,2\n8-Hydroxy-quinolines,-,Mibefradil\nAdalimumab,-,Nefazodone\nAlatrofloxacin,-,Olanzapine\nAlosetron,-,Parecoxib\nAmiodarone,-,Paroxetine\nApomorphine,-,Phentermine\nAstemizole,-,Phenylpropanolamine (PPA)\nBenzbromarone,-,Pioglitazone\nBromfenac,-,Piper methysticum (Kava-Kava)\nBromocriptine,-,Rapacuronium\nBupropion (also known as amfebutamone),-,Remoxipride\nButorphanol,-,Risperidone\nCelecoxib,-,Rofecoxib\nCerivastatin,-,Rosiglitazone\nCisapride,-,Selective Norepinephrine\n\"Contraceptives, side effects\",,Reuptake Inhibitors (SNRI)\n\"Dex, -Fenfluramine/Phentermine (PHEN- FEN)\",-,Selective Serotonin Reuptake Inhibitors (SSRI)\nDiethylstilbestrol (DES),-,Sibutramine\nEncainide,-,Sildenafil\nEphedrine / Pseudoephedrine,-,Statins including combined\nEtanercept Etoricoxib,,ingestion with fibrates\n,-,Sumatriptan\nFlosequinan,-,Tadalafil\nFluoxetine,-,Temafloxacin\nGrepafloxacin,-,Terbinafine\n\"Hormone Replacement Therapeutics (HRT),\",-,Terfenadine\n'box warning' side effects,-,Thalidomide\nInfliximab,,\nIsotretinoin,-,Theophyllin\nItraconazole,-,Thimerosal/Thiomersal\nLeflunomide,-,Troglitazone\nLevomethadyl,-,Trovafloxacin\nLevonorgestrel (marketed as OTC),-,Valdecoxib\nLYMErix vaccine,-,Vardenafil\nMethylphenidate (MPH),,"
+}

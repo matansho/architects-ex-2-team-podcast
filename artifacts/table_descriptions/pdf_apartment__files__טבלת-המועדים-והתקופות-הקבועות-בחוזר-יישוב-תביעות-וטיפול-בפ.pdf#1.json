@@ -1,0 +1,27 @@
+{
+  "id": "pdf:apartment/files/טבלת-המועדים-והתקופות-הקבועות-בחוזר-יישוב-תביעות-וטיפול-בפ.pdf#1",
+  "source": "llm",
+  "description": {
+    "title": "מועדי טיפול בתביעות מים",
+    "summary": "This table details the timeframes for handling water damage claims, specifying response and repair timelines. It's used to look up the number of business days allowed for various stages of the claim process.",
+    "embed_passage": "טבלת המועדים והתקופות הקבועות בחוזר 'יישוב תביעות וטיפול בפניות הציבור' מגדירה את זמני הטיפול בתביעות מים. לדוגמה, מסירת העתקים של הפוליסה צריכה להתבצע תוך 14 ימי עסקים מיום קבלת הבקשה, וחתימת התובע על מסמך מסירת העתקים תוך 21 ימי עסקים. תיקון נזק באמצעות שרברב בהסדר יכול להתחיל תוך 2 ימי עבודה.",
+    "row_axis": "stage of claim processing (e.g., request receipt, document delivery)",
+    "column_axis": "timeframe (number of business days)",
+    "units": [
+      "ימי עסקים"
+    ],
+    "notable_values": [
+      "מסירת העתקים: 14 ימי עסקים",
+      "חתימת התובע: 21 ימי עסקים",
+      "תחילת תיקון (שרברב): 2 ימי עבודה",
+      "זמן המתנה לשרברב: שעתיים"
+    ],
+    "product_hints": [
+      "ביטוח דירה",
+      "נזקי מים"
+    ]
+  },
+  "sketch": "מים 21 מ יאוחר לא ותיק אזרח הפניה. קבלת,ציבור. לפניית בכתב מענה,)יד( 8\nהבקשה. קבלת ממועד עסקים ימי 14,או מפוליסה העתקים מסירת מתקנון.,(1)( )טו 8\nהבקשה. קבלת ממועד עסקים ימי 21,שעליו מסמך מכל העתקים מסירת התובע. חתם,(3)( )טו 8\nהניהול. לחברת הפניה ממועד עבודה ימי 2,באמצעות הנזק תיקון תחילת שבהסדר. שרברב,(1) ה\nשעתיים. על יעלה לא,שבהסדר. לשרברב המתנה זמן,(3) ה",
+  "embed_text": "טבלת המועדים והתקופות הקבועות בחוזר 'יישוב תביעות וטיפול בפניות הציבור' מגדירה את זמני הטיפול בתביעות מים. לדוגמה, מסירת העתקים של הפוליסה צריכה להתבצע תוך 14 ימי עסקים מיום קבלת הבקשה, וחתימת התובע על מסמך מסירת העתקים תוך 21 ימי עסקים. תיקון נזק באמצעות שרברב בהסדר יכול להתחיל תוך 2 ימי עבודה.",
+  "payload": "טבלה: מועדי טיפול בתביעות מים\nThis table details the timeframes for handling water damage claims, specifying response and repair timelines. It's used to look up the number of business days allowed for various stages of the claim process.\nממדים: stage of claim processing (e.g., request receipt, document delivery), timeframe (number of business days)\n\nמים 21 מ יאוחר לא ותיק אזרח הפניה. קבלת,ציבור. לפניית בכתב מענה,)יד( 8\nהבקשה. קבלת ממועד עסקים ימי 14,או מפוליסה העתקים מסירת מתקנון.,(1)( )טו 8\nהבקשה. קבלת ממועד עסקים ימי 21,שעליו מסמך מכל העתקים מסירת התובע. חתם,(3)( )טו 8\nהניהול. לחברת הפניה ממועד עבודה ימי 2,באמצעות הנזק תיקון תחילת שבהסדר. שרברב,(1) ה\nשעתיים. על יעלה לא,שבהסדר. לשרברב המתנה זמן,(3) ה"
+}

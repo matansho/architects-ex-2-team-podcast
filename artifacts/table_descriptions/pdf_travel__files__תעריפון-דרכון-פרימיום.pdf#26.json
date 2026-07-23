@@ -1,0 +1,27 @@
+{
+  "id": "pdf:travel/files/תעריפון-דרכון-פרימיום.pdf#26",
+  "source": "llm",
+  "description": {
+    "title": "תעריפון דרכון פרימיום - אופניים",
+    "summary": "This table details the daily rates for bicycle insurance coverage as part of the 'דרכון פרימיום' travel insurance plan. It allows you to look up the daily premium based on the insured’s age and the coverage amount.",
+    "embed_passage": "ביטוח 'דרכון פרימיום' מציע כיסוי לאופניים, כאשר התעריף היומי משתנה בהתאם לגיל המבוטח ולסכום הביטוח. לדוגמה, עבור סכום ביטוח של $2,500, התעריף היומי הוא $1.33, ועבור $6,000 התעריף היומי הוא $3.30.",
+    "row_axis": "Insurance coverage options (bicycle, potentially others)",
+    "column_axis": "Daily rate, insured age, coverage amount",
+    "units": [
+      "$ / יום"
+    ],
+    "notable_values": [
+      "coverage amount: $2,500",
+      "daily rate: $1.33",
+      "coverage amount: $4,500",
+      "daily rate: $2.46",
+      "coverage amount: $6,000"
+    ],
+    "product_hints": [
+      "דרכון פרימיום"
+    ]
+  },
+  "sketch": "אופניים תעריף יומי\nהערות,יומי תעריף,המבוטח גיל,הביטוח סכום\nיום 90 עד,$ 1.33,הגילאים כל,\"$2,500\"\nיום 90 עד,$ 2.46 אופניים זוג עבור הינו התעריף,הגילאים כל,\"$4,500\"\nיום 90 עד,$ 3.30 אופניים זוג עבור הינו התעריף,הגילאים כל,\"$6,000\"\nהחברה שומרת לעצמה את הזכות לעדכן מעת לעת את היעדים אליהם לא ניתן לרכוש ביטוח נסיעות לחו\"ל. בכפוף לתנאי הפוליסה וסייגיה והנחיות החיתום של החברה.",
+  "embed_text": "ביטוח 'דרכון פרימיום' מציע כיסוי לאופניים, כאשר התעריף היומי משתנה בהתאם לגיל המבוטח ולסכום הביטוח. לדוגמה, עבור סכום ביטוח של $2,500, התעריף היומי הוא $1.33, ועבור $6,000 התעריף היומי הוא $3.30.",
+  "payload": "טבלה: תעריפון דרכון פרימיום - אופניים\nThis table details the daily rates for bicycle insurance coverage as part of the 'דרכון פרימיום' travel insurance plan. It allows you to look up the daily premium based on the insured’s age and the coverage amount.\nממדים: Insurance coverage options (bicycle, potentially others), Daily rate, insured age, coverage amount\n\nאופניים תעריף יומי\nהערות,יומי תעריף,המבוטח גיל,הביטוח סכום\nיום 90 עד,$ 1.33,הגילאים כל,\"$2,500\"\nיום 90 עד,$ 2.46 אופניים זוג עבור הינו התעריף,הגילאים כל,\"$4,500\"\nיום 90 עד,$ 3.30 אופניים זוג עבור הינו התעריף,הגילאים כל,\"$6,000\"\nהחברה שומרת לעצמה את הזכות לעדכן מעת לעת את היעדים אליהם לא ניתן לרכוש ביטוח נסיעות לחו\"ל. בכפוף לתנאי הפוליסה וסייגיה והנחיות החיתום של החברה."
+}

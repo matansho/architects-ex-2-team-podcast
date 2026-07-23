@@ -1,0 +1,25 @@
+{
+  "id": "pdf:car/files/פוליסה-לביטוח-עמדת-טעינה-לרכב-יולי-2023.pdf#87",
+  "source": "llm",
+  "description": {
+    "title": "פרטי התקשרות",
+    "summary": "This table lists contact details for the insurance company, including phone numbers and addresses. It's used to find where to send notices or file claims.",
+    "embed_passage": "פוליסת ביטוח עמדת טעינה לרכב מספקת פרטי התקשרות חשובים. ניתן ליצור קשר עם המשרד הראשי ברמת גן בטלפון 03-7547777 או בירושלים בטלפון 02-6404444. מוקד תביעות ביטוח כללי זמין במספר 03-9294000.",
+    "row_axis": "Contact type (e.g., main office, claims center)",
+    "column_axis": "Contact details (phone number, address, post office box)",
+    "units": [],
+    "notable_values": [
+      "Phone (Ramat Gan): 03-7547777",
+      "Ramat Gan Post Office Box: 10951",
+      "Phone (Jerusalem): 02-6404444",
+      "Jerusalem Post Office Box: 34259",
+      "Claims Center Phone: 03-9294000"
+    ],
+    "product_hints": [
+      "ביטוח עמדת טעינה לרכב"
+    ]
+  },
+  "sketch": ", הודעה של המבוטח למבטח תימסר למשרדו הראשי של המבטח הודעה למבטח: .15.2 או לכל מען אחר בישראל, לרבות כתובת דוא\"ל פעילה, שעליו הודיע המבטח בכתב למבוטח מזמן לזמן.\nפרטי התקשרות משרד ראשי\n03-7547777\n10951 , ת\"ד 3 בית הראל, רח' אבא הלל 5200901 רמת גן\n…\n02-6404444\n, , גבעת שאול 3 בית הראל, רח' עם ועולמו 9134102 , ירושלים 34259 ת\"ד\nמוקד תביעות ביטוח כללי\n03-9294000",
+  "embed_text": "פוליסת ביטוח עמדת טעינה לרכב מספקת פרטי התקשרות חשובים. ניתן ליצור קשר עם המשרד הראשי ברמת גן בטלפון 03-7547777 או בירושלים בטלפון 02-6404444. מוקד תביעות ביטוח כללי זמין במספר 03-9294000.",
+  "payload": "טבלה: פרטי התקשרות\nThis table lists contact details for the insurance company, including phone numbers and addresses. It's used to find where to send notices or file claims.\nממדים: Contact type (e.g., main office, claims center), Contact details (phone number, address, post office box)\n\n, הודעה של המבוטח למבטח תימסר למשרדו הראשי של המבטח הודעה למבטח: .15.2 או לכל מען אחר בישראל, לרבות כתובת דוא\"ל פעילה, שעליו הודיע המבטח בכתב למבוטח מזמן לזמן.\nפרטי התקשרות משרד ראשי\n03-7547777\n10951 , ת\"ד 3 בית הראל, רח' אבא הלל 5200901 רמת גן\nמחוז צפון\n04-8606444\n332 , ת\"ד 2 שדרות פלי\"ם 3100202 חיפה\nמחוז ירושלים\n02-6404444\n, , גבעת שאול 3 בית הראל, רח' עם ועולמו 9134102 , ירושלים 34259 ת\"ד\nמוקד תביעות ביטוח כללי\n03-9294000"
+}

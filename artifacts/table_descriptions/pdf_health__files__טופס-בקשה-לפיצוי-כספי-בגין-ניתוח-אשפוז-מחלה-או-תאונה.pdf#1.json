@@ -1,0 +1,30 @@
+{
+  "id": "pdf:health/files/טופס-בקשה-לפיצוי-כספי-בגין-ניתוח-אשפוז-מחלה-או-תאונה.pdf#1",
+  "source": "llm",
+  "description": {
+    "title": "טופס תביעת ניתוח",
+    "summary": "This table describes the requirements for submitting a health insurance claim for surgery or hospitalization. It details the necessary forms and documentation needed for processing a claim, depending on whether the surgery was performed in a private or public hospital.",
+    "embed_passage": "טופס תביעת בריאות בגין פיצוי בגין ניתוח יש למלא ולהעביר אלינו. ניתוחים שבוצעו בבי״ח פרטי באמצעות הביטוח המשלים (כללית מושלם/פלטינום, מכבי זהב, לאומית זהב, מאוחדת עדיף ומאוחדת שיא) דורשים מילוי חלקים א׳ ו-ב׳ בלבד. יש לצרף סיכום שחרור וגיליון ניתוח.",
+    "row_axis": "Claim requirements / documentation",
+    "column_axis": "Type of surgery location (private vs. public hospital, insurance plan)",
+    "units": [],
+    "notable_values": [
+      "Insurance plans: כללית מושלם/פלטינום",
+      "Insurance plans: מכבי זהב",
+      "Insurance plans: לאומית זהב",
+      "Insurance plans: מאוחדת עדיף",
+      "Insurance plans: מאוחדת שיא"
+    ],
+    "product_hints": [
+      "כללית מושלם",
+      "פלטינום",
+      "מכבי זהב",
+      "לאומית זהב",
+      "מאוחדת עדיף",
+      "מאוחדת שיא"
+    ]
+  },
+  "sketch": "ניתוחים שבוצעו בבי\"ח פרטי באמצעות הביטוח המשלים )כללית מושלם/פלטינום, מכבי זהב, לאומית זהב, מאוחדת עדיף ומאוחדת שיא( וניתוחים שבוצעו בבי\"ח ציבורי באמצעות קופ\"ח/ביטוח משלים\nלאחר שמולאו בו חלקים א' ו-ב' בלבד כדלהלן: טופס תביעת בריאות בגין פיצוי בגין ניתוח יש למלא ולהעביר אלינו את\n; א. חלק א', הכולל את פרטי המבוטח, עליך למלאו בעצמך - אנא מלא בו את כל הפרטים המבוקשים בקפידה, לשם שיפור וייעול הטיפול בפנייתך",
+  "embed_text": "טופס תביעת בריאות בגין פיצוי בגין ניתוח יש למלא ולהעביר אלינו. ניתוחים שבוצעו בבי״ח פרטי באמצעות הביטוח המשלים (כללית מושלם/פלטינום, מכבי זהב, לאומית זהב, מאוחדת עדיף ומאוחדת שיא) דורשים מילוי חלקים א׳ ו-ב׳ בלבד. יש לצרף סיכום שחרור וגיליון ניתוח.",
+  "payload": "טבלה: טופס תביעת ניתוח\nThis table describes the requirements for submitting a health insurance claim for surgery or hospitalization. It details the necessary forms and documentation needed for processing a claim, depending on whether the surgery was performed in a private or public hospital.\nממדים: Claim requirements / documentation, Type of surgery location (private vs. public hospital, insurance plan)\n\nניתוחים שבוצעו בבי\"ח פרטי באמצעות הביטוח המשלים )כללית מושלם/פלטינום, מכבי זהב, לאומית זהב, מאוחדת עדיף ומאוחדת שיא( וניתוחים שבוצעו בבי\"ח ציבורי באמצעות קופ\"ח/ביטוח משלים\nלאחר שמולאו בו חלקים א' ו-ב' בלבד כדלהלן: טופס תביעת בריאות בגין פיצוי בגין ניתוח יש למלא ולהעביר אלינו את\n; א. חלק א', הכולל את פרטי המבוטח, עליך למלאו בעצמך - אנא מלא בו את כל הפרטים המבוקשים בקפידה, לשם שיפור וייעול הטיפול בפנייתך"
+}

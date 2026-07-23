@@ -1,0 +1,25 @@
+{
+  "id": "pdf:car/files/תנאי-פוליסת-ביטוח-לרכב-פרטי-ומסחרי-עד-35-טון-יוני-2023-באנגלית.pdf#117",
+  "source": "llm",
+  "description": {
+    "title": "היסטוריית תביעות",
+    "summary": "This table describes the claims history report provided by the insurer. It details claims filed against the policy, including dates, amounts, and recovery rates.",
+    "embed_passage": "פוליסת ביטוח לרכב מספקת דוח היסטוריית תביעות, המפרט את פרטי כל אירוע מבוטח שבו הוגשה תביעה. הדוח מציין את מספר הרכב המבוטח, תאריך האירוע, הסכום ששולם, סוג הכיסוי, ואת שיעור ההחזר שהתקבל, עד לסכום של 5,000 ש״ח.",
+    "row_axis": "claims history report",
+    "column_axis": "claim details (date, amount, type, recovery rate)",
+    "units": [
+      "₪"
+    ],
+    "notable_values": [
+      "claim threshold: 5,000 ₪",
+      "recovery rate threshold: 75%",
+      "report timing: 11 months after inception"
+    ],
+    "product_hints": [
+      "פוליסת ביטוח לרכב"
+    ]
+  },
+  "sketch": "52. Claims history report\n52.1 In the event of insurance for one year - 11 months after inception of the insurance period, or in the event of insurance for a period which is shorter than one year - at the end of the insurance period, the insurer shall send the insured a claims report noting whether the insured filed a claim or claims in regard to the vehicles covered under the policy during each year of insurance, up to the said date.\nThe history claims report shall note the details of each insured event in respect of which a claim was filed, as aforementioned, including the number of the insured vehicle, the date of the insured event, the sum paid, the type of cover, the type of claim (self or third party damage), the type of covered risk for which the insured claim was filed, whether compensation or indemnification was received by the insurer from a third party in regard to the claim, the rate of the compensation or indemnification received (hereinafter the 'recovery rate'), as well as sum of depreciation determined during the 3 year period preceding the date of the report, or the period during which the insured was covered by it, the shorter of the two.\n52.2 In the event that a claim is filed for the first time 11 months after the inception of the insurance period, the insurer shall send a corrected report immediately upon filing of the claim.\n52.3 In this paragraph, \"claim\" - a claim for which insurance benefits are paid according to paragraph 47, less the deductible, in a sum exceeding NIS 5,000.",
+  "embed_text": "פוליסת ביטוח לרכב מספקת דוח היסטוריית תביעות, המפרט את פרטי כל אירוע מבוטח שבו הוגשה תביעה. הדוח מציין את מספר הרכב המבוטח, תאריך האירוע, הסכום ששולם, סוג הכיסוי, ואת שיעור ההחזר שהתקבל, עד לסכום של 5,000 ש״ח.",
+  "payload": "טבלה: היסטוריית תביעות\nThis table describes the claims history report provided by the insurer. It details claims filed against the policy, including dates, amounts, and recovery rates.\nממדים: claims history report, claim details (date, amount, type, recovery rate)\n\n52. Claims history report\n52.1 In the event of insurance for one year - 11 months after inception of the insurance period, or in the event of insurance for a period which is shorter than one year - at the end of the insurance period, the insurer shall send the insured a claims report noting whether the insured filed a claim or claims in regard to the vehicles covered under the policy during each year of insurance, up to the said date.\nThe history claims report shall note the details of each insured event in respect of which a claim was filed, as aforementioned, including the number of the insured vehicle, the date of the insured event, the sum paid, the type of cover, the type of claim (self or third party damage), the type of covered risk for which the insured claim was filed, whether compensation or indemnification was received by the insurer from a third party in regard to the claim, the rate of the compensation or indemnification received (hereinafter the 'recovery rate'), as well as sum of depreciation determined during the 3 year period preceding the date of the report, or the period during which the insured was covered by it, the shorter of the two.\n52.2 In the event that a claim is filed for the first time 11 months after the inception of the insurance period, the insurer shall send a corrected report immediately upon filing of the claim.\n52.3 In this paragraph, \"claim\" - a claim for which insurance benefits are paid according to paragraph 47, less the deductible, in a sum exceeding NIS 5,000."
+}

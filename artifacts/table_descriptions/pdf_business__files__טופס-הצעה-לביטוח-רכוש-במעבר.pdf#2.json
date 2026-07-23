@@ -1,0 +1,25 @@
+{
+  "id": "pdf:business/files/טופס-הצעה-לביטוח-רכוש-במעבר.pdf#2",
+  "source": "llm",
+  "description": {
+    "title": "ביטוח רכוש במעבר",
+    "summary": "This table details insurance coverage for goods in transit, specifically related to vehicle characteristics and security systems. It's used to look up coverage details based on vehicle type, model, and installed security features.",
+    "embed_passage": "ביטוח רכוש במעבר מכסה אובדן או נזק לסחורות המובלות בכלי רכב. גבולות האחריות תלויים בתאור כלי הרכב, לדוגמה, מספר 1 מציין רכב מסוים. קיימים שירותים כמו אזעקה, איתור ומנוע משבת.",
+    "row_axis": "Vehicle description/identification",
+    "column_axis": "Coverage details and security features",
+    "units": [],
+    "notable_values": [
+      "מס׳: 1",
+      "אזעקה מערכת א.: כן",
+      "איתור מערכת ב.: כן",
+      "אימובילייזר: כן",
+      "גביה: רגילה"
+    ],
+    "product_hints": [
+      "ביטוח רכוש במעבר"
+    ]
+  },
+  "sketch": ",התשלום אופן ד\nשקים שירות אשראי,רגילה גביה\nהרכב כלי תאור ה.אחריות גבולות,הרכב כלי תאור ה.הרכב סוג,הרכב כלי תאור ה.ודגם תוצרת,הרכב כלי תאור ה.מס׳,הרכב כלי תאור ה.\n,,,1,\n…\n\"(\"\" המבוטח \"\"לידיעת בפרק הבא בעמוד דרישות פירוט )ראה כן\",אזעקה מערכת א.\nכן,פעילה איתור מערכת ב.\nכן,)אימובילייזר( מנוע משבת ג.\n,אחר ד.",
+  "embed_text": "ביטוח רכוש במעבר מכסה אובדן או נזק לסחורות המובלות בכלי רכב. גבולות האחריות תלויים בתאור כלי הרכב, לדוגמה, מספר 1 מציין רכב מסוים. קיימים שירותים כמו אזעקה, איתור ומנוע משבת.",
+  "payload": "טבלה: ביטוח רכוש במעבר\nThis table details insurance coverage for goods in transit, specifically related to vehicle characteristics and security systems. It's used to look up coverage details based on vehicle type, model, and installed security features.\nממדים: Vehicle description/identification, Coverage details and security features\n\n,התשלום אופן ד\nשקים שירות אשראי,רגילה גביה\nהרכב כלי תאור ה.אחריות גבולות,הרכב כלי תאור ה.הרכב סוג,הרכב כלי תאור ה.ודגם תוצרת,הרכב כלי תאור ה.מס׳,הרכב כלי תאור ה.\n,,,1,\n,,,2,\n,,,3,\n,,,4,\n,,,5,\nדולר / ₪,החברה אחריות גבולות.למכונית א.\nדולר / ₪,לחבילה ב.\nדולר / ₪,הביטוח תקופת במשך ג.\n,הגנות ז\n\"(\"\" המבוטח \"\"לידיעת בפרק הבא בעמוד דרישות פירוט )ראה כן\",אזעקה מערכת א.\nכן,פעילה איתור מערכת ב.\nכן,)אימובילייזר( מנוע משבת ג.\n,אחר ד."
+}

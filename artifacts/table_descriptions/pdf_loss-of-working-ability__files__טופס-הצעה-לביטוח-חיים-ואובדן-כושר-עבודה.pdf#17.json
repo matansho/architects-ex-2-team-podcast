@@ -1,0 +1,27 @@
+{
+  "id": "pdf:loss-of-working-ability/files/טופס-הצעה-לביטוח-חיים-ואובדן-כושר-עבודה.pdf#17",
+  "source": "llm",
+  "description": {
+    "title": "שאלון ביטוח",
+    "summary": "This table is a preliminary questionnaire for insurance applicants, used to gather health and lifestyle information. It helps assess risk factors related to life and disability insurance.",
+    "embed_passage": "טופס זה הוא שאלון ראשוני הנדרש ממועמד לביטוח. השאלות מתייחסות למשקל, עישון, צריכת אלכוהול וסמים, וכן למחלות רקע כגון סכרת, יתר לחץ דם ובעיות לב. המטרה היא להעריך את הסיכון הביטוחי של המועמד.",
+    "row_axis": "applicant responses / health conditions",
+    "column_axis": "question / category",
+    "units": [],
+    "notable_values": [
+      "years: 2",
+      "amount: 1",
+      "age: 65",
+      "number: 2",
+      "number: 3"
+    ],
+    "product_hints": [
+      "ביטוח חיים",
+      "אובדן כושר עבודה",
+      "טופס הצעה"
+    ]
+  },
+  "sketch": "- מיועד לכל מוצרי הביטוח 1. פרק א\nמועמד לביטוח\nא׳ .1 האם חל שינוי במשקלך בשנתיים האחרונות?\nאחר, פרט\n…\nליום, משך\nשנים, כמות של\nעישנתי בעבר - הפסקתי לעשן לפני\n*לתשומת לבך, ככל שהנך מפסיק לעשן לתקופה ממושכת של שנתיים ומעלה, אנא עדכן את החברה בצירוף תצהיר מתאים, על מנת שתיבחן האפשרות לשינוי תעריף בכיסויים הרלוונטיים.",
+  "embed_text": "טופס זה הוא שאלון ראשוני הנדרש ממועמד לביטוח. השאלות מתייחסות למשקל, עישון, צריכת אלכוהול וסמים, וכן למחלות רקע כגון סכרת, יתר לחץ דם ובעיות לב. המטרה היא להעריך את הסיכון הביטוחי של המועמד.",
+  "payload": "טבלה: שאלון ביטוח\nThis table is a preliminary questionnaire for insurance applicants, used to gather health and lifestyle information. It helps assess risk factors related to life and disability insurance.\nממדים: applicant responses / health conditions, question / category\n\n- מיועד לכל מוצרי הביטוח 1. פרק א\nמועמד לביטוח\nא׳ .1 האם חל שינוי במשקלך בשנתיים האחרונות?\nאחר, פרט\nדיאטה\n: ירידה של                   ק״ג, אם כן, פרט את הסיבה\nעליה\nלא\nב׳ שאלון עישון:\nאנא סמן את המשפט הנכון עבורך\nשנים.\nבמשך\n: הנני מעשן או עישנתי בשנתיים האחרונות - כמות ליום\nמעולם לא עישנתי\nשנים.\nליום, משך\nשנים, כמות של\nעישנתי בעבר - הפסקתי לעשן לפני\n*לתשומת לבך, ככל שהנך מפסיק לעשן לתקופה ממושכת של שנתיים ומעלה, אנא עדכן את החברה בצירוף תצהיר מתאים, על מנת שתיבחן האפשרות לשינוי תעריף בכיסויים הרלוונטיים."
+}

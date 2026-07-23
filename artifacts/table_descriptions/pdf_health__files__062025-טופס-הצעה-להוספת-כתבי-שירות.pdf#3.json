@@ -1,0 +1,26 @@
+{
+  "id": "pdf:health/files/062025-טופס-הצעה-להוספת-כתבי-שירות.pdf#3",
+  "source": "llm",
+  "description": {
+    "title": "הצעת ביטוח בריאות",
+    "summary": "This table is a health insurance proposal form for family members. It collects details about the proposed insured individuals, including their names, addresses, and family relationships.",
+    "embed_passage": "טופס זה משמש להוספת כתבי שירות ביטוח בריאות של הראל. הטופס אוסף מידע על מועמדים לביטוח, כולל שם פרטי, שם משפחה, כתובת מגורים, וקשר משפחתי (לדוגמה, ילד 1, ילד 2). המידע נאסף עבור כל אחד מהמבוטחים הפוטנציאליים במשפחה.",
+    "row_axis": "insured family member",
+    "column_axis": "personal details (name, address, family relation)",
+    "units": [],
+    "notable_values": [
+      "ילד 1: column header",
+      "ילד 2: column header",
+      "ילד 3: column header",
+      "ילד 4: column header",
+      "גיל: column header"
+    ],
+    "product_hints": [
+      "הראל",
+      "ביטוח בריאות"
+    ]
+  },
+  "sketch": "4 ילד,3 ילד,2 ילד,1 ילד,ג זו בן/בת,ח לביטו ראשי מועמד,\n,,,,,,ת זהו מספר\n,,,,,,ה משפח שם\n,,,,,,י פרט שם\n…\nהראשי למועמד זהה כתובת,הראשי למועמד זהה כתובת,הראשי למועמד זהה כתובת,הראשי למועמד זהה כתובת,,,ם מגורי כתובת\n,,,,,,ב רחו\n,,,,,,ת בי מס'\n,,,,,,ב יישו",
+  "embed_text": "טופס זה משמש להוספת כתבי שירות ביטוח בריאות של הראל. הטופס אוסף מידע על מועמדים לביטוח, כולל שם פרטי, שם משפחה, כתובת מגורים, וקשר משפחתי (לדוגמה, ילד 1, ילד 2). המידע נאסף עבור כל אחד מהמבוטחים הפוטנציאליים במשפחה.",
+  "payload": "טבלה: הצעת ביטוח בריאות\nThis table is a health insurance proposal form for family members. It collects details about the proposed insured individuals, including their names, addresses, and family relationships.\nממדים: insured family member, personal details (name, address, family relation)\n\n4 ילד,3 ילד,2 ילד,1 ילד,ג זו בן/בת,ח לביטו ראשי מועמד,\n,,,,,,ת זהו מספר\n,,,,,,ה משפח שם\n,,,,,,י פרט שם\nנקבה זכר,נקבה זכר,נקבה זכר,נקבה זכר,נקבה זכר,נקבה זכר,מין\n,,,,,,ה ליד תאריך\n,,,,,,ם חולי קופת\n,,,,,,\"ן שב\"\"\"\n,,,,,,י איש מצב\n,,,,,,ד ניי טלפון\n,,,,,,\"ל דוא\"\" כתובת\"\nהראשי למועמד זהה כתובת,הראשי למועמד זהה כתובת,הראשי למועמד זהה כתובת,הראשי למועמד זהה כתובת,,,ם מגורי כתובת\n,,,,,,ב רחו\n,,,,,,ת בי מס'\n,,,,,,ב יישו"
+}

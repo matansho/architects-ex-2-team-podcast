@@ -1,0 +1,25 @@
+{
+  "id": "pdf:business/files/טופס-הצעה-לביטוח-רכוש-במעבר.pdf#1",
+  "source": "llm",
+  "description": {
+    "title": "הצעת ביטוח רכוש במעבר",
+    "summary": "This table details an insurance quote for property in transit. It's used to look up agent details and policy period information.",
+    "embed_passage": "טופס הצעה לביטוח רכוש במעבר מכסה אובדן או נזק לסחורות במהלך הובלה. פרטי הסוכן כוללים שם הסוכנות, שם הסוכן ומספר הסוכן. תקופת הביטוח מצוינת החל מיום מסוים ועד בחצות יום אחר.",
+    "row_axis": "Individual insurance quote/proposal",
+    "column_axis": "Details related to the agent, contact information, and policy period",
+    "units": [],
+    "notable_values": [
+      "מס' הסוכן: unknown",
+      "תקופת ביטוח: unknown",
+      "שם הסוכנות: unknown",
+      "שם הסוכן: unknown",
+      "כתובת דואר אלקטרוני: unknown"
+    ],
+    "product_hints": [
+      "ביטוח רכוש במעבר"
+    ]
+  },
+  "sketch": "א פרטי הסוכן\nמס' הסוכן\nשם הסוכנות\nשם הסוכן\n…\nמיקוד,שכונה/עיר,מס׳,רחוב\nעיסוק,עיסוק,עיסוק,עיסוק\nדיוורים קבלת לצורך אלקטרוני דואר כתובת,דיוורים קבלת לצורך אלקטרוני דואר כתובת,דיוורים קבלת לצורך אלקטרוני דואר כתובת,דיוורים קבלת לצורך אלקטרוני דואר כתובת\n/ /.בחצות.יום:,ביטוח תקופת ג./ מיום:..",
+  "embed_text": "טופס הצעה לביטוח רכוש במעבר מכסה אובדן או נזק לסחורות במהלך הובלה. פרטי הסוכן כוללים שם הסוכנות, שם הסוכן ומספר הסוכן. תקופת הביטוח מצוינת החל מיום מסוים ועד בחצות יום אחר.",
+  "payload": "טבלה: הצעת ביטוח רכוש במעבר\nThis table details an insurance quote for property in transit. It's used to look up agent details and policy period information.\nממדים: Individual insurance quote/proposal, Details related to the agent, contact information, and policy period\n\nא פרטי הסוכן\nמס' הסוכן\nשם הסוכנות\nשם הסוכן\nלביטוח המועמד פרטי ב,לביטוח המועמד פרטי ב,לביטוח המועמד פרטי ב,לביטוח המועמד פרטי ב\n)+קידומת( טלפון,ת.זהות מס',פרטי שם,חברה / משפחה שם\n)+קידומת( טלפון,ת.זהות מס',פרטי שם,משפחה שם\nמיקוד,שכונה/עיר,מס׳,רחוב\nעיסוק,עיסוק,עיסוק,עיסוק\nדיוורים קבלת לצורך אלקטרוני דואר כתובת,דיוורים קבלת לצורך אלקטרוני דואר כתובת,דיוורים קבלת לצורך אלקטרוני דואר כתובת,דיוורים קבלת לצורך אלקטרוני דואר כתובת\n/ /.בחצות.יום:,ביטוח תקופת ג./ מיום:.."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "pdf:business/files/טופס-הצעה-לביטוח-עסקי-אחריות-מדיה.pdf#9",
+  "source": "llm",
+  "description": {
+    "title": "אחריות מדיה - הצעה",
+    "summary": "This table details insurance coverage for media liability, specifically looking up coverage details based on prior insurance history and potential claims. It helps determine the cost and terms of a policy.",
+    "embed_passage": "טופס הצעה לביטוח אחריות מדיה כולל מידע על ביטוח קודם, תקופת הפוליסה, וסכום הכיסוי. לדוגמה, סכום הכיסוי יכול להיות מוגדר, וניתן לבדוק האם הוגשו תביעות בעבר. השאלה האם חל שינוי בתנאי הפוליסה בעקבות תביעות קודמות רלוונטית.",
+    "row_axis": "Insurance history and claims details",
+    "column_axis": "Details of previous insurance policies and claims (insurer name, policy period, indemnity limit)",
+    "units": [],
+    "notable_values": [
+      "Policy period: 5 years",
+      "Limit of indemnity: unspecified",
+      "Claims made: unspecified",
+      "Increased premium?: unspecified",
+      "Policy terminated?: unspecified"
+    ],
+    "product_hints": [
+      "אחריות מדיה"
+    ]
+  },
+  "sketch": "Territories in which published,Turnover received,State whether publication is free or state cover price,\n\"IV. Previous insurance/previous claims 1. Have you previously been insured? If so , please specify:\",\"IV. Previous insurance/previous claims 1. Have you previously been insured? If so , please specify:\",\"IV. Previous insurance/previous claims 1. Have you previously been insured? If so , please specify:\",\"IV. Previous insurance/previous claims 1. Have you previously been insured? If so , please specify:\"\nName of insurer,Policy period,Limit of indemnity,\n\"3. Have any claims been made during the past five If so , please advise amount and background of each\",a) required increased premium? b) required special restrictions? c) been terminated/not been renewed by an insurer?,a) required increased premium? b) required special restrictions? c) been terminated/not been renewed by an insurer?,",
+  "embed_text": "טופס הצעה לביטוח אחריות מדיה כולל מידע על ביטוח קודם, תקופת הפוליסה, וסכום הכיסוי. לדוגמה, סכום הכיסוי יכול להיות מוגדר, וניתן לבדוק האם הוגשו תביעות בעבר. השאלה האם חל שינוי בתנאי הפוליסה בעקבות תביעות קודמות רלוונטית.",
+  "payload": "טבלה: אחריות מדיה - הצעה\nThis table details insurance coverage for media liability, specifically looking up coverage details based on prior insurance history and potential claims. It helps determine the cost and terms of a policy.\nממדים: Insurance history and claims details, Details of previous insurance policies and claims (insurer name, policy period, indemnity limit)\n\nTerritories in which published,Turnover received,State whether publication is free or state cover price,\n\"IV. Previous insurance/previous claims 1. Have you previously been insured? If so , please specify:\",\"IV. Previous insurance/previous claims 1. Have you previously been insured? If so , please specify:\",\"IV. Previous insurance/previous claims 1. Have you previously been insured? If so , please specify:\",\"IV. Previous insurance/previous claims 1. Have you previously been insured? If so , please specify:\"\nName of insurer,Policy period,Limit of indemnity,\n\"3. Have any claims been made during the past five If so , please advise amount and background of each\",a) required increased premium? b) required special restrictions? c) been terminated/not been renewed by an insurer?,a) required increased premium? b) required special restrictions? c) been terminated/not been renewed by an insurer?,"
+}

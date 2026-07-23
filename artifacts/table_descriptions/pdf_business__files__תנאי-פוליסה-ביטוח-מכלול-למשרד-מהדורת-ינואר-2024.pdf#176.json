@@ -1,0 +1,25 @@
+{
+  "id": "pdf:business/files/תנאי-פוליסה-ביטוח-מכלול-למשרד-מהדורת-ינואר-2024.pdf#176",
+  "source": "llm",
+  "description": {
+    "title": "מכלול - סייגים",
+    "summary": "This table details exclusions to coverage under the 'Mekhalel' insurance policy. It lists scenarios where the policy will not cover claims, such as those related to National Insurance Institute liabilities.",
+    "embed_passage": "פוליסת 'מכלול' אינה מכסה תביעות הנובעות מחבות למוסד לביטוח לאומי, למשל כאשר המבוטח לא שילם דמי ביטוח לאומי עבור עובד. הסייגים מתייחסים גם למקרים של עבודה דרך חברות כוח אדם או קבלנים. לדוגמה, סעיף .7.3.2.6.1 עוסק בתביעות מצד המוסד לביטוח לאומי.",
+    "row_axis": "exclusion clause",
+    "column_axis": "description of the exclusion",
+    "units": [],
+    "notable_values": [
+      "clause: .7.3.2.6",
+      "exclusion type: National Insurance Institute claim",
+      "exclusion reason: unpaid National Insurance contributions",
+      "exclusion type: claim via manpower company",
+      "clause: .7.3.2.6.2"
+    ],
+    "product_hints": [
+      "מכלול"
+    ]
+  },
+  "sketch": ".7.3.2.6 -בגין ו/או בקשר עם כל תביעה\n.7.3.2.6.1 , מצד המוסד לביטוח לאומי לגבי אדם שנפגע ושהמבוטח נדרש ולא שילם עבורו דמי ביטוח לאומי או לא דיווח למוסד לביטוח לאומי על היותו עובד שלו, כנדרש על פי דין;\n.7.3.2.6.2 מצד המוסד לביטוח לאומי לגבי אדם שעבד או נתן שירות למבוטח באמצעות חברת כוח אדם או קבלן, לרבות קבלן משנה, או באמצעות חשבוניות או תאגיד שבבעלותו.",
+  "embed_text": "פוליסת 'מכלול' אינה מכסה תביעות הנובעות מחבות למוסד לביטוח לאומי, למשל כאשר המבוטח לא שילם דמי ביטוח לאומי עבור עובד. הסייגים מתייחסים גם למקרים של עבודה דרך חברות כוח אדם או קבלנים. לדוגמה, סעיף .7.3.2.6.1 עוסק בתביעות מצד המוסד לביטוח לאומי.",
+  "payload": "טבלה: מכלול - סייגים\nThis table details exclusions to coverage under the 'Mekhalel' insurance policy. It lists scenarios where the policy will not cover claims, such as those related to National Insurance Institute liabilities.\nממדים: exclusion clause, description of the exclusion\n\n.7.3.2.6 -בגין ו/או בקשר עם כל תביעה\n.7.3.2.6.1 , מצד המוסד לביטוח לאומי לגבי אדם שנפגע ושהמבוטח נדרש ולא שילם עבורו דמי ביטוח לאומי או לא דיווח למוסד לביטוח לאומי על היותו עובד שלו, כנדרש על פי דין;\n.7.3.2.6.2 מצד המוסד לביטוח לאומי לגבי אדם שעבד או נתן שירות למבוטח באמצעות חברת כוח אדם או קבלן, לרבות קבלן משנה, או באמצעות חשבוניות או תאגיד שבבעלותו."
+}

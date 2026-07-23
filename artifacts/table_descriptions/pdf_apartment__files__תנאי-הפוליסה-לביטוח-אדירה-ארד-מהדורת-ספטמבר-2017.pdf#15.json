@@ -1,0 +1,24 @@
+{
+  "id": "pdf:apartment/files/תנאי-הפוליסה-לביטוח-אדירה-ארד-מהדורת-ספטמבר-2017.pdf#15",
+  "source": "llm",
+  "description": {
+    "title": "כיסויים לא מכוסים",
+    "summary": "This table lists risks that are not covered by the 'Adira Erd' insurance policy. It details events like war, terrorism, and government confiscation that would not be compensated.",
+    "embed_passage": "פוליסת 'אדירה ארד' אינה מכסה נזקים כתוצאה ממלחמה, פעולות אויב או פיגועים חבלניים. כמו כן, לא יכוסו מקרים של קרינה מייננת או תפיסה של רכוש על ידי הממשלה. הפוליסה מפרטת סוגי אירועים שאינם מזכים בתגמול ביטוחי.",
+    "row_axis": "Specific excluded risk",
+    "column_axis": "Description of the excluded risk",
+    "units": [],
+    "notable_values": [
+      "מלחמה, פעולות אויב, פיגועים חבלניים: .2.1",
+      "מלחמת אזרחים: .2.2",
+      "קרינה מייננת: .2.3",
+      "תפיסה על ידי הממשלה: .2.4"
+    ],
+    "product_hints": [
+      "אדירה ארד"
+    ]
+  },
+  "sketch": "מלחמה, פעולות אויב, פיגועים חבלניים. .2.1\nמלחמת אזרחים, מרד, התקוממות צבאית או עממית, מהפכה. .2.2\nקרינה מייננת, זיהום רדיואקטיבי, תהליכים גרעיניים, חומר גרעיני או פסולת גרעינית. .2.3\nתפיסה, הפקעה, החרמה, השמדה או הריסה של רכוש בידי הממשלה, הצבא, רשות .2.4 מקומית, או אדם הפועל על פי דין.",
+  "embed_text": "פוליסת 'אדירה ארד' אינה מכסה נזקים כתוצאה ממלחמה, פעולות אויב או פיגועים חבלניים. כמו כן, לא יכוסו מקרים של קרינה מייננת או תפיסה של רכוש על ידי הממשלה. הפוליסה מפרטת סוגי אירועים שאינם מזכים בתגמול ביטוחי.",
+  "payload": "טבלה: כיסויים לא מכוסים\nThis table lists risks that are not covered by the 'Adira Erd' insurance policy. It details events like war, terrorism, and government confiscation that would not be compensated.\nממדים: Specific excluded risk, Description of the excluded risk\n\nמלחמה, פעולות אויב, פיגועים חבלניים. .2.1\nמלחמת אזרחים, מרד, התקוממות צבאית או עממית, מהפכה. .2.2\nקרינה מייננת, זיהום רדיואקטיבי, תהליכים גרעיניים, חומר גרעיני או פסולת גרעינית. .2.3\nתפיסה, הפקעה, החרמה, השמדה או הריסה של רכוש בידי הממשלה, הצבא, רשות .2.4 מקומית, או אדם הפועל על פי דין."
+}

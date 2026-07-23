@@ -1,0 +1,22 @@
+{
+  "id": "pdf:business/files/טופס-הצטרפות-לביטוח-ניסויים-קליניים.pdf#3",
+  "source": "llm",
+  "description": {
+    "title": "ניסויים קליניים - תביעות",
+    "summary": "This table tracks claims related to clinical trials. It allows lookup of claim details by date of event, description of injury, and amount of claim.",
+    "embed_passage": "ביטוח ניסויים קליניים מכסה מקרים של פציעות המתרחשות במהלך ניסויים רפואיים. הנתונים כוללים את תאריך האירוע, תיאור הפציעה, וסכום התביעה. לדוגמה, תביעה יכולה להיות קשורה לפציעה שהתרחשה ב-12 החודשים האחרונים, עם סכום תביעה מסוים.",
+    "row_axis": "Individual claim",
+    "column_axis": "Claim details (date of event, description of injury, amount of claim, status, outcome)",
+    "units": [],
+    "notable_values": [
+      "Timeframe: 12 months",
+      "Claim details required"
+    ],
+    "product_hints": [
+      "ביטוח ניסויים קליניים"
+    ]
+  },
+  "sketch": "2 Describes the fluid-filled space between the thin layers of tissue that cover the brain and spinal cord. Drugs can be injected into the fluid or a sample of the fluid can be removed for testing.\nInclude  date  of  event,  date  of  claim,  description  of  injury,  amount  of claim, status and outcome.  (Attach a separate page if necessary)\nIf  not  included  in  the  Protocol  to  be  submitted  with  this  application, provide summary of similar or related Trials/Studies performed in the last  12  months. Include the dates, a description, the Phase of the Trial and  the  number  of  patients  or  volunteers  participating.  (Attach  a separate page if necessary):\nFor each trial to be insured, you must attach a copy of:\n…\nDate:\nPosition:\nThis proposal is subject to review and written confirmation on behalf of the insurers and shall not be construed as an offer to insure.\nNote: Attached Pharma exclusion list.",
+  "embed_text": "ביטוח ניסויים קליניים מכסה מקרים של פציעות המתרחשות במהלך ניסויים רפואיים. הנתונים כוללים את תאריך האירוע, תיאור הפציעה, וסכום התביעה. לדוגמה, תביעה יכולה להיות קשורה לפציעה שהתרחשה ב-12 החודשים האחרונים, עם סכום תביעה מסוים.",
+  "payload": "טבלה: ניסויים קליניים - תביעות\nThis table tracks claims related to clinical trials. It allows lookup of claim details by date of event, description of injury, and amount of claim.\nממדים: Individual claim, Claim details (date of event, description of injury, amount of claim, status, outcome)\n\n2 Describes the fluid-filled space between the thin layers of tissue that cover the brain and spinal cord. Drugs can be injected into the fluid or a sample of the fluid can be removed for testing.\nInclude  date  of  event,  date  of  claim,  description  of  injury,  amount  of claim, status and outcome.  (Attach a separate page if necessary)\nIf  not  included  in  the  Protocol  to  be  submitted  with  this  application, provide summary of similar or related Trials/Studies performed in the last  12  months. Include the dates, a description, the Phase of the Trial and  the  number  of  patients  or  volunteers  participating.  (Attach  a separate page if necessary):\nFor each trial to be insured, you must attach a copy of:\nProtocol or Summary of Protocol: (must be provided in English)\nHelsinki Committee (s) Approval (s) (may be in Hebrew)\nPatient Information/Explanation and Informed Consent Form to be used in the trial\nI  hereby  declare  that  all  of  the  answers  above  are  correct,  complete  and straightforward and that I have not concealed any material facts relating to the trial(s) to be insured or the assessment of the risks involved.  I hereby acknowledge and agree that the information provided above will be relied upon by the insurance company and shall serve as a basis of the policy.\nSigned on behalf of the Contracting Party:\nName:\nDate:\nPosition:\nThis proposal is subject to review and written confirmation on behalf of the insurers and shall not be construed as an offer to insure.\nNote: Attached Pharma exclusion list."
+}

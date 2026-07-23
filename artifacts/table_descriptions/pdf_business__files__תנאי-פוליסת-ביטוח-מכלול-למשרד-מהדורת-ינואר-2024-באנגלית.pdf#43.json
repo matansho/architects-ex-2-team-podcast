@@ -1,0 +1,25 @@
+{
+  "id": "pdf:business/files/תנאי-פוליסת-ביטוח-מכלול-למשרד-מהדורת-ינואר-2024-באנגלית.pdf#43",
+  "source": "llm",
+  "description": {
+    "title": "מכלול - שחזור נתונים ותוכנה",
+    "summary": "This table details the special conditions for data and software restoration under the מכלול insurance policy. It outlines how the sum insured is calculated and the insurer’s indemnification basis.",
+    "embed_passage": "פוליסת מכלול כוללת כיסוי לשחזור נתונים ותוכנה, כאשר סכום הביטוח מחושב על בסיס הפסד ראשוני. הביטוח מכסה הוצאות בפועל להחזרת הנתונים והתוכנה למצבם הקודם, ונדרשת שמירה של לפחות שלוש \"דורות\" של גיבויים יומיים ושבועיים.",
+    "row_axis": "Specific condition related to data and software restoration",
+    "column_axis": "Description of the condition",
+    "units": [],
+    "notable_values": [
+      "first loss basis: sum insured calculation",
+      "three: minimum generations of full daily backups",
+      "one daily backup",
+      "one weekly backup",
+      "outside the premises: backup storage location"
+    ],
+    "product_hints": [
+      "מכלול"
+    ]
+  },
+  "sketch": "3.6.7.3 Special conditions for data and software restoration\n3.6.7.3.1 The basis for calculating the sum insured The sum insured for the purpose of data and software restoration is on a first loss basis\nwhich is not subject to underinsurance conditions.\n3.6.7.3.2 The basis for calculating the indemnification The insurer shall indemnify the insured for actual expenses, which will be necessary to return the data and software which are insured under this cover to their condition, as existing soon before occurrence of the insured event.\n3.6.7.3.3 purpose of the cover for data and software\nMeasures to mitigate the insurer's risk for the restoration\nMaintaining backups of the information and software in a quantity according to procedures to be determined between the insured and the insurer.\n3.6.7.3.4 In the event that backup procedures have not been established by the insurer, then the insured shall keep at least three \"generations\" of full daily backups, one daily and one weekly backup (alternating), to be kept outside the premises. The other backups shall be kept physically separated from the computer, and will be located outside the computer room.",
+  "embed_text": "פוליסת מכלול כוללת כיסוי לשחזור נתונים ותוכנה, כאשר סכום הביטוח מחושב על בסיס הפסד ראשוני. הביטוח מכסה הוצאות בפועל להחזרת הנתונים והתוכנה למצבם הקודם, ונדרשת שמירה של לפחות שלוש \"דורות\" של גיבויים יומיים ושבועיים.",
+  "payload": "טבלה: מכלול - שחזור נתונים ותוכנה\nThis table details the special conditions for data and software restoration under the מכלול insurance policy. It outlines how the sum insured is calculated and the insurer’s indemnification basis.\nממדים: Specific condition related to data and software restoration, Description of the condition\n\n3.6.7.3 Special conditions for data and software restoration\n3.6.7.3.1 The basis for calculating the sum insured The sum insured for the purpose of data and software restoration is on a first loss basis\nwhich is not subject to underinsurance conditions.\n3.6.7.3.2 The basis for calculating the indemnification The insurer shall indemnify the insured for actual expenses, which will be necessary to return the data and software which are insured under this cover to their condition, as existing soon before occurrence of the insured event.\n3.6.7.3.3 purpose of the cover for data and software\nMeasures to mitigate the insurer's risk for the restoration\nMaintaining backups of the information and software in a quantity according to procedures to be determined between the insured and the insurer.\n3.6.7.3.4 In the event that backup procedures have not been established by the insurer, then the insured shall keep at least three \"generations\" of full daily backups, one daily and one weekly backup (alternating), to be kept outside the premises. The other backups shall be kept physically separated from the computer, and will be located outside the computer room."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "pdf:health/files/הצעה-לטיפולים-פרימיום-62025.pdf#10",
+  "source": "llm",
+  "description": {
+    "title": "בדיקות רפואיות",
+    "summary": "This table lists various medical tests and procedures. It is used to determine if a test was previously detailed in prior questions.",
+    "embed_passage": "פוליסת טיפולים פרימיום כוללת בדיקות רפואיות שונות, כגון ממוגרפיה, מיפוי עצמות וצנתור. הבדיקות עשויות להיות כרוכות בטשטוש או הרדמה. השאלה היא האם הבדיקה כבר פורטה בשאלות קודמות, לדוגמה, האם פרטת על כך באחת מהשאלות הקודמות?",
+    "row_axis": "Medical test/procedure",
+    "column_axis": "Whether previously detailed",
+    "units": [],
+    "notable_values": [
+      "ממוגרפיה: yes",
+      "מיפוי עצמות: yes",
+      "צנתור: yes",
+      "מיפוי לב: yes",
+      "אקו לב: yes"
+    ],
+    "product_hints": [
+      "טיפולים פרימיום"
+    ]
+  },
+  "sketch": "12\nממוגרפיה, מיפוי עצמות, צנתור, מיפוי לב, אקו לב\nהכרוכה בטשטוש/הרדמה)\nהריון, ביופסיה, דם סמוי, קולונוסקופיה, גסטרוסקופיה\n…\nהאם פרטת על כך באחת מהשאלות הקודמות\n-\nאם כן\n)\t( השאלה מופנית להורה או לאפוטרופוס של מועמד לביטוח שהינו קטין או פסול דין בלבד.",
+  "embed_text": "פוליסת טיפולים פרימיום כוללת בדיקות רפואיות שונות, כגון ממוגרפיה, מיפוי עצמות וצנתור. הבדיקות עשויות להיות כרוכות בטשטוש או הרדמה. השאלה היא האם הבדיקה כבר פורטה בשאלות קודמות, לדוגמה, האם פרטת על כך באחת מהשאלות הקודמות?",
+  "payload": "טבלה: בדיקות רפואיות\nThis table lists various medical tests and procedures. It is used to determine if a test was previously detailed in prior questions.\nממדים: Medical test/procedure, Whether previously detailed\n\n12\nממוגרפיה, מיפוי עצמות, צנתור, מיפוי לב, אקו לב\nהכרוכה בטשטוש/הרדמה)\nהריון, ביופסיה, דם סמוי, קולונוסקופיה, גסטרוסקופיה\n כן\nCT ,MRI ,\n?\nהאם פרטת על כך באחת מהשאלות הקודמות\n-\nאם כן\n)\t( השאלה מופנית להורה או לאפוטרופוס של מועמד לביטוח שהינו קטין או פסול דין בלבד."
+}

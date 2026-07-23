@@ -1,0 +1,25 @@
+{
+  "id": "pdf:business/files/טופס-הצעה-לביטוח-עסקי-ביטוח-חבות-משולב-לחברות-תוכנה-וחומרה.pdf#22",
+  "source": "llm",
+  "description": {
+    "title": "ביטוח חבות משולב",
+    "summary": "This table details claims, suits, or actions related to intellectual property rights for a business insurance policy. It's used to assess the risk profile of companies, particularly in software and hardware, when applying for coverage.",
+    "embed_passage": "ביטוח חבות משולב מגן על חברות תוכנה וחומרה מפני תביעות הקשורות לקניין רוחני. השאלה המרכזית היא האם החברה קיבלה התראה כלשהי בנוגע לתביעת קניין רוחני אפשרית או ממשית. לדוגמה, אם התקבלה התראה בכתב או בעל פה, יש לפרט את סוג ההתראה, התאריך והנסיבות.",
+    "row_axis": "Claim/Warning details",
+    "column_axis": "Claim/Warning characteristics (e.g., existence, type, date)",
+    "units": [],
+    "notable_values": [
+      "Section: 2",
+      "Claim type: intellectual property right claim",
+      "Notice type: written or oral",
+      "Response: Yes/No"
+    ],
+    "product_hints": [
+      "ביטוח חבות משולב",
+      "ביטוח קניין רוחני"
+    ]
+  },
+  "sketch": "Claims, Suits or Actions for Section 2\nHave  you  received  any  notice  or  warning,  whether  written  or  oral,  with  respect  to  any  possible  or  actual intellectual property right claim against you? Yes No\nIf yes, please provide details about the type, date and circumstances of the warning.\nList  all  potential  claims,  complaints,  disputes  or  any  other  circumstances  alleging  non-performance  of  your product or services:",
+  "embed_text": "ביטוח חבות משולב מגן על חברות תוכנה וחומרה מפני תביעות הקשורות לקניין רוחני. השאלה המרכזית היא האם החברה קיבלה התראה כלשהי בנוגע לתביעת קניין רוחני אפשרית או ממשית. לדוגמה, אם התקבלה התראה בכתב או בעל פה, יש לפרט את סוג ההתראה, התאריך והנסיבות.",
+  "payload": "טבלה: ביטוח חבות משולב\nThis table details claims, suits, or actions related to intellectual property rights for a business insurance policy. It's used to assess the risk profile of companies, particularly in software and hardware, when applying for coverage.\nממדים: Claim/Warning details, Claim/Warning characteristics (e.g., existence, type, date)\n\nClaims, Suits or Actions for Section 2\nHave  you  received  any  notice  or  warning,  whether  written  or  oral,  with  respect  to  any  possible  or  actual intellectual property right claim against you? Yes No\nIf yes, please provide details about the type, date and circumstances of the warning.\nList  all  potential  claims,  complaints,  disputes  or  any  other  circumstances  alleging  non-performance  of  your product or services:"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "pdf:car/files/חוברת-כללים-תביעות-רכב-צד-ג-92017-82025.pdf#65",
+  "source": "llm",
+  "description": {
+    "title": "מוסך ושמאי - הראל",
+    "summary": "This table details the process for car repair after an accident with Harel insurance, specifically regarding choosing a garage and appraiser. It outlines payment procedures and timelines.",
+    "embed_passage": "בהראל חברה לביטוח בע״מ, בחירת המוסך נעשית על ידך, וזכותך לבחור כל מוסך. אם בחרת במוסך הסדר, תשלום הנזק יבוצע ישירות למוסך ותהיה זכאי להטבות. לאחר בחינת דוח השמאי, חברתנו תפצה אותך בתוך 30 ימים.",
+    "row_axis": "Scenario: Garage choice (מוסך הסדר / לא בהסדר), Appraiser choice (שמאי חוץ / אחר)",
+    "column_axis": "Process steps, Payment responsibility, Timelines",
+    "units": [
+      "ימים"
+    ],
+    "notable_values": [
+      "30: Number of days for compensation after appraiser report review",
+      "עשרות: Number of authorized garages available",
+      "שמאי חוץ: Option to choose an external appraiser",
+      "מוסך הסדר: Option to choose a garage in the Harel network"
+    ],
+    "product_hints": [
+      "Harel Car Insurance",
+      "ביטוח רכב הראל"
+    ]
+  },
+  "sketch": ". 3 , בחירת המוסך תעשה על ידך וזכותך לבחור כל מוסך שהוא. לנוחיותך -מוסך הנך יכול לבחור באחד מעשרות מוסכי ההסדר* הפזורים בכל רחבי הארץ. אם בחרת במוסך הסדר יבוצע תשלום הנזק ישירות למוסך ותהיה זכאי להטבות באתר החברה. המפורטות אם בחרת במוסך שאינו בהסדר המוסכים עם החברה, אתה תישא בתשלום , ימים, לאחר בחינת דוח השמאי 30 עלות תיקון רכבך וחברתנו תפצה אותך בתוך אימות ובחינת גובה הנזקים ועלות תיקונם. ,\"\n*לצפייה ברשימת מוסכי ההסדר, היכנס לאתר החברה, \"תביעות ביטוח רכב .\" \"חיפוש מוסך הסדר",
+  "embed_text": "בהראל חברה לביטוח בע״מ, בחירת המוסך נעשית על ידך, וזכותך לבחור כל מוסך. אם בחרת במוסך הסדר, תשלום הנזק יבוצע ישירות למוסך ותהיה זכאי להטבות. לאחר בחינת דוח השמאי, חברתנו תפצה אותך בתוך 30 ימים.",
+  "payload": "טבלה: מוסך ושמאי - הראל\nThis table details the process for car repair after an accident with Harel insurance, specifically regarding choosing a garage and appraiser. It outlines payment procedures and timelines.\nממדים: Scenario: Garage choice (מוסך הסדר / לא בהסדר), Appraiser choice (שמאי חוץ / אחר), Process steps, Payment responsibility, Timelines\n\n. 3 , בחירת המוסך תעשה על ידך וזכותך לבחור כל מוסך שהוא. לנוחיותך -מוסך הנך יכול לבחור באחד מעשרות מוסכי ההסדר* הפזורים בכל רחבי הארץ. אם בחרת במוסך הסדר יבוצע תשלום הנזק ישירות למוסך ותהיה זכאי להטבות באתר החברה. המפורטות אם בחרת במוסך שאינו בהסדר המוסכים עם החברה, אתה תישא בתשלום , ימים, לאחר בחינת דוח השמאי 30 עלות תיקון רכבך וחברתנו תפצה אותך בתוך אימות ובחינת גובה הנזקים ועלות תיקונם. ,\"\n*לצפייה ברשימת מוסכי ההסדר, היכנס לאתר החברה, \"תביעות ביטוח רכב .\" \"חיפוש מוסך הסדר"
+}

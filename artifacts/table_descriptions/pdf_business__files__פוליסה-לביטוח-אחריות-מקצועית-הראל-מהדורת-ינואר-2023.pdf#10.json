@@ -1,0 +1,25 @@
+{
+  "id": "pdf:business/files/פוליסה-לביטוח-אחריות-מקצועית-הראל-מהדורת-ינואר-2023.pdf#10",
+  "source": "llm",
+  "description": {
+    "title": "גבולות אחריות - הראל",
+    "summary": "This table defines the types of damages covered and the liability limits under the Harel professional liability insurance policy. It details what constitutes bodily injury, financial loss, and property damage.",
+    "embed_passage": "פוליסת אחריות מקצועית של הראל מגדירה את גבולות האחריות עבור נזק גופני, נזק פיננסי טהור ונזק לרכוש. גבולות האחריות משתנים בהתאם למקרה הביטוח, כאשר סכומים נקובים ברשימה מגדירים את הכיסוי המקסימלי. לדוגמה, נזק לגוף כולל נזק גופני, נזק נפשי, חולי, מחלה או מוות שנגרמו לצד שלישי.",
+    "row_axis": "type of damage (e.g., bodily injury, financial loss)",
+    "column_axis": "definition of the damage type",
+    "units": [],
+    "notable_values": [
+      "נזק לגוף: נזק גופני, נזק נפשי, חולי, מחלה או מוות",
+      "נזק פיננסי טהור: נזק כספי ישיר",
+      "נזק לרכוש: נזק, הרס, אובדן או אובדן השימוש",
+      "הוצאות: כהגדרתן בחלק המבוא"
+    ],
+    "product_hints": [
+      "אחריות מקצועית הראל",
+      "פוליסת אחריות מקצועית"
+    ]
+  },
+  "sketch": "נזק גופני, נזק נפשי, חולי, מחלה או מוות שנגרמו לצד שלישי. : נזק לגוף .1.9\nנזק כספי ישיר שנגרם לצד שלישי. : נזק פיננסי טהור .1.10\nנזק, הרס, אובדן או אובדן השימוש שנגרם לרכוש צד שלישי. נזק לרכוש: .1.11\nכהגדרתן בחלק המבוא. הוצאות: .1.12",
+  "embed_text": "פוליסת אחריות מקצועית של הראל מגדירה את גבולות האחריות עבור נזק גופני, נזק פיננסי טהור ונזק לרכוש. גבולות האחריות משתנים בהתאם למקרה הביטוח, כאשר סכומים נקובים ברשימה מגדירים את הכיסוי המקסימלי. לדוגמה, נזק לגוף כולל נזק גופני, נזק נפשי, חולי, מחלה או מוות שנגרמו לצד שלישי.",
+  "payload": "טבלה: גבולות אחריות - הראל\nThis table defines the types of damages covered and the liability limits under the Harel professional liability insurance policy. It details what constitutes bodily injury, financial loss, and property damage.\nממדים: type of damage (e.g., bodily injury, financial loss), definition of the damage type\n\nנזק גופני, נזק נפשי, חולי, מחלה או מוות שנגרמו לצד שלישי. : נזק לגוף .1.9\nנזק כספי ישיר שנגרם לצד שלישי. : נזק פיננסי טהור .1.10\nנזק, הרס, אובדן או אובדן השימוש שנגרם לרכוש צד שלישי. נזק לרכוש: .1.11\nכהגדרתן בחלק המבוא. הוצאות: .1.12"
+}

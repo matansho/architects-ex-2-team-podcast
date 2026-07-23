@@ -1,0 +1,27 @@
+{
+  "id": "pdf:business/files/ביטוח-שיר-לעסק-ביטוח-לבית-העסק-מבית-שירביט-מהדורת-אפריל-2021.pdf#99",
+  "source": "llm",
+  "description": {
+    "title": "סכומי ביטוח ומלאי",
+    "summary": "This table details insurance amounts and coverage for business property and inventory. It's used to look up the relationship between insured amount, actual value, and potential reimbursement rates.",
+    "embed_passage": "ביטוח שיר לעסק מציע כיסוי לנזקים לרכוש העסק והמלאי. במקרה של נזק מכוסה, תגמולי הביטוח ביחס למלאי לא יעלו על 0.5 מסכום הביטוח הנקוב. אם סכום הביטוח (לדוגמה, 0.6) נמוך מערך הרכוש, חבות המבטח תפחת בהתאם.",
+    "row_axis": "Insurance coverage condition/scenario (e.g., insured amount vs. actual value)",
+    "column_axis": "Insurance amount ratio/reimbursement rate",
+    "units": [
+      "%",
+      "סכום הביטוח"
+    ],
+    "notable_values": [
+      "ratio: 0.4",
+      "ratio: 0.5",
+      "ratio: 0.6",
+      "maximum reimbursement: 50%"
+    ],
+    "product_hints": [
+      "ביטוח שיר לעסק"
+    ]
+  },
+  "sketch": "יהיו \" \"סכום הביטוח הממוצע במידה ודמי הביטוח שיחושבו בהתאם ל 1 0.4 , נמוכים מדמי הביטוח הארעיים המצוינים ברשימה ואשר שולמו בפועל 50% בתנאי  שהסכום  המוחזר  לא  יעלה  על , יוחזר  ההפרש  למבוטח . מדמי הביטוח ששולמו בפועל בגין המלאי\nבכל  מקרה  לא  יעלו  תגמולי  הביטוח  על  סכום  הביטוח  ביחס  למלאי 1 0.5 . הנקוב ברשימה\nאם  בשעת  קרות  מקרה  ביטוח,  סכום  הביטוח  הנקוב  ברשימה  בגין 1 0.6 , הרכוש המבוטח הכפוף לתנאים אלה, יפחת מערכו של הרכוש המבוטח תפחת חבות המבטח בשיעור היחס שבין ערכו של הרכוש המבוטח לבין . סכום הביטוח",
+  "embed_text": "ביטוח שיר לעסק מציע כיסוי לנזקים לרכוש העסק והמלאי. במקרה של נזק מכוסה, תגמולי הביטוח ביחס למלאי לא יעלו על 0.5 מסכום הביטוח הנקוב. אם סכום הביטוח (לדוגמה, 0.6) נמוך מערך הרכוש, חבות המבטח תפחת בהתאם.",
+  "payload": "טבלה: סכומי ביטוח ומלאי\nThis table details insurance amounts and coverage for business property and inventory. It's used to look up the relationship between insured amount, actual value, and potential reimbursement rates.\nממדים: Insurance coverage condition/scenario (e.g., insured amount vs. actual value), Insurance amount ratio/reimbursement rate\n\nיהיו \" \"סכום הביטוח הממוצע במידה ודמי הביטוח שיחושבו בהתאם ל 1 0.4 , נמוכים מדמי הביטוח הארעיים המצוינים ברשימה ואשר שולמו בפועל 50% בתנאי  שהסכום  המוחזר  לא  יעלה  על , יוחזר  ההפרש  למבוטח . מדמי הביטוח ששולמו בפועל בגין המלאי\nבכל  מקרה  לא  יעלו  תגמולי  הביטוח  על  סכום  הביטוח  ביחס  למלאי 1 0.5 . הנקוב ברשימה\nאם  בשעת  קרות  מקרה  ביטוח,  סכום  הביטוח  הנקוב  ברשימה  בגין 1 0.6 , הרכוש המבוטח הכפוף לתנאים אלה, יפחת מערכו של הרכוש המבוטח תפחת חבות המבטח בשיעור היחס שבין ערכו של הרכוש המבוטח לבין . סכום הביטוח"
+}

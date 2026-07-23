@@ -1,0 +1,23 @@
+{
+  "id": "pdf:health/files/062025-טופס-הצעה-להוספת-כתבי-שירות.pdf#34",
+  "source": "llm",
+  "description": {
+    "title": "הצעת ביטוח בריאות",
+    "summary": "This table lists potential insurance applicants and their details for health insurance. It is used to record applicant information such as name, date of birth, age, and applicant number.",
+    "embed_passage": "טופס זה משמש להצעת ביטוח בריאות. הנתונים כוללים שם מועמד לביטוח, תאריך לידה, וגיל. לדוגמה, גיל מעל 18 מופיע מספר פעמים, וכל שורה מייצגת מועמד ביטוח.",
+    "row_axis": "מועמד לביטוח (applicant)",
+    "column_axis": "פרטי מועמד (applicant details)",
+    "units": [],
+    "notable_values": [
+      "גיל: 18",
+      "שם מועמד לביטוח: unknown",
+      "תאריך לידה: unknown"
+    ],
+    "product_hints": [
+      "ביטוח בריאות"
+    ]
+  },
+  "sketch": "ה חתימ,ך תארי,ת זהו מספר,ח לביטו המועמד שם,ח לביטו מועמד\n,,,,י ראש מבוטח\n,,,,ג זו /בת בן\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד",
+  "embed_text": "טופס זה משמש להצעת ביטוח בריאות. הנתונים כוללים שם מועמד לביטוח, תאריך לידה, וגיל. לדוגמה, גיל מעל 18 מופיע מספר פעמים, וכל שורה מייצגת מועמד ביטוח.",
+  "payload": "טבלה: הצעת ביטוח בריאות\nThis table lists potential insurance applicants and their details for health insurance. It is used to record applicant information such as name, date of birth, age, and applicant number.\nממדים: מועמד לביטוח (applicant), פרטי מועמד (applicant details)\n\nה חתימ,ך תארי,ת זהו מספר,ח לביטו המועמד שם,ח לביטו מועמד\n,,,,י ראש מבוטח\n,,,,ג זו /בת בן\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד"
+}

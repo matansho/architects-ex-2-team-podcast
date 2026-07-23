@@ -1,0 +1,26 @@
+{
+  "id": "pdf:travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-רוסיתfirst-class.pdf#217",
+  "source": "llm",
+  "description": {
+    "title": "כוויות - פיצוי",
+    "summary": "This table details the compensation amounts for second and third-degree burns, based on the burn area relative to total body surface area. It is used to look up the percentage of coverage provided for different burn severities.",
+    "embed_passage": "פוליסת ביטוח נסיעות לחול רוסיתfirst-class מספקת כיסוי לנזקי כוויות. גודל הפיצוי משתנה בהתאם לשטח הכוויה ביחס לשטח הגוף הכולל, ולדרגת הכוויה. לדוגמה, כוויה בדרגה שנייה בשטח של 28% - 100% מזכה ב־50% כיסוי, בעוד שכוויה בדרגה שלישית באותו שטח מזכה ב־100% כיסוי.",
+    "row_axis": "Burn area as a percentage of total body surface area",
+    "column_axis": "Burn degree (second, third)",
+    "units": [
+      "%"
+    ],
+    "notable_values": [
+      "28% - 100%: 50%",
+      "20% - 27%: 40%",
+      "10% - 19%: 30%",
+      "4.5% - 9%: 10%"
+    ],
+    "product_hints": [
+      "ביטוח נסיעות לחול רוסיתfirst-class"
+    ]
+  },
+  "sketch": "Площадь ожога относительно общей площади кожного покрова человеческого тела,Ожог второй степени,Ожог третьей степени\n28% - 100%,50%,100%\n20% - 27%,40%,80%\n10% - 19%,30%,60%\n4.5% - 9%,10%,20%",
+  "embed_text": "פוליסת ביטוח נסיעות לחול רוסיתfirst-class מספקת כיסוי לנזקי כוויות. גודל הפיצוי משתנה בהתאם לשטח הכוויה ביחס לשטח הגוף הכולל, ולדרגת הכוויה. לדוגמה, כוויה בדרגה שנייה בשטח של 28% - 100% מזכה ב־50% כיסוי, בעוד שכוויה בדרגה שלישית באותו שטח מזכה ב־100% כיסוי.",
+  "payload": "טבלה: כוויות - פיצוי\nThis table details the compensation amounts for second and third-degree burns, based on the burn area relative to total body surface area. It is used to look up the percentage of coverage provided for different burn severities.\nממדים: Burn area as a percentage of total body surface area, Burn degree (second, third)\n\nПлощадь ожога относительно общей площади кожного покрова человеческого тела,Ожог второй степени,Ожог третьей степени\n28% - 100%,50%,100%\n20% - 27%,40%,80%\n10% - 19%,30%,60%\n4.5% - 9%,10%,20%"
+}

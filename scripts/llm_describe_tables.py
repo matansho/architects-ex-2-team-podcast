@@ -30,6 +30,12 @@ from rag.index_store import (  # noqa: E402
     load_vectors_meta,
     save_index,
 )
+from rag.table_cache import (  # noqa: E402
+    DEFAULT_TABLE_DESC_DIR,
+    cache_path_for_id,
+    load_cached_description,
+    save_cached_description,
+)
 from rag.table_describe import (  # noqa: E402
     describe_table_with_llm,
     extract_table_body,
@@ -37,11 +43,6 @@ from rag.table_describe import (  # noqa: E402
     format_payload,
     sketch_table,
 )
-
-
-def _cache_path(cache_dir: Path, vid: str) -> Path:
-    safe = vid.replace("/", "__").replace(":", "_")
-    return cache_dir / f"{safe}.json"
 
 
 def _neighbor_text(vectors, idx: int, file: str, window: int = 2) -> tuple[str, str]:
@@ -78,20 +79,16 @@ def _describe_one(args) -> dict:
         model,
         cache_dir,
     ) = args
-    cache_path = _cache_path(cache_dir, vid)
-    if cache_path.exists():
-        try:
-            cached = json.loads(cache_path.read_text(encoding="utf-8"))
-            if cached.get("embed_text") and cached.get("source") == "llm":
-                return {
-                    "id": vid,
-                    "embed_text": cached["embed_text"],
-                    "payload": cached.get("payload") or payload,
-                    "cached": True,
-                    "ok": True,
-                }
-        except Exception:
-            pass
+    cached = load_cached_description(cache_dir, vid)
+    if cached is not None:
+        return {
+            "id": vid,
+            "embed_text": cached["embed_text"],
+            "payload": cached.get("payload") or payload,
+            "cached": True,
+            "ok": True,
+            "source": cached.get("source") or "llm",
+        }
 
     body = extract_table_body(payload)
     desc = describe_table_with_llm(
@@ -108,20 +105,16 @@ def _describe_one(args) -> dict:
     new_payload = format_payload(desc, body)
     # Heuristic fallback if LLM failed silently (no embed_passage and generic title)
     source = "llm" if (desc.embed_passage or "").strip() else "heuristic"
-    cache_path.write_text(
-        json.dumps(
-            {
-                "id": vid,
-                "source": source,
-                "description": desc.to_dict(),
-                "sketch": sketch_table(body),
-                "embed_text": embed,
-                "payload": new_payload,
-            },
-            ensure_ascii=False,
-            indent=2,
-        ),
-        encoding="utf-8",
+    save_cached_description(
+        cache_dir,
+        {
+            "id": vid,
+            "source": source,
+            "description": desc.to_dict(),
+            "sketch": sketch_table(body),
+            "embed_text": embed,
+            "payload": new_payload,
+        },
     )
     return {
         "id": vid,
@@ -136,7 +129,11 @@ def _describe_one(args) -> dict:
 def main() -> None:
     ap = argparse.ArgumentParser(description="LLM-describe table chunks in existing index")
     ap.add_argument("--index", default="data/index")
-    ap.add_argument("--cache", default="data/cache/table_descriptions")
+    ap.add_argument(
+        "--cache",
+        default=str(DEFAULT_TABLE_DESC_DIR),
+        help="Table description store (git-tracked under artifacts/ by default)",
+    )
     ap.add_argument("--model", default="google/gemma-3-27b-it")
     ap.add_argument("--workers", type=int, default=6)
     ap.add_argument("--limit", type=int, default=None)
@@ -149,6 +146,11 @@ def main() -> None:
         "--keep-payload",
         action="store_true",
         help="Only update embed_text (leave generator payload as-is)",
+    )
+    ap.add_argument(
+        "--force",
+        action="store_true",
+        help="Ignore existing cache entries and re-call the LLM",
     )
     args = ap.parse_args()
 
@@ -181,7 +183,16 @@ def main() -> None:
         )
     if args.limit:
         jobs = jobs[: args.limit]
-    print(f"Tables to describe: {len(jobs)} (workers={args.workers})", flush=True)
+    if args.force:
+        for job in jobs:
+            p = cache_path_for_id(cache_dir, job[0])
+            if p.exists():
+                p.unlink()
+        print(f"  --force: cleared {len(jobs)} cache entries", flush=True)
+    print(
+        f"Tables to describe: {len(jobs)} (workers={args.workers}, cache={cache_dir})",
+        flush=True,
+    )
 
     results: dict[str, dict] = {}
     t0 = time.time()

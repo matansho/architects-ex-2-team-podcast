@@ -1,0 +1,24 @@
+{
+  "id": "pdf:business/files/תנאי-פוליסת-ביטוח-עסקי-חבות-משולב-לחברות-תוכנה-וחומרה.pdf#30",
+  "source": "llm",
+  "description": {
+    "title": "הגדרות פוליסה",
+    "summary": "This table defines key terms used in the insurance policy. It's used to look up the meaning of specific concepts like 'Nuclear Facility' or 'Insured's Products'.",
+    "embed_passage": "פוליסת ביטוח עסקית זו מגדירה מונחים שונים, כגון 'מתקן גרעיני' ו'תוצרי המבוטח'. הגדרת 'מתקן גרעיני' כוללת כורים גרעיניים וציוד המשמש להפרדת איזוטופים של אורניום או פלוטוניום. לדוגמה, אם ברשות המבוטח יש יותר מ־25 גרם פלוטוניום או אורניום 233, המקום נחשב 'מתקן גרעיני'.",
+    "row_axis": "Defined Term",
+    "column_axis": "Definition",
+    "units": [],
+    "notable_values": [
+      "Plutonium threshold: 25 grams",
+      "Uranium 233 threshold: 25 grams",
+      "Uranium 235 threshold: 250 grams"
+    ],
+    "product_hints": [
+      "ביטוח עסקי",
+      "חבות משולב"
+    ]
+  },
+  "sketch": "11. Nuclear Facility meaning:\nany nuclear reactor; or\nany equipment or device designed or used for:\n-separating the isotopes of uranium or plutonium, or\n…\n-handling, processing or packaging waste; or\nany  equipment  or  devices  used  for  the  processing,  fabricating  or alloying of special nuclear material if at any time the total amount of such material in the custody of the Insured at such premises where such  equipment  or  device  is  located,  consists  of  or  contains  more than 25 grams of plutonium or uranium 233 or combination thereof or more than 250 grams of uranium 235; or\nany structure, basin, excavation, premises or place prepared for the storage or disposal of nuclear waste; or\nthe  site  on  which  any  of  the  foregoing  is  located,  all  operations conducted on such site and all premises used for such operations.",
+  "embed_text": "פוליסת ביטוח עסקית זו מגדירה מונחים שונים, כגון 'מתקן גרעיני' ו'תוצרי המבוטח'. הגדרת 'מתקן גרעיני' כוללת כורים גרעיניים וציוד המשמש להפרדת איזוטופים של אורניום או פלוטוניום. לדוגמה, אם ברשות המבוטח יש יותר מ־25 גרם פלוטוניום או אורניום 233, המקום נחשב 'מתקן גרעיני'.",
+  "payload": "טבלה: הגדרות פוליסה\nThis table defines key terms used in the insurance policy. It's used to look up the meaning of specific concepts like 'Nuclear Facility' or 'Insured's Products'.\nממדים: Defined Term, Definition\n\n11. Nuclear Facility meaning:\nany nuclear reactor; or\nany equipment or device designed or used for:\n-separating the isotopes of uranium or plutonium, or\n-processing or utilizing fuel, or\n-handling, processing or packaging waste; or\nany  equipment  or  devices  used  for  the  processing,  fabricating  or alloying of special nuclear material if at any time the total amount of such material in the custody of the Insured at such premises where such  equipment  or  device  is  located,  consists  of  or  contains  more than 25 grams of plutonium or uranium 233 or combination thereof or more than 250 grams of uranium 235; or\nany structure, basin, excavation, premises or place prepared for the storage or disposal of nuclear waste; or\nthe  site  on  which  any  of  the  foregoing  is  located,  all  operations conducted on such site and all premises used for such operations."
+}

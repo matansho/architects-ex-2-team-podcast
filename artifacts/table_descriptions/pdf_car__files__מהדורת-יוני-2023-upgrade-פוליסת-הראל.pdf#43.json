@@ -1,0 +1,26 @@
+{
+  "id": "pdf:car/files/מהדורת-יוני-2023-upgrade-פוליסת-הראל.pdf#43",
+  "source": "llm",
+  "description": {
+    "title": "ביטול פוליסה",
+    "summary": "This table details the refund of insurance premiums upon policy cancellation by the insurer. It outlines how the proportional refund is calculated based on the remaining policy period.",
+    "embed_passage": "פוליסת הראל מאפשרת החזר דמי ביטוח במקרה של ביטול על ידי המבטח. החזר החלק היחסי מחושב ביחס למספר הימים שנותרו בתקופת הביטוח המקורית, לדוגמה, אם נותרו 7 ימים מתוך תקופה כוללת, יוחזר חלק יחסי בהתאם.",
+    "row_axis": "Cancellation conditions / refund calculations",
+    "column_axis": "Details of refund process",
+    "units": [],
+    "notable_values": [
+      "7: Number of days before cancellation",
+      "21: Minimum days notice for cancellation",
+      "16.2: Section number regarding refund calculation",
+      "16.3: Section number regarding proportional calculation",
+      "16.5: Section number regarding indexation"
+    ],
+    "product_hints": [
+      "הראל",
+      "פוליסת הראל"
+    ]
+  },
+  "sketch": "ימים לפני המועד 7ביטל המבטח את הפוליסה, יחזיר לבעל הפוליסה בהקדם ולא יאוחר מ .16.2 שבו תתבטל הפוליסה, את החלק היחסי מדמי הביטוח ששולמו.\n.  החלק היחסי כאמור יחושב על ידי הכפלת דמי הביטוח שגבה המבטח ביחס שבין מספר 16.3 הימים שנותרו, במועד הביטול עד תום תקופת הביטוח המקורית, ובין מספר הימים הנכללים בתקופת הביטוח המקורית.",
+  "embed_text": "פוליסת הראל מאפשרת החזר דמי ביטוח במקרה של ביטול על ידי המבטח. החזר החלק היחסי מחושב ביחס למספר הימים שנותרו בתקופת הביטוח המקורית, לדוגמה, אם נותרו 7 ימים מתוך תקופה כוללת, יוחזר חלק יחסי בהתאם.",
+  "payload": "טבלה: ביטול פוליסה\nThis table details the refund of insurance premiums upon policy cancellation by the insurer. It outlines how the proportional refund is calculated based on the remaining policy period.\nממדים: Cancellation conditions / refund calculations, Details of refund process\n\nימים לפני המועד 7ביטל המבטח את הפוליסה, יחזיר לבעל הפוליסה בהקדם ולא יאוחר מ .16.2 שבו תתבטל הפוליסה, את החלק היחסי מדמי הביטוח ששולמו.\n.  החלק היחסי כאמור יחושב על ידי הכפלת דמי הביטוח שגבה המבטח ביחס שבין מספר 16.3 הימים שנותרו, במועד הביטול עד תום תקופת הביטוח המקורית, ובין מספר הימים הנכללים בתקופת הביטוח המקורית."
+}

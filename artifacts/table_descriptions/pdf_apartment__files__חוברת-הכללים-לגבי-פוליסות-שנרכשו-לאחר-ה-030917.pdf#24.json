@@ -1,0 +1,23 @@
+{
+  "id": "pdf:apartment/files/חוברת-הכללים-לגבי-פוליסות-שנרכשו-לאחר-ה-030917.pdf#24",
+  "source": "llm",
+  "description": {
+    "title": "הודעות בירור תביעה",
+    "summary": "This table details the frequency of claim investigation update notifications sent to the claimant. It specifies the timeframes for sending these notifications, with different intervals for claims under the Ordinance.",
+    "embed_passage": "פוליסות הראל מחייבות משלוח הודעות המשך בירור לתובע. במקרים רבים, יש לשלוח הודעה כל תשעים ימים, אך בתביעות לפי הפקודה, ההודעה תישלח כל ששה חודשים. אם פורט מועד עתידי להערכת הנזק, אין צורך במשלוח הודעה עד למועד האמור, ובלבד שתישלח הודעת המשך בירור לפחות לאחר שנה.",
+    "row_axis": "circumstances affecting notification frequency",
+    "column_axis": "notification type/frequency",
+    "units": [],
+    "notable_values": [
+      "90 days: standard notification frequency",
+      "6 months: notification frequency for claims under the Ordinance",
+      "1 year: minimum time before another notification if a future damage assessment date is set"
+    ],
+    "product_hints": [
+      "הראל"
+    ]
+  },
+  "sketch": "הודעת המשך בירור כאמור תימסר לתובע לפחות כל תשעים ימים )למעט בתביעות .2 לפי הפקודה, בהן תימסר הודעה כאמור לפחות כל ששה חודשים( ועד למשלוח , הודעת תשלום, הודעת תשלום חלקי, הודעת דחייה או הודעת פשרה, לפי העניין למעט במקרים הבאים:\nאם פורט בהודעת המשך הבירור מועד עתידי להערכת הנזק, ואז אין צורך במשלוח הודעה בדבר המשך בירור עד למועד האמור, ובלבד שתישלח הודעת ; המשך בירור לפחות לאחר שנה\nאם פנה התובע לערכאות משפטיות;",
+  "embed_text": "פוליסות הראל מחייבות משלוח הודעות המשך בירור לתובע. במקרים רבים, יש לשלוח הודעה כל תשעים ימים, אך בתביעות לפי הפקודה, ההודעה תישלח כל ששה חודשים. אם פורט מועד עתידי להערכת הנזק, אין צורך במשלוח הודעה עד למועד האמור, ובלבד שתישלח הודעת המשך בירור לפחות לאחר שנה.",
+  "payload": "טבלה: הודעות בירור תביעה\nThis table details the frequency of claim investigation update notifications sent to the claimant. It specifies the timeframes for sending these notifications, with different intervals for claims under the Ordinance.\nממדים: circumstances affecting notification frequency, notification type/frequency\n\nהודעת המשך בירור כאמור תימסר לתובע לפחות כל תשעים ימים )למעט בתביעות .2 לפי הפקודה, בהן תימסר הודעה כאמור לפחות כל ששה חודשים( ועד למשלוח , הודעת תשלום, הודעת תשלום חלקי, הודעת דחייה או הודעת פשרה, לפי העניין למעט במקרים הבאים:\nאם פורט בהודעת המשך הבירור מועד עתידי להערכת הנזק, ואז אין צורך במשלוח הודעה בדבר המשך בירור עד למועד האמור, ובלבד שתישלח הודעת ; המשך בירור לפחות לאחר שנה\nאם פנה התובע לערכאות משפטיות;"
+}

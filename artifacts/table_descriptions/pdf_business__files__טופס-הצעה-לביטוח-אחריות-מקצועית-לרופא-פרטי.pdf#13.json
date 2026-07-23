@@ -1,0 +1,25 @@
+{
+  "id": "pdf:business/files/טופס-הצעה-לביטוח-אחריות-מקצועית-לרופא-פרטי.pdf#13",
+  "source": "llm",
+  "description": {
+    "title": "אחריות מקצועית לרופא",
+    "summary": "This table gathers information for professional liability insurance for a doctor. It asks about past insurance coverage, claims, and legal issues to assess risk.",
+    "embed_passage": "פוליסת אחריות מקצועית לרופא פרטי בודקת את ניסיון הביטוח הקודם של המבוטח, לדוגמה, האם הוא היה מבוטח ב-10 השנים האחרונות. השאלות בוחנות גם האם סירבו לחדש ביטוח בעבר, או האם הוגשו תביעות נגדו ב-5 השנים האחרונות. מידע זה עוזר לקבוע את הפרמיה המתאימה.",
+    "row_axis": "questions about the doctor's history and practice",
+    "column_axis": "response (yes/no/details)",
+    "units": [],
+    "notable_values": [
+      "10 שנים: minimum years of experience required",
+      "10 שנים: period for past insurance coverage inquiry",
+      "5 שנים: period for claims inquiry",
+      "4 שנים: period for insurance renewal refusal inquiry"
+    ],
+    "product_hints": [
+      "אחריות מקצועית לרופא",
+      "ביטוח אחריות מקצועית"
+    ]
+  },
+  "sketch": "שנים מבגירותו. 10 שנים לכל הפחות ובמקרה של קטין 10 שימ/י לב שדרישות פוליסה זו לשמירה על רשומות הינה\nט עבר ביטוחי\nכן, פרט\n.1 ? שנים האחרנות, או הינך מבוטח/ת כעת, בגין אחריות מקצועית 10- האם היית מבוטח/ת ב\n…\n.4 שנים האחרונות 10- האם סירב מבטח כלשהו לחדש ביטוח כזה, או ביטל אותו ב\nלא\n?\nכן,",
+  "embed_text": "פוליסת אחריות מקצועית לרופא פרטי בודקת את ניסיון הביטוח הקודם של המבוטח, לדוגמה, האם הוא היה מבוטח ב-10 השנים האחרונות. השאלות בוחנות גם האם סירבו לחדש ביטוח בעבר, או האם הוגשו תביעות נגדו ב-5 השנים האחרונות. מידע זה עוזר לקבוע את הפרמיה המתאימה.",
+  "payload": "טבלה: אחריות מקצועית לרופא\nThis table gathers information for professional liability insurance for a doctor. It asks about past insurance coverage, claims, and legal issues to assess risk.\nממדים: questions about the doctor's history and practice, response (yes/no/details)\n\nשנים מבגירותו. 10 שנים לכל הפחות ובמקרה של קטין 10 שימ/י לב שדרישות פוליסה זו לשמירה על רשומות הינה\nט עבר ביטוחי\nכן, פרט\n.1 ? שנים האחרנות, או הינך מבוטח/ת כעת, בגין אחריות מקצועית 10- האם היית מבוטח/ת ב\nלא\n:\nשם החברה המבטחת:                                                                          מהות הביטוח\n:\nתקופת הביטוח:                                                                                    מס' פוליסה\nכן, פרט\n.2 ? שנים האחרונות, או מי משותפיך, לביטוח אחריות מקצועית 10- האם נדחתה הצעתך ב\nלא\nכן, פרט\n.3 שנים האחרונות 10- האם הותנו תנאים מיוחדים להצעה כזו ב\nלא\n?\nכן, פרט\n.4 שנים האחרונות 10- האם סירב מבטח כלשהו לחדש ביטוח כזה, או ביטל אותו ב\nלא\n?\nכן,"
+}

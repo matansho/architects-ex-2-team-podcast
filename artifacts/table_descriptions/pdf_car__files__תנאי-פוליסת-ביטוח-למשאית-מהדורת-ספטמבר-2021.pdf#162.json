@@ -1,0 +1,24 @@
+{
+  "id": "pdf:car/files/תנאי-פוליסת-ביטוח-למשאית-מהדורת-ספטמבר-2021.pdf#162",
+  "source": "llm",
+  "description": {
+    "title": "ביטול פוליסה",
+    "summary": "This table details the conditions and refund amounts for policy cancellation, both by the insured and the insurer. It outlines the timeframe for refunds and potential adjustments based on the remaining policy period.",
+    "embed_passage": "פוליסת ביטוח למשאית מספקת אפשרות ביטול על ידי המבוטח או המבטח. במקרה של ביטול על ידי המבטח, יוחזר למבוטח חלק יחסי מדמי הביטוח ששולמו, תוך 14 ימים ממועד הביטול. לדוגמה, אם נותרו 30 ימים לתום הפוליסה, יחושב החזר דמי הביטוח בהתאם.",
+    "row_axis": "Cancellation scenarios (insured/insurer initiated)",
+    "column_axis": "Cancellation conditions, refund timelines, and refund calculations",
+    "units": [
+      "ימים"
+    ],
+    "notable_values": [
+      "refund timeframe: 14 ימים",
+      "notice period for insurer cancellation: 30 ימים"
+    ],
+    "product_hints": [
+      "ביטוח למשאית"
+    ]
+  },
+  "sketch": "בלי לגרוע מזכויות המבטח על פי דין, רשאי המבטח לבטל את הביטוח לפני תום .9.3 תקופת הביטוח, ובלבד שהודעה על כך, שבה ייכללו הנימוקים לביטול, תישלח למבוטח ימים לפחות לפני התאריך שבו יתבטל הביטוח. 30\nימים 14ביטל המבטח את הפוליסה, יחזיר המבטח למבוטח בהקדם, ולא יאוחר מ .9.4 מהמועד שבו נכנס הביטול לתוקף, את החלק היחסי מדמי הביטוח ששולמו.",
+  "embed_text": "פוליסת ביטוח למשאית מספקת אפשרות ביטול על ידי המבוטח או המבטח. במקרה של ביטול על ידי המבטח, יוחזר למבוטח חלק יחסי מדמי הביטוח ששולמו, תוך 14 ימים ממועד הביטול. לדוגמה, אם נותרו 30 ימים לתום הפוליסה, יחושב החזר דמי הביטוח בהתאם.",
+  "payload": "טבלה: ביטול פוליסה\nThis table details the conditions and refund amounts for policy cancellation, both by the insured and the insurer. It outlines the timeframe for refunds and potential adjustments based on the remaining policy period.\nממדים: Cancellation scenarios (insured/insurer initiated), Cancellation conditions, refund timelines, and refund calculations\n\nבלי לגרוע מזכויות המבטח על פי דין, רשאי המבטח לבטל את הביטוח לפני תום .9.3 תקופת הביטוח, ובלבד שהודעה על כך, שבה ייכללו הנימוקים לביטול, תישלח למבוטח ימים לפחות לפני התאריך שבו יתבטל הביטוח. 30\nימים 14ביטל המבטח את הפוליסה, יחזיר המבטח למבוטח בהקדם, ולא יאוחר מ .9.4 מהמועד שבו נכנס הביטול לתוקף, את החלק היחסי מדמי הביטוח ששולמו."
+}

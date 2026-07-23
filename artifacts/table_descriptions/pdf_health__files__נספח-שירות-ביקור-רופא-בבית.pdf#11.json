@@ -1,0 +1,27 @@
+{
+  "id": "pdf:health/files/נספח-שירות-ביקור-רופא-בבית.pdf#11",
+  "source": "llm",
+  "description": {
+    "title": "ביקור רופא בבית",
+    "summary": "This table details the services included in an at-home doctor visit service. It outlines the medical services provided, such as physical examinations and prescriptions, and the conditions under which they are offered.",
+    "embed_passage": "שירות ביקור רופא בבית כולל בדיקה גופנית של המנוי, שימוש במכשירי עזר כמו סטטוסקופ ומד לחץ דם, וקבלת תרופות ראשוניות למשך יממה אחת. השירות כרוך בתשלום השתתפות עצמית בסך ₪ 25. במקרה של צורך, הרופא רשאי להפנות את המנוי לרופא מומחה או לחדר מיון.",
+    "row_axis": "types of medical services provided during a home visit",
+    "column_axis": "details of the service, including tools used and conditions",
+    "units": [
+      "₪"
+    ],
+    "notable_values": [
+      "price: ₪ 25",
+      "service: בדיקה גופנית",
+      "tool: סטטוסקופ",
+      "tool: מד לחץ דם",
+      "duration: יממה אחת"
+    ],
+    "product_hints": [
+      "ביקור רופא בבית"
+    ]
+  },
+  "sketch": "לאחר מסירת אנמנזה רפואית )הסיפור הרפואי( לרופא מהמנוי, המנוי יהא זכאי לקבל שירות : רפואי כמפורט להלן ,\nבדיקה גופנית של המנוי לרבות שימוש במכשירי עזר המפורטים להלן: סטטוסקופ 3.1.1.1 לוכדי לשון )שפדלים(, פנס, אוטוסקופ, פטיש רפלקסים, מד לחץ  -דם, הכל כפי . ל-פי שיקול דעתו המקצועי של רופא נותן השירות שידרש ע",
+  "embed_text": "שירות ביקור רופא בבית כולל בדיקה גופנית של המנוי, שימוש במכשירי עזר כמו סטטוסקופ ומד לחץ דם, וקבלת תרופות ראשוניות למשך יממה אחת. השירות כרוך בתשלום השתתפות עצמית בסך ₪ 25. במקרה של צורך, הרופא רשאי להפנות את המנוי לרופא מומחה או לחדר מיון.",
+  "payload": "טבלה: ביקור רופא בבית\nThis table details the services included in an at-home doctor visit service. It outlines the medical services provided, such as physical examinations and prescriptions, and the conditions under which they are offered.\nממדים: types of medical services provided during a home visit, details of the service, including tools used and conditions\n\nלאחר מסירת אנמנזה רפואית )הסיפור הרפואי( לרופא מהמנוי, המנוי יהא זכאי לקבל שירות : רפואי כמפורט להלן ,\nבדיקה גופנית של המנוי לרבות שימוש במכשירי עזר המפורטים להלן: סטטוסקופ 3.1.1.1 לוכדי לשון )שפדלים(, פנס, אוטוסקופ, פטיש רפלקסים, מד לחץ  -דם, הכל כפי . ל-פי שיקול דעתו המקצועי של רופא נותן השירות שידרש ע"
+}

@@ -13,9 +13,15 @@ from pathlib import Path
 
 # Numbers often appear at end after OCR/RTL: "השירותים . 3" or mid: ". 3.1.1 . בגוף"
 SECTION_RE = re.compile(r"(?<![\d.])(\d+(?:\.\d+)*)(?![\d.])")
+# Compact list markers with no space after the dot: "; .2.1" / ".2.1" (Docling)
+COMPACT_SECTION_RE = re.compile(r"(?:^|[\s;:\-])\.(\d+(?:\.\d+)*)(?![\d.])")
 
 # Cross-ref phrases that mention other sections (prefer not to treat as self-ref)
 CROSS_REF_HINTS = ("עד", "סעיפים", "כמפורט", "לעיל", "להלן")
+
+# Docling often merges a numbered title with the next body line:
+# ".  סייגים מיוחדים לפרק ראשון 2 ואלא המבטח..."
+_MERGED_HEADER_START = re.compile(r"^[\.\:\-]\s+\S")
 
 
 @dataclass
@@ -67,20 +73,30 @@ def extract_section_ref(text: str) -> str | None:
     - Prefer dotted refs (``3.1.1``) over bare quantities (``12`` treatments).
     - Require section punctuation (``. 3`` / ``: 5``) *or* a clear end/start
       marker — rejects mid-text quantities like ``טון, 3.5 לרכב``.
+    - Accept Docling merges: ``.  TITLE N body...`` where N sits mid-line.
+    - Accept compact markers: ``.2.1`` (dot abutting the number).
     - Reject plan codes (``524``), dates (``9.2.2023``), leading-zero junk.
     """
     text = (text or "").strip()
     if not text:
         return None
 
-    matches = list(SECTION_RE.finditer(text))
-    if not matches:
+    # (start, end, ref) — compact matches win over a bare digit at the same span
+    found: dict[tuple[int, int], str] = {}
+    for m in SECTION_RE.finditer(text):
+        found[m.span()] = m.group(1)
+    for m in COMPACT_SECTION_RE.finditer(text):
+        # span of the digits only (group 1), not the leading list-dot
+        found[m.span(1)] = m.group(1)
+
+    if not found:
         return None
 
     scored: list[tuple[float, str]] = []
     first_dotted_punct_seen = False
-    for m in matches:
-        ref = m.group(1)
+    line_is_merged_header = bool(_MERGED_HEADER_START.match(text))
+
+    for (start, end), ref in found.items():
         parts = ref.split(".")
         root = parts[0]
         dotted = "." in ref
@@ -94,7 +110,6 @@ def extract_section_ref(text: str) -> str | None:
         if section_depth(ref) > 5:
             continue
 
-        start, end = m.span()
         before = text[max(0, start - 4) : start]
         after = text[end : min(len(text), end + 4)]
         has_section_punct = bool(re.search(r"[\.\:]\s*$", before))
@@ -112,16 +127,27 @@ def extract_section_ref(text: str) -> str | None:
         # Quantity phrases: "עד 3.5 טון"
         qty_before = bool(re.search(r"עד\s*$", text[max(0, start - 4) : start]))
 
+        # Merged title+body: ".  <Hebrew title> N <body...>"
+        merged_header = (
+            line_is_merged_header
+            and not dotted
+            and 8 <= start <= 100
+            and len(tail) >= 12
+            and bool(re.search(r"[\u0590-\u05FF]", text[:start]))
+            and not comma_before
+            and not qty_before
+        )
+
         if comma_before or qty_before:
             continue
 
-        # Section marker shape: punct before, or clear start/end placement.
+        # Section marker shape: punct before, start/end, or merged header.
         # Reject bare mid-text dotted numbers (tonnage, etc.).
-        if not (has_section_punct or at_start or end_like):
+        if not (has_section_punct or at_start or end_like or merged_header):
             continue
 
         # Mid-text without section punct still rejected even if short Hebrew tail
-        if not has_section_punct and not at_start and not at_end:
+        if not has_section_punct and not at_start and not at_end and not merged_header:
             continue
 
         score = 0.0
@@ -129,6 +155,8 @@ def extract_section_ref(text: str) -> str | None:
             score += 4.0
         if has_section_punct:
             score += 3.0
+        if merged_header:
+            score += 5.0
 
         # Self-number is usually the first dotted ". N.N" marker; later ones
         # are often cross-refs ("כמפורט בסעיף 5.3", "עד 3.1.6").
@@ -143,10 +171,12 @@ def extract_section_ref(text: str) -> str | None:
         else:
             score += 0.5
 
-        # Cross-ref windows — demote
-        window = text[max(0, start - 30) : end + 20]
-        if any(h in window for h in CROSS_REF_HINTS):
-            score -= 5.0
+        # Cross-ref windows — demote (but not for merged headers: body often
+        # continues with "ואלא" / "להלן" right after the number)
+        if not merged_header:
+            window = text[max(0, start - 30) : end + 20]
+            if any(h in window for h in CROSS_REF_HINTS):
+                score -= 5.0
 
         scored.append((score, ref))
 
@@ -175,16 +205,125 @@ def _item_bboxes(item) -> list[tuple[int, float, float, float, float]]:
     return out
 
 
-def _item_text(item) -> str:
+def _item_text(item, doc=None) -> str:
     text = getattr(item, "text", None)
     if text:
         return str(text)
     if hasattr(item, "export_to_markdown"):
         try:
+            if doc is not None:
+                return item.export_to_markdown(doc=doc) or ""
             return item.export_to_markdown() or ""
+        except TypeError:
+            try:
+                return item.export_to_markdown() or ""
+            except Exception:
+                return ""
         except Exception:
             pass
     return ""
+
+
+def _dataframe_to_text(df) -> str:
+    """Compact table text for embedding / LLM context (prefer CSV over padded MD)."""
+    if df is None:
+        return ""
+    try:
+        # Drop fully empty columns/rows from sparse Docling grids
+        cleaned = df.dropna(how="all", axis=0).dropna(how="all", axis=1)
+        if cleaned.empty:
+            cleaned = df
+        # Prefer CSV: Hebrew RTL markdown tables are often huge padded pipes
+        csv = cleaned.to_csv(index=False).strip()
+        if csv:
+            return csv
+    except Exception:
+        pass
+    try:
+        return df.to_string(index=False).strip()
+    except Exception:
+        return str(df)
+
+
+def _table_grid_text(item) -> str:
+    """Last-resort dump of Docling TableData grid cells."""
+    data = getattr(item, "data", None)
+    grid = getattr(data, "grid", None) if data is not None else None
+    if not grid:
+        return ""
+    rows: list[str] = []
+    try:
+        for row in grid:
+            cells = []
+            for cell in row:
+                val = getattr(cell, "text", None)
+                if val is None:
+                    val = str(cell) if cell is not None else ""
+                val = str(val).strip()
+                if val:
+                    cells.append(val)
+            if cells:
+                rows.append(" | ".join(cells))
+    except Exception:
+        return ""
+    return "\n".join(rows)
+
+
+def _table_text(item, doc=None) -> str:
+    """Full table serialization — never truncate; avoid empty '(table)' stubs."""
+    caption = ""
+    if hasattr(item, "caption_text"):
+        try:
+            caption = (item.caption_text(doc=doc) if doc is not None else item.caption_text()) or ""
+        except TypeError:
+            try:
+                caption = item.caption_text() or ""
+            except Exception:
+                caption = ""
+        except Exception:
+            caption = ""
+    caption = str(caption).strip()
+
+    # 1) DataFrame → CSV (usually denser / more complete than markdown)
+    df = None
+    if hasattr(item, "export_to_dataframe"):
+        try:
+            df = item.export_to_dataframe(doc=doc) if doc is not None else item.export_to_dataframe()
+        except TypeError:
+            try:
+                df = item.export_to_dataframe()
+            except Exception:
+                df = None
+        except Exception:
+            df = None
+    body = _dataframe_to_text(df)
+
+    # 2) Markdown export
+    if not body.strip() and hasattr(item, "export_to_markdown"):
+        try:
+            body = (
+                item.export_to_markdown(doc=doc) if doc is not None else item.export_to_markdown()
+            ) or ""
+        except TypeError:
+            try:
+                body = item.export_to_markdown() or ""
+            except Exception:
+                body = ""
+        except Exception:
+            body = ""
+
+    # 3) Raw text / grid
+    if not body.strip():
+        body = getattr(item, "text", None) or ""
+    if not str(body).strip():
+        body = _table_grid_text(item)
+
+    body = str(body).strip()
+    if caption and body:
+        return f"{caption}\n\n{body}"
+    if caption:
+        return caption
+    return body
 
 
 def docling_to_blocks(doc) -> list[Block]:
@@ -194,15 +333,17 @@ def docling_to_blocks(doc) -> list[Block]:
         kind = type(item).__name__
         if kind == "PictureItem":
             continue
-        text = _item_text(item)
         if kind == "TableItem":
-            # Keep tables but don't try to extract section from cell dump
+            text = _table_text(item, doc=doc)
+            if not text.strip():
+                # Skip empty tables rather than indexing a useless stub
+                continue
             blocks.append(
                 Block(
                     idx=idx,
                     kind=kind,
                     page=_item_page(item),
-                    text=text[:500] if text else "(table)",
+                    text=text,
                     docling_level=level,
                     section_ref=None,
                     section_depth=0,
@@ -211,7 +352,7 @@ def docling_to_blocks(doc) -> list[Block]:
             )
             continue
 
-        text = text.strip()
+        text = _item_text(item, doc=doc).strip()
         if not text:
             continue
 

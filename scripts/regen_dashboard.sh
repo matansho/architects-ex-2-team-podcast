@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Regenerate the Stage 1 prompt-strategy comparison report (8 runs, incl. contrast).
+# Regenerate the prompt-strategy comparison report (Stage 1 runs + RAG no-cite).
 # Pure local render — reads the *_answers.jsonl / *_eval.json files, makes NO API calls.
 #
 # Requires the venv + .env:  source scripts/activate.sh
@@ -10,24 +10,45 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 
 python scripts/generate_compare_dashboard.py \
-  --title "Stage 1 — Prompt Strategy Comparison" \
+  --title "Prompt Strategy Comparison (Stage 1 + RAG)" \
   --run "Baseline|baseline_answers.jsonl" \
-  --run "Few-shot + cite|reports/few_shot_answers.jsonl" \
-  --run "Few-shot + concise|reports/concise_few_shot_answers.jsonl" \
-  --run "Few-shot, no cite (run 1)|reports/no_cite_few_shot_answers.jsonl" \
-  --run "Few-shot, no cite (run 2)|reports/no_cite_few_shot_2_answers.jsonl" \
-  --run "Few-shot, contrast (run 1)|reports/contrast_answers.jsonl" \
-  --run "Few-shot, contrast (run 2)|reports/contrast_2_answers.jsonl" \
-  --run "Few-shot, contrast no far apart|reports/contrast_no_far_apart_answers.jsonl" \
-  --eval "Baseline|reports/baseline_eval.json" \
-  --eval "Few-shot + cite|reports/few_shot_eval.json" \
-  --eval "Few-shot + concise|reports/concise_few_shot_eval.json" \
-  --eval "Few-shot, no cite (run 1)|reports/no_cite_few_shot_eval.json" \
-  --eval "Few-shot, no cite (run 2)|reports/no_cite_few_shot_2_eval.json" \
-  --eval "Few-shot, contrast (run 1)|reports/contrast_eval.json" \
-  --eval "Few-shot, contrast (run 2)|reports/contrast_2_eval.json" \
-  --eval "Few-shot, contrast no far apart|reports/contrast_no_far_apart_eval.json" \
-  --out reports/stage1_prompt_strategy_comparison.html
+  --run "Few-shot + cite|reports/stage1/few_shot_answers.jsonl" \
+  --run "Few-shot + concise|reports/stage1/concise_few_shot_answers.jsonl" \
+  --run "Few-shot, no cite (run 1)|reports/stage1/no_cite_few_shot_answers.jsonl" \
+  --run "Few-shot, no cite (run 2)|reports/stage1/no_cite_few_shot_2_answers.jsonl" \
+  --run "Few-shot, contrast (run 1)|reports/stage1/contrast_answers.jsonl" \
+  --run "Few-shot, contrast (run 2)|reports/stage1/contrast_2_answers.jsonl" \
+  --run "Few-shot, contrast no far apart|reports/stage1/contrast_no_far_apart_answers.jsonl" \
+  --run "RAG no-cite|rag_answers.jsonl" \
+  --run "RAG no-cite k10±2|rag_answers_k10_w2.jsonl" \
+  --run "RAG no-cite k20±2|rag_answers_k20_w2.jsonl" \
+  --run "RAG no-cite k20±4|rag_answers_k20_w4.jsonl" \
+  --run "RAG RRF k20±2|rag_answers_rrf_k20_w2.jsonl" \
+  --run "RAG rerank 100→20±2|rag_answers_rerank_k20_w2.jsonl" \
+  --run "RAG rerank + LLM tables|rag_answers_rerank_k20_w2_llm_tables.jsonl" \
+  --eval "Baseline|reports/stage1/baseline_eval.json" \
+  --eval "Few-shot + cite|reports/stage1/few_shot_eval.json" \
+  --eval "Few-shot + concise|reports/stage1/concise_few_shot_eval.json" \
+  --eval "Few-shot, no cite (run 1)|reports/stage1/no_cite_few_shot_eval.json" \
+  --eval "Few-shot, no cite (run 2)|reports/stage1/no_cite_few_shot_2_eval.json" \
+  --eval "Few-shot, contrast (run 1)|reports/stage1/contrast_eval.json" \
+  --eval "Few-shot, contrast (run 2)|reports/stage1/contrast_2_eval.json" \
+  --eval "Few-shot, contrast no far apart|reports/stage1/contrast_no_far_apart_eval.json" \
+  --eval "RAG no-cite|reports/stage2/rag_no_cite_eval.json" \
+  --eval "RAG no-cite k10±2|reports/stage2/rag_k10_w2_eval.json" \
+  --eval "RAG no-cite k20±2|reports/stage2/rag_k20_w2_eval.json" \
+  --eval "RAG no-cite k20±4|reports/stage2/rag_k20_w4_eval.json" \
+  --eval "RAG RRF k20±2|reports/stage2/rag_rrf_k20_w2_eval.json" \
+  --eval "RAG rerank 100→20±2|reports/stage2/rag_rerank_k20_w2_eval.json" \
+  --eval "RAG rerank + LLM tables|reports/stage2/rag_rerank_k20_w2_llm_tables_eval.json" \
+  --prompt "RAG no-cite|rag-no-cite" \
+  --prompt "RAG no-cite k10±2|rag-no-cite" \
+  --prompt "RAG no-cite k20±2|rag-no-cite" \
+  --prompt "RAG no-cite k20±4|rag-no-cite" \
+  --prompt "RAG RRF k20±2|rag-no-cite" \
+  --prompt "RAG rerank 100→20±2|rag-no-cite" \
+  --prompt "RAG rerank + LLM tables|rag-no-cite" \
+  --out reports/stage1/stage1_prompt_strategy_comparison.html
 
-cp reports/stage1_prompt_strategy_comparison.html deliverables/stage1_prompt_strategy_comparison.html
+cp reports/stage1/stage1_prompt_strategy_comparison.html deliverables/stage1_prompt_strategy_comparison.html
 echo "Copied to deliverables/stage1_prompt_strategy_comparison.html"

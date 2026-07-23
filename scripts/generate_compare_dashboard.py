@@ -4,8 +4,8 @@ Build an interactive HTML dashboard comparing multiple answer runs.
 
     python scripts/generate_compare_dashboard.py \
       --run "DeepSeek V4|baseline_answers.jsonl" \
-      --eval "DeepSeek V4|reports/baseline_eval.json" \
-      --out reports/compare_dashboard.html
+      --eval "DeepSeek V4|reports/stage1/baseline_eval.json" \
+      --out reports/stage1/compare_dashboard.html
 """
 
 from __future__ import annotations
@@ -119,6 +119,26 @@ def build_run_stats(
         )
 
     judged = [r for r in rows if r["relevant"] is not None]
+    relevance_rate = (
+        avg([1.0 if r["relevant"] else 0.0 for r in judged]) if judged else None
+    )
+    hallucination_rate = (
+        avg([1.0 if r["hallucination"] else 0.0 for r in judged]) if judged else None
+    )
+    refusal_rate = (
+        avg([1.0 if r["refusal"] else 0.0 for r in judged]) if judged else None
+    )
+    # Answer-quality PR (one operating point per run):
+    #   recall    = fraction of questions with a relevant answer
+    #   precision = relevant / (relevant + hallucinated)  — quality among assertive errors
+    recall = relevance_rate
+    precision = None
+    if judged:
+        n_rel = sum(1 for r in judged if r["relevant"])
+        n_hall = sum(1 for r in judged if r["hallucination"])
+        denom = n_rel + n_hall
+        precision = (n_rel / denom) if denom else 1.0
+
     return {
         "label": label,
         "count": len(rows),
@@ -126,9 +146,11 @@ def build_run_stats(
         "latency_avg": avg([r["latency_ms"] for r in rows if r["latency_ms"]]),
         "latency_p50": p50([r["latency_ms"] for r in rows if r["latency_ms"]]),
         "answer_len_avg": avg([r["answer_len"] for r in rows]),
-        "relevance_rate": avg([1.0 if r["relevant"] else 0.0 for r in judged]) if judged else None,
-        "hallucination_rate": avg([1.0 if r["hallucination"] else 0.0 for r in judged]) if judged else None,
-        "refusal_rate": avg([1.0 if r["refusal"] else 0.0 for r in judged]) if judged else None,
+        "relevance_rate": relevance_rate,
+        "hallucination_rate": hallucination_rate,
+        "refusal_rate": refusal_rate,
+        "recall": recall,
+        "precision": precision,
         "rows": rows,
     }
 
@@ -221,6 +243,81 @@ def fig_metric_bars(runs: list[dict], metric: str, title: str, as_pct: bool = Fa
     if len(labels) > 4:
         fig.update_layout(xaxis_tickangle=-25)
     _apply_chart_layout(fig, y_vals=vals, as_pct=as_pct, margin_bottom=bottom)
+    return _chart_html(fig)
+
+
+def fig_precision_recall_scatter(runs: list[dict]) -> str:
+    """One point per run: recall (x) vs precision (y) from answer-judge metrics."""
+    pts = [
+        r
+        for r in runs
+        if r.get("precision") is not None and r.get("recall") is not None
+    ]
+    if not pts:
+        return ""
+
+    colors = _run_colors(len(pts))
+    fig = go.Figure()
+    for r, color in zip(pts, colors):
+        prec = float(r["precision"]) * 100
+        rec = float(r["recall"]) * 100
+        fig.add_trace(
+            go.Scatter(
+                x=[rec],
+                y=[prec],
+                mode="markers",
+                name=r["label"],
+                marker=dict(size=14, color=color, line=dict(width=1, color="#111827")),
+                hovertemplate=(
+                    f"<b>{r['label']}</b><br>"
+                    f"Recall: {rec:.1f}%<br>"
+                    f"Precision: {prec:.1f}%<br>"
+                    f"Relevance: {(r['relevance_rate'] or 0)*100:.1f}%<br>"
+                    f"Hallucination: {(r['hallucination_rate'] or 0)*100:.1f}%"
+                    "<extra></extra>"
+                ),
+            )
+        )
+
+    # Ideal corner guide
+    fig.add_shape(
+        type="line",
+        x0=0,
+        y0=100,
+        x1=100,
+        y1=100,
+        line=dict(color="#d1d5db", width=1, dash="dot"),
+    )
+    fig.add_shape(
+        type="line",
+        x0=100,
+        y0=0,
+        x1=100,
+        y1=100,
+        line=dict(color="#d1d5db", width=1, dash="dot"),
+    )
+
+    fig.update_layout(
+        title=(
+            "Precision–recall (answer judge)<br>"
+            "<sup>Recall = % relevant · Precision = relevant / (relevant + hallucinated)</sup>"
+        ),
+        xaxis_title="Recall (%)",
+        yaxis_title="Precision (%)",
+        xaxis=dict(range=[0, 105], automargin=True),
+        yaxis=dict(range=[0, 105], automargin=True, scaleanchor="x", scaleratio=1),
+        showlegend=True,
+    )
+    _apply_chart_layout(
+        fig,
+        y_vals=[0, 100],
+        as_pct=True,
+        legend=True,
+        n_series=len(pts),
+        margin_bottom=48,
+    )
+    # Square axes already set; don't let y-headroom squash the top
+    fig.update_layout(yaxis=dict(range=[0, 105]))
     return _chart_html(fig)
 
 
@@ -376,19 +473,25 @@ def build_html(
 
     charts = []
     if has_eval:
+        pr_scatter = fig_precision_recall_scatter(runs)
+        if pr_scatter:
+            charts.append(("wide", pr_scatter))
         charts.extend([
-            fig_metric_bars(runs, "relevance_rate", "Relevance rate", as_pct=True, color="#54A24B"),
-            fig_metric_bars(runs, "hallucination_rate", "Hallucination rate", as_pct=True, color="#E45756"),
-            fig_metric_bars(runs, "refusal_rate", "Refusal rate", as_pct=True, color="#F58518"),
-            fig_grouped_metric_by_difficulty(runs, "relevant", "Relevance by difficulty"),
-            fig_grouped_metric_by_difficulty(runs, "hallucination", "Hallucination by difficulty"),
+            ("", fig_metric_bars(runs, "relevance_rate", "Relevance rate", as_pct=True, color="#54A24B")),
+            ("", fig_metric_bars(runs, "hallucination_rate", "Hallucination rate", as_pct=True, color="#E45756")),
+            ("", fig_metric_bars(runs, "refusal_rate", "Refusal rate", as_pct=True, color="#F58518")),
+            ("", fig_grouped_metric_by_difficulty(runs, "relevant", "Relevance by difficulty")),
+            ("", fig_grouped_metric_by_difficulty(runs, "hallucination", "Hallucination by difficulty")),
         ])
     charts.extend([
-        fig_metric_bars(runs, "latency_avg", "Average latency (ms)", color="#4C78A8"),
-        fig_metric_bars(runs, "citation_accuracy", "Citation accuracy", as_pct=True, color="#72B7B2"),
+        ("", fig_metric_bars(runs, "latency_avg", "Average latency (ms)", color="#4C78A8")),
+        ("", fig_metric_bars(runs, "citation_accuracy", "Citation accuracy", as_pct=True, color="#72B7B2")),
     ])
 
-    chart_sections = "".join(f'<div class="chart">{c}</div>' for c in charts)
+    chart_sections = "".join(
+        f'<div class="chart{" chart-wide" if kind == "wide" else ""}">{c}</div>'
+        for kind, c in charts
+    )
     qdata = question_payload(questions, run_answers, run_evals)
     run_labels = json.dumps([r["label"] for r in runs], ensure_ascii=False)
     prompts_html = render_prompt_section(prompt_specs) if prompt_specs else ""
@@ -442,6 +545,7 @@ def build_html(
     .metrics .v {{ font-weight: 600; text-align: right; }}
     .charts {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(520px, 1fr)); gap: 1rem; align-items: start; }}
     .chart {{ min-width: 0; overflow: visible; min-height: {CHART_HEIGHT}px; }}
+    .chart-wide {{ grid-column: 1 / -1; }}
     .chart > div {{ overflow: visible !important; height: {CHART_HEIGHT}px !important; }}
     .chart .plotly-graph-div {{ overflow: visible !important; height: {CHART_HEIGHT}px !important; }}
     .controls {{ display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; margin-bottom: .75rem; }}
@@ -809,7 +913,7 @@ def main() -> None:
     ap.add_argument("--questions", default="reference_questions.json")
     ap.add_argument("--run", action="append", required=True, help='Label|path.jsonl')
     ap.add_argument("--eval", action="append", default=[], help='Optional eval JSON: "Label|path.jsonl"')
-    ap.add_argument("--out", default="reports/compare_dashboard.html")
+    ap.add_argument("--out", default="reports/stage1/compare_dashboard.html")
     ap.add_argument("--title", default="Run Comparison Dashboard", help="Page title shown in browser and header")
     ap.add_argument(
         "--prompt",
@@ -830,7 +934,7 @@ def main() -> None:
     prompt_map: dict[str, str] = {}
     for raw in args.prompt:
         label, preset = parse_labeled_arg(raw)
-        prompt_map[label] = preset
+        prompt_map[label] = str(preset)
 
     run_answers: list[tuple[str, dict[str, dict]]] = []
     run_evals: list[tuple[str, dict[str, dict] | None]] = []

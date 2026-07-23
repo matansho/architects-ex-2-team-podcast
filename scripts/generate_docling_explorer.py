@@ -438,9 +438,9 @@ def main() -> None:
     ap.add_argument(
         "--from-samples",
         default="",
-        help="Use cached reports/docling_samples instead of re-running Docling",
+        help="Use cached reports/stage2/docling_samples instead of re-running Docling",
     )
-    ap.add_argument("--out", default="reports/docling_explorer.html")
+    ap.add_argument("--out", default="reports/stage2/docling_explorer.html")
     args = ap.parse_args()
 
     out_path = ROOT / args.out

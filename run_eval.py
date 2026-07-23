@@ -9,7 +9,7 @@ Score an answers JSONL file against reference_questions.json.
     python run_eval.py --answers answers.jsonl --no-citation-judge
 
     # Full eval with answer + citation LLM judges:
-    python run_eval.py --answers baseline_answers.jsonl --out reports/baseline_eval.json
+    python run_eval.py --answers baseline_answers.jsonl --out reports/stage1/baseline_eval.json
 
     # Quick smoke test on 3 questions:
     python run_eval.py --answers baseline_answers.jsonl --limit 3
@@ -52,7 +52,11 @@ def main():
     print_summary(report)
 
     if args.out:
-        with open(args.out, "w", encoding="utf-8") as f:
+        from pathlib import Path
+
+        out_path = Path(args.out)
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        with open(out_path, "w", encoding="utf-8") as f:
             json.dump(report_to_dict(report), f, ensure_ascii=False, indent=2)
         print(f"\nwrote {args.out}")
 

@@ -8,7 +8,7 @@ value it must give its `best` guess AND the most plausible `alt`ernative, plus a
 model is confident with a clear preference; otherwise it hedges. This approximates
 sampling-variance abstention at the price of a few extra output tokens on one call.
 
-    python contrast_runner.py --out reports/contrast_answers.jsonl
+    python contrast_runner.py --out reports/stage1/contrast_answers.jsonl
     python contrast_runner.py --show-prompt --limit 1
 """
 from __future__ import annotations
@@ -139,7 +139,7 @@ def main():
     ap = argparse.ArgumentParser(description="Approach C — self-contrast runner")
     ap.add_argument("--questions", default="reference_questions.json")
     ap.add_argument("--model", default="deepseek-ai/DeepSeek-V4-Pro")
-    ap.add_argument("--out", default="reports/contrast_answers.jsonl")
+    ap.add_argument("--out", default="reports/stage1/contrast_answers.jsonl")
     ap.add_argument("--examples", default=DEFAULT_EXAMPLES)
     ap.add_argument("--limit", type=int)
     ap.add_argument("--temperature", type=float, default=0.0)
@@ -198,7 +198,7 @@ def main():
             print(f"{q['id']}: {answer[:70]!r}... ({rec['latency_ms']:.0f} ms)")
     eval_out = re.sub(r"_?answers\.jsonl$", "_eval.json", args.out)
     if eval_out == args.out:
-        eval_out = "reports/contrast_eval.json"
+        eval_out = "reports/stage1/contrast_eval.json"
     print(f"\nwrote {args.out} — score with: python run_eval.py --answers {args.out} "
           f"--out {eval_out} --no-citation-judge")
 

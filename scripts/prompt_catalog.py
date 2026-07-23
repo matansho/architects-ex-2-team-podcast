@@ -21,6 +21,8 @@ from few_shot_runner import (
 
 def infer_preset_from_label(label: str) -> str | None:
     lower = label.lower()
+    if "cascade" in lower or "rag" in lower:
+        return "rag-no-cite"
     if "baseline" in lower:
         return "baseline"
     if "contrast" in lower:
@@ -41,7 +43,10 @@ def infer_preset_from_answers(answers_path: Path) -> str | None:
         if not line.strip():
             continue
         rec = json.loads(line)
-        if rec.get("approach") == "contrast":
+        approach = rec.get("approach") or ""
+        if approach.startswith("rag"):
+            return "rag-no-cite"
+        if approach == "contrast":
             return "contrast"
         preset = rec.get("preset")
         if preset:
@@ -81,6 +86,22 @@ def build_prompt_spec(preset: str) -> dict:
             "examples": [],
             "message_count": 2,
             "note": "System prompt + one user message per dev question.",
+        }
+
+    if preset == "rag-no-cite":
+        from rag.generate import SYSTEM_NO_CITE
+
+        return {
+            "preset": "rag-no-cite",
+            "runner": "rag_runner.py",
+            "system_prompt": SYSTEM_NO_CITE,
+            "examples_file": None,
+            "examples": [],
+            "message_count": 2,
+            "note": (
+                "Dense retrieve top-k (+ neighbor window) → context passages + question. "
+                "Answer only from context; citations disabled."
+            ),
         }
 
     if preset == "contrast":
@@ -217,7 +238,7 @@ def render_prompt_section(specs: list[tuple[str, dict]]) -> str:
     return f"""
     <section id="prompts">
       <h2>Prompt configurations</h2>
-      <p class="section-note">Five unique presets across {len(mappings)} runs. Expand for system prompts and examples.</p>
+      <p class="section-note">{len(unique)} unique presets across {len(mappings)} runs. Expand for system prompts and examples.</p>
       <div class="prompt-map-wrap">
         <table class="prompt-map">
           <thead><tr><th>Run</th><th>Preset</th></tr></thead>

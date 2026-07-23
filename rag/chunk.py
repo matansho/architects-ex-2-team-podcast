@@ -2,16 +2,17 @@
 
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass, field
 
 from rag.chunk_stats import count_tokens
-from rag.parse import Block, section_depth
+from rag.parse import Block, parent_ref, section_depth
 
 
 @dataclass
 class VectorChunk:
     id: int
-    kind: str  # subclause | clause | section_pack | orphan_pack | split
+    kind: str  # subclause | clause | clause_pack | subclause_pack | section_pack | orphan_pack | split
     label: str
     text: str
     tokens: int
@@ -34,7 +35,11 @@ def _is_header(block: Block) -> bool:
         and not block.inherited
         and section_depth(block.section_ref) <= 3
     ):
-        return True
+        # Title shape: begins with ".  …" bullet. End-numbered body lines
+        # ("נזק…; .2.1") are content — peeling them cascades clauses together.
+        if re.match(r"^[\.\:\-]\s+\S", text):
+            return True
+        return False
     return False
 
 
@@ -56,6 +61,139 @@ def _unit_key(block: Block) -> tuple:
     if d == 2:
         return ("clause", ref)
     return ("section", ref)
+
+
+def _is_descendant_ref(parent: str, child: str | None) -> bool:
+    return bool(child and child.startswith(parent + "."))
+
+
+def _group_token_count(blocks: list[Block], encoding) -> int:
+    text = "\n".join(b.text for b in blocks if b.text)
+    return count_tokens(text, encoding)
+
+
+def _own_refs(blocks: list[Block]) -> set[str]:
+    """Section numbers this group introduced (excludes inherited body)."""
+    return {b.section_ref for b in blocks if b.section_ref and not b.inherited}
+
+
+def _is_atomic_unit(blocks: list[Block]) -> bool:
+    """True if the group is a single numbered unit (not an already-folded family)."""
+    return len(_own_refs(blocks)) <= 1
+
+
+def _fold_parent_children(
+    groups: list[tuple[str, str | None, list[Block]]],
+    max_tokens: int,
+    encoding,
+) -> list[tuple[str, str | None, list[Block]]]:
+    """Absorb descendant clause/subclause groups into their parent when they fit.
+
+    Keeps stems like ``§4.8`` ("…שנגרם:") together with ``§4.8.1`` / ``§4.8.2``.
+    Greedy: take as many consecutive descendants as fit under ``max_tokens``.
+    """
+    out: list[tuple[str, str | None, list[Block]]] = []
+    i = 0
+    while i < len(groups):
+        kind, ref, blist = groups[i]
+        if kind in ("clause", "subclause") and ref and blist:
+            combined = list(blist)
+            combined_tok = _group_token_count(combined, encoding)
+            j = i + 1
+            while j < len(groups):
+                ck, cr, cb = groups[j]
+                if ck not in ("clause", "subclause") or not _is_descendant_ref(ref, cr):
+                    break
+                child_tok = _group_token_count(cb, encoding)
+                if combined_tok + child_tok > max_tokens:
+                    break
+                combined.extend(cb)
+                combined_tok += child_tok
+                j += 1
+            if j > i + 1:
+                out.append((kind, ref, combined))
+                i = j
+                continue
+        out.append((kind, ref, blist))
+        i += 1
+    return out
+
+
+def _pack_small_siblings(
+    groups: list[tuple[str, str | None, list[Block]]],
+    target: int,
+    encoding,
+) -> list[tuple[str, str | None, list[Block]]]:
+    """Pack consecutive small siblings toward ``target``.
+
+    - Clauses/subclauses that share a parent (e.g. ``§2.1``+``§2.2``+``§2.3``)
+    - Top-level sections (e.g. ``§5``+``§6``) when both are small
+
+    Skips units already ≥ 50% of target, and already-folded parent+child families.
+    """
+    small_ceiling = max(1, int(target * 0.5))
+    out: list[tuple[str, str | None, list[Block]]] = []
+    i = 0
+    while i < len(groups):
+        kind, ref, blist = groups[i]
+        if kind not in ("clause", "subclause", "section") or not ref or not blist:
+            out.append(groups[i])
+            i += 1
+            continue
+
+        tok = _group_token_count(blist, encoding)
+        if tok >= small_ceiling or not _is_atomic_unit(blist):
+            out.append(groups[i])
+            i += 1
+            continue
+
+        if kind in ("clause", "subclause"):
+            parent = parent_ref(ref)
+            if parent is None:
+                out.append(groups[i])
+                i += 1
+                continue
+
+            def can_join(ck: str, cr: str | None, cb: list[Block]) -> bool:
+                return (
+                    ck in ("clause", "subclause")
+                    and bool(cr)
+                    and parent_ref(cr) == parent
+                    and _is_atomic_unit(cb)
+                )
+
+            emit_kind = kind + "_pack"
+        else:
+            # Top-level §N siblings under the document root
+            def can_join(ck: str, cr: str | None, cb: list[Block]) -> bool:
+                return ck == "section" and bool(cr) and _is_atomic_unit(cb)
+
+            # Keep-together kind so flush won't re-split on the next § header
+            emit_kind = "section_pack"
+
+        combined = list(blist)
+        combined_tok = tok
+        j = i + 1
+        while j < len(groups):
+            ck, cr, cb = groups[j]
+            if not can_join(ck, cr, cb):
+                break
+            child_tok = _group_token_count(cb, encoding)
+            if child_tok >= small_ceiling:
+                break
+            if combined_tok + child_tok > target:
+                break
+            combined.extend(cb)
+            combined_tok += child_tok
+            j += 1
+
+        if j > i + 1:
+            out.append((emit_kind, ref, combined))
+            i = j
+        else:
+            out.append(groups[i])
+            i += 1
+    return out
 
 
 def _attach_leading_headers(
@@ -117,15 +255,15 @@ def _flush_group(
     """Split a consecutive group into pack-sized pieces."""
     if not blocks:
         return []
-    # Clause/subclause: keep together unless over max, then split on block boundaries
-    if kind in ("clause", "subclause"):
+    # Clause/subclause/sibling packs: keep together unless over max
+    if kind in ("clause", "subclause", "clause_pack", "subclause_pack", "section_pack"):
         text = "\n".join(b.text for b in blocks)
         tok = count_tokens(text, encoding)
         if tok <= max_tokens:
             return [(kind, ref, blocks)]
         return _split_blocks(kind, ref, blocks, max_tokens, encoding)
 
-    # Section / orphan: pack up to target
+    # Section / orphan (not yet sibling-packed): pack up to target
     return _pack_blocks(kind + "_pack", ref, blocks, target, max_tokens, encoding)
 
 
@@ -245,10 +383,12 @@ def chunk_blocks(
     blocks: list[Block],
     *,
     target_tokens: int = 500,
-    max_tokens: int = 1000,
+    max_tokens: int = 700,
     encoding=None,
 ) -> list[VectorChunk]:
-    """Build retrieval vectors: clause/subclause first, else pack section/orphan text."""
+    """Build retrieval vectors: clause/subclause first (fold descendants under
+    max; pack small siblings — including top-level sections — toward target),
+    else pack section/orphan text."""
     if encoding is None:
         import tiktoken
 
@@ -276,6 +416,8 @@ def chunk_blocks(
         groups.append((kind, ref, cur_blocks))
 
     groups = _attach_leading_headers(groups)
+    groups = _fold_parent_children(groups, max_tokens, encoding)
+    groups = _pack_small_siblings(groups, target_tokens, encoding)
 
     pieces: list[tuple[str, str | None, list[Block]]] = []
     for kind, ref, blist in groups:

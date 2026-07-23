@@ -1,1 +1,1 @@
-"""Stage 2 RAG: parse, chunk, retrieve."""
+"""Stage 2 RAG: parse, chunk, retrieve, generate."""

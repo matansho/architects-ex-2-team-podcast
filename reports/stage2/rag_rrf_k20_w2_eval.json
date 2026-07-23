@@ -1,0 +1,1065 @@
+{
+  "run_label": "rag-rrf-k20-w2",
+  "total": 48,
+  "relevance_rate": 0.6458333333333334,
+  "hallucination_rate": 0.14583333333333334,
+  "refusal_rate": 0.16666666666666666,
+  "citation_accuracy": 0.0,
+  "latency_ms_avg": 6967.754562695821,
+  "latency_ms_p50": 4809.999704360962,
+  "judge_cost_usd": 0.020301500000000004,
+  "by_difficulty": {
+    "easy": {
+      "count": 16,
+      "relevance_rate": 0.875,
+      "hallucination_rate": 0.0625,
+      "refusal_rate": 0.0625,
+      "citation_accuracy": 0.0,
+      "latency_ms_avg": 5760.389998555183
+    },
+    "hard": {
+      "count": 16,
+      "relevance_rate": 0.3125,
+      "hallucination_rate": 0.1875,
+      "refusal_rate": 0.375,
+      "citation_accuracy": 0.0,
+      "latency_ms_avg": 9070.338919758797
+    },
+    "medium": {
+      "count": 16,
+      "relevance_rate": 0.75,
+      "hallucination_rate": 0.1875,
+      "refusal_rate": 0.0625,
+      "citation_accuracy": 0.0,
+      "latency_ms_avg": 6072.534769773483
+    }
+  },
+  "by_domain": {
+    "apartment": {
+      "count": 6,
+      "relevance_rate": 0.8333333333333334,
+      "hallucination_rate": 0.0,
+      "refusal_rate": 0.16666666666666666,
+      "citation_accuracy": 0.0,
+      "latency_ms_avg": 7652.932325998942
+    },
+    "business": {
+      "count": 6,
+      "relevance_rate": 0.6666666666666666,
+      "hallucination_rate": 0.16666666666666666,
+      "refusal_rate": 0.16666666666666666,
+      "citation_accuracy": 0.0,
+      "latency_ms_avg": 6004.9788157145185
+    },
+    "car": {
+      "count": 6,
+      "relevance_rate": 0.8333333333333334,
+      "hallucination_rate": 0.16666666666666666,
+      "refusal_rate": 0.0,
+      "citation_accuracy": 0.0,
+      "latency_ms_avg": 6467.883904774983
+    },
+    "dental": {
+      "count": 6,
+      "relevance_rate": 0.6666666666666666,
+      "hallucination_rate": 0.16666666666666666,
+      "refusal_rate": 0.16666666666666666,
+      "citation_accuracy": 0.0,
+      "latency_ms_avg": 4659.11861260732
+    },
+    "health": {
+      "count": 6,
+      "relevance_rate": 0.5,
+      "hallucination_rate": 0.16666666666666666,
+      "refusal_rate": 0.16666666666666666,
+      "citation_accuracy": 0.0,
+      "latency_ms_avg": 6096.6668128967285
+    },
+    "life": {
+      "count": 6,
+      "relevance_rate": 0.6666666666666666,
+      "hallucination_rate": 0.0,
+      "refusal_rate": 0.3333333333333333,
+      "citation_accuracy": 0.0,
+      "latency_ms_avg": 5493.145267168681
+    },
+    "mortgage": {
+      "count": 6,
+      "relevance_rate": 0.8333333333333334,
+      "hallucination_rate": 0.0,
+      "refusal_rate": 0.0,
+      "citation_accuracy": 0.0,
+      "latency_ms_avg": 8349.29645061493
+    },
+    "travel": {
+      "count": 6,
+      "relevance_rate": 0.16666666666666666,
+      "hallucination_rate": 0.5,
+      "refusal_rate": 0.3333333333333333,
+      "citation_accuracy": 0.0,
+      "latency_ms_avg": 11018.014311790466
+    }
+  },
+  "results": [
+    {
+      "id": "dev-01-apartment-easy",
+      "domain": "apartment",
+      "difficulty": "easy",
+      "question": "הגשתי תביעה לחברת הביטוח והיא עדיין בטיפול כבר הרבה זמן. האם עצם הפנייה לחברה עוצרת את מרוץ ההתיישנות של התביעה שלי?",
+      "answer": "לא, הגשת תביעה לחברת הביטוח אינה עוצרת את מרוץ ההתיישנות. על פי המסמכים, רק הגשת תביעה לבית משפט עוצרת את מרוץ ההתיישנות.",
+      "ground_truth_answer": "לא, ככלל הגשת תביעה לגוף מוסדי אינה עוצרת את מרוץ ההתיישנות ורק הגשת תביעה לבית משפט עוצרת אותו.",
+      "latency_ms": 4411.955833435059,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states that filing a claim with the insurance company does not stop the statute of limitations, and that only filing a lawsuit in court does so, which matches the ground truth exactly.",
+      "judge_cost_usd": 0.000348
+    },
+    {
+      "id": "dev-02-apartment-easy",
+      "domain": "apartment",
+      "difficulty": "easy",
+      "question": "קרה נזק בדירה שלי לפני חודש. האם נכון שיש לי שלוש שנים מיום המקרה להגיש תביעה לתגמולי ביטוח?",
+      "answer": "כן, תקופת ההתיישנות של תביעה לתגמולי ביטוח היא שלוש שנים מיום קרות מקרה הביטוח.",
+      "ground_truth_answer": "כן, תקופת ההתיישנות של תביעה לתגמולי ביטוח היא שלוש שנים לאחר שקרה מקרה הביטוח.",
+      "latency_ms": 2477.5280952453613,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "המודל מסכים עם התשובה הנכונה ומציין את תקופת ההתיישנות של שלוש שנים, תוך שימוש בניסוח דומה.",
+      "judge_cost_usd": 0.0003265
+    },
+    {
+      "id": "dev-03-apartment-medium",
+      "domain": "apartment",
+      "difficulty": "medium",
+      "question": "אם תהיה רעידת אדמה והדירה שלי תיפגע, המדינה לא אמורה לפצות אותי בכל מקרה? למה בכלל להוסיף כיסוי כזה לביטוח הדירה?",
+      "answer": "שלום,\n\nלא, המדינה אינה מחויבת לפצות אותך על נזקי רעידת אדמה למבני מגורים. על פי חוק פיצוי נפגעי אסון טבע, המדינה אמנם כוללת רעידות אדמה, אך החוק מתייחס אך ורק לנזקים לתשתית חקלאית.\n\nמבוטחים רבים טועים לחשוב שהמדינה תשלם פיצוי מלא על נזקי רעידת אדמה לבתי מגורים, ולכן מוותרים על הכיסוי. בפועל, ללא כיסוי מתאים בביטוח הדירה, לא תהיה זכאי לפיצוי כלשהו על נזקים למבנה הדירה או לתכולה כתוצאה מרעידת אדמה. בדיוק מסיבה זו, חשוב מאוד לא לוותר על הכיסוי.",
+      "ground_truth_answer": "לא. חוק פיצוי נפגעי אסון טבע אמנם כולל רעידות אדמה, אך הוא מתייחס לנזקים לתשתית חקלאית בלבד — המדינה אינה מחויבת לפצות אזרחים על נזקים למבני מגורים. לכן חשוב לא לוותר על כיסוי רעידת אדמה בביטוח הדירה.",
+      "latency_ms": 8849.475145339966,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states that the state is not obligated to compensate for earthquake damage to residential buildings, explains the law only covers agricultural infrastructure, and advises not to forgo the coverage. All core facts match the ground truth without contradiction or invention.",
+      "judge_cost_usd": 0.000469
+    },
+    {
+      "id": "dev-04-apartment-medium",
+      "domain": "apartment",
+      "difficulty": "medium",
+      "question": "יש לי ביטוח למחזיקי אקדח ברישיון. אם המבטח לא העמיד לי עורך דין ופניתי לעורך דין לפי בחירתי להגנה בהליך הפלילי, עד איזה סכום ישפו אותי על שכר הטרחה וההוצאות?",
+      "answer": "כן. לפי הפוליסה, אם המבטח לא העמיד לך עורך דין, אתה רשאי לפנות לעורך דין לפי בחירתך, והמבטח ישפה אותך בשכר הטרחה והוצאות ההגנה ששילמת, אך לא יותר מסכום השווה בשקלים ל-6,000 ₪ ביום קרות מקרה הביטוח.",
+      "ground_truth_answer": "עד סכום השווה בשקלים ל-6,000 ₪ ביום קרות מקרה הביטוח.",
+      "latency_ms": 6222.593784332275,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states the reimbursement limit of 6,000 ₪ as of the day of the insured event, matching the ground truth exactly. No additional or contradictory facts are introduced.",
+      "judge_cost_usd": 0.0003635
+    },
+    {
+      "id": "dev-05-apartment-hard",
+      "domain": "apartment",
+      "difficulty": "hard",
+      "question": "אני חבר ועד בית ורוצה לעשות ביטוח לבניין המשותף, וחוץ מזה יש לי אוסף אומנות פרטי שאני רוצה לבטח גם. איך מצטרפים לשני הביטוחים האלה?",
+      "answer": "עבור ביטוח לבית המשותף, תוכלו להצטרף דרך פוליסת **\"עד הגג - ביטוח בית משותף\"**, שמתאימה בדיוק לוועד הבית ומכסה את החלקים המשותפים (כמו חדר מדרגות, מעליות, שערים). בדף המוצר מצוין: \"להצטרפות יש לפנות לסוכן הביטוח שלך\".  \n\nעבור ביטוח אוסף האומנות הפרטי שלכם, קיים המוצר **\"Fine Art Collector's Insurance - ביטוח אוספי אומנות\"** המיועד לתמונות, פסלים וחפצי אומנות מיוחדים. גם כאן, ההצטרפות מתבצעת דרך סוכן הביטוח שלכם, כפי שכתוב בעמוד המוצר: \"להצטרפות יש לפנות לסוכן הביטוח שלך\".  \n\nלסיכום, עבור שני הביטוחים, עליכם לפנות ישירות לסוכן הביטוח שלכם כדי להצטרף.",
+      "ground_truth_answer": "בשני המקרים ההצטרפות נעשית דרך סוכן הביטוח שלך: גם לביטוח \"עד הגג\" לבית המשותף וגם לביטוח Fine Art Collector's Insurance לאוספי אומנות יש לפנות לסוכן הביטוח להצטרפות.",
+      "latency_ms": 4607.604026794434,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states that joining both the building insurance and the art collection insurance is done through the insurance agent, which matches the core fact of the ground truth. It provides additional product names but does not contradict or invent any checkable facts.",
+      "judge_cost_usd": 0.0004815
+    },
+    {
+      "id": "dev-06-apartment-hard",
+      "domain": "apartment",
+      "difficulty": "hard",
+      "question": "הדירה שלי מבוטחת בסכום של 1,200,000 ש\"ח. שריפה פגעה בגינה — בדשא, בשיחים ובמערכת ההשקיה. מה הסכום המקסימלי שהביטוח ישלם על הנזק הזה?",
+      "answer": "בהתבסס על המידע המצוי בהקשר, הסכום המקסימלי שהביטוח ישלם עבור נזק לצמחים, מדשאות ומערכות השקיה לא מצוין במפורש.\n\nהמסמכים מציינים את קיומו של כיסוי זה תחת \"הרחבה לצמחים, מדשאות ומערכות השקיה\" במסגרת פרק הדירה, אך לא מפרטים את תקרת הכיסוי או את הסכום המקסימלי שניתן לקבל במקרה של נזק כזה.",
+      "ground_truth_answer": "24,000 ש\"ח. אחריות המבטח בהרחבה לצמחים, מדשאות ומערכות השקיה מוגבלת ל-2% מסכום הביטוח לפרק ביטוח הדירה: 2% × 1,200,000 = 24,000 ש\"ח.",
+      "latency_ms": 19348.437070846558,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": false,
+      "hallucination": false,
+      "refusal": true,
+      "judge_reasoning": "The model answer states that the maximum amount is not explicitly mentioned in the context and does not provide the specific figure. This constitutes a refusal to answer the factual question, as it declines to commit to the required fact. No specific checkable fact is asserted, so there is no hallucination.",
+      "judge_cost_usd": 0.0004485
+    },
+    {
+      "id": "dev-07-business-easy",
+      "domain": "business",
+      "difficulty": "easy",
+      "question": "אני מעסיק במשרד עובדים דרך קבלן משנה. אם עובד של קבלן המשנה ייפגע ויתבע אותי, האם ביטוח החבות בפוליסת המכלול למשרד יכסה את זה?",
+      "answer": "לא. לפי תנאי פוליסת המכלול למשרד, קיים סייג מפורש לחבות המבטח לפיו הביטוח אינו מכסה חבות של המבוטח כלפי או בגין קבלן, עובד של קבלן, קבלן משנה או עובד של קבלן משנה.\n\nעם זאת, קיימת אפשרות לרכוש הרחבה ייעודית (\"כיסוי עובדים שאינם של המבוטח\"). אם הרחבה זו נרשמה במפורש בדף הרשימה שלך, הפוליסה תורחב לכסות גם חבות כלפי עובדים של קבלני משנה בתנאים המפורטים בפוליסה.",
+      "ground_truth_answer": "לא. הפרק מחריג במפורש את חבות המבוטח כלפי קבלן, עובד של קבלן או קבלן משנה, עובד של קבלן משנה ועובדי חברות כוח אדם.",
+      "latency_ms": 9422.193765640259,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states that the policy excludes liability towards subcontractors and their employees, matching the ground truth. The additional note about a possible extension is extra information but does not contradict the core fact.",
+      "judge_cost_usd": 0.000418
+    },
+    {
+      "id": "dev-08-business-easy",
+      "domain": "business",
+      "difficulty": "easy",
+      "question": "יש לי ביטוח ציוד אלקטרוני לעסק, ובאמצע תקופת הביטוח חל שינוי מהותי בעסק שלי. האם אני חייב להודיע על כך לחברת הביטוח בכתב?",
+      "answer": "כן, על פי תנאי הפוליסות של הראל, עליך להודיע לחברת הביטוח בכתב על כל שינוי מהותי, מיד עם היוודע לך על כך. לדוגמה, בפוליסות אחרות של הראל מצוין כי \"המבוטח יגלה למבטח, במשך תקופת הביטוח, כל שינוי מהותי... באופן מידי מעת שנודע לו על כך\" או \"המבוטח יודיע... בכתב... מיד עם היוודע לו על כך\".",
+      "ground_truth_answer": "כן. הפוליסה קובעת שבמשך תקופת הביטוח על המבוטח לגלות למבטח בכתב כל שינוי בעניין מהותי, באופן מיידי מעת שנודע לו על כך.",
+      "latency_ms": 3396.358013153076,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states that the insured must notify the insurer in writing of any material change immediately upon becoming aware of it, which aligns with the ground truth. The mention of 'Harel' policies is a specific example but does not contradict the core fact.",
+      "judge_cost_usd": 0.0004125
+    },
+    {
+      "id": "dev-09-business-medium",
+      "domain": "business",
+      "difficulty": "medium",
+      "question": "אם המשרד שלי יושבת בעקבות נזק מכוסה, לכמה זמן לכל היותר אקבל פיצוי על אובדן ההכנסות?",
+      "answer": "משך תקופת השיפוי המרבי הוא עד תום תקופת ההפסקה בתפעול, אך לא יאוחר מ-100 ימים, אלא אם צוין אחרת ברשימה.",
+      "ground_truth_answer": "תקופת השיפוי מסתיימת בתום תקופת ההשבתה ולא יאוחר מ-100 ימים מתחילת ההשבתה, אלא אם נקבע אחרת ברשימה.",
+      "latency_ms": 2802.823305130005,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states the maximum indemnity period as up to the end of the business interruption but no later than 100 days, unless otherwise specified in the policy schedule, which matches the ground truth exactly.",
+      "judge_cost_usd": 0.000345
+    },
+    {
+      "id": "dev-10-business-medium",
+      "domain": "business",
+      "difficulty": "medium",
+      "question": "אני חוקר שמתכנן ניסוי קליני שאושר על ידי ועדת הלסינקי. האם אני חייב לרכוש ביטוח לניסוי?",
+      "answer": "כן. על פי המסמכים, ביטוח ניסויים קליניים נדרש עבור כל ניסוי קליני המאושר על-ידי ועדת הלסינקי, בהתאם לנוהלי משרד הבריאות. הפוליסה מעניקה כיסוי במקרה של תביעת נזיקין של המשתתפים או צד ג', וכוללת כיסוי להוצאות הגנה משפטית.",
+      "ground_truth_answer": "כן. פוליסת ביטוח ניסויים קליניים נדרשת עבור כל ניסוי קליני המאושר על-ידי ועדת הלסינקי, בהתאם לנוהלי משרד הבריאות. הפוליסה מכסה תביעות נזיקין של משתתפים בניסוי או צד ג' וכוללת כיסוי הוצאות הגנה משפטית.",
+      "latency_ms": 3228.5101413726807,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states that insurance is required for a clinical trial approved by the Helsinki Committee, matching the ground truth. It also accurately mentions the coverage for negligence claims and legal defense costs, with no contradictory or invented facts.",
+      "judge_cost_usd": 0.000411
+    },
+    {
+      "id": "dev-11-business-hard",
+      "domain": "business",
+      "difficulty": "hard",
+      "question": "אחרי נזק בעסק הוצאתי הוצאות נוספות כדי לא לאבד הכנסות. אני משווה בין פוליסת שיר לעסק לבין הראל ביט לאובדן תוצאתי — האם יש תקרה להחזר על הוצאות כאלה בכל אחת מהן?",
+      "answer": "אין לי מידע על פוליסת \"שיר לעסק\" או על ההגדרות שלה, ולכן איני יכול להשוות או לציין מהי התקרה להחזר על הוצאות כאלה במסגרתה.\n\nלגבי **הראל ביט – ביטוח אובדן תוצאתי** (המופיע בפוליסה המשולבת לביטוח אש מורחב ואובדן תוצאתי): בהגדרת \"הוצאות מוגדלות\" מצוין שהכיסוי הוא להוצאות נוספות סבירות שהוצאו כדי למנוע או להקטין הפסד הכנסה, **אך לא מעבר לסכום שאותן הוצאות בתוספת ההפסד תעלינה מעל הפסד ההכנסה שהיה נגרם אלמלא הוצאו הוצאות אלו**. כלומר, קיימת תקרה עקרונית שמגבילה את סכום ההחזר כך שלא יעלה על גובה ההפסד שנחסך. מעבר לכך, המסמכים שבידי אינם מפרטים תקרת סכום כספית נפרדת עבור הוצאות מוגדלות.",
+      "ground_truth_answer": "כן, בשתיהן יש תקרה: בשיר לעסק סך ההוצאות המוגדלות לא יעלה על הפסד ההכנסה שהיה נגרם אלמלא הוצאו. בהראל ביט הסכום שישולם על כל הוצאה לא יעלה על שיעור הרווח הגולמי כפול אותו חלק של המחזור שאובדנו נמנע בזכות ההוצאה, בניכוי סכומים שנחסכו בתקופת השיפוי.",
+      "latency_ms": 6469.874858856201,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": false,
+      "hallucination": true,
+      "refusal": false,
+      "judge_reasoning": "The model answer states a specific cap for Harel Bituach that contradicts the ground truth. The ground truth says the cap is the gross profit rate multiplied by the turnover saved, minus saved sums, while the model says the cap is that the expenses plus the loss do not exceed the loss that would have occurred. This is a specific, checkable fact that is wrong.",
+      "judge_cost_usd": 0.0005675
+    },
+    {
+      "id": "dev-12-business-hard",
+      "domain": "business",
+      "difficulty": "hard",
+      "question": "ביטחתי את התכולה שלי בהראל בסכום ביטוח של 300,000 ש\"ח, ובלי לשים לב יש לי גם ביטוח אצל מבטח אחר על אותה תכולה בסכום של 100,000 ש\"ח. אם יקרה נזק, איך יתחלק התשלום בין שתי החברות?",
+      "answer": "אין במסמכים שהועברו מידע לגבי האופן שבו מתחלק התשלום בין מבטחים במקרה של ביטוח כפול (ביטוח אותה תכולה אצל יותר מחברת ביטוח אחת). לכן, איני יכול לתת תשובה מדויקת לשאלתך על בסיס ההקשר המצורף. מומלץ לפנות ישירות להראל או לסוכן הביטוח שלך לבירור מצב זה.",
+      "ground_truth_answer": "בביטוח כפל המבטחים מתחלקים ביניהם לפי היחס שבין סכומי הביטוח: הראל תישא ב-75% (300,000 מתוך 400,000 = 3/4) והמבטח האחר ב-25% (100,000 מתוך 400,000 = 1/4). כלפיך כל מבטח אחראי לחוד על מלוא הסכום, ועליך להודיע למבטח מיד על ביטוח הכפל.",
+      "latency_ms": 10710.112810134888,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": false,
+      "hallucination": false,
+      "refusal": true,
+      "judge_reasoning": "The model explicitly states it lacks the information to answer and declines to provide the requested calculation, which constitutes a refusal. It does not assert any specific checkable fact that contradicts or invents details from the ground truth.",
+      "judge_cost_usd": 0.0004345
+    },
+    {
+      "id": "dev-13-car-easy",
+      "domain": "car",
+      "difficulty": "easy",
+      "question": "המפתחות שלי ננעלו בתוך הרכב – האם מגיע לי שירות פריצה לרכב במסגרת כתב השירות?",
+      "answer": "כן, מגיע לך שירות פריצת רכב במסגרת כתב השירות. לצורך פריצת רכב שמפתחותיו ננעלו בתוכו, יגיע לרכב נציג מטעם נותן השירות אשר ינסה לפרוץ את הרכב.  \n\nשירות זה ניתן לכל סוגי הרכב עד 3.5 טון, למעט כלי רכב הננעלים בנעילת ואקום.  \n\nיש לשלם דמי השתתפות עצמית בסך 59 ₪ לידי נותן השירות בעת קבלת השירות.",
+      "ground_truth_answer": "כן, במקרה שהמפתחות ננעלו בתוך הרכב יגיע נציג מטעם נותן השירות למקום הרכב וינסה לפרוץ אותו.",
+      "latency_ms": 3742.715835571289,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer confirms the core fact that a lockout service is provided, which agrees with the ground truth. The additional details about vehicle weight, vacuum locks, and the co-payment are not present in the ground truth but do not contradict it, so they are not considered hallucination.",
+      "judge_cost_usd": 0.000422
+    },
+    {
+      "id": "dev-14-car-easy",
+      "domain": "car",
+      "difficulty": "easy",
+      "question": "יש לי תקר בגלגל וצריך החלפה – האם השירות ניתן בחינם בלי שום תשלום מצדי?",
+      "answer": "לא, השירות כרוך בתשלום.  \nעבור שירות החלפת גלגל נדרשת השתתפות עצמית בסך **₪59** (כולל מע״מ), המשולמת לנותן השירות בפועל בעת קבלת השירות.",
+      "ground_truth_answer": "לא, בכל מקרה של מתן שירות החלפת גלגל משלם מקבל השירות דמי השתתפות עצמית בסך 59 ₪ כולל מע\"מ לנותן השירות.",
+      "latency_ms": 4659.999132156372,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states that the service is not free and requires a self-participation fee of 59 ILS including VAT, which matches the ground truth exactly. No invented or contradictory facts are present.",
+      "judge_cost_usd": 0.0003525
+    },
+    {
+      "id": "dev-15-car-medium",
+      "domain": "car",
+      "difficulty": "medium",
+      "question": "אם אאבד את המפתחות או השלט של הרכב, ביטוח צד ג' של הראל מכסה את זה? זה עולה תוספת?",
+      "answer": "לא, ביטוח צד ג' לרכב של הראל לא מכסה אובדן מפתחות או שלט, ואין לגביו תוספת שמאפשרת כיסוי כזה. מהמסמכים שבידי, ביטוח צד ג' מיועד לכסות נזקי רכוש שנגרמו לצד שלישי, ולא אובדן או נזק למפתחות הרכב של המבוטח.",
+      "ground_truth_answer": "כן, ביטוח צד ג' לרכב של הראל כולל ביטוח על אובדן מפתחות או שלטים לרכב ללא תשלום פרמיה נוספת.",
+      "latency_ms": 3265.8300399780273,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": false,
+      "hallucination": true,
+      "refusal": false,
+      "judge_reasoning": "The model answer explicitly contradicts the ground truth by stating that the insurance does not cover lost keys/remotes and that no add-on exists, whereas the ground truth confirms coverage is included at no extra cost. This is a specific, checkable fact that is wrong.",
+      "judge_cost_usd": 0.000394
+    },
+    {
+      "id": "dev-16-car-medium",
+      "domain": "car",
+      "difficulty": "medium",
+      "question": "אני נוסע עם הרכב שלי לטיול בסיני, איפה ואיך אפשר לרכוש את ביטוח הרכב למטיילים של הראל?",
+      "answer": "שלום,\n\nעל פי המידע, רכישת הביטוח מתבצעת בעמדת המכירה של מילגם הממוקמת במעבר הגבול, בעת יציאתך מישראל.",
+      "ground_truth_answer": "מצטרפים בעת היציאה מהארץ, בעמדת המכירה של מילגם הממוקמת במעבר הגבול.",
+      "latency_ms": 6101.5143394470215,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states that the insurance is purchased at the Milgam sales point at the border crossing when leaving Israel, which matches the ground truth exactly. No invented or contradictory facts are present.",
+      "judge_cost_usd": 0.000333
+    },
+    {
+      "id": "dev-17-car-hard",
+      "domain": "car",
+      "difficulty": "hard",
+      "question": "אני נוסע מעט מאוד ורוצה ביטוח מקיף שיחסוך לי כסף – מה ההבדל בין הראל סוויץ' לביטוח המקיף הרגיל, ואיך מצטרפים לכל אחד?",
+      "answer": "ההבדל העיקרי הוא אופן התשלום:\n\n**הראל סוויץ'** – ביטוח מקיף וחובה לפי קילומטראז': התשלום החודשי מורכב מרכיב קבוע ורכיב שמשתנה לפי מספר הקילומטרים שנסעת בפועל. נוסעים מעט – משלמים מעט. הביטוח כולל רכיב חכם שמותקן ברכב, ליווי טלפוני במקרה חירום, ואפליקציה ייעודית לניהול הפוליסה, שליטה בחיוב החודשי, הוספת נהגים, והזמנת גרר או רכב חלופי.\n\n**ביטוח מקיף רגיל** – התשלום נקבע מראש על בסיס פרמטרים כמו מאפייני הנהג והרכב, ואינו משתנה חודשית לפי קילומטראז'.\n\n**איך מצטרפים?**\n- להראל סוויץ': ניתן להצטרף אונליין (דרך האתר) או בטלפון 2010*.\n- לביטוח מקיף רגיל: משאירים פרטים באתר או מתקשרים ל-*2010.",
+      "ground_truth_answer": "בהראל סוויץ' התשלום החודשי מורכב מרכיב קבוע ורכיב שמשתנה לפי הקילומטרים – נוסעים פחות, משלמים פחות, ומצטרפים אונליין או בטלפון *2010. בביטוח המקיף הרגיל מקבלים הגנה מקיפה מפני תאונה, גניבה, שריפה ונזקי טבע, ומצטרפים בהשארת פרטים או בטלפון *2010.",
+      "latency_ms": 11164.45779800415,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly explains the pay-per-kilometer structure of Harel Switch vs. the fixed premium of regular comprehensive insurance, and gives the same joining methods (online/phone *2010). The extra details about the smart device and app are not contradictory to the ground truth and do not constitute hallucination.",
+      "judge_cost_usd": 0.0005495
+    },
+    {
+      "id": "dev-18-car-hard",
+      "domain": "car",
+      "difficulty": "hard",
+      "question": "ביטלתי את פוליסת ביטוח החובה שלי אחרי שהייתה בתוקף 10 ימים. דמי הביטוח השנתיים ששילמתי הם 2,000 ₪. כמה כסף יחזירו לי (בלי הצמדה למדד)?",
+      "answer": "לפי תנאי הפוליסה, כאשר המבוטח מבטל את הביטוח לאחר שהפוליסה הייתה בתוקף מעל 7 ימים, ההחזר מחושב כך:  \n5% מדמי הביטוח השנתיים + 0.3% מדמי הביטוח השנתיים עבור כל יום ביטוח החל מהיום השמיני.\n\nבמקרה שלך:  \n- דמי הביטוח השנתיים: 2,000 ₪  \n- 5%: 100 ₪  \n- הפוליסה הייתה בתוקף 10 ימים, כלומר 3 ימים מעבר ל-7 הימים הראשונים: 0.3% × 2,000 ₪ = 6 ₪ ליום, סה״כ 18 ₪.  \n- סך ההפחתה: 100 ₪ + 18 ₪ = 118 ₪.\n\nההחזר: 2,000 ₪ - 118 ₪ = 1,882 ₪.",
+      "ground_truth_answer": "1,882 ₪ — מנכים 5% מדמי הביטוח השנתיים (100 ₪) בתוספת 0.3% לכל יום החל מהיום השמיני, כלומר 3 ימים: 2,000 × 0.003 × 3 = 18 ₪. סך הניכוי 118 ₪, ולכן ההחזר: 2,000 − 118 = 1,882 ₪.",
+      "latency_ms": 9872.786283493042,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly calculates the refund as 1,882 ₪, matching the ground truth exactly. It provides the same breakdown of deductions (5% + 0.3% per day from day 8) and arrives at the same final amount.",
+      "judge_cost_usd": 0.0004935
+    },
+    {
+      "id": "dev-19-dental-easy",
+      "domain": "dental",
+      "difficulty": "easy",
+      "question": "סיימתי טיפול שיניים ואני רוצה להגיש תביעה להחזר – אפשר לשלוח לכם את הטופס והמסמכים במייל?",
+      "answer": "כן, ניתן להגיש תביעה להחזר הוצאות טיפול שיניים במייל.\n\nעליך להוריד ולמלא את הטופס הרלוונטי (למשל, \"טופס התייעצות / תביעה / בירור - ביטוח שיניים\"), ולשלוח אותו בצירוף המסמכים הנדרשים לכתובת המייל:  \n**services@harel-ins.co.il**",
+      "ground_truth_answer": "כן, את הטופס המלא יחד עם המסמכים הנדרשים שולחים במייל לכתובת services@harel-ins.co.il.",
+      "latency_ms": 3657.473087310791,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer confirms submission by email and provides the correct email address, matching the ground truth. It adds procedural detail about downloading a form, which does not contradict the reference.",
+      "judge_cost_usd": 0.000353
+    },
+    {
+      "id": "dev-20-dental-easy",
+      "domain": "dental",
+      "difficulty": "easy",
+      "question": "קיבלתי כבר החזר מקופת החולים על טיפול השיניים – מותר לי לתבוע גם מכם החזר על אותה חשבונית?",
+      "answer": "לא.  \nלא ניתן לתבוע החזר על אותם סכומים גם מקופת החולים וגם מהראל.  \nעל פי הפוליסה, החזר כפול עומד בניגוד להוראות הדין ולהוראות פוליסת הביטוח. עליכם לדווח להראל על כל תגמול שקיבלתם מגורם אחר בגין חשבונית זו.",
+      "ground_truth_answer": "לא, אסור לתבוע החזר על אותם סכומים מגורמים שונים, וקבלת החזר כפול היא הפרה של הוראות הדין ותנאי הפוליסה.",
+      "latency_ms": 3389.4379138946533,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states that double recovery is not allowed and that it violates the law and policy terms, which matches the ground truth. The additional advice to report other reimbursements is consistent and does not contradict the reference.",
+      "judge_cost_usd": 0.0003715
+    },
+    {
+      "id": "dev-21-dental-medium",
+      "domain": "dental",
+      "difficulty": "medium",
+      "question": "איך אני יכול לבטל את פוליסת ביטוח השיניים הפרטית שלי בהראל?",
+      "answer": "כדי לבטל פוליסת ביטוח שיניים פרטית, תוכל לפעול באחת מהדרכים הבאות:\n\n1. **אונליין:** דרך האזור האישי באתר הראל.\n2. **במייל:** לכתובת polisotbs@harel-ins.co.il.\n3. **בפקס:** (מספר הפקס לא צוין בהקשר, תוכל לפעול לפי האזור האישי או המוקד).\n4. **בטלפון:** דרך מוקד שירות הלקוחות במספר 2735*.\n5. **באמצעות סוכן הביטוח שלך.**\n\n**מה צריך לעשות?**\n- להוריד ולמלא את טופס \"בקשה לביטול פוליסה - ביטוח שיניים\".\n- קיימת גם אפשרות לשימוש בטופס בקשה כללי לביטול, כמופיע בעמוד השאלות הנפוצות (\"בקשה לביטול פוליסת ביטוח שיניים\").",
+      "ground_truth_answer": "יש למלא טופס בקשה לביטול פוליסת ביטוח שיניים, ואפשר להגיש את הבקשה בכמה דרכים: דרך האזור האישי באתר (אונליין), במייל, בפקס, בפנייה למוקד שירות הלקוחות בטלפון 2735*, או באמצעות סוכן ביטוח.",
+      "latency_ms": 12761.297941207886,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer includes all the cancellation methods mentioned in the ground truth (online, email, fax, phone, agent) and adds the specific email address and the need to fill out a form, which does not contradict the ground truth. No specific checkable fact is invented or contradicted.",
+      "judge_cost_usd": 0.000483
+    },
+    {
+      "id": "dev-22-dental-medium",
+      "domain": "dental",
+      "difficulty": "medium",
+      "question": "הבת שלי בת 17 עברה טיפול שיניים. אפשר להעביר לה את החזר התביעה ישירות לביט שלה?",
+      "answer": "לא. לפי ההקשר, פרטי ההעברה בביט חייבים להיות של מקבל/ת הטיפול מגיל 18 ומעלה. מכיוון שבתך בת 17, לא ניתן להעביר לה את ההחזר ישירות לביט שלה.",
+      "ground_truth_answer": "לא. העברת תשלום בביט (וגם העברה בנקאית לחשבון מקבל הטיפול) אפשרית רק מגיל 18 ומעלה.",
+      "latency_ms": 2553.4069538116455,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states that the refund cannot be transferred directly to the daughter's Bit account because she is under 18, which matches the ground-truth fact that such transfers are only possible from age 18 and above.",
+      "judge_cost_usd": 0.0003495
+    },
+    {
+      "id": "dev-23-dental-hard",
+      "domain": "dental",
+      "difficulty": "hard",
+      "question": "אני רוצה לבטל את ביטוח השיניים שלי אבל יש לי גם תביעה שעדיין מתבררת. לאיזה מייל שולחים את טופס הביטול, ומה מספר הטלפון של אגף ביטוח השיניים לבירור התביעה?",
+      "answer": "ניתן לשלוח את טופס הביטול של ביטוח השיניים למייל: **polisotbs@harel-ins.co.il** (ניתן גם בפקס למספר 03-7348178).\n\nלהלן דרכי ההתקשרות לבירור התביעה:\n*   **דואר אלקטרוני (מייל):** services@harel-ins.co.il\n*   **פקס:** 03-7348102.\n*   **טלפון:** אין במסמכים מספר טלפון ייעודי ישיר לאגף ביטוח השיניים, אך ניתן לפנות למוקד שירות הלקוחות הכללי בטלפון **2735***.",
+      "ground_truth_answer": "את טופס הביטול שולחים לאגף הבריאות במייל polisotbs@harel-ins.co.il, והטלפון של אגף ביטוח השיניים בהראל הוא 03-7547222.",
+      "latency_ms": 3285.0630283355713,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": false,
+      "hallucination": true,
+      "refusal": false,
+      "judge_reasoning": "The model correctly provides the cancellation email but fails to give the specific phone number for the dental insurance department (03-7547222) as requested, instead stating there is no direct number and providing a general customer service number. This omission makes the answer incomplete, and the claim that no direct number exists contradicts the ground truth, constituting a hallucination.",
+      "judge_cost_usd": 0.0004745
+    },
+    {
+      "id": "dev-24-dental-hard",
+      "domain": "dental",
+      "difficulty": "hard",
+      "question": "בכל אחת משלוש הביקורות שעשיתי אצל רופא השיניים השנה ביצעו לי צילום נשך. כמה צילומים יצאו לי בסך הכל?",
+      "answer": "אין לי מספיק מידע כדי לדעת כמה צילומי נשך בוצעו לך בכל ביקור, ולכן איני יכולה לחשב את הסכום הכולל.",
+      "ground_truth_answer": "6 צילומים. צילום נשך כולל שני צילומים, ולכן 3 ביקורות × 2 צילומים = 6 צילומים.",
+      "latency_ms": 2308.032751083374,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": false,
+      "hallucination": false,
+      "refusal": true,
+      "judge_reasoning": "The model declines to answer, stating it lacks information to calculate the total, which is a refusal. It does not provide any specific checkable fact, so there is no hallucination.",
+      "judge_cost_usd": 0.00033
+    },
+    {
+      "id": "dev-25-health-easy",
+      "domain": "health",
+      "difficulty": "easy",
+      "question": "הראל שלחה לי הצעת פשרה בכתב על התביעה שלי אבל עוד לא אישרתי אותה — האם ההצעה כבר מחייבת אותי?",
+      "answer": "לא, כל עוד לא אישרת את הצעת הפשרה בכתב, היא אינה מחייבת אותך או את הראל.",
+      "ground_truth_answer": "לא, כל עוד לא אישר התובע את הודעת הפשרה היא אינה מחייבת את הצדדים.",
+      "latency_ms": 2053.7848472595215,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states that the settlement offer is not binding until approved, matching the ground truth. It rephrases 'התובע' (the plaintiff) as 'אותך' (you) which is contextually accurate and does not introduce any false or invented facts.",
+      "judge_cost_usd": 0.000356
+    },
+    {
+      "id": "dev-26-health-easy",
+      "domain": "health",
+      "difficulty": "easy",
+      "question": "יש לי כתב שירות לרפואה משלימה וקיבלתי הפניה מרופא — האם טיפולי אקופונקטורה (דיקור סיני) כלולים בשירות?",
+      "answer": "כן, טיפולי אקופונקטורה (דיקור סיני) כלולים בכתב השירות לרפואה משלימה.  \nהשירות כולל \"טיפול בדרך של דיקור במחטים דקות בנקודות מיוחדות בגוף\" (אקופונקטורה) כפי שמפורט בסעיף 3.1.1 לכתב השירות, וניתן לקבלו בכפוף להפניית רופא בשל מצב רפואי.",
+      "ground_truth_answer": "כן, אקופונקטורה נכללת ברשימת טיפולי הרפואה המשלימה שמנוי עם הפניה בכתב מרופא זכאי לבצע אצל נותן שירות שבהסכם.",
+      "latency_ms": 3806.9379329681396,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly confirms that acupuncture is included, which matches the ground truth. It adds a specific section reference (3.1.1) and a quote that are not in the ground truth, but these do not contradict the core fact and are not verifiable against the provided reference, so they are not considered hallucination.",
+      "judge_cost_usd": 0.000429
+    },
+    {
+      "id": "dev-27-health-medium",
+      "domain": "health",
+      "difficulty": "medium",
+      "question": "אני מתלבט בין חברות ביטוח - מה היתרונות של ביטוח הבריאות של הראל לעומת אחרים?",
+      "answer": "בהתבסס על המידע שברשותי, להלן היתרונות המוזכרים של ביטוח הבריאות של הראל:\n\n*   הראל היא **חברת ביטוחי הבריאות הגדולה בישראל** עם ניסיון רב בביטוחי בריאות וביישוב וטיפול בתביעות בריאות מורכבות.\n*   **מעל 1.5 מיליון מבוטחים** בביטוחי בריאות.\n*   החברה **משלמת מעל 1.5 מיליארד ₪ בשנה** על תביעות בריאות בארץ ובעולם.\n*   קיימת **רשת רופאים מומחים בפריסה ארצית**.\n*   לחברה **הסכמים בינלאומיים עם מרכזים רפואיים**.\n*   מוצעים **כלים דיגיטליים מתקדמים ומסלול מהיר לאישור תביעות** בנושאי בדיקות, טיפולים ותרופות.\n*   קיים שירות של **הטסת מנתחים מומחים מכל קצוות העולם**.\n*   עבור תרופות מחוץ לסל, קיים **שירות מיוחד לאספקת תרופות עד בית הלקוח**, על פי תנאי השירות.",
+      "ground_truth_answer": "הראל היא חברת ביטוחי הבריאות הגדולה בישראל, ומציעה הטסת מנתחים מומחים מכל העולם, רשת רופאים מומחים בפריסה ארצית, הסכמים בינלאומיים עם מרכזים רפואיים, וכלים דיגיטליים מתקדמים עם מסלול מהיר לאישור תביעות בנושאי בדיקות, טיפולים ותרופות.",
+      "latency_ms": 5005.4450035095215,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": false,
+      "hallucination": true,
+      "refusal": false,
+      "judge_reasoning": "The model answer includes all the core facts from the ground truth, making it relevant. However, it adds specific, checkable facts not present in the ground truth, such as 'מעל 1.5 מיליון מבוטחים', 'משלמת מעל 1.5 מיליארד ₪ בשנה', and 'שירות מיוחד לאספקת תרופות עד בית הלקוח'. These are invented details that constitute hallucination.",
+      "judge_cost_usd": 0.000607
+    },
+    {
+      "id": "dev-28-health-medium",
+      "domain": "health",
+      "difficulty": "medium",
+      "question": "אני סובל מאקנה בעור הפנים. האם אני יכול לקבל שירות עבור זה במסגרת כתב השירות רופא מלווה אישי בתחום מחלות העור?",
+      "answer": "לא.  \nעל פי כתב השירות \"רופא מלווה אישי\", מקרה רפואי בתחום מחלות העור אינו כולל אקנה (סעיף 2.14.2.א).",
+      "ground_truth_answer": "לא. אקנה מוחרג במפורש ואינו נחשב מקרה רפואי בתחום מחלות עור (יחד עם פטרת עורית חיצונית, נשירת שיער ומחלות מין); השירות ניתן רק למחלת עור בעלת אופי כרוני.",
+      "latency_ms": 2125.951051712036,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "המודל עונה 'לא' ומציין במדויק שאקנה אינו נכלל, תוך הפניה לסעיף הרלוונטי. התשובה תואמת את עובדת הליבה שבתשובת הבסיס.",
+      "judge_cost_usd": 0.000391
+    },
+    {
+      "id": "dev-29-health-hard",
+      "domain": "health",
+      "difficulty": "hard",
+      "question": "אמא שלי היא זו שמשלמת על פוליסת הבריאות שלי. אם אחליט לבטל את כתב השירות לרפואה משלימה באמצע התקופה, אקבל החזר? ולאן הכסף יוחזר?",
+      "answer": "כן, המנוי זכאי לבטל את כתב השירות בכל עת. ככל ששולמו דמי מנוי בגין התקופה שלאחר הביטול, יוחזר **החלק היחסי של התשלום ששילם המנוי** בגין אותה תקופה.\n\nההקשר אינו מפרט לאיזה אמצעי תשלום או חשבון יוחזר הכסף – הוא מציין רק ש\"יוחזר למנוי\". לכן, פרטי ההחזר (למשל, האם לחשבון ממנו שולמה הפרמיה) אינם מפורטים במסמכים שברשותי.",
+      "ground_truth_answer": "כן - הביטול בתוקף ממועד קבלת ההודעה בחברה, ויוחזר החלק היחסי של הפרמיה ששולמה עבור התקופה שלאחר הביטול. ההחזר מבוצע לאמצעי התשלום שבו שולמה הפוליסה (אלא אם החברה תחליט להחזירו למבוטח הראשי).",
+      "latency_ms": 5003.002166748047,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": false,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states the right to cancel and the proportional refund, but it fails to address the specific question about where the money will be returned (to the mother's payment method). By stating the context doesn't specify the refund method, it omits a required fact from the ground truth, making the answer incomplete and thus not fully relevant.",
+      "judge_cost_usd": 0.000487
+    },
+    {
+      "id": "dev-30-health-hard",
+      "domain": "health",
+      "difficulty": "hard",
+      "question": "אני בן 35 ורוצה לרכוש את ביטוח הניתוחים UPGRADE משלים שב\"ן. כמה יעלה לי הביטוח לשנה שלמה, בלי הנחות?",
+      "answer": "אינני יכול לענות על שאלה זו מתוך המידע שנמסר. במסמכים יש פירוט של סוגי הכיסויים, השתתפות עצמית והצמדה למדד, אך לא מופיעה טבלת תעריפים או מחיר מדויק לשנה עבור גיל 35. כדי לקבל הצעת מחיר, עליך לפנות למוקד הראל בטלפון *2735, או להשאיר פרטים באתר.",
+      "ground_truth_answer": "709.44 ₪ לשנה: המחיר החודשי לגיל 31-40 הוא 59.12 ₪, כפול 12 חודשים = 709.44 ₪.",
+      "latency_ms": 18584.879875183105,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": false,
+      "hallucination": false,
+      "refusal": true,
+      "judge_reasoning": "The model explicitly states it cannot answer the question based on the provided information and directs the user to contact the company, which is a clear refusal. It does not provide any specific checkable fact that contradicts or invents information.",
+      "judge_cost_usd": 0.000385
+    },
+    {
+      "id": "dev-31-life-easy",
+      "domain": "life",
+      "difficulty": "easy",
+      "question": "הפסקתי לעשן לפני יותר משנתיים. האם אני יכול לפנות לחברה כדי שתבחן שינוי בתעריף שלי?",
+      "answer": "כן. על פי המידע שברשותי, הפסקת עישון לתקופה ממושכת של שנתיים ומעלה מאפשרת לך לפנות לחברת הראל על מנת שתבחן אפשרות לשינוי התעריף בכיסויים הרלוונטיים. יש לעדכן את החברה בצירוף תצהיר מתאים.",
+      "ground_truth_answer": "כן, מי שהפסיק לעשן לתקופה ממושכת של שנתיים ומעלה יכול לעדכן את החברה בצירוף תצהיר מתאים כדי שתיבחן אפשרות לשינוי התעריף בכיסויים הרלוונטיים.",
+      "latency_ms": 3982.7558994293213,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "התשובה מסכימה עם האמת הבסיסית לגבי האפשרות לפנות לחברה לאחר הפסקת עישון של שנתיים ומעלה, כולל ציון הצורך בתצהיר. ציון השם 'הראל' הוא פרט ספציפי שאינו מופיע באמת הבסיסית, אך הוא אינו סותר עובדה קיימת ואינו מהווה עובדה בדיקה מהותית לשאלה, ולכן אינו נחשב להזיה.",
+      "judge_cost_usd": 0.0005125
+    },
+    {
+      "id": "dev-32-life-easy",
+      "domain": "life",
+      "difficulty": "easy",
+      "question": "שלחתי בקשה להקטין את סכום הביטוח בפוליסה שלי. האם השינוי יכול להיכנס לתוקף רטרואקטיבית, מחודש שקדם לבקשה?",
+      "answer": "לא, לפי המידע שברשותי אין התייחסות מפורשת לאפשרות שהקטנת סכום ביטוח תיכנס לתוקף רטרואקטיבית. בהקשר של פוליסות אחריות מקצועית, צוין שכאשר נדרשים שינויים או תוספות במהלך תקופת הביטוח, הכיסוי לגבי אותם שינויים יחל ממועד השינוי בפועל ועד לתום תקופת הביטוח, אך זהו הקשר שונה ואינו עונה ישירות על שאלתך לגבי הקטנת סכום ביטוח רטרואקטיבית.",
+      "ground_truth_answer": "לא, השינויים יבוצעו החל מחודש הבקשה או מחודש קבלת המסמכים בחברה, לפי המאוחר מביניהם.",
+      "latency_ms": 4809.999704360962,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": false,
+      "hallucination": false,
+      "refusal": true,
+      "judge_reasoning": "The model states it has no explicit information and does not commit to a definitive yes/no answer, effectively declining to answer the core question. It does not assert any specific checkable fact that contradicts or invents details beyond the ground truth.",
+      "judge_cost_usd": 0.0004075
+    },
+    {
+      "id": "dev-33-life-medium",
+      "domain": "life",
+      "difficulty": "medium",
+      "question": "אם אחליט לבטל את פוליסת ביטוח החיים מגן שלי אחרי כמה שנים, האם אקבל בחזרה חלק מהכסף כערך פדיון?",
+      "answer": "לא. לפי תנאי פוליסת ביטוח למקרה מוות – מגן, לפוליסה זו אין ערכי פדיון ואין ערכי סילוק.",
+      "ground_truth_answer": "לא. לפוליסה זו אין ערכי פדיון ואין ערכי סילוק.",
+      "latency_ms": 2075.556755065918,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states that the policy has no surrender or redemption value, matching the ground truth exactly. No additional or contradictory facts are introduced.",
+      "judge_cost_usd": 0.000306
+    },
+    {
+      "id": "dev-34-life-medium",
+      "domain": "life",
+      "difficulty": "medium",
+      "question": "אני מגיש בקשה להגדלת כיסוי בביטוח החיים שלי. מה יקרה אם לא אצרף טופס הצהרת בריאות לבקשה?",
+      "answer": "אם לא תצרף הצהרת בריאות, הכיסוי הביטוחי לא ייכנס לתוקפו.",
+      "ground_truth_answer": "ככל שלא תצורף הצהרת בריאות, הכיסוי הביטוחי לא ייכנס לתוקפו.",
+      "latency_ms": 1770.616054534912,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer matches the ground truth exactly, stating that without a health declaration the insurance coverage will not take effect.",
+      "judge_cost_usd": 0.0002895
+    },
+    {
+      "id": "dev-35-life-hard",
+      "domain": "life",
+      "difficulty": "hard",
+      "question": "אני באמצע תהליך הצטרפות לביטוח חיים בהראל. לאן אני שולח את הצהרת הבריאות שמילאתי, וממתי הביטוח שלי בכלל נכנס לתוקף?",
+      "answer": "אני רואה שאתה שואל לגבי תהליך ההצטרפות לביטוח חיים.\n\nבנוגע לשאלה לאן לשלוח את הצהרת הבריאות, לצערי, במידע שברשותי לא מפורט לאן בדיוק לשלוח את טופס הצהרת הבריאות עבור ביטוח חיים. עבור ביטוח רפואי (בריאות) מצוין שיש להעביר למייל polisotbs@harel-ins.co.il, אך אין זה בהכרח המייל הרלוונטי עבור ביטוח חיים. מומלץ לבדוק זאת מול סוכן הביטוח שלך.\n\nלגבי מועד כניסת הביטוח לתוקף: על סמך המידע שקיים, חוזה הביטוח ייכנס לתוקף רק לאחר שהחברה תוציא אישור בכתב על קבלת כל המועמדים לביטוח. אם בטופס ההצעה מתבקש צירוף של יותר ממועמד אחד וחלקם נדרשים להמשך תהליך בירור, חיתום וקבלה, הפוליסה לא תופק ולא תיכנס לתוקף עד להשלמת ההליכים עבור כלל המועמדים.",
+      "ground_truth_answer": "את הצהרת הבריאות שולחים לפקס 03-7348169 או למייל agafhaim@harel-ins.co.il. הפוליסה נכנסת לתוקף רק כשמתקיימים כל התנאים במצטבר: התקבל בחברה טופס הצעה לביטוח, החברה נתנה הסכמתה לעריכת הביטוח, החברה קיבלה את תשלום הפרמיה הראשונה (או אמצעי תשלום), והמבוטח חי באותו מועד.",
+      "latency_ms": 9421.102285385132,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": false,
+      "hallucination": false,
+      "refusal": true,
+      "judge_reasoning": "The model states it lacks the specific contact information for sending the health declaration for life insurance, which constitutes a refusal on that part. For the effective date, it provides a different, more specific condition (written approval after all applicants are accepted) that does not match the ground truth's cumulative conditions, making the overall answer not fully correct and thus not relevant.",
+      "judge_cost_usd": 0.000572
+    },
+    {
+      "id": "dev-36-life-hard",
+      "domain": "life",
+      "difficulty": "hard",
+      "question": "לא מיניתי מוטבים בפוליסת ביטוח החיים שלי. אם אלך לעולמי, למי ישולם סכום הביטוח, ומי בדיוק נחשב \"יורש חוקי\"?",
+      "answer": "שלום,\n\nמהמסמכים שברשותי, בהעדר מינוי מוטבים, יתרת סכום הביטוח תשולם בחלוקה שווה ליורשים החוקיים על פי דין, או בכפוף לצו ירושה או צו קיום צוואה.\n\nעל פי ההגדרות בפוליסה, \"יורשים חוקיים\" מוגדרים כיורשים לפי צו ירושה או נהנים לפי צו קיום צוואה שניתנו על ידי ערכאה שיפוטית מוסמכת.",
+      "ground_truth_answer": "בהעדר מינוי מוטבים הסכומים ישולמו ליורשים החוקיים על פי הדין, בהתאם לצו ירושה או צו קיום צוואה. יורשים חוקיים הם יורשים לפי צו ירושה או נהנים לפי צו קיום צוואה שניתנו על ידי ערכאה שיפוטית מוסמכת.",
+      "latency_ms": 10898.84090423584,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states that in the absence of beneficiaries, the sum is paid to legal heirs according to law, subject to a succession order or probate order, and defines 'legal heirs' exactly as in the ground truth. No facts are contradicted or invented.",
+      "judge_cost_usd": 0.000435
+    },
+    {
+      "id": "dev-37-mortgage-easy",
+      "domain": "mortgage",
+      "difficulty": "easy",
+      "question": "הדירה שלי עומדת ריקה בתקופה הקרובה — האם ההרחבה לנזקי מים תכסה נזק שיקרה כשהדירה לא תפוסה?",
+      "answer": "לא. לפי תנאי הפוליסה, הכיסוי לנזקי מים ונוזלים אחרים (לרבות נזקי איטום) אינו תקף כאשר הדירה אינה תפוסה. כדי לקבל כיסוי לדירה שאינה תפוסה, יש לרכוש הרחבה ייעודית במפורש במפרט, הכוללת אמצעים להקלת סיכון.",
+      "ground_truth_answer": "לא, בדף המידע המהותי מובהר כי לא יינתן כיסוי לנזקי מים ונוזלים אחרים בתקופה שבה הדירה אינה תפוסה.",
+      "latency_ms": 2949.748992919922,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states that water damage is not covered when the apartment is unoccupied, which matches the ground truth. The additional detail about purchasing a specific extension does not contradict the ground truth and is not a checkable fact that is invented or wrong.",
+      "judge_cost_usd": 0.0003905
+    },
+    {
+      "id": "dev-38-mortgage-easy",
+      "domain": "mortgage",
+      "difficulty": "easy",
+      "question": "יש לי בבית דוד שמש גדול של 300 ליטר — אם רכשתי את הכיסוי לדודים, האם נזק לדוד כזה מכוסה?",
+      "answer": "לא. הכיסוי לדודי חשמל ודודי שמש בפוליסה חל רק על דוד שנפחו המרבי אינו עולה על 200 ליטר, ודוד בנפח 300 ליטר אינו מכוסה.",
+      "ground_truth_answer": "לא, בחריגי הכיסוי לדוודים נקבע במפורש שנזק לדוד שנפחו מעל 200 ליטר אינו מכוסה.",
+      "latency_ms": 3566.9310092926025,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "המודל מסכים עם התשובה הנכונה שהדוד אינו מכוסה, ומציין במדויק את מגבלת הנפח של 200 ליטר, ללא המצאת עובדות.",
+      "judge_cost_usd": 0.000357
+    },
+    {
+      "id": "dev-39-mortgage-medium",
+      "domain": "mortgage",
+      "difficulty": "medium",
+      "question": "אם חלילה תפרוץ מלחמה וייגרם נזק לדירה שלי, ביטוח המבנה של המשכנתא יכסה את הנזק?",
+      "answer": "לא, פוליסת ביטוח המבנה של המשכנתא (\"משכנתא בטוחה\") אינה מכסה נזקים הנגרמים כתוצאה ממלחמה. על פי תנאי הפוליסה, הכיסוי חל על סיכונים כמו שריפה, התפוצצות, נזקי סערה, רעידת אדמה, פריצה ועוד, אך מלחמה ופעולות איבה נחשבות לחריגים ואינן מכוסות במסגרת זו.",
+      "ground_truth_answer": "לא. הפוליסה אינה מכסה אבדן או נזק שנגרמו כתוצאה ממלחמה, פעולות אויב או פיגועים חבלניים (וגם לא ממלחמת אזרחים, מרד או מהפכה).",
+      "latency_ms": 5433.377981185913,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states that the mortgage structure insurance does not cover war damage, which aligns with the ground truth. It adds examples of covered perils, but these do not contradict the reference and are not invented checkable facts absent from the ground truth.",
+      "judge_cost_usd": 0.00041
+    },
+    {
+      "id": "dev-40-mortgage-medium",
+      "domain": "mortgage",
+      "difficulty": "medium",
+      "question": "שמעתי שיש נספח משכנתא מיוחד לאנשים עם מוגבלות מקצרת חיים. מי בכלל נחשב לאדם עם מוגבלות מקצרת חיים לצורך הנספח הזה?",
+      "answer": "על פי הנספח, \"אדם עם מוגבלות מקצרת חיים\" מוגדר כאדם עם מוגבלות שאקטואר ממונה הכיר במוגבלות שיש לו ככזו שעלולה לקצר את תוחלת חייו לעומת תוחלת חיים ממוצעת בתקופה העולה על שלוש שנים, ובלבד שהאקטואר הממונה קבע שתוחלת החיים של האדם עם המוגבלות עולה על חמש שנים.",
+      "ground_truth_answer": "אדם שאקטואר ממונה הכיר במוגבלותו ככזו שעלולה לקצר את תוחלת חייו ביותר משלוש שנים לעומת תוחלת חיים ממוצעת, ובלבד שהאקטואר קבע שתוחלת חייו עולה על חמש שנים.",
+      "latency_ms": 16770.317792892456,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer matches the ground truth exactly on the definition: an actuary must recognize the disability as likely to shorten life by more than three years, and the actuary must determine life expectancy exceeds five years. No facts are contradicted or invented.",
+      "judge_cost_usd": 0.000407
+    },
+    {
+      "id": "dev-41-mortgage-hard",
+      "domain": "mortgage",
+      "difficulty": "hard",
+      "question": "אילו ביטוחי משכנתא בכלל יש אצלכם בהראל, ואם אני רוצה את ביטוח החיים למשכנתא - איך מצטרפים אליו?",
+      "answer": "לפי המידע שברשותי, להראל יש שלושה מוצרי ביטוח משכנתא:\n\n1. **ביטוח חיים למשכנתא**\n2. **משכנתא בטוחה**\n3. **משכנתא בטוחה (ב)**\n\nלגבי איך מצטרפים לביטוח חיים למשכנתא – לצערי, ההקשר לא כולל מידע על תהליך ההצטרפות או למי לפנות ספציפית לביטוח זה.",
+      "ground_truth_answer": "להראל שלושה מוצרי ביטוח משכנתא: ביטוח חיים למשכנתא, משכנתא בטוחה ומשכנתא בטוחה (ב). לביטוח חיים למשכנתא מצטרפים בהתקשרות ל-2735* או בהשארת פרטים.",
+      "latency_ms": 3615.2429580688477,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": false,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model correctly lists the three mortgage insurance products, matching the ground truth. However, it fails to provide the required joining method (phone number or leaving details), stating it lacks that information. Since the answer is incomplete on a required fact, it is not fully relevant, but it does not refuse entirely, nor does it invent any checkable fact.",
+      "judge_cost_usd": 0.0004525
+    },
+    {
+      "id": "dev-42-mortgage-hard",
+      "domain": "mortgage",
+      "difficulty": "hard",
+      "question": "הדירה שלי בבית משותף מבוטחת במבנה בסכום של 1,800,000 ₪ ויש לי גם כיסוי סכום נוסף. אחרי רעידת אדמה, שמאי מקרקעין העריך את הנזק לדירה ב-1,350,000 ₪. האם מגיע לי תשלום הסכום הנוסף?",
+      "answer": "כן. על פי תנאי הביטוח, כיסוי הסכום הנוסף בבית המשותף בגין רעידת אדמה מופעל כאשר הנזק הוא בשיעור שאינו קטן מ‑70% מסכום ביטוח המבנה.  \nבמקרה שלך:  \n70% × 1,800,000 = 1,260,000 ₪.  \nהנזק שהוערך (1,350,000 ₪) גבוה מסף זה, ולכן הסכום הנוסף אמור להיות משולם.",
+      "ground_truth_answer": "כן. הנזק מהווה 75% מסכום ביטוח הדירה (1,350,000 ÷ 1,800,000 = 75%), וזה מעל הסף הנדרש של 70% לפחות, ולכן מתקיים מקרה הביטוח והסכום הנוסף שצוין במפרט ישולם.",
+      "latency_ms": 17760.159969329834,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states that the additional sum is payable because the damage (1,350,000) exceeds 70% of the insured amount (1,260,000), which matches the ground truth's calculation and conclusion.",
+      "judge_cost_usd": 0.000428
+    },
+    {
+      "id": "dev-43-travel-easy",
+      "domain": "travel",
+      "difficulty": "easy",
+      "question": "אושפזתי בבית חולים בחו\"ל ליותר משלושה ימים. האם הביטוח ישלם על כרטיס טיסה ולינה עבור מלווה שיגיע אליי?",
+      "answer": "כן. לפי הפוליסה, אם אושפזת בחו\"ל עקב מקרה ביטוח ומשך האשפוז עלה על שלושה ימים רצופים (או שהרופא קבע שחייך בסכנה), המבטח ישפה אותך בגין הוצאות הטסת מלווה ושהותו לצורך הליווי. הכיסוי כולל עלות כרטיס טיסה של מלווה למקום האשפוז, הוצאות נסיעה לבית החולים וחזרה, וכן הוצאות לינה בתנאים נאותים.\n\nהכיסוי מותנה בכך שזהות המלווה תיקבע על ידך (או מי מטעמך), ומוגבל לסכום מרבי – למשל בפוליסות מסוימות עד 2,500 דולר בניכוי השתתפות עצמית, ובאחרות עד 10,222 דולר. שים לב לבדוק את פוליסת הביטוח הספציפית שרכשת לגבי גובה הכיסוי וגובה ההשתתפות העצמית.",
+      "ground_truth_answer": "כן, במקרה של אשפוז בחו\"ל מעל 3 ימים המבטח ישלם למלווה אחד כרטיס טיסה במחלקת תיירים, הוצאות נסיעה ולינה עד 2,500 דולר בכפוף להשתתפות עצמית של 50 דולר.",
+      "latency_ms": 8381.287813186646,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": false,
+      "hallucination": true,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states the core fact that coverage exists for a companion's flight and lodging after a 3-day hospitalization. However, it invents a specific alternative coverage limit of '10,222 דולר' which is not present in the ground truth, constituting a hallucination.",
+      "judge_cost_usd": 0.0005015
+    },
+    {
+      "id": "dev-44-travel-easy",
+      "domain": "travel",
+      "difficulty": "easy",
+      "question": "התגלה לי הריון לראשונה בזמן שהייתי בחו\"ל ואני כבר אחרי שבוע 12. האם ההוצאות הרפואיות שלי בגלל ההיריון יכוסו?",
+      "answer": "לא.\n\nההוצאות הרפואיות עבור היריון שהתגלה לראשונה בחו\"ל יכוסו רק אם ההיריון אובחן עד שבוע 12 כולל. מכיוון שציינת שההיריון התגלה לאחר שבוע 12, המקרה אינו מכוסה במסגרת הפוליסה.",
+      "ground_truth_answer": "לא, הכיסוי להיריון שאובחן לראשונה בחו\"ל חל רק על הוצאות שהוצאו עד שבוע 12 ועד בכלל.",
+      "latency_ms": 27457.13210105896,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states that coverage applies only if the pregnancy was diagnosed up to week 12 inclusive, and since the user is past week 12, it is not covered. This matches the ground truth exactly.",
+      "judge_cost_usd": 0.0003615
+    },
+    {
+      "id": "dev-45-travel-medium",
+      "domain": "travel",
+      "difficulty": "medium",
+      "question": "אם חלילה אמות בתאונה בחו\"ל ויש לי את הרחבת תאונות אישיות בדרכון פרימיום, כמה יקבלו היורשים שלי?",
+      "answer": "אין בקטעי המידע שנמסרו ציון של סכום הפיצוי המדויק במקרה מוות מתאונה בחו\"ל בפוליסת דרכון פרימיום.  \n\nהמסמכים מראים שהפוליסה כוללת אפשרות לרכוש הרחבת \"תאונות אישיות\" ו\"הרחבה לביטול חריג ספורט אתגרי חובבני\", אך סכומי הפיצוי בגין מוות, נכות או שברים אינם מפורטים בתנאים או בטופס ההצעה שהועברו.  \n\nלכן, על בסיס ההקשר הקיים בלבד, לא אוכל לציין מהו הסכום שיקבלו היורשים.",
+      "ground_truth_answer": "ישולם פיצוי חד-פעמי בסך 50,000$ למוטב (ובהיעדר מוטב - ליורשים החוקיים), בתנאי שהמוות אירע כתוצאה ישירה מתאונה בחו\"ל ולא יותר מ-3 שנים לאחר מועד התאונה.",
+      "latency_ms": 4740.591049194336,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": false,
+      "hallucination": false,
+      "refusal": true,
+      "judge_reasoning": "The model explicitly states it cannot provide the specific compensation amount because the information is not in the provided context, which constitutes a refusal. It does not assert any contradictory or invented checkable facts.",
+      "judge_cost_usd": 0.000412
+    },
+    {
+      "id": "dev-46-travel-medium",
+      "domain": "travel",
+      "difficulty": "medium",
+      "question": "אני בחו\"ל וגיליתי רק עכשיו, בשבוע 14, שאני בהיריון. האם ההוצאות הרפואיות שלי בקשר להיריון מכוסות בפוליסת דרכון פרימיום?",
+      "answer": "כן, פוליסת דרכון פרימיום כוללת כיסוי להיריון שאובחן לראשונה בחו\"ל, אך הכיסוי מוגבל להוצאות רפואיות עד שבוע 12 בלבד. מאחר שאת בשבוע 14, ההוצאות הרפואיות בקשר להיריון אינן מכוסות במסגרת הפוליסה (למעט מקרים שבהם קיימת חוות דעת רופא מוסמך כי נשקפת סכנה לבריאותך/חייך או לבריאות/חיי העובר).",
+      "ground_truth_answer": "לא. היריון שהתגלה לראשונה בחו\"ל לאחר שבוע 12 מוחרג מהכיסוי בחריגים הכלליים של הפוליסה.",
+      "latency_ms": 13453.248977661133,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": false,
+      "hallucination": true,
+      "refusal": false,
+      "judge_reasoning": "The model correctly states that expenses are not covered because the pregnancy is past week 12, but it invents a specific exception ('חוות דעת רופא מוסמך כי נשקפת סכנה...') that is not mentioned in the ground truth, making it a hallucination.",
+      "judge_cost_usd": 0.000436
+    },
+    {
+      "id": "dev-47-travel-hard",
+      "domain": "travel",
+      "difficulty": "hard",
+      "question": "אם בטעות אגרום נזק למישהו או לרכוש שלו בזמן הטיול, הפוליסה של דרכון first class מכסה אותי? עד איזה סכום, וכמה עולה התוספת הזו?",
+      "answer": "כן, פוליסת דרכון First Class כוללת כיסוי לחבות כלפי צד שלישי.  \nעל פי המידע שבהקשר, הכיסוי לחבות צד שלישי ניתן כהטבה ללא עלות נוספת, במחיר של $0.20 ליום (בהקשר של דרכון פרימיום, אך לא צוין סכום אחר עבור First Class).  \n\nעם זאת, לגבי **סכום הכיסוי המקסימלי** לחבות צד שלישי בפוליסת First Class – אין פירוט בהקשר. המסמכים שהועברו אינם מציינים גבול אחריות ספציפי לסעיף זה, ולכן לא אוכל לנקוב בסכום המדויק.",
+      "ground_truth_answer": "כן, יש כיסוי חבות כלפי צד ג' עד 150,000$ ללא השתתפות עצמית. הכיסוי כלול בפוליסה הבסיסית וניתן כהטבה ללא עלות לכל הגילאים.",
+      "latency_ms": 5611.392974853516,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": false,
+      "hallucination": true,
+      "refusal": false,
+      "judge_reasoning": "The model answer states the cost is '$0.20 ליום' and references 'דרכון פרימיום', which is a specific checkable fact (a price) that is absent from the ground truth (which says it is included at no cost). This constitutes a hallucination. Additionally, the model fails to provide the $150,000 coverage limit, making the answer not fully relevant.",
+      "judge_cost_usd": 0.000507
+    },
+    {
+      "id": "dev-48-travel-hard",
+      "domain": "travel",
+      "difficulty": "hard",
+      "question": "אני טס לחו\"ל עם רחפן יקר. כמה יעלה לי לבטח אותו בנפרד ליום, ומה אצטרך להמציא לחברת הביטוח אם הוא ייגנב לי בחו\"ל?",
+      "answer": "אין בידי מספיק מידע על עלות יומית לביטוח פריט יקר ערך כמו רחפן.  \nמסמכי הפוליסה מציינים כי ניתן לרכוש כיסוי מיוחד לפריט יקר ערך (כולל רחפן) בתוספת תשלום, אך לא מפורטים מחירים.\n\nלגבי מקרה גניבה בחו\"ל:  \n- עליך להגיש לחברת הביטוח דוח משטרה מקומי או אישור מגורם מוסמך אחר במקום הגניבה, המפרט את נסיבות האירוע ומציין את הרחפן שנגנב.  \n- בנסיבות בהן לא ניתן לפנות למשטרה או לגורם מוסמך, יש לדווח מיד למבטח ולקבל את אישורו לכיסוי.",
+      "ground_truth_answer": "הכיסוי המיוחד לפריט יקר ערך (כולל רחפן) עולה 1$ ליום, וניתן לרכוש אותו רק אם נרכש גם כיסוי כבודה בסיסי, עד תקרה של 2,000$. במקרה גניבה יש להמציא דו\"ח מהמשטרה המקומית או אישור גורם מוסמך אחר במקום הגניבה, המפרט את נסיבות האירוע ואת הפריט שנגנב.",
+      "latency_ms": 6464.432954788208,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "no citations provided"
+      ],
+      "citation_reasoning": null,
+      "relevant": false,
+      "hallucination": false,
+      "refusal": true,
+      "judge_reasoning": "The model answer states it lacks information about the daily cost and does not provide the $1/day figure from the ground truth. It correctly describes the required documentation for theft but adds an unsupported condition about contacting the insurer when police are unavailable, which is not a checkable fact contradicting the ground truth. The core refusal on the cost makes the answer not fully relevant.",
+      "judge_cost_usd": 0.0005295
+    }
+  ]
+}

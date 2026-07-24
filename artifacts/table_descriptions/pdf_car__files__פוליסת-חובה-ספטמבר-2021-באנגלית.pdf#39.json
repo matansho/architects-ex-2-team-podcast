@@ -1,0 +1,23 @@
+{
+  "id": "pdf:car/files/פוליסת-חובה-ספטמבר-2021-באנגלית.pdf#39",
+  "source": "llm",
+  "description": {
+    "title": "דוח תביעות",
+    "summary": "This table describes the claims report provided by the insurer to the policy owner. It details claims filed during the insurance period, up to one month before termination.",
+    "embed_passage": "פוליסת חובה כוללת דוח תביעות שנשלח לבעל הפוליסה. הדוח מפרט את כל התביעות שהוגשו עד למועד מסוים, כולל פרטי הנהג המעורב בתאונה. הדוח נשלח חודש לפני סיום תקופת הביטוח, או מיד עם סיומה במקרה של סיום בלתי צפוי.",
+    "row_axis": "claims report details",
+    "column_axis": "report timing, claim details, driver information",
+    "units": [],
+    "notable_values": [
+      "report timing: one month prior to termination",
+      "claim period: 3 years",
+      "report update: immediately upon claim filing"
+    ],
+    "product_hints": [
+      "פוליסת חובה"
+    ]
+  },
+  "sketch": "21. Claims report\n21.1 One month prior to termination of the insurance period, or immediately upon termination thereof - if terminating unexpectedly - the insurer shall send a claims report to the policy owner, detailing all the claims filed until that time, if any, (hereinafter the 'claims report').\n21.2 In the claims report, the insurer shall provide details of the driver involved in the accident in regard to any claim filed during the 3 years preceding the date on which the report is sent, or claims filed during the period when the policy owner was insured by the insurer, the shorter of the two.\n21.3 In the event that a claim is filed during the month prior to the end of the insurance period, the insurer shall send a claims report update immediately upon the filing of the claim.",
+  "embed_text": "פוליסת חובה כוללת דוח תביעות שנשלח לבעל הפוליסה. הדוח מפרט את כל התביעות שהוגשו עד למועד מסוים, כולל פרטי הנהג המעורב בתאונה. הדוח נשלח חודש לפני סיום תקופת הביטוח, או מיד עם סיומה במקרה של סיום בלתי צפוי.",
+  "payload": "טבלה: דוח תביעות\nThis table describes the claims report provided by the insurer to the policy owner. It details claims filed during the insurance period, up to one month before termination.\nממדים: claims report details, report timing, claim details, driver information\n\n21. Claims report\n21.1 One month prior to termination of the insurance period, or immediately upon termination thereof - if terminating unexpectedly - the insurer shall send a claims report to the policy owner, detailing all the claims filed until that time, if any, (hereinafter the 'claims report').\n21.2 In the claims report, the insurer shall provide details of the driver involved in the accident in regard to any claim filed during the 3 years preceding the date on which the report is sent, or claims filed during the period when the policy owner was insured by the insurer, the shorter of the two.\n21.3 In the event that a claim is filed during the month prior to the end of the insurance period, the insurer shall send a claims report update immediately upon the filing of the claim."
+}

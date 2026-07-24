@@ -1,0 +1,25 @@
+{
+  "id": "pdf:business/files/תנאי-פוליסת-ביטוח-עסקי-ביטוח-אחריות-זיהום-אנגלית.pdf#73",
+  "source": "llm",
+  "description": {
+    "title": "ביטוח אחריות זיהום",
+    "summary": "This table outlines the conditions for insurance coverage related to pollution liability, specifically detailing how this policy interacts with other existing insurance policies. It clarifies when this insurance is primary, excess, or contingent upon other coverage.",
+    "embed_passage": "פוליסת ביטוח אחריות זיהום מספקת כיסוי ראשוני, אלא אם כן נקבע אחרת בתוספת לפוליסה. כאשר הפוליסה היא משנית, חברת הביטוח לא תגן על המבוטח אם חברת ביטוח אחרת כבר עושה זאת. סכום הכיסוי יכול להיות מושפע מביטוחים קיימים אחרים, לדוגמה, סכום הכיסוי יכול להיות מופחת ב-1.",
+    "row_axis": "Scenarios of insurance interaction (primary, excess)",
+    "column_axis": "Conditions and liabilities related to other insurance policies",
+    "units": [],
+    "notable_values": [
+      "coverage: primary",
+      "coverage: excess",
+      "deductible amounts: considered",
+      "other insurance: applicable",
+      "claim defense: duty to defend"
+    ],
+    "product_hints": [
+      "ביטוח אחריות זיהום"
+    ]
+  },
+  "sketch": "K. OTHER INSURANCE\nThe  insurance  provided  under  this  policy  is  primary  insurance,  except  as otherwise provided in connection with any extended reporting period, or where stated in an endorsement to apply in excess of, or contingent upon the absence of, other insurance.  When this insurance is primary and the 'insured' has other insurance  which  is  stated  to  be  applicable  to  the  'cleanup  costs',  'loss',  or \"other loss\" on an excess basis, the amount of our liability under this policy shall not be reduced by the existence of such excess insurance.\nWhen this insurance is excess, we shall have no duty to defend the \"insured\" against  any  \"claim\"  if  any  other  insurer  has  a  duty  to  defend  the  \"insured\" against such \"claim\".  If no other insurer defends, we will undertake to do so, but  we  will  be  entitled  to  the  insured's  rights  against  all  those  other  insurers. When this insurance is excess over other insurance, we will pay only our share of the amount of 'cleanup costs', 'loss', or \"other loss\" if any, that exceeds the sum of:\nThe total amount that all such other insurance would pay for the 'cleanup costs', 'loss', or \"other loss\" in the absence of this insurance; and\nThe  total  of  all  deductible  and  self-insured  amounts  under  all  that  other insurance.",
+  "embed_text": "פוליסת ביטוח אחריות זיהום מספקת כיסוי ראשוני, אלא אם כן נקבע אחרת בתוספת לפוליסה. כאשר הפוליסה היא משנית, חברת הביטוח לא תגן על המבוטח אם חברת ביטוח אחרת כבר עושה זאת. סכום הכיסוי יכול להיות מושפע מביטוחים קיימים אחרים, לדוגמה, סכום הכיסוי יכול להיות מופחת ב-1.",
+  "payload": "טבלה: ביטוח אחריות זיהום\nThis table outlines the conditions for insurance coverage related to pollution liability, specifically detailing how this policy interacts with other existing insurance policies. It clarifies when this insurance is primary, excess, or contingent upon other coverage.\nממדים: Scenarios of insurance interaction (primary, excess), Conditions and liabilities related to other insurance policies\n\nK. OTHER INSURANCE\nThe  insurance  provided  under  this  policy  is  primary  insurance,  except  as otherwise provided in connection with any extended reporting period, or where stated in an endorsement to apply in excess of, or contingent upon the absence of, other insurance.  When this insurance is primary and the 'insured' has other insurance  which  is  stated  to  be  applicable  to  the  'cleanup  costs',  'loss',  or \"other loss\" on an excess basis, the amount of our liability under this policy shall not be reduced by the existence of such excess insurance.\nWhen this insurance is excess, we shall have no duty to defend the \"insured\" against  any  \"claim\"  if  any  other  insurer  has  a  duty  to  defend  the  \"insured\" against such \"claim\".  If no other insurer defends, we will undertake to do so, but  we  will  be  entitled  to  the  insured's  rights  against  all  those  other  insurers. When this insurance is excess over other insurance, we will pay only our share of the amount of 'cleanup costs', 'loss', or \"other loss\" if any, that exceeds the sum of:\nThe total amount that all such other insurance would pay for the 'cleanup costs', 'loss', or \"other loss\" in the absence of this insurance; and\nThe  total  of  all  deductible  and  self-insured  amounts  under  all  that  other insurance."
+}

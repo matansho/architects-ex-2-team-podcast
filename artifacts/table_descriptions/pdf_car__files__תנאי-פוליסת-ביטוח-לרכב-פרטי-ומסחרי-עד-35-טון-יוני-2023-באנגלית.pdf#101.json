@@ -1,0 +1,25 @@
+{
+  "id": "pdf:car/files/תנאי-פוליסת-ביטוח-לרכב-פרטי-ומסחרי-עד-35-טון-יוני-2023-באנגלית.pdf#101",
+  "source": "llm",
+  "description": {
+    "title": "חרגות בפוליסה",
+    "summary": "This table lists exclusions to coverage under a car insurance policy. It details situations where the insurer will not be liable for loss or damage.",
+    "embed_passage": "פוליסת ביטוח לרכב פרטי ומסחרי אינה מכסה נזק שנגרם כתוצאה מפעולות של אנשים המעורבים בשביתה או השבתה, אלא אם כן צוין אחרת במפרט. הפוליסה גם לא מכסה נזק כתוצאה ממלחמה, פעולות אויב או התקפות טרור. בנוסף, נזק כתוצאה מרעידת אדמה אינו מכוסה אלא אם כן צוין אחרת.",
+    "row_axis": "exclusion clause number",
+    "column_axis": "description of exclusion",
+    "units": [],
+    "notable_values": [
+      "clause: 37.2.1",
+      "clause: 37.2.2",
+      "clause: 37.2.6",
+      "clause: 37.2.7",
+      "clause: 37.2.9"
+    ],
+    "product_hints": [
+      "ביטוח לרכב פרטי ומסחרי"
+    ]
+  },
+  "sketch": "37.2 This policy does not cover:\n37.2.1 Consequential loss.\n37.2.2 Loss or damage caused while the vehicle was mobilized into the IDF.\n37.2.3 Loss or damage caused due to actions of persons engaged in a strike or a layup, unless otherwise noted in the specification.\n…\n37.2.6 Loss or damage caused by reason of the vehicle driver being under the influence of dangerous drugs as defined in the Dangerous Drugs Ordinance (New Version) 5733-1973.\n37.2.7 Loss or damage resulting from war, enemy actions, terrorist attacks, military or popular uprising, revolution.\n37.2.8 Loss or damage resulting from ionizing radiation, radioactive contamination, nuclear processes and any loss or damage due to nuclear material or nuclear waste.\n37.2.9 Loss or damage resulting from earthquake -unless otherwise noted in the specification.",
+  "embed_text": "פוליסת ביטוח לרכב פרטי ומסחרי אינה מכסה נזק שנגרם כתוצאה מפעולות של אנשים המעורבים בשביתה או השבתה, אלא אם כן צוין אחרת במפרט. הפוליסה גם לא מכסה נזק כתוצאה ממלחמה, פעולות אויב או התקפות טרור. בנוסף, נזק כתוצאה מרעידת אדמה אינו מכוסה אלא אם כן צוין אחרת.",
+  "payload": "טבלה: חרגות בפוליסה\nThis table lists exclusions to coverage under a car insurance policy. It details situations where the insurer will not be liable for loss or damage.\nממדים: exclusion clause number, description of exclusion\n\n37.2 This policy does not cover:\n37.2.1 Consequential loss.\n37.2.2 Loss or damage caused while the vehicle was mobilized into the IDF.\n37.2.3 Loss or damage caused due to actions of persons engaged in a strike or a layup, unless otherwise noted in the specification.\n37.2.4 Loss or damage caused due to commotion unless otherwise noted in the specification.\n37.2.5 Claim arising from a contractual liability.\n37.2.6 Loss or damage caused by reason of the vehicle driver being under the influence of dangerous drugs as defined in the Dangerous Drugs Ordinance (New Version) 5733-1973.\n37.2.7 Loss or damage resulting from war, enemy actions, terrorist attacks, military or popular uprising, revolution.\n37.2.8 Loss or damage resulting from ionizing radiation, radioactive contamination, nuclear processes and any loss or damage due to nuclear material or nuclear waste.\n37.2.9 Loss or damage resulting from earthquake -unless otherwise noted in the specification."
+}

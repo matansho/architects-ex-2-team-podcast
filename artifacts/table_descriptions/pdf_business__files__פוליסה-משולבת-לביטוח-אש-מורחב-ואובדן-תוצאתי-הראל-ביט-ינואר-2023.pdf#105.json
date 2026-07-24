@@ -1,0 +1,24 @@
+{
+  "id": "pdf:business/files/פוליסה-משולבת-לביטוח-אש-מורחב-ואובדן-תוצאתי-הראל-ביט-ינואר-2023.pdf#105",
+  "source": "llm",
+  "description": {
+    "title": "ביטוח מלאי",
+    "summary": "This table details how insurance liability is adjusted based on the declared value of inventory compared to its actual value at the time of a claim. It outlines proportional reductions in coverage if the declared amount is lower than the actual inventory value.",
+    "embed_passage": "פוליסת הראל ביטוח אש מורחב ואובדן תוצאתי מגדירה את אופן חישוב התגמולים בהתאם לערך המלאי המבוטח. אם סכום הביטוח המצוין ברשימה קטן מערך המלאי בפועל, חבות המבטח תפחת ביחס שבין ערך המלאי המבוטח לסכום הביטוח הנקוב ברשימה, כפי שמפורט בסעיף 5.6.2.",
+    "row_axis": "Scenario of declared value vs. actual inventory value",
+    "column_axis": "Liability adjustment rules",
+    "units": [],
+    "notable_values": [
+      "5.6.2: Section reference for inventory valuation",
+      "5.6.3.5: Section reference for declared value comparison",
+      "90%: Threshold for underinsurance adjustment (mentioned in trailing text)"
+    ],
+    "product_hints": [
+      "הראל ביטוח אש מורחב",
+      "אובדן תוצאתי"
+    ]
+  },
+  "sketch": "היה והסכום שהוצהר על ידי המבוטח בסמוך לקרות מקרה .5.6.3.5 הביטוח, יפחת מערכו של המלאי בפועל במועד ההצהרה בהתאם לאמור לעיל, אזי תפחת חבות המבטח בשיעור היחסי שבין הסכום שעליו הוצהר בפועל לבין הסכום שהיה על המבוטח להצהיר.\nאם בסמוך לקרות מקרה הביטוח, יפחת סכום הביטוח הנקוב ברשימה לגבי ביטוח המלאי מערכו של המלאי בהתאם למפורט לעיל, תפחת חבות המבטח בשיעור היחס שבין 5.6.2 בסעיף ערכו של המלאי המבוטח לבין סכום הביטוח של המלאי הנקוב ברשימה.",
+  "embed_text": "פוליסת הראל ביטוח אש מורחב ואובדן תוצאתי מגדירה את אופן חישוב התגמולים בהתאם לערך המלאי המבוטח. אם סכום הביטוח המצוין ברשימה קטן מערך המלאי בפועל, חבות המבטח תפחת ביחס שבין ערך המלאי המבוטח לסכום הביטוח הנקוב ברשימה, כפי שמפורט בסעיף 5.6.2.",
+  "payload": "טבלה: ביטוח מלאי\nThis table details how insurance liability is adjusted based on the declared value of inventory compared to its actual value at the time of a claim. It outlines proportional reductions in coverage if the declared amount is lower than the actual inventory value.\nממדים: Scenario of declared value vs. actual inventory value, Liability adjustment rules\n\nהיה והסכום שהוצהר על ידי המבוטח בסמוך לקרות מקרה .5.6.3.5 הביטוח, יפחת מערכו של המלאי בפועל במועד ההצהרה בהתאם לאמור לעיל, אזי תפחת חבות המבטח בשיעור היחסי שבין הסכום שעליו הוצהר בפועל לבין הסכום שהיה על המבוטח להצהיר.\nאם בסמוך לקרות מקרה הביטוח, יפחת סכום הביטוח הנקוב ברשימה לגבי ביטוח המלאי מערכו של המלאי בהתאם למפורט לעיל, תפחת חבות המבטח בשיעור היחס שבין 5.6.2 בסעיף ערכו של המלאי המבוטח לבין סכום הביטוח של המלאי הנקוב ברשימה."
+}

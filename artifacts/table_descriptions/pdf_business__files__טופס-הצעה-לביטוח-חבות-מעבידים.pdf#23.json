@@ -1,0 +1,22 @@
+{
+  "id": "pdf:business/files/טופס-הצעה-לביטוח-חבות-מעבידים.pdf#23",
+  "source": "llm",
+  "description": {
+    "title": "ביטוח חבות מעבידים",
+    "summary": "This table is for Employer's Liability Insurance. It collects information about the business's operations to assess risk and determine policy terms.",
+    "embed_passage": "ביטוח חבות מעבידים מכסה נזקים שנגרמים לעובדים כתוצאה מתאונות עבודה. השאלון בודק שימוש במכונות מונעות כוח, כמו אלו המופעלות על ידי חשמל או דלק, וכן שימוש בחומצות. לדוגמה, השאלה לגבי מכונות מונעות כוח ממוספרת 21.",
+    "row_axis": "Question/Risk Factor",
+    "column_axis": "Response (Yes/No/Details)",
+    "units": [],
+    "notable_values": [
+      "Question Number: 21",
+      "Question Number: 22"
+    ],
+    "product_hints": [
+      "ביטוח חבות מעבידים"
+    ]
+  },
+  "sketch": ". ציין סוג המכונות המונעות ע\"י כוח, שהן בשימוש עסקך? )המופעלות ע\"י חשמל, דלק או מקור כוח אחר 21\nכן,\n.22 ? האם בעסקך משתמשים, או באים במגע, או ישתמשו בחומצות\nלא\n…\nלא\n?\nמטרת השימוש\nכן,  פרט",
+  "embed_text": "ביטוח חבות מעבידים מכסה נזקים שנגרמים לעובדים כתוצאה מתאונות עבודה. השאלון בודק שימוש במכונות מונעות כוח, כמו אלו המופעלות על ידי חשמל או דלק, וכן שימוש בחומצות. לדוגמה, השאלה לגבי מכונות מונעות כוח ממוספרת 21.",
+  "payload": "טבלה: ביטוח חבות מעבידים\nThis table is for Employer's Liability Insurance. It collects information about the business's operations to assess risk and determine policy terms.\nממדים: Question/Risk Factor, Response (Yes/No/Details)\n\n. ציין סוג המכונות המונעות ע\"י כוח, שהן בשימוש עסקך? )המופעלות ע\"י חשמל, דלק או מקור כוח אחר 21\nכן,\n.22 ? האם בעסקך משתמשים, או באים במגע, או ישתמשו בחומצות\nלא\n? כן,   בגזים\nלא\n? כן,   ברעלים\nלא\nכן\nלא\n? כן,    באבק\nלא\n? כן,    בחומר נפץ\nלא\n? בכימיקלים\nכן\n.23 ? האם השימוש הוא לצרכי עבודה יומיומיים\nלא\nכן, סוג ועוצמת הקרינה\n.24 ? האם עובדיך חשופים  לקרינה רדיואקטיבית או קרינת רנטגן\nלא\n?\nמטרת השימוש\nכן,  פרט"
+}

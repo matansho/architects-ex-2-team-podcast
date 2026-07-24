@@ -1,0 +1,27 @@
+{
+  "id": "pdf:mortgage/files/טופס-הצעה-לביטוח-חיים-ומבנה-למשכנתא-הצהרת-בריאות-מקוצרת.pdf#32",
+  "source": "llm",
+  "description": {
+    "title": "הצהרת בריאות מקוצרת",
+    "summary": "This table is a shortened health declaration form, likely part of a life and property insurance application for a mortgage. It asks about prior medical conditions, tests, and substance use.",
+    "embed_passage": "טופס זה הוא חלק מהצעה לביטוח חיים ומבנה למשכנתא של הראל. השאלות בטופס בודקות היסטוריה של בדיקות רפואיות כמו ממוגרפיה, CT, ו־MRI, וכן צריכת סמים ואלכוהול. אם ענית 'כן' על אחת השאלות, ייתכן שתידרש למלא שאלון נוסף או להעביר חומר רפואי.",
+    "row_axis": "Individual health questions/conditions",
+    "column_axis": "Response (likely Yes/No, or details)",
+    "units": [],
+    "notable_values": [
+      "סוג הבדיקות: ממוגרפיה",
+      "סוג הבדיקות: CT",
+      "סוג הבדיקות: MRI",
+      "סוג הבדיקות: אקו לב",
+      "שתי מנות ביום"
+    ],
+    "product_hints": [
+      "ביטוח חיים",
+      "ביטוח מבנה",
+      "הראל"
+    ]
+  },
+  "sketch": ".6\n, אולטרסאונד - שלא\nCT ,MRI ,\nסופית? )סוג הבדיקות: ממוגרפיה, מיפוי עצמות, צנתור, מיפוי לב, אקו לב\n…\n?\nאם כן - האם פרטת על כך באחת מהשאלות הקודמות\n: במידה וענית על אחת מהשאלות לעיל \"כן\", אנא פרט\nכל תשובה חיובית מצריכה מילוי שאלון מתאים ו/או העברת חומר רפואי בגין הבעיה המוצהרת. . כמו כן, לידיעתך, ייתכן כי יידרשו מסמכים נוספים. www.harel-group.co.il : את השאלונים ניתן למצוא באתר האינטרנט של החברה בכתובת",
+  "embed_text": "טופס זה הוא חלק מהצעה לביטוח חיים ומבנה למשכנתא של הראל. השאלות בטופס בודקות היסטוריה של בדיקות רפואיות כמו ממוגרפיה, CT, ו־MRI, וכן צריכת סמים ואלכוהול. אם ענית 'כן' על אחת השאלות, ייתכן שתידרש למלא שאלון נוסף או להעביר חומר רפואי.",
+  "payload": "טבלה: הצהרת בריאות מקוצרת\nThis table is a shortened health declaration form, likely part of a life and property insurance application for a mortgage. It asks about prior medical conditions, tests, and substance use.\nממדים: Individual health questions/conditions, Response (likely Yes/No, or details)\n\n.6\n, אולטרסאונד - שלא\nCT ,MRI ,\nסופית? )סוג הבדיקות: ממוגרפיה, מיפוי עצמות, צנתור, מיפוי לב, אקו לב\n.(\nחלק ממעקב הריון, ביופסיה, דם סמוי, קולונוסקופיה, גסטרוסקופיה\nכן\nלא, נא פרט מטה\n?\nאם כן - האם פרטת על כך באחת מהשאלות הקודמות\n: במידה וענית על אחת מהשאלות לעיל \"כן\", אנא פרט\nכל תשובה חיובית מצריכה מילוי שאלון מתאים ו/או העברת חומר רפואי בגין הבעיה המוצהרת. . כמו כן, לידיעתך, ייתכן כי יידרשו מסמכים נוספים. www.harel-group.co.il : את השאלונים ניתן למצוא באתר האינטרנט של החברה בכתובת"
+}

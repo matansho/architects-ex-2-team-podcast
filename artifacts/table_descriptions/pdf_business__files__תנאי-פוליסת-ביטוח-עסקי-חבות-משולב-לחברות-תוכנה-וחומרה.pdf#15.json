@@ -1,0 +1,27 @@
+{
+  "id": "pdf:business/files/תנאי-פוליסת-ביטוח-עסקי-חבות-משולב-לחברות-תוכנה-וחומרה.pdf#15",
+  "source": "llm",
+  "description": {
+    "title": "החרגות פוליסה",
+    "summary": "This table lists exclusions to an insurance policy, defining events or circumstances that are not covered. It helps determine if a claim would be valid based on the cause of the loss.",
+    "embed_passage": "פוליסת ביטוח עסקית לחברות תוכנה וחומרה כוללת מספר החרגות. לדוגמה, נזק כתוצאה משינוי באספקת החשמל, כגון הפסקת חשמל או עליה במתח, אינו מכוסה. כמו כן, בלאי טבעי או כשל במוצרי תוכנה ואלקטרוניקה אינם כלולים בכיסוי.",
+    "row_axis": "exclusion type",
+    "column_axis": "definition of the exclusion",
+    "units": [],
+    "notable_values": [
+      "שינוי באספקת חשמל: הפסקת חשמל או עליה במתח",
+      "בלאי: שחיקה או התדרדרות הדרגתית",
+      "מוצרים: תוכנה או אלקטרוניקה",
+      "תקופת רטרואקטיבית: נזק שקרה לפני התאריך",
+      "מלחמה וטרור: מוגדר במילון"
+    ],
+    "product_hints": [
+      "ביטוח עסקי",
+      "פוליסת ביטוח",
+      "חבות משולב"
+    ]
+  },
+  "sketch": "7. Electric Power Supply Change meaning\nAny  change  in  electric  power  supply,  including  power  interruption  or surge,  brownout  (i.e.  the  reduction  in  power  supply  due  to  drop  in voltage) or blackout (i.e. the total interruption of electric supply).\nWear and Tear meaning\nWear and tear, or gradual deterioration.\n…\nFailure  or  lack  of  the Insured's  Software  Products or  the Insured's Electronics  Products to  prevent  unauthorised  access  to  or  use  of  an electronic system or program.\nWar, Terrorism, Nuclear and Government Action as defined in Glossary\nCircumstances prior to the Retroactive Date meaning\nAny negligent act error or omission which commenced before or damage which occurred prior to the Retroactive Date shown in the Schedule.",
+  "embed_text": "פוליסת ביטוח עסקית לחברות תוכנה וחומרה כוללת מספר החרגות. לדוגמה, נזק כתוצאה משינוי באספקת החשמל, כגון הפסקת חשמל או עליה במתח, אינו מכוסה. כמו כן, בלאי טבעי או כשל במוצרי תוכנה ואלקטרוניקה אינם כלולים בכיסוי.",
+  "payload": "טבלה: החרגות פוליסה\nThis table lists exclusions to an insurance policy, defining events or circumstances that are not covered. It helps determine if a claim would be valid based on the cause of the loss.\nממדים: exclusion type, definition of the exclusion\n\n7. Electric Power Supply Change meaning\nAny  change  in  electric  power  supply,  including  power  interruption  or surge,  brownout  (i.e.  the  reduction  in  power  supply  due  to  drop  in voltage) or blackout (i.e. the total interruption of electric supply).\nWear and Tear meaning\nWear and tear, or gradual deterioration.\nSecurity Breach meaning\nFailure  or  lack  of  the Insured's  Software  Products or  the Insured's Electronics  Products to  prevent  unauthorised  access  to  or  use  of  an electronic system or program.\nWar, Terrorism, Nuclear and Government Action as defined in Glossary\nCircumstances prior to the Retroactive Date meaning\nAny negligent act error or omission which commenced before or damage which occurred prior to the Retroactive Date shown in the Schedule."
+}

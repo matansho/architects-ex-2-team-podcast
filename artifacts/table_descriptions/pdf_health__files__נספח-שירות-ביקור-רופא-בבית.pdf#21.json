@@ -1,0 +1,26 @@
+{
+  "id": "pdf:health/files/נספח-שירות-ביקור-רופא-בבית.pdf#21",
+  "source": "llm",
+  "description": {
+    "title": "ביקור רופא בבית",
+    "summary": "This table details the conditions for at-home doctor visit services. It specifies available hours and self-participation fees.",
+    "embed_passage": "שירות ביקור רופא בבית ניתן בימים א׳-ה׳ בין השעות 07:00 עד 10:00, למעט ערבי חג. המנוי ישלם דמי השתתפות עצמית בסך 40 ₪ לביקור. השירות זמין בכל מקום ישוב בישראל, למעט אזורים מסוימים.",
+    "row_axis": "service conditions / details",
+    "column_axis": "aspect of service",
+    "units": [
+      "₪",
+      "שעות"
+    ],
+    "notable_values": [
+      "hours: 07:00-10:00",
+      "self-participation fee: 40 ₪",
+      "days of service: א׳-ה׳"
+    ],
+    "product_hints": [
+      "ביקור רופא בבית"
+    ]
+  },
+  "sketch": "השירות יינתן במועד שיתואם עם המנוי, וזאת בימים א' - ה', שאינם ערבי חג, בין 3.2.5 . 10:00 עד 07:00 השעות\nמבלי לגרוע בכלליות הגדרת השירות, מובהר, כי לקיחת הדמים מתייחסת ללקיחת דם 3.2.6 . ורידי בלבד לצורך ביצוע הבדיקות המצוינות בהגדרת השירות",
+  "embed_text": "שירות ביקור רופא בבית ניתן בימים א׳-ה׳ בין השעות 07:00 עד 10:00, למעט ערבי חג. המנוי ישלם דמי השתתפות עצמית בסך 40 ₪ לביקור. השירות זמין בכל מקום ישוב בישראל, למעט אזורים מסוימים.",
+  "payload": "טבלה: ביקור רופא בבית\nThis table details the conditions for at-home doctor visit services. It specifies available hours and self-participation fees.\nממדים: service conditions / details, aspect of service\n\nהשירות יינתן במועד שיתואם עם המנוי, וזאת בימים א' - ה', שאינם ערבי חג, בין 3.2.5 . 10:00 עד 07:00 השעות\nמבלי לגרוע בכלליות הגדרת השירות, מובהר, כי לקיחת הדמים מתייחסת ללקיחת דם 3.2.6 . ורידי בלבד לצורך ביצוע הבדיקות המצוינות בהגדרת השירות"
+}

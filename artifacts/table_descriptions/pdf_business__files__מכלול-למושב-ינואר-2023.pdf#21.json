@@ -1,0 +1,25 @@
+{
+  "id": "pdf:business/files/מכלול-למושב-ינואר-2023.pdf#21",
+  "source": "llm",
+  "description": {
+    "title": "סייגים",
+    "summary": "This table lists exclusions to insurance coverage. It details scenarios where the insurer will not provide compensation, such as damage caused by nuclear materials or acts of terror.",
+    "embed_passage": "פוליסת 'מכלול' אינה מכסה נזק תוצאתי, כפי שמפורט בסעיף 3, או נזק שבגינו קיימת זכות לפיצויים על פי חוק מס רכוש וקרן פיצויים, גם אם זכות זו נמנעה. כמו כן, הפוליסה אינה מכסה אבדן או נזק לרכוש שניטש, כפי שמפורט בסעיף 5C. סייגים אלו מגדירים את גבולות הכיסוי של הפוליסה.",
+    "row_axis": "exclusion type",
+    "column_axis": "exclusion details",
+    "units": [],
+    "notable_values": [
+      "exclusion 3: consequential damage",
+      "exclusion 4: property tax and compensation fund claims",
+      "exclusion 5C: abandoned property",
+      "exclusion 1.1: nuclear material",
+      "exclusion 1.2.4: acts of terror"
+    ],
+    "product_hints": [
+      "מכלול"
+    ]
+  },
+  "sketch": ".C .  נזק תוצאתי 3\n, .  נזק כלשהו, שבגינו יש למבוטח הזכות לפיצויים על פי חוק מס רכוש וקרן פיצויים 4 , גם אם זכות זו נמנעה ממנו עקב אי קיום הוראה כלשהי מהוראות 1961התשכ\"א החוק הנ\"ל;\n.  אבדן, נזק, או חבות כלשהם אשר נגרמו לרכוש שיצא מכלל שימוש באופן קבוע או 5 C לרכוש שניטש וגם/או מרכוש שניטש",
+  "embed_text": "פוליסת 'מכלול' אינה מכסה נזק תוצאתי, כפי שמפורט בסעיף 3, או נזק שבגינו קיימת זכות לפיצויים על פי חוק מס רכוש וקרן פיצויים, גם אם זכות זו נמנעה. כמו כן, הפוליסה אינה מכסה אבדן או נזק לרכוש שניטש, כפי שמפורט בסעיף 5C. סייגים אלו מגדירים את גבולות הכיסוי של הפוליסה.",
+  "payload": "טבלה: סייגים\nThis table lists exclusions to insurance coverage. It details scenarios where the insurer will not provide compensation, such as damage caused by nuclear materials or acts of terror.\nממדים: exclusion type, exclusion details\n\n.C .  נזק תוצאתי 3\n, .  נזק כלשהו, שבגינו יש למבוטח הזכות לפיצויים על פי חוק מס רכוש וקרן פיצויים 4 , גם אם זכות זו נמנעה ממנו עקב אי קיום הוראה כלשהי מהוראות 1961התשכ\"א החוק הנ\"ל;\n.  אבדן, נזק, או חבות כלשהם אשר נגרמו לרכוש שיצא מכלל שימוש באופן קבוע או 5 C לרכוש שניטש וגם/או מרכוש שניטש"
+}

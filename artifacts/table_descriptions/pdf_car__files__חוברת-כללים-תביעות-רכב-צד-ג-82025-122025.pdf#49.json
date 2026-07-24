@@ -1,0 +1,22 @@
+{
+  "id": "pdf:car/files/חוברת-כללים-תביעות-רכב-צד-ג-82025-122025.pdf#49",
+  "source": "llm",
+  "description": {
+    "title": "פרטי חשבון בנק - צד ג'",
+    "summary": "This table is for collecting bank account details for a third-party car insurance claim payment. It's used to look up the correct bank information based on ID number and account details.",
+    "embed_passage": "טופס זה מיועד להעברת תגמולי ביטוח לצד ג׳. יש למלא את פרטי הבנק והחשבון באופן מדויק, כולל שם הבנק, מספר הסניף ומספר החשבון. לדוגמה, ניתן למלא את מספר ת״ז של הלקוח, מספר חשבון בנק ומספר סניף.",
+    "row_axis": "Claimant / Account Holder",
+    "column_axis": "Bank Account Details",
+    "units": [],
+    "notable_values": [
+      "version: 0,1,2",
+      "field: תאריך"
+    ],
+    "product_hints": [
+      "צד ג'"
+    ]
+  },
+  "sketch": "דווח על פרטי הבנק והחשבון לצורך העברה בנקאית - צד ג'\nהטופס מיועד לנשים וגברים כאחד. נא הקפד למלא טופס זה באופן מדויק ושלם.\nתאריך\n:\n…\nהנ\"ל לח-ן הבנק לפי הפרטים הבאים:\n0,1,2\nהחשבון בעל שם,בנק שם,הסניף שם\nביקורת( סיפרת )כולל ת.ז.,בנק מס',חשבון מס' סניף מס'",
+  "embed_text": "טופס זה מיועד להעברת תגמולי ביטוח לצד ג׳. יש למלא את פרטי הבנק והחשבון באופן מדויק, כולל שם הבנק, מספר הסניף ומספר החשבון. לדוגמה, ניתן למלא את מספר ת״ז של הלקוח, מספר חשבון בנק ומספר סניף.",
+  "payload": "טבלה: פרטי חשבון בנק - צד ג'\nThis table is for collecting bank account details for a third-party car insurance claim payment. It's used to look up the correct bank information based on ID number and account details.\nממדים: Claimant / Account Holder, Bank Account Details\n\nדווח על פרטי הבנק והחשבון לצורך העברה בנקאית - צד ג'\nהטופס מיועד לנשים וגברים כאחד. נא הקפד למלא טופס זה באופן מדויק ושלם.\nתאריך\n:\nfax8109@harel-ins.co.il  : דוא\"ל\n03-7348109 : פקס\nוכן באמצעות כלים טכנולוגיים נוספים כמפורט בגב החוברת ובאתר החברה.\n: הנדון:   שם המבוטח\nפוליסה:\nתאריך הנזק:\nמס' אירוע:\n: מס' תביעה\n: מס' רכב\nאני הח\"מ:                                                  , ת.ז./ח.פ.                                           מבקש להעביר את תגמולי הביטוח ששולמו לי בגין התביעה\nהנ\"ל לח-ן הבנק לפי הפרטים הבאים:\n0,1,2\nהחשבון בעל שם,בנק שם,הסניף שם\nביקורת( סיפרת )כולל ת.ז.,בנק מס',חשבון מס' סניף מס'"
+}

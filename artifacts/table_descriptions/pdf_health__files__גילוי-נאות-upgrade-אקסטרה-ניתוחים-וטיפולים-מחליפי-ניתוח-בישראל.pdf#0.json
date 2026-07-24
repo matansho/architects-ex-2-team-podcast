@@ -1,0 +1,27 @@
+{
+  "id": "pdf:health/files/גילוי-נאות-upgrade-אקסטרה-ניתוחים-וטיפולים-מחליפי-ניתוח-בישראל.pdf#0",
+  "source": "llm",
+  "description": {
+    "title": "דמי ביטוח ניתוחים",
+    "summary": "This table shows the insurance premiums for 'Upgrade אקסטרה' surgical insurance, based on the insured's age. You can look up the premium amount for a given age.",
+    "embed_passage": "פוליסת 'Upgrade אקסטרה' מציעה ביטוח ניתוחים משלים וטיפולים מחליפי ניתוח בישראל. דמי הביטוח משתנים בהתאם לגיל המבוטח, כאשר לדוגמה, גיל 2735 כרוך בחיוב מסוים. ניתן למצוא את מחירי הביטוח באתר www.harel-group.co.il.",
+    "row_axis": "גיל המבוטח",
+    "column_axis": "דמי ביטוח",
+    "units": [
+      "₪"
+    ],
+    "notable_values": [
+      "גיל: 2735",
+      "טלפון: 037348178",
+      "ת.ד: 10951",
+      "אתר: www.harel-group.co.il",
+      "כתובת דוא״ל: polisotbs@harel-ins.co.il"
+    ],
+    "product_hints": [
+      "Upgrade אקסטרה"
+    ]
+  },
+  "sketch": "0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",ט רנ האינט אתר תובת כ www.harel-group.co.il",
+  "embed_text": "פוליסת 'Upgrade אקסטרה' מציעה ביטוח ניתוחים משלים וטיפולים מחליפי ניתוח בישראל. דמי הביטוח משתנים בהתאם לגיל המבוטח, כאשר לדוגמה, גיל 2735 כרוך בחיוב מסוים. ניתן למצוא את מחירי הביטוח באתר www.harel-group.co.il.",
+  "payload": "טבלה: דמי ביטוח ניתוחים\nThis table shows the insurance premiums for 'Upgrade אקסטרה' surgical insurance, based on the insured's age. You can look up the premium amount for a given age.\nממדים: גיל המבוטח, דמי ביטוח\n\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",ט רנ האינט אתר תובת כ www.harel-group.co.il"
+}

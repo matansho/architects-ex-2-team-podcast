@@ -1,0 +1,26 @@
+{
+  "id": "pdf:business/files/טופס-הצעה-לביטוח-מכלול-למושב.pdf#44",
+  "source": "llm",
+  "description": {
+    "title": "מכלול ביטוח אחריות",
+    "summary": "This table details insurance premiums for third-party liability coverage for homeowners associations. You look up the cost based on the coverage limit and the number of households.",
+    "embed_passage": "ביטוח מכלול מציע כיסוי אחריות כלפי צד שלישי, כאשר גבול האחריות נע בין 300,000 ש\"ח ל-4,000,000 ש\"ח. דמי הביטוח משתנים בהתאם לגבול האחריות ולמספר יחידות בית אב, לדוגמה, עבור גבול אחריות של 4,000,000 ש\"ח, דמי הביטוח הם 700 ש\"ח ליחידת בית אב.",
+    "row_axis": "Coverage Limit (גבול אחריות)",
+    "column_axis": "Number of Households (מספר בתי אב)",
+    "units": [
+      "₪"
+    ],
+    "notable_values": [
+      "Coverage Limit: 300,000",
+      "Coverage Limit: 4,000,000",
+      "Premium (1 household): 500",
+      "Premium (1 household): 700"
+    ],
+    "product_hints": [
+      "מכלול ביטוח"
+    ]
+  },
+  "sketch": "4,000,000\nצד שלישי\nליחידת בית אב\n500\n…\nאת המיותר(\nגבול אחריות למקרה וסה\"כ לתקופה\n700\n300,000",
+  "embed_text": "ביטוח מכלול מציע כיסוי אחריות כלפי צד שלישי, כאשר גבול האחריות נע בין 300,000 ש\"ח ל-4,000,000 ש\"ח. דמי הביטוח משתנים בהתאם לגבול האחריות ולמספר יחידות בית אב, לדוגמה, עבור גבול אחריות של 4,000,000 ש\"ח, דמי הביטוח הם 700 ש\"ח ליחידת בית אב.",
+  "payload": "טבלה: מכלול ביטוח אחריות\nThis table details insurance premiums for third-party liability coverage for homeowners associations. You look up the cost based on the coverage limit and the number of households.\nממדים: Coverage Limit (גבול אחריות), Number of Households (מספר בתי אב)\n\n4,000,000\nצד שלישי\nליחידת בית אב\n500\n4,000,000\nאחריות חוקית של משקי החברים כלפי צד שלישי\n)כהרחבה(\n2,000\n400,000\nחבות חוקית בגין מאגרי מים\n500\n2,000,000\nחבות בגין נזקי ריסוס/דישון\n1,500\n400,000\nחבות בגין עדרים במרעה טבעי\nלכל מבנה בנפרד\n500\n4,000,000\nחבות בגין מבנים מושכרים\nסה\"כ דמי ביטוח בש\"ח\n₪\nדמי ביטוח\n- (\nחבות בעלי מוסכים )לרכב פרטי ומסחרי קל\nקיבולת )מספר עמדות עבודה(\nלכל עמדה\nפעילות מכונאות, חשמלאות, פחחות, צבע )מחקו\nאת המיותר(\nגבול אחריות למקרה וסה\"כ לתקופה\n700\n300,000"
+}

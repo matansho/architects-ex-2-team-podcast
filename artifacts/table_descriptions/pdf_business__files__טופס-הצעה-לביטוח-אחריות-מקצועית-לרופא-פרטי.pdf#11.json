@@ -1,0 +1,26 @@
+{
+  "id": "pdf:business/files/טופס-הצעה-לביטוח-אחריות-מקצועית-לרופא-פרטי.pdf#11",
+  "source": "llm",
+  "description": {
+    "title": "אחריות מקצועית לרופא",
+    "summary": "This table gathers information for professional liability insurance for a private physician. It assesses risk factors like past claims, employment history, and work environment to determine coverage and premiums.",
+    "embed_passage": "ביטוח אחריות מקצועית לרופא פרטי מכסה אחריות ישירה ושילוחית, אך לא את אחריות הצוות המועסק. שאלות נפוצות כוללות ותק במקצוע, עבודה בקופת חולים, ופיטורי עובדים בשל טעות מקצועית. לדוגמה, האם הוגשו תביעות נגדך בגין ביטוח אחריות מקצועית ב-5 השנים האחרונות?",
+    "row_axis": "questions regarding the physician's practice and history",
+    "column_axis": "response (yes/no/details)",
+    "units": [],
+    "notable_values": [
+      "5: number of years for claims history",
+      "yes: possible response to questions",
+      "no: possible response to questions",
+      "בית חולים ציבורי: example work environment",
+      "קופת חולים: example work environment"
+    ],
+    "product_hints": [
+      "אחריות מקצועית לרופא",
+      "ביטוח אחריות מקצועית"
+    ]
+  },
+  "sketch": "תשומת ליבך, כי הכיסוי עפ\"י הפוליסה הינו לאחריותך הישירה והשילוחית בלבד, ואינו מכסה את אחריות הסגל המועסק על ידך, וכי לכל אחד מהצוות הרפואי / פרא-רפואי / רפואה משלימה המועסק על ידך דרוש כיסוי ביטוחי נפרד לאחריותו.\nכן, פרט\nלא\n? האם פיטרת עובד/ת, או חשבת לפטרו/ה, בשל טעות מקצועית\n…\nכן\nבית חולים ציבורי\nלא\nכן",
+  "embed_text": "ביטוח אחריות מקצועית לרופא פרטי מכסה אחריות ישירה ושילוחית, אך לא את אחריות הצוות המועסק. שאלות נפוצות כוללות ותק במקצוע, עבודה בקופת חולים, ופיטורי עובדים בשל טעות מקצועית. לדוגמה, האם הוגשו תביעות נגדך בגין ביטוח אחריות מקצועית ב-5 השנים האחרונות?",
+  "payload": "טבלה: אחריות מקצועית לרופא\nThis table gathers information for professional liability insurance for a private physician. It assesses risk factors like past claims, employment history, and work environment to determine coverage and premiums.\nממדים: questions regarding the physician's practice and history, response (yes/no/details)\n\nתשומת ליבך, כי הכיסוי עפ\"י הפוליסה הינו לאחריותך הישירה והשילוחית בלבד, ואינו מכסה את אחריות הסגל המועסק על ידך, וכי לכל אחד מהצוות הרפואי / פרא-רפואי / רפואה משלימה המועסק על ידך דרוש כיסוי ביטוחי נפרד לאחריותו.\nכן, פרט\nלא\n? האם פיטרת עובד/ת, או חשבת לפטרו/ה, בשל טעות מקצועית\n:\nמה מספר המועסקים בעסק הנדון? שותפים ומנהלים:                                  סגל מקצועי:                                  שאר העובדים\n:\nסה\"כ\nמבוטח במסגרת מקום העבודה\nעצמאי\nשכיר\nשם מקום העבודה\nמקום עבודה\n)כן/לא(\nמס' שעות שבועיות\n% משרה\nכן\nפרקטיקה פרטית\nלא\nכן\nבית חולים ציבורי\nלא\nכן"
+}

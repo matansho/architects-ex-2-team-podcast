@@ -1,0 +1,27 @@
+{
+  "id": "pdf:travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-דרכון-פרימיום.pdf#256",
+  "source": "llm",
+  "description": {
+    "title": "שברים בתאונה",
+    "summary": "This table details insurance payouts for fractures sustained abroad under the 'דרכון פרימיום' travel insurance plan. It shows the percentage of the maximum insurance amount ($1,000) paid out based on the location of the fracture.",
+    "embed_passage": "פוליסת 'דרכון פרימיום' לביטוח נסיעות מציעה כיסוי לשברים כתוצאה מתאונה בחו״ל. גובה הפיצוי משתנה בהתאם לאיבר שנשבר, כאשר סכום הביטוח המקסימלי הוא $1,000. לדוגמה, שבר ביד מזכה ב־35% מסכום זה, כלומר $350.",
+    "row_axis": "location of fracture (body part)",
+    "column_axis": "insurance payout percentage",
+    "units": [
+      "$"
+    ],
+    "notable_values": [
+      "maximum insurance amount: $1,000",
+      "hand fracture payout: 35%",
+      "foot fracture payout: 3%",
+      "skull fracture payout: 35%",
+      "wrist fracture payout: 10%"
+    ],
+    "product_hints": [
+      "דרכון פרימיום"
+    ]
+  },
+  "sketch": "$  1,000 ארע שבר מתאונה ביד, וסכום הביטוח המירבי לשבר הנו דוגמא: $  350=1,000*35% : יחושבו תגמולי הביטוח כך\nלמען הסר ספק מובהר, כי לא תהא זכאות לקבלת תגמולי ביטוח בגין שברים שמקורם אינו בתאונה ובכלל זה השברים הבאים:\nשברים פתולוגיים - עקב תהליך מחלתי הממוקם מתחת לעצם כמו גידול, ציסטה, זיהום וכדומה.\nשברי לחץ ו/או שברי הליכה - עקב תהליכים חוזרים ונישנים של דחיסה ו/או מתח.\nשברי אי ספיקה - דילדול העצם וירידה בחוסן המכני שלה עקב מחלות כמו בריחת סידן, רככת, ליקוי בתהליך היצירה והבניה של העצם.\nשבר הנגרם מעצמו",
+  "embed_text": "פוליסת 'דרכון פרימיום' לביטוח נסיעות מציעה כיסוי לשברים כתוצאה מתאונה בחו״ל. גובה הפיצוי משתנה בהתאם לאיבר שנשבר, כאשר סכום הביטוח המקסימלי הוא $1,000. לדוגמה, שבר ביד מזכה ב־35% מסכום זה, כלומר $350.",
+  "payload": "טבלה: שברים בתאונה\nThis table details insurance payouts for fractures sustained abroad under the 'דרכון פרימיום' travel insurance plan. It shows the percentage of the maximum insurance amount ($1,000) paid out based on the location of the fracture.\nממדים: location of fracture (body part), insurance payout percentage\n\n$  1,000 ארע שבר מתאונה ביד, וסכום הביטוח המירבי לשבר הנו דוגמא: $  350=1,000*35% : יחושבו תגמולי הביטוח כך\nלמען הסר ספק מובהר, כי לא תהא זכאות לקבלת תגמולי ביטוח בגין שברים שמקורם אינו בתאונה ובכלל זה השברים הבאים:\nשברים פתולוגיים - עקב תהליך מחלתי הממוקם מתחת לעצם כמו גידול, ציסטה, זיהום וכדומה.\nשברי לחץ ו/או שברי הליכה - עקב תהליכים חוזרים ונישנים של דחיסה ו/או מתח.\nשברי אי ספיקה - דילדול העצם וירידה בחוסן המכני שלה עקב מחלות כמו בריחת סידן, רככת, ליקוי בתהליך היצירה והבניה של העצם.\nשבר הנגרם מעצמו"
+}

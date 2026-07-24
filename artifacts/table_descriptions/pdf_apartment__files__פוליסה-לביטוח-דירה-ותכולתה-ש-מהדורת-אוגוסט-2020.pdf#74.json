@@ -1,0 +1,24 @@
+{
+  "id": "pdf:apartment/files/פוליסה-לביטוח-דירה-ותכולתה-ש-מהדורת-אוגוסט-2020.pdf#74",
+  "source": "llm",
+  "description": {
+    "title": "ביטוח דירה ותכולתה",
+    "summary": "This table details the coverage limits for employer liability insurance within a home insurance policy. It specifies maximum payouts for incidents involving household employees, looking up limits based on the type of incident.",
+    "embed_passage": "פוליסת ביטוח דירה ותכולתה כוללת כיסוי אחריות מעבידים לעובדים במשק הבית. הסכום המקסימלי לתביעה של עובד אחד הוא 6,000,000 ₪, בעוד שהסכום המקסימלי למקרה ביטוח או סדרת מקרים הנובעים ממקור אחד הוא 20,000,000 ₪. הכיסוי חל על תאונות או מחלות שנגרמו לעובד במהלך העסקתו בדירה המבוטחת.",
+    "row_axis": "types of coverage limits",
+    "column_axis": "coverage amount",
+    "units": [
+      "₪"
+    ],
+    "notable_values": [
+      "עובד אחד: 6,000,000 ₪",
+      "מקרה ביטוח: 20,000,000 ₪"
+    ],
+    "product_hints": [
+      "ביטוח דירה ותכולתה"
+    ]
+  },
+  "sketch": "לעובד אחד. ₪  6,000,000 .1\nלמקרה ביטוח, או לסדרת מקרי ביטוח הנובעים ממקור אחד או ₪  20,000,000 .2 מסיבה מקורית אחת ולכל תקופת הביטוח.\nסייגים .3\nפרק זה אינו מכסה אבדן או נזק שנגרמו כתוצאה מאחד או יותר מהגורמים הבאים:",
+  "embed_text": "פוליסת ביטוח דירה ותכולתה כוללת כיסוי אחריות מעבידים לעובדים במשק הבית. הסכום המקסימלי לתביעה של עובד אחד הוא 6,000,000 ₪, בעוד שהסכום המקסימלי למקרה ביטוח או סדרת מקרים הנובעים ממקור אחד הוא 20,000,000 ₪. הכיסוי חל על תאונות או מחלות שנגרמו לעובד במהלך העסקתו בדירה המבוטחת.",
+  "payload": "טבלה: ביטוח דירה ותכולתה\nThis table details the coverage limits for employer liability insurance within a home insurance policy. It specifies maximum payouts for incidents involving household employees, looking up limits based on the type of incident.\nממדים: types of coverage limits, coverage amount\n\nלעובד אחד. ₪  6,000,000 .1\nלמקרה ביטוח, או לסדרת מקרי ביטוח הנובעים ממקור אחד או ₪  20,000,000 .2 מסיבה מקורית אחת ולכל תקופת הביטוח.\nסייגים .3\nפרק זה אינו מכסה אבדן או נזק שנגרמו כתוצאה מאחד או יותר מהגורמים הבאים:"
+}

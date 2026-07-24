@@ -1,0 +1,26 @@
+{
+  "id": "pdf:apartment/files/חוברת-כללים.pdf#121",
+  "source": "llm",
+  "description": {
+    "title": "תקופות טיפול בפניות",
+    "summary": "This table details the timeframes for handling claims and public inquiries related to water damage. It specifies the number of business days required for various actions, such as receiving a request or providing copies of a policy.",
+    "embed_passage": "פוליסת ביטוח דירה כוללת תקופות זמן מוגדרות לטיפול בפניות. לדוגמה, קבלת בקשה עשויה לקחת עד 14 ימי עסקים, או עד 21 ימי עסקים במקרים מסוימים. מסירת העתקים של הפוליסה עשויה לקחת 8 ימים.",
+    "row_axis": "Type of request/action (e.g., receiving a request, providing copies)",
+    "column_axis": "Timeframe (in business days) for completion",
+    "units": [
+      "ימי עסקים"
+    ],
+    "notable_values": [
+      "קבלת בקשה: 14 ימי עסקים",
+      "מסירת העתקים: 8 ימים",
+      "תיקון נזק (שרברב בהסדר): 2 ימי עסקים",
+      "זמן המתנה לשרברב בהסדר: שעתיים"
+    ],
+    "product_hints": [
+      "ביטוח דירה"
+    ]
+  },
+  "sketch": "מים 21 מ יאוחר לא ותיק אזרח הפניה. קבלת,ציבור. לפניית בכתב מענה,)יד( 8\nהבקשה. קבלת ממועד עסקים ימי 14,או מפוליסה העתקים מסירת מתקנון.,(1)( )טו 8\nהבקשה. קבלת ממועד עסקים ימי 21,שעליו מסמך מכל העתקים מסירת התובע. חתם,(3)( )טו 8\nהניהול. לחברת הפניה ממועד עבודה ימי 2,באמצעות הנזק תיקון תחילת שבהסדר. שרברב,(1) ה\nשעתיים. על יעלה לא,שבהסדר. לשרברב המתנה זמן,(3) ה",
+  "embed_text": "פוליסת ביטוח דירה כוללת תקופות זמן מוגדרות לטיפול בפניות. לדוגמה, קבלת בקשה עשויה לקחת עד 14 ימי עסקים, או עד 21 ימי עסקים במקרים מסוימים. מסירת העתקים של הפוליסה עשויה לקחת 8 ימים.",
+  "payload": "טבלה: תקופות טיפול בפניות\nThis table details the timeframes for handling claims and public inquiries related to water damage. It specifies the number of business days required for various actions, such as receiving a request or providing copies of a policy.\nממדים: Type of request/action (e.g., receiving a request, providing copies), Timeframe (in business days) for completion\n\nמים 21 מ יאוחר לא ותיק אזרח הפניה. קבלת,ציבור. לפניית בכתב מענה,)יד( 8\nהבקשה. קבלת ממועד עסקים ימי 14,או מפוליסה העתקים מסירת מתקנון.,(1)( )טו 8\nהבקשה. קבלת ממועד עסקים ימי 21,שעליו מסמך מכל העתקים מסירת התובע. חתם,(3)( )טו 8\nהניהול. לחברת הפניה ממועד עבודה ימי 2,באמצעות הנזק תיקון תחילת שבהסדר. שרברב,(1) ה\nשעתיים. על יעלה לא,שבהסדר. לשרברב המתנה זמן,(3) ה"
+}

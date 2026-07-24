@@ -1,0 +1,28 @@
+{
+  "id": "pdf:business/files/טופס-הצעה-לביטוח-מכלול-למושב.pdf#50",
+  "source": "llm",
+  "description": {
+    "title": "ביטוח מכלול",
+    "summary": "This table details coverage options and insurance amounts for 'Mekhalel' insurance. Users look up coverage details based on the type of property and desired coverage limits.",
+    "embed_passage": "ביטוח מכלול מציע כיסוי מקיף לבית מגורים ולתכולתו, כולל אפשרות לכיסוי רעידת אדמה. סכום הביטוח לתכולה עסקית יכול להגיע עד 50,000 ₪, ותכולת הדירה מוערכת בסכום ביטוח כולל בשקלים. ניתן לבחור ביטוח לפי ערך שיפוי או לבטל כיסוי לפריצה וגניבה.",
+    "row_axis": "Type of coverage/item to be insured (e.g., business contents, earthquake coverage)",
+    "column_axis": "Insurance amount (in ₪)",
+    "units": [
+      "₪"
+    ],
+    "notable_values": [
+      "Business contents insurance amount: up to 50,000 ₪",
+      "Earthquake coverage: unspecified amount",
+      "All-risk bicycle coverage: not included for motorized bicycles",
+      "Business activity at home: yes/no",
+      "Replacement value insurance: yes/no"
+    ],
+    "product_hints": [
+      "מכלול",
+      "Mekhalel"
+    ]
+  },
+  "sketch": ")נא לציין סכומים( כב כיסויים נוספים נדרשים\n:( כל הסיכונים לאופניים )לא כולל אופניים בעלי מנוע עזר כלשהו\n.₪\nלא\n…\n? פעילות עסקית בבית\n(₪  50,000 )עד\n₪                                                                                :\nסוג תכולה עסקית:                                                                     סכום ביטוח",
+  "embed_text": "ביטוח מכלול מציע כיסוי מקיף לבית מגורים ולתכולתו, כולל אפשרות לכיסוי רעידת אדמה. סכום הביטוח לתכולה עסקית יכול להגיע עד 50,000 ₪, ותכולת הדירה מוערכת בסכום ביטוח כולל בשקלים. ניתן לבחור ביטוח לפי ערך שיפוי או לבטל כיסוי לפריצה וגניבה.",
+  "payload": "טבלה: ביטוח מכלול\nThis table details coverage options and insurance amounts for 'Mekhalel' insurance. Users look up coverage details based on the type of property and desired coverage limits.\nממדים: Type of coverage/item to be insured (e.g., business contents, earthquake coverage), Insurance amount (in ₪)\n\n)נא לציין סכומים( כב כיסויים נוספים נדרשים\n:( כל הסיכונים לאופניים )לא כולל אופניים בעלי מנוע עזר כלשהו\n.₪\nלא\nכן\n:( כל הסיכונים למכשירים אלקטרונים ביתיים )נא לציין את סוג המכשיר, יצרן, דגם ושוויו\nשווי בש״ח\nדגם\nיצרן\nהמכשיר\nכג עמדת טעינה לרכב\nלא\nכן\n? האם יש ברשותך עמדת טעינה פרטית לכלי רכב\n. תשומת לב, ככל שהנך מבוטח/ת בביטוח עמדת טעינה לכלי רכב, יתכן שיהיה כיסוי ביטוחי מקביל במסגרת ביטוח הדירה, והמשמעות היא קיומו של כפל ביטוחי\nכא תכולה - כיסויים נוספים\nשמשות, משטחי שיש, מתקנים סניטריים:\n.₪                                                                       :\nמסכום התכולה 5%- נא לציין סכום ביטוח מעבר ל\n.₪                                                      :\nמסכום התכולה לפריט בודד 1%- נא לציין סכום ביטוח מעבר ל\n:\nכן, נא לפרט את סוג העיסוק\nלא\n? פעילות עסקית בבית\n(₪  50,000 )עד\n₪                                                                                :\nסוג תכולה עסקית:                                                                     סכום ביטוח"
+}

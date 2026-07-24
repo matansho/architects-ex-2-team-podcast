@@ -1,0 +1,24 @@
+{
+  "id": "pdf:travel/files/טופס-בקשה-להחזר-בנושא-מטען-בביטוח-נסיעות-לחול.pdf#16",
+  "source": "llm",
+  "description": {
+    "title": "החזר מטען",
+    "summary": "This table details claims for lost or damaged luggage in a travel insurance policy. It lists the items claimed, purchase date, purchase price, and the total claimed amount.",
+    "embed_passage": "פוליסת ביטוח הנסיעות של הראל מספקת החזר כספי עבור אובדן או נזק למטען. הטבלה מפרטת את תאריך הרכישה, מחיר הרכישה, וסכום התביעה הכולל עבור כל פריט. לדוגמה, ניתן לתבוע סכום של 5,000 ₪ עבור פריט שנרכש בתאריך מסוים.",
+    "row_axis": "claim item",
+    "column_axis": "claim details (purchase date, price, total amount)",
+    "units": [
+      "₪"
+    ],
+    "notable_values": [
+      "amount: 5,000"
+    ],
+    "product_hints": [
+      "הראל ביטוח נסיעות",
+      "ביטוח מטען"
+    ]
+  },
+  "sketch": "התביעה מרכיבי פירוט ד.צורפה אם x לסמן נא תשלום קבלת,התביעה מרכיבי פירוט ד.רכישה תאריך,התביעה מרכיבי פירוט ד.רכישה מחיר,התביעה מרכיבי פירוט ד.פריט\n\"המטבע וסוג הנתבע הסכום סה\"\"כ\",\"המטבע וסוג הנתבע הסכום סה\"\"כ\",\"המטבע וסוג הנתבע הסכום סה\"\"כ\",\"המטבע וסוג הנתבע הסכום סה\"\"כ\"",
+  "embed_text": "פוליסת ביטוח הנסיעות של הראל מספקת החזר כספי עבור אובדן או נזק למטען. הטבלה מפרטת את תאריך הרכישה, מחיר הרכישה, וסכום התביעה הכולל עבור כל פריט. לדוגמה, ניתן לתבוע סכום של 5,000 ₪ עבור פריט שנרכש בתאריך מסוים.",
+  "payload": "טבלה: החזר מטען\nThis table details claims for lost or damaged luggage in a travel insurance policy. It lists the items claimed, purchase date, purchase price, and the total claimed amount.\nממדים: claim item, claim details (purchase date, price, total amount)\n\nהתביעה מרכיבי פירוט ד.צורפה אם x לסמן נא תשלום קבלת,התביעה מרכיבי פירוט ד.רכישה תאריך,התביעה מרכיבי פירוט ד.רכישה מחיר,התביעה מרכיבי פירוט ד.פריט\n\"המטבע וסוג הנתבע הסכום סה\"\"כ\",\"המטבע וסוג הנתבע הסכום סה\"\"כ\",\"המטבע וסוג הנתבע הסכום סה\"\"כ\",\"המטבע וסוג הנתבע הסכום סה\"\"כ\""
+}

@@ -1,0 +1,28 @@
+{
+  "id": "pdf:travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-first-class.pdf#239",
+  "source": "llm",
+  "description": {
+    "title": "שברים - תגמולים",
+    "summary": "This table details the insurance payout rates for fractures sustained in an accident abroad, as part of the 'first class' travel insurance policy. It lists body parts and the corresponding percentage of the insured amount paid for a fracture.",
+    "embed_passage": "פוליסת ביטוח הנסיעות 'first class' מספקת כיסוי לשברים כתוצאה מתאונה בחו\"ל. גובה הפיצוי משתנה בהתאם לאיבר שנפגע, לדוגמה, שבר בגולגולת יכוסה בשיעור של 35% מסכום הביטוח, בעוד ששבר בחוליה יכוסה בשיעור של 100%. סכום הביטוח המירבי הוא $1,000.",
+    "row_axis": "איבר שנשבר (Body part fractured)",
+    "column_axis": "אחוז כיסוי (Coverage percentage)",
+    "units": [
+      "%"
+    ],
+    "notable_values": [
+      "חוליה: 100%",
+      "אגן: 100%",
+      "גולגולת: 35%",
+      "חזה בית: 35%",
+      "יד: 35%"
+    ],
+    "product_hints": [
+      "first class",
+      "ביטוח נסיעות"
+    ]
+  },
+  "sketch": "הצלעות, עצם החזה ועצם הבריח, אשר תחשבנה כעצם אחת. -בית חזה .( יחשבו כקשת חוליה הזיז הרוחבי, הזיז הקוצי והלוחית )הלמינה -קשת חולייה מספר שברים בחוליה אחת או במספר חוליות, יחשבו כשבר אחד לצורך תוכנית הביטוח.\n. כל שבר בחוליה, שאינו בקשת החוליה, יחשב כגוף חוליה -גוף חולייה מספר שברים בחוליה אחת או במספר חוליות, יחשבו כשבר אחד לצורך תוכנית הביטוח.",
+  "embed_text": "פוליסת ביטוח הנסיעות 'first class' מספקת כיסוי לשברים כתוצאה מתאונה בחו\"ל. גובה הפיצוי משתנה בהתאם לאיבר שנפגע, לדוגמה, שבר בגולגולת יכוסה בשיעור של 35% מסכום הביטוח, בעוד ששבר בחוליה יכוסה בשיעור של 100%. סכום הביטוח המירבי הוא $1,000.",
+  "payload": "טבלה: שברים - תגמולים\nThis table details the insurance payout rates for fractures sustained in an accident abroad, as part of the 'first class' travel insurance policy. It lists body parts and the corresponding percentage of the insured amount paid for a fracture.\nממדים: איבר שנשבר (Body part fractured), אחוז כיסוי (Coverage percentage)\n\nהצלעות, עצם החזה ועצם הבריח, אשר תחשבנה כעצם אחת. -בית חזה .( יחשבו כקשת חוליה הזיז הרוחבי, הזיז הקוצי והלוחית )הלמינה -קשת חולייה מספר שברים בחוליה אחת או במספר חוליות, יחשבו כשבר אחד לצורך תוכנית הביטוח.\n. כל שבר בחוליה, שאינו בקשת החוליה, יחשב כגוף חוליה -גוף חולייה מספר שברים בחוליה אחת או במספר חוליות, יחשבו כשבר אחד לצורך תוכנית הביטוח."
+}

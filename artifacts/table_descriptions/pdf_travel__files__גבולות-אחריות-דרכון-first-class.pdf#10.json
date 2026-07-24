@@ -1,0 +1,28 @@
+{
+  "id": "pdf:travel/files/גבולות-אחריות-דרכון-first-class.pdf#10",
+  "source": "llm",
+  "description": {
+    "title": "גבולות אחריות דרכון",
+    "summary": "This table details the liability limits for the 'דרכון' travel insurance policy. It shows the self-participation amount, coverage type, and the limit of liability for various scenarios.",
+    "embed_passage": "פוליסת 'דרכון' מספקת כיסוי להוצאות רפואיות, אשפוז, ואובדן ציוד ספורט חורף. גבול האחריות משתנה בהתאם לסוג הפעילות, לדוגמה, עבור סקי ימי עד $50, או עבור איחור בהגעת ציוד ספורט חורף בסך $200. ההשתתפות העצמית יכולה להיות $50 או ללא השתתפות עצמית.",
+    "row_axis": "Coverage type / scenario (e.g., amateur extreme sports, winter sports)",
+    "column_axis": "Self-participation amount, Liability limit, Coverage",
+    "units": [
+      "$",
+      "₪"
+    ],
+    "notable_values": [
+      "Self-participation: $50",
+      "Liability limit (amateur extreme sports): $50",
+      "Liability limit (winter sports): $200",
+      "Liability limit (skiing): $50",
+      "Self-participation: ללא ה.ע"
+    ],
+    "product_hints": [
+      "דרכון"
+    ]
+  },
+  "sketch": "עצמית השתתפות,האחריות גבול,הכיסוי,\n$ 50,להוצאות האחריות בגבול כלול הבסיסית בפוליסה רפואיות,2 חובבני אתגרי ספורט,אתגרי ספורט חובבני\n,,2 חורף ספורט,\nה.ע ללא,של האחריות בגבול כלול בפוליסה רפואיות להוצאות הבסיסית,אשפוז בעת רפואיות הוצאות,\n…\n$ 50,בפועל סקי ימי 6 ועד ליום $ 50,אוויר מזג בשל הסקי לאתר בהגעה איחור,\n$ 50,בפועל סקי ימי 6 ועד ליום $ T5,ה לתקופ האתר סגירת עקב סקי ימי אובדן ומעלה שעות 48 של,\nה.ע ללא,$ 200 $ 20,חורף ספורט ציוד בהגעת איחור אחד פריט מתוכו:,\n$ 50,להוצאות האחריות בגבול",
+  "embed_text": "פוליסת 'דרכון' מספקת כיסוי להוצאות רפואיות, אשפוז, ואובדן ציוד ספורט חורף. גבול האחריות משתנה בהתאם לסוג הפעילות, לדוגמה, עבור סקי ימי עד $50, או עבור איחור בהגעת ציוד ספורט חורף בסך $200. ההשתתפות העצמית יכולה להיות $50 או ללא השתתפות עצמית.",
+  "payload": "טבלה: גבולות אחריות דרכון\nThis table details the liability limits for the 'דרכון' travel insurance policy. It shows the self-participation amount, coverage type, and the limit of liability for various scenarios.\nממדים: Coverage type / scenario (e.g., amateur extreme sports, winter sports), Self-participation amount, Liability limit, Coverage\n\nעצמית השתתפות,האחריות גבול,הכיסוי,\n$ 50,להוצאות האחריות בגבול כלול הבסיסית בפוליסה רפואיות,2 חובבני אתגרי ספורט,אתגרי ספורט חובבני\n,,2 חורף ספורט,\nה.ע ללא,של האחריות בגבול כלול בפוליסה רפואיות להוצאות הבסיסית,אשפוז בעת רפואיות הוצאות,\n$ 50,להוצאות האחריות בגבול כלול הבסיסית בפוליסה רפואיות,אשפוז בעת שלא רפואיות הוצאות,\n$ 50,$ 300,סקי ימי אובדן בגין שיפוי,\n$ 50,,הסקי באתר שלג היעדר עקב נסיעה ביטול,\n,$ 300,נסיעה כרטיס,\n,בפועל סקי ימי 6 ועד ליום $ 50,קרקע שירותי,חורף ספורט\n$ 50,בפועל סקי ימי 6 ועד ליום $ 50,אוויר מזג בשל הסקי לאתר בהגעה איחור,\n$ 50,בפועל סקי ימי 6 ועד ליום $ T5,ה לתקופ האתר סגירת עקב סקי ימי אובדן ומעלה שעות 48 של,\nה.ע ללא,$ 200 $ 20,חורף ספורט ציוד בהגעת איחור אחד פריט מתוכו:,\n$ 50,להוצאות האחריות בגבול"
+}

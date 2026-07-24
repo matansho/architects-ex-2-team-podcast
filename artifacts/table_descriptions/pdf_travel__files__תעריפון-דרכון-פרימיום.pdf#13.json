@@ -1,0 +1,25 @@
+{
+  "id": "pdf:travel/files/תעריפון-דרכון-פרימיום.pdf#13",
+  "source": "llm",
+  "description": {
+    "title": "תעריפון דרכון פרימיום",
+    "summary": "This table details optional extensions to the basic 'דרכון פרימיום' travel insurance policy, and the associated costs. It allows looking up the price of extensions based on the insured's age.",
+    "embed_passage": "ביטוח 'דרכון פרימיום' מציע הרחבות שונות לפוליסה הבסיסית, כגון איתור וחיפוש בעלות של $0.20 לכל הגילאים, וכיסוי חבות כלפי צד שלישי שניתן להסיר ללא עלות. עלות ההרחבות משתנה בהתאם לגיל המבוטח, כאשר הכיסויים ניתנים להסרה בהתאם לרצון המבוטח.",
+    "row_axis": "Optional extensions included in the basic policy",
+    "column_axis": "Age of the insured, notes, extension name",
+    "units": [
+      "$"
+    ],
+    "notable_values": [
+      "איתור חיפוש: $0.20",
+      "צד כלפי חבות: עלות ללא כהטבה ניתן",
+      "גיל: כל הגילאים"
+    ],
+    "product_hints": [
+      "דרכון פרימיום"
+    ]
+  },
+  "sketch": "הרחבות הכלולות בפוליסה הבסיסית, שניתן להסירן\nהערות,המבוטח גיל,הרחבה\n$ 0.20,הגילאים כל,איתור חיפוש\nעלות ללא כהטבה ניתן,הגילאים כל,צד כלפי חבות",
+  "embed_text": "ביטוח 'דרכון פרימיום' מציע הרחבות שונות לפוליסה הבסיסית, כגון איתור וחיפוש בעלות של $0.20 לכל הגילאים, וכיסוי חבות כלפי צד שלישי שניתן להסיר ללא עלות. עלות ההרחבות משתנה בהתאם לגיל המבוטח, כאשר הכיסויים ניתנים להסרה בהתאם לרצון המבוטח.",
+  "payload": "טבלה: תעריפון דרכון פרימיום\nThis table details optional extensions to the basic 'דרכון פרימיום' travel insurance policy, and the associated costs. It allows looking up the price of extensions based on the insured's age.\nממדים: Optional extensions included in the basic policy, Age of the insured, notes, extension name\n\nהרחבות הכלולות בפוליסה הבסיסית, שניתן להסירן\nהערות,המבוטח גיל,הרחבה\n$ 0.20,הגילאים כל,איתור חיפוש\nעלות ללא כהטבה ניתן,הגילאים כל,צד כלפי חבות"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "pdf:loss-of-working-ability/files/טופס-הצעה-לביטוח-חיים-ואובדן-כושר-עבודה.pdf#57",
+  "source": "llm",
+  "description": {
+    "title": "הרשאה לחיוב חשבון",
+    "summary": "This table details authorization for account debit, specifying limitations on amount and expiration date. It's used to set up recurring payments to a beneficiary.",
+    "embed_passage": "טופס זה עוסק בהרשאה לחיוב חשבון, המאפשרת למוטב לחייב את חשבון הבנק שלך בסכומים ובתאריכים שונים. ניתן להגביל את החיובים בתקרת סכום של ₪ או לקבוע מועד פקיעת תוקף להרשאה. אם לא יסומן דבר, תתבצע הרשאה כללית ללא הגבלות.",
+    "row_axis": "Authorization type (general vs. limited)",
+    "column_axis": "Authorization details (expiration date, amount limit)",
+    "units": [
+      "₪"
+    ],
+    "notable_values": [
+      "expiration date: / /",
+      "amount limit: ₪",
+      "general authorization: no limitations"
+    ],
+    "product_hints": [
+      "הרשאה לחיוב חשבון"
+    ]
+  },
+  "sketch": "8\nאו . הרשאה כללית, שאינה כוללת הגבלות\nהרשאה הכוללת לפחות אחת מההגבלות הבאות:\n.       /       / מועד פקיעת תוקף ההרשאה - ביום\n.₪                                - תקרת סכום החיוב\nלתשומת לבך,\nאי סימון אחת מהחלופות המוצגות לעיל, משמעה בחירה בהרשאה כללית, שאינה כוללת הגבלות.\nאם יישלחו על ידי המוטב חיובים שאינם עומדים בהגבלות שקבע הלקוח, הם יוחזרו על ידי הבנק, על כל המשמעויות הכרוכות בכך.",
+  "embed_text": "טופס זה עוסק בהרשאה לחיוב חשבון, המאפשרת למוטב לחייב את חשבון הבנק שלך בסכומים ובתאריכים שונים. ניתן להגביל את החיובים בתקרת סכום של ₪ או לקבוע מועד פקיעת תוקף להרשאה. אם לא יסומן דבר, תתבצע הרשאה כללית ללא הגבלות.",
+  "payload": "טבלה: הרשאה לחיוב חשבון\nThis table details authorization for account debit, specifying limitations on amount and expiration date. It's used to set up recurring payments to a beneficiary.\nממדים: Authorization type (general vs. limited), Authorization details (expiration date, amount limit)\n\n8\nאו . הרשאה כללית, שאינה כוללת הגבלות\nהרשאה הכוללת לפחות אחת מההגבלות הבאות:\n.       /       / מועד פקיעת תוקף ההרשאה - ביום\n.₪                                - תקרת סכום החיוב\nלתשומת לבך,\nאי סימון אחת מהחלופות המוצגות לעיל, משמעה בחירה בהרשאה כללית, שאינה כוללת הגבלות.\nאם יישלחו על ידי המוטב חיובים שאינם עומדים בהגבלות שקבע הלקוח, הם יוחזרו על ידי הבנק, על כל המשמעויות הכרוכות בכך."
+}

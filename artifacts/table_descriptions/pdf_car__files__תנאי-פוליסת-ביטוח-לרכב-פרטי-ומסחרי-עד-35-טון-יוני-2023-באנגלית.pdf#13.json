@@ -1,0 +1,26 @@
+{
+  "id": "pdf:car/files/תנאי-פוליסת-ביטוח-לרכב-פרטי-ומסחרי-עד-35-טון-יוני-2023-באנגלית.pdf#13",
+  "source": "llm",
+  "description": {
+    "title": "נהגי רכב מורשים",
+    "summary": "This table details who is permitted to drive the insured vehicle under the policy. It specifies conditions related to policy owner, vehicle owner, and permitted drivers, especially for motorcycles and taxis.",
+    "embed_passage": "פוליסת ביטוח לרכב מכסה נהגים מורשים בלבד, כולל בעל הפוליסה ובעל הרכב. במקרה של אופנוע או רכב המסווג כמונית, הכיסוי מוגבל לנהג ששמו מופיע בתעודת הביטוח. נהיגה על ידי אדם שאינו מורשה עלולה לפסול את הכיסוי הביטוחי.",
+    "row_axis": "Scenario regarding permitted drivers",
+    "column_axis": "Conditions for driver authorization",
+    "units": [],
+    "notable_values": [
+      "Vehicle type: motorcycle/taxi",
+      "Driver authorization: policy owner",
+      "Driver authorization: vehicle owner",
+      "Driver authorization: lawful holder",
+      "Driver authorization: permitted user"
+    ],
+    "product_hints": [
+      "ביטוח לרכב",
+      "פוליסת רכב"
+    ]
+  },
+  "sketch": "7. Persons permitted to drive the vehicle\n7.1 Only the policy owner, the vehicle owner, the lawful holder of the vehicle and anyone making use of the vehicle, with the permission of whomsoever of them is permitted to drive the vehicle.\n7.2 Notwithstanding whatsoever appearing in sub-paragraph 7.1, in the event that the insurance certificate - which is issued for a motorcycle or a vehicle classified as a 'taxi' on the vehicle license stipulates that the insurer 's liability shall cover driving the vehicle only by the person whose name appears on the insurance certificate, the vehicle may only be driven by the person whose name appears on the insurance certificate as aforementioned.\n7.3 In the event that the vehicle is driven by a person who may not drive the vehicle according to the provisions of this paragraph, the insurer shall be exempt of its liability in accordance with this policy.",
+  "embed_text": "פוליסת ביטוח לרכב מכסה נהגים מורשים בלבד, כולל בעל הפוליסה ובעל הרכב. במקרה של אופנוע או רכב המסווג כמונית, הכיסוי מוגבל לנהג ששמו מופיע בתעודת הביטוח. נהיגה על ידי אדם שאינו מורשה עלולה לפסול את הכיסוי הביטוחי.",
+  "payload": "טבלה: נהגי רכב מורשים\nThis table details who is permitted to drive the insured vehicle under the policy. It specifies conditions related to policy owner, vehicle owner, and permitted drivers, especially for motorcycles and taxis.\nממדים: Scenario regarding permitted drivers, Conditions for driver authorization\n\n7. Persons permitted to drive the vehicle\n7.1 Only the policy owner, the vehicle owner, the lawful holder of the vehicle and anyone making use of the vehicle, with the permission of whomsoever of them is permitted to drive the vehicle.\n7.2 Notwithstanding whatsoever appearing in sub-paragraph 7.1, in the event that the insurance certificate - which is issued for a motorcycle or a vehicle classified as a 'taxi' on the vehicle license stipulates that the insurer 's liability shall cover driving the vehicle only by the person whose name appears on the insurance certificate, the vehicle may only be driven by the person whose name appears on the insurance certificate as aforementioned.\n7.3 In the event that the vehicle is driven by a person who may not drive the vehicle according to the provisions of this paragraph, the insurer shall be exempt of its liability in accordance with this policy."
+}

@@ -1,0 +1,31 @@
+{
+  "id": "pdf:health/files/62025-טופס-הצעה-לביטוח-רפואי-ביטוח-בריאות.pdf#9",
+  "source": "llm",
+  "description": {
+    "title": "הראל - הצהרת בריאות",
+    "summary": "This table outlines health declaration requirements for Harel insurance policies, specifying conditions for providing medical certificates and questionnaires based on age and coverage amount. It details when additional medical information is needed when purchasing critical illness insurance.",
+    "embed_passage": "פוליסות ביטוח בריאות של הראל דורשות לעיתים מסמכים רפואיים נוספים. לדוגמה, ברכישת מחלות קשות עבור ילד בגיל 6, יש לצרף שאלון ילדים. עבור מבוטחים מעל גיל 65, נדרשת תעודה רפואית המתייחסת למצב הרפואי שלהם, כולל ניתוחים ותרופות קבועות. סכום ביטוח גבוה מ-₪ 300,000 עשוי לדרוש מסמכים נוספים.",
+    "row_axis": "condition for providing medical documentation",
+    "column_axis": "age / coverage amount / specific situation",
+    "units": [
+      "₪",
+      "חודשים",
+      "שנים"
+    ],
+    "notable_values": [
+      "age: 65",
+      "coverage amount: ₪ 300,000",
+      "child age: 6",
+      "months: 2",
+      "years: 5"
+    ],
+    "product_hints": [
+      "ביטוח בריאות",
+      "מחלות קשות",
+      "הראל"
+    ]
+  },
+  "sketch": ". 2 חודשים שמבקשים לרכוש עבורו סכום 6-1\t2 חודשים, או עבור ילד בגיל 6 עבור ילד עד גיל : ברכישת מחלות קשות יש לצרף שאלון ילדים במקרים הבאים .₪  300,000ביטוח הגבוה מ\n. 3 , אנו מבקשים לצרף תעודה רפואית המתייחסת למצבך הרפואי כולל התייחסות לניתוחים, תרופות קבועות, אבחנות רפואיות, אשפוזים , ומעלה 65 אם גילך השנים האחרונות. 5ותוצאות בדיקות דימות מיוחדות שבוצעו ב",
+  "embed_text": "פוליסות ביטוח בריאות של הראל דורשות לעיתים מסמכים רפואיים נוספים. לדוגמה, ברכישת מחלות קשות עבור ילד בגיל 6, יש לצרף שאלון ילדים. עבור מבוטחים מעל גיל 65, נדרשת תעודה רפואית המתייחסת למצב הרפואי שלהם, כולל ניתוחים ותרופות קבועות. סכום ביטוח גבוה מ-₪ 300,000 עשוי לדרוש מסמכים נוספים.",
+  "payload": "טבלה: הראל - הצהרת בריאות\nThis table outlines health declaration requirements for Harel insurance policies, specifying conditions for providing medical certificates and questionnaires based on age and coverage amount. It details when additional medical information is needed when purchasing critical illness insurance.\nממדים: condition for providing medical documentation, age / coverage amount / specific situation\n\n. 2 חודשים שמבקשים לרכוש עבורו סכום 6-1\t2 חודשים, או עבור ילד בגיל 6 עבור ילד עד גיל : ברכישת מחלות קשות יש לצרף שאלון ילדים במקרים הבאים .₪  300,000ביטוח הגבוה מ\n. 3 , אנו מבקשים לצרף תעודה רפואית המתייחסת למצבך הרפואי כולל התייחסות לניתוחים, תרופות קבועות, אבחנות רפואיות, אשפוזים , ומעלה 65 אם גילך השנים האחרונות. 5ותוצאות בדיקות דימות מיוחדות שבוצעו ב"
+}

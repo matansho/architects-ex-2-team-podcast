@@ -1,0 +1,27 @@
+{
+  "id": "pdf:business/files/פוליסה_לביטוח_סחורה_בהעברה-_הראל_ביט_-_ינואר_2023.pdf#32",
+  "source": "llm",
+  "description": {
+    "title": "תשלומי ביטוח - הראל",
+    "summary": "This table details the payment terms for an insurance policy. It specifies how and when insurance premiums and other amounts are to be paid, including options for full payment or installments.",
+    "embed_passage": "פוליסת ביטוח סחורה בהעברה של הראל מציגה תנאי תשלום גמישים. תשלום במזומן מחייב תשלום מלא תוך 28 ימים מתחילת תקופת הביטוח בש״ח. אפשרות נוספת היא תשלום לשיעורין בתשלומים חודשיים, כאשר מספרם אינו עולה על 21.",
+    "row_axis": "payment method/condition",
+    "column_axis": "payment details (timing, currency, interest)",
+    "units": [
+      "ימים",
+      "₪",
+      "%"
+    ],
+    "notable_values": [
+      "payment deadline: 28 days",
+      "installment count max: 21",
+      "currency: ₪"
+    ],
+    "product_hints": [
+      "הראל ביט"
+    ]
+  },
+  "sketch": "תשלום דמי הביטוח וסכומים אחרים .4.1\nתשלום במזומן - אם לא סוכם אחרת בין המבטח למבוטח, דמי הביטוח .4.1.1 וסכומים אחרים המגיעים מהמבוטח למבטח בקשר לפוליסה זו, ישולמו ימים מתאריך תחילתה של תקופת הביטוח. 28 במלואם בש״ח, תוך\nתשלום לשיעורין - אם סוכם בין המבטח למבוטח על תשלום לשיעורין, ישולמו דמי הביטוח בתוספת דמי אשראי, בהתאם למפורט ברשימה. דמי האשראי יחושבו על בסיס ריבית שנתית כנקוב ברשימה וישולמו במהלך תקופת הביטוח בתשלומים חודשיים, שווים ורצופים שמספרם אינו עולה על ימים",
+  "embed_text": "פוליסת ביטוח סחורה בהעברה של הראל מציגה תנאי תשלום גמישים. תשלום במזומן מחייב תשלום מלא תוך 28 ימים מתחילת תקופת הביטוח בש״ח. אפשרות נוספת היא תשלום לשיעורין בתשלומים חודשיים, כאשר מספרם אינו עולה על 21.",
+  "payload": "טבלה: תשלומי ביטוח - הראל\nThis table details the payment terms for an insurance policy. It specifies how and when insurance premiums and other amounts are to be paid, including options for full payment or installments.\nממדים: payment method/condition, payment details (timing, currency, interest)\n\nתשלום דמי הביטוח וסכומים אחרים .4.1\nתשלום במזומן - אם לא סוכם אחרת בין המבטח למבוטח, דמי הביטוח .4.1.1 וסכומים אחרים המגיעים מהמבוטח למבטח בקשר לפוליסה זו, ישולמו ימים מתאריך תחילתה של תקופת הביטוח. 28 במלואם בש״ח, תוך\nתשלום לשיעורין - אם סוכם בין המבטח למבוטח על תשלום לשיעורין, ישולמו דמי הביטוח בתוספת דמי אשראי, בהתאם למפורט ברשימה. דמי האשראי יחושבו על בסיס ריבית שנתית כנקוב ברשימה וישולמו במהלך תקופת הביטוח בתשלומים חודשיים, שווים ורצופים שמספרם אינו עולה על ימים"
+}

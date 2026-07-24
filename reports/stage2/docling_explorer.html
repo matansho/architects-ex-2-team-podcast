@@ -1,0 +1,2747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Docling Explorer — כתב-שירות-שירותי-רפואה-משלימה-אלטרנטיבית.pdf</title>
+  <style>
+    :root {
+      --bg: #f4f6f9; --card: #fff; --text: #111827; --muted: #6b7280;
+      --border: #e5e7eb; --accent: #2563eb;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Inter, system-ui, sans-serif; background: var(--bg); color: var(--text); }
+    header { background: linear-gradient(135deg, #1e3a5f, #2563eb); color: white; padding: 1.25rem 1.5rem; }
+    header h1 { margin: 0 0 .35rem; font-size: 1.35rem; }
+    header p { margin: 0; opacity: .9; font-size: .9rem; }
+    nav.toc { margin-top: .75rem; display: flex; flex-wrap: wrap; gap: .4rem; }
+    nav.toc a { color: white; opacity: .88; text-decoration: none; font-size: .8rem; padding: .2rem .5rem; border: 1px solid rgba(255,255,255,.25); border-radius: 999px; }
+    main { max-width: 1100px; margin: 0 auto; padding: 1rem 1.25rem 2.5rem; }
+    section { background: var(--card); border-radius: 12px; padding: 1rem 1.1rem; margin-bottom: 1rem; box-shadow: 0 1px 3px rgba(0,0,0,.06); }
+    h2 { margin: 0 0 .65rem; font-size: 1.05rem; }
+    h3 { margin: 0 0 .55rem; font-size: .95rem; }
+    .count { color: var(--muted); font-weight: 500; font-size: .82rem; }
+    .note { background: #eff6ff; border-left: 3px solid var(--accent); padding: .6rem .75rem; border-radius: 8px; font-size: .88rem; margin: 0 0 .75rem; }
+    .note.warn { background: #fffbeb; border-color: #d97706; }
+    .hint { font-size: .78rem; color: var(--muted); margin: .35rem 0 0; }
+    .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: .5rem; margin-bottom: .75rem; }
+    .stat { background: #f8fafc; border: 1px solid var(--border); border-radius: 10px; padding: .55rem .65rem; }
+    .stat .n { font-size: 1.25rem; font-weight: 700; color: var(--accent); }
+    .stat .l { font-size: .72rem; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+    .legend { display: flex; flex-wrap: wrap; gap: .45rem .75rem; margin-bottom: .75rem; }
+    .legend-item { font-size: .78rem; display: flex; align-items: center; gap: .3rem; }
+    .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+    .toolbar { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; margin-bottom: .75rem; }
+    .toolbar label { font-size: .78rem; color: var(--muted); display: flex; flex-direction: column; gap: .15rem; }
+    select, input { padding: .35rem .5rem; border: 1px solid var(--border); border-radius: 8px; font-size: .85rem; }
+    .item-list { display: grid; gap: .55rem; }
+    .item-card { border: 1px solid var(--border); border-radius: 10px; padding: .55rem .65rem; background: #fcfdff; }
+    .item-head { display: flex; flex-wrap: wrap; gap: .35rem; align-items: center; margin-bottom: .35rem; }
+    .kind-pill { color: white; font-size: .68rem; font-weight: 700; padding: .15rem .45rem; border-radius: 999px; }
+    .badge { font-size: .68rem; background: #eef2ff; color: #3730a3; padding: .12rem .38rem; border-radius: 999px; font-weight: 600; }
+    .badge.page { background: #dbeafe; color: #1d4ed8; }
+    .badge.muted { background: #f3f4f6; color: var(--muted); font-weight: 500; }
+    .item-body { margin: 0; white-space: pre-wrap; word-break: break-word; font-size: .84rem; line-height: 1.55; background: white; border: 1px solid var(--border); border-radius: 8px; padding: .55rem .65rem; max-height: 280px; overflow: auto; }
+    .hebrew { unicode-bidi: plaintext; }
+    .flow { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: .65rem; }
+    .flow-step { border: 1px solid var(--border); border-radius: 10px; padding: .65rem; background: #f8fafc; font-size: .84rem; }
+    .flow-step strong { display: block; margin-bottom: .25rem; color: var(--accent); }
+    .compare { margin-bottom: .65rem; }
+    .compare-body { font-size: .8rem; max-height: 200px; overflow: auto; background: #fefce8; border: 1px solid #fde68a; border-radius: 8px; padding: .55rem; }
+    .md-preview { font-size: .78rem; max-height: 240px; overflow: auto; background: #f9fafb; border-radius: 8px; padding: .55rem; }
+    .hidden { display: none !important; }
+    .highlight { outline: 2px solid #fbbf24; background: #fffbeb !important; }
+    code { background: #f3f4f6; padding: .08rem .25rem; border-radius: 4px; font-size: .85em; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Docling Explorer</h1>
+    <p>corpus/health/files/כתב-שירות-שירותי-רפואה-משלימה-אלטרנטיבית.pdf · 9 pages · 110 structured items · 2026-07-21 10:11 UTC</p>
+    <nav class="toc">
+      <a href="#how">How to read this</a>
+      <a href="#markdown">Markdown export</a>
+      <a href="#dev26">dev-26 anchors</a>
+      <a href="#stats">Stats</a>
+      <a href="#pages">By page</a>
+      <a href="#all">All items</a>
+      <a href='#txt-sample'>TXT contrast</a>
+    </nav>
+  </header>
+  <main>
+    <section id="how">
+      <h2>What Docling did</h2>
+      <div class="flow">
+        <div class="flow-step"><strong>1. Input</strong>PDF pages (images + text layout)</div>
+        <div class="flow-step"><strong>2. Detect</strong>Headings, paragraphs, lists, tables, pictures</div>
+        <div class="flow-step"><strong>3. OCR</strong>Hebrew text extracted (can reverse word order)</div>
+        <div class="flow-step"><strong>4. Output</strong>Structured items + optional markdown export</div>
+      </div>
+      <p class="note">Each card below is one <em>item</em> from <code>doc.iterate_items()</code>.
+      Use <strong>SectionHeaderItem</strong> + <strong>ListItem</strong> for structural chunking — not the markdown file directly.
+      Section numbers like <code>3.1.1</code> (acupuncture) and <code>5.3</code> (12 treatments) appear in list items on pages 2–4.</p>
+    </section>
+
+    <section id="markdown">
+      <h2>Why <code>pdf.md</code> looked confusing</h2>
+      <p class="note warn">The markdown export flattens structure and OCR can reverse Hebrew word order in tables. Use the structured items above for chunking — not the raw markdown file.</p>
+      <div class="flow">
+        <div class="flow-step"><strong>Headings as ##</strong>Section numbers appear at end: <code>: מבוא . 1</code></div>
+        <div class="flow-step"><strong>Tables garbled</strong>Cell text often reversed: <code>מ בע" לביטוח חברה הראל</code></div>
+        <div class="flow-step"><strong>Lists OK-ish</strong>Bullet items keep section refs like <code>3.1.1</code></div>
+        <div class="flow-step"><strong>Images dropped</strong>Logos become <code>&lt;!-- image --&gt;</code></div>
+      </div>
+      <details open>
+        <summary>Sample from exported markdown (lines 11–35)</summary>
+        <pre class="md-preview hebrew" dir="rtl">## : הגדרות . 2
+
+- : בכתב שירות זה יהיו למונחים המפורטים להלן המשמעות האמורה שבצידם . 2.1
+
+| מ בע&quot; לביטוח חברה הראל                                                                                                                                                                  | &quot;החברה&quot;                   |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
+| בכתב כמפורט השירותים אספקת לצורך החברה התקשרה עימו הגוף הביטוח. פרטי בדף מפורטים פרטיו אשר זה, שירות                                                                                    | - &quot;הספק&quot; או השירות&quot; &quot;ספק  |
+| המנויים פניות יווסתו באמצעותו המנויים, עבור הספק שיפעיל טלפון קו זו. פוליסה על-פי השירותים קבלת לשם השירות לנותני 072-2756606 הוא: השירות מוקד של הטלפון מספר                           | &quot; &quot;המוקד או השירות&quot; &quot;מוקד |
+| ה ז שירות כתב מצורף אליה פוליסה ה                                                                                                                                                       | &quot; &quot;הפוליסה                |
+| זכאי והינו השירות בכתב כמנוי הביטוח פרטי בדף נקוב שמו אשר אדם השירות. כתב הוראות פי על שירותים לקבלת                                                                                    | &quot; &quot;מנוי                   |
+| כתב תנאי פי על לחברה, לשלם המנוי שעל זה שירות כתב בגין הסכומים . הביטוח פרטי בדף כמפורט זה, שירות                                                                                       | מנוי&quot; &quot;דמי                |
+| את היתר, בין הכולל ממנה, נפרד בלתי חלק ומהווה לפוליסה המצורף דף לכתב הנוגעים נוספים ופרטים הקובע המועד המנוי, דמי המנוי, פרטי השירות.                                                   | הביטוח&quot; פרטי &quot;דף          |
+| פרטי בדף שמופיע כפי המנוי, לגבי השירות, כתב של לתוקף כניסתו מועד . הביטוח                                                                                                               | &quot; הקובע &quot;המועד            |
+| . השירותים לקבלת למנוי זכאות הוראותיו, פי על המקנה, זה שירות כתב                                                                                                                        | &quot; השירות &quot;כתב             |
+| בתחום לעסוק הכשרה עבר אשר השירותים מתחומי יותר או באחד מטפל . כמטפל ש משמ הוא בו הטיפול                                                                                                 | השירות&quot; &quot;נותן             |
+| צד שהינו ובלבד למנויים השירותים למתן הספק התקשר עמו שירות נותן קבלת לצורך למוקד המנוי פניית במועד הספק עם התקשרות להסכם . השירות                                                        | &quot; שבהסכם שירות &quot;נותן      |
+| שבהסכם. שירות נותן שאינו שירות נותן                                                                                                                                                     | אחר&quot; שירות &quot;נותן          |
+| להלן, 2.1 שבסעיף ברשימה במפורש הכלולים משלימה רפואה שירותי שירות כתב הוראות פי על למנוי שינתנו בצידם המפורט לתיאור בהתאם זה.                                                            | &quot; &quot;השירותים או &quot;השירות&quot;   |
+| פי על שירותים קבלת לשם בעצמו לשאת המנוי מחויב בהם סכומים השירות. כתב הוראות                                                                                                             | &quot; עצמית &quot;השתתפות          |
+| ,( וירקות פירות )כולל לצרכן המחירים מדד בשם הידוע המחירים מדד מוסד כל ידי על יתפרסם אם אף לסטטיסטיקה, המרכזית הלשכה שקבעה בנוי שהוא בין במקומו, שיבוא אחר רשמי מדד כל ולרבות אחר ממשלתי | &quot;מדד&quot;                     |
+
+&lt;!-- image --&gt;
+
+| לאו. אם ובין הקיים המדד בנוי שעליהם נתונים אותם על                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |                       |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|</pre>
+      </details>
+    </section>
+
+    
+        <section id="dev26">
+          <h2>Ground-truth anchors (dev-26)</h2>
+          <p class="note">Search <code>3.1.1</code> (acupuncture) and <code>5.3</code> (12 treatments/year). Docling finds them as <strong>ListItem</strong> on page 2–3 — good chunk boundaries for RAG.</p>
+          <div class="item-list">
+    <div class="item-card" data-kind="ListItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#14</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">87 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">טיפול בדרך של דיקור במחטים דקות בנקודות מיוחדות אקופונקטורה )דיקור סיני( . 3.1.1 . בגוף</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#23</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">58 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. - עיסוי וטיפול בעמוד השדרה והחוליות כירופרקטיקה . 3.1.10</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#24</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">78 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. - טיפול בגוף בשיטות טבעיות, המותאמות באופן אישי לכל מטופל נטורופתיה . 3.1.11</pre>
+    </div>
+    </div>
+        </section>
+        
+
+    <section id="stats">
+      <h2>Item types</h2>
+      <div class="stats">
+        <div class="stat"><div class="n">9</div><div class="l">Pages</div></div>
+        <div class="stat"><div class="n">110</div><div class="l">Items</div></div>
+        <div class="stat"><div class="n">75</div><div class="l">List items</div></div>
+        <div class="stat"><div class="n">6</div><div class="l">Tables</div></div>
+        <div class="stat"><div class="n">36,742</div><div class="l">MD chars</div></div>
+      </div>
+      <div class="legend"><span class="legend-item"><span class="dot" style="background:#059669"></span>ListItem (75)</span><span class="legend-item"><span class="dot" style="background:#2563eb"></span>SectionHeaderItem (12)</span><span class="legend-item"><span class="dot" style="background:#9ca3af"></span>PictureItem (9)</span><span class="legend-item"><span class="dot" style="background:#374151"></span>TextItem (8)</span><span class="legend-item"><span class="dot" style="background:#d97706"></span>TableItem (6)</span></div>
+    </section>
+
+    <section id="pages">
+      <h2>By page</h2>
+      <div class="toolbar">
+        <label>Jump to page<select id="page-jump"><option value="">All pages shown</option><option value="1">Page 1 (8 items)</option><option value="2">Page 2 (18 items)</option><option value="3">Page 3 (13 items)</option><option value="4">Page 4 (20 items)</option><option value="5">Page 5 (15 items)</option><option value="6">Page 6 (19 items)</option><option value="7">Page 7 (7 items)</option><option value="8">Page 8 (7 items)</option><option value="9">Page 9 (3 items)</option></select></label>
+        <label>Filter kind<select id="kind-filter"><option value="">All kinds</option><option value="PictureItem">PictureItem</option><option value="SectionHeaderItem">SectionHeaderItem</option><option value="TextItem">TextItem</option><option value="ListItem">ListItem</option><option value="TableItem">TableItem</option></select></label>
+        <label>Search<input id="search" type="search" placeholder="Hebrew or 3.1.1…" /></label>
+      </div>
+      
+            <section class="page-section" data-page="1" id="page-1">
+              <h3>Page 1 <span class="count">8 Docling items</span></h3>
+              <details class="compare">
+                <summary>Compare: raw pypdf text for page 1</summary>
+                <pre class="compare-body hebrew" dir="rtl">פוליסת ביטוח בריאות 10/2023מהדורה מהדורה פוליסת ביטוח בריאות כתב שירות – שירותי רפואה משלימה ) אלטרנטיבית( אצל נותן שירות שבהסכם תכני ת מ ס מבוא : .1 המנוי יהיה זכאי לשירותים הכלולים בכתב שירות זה אצל נותן שירות שבהסכם בלבד, בכפוף לתנאים להוראות ולסייגים המפורטים להלן ובלבד שצוין במפורש בדף פרטי הביטוח כי כתב שירות זה כלול בפוליסה על שם המנוי והינו בתוקף על שם המנוי, במועד קבלת השירותים בפועל. הגדרות : .2 בכתב שירות זה יהיו למונחים המפורטים להלן המשמעות האמורה שבצידם .2.1 הראל חברה לביטוח בע&quot; מ &quot;החברה&quot; הגוף עימו התקשרה החברה לצורך אספקת השירותים כמפורט בכתב &quot;ספק השירות&quot; או &quot;הספק&quot; - שירות זה, אשר פרטיו מפורטים בדף פרטי הביטוח. קו טלפון שיפעיל הספק עבור המנויים, באמצעותו יווסתו פניות המנויים &quot;מוקד השירות&quot; או &quot;המוקד &quot; לנותני השירות לשם קבלת השירותים על-פי פוליסה זו. מספר הטלפון של מוקד השירות הוא פוליסה אליה מצורף כתב שירות ז ה ה&quot;הפוליסה &quot; אדם אשר שמו נקוב בדף פרטי הביטוח כמנוי בכתב השירות והינו זכאי &quot;מנוי &quot; לקבלת שירותים על פי הוראות כתב השירות. הסכומים בגין כתב שירות זה שעל המנוי לשלם לחברה, על פי תנאי כתב &quot;דמי מנוי&quot; שירות זה, כמפורט בדף פרטי הביטוח . דף המצורף לפוליסה ומהווה חלק בלתי נפרד ממנה, הכולל בין היתר, את &quot;דף פרטי הביטוח&quot; פרטי המנוי, דמי המנוי, המועד הקובע ופרטים נוספים הנוגעים לכתב השירות. מועד כניסתו לתוקף של כתב השירות, לגבי המנוי, כפי שמופיע בדף פרטי &quot;המועד הקובע &quot; הביטוח . כתב שירות זה המקנה, על פי הוראותיו, זכאות למנוי לקבלת השירותים . &quot;כתב השירות &quot; מטפל באחד או יותר מתחומי השירותים אשר עבר הכשרה לעסוק בתחום &quot;נותן השירות&quot; הטיפול בו הוא משמ ש כמטפל . נותן שירות …</pre>
+                <p class="hint">pypdf is what your citation judge uses today (<code>eval/corpus.py</code>). Docling adds structure on top.</p>
+              </details>
+              <div class="item-list">
+    <div class="item-card" data-kind="PictureItem" data-page="1">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#9ca3af">PictureItem</span>
+        <span class="badge">#0</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.1</span>
+        <span class="badge muted">0 chars</span>
+      </div>
+      <pre class="item-body">(image / logo — no text)</pre>
+    </div>
+    
+    <div class="item-card" data-kind="SectionHeaderItem" data-page="1">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#2563eb">SectionHeaderItem</span>
+        <span class="badge">#1</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.1</span>
+        <span class="badge muted">68 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">( - שירותי רפואה משלימה ) אלטרנטיבית כתב שירות אצל נותן שירות שבהסכם</pre>
+    </div>
+    
+    <div class="item-card" data-kind="SectionHeaderItem" data-page="1">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#2563eb">SectionHeaderItem</span>
+        <span class="badge">#2</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.1</span>
+        <span class="badge muted">16 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">524 ת מ   ס תכני</pre>
+    </div>
+    
+    <div class="item-card" data-kind="SectionHeaderItem" data-page="1">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#2563eb">SectionHeaderItem</span>
+        <span class="badge">#3</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.1</span>
+        <span class="badge muted">10 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">: מבוא . 1</pre>
+    </div>
+    
+    <div class="item-card" data-kind="TextItem" data-page="1">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#374151">TextItem</span>
+        <span class="badge">#4</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.1</span>
+        <span class="badge muted">249 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">, המנוי יהיה זכאי לשירותים הכלולים בכתב שירות זה אצל נותן שירות שבהסכם בלבד, בכפוף לתנאים להוראות ולסייגים המפורטים להלן ובלבד שצוין במפורש בדף פרטי הביטוח כי כתב שירות זה כלול . בפוליסה על שם המנוי והינו בתוקף על שם המנוי, במועד קבלת השירותים בפועל</pre>
+    </div>
+    
+    <div class="item-card" data-kind="SectionHeaderItem" data-page="1">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#2563eb">SectionHeaderItem</span>
+        <span class="badge">#5</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.1</span>
+        <span class="badge muted">12 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">: הגדרות . 2</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="1">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#6</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.1</span>
+        <span class="badge muted">70 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">: בכתב שירות זה יהיו למונחים המפורטים להלן המשמעות האמורה שבצידם . 2.1</pre>
+    </div>
+    
+    <div class="item-card" data-kind="TableItem" data-page="1">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#d97706">TableItem</span>
+        <span class="badge">#7</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.1</span>
+        <span class="badge muted">3455 chars</span>
+      </div>
+      <pre class="item-body">| מ בע&quot; לביטוח חברה הראל | &quot;החברה&quot; | |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------| | בכתב כמפורט השירותים אספקת לצורך החברה התקשרה עימו הגוף הביטוח. פרטי בדף מפורטים פרטיו אשר זה, שירות | - &quot;הספק&quot; או השירות&quot; &quot;ספק | | המנויים פניות יווסתו באמצעותו המנויים, עבור הספק שיפעיל טלפון קו זו. פוליסה על-פי השירותים קבלת לשם השירות לנותני 072-2756606 הוא: השירות מוקד של הטלפון מספר | &quot; &quot;המוקד או השירות&quot; &quot;מוקד | | ה ז שירות כתב מצורף אליה פוליסה ה | &quot; &quot;הפוליסה | | זכאי והינו השירות בכתב כמנוי הביטוח פרטי בדף נקוב שמו אשר אדם השירות. כתב הוראות פי על שירותים לקבלת | &quot; &quot;מנוי | | כתב תנאי פי על לחברה, לשלם המנוי שעל זה שירות כתב בגין ה…</pre>
+    </div>
+    </div>
+            </section>
+            
+            <section class="page-section" data-page="2" id="page-2">
+              <h3>Page 2 <span class="count">18 Docling items</span></h3>
+              <details class="compare">
+                <summary>Compare: raw pypdf text for page 2</summary>
+                <pre class="compare-body hebrew" dir="rtl">פוליסת ביטוח בריאות 10/2023מהדורה מהדורה פוליסת ביטוח בריאות על אותם נתונים שעליהם בנוי המדד הקיים ובין אם לאו. הסכום המרבי שישלם הספק למנוי בגין השירותים כמפורט בכתב השירות . &quot; סכום השיפוי המרבי&quot; מי שרשאי לעסוק בישראל ברפואה לפי פקודת הרופאים )נוסח חדש( &quot;רופא &quot; התשל&quot; ז תקופה של כל&quot;שנה &quot; תקופת זמן רצופה, המתחילה לגבי כל מנוי ממועד כניסתו לתוקף של כתב &quot;תקופת אכשרה &quot; ממועד כניסת כתב השירות בתוםשירות זה לגבי המנוי, ומסתיימת לתוקף לגבי המנוי שבמהלכה לא יהיה זכאי המנוי לקבלת השירותים מכוח תקופת תאונה(. בעקבות הנדרשים שירותים )למעט השירות כתב האכשרה תחול לגבי כל מנוי פעם אחת בתקופה שבה הוא מנוי ברצף, ותחול מחדש בכל פעם שהמנוי יצורף לכתב השירות מחדש, בתקופות הספק לא יספק שירות כמפורט בכתב שירות זה לפני בלתי רצופות. תום תקופת האכשרה. – חבלה גופנית שנגרמה עקב הפעלת כוח פיזי בלבד, &quot;תאונ ה&quot; לעניין זה כתוצאה מאירוע פתאומי חד פעמי ובלתי צפוי מראש, הנגרם במישרין על ידי גורם חיצוני וגלוי לעין, המהווה ללא תלות בכל סיבה אחרת את הסיבה הביטוח . מקרה לקרות והמיידית הישירה היחידה למען הסר ספק, אלימות מילולית ו/או לחץ נפשי ו/או הצטברות של פגיעות זעירות חוזרות לאורך תקופה הגורמים לנכות, לא יחשבו כ&quot;תאונה&quot; . כל האמור בכתב השירות בלשון יחיד אף בלשון רבים משמעו, וכל האמור בלשון זכר אף בלשון .2.2 נקבה משמעו, אלא אם כן נאמר במפורש אחרת כותרות הסעיפים נכתבו לצורך הנוחות בלבד והן לא תשמשנה לצורך פרשנות . .2.3 השירותים .3 :ושירותים אלו בלבדהשירותים הכלולים בכתב שירות זה הינם כמפורט להלן, .3.1 - טיפול בדרך של דיקור במחטים דקות בנקודות מיוחדות אקופונקטורה )דיקור סיני( .3.1.1 בגוף – טיפול במגע מקומי ומערכתי ה…</pre>
+                <p class="hint">pypdf is what your citation judge uses today (<code>eval/corpus.py</code>). Docling adds structure on top.</p>
+              </details>
+              <div class="item-list">
+    <div class="item-card" data-kind="PictureItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#9ca3af">PictureItem</span>
+        <span class="badge">#8</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">0 chars</span>
+      </div>
+      <pre class="item-body">(image / logo — no text)</pre>
+    </div>
+    
+    <div class="item-card" data-kind="TableItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#d97706">TableItem</span>
+        <span class="badge">#9</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">5003 chars</span>
+      </div>
+      <pre class="item-body">| לאו. אם ובין הקיים המדד בנוי שעליהם נתונים אותם על | | |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------…</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#10</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">128 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">כל האמור בכתב השירות בלשון יחיד אף בלשון רבים משמעו, וכל האמור בלשון זכר אף בלשון . 2.2 . נקבה משמעו, אלא אם כן נאמר במפורש אחרת</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#11</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">73 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. כותרות הסעיפים נכתבו לצורך הנוחות בלבד והן לא תשמשנה לצורך פרשנות . 2.3</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#12</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">14 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">: השירותים . 3</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#13</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">75 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">: ושירותים אלו בלבד , השירותים הכלולים בכתב שירות זה הינם כמפורט להלן . 3.1</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#14</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">87 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">טיפול בדרך של דיקור במחטים דקות בנקודות מיוחדות אקופונקטורה )דיקור סיני( . 3.1.1 . בגוף</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#15</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">73 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. -   טיפול במגע מקומי ומערכתי המשלב עיסוי רקמות עמוק שיטת טווינה . 3.1.2</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#16</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">70 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. -   טיפול בדרך של עיסוי ולחיצות בכפות הרגליים רפלקסולוגי   ה . 3.1.3</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#17</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">89 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">לחיצה ועיסוי, בעיקר על ידי אצבעות הידיים, לאורך קווי זרימת האנרגיה שיאצ  ו . 3.1.4 . בגוף</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#18</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">59 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. - טיפול בעזרת הקניית הרגלי תנועה נכונים פלדנקרייז . 3.1.5</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#19</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">76 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. - טיפול להשגת הקלה בבעיות במערכת השלד, העצמות והשרירים אוסטיאופתיה . 3.1.6</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#20</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">74 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. - טכניקה לטיפול בבעיות רפואיות בעזרת מכשיר אלקטרוני ביו-פידב   ק . 3.1.7</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#21</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">60 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. - התאמה אישית של תוכנית תזונה למנוי ייעוץ דיאטט  י . 3.1.8</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#22</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">69 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. - שיטת טיפול בעזרת תרופות מיוחדות מחומרים טבעיים הומיאופתיה . 3.1.9</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#23</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">58 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. - עיסוי וטיפול בעמוד השדרה והחוליות כירופרקטיקה . 3.1.10</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#24</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">78 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. - טיפול בגוף בשיטות טבעיות, המותאמות באופן אישי לכל מטופל נטורופתיה . 3.1.11</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#25</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">102 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">תמציות פרחים המסייעות ומונעות היווצרותה של הפרעה גופנית עוד לפני פרחי באך . 3.1.12 . שהיא מתבטאת במחלה</pre>
+    </div>
+    </div>
+            </section>
+            
+            <section class="page-section" data-page="3" id="page-3">
+              <h3>Page 3 <span class="count">13 Docling items</span></h3>
+              <details class="compare">
+                <summary>Compare: raw pypdf text for page 3</summary>
+                <pre class="compare-body hebrew" dir="rtl">פוליסת ביטוח בריאות 10/2023מהדורה מהדורה פוליסת ביטוח בריאות – טיפול בחדר מלח שהינו חדר המדמה מערת מלח, היות וכל פינותיו – חדרי מלח .3.1.13 הקירות, התקרה והרצפה – מצופות בשכבת מלח יבש בעובי וריכוז המשתנים ממקום אחד למשנהו, אך ריכוזו של המלח הוא תמיד גבוה מאוד ותמיד טבעי תוך הזרמת חלקיקי מלח יבש אל תוך החדר. הטמפרטורה בחדר מלח עומדת על כ והלחות עומדת על כ עיסוי אליו הופנה המנוי על ידי רופא שסיבתו עיסוי רפואי עקב אשפוז לאחר תאונה – .3.1.14 המנו י ושארעה למנוי במועד שכתב השירות עקב תאונה שבגינה אושפז הישירה הנה בתוקף, ובתנאי שבוצע לא יאוחר מ לגוף יכולת תפקוד תקינה, הקלה על כאבים, שחרר שרירים מכווצים )תפוסים(, ושיפור טווחי התנועה במפרקי ם . במקרה בו לא קיים נותן שירות השירותים יינתנו במרפאות נותן השירו ת שבהסכם בלב ד. .3.2 שבהסכם ברדיוס של עד כמפורט בסעיף יכול שיינתנו בבית השירותים המופעים ברשימה הסגורה שלהלן , על אף האמור לעיל, .3.3 שיטת, אקופונקטורה )דיקור סיני(המנוי או במרפאת נותן השירות לפי בחירת המנוי: כמפורט בסעיפיםאוסטיאופתיה, פלדנקרייז, שיאצו ,רפלקסולוגיה, טווינה 3.1.6 למען הסר ספק, השירותים לא יינתנו בבתי מלון .3.4 תנאי מהותי להתחייבויות הספק על פי כתב השירות .4 בכל עניין הקשור בקבלת שירותים על פי כתב השירות, המנוי יפנה למוקד השירות 4.1 ויפעל בהתאם להוראות המפורטות בכתב השירות להלן. הדבר לא יגרע מאפשרותו של המנוי לפנות למוקד השירות של החברה. קבלת אישור הספק מראש ובכתב לקבלת השירותי ם או לשיפו י בגינם, טרם ביצוע 4.2 השירותים בפועל, הינה תנאי מהותי. במקרה שלא פנה המנוי מראש לקבלת אישור הספק לביצוע השירות מסיבות מוצדקות, ונמצא כי היה זכאי לקבלת השירות על פי ההוראות המפורטו…</pre>
+                <p class="hint">pypdf is what your citation judge uses today (<code>eval/corpus.py</code>). Docling adds structure on top.</p>
+              </details>
+              <div class="item-list">
+    <div class="item-card" data-kind="PictureItem" data-page="3">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#9ca3af">PictureItem</span>
+        <span class="badge">#26</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.3</span>
+        <span class="badge muted">0 chars</span>
+      </div>
+      <pre class="item-body">(image / logo — no text)</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="3">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#27</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.3</span>
+        <span class="badge muted">323 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">--      טיפול בחדר מלח שהינו חדר המדמה מערת מלח, היות וכל פינותיו חדרי מלח . 3.1.13 הקירות, התקרה והרצפה - מצופות בשכבת מלח יבש בעובי וריכוז המשתנים ממקום אחד למשנהו, אך ריכוזו של המלח הוא תמיד גבוה מאוד ותמיד טבעי תוך הזרמת מעלות 22   חלקיקי מלח יבש אל תוך החדר. הטמפרטורה בחדר מלח עומדת על כ . אחוזים 41 והלחות עומדת על כ</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="3">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#28</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.3</span>
+        <span class="badge muted">337 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">עיסוי אליו הופנה המנוי על ידי רופא שסיבתו -עיסוי רפואי עקב אשפוז לאחר תאונה . 3.1.14 המנו  י ושארעה למנוי במועד שכתב השירות עקב תאונה שבגינה אושפז הישירה הנה חודשים ממועד התאונה,   שמטרתו   להחזיר 12      בתוקף, ובתנאי שבוצע לא יאוחר מ לגוף יכולת תפקוד תקינה, הקלה על כאבים, שחרר שרירים מכווצים )תפוסים(, ושיפור . טווחי התנועה במפרקי   ם</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="3">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#29</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.3</span>
+        <span class="badge muted">198 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">במקרה בו   לא   קיים נותן שירות . ת   שבהסכם בלב   ד השירותים יינתנו במרפאות נותן השירו . 3.2 ק&quot;מ ממקום מגוריו של המנוי יהא זכאי המנוי לקבל שיפו  י חלקי 30 שבהסכם ברדיוס של עד להלן. 5.6 כמפורט בסעיף</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="3">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#30</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.3</span>
+        <span class="badge muted">254 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">יכול שיינתנו בבית , השירותים המופעים ברשימה הסגורה שלהלן , על אף האמור לעיל . 3.3 שיטת , אקופונקטורה )דיקור סיני( המנוי או במרפאת נותן השירות לפי בחירת המנוי: -   עד 3.1.1 כמפורט בסעיפים אוסטיאופתיה , פלדנקרייז , שיאצו , רפלקסולוגיה , טווינה . לעיל 3.1.6</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="3">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#31</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.3</span>
+        <span class="badge muted">50 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. למען הסר ספק, השירותים לא יינתנו בבתי מלון . 3.4</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="3">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#32</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.3</span>
+        <span class="badge muted">50 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">: תנאי מהותי להתחייבויות הספק על פי כתב השירות . 4</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="3">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#33</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.3</span>
+        <span class="badge muted">184 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">בכל עניין הקשור בקבלת שירותים על פי כתב השירות, המנוי יפנה למוקד השירות 4.1 ויפעל בהתאם להוראות המפורטות בכתב השירות להלן. הדבר לא יגרע מאפשרותו . של המנוי  לפנות למוקד השירות של החברה</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="3">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#34</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.3</span>
+        <span class="badge muted">293 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">ם או לשיפו  י בגינם, טרם ביצוע קבלת אישור הספק מראש ובכתב לקבלת השירותי 4.2 השירותים בפועל, הינה תנאי מהותי. במקרה שלא פנה המנוי מראש לקבלת אישור הספק לביצוע השירות מסיבות מוצדקות, ונמצא כי היה זכאי לקבלת השירות על פי . ההוראות המפורטות בכתב השירות, יהיה זכאי על פי הזכויות הנקובות בהוראות אלו</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="3">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#35</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.3</span>
+        <span class="badge muted">19 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">: התחייבות הספק . 5</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="3">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#36</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.3</span>
+        <span class="badge muted">193 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">מנוי, שניתנה לו הפניה בכתב מרופא לקבלת שירות בשל מצבו הרפואי, יהיה זכאי לקבל . 5.1 יום, באמצעות נותן שירות שבהסכם, בכפוף 90 את השירות לאחר תקופת אכשרה בת : להוראות כתב השירות ועל פי המפורט להלן</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="3">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#37</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.3</span>
+        <span class="badge muted">265 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">המנוי זכאי להתייעצות אחת עם נותן השירות ובעקבותיה לסדרת טיפולים עליה המליץ . 5.2 נותן השירות, אם המליץ, הכל לפי שיקול דעתו המקצועי הבלעדי של נותן השירות ובכפוף לאישור מראש של מוקד השירות בדבר היותו של הפונה בגדר מנוי הזכאי לקבל את . השירות המבוקש, בהתאם לכתב השירות</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="3">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#38</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.3</span>
+        <span class="badge muted">341 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">)שניים עשר( טיפולים בשנת ביטוח 12 סידרת הטיפולים לה יהא זכאי המנוי, תכלול עד . 5.3 , אחת, בין אם הטיפול הנו בגין בעיה רפואית אחת או מספר בעיות רפואיות באותה שנה ובין אם הטיפולים יינתנו ע&quot;י נותן שירות בתחום אחד מתחומי השירות שפורטו לעיל ובין 12 אם בטיפול משולב של נותני שירות בתחומי שירותים שונים, ובכל מקרה לא יותר מ . טיפולים בשנת ביטוח אחת</pre>
+    </div>
+    </div>
+            </section>
+            
+            <section class="page-section" data-page="4" id="page-4">
+              <h3>Page 4 <span class="count">20 Docling items</span></h3>
+              <details class="compare">
+                <summary>Compare: raw pypdf text for page 4</summary>
+                <pre class="compare-body hebrew" dir="rtl">פוליסת ביטוח בריאות 10/2023מהדורה מהדורה פוליסת ביטוח בריאות אישר מוקד השירות בכתב את זכאות המנוי לשירות המכוסה על פי הוראות כתב השירות, .5.4 יהיה זכאי המנוי לבחור את קבלתו כדלקמן פגישת הייעוץ הראשונה, תתואם על ידי מוקד השירות תוך .5.4.1 המנוי למוקד. סדרת הטיפולים ומועדם המדויק, יתואמו במלואם ע&quot;י המנוי, מול נותן השירות שבהסכם אצלו נערך הייעוץ הראשונ י המנוי יהא זכאי לבחור את נותן השירות ממנו יקבל את השירות מתוך רשימה של .5.4.2 נותני שירות בהסכם כפי שתהא בתוקף במועד פנייתו למוקד השירות רשימת נותני השירותים שבהסכם, תשתנה מעת לעת. .5.4.3 השתתפות עצמית .5.4.4 המנוי ישלם בגין קבלת השירות אצל נותן השירות שבהסכם, השתתפות עצמית כמפורט להלן : בבית סך של .5.4.4.1 בגין השירותים המפורטים בסעיפיםהמנוי שבהסכם במרפאת נותן השירותסך של .5.4.4.2 בגין השירותים המפורטים ב סעיפים סכום ההשתתפות העצמית ישולם על ידי המנוי לנותן השירות שבהסכם או לספק, כפי שיימסר לו על -ידי מוקד השירות אך בשום אופן לא באמצעות החברה . על המנוי לשלם את סכום ההשתתפות העצמית לצורך קבלת השירותים בפועל . השירותים על-פי כתב השירות זה יינתנו בשעות הפעילות הרגילות ובהתאם ללוח .5.4.5 העבודה של נותן השירות שבהסכם במקרה שמנוי יבקש לבטל את פנייתו לקבלת שירות על-פי כתב השירות, יודיע על כך .5.4.6 למען הסרהמנוי למוקד השירות באופן מיידי ולא פחות מ להודיע למוקד השירות על ביטול פנייתו גם אם מסר על ספק, מובהר כי על המנוי ביטול הפנייה לנותן השירות שבהסכם . למען הסר ספק יובהר כי בכל מקרה לא יהיה זכאי המנוי לטיפולים מעבר לתקרת .5.5 הטיפולים לשנה כנקוב בסעיף מספר בעיות רפואיות באותה שנה, ובין אם הטיפולים יינתנו על ידי נותן שירות בתחום אחד מ…</pre>
+                <p class="hint">pypdf is what your citation judge uses today (<code>eval/corpus.py</code>). Docling adds structure on top.</p>
+              </details>
+              <div class="item-list">
+    <div class="item-card" data-kind="PictureItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#9ca3af">PictureItem</span>
+        <span class="badge">#39</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">0 chars</span>
+      </div>
+      <pre class="item-body">(image / logo — no text)</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#40</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">122 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">, אישר מוקד השירות בכתב את זכאות המנוי לשירות המכוסה על פי הוראות כתב השירות . 5.4 : יהיה זכאי המנוי לבחור את קבלתו כדלקמן</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#41</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">199 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">ימי עסקים מקבלת פניית 2 פגישת הייעוץ הראשונה, תתואם על ידי מוקד השירות תוך . 5.4.1 המנוי למוקד. סדרת הטיפולים ומועדם המדויק, יתואמו במלואם ע&quot;י המנוי, מול נותן השירות שבהסכם אצלו נערך הייעוץ הראשונ  י</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#42</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">138 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">המנוי יהא זכאי לבחור את נותן השירות ממנו יקבל את השירות מתוך רשימה של . 5.4.2 . נותני שירות בהסכם כפי שתהא בתוקף במועד פנייתו למוקד השירות</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#43</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">52 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. רשימת נותני השירותים שבהסכם, תשתנה מעת לעת . 5.4.3</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#44</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">23 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">: השתתפות עצמית . 5.4.4</pre>
+    </div>
+    
+    <div class="item-card" data-kind="TextItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#374151">TextItem</span>
+        <span class="badge">#45</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">65 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">המנוי ישלם בגין קבלת השירות אצל נותן השירות שבהסכם, השתתפות עצמית</pre>
+    </div>
+    
+    <div class="item-card" data-kind="TextItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#374151">TextItem</span>
+        <span class="badge">#46</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">1 chars</span>
+      </div>
+      <pre class="item-body">:</pre>
+    </div>
+    
+    <div class="item-card" data-kind="TextItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#374151">TextItem</span>
+        <span class="badge">#47</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">11 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">כמפורט להלן</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#48</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">143 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">בבית עבור כל טיפול ו/או התייעצות המבוצע ע&quot;י נותן שירות שבהסכם ₪ 70 סך של . 5.4.4.1 . לעיל 3.1.6 - עד 3.1.1 בגין השירותים המפורטים בסעיפים המנוי</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#49</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">142 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">שבהסכם במרפאת נותן השירות עבור כל טיפול ו/או התייעצות המבוצע ₪   55 סך של . 5.4.4.2 . לעיל 3.1.14 -   עד 3.1.1 סעיפים בגין השירותים המפורטים ב</pre>
+    </div>
+    
+    <div class="item-card" data-kind="TextItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#374151">TextItem</span>
+        <span class="badge">#50</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">135 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">סכום ההשתתפות העצמית ישולם על ידי המנוי לנותן השירות שבהסכם או לספק, כפי . שיימסר לו על  -ידי מוקד השירות אך בשום אופן לא באמצעות החברה</pre>
+    </div>
+    
+    <div class="item-card" data-kind="SectionHeaderItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#2563eb">SectionHeaderItem</span>
+        <span class="badge">#51</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">65 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. על המנוי לשלם את סכום ההשתתפות העצמית לצורך קבלת השירותים בפועל</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#52</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">118 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">השירותים  על-פי  כתב  השירות  זה  יינתנו  בשעות  הפעילות  הרגילות  ובהתאם  ללוח . 5.4.5 . העבודה של נותן השירות שבהסכם</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#53</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">265 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">במקרה שמנוי יבקש לבטל את פנייתו לקבלת שירות על-פי כתב השירות, יודיע על כך . 5.4.6 למען הסר . שעות טרם מועד הטיפול 12 המנוי למוקד השירות באופן מיידי ולא פחות מ להודיע למוקד השירות על ביטול פנייתו גם אם מסר על ספק, מובהר כי על המנוי . ביטול הפנייה לנותן השירות שבהסכם</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#54</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">320 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">למען הסר ספק יובהר כי בכל מקרה לא יהיה זכאי המנוי לטיפולים מעבר לתקרת . 5.5 לעיל בין אם הטיפול הנו בגין בעיה רפואית אחת או 5.3 הטיפולים לשנה כנקוב בסעיף מספר בעיות רפואיות באותה שנה, ובין אם הטיפולים יינתנו על ידי נותן שירות בתחום אחד מתחומי השירותים המפורטים לעיל ובין אם מדובר בטיפול משולב של נותני שירות . בכמה תחומים</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#55</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">383 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">במקרים בהם אישר   מוקד השירות קבלת שירות שלא במסגרת נותן שירות שבהסכם כאמור . 5.6 מעלות הטיפול ששולמה על ידי המנוי 50% לעיל, ישפה הספק את המנו  י בסך 3.2 בסעיף לטיפו   ל. תשלום זה יתבצע כנגד מסירת קבלות על תשלום ₪   100   בפועל ולא יותר מ הטיפול אצל נותן שירות אחר שאינו בהסכם. למען הסר ספק, גם במקרה זה יהיו תקפים . כל התנאים המפורטים בכתב השירות לרבות מכסת הטיפולים ורשימת השירותים</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#56</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">24 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">: אופן קבלת השירותים . 6</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#57</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">230 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">נזקק מנוי לשירות על-פי כתב שירות זה, יפנה טלפונית למוקד השירות, יזדהה בשמו, מספר . 6.1 תעודת  הזהות,  כתובתו,  מס&#x27;  הטלפון  בו  ניתן  להשיגו,  ופרטים  נוספים  הקשורים  למתן . השירות ולמצב הרפואי בגינו נזקק המנוי לשירות, ככל שיתבקש</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#58</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">257 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">שעות ביממה, למעט החל מערב יום הכיפורים 24   , מוקד השירות יהא פעיל בכל ימות השנה . 6.2 ועד תום שעתיים לאחר שעת סיום צום יום כיפורים. הספק רשאי לשנות את 14:00 בשעה מספר הטלפון של מוקד השירות, בתיאום ובאישור החברה, ובלבד שימסור על כך הודעה . מראש בכתב למנויים</pre>
+    </div>
+    </div>
+            </section>
+            
+            <section class="page-section" data-page="5" id="page-5">
+              <h3>Page 5 <span class="count">15 Docling items</span></h3>
+              <details class="compare">
+                <summary>Compare: raw pypdf text for page 5</summary>
+                <pre class="compare-body hebrew" dir="rtl">פוליסת ביטוח בריאות 10/2023מהדורה מהדורה פוליסת ביטוח בריאות המנוי יעביר לספק, באופן שיורה לו מוקד השירות, את ההפניה בכתב מהרופא לקבלת .6.3 השירות בשל מצבו הרפואי כאמור בסעיף השירותים המפורטים בכתב שירות זה יינתנו כנגד הצגת תעודה מזהה לנותן השירות . .6.4 על המנוי להגיע למקום קבלת השירות בכוחות עצמו ועל חשבונ ו, למעט כמצויין בסעיף .6.5 לעי ל עם סיום כל טיפול, יחתום המנוי על ספח ביקורת המאשר את קבלת הייעוץ או הטיפול . .6.6 ספק השירות מתחייב כי השירות יינתן על ידי גורמי מקצוע מתאימים ורלוונטיים לסוג השירו ת .6.7 נשוא כתב שירות זה, בפריסה גיאוגרפית נאותה וכי יקיים תקשורת יעילה וזמינה עם המנוי כמוגדר בסעיף זה לעיל . חריגים: .7 המנוי לא יהיה זכאי לשירותים ו/או לשיפוי או החזר הוצאות שהוצאו בגינם, כולם או .7.1 מקצתם, בכל עניין הקשור ו/או הנובע מהמקרים הבאים בעיות התמכרות כלשהן ו/או גמילה מהרגלים. )עישון, סמים, אלכוהול ( .7.1.1 למעט במקרה בו נקבע על ידי רופאתחומי הרזיה, בעיות השמנת יתר, שינויי משקל, .7.1.2 בכתב כי קבלת הטיפול בגין נושאים אלו נובעת מצורך רפואי כאמור בסעיף השירות אינו כולל הוצאות של המנוי בגין רכישת תרופות, צמחי מרפא וחומרים .7.1.3 אחרים שהומלצו ע ל ידי נותן השירות לצורך הטיפול קבלת שירות אצל נותן שירות שאינו נותן שירות בהסכ ם למעט כאמור בסעיף .7.1.4 לעי ל פגיעה בפעילות נותן השירות או בחלק משמעותי ממנה עקב מלחמה, הפיכה, .7.1.5 סכסוכי עבודה, מהומות, רעידות אדמה, כוח עליון או כל גורם אחר שאינו בשליטת נותן השירות. קיומם של הוראות והנחיות הצבא בגין שירותים הניתנים בעת השירות הצבאי .8 בעת השרות הצבאי )סדיר, מילואים או קבע(, חלות הוראות והנחיות הצבא, המשתנות מעת לעת והעלולות…</pre>
+                <p class="hint">pypdf is what your citation judge uses today (<code>eval/corpus.py</code>). Docling adds structure on top.</p>
+              </details>
+              <div class="item-list">
+    <div class="item-card" data-kind="PictureItem" data-page="5">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#9ca3af">PictureItem</span>
+        <span class="badge">#59</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.5</span>
+        <span class="badge muted">0 chars</span>
+      </div>
+      <pre class="item-body">(image / logo — no text)</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="5">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#60</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.5</span>
+        <span class="badge muted">128 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">המנוי יעביר לספק, באופן שיורה לו מוקד השירות, את ההפניה בכתב מהרופא לקבלת . 6.3 . לעי   ל 5.1 השירות בשל מצבו הרפואי כאמור בסעיף</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="5">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#61</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.5</span>
+        <span class="badge muted">80 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. השירותים המפורטים בכתב שירות זה יינתנו כנגד הצגת תעודה מזהה לנותן השירות . 6.4</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="5">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#62</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.5</span>
+        <span class="badge muted">98 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">.3.3 על המנוי להגיע למקום קבלת השירות בכוחות עצמו ועל חשבונ  ו, למעט כמצויין בסעיף . 6.5 . לעי   ל</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="5">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#63</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.5</span>
+        <span class="badge muted">82 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. עם סיום כל טיפול, יחתום המנוי על ספח ביקורת המאשר את קבלת הייעוץ או הטיפול . 6.6</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="5">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#64</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.5</span>
+        <span class="badge muted">197 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">ת ספק השירות מתחייב כי השירות יינתן על ידי גורמי מקצוע מתאימים ורלוונטיים לסוג השירו . 6.7 , נשוא  כתב שירות זה, בפריסה גיאוגרפית נאותה וכי יקיים תקשורת יעילה וזמינה עם המנוי . כמוגדר בסעיף זה לעיל</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="5">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#65</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.5</span>
+        <span class="badge muted">70 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">קיומם של הוראות והנחיות הצבא בגין שירותים הניתנים בעת השירות הצבאי . 8</pre>
+    </div>
+    
+    <div class="item-card" data-kind="TableItem" data-page="5">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#d97706">TableItem</span>
+        <span class="badge">#66</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.5</span>
+        <span class="badge muted">1399 chars</span>
+      </div>
+      <pre class="item-body">| | חריגים: | . 7 | |--------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|-------| | או כולם בגינם, שהוצאו הוצאות החזר או לשיפוי ו/או לשירותים זכאי יהיה לא המנוי הבאים: מהמקרים הנובע ו/או הקשור עניין בכל מקצתם, | . 7.1 | | | ( אלכוהול סמים, )עישון, מהרגלים. גמילה ו/או כלשהן התמכרות בעיות | . 7.1.1 | | | רופא ידי על נקבע בו במקרה למעט משקל, שינויי יתר, השמנת בעיות הרזיה, תחומי . 3.1.8 בסעיף כאמור רפואי מצורך נובעת אלו נושאים בגין הטיפול קבלת כי בכתב | . 7.1.2 | | | וחומרים מרפא צמחי תרופות, רכישת בגין המנוי של הוצאות כולל אינו השירות . הטיפול לצורך השירות נותן ידי ל ע שהומלצו אחרים | . 7.1.3 | | | 5.6 בסעיף כאמור למעט ם בהסכ שירות נותן שאינו שירות נותן אצל שירות קבלת ל. לעי | . 7…</pre>
+    </div>
+    
+    <div class="item-card" data-kind="TextItem" data-page="5">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#374151">TextItem</span>
+        <span class="badge">#67</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.5</span>
+        <span class="badge muted">439 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">בעת השרות הצבאי )סדיר, מילואים או קבע(, חלות הוראות והנחיות הצבא, המשתנות מעת לעת והעלולות להגביל ו/או למנוע מהמנוי בעת השרות הצבאי )החייל( קבלת טיפול רפואי באמצעות גורמים רפואיים שמחוץ למסגרת הצבא. מצב זה עלול להשליך על מימוש הזכויות המגיעות למנוי בהתאם . לתנאי כתב השירות . המידע בדבר הוראות והנחיות הצבא המשתנות מעת לעת כאמור לעיל, מצוי אצל רשויות הצבא . בכל מקרה שבו המנוי נמצא בשרות צבאי, עליו להתעדכן בדבר קיומן של הוראות והנחיות אלה</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="5">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#68</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.5</span>
+        <span class="badge muted">21 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">: תשלום דמי המנוי . 9</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="5">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#69</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.5</span>
+        <span class="badge muted">48 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. שיעורם של דמי המנוי קבוע בדף פרטי הביטוח . 9.1</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="5">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#70</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.5</span>
+        <span class="badge muted">200 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">במקרה של תשלום דמי המנוי ע&quot;י הוראת קבע לבנק לתשלום דמי המנוי או בתשלום קבוע . 9.2 באמצעות כרטיס אשראי, תראה החברה את זיכוי חשבונה בבנק או זיכוי חשבון החברה . בחברת האשראי, לפי העניין, כתשלום דמי המנוי</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="5">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#71</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.5</span>
+        <span class="badge muted">42 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">: אם לא ישולמו דמי המנוי במלואם, אזי . 9.3</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="5">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#72</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.5</span>
+        <span class="badge muted">110 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">ה   בהתאם להוראות ל-פי   כתב שירות ז החברה תהיה זכאית לבטל את כתב השירות ע . 9.3.1 .1981 חוק חוזה ביטוח, תשמ&quot;א</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="5">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#73</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.5</span>
+        <span class="badge muted">225 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">, מבלי לגרוע מכלליות האמור לעיל, לא שולמו דמי הביטוח, כולם או מקצתם במועד . 9.3.2 13 יתווספו לסכום שבפיגור וכחלק בלתי נפרד הימנו הפרשי הצמדה כאמור בסעיף ל-ידי החברה באותה עת, מיום היווצר הפיגור ועד להלן וכן ריבית כפי שתיקבע ע</pre>
+    </div>
+    </div>
+            </section>
+            
+            <section class="page-section" data-page="6" id="page-6">
+              <h3>Page 6 <span class="count">19 Docling items</span></h3>
+              <details class="compare">
+                <summary>Compare: raw pypdf text for page 6</summary>
+                <pre class="compare-body hebrew" dir="rtl">פוליסת ביטוח בריאות 10/2023מהדורה מהדורה פוליסת ביטוח בריאות לפירעונו בפועל לחברה, ובלבד ששיעור הריבית לא יעלה על שיעור הריבית המרבי בהתאם לחוק הריבית, התשי&quot;ז תוקפו של כתב השירו ת .10 כתב השירות ייכנס לתוקפו החל מהמועד הקובע .10.1 לעניין תוקפו של כתב השירות יחולו ההוראות בדבר תוקפה, ביטולה ושינוי של פוליסת .10.2 הביטוח אליה הוא מצורף, כפי שהן קבועות בתנאים הכלליים של הפוליסה ובהתאם להוראות הדין. על אף האמור לעיל, ועל אף ההוראות בדבר תוקפה של הפוליסה הקבועות בתנאים הכללים כאמור, תהיה חברת הביטוח רשאית לבטל את כתב השירות אם יוחלט על ידיה לבטלו או שלא לחדשו, לפי העניין, לכלל המנויים במקרה של סיו ם ההתקשרות בין המבטח לספק השירות במידה שלא הגיעה חברת הביטוח להסדר עם ספק שירות חלופי, וזאת בכפוף לאישור המפקח על ביטוח. במקרה זה תינתן למנויים הודעה מוקדמת בת מובהר כי המנוי זכאי לבטל את הכתב השירות בכל עת. הביטול יהיה ביטול על ידי המנוי: .10.3 בתוקף ממועד קבלת הודעת המנוי בחברה. ככל ששולמו ע ל-ידי המנוי פרמיה בגין כתב השירות בגין התקופה שלאחר הביטול, יוחזר למנוי החלק היחסי של התשלום ששילם בגין התקופה שלאחר ביטול כתב השירות . ביטול על ידי החברה: .10.4 בנוסף לאמור בתנאים הכלליים של הפוליסה אליה מצורף כתב שירות זה , תוקפו של .10.4.1 כתב השירות, ביחס לכל אחד מהמנויים, יפוג מאליו בתאריך המוקדם מבין אלו במועד ביטול הפוליסה מכל סיבה שהיא. .10.4.1.1 בתום תקופת כתב השירות על פי המפורט בדף פרטי הביטוח .10.4.1.2 עם הפסקת תשלום מלוא או חלק דמי המנוי לחברה במועדם בהתאם לחוק חוזה .10.4.1.3 הביטוח, התשמ&quot;א ביטלה החברה את כתב השירות בהתאם לסעיף .10.4.2 במהלך סדרת טיפולים או מנוי שפנה למוקד השירות טרם …</pre>
+                <p class="hint">pypdf is what your citation judge uses today (<code>eval/corpus.py</code>). Docling adds structure on top.</p>
+              </details>
+              <div class="item-list">
+    <div class="item-card" data-kind="PictureItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#9ca3af">PictureItem</span>
+        <span class="badge">#74</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">0 chars</span>
+      </div>
+      <pre class="item-body">(image / logo — no text)</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#75</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">103 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">לפירעונו בפועל לחברה, ובלבד ששיעור הריבית לא יעלה על שיעור הריבית המרבי .1957 בהתאם לחוק הריבית, התשי&quot;ז</pre>
+    </div>
+    
+    <div class="item-card" data-kind="SectionHeaderItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#2563eb">SectionHeaderItem</span>
+        <span class="badge">#76</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">27 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">תוקפו של כתב השירו   ת . 10</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#77</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">49 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. כתב השירות ייכנס לתוקפו החל מהמועד הקובע . 10.1</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#78</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">606 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">לעניין תוקפו של כתב השירות יחולו ההוראות בדבר תוקפה, ביטולה  ושינוי של פוליסת . 10.2 הביטוח  אליה  הוא  מצורף,  כפי  שהן  קבועות  בתנאים  הכלליים  של  הפוליסה  ובהתאם להוראות הדין. על אף האמור לעיל, ועל אף ההוראות בדבר תוקפה של הפוליסה הקבועות בתנאים הכללים כאמור, תהיה חברת הביטוח רשאית לבטל את כתב השירות אם יוחלט ם   ההתקשרות על ידיה  לבטלו או שלא לחדשו, לפי העניין, לכלל המנויים במקרה של סיו בין המבטח לספק השירות במידה שלא הגיעה חברת הביטוח להסדר עם ספק שירות חלופי, וזאת בכפוף לאישור המפקח על ביטוח. במקרה זה תינתן למנויים הודעה מוקדמת . יום אשר תועבר למנויים על ידי חברת הביטוח ו/או ספק השירות 60 בת</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#79</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">274 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">מובהר כי המנוי זכאי לבטל את הכתב השירות בכל עת. הביטול יהיה ביטול על ידי המנוי: . 10.3 בתוקף ממועד קבלת הודעת המנוי בחברה. ככל ששולמו ע   ל-ידי המנוי פרמיה בגין כתב השירות בגין התקופה שלאחר הביטול, יוחזר למנוי החלק היחסי של התשלום  ששילם בגין . התקופה שלאחר ביטול כתב השירות</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#80</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">27 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">: ביטול על ידי החברה . 10.4</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#81</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">155 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">בנוסף לאמור בתנאים הכלליים של הפוליסה אליה מצורף כתב שירות זה  ,   תוקפו של . 10.4.1 : כתב השירות, ביחס לכל אחד מהמנויים, יפוג מאליו בתאריך המוקדם מבין אלו</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#82</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">46 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. במועד ביטול הפוליסה מכל סיבה שהיא . 10.4.1.1</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#83</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">63 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. בתום תקופת כתב השירות על פי המפורט בדף פרטי הביטוח . 10.4.1.2</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#84</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">99 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">עם הפסקת תשלום מלוא או חלק דמי המנוי לחברה במועדם בהתאם לחוק חוזה . 10.4.1.3 .  1981 הביטוח, התשמ&quot;א</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#85</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">254 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">לעיל יהיה זכאי מנוי אשר נמצא 10.2 ביטלה החברה את כתב השירות בהתאם לסעיף . 10.4.2 במהלך סדרת טיפולים או מנוי שפנה למוקד השירות טרם מועד ההודעה על הפסקת השירות אך טרם קיבל את השירות בפועל, לקבל או להשלים את קבלת השירות תוך . ממועד ההודעה על הפסקת השירות 90</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#86</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">224 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">להסרת כל ספק יובהר, כי במועד פקיעתו, ביטולו או סיום תקפו של כתב שירות זה, מכל . 10.4.3 10.2 סיבה שהיא,   למעט במקרה של ביטול כתב השירות לכלל המנויים על פי סעיף . ל-פי כתב שירות זה לעיל, תסתיים זכאות של המנוי לקבלת השירותים ע</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#87</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">18 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">תנאי הצמד   ה . 11</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#88</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">210 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">כל  הסכומים  הנקובים  בכתב  השירות  ו/או  בדף  פרטי  הביטוח  ולרבות  דמי  מנוי,  סכומי . 11.1 השתתפות עצמית,   סכומי   השיפוי   יהיו   צמודים למדד. חישוב ההצמדה יעשה בהתאם ליחס . שבין המדד החדש ובין המדד הבסיסי</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#89</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">55 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. המדד הבסיסי - יהיה המדד כמפורט בדף פרטי הביטוח . 11.2</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#90</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">35 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">: המדד החדש יהיה כמפורט להלן . 11.3</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#91</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">116 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">בכל הנוגע לתשלום דמי המנוי   - המדד החדש יהיה המדד האחרון הידוע בראשון . 11.3.1 . לכל חודש שבו מבוצע תשלום דמי המנוי</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#92</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">168 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">לגבי כל סכום אחר הנקוב בכתב השירות   -   המדד החדש יהיה המדד האחרון . 11.3.2 ל-ידי הספק ו/או המנוי, לפי העניין, ובלבד שלא הידוע במועד ביצוע התשלום ע . יפחת מהמדד הבסיסי</pre>
+    </div>
+    </div>
+            </section>
+            
+            <section class="page-section" data-page="7" id="page-7">
+              <h3>Page 7 <span class="count">7 Docling items</span></h3>
+              <details class="compare">
+                <summary>Compare: raw pypdf text for page 7</summary>
+                <pre class="compare-body hebrew" dir="rtl">פוליסת ביטוח בריאות 10/2023מהדורה מהדורה פוליסת ביטוח בריאות שונות .12 הזכות לקבלת השירות על פי כתב שירות זה הינה אישית, ואין המנוי רשאי להעבירה לאחר .12.1 כל התשלומים הנקובים בכתב השירות זה, כוללים מע&quot;מ כחוק. אם יחול שינוי בשיעור .12.2 המע&quot;מ יעודכנו תשלומים אלה בהתאם הודעות שנשלחו למנוי, לפי מענו האחרון שנמסר בכתב לחברה, ייחשבו כהודעות שנמסרו .12.3 למנוי מקום השיפוט וברירת די ן .13 מקום השיפוט הבלעדי בכל הקשור בכתב השירות הוא בבתי המשפט בישראל והדין החל הינו דיני מדינת ישראל בלבד .</pre>
+                <p class="hint">pypdf is what your citation judge uses today (<code>eval/corpus.py</code>). Docling adds structure on top.</p>
+              </details>
+              <div class="item-list">
+    <div class="item-card" data-kind="PictureItem" data-page="7">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#9ca3af">PictureItem</span>
+        <span class="badge">#93</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.7</span>
+        <span class="badge muted">0 chars</span>
+      </div>
+      <pre class="item-body">(image / logo — no text)</pre>
+    </div>
+    
+    <div class="item-card" data-kind="SectionHeaderItem" data-page="7">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#2563eb">SectionHeaderItem</span>
+        <span class="badge">#94</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.7</span>
+        <span class="badge muted">10 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">שונות . 12</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="7">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#95</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.7</span>
+        <span class="badge muted">87 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. הזכות לקבלת השירות על פי כתב שירות זה הינה אישית, ואין המנוי רשאי להעבירה לאחר . 12.1</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="7">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#96</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.7</span>
+        <span class="badge muted">126 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">כל  התשלומים  הנקובים  בכתב  השירות  זה,  כוללים  מע&quot;מ  כחוק.  אם  יחול  שינוי בשיעור . 12.2 . המע&quot;מ יעודכנו תשלומים אלה בהתאם</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="7">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#97</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.7</span>
+        <span class="badge muted">91 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">הודעות שנשלחו למנוי, לפי מענו האחרון שנמסר בכתב לחברה, ייחשבו כהודעות שנמסרו . 12.3 . למנוי</pre>
+    </div>
+    
+    <div class="item-card" data-kind="SectionHeaderItem" data-page="7">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#2563eb">SectionHeaderItem</span>
+        <span class="badge">#98</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.7</span>
+        <span class="badge muted">29 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">מקום השיפוט וברירת די  ן . 13</pre>
+    </div>
+    
+    <div class="item-card" data-kind="TextItem" data-page="7">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#374151">TextItem</span>
+        <span class="badge">#99</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.7</span>
+        <span class="badge muted">101 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">מקום השיפוט הבלעדי בכל הקשור בכתב השירות הוא בבתי המשפט בישראל והדין החל הינו דיני . מדינת ישראל בלבד</pre>
+    </div>
+    </div>
+            </section>
+            
+            <section class="page-section" data-page="8" id="page-8">
+              <h3>Page 8 <span class="count">7 Docling items</span></h3>
+              <details class="compare">
+                <summary>Compare: raw pypdf text for page 8</summary>
+                <pre class="compare-body hebrew" dir="rtl">פוליסת ביטוח בריאות 10/2023מהדורה מהדורה פוליסת ביטוח בריאות תמצית תנאי כתב השירות– שירותי רפואה משלימה )אלטרנטיבית( אצל נותן שירות שבהסכם 10/2023מספר תכנית כתובת אתר האינטרנט www.harel-group.co.il 1 תקופת אכשרה - תקופה המתחילה במועד כניסתו לתוקף של כתב השירות לגבי המנוי. ב קרות מקרה כתב שירות במהלך תקופה זו, לא יהיה זכאי המנוי לשירותים מכוח כתב השירות. כתובת הדואר האלקטרוני אבא הלל polisotbs@harel-ins.co.il רמת גן טלפון 037348178פקס תמצית פרטי כתב השירות שירותי רפואה משלימה )אלטרנטיבית( – אצל נותן שירות שבהסכם שם כתב השירות כתב שירות סוג הביטוח 10בסעיףבהתאם לפוליסת הביטוח אליה מצורף כתב השירות וכמפורט בסעיףתקופת כתב השירו ת לכתב השירות. אפשרות לבצע טיפולים מתחום הרפואה המשלימה – כגון שיאצו, תיאור כתב השירות רפלקסולוגיה, על פי הרשימה המצויינת בכתב השירות. מנוי, שניתנה לו הפניה בכתב מרופא לקבלת שירות בשל מצבו הרפואי, יהיה זכאי לבצע טיפולים בשנת ביטוח. השירות ניתן באמצעות נותן שירות שבהסכם בלבד. לכתב השירות. באפשרותך לפנות לחברה 7בסעיףבמקרים המפורטים בסעיףכתב השירות אינו מכסה את המנוי במקרים הבאים )חריגים בכתב שירות( לקבלת מידע מפורט בעניין זה . 90 - לכתב שירות זה2.1.19 כמפורט בסעיףאחרי כמה זמן מתחילת כתב השירות 1ניתן לקבל שירו ת )אכשרה סך של5.4.4בסעיף בסעיף כמפורטהשתתפות עצמית במרפאת נותן השירות שבהסכם . סך של שבהסכם בבית המנוי. עלות כתב השירות מחיר כתב גיל השירות החודשי ללא הנחות ותוספות 8.35ילד עד גיל 13.26 21-69 )מדד שים לב! מחיר כתב השירות עלול להשתנות בהתאם למצבך הרפואי או עקב מתן הנחה. מחיר כתב השירות זה נכון למועד פרסומו.</pre>
+                <p class="hint">pypdf is what your citation judge uses today (<code>eval/corpus.py</code>). Docling adds structure on top.</p>
+              </details>
+              <div class="item-list">
+    <div class="item-card" data-kind="PictureItem" data-page="8">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#9ca3af">PictureItem</span>
+        <span class="badge">#100</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.8</span>
+        <span class="badge muted">0 chars</span>
+      </div>
+      <pre class="item-body">(image / logo — no text)</pre>
+    </div>
+    
+    <div class="item-card" data-kind="TableItem" data-page="8">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#d97706">TableItem</span>
+        <span class="badge">#101</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.8</span>
+        <span class="badge muted">0 chars</span>
+      </div>
+      <pre class="item-body">Table: 1 rows × 4 cols</pre>
+    </div>
+    
+    <div class="item-card" data-kind="SectionHeaderItem" data-page="8">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#2563eb">SectionHeaderItem</span>
+        <span class="badge">#102</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.8</span>
+        <span class="badge muted">58 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">( תמצית תנאי כתב השירות-   שירותי רפואה משלימה )אלטרנטיבית</pre>
+    </div>
+    
+    <div class="item-card" data-kind="SectionHeaderItem" data-page="8">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#2563eb">SectionHeaderItem</span>
+        <span class="badge">#103</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.8</span>
+        <span class="badge muted">21 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">אצל נותן שירות שבהסכם</pre>
+    </div>
+    
+    <div class="item-card" data-kind="SectionHeaderItem" data-page="8">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#2563eb">SectionHeaderItem</span>
+        <span class="badge">#104</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.8</span>
+        <span class="badge muted">29 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">10/2023 מהדורה 524 מספר תכנית</pre>
+    </div>
+    
+    <div class="item-card" data-kind="TableItem" data-page="8">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#d97706">TableItem</span>
+        <span class="badge">#105</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.8</span>
+        <span class="badge muted">11395 chars</span>
+      </div>
+      <pre class="item-body">| השירות כתב פרטי תמצית | השירות כתב פרטי תמצית | השירות כתב פרטי תמצית | השירות כתב פרטי תמצית | |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------…</pre>
+    </div>
+    
+    <div class="item-card" data-kind="TextItem" data-page="8">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#374151">TextItem</span>
+        <span class="badge">#106</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.8</span>
+        <span class="badge muted">160 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">1 תקופת אכשרה - תקופה המתחילה במועד כניסתו לתוקף של כתב השירות לגבי המנוי. ב  קרות מקרה כתב שירות במהלך תקופה   זו, לא יהיה זכאי המנוי לשירותים מכוח כתב השירות.</pre>
+    </div>
+    </div>
+            </section>
+            
+            <section class="page-section" data-page="9" id="page-9">
+              <h3>Page 9 <span class="count">3 Docling items</span></h3>
+              <details class="compare">
+                <summary>Compare: raw pypdf text for page 9</summary>
+                <pre class="compare-body hebrew" dir="rtl">פוליסת ביטוח בריאות 10/2023מהדורה מהדורה פוליסת ביטוח בריאות התנאים המלאים והמחייבים הינם התנאים המפורטים בפוליסה ובכתב ה שירות. תמצית תיאור השירותים בכתב שירו ת מה הסכום המקסימלי שניתן לתבוע תיאור השירו ת שם השירו ת )מדד מנוי, שניתנה לו הפניה בכתב סעיפיםטיפולי רפואה משלימה עד לכתב שירו ת- במקרה בו 5.6סעיףמרופא לקבלת שירות בשל מצבו הרפואי, יהיה זכאי לבצע את הטיפולים שלהלן אצל נותן שירות שבהסכם: אקופונקטורה, שיטת טווינה, רפלקסולוגיה, שיאצו, פלדנקרייז, אוסטיאופתיה, ביו פידבק, ייעוץ דיאטטי, הומיאופתיה, כירופרקטיקה, נטורופתיה, פרחי בא ך, חדרי מלח, עיסוי רפואי עקב אשפוז לאחר תאונה. השירותים יינתנו במרפאות נותן השירו ת שבהסכם בלבד. במקרה בו לא קיים נותן שירות שבהסכם ברדיוס של עד ממקום מגוריו של המנוי יהא זכאי המנוי . לקבל שיפוי חלקי אושרה קבלת שירות אצל נותן שירות שלא בהסכם על פי התנאים המפורטים בכתב השירות, ישפה הספק את המנוי בסך הטיפול ששולמה על ידי המנוי בפועל ולא יותר מ</pre>
+                <p class="hint">pypdf is what your citation judge uses today (<code>eval/corpus.py</code>). Docling adds structure on top.</p>
+              </details>
+              <div class="item-list">
+    <div class="item-card" data-kind="PictureItem" data-page="9">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#9ca3af">PictureItem</span>
+        <span class="badge">#107</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.9</span>
+        <span class="badge muted">0 chars</span>
+      </div>
+      <pre class="item-body">(image / logo — no text)</pre>
+    </div>
+    
+    <div class="item-card" data-kind="TableItem" data-page="9">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#d97706">TableItem</span>
+        <span class="badge">#108</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.9</span>
+        <span class="badge muted">2987 chars</span>
+      </div>
+      <pre class="item-body">| ת שירו בכתב השירותים תיאור תמצית | ת שירו בכתב השירותים תיאור תמצית | ת שירו בכתב השירותים תיאור תמצית | |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------…</pre>
+    </div>
+    
+    <div class="item-card" data-kind="SectionHeaderItem" data-page="9">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#2563eb">SectionHeaderItem</span>
+        <span class="badge">#109</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.9</span>
+        <span class="badge muted">69 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. התנאים המלאים והמחייבים הינם התנאים המפורטים בפוליסה ובכתב ה  שירות</pre>
+    </div>
+    </div>
+            </section>
+            
+    </section>
+
+    <section id="all">
+      <h2>All items (flat list)</h2>
+      <div class="item-list" id="flat-list">
+    <div class="item-card" data-kind="PictureItem" data-page="1">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#9ca3af">PictureItem</span>
+        <span class="badge">#0</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.1</span>
+        <span class="badge muted">0 chars</span>
+      </div>
+      <pre class="item-body">(image / logo — no text)</pre>
+    </div>
+    
+    <div class="item-card" data-kind="SectionHeaderItem" data-page="1">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#2563eb">SectionHeaderItem</span>
+        <span class="badge">#1</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.1</span>
+        <span class="badge muted">68 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">( - שירותי רפואה משלימה ) אלטרנטיבית כתב שירות אצל נותן שירות שבהסכם</pre>
+    </div>
+    
+    <div class="item-card" data-kind="SectionHeaderItem" data-page="1">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#2563eb">SectionHeaderItem</span>
+        <span class="badge">#2</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.1</span>
+        <span class="badge muted">16 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">524 ת מ   ס תכני</pre>
+    </div>
+    
+    <div class="item-card" data-kind="SectionHeaderItem" data-page="1">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#2563eb">SectionHeaderItem</span>
+        <span class="badge">#3</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.1</span>
+        <span class="badge muted">10 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">: מבוא . 1</pre>
+    </div>
+    
+    <div class="item-card" data-kind="TextItem" data-page="1">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#374151">TextItem</span>
+        <span class="badge">#4</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.1</span>
+        <span class="badge muted">249 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">, המנוי יהיה זכאי לשירותים הכלולים בכתב שירות זה אצל נותן שירות שבהסכם בלבד, בכפוף לתנאים להוראות ולסייגים המפורטים להלן ובלבד שצוין במפורש בדף פרטי הביטוח כי כתב שירות זה כלול . בפוליסה על שם המנוי והינו בתוקף על שם המנוי, במועד קבלת השירותים בפועל</pre>
+    </div>
+    
+    <div class="item-card" data-kind="SectionHeaderItem" data-page="1">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#2563eb">SectionHeaderItem</span>
+        <span class="badge">#5</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.1</span>
+        <span class="badge muted">12 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">: הגדרות . 2</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="1">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#6</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.1</span>
+        <span class="badge muted">70 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">: בכתב שירות זה יהיו למונחים המפורטים להלן המשמעות האמורה שבצידם . 2.1</pre>
+    </div>
+    
+    <div class="item-card" data-kind="TableItem" data-page="1">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#d97706">TableItem</span>
+        <span class="badge">#7</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.1</span>
+        <span class="badge muted">3455 chars</span>
+      </div>
+      <pre class="item-body">| מ בע&quot; לביטוח חברה הראל | &quot;החברה&quot; | |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------| | בכתב כמפורט השירותים אספקת לצורך החברה התקשרה עימו הגוף הביטוח. פרטי בדף מפורטים פרטיו אשר זה, שירות | - &quot;הספק&quot; או השירות&quot; &quot;ספק | | המנויים פניות יווסתו באמצעותו המנויים, עבור הספק שיפעיל טלפון קו זו. פוליסה על-פי השירותים קבלת לשם השירות לנותני 072-2756606 הוא: השירות מוקד של הטלפון מספר | &quot; &quot;המוקד או השירות&quot; &quot;מוקד | | ה ז שירות כתב מצורף אליה פוליסה ה | &quot; &quot;הפוליסה | | זכאי והינו השירות בכתב כמנוי הביטוח פרטי בדף נקוב שמו אשר אדם השירות. כתב הוראות פי על שירותים לקבלת | &quot; &quot;מנוי | | כתב תנאי פי על לחברה, לשלם המנוי שעל זה שירות כתב בגין ה…</pre>
+    </div>
+    
+    <div class="item-card" data-kind="PictureItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#9ca3af">PictureItem</span>
+        <span class="badge">#8</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">0 chars</span>
+      </div>
+      <pre class="item-body">(image / logo — no text)</pre>
+    </div>
+    
+    <div class="item-card" data-kind="TableItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#d97706">TableItem</span>
+        <span class="badge">#9</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">5003 chars</span>
+      </div>
+      <pre class="item-body">| לאו. אם ובין הקיים המדד בנוי שעליהם נתונים אותם על | | |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------…</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#10</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">128 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">כל האמור בכתב השירות בלשון יחיד אף בלשון רבים משמעו, וכל האמור בלשון זכר אף בלשון . 2.2 . נקבה משמעו, אלא אם כן נאמר במפורש אחרת</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#11</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">73 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. כותרות הסעיפים נכתבו לצורך הנוחות בלבד והן לא תשמשנה לצורך פרשנות . 2.3</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#12</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">14 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">: השירותים . 3</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#13</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">75 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">: ושירותים אלו בלבד , השירותים הכלולים בכתב שירות זה הינם כמפורט להלן . 3.1</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#14</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">87 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">טיפול בדרך של דיקור במחטים דקות בנקודות מיוחדות אקופונקטורה )דיקור סיני( . 3.1.1 . בגוף</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#15</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">73 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. -   טיפול במגע מקומי ומערכתי המשלב עיסוי רקמות עמוק שיטת טווינה . 3.1.2</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#16</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">70 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. -   טיפול בדרך של עיסוי ולחיצות בכפות הרגליים רפלקסולוגי   ה . 3.1.3</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#17</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">89 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">לחיצה ועיסוי, בעיקר על ידי אצבעות הידיים, לאורך קווי זרימת האנרגיה שיאצ  ו . 3.1.4 . בגוף</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#18</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">59 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. - טיפול בעזרת הקניית הרגלי תנועה נכונים פלדנקרייז . 3.1.5</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#19</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">76 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. - טיפול להשגת הקלה בבעיות במערכת השלד, העצמות והשרירים אוסטיאופתיה . 3.1.6</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#20</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">74 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. - טכניקה לטיפול בבעיות רפואיות בעזרת מכשיר אלקטרוני ביו-פידב   ק . 3.1.7</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#21</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">60 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. - התאמה אישית של תוכנית תזונה למנוי ייעוץ דיאטט  י . 3.1.8</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#22</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">69 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. - שיטת טיפול בעזרת תרופות מיוחדות מחומרים טבעיים הומיאופתיה . 3.1.9</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#23</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">58 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. - עיסוי וטיפול בעמוד השדרה והחוליות כירופרקטיקה . 3.1.10</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#24</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">78 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. - טיפול בגוף בשיטות טבעיות, המותאמות באופן אישי לכל מטופל נטורופתיה . 3.1.11</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="2">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#25</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.2</span>
+        <span class="badge muted">102 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">תמציות פרחים המסייעות ומונעות היווצרותה של הפרעה גופנית עוד לפני פרחי באך . 3.1.12 . שהיא מתבטאת במחלה</pre>
+    </div>
+    
+    <div class="item-card" data-kind="PictureItem" data-page="3">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#9ca3af">PictureItem</span>
+        <span class="badge">#26</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.3</span>
+        <span class="badge muted">0 chars</span>
+      </div>
+      <pre class="item-body">(image / logo — no text)</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="3">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#27</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.3</span>
+        <span class="badge muted">323 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">--      טיפול בחדר מלח שהינו חדר המדמה מערת מלח, היות וכל פינותיו חדרי מלח . 3.1.13 הקירות, התקרה והרצפה - מצופות בשכבת מלח יבש בעובי וריכוז המשתנים ממקום אחד למשנהו, אך ריכוזו של המלח הוא תמיד גבוה מאוד ותמיד טבעי תוך הזרמת מעלות 22   חלקיקי מלח יבש אל תוך החדר. הטמפרטורה בחדר מלח עומדת על כ . אחוזים 41 והלחות עומדת על כ</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="3">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#28</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.3</span>
+        <span class="badge muted">337 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">עיסוי אליו הופנה המנוי על ידי רופא שסיבתו -עיסוי רפואי עקב אשפוז לאחר תאונה . 3.1.14 המנו  י ושארעה למנוי במועד שכתב השירות עקב תאונה שבגינה אושפז הישירה הנה חודשים ממועד התאונה,   שמטרתו   להחזיר 12      בתוקף, ובתנאי שבוצע לא יאוחר מ לגוף יכולת תפקוד תקינה, הקלה על כאבים, שחרר שרירים מכווצים )תפוסים(, ושיפור . טווחי התנועה במפרקי   ם</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="3">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#29</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.3</span>
+        <span class="badge muted">198 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">במקרה בו   לא   קיים נותן שירות . ת   שבהסכם בלב   ד השירותים יינתנו במרפאות נותן השירו . 3.2 ק&quot;מ ממקום מגוריו של המנוי יהא זכאי המנוי לקבל שיפו  י חלקי 30 שבהסכם ברדיוס של עד להלן. 5.6 כמפורט בסעיף</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="3">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#30</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.3</span>
+        <span class="badge muted">254 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">יכול שיינתנו בבית , השירותים המופעים ברשימה הסגורה שלהלן , על אף האמור לעיל . 3.3 שיטת , אקופונקטורה )דיקור סיני( המנוי או במרפאת נותן השירות לפי בחירת המנוי: -   עד 3.1.1 כמפורט בסעיפים אוסטיאופתיה , פלדנקרייז , שיאצו , רפלקסולוגיה , טווינה . לעיל 3.1.6</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="3">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#31</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.3</span>
+        <span class="badge muted">50 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. למען הסר ספק, השירותים לא יינתנו בבתי מלון . 3.4</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="3">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#32</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.3</span>
+        <span class="badge muted">50 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">: תנאי מהותי להתחייבויות הספק על פי כתב השירות . 4</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="3">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#33</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.3</span>
+        <span class="badge muted">184 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">בכל עניין הקשור בקבלת שירותים על פי כתב השירות, המנוי יפנה למוקד השירות 4.1 ויפעל בהתאם להוראות המפורטות בכתב השירות להלן. הדבר לא יגרע מאפשרותו . של המנוי  לפנות למוקד השירות של החברה</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="3">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#34</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.3</span>
+        <span class="badge muted">293 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">ם או לשיפו  י בגינם, טרם ביצוע קבלת אישור הספק מראש ובכתב לקבלת השירותי 4.2 השירותים בפועל, הינה תנאי מהותי. במקרה שלא פנה המנוי מראש לקבלת אישור הספק לביצוע השירות מסיבות מוצדקות, ונמצא כי היה זכאי לקבלת השירות על פי . ההוראות המפורטות בכתב השירות, יהיה זכאי על פי הזכויות הנקובות בהוראות אלו</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="3">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#35</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.3</span>
+        <span class="badge muted">19 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">: התחייבות הספק . 5</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="3">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#36</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.3</span>
+        <span class="badge muted">193 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">מנוי, שניתנה לו הפניה בכתב מרופא לקבלת שירות בשל מצבו הרפואי, יהיה זכאי לקבל . 5.1 יום, באמצעות נותן שירות שבהסכם, בכפוף 90 את השירות לאחר תקופת אכשרה בת : להוראות כתב השירות ועל פי המפורט להלן</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="3">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#37</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.3</span>
+        <span class="badge muted">265 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">המנוי זכאי להתייעצות אחת עם נותן השירות ובעקבותיה לסדרת טיפולים עליה המליץ . 5.2 נותן השירות, אם המליץ, הכל לפי שיקול דעתו המקצועי הבלעדי של נותן השירות ובכפוף לאישור מראש של מוקד השירות בדבר היותו של הפונה בגדר מנוי הזכאי לקבל את . השירות המבוקש, בהתאם לכתב השירות</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="3">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#38</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.3</span>
+        <span class="badge muted">341 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">)שניים עשר( טיפולים בשנת ביטוח 12 סידרת הטיפולים לה יהא זכאי המנוי, תכלול עד . 5.3 , אחת, בין אם הטיפול הנו בגין בעיה רפואית אחת או מספר בעיות רפואיות באותה שנה ובין אם הטיפולים יינתנו ע&quot;י נותן שירות בתחום אחד מתחומי השירות שפורטו לעיל ובין 12 אם בטיפול משולב של נותני שירות בתחומי שירותים שונים, ובכל מקרה לא יותר מ . טיפולים בשנת ביטוח אחת</pre>
+    </div>
+    
+    <div class="item-card" data-kind="PictureItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#9ca3af">PictureItem</span>
+        <span class="badge">#39</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">0 chars</span>
+      </div>
+      <pre class="item-body">(image / logo — no text)</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#40</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">122 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">, אישר מוקד השירות בכתב את זכאות המנוי לשירות המכוסה על פי הוראות כתב השירות . 5.4 : יהיה זכאי המנוי לבחור את קבלתו כדלקמן</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#41</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">199 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">ימי עסקים מקבלת פניית 2 פגישת הייעוץ הראשונה, תתואם על ידי מוקד השירות תוך . 5.4.1 המנוי למוקד. סדרת הטיפולים ומועדם המדויק, יתואמו במלואם ע&quot;י המנוי, מול נותן השירות שבהסכם אצלו נערך הייעוץ הראשונ  י</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#42</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">138 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">המנוי יהא זכאי לבחור את נותן השירות ממנו יקבל את השירות מתוך רשימה של . 5.4.2 . נותני שירות בהסכם כפי שתהא בתוקף במועד פנייתו למוקד השירות</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#43</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">52 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. רשימת נותני השירותים שבהסכם, תשתנה מעת לעת . 5.4.3</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#44</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">23 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">: השתתפות עצמית . 5.4.4</pre>
+    </div>
+    
+    <div class="item-card" data-kind="TextItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#374151">TextItem</span>
+        <span class="badge">#45</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">65 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">המנוי ישלם בגין קבלת השירות אצל נותן השירות שבהסכם, השתתפות עצמית</pre>
+    </div>
+    
+    <div class="item-card" data-kind="TextItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#374151">TextItem</span>
+        <span class="badge">#46</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">1 chars</span>
+      </div>
+      <pre class="item-body">:</pre>
+    </div>
+    
+    <div class="item-card" data-kind="TextItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#374151">TextItem</span>
+        <span class="badge">#47</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">11 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">כמפורט להלן</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#48</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">143 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">בבית עבור כל טיפול ו/או התייעצות המבוצע ע&quot;י נותן שירות שבהסכם ₪ 70 סך של . 5.4.4.1 . לעיל 3.1.6 - עד 3.1.1 בגין השירותים המפורטים בסעיפים המנוי</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#49</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">142 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">שבהסכם במרפאת נותן השירות עבור כל טיפול ו/או התייעצות המבוצע ₪   55 סך של . 5.4.4.2 . לעיל 3.1.14 -   עד 3.1.1 סעיפים בגין השירותים המפורטים ב</pre>
+    </div>
+    
+    <div class="item-card" data-kind="TextItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#374151">TextItem</span>
+        <span class="badge">#50</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">135 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">סכום ההשתתפות העצמית ישולם על ידי המנוי לנותן השירות שבהסכם או לספק, כפי . שיימסר לו על  -ידי מוקד השירות אך בשום אופן לא באמצעות החברה</pre>
+    </div>
+    
+    <div class="item-card" data-kind="SectionHeaderItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#2563eb">SectionHeaderItem</span>
+        <span class="badge">#51</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">65 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. על המנוי לשלם את סכום ההשתתפות העצמית לצורך קבלת השירותים בפועל</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#52</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">118 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">השירותים  על-פי  כתב  השירות  זה  יינתנו  בשעות  הפעילות  הרגילות  ובהתאם  ללוח . 5.4.5 . העבודה של נותן השירות שבהסכם</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#53</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">265 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">במקרה שמנוי יבקש לבטל את פנייתו לקבלת שירות על-פי כתב השירות, יודיע על כך . 5.4.6 למען הסר . שעות טרם מועד הטיפול 12 המנוי למוקד השירות באופן מיידי ולא פחות מ להודיע למוקד השירות על ביטול פנייתו גם אם מסר על ספק, מובהר כי על המנוי . ביטול הפנייה לנותן השירות שבהסכם</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#54</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">320 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">למען הסר ספק יובהר כי בכל מקרה לא יהיה זכאי המנוי לטיפולים מעבר לתקרת . 5.5 לעיל בין אם הטיפול הנו בגין בעיה רפואית אחת או 5.3 הטיפולים לשנה כנקוב בסעיף מספר בעיות רפואיות באותה שנה, ובין אם הטיפולים יינתנו על ידי נותן שירות בתחום אחד מתחומי השירותים המפורטים לעיל ובין אם מדובר בטיפול משולב של נותני שירות . בכמה תחומים</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#55</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">383 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">במקרים בהם אישר   מוקד השירות קבלת שירות שלא במסגרת נותן שירות שבהסכם כאמור . 5.6 מעלות הטיפול ששולמה על ידי המנוי 50% לעיל, ישפה הספק את המנו  י בסך 3.2 בסעיף לטיפו   ל. תשלום זה יתבצע כנגד מסירת קבלות על תשלום ₪   100   בפועל ולא יותר מ הטיפול אצל נותן שירות אחר שאינו בהסכם. למען הסר ספק, גם במקרה זה יהיו תקפים . כל התנאים המפורטים בכתב השירות לרבות מכסת הטיפולים ורשימת השירותים</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#56</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">24 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">: אופן קבלת השירותים . 6</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#57</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">230 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">נזקק מנוי לשירות על-פי כתב שירות זה, יפנה טלפונית למוקד השירות, יזדהה בשמו, מספר . 6.1 תעודת  הזהות,  כתובתו,  מס&#x27;  הטלפון  בו  ניתן  להשיגו,  ופרטים  נוספים  הקשורים  למתן . השירות ולמצב הרפואי בגינו נזקק המנוי לשירות, ככל שיתבקש</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="4">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#58</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.4</span>
+        <span class="badge muted">257 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">שעות ביממה, למעט החל מערב יום הכיפורים 24   , מוקד השירות יהא פעיל בכל ימות השנה . 6.2 ועד תום שעתיים לאחר שעת סיום צום יום כיפורים. הספק רשאי לשנות את 14:00 בשעה מספר הטלפון של מוקד השירות, בתיאום ובאישור החברה, ובלבד שימסור על כך הודעה . מראש בכתב למנויים</pre>
+    </div>
+    
+    <div class="item-card" data-kind="PictureItem" data-page="5">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#9ca3af">PictureItem</span>
+        <span class="badge">#59</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.5</span>
+        <span class="badge muted">0 chars</span>
+      </div>
+      <pre class="item-body">(image / logo — no text)</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="5">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#60</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.5</span>
+        <span class="badge muted">128 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">המנוי יעביר לספק, באופן שיורה לו מוקד השירות, את ההפניה בכתב מהרופא לקבלת . 6.3 . לעי   ל 5.1 השירות בשל מצבו הרפואי כאמור בסעיף</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="5">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#61</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.5</span>
+        <span class="badge muted">80 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. השירותים המפורטים בכתב שירות זה יינתנו כנגד הצגת תעודה מזהה לנותן השירות . 6.4</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="5">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#62</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.5</span>
+        <span class="badge muted">98 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">.3.3 על המנוי להגיע למקום קבלת השירות בכוחות עצמו ועל חשבונ  ו, למעט כמצויין בסעיף . 6.5 . לעי   ל</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="5">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#63</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.5</span>
+        <span class="badge muted">82 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. עם סיום כל טיפול, יחתום המנוי על ספח ביקורת המאשר את קבלת הייעוץ או הטיפול . 6.6</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="5">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#64</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.5</span>
+        <span class="badge muted">197 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">ת ספק השירות מתחייב כי השירות יינתן על ידי גורמי מקצוע מתאימים ורלוונטיים לסוג השירו . 6.7 , נשוא  כתב שירות זה, בפריסה גיאוגרפית נאותה וכי יקיים תקשורת יעילה וזמינה עם המנוי . כמוגדר בסעיף זה לעיל</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="5">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#65</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.5</span>
+        <span class="badge muted">70 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">קיומם של הוראות והנחיות הצבא בגין שירותים הניתנים בעת השירות הצבאי . 8</pre>
+    </div>
+    
+    <div class="item-card" data-kind="TableItem" data-page="5">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#d97706">TableItem</span>
+        <span class="badge">#66</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.5</span>
+        <span class="badge muted">1399 chars</span>
+      </div>
+      <pre class="item-body">| | חריגים: | . 7 | |--------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|-------| | או כולם בגינם, שהוצאו הוצאות החזר או לשיפוי ו/או לשירותים זכאי יהיה לא המנוי הבאים: מהמקרים הנובע ו/או הקשור עניין בכל מקצתם, | . 7.1 | | | ( אלכוהול סמים, )עישון, מהרגלים. גמילה ו/או כלשהן התמכרות בעיות | . 7.1.1 | | | רופא ידי על נקבע בו במקרה למעט משקל, שינויי יתר, השמנת בעיות הרזיה, תחומי . 3.1.8 בסעיף כאמור רפואי מצורך נובעת אלו נושאים בגין הטיפול קבלת כי בכתב | . 7.1.2 | | | וחומרים מרפא צמחי תרופות, רכישת בגין המנוי של הוצאות כולל אינו השירות . הטיפול לצורך השירות נותן ידי ל ע שהומלצו אחרים | . 7.1.3 | | | 5.6 בסעיף כאמור למעט ם בהסכ שירות נותן שאינו שירות נותן אצל שירות קבלת ל. לעי | . 7…</pre>
+    </div>
+    
+    <div class="item-card" data-kind="TextItem" data-page="5">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#374151">TextItem</span>
+        <span class="badge">#67</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.5</span>
+        <span class="badge muted">439 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">בעת השרות הצבאי )סדיר, מילואים או קבע(, חלות הוראות והנחיות הצבא, המשתנות מעת לעת והעלולות להגביל ו/או למנוע מהמנוי בעת השרות הצבאי )החייל( קבלת טיפול רפואי באמצעות גורמים רפואיים שמחוץ למסגרת הצבא. מצב זה עלול להשליך על מימוש הזכויות המגיעות למנוי בהתאם . לתנאי כתב השירות . המידע בדבר הוראות והנחיות הצבא המשתנות מעת לעת כאמור לעיל, מצוי אצל רשויות הצבא . בכל מקרה שבו המנוי נמצא בשרות צבאי, עליו להתעדכן בדבר קיומן של הוראות והנחיות אלה</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="5">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#68</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.5</span>
+        <span class="badge muted">21 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">: תשלום דמי המנוי . 9</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="5">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#69</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.5</span>
+        <span class="badge muted">48 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. שיעורם של דמי המנוי קבוע בדף פרטי הביטוח . 9.1</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="5">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#70</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.5</span>
+        <span class="badge muted">200 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">במקרה של תשלום דמי המנוי ע&quot;י הוראת קבע לבנק לתשלום דמי המנוי או בתשלום קבוע . 9.2 באמצעות כרטיס אשראי, תראה החברה את זיכוי חשבונה בבנק או זיכוי חשבון החברה . בחברת האשראי, לפי העניין, כתשלום דמי המנוי</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="5">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#71</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.5</span>
+        <span class="badge muted">42 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">: אם לא ישולמו דמי המנוי במלואם, אזי . 9.3</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="5">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#72</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.5</span>
+        <span class="badge muted">110 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">ה   בהתאם להוראות ל-פי   כתב שירות ז החברה תהיה זכאית לבטל את כתב השירות ע . 9.3.1 .1981 חוק חוזה ביטוח, תשמ&quot;א</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="5">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#73</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.5</span>
+        <span class="badge muted">225 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">, מבלי לגרוע מכלליות האמור לעיל, לא שולמו דמי הביטוח, כולם או מקצתם במועד . 9.3.2 13 יתווספו לסכום שבפיגור וכחלק בלתי נפרד הימנו הפרשי הצמדה כאמור בסעיף ל-ידי החברה באותה עת, מיום היווצר הפיגור ועד להלן וכן ריבית כפי שתיקבע ע</pre>
+    </div>
+    
+    <div class="item-card" data-kind="PictureItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#9ca3af">PictureItem</span>
+        <span class="badge">#74</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">0 chars</span>
+      </div>
+      <pre class="item-body">(image / logo — no text)</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#75</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">103 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">לפירעונו בפועל לחברה, ובלבד ששיעור הריבית לא יעלה על שיעור הריבית המרבי .1957 בהתאם לחוק הריבית, התשי&quot;ז</pre>
+    </div>
+    
+    <div class="item-card" data-kind="SectionHeaderItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#2563eb">SectionHeaderItem</span>
+        <span class="badge">#76</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">27 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">תוקפו של כתב השירו   ת . 10</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#77</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">49 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. כתב השירות ייכנס לתוקפו החל מהמועד הקובע . 10.1</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#78</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">606 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">לעניין תוקפו של כתב השירות יחולו ההוראות בדבר תוקפה, ביטולה  ושינוי של פוליסת . 10.2 הביטוח  אליה  הוא  מצורף,  כפי  שהן  קבועות  בתנאים  הכלליים  של  הפוליסה  ובהתאם להוראות הדין. על אף האמור לעיל, ועל אף ההוראות בדבר תוקפה של הפוליסה הקבועות בתנאים הכללים כאמור, תהיה חברת הביטוח רשאית לבטל את כתב השירות אם יוחלט ם   ההתקשרות על ידיה  לבטלו או שלא לחדשו, לפי העניין, לכלל המנויים במקרה של סיו בין המבטח לספק השירות במידה שלא הגיעה חברת הביטוח להסדר עם ספק שירות חלופי, וזאת בכפוף לאישור המפקח על ביטוח. במקרה זה תינתן למנויים הודעה מוקדמת . יום אשר תועבר למנויים על ידי חברת הביטוח ו/או ספק השירות 60 בת</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#79</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">274 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">מובהר כי המנוי זכאי לבטל את הכתב השירות בכל עת. הביטול יהיה ביטול על ידי המנוי: . 10.3 בתוקף ממועד קבלת הודעת המנוי בחברה. ככל ששולמו ע   ל-ידי המנוי פרמיה בגין כתב השירות בגין התקופה שלאחר הביטול, יוחזר למנוי החלק היחסי של התשלום  ששילם בגין . התקופה שלאחר ביטול כתב השירות</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#80</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">27 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">: ביטול על ידי החברה . 10.4</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#81</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">155 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">בנוסף לאמור בתנאים הכלליים של הפוליסה אליה מצורף כתב שירות זה  ,   תוקפו של . 10.4.1 : כתב השירות, ביחס לכל אחד מהמנויים, יפוג מאליו בתאריך המוקדם מבין אלו</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#82</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">46 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. במועד ביטול הפוליסה מכל סיבה שהיא . 10.4.1.1</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#83</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">63 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. בתום תקופת כתב השירות על פי המפורט בדף פרטי הביטוח . 10.4.1.2</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#84</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">99 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">עם הפסקת תשלום מלוא או חלק דמי המנוי לחברה במועדם בהתאם לחוק חוזה . 10.4.1.3 .  1981 הביטוח, התשמ&quot;א</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#85</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">254 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">לעיל יהיה זכאי מנוי אשר נמצא 10.2 ביטלה החברה את כתב השירות בהתאם לסעיף . 10.4.2 במהלך סדרת טיפולים או מנוי שפנה למוקד השירות טרם מועד ההודעה על הפסקת השירות אך טרם קיבל את השירות בפועל, לקבל או להשלים את קבלת השירות תוך . ממועד ההודעה על הפסקת השירות 90</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#86</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">224 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">להסרת כל ספק יובהר, כי במועד פקיעתו, ביטולו או סיום תקפו של כתב שירות זה, מכל . 10.4.3 10.2 סיבה שהיא,   למעט במקרה של ביטול כתב השירות לכלל המנויים על פי סעיף . ל-פי כתב שירות זה לעיל, תסתיים זכאות של המנוי לקבלת השירותים ע</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#87</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">18 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">תנאי הצמד   ה . 11</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#88</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">210 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">כל  הסכומים  הנקובים  בכתב  השירות  ו/או  בדף  פרטי  הביטוח  ולרבות  דמי  מנוי,  סכומי . 11.1 השתתפות עצמית,   סכומי   השיפוי   יהיו   צמודים למדד. חישוב ההצמדה יעשה בהתאם ליחס . שבין המדד החדש ובין המדד הבסיסי</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#89</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">55 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. המדד הבסיסי - יהיה המדד כמפורט בדף פרטי הביטוח . 11.2</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#90</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">35 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">: המדד החדש יהיה כמפורט להלן . 11.3</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#91</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">116 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">בכל הנוגע לתשלום דמי המנוי   - המדד החדש יהיה המדד האחרון הידוע בראשון . 11.3.1 . לכל חודש שבו מבוצע תשלום דמי המנוי</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="6">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#92</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.6</span>
+        <span class="badge muted">168 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">לגבי כל סכום אחר הנקוב בכתב השירות   -   המדד החדש יהיה המדד האחרון . 11.3.2 ל-ידי הספק ו/או המנוי, לפי העניין, ובלבד שלא הידוע במועד ביצוע התשלום ע . יפחת מהמדד הבסיסי</pre>
+    </div>
+    
+    <div class="item-card" data-kind="PictureItem" data-page="7">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#9ca3af">PictureItem</span>
+        <span class="badge">#93</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.7</span>
+        <span class="badge muted">0 chars</span>
+      </div>
+      <pre class="item-body">(image / logo — no text)</pre>
+    </div>
+    
+    <div class="item-card" data-kind="SectionHeaderItem" data-page="7">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#2563eb">SectionHeaderItem</span>
+        <span class="badge">#94</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.7</span>
+        <span class="badge muted">10 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">שונות . 12</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="7">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#95</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.7</span>
+        <span class="badge muted">87 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. הזכות לקבלת השירות על פי כתב שירות זה הינה אישית, ואין המנוי רשאי להעבירה לאחר . 12.1</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="7">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#96</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.7</span>
+        <span class="badge muted">126 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">כל  התשלומים  הנקובים  בכתב  השירות  זה,  כוללים  מע&quot;מ  כחוק.  אם  יחול  שינוי בשיעור . 12.2 . המע&quot;מ יעודכנו תשלומים אלה בהתאם</pre>
+    </div>
+    
+    <div class="item-card" data-kind="ListItem" data-page="7">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#059669">ListItem</span>
+        <span class="badge">#97</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.7</span>
+        <span class="badge muted">91 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">הודעות שנשלחו למנוי, לפי מענו האחרון שנמסר בכתב לחברה, ייחשבו כהודעות שנמסרו . 12.3 . למנוי</pre>
+    </div>
+    
+    <div class="item-card" data-kind="SectionHeaderItem" data-page="7">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#2563eb">SectionHeaderItem</span>
+        <span class="badge">#98</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.7</span>
+        <span class="badge muted">29 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">מקום השיפוט וברירת די  ן . 13</pre>
+    </div>
+    
+    <div class="item-card" data-kind="TextItem" data-page="7">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#374151">TextItem</span>
+        <span class="badge">#99</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.7</span>
+        <span class="badge muted">101 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">מקום השיפוט הבלעדי בכל הקשור בכתב השירות הוא בבתי המשפט בישראל והדין החל הינו דיני . מדינת ישראל בלבד</pre>
+    </div>
+    
+    <div class="item-card" data-kind="PictureItem" data-page="8">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#9ca3af">PictureItem</span>
+        <span class="badge">#100</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.8</span>
+        <span class="badge muted">0 chars</span>
+      </div>
+      <pre class="item-body">(image / logo — no text)</pre>
+    </div>
+    
+    <div class="item-card" data-kind="TableItem" data-page="8">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#d97706">TableItem</span>
+        <span class="badge">#101</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.8</span>
+        <span class="badge muted">0 chars</span>
+      </div>
+      <pre class="item-body">Table: 1 rows × 4 cols</pre>
+    </div>
+    
+    <div class="item-card" data-kind="SectionHeaderItem" data-page="8">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#2563eb">SectionHeaderItem</span>
+        <span class="badge">#102</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.8</span>
+        <span class="badge muted">58 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">( תמצית תנאי כתב השירות-   שירותי רפואה משלימה )אלטרנטיבית</pre>
+    </div>
+    
+    <div class="item-card" data-kind="SectionHeaderItem" data-page="8">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#2563eb">SectionHeaderItem</span>
+        <span class="badge">#103</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.8</span>
+        <span class="badge muted">21 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">אצל נותן שירות שבהסכם</pre>
+    </div>
+    
+    <div class="item-card" data-kind="SectionHeaderItem" data-page="8">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#2563eb">SectionHeaderItem</span>
+        <span class="badge">#104</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.8</span>
+        <span class="badge muted">29 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">10/2023 מהדורה 524 מספר תכנית</pre>
+    </div>
+    
+    <div class="item-card" data-kind="TableItem" data-page="8">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#d97706">TableItem</span>
+        <span class="badge">#105</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.8</span>
+        <span class="badge muted">11395 chars</span>
+      </div>
+      <pre class="item-body">| השירות כתב פרטי תמצית | השירות כתב פרטי תמצית | השירות כתב פרטי תמצית | השירות כתב פרטי תמצית | |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------…</pre>
+    </div>
+    
+    <div class="item-card" data-kind="TextItem" data-page="8">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#374151">TextItem</span>
+        <span class="badge">#106</span>
+        <span class="badge">level 2</span>
+        <span class="badge page">p.8</span>
+        <span class="badge muted">160 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">1 תקופת אכשרה - תקופה המתחילה במועד כניסתו לתוקף של כתב השירות לגבי המנוי. ב  קרות מקרה כתב שירות במהלך תקופה   זו, לא יהיה זכאי המנוי לשירותים מכוח כתב השירות.</pre>
+    </div>
+    
+    <div class="item-card" data-kind="PictureItem" data-page="9">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#9ca3af">PictureItem</span>
+        <span class="badge">#107</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.9</span>
+        <span class="badge muted">0 chars</span>
+      </div>
+      <pre class="item-body">(image / logo — no text)</pre>
+    </div>
+    
+    <div class="item-card" data-kind="TableItem" data-page="9">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#d97706">TableItem</span>
+        <span class="badge">#108</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.9</span>
+        <span class="badge muted">2987 chars</span>
+      </div>
+      <pre class="item-body">| ת שירו בכתב השירותים תיאור תמצית | ת שירו בכתב השירותים תיאור תמצית | ת שירו בכתב השירותים תיאור תמצית | |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------…</pre>
+    </div>
+    
+    <div class="item-card" data-kind="SectionHeaderItem" data-page="9">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#2563eb">SectionHeaderItem</span>
+        <span class="badge">#109</span>
+        <span class="badge">level 1</span>
+        <span class="badge page">p.9</span>
+        <span class="badge muted">69 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">. התנאים המלאים והמחייבים הינם התנאים המפורטים בפוליסה ובכתב ה  שירות</pre>
+    </div>
+    </div>
+    </section>
+
+    
+        <section id="txt-sample">
+          <h2>TXT sample — earthquak-insurance-coverage.txt</h2>
+          <p class="note warn">Docling sees this as <strong>1 item(s)</strong> with no page numbers.
+          Web scrapes need custom cleaning — Docling does not split nav/footer from content.</p>
+          <div class="item-list">
+    <div class="item-card" data-kind="TextItem" data-page="">
+      <div class="item-head">
+        <span class="kind-pill" style="background:#374151">TextItem</span>
+        <span class="badge">#0</span>
+        <span class="badge">level 1</span>
+        <span class="badge muted">no page</span>
+        <span class="badge muted">3170 chars</span>
+      </div>
+      <pre class="item-body hebrew" dir="rtl">מדוע חשוב לרכוש כיסוי מפני רעידת אדמה במסגרת ביטוח הדירה? | הראל ביטוח ופיננסים דלג לתוכן ראשי דלג לתפריט תחתון פעולות נפוצות ביטוח חיסכון ופנסיה הראל פיננסים משכנתא והלוואה חיפוש אזור אישי ביטוח ביטוח דירה ורכוש כדאי לדעת מדוע חשוב לרכוש כיסוי מפני רעידת אדמה במסגרת ביטוח הדירה? כיסוי רעידת אדמה בביטוח דירה מבוטחים רבים טועים לחשוב כי מדינת ישראל היא האחראית למתן פיצוי כספי מלא עקב נזקי רעידת אדמה לבתי מגורים. לכן, רבים מרוכשי פוליסות ביטוח הדירה בוחרים לוותר על כיסוי כנגד סיכוני רעידת אדמה. בפועל, חוק פיצוי נפגעי אסון טבע אמנם כולל בתוכו רעידות אדמה, אך הוא מתייחס לנזקים לתשתית חקלאית בלבד. כלומר, המדינה אינה מחויבת לפצות אזרחים עקב נזקים שנגרמו למבני מגורים. בדיוק בשל סיבה זו חשוב לא לוותר על כיסוי רעידת אדמה בביטוח הדירה הרכב הכיסויים בביטוח דירה ותכולתה חשיבות הכיסוי הביטוחי מפני רעידת אדמה דגשים נוספים לרוכשים כיסוי מפני רעידת אדמה בהראל לסיכום פורטלים מקצועיים אודות קבוצת הראל כניסה לסוכנים כניסה למעסיקים כניסה לספקים כניסה לרופאים קריירה בהראל הראל לשירותך שירות לקוחות הצהרת נגישות אחריות תאגידית עיון במידע אישי תנאי שימוש ומדיניות הפרטיות Investor Relations אמנת השירות מידע בדבר תגמול לבעל רישיון תובענות ייצוגיות - הודעות לציבור עדכון בגיר לצורך זיהוי באתר &quot;הר הביטוח&quot; שירות ללקוחות כבדי שמיעה - Sign Now בססח - ביטוח אשראי שירות ותמיכה לחברות Fintech אימות נתוני פרוייקטים בבנייה מועדון זמן הראל עדכונים בעקבות המצב הבטחוני ביטוח ביטוח רכב ביטוח חיים ביטוח נסיעות לחו&quot;ל ביטוח אובדן כושר עבודה ביטוח בריאות ביטוח מחלות קשות ביטוח תאונות אישיות ביטוח סיעודי ביטוח עובדים זרים ותיירים ביטוח שיניים ביטוח מקיף לרכב ביטוח חובה לרכב ביטוח צד ג&#x27; לרכב ביטוח משכנתא ביטוח עסק ביטוח דירה ארכיון פוליסות שירביט - מוצרי ביטוח שירביט - ארכיון פוליסות פנסיה, גמל, השתלמות וחיסכון הראל Fidelity קרנות פנסיה קרנות השתלמות הלוואה מחיסכון ארוך טווח קופות גמל ביטוח מנהלים (ביטוח חיים פנסיוני) קופות מרכזיות למעסיק משכנתא + קופת גמל חיסכון לכל ילד משכנתא 60+ (משכנתא הפוכה) קופת גמל להשקעה חיסכון והשקעה המרכז לתכנון כלכלי מתקדם פיננסים והשקעות ניהול תיקי השקעות השקעות אלטרנטיביות מחקר וסקירות קרנות נאמנות קריירה בהראל פורטלים מקצועיים אודות קבוצת הראל כניסה לסוכנים כניסה למעסיקים כניסה לספקים כניסה לרופאים הראל לשירותך שירות לקוחות הצהרת נגישות אחריות תאגידית עיון במידע אישי תנאי שימוש ומדיניות הפרטיות Investor Relations אמנת השירות מידע בדבר תגמול לבעל רישיון תובענות ייצוגיות - הודעות לציבור עדכון בגיר לצורך זיהוי באתר &quot;הר הביטוח&quot; שירות ללקוחות כבדי שמיעה - Sign Now בססח - ביטוח אשראי שירות ותמיכה לחברות Fintech אימות נתוני פרוייקטים בבנייה מועדון זמן הראל עדכונים בעקבות המצב הבטחוני ביטוח ביטוח רכב ביטוח חיים ביטוח נסיעות לחו&quot;ל ביטוח אובדן כושר עבודה ביטוח בריאות ביטוח מחלות קשות ביטוח תאונות אישיות ביטוח סיעודי ביטוח עובדים זרים ותיירים ביטוח שיניים ביטוח מקיף לרכב ביטוח חובה לרכב ביטוח צד ג&#x27; לרכב ביטוח משכנתא ביטוח עסק ביטוח דירה ארכיון פוליסות שירביט - מוצרי ביטוח שירביט - ארכיון פוליסות פנסיה, גמל, השתלמות וחיסכון הראל Fidelity קרנות פנסיה קרנות השתלמות הלוואה מחיסכון ארוך טווח קופות גמל ביטוח מנהלים (ביטוח חיים פנסיוני) קופות מרכזיות למעסיק משכנתא + קופת גמל חיסכון לכל ילד משכנתא 60+ (משכנתא הפוכה) קופת גמל להשקעה חיסכון והשקעה המרכז לתכנון כלכלי מתקדם פיננסים והשקעות ניהול תיקי השקעות השקעות אלטרנטיביות מחקר וסקירות קרנות נאמנות</pre>
+    </div>
+    </div>
+          <details><summary>Exported markdown</summary><pre class="md-preview hebrew" dir="rtl">מדוע חשוב לרכוש כיסוי מפני רעידת אדמה במסגרת ביטוח הדירה? | הראל ביטוח ופיננסים דלג לתוכן ראשי דלג לתפריט תחתון פעולות נפוצות ביטוח חיסכון ופנסיה הראל פיננסים משכנתא והלוואה חיפוש אזור אישי ביטוח ביטוח דירה ורכוש כדאי לדעת מדוע חשוב לרכוש כיסוי מפני רעידת אדמה במסגרת ביטוח הדירה? כיסוי רעידת אדמה בביטוח דירה מבוטחים רבים טועים לחשוב כי מדינת ישראל היא האחראית למתן פיצוי כספי מלא עקב נזקי רעידת אדמה לבתי מגורים. לכן, רבים מרוכשי פוליסות ביטוח הדירה בוחרים לוותר על כיסוי כנגד סיכוני רעידת אדמה. בפועל, חוק פיצוי נפגעי אסון טבע אמנם כולל בתוכו רעידות אדמה, אך הוא מתייחס לנזקים לתשתית חקלאית בלבד. כלומר, המדינה אינה מחויבת לפצות אזרחים עקב נזקים שנגרמו למבני מגורים. בדיוק בשל סיבה זו חשוב לא לוותר על כיסוי רעידת אדמה בביטוח הדירה הרכב הכיסויים בביטוח דירה ותכולתה חשיבות הכיסוי הביטוחי מפני רעידת אדמה דגשים נוספים לרוכשים כיסוי מפני רעידת אדמה בהראל לסיכום פורטלים מקצועיים אודות קבוצת הראל כניסה לסוכנים כניסה למעסיקים כניסה לספקים כניסה לרופאים קריירה בהראל הראל לשירותך שירות לקוחות הצהרת נגישות אחריות תאגידית עיון במידע אישי תנאי שימוש ומדיניות הפרטיות Investor Relations אמנת השירות מידע בדבר תגמול לבעל רישיון תובענות ייצוגיות - הודעות לציבור עדכון בגיר לצורך זיהוי באתר &quot;הר הביטוח&quot; שירות ללקוחות כבדי שמיעה - Sign Now בססח - ביטוח אשראי שירות ותמיכה לחברות Fintech אימות נתוני פרוייקטים בבנייה מועדון זמן הראל עדכונים בעקבות המצב הבטחוני ביטוח ביטוח רכב ביטוח חיים ביטוח נסיעות לחו&quot;ל ביטוח אובדן כושר עבודה ביטוח בריאות ביטוח מחלות קשות ביטוח תאונות אישיות ביטוח סיעודי ביטוח עובדים זרים ותיירים ביטוח שיניים ביטוח מקיף לרכב ביטוח חובה לרכב ביטוח צד ג&#x27; לרכב ביטוח משכנתא ביטוח עסק ביטוח דירה ארכיון פוליסות שירביט - מוצרי ביטוח שירביט - ארכיון פוליסות פנסיה, גמל, השתלמות וחיסכון הראל Fidelity קרנות פנסיה קרנות השתלמות הלוואה מחיסכון ארוך טווח קופות גמל ביטוח מנהלים (ביטוח חיים פנסיוני) קופות מרכזיות למעסיק משכנתא + קופת גמל חיסכון לכל ילד משכנתא 60+ (משכנתא הפוכה) קופת גמל להשקעה חיסכון והשקעה המרכז לתכנון כלכלי מתקדם פיננסים והשקעות ניהול תיקי השקעות השקעות אלטרנטיביות מחקר וסקירות קרנות נאמנות קריירה בהראל פורטלים מקצועיים אודות קבוצת הראל כניסה לסוכנים כניסה למעסיקים כניסה לספקים כניסה לרופאים הראל לשירותך שירות לקוחות הצהרת נגישות אחריות תאגידית עיון במידע אישי תנאי שימוש ומדיניות הפרטיות Investor Relations אמנת השירות מידע בדבר תגמול לבעל רישיון תובענות ייצוגיות - הודעות לציבור עדכון בגיר לצורך זיהוי באתר &quot;הר הביטוח&quot; שירות ללקוחות כבדי שמיעה - Sign Now בססח - ביטוח אשראי שירות ותמיכה לחברות Fintech אימות נתוני פרוייקטים בבנייה מועדון זמן הראל עדכונים בעקבות המצב הבטחוני ביטוח ביטוח רכב ביטוח חיים ביטוח נסיעות לחו&quot;ל ביטוח אובדן כושר עבודה ביטוח בריאות ביטוח מחלות קשות ביטוח תאונות אישיות ביטוח סיעודי ביטוח עובדים זרים ותיירים ביטוח שיניים ביטוח מקיף לרכב ביטוח חובה לרכב ביטוח צד ג&#x27; לרכב ביטוח משכנתא ביטוח עסק ביטוח דירה ארכיון פוליסות שירביט - מוצרי ביטוח שירביט - ארכיון פוליסות פנסיה, גמל, השתלמות וחיסכון הראל Fidelity קרנות פנסיה קרנות השתלמות הלוואה מחיסכון ארוך טווח קופות גמל ביטוח מנהלים (ביטוח חיים פנסיוני) קופות מרכזיות למעסיק משכנתא + קופת גמל חיס…</pre></details>
+        </section>
+        
+  </main>
+  <script>
+    const jump = document.getElementById('page-jump');
+    const kindFilter = document.getElementById('kind-filter');
+    const search = document.getElementById('search');
+
+    function applyFilters() {
+      const page = jump.value;
+      const kind = kindFilter.value.toLowerCase();
+      const q = search.value.trim().toLowerCase();
+      document.querySelectorAll('.page-section').forEach(sec => {
+        sec.classList.toggle('hidden', page && sec.dataset.page !== page);
+      });
+      document.querySelectorAll('.item-card').forEach(card => {
+        const matchKind = !kind || (card.dataset.kind || '').toLowerCase() === kind;
+        const text = (card.innerText || '').toLowerCase();
+        const matchSearch = !q || text.includes(q);
+        card.classList.toggle('hidden', !(matchKind && matchSearch));
+        card.classList.toggle('highlight', q && matchSearch && q.length > 2);
+      });
+    }
+    jump.addEventListener('change', () => { applyFilters(); if (jump.value) document.getElementById('page-' + jump.value)?.scrollIntoView({behavior:'smooth'}); });
+    kindFilter.addEventListener('change', applyFilters);
+    search.addEventListener('input', applyFilters);
+  </script>
+</body>
+</html>

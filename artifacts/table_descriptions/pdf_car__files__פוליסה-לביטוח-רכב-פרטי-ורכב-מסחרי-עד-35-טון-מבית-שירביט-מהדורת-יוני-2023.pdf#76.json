@@ -1,0 +1,29 @@
+{
+  "id": "pdf:car/files/פוליסה-לביטוח-רכב-פרטי-ורכב-מסחרי-עד-35-טון-מבית-שירביט-מהדורת-יוני-2023.pdf#76",
+  "source": "llm",
+  "description": {
+    "title": "שירביט - ביטוח רכב",
+    "summary": "This table details how the value of a vehicle depreciates based on its age and kilometers driven, used to determine payouts for car insurance claims. It looks up vehicle value based on year of manufacture and kilometers traveled.",
+    "embed_passage": "פוליסת שירביט לביטוח רכב מתחשבת בגיל הרכב ובמספר הקילומטרים שנסע. לדוגמא, אם שנת הייצור של הרכב קודמת ליום קרות מקרה הביטוח ב־4 שנים ונסע 60,000 ק״מ, שווי הרכב יחושב לפי מחירון מותאם. אם הרכב נסע רק 44,000 ק״מ, יווספו 4% לשווי הרכב המופיע במחירון.",
+    "row_axis": "Vehicle age/year of manufacture",
+    "column_axis": "Kilometers driven",
+    "units": [
+      "שנים",
+      "ק״מ",
+      "%"
+    ],
+    "notable_values": [
+      "שנים: 4",
+      "ק״מ: 60,000",
+      "ק״מ: 44,000",
+      "אחוז תוספת: 4%"
+    ],
+    "product_hints": [
+      "שירביט",
+      "ביטוח רכב"
+    ]
+  },
+  "sketch": "שנים, מחירו 4ולדוגמא: אם שנת הייצור של הרכב המבוטח קודמת ליום קרות מקרה הביטוח ב ק\"מ בממוצע. 60,000 במחירון מותאם לרכב שנסע במשך זמן זה\nלשווי הרכב המופיע במחירון. 4% , ק\"מ - יווספו, עפ\"י המחירון הנ\"ל 44,000 אם הרכב נסע רק\nפרק ב׳: ביטוח אחריות כלפי צד שלישי בשל נזקי רכוש\n. מקרה הביטוח 11\nמקרה הביטוח הוא חבות המבוטח בשל נזק שיגרם לרכוש של צד שלישי כתוצאה משימוש ברכב בתקופת הביטוח.",
+  "embed_text": "פוליסת שירביט לביטוח רכב מתחשבת בגיל הרכב ובמספר הקילומטרים שנסע. לדוגמא, אם שנת הייצור של הרכב קודמת ליום קרות מקרה הביטוח ב־4 שנים ונסע 60,000 ק״מ, שווי הרכב יחושב לפי מחירון מותאם. אם הרכב נסע רק 44,000 ק״מ, יווספו 4% לשווי הרכב המופיע במחירון.",
+  "payload": "טבלה: שירביט - ביטוח רכב\nThis table details how the value of a vehicle depreciates based on its age and kilometers driven, used to determine payouts for car insurance claims. It looks up vehicle value based on year of manufacture and kilometers traveled.\nממדים: Vehicle age/year of manufacture, Kilometers driven\n\nשנים, מחירו 4ולדוגמא: אם שנת הייצור של הרכב המבוטח קודמת ליום קרות מקרה הביטוח ב ק\"מ בממוצע. 60,000 במחירון מותאם לרכב שנסע במשך זמן זה\nלשווי הרכב המופיע במחירון. 4% , ק\"מ - יווספו, עפ\"י המחירון הנ\"ל 44,000 אם הרכב נסע רק\nפרק ב׳: ביטוח אחריות כלפי צד שלישי בשל נזקי רכוש\n. מקרה הביטוח 11\nמקרה הביטוח הוא חבות המבוטח בשל נזק שיגרם לרכוש של צד שלישי כתוצאה משימוש ברכב בתקופת הביטוח."
+}

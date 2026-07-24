@@ -1,0 +1,27 @@
+{
+  "id": "pdf:apartment/files/חוברת-הכללים-לגבי-פוליסות-שנרכשו-לאחר-ה-030917.pdf#80",
+  "source": "llm",
+  "description": {
+    "title": "דיווח נזק",
+    "summary": "This table is for reporting damage claims. It allows you to look up claim details based on location, damage amount, and event information.",
+    "embed_passage": "טופס זה מיועד לדיווח על נזק שנגרם, כגון נזק לרכוש או לגוף. ניתן לדווח על סכום נזק משוער בשקלים, ולספק פרטים על האירוע שגרם לנזק. לדוגמה, סכום נזק יכול להיות ₪, וניתן לציין את קוד הישוב של מקום האירוע.",
+    "row_axis": "Individual damage claim report",
+    "column_axis": "Claim details (damage amount, location, event, agent, contact info)",
+    "units": [
+      "₪"
+    ],
+    "notable_values": [
+      "קוד ישוב: unknown",
+      "סכום נזק משוער: unknown",
+      "דואר אלקטרוני: unknown",
+      "הביטוח: חברת שם כן, אם כן. לא",
+      "מס' ת.ז.: unknown"
+    ],
+    "product_hints": [
+      "חברת שם"
+    ]
+  },
+  "sketch": "קוד ישוב,אלקטרוני דואר ],מקום משוער כספי נזק,האירוע,,,הערות,,,,,\"הביטוח: חברת שם כן, אם כן. לא\"\n,הסוכן שם,,,EMAIL,,,,,,,,,,",
+  "embed_text": "טופס זה מיועד לדיווח על נזק שנגרם, כגון נזק לרכוש או לגוף. ניתן לדווח על סכום נזק משוער בשקלים, ולספק פרטים על האירוע שגרם לנזק. לדוגמה, סכום נזק יכול להיות ₪, וניתן לציין את קוד הישוב של מקום האירוע.",
+  "payload": "טבלה: דיווח נזק\nThis table is for reporting damage claims. It allows you to look up claim details based on location, damage amount, and event information.\nממדים: Individual damage claim report, Claim details (damage amount, location, event, agent, contact info)\n\nקוד ישוב,אלקטרוני דואר ],מקום משוער כספי נזק,האירוע,,,הערות,,,,,\"הביטוח: חברת שם כן, אם כן. לא\"\n,הסוכן שם,,,EMAIL,,,,,,,,,,"
+}

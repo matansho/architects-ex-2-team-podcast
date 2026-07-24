@@ -1,0 +1,28 @@
+{
+  "id": "pdf:travel/files/תעריפון-דרכון-first-class.pdf#2",
+  "source": "llm",
+  "description": {
+    "title": "תעריפי דרכון",
+    "summary": "This table lists insurance rates for 'דרכון' travel insurance for destinations including the United States. It allows looking up the daily insurance fee based on the duration of the trip and the insured's age.",
+    "embed_passage": "ביטוח הנסיעות 'דרכון' מציע כיסויים שונים, כאשר דמי הביטוח משתנים בהתאם לגיל המבוטח ומשך הנסיעה. לדוגמה, עבור נסיעה של 365 יום, דמי הביטוח הם $3.50 עבור גילאים 0-50. הכיסוי כולל חבות צד ג׳, איתור וחילוץ.",
+    "row_axis": "Duration of trip (in days)",
+    "column_axis": "Insured's age range",
+    "units": [
+      "$ / יום"
+    ],
+    "notable_values": [
+      "Duration: 365 days",
+      "Age range: 0-50",
+      "Daily fee: $3.50",
+      "Duration: 60 days",
+      "Daily fee: $21.20"
+    ],
+    "product_hints": [
+      "דרכון",
+      "First Class"
+    ]
+  },
+  "sketch": "FI567 CL$66 תעריפים דרכון יעד ארצות הברית\nלנסיעה 1-20 פוליסה בסיסית - דמי ביטוח עבור ימים\nמרבית תקופה,\"ליום: הביטוח דמי ,' ג צד כלפי חבות בסיס, וחילוץ* איתור חיפוש\",המובטח גיל\nיום 365,$3.50,0-50\n…\nיום 60,$21.20,76-80\nיום 30,$ 21.20,81-85\nיום 30,$32.50,86-95\nליום וכיסוי חבות צד שלישי ניתן כהטבה ללא עלות. ניתן לבקש להסיר כיסויים אלה. $  0.20 *המחיר כולל כיסוי לאיתור וחילוץ בסך של",
+  "embed_text": "ביטוח הנסיעות 'דרכון' מציע כיסויים שונים, כאשר דמי הביטוח משתנים בהתאם לגיל המבוטח ומשך הנסיעה. לדוגמה, עבור נסיעה של 365 יום, דמי הביטוח הם $3.50 עבור גילאים 0-50. הכיסוי כולל חבות צד ג׳, איתור וחילוץ.",
+  "payload": "טבלה: תעריפי דרכון\nThis table lists insurance rates for 'דרכון' travel insurance for destinations including the United States. It allows looking up the daily insurance fee based on the duration of the trip and the insured's age.\nממדים: Duration of trip (in days), Insured's age range\n\nFI567 CL$66 תעריפים דרכון יעד ארצות הברית\nלנסיעה 1-20 פוליסה בסיסית - דמי ביטוח עבור ימים\nמרבית תקופה,\"ליום: הביטוח דמי ,' ג צד כלפי חבות בסיס, וחילוץ* איתור חיפוש\",המובטח גיל\nיום 365,$3.50,0-50\nיום 180,$3.50,51-60\nיום 120,$6.80,61-65\nיום 120,$9.70,66-70\nיום 120,$11.60,71-75\nיום 60,$21.20,76-80\nיום 30,$ 21.20,81-85\nיום 30,$32.50,86-95\nליום וכיסוי חבות צד שלישי ניתן כהטבה ללא עלות. ניתן לבקש להסיר כיסויים אלה. $  0.20 *המחיר כולל כיסוי לאיתור וחילוץ בסך של"
+}

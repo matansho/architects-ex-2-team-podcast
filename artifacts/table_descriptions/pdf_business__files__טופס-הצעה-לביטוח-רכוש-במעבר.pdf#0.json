@@ -1,0 +1,25 @@
+{
+  "id": "pdf:business/files/טופס-הצעה-לביטוח-רכוש-במעבר.pdf#0",
+  "source": "llm",
+  "description": {
+    "title": "ביטוח רכוש במעבר",
+    "summary": "This table details insurance policies for goods in transit. It allows looking up policy details based on policy number and dollar amount.",
+    "embed_passage": "ביטוח רכוש במעבר מציע כיסוי לאובדן או נזק לסחורות במהלך הובלה. הפוליסה מס' יכול להיות 0, 1 או 2, והכיסוי ניתן בדולרים. לדוגמה, ניתן לבדוק את מסכום הביטוח עבור פוליסה מס' 1.",
+    "row_axis": "Policy details",
+    "column_axis": "Policy attributes (Policy Number, Dollar Amount)",
+    "units": [
+      "דולר"
+    ],
+    "notable_values": [
+      "קודם פוליסה מס': 0",
+      "הפוליסה מס': 1",
+      "דולר: 2"
+    ],
+    "product_hints": [
+      "ביטוח רכוש במעבר"
+    ]
+  },
+  "sketch": "הטופס מיועד לנשים וגברים כאחד. הקפד למלא טופס זה באופן מדויק ושלם.\n0,1,2\nקודם פוליסה מס',הפוליסה מס',דולר",
+  "embed_text": "ביטוח רכוש במעבר מציע כיסוי לאובדן או נזק לסחורות במהלך הובלה. הפוליסה מס' יכול להיות 0, 1 או 2, והכיסוי ניתן בדולרים. לדוגמה, ניתן לבדוק את מסכום הביטוח עבור פוליסה מס' 1.",
+  "payload": "טבלה: ביטוח רכוש במעבר\nThis table details insurance policies for goods in transit. It allows looking up policy details based on policy number and dollar amount.\nממדים: Policy details, Policy attributes (Policy Number, Dollar Amount)\n\nהטופס מיועד לנשים וגברים כאחד. הקפד למלא טופס זה באופן מדויק ושלם.\n0,1,2\nקודם פוליסה מס',הפוליסה מס',דולר"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pdf:business/files/טופס-הצעה-לביטוח-אחריות-מקצועית-למוסדות-רפואיים.pdf#4",
+  "source": "llm",
+  "description": {
+    "title": "ביטוח אחריות מקצועית",
+    "summary": "This table details the scope of practice for professional liability insurance for medical institutions. It helps determine coverage based on the types of medical services offered and the volume of patients.",
+    "embed_passage": "טופס הצעה לביטוח אחריות מקצועית למוסדות רפואיים בודק את תחומי העיסוק של המוסד, כגון פעילות כירורגית שאינה בתחום הפלסטיקה, שירותי הדמיה ואולטרסאונד, ומספר בדיקות הדמיה בשנה. לדוגמה, השאלה 'האם הפעילות כוללת אולטרסאונד מיילדות' היא חלק מההערכה, כמו גם האם מתבצעת סקירת מערכות.",
+    "row_axis": "types of medical activities/services",
+    "column_axis": "yes/no answers or numerical data related to the activity",
+    "units": [],
+    "notable_values": [
+      "תחומי עיסוק נוספים: 5",
+      "פעילות כירורגית (שאינה בתחום הפלסטיקה): לא",
+      "אולטרסאונד מיילדות: ?",
+      "סקירת מערכות: כן",
+      "בדיקות הדמיה ואולטרסאונד בשנה: ?"
+    ],
+    "product_hints": [
+      "ביטוח אחריות מקצועית",
+      "ביטוח רפואי"
+    ]
+  },
+  "sketch": "תחומי עיסוק נוספים 5\nלא\nכן\n?( האם מתבצעת פעילות כירורגית )שאינה בתחום הפלסטיקה\n…\nד .\nבאם ניתנים שירותי הדמיה ואולטרסאונד:\nלא\n. א ? האם הפעילות כוללת אולטרסאונד מיילדות",
+  "embed_text": "טופס הצעה לביטוח אחריות מקצועית למוסדות רפואיים בודק את תחומי העיסוק של המוסד, כגון פעילות כירורגית שאינה בתחום הפלסטיקה, שירותי הדמיה ואולטרסאונד, ומספר בדיקות הדמיה בשנה. לדוגמה, השאלה 'האם הפעילות כוללת אולטרסאונד מיילדות' היא חלק מההערכה, כמו גם האם מתבצעת סקירת מערכות.",
+  "payload": "טבלה: ביטוח אחריות מקצועית\nThis table details the scope of practice for professional liability insurance for medical institutions. It helps determine coverage based on the types of medical services offered and the volume of patients.\nממדים: types of medical activities/services, yes/no answers or numerical data related to the activity\n\nתחומי עיסוק נוספים 5\nלא\nכן\n?( האם מתבצעת פעילות כירורגית )שאינה בתחום הפלסטיקה\nכירורגיה גדולה\nכירורגיה בינונית\nכירורגיה קטנה\nנא פרט מספר הפרוצדורות הכירורגיות שבוצעו בשנה החולפת בחלוקה לסוגיהן:\nבאם מבוצעים טיפולים בתחום הכירוכגיה הפלסטית, נא לפרט את מספר הניתוחים והפרוצדורות, בחלוקה לסוגיהם:\n.\nא\n.\nב\nג.\nד .\nבאם מבוצעים טיפולים בתחום האסתטיקה שאינה כירורגית, נא לפרט את מספר הטיפולים והפרוצדורות, בחלוקה לסוגיהם:\n.\nא\n.\nב\nג.\nד .\nבאם ניתנים שירותי הדמיה ואולטרסאונד:\nלא\n. א ? האם הפעילות כוללת אולטרסאונד מיילדות"
+}

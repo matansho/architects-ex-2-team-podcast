@@ -1,0 +1,25 @@
+{
+  "id": "pdf:health/files/כתב-שירות-מרכז-פרטי-לאבחון-רפואי-מהיר.pdf#10",
+  "source": "llm",
+  "description": {
+    "title": "אבחון רפואי מהיר",
+    "summary": "This table details medical diagnostic processes and hospitalization conditions covered under a health insurance plan. It outlines the criteria for diagnosis and hospitalization, including required continuous hours of stay.",
+    "embed_passage": "פוליסת ביטוח בריאות הראל כוללת תהליך אבחון רפואי לקביעת אופי המחלה או ההפרעה, וכן תנאים לאשפוז רצוף בבית חולים ציבורי או פרטי. אשפוז דורש שהייה רצופה של לפחות 24 שעות במחלקות מוגדרות, למעט מחלקות שיקום. תהליך האבחון מתבצע על פי סימנים ותסמינים, באמצעות רופא מומחה ובדיקות רפואיות.",
+    "row_axis": "medical process / condition",
+    "column_axis": "definition / criteria",
+    "units": [],
+    "notable_values": [
+      "אשפוז: 24 שעות",
+      "Diagnosis: תהליך אבחון",
+      "אשפוז: מחלקות מוגדרות על ידי בית החולים",
+      "אשפוז: למעט מחלקות שיקום"
+    ],
+    "product_hints": [
+      "הראל",
+      "פוליסת ביטוח בריאות"
+    ]
+  },
+  "sketch": ", ( - תהליך רפואי שעובר מנוי כדי לקבוע את אופי המחלה או ההפרעה Diagnosis) תהליך אבחון .1.12 . בחנתיות על פי סימנים ותסמינים, באמצעות רופא מומחה ובדיקות רפואיות   א\n, שהייה רצופה של המבוטח בבית חולים ציבורי או פרטי על פי הוראה מפורשת של רופא מוסמך : אשפוז .1.13 שעות ברציפות, במחלקות המוגדרות על ידי בית החולים ו/או משרד הבריאות כמחלקות 24 לפחות . למעט מחלקות שיקום , אשפוז",
+  "embed_text": "פוליסת ביטוח בריאות הראל כוללת תהליך אבחון רפואי לקביעת אופי המחלה או ההפרעה, וכן תנאים לאשפוז רצוף בבית חולים ציבורי או פרטי. אשפוז דורש שהייה רצופה של לפחות 24 שעות במחלקות מוגדרות, למעט מחלקות שיקום. תהליך האבחון מתבצע על פי סימנים ותסמינים, באמצעות רופא מומחה ובדיקות רפואיות.",
+  "payload": "טבלה: אבחון רפואי מהיר\nThis table details medical diagnostic processes and hospitalization conditions covered under a health insurance plan. It outlines the criteria for diagnosis and hospitalization, including required continuous hours of stay.\nממדים: medical process / condition, definition / criteria\n\n, ( - תהליך רפואי שעובר מנוי כדי לקבוע את אופי המחלה או ההפרעה Diagnosis) תהליך אבחון .1.12 . בחנתיות על פי סימנים ותסמינים, באמצעות רופא מומחה ובדיקות רפואיות   א\n, שהייה רצופה של המבוטח בבית חולים ציבורי או פרטי על פי הוראה מפורשת של רופא מוסמך : אשפוז .1.13 שעות ברציפות, במחלקות המוגדרות על ידי בית החולים ו/או משרד הבריאות כמחלקות 24 לפחות . למעט מחלקות שיקום , אשפוז"
+}

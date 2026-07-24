@@ -4,3 +4,8 @@ pydantic>=2
 requests
 litellm
 huggingface_hub
+docling==2.113.0
+sentence-transformers==5.6.0
+qdrant-client==1.18.0
+click==8.1.8
+rank-bm25==0.2.2

@@ -1,0 +1,24 @@
+{
+  "id": "pdf:business/files/פוליסת-מכלול-לחבר-מושב-מהדורת-ינואר-2023.pdf#225",
+  "source": "llm",
+  "description": {
+    "title": "מכלול - סיכונים לא מכוסים",
+    "summary": "This table lists risks not covered under the 'Mekhalel' insurance policy. It details events like war, terrorism, and government actions that are excluded from coverage.",
+    "embed_passage": "פוליסת מכלול אינה מכסה אבדן או נזק שנגרמו כתוצאה ממלחמה, פעולות אויב או פיגועים חבלניים. הכיסוי אינו חל על מלחמת אזרחים, מרד או התקוממות צבאית. רכוש שהוחרם או הופקע על ידי הממשלה אינו זכאי לפיצוי.",
+    "row_axis": "Specific excluded risk",
+    "column_axis": "Description of the excluded risk",
+    "units": [],
+    "notable_values": [
+      "מלחמה: פעולות אויב, פיגועים חבלניים",
+      "מלחמת אזרחים: מרד, התקוממות צבאית",
+      "קרינה מייננת: זיהום רדיואקטיבי",
+      "תפיסה: הפקעה, החרמה"
+    ],
+    "product_hints": [
+      "מכלול"
+    ]
+  },
+  "sketch": "מלחמה, פעולות אויב, פיגועים חבלניים, .2.1\nמלחמת אזרחים, מרד, התקוממות צבאית או עממית, מהפכה, .2.2\nקרינה מייננת, זיהום רדיואקטיבי, תהליכים גרעיניים, חומר גרעיני או פסולת גרעינית. .2.3\n, תפיסה, הפקעה, החרמה, השמדה או הריסה של רכוש בידי הממשלה, הצבא .2.4 רשות מקומית, או אדם הפועל על פי דין.",
+  "embed_text": "פוליסת מכלול אינה מכסה אבדן או נזק שנגרמו כתוצאה ממלחמה, פעולות אויב או פיגועים חבלניים. הכיסוי אינו חל על מלחמת אזרחים, מרד או התקוממות צבאית. רכוש שהוחרם או הופקע על ידי הממשלה אינו זכאי לפיצוי.",
+  "payload": "טבלה: מכלול - סיכונים לא מכוסים\nThis table lists risks not covered under the 'Mekhalel' insurance policy. It details events like war, terrorism, and government actions that are excluded from coverage.\nממדים: Specific excluded risk, Description of the excluded risk\n\nמלחמה, פעולות אויב, פיגועים חבלניים, .2.1\nמלחמת אזרחים, מרד, התקוממות צבאית או עממית, מהפכה, .2.2\nקרינה מייננת, זיהום רדיואקטיבי, תהליכים גרעיניים, חומר גרעיני או פסולת גרעינית. .2.3\n, תפיסה, הפקעה, החרמה, השמדה או הריסה של רכוש בידי הממשלה, הצבא .2.4 רשות מקומית, או אדם הפועל על פי דין."
+}

@@ -18,7 +18,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CORPUS = ROOT / "corpus"
 QUESTIONS_PATH = ROOT / "reference_questions.json"
 MANIFEST_PATH = CORPUS / "manifest.json"
-OUT_PATH = ROOT / "reports" / "data_exploration.html"
+OUT_PATH = ROOT / "reports" / "exploration" / "data_exploration.html"
 
 DOMAIN_LABELS = {
     "apartment": "Apartment",

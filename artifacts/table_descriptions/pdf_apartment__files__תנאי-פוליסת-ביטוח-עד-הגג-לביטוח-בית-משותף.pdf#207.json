@@ -1,0 +1,26 @@
+{
+  "id": "pdf:apartment/files/תנאי-פוליסת-ביטוח-עד-הגג-לביטוח-בית-משותף.pdf#207",
+  "source": "llm",
+  "description": {
+    "title": "דמי ביטוח",
+    "summary": "This table details the payment of insurance premiums and other fees related to the policy. It outlines how premiums are calculated, when they are due, and the consequences of late payment.",
+    "embed_passage": "פוליסת 'עד הגג' לביטוח בית משותף מגדירה את דמי הביטוח כסך כל התשלומים שהמבטח רשאי לגבות מהמבוטח, כפי שמופיע במפרט. במקרה של פיגור בתשלום, יישא הסכום בריבית שנתית בהתאם לחוק פסיקת ריבית. לדוגמה, אם סכום הביטוח הוא 1000 ₪, ושיעור הריבית הוא 5%, הריבית השנתית תחושב בהתאם.",
+    "row_axis": "clauses related to premium payment",
+    "column_axis": "details of premium payment terms",
+    "units": [],
+    "notable_values": [
+      "13.1: Payment details are specified in the schedule",
+      "13.2: Premiums are the total payments the insurer can collect",
+      "13.3: Late payments accrue annual interest as defined by law",
+      "13.4: 15 days to rectify late payment before cancellation",
+      "13.5: Debts remain even after cancellation"
+    ],
+    "product_hints": [
+      "עד הגג",
+      "ביטוח בית משותף"
+    ]
+  },
+  "sketch": ". תשלום דמי הביטוח ודמים אחרים 13\n.  דמי הביטוח וכל יתר הסכומים המגיעים מהמבוטח למבטח בקשר לפוליסה זו ישולמו 13.1 באופן ובמועדים שיפורטו במפרט.\n, .  לעניין פוליסה זו, דמי ביטוח הם סך כל התשלומים שרשאי מבטח לגבות מהמבוטח 13.2 הכול לפי הנקוב במפרט.\n.  לא שולם במועדו סכום כלשהו המגיע מן המבוטח למבטח, יישא הסכום שבפיגור 13.3 ריבית שנתית כקבוע בחוק פסיקת ריבית בהתאם לשינויים במדד, בין המדד שפורסם סמוך לפני היום שנקבע לתשלום ובין המדד שפורסם סמוך לפני יום התשלום בפועל.",
+  "embed_text": "פוליסת 'עד הגג' לביטוח בית משותף מגדירה את דמי הביטוח כסך כל התשלומים שהמבטח רשאי לגבות מהמבוטח, כפי שמופיע במפרט. במקרה של פיגור בתשלום, יישא הסכום בריבית שנתית בהתאם לחוק פסיקת ריבית. לדוגמה, אם סכום הביטוח הוא 1000 ₪, ושיעור הריבית הוא 5%, הריבית השנתית תחושב בהתאם.",
+  "payload": "טבלה: דמי ביטוח\nThis table details the payment of insurance premiums and other fees related to the policy. It outlines how premiums are calculated, when they are due, and the consequences of late payment.\nממדים: clauses related to premium payment, details of premium payment terms\n\n. תשלום דמי הביטוח ודמים אחרים 13\n.  דמי הביטוח וכל יתר הסכומים המגיעים מהמבוטח למבטח בקשר לפוליסה זו ישולמו 13.1 באופן ובמועדים שיפורטו במפרט.\n, .  לעניין פוליסה זו, דמי ביטוח הם סך כל התשלומים שרשאי מבטח לגבות מהמבוטח 13.2 הכול לפי הנקוב במפרט.\n.  לא שולם במועדו סכום כלשהו המגיע מן המבוטח למבטח, יישא הסכום שבפיגור 13.3 ריבית שנתית כקבוע בחוק פסיקת ריבית בהתאם לשינויים במדד, בין המדד שפורסם סמוך לפני היום שנקבע לתשלום ובין המדד שפורסם סמוך לפני יום התשלום בפועל."
+}

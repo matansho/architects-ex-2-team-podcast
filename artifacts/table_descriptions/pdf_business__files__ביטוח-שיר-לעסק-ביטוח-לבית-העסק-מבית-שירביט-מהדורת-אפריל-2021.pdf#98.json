@@ -1,0 +1,25 @@
+{
+  "id": "pdf:business/files/ביטוח-שיר-לעסק-ביטוח-לבית-העסק-מבית-שירביט-מהדורת-אפריל-2021.pdf#98",
+  "source": "llm",
+  "description": {
+    "title": "סכום ביטוח ממוצע",
+    "summary": "This table details how the average insurance amount is calculated for business property insurance from Shirbit. It looks up the average insurance amount based on value declarations and index adjustments.",
+    "embed_passage": "ביטוח שיר לעסק מבית שירביט מספק כיסוי לנזקים לעסק. סכום הביטוח הממוצע מחושב על ידי סך כל הצהרות הערך, בתוספת הפרשי הצמדה למדד, מחולק למספר ההצהרות, לדוגמה 10.2. אם לא מוגשת הצהרה בחודש מסוים, הסכום הנקוב ברשימה או ההצהרה הגבוהה ביותר בתקופה ייחשבו.",
+    "row_axis": "month",
+    "column_axis": "calculation components (e.g., value declarations, index adjustments)",
+    "units": [],
+    "notable_values": [
+      "10.2: average insurance amount",
+      "0.3: a value used in calculation",
+      "1: a value used in calculation",
+      "10.7: section number related to record keeping"
+    ],
+    "product_hints": [
+      "ביטוח שיר לעסק",
+      "שירביט"
+    ]
+  },
+  "sketch": "לצורך סעיף זה משמעו - סך כל הצהרות ערך \" \"סכום הביטוח הממוצע 10.2 , המלאי שניתנו, בתוספת הפרשי הצמדות למדד ביחס לכל חודש בנפרד . מחולק למספר ההצהרות\nאם בחודש מסוים לא ימסור המבוטח הצהרת ערך מלאי, ייחשב סכום 1 0.3 הביטוח הנקוב ברשימה, בתוספת הפרשי הצמדה למדד, או הצהרת ערך המלאי הגבוהה ביותר שהיתה בתקופת הביטוח )כולל הפרשי הצמדה . למדד( - הגבוה מבין שני הסכומים - כהצהרת ערך המלאי לאותו חודש",
+  "embed_text": "ביטוח שיר לעסק מבית שירביט מספק כיסוי לנזקים לעסק. סכום הביטוח הממוצע מחושב על ידי סך כל הצהרות הערך, בתוספת הפרשי הצמדה למדד, מחולק למספר ההצהרות, לדוגמה 10.2. אם לא מוגשת הצהרה בחודש מסוים, הסכום הנקוב ברשימה או ההצהרה הגבוהה ביותר בתקופה ייחשבו.",
+  "payload": "טבלה: סכום ביטוח ממוצע\nThis table details how the average insurance amount is calculated for business property insurance from Shirbit. It looks up the average insurance amount based on value declarations and index adjustments.\nממדים: month, calculation components (e.g., value declarations, index adjustments)\n\nלצורך סעיף זה משמעו - סך כל הצהרות ערך \" \"סכום הביטוח הממוצע 10.2 , המלאי שניתנו, בתוספת הפרשי הצמדות למדד ביחס לכל חודש בנפרד . מחולק למספר ההצהרות\nאם בחודש מסוים לא ימסור המבוטח הצהרת ערך מלאי, ייחשב סכום 1 0.3 הביטוח הנקוב ברשימה, בתוספת הפרשי הצמדה למדד, או הצהרת ערך המלאי הגבוהה ביותר שהיתה בתקופת הביטוח )כולל הפרשי הצמדה . למדד( - הגבוה מבין שני הסכומים - כהצהרת ערך המלאי לאותו חודש"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "pdf:business/files/מכלול-למושב-ינואר-2023.pdf#288",
+  "source": "llm",
+  "description": {
+    "title": "מכלול ביטוח תכולה",
+    "summary": "This table details the covered risks under a home contents insurance policy (מכלול). It lists various perils and specifies whether they are covered, often with conditions.",
+    "embed_passage": "פוליסת 'מכלול' מכסה נזקים לתכולת הדירה כתוצאה מאירועים כמו אש, ברק ורוח מעל 30 קמ\"ש. הכיסוי מתייחס גם להתפוצצות או התלקחות, ודליפת מים. חשוב לבדוק את התנאים הספציפיים לכל סוג נזק.",
+    "row_axis": "covered risk/peril",
+    "column_axis": "description/condition",
+    "units": [],
+    "notable_values": [
+      "wind speed: 30",
+      "risk 15.1: fire, lightning, thunder",
+      "risk 15.2: explosion or ignition",
+      "risk 15.3: wind over 30",
+      "risk 15.6: malicious acts"
+    ],
+    "product_hints": [
+      "מכלול"
+    ]
+  },
+  "sketch": ".  אש, ברק, רעם וכן עשן שהוא תופעה יוצאת דופן ולא תופעה קבועה. 15.1\n.  התפוצצות או התלקחות. 15.2\nמעט קשר לרבות גשם שירד באותה עת, שלג או ברד, ל 30 .  רוח שמהירותה עולה על 15.3\nדליפת מי גשם מבעד לקירות או לתקרה או ספיגתם בהם.",
+  "embed_text": "פוליסת 'מכלול' מכסה נזקים לתכולת הדירה כתוצאה מאירועים כמו אש, ברק ורוח מעל 30 קמ\"ש. הכיסוי מתייחס גם להתפוצצות או התלקחות, ודליפת מים. חשוב לבדוק את התנאים הספציפיים לכל סוג נזק.",
+  "payload": "טבלה: מכלול ביטוח תכולה\nThis table details the covered risks under a home contents insurance policy (מכלול). It lists various perils and specifies whether they are covered, often with conditions.\nממדים: covered risk/peril, description/condition\n\n.  אש, ברק, רעם וכן עשן שהוא תופעה יוצאת דופן ולא תופעה קבועה. 15.1\n.  התפוצצות או התלקחות. 15.2\nמעט קשר לרבות גשם שירד באותה עת, שלג או ברד, ל 30 .  רוח שמהירותה עולה על 15.3\nדליפת מי גשם מבעד לקירות או לתקרה או ספיגתם בהם."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "pdf:business/files/תנאי-פוליסת-ביטוח-מכלול-לעסק-מהדורת-מרץ-2023-באנגלית.pdf#127",
+  "source": "llm",
+  "description": {
+    "title": "מכלול - פיצויים לנזק",
+    "summary": "This table details the basis for calculating indemnification under the 'מכלול' insurance policy, specifically for Chapter Five. It outlines how damages are assessed, whether repairable or total loss, and what costs are covered.",
+    "embed_passage": "פוליסת 'מכלול' מגדירה את הפיצוי עבור נזקים שניתן לתקן על ידי כיסוי כל ההוצאות הנדרשות להחזרת הפריט למצבו התפעולי המקורי, ללא הפחת. במקרה של אובדן מוחלט, התשלום יהיה לפי השווי המוניטרי בפועל של הפריט לפני הנזק. הפיצוי אינו כולל הובלה או העברת עובדים מחוץ לגבולות המדינה.",
+    "row_axis": "Types of damage / conditions for indemnification",
+    "column_axis": "Details of indemnification calculation",
+    "units": [],
+    "notable_values": [
+      "insured event: return to operating condition",
+      "total loss: actual monetary value",
+      "repair cost exceeding replacement cost: total loss",
+      "transportation: within State boundaries",
+      "urgent delivery/overtime: not included"
+    ],
+    "product_hints": [
+      "מכלול"
+    ]
+  },
+  "sketch": "5.2 The basis for calculating the indemnification for Chapter Five\n5.2.1\nDamage which may be repaired\nAll expenses necessary to return the damaged item to its operating condition as existing immediately prior occurrence of an insured event, without deduction for depreciation or use. In addition, the insurer will pay the costs of dismantling and reconstruction, the transportation fees to/ from the nearest repair site within the boundaries of the State to the insured's aforementioned address above (round trip) as well as levies (if applicable), which were incurred for the purpose of carrying out the repairs.\n…\n5.2.2.1  In the event that an insured property item is completely destroyed, the insurer will pay the actual monetary value of the item, as existing soon before the damage occurred.\nFor the purposes of this paragraph, the term \"total loss\" shall mean: an event in which an insured item is destroyed, or the cost of it being repaired as stated in paragraph 5.2.1 above is equal to, or exceeds the cost of its replacement as stated in this paragraph 5.2.2.\n5.2.2.2  The indemnification shall not include the cost of transporting or transferring property or workers outside the boundaries of the State.\n5.2.2.3  The indemnification shall not include expenses for urgent delivery, overtime or work on Saturdays or holidays.",
+  "embed_text": "פוליסת 'מכלול' מגדירה את הפיצוי עבור נזקים שניתן לתקן על ידי כיסוי כל ההוצאות הנדרשות להחזרת הפריט למצבו התפעולי המקורי, ללא הפחת. במקרה של אובדן מוחלט, התשלום יהיה לפי השווי המוניטרי בפועל של הפריט לפני הנזק. הפיצוי אינו כולל הובלה או העברת עובדים מחוץ לגבולות המדינה.",
+  "payload": "טבלה: מכלול - פיצויים לנזק\nThis table details the basis for calculating indemnification under the 'מכלול' insurance policy, specifically for Chapter Five. It outlines how damages are assessed, whether repairable or total loss, and what costs are covered.\nממדים: Types of damage / conditions for indemnification, Details of indemnification calculation\n\n5.2 The basis for calculating the indemnification for Chapter Five\n5.2.1\nDamage which may be repaired\nAll expenses necessary to return the damaged item to its operating condition as existing immediately prior occurrence of an insured event, without deduction for depreciation or use. In addition, the insurer will pay the costs of dismantling and reconstruction, the transportation fees to/ from the nearest repair site within the boundaries of the State to the insured's aforementioned address above (round trip) as well as levies (if applicable), which were incurred for the purpose of carrying out the repairs.\nIn the event that the repairs are carried out in a workshop belonging to the insured, the insurer shall pay the cost of the materials/ spare parts/ parts and labor costs incurred for the repairs.\n5.2.2 Total loss\n5.2.2.1  In the event that an insured property item is completely destroyed, the insurer will pay the actual monetary value of the item, as existing soon before the damage occurred.\nFor the purposes of this paragraph, the term \"total loss\" shall mean: an event in which an insured item is destroyed, or the cost of it being repaired as stated in paragraph 5.2.1 above is equal to, or exceeds the cost of its replacement as stated in this paragraph 5.2.2.\n5.2.2.2  The indemnification shall not include the cost of transporting or transferring property or workers outside the boundaries of the State.\n5.2.2.3  The indemnification shall not include expenses for urgent delivery, overtime or work on Saturdays or holidays."
+}

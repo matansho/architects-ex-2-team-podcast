@@ -1,0 +1,25 @@
+{
+  "id": "pdf:business/files/טופס-הצעה-לביטוח-עסקי-אחריות-מקצועית-ליועצי-השקעות.pdf#10",
+  "source": "llm",
+  "description": {
+    "title": "אחריות מקצועית - יועצי השקעות",
+    "summary": "This table captures risk assessment details for professional liability insurance for investment advisors. It's used to determine policy eligibility and pricing based on the proposer's history and potential liabilities.",
+    "embed_passage": "טופס הצעה לביטוח אחריות מקצועית ליועצי השקעות בוחן היסטוריה של פעילות פלילית, חקירות רגולטוריות והמלצות שניתנו. השאלות בטופס נועדו להעריך את הסיכון הכרוך בביטוח, לדוגמה, האם היו עובדים שנמצאו אשמים בפעילות פלילית (Yes / No).  התשובות משפיעות על תנאי הפוליסה.",
+    "row_axis": "Risk assessment question regarding the proposer's history and practices",
+    "column_axis": "Response (Yes/No) and details if 'Yes'",
+    "units": [],
+    "notable_values": [
+      "criminal activity: Yes / No",
+      "regulatory investigation: Yes / No",
+      "disciplinary proceeding: Yes / No",
+      "recommendations implemented: Yes / No"
+    ],
+    "product_hints": [
+      "אחריות מקצועית",
+      "יועצי השקעות"
+    ]
+  },
+  "sketch": "a) Are there any other facts of which Underwriters should be made aware? Yes / No\nHave any present of former partners or directors or employees of the Proposer ever been found guilty of any criminal, dishonest or fraudulent activity and/or investigated by any professional association? If Yes, please give details:\nHas the Proposer or any of its directors, officers, partners or employees been subject to, or currently under any regulatory investigation? Yes / No If Yes , please provide full details on a separate sheet.\nDid such an investigation result in disciplinary proceeding, admonishments or recommendations? Yes / No\nIf Yes please provide full details on a separate sheet.\nIf Yes , were all recommendations implemented? If No , please provide details on a separate sheet.",
+  "embed_text": "טופס הצעה לביטוח אחריות מקצועית ליועצי השקעות בוחן היסטוריה של פעילות פלילית, חקירות רגולטוריות והמלצות שניתנו. השאלות בטופס נועדו להעריך את הסיכון הכרוך בביטוח, לדוגמה, האם היו עובדים שנמצאו אשמים בפעילות פלילית (Yes / No).  התשובות משפיעות על תנאי הפוליסה.",
+  "payload": "טבלה: אחריות מקצועית - יועצי השקעות\nThis table captures risk assessment details for professional liability insurance for investment advisors. It's used to determine policy eligibility and pricing based on the proposer's history and potential liabilities.\nממדים: Risk assessment question regarding the proposer's history and practices, Response (Yes/No) and details if 'Yes'\n\na) Are there any other facts of which Underwriters should be made aware? Yes / No\nHave any present of former partners or directors or employees of the Proposer ever been found guilty of any criminal, dishonest or fraudulent activity and/or investigated by any professional association? If Yes, please give details:\nHas the Proposer or any of its directors, officers, partners or employees been subject to, or currently under any regulatory investigation? Yes / No If Yes , please provide full details on a separate sheet.\nDid such an investigation result in disciplinary proceeding, admonishments or recommendations? Yes / No\nIf Yes please provide full details on a separate sheet.\nIf Yes , were all recommendations implemented? If No , please provide details on a separate sheet."
+}

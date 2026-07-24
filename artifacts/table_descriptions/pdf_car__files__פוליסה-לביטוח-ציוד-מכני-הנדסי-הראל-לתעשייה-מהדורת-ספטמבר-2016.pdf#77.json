@@ -1,0 +1,23 @@
+{
+  "id": "pdf:car/files/פוליסה-לביטוח-ציוד-מכני-הנדסי-הראל-לתעשייה-מהדורת-ספטמבר-2016.pdf#77",
+  "source": "llm",
+  "description": {
+    "title": "מדד שיפוי ביטוח",
+    "summary": "This table details how insurance compensation is adjusted based on index changes. It's used to look up how benefits, self-participation amounts, and insurance sums are calculated according to index fluctuations.",
+    "embed_passage": "פוליסת ביטוח ציוד מכני הנדסי הראל לתעשייה מתאימה את גובה הפיצויים, ההשתתפות העצמית וסכומי הביטוח בהתאם לשינויים במדד. לדוגמה, תגמולי הביטוח מחושבים על פי השינויים במדד בין המדד שפורסם לפני קרות מקרה הביטוח לבין המדד שפורסם לפני תשלומם למבוטח. החישוב נעשה בהתאם לשינויים במדד, כפי שמופיע בסעיפים 2 ו-3.",
+    "row_axis": "types of insurance amounts (insurance sum, benefit, self-participation)",
+    "column_axis": "time points for index comparison (start of insurance period, time of claim, time of payment)",
+    "units": [],
+    "notable_values": [
+      "index adjustment: benefit",
+      "index adjustment: self-participation",
+      "index adjustment: insurance sum"
+    ],
+    "product_hints": [
+      "ביטוח ציוד מכני הנדסי הראל לתעשייה"
+    ]
+  },
+  "sketch": ") לגבי תגמולי הביטוח, על פי השינויים שיחולו במדד, בין המדד הידוע שפורסם 2 בסמוך לפני קרות מקרה הביטוח לבין המדד הידוע בסמוך לפני תשלומם הלכה למעשה למבוטח;\n) לגבי סכום או סכומי ההשתתפות העצמית, על פי השינויים שיחולו במדד, בין 3 המדד הידוע שפורסם בסמוך לפני מועד תחילת תקופת הביטוח לבין המדד הידוע שפורסם בסמוך לפני מועד ניכוי סכום ההשתתפות העצמית מתגמולי הביטוח או .) מועד תשלומם או פירעונם הלכה למעשה (לפי העניין",
+  "embed_text": "פוליסת ביטוח ציוד מכני הנדסי הראל לתעשייה מתאימה את גובה הפיצויים, ההשתתפות העצמית וסכומי הביטוח בהתאם לשינויים במדד. לדוגמה, תגמולי הביטוח מחושבים על פי השינויים במדד בין המדד שפורסם לפני קרות מקרה הביטוח לבין המדד שפורסם לפני תשלומם למבוטח. החישוב נעשה בהתאם לשינויים במדד, כפי שמופיע בסעיפים 2 ו-3.",
+  "payload": "טבלה: מדד שיפוי ביטוח\nThis table details how insurance compensation is adjusted based on index changes. It's used to look up how benefits, self-participation amounts, and insurance sums are calculated according to index fluctuations.\nממדים: types of insurance amounts (insurance sum, benefit, self-participation), time points for index comparison (start of insurance period, time of claim, time of payment)\n\n) לגבי תגמולי הביטוח, על פי השינויים שיחולו במדד, בין המדד הידוע שפורסם 2 בסמוך לפני קרות מקרה הביטוח לבין המדד הידוע בסמוך לפני תשלומם הלכה למעשה למבוטח;\n) לגבי סכום או סכומי ההשתתפות העצמית, על פי השינויים שיחולו במדד, בין 3 המדד הידוע שפורסם בסמוך לפני מועד תחילת תקופת הביטוח לבין המדד הידוע שפורסם בסמוך לפני מועד ניכוי סכום ההשתתפות העצמית מתגמולי הביטוח או .) מועד תשלומם או פירעונם הלכה למעשה (לפי העניין"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "pdf:business/files/פוליסת-מכלול-לחבר-מושב-מהדורת-ינואר-2023.pdf#262",
+  "source": "llm",
+  "description": {
+    "title": "מכלול - פריטים מיוחדים",
+    "summary": "This table lists items with specific insurance coverage limitations under the 'Mekhalel' policy. It details what is covered and up to what amount for items like vehicles, animals, and valuable documents.",
+    "embed_passage": "פוליסת מכלול מגדירה את הכיסוי הביטוחי עבור פריטים מיוחדים כגון כלי רכב ממונעים, בעלי חיים וניירות ערך. הכיסוי משתנה בהתאם לסוג הפריט, כאשר סכום הביטוח מוגבל עבור פריטים כמו כסף מזומן (עד 0.5% מסכום ביטוח התכולה) ותכשיטים (עד 10% מסכום ביטוח התכולה).",
+    "row_axis": "type of item",
+    "column_axis": "coverage details (implicitly, based on context)",
+    "units": [
+      "% מסכום ביטוח התכולה"
+    ],
+    "notable_values": [
+      "כלי רכב ממונעים: 13.1",
+      "בעלי חיים: 13.2",
+      "ניירות ערך: 13.3",
+      "כסף מזומן: 0.5%",
+      "תכשיטים: 10%"
+    ],
+    "product_hints": [
+      "מכלול"
+    ]
+  },
+  "sketch": ".  כלי רכב ממונעיים, קאראוונים, נגררים, כלי שיט וכלי טיס. 13.1\n.  בעלי חיים. 13.2\n.  ניירות ערך, איגרות חוב, תעודות מניה, תעודות מלווה. 13.3\n.  חוזים, מסמכי התחייבות, שטרי מכר, תעודות ומסמכים למיניהם. 13.4\n.  זהב, כסף או מתכת יקרה, כשהם במצב גלמי, יהלומים ואבנים יקרות שאינם 13.5 חלק מתכשיט.",
+  "embed_text": "פוליסת מכלול מגדירה את הכיסוי הביטוחי עבור פריטים מיוחדים כגון כלי רכב ממונעים, בעלי חיים וניירות ערך. הכיסוי משתנה בהתאם לסוג הפריט, כאשר סכום הביטוח מוגבל עבור פריטים כמו כסף מזומן (עד 0.5% מסכום ביטוח התכולה) ותכשיטים (עד 10% מסכום ביטוח התכולה).",
+  "payload": "טבלה: מכלול - פריטים מיוחדים\nThis table lists items with specific insurance coverage limitations under the 'Mekhalel' policy. It details what is covered and up to what amount for items like vehicles, animals, and valuable documents.\nממדים: type of item, coverage details (implicitly, based on context)\n\n.  כלי רכב ממונעיים, קאראוונים, נגררים, כלי שיט וכלי טיס. 13.1\n.  בעלי חיים. 13.2\n.  ניירות ערך, איגרות חוב, תעודות מניה, תעודות מלווה. 13.3\n.  חוזים, מסמכי התחייבות, שטרי מכר, תעודות ומסמכים למיניהם. 13.4\n.  זהב, כסף או מתכת יקרה, כשהם במצב גלמי, יהלומים ואבנים יקרות שאינם 13.5 חלק מתכשיט."
+}

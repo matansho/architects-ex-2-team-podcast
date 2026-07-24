@@ -1,0 +1,25 @@
+{
+  "id": "pdf:business/files/טופס-הצעה-לביטוח-חבות-המוצר.pdf#13",
+  "source": "llm",
+  "description": {
+    "title": "תביעות/תלונות",
+    "summary": "This table documents claims or complaints filed against the applicant related to their products. It's used to assess risk for Product Liability Insurance, looking up details about past incidents.",
+    "embed_passage": "פוליסת ביטוח אחריות מוצר מכסה תביעות הנובעות מליקויים במוצרים. לדוגמה, אם הוגשה תביעה בגין פגם במוצר בשנת 2023, וסכום התביעה הוא 10,000 ₪, פרטים אלו יירשמו בטבלה. המטרה היא להעריך את הסיכון הכרוך בביטוח.",
+    "row_axis": "claims/complaints against the applicant",
+    "column_axis": "details of the claim/complaint (date, nature, amount)",
+    "units": [
+      "₪"
+    ],
+    "notable_values": [
+      "סכום ששולם: unknown",
+      "תאריך הפניה: unknown",
+      "מהות התביעה: unknown"
+    ],
+    "product_hints": [
+      "ביטוח אחריות המוצר"
+    ]
+  },
+  "sketch": ".3 ? האם הוגשו נגד המציע תביעות או תלונות בקשר למוצרים שיוצרו, יובאו, תוקנו, טופלו, נמכרו או שווקו על ידו\nלא\n:\nפרט: תאריך הפניה:                                                                  מהות התביעה\n…\nסכום ששולם, או נדרש וטרם שולם\n? .  האם ידוע למציע על אירוע כלשהו בקשר עם המוצרים שיוצרו, יובאו, תוקנו, טופלו, נמכרו או שווקו על ידו, שעשויים בעתיד להוות עילה לתביעה נגדו 4\nכן, פרט\nלא",
+  "embed_text": "פוליסת ביטוח אחריות מוצר מכסה תביעות הנובעות מליקויים במוצרים. לדוגמה, אם הוגשה תביעה בגין פגם במוצר בשנת 2023, וסכום התביעה הוא 10,000 ₪, פרטים אלו יירשמו בטבלה. המטרה היא להעריך את הסיכון הכרוך בביטוח.",
+  "payload": "טבלה: תביעות/תלונות\nThis table documents claims or complaints filed against the applicant related to their products. It's used to assess risk for Product Liability Insurance, looking up details about past incidents.\nממדים: claims/complaints against the applicant, details of the claim/complaint (date, nature, amount)\n\n.3 ? האם הוגשו נגד המציע תביעות או תלונות בקשר למוצרים שיוצרו, יובאו, תוקנו, טופלו, נמכרו או שווקו על ידו\nלא\n:\nפרט: תאריך הפניה:                                                                  מהות התביעה\n:\nסכום ששולם, או נדרש וטרם שולם\n? .  האם ידוע למציע על אירוע כלשהו בקשר עם המוצרים שיוצרו, יובאו, תוקנו, טופלו, נמכרו או שווקו על ידו, שעשויים בעתיד להוות עילה לתביעה נגדו 4\nכן, פרט\nלא"
+}

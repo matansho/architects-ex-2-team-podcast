@@ -1,0 +1,24 @@
+{
+  "id": "pdf:long-term-care/files/иск-о-пособии-по-уходу.pdf#84",
+  "source": "llm",
+  "description": {
+    "title": "טיפול סיעודי - מגורים",
+    "summary": "This table gathers information about the insured's living situation and care needs for long-term care assessment. It helps determine eligibility for care benefits by documenting who lives with the insured and the level of assistance they receive.",
+    "embed_passage": "טופס זה בוחן את הצורך בטיפול סיעודי, כולל מידע על מגורים משותפים ושעות טיפול שבועיות. לדוגמה, השאלה האם המבוטח זקוק לעזרה ממישהו אחר, והאם יש מטפל זר שנשלח על ידי המוסד לביטוח לאומי. מספר השעות השבועיות יכול להיות 8 או יותר.",
+    "row_axis": "Insured individual",
+    "column_axis": "Living situation and care assistance details",
+    "units": [],
+    "notable_values": [
+      "Hours per week: 8",
+      "Recognized as needing care benefit: Да",
+      "Foreign worker provided by National Insurance Institute: Да",
+      "Recognized as needing care benefit: Нет"
+    ],
+    "product_hints": [
+      "טיפול סיעודי"
+    ]
+  },
+  "sketch": "8 Кто проживает вместе со застрахованным?\nПеречисление:\nПризнан ли он больным, нуждающимся в получении пособия по уходу, признанным учреждением (например, Институтом национального страхования, страховой компанией)?\nКоличество часов в неделю:\nИмя застрахованного:                                                                                                    у. л.:\nДа Нет Есть ли помощница\\ иностранная работница, предоставляющая услуги по уходу, присланная Институтом национального страхования? Да Нет Не заполнять",
+  "embed_text": "טופס זה בוחן את הצורך בטיפול סיעודי, כולל מידע על מגורים משותפים ושעות טיפול שבועיות. לדוגמה, השאלה האם המבוטח זקוק לעזרה ממישהו אחר, והאם יש מטפל זר שנשלח על ידי המוסד לביטוח לאומי. מספר השעות השבועיות יכול להיות 8 או יותר.",
+  "payload": "טבלה: טיפול סיעודי - מגורים\nThis table gathers information about the insured's living situation and care needs for long-term care assessment. It helps determine eligibility for care benefits by documenting who lives with the insured and the level of assistance they receive.\nממדים: Insured individual, Living situation and care assistance details\n\n8 Кто проживает вместе со застрахованным?\nПеречисление:\nПризнан ли он больным, нуждающимся в получении пособия по уходу, признанным учреждением (например, Институтом национального страхования, страховой компанией)?\nКоличество часов в неделю:\nИмя застрахованного:                                                                                                    у. л.:\nДа Нет Есть ли помощница\\ иностранная работница, предоставляющая услуги по уходу, присланная Институтом национального страхования? Да Нет Не заполнять"
+}

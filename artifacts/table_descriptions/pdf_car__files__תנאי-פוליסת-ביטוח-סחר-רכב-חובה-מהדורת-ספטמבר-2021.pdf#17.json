@@ -1,0 +1,25 @@
+{
+  "id": "pdf:car/files/תנאי-פוליסת-ביטוח-סחר-רכב-חובה-מהדורת-ספטמבר-2021.pdf#17",
+  "source": "llm",
+  "description": {
+    "title": "דמי ביטוח מופחתים",
+    "summary": "This table details compensation amounts due from the policyholder if they provided incomplete or inaccurate information during the underwriting process, leading to lower premiums. It outlines payments based on injury and damages.",
+    "embed_passage": "פוליסת ביטוח סחר רכב חובה מגדירה פיצויים מוסכמים במקרים בהם בעל הפוליסה מספק מידע לא מדויק. לדוגמה, אם הנזק הממוני עקב מקרה הביטוח הוא ₪ 10,000, בעל הפוליסה ישלם פיצוי מוסכם. סכומים אלו יכולים להגיע עד ₪ 2,500 לנפגע שאינו בעל הפוליסה.",
+    "row_axis": "Scenario: inaccurate/incomplete disclosure during underwriting",
+    "column_axis": "Compensation amounts due from policyholder",
+    "units": [
+      "₪"
+    ],
+    "notable_values": [
+      "Maximum damage compensation: ₪ 10,000",
+      "Compensation per non-policyholder injured: ₪ 2,500",
+      "Compensation limit per non-policyholder: ₪ 10,000"
+    ],
+    "product_hints": [
+      "ביטוח סחר רכב חובה"
+    ]
+  },
+  "sketch": ", השיב בעל הפוליסה לשאלת חיתום תשובה שלא הייתה מלאה וכנה בעת שניתנה .9.3 ובשל התשובה נקבעו דמי ביטוח נמוכים מדמי הביטוח שהיו נקבעים אילו היה בעל הפוליסה עונה תשובה מלאה וכנה, או שבשל התשובה כאמור הסכים המבטח לכרות את חוזה הביטוח שעה שלא היה מסכים לכך אילו הייתה ניתנת תשובה מלאה וכנה, וקרה מקרה הביטוח בטרם בוטל חוזה הביטוח, יחולו הוראות אלה:\nאם נפגע בעל הפוליסה עקב מקרה הביטוח, ישלם בעל הפוליסה למבטח .9.3.1 פיצוי מוסכם בסכום השווה לפיצוי המגיע לבעל הפוליסה בשל נזק שאינו ;₪  10,000( לחוק הפיצויים, אך לא יותר מ 3)( )א 4 נזק ממון לפי סעיף",
+  "embed_text": "פוליסת ביטוח סחר רכב חובה מגדירה פיצויים מוסכמים במקרים בהם בעל הפוליסה מספק מידע לא מדויק. לדוגמה, אם הנזק הממוני עקב מקרה הביטוח הוא ₪ 10,000, בעל הפוליסה ישלם פיצוי מוסכם. סכומים אלו יכולים להגיע עד ₪ 2,500 לנפגע שאינו בעל הפוליסה.",
+  "payload": "טבלה: דמי ביטוח מופחתים\nThis table details compensation amounts due from the policyholder if they provided incomplete or inaccurate information during the underwriting process, leading to lower premiums. It outlines payments based on injury and damages.\nממדים: Scenario: inaccurate/incomplete disclosure during underwriting, Compensation amounts due from policyholder\n\n, השיב בעל הפוליסה לשאלת חיתום תשובה שלא הייתה מלאה וכנה בעת שניתנה .9.3 ובשל התשובה נקבעו דמי ביטוח נמוכים מדמי הביטוח שהיו נקבעים אילו היה בעל הפוליסה עונה תשובה מלאה וכנה, או שבשל התשובה כאמור הסכים המבטח לכרות את חוזה הביטוח שעה שלא היה מסכים לכך אילו הייתה ניתנת תשובה מלאה וכנה, וקרה מקרה הביטוח בטרם בוטל חוזה הביטוח, יחולו הוראות אלה:\nאם נפגע בעל הפוליסה עקב מקרה הביטוח, ישלם בעל הפוליסה למבטח .9.3.1 פיצוי מוסכם בסכום השווה לפיצוי המגיע לבעל הפוליסה בשל נזק שאינו ;₪  10,000( לחוק הפיצויים, אך לא יותר מ 3)( )א 4 נזק ממון לפי סעיף"
+}

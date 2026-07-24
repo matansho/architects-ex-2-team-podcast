@@ -1,0 +1,25 @@
+{
+  "id": "pdf:business/files/פוליסה-לביטוח-רכוש-בכספת-מהדורת-ינואר-2023.pdf#56",
+  "source": "llm",
+  "description": {
+    "title": "התאמת מדד",
+    "summary": "This table details how insurance benefits, self-participation amounts, and claim payments are adjusted based on changes to an index. It shows the index comparison points in time.",
+    "embed_passage": "פוליסת ביטוח רכוש בכספת מהדורת ינואר 2023 מתאימה תגמולי ביטוח, השתתפות עצמית וגובה התגמולים בהתאם לשינויים במדד. לדוגמה, לגבי תגמולי הביטוח, החישוב נעשה בין המדד שפורסם לפני קרות מקרה הביטוח לבין המדד שפורסם לפני תשלומם בפועל לניזוק. ההתאמה נעשית על פי השינויים במדד.",
+    "row_axis": "types of insurance adjustments (benefits, self-participation, payments)",
+    "column_axis": "index comparison points in time",
+    "units": [],
+    "notable_values": [
+      "adjustment type: תגמולי הביטוח",
+      "adjustment type: השתתפות עצמית",
+      "time point: מועד תחילת תקופת הביטוח",
+      "time point: קרות מקרה הביטוח",
+      "time point: תשלומם בפועל לניזוק"
+    ],
+    "product_hints": [
+      "ביטוח רכוש בכספת"
+    ]
+  },
+  "sketch": ".  לגבי תגמולי הביטוח, על פי השינויים שיחולו במדד, בין המדד הידוע שפורסם בסמוך 13.3 לפני קרות מקרה הביטוח לבין המדד הידוע בסמוך לפני תשלומם בפועל לניזוק או ;( למבוטח )לפי העניין\n.  לגבי גובה ההשתתפות העצמית, על פי השינויים שיחולו במדד, בין המדד הידוע 13.4 שפורסם בסמוך לפני מועד תחילת תקופת הביטוח לבין המדד הידוע שפורסם בסמוך לפני מועד ניכוי סכום ההשתתפות העצמית מתגמולי הביטוח או מועד תשלומם או ;( פירעונם בפועל )לפי העניין",
+  "embed_text": "פוליסת ביטוח רכוש בכספת מהדורת ינואר 2023 מתאימה תגמולי ביטוח, השתתפות עצמית וגובה התגמולים בהתאם לשינויים במדד. לדוגמה, לגבי תגמולי הביטוח, החישוב נעשה בין המדד שפורסם לפני קרות מקרה הביטוח לבין המדד שפורסם לפני תשלומם בפועל לניזוק. ההתאמה נעשית על פי השינויים במדד.",
+  "payload": "טבלה: התאמת מדד\nThis table details how insurance benefits, self-participation amounts, and claim payments are adjusted based on changes to an index. It shows the index comparison points in time.\nממדים: types of insurance adjustments (benefits, self-participation, payments), index comparison points in time\n\n.  לגבי תגמולי הביטוח, על פי השינויים שיחולו במדד, בין המדד הידוע שפורסם בסמוך 13.3 לפני קרות מקרה הביטוח לבין המדד הידוע בסמוך לפני תשלומם בפועל לניזוק או ;( למבוטח )לפי העניין\n.  לגבי גובה ההשתתפות העצמית, על פי השינויים שיחולו במדד, בין המדד הידוע 13.4 שפורסם בסמוך לפני מועד תחילת תקופת הביטוח לבין המדד הידוע שפורסם בסמוך לפני מועד ניכוי סכום ההשתתפות העצמית מתגמולי הביטוח או מועד תשלומם או ;( פירעונם בפועל )לפי העניין"
+}

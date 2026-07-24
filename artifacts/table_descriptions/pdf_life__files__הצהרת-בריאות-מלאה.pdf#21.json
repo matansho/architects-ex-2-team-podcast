@@ -1,0 +1,25 @@
+{
+  "id": "pdf:life/files/הצהרת-בריאות-מלאה.pdf#21",
+  "source": "llm",
+  "description": {
+    "title": "הצהרת בריאות",
+    "summary": "This table is a health declaration form used to assess an applicant's medical history for insurance purposes. It asks about past and current health conditions to determine risk.",
+    "embed_passage": "טופס הצהרת בריאות מיועד לכל מוצרי הביטוח, ושואל שאלות לגבי היסטוריה של בעיות בעמוד השדרה, מפרקים ועצמות, כמו בלט דיסק או בעיות במיניסקוס. השאלות נועדו להעריך את הסיכון הביטוחי, לדוגמה, היעדרות מעבודה עקב מחלה או תאונה מעל עשרה ימים רצופים בחמש השנים האחרונות.",
+    "row_axis": "health condition / medical history question",
+    "column_axis": "response (yes/no/details)",
+    "units": [],
+    "notable_values": [
+      "ימים רצופים: 10",
+      "שנים אחרונות: 5",
+      "בלט דיסק: mentioned as a condition",
+      "בעיות או קרעים במיניסקוס: mentioned as a condition",
+      "פריצת דיסק: mentioned as a condition"
+    ],
+    "product_hints": [
+      "ביטוח"
+    ]
+  },
+  "sketch": "היעדרות מעבודה: האם נעדרת מעבודה עקב מחלה או תאונה או היית בחופשת מחלה יותר מעשרה .3 ימים רצופים, בחמש השנים האחרונות? אם כן, אנא פרט - מתי ומאיזו סיבה?\nבלט דיסק\n.4 בעיה בעמוד שדרה כאבי גב בעיה/הפרעות/מחלות אורתופדיות\nמפרקים ועצמות\n…\nCTS\nבעיות או קרעים במיניסקוס\nבעיות או קרעים ברצועות פריצת דיסק\nשאלון גב ועמוד שדרה, שאלון , מפרקים, שאלון שברים ועצמות שאלון ברכיים",
+  "embed_text": "טופס הצהרת בריאות מיועד לכל מוצרי הביטוח, ושואל שאלות לגבי היסטוריה של בעיות בעמוד השדרה, מפרקים ועצמות, כמו בלט דיסק או בעיות במיניסקוס. השאלות נועדו להעריך את הסיכון הביטוחי, לדוגמה, היעדרות מעבודה עקב מחלה או תאונה מעל עשרה ימים רצופים בחמש השנים האחרונות.",
+  "payload": "טבלה: הצהרת בריאות\nThis table is a health declaration form used to assess an applicant's medical history for insurance purposes. It asks about past and current health conditions to determine risk.\nממדים: health condition / medical history question, response (yes/no/details)\n\nהיעדרות מעבודה: האם נעדרת מעבודה עקב מחלה או תאונה או היית בחופשת מחלה יותר מעשרה .3 ימים רצופים, בחמש השנים האחרונות? אם כן, אנא פרט - מתי ומאיזו סיבה?\nבלט דיסק\n.4 בעיה בעמוד שדרה כאבי גב בעיה/הפרעות/מחלות אורתופדיות\nמפרקים ועצמות\nאוסטיאומיאליטיס כרוני\nCTS\nבעיות או קרעים במיניסקוס\nבעיות או קרעים ברצועות פריצת דיסק\nשאלון גב ועמוד שדרה, שאלון , מפרקים, שאלון שברים ועצמות שאלון ברכיים"
+}

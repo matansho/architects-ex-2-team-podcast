@@ -1,0 +1,24 @@
+{
+  "id": "pdf:health/files/טופס-בקשה-לאישור-ותיאום-ניתוח.pdf#100",
+  "source": "llm",
+  "description": {
+    "title": "מועדי מענה לפנייה",
+    "summary": "This table details the response times for requests related to insurance policies. It specifies the number of business days הראל has to provide copies of documents or policy details.",
+    "embed_passage": "הראל מספקת העתקים מפוליסה או מתקנון בתוך 14 ימי עסקים ממועד קבלת הבקשה. כמו כן, הראל מספקת העתקים של מסמכים עליהם התובע חתם בתוך 21 ימי עסקים. טבלה זו מתייחסת למועדי המענה לפנייה כפי שמופיעים בחוזר 'יישוב תביעות וטיפול בפניות הציבור'.",
+    "row_axis": "Type of request (copy of policy, signed document, etc.)",
+    "column_axis": "Response time in business days",
+    "units": [
+      "ימי עסקים"
+    ],
+    "notable_values": [
+      "פוליסה/תקנון: 14",
+      "מסמך חתום: 21"
+    ],
+    "product_hints": [
+      "הראל"
+    ]
+  },
+  "sketch": "יאוחר לא - ותיק אזרח לעניין,ציבור לפניית בכתב מענה,(יד) 8\nהבקשה. קבלת ממועד עסקים ימי 14,מתקנון או מפוליסה העתקים מסירת,)1() (טו 8\nהבקשה. קבלת ממועד עסקים ימי 21,התובע חתם שעליו מסמך מכל העתקים מסירת,)3() (טו 8",
+  "embed_text": "הראל מספקת העתקים מפוליסה או מתקנון בתוך 14 ימי עסקים ממועד קבלת הבקשה. כמו כן, הראל מספקת העתקים של מסמכים עליהם התובע חתם בתוך 21 ימי עסקים. טבלה זו מתייחסת למועדי המענה לפנייה כפי שמופיעים בחוזר 'יישוב תביעות וטיפול בפניות הציבור'.",
+  "payload": "טבלה: מועדי מענה לפנייה\nThis table details the response times for requests related to insurance policies. It specifies the number of business days הראל has to provide copies of documents or policy details.\nממדים: Type of request (copy of policy, signed document, etc.), Response time in business days\n\nיאוחר לא - ותיק אזרח לעניין,ציבור לפניית בכתב מענה,(יד) 8\nהבקשה. קבלת ממועד עסקים ימי 14,מתקנון או מפוליסה העתקים מסירת,)1() (טו 8\nהבקשה. קבלת ממועד עסקים ימי 21,התובע חתם שעליו מסמך מכל העתקים מסירת,)3() (טו 8"
+}

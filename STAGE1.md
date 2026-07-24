@@ -9,9 +9,9 @@ Stage 1 deliverables: bare LLM baseline on 48 dev questions, custom eval harness
 
 | Report | File | Contents |
 |---|---|---|
-| 5-way prompt comparison | [`reports/stage1_prompt_strategy_comparison.html`](reports/stage1_prompt_strategy_comparison.html) | Metrics, charts, per-question explorer, judge reasoning, sortable table across all runs |
-| No-cite consistency | [`reports/no_cite_consistency.html`](reports/no_cite_consistency.html) | Two replicate runs of the best prompt (same config, different sample) |
-| Corpus & dev-set exploration | [`reports/data_exploration.html`](reports/data_exploration.html) | Corpus size, domains, PDF vs web pages, dev question coverage |
+| 5-way prompt comparison | [`reports/stage1/stage1_prompt_strategy_comparison.html`](reports/stage1/stage1_prompt_strategy_comparison.html) | Metrics, charts, per-question explorer, judge reasoning, sortable table across all runs |
+| No-cite consistency | [`reports/stage1/no_cite_consistency.html`](reports/stage1/no_cite_consistency.html) | Two replicate runs of the best prompt (same config, different sample) |
+| Corpus & dev-set exploration | [`reports/exploration/data_exploration.html`](reports/exploration/data_exploration.html) | Corpus size, domains, PDF vs web pages, dev question coverage |
 
 ## Process
 
@@ -68,8 +68,8 @@ Citation accuracy is 0% across all runs — expected without retrieval.
 The three contrast rows share one config's answer style but differ in the render-time
 gate: **far-apart** hedges every specific whose stated alternative is materially
 different from its best guess (in practice, all of them); **no far-apart** commits any
-value the model self-labels `confident`. Files: `reports/contrast_*` (far-apart, run 1),
-`reports/contrast_2_*` (far-apart, run 2), and the no-far-apart run.
+value the model self-labels `confident`. Files: `reports/stage1/contrast_*` (far-apart, run 1),
+`reports/stage1/contrast_2_*` (far-apart, run 2), and the no-far-apart run.
 
 ### Main finding: citation-shaped hallucinations
 
@@ -138,11 +138,9 @@ few_shot_examples_no_cite.json
 baseline_answers.jsonl
 
 reports/
-  *_answers.jsonl       # Model outputs per experiment
-  *_eval.json           # Full judge reports
-  stage1_prompt_strategy_comparison.html
-  no_cite_consistency.html
-  data_exploration.html
+  stage1/               # Prompt experiments: answers, evals, dashboards
+  stage2/               # Docling / chunking reports + samples
+  exploration/          # Corpus & dev-set exploration
 
 scripts/
   activate.sh
@@ -170,30 +168,30 @@ python baseline_runner.py --model deepseek-ai/DeepSeek-V4-Pro
 
 # Best prompt so far
 python few_shot_runner.py --preset no-cite \
-  --out reports/no_cite_few_shot_answers.jsonl
+  --out reports/stage1/no_cite_few_shot_answers.jsonl
 
 # Eval (answer judge only for bare runs)
 python run_eval.py \
-  --answers reports/no_cite_few_shot_answers.jsonl \
-  --out reports/no_cite_few_shot_eval.json \
+  --answers reports/stage1/no_cite_few_shot_answers.jsonl \
+  --out reports/stage1/no_cite_few_shot_eval.json \
   --no-citation-judge
 
 # Contrast — single-call abstention gating.
 # Recommended mode: --far-apart hedges every unverifiable specific (bare-model default).
 python contrast_runner.py --far-apart \
-  --out reports/contrast_answers.jsonl
+  --out reports/stage1/contrast_answers.jsonl
 python run_eval.py \
-  --answers reports/contrast_answers.jsonl \
-  --out reports/contrast_eval.json \
+  --answers reports/stage1/contrast_answers.jsonl \
+  --out reports/stage1/contrast_eval.json \
   --no-citation-judge
 #   -> rel 45.8% / hall 22.9% / ref 14.6%  (run 2: 41.7% / 27.1% / 12.5% -- run-to-run noise)
 
 # Variant: commit values the model self-labels `confident` (no far-apart gate).
 python contrast_runner.py \
-  --out reports/contrast_no_far_apart_answers.jsonl
+  --out reports/stage1/contrast_no_far_apart_answers.jsonl
 python run_eval.py \
-  --answers reports/contrast_no_far_apart_answers.jsonl \
-  --out reports/contrast_no_far_apart_eval.json \
+  --answers reports/stage1/contrast_no_far_apart_answers.jsonl \
+  --out reports/stage1/contrast_no_far_apart_eval.json \
   --no-citation-judge
 #   -> rel 42% / hall 31% / ref 17%  (worse: ~50%-precise `confident` flag injects hallucinations)
 

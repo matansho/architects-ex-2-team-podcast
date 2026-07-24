@@ -1,0 +1,25 @@
+{
+  "id": "pdf:life/files/טופס-הצטרפות-לביטוח-חיים-7-שאלות-בהצהרת-הבריאות.pdf#69",
+  "source": "llm",
+  "description": {
+    "title": "הרשאה לחיוב חשבון",
+    "summary": "This table details authorization for direct debit from a bank account. It specifies options for setting limits on the amount and expiration date of the authorization.",
+    "embed_passage": "טופס זה עוסק בהרשאה לחיוב חשבון בבנק. ניתן להגדיר תקרת סכום חיוב בשקלים חדשים (₪) ומועד פקיעת תוקף ההרשאה. לדוגמה, תקרת סכום חיוב יכולה להיות ₪6, ומועד פקיעת התוקף ביום 0/0/0.",
+    "row_axis": "Authorization type (general vs. limited)",
+    "column_axis": "Authorization details (expiration date, amount limit)",
+    "units": [
+      "₪"
+    ],
+    "notable_values": [
+      "סכום חיוב: ₪6",
+      "מועד פקיעת תוקף: 0/0/0"
+    ],
+    "product_hints": [
+      "הרשאה לחיוב חשבון",
+      "הראל"
+    ]
+  },
+  "sketch": "8\nאו . הרשאה כללית, שאינה כוללת הגבלות\nהרשאה הכוללת לפחות אחת מההגבלות הבאות:\n.       /       / מועד פקיעת תוקף ההרשאה - ביום\n.₪                                - תקרת סכום החיוב\nלתשומת לבך,\nאי סימון אחת מהחלופות המוצגות לעיל, משמעה בחירה בהרשאה כללית, שאינה כוללת הגבלות.\nאם יישלחו על ידי המוטב חיובים שאינם עומדים בהגבלות שקבע הלקוח, הם יוחזרו על ידי הבנק, על כל המשמעויות הכרוכות בכך.",
+  "embed_text": "טופס זה עוסק בהרשאה לחיוב חשבון בבנק. ניתן להגדיר תקרת סכום חיוב בשקלים חדשים (₪) ומועד פקיעת תוקף ההרשאה. לדוגמה, תקרת סכום חיוב יכולה להיות ₪6, ומועד פקיעת התוקף ביום 0/0/0.",
+  "payload": "טבלה: הרשאה לחיוב חשבון\nThis table details authorization for direct debit from a bank account. It specifies options for setting limits on the amount and expiration date of the authorization.\nממדים: Authorization type (general vs. limited), Authorization details (expiration date, amount limit)\n\n8\nאו . הרשאה כללית, שאינה כוללת הגבלות\nהרשאה הכוללת לפחות אחת מההגבלות הבאות:\n.       /       / מועד פקיעת תוקף ההרשאה - ביום\n.₪                                - תקרת סכום החיוב\nלתשומת לבך,\nאי סימון אחת מהחלופות המוצגות לעיל, משמעה בחירה בהרשאה כללית, שאינה כוללת הגבלות.\nאם יישלחו על ידי המוטב חיובים שאינם עומדים בהגבלות שקבע הלקוח, הם יוחזרו על ידי הבנק, על כל המשמעויות הכרוכות בכך."
+}

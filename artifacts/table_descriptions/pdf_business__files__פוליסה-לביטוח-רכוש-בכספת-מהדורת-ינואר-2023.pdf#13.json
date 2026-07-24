@@ -1,0 +1,25 @@
+{
+  "id": "pdf:business/files/פוליסה-לביטוח-רכוש-בכספת-מהדורת-ינואר-2023.pdf#13",
+  "source": "llm",
+  "description": {
+    "title": "פוליסת ביטוח רכוש",
+    "summary": "This table details exclusions to a property insurance policy. It lists events that are not covered by the insurance, such as civil war or government confiscation.",
+    "embed_passage": "פוליסת ביטוח רכוש מכסה נזקים לרכוש, אך אינה מכסה מקרים של מלחמת אזרחים, התקוממות או הלאמה על ידי ממשלה. לדוגמה, סעיף 2.2 מתייחס להתקוממות עממית, וסעיף 2.3 עוסק בהחרמה על ידי רשות ממלכתית.",
+    "row_axis": "exclusion event",
+    "column_axis": "description of exclusion",
+    "units": [],
+    "notable_values": [
+      "exclusion type: מלחמת אזרחים",
+      "exclusion type: החרמה",
+      "exclusion number: 2.2",
+      "exclusion number: 2.3"
+    ],
+    "product_hints": [
+      "ביטוח רכוש",
+      "פוליסת ביטוח רכוש"
+    ]
+  },
+  "sketch": ". מלחמת אזרחים, התקוממות, מהומות, מהומות אזרחיות המגיעות לממדים של 2.2 התקוממות עממית, התקוממות צבאית, מרידה, מרד, מהפכה, תפיסת שלטון על ידי הצבא, הכרזת שלטון צבאי ו/או מצור ו/או כל פעולה המהווה הכרזה או קיום של חוק צבאי;\n. החרמה, הלאמה, הפקעה ו/או הרס ו/או נזק לרכוש, על ידי או על פי הוראה של 2.3 ממשלה ו/או רשות ממלכתית או מוניציפאלית;",
+  "embed_text": "פוליסת ביטוח רכוש מכסה נזקים לרכוש, אך אינה מכסה מקרים של מלחמת אזרחים, התקוממות או הלאמה על ידי ממשלה. לדוגמה, סעיף 2.2 מתייחס להתקוממות עממית, וסעיף 2.3 עוסק בהחרמה על ידי רשות ממלכתית.",
+  "payload": "טבלה: פוליסת ביטוח רכוש\nThis table details exclusions to a property insurance policy. It lists events that are not covered by the insurance, such as civil war or government confiscation.\nממדים: exclusion event, description of exclusion\n\n. מלחמת אזרחים, התקוממות, מהומות, מהומות אזרחיות המגיעות לממדים של 2.2 התקוממות עממית, התקוממות צבאית, מרידה, מרד, מהפכה, תפיסת שלטון על ידי הצבא, הכרזת שלטון צבאי ו/או מצור ו/או כל פעולה המהווה הכרזה או קיום של חוק צבאי;\n. החרמה, הלאמה, הפקעה ו/או הרס ו/או נזק לרכוש, על ידי או על פי הוראה של 2.3 ממשלה ו/או רשות ממלכתית או מוניציפאלית;"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "pdf:long-term-care/files/nursing-care-claim-serving-form-clalit-members.pdf#16",
+  "source": "llm",
+  "description": {
+    "title": "פרטי איש קשר",
+    "summary": "This table collects contact information for a claim. It allows an insured person to designate a contact person to receive updates about their claim, in addition to or instead of themselves.",
+    "embed_passage": "טופס זה משמש לאיסוף פרטי איש קשר עבור טיפול בתביעה. ניתן לציין שם, ת״ז וכתובת של איש קשר, וכן קוד אזורי. כל ההודעות הקשורות לתביעה ישלחו לנייד ו/או למספר הטלפון של איש הקשר, אם סופקו.",
+    "row_axis": "Contact person details",
+    "column_axis": "Contact information fields (Surname, Name, I.D. No., Settlement, Postal Code)",
+    "units": [],
+    "notable_values": [
+      "I.D. No.: (appears as a header)",
+      "Settlement: (appears as a header)",
+      "Postal Code: (appears as a header)"
+    ],
+    "product_hints": []
+  },
+  "sketch": "B Contact person's details\nSurname\nName\nI.D. No.\n…\nSettlement\nPostal Code\nAll messages related to your claim will be sent to your mobile and/or contact number (in so far as contact information is provided). If you want these messages to be sent to your and/or a contact person's email, please provide the email address. In the alternative, if you would like to receive these messages by Israel Post please mark it here: Israel Post\nPlease note, the contact person does not possess a power of attorney nor is he/she a guardian from a legal aspect and serves as an additional address for contacting the insured and receiving/providing information in connection with handling the claim. An insured who is interested that the contact person serve as holder of power of attorney, shall provide a signed power of attorney or a Court appointment order in regard to a guardian or an Enduring Power of Attorney in regard to its activation.",
+  "embed_text": "טופס זה משמש לאיסוף פרטי איש קשר עבור טיפול בתביעה. ניתן לציין שם, ת״ז וכתובת של איש קשר, וכן קוד אזורי. כל ההודעות הקשורות לתביעה ישלחו לנייד ו/או למספר הטלפון של איש הקשר, אם סופקו.",
+  "payload": "טבלה: פרטי איש קשר\nThis table collects contact information for a claim. It allows an insured person to designate a contact person to receive updates about their claim, in addition to or instead of themselves.\nממדים: Contact person details, Contact information fields (Surname, Name, I.D. No., Settlement, Postal Code)\n\nB Contact person's details\nSurname\nName\nI.D. No.\nRelation to the insured\nHome phone No.\nMobile phone No.\nEmail address. Please note in order to receive email updates, you must provide a mobile phone number in order to receive a password\n@\nStreet\nHouse No.\nNeighborhood\nSettlement\nPostal Code\nAll messages related to your claim will be sent to your mobile and/or contact number (in so far as contact information is provided). If you want these messages to be sent to your and/or a contact person's email, please provide the email address. In the alternative, if you would like to receive these messages by Israel Post please mark it here: Israel Post\nPlease note, the contact person does not possess a power of attorney nor is he/she a guardian from a legal aspect and serves as an additional address for contacting the insured and receiving/providing information in connection with handling the claim. An insured who is interested that the contact person serve as holder of power of attorney, shall provide a signed power of attorney or a Court appointment order in regard to a guardian or an Enduring Power of Attorney in regard to its activation."
+}

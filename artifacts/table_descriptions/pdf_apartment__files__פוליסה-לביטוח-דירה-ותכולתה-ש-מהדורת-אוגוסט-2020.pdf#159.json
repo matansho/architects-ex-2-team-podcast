@@ -1,0 +1,23 @@
+{
+  "id": "pdf:apartment/files/פוליסה-לביטוח-דירה-ותכולתה-ש-מהדורת-אוגוסט-2020.pdf#159",
+  "source": "llm",
+  "description": {
+    "title": "דמי ביטוח",
+    "summary": "This table details the payment of insurance premiums and other fees related to a policy. It outlines how premiums are calculated and the consequences of late payments.",
+    "embed_passage": "פוליסה זו מתייחסת לתשלום דמי ביטוח עבור ביטוח דירה ותכולתה. דמי הביטוח מחושבים בהתאם לתנאי הפוליסה, וייתכנו ריביות על תשלומים שלא שולמו בזמן. לדוגמה, סכום בפיגור יישא ריבית שנתית כקבוע בחוק פסיקת ריבית.",
+    "row_axis": "aspects of premium payment (e.g., payment timing, late fees)",
+    "column_axis": "details of premium calculation and consequences",
+    "units": [],
+    "notable_values": [
+      "payment timing: as detailed in a list",
+      "late payment interest: as per the Interest Law",
+      "premium definition: all payments the insurer can collect"
+    ],
+    "product_hints": [
+      "ביטוח דירה ותכולתה"
+    ]
+  },
+  "sketch": ". תשלום דמי הביטוח ודמים אחרים 11\n)א( דמי הביטוח וכל יתר הסכומים המגיעים מהמבוטח למבטח בקשר לפוליסה ישולמו באופן ובמועדים שיפורטו ברשימה.\n)ב( לעניין פוליסה זו, דמי ביטוח הם סך כל התשלומים שרשאי מבטח לגבות ממבוטח, הכול לפי הנקוב ברשימה.\n)ג(  לא שולם במועדו סכום כלשהו המגיע מן המבוטח למבטח, יישא הסכום שבפיגור ריבית שנתית כקבוע בחוק פסיקת ריבית, בהתאם לשינויים במדד, בין המדד שפורסם סמוך לפני היום שנקבע לתשלום לבין המדד שפורסם סמוך לפני יום התשלום בפועל.",
+  "embed_text": "פוליסה זו מתייחסת לתשלום דמי ביטוח עבור ביטוח דירה ותכולתה. דמי הביטוח מחושבים בהתאם לתנאי הפוליסה, וייתכנו ריביות על תשלומים שלא שולמו בזמן. לדוגמה, סכום בפיגור יישא ריבית שנתית כקבוע בחוק פסיקת ריבית.",
+  "payload": "טבלה: דמי ביטוח\nThis table details the payment of insurance premiums and other fees related to a policy. It outlines how premiums are calculated and the consequences of late payments.\nממדים: aspects of premium payment (e.g., payment timing, late fees), details of premium calculation and consequences\n\n. תשלום דמי הביטוח ודמים אחרים 11\n)א( דמי הביטוח וכל יתר הסכומים המגיעים מהמבוטח למבטח בקשר לפוליסה ישולמו באופן ובמועדים שיפורטו ברשימה.\n)ב( לעניין פוליסה זו, דמי ביטוח הם סך כל התשלומים שרשאי מבטח לגבות ממבוטח, הכול לפי הנקוב ברשימה.\n)ג(  לא שולם במועדו סכום כלשהו המגיע מן המבוטח למבטח, יישא הסכום שבפיגור ריבית שנתית כקבוע בחוק פסיקת ריבית, בהתאם לשינויים במדד, בין המדד שפורסם סמוך לפני היום שנקבע לתשלום לבין המדד שפורסם סמוך לפני יום התשלום בפועל."
+}

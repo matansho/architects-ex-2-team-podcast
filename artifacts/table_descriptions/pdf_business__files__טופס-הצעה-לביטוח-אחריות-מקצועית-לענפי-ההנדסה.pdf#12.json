@@ -1,0 +1,23 @@
+{
+  "id": "pdf:business/files/טופס-הצעה-לביטוח-אחריות-מקצועית-לענפי-ההנדסה.pdf#12",
+  "source": "llm",
+  "description": {
+    "title": "אחריות מקצועית הנדסה",
+    "summary": "This table gathers information about prior insurance and potential claims for professional liability insurance in engineering fields. It helps determine coverage and premiums based on past incidents and current risks.",
+    "embed_passage": "פוליסת אחריות מקצועית הנדסה בודקת את ההיסטוריה הביטוחית של המבוטח, כולל האם היו תביעות בעבר. לדוגמה, האם הוגשו תביעות נגדך בשנים האחרונות בגין אחריות מקצועית? סכום התביעה וסכום הפיצוי ששולם הם פרטים חשובים.",
+    "row_axis": "Applicant's history regarding professional liability",
+    "column_axis": "Details of prior insurance and claims",
+    "units": [],
+    "notable_values": [
+      "years: 7",
+      "claim type: אחריות מקצועית",
+      "coverage area: ישראל"
+    ],
+    "product_hints": [
+      "אחריות מקצועית הנדסה"
+    ]
+  },
+  "sketch": "ח עבר ביטוחי\n? השנים האחרונות פוליסת ביטוח קודמת, או הנך מבוטח כעת, בגין אחריות מקצועית 7האם הייתה לך ב\n:\n:\n…\nלא\n? השנים האחרונות תביעות נגדך או נגד שותפיך, עובדיך או מנהליך, בגין אחריות מקצועית 7האם הוגשו ב\nסכום התביעה וסכום הפיצוי ששולם:\n:",
+  "embed_text": "פוליסת אחריות מקצועית הנדסה בודקת את ההיסטוריה הביטוחית של המבוטח, כולל האם היו תביעות בעבר. לדוגמה, האם הוגשו תביעות נגדך בשנים האחרונות בגין אחריות מקצועית? סכום התביעה וסכום הפיצוי ששולם הם פרטים חשובים.",
+  "payload": "טבלה: אחריות מקצועית הנדסה\nThis table gathers information about prior insurance and potential claims for professional liability insurance in engineering fields. It helps determine coverage and premiums based on past incidents and current risks.\nממדים: Applicant's history regarding professional liability, Details of prior insurance and claims\n\nח עבר ביטוחי\n? השנים האחרונות פוליסת ביטוח קודמת, או הנך מבוטח כעת, בגין אחריות מקצועית 7האם הייתה לך ב\n:\n:\n:\nכן, פרט\nפרט את שם החברה המבטחת\nסוג הביטוח:                                               תקופת הביטוח\nלא\n? האם נדחתה אי פעם הצעתך, או הצעת מי משותפיך, לביטוח אחריות מקצועית\n:\n:\nכן, פרט\nכן, פרט\nלא\nלא\n? שנים האחרונות תנאים מיוחדים להצעה כזו בעבר 7האם הותנו ב\n? השנים האחרונות, או ביטלה אותו 7האם סירבה חברת ביטוח לחדש ביטוח כזה ב\nלא\n? השנים האחרונות תביעות נגדך או נגד שותפיך, עובדיך או מנהליך, בגין אחריות מקצועית 7האם הוגשו ב\nסכום התביעה וסכום הפיצוי ששולם:\n:"
+}

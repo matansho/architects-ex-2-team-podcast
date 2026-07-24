@@ -1,0 +1,24 @@
+{
+  "id": "pdf:business/files/טופס-הצעה-לפוליסת-מכלול-לחבר-מושב.pdf#68",
+  "source": "llm",
+  "description": {
+    "title": "מכלול - כיסויים נוספים",
+    "summary": "This table details additional coverage options for the 'מכלול' insurance policy. It allows users to specify desired coverage amounts for items like bicycles and existing policies they wish to cancel.",
+    "embed_passage": "פוליסת 'מכלול' מציעה כיסויים נוספים כגון כיסוי לאופניים (עד ₪50,000) וביטול פוליסות קיימות. ניתן לציין סכומים נדרשים עבור כיסויים אלו, וכן לציין האם קיימת פוליסה קיימת שברצונך לבטל עם הצטרפות לפוליסה זו.",
+    "row_axis": "Additional coverage options or cancellation requests",
+    "column_axis": "Response (Yes/No/Amount)",
+    "units": [
+      "₪"
+    ],
+    "notable_values": [
+      "bicycle coverage: ₪50,000",
+      "cancellation request: Yes/No"
+    ],
+    "product_hints": [
+      "מכלול"
+    ]
+  },
+  "sketch": ")נא לציין סכומים( כב כיסויים נוספים נדרשים\n:( כה״ס לאופניים )לא כולל אופניים בעלי מנוע עזר כלשהו\n₪\nלא\n…\nכן\n?\nהאם יש ברשותך פוליסה שברצונך לבטל בעקבות הצטרפותך לפוליסה זו\nאם תשובתך חיובית:",
+  "embed_text": "פוליסת 'מכלול' מציעה כיסויים נוספים כגון כיסוי לאופניים (עד ₪50,000) וביטול פוליסות קיימות. ניתן לציין סכומים נדרשים עבור כיסויים אלו, וכן לציין האם קיימת פוליסה קיימת שברצונך לבטל עם הצטרפות לפוליסה זו.",
+  "payload": "טבלה: מכלול - כיסויים נוספים\nThis table details additional coverage options for the 'מכלול' insurance policy. It allows users to specify desired coverage amounts for items like bicycles and existing policies they wish to cancel.\nממדים: Additional coverage options or cancellation requests, Response (Yes/No/Amount)\n\n)נא לציין סכומים( כב כיסויים נוספים נדרשים\n:( כה״ס לאופניים )לא כולל אופניים בעלי מנוע עזר כלשהו\n₪\nלא\nכן\n:( כה״ס למכשירים אלקטרונים ביתיים )נא לציין את סוג המכשיר, יצרן, דגם ושוויו\nשווי בש״ח\nדגם\nיצרן\nהמכשיר\n0,1,2,3\nבש״ח שווי,דגם,יצרן,המכשיר\nכז קיום פוליסה בחברה אחרת וביטולה\nיש למלא חלק זה במקרה של הצעה לביטוח  משק לא פעיל/ תושב בלבד, כאשר במסגרתו מבוקש ביטוח לבית המגורים.\nלא\nכן\n?\nהאם יש ברשותך פוליסה שברצונך לבטל בעקבות הצטרפותך לפוליסה זו\nאם תשובתך חיובית:"
+}

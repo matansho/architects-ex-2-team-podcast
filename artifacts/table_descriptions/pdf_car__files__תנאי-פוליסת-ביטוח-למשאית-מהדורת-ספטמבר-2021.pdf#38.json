@@ -1,0 +1,28 @@
+{
+  "id": "pdf:car/files/תנאי-פוליסת-ביטוח-למשאית-מהדורת-ספטמבר-2021.pdf#38",
+  "source": "llm",
+  "description": {
+    "title": "ביטול פוליסה",
+    "summary": "This table details the conditions and refund amounts for canceling a car insurance policy. It outlines how refunds are calculated based on the time elapsed since the policy's inception, with specific percentages applied.",
+    "embed_passage": "פוליסת ביטוח למשאית מספקת החזר כספי במקרה של ביטול. החזרים מחושבים על בסיס תקופת הפוליסה, כאשר 5% מהדמי הביטוח השנתיים מנוכים עבור עד שבעה ימים של כיסוי, ו-0.3% נוספים לכל יום לאחר מכן. לדוגמה, ביטול לאחר 14 ימים יגרור ניכוי של 5% + (7 * 0.3%) + (7 * 0.3%) = 9.1%.",
+    "row_axis": "Cancellation scenarios / conditions",
+    "column_axis": "Refund calculation details",
+    "units": [
+      "%",
+      "ימים"
+    ],
+    "notable_values": [
+      "5%: Refund deduction for up to 7 days of coverage",
+      "0.3%: Daily deduction after the first 7 days",
+      "14: Maximum deduction amount",
+      "15.4: Section number referencing refund process",
+      "7: Number of days with a 5% deduction"
+    ],
+    "product_hints": [
+      "ביטוח למשאית"
+    ]
+  },
+  "sketch": ", יהיה פטור 15.2.2.2ו 15.2.2.1 .  וידא מבטח כי ניתנה הודעה למחזיק כאמור בסעיף 15.3 מחבותו לפי הפוליסה; ביקש מבטח לשלוח הודעה למחזיק כאמור באותן פסקאות, תכלול ; ההודעה את מספר הרישוי של הרכב המבוטח ואת התאריך שבו יכנס הביטול לתוקף מבטח לא יעכב את ביטול הפוליסה בטענה שלא הצליח לוודא שניתנה הודעה כאמור.\n.  בוטלה הפוליסה לפי סעיף זה, יחזיר המבטח לבעל הפוליסה בהקדם, ולא יאוחר 15.4 ימים מהמועד שבו נכנס הביטול לתוקף, את דמי הביטוח ששולמו, בהפחתת 14מ סכומים אלה:",
+  "embed_text": "פוליסת ביטוח למשאית מספקת החזר כספי במקרה של ביטול. החזרים מחושבים על בסיס תקופת הפוליסה, כאשר 5% מהדמי הביטוח השנתיים מנוכים עבור עד שבעה ימים של כיסוי, ו-0.3% נוספים לכל יום לאחר מכן. לדוגמה, ביטול לאחר 14 ימים יגרור ניכוי של 5% + (7 * 0.3%) + (7 * 0.3%) = 9.1%.",
+  "payload": "טבלה: ביטול פוליסה\nThis table details the conditions and refund amounts for canceling a car insurance policy. It outlines how refunds are calculated based on the time elapsed since the policy's inception, with specific percentages applied.\nממדים: Cancellation scenarios / conditions, Refund calculation details\n\n, יהיה פטור 15.2.2.2ו 15.2.2.1 .  וידא מבטח כי ניתנה הודעה למחזיק כאמור בסעיף 15.3 מחבותו לפי הפוליסה; ביקש מבטח לשלוח הודעה למחזיק כאמור באותן פסקאות, תכלול ; ההודעה את מספר הרישוי של הרכב המבוטח ואת התאריך שבו יכנס הביטול לתוקף מבטח לא יעכב את ביטול הפוליסה בטענה שלא הצליח לוודא שניתנה הודעה כאמור.\n.  בוטלה הפוליסה לפי סעיף זה, יחזיר המבטח לבעל הפוליסה בהקדם, ולא יאוחר 15.4 ימים מהמועד שבו נכנס הביטול לתוקף, את דמי הביטוח ששולמו, בהפחתת 14מ סכומים אלה:"
+}

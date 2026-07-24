@@ -1,0 +1,24 @@
+{
+  "id": "pdf:business/files/טופס-הצעה-אחריות-מקצועית-רפואה-משלימה-ופרא-רפואי.pdf#23",
+  "source": "llm",
+  "description": {
+    "title": "אחריות מקצועית רפואה משלימה",
+    "summary": "This table collects information about an applicant's prior and current professional liability insurance coverage. It's used to assess risk and determine eligibility for a new policy.",
+    "embed_passage": "טופס זה בודק את ההיסטוריה הביטוחית של מועמדים לביטוח אחריות מקצועית בתחום הרפואה המשלימה. השאלות מתייחסות לשנים האחרונות, לדוגמה, האם היית מבוטח ב-5 השנים האחרונות, והאם הוגשו תביעות נגדך. המטרה היא להעריך את הסיכון הכרוך בביטוח המקצועי.",
+    "row_axis": "Applicant's history regarding professional liability insurance",
+    "column_axis": "Questions about prior/current insurance and claims",
+    "units": [],
+    "notable_values": [
+      "שנים: 5",
+      "תביעות: לא",
+      "ביטול פוליסה: לא"
+    ],
+    "product_hints": [
+      "אחריות מקצועית רפואה משלימה",
+      "אחריות מקצועית"
+    ]
+  },
+  "sketch": ".1 ? השנים האחרונות, או הינך מבוטח/ת כעת, בגין אחריות מקצועית 5- האם היית מבוטח/ת ב\nלא\n:\nשם החברה המבטחת\n…\nכן, פרט/י\n.4 ? האם ביטל מבטח כלשהו לך, או למי משותפיך, פוליסה\nלא\nכן,",
+  "embed_text": "טופס זה בודק את ההיסטוריה הביטוחית של מועמדים לביטוח אחריות מקצועית בתחום הרפואה המשלימה. השאלות מתייחסות לשנים האחרונות, לדוגמה, האם היית מבוטח ב-5 השנים האחרונות, והאם הוגשו תביעות נגדך. המטרה היא להעריך את הסיכון הכרוך בביטוח המקצועי.",
+  "payload": "טבלה: אחריות מקצועית רפואה משלימה\nThis table collects information about an applicant's prior and current professional liability insurance coverage. It's used to assess risk and determine eligibility for a new policy.\nממדים: Applicant's history regarding professional liability insurance, Questions about prior/current insurance and claims\n\n.1 ? השנים האחרונות, או הינך מבוטח/ת כעת, בגין אחריות מקצועית 5- האם היית מבוטח/ת ב\nלא\n:\nשם החברה המבטחת\n:\nתקופת הביטוח:                                                                                    מס' הפוליסה\nכן, פרט/י\n.2 ? השנים האחרונות, או של מי משותפיך, לביטוח אחריות מקצועית 5- האם נדחתה הצעתך ב\nלא\nכן, פרט/י\n.3 ? השנים האחרונות 5- האם הותנו תנאים מיוחדים להצעה כזו ב\nלא\nכן, פרט/י\n.4 ? האם ביטל מבטח כלשהו לך, או למי משותפיך, פוליסה\nלא\nכן,"
+}

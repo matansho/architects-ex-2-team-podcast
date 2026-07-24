@@ -1,0 +1,26 @@
+{
+  "id": "pdf:car/files/פוליסת-ביטוח-רכב-הראל-סוויץ-מהדורת-דצמבר-2021.pdf#40",
+  "source": "llm",
+  "description": {
+    "title": "ביטול פוליסה",
+    "summary": "This table details the conditions for policy cancellation and the proportional refund of insurance premiums. It outlines scenarios where the insurer or policyholder can initiate cancellation and how the refund is calculated.",
+    "embed_passage": "פוליסת הראל סוויץ׳ מספקת החזר חלקי של דמי ביטוח במקרה של ביטול. החזר זה מחושב ביחס למספר הימים שנותרו בתקופת הביטוח המקורית, לדוגמה, אם נותרו 7 ימים עד לתום התקופה, יוחזר חלק יחסי מדמי הביטוח ששולמו. ההחזר כולל גם התאמה למדד המחירים לצרכן.",
+    "row_axis": "Cancellation scenarios / conditions",
+    "column_axis": "Refund details / calculations",
+    "units": [],
+    "notable_values": [
+      "7: Days before cancellation date",
+      "16.2: Clause number regarding refund calculation",
+      "16.3: Clause number regarding refund calculation",
+      "16.5: Clause number regarding indexation",
+      "16.6: Clause number regarding claims"
+    ],
+    "product_hints": [
+      "הראל סוויץ'",
+      "פוליסת רכב"
+    ]
+  },
+  "sketch": "ימים לפני המועד 7. ביטל המבטח את הפוליסה, יחזיר לבעל הפוליסה בהקדם ולא יאוחר מ 16.2 שבו תתבטל הפוליסה, את החלק היחסי מדמי הביטוח ששולמו.\n. החלק היחסי כאמור יחושב על ידי הכפלת דמי הביטוח שגבה המבטח ביחס שבין מספר 16.3 הימים שנותרו, במועד הביטול עד תום תקופת הביטוח המקורית, ובין מספר הימים הנכללים בתקופת הביטוח המקורית.",
+  "embed_text": "פוליסת הראל סוויץ׳ מספקת החזר חלקי של דמי ביטוח במקרה של ביטול. החזר זה מחושב ביחס למספר הימים שנותרו בתקופת הביטוח המקורית, לדוגמה, אם נותרו 7 ימים עד לתום התקופה, יוחזר חלק יחסי מדמי הביטוח ששולמו. ההחזר כולל גם התאמה למדד המחירים לצרכן.",
+  "payload": "טבלה: ביטול פוליסה\nThis table details the conditions for policy cancellation and the proportional refund of insurance premiums. It outlines scenarios where the insurer or policyholder can initiate cancellation and how the refund is calculated.\nממדים: Cancellation scenarios / conditions, Refund details / calculations\n\nימים לפני המועד 7. ביטל המבטח את הפוליסה, יחזיר לבעל הפוליסה בהקדם ולא יאוחר מ 16.2 שבו תתבטל הפוליסה, את החלק היחסי מדמי הביטוח ששולמו.\n. החלק היחסי כאמור יחושב על ידי הכפלת דמי הביטוח שגבה המבטח ביחס שבין מספר 16.3 הימים שנותרו, במועד הביטול עד תום תקופת הביטוח המקורית, ובין מספר הימים הנכללים בתקופת הביטוח המקורית."
+}

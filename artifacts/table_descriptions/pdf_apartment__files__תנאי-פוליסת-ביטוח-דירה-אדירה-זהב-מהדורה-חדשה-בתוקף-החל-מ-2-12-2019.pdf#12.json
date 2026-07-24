@@ -1,0 +1,23 @@
+{
+  "id": "pdf:apartment/files/תנאי-פוליסת-ביטוח-דירה-אדירה-זהב-מהדורה-חדשה-בתוקף-החל-מ-2-12-2019.pdf#12",
+  "source": "llm",
+  "description": {
+    "title": "חריגים לפוליסה",
+    "summary": "This table lists general exclusions to coverage under the 'אדירה זהב' home insurance policy. It details events that are not covered, such as war, civil unrest, and nuclear incidents.",
+    "embed_passage": "פוליסת 'אדירה זהב' אינה מכסה נזקים שנגרמו כתוצאה ממלחמה, פלישה או פעולות אויב. כמו כן, הפוליסה אינה מכסה מלחמת אזרחים, מרד או התקוממות צבאית. חריגים אלו מגדירים מצבים שאינם כלולים בכיסוי הביטוחי.",
+    "row_axis": "exclusion event",
+    "column_axis": "description of exclusion",
+    "units": [],
+    "notable_values": [
+      "מלחמה, פלישה, פעולות אויב: .1",
+      "מלחמת אזרחים: .2",
+      "קרינה מייננת: .3"
+    ],
+    "product_hints": [
+      "אדירה זהב"
+    ]
+  },
+  "sketch": "מלחמה, פלישה, פעולות אויב, פיגועים חבלניים. .1\n.2 מלחמת אזרחים, מרד, התקוממות צבאית או עממית, מהפכה.\nקרינה מייננת, זיהום רדיואקטיבי, תהליכים גרעיניים חומר גרעיני או פסולת גרעינית. .3",
+  "embed_text": "פוליסת 'אדירה זהב' אינה מכסה נזקים שנגרמו כתוצאה ממלחמה, פלישה או פעולות אויב. כמו כן, הפוליסה אינה מכסה מלחמת אזרחים, מרד או התקוממות צבאית. חריגים אלו מגדירים מצבים שאינם כלולים בכיסוי הביטוחי.",
+  "payload": "טבלה: חריגים לפוליסה\nThis table lists general exclusions to coverage under the 'אדירה זהב' home insurance policy. It details events that are not covered, such as war, civil unrest, and nuclear incidents.\nממדים: exclusion event, description of exclusion\n\nמלחמה, פלישה, פעולות אויב, פיגועים חבלניים. .1\n.2 מלחמת אזרחים, מרד, התקוממות צבאית או עממית, מהפכה.\nקרינה מייננת, זיהום רדיואקטיבי, תהליכים גרעיניים חומר גרעיני או פסולת גרעינית. .3"
+}

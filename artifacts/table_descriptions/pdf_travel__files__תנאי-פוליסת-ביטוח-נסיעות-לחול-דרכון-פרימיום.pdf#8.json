@@ -1,0 +1,29 @@
+{
+  "id": "pdf:travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-דרכון-פרימיום.pdf#8",
+  "source": "llm",
+  "description": {
+    "title": "גבולות אחריות - ביטוח נסיעות",
+    "summary": "This table details the coverage limits for various medical and travel expenses under a 'דרכון פרימיום' travel insurance policy. It allows you to look up the maximum reimbursement amount for specific events or services.",
+    "embed_passage": "פוליסת 'דרכון פרימיום' מספקת כיסוי להוצאות רפואיות בחו\"ל, כגון אשפוז והטסת מלווה, עד לגבולות אחריות מסוימים. לדוגמה, הטסת מלווה ואשפוזו במקום יכולים להיות מכוסים עד $2,500, וכרטיס נסיעה לישראל למלווה ו/או למבוטח עולה $50. גבולות הכיסוי משתנים בהתאם לסוג ההוצאה והנסיבות.",
+    "row_axis": "type of expense / event",
+    "column_axis": "coverage limit",
+    "units": [
+      "$",
+      "₪"
+    ],
+    "notable_values": [
+      "maximum coverage for medical treatment continuation in Israel: $6000",
+      "coverage for worsening of pre-existing condition during a 30-day trip: $400,000",
+      "cost of a travel ticket to Israel for an accompanying person: $50",
+      "coverage for hospitalization and accompanying person's stay abroad: $2,500",
+      "coverage for medical expenses related to a pregnancy first diagnosed abroad: $50"
+    ],
+    "product_hints": [
+      "דרכון פרימיום",
+      "ביטוח נסיעות"
+    ]
+  },
+  "sketch": "גבול כלול $ 6000 בישראל טיפול המשך,\"מסמרים הוצאת גבס, הורדת בישראל ופיזיותרפיה\",3.5.1\n,\"$ 400,000\",קודם רפואי למצב החמרה נסיעה( ימי 30 )עד,3.6\n,,מיוחדות הוצאות,4 פרק\n,להלן כמפורט,\"מעבר בחו\"\"ל שהות עקב הוצאות החזר הביטוח לתקופת\",4.1\n…\n$ 50,\"לאדם $ 1,000\",ו/או למבוטח לישראל נסיעה כרטיס למלווה,4.1.2\n$ 50,\"$ 2,500\",\"אשפוזו במקום ושהייה מלווה הטסת בחו\"\"ל המבוטח של\",4.2\n,להוצאות האחריות בגבול כלול רפואיות,\"בחו\"\"ל לראשונה שאובחן היריון\",4.3\n$ 50,להוצאות האחריות בגבול כלול רפואיות,אשפוז בעת שלא רפואיות הוצאות,4.3.1",
+  "embed_text": "פוליסת 'דרכון פרימיום' מספקת כיסוי להוצאות רפואיות בחו\"ל, כגון אשפוז והטסת מלווה, עד לגבולות אחריות מסוימים. לדוגמה, הטסת מלווה ואשפוזו במקום יכולים להיות מכוסים עד $2,500, וכרטיס נסיעה לישראל למלווה ו/או למבוטח עולה $50. גבולות הכיסוי משתנים בהתאם לסוג ההוצאה והנסיבות.",
+  "payload": "טבלה: גבולות אחריות - ביטוח נסיעות\nThis table details the coverage limits for various medical and travel expenses under a 'דרכון פרימיום' travel insurance policy. It allows you to look up the maximum reimbursement amount for specific events or services.\nממדים: type of expense / event, coverage limit\n\nגבול כלול $ 6000 בישראל טיפול המשך,\"מסמרים הוצאת גבס, הורדת בישראל ופיזיותרפיה\",3.5.1\n,\"$ 400,000\",קודם רפואי למצב החמרה נסיעה( ימי 30 )עד,3.6\n,,מיוחדות הוצאות,4 פרק\n,להלן כמפורט,\"מעבר בחו\"\"ל שהות עקב הוצאות החזר הביטוח לתקופת\",4.1\n$ 50,לזוג ליום $ 150 יחד( והמלווה )המבוטח,\"לתקופת מעבר בחו\"\"ל לינה הוצאות למלווה ו/או למבוטח הביטוח\",4.1.1\n$ 50,\"לאדם $ 1,000\",ו/או למבוטח לישראל נסיעה כרטיס למלווה,4.1.2\n$ 50,\"$ 2,500\",\"אשפוזו במקום ושהייה מלווה הטסת בחו\"\"ל המבוטח של\",4.2\n,להוצאות האחריות בגבול כלול רפואיות,\"בחו\"\"ל לראשונה שאובחן היריון\",4.3\n$ 50,להוצאות האחריות בגבול כלול רפואיות,אשפוז בעת שלא רפואיות הוצאות,4.3.1"
+}

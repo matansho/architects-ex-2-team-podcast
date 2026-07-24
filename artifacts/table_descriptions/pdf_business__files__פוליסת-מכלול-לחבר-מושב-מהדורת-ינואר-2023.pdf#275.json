@@ -1,0 +1,25 @@
+{
+  "id": "pdf:business/files/פוליסת-מכלול-לחבר-מושב-מהדורת-ינואר-2023.pdf#275",
+  "source": "llm",
+  "description": {
+    "title": "מכלול - סיכונים לא מכוסים",
+    "summary": "This table lists risks not covered by the 'מכלול' insurance policy. It details events like war, terrorism, and government actions that are excluded from coverage.",
+    "embed_passage": "פוליסת 'מכלול' אינה מכסה אבדן או נזק שנגרמו כתוצאה ממלחמה, פעולות אויב או פיגועים חבלניים (16.1). הכיסוי אינו חל על מלחמת אזרחים, מרד או התקוממות צבאית (16.2). כמו כן, קרינה מייננת ותהליכים גרעיניים אינם כלולים בפוליסה.",
+    "row_axis": "Specific excluded risk",
+    "column_axis": "Description of the excluded risk",
+    "units": [],
+    "notable_values": [
+      "מלחמה: covered in 16.1",
+      "פיגועים חבלניים: covered in 16.1",
+      "קרינה מייננת: covered in 16.3",
+      "הפקעה: covered in 16.4",
+      "מלחמת אזרחים: covered in 16.2"
+    ],
+    "product_hints": [
+      "מכלול"
+    ]
+  },
+  "sketch": ".  מלחמה, פעולות אויב, פיגועים חבלניים. 16.1\n.  מלחמת אזרחים, מרד, התקוממות צבאית או עממית, מהפכה. 16.2\n.  קרינה מייננת, זיהום רדיואקטיבי, תהליכים גרעיניים, חומר גרעיני או פסולת גרעינית. 16.3\n, .  תפיסה, הפקעה, החרמה, השמדה או הריסה של רכוש בידי הממשלה, הצבא 16.4\nרשות מקומית, או אדם הפועל על פי דין.",
+  "embed_text": "פוליסת 'מכלול' אינה מכסה אבדן או נזק שנגרמו כתוצאה ממלחמה, פעולות אויב או פיגועים חבלניים (16.1). הכיסוי אינו חל על מלחמת אזרחים, מרד או התקוממות צבאית (16.2). כמו כן, קרינה מייננת ותהליכים גרעיניים אינם כלולים בפוליסה.",
+  "payload": "טבלה: מכלול - סיכונים לא מכוסים\nThis table lists risks not covered by the 'מכלול' insurance policy. It details events like war, terrorism, and government actions that are excluded from coverage.\nממדים: Specific excluded risk, Description of the excluded risk\n\n.  מלחמה, פעולות אויב, פיגועים חבלניים. 16.1\n.  מלחמת אזרחים, מרד, התקוממות צבאית או עממית, מהפכה. 16.2\n.  קרינה מייננת, זיהום רדיואקטיבי, תהליכים גרעיניים, חומר גרעיני או פסולת גרעינית. 16.3\n, .  תפיסה, הפקעה, החרמה, השמדה או הריסה של רכוש בידי הממשלה, הצבא 16.4\nרשות מקומית, או אדם הפועל על פי דין."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "pdf:long-term-care/files/nursing-care-claim-serving-form-clalit-members.pdf#77",
+  "source": "llm",
+  "description": {
+    "title": "Harel - מסירת מסמכים",
+    "summary": "This table details Harel's response times for providing policy documents and copies of signed documents to claimants. It specifies the number of business days allowed for delivery based on the type of document requested.",
+    "embed_passage": "Harel מספקת העתקים של פוליסות או סעיפי הפוליסה לפי בקשה, תוך 14 ימי עסקים. כמו כן, ניתן לקבל העתקים של מסמכים שנחתמו על ידי המבוטח או שהוגשו על ידו, בתוך 21 ימי עסקים. מסמכים אלו ניתנים לאחר קבלת בקשה.",
+    "row_axis": "Type of document requested",
+    "column_axis": "Delivery timeframe (business days)",
+    "units": [
+      "ימי עסקים"
+    ],
+    "notable_values": [
+      "פוליסה: 14",
+      "מסמכים שנחתמו: 21",
+      "מסמכים שהוגשו: 21"
+    ],
+    "product_hints": [
+      "Harel"
+    ]
+  },
+  "sketch": "o. Provision of copies\nHarel shall deliver to the plaintiff, at his/her request, a copy of the policy or the articles, within fourteen business days after the date of receipt of the request.\nNotwithstanding the aforementioned, a plaintiff who is a third party under liability insurance may be referred to the policy form found on the website.\nHarel shall provide the plaintiff upon request with copies of any document signed by the plaintiff, any document submitted to it by the plaintiff, or any document received by it by virtue of the plaintiff's consent, within twenty-one business days after receipt of the request.",
+  "embed_text": "Harel מספקת העתקים של פוליסות או סעיפי הפוליסה לפי בקשה, תוך 14 ימי עסקים. כמו כן, ניתן לקבל העתקים של מסמכים שנחתמו על ידי המבוטח או שהוגשו על ידו, בתוך 21 ימי עסקים. מסמכים אלו ניתנים לאחר קבלת בקשה.",
+  "payload": "טבלה: Harel - מסירת מסמכים\nThis table details Harel's response times for providing policy documents and copies of signed documents to claimants. It specifies the number of business days allowed for delivery based on the type of document requested.\nממדים: Type of document requested, Delivery timeframe (business days)\n\no. Provision of copies\nHarel shall deliver to the plaintiff, at his/her request, a copy of the policy or the articles, within fourteen business days after the date of receipt of the request.\nNotwithstanding the aforementioned, a plaintiff who is a third party under liability insurance may be referred to the policy form found on the website.\nHarel shall provide the plaintiff upon request with copies of any document signed by the plaintiff, any document submitted to it by the plaintiff, or any document received by it by virtue of the plaintiff's consent, within twenty-one business days after receipt of the request."
+}

@@ -1,0 +1,24 @@
+{
+  "id": "pdf:mortgage/files/תנאי-פוליסת-ביטוח-מבנה-דירה-משכנתא-בטוחה-מהדורה-חדשה-בתוקף-החל-מ-2-12-2019.pdf#10",
+  "source": "llm",
+  "description": {
+    "title": "כיסויים לא נכללים",
+    "summary": "This table lists exclusions to coverage under a home insurance policy. It details events or causes of damage for which the insurance will not provide compensation.",
+    "embed_passage": "פוליסת ביטוח מבנה דירה בטוחה אינה מכסה אבדן או נזק שנגרמו כתוצאה ממלחמה, פעולות אויב או פיגועים חבלניים (2.1). כמו כן, אירועי מלחמת אזרחים, מרד או התקוממות צבאית אינם כלולים בכיסוי. הפוליסה אינה מכסה גם נזקים מקרינה מייננת או חומר גרעיני.",
+    "row_axis": "exclusion type",
+    "column_axis": "description of exclusion",
+    "units": [],
+    "notable_values": [
+      "war: 2.1",
+      "civil war: 2.2",
+      "radiological contamination: 2.3",
+      "government confiscation: 2.4"
+    ],
+    "product_hints": [
+      "ביטוח מבנה דירה בטוחה"
+    ]
+  },
+  "sketch": "2.1 . מלחמה, פעולות אויב, פיגועים חבלניים.\n2.2 . מלחמת אזרחים, מרד, התקוממות צבאית או עממית, מהפכה.\n. קרינה מייננת, זיהום רדיואקטיבי, תהליכים גרעיניים, חומר גרעיני או פסולת גרעינית.\n2.4 . תפיסה, הפקעה, החרמה, השמדה או הריסה של רכוש בידי הממשלה, הצבא, רשות מקומית, או אדם הפועל על פי דין.",
+  "embed_text": "פוליסת ביטוח מבנה דירה בטוחה אינה מכסה אבדן או נזק שנגרמו כתוצאה ממלחמה, פעולות אויב או פיגועים חבלניים (2.1). כמו כן, אירועי מלחמת אזרחים, מרד או התקוממות צבאית אינם כלולים בכיסוי. הפוליסה אינה מכסה גם נזקים מקרינה מייננת או חומר גרעיני.",
+  "payload": "טבלה: כיסויים לא נכללים\nThis table lists exclusions to coverage under a home insurance policy. It details events or causes of damage for which the insurance will not provide compensation.\nממדים: exclusion type, description of exclusion\n\n2.1 . מלחמה, פעולות אויב, פיגועים חבלניים.\n2.2 . מלחמת אזרחים, מרד, התקוממות צבאית או עממית, מהפכה.\n. קרינה מייננת, זיהום רדיואקטיבי, תהליכים גרעיניים, חומר גרעיני או פסולת גרעינית.\n2.4 . תפיסה, הפקעה, החרמה, השמדה או הריסה של רכוש בידי הממשלה, הצבא, רשות מקומית, או אדם הפועל על פי דין."
+}

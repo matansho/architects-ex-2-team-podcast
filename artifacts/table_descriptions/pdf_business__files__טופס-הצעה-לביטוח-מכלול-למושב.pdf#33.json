@@ -1,0 +1,28 @@
+{
+  "id": "pdf:business/files/טופס-הצעה-לביטוח-מכלול-למושב.pdf#33",
+  "source": "llm",
+  "description": {
+    "title": "מכלול ביטוח רכוש",
+    "summary": "This table details property insurance coverage for various assets, outlining the insured value, premium rate, and self-participation amounts. It's used to look up coverage details based on the type of property and potential damage.",
+    "embed_passage": "ביטוח מכלול מציע כיסוי לנזקים שונים לרכוש, כגון מכוני מים ובארות, עם דמי ביטוח המחושבים כאחוז מערך הרכוש המבוטח. לדוגמה, עבור ציוד בארות, דמי הביטוח יכולים להיות 0.90% או 1.20%, וההשתתפות העצמית עשויה להיות ₪ 10,000 או ₪ 20,000.",
+    "row_axis": "type of property/asset",
+    "column_axis": "coverage details (insured value, premium rate, self-participation)",
+    "units": [
+      "₪",
+      "%"
+    ],
+    "notable_values": [
+      "premium rate: 0.90%",
+      "premium rate: 1.20%",
+      "self-participation: ₪ 10,000",
+      "self-participation: ₪ 20,000",
+      "asset type: בארות (wells)"
+    ],
+    "product_hints": [
+      "מכלול ביטוח רכוש"
+    ]
+  },
+  "sketch": "פרק שני:\nיד שבר מכני\n\"בש\"\"ח ביטוח דמי סה\"\"כ\",מיון,כחדש( )ערך המבוטח הרכוש תאור\n,0.90%,\n,1.20%,\"וביוב מים מכוני שאיבה, מכוני מים, בארות\"\n,,\"של לעין גלוי אחר ולציוד .₪ 20,000 - בארות מפוקי כולל הקרקע/המים פני מתחת הנמצא לציוד עצמית השתתפות .₪ 10,000 וביוב מים ומכוני בארות\"\n,,\".₪ 7,500 - אחר ציוד לכל עצמית השתתפות\"\n\"הרצ\"\"ב. בנספח ראה - המבטח סיכון להקלת אמצעים\",\"הרצ\"\"ב. בנספח ראה - המבטח סיכון להקלת אמצעים\",\"הרצ\"\"ב. בנספח ראה - המבטח סיכון להקלת אמצעים\"",
+  "embed_text": "ביטוח מכלול מציע כיסוי לנזקים שונים לרכוש, כגון מכוני מים ובארות, עם דמי ביטוח המחושבים כאחוז מערך הרכוש המבוטח. לדוגמה, עבור ציוד בארות, דמי הביטוח יכולים להיות 0.90% או 1.20%, וההשתתפות העצמית עשויה להיות ₪ 10,000 או ₪ 20,000.",
+  "payload": "טבלה: מכלול ביטוח רכוש\nThis table details property insurance coverage for various assets, outlining the insured value, premium rate, and self-participation amounts. It's used to look up coverage details based on the type of property and potential damage.\nממדים: type of property/asset, coverage details (insured value, premium rate, self-participation)\n\nפרק שני:\nיד שבר מכני\n\"בש\"\"ח ביטוח דמי סה\"\"כ\",מיון,כחדש( )ערך המבוטח הרכוש תאור\n,0.90%,\n,1.20%,\"וביוב מים מכוני שאיבה, מכוני מים, בארות\"\n,,\"של לעין גלוי אחר ולציוד .₪ 20,000 - בארות מפוקי כולל הקרקע/המים פני מתחת הנמצא לציוד עצמית השתתפות .₪ 10,000 וביוב מים ומכוני בארות\"\n,,\".₪ 7,500 - אחר ציוד לכל עצמית השתתפות\"\n\"הרצ\"\"ב. בנספח ראה - המבטח סיכון להקלת אמצעים\",\"הרצ\"\"ב. בנספח ראה - המבטח סיכון להקלת אמצעים\",\"הרצ\"\"ב. בנספח ראה - המבטח סיכון להקלת אמצעים\""
+}

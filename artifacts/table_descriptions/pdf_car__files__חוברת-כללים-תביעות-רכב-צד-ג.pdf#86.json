@@ -1,0 +1,26 @@
+{
+  "id": "pdf:car/files/חוברת-כללים-תביעות-רכב-צד-ג.pdf#86",
+  "source": "llm",
+  "description": {
+    "title": "מועדי טיפול בפניות",
+    "summary": "This table details the response times for written requests related to Harel insurance policies. It specifies the number of business days required to provide copies of documents or respond to requests.",
+    "embed_passage": "בהראל חברה לביטוח, זמן הטיפול בפנייה בכתב לקבלת העתקים מהפוליסה הוא עד 14 ימי עסקים. במקרים מסוימים, כמו קבלת מסמך חתום מהתובע, זמן הטיפול עשוי להתארך עד 21 ימי עסקים. טבלה זו מפרטת את המועדים הקבועים בחוזר 'יישוב תביעות וטיפול בפניות הציבור'.",
+    "row_axis": "Type of request",
+    "column_axis": "Response time (business days)",
+    "units": [
+      "ימי עסקים"
+    ],
+    "notable_values": [
+      "request type: 8",
+      "response time: 14",
+      "request type: 8",
+      "response time: 21"
+    ],
+    "product_hints": [
+      "Harel"
+    ]
+  },
+  "sketch": "ר. לפניית בכתב מענה אזרח של ציבור לפניית בכתב מענה ותיק,)יד( 8\nהבקשה. קבלת ממועד עסקים ימי 14,או מפוליסה העתקים מסירת מתקנון.,(1)( )טו 8\nהבקשה. קבלת ממועד עסקים ימי 21,שעליו מסמך מכל העתקים מסירת התובע. חתם,(3)( )טו 8",
+  "embed_text": "בהראל חברה לביטוח, זמן הטיפול בפנייה בכתב לקבלת העתקים מהפוליסה הוא עד 14 ימי עסקים. במקרים מסוימים, כמו קבלת מסמך חתום מהתובע, זמן הטיפול עשוי להתארך עד 21 ימי עסקים. טבלה זו מפרטת את המועדים הקבועים בחוזר 'יישוב תביעות וטיפול בפניות הציבור'.",
+  "payload": "טבלה: מועדי טיפול בפניות\nThis table details the response times for written requests related to Harel insurance policies. It specifies the number of business days required to provide copies of documents or respond to requests.\nממדים: Type of request, Response time (business days)\n\nר. לפניית בכתב מענה אזרח של ציבור לפניית בכתב מענה ותיק,)יד( 8\nהבקשה. קבלת ממועד עסקים ימי 14,או מפוליסה העתקים מסירת מתקנון.,(1)( )טו 8\nהבקשה. קבלת ממועד עסקים ימי 21,שעליו מסמך מכל העתקים מסירת התובע. חתם,(3)( )טו 8"
+}

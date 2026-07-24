@@ -1,0 +1,27 @@
+{
+  "id": "pdf:car/files/תנאי-פוליסת-ביטוח-למשאית-מהדורת-ספטמבר-2021.pdf#185",
+  "source": "llm",
+  "description": {
+    "title": "כתב שירות למשאית",
+    "summary": "This table defines the terms of a roadside assistance service (כתב שירות) for trucks. It specifies eligible vehicle types and defines 'working days' for service availability.",
+    "embed_passage": "כתב שירות למשאית מספק שירותי דרך וגרירה למשאיות, רכבי משא, וגוררים תומכים במשקל של עד 34 טון. ימי עבודה מוגדרים כימי העבודה המקובלים בישראל, לא כולל חגים ושבתות. השירות מיועד לרכבים שהובאו על ידי סוכנות מורשה בישראל.",
+    "row_axis": "definitions of service terms",
+    "column_axis": "term name, description",
+    "units": [],
+    "notable_values": [
+      "vehicle type: רכב משא",
+      "vehicle weight limit: 34 טון",
+      "import restriction: ייבוא מיוחד",
+      "working days: לא כולל חגים",
+      "vehicle height/length: גובה ואורכו הכללי"
+    ],
+    "product_hints": [
+      "כתב שירות",
+      "שירותי דרך",
+      "גרירה"
+    ]
+  },
+  "sketch": "\"כלי רכב\" - רכב משא, משא אחוד, משאית, גורר תומך, כמוגדר ברישיון הרכב, אשר יובא ע\"י סוכנות מורשה בישראל ושלא מיובא ב-\"ייבוא מיוחד\" ושגובהו ואורכו הכללי אינו חורג טון. 34 מהרשום ברישיון הרכב ואשר ומשקלו אינו עולה על\n\"ימי עבודה\" - ימי העבודה המקובלים בישראל, לא כולל חגים, ערבי חג, שבתות וחול המועד.",
+  "embed_text": "כתב שירות למשאית מספק שירותי דרך וגרירה למשאיות, רכבי משא, וגוררים תומכים במשקל של עד 34 טון. ימי עבודה מוגדרים כימי העבודה המקובלים בישראל, לא כולל חגים ושבתות. השירות מיועד לרכבים שהובאו על ידי סוכנות מורשה בישראל.",
+  "payload": "טבלה: כתב שירות למשאית\nThis table defines the terms of a roadside assistance service (כתב שירות) for trucks. It specifies eligible vehicle types and defines 'working days' for service availability.\nממדים: definitions of service terms, term name, description\n\n\"כלי רכב\" - רכב משא, משא אחוד, משאית, גורר תומך, כמוגדר ברישיון הרכב, אשר יובא ע\"י סוכנות מורשה בישראל ושלא מיובא ב-\"ייבוא מיוחד\" ושגובהו ואורכו הכללי אינו חורג טון. 34 מהרשום ברישיון הרכב ואשר ומשקלו אינו עולה על\n\"ימי עבודה\" - ימי העבודה המקובלים בישראל, לא כולל חגים, ערבי חג, שבתות וחול המועד."
+}

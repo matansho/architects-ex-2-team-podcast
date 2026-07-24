@@ -1,0 +1,23 @@
+{
+  "id": "pdf:business/files/תנאי-פוליסת-ביטוח-עסקי-חבות-משולב-לחברות-תוכנה-וחומרה.pdf#17",
+  "source": "llm",
+  "description": {
+    "title": "פוליסת חבות משולב",
+    "summary": "This table lists exclusions to a combined liability insurance policy. It details scenarios where claims are *not* covered under the policy.",
+    "embed_passage": "פוליסת חבות משולב אינה מכסה תביעות הנובעות מפעילות כלכלית כגון כסף, אשראי או נדל״ן. כמו כן, הפוליסה לא תכסה הפסדים עקב תקלות תוכנה כאשר לא ניתן לקבוע בוודאות שמדובר בתקלת תוכנה. הפוליסה גם לא מכסה אובדן של רכוש או מסמכים שהופקדו בידי המבוטח.",
+    "row_axis": "Exclusion type",
+    "column_axis": "Description of exclusion",
+    "units": [],
+    "notable_values": [
+      "exclusion type: פעילות כלכלית",
+      "exclusion type: תקלות תוכנה",
+      "exclusion type: אובדן רכוש"
+    ],
+    "product_hints": [
+      "חבות משולב"
+    ]
+  },
+  "sketch": "Claims arising from the Insured's economic activities, e.g. money, credit, insurance, real estate business, transaction, cash management or consulting services in connection with these activities.\nClaims arising out of any software which with the insured's knowledge is intended  for  incorporation  into  the  structure,  machinery  or  controls  of any aircraft.\nLoss of Property, money, papers entrusted to the Insured. This exclusion however, shall not apply to loss of documents.\nLosses due to software faults when the reason cannot be unequivocally identified being a software fault.",
+  "embed_text": "פוליסת חבות משולב אינה מכסה תביעות הנובעות מפעילות כלכלית כגון כסף, אשראי או נדל״ן. כמו כן, הפוליסה לא תכסה הפסדים עקב תקלות תוכנה כאשר לא ניתן לקבוע בוודאות שמדובר בתקלת תוכנה. הפוליסה גם לא מכסה אובדן של רכוש או מסמכים שהופקדו בידי המבוטח.",
+  "payload": "טבלה: פוליסת חבות משולב\nThis table lists exclusions to a combined liability insurance policy. It details scenarios where claims are *not* covered under the policy.\nממדים: Exclusion type, Description of exclusion\n\nClaims arising from the Insured's economic activities, e.g. money, credit, insurance, real estate business, transaction, cash management or consulting services in connection with these activities.\nClaims arising out of any software which with the insured's knowledge is intended  for  incorporation  into  the  structure,  machinery  or  controls  of any aircraft.\nLoss of Property, money, papers entrusted to the Insured. This exclusion however, shall not apply to loss of documents.\nLosses due to software faults when the reason cannot be unequivocally identified being a software fault."
+}

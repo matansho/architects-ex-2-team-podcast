@@ -1,0 +1,26 @@
+{
+  "id": "pdf:loss-of-working-ability/files/טופס-הצטרפות-לפוליסת-מטריה-ביטוחית-ביטוח-אובדן-כושר-עבודה.pdf#51",
+  "source": "llm",
+  "description": {
+    "title": "הרשאה לחיוב חשבון",
+    "summary": "This table details authorization for direct debit from a bank account. It allows customers to specify limits on the amount and expiration date of the authorization.",
+    "embed_passage": "טופס זה מתייחס להרשאה לחיוב חשבון בבנק, המאפשרת למוטב לחייב את חשבון הלקוח בסכומים ובמועדים שיומצאו. ניתן להגביל את סכום החיוב עד ₪ מסוים, או לקבוע מועד פקיעת תוקף להרשאה ביום מסוים. הרשאה כללית, שאינה כוללת הגבלות, אפשרית גם כן.",
+    "row_axis": "Type of authorization (general vs. limited)",
+    "column_axis": "Authorization details (expiration date, amount limit)",
+    "units": [
+      "₪"
+    ],
+    "notable_values": [
+      "סוג חשבון: 8",
+      "תקרת סכום החיוב: ₪",
+      "מועד פקיעת תוקף ההרשאה: ביום"
+    ],
+    "product_hints": [
+      "הרשאה לחיוב חשבון",
+      "הראל"
+    ]
+  },
+  "sketch": "8\nאו . הרשאה כללית, שאינה כוללת הגבלות\nהרשאה הכוללת לפחות אחת מההגבלות הבאות:\n.       /       / מועד פקיעת תוקף ההרשאה - ביום\n.₪                                - תקרת סכום החיוב\nלתשומת לבך,\nאי סימון אחת מהחלופות המוצגות לעיל, משמעה בחירה בהרשאה כללית, שאינה כוללת הגבלות.\nאם יישלחו על ידי המוטב חיובים שאינם עומדים בהגבלות שקבע הלקוח, הם יוחזרו על ידי הבנק, על כל המשמעויות הכרוכות בכך.",
+  "embed_text": "טופס זה מתייחס להרשאה לחיוב חשבון בבנק, המאפשרת למוטב לחייב את חשבון הלקוח בסכומים ובמועדים שיומצאו. ניתן להגביל את סכום החיוב עד ₪ מסוים, או לקבוע מועד פקיעת תוקף להרשאה ביום מסוים. הרשאה כללית, שאינה כוללת הגבלות, אפשרית גם כן.",
+  "payload": "טבלה: הרשאה לחיוב חשבון\nThis table details authorization for direct debit from a bank account. It allows customers to specify limits on the amount and expiration date of the authorization.\nממדים: Type of authorization (general vs. limited), Authorization details (expiration date, amount limit)\n\n8\nאו . הרשאה כללית, שאינה כוללת הגבלות\nהרשאה הכוללת לפחות אחת מההגבלות הבאות:\n.       /       / מועד פקיעת תוקף ההרשאה - ביום\n.₪                                - תקרת סכום החיוב\nלתשומת לבך,\nאי סימון אחת מהחלופות המוצגות לעיל, משמעה בחירה בהרשאה כללית, שאינה כוללת הגבלות.\nאם יישלחו על ידי המוטב חיובים שאינם עומדים בהגבלות שקבע הלקוח, הם יוחזרו על ידי הבנק, על כל המשמעויות הכרוכות בכך."
+}

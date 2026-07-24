@@ -1,0 +1,25 @@
+{
+  "id": "pdf:long-term-care/files/иск-о-пособии-по-уходу.pdf#46",
+  "source": "llm",
+  "description": {
+    "title": "רופאים מטפלים",
+    "summary": "This table lists doctors who have treated or cared for the patient. It is used to document medical history as part of a long-term care claim.",
+    "embed_passage": "טופס זה מאפשר פירוט שמות הרופאים, המוסדות, המעבדות או מוסדות הטיפול שטיפלו או מטפלים במטופל. יש לפרט את שמות הרופאים המטפלים בסעיפים 1 עד 5. טופס זה נדרש כחלק מתהליך קבלת שירותי סיעוד.",
+    "row_axis": "Doctor/Institution/Laboratory/Treatment Facility",
+    "column_axis": "Entry Number",
+    "units": [],
+    "notable_values": [
+      "Entry 1: Available",
+      "Entry 2: Available",
+      "Entry 3: Available",
+      "Entry 4: Available",
+      "Entry 5: Available"
+    ],
+    "product_hints": [
+      "Nursing Caregiver Confirmation"
+    ]
+  },
+  "sketch": "Д Для упрощения процесса вы можете перечислить имена врачей, институтов, лабораторий или учреждений\nВрачи, которые лечили или лечили меня.\n1.\n2.\n…\n2.\n3.\n4.\n5.",
+  "embed_text": "טופס זה מאפשר פירוט שמות הרופאים, המוסדות, המעבדות או מוסדות הטיפול שטיפלו או מטפלים במטופל. יש לפרט את שמות הרופאים המטפלים בסעיפים 1 עד 5. טופס זה נדרש כחלק מתהליך קבלת שירותי סיעוד.",
+  "payload": "טבלה: רופאים מטפלים\nThis table lists doctors who have treated or cared for the patient. It is used to document medical history as part of a long-term care claim.\nממדים: Doctor/Institution/Laboratory/Treatment Facility, Entry Number\n\nД Для упрощения процесса вы можете перечислить имена врачей, институтов, лабораторий или учреждений\nВрачи, которые лечили или лечили меня.\n1.\n2.\n3.\n4.\n5.\nИнституты, лаборатории, учреждения, в которых я получал услуги.\n1.\n2.\n3.\n4.\n5."
+}

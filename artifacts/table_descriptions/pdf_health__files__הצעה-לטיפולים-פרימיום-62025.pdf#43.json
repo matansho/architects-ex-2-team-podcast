@@ -1,0 +1,25 @@
+{
+  "id": "pdf:health/files/הצעה-לטיפולים-פרימיום-62025.pdf#43",
+  "source": "llm",
+  "description": {
+    "title": "פרטי מועמדים לביטוח",
+    "summary": "This table lists details of insurance applicants. It is used to look up applicant information by name, ID number, and age.",
+    "embed_passage": "טופס זה מתעד פרטי מועמדים לביטוח בריאות. ניתן למצוא מידע על שם המועמד, מספר זהות, גיל (לדוגמה, 18), וכן פרטי בן/בת זוג. המידע משמש להערכת התאמת המועמד לתוכנית ביטוח פרימיום.",
+    "row_axis": "applicant",
+    "column_axis": "applicant details (signature, date, ID number, name, relationship, age)",
+    "units": [],
+    "notable_values": [
+      "age: 18",
+      "relationship: ראשי מועמד",
+      "relationship: הזוג בן/בת",
+      "age: 18",
+      "age: 18"
+    ],
+    "product_hints": [
+      "ביטוח פרימיום"
+    ]
+  },
+  "sketch": "חתימה,תאריך,זהות מספר,לביטוח המועמד שם,לביטוח מועמד\n,,,,ראשי מועמד\n,,,,הזוג בן/בת\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד",
+  "embed_text": "טופס זה מתעד פרטי מועמדים לביטוח בריאות. ניתן למצוא מידע על שם המועמד, מספר זהות, גיל (לדוגמה, 18), וכן פרטי בן/בת זוג. המידע משמש להערכת התאמת המועמד לתוכנית ביטוח פרימיום.",
+  "payload": "טבלה: פרטי מועמדים לביטוח\nThis table lists details of insurance applicants. It is used to look up applicant information by name, ID number, and age.\nממדים: applicant, applicant details (signature, date, ID number, name, relationship, age)\n\nחתימה,תאריך,זהות מספר,לביטוח המועמד שם,לביטוח מועמד\n,,,,ראשי מועמד\n,,,,הזוג בן/בת\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד"
+}

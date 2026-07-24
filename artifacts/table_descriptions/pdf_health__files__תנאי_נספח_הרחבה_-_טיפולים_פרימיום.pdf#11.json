@@ -1,0 +1,25 @@
+{
+  "id": "pdf:health/files/תנאי_נספח_הרחבה_-_טיפולים_פרימיום.pdf#11",
+  "source": "llm",
+  "description": {
+    "title": "הרחבה - טיפולים פרימיום",
+    "summary": "This table details coverage exclusions for premium treatments under a health insurance policy. It specifies conditions and treatments that are not covered, such as certain dental procedures and orthopedic footwear.",
+    "embed_passage": "פוליסת 'טיפולים פרימיום' אינה מכסה בדיקות או טיפולי שיניים למיניהם, עדשות מגע, משקפיים ו/או מדרסים. הפוליסה מגדירה גם חריגים עבור נעליים אורטופדיות, למעט מקרים ספציפיים כמו חולים עם בעיות ראומטיות או סוכרת. סכום כיסוי מקסימלי עבור אביזר רפואי הוא ₪ 500.",
+    "row_axis": "exclusion category",
+    "column_axis": "details of exclusion",
+    "units": [
+      "₪"
+    ],
+    "notable_values": [
+      "limit: ₪ 500",
+      "dental: covered up to a limit",
+      "orthopedic shoes: generally excluded"
+    ],
+    "product_hints": [
+      "טיפולים פרימיום"
+    ]
+  },
+  "sketch": ". בדיקות או טיפולי שיניים למיניהם, עדשות מגע, משקפיים ו/או מדרסים .4.5\nנעליים  אורטופדיות,  למעט  נעליים  אורטופדיות  רפואיות  בהתאמה  א  ישית  ובנייה  מיוחדת  לחולים .4.6 חלה ראומטית, או לחולי סוכרת הסובלים מנמק או חסר אצבעות, לחולים אחרי כריתה חלקית של במ . כף הרגל או שיתוק שרירים",
+  "embed_text": "פוליסת 'טיפולים פרימיום' אינה מכסה בדיקות או טיפולי שיניים למיניהם, עדשות מגע, משקפיים ו/או מדרסים. הפוליסה מגדירה גם חריגים עבור נעליים אורטופדיות, למעט מקרים ספציפיים כמו חולים עם בעיות ראומטיות או סוכרת. סכום כיסוי מקסימלי עבור אביזר רפואי הוא ₪ 500.",
+  "payload": "טבלה: הרחבה - טיפולים פרימיום\nThis table details coverage exclusions for premium treatments under a health insurance policy. It specifies conditions and treatments that are not covered, such as certain dental procedures and orthopedic footwear.\nממדים: exclusion category, details of exclusion\n\n. בדיקות או טיפולי שיניים למיניהם, עדשות מגע, משקפיים ו/או מדרסים .4.5\nנעליים  אורטופדיות,  למעט  נעליים  אורטופדיות  רפואיות  בהתאמה  א  ישית  ובנייה  מיוחדת  לחולים .4.6 חלה ראומטית, או לחולי סוכרת הסובלים מנמק או חסר אצבעות, לחולים אחרי כריתה חלקית של במ . כף הרגל או שיתוק שרירים"
+}

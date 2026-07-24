@@ -1,0 +1,25 @@
+{
+  "id": "pdf:health/files/טופס-בקשה-לאישור-ותיאום-ניתוח.pdf#39",
+  "source": "llm",
+  "description": {
+    "title": "טופס ניתוח",
+    "summary": "This table is a surgical request form completed by a doctor. It collects details about the recommended surgery, the doctor's contact information, and any additional notes.",
+    "embed_passage": "טופס זה משמש לתיאור ניתוח מומלץ על ידי רופא מנתח. הטופס כולל פרטים על הניתוח המומלץ, תאריך ביצוע הבדיקות, ופרטי הרופא המנתח, כגון רחוב ומיקוד. לדוגמה, ניתן למצוא כאן מידע על ניתוח מומלץ בבית חולים מסוים.",
+    "row_axis": "Surgical request form",
+    "column_axis": "Doctor's details, surgery details, additional notes",
+    "units": [],
+    "notable_values": [
+      "פקס מספר: missing",
+      "מיקוד: missing",
+      "יישוב: missing",
+      "בית מספר: missing",
+      "רחוב: missing"
+    ],
+    "product_hints": [
+      "טופס ניתוח"
+    ]
+  },
+  "sketch": "חלק ג' - למילוי בידי רופא המנתח\nטופס זה אינו מהווה התחייבות לתשלום הניתוח ו/או הכרה בזכאות המבוטח לתשלום כלשהו.\n,,,,הרופא פרטי א\nפקס מספר,מיקוד,יישוב,בית מספר,רחוב\nבבית-חולים:.,המומלץ הניתוח על פרטים ב.המומלץ: הניתוח שם.על-ידי: מומלצים וטיפולים בדיקות..בתאריך: לערוך מומלץ הניתוח את\nנוספות הערות ג\n:\nחותמת וחתימת הרופא",
+  "embed_text": "טופס זה משמש לתיאור ניתוח מומלץ על ידי רופא מנתח. הטופס כולל פרטים על הניתוח המומלץ, תאריך ביצוע הבדיקות, ופרטי הרופא המנתח, כגון רחוב ומיקוד. לדוגמה, ניתן למצוא כאן מידע על ניתוח מומלץ בבית חולים מסוים.",
+  "payload": "טבלה: טופס ניתוח\nThis table is a surgical request form completed by a doctor. It collects details about the recommended surgery, the doctor's contact information, and any additional notes.\nממדים: Surgical request form, Doctor's details, surgery details, additional notes\n\nחלק ג' - למילוי בידי רופא המנתח\nטופס זה אינו מהווה התחייבות לתשלום הניתוח ו/או הכרה בזכאות המבוטח לתשלום כלשהו.\n,,,,הרופא פרטי א\nפקס מספר,מיקוד,יישוב,בית מספר,רחוב\nבבית-חולים:.,המומלץ הניתוח על פרטים ב.המומלץ: הניתוח שם.על-ידי: מומלצים וטיפולים בדיקות..בתאריך: לערוך מומלץ הניתוח את\nנוספות הערות ג\n:\nחותמת וחתימת הרופא"
+}

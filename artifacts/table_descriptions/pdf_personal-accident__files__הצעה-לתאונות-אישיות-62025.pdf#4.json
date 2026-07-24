@@ -1,0 +1,26 @@
+{
+  "id": "pdf:personal-accident/files/הצעה-לתאונות-אישיות-62025.pdf#4",
+  "source": "llm",
+  "description": {
+    "title": "הצעה לתאונות אישיות",
+    "summary": "This table captures details of applicants for personal accident insurance with 'Harel'. It allows looking up information based on family structure and applicant details.",
+    "embed_passage": "פוליסת 'הראל' לתאונות אישיות מאפשרת ביטוח למשפחות, כולל ילדים. ניתן לראות מידע על מספר הילדים במשפחה, לדוגמה 1 ילד, 2 ילד, 3 ילד או 4 ילד, וכן פרטים אישיים של כל מועמד לביטוח, כגון שם פרטי, שם משפחה ומספר זהות.",
+    "row_axis": "applicant / insured person",
+    "column_axis": "applicant details (name, ID, address)",
+    "units": [],
+    "notable_values": [
+      "number of children: 1",
+      "number of children: 2",
+      "number of children: 3",
+      "number of children: 4",
+      "applicant type: זוג בן/בת"
+    ],
+    "product_hints": [
+      "הראל תאונות אישיות",
+      "תאונות אישיות"
+    ]
+  },
+  "sketch": "4 ילד,3 ילד,2 ילד,1 ילד,זוג בן/בת,לביטוח ראשי מועמד,\n,,,,,,זהות מספר\n,,,,,,משפחה שם\n,,,,,,פרטי שם\n…\nהראשי למועמד זהה כתובת,הראשי למועמד זהה כתובת,הראשי למועמד זהה כתובת,הראשי למועמד זהה כתובת,מגורים: כתובת,מגורים: כתובת,מגורים: כתובת\n,,,,,,רחוב\n,,,,,,בית מס׳\n,,,,,,יישוב",
+  "embed_text": "פוליסת 'הראל' לתאונות אישיות מאפשרת ביטוח למשפחות, כולל ילדים. ניתן לראות מידע על מספר הילדים במשפחה, לדוגמה 1 ילד, 2 ילד, 3 ילד או 4 ילד, וכן פרטים אישיים של כל מועמד לביטוח, כגון שם פרטי, שם משפחה ומספר זהות.",
+  "payload": "טבלה: הצעה לתאונות אישיות\nThis table captures details of applicants for personal accident insurance with 'Harel'. It allows looking up information based on family structure and applicant details.\nממדים: applicant / insured person, applicant details (name, ID, address)\n\n4 ילד,3 ילד,2 ילד,1 ילד,זוג בן/בת,לביטוח ראשי מועמד,\n,,,,,,זהות מספר\n,,,,,,משפחה שם\n,,,,,,פרטי שם\nנקבה זכר,נקבה זכר,נקבה זכר,נקבה זכר,נקבה זכר,נקבה זכר,מין\n,,,,,,לידה תאריך\n,,,,,,חולים קופת\n,,,,,,\"שב\"\"ן\"\nלא כן,לא כן,לא כן,לא כן,לא כן,לא כן,בשנתיים מעשן/עישנת האחרונות?\n,,,,,,עיסוק\n,,,,,,אישי מצב\n,,,,,,נייד טלפון\n,,,,,,דוא״ל כתובת\nהראשי למועמד זהה כתובת,הראשי למועמד זהה כתובת,הראשי למועמד זהה כתובת,הראשי למועמד זהה כתובת,מגורים: כתובת,מגורים: כתובת,מגורים: כתובת\n,,,,,,רחוב\n,,,,,,בית מס׳\n,,,,,,יישוב"
+}

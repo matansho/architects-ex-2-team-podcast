@@ -1,0 +1,25 @@
+{
+  "id": "pdf:loss-of-working-ability/files/טופס-הצטרפות-לפוליסת-מטריה-ביטוחית-ביטוח-אובדן-כושר-עבודה.pdf#18",
+  "source": "llm",
+  "description": {
+    "title": "מוטבים למקרה מוות",
+    "summary": "This table lists beneficiaries for death benefits. It details the beneficiary's name, ID number, date of birth, relationship to the insured, and their share of the benefit.",
+    "embed_passage": "פוליסת המטריה הביטוחית כוללת מידע על המוטבים למקרה מוות, כגון שם המוטב, תאריך לידה ומספר תעודת זהות. החלק של כל מוטב מוגדר באחוזים, לדוגמה 100% ל\"סה״כ\". מידע זה חשוב לצורך תשלום הפיצויים במקרה של פטירה.",
+    "row_axis": "beneficiary",
+    "column_axis": "beneficiary details (name, ID, date of birth, relationship, share)",
+    "units": [
+      "%"
+    ],
+    "notable_values": [
+      "share: 100%",
+      "beneficiary count: 6"
+    ],
+    "product_hints": [
+      "מטריה ביטוחית",
+      "ביטוח אובדן כושר עבודה"
+    ]
+  },
+  "sketch": "4 המוטבים למקרה מוות ד\nבאחוזים והחלק,קרבה,לידה תאריך,ת.ז. מספר,פרטי שם,שם\n,,,,,.1\n,,,,,.2\n…\n,,,,,.5\n,,,,,.6\n100%,\"סה\"\"כ\",,,,\n4 בהעדר מינוי מוטבים, הסכומים ישולמו ליורשים החוקיים על-פי הדין בהתאם לצו ירושה או על-פי צו קיום צוואה.",
+  "embed_text": "פוליסת המטריה הביטוחית כוללת מידע על המוטבים למקרה מוות, כגון שם המוטב, תאריך לידה ומספר תעודת זהות. החלק של כל מוטב מוגדר באחוזים, לדוגמה 100% ל\"סה״כ\". מידע זה חשוב לצורך תשלום הפיצויים במקרה של פטירה.",
+  "payload": "טבלה: מוטבים למקרה מוות\nThis table lists beneficiaries for death benefits. It details the beneficiary's name, ID number, date of birth, relationship to the insured, and their share of the benefit.\nממדים: beneficiary, beneficiary details (name, ID, date of birth, relationship, share)\n\n4 המוטבים למקרה מוות ד\nבאחוזים והחלק,קרבה,לידה תאריך,ת.ז. מספר,פרטי שם,שם\n,,,,,.1\n,,,,,.2\n,,,,,.3\n,,,,,.4\n,,,,,.5\n,,,,,.6\n100%,\"סה\"\"כ\",,,,\n4 בהעדר מינוי מוטבים, הסכומים ישולמו ליורשים החוקיים על-פי הדין בהתאם לצו ירושה או על-פי צו קיום צוואה."
+}

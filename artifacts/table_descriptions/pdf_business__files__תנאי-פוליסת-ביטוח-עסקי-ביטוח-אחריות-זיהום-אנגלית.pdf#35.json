@@ -1,0 +1,23 @@
+{
+  "id": "pdf:business/files/תנאי-פוליסת-ביטוח-עסקי-ביטוח-אחריות-זיהום-אנגלית.pdf#35",
+  "source": "llm",
+  "description": {
+    "title": "ביטוח אחריות זיהום",
+    "summary": "This table details exclusions to a pollution liability insurance policy. It specifies conditions and costs not covered under the policy, such as maintenance or upgrades required by governmental authority.",
+    "embed_passage": "פוליסת ביטוח אחריות זיהום אינה מכסה עלויות תחזוקה, שדרוג או שיפור של כל בקרה ב'מיקום מכוסה', גם אם התחזוקה נדרשת על ידי 'רשות ממשלתית'. הפוליסה אינה מכסה הוצאות הקשורות ל'אירוע זיהום' ידוע לפני תאריך תחילת ההסכם, אלא אם כן נחשף בכתב. עלויות אלו יכולות להגיע לסכומים משמעותיים, בהתאם להיקף הזיהום.",
+    "row_axis": "Exclusion type (e.g., Maintenance, Known Pollution Event)",
+    "column_axis": "Details of the exclusion",
+    "units": [],
+    "notable_values": [
+      "governmental authority: required",
+      "cleanup costs: not covered",
+      "pollution event: known prior to effective date"
+    ],
+    "product_hints": [
+      "ביטוח אחריות זיהום"
+    ]
+  },
+  "sketch": "G. Maintenance, Upgrades, Improvements or Installations\nAny costs,  charges  or  expenses  for  maintenance,  upgrade  or  improvement  of,  or installation of any control to, any property or processes on, at, within or under a 'covered location' even if such maintenance, upgrade, improvement or installation is required:\nBy \"governmental authority\"; or\nAs a result of \"cleanup costs\", 'loss', or \"other loss\" otherwise covered under the policy.",
+  "embed_text": "פוליסת ביטוח אחריות זיהום אינה מכסה עלויות תחזוקה, שדרוג או שיפור של כל בקרה ב'מיקום מכוסה', גם אם התחזוקה נדרשת על ידי 'רשות ממשלתית'. הפוליסה אינה מכסה הוצאות הקשורות ל'אירוע זיהום' ידוע לפני תאריך תחילת ההסכם, אלא אם כן נחשף בכתב. עלויות אלו יכולות להגיע לסכומים משמעותיים, בהתאם להיקף הזיהום.",
+  "payload": "טבלה: ביטוח אחריות זיהום\nThis table details exclusions to a pollution liability insurance policy. It specifies conditions and costs not covered under the policy, such as maintenance or upgrades required by governmental authority.\nממדים: Exclusion type (e.g., Maintenance, Known Pollution Event), Details of the exclusion\n\nG. Maintenance, Upgrades, Improvements or Installations\nAny costs,  charges  or  expenses  for  maintenance,  upgrade  or  improvement  of,  or installation of any control to, any property or processes on, at, within or under a 'covered location' even if such maintenance, upgrade, improvement or installation is required:\nBy \"governmental authority\"; or\nAs a result of \"cleanup costs\", 'loss', or \"other loss\" otherwise covered under the policy."
+}

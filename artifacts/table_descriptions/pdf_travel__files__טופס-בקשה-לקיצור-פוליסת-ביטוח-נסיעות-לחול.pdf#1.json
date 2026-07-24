@@ -1,0 +1,24 @@
+{
+  "id": "pdf:travel/files/טופס-בקשה-לקיצור-פוליסת-ביטוח-נסיעות-לחול.pdf#1",
+  "source": "llm",
+  "description": {
+    "title": "בקשת קיצור פוליסה",
+    "summary": "This table collects details for a request to shorten a travel insurance policy. It captures information about the insured individuals and their contact details.",
+    "embed_passage": "טופס זה מיועד לקיצור פוליסת ביטוח נסיעות לחו״ל. הטופס אוסף פרטים אישיים כגון תאריך לידה ומין, לצד כתובת מגורים ומספרי טלפון. לדוגמה, ניתן לציין אם המבוטח הוא ראשי, בן/בת זוג, או ילד, וכן לציין את מספר הזהות שלו. ",
+    "row_axis": "insured individual (main insured, spouse, child)",
+    "column_axis": "personal details (gender, date of birth, name, ID number, address, phone number, email)",
+    "units": [],
+    "notable_values": [
+      "gender: נקבה",
+      "gender: זכר",
+      "child number: 1",
+      "child number: 4"
+    ],
+    "product_hints": [
+      "ביטוח נסיעות לחו״ל"
+    ]
+  },
+  "sketch": "מין,לידה תאריך,פרטי* שם,משפחה* שם,\"זהות* מספר ס\"\"ב\",המבוטח פרטי א.\nנקבה זכר,,,,,ראשי מבוטח\nנקבה זכר,,,,,זוג בן/בת\nנקבה זכר,,,,,ילדים 1\n…\nנקבה זכר,,,,,4\nמיקוד ת.ד,,יישוב,מספר,רחוב,מגורים כתובת המבוטח של הראשי\nלמלא) (חובה נייד טלפון מספר,למלא) (חובה נייד טלפון מספר,למלא) (חובה נייד טלפון מספר,למלא) (חובה נייד טלפון מספר,טלפון מספר,מגורים כתובת המבוטח של הראשי\n,,,,,דוא״ל כתובת",
+  "embed_text": "טופס זה מיועד לקיצור פוליסת ביטוח נסיעות לחו״ל. הטופס אוסף פרטים אישיים כגון תאריך לידה ומין, לצד כתובת מגורים ומספרי טלפון. לדוגמה, ניתן לציין אם המבוטח הוא ראשי, בן/בת זוג, או ילד, וכן לציין את מספר הזהות שלו.",
+  "payload": "טבלה: בקשת קיצור פוליסה\nThis table collects details for a request to shorten a travel insurance policy. It captures information about the insured individuals and their contact details.\nממדים: insured individual (main insured, spouse, child), personal details (gender, date of birth, name, ID number, address, phone number, email)\n\nמין,לידה תאריך,פרטי* שם,משפחה* שם,\"זהות* מספר ס\"\"ב\",המבוטח פרטי א.\nנקבה זכר,,,,,ראשי מבוטח\nנקבה זכר,,,,,זוג בן/בת\nנקבה זכר,,,,,ילדים 1\nנקבה זכר,,,,,2\nנקבה זכר,,,,,3\nנקבה זכר,,,,,4\nמיקוד ת.ד,,יישוב,מספר,רחוב,מגורים כתובת המבוטח של הראשי\nלמלא) (חובה נייד טלפון מספר,למלא) (חובה נייד טלפון מספר,למלא) (חובה נייד טלפון מספר,למלא) (חובה נייד טלפון מספר,טלפון מספר,מגורים כתובת המבוטח של הראשי\n,,,,,דוא״ל כתובת"
+}

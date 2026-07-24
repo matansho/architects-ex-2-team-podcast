@@ -1,0 +1,28 @@
+{
+  "id": "pdf:apartment/files/טופס-הצעה-לפוליסת-ביטוח-לבית-המשותף-עד-הגג.pdf#47",
+  "source": "llm",
+  "description": {
+    "title": "ביטוח דירה בבית משותף",
+    "summary": "This table details insurance coverage for apartments within a shared building. It allows looking up the total insurance amount based on apartment size.",
+    "embed_passage": "פוליסת 'עד הגג ביטוח לבית משותף' נועדה לביטוח הבית המשותף, וסכום הביטוח הכולל נקבע בהתאם לשטח הדירות. לדוגמה, שטח דירה יכול להיות 80 מ\"ר, וסכום הביטוח הכולל יכול להיות 1,000,000 ₪. הפוליסה כוללת מספר פרקים שניתן לרכוש בנפרד.",
+    "row_axis": "Apartment",
+    "column_axis": "Apartment Number, Owner's Name, Apartment Area (m²), Total Insurance Amount (₪)",
+    "units": [
+      "מ\"ר",
+      "₪"
+    ],
+    "notable_values": [
+      "Total number of apartments: not specified",
+      "Total apartment area: not specified",
+      "Apartment area unit: מ\"ר",
+      "Insurance amount unit: ₪"
+    ],
+    "product_hints": [
+      "עד הגג ביטוח לבית משותף",
+      "ביטוח דירה"
+    ]
+  },
+  "sketch": "סכום הביטוח יקבע בהתאם לשטח הדירות.\nשטח הדירה )יש לכלול בחישוב את שטח הדירה נטו בתוספת ההצמדות המיוחדות השייכות לדירה, אך למעט החלקים המשותפים לכלל דיירי :( הבית המשותף .₪                                               : סכום הביטוח הכולל למבני הדירות בבית המשותף המוצעות לביטוח בהתאם להוראת בעלי / דיירי הבית המשותף, להלן הדירות שמבניהן מוצעים לביטוח במסגרת פוליסה זו:\nהדירה בעל שם,\"במ\"\"ר הדירה שטח\",דירה מספר\nסה\"כ מספר הדירות המוצעות לביטוח:                                               סה\"כ שטח הדירות:                                                                           מ\"ר",
+  "embed_text": "פוליסת 'עד הגג ביטוח לבית משותף' נועדה לביטוח הבית המשותף, וסכום הביטוח הכולל נקבע בהתאם לשטח הדירות. לדוגמה, שטח דירה יכול להיות 80 מ\"ר, וסכום הביטוח הכולל יכול להיות 1,000,000 ₪. הפוליסה כוללת מספר פרקים שניתן לרכוש בנפרד.",
+  "payload": "טבלה: ביטוח דירה בבית משותף\nThis table details insurance coverage for apartments within a shared building. It allows looking up the total insurance amount based on apartment size.\nממדים: Apartment, Apartment Number, Owner's Name, Apartment Area (m²), Total Insurance Amount (₪)\n\nסכום הביטוח יקבע בהתאם לשטח הדירות.\nשטח הדירה )יש לכלול בחישוב את שטח הדירה נטו בתוספת ההצמדות המיוחדות השייכות לדירה, אך למעט החלקים המשותפים לכלל דיירי :( הבית המשותף .₪                                               : סכום הביטוח הכולל למבני הדירות בבית המשותף המוצעות לביטוח בהתאם להוראת בעלי / דיירי הבית המשותף, להלן הדירות שמבניהן מוצעים לביטוח במסגרת פוליסה זו:\nהדירה בעל שם,\"במ\"\"ר הדירה שטח\",דירה מספר\nסה\"כ מספר הדירות המוצעות לביטוח:                                               סה\"כ שטח הדירות:                                                                           מ\"ר"
+}

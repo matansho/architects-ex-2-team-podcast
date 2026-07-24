@@ -1,0 +1,24 @@
+{
+  "id": "pdf:car/files/תנאי-פוליסת-ביטוח-תו-סוחר-חובה-מהדורת-ספטמבר-2021.pdf#33",
+  "source": "llm",
+  "description": {
+    "title": "ביטול פוליסה",
+    "summary": "This table details the conditions for policy cancellation by either the policyholder or the insurer. It outlines the process, effective dates, and potential refunds.",
+    "embed_passage": "פוליסת 'תו סוחר' ניתנת לביטול על ידי בעל הפוליסה בכל עת, גם לפני תום תקופת הביטוח. ביטול הפוליסה ייכנס לתוקפו במועד שצוין בהצהרה למבטח, או במועד מסירת ההצהרה אם לא צוין מועד. במקרה של ביטול, המבטח יחזיר את החלק היחסי של דמי הביטוח תוך 15 ימים.",
+    "row_axis": "Cancellation scenarios/clauses",
+    "column_axis": "Details of the cancellation process (e.g., rights, timing, refunds)",
+    "units": [],
+    "notable_values": [
+      "15.1: Cancellation possible at any time",
+      "15.3: Refund within 15 days",
+      "15.4: Refunds adjusted for index changes",
+      "15.5: Refund even with claim filed"
+    ],
+    "product_hints": [
+      "תו סוחר"
+    ]
+  },
+  "sketch": ". ביטול הפוליסה בהודעת בעל הפוליסה 15\n. בעל הפוליסה רשאי, בהודעה למבטח, לבטל פוליסה זו בכל עת אף לפני תום תקופת 15.1 הביטוח.\n; . ביטול פוליסה בהודעת בעל הפוליסה ייכנס לתוקפו במועד שיצוין בהצהרה למבטח 15.2 לא צוין מועד כאמור, ביטול הפוליסה ייכנס לתוקפו במועד מסירת ההצהרה.\nבוטלה הפוליסה לפי סעיף זה, יחזיר המבטח לבעל הפוליסה בהקדם, ולא יאוחר מ 15.3 ימים מהמועד שבו נכנס הביטול לתוקף, את החלק היחסי של דמי הביטוח ששולמו.",
+  "embed_text": "פוליסת 'תו סוחר' ניתנת לביטול על ידי בעל הפוליסה בכל עת, גם לפני תום תקופת הביטוח. ביטול הפוליסה ייכנס לתוקפו במועד שצוין בהצהרה למבטח, או במועד מסירת ההצהרה אם לא צוין מועד. במקרה של ביטול, המבטח יחזיר את החלק היחסי של דמי הביטוח תוך 15 ימים.",
+  "payload": "טבלה: ביטול פוליסה\nThis table details the conditions for policy cancellation by either the policyholder or the insurer. It outlines the process, effective dates, and potential refunds.\nממדים: Cancellation scenarios/clauses, Details of the cancellation process (e.g., rights, timing, refunds)\n\n. ביטול הפוליסה בהודעת בעל הפוליסה 15\n. בעל הפוליסה רשאי, בהודעה למבטח, לבטל פוליסה זו בכל עת אף לפני תום תקופת 15.1 הביטוח.\n; . ביטול פוליסה בהודעת בעל הפוליסה ייכנס לתוקפו במועד שיצוין בהצהרה למבטח 15.2 לא צוין מועד כאמור, ביטול הפוליסה ייכנס לתוקפו במועד מסירת ההצהרה.\nבוטלה הפוליסה לפי סעיף זה, יחזיר המבטח לבעל הפוליסה בהקדם, ולא יאוחר מ 15.3 ימים מהמועד שבו נכנס הביטול לתוקף, את החלק היחסי של דמי הביטוח ששולמו."
+}

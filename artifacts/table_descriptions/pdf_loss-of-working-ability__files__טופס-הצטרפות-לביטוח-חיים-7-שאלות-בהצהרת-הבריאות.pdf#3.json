@@ -1,0 +1,29 @@
+{
+  "id": "pdf:loss-of-working-ability/files/טופס-הצטרפות-לביטוח-חיים-7-שאלות-בהצהרת-הבריאות.pdf#3",
+  "source": "llm",
+  "description": {
+    "title": "ביטוח חיים - הצהרת בריאות",
+    "summary": "This table outlines coverage amounts for Harel life insurance policies. It details minimum and maximum payouts for various benefits like accidental death, disability, and family income support.",
+    "embed_passage": "ביטוח חיים של הראל מציע מגוון כיסויים, כגון הכנסה למשפחה זוגית בין ₪2,000 ל-₪10,000, מוות מתאונה בין ₪50,000 ל-₪1,500,000, ונכות מתאונה באותם סכומים. כיסוי 'חוסן למחר פלוס' מגיע עד ₪500,000.",
+    "row_axis": "type of coverage (e.g., accidental death, disability)",
+    "column_axis": "coverage amount",
+    "units": [
+      "₪"
+    ],
+    "notable_values": [
+      "מינימום הכנסה למשפחה זוגית: ₪2,000",
+      "מקסימום הכנסה למשפחה זוגית: ₪10,000",
+      "מינימום מוות מתאונה: ₪50,000",
+      "מקסימום מוות מתאונה: ₪1,500,000",
+      "מקסימום חוסן למחר פלוס: ₪500,000"
+    ],
+    "product_hints": [
+      "ביטוח חיים",
+      "הראל",
+      "חוסן למחר פלוס"
+    ]
+  },
+  "sketch": "₪  10,000 ועד ₪  2,000 - מינימום Extra הכנסה למשפחה זוגית\n₪  1,500,000 ועד ₪  50,000 ב.  מוות מתאונה - מינימום\n₪  1,500,000 ועד ₪  50,000 ג.  נכות מתאונה- מינימום\n₪  500,000 ד.  חוסן למחר פלוס - עד",
+  "embed_text": "ביטוח חיים של הראל מציע מגוון כיסויים, כגון הכנסה למשפחה זוגית בין ₪2,000 ל-₪10,000, מוות מתאונה בין ₪50,000 ל-₪1,500,000, ונכות מתאונה באותם סכומים. כיסוי 'חוסן למחר פלוס' מגיע עד ₪500,000.",
+  "payload": "טבלה: ביטוח חיים - הצהרת בריאות\nThis table outlines coverage amounts for Harel life insurance policies. It details minimum and maximum payouts for various benefits like accidental death, disability, and family income support.\nממדים: type of coverage (e.g., accidental death, disability), coverage amount\n\n₪  10,000 ועד ₪  2,000 - מינימום Extra הכנסה למשפחה זוגית\n₪  1,500,000 ועד ₪  50,000 ב.  מוות מתאונה - מינימום\n₪  1,500,000 ועד ₪  50,000 ג.  נכות מתאונה- מינימום\n₪  500,000 ד.  חוסן למחר פלוס - עד"
+}

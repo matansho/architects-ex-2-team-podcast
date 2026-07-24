@@ -1,0 +1,28 @@
+{
+  "id": "pdf:health/files/תנאי_פוליסת_השתלות_וטיפולים_מיוחדים_בחול.pdf#26",
+  "source": "llm",
+  "description": {
+    "title": "דמי ביטוח - השתלות וטיפולים",
+    "summary": "This table shows the monthly insurance premiums for 'Harel' policies, varying by the insured's age. It is used to look up the cost of insurance based on age.",
+    "embed_passage": "פוליסת 'Harel' קובעת את דמי הביטוח החודשיים בהתאם לגיל המבוטח. לדוגמה, עבור גיל עד 20, דמי הביטוח הם 9.77, בעוד שעבור גיל 21-30 הם 15.57. דמי הביטוח משתנים במהלך תקופת הביטוח בהתאם לגיל המבוטח.",
+    "row_axis": "גיל המבוטח",
+    "column_axis": "דמי ביטוח חודשיים",
+    "units": [
+      "₪/חודש"
+    ],
+    "notable_values": [
+      "גיל עד 20: 9.77",
+      "גיל 21-30: 15.57",
+      "גיל 31-40: 16.98",
+      "גיל 41-50: 20.41",
+      "גיל 66 ומעלה: 29.76"
+    ],
+    "product_hints": [
+      "Harel",
+      "פוליסת השתלות וטיפולים"
+    ]
+  },
+  "sketch": "3\nק\"ת תשמ\"א, עמ\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",האינטרנט אתר ת כתוב www.harel-group.co.il",
+  "embed_text": "פוליסת 'Harel' קובעת את דמי הביטוח החודשיים בהתאם לגיל המבוטח. לדוגמה, עבור גיל עד 20, דמי הביטוח הם 9.77, בעוד שעבור גיל 21-30 הם 15.57. דמי הביטוח משתנים במהלך תקופת הביטוח בהתאם לגיל המבוטח.",
+  "payload": "טבלה: דמי ביטוח - השתלות וטיפולים\nThis table shows the monthly insurance premiums for 'Harel' policies, varying by the insured's age. It is used to look up the cost of insurance based on age.\nממדים: גיל המבוטח, דמי ביטוח חודשיים\n\n3\nק\"ת תשמ\"א, עמ\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",האינטרנט אתר ת כתוב www.harel-group.co.il"
+}

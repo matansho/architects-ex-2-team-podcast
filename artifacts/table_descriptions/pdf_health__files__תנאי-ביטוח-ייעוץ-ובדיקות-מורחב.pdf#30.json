@@ -1,0 +1,22 @@
+{
+  "id": "pdf:health/files/תנאי-ביטוח-ייעוץ-ובדיקות-מורחב.pdf#30",
+  "source": "llm",
+  "description": {
+    "title": "כיסויים מורחבים",
+    "summary": "This table details coverage exclusions for a health insurance plan. It lists specific medical areas or conditions that are not covered under the policy.",
+    "embed_passage": "תכנית זו כוללת כיסויים מורחבים בתחומים שונים. לדוגמה, התייעצויות או בדיקות בתחום רפואת שיניים, חניכיים, השתלות ורגנרציה אינן כלולות בכיסוי. כמו כן, אבחונים או בדיקות בתחום הפרעות קשב וריכוז, לקויות למידה, והפרעות קוגנטיביות אינם מכוסים.",
+    "row_axis": "excluded medical area/condition",
+    "column_axis": "description of exclusion",
+    "units": [],
+    "notable_values": [
+      "5.2: התייעצויות או בדיקות בתחום רפואת שיניים",
+      "5.3: אבחונים בתחום הפרעות קשב וריכוז"
+    ],
+    "product_hints": [
+      "תכנית זו"
+    ]
+  },
+  "sketch": ". .  התייעצויות או בדיקות ב  תחום רפואת שיניים, חניכיים, השתלות ורגנרציה 5.2\n. .  אבחונים או בדיקות בתחום בקשר עם הפרעות קשב וריכוז, לקויות למידה, הפרעות קוגנטיביות 5.3",
+  "embed_text": "תכנית זו כוללת כיסויים מורחבים בתחומים שונים. לדוגמה, התייעצויות או בדיקות בתחום רפואת שיניים, חניכיים, השתלות ורגנרציה אינן כלולות בכיסוי. כמו כן, אבחונים או בדיקות בתחום הפרעות קשב וריכוז, לקויות למידה, והפרעות קוגנטיביות אינם מכוסים.",
+  "payload": "טבלה: כיסויים מורחבים\nThis table details coverage exclusions for a health insurance plan. It lists specific medical areas or conditions that are not covered under the policy.\nממדים: excluded medical area/condition, description of exclusion\n\n. .  התייעצויות או בדיקות ב  תחום רפואת שיניים, חניכיים, השתלות ורגנרציה 5.2\n. .  אבחונים או בדיקות בתחום בקשר עם הפרעות קשב וריכוז, לקויות למידה, הפרעות קוגנטיביות 5.3"
+}

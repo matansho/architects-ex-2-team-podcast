@@ -1,0 +1,26 @@
+{
+  "id": "pdf:health/files/62025-טופס-הצעה-לביטוח-רפואי-ביטוח-בריאות.pdf#3",
+  "source": "llm",
+  "description": {
+    "title": "הצעת ביטוח רפואי",
+    "summary": "This table is a health insurance proposal form. It collects details about the applicants for insurance, including family members and their addresses.",
+    "embed_passage": "טופס זה משמש להגשת הצעה לביטוח רפואי של \"הראל\". הוא אוסף מידע על מועמדים לביטוח, כולל מספר זהות, שם משפחה ושם פרטי. לדוגמה, ניתן למלא פרטים עבור ילד ראשון, ילד שני, או זוג בן/בת.",
+    "row_axis": "applicant/family member",
+    "column_axis": "applicant details (ID, family name, given name, address)",
+    "units": [],
+    "notable_values": [
+      "ילד 1: column header",
+      "ילד 2: column header",
+      "ילד 3: column header",
+      "ילד 4: column header",
+      "זוג בן/בת: column header"
+    ],
+    "product_hints": [
+      "ביטוח בריאות",
+      "הראל"
+    ]
+  },
+  "sketch": "4 ילד,3 ילד,2 ילד,1 ילד,זוג בן/בת,לביטוח ראשי מועמד,\n,,,,,,זהות מספר\n,,,,,,משפחה שם\n,,,,,,פרטי שם\n…\nהראשי למועמד זהה כתובת □,הראשי למועמד זהה כתובת □,הראשי למועמד זהה כתובת □,הראשי למועמד זהה כתובת □,מגורים: כתובת,מגורים: כתובת,מגורים: כתובת\n,,,,,,רחוב\n,,,,,,בית מס׳\n,,,,,,יישוב",
+  "embed_text": "טופס זה משמש להגשת הצעה לביטוח רפואי של \"הראל\". הוא אוסף מידע על מועמדים לביטוח, כולל מספר זהות, שם משפחה ושם פרטי. לדוגמה, ניתן למלא פרטים עבור ילד ראשון, ילד שני, או זוג בן/בת.",
+  "payload": "טבלה: הצעת ביטוח רפואי\nThis table is a health insurance proposal form. It collects details about the applicants for insurance, including family members and their addresses.\nממדים: applicant/family member, applicant details (ID, family name, given name, address)\n\n4 ילד,3 ילד,2 ילד,1 ילד,זוג בן/בת,לביטוח ראשי מועמד,\n,,,,,,זהות מספר\n,,,,,,משפחה שם\n,,,,,,פרטי שם\n□ זכר □ נקבה,□ זכר □ נקבה,□ זכר □ נקבה,□ זכר □ נקבה,□ זכר □ נקבה,□ זכר □ נקבה,מין\n,,,,,,לידה תאריך\n,,,,,,חולים קופת\n,,,,,,\"שב\"\"ן\"\nכן לא □ □,□ כן □ לא,□ כן □ לא,□ כן □ לא,□ כן □ לא,□ כן □ לא,בשנתיים מעשן/עישנת האחרונות?\n,,,,,,עיסוק\n,,,,,,אישי מצב\n,,,,,,נייד טלפון\n,,,,,,דוא״ל כתובת\nהראשי למועמד זהה כתובת □,הראשי למועמד זהה כתובת □,הראשי למועמד זהה כתובת □,הראשי למועמד זהה כתובת □,מגורים: כתובת,מגורים: כתובת,מגורים: כתובת\n,,,,,,רחוב\n,,,,,,בית מס׳\n,,,,,,יישוב"
+}

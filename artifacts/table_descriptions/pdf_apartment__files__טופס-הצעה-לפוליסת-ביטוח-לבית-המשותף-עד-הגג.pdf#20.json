@@ -1,0 +1,27 @@
+{
+  "id": "pdf:apartment/files/טופס-הצעה-לפוליסת-ביטוח-לבית-המשותף-עד-הגג.pdf#20",
+  "source": "llm",
+  "description": {
+    "title": "ביטוח אחריות ועד הבית",
+    "summary": "This table details liability coverage options for a shared apartment building, specifically for the building committee (ועד הבית). It allows users to select coverage for third-party liability and various building amenities.",
+    "embed_passage": "פוליסת ביטוח ועד הבית מציעה כיסוי לאחריות כלפי צד שלישי בבית המשותף. גבול האחריות המבוקש יכול להיות 1.5 ₪ מליון או 3 ₪ מליון, בהתאם לבחירתכם. ניתן לרכוש הרחבת כיסוי לאחריות אישית של נציגות/ועד הבית תמורת פרמיה נוספת.",
+    "row_axis": "Liability coverage options (e.g., third-party liability, swimming pool liability)",
+    "column_axis": "Coverage selection (Yes/No/?) and requested liability limit",
+    "units": [
+      "₪ מליון"
+    ],
+    "notable_values": [
+      "Liability Limit: 1.5 ₪ מליון",
+      "Liability Limit: 3 ₪ מליון",
+      "Personal Liability Extension: Yes/No",
+      "Swimming Pool Liability: Yes/No",
+      "Number of Committee Members: Not specified"
+    ],
+    "product_hints": [
+      "ביטוח ועד הבית"
+    ]
+  },
+  "sketch": ":' פרק ד\nיא אחריות כלפי צד שלישי בבית המשותף\nכן\nלא\n…\n? האם ברצונך לרכוש תמורת פרמיה נוספת הרחבת כיסוי לאחריות אישית של נציגות/ועד הבית\n.( גבולות האחריות לאחריות אישית של נציגות/ועד הבית יכללו בגבולות האחריות של פרק ה' צד ג' )ולא בנוסף אליהם\n:\nמספר חברי הועד",
+  "embed_text": "פוליסת ביטוח ועד הבית מציעה כיסוי לאחריות כלפי צד שלישי בבית המשותף. גבול האחריות המבוקש יכול להיות 1.5 ₪ מליון או 3 ₪ מליון, בהתאם לבחירתכם. ניתן לרכוש הרחבת כיסוי לאחריות אישית של נציגות/ועד הבית תמורת פרמיה נוספת.",
+  "payload": "טבלה: ביטוח אחריות ועד הבית\nThis table details liability coverage options for a shared apartment building, specifically for the building committee (ועד הבית). It allows users to select coverage for third-party liability and various building amenities.\nממדים: Liability coverage options (e.g., third-party liability, swimming pool liability), Coverage selection (Yes/No/?) and requested liability limit\n\n:' פרק ד\nיא אחריות כלפי צד שלישי בבית המשותף\nכן\nלא\n' אפשרות א\nציין גבולות אחריות מבוקשים\n' אפשרות ב\n' אפשרות ג\n' אפשרות ד\n₪  10,000,000\n₪  8,000,000\n₪  5,000,000\n₪  3,000,000\nגבול אחריות למקרה ולתקופה\n*על ועד הבית לנהוג בהתאם לפקודת הבטיחות הקיימת בקשר לשימוש, תפעול ואחזקת מעליות.\nכן\nלא\n? האם ברצונך לרכוש תמורת פרמיה נוספת הרחבת כיסוי לאחריות אישית של נציגות/ועד הבית\n.( גבולות האחריות לאחריות אישית של נציגות/ועד הבית יכללו בגבולות האחריות של פרק ה' צד ג' )ולא בנוסף אליהם\n:\nמספר חברי הועד"
+}

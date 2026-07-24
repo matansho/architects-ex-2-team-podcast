@@ -1,0 +1,24 @@
+{
+  "id": "pdf:travel/files/טופס-בקשה-להחזר-בנושא-מטען-בביטוח-נסיעות-לחול.pdf#80",
+  "source": "llm",
+  "description": {
+    "title": "מועדי מענה לבקשות",
+    "summary": "This table details the response times for various requests related to insurance claims, specifically regarding copies of policy documents. It outlines the number of business days allowed for providing these documents.",
+    "embed_passage": "פוליסת הראל מספקת מידע מפורט לגבי זמני תגובה לבקשות שונות. לדוגמה, מסירת עתקים מפוליסה או מתקנון תיעשה בתוך 14 ימי עסקים ממועד קבלת הבקשה, בעוד שמסירת עתקים של מסמכים עליהם חתם התובע תיעשה בתוך 21 ימי עסקים. טבלת המועדים והתקופות הקבועות בחוזר 'יישוב תביעות וטיפול בפניות הציבור' מסייעת להבנה.",
+    "row_axis": "type of request (e.g., copy of policy, signed document)",
+    "column_axis": "response time (business days)",
+    "units": [
+      "ימי עסקים"
+    ],
+    "notable_values": [
+      "response time for policy/regulation copies: 14",
+      "response time for signed document copies: 21"
+    ],
+    "product_hints": [
+      "הראל"
+    ]
+  },
+  "sketch": "יאוחר לא - ותיק אזרח לעניין,ציבור לפניית בכתב מענה,)יד( 8\nהבקשה. קבלת ממועד עסקים ימי 14,מתקנון או מפוליסה העתקים מסירת,(1)( )טו 8\nהבקשה. קבלת ממועד עסקים ימי 21,התובע חתם שעליו מסמך מכל העתקים מסירת,(3)( )טו 8",
+  "embed_text": "פוליסת הראל מספקת מידע מפורט לגבי זמני תגובה לבקשות שונות. לדוגמה, מסירת עתקים מפוליסה או מתקנון תיעשה בתוך 14 ימי עסקים ממועד קבלת הבקשה, בעוד שמסירת עתקים של מסמכים עליהם חתם התובע תיעשה בתוך 21 ימי עסקים. טבלת המועדים והתקופות הקבועות בחוזר 'יישוב תביעות וטיפול בפניות הציבור' מסייעת להבנה.",
+  "payload": "טבלה: מועדי מענה לבקשות\nThis table details the response times for various requests related to insurance claims, specifically regarding copies of policy documents. It outlines the number of business days allowed for providing these documents.\nממדים: type of request (e.g., copy of policy, signed document), response time (business days)\n\nיאוחר לא - ותיק אזרח לעניין,ציבור לפניית בכתב מענה,)יד( 8\nהבקשה. קבלת ממועד עסקים ימי 14,מתקנון או מפוליסה העתקים מסירת,(1)( )טו 8\nהבקשה. קבלת ממועד עסקים ימי 21,התובע חתם שעליו מסמך מכל העתקים מסירת,(3)( )טו 8"
+}

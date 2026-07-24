@@ -1,0 +1,25 @@
+{
+  "id": "pdf:mortgage/files/טופס-בקשה-לעדכון-פוליסת-ביטוח-חיים-עקב-מחזור-משכנתה.pdf#9",
+  "source": "llm",
+  "description": {
+    "title": "הראל ביטוח חיים למשכנתא",
+    "summary": "This table appears to be a form related to updating a life insurance policy with Harel due to mortgage refinancing. It likely captures confirmation of existing policies and a request to cancel/convert them.",
+    "embed_passage": "פוליסת ביטוח חיים של הראל יכולה להשתנות בעקבות מחזור משכנתא. סכום הביטוח משולם תוך 30 ימים, והוא הגבוה מבין סכומי הביטוח בפוליסות הישנות או בפוליסה החדשה. לדוגמה, אם סכום הביטוח הישן הוא 100,000 ₪ והסכום החדש הוא 120,000 ₪, ישולם 120,000 ₪.",
+    "row_axis": "Request to update/cancel life insurance policy due to mortgage refinancing",
+    "column_axis": "Confirmation of existing policies (first applicant, second applicant)",
+    "units": [],
+    "notable_values": [
+      "product: הראל ביטוח חיים",
+      "confirmation: כן",
+      "confirmation: לא",
+      "timeframe: 30 ימים"
+    ],
+    "product_hints": [
+      "הראל ביטוח חיים",
+      "Harel"
+    ]
+  },
+  "sketch": "לביטוח שני מועמד לביטוח ראשון מועמד,לביטוח שני מועמד לביטוח ראשון מועמד,לביטוח שני מועמד לביטוח ראשון מועמד,לביטוח שני מועמד לביטוח ראשון מועמד,\nכן,לא,כן,לא,\n,,,,\"טופס בתחילת המצוינות הראל אצל ברשותי הקיימות המשכנתא פוליסות את לבטל מבקש מטה, החתום אני, זו. בבקשה המפורט פי על חדשות בפוליסות ולהמירן זה\"",
+  "embed_text": "פוליסת ביטוח חיים של הראל יכולה להשתנות בעקבות מחזור משכנתא. סכום הביטוח משולם תוך 30 ימים, והוא הגבוה מבין סכומי הביטוח בפוליסות הישנות או בפוליסה החדשה. לדוגמה, אם סכום הביטוח הישן הוא 100,000 ₪ והסכום החדש הוא 120,000 ₪, ישולם 120,000 ₪.",
+  "payload": "טבלה: הראל ביטוח חיים למשכנתא\nThis table appears to be a form related to updating a life insurance policy with Harel due to mortgage refinancing. It likely captures confirmation of existing policies and a request to cancel/convert them.\nממדים: Request to update/cancel life insurance policy due to mortgage refinancing, Confirmation of existing policies (first applicant, second applicant)\n\nלביטוח שני מועמד לביטוח ראשון מועמד,לביטוח שני מועמד לביטוח ראשון מועמד,לביטוח שני מועמד לביטוח ראשון מועמד,לביטוח שני מועמד לביטוח ראשון מועמד,\nכן,לא,כן,לא,\n,,,,\"טופס בתחילת המצוינות הראל אצל ברשותי הקיימות המשכנתא פוליסות את לבטל מבקש מטה, החתום אני, זו. בבקשה המפורט פי על חדשות בפוליסות ולהמירן זה\""
+}

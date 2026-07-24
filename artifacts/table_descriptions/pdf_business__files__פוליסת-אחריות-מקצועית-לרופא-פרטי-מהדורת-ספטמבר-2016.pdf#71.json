@@ -1,0 +1,26 @@
+{
+  "id": "pdf:business/files/פוליסת-אחריות-מקצועית-לרופא-פרטי-מהדורת-ספטמבר-2016.pdf#71",
+  "source": "llm",
+  "description": {
+    "title": "ביטול פוליסה",
+    "summary": "This table details the conditions under which an insurance policy can be canceled by the insurer. It specifies timeframes (in days) for providing complete and honest information and for the insurer to respond to changes.",
+    "embed_passage": "פוליסת אחריות מקצועית לרופא פרטי מאפשרת למבטח לבטל את הפוליסה תוך 30 ימים מהיום שנודע על מידע מהותי, כל עוד לא קרה מקרה הביטוח. ביטול החוזה מזכה את המבוטח בהחזר דמי ביטוח ששולמו עבור התקופה שלאחר הביטול, אלא אם כן פעל בכוונת מרמה.",
+    "row_axis": "Conditions for policy cancellation",
+    "column_axis": "Timeframes and consequences of incomplete/dishonest information",
+    "units": [
+      "ימים"
+    ],
+    "notable_values": [
+      "30 ימים: Timeframe for responding to incomplete/dishonest information",
+      "30 ימים: Timeframe for responding to material changes",
+      "דמי ביטוח: Refund of premiums upon cancellation (unless fraud)",
+      "מקרה ביטוח: Cancellation is only possible before an incident occurs"
+    ],
+    "product_hints": [
+      "פוליסת אחריות מקצועית"
+    ]
+  },
+  "sketch": "ימים מהיום שנמסרה למבטח תשובה שאינה מלאה וכנה או הודעה 30 תוך .4.2.7 ימים מהיום שנודע על מידע כאמור למבטח בדרך 30 על שינוי מהותי או תוך אחרת, רשאי המבטח, כל עוד לא קרה מקרה הביטוח, לבטל את הפוליסה מיד בהודעה בכתב למבוטח.\nביטל המבטח החוזה מכח תנאי זה, עובר לקרות מקרה ביטוח, זכאי המבוטח להחזר דמי ביטוח ששילם בעד התקופה שלאחר הביטול זולת אם המבוטח פעל בכוונת מרמה.",
+  "embed_text": "פוליסת אחריות מקצועית לרופא פרטי מאפשרת למבטח לבטל את הפוליסה תוך 30 ימים מהיום שנודע על מידע מהותי, כל עוד לא קרה מקרה הביטוח. ביטול החוזה מזכה את המבוטח בהחזר דמי ביטוח ששולמו עבור התקופה שלאחר הביטול, אלא אם כן פעל בכוונת מרמה.",
+  "payload": "טבלה: ביטול פוליסה\nThis table details the conditions under which an insurance policy can be canceled by the insurer. It specifies timeframes (in days) for providing complete and honest information and for the insurer to respond to changes.\nממדים: Conditions for policy cancellation, Timeframes and consequences of incomplete/dishonest information\n\nימים מהיום שנמסרה למבטח תשובה שאינה מלאה וכנה או הודעה 30 תוך .4.2.7 ימים מהיום שנודע על מידע כאמור למבטח בדרך 30 על שינוי מהותי או תוך אחרת, רשאי המבטח, כל עוד לא קרה מקרה הביטוח, לבטל את הפוליסה מיד בהודעה בכתב למבוטח.\nביטל המבטח החוזה מכח תנאי זה, עובר לקרות מקרה ביטוח, זכאי המבוטח להחזר דמי ביטוח ששילם בעד התקופה שלאחר הביטול זולת אם המבוטח פעל בכוונת מרמה."
+}

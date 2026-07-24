@@ -1,0 +1,30 @@
+{
+  "id": "pdf:car/files/פוליסה-לביטוח-רכב-פרטי-ומסחרי-עד-35-טון-מהדורת-יוני-2023.pdf#275",
+  "source": "llm",
+  "description": {
+    "title": "רכב חלופי",
+    "summary": "This table details the conditions for providing a replacement vehicle (רכב חלופי) under a car insurance policy. It specifies how the number of days of coverage is determined based on repair estimates and claim types.",
+    "embed_passage": "פוליסת ביטוח רכב פרטי ומסחרי עד 35 טון כוללת שירות רכב חלופי במקרה של תאונה או גניבה. מספר הימים לכיסוי מחושב על סמך עלות תיקון הרכב, לדוגמה 4 שעות עבודה במחיר של 8 ש״ח לשעה, או עד 5 ימים בהתאם לדו״ח השמאי.",
+    "row_axis": "Scenario (accident, theft) and conditions for replacement vehicle coverage",
+    "column_axis": "Duration of replacement vehicle coverage (in days)",
+    "units": [
+      "ימים",
+      "שעות",
+      "ש״ח"
+    ],
+    "notable_values": [
+      "Maximum coverage: 7 ימים",
+      "Standard coverage (accident): 5 ימים",
+      "Minimum wait (theft): 8 ימים",
+      "Repair cost calculation: 4 שעות",
+      "Hourly rate reference: 8 ש״ח"
+    ],
+    "product_hints": [
+      "ביטוח רכב",
+      "רכב חלופי"
+    ]
+  },
+  "sketch": "קביעת מספר הימים תעשה על סמך דו\"ח השמאי שיוגש כמפורט להלן: עלות (4 שעות 8) עבודת תיקון הרכב המבוטח )ללא חלפים(, מחולקת במחיר יום עבודה במוסך(, בהתאם לתעריפי איגוד המוסכים לשעת עבודה, התקפים בזמן התיקון.\nלעיל, בו קבע 4 הרכב החלופי יינתן בהתאם לדו\"ח השמאי כמפורט בסעיף (5 ימים )אלא אם צוין 3 את מספר הימים הדרוש לתיקון כלי הרכב הניזוק, ובניכוי אחרת במפרט הביטוח(. אולם בכל מקרה לא יינתן הרכב לתקופה העולה על ימים )אלא אם צוין אחרת במפרט הפוליסה( ובכפוף לאי קבלת רכב חלופי 7 מגורם אחר בגין אותו מקרה.",
+  "embed_text": "פוליסת ביטוח רכב פרטי ומסחרי עד 35 טון כוללת שירות רכב חלופי במקרה של תאונה או גניבה. מספר הימים לכיסוי מחושב על סמך עלות תיקון הרכב, לדוגמה 4 שעות עבודה במחיר של 8 ש״ח לשעה, או עד 5 ימים בהתאם לדו״ח השמאי.",
+  "payload": "טבלה: רכב חלופי\nThis table details the conditions for providing a replacement vehicle (רכב חלופי) under a car insurance policy. It specifies how the number of days of coverage is determined based on repair estimates and claim types.\nממדים: Scenario (accident, theft) and conditions for replacement vehicle coverage, Duration of replacement vehicle coverage (in days)\n\nקביעת מספר הימים תעשה על סמך דו\"ח השמאי שיוגש כמפורט להלן: עלות (4 שעות 8) עבודת תיקון הרכב המבוטח )ללא חלפים(, מחולקת במחיר יום עבודה במוסך(, בהתאם לתעריפי איגוד המוסכים לשעת עבודה, התקפים בזמן התיקון.\nלעיל, בו קבע 4 הרכב החלופי יינתן בהתאם לדו\"ח השמאי כמפורט בסעיף (5 ימים )אלא אם צוין 3 את מספר הימים הדרוש לתיקון כלי הרכב הניזוק, ובניכוי אחרת במפרט הביטוח(. אולם בכל מקרה לא יינתן הרכב לתקופה העולה על ימים )אלא אם צוין אחרת במפרט הפוליסה( ובכפוף לאי קבלת רכב חלופי 7 מגורם אחר בגין אותו מקרה."
+}

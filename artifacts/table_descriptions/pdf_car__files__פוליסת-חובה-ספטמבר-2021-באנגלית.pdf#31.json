@@ -1,0 +1,27 @@
+{
+  "id": "pdf:car/files/פוליסת-חובה-ספטמבר-2021-באנגלית.pdf#31",
+  "source": "llm",
+  "description": {
+    "title": "ביטול פוליסה",
+    "summary": "This table details the cancellation fees for a car insurance policy. It shows how much of the annual insurance fee is refunded based on the number of days the policy was valid.",
+    "embed_passage": "פוליסת חובה מאפשרת החזר כספי במקרה של ביטול. החזר הכספי מחושב כאחוז מהדמי ביטוח השנתיים, בהתאם למשך תקופת הפוליסה. לדוגמה, ביטול לאחר עד 7 ימים יגרור החזר של 95% מהדמי ביטוח השנתיים, בעוד שביטול לאחר 8 ימים ומעלה יגרור החזר מופחת יותר.",
+    "row_axis": "Cancellation scenario (based on days policy was valid)",
+    "column_axis": "Fee calculation components (percentage of annual fee)",
+    "units": [
+      "%"
+    ],
+    "notable_values": [
+      "5% of annual fee: up to 7 days",
+      "0.3% per day: after 7 days",
+      "14 days: maximum refund timeframe",
+      "5%: initial fee for up to 7 days",
+      "0.3%: daily fee after 7 days"
+    ],
+    "product_hints": [
+      "פוליסת חובה"
+    ]
+  },
+  "sketch": "15.4 In the event that the policy is cancelled according to this paragraph, the insurer shall refund to the policy owner - as soon as possible and no later than 14 days after the cancellation becoming valid - the insurance fees paid, les the following sums:\n15.4.1  5% of the annual insurance fees - in regard to a period of up to 7 days during which the policy was valid, including if same did not become valid.\n15.4.2  5% of the annual insurance fees, plus 0.3% of the annual insurance th fees in regard to each day of insurance, as from the 8 day - in regard to a period exceeding 7 days during which the policy was valid.",
+  "embed_text": "פוליסת חובה מאפשרת החזר כספי במקרה של ביטול. החזר הכספי מחושב כאחוז מהדמי ביטוח השנתיים, בהתאם למשך תקופת הפוליסה. לדוגמה, ביטול לאחר עד 7 ימים יגרור החזר של 95% מהדמי ביטוח השנתיים, בעוד שביטול לאחר 8 ימים ומעלה יגרור החזר מופחת יותר.",
+  "payload": "טבלה: ביטול פוליסה\nThis table details the cancellation fees for a car insurance policy. It shows how much of the annual insurance fee is refunded based on the number of days the policy was valid.\nממדים: Cancellation scenario (based on days policy was valid), Fee calculation components (percentage of annual fee)\n\n15.4 In the event that the policy is cancelled according to this paragraph, the insurer shall refund to the policy owner - as soon as possible and no later than 14 days after the cancellation becoming valid - the insurance fees paid, les the following sums:\n15.4.1  5% of the annual insurance fees - in regard to a period of up to 7 days during which the policy was valid, including if same did not become valid.\n15.4.2  5% of the annual insurance fees, plus 0.3% of the annual insurance th fees in regard to each day of insurance, as from the 8 day - in regard to a period exceeding 7 days during which the policy was valid."
+}

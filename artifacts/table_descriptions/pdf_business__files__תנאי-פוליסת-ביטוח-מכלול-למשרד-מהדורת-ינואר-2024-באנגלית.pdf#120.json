@@ -1,0 +1,27 @@
+{
+  "id": "pdf:business/files/תנאי-פוליסת-ביטוח-מכלול-למשרד-מהדורת-ינואר-2024-באנגלית.pdf#120",
+  "source": "llm",
+  "description": {
+    "title": "חישוב סכומי ביטוח",
+    "summary": "This table details how insurance sums, limits, and deductibles are calculated when denominated in currencies other than the policy schedule's currency. It specifies using the Bank of Israel's representative exchange rate on the date of calculation or the event.",
+    "embed_passage": "פוליסת מכלול קובעת כי סכומי ביטוח, מגבלות אחריות והשתתפות עצמית הנקובים בדולרים אמריקאים יחושבו לפי שער הדולר הרשמי של בנק ישראל ביום החישוב או התשלום. אם הפוליסה מציינת סכום ביטוח במטבע שונה מהמטבע המופיע בתוכנית, הסכום יחושב בהתאם לשער החליפין שפרסם בנק ישראל.",
+    "row_axis": "Currency conversion scenarios",
+    "column_axis": "Calculation details",
+    "units": [
+      "דולר אמריקאי",
+      "שער חליפין"
+    ],
+    "notable_values": [
+      "דולרים: calculated using Bank of Israel rate",
+      "מטבע אחר: calculated using Bank of Israel rate",
+      "תשלום: rate applies on date of payment",
+      "אירוע: rate applies on date of event"
+    ],
+    "product_hints": [
+      "מכלול"
+    ]
+  },
+  "sketch": "9.13.2 If the sums insured or limits of liability and deductible are denominated in US dollars, same -including the insurance benefits due to the insured or the beneficiary (as the case may be) -shall be calculated in US dollars according to the representative rate of the dollar with the Bank of Israel, applying on the date of calculation or actual payment (as the case may be).\n9.13.3 If the policy notes a sum insured, limit of liability or deductible sum in a currency other than that specified in the schedule, said sum shall be calculated in accordance with the representative exchange rate published by the Bank of Israel for such currency into the currency noted in the schedule on the date of the occurrence of the insured event.",
+  "embed_text": "פוליסת מכלול קובעת כי סכומי ביטוח, מגבלות אחריות והשתתפות עצמית הנקובים בדולרים אמריקאים יחושבו לפי שער הדולר הרשמי של בנק ישראל ביום החישוב או התשלום. אם הפוליסה מציינת סכום ביטוח במטבע שונה מהמטבע המופיע בתוכנית, הסכום יחושב בהתאם לשער החליפין שפרסם בנק ישראל.",
+  "payload": "טבלה: חישוב סכומי ביטוח\nThis table details how insurance sums, limits, and deductibles are calculated when denominated in currencies other than the policy schedule's currency. It specifies using the Bank of Israel's representative exchange rate on the date of calculation or the event.\nממדים: Currency conversion scenarios, Calculation details\n\n9.13.2 If the sums insured or limits of liability and deductible are denominated in US dollars, same -including the insurance benefits due to the insured or the beneficiary (as the case may be) -shall be calculated in US dollars according to the representative rate of the dollar with the Bank of Israel, applying on the date of calculation or actual payment (as the case may be).\n9.13.3 If the policy notes a sum insured, limit of liability or deductible sum in a currency other than that specified in the schedule, said sum shall be calculated in accordance with the representative exchange rate published by the Bank of Israel for such currency into the currency noted in the schedule on the date of the occurrence of the insured event."
+}

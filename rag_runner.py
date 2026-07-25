@@ -151,6 +151,39 @@ def main() -> None:
         help="With --route + rerank: extra unique dense candidates from full pool",
     )
     ap.add_argument(
+        "--bm25-inject-n",
+        type=int,
+        default=0,
+        help=(
+            "With --retrieve rerank: append this many keyword (BM25) candidates "
+            "before cross-encoder rerank (default off)"
+        ),
+    )
+    ap.add_argument(
+        "--bm25-chunk-pool",
+        type=int,
+        default=150,
+        help="BM25 inject: initial chunk BM25 pool size",
+    )
+    ap.add_argument(
+        "--bm25-file-top-n",
+        type=int,
+        default=40,
+        help="BM25 inject: file-level BM25 prior depth",
+    )
+    ap.add_argument(
+        "--bm25-alpha-file-prior",
+        type=float,
+        default=0.15,
+        help="BM25 inject: weight of file prior in [0,1]",
+    )
+    ap.add_argument(
+        "--bm25-max-per-file",
+        type=int,
+        default=4,
+        help="BM25 inject: max candidate refs per file",
+    )
+    ap.add_argument(
         "--include-faq",
         action="store_true",
         help="Allow retrieving from scraped */pages/faq.txt (excluded by default)",
@@ -192,6 +225,15 @@ def main() -> None:
         reranker = Reranker(model_name=args.rerank_model)
         reranker._load()
         print("  ready", flush=True)
+        if args.bm25_inject_n > 0:
+            print("Building BM25 indexes for rerank injection…", flush=True)
+            chunk_bm25 = build_chunk_bm25(vectors)
+            file_bm25 = build_file_bm25(vectors)
+            print(
+                f"  chunk bm25: {chunk_bm25.n} chunks · "
+                f"file bm25: {len(file_bm25.files)} files",
+                flush=True,
+            )
 
     id_filter = (
         {x.strip() for x in args.ids.split(",") if x.strip()} if args.ids else None
@@ -214,6 +256,19 @@ def main() -> None:
     q_emb = embedder.embed_queries([q["question"] for q in questions])
 
     llm_model, kwargs = resolve_model(args.model)
+    print(
+        f"Generation model: {llm_model} · retrieve={args.retrieve} · "
+        f"route={'on' if args.route else 'off'} · cite={args.cite}",
+        flush=True,
+    )
+    if args.retrieve == "rerank" and args.bm25_inject_n > 0:
+        print(
+            "Rerank BM25 injection ON · "
+            f"inject={args.bm25_inject_n} chunk_pool={args.bm25_chunk_pool} "
+            f"file_top_n={args.bm25_file_top_n} alpha={args.bm25_alpha_file_prior} "
+            f"max_per_file={args.bm25_max_per_file}",
+            flush=True,
+        )
 
     def retrieve_one(qi: int, question: str):
         route_meta = None
@@ -299,6 +354,13 @@ def main() -> None:
                 route_idxs=route_idxs,
                 route_n=args.route_n,
                 route_global_n=args.route_global_n,
+                chunk_bm25=chunk_bm25,
+                file_bm25=file_bm25,
+                bm25_inject_n=args.bm25_inject_n,
+                bm25_chunk_pool=args.bm25_chunk_pool,
+                bm25_file_top_n=args.bm25_file_top_n,
+                bm25_alpha_file_prior=args.bm25_alpha_file_prior,
+                bm25_max_per_file=args.bm25_max_per_file,
             )
             return result.expanded, result.mode, result.file_hits, route_meta
         expanded = search_expanded(
@@ -337,22 +399,33 @@ def main() -> None:
     with open(args.out, "w", encoding="utf-8") as out:
         for qi, q in enumerate(questions):
             t0 = time.time()
+            print(
+                f"\n[stage] ({qi + 1}/{len(questions)}) retrieve id={q['id']} "
+                f"mode={args.retrieve}",
+                flush=True,
+            )
             expanded, mode, file_hits, route_meta = retrieve_one(qi, q["question"])
+            t_retr = time.time()
+            print(
+                f"[stage] retrieved hits={len(expanded)}; building prompt context",
+                flush=True,
+            )
             context = build_context(expanded)
             messages = build_messages(
                 q["question"], context, system_prompt=args.system_prompt
             )
-            t_retr = time.time()
+            print(f"[stage] generate with {llm_model}", flush=True)
             resp = litellm.completion(
                 model=llm_model,
                 messages=messages,
                 timeout=120,
                 **kwargs,
             )
-            latency_ms = (time.time() - t0) * 1000
+            t_gen = time.time()
             raw = resp.choices[0].message.content or ""
             passage_meta: dict | None = None
             if args.cite == "passages":
+                print("[stage] map USED_PASSAGES to structured citations", flush=True)
                 parsed = parse_answer_with_passages(raw)
                 answer = parsed.answer
                 if parsed.passage_indices:
@@ -375,16 +448,28 @@ def main() -> None:
                     "cite_source": cite_source,
                 }
             else:
+                print("[stage] map top retrieval hits to structured citations", flush=True)
                 answer = raw
                 citations = citations_from_hits(
                     expanded, max_citations=args.max_citations
                 )
                 cite_source = "hits"
+            t_cite = time.time()
+            retrieval_ms = (t_retr - t0) * 1000
+            generation_ms = (t_gen - t_retr) * 1000
+            citation_ms = (t_cite - t_gen) * 1000
+            latency_ms = (t_cite - t0) * 1000
             rec = {
                 "id": q["id"],
                 "answer": answer,
                 "citations": citations,
                 "latency_ms": latency_ms,
+                "timing_ms": {
+                    "retrieve": retrieval_ms,
+                    "generate": generation_ms,
+                    "cite": citation_ms,
+                    "total": latency_ms,
+                },
                 "tokens": {
                     "prompt": resp.usage.prompt_tokens,
                     "completion": resp.usage.completion_tokens,
@@ -410,6 +495,21 @@ def main() -> None:
                     "route_global_n": args.route_global_n
                     if args.route and args.retrieve == "rerank"
                     else None,
+                    "bm25_inject_n": args.bm25_inject_n
+                    if args.retrieve == "rerank"
+                    else None,
+                    "bm25_chunk_pool": args.bm25_chunk_pool
+                    if args.retrieve == "rerank" and args.bm25_inject_n > 0
+                    else None,
+                    "bm25_file_top_n": args.bm25_file_top_n
+                    if args.retrieve == "rerank" and args.bm25_inject_n > 0
+                    else None,
+                    "bm25_alpha_file_prior": args.bm25_alpha_file_prior
+                    if args.retrieve == "rerank" and args.bm25_inject_n > 0
+                    else None,
+                    "bm25_max_per_file": args.bm25_max_per_file
+                    if args.retrieve == "rerank" and args.bm25_inject_n > 0
+                    else None,
                     "exclude_faq": exclude_faq,
                     "cite_mode": args.cite,
                     "passage_cite": passage_meta,
@@ -434,6 +534,11 @@ def main() -> None:
                     if args.route and args.retrieve == "rerank"
                     else ("+route" if args.route else "")
                 )
+                + (
+                    f"+bm25inj{args.bm25_inject_n}"
+                    if args.retrieve == "rerank" and args.bm25_inject_n > 0
+                    else ""
+                )
                 + ("" if args.include_faq else "+nofaq")
                 + f"+cite_{args.cite}",
             }
@@ -449,7 +554,9 @@ def main() -> None:
                 )
             print(
                 f"  {q['id']:28s} {mode:8s} "
-                f"retr={(t_retr - t0)*1000:.0f}ms  "
+                f"retr={retrieval_ms:.0f}ms  "
+                f"gen={generation_ms:.0f}ms  "
+                f"cite={citation_ms:.0f}ms  "
                 f"total={latency_ms:.0f}ms  "
                 f"top={top:.3f}  "
                 f"{preview!r}…{cite_bit}",

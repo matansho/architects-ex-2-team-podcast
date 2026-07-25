@@ -353,6 +353,86 @@ def hybrid_dense_candidates(
     return out
 
 
+def bm25_keyword_candidates(
+    query: str,
+    vectors: list[IndexedVector],
+    chunk_bm25: ChunkBM25Index,
+    file_bm25: FileBM25Index | None = None,
+    *,
+    top_n: int = 12,
+    chunk_pool: int = 150,
+    file_top_n: int = 40,
+    alpha_file_prior: float = 0.15,
+    max_per_file: int = 4,
+    candidate_idxs: list[int] | None = None,
+    exclude_ids: set[str] | None = None,
+) -> list[Hit]:
+    """Chunk-BM25 candidates with light file prior + diversity constraints.
+
+    Returns top `top_n` unique chunk hits. Intended for candidate injection
+    before cross-encoder reranking (not final ranking by itself).
+    """
+    if top_n <= 0:
+        return []
+
+    allow = set(candidate_idxs) if candidate_idxs is not None else None
+    blocked = exclude_ids or set()
+
+    raw = chunk_bm25.search(query, top_n=max(chunk_pool, top_n))
+    if allow is not None:
+        raw = [(i, s) for i, s in raw if i in allow]
+    if not raw:
+        return []
+
+    # Optional file prior from file-level BM25.
+    file_prior: dict[str, float] = {}
+    if file_bm25 is not None and alpha_file_prior > 0:
+        file_prior = {
+            path: score
+            for path, score in file_bm25.search_files(query, top_n=file_top_n)
+        }
+    top_chunk = max((s for _i, s in raw), default=1.0) or 1.0
+    top_file = max(file_prior.values(), default=0.0)
+
+    scored: list[tuple[int, float, float]] = []
+    for i, c_score in raw:
+        vec = vectors[i]
+        if vec.id in blocked:
+            continue
+        c_norm = c_score / top_chunk
+        if top_file > 0 and file_prior:
+            f_norm = file_prior.get(vec.location.file, 0.0) / top_file
+        else:
+            f_norm = 0.0
+        fused = (1.0 - alpha_file_prior) * c_norm + alpha_file_prior * f_norm
+        scored.append((i, fused, c_score))
+
+    if not scored:
+        return []
+    scored.sort(key=lambda x: (x[1], x[2]), reverse=True)
+
+    out: list[Hit] = []
+    per_file: dict[str, int] = {}
+    seen_ref: set[tuple[str, int | None]] = set()
+    for i, fused, _raw_score in scored:
+        vec = vectors[i]
+        file = vec.location.file
+        page = vec.location.page
+        ref_key = (file, page)
+        if ref_key in seen_ref:
+            continue
+        if per_file.get(file, 0) >= max_per_file:
+            continue
+        seen_ref.add(ref_key)
+        per_file[file] = per_file.get(file, 0) + 1
+        out.append(
+            Hit(rank=len(out) + 1, score=float(fused), vector=vec, role="match")
+        )
+        if len(out) >= top_n:
+            break
+    return out
+
+
 def search_cascade(
     query: str,
     query_emb: np.ndarray,
@@ -475,6 +555,13 @@ def search_reranked(
     route_idxs: list[int] | None = None,
     route_n: int = 80,
     route_global_n: int = 20,
+    chunk_bm25: ChunkBM25Index | None = None,
+    file_bm25: FileBM25Index | None = None,
+    bm25_inject_n: int = 0,
+    bm25_chunk_pool: int = 150,
+    bm25_file_top_n: int = 40,
+    bm25_alpha_file_prior: float = 0.15,
+    bm25_max_per_file: int = 4,
 ) -> CascadeResult:
     """Dense top-candidate_n → cross-encoder top_k → neighbor expand.
 
@@ -504,6 +591,28 @@ def search_reranked(
             top_k=candidate_n,
             candidate_idxs=candidate_idxs,
         )
+
+    # Optional keyword candidate injection for lexical recall before CE rerank.
+    if bm25_inject_n > 0 and chunk_bm25 is not None:
+        seen = {h.vector.id for h in candidates}
+        bm25_extra = bm25_keyword_candidates(
+            query,
+            vectors,
+            chunk_bm25,
+            file_bm25,
+            top_n=bm25_inject_n,
+            chunk_pool=bm25_chunk_pool,
+            file_top_n=bm25_file_top_n,
+            alpha_file_prior=bm25_alpha_file_prior,
+            max_per_file=bm25_max_per_file,
+            candidate_idxs=candidate_idxs,
+            exclude_ids=seen,
+        )
+        if bm25_extra:
+            candidates.extend(bm25_extra)
+            for rank, h in enumerate(candidates, start=1):
+                h.rank = rank
+
     if not candidates:
         return CascadeResult(expanded=[], mode="rerank", file_hits=[])
 

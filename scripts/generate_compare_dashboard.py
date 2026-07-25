@@ -1179,40 +1179,48 @@ def build_html(
 </html>"""
 
 
-def main() -> None:
-    ap = argparse.ArgumentParser(description="Generate run comparison dashboard")
-    ap.add_argument("--questions", default="reference_questions.json")
-    ap.add_argument("--run", action="append", required=True, help='Label|path.jsonl')
-    ap.add_argument("--eval", action="append", default=[], help='Optional eval JSON: "Label|path.json"')
-    ap.add_argument(
-        "--corpus-eval",
-        action="append",
-        default=[],
-        help='Optional corpus-judge JSON joined by label: "Label|path.json"',
-    )
-    ap.add_argument("--out", default="reports/stage1/compare_dashboard.html")
-    ap.add_argument("--title", default="Run Comparison Dashboard", help="Page title shown in browser and header")
-    ap.add_argument(
-        "--prompt",
-        action="append",
-        default=[],
-        help='Optional preset per run: "Label|baseline|default|concise|no-cite" (auto-inferred if omitted)',
-    )
-    ap.add_argument(
-        "--deliverables-dir",
-        default="deliverables",
-        help="Directory of *.md deliverables to embed (set empty to skip)",
-    )
-    args = ap.parse_args()
+class _TabAction(argparse.Action):
+    """``--tab`` starts a dataset; following --run/--eval/--corpus-eval/--prompt attach to it."""
 
-    questions = load_questions(ROOT / args.questions)
-    run_specs = [parse_labeled_arg(r) for r in args.run]
-    eval_map = {label: path for label, path in (parse_labeled_arg(e) for e in args.eval)}
-    corpus_map = {
-        label: path for label, path in (parse_labeled_arg(e) for e in args.corpus_eval)
-    }
+    def __call__(self, parser, namespace, value, option_string=None):
+        tabs = getattr(namespace, "tabs", None)
+        if tabs is None:
+            tabs = []
+            setattr(namespace, "tabs", tabs)
+        name, qpath = parse_labeled_arg(value)
+        tabs.append(
+            {"name": name, "questions": qpath, "run": [], "eval": [], "corpus": [], "prompt": []}
+        )
+
+
+def _current_bucket(namespace) -> dict:
+    """The tab most recently opened by --tab, or a lazily-made default bucket."""
+    tabs = getattr(namespace, "tabs", None)
+    if tabs:
+        return tabs[-1]
+    bucket = getattr(namespace, "_default_bucket", None)
+    if bucket is None:
+        bucket = {"name": None, "questions": None, "run": [], "eval": [], "corpus": [], "prompt": []}
+        setattr(namespace, "_default_bucket", bucket)
+    return bucket
+
+
+class _BucketAction(argparse.Action):
+    """Append a ``Label|path`` value to the current tab (or the default bucket)."""
+
+    def __call__(self, parser, namespace, value, option_string=None):
+        _current_bucket(namespace)[self.dest].append(value)
+
+
+def build_dataset_doc(ds: dict, args, deliverables_html: str) -> tuple[str, int]:
+    """Run the load+stats pipeline for one dataset → (full HTML doc, n questions)."""
+    qpath = ds["questions"] or Path(args.questions)
+    questions = load_questions(ROOT / qpath)
+    run_specs = [parse_labeled_arg(r) for r in ds["run"]]
+    eval_map = {label: path for label, path in (parse_labeled_arg(e) for e in ds["eval"])}
+    corpus_map = {label: path for label, path in (parse_labeled_arg(e) for e in ds["corpus"])}
     prompt_map: dict[str, str] = {}
-    for raw in args.prompt:
+    for raw in ds["prompt"]:
         label, preset = parse_labeled_arg(raw)
         prompt_map[label] = str(preset)
 
@@ -1221,7 +1229,6 @@ def main() -> None:
     run_corpus: list[tuple[str, dict[str, dict] | None]] = []
     runs: list[dict] = []
     prompt_specs: list[tuple[str, dict]] = []
-
     for label, path in run_specs:
         answers = load_answers(ROOT / path)
         ev_path = eval_map.get(label)
@@ -1237,27 +1244,152 @@ def main() -> None:
         preset = resolve_preset(label, ROOT / path, prompt_map.get(label))
         prompt_specs.append((label, build_prompt_spec(preset)))
 
+    doc = build_html(
+        runs,
+        questions,
+        run_answers,
+        run_evals,
+        run_corpus=run_corpus,
+        title=ds["name"] or args.title,
+        prompt_specs=prompt_specs,
+        deliverables_html=deliverables_html,
+    )
+    return doc, len(questions)
+
+
+def build_tab_shell(title: str, tabs: list[tuple[str, str, int]]) -> str:
+    """Wrap N full dashboard documents in one page with top-level tabs.
+
+    Each dashboard is a self-contained document rendered into its own
+    ``<iframe srcdoc>`` — full CSS/JS isolation, so the per-dataset dashboards
+    (which share global element ids) can't collide.
+    """
+    import html as _html
+
+    buttons: list[str] = []
+    frames: list[str] = []
+    for i, (name, doc, nq) in enumerate(tabs):
+        active = " active" if i == 0 else ""
+        label = _html.escape(name or f"Tab {i + 1}")
+        buttons.append(
+            f'<button class="tabbtn{active}" data-i="{i}">{label}'
+            f'<span class="cnt">{nq}Q</span></button>'
+        )
+        frames.append(
+            f'<iframe class="tabframe{active}" data-i="{i}" '
+            f'srcdoc="{_html.escape(doc, quote=True)}"></iframe>'
+        )
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{_html.escape(title)}</title>
+<style>
+  :root {{ color-scheme: dark; }}
+  * {{ box-sizing: border-box; }}
+  body {{ margin: 0; background: #0d0f14; color: #e6e6e6;
+         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }}
+  .tabbar {{ display: flex; gap: 6px; align-items: center; padding: 8px 12px;
+            background: #14171f; border-bottom: 1px solid #262b36;
+            position: sticky; top: 0; z-index: 10; }}
+  .tabbar .brand {{ font-weight: 600; font-size: 14px; margin-right: 12px; color: #9aa4b2; }}
+  .tabbtn {{ padding: 7px 16px; cursor: pointer; border: 1px solid #2a2f3a;
+            background: #1b1f28; color: #b9c1cc; border-radius: 8px; font-size: 13px;
+            display: inline-flex; align-items: center; gap: 7px; }}
+  .tabbtn:hover {{ background: #222735; }}
+  .tabbtn.active {{ background: #2f6feb; border-color: #2f6feb; color: #fff; }}
+  .tabbtn .cnt {{ font-size: 11px; opacity: .8;
+                 background: rgba(255,255,255,.14); padding: 1px 6px; border-radius: 999px; }}
+  .tabframe {{ width: 100%; height: calc(100vh - 49px); border: 0; display: none;
+              background: #0d0f14; }}
+  .tabframe.active {{ display: block; }}
+</style>
+</head>
+<body>
+  <div class="tabbar">
+    <span class="brand">{_html.escape(title)}</span>
+    {''.join(buttons)}
+  </div>
+  {''.join(frames)}
+<script>
+  const btns = [...document.querySelectorAll('.tabbtn')];
+  const frames = [...document.querySelectorAll('.tabframe')];
+  btns.forEach(b => b.addEventListener('click', () => {{
+    const i = +b.dataset.i;
+    btns.forEach(x => x.classList.toggle('active', x === b));
+    frames.forEach(f => f.classList.toggle('active', +f.dataset.i === i));
+  }}));
+</script>
+</body>
+</html>"""
+
+
+def main() -> None:
+    ap = argparse.ArgumentParser(description="Generate run comparison dashboard")
+    ap.add_argument(
+        "--questions",
+        default="reference_questions.json",
+        help="Questions file for the default (no --tab) view",
+    )
+    ap.add_argument(
+        "--tab",
+        action=_TabAction,
+        help='Open a dataset tab: "Name|questions.json". Runs/evals/prompts that '
+        "follow attach to it. Repeat for multiple tabs; omit for a single view.",
+    )
+    ap.add_argument("--run", action=_BucketAction, help='Label|path.jsonl')
+    ap.add_argument("--eval", action=_BucketAction, help='Optional eval JSON: "Label|path.json"')
+    ap.add_argument(
+        "--corpus-eval",
+        dest="corpus",
+        action=_BucketAction,
+        help='Optional corpus-judge JSON joined by label: "Label|path.json"',
+    )
+    ap.add_argument("--out", default="reports/stage1/compare_dashboard.html")
+    ap.add_argument("--title", default="Run Comparison Dashboard", help="Page/browser title")
+    ap.add_argument(
+        "--prompt",
+        action=_BucketAction,
+        help='Optional preset per run: "Label|baseline|default|concise|no-cite"',
+    )
+    ap.add_argument(
+        "--deliverables-dir",
+        default="deliverables",
+        help="Directory of *.md deliverables to embed (set empty to skip)",
+    )
+    args = ap.parse_args()
+
+    tabs = getattr(args, "tabs", None)
+    if tabs:
+        datasets = tabs
+    else:
+        bucket = getattr(args, "_default_bucket", None) or {
+            "name": None, "questions": None, "run": [], "eval": [], "prompt": []
+        }
+        bucket["questions"] = Path(args.questions)
+        datasets = [bucket]
+
+    if not any(ds["run"] for ds in datasets):
+        ap.error("at least one --run is required")
+
     deliverables_dir = args.deliverables_dir.strip()
     deliverables_html = (
         render_deliverables_section(ROOT / deliverables_dir) if deliverables_dir else ""
     )
 
+    rendered: list[tuple[str, str, int]] = []  # (name, doc, n_questions)
+    for ds in datasets:
+        doc, nq = build_dataset_doc(ds, args, deliverables_html)
+        rendered.append((ds["name"], doc, nq))
+
     out = ROOT / args.out
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(
-        build_html(
-            runs,
-            questions,
-            run_answers,
-            run_evals,
-            run_corpus=run_corpus,
-            title=args.title,
-            prompt_specs=prompt_specs,
-            deliverables_html=deliverables_html,
-        ),
-        encoding="utf-8",
-    )
-    print(f"Wrote {out}")
+    if len(rendered) == 1:
+        final_html = rendered[0][1]  # single dataset → unchanged single-page output
+    else:
+        final_html = build_tab_shell(args.title, rendered)
+    out.write_text(final_html, encoding="utf-8")
+    print(f"Wrote {out} ({len(rendered)} tab(s))")
 
 
 if __name__ == "__main__":

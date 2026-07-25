@@ -1,0 +1,781 @@
+{
+  "run_label": "eval",
+  "total": 32,
+  "relevance_rate": 0.8125,
+  "hallucination_rate": 0.1875,
+  "refusal_rate": 0.0,
+  "citation_accuracy": 0.765625,
+  "latency_ms_avg": 58309.041142463684,
+  "latency_ms_p50": 60441.83087348938,
+  "judge_cost_usd": 0.04976700000000001,
+  "by_difficulty": {
+    "easy": {
+      "count": 4,
+      "relevance_rate": 1.0,
+      "hallucination_rate": 0.0,
+      "refusal_rate": 0.0,
+      "citation_accuracy": 0.75,
+      "latency_ms_avg": 47419.9178814888
+    },
+    "hard": {
+      "count": 7,
+      "relevance_rate": 0.7142857142857143,
+      "hallucination_rate": 0.2857142857142857,
+      "refusal_rate": 0.0,
+      "citation_accuracy": 0.9285714285714286,
+      "latency_ms_avg": 62508.70302745274
+    },
+    "medium": {
+      "count": 21,
+      "relevance_rate": 0.8095238095238095,
+      "hallucination_rate": 0.19047619047619047,
+      "refusal_rate": 0.0,
+      "citation_accuracy": 0.7142857142857143,
+      "latency_ms_avg": 58983.2725638435
+    }
+  },
+  "by_domain": {
+    "apartment": {
+      "count": 5,
+      "relevance_rate": 0.8,
+      "hallucination_rate": 0.2,
+      "refusal_rate": 0.0,
+      "citation_accuracy": 0.5,
+      "latency_ms_avg": 41332.2003364563
+    },
+    "business": {
+      "count": 3,
+      "relevance_rate": 1.0,
+      "hallucination_rate": 0.0,
+      "refusal_rate": 0.0,
+      "citation_accuracy": 0.8333333333333334,
+      "latency_ms_avg": 62226.60024960836
+    },
+    "car": {
+      "count": 5,
+      "relevance_rate": 0.8,
+      "hallucination_rate": 0.2,
+      "refusal_rate": 0.0,
+      "citation_accuracy": 0.8,
+      "latency_ms_avg": 60785.29953956604
+    },
+    "diseases-disabilities": {
+      "count": 4,
+      "relevance_rate": 0.75,
+      "hallucination_rate": 0.25,
+      "refusal_rate": 0.0,
+      "citation_accuracy": 0.75,
+      "latency_ms_avg": 70380.15693426132
+    },
+    "health": {
+      "count": 3,
+      "relevance_rate": 1.0,
+      "hallucination_rate": 0.0,
+      "refusal_rate": 0.0,
+      "citation_accuracy": 1.0,
+      "latency_ms_avg": 55338.65213394165
+    },
+    "life": {
+      "count": 2,
+      "relevance_rate": 1.0,
+      "hallucination_rate": 0.0,
+      "refusal_rate": 0.0,
+      "citation_accuracy": 0.75,
+      "latency_ms_avg": 62201.666712760925
+    },
+    "long-term-care": {
+      "count": 3,
+      "relevance_rate": 0.6666666666666666,
+      "hallucination_rate": 0.3333333333333333,
+      "refusal_rate": 0.0,
+      "citation_accuracy": 1.0,
+      "latency_ms_avg": 59897.454261779785
+    },
+    "loss-of-working-ability": {
+      "count": 2,
+      "relevance_rate": 0.5,
+      "hallucination_rate": 0.5,
+      "refusal_rate": 0.0,
+      "citation_accuracy": 0.75,
+      "latency_ms_avg": 68474.67350959778
+    },
+    "mortgage": {
+      "count": 1,
+      "relevance_rate": 1.0,
+      "hallucination_rate": 0.0,
+      "refusal_rate": 0.0,
+      "citation_accuracy": 0.5,
+      "latency_ms_avg": 49419.81363296509
+    },
+    "personal-accident": {
+      "count": 3,
+      "relevance_rate": 0.6666666666666666,
+      "hallucination_rate": 0.3333333333333333,
+      "refusal_rate": 0.0,
+      "citation_accuracy": 0.6666666666666666,
+      "latency_ms_avg": 64111.968199412026
+    },
+    "travel": {
+      "count": 1,
+      "relevance_rate": 1.0,
+      "hallucination_rate": 0.0,
+      "refusal_rate": 0.0,
+      "citation_accuracy": 1.0,
+      "latency_ms_avg": 38284.67082977295
+    }
+  },
+  "results": [
+    {
+      "id": "dev2-01-diseases-disabilities-easy",
+      "domain": "diseases-disabilities",
+      "difficulty": "easy",
+      "question": "יש לי ביטוח מענקית סרטן. אם חלילה אחלה בסרטן בפעם השנייה, האם אקבל פיצוי כספי נוסף, ובאיזה תנאי של זמן ביחס למקרה הראשון?",
+      "answer": "כן, במקרה של מחלת סרטן שנייה תקבל פיצוי כספי נוסף בגובה סכום הביטוח שקיבלת בגין המקרה הראשון. התנאי המרכזי הוא שחלפו לפחות 5 שנים מהמועד האחרון שבו נעלמו סימני מקרה הסרטן הראשון שבגינו שולמו תגמולי הביטוח.",
+      "ground_truth_answer": "כן. הפוליסה כוללת תשלום נוסף למקרה שני של מחלת הסרטן, המשולם לאחר 5 שנים ממקרה הסרטן הראשון (מהמועד האחרון בו נעלמו סימני הסרטן הראשון). הפיצוי הנוסף הוא חד-פעמי בגובה סכום הביטוח.",
+      "latency_ms": 84445.22452354431,
+      "citation_score": 1.0,
+      "citation_establishes": "fully",
+      "citation_details": [
+        "resolved diseases-disabilities/files/תנאי_פוליסת_ביטוח_מחלות_קשות_-_מענקית_סרטן.pdf p.10",
+        "resolved diseases-disabilities/files/תנאי_פוליסת_ביטוח_מחלות_קשות_-_מענקית_סרטן.pdf p.9"
+      ],
+      "citation_reasoning": "Citation 1 explicitly states that the policy includes an additional payment for a second cancer case after 5 years. Citation 2 details the conditions for receiving this additional payment, including the requirement that at least 5 years have passed since the last disappearance of signs of the first cancer, and that the payment is a one-time sum equal to the insurance amount.",
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states that a second payment is made, that it equals the original sum insured, and that the waiting period is 5 years from the last disappearance of signs of the first cancer. All core facts match the ground truth.",
+      "judge_cost_usd": 0.0015730000000000002
+    },
+    {
+      "id": "dev2-02-diseases-disabilities-hard",
+      "domain": "diseases-disabilities",
+      "difficulty": "hard",
+      "question": "אני גבר לא-מעשן בן 40 ומעוניין בביטוח מענקית סרטן עם סכום ביטוח של 30,000 ₪. מה תהיה הפרמיה החודשית שלי (לצורך המחשה)?",
+      "answer": "הפרמיה החודשית להמחשה עבור גבר לא-מעשן בן 40 בסכום ביטוח של 30,000 ₪ היא 9.06 ₪.  \n(לפי טבלת מענקית סרטן, הפרמיה החודשית לכל 10,000 ₪ לגיל 40 לגבר לא-מעשן היא 3.02 ₪, ולכן עבור 30,000 ₪: 3 * 3.02 = 9.06 ₪).",
+      "ground_truth_answer": "9.06 ₪ לחודש. הפרמיה החודשית לגבר לא-מעשן בגיל 40 היא 3.02 ₪ לכל 10,000 ₪ סכום ביטוח, ולכן עבור סכום ביטוח של 30,000 ₪: 3.02 × 3 = 9.06 ₪.",
+      "latency_ms": 65964.39623832703,
+      "citation_score": 1.0,
+      "citation_establishes": "fully",
+      "citation_details": [
+        "resolved diseases-disabilities/files/גילוי-נאות-לפוליסת-ביטוח-מחלות-קשות-מענקית-סרטן.pdf p.2"
+      ],
+      "citation_reasoning": "The cited page includes the premium table showing the monthly rate for a non-smoking male aged 40 is 3.02 per 10,000 ILS, which directly supports the calculation of 9.06 ILS for 30,000 ILS coverage.",
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer provides the exact same premium (9.06 ₪) and calculation breakdown as the ground truth, fully agreeing on the core fact.",
+      "judge_cost_usd": 0.001239
+    },
+    {
+      "id": "dev2-03-diseases-disabilities-hard",
+      "domain": "diseases-disabilities",
+      "difficulty": "hard",
+      "question": "יש לי ביטוח מענקית זהב עם סכום ביטוח של 300,000 ₪. עברתי צנתור כלילי טיפולי. כמה פיצוי אקבל בגין כך?",
+      "answer": "תקבל תשלום נוסף בגובה 10% מסכום הביטוח, אך לא יותר מ-20,000 ₪ (הנמוך מביניהם).  \nמאחר שסכום הביטוח שלך הוא 300,000 ₪, 10% ממנו הם 30,000 ₪, ולכן תקבל את התקרה – 20,000 ₪.  \nהזכאות מותנית בכך שהצנתור בוצע לראשונה בתקופת הביטוח, לאחר תום תקופת האכשרה, על פי חוות דעת קרדיולוג ועם היצרות של לפחות 60% באנגיוגרפיה, וטרם התגלתה מחלת לב כהגדרתה בפוליסה.",
+      "ground_truth_answer": "20,000 ₪. בגין צנתור כלילי טיפולי משולם פיצוי חד-פעמי בגובה 10% מסכום הביטוח אך עד 20,000 ₪ (הנמוך מביניהם). 10% מ-300,000 ₪ הם 30,000 ₪, ולכן חלה התקרה הנמוכה יותר — 20,000 ₪.",
+      "latency_ms": 76573.16899299622,
+      "citation_score": 1.0,
+      "citation_establishes": "fully",
+      "citation_details": [
+        "resolved diseases-disabilities/files/תנאי-פוליסת-ביטוח-מחלות-קשות-מענקית-זהב-1.pdf p.18"
+      ],
+      "citation_reasoning": "Citation 1 explicitly states that for a therapeutic coronary angioplasty, the insured receives an additional payment of 10% of the insurance amount up to a maximum of 20,000 ₪ (the lower of the two). Given the insurance amount of 300,000 ₪, 10% is 30,000 ₪, so the cap of 20,000 ₪ applies, fully supporting the ground-truth answer.",
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states the compensation amount (20,000 ₪) and the calculation logic (10% of sum insured, capped at 20,000 ₪), matching the ground truth. The additional conditions mentioned are consistent with typical policy terms and do not contradict the ground truth.",
+      "judge_cost_usd": 0.0016205
+    },
+    {
+      "id": "dev2-04-diseases-disabilities-medium",
+      "domain": "diseases-disabilities",
+      "difficulty": "medium",
+      "question": "רכשתי ביטוח מענקית זהב. אחרי כמה זמן מתחילת הביטוח אני יכול לתבוע ולקבל תגמול על מקרה ביטוח שני?",
+      "answer": "לפי הפוליסה, תשלום בגין מקרה שני של מחלת הסרטן יינתן רק אם חלפו לפחות 5 שנים מהמועד האחרון שבו נעלמו סימני מחלת הסרטן הראשונה, ובתנאי שבדיקות ההדמיה בתום 5 שנים אלו תקינות.",
+      "ground_truth_answer": "למקרה ביטוח שני תקופת ההמתנה היא 180 יום מקרות מקרה הביטוח הראשון (כמפורט בסעיף 4.3 לפרק א' לפוליסה) — כלומר הזכאות למקרה שני קמה רק בחלוף 180 יום ממועד קרות מקרה הביטוח הראשון.",
+      "latency_ms": 54537.837982177734,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "resolved diseases-disabilities/files/תנאי-פוליסת-ביטוח-מחלות-קשות-מענקית-זהב-1.pdf p.18"
+      ],
+      "citation_reasoning": "הציטוטים עוסקים בתנאים למקרה סרטן שני (5 שנים) ובכיסויים נוספים כמו צינתור, אך אינם מזכירים כלל תקופת המתנה של 180 יום למקרה ביטוח שני, שהיא עובדת הליבה בתשובה.",
+      "relevant": false,
+      "hallucination": true,
+      "refusal": false,
+      "judge_reasoning": "The ground truth states a 180-day waiting period from the first event for a second claim. The model answer invents a completely different condition (5 years from disappearance of signs, with clean imaging), which is a specific checkable fact absent from the ground truth and contradicts it.",
+      "judge_cost_usd": 0.0015
+    },
+    {
+      "id": "dev2-05-long-term-care-medium",
+      "domain": "long-term-care",
+      "difficulty": "medium",
+      "question": "הגשתי תביעת ביטוח סיעודי עבור ילד בן 13. ממתי מתחילה להימנות תקופת ההתיישנות של התביעה?",
+      "answer": "תקופת ההתיישנות מתחילה להימנות מדי יום ביומו, כל עוד מתקיים מקרה הביטוח. כיוון שמדובר בתביעת קטין, חישוב תקופת ההתיישנות לא יבוא במניין הזמן שבו עדיין לא מלאו לתובע 18 שנים.",
+      "ground_truth_answer": "בתביעת קטין לא יבוא במניין תקופת ההתיישנות הזמן שבו טרם מלאו לתובע שמונה עשרה שנים. לכן בתביעה של בן 13, מרוץ ההתיישנות מתחיל להימנות רק כשהתובע מגיע לגיל 18.",
+      "latency_ms": 56340.54708480835,
+      "citation_score": 1.0,
+      "citation_establishes": "fully",
+      "citation_details": [
+        "resolved long-term-care/files/הודעה-על-תקופת-התיישנות-ביטוח-סיעודי.pdf p.1",
+        "resolved long-term-care/files/טופס-הגשת-תביעה-ביטוח-סיעודי.pdf p.5"
+      ],
+      "citation_reasoning": "Citation 2 explicitly states that for a minor's claim, the limitation period does not include the time until the claimant turns eighteen, which directly supports the ground-truth answer that the prescription period for a 13-year-old begins only at age 18.",
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states that the limitation period does not begin to run until the minor turns 18, which aligns with the ground truth. The additional phrase about the period running 'day by day' while the insurance event exists is a general procedural note and does not contradict the core fact.",
+      "judge_cost_usd": 0.0016814999999999998
+    },
+    {
+      "id": "dev2-06-long-term-care-medium",
+      "domain": "long-term-care",
+      "difficulty": "medium",
+      "question": "אבי מתנייד באופן עצמאי בעזרת הליכון. האם לצורך ביטוח סיעודי הוא נחשב כמי שאינו מסוגל לנוע (פגיעה בפעולת הניידות)?",
+      "answer": "לא, ניידות בעזרת הליכון אינה נחשבת לפגיעה ביכולת העצמאית לנוע לצורך ביטוח סיעודי. ביצוע פעולת הניידות תוך היעזרות בהליכון או באביזר אחר אינה מוגדרת כאי-יכולת לבצע את הפעולה, כל עוד הוא נע ממקום למקום באופן עצמאי.",
+      "ground_truth_answer": "לא. ביצוע פעולת הניידות באופן עצמאי וללא עזרת אדם אחר, תוך היעזרות בקביים, מקל, הליכון או אביזר אחר (כולל מכני/מוטורי/אלקטרוני), אינו נחשב כפגיעה ביכולת העצמאית לנוע. רק ריתוק למיטה או לכסא גלגלים ללא יכולת להניעו באופן עצמאי נחשב כאי-יכולת לנוע.",
+      "latency_ms": 65240.89956283569,
+      "citation_score": 1.0,
+      "citation_establishes": "fully",
+      "citation_details": [
+        "resolved long-term-care/files/טופס-הגשת-תביעה-ביטוח-סיעודי.pdf p.10",
+        "resolved long-term-care/files/כללים-ומבחנים-לקביעת-זכאות-לקבלת-גמלת-סיעוד.pdf p.1"
+      ],
+      "citation_reasoning": "הציטוטים מגדירים במפורש שניידות בעזרת הליכון אינה נחשבת לפגיעה ביכולת העצמאית לנוע, ורק ריתוק למיטה או כיסא גלגלים ללא יכולת הנעה עצמאית נחשב כאי-יכולת לנוע, מה שתומך במלואו בתשובה.",
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states that using a walker does not constitute a loss of independent mobility under long-term care insurance, which matches the ground truth. No specific checkable facts are contradicted or invented.",
+      "judge_cost_usd": 0.0033435
+    },
+    {
+      "id": "dev2-07-long-term-care-hard",
+      "domain": "long-term-care",
+      "difficulty": "hard",
+      "question": "מה נחשב \"מצב סיעודי\" שמאפשר לקבל פיצוי על סיעוד מהביטוח?",
+      "answer": "\"מצב סיעודי\" מוגדר כמצב בריאות ותפקוד ירודים של המבוטח כתוצאה ממחלה, תאונה או ליקוי בריאותי, אשר בגינו הוא אינו מסוגל לבצע בכוחות עצמו חלק מהותי (לפחות 50% מהפעולה) של לפחות 3 מתוך 6 הפעולות הבאות: לקום ולשכב, להתלבש ולהתפשט, להתרחץ, לאכול ולשתות, לשלוט על סוגרים, וניידות.",
+      "ground_truth_answer": "מקרה הביטוח מוגדר כקרות לפחות אחד משני אירועים: (1) מוגבלות תפקודית — מצב בריאות ותפקוד ירודים כתוצאה ממחלה, תאונה או ליקוי בריאותי, שבגינו המבוטח אינו מסוגל לבצע בכוחות עצמו חלק מהותי (לפחות 50%) מפעולה, במספר פעולות הקבוע בפוליסה מתוך שש פעולות: לקום ולשכב, להתלבש ולהתפשט, להתרחץ, לאכול ולשתות, לשלוט על סוגרים, וניידות; או (2) תשישות נפש שנקבעה על ידי רופא מומחה בתחום.",
+      "latency_ms": 58110.91613769531,
+      "citation_score": 1.0,
+      "citation_establishes": "fully",
+      "citation_details": [
+        "resolved long-term-care/files/טופס-הגשת-תביעה-ביטוח-סיעודי.pdf p.10",
+        "resolved long-term-care/files/כללים-ומבחנים-לקביעת-זכאות-לקבלת-גמלת-סיעוד.pdf p.1"
+      ],
+      "citation_reasoning": "הציטוטים מפרטים במדויק את שני האירועים המגדירים מצב סיעודי: מוגבלות תפקודית באי-יכולת לבצע חלק מהותי ממספר פעולות יומיומיות, ותשישות נפש שנקבעה על ידי רופא מומחה, כפי שמופיע בתשובת האמת.",
+      "relevant": false,
+      "hallucination": true,
+      "refusal": false,
+      "judge_reasoning": "The model answer specifies 'לפחות 3 מתוך 6' (at least 3 out of 6) activities, but the ground truth states the number of activities is 'הקבוע בפוליסה' (as defined in the policy) without specifying a fixed number. This is a specific, checkable fact that contradicts the ground truth.",
+      "judge_cost_usd": 0.003466
+    },
+    {
+      "id": "dev2-08-loss-of-working-ability-medium",
+      "domain": "loss-of-working-ability",
+      "difficulty": "medium",
+      "question": "יש לי פוליסת הראל חוסן למחר+ לאובדן כושר עבודה. אם חלילה אאבד לצמיתות את כושר הראייה בשתי העיניים, האם אהיה זכאי לתגמולי ביטוח גם אם עדיין אוכל לעבוד?",
+      "answer": "כן. על פי תנאי הפוליסה, אובדן מוחלט ולצמיתות של כושר הראייה בשתי העיניים נחשב כשולל מהמבוטח באופן מוחלט ותמידי את כושר עבודתו, ללא תלות ביכולתו בפועל להמשיך לעבוד. במקרה כזה, המבוטח יהיה זכאי לתגמולי הביטוח.",
+      "ground_truth_answer": "כן. אובדן מוחלט ולצמיתות של כושר הראייה בשתי העיניים מזכה את המבוטח בתגמולי הביטוח, וכך גם אובדן מוחלט ולצמיתות של יכולת השימוש והפעולה בשתי הידיים או בשתי הרגליים או ביד אחת ורגל אחת — וזאת ללא תלות בשאלה אם המבוטח מסוגל להמשיך לעבוד.",
+      "latency_ms": 69078.04155349731,
+      "citation_score": 1.0,
+      "citation_establishes": "fully",
+      "citation_details": [
+        "resolved loss-of-working-ability/files/תנאי-פוליסת-ביטוח-אובדן-כושר-עבודה-הראל-חוסן-למחר-בהגדרה-עיסוקית-253.pdf p.3"
+      ],
+      "citation_reasoning": "The cited page explicitly states that permanent and total loss of vision in both eyes is considered a total and permanent loss of working capacity, regardless of the insured's ability to continue working, which fully supports the ground-truth answer.",
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states that permanent total loss of sight in both eyes entitles the insured to benefits regardless of actual ability to work, which matches the ground truth. The phrasing differs slightly but the core fact is accurate and complete.",
+      "judge_cost_usd": 0.0012599999999999998
+    },
+    {
+      "id": "dev2-09-loss-of-working-ability-medium",
+      "domain": "loss-of-working-ability",
+      "difficulty": "medium",
+      "question": "אם איבדתי לצמיתות את הראייה בעין אחת ויש לי ביטוח חוסן למחר - האם אני אקבל פיצוי?",
+      "answer": "לא. על פי תנאי הפוליסה, אובדן מוחלט ולצמיתות של כושר הראייה של שתי העיניים בלבד נחשב כשולל את כושר העבודה באופן מוחלט ותמידי. לא מצוין כיסוי לאובדן ראייה בעין אחת.",
+      "ground_truth_answer": "הזכאות תלויה בהגדרה שבפוליסה: לפי ההגדרה העיסוקית, תקום זכאות אם עקב אובדן הראייה נשלל ממך החלטית ולצמיתות הכושר להמשיך ולעסוק בעיסוק ו/או במקצוע שבהם עסקת לפני מקרה הביטוח; לפי ההגדרה המקצועית, נדרש בנוסף שנבצר ממך לצמיתות לעסוק גם בעיסוק סביר אחר בהתחשב בניסיונך, השכלתך, הכשרתך ויכולתך. אחרת לא ישולם תגמול.",
+      "latency_ms": 67871.30546569824,
+      "citation_score": 0.5,
+      "citation_establishes": "partially",
+      "citation_details": [
+        "resolved loss-of-working-ability/files/תנאי-פוליסת-ביטוח-אובדן-כושר-עבודה-הראל-חוסן-למחר-בהגדרה-עיסוקית-253.pdf p.3"
+      ],
+      "citation_reasoning": "The cited page defines 'total and permanent loss of working ability' and mentions that loss of sight in both eyes qualifies, but it does not address the scenario of losing sight in only one eye, nor does it discuss the distinction between occupational and professional definitions mentioned in the ground-truth answer.",
+      "relevant": false,
+      "hallucination": true,
+      "refusal": false,
+      "judge_reasoning": "המודל טוען באופן ספציפי שרק אובדן ראייה בשתי העיניים מזכה בפיצוי, בעוד שהאמת הקרקעית מסבירה שהזכאות תלויה בהגדרת הפוליסה (עיסוקית/מקצועית) ולא שוללת אובדן ראייה בעין אחת. זוהי עובדה בדוקה שסותרת את האמת.",
+      "judge_cost_usd": 0.0013895000000000001
+    },
+    {
+      "id": "dev2-10-personal-accident-medium",
+      "domain": "personal-accident",
+      "difficulty": "medium",
+      "question": "אני בן 25, יש לי ביטוח תאונות אישיות, ונפגעתי בתאונה בזמן רכיבה על קורקינט חשמלי. האם אני מכוסה?",
+      "answer": "לא, אין כיסוי למקרה ביטוח שנגרם עקב רכיבה על קורקינט חשמלי במסגרת פוליסת תאונות אישיות, וזאת החל מגיל 21 ומעלה. ניתן לרכוש נספח מתאים לביטול חריג זה.",
+      "ground_truth_answer": "זה תלוי. החל מגיל 21 אין כיסוי למקרה ביטוח שנגרם עקב רכיבה על אופניים חשמליים ו/או קורקינט חשמלי ו/או סגווי וכדומה, אלא אם נרכש נספח מתאים לביטול חריג זה. אם נרכש הנספח — יש כיסוי; אם לא — אין כיסוי. (בדומה, אין כיסוי למקרה שנגרם עקב נהיגה ברכב דו-גלגלי או טרקטורון ללא נספח מתאים.)",
+      "latency_ms": 60441.83087348938,
+      "citation_score": 1.0,
+      "citation_establishes": "fully",
+      "citation_details": [
+        "resolved personal-accident/files/גילוי-נאות-הראל-ביטוח-תאונות-אישיות.pdf p.3",
+        "resolved personal-accident/files/הצעה-לתאונות-אישיות-62025.pdf p.2"
+      ],
+      "citation_reasoning": "הציטוטים מאשרים במפורש כי מגיל 21 אין כיסוי לתאונה מרכיבה על קורקינט חשמלי, אלא אם נרכש נספח מתאים לביטול החריג, וכך תומכים במלואם בתשובת האמת.",
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states that there is no coverage for an electric scooter accident from age 21 and up, and mentions the option to purchase a rider to remove this exclusion. This aligns with the ground truth, which says coverage depends on whether the rider was purchased.",
+      "judge_cost_usd": 0.0020345
+    },
+    {
+      "id": "dev2-11-personal-accident-hard",
+      "domain": "personal-accident",
+      "difficulty": "hard",
+      "question": "יש לי ביטוח תאונות אישיות עם נספח לביטול חריג על אופנוע. נפצעתי במהלך שליחות של דומינוס. האם אני מכוסה?",
+      "answer": "כן, אתה מכוסה. הפוליסה אמנם שוללת כיסוי למקרה ביטוח שנגרם עקב נהיגה ברכב דו-גלגלי, אך צוין במפורש כי בכל מקרה יהיה כיסוי \"ככל שהנהיגה בכלי התחבורה הינה מתוקף עיסוקו של המבוטח\". מכיוון שנפגעת במהלך שליחות, הנהיגה היא מתוקף עיסוקך.",
+      "ground_truth_answer": "לא. גם אם נרכש נספח לביטול חריג הרכב הדו-גלגלי (אופנוע), בכל מקרה לא יהיה כיסוי כאשר הנהיגה בכלי התחבורה היא מתוקף עיסוקו של המבוטח. מאחר שהנהיגה על האופנוע נעשתה במסגרת עבודתך כשליח, התאונה אינה מכוסה.",
+      "latency_ms": 64083.184242248535,
+      "citation_score": 1.0,
+      "citation_establishes": "fully",
+      "citation_details": [
+        "resolved personal-accident/files/גילוי-נאות-הראל-ביטוח-תאונות-אישיות.pdf p.3",
+        "resolved personal-accident/files/הצעה-לתאונות-אישיות-62025.pdf p.2"
+      ],
+      "citation_reasoning": "הציטוטים קובעים במפורש כי גם אם נרכש נספח לביטול חריג הרכב הדו-גלגלי, לא יהיה כיסוי כאשר הנהיגה היא מתוקף עיסוקו של המבוטח, כפי שמתואר בשאלה על שליחות.",
+      "relevant": false,
+      "hallucination": true,
+      "refusal": false,
+      "judge_reasoning": "The model answer directly contradicts the ground truth by stating there is coverage when the ground truth explicitly says there is no coverage for driving as part of the insured's occupation. The model invents a specific checkable fact (that the policy covers driving as part of the insured's occupation) which is the opposite of the ground truth.",
+      "judge_cost_usd": 0.002041
+    },
+    {
+      "id": "dev2-12-personal-accident-medium",
+      "domain": "personal-accident",
+      "difficulty": "medium",
+      "question": "רכשתי ביטוח צלילה ספורטיבית ל-14 יום. אני צולל כדי לדוג דגים — האם הביטוח מכסה אותי?",
+      "answer": "לא, הביטוח אינו מכסה אותך. הפוליסה מחריגה במפורש \"דייג תת מיימי\" מהכיסוי הביטוחי.",
+      "ground_truth_answer": "לא. \"צלילה ספורטיבית\" מוגדרת כצלילה בעזרת ציוד צלילה אישי בכל מקווה מים, שלא לשם ביצוע עבודה או פעילות של צבא, משטרה או דיג (למעט מדריך צלילה מוסמך). צלילה לצורך דיג אינה נכללת בהגדרה ולכן אינה מכוסה.",
+      "latency_ms": 67810.88948249817,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "resolved personal-accident/files/ביטוח-צלילה-ספורטיבית-14-יום.pdf p.6"
+      ],
+      "citation_reasoning": "הציטוטים עוסקים בחריגים לפוליסה (כגון צלילה שאינה ספורטיבית) אך אינם כוללים את ההגדרה של 'צלילה ספורטיבית' או את ההבהרה שצלילה לצורך דיג אינה נכללת. לכן אין בהם כדי לבסס את התשובה המלאה.",
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states that the insurance does not cover the user, agreeing with the ground truth. It provides a specific reason ('דייג תת מיימי' is excluded), which aligns with the ground truth's explanation that diving for fishing is not covered under the definition of 'sport diving'. No invented or contradictory facts are present.",
+      "judge_cost_usd": 0.001424
+    },
+    {
+      "id": "dev2-13-apartment-medium",
+      "domain": "apartment",
+      "difficulty": "medium",
+      "question": "התכשיטים שלי מבוטחים בפוליסת כל הסיכונים. השארתי אותם עם הילד שלי ברכב והם נגנבו, איך אפשר לקבל את הפיצוי?",
+      "answer": "אנחנו נתחיל מהנקודה הקריטית: הפוליסה שלך אינה מכסה גניבת תכשיטים מרכב.  \n\nבפוליסת \"אדירה כסף\" (פרק 5 – כיסוי לחלק מהתכולה מחוץ לדירה) נקבע במפורש כי בגדים, חפצים אישיים ותכשיטים של המבוטח ובני משפחתו מבוטחים מחוץ לדירה **\"מעט סיכון גניבה, אך לא בעת הימצאם ברכב כלשהו\"**.  \nמאחר שהתכשיטים הושארו ברכב (גם אם עם הילד) ונגנבו, המקרה נופל בדיוק על החריג הזה, ולכן לא ניתן לקבל פיצוי.",
+      "ground_truth_answer": "אינך זכאי לפיצוי כי הפוליסה מחריגה אבדן או נזק לרכוש בעת הימצאו ברכבו של המבוטח או בכל כלי רכב אחר ללא השגחת מבוגר. השגחת ילד אינה נחשבת השגחת מבוגר, ולכן הנזק אינו מכוסה.",
+      "latency_ms": 51252.93326377869,
+      "citation_score": 0.5,
+      "citation_establishes": "partially",
+      "citation_details": [
+        "resolved apartment/files/פוליסה-לביטוח-דירה-ותכולתה-ש-מהדורת-אוגוסט-2020.pdf p.13"
+      ],
+      "citation_reasoning": "הציטוט מראה שתכשיטים מחוץ לדירה אינם מכוסים לגניבה בעת הימצאם ברכב, אך אינו מזכיר את דרישת 'השגחת מבוגר' או את ההבחנה בין השגחת ילד למבוגר כפי שמופיע בתשובה.",
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "המודל מסכים עם התשובה הנכונה שהפוליסה אינה מכסה גניבת תכשיטים מרכב, ומציין את החריג הרלוונטי. למרות שהניסוח שונה, עובדת הליבה זהה ואין המצאה של עובדות סותרות.",
+      "judge_cost_usd": 0.0014535
+    },
+    {
+      "id": "dev2-14-apartment-medium",
+      "domain": "apartment",
+      "difficulty": "medium",
+      "question": "יש לי שעון יוקרתי המבוטח בפוליסת ביטוח כל הסיכונים לדברי ערך. נגרם לו נזק פנימי במנגנון. האם הנזק מכוסה?",
+      "answer": "לא, נזק פנימי לשעונים אינו מכוסה בפוליסה. לפי תנאי הפוליסה, נזק פנימי לשעונים מכל סיבה שהיא מוחרג במפורש מהכיסוי.",
+      "ground_truth_answer": "לא. הפרק המבטח תכשיטים ופרוות אינו מכסה נזק פנימי לשעונים, לציפוייהם או לזכוכיותיהם.",
+      "latency_ms": 46941.17736816406,
+      "citation_score": 1.0,
+      "citation_establishes": "fully",
+      "citation_details": [
+        "resolved apartment/files/פוליסה-לביטוח-דירה-ותכולתה-ש-מהדורת-אוגוסט-2020.pdf p.26"
+      ],
+      "citation_reasoning": "The cited page explicitly lists 'נזק פנימי לשעונים' (internal damage to watches) under 'סיכונים שאינם מכוסים' (risks not covered) in section 4.ה, directly supporting the ground-truth answer that such damage is not covered.",
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states that internal damage to watches is not covered, which aligns with the ground truth. The phrasing differs slightly but conveys the same core fact without adding or contradicting any specific checkable details.",
+      "judge_cost_usd": 0.001205
+    },
+    {
+      "id": "dev2-15-apartment-medium",
+      "domain": "apartment",
+      "difficulty": "medium",
+      "question": "יש לי כינור שמבוטח בביטוח כל הסיכונים, איך אפשר לוודא שאקבל פיצוי אם קורה לו משהו?",
+      "answer": "כדי לוודא שתקבל פיצוי במקרה של נזק, עליך לפעול על פי הנהלים המפורטים בפוליסה:\n\nא. **דיווח מיידי:** דווח לחברת הראל על האירוע מיד או בסמוך להתרחשותו, במישרין או דרך סוכן הביטוח. דיווח מהיר יקל על בחינת גובה הנזק ויישוב התביעה במהירות.\nב. **תביעה למבטח שלך:** עליך לדווח תחילה לחברת הביטוח שלך ולממש את זכויותיך על פי הפוליסה שלך. לאחר מכן תוכל להגיש תביעה להראל עבור יתרת ההפסדים (השתתפות עצמית וכו').\nג. **אישור אי הגשת תביעה:** אם התביעה היא בגין נזק רכוש, עליך להמציא לחברת הראל אישור \"אי הגשת תביעה\" מחברת הביטוח שלך.\nד. **הגשת מסמכים:** אם תיקנת את הנזק והוא מכומת כספית, עליך להעביר תביעה לפיצוי בצירוף הסבר, מסמכים, תמונות וחוות דעת המוכיחים את גובה הנזק. תהליך בירור התביעה יחל מיד עם קבלת מלוא המסמכים הנדרשים.",
+      "ground_truth_answer": "תנאי מוקדם לאחריות המבטח הוא שכלי הנגינה יאוחסן בנרתיקו בעת העברתו ממקום למקום, וכן בכל עת שאינו בשימוש.",
+      "latency_ms": 53287.9741191864,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "resolved apartment/files/חוברת-הכללים-לגבי-פוליסות-שנרכשו-לאחר-ה-030917.pdf p.29",
+        "resolved apartment/files/חוברת-כללים.pdf p.23"
+      ],
+      "citation_reasoning": "הציטוטים עוסקים בהנחיות כלליות להגשת תביעה לאחר נזק, אך אינם מזכירים כלל את התנאי הספציפי המופיע בתשובה – אחסון כלי הנגינה בנרתיק בעת העברה או כשאינו בשימוש.",
+      "relevant": false,
+      "hallucination": true,
+      "refusal": false,
+      "judge_reasoning": "The ground truth states the key condition is storing the violin in its case when moving or not in use. The model answer invents specific procedural steps (reporting to Harel, obtaining a 'no-claim' certificate, submitting repair documents) that are absent from the ground truth, constituting hallucination.",
+      "judge_cost_usd": 0.0017155
+    },
+    {
+      "id": "dev2-16-apartment-easy",
+      "domain": "apartment",
+      "difficulty": "easy",
+      "question": "מה מספר הטלפון של המוקד לתביעות ביטוח?",
+      "answer": "מספר הטלפון של מוקד תביעות ביטוח כללי הוא 03-9294000.",
+      "ground_truth_answer": "מספר הטלפון של מוקד תביעות ביטוח כללי הוא 03-9294000.",
+      "latency_ms": 28640.44761657715,
+      "citation_score": 1.0,
+      "citation_establishes": "fully",
+      "citation_details": [
+        "resolved business/files/פוליסה-לביטוח-אחריות-מקצועית-לענפי-ההנדסה-והאדריכלות-מהדורת-מרץ-2026.pdf p.19"
+      ],
+      "citation_reasoning": "The cited page explicitly lists the phone number for 'מוקד תביעות ביטוח כללי' as 03-9294000, which directly matches the ground-truth answer.",
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer provides the exact same phone number as the ground truth, correctly answering the question.",
+      "judge_cost_usd": 0.0006000000000000001
+    },
+    {
+      "id": "dev2-17-apartment-easy",
+      "domain": "apartment",
+      "difficulty": "easy",
+      "question": "מה מספר הטלפון של המשרדים בחיפה?",
+      "answer": "מחוז צפון בחיפה: 04-8606444.",
+      "ground_truth_answer": "מספר הטלפון של משרדי מחוז צפון בחיפה (שדרות פל-ים) הוא 04-8606444.",
+      "latency_ms": 26538.469314575195,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "resolved business/files/פוליסה-לביטוח-אחריות-מקצועית-למוסדות-רפואיים-מהדורת-אוקטובר-2018.pdf p.22"
+      ],
+      "citation_reasoning": "The cited page discusses policy cancellation terms and legal jurisdiction, with no mention of office locations or phone numbers. It contains no information relevant to the ground-truth answer.",
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "המודל סיפק את מספר הטלפון הנכון של משרדי מחוז צפון בחיפה, תוך התאמה מלאה לעובדה המרכזית שבתשובת הבסיס.",
+      "judge_cost_usd": 0.0011120000000000001
+    },
+    {
+      "id": "dev2-18-business-hard",
+      "domain": "business",
+      "difficulty": "hard",
+      "question": "יש לי ביטוח חבות בעלי מוסכים, ומישהו שהשגיח על עבודת ריתוך עם להבה הלך אחרי 20 דקות. הייתה שריפה. האם אני זכאי לפיצוי?",
+      "answer": "לא, ככל הנראה אינך זכאי לפיצוי מלא. לפי נוהל \"עבודות בחום\", על המשגיח (צופה האש) להיות נוכח באתר הביצוע מרגע התחלת העבודות ועד 30 דקות לפחות לאחר סיומן. מאחר שהמשגיח עזב לאחר 20 דקות, הדבר מהווה אי-עמידה בנוהל, ובמקרה כזה המבטח רשאי לפטור את עצמו מאחריות או להפחית את תגמולי הביטוח.",
+      "ground_truth_answer": "לא בהכרח. נוהל עבודות בחום מחייב שצופה האש יישאר במקום לפחות 30 דקות לאחר סיום העבודות החמות, ואילו כאן הוא עזב לאחר 20 דקות — כלומר הנוהל הופר. אם מקרה הביטוח (השריפה) היה נמנע או שתוצאותיו היו קטנות יותר אילו קוים הנוהל, המבטח פטור מחבותו או שתגמולי הביטוח יופחתו בהתאם. לכן, ככל שהשריפה נגרמה או הוחמרה עקב אי-קיום הנוהל — לא תשולם לך זכאות מלאה (הכיסוי יישלל או יצומצם).",
+      "latency_ms": 61768.11957359314,
+      "citation_score": 0.5,
+      "citation_establishes": "partially",
+      "citation_details": [
+        "resolved business/files/תנאי-פוליסת-ביטוח-מכלול-לעסק-מהדורת-מרץ-2023-באנגלית.pdf p.56",
+        "resolved business/files/פוליסה-לביטוח-חבות-בעלי-מוסכים-הראל-מהדורת-ינואר-2023.pdf p.9"
+      ],
+      "citation_reasoning": "Citation 1 mentions a 'Hot Works Procedure' and states that the exclusion for hot works does not apply if the insured follows that procedure, but the provided text cuts off before detailing the specific requirements (such as the 30-minute fire watch). Therefore, the cited pages partially support the ground-truth answer by establishing the existence of a mandatory procedure, but they do not contain the full facts needed to confirm the 30-minute rule or the consequences of its breach.",
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states that the insured is likely not entitled to full compensation because the fire watch left after 20 minutes instead of the required 30 minutes, which constitutes a breach of the hot work procedure. This matches the ground truth's core fact and conclusion.",
+      "judge_cost_usd": 0.0018800000000000002
+    },
+    {
+      "id": "dev2-19-car-easy",
+      "domain": "car",
+      "difficulty": "easy",
+      "question": "רכשתי ביטוח רכב מטיילים בסיני ובירדן. באילו אזורים גאוגרפיים הביטוח בתוקף?",
+      "answer": "הביטוח תקף בחצי האי סיני במצרים ובממלכה ההאשמית בירדן בלבד.",
+      "ground_truth_answer": "התחום הטריטוריאלי של הפוליסה הוא חצי האי סיני במצרים והממלכה ההאשמית בירדן בלבד. הפוליסה אינה מכסה אבדן, נזק או חבות שאירעו מחוץ לתחום טריטוריאלי זה.",
+      "latency_ms": 50055.530071258545,
+      "citation_score": 1.0,
+      "citation_establishes": "fully",
+      "citation_details": [
+        "resolved car/files/פוליסה-לביטוח-רכב-מטיילים-בסיני-ובירדן.pdf p.4"
+      ],
+      "citation_reasoning": "The cited page explicitly defines the territorial scope as 'חצי האי סיני במצרים והממלכה ההאשמית בירדן בלבד' (Sinai Peninsula in Egypt and the Hashemite Kingdom of Jordan only), which directly supports the ground-truth answer.",
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states the geographical areas covered (Sinai Peninsula in Egypt and the Hashemite Kingdom of Jordan only), which matches the core fact in the ground truth. No specific checkable facts are contradicted or invented.",
+      "judge_cost_usd": 0.000969
+    },
+    {
+      "id": "dev2-20-car-medium",
+      "domain": "car",
+      "difficulty": "medium",
+      "question": "אני נוהג בטנדר עם ביטוח מטיילים לסיני וירדן ועשיתי תאונה. נגרם לי נזק גופני. האם אני נחשב צד שלישי?",
+      "answer": "לא, אינך נחשב צד שלישי. לפי הגדרת מקרה הביטוח בפרק א' לחבות כלפי צד שלישי בגין נזקי גוף, נוסעי הרכב (ובתוכם הנהג) לא ייחשבו כצד שלישי.",
+      "ground_truth_answer": "לא. פרק החבות כלפי צד שלישי בגין נזקי גוף מכסה את חבות המבוטח ו/או הנוהג ברכב כלפי צד שלישי — הנהג עצמו אינו \"צד שלישי\" לעניין זה, וגם נוסעי הרכב אינם נחשבים צד שלישי. נזק גוף שנגרם לך כנהג אינו מטופל בפרק זה.",
+      "latency_ms": 58801.50508880615,
+      "citation_score": 1.0,
+      "citation_establishes": "fully",
+      "citation_details": [
+        "resolved car/files/פוליסה-לביטוח-רכב-מטיילים-בסיני-ובירדן.pdf p.6"
+      ],
+      "citation_reasoning": "The cited page explicitly states that passengers are not considered third parties and defines the coverage as the liability of the insured/driver toward a third party, which directly supports the ground-truth answer that the driver himself is not a third party.",
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states that the driver is not considered a third party, which aligns with the ground truth. It provides a slightly different but accurate justification by referencing the policy definition, without contradicting or inventing any checkable facts.",
+      "judge_cost_usd": 0.000996
+    },
+    {
+      "id": "dev2-21-health-hard",
+      "domain": "health",
+      "difficulty": "hard",
+      "question": "אני זכאי לביקור רופא בבית וגר בחברון, איך מזמינים רופא?",
+      "answer": "לא, שירות ביקור רופא אינו ניתן בחברון. על פי תנאי השירות, הוא ניתן בכל מקום יישוב בישראל למעט יהודה, שומרון, חבל עזה ויישובי בקעת הירדן והערבה.",
+      "ground_truth_answer": "לא ניתן להזמין רופא לחברון. שירות ביקור רופא בבית ניתן בכל יישוב בישראל למעט יהודה, שומרון, חבל עזה ויישובי בקעת הירדן והערבה. חברון נמצאת ביהודה ושומרון ואינה נכללת ברשימת היישובים החריגים שכן מקבלים שירות (מעלה אדומים, אריאל, בית אריה, אורנית ושערי תקווה), ולכן לא ניתן לקבל את השירות בכתובת זו.",
+      "latency_ms": 51795.97043991089,
+      "citation_score": 1.0,
+      "citation_establishes": "fully",
+      "citation_details": [
+        "resolved health/files/נספח-שירות-ביקור-רופא-בבית.pdf p.3",
+        "resolved health/files/נספח-שירות-ביקור-רופא-בבית.pdf p.7"
+      ],
+      "citation_reasoning": "Citation 1 (section 3.1.5) explicitly states that the service is provided in all Israeli localities except Judea, Samaria, the Gaza Strip, and the Jordan Valley/Arava settlements, with specific exceptions that do not include Hebron. Citation 2 repeats the same exclusion, confirming that Hebron (in Judea and Samaria) is not covered, fully supporting the ground-truth answer.",
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states that the service is not available in Hebron and provides the same exclusion regions as the ground truth. It omits the list of exceptional settlements but does not contradict or invent any checkable fact.",
+      "judge_cost_usd": 0.001745
+    },
+    {
+      "id": "dev2-22-health-medium",
+      "domain": "health",
+      "difficulty": "medium",
+      "question": "אני זכאי לביקור רופא בבית וגר באורנית, האם אפשר להזמין רופא?",
+      "answer": "כן, שירות ביקור רופא בבית ניתן באורנית. על פי תנאי השירות, השירות זמין בכל יישוב בישראל, לרבות אורנית (הנחשבת חריג חיובי ביישובים מעבר לקו הירוק).",
+      "ground_truth_answer": "כן, אפשר. אף שהשירות אינו ניתן ככלל ביהודה ושומרון, אורנית נכללת במפורש ברשימת היישובים שכן מקבלים את השירות (יחד עם מעלה אדומים, אריאל, בית אריה ושערי תקווה), ולכן ניתן להזמין ביקור רופא בבית באורנית.",
+      "latency_ms": 57212.61715888977,
+      "citation_score": 1.0,
+      "citation_establishes": "fully",
+      "citation_details": [
+        "resolved health/files/נספח_שירות_ביקור_רופא_בבית.pdf p.7",
+        "resolved health/files/נספח_שירות_ביקור_רופא_בבית.pdf p.3"
+      ],
+      "citation_reasoning": "Citation 1 and Citation 2 both explicitly state that the home doctor visit service is provided in all localities in Israel except Judea and Samaria, but specifically includes Ma'ale Adumim, Ariel, Beit Aryeh, Oranit, and Sha'arei Tikva. This directly supports the ground-truth answer that a resident of Oranit can order a doctor.",
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly confirms that a home doctor visit is available in Oranit, which matches the ground truth. The explanation about Oranit being an exception is consistent with the reference, and no specific checkable fact is contradicted or invented.",
+      "judge_cost_usd": 0.001697
+    },
+    {
+      "id": "dev2-23-life-medium",
+      "domain": "life",
+      "difficulty": "medium",
+      "question": "יש לי ביטוח מגן חודשי למקרה פטירה. אם חלילה אלך לעולמי, כיצד ישולמו תגמולי הביטוח למוטבים — בתשלום חד-פעמי או בדרך אחרת?",
+      "answer": "תגמולי הביטוח ישולמו למוטבים כתשלום חודשי, למשך תקופת התשלום שנקבעה על ידי המבוטח בעת הצטרפותו לביטוח. התשלום אינו חד-פעמי.",
+      "ground_truth_answer": "התשלום למוטבים אינו חד-פעמי אלא חודשי, למשך תקופת התשלום שנקבעה על ידי המבוטח בעת הצטרפותו לביטוח.",
+      "latency_ms": 62088.18054199219,
+      "citation_score": 1.0,
+      "citation_establishes": "fully",
+      "citation_details": [
+        "resolved life/files/מידע-מהותי-בדבר-מגן-חודשי.pdf p.1"
+      ],
+      "citation_reasoning": "The cited page explicitly states that the payment to beneficiaries will be monthly for the duration chosen by the insured, directly confirming the ground-truth answer that it is not a one-time payment.",
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states that the payment is monthly, not a lump sum, and that it lasts for the period chosen by the insured, matching the ground truth exactly.",
+      "judge_cost_usd": 0.0010365
+    },
+    {
+      "id": "dev2-24-life-medium",
+      "domain": "life",
+      "difficulty": "medium",
+      "question": "יש לי ביטוח חיים על נכות מתאונה, נפצעתי בחופשת סקי. זה מכוסה?",
+      "answer": "לא, פוליסת ביטוח תאונות אישיות (הכוללת נכות מתאונה) אינה מכסה נזקים שנגרמו כתוצאה מספורט אתגרי, אלא אם נרכש נספח מתאים לביטול חריג זה.",
+      "ground_truth_answer": "זה תלוי אם הפוליסה כוללת חריג לספורט אתגרי. בפוליסות הכוללות חריג כזה, ספורט חורף הכולל גלישה או החלקה על שלג — לרבות גלישה במגלשיים (סקי), סנובורד ומזחלות — נחשב ספורט אתגרי המוחרג מהכיסוי, ולכן פציעה בזמן גלישת סקי אינה מכוסה, אלא אם נרכשה הרחבה לביטול החריג.",
+      "latency_ms": 62315.15288352966,
+      "citation_score": 0.5,
+      "citation_establishes": "partially",
+      "citation_details": [
+        "resolved life/files/מידע-מהותי-נכות-מתאונה.pdf p.1"
+      ],
+      "citation_reasoning": "הציטוט מציין שקיים חריג לספורט אתגרי בפוליסה, אך אינו מפרט אילו ענפי ספורט נכללים בחריג (כגון סקי) ואינו מזכיר אפשרות לרכישת הרחבה לביטול החריג, כפי שמפורט בתשובה.",
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states that the policy does not cover extreme sports unless a specific rider is purchased, which aligns with the ground truth's explanation that skiing is excluded under the extreme sports exception unless an extension is bought. No specific checkable facts are contradicted or invented.",
+      "judge_cost_usd": 0.0013245
+    },
+    {
+      "id": "dev2-25-mortgage-medium",
+      "domain": "mortgage",
+      "difficulty": "medium",
+      "question": "יש לי ביטוח חיים למשכנתא. אם אמות, מי ייקבל את התגמולים, ומה יקרה ליתרה?",
+      "answer": "במקרה של מוות במהלך תקופת הביטוח, סכום הביטוח (עד לגובה יתרת ההלוואה) ישולם לבנק המלווה, שמוגדר כמוטב בלתי חוזר. אם קיימת יתרה מסכום הביטוח מעבר לחוב לבנק, היא תשולם למוטבים הנוספים שמינית, ובהעדר מינוי – ליורשים החוקיים על פי דין.",
+      "ground_truth_answer": "תגמולי הביטוח משולמים למלווה (הבנק). אם לאחר סילוק ההלוואה נותרת יתרה מסכום הביטוח, היא תשולם למוטבים, ואם לא נקבעו מוטבים — ליורשים החוקיים.",
+      "latency_ms": 49419.81363296509,
+      "citation_score": 0.5,
+      "citation_establishes": "partially",
+      "citation_details": [
+        "resolved mortgage/pages/safe-mortgage.txt",
+        "resolved mortgage/files/טופס-הצעה-לביטוח-חיים-ומבנה-למשכנתא-הצהרת-בריאות-מקוצרת.pdf p.2"
+      ],
+      "citation_reasoning": "Citation 1 states that in case of death the company will pay the remaining loan to the bank, but does not mention what happens to any surplus. Citation 2 specifies that the insurance amount up to the loan balance is paid to the lender as an irrevocable beneficiary, and any remaining amount is paid to named beneficiaries or, in their absence, to legal heirs. Together they partially support the ground-truth answer, but Citation 1 alone does not cover the surplus distribution.",
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states that the insurance amount (up to the loan balance) goes to the bank, and any excess goes to additional beneficiaries or legal heirs, which matches the ground truth. The phrase 'מוטב בלתי חוזר' (irrevocable beneficiary) is an added detail but does not contradict the ground truth.",
+      "judge_cost_usd": 0.0024684999999999998
+    },
+    {
+      "id": "dev2-26-travel-medium",
+      "domain": "travel",
+      "difficulty": "medium",
+      "question": "קניתי חבילת esim מהספק ולא קיבלתי את ההנחה, למה?",
+      "answer": "כדי לקבל את 20% ההנחה, חובה לרכוש את חבילת ה-eSIM ישירות ואך ורק דרך הקישור שמופיע באפליקציית \"הראל חו\"ל\". רכישה ישירה באתר הספק (שלא דרך הקישור באפליקציה), בטלפון או בכל דרך אחרת – לא מזכה בהנחה, ולא ניתן לקבל החזר בגובה ההטבה בדיעבד.",
+      "ground_truth_answer": "ככל הנראה משום שהרכישה לא בוצעה דרך הקישור באפליקציית \"הראל חו\"ל\". את ההטבה ניתן לממש רק בכניסה ישירה ועצמאית לאתר הספק אך ורק דרך הקישור המופיע באפליקציית הראל חו\"ל. רכישה אינטרנטית מאתר הספק שלא דרך הקישור, או רכישה טלפונית/פרונטלית ישירה מהספק, אינה מזכה בהטבה ואינה מזכה בהחזר בגובה סכום ההטבה.",
+      "latency_ms": 38284.67082977295,
+      "citation_score": 1.0,
+      "citation_establishes": "fully",
+      "citation_details": [
+        "resolved travel/files/תקנון-הטבת-esim-לרוכשי-ביטוח-נסיעות-לחול-של-הראל.pdf p.2"
+      ],
+      "citation_reasoning": "The cited page explicitly states that the benefit can only be redeemed by entering the supplier's site directly and independently through the link in the Harel Abroad app, and that purchases made outside this link (online, by phone, or in person) do not qualify for the benefit or a refund. This directly supports the ground-truth answer explaining why the discount was not received.",
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states the core fact: the discount is only available through the link in the 'Harel Abroad' app, and purchases made directly on the provider's site, by phone, or otherwise do not qualify. The mention of '20%' is a specific fact not in the ground truth, but it is presented as part of the discount description, not as a contradictory or invented checkable fact about the reason for not receiving the discount. The core reasoning aligns perfectly.",
+      "judge_cost_usd": 0.0014520000000000002
+    },
+    {
+      "id": "dev2-27-business-medium",
+      "domain": "business",
+      "difficulty": "medium",
+      "question": "יש לי ביטוח ימי ליאכטה. אם אמכור את כלי השיט, מה קורה לפוליסת הביטוח?",
+      "answer": "אם תמכור את כלי השיט, שינוי בעלות מחייב הודעה מוקדמת והסכמת החברה. עם העברת הבעלות הקניינית בכלי השיט, הביטוח פוקע.  \nבפוליסה באנגלית מוסבר גם שאם כלי השיט נמכר או מועבר לבעלות חדשה, הביטוח יתבטל ממועד המכירה, אלא אם החברה תסכים בכתב להמשיך את הביטוח, ובמקרה של ביטול יוחזר פרמיה יחסית יומית נטו.",
+      "ground_truth_answer": "שינוי בעלות או מכירה של כלי השיט מחייבים הודעה מוקדמת והסכמת החברה, ועם העברת הבעלות הקניינית בכלי השיט — הביטוח פוקע.",
+      "latency_ms": 61046.03838920593,
+      "citation_score": 1.0,
+      "citation_establishes": "fully",
+      "citation_details": [
+        "resolved business/files/פוליסה_לביטוח_ימי_ליאכטות_וסירות_מבית_שירביט_-_מהדורת_יולי_2016.pdf p.4",
+        "resolved business/files/פוליסה_לביטוח_ימי_ליאכטות_וסירות_מבית_שירביט_-_מהדורת_יולי_2016.pdf p.17"
+      ],
+      "citation_reasoning": "Citation 1, section 8, explicitly states that a change of ownership or sale requires prior notice and the company's consent, and that the insurance expires upon transfer of proprietary ownership. This directly and completely supports the ground-truth answer.",
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer includes all core facts from the ground truth (notification, consent, policy expiry upon transfer of ownership) and adds supplementary procedural details from the English policy that do not contradict the ground truth.",
+      "judge_cost_usd": 0.0014164999999999998
+    },
+    {
+      "id": "dev2-28-business-medium",
+      "domain": "business",
+      "difficulty": "medium",
+      "question": "יש לי ביטוח ימי לליאכטה. אם בזמן שיט ייגרם נזק גוף לבן/בת הזוג שלי, האם הפוליסה מכסה את חבותי כלפיהם?",
+      "answer": "לא, הפוליסה אינה מכסה את חבותך כלפי בן/בת הזוג. היא אינה מכסה כל תביעה המתנהלת בין יחידי המבוטח, והבעלים, הסקיפר וצוות ההשטה אינם נחשבים צד ג' לצורך תביעה לפי הפוליסה.",
+      "ground_truth_answer": "לא, אלא אם הוסכם בכתב אחרת. הפוליסה מחריגה חבות בגין נזק שנגרם לאדם שהוא בן זוגו, ילדו, אחיו, הורהו או נכדו של המבוטח.",
+      "latency_ms": 63865.642786026,
+      "citation_score": 1.0,
+      "citation_establishes": "fully",
+      "citation_details": [
+        "resolved business/files/פוליסה_לביטוח_ימי_ליאכטות_וסירות_מבית_שירביט_-_מהדורת_יולי_2016.pdf p.5"
+      ],
+      "citation_reasoning": "The cited page explicitly lists an exclusion for liability for injury to a spouse (סעיף 11: 'נזק שנגרם לאדם שהוא בן זוגו...'), and the opening clause states the exclusion applies 'אלא אם הוסכם בכתב אחרת', directly supporting the ground-truth answer.",
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states that the policy does not cover liability towards the spouse, which aligns with the ground truth. It provides additional context about claims between insured individuals and the status of the owner/skipper/crew, but does not contradict or invent any specific checkable fact absent from the ground truth.",
+      "judge_cost_usd": 0.001246
+    },
+    {
+      "id": "dev2-29-car-hard",
+      "domain": "car",
+      "difficulty": "hard",
+      "question": "יש לי ביטוח רכב הראל סוויץ' וערך הרכב שלי סמוך לנזק הוא 120,000 ₪. נגרמה לרכב ירידת ערך. כמה השתתפות עצמית ינוכה (לפי ברירת המחדל)?",
+      "answer": "לפי ברירת המחדל, ההשתתפות העצמית בגין ירידת ערך היא 1.5% מערך הרכב סמוך לקרות הנזק. על ערך של 120,000 ₪, הסכום שינוכה הוא 1,800 ₪.",
+      "ground_truth_answer": "1,800 ₪. בנזק של ירידת ערך מנוכה סכום של 1.5% מערך הרכב כפי שהוא בסמוך לקרות הנזק (אלא אם נבחרה השתתפות עצמית אחרת ונרשמה בדף הרשימה): 1.5% × 120,000 = 1,800 ₪.",
+      "latency_ms": 59265.16556739807,
+      "citation_score": 1.0,
+      "citation_establishes": "fully",
+      "citation_details": [
+        "resolved car/files/פוליסת-ביטוח-רכב-הראל-סוויץ-מהדורת-דצמבר-2021.pdf p.28"
+      ],
+      "citation_reasoning": "Citation 1 (page 28, section 34.1) explicitly states that for a loss of value (ירידת ערך), the deductible is 1.5% of the vehicle's value near the time of the loss, which directly supports the ground-truth calculation of 1,800 ₪ for a 120,000 ₪ vehicle.",
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states the default deductible percentage (1.5%) and calculates the exact amount (1,800 ₪) based on the given vehicle value, matching the ground truth exactly.",
+      "judge_cost_usd": 0.0014095
+    },
+    {
+      "id": "dev2-30-car-medium",
+      "domain": "car",
+      "difficulty": "medium",
+      "question": "הרכב שלי בן שנה ואני מבוטח בהראל סוויץ'. האם קיימת הרחבה של תוספת שווי לרכב, ועד כמה?",
+      "answer": "כן, בפוליסת הראל סוויץ' קיימת הרחבה של תוספת שווי הרכב עד 10% לרכב שגילו עד שנתיים. לרכב בן שנה, אם לא ניתן לרכוש רכב חדש זהה מהיבואן, התוספת תהיה 10% ממחיר השוק של הרכב.",
+      "ground_truth_answer": "כן. במסגרת הכיסויים הנוספים (פרק ג') ניתן לרכוש, תמורת דמי ביטוח נוספים, תוספת שווי רכב של עד 10%, לרכב שגילו עד שנתיים.",
+      "latency_ms": 64920.29881477356,
+      "citation_score": 1.0,
+      "citation_establishes": "fully",
+      "citation_details": [
+        "resolved car/files/פוליסת-ביטוח-רכב-הראל-סוויץ-מהדורת-דצמבר-2021.pdf p.25"
+      ],
+      "citation_reasoning": "הציטוט מאשר במפורש את קיומה של תוספת שווי רכב של עד 10% לרכב שגילו עד שנתיים, כפי שמצוין בשאלה ובתשובה.",
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "The model answer correctly states the existence of the extension and the 10% limit for vehicles up to two years old, matching the ground truth. The additional detail about the 10% being from market price when a new identical car is unavailable is not in the ground truth but does not contradict it and is a plausible elaboration, not a hallucination.",
+      "judge_cost_usd": 0.0010225
+    },
+    {
+      "id": "dev2-31-car-medium",
+      "domain": "car",
+      "difficulty": "medium",
+      "question": "פגעתי באוטו גלידה ויש לי פוליסת הראל סוויץ'. האם הביטוח יכסה את אובדן ההכנסות שלו ממכירת גלידות?",
+      "answer": "לא. פוליסת הראל סוויץ' לרכב אינה מכסה נזקים תוצאתיים כמו אובדן הכנסות של הצד השלישי. הפוליסה מכסה רק אבדן או נזק שנגרם לרכב המבוטח עצמו כתוצאה מהסיכונים המפורטים בה, כגון התנגשות.",
+      "ground_truth_answer": "כן, בהנחה שאוטו הגלידה הוא רכב מסחרי בבעלות הצד השלישי המשמש לעסקו. במקרה כזה פרק ב' (אחריות כלפי צד שלישי בשל נזקי רכוש) כולל גם פיצוי בגין אבדן רווחים בזמן השבתת הרכב לצורך תיקונו.",
+      "latency_ms": 70883.99815559387,
+      "citation_score": 0.0,
+      "citation_establishes": "not_at_all",
+      "citation_details": [
+        "resolved car/files/פוליסת-ביטוח-רכב-הראל-סוויץ-מהדורת-דצמבר-2021.pdf p.13"
+      ],
+      "citation_reasoning": "הציטוט עוסק אך ורק בפרק א' של הפוליסה (ביטוח הרכב של המבוטח) ומפרט כיסויים לנזק לרכב עצמו, אך אינו מזכיר כלל את פרק ב' (אחריות כלפי צד שלישי) או כיסוי לאובדן הכנסות של צד שלישי, שהם העובדות הנדרשות לתשובה.",
+      "relevant": false,
+      "hallucination": true,
+      "refusal": false,
+      "judge_reasoning": "The model answer explicitly states that the policy does not cover consequential losses like the third party's loss of income, which directly contradicts the ground truth that such coverage is included under Chapter B for commercial vehicles. This is a specific, checkable fact that is false.",
+      "judge_cost_usd": 0.0013375
+    },
+    {
+      "id": "dev2-32-health-medium",
+      "domain": "health",
+      "difficulty": "medium",
+      "question": "הצטרפתי לביטוח השתלות וטיפולים מיוחדים בחו\"ל של הראל. כמה זמן מתחילת הביטוח עליי להמתין עד שאוכל לתבוע?",
+      "answer": "לאחר תחילת הביטוח עליך להמתין 90 יום עד שתוכל לתבוע ולקבל תגמול.",
+      "ground_truth_answer": "תקופת האכשרה היא כ-90 יום ממועד תחילת הביטוח. אם קורה מקרה ביטוח במהלך תקופת האכשרה, המבוטח (או המוטב) לא יהיה זכאי לתגמולי ביטוח.",
+      "latency_ms": 57007.36880302429,
+      "citation_score": 1.0,
+      "citation_establishes": "fully",
+      "citation_details": [
+        "resolved health/files/תנאי-פוליסת-השתלות-וטיפולים-מיוחדים-בחול-2.pdf p.5"
+      ],
+      "citation_reasoning": "The cited page explicitly states that the waiting period (תקופת אכשרה) is 90 days from the start of insurance and that no benefits are payable for an event occurring during this period, which fully matches the ground-truth answer.",
+      "relevant": true,
+      "hallucination": false,
+      "refusal": false,
+      "judge_reasoning": "המודל ציין 90 ימי המתנה, בדיוק כמו תשובת המקור, ולכן עונה על עובדת הליבה הנדרשת.",
+      "judge_cost_usd": 0.001108
+    }
+  ]
+}

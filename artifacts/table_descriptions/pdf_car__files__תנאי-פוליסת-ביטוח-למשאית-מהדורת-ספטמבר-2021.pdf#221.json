@@ -2,23 +2,23 @@
   "id": "pdf:car/files/תנאי-פוליסת-ביטוח-למשאית-מהדורת-ספטמבר-2021.pdf#221",
   "source": "llm",
   "description": {
-    "title": "הערכת נזק",
-    "summary": "This table outlines the process for damage assessment and repair cost estimation for vehicles, specifically regarding disputes between initial estimates and counter-estimates. It details the rights to appeal and the conditions for doing so.",
-    "embed_passage": "פוליסת ביטוח רכב של הראל מתארת את תהליך הערכת הנזק לרכב לאחר תאונה. במקרה של מחלוקת על הצעת התיקון או השומה, ניתן לערער בפני שמאי מכריע. לדוגמה, אם השומה של שמאי החוץ היא 10000 ₪, וההצעה הנגדית היא 8000 ₪, ניתן לפנות לשמאי מכריע.",
-    "row_axis": "stages/conditions in the damage assessment dispute process",
-    "column_axis": "rights/obligations of parties involved (policyholder, third party, Harel)",
+    "title": "תנאי פוליסת ביטוח למשאית",
+    "summary": "This table outlines the conditions for a truck insurance policy, specifically regarding damage assessment and repair estimates. It details the process for appealing repair proposals or damage assessments by external appraisers.",
+    "embed_passage": "טבלה זו מתארת את תנאי פוליסת ביטוח למשאית, בדגש על הערכת נזקים והצעות לתיקון. ניתן לערער על הצעת התיקון או השומה של שמאי חיצוני בפני שמאי מכריע, בתנאי שתוגש הצעת תיקון נגדית או שומה נגדית. הראל והשמאי ישמרו את כל החומר הנוגע להערכת הנזק למשך שלוש שנים לפחות. הראל מאפשרת לבחור שמאי אחר, אך תאפשר לשמאי מטעם הראל לבדוק את הרכב טרם תיקונו. ניתן לערער על השומה של שמאי החוץ רק על עניינים שלא נקבעו בהצעת התיקון, או על עניינים ששונו בשומה, או על עניינים שיכלו להתברר במהלך תיקון הרכב.",
+    "row_axis": "Appeal conditions / Dispute resolution steps",
+    "column_axis": "Policy stipulations regarding appraisal and repair",
     "units": [],
     "notable_values": [
-      "appeal timeframe: שבוע",
-      "dispute resolution: שמאי מכריע",
-      "cost coverage: הראל תישא במלוא עלות שכר הטרחה"
+      "שלוש שנים: minimum document retention period",
+      "יום עבודה אחד: deadline for Harel to respond to external appraiser's proposal",
+      "שבוע: deadline for submitting a counter-estimate or appraisal",
+      "שמאי מכריע: the neutral appraiser for dispute resolution"
     ],
     "product_hints": [
-      "ביטוח רכב",
-      "הראל"
+      "ביטוח למשאית"
     ]
   },
   "sketch": ". אתה או ניזוק צד ג' רשאים לערער על הצעת התיקון או על השומה של שמאי החוץ בפני 13 , שמאי מכריע, ובלבד שתציגו הצעת תיקון נגדית ותודיעו על רצונכם לערער לפני תיקון הרכב או תציגו שומה נגדית לא יאוחר משבוע לאחר שנמסרה לכם השומה של שמאי החוץ.\n. בערעור על השומה של שמאי החוץ בפני שמאי מכריע ניתן לערער רק על אותם עניינים 14 שלא נקבעו בהצעת התיקון, על אותם עניינים שנכללו בהצעת התיקון אך שונו בשומה, או על אותם עניינים שיכלו להתברר במהלך תיקון הרכב בלבד.",
-  "embed_text": "פוליסת ביטוח רכב של הראל מתארת את תהליך הערכת הנזק לרכב לאחר תאונה. במקרה של מחלוקת על הצעת התיקון או השומה, ניתן לערער בפני שמאי מכריע. לדוגמה, אם השומה של שמאי החוץ היא 10000 ₪, וההצעה הנגדית היא 8000 ₪, ניתן לפנות לשמאי מכריע.",
-  "payload": "טבלה: הערכת נזק\nThis table outlines the process for damage assessment and repair cost estimation for vehicles, specifically regarding disputes between initial estimates and counter-estimates. It details the rights to appeal and the conditions for doing so.\nממדים: stages/conditions in the damage assessment dispute process, rights/obligations of parties involved (policyholder, third party, Harel)\n\n. אתה או ניזוק צד ג' רשאים לערער על הצעת התיקון או על השומה של שמאי החוץ בפני 13 , שמאי מכריע, ובלבד שתציגו הצעת תיקון נגדית ותודיעו על רצונכם לערער לפני תיקון הרכב או תציגו שומה נגדית לא יאוחר משבוע לאחר שנמסרה לכם השומה של שמאי החוץ.\n. בערעור על השומה של שמאי החוץ בפני שמאי מכריע ניתן לערער רק על אותם עניינים 14 שלא נקבעו בהצעת התיקון, על אותם עניינים שנכללו בהצעת התיקון אך שונו בשומה, או על אותם עניינים שיכלו להתברר במהלך תיקון הרכב בלבד."
+  "embed_text": "טבלה זו מתארת את תנאי פוליסת ביטוח למשאית, בדגש על הערכת נזקים והצעות לתיקון. ניתן לערער על הצעת התיקון או השומה של שמאי חיצוני בפני שמאי מכריע, בתנאי שתוגש הצעת תיקון נגדית או שומה נגדית. הראל והשמאי ישמרו את כל החומר הנוגע להערכת הנזק למשך שלוש שנים לפחות. הראל מאפשרת לבחור שמאי אחר, אך תאפשר לשמאי מטעם הראל לבדוק את הרכב טרם תיקונו. ניתן לערער על השומה של שמאי החוץ רק על עניינים שלא נקבעו בהצעת התיקון, או על עניינים ששונו בשומה, או על עניינים שיכלו להתברר במהלך תיקון הרכב. This table outlines the conditions for a truck insurance policy, specifically regarding damage assessment and repair estimates. It details the process for appealing repair proposals or damage assessments by external appraisers. בין הערכים בטבלה: יום עבודה אחד: deadline for Harel to respond to external appraiser's pro…",
+  "payload": "טבלה: תנאי פוליסת ביטוח למשאית\nThis table outlines the conditions for a truck insurance policy, specifically regarding damage assessment and repair estimates. It details the process for appealing repair proposals or damage assessments by external appraisers.\nממדים: Appeal conditions / Dispute resolution steps, Policy stipulations regarding appraisal and repair\n\n. אתה או ניזוק צד ג' רשאים לערער על הצעת התיקון או על השומה של שמאי החוץ בפני 13 , שמאי מכריע, ובלבד שתציגו הצעת תיקון נגדית ותודיעו על רצונכם לערער לפני תיקון הרכב או תציגו שומה נגדית לא יאוחר משבוע לאחר שנמסרה לכם השומה של שמאי החוץ.\n. בערעור על השומה של שמאי החוץ בפני שמאי מכריע ניתן לערער רק על אותם עניינים 14 שלא נקבעו בהצעת התיקון, על אותם עניינים שנכללו בהצעת התיקון אך שונו בשומה, או על אותם עניינים שיכלו להתברר במהלך תיקון הרכב בלבד."
 }

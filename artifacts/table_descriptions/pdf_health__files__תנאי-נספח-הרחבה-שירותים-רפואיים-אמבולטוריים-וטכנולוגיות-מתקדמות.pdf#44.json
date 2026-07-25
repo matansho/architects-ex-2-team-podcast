@@ -3,20 +3,22 @@
   "source": "llm",
   "description": {
     "title": "תנאי ביטוח - ייעוץ ובדיקות",
-    "summary": "This table outlines the terms of insurance for consultations and tests. It details conditions for a plan, specifically section 10, and provides information on the insurance period.",
-    "embed_passage": "פוליסת הביטוח מתחדשת כל שנתיים כמפורט בסעיף 10 לתכנית. הפוליסה מכסה ייעוץ רפואי ואבחון, בדיקות הריון ובדיקות אבחנתיות. החברה משתתפת בהוצאות עבור מומחים ברשת בהסדר.",
+    "summary": "This table outlines the terms of insurance for consultations and tests. It details conditions for plan 10, specifying the insurance period and coverage for medical opinions and diagnostic tests.",
+    "embed_passage": "טבלה זו מתארת את תנאי הביטוח לייעוץ ובדיקות רפואיות, כפי שמפורט בתכנית 10. ניתן למצוא בה מידע על תקופת הביטוח ועל השתתפות החברה בהוצאות עבור חוות דעת רפואית, בדיקות הריון ובדיקות אבחנתיות. טבלה זו רלוונטית לכל מי שמחפש מידע על תנאי ביטוח רפואי. הפוליסה פרטי תמצית..אמבולטורי, הפוליסה פרטי תמצית.ובדיקות.אמבולטורי, הפוליסה פרטי תמצית.הביטוח שם, הפוליסה פרטי תמצית.הביטוח סוג, כלליים תנאים לתכנית 10, תקופת הביטוח.",
     "row_axis": "Insurance policy details",
-    "column_axis": "Policy details, conditions, insurance type, insurance period",
+    "column_axis": "Policy details summary, Ambulatory, Insurance name, Insurance type, General conditions for plan 10, Insurance period",
     "units": [],
     "notable_values": [
-      "insurance period: שנתיים",
-      "section: 10"
+      "Plan: 10",
+      "Insurance period: annual",
+      "Coverage: medical opinion and diagnosis",
+      "Tests: pregnancy tests, diagnostic tests"
     ],
     "product_hints": [
-      "פוליסת ביטוח"
+      "תכנית 10"
     ]
   },
   "sketch": "הפוליסה פרטי תמצית..אמבולטורי,הפוליסה פרטי תמצית..אמבולטורי,הפוליסה פרטי תמצית.ובדיקות.אמבולטורי,הפוליסה פרטי תמצית.הביטוח שם.הביטוח סוג\nכלליים תנאים לתכנית 10 בסעיף כמפורט שנתיים כל מתחדשת,כלליים תנאים לתכנית 10 בסעיף כמפורט שנתיים כל מתחדשת,כלליים תנאים לתכנית 10 בסעיף כמפורט שנתיים כל מתחדשת,הביטוח תקופת\n\"חוות לקבלת רפואית, בעיה עקב הנזקק מבוטח בפועל נשא בהן בהוצאות ת השתתפו עם שבהסדר מומחים ברשת מסויימים במקרים יינתן רפואי )ייעוץ רפואית דעת ואבחון. מניעה בדיקות היריון, בדיקות אבחנתיות, בדיקות ,( החברה\",\"חוות לקבלת רפואית, בעיה עקב הנזקק מבוטח בפועל נשא בהן בהוצאות ת השתתפו עם שבהסדר מומחים ברשת מסויימים במקרים יינתן רפואי )ייעוץ רפואית דעת ואבחון. מניעה בדיקות היריון, בדיקות אבחנתיות, בדיקות ,( החברה\",\"חוות לקבלת רפואית, בעיה ע",
-  "embed_text": "פוליסת הביטוח מתחדשת כל שנתיים כמפורט בסעיף 10 לתכנית. הפוליסה מכסה ייעוץ רפואי ואבחון, בדיקות הריון ובדיקות אבחנתיות. החברה משתתפת בהוצאות עבור מומחים ברשת בהסדר.",
-  "payload": "טבלה: תנאי ביטוח - ייעוץ ובדיקות\nThis table outlines the terms of insurance for consultations and tests. It details conditions for a plan, specifically section 10, and provides information on the insurance period.\nממדים: Insurance policy details, Policy details, conditions, insurance type, insurance period\n\nהפוליסה פרטי תמצית..אמבולטורי,הפוליסה פרטי תמצית..אמבולטורי,הפוליסה פרטי תמצית.ובדיקות.אמבולטורי,הפוליסה פרטי תמצית.הביטוח שם.הביטוח סוג\nכלליים תנאים לתכנית 10 בסעיף כמפורט שנתיים כל מתחדשת,כלליים תנאים לתכנית 10 בסעיף כמפורט שנתיים כל מתחדשת,כלליים תנאים לתכנית 10 בסעיף כמפורט שנתיים כל מתחדשת,הביטוח תקופת\n\"חוות לקבלת רפואית, בעיה עקב הנזקק מבוטח בפועל נשא בהן בהוצאות ת השתתפו עם שבהסדר מומחים ברשת מסויימים במקרים יינתן רפואי )ייעוץ רפואית דעת ואבחון. מניעה בדיקות היריון, בדיקות אבחנתיות, בדיקות ,( החברה\",\"חוות לקבלת רפואית, בעיה עקב הנזקק מבוטח בפועל נשא בהן בהוצאות ת השתתפו עם שבהסדר מומחים ברשת מסויימים במקרים יינתן רפואי )ייעוץ רפואית דעת ואבחון. מניעה בדיקות היריון, בדיקות אבחנתיות, בדיקות ,( החברה\",\"חוות לקבלת רפואית, בעיה ע"
+  "embed_text": "טבלה זו מתארת את תנאי הביטוח לייעוץ ובדיקות רפואיות, כפי שמפורט בתכנית 10. ניתן למצוא בה מידע על תקופת הביטוח ועל השתתפות החברה בהוצאות עבור חוות דעת רפואית, בדיקות הריון ובדיקות אבחנתיות. טבלה זו רלוונטית לכל מי שמחפש מידע על תנאי ביטוח רפואי. הפוליסה פרטי תמצית..אמבולטורי, הפוליסה פרטי תמצית.ובדיקות.אמבולטורי, הפוליסה פרטי תמצית.הביטוח שם, הפוליסה פרטי תמצית.הביטוח סוג, כלליים תנאים לתכנית 10, תקופת הביטוח. This table outlines the terms of insurance for consultations and tests. It details conditions for plan 10, specifying the insurance period and coverage for medical opinions and diagnostic tests. בין הערכים בטבלה: Insurance period: annual; Coverage: medical opinion and diagnosis; Tests: pregnancy tests, diagnostic tests.",
+  "payload": "טבלה: תנאי ביטוח - ייעוץ ובדיקות\nThis table outlines the terms of insurance for consultations and tests. It details conditions for plan 10, specifying the insurance period and coverage for medical opinions and diagnostic tests.\nממדים: Insurance policy details, Policy details summary, Ambulatory, Insurance name, Insurance type, General conditions for plan 10, Insurance period\n\nהפוליסה פרטי תמצית..אמבולטורי,הפוליסה פרטי תמצית..אמבולטורי,הפוליסה פרטי תמצית.ובדיקות.אמבולטורי,הפוליסה פרטי תמצית.הביטוח שם.הביטוח סוג\nכלליים תנאים לתכנית 10 בסעיף כמפורט שנתיים כל מתחדשת,כלליים תנאים לתכנית 10 בסעיף כמפורט שנתיים כל מתחדשת,כלליים תנאים לתכנית 10 בסעיף כמפורט שנתיים כל מתחדשת,הביטוח תקופת\n\"חוות לקבלת רפואית, בעיה עקב הנזקק מבוטח בפועל נשא בהן בהוצאות ת השתתפו עם שבהסדר מומחים ברשת מסויימים במקרים יינתן רפואי )ייעוץ רפואית דעת ואבחון. מניעה בדיקות היריון, בדיקות אבחנתיות, בדיקות ,( החברה\",\"חוות לקבלת רפואית, בעיה עקב הנזקק מבוטח בפועל נשא בהן בהוצאות ת השתתפו עם שבהסדר מומחים ברשת מסויימים במקרים יינתן רפואי )ייעוץ רפואית דעת ואבחון. מניעה בדיקות היריון, בדיקות אבחנתיות, בדיקות ,( החברה\",\"חוות לקבלת רפואית, בעיה ע"
 }

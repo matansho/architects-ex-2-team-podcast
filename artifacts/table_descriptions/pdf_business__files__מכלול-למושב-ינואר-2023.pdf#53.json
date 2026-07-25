@@ -2,22 +2,25 @@
   "id": "pdf:business/files/מכלול-למושב-ינואר-2023.pdf#53",
   "source": "llm",
   "description": {
-    "title": "הרחבות לפוליסה",
-    "summary": "This table details policy extensions for various coverage types. It outlines additional coverages available beyond the standard policy, such as debris removal and architect fees.",
-    "embed_passage": "פוליסת 'מכלול' מציעה הרחבות לכיסויים שונים, כגון פינוי הריסות, שכר אדריכלים ורכוש בהקמה. הרחבה עבור רכוש בהקמה מכסה עבודות עד לשווי של 300,000 ₪, ומתייחסת לנזקים שנגרמו כתוצאה מסיכונים מבוטחים בתחום המשק.",
-    "row_axis": "type of policy extension",
-    "column_axis": "description of coverage",
+    "title": "הרחבות מיוחדות",
+    "summary": "This table details special extensions to an insurance policy, specifically covering necessary and reasonable expenses related to property damage and reconstruction. It outlines coverage for debris removal, architect fees, and property temporarily located outside the insured area.",
+    "embed_passage": "טבלה זו מתארת הרחבות מיוחדות לפוליסת ביטוח, המתייחסות להוצאות הכרחיות וסבירות הקשורות לנזק לרכוש ולשיקומו. הרחבות אלו חלות בכפוף לתנאים הכלליים של הפוליסה, ונועדו לכסות מקרים כגון פינוי הריסות, שכר אדריכלים ורכוש הנמצא באופן זמני מחוץ לתחום המושב. ניתן לעיין בהרחבות עבור פינוי הריסות, שכר אדריכלים, רכוש מחוץ לתחום המושב, ורכוש בהקמה עד לשווי ₪ 300,000. הרחבות אלו אינן חלות על רכוש המבוטח תחת פוליסה לביטוח עבודות קבלניות.",
+    "row_axis": "type of extension to the insurance policy",
+    "column_axis": "description of coverage and conditions",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "רכוש בהקמה: 300,000 ₪"
+      "פינוי הריסות: covered expenses",
+      "שכר אדריכלים: covered expenses",
+      "רכוש בהקמה: ₪ 300,000",
+      "רכוש מחוץ לתחום המושב: temporary location coverage"
     ],
     "product_hints": [
-      "מכלול"
+      "מכלול למושב"
     ]
   },
   "sketch": "פינוי הריסות .5.2\nפרק זה מורחב לכסות הוצאות הכרחיות וסבירות, אשר הוצאו על ידי המבוטח בגין ניקוי, הריסה, יישור ופינוי הריסות של רכוש המבוטח, בעקבות מקרה ביטוח המכוסה על פי פרק זה, לרבות נזק הנגרם עקב פעולות אלה;\nשכר אדריכלים .5.3\nפרק זה מורחב לכסות הוצאות הכרחיות וסבירות אשר הוצאו על ידי המבוטח בגין תוכניות, שרטוטים, תכנון ופיקוח של אדריכלים ומהנדסים לשם תיקון או החלפה של הרכוש המבוטח בעקבות מקרה ביטוח המכוסה על פי פרק זה;",
-  "embed_text": "פוליסת 'מכלול' מציעה הרחבות לכיסויים שונים, כגון פינוי הריסות, שכר אדריכלים ורכוש בהקמה. הרחבה עבור רכוש בהקמה מכסה עבודות עד לשווי של 300,000 ₪, ומתייחסת לנזקים שנגרמו כתוצאה מסיכונים מבוטחים בתחום המשק.",
-  "payload": "טבלה: הרחבות לפוליסה\nThis table details policy extensions for various coverage types. It outlines additional coverages available beyond the standard policy, such as debris removal and architect fees.\nממדים: type of policy extension, description of coverage\n\nפינוי הריסות .5.2\nפרק זה מורחב לכסות הוצאות הכרחיות וסבירות, אשר הוצאו על ידי המבוטח בגין ניקוי, הריסה, יישור ופינוי הריסות של רכוש המבוטח, בעקבות מקרה ביטוח המכוסה על פי פרק זה, לרבות נזק הנגרם עקב פעולות אלה;\nשכר אדריכלים .5.3\nפרק זה מורחב לכסות הוצאות הכרחיות וסבירות אשר הוצאו על ידי המבוטח בגין תוכניות, שרטוטים, תכנון ופיקוח של אדריכלים ומהנדסים לשם תיקון או החלפה של הרכוש המבוטח בעקבות מקרה ביטוח המכוסה על פי פרק זה;"
+  "embed_text": "טבלה זו מתארת הרחבות מיוחדות לפוליסת ביטוח, המתייחסות להוצאות הכרחיות וסבירות הקשורות לנזק לרכוש ולשיקומו. הרחבות אלו חלות בכפוף לתנאים הכלליים של הפוליסה, ונועדו לכסות מקרים כגון פינוי הריסות, שכר אדריכלים ורכוש הנמצא באופן זמני מחוץ לתחום המושב. ניתן לעיין בהרחבות עבור פינוי הריסות, שכר אדריכלים, רכוש מחוץ לתחום המושב, ורכוש בהקמה עד לשווי ₪ 300,000. הרחבות אלו אינן חלות על רכוש המבוטח תחת פוליסה לביטוח עבודות קבלניות. This table details special extensions to an insurance policy, specifically covering necessary and reasonable expenses related to property damage and reconstruction. It outlines coverage for debris removal, architect fees, and property temporarily located outside the insured area.",
+  "payload": "טבלה: הרחבות מיוחדות\nThis table details special extensions to an insurance policy, specifically covering necessary and reasonable expenses related to property damage and reconstruction. It outlines coverage for debris removal, architect fees, and property temporarily located outside the insured area.\nממדים: type of extension to the insurance policy, description of coverage and conditions\n\nפינוי הריסות .5.2\nפרק זה מורחב לכסות הוצאות הכרחיות וסבירות, אשר הוצאו על ידי המבוטח בגין ניקוי, הריסה, יישור ופינוי הריסות של רכוש המבוטח, בעקבות מקרה ביטוח המכוסה על פי פרק זה, לרבות נזק הנגרם עקב פעולות אלה;\nשכר אדריכלים .5.3\nפרק זה מורחב לכסות הוצאות הכרחיות וסבירות אשר הוצאו על ידי המבוטח בגין תוכניות, שרטוטים, תכנון ופיקוח של אדריכלים ומהנדסים לשם תיקון או החלפה של הרכוש המבוטח בעקבות מקרה ביטוח המכוסה על פי פרק זה;"
 }

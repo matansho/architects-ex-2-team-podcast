@@ -2,27 +2,25 @@
   "id": "pdf:business/files/תנאי-פוליסה-ביטוח-מכלול-למשרד-מהדורת-ינואר-2024.pdf#150",
   "source": "llm",
   "description": {
-    "title": "הרחבות לפרק שני - כספים",
-    "summary": "This table details extensions to section two of the 'Mekhalel' insurance policy, specifically regarding cash coverage in the insured's office. It outlines conditions and limits for covering cash during various activities like being in the office, during counting, and in transit.",
-    "embed_passage": "פוליסת ביטוח מכלול מציעה הרחבות לכיסוי כספים במשרד המבוטח, כולל כיסוי כנגד שוד, התפוצצות ואש. הכיסוי מוגבל לסכום ביטוח של עד 25% מסכום הביטוח הכללי לכספים, וחל רק בשעות העבודה. הרחבות אלו חלות בכפוף לתנאים הכלליים של הפוליסה.",
-    "row_axis": "types of cash coverage extensions (e.g., cash in office, cash in transit)",
-    "column_axis": "conditions, limits, and covered risks",
-    "units": [
-      "%"
-    ],
+    "title": "הרחבות לפרק שני",
+    "summary": "This table details extensions to section two of the 'Mekhalel' insurance policy, specifically regarding coverage for funds at the insured's office. It outlines conditions and limits for covering funds during various activities like being in the office, during counting, and in transit.",
+    "embed_passage": "טבלה זו מתארת הרחבות לפרק שני של פוליסת הביטוח 'מכלול', המתייחסות במיוחד לכיסוי כספים במשרד המבוטח. הפוליסה מפרטת תנאים ומגבלות לכיסוי כספים בפעילויות שונות, כגון אחסון במשרד, ספירה והעברה. ניתן לבדוק את הכיסויים הנוספים עבור כספים במשרד, בעת ספירתם והכנתם להעברה, וכספים בהעברה, תוך התייחסות לגובה מסכום הביטוח שנקבע ברשימה. הרחבות אלו חלות בכפוף למבוא, להגדרות, לסייגים ולתנאים הכלליים בפוליסה. הכיסויים כוללים שוד, התפוצצות, אש ואבדן או נזק לכספת עצמה. מכלול, כספים במשרד, כספים בהעברה, מסכום ביטוח, שוד, התפוצצות, אש.",
+    "row_axis": "הרחבות לפרק שני (extensions to section two)",
+    "column_axis": "תיאור הכיסוי (coverage description), תנאים (conditions), מגבלות (limits)",
+    "units": [],
     "notable_values": [
-      "הרחבה: כספים במשרד",
-      "אחריות המבטח: 25%",
-      "כיסוי: אש, התפוצצות, שוד",
-      "שעות עבודה בלבד",
-      "הרחבה: כספים בהעברה"
+      "כספים במשרד: כיסוי כנגד אש, התפוצצות ושוד",
+      "כספים בעת ספירה: כיסוי כנגד שוד",
+      "כספים בהעברה: כיסוי בעת העברה על ידי המבוטח או עובדיו",
+      "אחריות המבטח (כספים במשרד): לא תעלה על 25% מסכום הביטוח",
+      "אחריות המבטח (כספים): לא תעלה על 25% מסכום הביטוח",
+      "אחריות המבטח (אבדן/נזק לכספת): לא תעלה על 10% מסכום הביטוח"
     ],
     "product_hints": [
-      "מכלול",
-      "ביטוח מכלול"
+      "מכלול"
     ]
   },
   "sketch": ".5.3.3 הרחבות לפרק שני\nההרחבות המפורטות להלן תחולנה בכפוף למבוא, להגדרות, לסייגים ולתנאים הכלליים בפוליסה ובפרק זה, ביחס לכספים המבוטחים.\n.5.3.3.1 כספים במשרד המבוטח\n.5.3.3.1.1 הביטוח על פי פרק זה מורחב לכסות את כספי המשרד הנמצאים בהשגחה מתמדת, במגירה או בקופה רושמת, במשרד, בשעות העבודה בלבד, כנגד סיכוני אש, התפוצצות ושוד בלבד.\nאחריות המבטח על פי כיסוי נוסף זה לא תעלה על מסכום הביטוח שנקבע ברשימה לגבי ביטוח 25% כספים בכספת.\n.5.3.3.1.2 הביטוח על פי פרק זה מורחב לכסות\nאת כספי המשרד בעת ספירת הכספים והכנתם לקראת העברה מן המשרד ממקום למקום. הכיסוי על פי הרחבה זו הינו כנגד מעשה שוד בלבד ובמשך שעות העבודה בלבד. אחריות המבטח על פי הרחבה זו לא תעלה על\nסכום הביטוח שנקבע ברשימה לגבי ביטוח כספים.",
-  "embed_text": "פוליסת ביטוח מכלול מציעה הרחבות לכיסוי כספים במשרד המבוטח, כולל כיסוי כנגד שוד, התפוצצות ואש. הכיסוי מוגבל לסכום ביטוח של עד 25% מסכום הביטוח הכללי לכספים, וחל רק בשעות העבודה. הרחבות אלו חלות בכפוף לתנאים הכלליים של הפוליסה.",
-  "payload": "טבלה: הרחבות לפרק שני - כספים\nThis table details extensions to section two of the 'Mekhalel' insurance policy, specifically regarding cash coverage in the insured's office. It outlines conditions and limits for covering cash during various activities like being in the office, during counting, and in transit.\nממדים: types of cash coverage extensions (e.g., cash in office, cash in transit), conditions, limits, and covered risks\n\n.5.3.3 הרחבות לפרק שני\nההרחבות המפורטות להלן תחולנה בכפוף למבוא, להגדרות, לסייגים ולתנאים הכלליים בפוליסה ובפרק זה, ביחס לכספים המבוטחים.\n.5.3.3.1 כספים במשרד המבוטח\n.5.3.3.1.1 הביטוח על פי פרק זה מורחב לכסות את כספי המשרד הנמצאים בהשגחה מתמדת, במגירה או בקופה רושמת, במשרד, בשעות העבודה בלבד, כנגד סיכוני אש, התפוצצות ושוד בלבד.\nאחריות המבטח על פי כיסוי נוסף זה לא תעלה על מסכום הביטוח שנקבע ברשימה לגבי ביטוח 25% כספים בכספת.\n.5.3.3.1.2 הביטוח על פי פרק זה מורחב לכסות\nאת כספי המשרד בעת ספירת הכספים והכנתם לקראת העברה מן המשרד ממקום למקום. הכיסוי על פי הרחבה זו הינו כנגד מעשה שוד בלבד ובמשך שעות העבודה בלבד. אחריות המבטח על פי הרחבה זו לא תעלה על\nסכום הביטוח שנקבע ברשימה לגבי ביטוח כספים."
+  "embed_text": "טבלה זו מתארת הרחבות לפרק שני של פוליסת הביטוח 'מכלול', המתייחסות במיוחד לכיסוי כספים במשרד המבוטח. הפוליסה מפרטת תנאים ומגבלות לכיסוי כספים בפעילויות שונות, כגון אחסון במשרד, ספירה והעברה. ניתן לבדוק את הכיסויים הנוספים עבור כספים במשרד, בעת ספירתם והכנתם להעברה, וכספים בהעברה, תוך התייחסות לגובה מסכום הביטוח שנקבע ברשימה. הרחבות אלו חלות בכפוף למבוא, להגדרות, לסייגים ולתנאים הכלליים בפוליסה. הכיסויים כוללים שוד, התפוצצות, אש ואבדן או נזק לכספת עצמה. מכלול, כספים במשרד, כספים בהעברה, מסכום ביטוח, שוד, התפוצצות, אש. This table details extensions to section two of the 'Mekhalel' insurance policy, specifically regarding coverage for funds at the insured's office. It outlines conditions and limits for covering funds during various activities like being in the office, during counting, and in…",
+  "payload": "טבלה: הרחבות לפרק שני\nThis table details extensions to section two of the 'Mekhalel' insurance policy, specifically regarding coverage for funds at the insured's office. It outlines conditions and limits for covering funds during various activities like being in the office, during counting, and in transit.\nממדים: הרחבות לפרק שני (extensions to section two), תיאור הכיסוי (coverage description), תנאים (conditions), מגבלות (limits)\n\n.5.3.3 הרחבות לפרק שני\nההרחבות המפורטות להלן תחולנה בכפוף למבוא, להגדרות, לסייגים ולתנאים הכלליים בפוליסה ובפרק זה, ביחס לכספים המבוטחים.\n.5.3.3.1 כספים במשרד המבוטח\n.5.3.3.1.1 הביטוח על פי פרק זה מורחב לכסות את כספי המשרד הנמצאים בהשגחה מתמדת, במגירה או בקופה רושמת, במשרד, בשעות העבודה בלבד, כנגד סיכוני אש, התפוצצות ושוד בלבד.\nאחריות המבטח על פי כיסוי נוסף זה לא תעלה על מסכום הביטוח שנקבע ברשימה לגבי ביטוח 25% כספים בכספת.\n.5.3.3.1.2 הביטוח על פי פרק זה מורחב לכסות\nאת כספי המשרד בעת ספירת הכספים והכנתם לקראת העברה מן המשרד ממקום למקום. הכיסוי על פי הרחבה זו הינו כנגד מעשה שוד בלבד ובמשך שעות העבודה בלבד. אחריות המבטח על פי הרחבה זו לא תעלה על\nסכום הביטוח שנקבע ברשימה לגבי ביטוח כספים."
 }

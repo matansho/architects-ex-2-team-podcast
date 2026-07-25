@@ -2,25 +2,24 @@
   "id": "pdf:mortgage/files/טופס-הצעה-לביטוח-חיים-ומבנה-למשכנתה.pdf#61",
   "source": "llm",
   "description": {
-    "title": "הראל ביטוח חיים ומבנה",
-    "summary": "This table outlines key information regarding insurance approval for life and property coverage related to a mortgage. It details conditions for receiving approval for primary and secondary applicants.",
-    "embed_passage": "ביטוח חיים ומבנה של הראל מספק כיסוי מקיף לנכס ולחיים, כאשר גובה הפרמיה משתנה בהתאם לגיל ולסכומי הביטוח. לדוגמה, קבלת אישור לביטוח שני מועמד יכולה להיות 'כן' או 'לא'. התשלום יכול להיות קבוע או משתנה, והפוליסה כוללת חריגות, תקופת אכשרה ותקופת המתנה.",
-    "row_axis": "Applicant status (primary/secondary, approval status)",
-    "column_axis": "Details of insurance approval and policy conditions",
+    "title": "אישור לביטוח",
+    "summary": "This table details information related to insurance approval for primary and secondary applicants. It appears to outline key details needed for insurance coverage, including coverage descriptions and payment conditions.",
+    "embed_passage": "טופס זה מציג מידע מהותי לקבלת אישור לביטוח, הן לביטוח ראשון והן לביטוח שני עבור מועמדים. המידע כולל תיאור הכיסוי העיקרי, סכומי הביטוח, תקופת הגילאים, והחרגות. ניתן למצוא כאן גם פרטים על אמצעי התשלום, מועדי התשלום, ותקופת האכשרה. הראל מציעה אפשרויות לקבלת מידע נוסף בכתב אודות תנאי הפוליסה. מידע קבלת אישור יב.לביטוח שני מועמד.כן, מידע קבלת אישור יב.לביטוח ראשון מועמד.כן, השירות כתב או ההרחבה הכיסוי.",
+    "row_axis": "Applicant approval status (primary/secondary, yes/no)",
+    "column_axis": "Insurance approval details (coverage description, payment terms, exclusions)",
     "units": [],
     "notable_values": [
-      "approval status: כן",
-      "approval status: לא",
-      "coverage type: ביטוח חיים ומבנה",
-      "applicant type: מועמד ראשון",
-      "applicant type: מועמד שני"
+      "ביטוח ראשון מועמד.כן",
+      "ביטוח שני מועמד.כן",
+      "השירות כתב או ההרחבה הכיסוי"
     ],
     "product_hints": [
-      "ביטוח חיים ומבנה",
+      "ביטוח חיים",
+      "ביטוח מבנה",
       "הראל"
     ]
   },
   "sketch": "מהותי מידע קבלת אישור יב.לביטוח שני מועמד.כן,מהותי מידע קבלת אישור יב.לביטוח שני מועמד.לא,מהותי מידע קבלת אישור יב.לביטוח ראשון מועמד.כן,מהותי מידע קבלת אישור יב.לביטוח ראשון מועמד.,מהותי מידע קבלת אישור יב..\n,,,\"השירות כתב או ההרחבה הכיסוי, הוספת ו/או הביטוח לגבי מהותי מידע זה טופס על חתימתך טרם לך נמסר האם פרמיית הביטוחי; הכיסוי עיקרי תיאור את הפחות, לכל כלל, אשר העניין, לפי שברשותך, קיימת ביטוח לפוליסת בכל הפרמיה של ההשתנות פירוט טבלת הוצגה משתנה- ואם משתנה; או קבועה היא האם לרבות הביטוח, האפשריים, התשלום אמצעי פירוט עיקריים; אחריות וגבולות עיקריים ביטוח סכומי הביטוח; תקופת הגילאים; הביטוחי, לכיסוי החרגות המתנה, תקופת אכשרה, תקופת של קיומן על הודעה הגבייה; ומועדי התשלום תנאי פרטים לקבל אפשרותך ואודות ישנם( )אם עצמית השתתפות",
-  "embed_text": "ביטוח חיים ומבנה של הראל מספק כיסוי מקיף לנכס ולחיים, כאשר גובה הפרמיה משתנה בהתאם לגיל ולסכומי הביטוח. לדוגמה, קבלת אישור לביטוח שני מועמד יכולה להיות 'כן' או 'לא'. התשלום יכול להיות קבוע או משתנה, והפוליסה כוללת חריגות, תקופת אכשרה ותקופת המתנה.",
-  "payload": "טבלה: הראל ביטוח חיים ומבנה\nThis table outlines key information regarding insurance approval for life and property coverage related to a mortgage. It details conditions for receiving approval for primary and secondary applicants.\nממדים: Applicant status (primary/secondary, approval status), Details of insurance approval and policy conditions\n\nמהותי מידע קבלת אישור יב.לביטוח שני מועמד.כן,מהותי מידע קבלת אישור יב.לביטוח שני מועמד.לא,מהותי מידע קבלת אישור יב.לביטוח ראשון מועמד.כן,מהותי מידע קבלת אישור יב.לביטוח ראשון מועמד.,מהותי מידע קבלת אישור יב..\n,,,\"השירות כתב או ההרחבה הכיסוי, הוספת ו/או הביטוח לגבי מהותי מידע זה טופס על חתימתך טרם לך נמסר האם פרמיית הביטוחי; הכיסוי עיקרי תיאור את הפחות, לכל כלל, אשר העניין, לפי שברשותך, קיימת ביטוח לפוליסת בכל הפרמיה של ההשתנות פירוט טבלת הוצגה משתנה- ואם משתנה; או קבועה היא האם לרבות הביטוח, האפשריים, התשלום אמצעי פירוט עיקריים; אחריות וגבולות עיקריים ביטוח סכומי הביטוח; תקופת הגילאים; הביטוחי, לכיסוי החרגות המתנה, תקופת אכשרה, תקופת של קיומן על הודעה הגבייה; ומועדי התשלום תנאי פרטים לקבל אפשרותך ואודות ישנם( )אם עצמית השתתפות"
+  "embed_text": "טופס זה מציג מידע מהותי לקבלת אישור לביטוח, הן לביטוח ראשון והן לביטוח שני עבור מועמדים. המידע כולל תיאור הכיסוי העיקרי, סכומי הביטוח, תקופת הגילאים, והחרגות. ניתן למצוא כאן גם פרטים על אמצעי התשלום, מועדי התשלום, ותקופת האכשרה. הראל מציעה אפשרויות לקבלת מידע נוסף בכתב אודות תנאי הפוליסה. מידע קבלת אישור יב.לביטוח שני מועמד.כן, מידע קבלת אישור יב.לביטוח ראשון מועמד.כן, השירות כתב או ההרחבה הכיסוי. This table details information related to insurance approval for primary and secondary applicants. It appears to outline key details needed for insurance coverage, including coverage descriptions and payment conditions.",
+  "payload": "טבלה: אישור לביטוח\nThis table details information related to insurance approval for primary and secondary applicants. It appears to outline key details needed for insurance coverage, including coverage descriptions and payment conditions.\nממדים: Applicant approval status (primary/secondary, yes/no), Insurance approval details (coverage description, payment terms, exclusions)\n\nמהותי מידע קבלת אישור יב.לביטוח שני מועמד.כן,מהותי מידע קבלת אישור יב.לביטוח שני מועמד.לא,מהותי מידע קבלת אישור יב.לביטוח ראשון מועמד.כן,מהותי מידע קבלת אישור יב.לביטוח ראשון מועמד.,מהותי מידע קבלת אישור יב..\n,,,\"השירות כתב או ההרחבה הכיסוי, הוספת ו/או הביטוח לגבי מהותי מידע זה טופס על חתימתך טרם לך נמסר האם פרמיית הביטוחי; הכיסוי עיקרי תיאור את הפחות, לכל כלל, אשר העניין, לפי שברשותך, קיימת ביטוח לפוליסת בכל הפרמיה של ההשתנות פירוט טבלת הוצגה משתנה- ואם משתנה; או קבועה היא האם לרבות הביטוח, האפשריים, התשלום אמצעי פירוט עיקריים; אחריות וגבולות עיקריים ביטוח סכומי הביטוח; תקופת הגילאים; הביטוחי, לכיסוי החרגות המתנה, תקופת אכשרה, תקופת של קיומן על הודעה הגבייה; ומועדי התשלום תנאי פרטים לקבל אפשרותך ואודות ישנם( )אם עצמית השתתפות"
 }

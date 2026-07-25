@@ -2,24 +2,23 @@
   "id": "pdf:personal-accident/files/ביטוח-צלילה-ספורטיבית-14-יום.pdf#18",
   "source": "llm",
   "description": {
-    "title": "ביטוח צלילה ספורטיבית",
-    "summary": "This table outlines conditions related to insurance claims for sports diving. It details scenarios where the insurance company may reduce or deny coverage based on misrepresentation or fraud.",
-    "embed_passage": "פוליסת ביטוח צלילה ספורטיבית מכסה מקרים בהם המבוטח עומד בתנאים המפורטים בפוליסה. לדוגמה, אם התשובה ניתנה בכוונת מרמה, החברה פטורה מתגמולים. במקרה של מצג שווא, ייתכן והמבוטח יהיה זכאי להחזר דמי ביטוח ששילם, בניכוי הוצאות החברה.",
-    "row_axis": "conditions for claim denial/reduction",
-    "column_axis": "details of the condition/consequence",
+    "title": "פוליסת ביטוח צלילה ספורטיבית",
+    "summary": "This table outlines conditions related to insurance claims for sporting dives. It details scenarios where the insurance company may reduce or deny coverage based on misrepresentation or pre-existing conditions.",
+    "embed_passage": "טבלה זו מתייחסת לפוליסת ביטוח צלילה ספורטיבית, ומפרטת תנאים הקשורים לתביעות ביטוח במקרה של צלילה. היא מציגה מצבים בהם חברת הביטוח עשויה להפחית או לשלול כיסוי ביטוחי על סמך מצג שווא או מצבים קיימים מראש. ניתן לחפש מידע על תנאי הפוליסה, תגמולים מופחתים, וסעיפי פטור. הסעיפים העיקריים כוללים מצג שווא, מצב רפואי לא ידוע, והשפעתם על הכיסוי הביטוחי. כמו כן, מצוינים תנאים כמו תעודת צולל תקפה וצלילה בהתאם לתנאי התעודה.",
+    "row_axis": "תנאי פוליסה / מצב",
+    "column_axis": "השלכות / תגמולים",
     "units": [],
     "notable_values": [
-      "3.4: reduced insurance payouts",
-      "3.4.1: response given with intent to defraud",
-      "3.4.2: a reasonable insurer would not have entered the contract",
-      "3.5: insurer is not entitled to remedies",
-      "4.1: diver certified and has a valid certificate"
+      "תגמולי ביטוח מופחתים: שיעור יחסי",
+      "מצב לאמיתו: מבטח סביר לא היה מתקשר",
+      "החזר דמי ביטוח: בניכוי הוצאות החברה",
+      "כוונת מרמה: תשובה שלא ניתנה בכוונת מרמה"
     ],
     "product_hints": [
       "ביטוח צלילה ספורטיבית"
     ]
   },
   "sketch": "קרה מקרה הביטוח לפני שנתבטלה הפוליסה מכוח סעיף זה, אין החברה חייבת אלא .3.4 בתגמולי ביטוח מופחתים בשיעור יחסי, שהוא כיחס שבין דמי הביטוח שהיו משתלמים כמקובל אצלה לפי המצב לאמיתו לבין דמי הביטוח המוסכמים, והחברה פטורה כליל בכל אחת מאלה:\nהתשובה ניתנה בכוונת מרמה. .3.4.1\n, מבטח סביר לא היה מתקשר באותו חוזה, אף בדמי ביטוח מרובים יותר .3.4.2 אילו ידע את המצב לאמיתו; במקרה זה זכאי המבוטח להחזר דמי הביטוח ששילם בעד התקופה שלאחר קרות מקרה הביטוח בניכוי הוצאות החברה.",
-  "embed_text": "פוליסת ביטוח צלילה ספורטיבית מכסה מקרים בהם המבוטח עומד בתנאים המפורטים בפוליסה. לדוגמה, אם התשובה ניתנה בכוונת מרמה, החברה פטורה מתגמולים. במקרה של מצג שווא, ייתכן והמבוטח יהיה זכאי להחזר דמי ביטוח ששילם, בניכוי הוצאות החברה.",
-  "payload": "טבלה: ביטוח צלילה ספורטיבית\nThis table outlines conditions related to insurance claims for sports diving. It details scenarios where the insurance company may reduce or deny coverage based on misrepresentation or fraud.\nממדים: conditions for claim denial/reduction, details of the condition/consequence\n\nקרה מקרה הביטוח לפני שנתבטלה הפוליסה מכוח סעיף זה, אין החברה חייבת אלא .3.4 בתגמולי ביטוח מופחתים בשיעור יחסי, שהוא כיחס שבין דמי הביטוח שהיו משתלמים כמקובל אצלה לפי המצב לאמיתו לבין דמי הביטוח המוסכמים, והחברה פטורה כליל בכל אחת מאלה:\nהתשובה ניתנה בכוונת מרמה. .3.4.1\n, מבטח סביר לא היה מתקשר באותו חוזה, אף בדמי ביטוח מרובים יותר .3.4.2 אילו ידע את המצב לאמיתו; במקרה זה זכאי המבוטח להחזר דמי הביטוח ששילם בעד התקופה שלאחר קרות מקרה הביטוח בניכוי הוצאות החברה."
+  "embed_text": "טבלה זו מתייחסת לפוליסת ביטוח צלילה ספורטיבית, ומפרטת תנאים הקשורים לתביעות ביטוח במקרה של צלילה. היא מציגה מצבים בהם חברת הביטוח עשויה להפחית או לשלול כיסוי ביטוחי על סמך מצג שווא או מצבים קיימים מראש. ניתן לחפש מידע על תנאי הפוליסה, תגמולים מופחתים, וסעיפי פטור. הסעיפים העיקריים כוללים מצג שווא, מצב רפואי לא ידוע, והשפעתם על הכיסוי הביטוחי. כמו כן, מצוינים תנאים כמו תעודת צולל תקפה וצלילה בהתאם לתנאי התעודה. This table outlines conditions related to insurance claims for sporting dives. It details scenarios where the insurance company may reduce or deny coverage based on misrepresentation or pre-existing conditions. בין הערכים בטבלה: תגמולי ביטוח מופחתים: שיעור יחסי; מצב לאמיתו: מבטח סביר לא היה מתקשר; החזר דמי ביטוח: בניכוי הוצאות החברה; כוונת מרמה: תשובה שלא ניתנה בכוונת מרמה.",
+  "payload": "טבלה: פוליסת ביטוח צלילה ספורטיבית\nThis table outlines conditions related to insurance claims for sporting dives. It details scenarios where the insurance company may reduce or deny coverage based on misrepresentation or pre-existing conditions.\nממדים: תנאי פוליסה / מצב, השלכות / תגמולים\n\nקרה מקרה הביטוח לפני שנתבטלה הפוליסה מכוח סעיף זה, אין החברה חייבת אלא .3.4 בתגמולי ביטוח מופחתים בשיעור יחסי, שהוא כיחס שבין דמי הביטוח שהיו משתלמים כמקובל אצלה לפי המצב לאמיתו לבין דמי הביטוח המוסכמים, והחברה פטורה כליל בכל אחת מאלה:\nהתשובה ניתנה בכוונת מרמה. .3.4.1\n, מבטח סביר לא היה מתקשר באותו חוזה, אף בדמי ביטוח מרובים יותר .3.4.2 אילו ידע את המצב לאמיתו; במקרה זה זכאי המבוטח להחזר דמי הביטוח ששילם בעד התקופה שלאחר קרות מקרה הביטוח בניכוי הוצאות החברה."
 }

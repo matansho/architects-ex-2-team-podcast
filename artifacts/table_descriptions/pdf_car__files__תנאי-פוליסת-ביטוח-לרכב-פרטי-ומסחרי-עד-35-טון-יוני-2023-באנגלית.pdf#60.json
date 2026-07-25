@@ -2,24 +2,24 @@
   "id": "pdf:car/files/תנאי-פוליסת-ביטוח-לרכב-פרטי-ומסחרי-עד-35-טון-יוני-2023-באנגלית.pdf#60",
   "source": "llm",
   "description": {
-    "title": "הגדרות פוליסה",
-    "summary": "This table defines key terms used in the car insurance policy. It helps clarify what different concepts mean within the context of the policy's coverage.",
-    "embed_passage": "פוליסת ביטוח לרכב פרטי ומסחרי מגדירה מונחים כמו 'הפוליסה' כמספר המופיע בפירוט, 'המבוטח' כבעלי הפוליסה או כל מי שרשאי לנהוג ברכב המעורב באירוע, ו'אירוע ביטוחי' כתאונת דרכים בה נפגע אדם או רכוש. הגדרות אלו חשובות להבנת תנאי הכיסוי.",
+    "title": "הגדרות",
+    "summary": "This table defines key terms used in the car insurance policy. It clarifies the meaning of terms like 'The policy', 'The insured', and 'Insured event' for proper interpretation of coverage.",
+    "embed_passage": "טבלה זו מגדירה מונחים מרכזיים בפוליסת ביטוח רכב, כגון 'הפוליסה', 'המבוטח' ו'אירוע ביטוחי', לצורך הבנה נכונה של הכיסוי. ניתן לחפש הגדרות לפי מונח או סוג הגדרה. הפוליסה היא הפוליסה שמספרה מופיע בפירוט, שהונפקה למבוטח ביחס לשימוש ברכב. המבוטח כולל את בעלי הפוליסה וכל אדם אחר הזכאי לנהוג ברכב המעורב באירוע הביטוחי. הליכים משפטיים הם הליכים בהם הוגש כתב אישום על ידי או בשם מדינת ישראל, למעט כתבי אישום הכוללים קנס אופציונלי. אירוע ביטוחי הוא תאונת דרכים בה נפגע אדם ו/או רכוש, כתוצאה משימוש ברכב המכוסה בפוליסה. הוצאות הגנה כוללות אגרות בית משפט, מסים, אגרות חותמת, צילום פרוטוקולים, שכר מומחים שנקבעו על ידי בית המשפט, למעט קנס, פיצוי או תשלום עונשי.",
     "row_axis": "Term",
     "column_axis": "Definition",
     "units": [],
     "notable_values": [
-      "The policy: number appears in the specification",
-      "Insured event: road accident",
-      "Legal proceedings: indictment filed by the State of Israel",
-      "Defense expenses: excluding any fine",
-      "The insured: policy owners"
+      "The policy: the policy whose number appears in the specification",
+      "The insured: the policy owners and/or any other person who is entitled to drive the vehicle",
+      "Legal proceedings: proceedings in which an indictment is filed by or on behalf of the State of Israel",
+      "Insured event: a road accident in which a person and/or any property is damaged",
+      "Defense expenses: court fees, levies, documents stamping fees"
     ],
     "product_hints": [
-      "פוליסת ביטוח לרכב פרטי ומסחרי"
+      "ביטוח רכב"
     ]
   },
   "sketch": "Definitions\nThe policy -the policy whose number appears in the specification, issued to the insured in connection with use of the vehicle.\nThe insured -the policy owners and/or any other person who is entitled to drive the vehicle which was involved in the insured event in accordance with the policy.\nLegal proceedings -proceedings in which an indictment is filed by or on behalf of the State of Israel, including administrative applications to revoke and layup a  driver's license, except for indictment which bear an optional fine.\nInsured event -a road accident in which a person and/or any property is damaged, occurring as a result of use made by a vehicle, and which is covered under the policy.\nDefense expenses -court fees, levies, documents stamping fees, photocopying protocols, fees of experts determined by the court or as determined in the criminal law procedure, excluding any fine, compensation, or punitive payment imposed in the framework of a verdict.",
-  "embed_text": "פוליסת ביטוח לרכב פרטי ומסחרי מגדירה מונחים כמו 'הפוליסה' כמספר המופיע בפירוט, 'המבוטח' כבעלי הפוליסה או כל מי שרשאי לנהוג ברכב המעורב באירוע, ו'אירוע ביטוחי' כתאונת דרכים בה נפגע אדם או רכוש. הגדרות אלו חשובות להבנת תנאי הכיסוי.",
-  "payload": "טבלה: הגדרות פוליסה\nThis table defines key terms used in the car insurance policy. It helps clarify what different concepts mean within the context of the policy's coverage.\nממדים: Term, Definition\n\nDefinitions\nThe policy -the policy whose number appears in the specification, issued to the insured in connection with use of the vehicle.\nThe insured -the policy owners and/or any other person who is entitled to drive the vehicle which was involved in the insured event in accordance with the policy.\nLegal proceedings -proceedings in which an indictment is filed by or on behalf of the State of Israel, including administrative applications to revoke and layup a  driver's license, except for indictment which bear an optional fine.\nInsured event -a road accident in which a person and/or any property is damaged, occurring as a result of use made by a vehicle, and which is covered under the policy.\nDefense expenses -court fees, levies, documents stamping fees, photocopying protocols, fees of experts determined by the court or as determined in the criminal law procedure, excluding any fine, compensation, or punitive payment imposed in the framework of a verdict."
+  "embed_text": "טבלה זו מגדירה מונחים מרכזיים בפוליסת ביטוח רכב, כגון 'הפוליסה', 'המבוטח' ו'אירוע ביטוחי', לצורך הבנה נכונה של הכיסוי. ניתן לחפש הגדרות לפי מונח או סוג הגדרה. הפוליסה היא הפוליסה שמספרה מופיע בפירוט, שהונפקה למבוטח ביחס לשימוש ברכב. המבוטח כולל את בעלי הפוליסה וכל אדם אחר הזכאי לנהוג ברכב המעורב באירוע הביטוחי. הליכים משפטיים הם הליכים בהם הוגש כתב אישום על ידי או בשם מדינת ישראל, למעט כתבי אישום הכוללים קנס אופציונלי. אירוע ביטוחי הוא תאונת דרכים בה נפגע אדם ו/או רכוש, כתוצאה משימוש ברכב המכוסה בפוליסה. הוצאות הגנה כוללות אגרות בית משפט, מסים, אגרות חותמת, צילום פרוטוקולים, שכר מומחים שנקבעו על ידי בית המשפט, למעט קנס, פיצוי או תשלום עונשי. This table defines key terms used in the car insurance policy. It clarifies the meaning of terms like 'The policy', 'The insured', and 'Insured event…",
+  "payload": "טבלה: הגדרות\nThis table defines key terms used in the car insurance policy. It clarifies the meaning of terms like 'The policy', 'The insured', and 'Insured event' for proper interpretation of coverage.\nממדים: Term, Definition\n\nDefinitions\nThe policy -the policy whose number appears in the specification, issued to the insured in connection with use of the vehicle.\nThe insured -the policy owners and/or any other person who is entitled to drive the vehicle which was involved in the insured event in accordance with the policy.\nLegal proceedings -proceedings in which an indictment is filed by or on behalf of the State of Israel, including administrative applications to revoke and layup a  driver's license, except for indictment which bear an optional fine.\nInsured event -a road accident in which a person and/or any property is damaged, occurring as a result of use made by a vehicle, and which is covered under the policy.\nDefense expenses -court fees, levies, documents stamping fees, photocopying protocols, fees of experts determined by the court or as determined in the criminal law procedure, excluding any fine, compensation, or punitive payment imposed in the framework of a verdict."
 }

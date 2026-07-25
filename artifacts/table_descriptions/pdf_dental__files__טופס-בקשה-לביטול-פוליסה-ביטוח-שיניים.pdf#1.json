@@ -2,25 +2,27 @@
   "id": "pdf:dental/files/טופס-בקשה-לביטול-פוליסה-ביטוח-שיניים.pdf#1",
   "source": "llm",
   "description": {
-    "title": "טופס ביטול פוליסה",
-    "summary": "This table is a form for requesting cancellation of a dental insurance policy. It collects personal details of the insured to process the cancellation request.",
-    "embed_passage": "טופס זה מיועד לביטול פוליסת ביטוח שיניים. יש למלא את פרטי המבוטח, כולל תאריך לידה ומין. השירות ניתן 24 שעות ביממה במספר 1-700-702-870.",
-    "row_axis": "Insured individual",
-    "column_axis": "Personal details (gender, date of birth, contact information)",
+    "title": "בקשה לביטול פוליסה",
+    "summary": "This table is a form for requesting cancellation of a dental insurance policy. It collects personal details of the insured individuals to process the cancellation request.",
+    "embed_passage": "טופס זה מיועד לביטול פוליסת ביטוח שיניים. יש למלא את פרטי המבוטח, כולל מין, תאריך לידה, מספר זהות, וכתובת מגורים. הטופס מיועד לנשים וגברים כאחד. ניתן לשלוח את הטופס בדוא״ל polisotbs@harel-ins.co.il או בפקס 03-7348178. פרטי המבוטח כוללים שם משפחה, שם, מספר זהות, מין (נקבה או זכר), תאריך לידה, ופרטי קשר כגון טלפון נייד וכתובת דוא״ל. ניתן למלא פרטים עבור עד ארבעה ילדים.",
+    "row_axis": "insured individual (primary/spouse/children)",
+    "column_axis": "personal details (gender, date of birth, ID number, address, contact information)",
     "units": [],
     "notable_values": [
-      "Phone number: 1-700-702-870",
-      "Fax: 03-7348178",
-      "Email: polisotbs@harel-ins.co.il",
-      "Gender options: נקבה, זכר",
-      "Required fields: למלא( )חובה"
+      "gender: נקבה",
+      "gender: זכר",
+      "fax: 03-7348178",
+      "email: polisotbs@harel-ins.co.il",
+      "phone: 1-700-702-870",
+      "children: 1",
+      "children: 2",
+      "children: 3"
     ],
     "product_hints": [
-      "ביטוח שיניים",
-      "פוליסת ביטוח שיניים"
+      "ביטוח שיניים"
     ]
   },
-  "sketch": ".03-7348178 : או בפקס polisotbs@harel-ins.co.il למשלוח הטופס לאגף הבריאות - בדוא\"ל: * , השירות ניתן 1-700-702-870 : שעות ביממה לצורך בדיקת קבלת מסמכים 24 מענה ממוחשב יתבצע למחרת. 15:00 שעות לאחר שליחת הטופס. עדכון לאחר שעה 3\n,,,,,המבוטח פרטי א\nמין נקבה זכר,לידה תאריך,,משפחה* שם,\"זהות* מספר ס\"\"ב\",ראשי מבוטח\nנקבה זכר,,,,,זוג בן/בת\n…\nנקבה זכר,,,,,4\n,,ת.ד,מספר,רחוב,מגורים כתובת המבוטח של\nלמלא( )חובה נייד טלפון מספר,למלא( )חובה נייד טלפון מספר,למלא( )חובה נייד טלפון מספר,למלא( )חובה נייד טלפון מספר,טלפון מספר,הראשי\n,,,,,דוא״ל כתובת",
-  "embed_text": "טופס זה מיועד לביטול פוליסת ביטוח שיניים. יש למלא את פרטי המבוטח, כולל תאריך לידה ומין. השירות ניתן 24 שעות ביממה במספר 1-700-702-870.",
-  "payload": "טבלה: טופס ביטול פוליסה\nThis table is a form for requesting cancellation of a dental insurance policy. It collects personal details of the insured to process the cancellation request.\nממדים: Insured individual, Personal details (gender, date of birth, contact information)\n\n.03-7348178 : או בפקס polisotbs@harel-ins.co.il למשלוח הטופס לאגף הבריאות - בדוא\"ל: * , השירות ניתן 1-700-702-870 : שעות ביממה לצורך בדיקת קבלת מסמכים 24 מענה ממוחשב יתבצע למחרת. 15:00 שעות לאחר שליחת הטופס. עדכון לאחר שעה 3\n,,,,,המבוטח פרטי א\nמין נקבה זכר,לידה תאריך,,משפחה* שם,\"זהות* מספר ס\"\"ב\",ראשי מבוטח\nנקבה זכר,,,,,זוג בן/בת\nנקבה זכר,,,,,ילדים 1\nנקבה זכר,,,,,2\nנקבה זכר,,,,,3\nנקבה זכר,,,,,4\n,,ת.ד,מספר,רחוב,מגורים כתובת המבוטח של\nלמלא( )חובה נייד טלפון מספר,למלא( )חובה נייד טלפון מספר,למלא( )חובה נייד טלפון מספר,למלא( )חובה נייד טלפון מספר,טלפון מספר,הראשי\n,,,,,דוא״ל כתובת"
+  "sketch": ".03-7348178 : או בפקס polisotbs@harel-ins.co.il למשלוח הטופס לאגף הבריאות - בדוא\"ל: * , השירות ניתן 1-700-702-870 : שעות ביממה לצורך בדיקת קבלת מסמכים 24 מענה ממוחשב יתבצע למחרת. 15:00 שעות לאחר שליחת הטופס. עדכון לאחר שעה 3\n,,,,,המבוטח פרטי א\nמין נקבה זכר,לידה תאריך,,משפחה* שם,\"זהות* מספר ס\"\"ב\",ראשי מבוטח\nנקבה זכר,,,,,זוג בן/בת\nנקבה זכר,,,,,ילדים 1\nנקבה זכר,,,,,2\nנקבה זכר,,,,,3\nנקבה זכר,,,,,4\n,,ת.ד,מספר,רחוב,מגורים כתובת המבוטח של\nלמלא( )חובה נייד טלפון מספר,למלא( )חובה נייד טלפון מספר,למלא( )חובה נייד טלפון מספר,למלא( )חובה נייד טלפון מספר,טלפון מספר,הראשי\n,,,,,דוא״ל כתובת",
+  "embed_text": "טופס זה מיועד לביטול פוליסת ביטוח שיניים. יש למלא את פרטי המבוטח, כולל מין, תאריך לידה, מספר זהות, וכתובת מגורים. הטופס מיועד לנשים וגברים כאחד. ניתן לשלוח את הטופס בדוא״ל polisotbs@harel-ins.co.il או בפקס 03-7348178. פרטי המבוטח כוללים שם משפחה, שם, מספר זהות, מין (נקבה או זכר), תאריך לידה, ופרטי קשר כגון טלפון נייד וכתובת דוא״ל. ניתן למלא פרטים עבור עד ארבעה ילדים. This table is a form for requesting cancellation of a dental insurance policy. It collects personal details of the insured individuals to process the cancellation request. בין הערכים בטבלה: phone: 1-700-702-870; children: 2.",
+  "payload": "טבלה: בקשה לביטול פוליסה\nThis table is a form for requesting cancellation of a dental insurance policy. It collects personal details of the insured individuals to process the cancellation request.\nממדים: insured individual (primary/spouse/children), personal details (gender, date of birth, ID number, address, contact information)\n\n.03-7348178 : או בפקס polisotbs@harel-ins.co.il למשלוח הטופס לאגף הבריאות - בדוא\"ל: * , השירות ניתן 1-700-702-870 : שעות ביממה לצורך בדיקת קבלת מסמכים 24 מענה ממוחשב יתבצע למחרת. 15:00 שעות לאחר שליחת הטופס. עדכון לאחר שעה 3\n,,,,,המבוטח פרטי א\nמין נקבה זכר,לידה תאריך,,משפחה* שם,\"זהות* מספר ס\"\"ב\",ראשי מבוטח\nנקבה זכר,,,,,זוג בן/בת\nנקבה זכר,,,,,ילדים 1\nנקבה זכר,,,,,2\nנקבה זכר,,,,,3\nנקבה זכר,,,,,4\n,,ת.ד,מספר,רחוב,מגורים כתובת המבוטח של\nלמלא( )חובה נייד טלפון מספר,למלא( )חובה נייד טלפון מספר,למלא( )חובה נייד טלפון מספר,למלא( )חובה נייד טלפון מספר,טלפון מספר,הראשי\n,,,,,דוא״ל כתובת"
 }

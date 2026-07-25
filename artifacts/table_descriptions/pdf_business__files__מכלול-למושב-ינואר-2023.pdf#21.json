@@ -3,23 +3,21 @@
   "source": "llm",
   "description": {
     "title": "סייגים",
-    "summary": "This table lists exclusions to insurance coverage. It details scenarios where the insurer will not provide compensation, such as damage caused by nuclear materials or acts of terror.",
-    "embed_passage": "פוליסת 'מכלול' אינה מכסה נזק תוצאתי, כפי שמפורט בסעיף 3, או נזק שבגינו קיימת זכות לפיצויים על פי חוק מס רכוש וקרן פיצויים, גם אם זכות זו נמנעה. כמו כן, הפוליסה אינה מכסה אבדן או נזק לרכוש שניטש, כפי שמפורט בסעיף 5C. סייגים אלו מגדירים את גבולות הכיסוי של הפוליסה.",
-    "row_axis": "exclusion type",
-    "column_axis": "exclusion details",
+    "summary": "This table lists exclusions to insurance coverage. It details circumstances under which the insurer will not provide compensation.",
+    "embed_passage": "טבלה זו מפרטת סייגים לפוליסת ביטוח, ומציינת נסיבות בהן המבטח לא ישפה את המבוטח. הסייגים כוללים נזק תוצאתי, נזק שבגינו קיימת זכות לפיצויים על פי חוק מס רכוש וקרן פיצויים, ואבדן או נזק לרכוש שניטש. ניתן לעיין בסייגים אלו כדי להבין את היקף הכיסוי הביטוחי. הסייגים כוללים: נזק תוצאתי, חוק מס רכוש וקרן פיצויים, רכוש שניטש.",
+    "row_axis": "סוג סייג (exclusion type)",
+    "column_axis": "תיאור הסייג (exclusion description)",
     "units": [],
     "notable_values": [
-      "exclusion 3: consequential damage",
-      "exclusion 4: property tax and compensation fund claims",
-      "exclusion 5C: abandoned property",
-      "exclusion 1.1: nuclear material",
-      "exclusion 1.2.4: acts of terror"
+      "נזק תוצאתי: 3",
+      "חוק מס רכוש וקרן פיצויים: 4",
+      "רכוש שניטש: 5"
     ],
     "product_hints": [
       "מכלול"
     ]
   },
   "sketch": ".C .  נזק תוצאתי 3\n, .  נזק כלשהו, שבגינו יש למבוטח הזכות לפיצויים על פי חוק מס רכוש וקרן פיצויים 4 , גם אם זכות זו נמנעה ממנו עקב אי קיום הוראה כלשהי מהוראות 1961התשכ\"א החוק הנ\"ל;\n.  אבדן, נזק, או חבות כלשהם אשר נגרמו לרכוש שיצא מכלל שימוש באופן קבוע או 5 C לרכוש שניטש וגם/או מרכוש שניטש",
-  "embed_text": "פוליסת 'מכלול' אינה מכסה נזק תוצאתי, כפי שמפורט בסעיף 3, או נזק שבגינו קיימת זכות לפיצויים על פי חוק מס רכוש וקרן פיצויים, גם אם זכות זו נמנעה. כמו כן, הפוליסה אינה מכסה אבדן או נזק לרכוש שניטש, כפי שמפורט בסעיף 5C. סייגים אלו מגדירים את גבולות הכיסוי של הפוליסה.",
-  "payload": "טבלה: סייגים\nThis table lists exclusions to insurance coverage. It details scenarios where the insurer will not provide compensation, such as damage caused by nuclear materials or acts of terror.\nממדים: exclusion type, exclusion details\n\n.C .  נזק תוצאתי 3\n, .  נזק כלשהו, שבגינו יש למבוטח הזכות לפיצויים על פי חוק מס רכוש וקרן פיצויים 4 , גם אם זכות זו נמנעה ממנו עקב אי קיום הוראה כלשהי מהוראות 1961התשכ\"א החוק הנ\"ל;\n.  אבדן, נזק, או חבות כלשהם אשר נגרמו לרכוש שיצא מכלל שימוש באופן קבוע או 5 C לרכוש שניטש וגם/או מרכוש שניטש"
+  "embed_text": "טבלה זו מפרטת סייגים לפוליסת ביטוח, ומציינת נסיבות בהן המבטח לא ישפה את המבוטח. הסייגים כוללים נזק תוצאתי, נזק שבגינו קיימת זכות לפיצויים על פי חוק מס רכוש וקרן פיצויים, ואבדן או נזק לרכוש שניטש. ניתן לעיין בסייגים אלו כדי להבין את היקף הכיסוי הביטוחי. הסייגים כוללים: נזק תוצאתי, חוק מס רכוש וקרן פיצויים, רכוש שניטש. This table lists exclusions to insurance coverage. It details circumstances under which the insurer will not provide compensation.",
+  "payload": "טבלה: סייגים\nThis table lists exclusions to insurance coverage. It details circumstances under which the insurer will not provide compensation.\nממדים: סוג סייג (exclusion type), תיאור הסייג (exclusion description)\n\n.C .  נזק תוצאתי 3\n, .  נזק כלשהו, שבגינו יש למבוטח הזכות לפיצויים על פי חוק מס רכוש וקרן פיצויים 4 , גם אם זכות זו נמנעה ממנו עקב אי קיום הוראה כלשהי מהוראות 1961התשכ\"א החוק הנ\"ל;\n.  אבדן, נזק, או חבות כלשהם אשר נגרמו לרכוש שיצא מכלל שימוש באופן קבוע או 5 C לרכוש שניטש וגם/או מרכוש שניטש"
 }

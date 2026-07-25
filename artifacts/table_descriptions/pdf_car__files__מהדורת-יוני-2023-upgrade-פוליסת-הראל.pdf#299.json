@@ -2,26 +2,24 @@
   "id": "pdf:car/files/מהדורת-יוני-2023-upgrade-פוליסת-הראל.pdf#299",
   "source": "llm",
   "description": {
-    "title": "שירות מורחב - הראל",
-    "summary": "This table details the 'Extended Service' benefits provided by Harel insurance for car accidents. It outlines the services a policyholder is entitled to, such as towing and transportation, following an accident.",
-    "embed_passage": "פוליסת הראל מציעה שירות מורחב לרכב במקרה של תאונת דרכים. השירות כולל גרירת הרכב, הסעת הנוסעים עד 250 ק״מ, ושמירת הרכב במוסך. השירות ניתן 24 שעות ביממה, למעט מגבלות ביטחוניות ויום כיפור.",
-    "row_axis": "types of extended service provided after an accident",
-    "column_axis": "details of the service (e.g., conditions, limitations)",
+    "title": "שירות מורחב - תאונת דרכים",
+    "summary": "This table details the extended services provided in the event of a car accident, specifically regarding roadside assistance and towing. It outlines what the insured is entitled to without additional cost or limitations on the number of requests during the insurance period.",
+    "embed_passage": "טבלה זו מתארת שירותים מורחבים הניתנים בעקבות תאונת דרכים, כגון סיוע דרכים וגרירה, כחלק מפוליסת הראל. השירותים מיועדים למבוטחים הזכאים להם בעת הצורך, וניתן לפנות אליהם ללא הגבלה במהלך תקופת הביטוח. השירות כולל הגעת נציג, הסעת המבוטח, גרירת הרכב וטיפול המשך. השירות מורחב יינתן רק אם משטרת ישראל אינה מעורבת או שהמבוטח קיבל אישורים נדרשים. ניתן לקבל שירותים אלה באמצעות נציג \"נותן השירות\" או מונית, עד למרחק של 250 ק״מ. שירות מורחב, סיוע דרכים, גרירת רכב, הסעת מבוטח.",
+    "row_axis": "סוג שירות",
+    "column_axis": "תיאור השירות",
     "units": [],
     "notable_values": [
-      "distance: 250 ק״מ",
-      "hours per year: 24",
-      "service calls: unlimited",
-      "response time: שעתיים",
-      "police involvement: 5"
+      "מרחק הסעה: 250 ק״מ",
+      "זמן הגעה: שעתיים",
+      "נותן השירות: ספק השירות",
+      "תאונת דרכים: אירוע מכוסה"
     ],
     "product_hints": [
       "הרחבה לשירות מורחב",
-      "הראל",
-      "נותן השירות"
+      "שירות מורחב"
     ]
   },
   "sketch": "המבוטח זכאי לקבל את השירותים הבאים ללא תמורה וללא הגבלה של מספר הפניות . 2 במשך תקופת הביטוח:\n, לרכב המבוטח שהיה מעורב בתאונת דרכים, למקום התאונה הגעת נציג \"נותן השירות\" ( א .(8 על מנת לשחרר את המבוטח לדרכו ולשם המשך טיפול ברכב )בכפוף לסעיף\nבאמצעות נציג \"נותן השירות\" או מונית ליעד המבוקש הסעת המבוטח ממקום התאונה ( ב ק״מ. 250 למרחק של עד\nג(  המשך טיפול בגרירת הרכב ליעד המבוקש.\nלמוסך, אם השרות מבוצע בשעות מעבר לשעות אחסנת הרכב, שמירתו וגרירתו ( ד הפעילות המקובלות.",
-  "embed_text": "פוליסת הראל מציעה שירות מורחב לרכב במקרה של תאונת דרכים. השירות כולל גרירת הרכב, הסעת הנוסעים עד 250 ק״מ, ושמירת הרכב במוסך. השירות ניתן 24 שעות ביממה, למעט מגבלות ביטחוניות ויום כיפור.",
-  "payload": "טבלה: שירות מורחב - הראל\nThis table details the 'Extended Service' benefits provided by Harel insurance for car accidents. It outlines the services a policyholder is entitled to, such as towing and transportation, following an accident.\nממדים: types of extended service provided after an accident, details of the service (e.g., conditions, limitations)\n\nהמבוטח זכאי לקבל את השירותים הבאים ללא תמורה וללא הגבלה של מספר הפניות . 2 במשך תקופת הביטוח:\n, לרכב המבוטח שהיה מעורב בתאונת דרכים, למקום התאונה הגעת נציג \"נותן השירות\" ( א .(8 על מנת לשחרר את המבוטח לדרכו ולשם המשך טיפול ברכב )בכפוף לסעיף\nבאמצעות נציג \"נותן השירות\" או מונית ליעד המבוקש הסעת המבוטח ממקום התאונה ( ב ק״מ. 250 למרחק של עד\nג(  המשך טיפול בגרירת הרכב ליעד המבוקש.\nלמוסך, אם השרות מבוצע בשעות מעבר לשעות אחסנת הרכב, שמירתו וגרירתו ( ד הפעילות המקובלות."
+  "embed_text": "טבלה זו מתארת שירותים מורחבים הניתנים בעקבות תאונת דרכים, כגון סיוע דרכים וגרירה, כחלק מפוליסת הראל. השירותים מיועדים למבוטחים הזכאים להם בעת הצורך, וניתן לפנות אליהם ללא הגבלה במהלך תקופת הביטוח. השירות כולל הגעת נציג, הסעת המבוטח, גרירת הרכב וטיפול המשך. השירות מורחב יינתן רק אם משטרת ישראל אינה מעורבת או שהמבוטח קיבל אישורים נדרשים. ניתן לקבל שירותים אלה באמצעות נציג \"נותן השירות\" או מונית, עד למרחק של 250 ק״מ. שירות מורחב, סיוע דרכים, גרירת רכב, הסעת מבוטח. This table details the extended services provided in the event of a car accident, specifically regarding roadside assistance and towing. It outlines what the insured is entitled to without additional cost or limitations on the number of requests during the insurance period. בין הערכים בטבלה: זמן הגעה: שעתיים.",
+  "payload": "טבלה: שירות מורחב - תאונת דרכים\nThis table details the extended services provided in the event of a car accident, specifically regarding roadside assistance and towing. It outlines what the insured is entitled to without additional cost or limitations on the number of requests during the insurance period.\nממדים: סוג שירות, תיאור השירות\n\nהמבוטח זכאי לקבל את השירותים הבאים ללא תמורה וללא הגבלה של מספר הפניות . 2 במשך תקופת הביטוח:\n, לרכב המבוטח שהיה מעורב בתאונת דרכים, למקום התאונה הגעת נציג \"נותן השירות\" ( א .(8 על מנת לשחרר את המבוטח לדרכו ולשם המשך טיפול ברכב )בכפוף לסעיף\nבאמצעות נציג \"נותן השירות\" או מונית ליעד המבוקש הסעת המבוטח ממקום התאונה ( ב ק״מ. 250 למרחק של עד\nג(  המשך טיפול בגרירת הרכב ליעד המבוקש.\nלמוסך, אם השרות מבוצע בשעות מעבר לשעות אחסנת הרכב, שמירתו וגרירתו ( ד הפעילות המקובלות."
 }

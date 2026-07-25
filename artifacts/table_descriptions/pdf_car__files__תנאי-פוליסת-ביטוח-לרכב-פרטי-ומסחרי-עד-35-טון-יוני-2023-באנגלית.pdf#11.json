@@ -3,24 +3,23 @@
   "source": "llm",
   "description": {
     "title": "מטרות שימוש מותרות",
-    "summary": "This table details the permitted uses of a vehicle under an insurance policy. It specifies whether the insurer’s liability applies based on the vehicle’s purpose at the time of an incident.",
-    "embed_passage": "פוליסת הביטוח מכסה שימוש ברכב למטרות חברתיות, פרטיות או עסקיות שאינן מפורטות בסעיפים 6.1.2 עד 6.1.4. שימוש עסקי בהעברת נוסעים בתשלום או גרירת רכב אחר כרוך בתנאי ציון מפורש בתעודת הביטוח. הפוליסה עשויה לחול גם על מבחן נהיגה מטעם משרד הרישוי.",
-    "row_axis": "Permitted use objective",
-    "column_axis": "Conditions/Details of coverage",
+    "summary": "This table details the permitted uses of a vehicle under a car insurance policy. It specifies which objectives of use are covered by the insurer's liability, and notes requirements for business-related uses.",
+    "embed_passage": "טבלה זו מתארת את מטרות השימוש המותרות ברכב במסגרת פוליסת ביטוח רכב. הפוליסה מכסה מטרות חברתיות, פרטיות או עסקיות שאינן מפורטות בסעיפים 6.1.2 עד 6.1.4. שימוש עסקי בהעברת נוסעים בתשלום או גרירת רכב בתשלום מחייבים ציון מפורש בתעודת הביטוח. הפוליסה רלוונטית לביטוח רכב פרטי ומסחרי עד 35 טון. מטרות שימוש מותרות כוללות מטרות חברתיות, פרטיות, עסקיות, מבחן נהיגה, הדרכת נהיגה, הובלת נוסעים בתשלום וגרירת רכב בתשלום.",
+    "row_axis": "objective of use",
+    "column_axis": "insurer's liability condition",
     "units": [],
     "notable_values": [
-      "Regulation 213a: Advanced driving lessons",
-      "Paragraph 6.1.1: Social, private, or business objectives",
-      "Paragraph 6.1.2: Driving test on behalf of licensing authority",
-      "Paragraph 6.1.3: Transporting passengers for payment",
-      "Paragraph 6.1.4: Salvage or towing for payment"
+      "social, private or business objectives: not included in 6.1.2-6.1.4",
+      "driving test: requires notation on insurance certificate",
+      "teaching driving: requires notation on insurance certificate",
+      "transporting passengers for payment: requires notation on insurance certificate",
+      "salvage/towing for payment: requires notation on insurance certificate"
     ],
     "product_hints": [
-      "ביטוח לרכב",
-      "פוליסת ביטוח"
+      "ביטוח רכב פרטי ומסחרי עד 35 טון"
     ]
   },
   "sketch": "6. Permitted objectives of use\n6.1 The insurer 's liability according to this policy shall apply only if at the time of the occurrence of the insured event the vehicle serves the insured for one or more of the following objectives:\n6.1.1 Social, private or business objectives of the insured, which are not included in paragraphs 6.1.2 through 6.1.4 hereunder.\n6.1.2 A business objective -a driving test on behalf of the licensing authority and a business objective of teaching driving, which is not an advanced practical driving lessons in accordance with Regulation 213a of the Transportation\nRegulations, provided that these objectives are expressly noted on the insurance certificate.\n6.1.3 A business objective of transporting passengers in the vehicle for payment, a fee or other consideration, provided that the objective is expressly noted on the insurance certificate.\n6.1.4 A business objective of salvage or towing of a motorized vehicle for payment, a fee or other consideration, provided that the objective is expressly noted on the insurance certificate.",
-  "embed_text": "פוליסת הביטוח מכסה שימוש ברכב למטרות חברתיות, פרטיות או עסקיות שאינן מפורטות בסעיפים 6.1.2 עד 6.1.4. שימוש עסקי בהעברת נוסעים בתשלום או גרירת רכב אחר כרוך בתנאי ציון מפורש בתעודת הביטוח. הפוליסה עשויה לחול גם על מבחן נהיגה מטעם משרד הרישוי.",
-  "payload": "טבלה: מטרות שימוש מותרות\nThis table details the permitted uses of a vehicle under an insurance policy. It specifies whether the insurer’s liability applies based on the vehicle’s purpose at the time of an incident.\nממדים: Permitted use objective, Conditions/Details of coverage\n\n6. Permitted objectives of use\n6.1 The insurer 's liability according to this policy shall apply only if at the time of the occurrence of the insured event the vehicle serves the insured for one or more of the following objectives:\n6.1.1 Social, private or business objectives of the insured, which are not included in paragraphs 6.1.2 through 6.1.4 hereunder.\n6.1.2 A business objective -a driving test on behalf of the licensing authority and a business objective of teaching driving, which is not an advanced practical driving lessons in accordance with Regulation 213a of the Transportation\nRegulations, provided that these objectives are expressly noted on the insurance certificate.\n6.1.3 A business objective of transporting passengers in the vehicle for payment, a fee or other consideration, provided that the objective is expressly noted on the insurance certificate.\n6.1.4 A business objective of salvage or towing of a motorized vehicle for payment, a fee or other consideration, provided that the objective is expressly noted on the insurance certificate."
+  "embed_text": "טבלה זו מתארת את מטרות השימוש המותרות ברכב במסגרת פוליסת ביטוח רכב. הפוליסה מכסה מטרות חברתיות, פרטיות או עסקיות שאינן מפורטות בסעיפים 6.1.2 עד 6.1.4. שימוש עסקי בהעברת נוסעים בתשלום או גרירת רכב בתשלום מחייבים ציון מפורש בתעודת הביטוח. הפוליסה רלוונטית לביטוח רכב פרטי ומסחרי עד 35 טון. מטרות שימוש מותרות כוללות מטרות חברתיות, פרטיות, עסקיות, מבחן נהיגה, הדרכת נהיגה, הובלת נוסעים בתשלום וגרירת רכב בתשלום. This table details the permitted uses of a vehicle under a car insurance policy. It specifies which objectives of use are covered by the insurer's liability, and notes requirements for business-related uses. בין הערכים בטבלה: social, private or business objectives: not included in 6.1.2-6.1.4; driving test: requires notation on insurance certificate; teaching driving: requires notation o…",
+  "payload": "טבלה: מטרות שימוש מותרות\nThis table details the permitted uses of a vehicle under a car insurance policy. It specifies which objectives of use are covered by the insurer's liability, and notes requirements for business-related uses.\nממדים: objective of use, insurer's liability condition\n\n6. Permitted objectives of use\n6.1 The insurer 's liability according to this policy shall apply only if at the time of the occurrence of the insured event the vehicle serves the insured for one or more of the following objectives:\n6.1.1 Social, private or business objectives of the insured, which are not included in paragraphs 6.1.2 through 6.1.4 hereunder.\n6.1.2 A business objective -a driving test on behalf of the licensing authority and a business objective of teaching driving, which is not an advanced practical driving lessons in accordance with Regulation 213a of the Transportation\nRegulations, provided that these objectives are expressly noted on the insurance certificate.\n6.1.3 A business objective of transporting passengers in the vehicle for payment, a fee or other consideration, provided that the objective is expressly noted on the insurance certificate.\n6.1.4 A business objective of salvage or towing of a motorized vehicle for payment, a fee or other consideration, provided that the objective is expressly noted on the insurance certificate."
 }

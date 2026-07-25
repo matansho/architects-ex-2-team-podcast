@@ -2,18 +2,17 @@
   "id": "pdf:long-term-care/files/מערכת-כללים-לבירור-וליישוב-תביעות-ולטיפול-בפניות-הציבור-ביטוח-סיעודי.pdf#15",
   "source": "llm",
   "description": {
-    "title": "כללי תביעות סיעודיות",
-    "summary": "This table outlines the rules for claim review and settlement for long-term care insurance (ביטוח סיעודי). It details the information provided to the claimant regarding partial payments and claim rejections.",
-    "embed_passage": "הראל תציע לתובע הצעת פשרה סבירה למועד ההצעה. הצעת הפשרה הכתובה תכלול את מקרה הביטוח, הנימוקים שביסוד הפשרה, מרכיבי התשלום שאינם שנויים במחלוקת ככל שישנם. לדוגמה, אם נתקבלה החלטה על תשלום חלקי של התביעה תוך דחיית חלק מהתביעה, תימסר לתובע הודעה בכתב הכוללת שני חלקים.",
-    "row_axis": "claim decision/notification type",
-    "column_axis": "details of notification content",
+    "title": "כללים לבירור תביעות סיעודיות",
+    "summary": "This table outlines the rules for acknowledging and settling long-term care claims, and handling public inquiries. It details the information provided to claimants regarding partial or full claim payments.",
+    "embed_passage": "טבלה זו מתארת את הכללים לבירור תביעות סיעודיות, כולל אופן מתן הודעה ללקוח במקרה של תשלום חלקי או מלא של התביעה. המידע המועבר כולל פירוט מרכיבי התשלום שאושרו, ונימוקים לדחיית חלק מהתביעה במידה וישנם. הראל ביטוח סיעודי מציעה הצעות פשרה סבירות, ומודיעה על הסכום שנקבע בפשרה והפער בינו לבין הסכום לתשלום. ביטוח סיעודי, תשלום תביעה, פשרה, דחיית תביעה, נימוקים לדחייה, הראל.",
+    "row_axis": "סוג החלטה / שלב בתהליך",
+    "column_axis": "פרטי ההודעה / מידע ללקוח",
     "units": [],
     "notable_values": [
-      "סעיף ד': documentation requirements (except rules)",
-      "הצעה: reasonable settlement offer",
-      "הודעה בכתב: written notice",
-      "תשלום חלקי: partial payment",
-      "הסדר פשרה: settlement agreement"
+      "תשלום חלקי: הודעה בכתב",
+      "דחיית חלק מהתביעה: נימוקים מפורטים",
+      "תשלום מלא: העתק מערכת כללים זו",
+      "הצעת פשרה: זמן סביר לעיון בתנאים"
     ],
     "product_hints": [
       "ביטוח סיעודי",
@@ -21,6 +20,6 @@
     ]
   },
   "sketch": ".  אם נתקבלה החלטה על תשלום חלקי של התביעה תוך דחיית חלק מהתביעה לגבי סכומים שנדרשו או חלק מהעילות שנדרשו - תימסר 2\nלתובע במועד התשלום הודעה בכתב הכוללת שני חלקים כמפורט להלן: שיפרט את מרכיביו של התשלום שאושר בהתאם למפורט לעיל; החלק הראשון, , שיפרט את הנימוקים לדחיית חלק מהתביעה, כמפורט בהמשך. החלק השני\nבכל מקרה בו נתקבלה החלטה על תשלום התביעה, לא יהיה צורך במשלוח המסמכים המפורטים בסעיף ד' לעיל, למעט העתק מערכת כללים זו.",
-  "embed_text": "הראל תציע לתובע הצעת פשרה סבירה למועד ההצעה. הצעת הפשרה הכתובה תכלול את מקרה הביטוח, הנימוקים שביסוד הפשרה, מרכיבי התשלום שאינם שנויים במחלוקת ככל שישנם. לדוגמה, אם נתקבלה החלטה על תשלום חלקי של התביעה תוך דחיית חלק מהתביעה, תימסר לתובע הודעה בכתב הכוללת שני חלקים.",
-  "payload": "טבלה: כללי תביעות סיעודיות\nThis table outlines the rules for claim review and settlement for long-term care insurance (ביטוח סיעודי). It details the information provided to the claimant regarding partial payments and claim rejections.\nממדים: claim decision/notification type, details of notification content\n\n.  אם נתקבלה החלטה על תשלום חלקי של התביעה תוך דחיית חלק מהתביעה לגבי סכומים שנדרשו או חלק מהעילות שנדרשו - תימסר 2\nלתובע במועד התשלום הודעה בכתב הכוללת שני חלקים כמפורט להלן: שיפרט את מרכיביו של התשלום שאושר בהתאם למפורט לעיל; החלק הראשון, , שיפרט את הנימוקים לדחיית חלק מהתביעה, כמפורט בהמשך. החלק השני\nבכל מקרה בו נתקבלה החלטה על תשלום התביעה, לא יהיה צורך במשלוח המסמכים המפורטים בסעיף ד' לעיל, למעט העתק מערכת כללים זו."
+  "embed_text": "טבלה זו מתארת את הכללים לבירור תביעות סיעודיות, כולל אופן מתן הודעה ללקוח במקרה של תשלום חלקי או מלא של התביעה. המידע המועבר כולל פירוט מרכיבי התשלום שאושרו, ונימוקים לדחיית חלק מהתביעה במידה וישנם. הראל ביטוח סיעודי מציעה הצעות פשרה סבירות, ומודיעה על הסכום שנקבע בפשרה והפער בינו לבין הסכום לתשלום. ביטוח סיעודי, תשלום תביעה, פשרה, דחיית תביעה, נימוקים לדחייה, הראל. This table outlines the rules for acknowledging and settling long-term care claims, and handling public inquiries. It details the information provided to claimants regarding partial or full claim payments. בין הערכים בטבלה: תשלום מלא: העתק מערכת כללים זו; הצעת פשרה: זמן סביר לעיון בתנאים.",
+  "payload": "טבלה: כללים לבירור תביעות סיעודיות\nThis table outlines the rules for acknowledging and settling long-term care claims, and handling public inquiries. It details the information provided to claimants regarding partial or full claim payments.\nממדים: סוג החלטה / שלב בתהליך, פרטי ההודעה / מידע ללקוח\n\n.  אם נתקבלה החלטה על תשלום חלקי של התביעה תוך דחיית חלק מהתביעה לגבי סכומים שנדרשו או חלק מהעילות שנדרשו - תימסר 2\nלתובע במועד התשלום הודעה בכתב הכוללת שני חלקים כמפורט להלן: שיפרט את מרכיביו של התשלום שאושר בהתאם למפורט לעיל; החלק הראשון, , שיפרט את הנימוקים לדחיית חלק מהתביעה, כמפורט בהמשך. החלק השני\nבכל מקרה בו נתקבלה החלטה על תשלום התביעה, לא יהיה צורך במשלוח המסמכים המפורטים בסעיף ד' לעיל, למעט העתק מערכת כללים זו."
 }

@@ -2,26 +2,22 @@
   "id": "pdf:car/files/פוליסה-לביטוח-ציוד-מכני-הנדסי-הראל-לתעשייה-מהדורת-ספטמבר-2016.pdf#61",
   "source": "llm",
   "description": {
-    "title": "ציוד מכני הנדסי - הראל לתעשייה",
-    "summary": "This table details coverage for absolute loss of insured mechanical and engineering equipment under a Harel Latia policy. It outlines compensation limits for replacement costs and covered expenses related to damage.",
-    "embed_passage": "פוליסת ביטוח ציוד מכני הנדסי של הראל לתעשייה מכסה אובדן מוחלט של ציוד, ומספקת שיפוי על ערך השוק של הפריט שניזוק. במקרה של רכישת ציוד חלופי, השיפוי מוגבל ל־10% מערך השוק של הפריט המקורי בתוספת 25% מסכום הביטוח. הוצאות נוספות כמו משלוח אווירי ועבודה מיוחדת מכוסות, אך מוגבלות לאחריות המבטח.",
-    "row_axis": "Coverage scenarios (e.g., replacement of lost equipment, covered expenses)",
-    "column_axis": "Compensation details (e.g., percentage of market value, expense limits)",
-    "units": [
-      "%",
-      "₪"
-    ],
+    "title": "שיפוי בגין אבדן מוחלט",
+    "summary": "This table details the compensation provided by Harel insurance for total loss of insured equipment. It outlines the conditions and limits for replacement costs and related expenses.",
+    "embed_passage": "טבלה זו מתייחסת לפוליסת ביטוח ציוד מכני הנדסי של הראל לתעשייה, ומפרטת את תנאי השיפוי במקרה של אבדן מוחלט של רכוש מבוטח. ניתן לבדוק את גובה הפיצוי עבור הוצאות נלוות לנזק, כגון משלוח אווירי ושעות נוספות, בהתאם למסכום הביטוח של הפריט שניזוק. הפריט שנגרם לו אבדן מוחלט, בתוספת 10% מערך השוק של הפריט, וכן הוצאות שהוציא המבוטח עקב הנזק המכוסה, כגון משלוח אווירי, שעות נוספות ועבודה בשבתות ובחגים. אחריות המבטח בגין הוצאות אלו מוגבלת ל-25% מסכום הביטוח של הפריט שניזוק.",
+    "row_axis": "conditions for compensation",
+    "column_axis": "compensation details",
+    "units": [],
     "notable_values": [
-      "replacement limit: 10%",
-      "insurance amount limit: 25%",
-      "absolute loss threshold: 75%"
+      "replacement cost limit: 10%",
+      "maximum liability for expenses: 25%",
+      "total loss definition: repair cost exceeds actual cash value"
     ],
     "product_hints": [
-      "ביטוח ציוד מכני הנדסי",
-      "הראל לתעשייה"
+      "ביטוח ציוד מכני הנדסי הראל לתעשייה"
     ]
   },
   "sketch": "אם המבוטח ירכוש פריט ציוד חלופי במקום הפריט שנגרם לו אבדן מוחלט, ישפה אותו המבטח בגין התשלום ששילם בפועל, ובלבד שלא יעלה על ערך השוק של .10% הפריט שנגרם לו האבדן המוחלט, בתוספת\nהשיפוי יכלול הוצאות שהוציא המבוטח עקב נזק המכוסה בפוליסה, בגין משלוח ג. אווירי, שעות נוספות ועבודה בשבתות, בחגים ובמועדי ישראל. , מסכום הביטוח של הפריט שניזוק 25%אחריות המבטח בגין סעיף זה מוגבלת ל\nובלבד שדחיפות ההוצאה אושרה על ידי המבטח.",
-  "embed_text": "פוליסת ביטוח ציוד מכני הנדסי של הראל לתעשייה מכסה אובדן מוחלט של ציוד, ומספקת שיפוי על ערך השוק של הפריט שניזוק. במקרה של רכישת ציוד חלופי, השיפוי מוגבל ל־10% מערך השוק של הפריט המקורי בתוספת 25% מסכום הביטוח. הוצאות נוספות כמו משלוח אווירי ועבודה מיוחדת מכוסות, אך מוגבלות לאחריות המבטח.",
-  "payload": "טבלה: ציוד מכני הנדסי - הראל לתעשייה\nThis table details coverage for absolute loss of insured mechanical and engineering equipment under a Harel Latia policy. It outlines compensation limits for replacement costs and covered expenses related to damage.\nממדים: Coverage scenarios (e.g., replacement of lost equipment, covered expenses), Compensation details (e.g., percentage of market value, expense limits)\n\nאם המבוטח ירכוש פריט ציוד חלופי במקום הפריט שנגרם לו אבדן מוחלט, ישפה אותו המבטח בגין התשלום ששילם בפועל, ובלבד שלא יעלה על ערך השוק של .10% הפריט שנגרם לו האבדן המוחלט, בתוספת\nהשיפוי יכלול הוצאות שהוציא המבוטח עקב נזק המכוסה בפוליסה, בגין משלוח ג. אווירי, שעות נוספות ועבודה בשבתות, בחגים ובמועדי ישראל. , מסכום הביטוח של הפריט שניזוק 25%אחריות המבטח בגין סעיף זה מוגבלת ל\nובלבד שדחיפות ההוצאה אושרה על ידי המבטח."
+  "embed_text": "טבלה זו מתייחסת לפוליסת ביטוח ציוד מכני הנדסי של הראל לתעשייה, ומפרטת את תנאי השיפוי במקרה של אבדן מוחלט של רכוש מבוטח. ניתן לבדוק את גובה הפיצוי עבור הוצאות נלוות לנזק, כגון משלוח אווירי ושעות נוספות, בהתאם למסכום הביטוח של הפריט שניזוק. הפריט שנגרם לו אבדן מוחלט, בתוספת 10% מערך השוק של הפריט, וכן הוצאות שהוציא המבוטח עקב הנזק המכוסה, כגון משלוח אווירי, שעות נוספות ועבודה בשבתות ובחגים. אחריות המבטח בגין הוצאות אלו מוגבלת ל-25% מסכום הביטוח של הפריט שניזוק. This table details the compensation provided by Harel insurance for total loss of insured equipment. It outlines the conditions and limits for replacement costs and related expenses. בין הערכים בטבלה: total loss definition: repair cost exceeds actual cash value.",
+  "payload": "טבלה: שיפוי בגין אבדן מוחלט\nThis table details the compensation provided by Harel insurance for total loss of insured equipment. It outlines the conditions and limits for replacement costs and related expenses.\nממדים: conditions for compensation, compensation details\n\nאם המבוטח ירכוש פריט ציוד חלופי במקום הפריט שנגרם לו אבדן מוחלט, ישפה אותו המבטח בגין התשלום ששילם בפועל, ובלבד שלא יעלה על ערך השוק של .10% הפריט שנגרם לו האבדן המוחלט, בתוספת\nהשיפוי יכלול הוצאות שהוציא המבוטח עקב נזק המכוסה בפוליסה, בגין משלוח ג. אווירי, שעות נוספות ועבודה בשבתות, בחגים ובמועדי ישראל. , מסכום הביטוח של הפריט שניזוק 25%אחריות המבטח בגין סעיף זה מוגבלת ל\nובלבד שדחיפות ההוצאה אושרה על ידי המבטח."
 }

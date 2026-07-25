@@ -3,23 +3,21 @@
   "source": "llm",
   "description": {
     "title": "שיפוי שכר טרחה והוצאות",
-    "summary": "This table details coverage for legal fees and defense costs related to car accidents. It outlines when the insurer will provide a lawyer or reimburse the insured for legal expenses.",
-    "embed_passage": "פוליסת ביטוח רכב הראל סוויץ׳ מספקת כיסוי להוצאות הגנה בהליכים משפטיים הקשורים לתאונות דרכים. במקרה של הליכים כאלו, המבטח ישפה את המבוטח בשכר טרחה והוצאות, עד לסכום המינימאלי הקבוע בתקנות עפ״י חוק לשכת עורכי הדין או שכר טרחת עורך דין מקובל, הגבוה ביניהם.",
-    "row_axis": "conditions for coverage of legal fees/expenses",
-    "column_axis": "details of coverage (e.g., lawyer provision, reimbursement amount)",
+    "summary": "This table details the coverage for legal fees and defense costs related to car accidents. It outlines conditions under which the insurer will cover attorney fees and defense expenses for the insured.",
+    "embed_passage": "טבלה זו מתארת את הכיסוי עבור שכר טרחה והוצאות הגנה הקשורות לתאונות דרכים, במסגרת פוליסת ביטוח רכב הראל סוויץ. ניתן לבדוק את התנאים לתחולת הכיסוי, את הסכומים המקסימליים להחזר הוצאות, ואת ההליכים המשפטיים המכוסים. הטבלה מתייחסת להוצאות הגנה, שכר טרחה, ערעורים, ותקנות לשכת עורכי הדין. שכר טרחה, הוצאות הגנה, ערעור, תקנות עורכי הדין, הליכים משפטיים, המבטח, המבוטח.",
+    "row_axis": "conditions for coverage of legal fees and defense costs",
+    "column_axis": "details of coverage (e.g., attorney fees, defense expenses)",
     "units": [],
     "notable_values": [
-      "סעיף: 18.1",
-      "סעיף: 18.1.1",
-      "סעיף: 18.1.2",
-      "סעיף: 18.1.3"
+      "שכר טרחה: סכום מינימאלי הקבוע בתקנות עפ״י חוק לשכת עורכי הדין",
+      "שכר טרחה: שכר טרחת עורך דין על פי התעריפים המינימליים המקובלים אצל המבטח",
+      "ערעור: עד ערכאה סופית"
     ],
     "product_hints": [
-      "הראל סוויץ'",
-      "ביטוח רכב"
+      "פוליסת ביטוח רכב הראל סוויץ"
     ]
   },
   "sketch": ". שיפוי שכר טרחה והוצאות 18.1\n. בהתקיים התנאים לתחולת כיסוי זה, על המבוטח לפנות אל המבטח, ובכפוף 18.1.1 לתנאים וההסתייגויות המפורטים להלן מתחייב המבטח להעמיד למבוטח על\nחשבונו עורך דין על פי בחירתו לשם מתן הגנה בהליכים משפטיים שהוגשו נגד המבוטח בקשר לתאונה.\n, רשאי המבוטח לפנות לכל 18.1.1 . לא העמיד המבטח עורך דין בהתאם לסעיף 18.1.2 עורך דין על פי בחירתו לשם מתן הגנה בהליכים משפטיים כאמור, ובמקרה כזה ישפה המבטח את המבוטח בשכר הטרחה )בסכום המינימאלי הקבוע בתקנות עפ\"י חוק לשכת עורכי הדין או שכר טרחת עורך דין על פי התעריפים המינימליים ( המקובלים אצל המבטח לשם ייצוג מבוטחים בהליכים כאמור - הגבוה ביניהם ובהוצאות ההגנה ששולמו על ידי המבוטח.",
-  "embed_text": "פוליסת ביטוח רכב הראל סוויץ׳ מספקת כיסוי להוצאות הגנה בהליכים משפטיים הקשורים לתאונות דרכים. במקרה של הליכים כאלו, המבטח ישפה את המבוטח בשכר טרחה והוצאות, עד לסכום המינימאלי הקבוע בתקנות עפ״י חוק לשכת עורכי הדין או שכר טרחת עורך דין מקובל, הגבוה ביניהם.",
-  "payload": "טבלה: שיפוי שכר טרחה והוצאות\nThis table details coverage for legal fees and defense costs related to car accidents. It outlines when the insurer will provide a lawyer or reimburse the insured for legal expenses.\nממדים: conditions for coverage of legal fees/expenses, details of coverage (e.g., lawyer provision, reimbursement amount)\n\n. שיפוי שכר טרחה והוצאות 18.1\n. בהתקיים התנאים לתחולת כיסוי זה, על המבוטח לפנות אל המבטח, ובכפוף 18.1.1 לתנאים וההסתייגויות המפורטים להלן מתחייב המבטח להעמיד למבוטח על\nחשבונו עורך דין על פי בחירתו לשם מתן הגנה בהליכים משפטיים שהוגשו נגד המבוטח בקשר לתאונה.\n, רשאי המבוטח לפנות לכל 18.1.1 . לא העמיד המבטח עורך דין בהתאם לסעיף 18.1.2 עורך דין על פי בחירתו לשם מתן הגנה בהליכים משפטיים כאמור, ובמקרה כזה ישפה המבטח את המבוטח בשכר הטרחה )בסכום המינימאלי הקבוע בתקנות עפ\"י חוק לשכת עורכי הדין או שכר טרחת עורך דין על פי התעריפים המינימליים ( המקובלים אצל המבטח לשם ייצוג מבוטחים בהליכים כאמור - הגבוה ביניהם ובהוצאות ההגנה ששולמו על ידי המבוטח."
+  "embed_text": "טבלה זו מתארת את הכיסוי עבור שכר טרחה והוצאות הגנה הקשורות לתאונות דרכים, במסגרת פוליסת ביטוח רכב הראל סוויץ. ניתן לבדוק את התנאים לתחולת הכיסוי, את הסכומים המקסימליים להחזר הוצאות, ואת ההליכים המשפטיים המכוסים. הטבלה מתייחסת להוצאות הגנה, שכר טרחה, ערעורים, ותקנות לשכת עורכי הדין. שכר טרחה, הוצאות הגנה, ערעור, תקנות עורכי הדין, הליכים משפטיים, המבטח, המבוטח. This table details the coverage for legal fees and defense costs related to car accidents. It outlines conditions under which the insurer will cover attorney fees and defense expenses for the insured.",
+  "payload": "טבלה: שיפוי שכר טרחה והוצאות\nThis table details the coverage for legal fees and defense costs related to car accidents. It outlines conditions under which the insurer will cover attorney fees and defense expenses for the insured.\nממדים: conditions for coverage of legal fees and defense costs, details of coverage (e.g., attorney fees, defense expenses)\n\n. שיפוי שכר טרחה והוצאות 18.1\n. בהתקיים התנאים לתחולת כיסוי זה, על המבוטח לפנות אל המבטח, ובכפוף 18.1.1 לתנאים וההסתייגויות המפורטים להלן מתחייב המבטח להעמיד למבוטח על\nחשבונו עורך דין על פי בחירתו לשם מתן הגנה בהליכים משפטיים שהוגשו נגד המבוטח בקשר לתאונה.\n, רשאי המבוטח לפנות לכל 18.1.1 . לא העמיד המבטח עורך דין בהתאם לסעיף 18.1.2 עורך דין על פי בחירתו לשם מתן הגנה בהליכים משפטיים כאמור, ובמקרה כזה ישפה המבטח את המבוטח בשכר הטרחה )בסכום המינימאלי הקבוע בתקנות עפ\"י חוק לשכת עורכי הדין או שכר טרחת עורך דין על פי התעריפים המינימליים ( המקובלים אצל המבטח לשם ייצוג מבוטחים בהליכים כאמור - הגבוה ביניהם ובהוצאות ההגנה ששולמו על ידי המבוטח."
 }

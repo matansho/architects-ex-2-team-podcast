@@ -2,27 +2,30 @@
   "id": "pdf:travel/files/גבולות-אחריות-דרכון-first-class.pdf#6",
   "source": "llm",
   "description": {
-    "title": "ביטול נסיעה וקיצור",
-    "summary": "This table details coverage for trip cancellation, interruption, and related expenses under a 'דרכון' travel insurance policy. It shows maximum reimbursement amounts for various scenarios, such as medical events or epidemics.",
-    "embed_passage": "פוליסת 'דרכון' מספקת כיסוי עבור ביטול נסיעה וקיצור, כולל החזר הוצאות לינה. סכום ההחזר המקסימלי עבור לינה יכול להגיע עד $ 5,000 ליום, ועד $ 2,000 כולל. הכיסוי כולל גם מקרים של מגיפה.",
-    "row_axis": "type of coverage / event (e.g., trip cancellation, trip interruption)",
-    "column_axis": "coverage amount / limit",
+    "title": "גבולות אחריות דרכון",
+    "summary": "This table details coverage limits for travel insurance, specifically for trip cancellation, interruption, and related expenses. It shows maximum reimbursement amounts for various scenarios, such as medical events, epidemics, and accommodation costs.",
+    "embed_passage": "טבלה זו מציגה את גבולות האחריות של פוליסת דרכון לנסיעות, הכוללים ביטול נסיעה, קיצור נסיעה והוצאות נלוות. ניתן למצוא כאן את הסכומים המקסימליים להחזר עבור מקרים שונים, כגון אירועים רפואיים, מגיפות והוצאות לינה. הפוליסה הבסיסית כוללת כיסוי, וניתן לבקש להסירו. גבולות האחריות מפורטים עבור ביטול נסיעה, קיצור נסיעה, הוצאות לינה, וכן הרחבות כגון הגדלת תקרת ההחזר עבור מגיפה. נסיעה ביטול נסיעה וקיצור, רפואי אירוע של במקרה שבוטל נסיעה כרטיס עבור החזר מגיפה עקב, לינה הוצאות בגין.",
+    "row_axis": "type of travel disruption/expense",
+    "column_axis": "coverage limit/amount",
     "units": [
       "$",
       "₪"
     ],
     "notable_values": [
-      "maximum reimbursement for lodging: $ 1,000",
-      "maximum reimbursement for lodging (with epidemic coverage): $ 5,000",
-      "epidemic coverage addition: $ 2,000",
-      "daily lodging expense limit: $ 150",
-      "trip cancellation/interruption base coverage: $ 1,000"
+      "ביטול נסיעה וקיצור: $ 50",
+      "ביטול נסיעה וקיצור: $ 1,000",
+      "רפואי אירוע של במקרה שבוטל נסיעה כרטיס עבור החזר מגיפה עקב: $ 400",
+      "לינה הוצאות בגין ליום: $ 150",
+      "לינה הוצאות בגין ליום (מרבי): $ 1,000",
+      "מגיפה (עקב נסיעה ביטול): $ 2,000",
+      "לינה הוצאות ליום (כולל לסך): $ 5,000",
+      "הגדלת תקרת ההחזר עבור מגיפה: $ 2,000"
     ],
     "product_hints": [
       "דרכון"
     ]
   },
   "sketch": "ה כרטיס ומתוכו:,נסיעה ביטול נסיעה וקיצור\n$ 50,\"$ 1,000\",נסיעה קיצור ללא - נסיעה תכנית שינוי,נסיעה ביטול נסיעה וקיצור\nה.ע ללא,$ 400,רפואי אירוע של במקרה שבוטל נסיעה כרטיס עבור החזר מגיפה עקב,נסיעה ביטול נסיעה וקיצור\nה.ע ללא,\"לינה הוצאות בגין ליום $ 150 $ 1,000 של מרבי לסך ועד\",\"מגיפה עקב רפואי אירוע של במקרה בחו\"\"ל תשלומים הפסד\",נסיעה ביטול נסיעה וקיצור\n,,בזמן נסיעה וקיצור לביטול להרחבה ההחזר תקרה הגדלת נוספים( ביטוח דמי )תמורת מגיפה:,נסיעה ביטול נסיעה וקיצור\n,\"ועד לינה הוצאות ליום $ 150 $ 5,000 של כולל לסך $ 2,000\",מגיפה( )עקב נסיעה ביטול למבוטח נסיעה כרטיס ומתוכו:,נסיעה ביטול נסיעה וקיצור\n,\"ועד לינה הוצאות ליום $ 150 $ 5,000 של כולל לסך $ 2,000\",\"בחו\"\"ל שהות קיצור או הארכה למבוטח נסיעה כרטיס ומתוכו: לינה הוצאות בגין\",נסיעה ביטול",
-  "embed_text": "פוליסת 'דרכון' מספקת כיסוי עבור ביטול נסיעה וקיצור, כולל החזר הוצאות לינה. סכום ההחזר המקסימלי עבור לינה יכול להגיע עד $ 5,000 ליום, ועד $ 2,000 כולל. הכיסוי כולל גם מקרים של מגיפה.",
-  "payload": "טבלה: ביטול נסיעה וקיצור\nThis table details coverage for trip cancellation, interruption, and related expenses under a 'דרכון' travel insurance policy. It shows maximum reimbursement amounts for various scenarios, such as medical events or epidemics.\nממדים: type of coverage / event (e.g., trip cancellation, trip interruption), coverage amount / limit\n\nה כרטיס ומתוכו:,נסיעה ביטול נסיעה וקיצור\n$ 50,\"$ 1,000\",נסיעה קיצור ללא - נסיעה תכנית שינוי,נסיעה ביטול נסיעה וקיצור\nה.ע ללא,$ 400,רפואי אירוע של במקרה שבוטל נסיעה כרטיס עבור החזר מגיפה עקב,נסיעה ביטול נסיעה וקיצור\nה.ע ללא,\"לינה הוצאות בגין ליום $ 150 $ 1,000 של מרבי לסך ועד\",\"מגיפה עקב רפואי אירוע של במקרה בחו\"\"ל תשלומים הפסד\",נסיעה ביטול נסיעה וקיצור\n,,בזמן נסיעה וקיצור לביטול להרחבה ההחזר תקרה הגדלת נוספים( ביטוח דמי )תמורת מגיפה:,נסיעה ביטול נסיעה וקיצור\n,\"ועד לינה הוצאות ליום $ 150 $ 5,000 של כולל לסך $ 2,000\",מגיפה( )עקב נסיעה ביטול למבוטח נסיעה כרטיס ומתוכו:,נסיעה ביטול נסיעה וקיצור\n,\"ועד לינה הוצאות ליום $ 150 $ 5,000 של כולל לסך $ 2,000\",\"בחו\"\"ל שהות קיצור או הארכה למבוטח נסיעה כרטיס ומתוכו: לינה הוצאות בגין\",נסיעה ביטול"
+  "embed_text": "טבלה זו מציגה את גבולות האחריות של פוליסת דרכון לנסיעות, הכוללים ביטול נסיעה, קיצור נסיעה והוצאות נלוות. ניתן למצוא כאן את הסכומים המקסימליים להחזר עבור מקרים שונים, כגון אירועים רפואיים, מגיפות והוצאות לינה. הפוליסה הבסיסית כוללת כיסוי, וניתן לבקש להסירו. גבולות האחריות מפורטים עבור ביטול נסיעה, קיצור נסיעה, הוצאות לינה, וכן הרחבות כגון הגדלת תקרת ההחזר עבור מגיפה. נסיעה ביטול נסיעה וקיצור, רפואי אירוע של במקרה שבוטל נסיעה כרטיס עבור החזר מגיפה עקב, לינה הוצאות בגין. This table details coverage limits for travel insurance, specifically for trip cancellation, interruption, and related expenses. It shows maximum reimbursement amounts for various scenarios, such as medical events, epidemics, and accommodation costs. בין הערכים בטבלה: לינה הוצאות בגין ליום: $ 150; לינה הוצאות בגין ליום (מרבי…",
+  "payload": "טבלה: גבולות אחריות דרכון\nThis table details coverage limits for travel insurance, specifically for trip cancellation, interruption, and related expenses. It shows maximum reimbursement amounts for various scenarios, such as medical events, epidemics, and accommodation costs.\nממדים: type of travel disruption/expense, coverage limit/amount\n\nה כרטיס ומתוכו:,נסיעה ביטול נסיעה וקיצור\n$ 50,\"$ 1,000\",נסיעה קיצור ללא - נסיעה תכנית שינוי,נסיעה ביטול נסיעה וקיצור\nה.ע ללא,$ 400,רפואי אירוע של במקרה שבוטל נסיעה כרטיס עבור החזר מגיפה עקב,נסיעה ביטול נסיעה וקיצור\nה.ע ללא,\"לינה הוצאות בגין ליום $ 150 $ 1,000 של מרבי לסך ועד\",\"מגיפה עקב רפואי אירוע של במקרה בחו\"\"ל תשלומים הפסד\",נסיעה ביטול נסיעה וקיצור\n,,בזמן נסיעה וקיצור לביטול להרחבה ההחזר תקרה הגדלת נוספים( ביטוח דמי )תמורת מגיפה:,נסיעה ביטול נסיעה וקיצור\n,\"ועד לינה הוצאות ליום $ 150 $ 5,000 של כולל לסך $ 2,000\",מגיפה( )עקב נסיעה ביטול למבוטח נסיעה כרטיס ומתוכו:,נסיעה ביטול נסיעה וקיצור\n,\"ועד לינה הוצאות ליום $ 150 $ 5,000 של כולל לסך $ 2,000\",\"בחו\"\"ל שהות קיצור או הארכה למבוטח נסיעה כרטיס ומתוכו: לינה הוצאות בגין\",נסיעה ביטול"
 }

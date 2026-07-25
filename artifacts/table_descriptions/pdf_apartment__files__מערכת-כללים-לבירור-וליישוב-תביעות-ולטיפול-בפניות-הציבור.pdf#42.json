@@ -2,24 +2,22 @@
   "id": "pdf:apartment/files/מערכת-כללים-לבירור-וליישוב-תביעות-ולטיפול-בפניות-הציבור.pdf#42",
   "source": "llm",
   "description": {
-    "title": "העתקי מסמכים",
-    "summary": "This table details the timeframe for הראל to provide copies of policy documents to a claimant. It specifies the number of business days allowed for fulfilling requests for policies, regulations, and signed documents.",
-    "embed_passage": "הראל תמסור לתובע, לפי בקשתו, העתק מן הפוליסה או מהתקנון, בתוך ארבעה עשר ימי עסקים ממועד קבלת הבקשה. ניתן להפנות תובע שהינו צד שלישי בביטוח אחריות לנוסח הפוליסה שנמצא באתר האינטרנט. הראל תמסור לתובע גם עותקים של מסמכים עליהם חתם התובע בתוך עשרים ואחד ימי עסקים.",
-    "row_axis": "Type of document requested",
-    "column_axis": "Response timeframe (business days)",
+    "title": "מתן העתקים",
+    "summary": "This table details the timeframe for providing copies of policy documents to claimants, as requested. It specifies the number of business days allowed for fulfilling these requests.",
+    "embed_passage": "טבלה זו מתארת את מסגרת הזמן למתן העתקים של מסמכי הפוליסה למבוקשים, בהתאם לבקשתם. הראל תמסור העתק של הפוליסה או התקנון בתוך ארבעה עשר ימי עסקים, ותמסור העתקים של מסמכים אחרים החתומים או שנמסרו על ידי התובע בתוך עשרים ואחד ימי עסקים. ניתן להפנות צד שלישי בביטוח אחריות לנוסח הפוליסה באתר האינטרנט. מסמכים רלוונטיים כוללים פוליסה, תקנון, וכל מסמך עליו חתם התובע. הראל תספק העתקים לפי בקשה.",
+    "row_axis": "Type of document request",
+    "column_axis": "Timeframe for providing copy (business days)",
     "units": [
       "ימי עסקים"
     ],
     "notable_values": [
-      "פוליסה/תקנון: 14",
-      "צד שלישי (הפניה לאתר): לא מצוין",
-      "מסמכים חתומים: 21"
+      "פוליסה או תקנון: 14",
+      "מסמכים אחרים: 21",
+      "צד שלישי בביטוח אחריות: הפניה לאתר האינטרנט"
     ],
-    "product_hints": [
-      "הראל"
-    ]
+    "product_hints": []
   },
   "sketch": ". יח מתן העתקים\nהראל תמסור לתובע, לפי בקשתו, העתק מן הפוליסה או מהתקנון, בתוך ארבעה .1 . עשר ימי עסקים ממועד קבלת הבקשה\nלמרות האמור לעיל, ניתן להפנות תובע שהינו צד שלישי בביטוח אחריות לנוסח .2 הפוליסה שנמצא באתר האינטרנט.\n, הראל תמסור לתובע, לפי בקשתו, העתקים מכל מסמך אשר התובע חתום עליו .3 מכל מסמך אשר נמסר לה על ידי התובע, או מכל מסמך אשר התקבל אצלה מכוח הסכמת התובע, בתוך עשרים ואחד ימי עסקים ממועד קבלת הבקשה.",
-  "embed_text": "הראל תמסור לתובע, לפי בקשתו, העתק מן הפוליסה או מהתקנון, בתוך ארבעה עשר ימי עסקים ממועד קבלת הבקשה. ניתן להפנות תובע שהינו צד שלישי בביטוח אחריות לנוסח הפוליסה שנמצא באתר האינטרנט. הראל תמסור לתובע גם עותקים של מסמכים עליהם חתם התובע בתוך עשרים ואחד ימי עסקים.",
-  "payload": "טבלה: העתקי מסמכים\nThis table details the timeframe for הראל to provide copies of policy documents to a claimant. It specifies the number of business days allowed for fulfilling requests for policies, regulations, and signed documents.\nממדים: Type of document requested, Response timeframe (business days)\n\n. יח מתן העתקים\nהראל תמסור לתובע, לפי בקשתו, העתק מן הפוליסה או מהתקנון, בתוך ארבעה .1 . עשר ימי עסקים ממועד קבלת הבקשה\nלמרות האמור לעיל, ניתן להפנות תובע שהינו צד שלישי בביטוח אחריות לנוסח .2 הפוליסה שנמצא באתר האינטרנט.\n, הראל תמסור לתובע, לפי בקשתו, העתקים מכל מסמך אשר התובע חתום עליו .3 מכל מסמך אשר נמסר לה על ידי התובע, או מכל מסמך אשר התקבל אצלה מכוח הסכמת התובע, בתוך עשרים ואחד ימי עסקים ממועד קבלת הבקשה."
+  "embed_text": "טבלה זו מתארת את מסגרת הזמן למתן העתקים של מסמכי הפוליסה למבוקשים, בהתאם לבקשתם. הראל תמסור העתק של הפוליסה או התקנון בתוך ארבעה עשר ימי עסקים, ותמסור העתקים של מסמכים אחרים החתומים או שנמסרו על ידי התובע בתוך עשרים ואחד ימי עסקים. ניתן להפנות צד שלישי בביטוח אחריות לנוסח הפוליסה באתר האינטרנט. מסמכים רלוונטיים כוללים פוליסה, תקנון, וכל מסמך עליו חתם התובע. הראל תספק העתקים לפי בקשה. This table details the timeframe for providing copies of policy documents to claimants, as requested. It specifies the number of business days allowed for fulfilling these requests. בין הערכים בטבלה: פוליסה או תקנון: 14.",
+  "payload": "טבלה: מתן העתקים\nThis table details the timeframe for providing copies of policy documents to claimants, as requested. It specifies the number of business days allowed for fulfilling these requests.\nממדים: Type of document request, Timeframe for providing copy (business days)\n\n. יח מתן העתקים\nהראל תמסור לתובע, לפי בקשתו, העתק מן הפוליסה או מהתקנון, בתוך ארבעה .1 . עשר ימי עסקים ממועד קבלת הבקשה\nלמרות האמור לעיל, ניתן להפנות תובע שהינו צד שלישי בביטוח אחריות לנוסח .2 הפוליסה שנמצא באתר האינטרנט.\n, הראל תמסור לתובע, לפי בקשתו, העתקים מכל מסמך אשר התובע חתום עליו .3 מכל מסמך אשר נמסר לה על ידי התובע, או מכל מסמך אשר התקבל אצלה מכוח הסכמת התובע, בתוך עשרים ואחד ימי עסקים ממועד קבלת הבקשה."
 }

@@ -3,25 +3,20 @@
   "source": "llm",
   "description": {
     "title": "הנחות ד",
-    "summary": "This table details discounts available to the insured for car rental services, specifically related to additional days and engine size upgrades. It outlines the conditions and costs associated with these options.",
-    "embed_passage": "פוליסת ביטוח רכב פרטי ומסחרי מציעה הנחות על שירותים כגון ימי השכרה נוספים והחלפת סוג הרכב. לדוגמה, מבוטח זכאי להנחה על רכב בעל נפח מנוע עד 1,300 סמ״ק, וייתכן שיישא בעלות של 150 ק״מ ליום עבור שדרוג לרכב בעל נפח מנוע גדול יותר.",
-    "row_axis": "Discount type/condition",
-    "column_axis": "Details of the discount (e.g., engine size, additional costs)",
-    "units": [
-      "סמ״ק",
-      "ק״מ ליום"
-    ],
+    "summary": "This table details discounts available to the insured for additional rental days or upgrading the vehicle. It specifies discounts based on engine displacement.",
+    "embed_passage": "טבלה זו מפרטת הנחות הניתנות למבוטח עבור ימי השכרה נוספים או שדרוג הרכב, בהתאם לנפח המנוע. ניתן לבדוק את ההנחות הזמינות עבור רכבים בעלי נפח מנוע שונה, כפי שמצוין בפוליסת הביטוח. פוליסה לביטוח רכב פרטי ומסחרי עד 35 טון מהדורת יוני 2023 מציעה הנחות על שירותים כגון ימי השכרה נוספים והחלפת סוג הרכב. הנחות ניתנות עבור רכבים בעלי נפח מנוע של עד 1,300 סמ״ק, וכן עבור רכבים בעלי נפח מנוע גדול יותר. במקרה של שדרוג רכב, יש לשלם דמי ביטוח והפרשי ק״מ נוספים.",
+    "row_axis": "Vehicle upgrade/additional days",
+    "column_axis": "Discount details",
+    "units": [],
     "notable_values": [
-      "נפח מנוע: 1,300 סמ״ק",
-      "ק״מ נוספים: 150 ק״מ ליום",
-      "הנחה: מהמחירון לבודד"
+      "Engine displacement: עד 1,300 סמ״ק",
+      "Kilometers per day: 150 ק״מ ליום"
     ],
     "product_hints": [
-      "ביטוח רכב",
-      "פוליסת ביטוח רכב פרטי ומסחרי"
+      "פוליסה לביטוח רכב פרטי ומסחרי"
     ]
   },
   "sketch": "הנחות ד.\n.  המבוטח זכאי להנחה )מהמחירון לבודד שבתוקף באותה עת( בגין השירותים הבאים: ימי 1 השכרה נוספים מעבר לתקופת הזכאות, והחלפת סוג המכונית מרכב אוטומטי קטן בעל נפח סמ\"ק )או כפי שמופיע בפוליסת הביטוח( לרכב בעל נפח מנוע גדול יותר. 1,300 מנוע עד\n1,300 .  בחר המבוטח להחליף את סוג המכונית מרכב אוטומטי קטן בעל נפח מנוע עד 2 סמ\"ק )או כפי שמופיע בפוליסת הביטוח( לרכב בעל נפח מנוע גדול יותר, יישא בעצמו ק\"מ ליום, זאת בנוסף לאמור 150בעלות הפרשי דמי הביטוח ובק״מ נוספים מעבר ל לעיל. 1 בסעיף",
-  "embed_text": "פוליסת ביטוח רכב פרטי ומסחרי מציעה הנחות על שירותים כגון ימי השכרה נוספים והחלפת סוג הרכב. לדוגמה, מבוטח זכאי להנחה על רכב בעל נפח מנוע עד 1,300 סמ״ק, וייתכן שיישא בעלות של 150 ק״מ ליום עבור שדרוג לרכב בעל נפח מנוע גדול יותר.",
-  "payload": "טבלה: הנחות ד\nThis table details discounts available to the insured for car rental services, specifically related to additional days and engine size upgrades. It outlines the conditions and costs associated with these options.\nממדים: Discount type/condition, Details of the discount (e.g., engine size, additional costs)\n\nהנחות ד.\n.  המבוטח זכאי להנחה )מהמחירון לבודד שבתוקף באותה עת( בגין השירותים הבאים: ימי 1 השכרה נוספים מעבר לתקופת הזכאות, והחלפת סוג המכונית מרכב אוטומטי קטן בעל נפח סמ\"ק )או כפי שמופיע בפוליסת הביטוח( לרכב בעל נפח מנוע גדול יותר. 1,300 מנוע עד\n1,300 .  בחר המבוטח להחליף את סוג המכונית מרכב אוטומטי קטן בעל נפח מנוע עד 2 סמ\"ק )או כפי שמופיע בפוליסת הביטוח( לרכב בעל נפח מנוע גדול יותר, יישא בעצמו ק\"מ ליום, זאת בנוסף לאמור 150בעלות הפרשי דמי הביטוח ובק״מ נוספים מעבר ל לעיל. 1 בסעיף"
+  "embed_text": "טבלה זו מפרטת הנחות הניתנות למבוטח עבור ימי השכרה נוספים או שדרוג הרכב, בהתאם לנפח המנוע. ניתן לבדוק את ההנחות הזמינות עבור רכבים בעלי נפח מנוע שונה, כפי שמצוין בפוליסת הביטוח. פוליסה לביטוח רכב פרטי ומסחרי עד 35 טון מהדורת יוני 2023 מציעה הנחות על שירותים כגון ימי השכרה נוספים והחלפת סוג הרכב. הנחות ניתנות עבור רכבים בעלי נפח מנוע של עד 1,300 סמ״ק, וכן עבור רכבים בעלי נפח מנוע גדול יותר. במקרה של שדרוג רכב, יש לשלם דמי ביטוח והפרשי ק״מ נוספים. This table details discounts available to the insured for additional rental days or upgrading the vehicle. It specifies discounts based on engine displacement. בין הערכים בטבלה: Kilometers per day: 150 ק״מ ליום.",
+  "payload": "טבלה: הנחות ד\nThis table details discounts available to the insured for additional rental days or upgrading the vehicle. It specifies discounts based on engine displacement.\nממדים: Vehicle upgrade/additional days, Discount details\n\nהנחות ד.\n.  המבוטח זכאי להנחה )מהמחירון לבודד שבתוקף באותה עת( בגין השירותים הבאים: ימי 1 השכרה נוספים מעבר לתקופת הזכאות, והחלפת סוג המכונית מרכב אוטומטי קטן בעל נפח סמ\"ק )או כפי שמופיע בפוליסת הביטוח( לרכב בעל נפח מנוע גדול יותר. 1,300 מנוע עד\n1,300 .  בחר המבוטח להחליף את סוג המכונית מרכב אוטומטי קטן בעל נפח מנוע עד 2 סמ\"ק )או כפי שמופיע בפוליסת הביטוח( לרכב בעל נפח מנוע גדול יותר, יישא בעצמו ק\"מ ליום, זאת בנוסף לאמור 150בעלות הפרשי דמי הביטוח ובק״מ נוספים מעבר ל לעיל. 1 בסעיף"
 }

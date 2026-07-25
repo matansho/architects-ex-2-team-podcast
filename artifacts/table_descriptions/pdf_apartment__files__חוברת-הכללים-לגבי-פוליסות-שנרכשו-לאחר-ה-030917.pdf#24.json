@@ -3,21 +3,20 @@
   "source": "llm",
   "description": {
     "title": "הודעות בירור תביעה",
-    "summary": "This table details the frequency of claim investigation update notifications sent to the claimant. It specifies the timeframes for sending these notifications, with different intervals for claims under the Ordinance.",
-    "embed_passage": "פוליסות הראל מחייבות משלוח הודעות המשך בירור לתובע. במקרים רבים, יש לשלוח הודעה כל תשעים ימים, אך בתביעות לפי הפקודה, ההודעה תישלח כל ששה חודשים. אם פורט מועד עתידי להערכת הנזק, אין צורך במשלוח הודעה עד למועד האמור, ובלבד שתישלח הודעת המשך בירור לפחות לאחר שנה.",
-    "row_axis": "circumstances affecting notification frequency",
-    "column_axis": "notification type/frequency",
+    "summary": "This table details the frequency and conditions for providing claim status updates to the claimant. It specifies the intervals for sending follow-up notices regarding claim investigation.",
+    "embed_passage": "טבלה זו מתארת את תדירות וסוגי ההודעות שישלחו ללקוח בנוגע להתקדמות בירור תביעה. מטרתה להבטיח שקיפות ולעדכן את התובע לגבי סטטוס התביעה שלו, תוך ציון מועדים ודרישות מידע. ההודעות כוללות הודעות המשך בירור, הודעות תשלום, דחייה או פשרה. לדוגמה, הודעת המשך בירור תישלח לפחות כל תשעים ימים, למעט תביעות לפי הפקודה בהן התדירות היא כל ששה חודשים. במקרים מסוימים, כגון פנייה לערכאות משפטיות, לא תישלח הודעה נוספת.",
+    "row_axis": "תנאי / סוג הודעה",
+    "column_axis": "תדירות / פעולה",
     "units": [],
     "notable_values": [
-      "90 days: standard notification frequency",
-      "6 months: notification frequency for claims under the Ordinance",
-      "1 year: minimum time before another notification if a future damage assessment date is set"
+      "תביעות לפי הפקודה: כל ששה חודשים",
+      "תביעות אחרות: כל תשעים ימים",
+      "הודעה לאחר שנה: לפחות לאחר שנה",
+      "פנייה לערכאות משפטיות: אין צורך בהודעה"
     ],
-    "product_hints": [
-      "הראל"
-    ]
+    "product_hints": []
   },
   "sketch": "הודעת המשך בירור כאמור תימסר לתובע לפחות כל תשעים ימים )למעט בתביעות .2 לפי הפקודה, בהן תימסר הודעה כאמור לפחות כל ששה חודשים( ועד למשלוח , הודעת תשלום, הודעת תשלום חלקי, הודעת דחייה או הודעת פשרה, לפי העניין למעט במקרים הבאים:\nאם פורט בהודעת המשך הבירור מועד עתידי להערכת הנזק, ואז אין צורך במשלוח הודעה בדבר המשך בירור עד למועד האמור, ובלבד שתישלח הודעת ; המשך בירור לפחות לאחר שנה\nאם פנה התובע לערכאות משפטיות;",
-  "embed_text": "פוליסות הראל מחייבות משלוח הודעות המשך בירור לתובע. במקרים רבים, יש לשלוח הודעה כל תשעים ימים, אך בתביעות לפי הפקודה, ההודעה תישלח כל ששה חודשים. אם פורט מועד עתידי להערכת הנזק, אין צורך במשלוח הודעה עד למועד האמור, ובלבד שתישלח הודעת המשך בירור לפחות לאחר שנה.",
-  "payload": "טבלה: הודעות בירור תביעה\nThis table details the frequency of claim investigation update notifications sent to the claimant. It specifies the timeframes for sending these notifications, with different intervals for claims under the Ordinance.\nממדים: circumstances affecting notification frequency, notification type/frequency\n\nהודעת המשך בירור כאמור תימסר לתובע לפחות כל תשעים ימים )למעט בתביעות .2 לפי הפקודה, בהן תימסר הודעה כאמור לפחות כל ששה חודשים( ועד למשלוח , הודעת תשלום, הודעת תשלום חלקי, הודעת דחייה או הודעת פשרה, לפי העניין למעט במקרים הבאים:\nאם פורט בהודעת המשך הבירור מועד עתידי להערכת הנזק, ואז אין צורך במשלוח הודעה בדבר המשך בירור עד למועד האמור, ובלבד שתישלח הודעת ; המשך בירור לפחות לאחר שנה\nאם פנה התובע לערכאות משפטיות;"
+  "embed_text": "טבלה זו מתארת את תדירות וסוגי ההודעות שישלחו ללקוח בנוגע להתקדמות בירור תביעה. מטרתה להבטיח שקיפות ולעדכן את התובע לגבי סטטוס התביעה שלו, תוך ציון מועדים ודרישות מידע. ההודעות כוללות הודעות המשך בירור, הודעות תשלום, דחייה או פשרה. לדוגמה, הודעת המשך בירור תישלח לפחות כל תשעים ימים, למעט תביעות לפי הפקודה בהן התדירות היא כל ששה חודשים. במקרים מסוימים, כגון פנייה לערכאות משפטיות, לא תישלח הודעה נוספת. This table details the frequency and conditions for providing claim status updates to the claimant. It specifies the intervals for sending follow-up notices regarding claim investigation. בין הערכים בטבלה: הודעה לאחר שנה: לפחות לאחר שנה.",
+  "payload": "טבלה: הודעות בירור תביעה\nThis table details the frequency and conditions for providing claim status updates to the claimant. It specifies the intervals for sending follow-up notices regarding claim investigation.\nממדים: תנאי / סוג הודעה, תדירות / פעולה\n\nהודעת המשך בירור כאמור תימסר לתובע לפחות כל תשעים ימים )למעט בתביעות .2 לפי הפקודה, בהן תימסר הודעה כאמור לפחות כל ששה חודשים( ועד למשלוח , הודעת תשלום, הודעת תשלום חלקי, הודעת דחייה או הודעת פשרה, לפי העניין למעט במקרים הבאים:\nאם פורט בהודעת המשך הבירור מועד עתידי להערכת הנזק, ואז אין צורך במשלוח הודעה בדבר המשך בירור עד למועד האמור, ובלבד שתישלח הודעת ; המשך בירור לפחות לאחר שנה\nאם פנה התובע לערכאות משפטיות;"
 }

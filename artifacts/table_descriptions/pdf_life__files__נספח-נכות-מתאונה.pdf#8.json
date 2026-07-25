@@ -2,10 +2,10 @@
   "id": "pdf:life/files/נספח-נכות-מתאונה.pdf#8",
   "source": "llm",
   "description": {
-    "title": "נכות מתאונה",
-    "summary": "This table details how insurance payouts are calculated for disability resulting from an accident. It shows how the percentage of disability (according to National Insurance Institute regulations) affects the payout amount, based on the insured sum.",
-    "embed_passage": "נספח זה מתייחס לנכות מתאונה, וקובע כי תגמולי הביטוח יחושבו כמכפלה של שיעור הנכות שנקבעה על ידי רופא מומחה בסכום הביטוח. לדוגמה, אם סכום הביטוח הוא 100,000 ₪ ושיעור הנכות שנקבע הוא 40%, התגמול יהיה 40,000 ₪.",
-    "row_axis": "Disability percentage (שיעור נכות)",
+    "title": "נספח נכות מתאונה",
+    "summary": "This table details how insurance benefits are calculated for permanent disability resulting from an accident. It shows how the benefit amount is determined based on the degree of disability as determined by a medical expert, and the insured amount.",
+    "embed_passage": "טבלה זו מתייחסת לחישוב תגמולי ביטוח במקרה של נכות כתוצאה מתאונה, בהתאם לתקנות הביטוח הלאומי. התגמולים מחושבים על ידי הכפלת שיעור הנכות שנקבע על ידי רופא מומחה בסכום הביטוח הנקוב בדף פרטי הביטוח. לדוגמה, במקרה של נכות מוחלטת בשיעור 40%, התגמול יהיה 40,000 ₪ אם סכום הביטוח הוא 100,000 ₪. נספח נכות מתאונה מספק מידע על אופן חישוב הפיצויים במקרה של נכות. שיעור הנכות, סכום הביטוח, ותקנות הביטוח הלאומי הם מרכיבים מרכזיים בחישוב.",
+    "row_axis": "Degree of disability (שיעור נכות)",
     "column_axis": "Calculation details (פרטי חישוב)",
     "units": [
       "₪"
@@ -13,13 +13,13 @@
     "notable_values": [
       "סכום הביטוח: 100,000 ₪",
       "שיעור נכות: 40%",
-      "תגמול ביטוח: 40,000 ₪"
+      "תגמול ביטוח (דוגמא): 40,000 ₪"
     ],
     "product_hints": [
       "נכות מתאונה"
     ]
   },
   "sketch": "לתקנות הביטוח הלאומי שיעור נכות שאינה 11 נקבעה למבוטח על ידי רופא מומחה על פי תקנה יחושבו תגמולי הביטוח ₪ 100,000 ,  וסכום הביטוח הנקוב בדף פרטי הביטוח הינו 40%\nדוגמא: מוחלטת של 40,000=100,000  X 40% : כך",
-  "embed_text": "נספח זה מתייחס לנכות מתאונה, וקובע כי תגמולי הביטוח יחושבו כמכפלה של שיעור הנכות שנקבעה על ידי רופא מומחה בסכום הביטוח. לדוגמה, אם סכום הביטוח הוא 100,000 ₪ ושיעור הנכות שנקבע הוא 40%, התגמול יהיה 40,000 ₪.",
-  "payload": "טבלה: נכות מתאונה\nThis table details how insurance payouts are calculated for disability resulting from an accident. It shows how the percentage of disability (according to National Insurance Institute regulations) affects the payout amount, based on the insured sum.\nממדים: Disability percentage (שיעור נכות), Calculation details (פרטי חישוב)\n\nלתקנות הביטוח הלאומי שיעור נכות שאינה 11 נקבעה למבוטח על ידי רופא מומחה על פי תקנה יחושבו תגמולי הביטוח ₪ 100,000 ,  וסכום הביטוח הנקוב בדף פרטי הביטוח הינו 40%\nדוגמא: מוחלטת של 40,000=100,000  X 40% : כך"
+  "embed_text": "טבלה זו מתייחסת לחישוב תגמולי ביטוח במקרה של נכות כתוצאה מתאונה, בהתאם לתקנות הביטוח הלאומי. התגמולים מחושבים על ידי הכפלת שיעור הנכות שנקבע על ידי רופא מומחה בסכום הביטוח הנקוב בדף פרטי הביטוח. לדוגמה, במקרה של נכות מוחלטת בשיעור 40%, התגמול יהיה 40,000 ₪ אם סכום הביטוח הוא 100,000 ₪. נספח נכות מתאונה מספק מידע על אופן חישוב הפיצויים במקרה של נכות. שיעור הנכות, סכום הביטוח, ותקנות הביטוח הלאומי הם מרכיבים מרכזיים בחישוב. This table details how insurance benefits are calculated for permanent disability resulting from an accident. It shows how the benefit amount is determined based on the degree of disability as determined by a medical expert, and the insured amount.",
+  "payload": "טבלה: נספח נכות מתאונה\nThis table details how insurance benefits are calculated for permanent disability resulting from an accident. It shows how the benefit amount is determined based on the degree of disability as determined by a medical expert, and the insured amount.\nממדים: Degree of disability (שיעור נכות), Calculation details (פרטי חישוב)\n\nלתקנות הביטוח הלאומי שיעור נכות שאינה 11 נקבעה למבוטח על ידי רופא מומחה על פי תקנה יחושבו תגמולי הביטוח ₪ 100,000 ,  וסכום הביטוח הנקוב בדף פרטי הביטוח הינו 40%\nדוגמא: מוחלטת של 40,000=100,000  X 40% : כך"
 }

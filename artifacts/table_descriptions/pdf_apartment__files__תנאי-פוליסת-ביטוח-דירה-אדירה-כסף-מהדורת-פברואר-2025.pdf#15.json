@@ -3,21 +3,21 @@
   "source": "llm",
   "description": {
     "title": "תנאי פוליסת ביטוח דירה אדירה כסף",
-    "summary": "This table details the insurance compensation calculations for 'Adira Kesef' apartment insurance. It outlines how payouts are determined based on loss or damage to the apartment, aiming to restore the insured to their pre-incident condition.",
-    "embed_passage": "פוליסת 'אדירה כסף' מפצה על אובדן או נזק לדירה, תוך חישוב התגמול כך שיחזיר את המבוטח למצבו הקודם ככל האפשר. הפיצוי יכול לכלול גם הוצאות שכר דירה חלופיות לתקופה של עד 12 חודשים. סכום הביטוח המקסימלי הוא 38.",
-    "row_axis": "Specific compensation clauses or conditions",
-    "column_axis": "Details of the compensation calculation or coverage",
+    "summary": "This table outlines how insurance payouts are calculated for apartment insurance policies. It details how the insured will be compensated to return to their pre-loss state, including potential coverage for lost rental income.",
+    "embed_passage": "טבלה זו מתארת את אופן חישוב תגמולי הביטוח בפוליסת ביטוח דירה אדירה כסף, במטרה להחזיר את המבוטח למצבו טרם קרות הנזק. החישוב מתבסס על שווי האבדן או הנזק, אך לא יעלה על סכום הביטוח הנקוב. תגמולי הביטוח עשויים לכלול פיצוי על אבדן הכנסות משכר דירה או הוצאות מגורים חלופיות. אדירה כסף מציעה פוליסות ביטוח דירה המכסות מגוון רחב של נזקים, תוך התחשבות בנסיבות האישיות של כל מבוטח. הפיצוי מחושב על בסיס שכר דירה מקובל לדירה דומה לתקופה של עד 12 חודשים.",
+    "row_axis": "conditions for payout calculation",
+    "column_axis": "calculation methods and inclusions",
     "units": [],
     "notable_values": [
-      "סכום ביטוח: 38",
-      "תקופה: 12 חודשים"
+      "period: 12 חודשים",
+      "law: חוק המהנדסים והאדריכלים, תשי״ח",
+      "law: חוק חוזה הביטוח, התשמ״א 1981"
     ],
     "product_hints": [
-      "אדירה כסף",
-      "ביטוח דירה"
+      "אדירה כסף"
     ]
   },
   "sketch": "תגמולי הביטוח יחושבו באופן שיביא את המבוטח, ככל האפשר, למצב שהיה נמצא .3.2 בו אלמלא קרה מקרה הביטוח.\n, גם: 3.1 תגמולי הביטוח שישתלמו לפי פרק זה יכללו, בכפוף לאמור בסעיף קטן .3.3",
-  "embed_text": "פוליסת 'אדירה כסף' מפצה על אובדן או נזק לדירה, תוך חישוב התגמול כך שיחזיר את המבוטח למצבו הקודם ככל האפשר. הפיצוי יכול לכלול גם הוצאות שכר דירה חלופיות לתקופה של עד 12 חודשים. סכום הביטוח המקסימלי הוא 38.",
-  "payload": "טבלה: תנאי פוליסת ביטוח דירה אדירה כסף\nThis table details the insurance compensation calculations for 'Adira Kesef' apartment insurance. It outlines how payouts are determined based on loss or damage to the apartment, aiming to restore the insured to their pre-incident condition.\nממדים: Specific compensation clauses or conditions, Details of the compensation calculation or coverage\n\nתגמולי הביטוח יחושבו באופן שיביא את המבוטח, ככל האפשר, למצב שהיה נמצא .3.2 בו אלמלא קרה מקרה הביטוח.\n, גם: 3.1 תגמולי הביטוח שישתלמו לפי פרק זה יכללו, בכפוף לאמור בסעיף קטן .3.3"
+  "embed_text": "טבלה זו מתארת את אופן חישוב תגמולי הביטוח בפוליסת ביטוח דירה אדירה כסף, במטרה להחזיר את המבוטח למצבו טרם קרות הנזק. החישוב מתבסס על שווי האבדן או הנזק, אך לא יעלה על סכום הביטוח הנקוב. תגמולי הביטוח עשויים לכלול פיצוי על אבדן הכנסות משכר דירה או הוצאות מגורים חלופיות. אדירה כסף מציעה פוליסות ביטוח דירה המכסות מגוון רחב של נזקים, תוך התחשבות בנסיבות האישיות של כל מבוטח. הפיצוי מחושב על בסיס שכר דירה מקובל לדירה דומה לתקופה של עד 12 חודשים. This table outlines how insurance payouts are calculated for apartment insurance policies. It details how the insured will be compensated to return to their pre-loss state, including potential coverage for lost rental income. בין הערכים בטבלה: law: חוק המהנדסים והאדריכלים, תשי״ח; law: חוק חוזה הביטוח, התשמ״א 1981.",
+  "payload": "טבלה: תנאי פוליסת ביטוח דירה אדירה כסף\nThis table outlines how insurance payouts are calculated for apartment insurance policies. It details how the insured will be compensated to return to their pre-loss state, including potential coverage for lost rental income.\nממדים: conditions for payout calculation, calculation methods and inclusions\n\nתגמולי הביטוח יחושבו באופן שיביא את המבוטח, ככל האפשר, למצב שהיה נמצא .3.2 בו אלמלא קרה מקרה הביטוח.\n, גם: 3.1 תגמולי הביטוח שישתלמו לפי פרק זה יכללו, בכפוף לאמור בסעיף קטן .3.3"
 }

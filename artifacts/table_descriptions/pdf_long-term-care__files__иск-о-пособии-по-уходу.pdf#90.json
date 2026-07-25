@@ -2,19 +2,25 @@
   "id": "pdf:long-term-care/files/иск-о-пособии-по-уходу.pdf#90",
   "source": "llm",
   "description": {
-    "title": "הערכת תפקוד ושיקום",
-    "summary": "This table documents the assessment of a patient's functionality and potential for rehabilitation, as determined by a medical professional. It is used to evaluate a patient’s ability to perform daily activities and determine the need for long-term care.",
-    "embed_passage": "הטבלה מתעדת הערכה של תפקוד המטופל ופוטנציאל השיקום שלו, כפי שנקבע על ידי איש מקצוע רפואי. ההערכה כוללת בדיקת יכולתו של המטופל לבצע פעילויות יומיומיות, כגון רחצה, והערכת הצורך בטיפול ארוך טווח. לדוגמה, הטבלה מציינת האם המטופל מסוגל לרחוץ באופן עצמאי (Да/Нет).",
-    "row_axis": "Assessment findings and opinions regarding rehabilitation potential",
-    "column_axis": "Specific aspects of functionality being assessed",
+    "title": "מסקנות הבודק",
+    "summary": "This table records conclusions made by an examiner (doctor and/or nurse), including opinions on the possibility of rehabilitation. It appears to be part of a long-term care assessment.",
+    "embed_passage": "Эта таблица содержит выводы, сделанные проверяющим (врачом и/или медсестрой), включая мнение о возможности реабилитации. Оценка включает в себя проверку когнитивных способностей и оценку необходимости постоянного присмотра из-за когнитивных нарушений, таких как болезнь Альцгеймера или деменция. Данные проверяющего включают имя, номер лицензии, дату и время проверки. Таблица также содержит информацию о способности застрахованного выполнять повседневные действия, такие как мытье. Мытье, самостоятелен, не самостоятелен, оценка когнитивных способностей.",
+    "row_axis": "מסקנות הבודק",
+    "column_axis": "פרטים על הבדיקה",
     "units": [],
     "notable_values": [
-      "Assessment conclusion: 12",
-      "Rehabilitation potential: included in assessment"
+      "שם הבודק: …",
+      "מספר רישיון: …",
+      "תאריך הבדיקה: …",
+      "שעת התחלת הבדיקה: …",
+      "שעת סיום הבדיקה: …",
+      "רחצה: כן",
+      "רחצה: לא",
+      "מנטלית истощенный: …"
     ],
     "product_hints": []
   },
   "sketch": "12 Выводы, сделанные проверяющим, включая и мнение о том, существует ли возможность реабилитации (врач и\\или медсестра)\nПеречисление:\n12 Выводы, сделанные проверяющим, включая и мнение о том, существует ли возможность реабилитации (врач и\\или медсестра)",
-  "embed_text": "הטבלה מתעדת הערכה של תפקוד המטופל ופוטנציאל השיקום שלו, כפי שנקבע על ידי איש מקצוע רפואי. ההערכה כוללת בדיקת יכולתו של המטופל לבצע פעילויות יומיומיות, כגון רחצה, והערכת הצורך בטיפול ארוך טווח. לדוגמה, הטבלה מציינת האם המטופל מסוגל לרחוץ באופן עצמאי (Да/Нет).",
-  "payload": "טבלה: הערכת תפקוד ושיקום\nThis table documents the assessment of a patient's functionality and potential for rehabilitation, as determined by a medical professional. It is used to evaluate a patient’s ability to perform daily activities and determine the need for long-term care.\nממדים: Assessment findings and opinions regarding rehabilitation potential, Specific aspects of functionality being assessed\n\n12 Выводы, сделанные проверяющим, включая и мнение о том, существует ли возможность реабилитации (врач и\\или медсестра)\nПеречисление:\n12 Выводы, сделанные проверяющим, включая и мнение о том, существует ли возможность реабилитации (врач и\\или медсестра)"
+  "embed_text": "Эта таблица содержит выводы, сделанные проверяющим (врачом и/или медсестрой), включая мнение о возможности реабилитации. Оценка включает в себя проверку когнитивных способностей и оценку необходимости постоянного присмотра из-за когнитивных нарушений, таких как болезнь Альцгеймера или деменция. Данные проверяющего включают имя, номер лицензии, дату и время проверки. Таблица также содержит информацию о способности застрахованного выполнять повседневные действия, такие как мытье. Мытье, самостоятелен, не самостоятелен, оценка когнитивных способностей. This table records conclusions made by an examiner (doctor and/or nurse), including opinions on the possibility of rehabilitation. It appears to be part of a long-term care assessment. בין הערכים בטבלה: שם הבודק: …; מספר רישיון: …; תאריך הבדיק…",
+  "payload": "טבלה: מסקנות הבודק\nThis table records conclusions made by an examiner (doctor and/or nurse), including opinions on the possibility of rehabilitation. It appears to be part of a long-term care assessment.\nממדים: מסקנות הבודק, פרטים על הבדיקה\n\n12 Выводы, сделанные проверяющим, включая и мнение о том, существует ли возможность реабилитации (врач и\\или медсестра)\nПеречисление:\n12 Выводы, сделанные проверяющим, включая и мнение о том, существует ли возможность реабилитации (врач и\\или медсестра)"
 }

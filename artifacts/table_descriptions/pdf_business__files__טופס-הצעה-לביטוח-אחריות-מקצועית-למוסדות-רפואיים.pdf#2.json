@@ -2,20 +2,21 @@
   "id": "pdf:business/files/טופס-הצעה-לביטוח-אחריות-מקצועית-למוסדות-רפואיים.pdf#2",
   "source": "llm",
   "description": {
-    "title": "ביטוח אחריות מקצועית",
-    "summary": "This table details professional liability insurance requirements for medical institutions. It helps determine if approval is needed from specific entities for insurance coverage.",
-    "embed_passage": "ביטוח אחריות מקצועית למוסדות רפואיים דורש לעיתים אישור מגורמים מסוימים, כגון משרדי ממשלה או קופות חולים. השאלה המרכזית היא האם העסק זקוק לאישור ביטוח עבור גורם מסוים, לדוגמה, מכרז.  התשובה היא כן או לא, כפי שמופיע בדוגמה.",
-    "row_axis": "Requirement for insurance approval from a specific entity",
-    "column_axis": "Approval needed? (Yes/No)",
+    "title": "הצעה לביטוח אחריות מקצועית",
+    "summary": "This table is for a professional liability insurance quote for medical institutions. It asks about the need for approval from specific entities for insurance purposes.",
+    "embed_passage": "טופס זה נועד לקבלת הצעת מחיר לביטוח אחריות מקצועית עבור מוסדות רפואיים. השאלות בטבלה מתייחסות לצורך באישור מיוחד עבור ביטוח, כגון אישורים ממשרדי ממשלה או קופות חולים. ניתן למלא את הטבלה כדי לפרט את הפעילות המקצועית של המוסד ולציין האם נדרש אישור מגורם מסוים. לדוגמה, השאלות בטבלה בודקות האם העסק עובד תחת מכרז או עבור גורם מסוים. ביטוח אחריות מקצועית, מוסד רפואי, קופת חולים, משרדי ממשלה, מכרז.",
+    "row_axis": "סוג אישור נדרש",
+    "column_axis": "צורך באישור",
     "units": [],
     "notable_values": [
-      "approval needed: 4"
+      "משרדי הממשלה: כן",
+      "קופת חולים: כן"
     ],
     "product_hints": [
       "ביטוח אחריות מקצועית"
     ]
   },
   "sketch": "ביטוח נוספים/אישורי הסכמים 4,\n\"(.. וכו הממשלה משרדי החולים, קופת )לדוג' מסוים? מכרז תחת עובד הנך האם או מסוים גורם עבור ביטוח לאישור זקוק אתה האם\",\"(.. וכו הממשלה משרדי החולים, קופת )לדוג' מסוים? מכרז תחת עובד הנך האם או מסוים גורם עבור ביטוח לאישור זקוק אתה האם\"\n,\"פרט: נא כן, אם\"",
-  "embed_text": "ביטוח אחריות מקצועית למוסדות רפואיים דורש לעיתים אישור מגורמים מסוימים, כגון משרדי ממשלה או קופות חולים. השאלה המרכזית היא האם העסק זקוק לאישור ביטוח עבור גורם מסוים, לדוגמה, מכרז.  התשובה היא כן או לא, כפי שמופיע בדוגמה.",
-  "payload": "טבלה: ביטוח אחריות מקצועית\nThis table details professional liability insurance requirements for medical institutions. It helps determine if approval is needed from specific entities for insurance coverage.\nממדים: Requirement for insurance approval from a specific entity, Approval needed? (Yes/No)\n\nביטוח נוספים/אישורי הסכמים 4,\n\"(.. וכו הממשלה משרדי החולים, קופת )לדוג' מסוים? מכרז תחת עובד הנך האם או מסוים גורם עבור ביטוח לאישור זקוק אתה האם\",\"(.. וכו הממשלה משרדי החולים, קופת )לדוג' מסוים? מכרז תחת עובד הנך האם או מסוים גורם עבור ביטוח לאישור זקוק אתה האם\"\n,\"פרט: נא כן, אם\""
+  "embed_text": "טופס זה נועד לקבלת הצעת מחיר לביטוח אחריות מקצועית עבור מוסדות רפואיים. השאלות בטבלה מתייחסות לצורך באישור מיוחד עבור ביטוח, כגון אישורים ממשרדי ממשלה או קופות חולים. ניתן למלא את הטבלה כדי לפרט את הפעילות המקצועית של המוסד ולציין האם נדרש אישור מגורם מסוים. לדוגמה, השאלות בטבלה בודקות האם העסק עובד תחת מכרז או עבור גורם מסוים. ביטוח אחריות מקצועית, מוסד רפואי, קופת חולים, משרדי ממשלה, מכרז. This table is for a professional liability insurance quote for medical institutions. It asks about the need for approval from specific entities for insurance purposes. בין הערכים בטבלה: משרדי הממשלה: כן.",
+  "payload": "טבלה: הצעה לביטוח אחריות מקצועית\nThis table is for a professional liability insurance quote for medical institutions. It asks about the need for approval from specific entities for insurance purposes.\nממדים: סוג אישור נדרש, צורך באישור\n\nביטוח נוספים/אישורי הסכמים 4,\n\"(.. וכו הממשלה משרדי החולים, קופת )לדוג' מסוים? מכרז תחת עובד הנך האם או מסוים גורם עבור ביטוח לאישור זקוק אתה האם\",\"(.. וכו הממשלה משרדי החולים, קופת )לדוג' מסוים? מכרז תחת עובד הנך האם או מסוים גורם עבור ביטוח לאישור זקוק אתה האם\"\n,\"פרט: נא כן, אם\""
 }

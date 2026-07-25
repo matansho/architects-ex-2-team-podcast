@@ -2,23 +2,23 @@
   "id": "pdf:business/files/פוליסת-אחריות-מקצועית-רפואה-משלימה-ופרא-רפואי-ינואר-2022.pdf#94",
   "source": "llm",
   "description": {
-    "title": "פוליסת אחריות מקצועית",
-    "summary": "This table details conditions related to policy cancellation due to incomplete or dishonest responses from the insured. It outlines scenarios where the insurer can void the policy and refund premiums, referencing sections 4.2.7, 4.2.9, and 4.2.10.",
-    "embed_passage": "פוליסת אחריות מקצועית רפואה משלימה ופרא-רפואי מתייחסת למצבים בהם המבטח רשאי לבטל את הפוליסה בהודעה בכתב למבוטח, למשל אם תשובה לא הייתה מלאה וכנה. סעיפים 4.2.7 ו-4.2.9 מתארים את התנאים לכך, וסעיף 4.2.10 מציין מקרים בהם המבטח לא יהיה זכאי לתרופות.",
-    "row_axis": "Conditions for policy cancellation/premium refund",
-    "column_axis": "Legal clauses/scenarios related to misrepresentation",
+    "title": "תנאי פוליסה – אחריות מקצועית",
+    "summary": "This table outlines conditions related to policy cancellation and remedies available to the insurer in cases of incomplete or dishonest responses from the insured. It details scenarios where the insurer may void the policy and reclaim premiums.",
+    "embed_passage": "טבלה זו מתארת תנאים הקשורים לביטול פוליסה ותרופות העומדות לרשות המבטח במקרים של תשובות לא שלמות או לא כנות מהמבוטח. הפוליסה הרלוונטית היא פוליסת אחריות מקצועית רפואה משלימה ופרא-רפואי. ניתן לבטל את הפוליסה בהודעה בכתב למבוטח אם המבטח נודע על מידע שאינו מלא או כנה. התנאים כוללים 4.2.7, 4.2.9, 4.2.10.1 ו-4.2.10.2. במקרים מסוימים, המבוטח זכאי להחזר דמי ביטוח ששולמו עבור התקופה שלאחר השינוי.",
+    "row_axis": "תנאי ביטול פוליסה / תרופות",
+    "column_axis": "סעיפי הפוליסה",
     "units": [],
     "notable_values": [
-      "section: 4.2.7",
-      "section: 4.2.9",
-      "section: 4.2.10",
-      "days for response: 30"
+      "4.2.7: הודעה על שינוי מהותי",
+      "4.2.9: ביטול הפוליסה",
+      "4.2.10.1: ידע המבטח על מצב אמיתי",
+      "4.2.10.2: הפסקת התקיימות העובדה"
     ],
     "product_hints": [
       "פוליסת אחריות מקצועית רפואה משלימה ופרא-רפואי"
     ]
   },
   "sketch": "מבטח סביר לא היה מתקשר באותה פוליסה, אף בדמי ביטוח .4.2.9.2 . מרובים יותר, אילו ידע שהמצב הוא כפי שהוא לאחר השינוי במקרה זה זכאי המבוטח להחזר דמי הביטוח ששילם בעד התקופה שלאחר השינוי.\nלעיל בכל אחת 4.2.9ו 4.2.7 .  המבטח אינו זכאי לתרופות האמורות בתנאי 4.2.10 מאלה, אלא אם התשובה שלא היתה מלאה וכנה ניתנה בכוונת מרמה:\n.  המבטח ידע או היה עליו לדעת את המצב לאמיתו בשעת כריתת 4.2.10.1 החוזה, או שהוא גרם לכך שהתשובה לא הייתה מלאה וכנה;\n.  העובדה שעליה ניתנה תשובה שלא הייתה מלאה וכנה חדלה 4.2.10.2 , להתקיים לפני שקרה מקרה הביטוח, או שלא השפיעה על מקרהו על חבות המבטח או על היקפה.",
-  "embed_text": "פוליסת אחריות מקצועית רפואה משלימה ופרא-רפואי מתייחסת למצבים בהם המבטח רשאי לבטל את הפוליסה בהודעה בכתב למבוטח, למשל אם תשובה לא הייתה מלאה וכנה. סעיפים 4.2.7 ו-4.2.9 מתארים את התנאים לכך, וסעיף 4.2.10 מציין מקרים בהם המבטח לא יהיה זכאי לתרופות.",
-  "payload": "טבלה: פוליסת אחריות מקצועית\nThis table details conditions related to policy cancellation due to incomplete or dishonest responses from the insured. It outlines scenarios where the insurer can void the policy and refund premiums, referencing sections 4.2.7, 4.2.9, and 4.2.10.\nממדים: Conditions for policy cancellation/premium refund, Legal clauses/scenarios related to misrepresentation\n\nמבטח סביר לא היה מתקשר באותה פוליסה, אף בדמי ביטוח .4.2.9.2 . מרובים יותר, אילו ידע שהמצב הוא כפי שהוא לאחר השינוי במקרה זה זכאי המבוטח להחזר דמי הביטוח ששילם בעד התקופה שלאחר השינוי.\nלעיל בכל אחת 4.2.9ו 4.2.7 .  המבטח אינו זכאי לתרופות האמורות בתנאי 4.2.10 מאלה, אלא אם התשובה שלא היתה מלאה וכנה ניתנה בכוונת מרמה:\n.  המבטח ידע או היה עליו לדעת את המצב לאמיתו בשעת כריתת 4.2.10.1 החוזה, או שהוא גרם לכך שהתשובה לא הייתה מלאה וכנה;\n.  העובדה שעליה ניתנה תשובה שלא הייתה מלאה וכנה חדלה 4.2.10.2 , להתקיים לפני שקרה מקרה הביטוח, או שלא השפיעה על מקרהו על חבות המבטח או על היקפה."
+  "embed_text": "טבלה זו מתארת תנאים הקשורים לביטול פוליסה ותרופות העומדות לרשות המבטח במקרים של תשובות לא שלמות או לא כנות מהמבוטח. הפוליסה הרלוונטית היא פוליסת אחריות מקצועית רפואה משלימה ופרא-רפואי. ניתן לבטל את הפוליסה בהודעה בכתב למבוטח אם המבטח נודע על מידע שאינו מלא או כנה. התנאים כוללים 4.2.7, 4.2.9, 4.2.10.1 ו-4.2.10.2. במקרים מסוימים, המבוטח זכאי להחזר דמי ביטוח ששולמו עבור התקופה שלאחר השינוי. This table outlines conditions related to policy cancellation and remedies available to the insurer in cases of incomplete or dishonest responses from the insured. It details scenarios where the insurer may void the policy and reclaim premiums.",
+  "payload": "טבלה: תנאי פוליסה – אחריות מקצועית\nThis table outlines conditions related to policy cancellation and remedies available to the insurer in cases of incomplete or dishonest responses from the insured. It details scenarios where the insurer may void the policy and reclaim premiums.\nממדים: תנאי ביטול פוליסה / תרופות, סעיפי הפוליסה\n\nמבטח סביר לא היה מתקשר באותה פוליסה, אף בדמי ביטוח .4.2.9.2 . מרובים יותר, אילו ידע שהמצב הוא כפי שהוא לאחר השינוי במקרה זה זכאי המבוטח להחזר דמי הביטוח ששילם בעד התקופה שלאחר השינוי.\nלעיל בכל אחת 4.2.9ו 4.2.7 .  המבטח אינו זכאי לתרופות האמורות בתנאי 4.2.10 מאלה, אלא אם התשובה שלא היתה מלאה וכנה ניתנה בכוונת מרמה:\n.  המבטח ידע או היה עליו לדעת את המצב לאמיתו בשעת כריתת 4.2.10.1 החוזה, או שהוא גרם לכך שהתשובה לא הייתה מלאה וכנה;\n.  העובדה שעליה ניתנה תשובה שלא הייתה מלאה וכנה חדלה 4.2.10.2 , להתקיים לפני שקרה מקרה הביטוח, או שלא השפיעה על מקרהו על חבות המבטח או על היקפה."
 }

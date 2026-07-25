@@ -3,22 +3,22 @@
   "source": "llm",
   "description": {
     "title": "שירות רכב חלופי",
-    "summary": "This table details the terms of service for a replacement vehicle provided as part of a car insurance policy. It outlines availability, communication expectations, and conditions for service.",
-    "embed_passage": "פוליסת ביטוח לרכב מספקת שירות רכב חלופי, כאשר מוקד השירות זמין בימים ראשון עד חמישי בין השעות 08:00 ל-17:00, בימי שישי ובערבי חג בין השעות 08:00 ל-13:00, וביום כיפור בין השעות 08:00 ל-12:00. מטרת המסמך היא לפרט את זכויות וחובות הלקוח והספק.",
+    "summary": "This table outlines the terms of service for an alternative vehicle provided during the insurance period. It details the availability of the service center and the rights and obligations of the insured and the service provider.",
+    "embed_passage": "מסמך זה מהווה את מסמך השירות בין המבוטח לספק שירות הרכב החלופי המצוין בפירוט, אשר במהלך תקופת הביטוח יקיים תקשורת יעילה וזמינה. מסמך השירות מפרט את השירותים להם זכאי המבוטח, הזכויות והחובות ההדדיות של המבוטח ושל ספק השירות. מוקד השירות יהיה זמין בימים ראשון עד חמישי, בין השעות 08:00 ל-17:00, בימי שישי וערבי חג בין השעות 08:00 ל-13:00 וערב יום כיפור בין השעות 08:00 ל-12:00. שירות רכב חלופי זה רלוונטי כאשר 'מסמך שירות רכב חלופי' מצוין בפירוט כבעל תוקף. מוקד השירות, ספק השירות, המבוטח, תקופת הביטוח.",
     "row_axis": "Service document provisions",
-    "column_axis": "Aspects of the alternative vehicle service",
+    "column_axis": "Details of service availability and terms",
     "units": [],
     "notable_values": [
-      "Service availability: Sunday to Thursday 08:00-17:00",
-      "Service availability: Fridays and holiday eves 08:00-13:00",
-      "Service availability: Yom Kippur eve 08:00-12:00"
+      "Service center availability: Sunday-Thursday 08:00-17:00",
+      "Service center availability: Fridays/Holiday eves 08:00-13:00",
+      "Service center availability: Yom Kippur eve 08:00-12:00"
     ],
     "product_hints": [
-      "ביטוח לרכב",
-      "שירות רכב חלופי"
+      "שירות רכב חלופי",
+      "ALTERNATIVE VEHICLE SERVICE DOCUMENT"
     ]
   },
   "sketch": "If expressly noted in the specification that the 'ALTERNATIVE VEHICLE SERVICE DOCUMENT\"\nis valid, then the following service document provisions shall apply:\nThis document constitutes the service document between the insured and the alternative vehicle service provider noted in the specification (hereinafter for abbreviation purposes the \"service provider\") which, in the course of the insurance period will conduct efficient and available communication. This service document details the services to which the insured is entitled, the mutual rights and obligations of the insured and the service provider.\nThe service center will be available from Sunday to Thursday, from 08:00 to 17:00, on Fridays and holiday eves from 08:00 to 13:00 and on the eve of Yom Kippur from 08:00 to 12:00.",
-  "embed_text": "פוליסת ביטוח לרכב מספקת שירות רכב חלופי, כאשר מוקד השירות זמין בימים ראשון עד חמישי בין השעות 08:00 ל-17:00, בימי שישי ובערבי חג בין השעות 08:00 ל-13:00, וביום כיפור בין השעות 08:00 ל-12:00. מטרת המסמך היא לפרט את זכויות וחובות הלקוח והספק.",
-  "payload": "טבלה: שירות רכב חלופי\nThis table details the terms of service for a replacement vehicle provided as part of a car insurance policy. It outlines availability, communication expectations, and conditions for service.\nממדים: Service document provisions, Aspects of the alternative vehicle service\n\nIf expressly noted in the specification that the 'ALTERNATIVE VEHICLE SERVICE DOCUMENT\"\nis valid, then the following service document provisions shall apply:\nThis document constitutes the service document between the insured and the alternative vehicle service provider noted in the specification (hereinafter for abbreviation purposes the \"service provider\") which, in the course of the insurance period will conduct efficient and available communication. This service document details the services to which the insured is entitled, the mutual rights and obligations of the insured and the service provider.\nThe service center will be available from Sunday to Thursday, from 08:00 to 17:00, on Fridays and holiday eves from 08:00 to 13:00 and on the eve of Yom Kippur from 08:00 to 12:00."
+  "embed_text": "מסמך זה מהווה את מסמך השירות בין המבוטח לספק שירות הרכב החלופי המצוין בפירוט, אשר במהלך תקופת הביטוח יקיים תקשורת יעילה וזמינה. מסמך השירות מפרט את השירותים להם זכאי המבוטח, הזכויות והחובות ההדדיות של המבוטח ושל ספק השירות. מוקד השירות יהיה זמין בימים ראשון עד חמישי, בין השעות 08:00 ל-17:00, בימי שישי וערבי חג בין השעות 08:00 ל-13:00 וערב יום כיפור בין השעות 08:00 ל-12:00. שירות רכב חלופי זה רלוונטי כאשר 'מסמך שירות רכב חלופי' מצוין בפירוט כבעל תוקף. מוקד השירות, ספק השירות, המבוטח, תקופת הביטוח. This table outlines the terms of service for an alternative vehicle provided during the insurance period. It details the availability of the service center and the rights and obligations of the insured and the service provider. בין הערכים בטבלה: Service center availability: Sunday-Thursday 08:00-…",
+  "payload": "טבלה: שירות רכב חלופי\nThis table outlines the terms of service for an alternative vehicle provided during the insurance period. It details the availability of the service center and the rights and obligations of the insured and the service provider.\nממדים: Service document provisions, Details of service availability and terms\n\nIf expressly noted in the specification that the 'ALTERNATIVE VEHICLE SERVICE DOCUMENT\"\nis valid, then the following service document provisions shall apply:\nThis document constitutes the service document between the insured and the alternative vehicle service provider noted in the specification (hereinafter for abbreviation purposes the \"service provider\") which, in the course of the insurance period will conduct efficient and available communication. This service document details the services to which the insured is entitled, the mutual rights and obligations of the insured and the service provider.\nThe service center will be available from Sunday to Thursday, from 08:00 to 17:00, on Fridays and holiday eves from 08:00 to 13:00 and on the eve of Yom Kippur from 08:00 to 12:00."
 }

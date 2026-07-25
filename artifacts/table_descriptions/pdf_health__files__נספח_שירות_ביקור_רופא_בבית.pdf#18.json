@@ -2,21 +2,24 @@
   "id": "pdf:health/files/נספח_שירות_ביקור_רופא_בבית.pdf#18",
   "source": "llm",
   "description": {
-    "title": "ביקור רופא בבית",
-    "summary": "This table outlines the responsibilities of the service provider when a member requests a home doctor visit. It details the conditions under which the service ends and clarifies the company's liability.",
-    "embed_passage": "שירות ביקור רופא ניתן בכל מקום ישוב בישראל, למעט אזורים מסוימים. האחריות של ספק השירות תסתיים בהגעת רופא לבית המנוי או בהפנייתו למוקד רפואי סמוך. החברה לא תהיה אחראית לנזקים שייגרמו למבוטח בקשר עם שירות ביקור רופא.",
-    "row_axis": "conditions/clauses related to home doctor visit service",
-    "column_axis": "details of responsibility and liability",
+    "title": "אחריות שירות ביקור רופא",
+    "summary": "This table details the responsibility of the service provider when a member requests a home doctor visit. It outlines the conditions under which the service is considered complete and disclaimers regarding liability.",
+    "embed_passage": "טבלה זו מתארת את אחריות ספק השירות בעת קבלת קריאה לשירות ביקור רופא בבית. השירות יסתיים עם הגעת הרופא או הפניית החולה למוקד רפואי. הטבלה מפרטת גם את היעדר אחריות החברה לנזקים שעלולים להיגרם כתוצאה משירות ביקור רופא. ביקור רופא, רשלנות רפואית, נזק ישיר, נזק עקיף, מוקד רפואי, הודעת מנוי, ביטול קריאה.",
+    "row_axis": "סעיפי אחריות",
+    "column_axis": "תיאור אחריות / הסתייגות",
     "units": [],
     "notable_values": [
-      "clause: 3.1.7",
-      "clause: 3.1.8"
+      "אחריות: 3.1.7",
+      "ביטול קריאה: הודעת המנוי למוקד השירו",
+      "רשלנות רפואית: החברה לא תהיה אחראית",
+      "נזק ישיר: החברה לא תהיה אחראית",
+      "נזק עקיף: החברה לא תהיה אחראית"
     ],
     "product_hints": [
       "ביקור רופא בבית"
     ]
   },
   "sketch": ": אחריות 3.1.7\nמחויבות  ו של ספק השירות כלפי המנוי בטיפולו בקריאה של מנוי לקבלת שירות ביקור רופא : תסתיים בהתרחש אחד משני האירועים המפורטים להלן, המוקדם מבניהם הגעת רופא נותן שירות לבית המנוי או הפניית החולה למוקד הרפואי הסמוך למקום הימצאו, בכפוף לאמור בסעיף זה. ביטול הקריאה לקבלת שירות ביקור רופא לבית ע\"י . הודעת המנוי למוקד השירו   ת\nהחברה לא תהיה אחראית בגין רשלנות רפואית או אחרת, ולא תהיה אחראית בכל אופן 3.1.8 שהוא לגבי כל נזק או הפסד שייגרם למבוטח ו/או למנוי ו/או לכל אדם, אם נזק ישיר . ואם נזק עקיף אחר בקשר עם שירות ביקור רופא נשוא כתב שירות ז   ה",
-  "embed_text": "שירות ביקור רופא ניתן בכל מקום ישוב בישראל, למעט אזורים מסוימים. האחריות של ספק השירות תסתיים בהגעת רופא לבית המנוי או בהפנייתו למוקד רפואי סמוך. החברה לא תהיה אחראית לנזקים שייגרמו למבוטח בקשר עם שירות ביקור רופא.",
-  "payload": "טבלה: ביקור רופא בבית\nThis table outlines the responsibilities of the service provider when a member requests a home doctor visit. It details the conditions under which the service ends and clarifies the company's liability.\nממדים: conditions/clauses related to home doctor visit service, details of responsibility and liability\n\n: אחריות 3.1.7\nמחויבות  ו של ספק השירות כלפי המנוי בטיפולו בקריאה של מנוי לקבלת שירות ביקור רופא : תסתיים בהתרחש אחד משני האירועים המפורטים להלן, המוקדם מבניהם הגעת רופא נותן שירות לבית המנוי או הפניית החולה למוקד הרפואי הסמוך למקום הימצאו, בכפוף לאמור בסעיף זה. ביטול הקריאה לקבלת שירות ביקור רופא לבית ע\"י . הודעת המנוי למוקד השירו   ת\nהחברה לא תהיה אחראית בגין רשלנות רפואית או אחרת, ולא תהיה אחראית בכל אופן 3.1.8 שהוא לגבי כל נזק או הפסד שייגרם למבוטח ו/או למנוי ו/או לכל אדם, אם נזק ישיר . ואם נזק עקיף אחר בקשר עם שירות ביקור רופא נשוא כתב שירות ז   ה"
+  "embed_text": "טבלה זו מתארת את אחריות ספק השירות בעת קבלת קריאה לשירות ביקור רופא בבית. השירות יסתיים עם הגעת הרופא או הפניית החולה למוקד רפואי. הטבלה מפרטת גם את היעדר אחריות החברה לנזקים שעלולים להיגרם כתוצאה משירות ביקור רופא. ביקור רופא, רשלנות רפואית, נזק ישיר, נזק עקיף, מוקד רפואי, הודעת מנוי, ביטול קריאה. This table details the responsibility of the service provider when a member requests a home doctor visit. It outlines the conditions under which the service is considered complete and disclaimers regarding liability.",
+  "payload": "טבלה: אחריות שירות ביקור רופא\nThis table details the responsibility of the service provider when a member requests a home doctor visit. It outlines the conditions under which the service is considered complete and disclaimers regarding liability.\nממדים: סעיפי אחריות, תיאור אחריות / הסתייגות\n\n: אחריות 3.1.7\nמחויבות  ו של ספק השירות כלפי המנוי בטיפולו בקריאה של מנוי לקבלת שירות ביקור רופא : תסתיים בהתרחש אחד משני האירועים המפורטים להלן, המוקדם מבניהם הגעת רופא נותן שירות לבית המנוי או הפניית החולה למוקד הרפואי הסמוך למקום הימצאו, בכפוף לאמור בסעיף זה. ביטול הקריאה לקבלת שירות ביקור רופא לבית ע\"י . הודעת המנוי למוקד השירו   ת\nהחברה לא תהיה אחראית בגין רשלנות רפואית או אחרת, ולא תהיה אחראית בכל אופן 3.1.8 שהוא לגבי כל נזק או הפסד שייגרם למבוטח ו/או למנוי ו/או לכל אדם, אם נזק ישיר . ואם נזק עקיף אחר בקשר עם שירות ביקור רופא נשוא כתב שירות ז   ה"
 }

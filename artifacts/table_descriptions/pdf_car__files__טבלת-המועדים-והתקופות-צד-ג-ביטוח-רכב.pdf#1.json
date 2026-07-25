@@ -2,23 +2,24 @@
   "id": "pdf:car/files/טבלת-המועדים-והתקופות-צד-ג-ביטוח-רכב.pdf#1",
   "source": "llm",
   "description": {
-    "title": "מועדי טיפול בפניות",
-    "summary": "This table details the timeframes for responding to written requests related to car insurance claims. It specifies the number of business days required to provide copies of the policy or respond to a request.",
-    "embed_passage": "טבלת המועדים והתקופות עוסקת בביטוח רכב, ומפרטת את זמני המענה לבקשות בכתב. לדוגמה, קבלת העתקים של הפוליסה צריכה להתבצע בתוך 14 ימי עסקים, בעוד שמסירת מסמך חתום על ידי התובע תיעשה תוך 21 ימי עסקים. טבלה זו מסייעת להבטיח שירות לקוחות יעיל ושקוף.",
-    "row_axis": "type of request",
-    "column_axis": "timeframe for response (business days)",
+    "title": "טבלת מועדים וסדרי דין",
+    "summary": "This table details response times for written requests related to car insurance claims. It specifies the number of business days allowed for responses based on the type of request.",
+    "embed_passage": "טבלה זו מתארת את מועדי המענה לפניות בכתב בתחום ביטוח רכב, כפי שנקבעו בחוזר 'יישוב תביעות וטיפול בפניות הציבור'. המידע מציג את מספר ימי העסקים המוקצים למענה לבקשות שונות, כגון קבלת העתקים של הפוליסה או מסירת מסמכים. ניתן לחפש מידע לפי סוג הפנייה ומשך הזמן המוקצב. הפניות כוללות קבלת הבקשה (14 ימי עסקים) וקבלת מסמך עליו חתם התובע (21 ימי עסקים). טבלת המועדים והתקופות רלוונטית לכל פנייה בכתב.",
+    "row_axis": "סוג הפנייה",
+    "column_axis": "מועד מענה (ימי עסקים)",
     "units": [
       "ימי עסקים"
     ],
     "notable_values": [
-      "קבלת העתקים: 14",
-      "מסירת מסמך חתום: 21"
+      "פניית בכתב מענה: 8",
+      "קבלת הבקשה: 14",
+      "קבלת מסמך חתום: 21"
     ],
     "product_hints": [
       "ביטוח רכב"
     ]
   },
   "sketch": "פניית בכתב מענה,(יד) 8\nהבקשה. קבלת ממועד עסקים ימי 14,או מפוליסה העתקים מסירת מתקנון,)1() (טו 8\nהבקשה. קבלת ממועד עסקים ימי 21,שעליו מסמך מכל העתקים מסירת התובע חתם,)3() (טו 8",
-  "embed_text": "טבלת המועדים והתקופות עוסקת בביטוח רכב, ומפרטת את זמני המענה לבקשות בכתב. לדוגמה, קבלת העתקים של הפוליסה צריכה להתבצע בתוך 14 ימי עסקים, בעוד שמסירת מסמך חתום על ידי התובע תיעשה תוך 21 ימי עסקים. טבלה זו מסייעת להבטיח שירות לקוחות יעיל ושקוף.",
-  "payload": "טבלה: מועדי טיפול בפניות\nThis table details the timeframes for responding to written requests related to car insurance claims. It specifies the number of business days required to provide copies of the policy or respond to a request.\nממדים: type of request, timeframe for response (business days)\n\nפניית בכתב מענה,(יד) 8\nהבקשה. קבלת ממועד עסקים ימי 14,או מפוליסה העתקים מסירת מתקנון,)1() (טו 8\nהבקשה. קבלת ממועד עסקים ימי 21,שעליו מסמך מכל העתקים מסירת התובע חתם,)3() (טו 8"
+  "embed_text": "טבלה זו מתארת את מועדי המענה לפניות בכתב בתחום ביטוח רכב, כפי שנקבעו בחוזר 'יישוב תביעות וטיפול בפניות הציבור'. המידע מציג את מספר ימי העסקים המוקצים למענה לבקשות שונות, כגון קבלת העתקים של הפוליסה או מסירת מסמכים. ניתן לחפש מידע לפי סוג הפנייה ומשך הזמן המוקצב. הפניות כוללות קבלת הבקשה (14 ימי עסקים) וקבלת מסמך עליו חתם התובע (21 ימי עסקים). טבלת המועדים והתקופות רלוונטית לכל פנייה בכתב. This table details response times for written requests related to car insurance claims. It specifies the number of business days allowed for responses based on the type of request. בין הערכים בטבלה: פניית בכתב מענה: 8.",
+  "payload": "טבלה: טבלת מועדים וסדרי דין\nThis table details response times for written requests related to car insurance claims. It specifies the number of business days allowed for responses based on the type of request.\nממדים: סוג הפנייה, מועד מענה (ימי עסקים)\n\nפניית בכתב מענה,(יד) 8\nהבקשה. קבלת ממועד עסקים ימי 14,או מפוליסה העתקים מסירת מתקנון,)1() (טו 8\nהבקשה. קבלת ממועד עסקים ימי 21,שעליו מסמך מכל העתקים מסירת התובע חתם,)3() (טו 8"
 }

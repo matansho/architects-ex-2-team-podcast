@@ -3,20 +3,20 @@
   "source": "llm",
   "description": {
     "title": "מציאת רכוש",
-    "summary": "This table details the procedures for found stolen property related to apartment insurance. It outlines conditions for returning property to the insured or the insurer, and potential reimbursement of insurance payments.",
-    "embed_passage": "פוליסת ביטוח דירה ותכולתה מתייחסת למקרה של מציאת רכוש גנוב. אם רכוש נמצא לפני תשלום תגמולים, הוא יוחזר למבוטח. אם נמצא אחרי תשלום, המבטח יודיע למבוטח, והרכוש יעבור לבעלות המבטח אלא אם המבוטח מעוניין בו בתוך 30 ימים.",
-    "row_axis": "Scenarios related to the discovery of stolen property",
-    "column_axis": "Actions and conditions regarding the found property and insurance payments",
+    "summary": "This table details the procedures for found stolen property under an apartment insurance policy. It outlines what happens if stolen property is found before or after insurance payouts are made.",
+    "embed_passage": "טבלה זו מתארת את הנהלים למציאת רכוש גנוב במסגרת פוליסת ביטוח דירה. היא מפרטת מה קורה אם רכוש גנוב נמצא לפני או אחרי תשלום תגמולי ביטוח. הפוליסה הרלוונטית היא פוליסה לביטוח דירה ותכולתה, מהדורת אוגוסט 2020. במקרה של מציאת רכוש גנוב לפני תשלום תגמולי ביטוח, הרכוש יוחזר למבוטח והמבטח לא ישלם תגמולי ביטוח. אם הרכוש נמצא לאחר תשלום, המבטח יודיע למבוטח, והרכוש יעבור לבעלות המבטח אלא אם המבוטח מעוניין בו בתמורה להחזרת התגמולים. מציאת רכוש, תגמולי ביטוח, רכוש גנוב, החזרת תגמולים, 30 ימים.",
+    "row_axis": "Scenario regarding found stolen property",
+    "column_axis": "Actions and conditions related to the found property",
     "units": [],
     "notable_values": [
-      "30: Number of days the insured has to claim found property",
-      "7: Section number of the document"
+      "תקופה: 30 ימים",
+      "סוג אירוע: מציאת רכוש שנגנב"
     ],
     "product_hints": [
-      "ביטוח דירה ותכולתה"
+      "פוליסה לביטוח דירה ותכולתה"
     ]
   },
   "sketch": ".  מציאת רכוש 7\n)א( נמצא רכוש שנגנב, בטרם שולמו בשלו תגמולי ביטוח לפי פוליסה זו, יוחזר הרכוש למבוטח והמבטח לא ישלם תגמולי ביטוח, אלא אם ניזוק הרכוש שהוחזר.\n)ב( נמצא רכוש שנגנב אחרי ששולמו בעדו תגמולי ביטוח, יודיע המבטח על כך למבוטח , או להיפך; הרכוש שנמצא יעבור לבעלות המבטח, אלא אם כן הודיע המבוטח למבטח ימים מיום הודעת המבטח או המבוטח, לפי העניין, כי ברצונו לקבל את הרכוש 30 בתוך שנמצא בתמורה להחזרת תגמולי הביטוח למבטח בתקופה האמורה.",
-  "embed_text": "פוליסת ביטוח דירה ותכולתה מתייחסת למקרה של מציאת רכוש גנוב. אם רכוש נמצא לפני תשלום תגמולים, הוא יוחזר למבוטח. אם נמצא אחרי תשלום, המבטח יודיע למבוטח, והרכוש יעבור לבעלות המבטח אלא אם המבוטח מעוניין בו בתוך 30 ימים.",
-  "payload": "טבלה: מציאת רכוש\nThis table details the procedures for found stolen property related to apartment insurance. It outlines conditions for returning property to the insured or the insurer, and potential reimbursement of insurance payments.\nממדים: Scenarios related to the discovery of stolen property, Actions and conditions regarding the found property and insurance payments\n\n.  מציאת רכוש 7\n)א( נמצא רכוש שנגנב, בטרם שולמו בשלו תגמולי ביטוח לפי פוליסה זו, יוחזר הרכוש למבוטח והמבטח לא ישלם תגמולי ביטוח, אלא אם ניזוק הרכוש שהוחזר.\n)ב( נמצא רכוש שנגנב אחרי ששולמו בעדו תגמולי ביטוח, יודיע המבטח על כך למבוטח , או להיפך; הרכוש שנמצא יעבור לבעלות המבטח, אלא אם כן הודיע המבוטח למבטח ימים מיום הודעת המבטח או המבוטח, לפי העניין, כי ברצונו לקבל את הרכוש 30 בתוך שנמצא בתמורה להחזרת תגמולי הביטוח למבטח בתקופה האמורה."
+  "embed_text": "טבלה זו מתארת את הנהלים למציאת רכוש גנוב במסגרת פוליסת ביטוח דירה. היא מפרטת מה קורה אם רכוש גנוב נמצא לפני או אחרי תשלום תגמולי ביטוח. הפוליסה הרלוונטית היא פוליסה לביטוח דירה ותכולתה, מהדורת אוגוסט 2020. במקרה של מציאת רכוש גנוב לפני תשלום תגמולי ביטוח, הרכוש יוחזר למבוטח והמבטח לא ישלם תגמולי ביטוח. אם הרכוש נמצא לאחר תשלום, המבטח יודיע למבוטח, והרכוש יעבור לבעלות המבטח אלא אם המבוטח מעוניין בו בתמורה להחזרת התגמולים. מציאת רכוש, תגמולי ביטוח, רכוש גנוב, החזרת תגמולים, 30 ימים. This table details the procedures for found stolen property under an apartment insurance policy. It outlines what happens if stolen property is found before or after insurance payouts are made. בין הערכים בטבלה: סוג אירוע: מציאת רכוש שנגנב.",
+  "payload": "טבלה: מציאת רכוש\nThis table details the procedures for found stolen property under an apartment insurance policy. It outlines what happens if stolen property is found before or after insurance payouts are made.\nממדים: Scenario regarding found stolen property, Actions and conditions related to the found property\n\n.  מציאת רכוש 7\n)א( נמצא רכוש שנגנב, בטרם שולמו בשלו תגמולי ביטוח לפי פוליסה זו, יוחזר הרכוש למבוטח והמבטח לא ישלם תגמולי ביטוח, אלא אם ניזוק הרכוש שהוחזר.\n)ב( נמצא רכוש שנגנב אחרי ששולמו בעדו תגמולי ביטוח, יודיע המבטח על כך למבוטח , או להיפך; הרכוש שנמצא יעבור לבעלות המבטח, אלא אם כן הודיע המבוטח למבטח ימים מיום הודעת המבטח או המבוטח, לפי העניין, כי ברצונו לקבל את הרכוש 30 בתוך שנמצא בתמורה להחזרת תגמולי הביטוח למבטח בתקופה האמורה."
 }

@@ -2,28 +2,28 @@
   "id": "pdf:business/files/טופס-הצעה-לפוליסת-מכלול-לחבר-מושב.pdf#38",
   "source": "llm",
   "description": {
-    "title": "מכלול - פוליסת חבר מושב",
-    "summary": "This table details the insurance premiums and coverage limits for the 'מכלול' policy for members of a cooperative settlement. It allows looking up costs for increased liability limits and coverage for malicious damage.",
-    "embed_passage": "פוליסת 'מכלול' מציעה כיסוי לנזקים שונים, כאשר גבול האחריות של המבטח לפרק ראשון יכול להגיע עד 5,000,000 ₪. עבור כל מיליון ש\"ח נוספים, ייגבו דמי ביטוח נוספים בשיעור של 10%. סכום הביטוח לנזקי זדון והצתה בזדון לא יעלה על 250,000 ₪.",
-    "row_axis": "Coverage/Liability Scenarios",
-    "column_axis": "Premium/Limit Details",
+    "title": "דמי ביטוח - מכלול",
+    "summary": "This table details insurance premiums for the 'מכלול' policy, specifically outlining coverage limits and additional costs for increased liability. It is used to look up premium calculations based on coverage amounts and potential malicious damage.",
+    "embed_passage": "טבלה זו מציגה את דמי הביטוח עבור פוליסת 'מכלול', תוך פירוט גבולות האחריות של המבטח והשיעורים הנוספים עבור כיסויים נוספים. ניתן למצוא כאן את העלות עבור הגדלת גבול האחריות, סכום הביטוח לנזקי זדון והצתה בזדון, והשתתפות עצמית במקרה של נזק. גבול אחריות המבטח לפרק ראשון יכול להגיע עד 5,000,000 ₪, כאשר עבור כל מיליון ש״ח נוספים נגבים דמי ביטוח נוספים בשיעור של 10%. סכום הביטוח לנזקי זדון והצתה בזדון מוגבל ל-250,000 ₪, והשתתפות עצמית במקרה ביטוח נזק בזדון ו/או הצתה היא מינימום 10% מהנזק, עד 10,000 ₪.  נזקי רעידת אדמה בלבד יחויבו ב-0.128%.",
+    "row_axis": "coverage/risk type",
+    "column_axis": "premium details/limits",
     "units": [
       "₪",
-      "₪/מיליון ש\"ח",
       "%"
     ],
     "notable_values": [
-      "גבול אחריות: 2,000,000 ₪",
-      "דמי ביטוח נוספים: 10%",
-      "הגדלת גבול אחריות: 5,000,000 ₪",
-      "סכום ביטוח לנזקי זדון: 250,000 ₪"
+      "גבול אחריות המבטח לפרק ראשון: 5,000,000 ₪",
+      "דמי ביטוח נוספים לכל מיליון ש״ח: 10%",
+      "סכום הביטוח לנזקי זדון והצתה בזדון: 250,000 ₪",
+      "השתתפות עצמית (מינימום): 10%",
+      "השתתפות עצמית (מקסימום): 10,000 ₪",
+      "נזקי רעידת אדמה בלבד: 0.128%"
     ],
     "product_hints": [
-      "מכלול",
-      "פוליסת חבר מושב"
+      "מכלול"
     ]
   },
   "sketch": "מסה\"כ דמי הביטוח של פרק ראשון לעיל. 10% .  עבור כיסוי לכל מיליון ש\"ח נוספים ייגבו דמי ביטוח נוספים בשיעור של 2\nבלבד. ₪  5,000,000 הגדלת גבול האחריות של המבטח לפרק ראשון אפשרית עד לסך\nלמקרה אחד וסה\"כ במצטבר לתקופת הביטוח )כחלק מסכום הביטוח הכללי(, אלא ₪  250,000 .  סכום הביטוח לנזקי זדון והצתה בזדון לא יעלה על סך של 3 אם צוין אחרת ברשימה.",
-  "embed_text": "פוליסת 'מכלול' מציעה כיסוי לנזקים שונים, כאשר גבול האחריות של המבטח לפרק ראשון יכול להגיע עד 5,000,000 ₪. עבור כל מיליון ש\"ח נוספים, ייגבו דמי ביטוח נוספים בשיעור של 10%. סכום הביטוח לנזקי זדון והצתה בזדון לא יעלה על 250,000 ₪.",
-  "payload": "טבלה: מכלול - פוליסת חבר מושב\nThis table details the insurance premiums and coverage limits for the 'מכלול' policy for members of a cooperative settlement. It allows looking up costs for increased liability limits and coverage for malicious damage.\nממדים: Coverage/Liability Scenarios, Premium/Limit Details\n\nמסה\"כ דמי הביטוח של פרק ראשון לעיל. 10% .  עבור כיסוי לכל מיליון ש\"ח נוספים ייגבו דמי ביטוח נוספים בשיעור של 2\nבלבד. ₪  5,000,000 הגדלת גבול האחריות של המבטח לפרק ראשון אפשרית עד לסך\nלמקרה אחד וסה\"כ במצטבר לתקופת הביטוח )כחלק מסכום הביטוח הכללי(, אלא ₪  250,000 .  סכום הביטוח לנזקי זדון והצתה בזדון לא יעלה על סך של 3 אם צוין אחרת ברשימה."
+  "embed_text": "טבלה זו מציגה את דמי הביטוח עבור פוליסת 'מכלול', תוך פירוט גבולות האחריות של המבטח והשיעורים הנוספים עבור כיסויים נוספים. ניתן למצוא כאן את העלות עבור הגדלת גבול האחריות, סכום הביטוח לנזקי זדון והצתה בזדון, והשתתפות עצמית במקרה של נזק. גבול אחריות המבטח לפרק ראשון יכול להגיע עד 5,000,000 ₪, כאשר עבור כל מיליון ש״ח נוספים נגבים דמי ביטוח נוספים בשיעור של 10%. סכום הביטוח לנזקי זדון והצתה בזדון מוגבל ל-250,000 ₪, והשתתפות עצמית במקרה ביטוח נזק בזדון ו/או הצתה היא מינימום 10% מהנזק, עד 10,000 ₪.  נזקי רעידת אדמה בלבד יחויבו ב-0.128%. This table details insurance premiums for the 'מכלול' policy, specifically outlining coverage limits and additional costs for increased liability. It is used to look up premium calculations based on coverage amounts and potential malicious damage.",
+  "payload": "טבלה: דמי ביטוח - מכלול\nThis table details insurance premiums for the 'מכלול' policy, specifically outlining coverage limits and additional costs for increased liability. It is used to look up premium calculations based on coverage amounts and potential malicious damage.\nממדים: coverage/risk type, premium details/limits\n\nמסה\"כ דמי הביטוח של פרק ראשון לעיל. 10% .  עבור כיסוי לכל מיליון ש\"ח נוספים ייגבו דמי ביטוח נוספים בשיעור של 2\nבלבד. ₪  5,000,000 הגדלת גבול האחריות של המבטח לפרק ראשון אפשרית עד לסך\nלמקרה אחד וסה\"כ במצטבר לתקופת הביטוח )כחלק מסכום הביטוח הכללי(, אלא ₪  250,000 .  סכום הביטוח לנזקי זדון והצתה בזדון לא יעלה על סך של 3 אם צוין אחרת ברשימה."
 }

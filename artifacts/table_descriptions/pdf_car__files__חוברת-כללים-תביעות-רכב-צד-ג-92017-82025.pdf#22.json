@@ -2,22 +2,23 @@
   "id": "pdf:car/files/חוברת-כללים-תביעות-רכב-צד-ג-92017-82025.pdf#22",
   "source": "llm",
   "description": {
-    "title": "הודעת תשלום תביעה",
-    "summary": "This table outlines the information provided to a claimant regarding a car insurance claim payment, detailing reasons for approval or denial. It specifies what is included in a written notice regarding claim payments.",
-    "embed_passage": "הראל תציע לתובע הצעת פשרה סבירה למועד ההצעה. הצעת הפשרה הכתובה תכלול את מקרה הביטוח, הנימוקים שביסוד הפשרה, מרכיבי התשלום שאינם שנויים במחלוקת ככל שישנם, הסכום שנקבע בפשרה, הסכום לתשלום והפער בין הסכום שנקבע בפשרה ובין הסכום לתשלום, ככל שקיים פער כזה. במקרה של תשלום חלקי, יפורטו הנימוקים לדחיית חלק מהתביעה.",
-    "row_axis": "claim payment notification details",
-    "column_axis": "aspects of the payment notice (e.g., reason for partial denial, offer of settlement)",
+    "title": "הודעות תביעה",
+    "summary": "This table outlines the notifications provided to a claimant regarding their car insurance claim. It details conditions for payment notices, partial payment explanations, and settlement offers.",
+    "embed_passage": "טבלה זו מתארת הודעות הניתנות לתובע בנוגע לתביעת ביטוח רכב. היא מפרטת תנאים להודעות תשלום, הסברים לתשלום חלקי והצעות פשרה. ניתן לעיין בטבלה כדי להבין את אופן מתן ההודעות במקרים שונים, כגון תשלום מלא, דחייה חלקית או הסדר פשרה. ההראל מציעה הצעת פשרה סבירה למועד ההצעה. במקרה של הסדר פשרה, תימסר לתובע הצעת פשרה בכתב. הוראות סעיף זה לא יחולו במקרה שבו התובע מיוצג על ידי עורך דין.",
+    "row_axis": "סוג הודעה / תנאי",
+    "column_axis": "פרטי ההודעה / פעולה",
     "units": [],
     "notable_values": [
-      "1: הראל תציע לתובע הצעת פשרה סבירה",
-      "2: אם הוסכם על תשלום במסגרת הסדר פשרה, תימסר לתובע הצעת פשרה בכתב",
-      "3: הצעת הפשרה הכתובה תכלול את מקרה הביטוח"
+      "הראל: פטורה ממתן הודעה (במקרה של הסדר פשרה)",
+      "תשלום חלקי: דחיית חלק מהתביעה",
+      "תביעה בבית משפט: חלים שינויים בהוראות",
+      "הודעת פשרה: הצעת פשרה סבירה"
     ],
     "product_hints": [
-      "הראל רכב צד ג"
+      "ביטוח רכב צד ג"
     ]
   },
   "sketch": "2 .\nשיפרט את הנימוקים לדחיית חלק מהתביעה, כמפורט בהמשך. , החלק השני\n■ בכל מקרה בו נתקבלה החלטה על תשלום התביעה, לא יהיה צורך במשלוח המסמכים המפורטים בסעיף ד' לעיל, למעט העתק מערכת כללים זו.\n■ בכל מקרה בו מדובר על תביעה שנדונה בבית משפט, יחולו הוראות סעיף זה בשינויים המחויבים לפי נסיבות העניין.\n■ בכל מקרה בו הסכימו הצדדים על תשלום במסגרת הסדר פשרה, תהיה הראל פטורה ממתן הודעה לפי סעיף זה החל מאותו מועד.",
-  "embed_text": "הראל תציע לתובע הצעת פשרה סבירה למועד ההצעה. הצעת הפשרה הכתובה תכלול את מקרה הביטוח, הנימוקים שביסוד הפשרה, מרכיבי התשלום שאינם שנויים במחלוקת ככל שישנם, הסכום שנקבע בפשרה, הסכום לתשלום והפער בין הסכום שנקבע בפשרה ובין הסכום לתשלום, ככל שקיים פער כזה. במקרה של תשלום חלקי, יפורטו הנימוקים לדחיית חלק מהתביעה.",
-  "payload": "טבלה: הודעת תשלום תביעה\nThis table outlines the information provided to a claimant regarding a car insurance claim payment, detailing reasons for approval or denial. It specifies what is included in a written notice regarding claim payments.\nממדים: claim payment notification details, aspects of the payment notice (e.g., reason for partial denial, offer of settlement)\n\n2 .\nשיפרט את הנימוקים לדחיית חלק מהתביעה, כמפורט בהמשך. , החלק השני\n■ בכל מקרה בו נתקבלה החלטה על תשלום התביעה, לא יהיה צורך במשלוח המסמכים המפורטים בסעיף ד' לעיל, למעט העתק מערכת כללים זו.\n■ בכל מקרה בו מדובר על תביעה שנדונה בבית משפט, יחולו הוראות סעיף זה בשינויים המחויבים לפי נסיבות העניין.\n■ בכל מקרה בו הסכימו הצדדים על תשלום במסגרת הסדר פשרה, תהיה הראל פטורה ממתן הודעה לפי סעיף זה החל מאותו מועד."
+  "embed_text": "טבלה זו מתארת הודעות הניתנות לתובע בנוגע לתביעת ביטוח רכב. היא מפרטת תנאים להודעות תשלום, הסברים לתשלום חלקי והצעות פשרה. ניתן לעיין בטבלה כדי להבין את אופן מתן ההודעות במקרים שונים, כגון תשלום מלא, דחייה חלקית או הסדר פשרה. ההראל מציעה הצעת פשרה סבירה למועד ההצעה. במקרה של הסדר פשרה, תימסר לתובע הצעת פשרה בכתב. הוראות סעיף זה לא יחולו במקרה שבו התובע מיוצג על ידי עורך דין. This table outlines the notifications provided to a claimant regarding their car insurance claim. It details conditions for payment notices, partial payment explanations, and settlement offers. בין הערכים בטבלה: תביעה בבית משפט: חלים שינויים בהוראות.",
+  "payload": "טבלה: הודעות תביעה\nThis table outlines the notifications provided to a claimant regarding their car insurance claim. It details conditions for payment notices, partial payment explanations, and settlement offers.\nממדים: סוג הודעה / תנאי, פרטי ההודעה / פעולה\n\n2 .\nשיפרט את הנימוקים לדחיית חלק מהתביעה, כמפורט בהמשך. , החלק השני\n■ בכל מקרה בו נתקבלה החלטה על תשלום התביעה, לא יהיה צורך במשלוח המסמכים המפורטים בסעיף ד' לעיל, למעט העתק מערכת כללים זו.\n■ בכל מקרה בו מדובר על תביעה שנדונה בבית משפט, יחולו הוראות סעיף זה בשינויים המחויבים לפי נסיבות העניין.\n■ בכל מקרה בו הסכימו הצדדים על תשלום במסגרת הסדר פשרה, תהיה הראל פטורה ממתן הודעה לפי סעיף זה החל מאותו מועד."
 }

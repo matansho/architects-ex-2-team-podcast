@@ -2,22 +2,23 @@
   "id": "pdf:business/files/טופס-הצעה-לביטוח-אחריות-מקצועית.pdf#9",
   "source": "llm",
   "description": {
-    "title": "אחריות מקצועית",
-    "summary": "This table captures the proposer's insurance history for professional liability coverage. It's used to assess risk based on prior claims, legal proceedings, and potential future liabilities.",
-    "embed_passage": "טופס הצעה לביטוח אחריות מקצועית בודק האם היו לך פוליסות ביטוח קודמות ב-7 השנים האחרונות, או שאתה מבוטח כעת. השאלה היא האם נפתחו נגדך הליכים פליליים בעבר במסגרת עיסוקך, ואם כן, פרט את השנה. כמו כן, נבדק האם הוגשו תביעות נגדך ב-7 השנים האחרונות.",
-    "row_axis": "Proposer's insurance history and potential liabilities",
-    "column_axis": "Yes/No answers to questions about past claims, legal proceedings, and potential future issues",
+    "title": "עבר ביטוחי",
+    "summary": "This table collects information about the applicant's prior insurance and legal history related to professional liability. It is used to assess risk and determine eligibility for insurance coverage.",
+    "embed_passage": "טופס זה, חלק מעבודת ביטוח אחריות מקצועית, נועד לאסוף מידע על עבר ביטוחי של המציע, כולל פוליסות קודמות והליכים משפטיים. המטרה היא להעריך את רמת הסיכון ולבחון את הצורך בכיסוי ביטוחי. השאלות מתייחסות להיסטוריה של תביעות, הליכים פליליים, ואירועים פוטנציאליים שעלולים להוביל לתביעות עתידיות. נתונים נדרשים כוללים שמות חברות ביטוח קודמות, פרטי הליכים פליליים, סכומי תביעות, ומהות התביעות. כן, לא, השנה, פרט, סכום התביעה, סכום הפיצוי ששולם הם ערכים נפוצים.",
+    "row_axis": "שאלות לגבי עבר ביטוחי והליכים משפטיים",
+    "column_axis": "תשובות (כן/לא/פרטים)",
     "units": [],
     "notable_values": [
-      "7 שנים: Timeframe for past insurance policies and claims",
-      "כן: Indicates a positive response to a question",
-      "לא: Indicates a negative response to a question"
+      "פוליסת ביטוח קודמת: כן",
+      "הליכים פליליים: לא",
+      "תביעות: כן, פרט",
+      "אירועים פוטנציאליים: כן, פרט"
     ],
     "product_hints": [
-      "אחריות מקצועית"
+      "ביטוח אחריות מקצועית"
     ]
   },
-  "sketch": "ח עבר ביטוחי\n, כן\nלא\n? השנים האחרונות פוליסת ביטוח קודמת, או הנך מבוטח כעת, בגין אחריות מקצועית 7- האם הייתה לך ב\n…\nלא\n? האם נפתחו נגדך בעבר הליכים פליליים במסגרת עיסוקך\n: כן, פרט: השנה\nלא",
-  "embed_text": "טופס הצעה לביטוח אחריות מקצועית בודק האם היו לך פוליסות ביטוח קודמות ב-7 השנים האחרונות, או שאתה מבוטח כעת. השאלה היא האם נפתחו נגדך הליכים פליליים בעבר במסגרת עיסוקך, ואם כן, פרט את השנה. כמו כן, נבדק האם הוגשו תביעות נגדך ב-7 השנים האחרונות.",
-  "payload": "טבלה: אחריות מקצועית\nThis table captures the proposer's insurance history for professional liability coverage. It's used to assess risk based on prior claims, legal proceedings, and potential future liabilities.\nממדים: Proposer's insurance history and potential liabilities, Yes/No answers to questions about past claims, legal proceedings, and potential future issues\n\nח עבר ביטוחי\n, כן\nלא\n? השנים האחרונות פוליסת ביטוח קודמת, או הנך מבוטח כעת, בגין אחריות מקצועית 7- האם הייתה לך ב\n:\nפרט את שם החברה המבטחת\n:\nסוג הביטוח:                                               תקופת הביטוח\n:\nכן, פרט\nלא\n? האם נדחתה אי פעם הצעתך, או הצעת מי משותפיך, לביטוח אחריות מקצועית\n: כן, פרט\nלא\n? השנים האחרונות, או ביטלה אותו או הסכימה לבטח בתנאים מיוחדים 7- האם סירבה חברת ביטוח לחדש ביטוח כזה ב\n:\nכן, פרט\nלא\n? האם נפתחו נגדך בעבר הליכים פליליים במסגרת עיסוקך\n: כן, פרט: השנה\nלא"
+  "sketch": "ח עבר ביטוחי\n, כן\nלא\n? השנים האחרונות פוליסת ביטוח קודמת, או הנך מבוטח כעת, בגין אחריות מקצועית 7- האם הייתה לך ב\n:\nפרט את שם החברה המבטחת\n…\n:\nכן, פרט\nלא\n? האם נפתחו נגדך בעבר הליכים פליליים במסגרת עיסוקך\n: כן, פרט: השנה\nלא",
+  "embed_text": "טופס זה, חלק מעבודת ביטוח אחריות מקצועית, נועד לאסוף מידע על עבר ביטוחי של המציע, כולל פוליסות קודמות והליכים משפטיים. המטרה היא להעריך את רמת הסיכון ולבחון את הצורך בכיסוי ביטוחי. השאלות מתייחסות להיסטוריה של תביעות, הליכים פליליים, ואירועים פוטנציאליים שעלולים להוביל לתביעות עתידיות. נתונים נדרשים כוללים שמות חברות ביטוח קודמות, פרטי הליכים פליליים, סכומי תביעות, ומהות התביעות. כן, לא, השנה, פרט, סכום התביעה, סכום הפיצוי ששולם הם ערכים נפוצים. This table collects information about the applicant's prior insurance and legal history related to professional liability. It is used to assess risk and determine eligibility for insurance coverage.",
+  "payload": "טבלה: עבר ביטוחי\nThis table collects information about the applicant's prior insurance and legal history related to professional liability. It is used to assess risk and determine eligibility for insurance coverage.\nממדים: שאלות לגבי עבר ביטוחי והליכים משפטיים, תשובות (כן/לא/פרטים)\n\nח עבר ביטוחי\n, כן\nלא\n? השנים האחרונות פוליסת ביטוח קודמת, או הנך מבוטח כעת, בגין אחריות מקצועית 7- האם הייתה לך ב\n:\nפרט את שם החברה המבטחת\n:\nסוג הביטוח:                                               תקופת הביטוח\n:\nכן, פרט\nלא\n? האם נדחתה אי פעם הצעתך, או הצעת מי משותפיך, לביטוח אחריות מקצועית\n: כן, פרט\nלא\n? השנים האחרונות, או ביטלה אותו או הסכימה לבטח בתנאים מיוחדים 7- האם סירבה חברת ביטוח לחדש ביטוח כזה ב\n:\nכן, פרט\nלא\n? האם נפתחו נגדך בעבר הליכים פליליים במסגרת עיסוקך\n: כן, פרט: השנה\nלא"
 }

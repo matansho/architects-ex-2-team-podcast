@@ -3,22 +3,20 @@
   "source": "llm",
   "description": {
     "title": "הרחבות וכיסויים נוספים",
-    "summary": "This table details additional extensions and coverages for insured property as part of the 'מכלול' insurance policy. It outlines conditions and limitations for various types of coverage.",
-    "embed_passage": "פוליסת 'מכלול' כוללת הרחבות וכיסויים נוספים לחלק הראשון - ביטוח הרכוש המבוטח. הכיסויים יחולו בכפוף למבוא, להגדרות, לסייגים ולתנאים הכלליים בפוליסה. לדוגמה, במקרה של גניבה, המבטח ישפה את המבוטח בגין גניבת הפריט כמפורט להלן.",
-    "row_axis": "types of additional coverages/extensions",
-    "column_axis": "conditions, limitations, and coverage details",
+    "summary": "This table lists additional extensions and coverages for insured property. It details what coverages apply based on conditions outlined in the policy.",
+    "embed_passage": "טבלה זו מפרטת הרחבות וכיסויים נוספים לחלק הראשון של ביטוח הרכוש המבוטח בפוליסת מכלול. הכיסויים יחולו בכפוף למבוא, להגדרות, לסייגים ולתנאים הכלליים בפוליסה, ורק אם צויין לגביהם בפרק השביעי ובחלק זה. הרחבות וכיסויים אלו כוללים גניבה והוצאות חילוץ וגרירה. פוליסת מכלול מציעה כיסויים מגוונים לרכוש המבוטח, וחשוב לבדוק את התנאים הספציפיים לכל הרחבה. גניבה, הוצאות חילוץ וגרירה הם חלק מהכיסויים המוצעים.",
+    "row_axis": "הרחבות וכיסויים",
+    "column_axis": "תנאים ופרטים",
     "units": [],
     "notable_values": [
-      "policy edition: ינואר 2023",
-      "coverage applies: בכפוף למבוא",
-      "reporting timeframe (theft): 30 ימים",
-      "reporting timeframe (damaged stolen item): 29 ימים"
+      "גניבה: ישפה לאחר גילוי הגניבה והמציא אישור משטרה",
+      "הוצאות חילוץ וגרירה: הוצאות סבירות למוסך הקרוב ביותר"
     ],
     "product_hints": [
       "מכלול"
     ]
   },
   "sketch": ".  הרחבות וכיסויים נוספים לחלק הראשון - ביטוח הרכוש ההמבוטח 5 ברשימה כתקפים - יחולו, בכפוף למבוא, להגדרות, לסייגים ולתנאים הכלליים בפוליסה\nההרחבות המפורטות להלן יחולו, והכיסויים המפורטים להלן - רק אם צויין לגביהם , בפרק השביעי ובחלק זה להלן.",
-  "embed_text": "פוליסת 'מכלול' כוללת הרחבות וכיסויים נוספים לחלק הראשון - ביטוח הרכוש המבוטח. הכיסויים יחולו בכפוף למבוא, להגדרות, לסייגים ולתנאים הכלליים בפוליסה. לדוגמה, במקרה של גניבה, המבטח ישפה את המבוטח בגין גניבת הפריט כמפורט להלן.",
-  "payload": "טבלה: הרחבות וכיסויים נוספים\nThis table details additional extensions and coverages for insured property as part of the 'מכלול' insurance policy. It outlines conditions and limitations for various types of coverage.\nממדים: types of additional coverages/extensions, conditions, limitations, and coverage details\n\n.  הרחבות וכיסויים נוספים לחלק הראשון - ביטוח הרכוש ההמבוטח 5 ברשימה כתקפים - יחולו, בכפוף למבוא, להגדרות, לסייגים ולתנאים הכלליים בפוליסה\nההרחבות המפורטות להלן יחולו, והכיסויים המפורטים להלן - רק אם צויין לגביהם , בפרק השביעי ובחלק זה להלן."
+  "embed_text": "טבלה זו מפרטת הרחבות וכיסויים נוספים לחלק הראשון של ביטוח הרכוש המבוטח בפוליסת מכלול. הכיסויים יחולו בכפוף למבוא, להגדרות, לסייגים ולתנאים הכלליים בפוליסה, ורק אם צויין לגביהם בפרק השביעי ובחלק זה. הרחבות וכיסויים אלו כוללים גניבה והוצאות חילוץ וגרירה. פוליסת מכלול מציעה כיסויים מגוונים לרכוש המבוטח, וחשוב לבדוק את התנאים הספציפיים לכל הרחבה. גניבה, הוצאות חילוץ וגרירה הם חלק מהכיסויים המוצעים. This table lists additional extensions and coverages for insured property. It details what coverages apply based on conditions outlined in the policy.",
+  "payload": "טבלה: הרחבות וכיסויים נוספים\nThis table lists additional extensions and coverages for insured property. It details what coverages apply based on conditions outlined in the policy.\nממדים: הרחבות וכיסויים, תנאים ופרטים\n\n.  הרחבות וכיסויים נוספים לחלק הראשון - ביטוח הרכוש ההמבוטח 5 ברשימה כתקפים - יחולו, בכפוף למבוא, להגדרות, לסייגים ולתנאים הכלליים בפוליסה\nההרחבות המפורטות להלן יחולו, והכיסויים המפורטים להלן - רק אם צויין לגביהם , בפרק השביעי ובחלק זה להלן."
 }

@@ -3,22 +3,21 @@
   "source": "llm",
   "description": {
     "title": "חריגים לפוליסה",
-    "summary": "This table lists exclusions to the insurance policy, detailing events or circumstances not covered. It helps determine what types of loss or damage are not eligible for claims.",
-    "embed_passage": "פוליסת צמה לא תכסה אובדן או נזק שנגרמו בעקבות מלחמה, פלישה או פעולת אויב זר (סעיף 11.1). הפוליסה אינה כוללת אובדן הנובע ממאגר נתונים אלקטרוני או וירוס מחשב (סעיף 12.1). עלות כספית מכל סוג שהיא, שנגרמה בקשר לנסיבות מסוימות, לא תכוסה (סעיף 11).",
-    "row_axis": "exclusion type",
-    "column_axis": "description of exclusion",
+    "summary": "This table lists exclusions to the insurance policy. It details circumstances under which coverage is not provided, such as war or damage to electronic data.",
+    "embed_passage": "טבלה זו מפרטת חריגים לפוליסת ביטוח ציוד מכני הנדסי צמה, ומציינת נסיבות בהן הכיסוי הביטוחי אינו תקף. ניתן לחפש חריגים ספציפיים לפי תיאור הנסיבה או סעיף הפוליסה הרלוונטי. החריגים כוללים מלחמה, פעולת אויב זר, מעשה איבה, ונזק למאגרי נתונים אלקטרוניים. מלחמה, פלישה, פעולת אויב זר, מעשה איבה או פעולות מעין מלחמתיות (בין אם הוכרזה מלחמה ובין אם לאו) הם דוגמאות לחריגים. פוליסת ביטוח ציוד מכני הנדסי צמה אינה מכסה אבדן או נזק שנגרם כתוצאה מנסיבות אלו.",
+    "row_axis": "exclusion reason",
+    "column_axis": "description",
     "units": [],
     "notable_values": [
-      "סעיף: 11",
-      "סעיף: 11.1",
-      "סעיף: 12",
-      "סעיף: 12.1"
+      "war: פעולת אויב זר",
+      "hostile acts: מעשה איבה",
+      "war-like operations: פעולות מעין מלחמתיות"
     ],
     "product_hints": [
-      "צמה"
+      "ביטוח ציוד מכני הנדסי צמה"
     ]
   },
   "sketch": ". אבדן, נזק, עלות כספית מכל סוג שהיא, שנגרמו במישרין או בעקיפין או בקשר עם 11 הנסיבות שיפורטו להלן, וזאת, מבלי להתייחס לכל סיבה או אירוע אחר, שתרמו לגרימת הנזק בין אם בו-זמנית או באיזשהו שלב של קרות הנזק.\n.   מלחמה, פלישה, פעולת אויב זר, מעשה איבה או פעולות מעין מלחמתיות (בין 11.1 ;) אם הוכרזה מלחמה ובין אם לאו",
-  "embed_text": "פוליסת צמה לא תכסה אובדן או נזק שנגרמו בעקבות מלחמה, פלישה או פעולת אויב זר (סעיף 11.1). הפוליסה אינה כוללת אובדן הנובע ממאגר נתונים אלקטרוני או וירוס מחשב (סעיף 12.1). עלות כספית מכל סוג שהיא, שנגרמה בקשר לנסיבות מסוימות, לא תכוסה (סעיף 11).",
-  "payload": "טבלה: חריגים לפוליסה\nThis table lists exclusions to the insurance policy, detailing events or circumstances not covered. It helps determine what types of loss or damage are not eligible for claims.\nממדים: exclusion type, description of exclusion\n\n. אבדן, נזק, עלות כספית מכל סוג שהיא, שנגרמו במישרין או בעקיפין או בקשר עם 11 הנסיבות שיפורטו להלן, וזאת, מבלי להתייחס לכל סיבה או אירוע אחר, שתרמו לגרימת הנזק בין אם בו-זמנית או באיזשהו שלב של קרות הנזק.\n.   מלחמה, פלישה, פעולת אויב זר, מעשה איבה או פעולות מעין מלחמתיות (בין 11.1 ;) אם הוכרזה מלחמה ובין אם לאו"
+  "embed_text": "טבלה זו מפרטת חריגים לפוליסת ביטוח ציוד מכני הנדסי צמה, ומציינת נסיבות בהן הכיסוי הביטוחי אינו תקף. ניתן לחפש חריגים ספציפיים לפי תיאור הנסיבה או סעיף הפוליסה הרלוונטי. החריגים כוללים מלחמה, פעולת אויב זר, מעשה איבה, ונזק למאגרי נתונים אלקטרוניים. מלחמה, פלישה, פעולת אויב זר, מעשה איבה או פעולות מעין מלחמתיות (בין אם הוכרזה מלחמה ובין אם לאו) הם דוגמאות לחריגים. פוליסת ביטוח ציוד מכני הנדסי צמה אינה מכסה אבדן או נזק שנגרם כתוצאה מנסיבות אלו. This table lists exclusions to the insurance policy. It details circumstances under which coverage is not provided, such as war or damage to electronic data.",
+  "payload": "טבלה: חריגים לפוליסה\nThis table lists exclusions to the insurance policy. It details circumstances under which coverage is not provided, such as war or damage to electronic data.\nממדים: exclusion reason, description\n\n. אבדן, נזק, עלות כספית מכל סוג שהיא, שנגרמו במישרין או בעקיפין או בקשר עם 11 הנסיבות שיפורטו להלן, וזאת, מבלי להתייחס לכל סיבה או אירוע אחר, שתרמו לגרימת הנזק בין אם בו-זמנית או באיזשהו שלב של קרות הנזק.\n.   מלחמה, פלישה, פעולת אויב זר, מעשה איבה או פעולות מעין מלחמתיות (בין 11.1 ;) אם הוכרזה מלחמה ובין אם לאו"
 }

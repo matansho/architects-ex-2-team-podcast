@@ -2,24 +2,23 @@
   "id": "pdf:business/files/תנאי-פוליסה-ביטוח-מכלול-למשרד-מהדורת-ינואר-2024.pdf#17",
   "source": "llm",
   "description": {
-    "title": "סייגים לפוליסה",
-    "summary": "This table lists exclusions to the insurance policy. It details events or circumstances under which the policy will not provide coverage, such as acts of terror or environmental pollution.",
-    "embed_passage": "פוליסת מכלול כוללת סייגים שונים, כגון פרעות, מהומות ושביתות (2.1.3), וכן זיהום סביבתי מכל סוג שהוא (2.1.4). סייגים אלו מגדירים מצבים בהם הכיסוי הביטוחי לא יחול, למשל, נזק שנגרם כתוצאה ממעשה טרור או בנייה בשיטת 'פל-קל'.",
+    "title": "סייגים",
+    "summary": "This table lists exclusions to insurance coverage under the 'Mekhalel' policy. It details specific events or circumstances that invalidate the insurance, such as acts of terror or environmental pollution.",
+    "embed_passage": "טבלה זו מפרטת סייגים לפוליסת ביטוח מכלול, ומציינת אירועים או נסיבות ספציפיות המבטלות את הכיסוי הביטוחי. ניתן לחפש סייגים לפי סעיף או תיאור האירוע. הסייגים כוללים מעשה טרור, פרעות, מהומות, שביתות, זיהום סביבתי ובנייה בשיטת פל-קל. מעשה טרור כולל שימוש בכוח, אלימות או כלי נשק, לרבות אטומי, כימי או ביולוגי. פרעות, מהומות, שביתות או השבתות וסכסוכי עבודה הם סייגים נוספים. בנייה בשיטה הידועה כ\"פל-קל\" גם היא אינה מכוסה.",
     "row_axis": "exclusion type",
     "column_axis": "description/details",
     "units": [],
     "notable_values": [
-      "exclusion: 2.1.2.1 עד 2.1.2.5",
-      "exclusion: 2.1.3 - פרעות, מהומות, שביתות",
-      "exclusion: 2.1.4 - זיהום סביבתי",
-      "exclusion: 2.1.5 - בנייה בשיטת 'פל-קל'",
-      "reference: סעיף 2.1.2"
+      "מעשה טרור: שימוש בכוח, אלימות, כלי נשק",
+      "פרעות, מהומות, שביתות: סכסוכי עבודה",
+      "זיהום סביבתי: מכל סוג שהוא",
+      "בנייה בשיטה הידועה כ: \"פל-קל\""
     ],
     "product_hints": [
       "מכלול"
     ]
   },
   "sketch": "שננקטה בקשר עם פיקוח, מניעה, דיכוי או צמצום בכל דרך של כל (כולל) ושמתייחסים אליו לעיל. 2.1.2.5 עד 2.1.2.1 מעשה שנמנה בסעיפים אי תקפות או בטלות או קביעה של חוסר יכולת יישום לגבי כל חלק של לא תפגע בשלמות ובתקפות יתר חלקי הסייג. 2.1.2 סייג\n.2.1.3 פרעות, מהומות, שביתות או השבתות וסכסוכי עבודה.\n.2.1.4 זיהום סביבתי, מכל סוג שהוא.\n.2.1.5 .\" בנייה בשיטה הידועה כ\"פל-קל",
-  "embed_text": "פוליסת מכלול כוללת סייגים שונים, כגון פרעות, מהומות ושביתות (2.1.3), וכן זיהום סביבתי מכל סוג שהוא (2.1.4). סייגים אלו מגדירים מצבים בהם הכיסוי הביטוחי לא יחול, למשל, נזק שנגרם כתוצאה ממעשה טרור או בנייה בשיטת 'פל-קל'.",
-  "payload": "טבלה: סייגים לפוליסה\nThis table lists exclusions to the insurance policy. It details events or circumstances under which the policy will not provide coverage, such as acts of terror or environmental pollution.\nממדים: exclusion type, description/details\n\nשננקטה בקשר עם פיקוח, מניעה, דיכוי או צמצום בכל דרך של כל (כולל) ושמתייחסים אליו לעיל. 2.1.2.5 עד 2.1.2.1 מעשה שנמנה בסעיפים אי תקפות או בטלות או קביעה של חוסר יכולת יישום לגבי כל חלק של לא תפגע בשלמות ובתקפות יתר חלקי הסייג. 2.1.2 סייג\n.2.1.3 פרעות, מהומות, שביתות או השבתות וסכסוכי עבודה.\n.2.1.4 זיהום סביבתי, מכל סוג שהוא.\n.2.1.5 .\" בנייה בשיטה הידועה כ\"פל-קל"
+  "embed_text": "טבלה זו מפרטת סייגים לפוליסת ביטוח מכלול, ומציינת אירועים או נסיבות ספציפיות המבטלות את הכיסוי הביטוחי. ניתן לחפש סייגים לפי סעיף או תיאור האירוע. הסייגים כוללים מעשה טרור, פרעות, מהומות, שביתות, זיהום סביבתי ובנייה בשיטת פל-קל. מעשה טרור כולל שימוש בכוח, אלימות או כלי נשק, לרבות אטומי, כימי או ביולוגי. פרעות, מהומות, שביתות או השבתות וסכסוכי עבודה הם סייגים נוספים. בנייה בשיטה הידועה כ\"פל-קל\" גם היא אינה מכוסה. This table lists exclusions to insurance coverage under the 'Mekhalel' policy. It details specific events or circumstances that invalidate the insurance, such as acts of terror or environmental pollution.",
+  "payload": "טבלה: סייגים\nThis table lists exclusions to insurance coverage under the 'Mekhalel' policy. It details specific events or circumstances that invalidate the insurance, such as acts of terror or environmental pollution.\nממדים: exclusion type, description/details\n\nשננקטה בקשר עם פיקוח, מניעה, דיכוי או צמצום בכל דרך של כל (כולל) ושמתייחסים אליו לעיל. 2.1.2.5 עד 2.1.2.1 מעשה שנמנה בסעיפים אי תקפות או בטלות או קביעה של חוסר יכולת יישום לגבי כל חלק של לא תפגע בשלמות ובתקפות יתר חלקי הסייג. 2.1.2 סייג\n.2.1.3 פרעות, מהומות, שביתות או השבתות וסכסוכי עבודה.\n.2.1.4 זיהום סביבתי, מכל סוג שהוא.\n.2.1.5 .\" בנייה בשיטה הידועה כ\"פל-קל"
 }

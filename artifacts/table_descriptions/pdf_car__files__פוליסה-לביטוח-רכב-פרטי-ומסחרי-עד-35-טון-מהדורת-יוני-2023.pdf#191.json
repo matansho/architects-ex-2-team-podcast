@@ -2,25 +2,22 @@
   "id": "pdf:car/files/פוליסה-לביטוח-רכב-פרטי-ומסחרי-עד-35-טון-מהדורת-יוני-2023.pdf#191",
   "source": "llm",
   "description": {
-    "title": "ביטול פוליסה",
-    "summary": "This table details the conditions and refund amounts related to policy cancellation. It outlines the notice periods required for both the insurer and the insured to cancel the policy and the proportional refund of premiums.",
-    "embed_passage": "פוליסה לביטוח רכב פרטי ומסחרי עד 35 טון מספקת הגנה מקיפה. במקרה של ביטול הפוליסה על ידי המבטח, תישלח הודעה למבוטח 45 ימים מראש. אם המבטח ביטל את הפוליסה, יוחזר למבוטח החלק היחסי מדמי הביטוח ששולמו, ולא יאוחר מ-14 ימים ממועד הביטול.",
-    "row_axis": "Cancellation scenarios (insurer or insured initiated)",
-    "column_axis": "Cancellation conditions, notice periods, refund procedures",
-    "units": [
-      "ימים"
-    ],
+    "title": "ביטול הפוליסה",
+    "summary": "This table details the conditions and procedures for policy cancellation, specifically regarding refunds of premiums. It outlines the notice periods required for both the insurer and the insured to cancel the policy and the timeframe for returning proportional premiums.",
+    "embed_passage": "טבלה זו מתארת את תנאי ביטול הפוליסה וסדרי הגביית החזרים של דמי הביטוח. ניתן לבטל את הביטוח בכל עת, אך יש להודיע על כך מראש. הפוליסה כוללת סעיפים הנוגעים לביטול על ידי המבטח והמבוטח, וכן את החזר הכספים המגיע למבוטח במקרה של ביטול. סעיפים אלו מתייחסים למספר ימים להודעה מראש, החזר כספי, ושינויים במדד. ביטול הפוליסה, 45 ימים, 14 ימים, החזר כספי.",
+    "row_axis": "Cancellation conditions/actions",
+    "column_axis": "Policy cancellation details",
+    "units": [],
     "notable_values": [
-      "notice period: 45 ימים",
-      "refund timeframe: 14 ימים",
-      "refund type: חלק יחסי מדמי הביטוח"
+      "Notice period (insurer): 45 ימים",
+      "Refund timeframe: בהקדם, ולא יאוחר מ 14 ימים",
+      "Notice period (insured): 14 ימים"
     ],
     "product_hints": [
-      "פוליסה לביטוח רכב",
-      "ביטוח רכב פרטי ומסחרי"
+      "ביטוח רכב פרטי ומסחרי עד 35 טון"
     ]
   },
   "sketch": "בלי לגרוע מזכויות המבטח על פי דין, רשאי המבטח לבטל את הביטוח לפני תום תקופת .46.2 הביטוח, ובלבד שהודעה על כך, שבה ייכללו הנימוקים לביטול, תישלח למבוטח בדואר ימים לפחות לפני התאריך שבו יתבטל הביטוח. 45 רשום\nימים מהמועד 14ביטל המבטח את הפוליסה, יחזיר המבטח למבוטח בהקדם, ולא יאוחר מ .46.3 שבו נכנס הביטול לתוקף, את החלק היחסי מדמי הביטוח ששולמו.",
-  "embed_text": "פוליסה לביטוח רכב פרטי ומסחרי עד 35 טון מספקת הגנה מקיפה. במקרה של ביטול הפוליסה על ידי המבטח, תישלח הודעה למבוטח 45 ימים מראש. אם המבטח ביטל את הפוליסה, יוחזר למבוטח החלק היחסי מדמי הביטוח ששולמו, ולא יאוחר מ-14 ימים ממועד הביטול.",
-  "payload": "טבלה: ביטול פוליסה\nThis table details the conditions and refund amounts related to policy cancellation. It outlines the notice periods required for both the insurer and the insured to cancel the policy and the proportional refund of premiums.\nממדים: Cancellation scenarios (insurer or insured initiated), Cancellation conditions, notice periods, refund procedures\n\nבלי לגרוע מזכויות המבטח על פי דין, רשאי המבטח לבטל את הביטוח לפני תום תקופת .46.2 הביטוח, ובלבד שהודעה על כך, שבה ייכללו הנימוקים לביטול, תישלח למבוטח בדואר ימים לפחות לפני התאריך שבו יתבטל הביטוח. 45 רשום\nימים מהמועד 14ביטל המבטח את הפוליסה, יחזיר המבטח למבוטח בהקדם, ולא יאוחר מ .46.3 שבו נכנס הביטול לתוקף, את החלק היחסי מדמי הביטוח ששולמו."
+  "embed_text": "טבלה זו מתארת את תנאי ביטול הפוליסה וסדרי הגביית החזרים של דמי הביטוח. ניתן לבטל את הביטוח בכל עת, אך יש להודיע על כך מראש. הפוליסה כוללת סעיפים הנוגעים לביטול על ידי המבטח והמבוטח, וכן את החזר הכספים המגיע למבוטח במקרה של ביטול. סעיפים אלו מתייחסים למספר ימים להודעה מראש, החזר כספי, ושינויים במדד. ביטול הפוליסה, 45 ימים, 14 ימים, החזר כספי. This table details the conditions and procedures for policy cancellation, specifically regarding refunds of premiums. It outlines the notice periods required for both the insurer and the insured to cancel the policy and the timeframe for returning proportional premiums. בין הערכים בטבלה: Refund timeframe: בהקדם, ולא יאוחר מ 14 ימים.",
+  "payload": "טבלה: ביטול הפוליסה\nThis table details the conditions and procedures for policy cancellation, specifically regarding refunds of premiums. It outlines the notice periods required for both the insurer and the insured to cancel the policy and the timeframe for returning proportional premiums.\nממדים: Cancellation conditions/actions, Policy cancellation details\n\nבלי לגרוע מזכויות המבטח על פי דין, רשאי המבטח לבטל את הביטוח לפני תום תקופת .46.2 הביטוח, ובלבד שהודעה על כך, שבה ייכללו הנימוקים לביטול, תישלח למבוטח בדואר ימים לפחות לפני התאריך שבו יתבטל הביטוח. 45 רשום\nימים מהמועד 14ביטל המבטח את הפוליסה, יחזיר המבטח למבוטח בהקדם, ולא יאוחר מ .46.3 שבו נכנס הביטול לתוקף, את החלק היחסי מדמי הביטוח ששולמו."
 }

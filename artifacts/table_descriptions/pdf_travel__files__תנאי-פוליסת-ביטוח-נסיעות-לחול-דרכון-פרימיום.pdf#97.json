@@ -2,23 +2,23 @@
   "id": "pdf:travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-דרכון-פרימיום.pdf#97",
   "source": "llm",
   "description": {
-    "title": "תנאי פוליסה - סעיפי ביטול",
-    "summary": "This table outlines conditions for policy cancellation, specifically related to misrepresentation or incomplete answers provided by the insured. It details the company's rights to cancel the policy and the potential refund to the insured.",
-    "embed_passage": "פוליסת דרכון פרימיום מגדירה תנאים לביטול הפוליסה במקרים של הסתרה מכוונת או מתן תשובות לא כנות. סעיף 8.2 קובע כי החברה רשאית לבטל את הפוליסה תוך שלושים יום ממועד גילוי העניין, וסעיף 8.3 מתייחס להחזר דמי הביטוח בניכוי הוצאות החברה.",
-    "row_axis": "Cancellation clause/condition",
-    "column_axis": "Details of the cancellation process and consequences",
+    "title": "סעיפי ביטול פוליסה",
+    "summary": "This table details conditions under which an insurance policy can be cancelled, and the resulting refund or reduced payout. It outlines scenarios related to misrepresentation or incomplete answers provided by the insured.",
+    "embed_passage": "טבלה זו מתארת סעיפי ביטול בפוליסת ביטוח נסיעות 'דרכון פרימיום'. היא מפרטת תנאים בהם הפוליסה ניתנת לביטול על ידי החברה, כגון מסירת מידע שאינו מלא או כנה. ניתן לעיין בסעיפים אלה כדי להבין את זכויות המבוטח וחובותיו במקרה של ביטול פוליסה. הסעיפים כוללים: הסתרה בכוונת מרמה, תשובה שאינה מלאה וכנה, ביטול הפוליסה והחזר דמי ביטוח, ותגמולי ביטוח מופחתים. 8.1.2, 8.2, 8.3, 8.4 הם מספרי הסעיפים המופיעים בטבלה.",
+    "row_axis": "סעיף ביטול",
+    "column_axis": "תיאור הסעיף",
     "units": [],
     "notable_values": [
-      "clause: 8.1.2",
-      "days for cancellation: 30",
-      "refund: partial, minus company expenses",
-      "fraudulent intent: treated as false answer"
+      "8.1.2: הסתרה בכוונת מרמה",
+      "8.2: תשובה שאינה מלאה וכנה",
+      "8.3: החזר דמי ביטוח לאחר ביטול",
+      "8.4: תגמולי ביטוח מופחתים"
     ],
     "product_hints": [
       "דרכון פרימיום"
     ]
   },
   "sketch": ", . הסתרה בכוונת מרמה מצד המבוטח של ענין שהוא ידע כי הוא ענין מהותי 8.1.2 דינה כדין מתן תשובה שאינה מלאה וכנה.\n. ניתנה לשאלה בעניין מהותי תשובה שלא הייתה מלאה וכנה, רשאית החברה, תוך 8.2 שלושים ימים מהיום שנודע לה על כך וכל עוד לא קרה מקרה הביטוח, לבטל את הפוליסה בהודעה בכתב למבוטח.\n. ביטלה החברה את הפוליסה מכוח סעיף זה, זכאי המבוטח להחזר דמי הביטוח 8.3 ששילם בעד התקופה שלאחר הביטול, בניכוי הוצאות החברה, זולת אם פעל המבוטח בכוונת מרמה.",
-  "embed_text": "פוליסת דרכון פרימיום מגדירה תנאים לביטול הפוליסה במקרים של הסתרה מכוונת או מתן תשובות לא כנות. סעיף 8.2 קובע כי החברה רשאית לבטל את הפוליסה תוך שלושים יום ממועד גילוי העניין, וסעיף 8.3 מתייחס להחזר דמי הביטוח בניכוי הוצאות החברה.",
-  "payload": "טבלה: תנאי פוליסה - סעיפי ביטול\nThis table outlines conditions for policy cancellation, specifically related to misrepresentation or incomplete answers provided by the insured. It details the company's rights to cancel the policy and the potential refund to the insured.\nממדים: Cancellation clause/condition, Details of the cancellation process and consequences\n\n, . הסתרה בכוונת מרמה מצד המבוטח של ענין שהוא ידע כי הוא ענין מהותי 8.1.2 דינה כדין מתן תשובה שאינה מלאה וכנה.\n. ניתנה לשאלה בעניין מהותי תשובה שלא הייתה מלאה וכנה, רשאית החברה, תוך 8.2 שלושים ימים מהיום שנודע לה על כך וכל עוד לא קרה מקרה הביטוח, לבטל את הפוליסה בהודעה בכתב למבוטח.\n. ביטלה החברה את הפוליסה מכוח סעיף זה, זכאי המבוטח להחזר דמי הביטוח 8.3 ששילם בעד התקופה שלאחר הביטול, בניכוי הוצאות החברה, זולת אם פעל המבוטח בכוונת מרמה."
+  "embed_text": "טבלה זו מתארת סעיפי ביטול בפוליסת ביטוח נסיעות 'דרכון פרימיום'. היא מפרטת תנאים בהם הפוליסה ניתנת לביטול על ידי החברה, כגון מסירת מידע שאינו מלא או כנה. ניתן לעיין בסעיפים אלה כדי להבין את זכויות המבוטח וחובותיו במקרה של ביטול פוליסה. הסעיפים כוללים: הסתרה בכוונת מרמה, תשובה שאינה מלאה וכנה, ביטול הפוליסה והחזר דמי ביטוח, ותגמולי ביטוח מופחתים. 8.1.2, 8.2, 8.3, 8.4 הם מספרי הסעיפים המופיעים בטבלה. This table details conditions under which an insurance policy can be cancelled, and the resulting refund or reduced payout. It outlines scenarios related to misrepresentation or incomplete answers provided by the insured.",
+  "payload": "טבלה: סעיפי ביטול פוליסה\nThis table details conditions under which an insurance policy can be cancelled, and the resulting refund or reduced payout. It outlines scenarios related to misrepresentation or incomplete answers provided by the insured.\nממדים: סעיף ביטול, תיאור הסעיף\n\n, . הסתרה בכוונת מרמה מצד המבוטח של ענין שהוא ידע כי הוא ענין מהותי 8.1.2 דינה כדין מתן תשובה שאינה מלאה וכנה.\n. ניתנה לשאלה בעניין מהותי תשובה שלא הייתה מלאה וכנה, רשאית החברה, תוך 8.2 שלושים ימים מהיום שנודע לה על כך וכל עוד לא קרה מקרה הביטוח, לבטל את הפוליסה בהודעה בכתב למבוטח.\n. ביטלה החברה את הפוליסה מכוח סעיף זה, זכאי המבוטח להחזר דמי הביטוח 8.3 ששילם בעד התקופה שלאחר הביטול, בניכוי הוצאות החברה, זולת אם פעל המבוטח בכוונת מרמה."
 }

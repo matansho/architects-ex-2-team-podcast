@@ -3,23 +3,24 @@
   "source": "llm",
   "description": {
     "title": "סייגים לחבות המבטח",
-    "summary": "This table details exclusions to coverage under an 'all risks' property insurance policy. It lists events or circumstances that would invalidate the insurer's liability, such as wear and tear or specific types of damage.",
-    "embed_passage": "פוליסת ביטוח רכוש 'כל הסיכונים' מגנה מפני אבדן או נזק תאונתי, אך קיימים סייגים לחבות המבטח. לדוגמה, אבדן או נזק שנגרמו מעש, תולעים או התבלות הדרגתית (1) אינם מכוסים, כמו גם פחת או בלאי (2) אלא במקרים מיוחדים. סייגים אלו מגדירים את גבולות הכיסוי.",
-    "row_axis": "Specific exclusion to insurance coverage",
-    "column_axis": "Details of the exclusion",
+    "summary": "This table lists general limitations and exclusions to the insurer's liability under a 'כל הסיכונים' (all risks) property insurance policy. It details causes of loss or damage that are not covered.",
+    "embed_passage": "טבלה זו מפרטת סייגים לחבות המבטח בפוליסת ביטוח רכוש 'כל הסיכונים' לדברי ערך. הסייגים מתארים אבדן או נזק שאינם מכוסים, כגון נזקים הנגרמים מעש, תולעים, התבלות הדרגתית ותנאים אקלימיים רגילים. ניתן לעיין בסייגים אלה כדי להבין את היקף הכיסוי של הפוליסה. הסייגים כוללים: עש, תולעים, התבלות הדרגתית, פחת או בלאי, תהליך ניקוי, קרינה מייננת, מלחמה ופעולות אויב זר. פוליסת 'כל הסיכונים' לדברי ערך מכסה אבדן או נזק תאונתי ובלתי צפוי מכל סיבה שהיא.",
+    "row_axis": "exclusion clause number and description",
+    "column_axis": "details of the exclusion",
     "units": [],
     "notable_values": [
       "סייגים לחבות המבטח: .1",
-      "עש, תולעים, התבלות: 1",
+      "אבדן או נזק שנגרמו על ידי עש: א.1",
       "פחת או בלאי: 2",
-      "תהליך ניקוי, תיקון: 3",
-      "מלחמה, פלישה: בין אם הוכרזה ובין אם לא הוכרזה"
+      "אבדן או נזק עקב תהליך ניקוי: 3",
+      "קרינה מייננת: 1",
+      "מלחמה: 2"
     ],
     "product_hints": [
-      "ביטוח רכוש כל הסיכונים"
+      "ביטוח רכוש כל הסיכונים לדברי ערך"
     ]
   },
   "sketch": "הגבלות כלליות\nסייגים לחבות המבטח .1\nאבדן או נזק שנגרמו על ידי או כתוצאה מ: א.\n( עש, תולעים, התבלות הדרגתית ותנאים אקלימיים רגילים. 1)\n( פחת או בלאי, פרט לאבדן או נזק הנגרם לפריט כלשהו כתוצאה מהתרופפות 2) בתנאים מיוחדים. 1 שנגרמה לנושא, מחזיק או מיכל, בכפיפות לסעיף ב' בפרק",
-  "embed_text": "פוליסת ביטוח רכוש 'כל הסיכונים' מגנה מפני אבדן או נזק תאונתי, אך קיימים סייגים לחבות המבטח. לדוגמה, אבדן או נזק שנגרמו מעש, תולעים או התבלות הדרגתית (1) אינם מכוסים, כמו גם פחת או בלאי (2) אלא במקרים מיוחדים. סייגים אלו מגדירים את גבולות הכיסוי.",
-  "payload": "טבלה: סייגים לחבות המבטח\nThis table details exclusions to coverage under an 'all risks' property insurance policy. It lists events or circumstances that would invalidate the insurer's liability, such as wear and tear or specific types of damage.\nממדים: Specific exclusion to insurance coverage, Details of the exclusion\n\nהגבלות כלליות\nסייגים לחבות המבטח .1\nאבדן או נזק שנגרמו על ידי או כתוצאה מ: א.\n( עש, תולעים, התבלות הדרגתית ותנאים אקלימיים רגילים. 1)\n( פחת או בלאי, פרט לאבדן או נזק הנגרם לפריט כלשהו כתוצאה מהתרופפות 2) בתנאים מיוחדים. 1 שנגרמה לנושא, מחזיק או מיכל, בכפיפות לסעיף ב' בפרק"
+  "embed_text": "טבלה זו מפרטת סייגים לחבות המבטח בפוליסת ביטוח רכוש 'כל הסיכונים' לדברי ערך. הסייגים מתארים אבדן או נזק שאינם מכוסים, כגון נזקים הנגרמים מעש, תולעים, התבלות הדרגתית ותנאים אקלימיים רגילים. ניתן לעיין בסייגים אלה כדי להבין את היקף הכיסוי של הפוליסה. הסייגים כוללים: עש, תולעים, התבלות הדרגתית, פחת או בלאי, תהליך ניקוי, קרינה מייננת, מלחמה ופעולות אויב זר. פוליסת 'כל הסיכונים' לדברי ערך מכסה אבדן או נזק תאונתי ובלתי צפוי מכל סיבה שהיא. This table lists general limitations and exclusions to the insurer's liability under a 'כל הסיכונים' (all risks) property insurance policy. It details causes of loss or damage that are not covered. בין הערכים בטבלה: אבדן או נזק שנגרמו על ידי עש: א.1; אבדן או נזק עקב תהליך ניקוי: 3.",
+  "payload": "טבלה: סייגים לחבות המבטח\nThis table lists general limitations and exclusions to the insurer's liability under a 'כל הסיכונים' (all risks) property insurance policy. It details causes of loss or damage that are not covered.\nממדים: exclusion clause number and description, details of the exclusion\n\nהגבלות כלליות\nסייגים לחבות המבטח .1\nאבדן או נזק שנגרמו על ידי או כתוצאה מ: א.\n( עש, תולעים, התבלות הדרגתית ותנאים אקלימיים רגילים. 1)\n( פחת או בלאי, פרט לאבדן או נזק הנגרם לפריט כלשהו כתוצאה מהתרופפות 2) בתנאים מיוחדים. 1 שנגרמה לנושא, מחזיק או מיכל, בכפיפות לסעיף ב' בפרק"
 }

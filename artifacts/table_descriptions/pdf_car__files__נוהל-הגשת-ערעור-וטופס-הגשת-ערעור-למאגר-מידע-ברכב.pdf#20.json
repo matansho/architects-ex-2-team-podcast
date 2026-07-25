@@ -3,21 +3,20 @@
   "source": "llm",
   "description": {
     "title": "ערעור על נתוני מערכות בטיחות",
-    "summary": "This table details the process for appealing information related to safety systems in a vehicle, as recorded in a database. It outlines the required documentation, such as written confirmation from the manufacturer or installer.",
-    "embed_passage": "המאגר יעדכן את נתוני מערכות הבטיחות ברכב באמצעות קבלת אישור בכתב מהחברה המתקינה או המייצרת או המשווקת. במידה ויתברר כי קיימות מערכות בטיחות, המפעיל יחזיר תשובה בהתאם. לדוגמה, מערכות בטיחות כהגדרתן בחוזר ביטוח 2016-1-9.",
-    "row_axis": "Appeal step / condition",
-    "column_axis": "Required action / information",
+    "summary": "This table details the process for appealing information related to vehicle safety systems. It outlines the required documentation, specifically written confirmation from the manufacturer, installer, or marketer of the safety systems.",
+    "embed_passage": "טבלה זו עוסקת בערעורים על נתוני מערכות בטיחות ברכב, ומפרטת את הנהלים לקבלת אישורים בכתב מהחברה המייצרת, המתקינה או המשווקת. המטרה היא לוודא שהמידע במאגר נכון ומעודכן, בהתאם לנוהל המצורף (2.8.2016). הנתונים יתעדכנו בהקדם האפשרי לאחר קבלת האישור. מערכות בטיחות כוללות התרעה על מרחק שמירת נתיב (FCW) וסטייה מנתיב (LDW). נדרש אישור התקנה מהפונה. המפעיל יעדכן את המאגר בהתאם.",
+    "row_axis": "שלבי טיפול בערעור על נתוני מערכות בטיחות",
+    "column_axis": "דרישות ופעולות",
     "units": [],
     "notable_values": [
-      "year: 2016",
-      "document type: אישור בכתב",
-      "reference: חוזר ביטוח 2016-1-9"
+      "נוהל: 2.8.2016",
+      "מערכות בטיחות: FCW, LDW"
     ],
     "product_hints": [
-      "ביטוח רכב"
+      "מערכות בטיחות"
     ]
   },
   "sketch": "או המייצרת או המשווקת מהחברה אישור  בכתב, קבלת באמצעות ת, ייאמ המפעיל 5.4.3\nכי העניין, לפי , המתקינה או המייצרת או המשווקת החברה של בכתב אישור התקבל האפשרי, וכן יעדכן בהקדם המאגר את נתוני המפעיל יעדכן ברכב, מערכות הבטיחות הותקנו\n. ( הבטיחות\" \"מערכות ( )להלן: 2.8.2016) זה. א לנוהל לנספח בהתאם . מערכות הבטיחות ברכב כי הותקנו שהתקינה, לפי העניין, 5.4.4 הביטוח. חברת ואת הפונה את",
-  "embed_text": "המאגר יעדכן את נתוני מערכות הבטיחות ברכב באמצעות קבלת אישור בכתב מהחברה המתקינה או המייצרת או המשווקת. במידה ויתברר כי קיימות מערכות בטיחות, המפעיל יחזיר תשובה בהתאם. לדוגמה, מערכות בטיחות כהגדרתן בחוזר ביטוח 2016-1-9.",
-  "payload": "טבלה: ערעור על נתוני מערכות בטיחות\nThis table details the process for appealing information related to safety systems in a vehicle, as recorded in a database. It outlines the required documentation, such as written confirmation from the manufacturer or installer.\nממדים: Appeal step / condition, Required action / information\n\nאו המייצרת או המשווקת מהחברה אישור  בכתב, קבלת באמצעות ת, ייאמ המפעיל 5.4.3\nכי העניין, לפי , המתקינה או המייצרת או המשווקת החברה של בכתב אישור התקבל האפשרי, וכן יעדכן בהקדם המאגר את נתוני המפעיל יעדכן ברכב, מערכות הבטיחות הותקנו\n. ( הבטיחות\" \"מערכות ( )להלן: 2.8.2016) זה. א לנוהל לנספח בהתאם . מערכות הבטיחות ברכב כי הותקנו שהתקינה, לפי העניין, 5.4.4 הביטוח. חברת ואת הפונה את"
+  "embed_text": "טבלה זו עוסקת בערעורים על נתוני מערכות בטיחות ברכב, ומפרטת את הנהלים לקבלת אישורים בכתב מהחברה המייצרת, המתקינה או המשווקת. המטרה היא לוודא שהמידע במאגר נכון ומעודכן, בהתאם לנוהל המצורף (2.8.2016). הנתונים יתעדכנו בהקדם האפשרי לאחר קבלת האישור. מערכות בטיחות כוללות התרעה על מרחק שמירת נתיב (FCW) וסטייה מנתיב (LDW). נדרש אישור התקנה מהפונה. המפעיל יעדכן את המאגר בהתאם. This table details the process for appealing information related to vehicle safety systems. It outlines the required documentation, specifically written confirmation from the manufacturer, installer, or marketer of the safety systems.",
+  "payload": "טבלה: ערעור על נתוני מערכות בטיחות\nThis table details the process for appealing information related to vehicle safety systems. It outlines the required documentation, specifically written confirmation from the manufacturer, installer, or marketer of the safety systems.\nממדים: שלבי טיפול בערעור על נתוני מערכות בטיחות, דרישות ופעולות\n\nאו המייצרת או המשווקת מהחברה אישור  בכתב, קבלת באמצעות ת, ייאמ המפעיל 5.4.3\nכי העניין, לפי , המתקינה או המייצרת או המשווקת החברה של בכתב אישור התקבל האפשרי, וכן יעדכן בהקדם המאגר את נתוני המפעיל יעדכן ברכב, מערכות הבטיחות הותקנו\n. ( הבטיחות\" \"מערכות ( )להלן: 2.8.2016) זה. א לנוהל לנספח בהתאם . מערכות הבטיחות ברכב כי הותקנו שהתקינה, לפי העניין, 5.4.4 הביטוח. חברת ואת הפונה את"
 }

@@ -2,28 +2,26 @@
   "id": "pdf:personal-accident/files/תנאי-פוליסת-הראל-ביטוח-תאונות-אישיות.pdf#19",
   "source": "llm",
   "description": {
-    "title": "תאונות אישיות הראל",
-    "summary": "This table details the benefits paid by Harel Personal Accident Insurance for disability resulting from an accident. It shows how the insurance payout is calculated based on the degree of disability determined by a medical professional and the total insurance amount.",
-    "embed_passage": "פוליסת תאונות אישיות של הראל מפצה על נכות כתוצאה מתאונה ישירה. גובה הפיצוי מחושב כמכפלה של אחוז הנכות שנקבע על ידי רופא מומחה בסכום הביטוח המלא, לדוגמה, במקרה של נכות מוחלטת של הרגל וסכום ביטוח של ₪100,000, התגמול יחושב כ-40% מ-₪100,000, כלומר ₪40,000.",
-    "row_axis": "Disability scenarios and payout calculations",
-    "column_axis": "Insurance company's obligation, disability rate, payout calculation",
+    "title": "תנאי פוליסת הראל ביטוח תאונות אישיות",
+    "summary": "This table details the insurance company's obligation to pay benefits in case of disability. It shows how benefit payments are calculated based on the degree of disability determined by a medical expert and the insurance amount.",
+    "embed_passage": "טבלה זו מתארת את התחייבות חברת הראל ביטוח לתשלום תגמולים במקרה של נכות, כפי שמופיע בפוליסת ביטוח תאונות אישיות. החישוב של גובה התגמולים מבוסס על דרגת הנכות שנקבעה על ידי רופא מומחה, בהתאם לתקנות הביטוח הלאומי, ועל סכום הביטוח המלא המפורט בדף פרטי הביטוח. דוגמאות לחישוב תגמולים כוללות מקרים של נכות מוחלטת ברגל, כאשר סכום הביטוח הוא ₪100,000 ושיעור הנכות הוא 40%. נכות מזכה בפיצוי, תקנה 11, סכום ביטוח, 40%, ₪100,000, ₪40,000 הם ערכים מרכזיים בטבלה זו.",
+    "row_axis": "מקרה ביטוח (disability scenarios)",
+    "column_axis": "תשלום תגמולי ביטוח (benefit payment calculation)",
     "units": [
-      "₪",
-      "%"
+      "₪"
     ],
     "notable_values": [
-      "Insurance Amount: ₪100,000",
-      "Disability Rate: 40%",
-      "Payout Calculation: ₪40,000",
-      "Regulation 11: Medical assessment standard",
-      "Year of Regulation: 1956"
+      "סכום הביטוח: ₪100,000",
+      "שיעור נכות: 40%",
+      "תגמולי ביטוח: ₪40,000",
+      "תקנה: 11",
+      "נכות מוחלטת: הרגל"
     ],
     "product_hints": [
-      "תאונות אישיות הראל",
-      "Harel Personal Accident Insurance"
+      "ביטוח תאונות אישיות"
     ]
   },
   "sketch": "מקרה בקרות החברה התחייבות .4.3 הביטוח:\nבקרות  מקרה  הביטוח   של  נכות .4.3.1 תשלם , הגוף מאיברי באחד החברה  למבוטח  תגמולי  ביטוח אשר יחושב  ו כמכפלה ישירה של הנכות  המזכה  שנקבע שיעור 4.3.2 למבוטח  כמפורט  בסעיף להלן בסכום הביטוח   המלא   בגין כיסוי  זה  כפי  שנקוב  בדף  פרטי הביטוח, בין אם מדובר במקרה\nהנכות   המזכה   בפיצוי שיעור .4.3.2 מומחה רופא ידי על ייקבע 11 תקנה להוראות בהתאם ,   לתקנות הביטוח הלאומי בלבד לנפגעי נכות דרגת )קביעת\n. ביטוח אחד או יותר .1956   עבודה(, תשט\"ז\n: דוגמא\nנקבעה  למבוטח  על  ידי  רופא כאמור 11 מומחה על פי תקנה לעיל,  נכות  מוחלטת  של  הרגל ,    וסכום  הביטוח 40% בגובה פרטי בדף הנקוב המירבי מתאונה   הנו הביטוח   לנכות ח .  תגמולי  הביטו ₪ 100,000 X 40%   : יחושבו   במקרה  זה   כ   ך 40,000 100,000",
-  "embed_text": "פוליסת תאונות אישיות של הראל מפצה על נכות כתוצאה מתאונה ישירה. גובה הפיצוי מחושב כמכפלה של אחוז הנכות שנקבע על ידי רופא מומחה בסכום הביטוח המלא, לדוגמה, במקרה של נכות מוחלטת של הרגל וסכום ביטוח של ₪100,000, התגמול יחושב כ-40% מ-₪100,000, כלומר ₪40,000.",
-  "payload": "טבלה: תאונות אישיות הראל\nThis table details the benefits paid by Harel Personal Accident Insurance for disability resulting from an accident. It shows how the insurance payout is calculated based on the degree of disability determined by a medical professional and the total insurance amount.\nממדים: Disability scenarios and payout calculations, Insurance company's obligation, disability rate, payout calculation\n\nמקרה בקרות החברה התחייבות .4.3 הביטוח:\nבקרות  מקרה  הביטוח   של  נכות .4.3.1 תשלם , הגוף מאיברי באחד החברה  למבוטח  תגמולי  ביטוח אשר יחושב  ו כמכפלה ישירה של הנכות  המזכה  שנקבע שיעור 4.3.2 למבוטח  כמפורט  בסעיף להלן בסכום הביטוח   המלא   בגין כיסוי  זה  כפי  שנקוב  בדף  פרטי הביטוח, בין אם מדובר במקרה\nהנכות   המזכה   בפיצוי שיעור .4.3.2 מומחה רופא ידי על ייקבע 11 תקנה להוראות בהתאם ,   לתקנות הביטוח הלאומי בלבד לנפגעי נכות דרגת )קביעת\n. ביטוח אחד או יותר .1956   עבודה(, תשט\"ז\n: דוגמא\nנקבעה  למבוטח  על  ידי  רופא כאמור 11 מומחה על פי תקנה לעיל,  נכות  מוחלטת  של  הרגל ,    וסכום  הביטוח 40% בגובה פרטי בדף הנקוב המירבי מתאונה   הנו הביטוח   לנכות ח .  תגמולי  הביטו ₪ 100,000 X 40%   : יחושבו   במקרה  זה   כ   ך 40,000 100,000"
+  "embed_text": "טבלה זו מתארת את התחייבות חברת הראל ביטוח לתשלום תגמולים במקרה של נכות, כפי שמופיע בפוליסת ביטוח תאונות אישיות. החישוב של גובה התגמולים מבוסס על דרגת הנכות שנקבעה על ידי רופא מומחה, בהתאם לתקנות הביטוח הלאומי, ועל סכום הביטוח המלא המפורט בדף פרטי הביטוח. דוגמאות לחישוב תגמולים כוללות מקרים של נכות מוחלטת ברגל, כאשר סכום הביטוח הוא ₪100,000 ושיעור הנכות הוא 40%. נכות מזכה בפיצוי, תקנה 11, סכום ביטוח, 40%, ₪100,000, ₪40,000 הם ערכים מרכזיים בטבלה זו. This table details the insurance company's obligation to pay benefits in case of disability. It shows how benefit payments are calculated based on the degree of disability determined by a medical expert and the insurance amount.",
+  "payload": "טבלה: תנאי פוליסת הראל ביטוח תאונות אישיות\nThis table details the insurance company's obligation to pay benefits in case of disability. It shows how benefit payments are calculated based on the degree of disability determined by a medical expert and the insurance amount.\nממדים: מקרה ביטוח (disability scenarios), תשלום תגמולי ביטוח (benefit payment calculation)\n\nמקרה בקרות החברה התחייבות .4.3 הביטוח:\nבקרות  מקרה  הביטוח   של  נכות .4.3.1 תשלם , הגוף מאיברי באחד החברה  למבוטח  תגמולי  ביטוח אשר יחושב  ו כמכפלה ישירה של הנכות  המזכה  שנקבע שיעור 4.3.2 למבוטח  כמפורט  בסעיף להלן בסכום הביטוח   המלא   בגין כיסוי  זה  כפי  שנקוב  בדף  פרטי הביטוח, בין אם מדובר במקרה\nהנכות   המזכה   בפיצוי שיעור .4.3.2 מומחה רופא ידי על ייקבע 11 תקנה להוראות בהתאם ,   לתקנות הביטוח הלאומי בלבד לנפגעי נכות דרגת )קביעת\n. ביטוח אחד או יותר .1956   עבודה(, תשט\"ז\n: דוגמא\nנקבעה  למבוטח  על  ידי  רופא כאמור 11 מומחה על פי תקנה לעיל,  נכות  מוחלטת  של  הרגל ,    וסכום  הביטוח 40% בגובה פרטי בדף הנקוב המירבי מתאונה   הנו הביטוח   לנכות ח .  תגמולי  הביטו ₪ 100,000 X 40%   : יחושבו   במקרה  זה   כ   ך 40,000 100,000"
 }

@@ -3,20 +3,21 @@
   "source": "llm",
   "description": {
     "title": "חידוש הפוליסה",
-    "summary": "This table details the conditions for renewing a policy after it has been cancelled by the company. It outlines requirements like a three-month window and full premium payment.",
-    "embed_passage": "פוליסה זו, תנאי הכנסה למשפחה, מאפשרת חידוש לאחר ביטול בתנאים מסוימים. לדוגמה, חידוש אפשרי תוך שלושה חודשים מיום הביטול, בתנאי שהמבוטח חי וכל הפרמיות שולמו במלואן. החידוש יתבצע בתנאים זהים לפוליסה המקורית.",
-    "row_axis": "Renewal conditions",
-    "column_axis": "Details of renewal process",
+    "summary": "This table details the conditions for renewing a policy after it has been cancelled by the company. It outlines requirements related to timing, the insured's status, and premium payments.",
+    "embed_passage": "טבלה זו מתארת את התנאים לחידוש פוליסה לאחר ביטולה על ידי החברה. החידוש אפשרי בתנאים זהים לפוליסה המקורית, ללא צורך בהוכחת מצב בריאות המבוטח, בתנאים מסוימים. יש לעמוד בתנאים אלו: מועד החידוש לא יעבור שלושה חודשים מיום הביטול, המבוטח חייב להיות בחיים במועד החידוש, וכל הפרמיות שולמו במלואן בתוספת ריבית. הפוליסה, ביטול, חידוש, מבוטח, פרמיות, ריבית.",
+    "row_axis": "conditions for policy renewal",
+    "column_axis": "renewal criteria",
     "units": [],
     "notable_values": [
-      "renewal window: 3 חודשים",
-      "full premium payment: שולמו במלואן"
+      "timeframe: שלושה חודשים",
+      "policy status: בוטלה הפוליסה",
+      "insured status: המבוטח חי"
     ],
     "product_hints": [
-      "פוליסה"
+      "הפוליסה"
     ]
   },
   "sketch": ".11 חידוש הפוליסה\n11.1 בוטלה הפוליסה על ידי החברה כאמור בסעיף 04.2 לעיל, רשאי בעל הפוליסה לדרוש את חידושה בתנאים זהים לאלה של הפוליסה שבוטלה, ללא הוכחת מצב בריאותו של המבוטח, בהתקיים התנאים הבאים:\n11.1.1 מיום ביטול הפוליסה טרם חלפו שלושה חודשים.\n11.1.2 המבוטח חי במועד החידוש.\n11.1.3 כל  הפרמיות  אשר  היה  על  בעל  הפוליסה  לשלם,  אלמלא  בוטלה הפוליסה, שולמו במלואן בתוספת ריבית כאמור בסעיף שגיאה! מקור ההפניה לא נמצא. לעיל.",
-  "embed_text": "פוליסה זו, תנאי הכנסה למשפחה, מאפשרת חידוש לאחר ביטול בתנאים מסוימים. לדוגמה, חידוש אפשרי תוך שלושה חודשים מיום הביטול, בתנאי שהמבוטח חי וכל הפרמיות שולמו במלואן. החידוש יתבצע בתנאים זהים לפוליסה המקורית.",
-  "payload": "טבלה: חידוש הפוליסה\nThis table details the conditions for renewing a policy after it has been cancelled by the company. It outlines requirements like a three-month window and full premium payment.\nממדים: Renewal conditions, Details of renewal process\n\n.11 חידוש הפוליסה\n11.1 בוטלה הפוליסה על ידי החברה כאמור בסעיף 04.2 לעיל, רשאי בעל הפוליסה לדרוש את חידושה בתנאים זהים לאלה של הפוליסה שבוטלה, ללא הוכחת מצב בריאותו של המבוטח, בהתקיים התנאים הבאים:\n11.1.1 מיום ביטול הפוליסה טרם חלפו שלושה חודשים.\n11.1.2 המבוטח חי במועד החידוש.\n11.1.3 כל  הפרמיות  אשר  היה  על  בעל  הפוליסה  לשלם,  אלמלא  בוטלה הפוליסה, שולמו במלואן בתוספת ריבית כאמור בסעיף שגיאה! מקור ההפניה לא נמצא. לעיל."
+  "embed_text": "טבלה זו מתארת את התנאים לחידוש פוליסה לאחר ביטולה על ידי החברה. החידוש אפשרי בתנאים זהים לפוליסה המקורית, ללא צורך בהוכחת מצב בריאות המבוטח, בתנאים מסוימים. יש לעמוד בתנאים אלו: מועד החידוש לא יעבור שלושה חודשים מיום הביטול, המבוטח חייב להיות בחיים במועד החידוש, וכל הפרמיות שולמו במלואן בתוספת ריבית. הפוליסה, ביטול, חידוש, מבוטח, פרמיות, ריבית. This table details the conditions for renewing a policy after it has been cancelled by the company. It outlines requirements related to timing, the insured's status, and premium payments. בין הערכים בטבלה: policy status: בוטלה הפוליסה.",
+  "payload": "טבלה: חידוש הפוליסה\nThis table details the conditions for renewing a policy after it has been cancelled by the company. It outlines requirements related to timing, the insured's status, and premium payments.\nממדים: conditions for policy renewal, renewal criteria\n\n.11 חידוש הפוליסה\n11.1 בוטלה הפוליסה על ידי החברה כאמור בסעיף 04.2 לעיל, רשאי בעל הפוליסה לדרוש את חידושה בתנאים זהים לאלה של הפוליסה שבוטלה, ללא הוכחת מצב בריאותו של המבוטח, בהתקיים התנאים הבאים:\n11.1.1 מיום ביטול הפוליסה טרם חלפו שלושה חודשים.\n11.1.2 המבוטח חי במועד החידוש.\n11.1.3 כל  הפרמיות  אשר  היה  על  בעל  הפוליסה  לשלם,  אלמלא  בוטלה הפוליסה, שולמו במלואן בתוספת ריבית כאמור בסעיף שגיאה! מקור ההפניה לא נמצא. לעיל."
 }

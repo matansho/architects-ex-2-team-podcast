@@ -2,23 +2,23 @@
   "id": "pdf:apartment/files/פוליסה-לביטוח-דירה-ותכולתה-ש-מהדורת-אוגוסט-2020.pdf#163",
   "source": "llm",
   "description": {
-    "title": "ביטוח דירה ותכולתה",
-    "summary": "This table outlines conditions related to providing accurate information for apartment and contents insurance. It details scenarios where the insurer may cancel the policy based on misrepresentation or failure to disclose material facts.",
-    "embed_passage": "פוליסה זו הוצאה על סמך התשובות שנתן המבוטח למבטח, על כל השאלות שנשאל בהצעה. הביטוח דירה ותכולתה מכסה נזקים שאירעו בשלוש השנים האחרונות כתוצאה מסיכונים המכוסים על ידי הפוליסה. לדוגמה, אם המבוטח הסתיר עניין מהותי, המבטח רשאי לבטל את הפוליסה.",
-    "row_axis": "Conditions for policy cancellation or modification",
-    "column_axis": "Details of misrepresentation, non-disclosure, or failure to mitigate risks",
+    "title": "גילוי ושינוי",
+    "summary": "This table outlines conditions related to disclosure and modification of information relevant to the insurance policy. It details scenarios where the insurer may take action based on incomplete or dishonest responses from the insured.",
+    "embed_passage": "טבלה זו עוסקת בגילוי ושינוי של מידע מהותי בפוליסת ביטוח דירה ותכולתה. הפוליסה הוצאה על סמך תשובות המבוטח, והמבטח רשאי לפעול בהתאם לחוק חוזה הביטוח אם המבוטח לא סיפק תשובות מלאות וכנות, הסתיר מידע, או לא נקט באמצעים להקלת סיכונים. גילוי ושינוי בעניין מהותי, תשובות מלאות וכנות, הסתרה בכוונת מרמה, אמצעים להקלת סיכונים, חוק חוזה הביטוח הם מושגים מרכזיים.",
+    "row_axis": "conditions for policy action",
+    "column_axis": "details of disclosure requirements and consequences",
     "units": [],
     "notable_values": [
-      "3: Number of years of prior insurance history considered",
-      "15: Number of days the insurer can request payment before cancellation",
-      "21: Number of days after initial request for payment before cancellation notice",
-      "12: Section number related to disclosure and modification of material facts"
+      "שלוש השנים האחרונות: period for reporting prior claims/insurance",
+      "עניין מהותי: significant matter requiring disclosure",
+      "כוונת מרמה: intent to deceive",
+      "חוק חוזה הביטוח: governing law for policy disputes"
     ],
     "product_hints": [
-      "ביטוח דירה ותכולתה"
+      "פוליסה לביטוח דירה ותכולתה"
     ]
   },
   "sketch": "( לגבי הדירה והתכולה: נזקים שאירעו בשלוש השנים האחרונות כתוצאה מסיכונים 3 , המכוסים על ידי פוליסה זו וכן פרטים על מבטחים קודמים שביטחו, או סרבו לבטח את הדירה או התכולה בשלוש השנים האחרונות.\n)ג(  לא השיב המבוטח תשובות מלאות וכנות לשאלות בעניינים מהותיים, או הסתיר מן המבטח, בכוונת מרמה, עניין מהותי, או לא נקט באמצעים שדרש המבטח להקלת הסיכונים המבוטחים לפי פוליסה זו, יפעל המבטח לפי הוראות חוק חוזה הביטוח; אין בסעיף זה כדי למנוע מהמבטח כל תרופה המוקנית לו על פי דין.",
-  "embed_text": "פוליסה זו הוצאה על סמך התשובות שנתן המבוטח למבטח, על כל השאלות שנשאל בהצעה. הביטוח דירה ותכולתה מכסה נזקים שאירעו בשלוש השנים האחרונות כתוצאה מסיכונים המכוסים על ידי הפוליסה. לדוגמה, אם המבוטח הסתיר עניין מהותי, המבטח רשאי לבטל את הפוליסה.",
-  "payload": "טבלה: ביטוח דירה ותכולתה\nThis table outlines conditions related to providing accurate information for apartment and contents insurance. It details scenarios where the insurer may cancel the policy based on misrepresentation or failure to disclose material facts.\nממדים: Conditions for policy cancellation or modification, Details of misrepresentation, non-disclosure, or failure to mitigate risks\n\n( לגבי הדירה והתכולה: נזקים שאירעו בשלוש השנים האחרונות כתוצאה מסיכונים 3 , המכוסים על ידי פוליסה זו וכן פרטים על מבטחים קודמים שביטחו, או סרבו לבטח את הדירה או התכולה בשלוש השנים האחרונות.\n)ג(  לא השיב המבוטח תשובות מלאות וכנות לשאלות בעניינים מהותיים, או הסתיר מן המבטח, בכוונת מרמה, עניין מהותי, או לא נקט באמצעים שדרש המבטח להקלת הסיכונים המבוטחים לפי פוליסה זו, יפעל המבטח לפי הוראות חוק חוזה הביטוח; אין בסעיף זה כדי למנוע מהמבטח כל תרופה המוקנית לו על פי דין."
+  "embed_text": "טבלה זו עוסקת בגילוי ושינוי של מידע מהותי בפוליסת ביטוח דירה ותכולתה. הפוליסה הוצאה על סמך תשובות המבוטח, והמבטח רשאי לפעול בהתאם לחוק חוזה הביטוח אם המבוטח לא סיפק תשובות מלאות וכנות, הסתיר מידע, או לא נקט באמצעים להקלת סיכונים. גילוי ושינוי בעניין מהותי, תשובות מלאות וכנות, הסתרה בכוונת מרמה, אמצעים להקלת סיכונים, חוק חוזה הביטוח הם מושגים מרכזיים. This table outlines conditions related to disclosure and modification of information relevant to the insurance policy. It details scenarios where the insurer may take action based on incomplete or dishonest responses from the insured. בין הערכים בטבלה: שלוש השנים האחרונות: period for reporting prior claims/insurance.",
+  "payload": "טבלה: גילוי ושינוי\nThis table outlines conditions related to disclosure and modification of information relevant to the insurance policy. It details scenarios where the insurer may take action based on incomplete or dishonest responses from the insured.\nממדים: conditions for policy action, details of disclosure requirements and consequences\n\n( לגבי הדירה והתכולה: נזקים שאירעו בשלוש השנים האחרונות כתוצאה מסיכונים 3 , המכוסים על ידי פוליסה זו וכן פרטים על מבטחים קודמים שביטחו, או סרבו לבטח את הדירה או התכולה בשלוש השנים האחרונות.\n)ג(  לא השיב המבוטח תשובות מלאות וכנות לשאלות בעניינים מהותיים, או הסתיר מן המבטח, בכוונת מרמה, עניין מהותי, או לא נקט באמצעים שדרש המבטח להקלת הסיכונים המבוטחים לפי פוליסה זו, יפעל המבטח לפי הוראות חוק חוזה הביטוח; אין בסעיף זה כדי למנוע מהמבטח כל תרופה המוקנית לו על פי דין."
 }

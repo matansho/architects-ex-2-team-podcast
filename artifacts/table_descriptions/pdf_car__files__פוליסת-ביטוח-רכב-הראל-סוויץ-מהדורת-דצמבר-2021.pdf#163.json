@@ -3,23 +3,21 @@
   "source": "llm",
   "description": {
     "title": "החלפת רכב",
-    "summary": "This table details the process and costs associated with replacing a vehicle covered by a Harel Switch car insurance policy. It outlines how coverage transfers and how premium adjustments are calculated.",
-    "embed_passage": "פוליסת ביטוח רכב הראל סוויץ׳ מתייחסת להחלפת רכב במהלך תקופת הביטוח. אם המבוטח מחליף רכב, ניתן להעביר את הכיסוי לרכב החליפי בהסכמת המבטח. במקרה שדמי הביטוח עבור הרכב החליפי גבוהים יותר, המבוטח ישלם את ההפרש באופן יחסי לתקופת הביטוח שנותרה, למשל תוך 30 ימים.",
-    "row_axis": "Scenarios related to vehicle replacement",
-    "column_axis": "Conditions and procedures for vehicle replacement",
+    "summary": "This table details the conditions for replacing a vehicle during the insurance period with Harel Switch car insurance. It outlines how coverage is transferred and how premium adjustments are handled.",
+    "embed_passage": "טבלה זו מתארת את התנאים להחלפת רכב במהלך תקופת הביטוח בפוליסת ביטוח רכב הראל סוויץ׳. היא מפרטת כיצד הכיסוי מועבר וכיצד מתבצעים התאמות בדמי הביטוח. ניתן להעביר את הכיסוי לרכב חליפי בהסכמת המבטח. אם דמי הביטוח עבור הרכב החליפי גבוהים יותר, המבוטח ישלם את ההפרש באופן יחסי לתקופת הביטוח שנותרה. החלפת רכב, רכב חליפי, דמי ביטוח, תקופת ביטוח, תגמולי ביטוח.",
+    "row_axis": "conditions for vehicle replacement",
+    "column_axis": "details of replacement process",
     "units": [],
     "notable_values": [
-      "36: Section number for vehicle replacement",
-      "36.1: Procedure for transferring coverage",
-      "36.2: Premium adjustment if replacement vehicle is more expensive",
-      "30: Maximum number of days for proportional premium payment"
+      "replacement period: within the insurance period",
+      "notification period: 30 days",
+      "premium adjustment: proportional to remaining insurance period"
     ],
     "product_hints": [
-      "Harel Switch",
-      "ביטוח רכב"
+      "הראל סוויץ'"
     ]
   },
   "sketch": ". החלפת הרכב 36\n. החליף המבוטח את הרכב בתוך תקופת הביטוח ורכש רכב חליפי, יוכל המבוטח, בהודעה 36.1 למבטח, ובהסכמת המבטח, להעביר את הכיסוי לפי פוליסה זו לרכב החליפי.\n. היו ביום ההחלפה, דמי הביטוח בעבור הרכב המוחלף נמוכים מדמי הביטוח בעבור הרכב 36.2 החליפי, ישלם המבוטח למבטח את ההפרש, באופן יחסי לתקופת הביטוח שנותרה בתוך ימים מיום ההחלפה. 30",
-  "embed_text": "פוליסת ביטוח רכב הראל סוויץ׳ מתייחסת להחלפת רכב במהלך תקופת הביטוח. אם המבוטח מחליף רכב, ניתן להעביר את הכיסוי לרכב החליפי בהסכמת המבטח. במקרה שדמי הביטוח עבור הרכב החליפי גבוהים יותר, המבוטח ישלם את ההפרש באופן יחסי לתקופת הביטוח שנותרה, למשל תוך 30 ימים.",
-  "payload": "טבלה: החלפת רכב\nThis table details the process and costs associated with replacing a vehicle covered by a Harel Switch car insurance policy. It outlines how coverage transfers and how premium adjustments are calculated.\nממדים: Scenarios related to vehicle replacement, Conditions and procedures for vehicle replacement\n\n. החלפת הרכב 36\n. החליף המבוטח את הרכב בתוך תקופת הביטוח ורכש רכב חליפי, יוכל המבוטח, בהודעה 36.1 למבטח, ובהסכמת המבטח, להעביר את הכיסוי לפי פוליסה זו לרכב החליפי.\n. היו ביום ההחלפה, דמי הביטוח בעבור הרכב המוחלף נמוכים מדמי הביטוח בעבור הרכב 36.2 החליפי, ישלם המבוטח למבטח את ההפרש, באופן יחסי לתקופת הביטוח שנותרה בתוך ימים מיום ההחלפה. 30"
+  "embed_text": "טבלה זו מתארת את התנאים להחלפת רכב במהלך תקופת הביטוח בפוליסת ביטוח רכב הראל סוויץ׳. היא מפרטת כיצד הכיסוי מועבר וכיצד מתבצעים התאמות בדמי הביטוח. ניתן להעביר את הכיסוי לרכב חליפי בהסכמת המבטח. אם דמי הביטוח עבור הרכב החליפי גבוהים יותר, המבוטח ישלם את ההפרש באופן יחסי לתקופת הביטוח שנותרה. החלפת רכב, רכב חליפי, דמי ביטוח, תקופת ביטוח, תגמולי ביטוח. This table details the conditions for replacing a vehicle during the insurance period with Harel Switch car insurance. It outlines how coverage is transferred and how premium adjustments are handled. בין הערכים בטבלה: replacement period: within the insurance period; notification period: 30 days; premium adjustment: proportional to remaining insurance period.",
+  "payload": "טבלה: החלפת רכב\nThis table details the conditions for replacing a vehicle during the insurance period with Harel Switch car insurance. It outlines how coverage is transferred and how premium adjustments are handled.\nממדים: conditions for vehicle replacement, details of replacement process\n\n. החלפת הרכב 36\n. החליף המבוטח את הרכב בתוך תקופת הביטוח ורכש רכב חליפי, יוכל המבוטח, בהודעה 36.1 למבטח, ובהסכמת המבטח, להעביר את הכיסוי לפי פוליסה זו לרכב החליפי.\n. היו ביום ההחלפה, דמי הביטוח בעבור הרכב המוחלף נמוכים מדמי הביטוח בעבור הרכב 36.2 החליפי, ישלם המבוטח למבטח את ההפרש, באופן יחסי לתקופת הביטוח שנותרה בתוך ימים מיום ההחלפה. 30"
 }

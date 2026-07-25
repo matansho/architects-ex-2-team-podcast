@@ -2,24 +2,26 @@
   "id": "pdf:business/files/פוליסת-אחריות-מקצועית-על-בסיס-אירוע-לרופא-שיניים-מהדורת-ספטמבר-2016.pdf#75",
   "source": "llm",
   "description": {
-    "title": "פוליסת אחריות מקצועית",
-    "summary": "This table details conditions related to policy cancellation due to misrepresentation or incomplete disclosure by the insured. It outlines scenarios where the insurer may reduce or waive claims based on the severity of the misrepresentation.",
-    "embed_passage": "פוליסת אחריות מקצועית עוסקת במקרים בהם המבוטח לא מסר תשובות מלאות וכנות. לדוגמה, אם מבטח סביר לא היה מתקשר בפוליסה גם בדמי ביטוח מרובים יותר, אילו ידע שהמצב הוא כפי שהוא, המבטח עשוי להיות פטור מחבות. התנאים מתייחסים גם למקרים של כוונת מרמה.",
-    "row_axis": "Conditions for policy cancellation/claim reduction",
-    "column_axis": "Specific scenarios related to misrepresentation or non-disclosure",
+    "title": "תנאי ביטול פוליסה",
+    "summary": "This table details conditions under which an insurance policy can be cancelled, specifically related to misrepresentation or incomplete disclosure by the insured. It outlines scenarios where the insurer may reduce or waive compensation.",
+    "embed_passage": "טבלה זו מתארת תנאים לביטול פוליסת ביטוח, במיוחד במקרים של אי-גילוי או מצג שווא מצד המבוטח. הפוליסה הרלוונטית היא פוליסת אחריות מקצועית על בסיס אירוע לרופא שיניים, מהדורת ספטמבר 2016. ניתן לבדוק תנאים ספציפיים הקשורים לביטול הפוליסה, כגון מצבים בהם המבטח רשאי לבטל את הפוליסה או להקטין את היקף חבותו. התנאים כוללים מצבים של כוונת מרמה, מצב שהמבטח הסביר לא היה מתקשר בפוליסה, או ידע על המצב האמיתי.  התנאים מתייחסים למקרים בהם תשובה לא הייתה מלאה וכנה, או אי מתן הודעה.  התנאים כוללים גם מצבים בהם המבטח ידע או היה עליו לדעת את המצב האמיתי.",
+    "row_axis": "תנאי ביטול",
+    "column_axis": "השלכות הביטול / תנאים נוספים",
     "units": [],
     "notable_values": [
-      "4.2.8.1: Intent to defraud",
-      "4.2.8.2: Unwillingness to insure even at higher premiums",
-      "4.2.9.1: Insurer knew or should have known the true state",
-      "4.2.9.2: Misrepresentation ceased before the incident"
+      "4.2.1: חובת גילוי ושינוי מהותי",
+      "4.2.5: תשובה בכוונת מרמה",
+      "4.2.8.1: כוונת מרמה",
+      "4.2.8.2: מבטח סביר לא היה מתקשר",
+      "4.2.9.1: המבטח ידע את המצב",
+      "4.2.9.2: העובדה חדלה להתקיים"
     ],
     "product_hints": [
       "פוליסת אחריות מקצועית",
-      "אחריות מקצועית לרופא שיניים"
+      "רופא שיניים"
     ]
   },
   "sketch": ". זה, אין המבטח 4.2 קרה מקרה הביטוח לפני שנתבטל החוזה מכוח תנאי .4.2.8 חייב אלא בתגמולי ביטוח מופחתים בשיעור יחסי, שהוא כיחס שבין דמי הביטוח שהיו משתלמים כמקובל אצלו לפי המצב לאמיתו לבין דמי הביטוח המוסכמים, והוא פטור כליל בכל אחת מאלה:\n)לפי העניין(, ניתנו 4.2.5 התשובה או אי מתן הודעה כאמור בתנאי .4.2.8.1 בכוונת מרמה.\nמבטח סביר לא היה מתקשר באותה פוליסה, אף בדמי ביטוח .4.2.8.2 מרובים יותר, אילו ידע שהמצב הוא כפי שהוא.",
-  "embed_text": "פוליסת אחריות מקצועית עוסקת במקרים בהם המבוטח לא מסר תשובות מלאות וכנות. לדוגמה, אם מבטח סביר לא היה מתקשר בפוליסה גם בדמי ביטוח מרובים יותר, אילו ידע שהמצב הוא כפי שהוא, המבטח עשוי להיות פטור מחבות. התנאים מתייחסים גם למקרים של כוונת מרמה.",
-  "payload": "טבלה: פוליסת אחריות מקצועית\nThis table details conditions related to policy cancellation due to misrepresentation or incomplete disclosure by the insured. It outlines scenarios where the insurer may reduce or waive claims based on the severity of the misrepresentation.\nממדים: Conditions for policy cancellation/claim reduction, Specific scenarios related to misrepresentation or non-disclosure\n\n. זה, אין המבטח 4.2 קרה מקרה הביטוח לפני שנתבטל החוזה מכוח תנאי .4.2.8 חייב אלא בתגמולי ביטוח מופחתים בשיעור יחסי, שהוא כיחס שבין דמי הביטוח שהיו משתלמים כמקובל אצלו לפי המצב לאמיתו לבין דמי הביטוח המוסכמים, והוא פטור כליל בכל אחת מאלה:\n)לפי העניין(, ניתנו 4.2.5 התשובה או אי מתן הודעה כאמור בתנאי .4.2.8.1 בכוונת מרמה.\nמבטח סביר לא היה מתקשר באותה פוליסה, אף בדמי ביטוח .4.2.8.2 מרובים יותר, אילו ידע שהמצב הוא כפי שהוא."
+  "embed_text": "טבלה זו מתארת תנאים לביטול פוליסת ביטוח, במיוחד במקרים של אי-גילוי או מצג שווא מצד המבוטח. הפוליסה הרלוונטית היא פוליסת אחריות מקצועית על בסיס אירוע לרופא שיניים, מהדורת ספטמבר 2016. ניתן לבדוק תנאים ספציפיים הקשורים לביטול הפוליסה, כגון מצבים בהם המבטח רשאי לבטל את הפוליסה או להקטין את היקף חבותו. התנאים כוללים מצבים של כוונת מרמה, מצב שהמבטח הסביר לא היה מתקשר בפוליסה, או ידע על המצב האמיתי.  התנאים מתייחסים למקרים בהם תשובה לא הייתה מלאה וכנה, או אי מתן הודעה.  התנאים כוללים גם מצבים בהם המבטח ידע או היה עליו לדעת את המצב האמיתי. This table details conditions under which an insurance policy can be cancelled, specifically related to misrepresentation or incomplete disclosure by the insured. It outlines scenarios where the insurer may reduce or waive compensation. בין הערכים בטבלה: 4.2.1…",
+  "payload": "טבלה: תנאי ביטול פוליסה\nThis table details conditions under which an insurance policy can be cancelled, specifically related to misrepresentation or incomplete disclosure by the insured. It outlines scenarios where the insurer may reduce or waive compensation.\nממדים: תנאי ביטול, השלכות הביטול / תנאים נוספים\n\n. זה, אין המבטח 4.2 קרה מקרה הביטוח לפני שנתבטל החוזה מכוח תנאי .4.2.8 חייב אלא בתגמולי ביטוח מופחתים בשיעור יחסי, שהוא כיחס שבין דמי הביטוח שהיו משתלמים כמקובל אצלו לפי המצב לאמיתו לבין דמי הביטוח המוסכמים, והוא פטור כליל בכל אחת מאלה:\n)לפי העניין(, ניתנו 4.2.5 התשובה או אי מתן הודעה כאמור בתנאי .4.2.8.1 בכוונת מרמה.\nמבטח סביר לא היה מתקשר באותה פוליסה, אף בדמי ביטוח .4.2.8.2 מרובים יותר, אילו ידע שהמצב הוא כפי שהוא."
 }

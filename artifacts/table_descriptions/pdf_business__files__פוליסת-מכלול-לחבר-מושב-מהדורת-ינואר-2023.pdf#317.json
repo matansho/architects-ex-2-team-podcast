@@ -2,24 +2,23 @@
   "id": "pdf:business/files/פוליסת-מכלול-לחבר-מושב-מהדורת-ינואר-2023.pdf#317",
   "source": "llm",
   "description": {
-    "title": "כיסוי תכולה",
-    "summary": "This table details coverage for specific types of damage to personal contents. It lists items like eyeglasses, mobile devices, and dentures, outlining what is covered under the insurance policy.",
-    "embed_passage": "פוליסת מכלול מציעה כיסוי לנזק למשקפיים, עדשות מגע ומכשירי שמיעה. הכיסוי מתייחס לנזקים שונים, כגון נזק מתהליכי ניקוי או תיקון. סכום הביטוח יכול להגיע עד 50,000 ₪, בהתאם לנזק.",
-    "row_axis": "type of damage to personal contents",
-    "column_axis": "coverage details",
+    "title": "כיסוי ביטוח - נזקים",
+    "summary": "This table lists covered damages under the insurance policy. It details specific types of damage for which coverage is provided.",
+    "embed_passage": "טבלה זו מפרטת את סוגי הנזקים המכוסים במסגרת פוליסת מכלול לחבר מושב, מהדורת ינואר 2023. ניתן לעיין בטבלה כדי לבדוק האם נזק ספציפי, כגון נזק למשקפיים או למכשירים ניידים, כלול בכיסוי הביטוחי. הטבלה מסייעת להבין את היקף ההגנה שמספקת הפוליסה. נזק למשקפיים, עדשות מגע, מכשירי שמיעה, שיניים תותבות, נזק למכשירי טלפון ניידים/סלולאריים טאבלטים ומחשבים נישאים/לבישים, נזק מתהליכי ניקוי, חידוש, תיקון או צביעה, נזק תוצאתי.",
+    "row_axis": "סוג נזק",
+    "column_axis": "תיאור הנזק",
     "units": [],
     "notable_values": [
-      "סכום ביטוח: 50,000 ₪",
-      "נזק למשקפיים: covered",
-      "נזק למכשירי טלפון ניידים: covered",
-      "נזק תוצאתי: covered",
-      "נזק מתהליכי ניקוי: covered"
+      "נזק למשקפיים: כלול",
+      "נזק למכשירי טלפון ניידים: כלול",
+      "נזק מתהליכי ניקוי: כלול",
+      "נזק תוצאתי: כלול"
     ],
     "product_hints": [
-      "מכלול"
+      "מכלול לחבר מושב"
     ]
   },
   "sketch": "נזק למשקפיים, עדשות מגע, מכשירי שמיעה, שיניים תותבות. .26.1.7\nנזק למכשירי טלפון ניידים/סלולאריים טאבלטים ומחשבים נישאים/לבישים. .26.1.8\nנזק מתהליכי ניקוי, חידוש, תיקון או צביעה. .26.1.9\nנזק תוצאתי. .26.1.10",
-  "embed_text": "פוליסת מכלול מציעה כיסוי לנזק למשקפיים, עדשות מגע ומכשירי שמיעה. הכיסוי מתייחס לנזקים שונים, כגון נזק מתהליכי ניקוי או תיקון. סכום הביטוח יכול להגיע עד 50,000 ₪, בהתאם לנזק.",
-  "payload": "טבלה: כיסוי תכולה\nThis table details coverage for specific types of damage to personal contents. It lists items like eyeglasses, mobile devices, and dentures, outlining what is covered under the insurance policy.\nממדים: type of damage to personal contents, coverage details\n\nנזק למשקפיים, עדשות מגע, מכשירי שמיעה, שיניים תותבות. .26.1.7\nנזק למכשירי טלפון ניידים/סלולאריים טאבלטים ומחשבים נישאים/לבישים. .26.1.8\nנזק מתהליכי ניקוי, חידוש, תיקון או צביעה. .26.1.9\nנזק תוצאתי. .26.1.10"
+  "embed_text": "טבלה זו מפרטת את סוגי הנזקים המכוסים במסגרת פוליסת מכלול לחבר מושב, מהדורת ינואר 2023. ניתן לעיין בטבלה כדי לבדוק האם נזק ספציפי, כגון נזק למשקפיים או למכשירים ניידים, כלול בכיסוי הביטוחי. הטבלה מסייעת להבין את היקף ההגנה שמספקת הפוליסה. נזק למשקפיים, עדשות מגע, מכשירי שמיעה, שיניים תותבות, נזק למכשירי טלפון ניידים/סלולאריים טאבלטים ומחשבים נישאים/לבישים, נזק מתהליכי ניקוי, חידוש, תיקון או צביעה, נזק תוצאתי. This table lists covered damages under the insurance policy. It details specific types of damage for which coverage is provided.",
+  "payload": "טבלה: כיסוי ביטוח - נזקים\nThis table lists covered damages under the insurance policy. It details specific types of damage for which coverage is provided.\nממדים: סוג נזק, תיאור הנזק\n\nנזק למשקפיים, עדשות מגע, מכשירי שמיעה, שיניים תותבות. .26.1.7\nנזק למכשירי טלפון ניידים/סלולאריים טאבלטים ומחשבים נישאים/לבישים. .26.1.8\nנזק מתהליכי ניקוי, חידוש, תיקון או צביעה. .26.1.9\nנזק תוצאתי. .26.1.10"
 }

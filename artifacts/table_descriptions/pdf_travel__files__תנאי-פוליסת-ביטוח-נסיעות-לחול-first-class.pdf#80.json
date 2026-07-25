@@ -3,23 +3,22 @@
   "source": "llm",
   "description": {
     "title": "החרגות פוליסה",
-    "summary": "This table lists exclusions to a travel insurance policy. It details situations where coverage will not be provided, such as participation in military actions or criminal activity.",
-    "embed_passage": "פוליסת ביטוח נסיעות לחול first class אינה מכסה השתתפות פעילה בפעולה מלחמתית או צבאית, פעולה משטרתית או מרד. הפוליסה אינה מכסה ביצוע פשע או סחר בסמים, וכן אינה מכסה מצב של התאבדות או חבלה עצמית מכוונת. מספר סעיפים אלו הם 7.11, 7.12 ו-7.15.",
-    "row_axis": "exclusion reason",
+    "summary": "This table lists exclusions to a travel insurance policy. It details situations where coverage is not provided, such as participation in military actions or criminal activity.",
+    "embed_passage": "טבלה זו מפרטת החרגות לפוליסת ביטוח נסיעות 'first class'. היא מציגה מצבים שאינם מכוסים, כגון השתתפות בפעולות מלחמתיות או פעילות פלילית. ניתן לחפש החרגות ספציפיות לפי סעיף או תיאור הפעילות. החרגות כוללות השתתפות בפעולה מלחמתית, פעולה משטרתית, ביצוע פשע, סחר בסמים, פעילות ללא רישיון, ושימוש בכלי נשק. פוליסת 'first class' אינה מכסה פעולות מלחמתיות או צבאיות, פעולות משטרתיות או מחתרתיות, ביצוע פשע או סחר בסמים.",
+    "row_axis": "exclusion",
     "column_axis": "exclusion details",
     "units": [],
     "notable_values": [
-      "exclusion: פעולה מלחמתית",
-      "exclusion: פעולה משטרתית",
-      "exclusion: סחר בסמים",
-      "exclusion number: 7.11",
-      "exclusion number: 7.12"
+      "פעולה מלחמתית: 7.11",
+      "פעולה משטרתית: 7.12",
+      "ביצוע פשע: 7.13",
+      "סחר בסמים: 7.13"
     ],
     "product_hints": [
-      "ביטוח נסיעות לחול first class"
+      "first class"
     ]
   },
   "sketch": ". השתתפות פעילה של המבוטח בפעולה מלחמתית ו/או צבאית. 7.11\n, . השתתפות פעילה של המבוטח בפעולה משטרתית, מחתרתית, מהפיכה, מרד 7.12 פרעות, מהומות, חבלה, טרור.\n. ביצוע פשע, עוון, סחר בסמים, פעילות ללא רישיון תקף מתאים לאותה פעילות 7.13 ככל שנדרש בארץ האירוע.",
-  "embed_text": "פוליסת ביטוח נסיעות לחול first class אינה מכסה השתתפות פעילה בפעולה מלחמתית או צבאית, פעולה משטרתית או מרד. הפוליסה אינה מכסה ביצוע פשע או סחר בסמים, וכן אינה מכסה מצב של התאבדות או חבלה עצמית מכוונת. מספר סעיפים אלו הם 7.11, 7.12 ו-7.15.",
-  "payload": "טבלה: החרגות פוליסה\nThis table lists exclusions to a travel insurance policy. It details situations where coverage will not be provided, such as participation in military actions or criminal activity.\nממדים: exclusion reason, exclusion details\n\n. השתתפות פעילה של המבוטח בפעולה מלחמתית ו/או צבאית. 7.11\n, . השתתפות פעילה של המבוטח בפעולה משטרתית, מחתרתית, מהפיכה, מרד 7.12 פרעות, מהומות, חבלה, טרור.\n. ביצוע פשע, עוון, סחר בסמים, פעילות ללא רישיון תקף מתאים לאותה פעילות 7.13 ככל שנדרש בארץ האירוע."
+  "embed_text": "טבלה זו מפרטת החרגות לפוליסת ביטוח נסיעות 'first class'. היא מציגה מצבים שאינם מכוסים, כגון השתתפות בפעולות מלחמתיות או פעילות פלילית. ניתן לחפש החרגות ספציפיות לפי סעיף או תיאור הפעילות. החרגות כוללות השתתפות בפעולה מלחמתית, פעולה משטרתית, ביצוע פשע, סחר בסמים, פעילות ללא רישיון, ושימוש בכלי נשק. פוליסת 'first class' אינה מכסה פעולות מלחמתיות או צבאיות, פעולות משטרתיות או מחתרתיות, ביצוע פשע או סחר בסמים. This table lists exclusions to a travel insurance policy. It details situations where coverage is not provided, such as participation in military actions or criminal activity.",
+  "payload": "טבלה: החרגות פוליסה\nThis table lists exclusions to a travel insurance policy. It details situations where coverage is not provided, such as participation in military actions or criminal activity.\nממדים: exclusion, exclusion details\n\n. השתתפות פעילה של המבוטח בפעולה מלחמתית ו/או צבאית. 7.11\n, . השתתפות פעילה של המבוטח בפעולה משטרתית, מחתרתית, מהפיכה, מרד 7.12 פרעות, מהומות, חבלה, טרור.\n. ביצוע פשע, עוון, סחר בסמים, פעילות ללא רישיון תקף מתאים לאותה פעילות 7.13 ככל שנדרש בארץ האירוע."
 }

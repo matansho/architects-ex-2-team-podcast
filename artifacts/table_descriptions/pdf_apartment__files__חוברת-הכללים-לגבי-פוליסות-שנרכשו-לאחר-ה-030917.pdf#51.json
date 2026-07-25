@@ -2,22 +2,22 @@
   "id": "pdf:apartment/files/חוברת-הכללים-לגבי-פוליסות-שנרכשו-לאחר-ה-030917.pdf#51",
   "source": "llm",
   "description": {
-    "title": "תביעות הראל",
-    "summary": "This table outlines the claims process for Harel insurance policies. It details steps like reporting an incident, providing documentation, and the potential involvement of an adjuster.",
-    "embed_passage": "חברת הראל תבחן את מקרה הביטוח, לרבות הנסיבות וגובה הנזק. בהתאם לצורך, החברה עשויה למנות שמאי לבדיקת התביעה. לדוגמה, במקרה של נזק לדירה, יש למלא טופס תביעה ולהעבירו לחברה. תהליך בירור התביעה כולל איסוף נתונים ומסמכים, ובסופו תתקבל החלטה על תשלום או דחייה.",
-    "row_axis": "stages of the claims process",
-    "column_axis": "details of each stage (e.g., actions required, potential outcomes)",
+    "title": "הנחיות לתביעה",
+    "summary": "This table outlines the process for filing an insurance claim with Harel. It details steps like contacting an agent, providing event details, and submitting a claim form.",
+    "embed_passage": "טבלה זו מתארת את ההנחיות והשלבים הנדרשים להגשת תביעה לחברת הראל. בעת קרות מקרה ביטוח, יש ליצור קשר עם סוכן הביטוח או עם מוקד תביעות ביטוח כללי של הראל. יש למלא טופס הודעה מפורט ולציין את מספר האירוע. הראל רשאית למנות שמאי לבדיקת מקרה הביטוח וגובה הנזק.  החברה, על פי שיקול דעתה המקצועי, יכול ותמנה שמאי, לבדיקת מקרה הביטוח.  ניתן לקבל מידע נוסף ומסמכים נדרשים לצורך בירור ויישוב התביעה.",
+    "row_axis": "שלבי תהליך תביעה",
+    "column_axis": "תיאור פעולה / מידע",
     "units": [],
     "notable_values": [
-      "5: The company may appoint an adjuster.",
-      "7: A decision will be made regarding payment, partial payment, or denial of the claim."
+      "שמאי: מינוי על פי שיקול דעת",
+      "מסמכים נדרשים: רשימה זמינה לצפייה",
+      "הודעה מראש: נדרשת להוצאות שונות"
     ],
     "product_hints": [
-      "הראל",
-      "פוליסת ביטוח"
+      "פוליסה"
     ]
   },
   "sketch": ", .  החברה, על פי שיקול דעתה המקצועי, יכול ותמנה שמאי, לבדיקת מקרה הביטוח 5\n. לרבות הנסיבות וגובה נזק במקביל לאמור לעיל, כמו גם, באם לא ימונה שמאי ע\"י החברה, יחזור אליך מיישב . לצפייה ברשימת המסמכים הנדרשים ליישוב התביעה, ראה \"פירוט מידע והמסמכים\nהתביעות, טלפונית ו/או בכתב, לצורך קבלת מידע ומסמכים נוספים , בהתאם לצורך .\" הנדרשים מתובע לשם בירור ויישוב תביעה",
-  "embed_text": "חברת הראל תבחן את מקרה הביטוח, לרבות הנסיבות וגובה הנזק. בהתאם לצורך, החברה עשויה למנות שמאי לבדיקת התביעה. לדוגמה, במקרה של נזק לדירה, יש למלא טופס תביעה ולהעבירו לחברה. תהליך בירור התביעה כולל איסוף נתונים ומסמכים, ובסופו תתקבל החלטה על תשלום או דחייה.",
-  "payload": "טבלה: תביעות הראל\nThis table outlines the claims process for Harel insurance policies. It details steps like reporting an incident, providing documentation, and the potential involvement of an adjuster.\nממדים: stages of the claims process, details of each stage (e.g., actions required, potential outcomes)\n\n, .  החברה, על פי שיקול דעתה המקצועי, יכול ותמנה שמאי, לבדיקת מקרה הביטוח 5\n. לרבות הנסיבות וגובה נזק במקביל לאמור לעיל, כמו גם, באם לא ימונה שמאי ע\"י החברה, יחזור אליך מיישב . לצפייה ברשימת המסמכים הנדרשים ליישוב התביעה, ראה \"פירוט מידע והמסמכים\nהתביעות, טלפונית ו/או בכתב, לצורך קבלת מידע ומסמכים נוספים , בהתאם לצורך .\" הנדרשים מתובע לשם בירור ויישוב תביעה"
+  "embed_text": "טבלה זו מתארת את ההנחיות והשלבים הנדרשים להגשת תביעה לחברת הראל. בעת קרות מקרה ביטוח, יש ליצור קשר עם סוכן הביטוח או עם מוקד תביעות ביטוח כללי של הראל. יש למלא טופס הודעה מפורט ולציין את מספר האירוע. הראל רשאית למנות שמאי לבדיקת מקרה הביטוח וגובה הנזק.  החברה, על פי שיקול דעתה המקצועי, יכול ותמנה שמאי, לבדיקת מקרה הביטוח.  ניתן לקבל מידע נוסף ומסמכים נדרשים לצורך בירור ויישוב התביעה. This table outlines the process for filing an insurance claim with Harel. It details steps like contacting an agent, providing event details, and submitting a claim form. בין הערכים בטבלה: הודעה מראש: נדרשת להוצאות שונות.",
+  "payload": "טבלה: הנחיות לתביעה\nThis table outlines the process for filing an insurance claim with Harel. It details steps like contacting an agent, providing event details, and submitting a claim form.\nממדים: שלבי תהליך תביעה, תיאור פעולה / מידע\n\n, .  החברה, על פי שיקול דעתה המקצועי, יכול ותמנה שמאי, לבדיקת מקרה הביטוח 5\n. לרבות הנסיבות וגובה נזק במקביל לאמור לעיל, כמו גם, באם לא ימונה שמאי ע\"י החברה, יחזור אליך מיישב . לצפייה ברשימת המסמכים הנדרשים ליישוב התביעה, ראה \"פירוט מידע והמסמכים\nהתביעות, טלפונית ו/או בכתב, לצורך קבלת מידע ומסמכים נוספים , בהתאם לצורך .\" הנדרשים מתובע לשם בירור ויישוב תביעה"
 }

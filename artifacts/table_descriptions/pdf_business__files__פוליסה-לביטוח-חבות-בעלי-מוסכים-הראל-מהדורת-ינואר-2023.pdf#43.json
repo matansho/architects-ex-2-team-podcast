@@ -3,24 +3,23 @@
   "source": "llm",
   "description": {
     "title": "עבודות בחום",
-    "summary": "This table details safety procedures for 'hot work' (עבודות בחום) as defined in the Harel garages liability insurance policy. It outlines definitions and requirements for preventing fires and managing flammable materials.",
-    "embed_passage": "פוליסת ביטוח חבות בעלי מוסכים של הראל מגדירה 'עבודות בחום' כחיתוך, חימום, או שימוש באש גלויה, אשר עלולות לגרום להיווצרות ניצוצות. פינוי פסולת דליקה יתבצע בסיומו של כל יום עבודה, ופסולת עץ ונייר צריכה להיות מסולקת באופן סדיר. לדוגמא, חומרי פסולת וקופסות ריקות צריכים להיות מפונים מאתר העבודה.",
-    "row_axis": "Definition or requirement related to hot work safety",
-    "column_axis": "Details of the definition or requirement",
+    "summary": "This table defines terms and procedures related to 'hot work' (עבודות בחום) for Harel garages' liability insurance. It details what constitutes 'hot work' and requirements for waste removal.",
+    "embed_passage": "טבלה זו מתארת את הגדרות ונהלים הקשורים ל\"עבודות בחום\" במסגרת פוליסת ביטוח חבות בעלי מוסכים של הראל. מטרת הטבלה היא להבהיר מה נחשב \"עבודות בחום\" ולפרט את הדרישות לפינוי פסולת דליקה. ניתן לחפש מידע על סוגי עבודות ספציפיים או חומרים דליקים המפורטים בטבלה.  הטבלה כוללת הגדרות כמו \"אש גלויה\", פסולת דליקה, וחומרי פסולת, קופסות ריקות, ארגזים ופסולת עץ ונייר.",
+    "row_axis": "definition/procedure",
+    "column_axis": "description",
     "units": [],
     "notable_values": [
-      "14.1.2: Defines 'אש גלויה' as flame, spark, or any energy source that can ignite flammable materials.",
-      "14.2: Requires regular removal of flammable waste.",
-      "פסולת עץ ונייר: Must be removed regularly.",
-      "סיומו של כל יום עבודה: When flammable waste must be removed.",
-      "גיצים: An example of 'אש גלויה'"
+      "אש גלויה: להבה",
+      "אש גלויה: ניצוץ חשמלי",
+      "פסולת דליקה: חומרי פסולת",
+      "פסולת דליקה: קופסות ריקות"
     ],
     "product_hints": [
-      "ביטוח חבות בעלי מוסכים הראל",
-      "הראל"
+      "פוליסה לביטוח חבות בעלי מוסכים הראל",
+      "עבודות בחום"
     ]
   },
   "sketch": "\"אש גלויה\" יהא פירוש: להבה, גץ )או גיץ וברבים \"גיצים\"(, ניצוץ חשמלי .14.1.2 או מקור כלשהו בעל אנרגיה מספקת לגרום להתלקחותם של גזים, נוזלים או חומרים דליקים אחרים המאוחסנים באתר ביצוען או בסמוך להן;\n.  חומרי פסולת, קופסות ריקות, ארגזים ופסולת עץ ונייר וכן כל אריזה, מארז אוכל 14.2 פסולת דליקה אחרת, יסולקו מאתר העבודה באופן סדיר. פינוי פסולת דליקה יתבצע בסיומו של כל יום עבודה מכל הקומות אשר עובדים / עבדו בהן;",
-  "embed_text": "פוליסת ביטוח חבות בעלי מוסכים של הראל מגדירה 'עבודות בחום' כחיתוך, חימום, או שימוש באש גלויה, אשר עלולות לגרום להיווצרות ניצוצות. פינוי פסולת דליקה יתבצע בסיומו של כל יום עבודה, ופסולת עץ ונייר צריכה להיות מסולקת באופן סדיר. לדוגמא, חומרי פסולת וקופסות ריקות צריכים להיות מפונים מאתר העבודה.",
-  "payload": "טבלה: עבודות בחום\nThis table details safety procedures for 'hot work' (עבודות בחום) as defined in the Harel garages liability insurance policy. It outlines definitions and requirements for preventing fires and managing flammable materials.\nממדים: Definition or requirement related to hot work safety, Details of the definition or requirement\n\n\"אש גלויה\" יהא פירוש: להבה, גץ )או גיץ וברבים \"גיצים\"(, ניצוץ חשמלי .14.1.2 או מקור כלשהו בעל אנרגיה מספקת לגרום להתלקחותם של גזים, נוזלים או חומרים דליקים אחרים המאוחסנים באתר ביצוען או בסמוך להן;\n.  חומרי פסולת, קופסות ריקות, ארגזים ופסולת עץ ונייר וכן כל אריזה, מארז אוכל 14.2 פסולת דליקה אחרת, יסולקו מאתר העבודה באופן סדיר. פינוי פסולת דליקה יתבצע בסיומו של כל יום עבודה מכל הקומות אשר עובדים / עבדו בהן;"
+  "embed_text": "טבלה זו מתארת את הגדרות ונהלים הקשורים ל\"עבודות בחום\" במסגרת פוליסת ביטוח חבות בעלי מוסכים של הראל. מטרת הטבלה היא להבהיר מה נחשב \"עבודות בחום\" ולפרט את הדרישות לפינוי פסולת דליקה. ניתן לחפש מידע על סוגי עבודות ספציפיים או חומרים דליקים המפורטים בטבלה.  הטבלה כוללת הגדרות כמו \"אש גלויה\", פסולת דליקה, וחומרי פסולת, קופסות ריקות, ארגזים ופסולת עץ ונייר. This table defines terms and procedures related to 'hot work' (עבודות בחום) for Harel garages' liability insurance. It details what constitutes 'hot work' and requirements for waste removal.",
+  "payload": "טבלה: עבודות בחום\nThis table defines terms and procedures related to 'hot work' (עבודות בחום) for Harel garages' liability insurance. It details what constitutes 'hot work' and requirements for waste removal.\nממדים: definition/procedure, description\n\n\"אש גלויה\" יהא פירוש: להבה, גץ )או גיץ וברבים \"גיצים\"(, ניצוץ חשמלי .14.1.2 או מקור כלשהו בעל אנרגיה מספקת לגרום להתלקחותם של גזים, נוזלים או חומרים דליקים אחרים המאוחסנים באתר ביצוען או בסמוך להן;\n.  חומרי פסולת, קופסות ריקות, ארגזים ופסולת עץ ונייר וכן כל אריזה, מארז אוכל 14.2 פסולת דליקה אחרת, יסולקו מאתר העבודה באופן סדיר. פינוי פסולת דליקה יתבצע בסיומו של כל יום עבודה מכל הקומות אשר עובדים / עבדו בהן;"
 }

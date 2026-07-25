@@ -2,21 +2,23 @@
   "id": "pdf:health/files/טופס-תביעה-השתלות-טיפולים-מיוחדים-בחול-ניתוחים-בחול.pdf#37",
   "source": "llm",
   "description": {
-    "title": "טופס תביעה - השתלות",
-    "summary": "This table is a medical claim form for transplants and specialized treatments abroad. It collects information about the patient's diagnosis, symptoms, and the circumstances surrounding the need for treatment.",
-    "embed_passage": "טופס זה מיועד לרישום פרטי אבחנה רפואית של מבוטח. הוא כולל מידע על התאריך בו אובחן הצורך בניתוח, תאריך התחלת התלונות, וכן האם התלונה היא תוצאה של תאונת עבודה או תאונה אחרת. לדוגמה, תאריך 12/2025 מופיע בשדה תאריך.",
-    "row_axis": "Patient/Claim",
-    "column_axis": "Medical Information Fields (Diagnosis, Dates, Circumstances)",
+    "title": "השתלות וטיפולים מיוחדים בחול - טופס תביעה",
+    "summary": "This table is a claim form for transplants and special treatments abroad. It collects diagnostic information related to the patient's condition and the need for surgery.",
+    "embed_passage": "טופס זה מיועד לאיסוף מידע רפואי לצורך תביעה להשתלות וטיפולים מיוחדים בחול. הרופא מתבקש למלא את פרטי האבחנה הנוכחית, תאריך האבחנה הראשונית, ותאריך התחלת התלונות או הסימנים למחלה. הטופס כולל שאלות לגבי האם התלונה הנוכחית היא תוצאה של תאונה, תאונת עבודה, או גורם אחר. בין הנתונים המבוקשים ניתן למצוא את תאריך האבחנה הראשונית, תאריך התחלת התלונות, ואת האבחנה הנוכחית. לדוגמה, הראל סטודיו מופיע בתאריך 49031.12, עם תאריך 12/2025.",
+    "row_axis": "Patient's medical information and claim details",
+    "column_axis": "Diagnosis, dates of diagnosis and symptoms, cause of complaint",
     "units": [],
     "notable_values": [
-      "תאריך: 12/2025",
-      "הראל סטודיו"
+      "49031.12: date",
+      "12/2025: date",
+      "הראל סטודיו: name"
     ],
     "product_hints": [
+      "השתלות וטיפולים מיוחדים בחול",
       "הראל סטודיו"
     ]
   },
   "sketch": ",,,האבחנה ד.הנוכחית האבחנה,\nבתאריך: לראשונה אובחן בניתוח הצורך,בתאריך: התחילו הנוכחית למחלה התלונות/הסימנים,בתאריך: התחילו הנוכחית למחלה התלונות/הסימנים,מתאריך: החל זו לאבחנה בנוגע בטיפולי המבוטח,\nדרכים תאונת,,עבודה תאונת,של: תוצאה הן הנוכחית והתלונה האבחנה האם,\n\"פרט כן, אם\",\"פרט כן, אם\",\"פרט כן, אם\",\"פרט כן, אם\",\"פרט כן, אם\"\n:\nתאריך:                                                                                                חותמת וחתימת הרופא\n49031.12 12/2025 הראל סטודיו",
-  "embed_text": "טופס זה מיועד לרישום פרטי אבחנה רפואית של מבוטח. הוא כולל מידע על התאריך בו אובחן הצורך בניתוח, תאריך התחלת התלונות, וכן האם התלונה היא תוצאה של תאונת עבודה או תאונה אחרת. לדוגמה, תאריך 12/2025 מופיע בשדה תאריך.",
-  "payload": "טבלה: טופס תביעה - השתלות\nThis table is a medical claim form for transplants and specialized treatments abroad. It collects information about the patient's diagnosis, symptoms, and the circumstances surrounding the need for treatment.\nממדים: Patient/Claim, Medical Information Fields (Diagnosis, Dates, Circumstances)\n\n,,,האבחנה ד.הנוכחית האבחנה,\nבתאריך: לראשונה אובחן בניתוח הצורך,בתאריך: התחילו הנוכחית למחלה התלונות/הסימנים,בתאריך: התחילו הנוכחית למחלה התלונות/הסימנים,מתאריך: החל זו לאבחנה בנוגע בטיפולי המבוטח,\nדרכים תאונת,,עבודה תאונת,של: תוצאה הן הנוכחית והתלונה האבחנה האם,\n\"פרט כן, אם\",\"פרט כן, אם\",\"פרט כן, אם\",\"פרט כן, אם\",\"פרט כן, אם\"\n:\nתאריך:                                                                                                חותמת וחתימת הרופא\n49031.12 12/2025 הראל סטודיו"
+  "embed_text": "טופס זה מיועד לאיסוף מידע רפואי לצורך תביעה להשתלות וטיפולים מיוחדים בחול. הרופא מתבקש למלא את פרטי האבחנה הנוכחית, תאריך האבחנה הראשונית, ותאריך התחלת התלונות או הסימנים למחלה. הטופס כולל שאלות לגבי האם התלונה הנוכחית היא תוצאה של תאונה, תאונת עבודה, או גורם אחר. בין הנתונים המבוקשים ניתן למצוא את תאריך האבחנה הראשונית, תאריך התחלת התלונות, ואת האבחנה הנוכחית. לדוגמה, הראל סטודיו מופיע בתאריך 49031.12, עם תאריך 12/2025. This table is a claim form for transplants and special treatments abroad. It collects diagnostic information related to the patient's condition and the need for surgery.",
+  "payload": "טבלה: השתלות וטיפולים מיוחדים בחול - טופס תביעה\nThis table is a claim form for transplants and special treatments abroad. It collects diagnostic information related to the patient's condition and the need for surgery.\nממדים: Patient's medical information and claim details, Diagnosis, dates of diagnosis and symptoms, cause of complaint\n\n,,,האבחנה ד.הנוכחית האבחנה,\nבתאריך: לראשונה אובחן בניתוח הצורך,בתאריך: התחילו הנוכחית למחלה התלונות/הסימנים,בתאריך: התחילו הנוכחית למחלה התלונות/הסימנים,מתאריך: החל זו לאבחנה בנוגע בטיפולי המבוטח,\nדרכים תאונת,,עבודה תאונת,של: תוצאה הן הנוכחית והתלונה האבחנה האם,\n\"פרט כן, אם\",\"פרט כן, אם\",\"פרט כן, אם\",\"פרט כן, אם\",\"פרט כן, אם\"\n:\nתאריך:                                                                                                חותמת וחתימת הרופא\n49031.12 12/2025 הראל סטודיו"
 }

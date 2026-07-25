@@ -2,23 +2,24 @@
   "id": "pdf:car/files/כתב-שירות-שרותי-דרך-וגרירה-למשאיות-עד-34-טון.pdf#7",
   "source": "llm",
   "description": {
-    "title": "שירותי דרך וגרירה למשאיות",
-    "summary": "This table details the coverage period and waiting periods for roadside assistance and towing services for trucks up to 34 tons. It specifies conditions related to eligibility and payment.",
-    "embed_passage": "כתב שירות זה מתייחס לשירותי דרך וגרירה למשאיות עד 34 טון. תקופת הכיסוי הינה בהתאם לתקופת הביטוח הנקובה במפרט, ובמקרים מסוימים קיימים ימי אכשרה של 30 יום לפני קבלת השירות. במקרה של רכב שפרטיו אינם מופיעים ברשומות, יתבקש המבוטח לתת פרטי כרטיס אשראי.",
-    "row_axis": "conditions/clauses related to service",
-    "column_axis": "aspects of service (coverage period, waiting period)",
+    "title": "כתב שירות שירותי דרך וגרירה למשאית",
+    "summary": "This table details the coverage period and waiting periods for roadside assistance and towing services for trucks up to 34 tons. It outlines conditions related to service eligibility and payment.",
+    "embed_passage": "טבלה זו מתארת את תקופת הכיסוי ואת ימי האכשרה לשירותי דרך וגרירה למשאית עד 34 טון. השירות ניתן בהתאם לתקופת הביטוח הנקובה במפרט, תוך קיזוז של ארבעה ימים. במקרים מסוימים, ייתכן שיהיה צורך בבדיקת זכאות לשירות, ואם פרטי הרכב אינם מופיעים ברשומות נותן השירות, או אם לא ניתן פרטי כרטיס אשראי, השירות יהיה כרוך בתשלום. ימי אכשרה רלוונטיים לאירועים שאינם תאונה. שירותי דרך וגרירה ניתנים לבעל הכיסוי ולמי שמחזיק ברכב מטעמו. \nימי אכשרה, תקופת הכיסוי, רכב שפרטיו אינם מופיעים ברשומות, תשלום בעת קבלת השירות, אירוע שאינו תאונה.",
+    "row_axis": "conditions/scenarios related to service",
+    "column_axis": "service details (coverage period, waiting period)",
     "units": [],
     "notable_values": [
-      "coverage period: 4",
-      "waiting period (non-accident): 5",
-      "waiting period (verification): 30 יום",
-      "truck weight limit: 34 טון"
+      "תקופת הכיסוי: 4 ימים",
+      "ימי אכשרה: לא מצוין (עבור אירוע שאינו תאונה)",
+      "זמן הגעה: עד 5 שעות",
+      "כרטיס אשראי: נדרש לביטחון"
     ],
     "product_hints": [
-      "שירותי דרך וגרירה למשאיות"
+      "שירותי דרך וגרירה למשאית",
+      "כתב שירות"
     ]
   },
   "sketch": "תקופת הכיסוי .4\nימי אכשרה, ככל שמדובר באירוע שאינו תאונה 5 .  תקופת הכיסוי הינה בהתאם לתקופת הביטוח הנקובה במפרט, בקיזוז 4.1 ולמעט במקרים של חידוש פוליסה הכוללת כיסוי כאמור.\n. נותן השירות לא יהא חייב לתת, ללא תמורה, שירותי רכב לרכב שפרטיו אינם מופיעים ברשומותיו. במקרה כזה יתבקש 4.2 יום, במהלכם תיבדק זכאותו לשירות. אם יתברר כי לא היה המבוטח 30 המבוטח לתת פרטי כרטיס אשראי לביטחון עד בעת קבלת השירות - יהא השירות כרוך בתשלום.",
-  "embed_text": "כתב שירות זה מתייחס לשירותי דרך וגרירה למשאיות עד 34 טון. תקופת הכיסוי הינה בהתאם לתקופת הביטוח הנקובה במפרט, ובמקרים מסוימים קיימים ימי אכשרה של 30 יום לפני קבלת השירות. במקרה של רכב שפרטיו אינם מופיעים ברשומות, יתבקש המבוטח לתת פרטי כרטיס אשראי.",
-  "payload": "טבלה: שירותי דרך וגרירה למשאיות\nThis table details the coverage period and waiting periods for roadside assistance and towing services for trucks up to 34 tons. It specifies conditions related to eligibility and payment.\nממדים: conditions/clauses related to service, aspects of service (coverage period, waiting period)\n\nתקופת הכיסוי .4\nימי אכשרה, ככל שמדובר באירוע שאינו תאונה 5 .  תקופת הכיסוי הינה בהתאם לתקופת הביטוח הנקובה במפרט, בקיזוז 4.1 ולמעט במקרים של חידוש פוליסה הכוללת כיסוי כאמור.\n. נותן השירות לא יהא חייב לתת, ללא תמורה, שירותי רכב לרכב שפרטיו אינם מופיעים ברשומותיו. במקרה כזה יתבקש 4.2 יום, במהלכם תיבדק זכאותו לשירות. אם יתברר כי לא היה המבוטח 30 המבוטח לתת פרטי כרטיס אשראי לביטחון עד בעת קבלת השירות - יהא השירות כרוך בתשלום."
+  "embed_text": "טבלה זו מתארת את תקופת הכיסוי ואת ימי האכשרה לשירותי דרך וגרירה למשאית עד 34 טון. השירות ניתן בהתאם לתקופת הביטוח הנקובה במפרט, תוך קיזוז של ארבעה ימים. במקרים מסוימים, ייתכן שיהיה צורך בבדיקת זכאות לשירות, ואם פרטי הרכב אינם מופיעים ברשומות נותן השירות, או אם לא ניתן פרטי כרטיס אשראי, השירות יהיה כרוך בתשלום. ימי אכשרה רלוונטיים לאירועים שאינם תאונה. שירותי דרך וגרירה ניתנים לבעל הכיסוי ולמי שמחזיק ברכב מטעמו. \nימי אכשרה, תקופת הכיסוי, רכב שפרטיו אינם מופיעים ברשומות, תשלום בעת קבלת השירות, אירוע שאינו תאונה. This table details the coverage period and waiting periods for roadside assistance and towing services for trucks up to 34 tons. It outlines conditions related to service eligibility and payment. בין הערכים בטבלה: זמן הגעה: עד 5 שעות.",
+  "payload": "טבלה: כתב שירות שירותי דרך וגרירה למשאית\nThis table details the coverage period and waiting periods for roadside assistance and towing services for trucks up to 34 tons. It outlines conditions related to service eligibility and payment.\nממדים: conditions/scenarios related to service, service details (coverage period, waiting period)\n\nתקופת הכיסוי .4\nימי אכשרה, ככל שמדובר באירוע שאינו תאונה 5 .  תקופת הכיסוי הינה בהתאם לתקופת הביטוח הנקובה במפרט, בקיזוז 4.1 ולמעט במקרים של חידוש פוליסה הכוללת כיסוי כאמור.\n. נותן השירות לא יהא חייב לתת, ללא תמורה, שירותי רכב לרכב שפרטיו אינם מופיעים ברשומותיו. במקרה כזה יתבקש 4.2 יום, במהלכם תיבדק זכאותו לשירות. אם יתברר כי לא היה המבוטח 30 המבוטח לתת פרטי כרטיס אשראי לביטחון עד בעת קבלת השירות - יהא השירות כרוך בתשלום."
 }

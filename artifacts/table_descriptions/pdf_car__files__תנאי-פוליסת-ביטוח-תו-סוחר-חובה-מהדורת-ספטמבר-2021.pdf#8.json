@@ -2,24 +2,25 @@
   "id": "pdf:car/files/תנאי-פוליסת-ביטוח-תו-סוחר-חובה-מהדורת-ספטמבר-2021.pdf#8",
   "source": "llm",
   "description": {
-    "title": "פוליסת ביטוח תו סוחר",
-    "summary": "This table defines terms and conditions for a 'תו סוחר' car insurance policy. It clarifies the insurer's liability based on the 'פקודת הביטוח' (Insurance Ordinance) and the 'חוק הפיצויים' (Compensation Law).",
-    "embed_passage": "פוליסת ביטוח תו סוחר מגדירה את חבות המבטח לפי הוראות סעיף 3 לפקודת הביטוח, תוך התייחסות לחוק הפיצויים. המונחים מפורשים בהתאם לחוק הפיצויים במועד קרות מקרה הביטוח. הפוליסה מכסה חבות שהמבוטח עשוי לחוב לפי חוק הפיצויים.",
-    "row_axis": "definitions / clauses",
-    "column_axis": "aspects of liability / interpretation",
+    "title": "פרשנות וחבות המבטח",
+    "summary": "This table defines terms and outlines the insurer's liability according to the Insurance Act. It is used to look up the insurer's obligations based on the type of damage and legal context.",
+    "embed_passage": "טבלה זו מגדירה מונחים ומתווה את אחריות המבטח בהתאם לחוק הפיצויים. ניתן להשתמש בה כדי לאתר את חובות המבטח בהתבסס על סוג הנזק וההקשר המשפטי, כפי שמופיע בפקודת הביטוח. המונחים מוגדרים בהתאם למועד קרות מקרה הביטוח. הפוליסה רלוונטית ל'תו סוחר' ביטוח חובה. מונחים מרכזיים כוללים 'חוק הפיצויים', 'פקודת הביטוח', 'נזק גוף', ו'תקופת הביטוח'.",
+    "row_axis": "סעיף / הגדרה",
+    "column_axis": "תיאור",
     "units": [],
     "notable_values": [
-      "סעיף 1: מונח שלא הוגדר",
-      "סעיף 3: חבות המבטח",
-      "פקודת הביטוח: סעיף 3",
-      "חוק הפיצויים: מועד קרות מקרה הביטוח"
+      "מונח: חוק הפיצויים",
+      "מונח: פקודת הביטוח",
+      "מונח: נזק גוף",
+      "סעיף: 1",
+      "סעיף: 3"
     ],
     "product_hints": [
       "תו סוחר",
-      "ביטוח תו סוחר"
+      "ביטוח חובה"
     ]
   },
   "sketch": ".  פרשנות 2\nיפורש כמשמעותו, במועד קרות מקרה הביטוח, בחוק הפיצויים 1 מונח שלא הוגדר בסעיף או בפקודת הביטוח, לפי העניין.\n.3 חבות המבטח\nלפקודת הביטוח, לאמור: 3 בכפוף לתנאי פוליסה זו, מבטח יחוב לפי הוראות סעיף",
-  "embed_text": "פוליסת ביטוח תו סוחר מגדירה את חבות המבטח לפי הוראות סעיף 3 לפקודת הביטוח, תוך התייחסות לחוק הפיצויים. המונחים מפורשים בהתאם לחוק הפיצויים במועד קרות מקרה הביטוח. הפוליסה מכסה חבות שהמבוטח עשוי לחוב לפי חוק הפיצויים.",
-  "payload": "טבלה: פוליסת ביטוח תו סוחר\nThis table defines terms and conditions for a 'תו סוחר' car insurance policy. It clarifies the insurer's liability based on the 'פקודת הביטוח' (Insurance Ordinance) and the 'חוק הפיצויים' (Compensation Law).\nממדים: definitions / clauses, aspects of liability / interpretation\n\n.  פרשנות 2\nיפורש כמשמעותו, במועד קרות מקרה הביטוח, בחוק הפיצויים 1 מונח שלא הוגדר בסעיף או בפקודת הביטוח, לפי העניין.\n.3 חבות המבטח\nלפקודת הביטוח, לאמור: 3 בכפוף לתנאי פוליסה זו, מבטח יחוב לפי הוראות סעיף"
+  "embed_text": "טבלה זו מגדירה מונחים ומתווה את אחריות המבטח בהתאם לחוק הפיצויים. ניתן להשתמש בה כדי לאתר את חובות המבטח בהתבסס על סוג הנזק וההקשר המשפטי, כפי שמופיע בפקודת הביטוח. המונחים מוגדרים בהתאם למועד קרות מקרה הביטוח. הפוליסה רלוונטית ל'תו סוחר' ביטוח חובה. מונחים מרכזיים כוללים 'חוק הפיצויים', 'פקודת הביטוח', 'נזק גוף', ו'תקופת הביטוח'. This table defines terms and outlines the insurer's liability according to the Insurance Act. It is used to look up the insurer's obligations based on the type of damage and legal context. בין הערכים בטבלה: סעיף: 1; סעיף: 3.",
+  "payload": "טבלה: פרשנות וחבות המבטח\nThis table defines terms and outlines the insurer's liability according to the Insurance Act. It is used to look up the insurer's obligations based on the type of damage and legal context.\nממדים: סעיף / הגדרה, תיאור\n\n.  פרשנות 2\nיפורש כמשמעותו, במועד קרות מקרה הביטוח, בחוק הפיצויים 1 מונח שלא הוגדר בסעיף או בפקודת הביטוח, לפי העניין.\n.3 חבות המבטח\nלפקודת הביטוח, לאמור: 3 בכפוף לתנאי פוליסה זו, מבטח יחוב לפי הוראות סעיף"
 }

@@ -2,25 +2,24 @@
   "id": "pdf:health/files/תנאי_פוליסת_ניתוחים_וטיפולים_מחליפי_ניתוח_בישראל_מהשקל_הראשון.pdf#24",
   "source": "llm",
   "description": {
-    "title": "פרטי התקשרות הראל",
-    "summary": "This table provides contact information for Harel Insurance. It includes a phone number, fax number, email address, mailing address, and website.",
-    "embed_passage": "פוליסת ניתוחים וטיפולים מחליפי ניתוח בישראל מהשקל הראשון של הראל מספקת מידע ליצירת קשר. ניתן למצוא פרטים כגון כתובת אתר www.harel-group.co.il, כתובת דואר אלקטרוני polisotbs@harel-ins.co.il ומספר טלפון 037348178.",
-    "row_axis": "Contact details",
-    "column_axis": "Contact type (Phone, Fax, Email, Address, Website)",
+    "title": "תנאי פוליסת ניתוחים וטיפולים",
+    "summary": "This table provides contact information for Harel Insurance related to policies for surgeries and treatments. It lists a phone number, fax, email address, mailing address, and website.",
+    "embed_passage": "טבלה זו מציגה פרטי יצירת קשר של הראל ביטוח בנוגע לפוליסות ניתוחים וטיפולים. ניתן למצוא כאן את מספר הטלפון, הפקס, כתובת הדוא״ל, כתובת למשלוח דואר ואתר האינטרנט של החברה. הפוליסה של Harel מציעה כיסוי לניתוחים וטיפולים שונים, ומידע נוסף ניתן למצוא באתר האינטרנט או באמצעות יצירת קשר עם החברה. פרטי יצירת קשר: טלפון 037348178, פקס, דוא״ל polisotbs@harel-ins.co.il, ת״ד 10951, גן רמת 5200901, אתר www.harel-group.co.il.",
+    "row_axis": "Contact Information",
+    "column_axis": "Contact Details (Phone, Fax, Email, Address, Website)",
     "units": [],
     "notable_values": [
       "Phone: 037348178",
       "Email: polisotbs@harel-ins.co.il",
-      "Website: www.harel-group.co.il",
-      "Address: 5200901 גן רמת, הלל אבא 3, ת\"ד 10951"
+      "Mailing Address: ת״ד 10951, גן רמת 5200901",
+      "Website: www.harel-group.co.il"
     ],
     "product_hints": [
-      "פוליסת ניתוחים",
-      "טיפולים מחליפי ניתוח",
-      "הראל"
+      "Harel",
+      "ניתוחים וטיפולים"
     ]
   },
   "sketch": "0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",האינטרנט אתר כתובת www.harel-group.co.il",
-  "embed_text": "פוליסת ניתוחים וטיפולים מחליפי ניתוח בישראל מהשקל הראשון של הראל מספקת מידע ליצירת קשר. ניתן למצוא פרטים כגון כתובת אתר www.harel-group.co.il, כתובת דואר אלקטרוני polisotbs@harel-ins.co.il ומספר טלפון 037348178.",
-  "payload": "טבלה: פרטי התקשרות הראל\nThis table provides contact information for Harel Insurance. It includes a phone number, fax number, email address, mailing address, and website.\nממדים: Contact details, Contact type (Phone, Fax, Email, Address, Website)\n\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",האינטרנט אתר כתובת www.harel-group.co.il"
+  "embed_text": "טבלה זו מציגה פרטי יצירת קשר של הראל ביטוח בנוגע לפוליסות ניתוחים וטיפולים. ניתן למצוא כאן את מספר הטלפון, הפקס, כתובת הדוא״ל, כתובת למשלוח דואר ואתר האינטרנט של החברה. הפוליסה של Harel מציעה כיסוי לניתוחים וטיפולים שונים, ומידע נוסף ניתן למצוא באתר האינטרנט או באמצעות יצירת קשר עם החברה. פרטי יצירת קשר: טלפון 037348178, פקס, דוא״ל polisotbs@harel-ins.co.il, ת״ד 10951, גן רמת 5200901, אתר www.harel-group.co.il. This table provides contact information for Harel Insurance related to policies for surgeries and treatments. It lists a phone number, fax, email address, mailing address, and website.",
+  "payload": "טבלה: תנאי פוליסת ניתוחים וטיפולים\nThis table provides contact information for Harel Insurance related to policies for surgeries and treatments. It lists a phone number, fax, email address, mailing address, and website.\nממדים: Contact Information, Contact Details (Phone, Fax, Email, Address, Website)\n\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",האינטרנט אתר כתובת www.harel-group.co.il"
 }

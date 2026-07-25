@@ -3,22 +3,23 @@
   "source": "llm",
   "description": {
     "title": "ציוד אלקטרוני",
-    "summary": "This table details conditions for electronic equipment coverage under the מכלול insurance policy. It outlines how compensation is calculated, depreciation applied, and expenses not included in payouts.",
-    "embed_passage": "פוליסת מכלול מספקת כיסוי לציוד אלקטרוני, כאשר סכום הביטוח מבוסס על עלות החלפה של הרכוש. אם חלפו חמש שנים ממועד הפעלתו הראשונה של הציוד, יופחת בלאי מהתגמול. לדוגמה, אם הציוד ניזוק לאחר 6 שנים, יחושב הפיצוי תוך התחשבות בשחיקה.",
-    "row_axis": "conditions/scenarios related to electronic equipment coverage",
-    "column_axis": "details of coverage, depreciation, and excluded expenses",
+    "summary": "This table details conditions for electronic equipment coverage within an insurance policy. It outlines how the insurance amount is determined and what expenses are not included in compensation.",
+    "embed_passage": "טבלה זו מתייחסת לכיסוי ביטוחי עבור ציוד אלקטרוני, ומפרטת את הבסיס לקביעת סכום הביטוח ואת ההוצאות שאינן כלולות בפיצוי. ניתן למצוא מידע על אופן חישוב הפיצוי במקרה של אובדן או נזק, וכן על הפחתת בלאי בהתאם לגיל הציוד. סעיפים אלו רלוונטיים לפוליסת ביטוח מכלול, וחשובים להבנת תנאי הכיסוי. הפיצוי ניתן בגין אבדן או נזק לחומרה, אך אינו כולל הוצאות הובלה או עבודה בשעות נוספות. אם חלפו חמש שנים ממועד הפעלת הציוד, יופחת תגמול הביטוח בגין בלאי.",
+    "row_axis": "conditions for electronic equipment coverage",
+    "column_axis": "details of coverage, compensation, and exclusions",
     "units": [],
     "notable_values": [
-      "5 שנים: תקופה לחלוף ממנה יופחת בלאי",
-      "סכום הביטוח: מבוסס על עלות החלפה",
-      "הוצאות נוספות: לא משולמות עבור עבודה בשבתות או חגים"
+      "period: 5 שנים",
+      "coverage type: ציוד אלקטרוני",
+      "compensation exclusion: הוצאות הובלה",
+      "compensation exclusion: עבודה בשעות נוספות",
+      "compensation exclusion: עבודה בשבתות או חגים"
     ],
     "product_hints": [
-      "מכלול",
-      "ביטוח ציוד אלקטרוני"
+      "ביטוח מכלול"
     ]
   },
   "sketch": ".3.6.6.3.2.3 מובהר בזאת, כי אם חלפה תקופה של חמש שנים ממועד הפעלתו לראשונה של פריט הציוד שאבד או ניזוק, או ממועד  ביצוע  שיפוץ  כולל  בפריט (המאוחר במועדים), יופחת מתגמולי הביטוח בלאי בהתחשב במצבו של הרכוש המבוטח בסמוך לפני מועד קרות מקרה הביטוח.\n.3.6.6.3.2.4 הוצאות שאינן נכללות בפיצוי: פיצוי הניתן בגין אבדן או נזק לחומרה לא יכלול את עלות ההובלה או העברה של הרכוש המבוטח ו/או עלות העסקת עובדים, ככל שהוצאות כאמור נדרשות בקשר  עם  פעילות  מחוץ  לתחום המדינה. כמו כן, לא תשולמנה כל הוצאות עבור עבודה בשעות נוספות או עבודה בשבתות או חגים.\n, בחר המבטח לפצות את המבוטח בדרך של תיקון או החלפה (כולל) לעיל 3.6.6.3.2.4 - 3.6.6.3.2.1 יחול האמור בסעיפים בשינויים המחויבים.",
-  "embed_text": "פוליסת מכלול מספקת כיסוי לציוד אלקטרוני, כאשר סכום הביטוח מבוסס על עלות החלפה של הרכוש. אם חלפו חמש שנים ממועד הפעלתו הראשונה של הציוד, יופחת בלאי מהתגמול. לדוגמה, אם הציוד ניזוק לאחר 6 שנים, יחושב הפיצוי תוך התחשבות בשחיקה.",
-  "payload": "טבלה: ציוד אלקטרוני\nThis table details conditions for electronic equipment coverage under the מכלול insurance policy. It outlines how compensation is calculated, depreciation applied, and expenses not included in payouts.\nממדים: conditions/scenarios related to electronic equipment coverage, details of coverage, depreciation, and excluded expenses\n\n.3.6.6.3.2.3 מובהר בזאת, כי אם חלפה תקופה של חמש שנים ממועד הפעלתו לראשונה של פריט הציוד שאבד או ניזוק, או ממועד  ביצוע  שיפוץ  כולל  בפריט (המאוחר במועדים), יופחת מתגמולי הביטוח בלאי בהתחשב במצבו של הרכוש המבוטח בסמוך לפני מועד קרות מקרה הביטוח.\n.3.6.6.3.2.4 הוצאות שאינן נכללות בפיצוי: פיצוי הניתן בגין אבדן או נזק לחומרה לא יכלול את עלות ההובלה או העברה של הרכוש המבוטח ו/או עלות העסקת עובדים, ככל שהוצאות כאמור נדרשות בקשר  עם  פעילות  מחוץ  לתחום המדינה. כמו כן, לא תשולמנה כל הוצאות עבור עבודה בשעות נוספות או עבודה בשבתות או חגים.\n, בחר המבטח לפצות את המבוטח בדרך של תיקון או החלפה (כולל) לעיל 3.6.6.3.2.4 - 3.6.6.3.2.1 יחול האמור בסעיפים בשינויים המחויבים."
+  "embed_text": "טבלה זו מתייחסת לכיסוי ביטוחי עבור ציוד אלקטרוני, ומפרטת את הבסיס לקביעת סכום הביטוח ואת ההוצאות שאינן כלולות בפיצוי. ניתן למצוא מידע על אופן חישוב הפיצוי במקרה של אובדן או נזק, וכן על הפחתת בלאי בהתאם לגיל הציוד. סעיפים אלו רלוונטיים לפוליסת ביטוח מכלול, וחשובים להבנת תנאי הכיסוי. הפיצוי ניתן בגין אבדן או נזק לחומרה, אך אינו כולל הוצאות הובלה או עבודה בשעות נוספות. אם חלפו חמש שנים ממועד הפעלת הציוד, יופחת תגמול הביטוח בגין בלאי. This table details conditions for electronic equipment coverage within an insurance policy. It outlines how the insurance amount is determined and what expenses are not included in compensation. בין הערכים בטבלה: period: 5 שנים; compensation exclusion: עבודה בשבתות או חגים.",
+  "payload": "טבלה: ציוד אלקטרוני\nThis table details conditions for electronic equipment coverage within an insurance policy. It outlines how the insurance amount is determined and what expenses are not included in compensation.\nממדים: conditions for electronic equipment coverage, details of coverage, compensation, and exclusions\n\n.3.6.6.3.2.3 מובהר בזאת, כי אם חלפה תקופה של חמש שנים ממועד הפעלתו לראשונה של פריט הציוד שאבד או ניזוק, או ממועד  ביצוע  שיפוץ  כולל  בפריט (המאוחר במועדים), יופחת מתגמולי הביטוח בלאי בהתחשב במצבו של הרכוש המבוטח בסמוך לפני מועד קרות מקרה הביטוח.\n.3.6.6.3.2.4 הוצאות שאינן נכללות בפיצוי: פיצוי הניתן בגין אבדן או נזק לחומרה לא יכלול את עלות ההובלה או העברה של הרכוש המבוטח ו/או עלות העסקת עובדים, ככל שהוצאות כאמור נדרשות בקשר  עם  פעילות  מחוץ  לתחום המדינה. כמו כן, לא תשולמנה כל הוצאות עבור עבודה בשעות נוספות או עבודה בשבתות או חגים.\n, בחר המבטח לפצות את המבוטח בדרך של תיקון או החלפה (כולל) לעיל 3.6.6.3.2.4 - 3.6.6.3.2.1 יחול האמור בסעיפים בשינויים המחויבים."
 }

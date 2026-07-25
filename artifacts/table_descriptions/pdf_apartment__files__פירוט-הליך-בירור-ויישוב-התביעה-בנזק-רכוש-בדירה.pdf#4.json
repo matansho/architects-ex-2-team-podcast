@@ -3,23 +3,22 @@
   "source": "llm",
   "description": {
     "title": "בירור ויישוב תביעה",
-    "summary": "This table details the claims process for property damage in an apartment. It outlines the steps taken to investigate and settle a claim, including potential involvement of adjusters and experts.",
-    "embed_passage": "חברתנו תמנה שמאי לבדיקת מקרה הביטוח, לרבות הנסיבות וגובה הנזק. לצורך בירור ויישוב תביעה, חברתנו יכול ותמנה מומחים נוספים מטעמה, כגון מהנדסים או חוקרי שריפות. תפקיד המומחים הוא לברר את מהות התביעה ולהעריך את גובה הנזק.",
-    "row_axis": "claim process step",
-    "column_axis": "details/actions",
+    "summary": "This table outlines the process for claim investigation and settlement regarding property damage in an apartment. It details how the company handles claims, including potential appointment of assessors and required documentation.",
+    "embed_passage": "טבלה זו מתארת את הליך בירור ויישוב תביעה לנזקי רכוש בדירה, ומפרטת כיצד החברה מטפלת בתביעות, כולל מינוי שמאי פוטנציאלי ודרישות תיעוד. ניתן להשתמש במידע זה כדי להבין את השלבים הנדרשים להגשת תביעה ולקבלת מידע נוסף. החברה, על פי שיקול דעתה המקצועי, יכול ותמנה שמאי, לבדיקת מקרה הביטוח. לצורך קבלת מידע ומסמכים נוספים, ניתן לפנות לתביעות טלפונית ו/או בכתב. מומחים, רו״ח, מהנדסים, חוקרי שריפות, ימונו בהתאם למדיניות החברה.",
+    "row_axis": "stages of claim handling",
+    "column_axis": "actions/information",
     "units": [],
     "notable_values": [
-      "אירוע: מספר אירוע",
-      "שמאי: מינוי שמאי ע\"י החברה",
-      "מומחים: מינוי מומחים נוספים",
-      "מסמכים: רשימת מסמכים נדרשים",
-      "הודעה: טופס הגשת תביעה"
+      "שמאי: מינוי על פי שיקול דעת",
+      "מומחים: מהנדסים, רו״ח, חוקרים",
+      "מסמכים נדרשים: פירוט מידע",
+      "הודעה מראש למבטח: הוצאות תיקון"
     ],
     "product_hints": [
       "ביטוח דירה"
     ]
   },
   "sketch": ", .  החברה, על פי שיקול דעתה המקצועי, יכול ותמנה שמאי, לבדיקת מקרה הביטוח 5\n. לרבות הנסיבות וגובה נזק במקביל לאמור לעיל, כמו גם, באם לא ימונה שמאי ע\"י החברה, יחזור אליך מיישב . לצפייה ברשימת המסמכים הנדרשים ליישוב התביעה, ראה \"פירוט מידע והמסמכים\nהתביעות, טלפונית ו/או בכתב, לצורך קבלת מידע ומסמכים נוספים , בהתאם לצורך .\" הנדרשים מתובע לשם בירור ויישוב תביעה",
-  "embed_text": "חברתנו תמנה שמאי לבדיקת מקרה הביטוח, לרבות הנסיבות וגובה הנזק. לצורך בירור ויישוב תביעה, חברתנו יכול ותמנה מומחים נוספים מטעמה, כגון מהנדסים או חוקרי שריפות. תפקיד המומחים הוא לברר את מהות התביעה ולהעריך את גובה הנזק.",
-  "payload": "טבלה: בירור ויישוב תביעה\nThis table details the claims process for property damage in an apartment. It outlines the steps taken to investigate and settle a claim, including potential involvement of adjusters and experts.\nממדים: claim process step, details/actions\n\n, .  החברה, על פי שיקול דעתה המקצועי, יכול ותמנה שמאי, לבדיקת מקרה הביטוח 5\n. לרבות הנסיבות וגובה נזק במקביל לאמור לעיל, כמו גם, באם לא ימונה שמאי ע\"י החברה, יחזור אליך מיישב . לצפייה ברשימת המסמכים הנדרשים ליישוב התביעה, ראה \"פירוט מידע והמסמכים\nהתביעות, טלפונית ו/או בכתב, לצורך קבלת מידע ומסמכים נוספים , בהתאם לצורך .\" הנדרשים מתובע לשם בירור ויישוב תביעה"
+  "embed_text": "טבלה זו מתארת את הליך בירור ויישוב תביעה לנזקי רכוש בדירה, ומפרטת כיצד החברה מטפלת בתביעות, כולל מינוי שמאי פוטנציאלי ודרישות תיעוד. ניתן להשתמש במידע זה כדי להבין את השלבים הנדרשים להגשת תביעה ולקבלת מידע נוסף. החברה, על פי שיקול דעתה המקצועי, יכול ותמנה שמאי, לבדיקת מקרה הביטוח. לצורך קבלת מידע ומסמכים נוספים, ניתן לפנות לתביעות טלפונית ו/או בכתב. מומחים, רו״ח, מהנדסים, חוקרי שריפות, ימונו בהתאם למדיניות החברה. This table outlines the process for claim investigation and settlement regarding property damage in an apartment. It details how the company handles claims, including potential appointment of assessors and required documentation. בין הערכים בטבלה: מסמכים נדרשים: פירוט מידע; הודעה מראש למבטח: הוצאות תיקון.",
+  "payload": "טבלה: בירור ויישוב תביעה\nThis table outlines the process for claim investigation and settlement regarding property damage in an apartment. It details how the company handles claims, including potential appointment of assessors and required documentation.\nממדים: stages of claim handling, actions/information\n\n, .  החברה, על פי שיקול דעתה המקצועי, יכול ותמנה שמאי, לבדיקת מקרה הביטוח 5\n. לרבות הנסיבות וגובה נזק במקביל לאמור לעיל, כמו גם, באם לא ימונה שמאי ע\"י החברה, יחזור אליך מיישב . לצפייה ברשימת המסמכים הנדרשים ליישוב התביעה, ראה \"פירוט מידע והמסמכים\nהתביעות, טלפונית ו/או בכתב, לצורך קבלת מידע ומסמכים נוספים , בהתאם לצורך .\" הנדרשים מתובע לשם בירור ויישוב תביעה"
 }

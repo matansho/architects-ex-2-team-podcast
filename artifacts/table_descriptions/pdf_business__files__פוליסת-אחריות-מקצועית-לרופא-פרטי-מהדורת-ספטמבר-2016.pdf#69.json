@@ -3,23 +3,22 @@
   "source": "llm",
   "description": {
     "title": "עניין מהותי",
-    "summary": "This table details what constitutes a 'material fact' (עניין מהותי) in the context of a professional liability insurance policy for a private doctor. It outlines scenarios where failing to disclose such facts can impact the policy.",
-    "embed_passage": "פוליסת אחריות מקצועית לרופא פרטי מגדירה 'עניין מהותי' כמידע שהיה משפיע על נכונות מבטח סביר לכרות את החוזה. לדוגמה, הסתרה בכוונת מרמה של עניין מהותי דינה כדין מתן תשובה שאינה מלאה וכנה. חוק חוזה ביטוח התשמ״א 1981 קובע את ההשלכות של אי גילוי.",
-    "row_axis": "Scenarios related to disclosure of material facts",
-    "column_axis": "Details of the scenario and its implications",
+    "summary": "This table details 'material matters' regarding disclosure and changes in information provided by the insured. It outlines scenarios where the insurer may cancel the policy or reduce coverage.",
+    "embed_passage": "טבלה זו מתארת את ה'עניין המהותי' בפוליסת אחריות מקצועית לרופא פרטי, ומפרטת מצבים בהם המבוטח חייב לגלות מידע למבטח. מטרת הטבלה היא להבהיר את חובות הגילוי של המבוטח ואת ההשלכות של אי-גילוי או גילוי שקרי. ניתן לחפש מידע על סוגי העניינים המהותיים, כגון הסתרה בכוונת מרמה או שינוי בעניין מהותי. העניינים המהותיים כוללים הסתרה בכוונת מרמה, שאלה גורפת, ושינוי בעניין מהותי. פוליסת אחריות מקצועית לרופא פרטי מהדורת ספטמבר 2016 היא המוצר הרלוונטי.",
+    "row_axis": "סעיף חוק חוזה ביטוח",
+    "column_axis": "תיאור העניין המהותי",
     "units": [],
     "notable_values": [
-      "1981: Year of the Insurance Contract Law",
-      "4.2.1: Clause number for intentional concealment",
-      "4.2.3: Clause number for intentional misrepresentation",
-      "4.2.5: Clause number for ongoing disclosure requirements",
-      "4.2.9: Clause number for exceptions to remedies"
+      "4.2.1: לא ענה המבוטח תשובות מלאות וכנות",
+      "4.2.3: הסתרה בכוונת מרמה",
+      "4.2.4: שאלה גורפת",
+      "4.2.5: שינוי בעניין מהותי"
     ],
     "product_hints": [
       "פוליסת אחריות מקצועית לרופא פרטי"
     ]
   },
   "sketch": ", הסתרה בכוונת מרמה מצד המבוטח של עניין שהוא ידע כי הוא עניין מהותי .4.2.3 דינה כדין מתן תשובה שאינה מלאה וכנה.\nשאלה גורפת שנשאלה על ידי המבטח, הכורכת עניינים שונים, ללא אבחנה .4.2.4 ביניהם, אינה מחייבת תשובה כאמור אלא אם הייתה סבירה בעת כריתת החוזה.\nבנוסף, במשך תקופת הביטוח יגלה המבוטח למבטח, בכתב, כל שינוי בעניין .4.2.5 מהותי, וזאת באופן מידי מעת שנודע לו על כך.",
-  "embed_text": "פוליסת אחריות מקצועית לרופא פרטי מגדירה 'עניין מהותי' כמידע שהיה משפיע על נכונות מבטח סביר לכרות את החוזה. לדוגמה, הסתרה בכוונת מרמה של עניין מהותי דינה כדין מתן תשובה שאינה מלאה וכנה. חוק חוזה ביטוח התשמ״א 1981 קובע את ההשלכות של אי גילוי.",
-  "payload": "טבלה: עניין מהותי\nThis table details what constitutes a 'material fact' (עניין מהותי) in the context of a professional liability insurance policy for a private doctor. It outlines scenarios where failing to disclose such facts can impact the policy.\nממדים: Scenarios related to disclosure of material facts, Details of the scenario and its implications\n\n, הסתרה בכוונת מרמה מצד המבוטח של עניין שהוא ידע כי הוא עניין מהותי .4.2.3 דינה כדין מתן תשובה שאינה מלאה וכנה.\nשאלה גורפת שנשאלה על ידי המבטח, הכורכת עניינים שונים, ללא אבחנה .4.2.4 ביניהם, אינה מחייבת תשובה כאמור אלא אם הייתה סבירה בעת כריתת החוזה.\nבנוסף, במשך תקופת הביטוח יגלה המבוטח למבטח, בכתב, כל שינוי בעניין .4.2.5 מהותי, וזאת באופן מידי מעת שנודע לו על כך."
+  "embed_text": "טבלה זו מתארת את ה'עניין המהותי' בפוליסת אחריות מקצועית לרופא פרטי, ומפרטת מצבים בהם המבוטח חייב לגלות מידע למבטח. מטרת הטבלה היא להבהיר את חובות הגילוי של המבוטח ואת ההשלכות של אי-גילוי או גילוי שקרי. ניתן לחפש מידע על סוגי העניינים המהותיים, כגון הסתרה בכוונת מרמה או שינוי בעניין מהותי. העניינים המהותיים כוללים הסתרה בכוונת מרמה, שאלה גורפת, ושינוי בעניין מהותי. פוליסת אחריות מקצועית לרופא פרטי מהדורת ספטמבר 2016 היא המוצר הרלוונטי. This table details 'material matters' regarding disclosure and changes in information provided by the insured. It outlines scenarios where the insurer may cancel the policy or reduce coverage. בין הערכים בטבלה: 4.2.1: לא ענה המבוטח תשובות מלאות וכנות.",
+  "payload": "טבלה: עניין מהותי\nThis table details 'material matters' regarding disclosure and changes in information provided by the insured. It outlines scenarios where the insurer may cancel the policy or reduce coverage.\nממדים: סעיף חוק חוזה ביטוח, תיאור העניין המהותי\n\n, הסתרה בכוונת מרמה מצד המבוטח של עניין שהוא ידע כי הוא עניין מהותי .4.2.3 דינה כדין מתן תשובה שאינה מלאה וכנה.\nשאלה גורפת שנשאלה על ידי המבטח, הכורכת עניינים שונים, ללא אבחנה .4.2.4 ביניהם, אינה מחייבת תשובה כאמור אלא אם הייתה סבירה בעת כריתת החוזה.\nבנוסף, במשך תקופת הביטוח יגלה המבוטח למבטח, בכתב, כל שינוי בעניין .4.2.5 מהותי, וזאת באופן מידי מעת שנודע לו על כך."
 }

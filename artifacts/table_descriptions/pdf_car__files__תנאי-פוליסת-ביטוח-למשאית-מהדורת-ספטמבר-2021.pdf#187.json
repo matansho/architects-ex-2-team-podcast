@@ -3,23 +3,23 @@
   "source": "llm",
   "description": {
     "title": "תנאי פוליסת ביטוח למשאית",
-    "summary": "This table details the service conditions for a truck insurance policy. It specifies service availability, contact methods, and geographical coverage.",
-    "embed_passage": "פוליסת ביטוח למשאית מספקת שירות 24 שעות ביממה, בכל ימות השנה, למעט ביום הכיפורים. המבוטח זכאי לשירות בין השעות 14:00 בערב יום הכיפורים ועד שעתיים לאחר צאת הכיפורים. השירותים ניתנים בכל רחבי מדינת ישראל, למעט בשטחי האוטונומיה וחבל עזה.",
-    "row_axis": "Service conditions and availability",
-    "column_axis": "Details of service provision (hours, location, contact)",
+    "summary": "This table details the service hours and geographic coverage for a truck insurance policy. It specifies when and where services are available to the insured.",
+    "embed_passage": "טבלה זו מתארת את שעות הפעילות והפריסה הארצית של שירותי ביטוח למשאית. המבוטח יכול לקבל שירות 24 שעות ביממה, למעט ביום הכיפורים, וברחבי מדינת ישראל למעט בשטחי האוטונומיה וחבל עזה. ניתן לקבל שירות על ידי פנייה למוקד השירות. פוליסת ביטוח למשאית כוללת תנאים לגבי שעות פעילות ופריסה ארצית. שעות הפעילות, ימות השנה, יום הכיפורים, שטחי האוטונומיה וחבל עזה הם פרטים חשובים.",
+    "row_axis": "Service conditions",
+    "column_axis": "Service details",
     "units": [],
     "notable_values": [
-      "hours per day: 24",
-      "days per week: 7",
-      "service availability exception: יום הכיפורים",
-      "service start time on Yom Kippur eve: 14:00",
-      "service end time after Yom Kippur: 2 hours"
+      "שעות ביממה: 24",
+      "יום הכיפורים (ערב): 14:00",
+      "יום הכיפורים (אחרי צאת): שעתיים",
+      "ימות השנה: כל",
+      "שטחים מוגבלים: שטחי האוטונומיה, חבל עזה"
     ],
     "product_hints": [
-      "ביטוח למשאית"
+      "פוליסת ביטוח למשאית"
     ]
   },
   "sketch": "שעות הפעילות ופריסה ארצית .2.2\nשעות ביממה, בכל ימות השנה, פרט ליום 24 המבוטח יהיה זכאי לשרות .2.2.1 בערב יום הכיפורים ועד שעתיים לאחר צאת 14:00 הכיפורים החל מהשעה יום הכיפורים.\nלקבלת שירות, על המבוטח ו/או מי מטעמו לפנות למוקד השירות. .2.2.2\nהשירותים יינתנו על פי בקשת המבוטח, בהתאם לנסיבות והאפשרויות, בכל .2.2.3 רחבי מדינת ישראל למעט בשטחי האוטונומיה וחבל עזה.",
-  "embed_text": "פוליסת ביטוח למשאית מספקת שירות 24 שעות ביממה, בכל ימות השנה, למעט ביום הכיפורים. המבוטח זכאי לשירות בין השעות 14:00 בערב יום הכיפורים ועד שעתיים לאחר צאת הכיפורים. השירותים ניתנים בכל רחבי מדינת ישראל, למעט בשטחי האוטונומיה וחבל עזה.",
-  "payload": "טבלה: תנאי פוליסת ביטוח למשאית\nThis table details the service conditions for a truck insurance policy. It specifies service availability, contact methods, and geographical coverage.\nממדים: Service conditions and availability, Details of service provision (hours, location, contact)\n\nשעות הפעילות ופריסה ארצית .2.2\nשעות ביממה, בכל ימות השנה, פרט ליום 24 המבוטח יהיה זכאי לשרות .2.2.1 בערב יום הכיפורים ועד שעתיים לאחר צאת 14:00 הכיפורים החל מהשעה יום הכיפורים.\nלקבלת שירות, על המבוטח ו/או מי מטעמו לפנות למוקד השירות. .2.2.2\nהשירותים יינתנו על פי בקשת המבוטח, בהתאם לנסיבות והאפשרויות, בכל .2.2.3 רחבי מדינת ישראל למעט בשטחי האוטונומיה וחבל עזה."
+  "embed_text": "טבלה זו מתארת את שעות הפעילות והפריסה הארצית של שירותי ביטוח למשאית. המבוטח יכול לקבל שירות 24 שעות ביממה, למעט ביום הכיפורים, וברחבי מדינת ישראל למעט בשטחי האוטונומיה וחבל עזה. ניתן לקבל שירות על ידי פנייה למוקד השירות. פוליסת ביטוח למשאית כוללת תנאים לגבי שעות פעילות ופריסה ארצית. שעות הפעילות, ימות השנה, יום הכיפורים, שטחי האוטונומיה וחבל עזה הם פרטים חשובים. This table details the service hours and geographic coverage for a truck insurance policy. It specifies when and where services are available to the insured. בין הערכים בטבלה: יום הכיפורים (ערב): 14:00; יום הכיפורים (אחרי צאת): שעתיים; שטחים מוגבלים: שטחי האוטונומיה, חבל עזה.",
+  "payload": "טבלה: תנאי פוליסת ביטוח למשאית\nThis table details the service hours and geographic coverage for a truck insurance policy. It specifies when and where services are available to the insured.\nממדים: Service conditions, Service details\n\nשעות הפעילות ופריסה ארצית .2.2\nשעות ביממה, בכל ימות השנה, פרט ליום 24 המבוטח יהיה זכאי לשרות .2.2.1 בערב יום הכיפורים ועד שעתיים לאחר צאת 14:00 הכיפורים החל מהשעה יום הכיפורים.\nלקבלת שירות, על המבוטח ו/או מי מטעמו לפנות למוקד השירות. .2.2.2\nהשירותים יינתנו על פי בקשת המבוטח, בהתאם לנסיבות והאפשרויות, בכל .2.2.3 רחבי מדינת ישראל למעט בשטחי האוטונומיה וחבל עזה."
 }

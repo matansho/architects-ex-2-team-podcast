@@ -3,17 +3,18 @@
   "source": "llm",
   "description": {
     "title": "שירותי דרך וגרירה",
-    "summary": "This table details the conditions for roadside assistance and towing services. It outlines service areas, limitations, and response times.",
-    "embed_passage": "פוליסת ביטוח רכב פרטי ומסחרי כוללת שירותי דרך וגרירה ברחבי מדינת ישראל, למעט אזורים מוגבלים דרומית לצומת הערבה ומזרחית למעלה אדומים. שירות מורחב יינתן תוך שעתיים מקבלת הקריאה, למעט ימי חג ושבת. השירות ניתן על ידי \"נותן השירות\" כמפורט בכתב השירות.",
+    "summary": "This table details the conditions for extended roadside assistance and towing services. It specifies the geographic coverage and limitations of the service.",
+    "embed_passage": "טבלה זו מתארת את תנאי שירותי דרך וגרירה מורחבים, כחלק מפוליסת ביטוח רכב פרטי ומסחרי עד 35 טון. השירותים ניתנים על ידי \"נותן השירות\" בהתאם לכתב השירות, ומכסים מצבים בהם המכונית בלתי ניתנת להפעלה עקב תאונת דרכים. ניתן לקבל שירות מורחב ברחבי מדינת ישראל, למעט אזורים מוגדרים כגון דרומית לצומת הערבה. השירות כולל גרירת הרכב 24 שעות ביממה, למעט יום כיפור. שירות מורחב, גרירה, תאונת דרכים, מדינת ישראל, הערבה, שבתון.",
     "row_axis": "conditions/details of service",
-    "column_axis": "service aspects (e.g., area, response time)",
+    "column_axis": "service aspects",
     "units": [],
     "notable_values": [
-      "service area: Israel (excluding certain areas)",
-      "response time: 2 hours",
       "service availability: 24 hours/day",
-      "exclusion: south of Tzumet Ha'arava",
-      "exclusion: east of Ma'ale Adumim"
+      "exclusion: Yom Kippur",
+      "coverage area: Israel (except certain areas)",
+      "area exclusion: south of Tzumet HaArava",
+      "area exclusion: east of Ma'ale Adumim",
+      "area inclusion: Arad"
     ],
     "product_hints": [
       "ביטוח רכב",
@@ -22,6 +23,6 @@
     ]
   },
   "sketch": "\" ל\"שרותי דרך וגרירה יינתנו בהתאם לכתב השרות לרכב המבוטח, כל השירותים הניתנים . 3 של \"נותן השירות\", כמצוין בכתב השירות.\nשירות מורחב יינתן ברחבי מדינת ישראל בשטחים בשליטה ישראלית למעט דרומית לצומת . 4 הערבה, מזרחית למעלה אדומים ובשטחי האוטונומיה. למרות האמור לעיל, יינתן השירות גם בערד.",
-  "embed_text": "פוליסת ביטוח רכב פרטי ומסחרי כוללת שירותי דרך וגרירה ברחבי מדינת ישראל, למעט אזורים מוגבלים דרומית לצומת הערבה ומזרחית למעלה אדומים. שירות מורחב יינתן תוך שעתיים מקבלת הקריאה, למעט ימי חג ושבת. השירות ניתן על ידי \"נותן השירות\" כמפורט בכתב השירות.",
-  "payload": "טבלה: שירותי דרך וגרירה\nThis table details the conditions for roadside assistance and towing services. It outlines service areas, limitations, and response times.\nממדים: conditions/details of service, service aspects (e.g., area, response time)\n\n\" ל\"שרותי דרך וגרירה יינתנו בהתאם לכתב השרות לרכב המבוטח, כל השירותים הניתנים . 3 של \"נותן השירות\", כמצוין בכתב השירות.\nשירות מורחב יינתן ברחבי מדינת ישראל בשטחים בשליטה ישראלית למעט דרומית לצומת . 4 הערבה, מזרחית למעלה אדומים ובשטחי האוטונומיה. למרות האמור לעיל, יינתן השירות גם בערד."
+  "embed_text": "טבלה זו מתארת את תנאי שירותי דרך וגרירה מורחבים, כחלק מפוליסת ביטוח רכב פרטי ומסחרי עד 35 טון. השירותים ניתנים על ידי \"נותן השירות\" בהתאם לכתב השירות, ומכסים מצבים בהם המכונית בלתי ניתנת להפעלה עקב תאונת דרכים. ניתן לקבל שירות מורחב ברחבי מדינת ישראל, למעט אזורים מוגדרים כגון דרומית לצומת הערבה. השירות כולל גרירת הרכב 24 שעות ביממה, למעט יום כיפור. שירות מורחב, גרירה, תאונת דרכים, מדינת ישראל, הערבה, שבתון. This table details the conditions for extended roadside assistance and towing services. It specifies the geographic coverage and limitations of the service. בין הערכים בטבלה: service availability: 24 hours/day; exclusion: Yom Kippur; coverage area: Israel (except certain areas); area exclusion: south of Tzumet HaArava; area exclusion: east of Ma'ale Adumim; area inclusion: Arad.",
+  "payload": "טבלה: שירותי דרך וגרירה\nThis table details the conditions for extended roadside assistance and towing services. It specifies the geographic coverage and limitations of the service.\nממדים: conditions/details of service, service aspects\n\n\" ל\"שרותי דרך וגרירה יינתנו בהתאם לכתב השרות לרכב המבוטח, כל השירותים הניתנים . 3 של \"נותן השירות\", כמצוין בכתב השירות.\nשירות מורחב יינתן ברחבי מדינת ישראל בשטחים בשליטה ישראלית למעט דרומית לצומת . 4 הערבה, מזרחית למעלה אדומים ובשטחי האוטונומיה. למרות האמור לעיל, יינתן השירות גם בערד."
 }

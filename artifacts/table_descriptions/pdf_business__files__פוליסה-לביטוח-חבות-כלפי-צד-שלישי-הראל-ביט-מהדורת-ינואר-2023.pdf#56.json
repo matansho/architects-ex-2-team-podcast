@@ -2,28 +2,25 @@
   "id": "pdf:business/files/פוליסה-לביטוח-חבות-כלפי-צד-שלישי-הראל-ביט-מהדורת-ינואר-2023.pdf#56",
   "source": "llm",
   "description": {
-    "title": "דמי ביטוח - הראל",
-    "summary": "This table details the payment terms for 'הראל' insurance policies, specifically regarding premium payments, interest calculations, and potential policy cancellation due to late payments. It outlines the timeframe for payments and the consequences of non-payment.",
-    "embed_passage": "פוליסת 'הראל' מגדירה את תשלום דמי הביטוח בש״ח, עם אפשרות לתשלום לשיעורין. במקרה של אי תשלום, המבטח רשאי לדרוש תשלום תוך 15 ימים, ולאחר מכן לבטל את הביטוח לאחר 21 ימים נוספים. דמי האשראי מחושבים על בסיס ריבית שנתית ומשולמים בתשלומים חודשיים.",
-    "row_axis": "payment conditions / policy status",
-    "column_axis": "timeframe / action",
-    "units": [
-      "ימים",
-      "₪"
-    ],
+    "title": "דמי ביטוח והשבה",
+    "summary": "This table details payment terms for insurance premiums and credit fees, including adjustments based on the Consumer Price Index and late payment consequences. It outlines how premiums and credit fees are indexed and how late payments are handled.",
+    "embed_passage": "טבלה זו מתארת את תנאי התשלום עבור דמי ביטוח ודמי אשראי, כולל התאמות על בסיס מדד המחירים לצרכן והשלכות על תשלומים מאוחרים. ניתן למצוא כאן מידע על אופן הצמדת הפרמיות והאשראי למדד, וכיצד מטפלים בתשלומים שלא שולמו בזמן. הפוליסה הרלוונטית היא פוליסה לביטוח חבות כלפי צד שלישי הראל ביט. דמי הביטוח ודמי האשראי צמודים למדד המחירים לצרכן. במידה ויבוצע שינוי במספר תשלומי דמי הביטוח ו/או במועדם, יעודכנו דמי האשראי בהתאם. אם סכום כלשהו שבפיגור לא ישולם תוך 15 ימים לאחר שהמבטח דרש זאת בכתב, רשאי המבטח להודיע על ביטול הביטוח לאחר 21 ימים נוספים.",
+    "row_axis": "תנאי תשלום",
+    "column_axis": "סעיפי הפוליסה",
+    "units": [],
     "notable_values": [
-      "payment timeframe: 28 ימים",
-      "late payment notice: 15 ימים",
-      "cancellation period: 21 ימים",
-      "payment method: במזומן",
-      "interest calculation: ריבית שנתית"
+      "תקופת התראה לביטול: 60 ימים",
+      "תקופת חסד לתשלום פיגור: 15 ימים",
+      "תקופה נוספת לביטול לאחר חסד: 21 ימים",
+      "מדד מחירים לצרכן: רלוונטי",
+      "תשלום במזומן: אפשרי",
+      "תשלום לשיעורין: אפשרי"
     ],
     "product_hints": [
-      "הראל",
-      "ביטוח חבות כלפי צד שלישי"
+      "פוליסה לביטוח חבות כלפי צד שלישי הראל ביט"
     ]
   },
   "sketch": "דמי הביטוח ודמי האשראי יהיו צמודים למדד המחירים לצרכן המפורסם על .5.1.3 ידי הלשכה המרכזית לסטטיסטיקה.\nבמידה ויבוצע שינוי במספר תשלומי דמי הביטוח ו/או במועדם, יעודכנו דמי .5.1.4 האשראי בהתאם לשינוי ויבוצע חיוב או השבה, לפי העניין, בסמוך לפירעון מלוא דמי הביטוח.\nימים לאחר שהמבטח דרש 15 לא שולם סכום כלשהו שבפיגור כאמור תוך .5.1.5 מהמבוטח בכתב לשלמו, רשאי המבטח להודיע למבוטח בכתב, כי הביטוח ; ימים נוספים וזאת אם הסכום שבפיגור לא יסולק לפני כן 21 יתבטל כעבור",
-  "embed_text": "פוליסת 'הראל' מגדירה את תשלום דמי הביטוח בש״ח, עם אפשרות לתשלום לשיעורין. במקרה של אי תשלום, המבטח רשאי לדרוש תשלום תוך 15 ימים, ולאחר מכן לבטל את הביטוח לאחר 21 ימים נוספים. דמי האשראי מחושבים על בסיס ריבית שנתית ומשולמים בתשלומים חודשיים.",
-  "payload": "טבלה: דמי ביטוח - הראל\nThis table details the payment terms for 'הראל' insurance policies, specifically regarding premium payments, interest calculations, and potential policy cancellation due to late payments. It outlines the timeframe for payments and the consequences of non-payment.\nממדים: payment conditions / policy status, timeframe / action\n\nדמי הביטוח ודמי האשראי יהיו צמודים למדד המחירים לצרכן המפורסם על .5.1.3 ידי הלשכה המרכזית לסטטיסטיקה.\nבמידה ויבוצע שינוי במספר תשלומי דמי הביטוח ו/או במועדם, יעודכנו דמי .5.1.4 האשראי בהתאם לשינוי ויבוצע חיוב או השבה, לפי העניין, בסמוך לפירעון מלוא דמי הביטוח.\nימים לאחר שהמבטח דרש 15 לא שולם סכום כלשהו שבפיגור כאמור תוך .5.1.5 מהמבוטח בכתב לשלמו, רשאי המבטח להודיע למבוטח בכתב, כי הביטוח ; ימים נוספים וזאת אם הסכום שבפיגור לא יסולק לפני כן 21 יתבטל כעבור"
+  "embed_text": "טבלה זו מתארת את תנאי התשלום עבור דמי ביטוח ודמי אשראי, כולל התאמות על בסיס מדד המחירים לצרכן והשלכות על תשלומים מאוחרים. ניתן למצוא כאן מידע על אופן הצמדת הפרמיות והאשראי למדד, וכיצד מטפלים בתשלומים שלא שולמו בזמן. הפוליסה הרלוונטית היא פוליסה לביטוח חבות כלפי צד שלישי הראל ביט. דמי הביטוח ודמי האשראי צמודים למדד המחירים לצרכן. במידה ויבוצע שינוי במספר תשלומי דמי הביטוח ו/או במועדם, יעודכנו דמי האשראי בהתאם. אם סכום כלשהו שבפיגור לא ישולם תוך 15 ימים לאחר שהמבטח דרש זאת בכתב, רשאי המבטח להודיע על ביטול הביטוח לאחר 21 ימים נוספים. This table details payment terms for insurance premiums and credit fees, including adjustments based on the Consumer Price Index and late payment consequences. It outlines how premiums and credit fees are indexed and how late payments are handled. בין הערכים בטב…",
+  "payload": "טבלה: דמי ביטוח והשבה\nThis table details payment terms for insurance premiums and credit fees, including adjustments based on the Consumer Price Index and late payment consequences. It outlines how premiums and credit fees are indexed and how late payments are handled.\nממדים: תנאי תשלום, סעיפי הפוליסה\n\nדמי הביטוח ודמי האשראי יהיו צמודים למדד המחירים לצרכן המפורסם על .5.1.3 ידי הלשכה המרכזית לסטטיסטיקה.\nבמידה ויבוצע שינוי במספר תשלומי דמי הביטוח ו/או במועדם, יעודכנו דמי .5.1.4 האשראי בהתאם לשינוי ויבוצע חיוב או השבה, לפי העניין, בסמוך לפירעון מלוא דמי הביטוח.\nימים לאחר שהמבטח דרש 15 לא שולם סכום כלשהו שבפיגור כאמור תוך .5.1.5 מהמבוטח בכתב לשלמו, רשאי המבטח להודיע למבוטח בכתב, כי הביטוח ; ימים נוספים וזאת אם הסכום שבפיגור לא יסולק לפני כן 21 יתבטל כעבור"
 }

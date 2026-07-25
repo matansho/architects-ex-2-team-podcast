@@ -2,24 +2,25 @@
   "id": "pdf:apartment/files/תנאי-פוליסת-ביטוח-דירה-אדירה-זהב-מהדורה-חדשה-בתוקף-החל-מ-2-12-2019.pdf#47",
   "source": "llm",
   "description": {
-    "title": "כיסויים לפוליסת דירה",
-    "summary": "This table details exclusions to coverage under an apartment insurance policy. It lists reasons why damage might *not* be covered, helping policyholders understand limitations.",
-    "embed_passage": "פוליסת ביטוח דירה אדירה זהב אינה מכסה נזקים הנגרמים כתוצאה מהרעה הדרגתית, פחת, או תכנון לקוי של הרכוש. כמו כן, שקיעת קרקע או נזק מתהליך שיפוץ אינם כלולים בכיסוי. הפוליסה מגדירה מקרים ספציפיים שאינם מכוסים, כגון קורוזיה או נזקי מכרסמים.",
-    "row_axis": "exclusion reason",
-    "column_axis": "description of exclusion",
+    "title": "החרגות ביטוח דירה",
+    "summary": "This table lists exclusions to apartment insurance coverage. It details specific causes of damage that are not covered by the policy.",
+    "embed_passage": "טבלה זו מפרטת החרגות לפוליסת ביטוח דירה אדירה זהב, ומציינת נזקים שאינם מכוסים. ניתן לחפש החרגות ספציפיות לפי סוג הנזק או הגורם לו. החרגות כוללות פגם מטבעו של הרכוש המבוטח, שקיעת קרקע, נזק משיפוץ, קורוזיה, ומכרסמים. ביטוח אדירה זהב אינו מכסה הרעה הדרגתית, פחת, תכנון לקוי, או חומרים לא מתאימים. כמו כן, לא יכוסו נזקים שנגרמו עקב תנאי קור או חום קיצוניים, שינויי טמפרטורה, לחות, או עובש.",
+    "row_axis": "סוג החרגה (cause of exclusion)",
+    "column_axis": "תיאור החרגה (description of exclusion)",
     "units": [],
     "notable_values": [
-      "exclusion: הרעה הדרגתית",
-      "exclusion: שקיעת קרקע",
-      "exclusion: נזק משיפוץ",
-      "exclusion: קורוזיה",
-      "exclusion: נזקי מכרסמים"
+      "פגם מטבעו של הרכוש המבוטח: Inherent Vice",
+      "שקיעת קרקע: של מבנה הדירה",
+      "נזק משיפוץ: תהליך תיקון או שיפוץ",
+      "קורוזיה: החלדה",
+      "מכרסמים: חרקים",
+      "עובש: לחות"
     ],
     "product_hints": [
       "אדירה זהב"
     ]
   },
   "sketch": "(, הרעה הדרגתית, פחת Inherent Vice) פגם מטבעו של הרכוש המבוטח .8.5.2 והתבלות רגילים, תכנון, חומרים או עבודה לקויים או בלתי מתאימים.\nשקיעת קרקע של מבנה הדירה או של תשתיות המבנה. .8.5.3\n.8.5.4 נזק הנגרם כתוצאה מתהליך תיקון או שיפוץ של הרכוש המבוטח.\n, קורוזיה, החלדה, תנאי קור או חום קיצוניים, שינויי טמפרטורה, לחות, עובש .8.5.5 מכרסמים, חרקים או שריטות.",
-  "embed_text": "פוליסת ביטוח דירה אדירה זהב אינה מכסה נזקים הנגרמים כתוצאה מהרעה הדרגתית, פחת, או תכנון לקוי של הרכוש. כמו כן, שקיעת קרקע או נזק מתהליך שיפוץ אינם כלולים בכיסוי. הפוליסה מגדירה מקרים ספציפיים שאינם מכוסים, כגון קורוזיה או נזקי מכרסמים.",
-  "payload": "טבלה: כיסויים לפוליסת דירה\nThis table details exclusions to coverage under an apartment insurance policy. It lists reasons why damage might *not* be covered, helping policyholders understand limitations.\nממדים: exclusion reason, description of exclusion\n\n(, הרעה הדרגתית, פחת Inherent Vice) פגם מטבעו של הרכוש המבוטח .8.5.2 והתבלות רגילים, תכנון, חומרים או עבודה לקויים או בלתי מתאימים.\nשקיעת קרקע של מבנה הדירה או של תשתיות המבנה. .8.5.3\n.8.5.4 נזק הנגרם כתוצאה מתהליך תיקון או שיפוץ של הרכוש המבוטח.\n, קורוזיה, החלדה, תנאי קור או חום קיצוניים, שינויי טמפרטורה, לחות, עובש .8.5.5 מכרסמים, חרקים או שריטות."
+  "embed_text": "טבלה זו מפרטת החרגות לפוליסת ביטוח דירה אדירה זהב, ומציינת נזקים שאינם מכוסים. ניתן לחפש החרגות ספציפיות לפי סוג הנזק או הגורם לו. החרגות כוללות פגם מטבעו של הרכוש המבוטח, שקיעת קרקע, נזק משיפוץ, קורוזיה, ומכרסמים. ביטוח אדירה זהב אינו מכסה הרעה הדרגתית, פחת, תכנון לקוי, או חומרים לא מתאימים. כמו כן, לא יכוסו נזקים שנגרמו עקב תנאי קור או חום קיצוניים, שינויי טמפרטורה, לחות, או עובש. This table lists exclusions to apartment insurance coverage. It details specific causes of damage that are not covered by the policy.",
+  "payload": "טבלה: החרגות ביטוח דירה\nThis table lists exclusions to apartment insurance coverage. It details specific causes of damage that are not covered by the policy.\nממדים: סוג החרגה (cause of exclusion), תיאור החרגה (description of exclusion)\n\n(, הרעה הדרגתית, פחת Inherent Vice) פגם מטבעו של הרכוש המבוטח .8.5.2 והתבלות רגילים, תכנון, חומרים או עבודה לקויים או בלתי מתאימים.\nשקיעת קרקע של מבנה הדירה או של תשתיות המבנה. .8.5.3\n.8.5.4 נזק הנגרם כתוצאה מתהליך תיקון או שיפוץ של הרכוש המבוטח.\n, קורוזיה, החלדה, תנאי קור או חום קיצוניים, שינויי טמפרטורה, לחות, עובש .8.5.5 מכרסמים, חרקים או שריטות."
 }

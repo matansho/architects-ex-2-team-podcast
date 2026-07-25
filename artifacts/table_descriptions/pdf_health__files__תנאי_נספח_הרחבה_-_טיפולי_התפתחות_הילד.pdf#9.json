@@ -3,25 +3,25 @@
   "source": "llm",
   "description": {
     "title": "הרחבה - טיפולי התפתחות הילד",
-    "summary": "This table details coverage for child development treatments, specifically diagnostic and counseling services. It shows the maximum reimbursement amount (in ₪) for different types of assessments.",
-    "embed_passage": "פוליסת ביטוח בריאות זו כוללת הרחבה לטיפולי התפתחות הילד, המכסה אבחון וייעוץ דידקטי, פסיכו-דידקטי ובדיקות ממוחשבות כמו TOVA, BRC ו-MOXO. גובה ההחזר משתנה בהתאם לסוג האבחון, החל מ-300 ₪ ועד 1,000 ₪. לדוגמה, אבחון דידקטי עולה עד 600 ₪.",
+    "summary": "This table details coverage amounts for various diagnostic and counseling services related to child development, specifically for attention deficit and learning disabilities. It lists the maximum reimbursement amount (in ₪) for each type of assessment.",
+    "embed_passage": "טבלה זו מתארת את סכומי הכיסוי עבור שירותי אבחון וייעוץ שונים הקשורים להתפתחות הילד, במיוחד הפרעות קשב ולקויות למידה. ניתן לחפש מידע על סוגי אבחון ספציפיים, כגון אבחון פסיכו-דידקטי או אבחון TOVA, ולקבל את הסכום המירבי המאושר לכל אבחון. התוכנית הרלוונטית היא הרחבה - טיפולי התפתחות הילד. סוגי האבחון המופיעים בטבלה כוללים אבחון דידקטי, אבחון פסיכו-דידקטי, אבחון TOVA, אבחון BRC ואבחון MOXO. סכומי הכיסוי נעים בין ₪ 300 ל-₪ 1,000.",
     "row_axis": "type of diagnostic/counseling service",
-    "column_axis": "service type, maximum reimbursement amount",
+    "column_axis": "service details and reimbursement amount (₪)",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "אבחון דידקטי: 600 ₪",
-      "אבחון פסיכו-דידקטי: 1,000 ₪",
-      "TOVA אבחון: 400 ₪",
-      "BRC אבחון: 500 ₪",
-      "MOXO אבחון: 300 ₪"
+      "אבחון פונולוגית: 600 ₪",
+      "אבחון דידקטי: 1,000 ₪",
+      "אבחון TOVA: 400 ₪",
+      "אבחון BRC: 500 ₪",
+      "אבחון MOXO: 300 ₪"
     ],
     "product_hints": [
-      "הרחבה - טיפולי התפתחות הילד"
+      "טיפולי התפתחות הילד"
     ]
   },
   "sketch": "קבלת שירותי אבחון וייעוץ דידקטי במרפאות מוסמכות למתן שירותים אלה ­ אבחון וייעוץ דידקטי 3.1 . לאבחון ₪ 600 ת פונולוגית ועד לסך של בתחומי קריאה, כתיבה, חשבון, אנגלית ומודעו\nקבלת שירותי אבחון וייעוץ פסיכו - דידקטי, המשלב בדיקה דידקטית ­ דידקט  י ­ אבחון וייעוץ פסיכו 3.2 . לאבחון ₪ 1,000 ופסיכולוגית, במרפאות מוסמכות למתן שירותים אלה ועד לסך של",
-  "embed_text": "פוליסת ביטוח בריאות זו כוללת הרחבה לטיפולי התפתחות הילד, המכסה אבחון וייעוץ דידקטי, פסיכו-דידקטי ובדיקות ממוחשבות כמו TOVA, BRC ו-MOXO. גובה ההחזר משתנה בהתאם לסוג האבחון, החל מ-300 ₪ ועד 1,000 ₪. לדוגמה, אבחון דידקטי עולה עד 600 ₪.",
-  "payload": "טבלה: הרחבה - טיפולי התפתחות הילד\nThis table details coverage for child development treatments, specifically diagnostic and counseling services. It shows the maximum reimbursement amount (in ₪) for different types of assessments.\nממדים: type of diagnostic/counseling service, service type, maximum reimbursement amount\n\nקבלת שירותי אבחון וייעוץ דידקטי במרפאות מוסמכות למתן שירותים אלה ­ אבחון וייעוץ דידקטי 3.1 . לאבחון ₪ 600 ת פונולוגית ועד לסך של בתחומי קריאה, כתיבה, חשבון, אנגלית ומודעו\nקבלת שירותי אבחון וייעוץ פסיכו - דידקטי, המשלב בדיקה דידקטית ­ דידקט  י ­ אבחון וייעוץ פסיכו 3.2 . לאבחון ₪ 1,000 ופסיכולוגית, במרפאות מוסמכות למתן שירותים אלה ועד לסך של"
+  "embed_text": "טבלה זו מתארת את סכומי הכיסוי עבור שירותי אבחון וייעוץ שונים הקשורים להתפתחות הילד, במיוחד הפרעות קשב ולקויות למידה. ניתן לחפש מידע על סוגי אבחון ספציפיים, כגון אבחון פסיכו-דידקטי או אבחון TOVA, ולקבל את הסכום המירבי המאושר לכל אבחון. התוכנית הרלוונטית היא הרחבה - טיפולי התפתחות הילד. סוגי האבחון המופיעים בטבלה כוללים אבחון דידקטי, אבחון פסיכו-דידקטי, אבחון TOVA, אבחון BRC ואבחון MOXO. סכומי הכיסוי נעים בין ₪ 300 ל-₪ 1,000. This table details coverage amounts for various diagnostic and counseling services related to child development, specifically for attention deficit and learning disabilities. It lists the maximum reimbursement amount (in ₪) for each type of assessment. בין הערכים בטבלה: אבחון פונולוגית: 600 ₪.",
+  "payload": "טבלה: הרחבה - טיפולי התפתחות הילד\nThis table details coverage amounts for various diagnostic and counseling services related to child development, specifically for attention deficit and learning disabilities. It lists the maximum reimbursement amount (in ₪) for each type of assessment.\nממדים: type of diagnostic/counseling service, service details and reimbursement amount (₪)\n\nקבלת שירותי אבחון וייעוץ דידקטי במרפאות מוסמכות למתן שירותים אלה ­ אבחון וייעוץ דידקטי 3.1 . לאבחון ₪ 600 ת פונולוגית ועד לסך של בתחומי קריאה, כתיבה, חשבון, אנגלית ומודעו\nקבלת שירותי אבחון וייעוץ פסיכו - דידקטי, המשלב בדיקה דידקטית ­ דידקט  י ­ אבחון וייעוץ פסיכו 3.2 . לאבחון ₪ 1,000 ופסיכולוגית, במרפאות מוסמכות למתן שירותים אלה ועד לסך של"
 }

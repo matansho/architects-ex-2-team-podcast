@@ -2,23 +2,23 @@
   "id": "pdf:business/files/מכלול-למושב-ינואר-2023.pdf#41",
   "source": "llm",
   "description": {
-    "title": "מכלול",
-    "summary": "This table details what is covered under the 'מכלול' insurance policy. It lists various types of property and assets that are subject to insurance coverage, helping to determine if a specific item is included in the policy.",
-    "embed_passage": "פוליסת 'מכלול' מכסה ציוד, חומרים ומבנים המשמשים לחממות, בתי רשת ומנהרות. הכיסוי מתייחס לדברי ערך, תכשיטים וניירות ערך, כמו גם מבני מגורים ותכולתם. הפוליסה עשויה להשתנות בהתאם לסוג הנכס ולערכו, לדוגמה, כיסוי עבור כוורות ודבורים כפי שמפורט בסעיף 6.8.",
-    "row_axis": "types of property/assets",
+    "title": "כיסויים - נכסים",
+    "summary": "This table lists covered assets under an insurance policy. It details what types of property are included in the coverage, such as greenhouse equipment and valuable items.",
+    "embed_passage": "טבלה זו מפרטת את הנכסים המכוסים במסגרת פוליסת ביטוח מכלול. ניתן לבדוק את הכיסוי עבור סוגי נכסים שונים, כגון חממות, תכשיטים, מבני מגורים, וכלי רכב. הכיסוי חל על ציוד, חומרים, מבנים ותכולותיהם, דברי ערך, תכשיטים, כספים, ומבני מגורים. נכסים שאינם כלולים כוללים כלי טייס וכלי שייט.  הטבלה כוללת גם סעיפים ספציפיים כמו ציוד לחממות, בתי רשת ומנהרות, תכשיטים, כספים, ומבני מגורים.",
+    "row_axis": "type of covered asset",
     "column_axis": "coverage details (implied)",
     "units": [],
     "notable_values": [
-      "כוורות: mentioned in section 6.8",
-      "מבני מגורים: covered",
-      "תכשיטים: covered",
-      "ניירות ערך: covered"
+      "ציוד, חומרים מבנים ותכולותיהם המשמשים לחממות, בתי רשת ומנהרות: covered",
+      "דברי ערך, תכשיטים, ניירות ערך: covered",
+      "מבני מגורים ותכולתם: covered",
+      "כוורות ודבורים: excluded from fire coverage"
     ],
     "product_hints": [
       "מכלול"
     ]
   },
   "sketch": "ציוד, חומרים מבנים ותכולותיהם המשמשים לחממות, בתי רשת ומנהרות; .3.6\n, דברי ערך, תכשיטים, ניירות ערך, ערבויות, בולים, מטבעות, מסמכים סחירים .3.7 , כספים מכל סוג, מזומנים, המחאות, כרטיסי אשראי, תווי קניה, תלושי דלק , תלושי תשלום אחרים, כרטיסי שי וכרטיסי תשלום אלקטרוניים, דברי אמנות מתכת יקרה ואבנים יקרות;\nמבני מגורים ותכולתם; .3.8",
-  "embed_text": "פוליסת 'מכלול' מכסה ציוד, חומרים ומבנים המשמשים לחממות, בתי רשת ומנהרות. הכיסוי מתייחס לדברי ערך, תכשיטים וניירות ערך, כמו גם מבני מגורים ותכולתם. הפוליסה עשויה להשתנות בהתאם לסוג הנכס ולערכו, לדוגמה, כיסוי עבור כוורות ודבורים כפי שמפורט בסעיף 6.8.",
-  "payload": "טבלה: מכלול\nThis table details what is covered under the 'מכלול' insurance policy. It lists various types of property and assets that are subject to insurance coverage, helping to determine if a specific item is included in the policy.\nממדים: types of property/assets, coverage details (implied)\n\nציוד, חומרים מבנים ותכולותיהם המשמשים לחממות, בתי רשת ומנהרות; .3.6\n, דברי ערך, תכשיטים, ניירות ערך, ערבויות, בולים, מטבעות, מסמכים סחירים .3.7 , כספים מכל סוג, מזומנים, המחאות, כרטיסי אשראי, תווי קניה, תלושי דלק , תלושי תשלום אחרים, כרטיסי שי וכרטיסי תשלום אלקטרוניים, דברי אמנות מתכת יקרה ואבנים יקרות;\nמבני מגורים ותכולתם; .3.8"
+  "embed_text": "טבלה זו מפרטת את הנכסים המכוסים במסגרת פוליסת ביטוח מכלול. ניתן לבדוק את הכיסוי עבור סוגי נכסים שונים, כגון חממות, תכשיטים, מבני מגורים, וכלי רכב. הכיסוי חל על ציוד, חומרים, מבנים ותכולותיהם, דברי ערך, תכשיטים, כספים, ומבני מגורים. נכסים שאינם כלולים כוללים כלי טייס וכלי שייט.  הטבלה כוללת גם סעיפים ספציפיים כמו ציוד לחממות, בתי רשת ומנהרות, תכשיטים, כספים, ומבני מגורים. This table lists covered assets under an insurance policy. It details what types of property are included in the coverage, such as greenhouse equipment and valuable items. בין הערכים בטבלה: ציוד, חומרים מבנים ותכולותיהם המשמשים לחממות, בתי רשת ומנהרות: covered; דברי ערך, תכשיטים, ניירות ערך: covered; מבני מגורים ותכולתם: covered; כוורות ודבורים: excluded from fire coverage.",
+  "payload": "טבלה: כיסויים - נכסים\nThis table lists covered assets under an insurance policy. It details what types of property are included in the coverage, such as greenhouse equipment and valuable items.\nממדים: type of covered asset, coverage details (implied)\n\nציוד, חומרים מבנים ותכולותיהם המשמשים לחממות, בתי רשת ומנהרות; .3.6\n, דברי ערך, תכשיטים, ניירות ערך, ערבויות, בולים, מטבעות, מסמכים סחירים .3.7 , כספים מכל סוג, מזומנים, המחאות, כרטיסי אשראי, תווי קניה, תלושי דלק , תלושי תשלום אחרים, כרטיסי שי וכרטיסי תשלום אלקטרוניים, דברי אמנות מתכת יקרה ואבנים יקרות;\nמבני מגורים ותכולתם; .3.8"
 }

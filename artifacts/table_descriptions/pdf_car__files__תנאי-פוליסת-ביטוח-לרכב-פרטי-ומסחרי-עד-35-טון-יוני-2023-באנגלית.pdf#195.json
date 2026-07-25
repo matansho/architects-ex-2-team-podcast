@@ -2,22 +2,27 @@
   "id": "pdf:car/files/תנאי-פוליסת-ביטוח-לרכב-פרטי-ומסחרי-עד-35-טון-יוני-2023-באנגלית.pdf#195",
   "source": "llm",
   "description": {
-    "title": "חרגת שמשות",
-    "summary": "This table details exclusions to windshield coverage under a car insurance policy. It lists conditions under which a windshield claim will not be honored.",
-    "embed_passage": "פוליסת ביטוח לרכב מכסה נזקים לשמשות, אך קיימות חריגות. לדוגמה, שמשות רכב שאינן מקוריות או שנגרמו להן סדקים שאינם חודרים את עובי השמשה אינן כלולות בכיסוי. במקרה של גניבת שמשה, הפוליסה לא תכסה את הנזק.",
-    "row_axis": "Specific exclusion to windshield coverage",
-    "column_axis": "Description of the exclusion",
+    "title": "חרגות שמשות",
+    "summary": "This table lists exclusions to windshield coverage under a car insurance policy. It details specific scenarios where claims for windshield damage will not be honored.",
+    "embed_passage": "טבלה זו מתארת חריגים לכיסוי שמשות במסגרת פוליסת ביטוח רכב. היא מפרטת תרחישים ספציפיים שבהם תביעות לנזקי שמשות לא יכובדו. ניתן לחפש חריגים לפי סוג הנזק או הסיבה לנזק. החריגים כוללים נזקים מכוונים, שמשות מיוחדות, תקלות במנגנונים, נזקים כתוצאה מתחרויות, נזקים הניתנים לפיצוי על פי חוק, רכבים ללא יבואן בישראל, שריטות שאינן חודרות, גניבת שמשות ושמשות פגומות מלכתחילה. פוליסת ביטוח לרכב פרטי ומסחרי עד 35 טון יוני 2023.",
+    "row_axis": "windshield damage exclusion",
+    "column_axis": "exclusion description",
     "units": [],
     "notable_values": [
-      "exclusion: deliberate breakage",
-      "exclusion: non-standard windshields",
-      "exclusion: defects upon inception"
+      "deliberate damage: caused by the insured",
+      "special windshields: deviate from manufacturer's standard",
+      "mechanism malfunctions: any type whatsoever",
+      "competition/driving tests: breakage as a result",
+      "state law compensation: damage granted under law",
+      "no Israeli agency: self-imported vehicle",
+      "superficial scratches: do not penetrate windshield",
+      "windshield theft: not covered"
     ],
     "product_hints": [
-      "ביטוח לרכב"
+      "פוליסת ביטוח לרכב פרטי ומסחרי עד 35 טון"
     ]
   },
-  "sketch": "3.1 Breakage of the windshield was caused deliberately by the insured or by whomsoever on his behalf.\n3.2 Special windshields and windshields which deviate from the vehicle maker's standard.\nFor the purpose of this paragraph \"special windshields\" - windshields with different specifications from the manufacturer's specifications, including reinforced windshields, windshields for openings which are not original and sunroof windshields.\n3.3 Malfunctions of any type whatsoever in the mechanisms, meatal plated items, sensors, cameras and windshield accessories.\n…\n3.6 A vehicle which does not have an agency in Israel and a self-imported vehicle.\n3.7 Scratches or cracks which do not penetrate the thickness of the windshield.\n3.8 Theft of a windshield.\n3.9 Vehicle windshields which were defective and/or cracked in any manner upon inception of the insurance period.",
-  "embed_text": "פוליסת ביטוח לרכב מכסה נזקים לשמשות, אך קיימות חריגות. לדוגמה, שמשות רכב שאינן מקוריות או שנגרמו להן סדקים שאינם חודרים את עובי השמשה אינן כלולות בכיסוי. במקרה של גניבת שמשה, הפוליסה לא תכסה את הנזק.",
-  "payload": "טבלה: חרגת שמשות\nThis table details exclusions to windshield coverage under a car insurance policy. It lists conditions under which a windshield claim will not be honored.\nממדים: Specific exclusion to windshield coverage, Description of the exclusion\n\n3.1 Breakage of the windshield was caused deliberately by the insured or by whomsoever on his behalf.\n3.2 Special windshields and windshields which deviate from the vehicle maker's standard.\nFor the purpose of this paragraph \"special windshields\" - windshields with different specifications from the manufacturer's specifications, including reinforced windshields, windshields for openings which are not original and sunroof windshields.\n3.3 Malfunctions of any type whatsoever in the mechanisms, meatal plated items, sensors, cameras and windshield accessories.\n3.4 Breakage of a windshield caused as a result of or due to competition and/or a driving test and/or driving ability tests.\n3.5 Any damage for which compensation is granted in accordance with the laws of the State.\n3.6 A vehicle which does not have an agency in Israel and a self-imported vehicle.\n3.7 Scratches or cracks which do not penetrate the thickness of the windshield.\n3.8 Theft of a windshield.\n3.9 Vehicle windshields which were defective and/or cracked in any manner upon inception of the insurance period."
+  "sketch": "3.1 Breakage of the windshield was caused deliberately by the insured or by whomsoever on his behalf.\n3.2 Special windshields and windshields which deviate from the vehicle maker's standard.\nFor the purpose of this paragraph \"special windshields\" - windshields with different specifications from the manufacturer's specifications, including reinforced windshields, windshields for openings which are not original and sunroof windshields.\n3.3 Malfunctions of any type whatsoever in the mechanisms, meatal plated items, sensors, cameras and windshield accessories.\n3.4 Breakage of a windshield caused as a result of or due to competition and/or a driving test and/or driving ability tests.\n3.5 Any damage for which compensation is granted in accordance with the laws of the State.\n3.6 A vehicle which does not have an agency in Israel and a self-imported vehicle.\n3.7 Scratches or cracks which do not penetrate the thickness of the windshield.\n3.8 Theft of a windshield.\n3.9 Vehicle windshields which were defective and/or cracked in any manner upon inception of the insurance period.",
+  "embed_text": "טבלה זו מתארת חריגים לכיסוי שמשות במסגרת פוליסת ביטוח רכב. היא מפרטת תרחישים ספציפיים שבהם תביעות לנזקי שמשות לא יכובדו. ניתן לחפש חריגים לפי סוג הנזק או הסיבה לנזק. החריגים כוללים נזקים מכוונים, שמשות מיוחדות, תקלות במנגנונים, נזקים כתוצאה מתחרויות, נזקים הניתנים לפיצוי על פי חוק, רכבים ללא יבואן בישראל, שריטות שאינן חודרות, גניבת שמשות ושמשות פגומות מלכתחילה. פוליסת ביטוח לרכב פרטי ומסחרי עד 35 טון יוני 2023. This table lists exclusions to windshield coverage under a car insurance policy. It details specific scenarios where claims for windshield damage will not be honored. בין הערכים בטבלה: deliberate damage: caused by the insured; special windshields: deviate from manufacturer's standard; mechanism malfunctions: any type whatsoever; competition/driving tests: breakage as a result; stat…",
+  "payload": "טבלה: חרגות שמשות\nThis table lists exclusions to windshield coverage under a car insurance policy. It details specific scenarios where claims for windshield damage will not be honored.\nממדים: windshield damage exclusion, exclusion description\n\n3.1 Breakage of the windshield was caused deliberately by the insured or by whomsoever on his behalf.\n3.2 Special windshields and windshields which deviate from the vehicle maker's standard.\nFor the purpose of this paragraph \"special windshields\" - windshields with different specifications from the manufacturer's specifications, including reinforced windshields, windshields for openings which are not original and sunroof windshields.\n3.3 Malfunctions of any type whatsoever in the mechanisms, meatal plated items, sensors, cameras and windshield accessories.\n3.4 Breakage of a windshield caused as a result of or due to competition and/or a driving test and/or driving ability tests.\n3.5 Any damage for which compensation is granted in accordance with the laws of the State.\n3.6 A vehicle which does not have an agency in Israel and a self-imported vehicle.\n3.7 Scratches or cracks which do not penetrate the thickness of the windshield.\n3.8 Theft of a windshield.\n3.9 Vehicle windshields which were defective and/or cracked in any manner upon inception of the insurance period."
 }

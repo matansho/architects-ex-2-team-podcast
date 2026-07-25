@@ -3,21 +3,23 @@
   "source": "llm",
   "description": {
     "title": "חוות דעת מומחה",
-    "summary": "This table details the requirements for expert opinions used by Harel Insurance when settling claims. It outlines how expert assessments must be professional, justified, and transparent to the claimant.",
-    "embed_passage": "פוליסות הראל דורשות שכל חוות דעת של מומחה תיערך באופן מקצועי ותהיה מנומקת, ותכלול את שמו, תוארו והשכלתו של המומחה. חוות הדעת לא תתייחס ישירות לזכות המבוטח לקבלת תגמולי ביטוח, אך תימסר לתובע במועד מסירת ההודעה על תוצאות התביעה. לדוגמה, אם נדרש מומחה להערכת נזק לרכוש, ההודעה על כך תימסר מראש.",
-    "row_axis": "requirements for expert opinions",
-    "column_axis": "aspects of the expert opinion (e.g., content, delivery)",
+    "summary": "This table details the requirements for expert opinions used in claim settlements. It outlines how expert opinions must be professional, justified, and include the expert's credentials and supporting documents.",
+    "embed_passage": "טבלה זו עוסקת בתנאים לחוות דעת מומחה המשמשות ליישוב תביעות ביטוח של הראל. חוות הדעת צריכה להיות מקצועית, מנומקת ולכלול פרטים על המומחה והמסמכים עליהם הסתמך. הטבלה מפרטת גם את זכות המבוטח לקבלת חוות הדעת ורשימת המסמכים הרלוונטיים. הראל, חוות דעת מומחה, תיאור, השכלה מקצועית, תפקיד, מסמכים, יישוב תביעה.",
+    "row_axis": "סעיף",
+    "column_axis": "דרישות חוות דעת מומחה",
     "units": [],
     "notable_values": [
-      "1: expert opinion must be professional",
-      "2: opinion cannot directly address insurance payout rights",
-      "14: copy of settlement/verdict to be sent within 14 business days"
+      "מומחה: לא ידחה תביעה",
+      "חוות דעת: מקצועית ומנומקת",
+      "מומחה: שם, תואר, השכלה",
+      "מומחה: רשימת מסמכים",
+      "חוות דעת: לא תתייחס לזכות לקבלת תגמולים"
     ],
     "product_hints": [
       "הראל"
     ]
   },
   "sketch": "מומחה כאמור לעיל לא ידחה תביעה במלואה או בחלקה ולא יציע פשרה אלא .2 בעניין היקף הנזק, אלא אם מדובר בעובד הראל, שעיקר עיסוקו יישוב תביעות.\n. יד חוות דעת מומחה\nכל חוות דעת של מומחה שעליה תסתמך הראל לצורך יישוב התביעה, תיערך באופן .1 מקצועי, תהיה מנומקת, ותכלול את שמו, תוארו, השכלתו המקצועית ותפקידו של המומחה, ואת רשימת כל המסמכים אשר המומחה הסתמך עליהם בעריכת חוות הדעת.\nחוות דעת של מומחה כאמור לעיל לא תתייחס במישרין לזכות המבוטח לקבלת .2 תגמולי ביטוח.",
-  "embed_text": "פוליסות הראל דורשות שכל חוות דעת של מומחה תיערך באופן מקצועי ותהיה מנומקת, ותכלול את שמו, תוארו והשכלתו של המומחה. חוות הדעת לא תתייחס ישירות לזכות המבוטח לקבלת תגמולי ביטוח, אך תימסר לתובע במועד מסירת ההודעה על תוצאות התביעה. לדוגמה, אם נדרש מומחה להערכת נזק לרכוש, ההודעה על כך תימסר מראש.",
-  "payload": "טבלה: חוות דעת מומחה\nThis table details the requirements for expert opinions used by Harel Insurance when settling claims. It outlines how expert assessments must be professional, justified, and transparent to the claimant.\nממדים: requirements for expert opinions, aspects of the expert opinion (e.g., content, delivery)\n\nמומחה כאמור לעיל לא ידחה תביעה במלואה או בחלקה ולא יציע פשרה אלא .2 בעניין היקף הנזק, אלא אם מדובר בעובד הראל, שעיקר עיסוקו יישוב תביעות.\n. יד חוות דעת מומחה\nכל חוות דעת של מומחה שעליה תסתמך הראל לצורך יישוב התביעה, תיערך באופן .1 מקצועי, תהיה מנומקת, ותכלול את שמו, תוארו, השכלתו המקצועית ותפקידו של המומחה, ואת רשימת כל המסמכים אשר המומחה הסתמך עליהם בעריכת חוות הדעת.\nחוות דעת של מומחה כאמור לעיל לא תתייחס במישרין לזכות המבוטח לקבלת .2 תגמולי ביטוח."
+  "embed_text": "טבלה זו עוסקת בתנאים לחוות דעת מומחה המשמשות ליישוב תביעות ביטוח של הראל. חוות הדעת צריכה להיות מקצועית, מנומקת ולכלול פרטים על המומחה והמסמכים עליהם הסתמך. הטבלה מפרטת גם את זכות המבוטח לקבלת חוות הדעת ורשימת המסמכים הרלוונטיים. הראל, חוות דעת מומחה, תיאור, השכלה מקצועית, תפקיד, מסמכים, יישוב תביעה. This table details the requirements for expert opinions used in claim settlements. It outlines how expert opinions must be professional, justified, and include the expert's credentials and supporting documents.",
+  "payload": "טבלה: חוות דעת מומחה\nThis table details the requirements for expert opinions used in claim settlements. It outlines how expert opinions must be professional, justified, and include the expert's credentials and supporting documents.\nממדים: סעיף, דרישות חוות דעת מומחה\n\nמומחה כאמור לעיל לא ידחה תביעה במלואה או בחלקה ולא יציע פשרה אלא .2 בעניין היקף הנזק, אלא אם מדובר בעובד הראל, שעיקר עיסוקו יישוב תביעות.\n. יד חוות דעת מומחה\nכל חוות דעת של מומחה שעליה תסתמך הראל לצורך יישוב התביעה, תיערך באופן .1 מקצועי, תהיה מנומקת, ותכלול את שמו, תוארו, השכלתו המקצועית ותפקידו של המומחה, ואת רשימת כל המסמכים אשר המומחה הסתמך עליהם בעריכת חוות הדעת.\nחוות דעת של מומחה כאמור לעיל לא תתייחס במישרין לזכות המבוטח לקבלת .2 תגמולי ביטוח."
 }

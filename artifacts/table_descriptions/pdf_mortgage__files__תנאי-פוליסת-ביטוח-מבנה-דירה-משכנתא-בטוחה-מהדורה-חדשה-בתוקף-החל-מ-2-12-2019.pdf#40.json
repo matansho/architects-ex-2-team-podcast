@@ -3,20 +3,22 @@
   "source": "llm",
   "description": {
     "title": "תביעות צד שלישי",
-    "summary": "This table details the process for handling insurance claims made by third parties against the insured. It outlines the timeframe for notifying the insured and the conditions for payment.",
-    "embed_passage": "פוליסת ביטוח מבנה דירה משכנתא בטוחה מגדירה את הטיפול בתביעות של צד שלישי. לדוגמה, אם צד שלישי דורש תגמולי ביטוח, המבטח יודיע למבוטח בכתב תוך 7 ימי עסקים. אם המבוטח לא יתנגד בתוך 0 ימים, המבטח ישלם לצד השלישי.",
-    "row_axis": "Stages in the third-party claim process",
-    "column_axis": "Actions and timeframes related to claim handling",
+    "summary": "This table details the process for handling insurance claims made by third parties against the insured. It outlines the timeframe for notifying the insured and the conditions under which the insurer will pay the third party directly.",
+    "embed_passage": "טבלה זו מתארת את הליך טיפול בתביעות המוגשות על ידי צד שלישי כנגד המבוטח, במסגרת פוליסת ביטוח מבנה. הנתונים מפרטים את מספר ימי העסקים להודעה למבוטח על דרישת צד שלישי, ואת התנאים בהם המבטח ישלם ישירות לצד השלישי. ניתן לחפש מידע על תהליך הטיפול בתביעות, כולל משך הזמן להודעה למבוטח וסדרי התשלום. המידע הרלוונטי כולל: ימי עסקים, דרישת צד שלישי, תגמולי ביטוח, התנגדות לתשלום, והגנה על תביעות.",
+    "row_axis": "שלבי טיפול בתביעת צד שלישי",
+    "column_axis": "פעולות המבטח והמבוטח",
     "units": [],
     "notable_values": [
-      "Time to notify insured: 7 ימי עסקים",
-      "Response time for insured objection: 0 ימים"
+      "ימי עסקים: 7",
+      "דרישת צד שלישי: תגמולי ביטוח",
+      "התנגדות לתשלום: בתוך 7 ימים"
     ],
     "product_hints": [
-      "ביטוח מבנה דירה משכנתא בטוחה"
+      "ביטוח מבנה",
+      "משכנתא בטוחה"
     ]
   },
   "sketch": "11.2 . , יודיע המבטח למבוטח בכתב 11.1 דרש צד שלישי מהמבטח תגמולי ביטוח כאמור בסעיף ימי עסקים מיום הדרישה, על הדרישה כאמור וכי אם לא יודיע לו המבוטח על 7 בתוך ימים, ישלם המבטח לצד השלישי את תגמולי הביטוח 0 התנגדותו לתשלום הפיצוי בתוך שהוא חייב למבוטח, אם הוא חייב בתשלומם.\n. המבטח רשאי ליטול על עצמו או לנהל בשם המבוטח את ההגנה של כל תביעה והמבוטח ייתן למבטח, לפי בקשתו, עזרה הנחוצה למבטח לצורך יישוב תביעה של צד שלישי.",
-  "embed_text": "פוליסת ביטוח מבנה דירה משכנתא בטוחה מגדירה את הטיפול בתביעות של צד שלישי. לדוגמה, אם צד שלישי דורש תגמולי ביטוח, המבטח יודיע למבוטח בכתב תוך 7 ימי עסקים. אם המבוטח לא יתנגד בתוך 0 ימים, המבטח ישלם לצד השלישי.",
-  "payload": "טבלה: תביעות צד שלישי\nThis table details the process for handling insurance claims made by third parties against the insured. It outlines the timeframe for notifying the insured and the conditions for payment.\nממדים: Stages in the third-party claim process, Actions and timeframes related to claim handling\n\n11.2 . , יודיע המבטח למבוטח בכתב 11.1 דרש צד שלישי מהמבטח תגמולי ביטוח כאמור בסעיף ימי עסקים מיום הדרישה, על הדרישה כאמור וכי אם לא יודיע לו המבוטח על 7 בתוך ימים, ישלם המבטח לצד השלישי את תגמולי הביטוח 0 התנגדותו לתשלום הפיצוי בתוך שהוא חייב למבוטח, אם הוא חייב בתשלומם.\n. המבטח רשאי ליטול על עצמו או לנהל בשם המבוטח את ההגנה של כל תביעה והמבוטח ייתן למבטח, לפי בקשתו, עזרה הנחוצה למבטח לצורך יישוב תביעה של צד שלישי."
+  "embed_text": "טבלה זו מתארת את הליך טיפול בתביעות המוגשות על ידי צד שלישי כנגד המבוטח, במסגרת פוליסת ביטוח מבנה. הנתונים מפרטים את מספר ימי העסקים להודעה למבוטח על דרישת צד שלישי, ואת התנאים בהם המבטח ישלם ישירות לצד השלישי. ניתן לחפש מידע על תהליך הטיפול בתביעות, כולל משך הזמן להודעה למבוטח וסדרי התשלום. המידע הרלוונטי כולל: ימי עסקים, דרישת צד שלישי, תגמולי ביטוח, התנגדות לתשלום, והגנה על תביעות. This table details the process for handling insurance claims made by third parties against the insured. It outlines the timeframe for notifying the insured and the conditions under which the insurer will pay the third party directly.",
+  "payload": "טבלה: תביעות צד שלישי\nThis table details the process for handling insurance claims made by third parties against the insured. It outlines the timeframe for notifying the insured and the conditions under which the insurer will pay the third party directly.\nממדים: שלבי טיפול בתביעת צד שלישי, פעולות המבטח והמבוטח\n\n11.2 . , יודיע המבטח למבוטח בכתב 11.1 דרש צד שלישי מהמבטח תגמולי ביטוח כאמור בסעיף ימי עסקים מיום הדרישה, על הדרישה כאמור וכי אם לא יודיע לו המבוטח על 7 בתוך ימים, ישלם המבטח לצד השלישי את תגמולי הביטוח 0 התנגדותו לתשלום הפיצוי בתוך שהוא חייב למבוטח, אם הוא חייב בתשלומם.\n. המבטח רשאי ליטול על עצמו או לנהל בשם המבוטח את ההגנה של כל תביעה והמבוטח ייתן למבטח, לפי בקשתו, עזרה הנחוצה למבטח לצורך יישוב תביעה של צד שלישי."
 }

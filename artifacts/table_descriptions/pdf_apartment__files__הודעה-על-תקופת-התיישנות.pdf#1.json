@@ -3,23 +3,25 @@
   "source": "llm",
   "description": {
     "title": "תקופת התיישנות",
-    "summary": "This table details the statute of limitations for insurance claims. It specifies the timeframes within which a claim must be filed, based on the type of claim and relevant legal codes.",
-    "embed_passage": "בהתאם לחוק חוזה הביטוח התשמ\"א 1981, תקופת ההתיישנות של תביעה לתגמולי ביטוח היא שלוש שנים לאחר קרות מקרה הביטוח. עבור תביעות צד ג' שאינן מקרקעין, התקופה היא שבע שנים לפי חוק ההתיישנות התשי\"ח 1958. חשוב לזכור שתביעה לבית משפט עוצרת את מרוץ ההתיישנות.",
-    "row_axis": "Type of claim / Legal basis",
-    "column_axis": "Statute of limitations period",
+    "summary": "This table details the statute of limitations for insurance claims according to the 1981 Insurance Contract Law. It specifies the timeframes for filing claims, both for the insured and for third-party claims.",
+    "embed_passage": "טבלה זו מתארת את תקופת ההתיישנות לתביעות ביטוח בהתאם לחוק חוזה הביטוח התשמ\"א 1981. ניתן למצוא כאן מידע על תקופת ההתיישנות של תביעות הן של המבוטח והן של צד ג', וכן על השפעת הגשת תביעה לבית משפט. החוקים הרלוונטיים המוזכרים הם סעיף 31, סעיף 70, סעיף 5 לחוק ההתיישנות התשי\"ח 1958. תקופת ההתיישנות לתביעת ביטוח היא שלוש שנים לאחר קרות מקרה הביטוח, ותקופת ההתיישנות לתביעת צד ג' היא שבע שנים בשאינו מקרקעין. סעיף 31, סעיף 70, חוק ההתיישנות 5, 1958 התשי״ח.",
+    "row_axis": "types of claims and relevant legal sections",
+    "column_axis": "statute of limitations details",
     "units": [],
     "notable_values": [
-      "1981: Year of the Insurance Contract Law",
-      "3: Years for standard insurance claim statute of limitations",
-      "7: Years for third-party claim (non-real estate)",
-      "1958: Year of the Limitation Law",
-      "5: Reference to section 5 of the Limitation Law"
+      "Insurance Contract Law: 1981",
+      "Statute of limitations for insurance claim: 3 years",
+      "Statute of limitations for third-party claim: 7 years",
+      "Statute of Limitations Law: 1958",
+      "Section 31: claim statute of limitations",
+      "Section 70: claim statute of limitations",
+      "Section 5: third-party claim statute of limitations"
     ],
     "product_hints": [
       "ביטוח"
     ]
   },
   "sketch": "מבוטח/תובע יקר,\n,1981לחוק חוזה הביטוח התשמ\"א 31 הננו להביא לתשומת לבך, כי לפי הוראות סעיף תקופת ההתיישנות של תביעה לתגמולי ביטוח היא שלוש שנים לאחר שקרה מקרה הביטוח.\n, בביטוח 1981לחוק חוזה הביטוח התשמ\"א 70 )נציין כי בכל מקרה, בהתאם להוראות סעיף אחריות, התביעה לתגמולי ביטוח אינה מתיישנת כל עוד לא התיישנה תביעת הצד השלישי .( נגד המבוטח, באם קיימת כזו\nלחוק ההתיישנות 5 כמו כן, תקופת ההתיישנות של תביעת צד ג', בהתאם להוראות סעיף , ושלא הוגשה עליה תובענה היא - בשאינו מקרקעין - שבע שנים. מניין 1958התשי\"ח תקופת ההתיישנות מתחיל במועד קרות מקרה הביטוח.",
-  "embed_text": "בהתאם לחוק חוזה הביטוח התשמ\"א 1981, תקופת ההתיישנות של תביעה לתגמולי ביטוח היא שלוש שנים לאחר קרות מקרה הביטוח. עבור תביעות צד ג' שאינן מקרקעין, התקופה היא שבע שנים לפי חוק ההתיישנות התשי\"ח 1958. חשוב לזכור שתביעה לבית משפט עוצרת את מרוץ ההתיישנות.",
-  "payload": "טבלה: תקופת התיישנות\nThis table details the statute of limitations for insurance claims. It specifies the timeframes within which a claim must be filed, based on the type of claim and relevant legal codes.\nממדים: Type of claim / Legal basis, Statute of limitations period\n\nמבוטח/תובע יקר,\n,1981לחוק חוזה הביטוח התשמ\"א 31 הננו להביא לתשומת לבך, כי לפי הוראות סעיף תקופת ההתיישנות של תביעה לתגמולי ביטוח היא שלוש שנים לאחר שקרה מקרה הביטוח.\n, בביטוח 1981לחוק חוזה הביטוח התשמ\"א 70 )נציין כי בכל מקרה, בהתאם להוראות סעיף אחריות, התביעה לתגמולי ביטוח אינה מתיישנת כל עוד לא התיישנה תביעת הצד השלישי .( נגד המבוטח, באם קיימת כזו\nלחוק ההתיישנות 5 כמו כן, תקופת ההתיישנות של תביעת צד ג', בהתאם להוראות סעיף , ושלא הוגשה עליה תובענה היא - בשאינו מקרקעין - שבע שנים. מניין 1958התשי\"ח תקופת ההתיישנות מתחיל במועד קרות מקרה הביטוח."
+  "embed_text": "טבלה זו מתארת את תקופת ההתיישנות לתביעות ביטוח בהתאם לחוק חוזה הביטוח התשמ\"א 1981. ניתן למצוא כאן מידע על תקופת ההתיישנות של תביעות הן של המבוטח והן של צד ג', וכן על השפעת הגשת תביעה לבית משפט. החוקים הרלוונטיים המוזכרים הם סעיף 31, סעיף 70, סעיף 5 לחוק ההתיישנות התשי\"ח 1958. תקופת ההתיישנות לתביעת ביטוח היא שלוש שנים לאחר קרות מקרה הביטוח, ותקופת ההתיישנות לתביעת צד ג' היא שבע שנים בשאינו מקרקעין. סעיף 31, סעיף 70, חוק ההתיישנות 5, 1958 התשי״ח. This table details the statute of limitations for insurance claims according to the 1981 Insurance Contract Law. It specifies the timeframes for filing claims, both for the insured and for third-party claims. בין הערכים בטבלה: Statute of limitations for insurance claim: 3 years; Statute of limitations for third-party claim: 7 years; Section 31: cl…",
+  "payload": "טבלה: תקופת התיישנות\nThis table details the statute of limitations for insurance claims according to the 1981 Insurance Contract Law. It specifies the timeframes for filing claims, both for the insured and for third-party claims.\nממדים: types of claims and relevant legal sections, statute of limitations details\n\nמבוטח/תובע יקר,\n,1981לחוק חוזה הביטוח התשמ\"א 31 הננו להביא לתשומת לבך, כי לפי הוראות סעיף תקופת ההתיישנות של תביעה לתגמולי ביטוח היא שלוש שנים לאחר שקרה מקרה הביטוח.\n, בביטוח 1981לחוק חוזה הביטוח התשמ\"א 70 )נציין כי בכל מקרה, בהתאם להוראות סעיף אחריות, התביעה לתגמולי ביטוח אינה מתיישנת כל עוד לא התיישנה תביעת הצד השלישי .( נגד המבוטח, באם קיימת כזו\nלחוק ההתיישנות 5 כמו כן, תקופת ההתיישנות של תביעת צד ג', בהתאם להוראות סעיף , ושלא הוגשה עליה תובענה היא - בשאינו מקרקעין - שבע שנים. מניין 1958התשי\"ח תקופת ההתיישנות מתחיל במועד קרות מקרה הביטוח."
 }

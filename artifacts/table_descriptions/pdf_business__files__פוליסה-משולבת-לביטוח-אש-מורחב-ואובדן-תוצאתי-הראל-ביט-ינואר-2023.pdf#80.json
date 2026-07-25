@@ -2,24 +2,23 @@
   "id": "pdf:business/files/פוליסה-משולבת-לביטוח-אש-מורחב-ואובדן-תוצאתי-הראל-ביט-ינואר-2023.pdf#80",
   "source": "llm",
   "description": {
-    "title": "פוליסת ביטוח אש והרחבות",
-    "summary": "This table details coverage for property damage under a fire insurance policy, including marine insurance and damage caused by public authority orders. It outlines conditions and limitations for various types of losses.",
-    "embed_passage": "פוליסת ביטוח אש של הראל מספקת כיסוי לאובדן או נזק לרכוש המבוטח, כולל רכוש המכוסה בביטוח ימי. במקרה של דחיית כיסוי על פי ביטוח ימי, המבטח אחראי לאובדן או לנזק בתנאי הפוליסה. סכום הביטוח יכול לגדול עד 10% או עד ₪ 20,000,000, אך סך ההגדלות לא יעלה על ₪ 40,000,000.",
-    "row_axis": "types of property damage/coverage clauses",
-    "column_axis": "coverage details, conditions, and limitations",
+    "title": "כיסויים - נזקים",
+    "summary": "This table details covered damages under the insurance policy. It lists different types of loss or damage and the conditions for coverage.",
+    "embed_passage": "טבלה זו מתארת את הכיסויים השונים לנזקים הכלולים בפוליסת הביטוח של הראל. ניתן לעיין בכיסויים השונים, כגון נזק לרכוש המכוסה בביטוח ימי, נזק תוצאתי ונזק למתקנים חשמליים. טבלה זו מסייעת להבין את תנאי הפוליסה ואת סוגי הנזקים המכוסים. נזק לרכוש המכוסה בביטוח ימי, נזק תוצאתי, נזק למתקנים חשמליים, נזק בפקודת רשות ציבורית, הגדלת סכום ביטוח הם חלק מהכיסויים המפורטים.",
+    "row_axis": "סוג נזק",
+    "column_axis": "תנאי הכיסוי",
     "units": [],
     "notable_values": [
-      "20,000,000: maximum increase in insurance amount (₪)",
-      "40,000,000: maximum total increase in insurance amount (₪)",
-      "10%: maximum percentage increase in insurance amount"
+      "ביטוח ימי: סכום עודף מעל סכום הביטוח הכללי",
+      "הגדלת סכום ביטוח: עד ₪ 20,000,000",
+      "הגדלת סכום ביטוח: עד 10%",
+      "הגדלת סכום ביטוח: סך הכל לא יעלה על ₪ 40,000,000"
     ],
     "product_hints": [
-      "ביטוח אש",
-      "הראל ביט",
-      "פוליסה משולבת"
+      "פוליסה משולבת לביטוח אש מורחב ואובדן תוצאתי הראל"
     ]
   },
   "sketch": "נזק לרכוש המכוסה בביטוח ימי .4.3 אובדן או נזק כלשהו לרכוש המבוטח, אשר בעת קרות מקרה הביטוח, הינו מכוסה ובר פיצוי בביטוח ימי שנערך על ידי המבוטח או לטובתו, פרט לסכום עודף כלשהו\nמעל לסכום הביטוח הכללי הנקוב בפוליסה או בפוליסות לביטוח ימי.\nעל אף האמור, היה והכיסוי על פי הביטוח הימי נדחה עקב ביטוח זה, יהיה המבטח אחראי לאובדן או לנזק על פי תנאי פרק זה.",
-  "embed_text": "פוליסת ביטוח אש של הראל מספקת כיסוי לאובדן או נזק לרכוש המבוטח, כולל רכוש המכוסה בביטוח ימי. במקרה של דחיית כיסוי על פי ביטוח ימי, המבטח אחראי לאובדן או לנזק בתנאי הפוליסה. סכום הביטוח יכול לגדול עד 10% או עד ₪ 20,000,000, אך סך ההגדלות לא יעלה על ₪ 40,000,000.",
-  "payload": "טבלה: פוליסת ביטוח אש והרחבות\nThis table details coverage for property damage under a fire insurance policy, including marine insurance and damage caused by public authority orders. It outlines conditions and limitations for various types of losses.\nממדים: types of property damage/coverage clauses, coverage details, conditions, and limitations\n\nנזק לרכוש המכוסה בביטוח ימי .4.3 אובדן או נזק כלשהו לרכוש המבוטח, אשר בעת קרות מקרה הביטוח, הינו מכוסה ובר פיצוי בביטוח ימי שנערך על ידי המבוטח או לטובתו, פרט לסכום עודף כלשהו\nמעל לסכום הביטוח הכללי הנקוב בפוליסה או בפוליסות לביטוח ימי.\nעל אף האמור, היה והכיסוי על פי הביטוח הימי נדחה עקב ביטוח זה, יהיה המבטח אחראי לאובדן או לנזק על פי תנאי פרק זה."
+  "embed_text": "טבלה זו מתארת את הכיסויים השונים לנזקים הכלולים בפוליסת הביטוח של הראל. ניתן לעיין בכיסויים השונים, כגון נזק לרכוש המכוסה בביטוח ימי, נזק תוצאתי ונזק למתקנים חשמליים. טבלה זו מסייעת להבין את תנאי הפוליסה ואת סוגי הנזקים המכוסים. נזק לרכוש המכוסה בביטוח ימי, נזק תוצאתי, נזק למתקנים חשמליים, נזק בפקודת רשות ציבורית, הגדלת סכום ביטוח הם חלק מהכיסויים המפורטים. This table details covered damages under the insurance policy. It lists different types of loss or damage and the conditions for coverage.",
+  "payload": "טבלה: כיסויים - נזקים\nThis table details covered damages under the insurance policy. It lists different types of loss or damage and the conditions for coverage.\nממדים: סוג נזק, תנאי הכיסוי\n\nנזק לרכוש המכוסה בביטוח ימי .4.3 אובדן או נזק כלשהו לרכוש המבוטח, אשר בעת קרות מקרה הביטוח, הינו מכוסה ובר פיצוי בביטוח ימי שנערך על ידי המבוטח או לטובתו, פרט לסכום עודף כלשהו\nמעל לסכום הביטוח הכללי הנקוב בפוליסה או בפוליסות לביטוח ימי.\nעל אף האמור, היה והכיסוי על פי הביטוח הימי נדחה עקב ביטוח זה, יהיה המבטח אחראי לאובדן או לנזק על פי תנאי פרק זה."
 }

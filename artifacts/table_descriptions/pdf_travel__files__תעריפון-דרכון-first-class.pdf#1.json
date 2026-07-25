@@ -3,25 +3,28 @@
   "source": "llm",
   "description": {
     "title": "תעריפון דרכון First Class",
-    "summary": "This table shows the insurance rates for 'דרכון First Class' travel insurance based on the duration of the trip and the age of the insured. You can look up the daily insurance cost for different age groups and trip lengths.",
-    "embed_passage": "ביטוח הנסיעות 'דרכון First Class' מציע כיסוי בסיסי, חבות צד ג׳, איתור וחילוץ. עלות הביטוח משתנה בהתאם לגיל המבוטח ומשך הנסיעה, לדוגמה, עבור גילאי 0-50 ומשך 365 יום, המחיר הוא $2.50 ליום. ניתן לרכוש ביטוח לטווח של 30, 180 או 365 ימים.",
-    "row_axis": "Duration of trip (in days)",
-    "column_axis": "Age range of the insured",
+    "summary": "This table details the daily insurance premium for a 'First Class' travel policy, varying by the duration of coverage and the insured's age. It provides pricing for basic coverage including liability and search/rescue.",
+    "embed_passage": "טבלה זו מציגה את תעריפי ביטוח הנסיעות מסוג 'דרכון First Class', המחושבים לפי מספר ימי הכיסוי וטווח הגילאים של המבוטח. ניתן למצוא כאן את דמי הביטוח היומיים עבור פוליסה בסיסית הכוללת חבות צד ג' ואיתור וחילוץ. המחירים משתנים בהתאם לגיל המבוטח ולתקופת הביטוח, החל מיום אחד ועד 365 יום. טווחי גילאים כוללים 0-50, 51-60, 61-65, 66-70, 71-75, 76-80, 81-85 ו-86-95. דמי הביטוח היומיים נעים בין $2.50 ל-$17.50. כיסוי חבות צד שלישי ניתן ללא עלות נוספת.",
+    "row_axis": "Duration of coverage (in days) and age range of the insured",
+    "column_axis": "Daily insurance premium ($)",
     "units": [
-      "$ / יום"
+      "$"
     ],
     "notable_values": [
-      "Duration: 365 days, Price: $2.50",
-      "Duration: 180 days, Price: $2.80",
-      "Duration: 30 days, Price: $11.60 (age 81-85)",
-      "Age: 86-95, Duration: 30 days, Price: $17.50",
-      "Search & Rescue Coverage: $0.20"
+      "0-50: $2.50",
+      "51-60: $2.80",
+      "61-65: $4.00",
+      "66-70: $5.10",
+      "71-75: $6.55",
+      "76-80: $11.60",
+      "81-85: $11.60",
+      "86-95: $17.50"
     ],
     "product_hints": [
-      "דרכון First Class"
+      "First Class"
     ]
   },
-  "sketch": "לנסיעה ואילך 15פוליסה בסיסית - דמי ביטוח החל מהיום ה\nמרבית תקופה,\"ליום: הביטוח דמי ,' ג צד כלפי חבות בסיס, וחילוץ* איתור חיפוש\",המובטח גיל\nיום 365,$2.50,0-50\nיום 180,$2.80,51-60\n…\nיום 30,$11.60,81-85\nיום 30,$17.50,86-95\nליום וכיסוי חבות צד שלישי ניתן כהטבה ללא עלות. ניתן לבקש להסיר כיסויים אלה. $  0.20 *המחיר כולל כיסוי לאיתור וחילוץ בסך של\nהחברה שומרת לעצמה את הזכות לעדכן מעת לעת את היעדים אליהם לא ניתן לרכוש ביטוח נסיעות לחו\"ל.",
-  "embed_text": "ביטוח הנסיעות 'דרכון First Class' מציע כיסוי בסיסי, חבות צד ג׳, איתור וחילוץ. עלות הביטוח משתנה בהתאם לגיל המבוטח ומשך הנסיעה, לדוגמה, עבור גילאי 0-50 ומשך 365 יום, המחיר הוא $2.50 ליום. ניתן לרכוש ביטוח לטווח של 30, 180 או 365 ימים.",
-  "payload": "טבלה: תעריפון דרכון First Class\nThis table shows the insurance rates for 'דרכון First Class' travel insurance based on the duration of the trip and the age of the insured. You can look up the daily insurance cost for different age groups and trip lengths.\nממדים: Duration of trip (in days), Age range of the insured\n\nלנסיעה ואילך 15פוליסה בסיסית - דמי ביטוח החל מהיום ה\nמרבית תקופה,\"ליום: הביטוח דמי ,' ג צד כלפי חבות בסיס, וחילוץ* איתור חיפוש\",המובטח גיל\nיום 365,$2.50,0-50\nיום 180,$2.80,51-60\nיום 120,$4.00,61-65\nיום 120,$5.10,66-70\nיום 120,$6.55,71-75\nיום 60,$11.60,76-80\nיום 30,$11.60,81-85\nיום 30,$17.50,86-95\nליום וכיסוי חבות צד שלישי ניתן כהטבה ללא עלות. ניתן לבקש להסיר כיסויים אלה. $  0.20 *המחיר כולל כיסוי לאיתור וחילוץ בסך של\nהחברה שומרת לעצמה את הזכות לעדכן מעת לעת את היעדים אליהם לא ניתן לרכוש ביטוח נסיעות לחו\"ל."
+  "sketch": "לנסיעה ואילך 15פוליסה בסיסית - דמי ביטוח החל מהיום ה\nמרבית תקופה,\"ליום: הביטוח דמי ,' ג צד כלפי חבות בסיס, וחילוץ* איתור חיפוש\",המובטח גיל\nיום 365,$2.50,0-50\nיום 180,$2.80,51-60\nיום 120,$4.00,61-65\nיום 120,$5.10,66-70\nיום 120,$6.55,71-75\nיום 60,$11.60,76-80\nיום 30,$11.60,81-85\nיום 30,$17.50,86-95\nליום וכיסוי חבות צד שלישי ניתן כהטבה ללא עלות. ניתן לבקש להסיר כיסויים אלה. $  0.20 *המחיר כולל כיסוי לאיתור וחילוץ בסך של\nהחברה שומרת לעצמה את הזכות לעדכן מעת לעת את היעדים אליהם לא ניתן לרכוש ביטוח נסיעות לחו\"ל.",
+  "embed_text": "טבלה זו מציגה את תעריפי ביטוח הנסיעות מסוג 'דרכון First Class', המחושבים לפי מספר ימי הכיסוי וטווח הגילאים של המבוטח. ניתן למצוא כאן את דמי הביטוח היומיים עבור פוליסה בסיסית הכוללת חבות צד ג' ואיתור וחילוץ. המחירים משתנים בהתאם לגיל המבוטח ולתקופת הביטוח, החל מיום אחד ועד 365 יום. טווחי גילאים כוללים 0-50, 51-60, 61-65, 66-70, 71-75, 76-80, 81-85 ו-86-95. דמי הביטוח היומיים נעים בין $2.50 ל-$17.50. כיסוי חבות צד שלישי ניתן ללא עלות נוספת. This table details the daily insurance premium for a 'First Class' travel policy, varying by the duration of coverage and the insured's age. It provides pricing for basic coverage including liability and search/rescue.",
+  "payload": "טבלה: תעריפון דרכון First Class\nThis table details the daily insurance premium for a 'First Class' travel policy, varying by the duration of coverage and the insured's age. It provides pricing for basic coverage including liability and search/rescue.\nממדים: Duration of coverage (in days) and age range of the insured, Daily insurance premium ($)\n\nלנסיעה ואילך 15פוליסה בסיסית - דמי ביטוח החל מהיום ה\nמרבית תקופה,\"ליום: הביטוח דמי ,' ג צד כלפי חבות בסיס, וחילוץ* איתור חיפוש\",המובטח גיל\nיום 365,$2.50,0-50\nיום 180,$2.80,51-60\nיום 120,$4.00,61-65\nיום 120,$5.10,66-70\nיום 120,$6.55,71-75\nיום 60,$11.60,76-80\nיום 30,$11.60,81-85\nיום 30,$17.50,86-95\nליום וכיסוי חבות צד שלישי ניתן כהטבה ללא עלות. ניתן לבקש להסיר כיסויים אלה. $  0.20 *המחיר כולל כיסוי לאיתור וחילוץ בסך של\nהחברה שומרת לעצמה את הזכות לעדכן מעת לעת את היעדים אליהם לא ניתן לרכוש ביטוח נסיעות לחו\"ל."
 }

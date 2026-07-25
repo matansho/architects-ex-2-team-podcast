@@ -3,23 +3,21 @@
   "source": "llm",
   "description": {
     "title": "מועדי טיפול בתביעה",
-    "summary": "This table details the timeframes for processing claims, specifically regarding the delivery of copies of documents related to a claim. It outlines the number of business days required to receive copies after a request.",
-    "embed_passage": "הראל חברה לביטוח מתחייבת למשלוח העתקים של מסמכים הקשורים לתביעה. לדוגמה, קבלת הבקשה בכתב מענה תוך 14 ימי עסקים, או מסירת העתקים של הפוליסה תוך 21 ימי עסקים. מועדים אלו חלים בהתאם לתקנון.",
-    "row_axis": "Type of request for documentation",
-    "column_axis": "Timeframe for response (business days)",
-    "units": [
-      "ימי עסקים"
-    ],
+    "summary": "This table details the timeframes for responding to a claim. It lists the number of business days allowed for providing copies of documents, either from the policy or upon request.",
+    "embed_passage": "טבלה זו מתארת את מועדי הטיפול בתביעה, ומפרטת את מספר ימי העסקים הנדרשים למענה בכתב או למסירת עותקים של מסמכים. המידע רלוונטי לתביעות בהראל חברה לביטוח, מחלקת תביעות צד ג׳. ניתן לעקוב אחר מועדים אלו בהתאם לבקשת התובע או כפי שמופיע בפוליסה. לדוגמה, קבלת הבקשה עשויה לדרוש עד 14 ימי עסקים למסירת עותקים, או עד 21 ימי עסקים למסמך חתום מהתובע. המידע מבוסס על חוזר 'יישוב תביעות וטיפול בפניות הציבור׳. הראל חברה לביטוח מספקת מענה טלפוני וכתובתי התקשרות.",
+    "row_axis": "סוג בקשה / פעולה",
+    "column_axis": "מספר ימי עסקים",
+    "units": [],
     "notable_values": [
-      "request type: 8",
-      "response time: 14",
-      "response time: 21"
+      "מסירת עותקים: 14 ימי עסקים",
+      "מסירת מסמך חתום: 21 ימי עסקים"
     ],
     "product_hints": [
+      "רכב צד ג'",
       "הראל"
     ]
   },
   "sketch": "ית בכתב מענה,(יד) 8\nהבקשה. קבלת ממועד עסקים ימי 14,או מפוליסה העתקים מסירת מתקנון.,)1() (טו 8\nהבקשה. קבלת ממועד עסקים ימי 21,שעליו מסמך מכל העתקים מסירת התובע. חתם,)3() (טו 8",
-  "embed_text": "הראל חברה לביטוח מתחייבת למשלוח העתקים של מסמכים הקשורים לתביעה. לדוגמה, קבלת הבקשה בכתב מענה תוך 14 ימי עסקים, או מסירת העתקים של הפוליסה תוך 21 ימי עסקים. מועדים אלו חלים בהתאם לתקנון.",
-  "payload": "טבלה: מועדי טיפול בתביעה\nThis table details the timeframes for processing claims, specifically regarding the delivery of copies of documents related to a claim. It outlines the number of business days required to receive copies after a request.\nממדים: Type of request for documentation, Timeframe for response (business days)\n\nית בכתב מענה,(יד) 8\nהבקשה. קבלת ממועד עסקים ימי 14,או מפוליסה העתקים מסירת מתקנון.,)1() (טו 8\nהבקשה. קבלת ממועד עסקים ימי 21,שעליו מסמך מכל העתקים מסירת התובע. חתם,)3() (טו 8"
+  "embed_text": "טבלה זו מתארת את מועדי הטיפול בתביעה, ומפרטת את מספר ימי העסקים הנדרשים למענה בכתב או למסירת עותקים של מסמכים. המידע רלוונטי לתביעות בהראל חברה לביטוח, מחלקת תביעות צד ג׳. ניתן לעקוב אחר מועדים אלו בהתאם לבקשת התובע או כפי שמופיע בפוליסה. לדוגמה, קבלת הבקשה עשויה לדרוש עד 14 ימי עסקים למסירת עותקים, או עד 21 ימי עסקים למסמך חתום מהתובע. המידע מבוסס על חוזר 'יישוב תביעות וטיפול בפניות הציבור׳. הראל חברה לביטוח מספקת מענה טלפוני וכתובתי התקשרות. This table details the timeframes for responding to a claim. It lists the number of business days allowed for providing copies of documents, either from the policy or upon request.",
+  "payload": "טבלה: מועדי טיפול בתביעה\nThis table details the timeframes for responding to a claim. It lists the number of business days allowed for providing copies of documents, either from the policy or upon request.\nממדים: סוג בקשה / פעולה, מספר ימי עסקים\n\nית בכתב מענה,(יד) 8\nהבקשה. קבלת ממועד עסקים ימי 14,או מפוליסה העתקים מסירת מתקנון.,)1() (טו 8\nהבקשה. קבלת ממועד עסקים ימי 21,שעליו מסמך מכל העתקים מסירת התובע. חתם,)3() (טו 8"
 }

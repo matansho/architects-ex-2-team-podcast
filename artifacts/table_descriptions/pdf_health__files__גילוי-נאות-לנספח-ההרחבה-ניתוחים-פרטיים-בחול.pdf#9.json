@@ -3,26 +3,28 @@
   "source": "llm",
   "description": {
     "title": "הרחבה לניתוחים פרטיים בחול",
-    "summary": "This table details coverage amounts for private surgeries performed abroad, including consultation fees, hospitalization, and post-operative care. It outlines the maximum reimbursement amounts for various services.",
-    "embed_passage": "הרחבה לניתוחים פרטיים בחול מציעה כיסוי להוצאות ניתוח מחוץ לישראל, כולל הוצאות הבאת מומחה רפואי עד ₪ 200,000. הכיסוי כולל גם החלמה ושיקום, עם תשלום של עד ₪ 400 ליום למשך 10 ימים לאחר הניתוח, ועד ₪ 650 ליום עבור אחות פרטית. תגמולי הביטוח המרביים מבוססים על מחירי הסכם המתעדכנים באתר החברה.",
+    "summary": "This table details coverage amounts for private surgeries performed abroad, as part of an extension to a health insurance policy. It outlines benefits for consultations, bringing in medical experts, post-operative care, and rehabilitation.",
+    "embed_passage": "טבלה זו מתארת את סכומי הכיסוי עבור ניתוחים פרטיים המתבצעים בחו\"ל, כחלק מהרחבה לפוליסת ביטוח בריאות. היא מפרטת הטבות להתייעצויות, הבאת מומחים רפואיים, טיפול לאחר הניתוח ושיקום. תוכנית מספר 513 מציעה כיסוי עבור הוצאות שונות הקשורות לניתוחים מחוץ לישראל, כגון הוצאות הבאת מומחה עד 200,000 ₪, והוצאות אחות פרטית עד 650 ₪ ליום. ניתן לקבל מידע נוסף באתר החברה או במוקד הראל. הרחבה לניתוחים פרטיים בחול, אשפוז, שיקום רפואי, מעקב רפואי, התייעצויות.",
     "row_axis": "types of medical expenses related to surgery abroad",
-    "column_axis": "coverage details (maximum reimbursement amounts, timeframes)",
+    "column_axis": "coverage details (amount, time limits, conditions)",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "maximum reimbursement for specialist consultation: ₪ 200,000",
-      "daily rate for private nurse: ₪ 650",
-      "post-operative recovery coverage: up to 10 days",
-      "follow-up care coverage: up to 90 days",
-      "rehabilitation treatment coverage: up to 16 treatments"
+      "הוצאות הבאת מומחה: עד ₪ 200,000",
+      "אחות פרטית: עד ₪ 650 ליום",
+      "החלמה: עד ₪ 400 ליום",
+      "מעקב רפואי בחו\"ל: עד ₪ 100,000",
+      "שיקום טיפולי: עד ₪ 250 לטיפול",
+      "אשפוז: כיסוי לימים 7 ומעלה",
+      "תקופת אכשרה: ימים 30",
+      "תקופת מעקב: 90 יום"
     ],
     "product_hints": [
-      "הרחבה לניתוחים פרטיים בחול",
-      "ניתוחים פרטיים בחול"
+      "הרחבה לניתוחים פרטיים בחול"
     ]
   },
   "sketch": ",בקשר התייעצויות שתי - ת לתוכני 3 סעיף או בישראל מומחה רופא עם לניתוח לישראל מחוץ מומחה עם אחת התייעצות,בקשר תייעצות ה לניתוח\n\"₪ 200,000 עד\",מומחה הבאת הוצאות - ת לתוכני 3 סעיף בישראל הניתוח לביצוע לישראל רפואי,רפואי מומחה הבאת לישראל\n\"ממועד ימים 30 תוך ימים, 8 - פרטית אחות ליום. ₪ 650 ועד הניתוח ביצוע חודשים 3 תוך ימים 10 עד - החלמה הוצאות ליום. ₪ 400 של לסך ועד הניתוח, ממועד יום 90 תוך - בחו\"\"ל רפואי מעקב המשך .₪ 100,000 של לסך ועד מהניתוח 90 תוך בישראל שיבוצעו שיקום טיפולי 16 עד לטיפול ₪ 250 של לסך ועד מהניתוח, יום הטיפול. מעלות 20% של עצמית ובהשתתפות\",\"אשפוז של במקרה - ת לתוכני 3.5.6 סעיף הוצאות בגין כיסוי יינתן ימים 7 מעל הוצאות פרטית, אחות בישראל, שיקום רפואי מעקב המשך לישראל, מחוץ שהייה עבור והוצאות הניתוח עקב לישראל מחוץ . החלמה מוסד\",\"נית",
-  "embed_text": "הרחבה לניתוחים פרטיים בחול מציעה כיסוי להוצאות ניתוח מחוץ לישראל, כולל הוצאות הבאת מומחה רפואי עד ₪ 200,000. הכיסוי כולל גם החלמה ושיקום, עם תשלום של עד ₪ 400 ליום למשך 10 ימים לאחר הניתוח, ועד ₪ 650 ליום עבור אחות פרטית. תגמולי הביטוח המרביים מבוססים על מחירי הסכם המתעדכנים באתר החברה.",
-  "payload": "טבלה: הרחבה לניתוחים פרטיים בחול\nThis table details coverage amounts for private surgeries performed abroad, including consultation fees, hospitalization, and post-operative care. It outlines the maximum reimbursement amounts for various services.\nממדים: types of medical expenses related to surgery abroad, coverage details (maximum reimbursement amounts, timeframes)\n\n,בקשר התייעצויות שתי - ת לתוכני 3 סעיף או בישראל מומחה רופא עם לניתוח לישראל מחוץ מומחה עם אחת התייעצות,בקשר תייעצות ה לניתוח\n\"₪ 200,000 עד\",מומחה הבאת הוצאות - ת לתוכני 3 סעיף בישראל הניתוח לביצוע לישראל רפואי,רפואי מומחה הבאת לישראל\n\"ממועד ימים 30 תוך ימים, 8 - פרטית אחות ליום. ₪ 650 ועד הניתוח ביצוע חודשים 3 תוך ימים 10 עד - החלמה הוצאות ליום. ₪ 400 של לסך ועד הניתוח, ממועד יום 90 תוך - בחו\"\"ל רפואי מעקב המשך .₪ 100,000 של לסך ועד מהניתוח 90 תוך בישראל שיבוצעו שיקום טיפולי 16 עד לטיפול ₪ 250 של לסך ועד מהניתוח, יום הטיפול. מעלות 20% של עצמית ובהשתתפות\",\"אשפוז של במקרה - ת לתוכני 3.5.6 סעיף הוצאות בגין כיסוי יינתן ימים 7 מעל הוצאות פרטית, אחות בישראל, שיקום רפואי מעקב המשך לישראל, מחוץ שהייה עבור והוצאות הניתוח עקב לישראל מחוץ . החלמה מוסד\",\"נית"
+  "embed_text": "טבלה זו מתארת את סכומי הכיסוי עבור ניתוחים פרטיים המתבצעים בחו\"ל, כחלק מהרחבה לפוליסת ביטוח בריאות. היא מפרטת הטבות להתייעצויות, הבאת מומחים רפואיים, טיפול לאחר הניתוח ושיקום. תוכנית מספר 513 מציעה כיסוי עבור הוצאות שונות הקשורות לניתוחים מחוץ לישראל, כגון הוצאות הבאת מומחה עד 200,000 ₪, והוצאות אחות פרטית עד 650 ₪ ליום. ניתן לקבל מידע נוסף באתר החברה או במוקד הראל. הרחבה לניתוחים פרטיים בחול, אשפוז, שיקום רפואי, מעקב רפואי, התייעצויות. This table details coverage amounts for private surgeries performed abroad, as part of an extension to a health insurance policy. It outlines benefits for consultations, bringing in medical experts, post-operative care, and rehabilitation. בין הערכים בטבלה: החלמה: עד ₪ 400 ליום; מעקב רפואי בחו\"ל: עד ₪ 100,000; שיקום טיפולי: עד ₪ 250 לטיפול; תקופת אכשרה: ימ…",
+  "payload": "טבלה: הרחבה לניתוחים פרטיים בחול\nThis table details coverage amounts for private surgeries performed abroad, as part of an extension to a health insurance policy. It outlines benefits for consultations, bringing in medical experts, post-operative care, and rehabilitation.\nממדים: types of medical expenses related to surgery abroad, coverage details (amount, time limits, conditions)\n\n,בקשר התייעצויות שתי - ת לתוכני 3 סעיף או בישראל מומחה רופא עם לניתוח לישראל מחוץ מומחה עם אחת התייעצות,בקשר תייעצות ה לניתוח\n\"₪ 200,000 עד\",מומחה הבאת הוצאות - ת לתוכני 3 סעיף בישראל הניתוח לביצוע לישראל רפואי,רפואי מומחה הבאת לישראל\n\"ממועד ימים 30 תוך ימים, 8 - פרטית אחות ליום. ₪ 650 ועד הניתוח ביצוע חודשים 3 תוך ימים 10 עד - החלמה הוצאות ליום. ₪ 400 של לסך ועד הניתוח, ממועד יום 90 תוך - בחו\"\"ל רפואי מעקב המשך .₪ 100,000 של לסך ועד מהניתוח 90 תוך בישראל שיבוצעו שיקום טיפולי 16 עד לטיפול ₪ 250 של לסך ועד מהניתוח, יום הטיפול. מעלות 20% של עצמית ובהשתתפות\",\"אשפוז של במקרה - ת לתוכני 3.5.6 סעיף הוצאות בגין כיסוי יינתן ימים 7 מעל הוצאות פרטית, אחות בישראל, שיקום רפואי מעקב המשך לישראל, מחוץ שהייה עבור והוצאות הניתוח עקב לישראל מחוץ . החלמה מוסד\",\"נית"
 }

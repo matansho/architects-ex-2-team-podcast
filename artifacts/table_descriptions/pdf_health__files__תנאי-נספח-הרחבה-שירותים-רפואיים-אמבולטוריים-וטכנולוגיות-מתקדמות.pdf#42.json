@@ -2,27 +2,28 @@
   "id": "pdf:health/files/תנאי-נספח-הרחבה-שירותים-רפואיים-אמבולטוריים-וטכנולוגיות-מתקדמות.pdf#42",
   "source": "llm",
   "description": {
-    "title": "דמי ביטוח - ייעוץ ובדיקות",
-    "summary": "This table details insurance premiums for consultation and tests, adjusted based on the insured's age. It allows you to look up the cost of insurance based on age.",
-    "embed_passage": "פוליסות הראל מציעות כיסוי לייעוץ ובדיקות רפואיות. דמי הביטוח משתנים בהתאם לגיל המבוטח, כאשר גיל 40 נחשב לבסיס לחישוב. לדוגמה, הסכומים המפורטים בתכנית נקובים בש״ח ויוצמדו למדד, כמו 13396 נקודות בפברואר 2023.",
-    "row_axis": "גיל המבוטח",
-    "column_axis": "דמי ביטוח",
+    "title": "מדדי בסיס",
+    "summary": "This table details base indexes used for insurance calculations, specifically referencing the Consumer Price Index. It shows how amounts detailed in the policy are indexed monthly to the CPI.",
+    "embed_passage": "טבלה זו מתארת מדדי בסיס המשמשים לחישובי ביטוח, תוך התייחסות ספציפית למדד המחירים לצרכן. הסכומים המפורטים בתכנית הפוליסה צמודים למדד זה ומתעדכנים מדי חודש. הראל ביטוח מציעה שירותים רפואיים אמבולטוריים וטכנולוגיות מתקדמות. ניתן למצוא מידע נוסף באתר האינטרנט www.harel-group.co.il או לפנות בדואר אלקטרוני לכתובת polisotbs@harel-ins.co.il. מדד הבסיס הינו המדד שפורסם בפברואר 2023, שערכו 13396.",
+    "row_axis": "מדד",
+    "column_axis": "ערך",
     "units": [
-      "₪"
+      "ש\"ח"
     ],
     "notable_values": [
-      "שנת בסיס: 2023",
-      "מדד בסיס: 13396",
-      "חודש בסיס: פברואר",
+      "מדד: 13396",
+      "תאריך: פברואר 2023",
       "טלפון: 037348178",
-      "כתובת דואר אלקטרוני: polisotbs@harel-ins.co.il"
+      "כתובת דואר אלקטרוני: polisotbs@harel-ins.co.il",
+      "אתר אינטרנט: www.harel-group.co.il"
     ],
     "product_hints": [
       "הראל",
-      "פוליסות הראל"
+      "שירותים רפואיים אמבולטוריים",
+      "טכנולוגיות מתקדמות"
     ]
   },
   "sketch": "ר מדד הבסיס הינו המדד שפורסם ת זו נקובים בש\"ח  ויוצמדו למדד מידי חודש, כאש הסכומים המפורטים בתכני . נקודות 13396 , שערכו 2023 לפברואר 15 ב\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",1951 ת\"\"ד ,3 הלל אבא 5211802 גן רמת\",האינטרנט אתר ת כתוב www.harel-group.co.il",
-  "embed_text": "פוליסות הראל מציעות כיסוי לייעוץ ובדיקות רפואיות. דמי הביטוח משתנים בהתאם לגיל המבוטח, כאשר גיל 40 נחשב לבסיס לחישוב. לדוגמה, הסכומים המפורטים בתכנית נקובים בש״ח ויוצמדו למדד, כמו 13396 נקודות בפברואר 2023.",
-  "payload": "טבלה: דמי ביטוח - ייעוץ ובדיקות\nThis table details insurance premiums for consultation and tests, adjusted based on the insured's age. It allows you to look up the cost of insurance based on age.\nממדים: גיל המבוטח, דמי ביטוח\n\nר מדד הבסיס הינו המדד שפורסם ת זו נקובים בש\"ח  ויוצמדו למדד מידי חודש, כאש הסכומים המפורטים בתכני . נקודות 13396 , שערכו 2023 לפברואר 15 ב\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",1951 ת\"\"ד ,3 הלל אבא 5211802 גן רמת\",האינטרנט אתר ת כתוב www.harel-group.co.il"
+  "embed_text": "טבלה זו מתארת מדדי בסיס המשמשים לחישובי ביטוח, תוך התייחסות ספציפית למדד המחירים לצרכן. הסכומים המפורטים בתכנית הפוליסה צמודים למדד זה ומתעדכנים מדי חודש. הראל ביטוח מציעה שירותים רפואיים אמבולטוריים וטכנולוגיות מתקדמות. ניתן למצוא מידע נוסף באתר האינטרנט www.harel-group.co.il או לפנות בדואר אלקטרוני לכתובת polisotbs@harel-ins.co.il. מדד הבסיס הינו המדד שפורסם בפברואר 2023, שערכו 13396. This table details base indexes used for insurance calculations, specifically referencing the Consumer Price Index. It shows how amounts detailed in the policy are indexed monthly to the CPI. בין הערכים בטבלה: טלפון: 037348178.",
+  "payload": "טבלה: מדדי בסיס\nThis table details base indexes used for insurance calculations, specifically referencing the Consumer Price Index. It shows how amounts detailed in the policy are indexed monthly to the CPI.\nממדים: מדד, ערך\n\nר מדד הבסיס הינו המדד שפורסם ת זו נקובים בש\"ח  ויוצמדו למדד מידי חודש, כאש הסכומים המפורטים בתכני . נקודות 13396 , שערכו 2023 לפברואר 15 ב\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",1951 ת\"\"ד ,3 הלל אבא 5211802 גן רמת\",האינטרנט אתר ת כתוב www.harel-group.co.il"
 }

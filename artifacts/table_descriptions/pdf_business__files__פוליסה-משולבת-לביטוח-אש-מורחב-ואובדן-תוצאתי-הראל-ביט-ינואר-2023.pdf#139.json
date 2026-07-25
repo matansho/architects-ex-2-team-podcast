@@ -2,27 +2,26 @@
   "id": "pdf:business/files/פוליסה-משולבת-לביטוח-אש-מורחב-ואובדן-תוצאתי-הראל-ביט-ינואר-2023.pdf#139",
   "source": "llm",
   "description": {
-    "title": "הרחבות ביטוח",
-    "summary": "This table details extensions to an insurance policy, specifically covering business interruption due to public service disruptions. It outlines coverage limits and self-participation amounts.",
-    "embed_passage": "פוליסת הראל ביטוח מורחבת לכסות הפרעה או הפסקה בעסקו של המבוטח עקב הפסקת חשמל או מים. סעיף זה כפוף להשתתפות עצמית של המבוטח, השווה ל-3 ימי עבודה ראשונים או לסכום ההשתתפות העצמית הנקוב ברשימה. אחריות המבטח מוגבלת עד לסכום של ₪ 20,000,000 או 15% מסכום הביטוח, הנמוך ביניהם.",
-    "row_axis": "types of business interruption coverage extensions",
-    "column_axis": "coverage details (limits, self-participation)",
+    "title": "הרחבות וכיסויים נוספים",
+    "summary": "This table details additional coverages and extensions to an insurance policy, specifically related to business interruption. It outlines the scope of coverage for disruptions caused by various events, and the associated limitations and self-participation amounts.",
+    "embed_passage": "טבלה זו מתארת הרחבות וכיסויים נוספים לפוליסה משולבת לביטוח אש מורחב ואובדן תוצאתי הראל. היא מפרטת את היקף הכיסוי להפרעות הנגרמות כתוצאה מאירועים שונים, תוך ציון מגבלות וסכומי השתתפות עצמית. ניתן לחפש מידע על הרחבות ספציפיות כגון 'הפסקת שירותים ציבוריים' או 'השלמת כל הסיכונים'. סכומי הכיסוי מוגבלים עד ₪ 20,000,000 או 15% מסכום הביטוח, הנמוך מביניהם. ההשתתפות העצמית של המבוטח היא עד 3 ימי עבודה ראשונים.",
+    "row_axis": "types of business interruption coverage",
+    "column_axis": "coverage details (limitations, self-participation)",
     "units": [
-      "₪",
-      "ימי עבודה",
-      "%"
+      "₪"
     ],
     "notable_values": [
-      "limit: ₪ 20,000,000",
-      "percentage limit: 15%",
-      "self-participation: 3 ימי עבודה ראשונים"
+      "הפסקת שירותים ציבוריים: 10.1",
+      "סכום הביטוח: ₪ 20,000,000",
+      "אחוז מסכום הביטוח: 15%",
+      "ימי עבודה ראשונים: 3",
+      "השתתפות עצמית: 3 ימי עבודה ראשונים"
     ],
     "product_hints": [
-      "הראל ביטוח",
-      "פוליסה משולבת לביטוח אש מורחב ואובדן תוצאתי"
+      "פוליסה משולבת לביטוח אש מורחב ואובדן תוצאתי הראל"
     ]
   },
   "sketch": ".  הפסקת שירותים ציבוריים 10.1\nהביטוח על פי פרק זה מורחב לכסות הפרעה או הפסקה במהלך עסקו של המבוטח עקב הפסקה בלתי מתוכננת בהספקת זרם החשמל הציבורי ו/או בהספקת מים , לחצרי המבוטח ו/או בהספקת שרותי תקשורת הניתנים על ידי רשות ציבורית כלשהי ' הנגרמת מאובדן או נזק פיזי לרכוש הרשויות הנ״ל, על ידי סיכון המכוסה בפרק א ״השלמת כל הסיכונים״ 3.20 למעט נזק המכוסה במסגרת הרחבה , של הפוליסה .' מהרחבות פרק א\nאלא אם צוין אחרת ברשימה, אחריותו של המבטח על פי הרחבה זו, מוגבלת , הנמוך ביניהם. ₪  20,000,000מסכום הביטוח או ל 15%עד לסכום השווה ל ימי עבודה ראשונים 3סעיף זה כפוף להשתתפות עצמית של המבוטח, השווה ל , מקרות ההפרעה או ההפסקה או בסכום ההשתתפות העצמית הנקוב ברשימה הגבוה ביניהם.",
-  "embed_text": "פוליסת הראל ביטוח מורחבת לכסות הפרעה או הפסקה בעסקו של המבוטח עקב הפסקת חשמל או מים. סעיף זה כפוף להשתתפות עצמית של המבוטח, השווה ל-3 ימי עבודה ראשונים או לסכום ההשתתפות העצמית הנקוב ברשימה. אחריות המבטח מוגבלת עד לסכום של ₪ 20,000,000 או 15% מסכום הביטוח, הנמוך ביניהם.",
-  "payload": "טבלה: הרחבות ביטוח\nThis table details extensions to an insurance policy, specifically covering business interruption due to public service disruptions. It outlines coverage limits and self-participation amounts.\nממדים: types of business interruption coverage extensions, coverage details (limits, self-participation)\n\n.  הפסקת שירותים ציבוריים 10.1\nהביטוח על פי פרק זה מורחב לכסות הפרעה או הפסקה במהלך עסקו של המבוטח עקב הפסקה בלתי מתוכננת בהספקת זרם החשמל הציבורי ו/או בהספקת מים , לחצרי המבוטח ו/או בהספקת שרותי תקשורת הניתנים על ידי רשות ציבורית כלשהי ' הנגרמת מאובדן או נזק פיזי לרכוש הרשויות הנ״ל, על ידי סיכון המכוסה בפרק א ״השלמת כל הסיכונים״ 3.20 למעט נזק המכוסה במסגרת הרחבה , של הפוליסה .' מהרחבות פרק א\nאלא אם צוין אחרת ברשימה, אחריותו של המבטח על פי הרחבה זו, מוגבלת , הנמוך ביניהם. ₪  20,000,000מסכום הביטוח או ל 15%עד לסכום השווה ל ימי עבודה ראשונים 3סעיף זה כפוף להשתתפות עצמית של המבוטח, השווה ל , מקרות ההפרעה או ההפסקה או בסכום ההשתתפות העצמית הנקוב ברשימה הגבוה ביניהם."
+  "embed_text": "טבלה זו מתארת הרחבות וכיסויים נוספים לפוליסה משולבת לביטוח אש מורחב ואובדן תוצאתי הראל. היא מפרטת את היקף הכיסוי להפרעות הנגרמות כתוצאה מאירועים שונים, תוך ציון מגבלות וסכומי השתתפות עצמית. ניתן לחפש מידע על הרחבות ספציפיות כגון 'הפסקת שירותים ציבוריים' או 'השלמת כל הסיכונים'. סכומי הכיסוי מוגבלים עד ₪ 20,000,000 או 15% מסכום הביטוח, הנמוך מביניהם. ההשתתפות העצמית של המבוטח היא עד 3 ימי עבודה ראשונים. This table details additional coverages and extensions to an insurance policy, specifically related to business interruption. It outlines the scope of coverage for disruptions caused by various events, and the associated limitations and self-participation amounts.",
+  "payload": "טבלה: הרחבות וכיסויים נוספים\nThis table details additional coverages and extensions to an insurance policy, specifically related to business interruption. It outlines the scope of coverage for disruptions caused by various events, and the associated limitations and self-participation amounts.\nממדים: types of business interruption coverage, coverage details (limitations, self-participation)\n\n.  הפסקת שירותים ציבוריים 10.1\nהביטוח על פי פרק זה מורחב לכסות הפרעה או הפסקה במהלך עסקו של המבוטח עקב הפסקה בלתי מתוכננת בהספקת זרם החשמל הציבורי ו/או בהספקת מים , לחצרי המבוטח ו/או בהספקת שרותי תקשורת הניתנים על ידי רשות ציבורית כלשהי ' הנגרמת מאובדן או נזק פיזי לרכוש הרשויות הנ״ל, על ידי סיכון המכוסה בפרק א ״השלמת כל הסיכונים״ 3.20 למעט נזק המכוסה במסגרת הרחבה , של הפוליסה .' מהרחבות פרק א\nאלא אם צוין אחרת ברשימה, אחריותו של המבטח על פי הרחבה זו, מוגבלת , הנמוך ביניהם. ₪  20,000,000מסכום הביטוח או ל 15%עד לסכום השווה ל ימי עבודה ראשונים 3סעיף זה כפוף להשתתפות עצמית של המבוטח, השווה ל , מקרות ההפרעה או ההפסקה או בסכום ההשתתפות העצמית הנקוב ברשימה הגבוה ביניהם."
 }

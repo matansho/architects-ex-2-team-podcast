@@ -3,21 +3,21 @@
   "source": "llm",
   "description": {
     "title": "תנאי פוליסת ביטוח אחריות זיהום",
-    "summary": "This table outlines conditions related to a Pollution Liability Insurance policy. It details requirements for reporting claims, handling settlements, and managing expenses.",
-    "embed_passage": "פוליסת ביטוח אחריות זיהום מגדירה תנאים ברורים לגבי דיווח על תביעות וסכומים. יש לדווח על כל 'תביעה' או 'תביעה פוטנציאלית' בכתב תוך 96 שעות. הפוליסה מגבילה תשלומים או הודאות לגבי אחריות ללא אישור מראש.",
-    "row_axis": "Policy conditions / requirements",
-    "column_axis": "Details of the condition (e.g., reporting timelines, consent requirements)",
+    "summary": "This table outlines conditions related to voluntary payments, admissions of liability, and emergency expenses under a pollution liability insurance policy. It details requirements for consent and notification regarding costs and claims.",
+    "embed_passage": "טבלה זו מתארת תנאים הקשורים לתשלומים מרצון, הודאות באחריות והוצאות חירום במסגרת פוליסת ביטוח אחריות זיהום. הפוליסה דורשת קבלת הסכמה מראש להוצאות או תשלומים, ומגדירה חובת דיווח תוך 96 שעות במקרה של הוצאות חירום. הפוליסה עוסקת בהוצאות חירום, עלויות ניקיון, הפסדים ואחריות. ניתן למצוא מידע על 'emergency expense', 'cleanup costs', 'loss', ו'other loss' בטבלה זו. פוליסת ביטוח אחריות זיהום זו דורשת דיווח בכתב על כל 'discovery', 'claims' ו'potential claims'.",
+    "row_axis": "Conditions related to payments, admissions, and expenses",
+    "column_axis": "Details of the conditions (consent requirements, notification timelines)",
     "units": [],
     "notable_values": [
-      "reporting timeframe: 96 hours",
-      "consent required for settlements",
-      "consent required for incurring costs"
+      "emergency expense: reasonably necessary",
+      "notification timeline: 96 hours",
+      "consent: not unreasonably withheld"
     ],
     "product_hints": [
       "ביטוח אחריות זיהום"
     ]
   },
   "sketch": "E.  VOLUNTARY PAYMENTS, ADMISSIONS OR ASSUMPTIONS OF LIABILITY\nNo  costs,  charges  or  expenses  shall  be  incurred  or  paid  or  liability  admitted  or assumed  by  an  'insured'  without  our  written  consent,  which  shall  not  be unreasonably withheld, delayed or denied.\nNotwithstanding  the foregoing, an 'insured'  may  incur  such  'emergency expense' as reasonably necessary to prevent or mitigate \"cleanup costs', 'loss', or \"other loss\", provided the 'insured' provides written notice to us within ninetysix (96) hours after any portion of such \"emergency expense\" is incurred.",
-  "embed_text": "פוליסת ביטוח אחריות זיהום מגדירה תנאים ברורים לגבי דיווח על תביעות וסכומים. יש לדווח על כל 'תביעה' או 'תביעה פוטנציאלית' בכתב תוך 96 שעות. הפוליסה מגבילה תשלומים או הודאות לגבי אחריות ללא אישור מראש.",
-  "payload": "טבלה: תנאי פוליסת ביטוח אחריות זיהום\nThis table outlines conditions related to a Pollution Liability Insurance policy. It details requirements for reporting claims, handling settlements, and managing expenses.\nממדים: Policy conditions / requirements, Details of the condition (e.g., reporting timelines, consent requirements)\n\nE.  VOLUNTARY PAYMENTS, ADMISSIONS OR ASSUMPTIONS OF LIABILITY\nNo  costs,  charges  or  expenses  shall  be  incurred  or  paid  or  liability  admitted  or assumed  by  an  'insured'  without  our  written  consent,  which  shall  not  be unreasonably withheld, delayed or denied.\nNotwithstanding  the foregoing, an 'insured'  may  incur  such  'emergency expense' as reasonably necessary to prevent or mitigate \"cleanup costs', 'loss', or \"other loss\", provided the 'insured' provides written notice to us within ninetysix (96) hours after any portion of such \"emergency expense\" is incurred."
+  "embed_text": "טבלה זו מתארת תנאים הקשורים לתשלומים מרצון, הודאות באחריות והוצאות חירום במסגרת פוליסת ביטוח אחריות זיהום. הפוליסה דורשת קבלת הסכמה מראש להוצאות או תשלומים, ומגדירה חובת דיווח תוך 96 שעות במקרה של הוצאות חירום. הפוליסה עוסקת בהוצאות חירום, עלויות ניקיון, הפסדים ואחריות. ניתן למצוא מידע על 'emergency expense', 'cleanup costs', 'loss', ו'other loss' בטבלה זו. פוליסת ביטוח אחריות זיהום זו דורשת דיווח בכתב על כל 'discovery', 'claims' ו'potential claims'. This table outlines conditions related to voluntary payments, admissions of liability, and emergency expenses under a pollution liability insurance policy. It details requirements for consent and notification regarding costs and claims. בין הערכים בטבלה: notification timeline: 96 hours; consent: not unreasonably withheld.",
+  "payload": "טבלה: תנאי פוליסת ביטוח אחריות זיהום\nThis table outlines conditions related to voluntary payments, admissions of liability, and emergency expenses under a pollution liability insurance policy. It details requirements for consent and notification regarding costs and claims.\nממדים: Conditions related to payments, admissions, and expenses, Details of the conditions (consent requirements, notification timelines)\n\nE.  VOLUNTARY PAYMENTS, ADMISSIONS OR ASSUMPTIONS OF LIABILITY\nNo  costs,  charges  or  expenses  shall  be  incurred  or  paid  or  liability  admitted  or assumed  by  an  'insured'  without  our  written  consent,  which  shall  not  be unreasonably withheld, delayed or denied.\nNotwithstanding  the foregoing, an 'insured'  may  incur  such  'emergency expense' as reasonably necessary to prevent or mitigate \"cleanup costs', 'loss', or \"other loss\", provided the 'insured' provides written notice to us within ninetysix (96) hours after any portion of such \"emergency expense\" is incurred."
 }

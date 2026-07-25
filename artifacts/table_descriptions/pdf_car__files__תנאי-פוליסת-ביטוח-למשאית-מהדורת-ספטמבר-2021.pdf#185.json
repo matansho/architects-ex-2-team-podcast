@@ -3,25 +3,27 @@
   "source": "llm",
   "description": {
     "title": "כתב שירות למשאית",
-    "summary": "This table defines the terms of a roadside assistance service (כתב שירות) for trucks. It specifies eligible vehicle types and defines 'working days' for service availability.",
-    "embed_passage": "כתב שירות למשאית מספק שירותי דרך וגרירה למשאיות, רכבי משא, וגוררים תומכים במשקל של עד 34 טון. ימי עבודה מוגדרים כימי העבודה המקובלים בישראל, לא כולל חגים ושבתות. השירות מיועד לרכבים שהובאו על ידי סוכנות מורשה בישראל.",
-    "row_axis": "definitions of service terms",
-    "column_axis": "term name, description",
+    "summary": "This table defines the vehicle types and workdays covered by a roadside assistance service for trucks. It specifies criteria for eligible vehicles and clarifies what constitutes a 'workday' for service provision.",
+    "embed_passage": "טבלה זו מתארת את כתב השירות למשאית, ומגדירה אילו סוגי כלי רכב זכאים לשירות ואילו ימים נחשבים לימי עבודה. ניתן לחפש מידע על סוגי כלי הרכב המכוסים, כגון משאית או גורר תומך, וכן להבין את ההגדרות של ימי עבודה לצורך קבלת השירות. כתב השירות רלוונטי למשאית, משא אחוד, משאית, גורר תומך, אשר יובא ע״י סוכנות מורשה בישראל. גובה ואורך כללי לא חורג טון 34, ומשקל לא עולה על טון 34. ימי עבודה אינם כוללים חגים, ערבי חג, שבתות וחול המועד.",
+    "row_axis": "criteria for service eligibility",
+    "column_axis": "definition",
     "units": [],
     "notable_values": [
-      "vehicle type: רכב משא",
-      "vehicle weight limit: 34 טון",
-      "import restriction: ייבוא מיוחד",
-      "working days: לא כולל חגים",
-      "vehicle height/length: גובה ואורכו הכללי"
+      "כלי רכב: רכב משא",
+      "כלי רכב: משא אחוד",
+      "כלי רכב: משאית",
+      "כלי רכב: גורר תומך",
+      "גובה ואורך כללי: טון 34",
+      "משקל: טון 34",
+      "ימי עבודה: לא כולל חגים",
+      "ימי עבודה: לא כולל ערבי חג"
     ],
     "product_hints": [
       "כתב שירות",
-      "שירותי דרך",
-      "גרירה"
+      "שירותי דרך וגריר טון 34"
     ]
   },
   "sketch": "\"כלי רכב\" - רכב משא, משא אחוד, משאית, גורר תומך, כמוגדר ברישיון הרכב, אשר יובא ע\"י סוכנות מורשה בישראל ושלא מיובא ב-\"ייבוא מיוחד\" ושגובהו ואורכו הכללי אינו חורג טון. 34 מהרשום ברישיון הרכב ואשר ומשקלו אינו עולה על\n\"ימי עבודה\" - ימי העבודה המקובלים בישראל, לא כולל חגים, ערבי חג, שבתות וחול המועד.",
-  "embed_text": "כתב שירות למשאית מספק שירותי דרך וגרירה למשאיות, רכבי משא, וגוררים תומכים במשקל של עד 34 טון. ימי עבודה מוגדרים כימי העבודה המקובלים בישראל, לא כולל חגים ושבתות. השירות מיועד לרכבים שהובאו על ידי סוכנות מורשה בישראל.",
-  "payload": "טבלה: כתב שירות למשאית\nThis table defines the terms of a roadside assistance service (כתב שירות) for trucks. It specifies eligible vehicle types and defines 'working days' for service availability.\nממדים: definitions of service terms, term name, description\n\n\"כלי רכב\" - רכב משא, משא אחוד, משאית, גורר תומך, כמוגדר ברישיון הרכב, אשר יובא ע\"י סוכנות מורשה בישראל ושלא מיובא ב-\"ייבוא מיוחד\" ושגובהו ואורכו הכללי אינו חורג טון. 34 מהרשום ברישיון הרכב ואשר ומשקלו אינו עולה על\n\"ימי עבודה\" - ימי העבודה המקובלים בישראל, לא כולל חגים, ערבי חג, שבתות וחול המועד."
+  "embed_text": "טבלה זו מתארת את כתב השירות למשאית, ומגדירה אילו סוגי כלי רכב זכאים לשירות ואילו ימים נחשבים לימי עבודה. ניתן לחפש מידע על סוגי כלי הרכב המכוסים, כגון משאית או גורר תומך, וכן להבין את ההגדרות של ימי עבודה לצורך קבלת השירות. כתב השירות רלוונטי למשאית, משא אחוד, משאית, גורר תומך, אשר יובא ע״י סוכנות מורשה בישראל. גובה ואורך כללי לא חורג טון 34, ומשקל לא עולה על טון 34. ימי עבודה אינם כוללים חגים, ערבי חג, שבתות וחול המועד. This table defines the vehicle types and workdays covered by a roadside assistance service for trucks. It specifies criteria for eligible vehicles and clarifies what constitutes a 'workday' for service provision.",
+  "payload": "טבלה: כתב שירות למשאית\nThis table defines the vehicle types and workdays covered by a roadside assistance service for trucks. It specifies criteria for eligible vehicles and clarifies what constitutes a 'workday' for service provision.\nממדים: criteria for service eligibility, definition\n\n\"כלי רכב\" - רכב משא, משא אחוד, משאית, גורר תומך, כמוגדר ברישיון הרכב, אשר יובא ע\"י סוכנות מורשה בישראל ושלא מיובא ב-\"ייבוא מיוחד\" ושגובהו ואורכו הכללי אינו חורג טון. 34 מהרשום ברישיון הרכב ואשר ומשקלו אינו עולה על\n\"ימי עבודה\" - ימי העבודה המקובלים בישראל, לא כולל חגים, ערבי חג, שבתות וחול המועד."
 }

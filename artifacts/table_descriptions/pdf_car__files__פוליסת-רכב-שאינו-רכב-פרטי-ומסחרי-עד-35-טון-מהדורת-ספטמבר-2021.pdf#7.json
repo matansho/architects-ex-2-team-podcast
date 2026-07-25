@@ -3,23 +3,21 @@
   "source": "llm",
   "description": {
     "title": "פרשנות וחבות",
-    "summary": "This table defines terms and outlines the insurer's liability according to the car insurance policy. It details conditions for coverage and potential self-participation amounts.",
-    "embed_passage": "פוליסת ביטוח חובה לרכב מנועי מגדירה את חבות המבטח לפי הוראות סעיף 3, בכפוף לתנאי הפוליסה. מונח שלא הוגדר יפורש לפי חוק הפיצויים או פקודת הביטוח, במועד קרות מקרה הביטוח. לדוגמה, חבות המבטח כוללת כל חבות שהמבוטח עשוי לחוב לפי חוק הפיצויים.",
-    "row_axis": "clause number/definition",
-    "column_axis": "description/liability",
+    "summary": "This table defines terms and outlines the insurer's liability according to the policy. It is used to understand the scope of coverage and conditions related to claims.",
+    "embed_passage": "טבלה זו עוסקת בפרשנות מונחים וחבות המבטח בפוליסת ביטוח רכב, בהתאם לחוק הפיצויים ופקודת הביטוח. ניתן להיעזר בה כדי להבין את תנאי הפוליסה ואת היקף הכיסוי במקרה של תביעה. המונחים העיקריים המופיעים כאן הם 'חבות המבטח' ו'השתתפות עצמית', וכן התייחסות לחוק הפיצויים ופקודת ביטוח רכב מנועי. פוליסת ביטוח רכב שאינו רכב פרטי ומסחרי עד 35 טון, מהדורת ספטמבר 2021 מציעה כיסוי בהתאם לתנאים המפורטים.",
+    "row_axis": "סעיף",
+    "column_axis": "תיאור",
     "units": [],
     "notable_values": [
-      "clause 1: definition of terms",
-      "clause 2: interpretation",
-      "clause 3: insurer's liability",
-      "clause 4: self-participation"
+      "מונח שלא הוגדר: חוק הפיצויים",
+      "חבות המבטח: לפי הוראות סעיף 3",
+      "השתתפות עצמית: נכות דמי השתתפות עצמית לנהג"
     ],
     "product_hints": [
-      "פוליסת רכב",
-      "ביטוח חובה"
+      "פוליסת רכב שאינו רכב פרטי ומסחרי עד 35 טון"
     ]
   },
   "sketch": "-.  פרשנות 2\nיפורש כמשמעותו, במועד קרות מקרה הביטוח, בחוק הפיצויים או 1 מונח שלא הוגדר בסעיף בפקודת הביטוח, לפי העניין.\n-.  חבות המבטח 3\nלפקודת הביטוח, לאמור: 3 בכפוף לתנאי פוליסה זו, מבטח יחוב לפי הוראות סעיף",
-  "embed_text": "פוליסת ביטוח חובה לרכב מנועי מגדירה את חבות המבטח לפי הוראות סעיף 3, בכפוף לתנאי הפוליסה. מונח שלא הוגדר יפורש לפי חוק הפיצויים או פקודת הביטוח, במועד קרות מקרה הביטוח. לדוגמה, חבות המבטח כוללת כל חבות שהמבוטח עשוי לחוב לפי חוק הפיצויים.",
-  "payload": "טבלה: פרשנות וחבות\nThis table defines terms and outlines the insurer's liability according to the car insurance policy. It details conditions for coverage and potential self-participation amounts.\nממדים: clause number/definition, description/liability\n\n-.  פרשנות 2\nיפורש כמשמעותו, במועד קרות מקרה הביטוח, בחוק הפיצויים או 1 מונח שלא הוגדר בסעיף בפקודת הביטוח, לפי העניין.\n-.  חבות המבטח 3\nלפקודת הביטוח, לאמור: 3 בכפוף לתנאי פוליסה זו, מבטח יחוב לפי הוראות סעיף"
+  "embed_text": "טבלה זו עוסקת בפרשנות מונחים וחבות המבטח בפוליסת ביטוח רכב, בהתאם לחוק הפיצויים ופקודת הביטוח. ניתן להיעזר בה כדי להבין את תנאי הפוליסה ואת היקף הכיסוי במקרה של תביעה. המונחים העיקריים המופיעים כאן הם 'חבות המבטח' ו'השתתפות עצמית', וכן התייחסות לחוק הפיצויים ופקודת ביטוח רכב מנועי. פוליסת ביטוח רכב שאינו רכב פרטי ומסחרי עד 35 טון, מהדורת ספטמבר 2021 מציעה כיסוי בהתאם לתנאים המפורטים. This table defines terms and outlines the insurer's liability according to the policy. It is used to understand the scope of coverage and conditions related to claims.",
+  "payload": "טבלה: פרשנות וחבות\nThis table defines terms and outlines the insurer's liability according to the policy. It is used to understand the scope of coverage and conditions related to claims.\nממדים: סעיף, תיאור\n\n-.  פרשנות 2\nיפורש כמשמעותו, במועד קרות מקרה הביטוח, בחוק הפיצויים או 1 מונח שלא הוגדר בסעיף בפקודת הביטוח, לפי העניין.\n-.  חבות המבטח 3\nלפקודת הביטוח, לאמור: 3 בכפוף לתנאי פוליסה זו, מבטח יחוב לפי הוראות סעיף"
 }

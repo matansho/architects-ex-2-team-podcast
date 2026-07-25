@@ -3,23 +3,22 @@
   "source": "llm",
   "description": {
     "title": "הרשאה לחיוב חשבון",
-    "summary": "This table is a direct debit authorization form. It allows a customer to authorize a beneficiary to charge their bank account, potentially with limits on amount or expiry date.",
-    "embed_passage": "טופס הרשאה לחיוב חשבון מאפשר למוטב לגבות סכומים מחשבון הבנק של הלקוח. ניתן להגביל את החיובים בסכום מסוים או לתאריך פקיעה. לדוגמה, תקרת סכום החיוב יכולה להיות ₪7 או ₪5.",
-    "row_axis": "Customer providing authorization",
-    "column_axis": "Authorization details (e.g., bank, account number, limits)",
-    "units": [
-      "₪"
-    ],
+    "summary": "This table outlines the terms for a direct debit authorization. It allows customers to authorize charges to their bank account by a beneficiary, with options for setting limits and expiration dates.",
+    "embed_passage": "טופס זה מתייחס להרשאה לחיוב חשבון בנק, המאפשרת למוטב לגבות סכומים מחשבון הלקוח. ניתן לבחור בהרשאה כללית ללא הגבלות, או להגדיר תקרת סכום חיוב ו/או מועד פקיעת תוקף. חשוב לציין כי חיובים שאינם עומדים בהגבלות שנקבעו על ידי הלקוח יוחזרו על ידי הבנק. טופס הרשאה לחיוב חשבון, סוג חשבון, קוד מוסד, קוד מסלקה, מס' חשבון בנק, תקרת סכום חיוב, מועד פקיעת תוקף ההרשאה.",
+    "row_axis": "לקוח המבקש להקים הרשאה לחיוב חשבון",
+    "column_axis": "פרטי הרשאה לחיוב חשבון",
+    "units": [],
     "notable_values": [
-      "סכום: 5",
-      "סכום: 7",
-      "קוד מוסד: 0"
+      "קוד המוסד: 5",
+      "קוד מסלקה: 0",
+      "סוג חשבון: 7",
+      "הרשאה כללית: שאינה כוללת הגבלות"
     ],
     "product_hints": [
       "הרשאה לחיוב חשבון"
     ]
   },
   "sketch": "לתשומת לבך,\nאי סימון אחת מהחלופות המוצגות לעיל, משמעה בחירה בהרשאה כללית, שאינה כוללת הגבלות.\nאם יישלחו על ידי המוטב חיובים שאינם עומדים בהגבלות שקבע הלקוח, הם יוחזרו על ידי הבנק, על כל המשמעויות הכרוכות בכך.\n. אני/ו הח\"מ:                                                                                                                                                                                     )הלקוחות(",
-  "embed_text": "טופס הרשאה לחיוב חשבון מאפשר למוטב לגבות סכומים מחשבון הבנק של הלקוח. ניתן להגביל את החיובים בסכום מסוים או לתאריך פקיעה. לדוגמה, תקרת סכום החיוב יכולה להיות ₪7 או ₪5.",
-  "payload": "טבלה: הרשאה לחיוב חשבון\nThis table is a direct debit authorization form. It allows a customer to authorize a beneficiary to charge their bank account, potentially with limits on amount or expiry date.\nממדים: Customer providing authorization, Authorization details (e.g., bank, account number, limits)\n\nלתשומת לבך,\nאי סימון אחת מהחלופות המוצגות לעיל, משמעה בחירה בהרשאה כללית, שאינה כוללת הגבלות.\nאם יישלחו על ידי המוטב חיובים שאינם עומדים בהגבלות שקבע הלקוח, הם יוחזרו על ידי הבנק, על כל המשמעויות הכרוכות בכך.\n. אני/ו הח\"מ:                                                                                                                                                                                     )הלקוחות("
+  "embed_text": "טופס זה מתייחס להרשאה לחיוב חשבון בנק, המאפשרת למוטב לגבות סכומים מחשבון הלקוח. ניתן לבחור בהרשאה כללית ללא הגבלות, או להגדיר תקרת סכום חיוב ו/או מועד פקיעת תוקף. חשוב לציין כי חיובים שאינם עומדים בהגבלות שנקבעו על ידי הלקוח יוחזרו על ידי הבנק. טופס הרשאה לחיוב חשבון, סוג חשבון, קוד מוסד, קוד מסלקה, מס' חשבון בנק, תקרת סכום חיוב, מועד פקיעת תוקף ההרשאה. This table outlines the terms for a direct debit authorization. It allows customers to authorize charges to their bank account by a beneficiary, with options for setting limits and expiration dates. בין הערכים בטבלה: קוד המוסד: 5.",
+  "payload": "טבלה: הרשאה לחיוב חשבון\nThis table outlines the terms for a direct debit authorization. It allows customers to authorize charges to their bank account by a beneficiary, with options for setting limits and expiration dates.\nממדים: לקוח המבקש להקים הרשאה לחיוב חשבון, פרטי הרשאה לחיוב חשבון\n\nלתשומת לבך,\nאי סימון אחת מהחלופות המוצגות לעיל, משמעה בחירה בהרשאה כללית, שאינה כוללת הגבלות.\nאם יישלחו על ידי המוטב חיובים שאינם עומדים בהגבלות שקבע הלקוח, הם יוחזרו על ידי הבנק, על כל המשמעויות הכרוכות בכך.\n. אני/ו הח\"מ:                                                                                                                                                                                     )הלקוחות("
 }

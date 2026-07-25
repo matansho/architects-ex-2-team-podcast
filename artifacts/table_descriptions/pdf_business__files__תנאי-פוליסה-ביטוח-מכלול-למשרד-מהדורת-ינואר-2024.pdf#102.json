@@ -3,21 +3,21 @@
   "source": "llm",
   "description": {
     "title": "אמצעי להקלת סיכון",
-    "summary": "This table details risk mitigation measures related to electronic equipment insurance under the מכלול policy. It outlines conditions for coverage in case of internal loss or damage.",
-    "embed_passage": "פוליסת מכלול ביטוח ציוד אלקטרוני דורשת הסכם תחזוקה בר תוקף עם חברת מחשבים או הקפדה על תחזוקה נאותה לפי הוראות היצרן. אמצעים אלו מקלים על סיכונים פנימיים לרכוש המבוטח. לדוגמה, אם קיים הסכם תחזוקה, המבטח מכיר בכך כאמצעי להקלת סיכון.",
-    "row_axis": "Risk mitigation measures",
-    "column_axis": "Conditions for coverage",
+    "summary": "This table details risk mitigation measures related to electronic equipment insurance. It specifies the conditions under which the insurer considers risk mitigation to be in place.",
+    "embed_passage": "טבלה זו מתארת אמצעי להקלת סיכון הקשורים לביטוח ציוד אלקטרוני. ניתן להשתמש בטבלה זו כדי לבדוק האם קיימים הסכמים או הקפדה על תחזוקה נאותה של הציוד המבוטח. אמצעי להקלת סיכון כוללים הסכם תחזוקה בר תוקף עם חברת תחזוקת מחשבים או הקפדה על תחזוקה נאותה בהתאם להוראות היצרן. מכלול ביטוח מציע כיסוי לציוד אלקטרוני, וחשוב להבין את תנאי הפוליסה. הסכם תחזוקה, תחזוקת מחשבים, הוראות יצרן הם מושגים מרכזיים בטבלה זו.",
+    "row_axis": "Risk mitigation measure",
+    "column_axis": "Condition for risk mitigation",
     "units": [],
     "notable_values": [
-      "אבדן או נזק פנימי: הסכם תחזוקה",
-      "תחזוקה נאותה: הוראות היצרן"
+      "אבדן או נזק פנימי: הסכם תחזוקה בר תוקף",
+      "אבדן או נזק פנימי: תחזוקה נאותה לפי הוראות היצרן"
     ],
     "product_hints": [
-      "מכלול",
-      "ביטוח ציוד אלקטרוני"
+      "מכלול ביטוח",
+      "ציוד אלקטרוני"
     ]
   },
   "sketch": ".3.6.6.3.4 אמצעים להקלת סיכון\n, אמצעי להקלת סיכון המבטח לעניין פרק זה ככל שמדובר באבדן או נזק פנימי שייגרם לרכוש המבוטח על פי כיסוי זה, הינו כי למבוטח קיים הסכם\n/ תחזוקה בר תוקף עם חברת תחזוקת מחשבים ציוד אלקטרוני, או לחילופין, כי המבוטח מקפיד על תחזוקה נאותה של הרכוש המבוטח בהתאם להוראות היצרן.",
-  "embed_text": "פוליסת מכלול ביטוח ציוד אלקטרוני דורשת הסכם תחזוקה בר תוקף עם חברת מחשבים או הקפדה על תחזוקה נאותה לפי הוראות היצרן. אמצעים אלו מקלים על סיכונים פנימיים לרכוש המבוטח. לדוגמה, אם קיים הסכם תחזוקה, המבטח מכיר בכך כאמצעי להקלת סיכון.",
-  "payload": "טבלה: אמצעי להקלת סיכון\nThis table details risk mitigation measures related to electronic equipment insurance under the מכלול policy. It outlines conditions for coverage in case of internal loss or damage.\nממדים: Risk mitigation measures, Conditions for coverage\n\n.3.6.6.3.4 אמצעים להקלת סיכון\n, אמצעי להקלת סיכון המבטח לעניין פרק זה ככל שמדובר באבדן או נזק פנימי שייגרם לרכוש המבוטח על פי כיסוי זה, הינו כי למבוטח קיים הסכם\n/ תחזוקה בר תוקף עם חברת תחזוקת מחשבים ציוד אלקטרוני, או לחילופין, כי המבוטח מקפיד על תחזוקה נאותה של הרכוש המבוטח בהתאם להוראות היצרן."
+  "embed_text": "טבלה זו מתארת אמצעי להקלת סיכון הקשורים לביטוח ציוד אלקטרוני. ניתן להשתמש בטבלה זו כדי לבדוק האם קיימים הסכמים או הקפדה על תחזוקה נאותה של הציוד המבוטח. אמצעי להקלת סיכון כוללים הסכם תחזוקה בר תוקף עם חברת תחזוקת מחשבים או הקפדה על תחזוקה נאותה בהתאם להוראות היצרן. מכלול ביטוח מציע כיסוי לציוד אלקטרוני, וחשוב להבין את תנאי הפוליסה. הסכם תחזוקה, תחזוקת מחשבים, הוראות יצרן הם מושגים מרכזיים בטבלה זו. This table details risk mitigation measures related to electronic equipment insurance. It specifies the conditions under which the insurer considers risk mitigation to be in place. בין הערכים בטבלה: אבדן או נזק פנימי: תחזוקה נאותה לפי הוראות היצרן.",
+  "payload": "טבלה: אמצעי להקלת סיכון\nThis table details risk mitigation measures related to electronic equipment insurance. It specifies the conditions under which the insurer considers risk mitigation to be in place.\nממדים: Risk mitigation measure, Condition for risk mitigation\n\n.3.6.6.3.4 אמצעים להקלת סיכון\n, אמצעי להקלת סיכון המבטח לעניין פרק זה ככל שמדובר באבדן או נזק פנימי שייגרם לרכוש המבוטח על פי כיסוי זה, הינו כי למבוטח קיים הסכם\n/ תחזוקה בר תוקף עם חברת תחזוקת מחשבים ציוד אלקטרוני, או לחילופין, כי המבוטח מקפיד על תחזוקה נאותה של הרכוש המבוטח בהתאם להוראות היצרן."
 }

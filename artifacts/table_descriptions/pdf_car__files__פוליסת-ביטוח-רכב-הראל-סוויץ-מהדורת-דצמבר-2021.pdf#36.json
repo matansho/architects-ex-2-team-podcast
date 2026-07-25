@@ -3,27 +3,23 @@
   "source": "llm",
   "description": {
     "title": "ביטול פוליסה",
-    "summary": "This table details the refund policy for canceling a car insurance policy. It specifies the percentage of the annual premium refunded based on the number of days remaining on the policy.",
-    "embed_passage": "פוליסת הראל סוויץ מספקת החזר כספי במקרה של ביטול. עבור תקופה של עד שבעה ימים, יוחזרו 5% מדמי הביטוח השנתיים. עבור תקופה העולה על שבעה ימים, יוחזרו 0.3% מדמי הביטוח השנתיים לכל יום ביטוח.",
-    "row_axis": "Cancellation conditions/scenarios",
-    "column_axis": "Refund calculation details",
+    "summary": "This table details the conditions and refund amounts for canceling a car insurance policy. It specifies deductions from the paid premium based on the cancellation timing.",
+    "embed_passage": "טבלה זו מתארת את תנאי ביטול פוליסת ביטוח רכב של הראל סוויץ׳, בדגש על החזר כספי ללקוח. ניתן לבטל פוליסה בכל עת, אך יחזיר המבטח לבעל הפוליסה את דמי הביטוח ששולמו, בהפחתת סכומים שונים בהתאם לתקופת הביטול. הסכומים המופחתים מחושבים כאחוזים מדמי הביטוח השנתיים, כאשר ההפחתה משתנה בהתאם למשך הזמן שבו הפוליסה הייתה בתוקף. לדוגמה, עבור ביטול לאחר שבעה ימים, ההפחתה היא 0.3% ליום נוסף. ביטול עקב גניבה או העברת בעלות עשוי לזכות בהחזר יחסי. הראל סוויץ׳, ביטול פוליסה, דמי ביטוח שנתיים, אחוז הפחתה, מספר ימים.",
+    "row_axis": "Cancellation reason / condition",
+    "column_axis": "Refund calculation",
     "units": [
-      "% מדמי הביטוח השנתיים",
-      "ימים"
+      "% מדמי הביטוח השנתיים"
     ],
     "notable_values": [
-      "5%: refund for up to 7 days",
-      "0.3%: daily refund rate after 7 days",
-      "14: days mentioned in context",
-      "15.4: section number",
-      "7: days threshold for refund calculation"
+      "תקופה עד 7 ימים: 5%",
+      "תקופה מעל 7 ימים: 0.3% ליום",
+      "ביטול עקב גניבה: החזר יחסי"
     ],
     "product_hints": [
-      "הראל סוויץ",
-      "פוליסת רכב"
+      "הראל סוויץ'"
     ]
   },
   "sketch": ". 15.3 , יהיה פטור 15.2.2.2ו 15.2.2.1 וידא מבטח כי ניתנה הודעה למחזיק כאמור בסעיפים מחבותו לפי הפוליסה; ביקש מבטח לשלוח הודעה למחזיק כאמור באותן פסקאות, תכלול ; ההודעה את מספר הרישוי של הרכב המבוטח ואת התאריך שבו יכנס הביטול לתוקף מבטח לא יעכב את ביטול הפוליסה בטענה שלא הצליח לוודא שניתנה הודעה כאמור.\nימים 14. בוטלה הפוליסה לפי סעיף זה, יחזיר המבטח לבעל הפוליסה בהקדם, ולא יאוחר מ 15.4 מהמועד שבו נכנס הביטול לתוקף, את דמי הביטוח ששולמו, בהפחתת סכומים אלה:",
-  "embed_text": "פוליסת הראל סוויץ מספקת החזר כספי במקרה של ביטול. עבור תקופה של עד שבעה ימים, יוחזרו 5% מדמי הביטוח השנתיים. עבור תקופה העולה על שבעה ימים, יוחזרו 0.3% מדמי הביטוח השנתיים לכל יום ביטוח.",
-  "payload": "טבלה: ביטול פוליסה\nThis table details the refund policy for canceling a car insurance policy. It specifies the percentage of the annual premium refunded based on the number of days remaining on the policy.\nממדים: Cancellation conditions/scenarios, Refund calculation details\n\n. 15.3 , יהיה פטור 15.2.2.2ו 15.2.2.1 וידא מבטח כי ניתנה הודעה למחזיק כאמור בסעיפים מחבותו לפי הפוליסה; ביקש מבטח לשלוח הודעה למחזיק כאמור באותן פסקאות, תכלול ; ההודעה את מספר הרישוי של הרכב המבוטח ואת התאריך שבו יכנס הביטול לתוקף מבטח לא יעכב את ביטול הפוליסה בטענה שלא הצליח לוודא שניתנה הודעה כאמור.\nימים 14. בוטלה הפוליסה לפי סעיף זה, יחזיר המבטח לבעל הפוליסה בהקדם, ולא יאוחר מ 15.4 מהמועד שבו נכנס הביטול לתוקף, את דמי הביטוח ששולמו, בהפחתת סכומים אלה:"
+  "embed_text": "טבלה זו מתארת את תנאי ביטול פוליסת ביטוח רכב של הראל סוויץ׳, בדגש על החזר כספי ללקוח. ניתן לבטל פוליסה בכל עת, אך יחזיר המבטח לבעל הפוליסה את דמי הביטוח ששולמו, בהפחתת סכומים שונים בהתאם לתקופת הביטול. הסכומים המופחתים מחושבים כאחוזים מדמי הביטוח השנתיים, כאשר ההפחתה משתנה בהתאם למשך הזמן שבו הפוליסה הייתה בתוקף. לדוגמה, עבור ביטול לאחר שבעה ימים, ההפחתה היא 0.3% ליום נוסף. ביטול עקב גניבה או העברת בעלות עשוי לזכות בהחזר יחסי. הראל סוויץ׳, ביטול פוליסה, דמי ביטוח שנתיים, אחוז הפחתה, מספר ימים. This table details the conditions and refund amounts for canceling a car insurance policy. It specifies deductions from the paid premium based on the cancellation timing. בין הערכים בטבלה: תקופה עד 7 ימים: 5%.",
+  "payload": "טבלה: ביטול פוליסה\nThis table details the conditions and refund amounts for canceling a car insurance policy. It specifies deductions from the paid premium based on the cancellation timing.\nממדים: Cancellation reason / condition, Refund calculation\n\n. 15.3 , יהיה פטור 15.2.2.2ו 15.2.2.1 וידא מבטח כי ניתנה הודעה למחזיק כאמור בסעיפים מחבותו לפי הפוליסה; ביקש מבטח לשלוח הודעה למחזיק כאמור באותן פסקאות, תכלול ; ההודעה את מספר הרישוי של הרכב המבוטח ואת התאריך שבו יכנס הביטול לתוקף מבטח לא יעכב את ביטול הפוליסה בטענה שלא הצליח לוודא שניתנה הודעה כאמור.\nימים 14. בוטלה הפוליסה לפי סעיף זה, יחזיר המבטח לבעל הפוליסה בהקדם, ולא יאוחר מ 15.4 מהמועד שבו נכנס הביטול לתוקף, את דמי הביטוח ששולמו, בהפחתת סכומים אלה:"
 }

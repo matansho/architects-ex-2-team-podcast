@@ -2,24 +2,24 @@
   "id": "pdf:apartment/files/פוליסה-לביטוח-דירה-ותכולתה-ש-מהדורת-אוגוסט-2020.pdf#150",
   "source": "llm",
   "description": {
-    "title": "ביטוח דירה ותכולתה",
-    "summary": "This table details the timeframes for reconstruction or repair after a loss, as part of a home and contents insurance policy. It specifies deadlines for completing repairs for both the apartment and its contents.",
-    "embed_passage": "פוליסת ביטוח דירה ותכולתה מגדירה את הזמן המותר להשלמת כינון או תיקון רכוש שניזוק. לדוגמה, יש להשלים כינון של הדירה תוך 90 ימים מתאריך קרות מקרה הביטוח, ואילו התכולה תוך 12 ימים. במקרים בהם השלמת הכינון אינה אפשרית בזמן, התקופה יכולה להיות מוארכת בתיאום עם המבטח.",
-    "row_axis": "Type of property (apartment/contents)",
-    "column_axis": "Timeframe for reconstruction/repair",
+    "title": "תנאי כינון מחדש",
+    "summary": "This table details the timeframes for rebuilding or replacing damaged property after a claim, differentiating between the apartment itself and its contents. It outlines deadlines for starting and completing the reconstruction process.",
+    "embed_passage": "טבלה זו מתייחסת לתנאי כינון מחדש של דירה ותכולתה לאחר מקרה ביטוח, ומפרטת את מסגרות הזמן להשלמת התהליך. ניתן למצוא מידע על תקופות זמן שונות עבור הדירה ותכולתה, וכן על אפשרות הארכת התקופות בנסיבות מסוימות. הטבלה רלוונטית לפוליסה לביטוח דירה ותכולתה, מהדורת אוגוסט 2020. התקופות המצוינות הן 90 ימים לדירה ו-12 ימים לתכולה.",
+    "row_axis": "סוג הנכס (דירה/תכולה)",
+    "column_axis": "תקופת זמן (ימים) לכינון מחדש",
     "units": [
-      "ימים",
-      "חודשים"
+      "ימים"
     ],
     "notable_values": [
       "דירה: 90 ימים",
       "תכולה: 12 ימים"
     ],
     "product_hints": [
-      "ביטוח דירה ותכולתה"
+      "פוליסה לביטוח דירה ותכולתה",
+      "מהדורת אוגוסט 2020"
     ]
   },
   "sketch": ")ז(  יש להתחיל בביצוע הכינון תוך זמן סביר לאחר קרות האבדן או הנזק, ובכל מקרה יש חודשים מתאריך קרות מקרה הביטוח ולגבי התכולה - תוך 12 להשלימו לגבי הדירה תוך ימים מתאריך קרות מקרה הביטוח; באין אפשרות להשלים את הכינון תוך התקופות 90 האמורות, מסיבות שאינן תלויות במבוטח, תוארך תקופת ביצוע הכינון תוך תיאום בין המבוטח למבטח.\n, )ח( אחריות המבטח לפי סעיף זה לא תעלה על סכום הביטוח הנקוב ברשימה לגבי הדירה התכולה או הפריט, לפי העניין.",
-  "embed_text": "פוליסת ביטוח דירה ותכולתה מגדירה את הזמן המותר להשלמת כינון או תיקון רכוש שניזוק. לדוגמה, יש להשלים כינון של הדירה תוך 90 ימים מתאריך קרות מקרה הביטוח, ואילו התכולה תוך 12 ימים. במקרים בהם השלמת הכינון אינה אפשרית בזמן, התקופה יכולה להיות מוארכת בתיאום עם המבטח.",
-  "payload": "טבלה: ביטוח דירה ותכולתה\nThis table details the timeframes for reconstruction or repair after a loss, as part of a home and contents insurance policy. It specifies deadlines for completing repairs for both the apartment and its contents.\nממדים: Type of property (apartment/contents), Timeframe for reconstruction/repair\n\n)ז(  יש להתחיל בביצוע הכינון תוך זמן סביר לאחר קרות האבדן או הנזק, ובכל מקרה יש חודשים מתאריך קרות מקרה הביטוח ולגבי התכולה - תוך 12 להשלימו לגבי הדירה תוך ימים מתאריך קרות מקרה הביטוח; באין אפשרות להשלים את הכינון תוך התקופות 90 האמורות, מסיבות שאינן תלויות במבוטח, תוארך תקופת ביצוע הכינון תוך תיאום בין המבוטח למבטח.\n, )ח( אחריות המבטח לפי סעיף זה לא תעלה על סכום הביטוח הנקוב ברשימה לגבי הדירה התכולה או הפריט, לפי העניין."
+  "embed_text": "טבלה זו מתייחסת לתנאי כינון מחדש של דירה ותכולתה לאחר מקרה ביטוח, ומפרטת את מסגרות הזמן להשלמת התהליך. ניתן למצוא מידע על תקופות זמן שונות עבור הדירה ותכולתה, וכן על אפשרות הארכת התקופות בנסיבות מסוימות. הטבלה רלוונטית לפוליסה לביטוח דירה ותכולתה, מהדורת אוגוסט 2020. התקופות המצוינות הן 90 ימים לדירה ו-12 ימים לתכולה. This table details the timeframes for rebuilding or replacing damaged property after a claim, differentiating between the apartment itself and its contents. It outlines deadlines for starting and completing the reconstruction process.",
+  "payload": "טבלה: תנאי כינון מחדש\nThis table details the timeframes for rebuilding or replacing damaged property after a claim, differentiating between the apartment itself and its contents. It outlines deadlines for starting and completing the reconstruction process.\nממדים: סוג הנכס (דירה/תכולה), תקופת זמן (ימים) לכינון מחדש\n\n)ז(  יש להתחיל בביצוע הכינון תוך זמן סביר לאחר קרות האבדן או הנזק, ובכל מקרה יש חודשים מתאריך קרות מקרה הביטוח ולגבי התכולה - תוך 12 להשלימו לגבי הדירה תוך ימים מתאריך קרות מקרה הביטוח; באין אפשרות להשלים את הכינון תוך התקופות 90 האמורות, מסיבות שאינן תלויות במבוטח, תוארך תקופת ביצוע הכינון תוך תיאום בין המבוטח למבטח.\n, )ח( אחריות המבטח לפי סעיף זה לא תעלה על סכום הביטוח הנקוב ברשימה לגבי הדירה התכולה או הפריט, לפי העניין."
 }

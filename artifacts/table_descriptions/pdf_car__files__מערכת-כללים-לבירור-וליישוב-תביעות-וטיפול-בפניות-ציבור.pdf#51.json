@@ -3,22 +3,22 @@
   "source": "llm",
   "description": {
     "title": "מועדי מענה לפניית ציבור",
-    "summary": "This table details the response times for written public inquiries, specifically regarding document copies. It shows the number of business days allowed to provide copies of policies or signed documents.",
-    "embed_passage": "הראל מספקת מענה לפניית ציבור בכתב תוך 14 ימי עסקים ממסירת הבקשה עבור העתקים מהפוליסה או מהתקנון, ועד 21 ימי עסקים עבור העתקים של מסמכים עליהם התובע חתם. המועדים הללו חלים על בקשות להעתקים של מסמכים שהתובע מסר או קיבל בהסכמתו. טווח הזמנים נע בין 14 ל-21 ימי עסקים.",
-    "row_axis": "Type of document requested (policy, signed document)",
-    "column_axis": "Response time (business days)",
+    "summary": "This table details the response times for written public inquiries. It specifies the number of business days allowed for providing copies of policies or regulations.",
+    "embed_passage": "טבלה זו מתארת את מועדי המענה לפניית הציבור בכתב, בהתאם לכללי הראל. ניתן למצוא כאן את מספר ימי העסקים המוקצים למסירת העתקים של הפוליסה או התקנון, וכן העתקים של מסמכים אחרים. הראל מציעה מענה תוך 14 ימי עסקים לבקשת העתקים מהפוליסה או מהתקנון, ועד 21 ימי עסקים למסמכים אחרים שהתובע חתם עליהם. העתקים, פוליסה, תקנון, מסמך חתום, ימי עסקים.",
+    "row_axis": "סוג הבקשה",
+    "column_axis": "מועד מענה (ימי עסקים)",
     "units": [
       "ימי עסקים"
     ],
     "notable_values": [
-      "מסירת העתקים מפוליסה: 14 ימי עסקים",
-      "מסירת העתקים ממסמך חתום: 21 ימי עסקים"
+      "מסירת העתקים מהפוליסה או מהתקנון: 14 ימי עסקים",
+      "מסירת העתקים של מסמך חתום: 21 ימי עסקים"
     ],
     "product_hints": [
       "הראל"
     ]
   },
   "sketch": "ציבור לפניית בכתב מענה,\nהבקשה. קבלת ממועד עסקים ימי 14,העתקים מסירת מתקנון. או מפוליסה,(1 )טו 8\nהבקשה. קבלת ממועד עסקים ימי 21,ל מכ העתקים מסירת התובע. חתם שעליו מסמך,(3 )טו 8",
-  "embed_text": "הראל מספקת מענה לפניית ציבור בכתב תוך 14 ימי עסקים ממסירת הבקשה עבור העתקים מהפוליסה או מהתקנון, ועד 21 ימי עסקים עבור העתקים של מסמכים עליהם התובע חתם. המועדים הללו חלים על בקשות להעתקים של מסמכים שהתובע מסר או קיבל בהסכמתו. טווח הזמנים נע בין 14 ל-21 ימי עסקים.",
-  "payload": "טבלה: מועדי מענה לפניית ציבור\nThis table details the response times for written public inquiries, specifically regarding document copies. It shows the number of business days allowed to provide copies of policies or signed documents.\nממדים: Type of document requested (policy, signed document), Response time (business days)\n\nציבור לפניית בכתב מענה,\nהבקשה. קבלת ממועד עסקים ימי 14,העתקים מסירת מתקנון. או מפוליסה,(1 )טו 8\nהבקשה. קבלת ממועד עסקים ימי 21,ל מכ העתקים מסירת התובע. חתם שעליו מסמך,(3 )טו 8"
+  "embed_text": "טבלה זו מתארת את מועדי המענה לפניית הציבור בכתב, בהתאם לכללי הראל. ניתן למצוא כאן את מספר ימי העסקים המוקצים למסירת העתקים של הפוליסה או התקנון, וכן העתקים של מסמכים אחרים. הראל מציעה מענה תוך 14 ימי עסקים לבקשת העתקים מהפוליסה או מהתקנון, ועד 21 ימי עסקים למסמכים אחרים שהתובע חתם עליהם. העתקים, פוליסה, תקנון, מסמך חתום, ימי עסקים. This table details the response times for written public inquiries. It specifies the number of business days allowed for providing copies of policies or regulations.",
+  "payload": "טבלה: מועדי מענה לפניית ציבור\nThis table details the response times for written public inquiries. It specifies the number of business days allowed for providing copies of policies or regulations.\nממדים: סוג הבקשה, מועד מענה (ימי עסקים)\n\nציבור לפניית בכתב מענה,\nהבקשה. קבלת ממועד עסקים ימי 14,העתקים מסירת מתקנון. או מפוליסה,(1 )טו 8\nהבקשה. קבלת ממועד עסקים ימי 21,ל מכ העתקים מסירת התובע. חתם שעליו מסמך,(3 )טו 8"
 }

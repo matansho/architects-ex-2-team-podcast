@@ -2,25 +2,29 @@
   "id": "pdf:business/files/טופס-הצעה-לביטוח-עסקי-אחריות-מקצועית-ליועצי-השקעות.pdf#4",
   "source": "llm",
   "description": {
-    "title": "פיצול הכנסות ושווי תיקים מנוהלים",
-    "summary": "This table details the percentage split of gross fees for different investment activities and the total value of managed portfolios. It's used to assess risk and determine premiums for Professional Indemnity Insurance for Investment Managers.",
-    "embed_passage": "טופס הצעה זה מתייחס לביטוח אחריות מקצועית עבור יועצי השקעות. הוא בודק את פיצול ההכנסות ממקורות שונים כמו ניהול קרנות נאמנות (Mutual funds management) ואת שווי התיקים המנוהלים, כאשר סך הכל ההכנסות מגיעות ל-100%. לדוגמה, ניהול קרנות נאמנות יכול להוות חלק מסוים מההכנסות הכוללות.",
-    "row_axis": "Investment activity / source of gross fees",
-    "column_axis": "Percentage split of gross fees",
+    "title": "פיצול הכנסות גולמיות",
+    "summary": "This table details the percentage split of gross fees derived from various financial activities. It is used to understand the proposer's income sources for professional indemnity insurance.",
+    "embed_passage": "טופס זה, חלק מהצעת ביטוח אחריות מקצועית ליועצי השקעות, מפרט את אחוזי ההכנסות הגולמיות המתקבלים מפעילויות שונות. המטרה היא להבין את מקורות ההכנסה של המציע לצורך ביטוח. ניתן להזין אחוזים עבור ניהול תיקי השקעות, קרנות הון סיכון, ניהול קרנות נאמנות, הלוואות וליסינג, הנפקת ניירות ערך, מיזוגים ורכישות, מסחר בניירות ערך ישראליים, ייעוץ פיננסי וכלכלי, מסחר בחוזים עתידיים ואופציות, מימון תאגידי, מסחר בניירות ערך זרים, השקעות ביחידות השתלמות ואג״ח, ופעילויות אחרות. הנתונים כוללים ניהול תיקי השקעות, ניהול קרנות, וסך הכל 100%.",
+    "row_axis": "financial activity",
+    "column_axis": "percentage split of gross fees",
     "units": [
       "%"
     ],
     "notable_values": [
-      "Portfolio/Fund Management: 0%",
-      "Mutual funds management: 0%",
+      "Portfolio/Fund Management: 0",
+      "Mutual funds management: 0",
+      "Securities Underwriting: 0",
+      "Dealing in Israeli securities: 0",
+      "Dealing in Futures/Options: 0",
+      "Dealing in Overseas Securities: 0",
+      "Dealing in Unit Trusts/Bonds: 0",
       "TOTAL: 100%"
     ],
     "product_hints": [
-      "ביטוח אחריות מקצועית",
-      "יועצי השקעות"
+      "ביטוח אחריות מקצועית ליועצי השקעות"
     ]
   },
-  "sketch": "11. a) Please indicate the percentage split of gross fees derived from each of the following:\n0,1,2,3\nPortfolio/Fund Management,%,Venture capital investments,%\nMutual funds management,%,Loans and leasing,%\n…\nDealing in Overseas Securities,%,Other (please specify) ____________,%\nDealing in Unit Trusts/Bonds,%,TOTAL:,100%\nPlease indicate the total managed portfolio value and/or the total managed funds: $\nLargest managed portfolio value or the largest managed fund: $",
-  "embed_text": "טופס הצעה זה מתייחס לביטוח אחריות מקצועית עבור יועצי השקעות. הוא בודק את פיצול ההכנסות ממקורות שונים כמו ניהול קרנות נאמנות (Mutual funds management) ואת שווי התיקים המנוהלים, כאשר סך הכל ההכנסות מגיעות ל-100%. לדוגמה, ניהול קרנות נאמנות יכול להוות חלק מסוים מההכנסות הכוללות.",
-  "payload": "טבלה: פיצול הכנסות ושווי תיקים מנוהלים\nThis table details the percentage split of gross fees for different investment activities and the total value of managed portfolios. It's used to assess risk and determine premiums for Professional Indemnity Insurance for Investment Managers.\nממדים: Investment activity / source of gross fees, Percentage split of gross fees\n\n11. a) Please indicate the percentage split of gross fees derived from each of the following:\n0,1,2,3\nPortfolio/Fund Management,%,Venture capital investments,%\nMutual funds management,%,Loans and leasing,%\nSecurities Underwriting,%,Mergers and Acquisitions,%\nDealing in Israeli securities,%,Financial and Economic Consultancy,%\nDealing in Futures/Options,%,Corporate Finance,%\nDealing in Overseas Securities,%,Other (please specify) ____________,%\nDealing in Unit Trusts/Bonds,%,TOTAL:,100%\nPlease indicate the total managed portfolio value and/or the total managed funds: $\nLargest managed portfolio value or the largest managed fund: $"
+  "sketch": "11. a) Please indicate the percentage split of gross fees derived from each of the following:\n0,1,2,3\nPortfolio/Fund Management,%,Venture capital investments,%\nMutual funds management,%,Loans and leasing,%\nSecurities Underwriting,%,Mergers and Acquisitions,%\nDealing in Israeli securities,%,Financial and Economic Consultancy,%\nDealing in Futures/Options,%,Corporate Finance,%\nDealing in Overseas Securities,%,Other (please specify) ____________,%\nDealing in Unit Trusts/Bonds,%,TOTAL:,100%\nPlease indicate the total managed portfolio value and/or the total managed funds: $\nLargest managed portfolio value or the largest managed fund: $",
+  "embed_text": "טופס זה, חלק מהצעת ביטוח אחריות מקצועית ליועצי השקעות, מפרט את אחוזי ההכנסות הגולמיות המתקבלים מפעילויות שונות. המטרה היא להבין את מקורות ההכנסה של המציע לצורך ביטוח. ניתן להזין אחוזים עבור ניהול תיקי השקעות, קרנות הון סיכון, ניהול קרנות נאמנות, הלוואות וליסינג, הנפקת ניירות ערך, מיזוגים ורכישות, מסחר בניירות ערך ישראליים, ייעוץ פיננסי וכלכלי, מסחר בחוזים עתידיים ואופציות, מימון תאגידי, מסחר בניירות ערך זרים, השקעות ביחידות השתלמות ואג״ח, ופעילויות אחרות. הנתונים כוללים ניהול תיקי השקעות, ניהול קרנות, וסך הכל 100%. This table details the percentage split of gross fees derived from various financial activities. It is used to understand the proposer's income sources for professional indemnity insurance.",
+  "payload": "טבלה: פיצול הכנסות גולמיות\nThis table details the percentage split of gross fees derived from various financial activities. It is used to understand the proposer's income sources for professional indemnity insurance.\nממדים: financial activity, percentage split of gross fees\n\n11. a) Please indicate the percentage split of gross fees derived from each of the following:\n0,1,2,3\nPortfolio/Fund Management,%,Venture capital investments,%\nMutual funds management,%,Loans and leasing,%\nSecurities Underwriting,%,Mergers and Acquisitions,%\nDealing in Israeli securities,%,Financial and Economic Consultancy,%\nDealing in Futures/Options,%,Corporate Finance,%\nDealing in Overseas Securities,%,Other (please specify) ____________,%\nDealing in Unit Trusts/Bonds,%,TOTAL:,100%\nPlease indicate the total managed portfolio value and/or the total managed funds: $\nLargest managed portfolio value or the largest managed fund: $"
 }

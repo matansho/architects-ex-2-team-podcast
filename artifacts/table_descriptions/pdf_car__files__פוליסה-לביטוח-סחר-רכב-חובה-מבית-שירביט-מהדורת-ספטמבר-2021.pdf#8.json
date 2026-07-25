@@ -3,23 +3,21 @@
   "source": "llm",
   "description": {
     "title": "חבות המבטח",
-    "summary": "This table details the liability of the insurer (Shirbit) according to the insurance policy. It outlines the types of damages the insurer is responsible for, based on the Compensation Law.",
-    "embed_passage": "פוליסת הביטוח של שירביט מגדירה את חבות המבטח במקרה של נזקי גוף הנגרמים כתוצאה משימוש ברכב מנועי. החבות כוללת פיצוי עבור נזק גוף שנגרם למבוטח בתאונת דרכים, וכן חבות אחרת בשל נזק גוף שנגרם לאדם אחר. סעיף 3 מתייחס לחבות המבטח לפי פקודת הביטוח.",
-    "row_axis": "types of liability",
-    "column_axis": "liability description",
+    "summary": "This table details the insurer's liability according to the insurance policy. It outlines the types of liabilities the insurer covers, based on the Compensation Law and the policy's terms.",
+    "embed_passage": "טבלה זו מתארת את חבות המבטח על פי פוליסת הביטוח, בהתאם לחוק הפיצויים. ניתן למצוא כאן את סוגי החבויות שהמבטח מכסה, כגון חבות לפי חוק הפיצויים, חבות בשל נזק גוף שנגרם על ידי השימוש ברכב מנועי, ונזק גוף שנגרם למבוטח בתאונת דרכים. פוליסה זו היא פוליסה לביטוח סחר רכב חובה מבית שירביט. חבות המבטח כוללת גם חבות אחרת בשל נזק גוף שנגרם לאדם כתוצאה משימוש ברכב. סעיף 3 מתייחס לחבות המבטח לפי פקודת הביטוח.",
+    "row_axis": "סוג חבות",
+    "column_axis": "תיאור החבות",
     "units": [],
     "notable_values": [
-      "סעיף 3: חבות המבטח",
-      "א: חבות לפי חוק הפיצויים",
-      "ב: חבות בשל נזק גוף",
-      "ג: נזק גוף למבוטח"
+      "חבות לפי חוק הפיצויים: סעיף 3(א)",
+      "חבות אחרת בשל נזק גוף: סעיף 3(ב)",
+      "נזק גוף למבוטח בתאונת דרכים: סעיף 3(ג)"
     ],
     "product_hints": [
-      "שירביט",
-      "ביטוח חובה רכב"
+      "ביטוח סחר רכב חובה שירביט"
     ]
   },
   "sketch": "חבות המבטח .3\nלפקודת הביטוח, לאמור: 3 בכפוף לתנאי פוליסה זו, מבטח יחוב לפי הוראות סעיף\nכל חבות שהמבוטח עשוי לחוב לפי חוק הפיצויים; )א(\nחבות אחרת, שלא לפי סעיף קטן )א(, שהמבוטח עשוי לחוב בשל נזק גוף )ב( שנגרם לאדם על ידי השימוש ברכב מנועי או עקב השימוש בו;\nנזק גוף שנגרם למבוטח בתאונת דרכים. )ג(",
-  "embed_text": "פוליסת הביטוח של שירביט מגדירה את חבות המבטח במקרה של נזקי גוף הנגרמים כתוצאה משימוש ברכב מנועי. החבות כוללת פיצוי עבור נזק גוף שנגרם למבוטח בתאונת דרכים, וכן חבות אחרת בשל נזק גוף שנגרם לאדם אחר. סעיף 3 מתייחס לחבות המבטח לפי פקודת הביטוח.",
-  "payload": "טבלה: חבות המבטח\nThis table details the liability of the insurer (Shirbit) according to the insurance policy. It outlines the types of damages the insurer is responsible for, based on the Compensation Law.\nממדים: types of liability, liability description\n\nחבות המבטח .3\nלפקודת הביטוח, לאמור: 3 בכפוף לתנאי פוליסה זו, מבטח יחוב לפי הוראות סעיף\nכל חבות שהמבוטח עשוי לחוב לפי חוק הפיצויים; )א(\nחבות אחרת, שלא לפי סעיף קטן )א(, שהמבוטח עשוי לחוב בשל נזק גוף )ב( שנגרם לאדם על ידי השימוש ברכב מנועי או עקב השימוש בו;\nנזק גוף שנגרם למבוטח בתאונת דרכים. )ג("
+  "embed_text": "טבלה זו מתארת את חבות המבטח על פי פוליסת הביטוח, בהתאם לחוק הפיצויים. ניתן למצוא כאן את סוגי החבויות שהמבטח מכסה, כגון חבות לפי חוק הפיצויים, חבות בשל נזק גוף שנגרם על ידי השימוש ברכב מנועי, ונזק גוף שנגרם למבוטח בתאונת דרכים. פוליסה זו היא פוליסה לביטוח סחר רכב חובה מבית שירביט. חבות המבטח כוללת גם חבות אחרת בשל נזק גוף שנגרם לאדם כתוצאה משימוש ברכב. סעיף 3 מתייחס לחבות המבטח לפי פקודת הביטוח. This table details the insurer's liability according to the insurance policy. It outlines the types of liabilities the insurer covers, based on the Compensation Law and the policy's terms. בין הערכים בטבלה: נזק גוף למבוטח בתאונת דרכים: סעיף 3(ג).",
+  "payload": "טבלה: חבות המבטח\nThis table details the insurer's liability according to the insurance policy. It outlines the types of liabilities the insurer covers, based on the Compensation Law and the policy's terms.\nממדים: סוג חבות, תיאור החבות\n\nחבות המבטח .3\nלפקודת הביטוח, לאמור: 3 בכפוף לתנאי פוליסה זו, מבטח יחוב לפי הוראות סעיף\nכל חבות שהמבוטח עשוי לחוב לפי חוק הפיצויים; )א(\nחבות אחרת, שלא לפי סעיף קטן )א(, שהמבוטח עשוי לחוב בשל נזק גוף )ב( שנגרם לאדם על ידי השימוש ברכב מנועי או עקב השימוש בו;\nנזק גוף שנגרם למבוטח בתאונת דרכים. )ג("
 }

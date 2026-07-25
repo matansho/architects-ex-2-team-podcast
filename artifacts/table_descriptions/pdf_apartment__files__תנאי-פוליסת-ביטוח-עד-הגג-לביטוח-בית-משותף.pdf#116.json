@@ -2,23 +2,25 @@
   "id": "pdf:apartment/files/תנאי-פוליסת-ביטוח-עד-הגג-לביטוח-בית-משותף.pdf#116",
   "source": "llm",
   "description": {
-    "title": "תנאי פוליסת עד הגג",
-    "summary": "This table details coverage exclusions for a 'עד הגג' (Up to the Roof) apartment insurance policy. It lists various liabilities and specifies whether they are covered, often contingent on details in a separate specification.",
-    "embed_passage": "פוליסת 'עד הגג' לביטוח בית משותף כוללת סייגים שונים לחבות. לדוגמה, סעיף 4.18 מתייחס לחבות בגין שימוש במתקן חניה רובוטי, וסעיף 4.19 עוסק בקנסות ופיצוים. הכיסויים תלויים בפרטים המפורטים במפרט.",
-    "row_axis": "Liability/Exclusion",
-    "column_axis": "Coverage Condition (covered/excluded, often with specification reference)",
+    "title": "סייגים לפוליסה",
+    "summary": "This table lists exclusions to coverage under a home insurance policy for a shared building. It details situations where the insurer is not liable, often with exceptions if specified in a separate schedule.",
+    "embed_passage": "טבלה זו מפרטת סייגים לפוליסת ביטוח לבית משותף, כלומר מצבים בהם הכיסוי הביטוחי אינו חל. ניתן לחפש סייגים ספציפיים הקשורים לשימוש במתקנים שונים בבניין, או לסוגי נזקים שונים. הפוליסה היא 'עד הגג' לביטוח בית משותף. הסייגים כוללים שימוש במתקן חניה רובוטי, קנסות, זיהום אוויר, זיהום מים וזיהום קרקע. חבות בגין שימוש במתקן חניה רובוטי, קנסות, כפל פיצויים, פיצויי ענישה, פיצויי דוגמה, זיהום אוויר, זיהום מים וזיהום קרקע.",
+    "row_axis": "exclusion type",
+    "column_axis": "description / condition",
     "units": [],
     "notable_values": [
-      "4.18: Robotic parking facility",
-      "4.19: Penalties and punitive damages",
-      "4.20: Air, water, or soil pollution (excluding accidental events)"
+      "חניה רובוטית: סייג קיים",
+      "קנסות: סייג קיים",
+      "זיהום אוויר: סייג קיים",
+      "זיהום מים: סייג קיים",
+      "זיהום קרקע: סייג קיים",
+      "פיצויים לדוגמה: סייג קיים"
     ],
     "product_hints": [
-      "עד הגג",
-      "ביטוח בית משותף"
+      "עד הגג"
     ]
   },
   "sketch": ".  חבות בגין שימוש במתקן חניה רובוטי בבית המשותף, אלא אם צוין אחרת במפרט. 4.18\n.  קנסות, כפל פיצויים, פיצויי ענישה ופיצויים לדוגמה. 4.19\n.  זיהום אויר או זיהום מים או זיהום קרקע, למעט זיהום שהוא תוצאה של אירוע 4.20 תאונתי, פתאומי ובלתי צפוי מראש.",
-  "embed_text": "פוליסת 'עד הגג' לביטוח בית משותף כוללת סייגים שונים לחבות. לדוגמה, סעיף 4.18 מתייחס לחבות בגין שימוש במתקן חניה רובוטי, וסעיף 4.19 עוסק בקנסות ופיצוים. הכיסויים תלויים בפרטים המפורטים במפרט.",
-  "payload": "טבלה: תנאי פוליסת עד הגג\nThis table details coverage exclusions for a 'עד הגג' (Up to the Roof) apartment insurance policy. It lists various liabilities and specifies whether they are covered, often contingent on details in a separate specification.\nממדים: Liability/Exclusion, Coverage Condition (covered/excluded, often with specification reference)\n\n.  חבות בגין שימוש במתקן חניה רובוטי בבית המשותף, אלא אם צוין אחרת במפרט. 4.18\n.  קנסות, כפל פיצויים, פיצויי ענישה ופיצויים לדוגמה. 4.19\n.  זיהום אויר או זיהום מים או זיהום קרקע, למעט זיהום שהוא תוצאה של אירוע 4.20 תאונתי, פתאומי ובלתי צפוי מראש."
+  "embed_text": "טבלה זו מפרטת סייגים לפוליסת ביטוח לבית משותף, כלומר מצבים בהם הכיסוי הביטוחי אינו חל. ניתן לחפש סייגים ספציפיים הקשורים לשימוש במתקנים שונים בבניין, או לסוגי נזקים שונים. הפוליסה היא 'עד הגג' לביטוח בית משותף. הסייגים כוללים שימוש במתקן חניה רובוטי, קנסות, זיהום אוויר, זיהום מים וזיהום קרקע. חבות בגין שימוש במתקן חניה רובוטי, קנסות, כפל פיצויים, פיצויי ענישה, פיצויי דוגמה, זיהום אוויר, זיהום מים וזיהום קרקע. This table lists exclusions to coverage under a home insurance policy for a shared building. It details situations where the insurer is not liable, often with exceptions if specified in a separate schedule. בין הערכים בטבלה: חניה רובוטית: סייג קיים; פיצויים לדוגמה: סייג קיים.",
+  "payload": "טבלה: סייגים לפוליסה\nThis table lists exclusions to coverage under a home insurance policy for a shared building. It details situations where the insurer is not liable, often with exceptions if specified in a separate schedule.\nממדים: exclusion type, description / condition\n\n.  חבות בגין שימוש במתקן חניה רובוטי בבית המשותף, אלא אם צוין אחרת במפרט. 4.18\n.  קנסות, כפל פיצויים, פיצויי ענישה ופיצויים לדוגמה. 4.19\n.  זיהום אויר או זיהום מים או זיהום קרקע, למעט זיהום שהוא תוצאה של אירוע 4.20 תאונתי, פתאומי ובלתי צפוי מראש."
 }

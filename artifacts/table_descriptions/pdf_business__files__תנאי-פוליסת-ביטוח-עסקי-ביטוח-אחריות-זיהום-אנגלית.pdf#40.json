@@ -2,21 +2,23 @@
   "id": "pdf:business/files/תנאי-פוליסת-ביטוח-עסקי-ביטוח-אחריות-זיהום-אנגלית.pdf#40",
   "source": "llm",
   "description": {
-    "title": "פוליסת ביטוח אחריות זיהום",
-    "summary": "This table details exclusions to a pollution liability insurance policy. It specifies events or actions not covered by the policy, such as war or deliberate non-compliance.",
-    "embed_passage": "פוליסת ביטוח אחריות זיהום מכסה נזקים כתוצאה מזיהום, אך אינה מכסה מלחמה, כולל מלחמה לא מוכרזת או מלחמת אזרחים. הפוליסה אינה מכסה פעולות מלחמה על ידי כוח צבאי, או התערבות של ממשלה במניעת או הגנה מפני התקפה. תקופת הארכה זמנית עומדת על שישים (60) יום.",
-    "row_axis": "exclusion type",
-    "column_axis": "description of exclusion",
+    "title": "חרגות ביטוח אחריות זיהום",
+    "summary": "This table lists exclusions to a pollution liability insurance policy. It details conditions under which coverage is not provided, such as war or deliberate non-compliance.",
+    "embed_passage": "טבלה זו מפרטת חריגות לפוליסת ביטוח אחריות זיהום, ומציינת מצבים בהם הכיסוי הביטוחי אינו תקף. החיפוש נעשה לפי סוג החריגה, כגון 'מלחמה' או 'מעשה מכוון'. הפוליסה כוללת חריגות כמו מלחמה, פעולה צבאית, התמרדות, ואי ציות לרשויות. כמו כן, מפורטים תנאים לגבי תקופת דיווח מורחבת של שישים יום לאחר סיום תקופת הפוליסה. החריגות כוללות גם מעשה שגוי ביודעין ואי ציות מכוון לרשות ממשלתית. הפוליסה רלוונטית ל'ביטוח אחריות זיהום'.",
+    "row_axis": "סוג חריגה",
+    "column_axis": "תיאור החריגה",
     "units": [],
     "notable_values": [
-      "period: 60 days",
-      "period: 30 days"
+      "תקופת דיווח מורחבת: 60 יום",
+      "מלחמה: כולל מלחמה לא מוכרזת",
+      "פעולה צבאית: כולל פעולה להגנה מפני תקיפה",
+      "התמרדות: כולל מרד או מהפכה"
     ],
     "product_hints": [
       "ביטוח אחריות זיהום"
     ]
   },
   "sketch": "L. War\nWar, including undeclared or civil war;\nWarlike action by a military force, including action in hindering or defending against  an  actual  or  expected  attack,  by  any  government,  sovereign  or  other authority using military personnel or other agents; or\nInsurrection,  rebellion,  revolution  or  usurped  power,  or  action  taken  by  any government, sovereign or other authority in hindering or defending against any of these.",
-  "embed_text": "פוליסת ביטוח אחריות זיהום מכסה נזקים כתוצאה מזיהום, אך אינה מכסה מלחמה, כולל מלחמה לא מוכרזת או מלחמת אזרחים. הפוליסה אינה מכסה פעולות מלחמה על ידי כוח צבאי, או התערבות של ממשלה במניעת או הגנה מפני התקפה. תקופת הארכה זמנית עומדת על שישים (60) יום.",
-  "payload": "טבלה: פוליסת ביטוח אחריות זיהום\nThis table details exclusions to a pollution liability insurance policy. It specifies events or actions not covered by the policy, such as war or deliberate non-compliance.\nממדים: exclusion type, description of exclusion\n\nL. War\nWar, including undeclared or civil war;\nWarlike action by a military force, including action in hindering or defending against  an  actual  or  expected  attack,  by  any  government,  sovereign  or  other authority using military personnel or other agents; or\nInsurrection,  rebellion,  revolution  or  usurped  power,  or  action  taken  by  any government, sovereign or other authority in hindering or defending against any of these."
+  "embed_text": "טבלה זו מפרטת חריגות לפוליסת ביטוח אחריות זיהום, ומציינת מצבים בהם הכיסוי הביטוחי אינו תקף. החיפוש נעשה לפי סוג החריגה, כגון 'מלחמה' או 'מעשה מכוון'. הפוליסה כוללת חריגות כמו מלחמה, פעולה צבאית, התמרדות, ואי ציות לרשויות. כמו כן, מפורטים תנאים לגבי תקופת דיווח מורחבת של שישים יום לאחר סיום תקופת הפוליסה. החריגות כוללות גם מעשה שגוי ביודעין ואי ציות מכוון לרשות ממשלתית. הפוליסה רלוונטית ל'ביטוח אחריות זיהום'. This table lists exclusions to a pollution liability insurance policy. It details conditions under which coverage is not provided, such as war or deliberate non-compliance.",
+  "payload": "טבלה: חרגות ביטוח אחריות זיהום\nThis table lists exclusions to a pollution liability insurance policy. It details conditions under which coverage is not provided, such as war or deliberate non-compliance.\nממדים: סוג חריגה, תיאור החריגה\n\nL. War\nWar, including undeclared or civil war;\nWarlike action by a military force, including action in hindering or defending against  an  actual  or  expected  attack,  by  any  government,  sovereign  or  other authority using military personnel or other agents; or\nInsurrection,  rebellion,  revolution  or  usurped  power,  or  action  taken  by  any government, sovereign or other authority in hindering or defending against any of these."
 }

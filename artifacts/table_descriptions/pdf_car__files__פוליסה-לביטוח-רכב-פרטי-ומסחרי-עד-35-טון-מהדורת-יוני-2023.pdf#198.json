@@ -2,23 +2,24 @@
   "id": "pdf:car/files/פוליסה-לביטוח-רכב-פרטי-ומסחרי-עד-35-טון-מהדורת-יוני-2023.pdf#198",
   "source": "llm",
   "description": {
-    "title": "פוליסת ביטוח רכב",
-    "summary": "This table outlines conditions related to insurance payouts for car accidents. It details scenarios where the insurer is not liable and how advance payments or undisputed claims are handled.",
-    "embed_passage": "פוליסת ביטוח רכב מספקת מידע לגבי תגמולים במקרה של נזק. סעיף 49 מתייחס למקדמה או התחייבות כספית לתיקון הנזק, וסעיף 48 מציין שאם המבוטח קיבל פיצוי ללא הסכמת המבטח, הדבר לא יחייב את המבטח. תגמולי ביטוח ישולמו תוך 30 ימים.",
-    "row_axis": "Insurance claim conditions / clauses",
-    "column_axis": "Details of the condition / clause",
+    "title": "הודעות והתניות",
+    "summary": "This table outlines conditions related to insurance claims, specifically regarding acknowledgments without insurer consent and advances/payments not in dispute. It details how payments are handled when the insured settles independently or receives partial payments.",
+    "embed_passage": "טבלה זו מתייחסת לתנאים והודעות הקשורות לתביעות ביטוח, במיוחד בנוגע להודאות ללא הסכמת המבטח ותשלומים מקדמיים או סופיים שאינם שנויים במחלוקת. הפוליסה מגדירה כיצד המבטח יפעל כאשר המבוטח מגיע להסדר עצמאי או מקבל תשלומים חלקיים. סעיפים רלוונטיים כוללים הודאה ללא הסכמת המבטח, מקדמה ותגמולים שאינם שנויים במחלוקת. 48, 49, 49.1, 49.2, 49.3 הם מספרי סעיפים חשובים. תנאי הפוליסה קובעים כי תגמולי ביטוח ישולמו תוך ימים מסוימים, וכי סכומים ששולמו בעבר ינוכו מהתגמולים הסופיים.",
+    "row_axis": "סעיף / תנאי",
+    "column_axis": "תיאור התנאי",
     "units": [],
     "notable_values": [
       "סעיף: 48",
       "סעיף: 49",
-      "תקופת התיישנות: 3 שנים",
-      "תשלום תוך: 30 ימים"
+      "סעיף: 49.1",
+      "סעיף: 49.2",
+      "סעיף: 49.3"
     ],
     "product_hints": [
-      "פוליסת ביטוח רכב"
+      "פוליסה לביטוח רכב פרטי ומסחרי עד 35 טון"
     ]
   },
   "sketch": ". הודאה ללא הסכמת המבטח 48\n, שילם המבוטח או אדם מטעמו פיצוי בקשר למקרה ביטוח המכוסה לפי פוליסה זו, הודה בחבות הציע, הבטיח או התחייב לפיצוי כאמור, ללא הסכמת המבטח מראש, לא יחייב הדבר את המבטח.\n. מקדמה ותגמולים שאינם שנויים במחלוקת 49\n.  בקרות מקרה ביטוח יהא המבוטח או הצד השלישי, לפי הענין, זכאי לקבל מהמבטח 49.1 מקדמה או התחייבות כספית שתאפשר לקבל שרות לתיקון הנזק, וזאת על חשבון הכספים שיגיעו מהמבטח לפי תנאי פוליסה זו.",
-  "embed_text": "פוליסת ביטוח רכב מספקת מידע לגבי תגמולים במקרה של נזק. סעיף 49 מתייחס למקדמה או התחייבות כספית לתיקון הנזק, וסעיף 48 מציין שאם המבוטח קיבל פיצוי ללא הסכמת המבטח, הדבר לא יחייב את המבטח. תגמולי ביטוח ישולמו תוך 30 ימים.",
-  "payload": "טבלה: פוליסת ביטוח רכב\nThis table outlines conditions related to insurance payouts for car accidents. It details scenarios where the insurer is not liable and how advance payments or undisputed claims are handled.\nממדים: Insurance claim conditions / clauses, Details of the condition / clause\n\n. הודאה ללא הסכמת המבטח 48\n, שילם המבוטח או אדם מטעמו פיצוי בקשר למקרה ביטוח המכוסה לפי פוליסה זו, הודה בחבות הציע, הבטיח או התחייב לפיצוי כאמור, ללא הסכמת המבטח מראש, לא יחייב הדבר את המבטח.\n. מקדמה ותגמולים שאינם שנויים במחלוקת 49\n.  בקרות מקרה ביטוח יהא המבוטח או הצד השלישי, לפי הענין, זכאי לקבל מהמבטח 49.1 מקדמה או התחייבות כספית שתאפשר לקבל שרות לתיקון הנזק, וזאת על חשבון הכספים שיגיעו מהמבטח לפי תנאי פוליסה זו."
+  "embed_text": "טבלה זו מתייחסת לתנאים והודעות הקשורות לתביעות ביטוח, במיוחד בנוגע להודאות ללא הסכמת המבטח ותשלומים מקדמיים או סופיים שאינם שנויים במחלוקת. הפוליסה מגדירה כיצד המבטח יפעל כאשר המבוטח מגיע להסדר עצמאי או מקבל תשלומים חלקיים. סעיפים רלוונטיים כוללים הודאה ללא הסכמת המבטח, מקדמה ותגמולים שאינם שנויים במחלוקת. 48, 49, 49.1, 49.2, 49.3 הם מספרי סעיפים חשובים. תנאי הפוליסה קובעים כי תגמולי ביטוח ישולמו תוך ימים מסוימים, וכי סכומים ששולמו בעבר ינוכו מהתגמולים הסופיים. This table outlines conditions related to insurance claims, specifically regarding acknowledgments without insurer consent and advances/payments not in dispute. It details how payments are handled when the insured settles independently or receives partial payments.",
+  "payload": "טבלה: הודעות והתניות\nThis table outlines conditions related to insurance claims, specifically regarding acknowledgments without insurer consent and advances/payments not in dispute. It details how payments are handled when the insured settles independently or receives partial payments.\nממדים: סעיף / תנאי, תיאור התנאי\n\n. הודאה ללא הסכמת המבטח 48\n, שילם המבוטח או אדם מטעמו פיצוי בקשר למקרה ביטוח המכוסה לפי פוליסה זו, הודה בחבות הציע, הבטיח או התחייב לפיצוי כאמור, ללא הסכמת המבטח מראש, לא יחייב הדבר את המבטח.\n. מקדמה ותגמולים שאינם שנויים במחלוקת 49\n.  בקרות מקרה ביטוח יהא המבוטח או הצד השלישי, לפי הענין, זכאי לקבל מהמבטח 49.1 מקדמה או התחייבות כספית שתאפשר לקבל שרות לתיקון הנזק, וזאת על חשבון הכספים שיגיעו מהמבטח לפי תנאי פוליסה זו."
 }

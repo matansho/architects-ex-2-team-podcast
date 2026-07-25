@@ -2,28 +2,21 @@
   "id": "pdf:health/files/טופס-בקשה-לפיצוי-כספי-בגין-ניתוח-אשפוז-מחלה-או-תאונה.pdf#37",
   "source": "llm",
   "description": {
-    "title": "טופס בקשה לפיצוי",
-    "summary": "This table is a form for a medical professional to fill out regarding a patient's claim for compensation following a medical procedure, hospitalization, illness, or accident. It collects details about the patient and the reporting physician.",
-    "embed_passage": "טופס זה מיועד לרופא מקצועי מטפל לצורך טיפול בפניית המבוטח. יש למלא את פרטי המבוטח, כולל מספר זהות ומשפחה שם, וכן את פרטי הרופא המטפל. הטופס מיועד לנשים וגברים כאחד.",
-    "row_axis": "Individual claim submission",
-    "column_axis": "Details of the patient and the reporting physician",
+    "title": "פרטי רופא ומבוטח",
+    "summary": "This table captures details of the treating physician and the insured patient. It is used to facilitate claim processing by collecting identifying information for both parties.",
+    "embed_passage": "טופס זה משמש לאיסוף פרטים רפואיים לצורך טיפול בפניית המבוטח. הטבלה כוללת מידע על הרופא המטפל, כגון מספר פקס וכתובת, וכן פרטים מזהים של המבוטח, כמו מספר זהות ושם משפחה. מילוי הטופס נעשה על ידי רופא מקצועי או רופא משפחה/ילדים. פרטי הרופא כוללים רחוב, בית מספר, יישוב, מיקוד ומספר פקס. פרטי המבוטח כוללים שם משפחה ומספר זהות.",
+    "row_axis": "Record (physician/insured details)",
+    "column_axis": "Data field (e.g., physician fax, insured family name)",
     "units": [],
     "notable_values": [
-      "מספר זהות: available",
-      "משפחה שם: available",
-      "מיקוד: available",
-      "בית מספר: available",
-      "רחוב: available"
+      "מספר זהות: value",
+      "שם משפחה: value",
+      "מיקוד: value",
+      "מספר פקס: value"
     ],
-    "product_hints": [
-      "פיצוי כספי",
-      "ניתוח",
-      "אשפוז",
-      "מחלה",
-      "תאונה"
-    ]
+    "product_hints": []
   },
   "sketch": "חלק ב' - למילוי בידי רופא מקצועי מטפל\nרופא נכבד, על מנת להקל על הטיפול בפניית המבוטח, אנא ענה על כל השאלות שלהלן. חלק זה ימולא על ידי רופא מקצועי המטפל במבוטח, ובהיעדר רופא מקצועי מטפל, ימולא על-ידי רופא משפחה/ילדים.\n,,,,הרופא פרטי א\nפקס מספר,מיקוד,יישוב,בית מספר,רחוב\nזהות מספר,המבוטח פרטי ב.משפחה שם",
-  "embed_text": "טופס זה מיועד לרופא מקצועי מטפל לצורך טיפול בפניית המבוטח. יש למלא את פרטי המבוטח, כולל מספר זהות ומשפחה שם, וכן את פרטי הרופא המטפל. הטופס מיועד לנשים וגברים כאחד.",
-  "payload": "טבלה: טופס בקשה לפיצוי\nThis table is a form for a medical professional to fill out regarding a patient's claim for compensation following a medical procedure, hospitalization, illness, or accident. It collects details about the patient and the reporting physician.\nממדים: Individual claim submission, Details of the patient and the reporting physician\n\nחלק ב' - למילוי בידי רופא מקצועי מטפל\nרופא נכבד, על מנת להקל על הטיפול בפניית המבוטח, אנא ענה על כל השאלות שלהלן. חלק זה ימולא על ידי רופא מקצועי המטפל במבוטח, ובהיעדר רופא מקצועי מטפל, ימולא על-ידי רופא משפחה/ילדים.\n,,,,הרופא פרטי א\nפקס מספר,מיקוד,יישוב,בית מספר,רחוב\nזהות מספר,המבוטח פרטי ב.משפחה שם"
+  "embed_text": "טופס זה משמש לאיסוף פרטים רפואיים לצורך טיפול בפניית המבוטח. הטבלה כוללת מידע על הרופא המטפל, כגון מספר פקס וכתובת, וכן פרטים מזהים של המבוטח, כמו מספר זהות ושם משפחה. מילוי הטופס נעשה על ידי רופא מקצועי או רופא משפחה/ילדים. פרטי הרופא כוללים רחוב, בית מספר, יישוב, מיקוד ומספר פקס. פרטי המבוטח כוללים שם משפחה ומספר זהות. This table captures details of the treating physician and the insured patient. It is used to facilitate claim processing by collecting identifying information for both parties.",
+  "payload": "טבלה: פרטי רופא ומבוטח\nThis table captures details of the treating physician and the insured patient. It is used to facilitate claim processing by collecting identifying information for both parties.\nממדים: Record (physician/insured details), Data field (e.g., physician fax, insured family name)\n\nחלק ב' - למילוי בידי רופא מקצועי מטפל\nרופא נכבד, על מנת להקל על הטיפול בפניית המבוטח, אנא ענה על כל השאלות שלהלן. חלק זה ימולא על ידי רופא מקצועי המטפל במבוטח, ובהיעדר רופא מקצועי מטפל, ימולא על-ידי רופא משפחה/ילדים.\n,,,,הרופא פרטי א\nפקס מספר,מיקוד,יישוב,בית מספר,רחוב\nזהות מספר,המבוטח פרטי ב.משפחה שם"
 }

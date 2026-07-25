@@ -2,25 +2,24 @@
   "id": "pdf:travel/files/תעריפון-דרכון-first-class.pdf#4",
   "source": "llm",
   "description": {
-    "title": "תעריפון דרכון First Class",
-    "summary": "This table details optional extensions to a basic travel insurance policy, specifically for 'First Class' plans. It allows looking up the daily cost of extensions based on age group.",
-    "embed_passage": "פוליסת 'First Class' מציעה הרחבות שונות, כגון חילוץ ואיתור חיפוש בעלות של $0.20 ליום לכל הגילאים. הרחבה נוספת היא חבות כלפי צד ג', גם היא בעלות יומית. העלות משתנה בהתאם לקבוצת הגיל.",
-    "row_axis": "Insurance extension",
-    "column_axis": "Extension details (age group, daily cost)",
+    "title": "הרחבות דרכון First Class",
+    "summary": "This table lists optional extensions to a basic travel insurance policy, specifically for 'First Class' coverage. It shows the daily cost and age group applicability for each extension.",
+    "embed_passage": "טבלה זו מציגה הרחבות הכלולות בפוליסת 'דרכון First Class' הבסיסית, וניתן להסירן. ניתן לראות את העלות היומית של כל הרחבה, ואת קבוצת הגילאים הרלוונטית. הפוליסה כוללת הרחבות כמו חילוץ איתור חיפוש וג' צד כלפי חבות. העלות היומית של חילוץ איתור חיפוש היא $0.20 לכל הגילאים, בעוד שעלות ג' צד כלפי חבות ניתנת ללא הטבה לכל הגילאים. הרחבות אלה יחולו רק אם צוינו במפורש בדף פרטי הביטוח.",
+    "row_axis": "הרחבה (extension)",
+    "column_axis": "פרטי הרחבה (extension details)",
     "units": [
       "$0.20/יום"
     ],
     "notable_values": [
-      "חילוץ ואיתור חיפוש: $0.20",
-      "גיל קבוצת: כל הגילאים",
-      "חבות כלפי צד ג': עלות ללא הטבה ניתן"
+      "חילוץ איתור חיפוש: $0.20",
+      "ג' צד כלפי חבות: עלות ללא הטבה",
+      "קבוצת גיל: כל הגילאים"
     ],
     "product_hints": [
-      "First Class",
-      "דרכון"
+      "דרכון First Class"
     ]
   },
   "sketch": "הרחבות הכלולות בפוליסה הבסיסית, שניתן להסירן\nיומית עלות,גיל קבוצת,הרחבה\n$0.20,הגילאים כל,וחילוץ איתור חיפוש\nעלות ללא כהטבה ניתן,הגילאים כל,ג' צד כלפי חבות",
-  "embed_text": "פוליסת 'First Class' מציעה הרחבות שונות, כגון חילוץ ואיתור חיפוש בעלות של $0.20 ליום לכל הגילאים. הרחבה נוספת היא חבות כלפי צד ג', גם היא בעלות יומית. העלות משתנה בהתאם לקבוצת הגיל.",
-  "payload": "טבלה: תעריפון דרכון First Class\nThis table details optional extensions to a basic travel insurance policy, specifically for 'First Class' plans. It allows looking up the daily cost of extensions based on age group.\nממדים: Insurance extension, Extension details (age group, daily cost)\n\nהרחבות הכלולות בפוליסה הבסיסית, שניתן להסירן\nיומית עלות,גיל קבוצת,הרחבה\n$0.20,הגילאים כל,וחילוץ איתור חיפוש\nעלות ללא כהטבה ניתן,הגילאים כל,ג' צד כלפי חבות"
+  "embed_text": "טבלה זו מציגה הרחבות הכלולות בפוליסת 'דרכון First Class' הבסיסית, וניתן להסירן. ניתן לראות את העלות היומית של כל הרחבה, ואת קבוצת הגילאים הרלוונטית. הפוליסה כוללת הרחבות כמו חילוץ איתור חיפוש וג' צד כלפי חבות. העלות היומית של חילוץ איתור חיפוש היא $0.20 לכל הגילאים, בעוד שעלות ג' צד כלפי חבות ניתנת ללא הטבה לכל הגילאים. הרחבות אלה יחולו רק אם צוינו במפורש בדף פרטי הביטוח. This table lists optional extensions to a basic travel insurance policy, specifically for 'First Class' coverage. It shows the daily cost and age group applicability for each extension.",
+  "payload": "טבלה: הרחבות דרכון First Class\nThis table lists optional extensions to a basic travel insurance policy, specifically for 'First Class' coverage. It shows the daily cost and age group applicability for each extension.\nממדים: הרחבה (extension), פרטי הרחבה (extension details)\n\nהרחבות הכלולות בפוליסה הבסיסית, שניתן להסירן\nיומית עלות,גיל קבוצת,הרחבה\n$0.20,הגילאים כל,וחילוץ איתור חיפוש\nעלות ללא כהטבה ניתן,הגילאים כל,ג' צד כלפי חבות"
 }

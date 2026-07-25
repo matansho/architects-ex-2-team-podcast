@@ -2,22 +2,21 @@
   "id": "pdf:business/files/פוליסה-לביטוח-ציוד-אלקטרוני-הראל-ביט-ינואר-2023.pdf#69",
   "source": "llm",
   "description": {
-    "title": "חישוב שיפוי",
-    "summary": "This table details the calculation of compensation for claims covered under the electronic equipment insurance policy. It outlines how daily expenses or the insurance amount are determined during the recovery period.",
-    "embed_passage": "פוליסת הראל ביטוח ציוד אלקטרוני קובעת את סכום השיפוי היומי על בסיס ההוצאות הנוספות הנחוצות להפעלת אמצעים חלופיים, או סכום הביטוח היומי הנקוב בפוליסה. לדוגמה, אם סכום הביטוח היומי הוא 3, ישולמו תגמולי הביטוח בהתאם לסך ההוצאות בפועל עד לגובה סכום השיפוי הנקוב ברשימה.",
-    "row_axis": "Claim details / Calculation basis",
-    "column_axis": "Compensation elements (daily expenses, insurance amount)",
+    "title": "חישוב השיפוי",
+    "summary": "This table details the calculation of compensation for claims covered under this section of the policy. It outlines how daily expenses or the insurance amount are determined during the recovery period.",
+    "embed_passage": "טבלה זו מתארת את חישוב הפיצוי עבור תביעות המכוסות במסגרת פרק זה בפוליסת ביטוח ציוד אלקטרוני הראל. החישוב מתבסס על הוצאות יומיות נוספות או על סכום הביטוח היומי, בהתאם לתקופת השיפוי המפורטת ברשימה. לחילופין, אם צוין במפורש, הפיצוי ישולם על בסיס נזק ראשון, בהתאם לסך ההוצאות בפועל עד לגובה סכום השיפוי הנקוב ברשימה. רשימה, סכום הביטוח היומי, תקופת השיפוי, נזק ראשון, הוצאות יומיות נוספות.",
+    "row_axis": "Claim scenarios / compensation basis",
+    "column_axis": "Compensation calculation method",
     "units": [],
     "notable_values": [
-      "שיפוי: 3",
-      "תקופת שיפוי: 3",
-      "סכום ביטוח יומי: 3"
+      "compensation basis: first damage",
+      "compensation basis: not subject to underinsurance"
     ],
     "product_hints": [
-      "הראל ביטוח ציוד אלקטרוני"
+      "ביטוח ציוד אלקטרוני הראל"
     ]
   },
   "sketch": "חישוב השיפוי .11.3\nבכל תביעה המכוסה במסגרת פרק זה, ישלם המבטח לגבי כל יום מתקופת השיפוי ברשימה, את ההוצאות היומיות הנוספות שנשא בהן המבוטח בפועל 3 הנקובה בפרק לרשימה, הנמוך ביניהם. 3 או את סכום הביטוח היומי, הנקוב בפרק\nשל פוליסה זו הינו 3 לחילופין, אם צוין במפורש ברשימה, כי סכום השיפוי לפי פרק על בסיס נזק ראשון שאינו כפוף לביטוח חסר, אזי ישולמו תגמולי הביטוח בהתאם לסך ההוצאות בפועל עד לגובה סכום השיפוי הנקוב ברשימה על בסיס נזק ראשון ולא לפי תקופת השיפוי.",
-  "embed_text": "פוליסת הראל ביטוח ציוד אלקטרוני קובעת את סכום השיפוי היומי על בסיס ההוצאות הנוספות הנחוצות להפעלת אמצעים חלופיים, או סכום הביטוח היומי הנקוב בפוליסה. לדוגמה, אם סכום הביטוח היומי הוא 3, ישולמו תגמולי הביטוח בהתאם לסך ההוצאות בפועל עד לגובה סכום השיפוי הנקוב ברשימה.",
-  "payload": "טבלה: חישוב שיפוי\nThis table details the calculation of compensation for claims covered under the electronic equipment insurance policy. It outlines how daily expenses or the insurance amount are determined during the recovery period.\nממדים: Claim details / Calculation basis, Compensation elements (daily expenses, insurance amount)\n\nחישוב השיפוי .11.3\nבכל תביעה המכוסה במסגרת פרק זה, ישלם המבטח לגבי כל יום מתקופת השיפוי ברשימה, את ההוצאות היומיות הנוספות שנשא בהן המבוטח בפועל 3 הנקובה בפרק לרשימה, הנמוך ביניהם. 3 או את סכום הביטוח היומי, הנקוב בפרק\nשל פוליסה זו הינו 3 לחילופין, אם צוין במפורש ברשימה, כי סכום השיפוי לפי פרק על בסיס נזק ראשון שאינו כפוף לביטוח חסר, אזי ישולמו תגמולי הביטוח בהתאם לסך ההוצאות בפועל עד לגובה סכום השיפוי הנקוב ברשימה על בסיס נזק ראשון ולא לפי תקופת השיפוי."
+  "embed_text": "טבלה זו מתארת את חישוב הפיצוי עבור תביעות המכוסות במסגרת פרק זה בפוליסת ביטוח ציוד אלקטרוני הראל. החישוב מתבסס על הוצאות יומיות נוספות או על סכום הביטוח היומי, בהתאם לתקופת השיפוי המפורטת ברשימה. לחילופין, אם צוין במפורש, הפיצוי ישולם על בסיס נזק ראשון, בהתאם לסך ההוצאות בפועל עד לגובה סכום השיפוי הנקוב ברשימה. רשימה, סכום הביטוח היומי, תקופת השיפוי, נזק ראשון, הוצאות יומיות נוספות. This table details the calculation of compensation for claims covered under this section of the policy. It outlines how daily expenses or the insurance amount are determined during the recovery period. בין הערכים בטבלה: compensation basis: first damage; compensation basis: not subject to underinsurance.",
+  "payload": "טבלה: חישוב השיפוי\nThis table details the calculation of compensation for claims covered under this section of the policy. It outlines how daily expenses or the insurance amount are determined during the recovery period.\nממדים: Claim scenarios / compensation basis, Compensation calculation method\n\nחישוב השיפוי .11.3\nבכל תביעה המכוסה במסגרת פרק זה, ישלם המבטח לגבי כל יום מתקופת השיפוי ברשימה, את ההוצאות היומיות הנוספות שנשא בהן המבוטח בפועל 3 הנקובה בפרק לרשימה, הנמוך ביניהם. 3 או את סכום הביטוח היומי, הנקוב בפרק\nשל פוליסה זו הינו 3 לחילופין, אם צוין במפורש ברשימה, כי סכום השיפוי לפי פרק על בסיס נזק ראשון שאינו כפוף לביטוח חסר, אזי ישולמו תגמולי הביטוח בהתאם לסך ההוצאות בפועל עד לגובה סכום השיפוי הנקוב ברשימה על בסיס נזק ראשון ולא לפי תקופת השיפוי."
 }

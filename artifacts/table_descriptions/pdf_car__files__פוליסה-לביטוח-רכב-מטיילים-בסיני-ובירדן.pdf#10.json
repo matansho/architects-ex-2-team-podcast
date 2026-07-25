@@ -2,23 +2,23 @@
   "id": "pdf:car/files/פוליסה-לביטוח-רכב-מטיילים-בסיני-ובירדן.pdf#10",
   "source": "llm",
   "description": {
-    "title": "גבולות אחריות",
-    "summary": "This table details the liability limits of an insurance policy, specifying the maximum amounts the insurer will pay for claims. It looks up limits based on the event and policy period.",
-    "embed_passage": "פוליסת ביטוח רכב מטיילים בסיני ובירדן מכסה נזקים בכפוף לתנאים, חריגים והגבלות. גבולות האחריות לאירוע ולכל תקופת הביטוח עולים על הסך הנקוב במפרט, והמבטח יישא גם בהוצאות משפט סבירות. לדוגמה, אחריות המבטח לפי פרק זה לא תעלה על הסך הנקוב במפרט.",
-    "row_axis": "types of liability / coverage scenarios",
-    "column_axis": "liability limits (per event, per policy period)",
+    "title": "גבולות אחריות והשתתפות עצמית",
+    "summary": "This table outlines the insurer's liability limits and self-participation amounts for a car insurance policy. It details the maximum coverage provided for incidents and the deductible the insured must pay.",
+    "embed_passage": "טבלה זו מתארת את גבולות האחריות של המבטח ואת ההשתתפות העצמית הנדרשת מהמבוטח בפוליסת ביטוח רכב מטיילים בסיני ובירדן. ניתן לעיין בטבלה כדי להבין את הסכומים המקסימליים שהמבטח ישלם עבור נזקים, וכן את הסכום שהמבוטח יישא בו באופן עצמאי. גבולות אחריות והשתתפות עצמית מפורטים במפרט. המבטח ישא בהוצאות משפט סבירות, גם מעל גבולות האחריות.",
+    "row_axis": "סוג אחריות / השתתפות",
+    "column_axis": "סכום",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "גבולות אחריות: הסך הנקוב במפרט",
-      "השתתפות עצמית: סכום הנקוב במפרט"
+      "אחריות המבטח: הסכום הנקוב במפרט",
+      "השתתפות עצמית: הסכום הנקוב במפרט"
     ],
     "product_hints": [
       "ביטוח רכב מטיילים בסיני ובירדן"
     ]
   },
   "sketch": ". בכפיפות לתנאים, לחריגים ולהגבלות שבפוליסה זאת יפצה המבטח את המבוטח ו/או הנוהג ברכב ברשותו, בעבור כל סכום שיהיו חייבים לשלמו על פי מקרה הביטוח ובכל מקרה לא יותר מגבולות האחריות המפורטים במפרט. למען הסר ספק מובהר כי הכיסוי הניתן בהתאם לפוליסה הינו בכפוף לדיני הנזיקין ולא\nבהתאם לחוק הפלת\"ד על כל המשתמע מכך.\n. אם היה הנפגע מחוץ לרכב המבוטח, תחול אחריות המבטח אך ורק לגבי כל סכום שהינו מעל הסך המשולם על-פי ביטוח החובה הנהוג בתחום הטריטוריאלי, ככל שחל.",
-  "embed_text": "פוליסת ביטוח רכב מטיילים בסיני ובירדן מכסה נזקים בכפוף לתנאים, חריגים והגבלות. גבולות האחריות לאירוע ולכל תקופת הביטוח עולים על הסך הנקוב במפרט, והמבטח יישא גם בהוצאות משפט סבירות. לדוגמה, אחריות המבטח לפי פרק זה לא תעלה על הסך הנקוב במפרט.",
-  "payload": "טבלה: גבולות אחריות\nThis table details the liability limits of an insurance policy, specifying the maximum amounts the insurer will pay for claims. It looks up limits based on the event and policy period.\nממדים: types of liability / coverage scenarios, liability limits (per event, per policy period)\n\n. בכפיפות לתנאים, לחריגים ולהגבלות שבפוליסה זאת יפצה המבטח את המבוטח ו/או הנוהג ברכב ברשותו, בעבור כל סכום שיהיו חייבים לשלמו על פי מקרה הביטוח ובכל מקרה לא יותר מגבולות האחריות המפורטים במפרט. למען הסר ספק מובהר כי הכיסוי הניתן בהתאם לפוליסה הינו בכפוף לדיני הנזיקין ולא\nבהתאם לחוק הפלת\"ד על כל המשתמע מכך.\n. אם היה הנפגע מחוץ לרכב המבוטח, תחול אחריות המבטח אך ורק לגבי כל סכום שהינו מעל הסך המשולם על-פי ביטוח החובה הנהוג בתחום הטריטוריאלי, ככל שחל."
+  "embed_text": "טבלה זו מתארת את גבולות האחריות של המבטח ואת ההשתתפות העצמית הנדרשת מהמבוטח בפוליסת ביטוח רכב מטיילים בסיני ובירדן. ניתן לעיין בטבלה כדי להבין את הסכומים המקסימליים שהמבטח ישלם עבור נזקים, וכן את הסכום שהמבוטח יישא בו באופן עצמאי. גבולות אחריות והשתתפות עצמית מפורטים במפרט. המבטח ישא בהוצאות משפט סבירות, גם מעל גבולות האחריות. This table outlines the insurer's liability limits and self-participation amounts for a car insurance policy. It details the maximum coverage provided for incidents and the deductible the insured must pay. בין הערכים בטבלה: אחריות המבטח: הסכום הנקוב במפרט.",
+  "payload": "טבלה: גבולות אחריות והשתתפות עצמית\nThis table outlines the insurer's liability limits and self-participation amounts for a car insurance policy. It details the maximum coverage provided for incidents and the deductible the insured must pay.\nממדים: סוג אחריות / השתתפות, סכום\n\n. בכפיפות לתנאים, לחריגים ולהגבלות שבפוליסה זאת יפצה המבטח את המבוטח ו/או הנוהג ברכב ברשותו, בעבור כל סכום שיהיו חייבים לשלמו על פי מקרה הביטוח ובכל מקרה לא יותר מגבולות האחריות המפורטים במפרט. למען הסר ספק מובהר כי הכיסוי הניתן בהתאם לפוליסה הינו בכפוף לדיני הנזיקין ולא\nבהתאם לחוק הפלת\"ד על כל המשתמע מכך.\n. אם היה הנפגע מחוץ לרכב המבוטח, תחול אחריות המבטח אך ורק לגבי כל סכום שהינו מעל הסך המשולם על-פי ביטוח החובה הנהוג בתחום הטריטוריאלי, ככל שחל."
 }

@@ -3,21 +3,21 @@
   "source": "llm",
   "description": {
     "title": "ביטול פוליסה",
-    "summary": "This table details the conditions under which the insurance policy can be cancelled by either the insurer or the insured. It outlines refund calculations based on the remaining policy period.",
-    "embed_passage": "פוליסת ביטוח ימי ליאכטות וסירות של שירביט מאפשרת ביטול על ידי המבוטח או החברה. במקרה של ביטול, יוחזר למבוטח סכום יחסי לתקופה שנותרה, תוך ניכוי הפרמיה לתקופה שבה הביטוח היה בתוקף. לדוגמה, אם נותרו 15 יום לתום הפוליסה, החברה תשלח הודעה מראש.",
-    "row_axis": "Cancellation conditions and procedures",
-    "column_axis": "Rights and obligations of the insurer and insured regarding policy cancellation",
+    "summary": "This table details the conditions under which the insurance policy can be cancelled by either the insured or the company. It outlines the refund process and potential charges.",
+    "embed_passage": "טבלה זו מתארת את תנאי ביטול פוליסת ביטוח ימי ליאכטות וסירות של שירביט. ניתן לבטל את הפוליסה בכל עת לפני תום תקופת הביטוח, בכפוף להודעה מראש. במקרה של ביטול על ידי המבוטח, יוחזר לו חלק מהפרמיה ששולם, בניכוי תעריף מקובל. אם החברה מבטלת את הפוליסה שלא עקב הפרת תנאים, יוחזר למבוטח סכום יחסי לתקופה שנותרה. שירביט מציעה פוליסות ביטוח ימי מגוונות. ביטול, הודעה מראש, תעריף מקובל, הפרת תנאים, סכום יחסי לתקופה שנותרה.",
+    "row_axis": "Cancellation conditions",
+    "column_axis": "Details of cancellation process",
     "units": [],
     "notable_values": [
-      "יום: 15",
-      "תקופת הביטוח: unspecified",
-      "סכום: יחסי לתקופה שנותרה"
+      "Notice period: 15 יום",
+      "Policy cancellation: רשאית החברה",
+      "Refund basis: סכום יחסי לתקופה שנותרה"
     ],
     "product_hints": [
-      "ביטוח ימי ליאכטות וסירות שירביט"
+      "פוליסת ביטוח ימי ליאכטות וסירות שירביט"
     ]
   },
   "sketch": "מבלי לפגוע בזכויות החברה על פי כל דין או על פי הפוליסה, רשאית ג. החברה  לפי  שיקול  דעתה,  לבטל  את  הפוליסה  בכל  עת  לפני  תום תקופת הביטוח, ובלבד שהודעה על כך תשלח למבוטח בכתב לפחות . יום לפני התאריך בו תבוטל הפוליסה 15\nאם החברה תבטל את הפוליסה לפני תום תקופת הביטוח המוסכמת ד  . והעילה  לביטול  אינה  שהמבוטח  הפר  את  תנאי  הפוליסה  או  ניסה להונות את החברה, תחזיר ו/או תשלם החברה למבוטח את הסכום שהייתה דורשת ממבוטח דומה לאותו סוג ביטוח ביום הביטול, יחסית . לתקופה שנותרה עד תום תקופת הביטוח המוסכמת",
-  "embed_text": "פוליסת ביטוח ימי ליאכטות וסירות של שירביט מאפשרת ביטול על ידי המבוטח או החברה. במקרה של ביטול, יוחזר למבוטח סכום יחסי לתקופה שנותרה, תוך ניכוי הפרמיה לתקופה שבה הביטוח היה בתוקף. לדוגמה, אם נותרו 15 יום לתום הפוליסה, החברה תשלח הודעה מראש.",
-  "payload": "טבלה: ביטול פוליסה\nThis table details the conditions under which the insurance policy can be cancelled by either the insurer or the insured. It outlines refund calculations based on the remaining policy period.\nממדים: Cancellation conditions and procedures, Rights and obligations of the insurer and insured regarding policy cancellation\n\nמבלי לפגוע בזכויות החברה על פי כל דין או על פי הפוליסה, רשאית ג. החברה  לפי  שיקול  דעתה,  לבטל  את  הפוליסה  בכל  עת  לפני  תום תקופת הביטוח, ובלבד שהודעה על כך תשלח למבוטח בכתב לפחות . יום לפני התאריך בו תבוטל הפוליסה 15\nאם החברה תבטל את הפוליסה לפני תום תקופת הביטוח המוסכמת ד  . והעילה  לביטול  אינה  שהמבוטח  הפר  את  תנאי  הפוליסה  או  ניסה להונות את החברה, תחזיר ו/או תשלם החברה למבוטח את הסכום שהייתה דורשת ממבוטח דומה לאותו סוג ביטוח ביום הביטול, יחסית . לתקופה שנותרה עד תום תקופת הביטוח המוסכמת"
+  "embed_text": "טבלה זו מתארת את תנאי ביטול פוליסת ביטוח ימי ליאכטות וסירות של שירביט. ניתן לבטל את הפוליסה בכל עת לפני תום תקופת הביטוח, בכפוף להודעה מראש. במקרה של ביטול על ידי המבוטח, יוחזר לו חלק מהפרמיה ששולם, בניכוי תעריף מקובל. אם החברה מבטלת את הפוליסה שלא עקב הפרת תנאים, יוחזר למבוטח סכום יחסי לתקופה שנותרה. שירביט מציעה פוליסות ביטוח ימי מגוונות. ביטול, הודעה מראש, תעריף מקובל, הפרת תנאים, סכום יחסי לתקופה שנותרה. This table details the conditions under which the insurance policy can be cancelled by either the insured or the company. It outlines the refund process and potential charges. בין הערכים בטבלה: Notice period: 15 יום; Policy cancellation: רשאית החברה.",
+  "payload": "טבלה: ביטול פוליסה\nThis table details the conditions under which the insurance policy can be cancelled by either the insured or the company. It outlines the refund process and potential charges.\nממדים: Cancellation conditions, Details of cancellation process\n\nמבלי לפגוע בזכויות החברה על פי כל דין או על פי הפוליסה, רשאית ג. החברה  לפי  שיקול  דעתה,  לבטל  את  הפוליסה  בכל  עת  לפני  תום תקופת הביטוח, ובלבד שהודעה על כך תשלח למבוטח בכתב לפחות . יום לפני התאריך בו תבוטל הפוליסה 15\nאם החברה תבטל את הפוליסה לפני תום תקופת הביטוח המוסכמת ד  . והעילה  לביטול  אינה  שהמבוטח  הפר  את  תנאי  הפוליסה  או  ניסה להונות את החברה, תחזיר ו/או תשלם החברה למבוטח את הסכום שהייתה דורשת ממבוטח דומה לאותו סוג ביטוח ביום הביטול, יחסית . לתקופה שנותרה עד תום תקופת הביטוח המוסכמת"
 }

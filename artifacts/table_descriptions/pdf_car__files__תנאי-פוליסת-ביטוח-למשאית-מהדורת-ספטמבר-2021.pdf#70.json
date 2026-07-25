@@ -3,20 +3,23 @@
   "source": "llm",
   "description": {
     "title": "שרידי רכב",
-    "summary": "This table details the handling of vehicle remains after a total loss. It outlines the process for the insured to reclaim installed equipment and the consequences of not doing so within 10 days.",
-    "embed_passage": "פוליסת ביטוח למשאית מסדירה את הטיפול בשרידי הרכב לאחר אובדן גמור. אם המבוטח מעוניין במתקנים ואביזרים המותקנים על הרכב, עליו לפעול לפירוקם בתוך 10 ימים מיום קביעת הרכב כאבדן גמור, אחרת יראו אותו כמי שויתר עליהם. תנאי הפוליסה מגדירים את הבעלות בשרידי הרכב למבטח לאחר תשלום תגמולי הביטוח.",
+    "summary": "This table details the handling of vehicle remains after a total loss. It outlines the process for the insured to claim and remove installed equipment, and what happens if they fail to do so.",
+    "embed_passage": "טבלה זו מתארת את הטיפול בשאריות הרכב לאחר אובדן מוחלט. הפוליסה 'ביטוח למשאית מהדורת ספטמבר 2021' מסבירה כי לאחר תשלום תגמולי ביטוח בגין אובדן מוחלט, הבעלות על שרידי הרכב עוברת למבטח. המבוטח רשאי לדרוש את המתקנים והאביזרים המותקנים על הרכב, אך עליו לפעול לפירוקם בתוך 10 ימים. אם לא יפעל כך, יראו אותו כמי שויתר עליהם. הטיפול בשרידי הרכב, אביזרים, ומתקנים מוסדר כאן. ביטוח למשאית, אובדן מוחלט, אביזרים, מתקנים, פירוק.",
     "row_axis": "conditions related to vehicle remains after total loss",
-    "column_axis": "actions, timelines, and ownership transfer",
+    "column_axis": "actions and responsibilities regarding the remains",
     "units": [],
     "notable_values": [
-      "timeframe: 10 ימים",
-      "ownership transfer: למבטח"
+      "אובדן גמור: העברת בעלות למבטח",
+      "אביזרים: אפשרות לדרישה על ידי המבוטח",
+      "תקופה לפירוק אביזרים: 10 ימים",
+      "ויתור על אביזרים: אם לא מפועל פירוק בתוך 10 ימים"
     ],
     "product_hints": [
-      "פוליסת ביטוח למשאית"
+      "ביטוח למשאית",
+      "מהדורת ספטמבר 2021"
     ]
   },
   "sketch": "-.  שרידי הרכב 7\nשילם המבטח למבוטח תגמולי ביטוח בשל אבדן גמור של הרכב, או אבדן גמור להלכה הוצאות פירוק של מיתקנים ואביזרים שאינם מצוינים בחבילה הבסיסית של דגם הרכב הקבועים במפרט היבואן, ואשר לא\n. של הרכב, תעבור הבעלות בשרידי הרכב למבטח ניזוקו במקרה הביטוח יחולו על המבוטח. במקרה שהמבוטח דרש את המתקנים והאביזרים המותקנים על הרכב, עליו לפעול באופן ימים 10 מידי לפירוקם וללקיחתם. לא יפעל המבוטח לפירוק האביזרים וללקיחתם בתוך\nמהיום שנקבע הרכב כאבדן גמור או אובדן גמור להלכה, יראו אותו כאילו ויתר עליהם.",
-  "embed_text": "פוליסת ביטוח למשאית מסדירה את הטיפול בשרידי הרכב לאחר אובדן גמור. אם המבוטח מעוניין במתקנים ואביזרים המותקנים על הרכב, עליו לפעול לפירוקם בתוך 10 ימים מיום קביעת הרכב כאבדן גמור, אחרת יראו אותו כמי שויתר עליהם. תנאי הפוליסה מגדירים את הבעלות בשרידי הרכב למבטח לאחר תשלום תגמולי הביטוח.",
-  "payload": "טבלה: שרידי רכב\nThis table details the handling of vehicle remains after a total loss. It outlines the process for the insured to reclaim installed equipment and the consequences of not doing so within 10 days.\nממדים: conditions related to vehicle remains after total loss, actions, timelines, and ownership transfer\n\n-.  שרידי הרכב 7\nשילם המבטח למבוטח תגמולי ביטוח בשל אבדן גמור של הרכב, או אבדן גמור להלכה הוצאות פירוק של מיתקנים ואביזרים שאינם מצוינים בחבילה הבסיסית של דגם הרכב הקבועים במפרט היבואן, ואשר לא\n. של הרכב, תעבור הבעלות בשרידי הרכב למבטח ניזוקו במקרה הביטוח יחולו על המבוטח. במקרה שהמבוטח דרש את המתקנים והאביזרים המותקנים על הרכב, עליו לפעול באופן ימים 10 מידי לפירוקם וללקיחתם. לא יפעל המבוטח לפירוק האביזרים וללקיחתם בתוך\nמהיום שנקבע הרכב כאבדן גמור או אובדן גמור להלכה, יראו אותו כאילו ויתר עליהם."
+  "embed_text": "טבלה זו מתארת את הטיפול בשאריות הרכב לאחר אובדן מוחלט. הפוליסה 'ביטוח למשאית מהדורת ספטמבר 2021' מסבירה כי לאחר תשלום תגמולי ביטוח בגין אובדן מוחלט, הבעלות על שרידי הרכב עוברת למבטח. המבוטח רשאי לדרוש את המתקנים והאביזרים המותקנים על הרכב, אך עליו לפעול לפירוקם בתוך 10 ימים. אם לא יפעל כך, יראו אותו כמי שויתר עליהם. הטיפול בשרידי הרכב, אביזרים, ומתקנים מוסדר כאן. ביטוח למשאית, אובדן מוחלט, אביזרים, מתקנים, פירוק. This table details the handling of vehicle remains after a total loss. It outlines the process for the insured to claim and remove installed equipment, and what happens if they fail to do so. בין הערכים בטבלה: אובדן גמור: העברת בעלות למבטח; ויתור על אביזרים: אם לא מפועל פירוק בתוך 10 ימים.",
+  "payload": "טבלה: שרידי רכב\nThis table details the handling of vehicle remains after a total loss. It outlines the process for the insured to claim and remove installed equipment, and what happens if they fail to do so.\nממדים: conditions related to vehicle remains after total loss, actions and responsibilities regarding the remains\n\n-.  שרידי הרכב 7\nשילם המבטח למבוטח תגמולי ביטוח בשל אבדן גמור של הרכב, או אבדן גמור להלכה הוצאות פירוק של מיתקנים ואביזרים שאינם מצוינים בחבילה הבסיסית של דגם הרכב הקבועים במפרט היבואן, ואשר לא\n. של הרכב, תעבור הבעלות בשרידי הרכב למבטח ניזוקו במקרה הביטוח יחולו על המבוטח. במקרה שהמבוטח דרש את המתקנים והאביזרים המותקנים על הרכב, עליו לפעול באופן ימים 10 מידי לפירוקם וללקיחתם. לא יפעל המבוטח לפירוק האביזרים וללקיחתם בתוך\nמהיום שנקבע הרכב כאבדן גמור או אובדן גמור להלכה, יראו אותו כאילו ויתר עליהם."
 }

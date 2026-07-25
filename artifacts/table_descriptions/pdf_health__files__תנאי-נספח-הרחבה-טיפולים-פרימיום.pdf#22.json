@@ -3,26 +3,24 @@
   "source": "llm",
   "description": {
     "title": "סכומי שיפוי",
-    "summary": "This table details maximum compensation amounts for the 'הרחבה טיפולים פרימיום' plan. It looks up compensation amounts based on an index, likely tied to inflation.",
-    "embed_passage": "תכנית 'הרחבה טיפולים פרימיום' מציעה סכומי שיפוי צמודים למדד 13396, אשר מתעדכנים בפברואר בכל שנה. הסכומים נקובים בש״ח, והם משתנים בהתאם לגיל המבוטח. לדוגמה, סכומי השיפוי המירביים יכולים להיות 2735.",
-    "row_axis": "Index/Identifier (e.g., 0,1,2,3)",
-    "column_axis": "Compensation Amounts, Contact Information",
+    "summary": "This table details maximum compensation amounts, indexed to the 13396 index, and adjusted monthly. It appears to be part of a health insurance policy.",
+    "embed_passage": "טבלה זו מציגה סכומי שיפוי מקסימליים בתכנית ביטוח בריאות 'הרחבה טיפולים פרימיום'. הסכומים מצויינים בש״ח וצמודים למדד 13396, ומתעדכנים מדי חודש. ניתן למצוא מידע נוסף בפוליסה, כולל כתובת, טלפון ופקס. הרחבה טיפולים פרימיום, 0,1,2,3, 2735, 037348178, polisotbs@harel-ins.co.il, 10951, 5200901, www.harel-group.co.il הם פרטים רלוונטיים.",
+    "row_axis": "סוגי טיפולים / קטגוריות שיפוי (not specified in sketch)",
+    "column_axis": "תקופות זמן / מדדים (not specified in sketch)",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "index: 0,1,2,3",
-      "year: 2023",
-      "phone: 037348178",
-      "index: 13396",
-      "amount: 2735"
+      "מדד: 13396",
+      "טלפון: 037348178",
+      "ת.ד: 10951",
+      "כתובת: 5200901 גן רמת, 3 הלל אבא"
     ],
     "product_hints": [
-      "הרחבה טיפולים פרימיום",
-      "הראל"
+      "הרחבה טיפולים פרימיום"
     ]
   },
   "sketch": "הצמד   ה .7\nויוצמדו 2023 אר ם בפברו ר פורס ת אש נקודו 13396 ם למד   ד סכומי השיפוי המירביים לעיל נקובים בש\"ח וצמודי . ד מד  י חודש למד\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",האינטרנט אתר ת תוב כ www.harel-group.co.il",
-  "embed_text": "תכנית 'הרחבה טיפולים פרימיום' מציעה סכומי שיפוי צמודים למדד 13396, אשר מתעדכנים בפברואר בכל שנה. הסכומים נקובים בש״ח, והם משתנים בהתאם לגיל המבוטח. לדוגמה, סכומי השיפוי המירביים יכולים להיות 2735.",
-  "payload": "טבלה: סכומי שיפוי\nThis table details maximum compensation amounts for the 'הרחבה טיפולים פרימיום' plan. It looks up compensation amounts based on an index, likely tied to inflation.\nממדים: Index/Identifier (e.g., 0,1,2,3), Compensation Amounts, Contact Information\n\nהצמד   ה .7\nויוצמדו 2023 אר ם בפברו ר פורס ת אש נקודו 13396 ם למד   ד סכומי השיפוי המירביים לעיל נקובים בש\"ח וצמודי . ד מד  י חודש למד\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",האינטרנט אתר ת תוב כ www.harel-group.co.il"
+  "embed_text": "טבלה זו מציגה סכומי שיפוי מקסימליים בתכנית ביטוח בריאות 'הרחבה טיפולים פרימיום'. הסכומים מצויינים בש״ח וצמודים למדד 13396, ומתעדכנים מדי חודש. ניתן למצוא מידע נוסף בפוליסה, כולל כתובת, טלפון ופקס. הרחבה טיפולים פרימיום, 0,1,2,3, 2735, 037348178, polisotbs@harel-ins.co.il, 10951, 5200901, www.harel-group.co.il הם פרטים רלוונטיים. This table details maximum compensation amounts, indexed to the 13396 index, and adjusted monthly. It appears to be part of a health insurance policy.",
+  "payload": "טבלה: סכומי שיפוי\nThis table details maximum compensation amounts, indexed to the 13396 index, and adjusted monthly. It appears to be part of a health insurance policy.\nממדים: סוגי טיפולים / קטגוריות שיפוי (not specified in sketch), תקופות זמן / מדדים (not specified in sketch)\n\nהצמד   ה .7\nויוצמדו 2023 אר ם בפברו ר פורס ת אש נקודו 13396 ם למד   ד סכומי השיפוי המירביים לעיל נקובים בש\"ח וצמודי . ד מד  י חודש למד\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",האינטרנט אתר ת תוב כ www.harel-group.co.il"
 }

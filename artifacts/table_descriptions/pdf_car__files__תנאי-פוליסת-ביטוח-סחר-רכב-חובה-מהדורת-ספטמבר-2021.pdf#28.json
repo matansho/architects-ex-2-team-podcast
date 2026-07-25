@@ -2,27 +2,23 @@
   "id": "pdf:car/files/תנאי-פוליסת-ביטוח-סחר-רכב-חובה-מהדורת-ספטמבר-2021.pdf#28",
   "source": "llm",
   "description": {
-    "title": "ביטול פוליסה",
-    "summary": "This table details the cancellation policy for a car insurance policy. It specifies the refund amount based on the duration the policy was active.",
-    "embed_passage": "פוליסת ביטוח סחר רכב חובה מאפשרת לבעל הפוליסה לבטל אותה בכל עת. במקרה של ביטול, יוחזר לבעל הפוליסה החזר על דמי הביטוח בהתאם לתקופת הכיסוי. לדוגמה, עבור תקופה של עד שבעה ימים, יוחזרו 95% מדמי הביטוח השנתיים.",
-    "row_axis": "Cancellation scenarios/conditions",
+    "title": "ביטול הפוליסה",
+    "summary": "This table details the conditions for policy cancellation by the policyholder and the refund of premiums. It specifies the percentage of premiums returned based on the duration the policy was in effect.",
+    "embed_passage": "טבלה זו מתארת את תנאי ביטול הפוליסה על ידי בעל הפוליסה ואת החזר דמי הביטוח. ניתן לבטל את הפוליסה בכל עת, אך החזר דמי הביטוח מחושב בהתאם לתקופת הכיסוי. החזרים מחושבים כאחוז מדמי הביטוח השנתיים, בהתאם למספר הימים שהפוליסה הייתה בתוקף. ביטול הפוליסה, דמי ביטוח שנתיים, 5%, 0.3%, תקופת ביטוח. ניתן לקבל החזר גם אם הוגשה תביעה לפני הביטול. פוליסת סחר רכב חובה מהדורת ספטמבר 2021.",
+    "row_axis": "Cancellation conditions",
     "column_axis": "Refund details",
     "units": [
-      "%",
-      "ימים"
+      "%"
     ],
     "notable_values": [
-      "תקופה עד 7 ימים: 5%",
-      "תקופה מעל 7 ימים: 0.3% ליום",
-      "החזר מקסימלי: 95%",
-      "סעיף: 15.1",
-      "סעיף: 15.2"
+      "תקופה עד שבעה ימים: 5%",
+      "תקופה מעל שבעה ימים: 0.3%"
     ],
     "product_hints": [
-      "ביטוח סחר רכב חובה"
+      "פוליסת רכב חובה"
     ]
   },
   "sketch": ". ביטול הפוליסה על ידי בעל הפוליסה 15\n.  בעל הפוליסה רשאי, בהודעה למבטח, לבטל פוליסה זו בכל עת אף לפני תום תקופת 15.1 הביטוח.\n.  בוטלה הפוליסה לפי סעיף זה, יחזיר המבטח לבעל הפוליסה בהקדם, ולא יאוחר 15.2 ימים מהמועד שבו נכנס הביטול לתוקף, את דמי הביטוח ששולמו, בהפחתת 14מ סכומים אלה:",
-  "embed_text": "פוליסת ביטוח סחר רכב חובה מאפשרת לבעל הפוליסה לבטל אותה בכל עת. במקרה של ביטול, יוחזר לבעל הפוליסה החזר על דמי הביטוח בהתאם לתקופת הכיסוי. לדוגמה, עבור תקופה של עד שבעה ימים, יוחזרו 95% מדמי הביטוח השנתיים.",
-  "payload": "טבלה: ביטול פוליסה\nThis table details the cancellation policy for a car insurance policy. It specifies the refund amount based on the duration the policy was active.\nממדים: Cancellation scenarios/conditions, Refund details\n\n. ביטול הפוליסה על ידי בעל הפוליסה 15\n.  בעל הפוליסה רשאי, בהודעה למבטח, לבטל פוליסה זו בכל עת אף לפני תום תקופת 15.1 הביטוח.\n.  בוטלה הפוליסה לפי סעיף זה, יחזיר המבטח לבעל הפוליסה בהקדם, ולא יאוחר 15.2 ימים מהמועד שבו נכנס הביטול לתוקף, את דמי הביטוח ששולמו, בהפחתת 14מ סכומים אלה:"
+  "embed_text": "טבלה זו מתארת את תנאי ביטול הפוליסה על ידי בעל הפוליסה ואת החזר דמי הביטוח. ניתן לבטל את הפוליסה בכל עת, אך החזר דמי הביטוח מחושב בהתאם לתקופת הכיסוי. החזרים מחושבים כאחוז מדמי הביטוח השנתיים, בהתאם למספר הימים שהפוליסה הייתה בתוקף. ביטול הפוליסה, דמי ביטוח שנתיים, 5%, 0.3%, תקופת ביטוח. ניתן לקבל החזר גם אם הוגשה תביעה לפני הביטול. פוליסת סחר רכב חובה מהדורת ספטמבר 2021. This table details the conditions for policy cancellation by the policyholder and the refund of premiums. It specifies the percentage of premiums returned based on the duration the policy was in effect.",
+  "payload": "טבלה: ביטול הפוליסה\nThis table details the conditions for policy cancellation by the policyholder and the refund of premiums. It specifies the percentage of premiums returned based on the duration the policy was in effect.\nממדים: Cancellation conditions, Refund details\n\n. ביטול הפוליסה על ידי בעל הפוליסה 15\n.  בעל הפוליסה רשאי, בהודעה למבטח, לבטל פוליסה זו בכל עת אף לפני תום תקופת 15.1 הביטוח.\n.  בוטלה הפוליסה לפי סעיף זה, יחזיר המבטח לבעל הפוליסה בהקדם, ולא יאוחר 15.2 ימים מהמועד שבו נכנס הביטול לתוקף, את דמי הביטוח ששולמו, בהפחתת 14מ סכומים אלה:"
 }

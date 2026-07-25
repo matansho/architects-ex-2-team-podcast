@@ -3,21 +3,19 @@
   "source": "llm",
   "description": {
     "title": "השתתפות עצמית",
-    "summary": "This table details the self-participation (deductible) amount the insured must pay before the insurance coverage applies. It outlines how this self-participation applies to claims, expenses, and the overall policy limits.",
-    "embed_passage": "פוליסת ביטוח אחריות מקצועית למוסדות רפואיים מגדירה את ההשתתפות העצמית של המבוטח בכל מקרה של תביעה או הוצאות. סכום ההשתתפות העצמית משפיע על גבולות האחריות של הפוליסה ועל ההוצאות שהחברה תשלם בגין הטיפול בתביעה. לדוגמה, סכום ההשתתפות העצמית יחול גם על הוצאות שהוציא המבטח תוך כדי טיפול בתביעה.",
-    "row_axis": "Scenarios related to claims and expenses",
-    "column_axis": "Details of self-participation (deductible)",
+    "summary": "This table details the self-participation (deductible) of the insured in case of a claim. It outlines how the self-participation applies to expenses incurred during claim handling, even if no compensation is ultimately paid.",
+    "embed_passage": "טבלה זו מתארת את ההשתתפות העצמית של המבוטח במקרה של תביעה, כפי שהוגדרה בסעיף ההגדרות בפוליסה. המבטח לא יהיה אחראי לפצות או לשפות אלא רק בסכום העולה על השתתפות זו. סכום ההשתתפות העצמית יחול גם על הוצאות שהוציא המבטח תוך כדי טיפול בתביעה, גם אם לא שולמו פיצויים. ההשתתפות העצמית מהווה רובד ראשון בפוליסה וכלולה במסגרת גבולות האחריות. פוליסת ביטוח אחריות מקצועית למוסדות רפואיים מהדורת אוקטובר 2018 עוסקת בתנאים אלו.",
+    "row_axis": "conditions related to self-participation",
+    "column_axis": "details of self-participation application",
     "units": [],
     "notable_values": [
-      "סעיף: 5.13",
-      "השתתפות עצמית: כל מקרה של תביעה",
-      "הוצאות: כל הוצאות הקשורות לטיפול בתביעה"
+      "השתתפות עצמית: as defined in the definitions section"
     ],
     "product_hints": [
-      "ביטוח אחריות מקצועית למוסדות רפואיים"
+      "פוליסת ביטוח אחריות מקצועית למוסדות רפואיים"
     ]
   },
   "sketch": "השתתפות עצמית . 5.13\nבכל מקרה של תביעה ו/או הוצאות שיעמדו לתשלום, ישא המבוטח בהשתתפות עצמית כהגדרתה בסעיף ההגדרות, והמבטח לא יהיה אחראי לפצות / לשפות (לפי העניין) אלא רק בסכום העולה על השתתפות זו.\nלמען הסר ספק, סכום ההשתתפות העצמית יחול גם על הוצאות שהוציא המבטח תוך כדי טיפול בתביעה ו/או דרישה לפיצוי ו/או הודעה על כל אירוע העלול לגרום לתביעה, וזאת אף אם לא שולמו פיצויים בגינם.\nהשתתפותו העצמית של המבוטח בגין מקרה ביטוח מהווה רובד ראשון בפוליסה וכלולה במסגרת גבולות האחריות בפוליסה ובמסגרת ההוצאות שתוציא החברה בגין הטיפול בתביעה ואינה בנוסף עליהם.",
-  "embed_text": "פוליסת ביטוח אחריות מקצועית למוסדות רפואיים מגדירה את ההשתתפות העצמית של המבוטח בכל מקרה של תביעה או הוצאות. סכום ההשתתפות העצמית משפיע על גבולות האחריות של הפוליסה ועל ההוצאות שהחברה תשלם בגין הטיפול בתביעה. לדוגמה, סכום ההשתתפות העצמית יחול גם על הוצאות שהוציא המבטח תוך כדי טיפול בתביעה.",
-  "payload": "טבלה: השתתפות עצמית\nThis table details the self-participation (deductible) amount the insured must pay before the insurance coverage applies. It outlines how this self-participation applies to claims, expenses, and the overall policy limits.\nממדים: Scenarios related to claims and expenses, Details of self-participation (deductible)\n\nהשתתפות עצמית . 5.13\nבכל מקרה של תביעה ו/או הוצאות שיעמדו לתשלום, ישא המבוטח בהשתתפות עצמית כהגדרתה בסעיף ההגדרות, והמבטח לא יהיה אחראי לפצות / לשפות (לפי העניין) אלא רק בסכום העולה על השתתפות זו.\nלמען הסר ספק, סכום ההשתתפות העצמית יחול גם על הוצאות שהוציא המבטח תוך כדי טיפול בתביעה ו/או דרישה לפיצוי ו/או הודעה על כל אירוע העלול לגרום לתביעה, וזאת אף אם לא שולמו פיצויים בגינם.\nהשתתפותו העצמית של המבוטח בגין מקרה ביטוח מהווה רובד ראשון בפוליסה וכלולה במסגרת גבולות האחריות בפוליסה ובמסגרת ההוצאות שתוציא החברה בגין הטיפול בתביעה ואינה בנוסף עליהם."
+  "embed_text": "טבלה זו מתארת את ההשתתפות העצמית של המבוטח במקרה של תביעה, כפי שהוגדרה בסעיף ההגדרות בפוליסה. המבטח לא יהיה אחראי לפצות או לשפות אלא רק בסכום העולה על השתתפות זו. סכום ההשתתפות העצמית יחול גם על הוצאות שהוציא המבטח תוך כדי טיפול בתביעה, גם אם לא שולמו פיצויים. ההשתתפות העצמית מהווה רובד ראשון בפוליסה וכלולה במסגרת גבולות האחריות. פוליסת ביטוח אחריות מקצועית למוסדות רפואיים מהדורת אוקטובר 2018 עוסקת בתנאים אלו. This table details the self-participation (deductible) of the insured in case of a claim. It outlines how the self-participation applies to expenses incurred during claim handling, even if no compensation is ultimately paid. בין הערכים בטבלה: השתתפות עצמית: as defined in the definitions section.",
+  "payload": "טבלה: השתתפות עצמית\nThis table details the self-participation (deductible) of the insured in case of a claim. It outlines how the self-participation applies to expenses incurred during claim handling, even if no compensation is ultimately paid.\nממדים: conditions related to self-participation, details of self-participation application\n\nהשתתפות עצמית . 5.13\nבכל מקרה של תביעה ו/או הוצאות שיעמדו לתשלום, ישא המבוטח בהשתתפות עצמית כהגדרתה בסעיף ההגדרות, והמבטח לא יהיה אחראי לפצות / לשפות (לפי העניין) אלא רק בסכום העולה על השתתפות זו.\nלמען הסר ספק, סכום ההשתתפות העצמית יחול גם על הוצאות שהוציא המבטח תוך כדי טיפול בתביעה ו/או דרישה לפיצוי ו/או הודעה על כל אירוע העלול לגרום לתביעה, וזאת אף אם לא שולמו פיצויים בגינם.\nהשתתפותו העצמית של המבוטח בגין מקרה ביטוח מהווה רובד ראשון בפוליסה וכלולה במסגרת גבולות האחריות בפוליסה ובמסגרת ההוצאות שתוציא החברה בגין הטיפול בתביעה ואינה בנוסף עליהם."
 }

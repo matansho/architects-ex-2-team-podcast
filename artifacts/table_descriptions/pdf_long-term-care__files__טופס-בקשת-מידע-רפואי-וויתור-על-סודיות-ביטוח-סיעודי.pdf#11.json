@@ -2,20 +2,18 @@
   "id": "pdf:long-term-care/files/טופס-בקשת-מידע-רפואי-וויתור-על-סודיות-ביטוח-סיעודי.pdf#11",
   "source": "llm",
   "description": {
-    "title": "רשימת גורמים רפואיים",
-    "summary": "This table lists medical institutions, labs, and doctors a person has received services from. It's used to provide details for a long-term care information request.",
-    "embed_passage": "טופס זה מאפשר לפרט את שמות הרופאים, המכונים ומעבדות מהם קיבלתי שירותים רפואיים. המטרה היא לייעל את תהליך בקשת המידע הרפואי עבור ביטוח סיעודי. ניתן לפרט עד 5 גורמים רפואיים.",
-    "row_axis": "Medical service provider",
-    "column_axis": "Details of the provider (name, institution type)",
+    "title": "רשימת מכונים רפואיים",
+    "summary": "This table lists medical facilities, laboratories, and institutions where the insured received services. It is used to detail healthcare providers for long-term care information requests.",
+    "embed_passage": "טבלה זו מפרטת רשימה של מכונים, מעבדות ומוסדות רפואיים שבהם קיבל המבוטח שירותים, לצורך ייעול תהליך בקשת מידע רפואי במסגרת ביטוח סיעודי. המטרה היא לאפשר זיהוי מהיר של ספקי שירותי הבריאות הרלוונטיים. הרשימה כוללת מכונים, מעבדות ומוסדות רפואיים. ניתן לפרט שמות של רופאים, מכונים, מעבדות או מוסדות. המידע נאסף לצורך בקשת מידע רפואי.",
+    "row_axis": "שירות רפואי",
+    "column_axis": "פרטי מכון/מעבדה/מוסד",
     "units": [],
-    "notable_values": [
-      "Number of providers: 5"
-    ],
+    "notable_values": [],
     "product_hints": [
       "ביטוח סיעודי"
     ]
   },
   "sketch": "ה לצורך ייעול התהליך אפשר לפרט את שמות הרופאים, המכונים, מעבדות או מוסדות\nמכונים, מעבדות, מוסדות מהם קיבלתי שירותים",
-  "embed_text": "טופס זה מאפשר לפרט את שמות הרופאים, המכונים ומעבדות מהם קיבלתי שירותים רפואיים. המטרה היא לייעל את תהליך בקשת המידע הרפואי עבור ביטוח סיעודי. ניתן לפרט עד 5 גורמים רפואיים.",
-  "payload": "טבלה: רשימת גורמים רפואיים\nThis table lists medical institutions, labs, and doctors a person has received services from. It's used to provide details for a long-term care information request.\nממדים: Medical service provider, Details of the provider (name, institution type)\n\nה לצורך ייעול התהליך אפשר לפרט את שמות הרופאים, המכונים, מעבדות או מוסדות\nמכונים, מעבדות, מוסדות מהם קיבלתי שירותים"
+  "embed_text": "טבלה זו מפרטת רשימה של מכונים, מעבדות ומוסדות רפואיים שבהם קיבל המבוטח שירותים, לצורך ייעול תהליך בקשת מידע רפואי במסגרת ביטוח סיעודי. המטרה היא לאפשר זיהוי מהיר של ספקי שירותי הבריאות הרלוונטיים. הרשימה כוללת מכונים, מעבדות ומוסדות רפואיים. ניתן לפרט שמות של רופאים, מכונים, מעבדות או מוסדות. המידע נאסף לצורך בקשת מידע רפואי. This table lists medical facilities, laboratories, and institutions where the insured received services. It is used to detail healthcare providers for long-term care information requests.",
+  "payload": "טבלה: רשימת מכונים רפואיים\nThis table lists medical facilities, laboratories, and institutions where the insured received services. It is used to detail healthcare providers for long-term care information requests.\nממדים: שירות רפואי, פרטי מכון/מעבדה/מוסד\n\nה לצורך ייעול התהליך אפשר לפרט את שמות הרופאים, המכונים, מעבדות או מוסדות\nמכונים, מעבדות, מוסדות מהם קיבלתי שירותים"
 }

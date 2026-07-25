@@ -2,24 +2,25 @@
   "id": "pdf:business/files/מכלול-למושב-ינואר-2023.pdf#34",
   "source": "llm",
   "description": {
-    "title": "סייגים לביטוח רכוש",
-    "summary": "This table lists exclusions to coverage under the general property insurance section of a policy. It details situations where the insurer will not provide compensation for damages.",
-    "embed_passage": "פוליסת 'מכלול' למושב ינואר 2023 כוללת סייגים מיוחדים לפרק הראשון, ביטוח רכוש כללי. הסייגים מתייחסים לנזקים שנגרמו כתוצאה מתהליכים טבעיים כמו כפור, קרה או בצורת, וכן לנזקים לרכוש מכוסה בביטוח ימי או אווירי. לדוגמה, נזק שייגרם לעצי מטע נטוש אינו מכוסה.",
-    "row_axis": "exclusion type",
-    "column_axis": "details of exclusion",
+    "title": "סייגים מיוחדים לפרק ראשון",
+    "summary": "This table lists special exclusions to the first chapter of an insurance policy. It details situations where the insurer will not provide compensation to the insured.",
+    "embed_passage": "טבלה זו מפרטת סייגים מיוחדים לפרק הראשון של פוליסת ביטוח רכוש כללי של מכלול. הסייגים מתארים נזקים או מצבים שאינם מכוסים על ידי הפוליסה, כגון נזק שנגרם כתוצאה מבלאי או כפור. מטרת הטבלה היא להבהיר את היקף הכיסוי הביטוחי ולסייע למבוטח להבין אילו נזקים אינם כלולים בפוליסה. הסייגים מפורטים בהתאם לחלק ג' של הפוליסה. נזק שייגרם לעצי מטע נטוש או המיועד לעקירה, נזק שטבעו בלאי, פחת או תהליך הדרגתי, נזק שייגרם על ידי כפור, קרה, בצורת, שרב, נזק שייגרם על ידי שקיעת קרקע או גלישת קרקע.",
+    "row_axis": "exclusion reason",
+    "column_axis": "exclusion details",
     "units": [],
     "notable_values": [
-      "exclusion category: 2.1",
-      "exclusion type: נזק שייגרם לעצי מטע נטוש",
-      "exclusion type: נזק שטבעו בלאי",
-      "exclusion type: נזק שייגרם על ידי כפור",
-      "exclusion type: נזק שייגרם על ידי שקיעת קרקע"
+      "סייגים מיוחדים לפרק ראשון: 2",
+      "נזק לעצי מטע נטוש: true",
+      "נזק מבלאי/פחת: true",
+      "נזק מכפור/קרה/בצורת/שרב: true",
+      "נזק משקיעת קרקע: true"
     ],
     "product_hints": [
-      "מכלול"
+      "מכלול",
+      "ביטוח רכוש כללי"
     ]
   },
   "sketch": ".  סייגים מיוחדים לפרק ראשון 2 מבלי לגרוע מהאמור בחלק ג' לפוליסה )סייגים כלליים לכל חלקי הפוליסה( לעיל ואלא אם צוין אחרת בדף הרשימה, המבטח לא ישפה את המבוטח וכן לא ישלם תגמולי ,\nביטוח כלשהם, על פי פרק ראשון זה, בגין או בקשר עם מקרה ביטוח שייגרם או הנובע במישרין או בעקיפין, בקשר עם כל המפורט להלן:",
-  "embed_text": "פוליסת 'מכלול' למושב ינואר 2023 כוללת סייגים מיוחדים לפרק הראשון, ביטוח רכוש כללי. הסייגים מתייחסים לנזקים שנגרמו כתוצאה מתהליכים טבעיים כמו כפור, קרה או בצורת, וכן לנזקים לרכוש מכוסה בביטוח ימי או אווירי. לדוגמה, נזק שייגרם לעצי מטע נטוש אינו מכוסה.",
-  "payload": "טבלה: סייגים לביטוח רכוש\nThis table lists exclusions to coverage under the general property insurance section of a policy. It details situations where the insurer will not provide compensation for damages.\nממדים: exclusion type, details of exclusion\n\n.  סייגים מיוחדים לפרק ראשון 2 מבלי לגרוע מהאמור בחלק ג' לפוליסה )סייגים כלליים לכל חלקי הפוליסה( לעיל ואלא אם צוין אחרת בדף הרשימה, המבטח לא ישפה את המבוטח וכן לא ישלם תגמולי ,\nביטוח כלשהם, על פי פרק ראשון זה, בגין או בקשר עם מקרה ביטוח שייגרם או הנובע במישרין או בעקיפין, בקשר עם כל המפורט להלן:"
+  "embed_text": "טבלה זו מפרטת סייגים מיוחדים לפרק הראשון של פוליסת ביטוח רכוש כללי של מכלול. הסייגים מתארים נזקים או מצבים שאינם מכוסים על ידי הפוליסה, כגון נזק שנגרם כתוצאה מבלאי או כפור. מטרת הטבלה היא להבהיר את היקף הכיסוי הביטוחי ולסייע למבוטח להבין אילו נזקים אינם כלולים בפוליסה. הסייגים מפורטים בהתאם לחלק ג' של הפוליסה. נזק שייגרם לעצי מטע נטוש או המיועד לעקירה, נזק שטבעו בלאי, פחת או תהליך הדרגתי, נזק שייגרם על ידי כפור, קרה, בצורת, שרב, נזק שייגרם על ידי שקיעת קרקע או גלישת קרקע. This table lists special exclusions to the first chapter of an insurance policy. It details situations where the insurer will not provide compensation to the insured. בין הערכים בטבלה: סייגים מיוחדים לפרק ראשון: 2; נזק לעצי מטע נטוש: true; נזק מבלאי/פחת: true; נזק מכפור/קרה/בצורת/שרב: true; נזק משקיעת קרקע: true.",
+  "payload": "טבלה: סייגים מיוחדים לפרק ראשון\nThis table lists special exclusions to the first chapter of an insurance policy. It details situations where the insurer will not provide compensation to the insured.\nממדים: exclusion reason, exclusion details\n\n.  סייגים מיוחדים לפרק ראשון 2 מבלי לגרוע מהאמור בחלק ג' לפוליסה )סייגים כלליים לכל חלקי הפוליסה( לעיל ואלא אם צוין אחרת בדף הרשימה, המבטח לא ישפה את המבוטח וכן לא ישלם תגמולי ,\nביטוח כלשהם, על פי פרק ראשון זה, בגין או בקשר עם מקרה ביטוח שייגרם או הנובע במישרין או בעקיפין, בקשר עם כל המפורט להלן:"
 }

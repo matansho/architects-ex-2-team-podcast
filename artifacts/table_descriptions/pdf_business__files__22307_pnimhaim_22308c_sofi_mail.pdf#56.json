@@ -2,22 +2,21 @@
   "id": "pdf:business/files/22307_pnimhaim_22308c_sofi_mail.pdf#56",
   "source": "llm",
   "description": {
-    "title": "פטור מחבות",
-    "summary": "This table outlines conditions for exemption from insurance liability. It details scenarios where the insurer is not obligated to pay benefits, such as intentional acts by the insured or failure to cooperate with the investigation.",
-    "embed_passage": "פוליסת הביטוח 'פנים חיים' מגדירה מספר מצבים בהם המבטח פטור מחבות. לדוגמה, אם נגרם מקרה הביטוח על ידי המבוטח במתכוון, המבטח לא חייב בתגמולי ביטוח. כמו כן, אם המבוטח עשה במתכוון דבר שמנע מהמבטח את בירור חבותו, ייתכן שהמבטח לא יחויב בתשלום.",
+    "title": "פטור המבטח מחבותו",
+    "summary": "This table outlines conditions for exemption from insurance liability. It details scenarios where the insurer is not obligated to pay benefits, based on the insured's actions or circumstances surrounding the insurance event.",
+    "embed_passage": "טבלה זו מתארת מצבים בהם המבטח פטור מחבות, בהתאם לנסיבות קרות מקרה הביטוח או התנהגות המבוטח. מטרת הטבלה היא להבהיר את התנאים בהם תגמולי הביטוח לא ישולמו. הטבלה רלוונטית לכל מקרה ביטוח וחשובה להבנת זכויות וחובות הצדדים. מצבים אלו כוללים: נגרם מקרה הביטוח על ידי המבוטח במתכוון, עשה המבוטח במתכוון דבר שהיה בו כדי למנוע מהמבטח את בירור חבותו, או אי קיומה או איחורה של חובה לא מנע מן המבטח את בירור חבותו. כמו כן, המבטח לא חייב בתגמולי ביטוח בגין נזק שהמבוטח יכול היה למנוע או להקטין.",
     "row_axis": "conditions for exemption from liability",
     "column_axis": "exemption criteria",
     "units": [],
     "notable_values": [
-      "intentional act: exempt",
-      "failure to cooperate: potential exemption",
-      "preventing investigation: potential exemption"
+      "נגרם מקרה הביטוח על ידי המבוטח במתכוון: פטור המבטח מחבותו",
+      "עשה המבוטח במתכוון דבר שהיה בו כדי למנוע מהמבטח את בירור חבותו: פטור המבטח מחבותו",
+      "אי קיומה או איחורה לא מנע מן המבטח את בירור חבותו: פטור המבטח מחבותו",
+      "המבוטח יכול היה למנוע, או להקטין נזק: המבטח לא חייב בתגמולי ביטוח"
     ],
-    "product_hints": [
-      "פנים חיים"
-    ]
+    "product_hints": []
   },
   "sketch": ") אי קיומה או איחורה לא מנע מן המבטח את בירור חבותו ולא הכביד על הבירור. 2(\nעשה המבוטח במתכוון דבר שהיה בו כדי למנוע מהמבטח את בירור חבותו ט. או להכביד עליו, אין המבטח חייב בתגמולי ביטוח, אלא במידה שהיה חייב בהם, אילו לא נעשה אותו דבר.\nנגרם מקרה הביטוח על ידי המבוטח במתכוון- פטור המבטח מחבותו; י.\nחייב בתגמולי ביטוח בגין נזק שהמבוטח יכול היה למנוע, או להקטין המבטח יא. אין בקרות מקרה הביטוח או לאחר מכן, בנקיטת אמצעים סבירים או אמצעים שהמבטח הורה לו לנקוט.",
-  "embed_text": "פוליסת הביטוח 'פנים חיים' מגדירה מספר מצבים בהם המבטח פטור מחבות. לדוגמה, אם נגרם מקרה הביטוח על ידי המבוטח במתכוון, המבטח לא חייב בתגמולי ביטוח. כמו כן, אם המבוטח עשה במתכוון דבר שמנע מהמבטח את בירור חבותו, ייתכן שהמבטח לא יחויב בתשלום.",
-  "payload": "טבלה: פטור מחבות\nThis table outlines conditions for exemption from insurance liability. It details scenarios where the insurer is not obligated to pay benefits, such as intentional acts by the insured or failure to cooperate with the investigation.\nממדים: conditions for exemption from liability, exemption criteria\n\n) אי קיומה או איחורה לא מנע מן המבטח את בירור חבותו ולא הכביד על הבירור. 2(\nעשה המבוטח במתכוון דבר שהיה בו כדי למנוע מהמבטח את בירור חבותו ט. או להכביד עליו, אין המבטח חייב בתגמולי ביטוח, אלא במידה שהיה חייב בהם, אילו לא נעשה אותו דבר.\nנגרם מקרה הביטוח על ידי המבוטח במתכוון- פטור המבטח מחבותו; י.\nחייב בתגמולי ביטוח בגין נזק שהמבוטח יכול היה למנוע, או להקטין המבטח יא. אין בקרות מקרה הביטוח או לאחר מכן, בנקיטת אמצעים סבירים או אמצעים שהמבטח הורה לו לנקוט."
+  "embed_text": "טבלה זו מתארת מצבים בהם המבטח פטור מחבות, בהתאם לנסיבות קרות מקרה הביטוח או התנהגות המבוטח. מטרת הטבלה היא להבהיר את התנאים בהם תגמולי הביטוח לא ישולמו. הטבלה רלוונטית לכל מקרה ביטוח וחשובה להבנת זכויות וחובות הצדדים. מצבים אלו כוללים: נגרם מקרה הביטוח על ידי המבוטח במתכוון, עשה המבוטח במתכוון דבר שהיה בו כדי למנוע מהמבטח את בירור חבותו, או אי קיומה או איחורה של חובה לא מנע מן המבטח את בירור חבותו. כמו כן, המבטח לא חייב בתגמולי ביטוח בגין נזק שהמבוטח יכול היה למנוע או להקטין. This table outlines conditions for exemption from insurance liability. It details scenarios where the insurer is not obligated to pay benefits, based on the insured's actions or circumstances surrounding the insurance event. בין הערכים בטבלה: אי קיומה או איחורה לא מנע מן המבטח את בירור חבותו: פטור המבטח מחבותו.",
+  "payload": "טבלה: פטור המבטח מחבותו\nThis table outlines conditions for exemption from insurance liability. It details scenarios where the insurer is not obligated to pay benefits, based on the insured's actions or circumstances surrounding the insurance event.\nממדים: conditions for exemption from liability, exemption criteria\n\n) אי קיומה או איחורה לא מנע מן המבטח את בירור חבותו ולא הכביד על הבירור. 2(\nעשה המבוטח במתכוון דבר שהיה בו כדי למנוע מהמבטח את בירור חבותו ט. או להכביד עליו, אין המבטח חייב בתגמולי ביטוח, אלא במידה שהיה חייב בהם, אילו לא נעשה אותו דבר.\nנגרם מקרה הביטוח על ידי המבוטח במתכוון- פטור המבטח מחבותו; י.\nחייב בתגמולי ביטוח בגין נזק שהמבוטח יכול היה למנוע, או להקטין המבטח יא. אין בקרות מקרה הביטוח או לאחר מכן, בנקיטת אמצעים סבירים או אמצעים שהמבטח הורה לו לנקוט."
 }

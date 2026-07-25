@@ -2,26 +2,23 @@
   "id": "pdf:business/files/תנאי-פוליסה-ביטוח-מכלול-למשרד-מהדורת-ינואר-2024.pdf#259",
   "source": "llm",
   "description": {
-    "title": "דמי ביטוח – מכלול",
-    "summary": "This table details late payment terms for 'Mekhalel' insurance policies. It outlines interest accrual and potential policy cancellation timelines for unpaid premiums.",
-    "embed_passage": "פוליסת ביטוח מכלול קובעת תנאים לתשלום דמי ביטוח. במקרה של אי תשלום, הסכום שבפיגור יישא ריבית כמשמעותה בחוק פסיקת ריבית והצמדה, תשכ״א-1961. לדוגמה, פיגור בתשלום יגרור ריבית מהיום שבו החל הפיגור ועד ליום פירעון מלוא הסכום.",
-    "row_axis": "Scenario related to late premium payment",
-    "column_axis": "Timeframe / Action (e.g., days until interest, days until cancellation)",
-    "units": [
-      "ימים"
-    ],
+    "title": "תנאי פוליסה - מכלול",
+    "summary": "This table outlines the terms for late payment of insurance premiums under the 'Mekhalel' policy. It details interest accrual and potential policy cancellation due to non-payment.",
+    "embed_passage": "טבלה זו מתארת את התנאים לתשלום דמי ביטוח מאוחרים במסגרת פוליסת 'מכלול'. היא מפרטת את הצטברות הריבית ואת האפשרות לביטול הפוליסה עקב אי תשלום. ניתן לעיין בטבלה כדי להבין את הריבית שבפיגור, ימי החסד לתשלום, ואת ההשלכות של אי עמידה במועדי התשלום. הפוליסה עוסקת בתשלום דמי ביטוח ודמים אחרים, וכן בריבית כמשמעותה בחוק פסיקת ריבית והצמדה, תשכ״א - 1961. הריבית שבפיגור, ימי החסד, וביטול הפוליסה הם נושאים מרכזיים. מכלול, דמי ביטוח, ריבית, פיגור, ביטול פוליסה.",
+    "row_axis": "conditions related to late premium payment",
+    "column_axis": "details of late payment terms (e.g., interest, grace periods)",
+    "units": [],
     "notable_values": [
-      "28: Days to pay premiums",
-      "15: Days after written demand for payment before action can be taken",
-      "21: Additional days before cancellation after demand",
-      "1961: Year of the Interest and Indexation Law",
-      "תשכ״א-1961: Year of the Interest and Indexation Law (Hebrew)"
+      "חוק פסיקת ריבית והצמדה: 1961",
+      "ימי חסד לתשלום: 15",
+      "ימי חסד נוספים: 21",
+      "ריבית שבפיגור: חוק פסיקת ריבית והצמדה, תשכ״א"
     ],
     "product_hints": [
-      "Mekhalel"
+      "מכלול"
     ]
   },
   "sketch": ".9.5.3 למען הסר ספק, מובהר בזאת כי אם נקבעו דמי ביטוח כפיקדון או הכפופים להתאמה, לא יהיה בפוליסה זו או בחידושה או בביטולה משום ויתור על ביצוע התאמה לגבי תקופת ביטוח כלשהי שקדמה לתקופת הביטוח בפוליסה זו.\n.9.5.4 לא שולמו דמי הביטוח במועדים המוסכמים, יישא הסכום שבפיגור אף : (להלן 1961ריבית כמשמעותה בחוק פסיקת ריבית והצמדה, תשכ\"א\n\"הריבית שבפיגור\"), מן היום שבו החל הפיגור ועד ליום פירעון מלוא הסכום שבפיגור. יובהר כי אם הריבית נקבעה בדין, תחול הריבית שנקבעה בדין.",
-  "embed_text": "פוליסת ביטוח מכלול קובעת תנאים לתשלום דמי ביטוח. במקרה של אי תשלום, הסכום שבפיגור יישא ריבית כמשמעותה בחוק פסיקת ריבית והצמדה, תשכ״א-1961. לדוגמה, פיגור בתשלום יגרור ריבית מהיום שבו החל הפיגור ועד ליום פירעון מלוא הסכום.",
-  "payload": "טבלה: דמי ביטוח – מכלול\nThis table details late payment terms for 'Mekhalel' insurance policies. It outlines interest accrual and potential policy cancellation timelines for unpaid premiums.\nממדים: Scenario related to late premium payment, Timeframe / Action (e.g., days until interest, days until cancellation)\n\n.9.5.3 למען הסר ספק, מובהר בזאת כי אם נקבעו דמי ביטוח כפיקדון או הכפופים להתאמה, לא יהיה בפוליסה זו או בחידושה או בביטולה משום ויתור על ביצוע התאמה לגבי תקופת ביטוח כלשהי שקדמה לתקופת הביטוח בפוליסה זו.\n.9.5.4 לא שולמו דמי הביטוח במועדים המוסכמים, יישא הסכום שבפיגור אף : (להלן 1961ריבית כמשמעותה בחוק פסיקת ריבית והצמדה, תשכ\"א\n\"הריבית שבפיגור\"), מן היום שבו החל הפיגור ועד ליום פירעון מלוא הסכום שבפיגור. יובהר כי אם הריבית נקבעה בדין, תחול הריבית שנקבעה בדין."
+  "embed_text": "טבלה זו מתארת את התנאים לתשלום דמי ביטוח מאוחרים במסגרת פוליסת 'מכלול'. היא מפרטת את הצטברות הריבית ואת האפשרות לביטול הפוליסה עקב אי תשלום. ניתן לעיין בטבלה כדי להבין את הריבית שבפיגור, ימי החסד לתשלום, ואת ההשלכות של אי עמידה במועדי התשלום. הפוליסה עוסקת בתשלום דמי ביטוח ודמים אחרים, וכן בריבית כמשמעותה בחוק פסיקת ריבית והצמדה, תשכ״א - 1961. הריבית שבפיגור, ימי החסד, וביטול הפוליסה הם נושאים מרכזיים. מכלול, דמי ביטוח, ריבית, פיגור, ביטול פוליסה. This table outlines the terms for late payment of insurance premiums under the 'Mekhalel' policy. It details interest accrual and potential policy cancellation due to non-payment. בין הערכים בטבלה: ימי חסד לתשלום: 15; ימי חסד נוספים: 21.",
+  "payload": "טבלה: תנאי פוליסה - מכלול\nThis table outlines the terms for late payment of insurance premiums under the 'Mekhalel' policy. It details interest accrual and potential policy cancellation due to non-payment.\nממדים: conditions related to late premium payment, details of late payment terms (e.g., interest, grace periods)\n\n.9.5.3 למען הסר ספק, מובהר בזאת כי אם נקבעו דמי ביטוח כפיקדון או הכפופים להתאמה, לא יהיה בפוליסה זו או בחידושה או בביטולה משום ויתור על ביצוע התאמה לגבי תקופת ביטוח כלשהי שקדמה לתקופת הביטוח בפוליסה זו.\n.9.5.4 לא שולמו דמי הביטוח במועדים המוסכמים, יישא הסכום שבפיגור אף : (להלן 1961ריבית כמשמעותה בחוק פסיקת ריבית והצמדה, תשכ\"א\n\"הריבית שבפיגור\"), מן היום שבו החל הפיגור ועד ליום פירעון מלוא הסכום שבפיגור. יובהר כי אם הריבית נקבעה בדין, תחול הריבית שנקבעה בדין."
 }

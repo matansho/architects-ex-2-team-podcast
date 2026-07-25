@@ -2,25 +2,23 @@
   "id": "pdf:car/files/תנאי-פוליסת-ביטוח-ציוד-מכני-הנדסי-צמה.pdf#97",
   "source": "llm",
   "description": {
-    "title": "שיפוי ציוד מכני הנדסי צמה",
-    "summary": "This table details the compensation provided by 'צמה' insurance for total loss of insured mechanical and engineering equipment. It outlines the conditions and limits for replacement costs and related expenses.",
-    "embed_passage": "פוליסת ביטוח ציוד מכני הנדסי צמה מספקת שיפוי במקרה של אבדן מוחלט של ציוד. אם המבוטח רוכש ציוד חלופי, החברה תשפה אותו עד 10% מערך השוק של הפריט שאבד, בתוספת הוצאות כמו משלוח אווירי ושעות נוספות. אחריות המבטח מוגבלת ל-25% מסכום הביטוח.",
-    "row_axis": "Scenarios related to total loss of insured equipment and associated compensation.",
-    "column_axis": "Compensation details, limits, and conditions.",
+    "title": "שיפוי בגין אבדן מוחלט",
+    "summary": "This table details the compensation provided by the insurer for total loss of insured property. It outlines the conditions under which the insurer will cover the cost of replacement or repair, and any limitations on that coverage.",
+    "embed_passage": "טבלה זו מתארת את הפיצוי שמבטח מספק במקרה של אובדן מוחלט של רכוש מבוטח בפוליסת ביטוח ציוד מכני הנדסי צמה. הפיצוי מחושב על בסיס ערך השוק של הפריט לפני האובדן, וכולל הוצאות נלוות כגון הובלה. אם המבוטח רוכש פריט חלופי, הפיצוי מוגבל לעלות הפריט המקורי בתוספת 10%. הטבלה גם מציינת את מגבלות האחריות של המבטח בגין הוצאות דחופות, המוגבלות ל-25% מסכום הביטוח של הפריט שניזוק. אובדן מוחלט מוגדר כמצב שבו עלות התיקונים עולה על 75% מהערך הכספי הממשי של הפריט.",
+    "row_axis": "תנאי אבדן מוחלט",
+    "column_axis": "סוגי הוצאות / תנאי שיפוי",
     "units": [],
     "notable_values": [
-      "10%: Maximum compensation for replacement equipment as a percentage of the lost item's market value.",
-      "25%: Maximum liability of the insurer as a percentage of the damaged item's insurance amount.",
-      "75%: Threshold for considering a loss 'total' based on repair costs.",
-      "14.1: Reference to a section regarding repair cost calculation.",
-      "14.3: Reference to a section regarding covered expenses."
+      "אובדן מוחלט: עלות תיקונים > 75% מערך הפריט",
+      "שיפוי עבור פריט חלופי: עד 10% מערך הפריט המקורי",
+      "הוצאות דחופות: מוגבל ל-25% מסכום הביטוח",
+      "הוצאות נוספות: משלוח אווירי, שעות נוספות, עבודה בשבתות וחגים"
     ],
     "product_hints": [
-      "ביטוח ציוד מכני הנדסי צמה",
-      "צמה"
+      "ביטוח ציוד מכני הנדסי צמה"
     ]
   },
   "sketch": "אם המבוטח ירכוש פריט ציוד חלופי במקום הפריט שנגרם לו אבדן מוחלט, ישפה אותו המבטח בגין התשלום ששילם בפועל, ובלבד שלא יעלה על ערך השוק של .10% הפריט שנגרם לו האבדן המוחלט, בתוספת\n, .  השיפוי יכלול הוצאות שהוציא המבוטח עקב נזק המכוסה בפוליסה, בגין משלוח אווירי 14.3 שעות נוספות ועבודה בשבתות, בחגים ובמועדי ישראל. , מסכום הביטוח של הפריט שניזוק 25%אחריות המבטח בגין סעיף זה מוגבלת ל\nובלבד שדחיפות ההוצאה אושרה על ידי המבטח.",
-  "embed_text": "פוליסת ביטוח ציוד מכני הנדסי צמה מספקת שיפוי במקרה של אבדן מוחלט של ציוד. אם המבוטח רוכש ציוד חלופי, החברה תשפה אותו עד 10% מערך השוק של הפריט שאבד, בתוספת הוצאות כמו משלוח אווירי ושעות נוספות. אחריות המבטח מוגבלת ל-25% מסכום הביטוח.",
-  "payload": "טבלה: שיפוי ציוד מכני הנדסי צמה\nThis table details the compensation provided by 'צמה' insurance for total loss of insured mechanical and engineering equipment. It outlines the conditions and limits for replacement costs and related expenses.\nממדים: Scenarios related to total loss of insured equipment and associated compensation., Compensation details, limits, and conditions.\n\nאם המבוטח ירכוש פריט ציוד חלופי במקום הפריט שנגרם לו אבדן מוחלט, ישפה אותו המבטח בגין התשלום ששילם בפועל, ובלבד שלא יעלה על ערך השוק של .10% הפריט שנגרם לו האבדן המוחלט, בתוספת\n, .  השיפוי יכלול הוצאות שהוציא המבוטח עקב נזק המכוסה בפוליסה, בגין משלוח אווירי 14.3 שעות נוספות ועבודה בשבתות, בחגים ובמועדי ישראל. , מסכום הביטוח של הפריט שניזוק 25%אחריות המבטח בגין סעיף זה מוגבלת ל\nובלבד שדחיפות ההוצאה אושרה על ידי המבטח."
+  "embed_text": "טבלה זו מתארת את הפיצוי שמבטח מספק במקרה של אובדן מוחלט של רכוש מבוטח בפוליסת ביטוח ציוד מכני הנדסי צמה. הפיצוי מחושב על בסיס ערך השוק של הפריט לפני האובדן, וכולל הוצאות נלוות כגון הובלה. אם המבוטח רוכש פריט חלופי, הפיצוי מוגבל לעלות הפריט המקורי בתוספת 10%. הטבלה גם מציינת את מגבלות האחריות של המבטח בגין הוצאות דחופות, המוגבלות ל-25% מסכום הביטוח של הפריט שניזוק. אובדן מוחלט מוגדר כמצב שבו עלות התיקונים עולה על 75% מהערך הכספי הממשי של הפריט. This table details the compensation provided by the insurer for total loss of insured property. It outlines the conditions under which the insurer will cover the cost of replacement or repair, and any limitations on that coverage. בין הערכים בטבלה: שיפוי עבור פריט חלופי: עד 10% מערך הפריט המקורי; הוצאות נוספות: משלוח אווירי, שעות נוספות, עבודה בשבתו…",
+  "payload": "טבלה: שיפוי בגין אבדן מוחלט\nThis table details the compensation provided by the insurer for total loss of insured property. It outlines the conditions under which the insurer will cover the cost of replacement or repair, and any limitations on that coverage.\nממדים: תנאי אבדן מוחלט, סוגי הוצאות / תנאי שיפוי\n\nאם המבוטח ירכוש פריט ציוד חלופי במקום הפריט שנגרם לו אבדן מוחלט, ישפה אותו המבטח בגין התשלום ששילם בפועל, ובלבד שלא יעלה על ערך השוק של .10% הפריט שנגרם לו האבדן המוחלט, בתוספת\n, .  השיפוי יכלול הוצאות שהוציא המבוטח עקב נזק המכוסה בפוליסה, בגין משלוח אווירי 14.3 שעות נוספות ועבודה בשבתות, בחגים ובמועדי ישראל. , מסכום הביטוח של הפריט שניזוק 25%אחריות המבטח בגין סעיף זה מוגבלת ל\nובלבד שדחיפות ההוצאה אושרה על ידי המבטח."
 }

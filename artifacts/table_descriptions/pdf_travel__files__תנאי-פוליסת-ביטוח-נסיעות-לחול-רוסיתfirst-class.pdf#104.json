@@ -3,22 +3,22 @@
   "source": "llm",
   "description": {
     "title": "תנאי פוליסת ביטוח נסיעות",
-    "summary": "This table outlines the conditions of a travel insurance policy. It details the responsibilities of the insured and the insurer, as well as the process for claims and premium determination.",
-    "embed_passage": "פוליסת ביטוח נסיעות לחול רוסיתfirst-class מגדירה את תנאי ההתקשרות בין המבטח למבוטח. המבוטח מחויב לשתף פעולה עם המבטח לצורך קבלת סכומי ביטוח, ואינו רשאי להכיר בחובות כלפי צדדים שלישיים ללא אישור מראש. תקופת ההתיישנות לתביעת פיצויים היא 5 שנים מיום האירוע.",
-    "row_axis": "Policy clauses / conditions",
-    "column_axis": "Rights and responsibilities of the insured and insurer",
+    "summary": "This table outlines conditions of a travel insurance policy. It details the responsibilities of the insured and the insurer, and how claims are handled.",
+    "embed_passage": "טבלה זו מתארת את תנאי פוליסת ביטוח הנסיעות 'רוסיתfirst-class', ומפרטת את חובות המבוטח וחברת הביטוח. הפוליסה מגדירה את שיתוף הפעולה הנדרש מהמבוטח לצורך קבלת תגמולים, ואת הזכות של חברת הביטוח לנהל הליכים בשם המבוטח. חשוב להבין את התנאים לגבי הכרה בחובות כלפי צדדים שלישיים, וכן את תקופת ההתיישנות לתביעות. רוסיתfirst-class, תגמולים, חובות, התיישנות, צדדים שלישיים.",
+    "row_axis": "Policy conditions / clauses",
+    "column_axis": "Details of the condition",
     "units": [],
     "notable_values": [
-      "clause: 12.3.5",
-      "clause: 12.4",
-      "clause: 12.5",
-      "statute of limitations: 5 years"
+      "Cooperation with insurer: required",
+      "Acknowledgement of debts: requires prior written consent",
+      "Legal proceedings: insurer can conduct on behalf of insured",
+      "Statute of limitations: 5 years from incident date"
     ],
     "product_hints": [
-      "ביטוח נסיעות לחול רוסיתfirst-class"
+      "רוסיתfirst-class"
     ]
   },
   "sketch": "12.3.5. Застрахованный должен сотрудничать со страховщиком и выполнять все действия, чтобы обеспечить получение данных сумм, которые были уплачены страховщиком и являлись ответственностью третьих лиц.\n12.4. Застрахованный не вправе, без получения предварительного согласия страховщика в письменном виде, признавать задолженности или обязательства, которые являются обязывающими для страховщика.\n12.5. Страховщик будет вправе вести от имени застрахованного любые процессы, следующие из его обязательств в соответствии с данным полисом.",
-  "embed_text": "פוליסת ביטוח נסיעות לחול רוסיתfirst-class מגדירה את תנאי ההתקשרות בין המבטח למבוטח. המבוטח מחויב לשתף פעולה עם המבטח לצורך קבלת סכומי ביטוח, ואינו רשאי להכיר בחובות כלפי צדדים שלישיים ללא אישור מראש. תקופת ההתיישנות לתביעת פיצויים היא 5 שנים מיום האירוע.",
-  "payload": "טבלה: תנאי פוליסת ביטוח נסיעות\nThis table outlines the conditions of a travel insurance policy. It details the responsibilities of the insured and the insurer, as well as the process for claims and premium determination.\nממדים: Policy clauses / conditions, Rights and responsibilities of the insured and insurer\n\n12.3.5. Застрахованный должен сотрудничать со страховщиком и выполнять все действия, чтобы обеспечить получение данных сумм, которые были уплачены страховщиком и являлись ответственностью третьих лиц.\n12.4. Застрахованный не вправе, без получения предварительного согласия страховщика в письменном виде, признавать задолженности или обязательства, которые являются обязывающими для страховщика.\n12.5. Страховщик будет вправе вести от имени застрахованного любые процессы, следующие из его обязательств в соответствии с данным полисом."
+  "embed_text": "טבלה זו מתארת את תנאי פוליסת ביטוח הנסיעות 'רוסיתfirst-class', ומפרטת את חובות המבוטח וחברת הביטוח. הפוליסה מגדירה את שיתוף הפעולה הנדרש מהמבוטח לצורך קבלת תגמולים, ואת הזכות של חברת הביטוח לנהל הליכים בשם המבוטח. חשוב להבין את התנאים לגבי הכרה בחובות כלפי צדדים שלישיים, וכן את תקופת ההתיישנות לתביעות. רוסיתfirst-class, תגמולים, חובות, התיישנות, צדדים שלישיים. This table outlines conditions of a travel insurance policy. It details the responsibilities of the insured and the insurer, and how claims are handled. בין הערכים בטבלה: Cooperation with insurer: required; Acknowledgement of debts: requires prior written consent; Legal proceedings: insurer can conduct on behalf of insured; Statute of limitations: 5 years from incident date.",
+  "payload": "טבלה: תנאי פוליסת ביטוח נסיעות\nThis table outlines conditions of a travel insurance policy. It details the responsibilities of the insured and the insurer, and how claims are handled.\nממדים: Policy conditions / clauses, Details of the condition\n\n12.3.5. Застрахованный должен сотрудничать со страховщиком и выполнять все действия, чтобы обеспечить получение данных сумм, которые были уплачены страховщиком и являлись ответственностью третьих лиц.\n12.4. Застрахованный не вправе, без получения предварительного согласия страховщика в письменном виде, признавать задолженности или обязательства, которые являются обязывающими для страховщика.\n12.5. Страховщик будет вправе вести от имени застрахованного любые процессы, следующие из его обязательств в соответствии с данным полисом."
 }

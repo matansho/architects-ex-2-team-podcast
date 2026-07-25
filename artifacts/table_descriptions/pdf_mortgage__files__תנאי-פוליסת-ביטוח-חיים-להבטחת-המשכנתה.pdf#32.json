@@ -3,21 +3,21 @@
   "source": "llm",
   "description": {
     "title": "תנאי פוליסת ביטוח חיים",
-    "summary": "This table details the payment terms for a life insurance policy taken out to secure a mortgage. It specifies acceptable payment methods and how payment dates are determined.",
-    "embed_passage": "פוליסת ביטוח חיים להבטחת המשכנתה מאפשרת תשלום פרמיה בהוראת קבע, העברה בנקאית או כרטיס אשראי. יום זיכוי חשבון החברה בבנק נחשב ליום תשלום הפרמיה. הסכמת החברה לקבל תשלום בדרך לא מפורטת לא בהכרח תתפרש כהסכמה עתידית.",
-    "row_axis": "payment method details / conditions",
-    "column_axis": "payment terms",
+    "summary": "This table outlines the payment methods for life insurance premiums related to a mortgage. It details how premiums are paid and when payment is considered complete.",
+    "embed_passage": "טבלה זו מתארת את תנאי תשלום הפרמיות בפוליסת ביטוח חיים להבטחת המשכנתה. ניתן לשלם את הפרמיות באמצעות הוראת קבע, העברה בנקאית או כרטיס אשראי. יום זיכוי חשבון החברה בבנק נחשב ליום תשלום הפרמיה. הפוליסה היא של להבטחת המשכנתה, והתשלום יכול להתבצע בהוראת קבע, העברה בנקאית או כרטיס אשראי. הסכמת החברה לקבל תשלום שלא בדרכים אלו לא תתפרש כהסכמה עתידית. תשלום הפרמיה לחברה באמצעות הוראת קבע, העברה בנקאית או כרטיס אשראי ייחשב יום זיכוי חשבון החברה בבנק כיום תשלום הפרמיה.",
+    "row_axis": "payment method details",
+    "column_axis": "payment conditions",
     "units": [],
     "notable_values": [
-      "payment methods: הוראת קבע",
-      "payment methods: העברה בנקאית",
-      "payment methods: כרטיס אשראי"
+      "payment method: הוראת קבע",
+      "payment method: העברה בנקאית",
+      "payment method: כרטיס אשראי"
     ],
     "product_hints": [
       "ביטוח חיים להבטחת המשכנתה"
     ]
   },
   "sketch": "6.2 את הפרמיות יש לשלם בהוראת קבע, העברה בנקאית או הוראת תשלום קבועה באמצעות כרטיס אשראי, או בכל אמצעי אחר שיוסכם. הסכמת החברה לקבל פרמיה שלא  באחת  הדרכים  המפורטות  לעיל,  או  לאחר  זמן  פירעונן,  לפי  העניין,  במקרה מסוים, לא תתפרש כהסכמתה לנהוג כן, גם במקרים אחרים כל שהם.\nשולמה הפרמיה לחברה באמצעות הוראת קבע,  העברה בנקאית או הוראת תשלום 6.3 קבועה באמצעות כרטיס אשראי, ייחשב יום זיכוי חשבון החברה בבנק כיום תשלום הפרמיה לחברה.",
-  "embed_text": "פוליסת ביטוח חיים להבטחת המשכנתה מאפשרת תשלום פרמיה בהוראת קבע, העברה בנקאית או כרטיס אשראי. יום זיכוי חשבון החברה בבנק נחשב ליום תשלום הפרמיה. הסכמת החברה לקבל תשלום בדרך לא מפורטת לא בהכרח תתפרש כהסכמה עתידית.",
-  "payload": "טבלה: תנאי פוליסת ביטוח חיים\nThis table details the payment terms for a life insurance policy taken out to secure a mortgage. It specifies acceptable payment methods and how payment dates are determined.\nממדים: payment method details / conditions, payment terms\n\n6.2 את הפרמיות יש לשלם בהוראת קבע, העברה בנקאית או הוראת תשלום קבועה באמצעות כרטיס אשראי, או בכל אמצעי אחר שיוסכם. הסכמת החברה לקבל פרמיה שלא  באחת  הדרכים  המפורטות  לעיל,  או  לאחר  זמן  פירעונן,  לפי  העניין,  במקרה מסוים, לא תתפרש כהסכמתה לנהוג כן, גם במקרים אחרים כל שהם.\nשולמה הפרמיה לחברה באמצעות הוראת קבע,  העברה בנקאית או הוראת תשלום 6.3 קבועה באמצעות כרטיס אשראי, ייחשב יום זיכוי חשבון החברה בבנק כיום תשלום הפרמיה לחברה."
+  "embed_text": "טבלה זו מתארת את תנאי תשלום הפרמיות בפוליסת ביטוח חיים להבטחת המשכנתה. ניתן לשלם את הפרמיות באמצעות הוראת קבע, העברה בנקאית או כרטיס אשראי. יום זיכוי חשבון החברה בבנק נחשב ליום תשלום הפרמיה. הפוליסה היא של להבטחת המשכנתה, והתשלום יכול להתבצע בהוראת קבע, העברה בנקאית או כרטיס אשראי. הסכמת החברה לקבל תשלום שלא בדרכים אלו לא תתפרש כהסכמה עתידית. תשלום הפרמיה לחברה באמצעות הוראת קבע, העברה בנקאית או כרטיס אשראי ייחשב יום זיכוי חשבון החברה בבנק כיום תשלום הפרמיה. This table outlines the payment methods for life insurance premiums related to a mortgage. It details how premiums are paid and when payment is considered complete.",
+  "payload": "טבלה: תנאי פוליסת ביטוח חיים\nThis table outlines the payment methods for life insurance premiums related to a mortgage. It details how premiums are paid and when payment is considered complete.\nממדים: payment method details, payment conditions\n\n6.2 את הפרמיות יש לשלם בהוראת קבע, העברה בנקאית או הוראת תשלום קבועה באמצעות כרטיס אשראי, או בכל אמצעי אחר שיוסכם. הסכמת החברה לקבל פרמיה שלא  באחת  הדרכים  המפורטות  לעיל,  או  לאחר  זמן  פירעונן,  לפי  העניין,  במקרה מסוים, לא תתפרש כהסכמתה לנהוג כן, גם במקרים אחרים כל שהם.\nשולמה הפרמיה לחברה באמצעות הוראת קבע,  העברה בנקאית או הוראת תשלום 6.3 קבועה באמצעות כרטיס אשראי, ייחשב יום זיכוי חשבון החברה בבנק כיום תשלום הפרמיה לחברה."
 }

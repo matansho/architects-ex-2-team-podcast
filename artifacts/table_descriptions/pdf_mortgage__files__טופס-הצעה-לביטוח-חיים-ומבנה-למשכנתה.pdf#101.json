@@ -2,23 +2,28 @@
   "id": "pdf:mortgage/files/טופס-הצעה-לביטוח-חיים-ומבנה-למשכנתה.pdf#101",
   "source": "llm",
   "description": {
-    "title": "הרשאה לחיוב",
-    "summary": "This table outlines the authorization for debiting insurance premiums. It details how the charge amount and due date are determined based on the insurance policy and outstanding debt.",
-    "embed_passage": "בהראל חברה לביטוח בע\"מ, סכום החיוב ומועדו ייקבעו מעת לעת על-ידי כפי שנקבעו בפוליסה/ות ותוספותיה/ן. חשוב לדעת כי עלויות תפעול או נסיונות גביה כתוצאה מאי כיבוד תשלום יושתו על המבוטח. טופס זה כולל 3 עותקים: לחברת הביטוח, לסוכן ולמבוטח.",
+    "title": "פרטי הרשאה",
+    "summary": "This table outlines the authorization details for insurance payments related to a mortgage. It specifies how the charge amount and due date are determined and the potential costs if a payment is not honored.",
+    "embed_passage": "טבלה זו מתארת את פרטי ההרשאה לתשלומי ביטוח הקשורים למשכנתה. סכום החיוב ותאריך הפירעון נקבעים מעת לעת על ידי הראל חברה לביטוח בע\"מ, בהתאם לפוליסה ולתוספותיה. במקרה של אי כיבוד תשלום, עלויות תפעול וגבייה יושתו על המבוטח. הראל חברה לביטוח בע\"מ, לקוח נכבד, סכום החיוב ומועדו ייקבעו מעת לעת. עלויות תפעול ו/או נסיונות גבייה יושתו על המבוטח. טופס זה - מקור אשר ישלח לסניף הבנק.",
     "row_axis": "Authorization details",
-    "column_axis": "Information about the debit authorization process",
+    "column_axis": "Information about charge amount, due date, and potential fees",
     "units": [],
     "notable_values": [
-      "number of copies: 3",
-      "company: הראל חברה לביטוח בע\"מ"
+      "הראל חברה לביטוח בע\"מ: provider",
+      "לקוח נכבד: customer type",
+      "סכום החיוב: charge amount",
+      "מועדו: due date",
+      "דמי הביטוח: insurance premium",
+      "הצמדה: indexation",
+      "ריבית: interest",
+      "יתרות החוב: debt balances"
     ],
     "product_hints": [
-      "ביטוח חיים",
-      "ביטוח מבנה",
-      "הראל"
+      "ביטוח חיים ומבנה למשכנתה",
+      "הראל חברה לביטוח בע\"מ"
     ]
   },
   "sketch": "פרטי הרשאה\nעל-פי סכום דמי הביטוח, ההצמדה והריבית ו/או על-פי יתרות החוב הראל חברה לביטוח בע\"מ, לקוח נכבד, סכום החיוב ומועדו ייקבעו מעת לעת על-ידי כפי שנקבעו בפוליסה/ות ותוספותיה/ן.\nלידיעתך, ככל שתשלום דמי הביטוח לא יכובד על ידי חברת האשראי/הבנק/המשלם החריג, עלויות התפעול ו/או נסיונות הגביה ו/או אחרות לצורך ביצוע חיוב חוזר, ככל וקיימות, יושתו על המבוטח/הגורם המשלם בפוליסה.\n: תאריך:                                                                                        חתימת בעלי החשבון\n.( העתקים )חברת הביטוח, סוכן, מבוטח 3 + בטופס זה - מקור אשר ישלח לסניף הבנק",
-  "embed_text": "בהראל חברה לביטוח בע\"מ, סכום החיוב ומועדו ייקבעו מעת לעת על-ידי כפי שנקבעו בפוליסה/ות ותוספותיה/ן. חשוב לדעת כי עלויות תפעול או נסיונות גביה כתוצאה מאי כיבוד תשלום יושתו על המבוטח. טופס זה כולל 3 עותקים: לחברת הביטוח, לסוכן ולמבוטח.",
-  "payload": "טבלה: הרשאה לחיוב\nThis table outlines the authorization for debiting insurance premiums. It details how the charge amount and due date are determined based on the insurance policy and outstanding debt.\nממדים: Authorization details, Information about the debit authorization process\n\nפרטי הרשאה\nעל-פי סכום דמי הביטוח, ההצמדה והריבית ו/או על-פי יתרות החוב הראל חברה לביטוח בע\"מ, לקוח נכבד, סכום החיוב ומועדו ייקבעו מעת לעת על-ידי כפי שנקבעו בפוליסה/ות ותוספותיה/ן.\nלידיעתך, ככל שתשלום דמי הביטוח לא יכובד על ידי חברת האשראי/הבנק/המשלם החריג, עלויות התפעול ו/או נסיונות הגביה ו/או אחרות לצורך ביצוע חיוב חוזר, ככל וקיימות, יושתו על המבוטח/הגורם המשלם בפוליסה.\n: תאריך:                                                                                        חתימת בעלי החשבון\n.( העתקים )חברת הביטוח, סוכן, מבוטח 3 + בטופס זה - מקור אשר ישלח לסניף הבנק"
+  "embed_text": "טבלה זו מתארת את פרטי ההרשאה לתשלומי ביטוח הקשורים למשכנתה. סכום החיוב ותאריך הפירעון נקבעים מעת לעת על ידי הראל חברה לביטוח בע\"מ, בהתאם לפוליסה ולתוספותיה. במקרה של אי כיבוד תשלום, עלויות תפעול וגבייה יושתו על המבוטח. הראל חברה לביטוח בע\"מ, לקוח נכבד, סכום החיוב ומועדו ייקבעו מעת לעת. עלויות תפעול ו/או נסיונות גבייה יושתו על המבוטח. טופס זה - מקור אשר ישלח לסניף הבנק. This table outlines the authorization details for insurance payments related to a mortgage. It specifies how the charge amount and due date are determined and the potential costs if a payment is not honored. בין הערכים בטבלה: דמי הביטוח: insurance premium; הצמדה: indexation; ריבית: interest; יתרות החוב: debt balances.",
+  "payload": "טבלה: פרטי הרשאה\nThis table outlines the authorization details for insurance payments related to a mortgage. It specifies how the charge amount and due date are determined and the potential costs if a payment is not honored.\nממדים: Authorization details, Information about charge amount, due date, and potential fees\n\nפרטי הרשאה\nעל-פי סכום דמי הביטוח, ההצמדה והריבית ו/או על-פי יתרות החוב הראל חברה לביטוח בע\"מ, לקוח נכבד, סכום החיוב ומועדו ייקבעו מעת לעת על-ידי כפי שנקבעו בפוליסה/ות ותוספותיה/ן.\nלידיעתך, ככל שתשלום דמי הביטוח לא יכובד על ידי חברת האשראי/הבנק/המשלם החריג, עלויות התפעול ו/או נסיונות הגביה ו/או אחרות לצורך ביצוע חיוב חוזר, ככל וקיימות, יושתו על המבוטח/הגורם המשלם בפוליסה.\n: תאריך:                                                                                        חתימת בעלי החשבון\n.( העתקים )חברת הביטוח, סוכן, מבוטח 3 + בטופס זה - מקור אשר ישלח לסניף הבנק"
 }

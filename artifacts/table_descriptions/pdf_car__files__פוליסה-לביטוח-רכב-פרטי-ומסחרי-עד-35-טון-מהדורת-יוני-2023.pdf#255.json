@@ -2,25 +2,29 @@
   "id": "pdf:car/files/פוליסה-לביטוח-רכב-פרטי-ומסחרי-עד-35-טון-מהדורת-יוני-2023.pdf#255",
   "source": "llm",
   "description": {
-    "title": "שירותי דרך",
-    "summary": "This table details the costs and exclusions for roadside assistance services. It outlines situations where service is not provided and associated fees.",
-    "embed_passage": "פוליסת ביטוח רכב מספקת שירותי דרך במקרים רבים, אך ישנם חריגים. עלות כניסה לחניון בתשלום או מעבר בכבישי אגרה תוטל על מקבל השירות, בתוספת 15 ₪ ועד דמי טיפול. השירות לא יינתן במצבי מלחמה או אסון טבע.",
-    "row_axis": "conditions/scenarios related to roadside assistance",
-    "column_axis": "details of service provision, costs, and exclusions",
+    "title": "כיסוי שירותי דרך",
+    "summary": "This table details exclusions and costs related to roadside assistance services. It specifies situations where service is not provided and associated fees.",
+    "embed_passage": "טבלה זו מתארת את תנאי הכיסוי לשירותי דרך, כולל מקרים בהם השירות אינו ניתן ועלויות נוספות. ניתן לעיין בטבלה כדי להבין את תנאי הפוליסה לביטוח רכב פרטי ומסחרי עד 35 טון, מהדורת יוני 2023. הטבלה מציינת מצבי חירום כמו מלחמה, פעולות איבה, רעידת אדמה והצפה, כמו גם עלויות כגון תשלום עבור כניסה לחניון או מעבר בכבישי אגרה, ודמי טיפול של עד 15 ₪. מצוינים גם מקרים בהם השירות לא יינתן, כמו תקלה במנעולן או במקרה של רכב ללא רישוי. שירותי דרך, מלחמה, פעולות איבה, רעידת אדמה, הצפה, כבישי אגרה, דמי טיפול.",
+    "row_axis": "exclusion/cost condition",
+    "column_axis": "service coverage details",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "cost for parking/toll: 15 ₪",
-      "service not provided during wartime",
-      "service not provided during natural disasters"
+      "דמי טיפול: עד 15 ₪",
+      "עלות כניסה לחניון/חניון בתשלום: תחול על מקבל השירות",
+      "מעבר בכבישי אגרה: תחול על מקבל השירות",
+      "מצב מלחמה: שירות לא יינתן",
+      "פעולות איבה: שירות לא יינתן",
+      "רעידת אדמה: שירות לא יינתן",
+      "הצפה: שירות לא יינתן",
+      "אירוע טבע קיצוני: שירות לא יינתן"
     ],
     "product_hints": [
-      "ביטוח רכב",
-      "שירותי דרך"
+      "פוליסה לביטוח רכב"
     ]
   },
   "sketch": "מקבל השירות יישא במלוא העלות שתחול על רכב השירות, לצורך מתן .2.9.12 , השירות, בכלל זה: כניסה למגרש חנייה/חניון בתשלום ומעבר בכבישי אגרה .₪  15 זאת בתוספת דמי-טיפול שלא יעלו על\n, נותן השירות לא ייתן שירות במצב מלחמה, פעולות איבה, פיגוע חבלני .2.9.13 גיוס כללי, רעידת אדמה, הצפה, שיטפון, אירוע טבע קיצוני, אירוע גרעיני או רדיואקטיבי, אירוע קטסטרופאלי ואירוע שהפיצוי בגינו ניתן על-ידי המדינה.",
-  "embed_text": "פוליסת ביטוח רכב מספקת שירותי דרך במקרים רבים, אך ישנם חריגים. עלות כניסה לחניון בתשלום או מעבר בכבישי אגרה תוטל על מקבל השירות, בתוספת 15 ₪ ועד דמי טיפול. השירות לא יינתן במצבי מלחמה או אסון טבע.",
-  "payload": "טבלה: שירותי דרך\nThis table details the costs and exclusions for roadside assistance services. It outlines situations where service is not provided and associated fees.\nממדים: conditions/scenarios related to roadside assistance, details of service provision, costs, and exclusions\n\nמקבל השירות יישא במלוא העלות שתחול על רכב השירות, לצורך מתן .2.9.12 , השירות, בכלל זה: כניסה למגרש חנייה/חניון בתשלום ומעבר בכבישי אגרה .₪  15 זאת בתוספת דמי-טיפול שלא יעלו על\n, נותן השירות לא ייתן שירות במצב מלחמה, פעולות איבה, פיגוע חבלני .2.9.13 גיוס כללי, רעידת אדמה, הצפה, שיטפון, אירוע טבע קיצוני, אירוע גרעיני או רדיואקטיבי, אירוע קטסטרופאלי ואירוע שהפיצוי בגינו ניתן על-ידי המדינה."
+  "embed_text": "טבלה זו מתארת את תנאי הכיסוי לשירותי דרך, כולל מקרים בהם השירות אינו ניתן ועלויות נוספות. ניתן לעיין בטבלה כדי להבין את תנאי הפוליסה לביטוח רכב פרטי ומסחרי עד 35 טון, מהדורת יוני 2023. הטבלה מציינת מצבי חירום כמו מלחמה, פעולות איבה, רעידת אדמה והצפה, כמו גם עלויות כגון תשלום עבור כניסה לחניון או מעבר בכבישי אגרה, ודמי טיפול של עד 15 ₪. מצוינים גם מקרים בהם השירות לא יינתן, כמו תקלה במנעולן או במקרה של רכב ללא רישוי. שירותי דרך, מלחמה, פעולות איבה, רעידת אדמה, הצפה, כבישי אגרה, דמי טיפול. This table details exclusions and costs related to roadside assistance services. It specifies situations where service is not provided and associated fees. בין הערכים בטבלה: עלות כניסה לחניון/חניון בתשלום: תחול על מקבל השירות.",
+  "payload": "טבלה: כיסוי שירותי דרך\nThis table details exclusions and costs related to roadside assistance services. It specifies situations where service is not provided and associated fees.\nממדים: exclusion/cost condition, service coverage details\n\nמקבל השירות יישא במלוא העלות שתחול על רכב השירות, לצורך מתן .2.9.12 , השירות, בכלל זה: כניסה למגרש חנייה/חניון בתשלום ומעבר בכבישי אגרה .₪  15 זאת בתוספת דמי-טיפול שלא יעלו על\n, נותן השירות לא ייתן שירות במצב מלחמה, פעולות איבה, פיגוע חבלני .2.9.13 גיוס כללי, רעידת אדמה, הצפה, שיטפון, אירוע טבע קיצוני, אירוע גרעיני או רדיואקטיבי, אירוע קטסטרופאלי ואירוע שהפיצוי בגינו ניתן על-ידי המדינה."
 }

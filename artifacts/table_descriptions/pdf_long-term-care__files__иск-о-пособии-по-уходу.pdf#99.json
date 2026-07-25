@@ -3,20 +3,19 @@
   "source": "llm",
   "description": {
     "title": "כללי תביעות",
-    "summary": "This table outlines the rules governing claims, specifically regarding the effective date of the rules and their application to submitted claims. It details when the rules apply to services provided directly to the insured.",
-    "embed_passage": "כללי תביעות אלו מתחילים לפעול מיום 01.06.2011. הכללים יחולו על תביעות שהוגשו לאחר התאריכים המצוינים, ומתייחסים לתביעות הנוגעות לשירותים הניתנים ישירות למבוטח. כללים אלו אינם חלים על נזקים לרכב או לדירות של בעל יותר מ־40 רכבים או דירות.",
-    "row_axis": "Rule statements",
-    "column_axis": "Rule details (effective date, scope)",
+    "summary": "This table outlines the effective dates and scope of claim rules. It specifies when the rules apply to submitted claims and the conditions for direct service provision.",
+    "embed_passage": "טבלה זו מפרטת את תאריכי התחולה והיקף כללי התביעות. הכללים יחולו על תביעות שהוגשו לאחר התאריכים המצוינים, החל מ־01.06.2011. הכללים מתייחסים לתביעות הנוגעות לשירותים הניתנים ישירות למבוטח על ידי הספק, כאשר המבטח אינו מעורב בהסדרת התביעה. כללים אלו לא יחולו על תביעות לנזק לרכב או לדירה, במקרים מסוימים. תאריך התחלת תוקף, תביעות, שירותים, ספק.",
+    "row_axis": "Claim rule aspects (effective date, scope)",
+    "column_axis": "Rule details",
     "units": [],
     "notable_values": [
-      "Date of effect: 01.06.2011",
-      "Vehicles/Apartments threshold: 40"
+      "תאריך התחלת תוקף: 01.06.2011",
+      "סוג תביעה: נזק לרכב",
+      "סוג תביעה: נזק לדירה"
     ],
-    "product_hints": [
-      "כללי תביעות"
-    ]
+    "product_hints": []
   },
   "sketch": "C. Дата начала действия\nДанный свод правил начинает действовать с 01.06.2011.\nДанный свод правил будет распространяться на иски, поданные после дат, указанных выше.\nДанный свод правил будет относиться к искам, касающимся услуг, предоставляемых поставщиком таковых напрямую застрахованному в соответствии с письмом о предоставлении услуг, если страховщик не участвует в урегулировании иска.",
-  "embed_text": "כללי תביעות אלו מתחילים לפעול מיום 01.06.2011. הכללים יחולו על תביעות שהוגשו לאחר התאריכים המצוינים, ומתייחסים לתביעות הנוגעות לשירותים הניתנים ישירות למבוטח. כללים אלו אינם חלים על נזקים לרכב או לדירות של בעל יותר מ־40 רכבים או דירות.",
-  "payload": "טבלה: כללי תביעות\nThis table outlines the rules governing claims, specifically regarding the effective date of the rules and their application to submitted claims. It details when the rules apply to services provided directly to the insured.\nממדים: Rule statements, Rule details (effective date, scope)\n\nC. Дата начала действия\nДанный свод правил начинает действовать с 01.06.2011.\nДанный свод правил будет распространяться на иски, поданные после дат, указанных выше.\nДанный свод правил будет относиться к искам, касающимся услуг, предоставляемых поставщиком таковых напрямую застрахованному в соответствии с письмом о предоставлении услуг, если страховщик не участвует в урегулировании иска."
+  "embed_text": "טבלה זו מפרטת את תאריכי התחולה והיקף כללי התביעות. הכללים יחולו על תביעות שהוגשו לאחר התאריכים המצוינים, החל מ־01.06.2011. הכללים מתייחסים לתביעות הנוגעות לשירותים הניתנים ישירות למבוטח על ידי הספק, כאשר המבטח אינו מעורב בהסדרת התביעה. כללים אלו לא יחולו על תביעות לנזק לרכב או לדירה, במקרים מסוימים. תאריך התחלת תוקף, תביעות, שירותים, ספק. This table outlines the effective dates and scope of claim rules. It specifies when the rules apply to submitted claims and the conditions for direct service provision. בין הערכים בטבלה: סוג תביעה: נזק לדירה.",
+  "payload": "טבלה: כללי תביעות\nThis table outlines the effective dates and scope of claim rules. It specifies when the rules apply to submitted claims and the conditions for direct service provision.\nממדים: Claim rule aspects (effective date, scope), Rule details\n\nC. Дата начала действия\nДанный свод правил начинает действовать с 01.06.2011.\nДанный свод правил будет распространяться на иски, поданные после дат, указанных выше.\nДанный свод правил будет относиться к искам, касающимся услуг, предоставляемых поставщиком таковых напрямую застрахованному в соответствии с письмом о предоставлении услуг, если страховщик не участвует в урегулировании иска."
 }

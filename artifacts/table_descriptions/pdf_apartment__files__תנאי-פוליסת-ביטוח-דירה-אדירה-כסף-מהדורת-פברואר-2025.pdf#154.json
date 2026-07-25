@@ -3,22 +3,20 @@
   "source": "llm",
   "description": {
     "title": "מציאת רכוש",
-    "summary": "This table details the procedures for found property related to insurance claims. It outlines what happens if stolen property is recovered before or after insurance payments are made.",
-    "embed_passage": "פוליסת ביטוח דירה אדירה כסף עוסקת במציאת רכוש גנוב. אם רכוש נמצא לפני תשלום תגמולים, הוא יוחזר למבוטח. אם נמצא אחרי תשלום, המבטח יודיע למבוטח, והרכוש יעבור לבעלות המבטח אלא אם המבוטח יחזיר את התגמולים תוך 30 ימים.",
-    "row_axis": "Scenario of property recovery (before/after claim payment)",
-    "column_axis": "Actions and responsibilities of insurer and insured",
+    "summary": "This table details the procedures for found property under the 'Adira Cash' home insurance policy. It outlines what happens when stolen property is recovered, both before and after insurance payouts are made.",
+    "embed_passage": "טבלה זו מתארת את הנהלים לרכוש שנמצא במסגרת פוליסת ביטוח דירה 'אדירה כסף'. הפוליסה מגדירה מה קורה כאשר רכוש גנוב נמצא, הן לפני והן לאחר תשלום תגמולי הביטוח. ניתן לחפש מידע על מציאת רכוש גנוב, תנאים להחזרת תגמולים, והודעות בין המבטח למבוטח. מציאת רכוש 42, נמצא רכוש שנגנב 42.1, נמצא רכוש שנגנב אחרי תשלום 42.2, ימים 30.",
+    "row_axis": "scenario of found property",
+    "column_axis": "details of the procedure",
     "units": [],
     "notable_values": [
-      "30: Number of days to reclaim property after notification",
-      "42: Section number regarding found property",
-      "42.1: Clause for property found before payment",
-      "42.2: Clause for property found after payment"
+      "רכוש גנוב: תגמולי ביטוח",
+      "תקופה: 30 ימים"
     ],
     "product_hints": [
-      "ביטוח דירה אדירה כסף"
+      "אדירה כסף"
     ]
   },
   "sketch": ". מציאת רכוש 42\n.  נמצא רכוש שנגנב בטרם שולמו בשלו תגמולי ביטוח לפי פוליסה זו, יוחזר הרכוש 42.1 למבוטח והמבטח לא ישלם תגמולי ביטוח, אלא אם כן ניזוק הרכוש שהוחזר.\n.  נמצא רכוש שנגנב אחרי ששולמו בעדו תגמולי ביטוח, יודיע המבטח על כך למבוטח 42.2 או להיפך. הרכוש שנמצא יעבור לבעלות המבטח, אלא אם כן הודיע המבוטח למבטח ימים מיום הודעת המבטח או המבוטח, לפי העניין, כי ברצונו לקבל את הרכוש 30 בתוך שנמצא בתמורה להחזרת תגמולי הביטוח למבטח בתקופה האמורה.",
-  "embed_text": "פוליסת ביטוח דירה אדירה כסף עוסקת במציאת רכוש גנוב. אם רכוש נמצא לפני תשלום תגמולים, הוא יוחזר למבוטח. אם נמצא אחרי תשלום, המבטח יודיע למבוטח, והרכוש יעבור לבעלות המבטח אלא אם המבוטח יחזיר את התגמולים תוך 30 ימים.",
-  "payload": "טבלה: מציאת רכוש\nThis table details the procedures for found property related to insurance claims. It outlines what happens if stolen property is recovered before or after insurance payments are made.\nממדים: Scenario of property recovery (before/after claim payment), Actions and responsibilities of insurer and insured\n\n. מציאת רכוש 42\n.  נמצא רכוש שנגנב בטרם שולמו בשלו תגמולי ביטוח לפי פוליסה זו, יוחזר הרכוש 42.1 למבוטח והמבטח לא ישלם תגמולי ביטוח, אלא אם כן ניזוק הרכוש שהוחזר.\n.  נמצא רכוש שנגנב אחרי ששולמו בעדו תגמולי ביטוח, יודיע המבטח על כך למבוטח 42.2 או להיפך. הרכוש שנמצא יעבור לבעלות המבטח, אלא אם כן הודיע המבוטח למבטח ימים מיום הודעת המבטח או המבוטח, לפי העניין, כי ברצונו לקבל את הרכוש 30 בתוך שנמצא בתמורה להחזרת תגמולי הביטוח למבטח בתקופה האמורה."
+  "embed_text": "טבלה זו מתארת את הנהלים לרכוש שנמצא במסגרת פוליסת ביטוח דירה 'אדירה כסף'. הפוליסה מגדירה מה קורה כאשר רכוש גנוב נמצא, הן לפני והן לאחר תשלום תגמולי הביטוח. ניתן לחפש מידע על מציאת רכוש גנוב, תנאים להחזרת תגמולים, והודעות בין המבטח למבוטח. מציאת רכוש 42, נמצא רכוש שנגנב 42.1, נמצא רכוש שנגנב אחרי תשלום 42.2, ימים 30. This table details the procedures for found property under the 'Adira Cash' home insurance policy. It outlines what happens when stolen property is recovered, both before and after insurance payouts are made. בין הערכים בטבלה: תקופה: 30 ימים.",
+  "payload": "טבלה: מציאת רכוש\nThis table details the procedures for found property under the 'Adira Cash' home insurance policy. It outlines what happens when stolen property is recovered, both before and after insurance payouts are made.\nממדים: scenario of found property, details of the procedure\n\n. מציאת רכוש 42\n.  נמצא רכוש שנגנב בטרם שולמו בשלו תגמולי ביטוח לפי פוליסה זו, יוחזר הרכוש 42.1 למבוטח והמבטח לא ישלם תגמולי ביטוח, אלא אם כן ניזוק הרכוש שהוחזר.\n.  נמצא רכוש שנגנב אחרי ששולמו בעדו תגמולי ביטוח, יודיע המבטח על כך למבוטח 42.2 או להיפך. הרכוש שנמצא יעבור לבעלות המבטח, אלא אם כן הודיע המבוטח למבטח ימים מיום הודעת המבטח או המבוטח, לפי העניין, כי ברצונו לקבל את הרכוש 30 בתוך שנמצא בתמורה להחזרת תגמולי הביטוח למבטח בתקופה האמורה."
 }

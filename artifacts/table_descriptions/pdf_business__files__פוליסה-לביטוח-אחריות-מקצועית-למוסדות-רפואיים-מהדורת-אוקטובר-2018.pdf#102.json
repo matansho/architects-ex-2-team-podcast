@@ -3,22 +3,22 @@
   "source": "llm",
   "description": {
     "title": "הקטנת גבול האחריות",
-    "summary": "This table details how the insurance coverage limits are reduced after a claim or damage event. It outlines reductions based on payouts to third parties or reimbursements to the insured.",
-    "embed_passage": "פוליסת אחריות מקצועית למוסדות רפואיים מגדירה את אופן הקטנת גבול האחריות לאחר תביעה או נזק. סכומי הביטוח וגבולות האחריות יוקטנו בסכום תגמולי הביטוח או השיפוי המגיעים למבוטח, לדוגמה, אם המבטח התחייב בכתב לתשלום פיצויים בסכום מסוים לצד שלישי, גבול האחריות יוקטן בסכום זה.",
-    "row_axis": "Scenarios for reducing liability limits (e.g., after a claim, after payment to a third party)",
-    "column_axis": "Details of the reduction process (e.g., amount of reduction, timing)",
+    "summary": "This table details how the insurance coverage limits are reduced after a claim or damage. It outlines the reduction of insurance amounts or liability limits based on payments made by the insurer.",
+    "embed_passage": "טבלה זו מתארת את אופן הפחתת גבולות האחריות לאחר תביעה או נזק, במסגרת פוליסת ביטוח אחריות מקצועית למוסדות רפואיים. ניתן למצוא כאן את ההפחתות בסכומי הביטוח או גבולות האחריות לאחר קרות אבדן או נזק, או לאחר תשלום פיצויים לצד שלישי. החישוב של ההפחתה נעשה בהתאם לסכום תגמולי הביטוח או השיפוי ששולמו. לדוגמה, אם המבטח התחייב בכתב לתשלום פיצויים לצד שלישי, גבול האחריות יוקטן בסכום ההתחייבות. סכומי ביטוח ו/או גבולות אחריות המבטח יוקטנו בסכום תגמולי הביטוח או השיפוי. המבטח יכול להקטין את גבול האחריות לאחר תביעה או נזק.",
+    "row_axis": "circumstances for reducing liability limits",
+    "column_axis": "reduction rules",
     "units": [],
     "notable_values": [
-      "5.12: Section number for liability limit reduction",
-      "30: Number of days for written notice",
-      "5.14: Section number for statute of limitations",
-      "3: Years for statute of limitations on insurance claim"
+      "reduction after loss/damage: amount of insurance payment",
+      "reduction after written commitment: amount of commitment",
+      "reduction after payment to third party: amount of payment",
+      "reduction after insurance compensation: amount of compensation"
     ],
     "product_hints": [
-      "פוליסת אחריות מקצועית למוסדות רפואיים"
+      "ביטוח אחריות מקצועית למוסדות רפואיים"
     ]
   },
   "sketch": "הקטנת גבול האחריות לאחר תביעה / נזק . 5.12\nלאחר קרות . אלא אם נקבע אחרת ברשימה, או צוין אחרת בכל פרק ופרק, 5.12.1 אבדן או נזק יוקטנו סכומי הביטוח ו/או גבולות אחריות המבטח (לפי ) העניין) בסכום תגמולי הביטוח או השיפוי (לפני ניכוי השתתפות עצמית המגיעים למבוטח בגין האבדן או הנזק;\n. התחייב המבטח בכתב לתשלום פיצויים לצד שלישי או אם שילם המבטח לצד 5.12.2 שלישי פיצויים או, אם שיפה המבטח בתגמולי ביטוח את המבוטח בגין מקרה ביטוח, יוקטנו סכומי ביטוח ו/או גבולות אחריות המבטח בסכום בו התחייב ) המבטח כלפי הצד השלישי ממועד התחייבותו או ממועד התשלום (לפי העניין בסכום בו פיצה המבטח את הצד השלישי או בסכום בו שיפה המבטח את המבוטח מהמועד בו שולם או ממועד מתן ההתחייבות, במוקדם שבמועדים.",
-  "embed_text": "פוליסת אחריות מקצועית למוסדות רפואיים מגדירה את אופן הקטנת גבול האחריות לאחר תביעה או נזק. סכומי הביטוח וגבולות האחריות יוקטנו בסכום תגמולי הביטוח או השיפוי המגיעים למבוטח, לדוגמה, אם המבטח התחייב בכתב לתשלום פיצויים בסכום מסוים לצד שלישי, גבול האחריות יוקטן בסכום זה.",
-  "payload": "טבלה: הקטנת גבול האחריות\nThis table details how the insurance coverage limits are reduced after a claim or damage event. It outlines reductions based on payouts to third parties or reimbursements to the insured.\nממדים: Scenarios for reducing liability limits (e.g., after a claim, after payment to a third party), Details of the reduction process (e.g., amount of reduction, timing)\n\nהקטנת גבול האחריות לאחר תביעה / נזק . 5.12\nלאחר קרות . אלא אם נקבע אחרת ברשימה, או צוין אחרת בכל פרק ופרק, 5.12.1 אבדן או נזק יוקטנו סכומי הביטוח ו/או גבולות אחריות המבטח (לפי ) העניין) בסכום תגמולי הביטוח או השיפוי (לפני ניכוי השתתפות עצמית המגיעים למבוטח בגין האבדן או הנזק;\n. התחייב המבטח בכתב לתשלום פיצויים לצד שלישי או אם שילם המבטח לצד 5.12.2 שלישי פיצויים או, אם שיפה המבטח בתגמולי ביטוח את המבוטח בגין מקרה ביטוח, יוקטנו סכומי ביטוח ו/או גבולות אחריות המבטח בסכום בו התחייב ) המבטח כלפי הצד השלישי ממועד התחייבותו או ממועד התשלום (לפי העניין בסכום בו פיצה המבטח את הצד השלישי או בסכום בו שיפה המבטח את המבוטח מהמועד בו שולם או ממועד מתן ההתחייבות, במוקדם שבמועדים."
+  "embed_text": "טבלה זו מתארת את אופן הפחתת גבולות האחריות לאחר תביעה או נזק, במסגרת פוליסת ביטוח אחריות מקצועית למוסדות רפואיים. ניתן למצוא כאן את ההפחתות בסכומי הביטוח או גבולות האחריות לאחר קרות אבדן או נזק, או לאחר תשלום פיצויים לצד שלישי. החישוב של ההפחתה נעשה בהתאם לסכום תגמולי הביטוח או השיפוי ששולמו. לדוגמה, אם המבטח התחייב בכתב לתשלום פיצויים לצד שלישי, גבול האחריות יוקטן בסכום ההתחייבות. סכומי ביטוח ו/או גבולות אחריות המבטח יוקטנו בסכום תגמולי הביטוח או השיפוי. המבטח יכול להקטין את גבול האחריות לאחר תביעה או נזק. This table details how the insurance coverage limits are reduced after a claim or damage. It outlines the reduction of insurance amounts or liability limits based on payments made by the insurer. בין הערכים בטבלה: reduction after loss/damage: amount of insurance payment; reduction afte…",
+  "payload": "טבלה: הקטנת גבול האחריות\nThis table details how the insurance coverage limits are reduced after a claim or damage. It outlines the reduction of insurance amounts or liability limits based on payments made by the insurer.\nממדים: circumstances for reducing liability limits, reduction rules\n\nהקטנת גבול האחריות לאחר תביעה / נזק . 5.12\nלאחר קרות . אלא אם נקבע אחרת ברשימה, או צוין אחרת בכל פרק ופרק, 5.12.1 אבדן או נזק יוקטנו סכומי הביטוח ו/או גבולות אחריות המבטח (לפי ) העניין) בסכום תגמולי הביטוח או השיפוי (לפני ניכוי השתתפות עצמית המגיעים למבוטח בגין האבדן או הנזק;\n. התחייב המבטח בכתב לתשלום פיצויים לצד שלישי או אם שילם המבטח לצד 5.12.2 שלישי פיצויים או, אם שיפה המבטח בתגמולי ביטוח את המבוטח בגין מקרה ביטוח, יוקטנו סכומי ביטוח ו/או גבולות אחריות המבטח בסכום בו התחייב ) המבטח כלפי הצד השלישי ממועד התחייבותו או ממועד התשלום (לפי העניין בסכום בו פיצה המבטח את הצד השלישי או בסכום בו שיפה המבטח את המבוטח מהמועד בו שולם או ממועד מתן ההתחייבות, במוקדם שבמועדים."
 }

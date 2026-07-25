@@ -2,26 +2,28 @@
   "id": "pdf:business/files/טופס-הצעה-לביטוח-עסקי-אחריות-מקצועית-ליועצי-השקעות.pdf#1",
   "source": "llm",
   "description": {
-    "title": "אחריות מקצועית - יועצי השקעות",
-    "summary": "This table details information about the proposer for Professional Indemnity Insurance for Investment Managers. It's used to assess risk based on experience, qualifications, and internal procedures.",
-    "embed_passage": "טופס זה משמש להצעת ביטוח אחריות מקצועית ליועצי השקעות. נתונים כגון שנות ניסיון, השכלה, ותפקיד נבדקים כדי לקבוע את פרמיית הביטוח. לדוגמה, עובד עם 'Years experience' של 5 ו-'Years in position' של 2 עשוי להצביע על רמת סיכון מסוימת.",
-    "row_axis": "Employee/Director",
-    "column_axis": "Employee Details (Name, Years in position, Years experience, Qualifications)",
+    "title": "הצעת ביטוח אחריות מקצועית",
+    "summary": "This table collects information for a Professional Indemnity Insurance proposal for Investment Managers. It gathers details about the proposer's structure, personnel, and internal procedures.",
+    "embed_passage": "טופס זה משמש להגשת הצעה לביטוח אחריות מקצועית עבור יועצי השקעות. המידע נאסף על מנת להעריך את הסיכונים הקשורים לפעילות העסקית של המציע, תוך התמקדות במספר העובדים המקצועיים, ניסיון העובדים, וקיום נהלים פנימיים. הביטוח המוצע הוא 'ביטוח תביעות שהוגשו' (Claims Made Insurance Policy). הטופס בודק האם המציע קשור לגורמים אחרים, האם בוצעו שינויים במבנה העסקי, ומאפייני הגיוס של עובדים. נתונים נאספים לגבי מספר העובדים: principals, partners, officers, וכן עובדים שאינם מקצועיים. כמו כן, נאספים פרטים על השותפים/דירקטורים, כולל שנות ניסיון, השכלה, ומשך כהונתם.",
+    "row_axis": "Details about the proposer's business and personnel",
+    "column_axis": "Categories of information requested (e.g., number of employees, employee qualifications)",
     "units": [],
     "notable_values": [
-      "Years in position: 2",
-      "Years experience: 5",
-      "Reference review: Yes/No",
-      "Acquisition in last 5 years: Yes/No",
-      "Ethics code enforced: Yes/No"
+      "Principals, partners, officers, and professional employees: number",
+      "All other (non-professional) employees: number",
+      "Years in position: years",
+      "Years experience: years",
+      "Qualifications: text",
+      "Receipt and review of satisfactory references: No / Yes",
+      "Acquired by another entity: No / Yes",
+      "Connected or associated with other practice: No / Yes"
     ],
     "product_hints": [
-      "אחריות מקצועית",
       "ביטוח אחריות מקצועית",
-      "יועצי השקעות"
+      "Professional Indemnity Insurance"
     ]
   },
-  "sketch": "Please state whether the Proposer is connected or associated with any other practice, company or organization:\nNo / Yes.\nIf Yes, please give full details:\nHas the Proposer been acquired by another entity, merged or acquired any other business during the last 5 years?\n…\nAll other (non-professional) employees:\nPlease state the names of all partners/directors, their qualifications, and experience, and how long they have held this position with you:\nDoes the procedure of workers recruitment always include receipt and review of satisfactory references? No / Yes.\nName,Years in position,Years experience,Qualifications",
-  "embed_text": "טופס זה משמש להצעת ביטוח אחריות מקצועית ליועצי השקעות. נתונים כגון שנות ניסיון, השכלה, ותפקיד נבדקים כדי לקבוע את פרמיית הביטוח. לדוגמה, עובד עם 'Years experience' של 5 ו-'Years in position' של 2 עשוי להצביע על רמת סיכון מסוימת.",
-  "payload": "טבלה: אחריות מקצועית - יועצי השקעות\nThis table details information about the proposer for Professional Indemnity Insurance for Investment Managers. It's used to assess risk based on experience, qualifications, and internal procedures.\nממדים: Employee/Director, Employee Details (Name, Years in position, Years experience, Qualifications)\n\nPlease state whether the Proposer is connected or associated with any other practice, company or organization:\nNo / Yes.\nIf Yes, please give full details:\nHas the Proposer been acquired by another entity, merged or acquired any other business during the last 5 years?\nNo / Yes\nIf Yes , provide details:\na) Please indicate the number of:\nPrincipals, partners, officers, and professional employees directly engaged in providing services to clients:\nAll other (non-professional) employees:\nPlease state the names of all partners/directors, their qualifications, and experience, and how long they have held this position with you:\nDoes the procedure of workers recruitment always include receipt and review of satisfactory references? No / Yes.\nName,Years in position,Years experience,Qualifications"
+  "sketch": "Please state whether the Proposer is connected or associated with any other practice, company or organization:\nNo / Yes.\nIf Yes, please give full details:\nHas the Proposer been acquired by another entity, merged or acquired any other business during the last 5 years?\nNo / Yes\nIf Yes , provide details:\na) Please indicate the number of:\nPrincipals, partners, officers, and professional employees directly engaged in providing services to clients:\nAll other (non-professional) employees:\nPlease state the names of all partners/directors, their qualifications, and experience, and how long they have held this position with you:\nDoes the procedure of workers recruitment always include receipt and review of satisfactory references? No / Yes.\nName,Years in position,Years experience,Qualifications",
+  "embed_text": "טופס זה משמש להגשת הצעה לביטוח אחריות מקצועית עבור יועצי השקעות. המידע נאסף על מנת להעריך את הסיכונים הקשורים לפעילות העסקית של המציע, תוך התמקדות במספר העובדים המקצועיים, ניסיון העובדים, וקיום נהלים פנימיים. הביטוח המוצע הוא 'ביטוח תביעות שהוגשו' (Claims Made Insurance Policy). הטופס בודק האם המציע קשור לגורמים אחרים, האם בוצעו שינויים במבנה העסקי, ומאפייני הגיוס של עובדים. נתונים נאספים לגבי מספר העובדים: principals, partners, officers, וכן עובדים שאינם מקצועיים. כמו כן, נאספים פרטים על השותפים/דירקטורים, כולל שנות ניסיון, השכלה, ומשך כהונתם. This table collects information for a Professional Indemnity Insurance proposal for Investment Managers. It gathers details about the proposer's structure, personnel, and internal procedures. בין הערכים בטבלה: Principals, partners, officers, and pr…",
+  "payload": "טבלה: הצעת ביטוח אחריות מקצועית\nThis table collects information for a Professional Indemnity Insurance proposal for Investment Managers. It gathers details about the proposer's structure, personnel, and internal procedures.\nממדים: Details about the proposer's business and personnel, Categories of information requested (e.g., number of employees, employee qualifications)\n\nPlease state whether the Proposer is connected or associated with any other practice, company or organization:\nNo / Yes.\nIf Yes, please give full details:\nHas the Proposer been acquired by another entity, merged or acquired any other business during the last 5 years?\nNo / Yes\nIf Yes , provide details:\na) Please indicate the number of:\nPrincipals, partners, officers, and professional employees directly engaged in providing services to clients:\nAll other (non-professional) employees:\nPlease state the names of all partners/directors, their qualifications, and experience, and how long they have held this position with you:\nDoes the procedure of workers recruitment always include receipt and review of satisfactory references? No / Yes.\nName,Years in position,Years experience,Qualifications"
 }

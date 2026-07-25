@@ -2,27 +2,25 @@
   "id": "pdf:business/files/פוליסה-לביטוח-עבודות-קבלניות-הראל-ביט-מהדורת-ינואר-2023.pdf#85",
   "source": "llm",
   "description": {
-    "title": "הרחבות אחריות - הראל ביט",
-    "summary": "This table details liability extensions for Harel Bit construction insurance policies. It specifies coverage for property damage caused by vehicle use and bodily injury from heavy machinery, along with self-participation amounts and liability limits.",
-    "embed_passage": "פוליסת הראל ביט לעבודות קבלניות כוללת הרחבות אחריות שונות, כגון כיסוי לנזק לרכוש הנובע משימוש בכלי רכב או לנזקי גוף כתוצאה מצמ״ה. גבול האחריות על פי הפוליסה יכול להגיע עד 1,000,000 ש״ח, וההשתתפות העצמית להרחבה עומדת על סכום זה או גבולות האחריות של פוליסת צד שלישי, הנמוך מביניהם.",
-    "row_axis": "type of liability extension (e.g., vehicle damage, bodily injury)",
-    "column_axis": "details of the extension (e.g., self-participation, liability limits, conditions)",
+    "title": "הרחבות אחריות - רכוש וגוף",
+    "summary": "This table details extensions to liability coverage, specifically for property damage caused by vehicle use and bodily injury from heavy machinery. It outlines self-participation amounts and liability limits.",
+    "embed_passage": "טבלה זו מתארת הרחבות לפוליסת ביטוח עבודות קבלניות של הראל ביט, ומפרטת כיסויים נוספים לחבות בגין נזקים שונים. ניתן למצוא מידע על חבות בגין נזק לרכוש הנובע משימוש בכלי רכב, וכן חבות בגין נזק גוף הנובע משימוש בצמ״ה. החיפוש נעשה לפי סוג הנזק (רכוש או גוף) והרחבה ספציפית. הרחבות אלו כוללות סייגים, השתתפות עצמית, וגבולות אחריות. ההשתתפות העצמית להרחבת נזק לרכוש היא ש״ח 1,000,000 או גבולות האחריות על פי פוליסת צד שלישי, הנמוך מביניהם. כיסוי לנזקי גוף מצמ״ה מורחב אם נרשם ברשימה כי הכיסוי בתוקף.",
+    "row_axis": "סוג הרחבת אחריות (נזק לרכוש, נזק גוף)",
+    "column_axis": "תנאי הכיסוי (סייגים, השתתפות עצמית, גבולות אחריות)",
     "units": [
       "ש״ח"
     ],
     "notable_values": [
-      "self-participation: 1,000,000 ש״ח",
-      "liability limit: 2,000,000 ש״ח",
-      "vehicle damage coverage: included",
-      "heavy machinery bodily injury: potentially included",
-      "extension applies to site and immediate surroundings"
+      "השתתפות עצמית: 1,000,000 ש״ח",
+      "גבול אחריות: ש״ח 2,000,000",
+      "נזק לרכוש: שימוש בכלי רכב",
+      "נזק גוף: שימוש בצמ״ה"
     ],
     "product_hints": [
-      "הראל ביט",
-      "עבודות קבלניות"
+      "הראל ביט"
     ]
   },
   "sketch": "חבות בגין נזק לרכוש הנובע משימוש בכלי רכב .7.4\nמהסייגים לפרק ב', הביטוח על פי פרק זה מורחב לכסות 6.4.3 על אף האמור בסעיף את חבותו של המבוטח בגין נזק לרכוש צד שלישי הנובע משימוש בכלי רכב מנועי של המבוטח או מטעמו, בשטח האתר וסביבתו המידית.\nש\"ח או 1,000,000 ההשתתפות העצמית המיוחדת להרחבה זו, תהיה בסך של גבולות האחריות על פי פוליסה לביטוח כלי רכב צד שלישי של המבוטח, הנמוך מביניהם, המהווים חלק מגבול האחריות המבטח.",
-  "embed_text": "פוליסת הראל ביט לעבודות קבלניות כוללת הרחבות אחריות שונות, כגון כיסוי לנזק לרכוש הנובע משימוש בכלי רכב או לנזקי גוף כתוצאה מצמ״ה. גבול האחריות על פי הפוליסה יכול להגיע עד 1,000,000 ש״ח, וההשתתפות העצמית להרחבה עומדת על סכום זה או גבולות האחריות של פוליסת צד שלישי, הנמוך מביניהם.",
-  "payload": "טבלה: הרחבות אחריות - הראל ביט\nThis table details liability extensions for Harel Bit construction insurance policies. It specifies coverage for property damage caused by vehicle use and bodily injury from heavy machinery, along with self-participation amounts and liability limits.\nממדים: type of liability extension (e.g., vehicle damage, bodily injury), details of the extension (e.g., self-participation, liability limits, conditions)\n\nחבות בגין נזק לרכוש הנובע משימוש בכלי רכב .7.4\nמהסייגים לפרק ב', הביטוח על פי פרק זה מורחב לכסות 6.4.3 על אף האמור בסעיף את חבותו של המבוטח בגין נזק לרכוש צד שלישי הנובע משימוש בכלי רכב מנועי של המבוטח או מטעמו, בשטח האתר וסביבתו המידית.\nש\"ח או 1,000,000 ההשתתפות העצמית המיוחדת להרחבה זו, תהיה בסך של גבולות האחריות על פי פוליסה לביטוח כלי רכב צד שלישי של המבוטח, הנמוך מביניהם, המהווים חלק מגבול האחריות המבטח."
+  "embed_text": "טבלה זו מתארת הרחבות לפוליסת ביטוח עבודות קבלניות של הראל ביט, ומפרטת כיסויים נוספים לחבות בגין נזקים שונים. ניתן למצוא מידע על חבות בגין נזק לרכוש הנובע משימוש בכלי רכב, וכן חבות בגין נזק גוף הנובע משימוש בצמ״ה. החיפוש נעשה לפי סוג הנזק (רכוש או גוף) והרחבה ספציפית. הרחבות אלו כוללות סייגים, השתתפות עצמית, וגבולות אחריות. ההשתתפות העצמית להרחבת נזק לרכוש היא ש״ח 1,000,000 או גבולות האחריות על פי פוליסת צד שלישי, הנמוך מביניהם. כיסוי לנזקי גוף מצמ״ה מורחב אם נרשם ברשימה כי הכיסוי בתוקף. This table details extensions to liability coverage, specifically for property damage caused by vehicle use and bodily injury from heavy machinery. It outlines self-participation amounts and liability limits. בין הערכים בטבלה: גבול אחריות: ש״ח 2,000,000.",
+  "payload": "טבלה: הרחבות אחריות - רכוש וגוף\nThis table details extensions to liability coverage, specifically for property damage caused by vehicle use and bodily injury from heavy machinery. It outlines self-participation amounts and liability limits.\nממדים: סוג הרחבת אחריות (נזק לרכוש, נזק גוף), תנאי הכיסוי (סייגים, השתתפות עצמית, גבולות אחריות)\n\nחבות בגין נזק לרכוש הנובע משימוש בכלי רכב .7.4\nמהסייגים לפרק ב', הביטוח על פי פרק זה מורחב לכסות 6.4.3 על אף האמור בסעיף את חבותו של המבוטח בגין נזק לרכוש צד שלישי הנובע משימוש בכלי רכב מנועי של המבוטח או מטעמו, בשטח האתר וסביבתו המידית.\nש\"ח או 1,000,000 ההשתתפות העצמית המיוחדת להרחבה זו, תהיה בסך של גבולות האחריות על פי פוליסה לביטוח כלי רכב צד שלישי של המבוטח, הנמוך מביניהם, המהווים חלק מגבול האחריות המבטח."
 }

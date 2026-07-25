@@ -2,24 +2,25 @@
   "id": "pdf:business/files/פוליסת-מכלול-לחבר-מושב-מהדורת-ינואר-2023.pdf#160",
   "source": "llm",
   "description": {
-    "title": "מכלול - סייגים",
-    "summary": "This table details exclusions to coverage under the 'מכלול' insurance policy. It specifies situations where the policy will not provide compensation, referencing various types of liabilities and damages.",
-    "embed_passage": "פוליסת 'מכלול' אינה מכסה קנסות, היטלים, או פיצויי ענישה (2.22). הביטוח אינו חל ביחס לתביעות הנובעות מנזק פיננסי אלא אם נגרם באופן ישיר לנזק ממשי לרכוש (2.23). כמו כן, חבות בשל מקרה ביטוח במשק שהפך לפעיל ללא אישור המבטח אינה כלולה (2.25).",
+    "title": "סייגים - פוליסת מכלול",
+    "summary": "This table lists exclusions to coverage under the 'Mekhalel' insurance policy. It details situations where the policy will not provide compensation, referencing specific types of liabilities and damages.",
+    "embed_passage": "טבלה זו מפרטת סייגים לפוליסת מכלול, ומציינת מקרים בהם הכיסוי הביטוחי אינו חל. ניתן לחפש סייגים ספציפיים לפי סוג החבות או הנזק המפורט. הפוליסה אינה מכסה קנסות, היטלים, פיצויי ענישה, או פיצויים לדוגמה. כמו כן, ישנם סייגים הנוגעים לחבות כנושא משרה, נזקי ריסוס, וחבות כתושב. הסייגים כוללים גם מקרים של נזק פיננסי, חבות בדירקטוריון, ומשקים חקלאיים ששינו סטטוס פעילות. פוליסת מכלול",
     "row_axis": "exclusion clause",
     "column_axis": "description of exclusion",
     "units": [],
     "notable_values": [
-      "clause: 2.22",
-      "clause: 2.23",
-      "clause: 2.24",
-      "clause: 2.25",
-      "clause: 2.26"
+      "קנסות, היטלים: applicable",
+      "פיצויי ענישה: applicable",
+      "חבות כדירקטור: applicable",
+      "נזקי ריסוס: applicable",
+      "חבות כתושב: applicable",
+      "משק לא פעיל שהפך לפעיל: applicable"
     ],
     "product_hints": [
       "מכלול"
     ]
   },
   "sketch": ".  קנסות, היטלים, כפל פיצויים, פיצויי ענישה ופיצויים לדוגמה. 2.22\nאלא אם נזק כזה נגרם באופן ישיר ובהמשך , .  בגין תביעות הנובעות מנזק פיננסי 2.23 לנזק ממשי לרכוש.\nאלא אם , .  חבות כדירקטור וגם/או כנושא מישרה, ובכלל זה כמנהל, כפקיד בכיר 2.24 אותה חבות היתה חלה על הנתבע /המבוטח גם אלמלא היה נושא מישרה;\n.  חבות בשל מקרה ביטוח ככל שמדובר במשק שהוגדר ברשימה כמשק שאינו 2.25 , פעיל והפך למשק פעיל מבלי שדווח והתקבל אישור המבטח לכיסוי כמשק פעיל למעט אם הכיסוי על פי פרק זה היה חל על אותו מקרה ביטוח גם אם המשק היה בלתי פעיל.",
-  "embed_text": "פוליסת 'מכלול' אינה מכסה קנסות, היטלים, או פיצויי ענישה (2.22). הביטוח אינו חל ביחס לתביעות הנובעות מנזק פיננסי אלא אם נגרם באופן ישיר לנזק ממשי לרכוש (2.23). כמו כן, חבות בשל מקרה ביטוח במשק שהפך לפעיל ללא אישור המבטח אינה כלולה (2.25).",
-  "payload": "טבלה: מכלול - סייגים\nThis table details exclusions to coverage under the 'מכלול' insurance policy. It specifies situations where the policy will not provide compensation, referencing various types of liabilities and damages.\nממדים: exclusion clause, description of exclusion\n\n.  קנסות, היטלים, כפל פיצויים, פיצויי ענישה ופיצויים לדוגמה. 2.22\nאלא אם נזק כזה נגרם באופן ישיר ובהמשך , .  בגין תביעות הנובעות מנזק פיננסי 2.23 לנזק ממשי לרכוש.\nאלא אם , .  חבות כדירקטור וגם/או כנושא מישרה, ובכלל זה כמנהל, כפקיד בכיר 2.24 אותה חבות היתה חלה על הנתבע /המבוטח גם אלמלא היה נושא מישרה;\n.  חבות בשל מקרה ביטוח ככל שמדובר במשק שהוגדר ברשימה כמשק שאינו 2.25 , פעיל והפך למשק פעיל מבלי שדווח והתקבל אישור המבטח לכיסוי כמשק פעיל למעט אם הכיסוי על פי פרק זה היה חל על אותו מקרה ביטוח גם אם המשק היה בלתי פעיל."
+  "embed_text": "טבלה זו מפרטת סייגים לפוליסת מכלול, ומציינת מקרים בהם הכיסוי הביטוחי אינו חל. ניתן לחפש סייגים ספציפיים לפי סוג החבות או הנזק המפורט. הפוליסה אינה מכסה קנסות, היטלים, פיצויי ענישה, או פיצויים לדוגמה. כמו כן, ישנם סייגים הנוגעים לחבות כנושא משרה, נזקי ריסוס, וחבות כתושב. הסייגים כוללים גם מקרים של נזק פיננסי, חבות בדירקטוריון, ומשקים חקלאיים ששינו סטטוס פעילות. פוליסת מכלול This table lists exclusions to coverage under the 'Mekhalel' insurance policy. It details situations where the policy will not provide compensation, referencing specific types of liabilities and damages. בין הערכים בטבלה: חבות כדירקטור: applicable; משק לא פעיל שהפך לפעיל: applicable.",
+  "payload": "טבלה: סייגים - פוליסת מכלול\nThis table lists exclusions to coverage under the 'Mekhalel' insurance policy. It details situations where the policy will not provide compensation, referencing specific types of liabilities and damages.\nממדים: exclusion clause, description of exclusion\n\n.  קנסות, היטלים, כפל פיצויים, פיצויי ענישה ופיצויים לדוגמה. 2.22\nאלא אם נזק כזה נגרם באופן ישיר ובהמשך , .  בגין תביעות הנובעות מנזק פיננסי 2.23 לנזק ממשי לרכוש.\nאלא אם , .  חבות כדירקטור וגם/או כנושא מישרה, ובכלל זה כמנהל, כפקיד בכיר 2.24 אותה חבות היתה חלה על הנתבע /המבוטח גם אלמלא היה נושא מישרה;\n.  חבות בשל מקרה ביטוח ככל שמדובר במשק שהוגדר ברשימה כמשק שאינו 2.25 , פעיל והפך למשק פעיל מבלי שדווח והתקבל אישור המבטח לכיסוי כמשק פעיל למעט אם הכיסוי על פי פרק זה היה חל על אותו מקרה ביטוח גם אם המשק היה בלתי פעיל."
 }

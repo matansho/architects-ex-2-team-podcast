@@ -3,22 +3,22 @@
   "source": "llm",
   "description": {
     "title": "שירותי דרך וגרירה למשאיות",
-    "summary": "This table details the availability and scope of roadside assistance and towing services for trucks up to 34 tons. It specifies service hours, geographic coverage, and how to request assistance.",
-    "embed_passage": "שירותי דרך וגרירה למשאיות עד 34 טון זמינים 24 שעות ביממה, בכל ימות השנה, למעט יום הכיפורים. המבוטח זכאי לשירות בכל רחבי מדינת ישראל, למעט בשטחי האוטונומיה וחבל עזה. זמן ההגעה של רכב השירות הוא עד חמש שעות ממועד מסירת הפרטים.",
-    "row_axis": "Service conditions / stipulations",
-    "column_axis": "Aspect of service (e.g., hours, coverage)",
+    "summary": "This table details the availability and scope of roadside assistance and towing services for trucks up to 34 tons. It specifies service hours, geographic coverage, and the process for requesting assistance.",
+    "embed_passage": "טבלה זו מתארת את שירותי הדרך והגרירה הניתנים למשאיות עד 34 טון, ומפרטת את שעות הפעילות, הפריסה הארצית ואופן הפנייה לקבלת שירות. השירות זמין 24 שעות ביממה, בכל ימות השנה, למעט יום הכיפורים. ניתן לקבל שירות בכל רחבי מדינת ישראל, למעט בשטחי האוטונומיה וחבל עזה. שירותי דרך וגרירה, יום הכיפורים, פריסה ארצית, מוקד שירות.",
+    "row_axis": "service conditions",
+    "column_axis": "service details",
     "units": [],
     "notable_values": [
-      "שעות ביממה: 24",
-      "יום כיפור: החל מהשעה 24",
-      "זמן הגעה מקסימלי: 5 שעות",
-      "משקל משאית מקסימלי: 34 טון"
+      "שעות הפעילות: 24 שעות ביממה",
+      "יום הכיפורים: החל מהשעה 24:00",
+      "שטחי אוטונומיה וחבל עזה: ללא שירות",
+      "זמן הגעה: עד 5 שעות"
     ],
     "product_hints": [
       "שירותי דרך וגרירה למשאיות"
     ]
   },
   "sketch": "שעות הפעילות ופריסה ארצית .2.2\nבערב 14:00 שעות ביממה, בכל ימות השנה, פרט ליום הכיפורים החל מהשעה 24 . המבוטח יהיה זכאי לשרות 2.2.1 יום הכיפורים ועד שעתיים לאחר צאת יום הכיפורים.\n. לקבלת שירות, על המבוטח ו/או מי מטעמו לפנות למוקד השירות. 2.2.2\n. השירותים יינתנו על פי בקשת המבוטח, בהתאם לנסיבות והאפשרויות, בכל רחבי מדינת ישראל למעט בשטחי 2.2.3 האוטונומיה וחבל עזה.",
-  "embed_text": "שירותי דרך וגרירה למשאיות עד 34 טון זמינים 24 שעות ביממה, בכל ימות השנה, למעט יום הכיפורים. המבוטח זכאי לשירות בכל רחבי מדינת ישראל, למעט בשטחי האוטונומיה וחבל עזה. זמן ההגעה של רכב השירות הוא עד חמש שעות ממועד מסירת הפרטים.",
-  "payload": "טבלה: שירותי דרך וגרירה למשאיות\nThis table details the availability and scope of roadside assistance and towing services for trucks up to 34 tons. It specifies service hours, geographic coverage, and how to request assistance.\nממדים: Service conditions / stipulations, Aspect of service (e.g., hours, coverage)\n\nשעות הפעילות ופריסה ארצית .2.2\nבערב 14:00 שעות ביממה, בכל ימות השנה, פרט ליום הכיפורים החל מהשעה 24 . המבוטח יהיה זכאי לשרות 2.2.1 יום הכיפורים ועד שעתיים לאחר צאת יום הכיפורים.\n. לקבלת שירות, על המבוטח ו/או מי מטעמו לפנות למוקד השירות. 2.2.2\n. השירותים יינתנו על פי בקשת המבוטח, בהתאם לנסיבות והאפשרויות, בכל רחבי מדינת ישראל למעט בשטחי 2.2.3 האוטונומיה וחבל עזה."
+  "embed_text": "טבלה זו מתארת את שירותי הדרך והגרירה הניתנים למשאיות עד 34 טון, ומפרטת את שעות הפעילות, הפריסה הארצית ואופן הפנייה לקבלת שירות. השירות זמין 24 שעות ביממה, בכל ימות השנה, למעט יום הכיפורים. ניתן לקבל שירות בכל רחבי מדינת ישראל, למעט בשטחי האוטונומיה וחבל עזה. שירותי דרך וגרירה, יום הכיפורים, פריסה ארצית, מוקד שירות. This table details the availability and scope of roadside assistance and towing services for trucks up to 34 tons. It specifies service hours, geographic coverage, and the process for requesting assistance. בין הערכים בטבלה: שטחי אוטונומיה וחבל עזה: ללא שירות; זמן הגעה: עד 5 שעות.",
+  "payload": "טבלה: שירותי דרך וגרירה למשאיות\nThis table details the availability and scope of roadside assistance and towing services for trucks up to 34 tons. It specifies service hours, geographic coverage, and the process for requesting assistance.\nממדים: service conditions, service details\n\nשעות הפעילות ופריסה ארצית .2.2\nבערב 14:00 שעות ביממה, בכל ימות השנה, פרט ליום הכיפורים החל מהשעה 24 . המבוטח יהיה זכאי לשרות 2.2.1 יום הכיפורים ועד שעתיים לאחר צאת יום הכיפורים.\n. לקבלת שירות, על המבוטח ו/או מי מטעמו לפנות למוקד השירות. 2.2.2\n. השירותים יינתנו על פי בקשת המבוטח, בהתאם לנסיבות והאפשרויות, בכל רחבי מדינת ישראל למעט בשטחי 2.2.3 האוטונומיה וחבל עזה."
 }

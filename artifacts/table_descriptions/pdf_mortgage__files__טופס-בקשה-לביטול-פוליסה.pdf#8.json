@@ -2,21 +2,22 @@
   "id": "pdf:mortgage/files/טופס-בקשה-לביטול-פוליסה.pdf#8",
   "source": "llm",
   "description": {
-    "title": "בקשת ביטול פוליסה",
-    "summary": "This table captures requests to cancel insurance policies. It allows looking up cancellation requests by policyholder details and the requested cancellation date.",
-    "embed_passage": "טופס זה משמש לבקשת ביטול פוליסה של הראל בע״מ. המבוטח מציין את תאריך הביטול המבוקש, לדוגמה 07/2025, ומספק את מספר תעודת הזהות שלו לצורך אימות. ביטול הפוליסה יביא לביטול כל הכיסויים הביטוחיים הקיימים.",
-    "row_axis": "בקשת ביטול פוליסה ספציפית",
-    "column_axis": "פרטי בקשת הביטול (תאריך ביטול מבוקש, מספר תעודת זהות, חתימות)",
+    "title": "טופס בקשה לביטול פוליסה",
+    "summary": "This table is a form for requesting cancellation of an insurance policy. It captures signatures and identification details of the insured parties requesting the cancellation.",
+    "embed_passage": "טופס זה משמש לבקשת ביטול פוליסה של הראל בע״מ. הטבלה כוללת פרטים מזהים של המבוטחים המבקשים לבטל את הפוליסה, כגון מספר תעודת זהות ותאריך חתימה על הבקשה. מטרת הטופס היא לאפשר למבוטחים לבקש ביטול פוליסה קיימת. הראל בע״מ, ראשי מבוטח, הזוג בן/בת, 07/2025, 47597.37 הם חלק מהנתונים המופיעים בטופס.",
+    "row_axis": "insured party requesting cancellation",
+    "column_axis": "cancellation request details (signature date, ID number, etc.)",
     "units": [],
     "notable_values": [
-      "תאריך ביטול מבוקש: 07/2025",
-      "מספר תעודת זהות: 47597.37"
+      "תאריך: 07/2025",
+      "מספר תעודת זהות: 47597.37",
+      "מבוטח ראשי: הזוג בן/בת"
     ],
     "product_hints": [
       "הראל בע״מ"
     ]
   },
   "sketch": "47597.37\n07/2025\nחתימה,עבורם הפוליסה ביטול מתבקש אשר המבוטחים חתימות ה.תאריך,עבורם הפוליסה ביטול מתבקש אשר המבוטחים חתימות ה.זהות תעודת מספר,עבורם הפוליסה ביטול מתבקש אשר המבוטחים חתימות ה.,עבורם הפוליסה ביטול מתבקש אשר המבוטחים חתימות ה.\n,,,ראשי מבוטח,\n,,,הזוג בן/בת,",
-  "embed_text": "טופס זה משמש לבקשת ביטול פוליסה של הראל בע״מ. המבוטח מציין את תאריך הביטול המבוקש, לדוגמה 07/2025, ומספק את מספר תעודת הזהות שלו לצורך אימות. ביטול הפוליסה יביא לביטול כל הכיסויים הביטוחיים הקיימים.",
-  "payload": "טבלה: בקשת ביטול פוליסה\nThis table captures requests to cancel insurance policies. It allows looking up cancellation requests by policyholder details and the requested cancellation date.\nממדים: בקשת ביטול פוליסה ספציפית, פרטי בקשת הביטול (תאריך ביטול מבוקש, מספר תעודת זהות, חתימות)\n\n47597.37\n07/2025\nחתימה,עבורם הפוליסה ביטול מתבקש אשר המבוטחים חתימות ה.תאריך,עבורם הפוליסה ביטול מתבקש אשר המבוטחים חתימות ה.זהות תעודת מספר,עבורם הפוליסה ביטול מתבקש אשר המבוטחים חתימות ה.,עבורם הפוליסה ביטול מתבקש אשר המבוטחים חתימות ה.\n,,,ראשי מבוטח,\n,,,הזוג בן/בת,"
+  "embed_text": "טופס זה משמש לבקשת ביטול פוליסה של הראל בע״מ. הטבלה כוללת פרטים מזהים של המבוטחים המבקשים לבטל את הפוליסה, כגון מספר תעודת זהות ותאריך חתימה על הבקשה. מטרת הטופס היא לאפשר למבוטחים לבקש ביטול פוליסה קיימת. הראל בע״מ, ראשי מבוטח, הזוג בן/בת, 07/2025, 47597.37 הם חלק מהנתונים המופיעים בטופס. This table is a form for requesting cancellation of an insurance policy. It captures signatures and identification details of the insured parties requesting the cancellation.",
+  "payload": "טבלה: טופס בקשה לביטול פוליסה\nThis table is a form for requesting cancellation of an insurance policy. It captures signatures and identification details of the insured parties requesting the cancellation.\nממדים: insured party requesting cancellation, cancellation request details (signature date, ID number, etc.)\n\n47597.37\n07/2025\nחתימה,עבורם הפוליסה ביטול מתבקש אשר המבוטחים חתימות ה.תאריך,עבורם הפוליסה ביטול מתבקש אשר המבוטחים חתימות ה.זהות תעודת מספר,עבורם הפוליסה ביטול מתבקש אשר המבוטחים חתימות ה.,עבורם הפוליסה ביטול מתבקש אשר המבוטחים חתימות ה.\n,,,ראשי מבוטח,\n,,,הזוג בן/בת,"
 }

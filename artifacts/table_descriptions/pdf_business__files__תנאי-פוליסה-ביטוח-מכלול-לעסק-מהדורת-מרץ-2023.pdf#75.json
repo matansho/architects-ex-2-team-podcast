@@ -2,24 +2,23 @@
   "id": "pdf:business/files/תנאי-פוליסה-ביטוח-מכלול-לעסק-מהדורת-מרץ-2023.pdf#75",
   "source": "llm",
   "description": {
-    "title": "השבת סכום ביטוח",
-    "summary": "This table details the conditions for restoring the insurance amount to its original value after a claim, according to the general policy terms regarding reducing the insurance amount after damage. It outlines the additional premium required and the calculation of coverage for the remaining policy period.",
-    "embed_passage": "פוליסת מכלול לעסק עוסקת בהשבת סכום הביטוח לקדמותו, בתנאי שהמבוטח ישלם את דמי הביטוח הנוספים המגיעים בגין ההשבה ועד תום תקופת הביטוח. החישוב מתבצע על ידי הכפלת תגמולי הביטוח בשיעור דמי הביטוח לסיכוני הביטוח, לתקופת הביטוח הנותרת. הרחבה זו לא חלה על סיכוני גניבה.",
+    "title": "השבת סכום הביטוח",
+    "summary": "This table details the conditions for restoring the insurance amount to its original value after a claim, according to policy terms. It outlines the additional premiums required and limitations to this restoration.",
+    "embed_passage": "טבלה זו עוסקת בהשבת סכום הביטוח לקדמותו לאחר קרות מקרה ביטוח, בהתאם לבקשת המבוטח, ובתנאי תשלום דמי ביטוח נוספים. ניתן להשיב את סכום הביטוח לקדמותו, אך יש לשים לב להחרגות כגון סיכוני גניבה, פריצה ושוד. הרחבה זו אינה חלה על דברי ערך, כספים, תכשיטים, שעונים, משקפיים ואבנים יקרות. ביטוח מכלול לעסק הוא המוצר הרלוונטי כאן. השבת סכום הביטוח, דמי ביטוח נוספים, גניבה, פריצה, שוד, דברי ערך, תכשיטים, אבנים יקרות הם מושגים מרכזיים.",
     "row_axis": "conditions for restoring insurance amount",
-    "column_axis": "details of restoration process (premium calculation, exclusions)",
+    "column_axis": "policy terms related to restoration",
     "units": [],
     "notable_values": [
-      "30: period in days for notifying the insurer of additions",
-      "10%: maximum amount in a claim for valuation clause",
-      "סכום הביטוח: insurance amount",
-      "דמי הביטוח: insurance premium",
-      "תקופת הביטוח: policy period"
+      "insurance amount restoration: upon request",
+      "additional premiums: required",
+      "exclusions: theft, burglary, robbery",
+      "non-covered items: valuables, money, jewelry"
     ],
     "product_hints": [
-      "מכלול לעסק"
+      "ביטוח מכלול לעסק"
     ]
   },
   "sketch": "על אף האמור השבת סכום הביטוח לקדמותו בהתאם לבקשת המבוטח: .3.4.5 לאחר , בתנאי הפוליסה הכלליים לעניין הקטנת סכום הביטוח לאחר נזק יושב סכום הביטוח על פי קרות מקרה ביטוח, על פי בקשת המבוטח ועל המבוטח לשלם למבטח את דמי הביטוח הנוספים , פרק זה לקדמותו דמי המגיעים בגין השבה כזאת מיום ההשבה ועד תום תקופת הביטוח. הביטוח לעניין זה, תהא משמעותם כפולת תגמולי הביטוח בשיעור דמי הביטוח לסיכוני הביטוח, מחושבת לתקופת הביטוח הנותרת.\n, האמור בהרחבה זו לא יחול לגבי סיכוני גניבה, פריצה, שוד, מעשה זדון כמו גם כל סיכון אשר נקבע לגביו בפוליסה כי הכיסוי לעניינו חל על פי נזק ראשון ו/או שאינו כפוף לביטוח חסר - אשר לגביהם לא יחול תנאי זה.",
-  "embed_text": "פוליסת מכלול לעסק עוסקת בהשבת סכום הביטוח לקדמותו, בתנאי שהמבוטח ישלם את דמי הביטוח הנוספים המגיעים בגין ההשבה ועד תום תקופת הביטוח. החישוב מתבצע על ידי הכפלת תגמולי הביטוח בשיעור דמי הביטוח לסיכוני הביטוח, לתקופת הביטוח הנותרת. הרחבה זו לא חלה על סיכוני גניבה.",
-  "payload": "טבלה: השבת סכום ביטוח\nThis table details the conditions for restoring the insurance amount to its original value after a claim, according to the general policy terms regarding reducing the insurance amount after damage. It outlines the additional premium required and the calculation of coverage for the remaining policy period.\nממדים: conditions for restoring insurance amount, details of restoration process (premium calculation, exclusions)\n\nעל אף האמור השבת סכום הביטוח לקדמותו בהתאם לבקשת המבוטח: .3.4.5 לאחר , בתנאי הפוליסה הכלליים לעניין הקטנת סכום הביטוח לאחר נזק יושב סכום הביטוח על פי קרות מקרה ביטוח, על פי בקשת המבוטח ועל המבוטח לשלם למבטח את דמי הביטוח הנוספים , פרק זה לקדמותו דמי המגיעים בגין השבה כזאת מיום ההשבה ועד תום תקופת הביטוח. הביטוח לעניין זה, תהא משמעותם כפולת תגמולי הביטוח בשיעור דמי הביטוח לסיכוני הביטוח, מחושבת לתקופת הביטוח הנותרת.\n, האמור בהרחבה זו לא יחול לגבי סיכוני גניבה, פריצה, שוד, מעשה זדון כמו גם כל סיכון אשר נקבע לגביו בפוליסה כי הכיסוי לעניינו חל על פי נזק ראשון ו/או שאינו כפוף לביטוח חסר - אשר לגביהם לא יחול תנאי זה."
+  "embed_text": "טבלה זו עוסקת בהשבת סכום הביטוח לקדמותו לאחר קרות מקרה ביטוח, בהתאם לבקשת המבוטח, ובתנאי תשלום דמי ביטוח נוספים. ניתן להשיב את סכום הביטוח לקדמותו, אך יש לשים לב להחרגות כגון סיכוני גניבה, פריצה ושוד. הרחבה זו אינה חלה על דברי ערך, כספים, תכשיטים, שעונים, משקפיים ואבנים יקרות. ביטוח מכלול לעסק הוא המוצר הרלוונטי כאן. השבת סכום הביטוח, דמי ביטוח נוספים, גניבה, פריצה, שוד, דברי ערך, תכשיטים, אבנים יקרות הם מושגים מרכזיים. This table details the conditions for restoring the insurance amount to its original value after a claim, according to policy terms. It outlines the additional premiums required and limitations to this restoration. בין הערכים בטבלה: insurance amount restoration: upon request; additional premiums: required; exclusions: theft, burglary, robbery; non-covered items: valuables,…",
+  "payload": "טבלה: השבת סכום הביטוח\nThis table details the conditions for restoring the insurance amount to its original value after a claim, according to policy terms. It outlines the additional premiums required and limitations to this restoration.\nממדים: conditions for restoring insurance amount, policy terms related to restoration\n\nעל אף האמור השבת סכום הביטוח לקדמותו בהתאם לבקשת המבוטח: .3.4.5 לאחר , בתנאי הפוליסה הכלליים לעניין הקטנת סכום הביטוח לאחר נזק יושב סכום הביטוח על פי קרות מקרה ביטוח, על פי בקשת המבוטח ועל המבוטח לשלם למבטח את דמי הביטוח הנוספים , פרק זה לקדמותו דמי המגיעים בגין השבה כזאת מיום ההשבה ועד תום תקופת הביטוח. הביטוח לעניין זה, תהא משמעותם כפולת תגמולי הביטוח בשיעור דמי הביטוח לסיכוני הביטוח, מחושבת לתקופת הביטוח הנותרת.\n, האמור בהרחבה זו לא יחול לגבי סיכוני גניבה, פריצה, שוד, מעשה זדון כמו גם כל סיכון אשר נקבע לגביו בפוליסה כי הכיסוי לעניינו חל על פי נזק ראשון ו/או שאינו כפוף לביטוח חסר - אשר לגביהם לא יחול תנאי זה."
 }

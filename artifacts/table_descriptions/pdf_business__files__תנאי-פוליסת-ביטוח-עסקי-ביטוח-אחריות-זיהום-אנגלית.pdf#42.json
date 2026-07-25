@@ -2,21 +2,23 @@
   "id": "pdf:business/files/תנאי-פוליסת-ביטוח-עסקי-ביטוח-אחריות-זיהום-אנגלית.pdf#42",
   "source": "llm",
   "description": {
-    "title": "ביטוח אחריות זיהום",
-    "summary": "This table details exclusions to a pollution liability insurance policy. It specifies situations where the insured is not covered, such as injuries occurring during employment or obligations under workers' compensation laws.",
-    "embed_passage": "פוליסת ביטוח אחריות זיהום מכסה נזקים כתוצאה מזיהום, אך אינה מכסה פציעות המתרחשות במהלך העבודה או חובות במסגרת חוקי פיצויי עובדים. הפוליסה אינה מכסה גם חובות כלפי בני משפחה של המבוטח כתוצאה מפציעה בעבודה. סעיף N מתייחס לפציעות המתרחשות במהלך העבודה.",
-    "row_axis": "Types of liability/injury excluded from coverage",
-    "column_axis": "Conditions leading to exclusion",
+    "title": "פיצוי עובדים ופציעה כתוצאה מעבודה",
+    "summary": "This table details exclusions related to Workers' Compensation and injury occurring during employment. It specifies obligations the insured has under various compensation laws and injuries to family members.",
+    "embed_passage": "טבלה זו מתארת חריגים הקשורים לפיצוי עובדים ופציעה המתרחשת במהלך העבודה. היא מפרטת התחייבויות של המבוטח במסגרת חוקי פיצויים שונים ופציעות לבני משפחה. הפוליסה רלוונטית ל'ביטוח אחריות זיהום' ולכיסוי 'נזק' ו'אובדן אחר'. החריגים כוללים התחייבויות תחת חוקי פיצוי עובדים, תשלום דמי מנוחה, דמי אבטלה, ופציעות של המבוטח או קרובי משפחתו במהלך העבודה. טבלה זו מסייעת להבין את היקף הכיסוי של 'ביטוח אחריות זיהום' ביחס לפציעות עבודה.",
+    "row_axis": "Types of worker's compensation/injury obligations",
+    "column_axis": "Exclusion conditions",
     "units": [],
     "notable_values": [
-      "coverage period: 60 days",
-      "discovery period: 30 days"
+      "obligation: owed under workers compensation law",
+      "injury: occurs during employment",
+      "injury: to spouse/child/parent/sibling",
+      "obligation: indemnity/contribution for loss"
     ],
     "product_hints": [
       "ביטוח אחריות זיהום"
     ]
   },
   "sketch": "N. Workers' Compensation and Injury as a Consequence of Employment\nAny  obligation  of  the  'insured'  that  is  owed,  in  whole  or  in  part,  under  a workers compensation, disability benefits, unemployment compensation or any similar law;\nInjury  to  any  \"insured\"  if  such  injury  occurs  during  and  in  the  course  of employment;\nInjury  to  the  spouse,  child,  parent,  brother  or  sister  of  any  \"insured\"  as  a consequence of such \"insured's\" employment; or\nAny obligation of an 'insured' for indemnity or contribution to another because of 'loss' or \"other loss\" arising out of such injury in the course of employment.",
-  "embed_text": "פוליסת ביטוח אחריות זיהום מכסה נזקים כתוצאה מזיהום, אך אינה מכסה פציעות המתרחשות במהלך העבודה או חובות במסגרת חוקי פיצויי עובדים. הפוליסה אינה מכסה גם חובות כלפי בני משפחה של המבוטח כתוצאה מפציעה בעבודה. סעיף N מתייחס לפציעות המתרחשות במהלך העבודה.",
-  "payload": "טבלה: ביטוח אחריות זיהום\nThis table details exclusions to a pollution liability insurance policy. It specifies situations where the insured is not covered, such as injuries occurring during employment or obligations under workers' compensation laws.\nממדים: Types of liability/injury excluded from coverage, Conditions leading to exclusion\n\nN. Workers' Compensation and Injury as a Consequence of Employment\nAny  obligation  of  the  'insured'  that  is  owed,  in  whole  or  in  part,  under  a workers compensation, disability benefits, unemployment compensation or any similar law;\nInjury  to  any  \"insured\"  if  such  injury  occurs  during  and  in  the  course  of employment;\nInjury  to  the  spouse,  child,  parent,  brother  or  sister  of  any  \"insured\"  as  a consequence of such \"insured's\" employment; or\nAny obligation of an 'insured' for indemnity or contribution to another because of 'loss' or \"other loss\" arising out of such injury in the course of employment."
+  "embed_text": "טבלה זו מתארת חריגים הקשורים לפיצוי עובדים ופציעה המתרחשת במהלך העבודה. היא מפרטת התחייבויות של המבוטח במסגרת חוקי פיצויים שונים ופציעות לבני משפחה. הפוליסה רלוונטית ל'ביטוח אחריות זיהום' ולכיסוי 'נזק' ו'אובדן אחר'. החריגים כוללים התחייבויות תחת חוקי פיצוי עובדים, תשלום דמי מנוחה, דמי אבטלה, ופציעות של המבוטח או קרובי משפחתו במהלך העבודה. טבלה זו מסייעת להבין את היקף הכיסוי של 'ביטוח אחריות זיהום' ביחס לפציעות עבודה. This table details exclusions related to Workers' Compensation and injury occurring during employment. It specifies obligations the insured has under various compensation laws and injuries to family members. בין הערכים בטבלה: obligation: owed under workers compensation law; injury: occurs during employment; injury: to spouse/child/parent/sibling; obligation: indemnity/contrib…",
+  "payload": "טבלה: פיצוי עובדים ופציעה כתוצאה מעבודה\nThis table details exclusions related to Workers' Compensation and injury occurring during employment. It specifies obligations the insured has under various compensation laws and injuries to family members.\nממדים: Types of worker's compensation/injury obligations, Exclusion conditions\n\nN. Workers' Compensation and Injury as a Consequence of Employment\nAny  obligation  of  the  'insured'  that  is  owed,  in  whole  or  in  part,  under  a workers compensation, disability benefits, unemployment compensation or any similar law;\nInjury  to  any  \"insured\"  if  such  injury  occurs  during  and  in  the  course  of employment;\nInjury  to  the  spouse,  child,  parent,  brother  or  sister  of  any  \"insured\"  as  a consequence of such \"insured's\" employment; or\nAny obligation of an 'insured' for indemnity or contribution to another because of 'loss' or \"other loss\" arising out of such injury in the course of employment."
 }

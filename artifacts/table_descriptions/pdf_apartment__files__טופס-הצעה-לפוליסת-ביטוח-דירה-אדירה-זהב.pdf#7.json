@@ -2,25 +2,26 @@
   "id": "pdf:apartment/files/טופס-הצעה-לפוליסת-ביטוח-דירה-אדירה-זהב.pdf#7",
   "source": "llm",
   "description": {
-    "title": "ביטוח דירה - אדירה זהב",
-    "summary": "This table captures details about the property being insured under the 'אדירה זהב' home insurance policy. It's used to assess risk and determine premiums based on property characteristics and security features.",
-    "embed_passage": "פוליסת 'אדירה זהב' לביטוח דירה מתייחסת למאפייני המבנה והתכולה, כגון סוג דלת הכניסה, קיום כספת, ומספר קומות בבניין. לדוגמה, ניתן לציין האם קיימת כספת בדירה, ואם כן, לפרט את סוגה. השטח הממוצע של דירה יכול להיות משמעותי בקביעת עלות הביטוח.",
-    "row_axis": "property feature / security measure",
-    "column_axis": "response (yes/no/details)",
+    "title": "מיגונים ו",
+    "summary": "This table details the security features of an apartment for insurance purposes. It is used to document the type of doors, locks, windows, and safes present in the apartment.",
+    "embed_passage": "טופס זה מתייחס לתיאור מיגונים בדירה לצורך ביטוח, כגון דלתות, חלונות וכספות. המידע נאסף כדי להעריך את רמת האבטחה של הנכס. יש לציין את סוג הדלת הראשית, דלתות נוספות, מיגון המחסן, ואת קיום כספת. טופס הצעה לפוליסת ביטוח דירה אדירה זהב משמש לאיסוף פרטים אלו. דלתות כניסה, חלונות, והגג הם חלק מהמידע הנאסף.",
+    "row_axis": "Security feature (e.g., main entrance door, storage room)",
+    "column_axis": "Details (e.g., type, locks, presence of safe)",
     "units": [],
     "notable_values": [
-      "דלת הכניסה הראשית: סוג הדלת",
-      "כספת בדירה: כן/לא",
-      "מספר קומות בבניין: 0",
-      "מבנה הדירה: בית משותף",
-      "קומה: לא מצוין"
+      "דלת הכניסה הראשית לדירה: עץ",
+      "דלתות כניסה אחרות לדירה: …",
+      "מיגון למחסן: דלתות (מנעולים)",
+      "מיגון למחסן: חלונות",
+      "הגג עשוי מ: …",
+      "כספת בדירה: כן",
+      "כספת בדירה: לא"
     ],
     "product_hints": [
-      "אדירה זהב",
-      "ביטוח דירה"
+      "ביטוח דירה אדירה זהב"
     ]
   },
-  "sketch": "מיגונים ו\n:(\nדלת הכניסה הראשית לדירה )נא לציין סוג הדלת, כגון: עץ, פלדלת, סוגי המנעולים ומספרם\n:\n…\n:(\nכן, פרט )סוג, משקל, חיבור, עיגון\nלא\n? האם קיימת כספת בדירה",
-  "embed_text": "פוליסת 'אדירה זהב' לביטוח דירה מתייחסת למאפייני המבנה והתכולה, כגון סוג דלת הכניסה, קיום כספת, ומספר קומות בבניין. לדוגמה, ניתן לציין האם קיימת כספת בדירה, ואם כן, לפרט את סוגה. השטח הממוצע של דירה יכול להיות משמעותי בקביעת עלות הביטוח.",
-  "payload": "טבלה: ביטוח דירה - אדירה זהב\nThis table captures details about the property being insured under the 'אדירה זהב' home insurance policy. It's used to assess risk and determine premiums based on property characteristics and security features.\nממדים: property feature / security measure, response (yes/no/details)\n\nמיגונים ו\n:(\nדלת הכניסה הראשית לדירה )נא לציין סוג הדלת, כגון: עץ, פלדלת, סוגי המנעולים ומספרם\n:\nדלתות כניסה אחרות לדירה\n:\nחלונות:                                                                              פתחים אחרים כולל פתחי מזגנים\n:\nכן, פרט\nלא\n? האם קיימת מערכת אזעקה\nקווי אלחוטי\nאלחוטי\nקווי\n: חיבור\nכן\nלא\n? האם מחובר לחייגן טלפון\nכן\nלא\n? האם קיים חיבור למוקד\n:\nכן, פרט\nלא\n? שעות ביממה בלובי הבנין 24 שמירה מאויישת\n:\nפירוט המיגון למחסן: דלתות )מנעולים(:                                       חלונות:                                              הגג עשוי מ\n:(\nכן, פרט )סוג, משקל, חיבור, עיגון\nלא\n? האם קיימת כספת בדירה"
+  "sketch": "מיגונים ו\n:(\nדלת הכניסה הראשית לדירה )נא לציין סוג הדלת, כגון: עץ, פלדלת, סוגי המנעולים ומספרם\n:\nדלתות כניסה אחרות לדירה\n:\n…\n:\nפירוט המיגון למחסן: דלתות )מנעולים(:                                       חלונות:                                              הגג עשוי מ\n:(\nכן, פרט )סוג, משקל, חיבור, עיגון\nלא\n? האם קיימת כספת בדירה",
+  "embed_text": "טופס זה מתייחס לתיאור מיגונים בדירה לצורך ביטוח, כגון דלתות, חלונות וכספות. המידע נאסף כדי להעריך את רמת האבטחה של הנכס. יש לציין את סוג הדלת הראשית, דלתות נוספות, מיגון המחסן, ואת קיום כספת. טופס הצעה לפוליסת ביטוח דירה אדירה זהב משמש לאיסוף פרטים אלו. דלתות כניסה, חלונות, והגג הם חלק מהמידע הנאסף. This table details the security features of an apartment for insurance purposes. It is used to document the type of doors, locks, windows, and safes present in the apartment. בין הערכים בטבלה: דלת הכניסה הראשית לדירה: עץ; דלתות כניסה אחרות לדירה: …; מיגון למחסן: דלתות (מנעולים); הגג עשוי מ: …; כספת בדירה: כן.",
+  "payload": "טבלה: מיגונים ו\nThis table details the security features of an apartment for insurance purposes. It is used to document the type of doors, locks, windows, and safes present in the apartment.\nממדים: Security feature (e.g., main entrance door, storage room), Details (e.g., type, locks, presence of safe)\n\nמיגונים ו\n:(\nדלת הכניסה הראשית לדירה )נא לציין סוג הדלת, כגון: עץ, פלדלת, סוגי המנעולים ומספרם\n:\nדלתות כניסה אחרות לדירה\n:\nחלונות:                                                                              פתחים אחרים כולל פתחי מזגנים\n:\nכן, פרט\nלא\n? האם קיימת מערכת אזעקה\nקווי אלחוטי\nאלחוטי\nקווי\n: חיבור\nכן\nלא\n? האם מחובר לחייגן טלפון\nכן\nלא\n? האם קיים חיבור למוקד\n:\nכן, פרט\nלא\n? שעות ביממה בלובי הבנין 24 שמירה מאויישת\n:\nפירוט המיגון למחסן: דלתות )מנעולים(:                                       חלונות:                                              הגג עשוי מ\n:(\nכן, פרט )סוג, משקל, חיבור, עיגון\nלא\n? האם קיימת כספת בדירה"
 }

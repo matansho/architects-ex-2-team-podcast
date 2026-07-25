@@ -3,23 +3,22 @@
   "source": "llm",
   "description": {
     "title": "רפואת שיניים - פרוצדורות",
-    "summary": "This table lists dental procedures and their corresponding codes. It is used to detail the type of dental work performed for claim processing.",
-    "embed_passage": "טופס כיסוי הוצאות רפואת שיניים כולל פרוצדורות שונות כמו D4341000, D4260000 ו-D4240000. הפרוצדורות מוגדרות לפי קוד, סיבה, שן ממנה ושן אליה. הטופס משמש לתיעוד הטיפולים לצורך החזר הוצאות.",
+    "summary": "This table lists dental procedures with associated codes and tooth ranges. It is used to detail procedures performed for claim processing.",
+    "embed_passage": "טבלה זו מפרטת פרוצדורות רפואת שיניים שונות, יחד עם קודי הפרוצדורה המתאימים ותחומי השיניים הרלוונטיים. ניתן לחפש מידע על פרוצדורה ספציפית באמצעות קוד הפרוצדורה שלה, כגון D4341000 או D4260000. הפרוצדורות כוללות ניתוחי חניכיים, עיצוב עצם, והרמת מתלה. קודי הפרוצדורה הם D4341000, D4260000, ו-D4240000. טווח השיניים מצוין בעמודות 'From tooth' ו-'To tooth'.",
     "row_axis": "Dental procedure",
-    "column_axis": "Procedure details (code, reason, tooth range, X-ray requirement)",
+    "column_axis": "Procedure details (code, reason, tooth range)",
     "units": [],
     "notable_values": [
       "Procedure code: D4341000",
       "Procedure code: D4260000",
       "Procedure code: D4240000",
-      "X-ray required: X"
+      "Procedure: Periodontal surgery including shaping bone - 4 or more teeth"
     ],
     "product_hints": [
-      "רפואת שיניים",
-      "טופס כיסוי הוצאות רפואת שיניים"
+      "רפואת שיניים"
     ]
   },
   "sketch": "more teeth,D4341000,,\n,Periodontal surgery including,D4260000,,\n,shaping bone - 4 or more teeth,,,\n,\"Raising flap, including root planing Any other procedure not\",D4240000 defined in the table,X,",
-  "embed_text": "טופס כיסוי הוצאות רפואת שיניים כולל פרוצדורות שונות כמו D4341000, D4260000 ו-D4240000. הפרוצדורות מוגדרות לפי קוד, סיבה, שן ממנה ושן אליה. הטופס משמש לתיעוד הטיפולים לצורך החזר הוצאות.",
-  "payload": "טבלה: רפואת שיניים - פרוצדורות\nThis table lists dental procedures and their corresponding codes. It is used to detail the type of dental work performed for claim processing.\nממדים: Dental procedure, Procedure details (code, reason, tooth range, X-ray requirement)\n\nmore teeth,D4341000,,\n,Periodontal surgery including,D4260000,,\n,shaping bone - 4 or more teeth,,,\n,\"Raising flap, including root planing Any other procedure not\",D4240000 defined in the table,X,"
+  "embed_text": "טבלה זו מפרטת פרוצדורות רפואת שיניים שונות, יחד עם קודי הפרוצדורה המתאימים ותחומי השיניים הרלוונטיים. ניתן לחפש מידע על פרוצדורה ספציפית באמצעות קוד הפרוצדורה שלה, כגון D4341000 או D4260000. הפרוצדורות כוללות ניתוחי חניכיים, עיצוב עצם, והרמת מתלה. קודי הפרוצדורה הם D4341000, D4260000, ו-D4240000. טווח השיניים מצוין בעמודות 'From tooth' ו-'To tooth'. This table lists dental procedures with associated codes and tooth ranges. It is used to detail procedures performed for claim processing. בין הערכים בטבלה: Procedure: Periodontal surgery including shaping bone - 4 or more teeth.",
+  "payload": "טבלה: רפואת שיניים - פרוצדורות\nThis table lists dental procedures with associated codes and tooth ranges. It is used to detail procedures performed for claim processing.\nממדים: Dental procedure, Procedure details (code, reason, tooth range)\n\nmore teeth,D4341000,,\n,Periodontal surgery including,D4260000,,\n,shaping bone - 4 or more teeth,,,\n,\"Raising flap, including root planing Any other procedure not\",D4240000 defined in the table,X,"
 }

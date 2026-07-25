@@ -2,25 +2,27 @@
   "id": "pdf:business/files/תנאי-פוליסה-ביטוח-מכלול-למשרד-מהדורת-ינואר-2024.pdf#312",
   "source": "llm",
   "description": {
-    "title": "גבולות אחריות",
-    "summary": "This table details how liability limits are applied and reduced under the 'Mekhalel' insurance policy. It outlines scenarios involving claim payments, settlements, and legal proceedings.",
-    "embed_passage": "פוליסת ביטוח מכלול מגדירה את גבולות האחריות בהתאם לנסיבות התביעה. לדוגמה, אם שולמו תגמולי ביטוח בסכום מסוים, גבולות האחריות יופחתו בהתאם. במקרה של פשרה שלא התקבלה, אחריות המבטח תוגבל לסכום שהוצע בהצעה המקורית.",
-    "row_axis": "Scenarios related to claim handling and settlement negotiations",
-    "column_axis": "Liability limits, payment conditions, and consequences of actions",
+    "title": "תשלום סכום בגבול אחריות / בפשרה",
+    "summary": "This table outlines the conditions for settling claims within the limits of liability or through compromise. It details how payments affect future liability and the consequences of rejecting a settlement offer.",
+    "embed_passage": "טבלה זו עוסקת בתשלום סכומים בגבולות האחריות או בפשרה בתביעות ביטוח. היא מפרטת כיצד תשלומים משפיעים על גבולות האחריות העתידיים של המבטח, ומה קורה כאשר המבוטח דוחה הצעה לפשרה. המבטח רשאי לשלם סכום בגבול האחריות לאחר ניכוי תגמולי ביטוח קודמים, ובכך לוותר על ניהול התביעה. במקרה של דחיית פשרה, אחריות המבטח מוגבלת לסכום הפשרה המוצע. סכומי פיצוי, הוצאות הגנה סבירות, ותגמולי ביטוח הם חלק מהשיקולים.",
+    "row_axis": "Scenario regarding claim settlement (before proceedings, rejection of compromise)",
+    "column_axis": "Liability limits, payment conditions, and consequences",
     "units": [],
     "notable_values": [
-      "9.28: Payment within liability limits / settlement",
-      "9.28.1: Payment before proceedings",
-      "9.28.2: Settlement offer rejection",
-      "9.28.2.1: Claim dismissal",
-      "9.28.2.2: Reduced compensation"
+      "תביעה: סדרה של תביעות",
+      "תגמולי ביטוח: סכום ששולם",
+      "הוצאות משפט סבירות: תשלומים מעבר לגבולות האחריות",
+      "פשרה: סכום מוצע",
+      "גבולות האחריות: סכום מתאים",
+      "סכום פיצוי: הוקטן",
+      "הוצאות הגנה סבירות: ישופה",
+      "ניהול תביעה: ויתור"
     ],
     "product_hints": [
-      "מכלול",
       "ביטוח מכלול"
     ]
   },
   "sketch": ".9.28 תשלום סכום בגבול אחריות / בפשרה\n.9.28.1 לפני ניהול הליכים או תוך משא ומתן לפשרה בקשר עם כל תביעה, או סדרה של תביעות, או עניין כלשהו העלול לעמוד לתביעה על פי פוליסה זו - או במהלכם - רשאי המבטח לשלם למבוטח את סכום גבול או גבולות האחריות המתאימים, לאחר שנוכה ממנו כל סכום או סכומים שכבר שולמו בתור תגמולי ביטוח, ובמקרה כזה יוותר המבטח על ניהול תביעה\nאו תביעות כאלה ועל הפיקוח עליהן, ויראו באמור כתשלום מלא של כל גבולות האחריות המתאימים בפוליסה, למעט תשלומים והוצאות משפט סבירות שישולמו מעבר לגבולות האחריות.",
-  "embed_text": "פוליסת ביטוח מכלול מגדירה את גבולות האחריות בהתאם לנסיבות התביעה. לדוגמה, אם שולמו תגמולי ביטוח בסכום מסוים, גבולות האחריות יופחתו בהתאם. במקרה של פשרה שלא התקבלה, אחריות המבטח תוגבל לסכום שהוצע בהצעה המקורית.",
-  "payload": "טבלה: גבולות אחריות\nThis table details how liability limits are applied and reduced under the 'Mekhalel' insurance policy. It outlines scenarios involving claim payments, settlements, and legal proceedings.\nממדים: Scenarios related to claim handling and settlement negotiations, Liability limits, payment conditions, and consequences of actions\n\n.9.28 תשלום סכום בגבול אחריות / בפשרה\n.9.28.1 לפני ניהול הליכים או תוך משא ומתן לפשרה בקשר עם כל תביעה, או סדרה של תביעות, או עניין כלשהו העלול לעמוד לתביעה על פי פוליסה זו - או במהלכם - רשאי המבטח לשלם למבוטח את סכום גבול או גבולות האחריות המתאימים, לאחר שנוכה ממנו כל סכום או סכומים שכבר שולמו בתור תגמולי ביטוח, ובמקרה כזה יוותר המבטח על ניהול תביעה\nאו תביעות כאלה ועל הפיקוח עליהן, ויראו באמור כתשלום מלא של כל גבולות האחריות המתאימים בפוליסה, למעט תשלומים והוצאות משפט סבירות שישולמו מעבר לגבולות האחריות."
+  "embed_text": "טבלה זו עוסקת בתשלום סכומים בגבולות האחריות או בפשרה בתביעות ביטוח. היא מפרטת כיצד תשלומים משפיעים על גבולות האחריות העתידיים של המבטח, ומה קורה כאשר המבוטח דוחה הצעה לפשרה. המבטח רשאי לשלם סכום בגבול האחריות לאחר ניכוי תגמולי ביטוח קודמים, ובכך לוותר על ניהול התביעה. במקרה של דחיית פשרה, אחריות המבטח מוגבלת לסכום הפשרה המוצע. סכומי פיצוי, הוצאות הגנה סבירות, ותגמולי ביטוח הם חלק מהשיקולים. This table outlines the conditions for settling claims within the limits of liability or through compromise. It details how payments affect future liability and the consequences of rejecting a settlement offer. בין הערכים בטבלה: הוצאות משפט סבירות: תשלומים מעבר לגבולות האחריות; סכום פיצוי: הוקטן; ניהול תביעה: ויתור.",
+  "payload": "טבלה: תשלום סכום בגבול אחריות / בפשרה\nThis table outlines the conditions for settling claims within the limits of liability or through compromise. It details how payments affect future liability and the consequences of rejecting a settlement offer.\nממדים: Scenario regarding claim settlement (before proceedings, rejection of compromise), Liability limits, payment conditions, and consequences\n\n.9.28 תשלום סכום בגבול אחריות / בפשרה\n.9.28.1 לפני ניהול הליכים או תוך משא ומתן לפשרה בקשר עם כל תביעה, או סדרה של תביעות, או עניין כלשהו העלול לעמוד לתביעה על פי פוליסה זו - או במהלכם - רשאי המבטח לשלם למבוטח את סכום גבול או גבולות האחריות המתאימים, לאחר שנוכה ממנו כל סכום או סכומים שכבר שולמו בתור תגמולי ביטוח, ובמקרה כזה יוותר המבטח על ניהול תביעה\nאו תביעות כאלה ועל הפיקוח עליהן, ויראו באמור כתשלום מלא של כל גבולות האחריות המתאימים בפוליסה, למעט תשלומים והוצאות משפט סבירות שישולמו מעבר לגבולות האחריות."
 }

@@ -2,27 +2,30 @@
   "id": "pdf:loss-of-working-ability/files/תנאי-פוליסת-ביטוח-אובדן-כושר-עבודה-הראל-מטריה-ביטוחית.pdf#204",
   "source": "llm",
   "description": {
-    "title": "אובדן כושר עבודה - הראל מטריה",
-    "summary": "This table details supplemental compensation for loss of working ability when combined with a nursing state. It shows how the monthly compensation is calculated, referencing percentages of salary and a 1.3333 multiplier.",
-    "embed_passage": "פוליסת הראל מטריה מספקת פיצוי חודשי במקרה של אובדן כושר עבודה. לדוגמה, אם נרכש פיצוי של 60% מהשכר, ובנוסף המבוטח במצב סיעודי, ישולם פיצוי חודשי כולל בשיעור של 80%. שיעור הפיצוי הכולל לא יעלה על 100% מהשכר.",
-    "row_axis": "Scenarios related to loss of working ability and nursing state",
-    "column_axis": "Compensation calculation details",
+    "title": "חישוב פיצוי במצב סיעודי",
+    "summary": "This table details how the monthly compensation is calculated when a policyholder becomes disabled and requires nursing care. It shows the combined compensation rate from the loss of working ability coverage and the nursing care addition.",
+    "embed_passage": "טבלה זו מתארת את אופן חישוב הפיצוי החודשי כאשר המבוטח הופך לסיעודי, בנוסף לאובדן כושר עבודה. החישוב מבוסס על אחוז מהשכר הנרכש בתכנית, עם תוספת במצב סיעודי. ניתן לחשב את הפיצוי החודשי הכולל על ידי הכפלת אחוז הפיצוי הבסיסי ב-1.3333. לדוגמה, פיצוי חודשי נרכש בתכנית של 60% מהשכר, במצב סיעודי ישולם פיצוי חודשי כולל בשיעור של 80%. התכנית הראל מטריה ביטוחית מאפשרת חישוב פיצוי מותאם אישית. שיעור הפיצוי החודשי הכולל לא יעלה על 100% מהשכר.",
+    "row_axis": "תרחיש פיצוי (אובדן כושר עבודה + מצב סיעודי)",
+    "column_axis": "שיעור פיצוי",
     "units": [
       "%"
     ],
     "notable_values": [
-      "60%: Initial compensation percentage",
-      "80%: Total compensation in nursing state",
-      "1.3333: Multiplier for nursing state compensation",
-      "100%: Maximum total compensation",
-      "3.3: Refers to section 3.3 of the policy"
+      "פיצוי חודשי נרכש בתכנית: 60%",
+      "פיצוי חודשי במצב סיעודי: 80%",
+      "תוספת לפיצוי החודשי במצב סיעודי: 33.33%",
+      "מכפיל חישוב פיצוי במצב סיעודי: 1.3333",
+      "תקופת תשלום: עד למועד בו חדל המבוטח להיות במצב סיעודי",
+      "תקופת תשלום: תום תקופת הביטוח",
+      "מצב סיעודי: הגדרה לפי חוזר 2",
+      "שיעור פיצוי מקסימלי: 100%"
     ],
     "product_hints": [
-      "הראל מטריה",
-      "אובדן כושר עבודה"
+      "אובדן כושר עבודה",
+      "מצב סיעודי"
     ]
   },
   "sketch": "מהשכר 60% פיצוי חודשי נרכש בתכנית : כמחושב להלן 80% במצב סיעודי ישולם פיצוי חודשי כולל בשיעור 1.3333 X60% = 80%\nיובהר, כי בכל מקרה שיעור הפיצוי החודשי הכולל שישולם בשל אובדן כושר העבודה 3.3 מהשכר המבוטח בתכנית. 100% הסיעודי, לא יעלה על והמצב\nהפיצוי החודשי על פי הרחבה זו ישולם מדי חודש בחודשו, החל מהמועד בו המבוטח הפך 3.4 לסיעודי או מתום תקופת ההמתנה על פי התכנית, לפי המאוחר מבינהם, ועד למועד המוקדם מבין אלה:",
-  "embed_text": "פוליסת הראל מטריה מספקת פיצוי חודשי במקרה של אובדן כושר עבודה. לדוגמה, אם נרכש פיצוי של 60% מהשכר, ובנוסף המבוטח במצב סיעודי, ישולם פיצוי חודשי כולל בשיעור של 80%. שיעור הפיצוי הכולל לא יעלה על 100% מהשכר.",
-  "payload": "טבלה: אובדן כושר עבודה - הראל מטריה\nThis table details supplemental compensation for loss of working ability when combined with a nursing state. It shows how the monthly compensation is calculated, referencing percentages of salary and a 1.3333 multiplier.\nממדים: Scenarios related to loss of working ability and nursing state, Compensation calculation details\n\nמהשכר 60% פיצוי חודשי נרכש בתכנית : כמחושב להלן 80% במצב סיעודי ישולם פיצוי חודשי כולל בשיעור 1.3333 X60% = 80%\nיובהר, כי בכל מקרה שיעור הפיצוי החודשי הכולל שישולם בשל אובדן כושר העבודה 3.3 מהשכר המבוטח בתכנית. 100% הסיעודי, לא יעלה על והמצב\nהפיצוי החודשי על פי הרחבה זו ישולם מדי חודש בחודשו, החל מהמועד בו המבוטח הפך 3.4 לסיעודי או מתום תקופת ההמתנה על פי התכנית, לפי המאוחר מבינהם, ועד למועד המוקדם מבין אלה:"
+  "embed_text": "טבלה זו מתארת את אופן חישוב הפיצוי החודשי כאשר המבוטח הופך לסיעודי, בנוסף לאובדן כושר עבודה. החישוב מבוסס על אחוז מהשכר הנרכש בתכנית, עם תוספת במצב סיעודי. ניתן לחשב את הפיצוי החודשי הכולל על ידי הכפלת אחוז הפיצוי הבסיסי ב-1.3333. לדוגמה, פיצוי חודשי נרכש בתכנית של 60% מהשכר, במצב סיעודי ישולם פיצוי חודשי כולל בשיעור של 80%. התכנית הראל מטריה ביטוחית מאפשרת חישוב פיצוי מותאם אישית. שיעור הפיצוי החודשי הכולל לא יעלה על 100% מהשכר. This table details how the monthly compensation is calculated when a policyholder becomes disabled and requires nursing care. It shows the combined compensation rate from the loss of working ability coverage and the nursing care addition. בין הערכים בטבלה: תוספת לפיצוי החודשי במצב סיעודי: 33.33%; תקופת תשלום: עד למועד בו חדל המבוטח להיות במצב סיעודי; תקופת תשלום:…",
+  "payload": "טבלה: חישוב פיצוי במצב סיעודי\nThis table details how the monthly compensation is calculated when a policyholder becomes disabled and requires nursing care. It shows the combined compensation rate from the loss of working ability coverage and the nursing care addition.\nממדים: תרחיש פיצוי (אובדן כושר עבודה + מצב סיעודי), שיעור פיצוי\n\nמהשכר 60% פיצוי חודשי נרכש בתכנית : כמחושב להלן 80% במצב סיעודי ישולם פיצוי חודשי כולל בשיעור 1.3333 X60% = 80%\nיובהר, כי בכל מקרה שיעור הפיצוי החודשי הכולל שישולם בשל אובדן כושר העבודה 3.3 מהשכר המבוטח בתכנית. 100% הסיעודי, לא יעלה על והמצב\nהפיצוי החודשי על פי הרחבה זו ישולם מדי חודש בחודשו, החל מהמועד בו המבוטח הפך 3.4 לסיעודי או מתום תקופת ההמתנה על פי התכנית, לפי המאוחר מבינהם, ועד למועד המוקדם מבין אלה:"
 }

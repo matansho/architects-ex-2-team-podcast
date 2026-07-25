@@ -3,24 +3,26 @@
   "source": "llm",
   "description": {
     "title": "תרופות מיוחדות",
-    "summary": "This table details criteria for 'special medications' coverage, specifically 'Off Label' drugs. It lists recognized sources (e.g., FDA, ASCO) whose publications support the drug's use.",
-    "embed_passage": "פוליסת ביטוח בריאות מכסה תרופות מיוחדות, כולל תרופות Off Label, אם הרשויות המוסמכות כמו ה־FDA או ה־ASCO הכירו ביעילות התרופה לטיפול במצבו הרפואי של המבוטח. התנאי הוא שהתרופה לא אושרה לשימוש בהתוויה הרפואית הספציפית הזו, אך קיימים פרסומים התומכים ביעילותה.",
+    "summary": "This table details criteria for coverage of 'Off Label' medications. It lists recognized sources for efficacy and recommendation strength.",
+    "embed_passage": "טבלה זו עוסקת בתרופות מיוחדות, ובפרט תרופות 'Off Label' שאינן מאושרות לשימוש עבור מצבו הרפואי של המבוטח. מטרתה להגדיר את התנאים שבהם תרופה כזו תכוסה על ידי הפוליסה, תוך התייחסות למקורות מידע מוכרים כמו ה-FDA, American Hospital Formulary Service, ו-NCCN. ניתן לחפש מידע על תרופות ספציפיות על פי המקורות המומלצים, עוצמת ההמלצה (Strength of Recommendation) ויעילות התרופה (Efficacy). בין המקורות המוכרים ניתן למצוא FDA, American Hospital Formulary Service Drug Information, US Pharmacopoeia - Drug Information, Drugdex (Micromedex), NCCN, ASCO, NICE, ו-Esmo Minimal Recommendation. התרופות המופיעות בטבלה מיועדות לטיפול במצבו הרפואי של המבוטח.",
     "row_axis": "criteria for 'Off Label' drug coverage",
-    "column_axis": "recognized sources for drug efficacy",
+    "column_axis": "source/category of information",
     "units": [],
     "notable_values": [
-      "FDA: .1.14.1",
-      "American Hospital Formulary Service Drug Information: .1.14.2",
-      "US Pharmacopoeia - Drug Information: .1.14.3",
-      "NCCN: .1.14.5.1",
-      "ASCO: .1.14.5.2"
+      "FDA: פרסומי",
+      "American Hospital Formulary Service Drug Information",
+      "US Pharmacopoeia - Drug Information",
+      "Drugdex (Micromedex)",
+      "Strength of Recommendation: IIa או I",
+      "Efficacy: IIa או I",
+      "NCCN",
+      "ASCO"
     ],
     "product_hints": [
-      "פוליסת ביטוח בריאות",
       "תרופות מיוחדות"
     ]
   },
-  "sketch": "ש, אך ת אישרה אותה לשימו שהרשויות המוסמכות באחת מהמדינות המוכרו , תרופה ­   Off Label תרופה .1.14 שאחד מהמפורטים להלן הכיר ביעילות ח, ובלבד לא להתוויה הרפואית לטיפול במצבו הרפואי של המבוט : התרופה לטיפול במצבו הרפואי של המבוט   ח\n;  FDA ­ פרסומי    ה .1.14.1\n;  American Hospital Formulary Service Drug Information .1.14.2\n;  US Pharmacopoeia - Drug Information .1.14.3\n…\n;NCCN  .1.14.5.1\n;  ASCO  .1.14.5.2\n;  NICE  .1.14.5.3\nEsmo Minimal .Recommendation  .1.14.5.4",
-  "embed_text": "פוליסת ביטוח בריאות מכסה תרופות מיוחדות, כולל תרופות Off Label, אם הרשויות המוסמכות כמו ה־FDA או ה־ASCO הכירו ביעילות התרופה לטיפול במצבו הרפואי של המבוטח. התנאי הוא שהתרופה לא אושרה לשימוש בהתוויה הרפואית הספציפית הזו, אך קיימים פרסומים התומכים ביעילותה.",
-  "payload": "טבלה: תרופות מיוחדות\nThis table details criteria for 'special medications' coverage, specifically 'Off Label' drugs. It lists recognized sources (e.g., FDA, ASCO) whose publications support the drug's use.\nממדים: criteria for 'Off Label' drug coverage, recognized sources for drug efficacy\n\nש, אך ת אישרה אותה לשימו שהרשויות המוסמכות באחת מהמדינות המוכרו , תרופה ­   Off Label תרופה .1.14 שאחד מהמפורטים להלן הכיר ביעילות ח, ובלבד לא להתוויה הרפואית לטיפול במצבו הרפואי של המבוט : התרופה לטיפול במצבו הרפואי של המבוט   ח\n;  FDA ­ פרסומי    ה .1.14.1\n;  American Hospital Formulary Service Drug Information .1.14.2\n;  US Pharmacopoeia - Drug Information .1.14.3\n, ובלבד שהתרופה עונה על שלושת התנאים הבאים במצטבר, כפ   י Drugdex (Micromedex) .1.14.4 : שמופיעים בטבלת ההמלצו   ת\n;  IIa או I נמצאת בקבוצה ­ (Strength of Recommendation) .  עוצמת המלצה 1.14.4.1\n;  B או A ( נמצאת בקטגוריה Strength of Evidence  )   ­ .  חוזק הראיות 1.14.4.2\n.  IIa או I ( נמצאת בקבוצה Efficacy  ) ­ .  יעילות 1.14.4.3\n: ם לפחו   ת ש  מ  פרסם אחד מהבאי National Guidelines­ תרופה שהטיפול בה מומלץ, באחד מ   ה .1.14.5\n;NCCN  .1.14.5.1\n;  ASCO  .1.14.5.2\n;  NICE  .1.14.5.3\nEsmo Minimal .Recommendation  .1.14.5.4"
+  "sketch": "ש, אך ת אישרה אותה לשימו שהרשויות המוסמכות באחת מהמדינות המוכרו , תרופה ­   Off Label תרופה .1.14 שאחד מהמפורטים להלן הכיר ביעילות ח, ובלבד לא להתוויה הרפואית לטיפול במצבו הרפואי של המבוט : התרופה לטיפול במצבו הרפואי של המבוט   ח\n;  FDA ­ פרסומי    ה .1.14.1\n;  American Hospital Formulary Service Drug Information .1.14.2\n;  US Pharmacopoeia - Drug Information .1.14.3\n, ובלבד שהתרופה עונה על שלושת התנאים הבאים במצטבר, כפ   י Drugdex (Micromedex) .1.14.4 : שמופיעים בטבלת ההמלצו   ת\n;  IIa או I נמצאת בקבוצה ­ (Strength of Recommendation) .  עוצמת המלצה 1.14.4.1\n…\n.  IIa או I ( נמצאת בקבוצה Efficacy  ) ­ .  יעילות 1.14.4.3\n: ם לפחו   ת ש  מ  פרסם אחד מהבאי National Guidelines­ תרופה שהטיפול בה מומלץ, באחד מ   ה .1.14.5\n;NCCN  .1.14.5.1\n;  ASCO  .1.14.5.2\n;  NICE  .1.14.5.3\nEsmo Minimal .Recommendation  .1.14.5.4",
+  "embed_text": "טבלה זו עוסקת בתרופות מיוחדות, ובפרט תרופות 'Off Label' שאינן מאושרות לשימוש עבור מצבו הרפואי של המבוטח. מטרתה להגדיר את התנאים שבהם תרופה כזו תכוסה על ידי הפוליסה, תוך התייחסות למקורות מידע מוכרים כמו ה-FDA, American Hospital Formulary Service, ו-NCCN. ניתן לחפש מידע על תרופות ספציפיות על פי המקורות המומלצים, עוצמת ההמלצה (Strength of Recommendation) ויעילות התרופה (Efficacy). בין המקורות המוכרים ניתן למצוא FDA, American Hospital Formulary Service Drug Information, US Pharmacopoeia - Drug Information, Drugdex (Micromedex), NCCN, ASCO, NICE, ו-Esmo Minimal Recommendation. התרופות המופיעות בטבלה מיועדות לטיפול במצבו הרפואי של המבוטח. This table details criteria for coverage of 'Off Label' medications. It lists recognized sources for efficacy and recommendation strength.",
+  "payload": "טבלה: תרופות מיוחדות\nThis table details criteria for coverage of 'Off Label' medications. It lists recognized sources for efficacy and recommendation strength.\nממדים: criteria for 'Off Label' drug coverage, source/category of information\n\nש, אך ת אישרה אותה לשימו שהרשויות המוסמכות באחת מהמדינות המוכרו , תרופה ­   Off Label תרופה .1.14 שאחד מהמפורטים להלן הכיר ביעילות ח, ובלבד לא להתוויה הרפואית לטיפול במצבו הרפואי של המבוט : התרופה לטיפול במצבו הרפואי של המבוט   ח\n;  FDA ­ פרסומי    ה .1.14.1\n;  American Hospital Formulary Service Drug Information .1.14.2\n;  US Pharmacopoeia - Drug Information .1.14.3\n, ובלבד שהתרופה עונה על שלושת התנאים הבאים במצטבר, כפ   י Drugdex (Micromedex) .1.14.4 : שמופיעים בטבלת ההמלצו   ת\n;  IIa או I נמצאת בקבוצה ­ (Strength of Recommendation) .  עוצמת המלצה 1.14.4.1\n;  B או A ( נמצאת בקטגוריה Strength of Evidence  )   ­ .  חוזק הראיות 1.14.4.2\n.  IIa או I ( נמצאת בקבוצה Efficacy  ) ­ .  יעילות 1.14.4.3\n: ם לפחו   ת ש  מ  פרסם אחד מהבאי National Guidelines­ תרופה שהטיפול בה מומלץ, באחד מ   ה .1.14.5\n;NCCN  .1.14.5.1\n;  ASCO  .1.14.5.2\n;  NICE  .1.14.5.3\nEsmo Minimal .Recommendation  .1.14.5.4"
 }

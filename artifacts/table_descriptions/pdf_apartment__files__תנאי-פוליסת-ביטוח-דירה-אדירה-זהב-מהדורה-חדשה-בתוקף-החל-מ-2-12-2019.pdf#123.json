@@ -2,25 +2,23 @@
   "id": "pdf:apartment/files/תנאי-פוליסת-ביטוח-דירה-אדירה-זהב-מהדורה-חדשה-בתוקף-החל-מ-2-12-2019.pdf#123",
   "source": "llm",
   "description": {
-    "title": "אדירה זהב - אחריות כלפי צד שלישי",
-    "summary": "This table details exclusions to liability coverage under the 'Adira Zahav' apartment insurance policy. It lists scenarios where the insurer will not compensate the insured for claims against them.",
-    "embed_passage": "פוליסת 'אדירה זהב' אינה מכסה נזקים הנובעים משימוש בכלי נשק או מבעלי חיים שאינם חיות מחמד ביתיות. הכיסוי אינו חל על עבודות בדירה הנמשכות יותר משבועיים ימים, או תביעות המוגשות מחוץ לגבולות ישראל. לדוגמה, אם תביעה תוגש בגין נזק שנגרם על ידי כלב מסוכן, הפוליסה לא תכסה את ההוצאות.",
-    "row_axis": "exclusion scenario",
-    "column_axis": "exclusion details",
+    "title": "חריגים לחבות כלפי צד שלישי",
+    "summary": "This table lists exclusions to liability coverage for third parties under the 'Adira Zahav' apartment insurance policy. It details situations where the insurer will not compensate the insured for claims.",
+    "embed_passage": "טבלה זו מפרטת חריגים לכיסוי אחריות כלפי צד שלישי בפוליסת ביטוח דירה 'אדירה זהב'. ניתן לעיין בחריגים אלו כדי להבין את מגבלות הכיסוי, כגון שימוש בכלי נשק או אחריות הנובעת מפעילות עסקית. החיפוש נעשה לפי סוג החריג, כגון 'בעלי חיים' או 'עבודות בדירה', ומשך העבודות. החריגים כוללים שימוש בכלי נשק, בעלי חיים שאינם חיות מחמד, שימוש בבריכת שחייה, ביצוע עבודות בדירה מעל שבועיים, ותביעות מחוץ לישראל. 'אדירה זהב' היא פוליסת הביטוח הרלוונטית.",
+    "row_axis": "exclusion reason",
+    "column_axis": "description",
     "units": [],
     "notable_values": [
-      "exclusion number: 4.6",
-      "exclusion number: 4.7",
-      "exclusion duration: שבועיים ימים",
-      "year of dog law: 2002",
-      "exclusion number: 4.10"
+      "שימוש בכלי נשק: .4.6",
+      "כלב מסוכן: .4.7",
+      "בריכת שחייה: .4.8",
+      "עבודות בדירה: שבועיים"
     ],
     "product_hints": [
-      "אדירה זהב",
-      "ביטוח דירה"
+      "אדירה זהב"
     ]
   },
   "sketch": "שימוש בכלי נשק. .4.6\nבעלי חיים שאינם חיות מחמד ביתיות, כלב מסוכן או מגזע מסוכן, כהגדרתם בחוק .4.7 .2002 להסדרת הפיקוח על כלבים, התשס\"ג\n, שימוש בבריכת שחייה הכוללת מערכת סינון, ג'קוזי או סאונה חיצוניים למבנה הדירה .4.8 אלא אם כן צוין אחרת במפרט.\nביצוע עבודות בדירה בידי בעל מקצוע ומשך העבודות עולה על שבועיים ימים מיום .4.9 תחילת העבודה בפועל.",
-  "embed_text": "פוליסת 'אדירה זהב' אינה מכסה נזקים הנובעים משימוש בכלי נשק או מבעלי חיים שאינם חיות מחמד ביתיות. הכיסוי אינו חל על עבודות בדירה הנמשכות יותר משבועיים ימים, או תביעות המוגשות מחוץ לגבולות ישראל. לדוגמה, אם תביעה תוגש בגין נזק שנגרם על ידי כלב מסוכן, הפוליסה לא תכסה את ההוצאות.",
-  "payload": "טבלה: אדירה זהב - אחריות כלפי צד שלישי\nThis table details exclusions to liability coverage under the 'Adira Zahav' apartment insurance policy. It lists scenarios where the insurer will not compensate the insured for claims against them.\nממדים: exclusion scenario, exclusion details\n\nשימוש בכלי נשק. .4.6\nבעלי חיים שאינם חיות מחמד ביתיות, כלב מסוכן או מגזע מסוכן, כהגדרתם בחוק .4.7 .2002 להסדרת הפיקוח על כלבים, התשס\"ג\n, שימוש בבריכת שחייה הכוללת מערכת סינון, ג'קוזי או סאונה חיצוניים למבנה הדירה .4.8 אלא אם כן צוין אחרת במפרט.\nביצוע עבודות בדירה בידי בעל מקצוע ומשך העבודות עולה על שבועיים ימים מיום .4.9 תחילת העבודה בפועל."
+  "embed_text": "טבלה זו מפרטת חריגים לכיסוי אחריות כלפי צד שלישי בפוליסת ביטוח דירה 'אדירה זהב'. ניתן לעיין בחריגים אלו כדי להבין את מגבלות הכיסוי, כגון שימוש בכלי נשק או אחריות הנובעת מפעילות עסקית. החיפוש נעשה לפי סוג החריג, כגון 'בעלי חיים' או 'עבודות בדירה', ומשך העבודות. החריגים כוללים שימוש בכלי נשק, בעלי חיים שאינם חיות מחמד, שימוש בבריכת שחייה, ביצוע עבודות בדירה מעל שבועיים, ותביעות מחוץ לישראל. 'אדירה זהב' היא פוליסת הביטוח הרלוונטית. This table lists exclusions to liability coverage for third parties under the 'Adira Zahav' apartment insurance policy. It details situations where the insurer will not compensate the insured for claims. בין הערכים בטבלה: כלב מסוכן: .4.7.",
+  "payload": "טבלה: חריגים לחבות כלפי צד שלישי\nThis table lists exclusions to liability coverage for third parties under the 'Adira Zahav' apartment insurance policy. It details situations where the insurer will not compensate the insured for claims.\nממדים: exclusion reason, description\n\nשימוש בכלי נשק. .4.6\nבעלי חיים שאינם חיות מחמד ביתיות, כלב מסוכן או מגזע מסוכן, כהגדרתם בחוק .4.7 .2002 להסדרת הפיקוח על כלבים, התשס\"ג\n, שימוש בבריכת שחייה הכוללת מערכת סינון, ג'קוזי או סאונה חיצוניים למבנה הדירה .4.8 אלא אם כן צוין אחרת במפרט.\nביצוע עבודות בדירה בידי בעל מקצוע ומשך העבודות עולה על שבועיים ימים מיום .4.9 תחילת העבודה בפועל."
 }

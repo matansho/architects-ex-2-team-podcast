@@ -2,25 +2,25 @@
   "id": "pdf:car/files/פוליסה-לביטוח-רכב-פרטי-ומסחרי-עד-35-טון-מהדורת-יוני-2023.pdf#364",
   "source": "llm",
   "description": {
-    "title": "חרגים לשבר שמשה",
-    "summary": "This table lists exclusions to windshield damage coverage under a car insurance policy. It details scenarios where the insurance will not cover windshield repair or replacement.",
-    "embed_passage": "פוליסת ביטוח רכב פרטי ומסחרי עד 35 טון כוללת חריגים רבים לשבר שמשה. לדוגמה, שבר לשמשה שארע כתוצאה מתחרות או מבחן נהיגה אינו מכוסה (3.4). כמו כן, רכב שאין לו סוכנות בישראל, אלא אם יש לו שמשות חלופיות בישראל, לא יכוסה (3.6).",
-    "row_axis": "exclusion reason",
-    "column_axis": "exclusion details",
+    "title": "חריגים לשבר שמשה",
+    "summary": "This table lists exclusions to windshield damage coverage under a car insurance policy. It details specific scenarios where claims for windshield repair or replacement will not be honored.",
+    "embed_passage": "טבלה זו מפרטת חריגים לפוליסת ביטוח רכב, ספציפית לנזקים לשמשות. מטרתה להבהיר אילו מצבים אינם מכוסים במסגרת הפוליסה, כגון נזקים מכוונים או תקלות הנובעות מתחרות. ניתן לחפש חריגים לפי סוג הנזק או הסיבה לו. החריגים כוללים: קלקולים במנגנונים של השמשות, שבר עקב תחרות, פיצויים הניתנים לפי חוק המדינה, רכבים ללא סוכנות בישראל, ושמשות בעלות מפרט שונה מהיצרן. פוליסת ביטוח רכב פרטי ומסחרי עד 35 טון, מהדורת יוני 2023.",
+    "row_axis": "סוג חריגה לשבר שמשה",
+    "column_axis": "תיאור החריגה",
     "units": [],
     "notable_values": [
-      "exclusion number: 3.1",
-      "exclusion number: 3.2",
-      "exclusion number: 3.3",
-      "exclusion number: 3.4",
-      "exclusion number: 3.5"
+      "קלקולים: מנגנונים, ניקלים, חיישנים",
+      "שבר: תחרות או מבחן נהיגה",
+      "פיצוי: לפי חוק המדינה",
+      "רכב: ללא סוכנות בישראל",
+      "שמשות: חורגות מתקן יצרן"
     ],
     "product_hints": [
-      "ביטוח רכב",
-      "פוליסת ביטוח רכב פרטי ומסחרי"
+      "פוליסת ביטוח רכב",
+      "ביטוח רכב פרטי ומסחרי עד 35 טון"
     ]
   },
   "sketch": ". קלקולים מכל סוג שהוא למנגנונים, ניקלים, חיישנים, מצלמות ואביזרי עזר לשמשות. 3.3\n. שבר לשמשה שארע כתוצאה או עקב תחרות ו/או במבחן נהיגה ו/או בדיקת כושר נהיגה. 3.4\n. כל נזק אשר הפיצוי בגינו ניתן עפ\"י חוקי המדינה. 3.5\n. רכב שאין לו סוכנות בישראל וכן רכב שיובא בייבוא אישי, אלא אם יש לרכב שמשות 3.6 חלופיות בישראל, וניתן על כך אישור מראש על ידי המבטח.",
-  "embed_text": "פוליסת ביטוח רכב פרטי ומסחרי עד 35 טון כוללת חריגים רבים לשבר שמשה. לדוגמה, שבר לשמשה שארע כתוצאה מתחרות או מבחן נהיגה אינו מכוסה (3.4). כמו כן, רכב שאין לו סוכנות בישראל, אלא אם יש לו שמשות חלופיות בישראל, לא יכוסה (3.6).",
-  "payload": "טבלה: חרגים לשבר שמשה\nThis table lists exclusions to windshield damage coverage under a car insurance policy. It details scenarios where the insurance will not cover windshield repair or replacement.\nממדים: exclusion reason, exclusion details\n\n. קלקולים מכל סוג שהוא למנגנונים, ניקלים, חיישנים, מצלמות ואביזרי עזר לשמשות. 3.3\n. שבר לשמשה שארע כתוצאה או עקב תחרות ו/או במבחן נהיגה ו/או בדיקת כושר נהיגה. 3.4\n. כל נזק אשר הפיצוי בגינו ניתן עפ\"י חוקי המדינה. 3.5\n. רכב שאין לו סוכנות בישראל וכן רכב שיובא בייבוא אישי, אלא אם יש לרכב שמשות 3.6 חלופיות בישראל, וניתן על כך אישור מראש על ידי המבטח."
+  "embed_text": "טבלה זו מפרטת חריגים לפוליסת ביטוח רכב, ספציפית לנזקים לשמשות. מטרתה להבהיר אילו מצבים אינם מכוסים במסגרת הפוליסה, כגון נזקים מכוונים או תקלות הנובעות מתחרות. ניתן לחפש חריגים לפי סוג הנזק או הסיבה לו. החריגים כוללים: קלקולים במנגנונים של השמשות, שבר עקב תחרות, פיצויים הניתנים לפי חוק המדינה, רכבים ללא סוכנות בישראל, ושמשות בעלות מפרט שונה מהיצרן. פוליסת ביטוח רכב פרטי ומסחרי עד 35 טון, מהדורת יוני 2023. This table lists exclusions to windshield damage coverage under a car insurance policy. It details specific scenarios where claims for windshield repair or replacement will not be honored.",
+  "payload": "טבלה: חריגים לשבר שמשה\nThis table lists exclusions to windshield damage coverage under a car insurance policy. It details specific scenarios where claims for windshield repair or replacement will not be honored.\nממדים: סוג חריגה לשבר שמשה, תיאור החריגה\n\n. קלקולים מכל סוג שהוא למנגנונים, ניקלים, חיישנים, מצלמות ואביזרי עזר לשמשות. 3.3\n. שבר לשמשה שארע כתוצאה או עקב תחרות ו/או במבחן נהיגה ו/או בדיקת כושר נהיגה. 3.4\n. כל נזק אשר הפיצוי בגינו ניתן עפ\"י חוקי המדינה. 3.5\n. רכב שאין לו סוכנות בישראל וכן רכב שיובא בייבוא אישי, אלא אם יש לרכב שמשות 3.6 חלופיות בישראל, וניתן על כך אישור מראש על ידי המבטח."
 }

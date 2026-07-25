@@ -2,23 +2,27 @@
   "id": "pdf:car/files/מהדורת-יוני-2023-upgrade-פוליסת-הראל.pdf#125",
   "source": "llm",
   "description": {
-    "title": "ביטוח מתקנים חשמליים",
-    "summary": "This table details coverage for electrical equipment installed in a vehicle, as specified in the vehicle's details. It outlines what is covered in case of loss or damage, and how the insurer will compensate the insured.",
-    "embed_passage": "פוליסת הראל מכסה אבדן או נזק למתקנים חשמליים המותקנים בכלי הרכב, כמו גם תוספות מיוחדות כגון גלגלים מיוחדים ופנסים מיוחדים. הפיצוי ניתן כתשלום, החלפה או תיקון, בגבולות סכום הביטוח המצוין במפרט. הכיסוי חל על נזקים כתוצאה מהסיכונים המפורטים בביטוח רכב.",
-    "row_axis": "types of insured property/coverage details",
-    "column_axis": "coverage details, conditions",
+    "title": "כיסוי מתקנים חשמליים",
+    "summary": "This table details coverage for electrical devices installed in a vehicle, as specified in the vehicle's details. It outlines what is covered in case of loss or damage, and exclusions to the coverage.",
+    "embed_passage": "טבלה זו מתארת את הכיסוי למכשירים חשמליים המותקנים בכלי רכב, כפי שמפורט במפרט הרכב. הכיסוי חל על אובדן או נזק כתוצאה מסיכונים המפורטים בביטוח רכב, והמבטח ישפה את המבוטח באמצעות תשלום, החלפה או תיקון, עד לסכום הביטוח המצוין. הפוליסה של הראל מכסה מכשירים חשמליים, תוספות מיוחדות כמו גלגלים מיוחדים ופנסים מיוחדים, וכן אביזרים מיוחדים נוספים. הכיסוי אינו כולל אובדן או נזק אלא אם נגרם ישירות מאש, ניסיון גניבה או תאונה.",
+    "row_axis": "types of electrical devices/add-ons",
+    "column_axis": "coverage details (covered events, exclusions)",
     "units": [],
     "notable_values": [
-      "הרכוש המבוטח: מכשירים חשמליים",
-      "כיסוי: אבדן או נזק",
-      "שיקול דעת המבטח: תשלום, החלפה או תיקון"
+      "מכשירים חשמליים: covered",
+      "גלגלים מיוחדים: covered",
+      "פנסים מיוחדים: covered",
+      "אביזר מיוחד נוסף: covered",
+      "אש: covered if direct result of vehicle incident",
+      "ניסיון גניבה: covered if direct result of vehicle incident",
+      "תאונה: covered if direct result of vehicle incident",
+      "קלקול חשמלי: not covered"
     ],
     "product_hints": [
-      "הראל",
-      "ביטוח רכב"
+      "הראל"
     ]
   },
   "sketch": ". הרכוש המבוטח: 27.1\n: מכשירים חשמליים המותקנים בכלי הרכב המתואר במפרט, כמו כן תוספות מיוחדות כגון גלגלים מיוחדים, פנסים מיוחדים וכל אביזר מיוחד נוסף.\n. הכיסוי: 27.2\nבמקרה של אבדן או נזק למתקנים הנ\"ל שיגרם כתוצאה מהסיכונים המפורטים במקרה הביטוח לפרק א' - ביטוח רכב.\nהמבטח ישפה על פי שיקול דעתו, את המבוטח ע\"י תשלום, החלפה או תיקון בגבולות סכום הביטוח המצוין במפרט.",
-  "embed_text": "פוליסת הראל מכסה אבדן או נזק למתקנים חשמליים המותקנים בכלי הרכב, כמו גם תוספות מיוחדות כגון גלגלים מיוחדים ופנסים מיוחדים. הפיצוי ניתן כתשלום, החלפה או תיקון, בגבולות סכום הביטוח המצוין במפרט. הכיסוי חל על נזקים כתוצאה מהסיכונים המפורטים בביטוח רכב.",
-  "payload": "טבלה: ביטוח מתקנים חשמליים\nThis table details coverage for electrical equipment installed in a vehicle, as specified in the vehicle's details. It outlines what is covered in case of loss or damage, and how the insurer will compensate the insured.\nממדים: types of insured property/coverage details, coverage details, conditions\n\n. הרכוש המבוטח: 27.1\n: מכשירים חשמליים המותקנים בכלי הרכב המתואר במפרט, כמו כן תוספות מיוחדות כגון גלגלים מיוחדים, פנסים מיוחדים וכל אביזר מיוחד נוסף.\n. הכיסוי: 27.2\nבמקרה של אבדן או נזק למתקנים הנ\"ל שיגרם כתוצאה מהסיכונים המפורטים במקרה הביטוח לפרק א' - ביטוח רכב.\nהמבטח ישפה על פי שיקול דעתו, את המבוטח ע\"י תשלום, החלפה או תיקון בגבולות סכום הביטוח המצוין במפרט."
+  "embed_text": "טבלה זו מתארת את הכיסוי למכשירים חשמליים המותקנים בכלי רכב, כפי שמפורט במפרט הרכב. הכיסוי חל על אובדן או נזק כתוצאה מסיכונים המפורטים בביטוח רכב, והמבטח ישפה את המבוטח באמצעות תשלום, החלפה או תיקון, עד לסכום הביטוח המצוין. הפוליסה של הראל מכסה מכשירים חשמליים, תוספות מיוחדות כמו גלגלים מיוחדים ופנסים מיוחדים, וכן אביזרים מיוחדים נוספים. הכיסוי אינו כולל אובדן או נזק אלא אם נגרם ישירות מאש, ניסיון גניבה או תאונה. This table details coverage for electrical devices installed in a vehicle, as specified in the vehicle's details. It outlines what is covered in case of loss or damage, and exclusions to the coverage. בין הערכים בטבלה: אביזר מיוחד נוסף: covered; אש: covered if direct result of vehicle incident; קלקול חשמלי: not covered.",
+  "payload": "טבלה: כיסוי מתקנים חשמליים\nThis table details coverage for electrical devices installed in a vehicle, as specified in the vehicle's details. It outlines what is covered in case of loss or damage, and exclusions to the coverage.\nממדים: types of electrical devices/add-ons, coverage details (covered events, exclusions)\n\n. הרכוש המבוטח: 27.1\n: מכשירים חשמליים המותקנים בכלי הרכב המתואר במפרט, כמו כן תוספות מיוחדות כגון גלגלים מיוחדים, פנסים מיוחדים וכל אביזר מיוחד נוסף.\n. הכיסוי: 27.2\nבמקרה של אבדן או נזק למתקנים הנ\"ל שיגרם כתוצאה מהסיכונים המפורטים במקרה הביטוח לפרק א' - ביטוח רכב.\nהמבטח ישפה על פי שיקול דעתו, את המבוטח ע\"י תשלום, החלפה או תיקון בגבולות סכום הביטוח המצוין במפרט."
 }

@@ -2,26 +2,24 @@
   "id": "pdf:apartment/files/טופס-הצעה-לפוליסת-ביטוח-דירה-אדירה-זהב.pdf#29",
   "source": "llm",
   "description": {
-    "title": "ביטוח דירה - הרחבות",
-    "summary": "This table details coverage extensions for the 'אדירה זהב' apartment insurance policy. It allows looking up the cost of additional coverage for items like jewelry, valuables, and photography equipment, often requiring an expert appraisal.",
-    "embed_passage": "פוליסת 'אדירה זהב' מציעה הרחבות לכיסוי כל הסיכונים בישראל, וגם כיסוי בחו\"ל עבור תכשיטים וציוד צילום. סכום הביטוח עבור הרחבות אלו מצוין בשקלים חדשים (₪), ויש לצרף הערכת מעריך מומחה. לדוגמה, ניתן להרחיב את הכיסוי לתקופה מסוימת, כפי שמצוין בטבלה.",
-    "row_axis": "type of coverage extension (e.g., jewelry, valuables)",
-    "column_axis": "details of the extension, including cost (in ₪) and conditions",
+    "title": "הרחבות לכיסוי כל הסיכונים",
+    "summary": "This table details extensions to 'כל הסיכונים' coverage, specifically for jewelry, watches, and valuables. It allows specifying insurance amounts and coverage abroad for certain items.",
+    "embed_passage": "טופס זה מתייחס להרחבות לכיסוי כל הסיכונים בישראל בלבד, עבור תכשיטים, שעונים ודברי זהב. ניתן לבקש הרחבה לכיסוי בחו״ל עבור תכשיטים, דברי ערך וציוד צילום לתקופה מוגדרת. לצורך הערכת שווי, יש לצרף הערכת מעריך מומחה. הנתונים כוללים יצרן, דגם, וסכום הביטוח. פוליסת ביטוח דירה אדירה זהב מאפשרת התאמת הכיסוי לצרכי המבוטח. ניתן לציין סכום ביטוח עבור תכשיטים ודברי זהב.",
+    "row_axis": "הרחבה לכיסוי",
+    "column_axis": "פרטי הרחבה (יצרן, דגם, סכום ביטוח, כיסוי בחו״ל)",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "coverage extension: כל הסיכונים בישראל",
-      "currency: ₪",
-      "appraisal required: כן",
-      "coverage abroad: תכשיטים, דברי ערך וציוד צילום"
+      "תכשיטים, שעונים ודברי זהב: כל הסיכונים",
+      "הרחבה לכיסוי בחו״ל: תקופה מ-עד",
+      "סכום ביטוח: ₪"
     ],
     "product_hints": [
-      "אדירה זהב",
-      "ביטוח דירה"
+      "אדירה זהב"
     ]
   },
-  "sketch": "טו הרחבות לכיסוי כל הסיכונים בישראל בלבד\n)יש לצרף הערכת מעריך מומחה(\n₪                                                        :\nכן, סכום ביטוח\n…\nהמכשיר\n.\nהרחבה לכיסוי בחו\"ל עבור תכשיטים, דברי ערך וציוד צילום לתקופה מ-                                                        עד\n.( פירוט:                                                                                                                                                                 )יש לצרף הערכת מעריך מומחה",
-  "embed_text": "פוליסת 'אדירה זהב' מציעה הרחבות לכיסוי כל הסיכונים בישראל, וגם כיסוי בחו\"ל עבור תכשיטים וציוד צילום. סכום הביטוח עבור הרחבות אלו מצוין בשקלים חדשים (₪), ויש לצרף הערכת מעריך מומחה. לדוגמה, ניתן להרחיב את הכיסוי לתקופה מסוימת, כפי שמצוין בטבלה.",
-  "payload": "טבלה: ביטוח דירה - הרחבות\nThis table details coverage extensions for the 'אדירה זהב' apartment insurance policy. It allows looking up the cost of additional coverage for items like jewelry, valuables, and photography equipment, often requiring an expert appraisal.\nממדים: type of coverage extension (e.g., jewelry, valuables), details of the extension, including cost (in ₪) and conditions\n\nטו הרחבות לכיסוי כל הסיכונים בישראל בלבד\n)יש לצרף הערכת מעריך מומחה(\n₪                                                        :\nכן, סכום ביטוח\nלא\nתכשיטים, שעונים ודברי זהב בכיסוי כל הסיכונים\nכן, פרט\nלא\n( דברי ערך אחרים )פרוות, מצלמות, אביזרי צילום, דברי אומנות, כלי נגינה\n)יש לצרף הערכת מעריך מומחה(\n₪                                                            :\nסכום הביטוח\nטלויזיה, וידאו, מערכת קול, מחשב אישי - מכשירים אלקטרוניים ביתיים\nשווי )בש\"ח(\nמס' מכשיר\nדגם\nיצרן\nהמכשיר\n.\nהרחבה לכיסוי בחו\"ל עבור תכשיטים, דברי ערך וציוד צילום לתקופה מ-                                                        עד\n.( פירוט:                                                                                                                                                                 )יש לצרף הערכת מעריך מומחה"
+  "sketch": "טו הרחבות לכיסוי כל הסיכונים בישראל בלבד\n)יש לצרף הערכת מעריך מומחה(\n₪                                                        :\nכן, סכום ביטוח\nלא\nתכשיטים, שעונים ודברי זהב בכיסוי כל הסיכונים\n…\nדגם\nיצרן\nהמכשיר\n.\nהרחבה לכיסוי בחו\"ל עבור תכשיטים, דברי ערך וציוד צילום לתקופה מ-                                                        עד\n.( פירוט:                                                                                                                                                                 )יש לצרף הערכת מעריך מומחה",
+  "embed_text": "טופס זה מתייחס להרחבות לכיסוי כל הסיכונים בישראל בלבד, עבור תכשיטים, שעונים ודברי זהב. ניתן לבקש הרחבה לכיסוי בחו״ל עבור תכשיטים, דברי ערך וציוד צילום לתקופה מוגדרת. לצורך הערכת שווי, יש לצרף הערכת מעריך מומחה. הנתונים כוללים יצרן, דגם, וסכום הביטוח. פוליסת ביטוח דירה אדירה זהב מאפשרת התאמת הכיסוי לצרכי המבוטח. ניתן לציין סכום ביטוח עבור תכשיטים ודברי זהב. This table details extensions to 'כל הסיכונים' coverage, specifically for jewelry, watches, and valuables. It allows specifying insurance amounts and coverage abroad for certain items.",
+  "payload": "טבלה: הרחבות לכיסוי כל הסיכונים\nThis table details extensions to 'כל הסיכונים' coverage, specifically for jewelry, watches, and valuables. It allows specifying insurance amounts and coverage abroad for certain items.\nממדים: הרחבה לכיסוי, פרטי הרחבה (יצרן, דגם, סכום ביטוח, כיסוי בחו״ל)\n\nטו הרחבות לכיסוי כל הסיכונים בישראל בלבד\n)יש לצרף הערכת מעריך מומחה(\n₪                                                        :\nכן, סכום ביטוח\nלא\nתכשיטים, שעונים ודברי זהב בכיסוי כל הסיכונים\nכן, פרט\nלא\n( דברי ערך אחרים )פרוות, מצלמות, אביזרי צילום, דברי אומנות, כלי נגינה\n)יש לצרף הערכת מעריך מומחה(\n₪                                                            :\nסכום הביטוח\nטלויזיה, וידאו, מערכת קול, מחשב אישי - מכשירים אלקטרוניים ביתיים\nשווי )בש\"ח(\nמס' מכשיר\nדגם\nיצרן\nהמכשיר\n.\nהרחבה לכיסוי בחו\"ל עבור תכשיטים, דברי ערך וציוד צילום לתקופה מ-                                                        עד\n.( פירוט:                                                                                                                                                                 )יש לצרף הערכת מעריך מומחה"
 }

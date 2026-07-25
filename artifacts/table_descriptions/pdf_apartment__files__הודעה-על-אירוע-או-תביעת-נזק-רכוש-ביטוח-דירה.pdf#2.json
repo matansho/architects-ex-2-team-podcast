@@ -2,15 +2,15 @@
   "id": "pdf:apartment/files/הודעה-על-אירוע-או-תביעת-נזק-רכוש-ביטוח-דירה.pdf#2",
   "source": "llm",
   "description": {
-    "title": "תביעות נזק רכוש",
-    "summary": "This table lists details of property damage claims filed with Harel insurance. It allows looking up claim information by policyholder details, event details, and estimated damage costs.",
-    "embed_passage": "ביטוח דירה של הראל מספק כיסוי לנזקים שנגרמו לרכוש. ניתן לדווח על אירוע נזק בצירוף פרטי המבוטח, תאריך האירוע, שעת האירוע, ומקום האירוע. לדוגמה, נזק משוער יכול להיות בסך 33582.8.",
-    "row_axis": "Individual claim report",
-    "column_axis": "Claim details: policyholder information, event details, damage description, and estimated costs.",
+    "title": "הודעה על אירוע נזק רכוש",
+    "summary": "This table captures details of a property damage claim. It is used to record information about the insured, the incident, and the estimated damage.",
+    "embed_passage": "טבלה זו משמשת לרישום פרטי אירוע נזק לרכוש, כגון נזק לדירה, לצורך טיפול בתביעה. הנתונים כוללים פרטים על המבוטח, תאריך ושעת האירוע, מקום האירוע, תיאור הנזק וגובה הנזק המשוער. ניתן לאתר מידע לפי שם המבוטח, תאריך האירוע או סכום הנזק. הראל מציעה ביטוח דירה המכסה מגוון רחב של נזקים. פרטי המבוטח כוללים שם, רחוב, טלפון ודואר אלקטרוני. האירוע מתועד לפי תאריך, שעה, מקום ותיאור הנזק. סכום הנזק המשוער מצוין בשקלים.",
+    "row_axis": "אירוע נזק רכוש",
+    "column_axis": "פרטי האירוע, פרטי המבוטח, נזק",
     "units": [],
     "notable_values": [
-      "33582.8: משוער כספי נזק",
-      "08/2022: האירוע תאריך"
+      "ח\"פ / ת.ז. מס': 33582.8",
+      "האירוע תאריך: 08/2022"
     ],
     "product_hints": [
       "ביטוח דירה",
@@ -18,6 +18,6 @@
     ]
   },
   "sketch": "\"ח\"\"פ / ת.ז. מס'.\",המבוטח/תובע פרטי א.המבוטח שם.רחוב\nאלקטרוני דואר,בית טלפון\nהאירוע פרטי ב,האירוע פרטי ב,האירוע פרטי ב,האירוע פרטי ב\nהאירוע מקום,משוער כספי נזק,האירוע שעת,האירוע תאריך\nונסיבותיו: הנזק של מפורט תיאור,ונסיבותיו: הנזק של מפורט תיאור,ונסיבותיו: הנזק של מפורט תיאור,ונסיבותיו: הנזק של מפורט תיאור\nג",
-  "embed_text": "ביטוח דירה של הראל מספק כיסוי לנזקים שנגרמו לרכוש. ניתן לדווח על אירוע נזק בצירוף פרטי המבוטח, תאריך האירוע, שעת האירוע, ומקום האירוע. לדוגמה, נזק משוער יכול להיות בסך 33582.8.",
-  "payload": "טבלה: תביעות נזק רכוש\nThis table lists details of property damage claims filed with Harel insurance. It allows looking up claim information by policyholder details, event details, and estimated damage costs.\nממדים: Individual claim report, Claim details: policyholder information, event details, damage description, and estimated costs.\n\n\"ח\"\"פ / ת.ז. מס'.\",המבוטח/תובע פרטי א.המבוטח שם.רחוב\nאלקטרוני דואר,בית טלפון\nהאירוע פרטי ב,האירוע פרטי ב,האירוע פרטי ב,האירוע פרטי ב\nהאירוע מקום,משוער כספי נזק,האירוע שעת,האירוע תאריך\nונסיבותיו: הנזק של מפורט תיאור,ונסיבותיו: הנזק של מפורט תיאור,ונסיבותיו: הנזק של מפורט תיאור,ונסיבותיו: הנזק של מפורט תיאור\nג"
+  "embed_text": "טבלה זו משמשת לרישום פרטי אירוע נזק לרכוש, כגון נזק לדירה, לצורך טיפול בתביעה. הנתונים כוללים פרטים על המבוטח, תאריך ושעת האירוע, מקום האירוע, תיאור הנזק וגובה הנזק המשוער. ניתן לאתר מידע לפי שם המבוטח, תאריך האירוע או סכום הנזק. הראל מציעה ביטוח דירה המכסה מגוון רחב של נזקים. פרטי המבוטח כוללים שם, רחוב, טלפון ודואר אלקטרוני. האירוע מתועד לפי תאריך, שעה, מקום ותיאור הנזק. סכום הנזק המשוער מצוין בשקלים. This table captures details of a property damage claim. It is used to record information about the insured, the incident, and the estimated damage. בין הערכים בטבלה: ח\"פ / ת.ז. מס': 33582.8; האירוע תאריך: 08/2022.",
+  "payload": "טבלה: הודעה על אירוע נזק רכוש\nThis table captures details of a property damage claim. It is used to record information about the insured, the incident, and the estimated damage.\nממדים: אירוע נזק רכוש, פרטי האירוע, פרטי המבוטח, נזק\n\n\"ח\"\"פ / ת.ז. מס'.\",המבוטח/תובע פרטי א.המבוטח שם.רחוב\nאלקטרוני דואר,בית טלפון\nהאירוע פרטי ב,האירוע פרטי ב,האירוע פרטי ב,האירוע פרטי ב\nהאירוע מקום,משוער כספי נזק,האירוע שעת,האירוע תאריך\nונסיבותיו: הנזק של מפורט תיאור,ונסיבותיו: הנזק של מפורט תיאור,ונסיבותיו: הנזק של מפורט תיאור,ונסיבותיו: הנזק של מפורט תיאור\nג"
 }

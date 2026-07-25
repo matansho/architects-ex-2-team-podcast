@@ -2,25 +2,28 @@
   "id": "pdf:mortgage/files/טופס-הצעה-לביטוח-חיים-ומבנה-למשכנתה.pdf#56",
   "source": "llm",
   "description": {
-    "title": "הצעת ביטוח משכנתה",
-    "summary": "This table collects information about existing insurance policies and claims history for a mortgage applicant. It helps assess risk and determine appropriate coverage for a new policy.",
-    "embed_passage": "טופס זה בודק האם למועמד לביטוח יש פוליסה קיימת לביטוח מבנה דירה בטוחה משכנתא. השאלות בודקות היסטוריית תביעות, דחיות ביטוח, ורצון לבטל פוליסות קיימות. לדוגמה, השאלות 1, 2 ו-3 בודקות האם חברת ביטוח דחתה הצעה, ביטלה פוליסה או סירבה לחדש פוליסה בשלוש השנים האחרונות.",
-    "row_axis": "Applicant's responses to questions about insurance history",
-    "column_axis": "Question number (1-5) and applicant status (first candidate, second candidate)",
+    "title": "הצעת ביטוח - שאלות",
+    "summary": "This table presents a series of yes/no questions related to existing insurance policies and claims history, used to assess risk for a new mortgage insurance policy. It helps determine if a potential borrower has existing coverage and any past issues that might affect their insurability.",
+    "embed_passage": "טופס זה הוא חלק מהצעת ביטוח חיים ומבנה למשכנתה, ומטרתו לאסוף מידע על פוליסות ביטוח קיימות והיסטוריית תביעות של המועמד לביטוח. השאלות נועדו להעריך את רמת הסיכון הכרוכה בביטוח הנכס, תוך התייחסות להיסטוריה הביטוחית של המועמד. ניתן לענות 'כן' או 'לא' על כל שאלה, ובמידה והתשובה היא 'כן', נדרשת הרחבה. השאלות מתייחסות לנושאים כמו קיום פוליסה קיימת, רצון לבטל פוליסה קיימת, תביעות שהוגשו בעבר, וסירובי ביטוח או חידוש פוליסה. לדוגמה, השאלות בודקות האם קיימת פוליסה לביטוח דירה בטוחה משכנתא, האם המועמד מעוניין לבטל פוליסה קיימת, האם הוגשה תביעה בנוגע לסיכון הכלול בפוליסה המבוקשת, ועוד.",
+    "row_axis": "question regarding insurance history",
+    "column_axis": "response (yes/no) and details if 'yes'",
     "units": [],
     "notable_values": [
-      "Question 1: 0,1,2,3,4",
-      "Question 5: כן,לא,כן,לא",
-      "Existing policy: כן",
-      "Cancellation request: לא",
-      "Number of years considered: 3"
+      "question 5: 0,1,2,3,4",
+      "question 1: כן, פרט",
+      "question 2: כן, פרט",
+      "question 3: כן, פרט",
+      "question 4: כן, לא",
+      "question 5: כן, לא",
+      "פוליסה קיימת לביטוח: כן, לא",
+      "לבטל מעוניין/ים: כן, לא"
     ],
     "product_hints": [
-      "ביטוח משכנתה",
-      "פוליסה לביטוח מבנה דירה"
+      "ביטוח חיים ומבנה למשכנתה",
+      "פוליסה לביטוח דירה בטוחה משכנתא"
     ]
   },
   "sketch": ". הוגשה נגדך תביעה בנוגע לסיכון הכלול בפוליסה המבוקשת 5\nהיא \"כן\", פרט מתי, בגין מה, ומי היה המבטח 5 או 4 אם אחת מהתשובות לשאלות\n0,1,2,3,4\nלביטוח שני מועמד,לביטוח שני מועמד,לביטוח ראשון מועמד,לביטוח ראשון מועמד,\nכן,לא,כן,לא,\n,,,,\"לנכס בטוחה משכנתא דירה- מבנה לביטוח פוליסה קיימת לביטוח מהמועמדים יותר או אחד ברשות האם )א( ?(\"\" קיימת \"\"פוליסה - )להלן המבוטח\"\n,,,,שברשותו/ם? הקיימת הפוליסה את לבטל מעוניין/ים הפוליסה בעל/י לביטוח המועמד/ים האם )ב(",
-  "embed_text": "טופס זה בודק האם למועמד לביטוח יש פוליסה קיימת לביטוח מבנה דירה בטוחה משכנתא. השאלות בודקות היסטוריית תביעות, דחיות ביטוח, ורצון לבטל פוליסות קיימות. לדוגמה, השאלות 1, 2 ו-3 בודקות האם חברת ביטוח דחתה הצעה, ביטלה פוליסה או סירבה לחדש פוליסה בשלוש השנים האחרונות.",
-  "payload": "טבלה: הצעת ביטוח משכנתה\nThis table collects information about existing insurance policies and claims history for a mortgage applicant. It helps assess risk and determine appropriate coverage for a new policy.\nממדים: Applicant's responses to questions about insurance history, Question number (1-5) and applicant status (first candidate, second candidate)\n\n. הוגשה נגדך תביעה בנוגע לסיכון הכלול בפוליסה המבוקשת 5\nהיא \"כן\", פרט מתי, בגין מה, ומי היה המבטח 5 או 4 אם אחת מהתשובות לשאלות\n0,1,2,3,4\nלביטוח שני מועמד,לביטוח שני מועמד,לביטוח ראשון מועמד,לביטוח ראשון מועמד,\nכן,לא,כן,לא,\n,,,,\"לנכס בטוחה משכנתא דירה- מבנה לביטוח פוליסה קיימת לביטוח מהמועמדים יותר או אחד ברשות האם )א( ?(\"\" קיימת \"\"פוליסה - )להלן המבוטח\"\n,,,,שברשותו/ם? הקיימת הפוליסה את לבטל מעוניין/ים הפוליסה בעל/י לביטוח המועמד/ים האם )ב("
+  "embed_text": "טופס זה הוא חלק מהצעת ביטוח חיים ומבנה למשכנתה, ומטרתו לאסוף מידע על פוליסות ביטוח קיימות והיסטוריית תביעות של המועמד לביטוח. השאלות נועדו להעריך את רמת הסיכון הכרוכה בביטוח הנכס, תוך התייחסות להיסטוריה הביטוחית של המועמד. ניתן לענות 'כן' או 'לא' על כל שאלה, ובמידה והתשובה היא 'כן', נדרשת הרחבה. השאלות מתייחסות לנושאים כמו קיום פוליסה קיימת, רצון לבטל פוליסה קיימת, תביעות שהוגשו בעבר, וסירובי ביטוח או חידוש פוליסה. לדוגמה, השאלות בודקות האם קיימת פוליסה לביטוח דירה בטוחה משכנתא, האם המועמד מעוניין לבטל פוליסה קיימת, האם הוגשה תביעה בנוגע לסיכון הכלול בפוליסה המבוקשת, ועוד. This table presents a series of yes/no questions related to existing insurance policies and claims history, used to assess risk for a new mortgage insurance policy. It helps determine if a potential borrower has existin…",
+  "payload": "טבלה: הצעת ביטוח - שאלות\nThis table presents a series of yes/no questions related to existing insurance policies and claims history, used to assess risk for a new mortgage insurance policy. It helps determine if a potential borrower has existing coverage and any past issues that might affect their insurability.\nממדים: question regarding insurance history, response (yes/no) and details if 'yes'\n\n. הוגשה נגדך תביעה בנוגע לסיכון הכלול בפוליסה המבוקשת 5\nהיא \"כן\", פרט מתי, בגין מה, ומי היה המבטח 5 או 4 אם אחת מהתשובות לשאלות\n0,1,2,3,4\nלביטוח שני מועמד,לביטוח שני מועמד,לביטוח ראשון מועמד,לביטוח ראשון מועמד,\nכן,לא,כן,לא,\n,,,,\"לנכס בטוחה משכנתא דירה- מבנה לביטוח פוליסה קיימת לביטוח מהמועמדים יותר או אחד ברשות האם )א( ?(\"\" קיימת \"\"פוליסה - )להלן המבוטח\"\n,,,,שברשותו/ם? הקיימת הפוליסה את לבטל מעוניין/ים הפוליסה בעל/י לביטוח המועמד/ים האם )ב("
 }

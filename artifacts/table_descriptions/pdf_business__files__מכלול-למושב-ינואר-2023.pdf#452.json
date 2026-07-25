@@ -2,22 +2,22 @@
   "id": "pdf:business/files/מכלול-למושב-ינואר-2023.pdf#452",
   "source": "llm",
   "description": {
-    "title": "הקטנת גבול האחריות",
-    "summary": "This table details how insurance coverage limits are reduced after a claim or damage. It outlines the reduction of insurance amounts, liability limits, or the number of units/heads/dunams insured.",
-    "embed_passage": "פוליסת 'מכלול' עוסקת בהקטנת גבול האחריות לאחר תביעה או נזק. סכומי ביטוח וגבולות אחריות מופחתים בסכום הפיצוי ששולם, לדוגמה, אם המבטח התחייב לשלם 30 ש\"ח, גבול האחריות יוקטן בסכום זה. הקטנה זו חלה על ביטוח דירה ותכולתה ועל מקרים בהם שולמו תגמולי ביטוח.",
-    "row_axis": "Specific scenarios leading to liability reduction (e.g., payment to a third party, insurance payout)",
-    "column_axis": "Aspects of coverage affected by the reduction (e.g., insurance amount, liability limit, number of units)",
+    "title": "הקטנת גבול האחריות לאחר תביעה / נזק",
+    "summary": "This table details the reduction of insurance coverage (sum insured/liability limit) after a claim or damage event. It outlines how the coverage is reduced based on payments made by the insurer.",
+    "embed_passage": "טבלה זו עוסקת בהקטנת גבול האחריות לאחר תביעה או נזק, כפי שמופיע בתנאי הפוליסה. מטרתה להסביר כיצד יחושב סכום ההקטנה, בהתאם לתשלומים שבוצעו על ידי המבטח. ניתן לעיין בטבלה כדי להבין את ההשפעה של תביעה על גובה הכיסוי הביטוחי. הטבלה רלוונטית במיוחד לפרק שישי, דירה ותכולתה. סכומי ביטוח וגבולות אחריות מופחתים בסכום ההתחייבות או התשלום של המבטח. הקטנת סכום ביטוח / גבול אחריות / מספר יחידות / ראשים / דונמים היא הנושא המרכזי.",
+    "row_axis": "Scenario of payment/settlement (e.g., payment to a third party, reimbursement to the insured)",
+    "column_axis": "Aspect of coverage reduction (e.g., sum insured, liability limit, number of units)",
     "units": [],
     "notable_values": [
-      "30: Amount potentially reducing liability limits",
-      "פרק שישי: Relates to Home and Contents insurance",
-      "תגמולי ביטוח: Insurance payouts trigger reductions"
+      "פרק שישי דירה ותכולתה",
+      "הקטנת סכום ביטוח / גבול אחריות",
+      "מספר יחידות / ראשים / דונמים"
     ],
     "product_hints": [
-      "מכלול"
+      "דירה ותכולתה"
     ]
   },
   "sketch": "מובהר, כי לעניין סכום או סכומים שכבר שולמו בתור תגמולי ביטוח, יחושב .29.3 .( להלן )הקטנת גבול האחריות לאחר תביעה / נזק 30 הסכום בכפוף לאמור בתנאי\n)למעט . הקטנת סכום ביטוח / גבול אחריות/ מספר יחידות / ראשים / דונמים לאחר הנזק 30 פרק שישי דירה ותכולתה( התחייב המבטח בכתב לתשלום פיצויים לצד שלישי וגם/או לעובד, או שילם המבטח לצד שלישי וגם/או לעובד פיצויים או, אם שיפה המבטח בתגמולי ביטוח את המבוטח בגין מקרה ביטוח, יוקטנו סכומי ביטוח וגם או גבולות אחריות המבטח וגם או מספר היחידות /הראשים / הדונמים המבוטחים )לפי העניין(, בסכום בו התחייב המבטח כאמור ממועד התחייבותו או ממועד התשלום )לפי העניין( בסכום בו פיצה המבטח או ,\nבסכום בו שיפה המבטח את המבוטח מהמועד בו שולם או ממועד מתן ההתחייבות במוקדם שבמועדים.",
-  "embed_text": "פוליסת 'מכלול' עוסקת בהקטנת גבול האחריות לאחר תביעה או נזק. סכומי ביטוח וגבולות אחריות מופחתים בסכום הפיצוי ששולם, לדוגמה, אם המבטח התחייב לשלם 30 ש\"ח, גבול האחריות יוקטן בסכום זה. הקטנה זו חלה על ביטוח דירה ותכולתה ועל מקרים בהם שולמו תגמולי ביטוח.",
-  "payload": "טבלה: הקטנת גבול האחריות\nThis table details how insurance coverage limits are reduced after a claim or damage. It outlines the reduction of insurance amounts, liability limits, or the number of units/heads/dunams insured.\nממדים: Specific scenarios leading to liability reduction (e.g., payment to a third party, insurance payout), Aspects of coverage affected by the reduction (e.g., insurance amount, liability limit, number of units)\n\nמובהר, כי לעניין סכום או סכומים שכבר שולמו בתור תגמולי ביטוח, יחושב .29.3 .( להלן )הקטנת גבול האחריות לאחר תביעה / נזק 30 הסכום בכפוף לאמור בתנאי\n)למעט . הקטנת סכום ביטוח / גבול אחריות/ מספר יחידות / ראשים / דונמים לאחר הנזק 30 פרק שישי דירה ותכולתה( התחייב המבטח בכתב לתשלום פיצויים לצד שלישי וגם/או לעובד, או שילם המבטח לצד שלישי וגם/או לעובד פיצויים או, אם שיפה המבטח בתגמולי ביטוח את המבוטח בגין מקרה ביטוח, יוקטנו סכומי ביטוח וגם או גבולות אחריות המבטח וגם או מספר היחידות /הראשים / הדונמים המבוטחים )לפי העניין(, בסכום בו התחייב המבטח כאמור ממועד התחייבותו או ממועד התשלום )לפי העניין( בסכום בו פיצה המבטח או ,\nבסכום בו שיפה המבטח את המבוטח מהמועד בו שולם או ממועד מתן ההתחייבות במוקדם שבמועדים."
+  "embed_text": "טבלה זו עוסקת בהקטנת גבול האחריות לאחר תביעה או נזק, כפי שמופיע בתנאי הפוליסה. מטרתה להסביר כיצד יחושב סכום ההקטנה, בהתאם לתשלומים שבוצעו על ידי המבטח. ניתן לעיין בטבלה כדי להבין את ההשפעה של תביעה על גובה הכיסוי הביטוחי. הטבלה רלוונטית במיוחד לפרק שישי, דירה ותכולתה. סכומי ביטוח וגבולות אחריות מופחתים בסכום ההתחייבות או התשלום של המבטח. הקטנת סכום ביטוח / גבול אחריות / מספר יחידות / ראשים / דונמים היא הנושא המרכזי. This table details the reduction of insurance coverage (sum insured/liability limit) after a claim or damage event. It outlines how the coverage is reduced based on payments made by the insurer. בין הערכים בטבלה: פרק שישי דירה ותכולתה.",
+  "payload": "טבלה: הקטנת גבול האחריות לאחר תביעה / נזק\nThis table details the reduction of insurance coverage (sum insured/liability limit) after a claim or damage event. It outlines how the coverage is reduced based on payments made by the insurer.\nממדים: Scenario of payment/settlement (e.g., payment to a third party, reimbursement to the insured), Aspect of coverage reduction (e.g., sum insured, liability limit, number of units)\n\nמובהר, כי לעניין סכום או סכומים שכבר שולמו בתור תגמולי ביטוח, יחושב .29.3 .( להלן )הקטנת גבול האחריות לאחר תביעה / נזק 30 הסכום בכפוף לאמור בתנאי\n)למעט . הקטנת סכום ביטוח / גבול אחריות/ מספר יחידות / ראשים / דונמים לאחר הנזק 30 פרק שישי דירה ותכולתה( התחייב המבטח בכתב לתשלום פיצויים לצד שלישי וגם/או לעובד, או שילם המבטח לצד שלישי וגם/או לעובד פיצויים או, אם שיפה המבטח בתגמולי ביטוח את המבוטח בגין מקרה ביטוח, יוקטנו סכומי ביטוח וגם או גבולות אחריות המבטח וגם או מספר היחידות /הראשים / הדונמים המבוטחים )לפי העניין(, בסכום בו התחייב המבטח כאמור ממועד התחייבותו או ממועד התשלום )לפי העניין( בסכום בו פיצה המבטח או ,\nבסכום בו שיפה המבטח את המבוטח מהמועד בו שולם או ממועד מתן ההתחייבות במוקדם שבמועדים."
 }

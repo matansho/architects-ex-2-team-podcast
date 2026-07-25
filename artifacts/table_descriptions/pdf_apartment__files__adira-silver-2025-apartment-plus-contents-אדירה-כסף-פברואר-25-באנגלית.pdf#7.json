@@ -2,21 +2,24 @@
   "id": "pdf:apartment/files/adira-silver-2025-apartment-plus-contents-אדירה-כסף-פברואר-25-באנגלית.pdf#7",
   "source": "llm",
   "description": {
-    "title": "אדירה כסף - כיסויים",
-    "summary": "This table details the covered risks under the Adira Silver apartment insurance policy. It lists specific events, such as fire or theft, that the insurance covers.",
-    "embed_passage": "פוליסת אדירה כסף מציעה כיסוי לנזקים שנגרמו כתוצאה משריפה, ברקים, רוחות חזקות מעל 30 קשר, או פגיעה של כלי רכב בדירה. הכיסוי כולל גם נזקים כתוצאה מפעולות זדון, למעט מקרים בהם הדירה אינה מאוישת. הפוליסה מכסה גם רעידות אדמה וגלי צונאמי הנגרמים מרעידות אדמה.",
-    "row_axis": "Covered risk/event",
-    "column_axis": "Description of the covered event",
+    "title": "כיסויים – אדירה כסף",
+    "summary": "This table details the covered risks under the 'Adira Kesef' apartment insurance policy. It lists specific events that are covered, such as fire, explosion, and theft, with some exclusions.",
+    "embed_passage": "טבלה זו מתארת את הכיסויים הביטוחיים במסגרת פוליסת 'אדירה כסף' לביטוח דירה. ניתן לבדוק את הכיסויים השונים עבור אירועים כמו שריפה, פיצוץ, רוחות חזקות, פגיעת כלי רכב, גניבה ורעידת אדמה. הכיסויים כוללים שריפה, ברקים, עשן, פיצוץ או בעירה, רוחות מעל 30 קשר, נפילת מטוסים, פגיעת כלי רכב בדירה, מעשי ונדליזם (למעט מקרים בהם הדירה ריקה), גניבה (למעט מקרים בהם הדירה ריקה) והתאספות אסורה.  הכיסויים כוללים גם רעידת אדמה וגלי צונאמי הנגרמים מרעידת אדמה.",
+    "row_axis": "insured event / risk",
+    "column_axis": "description of coverage",
     "units": [],
     "notable_values": [
-      "Wind speed: 30 knots"
+      "winds: 30 knots",
+      "fire: covered",
+      "explosion: covered",
+      "theft: covered (with exceptions)"
     ],
     "product_hints": [
-      "אדירה כסף",
-      "Adira Silver"
+      "Adira Kesef",
+      "אדירה כסף"
     ]
   },
   "sketch": "1.1 Fire, lightning, thunder and smoke constituting an extraordinary and nonpermanent phenomenon.\n1.2 Explosion or combustion.\n1.3 Winds exceeding 30 knots, including rain falling at the same time, snow or hail, except for leakage of rainwater through walls or ceilings or absorption thereof.\n1.4 Falling aircraft, falling objects from aircraft, supersonic vibration caused by aircraft.\n1.5 Contact or collision of a vehicle with the apartment.",
-  "embed_text": "פוליסת אדירה כסף מציעה כיסוי לנזקים שנגרמו כתוצאה משריפה, ברקים, רוחות חזקות מעל 30 קשר, או פגיעה של כלי רכב בדירה. הכיסוי כולל גם נזקים כתוצאה מפעולות זדון, למעט מקרים בהם הדירה אינה מאוישת. הפוליסה מכסה גם רעידות אדמה וגלי צונאמי הנגרמים מרעידות אדמה.",
-  "payload": "טבלה: אדירה כסף - כיסויים\nThis table details the covered risks under the Adira Silver apartment insurance policy. It lists specific events, such as fire or theft, that the insurance covers.\nממדים: Covered risk/event, Description of the covered event\n\n1.1 Fire, lightning, thunder and smoke constituting an extraordinary and nonpermanent phenomenon.\n1.2 Explosion or combustion.\n1.3 Winds exceeding 30 knots, including rain falling at the same time, snow or hail, except for leakage of rainwater through walls or ceilings or absorption thereof.\n1.4 Falling aircraft, falling objects from aircraft, supersonic vibration caused by aircraft.\n1.5 Contact or collision of a vehicle with the apartment."
+  "embed_text": "טבלה זו מתארת את הכיסויים הביטוחיים במסגרת פוליסת 'אדירה כסף' לביטוח דירה. ניתן לבדוק את הכיסויים השונים עבור אירועים כמו שריפה, פיצוץ, רוחות חזקות, פגיעת כלי רכב, גניבה ורעידת אדמה. הכיסויים כוללים שריפה, ברקים, עשן, פיצוץ או בעירה, רוחות מעל 30 קשר, נפילת מטוסים, פגיעת כלי רכב בדירה, מעשי ונדליזם (למעט מקרים בהם הדירה ריקה), גניבה (למעט מקרים בהם הדירה ריקה) והתאספות אסורה.  הכיסויים כוללים גם רעידת אדמה וגלי צונאמי הנגרמים מרעידת אדמה. This table details the covered risks under the 'Adira Kesef' apartment insurance policy. It lists specific events that are covered, such as fire, explosion, and theft, with some exclusions. בין הערכים בטבלה: winds: 30 knots; fire: covered; explosion: covered; theft: covered (with exceptions).",
+  "payload": "טבלה: כיסויים – אדירה כסף\nThis table details the covered risks under the 'Adira Kesef' apartment insurance policy. It lists specific events that are covered, such as fire, explosion, and theft, with some exclusions.\nממדים: insured event / risk, description of coverage\n\n1.1 Fire, lightning, thunder and smoke constituting an extraordinary and nonpermanent phenomenon.\n1.2 Explosion or combustion.\n1.3 Winds exceeding 30 knots, including rain falling at the same time, snow or hail, except for leakage of rainwater through walls or ceilings or absorption thereof.\n1.4 Falling aircraft, falling objects from aircraft, supersonic vibration caused by aircraft.\n1.5 Contact or collision of a vehicle with the apartment."
 }

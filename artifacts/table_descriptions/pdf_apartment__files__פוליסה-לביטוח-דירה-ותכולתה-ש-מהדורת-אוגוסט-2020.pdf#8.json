@@ -2,24 +2,23 @@
   "id": "pdf:apartment/files/פוליסה-לביטוח-דירה-ותכולתה-ש-מהדורת-אוגוסט-2020.pdf#8",
   "source": "llm",
   "description": {
-    "title": "ביטוח דירה ותכולתה",
-    "summary": "This table details coverage for apartment insurance, specifically outlining exclusions and conditions related to various risks. It helps determine what is covered under the policy, such as earthquake damage and water leaks.",
-    "embed_passage": "פוליסת ביטוח דירה ותכולתה כוללת כיסוי לנזקים מרעידת אדמה, אך ישנן הגבלות. לדוגמה, רעידות אדמה שאירעו במשך 72 שעות רצופות נחשבות לאירוע אחד. הכיסוי תלוי בתקנות הפיקוח על עסקי ביטוח, וייתכן שתנאי 1986 ישפיעו על ההשתתפות העצמית.",
-    "row_axis": "types of risks/damage",
-    "column_axis": "coverage conditions/exclusions",
+    "title": "כיסוי נזקים - דירה ותכולתה",
+    "summary": "This table details coverage for damages to an apartment and its contents, specifically outlining exclusions and conditions for certain risks. It is used to determine what types of damage are covered under the insurance policy.",
+    "embed_passage": "טבלה זו מתארת כיסויים לנזקים שונים לדירה ולתכולתה, כחלק מפוליסת ביטוח דירה ותכולתה. ניתן לבדוק את הכיסויים השונים, כגון רעידת אדמה ונזקי נוזלים, ואת התנאים וההחרגות הרלוונטיים לכל כיסוי. הפוליסה כוללת כיסוי לרעידת אדמה, צונאמי, נזקי נוזלים, וכן התייחסות לפעולות זדון. רעידות אדמה שאירעו במשך 72 שעות רצופות יחשבו כאירוע אחד. נזקי נוזלים בתוקף רק אם צוין כך ברשימה. כיסוי עבור נזקי נוזלים מקנה אפשרות לבחור כל שרברב. רעידת אדמה, צונאמי, נזקי נוזלים.",
+    "row_axis": "סוג נזק / אירוע",
+    "column_axis": "תנאים / החרגות / כיסוי",
     "units": [],
     "notable_values": [
-      "72: hours considered one event for earthquakes",
-      "1986: year of insurance contract regulations",
-      "60: days for a property to be considered unoccupied",
-      "תשמ\"ו: year of insurance regulations (Hebrew)",
-      "5: condition number related to earthquake coverage"
+      "רעידת אדמה: 72 שעות רצופות",
+      "נזקי נוזלים: בתוקף אם צוין",
+      "תקנות הפיקוח על עסקי ביטוח: תשמ\"ו 1986",
+      "דירה שאינה תפוסה: 60 ימים רצופים"
     ],
     "product_hints": [
       "ביטוח דירה ותכולתה"
     ]
   },
   "sketch": ")ט( רעידת אדמה, לרבות צונאמי שנוצר כתוצאה מרעידת אדמה, ובלבד שהמבוטח לא ויתר א לתקנות הפיקוח על עסקי ביטוח )תנאי 5 על כיסוי כנגד סיכון זה, בדרך האמורה בתקנה ; לעניין השתתפות עצמית בנזק כתוצאה 1986חוזה לביטוח דירות ותכולתן(, תשמ\"ו שעות רצופות אחרי התרחשותה של רעידת 72 מסיכון זה, רעידות אדמה שאירעו במשך אדמה ראשונה, תחשבנה כאירוע אחד.\nכאמור בסעיף ט לעיל. למעט צונאמי , שטפון, או הצפה ממקור מים חיצוני )י(\nנזקי נוזלים - בתוקף אם צוין כך ברשימה ( )יא",
-  "embed_text": "פוליסת ביטוח דירה ותכולתה כוללת כיסוי לנזקים מרעידת אדמה, אך ישנן הגבלות. לדוגמה, רעידות אדמה שאירעו במשך 72 שעות רצופות נחשבות לאירוע אחד. הכיסוי תלוי בתקנות הפיקוח על עסקי ביטוח, וייתכן שתנאי 1986 ישפיעו על ההשתתפות העצמית.",
-  "payload": "טבלה: ביטוח דירה ותכולתה\nThis table details coverage for apartment insurance, specifically outlining exclusions and conditions related to various risks. It helps determine what is covered under the policy, such as earthquake damage and water leaks.\nממדים: types of risks/damage, coverage conditions/exclusions\n\n)ט( רעידת אדמה, לרבות צונאמי שנוצר כתוצאה מרעידת אדמה, ובלבד שהמבוטח לא ויתר א לתקנות הפיקוח על עסקי ביטוח )תנאי 5 על כיסוי כנגד סיכון זה, בדרך האמורה בתקנה ; לעניין השתתפות עצמית בנזק כתוצאה 1986חוזה לביטוח דירות ותכולתן(, תשמ\"ו שעות רצופות אחרי התרחשותה של רעידת 72 מסיכון זה, רעידות אדמה שאירעו במשך אדמה ראשונה, תחשבנה כאירוע אחד.\nכאמור בסעיף ט לעיל. למעט צונאמי , שטפון, או הצפה ממקור מים חיצוני )י(\nנזקי נוזלים - בתוקף אם צוין כך ברשימה ( )יא"
+  "embed_text": "טבלה זו מתארת כיסויים לנזקים שונים לדירה ולתכולתה, כחלק מפוליסת ביטוח דירה ותכולתה. ניתן לבדוק את הכיסויים השונים, כגון רעידת אדמה ונזקי נוזלים, ואת התנאים וההחרגות הרלוונטיים לכל כיסוי. הפוליסה כוללת כיסוי לרעידת אדמה, צונאמי, נזקי נוזלים, וכן התייחסות לפעולות זדון. רעידות אדמה שאירעו במשך 72 שעות רצופות יחשבו כאירוע אחד. נזקי נוזלים בתוקף רק אם צוין כך ברשימה. כיסוי עבור נזקי נוזלים מקנה אפשרות לבחור כל שרברב. רעידת אדמה, צונאמי, נזקי נוזלים. This table details coverage for damages to an apartment and its contents, specifically outlining exclusions and conditions for certain risks. It is used to determine what types of damage are covered under the insurance policy. בין הערכים בטבלה: תקנות הפיקוח על עסקי ביטוח: תשמ\"ו 1986; דירה שאינה תפוסה: 60 ימים רצופים.",
+  "payload": "טבלה: כיסוי נזקים - דירה ותכולתה\nThis table details coverage for damages to an apartment and its contents, specifically outlining exclusions and conditions for certain risks. It is used to determine what types of damage are covered under the insurance policy.\nממדים: סוג נזק / אירוע, תנאים / החרגות / כיסוי\n\n)ט( רעידת אדמה, לרבות צונאמי שנוצר כתוצאה מרעידת אדמה, ובלבד שהמבוטח לא ויתר א לתקנות הפיקוח על עסקי ביטוח )תנאי 5 על כיסוי כנגד סיכון זה, בדרך האמורה בתקנה ; לעניין השתתפות עצמית בנזק כתוצאה 1986חוזה לביטוח דירות ותכולתן(, תשמ\"ו שעות רצופות אחרי התרחשותה של רעידת 72 מסיכון זה, רעידות אדמה שאירעו במשך אדמה ראשונה, תחשבנה כאירוע אחד.\nכאמור בסעיף ט לעיל. למעט צונאמי , שטפון, או הצפה ממקור מים חיצוני )י(\nנזקי נוזלים - בתוקף אם צוין כך ברשימה ( )יא"
 }

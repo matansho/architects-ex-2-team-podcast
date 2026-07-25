@@ -2,27 +2,29 @@
   "id": "pdf:travel/files/פוליסת-ביטוח-נסיעות-לחו-ל-שיר-לנוסע-שירביט-מבית-הראל-חברה-לביטוח.pdf#118",
   "source": "llm",
   "description": {
-    "title": "פוליסת שירביט נסיעות",
-    "summary": "This table details the coverage amounts for various medical and travel-related expenses under the 'שירביט' travel insurance policy. It shows the maximum amounts covered for things like hospital stays, dental care, and emergency evacuation.",
-    "embed_passage": "פוליסת 'שירביט' מבית הראל מספקת כיסוי להוצאות רפואיות בחו״ל, כולל אשפוז בחדר חצי פרטי עד 1,600,000$, טיפול דנטלי חירום עד 500$, וחילוץ רפואי עד 200,000$. הכיסוי כולל גם פינוי אווירי/ימי כחלק מהסכום המקסימלי של הפוליסה.",
-    "row_axis": "Type of covered expense (e.g., hospital stay, dental care)",
-    "column_axis": "Coverage amount",
+    "title": "כיסויים בפוליסת שירביט",
+    "summary": "This table details the coverage amounts provided by the \"SHIR\" travel insurance policy. It lists various medical and logistical expenses covered during travel.",
+    "embed_passage": "טבלה זו מפרטת את סכומי הכיסוי הניתנים במסגרת פוליסת הביטוח הנסיעות \"שירביט\" של הראל. הפוליסה מכסה הוצאות רפואיות שונות, פינוי רפואי, והחזרת גופה לישראל, וכן טיפול דנטלי חירום. סכומי הכיסוי משתנים בהתאם לסוג השירות, כאשר הכיסוי המקסימלי עבור הוצאות בית חולים, פינוי אווירי/ימי והחזרת גופה עומד על 1,600,000$. הוצאות בית חולים בחדר חצי פרטי כוללות טיפול נמרץ, שכר מנתח והוצאות מרפאה חוץ. כיסוי לפינוי רפואי קרקעי הוא מלא. טיפול דנטלי חירום מכוסה עד 500$. פינוי רפואי חירום מכוסה עד 200,000$.",
+    "row_axis": "type of medical/logistical expense",
+    "column_axis": "coverage amount",
     "units": [
       "$"
     ],
     "notable_values": [
       "Hospital expenses: $1,600,000",
       "Emergency dental care: $500",
-      "Emergency rescue: $200,000",
-      "Evacuation: $1,600,000",
-      "Transportation of body: $1,600,000"
+      "Land Evacuation: Full coverage",
+      "Aerial/Marine Evacuation: $1,600,000",
+      "Transportation of body: $1,600,000",
+      "Medical flight to Israel: $1,600,000",
+      "Emergency rescue: $200,000"
     ],
     "product_hints": [
       "שירביט",
-      "הראל"
+      "SHIR"
     ]
   },
   "sketch": "The policy covers COVID-19 in accordance with and subject to the terms of the policy and the underwriting policy of the Company.\nHospital expenses in semi-private room' including intensive care' surgeon's fees and out - patient expenses up to $1,600,000.\nEmergency dental care - up to $500.\nEvacuation for the patient from site of the event the nearest hospital -- Land Evacuation -Full coverage ,Aerial/Marine Evacuation - Included in the maximum amount of the policy up to 1,600,000$\nTransportation of body - included in the maximum amount of the policy up to $1,600,000.\nMedical flight to Israel - Included in the maximum Amount of the policy up to $1,600,000.\nEmergency rescue up to $200,000.",
-  "embed_text": "פוליסת 'שירביט' מבית הראל מספקת כיסוי להוצאות רפואיות בחו״ל, כולל אשפוז בחדר חצי פרטי עד 1,600,000$, טיפול דנטלי חירום עד 500$, וחילוץ רפואי עד 200,000$. הכיסוי כולל גם פינוי אווירי/ימי כחלק מהסכום המקסימלי של הפוליסה.",
-  "payload": "טבלה: פוליסת שירביט נסיעות\nThis table details the coverage amounts for various medical and travel-related expenses under the 'שירביט' travel insurance policy. It shows the maximum amounts covered for things like hospital stays, dental care, and emergency evacuation.\nממדים: Type of covered expense (e.g., hospital stay, dental care), Coverage amount\n\nThe policy covers COVID-19 in accordance with and subject to the terms of the policy and the underwriting policy of the Company.\nHospital expenses in semi-private room' including intensive care' surgeon's fees and out - patient expenses up to $1,600,000.\nEmergency dental care - up to $500.\nEvacuation for the patient from site of the event the nearest hospital -- Land Evacuation -Full coverage ,Aerial/Marine Evacuation - Included in the maximum amount of the policy up to 1,600,000$\nTransportation of body - included in the maximum amount of the policy up to $1,600,000.\nMedical flight to Israel - Included in the maximum Amount of the policy up to $1,600,000.\nEmergency rescue up to $200,000."
+  "embed_text": "טבלה זו מפרטת את סכומי הכיסוי הניתנים במסגרת פוליסת הביטוח הנסיעות \"שירביט\" של הראל. הפוליסה מכסה הוצאות רפואיות שונות, פינוי רפואי, והחזרת גופה לישראל, וכן טיפול דנטלי חירום. סכומי הכיסוי משתנים בהתאם לסוג השירות, כאשר הכיסוי המקסימלי עבור הוצאות בית חולים, פינוי אווירי/ימי והחזרת גופה עומד על 1,600,000$. הוצאות בית חולים בחדר חצי פרטי כוללות טיפול נמרץ, שכר מנתח והוצאות מרפאה חוץ. כיסוי לפינוי רפואי קרקעי הוא מלא. טיפול דנטלי חירום מכוסה עד 500$. פינוי רפואי חירום מכוסה עד 200,000$. This table details the coverage amounts provided by the \"SHIR\" travel insurance policy. It lists various medical and logistical expenses covered during travel. בין הערכים בטבלה: Hospital expenses: $1,600,000; Emergency dental care: $500; Land Evacuation: Full coverage; Aerial/Marine Evacuation: $1,600,000; T…",
+  "payload": "טבלה: כיסויים בפוליסת שירביט\nThis table details the coverage amounts provided by the \"SHIR\" travel insurance policy. It lists various medical and logistical expenses covered during travel.\nממדים: type of medical/logistical expense, coverage amount\n\nThe policy covers COVID-19 in accordance with and subject to the terms of the policy and the underwriting policy of the Company.\nHospital expenses in semi-private room' including intensive care' surgeon's fees and out - patient expenses up to $1,600,000.\nEmergency dental care - up to $500.\nEvacuation for the patient from site of the event the nearest hospital -- Land Evacuation -Full coverage ,Aerial/Marine Evacuation - Included in the maximum amount of the policy up to 1,600,000$\nTransportation of body - included in the maximum amount of the policy up to $1,600,000.\nMedical flight to Israel - Included in the maximum Amount of the policy up to $1,600,000.\nEmergency rescue up to $200,000."
 }

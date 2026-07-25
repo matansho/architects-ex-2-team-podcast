@@ -3,22 +3,21 @@
   "source": "llm",
   "description": {
     "title": "הרשאה לחיוב חשבון",
-    "summary": "This table outlines the terms for a direct debit authorization. It details the conditions under which the authorization can be cancelled and the bank's responsibilities.",
-    "embed_passage": "הרשאה זו ניתנת לביטול ע״י הודעה בכתב, ויהיה רשאים לבטל חיוב מסוים בהודעה לבנק לא יאוחר מ-3 ימי עסקים לאחר מועד החיוב. הבנק רשאי להוציא את המוטב מההסדר אם תהיה לו סיבה סבירה לכך. הרשאה של יעשה בה שימוש במשך תקופה של 24 חודשים ממועד החיוב האחרון, בטלה.",
-    "row_axis": "conditions for authorization/cancellation",
+    "summary": "This table outlines the terms and conditions for a direct debit authorization. It details the duration of the authorization, conditions for cancellation, and the bank's rights regarding the agreement.",
+    "embed_passage": "טבלה זו מתארת את התנאים וההגבלות להרשאה לחיוב חשבון, כולל תקופת תוקף ההרשאה, תנאי ביטול והזכויות של הבנק בנוגע להסכם. ניתן להשתמש בהרשאה לתקופה של 24 חודשים ממועד החיוב האחרון. ההרשאה ניתנת לביטול בהודעה בכתב לבנק, או בהתאם להוראת כל דין. הרשאה של יעשה בה שימוש במשך תקופה של 24 חודשים ממועד החיוב האחרון, בטלה. הבנק רשאי לבטל את ההרשאה אם יש לו סיבה סבירה לכך. הרשאה זו ניתנת לביטול ע״י הודעה בכתב מאתנו לבנק.",
+    "row_axis": "conditions for direct debit authorization",
     "column_axis": "authorization details",
     "units": [],
     "notable_values": [
-      "period: 24 חודשים",
-      "notice period for cancellation: יום עסקים אחד",
-      "cancellation notice deadline: 3 ימי עסקים"
+      "duration: 24 months",
+      "cancellation: written notice",
+      "bank right: reasonable cause"
     ],
     "product_hints": [
-      "הרשאה לחיוב חשבון",
-      "הראל חברה לביטוח בע״מ"
+      "הרשאה לחיוב חשבון"
     ]
   },
   "sketch": "חודשים ממועד החיוב האחרון, בטלה. 24 הרשאה של יעשה בה שימוש במשך תקופה של ו.\nאם תעשו לבקשתנו, הבנק יפעל בהתאם להוראות הרשאה זו, בכפוף להוראות כל דין והסכם שבנינו לבין הבנק. ז.\nהבנק רשאי להוציאנו מן ההסדר המפורט בהרשאה זו, אם תהיה לו סיבה סבירה לכך, ויודיע לנו על כך מיד לאחר קבלת החלטתו תוך ציון ח. הסיבה.",
-  "embed_text": "הרשאה זו ניתנת לביטול ע״י הודעה בכתב, ויהיה רשאים לבטל חיוב מסוים בהודעה לבנק לא יאוחר מ-3 ימי עסקים לאחר מועד החיוב. הבנק רשאי להוציא את המוטב מההסדר אם תהיה לו סיבה סבירה לכך. הרשאה של יעשה בה שימוש במשך תקופה של 24 חודשים ממועד החיוב האחרון, בטלה.",
-  "payload": "טבלה: הרשאה לחיוב חשבון\nThis table outlines the terms for a direct debit authorization. It details the conditions under which the authorization can be cancelled and the bank's responsibilities.\nממדים: conditions for authorization/cancellation, authorization details\n\nחודשים ממועד החיוב האחרון, בטלה. 24 הרשאה של יעשה בה שימוש במשך תקופה של ו.\nאם תעשו לבקשתנו, הבנק יפעל בהתאם להוראות הרשאה זו, בכפוף להוראות כל דין והסכם שבנינו לבין הבנק. ז.\nהבנק רשאי להוציאנו מן ההסדר המפורט בהרשאה זו, אם תהיה לו סיבה סבירה לכך, ויודיע לנו על כך מיד לאחר קבלת החלטתו תוך ציון ח. הסיבה."
+  "embed_text": "טבלה זו מתארת את התנאים וההגבלות להרשאה לחיוב חשבון, כולל תקופת תוקף ההרשאה, תנאי ביטול והזכויות של הבנק בנוגע להסכם. ניתן להשתמש בהרשאה לתקופה של 24 חודשים ממועד החיוב האחרון. ההרשאה ניתנת לביטול בהודעה בכתב לבנק, או בהתאם להוראת כל דין. הרשאה של יעשה בה שימוש במשך תקופה של 24 חודשים ממועד החיוב האחרון, בטלה. הבנק רשאי לבטל את ההרשאה אם יש לו סיבה סבירה לכך. הרשאה זו ניתנת לביטול ע״י הודעה בכתב מאתנו לבנק. This table outlines the terms and conditions for a direct debit authorization. It details the duration of the authorization, conditions for cancellation, and the bank's rights regarding the agreement. בין הערכים בטבלה: duration: 24 months; cancellation: written notice; bank right: reasonable cause.",
+  "payload": "טבלה: הרשאה לחיוב חשבון\nThis table outlines the terms and conditions for a direct debit authorization. It details the duration of the authorization, conditions for cancellation, and the bank's rights regarding the agreement.\nממדים: conditions for direct debit authorization, authorization details\n\nחודשים ממועד החיוב האחרון, בטלה. 24 הרשאה של יעשה בה שימוש במשך תקופה של ו.\nאם תעשו לבקשתנו, הבנק יפעל בהתאם להוראות הרשאה זו, בכפוף להוראות כל דין והסכם שבנינו לבין הבנק. ז.\nהבנק רשאי להוציאנו מן ההסדר המפורט בהרשאה זו, אם תהיה לו סיבה סבירה לכך, ויודיע לנו על כך מיד לאחר קבלת החלטתו תוך ציון ח. הסיבה."
 }

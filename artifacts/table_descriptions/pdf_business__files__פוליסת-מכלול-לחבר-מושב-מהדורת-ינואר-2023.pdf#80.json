@@ -3,15 +3,15 @@
   "source": "llm",
   "description": {
     "title": "אבדן יבול עתידי",
-    "summary": "This table details compensation for future crop loss due to insured events. It looks up the value of lost yield based on factors like crop type, age, and prior yield averages.",
-    "embed_passage": "פוליסת מכלול לחבר מושב מספקת שיפוי עבור אבדן יבול עתידי, הכולל את היבול שניזוק על העצים, עד לפוריות מלאה או חמש עונות פרי. הערך מחושב על בסיס ממוצע מהיוון של היבול בשתי העונות הקודמות, תוך התחשבות בזן ובגיל המטע. במקרים בהם לא חלפו שתי עונות פוריות, הערך ייקבע לפי נתוני משרד החקלאות.",
-    "row_axis": "Details regarding the calculation of compensation for future crop loss.",
-    "column_axis": "Calculation method, timeframes, and data sources for determining crop value.",
+    "summary": "This table details the basis for compensation for future crop loss, specifically regarding fruit trees. It outlines how the value of the lost yield is calculated, considering factors like average yield, tree age, and data from the Ministry of Agriculture.",
+    "embed_passage": "טבלה זו מתייחסת לחישוב שיפוי עבור אבדן יבול עתידי של מטעים, כפי שמפורט בהרחבה 6.7 לפוליסת מכלול. החישוב מתבסס על ערך ממוצע מהוון של היבול בשתי העונות שקדמו לנזק, תוך התחשבות בזן ובגיל המטע. במקרים בהם לא חלפו שתי עונות פוריות, הערך ייקבע לפי נתוני משרד החקלאות. הרחבה זו מכסה אבדן יבול עתידי עד לפוריות מלאה או חמש עונות פרי, המוקדם מביניהם. מטע מניב, זן, גיל המטע, משרד החקלאות, שתי עונות.",
+    "row_axis": "basis for compensation for future crop loss",
+    "column_axis": "calculation details",
     "units": [],
     "notable_values": [
-      "חמש עונות פרי: maximum duration for compensation",
-      "שתי עונות: period used for calculating average yield",
-      "משרד החקלאות: data source for yield valuation when insufficient history exists"
+      "period: שתי עונות",
+      "maximum duration: חמש עונות פרי",
+      "data source: משרד החקלאות"
     ],
     "product_hints": [
       "מכלול",
@@ -19,6 +19,6 @@
     ]
   },
   "sketch": "בסיס לשיפוי לפי הרחבה זו: .6.7.1\n, אבדן יבול עתידי )הכולל את היבול שניזוק על העצים( עד לפוריות מלאה או עד חמש עונות פרי המקובלות לסוג הגידול, המוקדם מבין השניים, לפי\nערך ממוצע מהיוון של היבול במשך שתי העונות שקדמו למקרה הביטוח ובניכוי הכנסות בניכוי הוצאות שנחסכו , בהתחשב בזן ובגיל המטע שניזוק שנתקבלו במהלך התקופה.\nככל שטרם חלפו שתי עונות פוריות שקדמו למקרה הביטוח, יקבע ערך היבול בהתאם לנתוני משרד החקלאות בהתחשב בזן, במיקום, בגודל ובגיל המטע.",
-  "embed_text": "פוליסת מכלול לחבר מושב מספקת שיפוי עבור אבדן יבול עתידי, הכולל את היבול שניזוק על העצים, עד לפוריות מלאה או חמש עונות פרי. הערך מחושב על בסיס ממוצע מהיוון של היבול בשתי העונות הקודמות, תוך התחשבות בזן ובגיל המטע. במקרים בהם לא חלפו שתי עונות פוריות, הערך ייקבע לפי נתוני משרד החקלאות.",
-  "payload": "טבלה: אבדן יבול עתידי\nThis table details compensation for future crop loss due to insured events. It looks up the value of lost yield based on factors like crop type, age, and prior yield averages.\nממדים: Details regarding the calculation of compensation for future crop loss., Calculation method, timeframes, and data sources for determining crop value.\n\nבסיס לשיפוי לפי הרחבה זו: .6.7.1\n, אבדן יבול עתידי )הכולל את היבול שניזוק על העצים( עד לפוריות מלאה או עד חמש עונות פרי המקובלות לסוג הגידול, המוקדם מבין השניים, לפי\nערך ממוצע מהיוון של היבול במשך שתי העונות שקדמו למקרה הביטוח ובניכוי הכנסות בניכוי הוצאות שנחסכו , בהתחשב בזן ובגיל המטע שניזוק שנתקבלו במהלך התקופה.\nככל שטרם חלפו שתי עונות פוריות שקדמו למקרה הביטוח, יקבע ערך היבול בהתאם לנתוני משרד החקלאות בהתחשב בזן, במיקום, בגודל ובגיל המטע."
+  "embed_text": "טבלה זו מתייחסת לחישוב שיפוי עבור אבדן יבול עתידי של מטעים, כפי שמפורט בהרחבה 6.7 לפוליסת מכלול. החישוב מתבסס על ערך ממוצע מהוון של היבול בשתי העונות שקדמו לנזק, תוך התחשבות בזן ובגיל המטע. במקרים בהם לא חלפו שתי עונות פוריות, הערך ייקבע לפי נתוני משרד החקלאות. הרחבה זו מכסה אבדן יבול עתידי עד לפוריות מלאה או חמש עונות פרי, המוקדם מביניהם. מטע מניב, זן, גיל המטע, משרד החקלאות, שתי עונות. This table details the basis for compensation for future crop loss, specifically regarding fruit trees. It outlines how the value of the lost yield is calculated, considering factors like average yield, tree age, and data from the Ministry of Agriculture.",
+  "payload": "טבלה: אבדן יבול עתידי\nThis table details the basis for compensation for future crop loss, specifically regarding fruit trees. It outlines how the value of the lost yield is calculated, considering factors like average yield, tree age, and data from the Ministry of Agriculture.\nממדים: basis for compensation for future crop loss, calculation details\n\nבסיס לשיפוי לפי הרחבה זו: .6.7.1\n, אבדן יבול עתידי )הכולל את היבול שניזוק על העצים( עד לפוריות מלאה או עד חמש עונות פרי המקובלות לסוג הגידול, המוקדם מבין השניים, לפי\nערך ממוצע מהיוון של היבול במשך שתי העונות שקדמו למקרה הביטוח ובניכוי הכנסות בניכוי הוצאות שנחסכו , בהתחשב בזן ובגיל המטע שניזוק שנתקבלו במהלך התקופה.\nככל שטרם חלפו שתי עונות פוריות שקדמו למקרה הביטוח, יקבע ערך היבול בהתאם לנתוני משרד החקלאות בהתחשב בזן, במיקום, בגודל ובגיל המטע."
 }

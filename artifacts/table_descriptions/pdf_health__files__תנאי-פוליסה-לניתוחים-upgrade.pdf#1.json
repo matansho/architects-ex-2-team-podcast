@@ -2,26 +2,25 @@
   "id": "pdf:health/files/תנאי-פוליסה-לניתוחים-upgrade.pdf#1",
   "source": "llm",
   "description": {
-    "title": "ביטוח ניתוחים משלים",
-    "summary": "This table details supplemental surgery insurance coverage for individuals with existing health plans (Shab\"n). It outlines coverage for surgeries and non-surgical treatments in Israel, specifically for those holding \" כללית מושלם/פלטינום\", \"מכבי מגן זהב\", \"מאוחדת עדיף/שיא\", or \"לאומית זהב\" plans.",
-    "embed_passage": "פוליסת ביטוח לניתוחים וטיפולים מחליפי ניתוח בישראל מציעה כיסוי משלים לבעלי שב״ן, כגון \"כללית מושלם/פלטינום\", \"מכבי מגן זהב\", \"מאוחדת עדיף/שיא\", ו\"לאומית זהב\". התכנית כוללת תמורת תשלום דמי ביטוח, כמפורט בדף פרטי הביטוח, ובכפיפות לתנאים הכלליים לפוליסה. לדוגמה, תכנית זו יכולה לכסות ניתוחים משלימים.",
-    "row_axis": "Insurance plan type (Shab\"n holders)",
-    "column_axis": "Coverage details for surgeries and alternative treatments",
+    "title": "ביטוח לניתוחים",
+    "summary": "This table outlines coverage for surgeries and non-surgical alternatives in Israel under a supplemental health insurance plan. It details eligibility based on membership in various Kupot Holim (health funds).",
+    "embed_passage": "טבלה זו מתארת ביטוח לניתוחים וטיפולים מחליפי ניתוח בישראל, המיועדת לבעלי ביטוחים משלימים של קופות החולים השונות. ניתן למצוא מידע על הכיסוי בהתאם להשתייכות לקופת חולים כגון \"כללית מושלם/פלטינום\", \"מכבי מגן זהב\", \"מאוחדת עדיף/שיא\" ו\"לאומית זהב\". הפוליסה כוללת תנאים כלליים, סייגים וחריגים המפורטים בנפרד. תמורת תשלום דמי ביטוח, החברה תשפה את המבוטח או תשלם ישירות לספק השירות. ביטוח לניתוחים וטיפולים מחליפי ניתוח בישראל ניתוחים משלים שב\"ן ללא השתתפות עצמית, 514 ת מס תכני.",
+    "row_axis": "Kupot Holim membership level (e.g., כללית מושלם/פלטינום)",
+    "column_axis": "Coverage details for surgeries and non-surgical alternatives",
     "units": [],
     "notable_values": [
-      "Shab\"n holders: \"כללית מושלם/פלטינום\"",
-      "Shab\"n holders: \"מכבי מגן זהב\"",
-      "Shab\"n holders: \"מאוחדת עדיף/שיא\"",
-      "Shab\"n holders: \"לאומית זהב\"",
-      "תכנית ז: תמורת תשלום דמי ביטוח"
+      "Kupot Holim: כללית מושלם/פלטינום",
+      "Kupot Holim: מכבי מגן זהב",
+      "Kupot Holim: מאוחדת עדיף/שיא",
+      "Kupot Holim: לאומית זהב",
+      "ת מס תכני: 514"
     ],
     "product_hints": [
       "ביטוח לניתוחים",
-      "ביטוח משלים",
-      "Shab\"n"
+      "תכנית ז"
     ]
   },
   "sketch": "ביטוח לניתוחים וטיפולים מחליפי ניתוח בישראל ניתוחים משלים שב\"ן ללא השתתפות עצמית\n(\" )לבעלי שב\"ן -   \"כללית מושלם/פלטינום\", \"מכבי   מגן זהב\", \"מאוחדת עדיף/שיא\", \"לאומית זה   ב\n514 ' ת מס תכני\n: תמורת תשלום דמי ביטוח, כמפורט בדף פרטי הביטוח, ובכפיפות לתנאים הכלליים לפוליסה אליה מצורפת תכנית ז  ו )להלן ה  את \"  (    ולהוראות  לסייגים  ולחריגים  המפורטים  להלן  ובהתאם  להצהרות  המבוטח,  החברה  תשפ התנאים  הכלליים \" ל   בהתאם  להוראות   התנאים  הכלל  יים     ולתנא  י   תכנית   ביטוח   זו  )להלן ת,   הכ המבוטח ו/או תשלם ישירות לספק/י השירו .  (  \" התכני   ת \"",
-  "embed_text": "פוליסת ביטוח לניתוחים וטיפולים מחליפי ניתוח בישראל מציעה כיסוי משלים לבעלי שב״ן, כגון \"כללית מושלם/פלטינום\", \"מכבי מגן זהב\", \"מאוחדת עדיף/שיא\", ו\"לאומית זהב\". התכנית כוללת תמורת תשלום דמי ביטוח, כמפורט בדף פרטי הביטוח, ובכפיפות לתנאים הכלליים לפוליסה. לדוגמה, תכנית זו יכולה לכסות ניתוחים משלימים.",
-  "payload": "טבלה: ביטוח ניתוחים משלים\nThis table details supplemental surgery insurance coverage for individuals with existing health plans (Shab\"n). It outlines coverage for surgeries and non-surgical treatments in Israel, specifically for those holding \" כללית מושלם/פלטינום\", \"מכבי מגן זהב\", \"מאוחדת עדיף/שיא\", or \"לאומית זהב\" plans.\nממדים: Insurance plan type (Shab\"n holders), Coverage details for surgeries and alternative treatments\n\nביטוח לניתוחים וטיפולים מחליפי ניתוח בישראל ניתוחים משלים שב\"ן ללא השתתפות עצמית\n(\" )לבעלי שב\"ן -   \"כללית מושלם/פלטינום\", \"מכבי   מגן זהב\", \"מאוחדת עדיף/שיא\", \"לאומית זה   ב\n514 ' ת מס תכני\n: תמורת תשלום דמי ביטוח, כמפורט בדף פרטי הביטוח, ובכפיפות לתנאים הכלליים לפוליסה אליה מצורפת תכנית ז  ו )להלן ה  את \"  (    ולהוראות  לסייגים  ולחריגים  המפורטים  להלן  ובהתאם  להצהרות  המבוטח,  החברה  תשפ התנאים  הכלליים \" ל   בהתאם  להוראות   התנאים  הכלל  יים     ולתנא  י   תכנית   ביטוח   זו  )להלן ת,   הכ המבוטח ו/או תשלם ישירות לספק/י השירו .  (  \" התכני   ת \""
+  "embed_text": "טבלה זו מתארת ביטוח לניתוחים וטיפולים מחליפי ניתוח בישראל, המיועדת לבעלי ביטוחים משלימים של קופות החולים השונות. ניתן למצוא מידע על הכיסוי בהתאם להשתייכות לקופת חולים כגון \"כללית מושלם/פלטינום\", \"מכבי מגן זהב\", \"מאוחדת עדיף/שיא\" ו\"לאומית זהב\". הפוליסה כוללת תנאים כלליים, סייגים וחריגים המפורטים בנפרד. תמורת תשלום דמי ביטוח, החברה תשפה את המבוטח או תשלם ישירות לספק השירות. ביטוח לניתוחים וטיפולים מחליפי ניתוח בישראל ניתוחים משלים שב\"ן ללא השתתפות עצמית, 514 ת מס תכני. This table outlines coverage for surgeries and non-surgical alternatives in Israel under a supplemental health insurance plan. It details eligibility based on membership in various Kupot Holim (health funds).",
+  "payload": "טבלה: ביטוח לניתוחים\nThis table outlines coverage for surgeries and non-surgical alternatives in Israel under a supplemental health insurance plan. It details eligibility based on membership in various Kupot Holim (health funds).\nממדים: Kupot Holim membership level (e.g., כללית מושלם/פלטינום), Coverage details for surgeries and non-surgical alternatives\n\nביטוח לניתוחים וטיפולים מחליפי ניתוח בישראל ניתוחים משלים שב\"ן ללא השתתפות עצמית\n(\" )לבעלי שב\"ן -   \"כללית מושלם/פלטינום\", \"מכבי   מגן זהב\", \"מאוחדת עדיף/שיא\", \"לאומית זה   ב\n514 ' ת מס תכני\n: תמורת תשלום דמי ביטוח, כמפורט בדף פרטי הביטוח, ובכפיפות לתנאים הכלליים לפוליסה אליה מצורפת תכנית ז  ו )להלן ה  את \"  (    ולהוראות  לסייגים  ולחריגים  המפורטים  להלן  ובהתאם  להצהרות  המבוטח,  החברה  תשפ התנאים  הכלליים \" ל   בהתאם  להוראות   התנאים  הכלל  יים     ולתנא  י   תכנית   ביטוח   זו  )להלן ת,   הכ המבוטח ו/או תשלם ישירות לספק/י השירו .  (  \" התכני   ת \""
 }

@@ -2,24 +2,24 @@
   "id": "pdf:business/files/פוליסה-לביטוח-חבות-המוצר-הראל-ביט-מהדורת-ינואר-2023.pdf#56",
   "source": "llm",
   "description": {
-    "title": "הראל חבות מוצר - גילוי עניין",
-    "summary": "This table details conditions for policy cancellation related to non-disclosure or misrepresentation of material facts by the insured. It outlines scenarios where the insurer can void the policy or reduce coverage.",
-    "embed_passage": "פוליסת הראל חבות מוצר מגדירה 'עניין מהותי' כמידע שיכול להשפיע על נכונות החוזה. לדוגמה, המבוטח חייב לדווח על כל שינוי בעניין מהותי באופן מידי. אם המבוטח מסתיר מידע מהותי בכוונה, הדבר עלול להוביל לביטול הפוליסה, בהתאם לסעיף 5.6.2.",
-    "row_axis": "conditions for policy cancellation/reduction of coverage",
-    "column_axis": "specific scenarios related to non-disclosure or misrepresentation",
+    "title": "הפרת חובת הגילוי",
+    "summary": "This table details conditions under which an insurer can cancel coverage due to a breach of disclosure or a material change in risk. It outlines scenarios related to intentional concealment or incomplete answers to questions.",
+    "embed_passage": "טבלה זו מתארת תנאים שבהם המבטח רשאי לבטל ביטוח עקב הפרת חובת גילוי או שינוי מהותי בסיכון. היא מפרטת תרחישים הקשורים להסתרה מכוונת או תשובות לא שלמות לשאלות. הפוליסה רלוונטית לביטוח חבות המוצר הראל ביט. סעיפים אלו עוסקים בהסתרה בכוונת מרמה, שאלות גורפות, וגילוי שינויים מהותיים. העניין המהותי, תשובה שאינה מלאה וכנה, והחמרה בסיכון הם מושגים מרכזיים. סעיף 5.6.8 מתייחס למקרים בהם המבטח אינו זכאי לתרופות.",
+    "row_axis": "סעיף",
+    "column_axis": "תיאור מצב",
     "units": [],
     "notable_values": [
-      "סעיף: 5.6.2",
-      "סעיף: 5.6.3",
-      "סעיף: 5.6.4",
-      "סעיף: 5.6.8.1",
-      "סעיף: 5.6.8.2"
+      "5.6.2: הסתרה בכוונת מרמה",
+      "5.6.3: שאלה גורפת",
+      "5.6.4: גילוי שינוי מהותי",
+      "5.6.8.1: המבטח ידע את המצב",
+      "5.6.8.2: העובדה חדלה להתקיים"
     ],
     "product_hints": [
-      "הראל חבות מוצר"
+      "ביטוח חבות המוצר הראל ביט"
     ]
   },
   "sketch": "הסתרה בכוונת מרמה מצד המבוטח של עניין שהוא ידע כי הוא עניין .5.6.2 מהותי, דינה כדין מתן תשובה שאינה מלאה וכנה;\nשאלה גורפת שנשאלה על ידי המבטח, הכורכת עניינים שונים, ללא אבחנה .5.6.3 אלא אם הייתה סבירה בעת כריתת ביניהם, אינה מחייבת תשובה כאמור החוזה;\nבנוסף, במשך תקופת הביטוח יגלה המבוטח למבטח, בכתב, כל שינוי .5.6.4 ; בעניין מהותי, וזאת באופן מידי מעת שנודע לו על כך",
-  "embed_text": "פוליסת הראל חבות מוצר מגדירה 'עניין מהותי' כמידע שיכול להשפיע על נכונות החוזה. לדוגמה, המבוטח חייב לדווח על כל שינוי בעניין מהותי באופן מידי. אם המבוטח מסתיר מידע מהותי בכוונה, הדבר עלול להוביל לביטול הפוליסה, בהתאם לסעיף 5.6.2.",
-  "payload": "טבלה: הראל חבות מוצר - גילוי עניין\nThis table details conditions for policy cancellation related to non-disclosure or misrepresentation of material facts by the insured. It outlines scenarios where the insurer can void the policy or reduce coverage.\nממדים: conditions for policy cancellation/reduction of coverage, specific scenarios related to non-disclosure or misrepresentation\n\nהסתרה בכוונת מרמה מצד המבוטח של עניין שהוא ידע כי הוא עניין .5.6.2 מהותי, דינה כדין מתן תשובה שאינה מלאה וכנה;\nשאלה גורפת שנשאלה על ידי המבטח, הכורכת עניינים שונים, ללא אבחנה .5.6.3 אלא אם הייתה סבירה בעת כריתת ביניהם, אינה מחייבת תשובה כאמור החוזה;\nבנוסף, במשך תקופת הביטוח יגלה המבוטח למבטח, בכתב, כל שינוי .5.6.4 ; בעניין מהותי, וזאת באופן מידי מעת שנודע לו על כך"
+  "embed_text": "טבלה זו מתארת תנאים שבהם המבטח רשאי לבטל ביטוח עקב הפרת חובת גילוי או שינוי מהותי בסיכון. היא מפרטת תרחישים הקשורים להסתרה מכוונת או תשובות לא שלמות לשאלות. הפוליסה רלוונטית לביטוח חבות המוצר הראל ביט. סעיפים אלו עוסקים בהסתרה בכוונת מרמה, שאלות גורפות, וגילוי שינויים מהותיים. העניין המהותי, תשובה שאינה מלאה וכנה, והחמרה בסיכון הם מושגים מרכזיים. סעיף 5.6.8 מתייחס למקרים בהם המבטח אינו זכאי לתרופות. This table details conditions under which an insurer can cancel coverage due to a breach of disclosure or a material change in risk. It outlines scenarios related to intentional concealment or incomplete answers to questions. בין הערכים בטבלה: 5.6.3: שאלה גורפת; 5.6.4: גילוי שינוי מהותי; 5.6.8.1: המבטח ידע את המצב; 5.6.8.2: העובדה חדלה להתקיים.",
+  "payload": "טבלה: הפרת חובת הגילוי\nThis table details conditions under which an insurer can cancel coverage due to a breach of disclosure or a material change in risk. It outlines scenarios related to intentional concealment or incomplete answers to questions.\nממדים: סעיף, תיאור מצב\n\nהסתרה בכוונת מרמה מצד המבוטח של עניין שהוא ידע כי הוא עניין .5.6.2 מהותי, דינה כדין מתן תשובה שאינה מלאה וכנה;\nשאלה גורפת שנשאלה על ידי המבטח, הכורכת עניינים שונים, ללא אבחנה .5.6.3 אלא אם הייתה סבירה בעת כריתת ביניהם, אינה מחייבת תשובה כאמור החוזה;\nבנוסף, במשך תקופת הביטוח יגלה המבוטח למבטח, בכתב, כל שינוי .5.6.4 ; בעניין מהותי, וזאת באופן מידי מעת שנודע לו על כך"
 }

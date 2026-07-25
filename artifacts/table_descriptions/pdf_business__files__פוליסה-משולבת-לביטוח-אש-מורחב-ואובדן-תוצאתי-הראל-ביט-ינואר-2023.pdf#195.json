@@ -2,27 +2,26 @@
   "id": "pdf:business/files/פוליסה-משולבת-לביטוח-אש-מורחב-ואובדן-תוצאתי-הראל-ביט-ינואר-2023.pdf#195",
   "source": "llm",
   "description": {
-    "title": "תשלומי ביטוח הראל",
-    "summary": "This table details the payment terms for 'הראל' insurance policies, specifically regarding payment methods and timelines. It outlines how and when premiums and other amounts are due.",
-    "embed_passage": "פוליסת 'הראל' דורשת תשלום דמי ביטוח בש״ח תוך 28 ימים מתחילת תקופת הביטוח. במקרים של תשלום לשיעורין, דמי אשראי מחושבים על בסיס ריבית שנתית ומשולמים בתשלומים חודשיים רצופים, כאשר מספרם אינו עולה על 21. תשלום אחרון צריך להתבצע לפני תום תקופת הביטוח.",
-    "row_axis": "payment method/condition",
-    "column_axis": "payment details (timing, interest)",
+    "title": "תשלום דמי ביטוח",
+    "summary": "This table details the payment terms for insurance premiums. It specifies payment methods (cash or installments) and timelines for payment, including interest calculations for installment plans.",
+    "embed_passage": "טבלה זו מתארת את תנאי התשלום עבור דמי ביטוח בפוליסת הראל ביט. ניתן לבדוק את תנאי התשלום במזומן או בתשלומים, כולל חישוב ריבית שנתית לתשלומים חודשיים. הפוליסה הרלוונטית היא פוליסה משולבת לביטוח אש מורחב ואובדן תוצאתי הראל ביט. תשלום במזומן צריך להתבצע תוך 28 ימים מתחילת תקופת הביטוח, ותשלום לשיעורין כולל דמי אשראי המחושבים על בסיס ריבית שנתית. מספר התשלומים החודשיים לא יעלה על מספר חודשי הביטוח.",
+    "row_axis": "payment method",
+    "column_axis": "payment terms",
     "units": [
-      "ימים",
-      "חודשים",
       "₪",
-      "%"
+      "%/year"
     ],
     "notable_values": [
-      "payment timeframe: 28 ימים",
-      "maximum number of monthly installments: 21",
-      "payment currency: ש״ח"
+      "payment timeframe (cash): 28 days",
+      "installment payments: include credit fees",
+      "interest calculation: annual rate",
+      "maximum installment count: number of insurance months"
     ],
     "product_hints": [
-      "הראל"
+      "פוליסה משולבת לביטוח אש מורחב ואובדן תוצאתי הראל ביט"
     ]
   },
   "sketch": "תשלום דמי הביטוח וסכומים אחרים .13.2\n.  תשלום במזומן - אם לא סוכם אחרת בין המבטח למבוטח, דמי הביטוח 13.2.1 וסכומים אחרים המגיעים מהמבוטח למבטח בקשר לפוליסה זו, ישולמו ימים מתאריך תחילתה של תקופת הביטוח. 28 במלואם בש״ח, תוך\nתשלום לשיעורין - אם סוכם בין המבטח למבוטח על תשלום לשיעורין, ישולמו דמי הביטוח בתוספת דמי אשראי, בהתאם למפורט ברשימה. דמי האשראי יחושבו על בסיס ריבית שנתית כנקוב ברשימה וישולמו במהלך תקופת הביטוח בתשלומים חודשיים, שווים ורצופים שמספרם אינו עולה על ימים",
-  "embed_text": "פוליסת 'הראל' דורשת תשלום דמי ביטוח בש״ח תוך 28 ימים מתחילת תקופת הביטוח. במקרים של תשלום לשיעורין, דמי אשראי מחושבים על בסיס ריבית שנתית ומשולמים בתשלומים חודשיים רצופים, כאשר מספרם אינו עולה על 21. תשלום אחרון צריך להתבצע לפני תום תקופת הביטוח.",
-  "payload": "טבלה: תשלומי ביטוח הראל\nThis table details the payment terms for 'הראל' insurance policies, specifically regarding payment methods and timelines. It outlines how and when premiums and other amounts are due.\nממדים: payment method/condition, payment details (timing, interest)\n\nתשלום דמי הביטוח וסכומים אחרים .13.2\n.  תשלום במזומן - אם לא סוכם אחרת בין המבטח למבוטח, דמי הביטוח 13.2.1 וסכומים אחרים המגיעים מהמבוטח למבטח בקשר לפוליסה זו, ישולמו ימים מתאריך תחילתה של תקופת הביטוח. 28 במלואם בש״ח, תוך\nתשלום לשיעורין - אם סוכם בין המבטח למבוטח על תשלום לשיעורין, ישולמו דמי הביטוח בתוספת דמי אשראי, בהתאם למפורט ברשימה. דמי האשראי יחושבו על בסיס ריבית שנתית כנקוב ברשימה וישולמו במהלך תקופת הביטוח בתשלומים חודשיים, שווים ורצופים שמספרם אינו עולה על ימים"
+  "embed_text": "טבלה זו מתארת את תנאי התשלום עבור דמי ביטוח בפוליסת הראל ביט. ניתן לבדוק את תנאי התשלום במזומן או בתשלומים, כולל חישוב ריבית שנתית לתשלומים חודשיים. הפוליסה הרלוונטית היא פוליסה משולבת לביטוח אש מורחב ואובדן תוצאתי הראל ביט. תשלום במזומן צריך להתבצע תוך 28 ימים מתחילת תקופת הביטוח, ותשלום לשיעורין כולל דמי אשראי המחושבים על בסיס ריבית שנתית. מספר התשלומים החודשיים לא יעלה על מספר חודשי הביטוח. This table details the payment terms for insurance premiums. It specifies payment methods (cash or installments) and timelines for payment, including interest calculations for installment plans. בין הערכים בטבלה: payment timeframe (cash): 28 days; installment payments: include credit fees; interest calculation: annual rate; maximum installment count: number of insurance months.",
+  "payload": "טבלה: תשלום דמי ביטוח\nThis table details the payment terms for insurance premiums. It specifies payment methods (cash or installments) and timelines for payment, including interest calculations for installment plans.\nממדים: payment method, payment terms\n\nתשלום דמי הביטוח וסכומים אחרים .13.2\n.  תשלום במזומן - אם לא סוכם אחרת בין המבטח למבוטח, דמי הביטוח 13.2.1 וסכומים אחרים המגיעים מהמבוטח למבטח בקשר לפוליסה זו, ישולמו ימים מתאריך תחילתה של תקופת הביטוח. 28 במלואם בש״ח, תוך\nתשלום לשיעורין - אם סוכם בין המבטח למבוטח על תשלום לשיעורין, ישולמו דמי הביטוח בתוספת דמי אשראי, בהתאם למפורט ברשימה. דמי האשראי יחושבו על בסיס ריבית שנתית כנקוב ברשימה וישולמו במהלך תקופת הביטוח בתשלומים חודשיים, שווים ורצופים שמספרם אינו עולה על ימים"
 }

@@ -3,17 +3,18 @@
   "source": "llm",
   "description": {
     "title": "טופס תביעת ניתוח",
-    "summary": "This table describes the requirements for submitting a health insurance claim for surgery or hospitalization. It details the necessary forms and documentation needed for processing a claim, depending on whether the surgery was performed in a private or public hospital.",
-    "embed_passage": "טופס תביעת בריאות בגין פיצוי בגין ניתוח יש למלא ולהעביר אלינו. ניתוחים שבוצעו בבי״ח פרטי באמצעות הביטוח המשלים (כללית מושלם/פלטינום, מכבי זהב, לאומית זהב, מאוחדת עדיף ומאוחדת שיא) דורשים מילוי חלקים א׳ ו-ב׳ בלבד. יש לצרף סיכום שחרור וגיליון ניתוח.",
-    "row_axis": "Claim requirements / documentation",
-    "column_axis": "Type of surgery location (private vs. public hospital, insurance plan)",
+    "summary": "This table describes the requirements for submitting a health claim for surgical compensation. It outlines the information needed from the insured and the medical professional.",
+    "embed_passage": "טופס זה מיועד להגשת תביעת בריאות בגין פיצוי על ניתוח שבוצע בבית חולים פרטי או ציבורי, באמצעות ביטוח משלים. יש למלא את הטופס בקפידה, כולל פרטי המבוטח ופרטים רפואיים מהרופא המקצועי. הטופס מיועד לשימוש עם ביטוחים משלימים כגון כללית מושלם/פלטינום, מכבי זהב, לאומית זהב, מאוחדת עדיף ומאוחדת שיא. יש לצרף מסמכים תומכים כגון סיכום שחרור וקבלה על השתתפות עצמית. טופס תביעת ניתוח מיועד לשיפור וייעול הטיפול בפנייתך. במידה והניתוח הוא לילדים בגילאי 12-0 יש לצרף מכתב תולדות מחלה.",
+    "row_axis": "Claim requirements / information needed",
+    "column_axis": "Claim details (insured, medical professional, supporting documents)",
     "units": [],
     "notable_values": [
-      "Insurance plans: כללית מושלם/פלטינום",
-      "Insurance plans: מכבי זהב",
-      "Insurance plans: לאומית זהב",
-      "Insurance plans: מאוחדת עדיף",
-      "Insurance plans: מאוחדת שיא"
+      "ביטוח משלים: כללית מושלם/פלטינום",
+      "ביטוח משלים: מכבי זהב",
+      "ביטוח משלים: לאומית זהב",
+      "ביטוח משלים: מאוחדת עדיף",
+      "ביטוח משלים: מאוחדת שיא",
+      "גילאים: 12-0"
     ],
     "product_hints": [
       "כללית מושלם",
@@ -25,6 +26,6 @@
     ]
   },
   "sketch": "ניתוחים שבוצעו בבי\"ח פרטי באמצעות הביטוח המשלים )כללית מושלם/פלטינום, מכבי זהב, לאומית זהב, מאוחדת עדיף ומאוחדת שיא( וניתוחים שבוצעו בבי\"ח ציבורי באמצעות קופ\"ח/ביטוח משלים\nלאחר שמולאו בו חלקים א' ו-ב' בלבד כדלהלן: טופס תביעת בריאות בגין פיצוי בגין ניתוח יש למלא ולהעביר אלינו את\n; א. חלק א', הכולל את פרטי המבוטח, עליך למלאו בעצמך - אנא מלא בו את כל הפרטים המבוקשים בקפידה, לשם שיפור וייעול הטיפול בפנייתך",
-  "embed_text": "טופס תביעת בריאות בגין פיצוי בגין ניתוח יש למלא ולהעביר אלינו. ניתוחים שבוצעו בבי״ח פרטי באמצעות הביטוח המשלים (כללית מושלם/פלטינום, מכבי זהב, לאומית זהב, מאוחדת עדיף ומאוחדת שיא) דורשים מילוי חלקים א׳ ו-ב׳ בלבד. יש לצרף סיכום שחרור וגיליון ניתוח.",
-  "payload": "טבלה: טופס תביעת ניתוח\nThis table describes the requirements for submitting a health insurance claim for surgery or hospitalization. It details the necessary forms and documentation needed for processing a claim, depending on whether the surgery was performed in a private or public hospital.\nממדים: Claim requirements / documentation, Type of surgery location (private vs. public hospital, insurance plan)\n\nניתוחים שבוצעו בבי\"ח פרטי באמצעות הביטוח המשלים )כללית מושלם/פלטינום, מכבי זהב, לאומית זהב, מאוחדת עדיף ומאוחדת שיא( וניתוחים שבוצעו בבי\"ח ציבורי באמצעות קופ\"ח/ביטוח משלים\nלאחר שמולאו בו חלקים א' ו-ב' בלבד כדלהלן: טופס תביעת בריאות בגין פיצוי בגין ניתוח יש למלא ולהעביר אלינו את\n; א. חלק א', הכולל את פרטי המבוטח, עליך למלאו בעצמך - אנא מלא בו את כל הפרטים המבוקשים בקפידה, לשם שיפור וייעול הטיפול בפנייתך"
+  "embed_text": "טופס זה מיועד להגשת תביעת בריאות בגין פיצוי על ניתוח שבוצע בבית חולים פרטי או ציבורי, באמצעות ביטוח משלים. יש למלא את הטופס בקפידה, כולל פרטי המבוטח ופרטים רפואיים מהרופא המקצועי. הטופס מיועד לשימוש עם ביטוחים משלימים כגון כללית מושלם/פלטינום, מכבי זהב, לאומית זהב, מאוחדת עדיף ומאוחדת שיא. יש לצרף מסמכים תומכים כגון סיכום שחרור וקבלה על השתתפות עצמית. טופס תביעת ניתוח מיועד לשיפור וייעול הטיפול בפנייתך. במידה והניתוח הוא לילדים בגילאי 12-0 יש לצרף מכתב תולדות מחלה. This table describes the requirements for submitting a health claim for surgical compensation. It outlines the information needed from the insured and the medical professional.",
+  "payload": "טבלה: טופס תביעת ניתוח\nThis table describes the requirements for submitting a health claim for surgical compensation. It outlines the information needed from the insured and the medical professional.\nממדים: Claim requirements / information needed, Claim details (insured, medical professional, supporting documents)\n\nניתוחים שבוצעו בבי\"ח פרטי באמצעות הביטוח המשלים )כללית מושלם/פלטינום, מכבי זהב, לאומית זהב, מאוחדת עדיף ומאוחדת שיא( וניתוחים שבוצעו בבי\"ח ציבורי באמצעות קופ\"ח/ביטוח משלים\nלאחר שמולאו בו חלקים א' ו-ב' בלבד כדלהלן: טופס תביעת בריאות בגין פיצוי בגין ניתוח יש למלא ולהעביר אלינו את\n; א. חלק א', הכולל את פרטי המבוטח, עליך למלאו בעצמך - אנא מלא בו את כל הפרטים המבוקשים בקפידה, לשם שיפור וייעול הטיפול בפנייתך"
 }

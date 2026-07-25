@@ -2,26 +2,29 @@
   "id": "pdf:travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-דרכון-פרימיום.pdf#256",
   "source": "llm",
   "description": {
-    "title": "שברים בתאונה",
-    "summary": "This table details insurance payouts for fractures sustained abroad under the 'דרכון פרימיום' travel insurance plan. It shows the percentage of the maximum insurance amount ($1,000) paid out based on the location of the fracture.",
-    "embed_passage": "פוליסת 'דרכון פרימיום' לביטוח נסיעות מציעה כיסוי לשברים כתוצאה מתאונה בחו״ל. גובה הפיצוי משתנה בהתאם לאיבר שנשבר, כאשר סכום הביטוח המקסימלי הוא $1,000. לדוגמה, שבר ביד מזכה ב־35% מסכום זה, כלומר $350.",
-    "row_axis": "location of fracture (body part)",
-    "column_axis": "insurance payout percentage",
+    "title": "שברים מתאונה",
+    "summary": "This table details insurance payouts for fractures sustained abroad under the 'Passport Premium' travel insurance policy. It specifies the percentage of the maximum insurance amount ($1,000) paid out based on the location of the fracture.",
+    "embed_passage": "טבלה זו מתארת את תגמולי הביטוח עבור שברים שנגרמו כתוצאה מתאונה בחו\"ל, במסגרת פוליסת ביטוח הנסיעות 'דרכון פרימיום'. התגמולים מחושבים כאחוז מסכום הביטוח המירבי של $1,000, בהתאם לאיבר בו אירע השבר. לדוגמה, שבר ביד מזכה בתגמול של $350, המחושב כ-35% מסכום הביטוח המירבי. הטבלה מציינת גם סוגי שברים שאינם מכוסים, כגון שברים פתולוגיים, שברי לחץ ושברי אי ספיקה. אגן, גולגולת, חזה בית, יד ורגל הם חלק מהאיברים המפורטים בטבלה. סכום הביטוח המירבי לשבר הוא $1,000.",
+    "row_axis": "סוג שבר / איבר בו אירע השבר",
+    "column_axis": "אחוז תגמול מסכום הביטוח המירבי ($1,000)",
     "units": [
-      "$"
+      "%"
     ],
     "notable_values": [
-      "maximum insurance amount: $1,000",
-      "hand fracture payout: 35%",
-      "foot fracture payout: 3%",
-      "skull fracture payout: 35%",
-      "wrist fracture payout: 10%"
+      "אגן: 100%",
+      "חוליה: 100%",
+      "גולגולת: 35%",
+      "חזה בית: 35%",
+      "כתף: 35%",
+      "יד: 35%",
+      "רגל: 35%",
+      "כף יד שורש: 10%"
     ],
     "product_hints": [
       "דרכון פרימיום"
     ]
   },
   "sketch": "$  1,000 ארע שבר מתאונה ביד, וסכום הביטוח המירבי לשבר הנו דוגמא: $  350=1,000*35% : יחושבו תגמולי הביטוח כך\nלמען הסר ספק מובהר, כי לא תהא זכאות לקבלת תגמולי ביטוח בגין שברים שמקורם אינו בתאונה ובכלל זה השברים הבאים:\nשברים פתולוגיים - עקב תהליך מחלתי הממוקם מתחת לעצם כמו גידול, ציסטה, זיהום וכדומה.\nשברי לחץ ו/או שברי הליכה - עקב תהליכים חוזרים ונישנים של דחיסה ו/או מתח.\nשברי אי ספיקה - דילדול העצם וירידה בחוסן המכני שלה עקב מחלות כמו בריחת סידן, רככת, ליקוי בתהליך היצירה והבניה של העצם.\nשבר הנגרם מעצמו",
-  "embed_text": "פוליסת 'דרכון פרימיום' לביטוח נסיעות מציעה כיסוי לשברים כתוצאה מתאונה בחו״ל. גובה הפיצוי משתנה בהתאם לאיבר שנשבר, כאשר סכום הביטוח המקסימלי הוא $1,000. לדוגמה, שבר ביד מזכה ב־35% מסכום זה, כלומר $350.",
-  "payload": "טבלה: שברים בתאונה\nThis table details insurance payouts for fractures sustained abroad under the 'דרכון פרימיום' travel insurance plan. It shows the percentage of the maximum insurance amount ($1,000) paid out based on the location of the fracture.\nממדים: location of fracture (body part), insurance payout percentage\n\n$  1,000 ארע שבר מתאונה ביד, וסכום הביטוח המירבי לשבר הנו דוגמא: $  350=1,000*35% : יחושבו תגמולי הביטוח כך\nלמען הסר ספק מובהר, כי לא תהא זכאות לקבלת תגמולי ביטוח בגין שברים שמקורם אינו בתאונה ובכלל זה השברים הבאים:\nשברים פתולוגיים - עקב תהליך מחלתי הממוקם מתחת לעצם כמו גידול, ציסטה, זיהום וכדומה.\nשברי לחץ ו/או שברי הליכה - עקב תהליכים חוזרים ונישנים של דחיסה ו/או מתח.\nשברי אי ספיקה - דילדול העצם וירידה בחוסן המכני שלה עקב מחלות כמו בריחת סידן, רככת, ליקוי בתהליך היצירה והבניה של העצם.\nשבר הנגרם מעצמו"
+  "embed_text": "טבלה זו מתארת את תגמולי הביטוח עבור שברים שנגרמו כתוצאה מתאונה בחו\"ל, במסגרת פוליסת ביטוח הנסיעות 'דרכון פרימיום'. התגמולים מחושבים כאחוז מסכום הביטוח המירבי של $1,000, בהתאם לאיבר בו אירע השבר. לדוגמה, שבר ביד מזכה בתגמול של $350, המחושב כ-35% מסכום הביטוח המירבי. הטבלה מציינת גם סוגי שברים שאינם מכוסים, כגון שברים פתולוגיים, שברי לחץ ושברי אי ספיקה. אגן, גולגולת, חזה בית, יד ורגל הם חלק מהאיברים המפורטים בטבלה. סכום הביטוח המירבי לשבר הוא $1,000. This table details insurance payouts for fractures sustained abroad under the 'Passport Premium' travel insurance policy. It specifies the percentage of the maximum insurance amount ($1,000) paid out based on the location of the fracture. בין הערכים בטבלה: חוליה: 100%; כף יד שורש: 10%.",
+  "payload": "טבלה: שברים מתאונה\nThis table details insurance payouts for fractures sustained abroad under the 'Passport Premium' travel insurance policy. It specifies the percentage of the maximum insurance amount ($1,000) paid out based on the location of the fracture.\nממדים: סוג שבר / איבר בו אירע השבר, אחוז תגמול מסכום הביטוח המירבי ($1,000)\n\n$  1,000 ארע שבר מתאונה ביד, וסכום הביטוח המירבי לשבר הנו דוגמא: $  350=1,000*35% : יחושבו תגמולי הביטוח כך\nלמען הסר ספק מובהר, כי לא תהא זכאות לקבלת תגמולי ביטוח בגין שברים שמקורם אינו בתאונה ובכלל זה השברים הבאים:\nשברים פתולוגיים - עקב תהליך מחלתי הממוקם מתחת לעצם כמו גידול, ציסטה, זיהום וכדומה.\nשברי לחץ ו/או שברי הליכה - עקב תהליכים חוזרים ונישנים של דחיסה ו/או מתח.\nשברי אי ספיקה - דילדול העצם וירידה בחוסן המכני שלה עקב מחלות כמו בריחת סידן, רככת, ליקוי בתהליך היצירה והבניה של העצם.\nשבר הנגרם מעצמו"
 }

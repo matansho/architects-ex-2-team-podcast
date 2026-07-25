@@ -2,22 +2,22 @@
   "id": "pdf:business/files/תנאי-פוליסה-ביטוח-מכלול-למשרד-מהדורת-ינואר-2024.pdf#266",
   "source": "llm",
   "description": {
-    "title": "תביעות ביטוח מכלול",
-    "summary": "This table outlines the requirements for filing insurance claims under the 'מכלול' policy. It details the obligations of the insured regarding notification of incidents, providing information, and cooperating with the insurer.",
-    "embed_passage": "פוליסת 'מכלול' דורשת מהמבוטח להודיע על מקרה ביטוח מיד לאחר שנודע לו. יש למסור למבטח מידע ומסמכים נדרשים בזמן סביר לבירור החבות, וכן לשתף פעולה. אי קיום חובות אלו עלול להשפיע על גובה הפיצוי.",
-    "row_axis": "Conditions related to claim filing and cooperation",
-    "column_axis": "Claim requirements and potential consequences",
+    "title": "הודעה על מקרה ביטוח",
+    "summary": "This table outlines conditions related to reporting insurance claims. It details requirements for submitting claims and cooperating with the insurer for liability assessment.",
+    "embed_passage": "טבלה זו מתארת את התנאים הקשורים לדיווח על תביעות ביטוח, כחלק מפוליסת מכלול. המבוטח נדרש להודיע מיד על קרות מקרה ביטוח ולשתף פעולה בבירור החבות של המבטח. טופס תביעה יסופק על ידי המבטח לפי בקשה. תנאי 9.8.1, 9.8.3 ו-9.8.4 מתארים את חובות המבוטח והמוטב. במקרה של אי קיום חובה, המבטח עשוי להקטין את חבותו, אלא אם כן האי קיום היה מוצדק או לא מנע את בירור החבות.",
+    "row_axis": "תנאי",
+    "column_axis": "חובות המבוטח/מוטב",
     "units": [],
     "notable_values": [
-      "9.8.1: Immediate notification of insurance incidents",
-      "9.8.3: Providing information within a reasonable time",
-      "9.8.4: Consequences of non-compliance with notification requirements"
+      "9.8.1: הודעה על קרות מקרה ביטוח",
+      "9.8.3: מסירת מידע ומסמכים",
+      "9.8.4: אי קיום חובה"
     ],
     "product_hints": [
       "מכלול"
     ]
   },
   "sketch": ".9.8.2 כל תביעה של המבוטח לשיפוי, כמו גם לתשלום תגמולי ביטוח על פי הפוליסה, תוגש באמצעות טופס תביעה שימציא המבטח למבוטח על פי בקשתו.\n.9.8.3 על המבוטח או על המוטב, לפי העניין, למסור למבטח בתוך זמן סביר מעת שנדרש לכך, את המידע והמסמכים הדרושים לבירור החבות והיקפה, ואם אינם ברשותו, עליו לעזור למבטח, ככל שיוכל, להשיגם.\n.9.8.4 (הודעה על 9.8.1 לא קוימה חובה לפי תנאי מהתנאים האמורים לפי תנאי ) (שיתוף פעולה לעניין בירור חבות המבטח 9.8.3 ,) קרות מקרה הביטוח",
-  "embed_text": "פוליסת 'מכלול' דורשת מהמבוטח להודיע על מקרה ביטוח מיד לאחר שנודע לו. יש למסור למבטח מידע ומסמכים נדרשים בזמן סביר לבירור החבות, וכן לשתף פעולה. אי קיום חובות אלו עלול להשפיע על גובה הפיצוי.",
-  "payload": "טבלה: תביעות ביטוח מכלול\nThis table outlines the requirements for filing insurance claims under the 'מכלול' policy. It details the obligations of the insured regarding notification of incidents, providing information, and cooperating with the insurer.\nממדים: Conditions related to claim filing and cooperation, Claim requirements and potential consequences\n\n.9.8.2 כל תביעה של המבוטח לשיפוי, כמו גם לתשלום תגמולי ביטוח על פי הפוליסה, תוגש באמצעות טופס תביעה שימציא המבטח למבוטח על פי בקשתו.\n.9.8.3 על המבוטח או על המוטב, לפי העניין, למסור למבטח בתוך זמן סביר מעת שנדרש לכך, את המידע והמסמכים הדרושים לבירור החבות והיקפה, ואם אינם ברשותו, עליו לעזור למבטח, ככל שיוכל, להשיגם.\n.9.8.4 (הודעה על 9.8.1 לא קוימה חובה לפי תנאי מהתנאים האמורים לפי תנאי ) (שיתוף פעולה לעניין בירור חבות המבטח 9.8.3 ,) קרות מקרה הביטוח"
+  "embed_text": "טבלה זו מתארת את התנאים הקשורים לדיווח על תביעות ביטוח, כחלק מפוליסת מכלול. המבוטח נדרש להודיע מיד על קרות מקרה ביטוח ולשתף פעולה בבירור החבות של המבטח. טופס תביעה יסופק על ידי המבטח לפי בקשה. תנאי 9.8.1, 9.8.3 ו-9.8.4 מתארים את חובות המבוטח והמוטב. במקרה של אי קיום חובה, המבטח עשוי להקטין את חבותו, אלא אם כן האי קיום היה מוצדק או לא מנע את בירור החבות. This table outlines conditions related to reporting insurance claims. It details requirements for submitting claims and cooperating with the insurer for liability assessment.",
+  "payload": "טבלה: הודעה על מקרה ביטוח\nThis table outlines conditions related to reporting insurance claims. It details requirements for submitting claims and cooperating with the insurer for liability assessment.\nממדים: תנאי, חובות המבוטח/מוטב\n\n.9.8.2 כל תביעה של המבוטח לשיפוי, כמו גם לתשלום תגמולי ביטוח על פי הפוליסה, תוגש באמצעות טופס תביעה שימציא המבטח למבוטח על פי בקשתו.\n.9.8.3 על המבוטח או על המוטב, לפי העניין, למסור למבטח בתוך זמן סביר מעת שנדרש לכך, את המידע והמסמכים הדרושים לבירור החבות והיקפה, ואם אינם ברשותו, עליו לעזור למבטח, ככל שיוכל, להשיגם.\n.9.8.4 (הודעה על 9.8.1 לא קוימה חובה לפי תנאי מהתנאים האמורים לפי תנאי ) (שיתוף פעולה לעניין בירור חבות המבטח 9.8.3 ,) קרות מקרה הביטוח"
 }

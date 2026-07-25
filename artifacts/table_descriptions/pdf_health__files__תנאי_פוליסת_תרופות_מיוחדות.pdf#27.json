@@ -2,27 +2,26 @@
   "id": "pdf:health/files/תנאי_פוליסת_תרופות_מיוחדות.pdf#27",
   "source": "llm",
   "description": {
-    "title": "תרופות מיוחדות",
-    "summary": "This table details the terms of a specialized medication insurance policy. It outlines how policy amounts are indexed to the Consumer Price Index (CPI).",
-    "embed_passage": "פוליסת תרופות מיוחדות של הראל מצמידה את הסכומים המפורטים למדד המחירים לצרכן שמפרסמת הלשכה המרכזית לסטטיסטיקה. מדד הבסיס הוא המדד שפורסם בפברואר 2023, שערכו 13396 נקודות, וההצמדה מתבצעת מידי חודש. לדוגמה, ניתן למצוא פרטי התקשרות כגון טלפון 037348178.",
-    "row_axis": "Policy details / Indexing parameters",
-    "column_axis": "Indexing information, contact details",
-    "units": [
-      "נקודות"
-    ],
+    "title": "תנאי פוליסת תרופות מיוחדות",
+    "summary": "This table details the indexation of policy amounts to the Consumer Price Index (CPI) published by the Central Bureau of Statistics. It specifies the base index and the monthly adjustment method.",
+    "embed_passage": "טבלה זו מתארת את הצמדת סכומי הפוליסה למדד המחירים לצרכן שמפרסמת הלשכה המרכזית לסטטיסטיקה, כחלק מתנאי פוליסת תרופות מיוחדות של הראל. ניתן למצוא מידע נוסף באתר האינטרנט www.harel-group.co.il או באמצעות טלפון 2735*.  הצמדה זו נעשית באופן חודשי, ביחס למדד הבסיס שפורסם בפברואר 2023 (13396 נקודות).  הראל מציעה פוליסות ביטוח עם אפשרויות כיסוי שונות, וחשוב לבדוק את התנאים המלאים לפני רכישת הפוליסה.  ניתן לפנות לחברת הראל בדואר אלקטרוני polisotbs@harel-ins.co.il או בדואר לכתובת ת.ד. 10951, גן רמת, אבא הלל 5200901.",
+    "row_axis": "Index values (0, 1, 2, 3)",
+    "column_axis": "Policy terms related to CPI indexation",
+    "units": [],
     "notable_values": [
-      "מדד בסיס: 13396",
-      "חודש מדד בסיס: פברואר 2023",
-      "טלפון: 037348178",
-      "ת.ד: 10951",
-      "כתובת אתר: www.harel-group.co.il"
+      "CPI base index: 13396",
+      "Base month: February 2023",
+      "Phone: 037348178",
+      "Email: polisotbs@harel-ins.co.il",
+      "Website: www.harel-group.co.il",
+      "Post Office Box: 10951"
     ],
     "product_hints": [
-      "תרופות מיוחדות",
+      "פוליסת תרופות מיוחדות",
       "הראל"
     ]
   },
   "sketch": "ה הצמד .7\n, הסכומים המפורטים בתכנית זו יהיו צמודים למדד המחירים לצרכן שמפרסמת השלכה המרכזית לסטטיסטיקה 13396 , שערכ   ו 2023 לפברואר 15 ­ ויוצמד  ו למדד מידי חודש, כאשר מדד הבסיס הינו המדד שפורסם  ב . נקודות\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel- ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",האינטרנט אתר כתובת www.harel-group.co.il",
-  "embed_text": "פוליסת תרופות מיוחדות של הראל מצמידה את הסכומים המפורטים למדד המחירים לצרכן שמפרסמת הלשכה המרכזית לסטטיסטיקה. מדד הבסיס הוא המדד שפורסם בפברואר 2023, שערכו 13396 נקודות, וההצמדה מתבצעת מידי חודש. לדוגמה, ניתן למצוא פרטי התקשרות כגון טלפון 037348178.",
-  "payload": "טבלה: תרופות מיוחדות\nThis table details the terms of a specialized medication insurance policy. It outlines how policy amounts are indexed to the Consumer Price Index (CPI).\nממדים: Policy details / Indexing parameters, Indexing information, contact details\n\nה הצמד .7\n, הסכומים המפורטים בתכנית זו יהיו צמודים למדד המחירים לצרכן שמפרסמת השלכה המרכזית לסטטיסטיקה 13396 , שערכ   ו 2023 לפברואר 15 ­ ויוצמד  ו למדד מידי חודש, כאשר מדד הבסיס הינו המדד שפורסם  ב . נקודות\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel- ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",האינטרנט אתר כתובת www.harel-group.co.il"
+  "embed_text": "טבלה זו מתארת את הצמדת סכומי הפוליסה למדד המחירים לצרכן שמפרסמת הלשכה המרכזית לסטטיסטיקה, כחלק מתנאי פוליסת תרופות מיוחדות של הראל. ניתן למצוא מידע נוסף באתר האינטרנט www.harel-group.co.il או באמצעות טלפון 2735*.  הצמדה זו נעשית באופן חודשי, ביחס למדד הבסיס שפורסם בפברואר 2023 (13396 נקודות).  הראל מציעה פוליסות ביטוח עם אפשרויות כיסוי שונות, וחשוב לבדוק את התנאים המלאים לפני רכישת הפוליסה.  ניתן לפנות לחברת הראל בדואר אלקטרוני polisotbs@harel-ins.co.il או בדואר לכתובת ת.ד. 10951, גן רמת, אבא הלל 5200901. This table details the indexation of policy amounts to the Consumer Price Index (CPI) published by the Central Bureau of Statistics. It specifies the base index and the monthly adjustment method. בין הערכים בטבלה: Base month: February 2023; Phone: 037348178.",
+  "payload": "טבלה: תנאי פוליסת תרופות מיוחדות\nThis table details the indexation of policy amounts to the Consumer Price Index (CPI) published by the Central Bureau of Statistics. It specifies the base index and the monthly adjustment method.\nממדים: Index values (0, 1, 2, 3), Policy terms related to CPI indexation\n\nה הצמד .7\n, הסכומים המפורטים בתכנית זו יהיו צמודים למדד המחירים לצרכן שמפרסמת השלכה המרכזית לסטטיסטיקה 13396 , שערכ   ו 2023 לפברואר 15 ­ ויוצמד  ו למדד מידי חודש, כאשר מדד הבסיס הינו המדד שפורסם  ב . נקודות\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel- ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",האינטרנט אתר כתובת www.harel-group.co.il"
 }

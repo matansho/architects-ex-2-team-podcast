@@ -2,22 +2,25 @@
   "id": "pdf:car/files/תנאי-פוליסת-ביטוח-חובה-לרכב-מהדורת-ספטמבר-2021.pdf#57",
   "source": "llm",
   "description": {
-    "title": "פוליסת השבתה",
-    "summary": "This table details the terms for a vehicle immobilization (השבתה) insurance policy. It outlines how to request a period of non-use for a vehicle and the resulting limitations on coverage.",
-    "embed_passage": "פוליסת השבתה מאפשרת לבעלי רכב להודיע מראש על השבתת הרכב לתקופה של ימים ברציפות. המבטח יתעד את בקשת ההשבתה, ויגביל את חבותו כך שלא תחול על שימושים ברכב בתקופת ההשבתה. לדוגמה, ניתן להשבית רכב ל־30 יום.",
-    "row_axis": "conditions related to vehicle immobilization",
-    "column_axis": "details of the immobilization process and its effects",
+    "title": "השבתת רכב",
+    "summary": "This table details the conditions for vehicle downtime (השבתה) coverage under a car insurance policy. It outlines how policyholders can request downtime and how it affects their insurance coverage.",
+    "embed_passage": "טבלה זו מתארת את תנאי הכיסוי להשבתת רכב במסגרת פוליסת ביטוח חובה לרכב. בעלי פוליסה יכולים להודיע מראש למבטח על השבתת הרכב לתקופה של 30 ימים או יותר, ולקבל תעודת ביטוח חדשה המגבילה את חבות המבטח לשימושים שאינם נסיעה או חניה. בקשת השבתה, השבתה, 30 ימים, שימוש ברכב מנועי, תעודת ביטוח.",
+    "row_axis": "conditions related to vehicle downtime",
+    "column_axis": "details of downtime request and coverage",
     "units": [],
     "notable_values": [
-      "period: 30 ימים",
-      "section: 22.1",
-      "section: 22.5"
+      "תקופה: 30 ימים",
+      "סעיף: 22.1",
+      "סעיף: 22.2",
+      "סעיף: 22.3",
+      "סעיף: 22.4",
+      "סעיף: 22.5"
     ],
     "product_hints": [
-      "פוליסת השבתה"
+      "ביטוח חובה לרכב"
     ]
   },
   "sketch": ". השבתה 22\n,22.5 .  בעל פוליסה או מי שמבקש שתוצא לו פוליסה לשימוש ברכב מנועי לפי סעיף 22.1 רשאי להודיע מראש למבטח, בכתב או בכל דרך אחרת, על השבתת הרכב לתקופה ימים ברציפות )בסעיף זה - בקשת השבתה(; על המבטח לתעד 30שלא תפחת מ את בקשת ההשבתה.\n; צוינה 22.5 .  המבטח ימסור לבעל הפוליסה תעודת ביטוח חדשה כאמור בסעיף 22.2 , לא ייעשה שימוש של נסיעה ברכב 22.5 ההשבתה בתעודת הביטוח כאמור בסעיף , ותוגבל חבות המבטח 1 או החנייתו, כאמור בהגדרת \"שימוש ברכב מנועי\" שבסעיף כך שלא תחול על שימושים אלה. 6ו 3 לפי סעיפים",
-  "embed_text": "פוליסת השבתה מאפשרת לבעלי רכב להודיע מראש על השבתת הרכב לתקופה של ימים ברציפות. המבטח יתעד את בקשת ההשבתה, ויגביל את חבותו כך שלא תחול על שימושים ברכב בתקופת ההשבתה. לדוגמה, ניתן להשבית רכב ל־30 יום.",
-  "payload": "טבלה: פוליסת השבתה\nThis table details the terms for a vehicle immobilization (השבתה) insurance policy. It outlines how to request a period of non-use for a vehicle and the resulting limitations on coverage.\nממדים: conditions related to vehicle immobilization, details of the immobilization process and its effects\n\n. השבתה 22\n,22.5 .  בעל פוליסה או מי שמבקש שתוצא לו פוליסה לשימוש ברכב מנועי לפי סעיף 22.1 רשאי להודיע מראש למבטח, בכתב או בכל דרך אחרת, על השבתת הרכב לתקופה ימים ברציפות )בסעיף זה - בקשת השבתה(; על המבטח לתעד 30שלא תפחת מ את בקשת ההשבתה.\n; צוינה 22.5 .  המבטח ימסור לבעל הפוליסה תעודת ביטוח חדשה כאמור בסעיף 22.2 , לא ייעשה שימוש של נסיעה ברכב 22.5 ההשבתה בתעודת הביטוח כאמור בסעיף , ותוגבל חבות המבטח 1 או החנייתו, כאמור בהגדרת \"שימוש ברכב מנועי\" שבסעיף כך שלא תחול על שימושים אלה. 6ו 3 לפי סעיפים"
+  "embed_text": "טבלה זו מתארת את תנאי הכיסוי להשבתת רכב במסגרת פוליסת ביטוח חובה לרכב. בעלי פוליסה יכולים להודיע מראש למבטח על השבתת הרכב לתקופה של 30 ימים או יותר, ולקבל תעודת ביטוח חדשה המגבילה את חבות המבטח לשימושים שאינם נסיעה או חניה. בקשת השבתה, השבתה, 30 ימים, שימוש ברכב מנועי, תעודת ביטוח. This table details the conditions for vehicle downtime (השבתה) coverage under a car insurance policy. It outlines how policyholders can request downtime and how it affects their insurance coverage. בין הערכים בטבלה: סעיף: 22.1; סעיף: 22.2; סעיף: 22.3; סעיף: 22.4; סעיף: 22.5.",
+  "payload": "טבלה: השבתת רכב\nThis table details the conditions for vehicle downtime (השבתה) coverage under a car insurance policy. It outlines how policyholders can request downtime and how it affects their insurance coverage.\nממדים: conditions related to vehicle downtime, details of downtime request and coverage\n\n. השבתה 22\n,22.5 .  בעל פוליסה או מי שמבקש שתוצא לו פוליסה לשימוש ברכב מנועי לפי סעיף 22.1 רשאי להודיע מראש למבטח, בכתב או בכל דרך אחרת, על השבתת הרכב לתקופה ימים ברציפות )בסעיף זה - בקשת השבתה(; על המבטח לתעד 30שלא תפחת מ את בקשת ההשבתה.\n; צוינה 22.5 .  המבטח ימסור לבעל הפוליסה תעודת ביטוח חדשה כאמור בסעיף 22.2 , לא ייעשה שימוש של נסיעה ברכב 22.5 ההשבתה בתעודת הביטוח כאמור בסעיף , ותוגבל חבות המבטח 1 או החנייתו, כאמור בהגדרת \"שימוש ברכב מנועי\" שבסעיף כך שלא תחול על שימושים אלה. 6ו 3 לפי סעיפים"
 }

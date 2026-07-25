@@ -2,27 +2,24 @@
   "id": "pdf:diseases-disabilities/files/תנאי_פוליסת_ביטוח_מחלות_קשות_-_מענקית_סרטן.pdf#69",
   "source": "llm",
   "description": {
-    "title": "מענקית סרטן",
-    "summary": "This table details the terms of the 'Ma'ankit Sartan' cancer insurance policy, specifically regarding coverage start dates, benefit reductions based on age, and claim eligibility. It outlines how the insured amount may be affected by the policyholder's age at the time of diagnosis.",
-    "embed_passage": "פוליסת מענקית סרטן מספקת פיצוי במקרה של אבחון סרטן. סכום הביטוח עשוי להשתנות בהתאם לגיל המבוטח, כאשר ירידה של 5% מסכום הביטוח מתרחשת מדי שנה החל מגיל 65. לדוגמה, אם סכום הביטוח הראשוני הוא ₪10,000, הוא עשוי להיווצר בהתאם לגיל המבוטח.",
-    "row_axis": "Policy conditions/coverage aspects",
-    "column_axis": "Details of coverage, waiting periods, and age-related adjustments",
-    "units": [
-      "₪"
-    ],
+    "title": "תנאי פוליסת ביטוח מחלות קשות - מענקית סרטן",
+    "summary": "This table details conditions related to the 'מענקית סרטן' (Major Illness Insurance - Cancer Grant) policy, specifically regarding coverage start dates, age-related sum reductions, and claim eligibility. It outlines how the insured sum may be affected by age and policy duration.",
+    "embed_passage": "טבלה זו מתארת את תנאי פוליסת 'מענקית סרטן', ביטוח למחלות קשות, בדגש על תחילת הכיסוי, הפחתת סכום הביטוח בהתאם לגיל, וזכאות לתביעה. ניתן לעיין בפרטי הכיסויים בסעיף 2.1 לפרק 1 בפוליסה. הפוליסה מציינת תנאים לקבלת תגמול, כולל תקופת אכשרה ותנאים לגבי גילוי מחלת הסרטן. גובה הפיצוי הכספי שאקבל תלוי בסכום הביטוח שרכשתי, וכן בגיל המבוטח. סכום הביטוח עשוי להיוקטן בשיעור של 5% מדי שנה החל מגיל 65. הפוליסה מתייחסת למקרים בהם המבוטח הגיע לגיל 65 לפני או אחרי תחילת הביטוח.",
+    "row_axis": "Policy conditions / coverage details",
+    "column_axis": "Coverage details, sum reduction, claim eligibility",
+    "units": [],
     "notable_values": [
-      "age 65: potential reduction in coverage",
-      "waiting period: 90 days",
-      "coverage reduction: 5% per year after age 65",
-      "initial coverage amount: ₪10,000 (example)",
-      "age 65: impact on premium"
+      "יום 90 בפוליסה: הכיסויים לפרק 2.1",
+      "גיל 65: הפחתת סכום הביטוח בשיעור 5% לשנה",
+      "סכום הביטוח יוקטן בהתאם לסכום שרכשת",
+      "תקופת אכשרה: זמן מה אחרי תחילת הביטוח"
     ],
     "product_hints": [
       "מענקית סרטן",
-      "Ma'ankit Sartan"
+      "ביטוח מחלות קשות"
     ]
   },
   "sketch": "וכן קודם זה. בעניין מפורט מידע לקבלת,המבוטח את מכסה אינה הפוליסה בפוליסה( )חריגים הבאים במקרים\n\"יום 90 בפוליסה- הכיסויים לפרק 2.1 ,1 בסעיף כמפורט\",ניתן הביטוח מתחילת זמן כמה אחרי 1 )אכשרה( תגמול ולקבל לתבוע\n\"בתוקף ושהינו הביטוח פרטי בדף מפורט הסכום שרכשת, לסכום בהתאם הביטוח סכום יוקטן ,65 לגיל המבוטח בהגיע .65 לגיל המבוטח הגיע בטרם .65 לגיל הגיעו לפני בתוקף שהינו הביטוח מסכום 5% של בשיעור שנה מדי לראשונה ההצטרפות בעת המבוטח שגיל במקרה יוקטן לא הביטוח סכום ומעלה. 65 מגיל הנו לביטוח\",שאקבל הכספי הפיצוי גובה",
-  "embed_text": "פוליסת מענקית סרטן מספקת פיצוי במקרה של אבחון סרטן. סכום הביטוח עשוי להשתנות בהתאם לגיל המבוטח, כאשר ירידה של 5% מסכום הביטוח מתרחשת מדי שנה החל מגיל 65. לדוגמה, אם סכום הביטוח הראשוני הוא ₪10,000, הוא עשוי להיווצר בהתאם לגיל המבוטח.",
-  "payload": "טבלה: מענקית סרטן\nThis table details the terms of the 'Ma'ankit Sartan' cancer insurance policy, specifically regarding coverage start dates, benefit reductions based on age, and claim eligibility. It outlines how the insured amount may be affected by the policyholder's age at the time of diagnosis.\nממדים: Policy conditions/coverage aspects, Details of coverage, waiting periods, and age-related adjustments\n\nוכן קודם זה. בעניין מפורט מידע לקבלת,המבוטח את מכסה אינה הפוליסה בפוליסה( )חריגים הבאים במקרים\n\"יום 90 בפוליסה- הכיסויים לפרק 2.1 ,1 בסעיף כמפורט\",ניתן הביטוח מתחילת זמן כמה אחרי 1 )אכשרה( תגמול ולקבל לתבוע\n\"בתוקף ושהינו הביטוח פרטי בדף מפורט הסכום שרכשת, לסכום בהתאם הביטוח סכום יוקטן ,65 לגיל המבוטח בהגיע .65 לגיל המבוטח הגיע בטרם .65 לגיל הגיעו לפני בתוקף שהינו הביטוח מסכום 5% של בשיעור שנה מדי לראשונה ההצטרפות בעת המבוטח שגיל במקרה יוקטן לא הביטוח סכום ומעלה. 65 מגיל הנו לביטוח\",שאקבל הכספי הפיצוי גובה"
+  "embed_text": "טבלה זו מתארת את תנאי פוליסת 'מענקית סרטן', ביטוח למחלות קשות, בדגש על תחילת הכיסוי, הפחתת סכום הביטוח בהתאם לגיל, וזכאות לתביעה. ניתן לעיין בפרטי הכיסויים בסעיף 2.1 לפרק 1 בפוליסה. הפוליסה מציינת תנאים לקבלת תגמול, כולל תקופת אכשרה ותנאים לגבי גילוי מחלת הסרטן. גובה הפיצוי הכספי שאקבל תלוי בסכום הביטוח שרכשתי, וכן בגיל המבוטח. סכום הביטוח עשוי להיוקטן בשיעור של 5% מדי שנה החל מגיל 65. הפוליסה מתייחסת למקרים בהם המבוטח הגיע לגיל 65 לפני או אחרי תחילת הביטוח. This table details conditions related to the 'מענקית סרטן' (Major Illness Insurance - Cancer Grant) policy, specifically regarding coverage start dates, age-related sum reductions, and claim eligibility. It outlines how the insured sum may be affected by age and policy duration. בין הערכים בטבלה: יום 90 בפוליסה: הכיסויים לפרק 2.1; סכו…",
+  "payload": "טבלה: תנאי פוליסת ביטוח מחלות קשות - מענקית סרטן\nThis table details conditions related to the 'מענקית סרטן' (Major Illness Insurance - Cancer Grant) policy, specifically regarding coverage start dates, age-related sum reductions, and claim eligibility. It outlines how the insured sum may be affected by age and policy duration.\nממדים: Policy conditions / coverage details, Coverage details, sum reduction, claim eligibility\n\nוכן קודם זה. בעניין מפורט מידע לקבלת,המבוטח את מכסה אינה הפוליסה בפוליסה( )חריגים הבאים במקרים\n\"יום 90 בפוליסה- הכיסויים לפרק 2.1 ,1 בסעיף כמפורט\",ניתן הביטוח מתחילת זמן כמה אחרי 1 )אכשרה( תגמול ולקבל לתבוע\n\"בתוקף ושהינו הביטוח פרטי בדף מפורט הסכום שרכשת, לסכום בהתאם הביטוח סכום יוקטן ,65 לגיל המבוטח בהגיע .65 לגיל המבוטח הגיע בטרם .65 לגיל הגיעו לפני בתוקף שהינו הביטוח מסכום 5% של בשיעור שנה מדי לראשונה ההצטרפות בעת המבוטח שגיל במקרה יוקטן לא הביטוח סכום ומעלה. 65 מגיל הנו לביטוח\",שאקבל הכספי הפיצוי גובה"
 }

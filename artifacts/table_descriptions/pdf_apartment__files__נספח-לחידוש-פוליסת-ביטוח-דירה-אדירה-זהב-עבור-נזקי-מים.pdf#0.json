@@ -2,25 +2,28 @@
   "id": "pdf:apartment/files/נספח-לחידוש-פוליסת-ביטוח-דירה-אדירה-זהב-עבור-נזקי-מים.pdf#0",
   "source": "llm",
   "description": {
-    "title": "ביטוח דירה - נזקי מים",
-    "summary": "This table details insurance policy information for apartment water damage coverage. It allows policyholders to select a preferred damage compensation option and includes details like policy number, agent information, and insured party details.",
-    "embed_passage": "פוליסת ביטוח דירה 'אדירה זהב' מספקת כיסוי לנזקי דליפת מים ונוזלים אחרים. המבוטח יכול לבחור בין שתי אפשרויות שיפוי: תיקון על ידי בעל מקצוע מטעם המבטח או תיקון על ידי בעל מקצוע שנבחר על ידי המבוטח. לדוגמה, מס. פוליסה יכול להיות לא ידוע, מס. סוכן יכול להיות לא ידוע, ושם המבוטח/ת יכול להיות לא ידוע.",
-    "row_axis": "Insurance policy details for a specific insured party",
-    "column_axis": "Policy details: policy number, branch/district, agent number, agent name, insured party name, and compensation options",
+    "title": "נספח לחידוש פוליסת ביטוח דירה",
+    "summary": "This table details options for water damage coverage as an addendum to a home insurance policy. It allows the insured to choose between self-repair with reimbursement or repair by a company-selected professional.",
+    "embed_passage": "טבלה זו מתייחסת לנספח לחידוש פוליסת ביטוח דירה, המתמקד בכיסוי לנזקי דליפת מים ונוזלים אחרים. המבוטח יכול לבחור בין שתי אפשרויות שיפוי במקרה של נזק למבנה: תיקון עצמי עם החזר כספי או תיקון על ידי בעל מקצוע מטעם המבטח. בחירת האפשרות הרצויה מצוינת במפרט הפוליסה. אפשרויות השיפוי כוללות תיקון עצמי, מס. פוליסה, שם המבוטח/ת, שם הסוכן, סניף/מחוז, מס. סוכן. ניתן לבחור האם לקבל שיפוי במקרה נזק למבנה לפי אפשרות מסוימת, עם אפשרות לסמן 'כן' או 'לא'.",
+    "row_axis": "Insurance policy options for water damage",
+    "column_axis": "Policy details and selection options",
     "units": [],
     "notable_values": [
       "מס. פוליסה: unknown",
       "סניף/מחוז: unknown",
       "מס. סוכן: unknown",
       "שם סוכן: unknown",
-      "שם המבוטח/ת: unknown"
+      "שם המבוטח/ת: unknown",
+      "אפשרות שיפוי: תיקון עצמי",
+      "אפשרות שיפוי: תיקון ע״י בעל מקצוע",
+      "שיפוי במקרה נזק: כן/לא"
     ],
     "product_hints": [
-      "אדירה זהב",
-      "ביטוח דירה"
+      "ביטוח דירה",
+      "אדירה זהב"
     ]
   },
   "sketch": "ביטוח לדירה - נזקי דליפת מים ונוזלים אחרים - נספח לחידוש פוליסה\n: מס. פוליסה : סניף/מחוז : מס. סוכן : שם סוכן : שם המבוטח/ת\n(המבוטח/ת מתבקש/ת למלא את הפרטים דלעיל ולמסור את הטופס לסוכן הביטוח, כשהוא ממולא וחתום)\nאם הכיסוי המבוקש ע\"י המציע/ה לביטוח המבנה, כולל סיכון נזקי מים ונוזלים אחרים, יכול/ה המבוטח/ת לבחור מראש את\nאפשרות השיפוי הרצויה במקרה נזק, מבין שתי האפשרויות המפורטות להלן, והאפשרות שנבחרה תצוין במפרט הפוליסה.\n:) במקום המתאים X אני מבקש/ת לקבל שיפוי במקרה נזק למבנה לפי האפשרות שלהלן (יש לסמן\nלא\nכן",
-  "embed_text": "פוליסת ביטוח דירה 'אדירה זהב' מספקת כיסוי לנזקי דליפת מים ונוזלים אחרים. המבוטח יכול לבחור בין שתי אפשרויות שיפוי: תיקון על ידי בעל מקצוע מטעם המבטח או תיקון על ידי בעל מקצוע שנבחר על ידי המבוטח. לדוגמה, מס. פוליסה יכול להיות לא ידוע, מס. סוכן יכול להיות לא ידוע, ושם המבוטח/ת יכול להיות לא ידוע.",
-  "payload": "טבלה: ביטוח דירה - נזקי מים\nThis table details insurance policy information for apartment water damage coverage. It allows policyholders to select a preferred damage compensation option and includes details like policy number, agent information, and insured party details.\nממדים: Insurance policy details for a specific insured party, Policy details: policy number, branch/district, agent number, agent name, insured party name, and compensation options\n\nביטוח לדירה - נזקי דליפת מים ונוזלים אחרים - נספח לחידוש פוליסה\n: מס. פוליסה : סניף/מחוז : מס. סוכן : שם סוכן : שם המבוטח/ת\n(המבוטח/ת מתבקש/ת למלא את הפרטים דלעיל ולמסור את הטופס לסוכן הביטוח, כשהוא ממולא וחתום)\nאם הכיסוי המבוקש ע\"י המציע/ה לביטוח המבנה, כולל סיכון נזקי מים ונוזלים אחרים, יכול/ה המבוטח/ת לבחור מראש את\nאפשרות השיפוי הרצויה במקרה נזק, מבין שתי האפשרויות המפורטות להלן, והאפשרות שנבחרה תצוין במפרט הפוליסה.\n:) במקום המתאים X אני מבקש/ת לקבל שיפוי במקרה נזק למבנה לפי האפשרות שלהלן (יש לסמן\nלא\nכן"
+  "embed_text": "טבלה זו מתייחסת לנספח לחידוש פוליסת ביטוח דירה, המתמקד בכיסוי לנזקי דליפת מים ונוזלים אחרים. המבוטח יכול לבחור בין שתי אפשרויות שיפוי במקרה של נזק למבנה: תיקון עצמי עם החזר כספי או תיקון על ידי בעל מקצוע מטעם המבטח. בחירת האפשרות הרצויה מצוינת במפרט הפוליסה. אפשרויות השיפוי כוללות תיקון עצמי, מס. פוליסה, שם המבוטח/ת, שם הסוכן, סניף/מחוז, מס. סוכן. ניתן לבחור האם לקבל שיפוי במקרה נזק למבנה לפי אפשרות מסוימת, עם אפשרות לסמן 'כן' או 'לא'. This table details options for water damage coverage as an addendum to a home insurance policy. It allows the insured to choose between self-repair with reimbursement or repair by a company-selected professional. בין הערכים בטבלה: שם סוכן: unknown; אפשרות שיפוי: תיקון ע״י בעל מקצוע.",
+  "payload": "טבלה: נספח לחידוש פוליסת ביטוח דירה\nThis table details options for water damage coverage as an addendum to a home insurance policy. It allows the insured to choose between self-repair with reimbursement or repair by a company-selected professional.\nממדים: Insurance policy options for water damage, Policy details and selection options\n\nביטוח לדירה - נזקי דליפת מים ונוזלים אחרים - נספח לחידוש פוליסה\n: מס. פוליסה : סניף/מחוז : מס. סוכן : שם סוכן : שם המבוטח/ת\n(המבוטח/ת מתבקש/ת למלא את הפרטים דלעיל ולמסור את הטופס לסוכן הביטוח, כשהוא ממולא וחתום)\nאם הכיסוי המבוקש ע\"י המציע/ה לביטוח המבנה, כולל סיכון נזקי מים ונוזלים אחרים, יכול/ה המבוטח/ת לבחור מראש את\nאפשרות השיפוי הרצויה במקרה נזק, מבין שתי האפשרויות המפורטות להלן, והאפשרות שנבחרה תצוין במפרט הפוליסה.\n:) במקום המתאים X אני מבקש/ת לקבל שיפוי במקרה נזק למבנה לפי האפשרות שלהלן (יש לסמן\nלא\nכן"
 }

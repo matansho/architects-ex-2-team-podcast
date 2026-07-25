@@ -2,24 +2,23 @@
   "id": "pdf:business/files/פוליסה-לביטוח-סחורה-בהעברה-הראל-ביט-ינואר-2023.pdf#64",
   "source": "llm",
   "description": {
-    "title": "מבוטח ראשי",
-    "summary": "This table describes the role and responsibilities of the 'main insured' (מבוטח ראשי) in an insurance policy. It details how the main insured represents all insured parties and handles communications and payments.",
-    "embed_passage": "פוליסת הראל ביט מגדירה את המבוטח הראשי כאחראי לייצוג כל המבוטחים, לבקש שינויים בפוליסה, ולקבל תגמולי ביטוח. לדוגמה, אם לא מצוין מבוטח ראשי, המבוטח ששמו מופיע ראשון ברשימה ייחשב ככזה. כל הודעה מהמבטח למבוטח הראשי נחשבת כאילו נשלחה לכל המבוטחים.",
-    "row_axis": "Scenarios related to the main insured",
-    "column_axis": "Rules and responsibilities of the main insured",
+    "title": "מבוטח ראשי בפוליסה",
+    "summary": "This table defines the role of a 'main insured' (מבוטח ראשי) in a policy with multiple insured parties. It specifies who can make changes to the policy and receive communications.",
+    "embed_passage": "טבלה זו מתארת את תפקידו של ״מבוטח ראשי״ בפוליסה בה יש מספר מבוטחים. המבוטח הראשי מייצג את כל המבוטחים ויכול לבקש שינויים או תוספות לפוליסה. תגמולי ביטוח ישולמו למבוטח הראשי או כפי שיורה המבוטח הראשי בכתב. הראל ביטוח מספקת פוליסה זו. מבוטח ראשי, שינוי בפוליסה, תגמולי ביטוח, הודעה למבוטח.",
+    "row_axis": "conditions related to the 'main insured' role",
+    "column_axis": "details of the main insured's responsibilities and rights",
     "units": [],
     "notable_values": [
       "מבוטח ראשי: defined as the representative of all insured parties",
-      "שינוי בפוליסה: only the main insured can request changes",
-      "תגמולי ביטוח: paid to the main insured",
-      "הודעה מהמבטח: sent to the main insured only"
+      "שינוי בפוליסה: can only be requested by the main insured",
+      "תגמולי ביטוח: paid to the main insured or as directed by them",
+      "הודעה למבטח: communication to the main insured is considered communication to all insured"
     ],
     "product_hints": [
-      "הראל ביט",
-      "פוליסת סחורה בהעברה"
+      "פוליסה לביטוח סחורה בהעברה הראל ביט"
     ]
   },
   "sketch": "מבוטח ראשי בפוליסה .4.12\nאם נרשמו בפוליסה מספר מבוטחים ונקבע ״מבוטח ראשי״, ייצג רק ״המבוטח הראשי״ את כל המבוטחים, ורק הוא יהא רשאי לבקש כל שינוי או תוספת במהלך תקופת הביטוח, ודי בחתימתו על טופס ההצעה, על בקשות לשינויים בפוליסה במהלך תקופת הביטוח ו/או על כל מסמך שיוציא המבטח )כולל במפורש הודעת ביטול(, כדי לחייב את כל המבוטחים.\nאם לא מצוין בפוליסה מבוטח ראשי, המבוטח ששמו מצוין ראשון ברשימת המבוטחים יחשב כמבוטח ראשי.\nתגמולי ביטוח אשר אינם משולמים ישירות לצדדים שלישיים ישולמו למבוטח הראשי בלבד או כפי שיורה המבוטח הראשי למבטח בכתב.\nכמו כן, כל הודעה אשר ישלח המבטח למבוטח הראשי בלבד, יראו אותה כאילו נשלחה לכל אחד מיחידי המבוטח.",
-  "embed_text": "פוליסת הראל ביט מגדירה את המבוטח הראשי כאחראי לייצוג כל המבוטחים, לבקש שינויים בפוליסה, ולקבל תגמולי ביטוח. לדוגמה, אם לא מצוין מבוטח ראשי, המבוטח ששמו מופיע ראשון ברשימה ייחשב ככזה. כל הודעה מהמבטח למבוטח הראשי נחשבת כאילו נשלחה לכל המבוטחים.",
-  "payload": "טבלה: מבוטח ראשי\nThis table describes the role and responsibilities of the 'main insured' (מבוטח ראשי) in an insurance policy. It details how the main insured represents all insured parties and handles communications and payments.\nממדים: Scenarios related to the main insured, Rules and responsibilities of the main insured\n\nמבוטח ראשי בפוליסה .4.12\nאם נרשמו בפוליסה מספר מבוטחים ונקבע ״מבוטח ראשי״, ייצג רק ״המבוטח הראשי״ את כל המבוטחים, ורק הוא יהא רשאי לבקש כל שינוי או תוספת במהלך תקופת הביטוח, ודי בחתימתו על טופס ההצעה, על בקשות לשינויים בפוליסה במהלך תקופת הביטוח ו/או על כל מסמך שיוציא המבטח )כולל במפורש הודעת ביטול(, כדי לחייב את כל המבוטחים.\nאם לא מצוין בפוליסה מבוטח ראשי, המבוטח ששמו מצוין ראשון ברשימת המבוטחים יחשב כמבוטח ראשי.\nתגמולי ביטוח אשר אינם משולמים ישירות לצדדים שלישיים ישולמו למבוטח הראשי בלבד או כפי שיורה המבוטח הראשי למבטח בכתב.\nכמו כן, כל הודעה אשר ישלח המבטח למבוטח הראשי בלבד, יראו אותה כאילו נשלחה לכל אחד מיחידי המבוטח."
+  "embed_text": "טבלה זו מתארת את תפקידו של ״מבוטח ראשי״ בפוליסה בה יש מספר מבוטחים. המבוטח הראשי מייצג את כל המבוטחים ויכול לבקש שינויים או תוספות לפוליסה. תגמולי ביטוח ישולמו למבוטח הראשי או כפי שיורה המבוטח הראשי בכתב. הראל ביטוח מספקת פוליסה זו. מבוטח ראשי, שינוי בפוליסה, תגמולי ביטוח, הודעה למבוטח. This table defines the role of a 'main insured' (מבוטח ראשי) in a policy with multiple insured parties. It specifies who can make changes to the policy and receive communications. בין הערכים בטבלה: הודעה למבטח: communication to the main insured is considered communication to all insured.",
+  "payload": "טבלה: מבוטח ראשי בפוליסה\nThis table defines the role of a 'main insured' (מבוטח ראשי) in a policy with multiple insured parties. It specifies who can make changes to the policy and receive communications.\nממדים: conditions related to the 'main insured' role, details of the main insured's responsibilities and rights\n\nמבוטח ראשי בפוליסה .4.12\nאם נרשמו בפוליסה מספר מבוטחים ונקבע ״מבוטח ראשי״, ייצג רק ״המבוטח הראשי״ את כל המבוטחים, ורק הוא יהא רשאי לבקש כל שינוי או תוספת במהלך תקופת הביטוח, ודי בחתימתו על טופס ההצעה, על בקשות לשינויים בפוליסה במהלך תקופת הביטוח ו/או על כל מסמך שיוציא המבטח )כולל במפורש הודעת ביטול(, כדי לחייב את כל המבוטחים.\nאם לא מצוין בפוליסה מבוטח ראשי, המבוטח ששמו מצוין ראשון ברשימת המבוטחים יחשב כמבוטח ראשי.\nתגמולי ביטוח אשר אינם משולמים ישירות לצדדים שלישיים ישולמו למבוטח הראשי בלבד או כפי שיורה המבוטח הראשי למבטח בכתב.\nכמו כן, כל הודעה אשר ישלח המבטח למבוטח הראשי בלבד, יראו אותה כאילו נשלחה לכל אחד מיחידי המבוטח."
 }

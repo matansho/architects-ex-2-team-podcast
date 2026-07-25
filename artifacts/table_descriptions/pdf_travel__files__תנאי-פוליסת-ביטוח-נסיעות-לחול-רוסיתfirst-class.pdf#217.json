@@ -2,25 +2,27 @@
   "id": "pdf:travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-רוסיתfirst-class.pdf#217",
   "source": "llm",
   "description": {
-    "title": "כוויות - פיצוי",
-    "summary": "This table details the compensation amounts for second and third-degree burns, based on the burn area relative to total body surface area. It is used to look up the percentage of coverage provided for different burn severities.",
-    "embed_passage": "פוליסת ביטוח נסיעות לחול רוסיתfirst-class מספקת כיסוי לנזקי כוויות. גודל הפיצוי משתנה בהתאם לשטח הכוויה ביחס לשטח הגוף הכולל, ולדרגת הכוויה. לדוגמה, כוויה בדרגה שנייה בשטח של 28% - 100% מזכה ב־50% כיסוי, בעוד שכוויה בדרגה שלישית באותו שטח מזכה ב־100% כיסוי.",
-    "row_axis": "Burn area as a percentage of total body surface area",
-    "column_axis": "Burn degree (second, third)",
-    "units": [
-      "%"
-    ],
+    "title": "כיסוי כוויות",
+    "summary": "This table details the insurance coverage for burns of different degrees, based on the percentage of total body surface area affected. It shows the percentage of coverage for second and third-degree burns.",
+    "embed_passage": "טבלה זו מתארת את כיסוי הביטוח עבור כוויות בדרגות שונות, בהתאם לאחוז משטח הגוף הכולל שנפגע. הכיסוי מחושב עבור כוויות דרגה שנייה ודרגה שלישית, בהתאם לאחוז השטח שנפגע. ניתן לחפש את אחוזי הכיסוי לפי שטח הכוויה ביחס לשטח הגוף הכולל. הטבלה כוללת את הנתונים הבאים: שטח כוויה (28% - 100%, 20% - 27%, 10% - 19%, 4.5% - 9%), כוויה דרגה שנייה (50%, 40%, 30%, 10%), כוויה דרגה שלישית (100%, 80%, 60%, 20%). פוליסת ביטוח נסיעות לחול רוסיתfirst-class.",
+    "row_axis": "שטח כוויה ביחס לשטח הגוף הכולל",
+    "column_axis": "דרגת הכוויה",
+    "units": [],
     "notable_values": [
-      "28% - 100%: 50%",
-      "20% - 27%: 40%",
-      "10% - 19%: 30%",
-      "4.5% - 9%: 10%"
+      "28% - 100%: 50% (דרגה שנייה)",
+      "28% - 100%: 100% (דרגה שלישית)",
+      "20% - 27%: 40% (דרגה שנייה)",
+      "20% - 27%: 80% (דרגה שלישית)",
+      "10% - 19%: 30% (דרגה שנייה)",
+      "10% - 19%: 60% (דרגה שלישית)",
+      "4.5% - 9%: 10% (דרגה שנייה)",
+      "4.5% - 9%: 20% (דרגה שלישית)"
     ],
     "product_hints": [
       "ביטוח נסיעות לחול רוסיתfirst-class"
     ]
   },
   "sketch": "Площадь ожога относительно общей площади кожного покрова человеческого тела,Ожог второй степени,Ожог третьей степени\n28% - 100%,50%,100%\n20% - 27%,40%,80%\n10% - 19%,30%,60%\n4.5% - 9%,10%,20%",
-  "embed_text": "פוליסת ביטוח נסיעות לחול רוסיתfirst-class מספקת כיסוי לנזקי כוויות. גודל הפיצוי משתנה בהתאם לשטח הכוויה ביחס לשטח הגוף הכולל, ולדרגת הכוויה. לדוגמה, כוויה בדרגה שנייה בשטח של 28% - 100% מזכה ב־50% כיסוי, בעוד שכוויה בדרגה שלישית באותו שטח מזכה ב־100% כיסוי.",
-  "payload": "טבלה: כוויות - פיצוי\nThis table details the compensation amounts for second and third-degree burns, based on the burn area relative to total body surface area. It is used to look up the percentage of coverage provided for different burn severities.\nממדים: Burn area as a percentage of total body surface area, Burn degree (second, third)\n\nПлощадь ожога относительно общей площади кожного покрова человеческого тела,Ожог второй степени,Ожог третьей степени\n28% - 100%,50%,100%\n20% - 27%,40%,80%\n10% - 19%,30%,60%\n4.5% - 9%,10%,20%"
+  "embed_text": "טבלה זו מתארת את כיסוי הביטוח עבור כוויות בדרגות שונות, בהתאם לאחוז משטח הגוף הכולל שנפגע. הכיסוי מחושב עבור כוויות דרגה שנייה ודרגה שלישית, בהתאם לאחוז השטח שנפגע. ניתן לחפש את אחוזי הכיסוי לפי שטח הכוויה ביחס לשטח הגוף הכולל. הטבלה כוללת את הנתונים הבאים: שטח כוויה (28% - 100%, 20% - 27%, 10% - 19%, 4.5% - 9%), כוויה דרגה שנייה (50%, 40%, 30%, 10%), כוויה דרגה שלישית (100%, 80%, 60%, 20%). פוליסת ביטוח נסיעות לחול רוסיתfirst-class. This table details the insurance coverage for burns of different degrees, based on the percentage of total body surface area affected. It shows the percentage of coverage for second and third-degree burns.",
+  "payload": "טבלה: כיסוי כוויות\nThis table details the insurance coverage for burns of different degrees, based on the percentage of total body surface area affected. It shows the percentage of coverage for second and third-degree burns.\nממדים: שטח כוויה ביחס לשטח הגוף הכולל, דרגת הכוויה\n\nПлощадь ожога относительно общей площади кожного покрова человеческого тела,Ожог второй степени,Ожог третьей степени\n28% - 100%,50%,100%\n20% - 27%,40%,80%\n10% - 19%,30%,60%\n4.5% - 9%,10%,20%"
 }

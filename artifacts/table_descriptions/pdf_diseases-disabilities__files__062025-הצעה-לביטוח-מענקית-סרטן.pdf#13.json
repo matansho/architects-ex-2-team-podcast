@@ -3,21 +3,22 @@
   "source": "llm",
   "description": {
     "title": "מועמדים לביטוח",
-    "summary": "This table lists insurance applicants, including their age and potentially other underwriting details. It is used to assess eligibility and determine policy terms.",
-    "embed_passage": "פוליסת מענקית סרטן מאפשרת ביטוח עבור מבוטחים מעל גיל 18. גיל המועמד משפיע על תנאי החיתום. לדוגמה, מועמדים בגיל 18 ומעלה צריכים למלא שאלון. ניתן לרכוש ביטוח לילדים עד גיל 18.",
+    "summary": "This table lists insurance candidates, including their age and status. It is used to record details about applicants for insurance coverage.",
+    "embed_passage": "טבלה זו מציגה רשימת מועמדים לביטוח, כולל גילם וסטטוסם. ניתן להשתמש בה כדי לרשום פרטים על מועמדים לכיסוי ביטוחי, כגון גילם ומצבם הרפואי. המידע נאסף לצורך הפקת הכיסויים המבוקשים. המועמדים כוללים ראש מבוטח, בן/בת, וילדים מעל גיל 18.  הטבלה כוללת שמות מועמדים לביטוח, תאריכי חתימה, מספרי ביטוח, וגיל המועמד.",
     "row_axis": "מועמד לביטוח",
-    "column_axis": "פרטי מועמד (שם, גיל, תאריך חתימה, מספר חתימה)",
+    "column_axis": "פרטי מועמד (שם, גיל, תאריך חתימה, מספר ביטוח)",
     "units": [],
     "notable_values": [
-      "גיל: 18",
-      "מספר חתימה: ראש מבוטח",
-      "גיל מעל ילד: 18"
+      "גיל: 18+",
+      "סטטוס: ראש מבוטח",
+      "סטטוס: בן/בת",
+      "גיל מעל 18"
     ],
     "product_hints": [
       "מענקית סרטן"
     ]
   },
   "sketch": "ה חתימ,ך תארי,ת זהו מספר,ח לביטו המועמד שם,ח לביטו מועמד\n,,,,י ראש מבוטח\n,,,,ג זו בת / בן\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד",
-  "embed_text": "פוליסת מענקית סרטן מאפשרת ביטוח עבור מבוטחים מעל גיל 18. גיל המועמד משפיע על תנאי החיתום. לדוגמה, מועמדים בגיל 18 ומעלה צריכים למלא שאלון. ניתן לרכוש ביטוח לילדים עד גיל 18.",
-  "payload": "טבלה: מועמדים לביטוח\nThis table lists insurance applicants, including their age and potentially other underwriting details. It is used to assess eligibility and determine policy terms.\nממדים: מועמד לביטוח, פרטי מועמד (שם, גיל, תאריך חתימה, מספר חתימה)\n\nה חתימ,ך תארי,ת זהו מספר,ח לביטו המועמד שם,ח לביטו מועמד\n,,,,י ראש מבוטח\n,,,,ג זו בת / בן\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד"
+  "embed_text": "טבלה זו מציגה רשימת מועמדים לביטוח, כולל גילם וסטטוסם. ניתן להשתמש בה כדי לרשום פרטים על מועמדים לכיסוי ביטוחי, כגון גילם ומצבם הרפואי. המידע נאסף לצורך הפקת הכיסויים המבוקשים. המועמדים כוללים ראש מבוטח, בן/בת, וילדים מעל גיל 18.  הטבלה כוללת שמות מועמדים לביטוח, תאריכי חתימה, מספרי ביטוח, וגיל המועמד. This table lists insurance candidates, including their age and status. It is used to record details about applicants for insurance coverage. בין הערכים בטבלה: גיל מעל 18.",
+  "payload": "טבלה: מועמדים לביטוח\nThis table lists insurance candidates, including their age and status. It is used to record details about applicants for insurance coverage.\nממדים: מועמד לביטוח, פרטי מועמד (שם, גיל, תאריך חתימה, מספר ביטוח)\n\nה חתימ,ך תארי,ת זהו מספר,ח לביטו המועמד שם,ח לביטו מועמד\n,,,,י ראש מבוטח\n,,,,ג זו בת / בן\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד"
 }

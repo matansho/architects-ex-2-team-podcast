@@ -2,20 +2,25 @@
   "id": "pdf:business/files/תנאי-פוליסה-ביטוח-מכלול-למשרד-מהדורת-ינואר-2024.pdf#185",
   "source": "llm",
   "description": {
-    "title": "ספורט אתגרי - מכלול",
-    "summary": "This table defines liability exclusions related to extreme sports considered particularly dangerous. It lists sports requiring high levels of difficulty, physical effort, speed, height, and risk, referencing a detailed list on the 'המבטח' website.",
-    "embed_passage": "פוליסת ביטוח מכלול אינה מכסה חבות הקשורה לספורט אתגרי, הכולל ענפי ספורט מסוכנים במיוחד הדורשים רמות גבוהות של קושי ומהירות. פירוט ענפי הספורט מופיע באתר 'המבטח'.",
-    "row_axis": "Types of extreme sports/activities",
-    "column_axis": "Exclusion details/conditions",
+    "title": "ספורט אתגרי - חבות",
+    "summary": "This table defines liability related to extreme sports considered particularly dangerous. It references a detailed list of sports available on the insurer’s website.",
+    "embed_passage": "טבלה זו מתייחסת לחבות הקשורה לספורט אתגרי, ענפי ספורט הנחשבים למסוכנים במיוחד, הדורשים רמות גבוהות של קושי, מאמץ גופני, מהירות, גובה וסכנה. ניתן למצוא פירוט של ענפי הספורט הכלולים בהגדרה זו באתר 'המבטח'. פוליסת ביטוח מכלול למשרד מספקת מידע זה לצורך הגדרת הכיסוי הביטוחי. ענפי ספורט אתגרי כוללים פעילויות כמו…",
+    "row_axis": "סוג חבות הקשורה לספורט אתגרי",
+    "column_axis": "תיאור ענפי ספורט אתגרי",
     "units": [],
     "notable_values": [
-      "ספורט אתגרי: defined by high difficulty and risk"
+      "ספורט אתגרי: ענפי ספורט מסוכנים",
+      "קושי: רמות גבוהות",
+      "מאמץ גופני: רמות גבוהות",
+      "מהירות: רמות גבוהות",
+      "גובה: רמות גבוהות",
+      "סכנה: רמות גבוהות"
     ],
     "product_hints": [
-      "מכלול"
+      "ביטוח מכלול למשרד"
     ]
   },
   "sketch": ".7.3.3.14 -חבות הקשורה לספורט אתגרי ענפי ספורט הנחשבים למסוכנים במיוחד והכוללים/ דורשים, בין היתר, מהעוסקים בהם רמות גבוהות\nשל קושי ו/או מאמץ גופני, מהירות, גובה וסכנה.\nלעניין פירוט ענפי הספורט הנכללים בהגדרה זו, ראה פירוט באתר .\" המבטח 'הגדרת ספורט אתגרי",
-  "embed_text": "פוליסת ביטוח מכלול אינה מכסה חבות הקשורה לספורט אתגרי, הכולל ענפי ספורט מסוכנים במיוחד הדורשים רמות גבוהות של קושי ומהירות. פירוט ענפי הספורט מופיע באתר 'המבטח'.",
-  "payload": "טבלה: ספורט אתגרי - מכלול\nThis table defines liability exclusions related to extreme sports considered particularly dangerous. It lists sports requiring high levels of difficulty, physical effort, speed, height, and risk, referencing a detailed list on the 'המבטח' website.\nממדים: Types of extreme sports/activities, Exclusion details/conditions\n\n.7.3.3.14 -חבות הקשורה לספורט אתגרי ענפי ספורט הנחשבים למסוכנים במיוחד והכוללים/ דורשים, בין היתר, מהעוסקים בהם רמות גבוהות\nשל קושי ו/או מאמץ גופני, מהירות, גובה וסכנה.\nלעניין פירוט ענפי הספורט הנכללים בהגדרה זו, ראה פירוט באתר .\" המבטח 'הגדרת ספורט אתגרי"
+  "embed_text": "טבלה זו מתייחסת לחבות הקשורה לספורט אתגרי, ענפי ספורט הנחשבים למסוכנים במיוחד, הדורשים רמות גבוהות של קושי, מאמץ גופני, מהירות, גובה וסכנה. ניתן למצוא פירוט של ענפי הספורט הכלולים בהגדרה זו באתר 'המבטח'. פוליסת ביטוח מכלול למשרד מספקת מידע זה לצורך הגדרת הכיסוי הביטוחי. ענפי ספורט אתגרי כוללים פעילויות כמו… This table defines liability related to extreme sports considered particularly dangerous. It references a detailed list of sports available on the insurer’s website.",
+  "payload": "טבלה: ספורט אתגרי - חבות\nThis table defines liability related to extreme sports considered particularly dangerous. It references a detailed list of sports available on the insurer’s website.\nממדים: סוג חבות הקשורה לספורט אתגרי, תיאור ענפי ספורט אתגרי\n\n.7.3.3.14 -חבות הקשורה לספורט אתגרי ענפי ספורט הנחשבים למסוכנים במיוחד והכוללים/ דורשים, בין היתר, מהעוסקים בהם רמות גבוהות\nשל קושי ו/או מאמץ גופני, מהירות, גובה וסכנה.\nלעניין פירוט ענפי הספורט הנכללים בהגדרה זו, ראה פירוט באתר .\" המבטח 'הגדרת ספורט אתגרי"
 }

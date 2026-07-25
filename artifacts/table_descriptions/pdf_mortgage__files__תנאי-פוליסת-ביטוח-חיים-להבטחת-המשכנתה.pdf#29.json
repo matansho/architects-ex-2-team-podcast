@@ -3,24 +3,24 @@
   "source": "llm",
   "description": {
     "title": "תנאי פוליסת ביטוח חיים",
-    "summary": "This table outlines conditions related to misrepresentation in a life insurance policy for mortgage protection. It details when the insurance company can void the policy due to incomplete or dishonest answers provided by the insured.",
-    "embed_passage": "פוליסת ביטוח חיים להבטחת המשכנתה עשויה להתבטל אם ניתנה תשובה שאינה מלאה או כנה בכוונה. החברה לא תהיה זכאית לתרופות אלא אם התשובה ניתנה בכוונה, או שהיא ידעה את המצב לאמיתו. לדוגמה, אם חלפו 11 שנים מכריתת הפוליסה, החברה לא תהיה זכאית לתרופות אלא אם המבוטח פעל בכוונת מירמה.",
-    "row_axis": "Conditions for voiding the policy due to misrepresentation",
-    "column_axis": "Circumstances related to incomplete/dishonest answers",
+    "summary": "This table outlines conditions related to the validity of an insurance policy, specifically regarding truthful answers to material questions. It details when the insurance company can seek remedies if incomplete or dishonest answers are provided.",
+    "embed_passage": "טבלה זו מתארת תנאים הקשורים בתוקף של פוליסת ביטוח חיים, במיוחד בנוגע לתשובות כנות לשאלות מהותיות. היא מפרטת מתי חברת הביטוח רשאית לדרוש תרופות אם ניתנו תשובות לא שלמות או לא כנות. הפוליסה להבטחת המשכנתה כוללת סעיפים הנוגעים לכוונת מירמה, ידיעה על מצב אמיתי, והשפעת התשובה על מקרה הביטוח. סעיף 5.3 מתייחס לתרופות שהחברה לא תהיה זכאית להן, אלא אם התשובה ניתנה בכוונת מירמה. סעיף 5.5.1 מציין מצב בו החברה ידעה או היה עליה לדעת את המצב לאמיתו. סעיף 5.5.2 מתייחס למצב בו העובדה על התשובה השגויה חדלה להתקיים לפני קרות מקרה הביטוח.",
+    "row_axis": "conditions for remedies",
+    "column_axis": "remedy eligibility criteria",
     "units": [],
     "notable_values": [
-      "5.3: Company's right to remedies",
-      "5.5.1: Knowledge of true state",
-      "5.5.2: Misrepresentation ceased before claim",
-      "5.6: 11 years after policy inception",
-      "30 days: Timeframe for company to cancel policy"
+      "סעיף 5.3: remedies",
+      "סעיף 5.5.1: knowledge of true state",
+      "סעיף 5.5.2: cessation of false fact",
+      "סעיף 5.6: 3 years from policy inception",
+      "כוונת מירמה: intentional fraud"
     ],
     "product_hints": [
-      "ביטוח חיים להבטחת המשכנתה",
-      "פוליסת ביטוח חיים"
+      "פוליסת ביטוח חיים",
+      "להבטחת המשכנתה"
     ]
   },
   "sketch": "5.5 , לעיל בכל אחת מאלה 5.3 החברה לא תהיה זכאית לתרופות המפורטות בסעיף אלא אם התשובה שלא היתה מלאה וכנה ניתנה בכוונת מירמה:\nהיא ידעה או היה עליה לדעת את המצב לאמיתו בשעת כריתת החוזה 5.5.1 או שהיא גרמה לכך שהתשובה לא היתה מלאה וכנה.\nהעובדה שעליה ניתנה תשובה שלא היתה מלאה וכנה חדלה להתקיים 5.5.2 לפני  שקרה  מקרה  הביטוח,  או  שלא  השפיעה  על  מקרהו,  על  חבות החברה או על היקפה.\nבנוסף לא תהיה החברה זכאית לתרופות האמורות בסעיף זה לעיל, לאחר שעברו 5.6 11 שלוש שנים מכריתת הפוליסה או מיום חידושה )למעט חידוש כאמור בסעיף להלן(, זולת אם המבוטח פעל בכוונת מירמה.",
-  "embed_text": "פוליסת ביטוח חיים להבטחת המשכנתה עשויה להתבטל אם ניתנה תשובה שאינה מלאה או כנה בכוונה. החברה לא תהיה זכאית לתרופות אלא אם התשובה ניתנה בכוונה, או שהיא ידעה את המצב לאמיתו. לדוגמה, אם חלפו 11 שנים מכריתת הפוליסה, החברה לא תהיה זכאית לתרופות אלא אם המבוטח פעל בכוונת מירמה.",
-  "payload": "טבלה: תנאי פוליסת ביטוח חיים\nThis table outlines conditions related to misrepresentation in a life insurance policy for mortgage protection. It details when the insurance company can void the policy due to incomplete or dishonest answers provided by the insured.\nממדים: Conditions for voiding the policy due to misrepresentation, Circumstances related to incomplete/dishonest answers\n\n5.5 , לעיל בכל אחת מאלה 5.3 החברה לא תהיה זכאית לתרופות המפורטות בסעיף אלא אם התשובה שלא היתה מלאה וכנה ניתנה בכוונת מירמה:\nהיא ידעה או היה עליה לדעת את המצב לאמיתו בשעת כריתת החוזה 5.5.1 או שהיא גרמה לכך שהתשובה לא היתה מלאה וכנה.\nהעובדה שעליה ניתנה תשובה שלא היתה מלאה וכנה חדלה להתקיים 5.5.2 לפני  שקרה  מקרה  הביטוח,  או  שלא  השפיעה  על  מקרהו,  על  חבות החברה או על היקפה.\nבנוסף לא תהיה החברה זכאית לתרופות האמורות בסעיף זה לעיל, לאחר שעברו 5.6 11 שלוש שנים מכריתת הפוליסה או מיום חידושה )למעט חידוש כאמור בסעיף להלן(, זולת אם המבוטח פעל בכוונת מירמה."
+  "embed_text": "טבלה זו מתארת תנאים הקשורים בתוקף של פוליסת ביטוח חיים, במיוחד בנוגע לתשובות כנות לשאלות מהותיות. היא מפרטת מתי חברת הביטוח רשאית לדרוש תרופות אם ניתנו תשובות לא שלמות או לא כנות. הפוליסה להבטחת המשכנתה כוללת סעיפים הנוגעים לכוונת מירמה, ידיעה על מצב אמיתי, והשפעת התשובה על מקרה הביטוח. סעיף 5.3 מתייחס לתרופות שהחברה לא תהיה זכאית להן, אלא אם התשובה ניתנה בכוונת מירמה. סעיף 5.5.1 מציין מצב בו החברה ידעה או היה עליה לדעת את המצב לאמיתו. סעיף 5.5.2 מתייחס למצב בו העובדה על התשובה השגויה חדלה להתקיים לפני קרות מקרה הביטוח. This table outlines conditions related to the validity of an insurance policy, specifically regarding truthful answers to material questions. It details when the insurance company can seek remedies if incomplete or dishonest answers are provided. בין הערכים בטבלה: סעיף 5.6…",
+  "payload": "טבלה: תנאי פוליסת ביטוח חיים\nThis table outlines conditions related to the validity of an insurance policy, specifically regarding truthful answers to material questions. It details when the insurance company can seek remedies if incomplete or dishonest answers are provided.\nממדים: conditions for remedies, remedy eligibility criteria\n\n5.5 , לעיל בכל אחת מאלה 5.3 החברה לא תהיה זכאית לתרופות המפורטות בסעיף אלא אם התשובה שלא היתה מלאה וכנה ניתנה בכוונת מירמה:\nהיא ידעה או היה עליה לדעת את המצב לאמיתו בשעת כריתת החוזה 5.5.1 או שהיא גרמה לכך שהתשובה לא היתה מלאה וכנה.\nהעובדה שעליה ניתנה תשובה שלא היתה מלאה וכנה חדלה להתקיים 5.5.2 לפני  שקרה  מקרה  הביטוח,  או  שלא  השפיעה  על  מקרהו,  על  חבות החברה או על היקפה.\nבנוסף לא תהיה החברה זכאית לתרופות האמורות בסעיף זה לעיל, לאחר שעברו 5.6 11 שלוש שנים מכריתת הפוליסה או מיום חידושה )למעט חידוש כאמור בסעיף להלן(, זולת אם המבוטח פעל בכוונת מירמה."
 }

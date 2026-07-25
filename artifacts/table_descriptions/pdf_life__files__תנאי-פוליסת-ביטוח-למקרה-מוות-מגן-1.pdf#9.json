@@ -3,24 +3,21 @@
   "source": "llm",
   "description": {
     "title": "תנאי פוליסת ביטוח",
-    "summary": "This table outlines the terms of an insurance policy, specifically regarding the insurance amount, premiums, and policy period. It serves as a reference for understanding the conditions of the 'Magen' insurance plan.",
-    "embed_passage": "פוליסת 'מגן' מגדירה את סכום הביטוח בהתאם לדף פרטי הביטוח, ואת תקופת הביטוח שמיום תחילת הביטוח ועד יום תום הביטוח. הפרמיות משולמות בהתאם לתנאי הפוליסה, והכל נקבע בהתאם לתוספת הכוללים את הפוליסה. לדוגמה, סעיף 1.17 מתייחס לסכום הביטוח.",
-    "row_axis": "Policy clauses / conditions",
-    "column_axis": "Description of the policy term",
+    "summary": "This table outlines conditions of an insurance policy. It details aspects like the insurance amount, premiums, and policy period as referenced in the policy details sheet.",
+    "embed_passage": "טבלה זו מתארת תנאי פוליסת ביטוח, כולל סכום הביטוח, פרמיות והתקופה. ניתן למצוא מידע נוסף בדף פרטי הביטוח. הפוליסה כוללת תנאים שונים, כפי שמפורט בהוראות הפרמיות. הביטוח תקף לתקופה שמיום תחילת הביטוח ועד יום תום הביטוח. סכום הביטוח ישולם בכפוף לסעיף 7. הפוליסה כוללת נספח ותוספת המצורפים לה.",
+    "row_axis": "Policy conditions",
+    "column_axis": "Policy details",
     "units": [],
     "notable_values": [
-      "סעיף: 1.17",
-      "סעיף: 1.18",
-      "סעיף: 1.19",
-      "סעיף: 1.20",
-      "סעיף: 1.21"
+      "סכום הביטוח: פרטי בדף הנקוב",
+      "פרמיות: בהתאם להוראות",
+      "הביטוח תקופת: כמפורט בדף הביטוח"
     ],
     "product_hints": [
-      "מגן",
-      "פוליסת ביטוח"
+      "ביטוח למקרה מוות מגן"
     ]
   },
   "sketch": "1.17\n\"ישולם אשר הביטוח, פרטי בדף הנקוב הביטוח סכום - הביטוח סכום . להלן 7 לסעיף בכפוף הביטוח מקרה בקרות\",1.1.18\n\"דף ההצעה, וכן לחברה הפוליסה בעל שבין דנן הביטוח חוזה - פוליסה להם. המצורפים ותוספת נספח וכל הביטוח פרטי\",1.1.19\n\"הפוליסה תנאי פי על לשלם הפוליסה בעל שעל הביטוח דמי - פרמיות להוראות בהתאם והכל נקבעה אם להם, שנקבעה תוספת כל הכוללים הפוליסה.\",1.1.20\n\"תקופת תום ליום ועד הביטוח תחילת שמיום התקופה - הביטוח תקופת . הביטוח פרטי בדף כמפורט הביטוח,\",1.1.21",
-  "embed_text": "פוליסת 'מגן' מגדירה את סכום הביטוח בהתאם לדף פרטי הביטוח, ואת תקופת הביטוח שמיום תחילת הביטוח ועד יום תום הביטוח. הפרמיות משולמות בהתאם לתנאי הפוליסה, והכל נקבע בהתאם לתוספת הכוללים את הפוליסה. לדוגמה, סעיף 1.17 מתייחס לסכום הביטוח.",
-  "payload": "טבלה: תנאי פוליסת ביטוח\nThis table outlines the terms of an insurance policy, specifically regarding the insurance amount, premiums, and policy period. It serves as a reference for understanding the conditions of the 'Magen' insurance plan.\nממדים: Policy clauses / conditions, Description of the policy term\n\n1.17\n\"ישולם אשר הביטוח, פרטי בדף הנקוב הביטוח סכום - הביטוח סכום . להלן 7 לסעיף בכפוף הביטוח מקרה בקרות\",1.1.18\n\"דף ההצעה, וכן לחברה הפוליסה בעל שבין דנן הביטוח חוזה - פוליסה להם. המצורפים ותוספת נספח וכל הביטוח פרטי\",1.1.19\n\"הפוליסה תנאי פי על לשלם הפוליסה בעל שעל הביטוח דמי - פרמיות להוראות בהתאם והכל נקבעה אם להם, שנקבעה תוספת כל הכוללים הפוליסה.\",1.1.20\n\"תקופת תום ליום ועד הביטוח תחילת שמיום התקופה - הביטוח תקופת . הביטוח פרטי בדף כמפורט הביטוח,\",1.1.21"
+  "embed_text": "טבלה זו מתארת תנאי פוליסת ביטוח, כולל סכום הביטוח, פרמיות והתקופה. ניתן למצוא מידע נוסף בדף פרטי הביטוח. הפוליסה כוללת תנאים שונים, כפי שמפורט בהוראות הפרמיות. הביטוח תקף לתקופה שמיום תחילת הביטוח ועד יום תום הביטוח. סכום הביטוח ישולם בכפוף לסעיף 7. הפוליסה כוללת נספח ותוספת המצורפים לה. This table outlines conditions of an insurance policy. It details aspects like the insurance amount, premiums, and policy period as referenced in the policy details sheet. בין הערכים בטבלה: הביטוח תקופת: כמפורט בדף הביטוח.",
+  "payload": "טבלה: תנאי פוליסת ביטוח\nThis table outlines conditions of an insurance policy. It details aspects like the insurance amount, premiums, and policy period as referenced in the policy details sheet.\nממדים: Policy conditions, Policy details\n\n1.17\n\"ישולם אשר הביטוח, פרטי בדף הנקוב הביטוח סכום - הביטוח סכום . להלן 7 לסעיף בכפוף הביטוח מקרה בקרות\",1.1.18\n\"דף ההצעה, וכן לחברה הפוליסה בעל שבין דנן הביטוח חוזה - פוליסה להם. המצורפים ותוספת נספח וכל הביטוח פרטי\",1.1.19\n\"הפוליסה תנאי פי על לשלם הפוליסה בעל שעל הביטוח דמי - פרמיות להוראות בהתאם והכל נקבעה אם להם, שנקבעה תוספת כל הכוללים הפוליסה.\",1.1.20\n\"תקופת תום ליום ועד הביטוח תחילת שמיום התקופה - הביטוח תקופת . הביטוח פרטי בדף כמפורט הביטוח,\",1.1.21"
 }

@@ -2,22 +2,22 @@
   "id": "pdf:apartment/files/פוליסה-לביטוח-דירה-ותכולתה-ש-מהדורת-אוגוסט-2020.pdf#149",
   "source": "llm",
   "description": {
-    "title": "ביטוח דירה ותכולתה",
-    "summary": "This table details insurance payouts for apartment and contents insurance. It outlines how compensation is calculated based on replacement cost or actual cash value, and specifies conditions for different types of loss.",
-    "embed_passage": "פוליסת ביטוח דירה ותכולתה מספקת כיסוי לנזקים שנגרמו לרכוש. תגמולי הביטוח משולמים לפי ערך כינון או ערך שיפוי, בהתאם לנסיבות. לדוגמה, במקרה של אובדן בגדים, לא ישולמו תגמולי ביטוח לפי ערך כינון.",
-    "row_axis": "Scenario for insurance payout (e.g., separate insurance amount specified for an item, no separate amount specified)",
-    "column_axis": "Type of payout (e.g., replacement cost, actual cash value)",
+    "title": "תגמולי ביטוח",
+    "summary": "This table details insurance payouts based on different scenarios. It outlines conditions for payment based on reconstruction, replacement, or compensation for lost or damaged property.",
+    "embed_passage": "טבלה זו מפרטת את תגמולי הביטוח בהתאם לתנאים שונים, כגון שחזור, תיקון או החלפה של רכוש שאבד או ניזוק. תגמולי הביטוח לפי ערך כינון מותנים בהקמה מחדש של הרכוש, או תיקון, או החלפה שלו. במקרים מסוימים, תגמולי הביטוח ישולמו לפי ערך שיפוי. פוליסה לביטוח דירה ותכולתה ש מהדורת אוגוסט 2020 עוסקת בתשלום תגמולים עבור אובדן או נזק לרכוש, כולל בגדים, רכוש שאבד או ניזוק, ופריטי תכולה שונים. תגמולי הביטוח ישולמו לפי שווי הרכוש כחדש ביום ביצוע הכינון, או לפי שוויו כחדש ביום תשלום תגמולי הביטוח.",
+    "row_axis": "Scenario for insurance payout",
+    "column_axis": "Payout conditions/details",
     "units": [],
     "notable_values": [
-      "30 days: timeframe for payout of undisputed claims",
-      "30 days: timeframe for insurer to provide information",
-      "1961: year of the Interest Law"
+      "בגדים: לא ישולמו תגמולי ביטוח לפי ערך כינון",
+      "תגמולי ביטוח: לפי ערך כינון",
+      "תגמולי ביטוח: לפי ערך שיפוי"
     ],
     "product_hints": [
-      "ביטוח דירה ותכולתה"
+      "פוליסה לביטוח דירה ותכולתה ש מהדורת אוגוסט 2020"
     ]
   },
   "sketch": ")ד(  לא נקבע סכום ביטוח נפרד לפריט מפריטי התכולה, אך נקבע ברשימה כי תגמולי הביטוח יהיו לפי ערך כינון, ישולמו תגמולי הביטוח בעד אובדן או נזק שנגרמו לו לפי ערך כינון.\n)ה( לא ישולמו תגמולי ביטוח לפי ערך כינון בשל אבדן או נזק שנגרם לבגדים בלבד.\nתגמולי ביטוח, לפי סעיף זה, ישולמו לפי שווי הרכוש כחדש ביום ביצוע הכינון, או לפי )ו( שוויו כחדש ביום תשלום תגמולי הביטוח, לפי המוקדם משני התאריכים.",
-  "embed_text": "פוליסת ביטוח דירה ותכולתה מספקת כיסוי לנזקים שנגרמו לרכוש. תגמולי הביטוח משולמים לפי ערך כינון או ערך שיפוי, בהתאם לנסיבות. לדוגמה, במקרה של אובדן בגדים, לא ישולמו תגמולי ביטוח לפי ערך כינון.",
-  "payload": "טבלה: ביטוח דירה ותכולתה\nThis table details insurance payouts for apartment and contents insurance. It outlines how compensation is calculated based on replacement cost or actual cash value, and specifies conditions for different types of loss.\nממדים: Scenario for insurance payout (e.g., separate insurance amount specified for an item, no separate amount specified), Type of payout (e.g., replacement cost, actual cash value)\n\n)ד(  לא נקבע סכום ביטוח נפרד לפריט מפריטי התכולה, אך נקבע ברשימה כי תגמולי הביטוח יהיו לפי ערך כינון, ישולמו תגמולי הביטוח בעד אובדן או נזק שנגרמו לו לפי ערך כינון.\n)ה( לא ישולמו תגמולי ביטוח לפי ערך כינון בשל אבדן או נזק שנגרם לבגדים בלבד.\nתגמולי ביטוח, לפי סעיף זה, ישולמו לפי שווי הרכוש כחדש ביום ביצוע הכינון, או לפי )ו( שוויו כחדש ביום תשלום תגמולי הביטוח, לפי המוקדם משני התאריכים."
+  "embed_text": "טבלה זו מפרטת את תגמולי הביטוח בהתאם לתנאים שונים, כגון שחזור, תיקון או החלפה של רכוש שאבד או ניזוק. תגמולי הביטוח לפי ערך כינון מותנים בהקמה מחדש של הרכוש, או תיקון, או החלפה שלו. במקרים מסוימים, תגמולי הביטוח ישולמו לפי ערך שיפוי. פוליסה לביטוח דירה ותכולתה ש מהדורת אוגוסט 2020 עוסקת בתשלום תגמולים עבור אובדן או נזק לרכוש, כולל בגדים, רכוש שאבד או ניזוק, ופריטי תכולה שונים. תגמולי הביטוח ישולמו לפי שווי הרכוש כחדש ביום ביצוע הכינון, או לפי שוויו כחדש ביום תשלום תגמולי הביטוח. This table details insurance payouts based on different scenarios. It outlines conditions for payment based on reconstruction, replacement, or compensation for lost or damaged property.",
+  "payload": "טבלה: תגמולי ביטוח\nThis table details insurance payouts based on different scenarios. It outlines conditions for payment based on reconstruction, replacement, or compensation for lost or damaged property.\nממדים: Scenario for insurance payout, Payout conditions/details\n\n)ד(  לא נקבע סכום ביטוח נפרד לפריט מפריטי התכולה, אך נקבע ברשימה כי תגמולי הביטוח יהיו לפי ערך כינון, ישולמו תגמולי הביטוח בעד אובדן או נזק שנגרמו לו לפי ערך כינון.\n)ה( לא ישולמו תגמולי ביטוח לפי ערך כינון בשל אבדן או נזק שנגרם לבגדים בלבד.\nתגמולי ביטוח, לפי סעיף זה, ישולמו לפי שווי הרכוש כחדש ביום ביצוע הכינון, או לפי )ו( שוויו כחדש ביום תשלום תגמולי הביטוח, לפי המוקדם משני התאריכים."
 }

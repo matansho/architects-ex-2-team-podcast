@@ -3,25 +3,24 @@
   "source": "llm",
   "description": {
     "title": "חריגים לפוליסה",
-    "summary": "This table lists exclusions to an insurance policy, detailing events or circumstances under which coverage is not provided. It helps determine what is *not* covered by the 'עד הגג' home insurance policy.",
-    "embed_passage": "פוליסת 'עד הגג' לביטוח בית משותף אינה מכסה נזק תוצאתי כלשהו למבוטח. לדוגמה, אובדן או נזק למכשירים חשמליים כתוצאה מיתר מתח יעלה 10 ש\"ח, בעוד שאובדן או נזק הנובע מעבודות בניה יעלה 11 ש\"ח. הפוליסה גם אינה מכסה נזק למתקני איסוף אשפה.",
-    "row_axis": "exclusion type",
-    "column_axis": "description/details",
-    "units": [
-      "ש\"ח"
-    ],
+    "summary": "This table lists exclusions to an insurance policy, specifically detailing types of damage or loss not covered. It is used to determine what events or circumstances are not eligible for claims.",
+    "embed_passage": "טבלה זו מפרטת חריגים לפוליסת ביטוח, המציינת סוגי נזקים או אובדנים שאינם מכוסים. ניתן לחפש חריגים ספציפיים לפי סוג הנזק או האירוע הכלול בפוליסת 'עד הגג' לביטוח בית משותף. החריגים כוללים נזק תוצאתי, נזק למכשירים חשמליים, נזק מעבודות בנייה, ונזק למתקני איסוף אשפה. אובדן או נזק כתוצאה מיתר מתח, עומס יתר, קצר חשמלי, קשת חשמלית וחימום עצמי אינם מכוסים. כמו כן, נזק הנובע מעבודות שיפוץ או חיזוק מבנים (תמ״א 38) אינו כלול. מתקני איסוף אשפה, כגון פחים ומכולות, אינם מכוסים.",
+    "row_axis": "סוג חריג",
+    "column_axis": "תיאור החריג",
+    "units": [],
     "notable_values": [
-      "exclusion 9: consequential damage",
-      "exclusion 10: electrical damage due to power surge",
-      "exclusion 11: damage from construction/renovation",
-      "exclusion 12: damage to waste collection facilities",
-      "תמ\"א 38: structural reinforcement (exclusion 11)"
+      "נזק תוצאתי: כלשהו",
+      "מכשירים חשמליים: יתר מתח",
+      "עבודות בנייה: שיפור",
+      "מתקני אשפה: פחים",
+      "תמ״א 38: חיזוק מבנים"
     ],
     "product_hints": [
-      "עד הגג"
+      "עד הגג",
+      "ביטוח בית משותף"
     ]
   },
   "sketch": ".  נזק תוצאתי כלשהו שנגרם למבוטח או למוטב. 9\n, . אבדן או נזק שנגרמו למכשירים חשמליים ולמתקנים חשמליים כתוצאה מיתר מתח 10 עומס יתר, קצר, קשת חשמלית וחימום עצמי.\n, . אובדן או נזק הנובע במישרין ו/או בעקיפין ו/או בקשר עם ביצוע עבודות בניה, שיפור 11 תחזוקה ושיפוץ מכל סוג; לרבות, ומבלי לגרוע מכלליות האמור, עבודות חיזוק מבנים ( מכל סוג. 38 קיימים בפני רעידות אדמה )תמ\"א\n. אובדן או נזק למתקני איסוף אשפה, לרבות: פחים, עגלות ומכולות אשפה, פחים ועגלות 12 למיחזור ומתקנים לגריסת אשפה.",
-  "embed_text": "פוליסת 'עד הגג' לביטוח בית משותף אינה מכסה נזק תוצאתי כלשהו למבוטח. לדוגמה, אובדן או נזק למכשירים חשמליים כתוצאה מיתר מתח יעלה 10 ש\"ח, בעוד שאובדן או נזק הנובע מעבודות בניה יעלה 11 ש\"ח. הפוליסה גם אינה מכסה נזק למתקני איסוף אשפה.",
-  "payload": "טבלה: חריגים לפוליסה\nThis table lists exclusions to an insurance policy, detailing events or circumstances under which coverage is not provided. It helps determine what is *not* covered by the 'עד הגג' home insurance policy.\nממדים: exclusion type, description/details\n\n.  נזק תוצאתי כלשהו שנגרם למבוטח או למוטב. 9\n, . אבדן או נזק שנגרמו למכשירים חשמליים ולמתקנים חשמליים כתוצאה מיתר מתח 10 עומס יתר, קצר, קשת חשמלית וחימום עצמי.\n, . אובדן או נזק הנובע במישרין ו/או בעקיפין ו/או בקשר עם ביצוע עבודות בניה, שיפור 11 תחזוקה ושיפוץ מכל סוג; לרבות, ומבלי לגרוע מכלליות האמור, עבודות חיזוק מבנים ( מכל סוג. 38 קיימים בפני רעידות אדמה )תמ\"א\n. אובדן או נזק למתקני איסוף אשפה, לרבות: פחים, עגלות ומכולות אשפה, פחים ועגלות 12 למיחזור ומתקנים לגריסת אשפה."
+  "embed_text": "טבלה זו מפרטת חריגים לפוליסת ביטוח, המציינת סוגי נזקים או אובדנים שאינם מכוסים. ניתן לחפש חריגים ספציפיים לפי סוג הנזק או האירוע הכלול בפוליסת 'עד הגג' לביטוח בית משותף. החריגים כוללים נזק תוצאתי, נזק למכשירים חשמליים, נזק מעבודות בנייה, ונזק למתקני איסוף אשפה. אובדן או נזק כתוצאה מיתר מתח, עומס יתר, קצר חשמלי, קשת חשמלית וחימום עצמי אינם מכוסים. כמו כן, נזק הנובע מעבודות שיפוץ או חיזוק מבנים (תמ״א 38) אינו כלול. מתקני איסוף אשפה, כגון פחים ומכולות, אינם מכוסים. This table lists exclusions to an insurance policy, specifically detailing types of damage or loss not covered. It is used to determine what events or circumstances are not eligible for claims.",
+  "payload": "טבלה: חריגים לפוליסה\nThis table lists exclusions to an insurance policy, specifically detailing types of damage or loss not covered. It is used to determine what events or circumstances are not eligible for claims.\nממדים: סוג חריג, תיאור החריג\n\n.  נזק תוצאתי כלשהו שנגרם למבוטח או למוטב. 9\n, . אבדן או נזק שנגרמו למכשירים חשמליים ולמתקנים חשמליים כתוצאה מיתר מתח 10 עומס יתר, קצר, קשת חשמלית וחימום עצמי.\n, . אובדן או נזק הנובע במישרין ו/או בעקיפין ו/או בקשר עם ביצוע עבודות בניה, שיפור 11 תחזוקה ושיפוץ מכל סוג; לרבות, ומבלי לגרוע מכלליות האמור, עבודות חיזוק מבנים ( מכל סוג. 38 קיימים בפני רעידות אדמה )תמ\"א\n. אובדן או נזק למתקני איסוף אשפה, לרבות: פחים, עגלות ומכולות אשפה, פחים ועגלות 12 למיחזור ומתקנים לגריסת אשפה."
 }

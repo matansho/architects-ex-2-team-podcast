@@ -2,22 +2,23 @@
   "id": "pdf:car/files/מהדורת-יוני-2023-upgrade-פוליסת-הראל.pdf#33",
   "source": "llm",
   "description": {
-    "title": "פוליסת הראל - פטירת בעל הפוליסה",
-    "summary": "This table details the policy transfer and refund process upon the death of the policyholder for a 'הראל' car insurance policy. It outlines how ownership transfers to the vehicle's heir and how remaining premiums are handled if a new insurance policy is taken out.",
-    "embed_passage": "פוליסת הראל מתייחסת למקרה של פטירת בעל הפוליסה, ומסבירה כי הבעלות תעבור ליורש הרכב. אם יבוטח הרכב בפוליסה נוספת, פוליסת הראל תבוטל והמבטח ישיב ליורש חלק יחסי מדמי הביטוח ששולמו. לדוגמה, אם נותרו 7 ימים לתום תקופת הביטוח המקורית מתוך 30 ימים, יוחזר החלק היחסי.",
-    "row_axis": "scenarios related to the death of the policyholder",
-    "column_axis": "policy implications (ownership transfer, premium refund)",
+    "title": "פטירת בעל הפוליסה",
+    "summary": "This table details what happens to the insurance policy upon the death of the policyholder. It outlines the transfer of ownership to the vehicle heir and the potential cancellation of the policy if another insurance is taken out.",
+    "embed_passage": "טבלה זו מתארת את הטיפול בפוליסת ביטוח במקרה של פטירת בעל הפוליסה. במקרה של פטירה, הבעלות על הפוליסה עוברת ליורש הרכב, אשר ייראה כבעל הפוליסה. אם יבוטח הרכב בפוליסה נוספת לאחר פטירת בעל הפוליסה, הפוליסה הקיימת תבוטל והמבטח ישיב ליורש חלק יחסי מדמי הביטוח. הפוליסה הזו היא פוליסת הראל. החזר דמי הביטוח יחושב בהתאם למספר הימים שנותרו בתקופת הביטוח המקורית.",
+    "row_axis": "Scenarios related to the death of the policyholder",
+    "column_axis": "Policy implications (ownership transfer, cancellation, refund)",
     "units": [],
     "notable_values": [
-      "policy owner death: ownership transfer to heir",
-      "premium refund upon new insurance",
-      "refund calculation based on remaining days"
+      "פוליסה: פטירת בעל הפוליסה",
+      "יורש הרכב: בעל הפוליסה החדש",
+      "ביטוח נוסף: ביטול הפוליסה המקורית",
+      "החזר כספי: חלק יחסי מדמי הביטוח"
     ],
     "product_hints": [
-      "הראל"
+      "פוליסת הראל"
     ]
   },
   "sketch": ". פטירת בעל הפוליסה 14\nנפטר בעל הפוליסה, תעבור הבעלות בפוליסה לידי יורש הרכב, ויראו את היורש כבעל .14.1 הפוליסה.\n.  אם לאחר פטירת בעל הפוליסה בוטח הרכב בפוליסת ביטוח נוספת לפוליסה זו אשר 14.2 הוצאה לפי דרישות פקודת הביטוח, תתבטל פוליסה זו ביום כניסתו לתוקף של הביטוח הנוסף כאמור, והמבטח ישיב ליורש הרכב את החלק היחסי מדמי הביטוח ששולמו; החלק היחסי כאמור יחושב על ידי הכפלת דמי הביטוח שגבה המבטח, ביחס שבין מספר הימים שנותרו במועד הביטול עד תום תקופת הביטוח המקורית, ובין מספר הימים שבתקופת הביטוח המקורית.",
-  "embed_text": "פוליסת הראל מתייחסת למקרה של פטירת בעל הפוליסה, ומסבירה כי הבעלות תעבור ליורש הרכב. אם יבוטח הרכב בפוליסה נוספת, פוליסת הראל תבוטל והמבטח ישיב ליורש חלק יחסי מדמי הביטוח ששולמו. לדוגמה, אם נותרו 7 ימים לתום תקופת הביטוח המקורית מתוך 30 ימים, יוחזר החלק היחסי.",
-  "payload": "טבלה: פוליסת הראל - פטירת בעל הפוליסה\nThis table details the policy transfer and refund process upon the death of the policyholder for a 'הראל' car insurance policy. It outlines how ownership transfers to the vehicle's heir and how remaining premiums are handled if a new insurance policy is taken out.\nממדים: scenarios related to the death of the policyholder, policy implications (ownership transfer, premium refund)\n\n. פטירת בעל הפוליסה 14\nנפטר בעל הפוליסה, תעבור הבעלות בפוליסה לידי יורש הרכב, ויראו את היורש כבעל .14.1 הפוליסה.\n.  אם לאחר פטירת בעל הפוליסה בוטח הרכב בפוליסת ביטוח נוספת לפוליסה זו אשר 14.2 הוצאה לפי דרישות פקודת הביטוח, תתבטל פוליסה זו ביום כניסתו לתוקף של הביטוח הנוסף כאמור, והמבטח ישיב ליורש הרכב את החלק היחסי מדמי הביטוח ששולמו; החלק היחסי כאמור יחושב על ידי הכפלת דמי הביטוח שגבה המבטח, ביחס שבין מספר הימים שנותרו במועד הביטול עד תום תקופת הביטוח המקורית, ובין מספר הימים שבתקופת הביטוח המקורית."
+  "embed_text": "טבלה זו מתארת את הטיפול בפוליסת ביטוח במקרה של פטירת בעל הפוליסה. במקרה של פטירה, הבעלות על הפוליסה עוברת ליורש הרכב, אשר ייראה כבעל הפוליסה. אם יבוטח הרכב בפוליסה נוספת לאחר פטירת בעל הפוליסה, הפוליסה הקיימת תבוטל והמבטח ישיב ליורש חלק יחסי מדמי הביטוח. הפוליסה הזו היא פוליסת הראל. החזר דמי הביטוח יחושב בהתאם למספר הימים שנותרו בתקופת הביטוח המקורית. This table details what happens to the insurance policy upon the death of the policyholder. It outlines the transfer of ownership to the vehicle heir and the potential cancellation of the policy if another insurance is taken out. בין הערכים בטבלה: ביטוח נוסף: ביטול הפוליסה המקורית.",
+  "payload": "טבלה: פטירת בעל הפוליסה\nThis table details what happens to the insurance policy upon the death of the policyholder. It outlines the transfer of ownership to the vehicle heir and the potential cancellation of the policy if another insurance is taken out.\nממדים: Scenarios related to the death of the policyholder, Policy implications (ownership transfer, cancellation, refund)\n\n. פטירת בעל הפוליסה 14\nנפטר בעל הפוליסה, תעבור הבעלות בפוליסה לידי יורש הרכב, ויראו את היורש כבעל .14.1 הפוליסה.\n.  אם לאחר פטירת בעל הפוליסה בוטח הרכב בפוליסת ביטוח נוספת לפוליסה זו אשר 14.2 הוצאה לפי דרישות פקודת הביטוח, תתבטל פוליסה זו ביום כניסתו לתוקף של הביטוח הנוסף כאמור, והמבטח ישיב ליורש הרכב את החלק היחסי מדמי הביטוח ששולמו; החלק היחסי כאמור יחושב על ידי הכפלת דמי הביטוח שגבה המבטח, ביחס שבין מספר הימים שנותרו במועד הביטול עד תום תקופת הביטוח המקורית, ובין מספר הימים שבתקופת הביטוח המקורית."
 }

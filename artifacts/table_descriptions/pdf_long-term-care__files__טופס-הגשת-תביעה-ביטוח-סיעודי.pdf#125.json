@@ -2,24 +2,18 @@
   "id": "pdf:long-term-care/files/טופס-הגשת-תביעה-ביטוח-סיעודי.pdf#125",
   "source": "llm",
   "description": {
-    "title": "הודעת תשלום תביעה סיעודית",
-    "summary": "This table outlines the information provided to a claimant regarding a long-term care insurance claim payment. It details the components of approved payments and the reasons for any partial denials.",
-    "embed_passage": "הראל תציע לתובע הצעת פשרה סבירה למועד ההצעה. בכל מקרה בו הסכימו הצדדים על תשלום במסגרת הסדר פשרה, תהיה הראל פטורה ממתן הודעה לפי סעיף זה החל מאותו מועד. הצעת הפשרה הכתובה תכלול את מקרה הביטוח, הנימוקים שביסוד הפשרה, מרכיבי התשלום שאינם שנויים במחלוקת ככל שישנם.",
-    "row_axis": "Scenarios related to claim payment decisions (full approval, partial approval)",
-    "column_axis": "Details of the notification provided to the claimant (payment components, reasons for denial, etc.)",
+    "title": "הודעה על תשלום חלקי / דחייה",
+    "summary": "This table outlines the notification process for partial claim payments or claim rejections. It details the information that must be provided to the claimant in writing, including payment breakdowns and reasons for denial.",
+    "embed_passage": "טופס זה מתאר את אופן מתן הודעה על תשלום חלקי או דחיית תביעה ביטוח סיעודי. ההודעה צריכה לפרט את מרכיבי התשלום שאושרו, ואת הנימוקים לדחיית חלק מהתביעה. במקרה של תשלום מלא, אין צורך לשלוח מסמכים מסוימים, מלבד העתק של מערכת הכללים. ביטוח סיעודי מספק כיסוי למקרים של אובדן עצמאות תפקודית, והטופס הזה מבטיח שהתובע יקבל הסבר מפורט על ההחלטה שהתקבלה בנוגע לתביעתו.",
+    "row_axis": "סוג החלטה (תשלום חלקי/דחייה)",
+    "column_axis": "מרכיבי ההודעה",
     "units": [],
-    "notable_values": [
-      "סעיף ד': Reference to a section detailing required documents.",
-      "1: Reasonable offer of settlement.",
-      "2: Written settlement offer and time to review.",
-      "3: Components of payment not in dispute."
-    ],
+    "notable_values": [],
     "product_hints": [
-      "ביטוח סיעודי",
-      "הראל"
+      "ביטוח סיעודי"
     ]
   },
   "sketch": ".  אם נתקבלה החלטה על תשלום חלקי של התביעה תוך דחיית חלק מהתביעה לגבי סכומים שנדרשו או חלק מהעילות שנדרשו - תימסר 2 לתובע במועד התשלום הודעה בכתב הכוללת שני חלקים כמפורט להלן:\nשיפרט את מרכיביו של התשלום שאושר בהתאם למפורט לעיל; החלק הראשון,\n, שיפרט את הנימוקים לדחיית חלק מהתביעה, כמפורט בהמשך. החלק השני\nבכל מקרה בו נתקבלה החלטה על תשלום התביעה, לא יהיה צורך במשלוח המסמכים המפורטים בסעיף ד' לעיל, למעט העתק מערכת כללים זו.",
-  "embed_text": "הראל תציע לתובע הצעת פשרה סבירה למועד ההצעה. בכל מקרה בו הסכימו הצדדים על תשלום במסגרת הסדר פשרה, תהיה הראל פטורה ממתן הודעה לפי סעיף זה החל מאותו מועד. הצעת הפשרה הכתובה תכלול את מקרה הביטוח, הנימוקים שביסוד הפשרה, מרכיבי התשלום שאינם שנויים במחלוקת ככל שישנם.",
-  "payload": "טבלה: הודעת תשלום תביעה סיעודית\nThis table outlines the information provided to a claimant regarding a long-term care insurance claim payment. It details the components of approved payments and the reasons for any partial denials.\nממדים: Scenarios related to claim payment decisions (full approval, partial approval), Details of the notification provided to the claimant (payment components, reasons for denial, etc.)\n\n.  אם נתקבלה החלטה על תשלום חלקי של התביעה תוך דחיית חלק מהתביעה לגבי סכומים שנדרשו או חלק מהעילות שנדרשו - תימסר 2 לתובע במועד התשלום הודעה בכתב הכוללת שני חלקים כמפורט להלן:\nשיפרט את מרכיביו של התשלום שאושר בהתאם למפורט לעיל; החלק הראשון,\n, שיפרט את הנימוקים לדחיית חלק מהתביעה, כמפורט בהמשך. החלק השני\nבכל מקרה בו נתקבלה החלטה על תשלום התביעה, לא יהיה צורך במשלוח המסמכים המפורטים בסעיף ד' לעיל, למעט העתק מערכת כללים זו."
+  "embed_text": "טופס זה מתאר את אופן מתן הודעה על תשלום חלקי או דחיית תביעה ביטוח סיעודי. ההודעה צריכה לפרט את מרכיבי התשלום שאושרו, ואת הנימוקים לדחיית חלק מהתביעה. במקרה של תשלום מלא, אין צורך לשלוח מסמכים מסוימים, מלבד העתק של מערכת הכללים. ביטוח סיעודי מספק כיסוי למקרים של אובדן עצמאות תפקודית, והטופס הזה מבטיח שהתובע יקבל הסבר מפורט על ההחלטה שהתקבלה בנוגע לתביעתו. This table outlines the notification process for partial claim payments or claim rejections. It details the information that must be provided to the claimant in writing, including payment breakdowns and reasons for denial.",
+  "payload": "טבלה: הודעה על תשלום חלקי / דחייה\nThis table outlines the notification process for partial claim payments or claim rejections. It details the information that must be provided to the claimant in writing, including payment breakdowns and reasons for denial.\nממדים: סוג החלטה (תשלום חלקי/דחייה), מרכיבי ההודעה\n\n.  אם נתקבלה החלטה על תשלום חלקי של התביעה תוך דחיית חלק מהתביעה לגבי סכומים שנדרשו או חלק מהעילות שנדרשו - תימסר 2 לתובע במועד התשלום הודעה בכתב הכוללת שני חלקים כמפורט להלן:\nשיפרט את מרכיביו של התשלום שאושר בהתאם למפורט לעיל; החלק הראשון,\n, שיפרט את הנימוקים לדחיית חלק מהתביעה, כמפורט בהמשך. החלק השני\nבכל מקרה בו נתקבלה החלטה על תשלום התביעה, לא יהיה צורך במשלוח המסמכים המפורטים בסעיף ד' לעיל, למעט העתק מערכת כללים זו."
 }

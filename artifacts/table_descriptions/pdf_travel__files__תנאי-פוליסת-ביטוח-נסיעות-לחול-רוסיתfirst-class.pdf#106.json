@@ -3,19 +3,17 @@
   "source": "llm",
   "description": {
     "title": "תנאי פוליסת ביטוח נסיעות",
-    "summary": "This table outlines the conditions of a travel insurance policy. It details how changes to the policy, extensions, and contradictions between policy sections are handled.",
-    "embed_passage": "פוליסת ביטוח נסיעות לחול רוסיתfirst-class מגדירה כי כל שינוי או ויתור חייב להיות כלול בכתב כדי להיות מחייב לגבי הרחבות שנרכשו. במקרה של סתירה בין הרחבה לתנאי הפוליסה הכלליים, ההרחבה גוברת. תקופת ההתיישנות לתביעות היא 5 שנים מיום האירוע.",
-    "row_axis": "Policy clauses / conditions",
-    "column_axis": "Details of the clause",
+    "summary": "This table outlines conditions related to policy amendments, waivers, and deviations for a travel insurance policy. It specifies how changes to extensions are binding and how conflicts between extensions and the general policy terms are resolved.",
+    "embed_passage": "טבלה זו מתארת את התנאים לשינויים, ויתורים או חריגות בפוליסת ביטוח נסיעות. השינויים יחייבו רק אם יכללו באופן חד משמעי בהרחבות שנרכשו. במקרה של סתירה בין הרחבה נרכשת לתנאי הפוליסה הכלליים, ההרחבה גוברת. פוליסת ביטוח נסיעות רוסיתfirst-class כוללת תנאים אלו. הרחבות, ויתורים, חריגות, תנאים כלליים, סתירות.",
+    "row_axis": "Policy amendment/waiver/deviation clauses",
+    "column_axis": "Conditions and precedence",
     "units": [],
-    "notable_values": [
-      "period of limitation: 5 years"
-    ],
+    "notable_values": [],
     "product_hints": [
-      "ביטוח נסיעות לחול רוסיתfirst-class"
+      "רוסיתfirst-class"
     ]
   },
   "sketch": "12.6.3. Любые изменения и\\или уступки и\\или отклонения от сказанного в данном полисе будут считаться обязывающими в отношении расширений, которые будут приобретены, только если они будут однозначно включены в таковой.\n12.6.4. В случае наличия противоречий между сказанным в приобретенном расширении и в других приложениях к данному полису и\\или к сказанному в общих условиях данного полиса, обязывающим для расширения будет считаться то, что сказано в таковом.",
-  "embed_text": "פוליסת ביטוח נסיעות לחול רוסיתfirst-class מגדירה כי כל שינוי או ויתור חייב להיות כלול בכתב כדי להיות מחייב לגבי הרחבות שנרכשו. במקרה של סתירה בין הרחבה לתנאי הפוליסה הכלליים, ההרחבה גוברת. תקופת ההתיישנות לתביעות היא 5 שנים מיום האירוע.",
-  "payload": "טבלה: תנאי פוליסת ביטוח נסיעות\nThis table outlines the conditions of a travel insurance policy. It details how changes to the policy, extensions, and contradictions between policy sections are handled.\nממדים: Policy clauses / conditions, Details of the clause\n\n12.6.3. Любые изменения и\\или уступки и\\или отклонения от сказанного в данном полисе будут считаться обязывающими в отношении расширений, которые будут приобретены, только если они будут однозначно включены в таковой.\n12.6.4. В случае наличия противоречий между сказанным в приобретенном расширении и в других приложениях к данному полису и\\или к сказанному в общих условиях данного полиса, обязывающим для расширения будет считаться то, что сказано в таковом."
+  "embed_text": "טבלה זו מתארת את התנאים לשינויים, ויתורים או חריגות בפוליסת ביטוח נסיעות. השינויים יחייבו רק אם יכללו באופן חד משמעי בהרחבות שנרכשו. במקרה של סתירה בין הרחבה נרכשת לתנאי הפוליסה הכלליים, ההרחבה גוברת. פוליסת ביטוח נסיעות רוסיתfirst-class כוללת תנאים אלו. הרחבות, ויתורים, חריגות, תנאים כלליים, סתירות. This table outlines conditions related to policy amendments, waivers, and deviations for a travel insurance policy. It specifies how changes to extensions are binding and how conflicts between extensions and the general policy terms are resolved.",
+  "payload": "טבלה: תנאי פוליסת ביטוח נסיעות\nThis table outlines conditions related to policy amendments, waivers, and deviations for a travel insurance policy. It specifies how changes to extensions are binding and how conflicts between extensions and the general policy terms are resolved.\nממדים: Policy amendment/waiver/deviation clauses, Conditions and precedence\n\n12.6.3. Любые изменения и\\или уступки и\\или отклонения от сказанного в данном полисе будут считаться обязывающими в отношении расширений, которые будут приобретены, только если они будут однозначно включены в таковой.\n12.6.4. В случае наличия противоречий между сказанным в приобретенном расширении и в других приложениях к данному полису и\\или к сказанному в общих условиях данного полиса, обязывающим для расширения будет считаться то, что сказано в таковом."
 }

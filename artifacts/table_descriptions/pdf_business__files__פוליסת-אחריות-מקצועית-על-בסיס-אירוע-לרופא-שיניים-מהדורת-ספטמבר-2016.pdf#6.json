@@ -2,25 +2,24 @@
   "id": "pdf:business/files/פוליסת-אחריות-מקצועית-על-בסיס-אירוע-לרופא-שיניים-מהדורת-ספטמבר-2016.pdf#6",
   "source": "llm",
   "description": {
-    "title": "פוליסת אחריות מקצועית לרופא שיניים",
-    "summary": "This table defines who is considered 'המבוטח' (the insured) under a professional liability insurance policy for dentists. It outlines the conditions for coverage, including scenarios involving company ownership, death, and employment of dental assistants.",
-    "embed_passage": "פוליסת אחריות מקצועית לרופא שיניים מגדירה את המבוטח כרופא שיניים בעל הסמכה בתוקף לעסוק בישראל. במקרה של מוות או פשיטת רגל, עזבון המבוטח יהיה המבוטח. הפוליסה כוללת גם אחריות מקצועית של סייעת או שיננית המועסקות על ידי המבוטח, בתנאי ששמן צויין בדף הרשימה.",
-    "row_axis": "definitions of 'המבוטח' (the insured)",
-    "column_axis": "conditions and scenarios related to insured status",
+    "title": "הגדרות פוליסה",
+    "summary": "This table defines key terms related to the professional liability insurance policy for dentists. It clarifies who is considered 'the insured' under different circumstances and includes coverage for dental assistants and hygienists.",
+    "embed_passage": "טבלה זו מגדירה מונחים מרכזיים הקשורים לפוליסת ביטוח אחריות מקצועית לרופאי שיניים. היא מבהירה מי נחשב 'המבוטח' בנסיבות שונות, וכוללת כיסוי עבור סייעות לרופא השיניים ושינניות מוסמכות. הפוליסה כוללת גם את אחריותה המקצועית של סייעת לרופא השיניים המבוטח ו/או שיננית ברות הסמכה בתוקף, במסגרת עיסוקן כאמור אצל המבוטח. המבוטח מוגדר כרופא שיניים בעל הסמכה בתוקף לעסוק בישראל ברפואת שיניים, או עזבון המבוטח/יורשי העזבון/נציגיו החוקיים. במקרה של מוות, אי כשירות או פשיטת רגל, עזבון המבוטח יהיה המבוטח. הפוליסה רלוונטית לרופא שיניים, סייעת, ושיננית.",
+    "row_axis": "definition of insured",
+    "column_axis": "circumstance",
     "units": [],
     "notable_values": [
-      "ownership: 99% חברה בע\"מ",
-      "employee status: העובד היחיד בחברה",
-      "assistant coverage: סייעת לרופא השיניים",
-      "assistant qualification: בנות תוקף",
-      "assistant listing: שמה צויין בדף הרשימה"
+      "insured: רופא שיניים בעל הסמכה בתוקף",
+      "insured: עזבון המבוטח",
+      "insured: יורשי העזבון",
+      "insured: סייעת לרופא השיניים",
+      "insured: שיננית ברות הסמכה"
     ],
     "product_hints": [
-      "פוליסת אחריות מקצועית לרופא שיניים",
-      "אחריות מקצועית"
+      "פוליסת אחריות מקצועית לרופא שיניים"
     ]
   },
   "sketch": "רופא שיניים בעל הסמכה בת תוקף לעסוק בישראל ברפואת שיניים - או : המבוטח .1.4 מהמניות בה והוא 99% חברה בע\"מ, שבעל המניות בחברה הוא בעלים של לפחות העובד היחיד בחברה, והוא רופא שיניים כאמור ומשמש גם מנהלה ושמו נקוב בדף הרשימה כמבוטח.\nבמקרה של מוות, אי כשירות או פשיטת רגל - עזבון המבוטח/ יורשי העזבון/ נציגיו החוקיים של המבוטח - לפי העניין - יהיו המבוטח. למען הסר ספק ועל אף האמור לעיל, הביטוח יכלול גם את אחריותה המקצועית של סייעת לרופא השיניים המבוטח ו/או שיננית ברות הסמכה בנות תוקף, במסגרת עיסוקן כאמור אצל המבוטח ואשר מועסקות על ידו בתקופת הביטוח ובלבד ששמה צויין בדף הרשימה.",
-  "embed_text": "פוליסת אחריות מקצועית לרופא שיניים מגדירה את המבוטח כרופא שיניים בעל הסמכה בתוקף לעסוק בישראל. במקרה של מוות או פשיטת רגל, עזבון המבוטח יהיה המבוטח. הפוליסה כוללת גם אחריות מקצועית של סייעת או שיננית המועסקות על ידי המבוטח, בתנאי ששמן צויין בדף הרשימה.",
-  "payload": "טבלה: פוליסת אחריות מקצועית לרופא שיניים\nThis table defines who is considered 'המבוטח' (the insured) under a professional liability insurance policy for dentists. It outlines the conditions for coverage, including scenarios involving company ownership, death, and employment of dental assistants.\nממדים: definitions of 'המבוטח' (the insured), conditions and scenarios related to insured status\n\nרופא שיניים בעל הסמכה בת תוקף לעסוק בישראל ברפואת שיניים - או : המבוטח .1.4 מהמניות בה והוא 99% חברה בע\"מ, שבעל המניות בחברה הוא בעלים של לפחות העובד היחיד בחברה, והוא רופא שיניים כאמור ומשמש גם מנהלה ושמו נקוב בדף הרשימה כמבוטח.\nבמקרה של מוות, אי כשירות או פשיטת רגל - עזבון המבוטח/ יורשי העזבון/ נציגיו החוקיים של המבוטח - לפי העניין - יהיו המבוטח. למען הסר ספק ועל אף האמור לעיל, הביטוח יכלול גם את אחריותה המקצועית של סייעת לרופא השיניים המבוטח ו/או שיננית ברות הסמכה בנות תוקף, במסגרת עיסוקן כאמור אצל המבוטח ואשר מועסקות על ידו בתקופת הביטוח ובלבד ששמה צויין בדף הרשימה."
+  "embed_text": "טבלה זו מגדירה מונחים מרכזיים הקשורים לפוליסת ביטוח אחריות מקצועית לרופאי שיניים. היא מבהירה מי נחשב 'המבוטח' בנסיבות שונות, וכוללת כיסוי עבור סייעות לרופא השיניים ושינניות מוסמכות. הפוליסה כוללת גם את אחריותה המקצועית של סייעת לרופא השיניים המבוטח ו/או שיננית ברות הסמכה בתוקף, במסגרת עיסוקן כאמור אצל המבוטח. המבוטח מוגדר כרופא שיניים בעל הסמכה בתוקף לעסוק בישראל ברפואת שיניים, או עזבון המבוטח/יורשי העזבון/נציגיו החוקיים. במקרה של מוות, אי כשירות או פשיטת רגל, עזבון המבוטח יהיה המבוטח. הפוליסה רלוונטית לרופא שיניים, סייעת, ושיננית. This table defines key terms related to the professional liability insurance policy for dentists. It clarifies who is considered 'the insured' under different circumstances and includes coverage for dental assistants and hygienists.",
+  "payload": "טבלה: הגדרות פוליסה\nThis table defines key terms related to the professional liability insurance policy for dentists. It clarifies who is considered 'the insured' under different circumstances and includes coverage for dental assistants and hygienists.\nממדים: definition of insured, circumstance\n\nרופא שיניים בעל הסמכה בת תוקף לעסוק בישראל ברפואת שיניים - או : המבוטח .1.4 מהמניות בה והוא 99% חברה בע\"מ, שבעל המניות בחברה הוא בעלים של לפחות העובד היחיד בחברה, והוא רופא שיניים כאמור ומשמש גם מנהלה ושמו נקוב בדף הרשימה כמבוטח.\nבמקרה של מוות, אי כשירות או פשיטת רגל - עזבון המבוטח/ יורשי העזבון/ נציגיו החוקיים של המבוטח - לפי העניין - יהיו המבוטח. למען הסר ספק ועל אף האמור לעיל, הביטוח יכלול גם את אחריותה המקצועית של סייעת לרופא השיניים המבוטח ו/או שיננית ברות הסמכה בנות תוקף, במסגרת עיסוקן כאמור אצל המבוטח ואשר מועסקות על ידו בתקופת הביטוח ובלבד ששמה צויין בדף הרשימה."
 }

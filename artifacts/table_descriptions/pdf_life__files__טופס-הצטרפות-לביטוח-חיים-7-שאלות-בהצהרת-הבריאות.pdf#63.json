@@ -2,22 +2,24 @@
   "id": "pdf:life/files/טופס-הצטרפות-לביטוח-חיים-7-שאלות-בהצהרת-הבריאות.pdf#63",
   "source": "llm",
   "description": {
-    "title": "הצהרת סוכן",
-    "summary": "This table represents an agent's declaration regarding compliance with regulations when selling insurance products. It confirms the agent has fulfilled requirements for matching insurance to client needs and providing necessary information.",
-    "embed_passage": "בהראל, סוכן הביטוח מאשר כי מילא אחר כל הוראות הממונה על שוק ההון, ביטוח וחסכון בעת צירוף מועמד לביטוח. ההצהרה כוללת התאמת הביטוח לצרכי הלקוח ומסירת מידע מהותי, כפי שמפורט בסעיפים 1 ו-2. הסוכן גם מאשר כי צירוף לכיסוי נכות או מוות מתאונה נעשה בהתאם להוראות הממונה.",
-    "row_axis": "סעיפי הצהרת הסוכן",
+    "title": "הצהרת הסוכן",
+    "summary": "This table contains the agent’s declaration regarding compliance with the Supervisor of Capital Markets, Insurance and Savings instructions when adding insurance. It confirms that the agent fulfilled all instructions regarding matching the insurance to the applicant’s needs and providing the required material information.",
+    "embed_passage": "טופס זה מכיל הצהרת סוכן לגבי עמידה בהוראות הממונה על שוק ההון, ביטוח וחסכון בעת צירוף לביטוח. ההצהרה כוללת אישור כי ההתאמה לצרכי המועמד לביטוח נעשתה כראוי וכי המידע המהותי הנדרש סופק. טופס זה רלוונטי לצירוף לביטוח נכות ו/או מוות מתאונה, וכן לצירוף לביטוח תאונות אישיות. סעיפי חובה לחתימת הסוכן כוללים אישור על מילוי אחר הוראות הממונה וצירוף בהתאם להוראות הממונה. ביטוח הראל מופיע בהקשר של קבלת מידע מפורט אודות פרטים מהותיים.",
+    "row_axis": "סעיפי הצהרה",
     "column_axis": "אישור הסוכן",
     "units": [],
     "notable_values": [
-      "סעיף 1: צירוף לביטוח",
-      "סעיף 2: כיסוי נכות/מוות מתאונה"
+      "צירוף לביטוח נכות ו/או מוות מתאונה: בהתאם להוראות הממונה",
+      "צירוף לביטוח תאונות אישיות: בהתאם להוראות הממונה"
     ],
     "product_hints": [
-      "ביטוח חיים",
-      "הראל"
+      "ביטוח הראל",
+      "ביטוח נכות",
+      "ביטוח מוות מתאונה",
+      "ביטוח תאונות אישיות"
     ]
   },
   "sketch": ")סעיפי חובה לחתימת הסוכן( יד הצהרת הסוכן\nאני מאשר כי במסגרת הליך מכירת המוצר המפורט : .  הצהרת הסוכן על עמידה בהוראות הממונה על שוק ההון, ביטוח וחסכון לעניין צירוף לביטוח 1 בטופס זה, מילאתי אחר כל הוראות הממונה על פי חוזר צירוף לביטוח, ובכלל זה, התאמת הביטוח לצרכי המועמד לביטוח ומסירת המידע המהותי הנדרש.\nאני מצהיר כי ככל שהמבוטח צורף לכיסוי נכות ו/או מוות מתאונה, הצירוף נעשה על ידי בהתאם להוראות הממונה על שוק ההון, ביטוח וחסכון בחוזר .2 תאונות אישיות לעניין צירוף לביטוח תאונות אישיות.",
-  "embed_text": "בהראל, סוכן הביטוח מאשר כי מילא אחר כל הוראות הממונה על שוק ההון, ביטוח וחסכון בעת צירוף מועמד לביטוח. ההצהרה כוללת התאמת הביטוח לצרכי הלקוח ומסירת מידע מהותי, כפי שמפורט בסעיפים 1 ו-2. הסוכן גם מאשר כי צירוף לכיסוי נכות או מוות מתאונה נעשה בהתאם להוראות הממונה.",
-  "payload": "טבלה: הצהרת סוכן\nThis table represents an agent's declaration regarding compliance with regulations when selling insurance products. It confirms the agent has fulfilled requirements for matching insurance to client needs and providing necessary information.\nממדים: סעיפי הצהרת הסוכן, אישור הסוכן\n\n)סעיפי חובה לחתימת הסוכן( יד הצהרת הסוכן\nאני מאשר כי במסגרת הליך מכירת המוצר המפורט : .  הצהרת הסוכן על עמידה בהוראות הממונה על שוק ההון, ביטוח וחסכון לעניין צירוף לביטוח 1 בטופס זה, מילאתי אחר כל הוראות הממונה על פי חוזר צירוף לביטוח, ובכלל זה, התאמת הביטוח לצרכי המועמד לביטוח ומסירת המידע המהותי הנדרש.\nאני מצהיר כי ככל שהמבוטח צורף לכיסוי נכות ו/או מוות מתאונה, הצירוף נעשה על ידי בהתאם להוראות הממונה על שוק ההון, ביטוח וחסכון בחוזר .2 תאונות אישיות לעניין צירוף לביטוח תאונות אישיות."
+  "embed_text": "טופס זה מכיל הצהרת סוכן לגבי עמידה בהוראות הממונה על שוק ההון, ביטוח וחסכון בעת צירוף לביטוח. ההצהרה כוללת אישור כי ההתאמה לצרכי המועמד לביטוח נעשתה כראוי וכי המידע המהותי הנדרש סופק. טופס זה רלוונטי לצירוף לביטוח נכות ו/או מוות מתאונה, וכן לצירוף לביטוח תאונות אישיות. סעיפי חובה לחתימת הסוכן כוללים אישור על מילוי אחר הוראות הממונה וצירוף בהתאם להוראות הממונה. ביטוח הראל מופיע בהקשר של קבלת מידע מפורט אודות פרטים מהותיים. This table contains the agent’s declaration regarding compliance with the Supervisor of Capital Markets, Insurance and Savings instructions when adding insurance. It confirms that the agent fulfilled all instructions regarding matching the insurance to the applicant’s needs and providing the required material information.",
+  "payload": "טבלה: הצהרת הסוכן\nThis table contains the agent’s declaration regarding compliance with the Supervisor of Capital Markets, Insurance and Savings instructions when adding insurance. It confirms that the agent fulfilled all instructions regarding matching the insurance to the applicant’s needs and providing the required material information.\nממדים: סעיפי הצהרה, אישור הסוכן\n\n)סעיפי חובה לחתימת הסוכן( יד הצהרת הסוכן\nאני מאשר כי במסגרת הליך מכירת המוצר המפורט : .  הצהרת הסוכן על עמידה בהוראות הממונה על שוק ההון, ביטוח וחסכון לעניין צירוף לביטוח 1 בטופס זה, מילאתי אחר כל הוראות הממונה על פי חוזר צירוף לביטוח, ובכלל זה, התאמת הביטוח לצרכי המועמד לביטוח ומסירת המידע המהותי הנדרש.\nאני מצהיר כי ככל שהמבוטח צורף לכיסוי נכות ו/או מוות מתאונה, הצירוף נעשה על ידי בהתאם להוראות הממונה על שוק ההון, ביטוח וחסכון בחוזר .2 תאונות אישיות לעניין צירוף לביטוח תאונות אישיות."
 }

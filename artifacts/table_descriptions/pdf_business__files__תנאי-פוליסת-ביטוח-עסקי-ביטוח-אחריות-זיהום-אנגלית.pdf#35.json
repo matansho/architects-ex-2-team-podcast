@@ -2,22 +2,24 @@
   "id": "pdf:business/files/תנאי-פוליסת-ביטוח-עסקי-ביטוח-אחריות-זיהום-אנגלית.pdf#35",
   "source": "llm",
   "description": {
-    "title": "ביטוח אחריות זיהום",
-    "summary": "This table details exclusions to a pollution liability insurance policy. It specifies conditions and costs not covered under the policy, such as maintenance or upgrades required by governmental authority.",
-    "embed_passage": "פוליסת ביטוח אחריות זיהום אינה מכסה עלויות תחזוקה, שדרוג או שיפור של כל בקרה ב'מיקום מכוסה', גם אם התחזוקה נדרשת על ידי 'רשות ממשלתית'. הפוליסה אינה מכסה הוצאות הקשורות ל'אירוע זיהום' ידוע לפני תאריך תחילת ההסכם, אלא אם כן נחשף בכתב. עלויות אלו יכולות להגיע לסכומים משמעותיים, בהתאם להיקף הזיהום.",
-    "row_axis": "Exclusion type (e.g., Maintenance, Known Pollution Event)",
-    "column_axis": "Details of the exclusion",
+    "title": "ביטוח אחריות זיהום - חריגות",
+    "summary": "This table lists exclusions to a pollution liability insurance policy. It details circumstances under which coverage is not provided, such as maintenance costs or known pollution events.",
+    "embed_passage": "טבלה זו מתארת חריגות לפוליסת ביטוח אחריות זיהום, ומפרטת מצבים בהם הכיסוי הביטוחי אינו תקף. החיפוש נעשה לפי סוג העלות או הנזק, כגון עלויות תחזוקה, שדרוג או התקנה, או אירועי זיהום ידועים. החריגות כוללות עלויות תחזוקה, שדרוגים או שיפורים של רכוש או תהליכים בכל 'מיקום מכוסה', גם אם נדרשים על ידי רשות ממשלתית או כתוצאה מעלויות ניקיון. כמו כן, חריגות קיימות עבור אירועי זיהום ידועים לפני תאריך תחילת הפוליסה, אלא אם כן נחשפו מראש.  הטבלה מתייחסת גם ל'מיקום מכוסה', 'אירוע זיהום', 'עלויות ניקיון', 'נזק' ו'אובדן אחר'.",
+    "row_axis": "סוג החריגה (exclusion type)",
+    "column_axis": "תיאור החריגה (exclusion description)",
     "units": [],
     "notable_values": [
-      "governmental authority: required",
-      "cleanup costs: not covered",
-      "pollution event: known prior to effective date"
+      "מיקום מכוסה: covered location",
+      "אירוע זיהום: pollution event",
+      "עלויות ניקיון: cleanup costs",
+      "נזק: loss",
+      "אובדן אחר: other loss"
     ],
     "product_hints": [
       "ביטוח אחריות זיהום"
     ]
   },
   "sketch": "G. Maintenance, Upgrades, Improvements or Installations\nAny costs,  charges  or  expenses  for  maintenance,  upgrade  or  improvement  of,  or installation of any control to, any property or processes on, at, within or under a 'covered location' even if such maintenance, upgrade, improvement or installation is required:\nBy \"governmental authority\"; or\nAs a result of \"cleanup costs\", 'loss', or \"other loss\" otherwise covered under the policy.",
-  "embed_text": "פוליסת ביטוח אחריות זיהום אינה מכסה עלויות תחזוקה, שדרוג או שיפור של כל בקרה ב'מיקום מכוסה', גם אם התחזוקה נדרשת על ידי 'רשות ממשלתית'. הפוליסה אינה מכסה הוצאות הקשורות ל'אירוע זיהום' ידוע לפני תאריך תחילת ההסכם, אלא אם כן נחשף בכתב. עלויות אלו יכולות להגיע לסכומים משמעותיים, בהתאם להיקף הזיהום.",
-  "payload": "טבלה: ביטוח אחריות זיהום\nThis table details exclusions to a pollution liability insurance policy. It specifies conditions and costs not covered under the policy, such as maintenance or upgrades required by governmental authority.\nממדים: Exclusion type (e.g., Maintenance, Known Pollution Event), Details of the exclusion\n\nG. Maintenance, Upgrades, Improvements or Installations\nAny costs,  charges  or  expenses  for  maintenance,  upgrade  or  improvement  of,  or installation of any control to, any property or processes on, at, within or under a 'covered location' even if such maintenance, upgrade, improvement or installation is required:\nBy \"governmental authority\"; or\nAs a result of \"cleanup costs\", 'loss', or \"other loss\" otherwise covered under the policy."
+  "embed_text": "טבלה זו מתארת חריגות לפוליסת ביטוח אחריות זיהום, ומפרטת מצבים בהם הכיסוי הביטוחי אינו תקף. החיפוש נעשה לפי סוג העלות או הנזק, כגון עלויות תחזוקה, שדרוג או התקנה, או אירועי זיהום ידועים. החריגות כוללות עלויות תחזוקה, שדרוגים או שיפורים של רכוש או תהליכים בכל 'מיקום מכוסה', גם אם נדרשים על ידי רשות ממשלתית או כתוצאה מעלויות ניקיון. כמו כן, חריגות קיימות עבור אירועי זיהום ידועים לפני תאריך תחילת הפוליסה, אלא אם כן נחשפו מראש.  הטבלה מתייחסת גם ל'מיקום מכוסה', 'אירוע זיהום', 'עלויות ניקיון', 'נזק' ו'אובדן אחר'. This table lists exclusions to a pollution liability insurance policy. It details circumstances under which coverage is not provided, such as maintenance costs or known pollution events.",
+  "payload": "טבלה: ביטוח אחריות זיהום - חריגות\nThis table lists exclusions to a pollution liability insurance policy. It details circumstances under which coverage is not provided, such as maintenance costs or known pollution events.\nממדים: סוג החריגה (exclusion type), תיאור החריגה (exclusion description)\n\nG. Maintenance, Upgrades, Improvements or Installations\nAny costs,  charges  or  expenses  for  maintenance,  upgrade  or  improvement  of,  or installation of any control to, any property or processes on, at, within or under a 'covered location' even if such maintenance, upgrade, improvement or installation is required:\nBy \"governmental authority\"; or\nAs a result of \"cleanup costs\", 'loss', or \"other loss\" otherwise covered under the policy."
 }

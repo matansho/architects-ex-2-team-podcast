@@ -3,15 +3,20 @@
   "source": "llm",
   "description": {
     "title": "ויתור גניבה ברכב",
-    "summary": "This table represents a waiver form for theft coverage in a vehicle insurance policy. It allows policyholders to opt out of coverage for theft and damage during attempted theft.",
-    "embed_passage": "טופס זה מאפשר לוותר על כיסוי לסיכון גניבה ונזק שנגרם תוך כדי גניבה או בעת נסיון גניבה בפוליסת ביטוח רכב של הראל חברה לביטוח. ויתור זה רלוונטי לרכבים במשקל של עד 35 טון.  יש למלא את מספר הרישוי של הרכב ולחתום באופן אישי.",
-    "row_axis": "Waiver declaration for specific theft-related risks",
-    "column_axis": "Risk covered/waived (e.g., theft, attempted theft)",
+    "summary": "This table represents a waiver form for theft coverage in a vehicle insurance policy. It allows policyholders to waive coverage for theft and damage during attempted theft.",
+    "embed_passage": "טופס זה מאפשר לוותר על כיסוי לסיכון גניבה ונזק שנגרם תוך כדי גניבה או בעת נסיון גניבה בפוליסת ביטוח רכב של הראל חברה לביטוח. הראל מציעה ביטוח מקיף הכולל כיסויים שונים, אך ניתן לוותר על כיסוי לגניבה. טופס זה מיועד למבוטחים המעוניינים לוותר על כיסוי זה.  הצהרת המבוטח/ת כוללת ויתור על סעיף 1.3 המתייחס לגניבה אשר בעקבותיה לא נמצא הרכב במשך 30 ימים, וכן סעיפים 1.1 (אש, ברק, התפוצצות, התלקחות), 1.2 (התנגשות מקרית, התהפכות), 1.4 (שיטפון, סערה, התפרצות הר געש) ו-1.5 (מעשה זדון).  יש למלא את מספר הרישוי של הרכב ולחתום על הטופס באופן אישי.",
+    "row_axis": "waiver options (specific risk clauses)",
+    "column_axis": "form fields/waiver status",
     "units": [],
     "notable_values": [
-      "Maximum vehicle weight: 35 טון",
-      "Insurance company: הראל חברה לביטוח",
-      "Risk 1.3: גניבה אשר בעקבותיה לא נמצא הרכב במשך 30 ימים"
+      "coverage type: גניבה",
+      "timeframe: 30 ימים",
+      "insurance company: הראל חברה לביטוח",
+      "risk clause 1.1: אש, ברק, התפוצצות, התלקחות",
+      "risk clause 1.2: התנגשות מקרית, התהפכות",
+      "risk clause 1.3: גניבה",
+      "risk clause 1.4: שיטפון, סערה, התפרצות הר געש",
+      "risk clause 1.5: מעשה זדון"
     ],
     "product_hints": [
       "ביטוח רכב",
@@ -19,6 +24,6 @@
     ]
   },
   "sketch": ".  שיטפון, סערה, התפרצות הר געש; 1.4\n.  מעשה זדון, ואולם אם נגרם מקרה הביטוח בידי המבוטח או מטעמו פטור המבטח מחבותו. 1.5\nהרשום לעיל. 1.3 יש באפשרותך לוותר על כיסוי לפי סעיף\nהצהרת המבוטח/ת:\nעל כיסוי לסיכון גניבה ונזק שנגרם תוך כדי גניבה או בעת נסיון גניבה, בפוליסה לביטוח רכב שמספרו רשום ברצוני לוותר מטה, אשר תוצא/הוצאה לי על ידי הראל חברה לביטוח.\nמספר הרישוי של הרכב:\nבחידוש פוליסה קיימת יש לרשום את מספרה:",
-  "embed_text": "טופס זה מאפשר לוותר על כיסוי לסיכון גניבה ונזק שנגרם תוך כדי גניבה או בעת נסיון גניבה בפוליסת ביטוח רכב של הראל חברה לביטוח. ויתור זה רלוונטי לרכבים במשקל של עד 35 טון.  יש למלא את מספר הרישוי של הרכב ולחתום באופן אישי.",
-  "payload": "טבלה: ויתור גניבה ברכב\nThis table represents a waiver form for theft coverage in a vehicle insurance policy. It allows policyholders to opt out of coverage for theft and damage during attempted theft.\nממדים: Waiver declaration for specific theft-related risks, Risk covered/waived (e.g., theft, attempted theft)\n\n.  שיטפון, סערה, התפרצות הר געש; 1.4\n.  מעשה זדון, ואולם אם נגרם מקרה הביטוח בידי המבוטח או מטעמו פטור המבטח מחבותו. 1.5\nהרשום לעיל. 1.3 יש באפשרותך לוותר על כיסוי לפי סעיף\nהצהרת המבוטח/ת:\nעל כיסוי לסיכון גניבה ונזק שנגרם תוך כדי גניבה או בעת נסיון גניבה, בפוליסה לביטוח רכב שמספרו רשום ברצוני לוותר מטה, אשר תוצא/הוצאה לי על ידי הראל חברה לביטוח.\nמספר הרישוי של הרכב:\nבחידוש פוליסה קיימת יש לרשום את מספרה:"
+  "embed_text": "טופס זה מאפשר לוותר על כיסוי לסיכון גניבה ונזק שנגרם תוך כדי גניבה או בעת נסיון גניבה בפוליסת ביטוח רכב של הראל חברה לביטוח. הראל מציעה ביטוח מקיף הכולל כיסויים שונים, אך ניתן לוותר על כיסוי לגניבה. טופס זה מיועד למבוטחים המעוניינים לוותר על כיסוי זה.  הצהרת המבוטח/ת כוללת ויתור על סעיף 1.3 המתייחס לגניבה אשר בעקבותיה לא נמצא הרכב במשך 30 ימים, וכן סעיפים 1.1 (אש, ברק, התפוצצות, התלקחות), 1.2 (התנגשות מקרית, התהפכות), 1.4 (שיטפון, סערה, התפרצות הר געש) ו-1.5 (מעשה זדון).  יש למלא את מספר הרישוי של הרכב ולחתום על הטופס באופן אישי. This table represents a waiver form for theft coverage in a vehicle insurance policy. It allows policyholders to waive coverage for theft and damage during attempted theft.",
+  "payload": "טבלה: ויתור גניבה ברכב\nThis table represents a waiver form for theft coverage in a vehicle insurance policy. It allows policyholders to waive coverage for theft and damage during attempted theft.\nממדים: waiver options (specific risk clauses), form fields/waiver status\n\n.  שיטפון, סערה, התפרצות הר געש; 1.4\n.  מעשה זדון, ואולם אם נגרם מקרה הביטוח בידי המבוטח או מטעמו פטור המבטח מחבותו. 1.5\nהרשום לעיל. 1.3 יש באפשרותך לוותר על כיסוי לפי סעיף\nהצהרת המבוטח/ת:\nעל כיסוי לסיכון גניבה ונזק שנגרם תוך כדי גניבה או בעת נסיון גניבה, בפוליסה לביטוח רכב שמספרו רשום ברצוני לוותר מטה, אשר תוצא/הוצאה לי על ידי הראל חברה לביטוח.\nמספר הרישוי של הרכב:\nבחידוש פוליסה קיימת יש לרשום את מספרה:"
 }

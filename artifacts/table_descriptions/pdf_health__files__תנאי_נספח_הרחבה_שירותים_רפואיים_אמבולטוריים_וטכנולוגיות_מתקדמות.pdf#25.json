@@ -2,27 +2,31 @@
   "id": "pdf:health/files/תנאי_נספח_הרחבה_שירותים_רפואיים_אמבולטוריים_וטכנולוגיות_מתקדמות.pdf#25",
   "source": "llm",
   "description": {
-    "title": "הרחבת שירותים רפואיים",
-    "summary": "This table details reimbursement rates for preventative medical tests and advanced genetic screenings. It outlines the percentage of costs covered and maximum reimbursement amounts for various tests, based on age and risk factors.",
-    "embed_passage": "תכנית הרחבת שירותים רפואיים מספקת החזרים על בדיקות רפואה מונעת, כגון בדיקות סקר סרטן, בדיקות קרדיאליות C.T ובדיקות אבחון גנטי. מבוטח מעל גיל 45 זכאי להחזר של 80% מההוצאות, עד לסכום מקסימלי של ₪300 לבדיקה. בדיקת C.T קרדיאלית יכולה לקבל החזר של עד ₪2,000 אחת לחמש שנים.",
-    "row_axis": "type of preventative medical test (e.g., cancer screening, cardiac CT)",
-    "column_axis": "reimbursement details (e.g., age threshold, percentage covered, maximum amount)",
+    "title": "הרחבת שירותים רפואיים אמבולטוריים וטכנולוגיות מתקדמות",
+    "summary": "This table details reimbursement rates for preventative medical tests and cardiac tests under an expanded medical services rider. It specifies the percentage of costs covered and maximum reimbursement amounts.",
+    "embed_passage": "טבלה זו מתארת את שיעורי ההחזר עבור בדיקות רפואיות מונעות ובדיקות קרדיאליות במסגרת נספח הרחבה לשירותים רפואיים. ניתן לחפש מידע על החזרים עבור בדיקות ספציפיות, כגון בדיקות לרפואה מונעת או בדיקת C.T קרדיאלי, בהתאם לגיל המבוטח ותנאים רפואיים. הנספח מכסה החזר של עד 80% מההוצאות, עם סכומים מקסימליים של ₪ 300 לבדיקות רפואה מונעת ו-₪ 2,000 לבדיקת C.T קרדיאלי. בדיקות רפואה מונעת, בדיקת C.T קרדיאלי, גיל מעל 45, לחץ דם מעל 160/100, טריגליצרידים מעל 300, LDL מעל 190, BMI מעל 35.",
+    "row_axis": "type of medical test/procedure",
+    "column_axis": "reimbursement details (percentage covered, maximum amount)",
     "units": [
       "₪",
       "%"
     ],
     "notable_values": [
-      "age: 45",
-      "reimbursement rate: 80%",
-      "maximum reimbursement (preventative tests): ₪300",
-      "maximum reimbursement (cardiac CT): ₪2,000",
-      "frequency (cardiac CT): once every 5 years"
+      "גיל: מעל 45",
+      "לחץ דם: מעל 160/100",
+      "טריגליצרידים: מעל 300",
+      "LDL: מעל 190",
+      "BMI: מעל 35",
+      "בדיקות לרפואה מונעת: 80%",
+      "בדיקת C.T קרדיאלי: 80%",
+      "סכום מקסימלי לבדיקות רפואה מונעת: ₪ 300",
+      "סכום מקסימלי לבדיקת C.T קרדיאלי: ₪ 2,000"
     ],
     "product_hints": [
-      "הרחבת שירותים רפואיים"
+      "הרחבה"
     ]
   },
   "sketch": "מההוצאות 80% יהא זכאי להחזר בגוב   ה 45 מבוטח שגילו מעל גיל -בדיקות לרפואה מונעת 4.2.4\nבהן נשא בפועל, בגין ביצוע אחת או יותר מבדיקות רפואה מונעת, אך לא יותר מסכום מירבי של .  ( ת לשנתיים )לכל בדיקה ה -   אח לכל בדיק ₪ 300\nמבוטח המצוי בדרגת סיכון גבוהה למחלת לב, יהא זכאי להחזר -קרדיאלי לצרכי מניע   ה C.T 4.2.5 2,000 קרדיאלי, עד לסך של C.T מההוצאות בהן נשא בפועל, בגין ביצוע בדיקת 80% בגובה ,   אחת לחמש שנים. מבוטח יחשב כמצוי בדרגת סיכון גבוהה למחלת לב אם יעמוד בתנאים ₪ : המצטברים הבאים",
-  "embed_text": "תכנית הרחבת שירותים רפואיים מספקת החזרים על בדיקות רפואה מונעת, כגון בדיקות סקר סרטן, בדיקות קרדיאליות C.T ובדיקות אבחון גנטי. מבוטח מעל גיל 45 זכאי להחזר של 80% מההוצאות, עד לסכום מקסימלי של ₪300 לבדיקה. בדיקת C.T קרדיאלית יכולה לקבל החזר של עד ₪2,000 אחת לחמש שנים.",
-  "payload": "טבלה: הרחבת שירותים רפואיים\nThis table details reimbursement rates for preventative medical tests and advanced genetic screenings. It outlines the percentage of costs covered and maximum reimbursement amounts for various tests, based on age and risk factors.\nממדים: type of preventative medical test (e.g., cancer screening, cardiac CT), reimbursement details (e.g., age threshold, percentage covered, maximum amount)\n\nמההוצאות 80% יהא זכאי להחזר בגוב   ה 45 מבוטח שגילו מעל גיל -בדיקות לרפואה מונעת 4.2.4\nבהן נשא בפועל, בגין ביצוע אחת או יותר מבדיקות רפואה מונעת, אך לא יותר מסכום מירבי של .  ( ת לשנתיים )לכל בדיקה ה -   אח לכל בדיק ₪ 300\nמבוטח המצוי בדרגת סיכון גבוהה למחלת לב, יהא זכאי להחזר -קרדיאלי לצרכי מניע   ה C.T 4.2.5 2,000 קרדיאלי, עד לסך של C.T מההוצאות בהן נשא בפועל, בגין ביצוע בדיקת 80% בגובה ,   אחת לחמש שנים. מבוטח יחשב כמצוי בדרגת סיכון גבוהה למחלת לב אם יעמוד בתנאים ₪ : המצטברים הבאים"
+  "embed_text": "טבלה זו מתארת את שיעורי ההחזר עבור בדיקות רפואיות מונעות ובדיקות קרדיאליות במסגרת נספח הרחבה לשירותים רפואיים. ניתן לחפש מידע על החזרים עבור בדיקות ספציפיות, כגון בדיקות לרפואה מונעת או בדיקת C.T קרדיאלי, בהתאם לגיל המבוטח ותנאים רפואיים. הנספח מכסה החזר של עד 80% מההוצאות, עם סכומים מקסימליים של ₪ 300 לבדיקות רפואה מונעת ו-₪ 2,000 לבדיקת C.T קרדיאלי. בדיקות רפואה מונעת, בדיקת C.T קרדיאלי, גיל מעל 45, לחץ דם מעל 160/100, טריגליצרידים מעל 300, LDL מעל 190, BMI מעל 35. This table details reimbursement rates for preventative medical tests and cardiac tests under an expanded medical services rider. It specifies the percentage of costs covered and maximum reimbursement amounts.",
+  "payload": "טבלה: הרחבת שירותים רפואיים אמבולטוריים וטכנולוגיות מתקדמות\nThis table details reimbursement rates for preventative medical tests and cardiac tests under an expanded medical services rider. It specifies the percentage of costs covered and maximum reimbursement amounts.\nממדים: type of medical test/procedure, reimbursement details (percentage covered, maximum amount)\n\nמההוצאות 80% יהא זכאי להחזר בגוב   ה 45 מבוטח שגילו מעל גיל -בדיקות לרפואה מונעת 4.2.4\nבהן נשא בפועל, בגין ביצוע אחת או יותר מבדיקות רפואה מונעת, אך לא יותר מסכום מירבי של .  ( ת לשנתיים )לכל בדיקה ה -   אח לכל בדיק ₪ 300\nמבוטח המצוי בדרגת סיכון גבוהה למחלת לב, יהא זכאי להחזר -קרדיאלי לצרכי מניע   ה C.T 4.2.5 2,000 קרדיאלי, עד לסך של C.T מההוצאות בהן נשא בפועל, בגין ביצוע בדיקת 80% בגובה ,   אחת לחמש שנים. מבוטח יחשב כמצוי בדרגת סיכון גבוהה למחלת לב אם יעמוד בתנאים ₪ : המצטברים הבאים"
 }

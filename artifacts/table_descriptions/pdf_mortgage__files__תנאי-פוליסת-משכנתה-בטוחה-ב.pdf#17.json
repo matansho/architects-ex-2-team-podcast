@@ -3,23 +3,22 @@
   "source": "llm",
   "description": {
     "title": "תנאי פוליסת משכנתה בטוחה ב",
-    "summary": "This table details covered expenses related to property damage claims under a 'בטוחה ב' mortgage insurance policy. It outlines costs the insurer will cover for repairs, restoration, and related living expenses.",
-    "embed_passage": "פוליסת 'בטוחה ב' מכסה הוצאות עבור שירותים של אדריכלים, שמאים, מהנדסים וקבלנים לצורך תיקון או בנייה מחדש של דירה. הכיסוי כולל גם הוצאות פינוי הריסות וחיבור מחדש לרשתות חשמל ומים. הפוליסה עשויה לפצות על אובדן הכנסות משכר דירה לתקופה של 60 חודשים.",
-    "row_axis": "types of covered expenses",
-    "column_axis": "expense details/conditions",
+    "summary": "This table details covered expenses related to property damage claims under a mortgage insurance policy. It lists specific costs that are reimbursable to the insured following an insured event.",
+    "embed_passage": "טבלה זו מתארת את ההוצאות המכוסות במסגרת פוליסת משכנתה בטוחה ב, במקרה של נזק לרכוש. ניתן למצוא כאן פירוט של סוגי ההוצאות אשר יוחזרו למבוטח, כגון שירותי אדריכלים, שמאים, קבלנים והוצאות משפטיות. הוצאות אלו קשורות לתיקון, שיפוץ או בנייה מחדש של הדירה. כמו כן, הטבלה מציינת כיסוי להוצאות פינוי הריסות, ניקוי הדירה, וחיבורה מחדש לתשתיות. הוצאות אדריכלים, שמאים, מהנדסים וקבלנים, הוצאות משפטיות, פינוי הריסות, ניקוי הדירה, חיבור לרשתות חשמל, טלפון, מים, גז וביוב.",
+    "row_axis": "covered expense type",
+    "column_axis": "description/condition",
     "units": [],
     "notable_values": [
-      "coverage: architectural/engineering services",
-      "coverage: debris removal",
-      "coverage period: up to 60 months for lost rental income",
-      "maximum compensation: 1 (unit unspecified)",
-      "reference: 1958 law of engineers and architects"
+      "architects, appraisers, construction consultants: covered",
+      "legal expenses: covered",
+      "debris removal: covered",
+      "cleaning and reconnection to utilities: covered"
     ],
     "product_hints": [
-      "בטוחה ב"
+      "משכנתה בטוחה ב"
     ]
   },
   "sketch": ".3.3.1 , הוצאות בשל שירותים שנתנו אדריכלים, שמאים, יועצי בנייה, מהנדסים וקבלנים והוצאות משפטיות, שהוצאו לשם תיקונה, שיפוצה או בנייתה מחדש של הדירה או של חלק ממנה, בתנאי שניתנה הודעה מראש למבטח.\n.3.3.2 , הוצאות לשם פינוי הריסות, ניקוי הדירה, סיודה וחיבורה מחדש לרשתות החשמל הטלפון, המים, הגז והביוב.",
-  "embed_text": "פוליסת 'בטוחה ב' מכסה הוצאות עבור שירותים של אדריכלים, שמאים, מהנדסים וקבלנים לצורך תיקון או בנייה מחדש של דירה. הכיסוי כולל גם הוצאות פינוי הריסות וחיבור מחדש לרשתות חשמל ומים. הפוליסה עשויה לפצות על אובדן הכנסות משכר דירה לתקופה של 60 חודשים.",
-  "payload": "טבלה: תנאי פוליסת משכנתה בטוחה ב\nThis table details covered expenses related to property damage claims under a 'בטוחה ב' mortgage insurance policy. It outlines costs the insurer will cover for repairs, restoration, and related living expenses.\nממדים: types of covered expenses, expense details/conditions\n\n.3.3.1 , הוצאות בשל שירותים שנתנו אדריכלים, שמאים, יועצי בנייה, מהנדסים וקבלנים והוצאות משפטיות, שהוצאו לשם תיקונה, שיפוצה או בנייתה מחדש של הדירה או של חלק ממנה, בתנאי שניתנה הודעה מראש למבטח.\n.3.3.2 , הוצאות לשם פינוי הריסות, ניקוי הדירה, סיודה וחיבורה מחדש לרשתות החשמל הטלפון, המים, הגז והביוב."
+  "embed_text": "טבלה זו מתארת את ההוצאות המכוסות במסגרת פוליסת משכנתה בטוחה ב, במקרה של נזק לרכוש. ניתן למצוא כאן פירוט של סוגי ההוצאות אשר יוחזרו למבוטח, כגון שירותי אדריכלים, שמאים, קבלנים והוצאות משפטיות. הוצאות אלו קשורות לתיקון, שיפוץ או בנייה מחדש של הדירה. כמו כן, הטבלה מציינת כיסוי להוצאות פינוי הריסות, ניקוי הדירה, וחיבורה מחדש לתשתיות. הוצאות אדריכלים, שמאים, מהנדסים וקבלנים, הוצאות משפטיות, פינוי הריסות, ניקוי הדירה, חיבור לרשתות חשמל, טלפון, מים, גז וביוב. This table details covered expenses related to property damage claims under a mortgage insurance policy. It lists specific costs that are reimbursable to the insured following an insured event. בין הערכים בטבלה: architects, appraisers, construction consultants: covered; legal expenses: covered; debris removal: covered; cleaning and reconnec…",
+  "payload": "טבלה: תנאי פוליסת משכנתה בטוחה ב\nThis table details covered expenses related to property damage claims under a mortgage insurance policy. It lists specific costs that are reimbursable to the insured following an insured event.\nממדים: covered expense type, description/condition\n\n.3.3.1 , הוצאות בשל שירותים שנתנו אדריכלים, שמאים, יועצי בנייה, מהנדסים וקבלנים והוצאות משפטיות, שהוצאו לשם תיקונה, שיפוצה או בנייתה מחדש של הדירה או של חלק ממנה, בתנאי שניתנה הודעה מראש למבטח.\n.3.3.2 , הוצאות לשם פינוי הריסות, ניקוי הדירה, סיודה וחיבורה מחדש לרשתות החשמל הטלפון, המים, הגז והביוב."
 }

@@ -2,22 +2,23 @@
   "id": "pdf:apartment/files/תנאי-הפוליסה-לביטוח-אדירה-ארד-מהדורת-ספטמבר-2017.pdf#60",
   "source": "llm",
   "description": {
-    "title": "חריגים לחבות",
-    "summary": "This table lists exclusions to liability coverage under the 'Adira Erd' apartment insurance policy. It details situations where the insurer will not compensate the insured, such as use of weapons or specific animal types.",
-    "embed_passage": "פוליסת 'אדירה ארד' כוללת חריגים לחבות, למשל שימוש בכלי נשק או בעלי חיים מסוכנים. עבודות בדירה הנמשכות מעל שבועיים ימים גם אינן מכוסות, אלא אם צוין אחרת במפרט.",
-    "row_axis": "exclusion type",
-    "column_axis": "details of exclusion",
+    "title": "חריגים לחבות כלפי צד שלישי",
+    "summary": "This table lists exclusions to liability coverage for third parties under the 'Adira Erd' insurance policy. It details situations where the insurer will not compensate the insured.",
+    "embed_passage": "טבלה זו מפרטת חריגים לחבות כלפי צד שלישי בפוליסת ביטוח 'אדירה ארד'. החריגים מגדירים מצבים בהם המבטח לא ישפה את המבוטח, כגון שימוש בכלי נשק או חבות הנובעת מפעילות מקצועית. ניתן לעיין בטבלה כדי להבין את תנאי הכיסוי והמגבלות של הפוליסה. החריגים כוללים שימוש בכלי נשק, בעלי חיים מסוכנים, שימוש בבריכות שחייה חיצוניות, וביצוע עבודות בדירה מעל שבועיים. 'אדירה ארד' היא פוליסת הביטוח הרלוונטית.",
+    "row_axis": "exclusion reason",
+    "column_axis": "none",
     "units": [],
     "notable_values": [
-      "exclusion: שימוש בכלי נשק",
-      "exclusion: בעלי חיים מסוכנים",
-      "duration: שבועיים ימים"
+      "שימוש בכלי נשק: 20.6",
+      "כלב מסוכן: 20.7",
+      "בריכת שחייה חיצונית: 20.8",
+      "עבודות בדירה (מעל שבועיים): 20.9"
     ],
     "product_hints": [
       "אדירה ארד"
     ]
   },
   "sketch": ".  שימוש בכלי נשק. 20.6\n.  בעלי חיים שאינם חיות מחמד ביתיות, כלב מסוכן או מגזע מסוכן, כהגדרתם בחוק 20.7 .2002להסדרת הפיקוח על כלבים, התשס\"ג\n, שימוש בבריכת שחייה הכוללת מערכת סינון, ג'קוזי או סאונה חיצוניים למבנה הדירה .20.8 אלא אם כן צוין אחרת במפרט.\n.  ביצוע עבודות בדירה בידי בעל מקצוע ומשך העבודות עולה על שבועיים ימים מיום 20.9 תחילת העבודה בפועל.",
-  "embed_text": "פוליסת 'אדירה ארד' כוללת חריגים לחבות, למשל שימוש בכלי נשק או בעלי חיים מסוכנים. עבודות בדירה הנמשכות מעל שבועיים ימים גם אינן מכוסות, אלא אם צוין אחרת במפרט.",
-  "payload": "טבלה: חריגים לחבות\nThis table lists exclusions to liability coverage under the 'Adira Erd' apartment insurance policy. It details situations where the insurer will not compensate the insured, such as use of weapons or specific animal types.\nממדים: exclusion type, details of exclusion\n\n.  שימוש בכלי נשק. 20.6\n.  בעלי חיים שאינם חיות מחמד ביתיות, כלב מסוכן או מגזע מסוכן, כהגדרתם בחוק 20.7 .2002להסדרת הפיקוח על כלבים, התשס\"ג\n, שימוש בבריכת שחייה הכוללת מערכת סינון, ג'קוזי או סאונה חיצוניים למבנה הדירה .20.8 אלא אם כן צוין אחרת במפרט.\n.  ביצוע עבודות בדירה בידי בעל מקצוע ומשך העבודות עולה על שבועיים ימים מיום 20.9 תחילת העבודה בפועל."
+  "embed_text": "טבלה זו מפרטת חריגים לחבות כלפי צד שלישי בפוליסת ביטוח 'אדירה ארד'. החריגים מגדירים מצבים בהם המבטח לא ישפה את המבוטח, כגון שימוש בכלי נשק או חבות הנובעת מפעילות מקצועית. ניתן לעיין בטבלה כדי להבין את תנאי הכיסוי והמגבלות של הפוליסה. החריגים כוללים שימוש בכלי נשק, בעלי חיים מסוכנים, שימוש בבריכות שחייה חיצוניות, וביצוע עבודות בדירה מעל שבועיים. 'אדירה ארד' היא פוליסת הביטוח הרלוונטית. This table lists exclusions to liability coverage for third parties under the 'Adira Erd' insurance policy. It details situations where the insurer will not compensate the insured. בין הערכים בטבלה: כלב מסוכן: 20.7; בריכת שחייה חיצונית: 20.8; עבודות בדירה (מעל שבועיים): 20.9.",
+  "payload": "טבלה: חריגים לחבות כלפי צד שלישי\nThis table lists exclusions to liability coverage for third parties under the 'Adira Erd' insurance policy. It details situations where the insurer will not compensate the insured.\nממדים: exclusion reason, none\n\n.  שימוש בכלי נשק. 20.6\n.  בעלי חיים שאינם חיות מחמד ביתיות, כלב מסוכן או מגזע מסוכן, כהגדרתם בחוק 20.7 .2002להסדרת הפיקוח על כלבים, התשס\"ג\n, שימוש בבריכת שחייה הכוללת מערכת סינון, ג'קוזי או סאונה חיצוניים למבנה הדירה .20.8 אלא אם כן צוין אחרת במפרט.\n.  ביצוע עבודות בדירה בידי בעל מקצוע ומשך העבודות עולה על שבועיים ימים מיום 20.9 תחילת העבודה בפועל."
 }

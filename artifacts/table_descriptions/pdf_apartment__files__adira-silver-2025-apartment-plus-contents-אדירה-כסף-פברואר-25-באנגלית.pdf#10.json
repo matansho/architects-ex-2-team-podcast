@@ -2,24 +2,24 @@
   "id": "pdf:apartment/files/adira-silver-2025-apartment-plus-contents-אדירה-כסף-פברואר-25-באנגלית.pdf#10",
   "source": "llm",
   "description": {
-    "title": "אדירה כסף - כיסויים",
-    "summary": "This table details exclusions to coverage under the Adira Kesef apartment insurance policy. It lists events that are *not* covered, such as war, terror, and nuclear incidents.",
-    "embed_passage": "פוליסת אדירה כסף מציעה ביטוח דירה, אך אינה מכסה נזקים כתוצאה מפעולות מלחמה, התקפות טרור, או התרחשויות כמו רעידת אדמה. הכיסוי אינו חל על מקרים של גניבה בזמן שהדירה אינה מאוכלסת. הפוליסה אינה מכסה גם נזקים שנגרמו כתוצאה מפעולות ממשלתיות כמו החרמה או הריסה.",
-    "row_axis": "Excluded event",
-    "column_axis": "Description of exclusion",
+    "title": "אדירה כסף - חריגים",
+    "summary": "This table lists exclusions to coverage under the Adira Silver apartment insurance policy. It details events for which claims will not be paid.",
+    "embed_passage": "טבלה זו מפרטת חריגים לפוליסת ביטוח דירה אדירה כסף, ומציינת אירועים שאינם מכוסים. החיפוש נעשה לפי סוג האירוע, כגון מלחמה, פעולות איבה או רעידת אדמה. החריגים כוללים מלחמה, פעולות איבה, טרור, מלחמת אזרחים, קרינה מייננת, הפקעה על ידי הממשלה, ורעידת אדמה. טבלה זו רלוונטית לחיפוש חריגים ספציפיים בפוליסת אדירה כסף.",
+    "row_axis": "exclusion event",
+    "column_axis": "description of exclusion",
     "units": [],
     "notable_values": [
-      "War, hostilities, terror attacks: excluded",
-      "Civil war: excluded",
-      "Ionizing radiation: excluded",
-      "Government seizure: excluded"
+      "war: 2.1",
+      "civil war: 2.2",
+      "ionizing radiation: 2.3",
+      "government seizure: 2.4"
     ],
     "product_hints": [
       "אדירה כסף",
-      "Adira Kesef"
+      "Adira Silver"
     ]
   },
   "sketch": "2.1 War, hostilities, terror attacks.\n2.2 Civil war, rebellion, military or popular uprising, revolution.\n2.3 Ionizing radiation, radioactive contamination, nuclear processes, nuclear material or nuclear waste.\n2.4 Seizure, expropriation, confiscation or destruction or demolition of property by the government, the army, a local authority or a person acting in accordance with the law.",
-  "embed_text": "פוליסת אדירה כסף מציעה ביטוח דירה, אך אינה מכסה נזקים כתוצאה מפעולות מלחמה, התקפות טרור, או התרחשויות כמו רעידת אדמה. הכיסוי אינו חל על מקרים של גניבה בזמן שהדירה אינה מאוכלסת. הפוליסה אינה מכסה גם נזקים שנגרמו כתוצאה מפעולות ממשלתיות כמו החרמה או הריסה.",
-  "payload": "טבלה: אדירה כסף - כיסויים\nThis table details exclusions to coverage under the Adira Kesef apartment insurance policy. It lists events that are *not* covered, such as war, terror, and nuclear incidents.\nממדים: Excluded event, Description of exclusion\n\n2.1 War, hostilities, terror attacks.\n2.2 Civil war, rebellion, military or popular uprising, revolution.\n2.3 Ionizing radiation, radioactive contamination, nuclear processes, nuclear material or nuclear waste.\n2.4 Seizure, expropriation, confiscation or destruction or demolition of property by the government, the army, a local authority or a person acting in accordance with the law."
+  "embed_text": "טבלה זו מפרטת חריגים לפוליסת ביטוח דירה אדירה כסף, ומציינת אירועים שאינם מכוסים. החיפוש נעשה לפי סוג האירוע, כגון מלחמה, פעולות איבה או רעידת אדמה. החריגים כוללים מלחמה, פעולות איבה, טרור, מלחמת אזרחים, קרינה מייננת, הפקעה על ידי הממשלה, ורעידת אדמה. טבלה זו רלוונטית לחיפוש חריגים ספציפיים בפוליסת אדירה כסף. This table lists exclusions to coverage under the Adira Silver apartment insurance policy. It details events for which claims will not be paid. בין הערכים בטבלה: war: 2.1; civil war: 2.2; ionizing radiation: 2.3; government seizure: 2.4.",
+  "payload": "טבלה: אדירה כסף - חריגים\nThis table lists exclusions to coverage under the Adira Silver apartment insurance policy. It details events for which claims will not be paid.\nממדים: exclusion event, description of exclusion\n\n2.1 War, hostilities, terror attacks.\n2.2 Civil war, rebellion, military or popular uprising, revolution.\n2.3 Ionizing radiation, radioactive contamination, nuclear processes, nuclear material or nuclear waste.\n2.4 Seizure, expropriation, confiscation or destruction or demolition of property by the government, the army, a local authority or a person acting in accordance with the law."
 }

@@ -3,23 +3,22 @@
   "source": "llm",
   "description": {
     "title": "תנאי פוליסת ביטוח דירה",
-    "summary": "This table details the conditions for apartment insurance claims, specifically regarding replacement cost coverage. It outlines timeframes for reconstruction and maximum payout limits.",
-    "embed_passage": "פוליסת ביטוח דירה אדירה כסף מספקת תגמולים לפי ערך כינון, אך האחריות של המבטח לא תעלה על סכום הביטוח הנקוב במפרט. יש להתחיל בביצוע הכינון תוך זמן סביר, ובכל מקרה לא יותר מ-90 ימים מתאריך קרות מקרה הביטוח, או 12 ימים לגבי הדירה. תגמולי הביטוח ישולמו לפי שווי הרכוש כחדש.",
-    "row_axis": "Insurance claim conditions / stipulations",
-    "column_axis": "Details of coverage, timeframes, and limitations",
+    "summary": "This table details conditions related to insurance payouts for apartment insurance policies. It specifies conditions for reconstruction, repair, or replacement of damaged property and timeframes for completing these actions.",
+    "embed_passage": "טבלה זו מתייחסת לתנאי פוליסת ביטוח דירה, ומפרטת את התנאים לקבלת תגמולי ביטוח במקרה של אובדן או נזק לרכוש. ניתן לעיין בתנאים אלו כדי להבין את הזכויות והחובות של המבוטח והמבטח, וכן את הלוחות זמנים לביצוע תיקונים או החלפות. הפוליסה כוללת תנאים לגבי כינון מחדש, תיקון, או החלפה של רכוש, כמו גם סכומי ביטוח ותקופות זמן מוגדרות. בגדים, דירה, תכולה, 12 ימים, 90 ימים, סכום הביטוח, תגמולי ביטוח.",
+    "row_axis": "conditions for insurance payouts",
+    "column_axis": "details of payout conditions (timeframes, limitations)",
     "units": [],
     "notable_values": [
-      "90 days: Maximum timeframe for reconstruction of contents",
-      "12 days: Maximum timeframe for reconstruction of the apartment",
-      "39.2: Reference to reconstruction, repair, or replacement",
-      "39.5: No coverage for loss/damage to clothing alone",
-      "39.8: Liability capped at the insured amount"
+      "בגדים: לא ישולמו תגמולי ביטוח",
+      "תקופה לביצוע כינון (דירה): 90 ימים",
+      "תקופה לביצוע כינון (תכולה): 12 ימים",
+      "סכום ביטוח: לא יעלה על הסכום הנקוב במפרט"
     ],
     "product_hints": [
       "ביטוח דירה אדירה כסף"
     ]
   },
   "sketch": ".  לא ישולמו תגמולי ביטוח לפי ערך כינון בשל אבדן או נזק שנגרם לבגדים בלבד. 39.5\n.  תגמולי ביטוח לפי סעיף זה ישולמו לפי שווי הרכוש כחדש ביום ביצוע הכינון, או לפי 39.6 שוויו כחדש ביום תשלום תגמולי הביטוח, לפי המוקדם משני התאריכים.\n.  יש להתחיל בביצוע הכינון תוך זמן סביר לאחר קרות האבדן או הנזק, ובכל מקרה 39.7 חדשים מתאריך קרות מקרה הביטוח, ולגבי 12 יש להשלימו: לגבי הדירה - תוך ימים מתאריך קרות מקרה הביטוח. באין אפשרות להשלים את 90 התכולה - תוך הכינון תוך התקופות האמורות מסיבות שאינן תלויות במבוטח, תוארך תקופת ביצוע הכינון, תוך תיאום בין המבוטח למבטח.\n, .  אחריות המבטח לפי סעיף זה לא תעלה על סכום הביטוח הנקוב במפרט לגבי הדירה 39.8 התכולה, או הפריט, לפי העניין.",
-  "embed_text": "פוליסת ביטוח דירה אדירה כסף מספקת תגמולים לפי ערך כינון, אך האחריות של המבטח לא תעלה על סכום הביטוח הנקוב במפרט. יש להתחיל בביצוע הכינון תוך זמן סביר, ובכל מקרה לא יותר מ-90 ימים מתאריך קרות מקרה הביטוח, או 12 ימים לגבי הדירה. תגמולי הביטוח ישולמו לפי שווי הרכוש כחדש.",
-  "payload": "טבלה: תנאי פוליסת ביטוח דירה\nThis table details the conditions for apartment insurance claims, specifically regarding replacement cost coverage. It outlines timeframes for reconstruction and maximum payout limits.\nממדים: Insurance claim conditions / stipulations, Details of coverage, timeframes, and limitations\n\n.  לא ישולמו תגמולי ביטוח לפי ערך כינון בשל אבדן או נזק שנגרם לבגדים בלבד. 39.5\n.  תגמולי ביטוח לפי סעיף זה ישולמו לפי שווי הרכוש כחדש ביום ביצוע הכינון, או לפי 39.6 שוויו כחדש ביום תשלום תגמולי הביטוח, לפי המוקדם משני התאריכים.\n.  יש להתחיל בביצוע הכינון תוך זמן סביר לאחר קרות האבדן או הנזק, ובכל מקרה 39.7 חדשים מתאריך קרות מקרה הביטוח, ולגבי 12 יש להשלימו: לגבי הדירה - תוך ימים מתאריך קרות מקרה הביטוח. באין אפשרות להשלים את 90 התכולה - תוך הכינון תוך התקופות האמורות מסיבות שאינן תלויות במבוטח, תוארך תקופת ביצוע הכינון, תוך תיאום בין המבוטח למבטח.\n, .  אחריות המבטח לפי סעיף זה לא תעלה על סכום הביטוח הנקוב במפרט לגבי הדירה 39.8 התכולה, או הפריט, לפי העניין."
+  "embed_text": "טבלה זו מתייחסת לתנאי פוליסת ביטוח דירה, ומפרטת את התנאים לקבלת תגמולי ביטוח במקרה של אובדן או נזק לרכוש. ניתן לעיין בתנאים אלו כדי להבין את הזכויות והחובות של המבוטח והמבטח, וכן את הלוחות זמנים לביצוע תיקונים או החלפות. הפוליסה כוללת תנאים לגבי כינון מחדש, תיקון, או החלפה של רכוש, כמו גם סכומי ביטוח ותקופות זמן מוגדרות. בגדים, דירה, תכולה, 12 ימים, 90 ימים, סכום הביטוח, תגמולי ביטוח. This table details conditions related to insurance payouts for apartment insurance policies. It specifies conditions for reconstruction, repair, or replacement of damaged property and timeframes for completing these actions. בין הערכים בטבלה: סכום ביטוח: לא יעלה על הסכום הנקוב במפרט.",
+  "payload": "טבלה: תנאי פוליסת ביטוח דירה\nThis table details conditions related to insurance payouts for apartment insurance policies. It specifies conditions for reconstruction, repair, or replacement of damaged property and timeframes for completing these actions.\nממדים: conditions for insurance payouts, details of payout conditions (timeframes, limitations)\n\n.  לא ישולמו תגמולי ביטוח לפי ערך כינון בשל אבדן או נזק שנגרם לבגדים בלבד. 39.5\n.  תגמולי ביטוח לפי סעיף זה ישולמו לפי שווי הרכוש כחדש ביום ביצוע הכינון, או לפי 39.6 שוויו כחדש ביום תשלום תגמולי הביטוח, לפי המוקדם משני התאריכים.\n.  יש להתחיל בביצוע הכינון תוך זמן סביר לאחר קרות האבדן או הנזק, ובכל מקרה 39.7 חדשים מתאריך קרות מקרה הביטוח, ולגבי 12 יש להשלימו: לגבי הדירה - תוך ימים מתאריך קרות מקרה הביטוח. באין אפשרות להשלים את 90 התכולה - תוך הכינון תוך התקופות האמורות מסיבות שאינן תלויות במבוטח, תוארך תקופת ביצוע הכינון, תוך תיאום בין המבוטח למבטח.\n, .  אחריות המבטח לפי סעיף זה לא תעלה על סכום הביטוח הנקוב במפרט לגבי הדירה 39.8 התכולה, או הפריט, לפי העניין."
 }

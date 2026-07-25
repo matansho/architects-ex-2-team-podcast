@@ -2,24 +2,24 @@
   "id": "pdf:business/files/נספח-הרחבה-סייבר-רכוש-מהדורת-מרץ-2023.pdf#34",
   "source": "llm",
   "description": {
-    "title": "הרחבת נזק פיזי לרשת תקשורת",
-    "summary": "This table details the conditions for insurance coverage of physical damage to a communication network resulting from a cyber event. It outlines how the insurer will compensate for loss or damage, based on replacement cost.",
-    "embed_passage": "פוליסת הרחבת סייבר רכוש מכסה אובדן או נזק פיזי לרשת התקשורת כתוצאה מאירוע סייבר. במקרה של אובדן מוחלט, המבטח ישלם את עלות ההחלפה של הפריט שניזוק, או את עלות הפריט הקרוב ביותר, אך לא משופר ממנו. לדוגמה, אם עלות תיקון הפריט עולה על ערכו, יפוצה המבוטח.",
-    "row_axis": "Conditions for extending physical damage coverage to the communication network from a cyber event",
-    "column_axis": "Details of coverage conditions (e.g., absolute loss, replacement cost)",
+    "title": "הרחבת נזק פיזי לרשת התקשורת",
+    "summary": "This table details the conditions for insurance payout regarding physical damage to a communication network due to a cyber event. It outlines how the insurer will compensate for loss or damage, focusing on replacement costs.",
+    "embed_passage": "טבלה זו מתארת את התנאים להרחבת כיסוי ביטוחי לנזק פיזי לרשת התקשורת כתוצאה מאירוע סייבר. הכיסוי מתייחס לאובדן או נזק פיזי לרשת, וקובע את עלות ההחלפה של פריטים שניזוקו או אבדו. במקרה של אובדן מוחלט, המבטח ישפה את המבוטח בעלות רכישת פריט חדש, או בעלות הפריט הקרוב ביותר, אך לא משופר. הרחבה זו חלה על פוליסת ביטוח סייבר. הפריטים המכוסים כוללים פריטי רשת שאבדו או ניזוקו, ועלות התיקון שלהם. במקרה של השמדה מוחלטת או עלות תיקון העולה על ערך הפריט, יחשב הפריט כאובד מוחלט.",
+    "row_axis": "תנאים להרחבת נזק פיזי לרשת התקשורת",
+    "column_axis": "סעיפי תנאים ספציפיים (4.1, 4.1.1, 4.1.1.1, 4.1.1.2, 4.1.1.2.1, 4.1.1.2.2)",
     "units": [],
     "notable_values": [
-      "4.1: Insurer pays insurance benefits for physical loss or damage to the communication network",
-      "4.1.1: Reimbursement based on actual replacement cost",
-      "4.1.1.2.1: Item is completely destroyed or damaged beyond repair",
-      "4.1.1.2.2: Repair cost equals or exceeds the value of a similar item"
+      "אובדן מוחלט: השמדה מוחלטת",
+      "אובדן מוחלט: עלות תיקון > ערך פריט",
+      "החלפה: אותו סוג וכושר תפוקה",
+      "החלפה: פריט קרוב ביותר (לא משופר)"
     ],
     "product_hints": [
-      "הרחבת סייבר רכוש",
-      "ביטוח אירוע סייבר"
+      "הרחבת נזק פיזי",
+      "ביטוח סייבר"
     ]
   },
   "sketch": "תנאים להרחבת נזק פיז  י לרשת התקשורת מאירוע סייבר\nהמבטח ישלם תגמולי ביטוח בגין אובדן או נזק פיזי שייגרם לרשת התקשורת כלהלן: .4.1\nאשר נגרם לרשת התקשורת, על פי עלות ההחלפה אותה פיזי מוחלט בגין אבדן .4.1.1 הוציא המבוטח בפועל לרכישת פריט הרשת שאבד / שניזוק, בפריט חדש מאותו סוג ומאותו כושר תפוקה.\nאם לא קיים יותר פריט חדש הזהה לפריט שניזוק למבוטח, ישפה .4.1.1.1 המבטח את המבוטח בעלות רכישתו של פריט חדש הקרוב ביותר לפריט שניזוק, אך לא משופר ממנו.\n\"אובדן מוחלט\" של פריט מבוטח ייחשב כאחד מהמקרים הבאים: .4.1.1.2 .  הפריט הושמד כליל, או ניזוק במידה שתיקונו אינו אפשרי. 4.1.1.2.1 .  עלות תיקון הפריט שניזוק עולה על או שווה לערך פריט 4.1.1.2.2 זהה או דומה שניתן לרכוש במקומו.",
-  "embed_text": "פוליסת הרחבת סייבר רכוש מכסה אובדן או נזק פיזי לרשת התקשורת כתוצאה מאירוע סייבר. במקרה של אובדן מוחלט, המבטח ישלם את עלות ההחלפה של הפריט שניזוק, או את עלות הפריט הקרוב ביותר, אך לא משופר ממנו. לדוגמה, אם עלות תיקון הפריט עולה על ערכו, יפוצה המבוטח.",
-  "payload": "טבלה: הרחבת נזק פיזי לרשת תקשורת\nThis table details the conditions for insurance coverage of physical damage to a communication network resulting from a cyber event. It outlines how the insurer will compensate for loss or damage, based on replacement cost.\nממדים: Conditions for extending physical damage coverage to the communication network from a cyber event, Details of coverage conditions (e.g., absolute loss, replacement cost)\n\nתנאים להרחבת נזק פיז  י לרשת התקשורת מאירוע סייבר\nהמבטח ישלם תגמולי ביטוח בגין אובדן או נזק פיזי שייגרם לרשת התקשורת כלהלן: .4.1\nאשר נגרם לרשת התקשורת, על פי עלות ההחלפה אותה פיזי מוחלט בגין אבדן .4.1.1 הוציא המבוטח בפועל לרכישת פריט הרשת שאבד / שניזוק, בפריט חדש מאותו סוג ומאותו כושר תפוקה.\nאם לא קיים יותר פריט חדש הזהה לפריט שניזוק למבוטח, ישפה .4.1.1.1 המבטח את המבוטח בעלות רכישתו של פריט חדש הקרוב ביותר לפריט שניזוק, אך לא משופר ממנו.\n\"אובדן מוחלט\" של פריט מבוטח ייחשב כאחד מהמקרים הבאים: .4.1.1.2 .  הפריט הושמד כליל, או ניזוק במידה שתיקונו אינו אפשרי. 4.1.1.2.1 .  עלות תיקון הפריט שניזוק עולה על או שווה לערך פריט 4.1.1.2.2 זהה או דומה שניתן לרכוש במקומו."
+  "embed_text": "טבלה זו מתארת את התנאים להרחבת כיסוי ביטוחי לנזק פיזי לרשת התקשורת כתוצאה מאירוע סייבר. הכיסוי מתייחס לאובדן או נזק פיזי לרשת, וקובע את עלות ההחלפה של פריטים שניזוקו או אבדו. במקרה של אובדן מוחלט, המבטח ישפה את המבוטח בעלות רכישת פריט חדש, או בעלות הפריט הקרוב ביותר, אך לא משופר. הרחבה זו חלה על פוליסת ביטוח סייבר. הפריטים המכוסים כוללים פריטי רשת שאבדו או ניזוקו, ועלות התיקון שלהם. במקרה של השמדה מוחלטת או עלות תיקון העולה על ערך הפריט, יחשב הפריט כאובד מוחלט. This table details the conditions for insurance payout regarding physical damage to a communication network due to a cyber event. It outlines how the insurer will compensate for loss or damage, focusing on replacement costs.",
+  "payload": "טבלה: הרחבת נזק פיזי לרשת התקשורת\nThis table details the conditions for insurance payout regarding physical damage to a communication network due to a cyber event. It outlines how the insurer will compensate for loss or damage, focusing on replacement costs.\nממדים: תנאים להרחבת נזק פיזי לרשת התקשורת, סעיפי תנאים ספציפיים (4.1, 4.1.1, 4.1.1.1, 4.1.1.2, 4.1.1.2.1, 4.1.1.2.2)\n\nתנאים להרחבת נזק פיז  י לרשת התקשורת מאירוע סייבר\nהמבטח ישלם תגמולי ביטוח בגין אובדן או נזק פיזי שייגרם לרשת התקשורת כלהלן: .4.1\nאשר נגרם לרשת התקשורת, על פי עלות ההחלפה אותה פיזי מוחלט בגין אבדן .4.1.1 הוציא המבוטח בפועל לרכישת פריט הרשת שאבד / שניזוק, בפריט חדש מאותו סוג ומאותו כושר תפוקה.\nאם לא קיים יותר פריט חדש הזהה לפריט שניזוק למבוטח, ישפה .4.1.1.1 המבטח את המבוטח בעלות רכישתו של פריט חדש הקרוב ביותר לפריט שניזוק, אך לא משופר ממנו.\n\"אובדן מוחלט\" של פריט מבוטח ייחשב כאחד מהמקרים הבאים: .4.1.1.2 .  הפריט הושמד כליל, או ניזוק במידה שתיקונו אינו אפשרי. 4.1.1.2.1 .  עלות תיקון הפריט שניזוק עולה על או שווה לערך פריט 4.1.1.2.2 זהה או דומה שניתן לרכוש במקומו."
 }

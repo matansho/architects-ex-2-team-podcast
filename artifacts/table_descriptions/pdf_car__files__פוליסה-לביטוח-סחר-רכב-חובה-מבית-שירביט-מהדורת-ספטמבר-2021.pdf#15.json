@@ -2,23 +2,23 @@
   "id": "pdf:car/files/פוליסה-לביטוח-סחר-רכב-חובה-מבית-שירביט-מהדורת-ספטמבר-2021.pdf#15",
   "source": "llm",
   "description": {
-    "title": "פוליסת ביטוח חובה שירביט",
-    "summary": "This table details conditions under which the insurer (Shirbit) is not liable for claims related to a mandatory car insurance policy. It focuses on the validity of the driver's license prior to an accident.",
-    "embed_passage": "פוליסת ביטוח חובה מבית שירביט מגדירה תנאים לפטור מחבות. לדוגמה, אם הנוהג ברכב היה בעל רישיון נהיגה בר תוקף במשך 120 ימים שקדמו לתאונה, ייתכן שהמבטח לא יהיה פטור מחבותו. התנאים מתייחסים גם למצבים של פסילה או אי עמידה בדרישות לקבלת רישיון.",
-    "row_axis": "Conditions for insurer liability exemption",
-    "column_axis": "Specific criteria related to driver's license validity",
+    "title": "פטור מחבות - רישיון נהיגה",
+    "summary": "This table details conditions under which the insurer is not exempt from liability based on the driver's license status. It outlines scenarios related to valid licenses and legal restrictions.",
+    "embed_passage": "טבלה זו מתארת תנאים בהם המבטח אינו פטור מחבותו בהתבסס על תוקף רישיון הנהיגה של הנהג. היא מפרטת תרחישים הקשורים לרישיונות בתוקף והגבלות משפטיות. הפוליסה היא פוליסת ביטוח סחר רכב חובה מבית שירביט. הטבלה בוחנת מצבים בהם הנוהג ברכב היה בעל רישיון נהיגה בר תוקף, או לא היה פסול מלקבל רישיון נהיגה, או לא היה צריך לעמוד בדרישות לקבלת רישיון נהיגה.  התנאים כוללים תקופת זמן של 120 ימים, פסילות לקבלת רישיון, ומבחני נהיגה.",
+    "row_axis": "תנאי פטור מחבות",
+    "column_axis": "תיאור התנאי",
     "units": [],
     "notable_values": [
-      "timeframe: 120 days",
-      "license validity: בר תוקף",
-      "disqualification: פסול מלקבל רישיון"
+      "תקופה: 120 חודשים",
+      "סעיף קטן: א",
+      "חוק ההוצאה לפועל: התשכ\"ז",
+      "דרישות לקבלת רישיון: מבחן נהיגה עיוני"
     ],
     "product_hints": [
-      "ביטוח חובה שירביט",
-      "פוליסת ביטוח חובה"
+      "ביטוח סחר רכב חובה שירביט"
     ]
   },
   "sketch": "המבטח לא יהיה פטור מחבותו לפי פוליסה זו אם הנוהג ברכב היה (  1) בעל רישיון נהיגה בר תוקף כאמור בסעיף קטן )א(, במועד כלשהו החודשים שקדמו למועד קרות תאונת הדרכים, ובלבד 120 במשך שבעת קרות מקרה הביטוח התקיים אחד מהבאים:\nהנוהג ברכב לא היה פסול מלקבל או להחזיק ברישיון נהיגה )א  ( כאמור לפי הוראות שבחיקוק, פסק דין, החלטות בית משפט או רשות מוסמכת אחרת למעט החלטה שניתנה מכוח חוק ,  ותקנות  שהוצאו  מכוחו 1976  ההוצאה  לפועל,  התשכ\"ז ופקיעת תוקפו של רישיון מחמת אי תשלום אגרה;",
-  "embed_text": "פוליסת ביטוח חובה מבית שירביט מגדירה תנאים לפטור מחבות. לדוגמה, אם הנוהג ברכב היה בעל רישיון נהיגה בר תוקף במשך 120 ימים שקדמו לתאונה, ייתכן שהמבטח לא יהיה פטור מחבותו. התנאים מתייחסים גם למצבים של פסילה או אי עמידה בדרישות לקבלת רישיון.",
-  "payload": "טבלה: פוליסת ביטוח חובה שירביט\nThis table details conditions under which the insurer (Shirbit) is not liable for claims related to a mandatory car insurance policy. It focuses on the validity of the driver's license prior to an accident.\nממדים: Conditions for insurer liability exemption, Specific criteria related to driver's license validity\n\nהמבטח לא יהיה פטור מחבותו לפי פוליסה זו אם הנוהג ברכב היה (  1) בעל רישיון נהיגה בר תוקף כאמור בסעיף קטן )א(, במועד כלשהו החודשים שקדמו למועד קרות תאונת הדרכים, ובלבד 120 במשך שבעת קרות מקרה הביטוח התקיים אחד מהבאים:\nהנוהג ברכב לא היה פסול מלקבל או להחזיק ברישיון נהיגה )א  ( כאמור לפי הוראות שבחיקוק, פסק דין, החלטות בית משפט או רשות מוסמכת אחרת למעט החלטה שניתנה מכוח חוק ,  ותקנות  שהוצאו  מכוחו 1976  ההוצאה  לפועל,  התשכ\"ז ופקיעת תוקפו של רישיון מחמת אי תשלום אגרה;"
+  "embed_text": "טבלה זו מתארת תנאים בהם המבטח אינו פטור מחבותו בהתבסס על תוקף רישיון הנהיגה של הנהג. היא מפרטת תרחישים הקשורים לרישיונות בתוקף והגבלות משפטיות. הפוליסה היא פוליסת ביטוח סחר רכב חובה מבית שירביט. הטבלה בוחנת מצבים בהם הנוהג ברכב היה בעל רישיון נהיגה בר תוקף, או לא היה פסול מלקבל רישיון נהיגה, או לא היה צריך לעמוד בדרישות לקבלת רישיון נהיגה.  התנאים כוללים תקופת זמן של 120 ימים, פסילות לקבלת רישיון, ומבחני נהיגה. This table details conditions under which the insurer is not exempt from liability based on the driver's license status. It outlines scenarios related to valid licenses and legal restrictions. בין הערכים בטבלה: תקופה: 120 חודשים; חוק ההוצאה לפועל: התשכ\"ז.",
+  "payload": "טבלה: פטור מחבות - רישיון נהיגה\nThis table details conditions under which the insurer is not exempt from liability based on the driver's license status. It outlines scenarios related to valid licenses and legal restrictions.\nממדים: תנאי פטור מחבות, תיאור התנאי\n\nהמבטח לא יהיה פטור מחבותו לפי פוליסה זו אם הנוהג ברכב היה (  1) בעל רישיון נהיגה בר תוקף כאמור בסעיף קטן )א(, במועד כלשהו החודשים שקדמו למועד קרות תאונת הדרכים, ובלבד 120 במשך שבעת קרות מקרה הביטוח התקיים אחד מהבאים:\nהנוהג ברכב לא היה פסול מלקבל או להחזיק ברישיון נהיגה )א  ( כאמור לפי הוראות שבחיקוק, פסק דין, החלטות בית משפט או רשות מוסמכת אחרת למעט החלטה שניתנה מכוח חוק ,  ותקנות  שהוצאו  מכוחו 1976  ההוצאה  לפועל,  התשכ\"ז ופקיעת תוקפו של רישיון מחמת אי תשלום אגרה;"
 }

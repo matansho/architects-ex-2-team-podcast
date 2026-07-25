@@ -3,17 +3,17 @@
   "source": "llm",
   "description": {
     "title": "השתתפות עצמית",
-    "summary": "This table details the self-participation (deductible) amount the insured must pay in case of a claim. It specifies that the insurer is only responsible for amounts exceeding this self-participation.",
-    "embed_passage": "פוליסת אחריות מקצועית לרופא פרטי מגדירה את ההשתתפות העצמית, הסכום שהמבוטח ישא בו בכל מקרה של תביעה או הוצאות. סכום ההשתתפות העצמית יחול גם על הוצאות שהוציא המבטח בטיפול בתביעה, גם אם לא שולמו פיצויים. לדוגמה, במקרה של תביעה, המבוטח ישא בהשתתפות עצמית כהגדרתה בסעיף ההגדרות.",
-    "row_axis": "Claim scenarios / types of expenses",
-    "column_axis": "Self-participation amount",
+    "summary": "This table details the self-participation (deductible) amount the insured must bear in case of a claim. It specifies that the insurer is only responsible for amounts exceeding this self-participation.",
+    "embed_passage": "טבלה זו מתארת את סכום ההשתתפות העצמית שהמבוטח יישא במקרה של תביעה, כפי שהוגדרה בסעיף ההגדרות של פוליסת אחריות מקצועית לרופא פרטי. המבטח לא יהיה אחראי לפצות או לשפות אלא רק בסכום העולה על השתתפות זו. סכום ההשתתפות העצמית יחול גם על הוצאות שהוציא המבטח תוך טיפול בתביעה או דרישה לפיצוי. ההשתתפות העצמית חלה גם במקרים בהם לא שולמו פיצויים. פוליסת אחריות מקצועית לרופא פרטי, מהדורת ספטמבר 2016, מגדירה את תנאי ההשתתפות העצמית.",
+    "row_axis": "claim/expense scenarios",
+    "column_axis": "self-participation details",
     "units": [],
     "notable_values": [],
     "product_hints": [
-      "אחריות מקצועית לרופא פרטי"
+      "פוליסת אחריות מקצועית לרופא פרטי"
     ]
   },
   "sketch": ".  השתתפות עצמית 4.13\nבכל מקרה של תביעה ו/או הוצאות שיעמדו לתשלום, ישא המבוטח בהשתתפות עצמית כהגדרתה בסעיף ההגדרות, והמבטח לא יהיה אחראי לפצות / לשפות (לפי העניין) אלא רק בסכום העולה על השתתפות זו.\nלמען הסר ספק, סכום ההשתתפות העצמית יחול גם על הוצאות שהוציא המבטח תוך כדי טיפול בתביעה ו/או דרישה לפיצוי ו/או הודעה על כל אירוע העלול לגרום לתביעה, וזאת אף אם לא שולמו פיצויים בגינם.",
-  "embed_text": "פוליסת אחריות מקצועית לרופא פרטי מגדירה את ההשתתפות העצמית, הסכום שהמבוטח ישא בו בכל מקרה של תביעה או הוצאות. סכום ההשתתפות העצמית יחול גם על הוצאות שהוציא המבטח בטיפול בתביעה, גם אם לא שולמו פיצויים. לדוגמה, במקרה של תביעה, המבוטח ישא בהשתתפות עצמית כהגדרתה בסעיף ההגדרות.",
-  "payload": "טבלה: השתתפות עצמית\nThis table details the self-participation (deductible) amount the insured must pay in case of a claim. It specifies that the insurer is only responsible for amounts exceeding this self-participation.\nממדים: Claim scenarios / types of expenses, Self-participation amount\n\n.  השתתפות עצמית 4.13\nבכל מקרה של תביעה ו/או הוצאות שיעמדו לתשלום, ישא המבוטח בהשתתפות עצמית כהגדרתה בסעיף ההגדרות, והמבטח לא יהיה אחראי לפצות / לשפות (לפי העניין) אלא רק בסכום העולה על השתתפות זו.\nלמען הסר ספק, סכום ההשתתפות העצמית יחול גם על הוצאות שהוציא המבטח תוך כדי טיפול בתביעה ו/או דרישה לפיצוי ו/או הודעה על כל אירוע העלול לגרום לתביעה, וזאת אף אם לא שולמו פיצויים בגינם."
+  "embed_text": "טבלה זו מתארת את סכום ההשתתפות העצמית שהמבוטח יישא במקרה של תביעה, כפי שהוגדרה בסעיף ההגדרות של פוליסת אחריות מקצועית לרופא פרטי. המבטח לא יהיה אחראי לפצות או לשפות אלא רק בסכום העולה על השתתפות זו. סכום ההשתתפות העצמית יחול גם על הוצאות שהוציא המבטח תוך טיפול בתביעה או דרישה לפיצוי. ההשתתפות העצמית חלה גם במקרים בהם לא שולמו פיצויים. פוליסת אחריות מקצועית לרופא פרטי, מהדורת ספטמבר 2016, מגדירה את תנאי ההשתתפות העצמית. This table details the self-participation (deductible) amount the insured must bear in case of a claim. It specifies that the insurer is only responsible for amounts exceeding this self-participation.",
+  "payload": "טבלה: השתתפות עצמית\nThis table details the self-participation (deductible) amount the insured must bear in case of a claim. It specifies that the insurer is only responsible for amounts exceeding this self-participation.\nממדים: claim/expense scenarios, self-participation details\n\n.  השתתפות עצמית 4.13\nבכל מקרה של תביעה ו/או הוצאות שיעמדו לתשלום, ישא המבוטח בהשתתפות עצמית כהגדרתה בסעיף ההגדרות, והמבטח לא יהיה אחראי לפצות / לשפות (לפי העניין) אלא רק בסכום העולה על השתתפות זו.\nלמען הסר ספק, סכום ההשתתפות העצמית יחול גם על הוצאות שהוציא המבטח תוך כדי טיפול בתביעה ו/או דרישה לפיצוי ו/או הודעה על כל אירוע העלול לגרום לתביעה, וזאת אף אם לא שולמו פיצויים בגינם."
 }

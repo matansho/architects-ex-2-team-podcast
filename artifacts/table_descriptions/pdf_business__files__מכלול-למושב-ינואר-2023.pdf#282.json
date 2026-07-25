@@ -3,25 +3,28 @@
   "source": "llm",
   "description": {
     "title": "ביטוח תכולה",
-    "summary": "This table details coverage for personal property (תכולה) within an insurance policy. It outlines what is considered 'תכולה' and specifies maximum compensation limits for specific item categories as a percentage of the total תכולה insurance amount.",
-    "embed_passage": "פוליסת 'מכלול' כוללת ביטוח תכולה המכסה את כל דבר וחפץ הנמצא בדירה ובבעלות המבוטח. במקרה של אובדן או נזק, גובה הפיצוי משתנה בהתאם לסוג הפריט; לדוגמה, כסף מזומן יפוצה עד 0.5% מסכום ביטוח התכולה, וכלי כסף עד 10%.",
-    "row_axis": "Specific types of personal property (תכולה)",
-    "column_axis": "Coverage details, specifically maximum compensation limits",
+    "summary": "This table details coverage for property insurance (תכולה). It specifies what is considered 'תכולה' and outlines limitations on liability for certain items.",
+    "embed_passage": "טבלה זו עוסקת בביטוח תכולה, המפרטת את הכיסוי הביטוחי עבור תכולת הדירה. ניתן לבדוק את תנאי הכיסוי, הגדרת 'תכולה', והגבלות אחריות עבור פריטים ספציפיים. ביטוח מכלול מציע כיסוי לחלק ב' - ביטוח התכולה, בתוקף אם צוין במפרט. התכולה כוללת כל דבר וחפץ בדירה בבעלות המבוטח או בני משפחתו, למעט חפצים באחריותם. סכומי ביטוח מיוחדים לגבי כסף מזומן, כלי כסף, פסלים, שטיחים ותכשיטים מוגבלים לאחוז מסכום ביטוח התכולה.",
+    "row_axis": "types of property (תכולה)",
+    "column_axis": "coverage details (תנאים, הגבלות)",
     "units": [
       "% מסכום ביטוח התכולה"
     ],
     "notable_values": [
-      "כסף מזומן: 0.5%",
+      "כסף מזומן או תלושי קנייה: 0.5%",
       "כלי כסף: 10%",
       "פסלים, תמונות, יצירות אמנות: 10%",
       "שטיחים: 10%",
+      "פרוות: 10%",
+      "אוסף בולים: 5%",
+      "אוסף מטבעות: 5%",
       "תכשיטים וכלי זהב: 10%"
     ],
     "product_hints": [
-      "מכלול"
+      "ביטוח תכולה"
     ]
   },
   "sketch": "אין באמור לעיל כדי לשנות את מהות הכיסוי, מקרה הביטוח, חישוב הפיצוי ואי תחולת ביטוח לעיל. 1' חסר כאמור בפרק א\nחלק ב' - ביטוח התכולה\nאם נרשם במפורש במפרט, כיסוי לחלק ב' ביטוח התכולה בתוקף, אזי יחולו התנאים הבאים:\nהתכולה .13\nלעניין פוליסה זו \"תכולה\" משמעה - כל דבר וחפץ הנמצאים בדירה, והינם בבעלותם, בחזקתם ולמעט: או באחריותם של המבוטח או בני משפחתו",
-  "embed_text": "פוליסת 'מכלול' כוללת ביטוח תכולה המכסה את כל דבר וחפץ הנמצא בדירה ובבעלות המבוטח. במקרה של אובדן או נזק, גובה הפיצוי משתנה בהתאם לסוג הפריט; לדוגמה, כסף מזומן יפוצה עד 0.5% מסכום ביטוח התכולה, וכלי כסף עד 10%.",
-  "payload": "טבלה: ביטוח תכולה\nThis table details coverage for personal property (תכולה) within an insurance policy. It outlines what is considered 'תכולה' and specifies maximum compensation limits for specific item categories as a percentage of the total תכולה insurance amount.\nממדים: Specific types of personal property (תכולה), Coverage details, specifically maximum compensation limits\n\nאין באמור לעיל כדי לשנות את מהות הכיסוי, מקרה הביטוח, חישוב הפיצוי ואי תחולת ביטוח לעיל. 1' חסר כאמור בפרק א\nחלק ב' - ביטוח התכולה\nאם נרשם במפורש במפרט, כיסוי לחלק ב' ביטוח התכולה בתוקף, אזי יחולו התנאים הבאים:\nהתכולה .13\nלעניין פוליסה זו \"תכולה\" משמעה - כל דבר וחפץ הנמצאים בדירה, והינם בבעלותם, בחזקתם ולמעט: או באחריותם של המבוטח או בני משפחתו"
+  "embed_text": "טבלה זו עוסקת בביטוח תכולה, המפרטת את הכיסוי הביטוחי עבור תכולת הדירה. ניתן לבדוק את תנאי הכיסוי, הגדרת 'תכולה', והגבלות אחריות עבור פריטים ספציפיים. ביטוח מכלול מציע כיסוי לחלק ב' - ביטוח התכולה, בתוקף אם צוין במפרט. התכולה כוללת כל דבר וחפץ בדירה בבעלות המבוטח או בני משפחתו, למעט חפצים באחריותם. סכומי ביטוח מיוחדים לגבי כסף מזומן, כלי כסף, פסלים, שטיחים ותכשיטים מוגבלים לאחוז מסכום ביטוח התכולה. This table details coverage for property insurance (תכולה). It specifies what is considered 'תכולה' and outlines limitations on liability for certain items. בין הערכים בטבלה: כסף מזומן או תלושי קנייה: 0.5%; פסלים, תמונות, יצירות אמנות: 10%; פרוות: 10%; אוסף בולים: 5%; אוסף מטבעות: 5%; תכשיטים וכלי זהב: 10%.",
+  "payload": "טבלה: ביטוח תכולה\nThis table details coverage for property insurance (תכולה). It specifies what is considered 'תכולה' and outlines limitations on liability for certain items.\nממדים: types of property (תכולה), coverage details (תנאים, הגבלות)\n\nאין באמור לעיל כדי לשנות את מהות הכיסוי, מקרה הביטוח, חישוב הפיצוי ואי תחולת ביטוח לעיל. 1' חסר כאמור בפרק א\nחלק ב' - ביטוח התכולה\nאם נרשם במפורש במפרט, כיסוי לחלק ב' ביטוח התכולה בתוקף, אזי יחולו התנאים הבאים:\nהתכולה .13\nלעניין פוליסה זו \"תכולה\" משמעה - כל דבר וחפץ הנמצאים בדירה, והינם בבעלותם, בחזקתם ולמעט: או באחריותם של המבוטח או בני משפחתו"
 }

@@ -37,21 +37,30 @@ from dataclasses import asdict, dataclass, field
 
 DESCRIBE_SYSTEM = """\
 You describe insurance-policy tables for a Hebrew/English retrieval index.
-You receive a SKETCH (headers + a few sample rows), not necessarily the full table —
-infer what the table is about; only cite numbers that appear in the sketch.
+You receive a SKETCH only (headers + a few sample rows), NOT the full table.
+Treat "…" as a truncated sample. Infer what the table is about from the sketch;
+only cite names, codes, and numbers that actually appear in the sketch.
+Do not invent missing rows.
 
 Return ONLY valid JSON with these keys:
   title: short name of the table (Hebrew ok)
   summary: 1-2 sentences — what the table is for and what you look up
-  embed_passage: 2-3 fluent sentences IN THE TABLE'S LANGUAGE (usually Hebrew) for
-                  embedding/search. Encyclopedia blurb a customer query could match.
-                  Include product name, lookup axes (e.g. age→price), units, and
-                  1-3 example values FROM THE SKETCH. No bullet lists, no labels like
-                  "ממדים:" / "ערכים:".
+            (may be English; used in generator context)
+  embed_passage: 3–6 fluent sentences IN THE TABLE'S LANGUAGE (usually Hebrew)
+                  for embedding/search. Two parts, in order:
+                  (1) ABOUTNESS — what THIS table is (type + purpose) and how to
+                      look things up (product/plan, axes, units). Specific to the
+                      table, not a generic product ad.
+                  (2) INVENTORY — pack distinctive labels FROM THE SKETCH ONLY
+                      (treatment/item names, age bands, priced items, exclusion
+                      items, amounts). For code lists prefer human-readable names
+                      over bare codes; cover most named rows visible in the sketch.
+                  No bullet lists; no labels like "ממדים:" / "ערכים:".
   row_axis: what each row represents
   column_axis: what each column represents
   units: list of units (e.g. ["₪/חודש", "$/יום"])
-  notable_values: up to 5 short "label: value" facts grounded in the sketch
+  notable_values: up to 8 short "label: value" facts grounded in the sketch;
+                  for catalogs use "name: code" (name first), not code-only
   product_hints: product / plan / rider names (for search)
 
 Rules:
@@ -59,7 +68,9 @@ Rules:
   over garbled RTL headers. Only use a name that actually appears there (do not copy
   example brands from these instructions). Put it in product_hints AND embed_passage.
 - Do not invent cells, waiting periods, or legal conclusions.
-- If the sketch is a form / contact block, say so briefly.
+- If the sketch is a form / contact block, say so briefly; do not lead with phone/DOB
+  when a real data grid is present.
+- Avoid vague openers like "מגוון רחב של טיפולים" with no table purpose.
 - Keep Latin product names as written when they appear in the File/context.
 - In JSON string values never put an ASCII " inside the text
   (write רו״ח / בע״מ, not רו"ח / בע"מ).
@@ -75,7 +86,7 @@ Preceding text (context only):
 {context_before}
 ```
 
-Table SKETCH (headers + sample rows — PRIMARY source):
+Table SKETCH (headers + sample rows ONLY — PRIMARY source; may be truncated with …):
 ```
 {table_body}
 ```
@@ -85,7 +96,7 @@ Trailing text (context only):
 {context_after}
 ```
 
-Return the JSON object now.
+Return the JSON object now. Describe only what appears in the sketch; do not invent rows.
 """
 
 
@@ -121,6 +132,9 @@ class TableDescription:
         )
 
 
+_EMBED_TEXT_MAX_CHARS = 800
+
+
 def format_embed_text(
     desc: TableDescription,
     *,
@@ -128,19 +142,46 @@ def format_embed_text(
     page: int | None = None,
 ) -> str:
     """Natural-language passage for E5 (prefer LLM embed_passage; else compose prose)."""
-    if (desc.embed_passage or "").strip():
-        return desc.embed_passage.strip()
+    passage = (desc.embed_passage or "").strip()
+    summary = (desc.summary or "").strip()
+    if passage:
+        bits = [passage]
+        # Safety net: fold sketch facts the passage skipped (e.g. נשך in notable_values).
+        # Do this BEFORE appending English summary so inventory isn't truncated away.
+        extras: list[str] = []
+        for nv in desc.notable_values[:8]:
+            nv = (nv or "").strip()
+            if not nv:
+                continue
+            label = nv.split(":", 1)[0].strip() if ":" in nv else nv
+            needle = label if len(label) >= 3 else nv
+            if needle and needle.casefold() not in passage.casefold():
+                val = nv.split(":", 1)[-1].strip() if ":" in nv else ""
+                if val and val.casefold() in passage.casefold():
+                    continue
+                extras.append(nv)
+        if extras:
+            bits.append("בין הערכים בטבלה: " + "; ".join(extras) + ".")
+        # Summary aboutness last (often English); drop if it would crowd out inventory.
+        if summary and summary.casefold() not in passage.casefold():
+            candidate = " ".join(bits + [summary])
+            if len(candidate) <= _EMBED_TEXT_MAX_CHARS:
+                bits.append(summary)
+        text = " ".join(bits)
+        if len(text) > _EMBED_TEXT_MAX_CHARS:
+            text = text[: _EMBED_TEXT_MAX_CHARS - 1].rstrip() + "…"
+        return text
 
     # Fallback: turn structured fields into a few sentences (no labeled dump).
     products = ", ".join(desc.product_hints[:4]) if desc.product_hints else ""
     units = " או ".join(desc.units) if desc.units else ""
     examples = desc.notable_values[:5]
 
-    bits: list[str] = []
+    bits = []
     subject = desc.title or products or "טבלת ביטוח"
     bits.append(f"{subject}.")
-    if desc.summary:
-        bits.append(desc.summary.rstrip(".") + ".")
+    if summary:
+        bits.append(summary.rstrip(".") + ".")
     elif products:
         bits.append(f"הטבלה שייכת למוצר {products}.")
     if desc.row_axis and desc.column_axis:
@@ -151,13 +192,14 @@ def format_embed_text(
     elif units:
         bits.append(f"היחידות בטבלה: {units}.")
     if examples:
-        # Keep examples inside a sentence, not a labeled list.
         bits.append("לדוגמה: " + "; ".join(examples) + ".")
-    where = ""
     if file:
         where = f" (מתוך {file}" + (f", עמוד {page}" if page is not None else "") + ")"
         bits[0] = bits[0].rstrip(".") + where + "."
-    return " ".join(bits).strip()
+    text = " ".join(bits).strip()
+    if len(text) > _EMBED_TEXT_MAX_CHARS:
+        text = text[: _EMBED_TEXT_MAX_CHARS - 1].rstrip() + "…"
+    return text
 
 
 def format_payload(desc: TableDescription, table_body: str) -> str:
@@ -189,8 +231,8 @@ def extract_table_body(payload: str) -> str:
 def sketch_table(
     table_body: str,
     *,
-    max_rows: int = 8,
-    max_chars: int = 1800,
+    max_rows: int = 12,
+    max_chars: int = 2400,
 ) -> str:
     """Compact view for LLM describe: header + sample rows (not the full grid)."""
     body = extract_table_body(table_body)
@@ -307,6 +349,8 @@ def describe_table_heuristic(
 
 def _strip_json_fences(raw: str) -> str:
     text = (raw or "").strip()
+    if text.startswith("\ufeff"):
+        text = text.lstrip("\ufeff")
     if text.startswith("```"):
         text = re.sub(r"^```(?:json)?\s*", "", text)
         text = re.sub(r"\s*```$", "", text)
@@ -352,9 +396,70 @@ def _escape_inner_double_quotes(s: str) -> str:
     return "".join(out)
 
 
+def _fix_invalid_escapes(s: str) -> str:
+    """Drop illegal \\X sequences (keep the char) so json.loads can succeed."""
+    out: list[str] = []
+    i = 0
+    n = len(s)
+    while i < n:
+        if s[i] == "\\" and i + 1 < n:
+            nxt = s[i + 1]
+            if nxt in '"\\/bfnrt':
+                out.append("\\" + nxt)
+                i += 2
+                continue
+            if nxt == "u" and i + 5 < n and re.match(
+                r"[0-9a-fA-F]{4}", s[i + 2 : i + 6]
+            ):
+                out.append(s[i : i + 6])
+                i += 6
+                continue
+            out.append(nxt)
+            i += 2
+            continue
+        out.append(s[i])
+        i += 1
+    return "".join(out)
+
+
+def _close_truncated_json(s: str) -> str:
+    """If braces/brackets left open, append closers (best-effort)."""
+    in_string = False
+    escape = False
+    stack: list[str] = []
+    for ch in s:
+        if escape:
+            escape = False
+            continue
+        if ch == "\\" and in_string:
+            escape = True
+            continue
+        if ch == '"':
+            in_string = not in_string
+            continue
+        if in_string:
+            continue
+        if ch in "{[":
+            stack.append("}" if ch == "{" else "]")
+        elif ch in "}]" and stack and stack[-1] == ch:
+            stack.pop()
+    if in_string:
+        s += '"'
+    s = re.sub(r",\s*$", "", s.rstrip())
+    while stack:
+        s += stack.pop()
+    return s
+
+
 def _repair_llm_json(text: str) -> str:
     """Best-effort fixes for common Gemma JSON mistakes."""
     s = text
+    s = (
+        s.replace("\u201c", '"')
+        .replace("\u201d", '"')
+        .replace("\u2018", "'")
+        .replace("\u2019", "'")
+    )
     # Hebrew abbrevs that use ASCII " as geresh
     for bad, good in (
         ('רו"ח', "רו״ח"),
@@ -362,11 +467,15 @@ def _repair_llm_json(text: str) -> str:
         ('בע"מ', "בע״מ"),
         ('וכו"', "וכו׳"),
         ("וכו'", "וכו׳"),
+        ('מ"ר', "מ״ר"),
+        ('ק"ג', "ק״ג"),
     ):
         s = s.replace(bad, good)
     s = re.sub(r",\s*([}\]])", r"\1", s)  # trailing commas
     s = _escape_inner_double_quotes(s)
     s = re.sub(r",\s*([}\]])", r"\1", s)  # again after quote fixes
+    s = _fix_invalid_escapes(s)
+    s = re.sub(r",\s*([}\]])", r"\1", s)
     return s
 
 
@@ -374,12 +483,28 @@ def parse_description_json(raw: str) -> TableDescription:
     """Parse LLM JSON (fences + common repairs for trailing commas / inner quotes)."""
     text = _strip_json_fences(raw)
     last_err: Exception | None = None
-    for candidate in (text, _repair_llm_json(text)):
+    candidates = [
+        text,
+        _repair_llm_json(text),
+        _close_truncated_json(_repair_llm_json(text)),
+    ]
+    seen: set[str] = set()
+    uniq: list[str] = []
+    for c in candidates:
+        if c not in seen:
+            seen.add(c)
+            uniq.append(c)
+    for candidate in uniq:
         try:
             data = json.loads(candidate)
             if not isinstance(data, dict):
                 raise ValueError("description JSON must be an object")
-            return TableDescription.from_dict(data)
+            desc = TableDescription.from_dict(data)
+            if not (desc.embed_passage or "").strip() and not (
+                desc.summary or ""
+            ).strip():
+                raise ValueError("description missing embed_passage and summary")
+            return desc
         except Exception as e:
             last_err = e
             continue
@@ -429,7 +554,7 @@ def describe_table_with_llm(
         {"role": "user", "content": user},
     ]
 
-    def _call(timeout: float) -> str:
+    def _call(msgs: list[dict], timeout: float) -> str:
         import os
 
         import litellm
@@ -443,21 +568,46 @@ def describe_table_with_llm(
         elif "/" not in model:
             m = f"openai/{model}"
         resp = litellm.completion(
-            model=m, messages=messages, temperature=0, timeout=timeout, **kwargs
+            model=m, messages=msgs, temperature=0, timeout=timeout, **kwargs
         )
         return resp.choices[0].message.content or ""
 
+    def _parse_or_raise(raw: str) -> TableDescription:
+        desc = parse_description_json(raw)
+        if not (desc.embed_passage or "").strip():
+            raise ValueError("empty embed_passage")
+        return desc
+
     try:
-        raw = complete(messages) if complete is not None else _call(90)
-        return parse_description_json(raw)
+        if complete is not None:
+            return _parse_or_raise(complete(messages))
+        raw = _call(messages, 90)
+        try:
+            return _parse_or_raise(raw)
+        except Exception as parse_err:
+            # One JSON-repair retry with the broken output as context
+            repair_msgs = messages + [
+                {"role": "assistant", "content": raw[:4000]},
+                {
+                    "role": "user",
+                    "content": (
+                        "Your previous reply was not valid JSON "
+                        f"({parse_err!s}). Return ONLY one valid JSON object "
+                        "with the required keys. No markdown fences, no prose."
+                    ),
+                },
+            ]
+            return _parse_or_raise(_call(repair_msgs, 90))
     except Exception as e:
         err = repr(e)
-        if complete is None and ("Timeout" in err or "timeout" in err or "RateLimit" in err):
+        if complete is None and (
+            "Timeout" in err or "timeout" in err or "RateLimit" in err
+        ):
             try:
                 import time
 
                 time.sleep(1.5)
-                return parse_description_json(_call(150))
+                return _parse_or_raise(_call(messages, 150))
             except Exception as e2:
                 print(
                     f"      LLM table describe failed after retry ({e2!r}); using heuristic",

@@ -2,21 +2,23 @@
   "id": "pdf:car/files/נוהל-הגשת-ערעור-וטופס-הגשת-ערעור-למאגר-מידע-ברכב.pdf#30",
   "source": "llm",
   "description": {
-    "title": "אישור העברת נתונים",
-    "summary": "This table is a consent form for data transfer related to a vehicle information database appeal. It allows the database operator to share submitted documents and data with insurance companies for appeal resolution.",
-    "embed_passage": "טופס זה, אישור העברת נתונים, מאפשר למפעיל המאגר להעביר מסמכים ונתונים לחברות ביטוח לצורך בירור ערעור על פוליסת ביטוח חובה. המערער מאשר העברת מידע בין אם ישירות או באמצעות סוכן ביטוח. התאריך של האישור מצוין בחלק התחתון של הטופס.",
-    "row_axis": "Consent statement and signature section",
-    "column_axis": "Data transfer authorization details",
+    "title": "אישור המערער",
+    "summary": "This table is a consent form for a data repository operator to share documents and data related to an appeal. It confirms the appellant's agreement to data transfer for appeal clarification.",
+    "embed_passage": "טופס זה הוא אישור המערער המאפשר למפעיל המאגר להעביר מסמכים ונתונים לצורך בירור ערעור, בין אם ישירות או באמצעות גורמים מורשים. האישור מתייחס לפוליסת ביטוח חובה, ומאפשר פנייה לחברות ביטוח רלוונטיות. בנוסף, בערעור על אמצעי בטיחות, ניתן לפנות לחברה שיווקה את מערכת הבטיחות. הטופס כולל שדות לתאריך וחתימת המערער. נתונים רלוונטיים: תאריך, חתימת המערער, פוליסת ביטוח חובה, מערכות בטיחות.",
+    "row_axis": "Consent statement",
+    "column_axis": "Agreement details",
     "units": [],
     "notable_values": [
-      "תאריך: [blank]",
-      "חתימת המערער: [blank]"
+      "תאריך: ____________",
+      "חתימת המערער: *",
+      "פוליסת ביטוח חובה: mentioned",
+      "מערכות בטיחות: mentioned"
     ],
     "product_hints": [
       "פוליסת ביטוח חובה"
     ]
   },
   "sketch": "אישור המערער:\nהנני מאשר למפעיל המאגר להעביר מסמכים ונתונים אשר העברתי למפעיל המאגר בין אם ישירות ובין אם באמצעות סוכן ביטוח ו/או מיופה כח ו/או חברת ביטוח, לצורך בירור הערעור. מפעיל המאגר יהא רשאי להעביר את המסמכים והנתונים לכל חברת ביטוח אליה פניתי ו/או אליה אפנה בעתיד בעניין פוליסת ביטוח חובה, בכפוף לכך שהם יהיו . רלבנטיים לאותה פוליסה\nבערעור על אמצעי בטיחות - בנוסף, על האמור לעיל, הריני מאשר למפעיל המאגר לפנות לחברה אשר  שיווקה ו/או . יצרה את מערכת הבטיחות ולעדכן את נתוני המאגר על פי תוצאות הבדיקה\n____________ :\nתאריך\n________________ :\n*חתימת המערער",
-  "embed_text": "טופס זה, אישור העברת נתונים, מאפשר למפעיל המאגר להעביר מסמכים ונתונים לחברות ביטוח לצורך בירור ערעור על פוליסת ביטוח חובה. המערער מאשר העברת מידע בין אם ישירות או באמצעות סוכן ביטוח. התאריך של האישור מצוין בחלק התחתון של הטופס.",
-  "payload": "טבלה: אישור העברת נתונים\nThis table is a consent form for data transfer related to a vehicle information database appeal. It allows the database operator to share submitted documents and data with insurance companies for appeal resolution.\nממדים: Consent statement and signature section, Data transfer authorization details\n\nאישור המערער:\nהנני מאשר למפעיל המאגר להעביר מסמכים ונתונים אשר העברתי למפעיל המאגר בין אם ישירות ובין אם באמצעות סוכן ביטוח ו/או מיופה כח ו/או חברת ביטוח, לצורך בירור הערעור. מפעיל המאגר יהא רשאי להעביר את המסמכים והנתונים לכל חברת ביטוח אליה פניתי ו/או אליה אפנה בעתיד בעניין פוליסת ביטוח חובה, בכפוף לכך שהם יהיו . רלבנטיים לאותה פוליסה\nבערעור על אמצעי בטיחות - בנוסף, על האמור לעיל, הריני מאשר למפעיל המאגר לפנות לחברה אשר  שיווקה ו/או . יצרה את מערכת הבטיחות ולעדכן את נתוני המאגר על פי תוצאות הבדיקה\n____________ :\nתאריך\n________________ :\n*חתימת המערער"
+  "embed_text": "טופס זה הוא אישור המערער המאפשר למפעיל המאגר להעביר מסמכים ונתונים לצורך בירור ערעור, בין אם ישירות או באמצעות גורמים מורשים. האישור מתייחס לפוליסת ביטוח חובה, ומאפשר פנייה לחברות ביטוח רלוונטיות. בנוסף, בערעור על אמצעי בטיחות, ניתן לפנות לחברה שיווקה את מערכת הבטיחות. הטופס כולל שדות לתאריך וחתימת המערער. נתונים רלוונטיים: תאריך, חתימת המערער, פוליסת ביטוח חובה, מערכות בטיחות. This table is a consent form for a data repository operator to share documents and data related to an appeal. It confirms the appellant's agreement to data transfer for appeal clarification.",
+  "payload": "טבלה: אישור המערער\nThis table is a consent form for a data repository operator to share documents and data related to an appeal. It confirms the appellant's agreement to data transfer for appeal clarification.\nממדים: Consent statement, Agreement details\n\nאישור המערער:\nהנני מאשר למפעיל המאגר להעביר מסמכים ונתונים אשר העברתי למפעיל המאגר בין אם ישירות ובין אם באמצעות סוכן ביטוח ו/או מיופה כח ו/או חברת ביטוח, לצורך בירור הערעור. מפעיל המאגר יהא רשאי להעביר את המסמכים והנתונים לכל חברת ביטוח אליה פניתי ו/או אליה אפנה בעתיד בעניין פוליסת ביטוח חובה, בכפוף לכך שהם יהיו . רלבנטיים לאותה פוליסה\nבערעור על אמצעי בטיחות - בנוסף, על האמור לעיל, הריני מאשר למפעיל המאגר לפנות לחברה אשר  שיווקה ו/או . יצרה את מערכת הבטיחות ולעדכן את נתוני המאגר על פי תוצאות הבדיקה\n____________ :\nתאריך\n________________ :\n*חתימת המערער"
 }

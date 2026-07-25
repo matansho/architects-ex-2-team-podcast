@@ -2,22 +2,24 @@
   "id": "pdf:business/files/פוליסה-לביטוח-עבודות-קבלניות-הראל-ביט-מהדורת-ינואר-2023.pdf#94",
   "source": "llm",
   "description": {
-    "title": "הודעות למבטח",
-    "summary": "This table details notification requirements for the insured regarding criminal, administrative proceedings, or investigations related to covered insurance incidents. It specifies the timeframe for notifying Harel insurance and what constitutes knowledge for corporate entities.",
-    "embed_passage": "פוליסת ביטוח עבודות קבלניות של הראל ביט מחייבת את המבוטח להודיע למבטח על כתב אישום או הליכים פליליים המתנהלים נגדו בקשר למקרה ביטוח מכוסה. הידיעה נחשבת מרגע שהתקבלה על ידי הנהלת המבוטח או האחראי על נושא הביטוח. לדוגמה, אם המבוטח הינו תאגיד, הידיעה נחשבת מרגע שנודעה למי מהנהלת המבוטח, סעיף 15.8.",
-    "row_axis": "types of legal/investigative actions requiring notification",
-    "column_axis": "notification details (timeframe, responsible party)",
+    "title": "הודעה על הליכים",
+    "summary": "This table details notification requirements regarding criminal, administrative proceedings, or investigations related to covered insurance claims. It specifies how and when the insured must inform the insurer about such events.",
+    "embed_passage": "טבלה זו עוסקת בהודעות על הליכים פליליים, מנהליים או חקירות אחרות הקשורות למקרה ביטוח מכוסה, כפי שמפורט בפוליסת ביטוח עבודות קבלניות הראל. המבוטח מחויב להודיע למבטח תוך זמן סביר על כתב אישום שהוגש נגדו או על הליכים כאלה. במקרה של תאגיד, הידיעה נחשבת מרגע שהתקבלה על ידי הנהלת המבוטח או האחראי על נושא הביטוח. הראל ביט מהדורת ינואר 2023 מגדירה את חובות ההודעה של המבוטח. כתב אישום, הליכים פליליים, הליכים מנהליים, חקירה אחרת, וכן סעיף מהתנאים הכלליים של הפוליסה הם מרכיבים מרכזיים.",
+    "row_axis": "סוג ההודעה / אירוע",
+    "column_axis": "פרטי ההודעה / חובות",
     "units": [],
     "notable_values": [
-      "סעיף: 15.8",
-      "תאגיד: ידיעה נחשבת מרגע שהתקבלה על ידי הנהלת המבוטח"
+      "סוג ההודעה: הודעה על הליכים פליליים",
+      "סוג ההודעה: הודעה על הליכים מנהליים",
+      "סוג ההודעה: הודעה על חקירה אחרת",
+      "תאגיד: ידיעה נחשבת מרגע שנמסרה להנהלה"
     ],
     "product_hints": [
-      "ביטוח עבודות קבלניות הראל ביט",
+      "ביטוח עבודות קבלניות הראל",
       "הראל ביט"
     ]
   },
   "sketch": "הודעה על הליכים פליליים, הליכים מנהליים או חקירה אחרת .8.3\nהמבוטח יודיע למבטח, תוך זמן סביר, על כתב אישום שהוגש נגדו או על הליכים פליליים או הליכים מנהליים או על כל חקירה אחרת המתנהלת נגדו או שעומדת להתנהל נגדו בקשר עם מקרה ביטוח מכוסה, אשר בגינו עלולה להיות מוגשת תביעה על פי פרק זה.\nאם המבוטח הינו תאגיד, תחשב ידיעה של המבוטח על העניינים המנויים לעיל, מרגע 15.8 שנודעו למי מהנהלת המבוטח או לאחראי על נושא הביטוח אצל המבוטח. סעיף \" מהתנאים הכלליים של פוליסה זו: \"הודעה על קרות מקרה הביטוח וברור החבות יחול בשינויים המחויבים.",
-  "embed_text": "פוליסת ביטוח עבודות קבלניות של הראל ביט מחייבת את המבוטח להודיע למבטח על כתב אישום או הליכים פליליים המתנהלים נגדו בקשר למקרה ביטוח מכוסה. הידיעה נחשבת מרגע שהתקבלה על ידי הנהלת המבוטח או האחראי על נושא הביטוח. לדוגמה, אם המבוטח הינו תאגיד, הידיעה נחשבת מרגע שנודעה למי מהנהלת המבוטח, סעיף 15.8.",
-  "payload": "טבלה: הודעות למבטח\nThis table details notification requirements for the insured regarding criminal, administrative proceedings, or investigations related to covered insurance incidents. It specifies the timeframe for notifying Harel insurance and what constitutes knowledge for corporate entities.\nממדים: types of legal/investigative actions requiring notification, notification details (timeframe, responsible party)\n\nהודעה על הליכים פליליים, הליכים מנהליים או חקירה אחרת .8.3\nהמבוטח יודיע למבטח, תוך זמן סביר, על כתב אישום שהוגש נגדו או על הליכים פליליים או הליכים מנהליים או על כל חקירה אחרת המתנהלת נגדו או שעומדת להתנהל נגדו בקשר עם מקרה ביטוח מכוסה, אשר בגינו עלולה להיות מוגשת תביעה על פי פרק זה.\nאם המבוטח הינו תאגיד, תחשב ידיעה של המבוטח על העניינים המנויים לעיל, מרגע 15.8 שנודעו למי מהנהלת המבוטח או לאחראי על נושא הביטוח אצל המבוטח. סעיף \" מהתנאים הכלליים של פוליסה זו: \"הודעה על קרות מקרה הביטוח וברור החבות יחול בשינויים המחויבים."
+  "embed_text": "טבלה זו עוסקת בהודעות על הליכים פליליים, מנהליים או חקירות אחרות הקשורות למקרה ביטוח מכוסה, כפי שמפורט בפוליסת ביטוח עבודות קבלניות הראל. המבוטח מחויב להודיע למבטח תוך זמן סביר על כתב אישום שהוגש נגדו או על הליכים כאלה. במקרה של תאגיד, הידיעה נחשבת מרגע שהתקבלה על ידי הנהלת המבוטח או האחראי על נושא הביטוח. הראל ביט מהדורת ינואר 2023 מגדירה את חובות ההודעה של המבוטח. כתב אישום, הליכים פליליים, הליכים מנהליים, חקירה אחרת, וכן סעיף מהתנאים הכלליים של הפוליסה הם מרכיבים מרכזיים. This table details notification requirements regarding criminal, administrative proceedings, or investigations related to covered insurance claims. It specifies how and when the insured must inform the insurer about such events. בין הערכים בטבלה: סוג ההודעה: הודעה על הליכים פליליים; סוג ההודעה: הודעה על הליכים מנהליים…",
+  "payload": "טבלה: הודעה על הליכים\nThis table details notification requirements regarding criminal, administrative proceedings, or investigations related to covered insurance claims. It specifies how and when the insured must inform the insurer about such events.\nממדים: סוג ההודעה / אירוע, פרטי ההודעה / חובות\n\nהודעה על הליכים פליליים, הליכים מנהליים או חקירה אחרת .8.3\nהמבוטח יודיע למבטח, תוך זמן סביר, על כתב אישום שהוגש נגדו או על הליכים פליליים או הליכים מנהליים או על כל חקירה אחרת המתנהלת נגדו או שעומדת להתנהל נגדו בקשר עם מקרה ביטוח מכוסה, אשר בגינו עלולה להיות מוגשת תביעה על פי פרק זה.\nאם המבוטח הינו תאגיד, תחשב ידיעה של המבוטח על העניינים המנויים לעיל, מרגע 15.8 שנודעו למי מהנהלת המבוטח או לאחראי על נושא הביטוח אצל המבוטח. סעיף \" מהתנאים הכלליים של פוליסה זו: \"הודעה על קרות מקרה הביטוח וברור החבות יחול בשינויים המחויבים."
 }

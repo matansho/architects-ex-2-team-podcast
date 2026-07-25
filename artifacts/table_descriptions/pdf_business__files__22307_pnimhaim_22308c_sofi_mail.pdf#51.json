@@ -2,21 +2,21 @@
   "id": "pdf:business/files/22307_pnimhaim_22308c_sofi_mail.pdf#51",
   "source": "llm",
   "description": {
-    "title": "דיווח על מקרה ביטוח",
-    "summary": "This table outlines the policyholder's obligations to report insurance incidents to the company. It details the types of events and information that must be communicated, ensuring proper claim investigation.",
-    "embed_passage": "פוליסת הביטוח מחייבת את המבוטח להודיע לחברה על כל חקירה, תביעה או הליך משפטי הנוגעים למקרה ביטוח. חובה זו כוללת דיווח על כוונה לשלילת רישיון, וכן מסירת מידע על נסיבות שעלולות להוות עילה לשלילת הרישיון. דיווח מהיר ומדויק מסייע בבירור החבות והיקפה.",
-    "row_axis": "types of reporting obligations",
-    "column_axis": "details of the obligation (e.g., timing, required information)",
+    "title": "הודעה על מקרה ביטוח",
+    "summary": "This table outlines the notification requirements for insurance claims. It details what the insured must inform the company about following an incident that may lead to a claim.",
+    "embed_passage": "טבלה זו מתארת את חובות המבוטח להודיע לחברה על מקרה ביטוח, חקירה, תביעה או הליך משפטי הנוגעים למקרה ביטוח. יש להודיע על כל דבר שעלול להתגבש למקרה ביטוח בעתיד, כולל הודעות על כוונה לשלול רישיון. המבוטח צריך להעביר למבטח כל מכתב, הזמנה לדיון או הודעה לדיון הקשורים לתביעה המוגשת נגדו. חובות אלו כוללות הודעה על קרות מקרה ביטוח, שיתוף פעולה בבירור חבות המבטח, והעברת מסמכים ומידע רלוונטיים.  הודעה, חקירה, תביעה, הליך משפטי, שלילת רישיון, מכתב, הזמנה לדיון, הודעה לדיון.",
+    "row_axis": "סוג הודעה/פעולה",
+    "column_axis": "תיאור חובה",
     "units": [],
     "notable_values": [
-      "סעיף 22: reporting timeframe as per the Insurance Contract Law",
-      "reporting obligation for written or verbal notice of intent to revoke a license"
+      "הודעה על מקרה ביטוח: מיד לאחר שנודע למבוטח",
+      "הודעה על חקירה/תביעה: על כל חקירה, תביעה, דרישה או הליך משפטי",
+      "הודעה על כוונה לשלול רישיון: גם על קבלת הודעה בעל פה או בכתב",
+      "העברת מסמכים: כל מכתב, הזמנה לדיון, הודעה לדיון"
     ],
-    "product_hints": [
-      "פוליסה"
-    ]
+    "product_hints": []
   },
   "sketch": "ד.  בנוסף, חייב המבוטח להודיע לחברה על כל חקירה, תביעה, דרישה או הליך משפטי הנוגעים למקרה הביטוח ו/או עלולים להתגבש לכדי מקרה ביטוח כאמור בעתיד.\nה.  מבלי לגרוע מכלליות האמור, חייב המבוטח להודיע גם על קבלת הודעה בכתב או בעל פה מאדם ו/או גורם כלשהו לגבי כוונה לפעול לשלילת רישיונו, וכן על נסיבות כלשהן אשר עלולות בצורה כלשהי להוות עילה לשלילת רישיונו.",
-  "embed_text": "פוליסת הביטוח מחייבת את המבוטח להודיע לחברה על כל חקירה, תביעה או הליך משפטי הנוגעים למקרה ביטוח. חובה זו כוללת דיווח על כוונה לשלילת רישיון, וכן מסירת מידע על נסיבות שעלולות להוות עילה לשלילת הרישיון. דיווח מהיר ומדויק מסייע בבירור החבות והיקפה.",
-  "payload": "טבלה: דיווח על מקרה ביטוח\nThis table outlines the policyholder's obligations to report insurance incidents to the company. It details the types of events and information that must be communicated, ensuring proper claim investigation.\nממדים: types of reporting obligations, details of the obligation (e.g., timing, required information)\n\nד.  בנוסף, חייב המבוטח להודיע לחברה על כל חקירה, תביעה, דרישה או הליך משפטי הנוגעים למקרה הביטוח ו/או עלולים להתגבש לכדי מקרה ביטוח כאמור בעתיד.\nה.  מבלי לגרוע מכלליות האמור, חייב המבוטח להודיע גם על קבלת הודעה בכתב או בעל פה מאדם ו/או גורם כלשהו לגבי כוונה לפעול לשלילת רישיונו, וכן על נסיבות כלשהן אשר עלולות בצורה כלשהי להוות עילה לשלילת רישיונו."
+  "embed_text": "טבלה זו מתארת את חובות המבוטח להודיע לחברה על מקרה ביטוח, חקירה, תביעה או הליך משפטי הנוגעים למקרה ביטוח. יש להודיע על כל דבר שעלול להתגבש למקרה ביטוח בעתיד, כולל הודעות על כוונה לשלול רישיון. המבוטח צריך להעביר למבטח כל מכתב, הזמנה לדיון או הודעה לדיון הקשורים לתביעה המוגשת נגדו. חובות אלו כוללות הודעה על קרות מקרה ביטוח, שיתוף פעולה בבירור חבות המבטח, והעברת מסמכים ומידע רלוונטיים.  הודעה, חקירה, תביעה, הליך משפטי, שלילת רישיון, מכתב, הזמנה לדיון, הודעה לדיון. This table outlines the notification requirements for insurance claims. It details what the insured must inform the company about following an incident that may lead to a claim. בין הערכים בטבלה: הודעה על מקרה ביטוח: מיד לאחר שנודע למבוטח; הודעה על חקירה/תביעה: על כל חקירה, תביעה, דרישה או הליך משפטי; הודעה על כוונה לשלול רישיון:…",
+  "payload": "טבלה: הודעה על מקרה ביטוח\nThis table outlines the notification requirements for insurance claims. It details what the insured must inform the company about following an incident that may lead to a claim.\nממדים: סוג הודעה/פעולה, תיאור חובה\n\nד.  בנוסף, חייב המבוטח להודיע לחברה על כל חקירה, תביעה, דרישה או הליך משפטי הנוגעים למקרה הביטוח ו/או עלולים להתגבש לכדי מקרה ביטוח כאמור בעתיד.\nה.  מבלי לגרוע מכלליות האמור, חייב המבוטח להודיע גם על קבלת הודעה בכתב או בעל פה מאדם ו/או גורם כלשהו לגבי כוונה לפעול לשלילת רישיונו, וכן על נסיבות כלשהן אשר עלולות בצורה כלשהי להוות עילה לשלילת רישיונו."
 }

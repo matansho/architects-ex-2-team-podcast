@@ -3,21 +3,24 @@
   "source": "llm",
   "description": {
     "title": "שמאים מכריעים",
-    "summary": "This table details the process for using independent appraisers (שמאים מכריעים) to resolve disputes in car insurance claims. It outlines the timeframe for their assessment and how their fees are allocated.",
-    "embed_passage": "פוליסת ביטוח רכב של הראל מתייחסת לשימוש בשמאים מכריעים במקרים של מחלוקת על נזקים. השמאי המכריע ייתן חוות דעתו תוך יום עבודה אחד לאחר קבלת הצעות התיקון, או שבעה ימים לאחר קבלת השומות. שכרו של השמאי המכריע, שנקבע מראש, יחולק בין הראל לבין המבוטח בהתאם לתוצאות הערעור.",
-    "row_axis": "stages in the appraisal dispute resolution process",
-    "column_axis": "details of the appraisal process (timeframe, fees, influence)",
+    "summary": "This table outlines the process for engaging an independent appraiser (שמאי מכריע) in case of disputes regarding repair quotes or damage assessments. It details the appraiser's timeline, fees, and restrictions on influence.",
+    "embed_passage": "טבלה זו מתארת את הליך השימוש בשמאי מכריע במקרה של מחלוקת בנוגע להצעות תיקון או הערכות נזק. ניתן לעיין ברשימת שמאים מכריעים, אשר תורכב על ידי איגוד חברות הביטוח ואיגוד השמאים. שכרו של השמאי המכריע ייקבע מראש, והוא יקבע את אופן חלוקת העלות בין הראל לבין המבוטח או הניזוק. השמאי המכריע לא יהיה שמאי בית או שמאי חוץ של הראל. הראל, ניזוק צד ג׳, סוכן, או כל גורם רלוונטי אחר, אסור להם להשפיע על שיקול דעתו המקצועי של השמאי. ניתן לפנות לשמאי ישירות, לאחר הודעה להראל על קרות מקרה הביטוח.",
+    "row_axis": "process step / condition",
+    "column_axis": "details of the appraisal process",
     "units": [],
     "notable_values": [
-      "שמאי מכריע: חוות דעת תוך יום עבודה אחד",
-      "שמאי מכריע: שבעה ימים לקבלת שומות",
-      "שכר שמאי מכריע: נקבע מראש"
+      "שמאי מכריע: independent appraiser",
+      "יום עבודה אחד: maximum time for appraisal opinion",
+      "שבעה ימים: maximum time to receive assessments",
+      "איגוד חברות הביטוח: insurance companies association",
+      "איגוד השמאים: appraisers association"
     ],
     "product_hints": [
-      "ביטוח רכב הראל"
+      "ביטוח רכב פרטי",
+      "ביטוח רכב מסחרי"
     ]
   },
   "sketch": ". השמאי המכריע ייתן את חוות דעתו לא יאוחר מיום עבודה אחד לאחר שקיבל את הצעות התיקון 19 או שבעה ימים מיום שקיבל את השומות של שני השמאים.\n. שכרו של השמאי המכריע ייקבע מראש. השמאי המכריע ייקבע את אופן חלוקת שכרו ועלות 20 הצעת התיקון הנגדית או השומה הנגדית שלך, בין הראל לבינך או לניזוק צד ג', בשים לב לתוצאת הערעור. עלות הצעת התיקון או השומה הנגדית של הראל תהיה על חשבון הראל.\n. אסור לך, לניזוק צד ג', לסוכן, להראל ולכל גורם רלוונטי אחר, להשפיע בכל צורה שהיא על שיקול 21 דעתו המקצועי של השמאי.",
-  "embed_text": "פוליסת ביטוח רכב של הראל מתייחסת לשימוש בשמאים מכריעים במקרים של מחלוקת על נזקים. השמאי המכריע ייתן חוות דעתו תוך יום עבודה אחד לאחר קבלת הצעות התיקון, או שבעה ימים לאחר קבלת השומות. שכרו של השמאי המכריע, שנקבע מראש, יחולק בין הראל לבין המבוטח בהתאם לתוצאות הערעור.",
-  "payload": "טבלה: שמאים מכריעים\nThis table details the process for using independent appraisers (שמאים מכריעים) to resolve disputes in car insurance claims. It outlines the timeframe for their assessment and how their fees are allocated.\nממדים: stages in the appraisal dispute resolution process, details of the appraisal process (timeframe, fees, influence)\n\n. השמאי המכריע ייתן את חוות דעתו לא יאוחר מיום עבודה אחד לאחר שקיבל את הצעות התיקון 19 או שבעה ימים מיום שקיבל את השומות של שני השמאים.\n. שכרו של השמאי המכריע ייקבע מראש. השמאי המכריע ייקבע את אופן חלוקת שכרו ועלות 20 הצעת התיקון הנגדית או השומה הנגדית שלך, בין הראל לבינך או לניזוק צד ג', בשים לב לתוצאת הערעור. עלות הצעת התיקון או השומה הנגדית של הראל תהיה על חשבון הראל.\n. אסור לך, לניזוק צד ג', לסוכן, להראל ולכל גורם רלוונטי אחר, להשפיע בכל צורה שהיא על שיקול 21 דעתו המקצועי של השמאי."
+  "embed_text": "טבלה זו מתארת את הליך השימוש בשמאי מכריע במקרה של מחלוקת בנוגע להצעות תיקון או הערכות נזק. ניתן לעיין ברשימת שמאים מכריעים, אשר תורכב על ידי איגוד חברות הביטוח ואיגוד השמאים. שכרו של השמאי המכריע ייקבע מראש, והוא יקבע את אופן חלוקת העלות בין הראל לבין המבוטח או הניזוק. השמאי המכריע לא יהיה שמאי בית או שמאי חוץ של הראל. הראל, ניזוק צד ג׳, סוכן, או כל גורם רלוונטי אחר, אסור להם להשפיע על שיקול דעתו המקצועי של השמאי. ניתן לפנות לשמאי ישירות, לאחר הודעה להראל על קרות מקרה הביטוח. This table outlines the process for engaging an independent appraiser (שמאי מכריע) in case of disputes regarding repair quotes or damage assessments. It details the appraiser's timeline, fees, and restrictions on influence. בין הערכים בטבלה: יום עבודה אחד: maximum time for appraisal opinion; שבעה ימים: maximum time t…",
+  "payload": "טבלה: שמאים מכריעים\nThis table outlines the process for engaging an independent appraiser (שמאי מכריע) in case of disputes regarding repair quotes or damage assessments. It details the appraiser's timeline, fees, and restrictions on influence.\nממדים: process step / condition, details of the appraisal process\n\n. השמאי המכריע ייתן את חוות דעתו לא יאוחר מיום עבודה אחד לאחר שקיבל את הצעות התיקון 19 או שבעה ימים מיום שקיבל את השומות של שני השמאים.\n. שכרו של השמאי המכריע ייקבע מראש. השמאי המכריע ייקבע את אופן חלוקת שכרו ועלות 20 הצעת התיקון הנגדית או השומה הנגדית שלך, בין הראל לבינך או לניזוק צד ג', בשים לב לתוצאת הערעור. עלות הצעת התיקון או השומה הנגדית של הראל תהיה על חשבון הראל.\n. אסור לך, לניזוק צד ג', לסוכן, להראל ולכל גורם רלוונטי אחר, להשפיע בכל צורה שהיא על שיקול 21 דעתו המקצועי של השמאי."
 }

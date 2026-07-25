@@ -2,23 +2,21 @@
   "id": "pdf:long-term-care/files/иск-о-пособии-по-уходу.pdf#84",
   "source": "llm",
   "description": {
-    "title": "טיפול סיעודי - מגורים",
-    "summary": "This table gathers information about the insured's living situation and care needs for long-term care assessment. It helps determine eligibility for care benefits by documenting who lives with the insured and the level of assistance they receive.",
-    "embed_passage": "טופס זה בוחן את הצורך בטיפול סיעודי, כולל מידע על מגורים משותפים ושעות טיפול שבועיות. לדוגמה, השאלה האם המבוטח זקוק לעזרה ממישהו אחר, והאם יש מטפל זר שנשלח על ידי המוסד לביטוח לאומי. מספר השעות השבועיות יכול להיות 8 או יותר.",
-    "row_axis": "Insured individual",
-    "column_axis": "Living situation and care assistance details",
+    "title": "מידע על מקבל הטיפול",
+    "summary": "This table collects information about the insured person's living situation and care needs. It is used to determine eligibility for care benefits and the level of assistance required.",
+    "embed_passage": "טבלה זו עוסקת במידע על מקבל הטיפול, כולל מי שגר איתו וכן האם הוא מוכר כזקוק לעזרה. המטרה היא להעריך את הצורך בשירותי טיפול ולבדוק האם יש עזרה קיימת, כמו מטפלת זרה. השדות כוללים שאלות לגבי הכרה בזכאות לקצבה, מספר שעות שבועיות של טיפול, ושאלות לגבי נוכחות של מטפלת זרה. מידע נאסף על שם המבוטח ומספר תיק.",
+    "row_axis": "insured person",
+    "column_axis": "care needs and living situation",
     "units": [],
     "notable_values": [
-      "Hours per week: 8",
-      "Recognized as needing care benefit: Да",
-      "Foreign worker provided by National Insurance Institute: Да",
-      "Recognized as needing care benefit: Нет"
+      "Recognized as needing care benefit: Yes",
+      "Recognized as needing care benefit: No",
+      "Foreign worker providing care: Yes",
+      "Foreign worker providing care: No"
     ],
-    "product_hints": [
-      "טיפול סיעודי"
-    ]
+    "product_hints": []
   },
   "sketch": "8 Кто проживает вместе со застрахованным?\nПеречисление:\nПризнан ли он больным, нуждающимся в получении пособия по уходу, признанным учреждением (например, Институтом национального страхования, страховой компанией)?\nКоличество часов в неделю:\nИмя застрахованного:                                                                                                    у. л.:\nДа Нет Есть ли помощница\\ иностранная работница, предоставляющая услуги по уходу, присланная Институтом национального страхования? Да Нет Не заполнять",
-  "embed_text": "טופס זה בוחן את הצורך בטיפול סיעודי, כולל מידע על מגורים משותפים ושעות טיפול שבועיות. לדוגמה, השאלה האם המבוטח זקוק לעזרה ממישהו אחר, והאם יש מטפל זר שנשלח על ידי המוסד לביטוח לאומי. מספר השעות השבועיות יכול להיות 8 או יותר.",
-  "payload": "טבלה: טיפול סיעודי - מגורים\nThis table gathers information about the insured's living situation and care needs for long-term care assessment. It helps determine eligibility for care benefits by documenting who lives with the insured and the level of assistance they receive.\nממדים: Insured individual, Living situation and care assistance details\n\n8 Кто проживает вместе со застрахованным?\nПеречисление:\nПризнан ли он больным, нуждающимся в получении пособия по уходу, признанным учреждением (например, Институтом национального страхования, страховой компанией)?\nКоличество часов в неделю:\nИмя застрахованного:                                                                                                    у. л.:\nДа Нет Есть ли помощница\\ иностранная работница, предоставляющая услуги по уходу, присланная Институтом национального страхования? Да Нет Не заполнять"
+  "embed_text": "טבלה זו עוסקת במידע על מקבל הטיפול, כולל מי שגר איתו וכן האם הוא מוכר כזקוק לעזרה. המטרה היא להעריך את הצורך בשירותי טיפול ולבדוק האם יש עזרה קיימת, כמו מטפלת זרה. השדות כוללים שאלות לגבי הכרה בזכאות לקצבה, מספר שעות שבועיות של טיפול, ושאלות לגבי נוכחות של מטפלת זרה. מידע נאסף על שם המבוטח ומספר תיק. This table collects information about the insured person's living situation and care needs. It is used to determine eligibility for care benefits and the level of assistance required. בין הערכים בטבלה: Recognized as needing care benefit: Yes; Recognized as needing care benefit: No; Foreign worker providing care: Yes; Foreign worker providing care: No.",
+  "payload": "טבלה: מידע על מקבל הטיפול\nThis table collects information about the insured person's living situation and care needs. It is used to determine eligibility for care benefits and the level of assistance required.\nממדים: insured person, care needs and living situation\n\n8 Кто проживает вместе со застрахованным?\nПеречисление:\nПризнан ли он больным, нуждающимся в получении пособия по уходу, признанным учреждением (например, Институтом национального страхования, страховой компанией)?\nКоличество часов в неделю:\nИмя застрахованного:                                                                                                    у. л.:\nДа Нет Есть ли помощница\\ иностранная работница, предоставляющая услуги по уходу, присланная Институтом национального страхования? Да Нет Не заполнять"
 }

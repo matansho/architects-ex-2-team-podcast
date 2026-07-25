@@ -3,21 +3,22 @@
   "source": "llm",
   "description": {
     "title": "פוליסת ביטוח בריאות",
-    "summary": "This table outlines conditions related to health insurance policies, specifically regarding incomplete or dishonest answers provided by the insured. It details the company's right to cancel the policy under such circumstances and the potential for premium refunds.",
-    "embed_passage": "פוליסת ביטוח בריאות מאפשרת ביטול על ידי החברה אם ניתנה תשובה שאינה מלאה וכנה לשאלה מהותית. החברה רשאית לבטל את הפוליסה תוך שלושים ימים מהיום שנודע לה על כך, כל עוד לא קרה מקרה הביטוח. במקרה של ביטול, המבוטח זכאי להחזר דמי הביטוח ששילם בניכוי הוצאות הביטול.",
-    "row_axis": "Conditions for policy cancellation",
-    "column_axis": "Details of cancellation rights and refund eligibility",
+    "summary": "This table outlines conditions for health insurance policy cancellation due to incomplete or dishonest answers provided by the insured. It details the potential for policy voidance and refund of premiums.",
+    "embed_passage": "טבלה זו מתייחסת לפוליסת ביטוח בריאות ומפרטת תנאים לביטול הפוליסה במקרה של תשובות לא מלאות או לא כנות שניתנו על ידי המבוטח. ניתן להשתמש בטבלה זו כדי לבדוק את התנאים לביטול הפוליסה, כגון מתן תשובה שאינה מלאה וכנה, וכן את ההשלכות של ביטול הפוליסה, כגון החזר דמי ביטוח. התנאים המפורטים כוללים ביטול הפוליסה בהודעה בכתב, זכאות להחזר דמי ביטוח בניכוי הוצאות הביטול, ופטור מחובה לתגמולי ביטוח במקרה של כוונה לרמות. תשובה שאינה מלאה וכנה, ביטול הפוליסה, החזר דמי ביטוח, כוונה לרמות.",
+    "row_axis": "Cancellation conditions based on insured responses",
+    "column_axis": "Policy implications (cancellation rights, refund eligibility)",
     "units": [],
     "notable_values": [
-      "Cancellation period: 30 days",
-      "Refund eligibility: Premium refund minus cancellation costs",
-      "Condition for cancellation: Incomplete or dishonest answer"
+      "Cancellation reason: תשובה שאינה מלאה וכנה",
+      "Cancellation timeframe: שלושים ימים",
+      "Refund eligibility: בניכוי הוצאות הביטול",
+      "Fraudulent intent: פעל המבוטח בכוונת מרמה"
     ],
     "product_hints": [
       "פוליסת ביטוח בריאות"
     ]
   },
   "sketch": "3\nפוליסת ביטוח בריאות\n06/2022\nמהדורה\n. תשובה שאינה מלאה וכנה\nניתנה לשאלה בעניין מהותי תשובה שלא היתה 4.1 מלאה וכנה, רשאית החברה, תוך שלושים ימים מהיום שנודע לה על כך וכל עוד לא קרה מקרה הביטוח,  לבטל  את  הפוליסה  בהודעה  בכתב למבוטח.\n, ביטלה  החברה  את  הפוליסה  מכוח  סעיף  זה 4.2 זכאי המבוטח להחזר דמי הביטוח ששילם בעד הוצאות בניכוי הביטול, שלאחר התקופה החברה, זולת אם פעל המבוטח בכוונת מרמה.",
-  "embed_text": "פוליסת ביטוח בריאות מאפשרת ביטול על ידי החברה אם ניתנה תשובה שאינה מלאה וכנה לשאלה מהותית. החברה רשאית לבטל את הפוליסה תוך שלושים ימים מהיום שנודע לה על כך, כל עוד לא קרה מקרה הביטוח. במקרה של ביטול, המבוטח זכאי להחזר דמי הביטוח ששילם בניכוי הוצאות הביטול.",
-  "payload": "טבלה: פוליסת ביטוח בריאות\nThis table outlines conditions related to health insurance policies, specifically regarding incomplete or dishonest answers provided by the insured. It details the company's right to cancel the policy under such circumstances and the potential for premium refunds.\nממדים: Conditions for policy cancellation, Details of cancellation rights and refund eligibility\n\n3\nפוליסת ביטוח בריאות\n06/2022\nמהדורה\n. תשובה שאינה מלאה וכנה\nניתנה לשאלה בעניין מהותי תשובה שלא היתה 4.1 מלאה וכנה, רשאית החברה, תוך שלושים ימים מהיום שנודע לה על כך וכל עוד לא קרה מקרה הביטוח,  לבטל  את  הפוליסה  בהודעה  בכתב למבוטח.\n, ביטלה  החברה  את  הפוליסה  מכוח  סעיף  זה 4.2 זכאי המבוטח להחזר דמי הביטוח ששילם בעד הוצאות בניכוי הביטול, שלאחר התקופה החברה, זולת אם פעל המבוטח בכוונת מרמה."
+  "embed_text": "טבלה זו מתייחסת לפוליסת ביטוח בריאות ומפרטת תנאים לביטול הפוליסה במקרה של תשובות לא מלאות או לא כנות שניתנו על ידי המבוטח. ניתן להשתמש בטבלה זו כדי לבדוק את התנאים לביטול הפוליסה, כגון מתן תשובה שאינה מלאה וכנה, וכן את ההשלכות של ביטול הפוליסה, כגון החזר דמי ביטוח. התנאים המפורטים כוללים ביטול הפוליסה בהודעה בכתב, זכאות להחזר דמי ביטוח בניכוי הוצאות הביטול, ופטור מחובה לתגמולי ביטוח במקרה של כוונה לרמות. תשובה שאינה מלאה וכנה, ביטול הפוליסה, החזר דמי ביטוח, כוונה לרמות. This table outlines conditions for health insurance policy cancellation due to incomplete or dishonest answers provided by the insured. It details the potential for policy voidance and refund of premiums. בין הערכים בטבלה: Cancellation timeframe: שלושים ימים; Fraudulent intent: פעל המבוטח בכוונת מרמה.",
+  "payload": "טבלה: פוליסת ביטוח בריאות\nThis table outlines conditions for health insurance policy cancellation due to incomplete or dishonest answers provided by the insured. It details the potential for policy voidance and refund of premiums.\nממדים: Cancellation conditions based on insured responses, Policy implications (cancellation rights, refund eligibility)\n\n3\nפוליסת ביטוח בריאות\n06/2022\nמהדורה\n. תשובה שאינה מלאה וכנה\nניתנה לשאלה בעניין מהותי תשובה שלא היתה 4.1 מלאה וכנה, רשאית החברה, תוך שלושים ימים מהיום שנודע לה על כך וכל עוד לא קרה מקרה הביטוח,  לבטל  את  הפוליסה  בהודעה  בכתב למבוטח.\n, ביטלה  החברה  את  הפוליסה  מכוח  סעיף  זה 4.2 זכאי המבוטח להחזר דמי הביטוח ששילם בעד הוצאות בניכוי הביטול, שלאחר התקופה החברה, זולת אם פעל המבוטח בכוונת מרמה."
 }

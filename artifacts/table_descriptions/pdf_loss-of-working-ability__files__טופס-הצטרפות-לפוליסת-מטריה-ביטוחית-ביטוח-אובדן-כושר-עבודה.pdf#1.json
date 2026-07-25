@@ -2,25 +2,27 @@
   "id": "pdf:loss-of-working-ability/files/טופס-הצטרפות-לפוליסת-מטריה-ביטוחית-ביטוח-אובדן-כושר-עבודה.pdf#1",
   "source": "llm",
   "description": {
-    "title": "מגן חודשי - הצטרפות",
-    "summary": "This table is for joining the 'מגן חודשי' (Monthly Shield) insurance plan. It collects applicant details and policy information, including the proposed insurance amount and start date.",
-    "embed_passage": "פוליסת 'מגן חודשי' מציעה סכום ביטוח חודשי, כאשר סכום הביטוח המינימום במוצר הוא 500,000 ₪. תקופת הביטוח יכולה להגיע עד גיל מקסימלי, והתשלום הוא פרמיה משתנה כל שנה. מבוטח יכול להיות בגיל 51 עד 60.",
-    "row_axis": "Insurance applicant / policy",
-    "column_axis": "Policy details (agent name, policy number, start date, insurance amount, plan name)",
-    "units": [
-      "₪"
-    ],
+    "title": "הצטרפות לפוליסת מטריה ביטוחית",
+    "summary": "This table is for joining the Harel insurance policy for loss of working ability. It collects details for a new insurance application, including agent information, policy start date, and requested coverage amounts.",
+    "embed_passage": "טופס זה מיועד להצטרפות לפוליסת מטריה ביטוחית של הראל, ביטוח אובדן כושר עבודה. ניתן לוודא קבלת הפקס לאחר המשלוח בטלפון. יש למלא את הטופס באופן מדויק ושלם. סכומי הביטוח המירביים הניתנים לרכישה על פי טופס זה כוללים סכומי ביטוח קיימים בהראל. הטופס מיועד לנשים וגברים כאחד. המועמד לביטוח פונה להראל בהצעה לביטוח חיים כמפורט בטופס. סוכן, שם מפקח ותאריך תחילת הביטוח הם פרטים נדרשים.",
+    "row_axis": "מועמד לביטוח (applicant)",
+    "column_axis": "פרטי פוליסה וסוכן (policy and agent details)",
+    "units": [],
     "notable_values": [
-      "Minimum insurance amount: 500,000 ₪",
-      "Age range: 51-60",
-      "Fax number: 03-7348169",
-      "Phone number: 1-700-70-28-70"
+      "סוכן: שם סוכן",
+      "מס' סוכן: מספר סוכן",
+      "שם מפקח: שם מפקח",
+      "תאריך תחילת הביטוח: תאריך תחילת הביטוח",
+      "סכומי הביטוח המירביים: סכומי ביטוח",
+      "מס' הצעה/פוליסה למועמד לביטוח: מספר הצעה/פוליסה"
     ],
     "product_hints": [
-      "מגן חודשי"
+      "פוליסת מטריה ביטוחית",
+      "ביטוח אובדן כושר עבודה",
+      "הראל"
     ]
   },
   "sketch": "agafhaim@harel-ins.co.il או למייל 03-7348169 : יש למלא את הטופס ולהחזירו לפקס ביטוח חיים .1-700-70-28-70 ' שעות לאחר המשלוח בטל 24ניתן לוודא את קבלת הפקס כ\nסכומי הביטוח המירביים הניתנים לרכישה על פי טופס זה, כולל סכומי ביטוח הקיימים בהראל, אם קיימים, הינם:\n:\nמס' הצעה/פוליסה למועמד לביטוח\n:\nשם סוכן:                                             מס' סוכן:                         שם מפקח:                                             תאריך תחילת הביטוח\nשים לב, עליך להשיב תשובה מלאה וכנה לשאלות בעניין מהותי. ככל שלא תעשה כן, יכול ותהיה לכך השפעה על תשלום תגמולי הביטוח. אני הח\"מ, המועמד לביטוח עפ\"י הפוליסה, פונה אליכם בהצעה לביטוח חיים כמפורט להלן:",
-  "embed_text": "פוליסת 'מגן חודשי' מציעה סכום ביטוח חודשי, כאשר סכום הביטוח המינימום במוצר הוא 500,000 ₪. תקופת הביטוח יכולה להגיע עד גיל מקסימלי, והתשלום הוא פרמיה משתנה כל שנה. מבוטח יכול להיות בגיל 51 עד 60.",
-  "payload": "טבלה: מגן חודשי - הצטרפות\nThis table is for joining the 'מגן חודשי' (Monthly Shield) insurance plan. It collects applicant details and policy information, including the proposed insurance amount and start date.\nממדים: Insurance applicant / policy, Policy details (agent name, policy number, start date, insurance amount, plan name)\n\nagafhaim@harel-ins.co.il או למייל 03-7348169 : יש למלא את הטופס ולהחזירו לפקס ביטוח חיים .1-700-70-28-70 ' שעות לאחר המשלוח בטל 24ניתן לוודא את קבלת הפקס כ\nסכומי הביטוח המירביים הניתנים לרכישה על פי טופס זה, כולל סכומי ביטוח הקיימים בהראל, אם קיימים, הינם:\n:\nמס' הצעה/פוליסה למועמד לביטוח\n:\nשם סוכן:                                             מס' סוכן:                         שם מפקח:                                             תאריך תחילת הביטוח\nשים לב, עליך להשיב תשובה מלאה וכנה לשאלות בעניין מהותי. ככל שלא תעשה כן, יכול ותהיה לכך השפעה על תשלום תגמולי הביטוח. אני הח\"מ, המועמד לביטוח עפ\"י הפוליסה, פונה אליכם בהצעה לביטוח חיים כמפורט להלן:"
+  "embed_text": "טופס זה מיועד להצטרפות לפוליסת מטריה ביטוחית של הראל, ביטוח אובדן כושר עבודה. ניתן לוודא קבלת הפקס לאחר המשלוח בטלפון. יש למלא את הטופס באופן מדויק ושלם. סכומי הביטוח המירביים הניתנים לרכישה על פי טופס זה כוללים סכומי ביטוח קיימים בהראל. הטופס מיועד לנשים וגברים כאחד. המועמד לביטוח פונה להראל בהצעה לביטוח חיים כמפורט בטופס. סוכן, שם מפקח ותאריך תחילת הביטוח הם פרטים נדרשים. This table is for joining the Harel insurance policy for loss of working ability. It collects details for a new insurance application, including agent information, policy start date, and requested coverage amounts. בין הערכים בטבלה: מס' סוכן: מספר סוכן; מס' הצעה/פוליסה למועמד לביטוח: מספר הצעה/פוליסה.",
+  "payload": "טבלה: הצטרפות לפוליסת מטריה ביטוחית\nThis table is for joining the Harel insurance policy for loss of working ability. It collects details for a new insurance application, including agent information, policy start date, and requested coverage amounts.\nממדים: מועמד לביטוח (applicant), פרטי פוליסה וסוכן (policy and agent details)\n\nagafhaim@harel-ins.co.il או למייל 03-7348169 : יש למלא את הטופס ולהחזירו לפקס ביטוח חיים .1-700-70-28-70 ' שעות לאחר המשלוח בטל 24ניתן לוודא את קבלת הפקס כ\nסכומי הביטוח המירביים הניתנים לרכישה על פי טופס זה, כולל סכומי ביטוח הקיימים בהראל, אם קיימים, הינם:\n:\nמס' הצעה/פוליסה למועמד לביטוח\n:\nשם סוכן:                                             מס' סוכן:                         שם מפקח:                                             תאריך תחילת הביטוח\nשים לב, עליך להשיב תשובה מלאה וכנה לשאלות בעניין מהותי. ככל שלא תעשה כן, יכול ותהיה לכך השפעה על תשלום תגמולי הביטוח. אני הח\"מ, המועמד לביטוח עפ\"י הפוליסה, פונה אליכם בהצעה לביטוח חיים כמפורט להלן:"
 }

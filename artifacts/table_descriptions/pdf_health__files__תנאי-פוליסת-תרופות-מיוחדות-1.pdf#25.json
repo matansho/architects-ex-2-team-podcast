@@ -2,24 +2,26 @@
   "id": "pdf:health/files/תנאי-פוליסת-תרופות-מיוחדות-1.pdf#25",
   "source": "llm",
   "description": {
-    "title": "השתתפות עצמית - תרופות מיוחדות",
-    "summary": "This table details the monthly self-participation amounts for insured medications, as outlined in sections 2.1.1-2.1.5 of the policy. It allows you to look up the self-participation amount based on the specific insurance case and the medication's cost.",
-    "embed_passage": "פוליסת תרופות מיוחדות מגדירה סכום השתתפות עצמית חודשי עבור מקרי ביטוח שונים. לדוגמה, סכום ההשתתפות העצמית יכול להיות 300 ש״ח לתרופה, או 500 ש״ח לתרופה, בהתאם לסעיף הרלוונטי. עבור תרופה שעלותה החודשית גבוהה מ-5,000 ש״ח, לא תיגבה השתתפות עצמית.",
-    "row_axis": "Insurance case (as defined in sections 2.1.1-2.1.5)",
-    "column_axis": "Monthly self-participation amount (ש״ח)",
+    "title": "השתתפות עצמית – תרופות",
+    "summary": "This table details the monthly self-participation amounts for insurance cases, as outlined in sections 2.1.1-2.1.5. It specifies the self-participation amount per medication, per month, and exceptions based on monthly drug cost.",
+    "embed_passage": "טבלה זו מפרטת את סכומי ההשתתפות העצמית החודשיים עבור מקרי ביטוח שונים, כפי שמפורט בסעיפים 2.1.1 עד 2.1.5 בפוליסה. הסכומים מצוינים 'ש״ח לתרופה, לאותו חודש' ומתייחסים לתרופות ספציפיות. ניתן למצוא כאן מידע על סכום ההשתתפות העצמית החודשי, סכום ההשתתפות העצמית החודשי בשל מקרה ביטוח מפורט, וכן חריגים בהתאם לעלות התרופה החודשית. הפוליסה כוללת גם התייחסות לתרופות מיוחדות. סכום ההשתתפות העצמית יכול להיות 300 ש״ח, 500 ש״ח, או שלא תיגבה השתתפות עצמית כלל. תנאי הפוליסה מתייחסים גם לתרופות המאושרות ברשימת המדינות.",
+    "row_axis": "סעיפי ביטוח (2.1.1-2.1.5, 5.1, 5.2, 5.3)",
+    "column_axis": "סכום ההשתתפות העצמית",
     "units": [
-      "ש״ח"
+      "ש\"ח"
     ],
     "notable_values": [
-      "300 ש״ח: self-participation amount",
-      "500 ש״ח: self-participation amount",
-      "5,000 ש״ח: medication cost threshold for no self-participation"
+      "סעיף 2.1.1-2.1.4: 300 ש\"ח",
+      "סעיף 2.1.5: 500 ש\"ח",
+      "סעיף 5.1: 300 ש\"ח",
+      "סעיף 5.2: 500 ש\"ח",
+      "סעיף 5.3: מעל 5,000 ש\"ח – ללא השתתפות עצמית"
     ],
     "product_hints": [
-      "תרופות מיוחדות"
+      "תרופות"
     ]
   },
   "sketch": "לעיל 2.1.1­2.1.4 ת בשל מקרי הביטוח המפורטים בסעיפים סכום ההשתתפות העצמית החודשי ח ש\" 300 ­ .5.1 . לתרופה, לאותו חודש ש\"ח לתרופה, לאותו 500 ­   2.1.5 סכום ההשתתפות העצמית החודשים בשל מקרה הביטוח המפורט בסעיף .5.2 . חודש\nלעיל,  לא תיגבה השתתפות עצמית עבור תרופה שעלותה החודשית 5.2 ו 5.1 ר בסעיפים קטנים על אף האמו .5.3 . ש\"   ח 5,000 ­ גבוהה    מ",
-  "embed_text": "פוליסת תרופות מיוחדות מגדירה סכום השתתפות עצמית חודשי עבור מקרי ביטוח שונים. לדוגמה, סכום ההשתתפות העצמית יכול להיות 300 ש״ח לתרופה, או 500 ש״ח לתרופה, בהתאם לסעיף הרלוונטי. עבור תרופה שעלותה החודשית גבוהה מ-5,000 ש״ח, לא תיגבה השתתפות עצמית.",
-  "payload": "טבלה: השתתפות עצמית - תרופות מיוחדות\nThis table details the monthly self-participation amounts for insured medications, as outlined in sections 2.1.1-2.1.5 of the policy. It allows you to look up the self-participation amount based on the specific insurance case and the medication's cost.\nממדים: Insurance case (as defined in sections 2.1.1-2.1.5), Monthly self-participation amount (ש״ח)\n\nלעיל 2.1.1­2.1.4 ת בשל מקרי הביטוח המפורטים בסעיפים סכום ההשתתפות העצמית החודשי ח ש\" 300 ­ .5.1 . לתרופה, לאותו חודש ש\"ח לתרופה, לאותו 500 ­   2.1.5 סכום ההשתתפות העצמית החודשים בשל מקרה הביטוח המפורט בסעיף .5.2 . חודש\nלעיל,  לא תיגבה השתתפות עצמית עבור תרופה שעלותה החודשית 5.2 ו 5.1 ר בסעיפים קטנים על אף האמו .5.3 . ש\"   ח 5,000 ­ גבוהה    מ"
+  "embed_text": "טבלה זו מפרטת את סכומי ההשתתפות העצמית החודשיים עבור מקרי ביטוח שונים, כפי שמפורט בסעיפים 2.1.1 עד 2.1.5 בפוליסה. הסכומים מצוינים 'ש״ח לתרופה, לאותו חודש' ומתייחסים לתרופות ספציפיות. ניתן למצוא כאן מידע על סכום ההשתתפות העצמית החודשי, סכום ההשתתפות העצמית החודשי בשל מקרה ביטוח מפורט, וכן חריגים בהתאם לעלות התרופה החודשית. הפוליסה כוללת גם התייחסות לתרופות מיוחדות. סכום ההשתתפות העצמית יכול להיות 300 ש״ח, 500 ש״ח, או שלא תיגבה השתתפות עצמית כלל. תנאי הפוליסה מתייחסים גם לתרופות המאושרות ברשימת המדינות. This table details the monthly self-participation amounts for insurance cases, as outlined in sections 2.1.1-2.1.5. It specifies the self-participation amount per medication, per month, and exceptions based on monthly drug cost. בין הערכים בטבלה: סעיף 2.1.1-2.1.4: 300 ש\"ח; סעיף 2.1.5: 500 ש\"…",
+  "payload": "טבלה: השתתפות עצמית – תרופות\nThis table details the monthly self-participation amounts for insurance cases, as outlined in sections 2.1.1-2.1.5. It specifies the self-participation amount per medication, per month, and exceptions based on monthly drug cost.\nממדים: סעיפי ביטוח (2.1.1-2.1.5, 5.1, 5.2, 5.3), סכום ההשתתפות העצמית\n\nלעיל 2.1.1­2.1.4 ת בשל מקרי הביטוח המפורטים בסעיפים סכום ההשתתפות העצמית החודשי ח ש\" 300 ­ .5.1 . לתרופה, לאותו חודש ש\"ח לתרופה, לאותו 500 ­   2.1.5 סכום ההשתתפות העצמית החודשים בשל מקרה הביטוח המפורט בסעיף .5.2 . חודש\nלעיל,  לא תיגבה השתתפות עצמית עבור תרופה שעלותה החודשית 5.2 ו 5.1 ר בסעיפים קטנים על אף האמו .5.3 . ש\"   ח 5,000 ­ גבוהה    מ"
 }

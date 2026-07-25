@@ -2,25 +2,25 @@
   "id": "pdf:travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-דרכון-פרימיום.pdf#108",
   "source": "llm",
   "description": {
-    "title": "תביעות ביטוח נסיעות",
-    "summary": "This table outlines the process and conditions for insurance claims related to travel policies. It details the responsibilities of both the insured and the insurer in the event of an incident, and the potential impact of non-compliance on claim eligibility.",
-    "embed_passage": "פוליסת דרכון פרימיום מספקת כיסוי להוצאות במקרה של נסיעה. במקרה של קרות מקרה ביטוח, על המבוטח להודיע מיד למבטח. המידע והמסמכים הדרושים לבירור החבות צריכים להימסר תוך זמן סביר, אחרת ייתכן והתגמולים יופחתו. ",
-    "row_axis": "steps in the claims process / conditions affecting claim eligibility",
-    "column_axis": "responsibilities / consequences",
+    "title": "תנאי פוליסה - חובות המבוטח",
+    "summary": "This table outlines the obligations of the insured regarding notification of insurance events and providing information for liability assessment. It details circumstances under which the insurer may reduce or deny coverage based on non-compliance.",
+    "embed_passage": "טבלה זו מתארת את חובות המבוטח בנוגע להודעה על קרות מקרה ביטוח ולמסירת מידע לצורך בירור חבות. ניתן למצוא כאן את התנאים שבהם המבטח רשאי להקטין או לשלול כיסוי ביטוחי עקב אי-עמידה בחובות. סעיפים אלו עוסקים בהודעה על מקרה ביטוח, מסירת מידע ומסמכים, והשפעת אי-עמידה בחובות אלו על תגמולי הביטוח. הפוליסה הרלוונטית היא פוליסת ביטוח נסיעות לחול דרכון פרימיום. סעיפים מרכזיים כוללים סעיף 9.8 (הודעה על קרות מקרה ביטוח), סעיף 9.9 (בירור חבות), וסעיף 9.10 (אי-קיום חובה).",
+    "row_axis": "סעיף בפוליסה",
+    "column_axis": "חובות המבוטח / המבטח",
     "units": [],
     "notable_values": [
-      "9.9: notification of incident and claim submission",
-      "9.8: duty to cooperate with investigation",
-      "9.10: consequences of non-compliance",
-      "timeframe: זמן סביר (reasonable time)",
-      "impact: הפחתת תגמולים (reduction of benefits)"
+      "סעיף 9.8: הודעה על קרות מקרה ביטוח",
+      "סעיף 9.9: בירור חבות",
+      "סעיף 9.10: אי-קיום חובה",
+      "הודעה על קרות מקרה ביטוח: מיד לאחר שנודע למבוטח",
+      "מסירת מידע ומסמכים: תוך זמן סביר",
+      "הקטנת חבות המבטח: במידה שהיה חייב אילו קויימה החובה"
     ],
     "product_hints": [
-      "דרכון פרימיום",
-      "ביטוח נסיעות"
+      "ביטוח נסיעות לחול דרכון פרימיום"
     ]
   },
   "sketch": ".9.9 )א( משנמסרו למבטח הודעה על קרות מקרה הביטוח ותביעה בכתב לתשלום תגמולי הביטוח, על המבטח לעשות מיד את הדרוש לבירור חבותו.\n)ב( על המבוטח או על המוטב, לפי הענין, למסור למבטח, תוך זמן סביר לאחר שנדרש לכך, את המידע והמסמכים הדרושים לבירור החבות, ואם אינם ברשותו, עליו לעזור למבטח, ככל שיוכל, להשיגם.\n)ב( במועדה, וקיומה היה מאפשר 9.9 או לפי סעיף 9.8 . )א(  לא קויימה חובה לפי סעיף 9.10 אין הוא חייב בתגמולי הביטוח אלא במידה שהיה חייב , למבטח להקטין חבותו הוראה זו לא תחול בכל אחת מאלה: בהם אילו קויימה החובה;",
-  "embed_text": "פוליסת דרכון פרימיום מספקת כיסוי להוצאות במקרה של נסיעה. במקרה של קרות מקרה ביטוח, על המבוטח להודיע מיד למבטח. המידע והמסמכים הדרושים לבירור החבות צריכים להימסר תוך זמן סביר, אחרת ייתכן והתגמולים יופחתו.",
-  "payload": "טבלה: תביעות ביטוח נסיעות\nThis table outlines the process and conditions for insurance claims related to travel policies. It details the responsibilities of both the insured and the insurer in the event of an incident, and the potential impact of non-compliance on claim eligibility.\nממדים: steps in the claims process / conditions affecting claim eligibility, responsibilities / consequences\n\n.9.9 )א( משנמסרו למבטח הודעה על קרות מקרה הביטוח ותביעה בכתב לתשלום תגמולי הביטוח, על המבטח לעשות מיד את הדרוש לבירור חבותו.\n)ב( על המבוטח או על המוטב, לפי הענין, למסור למבטח, תוך זמן סביר לאחר שנדרש לכך, את המידע והמסמכים הדרושים לבירור החבות, ואם אינם ברשותו, עליו לעזור למבטח, ככל שיוכל, להשיגם.\n)ב( במועדה, וקיומה היה מאפשר 9.9 או לפי סעיף 9.8 . )א(  לא קויימה חובה לפי סעיף 9.10 אין הוא חייב בתגמולי הביטוח אלא במידה שהיה חייב , למבטח להקטין חבותו הוראה זו לא תחול בכל אחת מאלה: בהם אילו קויימה החובה;"
+  "embed_text": "טבלה זו מתארת את חובות המבוטח בנוגע להודעה על קרות מקרה ביטוח ולמסירת מידע לצורך בירור חבות. ניתן למצוא כאן את התנאים שבהם המבטח רשאי להקטין או לשלול כיסוי ביטוחי עקב אי-עמידה בחובות. סעיפים אלו עוסקים בהודעה על מקרה ביטוח, מסירת מידע ומסמכים, והשפעת אי-עמידה בחובות אלו על תגמולי הביטוח. הפוליסה הרלוונטית היא פוליסת ביטוח נסיעות לחול דרכון פרימיום. סעיפים מרכזיים כוללים סעיף 9.8 (הודעה על קרות מקרה ביטוח), סעיף 9.9 (בירור חבות), וסעיף 9.10 (אי-קיום חובה). This table outlines the obligations of the insured regarding notification of insurance events and providing information for liability assessment. It details circumstances under which the insurer may reduce or deny coverage based on non-compliance. בין הערכים בטבלה: הקטנת חבות המבטח: במידה שהיה חייב אילו קויימה החובה.",
+  "payload": "טבלה: תנאי פוליסה - חובות המבוטח\nThis table outlines the obligations of the insured regarding notification of insurance events and providing information for liability assessment. It details circumstances under which the insurer may reduce or deny coverage based on non-compliance.\nממדים: סעיף בפוליסה, חובות המבוטח / המבטח\n\n.9.9 )א( משנמסרו למבטח הודעה על קרות מקרה הביטוח ותביעה בכתב לתשלום תגמולי הביטוח, על המבטח לעשות מיד את הדרוש לבירור חבותו.\n)ב( על המבוטח או על המוטב, לפי הענין, למסור למבטח, תוך זמן סביר לאחר שנדרש לכך, את המידע והמסמכים הדרושים לבירור החבות, ואם אינם ברשותו, עליו לעזור למבטח, ככל שיוכל, להשיגם.\n)ב( במועדה, וקיומה היה מאפשר 9.9 או לפי סעיף 9.8 . )א(  לא קויימה חובה לפי סעיף 9.10 אין הוא חייב בתגמולי הביטוח אלא במידה שהיה חייב , למבטח להקטין חבותו הוראה זו לא תחול בכל אחת מאלה: בהם אילו קויימה החובה;"
 }

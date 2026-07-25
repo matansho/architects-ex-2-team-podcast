@@ -3,24 +3,27 @@
   "source": "llm",
   "description": {
     "title": "תנאי פוליסת ביטוח מחלות קשות",
-    "summary": "This table details conditions related to insurance policy claims and renewals for critical illness coverage. It outlines scenarios where explicit consent is required from the insured, and conditions related to claim submissions and policy changes.",
-    "embed_passage": "פוליסת ביטוח מחלות קשות מענקית סרטן מתייחסת לתביעות המוגשות במהלך תקופת הביטוח הנוכחית או הקודמת. לדוגמה, סעיף 11.7.1 מציין תביעה למימוש זכויות לפי תנאי הפוליסה. ימים 120 הם תקופה רלוונטית לחידוש הביטוח, ושינויים בתנאים צריכים להיות מפורטים מראש.",
-    "row_axis": "Policy conditions related to claims, consent, and renewals",
-    "column_axis": "Specific clauses and scenarios within the insurance policy",
+    "summary": "This table details conditions related to insurance policy claims and renewals for critical illnesses. It outlines scenarios where explicit insured consent is required or waived, and how changes to coverage affect premiums.",
+    "embed_passage": "טבלה זו מתארת תנאים הקשורים לתביעות וחידושים של פוליסת ביטוח מחלות קשות. היא מפרטת תרחישים בהם נדרשת הסכמה מפורשת של המבוטח או שהיא מוויתרת עליה, וכיצד שינויים בכיסוי משפיעים על דמי הביטוח. הפוליסה רלוונטית לתכנית מענקית סרטן. ניתן לבדוק תנאים ספציפיים הקשורים לתביעות שהוגשו במהלך תקופת הביטוח הנוכחית או הקודמת, או לגבי שינויים בתנאי הביטוח בתקופת חידוש.  הטבלה עוסקת בהסכמה מפורשת של מבוטח, תקופות של 120 ימים, תכניות בסיס ותכניות נוספות, ושינויים שערך המבטח בתכנית.  תנאי הפוליסה, תכנית מענקית סרטן, תביעה למימוש זכויות, חידוש פוליסה, תכנית בסיס, תכנית נוספת.",
+    "row_axis": "Policy conditions related to claims and renewals",
+    "column_axis": "Specific scenarios and requirements",
     "units": [],
     "notable_values": [
-      "11.7.1: Claim submission during the insurance period",
-      "120 days: Period for explicit consent before renewal",
-      "11.7.2: Explicit consent required for policy renewal",
-      "10.1: Relation between base and additional plans",
-      "11.7.3: Cases where the supervisor's approval overrides consent requirements"
+      "תקופת הביטוח הנוכחית",
+      "120 ימים",
+      "תכנית בסיס",
+      "תכנית נוספת",
+      "הסכמה מפורשת של מבוטח",
+      "תביעה למימוש זכויות",
+      "חידוש פוליסה",
+      "שינוי כתובת"
     ],
     "product_hints": [
       "מענקית סרטן",
-      "ביטוח מחלות קשות"
+      "פוליסת ביטוח מחלות קשות"
     ]
   },
   "sketch": ", אם המבוטח הגיש במהלך תקופת הביטוח 11.7.1 הנוכחית או זו שקדמה לה, תביעה למימוש ; זכויות לפי תנאי הפוליסה\nשהצטרף למבוטח פירט המבטח אם 11.7.2 ימים 120 לראשונה  לתכנית  בתקופה  של שקדמו  למועד  החידוש  באופן  מפורש  את הביטוח ודמי הביטוח בתנאי השינויים שיחולו  במועד  החידוש  הקרוב,  והמבוטח\n, לעיל 10.1 על  אף  האמור  בסעיף 10.4.4 תכנית של שיווק למבטח הותר נוספת  מסוימת  רק  יחד  עם  תכנית בסיס מסוימת, ובוטלה ע\"י המבוטח גם תבוטל בסיס תכנית אותה התכנית  הנוספת  שהותרה  לשיווק . יחד עמה",
-  "embed_text": "פוליסת ביטוח מחלות קשות מענקית סרטן מתייחסת לתביעות המוגשות במהלך תקופת הביטוח הנוכחית או הקודמת. לדוגמה, סעיף 11.7.1 מציין תביעה למימוש זכויות לפי תנאי הפוליסה. ימים 120 הם תקופה רלוונטית לחידוש הביטוח, ושינויים בתנאים צריכים להיות מפורטים מראש.",
-  "payload": "טבלה: תנאי פוליסת ביטוח מחלות קשות\nThis table details conditions related to insurance policy claims and renewals for critical illness coverage. It outlines scenarios where explicit consent is required from the insured, and conditions related to claim submissions and policy changes.\nממדים: Policy conditions related to claims, consent, and renewals, Specific clauses and scenarios within the insurance policy\n\n, אם המבוטח הגיש במהלך תקופת הביטוח 11.7.1 הנוכחית או זו שקדמה לה, תביעה למימוש ; זכויות לפי תנאי הפוליסה\nשהצטרף למבוטח פירט המבטח אם 11.7.2 ימים 120 לראשונה  לתכנית  בתקופה  של שקדמו  למועד  החידוש  באופן  מפורש  את הביטוח ודמי הביטוח בתנאי השינויים שיחולו  במועד  החידוש  הקרוב,  והמבוטח\n, לעיל 10.1 על  אף  האמור  בסעיף 10.4.4 תכנית של שיווק למבטח הותר נוספת  מסוימת  רק  יחד  עם  תכנית בסיס מסוימת, ובוטלה ע\"י המבוטח גם תבוטל בסיס תכנית אותה התכנית  הנוספת  שהותרה  לשיווק . יחד עמה"
+  "embed_text": "טבלה זו מתארת תנאים הקשורים לתביעות וחידושים של פוליסת ביטוח מחלות קשות. היא מפרטת תרחישים בהם נדרשת הסכמה מפורשת של המבוטח או שהיא מוויתרת עליה, וכיצד שינויים בכיסוי משפיעים על דמי הביטוח. הפוליסה רלוונטית לתכנית מענקית סרטן. ניתן לבדוק תנאים ספציפיים הקשורים לתביעות שהוגשו במהלך תקופת הביטוח הנוכחית או הקודמת, או לגבי שינויים בתנאי הביטוח בתקופת חידוש.  הטבלה עוסקת בהסכמה מפורשת של מבוטח, תקופות של 120 ימים, תכניות בסיס ותכניות נוספות, ושינויים שערך המבטח בתכנית.  תנאי הפוליסה, תכנית מענקית סרטן, תביעה למימוש זכויות, חידוש פוליסה, תכנית בסיס, תכנית נוספת. This table details conditions related to insurance policy claims and renewals for critical illnesses. It outlines scenarios where explicit insured consent is required or waived, and how changes to coverage affect premiums. בין הערכים ב…",
+  "payload": "טבלה: תנאי פוליסת ביטוח מחלות קשות\nThis table details conditions related to insurance policy claims and renewals for critical illnesses. It outlines scenarios where explicit insured consent is required or waived, and how changes to coverage affect premiums.\nממדים: Policy conditions related to claims and renewals, Specific scenarios and requirements\n\n, אם המבוטח הגיש במהלך תקופת הביטוח 11.7.1 הנוכחית או זו שקדמה לה, תביעה למימוש ; זכויות לפי תנאי הפוליסה\nשהצטרף למבוטח פירט המבטח אם 11.7.2 ימים 120 לראשונה  לתכנית  בתקופה  של שקדמו  למועד  החידוש  באופן  מפורש  את הביטוח ודמי הביטוח בתנאי השינויים שיחולו  במועד  החידוש  הקרוב,  והמבוטח\n, לעיל 10.1 על  אף  האמור  בסעיף 10.4.4 תכנית של שיווק למבטח הותר נוספת  מסוימת  רק  יחד  עם  תכנית בסיס מסוימת, ובוטלה ע\"י המבוטח גם תבוטל בסיס תכנית אותה התכנית  הנוספת  שהותרה  לשיווק . יחד עמה"
 }

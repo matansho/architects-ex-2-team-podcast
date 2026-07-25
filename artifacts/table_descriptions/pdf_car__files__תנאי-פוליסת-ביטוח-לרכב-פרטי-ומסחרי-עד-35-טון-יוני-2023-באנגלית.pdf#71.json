@@ -2,26 +2,25 @@
   "id": "pdf:car/files/תנאי-פוליסת-ביטוח-לרכב-פרטי-ומסחרי-עד-35-טון-יוני-2023-באנגלית.pdf#71",
   "source": "llm",
   "description": {
-    "title": "תיקון נזקים - פנסים ומראות",
-    "summary": "This table details the repair process and timelines for vehicle lamps and side mirrors under an insurance policy. It specifies the timeframes within which repairs will be completed, typically 48 work hours, and defines 'work days'.",
-    "embed_passage": "פוליסת ביטוח לרכב מספקת שירות תיקון לנזקים בפנסים ובמראות צד. זמן התיקון לפנסים הוא עד 48 שעות עבודה מרגע הגעת הרכב למוסך, וכן למראות צד בתנאי קבלת קוד הצבע של הרכב. ימי העבודה מוגדרים כימים א׳-ה׳ בין השעות 07:30-16:30, ובימי שישי וחגיגות בין 07:30-13:30.",
-    "row_axis": "Repair stage/condition",
-    "column_axis": "Repair type (lamps, side mirrors)",
-    "units": [
-      "שעות עבודה"
-    ],
+    "title": "תנאי פוליסת ביטוח לרכב",
+    "summary": "This table details service receipt conditions for vehicle repairs, specifically regarding lamps and side mirrors. It outlines timeframes for service provision and the insurer's rights regarding damage examination.",
+    "embed_passage": "טבלה זו מתארת את תנאי קבלת השירות לתיקוני רכב, בדגש על פנסים ומראות צד, כחלק מפוליסת ביטוח לרכב. היא מפרטת מסגרות זמן למתן שירות וזכויות המבטח לבדיקת נזקים. ניתן לעיין בתנאים אלו כדי להבין את זמני הטיפול הצפויים עבור פנסים ומראות, וכן את סמכות המבטח לבקש אישור משטרתי במקרה של חשד. הפנסים מטופלים תוך 48 שעות עבודה, ומראות צד תוך 48 שעות עבודה עם קבלת מספר הצבע המוגדר של הרכב. תנאי הפוליסה כוללים גם הגדרת 'ימי עבודה' בין ראשון לחמישי ושעות פעילות מוגדרות. פוליסת ביטוח לרכב פרטי ומסחרי עד 35 טון.",
+    "row_axis": "Service Condition",
+    "column_axis": "Details",
+    "units": [],
     "notable_values": [
-      "Repair time for lamps: 48 שעות עבודה",
-      "Repair time for side mirrors: 48 שעות עבודה",
-      "Work days: Sunday-Thursday",
-      "Friday/Holiday eves: 07:30-13:30",
-      "Standard work hours: 07:30-16:30"
+      "lamps: 48 work hours",
+      "side mirrors: 48 work hours",
+      "work days: Sunday-Thursday",
+      "work hours (Sun-Thu): 07:30-16:30",
+      "work hours (Fri/Eve): 07:30-13:30"
     ],
     "product_hints": [
-      "פוליסת ביטוח לרכב"
+      "פוליסת ביטוח לרכב",
+      "ביטוח לרכב פרטי ומסחרי"
     ]
   },
   "sketch": "25.5 Receipt of the service\n25.5.1 In any event of damage to the product (except the exclusion conditions noted above) the recipient of the service will approach the executor of the repair noted in the specification.\n25.5.2 The service will be provided and executed in accordance with the conditions of this cover by the following dates:\n25.5.2.1  For lamps - within 48 work hours after the vehicle arrives at the service station, and in any event by the end of the working day, following the date on which the vehicle is brought to the service station.\n25.5.2.2  For side mirrors -within 48 work hours after the vehicle arrives at the service station subject to receipt of the vehicle's defined paint number.\n25.5.2.3 For the purpose of this paragraph 'work days' shall be: Sunday -Thursday (inclusive) from 07:30 until 16:30, Fridays and holiday eves from 07:30 until 13:30.\n25.5.3 The insurer or the service provider repair on its behalf shall have the right to examine any damage before granting an authorization to execute the repair and/or replacement, and in any event of a reasonable suspicion, to demand a police authorization in regard to the damage/s, at its discretion, on condition that it does not deviate from the service dates.",
-  "embed_text": "פוליסת ביטוח לרכב מספקת שירות תיקון לנזקים בפנסים ובמראות צד. זמן התיקון לפנסים הוא עד 48 שעות עבודה מרגע הגעת הרכב למוסך, וכן למראות צד בתנאי קבלת קוד הצבע של הרכב. ימי העבודה מוגדרים כימים א׳-ה׳ בין השעות 07:30-16:30, ובימי שישי וחגיגות בין 07:30-13:30.",
-  "payload": "טבלה: תיקון נזקים - פנסים ומראות\nThis table details the repair process and timelines for vehicle lamps and side mirrors under an insurance policy. It specifies the timeframes within which repairs will be completed, typically 48 work hours, and defines 'work days'.\nממדים: Repair stage/condition, Repair type (lamps, side mirrors)\n\n25.5 Receipt of the service\n25.5.1 In any event of damage to the product (except the exclusion conditions noted above) the recipient of the service will approach the executor of the repair noted in the specification.\n25.5.2 The service will be provided and executed in accordance with the conditions of this cover by the following dates:\n25.5.2.1  For lamps - within 48 work hours after the vehicle arrives at the service station, and in any event by the end of the working day, following the date on which the vehicle is brought to the service station.\n25.5.2.2  For side mirrors -within 48 work hours after the vehicle arrives at the service station subject to receipt of the vehicle's defined paint number.\n25.5.2.3 For the purpose of this paragraph 'work days' shall be: Sunday -Thursday (inclusive) from 07:30 until 16:30, Fridays and holiday eves from 07:30 until 13:30.\n25.5.3 The insurer or the service provider repair on its behalf shall have the right to examine any damage before granting an authorization to execute the repair and/or replacement, and in any event of a reasonable suspicion, to demand a police authorization in regard to the damage/s, at its discretion, on condition that it does not deviate from the service dates."
+  "embed_text": "טבלה זו מתארת את תנאי קבלת השירות לתיקוני רכב, בדגש על פנסים ומראות צד, כחלק מפוליסת ביטוח לרכב. היא מפרטת מסגרות זמן למתן שירות וזכויות המבטח לבדיקת נזקים. ניתן לעיין בתנאים אלו כדי להבין את זמני הטיפול הצפויים עבור פנסים ומראות, וכן את סמכות המבטח לבקש אישור משטרתי במקרה של חשד. הפנסים מטופלים תוך 48 שעות עבודה, ומראות צד תוך 48 שעות עבודה עם קבלת מספר הצבע המוגדר של הרכב. תנאי הפוליסה כוללים גם הגדרת 'ימי עבודה' בין ראשון לחמישי ושעות פעילות מוגדרות. פוליסת ביטוח לרכב פרטי ומסחרי עד 35 טון. This table details service receipt conditions for vehicle repairs, specifically regarding lamps and side mirrors. It outlines timeframes for service provision and the insurer's rights regarding damage examination. בין הערכים בטבלה: lamps: 48 work hours; side mirrors: 48 work hours; work days: Sunday…",
+  "payload": "טבלה: תנאי פוליסת ביטוח לרכב\nThis table details service receipt conditions for vehicle repairs, specifically regarding lamps and side mirrors. It outlines timeframes for service provision and the insurer's rights regarding damage examination.\nממדים: Service Condition, Details\n\n25.5 Receipt of the service\n25.5.1 In any event of damage to the product (except the exclusion conditions noted above) the recipient of the service will approach the executor of the repair noted in the specification.\n25.5.2 The service will be provided and executed in accordance with the conditions of this cover by the following dates:\n25.5.2.1  For lamps - within 48 work hours after the vehicle arrives at the service station, and in any event by the end of the working day, following the date on which the vehicle is brought to the service station.\n25.5.2.2  For side mirrors -within 48 work hours after the vehicle arrives at the service station subject to receipt of the vehicle's defined paint number.\n25.5.2.3 For the purpose of this paragraph 'work days' shall be: Sunday -Thursday (inclusive) from 07:30 until 16:30, Fridays and holiday eves from 07:30 until 13:30.\n25.5.3 The insurer or the service provider repair on its behalf shall have the right to examine any damage before granting an authorization to execute the repair and/or replacement, and in any event of a reasonable suspicion, to demand a police authorization in regard to the damage/s, at its discretion, on condition that it does not deviate from the service dates."
 }

@@ -2,21 +2,23 @@
   "id": "pdf:business/files/תנאי-פוליסת-ביטוח-מכלול-למשרד-מהדורת-ינואר-2024-באנגלית.pdf#15",
   "source": "llm",
   "description": {
-    "title": "מכלול - פוליסת ביטוח",
-    "summary": "This table details exclusions to burglary and robbery coverage under the 'מכלול' insurance policy. It specifies scenarios where loss or damage is not covered, such as actions by insured personnel or property left unattended.",
-    "embed_passage": "פוליסת 'מכלול' אינה מכסה נזק שנגרם על ידי המבוטח, עובד שלו, או אדם אחר המורשה להימצא במשרד. הפוליסה גם לא מכסה נזק לרכוש המבוטח כשהוא ממוקם מחוץ לבניין סגור ונעול, או כאשר הרכוש אינו מלווה על ידי המבוטח או מי מטעמו. סעיפים אלו נועדו להגדיר את גבולות הכיסוי הביטוחי.",
-    "row_axis": "Specific exclusion scenarios for burglary/robbery coverage",
-    "column_axis": "Description of the exclusion",
+    "title": "חרגות ביטוח - פריצה ושוד",
+    "summary": "This table details exclusions to insurance coverage for burglary and robbery risks. It lists specific causes of loss or damage that are not covered under the policy.",
+    "embed_passage": "טבלה זו מתארת חריגים לפוליסת ביטוח מכלול, ספציפית בנוגע לסיכוני פריצה ושוד. החריגים מפורטים בסעיפים 3.1.5.1.3.1 ו-3.1.5.1.3.2, ומגדירים מצבים בהם הכיסוי הביטוחי לא יחול. הפוליסה מתייחסת לנזקים שנגרמו על ידי המבוטח, עובדיו, או כל אדם מורשה אחר, וכן לנזקים לרכוש המבוטח מחוץ לבניין סגור ונעול. מכלול מציעה ביטוח מקיף אך עם חריגים מוגדרים.",
+    "row_axis": "סוג חריגה (סיבת אי כיסוי)",
+    "column_axis": "תיאור החריגה",
     "units": [],
     "notable_values": [
-      "exclusion: actions by insured personnel",
-      "exclusion: property outside locked building"
+      "פריצה ושוד: חריגים",
+      "גורם לנזק: המבוטח",
+      "גורם לנזק: עובד המבוטח",
+      "מיקום הרכוש: מחוץ לבניין נעול"
     ],
     "product_hints": [
       "מכלול"
     ]
   },
   "sketch": "3.1.5.1.3 The insurance for the risk of burglary and robbery shall not cover loss or damage caused by:\n3.1.5.1.3.1 Caused by the insured, an employee of the insured or by any other person who is permitted to be in the Office on behalf of the insured, or in cooperation with whomsoever of the aforementioned;\n3.1.5.1.3.2 Caused to the insured property while located outside a closed and locked building, or when the insured property is not accompanied by the insured, one of its employees or whomsoever on its behalf.",
-  "embed_text": "פוליסת 'מכלול' אינה מכסה נזק שנגרם על ידי המבוטח, עובד שלו, או אדם אחר המורשה להימצא במשרד. הפוליסה גם לא מכסה נזק לרכוש המבוטח כשהוא ממוקם מחוץ לבניין סגור ונעול, או כאשר הרכוש אינו מלווה על ידי המבוטח או מי מטעמו. סעיפים אלו נועדו להגדיר את גבולות הכיסוי הביטוחי.",
-  "payload": "טבלה: מכלול - פוליסת ביטוח\nThis table details exclusions to burglary and robbery coverage under the 'מכלול' insurance policy. It specifies scenarios where loss or damage is not covered, such as actions by insured personnel or property left unattended.\nממדים: Specific exclusion scenarios for burglary/robbery coverage, Description of the exclusion\n\n3.1.5.1.3 The insurance for the risk of burglary and robbery shall not cover loss or damage caused by:\n3.1.5.1.3.1 Caused by the insured, an employee of the insured or by any other person who is permitted to be in the Office on behalf of the insured, or in cooperation with whomsoever of the aforementioned;\n3.1.5.1.3.2 Caused to the insured property while located outside a closed and locked building, or when the insured property is not accompanied by the insured, one of its employees or whomsoever on its behalf."
+  "embed_text": "טבלה זו מתארת חריגים לפוליסת ביטוח מכלול, ספציפית בנוגע לסיכוני פריצה ושוד. החריגים מפורטים בסעיפים 3.1.5.1.3.1 ו-3.1.5.1.3.2, ומגדירים מצבים בהם הכיסוי הביטוחי לא יחול. הפוליסה מתייחסת לנזקים שנגרמו על ידי המבוטח, עובדיו, או כל אדם מורשה אחר, וכן לנזקים לרכוש המבוטח מחוץ לבניין סגור ונעול. מכלול מציעה ביטוח מקיף אך עם חריגים מוגדרים. This table details exclusions to insurance coverage for burglary and robbery risks. It lists specific causes of loss or damage that are not covered under the policy. בין הערכים בטבלה: גורם לנזק: עובד המבוטח; מיקום הרכוש: מחוץ לבניין נעול.",
+  "payload": "טבלה: חרגות ביטוח - פריצה ושוד\nThis table details exclusions to insurance coverage for burglary and robbery risks. It lists specific causes of loss or damage that are not covered under the policy.\nממדים: סוג חריגה (סיבת אי כיסוי), תיאור החריגה\n\n3.1.5.1.3 The insurance for the risk of burglary and robbery shall not cover loss or damage caused by:\n3.1.5.1.3.1 Caused by the insured, an employee of the insured or by any other person who is permitted to be in the Office on behalf of the insured, or in cooperation with whomsoever of the aforementioned;\n3.1.5.1.3.2 Caused to the insured property while located outside a closed and locked building, or when the insured property is not accompanied by the insured, one of its employees or whomsoever on its behalf."
 }

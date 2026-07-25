@@ -2,24 +2,23 @@
   "id": "pdf:car/files/מהדורת-יוני-2023-upgrade-פוליסת-הראל.pdf#8",
   "source": "llm",
   "description": {
-    "title": "תנאי פוליסה - הראל",
-    "summary": "This table outlines the terms of a car insurance policy from Harel. It details the insurer's liability and self-participation clauses, referencing the Motor Vehicle Insurance Law.",
-    "embed_passage": "פוליסת הראל מגדירה את חבות המבטח לפי סעיף 3, בהתאם לחוק הפיצויים. סעיף 4 מתייחס להשתתפות עצמית של הנהג, בתנאים מסוימים שנקבעו בתקנות ביטוח רכב מנועי. לדוגמה, מבטח יהיה רשאי לנכות דמי השתתפות עצמית.",
-    "row_axis": "policy clauses / legal definitions",
-    "column_axis": "clause number / description",
+    "title": "פרשנות וחבות",
+    "summary": "This table defines terms and the insurer's liability according to the policy. It is used to look up the meaning of terms and the extent of coverage.",
+    "embed_passage": "טבלה זו מפרטת את פרשנות המונחים ואת חבות המבטח בהתאם לתנאי הפוליסה, כפי שנקבע בפקודת הביטוח. ניתן להיעזר בה כדי להבין את משמעותם של מונחים שונים ואת היקף הכיסוי הניתן. הפוליסה היא הראל, וחשוב לבדוק את סעיפי הפוליסה הרלוונטיים. הטבלה מתייחסת למונחים כמו 'חוק הפיצויים', 'פקודת הביטוח', ו'תניה בדבר השתתפות עצמית'. כמו כן, היא מציינת את חבות המבטח בגין נזק גוף ושימוש ברכב מנועי. סעיף 3 מתייחס לחבות המבטח, וסעיף 4 להשתתפות עצמית.",
+    "row_axis": "סעיף / נושא",
+    "column_axis": "תיאור / הסבר",
     "units": [],
     "notable_values": [
-      "סעיף 1: הגדרות",
-      "סעיף 2: פרשנות",
-      "סעיף 3: חבות המבטח",
-      "סעיף 4: השתתפות עצמית"
+      "מונח שלא הוגדר: חוק הפיצויים",
+      "מונח שלא הוגדר: פקודת הביטוח",
+      "חבות המבטח: סעיף 3",
+      "השתתפות עצמית: סעיף 4"
     ],
     "product_hints": [
-      "הראל",
-      "פוליסת רכב"
+      "הראל"
     ]
   },
   "sketch": ". פרשנות 2\nיפורש כמשמעותו, במועד קרות מקרה הביטוח, בחוק הפיצויים או 1 מונח שלא הוגדר בסעיף בפקודת הביטוח, לפי העניין.\n. חבות המבטח 3\nלפקודת הביטוח, לאמור: 3 בכפוף לתנאי פוליסה זו, מבטח יחוב לפי הוראות סעיף",
-  "embed_text": "פוליסת הראל מגדירה את חבות המבטח לפי סעיף 3, בהתאם לחוק הפיצויים. סעיף 4 מתייחס להשתתפות עצמית של הנהג, בתנאים מסוימים שנקבעו בתקנות ביטוח רכב מנועי. לדוגמה, מבטח יהיה רשאי לנכות דמי השתתפות עצמית.",
-  "payload": "טבלה: תנאי פוליסה - הראל\nThis table outlines the terms of a car insurance policy from Harel. It details the insurer's liability and self-participation clauses, referencing the Motor Vehicle Insurance Law.\nממדים: policy clauses / legal definitions, clause number / description\n\n. פרשנות 2\nיפורש כמשמעותו, במועד קרות מקרה הביטוח, בחוק הפיצויים או 1 מונח שלא הוגדר בסעיף בפקודת הביטוח, לפי העניין.\n. חבות המבטח 3\nלפקודת הביטוח, לאמור: 3 בכפוף לתנאי פוליסה זו, מבטח יחוב לפי הוראות סעיף"
+  "embed_text": "טבלה זו מפרטת את פרשנות המונחים ואת חבות המבטח בהתאם לתנאי הפוליסה, כפי שנקבע בפקודת הביטוח. ניתן להיעזר בה כדי להבין את משמעותם של מונחים שונים ואת היקף הכיסוי הניתן. הפוליסה היא הראל, וחשוב לבדוק את סעיפי הפוליסה הרלוונטיים. הטבלה מתייחסת למונחים כמו 'חוק הפיצויים', 'פקודת הביטוח', ו'תניה בדבר השתתפות עצמית'. כמו כן, היא מציינת את חבות המבטח בגין נזק גוף ושימוש ברכב מנועי. סעיף 3 מתייחס לחבות המבטח, וסעיף 4 להשתתפות עצמית. This table defines terms and the insurer's liability according to the policy. It is used to look up the meaning of terms and the extent of coverage.",
+  "payload": "טבלה: פרשנות וחבות\nThis table defines terms and the insurer's liability according to the policy. It is used to look up the meaning of terms and the extent of coverage.\nממדים: סעיף / נושא, תיאור / הסבר\n\n. פרשנות 2\nיפורש כמשמעותו, במועד קרות מקרה הביטוח, בחוק הפיצויים או 1 מונח שלא הוגדר בסעיף בפקודת הביטוח, לפי העניין.\n. חבות המבטח 3\nלפקודת הביטוח, לאמור: 3 בכפוף לתנאי פוליסה זו, מבטח יחוב לפי הוראות סעיף"
 }

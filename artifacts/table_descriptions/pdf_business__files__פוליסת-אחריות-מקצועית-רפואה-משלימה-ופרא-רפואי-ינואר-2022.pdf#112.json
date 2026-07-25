@@ -3,24 +3,22 @@
   "source": "llm",
   "description": {
     "title": "דיווח מקרה ביטוח",
-    "summary": "This table outlines the information required when reporting an insurance claim related to professional liability in medical and paramedical fields. It details the types of information needed to assess the incident and potential liability.",
-    "embed_passage": "פוליסת אחריות מקצועית רפואה משלימה ופרא-רפואי דורשת דיווח מפורט על כל מקרה ביטוח. יש לכלול תיאור הרשלנות הרפואית, זהות הנפגעים, פרטי עדים, וכן תיאור האובדנים העלולים להיגרם. לדוגמה, יש לציין את זמן ומקום האירוע, מצבו המשפחתי של הניזוק, ושמות התובעים הפוטנציאליים.",
-    "row_axis": "Information categories required for claim reporting",
-    "column_axis": "Details within each information category",
+    "summary": "This table outlines the information required when reporting an insurance claim related to professional liability in medical and paramedical fields. It details the types of information the insured must provide to the insurer.",
+    "embed_passage": "טבלה זו מתארת את המידע הנדרש בעת דיווח על מקרה ביטוח הקשור לאחריות מקצועית בתחום הרפואה והפארא-רפואי בפוליסת אחריות מקצועית רפואה משלימה ופארא רפואי ינואר 2022. יש למלא את הסעיפים השונים על מנת לאפשר לחברה לבדוק ולצמצם את היקף אחריותה. המידע כולל תיאור הרשלנות הרפואית, פרטי הנפגעים, שמות עדים, זהות התובעים הפוטנציאליים ותיאור האובדנים העלולים להיגרם. בין הנתונים הנדרשים: תיאור הרשלנות הרפואית, זהות הנפגעים, שמות עדים, וזהות התובעים הפוטנציאליים.",
+    "row_axis": "types of information required in a claim report",
+    "column_axis": "details of the required information",
     "units": [],
     "notable_values": [
-      "תיאור הרשלנות הרפואית: זמן ומקום האירוע",
-      "זהות הנפגע: כתובת, מצב משפחתי, מקצוע",
-      "עדים: שמות וכתובות",
-      "תובעים פוטנציאליים: זהות ופרטים",
-      "אובדנים: תיאור האובדנים העלולים להיגרם"
+      "תיאור הרשלנות הרפואית: details of the medical negligence",
+      "זהות הנפגע: identity of the injured person",
+      "שמות עדים: names of witnesses",
+      "תובעים פוטנציאליים: potential claimants"
     ],
     "product_hints": [
-      "אחריות מקצועית רפואה משלימה",
-      "אחריות מקצועית פרא-רפואי"
+      "פוליסת אחריות מקצועית רפואה משלימה ופארא רפואי"
     ]
   },
   "sketch": ")ב( תיאור הרשלנות הרפואית או הנסיבות, ובכלל זה מידע הנוגע לזמן ולמקום שבהם אירעה או בוצעה;\n)ג(  זהותו של כל אדם שניזוק או נפטר, וכן כתובתו, מצבו המשפחתי ומקצועו;\n)ד(  שמותיהם וכתובותיהם של עדים כלשהם;\n)ה( זהותם של כל התובעים הפוטנציאליים, המבוטחים הפוטנציאליים ונותני שירותי הבריאות הפוטנציאליים, שאינם מבוטחים ומעורבים באירוע;\n)ו(  תיאור האובדנים העלולים להיגרם כתוצאה מהרשלנות הרפואית או הנסיבות.",
-  "embed_text": "פוליסת אחריות מקצועית רפואה משלימה ופרא-רפואי דורשת דיווח מפורט על כל מקרה ביטוח. יש לכלול תיאור הרשלנות הרפואית, זהות הנפגעים, פרטי עדים, וכן תיאור האובדנים העלולים להיגרם. לדוגמה, יש לציין את זמן ומקום האירוע, מצבו המשפחתי של הניזוק, ושמות התובעים הפוטנציאליים.",
-  "payload": "טבלה: דיווח מקרה ביטוח\nThis table outlines the information required when reporting an insurance claim related to professional liability in medical and paramedical fields. It details the types of information needed to assess the incident and potential liability.\nממדים: Information categories required for claim reporting, Details within each information category\n\n)ב( תיאור הרשלנות הרפואית או הנסיבות, ובכלל זה מידע הנוגע לזמן ולמקום שבהם אירעה או בוצעה;\n)ג(  זהותו של כל אדם שניזוק או נפטר, וכן כתובתו, מצבו המשפחתי ומקצועו;\n)ד(  שמותיהם וכתובותיהם של עדים כלשהם;\n)ה( זהותם של כל התובעים הפוטנציאליים, המבוטחים הפוטנציאליים ונותני שירותי הבריאות הפוטנציאליים, שאינם מבוטחים ומעורבים באירוע;\n)ו(  תיאור האובדנים העלולים להיגרם כתוצאה מהרשלנות הרפואית או הנסיבות."
+  "embed_text": "טבלה זו מתארת את המידע הנדרש בעת דיווח על מקרה ביטוח הקשור לאחריות מקצועית בתחום הרפואה והפארא-רפואי בפוליסת אחריות מקצועית רפואה משלימה ופארא רפואי ינואר 2022. יש למלא את הסעיפים השונים על מנת לאפשר לחברה לבדוק ולצמצם את היקף אחריותה. המידע כולל תיאור הרשלנות הרפואית, פרטי הנפגעים, שמות עדים, זהות התובעים הפוטנציאליים ותיאור האובדנים העלולים להיגרם. בין הנתונים הנדרשים: תיאור הרשלנות הרפואית, זהות הנפגעים, שמות עדים, וזהות התובעים הפוטנציאליים. This table outlines the information required when reporting an insurance claim related to professional liability in medical and paramedical fields. It details the types of information the insured must provide to the insurer. בין הערכים בטבלה: תובעים פוטנציאליים: potential claimants.",
+  "payload": "טבלה: דיווח מקרה ביטוח\nThis table outlines the information required when reporting an insurance claim related to professional liability in medical and paramedical fields. It details the types of information the insured must provide to the insurer.\nממדים: types of information required in a claim report, details of the required information\n\n)ב( תיאור הרשלנות הרפואית או הנסיבות, ובכלל זה מידע הנוגע לזמן ולמקום שבהם אירעה או בוצעה;\n)ג(  זהותו של כל אדם שניזוק או נפטר, וכן כתובתו, מצבו המשפחתי ומקצועו;\n)ד(  שמותיהם וכתובותיהם של עדים כלשהם;\n)ה( זהותם של כל התובעים הפוטנציאליים, המבוטחים הפוטנציאליים ונותני שירותי הבריאות הפוטנציאליים, שאינם מבוטחים ומעורבים באירוע;\n)ו(  תיאור האובדנים העלולים להיגרם כתוצאה מהרשלנות הרפואית או הנסיבות."
 }

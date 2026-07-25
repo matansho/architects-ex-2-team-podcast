@@ -3,23 +3,22 @@
   "source": "llm",
   "description": {
     "title": "ביטול פוליסה",
-    "summary": "This table details the conditions under which an insurance policy can be cancelled and the resulting refunds or reduced payouts. It outlines scenarios related to incomplete or dishonest answers provided by the insured.",
-    "embed_passage": "פוליסת 'שיר לעסק' מבית שירביט יכולה להיות מבוטלת אם המבוטח לא סיפק תשובות מלאות וכנות, או הסתיר מידע מהותי. לדוגמה, אם המבוטח לא גילה עניין מהותי תוך 30 ימים, המבטח רשאי לבטל את הפוליסה. במקרה של ביטול, המבוטח זכאי להחזר דמי ביטוח, בניכוי הוצאות המבטח.",
-    "row_axis": "Cancellation scenarios based on insured's disclosure",
-    "column_axis": "Cancellation rights, refund conditions, and payout adjustments",
+    "summary": "This table details the conditions under which an insurance policy can be cancelled and the resulting financial implications. It outlines the timeframe for cancellation and potential refunds.",
+    "embed_passage": "טבלה זו מתארת את התנאים בהם פוליסת ביטוח יכולה להיות מבוטלת ואת ההשלכות הכספיות הנלוות לכך. הפוליסה הוצאה על סמך התשובות שנתן המבוטח, והמבטח רשאי לבטל את הפוליסה אם המבוטח לא גילה מידע מהותי. ביטול הפוליסה כרוך בהחזר דמי ביטוח, בניכוי הוצאות המבטח, אלא אם פעל המבוטח בכוונת מרמה. ביטוח שיר לעסק הוא המוצר המכוסה בטבלה זו, והוא מבית שירביט. המבטח רשאי לבטל את הפוליסה תוך 30 ימים מהיום שנודע לו על אי גילוי מידע מהותי. סעיפים 6 ו-7 לחוק חוזה הביטוח רלוונטיים.",
+    "row_axis": "תנאי ביטול",
+    "column_axis": "השלכות ביטול",
     "units": [],
     "notable_values": [
-      "30: Number of days to disclose material information",
-      "7: Reference to a law (חוק)",
-      "6: Reference to a law (חוק)",
-      "11.3: Section number related to incomplete answers"
+      "תקופה לביטול: 30 ימים",
+      "סעיפי חוק: 6, 7",
+      "החזר דמי ביטוח: בניכוי הוצאות המבטח",
+      "כוונת מרמה: פטור מהחזר"
     ],
     "product_hints": [
-      "שיר לעסק",
-      "שירביט"
+      "ביטוח שיר לעסק"
     ]
   },
   "sketch": "לא ענה המבוטח תשובות מלאות וכנות או הסתיר או לא גילה למבטח 11.3 ימים מהיום שנודע לו על כך 30 עניין מהותי, יהיה המבטח רשאי, תוך וכל עוד לא קרה מקרה הביטוח, לבטל את הפוליסה בהודעה בכתב לחוק 7ו 6 למבוטח או להקטין את היקף חבותו על פי הוראות סעיפים . חוזה הביטוח\nביטל המבטח את הפוליסה מכוח סעיף זה, זכאי המבוטח להחזר דמי , הביטוח ששילם בעד התקופה שלאחר הביטול, בניכוי הוצאות המבטח זולת אם פעל המבוטח בכוונת מרמה.\nקרה מקרה הביטוח לפני שנתבטל החוזה מכוח סעיף זה, אין המבטח חייב אלא בתגמולי ביטוח מופחתים בשיעור יחסי, שהוא כיחס שבין",
-  "embed_text": "פוליסת 'שיר לעסק' מבית שירביט יכולה להיות מבוטלת אם המבוטח לא סיפק תשובות מלאות וכנות, או הסתיר מידע מהותי. לדוגמה, אם המבוטח לא גילה עניין מהותי תוך 30 ימים, המבטח רשאי לבטל את הפוליסה. במקרה של ביטול, המבוטח זכאי להחזר דמי ביטוח, בניכוי הוצאות המבטח.",
-  "payload": "טבלה: ביטול פוליסה\nThis table details the conditions under which an insurance policy can be cancelled and the resulting refunds or reduced payouts. It outlines scenarios related to incomplete or dishonest answers provided by the insured.\nממדים: Cancellation scenarios based on insured's disclosure, Cancellation rights, refund conditions, and payout adjustments\n\nלא ענה המבוטח תשובות מלאות וכנות או הסתיר או לא גילה למבטח 11.3 ימים מהיום שנודע לו על כך 30 עניין מהותי, יהיה המבטח רשאי, תוך וכל עוד לא קרה מקרה הביטוח, לבטל את הפוליסה בהודעה בכתב לחוק 7ו 6 למבוטח או להקטין את היקף חבותו על פי הוראות סעיפים . חוזה הביטוח\nביטל המבטח את הפוליסה מכוח סעיף זה, זכאי המבוטח להחזר דמי , הביטוח ששילם בעד התקופה שלאחר הביטול, בניכוי הוצאות המבטח זולת אם פעל המבוטח בכוונת מרמה.\nקרה מקרה הביטוח לפני שנתבטל החוזה מכוח סעיף זה, אין המבטח חייב אלא בתגמולי ביטוח מופחתים בשיעור יחסי, שהוא כיחס שבין"
+  "embed_text": "טבלה זו מתארת את התנאים בהם פוליסת ביטוח יכולה להיות מבוטלת ואת ההשלכות הכספיות הנלוות לכך. הפוליסה הוצאה על סמך התשובות שנתן המבוטח, והמבטח רשאי לבטל את הפוליסה אם המבוטח לא גילה מידע מהותי. ביטול הפוליסה כרוך בהחזר דמי ביטוח, בניכוי הוצאות המבטח, אלא אם פעל המבוטח בכוונת מרמה. ביטוח שיר לעסק הוא המוצר המכוסה בטבלה זו, והוא מבית שירביט. המבטח רשאי לבטל את הפוליסה תוך 30 ימים מהיום שנודע לו על אי גילוי מידע מהותי. סעיפים 6 ו-7 לחוק חוזה הביטוח רלוונטיים. This table details the conditions under which an insurance policy can be cancelled and the resulting financial implications. It outlines the timeframe for cancellation and potential refunds. בין הערכים בטבלה: סעיפי חוק: 6, 7.",
+  "payload": "טבלה: ביטול פוליסה\nThis table details the conditions under which an insurance policy can be cancelled and the resulting financial implications. It outlines the timeframe for cancellation and potential refunds.\nממדים: תנאי ביטול, השלכות ביטול\n\nלא ענה המבוטח תשובות מלאות וכנות או הסתיר או לא גילה למבטח 11.3 ימים מהיום שנודע לו על כך 30 עניין מהותי, יהיה המבטח רשאי, תוך וכל עוד לא קרה מקרה הביטוח, לבטל את הפוליסה בהודעה בכתב לחוק 7ו 6 למבוטח או להקטין את היקף חבותו על פי הוראות סעיפים . חוזה הביטוח\nביטל המבטח את הפוליסה מכוח סעיף זה, זכאי המבוטח להחזר דמי , הביטוח ששילם בעד התקופה שלאחר הביטול, בניכוי הוצאות המבטח זולת אם פעל המבוטח בכוונת מרמה.\nקרה מקרה הביטוח לפני שנתבטל החוזה מכוח סעיף זה, אין המבטח חייב אלא בתגמולי ביטוח מופחתים בשיעור יחסי, שהוא כיחס שבין"
 }

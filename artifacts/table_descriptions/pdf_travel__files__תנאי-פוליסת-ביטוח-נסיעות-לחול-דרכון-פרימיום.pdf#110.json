@@ -2,25 +2,22 @@
   "id": "pdf:travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-דרכון-פרימיום.pdf#110",
   "source": "llm",
   "description": {
-    "title": "תנאי פוליסת ביטוח נסיעות",
-    "summary": "This table outlines the conditions for canceling a travel insurance policy, specifically regarding refunds of premiums. It details scenarios where premiums may be returned to the insured, such as cancellation before departure or trip shortening.",
-    "embed_passage": "פוליסת דרכון פרימיום מספקת החזר יחסי של דמי הביטוח במקרה של קיצור שהייה בחו״ל, בתנאי שלא הוגשה תביעה. לדוגמה, אם שילמת עבור 10 ימים וקיצרת את הנסיעה ל-8 ימים, תוכל לקבל החזר עבור היומיים שלא נוצלו, בתנאי שתציג צילום דרכון עם חותמת כניסה לישראל.",
-    "row_axis": "Cancellation/Shortening Scenarios",
-    "column_axis": "Refund Conditions/Eligibility",
+    "title": "ביטול הפוליסה",
+    "summary": "This table details the conditions for policy cancellation, specifically regarding refunds of insurance premiums. It outlines scenarios for cancellation before departure and for shortened trips abroad.",
+    "embed_passage": "טבלה זו מתארת את תנאי ביטול פוליסת ביטוח נסיעות, כולל החזרים כספיים אפשריים. ניתן לבדוק את תנאי ההחזר במקרה של ביטול לפני יציאה לחו\"ל או קיצור הנסיעה. הפוליסה הרלוונטית היא דרכון פרימיום. התנאים מתייחסים להחזר יחסי של דמי הביטוח עבור ימי נסיעה שקוצרו, בתנאי שהוצג צילום דרכון עם חותמת כניסה לישראל. סעיפים רלוונטיים כוללים 10.1 ו-10.2. ביטול הנסיעה, קיצור שהיה בחו\"ל, דמי הביטוח, צילום דרכון.",
+    "row_axis": "Cancellation scenarios",
+    "column_axis": "Policy conditions and refunds",
     "units": [],
     "notable_values": [
-      "10.1: Refund if cancelled before departure",
+      "10.1: Cancellation before departure results in a refund",
       "10.2: Proportional refund for shortened trips",
-      "9.7: Claims are limited to the liability limit",
-      "9.8: Immediate notification of an insurance event is required",
-      "9.10: False statements can void coverage"
+      "Refund condition: Presentation of passport stamp"
     ],
     "product_hints": [
-      "דרכון פרימיום",
-      "ביטוח נסיעות"
+      "דרכון פרימיום"
     ]
   },
   "sketch": ")ב(, או שנעשה דבר כאמור בסעיף 9.9 או לפי סעיף 9.8 הופרה חובה לפי סעיף . 9.11 )ב(, או שהמבוטח או המוטב מסרו למבטח עובדות כוזבות, או שהעלימו ממנו 9.10 עובדות בנוגע למקרה הביטוח או בנוגע לחבות המבטח, והדבר נעשה בכוונת מרמה - פטור המבטח מחובתו.\n: ביטול הפוליסה 10 פרק\n. בוטלה הפוליסה על-ידי המבוטח לפני יציאתו לחו\"ל, ולא הוגשה תביעה על ידו בגין 10.1 ביטול הנסיעה, יוחזרו למבוטח דמי הביטוח ששילם.\n. במקרה של קיצור שהיה בחו\"ל יהא המבוטח זכאי להחזר יחסי של דמי הביטוח 10.2 המבוטח יהיה זכאי ובלבד שלא הוגשה תביעה עפ\"י פוליסה זו. , היומיים שלא נוצלו להחזר דמי הביטוח בגין ימי הנסיעה שקוצרו )שאינו שוהה בהם בחו\"ל( בתנאי שהציג צילום דרכונו הכולל חותמת כניסה לישראל או אישור מעבר כף יד או לחילופין אישור ממשרד הפנים על מועד הכניסה לישראל.",
-  "embed_text": "פוליסת דרכון פרימיום מספקת החזר יחסי של דמי הביטוח במקרה של קיצור שהייה בחו״ל, בתנאי שלא הוגשה תביעה. לדוגמה, אם שילמת עבור 10 ימים וקיצרת את הנסיעה ל-8 ימים, תוכל לקבל החזר עבור היומיים שלא נוצלו, בתנאי שתציג צילום דרכון עם חותמת כניסה לישראל.",
-  "payload": "טבלה: תנאי פוליסת ביטוח נסיעות\nThis table outlines the conditions for canceling a travel insurance policy, specifically regarding refunds of premiums. It details scenarios where premiums may be returned to the insured, such as cancellation before departure or trip shortening.\nממדים: Cancellation/Shortening Scenarios, Refund Conditions/Eligibility\n\n)ב(, או שנעשה דבר כאמור בסעיף 9.9 או לפי סעיף 9.8 הופרה חובה לפי סעיף . 9.11 )ב(, או שהמבוטח או המוטב מסרו למבטח עובדות כוזבות, או שהעלימו ממנו 9.10 עובדות בנוגע למקרה הביטוח או בנוגע לחבות המבטח, והדבר נעשה בכוונת מרמה - פטור המבטח מחובתו.\n: ביטול הפוליסה 10 פרק\n. בוטלה הפוליסה על-ידי המבוטח לפני יציאתו לחו\"ל, ולא הוגשה תביעה על ידו בגין 10.1 ביטול הנסיעה, יוחזרו למבוטח דמי הביטוח ששילם.\n. במקרה של קיצור שהיה בחו\"ל יהא המבוטח זכאי להחזר יחסי של דמי הביטוח 10.2 המבוטח יהיה זכאי ובלבד שלא הוגשה תביעה עפ\"י פוליסה זו. , היומיים שלא נוצלו להחזר דמי הביטוח בגין ימי הנסיעה שקוצרו )שאינו שוהה בהם בחו\"ל( בתנאי שהציג צילום דרכונו הכולל חותמת כניסה לישראל או אישור מעבר כף יד או לחילופין אישור ממשרד הפנים על מועד הכניסה לישראל."
+  "embed_text": "טבלה זו מתארת את תנאי ביטול פוליסת ביטוח נסיעות, כולל החזרים כספיים אפשריים. ניתן לבדוק את תנאי ההחזר במקרה של ביטול לפני יציאה לחו\"ל או קיצור הנסיעה. הפוליסה הרלוונטית היא דרכון פרימיום. התנאים מתייחסים להחזר יחסי של דמי הביטוח עבור ימי נסיעה שקוצרו, בתנאי שהוצג צילום דרכון עם חותמת כניסה לישראל. סעיפים רלוונטיים כוללים 10.1 ו-10.2. ביטול הנסיעה, קיצור שהיה בחו\"ל, דמי הביטוח, צילום דרכון. This table details the conditions for policy cancellation, specifically regarding refunds of insurance premiums. It outlines scenarios for cancellation before departure and for shortened trips abroad. בין הערכים בטבלה: Refund condition: Presentation of passport stamp.",
+  "payload": "טבלה: ביטול הפוליסה\nThis table details the conditions for policy cancellation, specifically regarding refunds of insurance premiums. It outlines scenarios for cancellation before departure and for shortened trips abroad.\nממדים: Cancellation scenarios, Policy conditions and refunds\n\n)ב(, או שנעשה דבר כאמור בסעיף 9.9 או לפי סעיף 9.8 הופרה חובה לפי סעיף . 9.11 )ב(, או שהמבוטח או המוטב מסרו למבטח עובדות כוזבות, או שהעלימו ממנו 9.10 עובדות בנוגע למקרה הביטוח או בנוגע לחבות המבטח, והדבר נעשה בכוונת מרמה - פטור המבטח מחובתו.\n: ביטול הפוליסה 10 פרק\n. בוטלה הפוליסה על-ידי המבוטח לפני יציאתו לחו\"ל, ולא הוגשה תביעה על ידו בגין 10.1 ביטול הנסיעה, יוחזרו למבוטח דמי הביטוח ששילם.\n. במקרה של קיצור שהיה בחו\"ל יהא המבוטח זכאי להחזר יחסי של דמי הביטוח 10.2 המבוטח יהיה זכאי ובלבד שלא הוגשה תביעה עפ\"י פוליסה זו. , היומיים שלא נוצלו להחזר דמי הביטוח בגין ימי הנסיעה שקוצרו )שאינו שוהה בהם בחו\"ל( בתנאי שהציג צילום דרכונו הכולל חותמת כניסה לישראל או אישור מעבר כף יד או לחילופין אישור ממשרד הפנים על מועד הכניסה לישראל."
 }

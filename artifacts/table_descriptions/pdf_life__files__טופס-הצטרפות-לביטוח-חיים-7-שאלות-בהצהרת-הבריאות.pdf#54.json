@@ -3,22 +3,21 @@
   "source": "llm",
   "description": {
     "title": "הראל - מידע חשוב",
-    "summary": "This table provides important information regarding policy transitions and communication preferences with Harel insurance. It outlines potential differences in coverage when moving from group to individual policies and how customers will receive information.",
-    "embed_passage": "הראל שואפת לייעל ולשפר את השירות הניתן ללקוחותיה. מידע ודיוורים מחברת הראל יופיעו גם באיזור האישי באתר שלנו, בכתובת www.harel-group.co.il. בעת מעבר מפוליסה לביטוח קבוצתי לפוליסת פרט, חשוב לדעת שהכיסויים עשויים להיות שונים.",
-    "row_axis": "Information points / Notices",
-    "column_axis": "N/A - These are informational statements.",
+    "summary": "This table provides important information regarding policy transitions and communication preferences with Harel insurance. It outlines details about coverage differences between group and individual policies and how to access information.",
+    "embed_passage": "טבלה זו מספקת מידע חשוב הנוגע למעבר בין פוליסת ביטוח קבוצתי לפוליסת ביטוח פרט, וכן לגבי אופן קבלת מידע והתקשרות עם הראל. ניתן למצוא מידע נוסף אודות היקף הכיסויים באתר www.harel-group.co.il. הראל שואפת לייעל ולשפר את השירות הניתן ללקוחותיה, ולכן מידע ודיוורים ישלחו גם לאיזור האישי באתר. הראל, פוליסה, ביטוח קבוצתי, ביטוח פרט, אתר הראל. לידיעתך, ייתכן שהכיסויים בפוליסה לביטוח קבוצתי ובפוליסת פרט אינם זהים.",
+    "row_axis": "information type",
+    "column_axis": "details",
     "units": [],
     "notable_values": [
-      "Reference to website: www.harel-group.co.il",
-      "Notice number: 6",
-      "Notice number: 7"
+      "website: www.harel-group.co.il"
     ],
     "product_hints": [
-      "ביטוח חיים",
+      "ביטוח קבוצתי",
+      "פוליסת פרט",
       "הראל"
     ]
   },
   "sketch": "בעת מעבר מפוליסה לביטוח קבוצתי לפוליסת פרט: לידיעתך, ייתכן שהכיסויים בפוליסה לביטוח קבוצתי ובפוליסת פרט אינם זהים. אם ברצונך לקבל .6 www.harel-group.co.il מידע נוסף אודות היקף הכיסויים, ביכולתך לפנות להראל, בכל עת, בכתובת\nלידיעתך, לצורך ייעול ושיפור השירות הניתן לך על-ידי הראל, המידע, הדיוורים והמסמכים, אשר ישלחו אליך מחברת הראל, יופיעו גם באיזור האישי .7 שלך באתר שלנו.",
-  "embed_text": "הראל שואפת לייעל ולשפר את השירות הניתן ללקוחותיה. מידע ודיוורים מחברת הראל יופיעו גם באיזור האישי באתר שלנו, בכתובת www.harel-group.co.il. בעת מעבר מפוליסה לביטוח קבוצתי לפוליסת פרט, חשוב לדעת שהכיסויים עשויים להיות שונים.",
-  "payload": "טבלה: הראל - מידע חשוב\nThis table provides important information regarding policy transitions and communication preferences with Harel insurance. It outlines potential differences in coverage when moving from group to individual policies and how customers will receive information.\nממדים: Information points / Notices, N/A - These are informational statements.\n\nבעת מעבר מפוליסה לביטוח קבוצתי לפוליסת פרט: לידיעתך, ייתכן שהכיסויים בפוליסה לביטוח קבוצתי ובפוליסת פרט אינם זהים. אם ברצונך לקבל .6 www.harel-group.co.il מידע נוסף אודות היקף הכיסויים, ביכולתך לפנות להראל, בכל עת, בכתובת\nלידיעתך, לצורך ייעול ושיפור השירות הניתן לך על-ידי הראל, המידע, הדיוורים והמסמכים, אשר ישלחו אליך מחברת הראל, יופיעו גם באיזור האישי .7 שלך באתר שלנו."
+  "embed_text": "טבלה זו מספקת מידע חשוב הנוגע למעבר בין פוליסת ביטוח קבוצתי לפוליסת ביטוח פרט, וכן לגבי אופן קבלת מידע והתקשרות עם הראל. ניתן למצוא מידע נוסף אודות היקף הכיסויים באתר www.harel-group.co.il. הראל שואפת לייעל ולשפר את השירות הניתן ללקוחותיה, ולכן מידע ודיוורים ישלחו גם לאיזור האישי באתר. הראל, פוליסה, ביטוח קבוצתי, ביטוח פרט, אתר הראל. לידיעתך, ייתכן שהכיסויים בפוליסה לביטוח קבוצתי ובפוליסת פרט אינם זהים. This table provides important information regarding policy transitions and communication preferences with Harel insurance. It outlines details about coverage differences between group and individual policies and how to access information.",
+  "payload": "טבלה: הראל - מידע חשוב\nThis table provides important information regarding policy transitions and communication preferences with Harel insurance. It outlines details about coverage differences between group and individual policies and how to access information.\nממדים: information type, details\n\nבעת מעבר מפוליסה לביטוח קבוצתי לפוליסת פרט: לידיעתך, ייתכן שהכיסויים בפוליסה לביטוח קבוצתי ובפוליסת פרט אינם זהים. אם ברצונך לקבל .6 www.harel-group.co.il מידע נוסף אודות היקף הכיסויים, ביכולתך לפנות להראל, בכל עת, בכתובת\nלידיעתך, לצורך ייעול ושיפור השירות הניתן לך על-ידי הראל, המידע, הדיוורים והמסמכים, אשר ישלחו אליך מחברת הראל, יופיעו גם באיזור האישי .7 שלך באתר שלנו."
 }

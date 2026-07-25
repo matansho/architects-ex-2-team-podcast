@@ -3,21 +3,24 @@
   "source": "llm",
   "description": {
     "title": "הראל - שמאות רכב",
-    "summary": "This table outlines the process for damage assessment and repair cost estimation for car insurance claims with הראל. It details the conditions for appealing an appraiser's quote and the involvement of a deciding appraiser.",
-    "embed_passage": "פוליסת הראל מאפשרת ערעור על הצעת תיקון או שומה של שמאי חיצוני בפני שמאי מכריע. הערעור מוגבל לעניינים שלא נקבעו בהצעת התיקון, או לעניינים ששונו בשומה, או לעניינים שיכלו להתברר במהלך תיקון הרכב. לדוגמה, ניתן לערער על עלות חלף ב-14 ימים.",
-    "row_axis": "Appeal conditions / Dispute resolution steps",
-    "column_axis": "Aspects of the appraisal process",
+    "summary": "This table outlines the process for damage assessment and repair cost estimation for car insurance claims with הראל. It details conditions for appealing an appraiser's quote and the involvement of a decisive appraiser.",
+    "embed_passage": "טבלה זו מתארת את תהליך הערכת הנזקים ותיקון הרכב בפוליסת ביטוח רכב של הראל. ניתן לערער על הצעת התיקון או השומה של שמאי חיצוני בפני שמאי מכריע, בתנאים מסוימים. הראל תשא בעלות שכר הטרחה של השמאי החוץ. הראל, שמאים, שומה, הצעת תיקון, ערעור, שמאי מכריע.",
+    "row_axis": "conditions for appeal/dispute resolution",
+    "column_axis": "aspects of the appraisal process",
     "units": [],
     "notable_values": [
-      "appeal deadline: שבוע",
-      "dispute resolution: שמאי מכריע",
-      "cost coverage: הראל תישא במלוא עלות שכר הטרחה"
+      "שמאי מכריע: רשימת שמאים",
+      "שמאי חיצוני: הצעת תיקון",
+      "שמאי חיצוני: שומה",
+      "ערעור: הצעת תיקון נגדית",
+      "ערעור: שומה נגדית",
+      "עלות שכר טרחה: הראל"
     ],
     "product_hints": [
       "הראל"
     ]
   },
   "sketch": ". אתה או ניזוק צד ג' רשאים לערער על הצעת התיקון או על השומה של שמאי החוץ בפני שמאי 13 מכריע, ובלבד שתציגו הצעת תיקון נגדית ותודיעו על רצונכם לערער לפני תיקון הרכב, או תציגו שומה נגדית לא יאוחר משבוע לאחר שנמסרה לכם השומה של שמאי החוץ.\n. בערעור על השומה של שמאי החוץ בפני שמאי מכריע ניתן לערער רק על אותם עניינים שלא 14 נקבעו בהצעת התיקון, על אותם עניינים שנכללו בהצעת התיקון אך שונו בשומה, או על אותם עניינים שיכלו להתברר במהלך תיקון הרכב בלבד.",
-  "embed_text": "פוליסת הראל מאפשרת ערעור על הצעת תיקון או שומה של שמאי חיצוני בפני שמאי מכריע. הערעור מוגבל לעניינים שלא נקבעו בהצעת התיקון, או לעניינים ששונו בשומה, או לעניינים שיכלו להתברר במהלך תיקון הרכב. לדוגמה, ניתן לערער על עלות חלף ב-14 ימים.",
-  "payload": "טבלה: הראל - שמאות רכב\nThis table outlines the process for damage assessment and repair cost estimation for car insurance claims with הראל. It details the conditions for appealing an appraiser's quote and the involvement of a deciding appraiser.\nממדים: Appeal conditions / Dispute resolution steps, Aspects of the appraisal process\n\n. אתה או ניזוק צד ג' רשאים לערער על הצעת התיקון או על השומה של שמאי החוץ בפני שמאי 13 מכריע, ובלבד שתציגו הצעת תיקון נגדית ותודיעו על רצונכם לערער לפני תיקון הרכב, או תציגו שומה נגדית לא יאוחר משבוע לאחר שנמסרה לכם השומה של שמאי החוץ.\n. בערעור על השומה של שמאי החוץ בפני שמאי מכריע ניתן לערער רק על אותם עניינים שלא 14 נקבעו בהצעת התיקון, על אותם עניינים שנכללו בהצעת התיקון אך שונו בשומה, או על אותם עניינים שיכלו להתברר במהלך תיקון הרכב בלבד."
+  "embed_text": "טבלה זו מתארת את תהליך הערכת הנזקים ותיקון הרכב בפוליסת ביטוח רכב של הראל. ניתן לערער על הצעת התיקון או השומה של שמאי חיצוני בפני שמאי מכריע, בתנאים מסוימים. הראל תשא בעלות שכר הטרחה של השמאי החוץ. הראל, שמאים, שומה, הצעת תיקון, ערעור, שמאי מכריע. This table outlines the process for damage assessment and repair cost estimation for car insurance claims with הראל. It details conditions for appealing an appraiser's quote and the involvement of a decisive appraiser.",
+  "payload": "טבלה: הראל - שמאות רכב\nThis table outlines the process for damage assessment and repair cost estimation for car insurance claims with הראל. It details conditions for appealing an appraiser's quote and the involvement of a decisive appraiser.\nממדים: conditions for appeal/dispute resolution, aspects of the appraisal process\n\n. אתה או ניזוק צד ג' רשאים לערער על הצעת התיקון או על השומה של שמאי החוץ בפני שמאי 13 מכריע, ובלבד שתציגו הצעת תיקון נגדית ותודיעו על רצונכם לערער לפני תיקון הרכב, או תציגו שומה נגדית לא יאוחר משבוע לאחר שנמסרה לכם השומה של שמאי החוץ.\n. בערעור על השומה של שמאי החוץ בפני שמאי מכריע ניתן לערער רק על אותם עניינים שלא 14 נקבעו בהצעת התיקון, על אותם עניינים שנכללו בהצעת התיקון אך שונו בשומה, או על אותם עניינים שיכלו להתברר במהלך תיקון הרכב בלבד."
 }

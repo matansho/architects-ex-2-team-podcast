@@ -2,27 +2,29 @@
   "id": "pdf:business/files/טופס-הצעה-לביטוח-מכלול-למושב.pdf#33",
   "source": "llm",
   "description": {
-    "title": "מכלול ביטוח רכוש",
-    "summary": "This table details property insurance coverage for various assets, outlining the insured value, premium rate, and self-participation amounts. It's used to look up coverage details based on the type of property and potential damage.",
-    "embed_passage": "ביטוח מכלול מציע כיסוי לנזקים שונים לרכוש, כגון מכוני מים ובארות, עם דמי ביטוח המחושבים כאחוז מערך הרכוש המבוטח. לדוגמה, עבור ציוד בארות, דמי הביטוח יכולים להיות 0.90% או 1.20%, וההשתתפות העצמית עשויה להיות ₪ 10,000 או ₪ 20,000.",
-    "row_axis": "type of property/asset",
-    "column_axis": "coverage details (insured value, premium rate, self-participation)",
+    "title": "כיסויים - פרק שני",
+    "summary": "This table details coverage for mechanical breakdown (פרק שני) within an insurance policy. It lists insured property descriptions, insurance premiums, and self-participation amounts.",
+    "embed_passage": "טבלה זו מפרטת כיסויים עבור תקלות מכניות במסגרת פוליסת ביטוח מכלול. ניתן למצוא כאן תיאורי רכוש מבוטח, סכומי ביטוח, וסכומי השתתפות עצמית. הפוליסה כוללת כיסוי עבור 'מכוני שאיבה, מכוני מים, בארות' וציוד אחר. סכומי הביטוח נעים בין ₪ 20,000 לציוד מסוים, ועד ₪ 7,500 לציוד אחר. ביטוח מכלול מציע כיסוי מקיף, עם אפשרות להקלת אמצעי סיכון על ידי המבטח כפי שמפורט בנספח.",
+    "row_axis": "type of insured property (e.g., water pumps, wells)",
+    "column_axis": "coverage details (e.g., insured value, insurance premium, self-participation)",
     "units": [
       "₪",
       "%"
     ],
     "notable_values": [
-      "premium rate: 0.90%",
-      "premium rate: 1.20%",
+      "insured value: ₪ 20,000",
       "self-participation: ₪ 10,000",
-      "self-participation: ₪ 20,000",
-      "asset type: בארות (wells)"
+      "self-participation: ₪ 7,500",
+      "insurance premium: 0.90%",
+      "insurance premium: 1.20%",
+      "property description: מכוני שאיבה, מכוני מים, בארות",
+      "risk mitigation: הרצ״ב. בנספח ראה - המבטח סיכון להקלת אמצעים"
     ],
     "product_hints": [
-      "מכלול ביטוח רכוש"
+      "ביטוח מכלול"
     ]
   },
   "sketch": "פרק שני:\nיד שבר מכני\n\"בש\"\"ח ביטוח דמי סה\"\"כ\",מיון,כחדש( )ערך המבוטח הרכוש תאור\n,0.90%,\n,1.20%,\"וביוב מים מכוני שאיבה, מכוני מים, בארות\"\n,,\"של לעין גלוי אחר ולציוד .₪ 20,000 - בארות מפוקי כולל הקרקע/המים פני מתחת הנמצא לציוד עצמית השתתפות .₪ 10,000 וביוב מים ומכוני בארות\"\n,,\".₪ 7,500 - אחר ציוד לכל עצמית השתתפות\"\n\"הרצ\"\"ב. בנספח ראה - המבטח סיכון להקלת אמצעים\",\"הרצ\"\"ב. בנספח ראה - המבטח סיכון להקלת אמצעים\",\"הרצ\"\"ב. בנספח ראה - המבטח סיכון להקלת אמצעים\"",
-  "embed_text": "ביטוח מכלול מציע כיסוי לנזקים שונים לרכוש, כגון מכוני מים ובארות, עם דמי ביטוח המחושבים כאחוז מערך הרכוש המבוטח. לדוגמה, עבור ציוד בארות, דמי הביטוח יכולים להיות 0.90% או 1.20%, וההשתתפות העצמית עשויה להיות ₪ 10,000 או ₪ 20,000.",
-  "payload": "טבלה: מכלול ביטוח רכוש\nThis table details property insurance coverage for various assets, outlining the insured value, premium rate, and self-participation amounts. It's used to look up coverage details based on the type of property and potential damage.\nממדים: type of property/asset, coverage details (insured value, premium rate, self-participation)\n\nפרק שני:\nיד שבר מכני\n\"בש\"\"ח ביטוח דמי סה\"\"כ\",מיון,כחדש( )ערך המבוטח הרכוש תאור\n,0.90%,\n,1.20%,\"וביוב מים מכוני שאיבה, מכוני מים, בארות\"\n,,\"של לעין גלוי אחר ולציוד .₪ 20,000 - בארות מפוקי כולל הקרקע/המים פני מתחת הנמצא לציוד עצמית השתתפות .₪ 10,000 וביוב מים ומכוני בארות\"\n,,\".₪ 7,500 - אחר ציוד לכל עצמית השתתפות\"\n\"הרצ\"\"ב. בנספח ראה - המבטח סיכון להקלת אמצעים\",\"הרצ\"\"ב. בנספח ראה - המבטח סיכון להקלת אמצעים\",\"הרצ\"\"ב. בנספח ראה - המבטח סיכון להקלת אמצעים\""
+  "embed_text": "טבלה זו מפרטת כיסויים עבור תקלות מכניות במסגרת פוליסת ביטוח מכלול. ניתן למצוא כאן תיאורי רכוש מבוטח, סכומי ביטוח, וסכומי השתתפות עצמית. הפוליסה כוללת כיסוי עבור 'מכוני שאיבה, מכוני מים, בארות' וציוד אחר. סכומי הביטוח נעים בין ₪ 20,000 לציוד מסוים, ועד ₪ 7,500 לציוד אחר. ביטוח מכלול מציע כיסוי מקיף, עם אפשרות להקלת אמצעי סיכון על ידי המבטח כפי שמפורט בנספח. This table details coverage for mechanical breakdown (פרק שני) within an insurance policy. It lists insured property descriptions, insurance premiums, and self-participation amounts. בין הערכים בטבלה: self-participation: ₪ 10,000; insurance premium: 0.90%; insurance premium: 1.20%; risk mitigation: הרצ״ב. בנספח ראה - המבטח סיכון להקלת אמצעים.",
+  "payload": "טבלה: כיסויים - פרק שני\nThis table details coverage for mechanical breakdown (פרק שני) within an insurance policy. It lists insured property descriptions, insurance premiums, and self-participation amounts.\nממדים: type of insured property (e.g., water pumps, wells), coverage details (e.g., insured value, insurance premium, self-participation)\n\nפרק שני:\nיד שבר מכני\n\"בש\"\"ח ביטוח דמי סה\"\"כ\",מיון,כחדש( )ערך המבוטח הרכוש תאור\n,0.90%,\n,1.20%,\"וביוב מים מכוני שאיבה, מכוני מים, בארות\"\n,,\"של לעין גלוי אחר ולציוד .₪ 20,000 - בארות מפוקי כולל הקרקע/המים פני מתחת הנמצא לציוד עצמית השתתפות .₪ 10,000 וביוב מים ומכוני בארות\"\n,,\".₪ 7,500 - אחר ציוד לכל עצמית השתתפות\"\n\"הרצ\"\"ב. בנספח ראה - המבטח סיכון להקלת אמצעים\",\"הרצ\"\"ב. בנספח ראה - המבטח סיכון להקלת אמצעים\",\"הרצ\"\"ב. בנספח ראה - המבטח סיכון להקלת אמצעים\""
 }

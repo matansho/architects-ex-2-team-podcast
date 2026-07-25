@@ -3,17 +3,24 @@
   "source": "llm",
   "description": {
     "title": "הראל מגן משלים לילד",
-    "summary": "This table outlines the precedence of terms between the 'הראל מגן משלים לילד' policy and other related plans or riders. It details which terms apply to coverage originating from each source in case of conflict.",
-    "embed_passage": "פוליסת 'הראל מגן משלים לילד' קובעת סדרי עדיפויות בין תנאיה לתנאי תכניות אחרות. במקרה של סתירה בין הפוליסה לתכנית אחרת, יחולו תנאי הפוליסה על הכיסוי הביטוחי הנובע ממנה. במקרה של סתירה בין הפוליסה לנספחים אחרים, יחולו תנאי כל נספח על הכיסוי הביטוחי הנובע ממנו.",
-    "row_axis": "Conflict scenarios between the policy and other plans/riders",
-    "column_axis": "Precedence rules for coverage terms",
+    "summary": "This table outlines precedence rules for coverage when the 'הראל מגן משלים לילד' policy is marketed as a supplement to another plan or as a standalone plan. It specifies which terms apply to coverage originating from the policy versus the other plan or its attachments.",
+    "embed_passage": "טבלה זו מתייחסת לפוליסת 'הראל מגן משלים לילד' ומסבירה את סדרי העדיפויות במקרה של סתירה בין תנאי הפוליסה לתנאי תכנית אחרת או נספחים שלה. הפוליסה יכולה להיות משווקת כנספח לתכנית אחרת או כתכנית עצמאית, ובהתאם לכך נקבעים הכללים לכיסוי הביטוחי. במקרה של סתירה בין הפוליסה לתכנית אחרת, יחולו תנאי הפוליסה על הכיסוי הביטוחי הנובע ממנה. במקרה של סתירה בין הפוליסה לנספחים אחרים, יחולו תנאי כל נספח על הכיסוי הנובע ממנו. הפוליסה כפופה להוראות ההסדר התחיקתי, ובמקרה של סתירה, הוראות ההסדר התחיקתי יחולו.",
+    "row_axis": "precedence rule scenarios",
+    "column_axis": "coverage source (policy vs. other plan/attachments)",
     "units": [],
-    "notable_values": [],
+    "notable_values": [
+      "policy type: supplement to another plan",
+      "policy type: standalone plan",
+      "precedence: policy terms apply to policy coverage",
+      "precedence: other plan terms apply to other plan coverage",
+      "precedence: attachment terms apply to attachment coverage",
+      "governing law: הסדר התחיקתי"
+    ],
     "product_hints": [
       "הראל מגן משלים לילד"
     ]
   },
   "sketch": "שווקה  הפוליסה  כנספח  לתכנית  אחרת,  אזי  במקרה  של  סתירה  בין התנאים של הפוליסה לתנאי התכנית האחרת, יחולו התנאים של הפוליסה על  הכיסוי  הביטוחי  הנובע  מהפוליסה  ותנאי  התכנית  האחרת  יחולו  על הכיסוי הביטוחי הנובע מהתכנית האחרת. במקרה של סתירה בין הפוליסה לבין נספחים אחרים שצורפו לתכנית האחרת, יחולו תנאי כל נספח על הכיסוי הביטוחי הנובע מאותו נספח.\nעל פוליסה זו חלות הוראות ההסדר התחיקתי, והיא כפופה להן. בכל מקרה 1.2.6 , של  סתירה  בין  הוראות  הפוליסה  להוראות  קוגנטיות  בהסדר התחיקתי יחולו הוראות ההסדר התחיקתי.",
-  "embed_text": "פוליסת 'הראל מגן משלים לילד' קובעת סדרי עדיפויות בין תנאיה לתנאי תכניות אחרות. במקרה של סתירה בין הפוליסה לתכנית אחרת, יחולו תנאי הפוליסה על הכיסוי הביטוחי הנובע ממנה. במקרה של סתירה בין הפוליסה לנספחים אחרים, יחולו תנאי כל נספח על הכיסוי הביטוחי הנובע ממנו.",
-  "payload": "טבלה: הראל מגן משלים לילד\nThis table outlines the precedence of terms between the 'הראל מגן משלים לילד' policy and other related plans or riders. It details which terms apply to coverage originating from each source in case of conflict.\nממדים: Conflict scenarios between the policy and other plans/riders, Precedence rules for coverage terms\n\nשווקה  הפוליסה  כנספח  לתכנית  אחרת,  אזי  במקרה  של  סתירה  בין התנאים של הפוליסה לתנאי התכנית האחרת, יחולו התנאים של הפוליסה על  הכיסוי  הביטוחי  הנובע  מהפוליסה  ותנאי  התכנית  האחרת  יחולו  על הכיסוי הביטוחי הנובע מהתכנית האחרת. במקרה של סתירה בין הפוליסה לבין נספחים אחרים שצורפו לתכנית האחרת, יחולו תנאי כל נספח על הכיסוי הביטוחי הנובע מאותו נספח.\nעל פוליסה זו חלות הוראות ההסדר התחיקתי, והיא כפופה להן. בכל מקרה 1.2.6 , של  סתירה  בין  הוראות  הפוליסה  להוראות  קוגנטיות  בהסדר התחיקתי יחולו הוראות ההסדר התחיקתי."
+  "embed_text": "טבלה זו מתייחסת לפוליסת 'הראל מגן משלים לילד' ומסבירה את סדרי העדיפויות במקרה של סתירה בין תנאי הפוליסה לתנאי תכנית אחרת או נספחים שלה. הפוליסה יכולה להיות משווקת כנספח לתכנית אחרת או כתכנית עצמאית, ובהתאם לכך נקבעים הכללים לכיסוי הביטוחי. במקרה של סתירה בין הפוליסה לתכנית אחרת, יחולו תנאי הפוליסה על הכיסוי הביטוחי הנובע ממנה. במקרה של סתירה בין הפוליסה לנספחים אחרים, יחולו תנאי כל נספח על הכיסוי הנובע ממנו. הפוליסה כפופה להוראות ההסדר התחיקתי, ובמקרה של סתירה, הוראות ההסדר התחיקתי יחולו. This table outlines precedence rules for coverage when the 'הראל מגן משלים לילד' policy is marketed as a supplement to another plan or as a standalone plan. It specifies which terms apply to coverage originating from the policy versus the other plan or its attachments. בין הערכים בטבלה: policy type: supp…",
+  "payload": "טבלה: הראל מגן משלים לילד\nThis table outlines precedence rules for coverage when the 'הראל מגן משלים לילד' policy is marketed as a supplement to another plan or as a standalone plan. It specifies which terms apply to coverage originating from the policy versus the other plan or its attachments.\nממדים: precedence rule scenarios, coverage source (policy vs. other plan/attachments)\n\nשווקה  הפוליסה  כנספח  לתכנית  אחרת,  אזי  במקרה  של  סתירה  בין התנאים של הפוליסה לתנאי התכנית האחרת, יחולו התנאים של הפוליסה על  הכיסוי  הביטוחי  הנובע  מהפוליסה  ותנאי  התכנית  האחרת  יחולו  על הכיסוי הביטוחי הנובע מהתכנית האחרת. במקרה של סתירה בין הפוליסה לבין נספחים אחרים שצורפו לתכנית האחרת, יחולו תנאי כל נספח על הכיסוי הביטוחי הנובע מאותו נספח.\nעל פוליסה זו חלות הוראות ההסדר התחיקתי, והיא כפופה להן. בכל מקרה 1.2.6 , של  סתירה  בין  הוראות  הפוליסה  להוראות  קוגנטיות  בהסדר התחיקתי יחולו הוראות ההסדר התחיקתי."
 }

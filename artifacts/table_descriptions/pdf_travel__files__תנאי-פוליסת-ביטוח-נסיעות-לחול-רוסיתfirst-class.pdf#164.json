@@ -2,25 +2,23 @@
   "id": "pdf:travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-רוסיתfirst-class.pdf#164",
   "source": "llm",
   "description": {
-    "title": "ביטוח נסיעות - רוסית first class",
-    "summary": "This table details exclusions and coverage limits for the 'רוסית first class' travel insurance policy. It outlines conditions under which claims related to specific medical situations or activities will not be covered.",
-    "embed_passage": "פוליסת 'רוסית first class' מגדירה סכום כיסוי של 350,000$ עבור חלק ב׳, בנוסף לכיסוי הבסיסי. הפוליסה אינה מכסה הריון, הפלות או בדיקות שגרתיות. גובה ההשתתפות העצמית עומד על 50$.",
-    "row_axis": "Exclusion/Limitation",
-    "column_axis": "Policy Detail",
-    "units": [
-      "$"
-    ],
+    "title": "אישורי תשלום",
+    "summary": "This table details exclusions to insurance coverage under Chapter 17.2 of a travel insurance policy. It lists conditions for which claims will not be paid, in addition to those already excluded in the base policy.",
+    "embed_passage": "טבלה זו מתארת את חריגי הכיסוי במסגרת פרק 17.2 של פוליסת ביטוח נסיעות. הפוליסה, \"רוסיתfirst-class\", מציינת מצבים שאינם מכוסים, בנוסף לחריגים הקיימים בפוליסה הבסיסית. ניתן לבדוק את החריגים לפי סעיפים מפורטים, כגון הפלות ובדיקות שגרתיות הקשורות להריון. החריגים מפורטים עבור פוליסת ביטוח נסיעות \"רוסיתfirst-class\".  החריגים כוללים הפלה, בדיקות הריון שגרתיות, ובדיקות גנטיות או מעבדה הקשורות להריון. סכום הכיסוי המקסימלי עבור פרק זה הוא 350,000$.",
+    "row_axis": "exclusion reason",
+    "column_axis": "details",
+    "units": [],
     "notable_values": [
-      "Coverage Limit: 350,000$",
-      "Self-Participation: 50$",
-      "Medical Expenses Limit (basic policy): 5,000,000$"
+      "maximum coverage: 350,000$",
+      "abortion: excluded",
+      "routine pregnancy checks: excluded",
+      "genetic/lab pregnancy tests: excluded"
     ],
     "product_hints": [
-      "רוסית first class",
-      "ביטוח נסיעות"
+      "רוסיתfirst-class"
     ]
   },
   "sketch": "Обязательства страховщика в данной главе - это сумма, составляющая 350,000$ в соответствии с таблицей границ ответственности  для  Части  Б,  и  они  не  добавляются  к обязательствам страховщика, упомянутым в базовом полисе.\n17.2. Дополнительные исключения к данной главе в дополнение к исключениям, существующим в базовом полисе: страховщик не будет оплачивать заявку\\и, следующий\\ие или связанный\\ые с состояниями, перечисленными далее:\n17.2.1. Аборт.\n17.2.2. Рутинные проверки и генетические и\\или лабораторные проверки, связанные с беременностью и с ее развитием.",
-  "embed_text": "פוליסת 'רוסית first class' מגדירה סכום כיסוי של 350,000$ עבור חלק ב׳, בנוסף לכיסוי הבסיסי. הפוליסה אינה מכסה הריון, הפלות או בדיקות שגרתיות. גובה ההשתתפות העצמית עומד על 50$.",
-  "payload": "טבלה: ביטוח נסיעות - רוסית first class\nThis table details exclusions and coverage limits for the 'רוסית first class' travel insurance policy. It outlines conditions under which claims related to specific medical situations or activities will not be covered.\nממדים: Exclusion/Limitation, Policy Detail\n\nОбязательства страховщика в данной главе - это сумма, составляющая 350,000$ в соответствии с таблицей границ ответственности  для  Части  Б,  и  они  не  добавляются  к обязательствам страховщика, упомянутым в базовом полисе.\n17.2. Дополнительные исключения к данной главе в дополнение к исключениям, существующим в базовом полисе: страховщик не будет оплачивать заявку\\и, следующий\\ие или связанный\\ые с состояниями, перечисленными далее:\n17.2.1. Аборт.\n17.2.2. Рутинные проверки и генетические и\\или лабораторные проверки, связанные с беременностью и с ее развитием."
+  "embed_text": "טבלה זו מתארת את חריגי הכיסוי במסגרת פרק 17.2 של פוליסת ביטוח נסיעות. הפוליסה, \"רוסיתfirst-class\", מציינת מצבים שאינם מכוסים, בנוסף לחריגים הקיימים בפוליסה הבסיסית. ניתן לבדוק את החריגים לפי סעיפים מפורטים, כגון הפלות ובדיקות שגרתיות הקשורות להריון. החריגים מפורטים עבור פוליסת ביטוח נסיעות \"רוסיתfirst-class\".  החריגים כוללים הפלה, בדיקות הריון שגרתיות, ובדיקות גנטיות או מעבדה הקשורות להריון. סכום הכיסוי המקסימלי עבור פרק זה הוא 350,000$. This table details exclusions to insurance coverage under Chapter 17.2 of a travel insurance policy. It lists conditions for which claims will not be paid, in addition to those already excluded in the base policy. בין הערכים בטבלה: abortion: excluded; routine pregnancy checks: excluded; genetic/lab pregnancy tests: excluded.",
+  "payload": "טבלה: אישורי תשלום\nThis table details exclusions to insurance coverage under Chapter 17.2 of a travel insurance policy. It lists conditions for which claims will not be paid, in addition to those already excluded in the base policy.\nממדים: exclusion reason, details\n\nОбязательства страховщика в данной главе - это сумма, составляющая 350,000$ в соответствии с таблицей границ ответственности  для  Части  Б,  и  они  не  добавляются  к обязательствам страховщика, упомянутым в базовом полисе.\n17.2. Дополнительные исключения к данной главе в дополнение к исключениям, существующим в базовом полисе: страховщик не будет оплачивать заявку\\и, следующий\\ие или связанный\\ые с состояниями, перечисленными далее:\n17.2.1. Аборт.\n17.2.2. Рутинные проверки и генетические и\\или лабораторные проверки, связанные с беременностью и с ее развитием."
 }

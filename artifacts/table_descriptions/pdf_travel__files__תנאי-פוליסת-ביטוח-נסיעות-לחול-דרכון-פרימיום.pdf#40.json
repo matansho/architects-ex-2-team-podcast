@@ -2,17 +2,17 @@
   "id": "pdf:travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-דרכון-פרימיום.pdf#40",
   "source": "llm",
   "description": {
-    "title": "גבולות אחריות רפואית",
-    "summary": "This table details the financial limits for medical expenses incurred abroad under the 'דרכון פרימיום' travel insurance policy. It specifies coverage amounts for various medical services.",
-    "embed_passage": "פוליסת 'דרכון פרימיום' מספקת כיסוי להוצאות רפואיות בחו״ל, כגון טיפול רופא ובדיקות אבחון, עד לגבול אחריות של $5,000,000. גובה הפיצוי תלוי בסוג הטיפול ובנסיבות המקרה. הכיסוי מותנה בטבלת גבולות האחריות בפוליסה.",
-    "row_axis": "סוג הוצאה רפואית (medical expense type)",
-    "column_axis": "גבול אחריות (liability limit)",
+    "title": "גבולות אחריות",
+    "summary": "This table details liability limits for insurance claims, specifically related to medical evacuation. It is used to determine the maximum coverage amounts for different scenarios.",
+    "embed_passage": "This table details liability limits for the \"דרכון פרימיום\" travel insurance policy. It is used to determine the maximum coverage amounts for different scenarios, such as medical evacuation. You can look up liability limits by event type or treatment. The table includes information about medical expenses abroad, doctor's treatment, diagnostic tests, imaging tests, and medical devices.",
+    "row_axis": "סוג אירוע / טיפול",
+    "column_axis": "גבול אחריות / תנאים",
     "units": [
-      "$",
-      "₪"
+      "₪",
+      "$"
     ],
     "notable_values": [
-      "גבול אחריות: $5,000,000"
+      "הוצאות רפואיות: $5,000,000"
     ],
     "product_hints": [
       "דרכון פרימיום",
@@ -20,6 +20,6 @@
     ]
   },
   "sketch": "ובכפוף לטבלת גבולות האחריות בפוליסה. לא בוצעה ההטסה על ידי המבטח ו/או מי מטעמו, יהא רשאי המבטח להפחית את סכום תגמולי הביטוח להם יהיה זכאי המבוטח לגובה הסכום שהיה משלם המבטח, לו בוצעה ההטסה מטעמו.\nבמקרה של הטסה רפואית כרטיסי נסיעה שהיו בידי המבוטח יומחו למען הסר ספק, לטובת המבטח, לבקשתו של המבטח.",
-  "embed_text": "פוליסת 'דרכון פרימיום' מספקת כיסוי להוצאות רפואיות בחו״ל, כגון טיפול רופא ובדיקות אבחון, עד לגבול אחריות של $5,000,000. גובה הפיצוי תלוי בסוג הטיפול ובנסיבות המקרה. הכיסוי מותנה בטבלת גבולות האחריות בפוליסה.",
-  "payload": "טבלה: גבולות אחריות רפואית\nThis table details the financial limits for medical expenses incurred abroad under the 'דרכון פרימיום' travel insurance policy. It specifies coverage amounts for various medical services.\nממדים: סוג הוצאה רפואית (medical expense type), גבול אחריות (liability limit)\n\nובכפוף לטבלת גבולות האחריות בפוליסה. לא בוצעה ההטסה על ידי המבטח ו/או מי מטעמו, יהא רשאי המבטח להפחית את סכום תגמולי הביטוח להם יהיה זכאי המבוטח לגובה הסכום שהיה משלם המבטח, לו בוצעה ההטסה מטעמו.\nבמקרה של הטסה רפואית כרטיסי נסיעה שהיו בידי המבוטח יומחו למען הסר ספק, לטובת המבטח, לבקשתו של המבטח."
+  "embed_text": "This table details liability limits for the \"דרכון פרימיום\" travel insurance policy. It is used to determine the maximum coverage amounts for different scenarios, such as medical evacuation. You can look up liability limits by event type or treatment. The table includes information about medical expenses abroad, doctor's treatment, diagnostic tests, imaging tests, and medical devices. This table details liability limits for insurance claims, specifically related to medical evacuation. It is used to determine the maximum coverage amounts for different scenarios. בין הערכים בטבלה: הוצאות רפואיות: $5,000,000.",
+  "payload": "טבלה: גבולות אחריות\nThis table details liability limits for insurance claims, specifically related to medical evacuation. It is used to determine the maximum coverage amounts for different scenarios.\nממדים: סוג אירוע / טיפול, גבול אחריות / תנאים\n\nובכפוף לטבלת גבולות האחריות בפוליסה. לא בוצעה ההטסה על ידי המבטח ו/או מי מטעמו, יהא רשאי המבטח להפחית את סכום תגמולי הביטוח להם יהיה זכאי המבוטח לגובה הסכום שהיה משלם המבטח, לו בוצעה ההטסה מטעמו.\nבמקרה של הטסה רפואית כרטיסי נסיעה שהיו בידי המבוטח יומחו למען הסר ספק, לטובת המבטח, לבקשתו של המבטח."
 }

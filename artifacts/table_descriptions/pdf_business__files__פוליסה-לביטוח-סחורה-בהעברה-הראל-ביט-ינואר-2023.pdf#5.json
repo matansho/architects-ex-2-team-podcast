@@ -2,22 +2,24 @@
   "id": "pdf:business/files/פוליסה-לביטוח-סחורה-בהעברה-הראל-ביט-ינואר-2023.pdf#5",
   "source": "llm",
   "description": {
-    "title": "הראל סחורה בהעברה",
-    "summary": "This table details exclusions to coverage under the 'הראל סחורה בהעברה' (Harel Goods in Transit) insurance policy. It lists types of property that are *not* covered during transport.",
-    "embed_passage": "פוליסת 'הראל סחורה בהעברה' אינה מכסה נכסים ניידים כמו כסף, מזומנים, שטרי התחייבות, תכשיטים, אבנים יקרות או חומרי נפץ בעת העברתם בכלי רכב. הפוליסה מגדירה אילו סוגי רכוש אינם כלולים בכיסוי, למשל סעיף 1.2.1 מציין ניירות ערך, בולים ומסמכים. סעיף 1.2.3 מציין שבעלי חיים אינם מכוסים.",
-    "row_axis": "excluded property types",
-    "column_axis": "exclusion details",
+    "title": "החרגות - ביטוח סחורה בהעברה",
+    "summary": "This table lists exclusions to coverage under a goods-in-transit insurance policy. It details types of property specifically excluded from coverage during transport.",
+    "embed_passage": "טבלה זו מתארת החרגות לפוליסת ביטוח סחורה בהעברה של הראל ביט. מטרתה לציין רכוש ספציפי שאינו מכוסה בעת הובלה. ניתן לחפש החרגות לפי סוג הרכוש המבוטח. הראל ביט מציעה ביטוח סחורה בהעברה עם החרגות כגון כסף, חומרי נפץ ובעלי חיים. רשימת החרגות כוללת כסף, מזומנים, שטרות, חומרי נפץ ובעלי חיים.",
+    "row_axis": "סוג רכוש מבוטח",
+    "column_axis": "תיאור החרגה",
     "units": [],
     "notable_values": [
-      "1.2.1: ניירות ערך",
-      "1.2.2: חומרי נפץ",
-      "1.2.3: בעלי חיים"
+      "כסף: החרגה",
+      "מזומנים: החרגה",
+      "חומרי נפץ: החרגה",
+      "בעלי חיים: החרגה"
     ],
     "product_hints": [
-      "הראל סחורה בהעברה"
+      "ביטוח סחורה בהעברה",
+      "הראל ביט"
     ]
   },
   "sketch": "הרכוש המבוטח: .1.2\nאך למעט נכסי דניידי מכל סוג שהוא, בעת העברתם )כמוגדר להלן(, על גבי כלי רכב במפורש:\nכסף, מזומנים, שטרות, שטרי התחייבות, המחאות, מטבעות, ניירות .1.2.1 ערך מכל סוג שהוא, מסמכים, בולים, תכשיטים, אבנים יקרות, מתכת יקרה, חפצי אומנות.\nחומרי נפץ. .1.2.2\nבעלי חיים. .1.2.3",
-  "embed_text": "פוליסת 'הראל סחורה בהעברה' אינה מכסה נכסים ניידים כמו כסף, מזומנים, שטרי התחייבות, תכשיטים, אבנים יקרות או חומרי נפץ בעת העברתם בכלי רכב. הפוליסה מגדירה אילו סוגי רכוש אינם כלולים בכיסוי, למשל סעיף 1.2.1 מציין ניירות ערך, בולים ומסמכים. סעיף 1.2.3 מציין שבעלי חיים אינם מכוסים.",
-  "payload": "טבלה: הראל סחורה בהעברה\nThis table details exclusions to coverage under the 'הראל סחורה בהעברה' (Harel Goods in Transit) insurance policy. It lists types of property that are *not* covered during transport.\nממדים: excluded property types, exclusion details\n\nהרכוש המבוטח: .1.2\nאך למעט נכסי דניידי מכל סוג שהוא, בעת העברתם )כמוגדר להלן(, על גבי כלי רכב במפורש:\nכסף, מזומנים, שטרות, שטרי התחייבות, המחאות, מטבעות, ניירות .1.2.1 ערך מכל סוג שהוא, מסמכים, בולים, תכשיטים, אבנים יקרות, מתכת יקרה, חפצי אומנות.\nחומרי נפץ. .1.2.2\nבעלי חיים. .1.2.3"
+  "embed_text": "טבלה זו מתארת החרגות לפוליסת ביטוח סחורה בהעברה של הראל ביט. מטרתה לציין רכוש ספציפי שאינו מכוסה בעת הובלה. ניתן לחפש החרגות לפי סוג הרכוש המבוטח. הראל ביט מציעה ביטוח סחורה בהעברה עם החרגות כגון כסף, חומרי נפץ ובעלי חיים. רשימת החרגות כוללת כסף, מזומנים, שטרות, חומרי נפץ ובעלי חיים. This table lists exclusions to coverage under a goods-in-transit insurance policy. It details types of property specifically excluded from coverage during transport.",
+  "payload": "טבלה: החרגות - ביטוח סחורה בהעברה\nThis table lists exclusions to coverage under a goods-in-transit insurance policy. It details types of property specifically excluded from coverage during transport.\nממדים: סוג רכוש מבוטח, תיאור החרגה\n\nהרכוש המבוטח: .1.2\nאך למעט נכסי דניידי מכל סוג שהוא, בעת העברתם )כמוגדר להלן(, על גבי כלי רכב במפורש:\nכסף, מזומנים, שטרות, שטרי התחייבות, המחאות, מטבעות, ניירות .1.2.1 ערך מכל סוג שהוא, מסמכים, בולים, תכשיטים, אבנים יקרות, מתכת יקרה, חפצי אומנות.\nחומרי נפץ. .1.2.2\nבעלי חיים. .1.2.3"
 }

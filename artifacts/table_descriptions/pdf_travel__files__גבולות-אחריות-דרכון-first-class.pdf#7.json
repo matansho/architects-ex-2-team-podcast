@@ -3,24 +3,23 @@
   "source": "llm",
   "description": {
     "title": "גבולות אחריות דרכון",
-    "summary": "This table details the liability limits for the 'דרכון' travel insurance policy. It shows the maximum coverage amounts for different scenarios, such as pre-existing medical conditions and pregnancy.",
-    "embed_passage": "פוליסת 'דרכון' מספקת כיסוי של $350,000 במקרה של מצב רפואי קודם שהחמיר במהלך הנסיעה. הכיסוי כולל גם הריון עד שבוע 32, עבור מבוטחת בגיל 42. גבולות האחריות משתנים בהתאם למצב הרפואי ולשלב ההיריון.",
-    "row_axis": "Scenario (e.g., pre-existing condition, pregnancy)",
-    "column_axis": "Coverage Limit",
+    "summary": "This table details liability limits for the 'דרכון' travel insurance policy. It shows coverage amounts for specific scenarios, such as pre-existing conditions and pregnancy.",
+    "embed_passage": "טבלה זו מציגה את גבולות האחריות במסגרת פוליסת 'דרכון' לנסיעות. ניתן למצוא כאן את סכומי הכיסוי עבור מצבים רפואיים קיימים ומצבי הריון, בהתאם לגיל המבוטחת ולשלב ההיריון. הפוליסה הבסיסית כוללת כיסויים שניתן לבקש להסיר. גבולות האחריות מצוינים בדולרים אמריקאים, לדוגמה $350,000. מצב רפואי קודם למצב החמרה, הריון עד שבוע 32, וגילאים 32 עד 42 הם חלק מהמקרים המופיעים בטבלה.",
+    "row_axis": "תרחיש",
+    "column_axis": "סכום כיסוי",
     "units": [
       "$"
     ],
     "notable_values": [
-      "Coverage for pre-existing condition: $350,000",
-      "Pregnancy coverage limit: $350,000",
-      "Age for pregnancy coverage: 42",
-      "Pregnancy week limit: 32"
+      "מצב רפואי קודם למצב החמרה: $350,000",
+      "הריון עד שבוע 32: $350,000",
+      "גילאים 32 עד 42: $350,000"
     ],
     "product_hints": [
       "דרכון"
     ]
   },
   "sketch": "נסיעה וקיצור\n,\"$ 350,000\",קודם רפואי למצב החמרה,רפואי מצב\n,\"$ 350,000\",שנים 42 עד שגילה למבוטחת 32 שבוע עד היריון,הריון",
-  "embed_text": "פוליסת 'דרכון' מספקת כיסוי של $350,000 במקרה של מצב רפואי קודם שהחמיר במהלך הנסיעה. הכיסוי כולל גם הריון עד שבוע 32, עבור מבוטחת בגיל 42. גבולות האחריות משתנים בהתאם למצב הרפואי ולשלב ההיריון.",
-  "payload": "טבלה: גבולות אחריות דרכון\nThis table details the liability limits for the 'דרכון' travel insurance policy. It shows the maximum coverage amounts for different scenarios, such as pre-existing medical conditions and pregnancy.\nממדים: Scenario (e.g., pre-existing condition, pregnancy), Coverage Limit\n\nנסיעה וקיצור\n,\"$ 350,000\",קודם רפואי למצב החמרה,רפואי מצב\n,\"$ 350,000\",שנים 42 עד שגילה למבוטחת 32 שבוע עד היריון,הריון"
+  "embed_text": "טבלה זו מציגה את גבולות האחריות במסגרת פוליסת 'דרכון' לנסיעות. ניתן למצוא כאן את סכומי הכיסוי עבור מצבים רפואיים קיימים ומצבי הריון, בהתאם לגיל המבוטחת ולשלב ההיריון. הפוליסה הבסיסית כוללת כיסויים שניתן לבקש להסיר. גבולות האחריות מצוינים בדולרים אמריקאים, לדוגמה $350,000. מצב רפואי קודם למצב החמרה, הריון עד שבוע 32, וגילאים 32 עד 42 הם חלק מהמקרים המופיעים בטבלה. This table details liability limits for the 'דרכון' travel insurance policy. It shows coverage amounts for specific scenarios, such as pre-existing conditions and pregnancy.",
+  "payload": "טבלה: גבולות אחריות דרכון\nThis table details liability limits for the 'דרכון' travel insurance policy. It shows coverage amounts for specific scenarios, such as pre-existing conditions and pregnancy.\nממדים: תרחיש, סכום כיסוי\n\nנסיעה וקיצור\n,\"$ 350,000\",קודם רפואי למצב החמרה,רפואי מצב\n,\"$ 350,000\",שנים 42 עד שגילה למבוטחת 32 שבוע עד היריון,הריון"
 }

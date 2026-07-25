@@ -2,25 +2,23 @@
   "id": "pdf:car/files/תנאי-פוליסת-ביטוח-למשאית-מהדורת-ספטמבר-2021.pdf#119",
   "source": "llm",
   "description": {
-    "title": "משאית חלופית",
-    "summary": "This table details eligibility for a replacement truck under the insurance policy. It specifies conditions related to the driver's age and license validity.",
-    "embed_passage": "פוליסת ביטוח למשאית מספקת שירות של משאית חלופית במקרה של תקלה. מבוטח שגילו נמוך מ-24 שנה או שתוקף רישיונו פחות משנתיים לא יהיה זכאי למשאית חלופית, אלא לפיצוי. תנאי הפוליסה מגדירים את הזכאות לקבלת שירות זה.",
-    "row_axis": "Eligibility conditions for a replacement truck",
-    "column_axis": "Condition details",
+    "title": "תנאי פוליסת ביטוח למשאית",
+    "summary": "This table outlines conditions related to truck insurance policies. It details eligibility criteria for a replacement truck and consequences for seeking service outside of approved channels.",
+    "embed_passage": "טבלה זו מתארת תנאים הקשורים לפוליסות ביטוח למשאית, ובפרט זכאות למשאית חלופית ותנאים לקבלת שירות. ניתן לעיין בתנאים אלו בהתאם לגיל המבוטח, ותוקף רישיונו. התנאים מתייחסים גם לפניות לגורמים שאינם מורשים. המשאית החלופית, גיל המבוטח, ותוקף הרישיון הם מרכיבים מרכזיים. המבוטח שגילו נמוך מ-24 או שתוקף רישיונו פחות משנתיים לא יהיה זכאי למשאית חלופית.",
+    "row_axis": "conditions for replacement truck / service",
+    "column_axis": "policy stipulations",
     "units": [],
     "notable_values": [
       "age: < 24",
       "license validity: < 2 years",
-      "truck weight: 5.3.7 טון",
-      "service availability: 24 hours/day",
-      "service exclusion: Yom Kippur"
+      "replacement truck: not eligible",
+      "unauthorized service: no reimbursement"
     ],
     "product_hints": [
-      "ביטוח למשאית",
-      "משאית חלופית"
+      "ביטוח למשאית"
     ]
   },
   "sketch": ", שנה ו/או מבוטח שתוקף רישיונו פחות משנתיים 24מבוטח שגילו נמוך מ .5.3.9 לא יהיה זכאי למשאית חלוקה חלופית, אלא לפיצוי כאמור בראשית כיסוי זה.\n.  פנייה לגורם אחר )שאינו המבטח או נותן השרות המצוין ברשימה(לצורך 5.3.10 קבלת השירות, ללא קבלת אישור מוקדם לכך ומראש מהמבטח או מנותן השירות, לא תזכה את המבוטח בהחזר הוצאות או חלק מהן, או בכל תשלום אחר, גם אם היה זכאי לקבל את השירות מנותן השירות אילו פנה אליו.",
-  "embed_text": "פוליסת ביטוח למשאית מספקת שירות של משאית חלופית במקרה של תקלה. מבוטח שגילו נמוך מ-24 שנה או שתוקף רישיונו פחות משנתיים לא יהיה זכאי למשאית חלופית, אלא לפיצוי. תנאי הפוליסה מגדירים את הזכאות לקבלת שירות זה.",
-  "payload": "טבלה: משאית חלופית\nThis table details eligibility for a replacement truck under the insurance policy. It specifies conditions related to the driver's age and license validity.\nממדים: Eligibility conditions for a replacement truck, Condition details\n\n, שנה ו/או מבוטח שתוקף רישיונו פחות משנתיים 24מבוטח שגילו נמוך מ .5.3.9 לא יהיה זכאי למשאית חלוקה חלופית, אלא לפיצוי כאמור בראשית כיסוי זה.\n.  פנייה לגורם אחר )שאינו המבטח או נותן השרות המצוין ברשימה(לצורך 5.3.10 קבלת השירות, ללא קבלת אישור מוקדם לכך ומראש מהמבטח או מנותן השירות, לא תזכה את המבוטח בהחזר הוצאות או חלק מהן, או בכל תשלום אחר, גם אם היה זכאי לקבל את השירות מנותן השירות אילו פנה אליו."
+  "embed_text": "טבלה זו מתארת תנאים הקשורים לפוליסות ביטוח למשאית, ובפרט זכאות למשאית חלופית ותנאים לקבלת שירות. ניתן לעיין בתנאים אלו בהתאם לגיל המבוטח, ותוקף רישיונו. התנאים מתייחסים גם לפניות לגורמים שאינם מורשים. המשאית החלופית, גיל המבוטח, ותוקף הרישיון הם מרכיבים מרכזיים. המבוטח שגילו נמוך מ-24 או שתוקף רישיונו פחות משנתיים לא יהיה זכאי למשאית חלופית. This table outlines conditions related to truck insurance policies. It details eligibility criteria for a replacement truck and consequences for seeking service outside of approved channels. בין הערכים בטבלה: age: < 24; license validity: < 2 years; replacement truck: not eligible; unauthorized service: no reimbursement.",
+  "payload": "טבלה: תנאי פוליסת ביטוח למשאית\nThis table outlines conditions related to truck insurance policies. It details eligibility criteria for a replacement truck and consequences for seeking service outside of approved channels.\nממדים: conditions for replacement truck / service, policy stipulations\n\n, שנה ו/או מבוטח שתוקף רישיונו פחות משנתיים 24מבוטח שגילו נמוך מ .5.3.9 לא יהיה זכאי למשאית חלוקה חלופית, אלא לפיצוי כאמור בראשית כיסוי זה.\n.  פנייה לגורם אחר )שאינו המבטח או נותן השרות המצוין ברשימה(לצורך 5.3.10 קבלת השירות, ללא קבלת אישור מוקדם לכך ומראש מהמבטח או מנותן השירות, לא תזכה את המבוטח בהחזר הוצאות או חלק מהן, או בכל תשלום אחר, גם אם היה זכאי לקבל את השירות מנותן השירות אילו פנה אליו."
 }

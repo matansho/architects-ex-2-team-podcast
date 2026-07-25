@@ -3,21 +3,20 @@
   "source": "llm",
   "description": {
     "title": "הודעות",
-    "summary": "This table details the notification procedures for the insurance policy. It specifies how notices from the insurer to the insured or beneficiary, and vice versa, must be delivered.",
-    "embed_passage": "פוליסת ביטוח סחורה בהעברה של הראל ביט קובעת כי הודעות מהמבטח למבוטח או למוטב יישלחו למענם האחרון הידוע. הודעות מהמבוטח או המוטב למבטח צריכות להישלח בכתב למשרדי המבטח או לכתובת דואר אלקטרוני פעילה, כפי שהמבטח יודיע. לדוגמה, סעיף 4.14.1 מתייחס להודעות מהמבטח.",
-    "row_axis": "Notification procedures (from insurer to insured/beneficiary, or vice versa)",
-    "column_axis": "Details of the notification method",
+    "summary": "This table details notification procedures related to the insurance policy. It specifies how the insurer and insured/beneficiary should exchange notices.",
+    "embed_passage": "טבלה זו מתארת את הנהלים להעברת הודעות הקשורות לפוליסת הביטוח. ההודעות של המבטח למבוטח או למוטב יישלחו למען האחרון הידוע למבטח. הודעות מהמבוטח או המוטב למבטח יישלחו בכתב למשרדו של המבטח או לכתובת דואר אלקטרוני פעילה שהמבטח הודיע עליה. פוליסה זו היא פוליסה לביטוח סחורה בהעברה הראל ביט. ההודעות כוללות מידע על כתובות למשלוח הודעות, הן של המבטח והן של המבוטח או המוטב.",
+    "row_axis": "סעיף",
+    "column_axis": "סוג הודעה / פרט",
     "units": [],
     "notable_values": [
-      "סעיף: 4.14.1",
-      "סעיף: 4.14.2"
+      "סעיף .4.14.1: מענם האחרון הידוע למבטח",
+      "סעיף .4.14.2: משרדו של המבטח"
     ],
     "product_hints": [
-      "ביטוח סחורה בהעברה",
-      "הראל ביט"
+      "פוליסה לביטוח סחורה בהעברה הראל ביט"
     ]
   },
   "sketch": "הודעות .4.14\nהודעות של המבטח למבוטח או למוטב, בכל הקשור לפוליסה זו, תינתן לפי .4.14.1 מענם האחרון הידוע למבטח.\n.  הודעות של המבוטח או של המוטב למבטח, תינתנה למבטח בכתב למען 4.14.2 משרדו של המבטח, כמצוין בכותרת לפוליסה או לכל מען אחר בישראל לרבות כתובת דואר אלקטרוני פעילה שעליהם יודיע המבטח בכתב למבוטח או למוטב, מזמן לזמן.",
-  "embed_text": "פוליסת ביטוח סחורה בהעברה של הראל ביט קובעת כי הודעות מהמבטח למבוטח או למוטב יישלחו למענם האחרון הידוע. הודעות מהמבוטח או המוטב למבטח צריכות להישלח בכתב למשרדי המבטח או לכתובת דואר אלקטרוני פעילה, כפי שהמבטח יודיע. לדוגמה, סעיף 4.14.1 מתייחס להודעות מהמבטח.",
-  "payload": "טבלה: הודעות\nThis table details the notification procedures for the insurance policy. It specifies how notices from the insurer to the insured or beneficiary, and vice versa, must be delivered.\nממדים: Notification procedures (from insurer to insured/beneficiary, or vice versa), Details of the notification method\n\nהודעות .4.14\nהודעות של המבטח למבוטח או למוטב, בכל הקשור לפוליסה זו, תינתן לפי .4.14.1 מענם האחרון הידוע למבטח.\n.  הודעות של המבוטח או של המוטב למבטח, תינתנה למבטח בכתב למען 4.14.2 משרדו של המבטח, כמצוין בכותרת לפוליסה או לכל מען אחר בישראל לרבות כתובת דואר אלקטרוני פעילה שעליהם יודיע המבטח בכתב למבוטח או למוטב, מזמן לזמן."
+  "embed_text": "טבלה זו מתארת את הנהלים להעברת הודעות הקשורות לפוליסת הביטוח. ההודעות של המבטח למבוטח או למוטב יישלחו למען האחרון הידוע למבטח. הודעות מהמבוטח או המוטב למבטח יישלחו בכתב למשרדו של המבטח או לכתובת דואר אלקטרוני פעילה שהמבטח הודיע עליה. פוליסה זו היא פוליסה לביטוח סחורה בהעברה הראל ביט. ההודעות כוללות מידע על כתובות למשלוח הודעות, הן של המבטח והן של המבוטח או המוטב. This table details notification procedures related to the insurance policy. It specifies how the insurer and insured/beneficiary should exchange notices. בין הערכים בטבלה: סעיף .4.14.1: מענם האחרון הידוע למבטח.",
+  "payload": "טבלה: הודעות\nThis table details notification procedures related to the insurance policy. It specifies how the insurer and insured/beneficiary should exchange notices.\nממדים: סעיף, סוג הודעה / פרט\n\nהודעות .4.14\nהודעות של המבטח למבוטח או למוטב, בכל הקשור לפוליסה זו, תינתן לפי .4.14.1 מענם האחרון הידוע למבטח.\n.  הודעות של המבוטח או של המוטב למבטח, תינתנה למבטח בכתב למען 4.14.2 משרדו של המבטח, כמצוין בכותרת לפוליסה או לכל מען אחר בישראל לרבות כתובת דואר אלקטרוני פעילה שעליהם יודיע המבטח בכתב למבוטח או למוטב, מזמן לזמן."
 }

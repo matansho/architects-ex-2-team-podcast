@@ -2,25 +2,28 @@
   "id": "pdf:business/files/פוליסה-לביטוח-עבודות-קבלניות-הראל-ביט-מהדורת-ינואר-2023.pdf#157",
   "source": "llm",
   "description": {
-    "title": "פוליסת עבודות קבלניות",
-    "summary": "This table details the conditions under which Harel insurance can cancel a contractor's work insurance policy due to incomplete or dishonest answers provided by the insured. It outlines timeframes for cancellation and potential refunds.",
-    "embed_passage": "פוליסת עבודות קבלניות של הראל מציעה כיסוי במקרה של נזקים שונים במהלך עבודות בנייה. במקרה של תשובה לא מלאה או לא כנה, המבטח רשאי לבטל את הפוליסה תוך 30 ימים, או תוך 15 ימים במקרים מסוימים. לדוגמה, אם המבוטח לא גילה מידע מהותי שיכול להשפיע על נכונות המבטח לכרות את החוזה, הפוליסה עלולה להתבטל.",
-    "row_axis": "Cancellation conditions related to incomplete/dishonest answers",
-    "column_axis": "Timeframes for cancellation, refund eligibility, and reduced coverage",
+    "title": "תנאי ביטול פוליסה",
+    "summary": "This table details the conditions under which an insurance policy can be cancelled, specifically related to incomplete or dishonest answers provided by the insured. It outlines the timelines for cancellation and potential refunds.",
+    "embed_passage": "טבלה זו מתארת את תנאי ביטול פוליסת ביטוח עבודות קבלניות הראל ביט, ינואר 2023. היא מפרטת את הזכויות והחובות של המבטח והמבוטח במקרה של תשובות לא מלאות או לא כנות, ואת ההשלכות על תגמולי הביטוח. ניתן לחפש מידע על תנאי ביטול ספציפיים לפי סעיף החוק הרלוונטי או לפי משך הזמן המוקצב לתיקון מידע. הטבלה כוללת את הסעיפים 15.3.1, 15.3.6, 15.3.7 ו-15.3.8, וכן את חוק חוזה ביטוח התשמ\"א 1981. הסעיפים עוסקים בתגובות לא כנות, שינויים מהותיים, וביטול החוזה לפני או אחרי קרות מקרה הביטוח.",
+    "row_axis": "תנאי ביטול",
+    "column_axis": "סעיפי חוק / תנאי פוליסה",
     "units": [],
     "notable_values": [
-      "30 days: Maximum timeframe for cancellation after discovering incomplete/dishonest answer",
-      "15 days: Maximum timeframe for cancellation after notification of a material change",
-      "Refund: Eligible for a refund of premiums for the period after cancellation, unless fraud is involved",
-      "Reduced coverage: Possible if an incident occurs before cancellation",
-      "Fraud: Cancellation is void if the insurer knew or should have known the true state"
+      "סעיף 15.3.1: תשובות מלאות וכנות",
+      "סעיף 15.3.6: 15 ימים",
+      "סעיף 15.3.6: 30 ימים",
+      "חוק חוזה ביטוח התשמ\"א 1981",
+      "סעיף 15.3.7.1: כוונה לרמות",
+      "סעיף 15.3.7.2: דמי ביטוח מרובים יותר",
+      "סעיף 15.3.8.1: ידע המבטח",
+      "סעיף 15.3.8.2: הפסקת התקיימות העובדה"
     ],
     "product_hints": [
-      "פוליסת עבודות קבלניות",
-      "הראל"
+      "פוליסת ביטוח עבודות קבלניות הראל ביט",
+      "הראל ביט"
     ]
   },
   "sketch": "ימים מהיום שנודע למבטח על תשובה שאינה מלאה וכנה או 30 .  תוך 15.3.6 ימים מהיום שנמסרה למבטח הודעה על שינוי מהותי או שנודע 30 תוך על מידע כאמור למבטח בדרך אחרת, לפי המוקדם יותר )בהתייחס לשינוי מהותי( רשאי המבטח, כל עוד לא קרה מקרה הביטוח, לבטל את הפוליסה מיד בהודעה בכתב למבוטח;\nביטל המבטח החוזה מכח תנאי זה, עובר לקרות מקרה ביטוח, זכאי המבוטח להחזר דמי ביטוח ששילם בעד התקופה שלאחר הביטול זולת אם המבוטח פעל בכוונת מרמה;\nזה, אין המבטח 15.3 .  קרה מקרה הביטוח לפני שנתבטל החוזה מכוח תנאי 15.3.7 חייב אלא בתגמולי ביטוח מופחתים בשיעור יחסי, שהוא כיחס שבין דמי הביטוח שהיו משתלמים כמקובל אצלו לפי המצב לאמיתו לבין דמי הביטוח המוסכמים, והוא פטור כליל בכל אחת מאלה:\n,( )לפי העניין 15.3 .  התשובה או אי מתן הודעה כאמור בסעיף 15.3.7.1 ניתנו בכוונת מרמה;",
-  "embed_text": "פוליסת עבודות קבלניות של הראל מציעה כיסוי במקרה של נזקים שונים במהלך עבודות בנייה. במקרה של תשובה לא מלאה או לא כנה, המבטח רשאי לבטל את הפוליסה תוך 30 ימים, או תוך 15 ימים במקרים מסוימים. לדוגמה, אם המבוטח לא גילה מידע מהותי שיכול להשפיע על נכונות המבטח לכרות את החוזה, הפוליסה עלולה להתבטל.",
-  "payload": "טבלה: פוליסת עבודות קבלניות\nThis table details the conditions under which Harel insurance can cancel a contractor's work insurance policy due to incomplete or dishonest answers provided by the insured. It outlines timeframes for cancellation and potential refunds.\nממדים: Cancellation conditions related to incomplete/dishonest answers, Timeframes for cancellation, refund eligibility, and reduced coverage\n\nימים מהיום שנודע למבטח על תשובה שאינה מלאה וכנה או 30 .  תוך 15.3.6 ימים מהיום שנמסרה למבטח הודעה על שינוי מהותי או שנודע 30 תוך על מידע כאמור למבטח בדרך אחרת, לפי המוקדם יותר )בהתייחס לשינוי מהותי( רשאי המבטח, כל עוד לא קרה מקרה הביטוח, לבטל את הפוליסה מיד בהודעה בכתב למבוטח;\nביטל המבטח החוזה מכח תנאי זה, עובר לקרות מקרה ביטוח, זכאי המבוטח להחזר דמי ביטוח ששילם בעד התקופה שלאחר הביטול זולת אם המבוטח פעל בכוונת מרמה;\nזה, אין המבטח 15.3 .  קרה מקרה הביטוח לפני שנתבטל החוזה מכוח תנאי 15.3.7 חייב אלא בתגמולי ביטוח מופחתים בשיעור יחסי, שהוא כיחס שבין דמי הביטוח שהיו משתלמים כמקובל אצלו לפי המצב לאמיתו לבין דמי הביטוח המוסכמים, והוא פטור כליל בכל אחת מאלה:\n,( )לפי העניין 15.3 .  התשובה או אי מתן הודעה כאמור בסעיף 15.3.7.1 ניתנו בכוונת מרמה;"
+  "embed_text": "טבלה זו מתארת את תנאי ביטול פוליסת ביטוח עבודות קבלניות הראל ביט, ינואר 2023. היא מפרטת את הזכויות והחובות של המבטח והמבוטח במקרה של תשובות לא מלאות או לא כנות, ואת ההשלכות על תגמולי הביטוח. ניתן לחפש מידע על תנאי ביטול ספציפיים לפי סעיף החוק הרלוונטי או לפי משך הזמן המוקצב לתיקון מידע. הטבלה כוללת את הסעיפים 15.3.1, 15.3.6, 15.3.7 ו-15.3.8, וכן את חוק חוזה ביטוח התשמ\"א 1981. הסעיפים עוסקים בתגובות לא כנות, שינויים מהותיים, וביטול החוזה לפני או אחרי קרות מקרה הביטוח. This table details the conditions under which an insurance policy can be cancelled, specifically related to incomplete or dishonest answers provided by the insured. It outlines the timelines for cancellation and potential refunds. בין הערכים בטבלה: סעיף 15.3.1: תשובות מלאות וכנות; סעיף 15.3.6: 15 ימים; סעיף 15.3.6: 30 ימים; ס…",
+  "payload": "טבלה: תנאי ביטול פוליסה\nThis table details the conditions under which an insurance policy can be cancelled, specifically related to incomplete or dishonest answers provided by the insured. It outlines the timelines for cancellation and potential refunds.\nממדים: תנאי ביטול, סעיפי חוק / תנאי פוליסה\n\nימים מהיום שנודע למבטח על תשובה שאינה מלאה וכנה או 30 .  תוך 15.3.6 ימים מהיום שנמסרה למבטח הודעה על שינוי מהותי או שנודע 30 תוך על מידע כאמור למבטח בדרך אחרת, לפי המוקדם יותר )בהתייחס לשינוי מהותי( רשאי המבטח, כל עוד לא קרה מקרה הביטוח, לבטל את הפוליסה מיד בהודעה בכתב למבוטח;\nביטל המבטח החוזה מכח תנאי זה, עובר לקרות מקרה ביטוח, זכאי המבוטח להחזר דמי ביטוח ששילם בעד התקופה שלאחר הביטול זולת אם המבוטח פעל בכוונת מרמה;\nזה, אין המבטח 15.3 .  קרה מקרה הביטוח לפני שנתבטל החוזה מכוח תנאי 15.3.7 חייב אלא בתגמולי ביטוח מופחתים בשיעור יחסי, שהוא כיחס שבין דמי הביטוח שהיו משתלמים כמקובל אצלו לפי המצב לאמיתו לבין דמי הביטוח המוסכמים, והוא פטור כליל בכל אחת מאלה:\n,( )לפי העניין 15.3 .  התשובה או אי מתן הודעה כאמור בסעיף 15.3.7.1 ניתנו בכוונת מרמה;"
 }

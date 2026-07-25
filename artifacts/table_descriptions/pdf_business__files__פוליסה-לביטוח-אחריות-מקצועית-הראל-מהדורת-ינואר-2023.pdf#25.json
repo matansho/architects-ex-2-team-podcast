@@ -2,25 +2,25 @@
   "id": "pdf:business/files/פוליסה-לביטוח-אחריות-מקצועית-הראל-מהדורת-ינואר-2023.pdf#25",
   "source": "llm",
   "description": {
-    "title": "פוליסת אחריות מקצועית הראל",
-    "summary": "This table details exclusions to professional liability insurance provided by Harel. It lists scenarios where the insurance policy does not cover the insured, such as liabilities related to manufactured products or motor vehicles.",
-    "embed_passage": "פוליסת אחריות מקצועית הראל אינה מכסה חבות הנובעת ממוצר שהמבוטח ייצר, הפיק, מכר או תיקן. לדוגמה, חבות שחובה לבטחה על פי דין בגין כלי רכב מנועי אינה כלולה, וכן אחריות הנובעת ממעמד של דירקטור או מנהל. סעיפים 2.6, 2.7 ו-2.8 מפרטים את ההגבלות הללו.",
-    "row_axis": "exclusion to coverage",
+    "title": "חריגים לפוליסה",
+    "summary": "This table lists exclusions to coverage under the 'פוליסה לביטוח אחריות מקצועית הראל' (Harel Professional Liability Insurance Policy). It details situations where Harel is not liable for claims.",
+    "embed_passage": "טבלה זו מפרטת חריגים לפוליסת ביטוח אחריות מקצועית של הראל, ומציינת מקרים בהם החברה לא תישא באחריות. ניתן לעיין בחריגים השונים כדי להבין את היקף הכיסוי של הפוליסה. החריגים כוללים מוצרים שיוצרו על ידי המבוטח, חבות הנובעת מכלי רכב מנועי, אחריות הנובעת ממעמד של דירקטור או מנהל, כשל בהערכת הוצאות, הוצאות לתיקון עבודה שבוצעה, ונזקים שנגרמו כתוצאה ממלחמה או פעילות אויב זר. פוליסה לביטוח אחריות מקצועית הראל, חבות שחובה לבטחה על פי דין, חבות בגין נזק לרכוש צד שלישי, אחריות כלשהי שהייתה חלה ללא קשר למעמד, כשל בהערכה מוקדמת של הוצאות, הוצאות לתיקון ו/או השבה לקדמות של העבודה שבוצעה.",
+    "row_axis": "exclusion clause",
     "column_axis": "description of exclusion",
     "units": [],
     "notable_values": [
-      "2.6: product manufactured by the insured",
-      "2.7: liability for motor vehicles",
-      "2.8: liability as a director or officer",
-      "2.13: failure to estimate costs",
-      "2.14: costs to repair work"
+      "מוצר שהמבוטח ייצר: 2.6",
+      "חבות שחובה לבטחה על פי דין: 2.7",
+      "אחריות כדירקטור/מנהל: 2.8",
+      "כשל בהערכת הוצאות: 2.13",
+      "הוצאות לתיקון עבודה: 2.14",
+      "מלחמה/פעילות אויב זר: 2.15א"
     ],
     "product_hints": [
-      "אחריות מקצועית הראל",
-      "Harel Professional Liability"
+      "פוליסה לביטוח אחריות מקצועית הראל"
     ]
   },
   "sketch": ", מוצר שהמבוטח ייצר, הפיק, מכר, תיקן, טיפל בו, הרכיב, שיווק, סיפק, הפיץ .2.6 ייבא או ייצא.\nחבות שחובה לבטחה על פי דין בגין כלי רכב מנועי, כולל חבות של מי שיש לו .2.7 פטור מחובת ביטוח על פי פקודת ביטוח רכב מנועי וגם או חבות שבוטחה בביטוח \"חובה\", וכן חבות בגין נזק לרכוש צד שלישי הנובעת משימוש בכלי רכב מנועי או כלי ממונע כלשהו המשמש לנסיעה.",
-  "embed_text": "פוליסת אחריות מקצועית הראל אינה מכסה חבות הנובעת ממוצר שהמבוטח ייצר, הפיק, מכר או תיקן. לדוגמה, חבות שחובה לבטחה על פי דין בגין כלי רכב מנועי אינה כלולה, וכן אחריות הנובעת ממעמד של דירקטור או מנהל. סעיפים 2.6, 2.7 ו-2.8 מפרטים את ההגבלות הללו.",
-  "payload": "טבלה: פוליסת אחריות מקצועית הראל\nThis table details exclusions to professional liability insurance provided by Harel. It lists scenarios where the insurance policy does not cover the insured, such as liabilities related to manufactured products or motor vehicles.\nממדים: exclusion to coverage, description of exclusion\n\n, מוצר שהמבוטח ייצר, הפיק, מכר, תיקן, טיפל בו, הרכיב, שיווק, סיפק, הפיץ .2.6 ייבא או ייצא.\nחבות שחובה לבטחה על פי דין בגין כלי רכב מנועי, כולל חבות של מי שיש לו .2.7 פטור מחובת ביטוח על פי פקודת ביטוח רכב מנועי וגם או חבות שבוטחה בביטוח \"חובה\", וכן חבות בגין נזק לרכוש צד שלישי הנובעת משימוש בכלי רכב מנועי או כלי ממונע כלשהו המשמש לנסיעה."
+  "embed_text": "טבלה זו מפרטת חריגים לפוליסת ביטוח אחריות מקצועית של הראל, ומציינת מקרים בהם החברה לא תישא באחריות. ניתן לעיין בחריגים השונים כדי להבין את היקף הכיסוי של הפוליסה. החריגים כוללים מוצרים שיוצרו על ידי המבוטח, חבות הנובעת מכלי רכב מנועי, אחריות הנובעת ממעמד של דירקטור או מנהל, כשל בהערכת הוצאות, הוצאות לתיקון עבודה שבוצעה, ונזקים שנגרמו כתוצאה ממלחמה או פעילות אויב זר. פוליסה לביטוח אחריות מקצועית הראל, חבות שחובה לבטחה על פי דין, חבות בגין נזק לרכוש צד שלישי, אחריות כלשהי שהייתה חלה ללא קשר למעמד, כשל בהערכה מוקדמת של הוצאות, הוצאות לתיקון ו/או השבה לקדמות של העבודה שבוצעה. This table lists exclusions to coverage under the 'פוליסה לביטוח אחריות מקצועית הראל' (Harel Professional Liability Insurance Policy). It details situations where Harel is not liable for claims. בין הערכים בטבלה: מוצר שה…",
+  "payload": "טבלה: חריגים לפוליסה\nThis table lists exclusions to coverage under the 'פוליסה לביטוח אחריות מקצועית הראל' (Harel Professional Liability Insurance Policy). It details situations where Harel is not liable for claims.\nממדים: exclusion clause, description of exclusion\n\n, מוצר שהמבוטח ייצר, הפיק, מכר, תיקן, טיפל בו, הרכיב, שיווק, סיפק, הפיץ .2.6 ייבא או ייצא.\nחבות שחובה לבטחה על פי דין בגין כלי רכב מנועי, כולל חבות של מי שיש לו .2.7 פטור מחובת ביטוח על פי פקודת ביטוח רכב מנועי וגם או חבות שבוטחה בביטוח \"חובה\", וכן חבות בגין נזק לרכוש צד שלישי הנובעת משימוש בכלי רכב מנועי או כלי ממונע כלשהו המשמש לנסיעה."
 }

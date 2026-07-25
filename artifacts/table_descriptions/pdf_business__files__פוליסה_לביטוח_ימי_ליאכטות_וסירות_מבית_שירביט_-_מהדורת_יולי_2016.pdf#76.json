@@ -2,25 +2,24 @@
   "id": "pdf:business/files/פוליסה_לביטוח_ימי_ליאכטות_וסירות_מבית_שירביט_-_מהדורת_יולי_2016.pdf#76",
   "source": "llm",
   "description": {
-    "title": "פוליסת ביטוח ימי ליאכטות וסירות",
-    "summary": "This table details covered losses and damages under a marine insurance policy for yachts and boats from Shirbit. It outlines specific causes of loss, such as latent defects or negligence, and any exclusions related to repairs or alterations.",
-    "embed_passage": "פוליסת ביטוח ימי של שירביט מכסה נזקים הנגרמים כתוצאה מליקויים חבויים בגוף או במכונות, שבירת גלילים או התפוצצות דוודים. הפוליסה מתייחסת גם לרשלנות של כל אדם, אך אינה מכסה עלויות תיקון פגמים הנובעים מרשלנות או הפרת חוזה. לדוגמה, סעיף 9.2.2.1 עוסק בנזקים הנגרמים מליקויים חבויים.",
-    "row_axis": "Specific causes of loss or damage",
-    "column_axis": "Details of coverage and exclusions",
+    "title": "פוליסת ביטוח ימי ליאכטות וסירות - סעיף 9.2.2",
+    "summary": "This table details exclusions to coverage for loss or damage to the insured subject-matter under a marine insurance policy from Shirbit. It specifies conditions where costs are not covered, such as latent defects or negligence.",
+    "embed_passage": "טבלה זו מתארת חריגים לכיסוי במקרה של אובדן או נזק לנושא הביטוח במסגרת פוליסת ביטוח ימי של שירביט. הפוליסה, ביאכטות וסירות, מציינת תנאים בהם עלויות אינן מכוסות, כגון פגמים חבויים או רשלנות. ניתן לחפש מידע על סוגי נזקים ספציפיים וכיסויים נלווים. הטבלה כוללת מידע על פגמים חבויים בגוף או במכונות, שברים בצירי או התפוצצות דוודים, רשלנות של כל אדם, עבודה לתיקון או שינוי שבוצעה על חשבון המבוטח או הבעלים ותחזוקת כלי השיט.",
+    "row_axis": "types of loss/damage",
+    "column_axis": "conditions/exclusions",
     "units": [],
     "notable_values": [
-      "9.2.2.1: Latent defects in hull or machinery",
-      "9.2.2.2: Negligence of any person",
-      "one-third: Maximum deduction for depreciation",
-      "9.1.1: Perils of the seas",
-      "9.1.4: Piracy"
+      "latent defects in hull or machinery: excluding cost of replacing/repairing defective part",
+      "negligence of any person: excluding cost of making good defect",
+      "repair/alteration work: carried out for account of Assured/Owners",
+      "maintenance of the Vessel: related costs are excluded"
     ],
     "product_hints": [
-      "ביטוח ימי ליאכטות וסירות",
+      "פוליסת ביטוח ימי ליאכטות וסירות",
       "שירביט"
     ]
   },
   "sketch": "9.2.2 loss  of  or  damage  to  the  subject-matter  insured,  excepting motor and connections (but not strut, shaft or propeller) electrical equipment and batteries and connections, caused by\n9.2.2.1 latent defects in hull or machinery, breakage of shafts or bursting of  boilers  (excluding  the  cost  and  expense  of  replacing  or repairing the defective part broken shaft or burst boiler).\n9.2.2.2 the negligence of any person whatsoever, but excluding the cost of making good any defect resulting from either negligence or breach  of  contract  In  respect  of  any  repair  or  alteration  work carried out for the account of the Assured and/or the Owners or in respect of the maintenance of the Vessel,",
-  "embed_text": "פוליסת ביטוח ימי של שירביט מכסה נזקים הנגרמים כתוצאה מליקויים חבויים בגוף או במכונות, שבירת גלילים או התפוצצות דוודים. הפוליסה מתייחסת גם לרשלנות של כל אדם, אך אינה מכסה עלויות תיקון פגמים הנובעים מרשלנות או הפרת חוזה. לדוגמה, סעיף 9.2.2.1 עוסק בנזקים הנגרמים מליקויים חבויים.",
-  "payload": "טבלה: פוליסת ביטוח ימי ליאכטות וסירות\nThis table details covered losses and damages under a marine insurance policy for yachts and boats from Shirbit. It outlines specific causes of loss, such as latent defects or negligence, and any exclusions related to repairs or alterations.\nממדים: Specific causes of loss or damage, Details of coverage and exclusions\n\n9.2.2 loss  of  or  damage  to  the  subject-matter  insured,  excepting motor and connections (but not strut, shaft or propeller) electrical equipment and batteries and connections, caused by\n9.2.2.1 latent defects in hull or machinery, breakage of shafts or bursting of  boilers  (excluding  the  cost  and  expense  of  replacing  or repairing the defective part broken shaft or burst boiler).\n9.2.2.2 the negligence of any person whatsoever, but excluding the cost of making good any defect resulting from either negligence or breach  of  contract  In  respect  of  any  repair  or  alteration  work carried out for the account of the Assured and/or the Owners or in respect of the maintenance of the Vessel,"
+  "embed_text": "טבלה זו מתארת חריגים לכיסוי במקרה של אובדן או נזק לנושא הביטוח במסגרת פוליסת ביטוח ימי של שירביט. הפוליסה, ביאכטות וסירות, מציינת תנאים בהם עלויות אינן מכוסות, כגון פגמים חבויים או רשלנות. ניתן לחפש מידע על סוגי נזקים ספציפיים וכיסויים נלווים. הטבלה כוללת מידע על פגמים חבויים בגוף או במכונות, שברים בצירי או התפוצצות דוודים, רשלנות של כל אדם, עבודה לתיקון או שינוי שבוצעה על חשבון המבוטח או הבעלים ותחזוקת כלי השיט. This table details exclusions to coverage for loss or damage to the insured subject-matter under a marine insurance policy from Shirbit. It specifies conditions where costs are not covered, such as latent defects or negligence. בין הערכים בטבלה: latent defects in hull or machinery: excluding cost of replacing/repairing defective part; negligence of any person: excluding cost of m…",
+  "payload": "טבלה: פוליסת ביטוח ימי ליאכטות וסירות - סעיף 9.2.2\nThis table details exclusions to coverage for loss or damage to the insured subject-matter under a marine insurance policy from Shirbit. It specifies conditions where costs are not covered, such as latent defects or negligence.\nממדים: types of loss/damage, conditions/exclusions\n\n9.2.2 loss  of  or  damage  to  the  subject-matter  insured,  excepting motor and connections (but not strut, shaft or propeller) electrical equipment and batteries and connections, caused by\n9.2.2.1 latent defects in hull or machinery, breakage of shafts or bursting of  boilers  (excluding  the  cost  and  expense  of  replacing  or repairing the defective part broken shaft or burst boiler).\n9.2.2.2 the negligence of any person whatsoever, but excluding the cost of making good any defect resulting from either negligence or breach  of  contract  In  respect  of  any  repair  or  alteration  work carried out for the account of the Assured and/or the Owners or in respect of the maintenance of the Vessel,"
 }

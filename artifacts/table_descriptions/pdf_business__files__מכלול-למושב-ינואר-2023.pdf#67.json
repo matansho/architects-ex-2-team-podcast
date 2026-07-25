@@ -2,22 +2,23 @@
   "id": "pdf:business/files/מכלול-למושב-ינואר-2023.pdf#67",
   "source": "llm",
   "description": {
-    "title": "כיסוי גניבה",
-    "summary": "This table details coverage for theft under an insurance policy. It specifies what types of items are covered and under what conditions, particularly regarding agricultural assets within a settlement.",
-    "embed_passage": "פוליסת 'מכלול' כוללת כיסוי לגניבה של בעלי חיים (למעט דבורים), כלים חקלאיים ניידים, וחומרי הדברה ודישון. הכיסוי חל רק אם הגניבה התגלתה בסמוך לאחר האירוע, ולא בעקבות ספירת מלאי. לדוגמה, גניבה של כלי עבודה לחקלאות לשימוש עצמי מכוסה, אך לא גניבה של תוצרת חקלאית לאחר קטיפתה.",
-    "row_axis": "types of theft/covered items",
-    "column_axis": "coverage conditions/exclusions",
+    "title": "גניבה - כיסויים",
+    "summary": "This table details coverage for theft under a policy, specifying conditions and exclusions for different types of stolen items. It outlines what is covered regarding theft, particularly concerning agricultural items and tools.",
+    "embed_passage": "טבלה זו מתארת כיסויים לגניבה במסגרת פוליסה, ומפרטת תנאים והחרגות עבור סוגי פריטים שונים. הכיסוי לגניבה יחול בסמוך לאחר מועד קרות האירוע, ולא חוסר בלתי מוסבר. הפוליסה מתייחסת לגניבה של בעלי חיים (למעט דבורים), חומרי הדברה ודישון, זרעים, כלים חקלאיים ניידים, ומערכות השקיה. גניבה של תוצרת חקלאית לאחר קטיפתה או איסופה אינה כלולה בכיסוי, כמו גם גניבת כלי רכב או ציוד מונע. מכלול",
+    "row_axis": "type of theft/item covered",
+    "column_axis": "conditions/coverage details",
     "units": [],
     "notable_values": [
-      "72: time in hours for earthquake event",
-      "6.3.1: section number for livestock theft",
-      "6.3.2: section number for mobile agricultural tools theft"
+      "גניבה של בעלי חיים: למעט גניבת דבורים",
+      "גניבה של כלים חקלאיים ניידים: למעט כלי רכב",
+      "גניבה של תוצרת חקלאית: לאחר קטיפתה או איסופה - לא כלול",
+      "גניבה של מערכות השקיה: כלולות בתחום מגודר"
     ],
     "product_hints": [
       "מכלול"
     ]
   },
   "sketch": "גניבה - אם צוין במפורש ברשימה לגבי כל אחד מהכיסויים לעניין גניבה כתקפות .6.3\nאזי יחולו התנאים לגבי כל הרחבה בנפרד כדלקמן: וזאת אך ורק אם הגניבה נתגלתה יודגש, לגבי הרחבות הגניבה, כי כיסוי גניבה יחול בסמוך לאחר מועד קרות האירוע )ולא חוסר בלתי מוסבר, או חוסר שנתגלה .( בעקבות ספירת מלאי\n, חומרי הדברה ודישון, זרעים - ( גניבה של בעלי חיים )למעט גניבת דבורים .6.3.1 למעט גניבת תוצרת חקלאית לאחר קטיפתה או איסופה, מערכות השקיה, ממטירים, בעת המצאם בתחום מגודר בתוך המושב.\nגניבה של כלים חקלאיים ניידים וכלי -גניבה של כלים חקלאיים ניידים .6.3.2 )למעט כלי רכב ו/או ציוד מונע או נגרר עבודה לחקלאות לשימוש עצמי .( בהיותם רתומים לכלי רכב ממונע",
-  "embed_text": "פוליסת 'מכלול' כוללת כיסוי לגניבה של בעלי חיים (למעט דבורים), כלים חקלאיים ניידים, וחומרי הדברה ודישון. הכיסוי חל רק אם הגניבה התגלתה בסמוך לאחר האירוע, ולא בעקבות ספירת מלאי. לדוגמה, גניבה של כלי עבודה לחקלאות לשימוש עצמי מכוסה, אך לא גניבה של תוצרת חקלאית לאחר קטיפתה.",
-  "payload": "טבלה: כיסוי גניבה\nThis table details coverage for theft under an insurance policy. It specifies what types of items are covered and under what conditions, particularly regarding agricultural assets within a settlement.\nממדים: types of theft/covered items, coverage conditions/exclusions\n\nגניבה - אם צוין במפורש ברשימה לגבי כל אחד מהכיסויים לעניין גניבה כתקפות .6.3\nאזי יחולו התנאים לגבי כל הרחבה בנפרד כדלקמן: וזאת אך ורק אם הגניבה נתגלתה יודגש, לגבי הרחבות הגניבה, כי כיסוי גניבה יחול בסמוך לאחר מועד קרות האירוע )ולא חוסר בלתי מוסבר, או חוסר שנתגלה .( בעקבות ספירת מלאי\n, חומרי הדברה ודישון, זרעים - ( גניבה של בעלי חיים )למעט גניבת דבורים .6.3.1 למעט גניבת תוצרת חקלאית לאחר קטיפתה או איסופה, מערכות השקיה, ממטירים, בעת המצאם בתחום מגודר בתוך המושב.\nגניבה של כלים חקלאיים ניידים וכלי -גניבה של כלים חקלאיים ניידים .6.3.2 )למעט כלי רכב ו/או ציוד מונע או נגרר עבודה לחקלאות לשימוש עצמי .( בהיותם רתומים לכלי רכב ממונע"
+  "embed_text": "טבלה זו מתארת כיסויים לגניבה במסגרת פוליסה, ומפרטת תנאים והחרגות עבור סוגי פריטים שונים. הכיסוי לגניבה יחול בסמוך לאחר מועד קרות האירוע, ולא חוסר בלתי מוסבר. הפוליסה מתייחסת לגניבה של בעלי חיים (למעט דבורים), חומרי הדברה ודישון, זרעים, כלים חקלאיים ניידים, ומערכות השקיה. גניבה של תוצרת חקלאית לאחר קטיפתה או איסופה אינה כלולה בכיסוי, כמו גם גניבת כלי רכב או ציוד מונע. מכלול This table details coverage for theft under a policy, specifying conditions and exclusions for different types of stolen items. It outlines what is covered regarding theft, particularly concerning agricultural items and tools. בין הערכים בטבלה: גניבה של כלים חקלאיים ניידים: למעט כלי רכב; גניבה של מערכות השקיה: כלולות בתחום מגודר.",
+  "payload": "טבלה: גניבה - כיסויים\nThis table details coverage for theft under a policy, specifying conditions and exclusions for different types of stolen items. It outlines what is covered regarding theft, particularly concerning agricultural items and tools.\nממדים: type of theft/item covered, conditions/coverage details\n\nגניבה - אם צוין במפורש ברשימה לגבי כל אחד מהכיסויים לעניין גניבה כתקפות .6.3\nאזי יחולו התנאים לגבי כל הרחבה בנפרד כדלקמן: וזאת אך ורק אם הגניבה נתגלתה יודגש, לגבי הרחבות הגניבה, כי כיסוי גניבה יחול בסמוך לאחר מועד קרות האירוע )ולא חוסר בלתי מוסבר, או חוסר שנתגלה .( בעקבות ספירת מלאי\n, חומרי הדברה ודישון, זרעים - ( גניבה של בעלי חיים )למעט גניבת דבורים .6.3.1 למעט גניבת תוצרת חקלאית לאחר קטיפתה או איסופה, מערכות השקיה, ממטירים, בעת המצאם בתחום מגודר בתוך המושב.\nגניבה של כלים חקלאיים ניידים וכלי -גניבה של כלים חקלאיים ניידים .6.3.2 )למעט כלי רכב ו/או ציוד מונע או נגרר עבודה לחקלאות לשימוש עצמי .( בהיותם רתומים לכלי רכב ממונע"
 }

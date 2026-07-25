@@ -2,26 +2,28 @@
   "id": "pdf:health/files/גילוי-נאות-לניתוחים-upgrade.pdf#0",
   "source": "llm",
   "description": {
-    "title": "דמי ביטוח - ניתוחים Upgrade",
-    "summary": "This table shows the cost of insurance (דמי ביטוח) for the 'ניתוחים Upgrade' plan. It allows you to look up the price based on the insured's age.",
-    "embed_passage": "פוליסת 'ניתוחים Upgrade' מציעה ביטוח ניתוחים עם עלות המשתנה בהתאם לגיל המבוטח. לדוגמה, עבור גילאים 31-40 העלות היא 59.12, והטבלה כוללת גם פרטי התקשרות כגון טלפון 037348178 וכתובת דואר אלקטרוני polisotbs@harel-ins.co.il.",
-    "row_axis": "Age range of the insured (גיל המבוטח)",
-    "column_axis": "Insurance cost (דמי ביטוח), contact information",
+    "title": "מחירי ביטוח",
+    "summary": "This table shows insurance costs based on age. It is used to look up the cost of insurance based on the insured's age.",
+    "embed_passage": "טבלת זו מציגה את מחירי הביטוח בהתאם לגיל המבוטח, ומשמשת לבדיקת עלות הביטוח לפי גיל. ניתן להשוות בין מחירי הביטוח באמצעות מחשבון באתר רשות ההון שוק הביטוח. מחירי הביטוח יקבעו בהתאם לגיל המבוטח במועד הצטרפותו לביטוח. הראל ביטוח מציגה כאן את עלות הביטוח, ללא תוספות והנחות, לפי גיל. לדוגמה, עלות הביטוח בגילאי 31-40 היא 59.12. מדד מתן עקב או הרפואי (13396) הוא אחד המדדים המוצגים.",
+    "row_axis": "גיל",
+    "column_axis": "עלות הביטוח",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "Phone: 037348178",
-      "Email: polisotbs@harel-ins.co.il",
-      "Age range: 31-40",
-      "Cost: 59.12"
+      "גיל: 31-40",
+      "עלות הביטוח: 59.12",
+      "מדד: 13396",
+      "טלפון: 037348178",
+      "כתובת דואר אלקטרוני: polisotbs@harel-ins.co.il",
+      "ת.ד: 10951",
+      "אתר אינטרנט: www.harel-group.co.il"
     ],
     "product_hints": [
-      "ניתוחים Upgrade",
-      "Harel"
+      "הראל"
     ]
   },
   "sketch": "0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",ט רנ האינט אתר תובת כ www.harel-group.co.il",
-  "embed_text": "פוליסת 'ניתוחים Upgrade' מציעה ביטוח ניתוחים עם עלות המשתנה בהתאם לגיל המבוטח. לדוגמה, עבור גילאים 31-40 העלות היא 59.12, והטבלה כוללת גם פרטי התקשרות כגון טלפון 037348178 וכתובת דואר אלקטרוני polisotbs@harel-ins.co.il.",
-  "payload": "טבלה: דמי ביטוח - ניתוחים Upgrade\nThis table shows the cost of insurance (דמי ביטוח) for the 'ניתוחים Upgrade' plan. It allows you to look up the price based on the insured's age.\nממדים: Age range of the insured (גיל המבוטח), Insurance cost (דמי ביטוח), contact information\n\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",ט רנ האינט אתר תובת כ www.harel-group.co.il"
+  "embed_text": "טבלת זו מציגה את מחירי הביטוח בהתאם לגיל המבוטח, ומשמשת לבדיקת עלות הביטוח לפי גיל. ניתן להשוות בין מחירי הביטוח באמצעות מחשבון באתר רשות ההון שוק הביטוח. מחירי הביטוח יקבעו בהתאם לגיל המבוטח במועד הצטרפותו לביטוח. הראל ביטוח מציגה כאן את עלות הביטוח, ללא תוספות והנחות, לפי גיל. לדוגמה, עלות הביטוח בגילאי 31-40 היא 59.12. מדד מתן עקב או הרפואי (13396) הוא אחד המדדים המוצגים. This table shows insurance costs based on age. It is used to look up the cost of insurance based on the insured's age. בין הערכים בטבלה: טלפון: 037348178; כתובת דואר אלקטרוני: polisotbs@harel-ins.co.il; ת.ד: 10951; אתר אינטרנט: www.harel-group.co.il.",
+  "payload": "טבלה: מחירי ביטוח\nThis table shows insurance costs based on age. It is used to look up the cost of insurance based on the insured's age.\nממדים: גיל, עלות הביטוח\n\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",ט רנ האינט אתר תובת כ www.harel-group.co.il"
 }

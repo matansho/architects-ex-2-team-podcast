@@ -3,23 +3,24 @@
   "source": "llm",
   "description": {
     "title": "תשתיות",
-    "summary": "This table details insurance coverage for infrastructure located on the insured's property. It outlines what types of infrastructure are covered and excluded under the policy.",
-    "embed_passage": "ביטוח מכלול מכסה נזקים לתשתיות בבעלות המבוטח, כגון גדרות, שערים, כבישים, ועמודי חשמל. הכיסוי אינו כולל מדשאות, מקורות מים, או קרקע. ההגדרה של 'תשתיות' כוללת מבנים בחצרי המבוטח.",
-    "row_axis": "types of infrastructure",
-    "column_axis": "coverage details/exclusions",
+    "summary": "This table details coverage for infrastructure as defined in section 6.10, extending the insurance to cover damage to infrastructure owned, held, or the responsibility of the insured. It lists what is included and excluded from the definition of 'infrastructure'.",
+    "embed_passage": "טבלה זו עוסקת בכיסוי ביטוחי לתשתיות, כהגדרתן בסעיף 6.10, המרחיב את הביטוח לנזקים לתשתיות בבעלות, בחזקה או באחריות המבוטח. ניתן למצוא כאן פירוט של סוגי התשתיות הכלולים בכיסוי, כמו גם רשימה של תשתיות שאינן כלולות. חיפוש יכול להתבצע לפי סוגי תשתיות כגון גדרות, קירות תומכים, עמודי חשמל, או קווי תקשורת. תשתיות, גדרות, קירות תומכים, שערים, מדרכות מרוצפות, עמודי חשמל, קווי חשמל, צנרת תת קרקעית, מדשאות, עצי נוי, אובדן מים.",
+    "row_axis": "infrastructure type",
+    "column_axis": "coverage details (included/excluded)",
     "units": [],
     "notable_values": [
       "infrastructure: גדרות",
-      "infrastructure: שערים",
-      "infrastructure: כבישים",
+      "infrastructure: קירות תומכים",
       "infrastructure: עמודי חשמל",
-      "exclusion: מדשאות"
+      "infrastructure: קווי חשמל",
+      "infrastructure: צנרת תת קרקעית",
+      "exclusion: מדשאות",
+      "exclusion: עצי נוי",
+      "exclusion: אובדן מים"
     ],
-    "product_hints": [
-      "מכלול"
-    ]
+    "product_hints": []
   },
   "sketch": "-תשתיות .6.10\nלפרק זה )חריג 3.11 אזי על אף האמור בחריג אם צוין הדבר במפורש ברשימה, , לתשתיות כהגדרתן להלן תשתיות( הביטוח על פי פרק ראשון מורחב לכסות נזקים בגין הסיכונים המכוסים בהרחבה בבעלות המבוטח ו/או בחזקתו ו/או באחריותו, זו כהגדרתם להלן:\nתשתיות מכל סוג ותיאור, המצויות : לצרכי הרחבה זו, הגדרת המילה \"תשתיות\" הינה בחצרי המבוטח, ובכלל זה גדרות, קירות תומכים, פיתוח סביבתי, שערים, מדרכות מרוצפות, כבישים, דרכים מרוצפות, משטחי בטון ואספלט, עמודי חשמל ותאורה, קווי חשמל ותקשורת, מערכות וצנרת תת קרקעית של גז, חשמל, מים, ביוב, דלק ותקשורת. ולמעט מדשאות, עצי נוי, סוללות עפר, אובדן מים, מקורות מים למיניהם, מאגרי מים, תעלות מים, ביוב וניקוז, קרקע, מזחים, מכרות ומחצבות, מתקנים רעועים ומבנים בלתי גמורים.",
-  "embed_text": "ביטוח מכלול מכסה נזקים לתשתיות בבעלות המבוטח, כגון גדרות, שערים, כבישים, ועמודי חשמל. הכיסוי אינו כולל מדשאות, מקורות מים, או קרקע. ההגדרה של 'תשתיות' כוללת מבנים בחצרי המבוטח.",
-  "payload": "טבלה: תשתיות\nThis table details insurance coverage for infrastructure located on the insured's property. It outlines what types of infrastructure are covered and excluded under the policy.\nממדים: types of infrastructure, coverage details/exclusions\n\n-תשתיות .6.10\nלפרק זה )חריג 3.11 אזי על אף האמור בחריג אם צוין הדבר במפורש ברשימה, , לתשתיות כהגדרתן להלן תשתיות( הביטוח על פי פרק ראשון מורחב לכסות נזקים בגין הסיכונים המכוסים בהרחבה בבעלות המבוטח ו/או בחזקתו ו/או באחריותו, זו כהגדרתם להלן:\nתשתיות מכל סוג ותיאור, המצויות : לצרכי הרחבה זו, הגדרת המילה \"תשתיות\" הינה בחצרי המבוטח, ובכלל זה גדרות, קירות תומכים, פיתוח סביבתי, שערים, מדרכות מרוצפות, כבישים, דרכים מרוצפות, משטחי בטון ואספלט, עמודי חשמל ותאורה, קווי חשמל ותקשורת, מערכות וצנרת תת קרקעית של גז, חשמל, מים, ביוב, דלק ותקשורת. ולמעט מדשאות, עצי נוי, סוללות עפר, אובדן מים, מקורות מים למיניהם, מאגרי מים, תעלות מים, ביוב וניקוז, קרקע, מזחים, מכרות ומחצבות, מתקנים רעועים ומבנים בלתי גמורים."
+  "embed_text": "טבלה זו עוסקת בכיסוי ביטוחי לתשתיות, כהגדרתן בסעיף 6.10, המרחיב את הביטוח לנזקים לתשתיות בבעלות, בחזקה או באחריות המבוטח. ניתן למצוא כאן פירוט של סוגי התשתיות הכלולים בכיסוי, כמו גם רשימה של תשתיות שאינן כלולות. חיפוש יכול להתבצע לפי סוגי תשתיות כגון גדרות, קירות תומכים, עמודי חשמל, או קווי תקשורת. תשתיות, גדרות, קירות תומכים, שערים, מדרכות מרוצפות, עמודי חשמל, קווי חשמל, צנרת תת קרקעית, מדשאות, עצי נוי, אובדן מים. This table details coverage for infrastructure as defined in section 6.10, extending the insurance to cover damage to infrastructure owned, held, or the responsibility of the insured. It lists what is included and excluded from the definition of 'infrastructure'.",
+  "payload": "טבלה: תשתיות\nThis table details coverage for infrastructure as defined in section 6.10, extending the insurance to cover damage to infrastructure owned, held, or the responsibility of the insured. It lists what is included and excluded from the definition of 'infrastructure'.\nממדים: infrastructure type, coverage details (included/excluded)\n\n-תשתיות .6.10\nלפרק זה )חריג 3.11 אזי על אף האמור בחריג אם צוין הדבר במפורש ברשימה, , לתשתיות כהגדרתן להלן תשתיות( הביטוח על פי פרק ראשון מורחב לכסות נזקים בגין הסיכונים המכוסים בהרחבה בבעלות המבוטח ו/או בחזקתו ו/או באחריותו, זו כהגדרתם להלן:\nתשתיות מכל סוג ותיאור, המצויות : לצרכי הרחבה זו, הגדרת המילה \"תשתיות\" הינה בחצרי המבוטח, ובכלל זה גדרות, קירות תומכים, פיתוח סביבתי, שערים, מדרכות מרוצפות, כבישים, דרכים מרוצפות, משטחי בטון ואספלט, עמודי חשמל ותאורה, קווי חשמל ותקשורת, מערכות וצנרת תת קרקעית של גז, חשמל, מים, ביוב, דלק ותקשורת. ולמעט מדשאות, עצי נוי, סוללות עפר, אובדן מים, מקורות מים למיניהם, מאגרי מים, תעלות מים, ביוב וניקוז, קרקע, מזחים, מכרות ומחצבות, מתקנים רעועים ומבנים בלתי גמורים."
 }

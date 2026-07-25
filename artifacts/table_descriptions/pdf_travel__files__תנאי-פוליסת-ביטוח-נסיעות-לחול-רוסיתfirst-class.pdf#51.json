@@ -2,29 +2,24 @@
   "id": "pdf:travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-רוסיתfirst-class.pdf#51",
   "source": "llm",
   "description": {
-    "title": "ביטוח נסיעות לחול",
-    "summary": "This table details coverage limits for various travel insurance claims, specifically medical expenses and related costs while abroad. It outlines maximum amounts the insurer will pay for events like hospitalization, accompanying person travel, and pregnancy-related care.",
-    "embed_passage": "פוליסת ביטוח נסיעות לחול מספקת כיסוי להוצאות רפואיות עד לסכום של 5,000,000$. במקרה של אשפוז מעבר ל־3 ימים, החברה תכסה את עלות כרטיס הטיסה של מלווה בסך 2,500$ וכן את שהותו בבית מלון. במקרה של הריון שמתגלה לראשונה בחו״ל, הכיסוי תקף עד לשבוע ה־12.",
-    "row_axis": "type of claim / event (e.g., accompanying person travel, pregnancy)",
-    "column_axis": "coverage details (e.g., maximum amount, deductible)",
+    "title": "תנאי פוליסת ביטוח נסיעות לחול רוסיתfirst-class",
+    "summary": "This table details specific expense coverage under a travel insurance policy, specifically relating to medical expenses, accompanying person travel, and early pregnancy diagnosis abroad. It outlines coverage limits and potential self-participation amounts.",
+    "embed_passage": "טבלה זו מתארת כיסויים מיוחדים במסגרת פוליסת ביטוח נסיעות, כולל הוצאות רפואיות, טיסות לליווי מאושפזים, והריון שזוהה לראשונה בחו״ל. ניתן לחפש מידע על סוג ההוצאה, תנאים לכיסוי, ותקרת הכיסוי הכספי. הכיסוי עבור הריון עד 12 שבועות שאובחן לראשונה בחו״ל מגיע עד 5,000,000$, בעוד שטיסת ליווי לאדם מאושפז מוגבלת ל-2,500$. סכום ההשתתפות העצמית עבור טיסת ליווי הוא 50$.",
+    "row_axis": "Specific expense types (e.g., accompanying person travel, early pregnancy)",
+    "column_axis": "Coverage details (e.g., coverage amount, self-participation)",
     "units": [
-      "$",
-      "שבוע",
-      "יום"
+      "$"
     ],
     "notable_values": [
-      "maximum liability: 5,000,000$",
-      "accompanying person travel: 2,500$",
-      "hospitalization threshold: 3 days",
-      "pregnancy coverage: 12 weeks",
-      "deductible: 50$"
+      "Pregnancy (up to 12 weeks): $5,000,000",
+      "Accompanying person travel: $2,500",
+      "Self-participation (accompanying person travel): $50"
     ],
     "product_hints": [
-      "ביטוח נסיעות לחול",
-      "רוסיתfirst-class"
+      "ביטוח נסיעות לחול"
     ]
   },
   "sketch": "4.2. Авиаперелет для сопровождающего лица и пребывание в месте госпитализации застрахованного за границей если застрахованный будет госпитализирован за границей и время его госпитализации превысит 3 дня или лечащий врач за границей решит, что жизнь застрахованного находится в опасности, страховщик оплатит сопровождающему лицу стоимость билета в туристическом классе (как указано в главе 11.2 ниже) для проезда к месту госпитализации застрахованного а также стоимость пребывания в гостинице, и все это на сумму, не превышающую 2,500$, и в соответствии с таблицей\nграниц ответственности, приведенной в полисе. Данный пункт будет требовать оплаты личного участия, сумма которого будет составлять 50$.\n4.3. Беременность, срок которой составляет до 12-ти недель, впервые диагностированная за границей:\nСтраховщик понесет медицинские расходы, как указано далее, за беременность, срок которой составляет до 12-ти недель, и которая будет впервые диагностирована за границей, до достижения границ ответственности в отношении медицинских расходов на сумму 5,000,000$ и в соответствии с таблицей границ ответственности, приведенной в полисе.",
-  "embed_text": "פוליסת ביטוח נסיעות לחול מספקת כיסוי להוצאות רפואיות עד לסכום של 5,000,000$. במקרה של אשפוז מעבר ל־3 ימים, החברה תכסה את עלות כרטיס הטיסה של מלווה בסך 2,500$ וכן את שהותו בבית מלון. במקרה של הריון שמתגלה לראשונה בחו״ל, הכיסוי תקף עד לשבוע ה־12.",
-  "payload": "טבלה: ביטוח נסיעות לחול\nThis table details coverage limits for various travel insurance claims, specifically medical expenses and related costs while abroad. It outlines maximum amounts the insurer will pay for events like hospitalization, accompanying person travel, and pregnancy-related care.\nממדים: type of claim / event (e.g., accompanying person travel, pregnancy), coverage details (e.g., maximum amount, deductible)\n\n4.2. Авиаперелет для сопровождающего лица и пребывание в месте госпитализации застрахованного за границей если застрахованный будет госпитализирован за границей и время его госпитализации превысит 3 дня или лечащий врач за границей решит, что жизнь застрахованного находится в опасности, страховщик оплатит сопровождающему лицу стоимость билета в туристическом классе (как указано в главе 11.2 ниже) для проезда к месту госпитализации застрахованного а также стоимость пребывания в гостинице, и все это на сумму, не превышающую 2,500$, и в соответствии с таблицей\nграниц ответственности, приведенной в полисе. Данный пункт будет требовать оплаты личного участия, сумма которого будет составлять 50$.\n4.3. Беременность, срок которой составляет до 12-ти недель, впервые диагностированная за границей:\nСтраховщик понесет медицинские расходы, как указано далее, за беременность, срок которой составляет до 12-ти недель, и которая будет впервые диагностирована за границей, до достижения границ ответственности в отношении медицинских расходов на сумму 5,000,000$ и в соответствии с таблицей границ ответственности, приведенной в полисе."
+  "embed_text": "טבלה זו מתארת כיסויים מיוחדים במסגרת פוליסת ביטוח נסיעות, כולל הוצאות רפואיות, טיסות לליווי מאושפזים, והריון שזוהה לראשונה בחו״ל. ניתן לחפש מידע על סוג ההוצאה, תנאים לכיסוי, ותקרת הכיסוי הכספי. הכיסוי עבור הריון עד 12 שבועות שאובחן לראשונה בחו״ל מגיע עד 5,000,000$, בעוד שטיסת ליווי לאדם מאושפז מוגבלת ל-2,500$. סכום ההשתתפות העצמית עבור טיסת ליווי הוא 50$. This table details specific expense coverage under a travel insurance policy, specifically relating to medical expenses, accompanying person travel, and early pregnancy diagnosis abroad. It outlines coverage limits and potential self-participation amounts. בין הערכים בטבלה: Pregnancy (up to 12 weeks): $5,000,000; Accompanying person travel: $2,500; Self-participation (accompanying person travel): $50.",
+  "payload": "טבלה: תנאי פוליסת ביטוח נסיעות לחול רוסיתfirst-class\nThis table details specific expense coverage under a travel insurance policy, specifically relating to medical expenses, accompanying person travel, and early pregnancy diagnosis abroad. It outlines coverage limits and potential self-participation amounts.\nממדים: Specific expense types (e.g., accompanying person travel, early pregnancy), Coverage details (e.g., coverage amount, self-participation)\n\n4.2. Авиаперелет для сопровождающего лица и пребывание в месте госпитализации застрахованного за границей если застрахованный будет госпитализирован за границей и время его госпитализации превысит 3 дня или лечащий врач за границей решит, что жизнь застрахованного находится в опасности, страховщик оплатит сопровождающему лицу стоимость билета в туристическом классе (как указано в главе 11.2 ниже) для проезда к месту госпитализации застрахованного а также стоимость пребывания в гостинице, и все это на сумму, не превышающую 2,500$, и в соответствии с таблицей\nграниц ответственности, приведенной в полисе. Данный пункт будет требовать оплаты личного участия, сумма которого будет составлять 50$.\n4.3. Беременность, срок которой составляет до 12-ти недель, впервые диагностированная за границей:\nСтраховщик понесет медицинские расходы, как указано далее, за беременность, срок которой составляет до 12-ти недель, и которая будет впервые диагностирована за границей, до достижения границ ответственности в отношении медицинских расходов на сумму 5,000,000$ и в соответствии с таблицей границ ответственности, приведенной в полисе."
 }

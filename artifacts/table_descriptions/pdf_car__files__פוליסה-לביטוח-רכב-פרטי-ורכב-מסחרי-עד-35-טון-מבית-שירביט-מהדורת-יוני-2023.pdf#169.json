@@ -3,23 +3,27 @@
   "source": "llm",
   "description": {
     "title": "פרטי רכב",
-    "summary": "This table lists details about a vehicle for insurance purposes. It is used to look up information about the car being insured, such as its make, model, and usage.",
-    "embed_passage": "פוליסה זו של שירביט דורשת מידע מפורט על הרכב, כולל שנת ייצורו, סוג תיבת ההילוכים, ואמצעי המיגון שלו. פרטים אלו משפיעים על הערכת הסיכון ועלות הביטוח. לדוגמה, רכב משנת 2015 עם מערכת אזעקה עשוי לקבל מחיר שונה מרכב ישן יותר ללא מיגון.",
+    "summary": "This table lists details about a vehicle for insurance purposes. It is used to look up information based on vehicle type, year, and other identifying characteristics.",
+    "embed_passage": "טבלה זו מפרטת נתונים אודות רכב לצורך ביטוח, כגון סוג הרכב ושנת ייצורו. המידע משמש לבחינת פרטי הרכב לצורך הערכת סיכונים וקביעת תנאי הפוליסה. ניתן לחפש מידע על רכב מסוים על פי מספר הרישוי, התוצר והדגם שלו. הטבלה כוללת גם מידע על אמצעי מיגון, זהות הבעלים, תאונות קודמות ועבירות תנועה. שירביט מציעה פוליסה לביטוח רכב פרטי ורכב מסחרי עד 35 טון. פרטים נאספים לגבי סוג הרכב, שנת ייצורו, מספר הרישוי שלו, התוצר והדגם שלו, סוג תיבת ההילוכים.",
     "row_axis": "Vehicle details",
-    "column_axis": "Specific vehicle attributes (type, year, license number, etc.)",
+    "column_axis": "Data fields related to the vehicle and its owner",
     "units": [],
     "notable_values": [
       "סוג הרכב: unknown",
       "שנת ייצורו: unknown",
       "מספר הרישוי שלו: unknown",
+      "התוצר והדגם שלו: unknown",
       "סוג תיבת ההילוכים: unknown",
-      "אמצעי מיגון של הרכב: unknown"
+      "אמצעי מיגון של הרכב: unknown",
+      "תאונות שהיו מעורבים בהן: unknown",
+      "עבירות תנועה: unknown"
     ],
     "product_hints": [
-      "שירביט ביטוח רכב"
+      "פוליסה לביטוח רכב",
+      "שירביט"
     ]
   },
   "sketch": "סוג הרכב, שנת ייצורו, מספר הרישוי שלו, התוצר והדגם שלו, סוג תיבת ההילוכים; .38.2.1\nפטור ממסים לגבי הרכב אם ישנו; .38.2.2\nתאור השימוש ברכב והמקום שבו הוא מוחזק בדרך כלל; .38.2.3\nאמצעי מיגון של הרכב; .38.2.4\nזהות הבעלים או המחזיקים דרך קבע ברכב ועיסוקיהם, תאונות שהיו מעורבים .38.2.5 בהן ועבירות תנועה שבהן הורשעו בשלוש השנים שקדמו לעשיית הביטוח על פי פוליסה זו, פרט לעבירות תנועה שיש לגביהן ברירת קנס;",
-  "embed_text": "פוליסה זו של שירביט דורשת מידע מפורט על הרכב, כולל שנת ייצורו, סוג תיבת ההילוכים, ואמצעי המיגון שלו. פרטים אלו משפיעים על הערכת הסיכון ועלות הביטוח. לדוגמה, רכב משנת 2015 עם מערכת אזעקה עשוי לקבל מחיר שונה מרכב ישן יותר ללא מיגון.",
-  "payload": "טבלה: פרטי רכב\nThis table lists details about a vehicle for insurance purposes. It is used to look up information about the car being insured, such as its make, model, and usage.\nממדים: Vehicle details, Specific vehicle attributes (type, year, license number, etc.)\n\nסוג הרכב, שנת ייצורו, מספר הרישוי שלו, התוצר והדגם שלו, סוג תיבת ההילוכים; .38.2.1\nפטור ממסים לגבי הרכב אם ישנו; .38.2.2\nתאור השימוש ברכב והמקום שבו הוא מוחזק בדרך כלל; .38.2.3\nאמצעי מיגון של הרכב; .38.2.4\nזהות הבעלים או המחזיקים דרך קבע ברכב ועיסוקיהם, תאונות שהיו מעורבים .38.2.5 בהן ועבירות תנועה שבהן הורשעו בשלוש השנים שקדמו לעשיית הביטוח על פי פוליסה זו, פרט לעבירות תנועה שיש לגביהן ברירת קנס;"
+  "embed_text": "טבלה זו מפרטת נתונים אודות רכב לצורך ביטוח, כגון סוג הרכב ושנת ייצורו. המידע משמש לבחינת פרטי הרכב לצורך הערכת סיכונים וקביעת תנאי הפוליסה. ניתן לחפש מידע על רכב מסוים על פי מספר הרישוי, התוצר והדגם שלו. הטבלה כוללת גם מידע על אמצעי מיגון, זהות הבעלים, תאונות קודמות ועבירות תנועה. שירביט מציעה פוליסה לביטוח רכב פרטי ורכב מסחרי עד 35 טון. פרטים נאספים לגבי סוג הרכב, שנת ייצורו, מספר הרישוי שלו, התוצר והדגם שלו, סוג תיבת ההילוכים. This table lists details about a vehicle for insurance purposes. It is used to look up information based on vehicle type, year, and other identifying characteristics. בין הערכים בטבלה: אמצעי מיגון של הרכב: unknown; תאונות שהיו מעורבים בהן: unknown.",
+  "payload": "טבלה: פרטי רכב\nThis table lists details about a vehicle for insurance purposes. It is used to look up information based on vehicle type, year, and other identifying characteristics.\nממדים: Vehicle details, Data fields related to the vehicle and its owner\n\nסוג הרכב, שנת ייצורו, מספר הרישוי שלו, התוצר והדגם שלו, סוג תיבת ההילוכים; .38.2.1\nפטור ממסים לגבי הרכב אם ישנו; .38.2.2\nתאור השימוש ברכב והמקום שבו הוא מוחזק בדרך כלל; .38.2.3\nאמצעי מיגון של הרכב; .38.2.4\nזהות הבעלים או המחזיקים דרך קבע ברכב ועיסוקיהם, תאונות שהיו מעורבים .38.2.5 בהן ועבירות תנועה שבהן הורשעו בשלוש השנים שקדמו לעשיית הביטוח על פי פוליסה זו, פרט לעבירות תנועה שיש לגביהן ברירת קנס;"
 }

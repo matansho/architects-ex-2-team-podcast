@@ -2,24 +2,21 @@
   "id": "pdf:business/files/מכלול-למושב-ינואר-2023.pdf#389",
   "source": "llm",
   "description": {
-    "title": "מכלול פוליסה",
-    "summary": "This table details conditions related to policy cancellation due to misrepresentation or material changes. It outlines the timeframe (30 days) the insurer has to respond to incomplete or dishonest information and the consequences of such issues.",
-    "embed_passage": "פוליסת מכלול מאפשרת למבטח לבטל את הפוליסה תוך 30 ימים אם המבוטח לא סיפק תשובות מלאות וכנות, או אם חל שינוי מהותי שלא דווח. לדוגמה, אם התשובה שניתנה לשאלה מהותית הייתה לא נכונה, המבטח רשאי לבטל את הפוליסה בהודעה בכתב.",
-    "row_axis": "Policy conditions related to misrepresentation or material changes",
-    "column_axis": "Timeframes and insurer rights",
+    "title": "עניין מהותי",
+    "summary": "This table details conditions related to 'material matters' (עניין מהותי) in an insurance policy. It outlines the insurer's rights to cancel the policy or reduce liability if the insured provides incomplete or dishonest answers, or fails to disclose material information.",
+    "embed_passage": "This table details conditions related to 'material matters' (עניין מהותי) in an insurance policy. It outlines the insurer's rights to cancel the policy or reduce liability if the insured provides incomplete or dishonest answers, or fails to disclose material information. The insurer may cancel the policy within 30 days of receiving an incomplete or dishonest answer, or within 30 days of learning of a material change. It is important to note that a change occurring after delivery of the policy on a matter specified as a 'material matter', or a matter revealing that an answer given was incorrect, will also be considered part of a 'material matter'.",
+    "row_axis": "conditions related to material matters",
+    "column_axis": "timeframe for insurer action, conditions for cancellation",
     "units": [],
     "notable_values": [
-      "30 ימים: Timeframe for insurer response to incomplete information",
-      "30 ימים: Timeframe for insurer response to new information",
-      "2.6: Reference to a 'material matter' clause",
-      "2.7: Clause regarding policy cancellation rights",
-      "2.8: Entitlement to refund of premiums upon cancellation"
+      "timeframe for response: 30 ימים",
+      "timeframe for notification of change: 30 ימים",
+      "condition: תשובה שאינה מלאה וכנה",
+      "condition: שינוי מהותי"
     ],
-    "product_hints": [
-      "מכלול"
-    ]
+    "product_hints": []
   },
   "sketch": "לעניין זה יובהר, כי שינוי שחל אחרי מסירת הפוליסה למבוטח, בנושא שצוין בה .2.6 כעניין מהותי וכן דבר המגלה כי תשובה שניתנה לשאלה בעניין מהותי הייתה לא נכונה ויש בה כדי להחמיר את סיכון המבטח החמרה של ממש, יראו בהן גם ;\" כחלק מ\"עניין מהותי\nימים מהיום שנמסרה למבטח תשובה שאינה מלאה וכנה או הודעה על 30 תוך .2.7 , ימים מהיום שנודע על מידע כאמור למבטח בדרך אחרת 30 שינוי מהותי או תוך רשאי המבטח, כל עוד לא קרה מקרה הביטוח, לבטל את הפוליסה מיד בהודעה בכתב למבוטח;",
-  "embed_text": "פוליסת מכלול מאפשרת למבטח לבטל את הפוליסה תוך 30 ימים אם המבוטח לא סיפק תשובות מלאות וכנות, או אם חל שינוי מהותי שלא דווח. לדוגמה, אם התשובה שניתנה לשאלה מהותית הייתה לא נכונה, המבטח רשאי לבטל את הפוליסה בהודעה בכתב.",
-  "payload": "טבלה: מכלול פוליסה\nThis table details conditions related to policy cancellation due to misrepresentation or material changes. It outlines the timeframe (30 days) the insurer has to respond to incomplete or dishonest information and the consequences of such issues.\nממדים: Policy conditions related to misrepresentation or material changes, Timeframes and insurer rights\n\nלעניין זה יובהר, כי שינוי שחל אחרי מסירת הפוליסה למבוטח, בנושא שצוין בה .2.6 כעניין מהותי וכן דבר המגלה כי תשובה שניתנה לשאלה בעניין מהותי הייתה לא נכונה ויש בה כדי להחמיר את סיכון המבטח החמרה של ממש, יראו בהן גם ;\" כחלק מ\"עניין מהותי\nימים מהיום שנמסרה למבטח תשובה שאינה מלאה וכנה או הודעה על 30 תוך .2.7 , ימים מהיום שנודע על מידע כאמור למבטח בדרך אחרת 30 שינוי מהותי או תוך רשאי המבטח, כל עוד לא קרה מקרה הביטוח, לבטל את הפוליסה מיד בהודעה בכתב למבוטח;"
+  "embed_text": "This table details conditions related to 'material matters' (עניין מהותי) in an insurance policy. It outlines the insurer's rights to cancel the policy or reduce liability if the insured provides incomplete or dishonest answers, or fails to disclose material information. The insurer may cancel the policy within 30 days of receiving an incomplete or dishonest answer, or within 30 days of learning of a material change. It is important to note that a change occurring after delivery of the policy on a matter specified as a 'material matter', or a matter revealing that an answer given was incorrect, will also be considered part of a 'material matter'. בין הערכים בטבלה: timeframe for response: 30 ימים; timeframe for notification of change: 30 ימים.",
+  "payload": "טבלה: עניין מהותי\nThis table details conditions related to 'material matters' (עניין מהותי) in an insurance policy. It outlines the insurer's rights to cancel the policy or reduce liability if the insured provides incomplete or dishonest answers, or fails to disclose material information.\nממדים: conditions related to material matters, timeframe for insurer action, conditions for cancellation\n\nלעניין זה יובהר, כי שינוי שחל אחרי מסירת הפוליסה למבוטח, בנושא שצוין בה .2.6 כעניין מהותי וכן דבר המגלה כי תשובה שניתנה לשאלה בעניין מהותי הייתה לא נכונה ויש בה כדי להחמיר את סיכון המבטח החמרה של ממש, יראו בהן גם ;\" כחלק מ\"עניין מהותי\nימים מהיום שנמסרה למבטח תשובה שאינה מלאה וכנה או הודעה על 30 תוך .2.7 , ימים מהיום שנודע על מידע כאמור למבטח בדרך אחרת 30 שינוי מהותי או תוך רשאי המבטח, כל עוד לא קרה מקרה הביטוח, לבטל את הפוליסה מיד בהודעה בכתב למבוטח;"
 }

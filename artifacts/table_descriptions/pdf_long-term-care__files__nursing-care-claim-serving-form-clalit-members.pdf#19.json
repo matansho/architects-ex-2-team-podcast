@@ -2,21 +2,20 @@
   "id": "pdf:long-term-care/files/nursing-care-claim-serving-form-clalit-members.pdf#19",
   "source": "llm",
   "description": {
-    "title": "טופס ייפוי כוח לטיפול בתביעה",
+    "title": "ייפוי כוח לטיפול בתביעה",
     "summary": "This table is a form for authorizing an insurance agent to handle a claim with Harel. It captures the claimant's consent and agent details.",
-    "embed_passage": "טופס זה מאפשר ללקוח של הראל למנות נציג מטעמו לטיפול בתביעה. הנציג יוכל לקבל ולשלוח התכתבויות וכל מידע הקשור לפוליסות הביטוח של הלקוח בהראל, גם אם הפוליסות אינן מטופלות על ידי אותו נציג. ייפוי הכוח כולל את כל העניינים הקשורים לתביעה.",
-    "row_axis": "Claimant's authorization for agent representation",
-    "column_axis": "Authorization details (date, agent name, signature)",
+    "embed_passage": "טופס זה משמש להענקת ייפוי כוח לסוכן הביטוח שלכם לטיפול בתביעה מול קבוצת הראל. הטופס כולל אישור מפורש של המבוטח או איש הקשר שלו, לצד פרטי הסוכן המורשה. ייפוי הכוח מאפשר לסוכן לטפל בכל הנוגע לתביעה, כולל הגשת מסמכים וקבלת התכתבויות מהראל. ייפוי כוח זה תקף גם עבור פוליסות ביטוח נוספות שלכם בהראל, גם אם אינן מטופלות על ידי הסוכן המורשה. הסוכן המורשה: Mr./ Mrs., תאריך, שם + שם משפחה, חתימה.",
+    "row_axis": "Claim authorization details",
+    "column_axis": "Authorization fields (Date, Name, Signature)",
     "units": [],
     "notable_values": [
-      "Agent Authorization: Yes",
-      "Company: Harel"
+      "Agent Title: Mr./ Mrs."
     ],
     "product_hints": [
       "Harel"
     ]
   },
   "sketch": "D Appointing an agent to handle the claim\nI hereby authorize my policy insurance agent Mr./ Mrs.                                              to handle in my name and on my behalf everything connected with this claim, including fling with Harel, and receipt from Harel in my name and on my behalf, any correspondence and/ or documents related to the claim, including details of the policies under which I am insured with Harel - which are not necessarily policies handled by the insurance agent empowered herein - and to serve as my representative in all matters and purposes related to this claim.\nDate\nName + surname\nSignature\nPlease note that copies of correspondence and/or documents related to the claim, including details of the policies under which you are insured (which are not necessarily handled by your insurance agent, who is empowered herein) shall in any event be sent to your insurance agent under the policy.",
-  "embed_text": "טופס זה מאפשר ללקוח של הראל למנות נציג מטעמו לטיפול בתביעה. הנציג יוכל לקבל ולשלוח התכתבויות וכל מידע הקשור לפוליסות הביטוח של הלקוח בהראל, גם אם הפוליסות אינן מטופלות על ידי אותו נציג. ייפוי הכוח כולל את כל העניינים הקשורים לתביעה.",
-  "payload": "טבלה: טופס ייפוי כוח לטיפול בתביעה\nThis table is a form for authorizing an insurance agent to handle a claim with Harel. It captures the claimant's consent and agent details.\nממדים: Claimant's authorization for agent representation, Authorization details (date, agent name, signature)\n\nD Appointing an agent to handle the claim\nI hereby authorize my policy insurance agent Mr./ Mrs.                                              to handle in my name and on my behalf everything connected with this claim, including fling with Harel, and receipt from Harel in my name and on my behalf, any correspondence and/ or documents related to the claim, including details of the policies under which I am insured with Harel - which are not necessarily policies handled by the insurance agent empowered herein - and to serve as my representative in all matters and purposes related to this claim.\nDate\nName + surname\nSignature\nPlease note that copies of correspondence and/or documents related to the claim, including details of the policies under which you are insured (which are not necessarily handled by your insurance agent, who is empowered herein) shall in any event be sent to your insurance agent under the policy."
+  "embed_text": "טופס זה משמש להענקת ייפוי כוח לסוכן הביטוח שלכם לטיפול בתביעה מול קבוצת הראל. הטופס כולל אישור מפורש של המבוטח או איש הקשר שלו, לצד פרטי הסוכן המורשה. ייפוי הכוח מאפשר לסוכן לטפל בכל הנוגע לתביעה, כולל הגשת מסמכים וקבלת התכתבויות מהראל. ייפוי כוח זה תקף גם עבור פוליסות ביטוח נוספות שלכם בהראל, גם אם אינן מטופלות על ידי הסוכן המורשה. הסוכן המורשה: Mr./ Mrs., תאריך, שם + שם משפחה, חתימה. This table is a form for authorizing an insurance agent to handle a claim with Harel. It captures the claimant's consent and agent details.",
+  "payload": "טבלה: ייפוי כוח לטיפול בתביעה\nThis table is a form for authorizing an insurance agent to handle a claim with Harel. It captures the claimant's consent and agent details.\nממדים: Claim authorization details, Authorization fields (Date, Name, Signature)\n\nD Appointing an agent to handle the claim\nI hereby authorize my policy insurance agent Mr./ Mrs.                                              to handle in my name and on my behalf everything connected with this claim, including fling with Harel, and receipt from Harel in my name and on my behalf, any correspondence and/ or documents related to the claim, including details of the policies under which I am insured with Harel - which are not necessarily policies handled by the insurance agent empowered herein - and to serve as my representative in all matters and purposes related to this claim.\nDate\nName + surname\nSignature\nPlease note that copies of correspondence and/or documents related to the claim, including details of the policies under which you are insured (which are not necessarily handled by your insurance agent, who is empowered herein) shall in any event be sent to your insurance agent under the policy."
 }

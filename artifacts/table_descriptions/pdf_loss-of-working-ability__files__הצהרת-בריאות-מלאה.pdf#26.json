@@ -3,22 +3,24 @@
   "source": "llm",
   "description": {
     "title": "הצהרת בריאות",
-    "summary": "This table is part of a health declaration form used for insurance underwriting. It asks about recent medical tests and procedures performed within the last two years.",
-    "embed_passage": "הצהרת בריאות זו מתייחסת לבדיקות רפואיות שונות כמו אולטרסאונד, MRI ו-CT שנעשו בשנתיים האחרונות. המטרה היא לברר האם בוצעו בדיקות עקב תופעה או מחלה טרם נקבעה אבחנה סופית, או כחלק ממעקב הריון. יש לפרט את סוג הבדיקה, מועד הביצוע, התוצאה, הטיפול ומצב נוכחי.",
-    "row_axis": "Medical test/procedure",
-    "column_axis": "Confirmation (Yes/No) and details if applicable",
+    "summary": "This table is part of a health declaration form used in insurance applications. It asks about diagnostic tests and procedures performed in the last two years, and requires details if a positive response hasn't been reported elsewhere.",
+    "embed_passage": "טופס זה הוא חלק מהצהרת בריאות המשמשת בתהליך בקשת ביטוח. השאלות מתמקדות בבדיקות ואבחנות שבוצעו בשנתיים האחרונות, כגון אולטרסאונד, MRI, וצנתור. יש לפרט את סוג הבדיקה, תאריך ביצועה, תוצאותיה, הטיפול שניתן והמצב הנוכחי. אם הבעיה דווחה בשאלות קודמות, יש לציין זאת.",
+    "row_axis": "Diagnostic test or procedure",
+    "column_axis": "Response (Yes/No, details)",
     "units": [],
     "notable_values": [
-      "Timeframe: שנתיים האחרונות",
-      "Test types: אולטרסאונד, MRI, CT",
-      "Confirmation: כן",
-      "Confirmation: לא"
+      "אולטרסאונד",
+      "MRI",
+      "CT",
+      "ממוגרפיה",
+      "מיפוי עצמות",
+      "צנתור",
+      "מיפוי לב",
+      "אקו לב"
     ],
-    "product_hints": [
-      "ביטוח נכות"
-    ]
+    "product_hints": []
   },
   "sketch": "וטרם נקבעה אבחנה , הליך ברור של תופעה או מחלה אליו הופנית בשנתיים האחרונות טרם סיימת האם .9 , אולטרסאונד- שלא MRI, CT , (סוג הבדיקות: ממוגרפיה, מיפוי עצמות, צנתור, מיפוי לב, אקו לב סופית? .) חלק ממעקב הריון, ביופסיה, דם סמוי, קולונוסקופיה, גסטרוסקופיה\nכן\n. לא, נא פרט מטה\nאם הבעיה בגינה הוצהר בשאלה זו בחיוב, לא דווחה בשאלה אחרת בהצהרה - יש לפרט - איזו בדיקה , בוצעה, מתי, מה הייתה התוצאה טיפול ומצב כיום (יתכן ותדרש בהעברת מסמכים בהתאם לפירוט)\n? האם פרטת על כך באחת מהשאלות הקודמות - אם כן",
-  "embed_text": "הצהרת בריאות זו מתייחסת לבדיקות רפואיות שונות כמו אולטרסאונד, MRI ו-CT שנעשו בשנתיים האחרונות. המטרה היא לברר האם בוצעו בדיקות עקב תופעה או מחלה טרם נקבעה אבחנה סופית, או כחלק ממעקב הריון. יש לפרט את סוג הבדיקה, מועד הביצוע, התוצאה, הטיפול ומצב נוכחי.",
-  "payload": "טבלה: הצהרת בריאות\nThis table is part of a health declaration form used for insurance underwriting. It asks about recent medical tests and procedures performed within the last two years.\nממדים: Medical test/procedure, Confirmation (Yes/No) and details if applicable\n\nוטרם נקבעה אבחנה , הליך ברור של תופעה או מחלה אליו הופנית בשנתיים האחרונות טרם סיימת האם .9 , אולטרסאונד- שלא MRI, CT , (סוג הבדיקות: ממוגרפיה, מיפוי עצמות, צנתור, מיפוי לב, אקו לב סופית? .) חלק ממעקב הריון, ביופסיה, דם סמוי, קולונוסקופיה, גסטרוסקופיה\nכן\n. לא, נא פרט מטה\nאם הבעיה בגינה הוצהר בשאלה זו בחיוב, לא דווחה בשאלה אחרת בהצהרה - יש לפרט - איזו בדיקה , בוצעה, מתי, מה הייתה התוצאה טיפול ומצב כיום (יתכן ותדרש בהעברת מסמכים בהתאם לפירוט)\n? האם פרטת על כך באחת מהשאלות הקודמות - אם כן"
+  "embed_text": "טופס זה הוא חלק מהצהרת בריאות המשמשת בתהליך בקשת ביטוח. השאלות מתמקדות בבדיקות ואבחנות שבוצעו בשנתיים האחרונות, כגון אולטרסאונד, MRI, וצנתור. יש לפרט את סוג הבדיקה, תאריך ביצועה, תוצאותיה, הטיפול שניתן והמצב הנוכחי. אם הבעיה דווחה בשאלות קודמות, יש לציין זאת. This table is part of a health declaration form used in insurance applications. It asks about diagnostic tests and procedures performed in the last two years, and requires details if a positive response hasn't been reported elsewhere. בין הערכים בטבלה: CT; ממוגרפיה; מיפוי עצמות; מיפוי לב; אקו לב.",
+  "payload": "טבלה: הצהרת בריאות\nThis table is part of a health declaration form used in insurance applications. It asks about diagnostic tests and procedures performed in the last two years, and requires details if a positive response hasn't been reported elsewhere.\nממדים: Diagnostic test or procedure, Response (Yes/No, details)\n\nוטרם נקבעה אבחנה , הליך ברור של תופעה או מחלה אליו הופנית בשנתיים האחרונות טרם סיימת האם .9 , אולטרסאונד- שלא MRI, CT , (סוג הבדיקות: ממוגרפיה, מיפוי עצמות, צנתור, מיפוי לב, אקו לב סופית? .) חלק ממעקב הריון, ביופסיה, דם סמוי, קולונוסקופיה, גסטרוסקופיה\nכן\n. לא, נא פרט מטה\nאם הבעיה בגינה הוצהר בשאלה זו בחיוב, לא דווחה בשאלה אחרת בהצהרה - יש לפרט - איזו בדיקה , בוצעה, מתי, מה הייתה התוצאה טיפול ומצב כיום (יתכן ותדרש בהעברת מסמכים בהתאם לפירוט)\n? האם פרטת על כך באחת מהשאלות הקודמות - אם כן"
 }

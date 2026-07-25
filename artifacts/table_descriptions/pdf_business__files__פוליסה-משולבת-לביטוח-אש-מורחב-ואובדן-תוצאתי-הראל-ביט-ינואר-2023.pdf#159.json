@@ -3,23 +3,23 @@
   "source": "llm",
   "description": {
     "title": "הוצאות מחקר ופיתוח",
-    "summary": "This table details coverage for research and development expenses under an insurance policy. It outlines how insurance payouts are calculated for interruptions or transfers of projects, based on a weekly insured amount.",
-    "embed_passage": "פוליסת הראל ביטוח מורחב מכסה הוצאות מחקר ופיתוח, כאשר גובה הפיצוי תלוי במשך ההפסקה או ההפרעה לפרויקט. לדוגמה, במקרה של הפסקה מלאה, הסכום השבועי המבוטח ישולם עבור כל שבוע עבודה שהופסק, בהתאם לסעיף 10.17.3. הכיסוי מוגבל לרווח הגולמי.",
-    "row_axis": "Types of disruption to research and development projects (full stop, partial stop, transfer)",
-    "column_axis": "Conditions for coverage and calculation of insured amount",
+    "summary": "This table details coverage for research and development expenses under an insurance policy. It outlines how insurance payouts are calculated for interruptions or transfers of projects, and partial disruptions.",
+    "embed_passage": "טבלה זו מתייחסת לכיסוי הוצאות מחקר ופיתוח במסגרת פוליסת ביטוח, ומפרטת את אופן חישוב תגמולי הביטוח במקרה של הפסקה או הפרעה לפרויקטים. ניתן לבדוק את הכיסוי עבור הוצאות מחקר ופיתוח, תוך התייחסות לתקופת השיפוי וההפסקה או ההפרעה לפרויקטים. הוצאות מחקר ופיתוח, הסכום השבועי המבוטח, הפסקה או הפרעה מלאה, הפסקה או הפרעה חלקית, תקופת השיפוי, פרויקטים, עבודה מחדש, הרווח הגולמי הם מושגים מרכזיים בטבלה זו. פוליסת הראל ביטוח אש מורחב ואובדן תוצאתי היא הבסיס לטבלה.",
+    "row_axis": "types of R&D expense disruption",
+    "column_axis": "coverage details",
     "units": [],
     "notable_values": [
-      "10.17.1: Refers to full project stoppage",
-      "10.17.2: Relates to increased operational costs",
-      "10.17.3: Defines the insured weekly amount"
+      "הוצאות מחקר ופיתוח: covered expense type",
+      "תקופת השיפוי: coverage period",
+      "הפסקה או הפרעה מלאה: full disruption",
+      "הפסקה או הפרעה חלקית: partial disruption",
+      "הסכום השבועי המבוטח: insured weekly amount"
     ],
     "product_hints": [
-      "הראל ביטוח",
-      "ביטוח אש מורחב",
-      "אובדן תוצאתי"
+      "הראל ביטוח אש מורחב ואובדן תוצאתי"
     ]
   },
   "sketch": "הוצאות מחקר ופיתוח .10.17\nהביטוח על פי פרק זה יורחב לכסות, במסגרת , אם נרשם ברשימה כי כיסוי זה בתוקף הרווח הגולמי, הוצאות מחקר ופיתוח. תגמולי הביטוח בגין הוצאות אלו מוגבלים\nלאובדן או נזק הנובעים ממקרה ביטוח המכוסה במסגרת פרק א׳, ביחס להוצאות מחקר ופיתוח והגדלת הוצאות התפעול, כמפורט להלן:\n. לגבי הוצאות מחקר ופיתוח: 10.17.1\nבמסגרת תקופת השיפוי, בגין כל שבוע עבודה )או חלק ממנו(, אשר נגרמה בו:\nא.  הפסקה או הפרעה מלאה בפרויקטים או העברתם במלואם לעבודה להלן, בגין 10.17.3 מחדש - הסכום השבועי המבוטח, כהגדרתו בסעיף תקופת ההפסקה או ההפרעה, כאמור.\nב.  הפסקה או הפרעה חלקית בפרויקטים או העברתם בחלקם לעבודה 10.17.3 מחדש - סכום יחסי מהסכום השבועי המבוטח, כהגדרתו בסעיף להלן, בגין תקופת ההפסקה או ההפרעה, כאמור.",
-  "embed_text": "פוליסת הראל ביטוח מורחב מכסה הוצאות מחקר ופיתוח, כאשר גובה הפיצוי תלוי במשך ההפסקה או ההפרעה לפרויקט. לדוגמה, במקרה של הפסקה מלאה, הסכום השבועי המבוטח ישולם עבור כל שבוע עבודה שהופסק, בהתאם לסעיף 10.17.3. הכיסוי מוגבל לרווח הגולמי.",
-  "payload": "טבלה: הוצאות מחקר ופיתוח\nThis table details coverage for research and development expenses under an insurance policy. It outlines how insurance payouts are calculated for interruptions or transfers of projects, based on a weekly insured amount.\nממדים: Types of disruption to research and development projects (full stop, partial stop, transfer), Conditions for coverage and calculation of insured amount\n\nהוצאות מחקר ופיתוח .10.17\nהביטוח על פי פרק זה יורחב לכסות, במסגרת , אם נרשם ברשימה כי כיסוי זה בתוקף הרווח הגולמי, הוצאות מחקר ופיתוח. תגמולי הביטוח בגין הוצאות אלו מוגבלים\nלאובדן או נזק הנובעים ממקרה ביטוח המכוסה במסגרת פרק א׳, ביחס להוצאות מחקר ופיתוח והגדלת הוצאות התפעול, כמפורט להלן:\n. לגבי הוצאות מחקר ופיתוח: 10.17.1\nבמסגרת תקופת השיפוי, בגין כל שבוע עבודה )או חלק ממנו(, אשר נגרמה בו:\nא.  הפסקה או הפרעה מלאה בפרויקטים או העברתם במלואם לעבודה להלן, בגין 10.17.3 מחדש - הסכום השבועי המבוטח, כהגדרתו בסעיף תקופת ההפסקה או ההפרעה, כאמור.\nב.  הפסקה או הפרעה חלקית בפרויקטים או העברתם בחלקם לעבודה 10.17.3 מחדש - סכום יחסי מהסכום השבועי המבוטח, כהגדרתו בסעיף להלן, בגין תקופת ההפסקה או ההפרעה, כאמור."
+  "embed_text": "טבלה זו מתייחסת לכיסוי הוצאות מחקר ופיתוח במסגרת פוליסת ביטוח, ומפרטת את אופן חישוב תגמולי הביטוח במקרה של הפסקה או הפרעה לפרויקטים. ניתן לבדוק את הכיסוי עבור הוצאות מחקר ופיתוח, תוך התייחסות לתקופת השיפוי וההפסקה או ההפרעה לפרויקטים. הוצאות מחקר ופיתוח, הסכום השבועי המבוטח, הפסקה או הפרעה מלאה, הפסקה או הפרעה חלקית, תקופת השיפוי, פרויקטים, עבודה מחדש, הרווח הגולמי הם מושגים מרכזיים בטבלה זו. פוליסת הראל ביטוח אש מורחב ואובדן תוצאתי היא הבסיס לטבלה. This table details coverage for research and development expenses under an insurance policy. It outlines how insurance payouts are calculated for interruptions or transfers of projects, and partial disruptions.",
+  "payload": "טבלה: הוצאות מחקר ופיתוח\nThis table details coverage for research and development expenses under an insurance policy. It outlines how insurance payouts are calculated for interruptions or transfers of projects, and partial disruptions.\nממדים: types of R&D expense disruption, coverage details\n\nהוצאות מחקר ופיתוח .10.17\nהביטוח על פי פרק זה יורחב לכסות, במסגרת , אם נרשם ברשימה כי כיסוי זה בתוקף הרווח הגולמי, הוצאות מחקר ופיתוח. תגמולי הביטוח בגין הוצאות אלו מוגבלים\nלאובדן או נזק הנובעים ממקרה ביטוח המכוסה במסגרת פרק א׳, ביחס להוצאות מחקר ופיתוח והגדלת הוצאות התפעול, כמפורט להלן:\n. לגבי הוצאות מחקר ופיתוח: 10.17.1\nבמסגרת תקופת השיפוי, בגין כל שבוע עבודה )או חלק ממנו(, אשר נגרמה בו:\nא.  הפסקה או הפרעה מלאה בפרויקטים או העברתם במלואם לעבודה להלן, בגין 10.17.3 מחדש - הסכום השבועי המבוטח, כהגדרתו בסעיף תקופת ההפסקה או ההפרעה, כאמור.\nב.  הפסקה או הפרעה חלקית בפרויקטים או העברתם בחלקם לעבודה 10.17.3 מחדש - סכום יחסי מהסכום השבועי המבוטח, כהגדרתו בסעיף להלן, בגין תקופת ההפסקה או ההפרעה, כאמור."
 }

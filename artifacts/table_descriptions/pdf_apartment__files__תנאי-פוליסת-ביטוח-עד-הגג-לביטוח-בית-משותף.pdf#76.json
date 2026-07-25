@@ -3,22 +3,23 @@
   "source": "llm",
   "description": {
     "title": "כספי בית משותף",
-    "summary": "This table details the conditions for insurance coverage of funds held by a shared apartment building (בית משותף). It outlines scenarios where the insurer will compensate for loss or damage to these funds.",
-    "embed_passage": "פוליסת 'עד הגג' לביטוח בית משותף מכסה אובדן או נזק פיזי לכספי הבית המשותף, כגון מזומן או שיקים, בעת העברתם לבנק על ידי נציגות הבית המשותף. הכיסוי חל על מקרים שנגרמו מכל סיבה שלא הוחרגה, לדוגמה, העברה ישירה ממקום המצאם בסעיף 1.2. סעיף 1.1 מתייחס להמצאת הכספים בדירת הגזבר או חברי הנציגות.",
-    "row_axis": "Scenarios involving the handling of shared building funds",
-    "column_axis": "Conditions and methods of fund handling",
+    "summary": "This table details the conditions for insurance coverage of funds belonging to a shared apartment building (בית משותף). It outlines how funds are handled and the circumstances under which insurance applies.",
+    "embed_passage": "טבלה זו מתייחסת לכיסוי ביטוחי עבור כספי הבית המשותף, ומפרטת את הנהלים להעברתם ושימושם. הכיסוי חל על אובדן או נזק פיזי לכספים אלו, בתנאים מסוימים. הרישום המסודר של הכנסות והוצאות הכספים הוא תנאי הכרחי לכיסוי. סעיפים רלוונטיים כוללים המצאת הכספים בדירת הגזבר או חברי נציגות הבית המשותף, והעברתם לבנק לצורך הפקדה או תשלומים. כיסוי זה רלוונטי עבור כספי הבית המשותף, העברות ישירות, ושיקים או המחאות. פוליסת ביטוח עד הגג לביטוח בית משותף מספקת הגנה על כספים אלו.",
+    "row_axis": "Circumstances of fund handling",
+    "column_axis": "Method of handling/location of funds",
     "units": [],
     "notable_values": [
-      "סעיף 1.1: Funds held at the treasurer's apartment",
-      "סעיף 1.2: Direct transfer to the bank",
-      "Funds must be identifiable through a record of income and expenses"
+      "גזבר נציגות הבית המשותף: דירת הגזבר",
+      "חברי נציגות הבית המשותף: דירותיהם",
+      "העברה לבנק: על ידי חבר נציגות",
+      "מקום המצאם: העברה ישירה"
     ],
     "product_hints": [
-      "עד הגג",
+      "פוליסת ביטוח עד הגג",
       "ביטוח בית משותף"
     ]
   },
   "sketch": "המצאם בדירתו של גזבר נציגות הבית המשותף, ובהיעדר גזבר, בדירותיהם של מי .1.1 מחברי נציגות הבית המשותף.\n, אל הבנק, על ידי חבר נציגות 1.1 העברתם הישירה ממקום המצאם, כאמור בסעיף .1.2 הבית המשותף, לצורך הפקדתם בו או לצורך ביצוע תשלומים עבור הבית המשותף.",
-  "embed_text": "פוליסת 'עד הגג' לביטוח בית משותף מכסה אובדן או נזק פיזי לכספי הבית המשותף, כגון מזומן או שיקים, בעת העברתם לבנק על ידי נציגות הבית המשותף. הכיסוי חל על מקרים שנגרמו מכל סיבה שלא הוחרגה, לדוגמה, העברה ישירה ממקום המצאם בסעיף 1.2. סעיף 1.1 מתייחס להמצאת הכספים בדירת הגזבר או חברי הנציגות.",
-  "payload": "טבלה: כספי בית משותף\nThis table details the conditions for insurance coverage of funds held by a shared apartment building (בית משותף). It outlines scenarios where the insurer will compensate for loss or damage to these funds.\nממדים: Scenarios involving the handling of shared building funds, Conditions and methods of fund handling\n\nהמצאם בדירתו של גזבר נציגות הבית המשותף, ובהיעדר גזבר, בדירותיהם של מי .1.1 מחברי נציגות הבית המשותף.\n, אל הבנק, על ידי חבר נציגות 1.1 העברתם הישירה ממקום המצאם, כאמור בסעיף .1.2 הבית המשותף, לצורך הפקדתם בו או לצורך ביצוע תשלומים עבור הבית המשותף."
+  "embed_text": "טבלה זו מתייחסת לכיסוי ביטוחי עבור כספי הבית המשותף, ומפרטת את הנהלים להעברתם ושימושם. הכיסוי חל על אובדן או נזק פיזי לכספים אלו, בתנאים מסוימים. הרישום המסודר של הכנסות והוצאות הכספים הוא תנאי הכרחי לכיסוי. סעיפים רלוונטיים כוללים המצאת הכספים בדירת הגזבר או חברי נציגות הבית המשותף, והעברתם לבנק לצורך הפקדה או תשלומים. כיסוי זה רלוונטי עבור כספי הבית המשותף, העברות ישירות, ושיקים או המחאות. פוליסת ביטוח עד הגג לביטוח בית משותף מספקת הגנה על כספים אלו. This table details the conditions for insurance coverage of funds belonging to a shared apartment building (בית משותף). It outlines how funds are handled and the circumstances under which insurance applies. בין הערכים בטבלה: העברה לבנק: על ידי חבר נציגות; מקום המצאם: העברה ישירה.",
+  "payload": "טבלה: כספי בית משותף\nThis table details the conditions for insurance coverage of funds belonging to a shared apartment building (בית משותף). It outlines how funds are handled and the circumstances under which insurance applies.\nממדים: Circumstances of fund handling, Method of handling/location of funds\n\nהמצאם בדירתו של גזבר נציגות הבית המשותף, ובהיעדר גזבר, בדירותיהם של מי .1.1 מחברי נציגות הבית המשותף.\n, אל הבנק, על ידי חבר נציגות 1.1 העברתם הישירה ממקום המצאם, כאמור בסעיף .1.2 הבית המשותף, לצורך הפקדתם בו או לצורך ביצוע תשלומים עבור הבית המשותף."
 }

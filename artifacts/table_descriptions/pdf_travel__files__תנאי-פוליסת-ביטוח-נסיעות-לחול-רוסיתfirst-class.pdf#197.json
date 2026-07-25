@@ -2,28 +2,27 @@
   "id": "pdf:travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-רוסיתfirst-class.pdf#197",
   "source": "llm",
   "description": {
-    "title": "ביטוח נסיעות - אופניים",
-    "summary": "This table details the insurance coverage and personal participation amounts for bicycle-related incidents during travel. It outlines the maximum coverage amounts (2,500$, 4,500$, 6,000$) and the personal participation fees for different scenarios.",
-    "embed_passage": "פוליסת ביטוח נסיעות רוסיתfirst-class כוללת כיסוי לנזקים לאופניים במהלך נסיעה, בהתאם לסכום שנרכש. במקרה של אובדן מוחלט, ההשתתפות העצמית היא 50$, במקרה של גניבה 250$, ובמקרה של נזק או גניבה אצל חברת תעופה 1,000$. סכום הכיסוי המקסימלי יכול להגיע עד 6,000$.",
-    "row_axis": "Type of incident (total loss, theft, damage)",
-    "column_axis": "Coverage amount and personal participation",
+    "title": "גבולות אחריות ודמי ביטוח",
+    "summary": "This table details the insurance premium and personal participation amounts for travel insurance, specifically related to bicycle coverage. It outlines the insurer's obligations based on the purchased sum and deductibles for total loss, theft, or damage.",
+    "embed_passage": "טבלה זו מפרטת את דמי הביטוח וההשתתפות העצמית עבור ביטוח נסיעות, המתייחסת במיוחד לכיסוי אופניים. סכומי הפיצוי יהיו עד 2,500$, 4,500$ או 6,000$ בהתאם לסכום שנרכש, בניכוי השתתפות עצמית. ההשתתפות העצמית במקרה של אובדן מוחלט היא 50$, בגניבה 250$, ובנזק או גניבה אצל חברת תעופה 1,000$. ביטוח נסיעות רוסיתfirst-class מציע כיסוי מגוון.",
+    "row_axis": "סוג נזק / אירוע",
+    "column_axis": "סכום ביטוח / השתתפות עצמית",
     "units": [
-      "$",
-      "₪"
+      "$"
     ],
     "notable_values": [
-      "Total loss participation: 50$",
-      "Theft participation: 250$",
-      "Damage/theft (with airline) participation: 1,000$",
-      "Maximum coverage: 2,500$",
-      "Maximum coverage: 6,000$"
+      "אובדן מוחלט: 50$",
+      "גניבה: 250$",
+      "נזק / גניבה אצל חברת תעופה: 1,000$",
+      "סכום ביטוח: 2,500$",
+      "סכום ביטוח: 4,500$",
+      "סכום ביטוח: 6,000$"
     ],
     "product_hints": [
-      "רוסיתfirst-class",
       "ביטוח נסיעות"
     ]
   },
   "sketch": "23.4. Страховое вознаграждение и личное участие:\nСтраховое вознаграждение будет составлять сумму, не превышающую указанную в таблице границ ответственности, приведенной в данном полисе в соответствии с суммой, которая была приобретена и указана в листе-списке и за вычетом личного участия, как указано в таблице границ ответственности, приведенной в полисе.\nОбязательства страховщика в соответствии с этой главой будет составлять 2,500$ или 4,500$ или 6,000$ в соответствии с суммой, которая будет приобретена и указана в листе-списке (за вычетом личного участия в случае полной гибели - 50$, кражи - 250$, ущерба или кражи, когда велосипед находился у авиаперевозчика - 1,000$), и в соответствии с указанным в таблице границ ответственности.",
-  "embed_text": "פוליסת ביטוח נסיעות רוסיתfirst-class כוללת כיסוי לנזקים לאופניים במהלך נסיעה, בהתאם לסכום שנרכש. במקרה של אובדן מוחלט, ההשתתפות העצמית היא 50$, במקרה של גניבה 250$, ובמקרה של נזק או גניבה אצל חברת תעופה 1,000$. סכום הכיסוי המקסימלי יכול להגיע עד 6,000$.",
-  "payload": "טבלה: ביטוח נסיעות - אופניים\nThis table details the insurance coverage and personal participation amounts for bicycle-related incidents during travel. It outlines the maximum coverage amounts (2,500$, 4,500$, 6,000$) and the personal participation fees for different scenarios.\nממדים: Type of incident (total loss, theft, damage), Coverage amount and personal participation\n\n23.4. Страховое вознаграждение и личное участие:\nСтраховое вознаграждение будет составлять сумму, не превышающую указанную в таблице границ ответственности, приведенной в данном полисе в соответствии с суммой, которая была приобретена и указана в листе-списке и за вычетом личного участия, как указано в таблице границ ответственности, приведенной в полисе.\nОбязательства страховщика в соответствии с этой главой будет составлять 2,500$ или 4,500$ или 6,000$ в соответствии с суммой, которая будет приобретена и указана в листе-списке (за вычетом личного участия в случае полной гибели - 50$, кражи - 250$, ущерба или кражи, когда велосипед находился у авиаперевозчика - 1,000$), и в соответствии с указанным в таблице границ ответственности."
+  "embed_text": "טבלה זו מפרטת את דמי הביטוח וההשתתפות העצמית עבור ביטוח נסיעות, המתייחסת במיוחד לכיסוי אופניים. סכומי הפיצוי יהיו עד 2,500$, 4,500$ או 6,000$ בהתאם לסכום שנרכש, בניכוי השתתפות עצמית. ההשתתפות העצמית במקרה של אובדן מוחלט היא 50$, בגניבה 250$, ובנזק או גניבה אצל חברת תעופה 1,000$. ביטוח נסיעות רוסיתfirst-class מציע כיסוי מגוון. This table details the insurance premium and personal participation amounts for travel insurance, specifically related to bicycle coverage. It outlines the insurer's obligations based on the purchased sum and deductibles for total loss, theft, or damage.",
+  "payload": "טבלה: גבולות אחריות ודמי ביטוח\nThis table details the insurance premium and personal participation amounts for travel insurance, specifically related to bicycle coverage. It outlines the insurer's obligations based on the purchased sum and deductibles for total loss, theft, or damage.\nממדים: סוג נזק / אירוע, סכום ביטוח / השתתפות עצמית\n\n23.4. Страховое вознаграждение и личное участие:\nСтраховое вознаграждение будет составлять сумму, не превышающую указанную в таблице границ ответственности, приведенной в данном полисе в соответствии с суммой, которая была приобретена и указана в листе-списке и за вычетом личного участия, как указано в таблице границ ответственности, приведенной в полисе.\nОбязательства страховщика в соответствии с этой главой будет составлять 2,500$ или 4,500$ или 6,000$ в соответствии с суммой, которая будет приобретена и указана в листе-списке (за вычетом личного участия в случае полной гибели - 50$, кражи - 250$, ущерба или кражи, когда велосипед находился у авиаперевозчика - 1,000$), и в соответствии с указанным в таблице границ ответственности."
 }

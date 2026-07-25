@@ -2,24 +2,24 @@
   "id": "pdf:health/files/תנאי-פוליסה-לניתוחים-upgrade.pdf#21",
   "source": "llm",
   "description": {
-    "title": "תנאי פוליסה לניתוחים",
-    "summary": "This table outlines exclusions to a surgery insurance policy. It details situations where the insurance company is not liable to pay benefits, such as pre-existing conditions or cosmetic procedures.",
-    "embed_passage": "פוליסת \"ניתוחים upgrade\" אינה מכסה ניתוחים אסתטיים שאינם נובעים מצורך רפואי. כמו כן, הפוליסה לא תכסה ניתוח שהתרחש לפני תחילת הביטוח או לאחר תום תקופת הביטוח. לדוגמה, ניתוח מחליף ניתוח מסיבות של עקרות לא יכוסה.",
-    "row_axis": "exclusion reason",
-    "column_axis": "details of exclusion",
+    "title": "חריגים - ניתוחים",
+    "summary": "This table lists exclusions to insurance coverage for surgeries. It details situations where the insurance company is not responsible for payment.",
+    "embed_passage": "טבלה זו מפרטת חריגים לפוליסת ביטוח ניתוחים, ומציינת מקרים בהם החברה לא תשלם תגמולים. החריגים כוללים ניתוחים שבוצעו לפני או אחרי תקופת הביטוח, ניתוחים קוסמטיים, וניתוחים שאינם רפואיים. הפוליסה הרלוונטית היא 'ניתוחים upgrade'. בין החריגים המפורטים ניתן למצוא ניתוחים מחליפים מסיבות של עקרות, פוריות, עיקור מרצון והפלה (למעט מסיבות רפואיות), וכן ניתוחים אסתטיים. כמו כן, מצוינים חריגים הקשורים לניתוחי בריאטרים עבור מבוטחים עם BMI גבוה.",
+    "row_axis": "סוג חריג",
+    "column_axis": "תיאור החריג",
     "units": [],
     "notable_values": [
-      "exclusion start date: before policy start date",
-      "exclusion end date: after policy end date",
-      "BMI threshold: 36",
-      "BMI threshold: 40",
-      "exclusion: fertility treatments"
+      "תקופת הביטוח: לפני/אחרי",
+      "ניתוח מחליף: עקרות, פוריות, עיקור",
+      "ניתוח קוסמטי: מטרות אסתטיות",
+      "BMI: מעל 36",
+      "BMI: מעל 40"
     ],
     "product_hints": [
       "ניתוחים upgrade"
     ]
   },
   "sketch": ": החברה לא תהא אחראית ולא תהא חייבת לשלם תגמולי ביטוח בכל אחד מהמקרים הבאים\n; מקרה הביטוח אירע לפני יום תחילת הביטוח, לאחר תום תקופת הביטוח או במהלך תקופת האכשרה 6.1 ניתוח או טיפול מחליף ניתוח מסיבות של עקרות, פוריות, עיקור מרצון והפלה, למעט הפלה הנדרשת 6.2\n; מסיבה רפואית ה ה, קוסמטיק ניתוח או טיפול מחליף ניתוח או טיפול שאינו נובע מצורך רפואי ונועד למטרות  אסתטיק 6.3 : ם ם הבאי או תיקון קוצר ראיה, למעט הניתוחי",
-  "embed_text": "פוליסת \"ניתוחים upgrade\" אינה מכסה ניתוחים אסתטיים שאינם נובעים מצורך רפואי. כמו כן, הפוליסה לא תכסה ניתוח שהתרחש לפני תחילת הביטוח או לאחר תום תקופת הביטוח. לדוגמה, ניתוח מחליף ניתוח מסיבות של עקרות לא יכוסה.",
-  "payload": "טבלה: תנאי פוליסה לניתוחים\nThis table outlines exclusions to a surgery insurance policy. It details situations where the insurance company is not liable to pay benefits, such as pre-existing conditions or cosmetic procedures.\nממדים: exclusion reason, details of exclusion\n\n: החברה לא תהא אחראית ולא תהא חייבת לשלם תגמולי ביטוח בכל אחד מהמקרים הבאים\n; מקרה הביטוח אירע לפני יום תחילת הביטוח, לאחר תום תקופת הביטוח או במהלך תקופת האכשרה 6.1 ניתוח או טיפול מחליף ניתוח מסיבות של עקרות, פוריות, עיקור מרצון והפלה, למעט הפלה הנדרשת 6.2\n; מסיבה רפואית ה ה, קוסמטיק ניתוח או טיפול מחליף ניתוח או טיפול שאינו נובע מצורך רפואי ונועד למטרות  אסתטיק 6.3 : ם ם הבאי או תיקון קוצר ראיה, למעט הניתוחי"
+  "embed_text": "טבלה זו מפרטת חריגים לפוליסת ביטוח ניתוחים, ומציינת מקרים בהם החברה לא תשלם תגמולים. החריגים כוללים ניתוחים שבוצעו לפני או אחרי תקופת הביטוח, ניתוחים קוסמטיים, וניתוחים שאינם רפואיים. הפוליסה הרלוונטית היא 'ניתוחים upgrade'. בין החריגים המפורטים ניתן למצוא ניתוחים מחליפים מסיבות של עקרות, פוריות, עיקור מרצון והפלה (למעט מסיבות רפואיות), וכן ניתוחים אסתטיים. כמו כן, מצוינים חריגים הקשורים לניתוחי בריאטרים עבור מבוטחים עם BMI גבוה. This table lists exclusions to insurance coverage for surgeries. It details situations where the insurance company is not responsible for payment. בין הערכים בטבלה: ניתוח קוסמטי: מטרות אסתטיות.",
+  "payload": "טבלה: חריגים - ניתוחים\nThis table lists exclusions to insurance coverage for surgeries. It details situations where the insurance company is not responsible for payment.\nממדים: סוג חריג, תיאור החריג\n\n: החברה לא תהא אחראית ולא תהא חייבת לשלם תגמולי ביטוח בכל אחד מהמקרים הבאים\n; מקרה הביטוח אירע לפני יום תחילת הביטוח, לאחר תום תקופת הביטוח או במהלך תקופת האכשרה 6.1 ניתוח או טיפול מחליף ניתוח מסיבות של עקרות, פוריות, עיקור מרצון והפלה, למעט הפלה הנדרשת 6.2\n; מסיבה רפואית ה ה, קוסמטיק ניתוח או טיפול מחליף ניתוח או טיפול שאינו נובע מצורך רפואי ונועד למטרות  אסתטיק 6.3 : ם ם הבאי או תיקון קוצר ראיה, למעט הניתוחי"
 }

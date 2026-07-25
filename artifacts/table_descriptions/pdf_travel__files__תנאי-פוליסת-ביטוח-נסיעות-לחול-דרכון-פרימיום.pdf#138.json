@@ -2,11 +2,11 @@
   "id": "pdf:travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-דרכון-פרימיום.pdf#138",
   "source": "llm",
   "description": {
-    "title": "ביטוח כבודה",
-    "summary": "This table details coverage for lost or stolen baggage during travel. It specifies the maximum payout amounts for different types of lost items, subject to policy limits.",
-    "embed_passage": "פוליסת דרכון פרימיום כוללת הרחבה לכבודה, המכסה אובדן או גניבה של פריטים אישיים בתנאי שנרכש הכיסוי. גבולות האחריות בפוליסה מציינים סכומים מקסימליים, לדוגמה עד $2,250 עבור כבודה כללית, ועד $300 לפריט בודד. סכומים אלו מפורטים בטבלה, תוך התחשבות בבלאי והשתתפות עצמית.",
-    "row_axis": "types of baggage loss/delay scenarios",
-    "column_axis": "coverage details (limits, self-participation)",
+    "title": "הרחבה לכבודה",
+    "summary": "This table details coverage for lost or stolen baggage (personal belongings) under a travel insurance policy. It specifies the maximum payout amounts for different types of losses, subject to policy limits.",
+    "embed_passage": "טבלה זו מתארת הרחבה לפוליסת ביטוח נסיעות לחול, ספציפית להרחבת כיסוי לכבודה. הכיסוי חל מתחילת הנסיעה ועד לחזרה לבית, וניתן לרכוש אותו תמורת דמי ביטוח נוספים. גבולות האחריות מפורטים בטבלה זו, ומשתנים בהתאם לסוג האובדן. הרחבה לכבודה כוללת כיסוי עבור אובדן או גניבה של כבודה, רכישת פריטים חיוניים עקב איחור בכבודה, ואובדן מזוודות או ארנקים. גובה הפיצוי המקסימלי עבור כבודה הוא $2,250, עבור פריט בודד $300, ועבור רכישת פריטים חיוניים $150.",
+    "row_axis": "types of baggage loss/delay",
+    "column_axis": "coverage details (limits, conditions)",
     "units": [
       "$",
       "שעות"
@@ -14,16 +14,15 @@
     "notable_values": [
       "maximum baggage coverage: $2,250",
       "single item coverage: $300",
-      "self-participation for single item: $50",
-      "essential items coverage (delay): $150",
-      "lost suitcase/wallet coverage: $75"
+      "essential items coverage: $150",
+      "lost suitcase/wallet coverage: $75",
+      "delay threshold: 24 hours"
     ],
     "product_hints": [
-      "דרכון פרימיום",
-      "ביטוח כבודה"
+      "דרכון פרימיום"
     ]
   },
   "sketch": "החל מעזיבת המבוטח את ביתו ישירות בדרכו -תקופת הפוליסה לגבי ביטוח כבודה . 14.2 לחו\"ל או אם מסר את הכבודה למוביל לפני כן - מרגע המסירה, ועד לשובו מחו\"ל ישירות לביתו, הכל בתוך תקופת הביטוח כמצוין בדף הרשימה.\nהמבטח ישלם למבוטח וישפה אותו במקרה של אובדן או גניבה התחייבות המבטח: . 14.3 , ובכפוף לנקוב בטבלת גבולות האחריות בפוליסה $  2,250 של כבודה עד לסך כולל של .( אך לא יותר מערכה הממשי )בניכוי בלאי והשתתפות עצמית",
-  "embed_text": "פוליסת דרכון פרימיום כוללת הרחבה לכבודה, המכסה אובדן או גניבה של פריטים אישיים בתנאי שנרכש הכיסוי. גבולות האחריות בפוליסה מציינים סכומים מקסימליים, לדוגמה עד $2,250 עבור כבודה כללית, ועד $300 לפריט בודד. סכומים אלו מפורטים בטבלה, תוך התחשבות בבלאי והשתתפות עצמית.",
-  "payload": "טבלה: ביטוח כבודה\nThis table details coverage for lost or stolen baggage during travel. It specifies the maximum payout amounts for different types of lost items, subject to policy limits.\nממדים: types of baggage loss/delay scenarios, coverage details (limits, self-participation)\n\nהחל מעזיבת המבוטח את ביתו ישירות בדרכו -תקופת הפוליסה לגבי ביטוח כבודה . 14.2 לחו\"ל או אם מסר את הכבודה למוביל לפני כן - מרגע המסירה, ועד לשובו מחו\"ל ישירות לביתו, הכל בתוך תקופת הביטוח כמצוין בדף הרשימה.\nהמבטח ישלם למבוטח וישפה אותו במקרה של אובדן או גניבה התחייבות המבטח: . 14.3 , ובכפוף לנקוב בטבלת גבולות האחריות בפוליסה $  2,250 של כבודה עד לסך כולל של .( אך לא יותר מערכה הממשי )בניכוי בלאי והשתתפות עצמית"
+  "embed_text": "טבלה זו מתארת הרחבה לפוליסת ביטוח נסיעות לחול, ספציפית להרחבת כיסוי לכבודה. הכיסוי חל מתחילת הנסיעה ועד לחזרה לבית, וניתן לרכוש אותו תמורת דמי ביטוח נוספים. גבולות האחריות מפורטים בטבלה זו, ומשתנים בהתאם לסוג האובדן. הרחבה לכבודה כוללת כיסוי עבור אובדן או גניבה של כבודה, רכישת פריטים חיוניים עקב איחור בכבודה, ואובדן מזוודות או ארנקים. גובה הפיצוי המקסימלי עבור כבודה הוא $2,250, עבור פריט בודד $300, ועבור רכישת פריטים חיוניים $150. This table details coverage for lost or stolen baggage (personal belongings) under a travel insurance policy. It specifies the maximum payout amounts for different types of losses, subject to policy limits. בין הערכים בטבלה: lost suitcase/wallet coverage: $75; delay threshold: 24 hours.",
+  "payload": "טבלה: הרחבה לכבודה\nThis table details coverage for lost or stolen baggage (personal belongings) under a travel insurance policy. It specifies the maximum payout amounts for different types of losses, subject to policy limits.\nממדים: types of baggage loss/delay, coverage details (limits, conditions)\n\nהחל מעזיבת המבוטח את ביתו ישירות בדרכו -תקופת הפוליסה לגבי ביטוח כבודה . 14.2 לחו\"ל או אם מסר את הכבודה למוביל לפני כן - מרגע המסירה, ועד לשובו מחו\"ל ישירות לביתו, הכל בתוך תקופת הביטוח כמצוין בדף הרשימה.\nהמבטח ישלם למבוטח וישפה אותו במקרה של אובדן או גניבה התחייבות המבטח: . 14.3 , ובכפוף לנקוב בטבלת גבולות האחריות בפוליסה $  2,250 של כבודה עד לסך כולל של .( אך לא יותר מערכה הממשי )בניכוי בלאי והשתתפות עצמית"
 }

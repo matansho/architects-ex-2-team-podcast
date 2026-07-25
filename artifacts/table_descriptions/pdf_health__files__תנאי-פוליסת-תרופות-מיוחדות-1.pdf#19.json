@@ -2,22 +2,26 @@
   "id": "pdf:health/files/תנאי-פוליסת-תרופות-מיוחדות-1.pdf#19",
   "source": "llm",
   "description": {
-    "title": "תנאי פוליסת תרופות מיוחדות",
-    "summary": "This table details exclusions to a special medication insurance policy. It lists scenarios where coverage is not provided, such as events occurring before the policy start date or due to specific conditions.",
-    "embed_passage": "פוליסת תרופות מיוחדות זו אינה מכסה ביטוח מקרה שאירע לפני תחילת הביטוח, או עקב פעילות צבאית. תרופתי טיפול ליריון, לידה או הפלה אינם כלולים, וכן תרופות לטיפול בבעיות פוריות. במקרים מסוימים, BMI מעל 36 עשוי להשפיע על הכיסוי.",
-    "row_axis": "exclusion scenario",
-    "column_axis": "exclusion details",
+    "title": "חריגים לפוליסת תרופות מיוחדות",
+    "summary": "This table lists exclusions to coverage under a special medications insurance policy. It details situations where insurance coverage does not apply, such as events occurring before the policy start date or due to specific conditions.",
+    "embed_passage": "טבלה זו מפרטת חריגים לפוליסת תרופות מיוחדות, ומציינת מצבים בהם הכיסוי הביטוחי אינו תקף. ניתן לחפש חריגים לפי סוג האירוע או המצב הרפואי. החריגים כוללים אירועים שאירעו לפני תחילת הביטוח, טיפולים הקשורים להריון ולידה, וטיפולים הקשורים לפעילות צבאית או מלחמה. פוליסת תרופות מיוחדות מכסה מקרים שאינם כלולים בסל שירותי הבריאות. בין החריגים הנכללים: טיפול תרופתי לעיקור או הפלה מרצון, תרופות הקשורות לבעיות שיניים, ופגיעה מנשק לא קונבנציונלי. ",
+    "row_axis": "סוג חריג",
+    "column_axis": "תיאור החריג",
     "units": [],
     "notable_values": [
-      "BMI: 36",
-      "BMI: 40",
-      "days: 183"
+      "אירוע לפני תחילת הביטוח: תקופת הביטוח",
+      "טיפול תרופתי: הריון, לידה, הפלה מרצון",
+      "טיפולים: בעיות שיניים",
+      "פעילות צבאית: פעילות עולה או איבה",
+      "פגיעה: גרעיני ביקוע, גרעיני היתוך",
+      "BMI: מעל 36",
+      "שהייה מחוץ לישראל: לפחות 183 ימים"
     ],
     "product_hints": [
       "תרופות מיוחדות"
     ]
   },
   "sketch": "תקופת במהלך או הביטוח תקופת תום לאחר , הביטוח תחילת יום לפני אירע ש ביטוח מקרה .4.1 ; ה האכשר\n; והפלה מרצון עיקור , פוריות , ת אונו אין , ת עקרו , לידה , היריון של מסיבות ניתן ש תרופתי טיפול .4.2\n; ם בחניכיי או בשיניים ה ר הקשו ה תרופ .4.3\nפ אופי בעלת ה ישיר פעילות או איבה עולת ת, מלחמתי פעילות עקב ר ישי באופן ע שאיר ביטוח מקרה .4.4 ; י צבא\nזיהום או נציונלי ב קונ לא מנשק פגיעה , גרעיני היתוך , גרעיני ביקוע עקב שארע ביטוח מקרה .4.5 ; י רדיואקטיב",
-  "embed_text": "פוליסת תרופות מיוחדות זו אינה מכסה ביטוח מקרה שאירע לפני תחילת הביטוח, או עקב פעילות צבאית. תרופתי טיפול ליריון, לידה או הפלה אינם כלולים, וכן תרופות לטיפול בבעיות פוריות. במקרים מסוימים, BMI מעל 36 עשוי להשפיע על הכיסוי.",
-  "payload": "טבלה: תנאי פוליסת תרופות מיוחדות\nThis table details exclusions to a special medication insurance policy. It lists scenarios where coverage is not provided, such as events occurring before the policy start date or due to specific conditions.\nממדים: exclusion scenario, exclusion details\n\nתקופת במהלך או הביטוח תקופת תום לאחר , הביטוח תחילת יום לפני אירע ש ביטוח מקרה .4.1 ; ה האכשר\n; והפלה מרצון עיקור , פוריות , ת אונו אין , ת עקרו , לידה , היריון של מסיבות ניתן ש תרופתי טיפול .4.2\n; ם בחניכיי או בשיניים ה ר הקשו ה תרופ .4.3\nפ אופי בעלת ה ישיר פעילות או איבה עולת ת, מלחמתי פעילות עקב ר ישי באופן ע שאיר ביטוח מקרה .4.4 ; י צבא\nזיהום או נציונלי ב קונ לא מנשק פגיעה , גרעיני היתוך , גרעיני ביקוע עקב שארע ביטוח מקרה .4.5 ; י רדיואקטיב"
+  "embed_text": "טבלה זו מפרטת חריגים לפוליסת תרופות מיוחדות, ומציינת מצבים בהם הכיסוי הביטוחי אינו תקף. ניתן לחפש חריגים לפי סוג האירוע או המצב הרפואי. החריגים כוללים אירועים שאירעו לפני תחילת הביטוח, טיפולים הקשורים להריון ולידה, וטיפולים הקשורים לפעילות צבאית או מלחמה. פוליסת תרופות מיוחדות מכסה מקרים שאינם כלולים בסל שירותי הבריאות. בין החריגים הנכללים: טיפול תרופתי לעיקור או הפלה מרצון, תרופות הקשורות לבעיות שיניים, ופגיעה מנשק לא קונבנציונלי. This table lists exclusions to coverage under a special medications insurance policy. It details situations where insurance coverage does not apply, such as events occurring before the policy start date or due to specific conditions. בין הערכים בטבלה: אירוע לפני תחילת הביטוח: תקופת הביטוח; BMI: מעל 36; שהייה מחוץ לישראל: לפחות 183 ימים.",
+  "payload": "טבלה: חריגים לפוליסת תרופות מיוחדות\nThis table lists exclusions to coverage under a special medications insurance policy. It details situations where insurance coverage does not apply, such as events occurring before the policy start date or due to specific conditions.\nממדים: סוג חריג, תיאור החריג\n\nתקופת במהלך או הביטוח תקופת תום לאחר , הביטוח תחילת יום לפני אירע ש ביטוח מקרה .4.1 ; ה האכשר\n; והפלה מרצון עיקור , פוריות , ת אונו אין , ת עקרו , לידה , היריון של מסיבות ניתן ש תרופתי טיפול .4.2\n; ם בחניכיי או בשיניים ה ר הקשו ה תרופ .4.3\nפ אופי בעלת ה ישיר פעילות או איבה עולת ת, מלחמתי פעילות עקב ר ישי באופן ע שאיר ביטוח מקרה .4.4 ; י צבא\nזיהום או נציונלי ב קונ לא מנשק פגיעה , גרעיני היתוך , גרעיני ביקוע עקב שארע ביטוח מקרה .4.5 ; י רדיואקטיב"
 }

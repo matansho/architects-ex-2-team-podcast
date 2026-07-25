@@ -2,24 +2,23 @@
   "id": "pdf:travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-רוסיתfirst-class.pdf#202",
   "source": "llm",
   "description": {
-    "title": "רוסית First Class - חריגות",
-    "summary": "This table details exclusions to the 'רוסית First Class' travel insurance policy, specifically related to vehicle use (cars and trailers). It outlines scenarios where coverage is denied, such as driving under the influence or participating in competitions.",
-    "embed_passage": "פוליסת 'רוסית First Class' כוללת חריגות שונות הנוגעות לשימוש ברכב או בנגרר. לדוגמה, נזק שנגרם כתוצאה מנהיגה תחת השפעת סמים אינו מכוסה, וכן שימוש ברכב למטרות תחרותיות. הפוליסה מגדירה גם מקרים של מעשה פלילי או עבירה שבוצעה על ידי הנהג.",
+    "title": "החרגות ביטוח נסיעות - רכב/נגרר",
+    "summary": "This table lists exclusions to travel insurance coverage related to car and trailer use. It details scenarios where coverage is not provided, such as driving under the influence or off-road use.",
+    "embed_passage": "טבלה זו מפרטת החרגות לפוליסת ביטוח נסיעות הקשורה לשימוש ברכב או בנגרר. החרגות אלו כוללות נהיגה תחת השפעת סמים, השתתפות בתחרויות, מעשים פליליים, ושימוש ברכב שלא בכביש סלול. הפוליסה היא 'רוסיתfirst-class'. החרגות אלו רלוונטיות לנהגים מעל גיל 24 ומתחת לגיל 75. נהיגה תחת השפעת סמים, שימוש ברכב למטרות תחרות, מעשה פלילי, שימוש ברכב שלא בכביש סלול.",
     "row_axis": "exclusion scenario",
-    "column_axis": "exclusion details",
+    "column_axis": "exclusion detail",
     "units": [],
     "notable_values": [
-      "driving under the influence: excluded",
-      "competition use: excluded",
-      "intentional act: excluded",
-      "off-road use: excluded"
+      "driving under influence: applicable",
+      "competition use: applicable",
+      "intentional criminal act: applicable",
+      "off-road use: applicable"
     ],
     "product_hints": [
-      "רוסית First Class",
-      "ביטוח נסיעות"
+      "רוסיתfirst-class"
     ]
   },
   "sketch": "24.3.6. Вождение автомобиля застрахованным или лицом, которому было разрешено водить данный автомобиль, под воздействием наркотиков.\n24.3.7. Пользование автомобилем и\\или жилым прицепом в целях участия в каких-либо соревнованиях.\n24.3.8. Умышленно совершенное деяние, преступление и\\ или правонарушение средней тяжести, которое было совершено арендатором и\\или водителем.\n24.3.9. Пользование автомобилем и\\или жилым прицепом не на асфальтированной дороге, предназначающейся для данных видов транспорта.",
-  "embed_text": "פוליסת 'רוסית First Class' כוללת חריגות שונות הנוגעות לשימוש ברכב או בנגרר. לדוגמה, נזק שנגרם כתוצאה מנהיגה תחת השפעת סמים אינו מכוסה, וכן שימוש ברכב למטרות תחרותיות. הפוליסה מגדירה גם מקרים של מעשה פלילי או עבירה שבוצעה על ידי הנהג.",
-  "payload": "טבלה: רוסית First Class - חריגות\nThis table details exclusions to the 'רוסית First Class' travel insurance policy, specifically related to vehicle use (cars and trailers). It outlines scenarios where coverage is denied, such as driving under the influence or participating in competitions.\nממדים: exclusion scenario, exclusion details\n\n24.3.6. Вождение автомобиля застрахованным или лицом, которому было разрешено водить данный автомобиль, под воздействием наркотиков.\n24.3.7. Пользование автомобилем и\\или жилым прицепом в целях участия в каких-либо соревнованиях.\n24.3.8. Умышленно совершенное деяние, преступление и\\ или правонарушение средней тяжести, которое было совершено арендатором и\\или водителем.\n24.3.9. Пользование автомобилем и\\или жилым прицепом не на асфальтированной дороге, предназначающейся для данных видов транспорта."
+  "embed_text": "טבלה זו מפרטת החרגות לפוליסת ביטוח נסיעות הקשורה לשימוש ברכב או בנגרר. החרגות אלו כוללות נהיגה תחת השפעת סמים, השתתפות בתחרויות, מעשים פליליים, ושימוש ברכב שלא בכביש סלול. הפוליסה היא 'רוסיתfirst-class'. החרגות אלו רלוונטיות לנהגים מעל גיל 24 ומתחת לגיל 75. נהיגה תחת השפעת סמים, שימוש ברכב למטרות תחרות, מעשה פלילי, שימוש ברכב שלא בכביש סלול. This table lists exclusions to travel insurance coverage related to car and trailer use. It details scenarios where coverage is not provided, such as driving under the influence or off-road use. בין הערכים בטבלה: driving under influence: applicable; competition use: applicable; intentional criminal act: applicable; off-road use: applicable.",
+  "payload": "טבלה: החרגות ביטוח נסיעות - רכב/נגרר\nThis table lists exclusions to travel insurance coverage related to car and trailer use. It details scenarios where coverage is not provided, such as driving under the influence or off-road use.\nממדים: exclusion scenario, exclusion detail\n\n24.3.6. Вождение автомобиля застрахованным или лицом, которому было разрешено водить данный автомобиль, под воздействием наркотиков.\n24.3.7. Пользование автомобилем и\\или жилым прицепом в целях участия в каких-либо соревнованиях.\n24.3.8. Умышленно совершенное деяние, преступление и\\ или правонарушение средней тяжести, которое было совершено арендатором и\\или водителем.\n24.3.9. Пользование автомобилем и\\или жилым прицепом не на асфальтированной дороге, предназначающейся для данных видов транспорта."
 }

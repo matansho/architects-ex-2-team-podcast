@@ -2,22 +2,22 @@
   "id": "pdf:business/files/פוליסת-מכלול-לחבר-מושב-מהדורת-ינואר-2023.pdf#279",
   "source": "llm",
   "description": {
-    "title": "חישוב פיצויים - מכלול",
-    "summary": "This table details how compensation is calculated under the 'Makhol' insurance policy, specifically regarding loss or damage to insured property. It outlines how payouts are determined based on the loss value, insurance amount, and specific conditions.",
-    "embed_passage": "פוליסת 'מכלול' מגדירה את חישוב הפיצויים בעת אובדן או נזק לרכוש מבוטח. תגמולי הביטוח יחושבו לפי שווי האבדן, אך לא יעלו על סכום הביטוח הנקוב במפרט, לדוגמה סכום של 38. המטרה היא להחזיר את המבוטח למצב שהיה בו לפני מקרה הביטוח.",
-    "row_axis": "calculation method / condition",
-    "column_axis": "description of calculation / condition",
+    "title": "חישוב הפיצוי",
+    "summary": "This table details how insurance payouts are calculated for loss or damage. It outlines the principles used to determine compensation based on the policy’s coverage limits.",
+    "embed_passage": "טבלה זו מתארת את אופן חישוב הפיצויים במקרה של אובדן או נזק, בהתאם לתנאי פוליסת מכלול לחבר מושב. החישוב מתבסס על שווי האובדן או הנזק, אך לא יעלה על סכום הביטוח הנקוב במפרט כסכום ביטוח התכולה. מטרת החישוב היא להחזיר את המבוטח, ככל האפשר, למצב שהיה בו לפני קרות מקרה הביטוח. פוליסת מכלול לחבר מושב, אובדן, נזק, סכום ביטוח התכולה, תגמולי ביטוח, חישוב פיצויים.",
+    "row_axis": "סעיף (clause)",
+    "column_axis": "תיאור החישוב (calculation description)",
     "units": [],
     "notable_values": [
-      "calculation: 18",
-      "maximum payout limit: 38",
-      "employee belongings limit: 5%"
+      "סכום ביטוח התכולה: סכום ביטוח",
+      "אבדן או נזק: שווי האבדן או הנזק",
+      "תגמולי הביטוח: לא יותר מסכום הביטוח הנקוב"
     ],
     "product_hints": [
-      "מכלול"
+      "מכלול לחבר מושב"
     ]
   },
   "sketch": ". חישוב הפיצוי 18\n, .  תגמולי הביטוח שיגיעו למבוטח על פי חלק זה יחושבו וישולמו לפי שווי האבדן או הנזק 18.1 ואולם לא ישולם יותר מסכום הביטוח הנקוב במפרט כסכום ביטוח התכולה והכול להלן. תגמולי הביטוח בשל אבדן או נזק לכמה פריטים לא 38 בכפוף לאמור בסעיף יעלו על הסכום הנקוב במפרט, אם נקוב, כסכום הביטוח של הפריטים.\n.  תגמולי הביטוח יחושבו באופן שיביא את המבוטח, ככל האפשר, למצב שהיה נמצא 18.2 בו אלמלא קרה מקרה הביטוח.",
-  "embed_text": "פוליסת 'מכלול' מגדירה את חישוב הפיצויים בעת אובדן או נזק לרכוש מבוטח. תגמולי הביטוח יחושבו לפי שווי האבדן, אך לא יעלו על סכום הביטוח הנקוב במפרט, לדוגמה סכום של 38. המטרה היא להחזיר את המבוטח למצב שהיה בו לפני מקרה הביטוח.",
-  "payload": "טבלה: חישוב פיצויים - מכלול\nThis table details how compensation is calculated under the 'Makhol' insurance policy, specifically regarding loss or damage to insured property. It outlines how payouts are determined based on the loss value, insurance amount, and specific conditions.\nממדים: calculation method / condition, description of calculation / condition\n\n. חישוב הפיצוי 18\n, .  תגמולי הביטוח שיגיעו למבוטח על פי חלק זה יחושבו וישולמו לפי שווי האבדן או הנזק 18.1 ואולם לא ישולם יותר מסכום הביטוח הנקוב במפרט כסכום ביטוח התכולה והכול להלן. תגמולי הביטוח בשל אבדן או נזק לכמה פריטים לא 38 בכפוף לאמור בסעיף יעלו על הסכום הנקוב במפרט, אם נקוב, כסכום הביטוח של הפריטים.\n.  תגמולי הביטוח יחושבו באופן שיביא את המבוטח, ככל האפשר, למצב שהיה נמצא 18.2 בו אלמלא קרה מקרה הביטוח."
+  "embed_text": "טבלה זו מתארת את אופן חישוב הפיצויים במקרה של אובדן או נזק, בהתאם לתנאי פוליסת מכלול לחבר מושב. החישוב מתבסס על שווי האובדן או הנזק, אך לא יעלה על סכום הביטוח הנקוב במפרט כסכום ביטוח התכולה. מטרת החישוב היא להחזיר את המבוטח, ככל האפשר, למצב שהיה בו לפני קרות מקרה הביטוח. פוליסת מכלול לחבר מושב, אובדן, נזק, סכום ביטוח התכולה, תגמולי ביטוח, חישוב פיצויים. This table details how insurance payouts are calculated for loss or damage. It outlines the principles used to determine compensation based on the policy’s coverage limits. בין הערכים בטבלה: אבדן או נזק: שווי האבדן או הנזק; תגמולי הביטוח: לא יותר מסכום הביטוח הנקוב.",
+  "payload": "טבלה: חישוב הפיצוי\nThis table details how insurance payouts are calculated for loss or damage. It outlines the principles used to determine compensation based on the policy’s coverage limits.\nממדים: סעיף (clause), תיאור החישוב (calculation description)\n\n. חישוב הפיצוי 18\n, .  תגמולי הביטוח שיגיעו למבוטח על פי חלק זה יחושבו וישולמו לפי שווי האבדן או הנזק 18.1 ואולם לא ישולם יותר מסכום הביטוח הנקוב במפרט כסכום ביטוח התכולה והכול להלן. תגמולי הביטוח בשל אבדן או נזק לכמה פריטים לא 38 בכפוף לאמור בסעיף יעלו על הסכום הנקוב במפרט, אם נקוב, כסכום הביטוח של הפריטים.\n.  תגמולי הביטוח יחושבו באופן שיביא את המבוטח, ככל האפשר, למצב שהיה נמצא 18.2 בו אלמלא קרה מקרה הביטוח."
 }

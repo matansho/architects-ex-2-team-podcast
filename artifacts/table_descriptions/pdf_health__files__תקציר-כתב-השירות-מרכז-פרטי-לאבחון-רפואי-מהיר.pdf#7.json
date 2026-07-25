@@ -2,26 +2,27 @@
   "id": "pdf:health/files/תקציר-כתב-השירות-מרכז-פרטי-לאבחון-רפואי-מהיר.pdf#7",
   "source": "llm",
   "description": {
-    "title": "אבחון רפואי מהיר",
+    "title": "כתב שירות - אבחון רפואי מהיר",
     "summary": "This table details the self-participation amounts for different diagnostic processes within the 'אבחון רפואי מהיר' service plan. It outlines the costs associated with basic and comprehensive diagnostic procedures.",
-    "embed_passage": "תכנית השירות 'אבחון רפואי מהיר' כוללת תהליכי אבחון בסיסיים ומקיפים, כאשר סכום ההשתתפות העצמית משתנה בהתאם לסוג הבדיקה. לדוגמה, לפגישה ראשונית עם רנטגן, דם ושתן, ההשתתפות העצמית היא ₪ 180, בעוד שתהליך אבחון מקיף יכול להגיע ל-₪ 500.",
+    "embed_passage": "טבלה זו מתארת את סכומי ההשתתפות העצמית עבור תהליכי אבחון שונים במסגרת תכנית השירות 'אבחון רפואי מהיר'. ניתן למצוא כאן מידע על בדיקות אבחון בסיסיות ומקיפות, וכן את העלויות הכרוכות בהן. טבלה זו מסייעת למנויים להבין את חובותיהם הכספיות בעת שימוש בשירותי התכנית. סעיפים רלוונטיים כוללים 2.1.1.6, 2.1.1.7 ו-2.1.1.8. סכומים לדוגמה כוללים ₪ 180 עבור פגישה ראשונה ו-₪ 500 עבור אבחון מקיף. תהליכים אבחוניים כוללים רנטגן, בדיקות דם ושתן, ו-MRI.",
     "row_axis": "Diagnostic process type (basic/comprehensive)",
-    "column_axis": "Self-participation amount and process description",
+    "column_axis": "Service description, self-participation amount, relevant section",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "Basic diagnosis self-participation: ₪ 180",
-      "Comprehensive diagnosis self-participation: ₪ 500",
-      "Section 2.1.1.6: Initial diagnostic tests",
-      "Section 2.1.1.7: Comprehensive diagnostic process",
-      "Section 2.1.1.8: Self-participation"
+      "Section: 2.1.1.6",
+      "Self-participation: ₪ 180",
+      "Section: 2.1.1.7",
+      "Self-participation: ₪ 500",
+      "Diagnostic process: Basic diagnosis",
+      "Diagnostic process: Comprehensive diagnosis"
     ],
     "product_hints": [
       "אבחון רפואי מהיר"
     ]
   },
   "sketch": "ת שירו בכתב השירותים תיאור תמצית.העצמית השתתפות,ת שירו בכתב השירותים תיאור תמצית.ת השירו תיאור,ת שירו בכתב השירותים תיאור תמצית.ת השירו שם\nס ת השתתפו - ת לתוכני 2.1.1.6 עיף .₪ 180 בסך עצמית,\"לפגישה זכאי המנוי - לתוכנית 2.1.1.6 סעיף הבדיקות את יקבע אשר ממיין רופא עם רנטגן( שתן, )דם, הראשונות האבחנתיות אצל האבחון במסגרת לביצוע הנדרשות ת. השירו ספק\",בסיסי אבחון תהליך\nת השתתפו - לתוכנית 2.1.1.7 סעיף .₪ 500 בסך עצמית השירות את גם )כולל במצטבר .( בסיסי אבחון בתהליך,\"ועל הצורך במידת - ת לתוכני 2.1.1.7 סעיף תהליך יכלול הממיין, הרופא דעת שיקול פי נוספות אבחנתיות ת רפואיו בדיקות האבחון שבאבחון לאלו מיפויים( , MRI )כגון ויתאפשרו ייקבעו ת הבדיקו הבסיסי. קצר. זמן תוך , ת השירו ספק אצל לביצוע\",מקיף אבחון תהליך\n\"ס ההשתתפות ת, לתוכני 2.1.1.8 עיף -",
-  "embed_text": "תכנית השירות 'אבחון רפואי מהיר' כוללת תהליכי אבחון בסיסיים ומקיפים, כאשר סכום ההשתתפות העצמית משתנה בהתאם לסוג הבדיקה. לדוגמה, לפגישה ראשונית עם רנטגן, דם ושתן, ההשתתפות העצמית היא ₪ 180, בעוד שתהליך אבחון מקיף יכול להגיע ל-₪ 500.",
-  "payload": "טבלה: אבחון רפואי מהיר\nThis table details the self-participation amounts for different diagnostic processes within the 'אבחון רפואי מהיר' service plan. It outlines the costs associated with basic and comprehensive diagnostic procedures.\nממדים: Diagnostic process type (basic/comprehensive), Self-participation amount and process description\n\nת שירו בכתב השירותים תיאור תמצית.העצמית השתתפות,ת שירו בכתב השירותים תיאור תמצית.ת השירו תיאור,ת שירו בכתב השירותים תיאור תמצית.ת השירו שם\nס ת השתתפו - ת לתוכני 2.1.1.6 עיף .₪ 180 בסך עצמית,\"לפגישה זכאי המנוי - לתוכנית 2.1.1.6 סעיף הבדיקות את יקבע אשר ממיין רופא עם רנטגן( שתן, )דם, הראשונות האבחנתיות אצל האבחון במסגרת לביצוע הנדרשות ת. השירו ספק\",בסיסי אבחון תהליך\nת השתתפו - לתוכנית 2.1.1.7 סעיף .₪ 500 בסך עצמית השירות את גם )כולל במצטבר .( בסיסי אבחון בתהליך,\"ועל הצורך במידת - ת לתוכני 2.1.1.7 סעיף תהליך יכלול הממיין, הרופא דעת שיקול פי נוספות אבחנתיות ת רפואיו בדיקות האבחון שבאבחון לאלו מיפויים( , MRI )כגון ויתאפשרו ייקבעו ת הבדיקו הבסיסי. קצר. זמן תוך , ת השירו ספק אצל לביצוע\",מקיף אבחון תהליך\n\"ס ההשתתפות ת, לתוכני 2.1.1.8 עיף -"
+  "embed_text": "טבלה זו מתארת את סכומי ההשתתפות העצמית עבור תהליכי אבחון שונים במסגרת תכנית השירות 'אבחון רפואי מהיר'. ניתן למצוא כאן מידע על בדיקות אבחון בסיסיות ומקיפות, וכן את העלויות הכרוכות בהן. טבלה זו מסייעת למנויים להבין את חובותיהם הכספיות בעת שימוש בשירותי התכנית. סעיפים רלוונטיים כוללים 2.1.1.6, 2.1.1.7 ו-2.1.1.8. סכומים לדוגמה כוללים ₪ 180 עבור פגישה ראשונה ו-₪ 500 עבור אבחון מקיף. תהליכים אבחוניים כוללים רנטגן, בדיקות דם ושתן, ו-MRI. This table details the self-participation amounts for different diagnostic processes within the 'אבחון רפואי מהיר' service plan. It outlines the costs associated with basic and comprehensive diagnostic procedures. בין הערכים בטבלה: Diagnostic process: Basic diagnosis; Diagnostic process: Comprehensive diagnosis.",
+  "payload": "טבלה: כתב שירות - אבחון רפואי מהיר\nThis table details the self-participation amounts for different diagnostic processes within the 'אבחון רפואי מהיר' service plan. It outlines the costs associated with basic and comprehensive diagnostic procedures.\nממדים: Diagnostic process type (basic/comprehensive), Service description, self-participation amount, relevant section\n\nת שירו בכתב השירותים תיאור תמצית.העצמית השתתפות,ת שירו בכתב השירותים תיאור תמצית.ת השירו תיאור,ת שירו בכתב השירותים תיאור תמצית.ת השירו שם\nס ת השתתפו - ת לתוכני 2.1.1.6 עיף .₪ 180 בסך עצמית,\"לפגישה זכאי המנוי - לתוכנית 2.1.1.6 סעיף הבדיקות את יקבע אשר ממיין רופא עם רנטגן( שתן, )דם, הראשונות האבחנתיות אצל האבחון במסגרת לביצוע הנדרשות ת. השירו ספק\",בסיסי אבחון תהליך\nת השתתפו - לתוכנית 2.1.1.7 סעיף .₪ 500 בסך עצמית השירות את גם )כולל במצטבר .( בסיסי אבחון בתהליך,\"ועל הצורך במידת - ת לתוכני 2.1.1.7 סעיף תהליך יכלול הממיין, הרופא דעת שיקול פי נוספות אבחנתיות ת רפואיו בדיקות האבחון שבאבחון לאלו מיפויים( , MRI )כגון ויתאפשרו ייקבעו ת הבדיקו הבסיסי. קצר. זמן תוך , ת השירו ספק אצל לביצוע\",מקיף אבחון תהליך\n\"ס ההשתתפות ת, לתוכני 2.1.1.8 עיף -"
 }

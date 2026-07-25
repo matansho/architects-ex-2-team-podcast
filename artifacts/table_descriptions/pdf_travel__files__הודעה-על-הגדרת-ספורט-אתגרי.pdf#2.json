@@ -3,21 +3,26 @@
   "source": "llm",
   "description": {
     "title": "ספורט אתגרי חובבני",
-    "summary": "This table lists amateur extreme sports covered (or excluded) by insurance policies. It's used to determine if a specific activity is considered high-risk and affects coverage.",
-    "embed_passage": "פוליסות ביטוח הכוללות חריג לספורט אתגרי חובבני מתייחסות לענפים מסוכנים במיוחד, כגון צלילה לעומק מעל 3 מטר, טיפוס הרים בעזרת חבלים, וסקי מים. רשימת ענפי הספורט האתגרי חובבני מתעדכנת באתר החברה. לדוגמה, ענפים כמו פליי-בורד וקייט סרפינג נכללים ברשימה.",
+    "summary": "This table lists amateur extreme sports covered by insurance policies, with a definition and examples. It is used to determine if a specific sport is considered 'extreme' and potentially excluded from coverage.",
+    "embed_passage": "טבלה זו מפרטת רשימה של ענפי ספורט אתגרי חובבני, כפי שהוגדרו על ידי החברה לצורך פוליסות ביטוח. הרשימה מעודכנת מעת לעת באתר החברה, ונועדה לסייע למבוטחים להבין אילו פעילויות עשויות להיות כרוכות בסיכון מוגבר. ענפי הספורט המופיעים ברשימה כוללים צלילה, טיפוס הרים, סקי מים, קייט סרפינג, ורפטינג תחרותי. SCUBA, טיפוס הרים, פליי-בורד, MOUNT SURFING, וויקבורד הם חלק מהפעילויות המפורטות.",
     "row_axis": "ענפי ספורט אתגרי חובבני",
-    "column_axis": "תיאור הענף",
+    "column_axis": "תיאור ענף הספורט",
     "units": [],
     "notable_values": [
-      "צלילה: מעל 3 מטר",
-      "ספורט אתגרי: רשימה מתעדכנת",
-      "טיפוס הרים: בעזרת חבלים"
+      "ספורט אתגרי חובבני: צלילה",
+      "ספורט אתגרי חובבני: טיפוס הרים",
+      "ספורט אתגרי חובבני: סקי מים",
+      "ספורט אתגרי חובבני: קייט סרפינג",
+      "ספורט אתגרי חובבני: רפטינג תחרותי",
+      "ספורט אתגרי חובבני: פליי-בורד",
+      "ספורט אתגרי חובבני: MOUNT SURFING",
+      "ספורט אתגרי חובבני: וויקבורד"
     ],
     "product_hints": [
-      "ספורט אתגרי חובבני"
+      "פוליסות הכוללות חריג לספורט אתגרי חובבני"
     ]
   },
   "sketch": "להלן רשימה עדכנית של ענפי הספורט אתגרי חובבני:\nבעזרת מערכת SCUBA מטר לרבות צלילה חופשית צלילה באספקת שטח וצלילת 3צלילה לעומק מעל ל המספקת לצולל אוויר/חמצן לנשימה.\nטיפוס הרים לרבות בעזרת חבלים, טיפוס צוקים, טיפוס סלעים, טיפוס קרח, סנפלינג.\n, פליי-בורד. MOUNT SURFING , סקי מים, אופנוע ים, קייט סרפינג, רפטינג תחרותי, וויקבורד",
-  "embed_text": "פוליסות ביטוח הכוללות חריג לספורט אתגרי חובבני מתייחסות לענפים מסוכנים במיוחד, כגון צלילה לעומק מעל 3 מטר, טיפוס הרים בעזרת חבלים, וסקי מים. רשימת ענפי הספורט האתגרי חובבני מתעדכנת באתר החברה. לדוגמה, ענפים כמו פליי-בורד וקייט סרפינג נכללים ברשימה.",
-  "payload": "טבלה: ספורט אתגרי חובבני\nThis table lists amateur extreme sports covered (or excluded) by insurance policies. It's used to determine if a specific activity is considered high-risk and affects coverage.\nממדים: ענפי ספורט אתגרי חובבני, תיאור הענף\n\nלהלן רשימה עדכנית של ענפי הספורט אתגרי חובבני:\nבעזרת מערכת SCUBA מטר לרבות צלילה חופשית צלילה באספקת שטח וצלילת 3צלילה לעומק מעל ל המספקת לצולל אוויר/חמצן לנשימה.\nטיפוס הרים לרבות בעזרת חבלים, טיפוס צוקים, טיפוס סלעים, טיפוס קרח, סנפלינג.\n, פליי-בורד. MOUNT SURFING , סקי מים, אופנוע ים, קייט סרפינג, רפטינג תחרותי, וויקבורד"
+  "embed_text": "טבלה זו מפרטת רשימה של ענפי ספורט אתגרי חובבני, כפי שהוגדרו על ידי החברה לצורך פוליסות ביטוח. הרשימה מעודכנת מעת לעת באתר החברה, ונועדה לסייע למבוטחים להבין אילו פעילויות עשויות להיות כרוכות בסיכון מוגבר. ענפי הספורט המופיעים ברשימה כוללים צלילה, טיפוס הרים, סקי מים, קייט סרפינג, ורפטינג תחרותי. SCUBA, טיפוס הרים, פליי-בורד, MOUNT SURFING, וויקבורד הם חלק מהפעילויות המפורטות. This table lists amateur extreme sports covered by insurance policies, with a definition and examples. It is used to determine if a specific sport is considered 'extreme' and potentially excluded from coverage.",
+  "payload": "טבלה: ספורט אתגרי חובבני\nThis table lists amateur extreme sports covered by insurance policies, with a definition and examples. It is used to determine if a specific sport is considered 'extreme' and potentially excluded from coverage.\nממדים: ענפי ספורט אתגרי חובבני, תיאור ענף הספורט\n\nלהלן רשימה עדכנית של ענפי הספורט אתגרי חובבני:\nבעזרת מערכת SCUBA מטר לרבות צלילה חופשית צלילה באספקת שטח וצלילת 3צלילה לעומק מעל ל המספקת לצולל אוויר/חמצן לנשימה.\nטיפוס הרים לרבות בעזרת חבלים, טיפוס צוקים, טיפוס סלעים, טיפוס קרח, סנפלינג.\n, פליי-בורד. MOUNT SURFING , סקי מים, אופנוע ים, קייט סרפינג, רפטינג תחרותי, וויקבורד"
 }

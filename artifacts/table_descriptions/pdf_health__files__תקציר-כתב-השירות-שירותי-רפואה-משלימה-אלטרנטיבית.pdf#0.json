@@ -2,23 +2,23 @@
   "id": "pdf:health/files/תקציר-כתב-השירות-שירותי-רפואה-משלימה-אלטרנטיבית.pdf#0",
   "source": "llm",
   "description": {
-    "title": "כתב שירות רפואה משלימה",
-    "summary": "This table provides contact information for Harel insurance regarding complementary and alternative medicine services. It allows you to look up contact details like phone number, fax, email, and address.",
-    "embed_passage": "כתב שירות זה של Harel מספק מידע ליצירת קשר בנוגע לשירותי רפואה משלימה ואלטרנטיבית. ניתן למצוא את הטלפון 037348178, כתובת הדואר האלקטרוני polisotbs@harel-ins.co.il, ואת כתובת הדואר 10951.",
-    "row_axis": "Contact Information",
-    "column_axis": "Contact Detail Type (Phone, Fax, Email, Address)",
+    "title": "פרטי התקשרות",
+    "summary": "This table provides contact information for Harel Insurance. It lists the phone number, fax, email address, postal address, and website.",
+    "embed_passage": "טבלה זו מציגה את פרטי ההתקשרות של חברת ביטוח הראל, כולל דרכי יצירת קשר. ניתן למצוא כאן את מספר הטלפון, הפקס, כתובת הדואר האלקטרוני, כתובת למשלוח דואר וכתובת אתר האינטרנט של החברה. המידע מסייע לפונים לקבלת שירות או מידע נוסף מחברת הראל. פרטים נכללים: 037348178, polisotbs@harel-ins.co.il, 5200901 גן רמת, www.harel-group.co.il.",
+    "row_axis": "Contact details",
+    "column_axis": "Contact type (phone, fax, email, address, website)",
     "units": [],
     "notable_values": [
-      "Phone: 037348178",
-      "Email: polisotbs@harel-ins.co.il",
-      "Address: 5200901 גן רמת, 3 הלל אבא"
+      "טלפון: 037348178",
+      "דואר אלקטרוני: polisotbs@harel-ins.co.il",
+      "ת.ד: 10951",
+      "כתובת: 5200901 גן רמת"
     ],
     "product_hints": [
-      "Harel",
-      "רפואה משלימה"
+      "Harel"
     ]
   },
   "sketch": "0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",ט רנ האינט אתר תובת כ www.harel-group.co.il",
-  "embed_text": "כתב שירות זה של Harel מספק מידע ליצירת קשר בנוגע לשירותי רפואה משלימה ואלטרנטיבית. ניתן למצוא את הטלפון 037348178, כתובת הדואר האלקטרוני polisotbs@harel-ins.co.il, ואת כתובת הדואר 10951.",
-  "payload": "טבלה: כתב שירות רפואה משלימה\nThis table provides contact information for Harel insurance regarding complementary and alternative medicine services. It allows you to look up contact details like phone number, fax, email, and address.\nממדים: Contact Information, Contact Detail Type (Phone, Fax, Email, Address)\n\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",ט רנ האינט אתר תובת כ www.harel-group.co.il"
+  "embed_text": "טבלה זו מציגה את פרטי ההתקשרות של חברת ביטוח הראל, כולל דרכי יצירת קשר. ניתן למצוא כאן את מספר הטלפון, הפקס, כתובת הדואר האלקטרוני, כתובת למשלוח דואר וכתובת אתר האינטרנט של החברה. המידע מסייע לפונים לקבלת שירות או מידע נוסף מחברת הראל. פרטים נכללים: 037348178, polisotbs@harel-ins.co.il, 5200901 גן רמת, www.harel-group.co.il. This table provides contact information for Harel Insurance. It lists the phone number, fax, email address, postal address, and website. בין הערכים בטבלה: ת.ד: 10951.",
+  "payload": "טבלה: פרטי התקשרות\nThis table provides contact information for Harel Insurance. It lists the phone number, fax, email address, postal address, and website.\nממדים: Contact details, Contact type (phone, fax, email, address, website)\n\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",ט רנ האינט אתר תובת כ www.harel-group.co.il"
 }

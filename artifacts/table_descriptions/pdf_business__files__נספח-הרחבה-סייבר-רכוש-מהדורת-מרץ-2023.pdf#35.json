@@ -2,23 +2,23 @@
   "id": "pdf:business/files/נספח-הרחבה-סייבר-רכוש-מהדורת-מרץ-2023.pdf#35",
   "source": "llm",
   "description": {
-    "title": "הרחבת סייבר רכוש",
-    "summary": "This table details coverage limitations for property damage and business interruption related to cyber incidents. It outlines conditions under which the insurer will or will not pay for repairs, improvements, or lost income.",
-    "embed_passage": "הרחבת סייבר רכוש מספקת כיסוי לנזקים פיזיים לרשת התקשורת, אך תגמולי הביטוח לא יעלו על 2.1 סכומי הביטוח המפורטים בסעיף 4.1.4. עלות התיקון של פריט לא תעלה על אובדן מוחלט, והמבטח לא ישלם עבור שיפורים שבוצעו במהלך או לאחר התיקון.",
-    "row_axis": "conditions/limitations related to cyber property damage coverage",
-    "column_axis": "specific coverage aspects (e.g., repair costs, improvements, network damage)",
+    "title": "הרחבה סייבר רכוש",
+    "summary": "This table details exclusions and limitations related to cyber property insurance coverage. It outlines conditions under which the insurer is not liable for costs associated with repair, improvement, or loss.",
+    "embed_passage": "טבלה זו מתארת חריגים והגבלות הקשורות לכיסוי ביטוח סייבר לרכוש. היא מפרטת תנאים שבהם המבטח אינו אחראי לעלויות הקשורות לתיקון, שיפור או אובדן. ניתן לעיין בסעיפים השונים כדי להבין את היקף הכיסוי של הרחבת סייבר רכוש. סעיף 4.1.2 עוסק בהוצאות לתיקון פריטים, סעיף 4.1.3 מתייחס לשיפורים או שינויים, וסעיף 4.1.4 מגביל את תגמולי הביטוח לנזק הממשי או לרשת התקשורת.",
+    "row_axis": "conditions/exclusions related to coverage",
+    "column_axis": "coverage aspects (e.g., repair costs, improvements, insurance payouts)",
     "units": [],
     "notable_values": [
-      "2.1: Maximum insurance payout for network damage",
-      "4.1.4: Insurance payout limit related to network damage",
-      "4.1.2: Coverage based on repair cost vs. total loss",
-      "4.1.3: No payment for improvements during/after repair"
+      "repair cost limit: cost of repair if less than total loss",
+      "improvement exclusion: any improvements or modifications",
+      "insurance payout limit: actual damage or network cost (2.1)",
+      "first damage basis: cyber event insurance"
     ],
     "product_hints": [
-      "הרחבת סייבר רכוש"
+      "הרחבה סייבר רכוש"
     ]
   },
   "sketch": ", על פי ההוצאה אותה הוציא חלקי לפריט אשר ניתן לתקנו בגין אובדן או נזק .4.1.2 ועלותה נמוכה מאובדן מוחלט. המבוטח בפועל\nהמבטח לא ישלם עבור טיוב, שיפור, שינוי כלשהם שבוצעו בפריט במהלך .4.1.3 תיקונו או לאחר מכן.\nתגמולי הביטוח שישולמו על ידי המבטח בגין אבדן או נזק פיזי, לא יעלו על .4.1.4 לרשת התקשורת )אם בוטחה(, ובשום 2.1 סכומי הביטוח האמורים בסעיף מקרה לא יותר מהנזק הממשי שנגרם למבוטח.",
-  "embed_text": "הרחבת סייבר רכוש מספקת כיסוי לנזקים פיזיים לרשת התקשורת, אך תגמולי הביטוח לא יעלו על 2.1 סכומי הביטוח המפורטים בסעיף 4.1.4. עלות התיקון של פריט לא תעלה על אובדן מוחלט, והמבטח לא ישלם עבור שיפורים שבוצעו במהלך או לאחר התיקון.",
-  "payload": "טבלה: הרחבת סייבר רכוש\nThis table details coverage limitations for property damage and business interruption related to cyber incidents. It outlines conditions under which the insurer will or will not pay for repairs, improvements, or lost income.\nממדים: conditions/limitations related to cyber property damage coverage, specific coverage aspects (e.g., repair costs, improvements, network damage)\n\n, על פי ההוצאה אותה הוציא חלקי לפריט אשר ניתן לתקנו בגין אובדן או נזק .4.1.2 ועלותה נמוכה מאובדן מוחלט. המבוטח בפועל\nהמבטח לא ישלם עבור טיוב, שיפור, שינוי כלשהם שבוצעו בפריט במהלך .4.1.3 תיקונו או לאחר מכן.\nתגמולי הביטוח שישולמו על ידי המבטח בגין אבדן או נזק פיזי, לא יעלו על .4.1.4 לרשת התקשורת )אם בוטחה(, ובשום 2.1 סכומי הביטוח האמורים בסעיף מקרה לא יותר מהנזק הממשי שנגרם למבוטח."
+  "embed_text": "טבלה זו מתארת חריגים והגבלות הקשורות לכיסוי ביטוח סייבר לרכוש. היא מפרטת תנאים שבהם המבטח אינו אחראי לעלויות הקשורות לתיקון, שיפור או אובדן. ניתן לעיין בסעיפים השונים כדי להבין את היקף הכיסוי של הרחבת סייבר רכוש. סעיף 4.1.2 עוסק בהוצאות לתיקון פריטים, סעיף 4.1.3 מתייחס לשיפורים או שינויים, וסעיף 4.1.4 מגביל את תגמולי הביטוח לנזק הממשי או לרשת התקשורת. This table details exclusions and limitations related to cyber property insurance coverage. It outlines conditions under which the insurer is not liable for costs associated with repair, improvement, or loss. בין הערכים בטבלה: repair cost limit: cost of repair if less than total loss; improvement exclusion: any improvements or modifications; insurance payout limit: actual damage or network cost (2.1); first damage basis: cyber event insuranc…",
+  "payload": "טבלה: הרחבה סייבר רכוש\nThis table details exclusions and limitations related to cyber property insurance coverage. It outlines conditions under which the insurer is not liable for costs associated with repair, improvement, or loss.\nממדים: conditions/exclusions related to coverage, coverage aspects (e.g., repair costs, improvements, insurance payouts)\n\n, על פי ההוצאה אותה הוציא חלקי לפריט אשר ניתן לתקנו בגין אובדן או נזק .4.1.2 ועלותה נמוכה מאובדן מוחלט. המבוטח בפועל\nהמבטח לא ישלם עבור טיוב, שיפור, שינוי כלשהם שבוצעו בפריט במהלך .4.1.3 תיקונו או לאחר מכן.\nתגמולי הביטוח שישולמו על ידי המבטח בגין אבדן או נזק פיזי, לא יעלו על .4.1.4 לרשת התקשורת )אם בוטחה(, ובשום 2.1 סכומי הביטוח האמורים בסעיף מקרה לא יותר מהנזק הממשי שנגרם למבוטח."
 }

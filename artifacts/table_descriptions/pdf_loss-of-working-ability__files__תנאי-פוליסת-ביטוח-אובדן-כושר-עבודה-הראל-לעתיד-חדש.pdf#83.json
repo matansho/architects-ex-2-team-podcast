@@ -2,28 +2,22 @@
   "id": "pdf:loss-of-working-ability/files/תנאי-פוליסת-ביטוח-אובדן-כושר-עבודה-הראל-לעתיד-חדש.pdf#83",
   "source": "llm",
   "description": {
-    "title": "אובדן כושר עבודה - הראל",
-    "summary": "This table details adjustments to monthly compensation under the Harel 'Loss of Working Ability' insurance plan. It outlines how payments are affected by other income sources and potential reductions.",
-    "embed_passage": "פוליסת אובדן כושר עבודה של הראל לעתיד חדש מתייחסת לקיזוז הכנסות אחרות, כאשר סכום הפיצוי החודשי המשולם על ידי החברה, בצירוף עם ההכנסה האחרת, לא יפחת מ-100% מממוצע השכר של המבוטח מכל מקור הכנסה. לדוגמה, בחודשים הראשונים 12, סכום הפיצוי החודשי המשולם בצירוף ההכנסה האחרת לא יפחת מ-120% מממוצע השכר. החל מהחודש ה-36, סכום הפיצוי החודשי המשולם בצירוף ההכנסה האחרת לא יפחת מ-100% מממוצע השכר.",
-    "row_axis": "Conditions related to compensation adjustments (e.g., reduction of other payments)",
-    "column_axis": "Rules and percentages related to compensation adjustments",
-    "units": [
-      "%"
-    ],
+    "title": "קיזוז הכנסות אחרות",
+    "summary": "This table details adjustments to monthly compensation based on other income sources. It outlines how the company may offset payments when income is received from other insurers, government sources, or other employment.",
+    "embed_passage": "טבלה זו עוסקת בקיזוזים לתגמולי ביטוח במסגרת תכנית אובדן כושר עבודה של הראל לעתיד חדש. מטרתה להגדיר כיצד יחושבו הפיצויים החודשיים כאשר המבוטח מקבל הכנסות ממקורות אחרים, כגון ביטוחים נוספים או הכנסה מעיסוק. החישובים מתייחסים לאחוזים מסכום הפיצוי החודשי, תוך התייחסות לממוצע השכר של המבוטח. לדוגמה, סעיף 8.7.4 מציין כי הפיצוי החודשי לא יפחת מ-30% מסכום הפיצוי המקורי, בעוד שסעיפים 8.8.1.1 ו-8.8.1.2 מתייחסים לקיזוז הכנסה אחרת בשיעורים שונים בהתאם לתקופת הזמן. מרכיב השחרור, המוזכר בסעיף 8.7.5, אינו נכלל בקיזוזים אלו. סעיפים רלוונטיים: 8.7.1, 8.7.2, 8.7.3, 8.7.4, 8.7.5, 8.8.1.",
+    "row_axis": "סעיף",
+    "column_axis": "תנאי קיזוז / שיעור פיצוי",
+    "units": [],
     "notable_values": [
-      "30%: Minimum compensation level",
-      "12: Initial months for income offset calculation",
-      "36: Month after which offset calculation changes",
-      "100%: Minimum combined income level",
-      "120%: Initial combined income level"
+      "סעיף 8.7.4: 30%",
+      "סעיף 8.8.1.1: 120%",
+      "סעיף 8.8.1.2: 100%"
     ],
     "product_hints": [
-      "אובדן כושר עבודה הראל",
-      "הראל לעתיד חדש",
-      "Loss of Working Ability"
+      "אובדן כושר עבודה הראל לעתיד חדש"
     ]
   },
   "sketch": "הודיע המבוטח לחברה או נודע לחברה, לפי המוקדם, כי פחת או פסק 8.7.3 תשלום  הפיצוי  החודשי  ממבטחים  אחרים  או  מגורם  ממשלתי  כאמור תעדכן החברה את הסכום המקוזז בהתאם החל מיום ההפחתה א ו , לעיל ההפסקה כאמור .\nלעיל, הפיצוי החודשי שישולם 8.7.2  ו 8.7.1 על אף האמור בסעיפים 8.7.4 מסכום הפיצוי החודש י 30% למבוטח לא יפחת, בכל מקרה, משיעור של לו הוא זכאי על פי תנאי התכנית .\nלמען הסר ספק מובהר כי האמור בסעיף זה לא יחול לגבי מרכיב השחרור 8.7.5 . , אשר ישולם בהתאם להוראות התכנית 8.6 בתכנית כאמור בסעיף",
-  "embed_text": "פוליסת אובדן כושר עבודה של הראל לעתיד חדש מתייחסת לקיזוז הכנסות אחרות, כאשר סכום הפיצוי החודשי המשולם על ידי החברה, בצירוף עם ההכנסה האחרת, לא יפחת מ-100% מממוצע השכר של המבוטח מכל מקור הכנסה. לדוגמה, בחודשים הראשונים 12, סכום הפיצוי החודשי המשולם בצירוף ההכנסה האחרת לא יפחת מ-120% מממוצע השכר. החל מהחודש ה-36, סכום הפיצוי החודשי המשולם בצירוף ההכנסה האחרת לא יפחת מ-100% מממוצע השכר.",
-  "payload": "טבלה: אובדן כושר עבודה - הראל\nThis table details adjustments to monthly compensation under the Harel 'Loss of Working Ability' insurance plan. It outlines how payments are affected by other income sources and potential reductions.\nממדים: Conditions related to compensation adjustments (e.g., reduction of other payments), Rules and percentages related to compensation adjustments\n\nהודיע המבוטח לחברה או נודע לחברה, לפי המוקדם, כי פחת או פסק 8.7.3 תשלום  הפיצוי  החודשי  ממבטחים  אחרים  או  מגורם  ממשלתי  כאמור תעדכן החברה את הסכום המקוזז בהתאם החל מיום ההפחתה א ו , לעיל ההפסקה כאמור .\nלעיל, הפיצוי החודשי שישולם 8.7.2  ו 8.7.1 על אף האמור בסעיפים 8.7.4 מסכום הפיצוי החודש י 30% למבוטח לא יפחת, בכל מקרה, משיעור של לו הוא זכאי על פי תנאי התכנית .\nלמען הסר ספק מובהר כי האמור בסעיף זה לא יחול לגבי מרכיב השחרור 8.7.5 . , אשר ישולם בהתאם להוראות התכנית 8.6 בתכנית כאמור בסעיף"
+  "embed_text": "טבלה זו עוסקת בקיזוזים לתגמולי ביטוח במסגרת תכנית אובדן כושר עבודה של הראל לעתיד חדש. מטרתה להגדיר כיצד יחושבו הפיצויים החודשיים כאשר המבוטח מקבל הכנסות ממקורות אחרים, כגון ביטוחים נוספים או הכנסה מעיסוק. החישובים מתייחסים לאחוזים מסכום הפיצוי החודשי, תוך התייחסות לממוצע השכר של המבוטח. לדוגמה, סעיף 8.7.4 מציין כי הפיצוי החודשי לא יפחת מ-30% מסכום הפיצוי המקורי, בעוד שסעיפים 8.8.1.1 ו-8.8.1.2 מתייחסים לקיזוז הכנסה אחרת בשיעורים שונים בהתאם לתקופת הזמן. מרכיב השחרור, המוזכר בסעיף 8.7.5, אינו נכלל בקיזוזים אלו. סעיפים רלוונטיים: 8.7.1, 8.7.2, 8.7.3, 8.7.4, 8.7.5, 8.8.1. This table details adjustments to monthly compensation based on other income sources. It outlines how the company may offset payments when income is received from other insurers, government sources, or other employment. בין…",
+  "payload": "טבלה: קיזוז הכנסות אחרות\nThis table details adjustments to monthly compensation based on other income sources. It outlines how the company may offset payments when income is received from other insurers, government sources, or other employment.\nממדים: סעיף, תנאי קיזוז / שיעור פיצוי\n\nהודיע המבוטח לחברה או נודע לחברה, לפי המוקדם, כי פחת או פסק 8.7.3 תשלום  הפיצוי  החודשי  ממבטחים  אחרים  או  מגורם  ממשלתי  כאמור תעדכן החברה את הסכום המקוזז בהתאם החל מיום ההפחתה א ו , לעיל ההפסקה כאמור .\nלעיל, הפיצוי החודשי שישולם 8.7.2  ו 8.7.1 על אף האמור בסעיפים 8.7.4 מסכום הפיצוי החודש י 30% למבוטח לא יפחת, בכל מקרה, משיעור של לו הוא זכאי על פי תנאי התכנית .\nלמען הסר ספק מובהר כי האמור בסעיף זה לא יחול לגבי מרכיב השחרור 8.7.5 . , אשר ישולם בהתאם להוראות התכנית 8.6 בתכנית כאמור בסעיף"
 }

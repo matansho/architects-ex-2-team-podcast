@@ -3,22 +3,22 @@
   "source": "llm",
   "description": {
     "title": "הרחבה לתכולה במחסן",
-    "summary": "This table details coverage extensions for contents stored in a shed or auxiliary structure. It specifies conditions and limitations for coverage, such as the structure's construction and security.",
-    "embed_passage": "פוליסת ביטוח דירה אדירה זהב מספקת הרחבה לתכולה המאוחסנת במחסן או מבנה עזר הבנוי מבלוקים או בטון, בתנאי שהמבנה נעול באופן קבוע. הכיסוי חל על אובדן או נזק לתכולה הממוקמת בכתובת התכולה המבוטחת, אך אינו חל על נזק במקום לא נעול.",
-    "row_axis": "Specific conditions or exclusions related to shed/auxiliary structure contents coverage",
-    "column_axis": "Details of the coverage extension, limitations, and requirements",
+    "summary": "This table details coverage extensions for contents stored in a shed or auxiliary structure. It specifies conditions for coverage and exclusions related to the location and nature of the damage.",
+    "embed_passage": "טבלה זו מתארת הרחבות לביטוח תכולה במחסן או מבנה עזר, ומפרטת תנאים לסוג הכיסוי והחרגות הקשורות למיקום ולסוג הנזק. ביטוח אדירה זהב מספק כיסוי לתכולה המוחזקת מחוץ לדירה, בתנאים מסוימים. החיפוש נעשה לפי סוג המבנה (בלוקים, בטון, רעפים) וכתובת התכולה המבוטחת. הרחבה לתכולה במחסן כוללת כיסוי לאובדן או נזק לתכולה המאוחסנת במחסן או מבנה עזר בנויים מבלוקים או בטון או רעפים ונעולים באופן קבוע.",
+    "row_axis": "extension conditions",
+    "column_axis": "coverage details",
     "units": [],
     "notable_values": [
-      "structure material: בלוקים ו/או בטון",
+      "structure material: בלוקים",
+      "structure material: בטון",
       "structure material: רעפים",
-      "security requirement: נעולים באופן קבוע",
-      "location requirement: כתובת התכולה המבוטחת"
+      "locking requirement: באופן קבוע"
     ],
     "product_hints": [
       "אדירה זהב"
     ]
   },
   "sketch": ". הרחבה לתכולה במחסן 13\nהביטוח מורחב לכסות אבדן או נזק לתכולה, בעת המצאה מחוץ לדירה, במחסן או במבנה עזר הבנויים מבלוקים ו/או בטון או רעפים והנעולים באופן קבוע, והנמצאים בכתובת התכולה המבוטחת\nולמעט: , ובכפיפות לסעיף, מקרה הביטוח",
-  "embed_text": "פוליסת ביטוח דירה אדירה זהב מספקת הרחבה לתכולה המאוחסנת במחסן או מבנה עזר הבנוי מבלוקים או בטון, בתנאי שהמבנה נעול באופן קבוע. הכיסוי חל על אובדן או נזק לתכולה הממוקמת בכתובת התכולה המבוטחת, אך אינו חל על נזק במקום לא נעול.",
-  "payload": "טבלה: הרחבה לתכולה במחסן\nThis table details coverage extensions for contents stored in a shed or auxiliary structure. It specifies conditions and limitations for coverage, such as the structure's construction and security.\nממדים: Specific conditions or exclusions related to shed/auxiliary structure contents coverage, Details of the coverage extension, limitations, and requirements\n\n. הרחבה לתכולה במחסן 13\nהביטוח מורחב לכסות אבדן או נזק לתכולה, בעת המצאה מחוץ לדירה, במחסן או במבנה עזר הבנויים מבלוקים ו/או בטון או רעפים והנעולים באופן קבוע, והנמצאים בכתובת התכולה המבוטחת\nולמעט: , ובכפיפות לסעיף, מקרה הביטוח"
+  "embed_text": "טבלה זו מתארת הרחבות לביטוח תכולה במחסן או מבנה עזר, ומפרטת תנאים לסוג הכיסוי והחרגות הקשורות למיקום ולסוג הנזק. ביטוח אדירה זהב מספק כיסוי לתכולה המוחזקת מחוץ לדירה, בתנאים מסוימים. החיפוש נעשה לפי סוג המבנה (בלוקים, בטון, רעפים) וכתובת התכולה המבוטחת. הרחבה לתכולה במחסן כוללת כיסוי לאובדן או נזק לתכולה המאוחסנת במחסן או מבנה עזר בנויים מבלוקים או בטון או רעפים ונעולים באופן קבוע. This table details coverage extensions for contents stored in a shed or auxiliary structure. It specifies conditions for coverage and exclusions related to the location and nature of the damage.",
+  "payload": "טבלה: הרחבה לתכולה במחסן\nThis table details coverage extensions for contents stored in a shed or auxiliary structure. It specifies conditions for coverage and exclusions related to the location and nature of the damage.\nממדים: extension conditions, coverage details\n\n. הרחבה לתכולה במחסן 13\nהביטוח מורחב לכסות אבדן או נזק לתכולה, בעת המצאה מחוץ לדירה, במחסן או במבנה עזר הבנויים מבלוקים ו/או בטון או רעפים והנעולים באופן קבוע, והנמצאים בכתובת התכולה המבוטחת\nולמעט: , ובכפיפות לסעיף, מקרה הביטוח"
 }

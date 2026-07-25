@@ -3,23 +3,21 @@
   "source": "llm",
   "description": {
     "title": "בירור ויישוב תביעה",
-    "summary": "This table details the process for handling and settling insurance claims related to property or bodily harm, specifically third-party claims under a Harel policy. It outlines the steps taken by the company to assess the claim and gather necessary information.",
-    "embed_passage": "בהראל, לאחר קבלת הודעה על נזק, החברה עשויה למנות שמאי לבדיקת מקרה הביטוח, כולל נסיבות וגובה הנזק. יחזור אליך מיישב תביעות טלפונית או בכתב לקבלת מידע ומסמכים נוספים, בהתאם לצורך.  החברה רשאית למנות שמאי לבדיקת מקרה הביטוח, כמו גם לבדוק את גובה הנזק הנטען.",
-    "row_axis": "Stages in the claim process",
-    "column_axis": "Actions taken by Harel (the insurance company)",
+    "summary": "This table details the process for claim investigation and settlement, specifically for property or bodily harm claims involving a third party and insured by Harel. It outlines steps like appointing an assessor and requesting additional information.",
+    "embed_passage": "טבלה זו מתארת את הליך בירור ויישוב תביעה בחברת הראל, הן לנזקי רכוש והן לנזקי גוף, כאשר מעורב צד ג׳. הליך זה כולל אפשרות מינוי שמאי לבדיקת הנזק וגובהו, וכן פנייה של מיישב תביעות לקבלת מידע ומסמכים נוספים. ניתן למצוא רשימת מסמכים נדרשים בסילוק התביעה במסמך נפרד. הראל, על פי שיקול דעתה המקצועי, יכול ותמנה שמאי לבדיקת מקרה הביטוח. במקביל לאמור לעיל, יחזור אליך מיישב תביעות טלפונית או בכתב. תיאור האירוע, נסיבות האירוע ומועד האירוע הם חלק מהמידע הנדרש.",
+    "row_axis": "steps in the claim process",
+    "column_axis": "details of the process (e.g., actions taken by Harel, required information)",
     "units": [],
     "notable_values": [
-      "שמאי: 4",
-      "מסמכים נדרשים: רשימה זמינה",
-      "הודעה על נזק: נקודת התחלה",
-      "יישוב תביעות: טלפוני ו/או בכתב",
-      "הקטנת נזק: זכאות לשיפוי"
+      "שמאי: בדיקת מקרה הביטוח",
+      "מידע ומסמכים: קבלת מידע ומסמכים נוספים",
+      "מסמכים נדרשים: רשימת מסמכים לסילוק התביעה"
     ],
     "product_hints": [
       "הראל"
     ]
   },
   "sketch": ".  החברה, על פי שיקול דעתה המקצועי, יכול ותמנה שמאי לבדיקת מקרה הביטוח לרבות 4 . נסיבות וגובה הנזק\nבמקביל לאמור לעיל, כמו גם אם לא ימונה שמאי ע\"י החברה, יחזור אליך מיישב תביעות טלפונית ו/או בכתב, לצורך קבלת מידע ומסמכים נוספים, בהתאם לצורך. לצפייה ברשימת המסמכים הנדרשים לסילוק התביעה, ראה מסמך \"פירוט מידע .\" והמסמכים הנדרשים מתובע לשם בירור ויישוב תביעה",
-  "embed_text": "בהראל, לאחר קבלת הודעה על נזק, החברה עשויה למנות שמאי לבדיקת מקרה הביטוח, כולל נסיבות וגובה הנזק. יחזור אליך מיישב תביעות טלפונית או בכתב לקבלת מידע ומסמכים נוספים, בהתאם לצורך.  החברה רשאית למנות שמאי לבדיקת מקרה הביטוח, כמו גם לבדוק את גובה הנזק הנטען.",
-  "payload": "טבלה: בירור ויישוב תביעה\nThis table details the process for handling and settling insurance claims related to property or bodily harm, specifically third-party claims under a Harel policy. It outlines the steps taken by the company to assess the claim and gather necessary information.\nממדים: Stages in the claim process, Actions taken by Harel (the insurance company)\n\n.  החברה, על פי שיקול דעתה המקצועי, יכול ותמנה שמאי לבדיקת מקרה הביטוח לרבות 4 . נסיבות וגובה הנזק\nבמקביל לאמור לעיל, כמו גם אם לא ימונה שמאי ע\"י החברה, יחזור אליך מיישב תביעות טלפונית ו/או בכתב, לצורך קבלת מידע ומסמכים נוספים, בהתאם לצורך. לצפייה ברשימת המסמכים הנדרשים לסילוק התביעה, ראה מסמך \"פירוט מידע .\" והמסמכים הנדרשים מתובע לשם בירור ויישוב תביעה"
+  "embed_text": "טבלה זו מתארת את הליך בירור ויישוב תביעה בחברת הראל, הן לנזקי רכוש והן לנזקי גוף, כאשר מעורב צד ג׳. הליך זה כולל אפשרות מינוי שמאי לבדיקת הנזק וגובהו, וכן פנייה של מיישב תביעות לקבלת מידע ומסמכים נוספים. ניתן למצוא רשימת מסמכים נדרשים בסילוק התביעה במסמך נפרד. הראל, על פי שיקול דעתה המקצועי, יכול ותמנה שמאי לבדיקת מקרה הביטוח. במקביל לאמור לעיל, יחזור אליך מיישב תביעות טלפונית או בכתב. תיאור האירוע, נסיבות האירוע ומועד האירוע הם חלק מהמידע הנדרש. This table details the process for claim investigation and settlement, specifically for property or bodily harm claims involving a third party and insured by Harel. It outlines steps like appointing an assessor and requesting additional information.",
+  "payload": "טבלה: בירור ויישוב תביעה\nThis table details the process for claim investigation and settlement, specifically for property or bodily harm claims involving a third party and insured by Harel. It outlines steps like appointing an assessor and requesting additional information.\nממדים: steps in the claim process, details of the process (e.g., actions taken by Harel, required information)\n\n.  החברה, על פי שיקול דעתה המקצועי, יכול ותמנה שמאי לבדיקת מקרה הביטוח לרבות 4 . נסיבות וגובה הנזק\nבמקביל לאמור לעיל, כמו גם אם לא ימונה שמאי ע\"י החברה, יחזור אליך מיישב תביעות טלפונית ו/או בכתב, לצורך קבלת מידע ומסמכים נוספים, בהתאם לצורך. לצפייה ברשימת המסמכים הנדרשים לסילוק התביעה, ראה מסמך \"פירוט מידע .\" והמסמכים הנדרשים מתובע לשם בירור ויישוב תביעה"
 }

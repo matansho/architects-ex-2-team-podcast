@@ -3,21 +3,22 @@
   "source": "llm",
   "description": {
     "title": "כיסוי התקנים חשמליים",
-    "summary": "This table details the coverage for electrical devices installed in a vehicle, as specified in the policy. It outlines what is covered in case of loss or damage, and how the insurer may provide compensation.",
-    "embed_passage": "פוליסת ביטוח רכב פרטי ומסחרי כוללת כיסוי להתקנים חשמליים המותקנים ברכב, כגון גלגלים מיוחדים או פנסים מיוחדים. במקרה של אובדן או נזק להתקנים אלו, החברה תפצה את המבוטח בתשלום, החלפה או תיקון, בהתאם לסכום הביטוח המצוין במפרט. הכיסוי חל על נזקים כתוצאה מסיכונים המפורטים בפרק א' - ביטוח רכב.",
-    "row_axis": "Types of electrical devices/additions fitted in the vehicle",
-    "column_axis": "Coverage details (loss/damage, compensation method)",
+    "summary": "This table details the coverage for electrical devices fitted in a vehicle, as specified in the policy. It outlines what is covered in case of loss or damage, and how the insurer may provide compensation.",
+    "embed_passage": "טבלה זו מתארת את הכיסוי להתקנים חשמליים המותקנים ברכב, כפי שמפורט במפרט הפוליסה. הכיסוי חל על אובדן או נזק כתוצאה מסיכונים המפורטים בפרק א' - ביטוח רכב. החברה תפצה את המבוטח על ידי תשלום, החלפה או תיקון, בהתאם לסכום הביטוח המצוין במפרט. הכיסוי כולל התקנים חשמליים, גלגלים מיוחדים, פנסים מיוחדים ואביזרים מיוחדים נוספים. במקרה של אובדן או נזק, החברה תפצה את המבוטח בהתאם לשיקול דעתה. כיסוי להתקנים חשמליים, גלגלים מיוחדים, פנסים מיוחדים.",
+    "row_axis": "types of electrical devices/additions",
+    "column_axis": "coverage details",
     "units": [],
     "notable_values": [
-      "Vehicle type: רכב פרטי ומסחרי",
-      "Coverage type: התקנים חשמליים",
-      "Compensation method: תשלום, החלפה או תיקון"
+      "Electrical devices: covered if noted in specification",
+      "Special wheels: covered if noted in specification",
+      "Special lamps: covered if noted in specification",
+      "Additional special accessory: covered if noted in specification"
     ],
     "product_hints": [
-      "ביטוח רכב פרטי ומסחרי"
+      "ביטוח רכב"
     ]
   },
   "sketch": "27.1 The insured property\nElectrical devices fitted in the vehicle noted in the specification, as well as special additions such as special wheels, special lamps and any additional special accessory.\n27.2 The cover\nIn the event of loss or damage to the aforementioned devices, caused as a result of the risks detailed in the insured event to chapter A -vehicle insurance.\nThe insurer at its discretion shall indemnify the insured by means of payment, replacement or repair, within the limits of the sum insured noted in the specification.",
-  "embed_text": "פוליסת ביטוח רכב פרטי ומסחרי כוללת כיסוי להתקנים חשמליים המותקנים ברכב, כגון גלגלים מיוחדים או פנסים מיוחדים. במקרה של אובדן או נזק להתקנים אלו, החברה תפצה את המבוטח בתשלום, החלפה או תיקון, בהתאם לסכום הביטוח המצוין במפרט. הכיסוי חל על נזקים כתוצאה מסיכונים המפורטים בפרק א' - ביטוח רכב.",
-  "payload": "טבלה: כיסוי התקנים חשמליים\nThis table details the coverage for electrical devices installed in a vehicle, as specified in the policy. It outlines what is covered in case of loss or damage, and how the insurer may provide compensation.\nממדים: Types of electrical devices/additions fitted in the vehicle, Coverage details (loss/damage, compensation method)\n\n27.1 The insured property\nElectrical devices fitted in the vehicle noted in the specification, as well as special additions such as special wheels, special lamps and any additional special accessory.\n27.2 The cover\nIn the event of loss or damage to the aforementioned devices, caused as a result of the risks detailed in the insured event to chapter A -vehicle insurance.\nThe insurer at its discretion shall indemnify the insured by means of payment, replacement or repair, within the limits of the sum insured noted in the specification."
+  "embed_text": "טבלה זו מתארת את הכיסוי להתקנים חשמליים המותקנים ברכב, כפי שמפורט במפרט הפוליסה. הכיסוי חל על אובדן או נזק כתוצאה מסיכונים המפורטים בפרק א' - ביטוח רכב. החברה תפצה את המבוטח על ידי תשלום, החלפה או תיקון, בהתאם לסכום הביטוח המצוין במפרט. הכיסוי כולל התקנים חשמליים, גלגלים מיוחדים, פנסים מיוחדים ואביזרים מיוחדים נוספים. במקרה של אובדן או נזק, החברה תפצה את המבוטח בהתאם לשיקול דעתה. כיסוי להתקנים חשמליים, גלגלים מיוחדים, פנסים מיוחדים. This table details the coverage for electrical devices fitted in a vehicle, as specified in the policy. It outlines what is covered in case of loss or damage, and how the insurer may provide compensation. בין הערכים בטבלה: Electrical devices: covered if noted in specification; Special wheels: covered if noted in specification; Special lamps: covered if noted i…",
+  "payload": "טבלה: כיסוי התקנים חשמליים\nThis table details the coverage for electrical devices fitted in a vehicle, as specified in the policy. It outlines what is covered in case of loss or damage, and how the insurer may provide compensation.\nממדים: types of electrical devices/additions, coverage details\n\n27.1 The insured property\nElectrical devices fitted in the vehicle noted in the specification, as well as special additions such as special wheels, special lamps and any additional special accessory.\n27.2 The cover\nIn the event of loss or damage to the aforementioned devices, caused as a result of the risks detailed in the insured event to chapter A -vehicle insurance.\nThe insurer at its discretion shall indemnify the insured by means of payment, replacement or repair, within the limits of the sum insured noted in the specification."
 }

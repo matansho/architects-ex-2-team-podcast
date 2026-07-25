@@ -3,23 +3,21 @@
   "source": "llm",
   "description": {
     "title": "תהליך טיפול בתביעה",
-    "summary": "This table outlines the claims handling process, including expert appointments and damage assessment. It details how the company investigates claims and determines the extent of coverage.",
-    "embed_passage": "תהליך טיפול בתביעה כולל מינוי מומחים כגון שמאים, מהנדסים ורו״ח על ידי החברה לצורך בירור מהות התביעה והערכת גובה הנזק. מינוי מומחה נקבע בהתאם למדיניות החברה ולנסיבות האירוע. בכל מקרה, המבוטח רשאי להיות מיוצג על ידי מומחה מטעמו.",
-    "row_axis": "aspects of the claims process",
-    "column_axis": "details regarding each aspect",
+    "summary": "This table outlines the claims handling process, including data collection and expert appointment. It details the roles of experts appointed by the company to investigate claims and assess damage.",
+    "embed_passage": "טבלה זו מתארת את תהליך טיפול בתביעה, לרבות איסוף מסמכים ומינוי מומחים. מטרתה להבהיר את שלבי הטיפול בתביעה וכיצד החברה בוחנת את הנזק. ניתן לעיין בטבלה כדי להבין את תפקיד המומחים הממונים על ידי החברה, כגון שמאים ורו״ח. תהליך הטיפול בתביעה אינו מהווה הכרה בחבות החברה.",
+    "row_axis": "aspect of claims handling",
+    "column_axis": "details of the process",
     "units": [],
     "notable_values": [
       "מומחים: שמאים",
       "מומחים: מהנדסים",
       "מומחים: רו״ח",
-      "יום: 30",
-      "סעיף: 1981"
+      "מומחים: חוקרים",
+      "מומחים: חוקרי שריפות"
     ],
-    "product_hints": [
-      "ביטוח רכב צד ג'"
-    ]
+    "product_hints": []
   },
   "sketch": "יודגש תהליך טיפול בתביעה, לרבות איסוף מסמכים, אינו מהווה הכרה בחבות . החברה למקרה הביטוח\n, לידיעתך, לשם יישוב ובירור התביעה, יכול וחברתנו תמנה מומחים מטעמה. לדוגמא ז. .(\" שמאים, מהנדסים, רו\"ח, חוקרים, חוקרי שריפות, וכיוצ\"ב )להלן :\"מומחים תפקיד המומחים הממונים ע\"י החברה הינו לברר את מהות התביעה ולהעריך את\n. גובה הנזק אין באמור לעיל כדי לקבוע כי חברתנו ממנה בכל תביעה ותביעה מומחים. מינוי מומחה נקבע בהתאם למדיניות החברה ובהתאם לנסיבות האירוע. בכל מקרה הינך רשאי להיות מיוצג או להיוועץ במומחה מטעמך, אולם עלויות אלו",
-  "embed_text": "תהליך טיפול בתביעה כולל מינוי מומחים כגון שמאים, מהנדסים ורו״ח על ידי החברה לצורך בירור מהות התביעה והערכת גובה הנזק. מינוי מומחה נקבע בהתאם למדיניות החברה ולנסיבות האירוע. בכל מקרה, המבוטח רשאי להיות מיוצג על ידי מומחה מטעמו.",
-  "payload": "טבלה: תהליך טיפול בתביעה\nThis table outlines the claims handling process, including expert appointments and damage assessment. It details how the company investigates claims and determines the extent of coverage.\nממדים: aspects of the claims process, details regarding each aspect\n\nיודגש תהליך טיפול בתביעה, לרבות איסוף מסמכים, אינו מהווה הכרה בחבות . החברה למקרה הביטוח\n, לידיעתך, לשם יישוב ובירור התביעה, יכול וחברתנו תמנה מומחים מטעמה. לדוגמא ז. .(\" שמאים, מהנדסים, רו\"ח, חוקרים, חוקרי שריפות, וכיוצ\"ב )להלן :\"מומחים תפקיד המומחים הממונים ע\"י החברה הינו לברר את מהות התביעה ולהעריך את\n. גובה הנזק אין באמור לעיל כדי לקבוע כי חברתנו ממנה בכל תביעה ותביעה מומחים. מינוי מומחה נקבע בהתאם למדיניות החברה ובהתאם לנסיבות האירוע. בכל מקרה הינך רשאי להיות מיוצג או להיוועץ במומחה מטעמך, אולם עלויות אלו"
+  "embed_text": "טבלה זו מתארת את תהליך טיפול בתביעה, לרבות איסוף מסמכים ומינוי מומחים. מטרתה להבהיר את שלבי הטיפול בתביעה וכיצד החברה בוחנת את הנזק. ניתן לעיין בטבלה כדי להבין את תפקיד המומחים הממונים על ידי החברה, כגון שמאים ורו״ח. תהליך הטיפול בתביעה אינו מהווה הכרה בחבות החברה. This table outlines the claims handling process, including data collection and expert appointment. It details the roles of experts appointed by the company to investigate claims and assess damage.",
+  "payload": "טבלה: תהליך טיפול בתביעה\nThis table outlines the claims handling process, including data collection and expert appointment. It details the roles of experts appointed by the company to investigate claims and assess damage.\nממדים: aspect of claims handling, details of the process\n\nיודגש תהליך טיפול בתביעה, לרבות איסוף מסמכים, אינו מהווה הכרה בחבות . החברה למקרה הביטוח\n, לידיעתך, לשם יישוב ובירור התביעה, יכול וחברתנו תמנה מומחים מטעמה. לדוגמא ז. .(\" שמאים, מהנדסים, רו\"ח, חוקרים, חוקרי שריפות, וכיוצ\"ב )להלן :\"מומחים תפקיד המומחים הממונים ע\"י החברה הינו לברר את מהות התביעה ולהעריך את\n. גובה הנזק אין באמור לעיל כדי לקבוע כי חברתנו ממנה בכל תביעה ותביעה מומחים. מינוי מומחה נקבע בהתאם למדיניות החברה ובהתאם לנסיבות האירוע. בכל מקרה הינך רשאי להיות מיוצג או להיוועץ במומחה מטעמך, אולם עלויות אלו"
 }

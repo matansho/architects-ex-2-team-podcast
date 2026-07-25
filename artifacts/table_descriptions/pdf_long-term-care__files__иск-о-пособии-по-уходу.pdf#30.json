@@ -2,22 +2,23 @@
   "id": "pdf:long-term-care/files/иск-о-пособии-по-уходу.pdf#30",
   "source": "llm",
   "description": {
-    "title": "תביעות טיפול סיעודי",
-    "summary": "This table describes rules related to filing long-term care claims. It details how the statute of limitations is calculated and the impact of special policy agreements.",
-    "embed_passage": "הגשת תביעה למוסד הביטוח אינה עוצרת את מרוץ התיישנות, ורק הגשת תביעה לבית המשפט עוצרת אותו. במקרה של תביעה שהוגשה על ידי קטין, תקופת ההתיישנות לא תכלול את התקופה בה הקטין טרם הגיע לגיל 18. אם קיימת הסכמה מיוחדת לגבי תנאי פוליסה מסוים, הסכמה זו גוברת על האמור לעיל.",
-    "row_axis": "claim filing scenarios / legal considerations",
-    "column_axis": "statute of limitations rules",
+    "title": "הערות לגבי הגשת תביעה",
+    "summary": "This table provides notes regarding filing a claim. It details how claim submission affects the statute of limitations and considerations for claims filed by minors.",
+    "embed_passage": "טבלה זו מציגה הערות בנוגע להגשת תביעה, כולל השפעת הגשת התביעה על תקופת ההתיישנות ושיקולים לגבי תביעות המוגשות על ידי קטינים. ניתן לעיין בטבלה זו כדי להבין את הנהלים והתנאים הקשורים להגשת תביעה. חשוב לדעת שהגשת תביעה למוסד הביטוח אינה עוצרת את מרוץ ההתיישנות, אלא רק הגשת תביעה לבית המשפט. במקרה של תביעה שהוגשה על ידי קטין, תקופת ההתיישנות לא תכלול את התקופה בה הקטין טרם הגיע לגיל 18. Harel",
+    "row_axis": "Note/Condition regarding claim filing",
+    "column_axis": "Details of claim filing process",
     "units": [],
     "notable_values": [
-      "age: 18",
-      "statute of limitations: stopped by court claim",
-      "claim to institution: does not stop statute of limitations"
+      "Statute of limitations: filing with institution does not halt",
+      "Statute of limitations: filing with court does halt",
+      "Minor's claim: period before age 18 is excluded from statute of limitations",
+      "Special agreement: overrides general policy terms"
     ],
     "product_hints": [
-      "טיפול סיעודי"
+      "Harel"
     ]
   },
   "sketch": "Как правило, подача иска в учреждение не останавливает отсчет периода срока давности, и только подача иска в суд останавливает этот отсчет. Если речь идет об иске, поданном несовершеннолетним, при расчете периода срока давности не будет учитываться тот период, когда истцу еще не исполнилось 18-ти лет.\nПримечание: если существует особая договоренность, касающаяся определенного условия полиса, указания данной особой договоренности будут преобладать над сказанным выше, а также надо всем, что связано с покрытиями, существующими в таковом.",
-  "embed_text": "הגשת תביעה למוסד הביטוח אינה עוצרת את מרוץ התיישנות, ורק הגשת תביעה לבית המשפט עוצרת אותו. במקרה של תביעה שהוגשה על ידי קטין, תקופת ההתיישנות לא תכלול את התקופה בה הקטין טרם הגיע לגיל 18. אם קיימת הסכמה מיוחדת לגבי תנאי פוליסה מסוים, הסכמה זו גוברת על האמור לעיל.",
-  "payload": "טבלה: תביעות טיפול סיעודי\nThis table describes rules related to filing long-term care claims. It details how the statute of limitations is calculated and the impact of special policy agreements.\nממדים: claim filing scenarios / legal considerations, statute of limitations rules\n\nКак правило, подача иска в учреждение не останавливает отсчет периода срока давности, и только подача иска в суд останавливает этот отсчет. Если речь идет об иске, поданном несовершеннолетним, при расчете периода срока давности не будет учитываться тот период, когда истцу еще не исполнилось 18-ти лет.\nПримечание: если существует особая договоренность, касающаяся определенного условия полиса, указания данной особой договоренности будут преобладать над сказанным выше, а также надо всем, что связано с покрытиями, существующими в таковом."
+  "embed_text": "טבלה זו מציגה הערות בנוגע להגשת תביעה, כולל השפעת הגשת התביעה על תקופת ההתיישנות ושיקולים לגבי תביעות המוגשות על ידי קטינים. ניתן לעיין בטבלה זו כדי להבין את הנהלים והתנאים הקשורים להגשת תביעה. חשוב לדעת שהגשת תביעה למוסד הביטוח אינה עוצרת את מרוץ ההתיישנות, אלא רק הגשת תביעה לבית המשפט. במקרה של תביעה שהוגשה על ידי קטין, תקופת ההתיישנות לא תכלול את התקופה בה הקטין טרם הגיע לגיל 18. Harel This table provides notes regarding filing a claim. It details how claim submission affects the statute of limitations and considerations for claims filed by minors. בין הערכים בטבלה: Statute of limitations: filing with institution does not halt; Statute of limitations: filing with court does halt; Minor's claim: period before age 18 is excluded from statute of limitations; Special agreement: overrides g…",
+  "payload": "טבלה: הערות לגבי הגשת תביעה\nThis table provides notes regarding filing a claim. It details how claim submission affects the statute of limitations and considerations for claims filed by minors.\nממדים: Note/Condition regarding claim filing, Details of claim filing process\n\nКак правило, подача иска в учреждение не останавливает отсчет периода срока давности, и только подача иска в суд останавливает этот отсчет. Если речь идет об иске, поданном несовершеннолетним, при расчете периода срока давности не будет учитываться тот период, когда истцу еще не исполнилось 18-ти лет.\nПримечание: если существует особая договоренность, касающаяся определенного условия полиса, указания данной особой договоренности будут преобладать над сказанным выше, а также надо всем, что связано с покрытиями, существующими в таковом."
 }

@@ -2,27 +2,24 @@
   "id": "pdf:business/files/פוליסה_לביטוח_סחורה_בהעברה-_הראל_ביט_-_ינואר_2023.pdf#37",
   "source": "llm",
   "description": {
-    "title": "פוליסת סחורה בהעברה",
-    "summary": "This table details the consequences of late insurance premium payments for a 'סחורה בהעברה' (goods in transit) policy from Harel. It outlines interest and indexing applied to overdue amounts.",
-    "embed_passage": "פוליסת סחורה בהעברה של הראל ביט קובעת כי אם דמי הביטוח לא שולמו במועדם, יישא הסכום שבפיגור הפרשי הצמדה וריבית לפי חוק פסיקת ריבית והצמדה, תשכ״א. לדוגמה, סעיף 4.1.6 מתייחס לשיעור שנקבע לפי סעיף וריבית. במקרה של פיגור בתשלום, המבטח רשאי להודיע על ביטול הביטוח לאחר 15 יום.",
-    "row_axis": "Policy clauses regarding late payments",
-    "column_axis": "Details of late payment consequences (interest, indexing, cancellation)",
-    "units": [
-      "%"
-    ],
+    "title": "פיגורים בתשלום דמי ביטוח",
+    "summary": "This table details the consequences of late insurance premium payments. It outlines interest and indexing applied to overdue amounts, and the insurer's right to cancel the policy.",
+    "embed_passage": "טבלה זו מתארת את ההשלכות של אי תשלום דמי ביטוח במועד, במסגרת פוליסת ביטוח סחורה בהעברה של הראל ביט. היא מפרטת את הריבית וההצמדה החלות על סכומים בפיגור, וכן את זכות המבטח לבטל את הפוליסה. ניתן לעיין בטבלה כדי להבין את התנאים במקרה של אי עמידה בתשלומי הביטוח. הראל ביט, תשכ״א, חוק פסיקת ריבית והצמדה, הפרשי הצמדה וריבית, סכום בפיגור, ביטול הביטוח.",
+    "row_axis": "conditions related to late payment",
+    "column_axis": "details of consequences (interest, cancellation rights)",
+    "units": [],
     "notable_values": [
-      "סעיף: 4.1.6",
-      "חוק: תשכ״א",
-      "ימים: 15",
-      "ימים: 21",
-      "ימים: 60"
+      "חוק פסיקת ריבית והצמדה: תשכ״א",
+      "סכום בפיגור: הפרשי הצמדה וריבית",
+      "תקופת ביטול: 15 ימים",
+      "תקופת ביטול: 21 ימים"
     ],
     "product_hints": [
-      "סחורה בהעברה",
+      "פוליסת ביטוח סחורה בהעברה",
       "הראל ביט"
     ]
   },
   "sketch": "לא שולמו דמי הביטוח במועדם, יישא הסכום שבפיגור הפרשי הצמדה .4.1.6 וכן ריבית צמודה 1961 כמשמעותם בחוק פסיקת ריבית והצמדה, תשכ״א לחוק האמור לעניין ההגדרה ״הפרשי הצמדה 1 בשיעור שנקבע לפי סעיף וריבית״.\nאין בביטול הביטוח על פי סעיף זה כדי לגרוע מחובת המבוטח לסלק את .4.1.7 הסכום שבפיגור, המתייחס לתקופה שעד לביטול האמור, וכן את הוצאות המבטח הקשורות בגביית החוב שבפיגור.",
-  "embed_text": "פוליסת סחורה בהעברה של הראל ביט קובעת כי אם דמי הביטוח לא שולמו במועדם, יישא הסכום שבפיגור הפרשי הצמדה וריבית לפי חוק פסיקת ריבית והצמדה, תשכ״א. לדוגמה, סעיף 4.1.6 מתייחס לשיעור שנקבע לפי סעיף וריבית. במקרה של פיגור בתשלום, המבטח רשאי להודיע על ביטול הביטוח לאחר 15 יום.",
-  "payload": "טבלה: פוליסת סחורה בהעברה\nThis table details the consequences of late insurance premium payments for a 'סחורה בהעברה' (goods in transit) policy from Harel. It outlines interest and indexing applied to overdue amounts.\nממדים: Policy clauses regarding late payments, Details of late payment consequences (interest, indexing, cancellation)\n\nלא שולמו דמי הביטוח במועדם, יישא הסכום שבפיגור הפרשי הצמדה .4.1.6 וכן ריבית צמודה 1961 כמשמעותם בחוק פסיקת ריבית והצמדה, תשכ״א לחוק האמור לעניין ההגדרה ״הפרשי הצמדה 1 בשיעור שנקבע לפי סעיף וריבית״.\nאין בביטול הביטוח על פי סעיף זה כדי לגרוע מחובת המבוטח לסלק את .4.1.7 הסכום שבפיגור, המתייחס לתקופה שעד לביטול האמור, וכן את הוצאות המבטח הקשורות בגביית החוב שבפיגור."
+  "embed_text": "טבלה זו מתארת את ההשלכות של אי תשלום דמי ביטוח במועד, במסגרת פוליסת ביטוח סחורה בהעברה של הראל ביט. היא מפרטת את הריבית וההצמדה החלות על סכומים בפיגור, וכן את זכות המבטח לבטל את הפוליסה. ניתן לעיין בטבלה כדי להבין את התנאים במקרה של אי עמידה בתשלומי הביטוח. הראל ביט, תשכ״א, חוק פסיקת ריבית והצמדה, הפרשי הצמדה וריבית, סכום בפיגור, ביטול הביטוח. This table details the consequences of late insurance premium payments. It outlines interest and indexing applied to overdue amounts, and the insurer's right to cancel the policy. בין הערכים בטבלה: תקופת ביטול: 15 ימים; תקופת ביטול: 21 ימים.",
+  "payload": "טבלה: פיגורים בתשלום דמי ביטוח\nThis table details the consequences of late insurance premium payments. It outlines interest and indexing applied to overdue amounts, and the insurer's right to cancel the policy.\nממדים: conditions related to late payment, details of consequences (interest, cancellation rights)\n\nלא שולמו דמי הביטוח במועדם, יישא הסכום שבפיגור הפרשי הצמדה .4.1.6 וכן ריבית צמודה 1961 כמשמעותם בחוק פסיקת ריבית והצמדה, תשכ״א לחוק האמור לעניין ההגדרה ״הפרשי הצמדה 1 בשיעור שנקבע לפי סעיף וריבית״.\nאין בביטול הביטוח על פי סעיף זה כדי לגרוע מחובת המבוטח לסלק את .4.1.7 הסכום שבפיגור, המתייחס לתקופה שעד לביטול האמור, וכן את הוצאות המבטח הקשורות בגביית החוב שבפיגור."
 }

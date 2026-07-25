@@ -2,24 +2,27 @@
   "id": "pdf:business/files/תנאי-פוליסת-ביטוח-עסקי-ביטוח-אחריות-זיהום-אנגלית.pdf#9",
   "source": "llm",
   "description": {
-    "title": "עלויות ניקיון - אירוע זיהום חדש",
-    "summary": "This table details coverage for cleanup costs related to new pollution events. It specifies conditions for both on-site discovery and third-party liability claims, looking at when the event is discovered and reported during the policy period.",
-    "embed_passage": "פוליסת ביטוח אחריות זיהום מכסה עלויות ניקיון (cleanup costs) הנובעות מאירוע זיהום חדש (new pollution event) המתרחש בתוך גבולות 'מיקום מכוסה' (covered location). הכיסוי חל אם האירוע התגלה (discovered) או הוגשה תביעה (claim) כנגד המבוטח (insured) במהלך תקופת הפוליסה (policy period).",
-    "row_axis": "Coverage type (e.g., On-Site Discovery, Third Party Liability)",
-    "column_axis": "Conditions for coverage (e.g., timing of discovery/claim, location of event)",
+    "title": "כיסוי נזקי זיהום - אירוע זיהום חדש",
+    "summary": "This table details coverage for cleanup costs related to new pollution events. It specifies conditions for on-site discovery and third-party liability claims.",
+    "embed_passage": "טבלה זו מתארת כיסוי לעלויות ניקיון הקשורות לאירועי זיהום חדשים, במסגרת פוליסת ביטוח אחריות זיהום. ניתן לבדוק את הכיסוי עבור 'אירוע זיהום חדש' הן במקרה של גילוי עצמי והן במקרה של תביעה מצד גורם שלישי, תוך התייחסות לתקופת הפוליסה ולדיווח בזמן. הפוליסה מתייחסת ל'עלויות ניקיון', 'אירוע זיהום חדש', 'מיקום מכוסה', 'תקופת הפוליסה', ו'תביעה'. כיסוי C מתייחס לעלויות ניקיון עבור אירוע זיהום חדש, כאשר סעיף 1(a) עוסק בגילוי עצמי וסעיף 1(b) עוסק באחריות כלפי צד שלישי.",
+    "row_axis": "Coverage and Discovery Method",
+    "column_axis": "Conditions and Requirements",
     "units": [],
     "notable_values": [
-      "Coverage C: Cleanup Costs",
-      "On-Site: First Party Discovery",
-      "Third Party Liability",
-      "Policy Period",
-      "New Pollution Event"
+      "Coverage: Cleanup Costs",
+      "Event Type: New Pollution Event",
+      "Location: On-Site",
+      "Discovery: First Party",
+      "Liability: Third Party",
+      "Reporting Period: Policy Period",
+      "Claim Requirement: First Made Against Insured",
+      "Cost Type: Cleanup Costs"
     ],
     "product_hints": [
       "ביטוח אחריות זיהום"
     ]
   },
   "sketch": "COVERAGE C:  CLEANUP COSTS - NEW POLLUTION EVENT\n1. On-Site\n(a) First Party Discovery\nWe  will  pay  'cleanup  costs'  to  the  extent  resulting  from  a  'new  pollution event' on, at or under a 'covered location', if that \"new pollution event\" is first \"discovered\" during the 'policy period' and the \"discovery\" is reported to us in writing during the 'policy period' or any applicable extended reporting period.\n(b) Third Party Liability\nWe will pay 'cleanup costs' that an 'insured' is legally obligated to pay as a result  of  a  \"claim\"  resulting  from  a  \"new  pollution  event'  on,  at,  or  under  a 'covered  location',  provided  the  'claim'  is  first  made  against  the  \"insured\" during the 'policy period\", and the \"claim\" is reported to us in writing during the 'policy period' or any applicable extended reporting period.",
-  "embed_text": "פוליסת ביטוח אחריות זיהום מכסה עלויות ניקיון (cleanup costs) הנובעות מאירוע זיהום חדש (new pollution event) המתרחש בתוך גבולות 'מיקום מכוסה' (covered location). הכיסוי חל אם האירוע התגלה (discovered) או הוגשה תביעה (claim) כנגד המבוטח (insured) במהלך תקופת הפוליסה (policy period).",
-  "payload": "טבלה: עלויות ניקיון - אירוע זיהום חדש\nThis table details coverage for cleanup costs related to new pollution events. It specifies conditions for both on-site discovery and third-party liability claims, looking at when the event is discovered and reported during the policy period.\nממדים: Coverage type (e.g., On-Site Discovery, Third Party Liability), Conditions for coverage (e.g., timing of discovery/claim, location of event)\n\nCOVERAGE C:  CLEANUP COSTS - NEW POLLUTION EVENT\n1. On-Site\n(a) First Party Discovery\nWe  will  pay  'cleanup  costs'  to  the  extent  resulting  from  a  'new  pollution event' on, at or under a 'covered location', if that \"new pollution event\" is first \"discovered\" during the 'policy period' and the \"discovery\" is reported to us in writing during the 'policy period' or any applicable extended reporting period.\n(b) Third Party Liability\nWe will pay 'cleanup costs' that an 'insured' is legally obligated to pay as a result  of  a  \"claim\"  resulting  from  a  \"new  pollution  event'  on,  at,  or  under  a 'covered  location',  provided  the  'claim'  is  first  made  against  the  \"insured\" during the 'policy period\", and the \"claim\" is reported to us in writing during the 'policy period' or any applicable extended reporting period."
+  "embed_text": "טבלה זו מתארת כיסוי לעלויות ניקיון הקשורות לאירועי זיהום חדשים, במסגרת פוליסת ביטוח אחריות זיהום. ניתן לבדוק את הכיסוי עבור 'אירוע זיהום חדש' הן במקרה של גילוי עצמי והן במקרה של תביעה מצד גורם שלישי, תוך התייחסות לתקופת הפוליסה ולדיווח בזמן. הפוליסה מתייחסת ל'עלויות ניקיון', 'אירוע זיהום חדש', 'מיקום מכוסה', 'תקופת הפוליסה', ו'תביעה'. כיסוי C מתייחס לעלויות ניקיון עבור אירוע זיהום חדש, כאשר סעיף 1(a) עוסק בגילוי עצמי וסעיף 1(b) עוסק באחריות כלפי צד שלישי. This table details coverage for cleanup costs related to new pollution events. It specifies conditions for on-site discovery and third-party liability claims. בין הערכים בטבלה: Coverage: Cleanup Costs; Event Type: New Pollution Event; Location: On-Site; Discovery: First Party; Liability: Third Party; Reporting Period: Policy Period; Clai…",
+  "payload": "טבלה: כיסוי נזקי זיהום - אירוע זיהום חדש\nThis table details coverage for cleanup costs related to new pollution events. It specifies conditions for on-site discovery and third-party liability claims.\nממדים: Coverage and Discovery Method, Conditions and Requirements\n\nCOVERAGE C:  CLEANUP COSTS - NEW POLLUTION EVENT\n1. On-Site\n(a) First Party Discovery\nWe  will  pay  'cleanup  costs'  to  the  extent  resulting  from  a  'new  pollution event' on, at or under a 'covered location', if that \"new pollution event\" is first \"discovered\" during the 'policy period' and the \"discovery\" is reported to us in writing during the 'policy period' or any applicable extended reporting period.\n(b) Third Party Liability\nWe will pay 'cleanup costs' that an 'insured' is legally obligated to pay as a result  of  a  \"claim\"  resulting  from  a  \"new  pollution  event'  on,  at,  or  under  a 'covered  location',  provided  the  'claim'  is  first  made  against  the  \"insured\" during the 'policy period\", and the \"claim\" is reported to us in writing during the 'policy period' or any applicable extended reporting period."
 }

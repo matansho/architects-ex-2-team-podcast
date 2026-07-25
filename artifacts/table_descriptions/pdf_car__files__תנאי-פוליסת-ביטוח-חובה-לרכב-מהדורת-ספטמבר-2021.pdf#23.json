@@ -3,22 +3,22 @@
   "source": "llm",
   "description": {
     "title": "פיצוי מוסכם",
-    "summary": "This table details agreed-upon compensation amounts in cases where an insured provides incomplete or inaccurate information during the underwriting process. It outlines payments due from the policyholder to the insurer based on the claim amount.",
-    "embed_passage": "פוליסת ביטוח חובה לרכב מגדירה פיצוי מוסכם במקרים של אי-גילוי נאות. לדוגמה, אם הנפגע עקב מקרה הביטוח, ישלם בעל הפוליסה למבטח פיצוי מוסכם בסכום השווה לפיצוי המגיע לו בשל נזק שאינו נזק ממון, אך לא יותר מ ₪ 10,000. כמו כן, פיצוי מוסכם בסכום של ₪ 2,500 ישולם עבור כל נפגע שאינו בעל הפוליסה.",
-    "row_axis": "Scenario of incomplete/inaccurate disclosure",
+    "summary": "This table details agreed-upon compensation amounts related to incomplete or inaccurate responses to underwriting questions in a car insurance policy. It outlines payments due from the policyholder in specific scenarios involving accidents.",
+    "embed_passage": "טבלה זו מתארת פיצוי מוסכם הקשור לתשובות לא שלמות או לא מדויקות לשאלות חיתום בפוליסת ביטוח רכב. היא מפרטת תשלומים הנדרשים מהמבוטח בתרחישים ספציפיים הכוללים תאונות. ניתן לחפש מידע על סכומי הפיצוי המוסכמים בהתאם לנזק ממון ולנפגעים שאינם בעל הפוליסה. סכומי הפיצוי המוסכמים כוללים ₪ 10,000 ו-₪ 2,500. הפוליסה הרלוונטית היא ביטוח חובה לרכב, מהדורת ספטמבר 2021.",
+    "row_axis": "Scenario related to inaccurate underwriting response",
     "column_axis": "Compensation amount",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "maximum compensation for non-monetary damage: ₪ 10,000",
-      "agreed compensation per non-policyholder victim: ₪ 2,500"
+      "פיצוי מוסכם: ₪ 10,000",
+      "פיצוי מוסכם: ₪ 2,500"
     ],
     "product_hints": [
       "ביטוח חובה לרכב"
     ]
   },
   "sketch": ", השיב בעל הפוליסה לשאלת חיתום תשובה שלא היתה מלאה וכנה בעת שניתנה .9.3 ובשל התשובה נקבעו דמי ביטוח נמוכים מדמי הביטוח שהיו נקבעים אילו היה בעל הפוליסה עונה תשובה מלאה וכנה, או שבשל התשובה כאמור הסכים המבטח לכרות את חוזה הביטוח אף שלא היה מסכים לכך אילו ניתנה תשובה מלאה וכנה, וקרה מקרה הביטוח בטרם בוטל חוזה הביטוח, יחולו הוראות אלה:\nנפגע בעל הפוליסה עקב מקרה הביטוח, ישלם בעל הפוליסה למבטח .9.3.1 פיצוי מוסכם בסכום השווה לפיצוי המגיע לבעל הפוליסה בשל נזק שאינו .₪  10,000( לחוק הפיצויים, אך לא יותר מ 3)( )א 4 נזק ממון לפי סעיף",
-  "embed_text": "פוליסת ביטוח חובה לרכב מגדירה פיצוי מוסכם במקרים של אי-גילוי נאות. לדוגמה, אם הנפגע עקב מקרה הביטוח, ישלם בעל הפוליסה למבטח פיצוי מוסכם בסכום השווה לפיצוי המגיע לו בשל נזק שאינו נזק ממון, אך לא יותר מ ₪ 10,000. כמו כן, פיצוי מוסכם בסכום של ₪ 2,500 ישולם עבור כל נפגע שאינו בעל הפוליסה.",
-  "payload": "טבלה: פיצוי מוסכם\nThis table details agreed-upon compensation amounts in cases where an insured provides incomplete or inaccurate information during the underwriting process. It outlines payments due from the policyholder to the insurer based on the claim amount.\nממדים: Scenario of incomplete/inaccurate disclosure, Compensation amount\n\n, השיב בעל הפוליסה לשאלת חיתום תשובה שלא היתה מלאה וכנה בעת שניתנה .9.3 ובשל התשובה נקבעו דמי ביטוח נמוכים מדמי הביטוח שהיו נקבעים אילו היה בעל הפוליסה עונה תשובה מלאה וכנה, או שבשל התשובה כאמור הסכים המבטח לכרות את חוזה הביטוח אף שלא היה מסכים לכך אילו ניתנה תשובה מלאה וכנה, וקרה מקרה הביטוח בטרם בוטל חוזה הביטוח, יחולו הוראות אלה:\nנפגע בעל הפוליסה עקב מקרה הביטוח, ישלם בעל הפוליסה למבטח .9.3.1 פיצוי מוסכם בסכום השווה לפיצוי המגיע לבעל הפוליסה בשל נזק שאינו .₪  10,000( לחוק הפיצויים, אך לא יותר מ 3)( )א 4 נזק ממון לפי סעיף"
+  "embed_text": "טבלה זו מתארת פיצוי מוסכם הקשור לתשובות לא שלמות או לא מדויקות לשאלות חיתום בפוליסת ביטוח רכב. היא מפרטת תשלומים הנדרשים מהמבוטח בתרחישים ספציפיים הכוללים תאונות. ניתן לחפש מידע על סכומי הפיצוי המוסכמים בהתאם לנזק ממון ולנפגעים שאינם בעל הפוליסה. סכומי הפיצוי המוסכמים כוללים ₪ 10,000 ו-₪ 2,500. הפוליסה הרלוונטית היא ביטוח חובה לרכב, מהדורת ספטמבר 2021. This table details agreed-upon compensation amounts related to incomplete or inaccurate responses to underwriting questions in a car insurance policy. It outlines payments due from the policyholder in specific scenarios involving accidents.",
+  "payload": "טבלה: פיצוי מוסכם\nThis table details agreed-upon compensation amounts related to incomplete or inaccurate responses to underwriting questions in a car insurance policy. It outlines payments due from the policyholder in specific scenarios involving accidents.\nממדים: Scenario related to inaccurate underwriting response, Compensation amount\n\n, השיב בעל הפוליסה לשאלת חיתום תשובה שלא היתה מלאה וכנה בעת שניתנה .9.3 ובשל התשובה נקבעו דמי ביטוח נמוכים מדמי הביטוח שהיו נקבעים אילו היה בעל הפוליסה עונה תשובה מלאה וכנה, או שבשל התשובה כאמור הסכים המבטח לכרות את חוזה הביטוח אף שלא היה מסכים לכך אילו ניתנה תשובה מלאה וכנה, וקרה מקרה הביטוח בטרם בוטל חוזה הביטוח, יחולו הוראות אלה:\nנפגע בעל הפוליסה עקב מקרה הביטוח, ישלם בעל הפוליסה למבטח .9.3.1 פיצוי מוסכם בסכום השווה לפיצוי המגיע לבעל הפוליסה בשל נזק שאינו .₪  10,000( לחוק הפיצויים, אך לא יותר מ 3)( )א 4 נזק ממון לפי סעיף"
 }

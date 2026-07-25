@@ -2,26 +2,28 @@
   "id": "pdf:health/files/גילוי-נאות-upgrade-אקסטרה-ניתוחים-וטיפולים-מחליפי-ניתוח-בישראל.pdf#0",
   "source": "llm",
   "description": {
-    "title": "דמי ביטוח ניתוחים",
-    "summary": "This table shows the insurance premiums for 'Upgrade אקסטרה' surgical insurance, based on the insured's age. You can look up the premium amount for a given age.",
-    "embed_passage": "פוליסת 'Upgrade אקסטרה' מציעה ביטוח ניתוחים משלים וטיפולים מחליפי ניתוח בישראל. דמי הביטוח משתנים בהתאם לגיל המבוטח, כאשר לדוגמה, גיל 2735 כרוך בחיוב מסוים. ניתן למצוא את מחירי הביטוח באתר www.harel-group.co.il.",
+    "title": "דמי ביטוח - ניתוחים משלימים",
+    "summary": "This table shows insurance premiums for supplemental surgery coverage. It appears to be indexed by the insured's age, with premium amounts potentially adjusted based on a medical index.",
+    "embed_passage": "טבלה זו מציגה את דמי הביטוח עבור ביטוח ניתוחים משלים של הראל, כאשר גובה הדמי משתנה בהתאם לגיל המבוטח. ניתן למצוא את דמי הביטוח הרלוונטיים על ידי התייחסות לגיל המבוטח בזמן ההצטרפות לפוליסה. הראל מציעה ביטוח ניתוחים משלים שב״ן וטיפולים מחליפי ניתוח בישראל. טלפון: 037348178, כתובת דואר אלקטרוני: polisotbs@harel-ins.co.il, אתר אינטרנט: www.harel-group.co.il. תכנית מספר 516, מהדורה 4/2024. מדד מתן (13396).",
     "row_axis": "גיל המבוטח",
     "column_axis": "דמי ביטוח",
-    "units": [
-      "₪"
-    ],
+    "units": [],
     "notable_values": [
-      "גיל: 2735",
       "טלפון: 037348178",
+      "דואר אלקטרוני: polisotbs@harel-ins.co.il",
+      "אתר אינטרנט: www.harel-group.co.il",
       "ת.ד: 10951",
-      "אתר: www.harel-group.co.il",
-      "כתובת דוא״ל: polisotbs@harel-ins.co.il"
+      "תכנית מספר: 516",
+      "מהדורה: 4/2024",
+      "מדד מתן: 13396"
     ],
     "product_hints": [
-      "Upgrade אקסטרה"
+      "ביטוח ניתוחים משלים",
+      "שב״ן",
+      "הראל"
     ]
   },
   "sketch": "0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",ט רנ האינט אתר תובת כ www.harel-group.co.il",
-  "embed_text": "פוליסת 'Upgrade אקסטרה' מציעה ביטוח ניתוחים משלים וטיפולים מחליפי ניתוח בישראל. דמי הביטוח משתנים בהתאם לגיל המבוטח, כאשר לדוגמה, גיל 2735 כרוך בחיוב מסוים. ניתן למצוא את מחירי הביטוח באתר www.harel-group.co.il.",
-  "payload": "טבלה: דמי ביטוח ניתוחים\nThis table shows the insurance premiums for 'Upgrade אקסטרה' surgical insurance, based on the insured's age. You can look up the premium amount for a given age.\nממדים: גיל המבוטח, דמי ביטוח\n\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",ט רנ האינט אתר תובת כ www.harel-group.co.il"
+  "embed_text": "טבלה זו מציגה את דמי הביטוח עבור ביטוח ניתוחים משלים של הראל, כאשר גובה הדמי משתנה בהתאם לגיל המבוטח. ניתן למצוא את דמי הביטוח הרלוונטיים על ידי התייחסות לגיל המבוטח בזמן ההצטרפות לפוליסה. הראל מציעה ביטוח ניתוחים משלים שב״ן וטיפולים מחליפי ניתוח בישראל. טלפון: 037348178, כתובת דואר אלקטרוני: polisotbs@harel-ins.co.il, אתר אינטרנט: www.harel-group.co.il. תכנית מספר 516, מהדורה 4/2024. מדד מתן (13396). This table shows insurance premiums for supplemental surgery coverage. It appears to be indexed by the insured's age, with premium amounts potentially adjusted based on a medical index. בין הערכים בטבלה: ת.ד: 10951.",
+  "payload": "טבלה: דמי ביטוח - ניתוחים משלימים\nThis table shows insurance premiums for supplemental surgery coverage. It appears to be indexed by the insured's age, with premium amounts potentially adjusted based on a medical index.\nממדים: גיל המבוטח, דמי ביטוח\n\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",ט רנ האינט אתר תובת כ www.harel-group.co.il"
 }

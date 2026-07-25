@@ -2,25 +2,22 @@
   "id": "pdf:mortgage/files/טופס-הצעה-לביטוח-חיים-ומבנה-למשכנתה.pdf#22",
   "source": "llm",
   "description": {
-    "title": "הצעה לביטוח חיים ומבנה",
-    "summary": "This table is part of a life and property insurance proposal form for a mortgage. It captures the applicant's existing insurance policies and their preferences regarding adding coverage or reducing/canceling existing policies.",
-    "embed_passage": "טופס זה עוסק בביטוח חיים ומבנה למשכנתה. הלקוח מציין האם ברשותו פוליסה קיימת, ואם כן, האם הוא מעוניין להוסיף כיסוי נוסף, להקטין את הפיצוי בפוליסה הקיימת או לבטל אותה לחלוטין. לדוגמה, אם הלקוח כבר בעל פוליסה, הוא יכול לבחור להוסיף כיסוי נוסף ולקבל הצעות מחיר בהתאם.",
-    "row_axis": "Applicant (First/Second)",
-    "column_axis": "Insurance Policy Options (Add Coverage, Reduce Coverage, Cancel Policy)",
+    "title": "הצעה לביטוח חיים ומבנה למשכנתה",
+    "summary": "This table captures applicant consent regarding additional life and property insurance coverage for a mortgage, including options to add coverage, reduce existing coverage, or cancel existing policies. It is used to determine the applicant's preferences for managing existing and new insurance policies.",
+    "embed_passage": "טופס זה נועד לאיסוף מידע על העדפות המועמדים לביטוח חיים ומבנה למשכנתה, לצורך הוספת כיסוי ביטוחי נוסף, הקטנת היקף הכיסוי הקיים או ביטול פוליסה קיימת. המועמדים יכולים להביע הסכמה לרכישת כיסוי נוסף ולגביית פרמיה נוספת, או לבחור להקטין את היקף הפיצוי בפוליסה הקיימת. אפשרויות נוספות כוללות ביטול הפוליסה הקיימת ושליחת בקשת הביטול לחברת הביטוח. טופס זה רלוונטי לביטוח חיים ומבנה למשכנתה, כיסוי נוסף, הקטנת כיסוי, ביטול פוליסה. ניתן לבחור האם להשאיר את הפוליסה הקיימת ולהקטין את היקף הפיצוי, או לבטל את הפוליסה הקיימת.",
+    "row_axis": "מועמד לביטוח (ראשון/שני)",
+    "column_axis": "אפשרות ביטוח (הוספת כיסוי, הקטנת כיסוי, ביטול פוליסה)",
     "units": [],
     "notable_values": [
-      "Applicant 1: Yes/No regarding existing policy",
-      "Applicant 2: Yes/No regarding existing policy",
-      "Coverage Addition: Confirmation of additional premium payment",
-      "Coverage Reduction: Request to reduce compensation amount",
-      "Policy Cancellation: Request to send cancellation to insurance company"
+      "כיסוי נוסף: כן",
+      "הקטנת היקף הפיצוי: כן",
+      "ביטול פוליסה קיימת: כן"
     ],
     "product_hints": [
-      "ביטוח חיים ומבנה",
-      "פוליסת ביטוח חיים למשכנתא"
+      "ביטוח חיים למשכנתה"
     ]
   },
   "sketch": "לידיעתך/כם, הכיסוי אליו אתה/ם מבקש/ים להצטרף הינו כיסוי נוסף, המבטח מקרה ביטוח דומה לכיסוי הקיים שבידך/ם וייגבו דמי\nביטוח נוספים עבור כיסוי זה. אני/ו מאשר/ים את רכישת הכיסוי וגביית הפרמיה הנוספת.\nאני/ו מעוניינ/ים להשאיר את הפוליסה הקיימת ולהקטין בה את היקף הפיצוי:\nלידיעתך/כם, הכיסוי אליו אתה/ם מבקש/ים להצטרף הינו כיסוי נוסף, המבטח מקרה ביטוח דומה לכיסוי הקיים שבידך/ם וייגבו דמי\n.\nביטוח נוספים עבור כיסוי זה. אתה/ם מאשר/ים את רכישת הכיסוי וגביית הפרמיה הנוספת",
-  "embed_text": "טופס זה עוסק בביטוח חיים ומבנה למשכנתה. הלקוח מציין האם ברשותו פוליסה קיימת, ואם כן, האם הוא מעוניין להוסיף כיסוי נוסף, להקטין את הפיצוי בפוליסה הקיימת או לבטל אותה לחלוטין. לדוגמה, אם הלקוח כבר בעל פוליסה, הוא יכול לבחור להוסיף כיסוי נוסף ולקבל הצעות מחיר בהתאם.",
-  "payload": "טבלה: הצעה לביטוח חיים ומבנה\nThis table is part of a life and property insurance proposal form for a mortgage. It captures the applicant's existing insurance policies and their preferences regarding adding coverage or reducing/canceling existing policies.\nממדים: Applicant (First/Second), Insurance Policy Options (Add Coverage, Reduce Coverage, Cancel Policy)\n\nלידיעתך/כם, הכיסוי אליו אתה/ם מבקש/ים להצטרף הינו כיסוי נוסף, המבטח מקרה ביטוח דומה לכיסוי הקיים שבידך/ם וייגבו דמי\nביטוח נוספים עבור כיסוי זה. אני/ו מאשר/ים את רכישת הכיסוי וגביית הפרמיה הנוספת.\nאני/ו מעוניינ/ים להשאיר את הפוליסה הקיימת ולהקטין בה את היקף הפיצוי:\nלידיעתך/כם, הכיסוי אליו אתה/ם מבקש/ים להצטרף הינו כיסוי נוסף, המבטח מקרה ביטוח דומה לכיסוי הקיים שבידך/ם וייגבו דמי\n.\nביטוח נוספים עבור כיסוי זה. אתה/ם מאשר/ים את רכישת הכיסוי וגביית הפרמיה הנוספת"
+  "embed_text": "טופס זה נועד לאיסוף מידע על העדפות המועמדים לביטוח חיים ומבנה למשכנתה, לצורך הוספת כיסוי ביטוחי נוסף, הקטנת היקף הכיסוי הקיים או ביטול פוליסה קיימת. המועמדים יכולים להביע הסכמה לרכישת כיסוי נוסף ולגביית פרמיה נוספת, או לבחור להקטין את היקף הפיצוי בפוליסה הקיימת. אפשרויות נוספות כוללות ביטול הפוליסה הקיימת ושליחת בקשת הביטול לחברת הביטוח. טופס זה רלוונטי לביטוח חיים ומבנה למשכנתה, כיסוי נוסף, הקטנת כיסוי, ביטול פוליסה. ניתן לבחור האם להשאיר את הפוליסה הקיימת ולהקטין את היקף הפיצוי, או לבטל את הפוליסה הקיימת. This table captures applicant consent regarding additional life and property insurance coverage for a mortgage, including options to add coverage, reduce existing coverage, or cancel existing policies. It is used to determine the applicant's preferences for managing existing and new in…",
+  "payload": "טבלה: הצעה לביטוח חיים ומבנה למשכנתה\nThis table captures applicant consent regarding additional life and property insurance coverage for a mortgage, including options to add coverage, reduce existing coverage, or cancel existing policies. It is used to determine the applicant's preferences for managing existing and new insurance policies.\nממדים: מועמד לביטוח (ראשון/שני), אפשרות ביטוח (הוספת כיסוי, הקטנת כיסוי, ביטול פוליסה)\n\nלידיעתך/כם, הכיסוי אליו אתה/ם מבקש/ים להצטרף הינו כיסוי נוסף, המבטח מקרה ביטוח דומה לכיסוי הקיים שבידך/ם וייגבו דמי\nביטוח נוספים עבור כיסוי זה. אני/ו מאשר/ים את רכישת הכיסוי וגביית הפרמיה הנוספת.\nאני/ו מעוניינ/ים להשאיר את הפוליסה הקיימת ולהקטין בה את היקף הפיצוי:\nלידיעתך/כם, הכיסוי אליו אתה/ם מבקש/ים להצטרף הינו כיסוי נוסף, המבטח מקרה ביטוח דומה לכיסוי הקיים שבידך/ם וייגבו דמי\n.\nביטוח נוספים עבור כיסוי זה. אתה/ם מאשר/ים את רכישת הכיסוי וגביית הפרמיה הנוספת"
 }

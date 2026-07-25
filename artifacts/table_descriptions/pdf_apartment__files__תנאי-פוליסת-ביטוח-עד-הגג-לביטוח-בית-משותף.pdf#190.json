@@ -3,23 +3,21 @@
   "source": "llm",
   "description": {
     "title": "ערך כינון",
-    "summary": "This table details the 'ערך כינון' (replacement cost) coverage within a home insurance policy. It explains how payouts are calculated when property is damaged or lost, and under what conditions replacement cost coverage applies.",
-    "embed_passage": "פוליסת 'עד הגג' מציעה תגמולי ביטוח לפי ערך כינון עבור מבנה ותכולה, כלומר הקמה מחדש, תיקון או החלפה ברכוש חדש מאותו סוג ואיכות. תגמולי הביטוח לפי ערך כינון מותנים בהקמה מחדש או תיקון הרכוש שאבד או ניזוק, ללא שינויים באיכות ובסוג. במקרים מסוימים, כגון אובדן בגדים, תגמולי הביטוח לא ישולמו לפי ערך כינון.",
-    "row_axis": "Conditions for replacement cost coverage",
-    "column_axis": "Coverage details and stipulations",
+    "summary": "This table details the conditions for insurance payouts based on 'כינון' (replacement cost). It specifies when payouts will be based on replacement cost versus actual cash value.",
+    "embed_passage": "טבלה זו מתארת את התנאים לתגמולי ביטוח המבוססים על ערך כינון, המשמש להקמה מחדש, תיקון או החלפה של רכוש שניזוק או אבד. טבלה זו רלוונטית לפוליסת ביטוח עד הגג לביטוח בית משותף, ומסייעת להבין את אופן חישוב התגמולים במקרה של נזק או אובדן. ערך כינון מוגדר כעלות הקמה מחדש, תיקון או החלפה ברכוש חדש מאותו סוג ואיכות. במקרים מסוימים, תגמולי הביטוח ישולמו לפי ערך שיפוי במקום ערך כינון. תנאים אלו חלים על מקרי ביטוח למבנה או לתכולה. בגדים, לדוגמה, אינם זכאים לתגמולי ביטוח לפי ערך כינון.",
+    "row_axis": "conditions for replacement cost payouts",
+    "column_axis": "details of replacement cost application",
     "units": [],
     "notable_values": [
-      "6: Section number for 'ערך כינון'",
-      "6.1: Replacement cost applies to structure or contents unless waived",
-      "6.2: Replacement cost requires rebuilding/repairing without quality changes",
-      "6.3: Payouts for specific items are capped at the specified amount",
-      "6.5: No replacement cost for clothing alone"
+      "ערך כינון: definition of replacement cost",
+      "בגדים: not eligible for replacement cost payouts"
     ],
     "product_hints": [
-      "עד הגג"
+      "ביטוח עד הגג",
+      "ביטוח בית משותף"
     ]
   },
   "sketch": "ערך כינון .6\nבקרות מקרה ביטוח למבנה או לתכולה, יהיו תגמולי הביטוח לפי ערך הכינון של המבנה .6.1 או התכולה, אלא אם כן המבוטח ויתר על כיסוי זה, והדבר תועד על ידי המבטח וצוין במפרט הפוליסה;\nהקמה מחדש, תיקון או החלפה ברכוש חדש מאותו סוג ואיכות - \" \"כינון , לעניין זה של הרכוש שאבד או ניזוק.",
-  "embed_text": "פוליסת 'עד הגג' מציעה תגמולי ביטוח לפי ערך כינון עבור מבנה ותכולה, כלומר הקמה מחדש, תיקון או החלפה ברכוש חדש מאותו סוג ואיכות. תגמולי הביטוח לפי ערך כינון מותנים בהקמה מחדש או תיקון הרכוש שאבד או ניזוק, ללא שינויים באיכות ובסוג. במקרים מסוימים, כגון אובדן בגדים, תגמולי הביטוח לא ישולמו לפי ערך כינון.",
-  "payload": "טבלה: ערך כינון\nThis table details the 'ערך כינון' (replacement cost) coverage within a home insurance policy. It explains how payouts are calculated when property is damaged or lost, and under what conditions replacement cost coverage applies.\nממדים: Conditions for replacement cost coverage, Coverage details and stipulations\n\nערך כינון .6\nבקרות מקרה ביטוח למבנה או לתכולה, יהיו תגמולי הביטוח לפי ערך הכינון של המבנה .6.1 או התכולה, אלא אם כן המבוטח ויתר על כיסוי זה, והדבר תועד על ידי המבטח וצוין במפרט הפוליסה;\nהקמה מחדש, תיקון או החלפה ברכוש חדש מאותו סוג ואיכות - \" \"כינון , לעניין זה של הרכוש שאבד או ניזוק."
+  "embed_text": "טבלה זו מתארת את התנאים לתגמולי ביטוח המבוססים על ערך כינון, המשמש להקמה מחדש, תיקון או החלפה של רכוש שניזוק או אבד. טבלה זו רלוונטית לפוליסת ביטוח עד הגג לביטוח בית משותף, ומסייעת להבין את אופן חישוב התגמולים במקרה של נזק או אובדן. ערך כינון מוגדר כעלות הקמה מחדש, תיקון או החלפה ברכוש חדש מאותו סוג ואיכות. במקרים מסוימים, תגמולי הביטוח ישולמו לפי ערך שיפוי במקום ערך כינון. תנאים אלו חלים על מקרי ביטוח למבנה או לתכולה. בגדים, לדוגמה, אינם זכאים לתגמולי ביטוח לפי ערך כינון. This table details the conditions for insurance payouts based on 'כינון' (replacement cost). It specifies when payouts will be based on replacement cost versus actual cash value.",
+  "payload": "טבלה: ערך כינון\nThis table details the conditions for insurance payouts based on 'כינון' (replacement cost). It specifies when payouts will be based on replacement cost versus actual cash value.\nממדים: conditions for replacement cost payouts, details of replacement cost application\n\nערך כינון .6\nבקרות מקרה ביטוח למבנה או לתכולה, יהיו תגמולי הביטוח לפי ערך הכינון של המבנה .6.1 או התכולה, אלא אם כן המבוטח ויתר על כיסוי זה, והדבר תועד על ידי המבטח וצוין במפרט הפוליסה;\nהקמה מחדש, תיקון או החלפה ברכוש חדש מאותו סוג ואיכות - \" \"כינון , לעניין זה של הרכוש שאבד או ניזוק."
 }

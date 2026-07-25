@@ -2,24 +2,26 @@
   "id": "pdf:business/files/תנאי-פוליסה-ביטוח-מכלול-למשרד-מהדורת-ינואר-2024.pdf#282",
   "source": "llm",
   "description": {
-    "title": "שערי חליפין",
-    "summary": "This table details how insurance amounts and self-participation are calculated when denominated in currencies other than the one listed, referencing the Bank of Israel exchange rate. It's used to look up the conversion rate for a specific currency on the date of the insurance event.",
-    "embed_passage": "פוליסת מכלול מתייחסת לחישוב סכומי ביטוח וגבולות אחריות, גם כאשר הם נקובים בדולרים של ארצות הברית. החישוב מתבצע על פי השער היציג של הדולר בבנק ישראל במועד החישוב או התשלום. לדוגמה, אם סכום הביטוח הוא 100 דולר, והשער היציג הוא 3.7 ש״ח לדולר, הסכום יחושב כ-370 ש״ח.",
-    "row_axis": "currency / calculation method",
-    "column_axis": "details of exchange rate application",
+    "title": "חישוב סכומי ביטוח",
+    "summary": "This table details how insurance amounts, liability limits, and self-participation are calculated, particularly when denominated in US dollars or other currencies. It specifies using the Bank of Israel's representative exchange rate for conversions.",
+    "embed_passage": "טבלה זו עוסקת בחישוב סכומי ביטוח, גבולות אחריות והשתתפות עצמית, במיוחד כאשר הם נקובים בדולרים של ארצות הברית או במטבעות אחרים. החישוב מתבצע על פי השער היציג של הדולר בבנק ישראל במועד החישוב או התשלום. במקרה של סכום ביטוח, גבול אחריות או השתתפות עצמית במטבע שונה, הסכום מחושב בהתאמה לשער החליפין היציג של בנק ישראל ביום קרות מקרה הביטוח. סכומי ביטוח, גבולות אחריות והשתתפות עצמית, תגמולי ביטוח, דולר ארצות הברית, שער יציג, בנק ישראל, מקרה ביטוח.",
+    "row_axis": "currency conversion scenarios",
+    "column_axis": "calculation method/details",
     "units": [
       "דולר ארצות הברית",
-      "ש״ח"
+      "שער יציג"
     ],
     "notable_values": [
-      "currency: דולר ארצות הברית",
-      "calculation basis: שער יציג בבנק ישראל"
+      "דולר ארצות הברית: מטבע חישוב",
+      "בנק ישראל: מקור שער החליפין",
+      "שער יציג: שיטת המרה",
+      "תגמולי ביטוח: מחושבים בדולרים"
     ],
     "product_hints": [
       "מכלול"
     ]
   },
   "sketch": ".9.13.2 אם סכומי הביטוח או גבולות האחריות וההשתתפות העצמית נקובים בדולרים של ארצות הברית, יחושבו הללו - לרבות תגמולי הביטוח המגיעים למבוטח או למוטב (לפי העניין) -בדולר ארצות הברית, על פי השער היציג של הדולר .) בבנק ישראל החל במועד החישוב או התשלום בפועל (לפי העניין\n.9.13.3 אם ננקב בפוליסה סכום ביטוח, סכום גבול אחריות או סכום השתתפות עצמית כלשהו במטבע השונה מזה שרשום ברשימה, יחושב אותו סכום בהתאמה לשער החליפין היציג המפורסם על ידי בנק ישראל של אותו מטבע, למטבע הרשום ברשימה ביום קרות מקרה הביטוח.",
-  "embed_text": "פוליסת מכלול מתייחסת לחישוב סכומי ביטוח וגבולות אחריות, גם כאשר הם נקובים בדולרים של ארצות הברית. החישוב מתבצע על פי השער היציג של הדולר בבנק ישראל במועד החישוב או התשלום. לדוגמה, אם סכום הביטוח הוא 100 דולר, והשער היציג הוא 3.7 ש״ח לדולר, הסכום יחושב כ-370 ש״ח.",
-  "payload": "טבלה: שערי חליפין\nThis table details how insurance amounts and self-participation are calculated when denominated in currencies other than the one listed, referencing the Bank of Israel exchange rate. It's used to look up the conversion rate for a specific currency on the date of the insurance event.\nממדים: currency / calculation method, details of exchange rate application\n\n.9.13.2 אם סכומי הביטוח או גבולות האחריות וההשתתפות העצמית נקובים בדולרים של ארצות הברית, יחושבו הללו - לרבות תגמולי הביטוח המגיעים למבוטח או למוטב (לפי העניין) -בדולר ארצות הברית, על פי השער היציג של הדולר .) בבנק ישראל החל במועד החישוב או התשלום בפועל (לפי העניין\n.9.13.3 אם ננקב בפוליסה סכום ביטוח, סכום גבול אחריות או סכום השתתפות עצמית כלשהו במטבע השונה מזה שרשום ברשימה, יחושב אותו סכום בהתאמה לשער החליפין היציג המפורסם על ידי בנק ישראל של אותו מטבע, למטבע הרשום ברשימה ביום קרות מקרה הביטוח."
+  "embed_text": "טבלה זו עוסקת בחישוב סכומי ביטוח, גבולות אחריות והשתתפות עצמית, במיוחד כאשר הם נקובים בדולרים של ארצות הברית או במטבעות אחרים. החישוב מתבצע על פי השער היציג של הדולר בבנק ישראל במועד החישוב או התשלום. במקרה של סכום ביטוח, גבול אחריות או השתתפות עצמית במטבע שונה, הסכום מחושב בהתאמה לשער החליפין היציג של בנק ישראל ביום קרות מקרה הביטוח. סכומי ביטוח, גבולות אחריות והשתתפות עצמית, תגמולי ביטוח, דולר ארצות הברית, שער יציג, בנק ישראל, מקרה ביטוח. This table details how insurance amounts, liability limits, and self-participation are calculated, particularly when denominated in US dollars or other currencies. It specifies using the Bank of Israel's representative exchange rate for conversions.",
+  "payload": "טבלה: חישוב סכומי ביטוח\nThis table details how insurance amounts, liability limits, and self-participation are calculated, particularly when denominated in US dollars or other currencies. It specifies using the Bank of Israel's representative exchange rate for conversions.\nממדים: currency conversion scenarios, calculation method/details\n\n.9.13.2 אם סכומי הביטוח או גבולות האחריות וההשתתפות העצמית נקובים בדולרים של ארצות הברית, יחושבו הללו - לרבות תגמולי הביטוח המגיעים למבוטח או למוטב (לפי העניין) -בדולר ארצות הברית, על פי השער היציג של הדולר .) בבנק ישראל החל במועד החישוב או התשלום בפועל (לפי העניין\n.9.13.3 אם ננקב בפוליסה סכום ביטוח, סכום גבול אחריות או סכום השתתפות עצמית כלשהו במטבע השונה מזה שרשום ברשימה, יחושב אותו סכום בהתאמה לשער החליפין היציג המפורסם על ידי בנק ישראל של אותו מטבע, למטבע הרשום ברשימה ביום קרות מקרה הביטוח."
 }

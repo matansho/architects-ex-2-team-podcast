@@ -3,21 +3,21 @@
   "source": "llm",
   "description": {
     "title": "פוליסת רכב",
-    "summary": "This table details conditions related to the car insurance policy, specifically regarding the transfer of ownership upon the policyholder's death and policy cancellation. It outlines how premiums are handled in such scenarios.",
-    "embed_passage": "פוליסת רכב מספקת הגנה מקיפה, אך ישנם תנאים מיוחדים לגבי ירושה וביטול. לדוגמה, במקרה של פטירת בעל הפוליסה, הבעלות עוברת ליורש הרכב. אם הרכב בוטח בפוליסה נוספת, הפוליסה המקורית תבוטל והמבטח ישיב חלק יחסי מדמי הביטוח ששולמו.",
-    "row_axis": "Policy conditions / scenarios (e.g., death of policyholder, policy cancellation)",
-    "column_axis": "Details of the policy's response to the scenario (e.g., ownership transfer, premium refund calculation)",
+    "summary": "This table details conditions related to policy ownership and cancellation for vehicle insurance. It outlines what happens upon the policyholder's death and the process for policy cancellation.",
+    "embed_passage": "טבלה זו מתייחסת לפוליסת רכב, ומפרטת את התנאים הנוגעים לבעלות על הפוליסה ואופן ביטולה. ניתן למצוא כאן מידע על מה קורה במקרה של פטירת בעל הפוליסה וכיצד ניתן לבטל את הפוליסה. הפוליסה רלוונטית לרכבים שאינם רכב פרטי או מסחרי עד 35 טון. פוליסת רכב, יורש הרכב, ביטול הפוליסה, פטירת בעל הפוליסה, דמי ביטוח, תקופת הביטוח.",
+    "row_axis": "policy conditions / scenarios",
+    "column_axis": "details of the condition / scenario",
     "units": [],
     "notable_values": [
-      "policyholder death: ownership transfer to heir",
-      "additional insurance: original policy cancellation",
-      "premium refund: proportional to remaining policy period"
+      "policy owner death: ownership transfers to vehicle heir",
+      "additional insurance: original policy is cancelled",
+      "refund calculation: proportional to remaining policy period"
     ],
     "product_hints": [
       "פוליסת רכב"
     ]
   },
   "sketch": ".  המבטח לא יהיה חב בתשלום כלשהו לפי הפוליסה בשל חבות שבחוזה שאינו הפוליסה. 13.2\n-. פטירת בעל הפוליסה 14\nנפטר בעל הפוליסה, תעבור הבעלות בפוליסה לידי יורש הרכב, ויראו את היורש כבעל .14.1 הפוליסה.\n.  אם לאחר פטירת בעל הפוליסה בוטח הרכב בפוליסת ביטוח נוספת לפוליסה זו אשר 14.2 הוצאה לפי דרישות פקודת הביטוח, תתבטל פוליסה זו ביום כניסתו לתוקף של הביטוח הנוסף כאמור, והמבטח ישיב ליורש הרכב את החלק היחסי מדמי הביטוח ששולמו; החלק היחסי כאמור יחושב על ידי הכפלת דמי הביטוח שגבה המבטח, ביחס שבין מספר הימים שנותרו במועד הביטול עד תום תקופת הביטוח המקורית, ובין מספר הימים שבתקופת הביטוח המקורית.",
-  "embed_text": "פוליסת רכב מספקת הגנה מקיפה, אך ישנם תנאים מיוחדים לגבי ירושה וביטול. לדוגמה, במקרה של פטירת בעל הפוליסה, הבעלות עוברת ליורש הרכב. אם הרכב בוטח בפוליסה נוספת, הפוליסה המקורית תבוטל והמבטח ישיב חלק יחסי מדמי הביטוח ששולמו.",
-  "payload": "טבלה: פוליסת רכב\nThis table details conditions related to the car insurance policy, specifically regarding the transfer of ownership upon the policyholder's death and policy cancellation. It outlines how premiums are handled in such scenarios.\nממדים: Policy conditions / scenarios (e.g., death of policyholder, policy cancellation), Details of the policy's response to the scenario (e.g., ownership transfer, premium refund calculation)\n\n.  המבטח לא יהיה חב בתשלום כלשהו לפי הפוליסה בשל חבות שבחוזה שאינו הפוליסה. 13.2\n-. פטירת בעל הפוליסה 14\nנפטר בעל הפוליסה, תעבור הבעלות בפוליסה לידי יורש הרכב, ויראו את היורש כבעל .14.1 הפוליסה.\n.  אם לאחר פטירת בעל הפוליסה בוטח הרכב בפוליסת ביטוח נוספת לפוליסה זו אשר 14.2 הוצאה לפי דרישות פקודת הביטוח, תתבטל פוליסה זו ביום כניסתו לתוקף של הביטוח הנוסף כאמור, והמבטח ישיב ליורש הרכב את החלק היחסי מדמי הביטוח ששולמו; החלק היחסי כאמור יחושב על ידי הכפלת דמי הביטוח שגבה המבטח, ביחס שבין מספר הימים שנותרו במועד הביטול עד תום תקופת הביטוח המקורית, ובין מספר הימים שבתקופת הביטוח המקורית."
+  "embed_text": "טבלה זו מתייחסת לפוליסת רכב, ומפרטת את התנאים הנוגעים לבעלות על הפוליסה ואופן ביטולה. ניתן למצוא כאן מידע על מה קורה במקרה של פטירת בעל הפוליסה וכיצד ניתן לבטל את הפוליסה. הפוליסה רלוונטית לרכבים שאינם רכב פרטי או מסחרי עד 35 טון. פוליסת רכב, יורש הרכב, ביטול הפוליסה, פטירת בעל הפוליסה, דמי ביטוח, תקופת הביטוח. This table details conditions related to policy ownership and cancellation for vehicle insurance. It outlines what happens upon the policyholder's death and the process for policy cancellation. בין הערכים בטבלה: policy owner death: ownership transfers to vehicle heir; additional insurance: original policy is cancelled; refund calculation: proportional to remaining policy period.",
+  "payload": "טבלה: פוליסת רכב\nThis table details conditions related to policy ownership and cancellation for vehicle insurance. It outlines what happens upon the policyholder's death and the process for policy cancellation.\nממדים: policy conditions / scenarios, details of the condition / scenario\n\n.  המבטח לא יהיה חב בתשלום כלשהו לפי הפוליסה בשל חבות שבחוזה שאינו הפוליסה. 13.2\n-. פטירת בעל הפוליסה 14\nנפטר בעל הפוליסה, תעבור הבעלות בפוליסה לידי יורש הרכב, ויראו את היורש כבעל .14.1 הפוליסה.\n.  אם לאחר פטירת בעל הפוליסה בוטח הרכב בפוליסת ביטוח נוספת לפוליסה זו אשר 14.2 הוצאה לפי דרישות פקודת הביטוח, תתבטל פוליסה זו ביום כניסתו לתוקף של הביטוח הנוסף כאמור, והמבטח ישיב ליורש הרכב את החלק היחסי מדמי הביטוח ששולמו; החלק היחסי כאמור יחושב על ידי הכפלת דמי הביטוח שגבה המבטח, ביחס שבין מספר הימים שנותרו במועד הביטול עד תום תקופת הביטוח המקורית, ובין מספר הימים שבתקופת הביטוח המקורית."
 }

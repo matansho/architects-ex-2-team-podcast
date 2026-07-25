@@ -2,21 +2,23 @@
   "id": "pdf:diseases-disabilities/files/תנאי_פוליסת_ביטוח_מחלות_קשות_-_מענקית_סרטן.pdf#46",
   "source": "llm",
   "description": {
-    "title": "הצמדת סכומי ביטוח",
-    "summary": "This table details the indexation of insurance amounts. It explains how insurance sums, premiums, and self-participation amounts are adjusted based on the index known at the time of payment.",
-    "embed_passage": "פוליסת מענקית סרטן מצמידה את כל הסכומים הנקובים בה, כולל סכומי הביטוח, הפרמיות וההשתתפות העצמית, למדד הידוע בראשון לחודש התשלום. חישוב ההצמדה נעשה ביחס בין המדד בזמן התשלום למדד במועד תחילת הביטוח, כפי שמפורט בדף פרטי הביטוח.",
+    "title": "תנאי הצמדה",
+    "summary": "This table details the indexation conditions for amounts specified in the insurance policy. It explains how amounts are adjusted based on the index at the time of payment.",
+    "embed_passage": "טבלה זו מתארת את תנאי ההצמדה לסכומים המפורטים בפוליסת הביטוח, כולל סכומי הביטוח, הפרמיות וההשתתפות העצמית. החישוב מתבסס על היחס בין המדד במועד התשלום בפועל לבין המדד במועד תחילת הביטוח כפי שמצוין בדף פרטי הביטוח. מענקית סרטן היא פוליסת ביטוח מחלות קשות המצמידה את סכומי הביטוח למדד. סכומי הביטוח הקובעים, הפרמיות וההשתתפות העצמית הם חלק מהסכומים הצמודים. המדד הידוע בראשון לחודש שבו בוצע התשלום משמש לחישוב ההצמדה.",
     "row_axis": "conditions of indexation",
-    "column_axis": "indexation details",
+    "column_axis": "details of indexation calculation",
     "units": [],
     "notable_values": [
-      "12.1: all amounts in the policy are indexed",
-      "12.2: indexation calculation is based on the ratio of indices"
+      "סכומי הביטוח הקובעים: indexed",
+      "הפרמיות: indexed",
+      "השתתפות עצמית: indexed",
+      "מדד: used for calculation"
     ],
     "product_hints": [
       "מענקית סרטן"
     ]
   },
   "sketch": ".  תנאי ההצמדה 12\nכל  הסכומים  הנקובים  בפוליסה  זו,  לרבות 12.1 סכומי  הביטוח  הקובעים,  הפרמיות  וגובה ההשתתפות  העצמית)  אם  קיימת(,  שיש לשלם על-פי תנאי הפוליסה על ידי החברה ו/או  המבוטח לפי העניין, הינם צמודים למדד הידוע  בראשון  לחודש  שבו  בוצע  התשלום . בפועל\nחישוב  ההצמדה  יהא  היחס  שבין  המדד 12.2 הידוע  בראשון  לחודש  שבו  בוצע  התשלום , בפועל על ידי החברה , או על ידי המבוטח לבין  המדד  הידוע  בראשון  לחודש  במועד תחילת  הביטוח  כפי  שמופיע  בדף  פרטי . הביטוח",
-  "embed_text": "פוליסת מענקית סרטן מצמידה את כל הסכומים הנקובים בה, כולל סכומי הביטוח, הפרמיות וההשתתפות העצמית, למדד הידוע בראשון לחודש התשלום. חישוב ההצמדה נעשה ביחס בין המדד בזמן התשלום למדד במועד תחילת הביטוח, כפי שמפורט בדף פרטי הביטוח.",
-  "payload": "טבלה: הצמדת סכומי ביטוח\nThis table details the indexation of insurance amounts. It explains how insurance sums, premiums, and self-participation amounts are adjusted based on the index known at the time of payment.\nממדים: conditions of indexation, indexation details\n\n.  תנאי ההצמדה 12\nכל  הסכומים  הנקובים  בפוליסה  זו,  לרבות 12.1 סכומי  הביטוח  הקובעים,  הפרמיות  וגובה ההשתתפות  העצמית)  אם  קיימת(,  שיש לשלם על-פי תנאי הפוליסה על ידי החברה ו/או  המבוטח לפי העניין, הינם צמודים למדד הידוע  בראשון  לחודש  שבו  בוצע  התשלום . בפועל\nחישוב  ההצמדה  יהא  היחס  שבין  המדד 12.2 הידוע  בראשון  לחודש  שבו  בוצע  התשלום , בפועל על ידי החברה , או על ידי המבוטח לבין  המדד  הידוע  בראשון  לחודש  במועד תחילת  הביטוח  כפי  שמופיע  בדף  פרטי . הביטוח"
+  "embed_text": "טבלה זו מתארת את תנאי ההצמדה לסכומים המפורטים בפוליסת הביטוח, כולל סכומי הביטוח, הפרמיות וההשתתפות העצמית. החישוב מתבסס על היחס בין המדד במועד התשלום בפועל לבין המדד במועד תחילת הביטוח כפי שמצוין בדף פרטי הביטוח. מענקית סרטן היא פוליסת ביטוח מחלות קשות המצמידה את סכומי הביטוח למדד. סכומי הביטוח הקובעים, הפרמיות וההשתתפות העצמית הם חלק מהסכומים הצמודים. המדד הידוע בראשון לחודש שבו בוצע התשלום משמש לחישוב ההצמדה. This table details the indexation conditions for amounts specified in the insurance policy. It explains how amounts are adjusted based on the index at the time of payment. בין הערכים בטבלה: השתתפות עצמית: indexed.",
+  "payload": "טבלה: תנאי הצמדה\nThis table details the indexation conditions for amounts specified in the insurance policy. It explains how amounts are adjusted based on the index at the time of payment.\nממדים: conditions of indexation, details of indexation calculation\n\n.  תנאי ההצמדה 12\nכל  הסכומים  הנקובים  בפוליסה  זו,  לרבות 12.1 סכומי  הביטוח  הקובעים,  הפרמיות  וגובה ההשתתפות  העצמית)  אם  קיימת(,  שיש לשלם על-פי תנאי הפוליסה על ידי החברה ו/או  המבוטח לפי העניין, הינם צמודים למדד הידוע  בראשון  לחודש  שבו  בוצע  התשלום . בפועל\nחישוב  ההצמדה  יהא  היחס  שבין  המדד 12.2 הידוע  בראשון  לחודש  שבו  בוצע  התשלום , בפועל על ידי החברה , או על ידי המבוטח לבין  המדד  הידוע  בראשון  לחודש  במועד תחילת  הביטוח  כפי  שמופיע  בדף  פרטי . הביטוח"
 }

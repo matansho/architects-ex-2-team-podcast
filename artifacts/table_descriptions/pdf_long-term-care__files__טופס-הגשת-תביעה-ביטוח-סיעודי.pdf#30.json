@@ -2,23 +2,22 @@
   "id": "pdf:long-term-care/files/טופס-הגשת-תביעה-ביטוח-סיעודי.pdf#30",
   "source": "llm",
   "description": {
-    "title": "תביעת ביטוח סיעודי",
-    "summary": "This table is for submitting long-term care insurance claims. It records details of hospitalization and medical facilities where the insured received treatment.",
-    "embed_passage": "טופס זה מיועד להגשת תביעה בביטוחי סיעוד של הראל. הוא מתעד את תאריכי האשפוז, המחלקות והמרפאות בהן טופל המבוטח. לדוגמה, ניתן לציין את תאריכי האשפוז, שם המחלקה/מרפאה, ושם בית החולים.",
-    "row_axis": "Details of hospitalization/treatment events",
-    "column_axis": "Type of information about the treatment (dates of hospitalization, department/clinic, hospital name)",
+    "title": "פרטי אשפוז",
+    "summary": "This table lists hospitalization details for a claim. It is used to record dates of hospitalization, department/clinic, and the name of the hospital.",
+    "embed_passage": "טבלה זו מתעדת פרטי אשפוז לצורך תביעה בביטוח סיעודי של הראל. המידע כולל תאריכי אשפוז, שם המחלקה או המרפאה, ושם בית החולים בו טופל המבוטח. ניתן להשתמש במידע זה כדי לאתר את הטיפול הרפואי שקיבל המבוטח. פרטים חשובים כוללים: חולים בית, מחלקה/מרפאה, אשפוז תאריכי. טופס זה מיועד לנשים וגברים כאחד.",
+    "row_axis": "אשפוז",
+    "column_axis": "תאריכי אשפוז, מחלקה/מרפאה, חולים בית",
     "units": [],
     "notable_values": [
-      "אשפוז תאריכי: unknown",
-      "מחלקה/מרפאה: unknown",
-      "חולים בית: unknown"
+      "חולים בית: רשימת",
+      "מחלקה/מרפאה: טיפת חלב",
+      "אשפוז תאריכי: מרפאות מוסדות"
     ],
     "product_hints": [
-      "ביטוח סיעודי",
-      "הראל"
+      "ביטוח סיעודי הראל"
     ]
   },
   "sketch": "\"טופלת בהם חולים בתי ומרפאות מחלקות חולים, בתי שמות ציין אנא י.אשפוז תאריכי\",\"טופלת בהם חולים בתי ומרפאות מחלקות חולים, בתי שמות ציין אנא י.מחלקה/מרפאה\",\"טופלת בהם חולים בתי ומרפאות מחלקות חולים, בתי שמות ציין אנא י.חולים בית\"\nאשפוז תאריכי,מחלקה/מרפאה,חולים בית\n\"המבוטח בהם חלב, טיפת סניפי ספר, בתי רשימת קטין: תביעת ועבור מרפאות מוסדות, זיכרון מרפאות רשימת יא\"",
-  "embed_text": "טופס זה מיועד להגשת תביעה בביטוחי סיעוד של הראל. הוא מתעד את תאריכי האשפוז, המחלקות והמרפאות בהן טופל המבוטח. לדוגמה, ניתן לציין את תאריכי האשפוז, שם המחלקה/מרפאה, ושם בית החולים.",
-  "payload": "טבלה: תביעת ביטוח סיעודי\nThis table is for submitting long-term care insurance claims. It records details of hospitalization and medical facilities where the insured received treatment.\nממדים: Details of hospitalization/treatment events, Type of information about the treatment (dates of hospitalization, department/clinic, hospital name)\n\n\"טופלת בהם חולים בתי ומרפאות מחלקות חולים, בתי שמות ציין אנא י.אשפוז תאריכי\",\"טופלת בהם חולים בתי ומרפאות מחלקות חולים, בתי שמות ציין אנא י.מחלקה/מרפאה\",\"טופלת בהם חולים בתי ומרפאות מחלקות חולים, בתי שמות ציין אנא י.חולים בית\"\nאשפוז תאריכי,מחלקה/מרפאה,חולים בית\n\"המבוטח בהם חלב, טיפת סניפי ספר, בתי רשימת קטין: תביעת ועבור מרפאות מוסדות, זיכרון מרפאות רשימת יא\""
+  "embed_text": "טבלה זו מתעדת פרטי אשפוז לצורך תביעה בביטוח סיעודי של הראל. המידע כולל תאריכי אשפוז, שם המחלקה או המרפאה, ושם בית החולים בו טופל המבוטח. ניתן להשתמש במידע זה כדי לאתר את הטיפול הרפואי שקיבל המבוטח. פרטים חשובים כוללים: חולים בית, מחלקה/מרפאה, אשפוז תאריכי. טופס זה מיועד לנשים וגברים כאחד. This table lists hospitalization details for a claim. It is used to record dates of hospitalization, department/clinic, and the name of the hospital.",
+  "payload": "טבלה: פרטי אשפוז\nThis table lists hospitalization details for a claim. It is used to record dates of hospitalization, department/clinic, and the name of the hospital.\nממדים: אשפוז, תאריכי אשפוז, מחלקה/מרפאה, חולים בית\n\n\"טופלת בהם חולים בתי ומרפאות מחלקות חולים, בתי שמות ציין אנא י.אשפוז תאריכי\",\"טופלת בהם חולים בתי ומרפאות מחלקות חולים, בתי שמות ציין אנא י.מחלקה/מרפאה\",\"טופלת בהם חולים בתי ומרפאות מחלקות חולים, בתי שמות ציין אנא י.חולים בית\"\nאשפוז תאריכי,מחלקה/מרפאה,חולים בית\n\"המבוטח בהם חלב, טיפת סניפי ספר, בתי רשימת קטין: תביעת ועבור מרפאות מוסדות, זיכרון מרפאות רשימת יא\""
 }

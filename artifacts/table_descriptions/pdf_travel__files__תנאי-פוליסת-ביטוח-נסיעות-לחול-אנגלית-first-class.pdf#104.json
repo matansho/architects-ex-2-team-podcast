@@ -2,29 +2,26 @@
   "id": "pdf:travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-אנגלית-first-class.pdf#104",
   "source": "llm",
   "description": {
-    "title": "ביטוח נסיעות – סקי",
-    "summary": "This table details coverage for loss of ski days due to resort closure or poor weather conditions under a travel insurance policy. It specifies conditions, limits, and deductibles for compensation.",
-    "embed_passage": "פוליסת ביטוח הנסיעות First Class מכסה הפסד ימי סקי עקב סגירת אתר הסקי למשך יותר מ־48 שעות רצופות, בתנאי ששולמה מראש טיסה, לינה וכרטיס סקי. הפיצוי הוא עד 75$ ליום שלא נוצל, ומקסימום של 6 ימי סקי. קיים ניכוי של 50$.",
-    "row_axis": "Entitling event / condition for coverage",
-    "column_axis": "Coverage details (loss type, compensation amount, deductible)",
+    "title": "תנאי פוליסת ביטוח נסיעות לחול - סקי",
+    "summary": "This table details coverage for loss of ski days or inability to reach a ski resort due to poor weather, as part of a travel insurance policy. It outlines conditions, limits, and deductibles for compensation.",
+    "embed_passage": "טבלה זו מתארת את הכיסוי במקרה של אובדן ימי סקי או אי יכולת להגיע לאתר סקי עקב תנאי מזג אוויר גרועים, כחלק מפוליסת ביטוח נסיעות. הפוליסה כוללת תנאים, הגבלות ודמי השתתפות עצמית לפיצוי. ניתן לקבל פיצוי על ימי סקי שלא נוצלו בפועל עקב סגירת אתר הסקי למשך יותר מ-48 שעות רצופות, בתנאי ששולם מראש עבור טיסה, לינה וכרטיס סקי. סכום הפיצוי המקסימלי הוא 75 דולר ליום שלא נוצל, עד למקסימום של 6 ימי סקי. דמי ההשתתפות העצמית בסעיף זה הם 50 דולר. אתר הסקי, כרטיס סקי, ימי סקי, מזג אוויר גרוע, פיצוי כספי.",
+    "row_axis": "Entitling event / Loss condition",
+    "column_axis": "Coverage details (limits, deductibles, conditions)",
     "units": [
-      "$",
-      "hours"
+      "$"
     ],
     "notable_values": [
       "Maximum loss: 6 days",
-      "Compensation per day: $75",
+      "Compensation per unused day: $75",
       "Deductible: $50",
-      "Resort closure duration: 48 hours",
-      "Maximum liability: $5,000,000 (from context)"
+      "Total liability limit (basic policy): $5,000,000"
     ],
     "product_hints": [
-      "First Class",
-      "ביטוח נסיעות",
-      "Ski Coverage"
+      "travel insurance",
+      "First Class"
     ]
   },
   "sketch": "Entitling weather for the purpose of this section:\nPoor weather conditions due to which the Insured's arrival at the ski resort is denied in the acceptable means of transportation at the place of Event.\n19.2.4. Loss of ski days as a result of closing resort closure for a period of 48 hours and more:\nThe Insurer will indemnify the Insured for loss of actually unused ski days as a result of closing the ski resort for a period of exceeding 48 consecutive hours caused due to an entitling event, provided that the Insured paid for a flight, stay and a Ski Pass in advance and up to an amount of $75 per unused day following the close of the resort as aforesaid and up to maximal loss of 6 actual ski days. A deductible of $50 will apply to this section.\nIt  is  clarified  that  the  arrival  day  and  departure  day  will  not  be counted in the number of days for the purpose of receiving financial compensation.\nEntitling event for the purpose of this section:\nPoor weather conditions that do not allow the opening of the resort for 48 consecutive hours, provided that the insurer will be presented with an appropriate certificate from the authorized authorities for not opening the site in the relevant period.\nIt  is  clarified that  the  Insured  will  not  be  entitled, under  these circumstances, to coverage of loss of payments due to a shortened trip but only to the compensation detailed in this section.",
-  "embed_text": "פוליסת ביטוח הנסיעות First Class מכסה הפסד ימי סקי עקב סגירת אתר הסקי למשך יותר מ־48 שעות רצופות, בתנאי ששולמה מראש טיסה, לינה וכרטיס סקי. הפיצוי הוא עד 75$ ליום שלא נוצל, ומקסימום של 6 ימי סקי. קיים ניכוי של 50$.",
-  "payload": "טבלה: ביטוח נסיעות – סקי\nThis table details coverage for loss of ski days due to resort closure or poor weather conditions under a travel insurance policy. It specifies conditions, limits, and deductibles for compensation.\nממדים: Entitling event / condition for coverage, Coverage details (loss type, compensation amount, deductible)\n\nEntitling weather for the purpose of this section:\nPoor weather conditions due to which the Insured's arrival at the ski resort is denied in the acceptable means of transportation at the place of Event.\n19.2.4. Loss of ski days as a result of closing resort closure for a period of 48 hours and more:\nThe Insurer will indemnify the Insured for loss of actually unused ski days as a result of closing the ski resort for a period of exceeding 48 consecutive hours caused due to an entitling event, provided that the Insured paid for a flight, stay and a Ski Pass in advance and up to an amount of $75 per unused day following the close of the resort as aforesaid and up to maximal loss of 6 actual ski days. A deductible of $50 will apply to this section.\nIt  is  clarified  that  the  arrival  day  and  departure  day  will  not  be counted in the number of days for the purpose of receiving financial compensation.\nEntitling event for the purpose of this section:\nPoor weather conditions that do not allow the opening of the resort for 48 consecutive hours, provided that the insurer will be presented with an appropriate certificate from the authorized authorities for not opening the site in the relevant period.\nIt  is  clarified that  the  Insured  will  not  be  entitled, under  these circumstances, to coverage of loss of payments due to a shortened trip but only to the compensation detailed in this section."
+  "embed_text": "טבלה זו מתארת את הכיסוי במקרה של אובדן ימי סקי או אי יכולת להגיע לאתר סקי עקב תנאי מזג אוויר גרועים, כחלק מפוליסת ביטוח נסיעות. הפוליסה כוללת תנאים, הגבלות ודמי השתתפות עצמית לפיצוי. ניתן לקבל פיצוי על ימי סקי שלא נוצלו בפועל עקב סגירת אתר הסקי למשך יותר מ-48 שעות רצופות, בתנאי ששולם מראש עבור טיסה, לינה וכרטיס סקי. סכום הפיצוי המקסימלי הוא 75 דולר ליום שלא נוצל, עד למקסימום של 6 ימי סקי. דמי ההשתתפות העצמית בסעיף זה הם 50 דולר. אתר הסקי, כרטיס סקי, ימי סקי, מזג אוויר גרוע, פיצוי כספי. This table details coverage for loss of ski days or inability to reach a ski resort due to poor weather, as part of a travel insurance policy. It outlines conditions, limits, and deductibles for compensation. בין הערכים בטבלה: Maximum loss: 6 days; Compensation per unused day: $75; Deductible: $50; Total li…",
+  "payload": "טבלה: תנאי פוליסת ביטוח נסיעות לחול - סקי\nThis table details coverage for loss of ski days or inability to reach a ski resort due to poor weather, as part of a travel insurance policy. It outlines conditions, limits, and deductibles for compensation.\nממדים: Entitling event / Loss condition, Coverage details (limits, deductibles, conditions)\n\nEntitling weather for the purpose of this section:\nPoor weather conditions due to which the Insured's arrival at the ski resort is denied in the acceptable means of transportation at the place of Event.\n19.2.4. Loss of ski days as a result of closing resort closure for a period of 48 hours and more:\nThe Insurer will indemnify the Insured for loss of actually unused ski days as a result of closing the ski resort for a period of exceeding 48 consecutive hours caused due to an entitling event, provided that the Insured paid for a flight, stay and a Ski Pass in advance and up to an amount of $75 per unused day following the close of the resort as aforesaid and up to maximal loss of 6 actual ski days. A deductible of $50 will apply to this section.\nIt  is  clarified  that  the  arrival  day  and  departure  day  will  not  be counted in the number of days for the purpose of receiving financial compensation.\nEntitling event for the purpose of this section:\nPoor weather conditions that do not allow the opening of the resort for 48 consecutive hours, provided that the insurer will be presented with an appropriate certificate from the authorized authorities for not opening the site in the relevant period.\nIt  is  clarified that  the  Insured  will  not  be  entitled, under  these circumstances, to coverage of loss of payments due to a shortened trip but only to the compensation detailed in this section."
 }

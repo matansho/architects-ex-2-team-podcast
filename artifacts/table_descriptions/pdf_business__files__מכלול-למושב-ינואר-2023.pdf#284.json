@@ -2,27 +2,26 @@
   "id": "pdf:business/files/מכלול-למושב-ינואר-2023.pdf#284",
   "source": "llm",
   "description": {
-    "title": "ביטוח תכולה",
-    "summary": "This table details coverage limits for various types of possessions under a home contents insurance policy. It specifies the percentage of the total contents insurance amount covered for items like cash, jewelry, and art.",
-    "embed_passage": "פוליסת ביטוח תכולה מכלול מגדירה את גובה הכיסוי עבור סוגי רכוש שונים. לדוגמה, עבור כסף מזומן או תלושי קנייה, הכיסוי מוגבל ל-0.5% מסכום ביטוח התכולה, בעוד שתכשיטים וכלי זהב מכוסים עד 10%. סכומים אלו מיועדים לפצות על אובדן או נזק לרכוש.",
-    "row_axis": "Type of possession (e.g., cash, jewelry, art)",
-    "column_axis": "Coverage limit as a percentage of total contents insurance",
-    "units": [
-      "% מסכום ביטוח התכולה"
-    ],
+    "title": "כיסויים וחרים",
+    "summary": "This table details exclusions to insurance coverage, specifically listing items and situations not covered by the policy. It is used to determine what is *not* included in the insurance plan.",
+    "embed_passage": "טבלה זו מפרטת חריגים לביטוח, ומציינת פריטים ומצבים שאינם מכוסים על ידי הפוליסה. ניתן להשתמש בה כדי לקבוע מה אינו כלול בתוכנית הביטוח 'מכלול'. החיפוש נעשה לפי סוג הפריט או הנסיבה הלא מכוסה. הפריטים המופיעים בטבלה כוללים שיקים, המחאות נוסעים, כרטיסי נסיעה, דברים הנמצאים בגינה, כרטיסי הגרלה, וכן הגבלות על סכומי כיסוי עבור כסף מזומן, כלי כסף, פסלים, שטיחים ותכשיטים. סעיפים אלו מגדירים את תנאי הכיסוי עבור 'מכלול'.",
+    "row_axis": "סוג הפריט/נסיבה שאינה מכוסה",
+    "column_axis": "תנאי הכיסוי/החרגה",
+    "units": [],
     "notable_values": [
-      "כסף מזומן: 0.5%",
-      "כלי כסף: 10%",
-      "פסלים: 10%",
-      "שטיחים: 10%",
-      "תכשיטים: 10%"
+      "שיקים, המחאות נוסעים: לא מכוסה",
+      "דברים בגינה: כיסוי מוגבל ל-2% מסכום ביטוח התכולה",
+      "כסף מזומן: עד 0.5% מסכום ביטוח התכולה",
+      "כלי כסף: עד 10% מסכום ביטוח התכולה",
+      "פסלים: עד 10% מסכום ביטוח התכולה",
+      "שטיחים: עד 10% מסכום ביטוח התכולה",
+      "תכשיטים: עד 10% מסכום ביטוח התכולה"
     ],
     "product_hints": [
-      "ביטוח תכולה",
       "מכלול"
     ]
   },
   "sketch": "שיקים, המחאות נוסעים, המחאות דואר, שטרי חוב ושטרות למיניהם, כרטיסי .13.10 נסיעה, טיסה והפלגה, כרטיסי הגרלה.\nדברים או חפצים הנמצאים בגינה, בחדר מדרגות, על גדרות או על דרכים מרוצפות .13.11 שהם חלק מהדירה ובתנאי שאין מטבעם להימצא מחוץ לדירה. כיסוי לפי סעיף מסכום 2%זה בעד דברים או חפצים שמטבעם להימצא מחוץ לדירה יוגבל ל ביטוח התכולה.",
-  "embed_text": "פוליסת ביטוח תכולה מכלול מגדירה את גובה הכיסוי עבור סוגי רכוש שונים. לדוגמה, עבור כסף מזומן או תלושי קנייה, הכיסוי מוגבל ל-0.5% מסכום ביטוח התכולה, בעוד שתכשיטים וכלי זהב מכוסים עד 10%. סכומים אלו מיועדים לפצות על אובדן או נזק לרכוש.",
-  "payload": "טבלה: ביטוח תכולה\nThis table details coverage limits for various types of possessions under a home contents insurance policy. It specifies the percentage of the total contents insurance amount covered for items like cash, jewelry, and art.\nממדים: Type of possession (e.g., cash, jewelry, art), Coverage limit as a percentage of total contents insurance\n\nשיקים, המחאות נוסעים, המחאות דואר, שטרי חוב ושטרות למיניהם, כרטיסי .13.10 נסיעה, טיסה והפלגה, כרטיסי הגרלה.\nדברים או חפצים הנמצאים בגינה, בחדר מדרגות, על גדרות או על דרכים מרוצפות .13.11 שהם חלק מהדירה ובתנאי שאין מטבעם להימצא מחוץ לדירה. כיסוי לפי סעיף מסכום 2%זה בעד דברים או חפצים שמטבעם להימצא מחוץ לדירה יוגבל ל ביטוח התכולה."
+  "embed_text": "טבלה זו מפרטת חריגים לביטוח, ומציינת פריטים ומצבים שאינם מכוסים על ידי הפוליסה. ניתן להשתמש בה כדי לקבוע מה אינו כלול בתוכנית הביטוח 'מכלול'. החיפוש נעשה לפי סוג הפריט או הנסיבה הלא מכוסה. הפריטים המופיעים בטבלה כוללים שיקים, המחאות נוסעים, כרטיסי נסיעה, דברים הנמצאים בגינה, כרטיסי הגרלה, וכן הגבלות על סכומי כיסוי עבור כסף מזומן, כלי כסף, פסלים, שטיחים ותכשיטים. סעיפים אלו מגדירים את תנאי הכיסוי עבור 'מכלול'. This table details exclusions to insurance coverage, specifically listing items and situations not covered by the policy. It is used to determine what is *not* included in the insurance plan. בין הערכים בטבלה: דברים בגינה: כיסוי מוגבל ל-2% מסכום ביטוח התכולה.",
+  "payload": "טבלה: כיסויים וחרים\nThis table details exclusions to insurance coverage, specifically listing items and situations not covered by the policy. It is used to determine what is *not* included in the insurance plan.\nממדים: סוג הפריט/נסיבה שאינה מכוסה, תנאי הכיסוי/החרגה\n\nשיקים, המחאות נוסעים, המחאות דואר, שטרי חוב ושטרות למיניהם, כרטיסי .13.10 נסיעה, טיסה והפלגה, כרטיסי הגרלה.\nדברים או חפצים הנמצאים בגינה, בחדר מדרגות, על גדרות או על דרכים מרוצפות .13.11 שהם חלק מהדירה ובתנאי שאין מטבעם להימצא מחוץ לדירה. כיסוי לפי סעיף מסכום 2%זה בעד דברים או חפצים שמטבעם להימצא מחוץ לדירה יוגבל ל ביטוח התכולה."
 }

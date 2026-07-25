@@ -3,24 +3,26 @@
   "source": "llm",
   "description": {
     "title": "אדירה כסף - אחריות צד ג'",
-    "summary": "This table details the Third Party Liability Insurance coverage offered within the Adira Kesef apartment insurance plan. It outlines the conditions and limits of liability for damages caused to others.",
-    "embed_passage": "ביטוח אחריות צד ג' במסגרת תוכנית 'אדירה כסף' מכסה אחריות של המבוטח או בני משפחתו כלפי צד שלישי, בהתאם לפקודת הנזיקין. גובה הכיסוי תלוי בסכום המפורט בפירוט הפוליסה, אך לא יעלה על 50,000 ש\"ח. הכיסוי חל על אירועים המתרחשים בתוך גבולות גיאוגרפיים מוגדרים.",
-    "row_axis": "Liability scenarios (e.g., death, injury, property damage)",
-    "column_axis": "Coverage conditions and limits",
-    "units": [
-      "₪"
-    ],
+    "summary": "This table details the terms of Third Party Liability Insurance under the Adira Kesef policy. It outlines the conditions for coverage related to liability for damages to third parties, as defined by the Torts Ordinance.",
+    "embed_passage": "טבלה זו מתארת את תנאי ביטוח אחריות צד ג' במסגרת פוליסת אדירה כסף. הכיסוי חל על אחריות המבוטח או בני משפחתו כלפי צד שלישי, בהתאם לפקודת הנזיקין (הנוסח החדש), ובכפוף לגבולות האחריות המפורטים בפירוט הפוליסה. הביטוח תקף במקרה של מוות, מחלה, פציעה, או נזק לרכוש של צד שלישי. חשוב לציין כי הכיסוי חל רק אם צוין בפירוט הפוליסה שאחריות צד ג' בתוקף. הפוליסה מכסה גם אחריות כלפי עובדים בעלי יחסי עובד-מעביד עם המבוטח. אדירה כסף היא פוליסת ביטוח דירה המציעה כיסוי מקיף.",
+    "row_axis": "insured event / condition",
+    "column_axis": "coverage details",
+    "units": [],
     "notable_values": [
-      "limit: 50,000",
-      "liability cap: 10% of insured sum"
+      "Torts Ordinance (New Version): applicable law",
+      "Third Party Liability Insurance: chapter C",
+      "insured event: liability to remit payment",
+      "geographical boundaries: coverage area",
+      "death, illness, injury: covered damages",
+      "loss or damage to property: covered damages",
+      "employee-employer relationship: liability vis-à-vis employed persons"
     ],
     "product_hints": [
-      "אדירה כסף",
-      "Adira Silver",
-      "Third Party Liability"
+      "Adira Kesef",
+      "אדירה כסף"
     ]
   },
   "sketch": "26.3 It is hereby clarified that in the event of damage both the building and the contents, the insurer's liability shall not exceed 10% of the sum insured for the building and contents or NIS 50,000 -the higher of the two.\nCHAPTER C -THIRD PARTY LIABILITY INSURANCE\nIf explicitly noted in the Specification that the cover under chapter C -THIRD PARTY LIABILITY INSURANCE -is valid, then the following conditions shall apply:\n27. Insured event\nAn insured event is liability of the Insured or his family members including his household employees, to remit payment to a third party under the Torts Ordinance (New Version) subject to the limits of liability noted in the specification, in respect of an accidental occurrence taking place within the geographical boundaries, which causes:",
-  "embed_text": "ביטוח אחריות צד ג' במסגרת תוכנית 'אדירה כסף' מכסה אחריות של המבוטח או בני משפחתו כלפי צד שלישי, בהתאם לפקודת הנזיקין. גובה הכיסוי תלוי בסכום המפורט בפירוט הפוליסה, אך לא יעלה על 50,000 ש\"ח. הכיסוי חל על אירועים המתרחשים בתוך גבולות גיאוגרפיים מוגדרים.",
-  "payload": "טבלה: אדירה כסף - אחריות צד ג'\nThis table details the Third Party Liability Insurance coverage offered within the Adira Kesef apartment insurance plan. It outlines the conditions and limits of liability for damages caused to others.\nממדים: Liability scenarios (e.g., death, injury, property damage), Coverage conditions and limits\n\n26.3 It is hereby clarified that in the event of damage both the building and the contents, the insurer's liability shall not exceed 10% of the sum insured for the building and contents or NIS 50,000 -the higher of the two.\nCHAPTER C -THIRD PARTY LIABILITY INSURANCE\nIf explicitly noted in the Specification that the cover under chapter C -THIRD PARTY LIABILITY INSURANCE -is valid, then the following conditions shall apply:\n27. Insured event\nAn insured event is liability of the Insured or his family members including his household employees, to remit payment to a third party under the Torts Ordinance (New Version) subject to the limits of liability noted in the specification, in respect of an accidental occurrence taking place within the geographical boundaries, which causes:"
+  "embed_text": "טבלה זו מתארת את תנאי ביטוח אחריות צד ג' במסגרת פוליסת אדירה כסף. הכיסוי חל על אחריות המבוטח או בני משפחתו כלפי צד שלישי, בהתאם לפקודת הנזיקין (הנוסח החדש), ובכפוף לגבולות האחריות המפורטים בפירוט הפוליסה. הביטוח תקף במקרה של מוות, מחלה, פציעה, או נזק לרכוש של צד שלישי. חשוב לציין כי הכיסוי חל רק אם צוין בפירוט הפוליסה שאחריות צד ג' בתוקף. הפוליסה מכסה גם אחריות כלפי עובדים בעלי יחסי עובד-מעביד עם המבוטח. אדירה כסף היא פוליסת ביטוח דירה המציעה כיסוי מקיף. This table details the terms of Third Party Liability Insurance under the Adira Kesef policy. It outlines the conditions for coverage related to liability for damages to third parties, as defined by the Torts Ordinance. בין הערכים בטבלה: Torts Ordinance (New Version): applicable law; Third Party Liability Insurance: chapter C; insured eve…",
+  "payload": "טבלה: אדירה כסף - אחריות צד ג'\nThis table details the terms of Third Party Liability Insurance under the Adira Kesef policy. It outlines the conditions for coverage related to liability for damages to third parties, as defined by the Torts Ordinance.\nממדים: insured event / condition, coverage details\n\n26.3 It is hereby clarified that in the event of damage both the building and the contents, the insurer's liability shall not exceed 10% of the sum insured for the building and contents or NIS 50,000 -the higher of the two.\nCHAPTER C -THIRD PARTY LIABILITY INSURANCE\nIf explicitly noted in the Specification that the cover under chapter C -THIRD PARTY LIABILITY INSURANCE -is valid, then the following conditions shall apply:\n27. Insured event\nAn insured event is liability of the Insured or his family members including his household employees, to remit payment to a third party under the Torts Ordinance (New Version) subject to the limits of liability noted in the specification, in respect of an accidental occurrence taking place within the geographical boundaries, which causes:"
 }

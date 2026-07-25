@@ -2,25 +2,22 @@
   "id": "pdf:business/files/פוליסה-לביטוח-רכוש-בכספת-מהדורת-ינואר-2023.pdf#57",
   "source": "llm",
   "description": {
-    "title": "שערי חליפין",
-    "summary": "This table details how insurance amounts and liability limits are calculated when denominated in currencies other than the one listed, specifically referencing the Bank of Israel's representative exchange rate. It's used to look up the conversion method based on the currency and event date.",
-    "embed_passage": "פוליסת ביטוח רכוש בכספת מהדורת ינואר 2023 קובעת כי אם סכומי הביטוח או גבולות האחריות נקובים בדולרים של ארצות הברית, יחושבו אלה לפי השער היציג של הדולר בבנק ישראל במועד קרות מקרה הביטוח. חישובים אלו רלוונטיים לתגמולי הביטוח המגיעים למבוטח, וכן לסכומי השתתפות עצמית. לדוגמה, אם סכום ביטוח נקבע בדולרים, הוא יומרה לשקלים חדשים לפי השער היציג.",
-    "row_axis": "currency / condition",
-    "column_axis": "calculation method",
-    "units": [
-      "דולר ארצות הברית",
-      "שקלים חדשים"
-    ],
+    "title": "המרה ומטבע",
+    "summary": "This table details currency conversion and calculation methods for insurance amounts. It specifies how insurance sums, liability limits, and deductibles are calculated when denominated in currencies other than those listed.",
+    "embed_passage": "טבלה זו עוסקת בהמרת מטבעות וחישוב סכומי ביטוח בפוליסת רכוש. היא מפרטת כיצד יחושבו סכומי ביטוח, גבולות אחריות והשתתפות עצמית כאשר הם נקובים במטבעות שונים, תוך שימוש בשער החליפין היציג של בנק ישראל במועד קרות מקרה הביטוח. הפוליסה מתייחסת לדולרים של ארצות הברית ושקלים חדשים. סכומי ביטוח, גבולות אחריות והשתתפות עצמית, תגמולי ביטוח, שער יציג של הדולר, שער חליפין, בנק ישראל הם מושגים מרכזיים בטבלה זו.",
+    "row_axis": "currency conversion scenarios",
+    "column_axis": "calculation method/currency",
+    "units": [],
     "notable_values": [
-      "currency: דולרים של ארצות הברית",
-      "calculation basis: שער יציג של בנק ישראל",
-      "time of calculation: מועד קרות מקרה הביטוח"
+      "דולרים של ארצות הברית: שער יציג של הדולר",
+      "שקלים חדשים: מדד",
+      "מטבע שונה: שער חליפין יציג"
     ],
     "product_hints": [
-      "ביטוח רכוש בכספת"
+      "פוליסה לביטוח רכוש"
     ]
   },
   "sketch": ".  אם סכומי הביטוח או גבולות האחריות וההשתתפות העצמית נקובים בדולרים של 13.5 ארצות הברית, יחושבו הללו - לרבות תגמולי הביטוח המגיעים למבוטח או למוטב )לפי העניין( בדולר ארצות הברית, על פי השער היציג של הדולר בבנק ישראל החל במועד ;( החישוב או התשלום )לפי העניין( בפועל, ולרבות לידי המבוטח או המוטב )לפי העניין\n.  אם ננקב בפוליסה סכום ביטוח, סכום גבול אחריות או סכום השתתפות עצמית כלשהו 13.6 במטבע השונה מזה שרשום ברשימה, יחושב אותו סכום בהתאמה לשער החליפין היציג המפורסם על ידי בנק ישראל של אותו מטבע, למטבע הרשום ברשימה ביום קרות מקרה הביטוח.",
-  "embed_text": "פוליסת ביטוח רכוש בכספת מהדורת ינואר 2023 קובעת כי אם סכומי הביטוח או גבולות האחריות נקובים בדולרים של ארצות הברית, יחושבו אלה לפי השער היציג של הדולר בבנק ישראל במועד קרות מקרה הביטוח. חישובים אלו רלוונטיים לתגמולי הביטוח המגיעים למבוטח, וכן לסכומי השתתפות עצמית. לדוגמה, אם סכום ביטוח נקבע בדולרים, הוא יומרה לשקלים חדשים לפי השער היציג.",
-  "payload": "טבלה: שערי חליפין\nThis table details how insurance amounts and liability limits are calculated when denominated in currencies other than the one listed, specifically referencing the Bank of Israel's representative exchange rate. It's used to look up the conversion method based on the currency and event date.\nממדים: currency / condition, calculation method\n\n.  אם סכומי הביטוח או גבולות האחריות וההשתתפות העצמית נקובים בדולרים של 13.5 ארצות הברית, יחושבו הללו - לרבות תגמולי הביטוח המגיעים למבוטח או למוטב )לפי העניין( בדולר ארצות הברית, על פי השער היציג של הדולר בבנק ישראל החל במועד ;( החישוב או התשלום )לפי העניין( בפועל, ולרבות לידי המבוטח או המוטב )לפי העניין\n.  אם ננקב בפוליסה סכום ביטוח, סכום גבול אחריות או סכום השתתפות עצמית כלשהו 13.6 במטבע השונה מזה שרשום ברשימה, יחושב אותו סכום בהתאמה לשער החליפין היציג המפורסם על ידי בנק ישראל של אותו מטבע, למטבע הרשום ברשימה ביום קרות מקרה הביטוח."
+  "embed_text": "טבלה זו עוסקת בהמרת מטבעות וחישוב סכומי ביטוח בפוליסת רכוש. היא מפרטת כיצד יחושבו סכומי ביטוח, גבולות אחריות והשתתפות עצמית כאשר הם נקובים במטבעות שונים, תוך שימוש בשער החליפין היציג של בנק ישראל במועד קרות מקרה הביטוח. הפוליסה מתייחסת לדולרים של ארצות הברית ושקלים חדשים. סכומי ביטוח, גבולות אחריות והשתתפות עצמית, תגמולי ביטוח, שער יציג של הדולר, שער חליפין, בנק ישראל הם מושגים מרכזיים בטבלה זו. This table details currency conversion and calculation methods for insurance amounts. It specifies how insurance sums, liability limits, and deductibles are calculated when denominated in currencies other than those listed. בין הערכים בטבלה: מטבע שונה: שער חליפין יציג.",
+  "payload": "טבלה: המרה ומטבע\nThis table details currency conversion and calculation methods for insurance amounts. It specifies how insurance sums, liability limits, and deductibles are calculated when denominated in currencies other than those listed.\nממדים: currency conversion scenarios, calculation method/currency\n\n.  אם סכומי הביטוח או גבולות האחריות וההשתתפות העצמית נקובים בדולרים של 13.5 ארצות הברית, יחושבו הללו - לרבות תגמולי הביטוח המגיעים למבוטח או למוטב )לפי העניין( בדולר ארצות הברית, על פי השער היציג של הדולר בבנק ישראל החל במועד ;( החישוב או התשלום )לפי העניין( בפועל, ולרבות לידי המבוטח או המוטב )לפי העניין\n.  אם ננקב בפוליסה סכום ביטוח, סכום גבול אחריות או סכום השתתפות עצמית כלשהו 13.6 במטבע השונה מזה שרשום ברשימה, יחושב אותו סכום בהתאמה לשער החליפין היציג המפורסם על ידי בנק ישראל של אותו מטבע, למטבע הרשום ברשימה ביום קרות מקרה הביטוח."
 }

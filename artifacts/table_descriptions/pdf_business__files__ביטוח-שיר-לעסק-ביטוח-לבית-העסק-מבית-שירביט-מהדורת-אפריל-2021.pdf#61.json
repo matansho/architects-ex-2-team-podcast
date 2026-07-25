@@ -2,25 +2,28 @@
   "id": "pdf:business/files/ביטוח-שיר-לעסק-ביטוח-לבית-העסק-מבית-שירביט-מהדורת-אפריל-2021.pdf#61",
   "source": "llm",
   "description": {
-    "title": "תנאי קימום",
-    "summary": "This table details special conditions related to rebuilding or replacing damaged property under an insurance policy. It outlines scenarios where insurance payouts are adjusted based on rebuilding costs and timeframes.",
-    "embed_passage": "פוליסת 'שיר לעסק' מבית שירביט מספקת כיסוי לנזקים למבנה ולציוד. במקרה של נזק, עלות הקימום או החילוף של הרכוש לא תעלה על שווי הרכוש המקורי. סעיף 5.4.1 מתייחס למצב בו עלות הקימום עולה על סכום הביטוח, וסעיף 5.4.2 מגדיר מסגרת זמן של 12 חודשים להתחלת וסיום עבודות הקימום.",
-    "row_axis": "conditions related to rebuilding/replacement",
-    "column_axis": "details of the condition (e.g., cost exceeding insurance amount, timeframe for rebuilding)",
-    "units": [],
+    "title": "תנאים מיוחדים לסעיף 5.4",
+    "summary": "This table details special conditions for section 5.4 of an insurance policy, specifically regarding reconstruction costs after damage. It outlines limitations and requirements for claim payouts related to rebuilding or replacing insured property.",
+    "embed_passage": "טבלה זו מתארת תנאים מיוחדים לסעיף 5.4 של פוליסת ביטוח, המתייחסים במיוחד לעלויות שיקום לאחר נזק. הפוליסה היא 'ביטוח שיר לעסק' מבית שירביט, מהדורת אפריל 2021, והיא מיועדת לעסקים. ניתן לחפש מידע על תנאי השיקום, מגבלות תשלום, ודרישות לביצוע עבודות שיקום. הטבלה כוללת תנאים כגון 5.4.1, 5.4.2, 5.4.3 ו-5.4.4, וכן סכומים כגון 12 חודשים ו-200,000 ש״ח. סעיף זה חל על מבנים וציוד, ומתייחס לעלויות קימום או חילוף של רכוש שניזוק.",
+    "row_axis": "תנאי מיוחד לסעיף 5.4",
+    "column_axis": "תיאור התנאי",
+    "units": [
+      "₪"
+    ],
     "notable_values": [
-      "12: months allowed for rebuilding",
-      "5.4.1: condition for rebuilding costs exceeding insurance",
-      "5.4.2: timeframe for starting rebuilding",
-      "5.4.3: payout limits before rebuilding expenses are paid",
-      "5.4.4: coverage for architect/engineer fees"
+      "12 חודשים: פרק זמן להשלמת עבודות קימום",
+      "200,000 ש״ח: סכום מקסימלי לפי הרחבה",
+      "5.4.1: עלות קימום העולה על סכום הביטוח",
+      "5.4.2: התחלת עבודות קימום במהירות סבירה",
+      "5.4.3: תשלום תגמולים לאחר הוצאות קימום",
+      "5.4.4: שכר אדריכלים ומהנדסים"
     ],
     "product_hints": [
-      "שיר לעסק",
+      "ביטוח שיר לעסק",
       "שירביט"
     ]
   },
   "sketch": "5 תנאים מיוחדים לסעיף 5 .4\nבמקרה שעלות הקימום על בסיס סעיף זה תעלה על סכום הביטוח 5.4.1 אזי תפחת חבות , של המבנה והציוד, לפי העניין, אם נהרסו כליל המבטח ותגמולי הביטוח ישולמו באופן חלקי בלבד, בהתאם . ליחס שבין סכום הביטוח לבין עלות הקימום\nעל המבוטח להתחיל בביצוע עבודות הקימום במהירות סבירה 5.4.2 , חודשים מקרות הנזק או תוך פרק זמן נוסף 12 ולהשלימן תוך , שאם  לא  כן , שהמבטח  יתיר,  בכתב,  לפני  תום  התקופה  הנ\"ל לא ישולמו תגמולי ביטוח בסכום העולה על ערך תגמולי ביטוח . שהיו משולמים לפי פרק זה, ללא סעיף ערך קימום",
-  "embed_text": "פוליסת 'שיר לעסק' מבית שירביט מספקת כיסוי לנזקים למבנה ולציוד. במקרה של נזק, עלות הקימום או החילוף של הרכוש לא תעלה על שווי הרכוש המקורי. סעיף 5.4.1 מתייחס למצב בו עלות הקימום עולה על סכום הביטוח, וסעיף 5.4.2 מגדיר מסגרת זמן של 12 חודשים להתחלת וסיום עבודות הקימום.",
-  "payload": "טבלה: תנאי קימום\nThis table details special conditions related to rebuilding or replacing damaged property under an insurance policy. It outlines scenarios where insurance payouts are adjusted based on rebuilding costs and timeframes.\nממדים: conditions related to rebuilding/replacement, details of the condition (e.g., cost exceeding insurance amount, timeframe for rebuilding)\n\n5 תנאים מיוחדים לסעיף 5 .4\nבמקרה שעלות הקימום על בסיס סעיף זה תעלה על סכום הביטוח 5.4.1 אזי תפחת חבות , של המבנה והציוד, לפי העניין, אם נהרסו כליל המבטח ותגמולי הביטוח ישולמו באופן חלקי בלבד, בהתאם . ליחס שבין סכום הביטוח לבין עלות הקימום\nעל המבוטח להתחיל בביצוע עבודות הקימום במהירות סבירה 5.4.2 , חודשים מקרות הנזק או תוך פרק זמן נוסף 12 ולהשלימן תוך , שאם  לא  כן , שהמבטח  יתיר,  בכתב,  לפני  תום  התקופה  הנ\"ל לא ישולמו תגמולי ביטוח בסכום העולה על ערך תגמולי ביטוח . שהיו משולמים לפי פרק זה, ללא סעיף ערך קימום"
+  "embed_text": "טבלה זו מתארת תנאים מיוחדים לסעיף 5.4 של פוליסת ביטוח, המתייחסים במיוחד לעלויות שיקום לאחר נזק. הפוליסה היא 'ביטוח שיר לעסק' מבית שירביט, מהדורת אפריל 2021, והיא מיועדת לעסקים. ניתן לחפש מידע על תנאי השיקום, מגבלות תשלום, ודרישות לביצוע עבודות שיקום. הטבלה כוללת תנאים כגון 5.4.1, 5.4.2, 5.4.3 ו-5.4.4, וכן סכומים כגון 12 חודשים ו-200,000 ש״ח. סעיף זה חל על מבנים וציוד, ומתייחס לעלויות קימום או חילוף של רכוש שניזוק. This table details special conditions for section 5.4 of an insurance policy, specifically regarding reconstruction costs after damage. It outlines limitations and requirements for claim payouts related to rebuilding or replacing insured property.",
+  "payload": "טבלה: תנאים מיוחדים לסעיף 5.4\nThis table details special conditions for section 5.4 of an insurance policy, specifically regarding reconstruction costs after damage. It outlines limitations and requirements for claim payouts related to rebuilding or replacing insured property.\nממדים: תנאי מיוחד לסעיף 5.4, תיאור התנאי\n\n5 תנאים מיוחדים לסעיף 5 .4\nבמקרה שעלות הקימום על בסיס סעיף זה תעלה על סכום הביטוח 5.4.1 אזי תפחת חבות , של המבנה והציוד, לפי העניין, אם נהרסו כליל המבטח ותגמולי הביטוח ישולמו באופן חלקי בלבד, בהתאם . ליחס שבין סכום הביטוח לבין עלות הקימום\nעל המבוטח להתחיל בביצוע עבודות הקימום במהירות סבירה 5.4.2 , חודשים מקרות הנזק או תוך פרק זמן נוסף 12 ולהשלימן תוך , שאם  לא  כן , שהמבטח  יתיר,  בכתב,  לפני  תום  התקופה  הנ\"ל לא ישולמו תגמולי ביטוח בסכום העולה על ערך תגמולי ביטוח . שהיו משולמים לפי פרק זה, ללא סעיף ערך קימום"
 }

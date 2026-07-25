@@ -2,24 +2,24 @@
   "id": "pdf:travel/files/טופס-הצעה-לביטוח-נסיעות-לחול-דרכון-פרימיום.pdf#10",
   "source": "llm",
   "description": {
-    "title": "הצעה לביטוח נסיעות לחול - דרכון פרימיום",
-    "summary": "This table outlines conditions related to travel insurance for pregnant individuals under the 'דרכון פרימיום' plan. It details restrictions and required extensions based on pregnancy risk and gestational age.",
-    "embed_passage": "ביטוח נסיעות 'דרכון פרימיום' כולל תנאים מיוחדים לנשים בהיריון. אם ההיריון מוגדר כהיריון בסיכון, לא ניתן לקבל את המבוטח לביטוח. במקרה של הריון שאינו בסיכון, יש לרכוש הרחבה להיריון לפני שבוע 32 או לאחר שבוע 42.",
-    "row_axis": "Pregnancy-related questions/conditions",
-    "column_axis": "Response/Condition Details",
+    "title": "הרחבה להיריון",
+    "summary": "This table details conditions related to pregnancy and travel insurance. It determines eligibility for insurance and the need for a pregnancy extension based on risk level and gestational age.",
+    "embed_passage": "טופס זה מתייחס להרחבה להיריון במסגרת תוכנית הביטוח 'דרכון פרימיום'. הוא בודק האם ההיריון מוגדר כהיריון בסיכון או מרובה עוברים, או האם הרופא המליץ שלא לנסוע לחו״ל, ובמקרה זה לא ניתן לקבל את המבוטח לביטוח. אם ההיריון אינו בסיכון, יש לרכוש הרחבה להיריון. שבוע ההיריון הנוכחי, שבוע 42, ותקופת הביטוח הם גורמים המשפיעים על הזכאות. הרחבה להיריון אינה ניתנת לרכישה לפני תום תקופת הביטוח או לאחר שבוע 42. הרחבה להיריון, היריון בסיכון, מרובה עוברים, שבוע ההיריון הנוכחי, רופא.",
+    "row_axis": "תנאי הריון",
+    "column_axis": "תגובה / מצב",
     "units": [],
     "notable_values": [
-      "שבוע 32: Maximum week to purchase pregnancy extension",
-      "שבוע 42: Gestational age limit for coverage",
-      "היריון בסיכון: High-risk pregnancy disqualifies applicant",
-      "הרחבה להיריון: Required extension for non-high-risk pregnancies"
+      "שבוע ההיריון הנוכחי: 32",
+      "שבוע ההיריון הנוכחי: 42",
+      "היריון בסיכון: לא ניתן לקבל לביטוח",
+      "היריון שאינו בסיכון: דורש הרחבה"
     ],
     "product_hints": [
       "דרכון פרימיום",
-      "ביטוח נסיעות"
+      "הרחבה להיריון"
     ]
   },
   "sketch": "האם ההיריון מוגדר כהריון בסיכון ו/או מרובה עוברים, או הומלץ לך ע\"י הרופא שלא לנסוע לחו\"ל? .1.2 במקרה שהתשובה חיובית ולאור היותך בהיריון בסיכון, לא ניתן לקבלך לביטוח.\nאם הנך בהיריון )שאינו היריון בסיכון(, עליך לרכוש הרחבה להיריון.\nלפני תום תקופת הביטוח, לא ניתן לרכוש את ההרחבה להיריון 32 לפני תום תקופת הביטוח, או שתהיי בשבוע 42 , או אם ימלאו לך 42 אם הנך בת )עפ\"י תנאי ההרחבה( ולכן לא ניתן לרכוש את הביטוח.\nמס'\nנייד",
-  "embed_text": "ביטוח נסיעות 'דרכון פרימיום' כולל תנאים מיוחדים לנשים בהיריון. אם ההיריון מוגדר כהיריון בסיכון, לא ניתן לקבל את המבוטח לביטוח. במקרה של הריון שאינו בסיכון, יש לרכוש הרחבה להיריון לפני שבוע 32 או לאחר שבוע 42.",
-  "payload": "טבלה: הצעה לביטוח נסיעות לחול - דרכון פרימיום\nThis table outlines conditions related to travel insurance for pregnant individuals under the 'דרכון פרימיום' plan. It details restrictions and required extensions based on pregnancy risk and gestational age.\nממדים: Pregnancy-related questions/conditions, Response/Condition Details\n\nהאם ההיריון מוגדר כהריון בסיכון ו/או מרובה עוברים, או הומלץ לך ע\"י הרופא שלא לנסוע לחו\"ל? .1.2 במקרה שהתשובה חיובית ולאור היותך בהיריון בסיכון, לא ניתן לקבלך לביטוח.\nאם הנך בהיריון )שאינו היריון בסיכון(, עליך לרכוש הרחבה להיריון.\nלפני תום תקופת הביטוח, לא ניתן לרכוש את ההרחבה להיריון 32 לפני תום תקופת הביטוח, או שתהיי בשבוע 42 , או אם ימלאו לך 42 אם הנך בת )עפ\"י תנאי ההרחבה( ולכן לא ניתן לרכוש את הביטוח.\nמס'\nנייד"
+  "embed_text": "טופס זה מתייחס להרחבה להיריון במסגרת תוכנית הביטוח 'דרכון פרימיום'. הוא בודק האם ההיריון מוגדר כהיריון בסיכון או מרובה עוברים, או האם הרופא המליץ שלא לנסוע לחו״ל, ובמקרה זה לא ניתן לקבל את המבוטח לביטוח. אם ההיריון אינו בסיכון, יש לרכוש הרחבה להיריון. שבוע ההיריון הנוכחי, שבוע 42, ותקופת הביטוח הם גורמים המשפיעים על הזכאות. הרחבה להיריון אינה ניתנת לרכישה לפני תום תקופת הביטוח או לאחר שבוע 42. הרחבה להיריון, היריון בסיכון, מרובה עוברים, שבוע ההיריון הנוכחי, רופא. This table details conditions related to pregnancy and travel insurance. It determines eligibility for insurance and the need for a pregnancy extension based on risk level and gestational age. בין הערכים בטבלה: היריון שאינו בסיכון: דורש הרחבה.",
+  "payload": "טבלה: הרחבה להיריון\nThis table details conditions related to pregnancy and travel insurance. It determines eligibility for insurance and the need for a pregnancy extension based on risk level and gestational age.\nממדים: תנאי הריון, תגובה / מצב\n\nהאם ההיריון מוגדר כהריון בסיכון ו/או מרובה עוברים, או הומלץ לך ע\"י הרופא שלא לנסוע לחו\"ל? .1.2 במקרה שהתשובה חיובית ולאור היותך בהיריון בסיכון, לא ניתן לקבלך לביטוח.\nאם הנך בהיריון )שאינו היריון בסיכון(, עליך לרכוש הרחבה להיריון.\nלפני תום תקופת הביטוח, לא ניתן לרכוש את ההרחבה להיריון 32 לפני תום תקופת הביטוח, או שתהיי בשבוע 42 , או אם ימלאו לך 42 אם הנך בת )עפ\"י תנאי ההרחבה( ולכן לא ניתן לרכוש את הביטוח.\nמס'\nנייד"
 }

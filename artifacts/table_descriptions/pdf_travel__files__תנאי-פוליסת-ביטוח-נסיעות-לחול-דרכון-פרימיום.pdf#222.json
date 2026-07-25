@@ -2,23 +2,22 @@
   "id": "pdf:travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-דרכון-פרימיום.pdf#222",
   "source": "llm",
   "description": {
-    "title": "החרגות ביטוח טלפון נייד",
-    "summary": "This table details exclusions to coverage for mobile phone loss or theft under the 'דרכון פרימיום' travel insurance policy. It lists scenarios where the insurer will not pay a claim.",
-    "embed_passage": "פוליסת 'דרכון פרימיום' כוללת הרחבה לאובדן או גניבה של טלפון נייד, אך קיימות החרגות. לדוגמה, המבטח לא ישלם תביעה הנובעת מהפקעה או החרמה של הטלפון, או נזק ישיר או תוצאתי לטלפון. תנאים אלו חלים בנוסף לחריגים הכלליים בפוליסה.",
-    "row_axis": "exclusion scenario",
-    "column_axis": "exclusion details",
+    "title": "חריגים לפרק הטלפון הנייד",
+    "summary": "This table lists exclusions to coverage for mobile phone loss or theft under the travel insurance policy. It details scenarios where the insurer will not pay a claim.",
+    "embed_passage": "טבלה זו מפרטת חריגים לכיסוי אובדן או גניבה של טלפון נייד במסגרת פוליסת ביטוח נסיעות. ניתן לעיין בטבלה כדי להבין מקרים בהם לא ישולמו תביעות, כגון הפקעה או נזק ישיר לטלפון. החריגים מפורטים בסעיפים 22.3.1 עד 22.3.3. הפקעה ו/או החרמה של הטלפון הנייד, נזק מכל סוג שהוא, ישיר או תוצאתי, ואובדן הנגרם ברשלנות רבתי של המבוטח הם בין החריגים המפורטים.",
+    "row_axis": "סוג חריגה",
+    "column_axis": "תיאור החריגה",
     "units": [],
     "notable_values": [
-      "exclusion type: הפקעה ו/או החרמה של הטלפון הנייד",
-      "exclusion type: נזק מכל סוג שהוא, ישיר או תוצאתי",
-      "exclusion type: אובדן הנגרם ברשלנות רבתי"
+      "הפקעה ו/או החרמה של הטלפון הנייד: סעיף 22.3.1",
+      "נזק מכל סוג שהוא: סעיף 22.3.2",
+      "אובדן הנגרם ברשלנות רבתי: סעיף 22.3.3"
     ],
     "product_hints": [
-      "דרכון פרימיום",
-      "ביטוח נסיעות לחול"
+      "ביטוח נסיעות לחול דרכון פרימיום"
     ]
   },
   "sketch": ".  הפקעה ו/או החרמה של הטלפון הנייד. 22.3.1\nנזק מכל סוג שהוא, ישיר או תוצאתי, לטלפון הנייד. .22.3.2\n.  אובדן הנגרם ברשלנות רבתי של המבוטח אשר תרמה בשיעור מלא לקרות 22.3.3 מקרה הביטוח, או אי נקיטת אמצעים למניעתו, להקטנתו או להחזרתו.",
-  "embed_text": "פוליסת 'דרכון פרימיום' כוללת הרחבה לאובדן או גניבה של טלפון נייד, אך קיימות החרגות. לדוגמה, המבטח לא ישלם תביעה הנובעת מהפקעה או החרמה של הטלפון, או נזק ישיר או תוצאתי לטלפון. תנאים אלו חלים בנוסף לחריגים הכלליים בפוליסה.",
-  "payload": "טבלה: החרגות ביטוח טלפון נייד\nThis table details exclusions to coverage for mobile phone loss or theft under the 'דרכון פרימיום' travel insurance policy. It lists scenarios where the insurer will not pay a claim.\nממדים: exclusion scenario, exclusion details\n\n.  הפקעה ו/או החרמה של הטלפון הנייד. 22.3.1\nנזק מכל סוג שהוא, ישיר או תוצאתי, לטלפון הנייד. .22.3.2\n.  אובדן הנגרם ברשלנות רבתי של המבוטח אשר תרמה בשיעור מלא לקרות 22.3.3 מקרה הביטוח, או אי נקיטת אמצעים למניעתו, להקטנתו או להחזרתו."
+  "embed_text": "טבלה זו מפרטת חריגים לכיסוי אובדן או גניבה של טלפון נייד במסגרת פוליסת ביטוח נסיעות. ניתן לעיין בטבלה כדי להבין מקרים בהם לא ישולמו תביעות, כגון הפקעה או נזק ישיר לטלפון. החריגים מפורטים בסעיפים 22.3.1 עד 22.3.3. הפקעה ו/או החרמה של הטלפון הנייד, נזק מכל סוג שהוא, ישיר או תוצאתי, ואובדן הנגרם ברשלנות רבתי של המבוטח הם בין החריגים המפורטים. This table lists exclusions to coverage for mobile phone loss or theft under the travel insurance policy. It details scenarios where the insurer will not pay a claim.",
+  "payload": "טבלה: חריגים לפרק הטלפון הנייד\nThis table lists exclusions to coverage for mobile phone loss or theft under the travel insurance policy. It details scenarios where the insurer will not pay a claim.\nממדים: סוג חריגה, תיאור החריגה\n\n.  הפקעה ו/או החרמה של הטלפון הנייד. 22.3.1\nנזק מכל סוג שהוא, ישיר או תוצאתי, לטלפון הנייד. .22.3.2\n.  אובדן הנגרם ברשלנות רבתי של המבוטח אשר תרמה בשיעור מלא לקרות 22.3.3 מקרה הביטוח, או אי נקיטת אמצעים למניעתו, להקטנתו או להחזרתו."
 }

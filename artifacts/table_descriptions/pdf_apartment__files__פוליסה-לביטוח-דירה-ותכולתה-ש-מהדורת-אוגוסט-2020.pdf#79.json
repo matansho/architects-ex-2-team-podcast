@@ -2,22 +2,21 @@
   "id": "pdf:apartment/files/פוליסה-לביטוח-דירה-ותכולתה-ש-מהדורת-אוגוסט-2020.pdf#79",
   "source": "llm",
   "description": {
-    "title": "ביטוח דירה ותכולתה",
-    "summary": "This table defines the insured events for home and contents insurance. It details the circumstances under which the insurer is liable to pay a third party due to the insured's actions or the actions of their family.",
-    "embed_passage": "פוליסת ביטוח דירה ותכולתה מכסה חבות של המבוטח או בני משפחתו לשלם לצד שלישי בגין נזק או אבדן לרכוש, מוות, מחלה או פגיעה. הכיסוי תקף עבור אירועים תאונתיים שהתרחשו בשטח מדינת ישראל. לדוגמה, במקרה של פגיעה בצד שלישי, הפוליסה מכסה את החבות בהתאם לגבולות האחריות.",
-    "row_axis": "Types of insured events (מקרה הביטוח)",
-    "column_axis": "Details of the insured event and conditions",
+    "title": "מקרה הביטוח",
+    "summary": "This table defines the insured events under the apartment insurance policy. It details the circumstances under which the insured is liable to pay a third party according to the Negligence Law.",
+    "embed_passage": "טבלה זו מתארת את מקרי הביטוח בפוליסת ביטוח דירה ותכולתה, ומפרטת את הנסיבות בהן המבוטח אחראי לשלם לצד שלישי בהתאם לפקודת הנזיקין. ניתן לעיין במקרים כגון מוות, מחלה, פגיעה, ליקוי גופני, ליקוי נפשי, ליקוי שכלי, נזק או אבדן לרכוש צד שלישי. הפוליסה רלוונטית לאירועים תאונתיים שהתרחשו בשטח מדינת ישראל או באזור כהגדרתו בחוק לתיקון ולהארכת תוקפן של תקנות שעת חירום (יהודה והשומרון - שיפוט בעבירות ועזרה משפטית), התשס\"ז-2007. מקרה הביטוח, מוות, מחלה, נזק לרכוש.",
+    "row_axis": "מקרה הביטוח (insured event)",
+    "column_axis": "תיאור מקרה הביטוח (description of insured event)",
     "units": [],
     "notable_values": [
-      "פקודת הנזיקין: referenced legal code",
-      "2007: year of emergency regulations",
-      "אזור: defined area of jurisdiction"
+      "פקודת הנזיקין: נוסח חדש",
+      "תקנות שעת חירום: התשס\"ז-2007"
     ],
     "product_hints": [
       "ביטוח דירה ותכולתה"
     ]
   },
   "sketch": "מקרה הביטוח\nמקרה הביטוח הוא חבות המבוטח או בני משפחתו, לרבות עובדי משק ביתו, לשלם לצד שלישי על פי פקודת הנזיקין ]נוסח חדש[, בכפוף לגבולות האחריות הנקובים ברשימה, בשל אירוע תאונתי שהתרחש בשטח מדינת ישראל או ב\"אזור\" כהגדרתו בחוק לתיקון ולהארכת תוקפן של , וגרם ל2007תקנות שעת חירום )יהודה והשומרון - שיפוט בעבירות ועזרה משפטית(, התשס\"ז\n)א( מוות, מחלה פגיעה, ליקוי גופני, ליקוי נפשי או ליקוי שכלי.\n)ב( נזק או אבדן לרכוש צד שלישי.",
-  "embed_text": "פוליסת ביטוח דירה ותכולתה מכסה חבות של המבוטח או בני משפחתו לשלם לצד שלישי בגין נזק או אבדן לרכוש, מוות, מחלה או פגיעה. הכיסוי תקף עבור אירועים תאונתיים שהתרחשו בשטח מדינת ישראל. לדוגמה, במקרה של פגיעה בצד שלישי, הפוליסה מכסה את החבות בהתאם לגבולות האחריות.",
-  "payload": "טבלה: ביטוח דירה ותכולתה\nThis table defines the insured events for home and contents insurance. It details the circumstances under which the insurer is liable to pay a third party due to the insured's actions or the actions of their family.\nממדים: Types of insured events (מקרה הביטוח), Details of the insured event and conditions\n\nמקרה הביטוח\nמקרה הביטוח הוא חבות המבוטח או בני משפחתו, לרבות עובדי משק ביתו, לשלם לצד שלישי על פי פקודת הנזיקין ]נוסח חדש[, בכפוף לגבולות האחריות הנקובים ברשימה, בשל אירוע תאונתי שהתרחש בשטח מדינת ישראל או ב\"אזור\" כהגדרתו בחוק לתיקון ולהארכת תוקפן של , וגרם ל2007תקנות שעת חירום )יהודה והשומרון - שיפוט בעבירות ועזרה משפטית(, התשס\"ז\n)א( מוות, מחלה פגיעה, ליקוי גופני, ליקוי נפשי או ליקוי שכלי.\n)ב( נזק או אבדן לרכוש צד שלישי."
+  "embed_text": "טבלה זו מתארת את מקרי הביטוח בפוליסת ביטוח דירה ותכולתה, ומפרטת את הנסיבות בהן המבוטח אחראי לשלם לצד שלישי בהתאם לפקודת הנזיקין. ניתן לעיין במקרים כגון מוות, מחלה, פגיעה, ליקוי גופני, ליקוי נפשי, ליקוי שכלי, נזק או אבדן לרכוש צד שלישי. הפוליסה רלוונטית לאירועים תאונתיים שהתרחשו בשטח מדינת ישראל או באזור כהגדרתו בחוק לתיקון ולהארכת תוקפן של תקנות שעת חירום (יהודה והשומרון - שיפוט בעבירות ועזרה משפטית), התשס\"ז-2007. מקרה הביטוח, מוות, מחלה, נזק לרכוש. This table defines the insured events under the apartment insurance policy. It details the circumstances under which the insured is liable to pay a third party according to the Negligence Law.",
+  "payload": "טבלה: מקרה הביטוח\nThis table defines the insured events under the apartment insurance policy. It details the circumstances under which the insured is liable to pay a third party according to the Negligence Law.\nממדים: מקרה הביטוח (insured event), תיאור מקרה הביטוח (description of insured event)\n\nמקרה הביטוח\nמקרה הביטוח הוא חבות המבוטח או בני משפחתו, לרבות עובדי משק ביתו, לשלם לצד שלישי על פי פקודת הנזיקין ]נוסח חדש[, בכפוף לגבולות האחריות הנקובים ברשימה, בשל אירוע תאונתי שהתרחש בשטח מדינת ישראל או ב\"אזור\" כהגדרתו בחוק לתיקון ולהארכת תוקפן של , וגרם ל2007תקנות שעת חירום )יהודה והשומרון - שיפוט בעבירות ועזרה משפטית(, התשס\"ז\n)א( מוות, מחלה פגיעה, ליקוי גופני, ליקוי נפשי או ליקוי שכלי.\n)ב( נזק או אבדן לרכוש צד שלישי."
 }

@@ -2,27 +2,27 @@
   "id": "pdf:business/files/טופס-הצעה-לביטוח-מכלול-למושב.pdf#50",
   "source": "llm",
   "description": {
-    "title": "ביטוח מכלול",
-    "summary": "This table details coverage options and insurance amounts for 'Mekhalel' insurance. Users look up coverage details based on the type of property and desired coverage limits.",
-    "embed_passage": "ביטוח מכלול מציע כיסוי מקיף לבית מגורים ולתכולתו, כולל אפשרות לכיסוי רעידת אדמה. סכום הביטוח לתכולה עסקית יכול להגיע עד 50,000 ₪, ותכולת הדירה מוערכת בסכום ביטוח כולל בשקלים. ניתן לבחור ביטוח לפי ערך שיפוי או לבטל כיסוי לפריצה וגניבה.",
-    "row_axis": "Type of coverage/item to be insured (e.g., business contents, earthquake coverage)",
-    "column_axis": "Insurance amount (in ₪)",
+    "title": "מכלול למושב - כיסויים נוספים",
+    "summary": "This table lists optional coverages for a 'Mekhalel LeMoshav' insurance policy. It is used to indicate whether specific risks are covered and to specify the insured amount for business contents.",
+    "embed_passage": "טופס זה מפרט כיסויים נוספים הנדרשים במסגרת ביטוח מכלול למושב. ניתן לציין סכום ביטוח עבור תכולה עסקית, עד ₪ 50,000. השאלה האם מתבקש כיסוי לרעידת אדמה לדירה, וכן האם קיימת פעילות עסקית בבית, מופיעות כאן. כמו כן, ניתן לבחור כיסוי לאופניים (לא כולל אופניים בעלי מנוע עזר) ולמכשירים אלקטרונים ביתיים. סוג תכולה עסקית, סכום ביטוח, וכן האם ברצונך בביטוח עפ״י ערך שיפוי, הם פרטים חשובים.",
+    "row_axis": "Optional coverages",
+    "column_axis": "Coverage details (Yes/No, Insured Amount)",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "Business contents insurance amount: up to 50,000 ₪",
-      "Earthquake coverage: unspecified amount",
-      "All-risk bicycle coverage: not included for motorized bicycles",
-      "Business activity at home: yes/no",
-      "Replacement value insurance: yes/no"
+      "כיסוי רעידת אדמה: לא",
+      "סוג תכולה עסקית: ₪ 50,000",
+      "אופניים: לא",
+      "מכשירים אלקטרונים ביתיים: כן, נא לפרט",
+      "פעילות עסקית בבית: כן, נא לפרט את סוג העיסוק",
+      "ערך שיפוי: לא"
     ],
     "product_hints": [
-      "מכלול",
-      "Mekhalel"
+      "מכלול למושב"
     ]
   },
-  "sketch": ")נא לציין סכומים( כב כיסויים נוספים נדרשים\n:( כל הסיכונים לאופניים )לא כולל אופניים בעלי מנוע עזר כלשהו\n.₪\nלא\n…\n? פעילות עסקית בבית\n(₪  50,000 )עד\n₪                                                                                :\nסוג תכולה עסקית:                                                                     סכום ביטוח",
-  "embed_text": "ביטוח מכלול מציע כיסוי מקיף לבית מגורים ולתכולתו, כולל אפשרות לכיסוי רעידת אדמה. סכום הביטוח לתכולה עסקית יכול להגיע עד 50,000 ₪, ותכולת הדירה מוערכת בסכום ביטוח כולל בשקלים. ניתן לבחור ביטוח לפי ערך שיפוי או לבטל כיסוי לפריצה וגניבה.",
-  "payload": "טבלה: ביטוח מכלול\nThis table details coverage options and insurance amounts for 'Mekhalel' insurance. Users look up coverage details based on the type of property and desired coverage limits.\nממדים: Type of coverage/item to be insured (e.g., business contents, earthquake coverage), Insurance amount (in ₪)\n\n)נא לציין סכומים( כב כיסויים נוספים נדרשים\n:( כל הסיכונים לאופניים )לא כולל אופניים בעלי מנוע עזר כלשהו\n.₪\nלא\nכן\n:( כל הסיכונים למכשירים אלקטרונים ביתיים )נא לציין את סוג המכשיר, יצרן, דגם ושוויו\nשווי בש״ח\nדגם\nיצרן\nהמכשיר\nכג עמדת טעינה לרכב\nלא\nכן\n? האם יש ברשותך עמדת טעינה פרטית לכלי רכב\n. תשומת לב, ככל שהנך מבוטח/ת בביטוח עמדת טעינה לכלי רכב, יתכן שיהיה כיסוי ביטוחי מקביל במסגרת ביטוח הדירה, והמשמעות היא קיומו של כפל ביטוחי\nכא תכולה - כיסויים נוספים\nשמשות, משטחי שיש, מתקנים סניטריים:\n.₪                                                                       :\nמסכום התכולה 5%- נא לציין סכום ביטוח מעבר ל\n.₪                                                      :\nמסכום התכולה לפריט בודד 1%- נא לציין סכום ביטוח מעבר ל\n:\nכן, נא לפרט את סוג העיסוק\nלא\n? פעילות עסקית בבית\n(₪  50,000 )עד\n₪                                                                                :\nסוג תכולה עסקית:                                                                     סכום ביטוח"
+  "sketch": ")נא לציין סכומים( כב כיסויים נוספים נדרשים\n:( כל הסיכונים לאופניים )לא כולל אופניים בעלי מנוע עזר כלשהו\n.₪\nלא\nכן\n:( כל הסיכונים למכשירים אלקטרונים ביתיים )נא לציין את סוג המכשיר, יצרן, דגם ושוויו\n…\nכן, נא לפרט את סוג העיסוק\nלא\n? פעילות עסקית בבית\n(₪  50,000 )עד\n₪                                                                                :\nסוג תכולה עסקית:                                                                     סכום ביטוח",
+  "embed_text": "טופס זה מפרט כיסויים נוספים הנדרשים במסגרת ביטוח מכלול למושב. ניתן לציין סכום ביטוח עבור תכולה עסקית, עד ₪ 50,000. השאלה האם מתבקש כיסוי לרעידת אדמה לדירה, וכן האם קיימת פעילות עסקית בבית, מופיעות כאן. כמו כן, ניתן לבחור כיסוי לאופניים (לא כולל אופניים בעלי מנוע עזר) ולמכשירים אלקטרונים ביתיים. סוג תכולה עסקית, סכום ביטוח, וכן האם ברצונך בביטוח עפ״י ערך שיפוי, הם פרטים חשובים. This table lists optional coverages for a 'Mekhalel LeMoshav' insurance policy. It is used to indicate whether specific risks are covered and to specify the insured amount for business contents.",
+  "payload": "טבלה: מכלול למושב - כיסויים נוספים\nThis table lists optional coverages for a 'Mekhalel LeMoshav' insurance policy. It is used to indicate whether specific risks are covered and to specify the insured amount for business contents.\nממדים: Optional coverages, Coverage details (Yes/No, Insured Amount)\n\n)נא לציין סכומים( כב כיסויים נוספים נדרשים\n:( כל הסיכונים לאופניים )לא כולל אופניים בעלי מנוע עזר כלשהו\n.₪\nלא\nכן\n:( כל הסיכונים למכשירים אלקטרונים ביתיים )נא לציין את סוג המכשיר, יצרן, דגם ושוויו\nשווי בש״ח\nדגם\nיצרן\nהמכשיר\nכג עמדת טעינה לרכב\nלא\nכן\n? האם יש ברשותך עמדת טעינה פרטית לכלי רכב\n. תשומת לב, ככל שהנך מבוטח/ת בביטוח עמדת טעינה לכלי רכב, יתכן שיהיה כיסוי ביטוחי מקביל במסגרת ביטוח הדירה, והמשמעות היא קיומו של כפל ביטוחי\nכא תכולה - כיסויים נוספים\nשמשות, משטחי שיש, מתקנים סניטריים:\n.₪                                                                       :\nמסכום התכולה 5%- נא לציין סכום ביטוח מעבר ל\n.₪                                                      :\nמסכום התכולה לפריט בודד 1%- נא לציין סכום ביטוח מעבר ל\n:\nכן, נא לפרט את סוג העיסוק\nלא\n? פעילות עסקית בבית\n(₪  50,000 )עד\n₪                                                                                :\nסוג תכולה עסקית:                                                                     סכום ביטוח"
 }

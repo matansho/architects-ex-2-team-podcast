@@ -2,24 +2,23 @@
   "id": "pdf:car/files/פוליסה-לביטוח-רכב-פרטי-ורכב-מסחרי-עד-35-טון-מבית-שירביט-מהדורת-יוני-2023.pdf#8",
   "source": "llm",
   "description": {
-    "title": "תנאי פוליסה - שירביט",
-    "summary": "This table outlines the terms and conditions of a car insurance policy from Shirbit. It defines terms and clarifies the insurer's liability based on the Insurance Act.",
-    "embed_passage": "פוליסת הביטוח של שירביט מגדירה מונחים בהתאם לחוק הפיצויים, ומפרטת את חבות המבטח לפי סעיף 3 לפקודת הביטוח. לדוגמה, סעיף 1 מפרש מונחים שאינם מוגדרים בפקודה, וסעיף 3 מתייחס לחבות המבטח בגין נזק גוף.",
-    "row_axis": "clause number / topic",
-    "column_axis": "description / details",
+    "title": "פרשנות וחבות",
+    "summary": "This table defines terms and the insurer's liability according to the policy. It is used to look up the meaning of terms and the extent of the insurer's obligation.",
+    "embed_passage": "טבלה זו עוסקת בפרשנות מונחים וחבות המבטח בפוליסת ביטוח רכב מבית שירביט. ניתן להיעזר בה כדי להבין את משמעותם של מונחים שונים בפוליסה, ומהם תנאי החבות של המבטח במקרה של תביעה. הטבלה מפרטת את החבות של המבטח לפי פקודת הביטוח, וכן את החבות הנובעת מחוק הפיצויים. מונחים מרכזיים בפוליסה זו כוללים: פרשנות, חבות המבטח, השתתפות עצמית. כמו כן, הטבלה מתייחסת לפקודת הביטוח, חוק הפיצויים, ותקנות ביטוח רכב מנועי.",
+    "row_axis": "סעיף",
+    "column_axis": "תיאור",
     "units": [],
     "notable_values": [
-      "סעיף 1: הגדרת מונחים",
-      "סעיף 3: חבות המבטח",
-      "פקודת הביטוח: סעיף 3",
-      "חוק הפיצויים: פרשנות מונחים"
+      "מונח: פרשנות",
+      "מונח: חבות המבטח",
+      "חוק: חוק הפיצויים",
+      "פקודה: פקודת הביטוח"
     ],
     "product_hints": [
-      "שירביט",
-      "ביטוח רכב"
+      "שירביט ביטוח רכב"
     ]
   },
   "sketch": ". פרשנות 2\nיפורש כמשמעותו, במועד קרות מקרה הביטוח, בחוק הפיצויים או 1 מונח שלא הוגדר בסעיף בפקודת הביטוח, לפי העניין.\n. חבות המבטח 3\nלפקודת הביטוח, לאמור: 3 בכפוף לתנאי פוליסה זו, מבטח יחוב לפי הוראות סעיף",
-  "embed_text": "פוליסת הביטוח של שירביט מגדירה מונחים בהתאם לחוק הפיצויים, ומפרטת את חבות המבטח לפי סעיף 3 לפקודת הביטוח. לדוגמה, סעיף 1 מפרש מונחים שאינם מוגדרים בפקודה, וסעיף 3 מתייחס לחבות המבטח בגין נזק גוף.",
-  "payload": "טבלה: תנאי פוליסה - שירביט\nThis table outlines the terms and conditions of a car insurance policy from Shirbit. It defines terms and clarifies the insurer's liability based on the Insurance Act.\nממדים: clause number / topic, description / details\n\n. פרשנות 2\nיפורש כמשמעותו, במועד קרות מקרה הביטוח, בחוק הפיצויים או 1 מונח שלא הוגדר בסעיף בפקודת הביטוח, לפי העניין.\n. חבות המבטח 3\nלפקודת הביטוח, לאמור: 3 בכפוף לתנאי פוליסה זו, מבטח יחוב לפי הוראות סעיף"
+  "embed_text": "טבלה זו עוסקת בפרשנות מונחים וחבות המבטח בפוליסת ביטוח רכב מבית שירביט. ניתן להיעזר בה כדי להבין את משמעותם של מונחים שונים בפוליסה, ומהם תנאי החבות של המבטח במקרה של תביעה. הטבלה מפרטת את החבות של המבטח לפי פקודת הביטוח, וכן את החבות הנובעת מחוק הפיצויים. מונחים מרכזיים בפוליסה זו כוללים: פרשנות, חבות המבטח, השתתפות עצמית. כמו כן, הטבלה מתייחסת לפקודת הביטוח, חוק הפיצויים, ותקנות ביטוח רכב מנועי. This table defines terms and the insurer's liability according to the policy. It is used to look up the meaning of terms and the extent of the insurer's obligation.",
+  "payload": "טבלה: פרשנות וחבות\nThis table defines terms and the insurer's liability according to the policy. It is used to look up the meaning of terms and the extent of the insurer's obligation.\nממדים: סעיף, תיאור\n\n. פרשנות 2\nיפורש כמשמעותו, במועד קרות מקרה הביטוח, בחוק הפיצויים או 1 מונח שלא הוגדר בסעיף בפקודת הביטוח, לפי העניין.\n. חבות המבטח 3\nלפקודת הביטוח, לאמור: 3 בכפוף לתנאי פוליסה זו, מבטח יחוב לפי הוראות סעיף"
 }

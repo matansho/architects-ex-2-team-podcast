@@ -2,18 +2,16 @@
   "id": "pdf:apartment/files/חוברת-כללים.pdf#3",
   "source": "llm",
   "description": {
-    "title": "הראל - כללי תביעות דירה",
-    "summary": "This table outlines the rules and timelines for handling apartment insurance claims with Harel. It details the periods for submitting notifications and resolving claims, referencing circulars and procedures.",
-    "embed_passage": "חברת הראל קובעת הוראות לבירור ויישוב תביעות ביטוח דירה, כפי שמפורט בחוזרים שונים. תקופת ההתיישנות על הודעה היא 25 עמודים, וטיפול בתביעות מבוטח הוא 26 עמודים. הוראות אלו מתייחסות לנזקי מים ולתיקון חוזרים קבועים.",
-    "row_axis": "Rule/Procedure related to claims processing",
-    "column_axis": "Reference/Detail (e.g., page number, description)",
-    "units": [
-      "עמ'"
-    ],
+    "title": "מערכת כללים לבירור תביעות",
+    "summary": "This table outlines the rules and timeframes for handling insurance claims, specifically related to property and bodily harm. It is used to look up claim processing periods and notification requirements.",
+    "embed_passage": "טבלה זו מפרטת את מערכת הכללים של הראל לבירור ויישוב תביעות, כולל תקופות התיישנות והמועדים לטיפול בפניות. המידע רלוונטי לתביעות רכוש וגוף, ומסייע בהבנת הליך הטיפול בתביעה. ניתן למצוא מידע נוסף בחוזרים של הראל, כגון חוזר 'תיקון' וחוזר העוסק בנזקי מים. הראל חברה לביטוח בע\"מ קובעת את הכללים הללו בהתאם להוראות גופים מוסדיים. הטבלה כוללת מידע על התיישנות תקופת על הודעה, ופניות וטיפול בתביעות. נזקי מים, רכוש/גוף ותביעת מבוטח הם נושאים מרכזיים.",
+    "row_axis": "סוגי הוראות / נושאים הקשורים לטיפול בתביעות",
+    "column_axis": "מספרי עמודים בחוברת הכללים",
+    "units": [],
     "notable_values": [
-      "תקופת התיישנות על הודעה: 25",
-      "עמ': 26",
-      "עמ': 27"
+      "רכוש/גוף ותביעת מבוטח: 25",
+      "התיישנות תקופת על הודעה: 26",
+      "בפניות וטיפול תביעות: 27"
     ],
     "product_hints": [
       "ביטוח דירה",
@@ -21,6 +19,6 @@
     ]
   },
   "sketch": "רכוש/גוף ותביעת מבוטח,25,עמ'\nהתיישנות תקופת על הודעה,26,עמ'\n\"בפניות וטיפול תביעות \"\"יישוב בחוזר הקבועות והתקופות המועדים טבלת דירה\"\" ביטוח בענף הוראות - המאוחד החוזר הוראות \"\"תיקון \"\"ובחוזר הציבור מים נזקי לגבי\",27,עמ'",
-  "embed_text": "חברת הראל קובעת הוראות לבירור ויישוב תביעות ביטוח דירה, כפי שמפורט בחוזרים שונים. תקופת ההתיישנות על הודעה היא 25 עמודים, וטיפול בתביעות מבוטח הוא 26 עמודים. הוראות אלו מתייחסות לנזקי מים ולתיקון חוזרים קבועים.",
-  "payload": "טבלה: הראל - כללי תביעות דירה\nThis table outlines the rules and timelines for handling apartment insurance claims with Harel. It details the periods for submitting notifications and resolving claims, referencing circulars and procedures.\nממדים: Rule/Procedure related to claims processing, Reference/Detail (e.g., page number, description)\n\nרכוש/גוף ותביעת מבוטח,25,עמ'\nהתיישנות תקופת על הודעה,26,עמ'\n\"בפניות וטיפול תביעות \"\"יישוב בחוזר הקבועות והתקופות המועדים טבלת דירה\"\" ביטוח בענף הוראות - המאוחד החוזר הוראות \"\"תיקון \"\"ובחוזר הציבור מים נזקי לגבי\",27,עמ'"
+  "embed_text": "טבלה זו מפרטת את מערכת הכללים של הראל לבירור ויישוב תביעות, כולל תקופות התיישנות והמועדים לטיפול בפניות. המידע רלוונטי לתביעות רכוש וגוף, ומסייע בהבנת הליך הטיפול בתביעה. ניתן למצוא מידע נוסף בחוזרים של הראל, כגון חוזר 'תיקון' וחוזר העוסק בנזקי מים. הראל חברה לביטוח בע\"מ קובעת את הכללים הללו בהתאם להוראות גופים מוסדיים. הטבלה כוללת מידע על התיישנות תקופת על הודעה, ופניות וטיפול בתביעות. נזקי מים, רכוש/גוף ותביעת מבוטח הם נושאים מרכזיים. This table outlines the rules and timeframes for handling insurance claims, specifically related to property and bodily harm. It is used to look up claim processing periods and notification requirements. בין הערכים בטבלה: בפניות וטיפול תביעות: 27.",
+  "payload": "טבלה: מערכת כללים לבירור תביעות\nThis table outlines the rules and timeframes for handling insurance claims, specifically related to property and bodily harm. It is used to look up claim processing periods and notification requirements.\nממדים: סוגי הוראות / נושאים הקשורים לטיפול בתביעות, מספרי עמודים בחוברת הכללים\n\nרכוש/גוף ותביעת מבוטח,25,עמ'\nהתיישנות תקופת על הודעה,26,עמ'\n\"בפניות וטיפול תביעות \"\"יישוב בחוזר הקבועות והתקופות המועדים טבלת דירה\"\" ביטוח בענף הוראות - המאוחד החוזר הוראות \"\"תיקון \"\"ובחוזר הציבור מים נזקי לגבי\",27,עמ'"
 }

@@ -2,28 +2,25 @@
   "id": "pdf:business/files/פוליסה-משולבת-לביטוח-אש-מורחב-ואובדן-תוצאתי-הראל-ביט-ינואר-2023.pdf#149",
   "source": "llm",
   "description": {
-    "title": "הרחבות ביטוח",
-    "summary": "This table details coverage extensions for property insurance, specifically outlining limits for various events like building collapse and property in transit. It helps determine the maximum payout for different types of losses.",
-    "embed_passage": "פוליסת הראל ביטוח מציעה הרחבות לכיסוי נזקים כגון התמוטטות מבנים, רכוש בבניה ורכוש בהעברה. גובה הפיצוי מחושב בהתאם לנזק, אך מוגבל עד ₪ 4,000,000 או 10% מהרווח הגולמי המבוטח, הנמוך מביניהם. הרחבות אלו נועדו להרחיב את הכיסוי מעבר לתנאי הפוליסה הסטנדרטיים.",
-    "row_axis": "types of loss events (e.g., building collapse, property in transit)",
-    "column_axis": "coverage details, including limits and conditions",
+    "title": "הרחבות ביטוח - הראל",
+    "summary": "This table details extensions to insurance coverage, specifically for events like building collapse, property in transit, and construction/demolition. It outlines the maximum liability of the insurer for each extension.",
+    "embed_passage": "טבלה זו מתארת הרחבות לפוליסת ביטוח של הראל, ומפרטת את הכיסוי עבור מקרים כמו התמוטטות מבנים, רכוש בהעברה ורכוש בבניה. ניתן לחפש מידע על הרחבות ספציפיות לפי סעיף או סוג הנזק המכוסה. הרחבות כוללות התמוטטות מבנים, רכוש בבניה, רכוש בהעברה, הוצאות משתנות ושיפורים בציוד. סכום הכיסוי מוגבל עד ₪ 4,000,000 או 10% מהרווח הגולמי המבוטח, הנמוך ביניהם. במקרה של התמוטטות מבנים, אחריות המבטח בשני הפרקים גם יחד מוגבלת עד ₪ 4,000,000.",
+    "row_axis": "סוג הרחבה (building collapse, property in transit, etc.)",
+    "column_axis": "תנאי הכיסוי והגבלות",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "limit: ₪ 4,000,000",
-      "percentage: 10%",
-      "section: 9.7",
-      "section: 3.19",
-      "section: 9.4"
+      "התמוטטות מבנים: ₪ 4,000,000",
+      "רכוש בבניה: ₪ 1,000,000",
+      "רכוש בהעברה: ₪ 4,000,000",
+      "הוצאות משתנות: 10%"
     ],
     "product_hints": [
-      "הראל ביטוח",
-      "ביטוח אש מורחב",
-      "אובדן תוצאתי"
+      "הראל"
     ]
   },
   "sketch": "התמוטטות מבנים .10.9\nלסייגי פרק ב׳, הביטוח על פי פרק זה מורחב לכסות הפסד 9.7 בניגוד לאמור בסעיף . בהרחבות פרק א׳ 3.19 שיגרם למבוטח עקב התמוטטות מבנים, כמפורט בסעיף אלא אם צוין אחרת ברשימה, אחריותו של המבטח על פי הרחבה זו מוגבלת עד , הנמוך ביניהם. ₪  4,000,000 מהרווח הגולמי המבוטח או 10%לסכום השווה ל אלא אם צוין אחרת ברשימה, מובהר בזאת, כי אם תוגש תביעה בגין אירוע של התמוטטות מבנים, הן במסגרת פרק א' הן במסגרת פרק ב', אחריות המבוטח\n.₪  4,000,000 בגין שני הפרקים גם יחד תוגבל עד לסכום מרבי של",
-  "embed_text": "פוליסת הראל ביטוח מציעה הרחבות לכיסוי נזקים כגון התמוטטות מבנים, רכוש בבניה ורכוש בהעברה. גובה הפיצוי מחושב בהתאם לנזק, אך מוגבל עד ₪ 4,000,000 או 10% מהרווח הגולמי המבוטח, הנמוך מביניהם. הרחבות אלו נועדו להרחיב את הכיסוי מעבר לתנאי הפוליסה הסטנדרטיים.",
-  "payload": "טבלה: הרחבות ביטוח\nThis table details coverage extensions for property insurance, specifically outlining limits for various events like building collapse and property in transit. It helps determine the maximum payout for different types of losses.\nממדים: types of loss events (e.g., building collapse, property in transit), coverage details, including limits and conditions\n\nהתמוטטות מבנים .10.9\nלסייגי פרק ב׳, הביטוח על פי פרק זה מורחב לכסות הפסד 9.7 בניגוד לאמור בסעיף . בהרחבות פרק א׳ 3.19 שיגרם למבוטח עקב התמוטטות מבנים, כמפורט בסעיף אלא אם צוין אחרת ברשימה, אחריותו של המבטח על פי הרחבה זו מוגבלת עד , הנמוך ביניהם. ₪  4,000,000 מהרווח הגולמי המבוטח או 10%לסכום השווה ל אלא אם צוין אחרת ברשימה, מובהר בזאת, כי אם תוגש תביעה בגין אירוע של התמוטטות מבנים, הן במסגרת פרק א' הן במסגרת פרק ב', אחריות המבוטח\n.₪  4,000,000 בגין שני הפרקים גם יחד תוגבל עד לסכום מרבי של"
+  "embed_text": "טבלה זו מתארת הרחבות לפוליסת ביטוח של הראל, ומפרטת את הכיסוי עבור מקרים כמו התמוטטות מבנים, רכוש בהעברה ורכוש בבניה. ניתן לחפש מידע על הרחבות ספציפיות לפי סעיף או סוג הנזק המכוסה. הרחבות כוללות התמוטטות מבנים, רכוש בבניה, רכוש בהעברה, הוצאות משתנות ושיפורים בציוד. סכום הכיסוי מוגבל עד ₪ 4,000,000 או 10% מהרווח הגולמי המבוטח, הנמוך ביניהם. במקרה של התמוטטות מבנים, אחריות המבטח בשני הפרקים גם יחד מוגבלת עד ₪ 4,000,000. This table details extensions to insurance coverage, specifically for events like building collapse, property in transit, and construction/demolition. It outlines the maximum liability of the insurer for each extension.",
+  "payload": "טבלה: הרחבות ביטוח - הראל\nThis table details extensions to insurance coverage, specifically for events like building collapse, property in transit, and construction/demolition. It outlines the maximum liability of the insurer for each extension.\nממדים: סוג הרחבה (building collapse, property in transit, etc.), תנאי הכיסוי והגבלות\n\nהתמוטטות מבנים .10.9\nלסייגי פרק ב׳, הביטוח על פי פרק זה מורחב לכסות הפסד 9.7 בניגוד לאמור בסעיף . בהרחבות פרק א׳ 3.19 שיגרם למבוטח עקב התמוטטות מבנים, כמפורט בסעיף אלא אם צוין אחרת ברשימה, אחריותו של המבטח על פי הרחבה זו מוגבלת עד , הנמוך ביניהם. ₪  4,000,000 מהרווח הגולמי המבוטח או 10%לסכום השווה ל אלא אם צוין אחרת ברשימה, מובהר בזאת, כי אם תוגש תביעה בגין אירוע של התמוטטות מבנים, הן במסגרת פרק א' הן במסגרת פרק ב', אחריות המבוטח\n.₪  4,000,000 בגין שני הפרקים גם יחד תוגבל עד לסכום מרבי של"
 }

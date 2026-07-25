@@ -2,22 +2,24 @@
   "id": "pdf:business/files/פוליסת-מכלול-לחבר-מושב-מהדורת-ינואר-2023.pdf#52",
   "source": "llm",
   "description": {
-    "title": "מכלול - כיסויים",
-    "summary": "This table details exclusions to coverage under the 'מכלול' insurance policy, specifically for the first chapter. It lists scenarios where damage is not covered, such as collisions and animal attacks.",
-    "embed_passage": "פוליסת 'מכלול' לחבר מושב מציעה כיסוי לנזקים שונים, אך קיימים מקרים בהם הכיסוי אינו חל. לדוגמה, נזק שנגרם לעצים או לגידולי שדה כתוצאה מהתנגשות עם בעלי חיים (4.8.1) אינו מכוסה, כמו גם נזק לבעלי חיים כתוצאה מהתנגשות עם בעלי חיים אחרים (4.8.2).",
-    "row_axis": "Specific exclusion scenarios",
-    "column_axis": "Details of the exclusion",
+    "title": "מכלול - סיכונים מבוטחים",
+    "summary": "This table details exclusions to coverage under the 'מכלול' insurance policy, specifically for the first chapter. It lists scenarios where damage is not covered, categorized by the cause of the damage.",
+    "embed_passage": "טבלה זו מתארת את הסיכונים שאינם מכוסים בפוליסת 'מכלול', בפרק הראשון. החיפוש מתבצע לפי סוג הנזק והגורם לו. לדוגמה, נזקים לעצים, גידולי שדה, כוורות ודבורים, או כתוצאה מהתנגשות בין בעלי חיים. נזקים הנגרמים כתוצאה מהתנגשות עם כלי רכב, כלי הרמה, ציוד נע ובעלי חיים אינם מכוסים. כמו כן, נזקים לבעלי חיים כתוצאה מהתנגשות עם בעלי חיים אחרים אינם כלולים. פוליסת 'מכלול' מכסה מגוון רחב של סיכונים, אך ישנם חריגים מוגדרים.",
+    "row_axis": "סוג נזק / גורם לנזק",
+    "column_axis": "תיאור אי-כיסוי",
     "units": [],
     "notable_values": [
-      "4.8: Exclusion for damage from collisions",
-      "4.8.1: Exclusion for damage to trees/crops from animal collisions",
-      "4.8.2: Exclusion for animal injuries from animal collisions"
+      "נזק לכוורות ולדבורים: לא מכוסה",
+      "נזק לעצים ופירות: לא מכוסה",
+      "נזק לגידולי שדה: לא מכוסה",
+      "התנגשות עם כלי רכב: לא מכוסה",
+      "התנגשות עם בעלי חיים אחרים: לא מכוסה"
     ],
     "product_hints": [
       "מכלול"
     ]
   },
   "sketch": "אך לא נזק מהתנגשות , התנגשות על ידי כלי רכב, כלי הרמה, ציוד נע ובעלי חיים .4.8 שנגרם:\nלעצים וגם/או לפירות העצים, לגידולי שדה, לכוורות וגם/או לדבורים. .4.8.1\nלבעלי חיים, כתוצאה מהתנגשות עם בעלי חיים אחרים. .4.8.2",
-  "embed_text": "פוליסת 'מכלול' לחבר מושב מציעה כיסוי לנזקים שונים, אך קיימים מקרים בהם הכיסוי אינו חל. לדוגמה, נזק שנגרם לעצים או לגידולי שדה כתוצאה מהתנגשות עם בעלי חיים (4.8.1) אינו מכוסה, כמו גם נזק לבעלי חיים כתוצאה מהתנגשות עם בעלי חיים אחרים (4.8.2).",
-  "payload": "טבלה: מכלול - כיסויים\nThis table details exclusions to coverage under the 'מכלול' insurance policy, specifically for the first chapter. It lists scenarios where damage is not covered, such as collisions and animal attacks.\nממדים: Specific exclusion scenarios, Details of the exclusion\n\nאך לא נזק מהתנגשות , התנגשות על ידי כלי רכב, כלי הרמה, ציוד נע ובעלי חיים .4.8 שנגרם:\nלעצים וגם/או לפירות העצים, לגידולי שדה, לכוורות וגם/או לדבורים. .4.8.1\nלבעלי חיים, כתוצאה מהתנגשות עם בעלי חיים אחרים. .4.8.2"
+  "embed_text": "טבלה זו מתארת את הסיכונים שאינם מכוסים בפוליסת 'מכלול', בפרק הראשון. החיפוש מתבצע לפי סוג הנזק והגורם לו. לדוגמה, נזקים לעצים, גידולי שדה, כוורות ודבורים, או כתוצאה מהתנגשות בין בעלי חיים. נזקים הנגרמים כתוצאה מהתנגשות עם כלי רכב, כלי הרמה, ציוד נע ובעלי חיים אינם מכוסים. כמו כן, נזקים לבעלי חיים כתוצאה מהתנגשות עם בעלי חיים אחרים אינם כלולים. פוליסת 'מכלול' מכסה מגוון רחב של סיכונים, אך ישנם חריגים מוגדרים. This table details exclusions to coverage under the 'מכלול' insurance policy, specifically for the first chapter. It lists scenarios where damage is not covered, categorized by the cause of the damage. בין הערכים בטבלה: נזק לכוורות ולדבורים: לא מכוסה; נזק לעצים ופירות: לא מכוסה; נזק לגידולי שדה: לא מכוסה.",
+  "payload": "טבלה: מכלול - סיכונים מבוטחים\nThis table details exclusions to coverage under the 'מכלול' insurance policy, specifically for the first chapter. It lists scenarios where damage is not covered, categorized by the cause of the damage.\nממדים: סוג נזק / גורם לנזק, תיאור אי-כיסוי\n\nאך לא נזק מהתנגשות , התנגשות על ידי כלי רכב, כלי הרמה, ציוד נע ובעלי חיים .4.8 שנגרם:\nלעצים וגם/או לפירות העצים, לגידולי שדה, לכוורות וגם/או לדבורים. .4.8.1\nלבעלי חיים, כתוצאה מהתנגשות עם בעלי חיים אחרים. .4.8.2"
 }

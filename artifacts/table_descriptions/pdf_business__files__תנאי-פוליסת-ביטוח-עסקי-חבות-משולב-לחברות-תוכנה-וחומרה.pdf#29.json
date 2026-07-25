@@ -2,24 +2,22 @@
   "id": "pdf:business/files/תנאי-פוליסת-ביטוח-עסקי-חבות-משולב-לחברות-תוכנה-וחומרה.pdf#29",
   "source": "llm",
   "description": {
-    "title": "תנאי פוליסת חבות משולב",
-    "summary": "This table defines terms used in a combined liability insurance policy. It details exclusions and specific meanings of covered and non-covered events, like 'Nuclear' incidents.",
-    "embed_passage": "פוליסת חבות משולב מגדירה מונחים כמו 'גרעיני' הכוללים קרינה מייננת או זיהום רדיואקטיבי מדלק גרעיני או פסולת ממנו. הפוליסה מתייחסת גם לחומרים גרעיניים ונשק גרעיני, וכן לנזקים הנובעים ממתן שירותים הקשורים לתכנון או תחזוקה של מתקן גרעיני. הגדרות אלו חשובות להבנת הכיסוי הביטוחי.",
-    "row_axis": "Defined Term",
-    "column_axis": "Definition/Explanation",
+    "title": "הגדרות פוליסה - חבות משולב",
+    "summary": "This table defines terms used in a combined liability insurance policy, specifically for software and hardware companies. It details exclusions and specific meanings of terms like 'Nuclear' as they apply to coverage.",
+    "embed_passage": "טבלה זו מציגה הגדרות מונחים בפוליסת ביטוח חבות משולב, המיועדת לחברות תוכנה וחומרה. ההגדרות מסייעות להבהיר את היקף הכיסוי הביטוחי ואת תנאי הפוליסה, תוך התמקדות במונחים כמו 'גרעיני' ו'תאונות'. הפוליסה מגדירה 'גרעיני' כקרינה מייננת או זיהום רדיואקטיבי, חומרים גרעיניים, ונשק גרעיני. כמו כן, מוגדרים תנאים הקשורים לשירותים, חומרים או ציוד המסופקים על ידי המבוטח הקשורים למתקן גרעיני. ההגדרה של 'גרעיני' כוללת גם את התכונות המסוכנות של חומר גרעיני אם האחריות נובעת מאספקת שירותים, חומרים, חלקים או ציוד הקשורים לתכנון, בנייה, תחזוקה, הפעלה או שימוש במתקן גרעיני.",
+    "row_axis": "מונח מוגדר",
+    "column_axis": "הגדרה",
     "units": [],
     "notable_values": [
-      "Nuclear fuel: Ionising radiations",
-      "Nuclear waste: from combustion of nuclear fuel",
-      "Nuclear weapons material: excluded",
-      "Nuclear Facility: services related to planning/maintenance"
+      "Nuclear: Ionising radiations",
+      "Nuclear: radioactive, toxic, explosive properties"
     ],
     "product_hints": [
       "חבות משולב",
-      "פוליסת חבות"
+      "פוליסת ביטוח עסקי"
     ]
   },
   "sketch": "10. Nuclear meaning:\nIonising  radiations  or  contaminations  by  radioactivity  from  any nuclear  fuel  or  from  any  nuclear  waste  from  the  combustion  of nuclear fuel;\nThe  radioactive,  toxic,  explosive  or  other  hazardous  properties  of any explosive nuclear assembly or nuclear component thereof.\nNuclear weapons material; or\nThe hazardous properties of nuclear material if such liability arises out of the furnishing by the Insured of services, material, part or equipment in connection with planning, construction, maintenance, operation or use of any Nuclear Facility.",
-  "embed_text": "פוליסת חבות משולב מגדירה מונחים כמו 'גרעיני' הכוללים קרינה מייננת או זיהום רדיואקטיבי מדלק גרעיני או פסולת ממנו. הפוליסה מתייחסת גם לחומרים גרעיניים ונשק גרעיני, וכן לנזקים הנובעים ממתן שירותים הקשורים לתכנון או תחזוקה של מתקן גרעיני. הגדרות אלו חשובות להבנת הכיסוי הביטוחי.",
-  "payload": "טבלה: תנאי פוליסת חבות משולב\nThis table defines terms used in a combined liability insurance policy. It details exclusions and specific meanings of covered and non-covered events, like 'Nuclear' incidents.\nממדים: Defined Term, Definition/Explanation\n\n10. Nuclear meaning:\nIonising  radiations  or  contaminations  by  radioactivity  from  any nuclear  fuel  or  from  any  nuclear  waste  from  the  combustion  of nuclear fuel;\nThe  radioactive,  toxic,  explosive  or  other  hazardous  properties  of any explosive nuclear assembly or nuclear component thereof.\nNuclear weapons material; or\nThe hazardous properties of nuclear material if such liability arises out of the furnishing by the Insured of services, material, part or equipment in connection with planning, construction, maintenance, operation or use of any Nuclear Facility."
+  "embed_text": "טבלה זו מציגה הגדרות מונחים בפוליסת ביטוח חבות משולב, המיועדת לחברות תוכנה וחומרה. ההגדרות מסייעות להבהיר את היקף הכיסוי הביטוחי ואת תנאי הפוליסה, תוך התמקדות במונחים כמו 'גרעיני' ו'תאונות'. הפוליסה מגדירה 'גרעיני' כקרינה מייננת או זיהום רדיואקטיבי, חומרים גרעיניים, ונשק גרעיני. כמו כן, מוגדרים תנאים הקשורים לשירותים, חומרים או ציוד המסופקים על ידי המבוטח הקשורים למתקן גרעיני. ההגדרה של 'גרעיני' כוללת גם את התכונות המסוכנות של חומר גרעיני אם האחריות נובעת מאספקת שירותים, חומרים, חלקים או ציוד הקשורים לתכנון, בנייה, תחזוקה, הפעלה או שימוש במתקן גרעיני. This table defines terms used in a combined liability insurance policy, specifically for software and hardware companies. It details exclusions and specific meanings of terms like 'Nuclear' as they apply to coverage. בין הערכים בטבלה: Nuclea…",
+  "payload": "טבלה: הגדרות פוליסה - חבות משולב\nThis table defines terms used in a combined liability insurance policy, specifically for software and hardware companies. It details exclusions and specific meanings of terms like 'Nuclear' as they apply to coverage.\nממדים: מונח מוגדר, הגדרה\n\n10. Nuclear meaning:\nIonising  radiations  or  contaminations  by  radioactivity  from  any nuclear  fuel  or  from  any  nuclear  waste  from  the  combustion  of nuclear fuel;\nThe  radioactive,  toxic,  explosive  or  other  hazardous  properties  of any explosive nuclear assembly or nuclear component thereof.\nNuclear weapons material; or\nThe hazardous properties of nuclear material if such liability arises out of the furnishing by the Insured of services, material, part or equipment in connection with planning, construction, maintenance, operation or use of any Nuclear Facility."
 }

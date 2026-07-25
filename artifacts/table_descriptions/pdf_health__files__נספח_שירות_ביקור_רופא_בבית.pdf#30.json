@@ -3,21 +3,22 @@
   "source": "llm",
   "description": {
     "title": "ביקור רופא בבית",
-    "summary": "This table details the service of a doctor's home visit. It outlines conditions for receiving the service, cancellation policies, and provider commitments.",
-    "embed_passage": "שירות ביקור רופא בבית זמין 24/7 דרך מוקד השירות הטלפוני. המנוי רשאי לבטל הזמנה לפני המועד המתוכנן, אחרת ייחשב כאילו מימש את השירות. השירות ניתן על ידי גורמי מקצוע מתאימים בפריסה גיאוגרפית נאותה.",
-    "row_axis": "Service conditions / provider commitments",
-    "column_axis": "Aspect of service (e.g., availability, cancellation, professional standards)",
+    "summary": "This table details the conditions for a home doctor visit service. It outlines service availability, cancellation policies, and professional standards.",
+    "embed_passage": "טבלה זו מתארת את תנאי השירות של ביקור רופא בבית, כולל זמינות השירות 24/7 דרך מוקד טלפוני, ואופן ביטול הזמנה. השירות ניתן על ידי גורמי מקצוע מתאימים, תוך שמירה על תקשורת יעילה עם המנוי. ביטול הזמנה לאחר המועד המתוכנן ייחשב למימוש השירות. השירות כולל פריסה גיאוגרפית נאותה. ניתן לבטל הזמנה באמצעות הודעה למוקד השירות. השירות אינו כולל חוות דעת רפואית לצרכים משפטיים או שאינם רפואיים.",
+    "row_axis": "service conditions",
+    "column_axis": "aspects of the home doctor visit service",
     "units": [],
     "notable_values": [
-      "Availability: 24/7",
-      "Cancellation notice: before scheduled time",
-      "Professional standards: appropriate professionals"
+      "service availability: 24/7",
+      "cancellation notice: before scheduled time",
+      "professional standards: qualified professionals",
+      "communication: efficient and available"
     ],
     "product_hints": [
       "ביקור רופא בבית"
     ]
   },
   "sketch": "לעיל 3.1.2 ובכפוף לשעות מתן השירות המצויינות בסעיף 24/7 מוקד השירות הטלפוני יהיה פעיל 4.2\nהמוע   ד לפני המנוי רשאי לבטל את הזמנתו לקבלת השירות באמצעות הודעה למוקד השירות 4.3 המתוכנן של קבלת השירות. למען הסר ספק, מובהר כי אם לא יודיע המנוי על הביטול לפני המועד המתוכנן כאמור, ייחשב כאילו מימש את השירות שהוזמן לכל דבר ועניין, לרבות לעניין ההשתתפות . העצמית לגבי שירות הכרוך בתשלום השתתפות עצמית כמפורט בכתב השירות לעיל\nב הספק מתחייב כי השירות יינתן על ידי גורמי מקצוע מתאימים ורלוונטיים לסוג השירות נשוא כת 4.4 3 שירות זה, בפריסה גיאוגרפית נאותה וכי יקיים תקשורת יעילה וזמינה עם המנוי,  כמוגדר בסעיף . לעיל",
-  "embed_text": "שירות ביקור רופא בבית זמין 24/7 דרך מוקד השירות הטלפוני. המנוי רשאי לבטל הזמנה לפני המועד המתוכנן, אחרת ייחשב כאילו מימש את השירות. השירות ניתן על ידי גורמי מקצוע מתאימים בפריסה גיאוגרפית נאותה.",
-  "payload": "טבלה: ביקור רופא בבית\nThis table details the service of a doctor's home visit. It outlines conditions for receiving the service, cancellation policies, and provider commitments.\nממדים: Service conditions / provider commitments, Aspect of service (e.g., availability, cancellation, professional standards)\n\nלעיל 3.1.2 ובכפוף לשעות מתן השירות המצויינות בסעיף 24/7 מוקד השירות הטלפוני יהיה פעיל 4.2\nהמוע   ד לפני המנוי רשאי לבטל את הזמנתו לקבלת השירות באמצעות הודעה למוקד השירות 4.3 המתוכנן של קבלת השירות. למען הסר ספק, מובהר כי אם לא יודיע המנוי על הביטול לפני המועד המתוכנן כאמור, ייחשב כאילו מימש את השירות שהוזמן לכל דבר ועניין, לרבות לעניין ההשתתפות . העצמית לגבי שירות הכרוך בתשלום השתתפות עצמית כמפורט בכתב השירות לעיל\nב הספק מתחייב כי השירות יינתן על ידי גורמי מקצוע מתאימים ורלוונטיים לסוג השירות נשוא כת 4.4 3 שירות זה, בפריסה גיאוגרפית נאותה וכי יקיים תקשורת יעילה וזמינה עם המנוי,  כמוגדר בסעיף . לעיל"
+  "embed_text": "טבלה זו מתארת את תנאי השירות של ביקור רופא בבית, כולל זמינות השירות 24/7 דרך מוקד טלפוני, ואופן ביטול הזמנה. השירות ניתן על ידי גורמי מקצוע מתאימים, תוך שמירה על תקשורת יעילה עם המנוי. ביטול הזמנה לאחר המועד המתוכנן ייחשב למימוש השירות. השירות כולל פריסה גיאוגרפית נאותה. ניתן לבטל הזמנה באמצעות הודעה למוקד השירות. השירות אינו כולל חוות דעת רפואית לצרכים משפטיים או שאינם רפואיים. This table details the conditions for a home doctor visit service. It outlines service availability, cancellation policies, and professional standards. בין הערכים בטבלה: cancellation notice: before scheduled time; professional standards: qualified professionals; communication: efficient and available.",
+  "payload": "טבלה: ביקור רופא בבית\nThis table details the conditions for a home doctor visit service. It outlines service availability, cancellation policies, and professional standards.\nממדים: service conditions, aspects of the home doctor visit service\n\nלעיל 3.1.2 ובכפוף לשעות מתן השירות המצויינות בסעיף 24/7 מוקד השירות הטלפוני יהיה פעיל 4.2\nהמוע   ד לפני המנוי רשאי לבטל את הזמנתו לקבלת השירות באמצעות הודעה למוקד השירות 4.3 המתוכנן של קבלת השירות. למען הסר ספק, מובהר כי אם לא יודיע המנוי על הביטול לפני המועד המתוכנן כאמור, ייחשב כאילו מימש את השירות שהוזמן לכל דבר ועניין, לרבות לעניין ההשתתפות . העצמית לגבי שירות הכרוך בתשלום השתתפות עצמית כמפורט בכתב השירות לעיל\nב הספק מתחייב כי השירות יינתן על ידי גורמי מקצוע מתאימים ורלוונטיים לסוג השירות נשוא כת 4.4 3 שירות זה, בפריסה גיאוגרפית נאותה וכי יקיים תקשורת יעילה וזמינה עם המנוי,  כמוגדר בסעיף . לעיל"
 }

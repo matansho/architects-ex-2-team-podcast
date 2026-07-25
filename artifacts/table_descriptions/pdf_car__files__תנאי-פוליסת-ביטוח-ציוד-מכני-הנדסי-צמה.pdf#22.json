@@ -2,24 +2,27 @@
   "id": "pdf:car/files/תנאי-פוליסת-ביטוח-ציוד-מכני-הנדסי-צמה.pdf#22",
   "source": "llm",
   "description": {
-    "title": "ציוד מכני הנדסי - צמה",
-    "summary": "This table details exclusions to insurance coverage for mechanical and engineering equipment under the 'צמה' policy. It lists types of equipment and materials that are not covered by the insurance.",
-    "embed_passage": "פוליסת 'צמה' אינה מכסה אובדן או נזק לחומרי הפעלה כגון שמנים, שמן סיכה, דלק וממריצים. הכיסוי הביטוחי אינו כולל אובדן או נזק למסועים, חגורות, נפות, כבלים, שרשראות וצמיגים השייכים לרכוש המבוטח, אלא אם כן הנזק הזה נגרם באירוע מכוסה. הפוליסה אינה מכסה אביזרים בני חילוף כמו לתבניות, מקדחים וראשי קידוח.",
-    "row_axis": "types of equipment/materials excluded from coverage",
+    "title": "חריגים לפוליסה",
+    "summary": "This table lists exclusions to the insurance policy for mechanical and engineering equipment. It details what types of loss or damage are not covered under the policy.",
+    "embed_passage": "טבלה זו מפרטת חריגים לפוליסת ביטוח ציוד מכני הנדסי צמה, ומציינת סוגי אובדן או נזק שאינם מכוסים. ניתן לחפש חריגים לפי סוג הציוד או החומר המעורב. החריגים כוללים תבניות, מקדחים, חומרי הפעלה, מסועים, צמיגים, מצברים, זגוגיות ועוד. אובדן או נזק לחלקים או כלים שאינם מחוברים פיזית לרכוש המבוטח או לא מאוחסנים בצורה מאובטחת אינם מכוסים. פוליסת צמה אינה מכסה אובדן או נזק למאגרי נתונים אלקטרוניים.",
+    "row_axis": "types of excluded items/situations",
     "column_axis": "exclusion details",
     "units": [],
     "notable_values": [
-      "equipment: לתבניות, למקדחים",
-      "materials: שמנים, שמן סיכה",
-      "equipment: מסועים, חגורות",
-      "equipment: כבלים, שרשראות",
-      "equipment: צמיגים"
+      "תבניות: excluded",
+      "מקדחים: excluded",
+      "שמנים: excluded",
+      "מסועים: excluded",
+      "צמיגים: excluded",
+      "מצברי חשמל: excluded",
+      "זגוגיות: excluded",
+      "מאגרי נתונים אלקטרוניים: excluded"
     ],
     "product_hints": [
       "צמה"
     ]
   },
   "sketch": "לתבניות, למקדחים, לראשי קידוח, למוטות קידוח, למבלטים, למשוריות, לסכינים .7.2 וכלי ניסור וחיתוך למיניהם, לאזמלים וכלי ריסוק למיניהם וכיוצא באלה אביזרים בני חילוף.\nלחומרי הפעלה כגון שמנים, שמן סיכה, דלק, ממריצים וכיוצא באלה. .7.3\nלמסועים, לחגורות, לנפות, לכבלים, לשרשראות ולצמיגים השייכים לרכוש .7.4 המבוטח, או למצברי חשמל, או לזגוגיות, אלא אם כן נגרם אובדן זה או נזק כזה תוך כדי אירוע שגרם לרכוש המבוטח עצמו נזק או אובדן המכוסה על פי פוליסה זו.",
-  "embed_text": "פוליסת 'צמה' אינה מכסה אובדן או נזק לחומרי הפעלה כגון שמנים, שמן סיכה, דלק וממריצים. הכיסוי הביטוחי אינו כולל אובדן או נזק למסועים, חגורות, נפות, כבלים, שרשראות וצמיגים השייכים לרכוש המבוטח, אלא אם כן הנזק הזה נגרם באירוע מכוסה. הפוליסה אינה מכסה אביזרים בני חילוף כמו לתבניות, מקדחים וראשי קידוח.",
-  "payload": "טבלה: ציוד מכני הנדסי - צמה\nThis table details exclusions to insurance coverage for mechanical and engineering equipment under the 'צמה' policy. It lists types of equipment and materials that are not covered by the insurance.\nממדים: types of equipment/materials excluded from coverage, exclusion details\n\nלתבניות, למקדחים, לראשי קידוח, למוטות קידוח, למבלטים, למשוריות, לסכינים .7.2 וכלי ניסור וחיתוך למיניהם, לאזמלים וכלי ריסוק למיניהם וכיוצא באלה אביזרים בני חילוף.\nלחומרי הפעלה כגון שמנים, שמן סיכה, דלק, ממריצים וכיוצא באלה. .7.3\nלמסועים, לחגורות, לנפות, לכבלים, לשרשראות ולצמיגים השייכים לרכוש .7.4 המבוטח, או למצברי חשמל, או לזגוגיות, אלא אם כן נגרם אובדן זה או נזק כזה תוך כדי אירוע שגרם לרכוש המבוטח עצמו נזק או אובדן המכוסה על פי פוליסה זו."
+  "embed_text": "טבלה זו מפרטת חריגים לפוליסת ביטוח ציוד מכני הנדסי צמה, ומציינת סוגי אובדן או נזק שאינם מכוסים. ניתן לחפש חריגים לפי סוג הציוד או החומר המעורב. החריגים כוללים תבניות, מקדחים, חומרי הפעלה, מסועים, צמיגים, מצברים, זגוגיות ועוד. אובדן או נזק לחלקים או כלים שאינם מחוברים פיזית לרכוש המבוטח או לא מאוחסנים בצורה מאובטחת אינם מכוסים. פוליסת צמה אינה מכסה אובדן או נזק למאגרי נתונים אלקטרוניים. This table lists exclusions to the insurance policy for mechanical and engineering equipment. It details what types of loss or damage are not covered under the policy. בין הערכים בטבלה: שמנים: excluded; מצברי חשמל: excluded.",
+  "payload": "טבלה: חריגים לפוליסה\nThis table lists exclusions to the insurance policy for mechanical and engineering equipment. It details what types of loss or damage are not covered under the policy.\nממדים: types of excluded items/situations, exclusion details\n\nלתבניות, למקדחים, לראשי קידוח, למוטות קידוח, למבלטים, למשוריות, לסכינים .7.2 וכלי ניסור וחיתוך למיניהם, לאזמלים וכלי ריסוק למיניהם וכיוצא באלה אביזרים בני חילוף.\nלחומרי הפעלה כגון שמנים, שמן סיכה, דלק, ממריצים וכיוצא באלה. .7.3\nלמסועים, לחגורות, לנפות, לכבלים, לשרשראות ולצמיגים השייכים לרכוש .7.4 המבוטח, או למצברי חשמל, או לזגוגיות, אלא אם כן נגרם אובדן זה או נזק כזה תוך כדי אירוע שגרם לרכוש המבוטח עצמו נזק או אובדן המכוסה על פי פוליסה זו."
 }

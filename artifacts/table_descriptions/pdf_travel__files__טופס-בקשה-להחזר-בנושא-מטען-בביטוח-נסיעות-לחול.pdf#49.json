@@ -2,17 +2,17 @@
   "id": "pdf:travel/files/טופס-בקשה-להחזר-בנושא-מטען-בביטוח-נסיעות-לחול.pdf#49",
   "source": "llm",
   "description": {
-    "title": "החזר מטען בביטוח נסיעות",
-    "summary": "This table outlines the notification process for travel insurance claims, specifically regarding partial payments or rejections. It details the information that must be provided to the claimant in writing.",
-    "embed_passage": "פוליסת ביטוח נסיעות לחול של הראל מתייחסת להחזרים על מטען שאבד או ניזוק. במקרה של תשלום חלקי, ההודעה לתובע תכלול פירוט של מרכיבי התשלום שאושרו ונימוקים לדחיית חלק מהתביעה. לדוגמה, אם נתקבלה החלטה על תשלום חלקי, תימסר לתובע הודעה בכתב הכוללת שני חלקים כמפורט.",
-    "row_axis": "שלבי תהליך ההודעה לתובע",
+    "title": "הודעה על תשלום תביעה",
+    "summary": "This table outlines the notification process for insurance claim payments, specifically detailing the information provided to the claimant when a payment is made, either in full or partially. It describes the components of the notification regarding approved payments and reasons for any claim denials.",
+    "embed_passage": "טופס זה מתאר את הנהלים להודעה על תשלום תביעה במסגרת ביטוח נסיעות. המטרה היא ליידע את התובע לגבי סכומי התשלום שאושרו, הנימוקים לדחיית חלק מהתביעה, ופרטים נוספים הקשורים לתשלום. טופס זה רלוונטי במקרים של תשלום חלקי או מלא של תביעה. הראל תציע לתובע הצעת פשרה סבירה, ותמסור לו הודעה בכתב הכוללת את מרכיבי התשלום שאושרו ואת הנימוקים לדחיית חלק מהתביעה. הצעת הפשרה תכלול את מקרה הביטוח, הסכום שנקבע בפשרה, והפער בין הסכום שנקבע בפשרה לסכום לתשלום.",
+    "row_axis": "סוג הודעה / שלב בתהליך",
     "column_axis": "פרטי ההודעה",
     "units": [],
     "notable_values": [
-      "תשלום חלקי: 2",
-      "הצעת פשרה סבירה: 1",
-      "הצעת פשרה בכתב: 2",
-      "מרכיבי התשלום שאינם שנויים במחלוקת: 3"
+      "תשלום חלקי: דחיית חלק מהתביעה",
+      "תשלום מלא: אי צורך במשלוח מסמכים (למעט מערכת כללים)",
+      "הצעת פשרה: זמן סביר לעיון בתנאים",
+      "הצעת פשרה: נימוקים שביסוד הפשרה"
     ],
     "product_hints": [
       "ביטוח נסיעות",
@@ -20,6 +20,6 @@
     ]
   },
   "sketch": ".  אם נתקבלה החלטה על תשלום חלקי של התביעה תוך דחיית חלק מהתביעה לגבי סכומים שנדרשו או חלק מהעילות שנדרשו - תימסר 2 לתובע במועד התשלום הודעה בכתב הכוללת שני חלקים כמפורט להלן: שיפרט את מרכיביו של התשלום שאושר בהתאם למפורט לעיל; החלק הראשון, , שיפרט את הנימוקים לדחיית חלק מהתביעה, כמפורט בהמשך. החלק השני\nבכל מקרה בו נתקבלה החלטה על תשלום התביעה, לא יהיה צורך במשלוח המסמכים המפורטים בסעיף ד' לעיל, למעט העתק מערכת כללים זו.",
-  "embed_text": "פוליסת ביטוח נסיעות לחול של הראל מתייחסת להחזרים על מטען שאבד או ניזוק. במקרה של תשלום חלקי, ההודעה לתובע תכלול פירוט של מרכיבי התשלום שאושרו ונימוקים לדחיית חלק מהתביעה. לדוגמה, אם נתקבלה החלטה על תשלום חלקי, תימסר לתובע הודעה בכתב הכוללת שני חלקים כמפורט.",
-  "payload": "טבלה: החזר מטען בביטוח נסיעות\nThis table outlines the notification process for travel insurance claims, specifically regarding partial payments or rejections. It details the information that must be provided to the claimant in writing.\nממדים: שלבי תהליך ההודעה לתובע, פרטי ההודעה\n\n.  אם נתקבלה החלטה על תשלום חלקי של התביעה תוך דחיית חלק מהתביעה לגבי סכומים שנדרשו או חלק מהעילות שנדרשו - תימסר 2 לתובע במועד התשלום הודעה בכתב הכוללת שני חלקים כמפורט להלן: שיפרט את מרכיביו של התשלום שאושר בהתאם למפורט לעיל; החלק הראשון, , שיפרט את הנימוקים לדחיית חלק מהתביעה, כמפורט בהמשך. החלק השני\nבכל מקרה בו נתקבלה החלטה על תשלום התביעה, לא יהיה צורך במשלוח המסמכים המפורטים בסעיף ד' לעיל, למעט העתק מערכת כללים זו."
+  "embed_text": "טופס זה מתאר את הנהלים להודעה על תשלום תביעה במסגרת ביטוח נסיעות. המטרה היא ליידע את התובע לגבי סכומי התשלום שאושרו, הנימוקים לדחיית חלק מהתביעה, ופרטים נוספים הקשורים לתשלום. טופס זה רלוונטי במקרים של תשלום חלקי או מלא של תביעה. הראל תציע לתובע הצעת פשרה סבירה, ותמסור לו הודעה בכתב הכוללת את מרכיבי התשלום שאושרו ואת הנימוקים לדחיית חלק מהתביעה. הצעת הפשרה תכלול את מקרה הביטוח, הסכום שנקבע בפשרה, והפער בין הסכום שנקבע בפשרה לסכום לתשלום. This table outlines the notification process for insurance claim payments, specifically detailing the information provided to the claimant when a payment is made, either in full or partially. It describes the components of the notification regarding approved payments and reasons for any claim denials. בין הערכים בטבלה: תשלום מלא: אי צורך במשלוח מסמכים (למ…",
+  "payload": "טבלה: הודעה על תשלום תביעה\nThis table outlines the notification process for insurance claim payments, specifically detailing the information provided to the claimant when a payment is made, either in full or partially. It describes the components of the notification regarding approved payments and reasons for any claim denials.\nממדים: סוג הודעה / שלב בתהליך, פרטי ההודעה\n\n.  אם נתקבלה החלטה על תשלום חלקי של התביעה תוך דחיית חלק מהתביעה לגבי סכומים שנדרשו או חלק מהעילות שנדרשו - תימסר 2 לתובע במועד התשלום הודעה בכתב הכוללת שני חלקים כמפורט להלן: שיפרט את מרכיביו של התשלום שאושר בהתאם למפורט לעיל; החלק הראשון, , שיפרט את הנימוקים לדחיית חלק מהתביעה, כמפורט בהמשך. החלק השני\nבכל מקרה בו נתקבלה החלטה על תשלום התביעה, לא יהיה צורך במשלוח המסמכים המפורטים בסעיף ד' לעיל, למעט העתק מערכת כללים זו."
 }

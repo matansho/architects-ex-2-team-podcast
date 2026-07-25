@@ -3,23 +3,22 @@
   "source": "llm",
   "description": {
     "title": "גבולות אחריות",
-    "summary": "This table details the liability limits for professional liability insurance, specifically for dental clinics. It shows the coverage amount per incident and per policy period.",
-    "embed_passage": "פוליסת ביטוח אחריות מקצועית למרפאות שיניים מציעה גבולות אחריות שונים, לדוגמה 4,000,000 ₪ למקרה ולתקופת ביטוח, או 10,000,000 ₪ למקרה ולתקופת ביטוח. גבולות אלו מציינים את הסכום המקסימלי שהביטוח יכסה עבור תביעה.",
-    "row_axis": "גבולות אחריות (liability limits)",
-    "column_axis": "סוג כיסוי (coverage type)",
+    "summary": "This table specifies the required liability limits for professional liability insurance for dental clinics. It shows the limits per occurrence and per policy period.",
+    "embed_passage": "טבלה זו מציגה את גבולות האחריות הנדרשים עבור ביטוח אחריות מקצועית למרפאות שיניים. ניתן לבחור גבול אחריות למקרה ולתקופת ביטוח. מידע זה משמש לקביעת הכיסוי המתאים לצרכי המרפאה. גבולות האחריות המוצגים הם ₪ 4,000,000 ו-₪ 10,000,000. ביטוח אחריות מקצועית, גבול אחריות, מקרה, תקופת ביטוח.",
+    "row_axis": "גבולות האחריות הנדרשים",
+    "column_axis": "סכום",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "גבול אחריות: 4,000,000 ₪",
-      "גבול אחריות: 10,000,000 ₪"
+      "4,000,000: ₪",
+      "10,000,000: ₪"
     ],
     "product_hints": [
-      "ביטוח אחריות מקצועית",
-      "ביטוח מרפאות שיניים"
+      "ביטוח אחריות מקצועית"
     ]
   },
   "sketch": "גבולות אחריות 6\nגבולות האחריות הנדרשים:\nלמקרה ולתקופת ביטוח\n₪  4,000,000\nלמקרה ולתקופת ביטוח ₪  10,000,000",
-  "embed_text": "פוליסת ביטוח אחריות מקצועית למרפאות שיניים מציעה גבולות אחריות שונים, לדוגמה 4,000,000 ₪ למקרה ולתקופת ביטוח, או 10,000,000 ₪ למקרה ולתקופת ביטוח. גבולות אלו מציינים את הסכום המקסימלי שהביטוח יכסה עבור תביעה.",
-  "payload": "טבלה: גבולות אחריות\nThis table details the liability limits for professional liability insurance, specifically for dental clinics. It shows the coverage amount per incident and per policy period.\nממדים: גבולות אחריות (liability limits), סוג כיסוי (coverage type)\n\nגבולות אחריות 6\nגבולות האחריות הנדרשים:\nלמקרה ולתקופת ביטוח\n₪  4,000,000\nלמקרה ולתקופת ביטוח ₪  10,000,000"
+  "embed_text": "טבלה זו מציגה את גבולות האחריות הנדרשים עבור ביטוח אחריות מקצועית למרפאות שיניים. ניתן לבחור גבול אחריות למקרה ולתקופת ביטוח. מידע זה משמש לקביעת הכיסוי המתאים לצרכי המרפאה. גבולות האחריות המוצגים הם ₪ 4,000,000 ו-₪ 10,000,000. ביטוח אחריות מקצועית, גבול אחריות, מקרה, תקופת ביטוח. This table specifies the required liability limits for professional liability insurance for dental clinics. It shows the limits per occurrence and per policy period.",
+  "payload": "טבלה: גבולות אחריות\nThis table specifies the required liability limits for professional liability insurance for dental clinics. It shows the limits per occurrence and per policy period.\nממדים: גבולות האחריות הנדרשים, סכום\n\nגבולות אחריות 6\nגבולות האחריות הנדרשים:\nלמקרה ולתקופת ביטוח\n₪  4,000,000\nלמקרה ולתקופת ביטוח ₪  10,000,000"
 }

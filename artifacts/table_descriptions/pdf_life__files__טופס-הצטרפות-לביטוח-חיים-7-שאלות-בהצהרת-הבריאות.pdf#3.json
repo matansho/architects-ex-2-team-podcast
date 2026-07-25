@@ -2,28 +2,25 @@
   "id": "pdf:life/files/טופס-הצטרפות-לביטוח-חיים-7-שאלות-בהצהרת-הבריאות.pdf#3",
   "source": "llm",
   "description": {
-    "title": "ביטוח חיים - הצהרת בריאות",
-    "summary": "This table outlines minimum and maximum coverage amounts for different components of a life insurance policy. It details benefits like accidental death, accidental disability, and family income support.",
-    "embed_passage": "פוליסת ביטוח חיים של הראל מציעה מגוון כיסויים, כגון הכנסה למשפחה זוגית בין ₪10,000 ל-₪2,000, מוות מתאונה בין ₪1,500,000 ל-₪50,000, ונכות מתאונה באותם סכומים. חוסן למחר פלוס מציע כיסוי עד ₪500,000.",
-    "row_axis": "types of insurance coverage",
-    "column_axis": "minimum and maximum coverage amounts",
+    "title": "הכנסה למשפחה / מוות מתאונה / נכות",
+    "summary": "This table details minimum coverage amounts for different insurance benefits within a Harel life insurance policy. It shows the range of coverage available for family income, accidental death, and accidental disability.",
+    "embed_passage": "טבלה זו מציגה את הכיסוי המינימלי הזמין עבור הטבות שונות במסגרת ביטוח חיים של הראל. ניתן למצוא כאן מידע על הכנסה למשפחה, מוות מתאונה ונכות מתאונה. טופס זה מיועד למועמדים לביטוח עד גיל 31.12.2026. הכנסה למשפחה זוגית מתחילה ב-₪ 2,000 ומגיעה עד ₪ 10,000. מוות מתאונה וגם נכות מתאונה מתחילים ב-₪ 50,000 ומגיעים עד ₪ 1,500,000. חוסן למחר פלוס מגיע עד ₪ 500,000.",
+    "row_axis": "type of coverage",
+    "column_axis": "coverage amount",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "מינימום הכנסה למשפחה זוגית: ₪2,000",
-      "מקסימום הכנסה למשפחה זוגית: ₪10,000",
-      "מינימום מוות מתאונה: ₪50,000",
-      "מקסימום מוות מתאונה: ₪1,500,000",
-      "מקסימום חוסן למחר פלוס: ₪500,000"
+      "הכנסה למשפחה זוגית: ₪ 2,000 - ₪ 10,000",
+      "מוות מתאונה: ₪ 50,000 - ₪ 1,500,000",
+      "נכות מתאונה: ₪ 50,000 - ₪ 1,500,000",
+      "חוסן למחר פלוס: עד ₪ 500,000"
     ],
     "product_hints": [
-      "ביטוח חיים",
-      "הראל",
-      "חוסן למחר פלוס"
+      "Harel Life Insurance"
     ]
   },
   "sketch": "₪  10,000 ועד ₪  2,000 - מינימום Extra הכנסה למשפחה זוגית\n₪  1,500,000 ועד ₪  50,000 ב.  מוות מתאונה - מינימום\n₪  1,500,000 ועד ₪  50,000 ג.  נכות מתאונה- מינימום\n₪  500,000 ד.  חוסן למחר פלוס - עד",
-  "embed_text": "פוליסת ביטוח חיים של הראל מציעה מגוון כיסויים, כגון הכנסה למשפחה זוגית בין ₪10,000 ל-₪2,000, מוות מתאונה בין ₪1,500,000 ל-₪50,000, ונכות מתאונה באותם סכומים. חוסן למחר פלוס מציע כיסוי עד ₪500,000.",
-  "payload": "טבלה: ביטוח חיים - הצהרת בריאות\nThis table outlines minimum and maximum coverage amounts for different components of a life insurance policy. It details benefits like accidental death, accidental disability, and family income support.\nממדים: types of insurance coverage, minimum and maximum coverage amounts\n\n₪  10,000 ועד ₪  2,000 - מינימום Extra הכנסה למשפחה זוגית\n₪  1,500,000 ועד ₪  50,000 ב.  מוות מתאונה - מינימום\n₪  1,500,000 ועד ₪  50,000 ג.  נכות מתאונה- מינימום\n₪  500,000 ד.  חוסן למחר פלוס - עד"
+  "embed_text": "טבלה זו מציגה את הכיסוי המינימלי הזמין עבור הטבות שונות במסגרת ביטוח חיים של הראל. ניתן למצוא כאן מידע על הכנסה למשפחה, מוות מתאונה ונכות מתאונה. טופס זה מיועד למועמדים לביטוח עד גיל 31.12.2026. הכנסה למשפחה זוגית מתחילה ב-₪ 2,000 ומגיעה עד ₪ 10,000. מוות מתאונה וגם נכות מתאונה מתחילים ב-₪ 50,000 ומגיעים עד ₪ 1,500,000. חוסן למחר פלוס מגיע עד ₪ 500,000. This table details minimum coverage amounts for different insurance benefits within a Harel life insurance policy. It shows the range of coverage available for family income, accidental death, and accidental disability.",
+  "payload": "טבלה: הכנסה למשפחה / מוות מתאונה / נכות\nThis table details minimum coverage amounts for different insurance benefits within a Harel life insurance policy. It shows the range of coverage available for family income, accidental death, and accidental disability.\nממדים: type of coverage, coverage amount\n\n₪  10,000 ועד ₪  2,000 - מינימום Extra הכנסה למשפחה זוגית\n₪  1,500,000 ועד ₪  50,000 ב.  מוות מתאונה - מינימום\n₪  1,500,000 ועד ₪  50,000 ג.  נכות מתאונה- מינימום\n₪  500,000 ד.  חוסן למחר פלוס - עד"
 }

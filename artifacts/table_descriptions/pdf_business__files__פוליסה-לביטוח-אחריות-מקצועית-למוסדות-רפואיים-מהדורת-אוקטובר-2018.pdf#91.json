@@ -2,24 +2,23 @@
   "id": "pdf:business/files/פוליסה-לביטוח-אחריות-מקצועית-למוסדות-רפואיים-מהדורת-אוקטובר-2018.pdf#91",
   "source": "llm",
   "description": {
-    "title": "דיווח מקרה ביטוח",
-    "summary": "This table details the information a policyholder must provide to the insurer following an incident that may be covered by the policy. It outlines the required details for reporting potential medical malpractice claims.",
-    "embed_passage": "פוליסת ביטוח אחריות מקצועית למוסדות רפואיים מחייבת את המבוטח לדווח על כל חקירה, תביעה או הליך משפטי הנוגעים למקרה ביטוח. הדיווח צריך לכלול פרטים על האופן שבו נודע על הרשלנות הרפואית, תיאור הרשלנות, זהות הנפגעים, ופרטי עדים. לדוגמה, יש לדווח על מצבו המשפחתי של הנפגע ועל מקצועו.",
-    "row_axis": "types of information required in a claim report",
-    "column_axis": "details of the reported incident",
+    "title": "דיווח על מקרה ביטוח",
+    "summary": "This table outlines the information a policyholder must provide to the insurer following an incident that may be covered by the insurance policy. It details the required information regarding the incident, including details about the negligence, injured parties, and witnesses.",
+    "embed_passage": "טבלה זו מתארת את המידע שעל המבוטח למסור למבטח בעקבות מקרה ביטוח אפשרי, כפי שמפורט בפוליסה לביטוח אחריות מקצועית למוסדות רפואיים. המידע נדרש לצורך בירור החבות והיקפה. יש לדווח על אופן גילוי הרשלנות הרפואית, תיאור הרשלנות, זהות הנפגעים, ופרטי עדים. פרטים נדרשים כוללים: אופן גילוי הרשלנות הרפואית, תיאור הרשלנות הרפואית, זהות הנפגעים (כולל כתובת, מצב משפחתי ומקצוע), ושמות וכתובות של עדים.",
+    "row_axis": "סוג המידע הנדרש לדיווח",
+    "column_axis": "פרטי המידע",
     "units": [],
     "notable_values": [
-      "reporting timeframe: זמן סביר",
-      "information required: האופן שבו נודע למבוטח",
-      "information required: תיאור הרשלנות הרפואית",
-      "information required: זהותו של כל אדם שניזוק",
-      "information required: שמותיהם וכתובותיהם של עדים"
+      "סוג דיווח: אופן גילוי הרשלנות",
+      "סוג דיווח: תיאור הרשלנות הרפואית",
+      "סוג דיווח: זהות הנפגע",
+      "סוג דיווח: פרטי עדים"
     ],
     "product_hints": [
-      "ביטוח אחריות מקצועית למוסדות רפואיים"
+      "פוליסה לביטוח אחריות מקצועית למוסדות רפואיים"
     ]
   },
   "sketch": "על המבוטח למסור למבטח בתוך זמן סביר מעת שנדרש לכך, את המידע .5.9.2 והמסמכים הדרושים לבירור החבות והיקפה, ואם אינם ברשותו, עליו לעזור למבטח ככל שיוכל להשיגם. בנוסף, חייב המבוטח להודיע לחברה על כל חקירה, תביעה, דרישה או הליך משפטי הנוגעים למקרה הביטוח ו/או יכולים להגיע למקרה ביטוח כאמור בעתיד.\n, בהודעה כאמור יש למסור את הפרטים הידועים, לרבות אך לא בלבד הפרטים הבאים:\n(א) האופן שבו נודע למבוטח לראשונה על הרשלנות הרפואית או הנסיבות;\n(ב) תיאור הרשלנות הרפואית או הנסיבות, ובכלל זה מידע הנוגע לזמן ולמקום שבהם אירעה או בוצעה;\n(ג)  זהותו של כל אדם שניזוק או נפטר, וכן כתובתו, מצבו המשפחתי ומקצועו;\n(ד)  שמותיהם וכתובותיהם של עדים כלשהם;",
-  "embed_text": "פוליסת ביטוח אחריות מקצועית למוסדות רפואיים מחייבת את המבוטח לדווח על כל חקירה, תביעה או הליך משפטי הנוגעים למקרה ביטוח. הדיווח צריך לכלול פרטים על האופן שבו נודע על הרשלנות הרפואית, תיאור הרשלנות, זהות הנפגעים, ופרטי עדים. לדוגמה, יש לדווח על מצבו המשפחתי של הנפגע ועל מקצועו.",
-  "payload": "טבלה: דיווח מקרה ביטוח\nThis table details the information a policyholder must provide to the insurer following an incident that may be covered by the policy. It outlines the required details for reporting potential medical malpractice claims.\nממדים: types of information required in a claim report, details of the reported incident\n\nעל המבוטח למסור למבטח בתוך זמן סביר מעת שנדרש לכך, את המידע .5.9.2 והמסמכים הדרושים לבירור החבות והיקפה, ואם אינם ברשותו, עליו לעזור למבטח ככל שיוכל להשיגם. בנוסף, חייב המבוטח להודיע לחברה על כל חקירה, תביעה, דרישה או הליך משפטי הנוגעים למקרה הביטוח ו/או יכולים להגיע למקרה ביטוח כאמור בעתיד.\n, בהודעה כאמור יש למסור את הפרטים הידועים, לרבות אך לא בלבד הפרטים הבאים:\n(א) האופן שבו נודע למבוטח לראשונה על הרשלנות הרפואית או הנסיבות;\n(ב) תיאור הרשלנות הרפואית או הנסיבות, ובכלל זה מידע הנוגע לזמן ולמקום שבהם אירעה או בוצעה;\n(ג)  זהותו של כל אדם שניזוק או נפטר, וכן כתובתו, מצבו המשפחתי ומקצועו;\n(ד)  שמותיהם וכתובותיהם של עדים כלשהם;"
+  "embed_text": "טבלה זו מתארת את המידע שעל המבוטח למסור למבטח בעקבות מקרה ביטוח אפשרי, כפי שמפורט בפוליסה לביטוח אחריות מקצועית למוסדות רפואיים. המידע נדרש לצורך בירור החבות והיקפה. יש לדווח על אופן גילוי הרשלנות הרפואית, תיאור הרשלנות, זהות הנפגעים, ופרטי עדים. פרטים נדרשים כוללים: אופן גילוי הרשלנות הרפואית, תיאור הרשלנות הרפואית, זהות הנפגעים (כולל כתובת, מצב משפחתי ומקצוע), ושמות וכתובות של עדים. This table outlines the information a policyholder must provide to the insurer following an incident that may be covered by the insurance policy. It details the required information regarding the incident, including details about the negligence, injured parties, and witnesses.",
+  "payload": "טבלה: דיווח על מקרה ביטוח\nThis table outlines the information a policyholder must provide to the insurer following an incident that may be covered by the insurance policy. It details the required information regarding the incident, including details about the negligence, injured parties, and witnesses.\nממדים: סוג המידע הנדרש לדיווח, פרטי המידע\n\nעל המבוטח למסור למבטח בתוך זמן סביר מעת שנדרש לכך, את המידע .5.9.2 והמסמכים הדרושים לבירור החבות והיקפה, ואם אינם ברשותו, עליו לעזור למבטח ככל שיוכל להשיגם. בנוסף, חייב המבוטח להודיע לחברה על כל חקירה, תביעה, דרישה או הליך משפטי הנוגעים למקרה הביטוח ו/או יכולים להגיע למקרה ביטוח כאמור בעתיד.\n, בהודעה כאמור יש למסור את הפרטים הידועים, לרבות אך לא בלבד הפרטים הבאים:\n(א) האופן שבו נודע למבוטח לראשונה על הרשלנות הרפואית או הנסיבות;\n(ב) תיאור הרשלנות הרפואית או הנסיבות, ובכלל זה מידע הנוגע לזמן ולמקום שבהם אירעה או בוצעה;\n(ג)  זהותו של כל אדם שניזוק או נפטר, וכן כתובתו, מצבו המשפחתי ומקצועו;\n(ד)  שמותיהם וכתובותיהם של עדים כלשהם;"
 }

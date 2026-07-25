@@ -3,22 +3,23 @@
   "source": "llm",
   "description": {
     "title": "הודעה על קרות מקרה",
-    "summary": "This table details conditions under which the insurer is not obligated to pay benefits. It outlines scenarios related to fulfilling obligations regarding incident reporting and cooperation with the insurer.",
-    "embed_passage": "פוליסת אחריות מקצועית רפואה משלימה ופרא רפואי מתייחסת למקרים בהם חובה על המבוטח להודיע על קרות מקרה. לדוגמה, אם החובה לא קוימה מסיבות מוצדקות, או אם אי קיומה לא מנע מהמבטח את בירור חבותו, ייתכן שהמבטח עדיין יהיה חייב בתגמולי הביטוח.",
-    "row_axis": "Conditions for insurer's liability",
-    "column_axis": "Circumstances affecting obligation fulfillment",
+    "summary": "This table details conditions under which the insurer may not be obligated to pay benefits. It outlines scenarios related to fulfilling obligations regarding incident reporting and document submission.",
+    "embed_passage": "טבלה זו מתארת תנאים שבהם המבטח לא יהיה חייב בתגמולי ביטוח, כגון אי קיום חובה לפי תנאי הפוליסה או מסירת עובדות כוזבות. ניתן לעיין בתנאים אלה כדי להבין את חובות המבוטח ואת השפעתן על זכאותו לתגמולים. התנאים כוללים אי קיום חובה, איחור בקיום חובה, מניעה או הכבדה על בירור חבות המבטח, ומסירת עובדות כוזבות.  4.9.1 הודעה על קרות מקרה, 4.9.5 העברת מסמכים, 4.9.5.1 מסיבות מוצדקות, 4.9.5.2 בירור חבות, 4.9.6 מניעה או הכבדה על בירור חבות המבטח.",
+    "row_axis": "conditions for potential denial of benefits",
+    "column_axis": "details of the condition and its impact on liability",
     "units": [],
     "notable_values": [
       "4.9.1: הודעה על קרות מקרה",
-      "4.9.3: הביטוח",
+      "4.9.5: העברת מסמכים",
       "4.9.5.1: מסיבות מוצדקות",
-      "4.9.5.2: לא הכביד על הבירור"
+      "4.9.5.2: בירור חבות",
+      "4.9.6: מניעה או הכבדה על בירור חבות המבטח"
     ],
     "product_hints": [
-      "אחריות מקצועית רפואה משלימה ופרא רפואי"
+      "פוליסת אחריות מקצועית רפואה משלימה ופרא רפואי"
     ]
   },
   "sketch": ")הודעה על קרות מקרה 4.9.1 : לא קוימה חובה לפי תנאי מהתנאים האמורים .4.9.5 )העברת מסמכים( להלן, וקיומה היה מאפשר למבטח 4.9.3 הביטוח( או להקטין חבותו, אין המבטח חייב בתגמולי הביטוח, אלא במידה בה היה חייב בהם, אילו קוימה החובה. הוראה זו לא תחול בכל אחת מאלה:\nהחובה לא קויימה, או קויימה באיחור, מסיבות מוצדקות. .4.9.5.1\nאי קיומה או איחורה לא מנע מן המבטח את בירור חבותו ולא .4.9.5.2 הכביד על הבירור.",
-  "embed_text": "פוליסת אחריות מקצועית רפואה משלימה ופרא רפואי מתייחסת למקרים בהם חובה על המבוטח להודיע על קרות מקרה. לדוגמה, אם החובה לא קוימה מסיבות מוצדקות, או אם אי קיומה לא מנע מהמבטח את בירור חבותו, ייתכן שהמבטח עדיין יהיה חייב בתגמולי הביטוח.",
-  "payload": "טבלה: הודעה על קרות מקרה\nThis table details conditions under which the insurer is not obligated to pay benefits. It outlines scenarios related to fulfilling obligations regarding incident reporting and cooperation with the insurer.\nממדים: Conditions for insurer's liability, Circumstances affecting obligation fulfillment\n\n)הודעה על קרות מקרה 4.9.1 : לא קוימה חובה לפי תנאי מהתנאים האמורים .4.9.5 )העברת מסמכים( להלן, וקיומה היה מאפשר למבטח 4.9.3 הביטוח( או להקטין חבותו, אין המבטח חייב בתגמולי הביטוח, אלא במידה בה היה חייב בהם, אילו קוימה החובה. הוראה זו לא תחול בכל אחת מאלה:\nהחובה לא קויימה, או קויימה באיחור, מסיבות מוצדקות. .4.9.5.1\nאי קיומה או איחורה לא מנע מן המבטח את בירור חבותו ולא .4.9.5.2 הכביד על הבירור."
+  "embed_text": "טבלה זו מתארת תנאים שבהם המבטח לא יהיה חייב בתגמולי ביטוח, כגון אי קיום חובה לפי תנאי הפוליסה או מסירת עובדות כוזבות. ניתן לעיין בתנאים אלה כדי להבין את חובות המבוטח ואת השפעתן על זכאותו לתגמולים. התנאים כוללים אי קיום חובה, איחור בקיום חובה, מניעה או הכבדה על בירור חבות המבטח, ומסירת עובדות כוזבות.  4.9.1 הודעה על קרות מקרה, 4.9.5 העברת מסמכים, 4.9.5.1 מסיבות מוצדקות, 4.9.5.2 בירור חבות, 4.9.6 מניעה או הכבדה על בירור חבות המבטח. This table details conditions under which the insurer may not be obligated to pay benefits. It outlines scenarios related to fulfilling obligations regarding incident reporting and document submission.",
+  "payload": "טבלה: הודעה על קרות מקרה\nThis table details conditions under which the insurer may not be obligated to pay benefits. It outlines scenarios related to fulfilling obligations regarding incident reporting and document submission.\nממדים: conditions for potential denial of benefits, details of the condition and its impact on liability\n\n)הודעה על קרות מקרה 4.9.1 : לא קוימה חובה לפי תנאי מהתנאים האמורים .4.9.5 )העברת מסמכים( להלן, וקיומה היה מאפשר למבטח 4.9.3 הביטוח( או להקטין חבותו, אין המבטח חייב בתגמולי הביטוח, אלא במידה בה היה חייב בהם, אילו קוימה החובה. הוראה זו לא תחול בכל אחת מאלה:\nהחובה לא קויימה, או קויימה באיחור, מסיבות מוצדקות. .4.9.5.1\nאי קיומה או איחורה לא מנע מן המבטח את בירור חבותו ולא .4.9.5.2 הכביד על הבירור."
 }

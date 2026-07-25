@@ -3,23 +3,25 @@
   "source": "llm",
   "description": {
     "title": "הצעת ביטוח אחריות מקצועית",
-    "summary": "This table captures details from a professional liability insurance proposal form. It's used to look up policy information based on agent and policy numbers.",
-    "embed_passage": "טופס זה משמש להצעת ביטוח אחריות מקצועית. ניתן לחפש מידע על הפוליסה לפי מספר הפוליסה, לדוגמה 12345, או לפי שם הסוכן. השאלה 'האם פיטרת עובד בשל טעות מקצועית?' היא חלק מהמידע הנאסף.",
-    "row_axis": "Individual insurance proposal / applicant",
-    "column_axis": "Proposal details (e.g., agent information, employment history, policy number)",
+    "summary": "This table is part of a professional liability insurance proposal form. It collects information about the applicant's business, including employment history, risk factors, and employee numbers.",
+    "embed_passage": "טופס זה משמש להצעת ביטוח אחריות מקצועית, ומטרתו לאסוף מידע על העסק המציע, כגון מספר העובדים, שינויים בבעלות, ופיטורי עובדים. המידע נדרש לצורך הערכת הסיכון הכרוך בביטוח. ניתן למצוא כאן שאלות לגבי פיטורי עובדים, נתונים רלוונטיים להערכת סיכון, מספר העובדים בסוגים שונים (שותפים, סגל מקצועי, שאר העובדים), ושינויים בבעלות העסק. השדות כוללים גם מספר סוכן, שם סוכן ומספר פוליסה. טופס הצעה לביטוח אחריות מקצועית כולל שאלות לגבי פיטורי עובדים, מספר מועסקים, שינויים בבעלות, מספר סוכן ושם סוכן.",
+    "row_axis": "question / data point",
+    "column_axis": "response / category",
     "units": [],
     "notable_values": [
-      "מספר סוכן: unknown",
-      "שם סוכן: unknown",
-      "מס' הפוליסה: unknown",
-      "שנת ייסוד העסק: unknown",
-      "מחזור הכנסות כולל בשנה האחרונה: unknown"
+      "סוכן: מספר סוכן",
+      "סוכן: שם סוכן",
+      "פוליסה: מספר הפוליסה",
+      "עובדים: שותפים ומנהלים",
+      "עובדים: סגל מקצועי",
+      "עובדים: שאר העובדים",
+      "עובדים: סה״כ"
     ],
     "product_hints": [
       "ביטוח אחריות מקצועית"
     ]
   },
-  "sketch": "? האם פיטרת עובד, או חשבת לפטרו, בשל טעות מקצועית\n:\nכן, פרט\nלא\n…\nפרט\nמספר סוכן\nשם סוכן\nמס' הפוליסה",
-  "embed_text": "טופס זה משמש להצעת ביטוח אחריות מקצועית. ניתן לחפש מידע על הפוליסה לפי מספר הפוליסה, לדוגמה 12345, או לפי שם הסוכן. השאלה 'האם פיטרת עובד בשל טעות מקצועית?' היא חלק מהמידע הנאסף.",
-  "payload": "טבלה: הצעת ביטוח אחריות מקצועית\nThis table captures details from a professional liability insurance proposal form. It's used to look up policy information based on agent and policy numbers.\nממדים: Individual insurance proposal / applicant, Proposal details (e.g., agent information, employment history, policy number)\n\n? האם פיטרת עובד, או חשבת לפטרו, בשל טעות מקצועית\n:\nכן, פרט\nלא\n? האם מצויים בידך נתונים כלשהם החשובים לצורך הערכת הסיכון בגין ביטוח זה\nמה מספר המועסקים בעסק הנדון? שותפים ומנהלים                        סגל מקצועי                        שאר העובדים                        סה\"כ\nכן\nלא\n? השנים האחרונות שינויים בבעלות, השתלטות, פיצול או שינוי בשם הפירמה 3- האם בוצעו ב\n:\nפרט\nמספר סוכן\nשם סוכן\nמס' הפוליסה"
+  "sketch": "? האם פיטרת עובד, או חשבת לפטרו, בשל טעות מקצועית\n:\nכן, פרט\nלא\n? האם מצויים בידך נתונים כלשהם החשובים לצורך הערכת הסיכון בגין ביטוח זה\nמה מספר המועסקים בעסק הנדון? שותפים ומנהלים                        סגל מקצועי                        שאר העובדים                        סה\"כ\n…\n? השנים האחרונות שינויים בבעלות, השתלטות, פיצול או שינוי בשם הפירמה 3- האם בוצעו ב\n:\nפרט\nמספר סוכן\nשם סוכן\nמס' הפוליסה",
+  "embed_text": "טופס זה משמש להצעת ביטוח אחריות מקצועית, ומטרתו לאסוף מידע על העסק המציע, כגון מספר העובדים, שינויים בבעלות, ופיטורי עובדים. המידע נדרש לצורך הערכת הסיכון הכרוך בביטוח. ניתן למצוא כאן שאלות לגבי פיטורי עובדים, נתונים רלוונטיים להערכת סיכון, מספר העובדים בסוגים שונים (שותפים, סגל מקצועי, שאר העובדים), ושינויים בבעלות העסק. השדות כוללים גם מספר סוכן, שם סוכן ומספר פוליסה. טופס הצעה לביטוח אחריות מקצועית כולל שאלות לגבי פיטורי עובדים, מספר מועסקים, שינויים בבעלות, מספר סוכן ושם סוכן. This table is part of a professional liability insurance proposal form. It collects information about the applicant's business, including employment history, risk factors, and employee numbers.",
+  "payload": "טבלה: הצעת ביטוח אחריות מקצועית\nThis table is part of a professional liability insurance proposal form. It collects information about the applicant's business, including employment history, risk factors, and employee numbers.\nממדים: question / data point, response / category\n\n? האם פיטרת עובד, או חשבת לפטרו, בשל טעות מקצועית\n:\nכן, פרט\nלא\n? האם מצויים בידך נתונים כלשהם החשובים לצורך הערכת הסיכון בגין ביטוח זה\nמה מספר המועסקים בעסק הנדון? שותפים ומנהלים                        סגל מקצועי                        שאר העובדים                        סה\"כ\nכן\nלא\n? השנים האחרונות שינויים בבעלות, השתלטות, פיצול או שינוי בשם הפירמה 3- האם בוצעו ב\n:\nפרט\nמספר סוכן\nשם סוכן\nמס' הפוליסה"
 }

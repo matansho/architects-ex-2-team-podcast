@@ -2,23 +2,24 @@
   "id": "pdf:car/files/תנאי-פוליסת-ביטוח-חובה-לרכב-מהדורת-ספטמבר-2021.pdf#25",
   "source": "llm",
   "description": {
-    "title": "פיצוי מוסכם",
-    "summary": "This table details agreed-upon compensation amounts related to insurance claims, specifically concerning situations where the policyholder is at fault or provides incomplete information. It outlines the conditions under which the insurer can offset payments.",
-    "embed_passage": "פוליסת ביטוח חובה לרכב כוללת סכומים מוסכמים לפיצוי במקרים מסוימים. לדוגמה, אם בעל הפוליסה ידע או היה יכול לדעת שתשובתו לשאלת חיתום אינה מלאה וכנה, המבטח לא יהיה זכאי לפיצוי מוסכם. סכום הפיצוי המוסכם יכול להגיע עד ₪ 10,000, אך לא יעלה על מחצית סכום הפיצויים שישולם לנפגע.",
-    "row_axis": "conditions for compensation offset",
-    "column_axis": "compensation details",
-    "units": [
-      "₪"
-    ],
+    "title": "קיזוז תגמולי ביטוח",
+    "summary": "This table details the conditions under which an insurer can offset insurance benefits due to an owner for damages not caused by a collision. It outlines scenarios where the insurer may not be entitled to compensation.",
+    "embed_passage": "טבלה זו מתארת את התנאים שבהם מבטח רשאי לקזז תגמולי ביטוח המגיעים לבעל הפוליסה בשל נזק שאינו ממוני עקב תאונה. ניתן לעיין בסעיפים 9.3, 9.4 ו-9.5 כדי להבין את ההגבלות וההודעות הנדרשות לקיזוז. סכומים מוסכמים לפי סעיף 9.3 עשויים להיות מוקזזים, אך יש להודיע לבעל הפוליסה על כך. סכום הפיצוי המוסכם יכול להגיע עד ₪ 10,000. במקרים של תשובות לא מלאות או לא כנות לשאלות חיתום, המבטח עלול לאבד את זכותו לפיצוי מוסכם.",
+    "row_axis": "תנאי לקיום קיזוז",
+    "column_axis": "סעיפי הפוליסה",
+    "units": [],
     "notable_values": [
-      "compensation amount: ₪ 2,500",
-      "maximum compensation: ₪ 10,000"
+      "סכום פיצוי מוסכם: ₪ 2,500",
+      "סכום פיצוי מוסכם מקסימלי: ₪ 10,000",
+      "סעיף: 9.3",
+      "סעיף: 9.4",
+      "סעיף: 9.5"
     ],
     "product_hints": [
       "ביטוח חובה לרכב"
     ]
   },
   "sketch": ".9.4 מבטח רשאי לקזז מתגמולי הביטוח המגיעים לבעל הפוליסה בשל נזק שאינו , ובלבד 9.3 ממוני עקב פגיעתו בתאונה, את סכומי הפיצוי המוסכם לפי סעיף קטן שימסור לבעל הפוליסה הודעת קיזוז שיפורטו בה נימוקי המבטח אשר בשלהם הוא מתכוון לקזז את הסכומים כאמור.\n, אם ידע או שיכול היה לדעת 9.3 מבטח לא יהיה זכאי לפיצוי מוסכם לפי סעיף קטן .9.5 , בעת כריתת חוזה הביטוח, שתשובת בעל הפוליסה לשאלת חיתום, כפי שפורטה בספח אינה מלאה וכנה או שגרם לכך שתשובתו של בעל הפוליסה לא הייתה מלאה וכנה.",
-  "embed_text": "פוליסת ביטוח חובה לרכב כוללת סכומים מוסכמים לפיצוי במקרים מסוימים. לדוגמה, אם בעל הפוליסה ידע או היה יכול לדעת שתשובתו לשאלת חיתום אינה מלאה וכנה, המבטח לא יהיה זכאי לפיצוי מוסכם. סכום הפיצוי המוסכם יכול להגיע עד ₪ 10,000, אך לא יעלה על מחצית סכום הפיצויים שישולם לנפגע.",
-  "payload": "טבלה: פיצוי מוסכם\nThis table details agreed-upon compensation amounts related to insurance claims, specifically concerning situations where the policyholder is at fault or provides incomplete information. It outlines the conditions under which the insurer can offset payments.\nממדים: conditions for compensation offset, compensation details\n\n.9.4 מבטח רשאי לקזז מתגמולי הביטוח המגיעים לבעל הפוליסה בשל נזק שאינו , ובלבד 9.3 ממוני עקב פגיעתו בתאונה, את סכומי הפיצוי המוסכם לפי סעיף קטן שימסור לבעל הפוליסה הודעת קיזוז שיפורטו בה נימוקי המבטח אשר בשלהם הוא מתכוון לקזז את הסכומים כאמור.\n, אם ידע או שיכול היה לדעת 9.3 מבטח לא יהיה זכאי לפיצוי מוסכם לפי סעיף קטן .9.5 , בעת כריתת חוזה הביטוח, שתשובת בעל הפוליסה לשאלת חיתום, כפי שפורטה בספח אינה מלאה וכנה או שגרם לכך שתשובתו של בעל הפוליסה לא הייתה מלאה וכנה."
+  "embed_text": "טבלה זו מתארת את התנאים שבהם מבטח רשאי לקזז תגמולי ביטוח המגיעים לבעל הפוליסה בשל נזק שאינו ממוני עקב תאונה. ניתן לעיין בסעיפים 9.3, 9.4 ו-9.5 כדי להבין את ההגבלות וההודעות הנדרשות לקיזוז. סכומים מוסכמים לפי סעיף 9.3 עשויים להיות מוקזזים, אך יש להודיע לבעל הפוליסה על כך. סכום הפיצוי המוסכם יכול להגיע עד ₪ 10,000. במקרים של תשובות לא מלאות או לא כנות לשאלות חיתום, המבטח עלול לאבד את זכותו לפיצוי מוסכם. This table details the conditions under which an insurer can offset insurance benefits due to an owner for damages not caused by a collision. It outlines scenarios where the insurer may not be entitled to compensation. בין הערכים בטבלה: סכום פיצוי מוסכם: ₪ 2,500.",
+  "payload": "טבלה: קיזוז תגמולי ביטוח\nThis table details the conditions under which an insurer can offset insurance benefits due to an owner for damages not caused by a collision. It outlines scenarios where the insurer may not be entitled to compensation.\nממדים: תנאי לקיום קיזוז, סעיפי הפוליסה\n\n.9.4 מבטח רשאי לקזז מתגמולי הביטוח המגיעים לבעל הפוליסה בשל נזק שאינו , ובלבד 9.3 ממוני עקב פגיעתו בתאונה, את סכומי הפיצוי המוסכם לפי סעיף קטן שימסור לבעל הפוליסה הודעת קיזוז שיפורטו בה נימוקי המבטח אשר בשלהם הוא מתכוון לקזז את הסכומים כאמור.\n, אם ידע או שיכול היה לדעת 9.3 מבטח לא יהיה זכאי לפיצוי מוסכם לפי סעיף קטן .9.5 , בעת כריתת חוזה הביטוח, שתשובת בעל הפוליסה לשאלת חיתום, כפי שפורטה בספח אינה מלאה וכנה או שגרם לכך שתשובתו של בעל הפוליסה לא הייתה מלאה וכנה."
 }

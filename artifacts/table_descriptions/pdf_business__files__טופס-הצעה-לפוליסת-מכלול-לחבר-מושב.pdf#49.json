@@ -3,25 +3,27 @@
   "source": "llm",
   "description": {
     "title": "מכלול - כיסוי יחידות אירוח",
-    "summary": "This table details insurance coverage options for lodging units (zimmer/guest houses) under the 'Mekhalel' policy. It allows looking up premiums based on liability limits and unit features like a jacuzzi or pool.",
-    "embed_passage": "פוליסת מכלול מציעה כיסוי ליחידות אירוח, כאשר הפרמיה משתנה בהתאם לגבול האחריות. לדוגמה, פרמיה בסך ₪ 350 ניתנת עבור יחידות אירוח הכוללות ג'קוזי או בריכת שחייה, וגבול האחריות הוא ₪ 40,000. ניתן לבחור גבול אחריות לכסף מזומן של 50% מגבול האחריות הנ\"ל.",
-    "row_axis": "Type of lodging unit and associated coverage details",
-    "column_axis": "Coverage details, liability limits, and premiums",
+    "summary": "This table details coverage options for lodging units (zimmerim) under the Mekhalel policy. It shows premiums and liability limits for different unit types, including those with a jacuzzi or swimming pool.",
+    "embed_passage": "טבלה זו מתארת כיסויים אפשריים במסגרת פוליסת מכלול ליחידות אירוח, כגון צימרים. ניתן לראות כאן פרמיה וגבול אחריות עבור יחידות שונות, כולל יחידות עם ג'קוזי או בריכת שחייה. החיפוש נעשה לפי סוג היחידה וגבול האחריות הרצוי. יחידות אירוח, ג'קוזי שחייה/בריכת, פרמיה בסך ₪ 450, פרמיה בסך ₪ 80, גבול אחריות לכסף מזומן 50%, השתתפות עצמית ₪ 5,000.",
+    "row_axis": "יחידות אירוח (צימרים)",
+    "column_axis": "פרטי כיסוי (גבול אחריות, פרמיה, השתתפות עצמית)",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "פרמיה: ₪ 350",
+      "פרמיה: ₪ 80",
+      "פרמיה: ₪ 450",
       "גבול אחריות: ₪ 40,000",
+      "גבול אחריות: ₪ 20,000",
       "השתתפות עצמית: ₪ 5,000",
       "גבול אחריות לכסף מזומן: 50%",
-      "פרמיה: ₪ 450"
+      "אחרת פעילות: לפרט נא"
     ],
     "product_hints": [
       "מכלול"
     ]
   },
   "sketch": "יחידות בגין היחידות: מספר\n,,,₪ 350,לעניין האחריות בגבול כלול )צימרים( אירוח יחידות,לעניין האחריות בגבול כלול )צימרים( אירוח יחידות,האירוח ביחידת ג'קוזי שחיה/ בריכת בגין\n,,,,,,לפרט נא - אחרת פעילות",
-  "embed_text": "פוליסת מכלול מציעה כיסוי ליחידות אירוח, כאשר הפרמיה משתנה בהתאם לגבול האחריות. לדוגמה, פרמיה בסך ₪ 350 ניתנת עבור יחידות אירוח הכוללות ג'קוזי או בריכת שחייה, וגבול האחריות הוא ₪ 40,000. ניתן לבחור גבול אחריות לכסף מזומן של 50% מגבול האחריות הנ\"ל.",
-  "payload": "טבלה: מכלול - כיסוי יחידות אירוח\nThis table details insurance coverage options for lodging units (zimmer/guest houses) under the 'Mekhalel' policy. It allows looking up premiums based on liability limits and unit features like a jacuzzi or pool.\nממדים: Type of lodging unit and associated coverage details, Coverage details, liability limits, and premiums\n\nיחידות בגין היחידות: מספר\n,,,₪ 350,לעניין האחריות בגבול כלול )צימרים( אירוח יחידות,לעניין האחריות בגבול כלול )צימרים( אירוח יחידות,האירוח ביחידת ג'קוזי שחיה/ בריכת בגין\n,,,,,,לפרט נא - אחרת פעילות"
+  "embed_text": "טבלה זו מתארת כיסויים אפשריים במסגרת פוליסת מכלול ליחידות אירוח, כגון צימרים. ניתן לראות כאן פרמיה וגבול אחריות עבור יחידות שונות, כולל יחידות עם ג'קוזי או בריכת שחייה. החיפוש נעשה לפי סוג היחידה וגבול האחריות הרצוי. יחידות אירוח, ג'קוזי שחייה/בריכת, פרמיה בסך ₪ 450, פרמיה בסך ₪ 80, גבול אחריות לכסף מזומן 50%, השתתפות עצמית ₪ 5,000. This table details coverage options for lodging units (zimmerim) under the Mekhalel policy. It shows premiums and liability limits for different unit types, including those with a jacuzzi or swimming pool. בין הערכים בטבלה: אחרת פעילות: לפרט נא.",
+  "payload": "טבלה: מכלול - כיסוי יחידות אירוח\nThis table details coverage options for lodging units (zimmerim) under the Mekhalel policy. It shows premiums and liability limits for different unit types, including those with a jacuzzi or swimming pool.\nממדים: יחידות אירוח (צימרים), פרטי כיסוי (גבול אחריות, פרמיה, השתתפות עצמית)\n\nיחידות בגין היחידות: מספר\n,,,₪ 350,לעניין האחריות בגבול כלול )צימרים( אירוח יחידות,לעניין האחריות בגבול כלול )צימרים( אירוח יחידות,האירוח ביחידת ג'קוזי שחיה/ בריכת בגין\n,,,,,,לפרט נא - אחרת פעילות"
 }

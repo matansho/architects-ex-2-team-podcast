@@ -2,22 +2,22 @@
   "id": "pdf:business/files/תנאי-פוליסה-ביטוח-מכלול-למשרד-מהדורת-ינואר-2024.pdf#252",
   "source": "llm",
   "description": {
-    "title": "תנאי פוליסה – מכלול",
-    "summary": "This table outlines conditions related to insurance claim reductions for misrepresentation or fraud. It details scenarios where the insurer may offer reduced or no compensation based on the accuracy of information provided by the insured.",
-    "embed_passage": "פוליסת מכלול עשויה להציע תגמולים מופחתים במקרה של מצג שווא. לדוגמה, אם המבטח סביר לא היה מתקשר בפוליסה גם בדמי ביטוח מרובים יותר, אילו ידע את המצב האמיתי, הוא עשוי להיות פטור כליל מתשלום. התנאים מתייחסים למקרים בהם ניתנו תשובות לא מלאות או לא כנות בכוונת מרמה.",
-    "row_axis": "conditions for reduced/nullified claim",
-    "column_axis": "scenario/reason for reduction",
+    "title": "תנאים כלליים לפוליסה",
+    "summary": "This table outlines general conditions for all policy sections, specifically regarding reduced insurance payouts when a claim occurs before contract termination. It details scenarios where the insurer is exempt from full compensation.",
+    "embed_passage": "טבלה זו מתארת תנאים כלליים החלים על כל פרקי הפוליסה, ובפרט את ההפחתה בתגמולי הביטוח במקרה של ביטול חוזה לפני קרות מקרה הביטוח. מטרת הטבלה היא להבהיר את הנסיבות בהן המבטח פטור מחבות מלאה, כגון מתן תשובות שקריות או מצב שהמבטח לא היה מתקשר לפוליסה אילו ידע את האמת. הפוליסה הרלוונטית היא מכלול. התנאים מתייחסים למקרים בהם ניתנו תשובות בכוונת מרמה, או כאשר המבטח ידע או היה צריך לדעת את המצב האמיתי בעת כריתת החוזה. מכלול, תשובה שקרית, מצב לאמיתו, תגמולים מופחתים.",
+    "row_axis": "תנאי ביטוח",
+    "column_axis": "נסיבות פטור מחבות",
     "units": [],
     "notable_values": [
-      "9.2.5: response given with intent to defraud",
-      "9.2.6: insurer would not have agreed to the policy",
-      "9.2.8: reduced compensation proportional to paid vs. actual premiums"
+      "תנאי 9.2.5: תשובה או אי מתן הודעה בכוונת מרמה",
+      "תנאי 9.2.8.1: תשובה ניתנה בכוונת מרמה",
+      "תנאי 9.2.8.2: מבטח סביר לא היה מתקשר בפוליסה"
     ],
     "product_hints": [
       "מכלול"
     ]
   },
   "sketch": ".9.2.8 זה, אין המבטח 9.2 קרה מקרה הביטוח לפני שנתבטל החוזה מכוח תנאי חייב אלא בתגמולי ביטוח מופחתים בשיעור יחסי, שהוא כיחס שבין דמי הביטוח שהיו משתלמים כמקובל אצלו לפי המצב לאמיתו לבין דמי הביטוח המוסכמים, והוא פטור כליל בכל אחת מאלה:\n.9.2.8.1 ,) (לפי העניין 9.2.5 התשובה או אי מתן הודעה, כאמור בתנאי ניתנו בכוונת מרמה;\n.9.2.8.2 מבטח סביר לא היה מתקשר באותה פוליסה, אף בדמי ביטוח מרובים יותר, אילו ידע שהמצב הוא כפי שהוא.",
-  "embed_text": "פוליסת מכלול עשויה להציע תגמולים מופחתים במקרה של מצג שווא. לדוגמה, אם המבטח סביר לא היה מתקשר בפוליסה גם בדמי ביטוח מרובים יותר, אילו ידע את המצב האמיתי, הוא עשוי להיות פטור כליל מתשלום. התנאים מתייחסים למקרים בהם ניתנו תשובות לא מלאות או לא כנות בכוונת מרמה.",
-  "payload": "טבלה: תנאי פוליסה – מכלול\nThis table outlines conditions related to insurance claim reductions for misrepresentation or fraud. It details scenarios where the insurer may offer reduced or no compensation based on the accuracy of information provided by the insured.\nממדים: conditions for reduced/nullified claim, scenario/reason for reduction\n\n.9.2.8 זה, אין המבטח 9.2 קרה מקרה הביטוח לפני שנתבטל החוזה מכוח תנאי חייב אלא בתגמולי ביטוח מופחתים בשיעור יחסי, שהוא כיחס שבין דמי הביטוח שהיו משתלמים כמקובל אצלו לפי המצב לאמיתו לבין דמי הביטוח המוסכמים, והוא פטור כליל בכל אחת מאלה:\n.9.2.8.1 ,) (לפי העניין 9.2.5 התשובה או אי מתן הודעה, כאמור בתנאי ניתנו בכוונת מרמה;\n.9.2.8.2 מבטח סביר לא היה מתקשר באותה פוליסה, אף בדמי ביטוח מרובים יותר, אילו ידע שהמצב הוא כפי שהוא."
+  "embed_text": "טבלה זו מתארת תנאים כלליים החלים על כל פרקי הפוליסה, ובפרט את ההפחתה בתגמולי הביטוח במקרה של ביטול חוזה לפני קרות מקרה הביטוח. מטרת הטבלה היא להבהיר את הנסיבות בהן המבטח פטור מחבות מלאה, כגון מתן תשובות שקריות או מצב שהמבטח לא היה מתקשר לפוליסה אילו ידע את האמת. הפוליסה הרלוונטית היא מכלול. התנאים מתייחסים למקרים בהם ניתנו תשובות בכוונת מרמה, או כאשר המבטח ידע או היה צריך לדעת את המצב האמיתי בעת כריתת החוזה. מכלול, תשובה שקרית, מצב לאמיתו, תגמולים מופחתים. This table outlines general conditions for all policy sections, specifically regarding reduced insurance payouts when a claim occurs before contract termination. It details scenarios where the insurer is exempt from full compensation. בין הערכים בטבלה: תנאי 9.2.5: תשובה או אי מתן הודעה בכוונת מרמה; תנאי 9.2.8.1: תשובה ניתנה בכוונת מרמה;…",
+  "payload": "טבלה: תנאים כלליים לפוליסה\nThis table outlines general conditions for all policy sections, specifically regarding reduced insurance payouts when a claim occurs before contract termination. It details scenarios where the insurer is exempt from full compensation.\nממדים: תנאי ביטוח, נסיבות פטור מחבות\n\n.9.2.8 זה, אין המבטח 9.2 קרה מקרה הביטוח לפני שנתבטל החוזה מכוח תנאי חייב אלא בתגמולי ביטוח מופחתים בשיעור יחסי, שהוא כיחס שבין דמי הביטוח שהיו משתלמים כמקובל אצלו לפי המצב לאמיתו לבין דמי הביטוח המוסכמים, והוא פטור כליל בכל אחת מאלה:\n.9.2.8.1 ,) (לפי העניין 9.2.5 התשובה או אי מתן הודעה, כאמור בתנאי ניתנו בכוונת מרמה;\n.9.2.8.2 מבטח סביר לא היה מתקשר באותה פוליסה, אף בדמי ביטוח מרובים יותר, אילו ידע שהמצב הוא כפי שהוא."
 }

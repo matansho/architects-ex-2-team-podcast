@@ -2,24 +2,23 @@
   "id": "pdf:business/files/תנאי-פוליסה-ביטוח-מכלול-לעסק-מהדורת-מרץ-2023.pdf#356",
   "source": "llm",
   "description": {
-    "title": "תנאי פוליסה - מכלול",
-    "summary": "This table outlines conditions related to policy cancellation due to material changes or misrepresentation. It details scenarios where the insurer may reduce or deny claims, and the potential for premium refunds.",
-    "embed_passage": "פוליסת מכלול לעסק עשויה להתבטל אם ניתנה תשובה מרמה או אם מידע מהותי לא סופק. במקרה של שינוי מהותי, המבטח רשאי לבטל את הפוליסה תוך 30 ימים, והחזר דמי הביטוח יינתן בניכוי יחסי, בהתאם ליחס בין דמי הביטוח האמיתיים לדמי הביטוח המוסכמים. לדוגמה, אם המצב האמיתי היה מחייב דמי ביטוח גבוהים יותר, המבטח פטור מפיצוי מלא.",
-    "row_axis": "Cancellation conditions / scenarios",
-    "column_axis": "Insurer's rights and obligations, insured's rights",
+    "title": "תנאי פוליסה - מכלול לעסק",
+    "summary": "This table outlines conditions related to policy cancellation due to material changes or incorrect information provided by the insured. It details scenarios where the insurer may reduce or deny claims.",
+    "embed_passage": "טבלה זו מתייחסת לתנאי פוליסת ביטוח מכלול לעסק, ומפרטת את ההשלכות של שינויים מהותיים או מידע שגוי שסופק על ידי המבוטח. מטרתה להבהיר את זכויות וחובות המבטח והמבוטח במקרים של חוסר תום לב או שינוי בסיכון הביטוחי. ניתן להשתמש בטבלה זו כדי להבין את תנאי הביטול של הפוליסה ואת ההשפעה על תגמולי הביטוח. סעיפים אלו עוסקים במצבים של מרמה, אי מסירת הודעה, ושינויים מהותיים אשר המבטח לא היה מתקשר לפוליסה אילו ידע עליהם. הפוליסה מכלול לעסק מתייחסת למקרים בהם תשובה שניתנה או אי מסירת הודעה נעשתה בכוונה מרמה, או כאשר מבטח סביר לא היה מתקשר לפוליסה אילו ידע את המצב האמיתי.",
+    "row_axis": "Cancellation conditions based on misrepresentation or material change",
+    "column_axis": "Details of the cancellation consequences",
     "units": [],
     "notable_values": [
-      "30 ימים: Period for insurer to cancel policy after discovering misrepresentation.",
-      "2.7: Section number referencing reduced insurance payouts.",
-      "2.7.1: Clause regarding fraudulent responses.",
-      "2.7.2: Clause regarding insurer's unwillingness to insure with full knowledge."
+      "מרמה: תשובה או אי מתן הודעה",
+      "שינוי מהותי: המבטח לא היה מתקשר לפוליסה",
+      "החזר דמי ביטוח: תקופה שלאחר השינוי",
+      "תגמולי ביטוח מופחתים: יחס בין דמי ביטוח משתלמים למוסכמים"
     ],
     "product_hints": [
-      "מכלול",
-      "פוליסת מכלול לעסק"
+      "מכלול לעסק"
     ]
   },
   "sketch": "זה, אין המבטח חייב 2 קרה מקרה הביטוח לפני שנתבטל החוזה מכוח תנאי .2.7 אלא בתגמולי ביטוח מופחתים בשיעור יחסי, שהוא כיחס שבין דמי הביטוח שהיו משתלמים כמקובל אצלו לפי המצב לאמיתו לבין דמי הביטוח המוסכמים, והוא פטור כליל בכל אחת מאלה:\n)לפי הענין( ניתנו בכוונת 2.4 התשובה או אי מתן הודעה כאמור בסעיף .2.7.1 מרמה;\nמבטח סביר לא היה מתקשר באותה פוליסה, אף בדמי ביטוח מרובים .2.7.2 יותר, אילו ידע שהמצב הוא כפי שהוא לאחר השינוי. במקרה זה זכאי המבוטח להחזר דמי הביטוח ששילם בעד התקופה שלאחר השינוי.",
-  "embed_text": "פוליסת מכלול לעסק עשויה להתבטל אם ניתנה תשובה מרמה או אם מידע מהותי לא סופק. במקרה של שינוי מהותי, המבטח רשאי לבטל את הפוליסה תוך 30 ימים, והחזר דמי הביטוח יינתן בניכוי יחסי, בהתאם ליחס בין דמי הביטוח האמיתיים לדמי הביטוח המוסכמים. לדוגמה, אם המצב האמיתי היה מחייב דמי ביטוח גבוהים יותר, המבטח פטור מפיצוי מלא.",
-  "payload": "טבלה: תנאי פוליסה - מכלול\nThis table outlines conditions related to policy cancellation due to material changes or misrepresentation. It details scenarios where the insurer may reduce or deny claims, and the potential for premium refunds.\nממדים: Cancellation conditions / scenarios, Insurer's rights and obligations, insured's rights\n\nזה, אין המבטח חייב 2 קרה מקרה הביטוח לפני שנתבטל החוזה מכוח תנאי .2.7 אלא בתגמולי ביטוח מופחתים בשיעור יחסי, שהוא כיחס שבין דמי הביטוח שהיו משתלמים כמקובל אצלו לפי המצב לאמיתו לבין דמי הביטוח המוסכמים, והוא פטור כליל בכל אחת מאלה:\n)לפי הענין( ניתנו בכוונת 2.4 התשובה או אי מתן הודעה כאמור בסעיף .2.7.1 מרמה;\nמבטח סביר לא היה מתקשר באותה פוליסה, אף בדמי ביטוח מרובים .2.7.2 יותר, אילו ידע שהמצב הוא כפי שהוא לאחר השינוי. במקרה זה זכאי המבוטח להחזר דמי הביטוח ששילם בעד התקופה שלאחר השינוי."
+  "embed_text": "טבלה זו מתייחסת לתנאי פוליסת ביטוח מכלול לעסק, ומפרטת את ההשלכות של שינויים מהותיים או מידע שגוי שסופק על ידי המבוטח. מטרתה להבהיר את זכויות וחובות המבטח והמבוטח במקרים של חוסר תום לב או שינוי בסיכון הביטוחי. ניתן להשתמש בטבלה זו כדי להבין את תנאי הביטול של הפוליסה ואת ההשפעה על תגמולי הביטוח. סעיפים אלו עוסקים במצבים של מרמה, אי מסירת הודעה, ושינויים מהותיים אשר המבטח לא היה מתקשר לפוליסה אילו ידע עליהם. הפוליסה מכלול לעסק מתייחסת למקרים בהם תשובה שניתנה או אי מסירת הודעה נעשתה בכוונה מרמה, או כאשר מבטח סביר לא היה מתקשר לפוליסה אילו ידע את המצב האמיתי. This table outlines conditions related to policy cancellation due to material changes or incorrect information provided by the insured. It details scenarios where the insurer may reduce or deny claims. בין הערכים בטבלה: החזר דמי ביטוח: תק…",
+  "payload": "טבלה: תנאי פוליסה - מכלול לעסק\nThis table outlines conditions related to policy cancellation due to material changes or incorrect information provided by the insured. It details scenarios where the insurer may reduce or deny claims.\nממדים: Cancellation conditions based on misrepresentation or material change, Details of the cancellation consequences\n\nזה, אין המבטח חייב 2 קרה מקרה הביטוח לפני שנתבטל החוזה מכוח תנאי .2.7 אלא בתגמולי ביטוח מופחתים בשיעור יחסי, שהוא כיחס שבין דמי הביטוח שהיו משתלמים כמקובל אצלו לפי המצב לאמיתו לבין דמי הביטוח המוסכמים, והוא פטור כליל בכל אחת מאלה:\n)לפי הענין( ניתנו בכוונת 2.4 התשובה או אי מתן הודעה כאמור בסעיף .2.7.1 מרמה;\nמבטח סביר לא היה מתקשר באותה פוליסה, אף בדמי ביטוח מרובים .2.7.2 יותר, אילו ידע שהמצב הוא כפי שהוא לאחר השינוי. במקרה זה זכאי המבוטח להחזר דמי הביטוח ששילם בעד התקופה שלאחר השינוי."
 }

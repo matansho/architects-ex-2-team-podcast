@@ -2,24 +2,23 @@
   "id": "pdf:health/files/תנאי-פוליסת-תרופות-מיוחדות-1.pdf#3",
   "source": "llm",
   "description": {
-    "title": "תרופות מיוחדות",
-    "summary": "This table outlines the conditions for coverage of special medications. It details requirements related to prescriptions, specialist approvals, and healthcare service baskets.",
-    "embed_passage": "פוליסת תרופות מיוחדות מגדירה את התנאים לקבלת כיסוי תרופתי, תוך התייחסות למרשמים רפואיים, חוות דעת של רופא מומחה, ושירותי סל הבריאות. לדוגמה, סעיף 1.5 מציין כי הכיסוי תלוי בשירותים הרפואיים והתרופות הניתנות על ידי קופות החולים, וסעיף 1.4 דורש מרשם חתום מרופא מומחה.",
-    "row_axis": "conditions/clauses related to medication coverage",
-    "column_axis": "details/specifications of the condition",
+    "title": "תנאי פוליסת תרופות מיוחדות",
+    "summary": "This table outlines the conditions of a special medication insurance policy. It details requirements and limitations related to prescription drugs and medical services.",
+    "embed_passage": "טבלה זו מתארת את תנאי פוליסת תרופות מיוחדות, ומפרטת דרישות והגבלות הקשורות לתרופות מרשם ושירותים רפואיים. ניתן לעיין בתנאים אלו כדי להבין את הכיסוי הביטוחי ואת התהליכים הנדרשים לקבלת אישור לטיפול תרופתי. הפוליסה מתייחסת לשירותי בריאות הניתנים על ידי קופות החולים, וכן לתרופות שאושרו על ידי הרשויות המוסמכות. תנאי הפוליסה כוללים התייחסות למרשמים רפואיים חתומים, מינון, משך טיפול, וכן את הצורך באישור רופא מומחה. תרופות, רופא מומחה, מרשם, קופות החולים, שירותי בריאות.",
+    "row_axis": "Policy conditions/requirements",
+    "column_axis": "Details of the condition/requirement",
     "units": [],
     "notable_values": [
-      "1.1: genetic testing",
-      "1.2: medication treatment",
-      "1.5: healthcare basket services",
-      "1994: National Health Insurance Law",
-      "1.6: specialist doctor approval"
+      "חוק השירותים הרפואיים, 1994",
+      "תקנות הרופאים, 1973",
+      "תכנית השב\"ן",
+      "EMEA (European Medicines Agency)"
     ],
     "product_hints": [
       "תרופות מיוחדות"
     ]
   },
   "sketch": "ר את פי בחירת המבוטח, המאש ד רופא מומחה או רופא בית חולים, ל מסמך רפואי חתום בי ­ מרשם .1.4 ; ל אופן השימוש בתרופה, את המינון ומשך הטיפול הנדר   ש הצורך בטיפול התרופתי ומורה ע\nה  ן, לפי חוק ל השירותים הרפואיים   והתרופות שנותנות קופות החולים לחברי לו מ  כ ­ הבריאות שירותי סל .1.5 1 או מכוח מחויבות אחרת שבין הקופה לכלל מבוטחיה, למעט , 1994  ­ ביטוח בריאות ממלכת  י, התשנ\"   ד ; מחויבויות שבמסגרת תכנית השב\"   ן",
-  "embed_text": "פוליסת תרופות מיוחדות מגדירה את התנאים לקבלת כיסוי תרופתי, תוך התייחסות למרשמים רפואיים, חוות דעת של רופא מומחה, ושירותי סל הבריאות. לדוגמה, סעיף 1.5 מציין כי הכיסוי תלוי בשירותים הרפואיים והתרופות הניתנות על ידי קופות החולים, וסעיף 1.4 דורש מרשם חתום מרופא מומחה.",
-  "payload": "טבלה: תרופות מיוחדות\nThis table outlines the conditions for coverage of special medications. It details requirements related to prescriptions, specialist approvals, and healthcare service baskets.\nממדים: conditions/clauses related to medication coverage, details/specifications of the condition\n\nר את פי בחירת המבוטח, המאש ד רופא מומחה או רופא בית חולים, ל מסמך רפואי חתום בי ­ מרשם .1.4 ; ל אופן השימוש בתרופה, את המינון ומשך הטיפול הנדר   ש הצורך בטיפול התרופתי ומורה ע\nה  ן, לפי חוק ל השירותים הרפואיים   והתרופות שנותנות קופות החולים לחברי לו מ  כ ­ הבריאות שירותי סל .1.5 1 או מכוח מחויבות אחרת שבין הקופה לכלל מבוטחיה, למעט , 1994  ­ ביטוח בריאות ממלכת  י, התשנ\"   ד ; מחויבויות שבמסגרת תכנית השב\"   ן"
+  "embed_text": "טבלה זו מתארת את תנאי פוליסת תרופות מיוחדות, ומפרטת דרישות והגבלות הקשורות לתרופות מרשם ושירותים רפואיים. ניתן לעיין בתנאים אלו כדי להבין את הכיסוי הביטוחי ואת התהליכים הנדרשים לקבלת אישור לטיפול תרופתי. הפוליסה מתייחסת לשירותי בריאות הניתנים על ידי קופות החולים, וכן לתרופות שאושרו על ידי הרשויות המוסמכות. תנאי הפוליסה כוללים התייחסות למרשמים רפואיים חתומים, מינון, משך טיפול, וכן את הצורך באישור רופא מומחה. תרופות, רופא מומחה, מרשם, קופות החולים, שירותי בריאות. This table outlines the conditions of a special medication insurance policy. It details requirements and limitations related to prescription drugs and medical services. בין הערכים בטבלה: חוק השירותים הרפואיים, 1994; תקנות הרופאים, 1973; תכנית השב\"ן; EMEA (European Medicines Agency).",
+  "payload": "טבלה: תנאי פוליסת תרופות מיוחדות\nThis table outlines the conditions of a special medication insurance policy. It details requirements and limitations related to prescription drugs and medical services.\nממדים: Policy conditions/requirements, Details of the condition/requirement\n\nר את פי בחירת המבוטח, המאש ד רופא מומחה או רופא בית חולים, ל מסמך רפואי חתום בי ­ מרשם .1.4 ; ל אופן השימוש בתרופה, את המינון ומשך הטיפול הנדר   ש הצורך בטיפול התרופתי ומורה ע\nה  ן, לפי חוק ל השירותים הרפואיים   והתרופות שנותנות קופות החולים לחברי לו מ  כ ­ הבריאות שירותי סל .1.5 1 או מכוח מחויבות אחרת שבין הקופה לכלל מבוטחיה, למעט , 1994  ­ ביטוח בריאות ממלכת  י, התשנ\"   ד ; מחויבויות שבמסגרת תכנית השב\"   ן"
 }

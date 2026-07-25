@@ -2,22 +2,21 @@
   "id": "pdf:apartment/files/חוברת-כללים.pdf#73",
   "source": "llm",
   "description": {
-    "title": "בירור תביעה - נזק רכוש",
-    "summary": "This table outlines the claim review and settlement process for property damage claims with Harel. It details the steps taken to evaluate a claim and determine payment or denial.",
-    "embed_passage": "בהראל, לאחר איסוף כל הנתונים הרלוונטיים, יבוצע הליך בירור שבסופו תתקבל החלטה על תשלום או דחיית התביעה. תהליך הטיפול בתביעה, כולל משלוח שרברב, אינו מהווה הכרה בחבות החברה. אם הוצאת הוצאות סבירות להקטנת הנזק, הינך זכאי לשיפוי בגינן.",
-    "row_axis": "claim review stage/action",
-    "column_axis": "details of the stage/action",
+    "title": "בירור תביעה",
+    "summary": "This table outlines the claim review process for property/body damage to a third party from an insured apartment with Harel. It details the steps taken to determine payment or denial of a claim.",
+    "embed_passage": "טבלה זו מתארת את הליך בירור התביעה לנזק רכוש או גוף לצד ג' מדירה המבוטחת בהראל. הליך בירור התביעה מתבצע לאחר איסוף כל הנתונים, המסמכים והמידע הנדרש, ובסופו מתקבלת החלטה על תשלום, תשלום חלקי או דחיית התביעה. חשוב לדעת כי תהליך טיפול בתביעה, כולל שליחת שרברב לדירה, אינו מהווה הכרה בחבות החברה. אם הוצאת הוצאות סבירות להקטנת הנזק או מניעתו, הינך זכאי לשיפוי בגינן. הראל אחראית על איכות התיקון והשירות שיינתנו על ידי שרברב בהסדר.",
+    "row_axis": "שלבי בירור תביעה",
+    "column_axis": "פרטי הליך הבירור",
     "units": [],
     "notable_values": [
-      "stage: איסוף נתונים",
-      "action: בירור תביעה",
-      "outcome: תשלום / תשלום חלקי / דחייה"
+      "החלטה על תשלום / תשלום חלקי או דחיית התביעה",
+      "הוצאות סבירות: שיפוי"
     ],
     "product_hints": [
       "הראל"
     ]
   },
   "sketch": ".  עם השלמת איסוף כל הנתונים, מסמכים והמידע הנדרש, ככל שהדבר רלוונטי, יבוצע 12 הליך בירור שבסופו תתקבל החלטה על תשלום / תשלום חלקי או דחיית התביעה. יודגש, כי תהליך טיפול בתביעה, לרבות משלוח שרברב לדירה, אינו מהווה הכרה בחבות החברה למקרה הביטוח.\n, .  לידיעתך, אם הוצאת הוצאות סבירות, בקרות הנזק או לאחריו, להקטנת הנזק או מניעתו 13 הינך זכאי לשיפוי בגינן.",
-  "embed_text": "בהראל, לאחר איסוף כל הנתונים הרלוונטיים, יבוצע הליך בירור שבסופו תתקבל החלטה על תשלום או דחיית התביעה. תהליך הטיפול בתביעה, כולל משלוח שרברב, אינו מהווה הכרה בחבות החברה. אם הוצאת הוצאות סבירות להקטנת הנזק, הינך זכאי לשיפוי בגינן.",
-  "payload": "טבלה: בירור תביעה - נזק רכוש\nThis table outlines the claim review and settlement process for property damage claims with Harel. It details the steps taken to evaluate a claim and determine payment or denial.\nממדים: claim review stage/action, details of the stage/action\n\n.  עם השלמת איסוף כל הנתונים, מסמכים והמידע הנדרש, ככל שהדבר רלוונטי, יבוצע 12 הליך בירור שבסופו תתקבל החלטה על תשלום / תשלום חלקי או דחיית התביעה. יודגש, כי תהליך טיפול בתביעה, לרבות משלוח שרברב לדירה, אינו מהווה הכרה בחבות החברה למקרה הביטוח.\n, .  לידיעתך, אם הוצאת הוצאות סבירות, בקרות הנזק או לאחריו, להקטנת הנזק או מניעתו 13 הינך זכאי לשיפוי בגינן."
+  "embed_text": "טבלה זו מתארת את הליך בירור התביעה לנזק רכוש או גוף לצד ג' מדירה המבוטחת בהראל. הליך בירור התביעה מתבצע לאחר איסוף כל הנתונים, המסמכים והמידע הנדרש, ובסופו מתקבלת החלטה על תשלום, תשלום חלקי או דחיית התביעה. חשוב לדעת כי תהליך טיפול בתביעה, כולל שליחת שרברב לדירה, אינו מהווה הכרה בחבות החברה. אם הוצאת הוצאות סבירות להקטנת הנזק או מניעתו, הינך זכאי לשיפוי בגינן. הראל אחראית על איכות התיקון והשירות שיינתנו על ידי שרברב בהסדר. This table outlines the claim review process for property/body damage to a third party from an insured apartment with Harel. It details the steps taken to determine payment or denial of a claim. בין הערכים בטבלה: החלטה על תשלום / תשלום חלקי או דחיית התביעה.",
+  "payload": "טבלה: בירור תביעה\nThis table outlines the claim review process for property/body damage to a third party from an insured apartment with Harel. It details the steps taken to determine payment or denial of a claim.\nממדים: שלבי בירור תביעה, פרטי הליך הבירור\n\n.  עם השלמת איסוף כל הנתונים, מסמכים והמידע הנדרש, ככל שהדבר רלוונטי, יבוצע 12 הליך בירור שבסופו תתקבל החלטה על תשלום / תשלום חלקי או דחיית התביעה. יודגש, כי תהליך טיפול בתביעה, לרבות משלוח שרברב לדירה, אינו מהווה הכרה בחבות החברה למקרה הביטוח.\n, .  לידיעתך, אם הוצאת הוצאות סבירות, בקרות הנזק או לאחריו, להקטנת הנזק או מניעתו 13 הינך זכאי לשיפוי בגינן."
 }

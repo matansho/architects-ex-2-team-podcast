@@ -2,24 +2,24 @@
   "id": "pdf:apartment/files/תנאי-פוליסת-ביטוח-רכוש-כל-הסיכונים-לדברי-ערך.pdf#16",
   "source": "llm",
   "description": {
-    "title": "ביטוח רכוש - כל הסיכונים",
-    "summary": "This table details coverage for various personal property items under an 'all risks' insurance policy. It specifies what is covered and what is excluded for items like jewelry, cameras, stamps, and coins.",
-    "embed_passage": "פוליסת ביטוח רכוש 'כל הסיכונים' מכסה אובדן או נזק לתכשיטים, מצלמות, בולים ומטבעות המפורטים ברשימה המצורפת להצעה. לדוגמה, עבור בולי חו\"ל, בסיס הערכת הנזק הוא 75% מהערך הנקוב בקטלוג האחרון של סטנלי גיבונס. הפוליסה מגדירה תנאים לחיזוק תכשיטים ואינה מכסה נזק פנימי לשעונים.",
-    "row_axis": "type of property (jewelry, cameras, stamps, coins)",
-    "column_axis": "coverage details (covered risks, exclusions, valuation basis)",
+    "title": "ביטוח רכוש - מצלמות ומקרנות",
+    "summary": "This table details coverage for cameras and projectors under an all-risks property insurance policy. It specifies conditions for coverage and lists exclusions.",
+    "embed_passage": "טבלה זו מתייחסת לפרק ביטוח רכוש, ספציפית כיסוי למצלמות ומקרנות, כחלק מפוליסת 'ביטוח רכוש כל הסיכונים לדברי ערך'. הכיסוי חל על אובדן או נזק כתוצאה מהסיכונים המכוסים בפוליסה, בתנאי שהפריטים מפורטים ברשימה מצורפת. החיפוש נעשה לפי סוג הפריט (מצלמות, מקרנות) והימצאותו בכתובת המבוטח או בכל מקום אחר בו הוא נמצא זמנית בישראל. פרק זה אינו מכסה נזק לעדשות מצלמה, אלא אם נגרם למצלמה עצמה, וכן אינו מכסה נורות, סוללות, מוליכי חשמל או כל חומר עזר מתכלה. מצלמות, מקרנות, עדשות מצלמה, נורות, סוללות, מוליכי חשמל, חומר עזר מתכלה.",
+    "row_axis": "coverage conditions/exclusions for cameras and projectors",
+    "column_axis": "policy stipulations",
     "units": [],
     "notable_values": [
-      "75% : לגבי בולי חו\"ל",
-      "12 פעם ב",
-      "פרק 1: ביטוח תכשיטים ופרוות",
-      "פרק 2: מצלמות, מקרנות",
-      "פרק 3: בולים ומטבעות"
+      "camera lenses: not covered unless damage to the camera itself",
+      "bulbs: not covered",
+      "batteries: not covered",
+      "electrical conductors: not covered",
+      "consumable materials: not covered"
     ],
     "product_hints": [
-      "ביטוח רכוש 'כל הסיכונים'"
+      "ביטוח רכוש כל הסיכונים לדברי ערך"
     ]
   },
   "sketch": ": מצלמות, מקרנות 2 פרק\nא.  אם צוין ברשימה, מכסה פרק זה אבדן או נזק כתוצאה מהסיכונים המכוסים בפוליסה זו למצלמות ומקרנות, המפורטות ברשימה המצורפת להצעת הביטוח או בהצעה עצמה, המהווה חלק בלתי נפרד ממנה, בהימצאן בכתובתו של המבוטח או בכל מקום אחר בו נמצא המבוטח זמנית, בתחומי מדינת ישראל.\nב.  פרק זה אינו מכסה נזק לעדשות מצלמה, אלא אם נגרם למצלמה עצמה.\nפרק זה אינו מכסה נורות, סוללות, מוליכי חשמל או כל חומר עזר מתכלה. ג.",
-  "embed_text": "פוליסת ביטוח רכוש 'כל הסיכונים' מכסה אובדן או נזק לתכשיטים, מצלמות, בולים ומטבעות המפורטים ברשימה המצורפת להצעה. לדוגמה, עבור בולי חו\"ל, בסיס הערכת הנזק הוא 75% מהערך הנקוב בקטלוג האחרון של סטנלי גיבונס. הפוליסה מגדירה תנאים לחיזוק תכשיטים ואינה מכסה נזק פנימי לשעונים.",
-  "payload": "טבלה: ביטוח רכוש - כל הסיכונים\nThis table details coverage for various personal property items under an 'all risks' insurance policy. It specifies what is covered and what is excluded for items like jewelry, cameras, stamps, and coins.\nממדים: type of property (jewelry, cameras, stamps, coins), coverage details (covered risks, exclusions, valuation basis)\n\n: מצלמות, מקרנות 2 פרק\nא.  אם צוין ברשימה, מכסה פרק זה אבדן או נזק כתוצאה מהסיכונים המכוסים בפוליסה זו למצלמות ומקרנות, המפורטות ברשימה המצורפת להצעת הביטוח או בהצעה עצמה, המהווה חלק בלתי נפרד ממנה, בהימצאן בכתובתו של המבוטח או בכל מקום אחר בו נמצא המבוטח זמנית, בתחומי מדינת ישראל.\nב.  פרק זה אינו מכסה נזק לעדשות מצלמה, אלא אם נגרם למצלמה עצמה.\nפרק זה אינו מכסה נורות, סוללות, מוליכי חשמל או כל חומר עזר מתכלה. ג."
+  "embed_text": "טבלה זו מתייחסת לפרק ביטוח רכוש, ספציפית כיסוי למצלמות ומקרנות, כחלק מפוליסת 'ביטוח רכוש כל הסיכונים לדברי ערך'. הכיסוי חל על אובדן או נזק כתוצאה מהסיכונים המכוסים בפוליסה, בתנאי שהפריטים מפורטים ברשימה מצורפת. החיפוש נעשה לפי סוג הפריט (מצלמות, מקרנות) והימצאותו בכתובת המבוטח או בכל מקום אחר בו הוא נמצא זמנית בישראל. פרק זה אינו מכסה נזק לעדשות מצלמה, אלא אם נגרם למצלמה עצמה, וכן אינו מכסה נורות, סוללות, מוליכי חשמל או כל חומר עזר מתכלה. מצלמות, מקרנות, עדשות מצלמה, נורות, סוללות, מוליכי חשמל, חומר עזר מתכלה. This table details coverage for cameras and projectors under an all-risks property insurance policy. It specifies conditions for coverage and lists exclusions. בין הערכים בטבלה: camera lenses: not covered unless damage to the camera itself; bulbs: not covered; batteries: not covered…",
+  "payload": "טבלה: ביטוח רכוש - מצלמות ומקרנות\nThis table details coverage for cameras and projectors under an all-risks property insurance policy. It specifies conditions for coverage and lists exclusions.\nממדים: coverage conditions/exclusions for cameras and projectors, policy stipulations\n\n: מצלמות, מקרנות 2 פרק\nא.  אם צוין ברשימה, מכסה פרק זה אבדן או נזק כתוצאה מהסיכונים המכוסים בפוליסה זו למצלמות ומקרנות, המפורטות ברשימה המצורפת להצעת הביטוח או בהצעה עצמה, המהווה חלק בלתי נפרד ממנה, בהימצאן בכתובתו של המבוטח או בכל מקום אחר בו נמצא המבוטח זמנית, בתחומי מדינת ישראל.\nב.  פרק זה אינו מכסה נזק לעדשות מצלמה, אלא אם נגרם למצלמה עצמה.\nפרק זה אינו מכסה נורות, סוללות, מוליכי חשמל או כל חומר עזר מתכלה. ג."
 }

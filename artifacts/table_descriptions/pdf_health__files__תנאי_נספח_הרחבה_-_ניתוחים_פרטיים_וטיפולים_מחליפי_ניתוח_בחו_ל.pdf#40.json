@@ -2,25 +2,25 @@
   "id": "pdf:health/files/תנאי_נספח_הרחבה_-_ניתוחים_פרטיים_וטיפולים_מחליפי_ניתוח_בחו_ל.pdf#40",
   "source": "llm",
   "description": {
-    "title": "ניתוחים פרטיים וטיפולים מחליפי ניתוח בחו״ל",
-    "summary": "This table details coverage for private surgeries and alternative treatments abroad, outlining compensation amounts for death resulting from surgery and coverage for alternative treatments. It helps determine benefits based on the type of procedure and location.",
-    "embed_passage": "פוליסת ניתוחים פרטיים וטיפולים מחליפי ניתוח בחו״ל מציעה פיצוי של עד ₪ 150,000 במקרה של מוות כתוצאה מניתוח, בתוך 14 ימים מהניתוח. הכיסוי עבור ניתוח מחליף טיפול בחו״ל יכול להגיע עד 250% מעלות הניתוח בישראל. תגמולי הביטוח מבוססים על מחירי הסכם המתעדכנים באתר החברה.",
-    "row_axis": "types of expenses/events (e.g., death from surgery, alternative treatment)",
-    "column_axis": "coverage details (e.g., compensation amount, coverage percentage)",
+    "title": "הרחבה - ניתוחים פרטיים וטיפולים מחליפי ניתוח בחו\"ל",
+    "summary": "This table details coverage for surgeries and alternative treatments abroad, as part of an extension to a health insurance policy. It outlines compensation amounts and conditions related to surgical procedures and related expenses.",
+    "embed_passage": "טבלה זו מתארת את הכיסוי עבור ניתוחים וטיפולים חלופיים לניתוח בחו\"ל, כחלק מהרחבה לפוליסת ביטוח בריאות. ניתן למצוא מידע על פיצוי במקרה של מוות כתוצאה מניתוח, כיסוי הוצאות עבור ניתוח חלופי בחו\"ל, ותנאים לגבי החזר הוצאות מעבר לתקרה הקבועה בפוליסה. התכנית כוללת פיצוי בסך ₪ 150,000 במקרה של מוות כתוצאה מניתוח, וכיסוי הוצאות ניתוח חלופי בחו\"ל עד 250% מעלות הניתוח בישראל. הוצאות מורכב, ניתוח כתוצאה מוות, ניתוח מחליף טיפול לישראל מחוץ.",
+    "row_axis": "types of expenses/events related to surgeries and alternative treatments",
+    "column_axis": "coverage details (compensation amounts, conditions)",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "compensation for death from surgery: ₪ 150,000",
-      "coverage for alternative treatment abroad: up to 250% of cost in Israel",
-      "hospitalization duration: 7 days"
+      "פיצוי - לתכנית 3.6 סעיף: ₪ 150,000",
+      "ימים 7: אשפוז רצף",
+      "ימים 14: מניתוח כתוצאה מוות",
+      "250%: מעלות הניתוח בישראל"
     ],
     "product_hints": [
-      "ניתוחים פרטיים",
-      "טיפולים מחליפי ניתוח בחו״ל"
+      "הרחבה - ניתוחים פרטיים וטיפולים מחליפי ניתוח בחו\"ל"
     ]
   },
   "sketch": "הוצאות שבעקבותיו מורכב, המבוטח אושפז ברצף ימים 7 במשך לפחות.\"\n,\"בסך פעמי חד פיצוי - לתכנית 3.6 סעיף מניתוח כתוצאה מוות בגין ,₪ 150,000 הניתוח מיום ימים 14 במהלך\",מניתוח כתוצאה מוות\nועד בתכנית המפורטות ההוצאות עבור כיסוי . בישראל החלופי הניתוח מעלות 250%,\")כמפורט הוצאות - לתכנית 3 סעיף המבוצע ניתוח מחליף טיפול בגין בסעיף( בחו\"\"ל\",ניתוח מחליף טיפול לישראל מחוץ\n\"שים בפוליסה. הקבועה לתקרה עד וזאת בפועל ההוצאות את תשלם הביטוח \"\"חברת לגובה מעבר כפול להחזר זכאי תהיה לא אחרת בפוליסה זהה כיסוי לך ויש במידה לב, \"\". הפוליסה לתנאי ובכפוף בפועל ההוצאות\",\"שים בפוליסה. הקבועה לתקרה עד וזאת בפועל ההוצאות את תשלם הביטוח \"\"חברת לגובה מעבר כפול להחזר זכאי תהיה לא אחרת בפוליסה זהה כיסוי לך ויש במידה לב, \"\". הפוליסה לתנאי ובכפוף בפועל ההוצאות\",ת הערו",
-  "embed_text": "פוליסת ניתוחים פרטיים וטיפולים מחליפי ניתוח בחו״ל מציעה פיצוי של עד ₪ 150,000 במקרה של מוות כתוצאה מניתוח, בתוך 14 ימים מהניתוח. הכיסוי עבור ניתוח מחליף טיפול בחו״ל יכול להגיע עד 250% מעלות הניתוח בישראל. תגמולי הביטוח מבוססים על מחירי הסכם המתעדכנים באתר החברה.",
-  "payload": "טבלה: ניתוחים פרטיים וטיפולים מחליפי ניתוח בחו״ל\nThis table details coverage for private surgeries and alternative treatments abroad, outlining compensation amounts for death resulting from surgery and coverage for alternative treatments. It helps determine benefits based on the type of procedure and location.\nממדים: types of expenses/events (e.g., death from surgery, alternative treatment), coverage details (e.g., compensation amount, coverage percentage)\n\nהוצאות שבעקבותיו מורכב, המבוטח אושפז ברצף ימים 7 במשך לפחות.\"\n,\"בסך פעמי חד פיצוי - לתכנית 3.6 סעיף מניתוח כתוצאה מוות בגין ,₪ 150,000 הניתוח מיום ימים 14 במהלך\",מניתוח כתוצאה מוות\nועד בתכנית המפורטות ההוצאות עבור כיסוי . בישראל החלופי הניתוח מעלות 250%,\")כמפורט הוצאות - לתכנית 3 סעיף המבוצע ניתוח מחליף טיפול בגין בסעיף( בחו\"\"ל\",ניתוח מחליף טיפול לישראל מחוץ\n\"שים בפוליסה. הקבועה לתקרה עד וזאת בפועל ההוצאות את תשלם הביטוח \"\"חברת לגובה מעבר כפול להחזר זכאי תהיה לא אחרת בפוליסה זהה כיסוי לך ויש במידה לב, \"\". הפוליסה לתנאי ובכפוף בפועל ההוצאות\",\"שים בפוליסה. הקבועה לתקרה עד וזאת בפועל ההוצאות את תשלם הביטוח \"\"חברת לגובה מעבר כפול להחזר זכאי תהיה לא אחרת בפוליסה זהה כיסוי לך ויש במידה לב, \"\". הפוליסה לתנאי ובכפוף בפועל ההוצאות\",ת הערו"
+  "embed_text": "טבלה זו מתארת את הכיסוי עבור ניתוחים וטיפולים חלופיים לניתוח בחו\"ל, כחלק מהרחבה לפוליסת ביטוח בריאות. ניתן למצוא מידע על פיצוי במקרה של מוות כתוצאה מניתוח, כיסוי הוצאות עבור ניתוח חלופי בחו\"ל, ותנאים לגבי החזר הוצאות מעבר לתקרה הקבועה בפוליסה. התכנית כוללת פיצוי בסך ₪ 150,000 במקרה של מוות כתוצאה מניתוח, וכיסוי הוצאות ניתוח חלופי בחו\"ל עד 250% מעלות הניתוח בישראל. הוצאות מורכב, ניתוח כתוצאה מוות, ניתוח מחליף טיפול לישראל מחוץ. This table details coverage for surgeries and alternative treatments abroad, as part of an extension to a health insurance policy. It outlines compensation amounts and conditions related to surgical procedures and related expenses. בין הערכים בטבלה: ימים 7: אשפוז רצף; ימים 14: מניתוח כתוצאה מוות.",
+  "payload": "טבלה: הרחבה - ניתוחים פרטיים וטיפולים מחליפי ניתוח בחו\"ל\nThis table details coverage for surgeries and alternative treatments abroad, as part of an extension to a health insurance policy. It outlines compensation amounts and conditions related to surgical procedures and related expenses.\nממדים: types of expenses/events related to surgeries and alternative treatments, coverage details (compensation amounts, conditions)\n\nהוצאות שבעקבותיו מורכב, המבוטח אושפז ברצף ימים 7 במשך לפחות.\"\n,\"בסך פעמי חד פיצוי - לתכנית 3.6 סעיף מניתוח כתוצאה מוות בגין ,₪ 150,000 הניתוח מיום ימים 14 במהלך\",מניתוח כתוצאה מוות\nועד בתכנית המפורטות ההוצאות עבור כיסוי . בישראל החלופי הניתוח מעלות 250%,\")כמפורט הוצאות - לתכנית 3 סעיף המבוצע ניתוח מחליף טיפול בגין בסעיף( בחו\"\"ל\",ניתוח מחליף טיפול לישראל מחוץ\n\"שים בפוליסה. הקבועה לתקרה עד וזאת בפועל ההוצאות את תשלם הביטוח \"\"חברת לגובה מעבר כפול להחזר זכאי תהיה לא אחרת בפוליסה זהה כיסוי לך ויש במידה לב, \"\". הפוליסה לתנאי ובכפוף בפועל ההוצאות\",\"שים בפוליסה. הקבועה לתקרה עד וזאת בפועל ההוצאות את תשלם הביטוח \"\"חברת לגובה מעבר כפול להחזר זכאי תהיה לא אחרת בפוליסה זהה כיסוי לך ויש במידה לב, \"\". הפוליסה לתנאי ובכפוף בפועל ההוצאות\",ת הערו"
 }

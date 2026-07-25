@@ -2,24 +2,26 @@
   "id": "pdf:car/files/טופס-הצעה-לביטוח-רכב-מטיילים-בסיני-וירדן.pdf#33",
   "source": "llm",
   "description": {
-    "title": "כיסויי ביטוח רכב מטיילים",
-    "summary": "This table details coverage limits for a car insurance policy for travelers in Sinai and Jordan. It shows the maximum liability limits per incident and period for different types of damage.",
-    "embed_passage": "פוליסת ביטוח רכב מטיילים מציעה כיסויים שונים, כגון חבות כלפי צד שלישי בגין נזקי גוף עד 1,600,000 ₪, וחבות כלפי צד שלישי בגין נזקי רכוש עד 160,000 ₪. גבולות האחריות המירביים משתנים בהתאם לסוג הנזק ומתייחסים לאירוע ולתקופה.",
-    "row_axis": "type of coverage (e.g., third-party liability for bodily injury)",
-    "column_axis": "coverage limit",
+    "title": "פרקי ביטוח - סיני וירדן",
+    "summary": "This table details coverage limits for different sections of a car insurance policy for travelers in Sinai and Jordan. It shows the maximum liability limits per incident and period for various types of damage.",
+    "embed_passage": "טבלה זו מציגה את פרקי הכיסוי בפוליסת ביטוח רכב למטיילים בסיני וירדן, ופירוט גבולות האחריות המירביים לכל פרק. ניתן לעיין בפרק א׳ - חבות כלפי צד שלישי בגין נזקי גוף, פרק ב׳ - חבות כלפי צד שלישי בגין נזקי רכוש, ופרק ג׳ - ביטוח הרכב. הפוליסה כוללת כיסוי לנזקי גוף, נזקי רכוש, אובדן או נזק לרכב כתוצאה מאירועים שונים. גבול האחריות המירבי בפרק א׳ הוא 1,600,000 ₪, בפרק ב׳ הוא 160,000 ₪, ובפרק ג׳ סכום הביטוח המירבי מצוין.",
+    "row_axis": "פרק ביטוח (Insurance Section)",
+    "column_axis": "גבול אחריות מירבי (Maximum Liability Limit)",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "חבות כלפי צד שלישי (נזקי גוף): 1,600,000 ₪",
-      "חבות כלפי צד שלישי (נזקי רכוש): 160,000 ₪"
+      "פרק א׳: 1,600,000 ₪",
+      "פרק ב׳: 160,000 ₪",
+      "נזקי גוף: פרק א׳",
+      "נזקי רכוש: פרק ב׳",
+      "ביטוח הרכב: פרק ג׳"
     ],
     "product_hints": [
-      "ביטוח רכב מטיילים",
-      "פוליסת רכב מטיילים"
+      "ביטוח רכב מטיילים בסיני וירדן"
     ]
   },
   "sketch": "₪  1,600,000 פרק א׳ - חבות כלפי צד שלישי בגין נזקי גוף - גבול אחריות מירבי לאירוע ולתקופה לא יעלה על\nפרק זה מכסה את אחריותו של המבוטח או הנוהג ברכב ברשותו של המבוטח לפי פקודת הנזיקין, בגין נזק גוף שיארע לצד שלישי עקב תאונת דרכים הנובעת משימוש ברכב המבוטח עד לגבולות האחריות המפורטים במפרט, ובכפוף לתנאי הפוליסה.",
-  "embed_text": "פוליסת ביטוח רכב מטיילים מציעה כיסויים שונים, כגון חבות כלפי צד שלישי בגין נזקי גוף עד 1,600,000 ₪, וחבות כלפי צד שלישי בגין נזקי רכוש עד 160,000 ₪. גבולות האחריות המירביים משתנים בהתאם לסוג הנזק ומתייחסים לאירוע ולתקופה.",
-  "payload": "טבלה: כיסויי ביטוח רכב מטיילים\nThis table details coverage limits for a car insurance policy for travelers in Sinai and Jordan. It shows the maximum liability limits per incident and period for different types of damage.\nממדים: type of coverage (e.g., third-party liability for bodily injury), coverage limit\n\n₪  1,600,000 פרק א׳ - חבות כלפי צד שלישי בגין נזקי גוף - גבול אחריות מירבי לאירוע ולתקופה לא יעלה על\nפרק זה מכסה את אחריותו של המבוטח או הנוהג ברכב ברשותו של המבוטח לפי פקודת הנזיקין, בגין נזק גוף שיארע לצד שלישי עקב תאונת דרכים הנובעת משימוש ברכב המבוטח עד לגבולות האחריות המפורטים במפרט, ובכפוף לתנאי הפוליסה."
+  "embed_text": "טבלה זו מציגה את פרקי הכיסוי בפוליסת ביטוח רכב למטיילים בסיני וירדן, ופירוט גבולות האחריות המירביים לכל פרק. ניתן לעיין בפרק א׳ - חבות כלפי צד שלישי בגין נזקי גוף, פרק ב׳ - חבות כלפי צד שלישי בגין נזקי רכוש, ופרק ג׳ - ביטוח הרכב. הפוליסה כוללת כיסוי לנזקי גוף, נזקי רכוש, אובדן או נזק לרכב כתוצאה מאירועים שונים. גבול האחריות המירבי בפרק א׳ הוא 1,600,000 ₪, בפרק ב׳ הוא 160,000 ₪, ובפרק ג׳ סכום הביטוח המירבי מצוין. This table details coverage limits for different sections of a car insurance policy for travelers in Sinai and Jordan. It shows the maximum liability limits per incident and period for various types of damage.",
+  "payload": "טבלה: פרקי ביטוח - סיני וירדן\nThis table details coverage limits for different sections of a car insurance policy for travelers in Sinai and Jordan. It shows the maximum liability limits per incident and period for various types of damage.\nממדים: פרק ביטוח (Insurance Section), גבול אחריות מירבי (Maximum Liability Limit)\n\n₪  1,600,000 פרק א׳ - חבות כלפי צד שלישי בגין נזקי גוף - גבול אחריות מירבי לאירוע ולתקופה לא יעלה על\nפרק זה מכסה את אחריותו של המבוטח או הנוהג ברכב ברשותו של המבוטח לפי פקודת הנזיקין, בגין נזק גוף שיארע לצד שלישי עקב תאונת דרכים הנובעת משימוש ברכב המבוטח עד לגבולות האחריות המפורטים במפרט, ובכפוף לתנאי הפוליסה."
 }

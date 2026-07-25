@@ -2,24 +2,23 @@
   "id": "pdf:business/files/מכלול-למושב-ינואר-2023.pdf#51",
   "source": "llm",
   "description": {
-    "title": "מכלול - פריצה ושוד",
-    "summary": "This table details coverage for direct damage caused by burglary or attempted burglary, including theft from a massive structure. It outlines the definitions of 'burglary' and 'robbery' as they apply to insurance claims.",
-    "embed_passage": "פוליסת 'מכלול' מרחיבה את הכיסוי לנזק ישיר שייגרם למבוטח עקב פריצה או שוד. המונח 'פריצה' מתייחס לחדירה למבנה בכוח או באלימות, או באמצעות מפתחות לא חוקיים, בעוד 'שוד' כולל שימוש באלימות או איום באלימות. נזק פיזי לרכוש שלא נגנב, שנגרם במהלך פריצה או שוד, מכוסה אף הוא.",
-    "row_axis": "Coverage details for burglary and robbery",
-    "column_axis": "Definitions and conditions related to burglary and robbery coverage",
+    "title": "פריצה ושוד",
+    "summary": "This table details coverage for direct damage caused by burglary, theft, or attempted burglary. It defines 'burglary' and 'robbery' as they apply to insurance claims.",
+    "embed_passage": "טבלה זו מתארת כיסוי לנזק ישיר שנגרם כתוצאה מפריצה או שוד או ניסיון לכך, כפי שמפורט בפוליסה. מונחים כמו 'פריצה' ו'שוד' מוגדרים באופן ספציפי לצורך קביעת הכיסוי הביטוחי. הפוליסה מכסה נזק פיזי לרכוש שנותר שלא נגנב, שנגרם במהלך פריצה או שוד. כיסוי זה חל על רכוש מבוטח בתחום המושב. המונח 'פריצה' מתייחס לחדירה כוחנית או באמצעות מפתחות לא חוקיים, בעוד ש'שוד' כולל שימוש באלימות או איום באלימות. מכלול",
+    "row_axis": "types of incidents (burglary, theft)",
+    "column_axis": "definitions and coverage details",
     "units": [],
     "notable_values": [
-      "סעיף: 5.1",
-      "נזק ישיר: מכוסה",
-      "פריצה: חדירה בכוח או באלימות",
-      "שוד: שימוש באלימות או איום באלימות",
-      "נזק פיזי לרכוש: מכוסה"
+      "פריצה ושוד: coverage for direct damage",
+      "פריצה: entry by force or illegal key use",
+      "שוד: use of violence or threat of violence",
+      "נזק פיזי: covered if occurring during burglary/theft"
     ],
     "product_hints": [
       "מכלול"
     ]
   },
   "sketch": "פריצה ושוד .5.1\nפרק זה מורחב לכסות נזק ישיר שייגרם למבוטח עקב פריצה או שוד או ניסיון לכך. גניבה מתוך מבנה מסיבי שבוצעה לאחר חדירה לתוך המבנה : המונח \"פריצה\", פירושו , ונשארו סימנים המעידים על כך המסיבי או החוצה מתוכו אשר בוצעו בכוח ובאלימות או שהחדירה נעשתה תוך שימוש במפתחות שהושגו, הועתקו או הותאמו שלא כדין. חדירה אל תוך המבנים ו/או החצרים וגניבת רכוש מתוך החצרים או : \"שוד\" פירושו שנעשו באמצעות שימוש באלימות או איום באלימות כלפי המבוטח או , המבנים כלפי מי מעובדי המבוטח וגם או כלפי אדם בשירותו.\nנזק פיזי לרכוש הנותר, שלא נגנב, ושנגרם תוך כדי פריצה או שוד ייחשב לעניין לסיכונים המבוטחים לעיל(, ואינו מכוסה 4.5 פוליסה זו נזק בזדון )בהתאם לסעיף זה. 5.1 על פי סעיף",
-  "embed_text": "פוליסת 'מכלול' מרחיבה את הכיסוי לנזק ישיר שייגרם למבוטח עקב פריצה או שוד. המונח 'פריצה' מתייחס לחדירה למבנה בכוח או באלימות, או באמצעות מפתחות לא חוקיים, בעוד 'שוד' כולל שימוש באלימות או איום באלימות. נזק פיזי לרכוש שלא נגנב, שנגרם במהלך פריצה או שוד, מכוסה אף הוא.",
-  "payload": "טבלה: מכלול - פריצה ושוד\nThis table details coverage for direct damage caused by burglary or attempted burglary, including theft from a massive structure. It outlines the definitions of 'burglary' and 'robbery' as they apply to insurance claims.\nממדים: Coverage details for burglary and robbery, Definitions and conditions related to burglary and robbery coverage\n\nפריצה ושוד .5.1\nפרק זה מורחב לכסות נזק ישיר שייגרם למבוטח עקב פריצה או שוד או ניסיון לכך. גניבה מתוך מבנה מסיבי שבוצעה לאחר חדירה לתוך המבנה : המונח \"פריצה\", פירושו , ונשארו סימנים המעידים על כך המסיבי או החוצה מתוכו אשר בוצעו בכוח ובאלימות או שהחדירה נעשתה תוך שימוש במפתחות שהושגו, הועתקו או הותאמו שלא כדין. חדירה אל תוך המבנים ו/או החצרים וגניבת רכוש מתוך החצרים או : \"שוד\" פירושו שנעשו באמצעות שימוש באלימות או איום באלימות כלפי המבוטח או , המבנים כלפי מי מעובדי המבוטח וגם או כלפי אדם בשירותו.\nנזק פיזי לרכוש הנותר, שלא נגנב, ושנגרם תוך כדי פריצה או שוד ייחשב לעניין לסיכונים המבוטחים לעיל(, ואינו מכוסה 4.5 פוליסה זו נזק בזדון )בהתאם לסעיף זה. 5.1 על פי סעיף"
+  "embed_text": "טבלה זו מתארת כיסוי לנזק ישיר שנגרם כתוצאה מפריצה או שוד או ניסיון לכך, כפי שמפורט בפוליסה. מונחים כמו 'פריצה' ו'שוד' מוגדרים באופן ספציפי לצורך קביעת הכיסוי הביטוחי. הפוליסה מכסה נזק פיזי לרכוש שנותר שלא נגנב, שנגרם במהלך פריצה או שוד. כיסוי זה חל על רכוש מבוטח בתחום המושב. המונח 'פריצה' מתייחס לחדירה כוחנית או באמצעות מפתחות לא חוקיים, בעוד ש'שוד' כולל שימוש באלימות או איום באלימות. מכלול This table details coverage for direct damage caused by burglary, theft, or attempted burglary. It defines 'burglary' and 'robbery' as they apply to insurance claims. בין הערכים בטבלה: פריצה ושוד: coverage for direct damage.",
+  "payload": "טבלה: פריצה ושוד\nThis table details coverage for direct damage caused by burglary, theft, or attempted burglary. It defines 'burglary' and 'robbery' as they apply to insurance claims.\nממדים: types of incidents (burglary, theft), definitions and coverage details\n\nפריצה ושוד .5.1\nפרק זה מורחב לכסות נזק ישיר שייגרם למבוטח עקב פריצה או שוד או ניסיון לכך. גניבה מתוך מבנה מסיבי שבוצעה לאחר חדירה לתוך המבנה : המונח \"פריצה\", פירושו , ונשארו סימנים המעידים על כך המסיבי או החוצה מתוכו אשר בוצעו בכוח ובאלימות או שהחדירה נעשתה תוך שימוש במפתחות שהושגו, הועתקו או הותאמו שלא כדין. חדירה אל תוך המבנים ו/או החצרים וגניבת רכוש מתוך החצרים או : \"שוד\" פירושו שנעשו באמצעות שימוש באלימות או איום באלימות כלפי המבוטח או , המבנים כלפי מי מעובדי המבוטח וגם או כלפי אדם בשירותו.\nנזק פיזי לרכוש הנותר, שלא נגנב, ושנגרם תוך כדי פריצה או שוד ייחשב לעניין לסיכונים המבוטחים לעיל(, ואינו מכוסה 4.5 פוליסה זו נזק בזדון )בהתאם לסעיף זה. 5.1 על פי סעיף"
 }

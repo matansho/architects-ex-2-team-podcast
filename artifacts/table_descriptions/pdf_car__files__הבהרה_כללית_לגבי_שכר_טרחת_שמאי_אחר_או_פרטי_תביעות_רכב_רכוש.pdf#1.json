@@ -3,24 +3,22 @@
   "source": "llm",
   "description": {
     "title": "שכר טרחת שמאי רכב",
-    "summary": "This table details the fees for a vehicle appraiser (שמאי רכב) when filing a claim. It outlines factors that can influence the appraiser's fee, such as the number of damage points and import costs.",
-    "embed_passage": "הראל תשא בשכר טרחה סביר לשמאי רכב, אשר מושפע מגורמים כמו מספר מוקדי הנזק לרכב וצורך בייבוא חלפים. שכר הטרחה יכול להשתנות בהתאם לנסיבות המקרה, ובמקרים מסוימים לא יפחת מהתשלום לשמאי חיצוני של הראל. לדוגמה, מקרים בהם כלי הרכב אינו נכלל במחירון לוי יצחק יכולים להשפיע על העלות.",
-    "row_axis": "Circumstances affecting appraiser fee",
-    "column_axis": "Fee factors",
+    "summary": "This table details the factors influencing appraiser fees for car property claims. It outlines considerations for reasonable fees, referencing the Harel external appraiser list and circumstances affecting cost.",
+    "embed_passage": "טבלה זו מתארת את שכר הטרחה של שמאי רכב, בהתאם לנסיבות התביעה ולתנאי הפוליסה של הראל. מטרתה להבהיר כי החברה תישא בשכר טרחה סביר, תוך התייחסות לגורמים כמו עלות חלפים מיובאים, מקרים בהם הרכב אינו במחירון לוי יצחק, ומספר הביקורים במוסך. הראל בודקת כל דרישה לגופה, ובכפוף לתנאי הפוליסה. גורמים המשפיעים על שכר הטרחה כוללים: מספר מוקדי הנזק, ייבוא חלפים שלא באמצעות היבואן הרשמי, ומקרים בהם הרכב אינו נכלל במחירון לוי יצחק.",
+    "row_axis": "circumstances affecting appraiser fee",
+    "column_axis": "fee considerations",
     "units": [],
     "notable_values": [
-      "שמאי הנמנה על רשימת שמאי החוץ של הראל: fee baseline",
-      "מס' מוקדי הנזק: factor influencing fee",
-      "ייבוא חלפים: factor influencing fee",
-      "מחירון לוי יצחק: relevance to fee",
-      "מספר ביקורים במוסך: factor influencing fee"
+      "Harel external appraiser list: standard fee",
+      "Imported parts: cost impact",
+      "Levi Yitzhak price list: exclusion impact",
+      "Number of garage visits: impact beyond standard amount"
     ],
     "product_hints": [
-      "הראל",
-      "פוליסת ביטוח מקיף"
+      "Harel"
     ]
   },
   "sketch": "כל דרישה תבחן לגופה, בכפוף לתנאי הפוליסה ובדיקת האירוע הביטוחי ובכל מקרה לא יפחת מזה המשולם לשמאי הנמנה על רשימת שמאי החוץ של הראל, והכל בכפוף לשיקול שכר הטרחה דעתה.\n: שכר טרחת השמאי יכול שיושפע בהתאם לנסיבות המקרה, ובכלל זה מהגורמים הבאים לרכב; פעולות לבדיקת עלות חלפים שנדרש לייבא שלא באמצעות היבואן מס' מוקדי הנזק ;( לרבות ייבוא מקביל ) הרשמי מקרים בהם כלי הרכב אינו נכלל במחירון לוי יצחק; צורך להגיע למספר ביקורים במוסך לשם מעבר לכמות הפעמים המקובלת, ועוד. הערכת הנזק",
-  "embed_text": "הראל תשא בשכר טרחה סביר לשמאי רכב, אשר מושפע מגורמים כמו מספר מוקדי הנזק לרכב וצורך בייבוא חלפים. שכר הטרחה יכול להשתנות בהתאם לנסיבות המקרה, ובמקרים מסוימים לא יפחת מהתשלום לשמאי חיצוני של הראל. לדוגמה, מקרים בהם כלי הרכב אינו נכלל במחירון לוי יצחק יכולים להשפיע על העלות.",
-  "payload": "טבלה: שכר טרחת שמאי רכב\nThis table details the fees for a vehicle appraiser (שמאי רכב) when filing a claim. It outlines factors that can influence the appraiser's fee, such as the number of damage points and import costs.\nממדים: Circumstances affecting appraiser fee, Fee factors\n\nכל דרישה תבחן לגופה, בכפוף לתנאי הפוליסה ובדיקת האירוע הביטוחי ובכל מקרה לא יפחת מזה המשולם לשמאי הנמנה על רשימת שמאי החוץ של הראל, והכל בכפוף לשיקול שכר הטרחה דעתה.\n: שכר טרחת השמאי יכול שיושפע בהתאם לנסיבות המקרה, ובכלל זה מהגורמים הבאים לרכב; פעולות לבדיקת עלות חלפים שנדרש לייבא שלא באמצעות היבואן מס' מוקדי הנזק ;( לרבות ייבוא מקביל ) הרשמי מקרים בהם כלי הרכב אינו נכלל במחירון לוי יצחק; צורך להגיע למספר ביקורים במוסך לשם מעבר לכמות הפעמים המקובלת, ועוד. הערכת הנזק"
+  "embed_text": "טבלה זו מתארת את שכר הטרחה של שמאי רכב, בהתאם לנסיבות התביעה ולתנאי הפוליסה של הראל. מטרתה להבהיר כי החברה תישא בשכר טרחה סביר, תוך התייחסות לגורמים כמו עלות חלפים מיובאים, מקרים בהם הרכב אינו במחירון לוי יצחק, ומספר הביקורים במוסך. הראל בודקת כל דרישה לגופה, ובכפוף לתנאי הפוליסה. גורמים המשפיעים על שכר הטרחה כוללים: מספר מוקדי הנזק, ייבוא חלפים שלא באמצעות היבואן הרשמי, ומקרים בהם הרכב אינו נכלל במחירון לוי יצחק. This table details the factors influencing appraiser fees for car property claims. It outlines considerations for reasonable fees, referencing the Harel external appraiser list and circumstances affecting cost. בין הערכים בטבלה: Harel external appraiser list: standard fee; Imported parts: cost impact; Levi Yitzhak price list: exclusion impact; Number of garage visits: impact bey…",
+  "payload": "טבלה: שכר טרחת שמאי רכב\nThis table details the factors influencing appraiser fees for car property claims. It outlines considerations for reasonable fees, referencing the Harel external appraiser list and circumstances affecting cost.\nממדים: circumstances affecting appraiser fee, fee considerations\n\nכל דרישה תבחן לגופה, בכפוף לתנאי הפוליסה ובדיקת האירוע הביטוחי ובכל מקרה לא יפחת מזה המשולם לשמאי הנמנה על רשימת שמאי החוץ של הראל, והכל בכפוף לשיקול שכר הטרחה דעתה.\n: שכר טרחת השמאי יכול שיושפע בהתאם לנסיבות המקרה, ובכלל זה מהגורמים הבאים לרכב; פעולות לבדיקת עלות חלפים שנדרש לייבא שלא באמצעות היבואן מס' מוקדי הנזק ;( לרבות ייבוא מקביל ) הרשמי מקרים בהם כלי הרכב אינו נכלל במחירון לוי יצחק; צורך להגיע למספר ביקורים במוסך לשם מעבר לכמות הפעמים המקובלת, ועוד. הערכת הנזק"
 }

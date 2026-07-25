@@ -2,23 +2,22 @@
   "id": "pdf:business/files/מכלול-למושב-ינואר-2023.pdf#156",
   "source": "llm",
   "description": {
-    "title": "מכלול - סייגים",
-    "summary": "This table details exclusions to insurance coverage under the 'מכלול' policy. It specifies situations where the insurer will not compensate the insured or third parties, focusing on liabilities related to employees, contractors, and family members.",
-    "embed_passage": "פוליסת 'מכלול' אינה מכסה חבות המבוטח כלפי עובדיו בגין נזק שנגרם להם בעת עבודתם, וכן אינה מכסה חבות כלפי קבלן או קבלן משנה. סייגים אלו חלים על נזקים שאינם נזקי רכוש, ומתייחסים למקרים בהם הנזק נגרם בעת עבודה עבור המבוטח.",
-    "row_axis": "exclusion category",
-    "column_axis": "details of the exclusion",
+    "title": "סייגים - חבות המבוטח",
+    "summary": "This table details exclusions to coverage for the insured's liability. It lists scenarios where the insurer will not compensate the insured or a third party, specifically relating to liability towards employees, contractors, and family members.",
+    "embed_passage": "טבלה זו מפרטת סייגים לכיסוי אחריות המבוטח בפוליסת ביטוח. ניתן לעיין בסייגים אלו כדי להבין באילו מקרים המבטח לא ישפה את המבוטח או צד שלישי. הסייגים מתייחסים לחבות כלפי עובדים, קבלנים, ובני משפחה. מכלול היא פוליסת הביטוח הרלוונטית. הסייגים כוללים חבות כלפי עובדים בגין נזק (למעט נזק רכוש), חבות כלפי קבלן או קבלן משנה ועובדיהם, וחבות כלפי בן משפחה או בני משק ביתו של המבוטח.",
+    "row_axis": "סוג חבות",
+    "column_axis": "תיאור הסייג",
     "units": [],
     "notable_values": [
-      "2.3: Liability towards employees",
-      "2.3.1: Injury to employees",
-      "2.3.2: Liability towards contractors",
-      "2.3.3: Liability towards family members"
+      "חבות כלפי עובדים: נזק, למעט נזק רכוש",
+      "חבות כלפי קבלן: קבלן משנה ועובדיהם",
+      "חבות כלפי בן משפחה: בני משק ביתו של המבוטח"
     ],
     "product_hints": [
       "מכלול"
     ]
   },
   "sketch": "חבות המבוטח: .2.3\nכלפי עובדיו בגין נזק, למעט נזק רכוש, שנגרם להם בעת עבודתם אצל .2.3.1 המבוטח וגם או עבורו.\nכלפי קבלן, או קבלן משנה ועובדיהם, או כלפי כל אדם אחר הקשור עם .2.3.2 המבוטח בחוזה עבודה מפורש או מכללא.\nכלפי בן משפחה או בני משק ביתו של המבוטח. .2.3.3",
-  "embed_text": "פוליסת 'מכלול' אינה מכסה חבות המבוטח כלפי עובדיו בגין נזק שנגרם להם בעת עבודתם, וכן אינה מכסה חבות כלפי קבלן או קבלן משנה. סייגים אלו חלים על נזקים שאינם נזקי רכוש, ומתייחסים למקרים בהם הנזק נגרם בעת עבודה עבור המבוטח.",
-  "payload": "טבלה: מכלול - סייגים\nThis table details exclusions to insurance coverage under the 'מכלול' policy. It specifies situations where the insurer will not compensate the insured or third parties, focusing on liabilities related to employees, contractors, and family members.\nממדים: exclusion category, details of the exclusion\n\nחבות המבוטח: .2.3\nכלפי עובדיו בגין נזק, למעט נזק רכוש, שנגרם להם בעת עבודתם אצל .2.3.1 המבוטח וגם או עבורו.\nכלפי קבלן, או קבלן משנה ועובדיהם, או כלפי כל אדם אחר הקשור עם .2.3.2 המבוטח בחוזה עבודה מפורש או מכללא.\nכלפי בן משפחה או בני משק ביתו של המבוטח. .2.3.3"
+  "embed_text": "טבלה זו מפרטת סייגים לכיסוי אחריות המבוטח בפוליסת ביטוח. ניתן לעיין בסייגים אלו כדי להבין באילו מקרים המבטח לא ישפה את המבוטח או צד שלישי. הסייגים מתייחסים לחבות כלפי עובדים, קבלנים, ובני משפחה. מכלול היא פוליסת הביטוח הרלוונטית. הסייגים כוללים חבות כלפי עובדים בגין נזק (למעט נזק רכוש), חבות כלפי קבלן או קבלן משנה ועובדיהם, וחבות כלפי בן משפחה או בני משק ביתו של המבוטח. This table details exclusions to coverage for the insured's liability. It lists scenarios where the insurer will not compensate the insured or a third party, specifically relating to liability towards employees, contractors, and family members.",
+  "payload": "טבלה: סייגים - חבות המבוטח\nThis table details exclusions to coverage for the insured's liability. It lists scenarios where the insurer will not compensate the insured or a third party, specifically relating to liability towards employees, contractors, and family members.\nממדים: סוג חבות, תיאור הסייג\n\nחבות המבוטח: .2.3\nכלפי עובדיו בגין נזק, למעט נזק רכוש, שנגרם להם בעת עבודתם אצל .2.3.1 המבוטח וגם או עבורו.\nכלפי קבלן, או קבלן משנה ועובדיהם, או כלפי כל אדם אחר הקשור עם .2.3.2 המבוטח בחוזה עבודה מפורש או מכללא.\nכלפי בן משפחה או בני משק ביתו של המבוטח. .2.3.3"
 }

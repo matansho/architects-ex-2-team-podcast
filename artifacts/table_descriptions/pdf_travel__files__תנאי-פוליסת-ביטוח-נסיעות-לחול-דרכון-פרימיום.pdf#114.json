@@ -2,25 +2,23 @@
   "id": "pdf:travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-דרכון-פרימיום.pdf#114",
   "source": "llm",
   "description": {
-    "title": "הארכת פוליסה",
-    "summary": "This table details the conditions for extending a travel insurance policy due to being abroad when it expires, specifically when hospitalization prevents return to Israel. It outlines the requirements for extension and the need for additional premiums.",
-    "embed_passage": "פוליסת דרכון פרימיום מכסה מקרים בהם המבוטח אושפז בחו״ל ותקופת הביטוח הסתיימה, וחוות דעת רפואית קובעת כי הוא אינו יכול לחזור לישראל. במקרים אלו, תקופת הביטוח תוארך עד למועד שבו הרופא יאשר את חזרתו. הארכת הפוליסה תלויה בהמצאת מסמכים רפואיים ותשלום דמי ביטוח נוספים.",
-    "row_axis": "Scenarios requiring policy extension",
-    "column_axis": "Conditions and procedures for extension",
+    "title": "הארכת הפוליסה",
+    "summary": "This table details the conditions for extending the insurance policy due to being abroad beyond the policy period. It outlines scenarios where coverage continues during hospitalization or inability to return to Israel.",
+    "embed_passage": "טבלה זו מתארת את התנאים להארכת פוליסת הביטוח עקב שהות בחו\"ל מעבר לתקופת הביטוח המקורית. הארכת הפוליסה אפשרית כאשר המבוטח מאושפז בחו\"ל או אינו יכול לשוב לישראל עקב מצב רפואי, ובתנאי שיומצאו מסמכים רפואיים מתאימים. פוליסת 'דרכון פרימיום' מאפשרת הארכה בתנאים ובהגבלות שייקבעו על ידי המבטח, כנגד תשלום דמי ביטוח נוספים. המבוטח צריך להגיש בקשה להארכה למבטח. כיסוי ביטוחי יינתן גם במקרים של אובדן או גניבה, בתנאי שנרכש כיסוי מתאים. 'דרכון פרימיום' היא פוליסת ביטוח נסיעות לחול.",
+    "row_axis": "circumstances for policy extension",
+    "column_axis": "policy conditions",
     "units": [],
     "notable_values": [
-      "policy extension: due to hospitalization abroad",
-      "medical documentation: required for extension",
-      "additional premiums: required for extension",
-      "competent doctor: opinion needed for extension",
-      "return to Israel: extension until able to return"
+      "רופא מוסמך: qualification for extension",
+      "תקופת הביטוח: relevant to extension",
+      "דמי ביטוח נוספים: required for extension",
+      "חוות דעת רפואית: required document"
     ],
     "product_hints": [
-      "דרכון פרימיום",
-      "ביטוח נסיעות לחול"
+      "דרכון פרימיום"
     ]
   },
   "sketch": "אירע למבוטח מקרה -הארכת הפוליסה עקב שהות בחו\"ל מעבר לתקופת הביטוח . 11.2 ביטוח המכוסה עפ\"י פוליסה זו בעת היותו בחו\"ל במשך תקופת הביטוח ו/או אושפז המבוטח בחו\"ל ועקב האירוע או במהלך אשפוזו של המבוטח תמה תקופת הביטוח על פי פוליסה זו, ונמסרה למבטח חוות דעת של רופא מוסמך כי המבוטח אינו יכול לשוב לישראל עקב האירוע הרפואי או האשפוז, תוארך תקופת הביטוח עד המועד בו קבע הרופא כי המבוטח יכול לחזור לישראל.\n. הבקשה להארכה תוגש למבטח והיא תבוצע לאחר שיומצאו למבטח המסמכים 11.3 הרפואיים הנוגעים לאשפוז, תמורת דמי ביטוח נוספים, בתנאים ובהגבלות שייקבעו ע\"י המבטח.",
-  "embed_text": "פוליסת דרכון פרימיום מכסה מקרים בהם המבוטח אושפז בחו״ל ותקופת הביטוח הסתיימה, וחוות דעת רפואית קובעת כי הוא אינו יכול לחזור לישראל. במקרים אלו, תקופת הביטוח תוארך עד למועד שבו הרופא יאשר את חזרתו. הארכת הפוליסה תלויה בהמצאת מסמכים רפואיים ותשלום דמי ביטוח נוספים.",
-  "payload": "טבלה: הארכת פוליסה\nThis table details the conditions for extending a travel insurance policy due to being abroad when it expires, specifically when hospitalization prevents return to Israel. It outlines the requirements for extension and the need for additional premiums.\nממדים: Scenarios requiring policy extension, Conditions and procedures for extension\n\nאירע למבוטח מקרה -הארכת הפוליסה עקב שהות בחו\"ל מעבר לתקופת הביטוח . 11.2 ביטוח המכוסה עפ\"י פוליסה זו בעת היותו בחו\"ל במשך תקופת הביטוח ו/או אושפז המבוטח בחו\"ל ועקב האירוע או במהלך אשפוזו של המבוטח תמה תקופת הביטוח על פי פוליסה זו, ונמסרה למבטח חוות דעת של רופא מוסמך כי המבוטח אינו יכול לשוב לישראל עקב האירוע הרפואי או האשפוז, תוארך תקופת הביטוח עד המועד בו קבע הרופא כי המבוטח יכול לחזור לישראל.\n. הבקשה להארכה תוגש למבטח והיא תבוצע לאחר שיומצאו למבטח המסמכים 11.3 הרפואיים הנוגעים לאשפוז, תמורת דמי ביטוח נוספים, בתנאים ובהגבלות שייקבעו ע\"י המבטח."
+  "embed_text": "טבלה זו מתארת את התנאים להארכת פוליסת הביטוח עקב שהות בחו\"ל מעבר לתקופת הביטוח המקורית. הארכת הפוליסה אפשרית כאשר המבוטח מאושפז בחו\"ל או אינו יכול לשוב לישראל עקב מצב רפואי, ובתנאי שיומצאו מסמכים רפואיים מתאימים. פוליסת 'דרכון פרימיום' מאפשרת הארכה בתנאים ובהגבלות שייקבעו על ידי המבטח, כנגד תשלום דמי ביטוח נוספים. המבוטח צריך להגיש בקשה להארכה למבטח. כיסוי ביטוחי יינתן גם במקרים של אובדן או גניבה, בתנאי שנרכש כיסוי מתאים. 'דרכון פרימיום' היא פוליסת ביטוח נסיעות לחול. This table details the conditions for extending the insurance policy due to being abroad beyond the policy period. It outlines scenarios where coverage continues during hospitalization or inability to return to Israel. בין הערכים בטבלה: רופא מוסמך: qualification for extension; חוות דעת רפואית: required document.",
+  "payload": "טבלה: הארכת הפוליסה\nThis table details the conditions for extending the insurance policy due to being abroad beyond the policy period. It outlines scenarios where coverage continues during hospitalization or inability to return to Israel.\nממדים: circumstances for policy extension, policy conditions\n\nאירע למבוטח מקרה -הארכת הפוליסה עקב שהות בחו\"ל מעבר לתקופת הביטוח . 11.2 ביטוח המכוסה עפ\"י פוליסה זו בעת היותו בחו\"ל במשך תקופת הביטוח ו/או אושפז המבוטח בחו\"ל ועקב האירוע או במהלך אשפוזו של המבוטח תמה תקופת הביטוח על פי פוליסה זו, ונמסרה למבטח חוות דעת של רופא מוסמך כי המבוטח אינו יכול לשוב לישראל עקב האירוע הרפואי או האשפוז, תוארך תקופת הביטוח עד המועד בו קבע הרופא כי המבוטח יכול לחזור לישראל.\n. הבקשה להארכה תוגש למבטח והיא תבוצע לאחר שיומצאו למבטח המסמכים 11.3 הרפואיים הנוגעים לאשפוז, תמורת דמי ביטוח נוספים, בתנאים ובהגבלות שייקבעו ע\"י המבטח."
 }

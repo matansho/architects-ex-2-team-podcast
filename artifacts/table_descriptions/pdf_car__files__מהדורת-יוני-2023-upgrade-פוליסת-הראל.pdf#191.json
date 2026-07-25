@@ -2,23 +2,26 @@
   "id": "pdf:car/files/מהדורת-יוני-2023-upgrade-פוליסת-הראל.pdf#191",
   "source": "llm",
   "description": {
-    "title": "ביטול פוליסה",
-    "summary": "This table details the conditions and refund amounts related to policy cancellation. It outlines the notice periods required for cancellation by both the insurer and the insured.",
-    "embed_passage": "פוליסת הראל מאפשרת ביטול בכל עת לפני תום התקופה, ובתנאים מסוימים גם על ידי המבטח. במקרה של ביטול על ידי המבטח, יוחזר למבוטח חלק יחסי מדמי הביטוח ששולמו, תוך 14 ימים מהמועד שבו נכנס הביטול לתוקף. סעיף 46 מתאר את התהליך והתנאים להחזר כספי.",
-    "row_axis": "Cancellation scenarios/conditions",
-    "column_axis": "Cancellation details (notice period, refund process)",
+    "title": "ביטול הפוליסה",
+    "summary": "This table details the conditions and procedures for policy cancellation by both the insurer and the insured. It specifies notification periods and refund calculations.",
+    "embed_passage": "טבלה זו מתארת את תנאי ביטול הפוליסה על ידי המבטח והמבוטח, כולל תקופות הודעה מוקדמת וחישוב החזרים. ניתן לעיין בטבלה כדי להבין את זכויות הצדדים במקרה של ביטול, תוך התייחסות לסעיפים 46.1 עד 46.5 בפוליסה. הפוליסה הרלוונטית היא הראל. הנתונים בטבלה כוללים את מספר הימים להודעה על ביטול, את החלק היחסי של דמי הביטוח המוחזרים, ואת התנאים לביטול פוליסה משועבדת. ביטול הפוליסה יכול להתבצע בכל עת לפני תום תקופת הביטוח, או על ידי המבטח בתנאים מסוימים. תקופת ההודעה המוקדמת היא 14 ימים ו-30 ימים.",
+    "row_axis": "תנאי ביטול",
+    "column_axis": "סעיפי הפוליסה",
     "units": [],
     "notable_values": [
-      "notice period: 45 days",
-      "refund timeframe: 14 days",
-      "refund type: proportional premium"
+      "ימים: 14",
+      "ימים: 30",
+      "סעיף: 46.1",
+      "סעיף: 46.2",
+      "סעיף: 46.3",
+      "סעיף: 46.4",
+      "סעיף: 46.5"
     ],
     "product_hints": [
-      "הראל",
-      "פוליסה"
+      "הראל"
     ]
   },
   "sketch": "בלי לגרוע מזכויות המבטח על פי דין, רשאי המבטח לבטל את הביטוח לפני תום תקופת .46.2 הביטוח, ובלבד שהודעה על כך, שבה ייכללו הנימוקים לביטול, תישלח למבוטח בדואר ימים לפחות לפני התאריך שבו יתבטל הביטוח. 45 רשום\nימים מהמועד 14ביטל המבטח את הפוליסה, יחזיר המבטח למבוטח בהקדם, ולא יאוחר מ .46.3 שבו נכנס הביטול לתוקף, את החלק היחסי מדמי הביטוח ששולמו.",
-  "embed_text": "פוליסת הראל מאפשרת ביטול בכל עת לפני תום התקופה, ובתנאים מסוימים גם על ידי המבטח. במקרה של ביטול על ידי המבטח, יוחזר למבוטח חלק יחסי מדמי הביטוח ששולמו, תוך 14 ימים מהמועד שבו נכנס הביטול לתוקף. סעיף 46 מתאר את התהליך והתנאים להחזר כספי.",
-  "payload": "טבלה: ביטול פוליסה\nThis table details the conditions and refund amounts related to policy cancellation. It outlines the notice periods required for cancellation by both the insurer and the insured.\nממדים: Cancellation scenarios/conditions, Cancellation details (notice period, refund process)\n\nבלי לגרוע מזכויות המבטח על פי דין, רשאי המבטח לבטל את הביטוח לפני תום תקופת .46.2 הביטוח, ובלבד שהודעה על כך, שבה ייכללו הנימוקים לביטול, תישלח למבוטח בדואר ימים לפחות לפני התאריך שבו יתבטל הביטוח. 45 רשום\nימים מהמועד 14ביטל המבטח את הפוליסה, יחזיר המבטח למבוטח בהקדם, ולא יאוחר מ .46.3 שבו נכנס הביטול לתוקף, את החלק היחסי מדמי הביטוח ששולמו."
+  "embed_text": "טבלה זו מתארת את תנאי ביטול הפוליסה על ידי המבטח והמבוטח, כולל תקופות הודעה מוקדמת וחישוב החזרים. ניתן לעיין בטבלה כדי להבין את זכויות הצדדים במקרה של ביטול, תוך התייחסות לסעיפים 46.1 עד 46.5 בפוליסה. הפוליסה הרלוונטית היא הראל. הנתונים בטבלה כוללים את מספר הימים להודעה על ביטול, את החלק היחסי של דמי הביטוח המוחזרים, ואת התנאים לביטול פוליסה משועבדת. ביטול הפוליסה יכול להתבצע בכל עת לפני תום תקופת הביטוח, או על ידי המבטח בתנאים מסוימים. תקופת ההודעה המוקדמת היא 14 ימים ו-30 ימים. This table details the conditions and procedures for policy cancellation by both the insurer and the insured. It specifies notification periods and refund calculations. בין הערכים בטבלה: סעיף: 46.2; סעיף: 46.3; סעיף: 46.4.",
+  "payload": "טבלה: ביטול הפוליסה\nThis table details the conditions and procedures for policy cancellation by both the insurer and the insured. It specifies notification periods and refund calculations.\nממדים: תנאי ביטול, סעיפי הפוליסה\n\nבלי לגרוע מזכויות המבטח על פי דין, רשאי המבטח לבטל את הביטוח לפני תום תקופת .46.2 הביטוח, ובלבד שהודעה על כך, שבה ייכללו הנימוקים לביטול, תישלח למבוטח בדואר ימים לפחות לפני התאריך שבו יתבטל הביטוח. 45 רשום\nימים מהמועד 14ביטל המבטח את הפוליסה, יחזיר המבטח למבוטח בהקדם, ולא יאוחר מ .46.3 שבו נכנס הביטול לתוקף, את החלק היחסי מדמי הביטוח ששולמו."
 }

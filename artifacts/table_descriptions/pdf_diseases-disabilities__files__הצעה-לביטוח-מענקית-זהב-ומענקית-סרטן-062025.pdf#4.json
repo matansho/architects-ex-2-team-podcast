@@ -2,26 +2,27 @@
   "id": "pdf:diseases-disabilities/files/הצעה-לביטוח-מענקית-זהב-ומענקית-סרטן-062025.pdf#4",
   "source": "llm",
   "description": {
-    "title": "מענקית זהב וסרטן - הצעת ביטוח",
-    "summary": "This table details insurance amounts (sums insured) for different family compositions for the 'מענקית זהב' and 'מענקית סרטן' policies. It allows you to look up the coverage amount based on the number of children or family structure.",
-    "embed_passage": "פוליסת 'מענקית זהב' ו'מענקית סרטן' מציעה סכום ביטוח משתנה בהתאם להרכב המשפחה. לדוגמה, עבור זוג בן/בת סכום הביטוח הוא ₪ ב, עבור ילד אחד סכום הביטוח הוא ₪ ב, ועבור 4 ילדים סכום הביטוח הוא ₪ ב. סכומים אלו מציינים את הכיסוי במקרה של אבחון מחלה קשה.",
-    "row_axis": "family composition (number of children, couple)",
-    "column_axis": "insurance amount (sum insured)",
+    "title": "מענקית - פרימיום קשות מחלות",
+    "summary": "This table details coverage amounts for different family compositions under the 'מענקית - פרימיום קשות מחלות' insurance plan. It shows the 'סכום ₪ ב ביטוח' (insurance amount in ₪) for various family structures.",
+    "embed_passage": "טבלה זו מתארת את סכומי הכיסוי עבור הרכבי משפחה שונים במסגרת תוכנית הביטוח 'מענקית - פרימיום קשות מחלות'. ניתן לחפש סכום ביטוח לפי הרכב המשפחה, כגון 'ילד', 'זוג בן/בת' או 'ראש'. הטבלה מציגה את הסכום ב₪ (סכום ₪ ב ביטוח). הרכבי משפחה לדוגמה כוללים: 1 ילד, 2 ילד, 3 ילד, 4 ילד, זוג בן/בת, וראש. סכומי הביטוח משתנים בהתאם להרכב המשפחה.",
+    "row_axis": "הרכב משפחה (family composition)",
+    "column_axis": "סכום ביטוח (insurance amount)",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "1 ילד סכום: ₪ ב",
-      "2 ילד סכום: ₪ ב",
-      "4 ילד סכום: ₪ ב",
-      "זוג בן/בת סכום: ₪ ב"
+      "1 ילד: סכום ₪ ב ביטוח",
+      "2 ילד: סכום ₪ ב ביטוח",
+      "3 ילד: סכום.₪ ב ביטוח",
+      "4 ילד: סכום ₪ ב ביטוח",
+      "זוג בן/בת: סכום ₪ ב ביטוח",
+      "ראש: סכום ₪ ב ביטוח"
     ],
     "product_hints": [
-      "מענקית זהב",
-      "מענקית סרטן"
+      "מענקית - פרימיום קשות מחלות"
     ]
   },
   "sketch": "4 ילד סכום ₪ ב ביטוח.,3 ילד סכום.₪ ב ביטוח,2 ילד סכום ₪ ב ביטוח.,1 ילד סכום ₪ ב ביטוח.,זוג בן/בת סכום ₪ ב ביטוח.,י ראש סכום ₪ ב ביטוח.,ת התוכני שם,\n,,,,,,ב זה מענקית - פרימיום קשות מחלות,2",
-  "embed_text": "פוליסת 'מענקית זהב' ו'מענקית סרטן' מציעה סכום ביטוח משתנה בהתאם להרכב המשפחה. לדוגמה, עבור זוג בן/בת סכום הביטוח הוא ₪ ב, עבור ילד אחד סכום הביטוח הוא ₪ ב, ועבור 4 ילדים סכום הביטוח הוא ₪ ב. סכומים אלו מציינים את הכיסוי במקרה של אבחון מחלה קשה.",
-  "payload": "טבלה: מענקית זהב וסרטן - הצעת ביטוח\nThis table details insurance amounts (sums insured) for different family compositions for the 'מענקית זהב' and 'מענקית סרטן' policies. It allows you to look up the coverage amount based on the number of children or family structure.\nממדים: family composition (number of children, couple), insurance amount (sum insured)\n\n4 ילד סכום ₪ ב ביטוח.,3 ילד סכום.₪ ב ביטוח,2 ילד סכום ₪ ב ביטוח.,1 ילד סכום ₪ ב ביטוח.,זוג בן/בת סכום ₪ ב ביטוח.,י ראש סכום ₪ ב ביטוח.,ת התוכני שם,\n,,,,,,ב זה מענקית - פרימיום קשות מחלות,2"
+  "embed_text": "טבלה זו מתארת את סכומי הכיסוי עבור הרכבי משפחה שונים במסגרת תוכנית הביטוח 'מענקית - פרימיום קשות מחלות'. ניתן לחפש סכום ביטוח לפי הרכב המשפחה, כגון 'ילד', 'זוג בן/בת' או 'ראש'. הטבלה מציגה את הסכום ב₪ (סכום ₪ ב ביטוח). הרכבי משפחה לדוגמה כוללים: 1 ילד, 2 ילד, 3 ילד, 4 ילד, זוג בן/בת, וראש. סכומי הביטוח משתנים בהתאם להרכב המשפחה. This table details coverage amounts for different family compositions under the 'מענקית - פרימיום קשות מחלות' insurance plan. It shows the 'סכום ₪ ב ביטוח' (insurance amount in ₪) for various family structures.",
+  "payload": "טבלה: מענקית - פרימיום קשות מחלות\nThis table details coverage amounts for different family compositions under the 'מענקית - פרימיום קשות מחלות' insurance plan. It shows the 'סכום ₪ ב ביטוח' (insurance amount in ₪) for various family structures.\nממדים: הרכב משפחה (family composition), סכום ביטוח (insurance amount)\n\n4 ילד סכום ₪ ב ביטוח.,3 ילד סכום.₪ ב ביטוח,2 ילד סכום ₪ ב ביטוח.,1 ילד סכום ₪ ב ביטוח.,זוג בן/בת סכום ₪ ב ביטוח.,י ראש סכום ₪ ב ביטוח.,ת התוכני שם,\n,,,,,,ב זה מענקית - פרימיום קשות מחלות,2"
 }

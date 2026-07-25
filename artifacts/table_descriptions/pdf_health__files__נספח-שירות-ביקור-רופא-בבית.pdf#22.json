@@ -2,26 +2,21 @@
   "id": "pdf:health/files/נספח-שירות-ביקור-רופא-בבית.pdf#22",
   "source": "llm",
   "description": {
-    "title": "ביקור רופא בבית",
-    "summary": "This table details conditions and costs related to at-home doctor visit services. It outlines age restrictions, disclaimers about test results, and self-participation fees.",
-    "embed_passage": "שירות ביקור רופא בבית ניתן בכל מקום ישוב בישראל, למעט אזורים מסוימים. על אף האמור, לא יינתן שירות לבדיקות דם לילדים מתחת לגיל 5. המנוי ישלם דמי השתתפות עצמית של ₪ 40 לכל ביקור.",
-    "row_axis": "service conditions / clarifications",
-    "column_axis": "aspect of service",
-    "units": [
-      "₪",
-      "שעות",
-      "גיל"
-    ],
+    "title": "שירותי מעבדה בבית",
+    "summary": "This table details conditions for at-home lab services. It specifies exclusions based on age and clarifies the scope of lab test results.",
+    "embed_passage": "טבלה זו מתארת את תנאי שירותי מעבדה בבית, כולל מגבלות גיל ותנאים להצגת טופס הפנייה. השירות מאפשר קבלת תוצאות בדיקות מעבדה, אך אינו כולל אבחון רפואי. ניתן לבדוק את הזכאות לשירות בהתאם לגיל המנוי ולמיקום המגורים. שירות מעבדה בבית, בדיקות דם, דגימת שתן, משטח, ילדים מתחת לגיל 5, ספח ביקורת, דמי השתתפות עצמית.",
+    "row_axis": "conditions/clarifications related to the lab service",
+    "column_axis": "aspects of the service (e.g., age restrictions, result scope, confirmation)",
+    "units": [],
     "notable_values": [
-      "age: 5",
-      "self-participation fee: ₪ 40",
-      "notice period for cancellation: 6 שעות"
+      "age limit: 5",
+      "self-participation fee: ₪ 40"
     ],
     "product_hints": [
-      "ביקור רופא בבית"
+      "שירותי מעבדה בבית"
     ]
   },
   "sketch": "על אף האמור בכתב שירות זה, לא יינתן שירות בהתייחס לבדיקות דם לילדים מתחת 3.2.7 .  5 לגיל\nמובהר בזאת במפורש, כי תוצאות בדיקות המעבדה יציינו אך ורק את הפרמטרים 3.2.8 הנבדקים בהן, וכי הן לא יכללו אבחון, וכן אין בהן כדי לקבוע מהו מצבו הבריאותי של . הנבדק, או כדי להחליף בדיקה אצל רופא במקום שהמנוי מתלונן על מיחושים כלשהם\nעם תום לקיחת הדמים/דגימת השתן/המשטח הרלוונטי יחתום המנוי או בן משפחתו, על 3.2.9 . ספח ביקורת לפיו הוא מאשר, כי מבצע השירות ביצע את השירות",
-  "embed_text": "שירות ביקור רופא בבית ניתן בכל מקום ישוב בישראל, למעט אזורים מסוימים. על אף האמור, לא יינתן שירות לבדיקות דם לילדים מתחת לגיל 5. המנוי ישלם דמי השתתפות עצמית של ₪ 40 לכל ביקור.",
-  "payload": "טבלה: ביקור רופא בבית\nThis table details conditions and costs related to at-home doctor visit services. It outlines age restrictions, disclaimers about test results, and self-participation fees.\nממדים: service conditions / clarifications, aspect of service\n\nעל אף האמור בכתב שירות זה, לא יינתן שירות בהתייחס לבדיקות דם לילדים מתחת 3.2.7 .  5 לגיל\nמובהר בזאת במפורש, כי תוצאות בדיקות המעבדה יציינו אך ורק את הפרמטרים 3.2.8 הנבדקים בהן, וכי הן לא יכללו אבחון, וכן אין בהן כדי לקבוע מהו מצבו הבריאותי של . הנבדק, או כדי להחליף בדיקה אצל רופא במקום שהמנוי מתלונן על מיחושים כלשהם\nעם תום לקיחת הדמים/דגימת השתן/המשטח הרלוונטי יחתום המנוי או בן משפחתו, על 3.2.9 . ספח ביקורת לפיו הוא מאשר, כי מבצע השירות ביצע את השירות"
+  "embed_text": "טבלה זו מתארת את תנאי שירותי מעבדה בבית, כולל מגבלות גיל ותנאים להצגת טופס הפנייה. השירות מאפשר קבלת תוצאות בדיקות מעבדה, אך אינו כולל אבחון רפואי. ניתן לבדוק את הזכאות לשירות בהתאם לגיל המנוי ולמיקום המגורים. שירות מעבדה בבית, בדיקות דם, דגימת שתן, משטח, ילדים מתחת לגיל 5, ספח ביקורת, דמי השתתפות עצמית. This table details conditions for at-home lab services. It specifies exclusions based on age and clarifies the scope of lab test results. בין הערכים בטבלה: self-participation fee: ₪ 40.",
+  "payload": "טבלה: שירותי מעבדה בבית\nThis table details conditions for at-home lab services. It specifies exclusions based on age and clarifies the scope of lab test results.\nממדים: conditions/clarifications related to the lab service, aspects of the service (e.g., age restrictions, result scope, confirmation)\n\nעל אף האמור בכתב שירות זה, לא יינתן שירות בהתייחס לבדיקות דם לילדים מתחת 3.2.7 .  5 לגיל\nמובהר בזאת במפורש, כי תוצאות בדיקות המעבדה יציינו אך ורק את הפרמטרים 3.2.8 הנבדקים בהן, וכי הן לא יכללו אבחון, וכן אין בהן כדי לקבוע מהו מצבו הבריאותי של . הנבדק, או כדי להחליף בדיקה אצל רופא במקום שהמנוי מתלונן על מיחושים כלשהם\nעם תום לקיחת הדמים/דגימת השתן/המשטח הרלוונטי יחתום המנוי או בן משפחתו, על 3.2.9 . ספח ביקורת לפיו הוא מאשר, כי מבצע השירות ביצע את השירות"
 }

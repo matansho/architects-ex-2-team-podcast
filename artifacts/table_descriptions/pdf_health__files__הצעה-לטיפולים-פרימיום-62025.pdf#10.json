@@ -2,24 +2,27 @@
   "id": "pdf:health/files/הצעה-לטיפולים-פרימיום-62025.pdf#10",
   "source": "llm",
   "description": {
-    "title": "בדיקות רפואיות",
-    "summary": "This table lists various medical tests and procedures. It is used to determine if a test was previously detailed in prior questions.",
-    "embed_passage": "פוליסת טיפולים פרימיום כוללת בדיקות רפואיות שונות, כגון ממוגרפיה, מיפוי עצמות וצנתור. הבדיקות עשויות להיות כרוכות בטשטוש או הרדמה. השאלה היא האם הבדיקה כבר פורטה בשאלות קודמות, לדוגמה, האם פרטת על כך באחת מהשאלות הקודמות?",
-    "row_axis": "Medical test/procedure",
-    "column_axis": "Whether previously detailed",
+    "title": "טיפולים פרימיום",
+    "summary": "This table lists medical procedures and asks whether they have been previously detailed in prior questions. It is used to determine coverage under a 'טיפולים פרימיום' plan.",
+    "embed_passage": "טבלה זו מתייחסת לטיפולים פרימיום ומטרתה לבדוק האם הלקוח כבר ציין הליכים רפואיים מסוימים בשאלות קודמות. ניתן לחפש מידע על הליכים ספציפיים כמו ממוגרפיה, מיפוי עצמות, או צנתור. הנתונים בטבלה משמשים לקביעת תנאי הכיסוי בפוליסה. הליכים רפואיים לדוגמה כוללים ממוגרפיה, מיפוי עצמות, צנתור, מיפוי לב, אקו לב, הריון, ביופסיה, דם סמוי, קולונוסקופיה, גסטרוסקופיה, CT ו-MRI.",
+    "row_axis": "Medical procedure",
+    "column_axis": "Previous disclosure",
     "units": [],
     "notable_values": [
-      "ממוגרפיה: yes",
-      "מיפוי עצמות: yes",
-      "צנתור: yes",
-      "מיפוי לב: yes",
-      "אקו לב: yes"
+      "ממוגרפיה: כן",
+      "מיפוי עצמות: כן",
+      "צנתור: כן",
+      "מיפוי לב: כן",
+      "אקו לב: כן",
+      "הריון: כן",
+      "ביופסיה: כן",
+      "דם סמוי: כן"
     ],
     "product_hints": [
       "טיפולים פרימיום"
     ]
   },
-  "sketch": "12\nממוגרפיה, מיפוי עצמות, צנתור, מיפוי לב, אקו לב\nהכרוכה בטשטוש/הרדמה)\nהריון, ביופסיה, דם סמוי, קולונוסקופיה, גסטרוסקופיה\n…\nהאם פרטת על כך באחת מהשאלות הקודמות\n-\nאם כן\n)\t( השאלה מופנית להורה או לאפוטרופוס של מועמד לביטוח שהינו קטין או פסול דין בלבד.",
-  "embed_text": "פוליסת טיפולים פרימיום כוללת בדיקות רפואיות שונות, כגון ממוגרפיה, מיפוי עצמות וצנתור. הבדיקות עשויות להיות כרוכות בטשטוש או הרדמה. השאלה היא האם הבדיקה כבר פורטה בשאלות קודמות, לדוגמה, האם פרטת על כך באחת מהשאלות הקודמות?",
-  "payload": "טבלה: בדיקות רפואיות\nThis table lists various medical tests and procedures. It is used to determine if a test was previously detailed in prior questions.\nממדים: Medical test/procedure, Whether previously detailed\n\n12\nממוגרפיה, מיפוי עצמות, צנתור, מיפוי לב, אקו לב\nהכרוכה בטשטוש/הרדמה)\nהריון, ביופסיה, דם סמוי, קולונוסקופיה, גסטרוסקופיה\n כן\nCT ,MRI ,\n?\nהאם פרטת על כך באחת מהשאלות הקודמות\n-\nאם כן\n)\t( השאלה מופנית להורה או לאפוטרופוס של מועמד לביטוח שהינו קטין או פסול דין בלבד."
+  "sketch": "12\nממוגרפיה, מיפוי עצמות, צנתור, מיפוי לב, אקו לב\nהכרוכה בטשטוש/הרדמה)\nהריון, ביופסיה, דם סמוי, קולונוסקופיה, גסטרוסקופיה\n כן\nCT ,MRI ,\n?\nהאם פרטת על כך באחת מהשאלות הקודמות\n-\nאם כן\n)\t( השאלה מופנית להורה או לאפוטרופוס של מועמד לביטוח שהינו קטין או פסול דין בלבד.",
+  "embed_text": "טבלה זו מתייחסת לטיפולים פרימיום ומטרתה לבדוק האם הלקוח כבר ציין הליכים רפואיים מסוימים בשאלות קודמות. ניתן לחפש מידע על הליכים ספציפיים כמו ממוגרפיה, מיפוי עצמות, או צנתור. הנתונים בטבלה משמשים לקביעת תנאי הכיסוי בפוליסה. הליכים רפואיים לדוגמה כוללים ממוגרפיה, מיפוי עצמות, צנתור, מיפוי לב, אקו לב, הריון, ביופסיה, דם סמוי, קולונוסקופיה, גסטרוסקופיה, CT ו-MRI. This table lists medical procedures and asks whether they have been previously detailed in prior questions. It is used to determine coverage under a 'טיפולים פרימיום' plan.",
+  "payload": "טבלה: טיפולים פרימיום\nThis table lists medical procedures and asks whether they have been previously detailed in prior questions. It is used to determine coverage under a 'טיפולים פרימיום' plan.\nממדים: Medical procedure, Previous disclosure\n\n12\nממוגרפיה, מיפוי עצמות, צנתור, מיפוי לב, אקו לב\nהכרוכה בטשטוש/הרדמה)\nהריון, ביופסיה, דם סמוי, קולונוסקופיה, גסטרוסקופיה\n כן\nCT ,MRI ,\n?\nהאם פרטת על כך באחת מהשאלות הקודמות\n-\nאם כן\n)\t( השאלה מופנית להורה או לאפוטרופוס של מועמד לביטוח שהינו קטין או פסול דין בלבד."
 }

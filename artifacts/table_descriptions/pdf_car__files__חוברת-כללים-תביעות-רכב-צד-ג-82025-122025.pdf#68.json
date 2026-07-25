@@ -2,22 +2,27 @@
   "id": "pdf:car/files/חוברת-כללים-תביעות-רכב-צד-ג-82025-122025.pdf#68",
   "source": "llm",
   "description": {
-    "title": "פרטי תאונה",
-    "summary": "This table outlines the necessary information to collect after a car accident involving a third party. It details what information about the involved parties, vehicles, and insurance policies should be recorded and exchanged.",
-    "embed_passage": "בעת תאונה, חשוב לרשום את פרטי המעורבים, כולל שם ומספר תעודת זהות, כתובת, ופרטי הרכב כמו דגם ומספר. כמו כן, יש לרשום את פרטי פוליסת הביטוח של הצד השני, כולל חברה ומספר פוליסה. חברת הראל ממליצה להדפיס את הספח לקבלת פרטים מאתר החברה.",
-    "row_axis": "Information needed after a car accident",
-    "column_axis": "Details of involved parties, vehicles, and insurance",
+    "title": "פרטי מעורבים בתאונה",
+    "summary": "This table outlines the necessary details to record and exchange after a car accident involving a third party. It lists the information required from all parties involved, including personal details, vehicle information, and insurance policy details.",
+    "embed_passage": "טבלה זו מפרטת את הפרטים ההכרחיים לרישום והעברה לאחר תאונת דרכים בה מעורב צד ג׳. המידע הנדרש כולל פרטים אישיים, פרטי רכב ופרטי פוליסת ביטוח. ניתן להשתמש בטבלה זו כדי להבטיח שכל המידע הרלוונטי נאסף בזמן תאונה. יש לרשום שם ומספר תעודת זהות, כתובת ומספר טלפון של המעורבים. כמו כן, יש לרשום פרטי רישיון נהיגה ופרטי הרכב (דגם, מספר, צבע, שם בעלים). פרטי פוליסת הביטוח (חברה, מס' פוליסה) ופרטי סוכן הביטוח (שם, כתובת, טלפון) גם נדרשים.",
+    "row_axis": "מעורב בתאונה",
+    "column_axis": "סוג פרט",
     "units": [],
     "notable_values": [
-      "number of steps: 2",
-      "phone number: 03-9294000",
-      "website: www.harel-group.co.il"
+      "שם: שם ומספר תעודת זהות",
+      "כתובת: כתובת",
+      "מספר טלפון: מספר טלפון",
+      "רישיון נהיגה: פרטי רישיון נהיגה",
+      "דגם: דגם",
+      "מספר: מספר",
+      "צבע: צבע",
+      "שם בעלים: שם בעלים"
     ],
     "product_hints": [
-      "הראל"
+      "ביטוח רכב צד ג'"
     ]
   },
-  "sketch": "2\nרשום את הפרטים הבאים של המעורבים בתאונה ומסור -. קבלת ומסירת פרטים 3 לאחרים את שלך. הפרטים ההכרחיים לקבלה ומסירה הינם:\nשם ומספר תעודת זהות.\n. כתובת\n…\n.( פרטי הרכב )דגם, מספר, צבע, שם בעלים הרשום ברשיון הרכב\n.( פרטי פוליסת הביטוח )חברה, מס' פוליסה\n.( פרטי סוכן הביטוח )שם, כתובת, טלפון\nאותו תשמור ,\" \"הספח לקבלת פרטים אנו ממליצים להדפיס מאתר חברת הראל את . ברכבך במצורף לרשיון הרכב, כדי שתזכור לקבל מלוא הפרטים בעת תאונה",
-  "embed_text": "בעת תאונה, חשוב לרשום את פרטי המעורבים, כולל שם ומספר תעודת זהות, כתובת, ופרטי הרכב כמו דגם ומספר. כמו כן, יש לרשום את פרטי פוליסת הביטוח של הצד השני, כולל חברה ומספר פוליסה. חברת הראל ממליצה להדפיס את הספח לקבלת פרטים מאתר החברה.",
-  "payload": "טבלה: פרטי תאונה\nThis table outlines the necessary information to collect after a car accident involving a third party. It details what information about the involved parties, vehicles, and insurance policies should be recorded and exchanged.\nממדים: Information needed after a car accident, Details of involved parties, vehicles, and insurance\n\n2\nרשום את הפרטים הבאים של המעורבים בתאונה ומסור -. קבלת ומסירת פרטים 3 לאחרים את שלך. הפרטים ההכרחיים לקבלה ומסירה הינם:\nשם ומספר תעודת זהות.\n. כתובת\nמספר טלפון.\nפרטי רישיון נהיגה של הנהג המעורב.\n.( פרטי הרכב )דגם, מספר, צבע, שם בעלים הרשום ברשיון הרכב\n.( פרטי פוליסת הביטוח )חברה, מס' פוליסה\n.( פרטי סוכן הביטוח )שם, כתובת, טלפון\nאותו תשמור ,\" \"הספח לקבלת פרטים אנו ממליצים להדפיס מאתר חברת הראל את . ברכבך במצורף לרשיון הרכב, כדי שתזכור לקבל מלוא הפרטים בעת תאונה"
+  "sketch": "2\nרשום את הפרטים הבאים של המעורבים בתאונה ומסור -. קבלת ומסירת פרטים 3 לאחרים את שלך. הפרטים ההכרחיים לקבלה ומסירה הינם:\nשם ומספר תעודת זהות.\n. כתובת\nמספר טלפון.\nפרטי רישיון נהיגה של הנהג המעורב.\n.( פרטי הרכב )דגם, מספר, צבע, שם בעלים הרשום ברשיון הרכב\n.( פרטי פוליסת הביטוח )חברה, מס' פוליסה\n.( פרטי סוכן הביטוח )שם, כתובת, טלפון\nאותו תשמור ,\" \"הספח לקבלת פרטים אנו ממליצים להדפיס מאתר חברת הראל את . ברכבך במצורף לרשיון הרכב, כדי שתזכור לקבל מלוא הפרטים בעת תאונה",
+  "embed_text": "טבלה זו מפרטת את הפרטים ההכרחיים לרישום והעברה לאחר תאונת דרכים בה מעורב צד ג׳. המידע הנדרש כולל פרטים אישיים, פרטי רכב ופרטי פוליסת ביטוח. ניתן להשתמש בטבלה זו כדי להבטיח שכל המידע הרלוונטי נאסף בזמן תאונה. יש לרשום שם ומספר תעודת זהות, כתובת ומספר טלפון של המעורבים. כמו כן, יש לרשום פרטי רישיון נהיגה ופרטי הרכב (דגם, מספר, צבע, שם בעלים). פרטי פוליסת הביטוח (חברה, מס' פוליסה) ופרטי סוכן הביטוח (שם, כתובת, טלפון) גם נדרשים. This table outlines the necessary details to record and exchange after a car accident involving a third party. It lists the information required from all parties involved, including personal details, vehicle information, and insurance policy details.",
+  "payload": "טבלה: פרטי מעורבים בתאונה\nThis table outlines the necessary details to record and exchange after a car accident involving a third party. It lists the information required from all parties involved, including personal details, vehicle information, and insurance policy details.\nממדים: מעורב בתאונה, סוג פרט\n\n2\nרשום את הפרטים הבאים של המעורבים בתאונה ומסור -. קבלת ומסירת פרטים 3 לאחרים את שלך. הפרטים ההכרחיים לקבלה ומסירה הינם:\nשם ומספר תעודת זהות.\n. כתובת\nמספר טלפון.\nפרטי רישיון נהיגה של הנהג המעורב.\n.( פרטי הרכב )דגם, מספר, צבע, שם בעלים הרשום ברשיון הרכב\n.( פרטי פוליסת הביטוח )חברה, מס' פוליסה\n.( פרטי סוכן הביטוח )שם, כתובת, טלפון\nאותו תשמור ,\" \"הספח לקבלת פרטים אנו ממליצים להדפיס מאתר חברת הראל את . ברכבך במצורף לרשיון הרכב, כדי שתזכור לקבל מלוא הפרטים בעת תאונה"
 }

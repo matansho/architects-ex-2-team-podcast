@@ -3,22 +3,22 @@
   "source": "llm",
   "description": {
     "title": "ביטול פוליסה",
-    "summary": "This table details the refund of insurance premiums upon policy cancellation. It outlines how the proportional refund is calculated based on the remaining days of the policy.",
-    "embed_passage": "פוליסת רכב שאינו רכב פרטי ומסחרי עד 35 טון מסבירה כי בעת ביטול הפוליסה על ידי המבטח, יוחזר לבעל הפוליסה חלק יחסי מדמי הביטוח ששולמו. החלק היחסי מחושב על ידי הכפלת דמי הביטוח ביחס שבין מספר הימים שנותרו עד תום תקופת הביטוח המקורית, ובין מספר הימים בתקופת הביטוח המקורית.",
-    "row_axis": "Cancellation scenarios / conditions",
-    "column_axis": "Refund details / calculation steps",
+    "summary": "This table details the conditions for policy cancellation and the proportional refund of insurance premiums. It outlines how the refund is calculated based on the remaining policy period.",
+    "embed_passage": "טבלה זו מתארת את תנאי ביטול הפוליסה ואת החזר דמי הביטוח היחסי. החזר דמי הביטוח מחושב בהתאם למספר הימים שנותרו בתקופת הביטוח המקורית. הפוליסה רכב שאינו רכב פרטי ומסחרי עד 35 טון, מהדורת ספטמבר 2021. החלק היחסי כאמור יחושב על ידי הכפלת דמי הביטוח שגבה המבטח ביחס שבין מספר הימים שנותרו, במועד הביטול עד תום תקופת הביטוח המקורית, ובין מספר הימים הנכללים בתקופת הביטוח המקורית. ייווספו הפרשי הצמדה למדד המחירים לצרכן. בעל הפוליסה יהיה זכאי להחזר דמי ביטוח גם אם הוגשה תביעה.",
+    "row_axis": "Cancellation conditions / refund calculations",
+    "column_axis": "Details of refund process",
     "units": [],
     "notable_values": [
-      "7: ימים לפני המועד",
-      "16.2: סעיף החזר",
-      "16.3: חישוב החלק היחסי",
-      "21: ימים לפני התאריך שבו תתבטל הפוליסה"
+      "ביטול הפוליסה: מרמה או אי-גילוי נאות",
+      "הודעה בכתב: 21 ימים לפני ביטול",
+      "החזר דמי ביטוח: חלק יחסי",
+      "הצמדה למדד: מדד המחירים לצרכן"
     ],
     "product_hints": [
       "פוליסת רכב שאינו רכב פרטי ומסחרי עד 35 טון"
     ]
   },
   "sketch": "ימים לפני המועד 7ביטל המבטח את הפוליסה, יחזיר לבעל הפוליסה בהקדם ולא יאוחר מ .16.2 שבו תתבטל הפוליסה, את החלק היחסי מדמי הביטוח ששולמו.\n.  החלק היחסי כאמור יחושב על ידי הכפלת דמי הביטוח שגבה המבטח ביחס שבין מספר 16.3 הימים שנותרו, במועד הביטול עד תום תקופת הביטוח המקורית, ובין מספר הימים הנכללים בתקופת הביטוח המקורית.",
-  "embed_text": "פוליסת רכב שאינו רכב פרטי ומסחרי עד 35 טון מסבירה כי בעת ביטול הפוליסה על ידי המבטח, יוחזר לבעל הפוליסה חלק יחסי מדמי הביטוח ששולמו. החלק היחסי מחושב על ידי הכפלת דמי הביטוח ביחס שבין מספר הימים שנותרו עד תום תקופת הביטוח המקורית, ובין מספר הימים בתקופת הביטוח המקורית.",
-  "payload": "טבלה: ביטול פוליסה\nThis table details the refund of insurance premiums upon policy cancellation. It outlines how the proportional refund is calculated based on the remaining days of the policy.\nממדים: Cancellation scenarios / conditions, Refund details / calculation steps\n\nימים לפני המועד 7ביטל המבטח את הפוליסה, יחזיר לבעל הפוליסה בהקדם ולא יאוחר מ .16.2 שבו תתבטל הפוליסה, את החלק היחסי מדמי הביטוח ששולמו.\n.  החלק היחסי כאמור יחושב על ידי הכפלת דמי הביטוח שגבה המבטח ביחס שבין מספר 16.3 הימים שנותרו, במועד הביטול עד תום תקופת הביטוח המקורית, ובין מספר הימים הנכללים בתקופת הביטוח המקורית."
+  "embed_text": "טבלה זו מתארת את תנאי ביטול הפוליסה ואת החזר דמי הביטוח היחסי. החזר דמי הביטוח מחושב בהתאם למספר הימים שנותרו בתקופת הביטוח המקורית. הפוליסה רכב שאינו רכב פרטי ומסחרי עד 35 טון, מהדורת ספטמבר 2021. החלק היחסי כאמור יחושב על ידי הכפלת דמי הביטוח שגבה המבטח ביחס שבין מספר הימים שנותרו, במועד הביטול עד תום תקופת הביטוח המקורית, ובין מספר הימים הנכללים בתקופת הביטוח המקורית. ייווספו הפרשי הצמדה למדד המחירים לצרכן. בעל הפוליסה יהיה זכאי להחזר דמי ביטוח גם אם הוגשה תביעה. This table details the conditions for policy cancellation and the proportional refund of insurance premiums. It outlines how the refund is calculated based on the remaining policy period. בין הערכים בטבלה: הודעה בכתב: 21 ימים לפני ביטול.",
+  "payload": "טבלה: ביטול פוליסה\nThis table details the conditions for policy cancellation and the proportional refund of insurance premiums. It outlines how the refund is calculated based on the remaining policy period.\nממדים: Cancellation conditions / refund calculations, Details of refund process\n\nימים לפני המועד 7ביטל המבטח את הפוליסה, יחזיר לבעל הפוליסה בהקדם ולא יאוחר מ .16.2 שבו תתבטל הפוליסה, את החלק היחסי מדמי הביטוח ששולמו.\n.  החלק היחסי כאמור יחושב על ידי הכפלת דמי הביטוח שגבה המבטח ביחס שבין מספר 16.3 הימים שנותרו, במועד הביטול עד תום תקופת הביטוח המקורית, ובין מספר הימים הנכללים בתקופת הביטוח המקורית."
 }

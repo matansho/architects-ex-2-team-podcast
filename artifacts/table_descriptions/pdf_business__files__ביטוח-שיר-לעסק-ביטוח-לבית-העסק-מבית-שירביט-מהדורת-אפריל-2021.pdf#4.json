@@ -2,24 +2,19 @@
   "id": "pdf:business/files/ביטוח-שיר-לעסק-ביטוח-לבית-העסק-מבית-שירביט-מהדורת-אפריל-2021.pdf#4",
   "source": "llm",
   "description": {
-    "title": "ביטוח לעסק",
-    "summary": "This table outlines the coverage details for 'Shir Le'Isk' business insurance, specifying which parts of the policy are active. It allows users to look up coverage based on policy sections and conditions.",
-    "embed_passage": "פוליסת 'שיר לעסק' מציעה ביטוח מקיף לעסקים, עם תנאים משתנים בהתאם לפרק הפוליסה. גובה התגמולים משתנה בהתאם לסוג הכיסוי ולגבול האחריות, לדוגמה, סכום הביטוח יכול להגיע עד 1,000 ש\"ח. הפוליסה כוללת כיסוי לנזקים, אבדן רווחים, ואירועים שונים כפי שמפורט ברשימה.",
-    "row_axis": "Policy Section/Clause",
-    "column_axis": "Coverage Details (Validity, Limits, etc.)",
+    "title": "ביטוח לעסק - רשימת פרקים",
+    "summary": "This table lists the coverage details for a business insurance policy from Shirbit. It indicates which parts of the policy are active based on explicit mention in a list.",
+    "embed_passage": "טבלה זו מתארת את פרקי ביטוח לעסק של שירביט, ומציינת אילו פרקים או חלקי פרקים בתוקף על סמך רישום ברשימה. ניתן לחפש מידע על פרק ביטוח ספציפי, כגון ביטוח אש או ביטוח רווחים אבודים, על ידי בדיקת הרישום ברשימה זו. הפרקים כוללים ביטוח אש, ביטוח מבנה והתכולה, ביטוח רווחים אבודים, ביטוח אבדן הכנסה, ביטוח רכוש במעבר, ביטוח כספים, ביטוח מערכות ממוחשבות, ביטוח שבר מכני וביטוח משבר רווחים אבודים. הרשימה מציינת כי תגמולי הביטוח ישולמו בניכוי ההשתתפות העצמית.",
+    "row_axis": "פרקי הפוליסה / חלקי פרק",
+    "column_axis": "תוקף הביטוח",
     "units": [],
-    "notable_values": [
-      "product: שיר לעסק",
-      "coverage: פרקי הפוליסה",
-      "condition: מצוין במפורש",
-      "limit: סכום הביטוח",
-      "deductible: השתתפות עצמית"
-    ],
+    "notable_values": [],
     "product_hints": [
+      "ביטוח לעסק",
       "שיר לעסק"
     ]
   },
   "sketch": "למען  הסר  ספק,  מוצהר  ומוסכם  בזה  כי  הביטוח  לפי  כל  פרק  מפרקי הפוליסה וגם/או חלק של הפרק יכנס לתוקף אך ורק אם מצוין, במפורש . ברשימה, כי הביטוח לפי אותו פרק או חלק של פרק תקף\nהמבוא דלעיל וכל ההגדרות, הסייגים והתנאים הכלליים, ההצעה והרשימה . המצורפת הינם חלק בלתי נפרד מפוליסה זו",
-  "embed_text": "פוליסת 'שיר לעסק' מציעה ביטוח מקיף לעסקים, עם תנאים משתנים בהתאם לפרק הפוליסה. גובה התגמולים משתנה בהתאם לסוג הכיסוי ולגבול האחריות, לדוגמה, סכום הביטוח יכול להגיע עד 1,000 ש\"ח. הפוליסה כוללת כיסוי לנזקים, אבדן רווחים, ואירועים שונים כפי שמפורט ברשימה.",
-  "payload": "טבלה: ביטוח לעסק\nThis table outlines the coverage details for 'Shir Le'Isk' business insurance, specifying which parts of the policy are active. It allows users to look up coverage based on policy sections and conditions.\nממדים: Policy Section/Clause, Coverage Details (Validity, Limits, etc.)\n\nלמען  הסר  ספק,  מוצהר  ומוסכם  בזה  כי  הביטוח  לפי  כל  פרק  מפרקי הפוליסה וגם/או חלק של הפרק יכנס לתוקף אך ורק אם מצוין, במפורש . ברשימה, כי הביטוח לפי אותו פרק או חלק של פרק תקף\nהמבוא דלעיל וכל ההגדרות, הסייגים והתנאים הכלליים, ההצעה והרשימה . המצורפת הינם חלק בלתי נפרד מפוליסה זו"
+  "embed_text": "טבלה זו מתארת את פרקי ביטוח לעסק של שירביט, ומציינת אילו פרקים או חלקי פרקים בתוקף על סמך רישום ברשימה. ניתן לחפש מידע על פרק ביטוח ספציפי, כגון ביטוח אש או ביטוח רווחים אבודים, על ידי בדיקת הרישום ברשימה זו. הפרקים כוללים ביטוח אש, ביטוח מבנה והתכולה, ביטוח רווחים אבודים, ביטוח אבדן הכנסה, ביטוח רכוש במעבר, ביטוח כספים, ביטוח מערכות ממוחשבות, ביטוח שבר מכני וביטוח משבר רווחים אבודים. הרשימה מציינת כי תגמולי הביטוח ישולמו בניכוי ההשתתפות העצמית. This table lists the coverage details for a business insurance policy from Shirbit. It indicates which parts of the policy are active based on explicit mention in a list.",
+  "payload": "טבלה: ביטוח לעסק - רשימת פרקים\nThis table lists the coverage details for a business insurance policy from Shirbit. It indicates which parts of the policy are active based on explicit mention in a list.\nממדים: פרקי הפוליסה / חלקי פרק, תוקף הביטוח\n\nלמען  הסר  ספק,  מוצהר  ומוסכם  בזה  כי  הביטוח  לפי  כל  פרק  מפרקי הפוליסה וגם/או חלק של הפרק יכנס לתוקף אך ורק אם מצוין, במפורש . ברשימה, כי הביטוח לפי אותו פרק או חלק של פרק תקף\nהמבוא דלעיל וכל ההגדרות, הסייגים והתנאים הכלליים, ההצעה והרשימה . המצורפת הינם חלק בלתי נפרד מפוליסה זו"
 }

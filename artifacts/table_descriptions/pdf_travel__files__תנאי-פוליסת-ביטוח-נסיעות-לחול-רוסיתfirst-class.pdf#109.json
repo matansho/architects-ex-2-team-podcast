@@ -3,21 +3,22 @@
   "source": "llm",
   "description": {
     "title": "תנאי פוליסת ביטוח נסיעות",
-    "summary": "This table outlines the legal jurisdiction and general conditions for a travel insurance policy. It specifies that any legal proceedings will be governed by Israeli law and handled by Israeli authorities.",
-    "embed_passage": "פוליסת ביטוח הנסיעות \"רוסיתfirst-class\" כפופה לחוקי מדינת ישראל, וכל ההליכים המשפטיים יתנהלו בבתי המשפט המוסמכים בישראל בלבד. תנאים כלליים המפורטים בפרקים 8-13 חלים על הפוליסה במלואם, כולל חלק א' (הפוליסה הבסיסית) וחלק ב' (הרחבות לפוליסה, אם נרכשו).",
-    "row_axis": "Legal clauses and policy conditions",
-    "column_axis": "Jurisdiction, applicability of general conditions",
+    "summary": "This table outlines the legal jurisdiction and governing laws for the travel insurance policy. It specifies that any legal proceedings will be handled under Israeli law and within Israeli courts.",
+    "embed_passage": "טבלה זו מתייחסת לתנאי פוליסת ביטוח נסיעות, ומפרטת את הדין והסמכות השיפוטית החלים על הפוליסה. כל הליכים משפטיים יתנהלו בהתאם לחוקי מדינת ישראל, ובסמכות הבלעדית של הערכאות המוסמכות בישראל. תנאים כלליים המפורטים בפרקים 8-13 יחולו על הפוליסה במלואה, כולל חלק א' (פוליסה בסיסית) וחלק ב' (הרחבות לפוליסה). הפוליסה מכסה תביעות בהתאם לחוקי מדינת ישראל. סכום כיסוי ביטול נסיעה הוא עד 5,000$ ו-2,000$ עבור הוצאות לינה.",
+    "row_axis": "Legal clauses/conditions",
+    "column_axis": "Details/Jurisdiction",
     "units": [],
     "notable_values": [
       "Jurisdiction: Israel",
-      "Governing Law: Israeli law",
-      "Policy Sections: Part A (basic), Part B (extensions)"
+      "Governing Law: Israel",
+      "Policy Parts: Part A (basic)",
+      "Policy Parts: Part B (extensions)"
     ],
     "product_hints": [
-      "רוסיתfirst-class"
+      "ביטוח נסיעות"
     ]
   },
   "sketch": "Глава 13: Законы и юрисдикция\nЛюбые юридические процессы, выполняемые в соответствии с данным полисом или следующие из такового, будут рассматриваться в соответствии с законами государства Израиль, и все такие процессы будут находиться в исключительной юрисдикции уполномоченных на это инстанций только в государстве Израиль в соответствии с законом.\nВо избежание возникновения сомнений - общие условия, приведенные в главах 8-13 выше, будут распространяться на данный полис в полной мере, включая Часть А (базовый полис) и Часть Б (расширения к полису - если таковые будут приобретены застрахованным).",
-  "embed_text": "פוליסת ביטוח הנסיעות \"רוסיתfirst-class\" כפופה לחוקי מדינת ישראל, וכל ההליכים המשפטיים יתנהלו בבתי המשפט המוסמכים בישראל בלבד. תנאים כלליים המפורטים בפרקים 8-13 חלים על הפוליסה במלואם, כולל חלק א' (הפוליסה הבסיסית) וחלק ב' (הרחבות לפוליסה, אם נרכשו).",
-  "payload": "טבלה: תנאי פוליסת ביטוח נסיעות\nThis table outlines the legal jurisdiction and general conditions for a travel insurance policy. It specifies that any legal proceedings will be governed by Israeli law and handled by Israeli authorities.\nממדים: Legal clauses and policy conditions, Jurisdiction, applicability of general conditions\n\nГлава 13: Законы и юрисдикция\nЛюбые юридические процессы, выполняемые в соответствии с данным полисом или следующие из такового, будут рассматриваться в соответствии с законами государства Израиль, и все такие процессы будут находиться в исключительной юрисдикции уполномоченных на это инстанций только в государстве Израиль в соответствии с законом.\nВо избежание возникновения сомнений - общие условия, приведенные в главах 8-13 выше, будут распространяться на данный полис в полной мере, включая Часть А (базовый полис) и Часть Б (расширения к полису - если таковые будут приобретены застрахованным)."
+  "embed_text": "טבלה זו מתייחסת לתנאי פוליסת ביטוח נסיעות, ומפרטת את הדין והסמכות השיפוטית החלים על הפוליסה. כל הליכים משפטיים יתנהלו בהתאם לחוקי מדינת ישראל, ובסמכות הבלעדית של הערכאות המוסמכות בישראל. תנאים כלליים המפורטים בפרקים 8-13 יחולו על הפוליסה במלואה, כולל חלק א' (פוליסה בסיסית) וחלק ב' (הרחבות לפוליסה). הפוליסה מכסה תביעות בהתאם לחוקי מדינת ישראל. סכום כיסוי ביטול נסיעה הוא עד 5,000$ ו-2,000$ עבור הוצאות לינה. This table outlines the legal jurisdiction and governing laws for the travel insurance policy. It specifies that any legal proceedings will be handled under Israeli law and within Israeli courts. בין הערכים בטבלה: Jurisdiction: Israel; Governing Law: Israel; Policy Parts: Part A (basic); Policy Parts: Part B (extensions).",
+  "payload": "טבלה: תנאי פוליסת ביטוח נסיעות\nThis table outlines the legal jurisdiction and governing laws for the travel insurance policy. It specifies that any legal proceedings will be handled under Israeli law and within Israeli courts.\nממדים: Legal clauses/conditions, Details/Jurisdiction\n\nГлава 13: Законы и юрисдикция\nЛюбые юридические процессы, выполняемые в соответствии с данным полисом или следующие из такового, будут рассматриваться в соответствии с законами государства Израиль, и все такие процессы будут находиться в исключительной юрисдикции уполномоченных на это инстанций только в государстве Израиль в соответствии с законом.\nВо избежание возникновения сомнений - общие условия, приведенные в главах 8-13 выше, будут распространяться на данный полис в полной мере, включая Часть А (базовый полис) и Часть Б (расширения к полису - если таковые будут приобретены застрахованным)."
 }

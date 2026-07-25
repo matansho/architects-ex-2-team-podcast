@@ -2,24 +2,23 @@
   "id": "pdf:business/files/טופס-הצעה-אחריות-מקצועית-רפואה-משלימה-ופרא-רפואי.pdf#9",
   "source": "llm",
   "description": {
-    "title": "אחריות מקצועית רפואה משלימה",
-    "summary": "This table details coverage limits for professional liability insurance for complementary and paramedical medicine. It shows the maximum coverage amount for third-party liability, which can be up to ₪2,000,000.",
-    "embed_passage": "ביטוח אחריות מקצועית לרפואה משלימה ופרא-רפואי מספק הגנה מפני תביעות של צדדים שלישיים. גבול הכיסוי לאחריות כלפי צד שלישי כללי יכול להגיע עד ₪2,000,000, ובמקרים מסוימים אף יותר. הכיסוי מוגבל לעד 10 מטפלים העוסקים במקצוע.",
-    "row_axis": "Coverage options/limits",
-    "column_axis": "Coverage amount (₪)",
+    "title": "הרחבת גבול כיסוי",
+    "summary": "This table details coverage limits for professional liability insurance, specifically for third-party liability. It shows the maximum coverage amount available.",
+    "embed_passage": "טופס זה מתייחס להרחבת גבול כיסוי לאחריות כלפי צד שלישי כללי במסגרת ביטוח אחריות מקצועית, ונועד לסוכנים העוסקים בתחום הפרא-רפואי ורפואה משלימה. גבול הכיסוי המוצג כאן הוא עד 2,000,000 ₪, וניתן להרחיב אותו למעלה מ-2,000,000 ₪ בתנאים מסוימים, כאשר קיים מקצוע פרא-רפואי. גבול האחריות לצד ג' לא יהיה גבוה מגבול האחריות המקצועית הרפואית. הרחבת גבול כיסוי, אחריות כלפי צד שלישי, 2,000,000 ₪, מקצוע פרא-רפואי.",
+    "row_axis": "גבול כיסוי",
+    "column_axis": "סוג הכיסוי",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "גבול כיסוי: ₪2,000,000",
-      "מספר מטפלים מקסימלי: 10"
+      "גבול כיסוי: 2,000,000 ₪",
+      "הרחבה אפשרית: מעל 2,000,000 ₪"
     ],
     "product_hints": [
-      "אחריות מקצועית רפואה משלימה",
-      "אחריות מקצועית פרא-רפואי"
+      "אחריות מקצועית"
     ]
   },
   "sketch": "₪  2,000,000 הרחבת גבול כיסוי לאחריות כלפי צד שלישי כללי עד\n*( ומעלה ₪  2,000,000 )ניתן רק כשקיים מקצוע פרא-רפואי בגבול אחריות מקצועית\n-*לידיעתך",
-  "embed_text": "ביטוח אחריות מקצועית לרפואה משלימה ופרא-רפואי מספק הגנה מפני תביעות של צדדים שלישיים. גבול הכיסוי לאחריות כלפי צד שלישי כללי יכול להגיע עד ₪2,000,000, ובמקרים מסוימים אף יותר. הכיסוי מוגבל לעד 10 מטפלים העוסקים במקצוע.",
-  "payload": "טבלה: אחריות מקצועית רפואה משלימה\nThis table details coverage limits for professional liability insurance for complementary and paramedical medicine. It shows the maximum coverage amount for third-party liability, which can be up to ₪2,000,000.\nממדים: Coverage options/limits, Coverage amount (₪)\n\n₪  2,000,000 הרחבת גבול כיסוי לאחריות כלפי צד שלישי כללי עד\n*( ומעלה ₪  2,000,000 )ניתן רק כשקיים מקצוע פרא-רפואי בגבול אחריות מקצועית\n-*לידיעתך"
+  "embed_text": "טופס זה מתייחס להרחבת גבול כיסוי לאחריות כלפי צד שלישי כללי במסגרת ביטוח אחריות מקצועית, ונועד לסוכנים העוסקים בתחום הפרא-רפואי ורפואה משלימה. גבול הכיסוי המוצג כאן הוא עד 2,000,000 ₪, וניתן להרחיב אותו למעלה מ-2,000,000 ₪ בתנאים מסוימים, כאשר קיים מקצוע פרא-רפואי. גבול האחריות לצד ג' לא יהיה גבוה מגבול האחריות המקצועית הרפואית. הרחבת גבול כיסוי, אחריות כלפי צד שלישי, 2,000,000 ₪, מקצוע פרא-רפואי. This table details coverage limits for professional liability insurance, specifically for third-party liability. It shows the maximum coverage amount available. בין הערכים בטבלה: הרחבה אפשרית: מעל 2,000,000 ₪.",
+  "payload": "טבלה: הרחבת גבול כיסוי\nThis table details coverage limits for professional liability insurance, specifically for third-party liability. It shows the maximum coverage amount available.\nממדים: גבול כיסוי, סוג הכיסוי\n\n₪  2,000,000 הרחבת גבול כיסוי לאחריות כלפי צד שלישי כללי עד\n*( ומעלה ₪  2,000,000 )ניתן רק כשקיים מקצוע פרא-רפואי בגבול אחריות מקצועית\n-*לידיעתך"
 }

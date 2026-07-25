@@ -3,18 +3,16 @@
   "source": "llm",
   "description": {
     "title": "הרשאה לחיוב חשבון",
-    "summary": "This table details authorization for direct debit from a bank account, specifying limits and expiration dates. It allows users to set a maximum charge amount (in ₪) and an expiration date for the authorization.",
-    "embed_passage": "טופס זה עוסק בהרשאה לחיוב חשבון בבנק, המאפשרת למוטב לחייב את חשבון הלקוח בסכומים ובמועדים שיומצאו. ניתן להגביל את החיוב לתקרת סכום מסוים בשקלים חדשים (₪) ולקבוע מועד פקיעת תוקף להרשאה. לדוגמה, תקרת סכום החיוב יכולה להיות ₪6.",
-    "row_axis": "Types of authorization (general vs. limited)",
-    "column_axis": "Authorization details (expiration date, maximum amount)",
+    "summary": "This table outlines options for authorizing account debits. It details different levels of authorization, including general authorization and those with specific limitations like expiration dates and maximum charge amounts.",
+    "embed_passage": "טופס זה של הראל עוסק בהרשאה לחיוב חשבון, המאפשרת למוטב לחייב את חשבון הלקוח בסכומים ובתאריכים שיומצאו. ניתן לבחור בהרשאה כללית ללא הגבלות, או בהרשאה הכוללת הגבלות כגון תקרת סכום חיוב ותאריך פקיעת תוקף. בחירה בהרשאה כללית משמעה ויתור על הגבלות אלו.",
+    "row_axis": "סוג הרשאה",
+    "column_axis": "מאפייני הרשאה (תאריך פקיעה, תקרת סכום)",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "expiration date: / /",
-      "maximum charge amount: ₪",
-      "bank code: 6",
-      "account type: 0"
+      "הרשאה כללית: ללא הגבלות",
+      "הרשאה הכוללת הגבלות: דורשת ציון תאריך פקיעה ותקרת סכום"
     ],
     "product_hints": [
       "הרשאה לחיוב חשבון",
@@ -22,6 +20,6 @@
     ]
   },
   "sketch": "8\nאו . הרשאה כללית, שאינה כוללת הגבלות\nהרשאה הכוללת לפחות אחת מההגבלות הבאות:\n.       /       / מועד פקיעת תוקף ההרשאה - ביום\n.₪                                - תקרת סכום החיוב\nלתשומת לבך,\nאי סימון אחת מהחלופות המוצגות לעיל, משמעה בחירה בהרשאה כללית, שאינה כוללת הגבלות.\nאם יישלחו על ידי המוטב חיובים שאינם עומדים בהגבלות שקבע הלקוח, הם יוחזרו על ידי הבנק, על כל המשמעויות הכרוכות בכך.",
-  "embed_text": "טופס זה עוסק בהרשאה לחיוב חשבון בבנק, המאפשרת למוטב לחייב את חשבון הלקוח בסכומים ובמועדים שיומצאו. ניתן להגביל את החיוב לתקרת סכום מסוים בשקלים חדשים (₪) ולקבוע מועד פקיעת תוקף להרשאה. לדוגמה, תקרת סכום החיוב יכולה להיות ₪6.",
-  "payload": "טבלה: הרשאה לחיוב חשבון\nThis table details authorization for direct debit from a bank account, specifying limits and expiration dates. It allows users to set a maximum charge amount (in ₪) and an expiration date for the authorization.\nממדים: Types of authorization (general vs. limited), Authorization details (expiration date, maximum amount)\n\n8\nאו . הרשאה כללית, שאינה כוללת הגבלות\nהרשאה הכוללת לפחות אחת מההגבלות הבאות:\n.       /       / מועד פקיעת תוקף ההרשאה - ביום\n.₪                                - תקרת סכום החיוב\nלתשומת לבך,\nאי סימון אחת מהחלופות המוצגות לעיל, משמעה בחירה בהרשאה כללית, שאינה כוללת הגבלות.\nאם יישלחו על ידי המוטב חיובים שאינם עומדים בהגבלות שקבע הלקוח, הם יוחזרו על ידי הבנק, על כל המשמעויות הכרוכות בכך."
+  "embed_text": "טופס זה של הראל עוסק בהרשאה לחיוב חשבון, המאפשרת למוטב לחייב את חשבון הלקוח בסכומים ובתאריכים שיומצאו. ניתן לבחור בהרשאה כללית ללא הגבלות, או בהרשאה הכוללת הגבלות כגון תקרת סכום חיוב ותאריך פקיעת תוקף. בחירה בהרשאה כללית משמעה ויתור על הגבלות אלו. This table outlines options for authorizing account debits. It details different levels of authorization, including general authorization and those with specific limitations like expiration dates and maximum charge amounts.",
+  "payload": "טבלה: הרשאה לחיוב חשבון\nThis table outlines options for authorizing account debits. It details different levels of authorization, including general authorization and those with specific limitations like expiration dates and maximum charge amounts.\nממדים: סוג הרשאה, מאפייני הרשאה (תאריך פקיעה, תקרת סכום)\n\n8\nאו . הרשאה כללית, שאינה כוללת הגבלות\nהרשאה הכוללת לפחות אחת מההגבלות הבאות:\n.       /       / מועד פקיעת תוקף ההרשאה - ביום\n.₪                                - תקרת סכום החיוב\nלתשומת לבך,\nאי סימון אחת מהחלופות המוצגות לעיל, משמעה בחירה בהרשאה כללית, שאינה כוללת הגבלות.\nאם יישלחו על ידי המוטב חיובים שאינם עומדים בהגבלות שקבע הלקוח, הם יוחזרו על ידי הבנק, על כל המשמעויות הכרוכות בכך."
 }

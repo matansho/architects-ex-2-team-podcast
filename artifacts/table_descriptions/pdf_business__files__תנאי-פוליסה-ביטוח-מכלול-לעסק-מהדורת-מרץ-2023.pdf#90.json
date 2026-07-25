@@ -3,24 +3,22 @@
   "source": "llm",
   "description": {
     "title": "כיסויים נוספים לתכולה",
-    "summary": "This table details additional coverages for property insurance (תכולה) when specifically listed. It outlines conditions and limitations for various types of loss or damage.",
-    "embed_passage": "פוליסת מכלול לעסק מציעה כיסויים נוספים לתכולה, בהתאם לתנאים המפורטים. גבולות האחריות מצוינים ביחס לכל כיסוי, כפי שמוגדר במבוא לפוליסה. לדוגמה, כיסויים אלו יחולו רק אם צוינו במפורש ברשימה.",
-    "row_axis": "additional coverages for property insurance",
-    "column_axis": "conditions, limitations, and coverage details",
+    "summary": "This table lists additional coverages for property insurance, specifically for contents (תכולה), if explicitly stated in the policy list. It details conditions and limitations for these coverages.",
+    "embed_passage": "טבלה זו מפרטת כיסויים נוספים אפשריים לפוליסת ביטוח תכולה של מכלול לעסק, בתנאי שהם מצוינים במפורש ברשימה. מטרת הטבלה היא להבהיר את תנאי הכיסויים הנוספים, גבולות האחריות, והתנאים הכלליים החלים עליהם. ניתן לבדוק את הכיסויים הרלוונטיים לרכוש המבוטח על ידי התייחסות לסכומי הביטוח המצוינים עבור כל כיסוי. כיסויים אלו יחולו רק אם צוינו במפורש ברשימה, ובכפוף להגדרות, סייגים ותנאים כלליים של הפוליסה. מכלול, ביטוח תכולה, סכומי ביטוח, גבולות אחריות, רכוש מבוטח.",
+    "row_axis": "additional coverages for contents insurance",
+    "column_axis": "conditions and limitations of coverage",
     "units": [],
     "notable_values": [
-      "coverage type: additional coverages",
-      "section: 3.6",
-      "condition: explicit listing required",
-      "limit: סכומי הביטוח / גבולות האחריות",
-      "reference: סייגים ובתנאים הכלליים של הפוליסה א'"
+      "כיסוי לתכולה: yes/no",
+      "סכומי ביטוח: specified per coverage",
+      "גבולות אחריות: specified per coverage"
     ],
     "product_hints": [
-      "מכלול לעסק",
+      "מכלול",
       "ביטוח תכולה"
     ]
   },
   "sketch": "כיסויים נוספים לגבי ביטוח התכולה בלבד )ככל שנרכש כיסוי לתכולה( - כיסויים .3.6 אלו יחולו רק אם צוינו במפורש ברשימה:\nאם צוין במפורש ברשימה, הכיסויים המפורטים להלן יחולו לגבי ביטוח התכולה , בלבד, בכפוף לאמור במבוא, בהגדרות, בסייגים ובתנאים הכלליים של הפוליסה א' וברשימה, בהתאם 1 ובכפוף לסייגים ולתנאים המפורטים בפרק ראשון, בחלק לכל המפורט להלן, וביחס לרכוש המבוטח בפרק זה בלבד.\nלמען הסדר הטוב, מובהר בזה, כי אחריות המבטח על פי כל כיסוי כמפורט להלן , הינה בכפוף לסכומי הביטוח / גבולות האחריות המצוינים ביחס לאותו כיסוי ככל שצויינו, ובכפוף להגדרת סכום הביטוח / גבול האחריות במבוא לפוליסה זו.",
-  "embed_text": "פוליסת מכלול לעסק מציעה כיסויים נוספים לתכולה, בהתאם לתנאים המפורטים. גבולות האחריות מצוינים ביחס לכל כיסוי, כפי שמוגדר במבוא לפוליסה. לדוגמה, כיסויים אלו יחולו רק אם צוינו במפורש ברשימה.",
-  "payload": "טבלה: כיסויים נוספים לתכולה\nThis table details additional coverages for property insurance (תכולה) when specifically listed. It outlines conditions and limitations for various types of loss or damage.\nממדים: additional coverages for property insurance, conditions, limitations, and coverage details\n\nכיסויים נוספים לגבי ביטוח התכולה בלבד )ככל שנרכש כיסוי לתכולה( - כיסויים .3.6 אלו יחולו רק אם צוינו במפורש ברשימה:\nאם צוין במפורש ברשימה, הכיסויים המפורטים להלן יחולו לגבי ביטוח התכולה , בלבד, בכפוף לאמור במבוא, בהגדרות, בסייגים ובתנאים הכלליים של הפוליסה א' וברשימה, בהתאם 1 ובכפוף לסייגים ולתנאים המפורטים בפרק ראשון, בחלק לכל המפורט להלן, וביחס לרכוש המבוטח בפרק זה בלבד.\nלמען הסדר הטוב, מובהר בזה, כי אחריות המבטח על פי כל כיסוי כמפורט להלן , הינה בכפוף לסכומי הביטוח / גבולות האחריות המצוינים ביחס לאותו כיסוי ככל שצויינו, ובכפוף להגדרת סכום הביטוח / גבול האחריות במבוא לפוליסה זו."
+  "embed_text": "טבלה זו מפרטת כיסויים נוספים אפשריים לפוליסת ביטוח תכולה של מכלול לעסק, בתנאי שהם מצוינים במפורש ברשימה. מטרת הטבלה היא להבהיר את תנאי הכיסויים הנוספים, גבולות האחריות, והתנאים הכלליים החלים עליהם. ניתן לבדוק את הכיסויים הרלוונטיים לרכוש המבוטח על ידי התייחסות לסכומי הביטוח המצוינים עבור כל כיסוי. כיסויים אלו יחולו רק אם צוינו במפורש ברשימה, ובכפוף להגדרות, סייגים ותנאים כלליים של הפוליסה. מכלול, ביטוח תכולה, סכומי ביטוח, גבולות אחריות, רכוש מבוטח. This table lists additional coverages for property insurance, specifically for contents (תכולה), if explicitly stated in the policy list. It details conditions and limitations for these coverages. בין הערכים בטבלה: כיסוי לתכולה: yes/no.",
+  "payload": "טבלה: כיסויים נוספים לתכולה\nThis table lists additional coverages for property insurance, specifically for contents (תכולה), if explicitly stated in the policy list. It details conditions and limitations for these coverages.\nממדים: additional coverages for contents insurance, conditions and limitations of coverage\n\nכיסויים נוספים לגבי ביטוח התכולה בלבד )ככל שנרכש כיסוי לתכולה( - כיסויים .3.6 אלו יחולו רק אם צוינו במפורש ברשימה:\nאם צוין במפורש ברשימה, הכיסויים המפורטים להלן יחולו לגבי ביטוח התכולה , בלבד, בכפוף לאמור במבוא, בהגדרות, בסייגים ובתנאים הכלליים של הפוליסה א' וברשימה, בהתאם 1 ובכפוף לסייגים ולתנאים המפורטים בפרק ראשון, בחלק לכל המפורט להלן, וביחס לרכוש המבוטח בפרק זה בלבד.\nלמען הסדר הטוב, מובהר בזה, כי אחריות המבטח על פי כל כיסוי כמפורט להלן , הינה בכפוף לסכומי הביטוח / גבולות האחריות המצוינים ביחס לאותו כיסוי ככל שצויינו, ובכפוף להגדרת סכום הביטוח / גבול האחריות במבוא לפוליסה זו."
 }

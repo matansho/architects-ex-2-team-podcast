@@ -3,23 +3,22 @@
   "source": "llm",
   "description": {
     "title": "הגדרות פוליסה",
-    "summary": "This table defines key terms used in a pollution liability insurance policy. It helps clarify the scope of coverage by defining dates and responsible parties.",
-    "embed_passage": "פוליסת ביטוח אחריות זיהום מגדירה את תאריך הרטרואקטיבי (Retroactive date) כפי שמצוין בסעיף 7 של ההצהרות, או בכל הסכם רלוונטי. תאריך זה קובע את התאריך המוקדם ביותר שבו אירוע זיהום יכול להתחיל כדי לקבל כיסוי ביטוחי. לדוגמה, אם תאריך רטרואקטיבי מצוין כ-1/1/2023, אירועי זיהום שהחלו לפני תאריך זה לא יהיו מכוסים.",
-    "row_axis": "defined term",
-    "column_axis": "definition",
+    "summary": "This table defines key terms used in the insurance policy. It provides definitions for terms like 'Insured', 'Retroactive date', and 'Responsible insured' to clarify coverage.",
+    "embed_passage": "טבלה זו מגדירה מונחים מרכזיים בפוליסת ביטוח אחריות זיהום. ניתן למצוא כאן הגדרות למונחים כמו 'Insured' ו'Retroactive date' כדי להבהיר את היקף הכיסוי. הפוליסה מתייחסת ל'named insured', 'principal', 'partner', 'director', 'officer', 'member', 'manager' ו'employee'. תאריך ה'retroactive date' מצוין בסעיף 7 של ההצהרות, או בכל תיקון רלוונטי, והוא התאריך המוקדם ביותר שבו 'pollution event' יכול להתחיל לצורך מתן כיסוי. אם לא מופיע ערך או מופיעים המילים 'NOT APPLICABLE' או 'N/A' בסעיף 7, 'retroactive date' לא יחול.",
+    "row_axis": "מונח מוגדר",
+    "column_axis": "הגדרה",
     "units": [],
     "notable_values": [
-      "Item 7: date of retroactive date",
-      "Retroactive date: earliest date for coverage",
-      "Named insured: covered party",
-      "Responsible insured: person with compliance responsibility",
-      "pollution event: event that commenced"
+      "Retroactive date: Item 7 of the Declarations",
+      "Insured: named insured",
+      "Responsible insured: principal, partner, director, officer, member or manager",
+      "Insured: employee"
     ],
     "product_hints": [
       "ביטוח אחריות זיהום"
     ]
   },
   "sketch": "\"Responsible  insured\" means  a  \"named  insured's\"  principal,  partner,  director, officer, member or manager (in the case of a limited liability company), or employee with responsibility for compliance, environmental or legal affairs, or risk management.\n\"Retroactive  date\" means  the  date  set  forth  in  Item  7  of  the  Declarations,  or  any applicable  endorsement,  which  is  the  earliest  date  that  a  'pollution  event'  can commence for coverage to be provided under the policy.  If no entry appears or the words NOT APPLICABLE or N/A appear in the corresponding space of Item 7 of the Declarations then a \"retroactive date\" shall not apply.",
-  "embed_text": "פוליסת ביטוח אחריות זיהום מגדירה את תאריך הרטרואקטיבי (Retroactive date) כפי שמצוין בסעיף 7 של ההצהרות, או בכל הסכם רלוונטי. תאריך זה קובע את התאריך המוקדם ביותר שבו אירוע זיהום יכול להתחיל כדי לקבל כיסוי ביטוחי. לדוגמה, אם תאריך רטרואקטיבי מצוין כ-1/1/2023, אירועי זיהום שהחלו לפני תאריך זה לא יהיו מכוסים.",
-  "payload": "טבלה: הגדרות פוליסה\nThis table defines key terms used in a pollution liability insurance policy. It helps clarify the scope of coverage by defining dates and responsible parties.\nממדים: defined term, definition\n\n\"Responsible  insured\" means  a  \"named  insured's\"  principal,  partner,  director, officer, member or manager (in the case of a limited liability company), or employee with responsibility for compliance, environmental or legal affairs, or risk management.\n\"Retroactive  date\" means  the  date  set  forth  in  Item  7  of  the  Declarations,  or  any applicable  endorsement,  which  is  the  earliest  date  that  a  'pollution  event'  can commence for coverage to be provided under the policy.  If no entry appears or the words NOT APPLICABLE or N/A appear in the corresponding space of Item 7 of the Declarations then a \"retroactive date\" shall not apply."
+  "embed_text": "טבלה זו מגדירה מונחים מרכזיים בפוליסת ביטוח אחריות זיהום. ניתן למצוא כאן הגדרות למונחים כמו 'Insured' ו'Retroactive date' כדי להבהיר את היקף הכיסוי. הפוליסה מתייחסת ל'named insured', 'principal', 'partner', 'director', 'officer', 'member', 'manager' ו'employee'. תאריך ה'retroactive date' מצוין בסעיף 7 של ההצהרות, או בכל תיקון רלוונטי, והוא התאריך המוקדם ביותר שבו 'pollution event' יכול להתחיל לצורך מתן כיסוי. אם לא מופיע ערך או מופיעים המילים 'NOT APPLICABLE' או 'N/A' בסעיף 7, 'retroactive date' לא יחול. This table defines key terms used in the insurance policy. It provides definitions for terms like 'Insured', 'Retroactive date', and 'Responsible insured' to clarify coverage. בין הערכים בטבלה: Responsible insured: principal, partner, director, officer, member or manager.",
+  "payload": "טבלה: הגדרות פוליסה\nThis table defines key terms used in the insurance policy. It provides definitions for terms like 'Insured', 'Retroactive date', and 'Responsible insured' to clarify coverage.\nממדים: מונח מוגדר, הגדרה\n\n\"Responsible  insured\" means  a  \"named  insured's\"  principal,  partner,  director, officer, member or manager (in the case of a limited liability company), or employee with responsibility for compliance, environmental or legal affairs, or risk management.\n\"Retroactive  date\" means  the  date  set  forth  in  Item  7  of  the  Declarations,  or  any applicable  endorsement,  which  is  the  earliest  date  that  a  'pollution  event'  can commence for coverage to be provided under the policy.  If no entry appears or the words NOT APPLICABLE or N/A appear in the corresponding space of Item 7 of the Declarations then a \"retroactive date\" shall not apply."
 }

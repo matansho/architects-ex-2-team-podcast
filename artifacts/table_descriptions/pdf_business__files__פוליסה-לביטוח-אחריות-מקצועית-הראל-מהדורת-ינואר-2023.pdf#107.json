@@ -3,23 +3,23 @@
   "source": "llm",
   "description": {
     "title": "הקטנת גבול אחריות",
-    "summary": "This table details how the insurance coverage limit is reduced after a claim or damage event under the Harel Professional Liability policy. It outlines how the insurer compensates the insured for settlement costs and defense expenses, considering previous payments and potential settlements.",
-    "embed_passage": "פוליסת אחריות מקצועית של הראל מתייחסת להקטנת גבול האחריות לאחר תביעה או נזק. סכום הפיצוי מחושב בכפוף לתנאי הפוליסה, וניתן לקבל פיצוי עבור הוצאות הגנה סבירות, אך לא יותר מהסכום שהיה משולם בהפשרה. לדוגמה, אם סכום הפיצוי הוקטן והמבוטח נשא בהוצאות הגנה, המבטח ישפה אותו בהתאם.",
-    "row_axis": "scenarios related to claim settlement and liability reduction",
-    "column_axis": "details of liability reduction, compensation, and expense coverage",
+    "summary": "This table details the reduction of liability limits after a claim or damage. It outlines how the insurer compensates the insured for settlement amounts and defense costs, considering prior payments and potential compromises.",
+    "embed_passage": "טבלה זו עוסקת בהקטנת גבול האחריות לאחר תביעה או נזק, ומתארת כיצד המבטח מפצה את המבוטח על סכומי פיצוי והוצאות הגנה. החישוב של סכומים אלו מושפע מתגמולי ביטוח שכבר שולמו, ומהסכום שהמבטח היה משלם במסגרת פשרה. הנתונים בטבלה רלוונטיים במקרים של פשרה שלא התקבלה, או כאשר סכום הפיצוי הוקטן והמבוטח נשא בהוצאות הגנה. ניתן לחפש מידע על הקטנת גבול אחריות, תגמולי ביטוח, והוצאות הגנה. הראל ביטוח אחריות מקצועית, ינואר 2023. סכום הפיצוי, גבולות אחריות, הקטנת גבול אחריות לאחר תביעה/נזק, תגמולי ביטוח, הוצאות הגנה סבירות.",
+    "row_axis": "Scenario of claim resolution/outcome",
+    "column_axis": "Compensation/reduction details",
     "units": [],
     "notable_values": [
-      "5.11.2.2: סכום הפיצוי",
-      "5.11.2.3: הקטנת גבול אחריות",
-      "5.12: הקטנת סכומי ביטוח",
-      "5.13.4: השתתפויות עצמיות"
+      "הקטנת גבול אחריות לאחר תביעה/נזק: סכום הפיצוי",
+      "הקטנת גבול אחריות לאחר תביעה/נזק: הוצאות הגנה סבירות",
+      "תגמולי ביטוח: סכום שכבר שולם",
+      "פשרה: סכום שהמבטח היה משלם"
     ],
     "product_hints": [
-      "אחריות מקצועית הראל",
-      "פוליסת אחריות מקצועית"
+      "ביטוח אחריות מקצועית הראל",
+      "פוליסה לביטוח אחריות מקצועית הראל"
     ]
   },
   "sketch": "-.  הוקטן סכום הפיצוי, ונשא המבוטח בשל כך בהוצאות הגנה סבירות 5.11.2.2 ישפה המבטח את המבוטח בסכום הפיצוי, לאחר שנוכה, מגבולות אחריות המבטח על פי פוליסה זו כל סכום או סכומים שכבר להלן - הקטנת 5.11 שולמו בתור תגמולי ביטוח )כאמור בתנאי גבול אחריות לאחר תביעה/ נזק( על פי הפוליסה ובנוסף ישפה אך בשום מקרה לא יותר , המבטח בגין הוצאות הגנה סבירות מהסכום הכולל שהיה משלם המבטח במסגרת הפשרה.\n.  מובהר, כי לעניין סכום או סכומים שכבר שולמו בתור תגמולי 5.11.2.3 )הקטנת גבול 5.12 ביטוח, יחושב הסכום בכפוף לאמור בתנאי האחריות לאחר תביעה / נזק( להלן.",
-  "embed_text": "פוליסת אחריות מקצועית של הראל מתייחסת להקטנת גבול האחריות לאחר תביעה או נזק. סכום הפיצוי מחושב בכפוף לתנאי הפוליסה, וניתן לקבל פיצוי עבור הוצאות הגנה סבירות, אך לא יותר מהסכום שהיה משולם בהפשרה. לדוגמה, אם סכום הפיצוי הוקטן והמבוטח נשא בהוצאות הגנה, המבטח ישפה אותו בהתאם.",
-  "payload": "טבלה: הקטנת גבול אחריות\nThis table details how the insurance coverage limit is reduced after a claim or damage event under the Harel Professional Liability policy. It outlines how the insurer compensates the insured for settlement costs and defense expenses, considering previous payments and potential settlements.\nממדים: scenarios related to claim settlement and liability reduction, details of liability reduction, compensation, and expense coverage\n\n-.  הוקטן סכום הפיצוי, ונשא המבוטח בשל כך בהוצאות הגנה סבירות 5.11.2.2 ישפה המבטח את המבוטח בסכום הפיצוי, לאחר שנוכה, מגבולות אחריות המבטח על פי פוליסה זו כל סכום או סכומים שכבר להלן - הקטנת 5.11 שולמו בתור תגמולי ביטוח )כאמור בתנאי גבול אחריות לאחר תביעה/ נזק( על פי הפוליסה ובנוסף ישפה אך בשום מקרה לא יותר , המבטח בגין הוצאות הגנה סבירות מהסכום הכולל שהיה משלם המבטח במסגרת הפשרה.\n.  מובהר, כי לעניין סכום או סכומים שכבר שולמו בתור תגמולי 5.11.2.3 )הקטנת גבול 5.12 ביטוח, יחושב הסכום בכפוף לאמור בתנאי האחריות לאחר תביעה / נזק( להלן."
+  "embed_text": "טבלה זו עוסקת בהקטנת גבול האחריות לאחר תביעה או נזק, ומתארת כיצד המבטח מפצה את המבוטח על סכומי פיצוי והוצאות הגנה. החישוב של סכומים אלו מושפע מתגמולי ביטוח שכבר שולמו, ומהסכום שהמבטח היה משלם במסגרת פשרה. הנתונים בטבלה רלוונטיים במקרים של פשרה שלא התקבלה, או כאשר סכום הפיצוי הוקטן והמבוטח נשא בהוצאות הגנה. ניתן לחפש מידע על הקטנת גבול אחריות, תגמולי ביטוח, והוצאות הגנה. הראל ביטוח אחריות מקצועית, ינואר 2023. סכום הפיצוי, גבולות אחריות, הקטנת גבול אחריות לאחר תביעה/נזק, תגמולי ביטוח, הוצאות הגנה סבירות. This table details the reduction of liability limits after a claim or damage. It outlines how the insurer compensates the insured for settlement amounts and defense costs, considering prior payments and potential compromises.",
+  "payload": "טבלה: הקטנת גבול אחריות\nThis table details the reduction of liability limits after a claim or damage. It outlines how the insurer compensates the insured for settlement amounts and defense costs, considering prior payments and potential compromises.\nממדים: Scenario of claim resolution/outcome, Compensation/reduction details\n\n-.  הוקטן סכום הפיצוי, ונשא המבוטח בשל כך בהוצאות הגנה סבירות 5.11.2.2 ישפה המבטח את המבוטח בסכום הפיצוי, לאחר שנוכה, מגבולות אחריות המבטח על פי פוליסה זו כל סכום או סכומים שכבר להלן - הקטנת 5.11 שולמו בתור תגמולי ביטוח )כאמור בתנאי גבול אחריות לאחר תביעה/ נזק( על פי הפוליסה ובנוסף ישפה אך בשום מקרה לא יותר , המבטח בגין הוצאות הגנה סבירות מהסכום הכולל שהיה משלם המבטח במסגרת הפשרה.\n.  מובהר, כי לעניין סכום או סכומים שכבר שולמו בתור תגמולי 5.11.2.3 )הקטנת גבול 5.12 ביטוח, יחושב הסכום בכפוף לאמור בתנאי האחריות לאחר תביעה / נזק( להלן."
 }

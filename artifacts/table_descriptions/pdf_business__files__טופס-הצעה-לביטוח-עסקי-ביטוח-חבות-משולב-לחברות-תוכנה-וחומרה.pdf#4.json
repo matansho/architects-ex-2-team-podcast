@@ -2,25 +2,29 @@
   "id": "pdf:business/files/טופס-הצעה-לביטוח-עסקי-ביטוח-חבות-משולב-לחברות-תוכנה-וחומרה.pdf#4",
   "source": "llm",
   "description": {
-    "title": "חבות משולבת - סוגי מוצרים/שירותים",
-    "summary": "This table details the types of products and services offered by a company applying for combined liability insurance. It's used to assess risk based on the percentage of revenue each product/service generates.",
-    "embed_passage": "טופס ההצעה לביטוח חבות משולב לחברות תוכנה וחומרה מבקש פירוט של סוגי המוצרים והשירותים שהחברה מספקת, כמו גם אחוז ההכנסות השנתיות שלהם. לדוגמה, ייצור חומרה, תוכנה יישומית ארוזה מראש, והשכרת מתכנתים זמניים. הנתונים מסייעים לקבוע את רמת הסיכון הביטוחי.",
-    "row_axis": "Type of product or service",
-    "column_axis": "Percentage of prior year revenue, Percentage of annual revenue",
+    "title": "סוגי מוצרים/שירותים",
+    "summary": "This table lists types of products and services offered by the insured, along with percentages of revenue. It is used to categorize the business activities for insurance purposes.",
+    "embed_passage": "טבלה זו מפרטת סוגי מוצרים ושירותים המוצעים על ידי המבוטח, יחד עם אחוזי הכנסות. המידע משמש לקטגוריית פעילויות העסק לצורך ביטוח חבות משולב לחברות תוכנה וחומרה. ניתן לחפש מידע על סוגי מוצרים ספציפיים, כגון ייצור חומרה או תוכנה מותאמת אישית, וכן את אחוז ההכנסות המתאים להם. בין המוצרים והשירותים המופיעים בטבלה: ייצור חומרה, תוכנה יישומית – אריזה מראש, תוכנה יישומית – מותאמת אישית, תוכנה הפעלה – אריזה מראש, שידור/סטרימינג, ספקי תוכנה יישומית, השכרת מתכנתים זמנית ושירותים אחרים.",
+    "row_axis": "Type of Product/Service",
+    "column_axis": "Percentage of Prior Year Revenue, Percentage of Your Annual Revenue",
     "units": [
       "%"
     ],
     "notable_values": [
-      "Hardware Manufacturing: no value provided",
-      "Application Software - Pre-Packaged: no value provided",
-      "Temporary Leasing of computer programmers: no value provided"
+      "Hardware Manufacturing: null",
+      "Application Software - Pre-Packaged: null",
+      "Application Software - Custom: null",
+      "Operating Software - Pre Packaged: null",
+      "Broadcasting/Streaming: null",
+      "Application Software Providers: null",
+      "Temporary Leasing of computer programmers: null",
+      "Other: null"
     ],
     "product_hints": [
-      "חבות משולבת",
-      "ביטוח חבות"
+      "ביטוח חבות משולב"
     ]
   },
-  "sketch": "2.\nTypes of Products/Services,% of Prior Year Revenue,% of Your Annual Revenue\nHardware Manufacturing,,\nApplication Software - Pre-Packaged,,\n…\nTemporary Leasing of computer programmers,,\nOther (Explain below),,\nPlease outline other:\nList your top three competitors:",
-  "embed_text": "טופס ההצעה לביטוח חבות משולב לחברות תוכנה וחומרה מבקש פירוט של סוגי המוצרים והשירותים שהחברה מספקת, כמו גם אחוז ההכנסות השנתיות שלהם. לדוגמה, ייצור חומרה, תוכנה יישומית ארוזה מראש, והשכרת מתכנתים זמניים. הנתונים מסייעים לקבוע את רמת הסיכון הביטוחי.",
-  "payload": "טבלה: חבות משולבת - סוגי מוצרים/שירותים\nThis table details the types of products and services offered by a company applying for combined liability insurance. It's used to assess risk based on the percentage of revenue each product/service generates.\nממדים: Type of product or service, Percentage of prior year revenue, Percentage of annual revenue\n\n2.\nTypes of Products/Services,% of Prior Year Revenue,% of Your Annual Revenue\nHardware Manufacturing,,\nApplication Software - Pre-Packaged,,\nApplication Software - Custom,,\nOperating Software - Pre Packaged,,\nOperating Software - Custom,,\nNetwork or Communications Software- Pre Package,,\nNetwork or Communications Software- Custom,,\n\"Systems Integration, Value added reselling\",,\n\"Consulting, Speciality Programming or Services\",,\n\"Data Entry, Time sharing, Processing Services\",,\nRetail or Wholesale Sales,,\nMaintenance of Service Revenues,,\nWeb hosting,,\nWeb Design,,\n\"Infrastructure, equipment and components mfg.\",,\nInternet Service /Access Provider,,\nInternet Infrastructure Software,,\nInternet Portal,,\nData Retrieval/Informediary,,\nBroadcasting/Streaming,,\nApplication Software Providers,,\nTemporary Leasing of computer programmers,,\nOther (Explain below),,\nPlease outline other:\nList your top three competitors:"
+  "sketch": "2.\nTypes of Products/Services,% of Prior Year Revenue,% of Your Annual Revenue\nHardware Manufacturing,,\nApplication Software - Pre-Packaged,,\nApplication Software - Custom,,\nOperating Software - Pre Packaged,,\n…\nBroadcasting/Streaming,,\nApplication Software Providers,,\nTemporary Leasing of computer programmers,,\nOther (Explain below),,\nPlease outline other:\nList your top three competitors:",
+  "embed_text": "טבלה זו מפרטת סוגי מוצרים ושירותים המוצעים על ידי המבוטח, יחד עם אחוזי הכנסות. המידע משמש לקטגוריית פעילויות העסק לצורך ביטוח חבות משולב לחברות תוכנה וחומרה. ניתן לחפש מידע על סוגי מוצרים ספציפיים, כגון ייצור חומרה או תוכנה מותאמת אישית, וכן את אחוז ההכנסות המתאים להם. בין המוצרים והשירותים המופיעים בטבלה: ייצור חומרה, תוכנה יישומית – אריזה מראש, תוכנה יישומית – מותאמת אישית, תוכנה הפעלה – אריזה מראש, שידור/סטרימינג, ספקי תוכנה יישומית, השכרת מתכנתים זמנית ושירותים אחרים. This table lists types of products and services offered by the insured, along with percentages of revenue. It is used to categorize the business activities for insurance purposes. בין הערכים בטבלה: Hardware Manufacturing: null; Application Software - Pre-Packaged: null; Application Software - Custom: null; Operating Soft…",
+  "payload": "טבלה: סוגי מוצרים/שירותים\nThis table lists types of products and services offered by the insured, along with percentages of revenue. It is used to categorize the business activities for insurance purposes.\nממדים: Type of Product/Service, Percentage of Prior Year Revenue, Percentage of Your Annual Revenue\n\n2.\nTypes of Products/Services,% of Prior Year Revenue,% of Your Annual Revenue\nHardware Manufacturing,,\nApplication Software - Pre-Packaged,,\nApplication Software - Custom,,\nOperating Software - Pre Packaged,,\nOperating Software - Custom,,\nNetwork or Communications Software- Pre Package,,\nNetwork or Communications Software- Custom,,\n\"Systems Integration, Value added reselling\",,\n\"Consulting, Speciality Programming or Services\",,\n\"Data Entry, Time sharing, Processing Services\",,\nRetail or Wholesale Sales,,\nMaintenance of Service Revenues,,\nWeb hosting,,\nWeb Design,,\n\"Infrastructure, equipment and components mfg.\",,\nInternet Service /Access Provider,,\nInternet Infrastructure Software,,\nInternet Portal,,\nData Retrieval/Informediary,,\nBroadcasting/Streaming,,\nApplication Software Providers,,\nTemporary Leasing of computer programmers,,\nOther (Explain below),,\nPlease outline other:\nList your top three competitors:"
 }

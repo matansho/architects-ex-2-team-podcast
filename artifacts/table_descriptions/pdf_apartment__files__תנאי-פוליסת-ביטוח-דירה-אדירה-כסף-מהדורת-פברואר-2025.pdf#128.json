@@ -3,25 +3,23 @@
   "source": "llm",
   "description": {
     "title": "אדירה כסף - אחריות כלפי צד שלישי",
-    "summary": "This table details coverage extensions for third-party liability within the 'Adira Kesef' insurance policy. It outlines conditions and self-participation amounts for specific scenarios like motorized bicycles and pools.",
-    "embed_passage": "פוליסת 'אדירה כסף' מרחיבה את הכיסוי לאופניים ממונעים וקורקינטים ממונעים, עד לגבול האחריות הנקוב במפרט. במקרה של תביעה, המבוטח יישא בסכום השתתפות עצמית הקבוע במפרט, מעבר לכל סכום אחר. הכיסוי מתייחס לנזק לגוף ולרכוש של צד שלישי, הנובע משימוש חוקי בכלי הרכב הללו.",
-    "row_axis": "types of liability coverage extensions (e.g., motorized bicycles, pools, firearms)",
-    "column_axis": "coverage details, self-participation amounts, conditions",
+    "summary": "This table details extensions to the 'אדירה כסף' insurance policy regarding third-party liability coverage, specifically for incidents occurring while traveling abroad, and for motorized bicycles/scooters. It outlines self-participation amounts and exclusions.",
+    "embed_passage": "טבלה זו מתארת הרחבות לפוליסת 'אדירה כסף' בנוגע לכיסוי אחריות כלפי צד שלישי, במיוחד במקרים המתרחשים בחו\"ל, וכן עבור אופניים וקורקינטים ממונעים. ניתן למצוא כאן מידע על סכומי השתתפות עצמית וחריגים. כיסוי לאופניים ממונעים / קורקינט ממונעים, כיסוי לנזק לגוף 30.5, סכום השתתפות עצמית הקבוע במפרט, סגווי, סקייטבורד ממונע.",
+    "row_axis": "types of liability coverage extensions",
+    "column_axis": "coverage details, self-participation amounts, exclusions",
     "units": [],
     "notable_values": [
-      "coverage extension: motorized bicycles/scooters",
-      "self-participation: specified in the policy details",
-      "coverage limit: specified in the policy details",
-      "third-party liability: covered",
-      "tourism abroad: covered under certain conditions"
+      "אופניים ממונעים: covered",
+      "קורקינט ממונע: covered",
+      "סגווי: not covered",
+      "סקייטבורד ממונע: not covered",
+      "השתתפות עצמית: specified in the policy details"
     ],
     "product_hints": [
-      "אדירה כסף",
-      "ביטוח דירה",
-      "אחריות כלפי צד שלישי"
+      "אדירה כסף"
     ]
   },
   "sketch": "למען הסר ספק, \"סגווי\" ו/או \"סקייטבורד ממונע\" או כל כלי ממונע אחר למעט אופניים ממונעים ו/או קורקינט ממונע, אינם מכוסים בהתאם לכיסוי זה.\nבקרות מקרה ביטוח המכוסה בכיסוי זה, יישא המבוטח בסכום השתתפות עצמית הקבוע במפרט, הקשור לכיסוי זה, מעבר לכל סכום השתתפות עצמית אחרת הנובעת מכיסויים אחרים בפוליסה, בין אם הקשורים לאותו אירוע ובין אם לאו.",
-  "embed_text": "פוליסת 'אדירה כסף' מרחיבה את הכיסוי לאופניים ממונעים וקורקינטים ממונעים, עד לגבול האחריות הנקוב במפרט. במקרה של תביעה, המבוטח יישא בסכום השתתפות עצמית הקבוע במפרט, מעבר לכל סכום אחר. הכיסוי מתייחס לנזק לגוף ולרכוש של צד שלישי, הנובע משימוש חוקי בכלי הרכב הללו.",
-  "payload": "טבלה: אדירה כסף - אחריות כלפי צד שלישי\nThis table details coverage extensions for third-party liability within the 'Adira Kesef' insurance policy. It outlines conditions and self-participation amounts for specific scenarios like motorized bicycles and pools.\nממדים: types of liability coverage extensions (e.g., motorized bicycles, pools, firearms), coverage details, self-participation amounts, conditions\n\nלמען הסר ספק, \"סגווי\" ו/או \"סקייטבורד ממונע\" או כל כלי ממונע אחר למעט אופניים ממונעים ו/או קורקינט ממונע, אינם מכוסים בהתאם לכיסוי זה.\nבקרות מקרה ביטוח המכוסה בכיסוי זה, יישא המבוטח בסכום השתתפות עצמית הקבוע במפרט, הקשור לכיסוי זה, מעבר לכל סכום השתתפות עצמית אחרת הנובעת מכיסויים אחרים בפוליסה, בין אם הקשורים לאותו אירוע ובין אם לאו."
+  "embed_text": "טבלה זו מתארת הרחבות לפוליסת 'אדירה כסף' בנוגע לכיסוי אחריות כלפי צד שלישי, במיוחד במקרים המתרחשים בחו\"ל, וכן עבור אופניים וקורקינטים ממונעים. ניתן למצוא כאן מידע על סכומי השתתפות עצמית וחריגים. כיסוי לאופניים ממונעים / קורקינט ממונעים, כיסוי לנזק לגוף 30.5, סכום השתתפות עצמית הקבוע במפרט, סגווי, סקייטבורד ממונע. This table details extensions to the 'אדירה כסף' insurance policy regarding third-party liability coverage, specifically for incidents occurring while traveling abroad, and for motorized bicycles/scooters. It outlines self-participation amounts and exclusions.",
+  "payload": "טבלה: אדירה כסף - אחריות כלפי צד שלישי\nThis table details extensions to the 'אדירה כסף' insurance policy regarding third-party liability coverage, specifically for incidents occurring while traveling abroad, and for motorized bicycles/scooters. It outlines self-participation amounts and exclusions.\nממדים: types of liability coverage extensions, coverage details, self-participation amounts, exclusions\n\nלמען הסר ספק, \"סגווי\" ו/או \"סקייטבורד ממונע\" או כל כלי ממונע אחר למעט אופניים ממונעים ו/או קורקינט ממונע, אינם מכוסים בהתאם לכיסוי זה.\nבקרות מקרה ביטוח המכוסה בכיסוי זה, יישא המבוטח בסכום השתתפות עצמית הקבוע במפרט, הקשור לכיסוי זה, מעבר לכל סכום השתתפות עצמית אחרת הנובעת מכיסויים אחרים בפוליסה, בין אם הקשורים לאותו אירוע ובין אם לאו."
 }

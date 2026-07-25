@@ -3,23 +3,26 @@
   "source": "llm",
   "description": {
     "title": "סייגים כלליים",
-    "summary": "This table lists general exclusions to insurance coverage. It details events that would invalidate a claim, such as acts of war or terrorism.",
-    "embed_passage": "פוליסת מכלול אינה מכסה נזקים שנגרמו כתוצאה ממלחמת אזרחים, התקוממות או פעולות טרור. סייגים אלו חלים על כל חלקי הפוליסה, וכוללים גם החרמה, הלאמה והפקעה על ידי ממשלה. לדוגמה, נזק לרכוש כתוצאה מהלאמה לא יכוסה.",
-    "row_axis": "exclusion type",
+    "summary": "This table lists general exclusions to insurance coverage. It details events that would invalidate a claim.",
+    "embed_passage": "טבלה זו מפרטת סייגים כלליים לפוליסת ביטוח מכלול, ומציינת אירועים שאינם מכוסים. ניתן לחפש סייגים ספציפיים לפי תיאור האירוע, כגון מלחמת אזרחים או הלאמה. הסייגים כוללים מלחמת אזרחים, התקוממות, מהומות אזרחיות, החרמה, הפקעה, הרס רכוש על ידי ממשלה, ומעשי טרור. מלחמת אזרחים, החרמה, הפקעה, מעשי טרור.",
+    "row_axis": "exclusion event",
     "column_axis": "description of exclusion",
     "units": [],
     "notable_values": [
-      "מלחמת אזרחים: mentioned",
-      "התקוממות: mentioned",
-      "מהומות: mentioned",
-      "החרמה: mentioned",
-      "הלאמה: mentioned"
+      "מלחמת אזרחים: described",
+      "התקוממות: described",
+      "מהומות אזרחיות: described",
+      "החרמה: described",
+      "הלאמה: described",
+      "הפקעה: described",
+      "הרס רכוש: described",
+      "מעשי טרור: described"
     ],
     "product_hints": [
       "מכלול"
     ]
   },
   "sketch": ".2.1.2.2 מלחמת אזרחים, התקוממות, מהומות, מהומות אזרחיות , המגיעות לממדים של התקוממות עממית, התקוממות צבאית מרידה, מרד, מהפכה, תפיסת שלטון על ידי הצבא, הכרזת שלטון צבאי ו/או מצור ו/או כל פעולה המהווה הכרזה או קיום של חוק צבאי.\n.2.1.2.3 החרמה, הלאמה, הפקעה ו/או הרס ו/או נזק לרכוש, על ידי או על פי הוראה של ממשלה ו/או רשות ממלכתית או מוניציפאלית.",
-  "embed_text": "פוליסת מכלול אינה מכסה נזקים שנגרמו כתוצאה ממלחמת אזרחים, התקוממות או פעולות טרור. סייגים אלו חלים על כל חלקי הפוליסה, וכוללים גם החרמה, הלאמה והפקעה על ידי ממשלה. לדוגמה, נזק לרכוש כתוצאה מהלאמה לא יכוסה.",
-  "payload": "טבלה: סייגים כלליים\nThis table lists general exclusions to insurance coverage. It details events that would invalidate a claim, such as acts of war or terrorism.\nממדים: exclusion type, description of exclusion\n\n.2.1.2.2 מלחמת אזרחים, התקוממות, מהומות, מהומות אזרחיות , המגיעות לממדים של התקוממות עממית, התקוממות צבאית מרידה, מרד, מהפכה, תפיסת שלטון על ידי הצבא, הכרזת שלטון צבאי ו/או מצור ו/או כל פעולה המהווה הכרזה או קיום של חוק צבאי.\n.2.1.2.3 החרמה, הלאמה, הפקעה ו/או הרס ו/או נזק לרכוש, על ידי או על פי הוראה של ממשלה ו/או רשות ממלכתית או מוניציפאלית."
+  "embed_text": "טבלה זו מפרטת סייגים כלליים לפוליסת ביטוח מכלול, ומציינת אירועים שאינם מכוסים. ניתן לחפש סייגים ספציפיים לפי תיאור האירוע, כגון מלחמת אזרחים או הלאמה. הסייגים כוללים מלחמת אזרחים, התקוממות, מהומות אזרחיות, החרמה, הפקעה, הרס רכוש על ידי ממשלה, ומעשי טרור. מלחמת אזרחים, החרמה, הפקעה, מעשי טרור. This table lists general exclusions to insurance coverage. It details events that would invalidate a claim.",
+  "payload": "טבלה: סייגים כלליים\nThis table lists general exclusions to insurance coverage. It details events that would invalidate a claim.\nממדים: exclusion event, description of exclusion\n\n.2.1.2.2 מלחמת אזרחים, התקוממות, מהומות, מהומות אזרחיות , המגיעות לממדים של התקוממות עממית, התקוממות צבאית מרידה, מרד, מהפכה, תפיסת שלטון על ידי הצבא, הכרזת שלטון צבאי ו/או מצור ו/או כל פעולה המהווה הכרזה או קיום של חוק צבאי.\n.2.1.2.3 החרמה, הלאמה, הפקעה ו/או הרס ו/או נזק לרכוש, על ידי או על פי הוראה של ממשלה ו/או רשות ממלכתית או מוניציפאלית."
 }

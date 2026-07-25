@@ -3,23 +3,20 @@
   "source": "llm",
   "description": {
     "title": "תביעות צד שלישי",
-    "summary": "This table details the process for handling third-party claims related to car insurance. It outlines the timeframe for notifying the insured and the conditions for payment to the third party.",
-    "embed_passage": "פוליסת ביטוח רכב פרטי ומסחרי עד 35 טון מגדירה את הטיפול בתביעות צד שלישי, כולל מספר ימי עסקים להודעה למבוטח (7 ימים) ומספר ימים לתשלום לצד השלישי (30 ימים) אם לא הייתה התנגדות. תהליך זה נועד להבטיח טיפול יעיל והוגן בתביעות מצד גורמים שנפגעו.",
-    "row_axis": "Stages in third-party claim handling",
-    "column_axis": "Actions and timeframes related to claim processing",
+    "summary": "This table details the process for handling third-party claims related to car insurance. It outlines the timeframe for notifying the insured and the conditions for direct payment to the third party.",
+    "embed_passage": "טבלה זו עוסקת בתביעות צד שלישי בפוליסת ביטוח רכב, ומפרטת את הנהלים והתנאים לתשלום תגמולים לצד השלישי. ניתן לעיין בטבלה כדי להבין את זמני התגובה הנדרשים מהמבטח, ואת האופן שבו המבטח יכול לנהל תביעות בשם המבוטח. הטבלה מתייחסת לסעיפים 14.1, 14.2 ו-14.3 בפוליסה.  היא מפרטת את מספר ימי העסקים (7, 30) שבהם המבטח צריך להודיע למבוטח על דרישת צד שלישי, ואת התנאים לתשלום ישיר לצד השלישי. כמו כן, הטבלה מציינת את החובה של המבוטח לסייע למבטח ביישוב תביעות של צד שלישי.",
+    "row_axis": "סעיף בפוליסה",
+    "column_axis": "הליך תביעות צד שלישי",
     "units": [],
     "notable_values": [
-      "7: Number of business days to notify the insured",
-      "30: Number of days to pay the third party if no objection",
-      "14.1: Section number related to notification",
-      "14.2: Section number related to payment to third party"
+      "ימי עסקים: 7",
+      "ימי עסקים: 30"
     ],
     "product_hints": [
-      "ביטוח רכב",
-      "פוליסת ביטוח רכב פרטי ומסחרי"
+      "ביטוח רכב פרטי ומסחרי עד 35 טון"
     ]
   },
   "sketch": ", יודיע המבטח 14.1 .  דרש צד שלישי מהמבטח את תגמולי הביטוח כאמור בסעיף קטן 14.2 ימי עסקים מיום הדרישה על הדרישה כאמור וכי אם לא יודיע 7 למבוטח בכתב בתוך ימים, ישלם לצד השלישי את תגמולי הביטוח 30 לו על התנגדותו לתשלום הפיצוי בתוך שהוא חייב למבוטח, ככל שהוא חייב בתשלומם.\n.  המבטח רשאי ליטול על עצמו או לנהל בשם המבוטח את ההגנה של כל תביעה והמבוטח 14.3 יושיט למבטח, לפי בקשתו, עזרה הנחוצה למבטח לצורך יישוב תביעה של צד שלישי.",
-  "embed_text": "פוליסת ביטוח רכב פרטי ומסחרי עד 35 טון מגדירה את הטיפול בתביעות צד שלישי, כולל מספר ימי עסקים להודעה למבוטח (7 ימים) ומספר ימים לתשלום לצד השלישי (30 ימים) אם לא הייתה התנגדות. תהליך זה נועד להבטיח טיפול יעיל והוגן בתביעות מצד גורמים שנפגעו.",
-  "payload": "טבלה: תביעות צד שלישי\nThis table details the process for handling third-party claims related to car insurance. It outlines the timeframe for notifying the insured and the conditions for payment to the third party.\nממדים: Stages in third-party claim handling, Actions and timeframes related to claim processing\n\n, יודיע המבטח 14.1 .  דרש צד שלישי מהמבטח את תגמולי הביטוח כאמור בסעיף קטן 14.2 ימי עסקים מיום הדרישה על הדרישה כאמור וכי אם לא יודיע 7 למבוטח בכתב בתוך ימים, ישלם לצד השלישי את תגמולי הביטוח 30 לו על התנגדותו לתשלום הפיצוי בתוך שהוא חייב למבוטח, ככל שהוא חייב בתשלומם.\n.  המבטח רשאי ליטול על עצמו או לנהל בשם המבוטח את ההגנה של כל תביעה והמבוטח 14.3 יושיט למבטח, לפי בקשתו, עזרה הנחוצה למבטח לצורך יישוב תביעה של צד שלישי."
+  "embed_text": "טבלה זו עוסקת בתביעות צד שלישי בפוליסת ביטוח רכב, ומפרטת את הנהלים והתנאים לתשלום תגמולים לצד השלישי. ניתן לעיין בטבלה כדי להבין את זמני התגובה הנדרשים מהמבטח, ואת האופן שבו המבטח יכול לנהל תביעות בשם המבוטח. הטבלה מתייחסת לסעיפים 14.1, 14.2 ו-14.3 בפוליסה.  היא מפרטת את מספר ימי העסקים (7, 30) שבהם המבטח צריך להודיע למבוטח על דרישת צד שלישי, ואת התנאים לתשלום ישיר לצד השלישי. כמו כן, הטבלה מציינת את החובה של המבוטח לסייע למבטח ביישוב תביעות של צד שלישי. This table details the process for handling third-party claims related to car insurance. It outlines the timeframe for notifying the insured and the conditions for direct payment to the third party.",
+  "payload": "טבלה: תביעות צד שלישי\nThis table details the process for handling third-party claims related to car insurance. It outlines the timeframe for notifying the insured and the conditions for direct payment to the third party.\nממדים: סעיף בפוליסה, הליך תביעות צד שלישי\n\n, יודיע המבטח 14.1 .  דרש צד שלישי מהמבטח את תגמולי הביטוח כאמור בסעיף קטן 14.2 ימי עסקים מיום הדרישה על הדרישה כאמור וכי אם לא יודיע 7 למבוטח בכתב בתוך ימים, ישלם לצד השלישי את תגמולי הביטוח 30 לו על התנגדותו לתשלום הפיצוי בתוך שהוא חייב למבוטח, ככל שהוא חייב בתשלומם.\n.  המבטח רשאי ליטול על עצמו או לנהל בשם המבוטח את ההגנה של כל תביעה והמבוטח 14.3 יושיט למבטח, לפי בקשתו, עזרה הנחוצה למבטח לצורך יישוב תביעה של צד שלישי."
 }

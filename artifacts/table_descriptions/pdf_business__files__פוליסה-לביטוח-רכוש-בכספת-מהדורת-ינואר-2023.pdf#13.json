@@ -2,24 +2,24 @@
   "id": "pdf:business/files/פוליסה-לביטוח-רכוש-בכספת-מהדורת-ינואר-2023.pdf#13",
   "source": "llm",
   "description": {
-    "title": "פוליסת ביטוח רכוש",
-    "summary": "This table details exclusions to a property insurance policy. It lists events that are not covered by the insurance, such as civil war or government confiscation.",
-    "embed_passage": "פוליסת ביטוח רכוש מכסה נזקים לרכוש, אך אינה מכסה מקרים של מלחמת אזרחים, התקוממות או הלאמה על ידי ממשלה. לדוגמה, סעיף 2.2 מתייחס להתקוממות עממית, וסעיף 2.3 עוסק בהחרמה על ידי רשות ממלכתית.",
-    "row_axis": "exclusion event",
-    "column_axis": "description of exclusion",
+    "title": "חרגות ביטוח רכוש",
+    "summary": "This table lists exclusions to property insurance coverage. It details events that are not covered under the policy, such as civil war or government confiscation.",
+    "embed_passage": "טבלה זו מפרטת חריגות לפוליסת ביטוח רכוש בכספת, מהדורת ינואר 2023. מטרתה להבהיר אילו אירועים אינם מכוסים על ידי הפוליסה, כגון מלחמה אזרחים או הלאמה. ניתן לחפש חריגות ספציפיות לפי סוג האירוע או תיאורו. החריגות כוללות מלחמת אזרחים, התקוממות, מהומות אזרחיות, החרמה, הלאמה, הפקעה, הרס רכוש על ידי ממשלה, וכל מעשה טרור. מטרת הטבלה היא להגדיר במדויק את גבולות הכיסוי הביטוחי.",
+    "row_axis": "סוג חריגה",
+    "column_axis": "תיאור חריגה",
     "units": [],
     "notable_values": [
-      "exclusion type: מלחמת אזרחים",
-      "exclusion type: החרמה",
-      "exclusion number: 2.2",
-      "exclusion number: 2.3"
+      "מלחמת אזרחים: התקוממות",
+      "החרמה: הפקעה",
+      "הלאמה: הרס רכוש",
+      "מעשה טרור: שימוש בכוח"
     ],
     "product_hints": [
-      "ביטוח רכוש",
-      "פוליסת ביטוח רכוש"
+      "ביטוח רכוש בכספת",
+      "פוליסה"
     ]
   },
   "sketch": ". מלחמת אזרחים, התקוממות, מהומות, מהומות אזרחיות המגיעות לממדים של 2.2 התקוממות עממית, התקוממות צבאית, מרידה, מרד, מהפכה, תפיסת שלטון על ידי הצבא, הכרזת שלטון צבאי ו/או מצור ו/או כל פעולה המהווה הכרזה או קיום של חוק צבאי;\n. החרמה, הלאמה, הפקעה ו/או הרס ו/או נזק לרכוש, על ידי או על פי הוראה של 2.3 ממשלה ו/או רשות ממלכתית או מוניציפאלית;",
-  "embed_text": "פוליסת ביטוח רכוש מכסה נזקים לרכוש, אך אינה מכסה מקרים של מלחמת אזרחים, התקוממות או הלאמה על ידי ממשלה. לדוגמה, סעיף 2.2 מתייחס להתקוממות עממית, וסעיף 2.3 עוסק בהחרמה על ידי רשות ממלכתית.",
-  "payload": "טבלה: פוליסת ביטוח רכוש\nThis table details exclusions to a property insurance policy. It lists events that are not covered by the insurance, such as civil war or government confiscation.\nממדים: exclusion event, description of exclusion\n\n. מלחמת אזרחים, התקוממות, מהומות, מהומות אזרחיות המגיעות לממדים של 2.2 התקוממות עממית, התקוממות צבאית, מרידה, מרד, מהפכה, תפיסת שלטון על ידי הצבא, הכרזת שלטון צבאי ו/או מצור ו/או כל פעולה המהווה הכרזה או קיום של חוק צבאי;\n. החרמה, הלאמה, הפקעה ו/או הרס ו/או נזק לרכוש, על ידי או על פי הוראה של 2.3 ממשלה ו/או רשות ממלכתית או מוניציפאלית;"
+  "embed_text": "טבלה זו מפרטת חריגות לפוליסת ביטוח רכוש בכספת, מהדורת ינואר 2023. מטרתה להבהיר אילו אירועים אינם מכוסים על ידי הפוליסה, כגון מלחמה אזרחים או הלאמה. ניתן לחפש חריגות ספציפיות לפי סוג האירוע או תיאורו. החריגות כוללות מלחמת אזרחים, התקוממות, מהומות אזרחיות, החרמה, הלאמה, הפקעה, הרס רכוש על ידי ממשלה, וכל מעשה טרור. מטרת הטבלה היא להגדיר במדויק את גבולות הכיסוי הביטוחי. This table lists exclusions to property insurance coverage. It details events that are not covered under the policy, such as civil war or government confiscation.",
+  "payload": "טבלה: חרגות ביטוח רכוש\nThis table lists exclusions to property insurance coverage. It details events that are not covered under the policy, such as civil war or government confiscation.\nממדים: סוג חריגה, תיאור חריגה\n\n. מלחמת אזרחים, התקוממות, מהומות, מהומות אזרחיות המגיעות לממדים של 2.2 התקוממות עממית, התקוממות צבאית, מרידה, מרד, מהפכה, תפיסת שלטון על ידי הצבא, הכרזת שלטון צבאי ו/או מצור ו/או כל פעולה המהווה הכרזה או קיום של חוק צבאי;\n. החרמה, הלאמה, הפקעה ו/או הרס ו/או נזק לרכוש, על ידי או על פי הוראה של 2.3 ממשלה ו/או רשות ממלכתית או מוניציפאלית;"
 }

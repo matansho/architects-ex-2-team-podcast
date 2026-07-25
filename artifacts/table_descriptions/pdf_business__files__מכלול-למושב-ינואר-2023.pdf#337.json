@@ -2,23 +2,23 @@
   "id": "pdf:business/files/מכלול-למושב-ינואר-2023.pdf#337",
   "source": "llm",
   "description": {
-    "title": "נזקים",
-    "summary": "This table lists covered damages under an insurance policy. It details specific types of damage for which compensation may be provided.",
-    "embed_passage": "פוליסת 'מכלול' מכסה נזקים שונים, כגון נזק למשקפיים, עדשות מגע ומכשירי שמיעה. הכיסוי מתייחס גם לנזק למכשירי טלפון ניידים וטאבלטים. סעיפים אלו מפרטים את סוגי הנזקים המכוסים במסגרת הפוליסה.",
-    "row_axis": "type of damage",
-    "column_axis": "damage category",
+    "title": "נזקים מכוסים",
+    "summary": "This table lists covered damages under an insurance policy. It details specific types of damage for which coverage is provided.",
+    "embed_passage": "טבלה זו מפרטת נזקים המכוסים במסגרת פוליסת ביטוח 'מכלול'. ניתן לעיין בטבלה כדי לבדוק האם נזק ספציפי, כגון נזק למשקפיים או למכשירים ניידים, כלול בכיסוי. הנזקים מפורטים לפי סעיפים מספריים ייחודיים. הנזקים המופיעים בטבלה כוללים נזק למשקפיים, עדשות מגע, מכשירי שמיעה, טלפונים ניידים, טאבלטים, מחשבים נישאים, נזק מתהליכי ניקוי ותיקון, ונזק תוצאתי. סעיפים אלו מספקים פירוט של סוגי הנזקים הכלולים בכיסוי הביטוחי.",
+    "row_axis": "סוג נזק",
+    "column_axis": "תיאור הנזק",
     "units": [],
     "notable_values": [
-      "damage to glasses: covered",
-      "damage to mobile phones: covered",
-      "damage from cleaning: covered",
-      "consequential damage: covered"
+      "משקפיים: 26.1.7",
+      "מכשירים ניידים: 26.1.8",
+      "תהליכי ניקוי: 26.1.9",
+      "נזק תוצאתי: 26.1.10"
     ],
     "product_hints": [
       "מכלול"
     ]
   },
   "sketch": "נזק למשקפיים, עדשות מגע, מכשירי שמיעה, שיניים תותבות. .26.1.7\nנזק למכשירי טלפון ניידים/סלולאריים טאבלטים ומחשבים נישאים/לבישים. .26.1.8\nנזק מתהליכי ניקוי, חידוש, תיקון או צביעה. .26.1.9\nנזק תוצאתי. .26.1.10",
-  "embed_text": "פוליסת 'מכלול' מכסה נזקים שונים, כגון נזק למשקפיים, עדשות מגע ומכשירי שמיעה. הכיסוי מתייחס גם לנזק למכשירי טלפון ניידים וטאבלטים. סעיפים אלו מפרטים את סוגי הנזקים המכוסים במסגרת הפוליסה.",
-  "payload": "טבלה: נזקים\nThis table lists covered damages under an insurance policy. It details specific types of damage for which compensation may be provided.\nממדים: type of damage, damage category\n\nנזק למשקפיים, עדשות מגע, מכשירי שמיעה, שיניים תותבות. .26.1.7\nנזק למכשירי טלפון ניידים/סלולאריים טאבלטים ומחשבים נישאים/לבישים. .26.1.8\nנזק מתהליכי ניקוי, חידוש, תיקון או צביעה. .26.1.9\nנזק תוצאתי. .26.1.10"
+  "embed_text": "טבלה זו מפרטת נזקים המכוסים במסגרת פוליסת ביטוח 'מכלול'. ניתן לעיין בטבלה כדי לבדוק האם נזק ספציפי, כגון נזק למשקפיים או למכשירים ניידים, כלול בכיסוי. הנזקים מפורטים לפי סעיפים מספריים ייחודיים. הנזקים המופיעים בטבלה כוללים נזק למשקפיים, עדשות מגע, מכשירי שמיעה, טלפונים ניידים, טאבלטים, מחשבים נישאים, נזק מתהליכי ניקוי ותיקון, ונזק תוצאתי. סעיפים אלו מספקים פירוט של סוגי הנזקים הכלולים בכיסוי הביטוחי. This table lists covered damages under an insurance policy. It details specific types of damage for which coverage is provided.",
+  "payload": "טבלה: נזקים מכוסים\nThis table lists covered damages under an insurance policy. It details specific types of damage for which coverage is provided.\nממדים: סוג נזק, תיאור הנזק\n\nנזק למשקפיים, עדשות מגע, מכשירי שמיעה, שיניים תותבות. .26.1.7\nנזק למכשירי טלפון ניידים/סלולאריים טאבלטים ומחשבים נישאים/לבישים. .26.1.8\nנזק מתהליכי ניקוי, חידוש, תיקון או צביעה. .26.1.9\nנזק תוצאתי. .26.1.10"
 }

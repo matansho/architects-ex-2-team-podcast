@@ -3,23 +3,21 @@
   "source": "llm",
   "description": {
     "title": "כיסוי ציוד אלקטרוני",
-    "summary": "This table details the insurance coverage for electronic equipment within an office setting. It specifies what constitutes insured property, conditions for coverage, and definitions related to loss or damage.",
-    "embed_passage": "פוליסת מכלול מספקת כיסוי לציוד אלקטרוני הנמצא במשרד, תוך התייחסות לתקופת הרצה של הפריט ולציוד נישא. הביטוח חל על אובדן או נזק פיזי, תאונתי ובלתי צפוי, כאשר עלות התיקון עשויה להשפיע על הגדרת האובדן כחלקי או מוחלט. לדוגמה, אם עלות תיקון הפריט עולה על ערכו, הוא ייחשב כאובדן מוחלט.",
-    "row_axis": "conditions/definitions related to electronic equipment coverage",
-    "column_axis": "aspects of coverage (e.g., insured property, loss definition)",
+    "summary": "This table details the insured property and conditions for electronic equipment coverage under the 'Mekhalel' insurance policy. It specifies what constitutes insured property, conditions related to new equipment, and portability coverage.",
+    "embed_passage": "טבלה זו מתארת את הרכוש המבוטח ותנאים לכיסוי ציוד אלקטרוני במסגרת פוליסת הביטוח 'מכלול'. הפוליסה מגדירה מה נחשב לרכוש מבוטח, תנאים הקשורים לציוד חדש, וכיסוי עבור ציוד נישא. ניתן לחפש מידע על כיסוי ביטוח לציוד אלקטרוני, תקופת הרצה של פריט, וציוד נישא. הרכוש המבוטח כולל ציוד המפורט ברשימה, בעת הימצאו במשרד, או בעת העברתו ממקום למקום. פריט חדש לא ייחשב מבוטח עד לסיום תקופת הרצתו. אם צוין ברשימה כי פריט נישא, הביטוח יחול עליו בכל מקום בתחום המדינה.",
+    "row_axis": "conditions for electronic equipment coverage",
+    "column_axis": "details of insured property and coverage",
     "units": [],
     "notable_values": [
-      "period of operation: until completion",
-      "portable equipment: covered throughout the country",
-      "total loss: irreparable damage",
-      "partial loss: repair cost less than replacement value"
+      "פריט חדש: תקופת הרצה",
+      "ציוד נישא: כיסוי בכל מקום בתחום המדינה",
+      "רכוש מבוטח: ציוד המפורט ברשימה"
     ],
     "product_hints": [
-      "מכלול",
-      "ביטוח ציוד אלקטרוני"
+      "מכלול"
     ]
   },
   "sketch": ".3.6.6.1.2 הרכוש המבוטח: הציוד המפורט ברשימה, בעת הימצאו במשרד, וכל זאת בהיות הציוד בעבודה, או במנוחה, או בשעה שהציוד מועבר ממקום למקום\nיובהר כי: . בתוך חצרי המבוטח\n.3.6.6.1.2.1 כל עוד טרם הסתיימה תקופת הרצתו , של פריט, לראשונה אצל המבוטח , לא יחשב אותו פריט כרכוש מבוטח והביטוח לא יחול לגבי אותו פריט עד\nלסיום תקופת הרצתו.\n.3.6.6.1.2.2 אם נקבע ברשימה לעניין כיסוי ביטוח , ציוד אלקטרוני, כי פריט מסויים נישא יחול הביטוח לגביו, בכפוף למפורט בסעיף לעיל (כיסוי לציוד נישא) בהימצאו 3.6.4 בכל מקום בתחום המדינה (כהגדרתו .) בהגדרות הכלליות",
-  "embed_text": "פוליסת מכלול מספקת כיסוי לציוד אלקטרוני הנמצא במשרד, תוך התייחסות לתקופת הרצה של הפריט ולציוד נישא. הביטוח חל על אובדן או נזק פיזי, תאונתי ובלתי צפוי, כאשר עלות התיקון עשויה להשפיע על הגדרת האובדן כחלקי או מוחלט. לדוגמה, אם עלות תיקון הפריט עולה על ערכו, הוא ייחשב כאובדן מוחלט.",
-  "payload": "טבלה: כיסוי ציוד אלקטרוני\nThis table details the insurance coverage for electronic equipment within an office setting. It specifies what constitutes insured property, conditions for coverage, and definitions related to loss or damage.\nממדים: conditions/definitions related to electronic equipment coverage, aspects of coverage (e.g., insured property, loss definition)\n\n.3.6.6.1.2 הרכוש המבוטח: הציוד המפורט ברשימה, בעת הימצאו במשרד, וכל זאת בהיות הציוד בעבודה, או במנוחה, או בשעה שהציוד מועבר ממקום למקום\nיובהר כי: . בתוך חצרי המבוטח\n.3.6.6.1.2.1 כל עוד טרם הסתיימה תקופת הרצתו , של פריט, לראשונה אצל המבוטח , לא יחשב אותו פריט כרכוש מבוטח והביטוח לא יחול לגבי אותו פריט עד\nלסיום תקופת הרצתו.\n.3.6.6.1.2.2 אם נקבע ברשימה לעניין כיסוי ביטוח , ציוד אלקטרוני, כי פריט מסויים נישא יחול הביטוח לגביו, בכפוף למפורט בסעיף לעיל (כיסוי לציוד נישא) בהימצאו 3.6.4 בכל מקום בתחום המדינה (כהגדרתו .) בהגדרות הכלליות"
+  "embed_text": "טבלה זו מתארת את הרכוש המבוטח ותנאים לכיסוי ציוד אלקטרוני במסגרת פוליסת הביטוח 'מכלול'. הפוליסה מגדירה מה נחשב לרכוש מבוטח, תנאים הקשורים לציוד חדש, וכיסוי עבור ציוד נישא. ניתן לחפש מידע על כיסוי ביטוח לציוד אלקטרוני, תקופת הרצה של פריט, וציוד נישא. הרכוש המבוטח כולל ציוד המפורט ברשימה, בעת הימצאו במשרד, או בעת העברתו ממקום למקום. פריט חדש לא ייחשב מבוטח עד לסיום תקופת הרצתו. אם צוין ברשימה כי פריט נישא, הביטוח יחול עליו בכל מקום בתחום המדינה. This table details the insured property and conditions for electronic equipment coverage under the 'Mekhalel' insurance policy. It specifies what constitutes insured property, conditions related to new equipment, and portability coverage.",
+  "payload": "טבלה: כיסוי ציוד אלקטרוני\nThis table details the insured property and conditions for electronic equipment coverage under the 'Mekhalel' insurance policy. It specifies what constitutes insured property, conditions related to new equipment, and portability coverage.\nממדים: conditions for electronic equipment coverage, details of insured property and coverage\n\n.3.6.6.1.2 הרכוש המבוטח: הציוד המפורט ברשימה, בעת הימצאו במשרד, וכל זאת בהיות הציוד בעבודה, או במנוחה, או בשעה שהציוד מועבר ממקום למקום\nיובהר כי: . בתוך חצרי המבוטח\n.3.6.6.1.2.1 כל עוד טרם הסתיימה תקופת הרצתו , של פריט, לראשונה אצל המבוטח , לא יחשב אותו פריט כרכוש מבוטח והביטוח לא יחול לגבי אותו פריט עד\nלסיום תקופת הרצתו.\n.3.6.6.1.2.2 אם נקבע ברשימה לעניין כיסוי ביטוח , ציוד אלקטרוני, כי פריט מסויים נישא יחול הביטוח לגביו, בכפוף למפורט בסעיף לעיל (כיסוי לציוד נישא) בהימצאו 3.6.4 בכל מקום בתחום המדינה (כהגדרתו .) בהגדרות הכלליות"
 }

@@ -2,21 +2,24 @@
   "id": "pdf:business/files/פוליסת-אחריות-מקצועית-על-בסיס-הגשת-תביעה-לרופא-שיניים-מהדורת-ספטמבר-2016.pdf#110",
   "source": "llm",
   "description": {
-    "title": "אחריות מקצועית לרופא שיניים",
-    "summary": "This table outlines the insurance policy for professional liability for dentists, detailing claim payments and coordination between the insurer and the insured. It specifies conditions related to claim settlements and the insurer's rights regarding investigation and defense.",
-    "embed_passage": "פוליסת אחריות מקצועית לרופא שיניים מגדירה את תשלום תגמולי הביטוח בהתאם לסעיף 68 לחוק חוזה הביטוח. המבטח רשאי לשלם לצד השלישי את התגמולים, בתיאום עם המבוטח, ובתנאי שיודיע 30 ימים מראש. סך התביעה יכול לחרוג מגבולות האחריות, אך המבטח והמבוטח יפעלו בתיאום הדדי.",
-    "row_axis": "Policy clauses related to claim handling and payment",
-    "column_axis": "Details of the policy conditions and insurer/insured rights",
+    "title": "תגמולי ביטוח",
+    "summary": "This table details insurance claim payments according to the policy. It outlines conditions for payment to a third party and coordination between the insurer and insured when claim amounts exceed liability limits.",
+    "embed_passage": "טבלה זו עוסקת בתשלום תגמולי ביטוח במסגרת פוליסת אחריות מקצועית, ומתארת את התנאים לתשלום לצד שלישי בהתאם לסעיף 4.10.2 לחוק חוזה הביטוח. ניתן לבדוק את תנאי התשלום בהתאם לסכום התביעה, גבולות האחריות של המבטח, ותיאום הדדי בין המבטח למבוטח.  הטבלה מתייחסת לתשלום תגמולי ביטוח, ימים, תקופה, סכום גבול האחריות, פשרה, תביעה, סדרה של תביעות, וסכומים שכבר שולמו.",
+    "row_axis": "conditions for claim payment",
+    "column_axis": "payment details and coordination",
     "units": [],
     "notable_values": [
-      "סעיף: 68",
-      "ימים מראש: 30"
+      "סעיף: 4.10.2",
+      "ימים: 30",
+      "סכום גבול האחריות: unspecified",
+      "תביעה: unspecified",
+      "תקופה: unspecified"
     ],
     "product_hints": [
-      "אחריות מקצועית לרופא שיניים"
+      "פוליסת אחריות מקצועית"
     ]
   },
   "sketch": "לחוק חוזה הביטוח, כאמור להלן: 68 .  תשלום תגמולי ביטוח יהיה בהתאם לסעיף 4.10.2 \"בביטוח אחריות רשאי המבטח - ולפי דרישת הצד השלישי חייב הוא - לשלם לצד השלישי את תגמולי הביטוח שהמבטח חייב למבוטח, ובלבד שהודיע על ימים מראש והמבוטח לא התנגד תוך תקופה זו; אולם 30 כך בכתב למבוטח .\" טענה שהמבטח יכול לטעון כלפי המבוטח תעמוד לו גם כלפי הצד השלישי\n.  אם סך התביעה חורג מגבולות האחריות של המבטח, יפעלו המבטח והמבוטח 4.10.3 בתיאום הדדי; ובלי לגרוע בכלליות האמור, למבוטח תינתן זכות להשתתף בניהול ההגנה באופן פעיל.",
-  "embed_text": "פוליסת אחריות מקצועית לרופא שיניים מגדירה את תשלום תגמולי הביטוח בהתאם לסעיף 68 לחוק חוזה הביטוח. המבטח רשאי לשלם לצד השלישי את התגמולים, בתיאום עם המבוטח, ובתנאי שיודיע 30 ימים מראש. סך התביעה יכול לחרוג מגבולות האחריות, אך המבטח והמבוטח יפעלו בתיאום הדדי.",
-  "payload": "טבלה: אחריות מקצועית לרופא שיניים\nThis table outlines the insurance policy for professional liability for dentists, detailing claim payments and coordination between the insurer and the insured. It specifies conditions related to claim settlements and the insurer's rights regarding investigation and defense.\nממדים: Policy clauses related to claim handling and payment, Details of the policy conditions and insurer/insured rights\n\nלחוק חוזה הביטוח, כאמור להלן: 68 .  תשלום תגמולי ביטוח יהיה בהתאם לסעיף 4.10.2 \"בביטוח אחריות רשאי המבטח - ולפי דרישת הצד השלישי חייב הוא - לשלם לצד השלישי את תגמולי הביטוח שהמבטח חייב למבוטח, ובלבד שהודיע על ימים מראש והמבוטח לא התנגד תוך תקופה זו; אולם 30 כך בכתב למבוטח .\" טענה שהמבטח יכול לטעון כלפי המבוטח תעמוד לו גם כלפי הצד השלישי\n.  אם סך התביעה חורג מגבולות האחריות של המבטח, יפעלו המבטח והמבוטח 4.10.3 בתיאום הדדי; ובלי לגרוע בכלליות האמור, למבוטח תינתן זכות להשתתף בניהול ההגנה באופן פעיל."
+  "embed_text": "טבלה זו עוסקת בתשלום תגמולי ביטוח במסגרת פוליסת אחריות מקצועית, ומתארת את התנאים לתשלום לצד שלישי בהתאם לסעיף 4.10.2 לחוק חוזה הביטוח. ניתן לבדוק את תנאי התשלום בהתאם לסכום התביעה, גבולות האחריות של המבטח, ותיאום הדדי בין המבטח למבוטח.  הטבלה מתייחסת לתשלום תגמולי ביטוח, ימים, תקופה, סכום גבול האחריות, פשרה, תביעה, סדרה של תביעות, וסכומים שכבר שולמו. This table details insurance claim payments according to the policy. It outlines conditions for payment to a third party and coordination between the insurer and insured when claim amounts exceed liability limits.",
+  "payload": "טבלה: תגמולי ביטוח\nThis table details insurance claim payments according to the policy. It outlines conditions for payment to a third party and coordination between the insurer and insured when claim amounts exceed liability limits.\nממדים: conditions for claim payment, payment details and coordination\n\nלחוק חוזה הביטוח, כאמור להלן: 68 .  תשלום תגמולי ביטוח יהיה בהתאם לסעיף 4.10.2 \"בביטוח אחריות רשאי המבטח - ולפי דרישת הצד השלישי חייב הוא - לשלם לצד השלישי את תגמולי הביטוח שהמבטח חייב למבוטח, ובלבד שהודיע על ימים מראש והמבוטח לא התנגד תוך תקופה זו; אולם 30 כך בכתב למבוטח .\" טענה שהמבטח יכול לטעון כלפי המבוטח תעמוד לו גם כלפי הצד השלישי\n.  אם סך התביעה חורג מגבולות האחריות של המבטח, יפעלו המבטח והמבוטח 4.10.3 בתיאום הדדי; ובלי לגרוע בכלליות האמור, למבוטח תינתן זכות להשתתף בניהול ההגנה באופן פעיל."
 }

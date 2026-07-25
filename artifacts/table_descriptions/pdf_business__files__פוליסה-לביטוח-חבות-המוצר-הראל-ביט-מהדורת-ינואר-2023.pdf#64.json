@@ -2,25 +2,27 @@
   "id": "pdf:business/files/פוליסה-לביטוח-חבות-המוצר-הראל-ביט-מהדורת-ינואר-2023.pdf#64",
   "source": "llm",
   "description": {
-    "title": "הראל חבות מוצר - תנאים",
-    "summary": "This table details conditions under which Harel product liability insurance may be voided or reduced. It outlines scenarios related to notification of incidents, cooperation with investigation, and providing accurate information.",
-    "embed_passage": "פוליסת הראל חבות מוצר מגדירה תנאים שונים המשפיעים על תגמולי הביטוח. לדוגמה, אי קיום חובה להודיע על קרות מקרה ביטוח (5.7.1) או שיתוף פעולה בבירור חבות המבטח (5.7.2) עלולים להפחית או לבטל את הכיסוי. קיום תנאים אלו קריטי לקבלת תגמול מלא.",
-    "row_axis": "Conditions for potential reduction or denial of coverage",
-    "column_axis": "Specific clauses related to policyholder obligations",
+    "title": "הודעות וחובות",
+    "summary": "This table details conditions under which the insurer may be exempt from payment due to non-compliance with policy requirements. It outlines scenarios related to reporting incidents, cooperation with investigations, and providing documentation.",
+    "embed_passage": "טבלה זו מתארת תנאים שבהם המבטח עשוי להיות פטור מתשלום עקב אי עמידה בדרישות הפוליסה. היא מפרטת תרחישים הקשורים לדיווח על אירועים, שיתוף פעולה עם חקירות, ואספקת תיעוד עבור פוליסת חבות המוצר הראל ביט. ניתן לעיין בתנאים אלו בסעיפים 5.7.1, 5.7.2, 5.7.3, 5.7.4, 5.7.5, 5.8 ו-5.9. התנאים כוללים אי קיום חובה לפי סעיף 5.7.1, שיתוף פעולה לעניין בירור חבות המבטח, העברת מסמכים, והודעה על הליכים.  הטבלה בוחנת מצבים בהם אי קיום חובה או איחור בקיומה לא מנע מהמבטח את בירור חבותו, או לא הכביד על הבירור.  התנאים הרלוונטיים הם: 5.7.3.1, 5.7.3.2, 5.7.4, 5.7.5, 5.8 ו-5.9.",
+    "row_axis": "תנאי אי קיום חובה",
+    "column_axis": "השפעה על תגמולי ביטוח",
     "units": [],
     "notable_values": [
-      "5.7.1: Notification of incident",
-      "5.7.2: Cooperation with investigation",
-      "5.7.3.1: Failure to comply or delayed compliance for justified reasons",
-      "5.7.3.2: Non-compliance or delay did not hinder investigation",
-      "5.7.4: Intentional prevention of investigation"
+      "סעיף 5.7.1: הודעה על קרות מקרה הביטוח",
+      "סעיף 5.7.2: שיתוף פעולה לעניין בירור חבות המבטח",
+      "סעיף 5.7.3.1: החובה לא קויימה או קויימה באיחור מסיבות מוצדקות",
+      "סעיף 5.7.3.2: אי קיומה או איחורה לא מנע מן המבטח את בירור חבותו",
+      "סעיף 5.7.4: מניעה או הכבדה על בירור חבות המבטח",
+      "סעיף 5.7.5: הופרה חובה לפי התנאי בסעיף 5.7.1",
+      "סעיף 5.8: הודעה על הליכים",
+      "סעיף 5.9: העברת מסמכים"
     ],
     "product_hints": [
-      "הראל חבות מוצר",
-      "Harel Product Liability"
+      "פוליסת חבות המוצר הראל ביט"
     ]
   },
   "sketch": ")הודעה על קרות 5.7.1 לא קוימה חובה לפי תנאי מהתנאים האמורים בסעיף .5.7.3 , )שיתוף פעולה לעניין בירור חבות המבטח( לעיל 5.7.2 מקרה הביטוח( או )העברת מסמכים( להלן, וקיומה 5.9)הודעה על הליכים( ו 5.8 וכן בסעיף\n, אין המבטח חייב בתגמולי הביטוח , היה מאפשר למבטח להקטין חבותו הוראה זו לא תחול . אלא במידה בו היה חייב בהם, אילו קוימה החובה בכל אחת מאלה:\n.  החובה לא קויימה או קויימה באיחור מסיבות מוצדקות; 5.7.3.1\n.  אי קיומה או איחורה לא מנע מן המבטח את בירור חבותו ולא 5.7.3.2 הכביד על הבירור.",
-  "embed_text": "פוליסת הראל חבות מוצר מגדירה תנאים שונים המשפיעים על תגמולי הביטוח. לדוגמה, אי קיום חובה להודיע על קרות מקרה ביטוח (5.7.1) או שיתוף פעולה בבירור חבות המבטח (5.7.2) עלולים להפחית או לבטל את הכיסוי. קיום תנאים אלו קריטי לקבלת תגמול מלא.",
-  "payload": "טבלה: הראל חבות מוצר - תנאים\nThis table details conditions under which Harel product liability insurance may be voided or reduced. It outlines scenarios related to notification of incidents, cooperation with investigation, and providing accurate information.\nממדים: Conditions for potential reduction or denial of coverage, Specific clauses related to policyholder obligations\n\n)הודעה על קרות 5.7.1 לא קוימה חובה לפי תנאי מהתנאים האמורים בסעיף .5.7.3 , )שיתוף פעולה לעניין בירור חבות המבטח( לעיל 5.7.2 מקרה הביטוח( או )העברת מסמכים( להלן, וקיומה 5.9)הודעה על הליכים( ו 5.8 וכן בסעיף\n, אין המבטח חייב בתגמולי הביטוח , היה מאפשר למבטח להקטין חבותו הוראה זו לא תחול . אלא במידה בו היה חייב בהם, אילו קוימה החובה בכל אחת מאלה:\n.  החובה לא קויימה או קויימה באיחור מסיבות מוצדקות; 5.7.3.1\n.  אי קיומה או איחורה לא מנע מן המבטח את בירור חבותו ולא 5.7.3.2 הכביד על הבירור."
+  "embed_text": "טבלה זו מתארת תנאים שבהם המבטח עשוי להיות פטור מתשלום עקב אי עמידה בדרישות הפוליסה. היא מפרטת תרחישים הקשורים לדיווח על אירועים, שיתוף פעולה עם חקירות, ואספקת תיעוד עבור פוליסת חבות המוצר הראל ביט. ניתן לעיין בתנאים אלו בסעיפים 5.7.1, 5.7.2, 5.7.3, 5.7.4, 5.7.5, 5.8 ו-5.9. התנאים כוללים אי קיום חובה לפי סעיף 5.7.1, שיתוף פעולה לעניין בירור חבות המבטח, העברת מסמכים, והודעה על הליכים.  הטבלה בוחנת מצבים בהם אי קיום חובה או איחור בקיומה לא מנע מהמבטח את בירור חבותו, או לא הכביד על הבירור.  התנאים הרלוונטיים הם: 5.7.3.1, 5.7.3.2, 5.7.4, 5.7.5, 5.8 ו-5.9. This table details conditions under which the insurer may be exempt from payment due to non-compliance with policy requirements. It outlines scenarios related to reporting incidents, cooperation with investigations, and providing documentatio…",
+  "payload": "טבלה: הודעות וחובות\nThis table details conditions under which the insurer may be exempt from payment due to non-compliance with policy requirements. It outlines scenarios related to reporting incidents, cooperation with investigations, and providing documentation.\nממדים: תנאי אי קיום חובה, השפעה על תגמולי ביטוח\n\n)הודעה על קרות 5.7.1 לא קוימה חובה לפי תנאי מהתנאים האמורים בסעיף .5.7.3 , )שיתוף פעולה לעניין בירור חבות המבטח( לעיל 5.7.2 מקרה הביטוח( או )העברת מסמכים( להלן, וקיומה 5.9)הודעה על הליכים( ו 5.8 וכן בסעיף\n, אין המבטח חייב בתגמולי הביטוח , היה מאפשר למבטח להקטין חבותו הוראה זו לא תחול . אלא במידה בו היה חייב בהם, אילו קוימה החובה בכל אחת מאלה:\n.  החובה לא קויימה או קויימה באיחור מסיבות מוצדקות; 5.7.3.1\n.  אי קיומה או איחורה לא מנע מן המבטח את בירור חבותו ולא 5.7.3.2 הכביד על הבירור."
 }

@@ -2,21 +2,21 @@
   "id": "pdf:car/files/פוליסה-לביטוח-רכב-פרטי-ורכב-מסחרי-עד-35-טון-מבית-שירביט-מהדורת-יוני-2023.pdf#337",
   "source": "llm",
   "description": {
-    "title": "שירותי דרך שירביט",
-    "summary": "This table details the terms of 'חבילת שירותי דרך מורחבת לרכב חשמלי' offered by Shirbit. It outlines what services are included, limitations, and compensation in case service cannot be provided.",
-    "embed_passage": "פוליסת הביטוח של שירביט כוללת שירותי דרך מורחבים לרכב חשמלי. השירותים כוללים פריצת רכב, החלפת גלגל וטעינת רכב חשמלי, וניתנים 24 שעות ביממה. במקרה של אי יכולת לספק שירות, הפיצוי המקסימלי הוא 300 ש״ח.",
-    "row_axis": "Service conditions / limitations",
-    "column_axis": "Service details / compensation",
-    "units": [
-      "₪",
-      "שעות"
-    ],
+    "title": "חבילת שירותי דרך מורחבת לרכב חשמלי",
+    "summary": "This table details the terms of the 'חבילת שירותי דרך מורחבת לרכב חשמלי' service package offered by Shirbit. It outlines what the service includes and excludes, and conditions for service delivery.",
+    "embed_passage": "טבלה זו מתארת את תנאי 'חבילת שירותי דרך מורחבת לרכב חשמלי' של שירביט, ומפרטת מה כלול בשירות ומה אינו כלול, וכן תנאים למתן השירות. השירות על-פי כתב שירות זה אינו כולל תשלום הוצאות טעינה, למעט טעינה על פי תנאי כתב שירות זה. השירותים יינתנו לרכב הזכאי לשירות בלבד ואין מקבל השירות זכאי להעביר את הזכות לקבלתם לרכב אחר. השירותים: פריצת רכב, החלפת גלגל וטעינת רכב חשמלי יינתנו 24 שעות ביממה. נבצר מנותן השירות לספק את השירות מכל סיבה שבשליטתו, ישלם נותן השירות ישירות למבוטח סך של 300 ₪.",
+    "row_axis": "service conditions / exclusions",
+    "column_axis": "service details",
+    "units": [],
     "notable_values": [
-      "Compensation amount: 300 ₪",
-      "Service availability: 24 שעות ביממה",
-      "Service area: מדינת ישראל",
-      "Service exclusion: הוצאות טעינה",
-      "Service exclusion: אגרת תיקונים"
+      "payment for charging: excluded, except as per service terms",
+      "vehicle maintenance payments: excluded",
+      "repair fee: excluded",
+      "service transfer to another vehicle: not allowed, except with prior approval and vehicle replacement addendum",
+      "service area: Israel + Judea & Samaria (excluding autonomous areas)",
+      "compensation for service failure: 300 ₪",
+      "service hours: 24 hours/day",
+      "services included: vehicle unlocking, wheel change, electric vehicle charging"
     ],
     "product_hints": [
       "חבילת שירותי דרך מורחבת לרכב חשמלי",
@@ -24,6 +24,6 @@
     ]
   },
   "sketch": "למען הסר ספק, השירות על-פי כתב שירות זה אינו כולל כל תשלום אחר או נוסף, הנלווה .2.2 לשירות או נובע ממנו, כולל: תשלום הוצאות טעינה, למעט טעינה על פי תנאי כתב שירות זה, תשלומים בגין אחזקת הרכב ותשלום אגרת תיקונים ברכב הזכאי לשירות.\nהשירותים יינתנו לרכב הזכאי לשירות בלבד ואין מקבל השירות זכאי להעביר את הזכות .2.3 לקבלתם לרכב אחר, למעט אם הוחלף הרכב המבוטח, נערכה תוספת החלפת רכב לפוליסה וניתנה הסכמה מראש, של נותן השירות, להחלפת הרכב המבוטח.",
-  "embed_text": "פוליסת הביטוח של שירביט כוללת שירותי דרך מורחבים לרכב חשמלי. השירותים כוללים פריצת רכב, החלפת גלגל וטעינת רכב חשמלי, וניתנים 24 שעות ביממה. במקרה של אי יכולת לספק שירות, הפיצוי המקסימלי הוא 300 ש״ח.",
-  "payload": "טבלה: שירותי דרך שירביט\nThis table details the terms of 'חבילת שירותי דרך מורחבת לרכב חשמלי' offered by Shirbit. It outlines what services are included, limitations, and compensation in case service cannot be provided.\nממדים: Service conditions / limitations, Service details / compensation\n\nלמען הסר ספק, השירות על-פי כתב שירות זה אינו כולל כל תשלום אחר או נוסף, הנלווה .2.2 לשירות או נובע ממנו, כולל: תשלום הוצאות טעינה, למעט טעינה על פי תנאי כתב שירות זה, תשלומים בגין אחזקת הרכב ותשלום אגרת תיקונים ברכב הזכאי לשירות.\nהשירותים יינתנו לרכב הזכאי לשירות בלבד ואין מקבל השירות זכאי להעביר את הזכות .2.3 לקבלתם לרכב אחר, למעט אם הוחלף הרכב המבוטח, נערכה תוספת החלפת רכב לפוליסה וניתנה הסכמה מראש, של נותן השירות, להחלפת הרכב המבוטח."
+  "embed_text": "טבלה זו מתארת את תנאי 'חבילת שירותי דרך מורחבת לרכב חשמלי' של שירביט, ומפרטת מה כלול בשירות ומה אינו כלול, וכן תנאים למתן השירות. השירות על-פי כתב שירות זה אינו כולל תשלום הוצאות טעינה, למעט טעינה על פי תנאי כתב שירות זה. השירותים יינתנו לרכב הזכאי לשירות בלבד ואין מקבל השירות זכאי להעביר את הזכות לקבלתם לרכב אחר. השירותים: פריצת רכב, החלפת גלגל וטעינת רכב חשמלי יינתנו 24 שעות ביממה. נבצר מנותן השירות לספק את השירות מכל סיבה שבשליטתו, ישלם נותן השירות ישירות למבוטח סך של 300 ₪. This table details the terms of the 'חבילת שירותי דרך מורחבת לרכב חשמלי' service package offered by Shirbit. It outlines what the service includes and excludes, and conditions for service delivery. בין הערכים בטבלה: payment for charging: excluded, except as per service terms; vehicle maintenance payments: excluded;…",
+  "payload": "טבלה: חבילת שירותי דרך מורחבת לרכב חשמלי\nThis table details the terms of the 'חבילת שירותי דרך מורחבת לרכב חשמלי' service package offered by Shirbit. It outlines what the service includes and excludes, and conditions for service delivery.\nממדים: service conditions / exclusions, service details\n\nלמען הסר ספק, השירות על-פי כתב שירות זה אינו כולל כל תשלום אחר או נוסף, הנלווה .2.2 לשירות או נובע ממנו, כולל: תשלום הוצאות טעינה, למעט טעינה על פי תנאי כתב שירות זה, תשלומים בגין אחזקת הרכב ותשלום אגרת תיקונים ברכב הזכאי לשירות.\nהשירותים יינתנו לרכב הזכאי לשירות בלבד ואין מקבל השירות זכאי להעביר את הזכות .2.3 לקבלתם לרכב אחר, למעט אם הוחלף הרכב המבוטח, נערכה תוספת החלפת רכב לפוליסה וניתנה הסכמה מראש, של נותן השירות, להחלפת הרכב המבוטח."
 }

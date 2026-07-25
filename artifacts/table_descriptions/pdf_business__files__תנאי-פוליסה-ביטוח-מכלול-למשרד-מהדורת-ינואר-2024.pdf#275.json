@@ -3,22 +3,23 @@
   "source": "llm",
   "description": {
     "title": "טיפול בתביעות",
-    "summary": "This table outlines the insurer's rights regarding claims investigation and management. It details how the insurer can investigate incidents and manage claims on behalf of the insured.",
-    "embed_passage": "פוליסת מכלול מאפשרת למבטח להיכנס למקומות השייכים למבוטח לצורך חקירה או בדיקה של מקרה ביטוח. החקירה יכולה לכלול בדיקת תכולת המקום, והמבטח רשאי לשהות שם ככל שהעניין מצדיק זאת. לדוגמה, אם אירע מקרה ביטוח במשרד, המבטח יכול להיכנס למשרד כדי לבדוק את נסיבות המקרה.",
-    "row_axis": "Clauses related to claims handling",
-    "column_axis": "Insurer's rights and responsibilities",
+    "summary": "This table outlines the insurer's rights regarding claims investigation and management. It details the insurer’s ability to enter premises, manage defense against claims, and coordinate with the insured.",
+    "embed_passage": "טבלה זו מתארת את זכויות המבטח בנוגע לחקירת תביעות וניהולן, כחלק מפוליסת ביטוח מכלול. המבטח רשאי להיכנס למקומות השייכים למבוטח לצורך חקירה, לנהל הגנה מפני תביעות, ולתבוע שיפוי בשם המבוטח. פוליסת מכלול מאפשרת למבטח לבצע בדיקות ובדיקות לצורך הערכת נסיבות מקרה הביטוח. המבטח יכול לבקש גישה למקומות השייכים למבוטח או באחזקתו, כמו גם לבדוק את תכולתם. המבטח רשאי לנהל את ההגנה מפני כל תביעה או ליישב כל תביעה, וכן לתבוע שיפוי בשם המבוטח.",
+    "row_axis": "claim handling procedures",
+    "column_axis": "insurer's rights and actions",
     "units": [],
     "notable_values": [
-      "clause: 9.12",
-      "investigation: allowed at any reasonable time",
-      "access: to places belonging to the insured",
-      "coordination: insurer will try to coordinate with insured"
+      "פקידים: investigators",
+      "מיופי הכוח: authorized representatives",
+      "מקרה ביטוח: insurance case",
+      "בדיקה: investigation",
+      "הקלה: facilitation"
     ],
     "product_hints": [
       "מכלול"
     ]
   },
   "sketch": ".9.12 טיפול בתביעות\n.9.12.1 המבטח יכול - על ידי פקידיו, מיופי הכוח - להיכנס, בכל זמן המתקבל על הדעת, למטרות חקירה או בדיקה, לכל המקומות השייכים למבוטח\nו/או הנמצאים באחזקתו ו/או באחריותו, שבהם אירע מקרה הביטוח או שיכול ויהיו קשורים למקרה הביטוח, והמבטח יכול לשהות בהם ולבקש להחזיק בהם ובתכולתם, ככל שהעניין מצדיק זאת, הכל בזמן המתקבל על הדעת, ולגבי כל מטרה הקשורה במקרה זה, והמבוטח ייתן ויעשה למבטח את כל ההקלות הדרושות לשם כך.",
-  "embed_text": "פוליסת מכלול מאפשרת למבטח להיכנס למקומות השייכים למבוטח לצורך חקירה או בדיקה של מקרה ביטוח. החקירה יכולה לכלול בדיקת תכולת המקום, והמבטח רשאי לשהות שם ככל שהעניין מצדיק זאת. לדוגמה, אם אירע מקרה ביטוח במשרד, המבטח יכול להיכנס למשרד כדי לבדוק את נסיבות המקרה.",
-  "payload": "טבלה: טיפול בתביעות\nThis table outlines the insurer's rights regarding claims investigation and management. It details how the insurer can investigate incidents and manage claims on behalf of the insured.\nממדים: Clauses related to claims handling, Insurer's rights and responsibilities\n\n.9.12 טיפול בתביעות\n.9.12.1 המבטח יכול - על ידי פקידיו, מיופי הכוח - להיכנס, בכל זמן המתקבל על הדעת, למטרות חקירה או בדיקה, לכל המקומות השייכים למבוטח\nו/או הנמצאים באחזקתו ו/או באחריותו, שבהם אירע מקרה הביטוח או שיכול ויהיו קשורים למקרה הביטוח, והמבטח יכול לשהות בהם ולבקש להחזיק בהם ובתכולתם, ככל שהעניין מצדיק זאת, הכל בזמן המתקבל על הדעת, ולגבי כל מטרה הקשורה במקרה זה, והמבוטח ייתן ויעשה למבטח את כל ההקלות הדרושות לשם כך."
+  "embed_text": "טבלה זו מתארת את זכויות המבטח בנוגע לחקירת תביעות וניהולן, כחלק מפוליסת ביטוח מכלול. המבטח רשאי להיכנס למקומות השייכים למבוטח לצורך חקירה, לנהל הגנה מפני תביעות, ולתבוע שיפוי בשם המבוטח. פוליסת מכלול מאפשרת למבטח לבצע בדיקות ובדיקות לצורך הערכת נסיבות מקרה הביטוח. המבטח יכול לבקש גישה למקומות השייכים למבוטח או באחזקתו, כמו גם לבדוק את תכולתם. המבטח רשאי לנהל את ההגנה מפני כל תביעה או ליישב כל תביעה, וכן לתבוע שיפוי בשם המבוטח. This table outlines the insurer's rights regarding claims investigation and management. It details the insurer’s ability to enter premises, manage defense against claims, and coordinate with the insured. בין הערכים בטבלה: פקידים: investigators; מיופי הכוח: authorized representatives; מקרה ביטוח: insurance case; בדיקה: investigation; הקלה: facilitation.",
+  "payload": "טבלה: טיפול בתביעות\nThis table outlines the insurer's rights regarding claims investigation and management. It details the insurer’s ability to enter premises, manage defense against claims, and coordinate with the insured.\nממדים: claim handling procedures, insurer's rights and actions\n\n.9.12 טיפול בתביעות\n.9.12.1 המבטח יכול - על ידי פקידיו, מיופי הכוח - להיכנס, בכל זמן המתקבל על הדעת, למטרות חקירה או בדיקה, לכל המקומות השייכים למבוטח\nו/או הנמצאים באחזקתו ו/או באחריותו, שבהם אירע מקרה הביטוח או שיכול ויהיו קשורים למקרה הביטוח, והמבטח יכול לשהות בהם ולבקש להחזיק בהם ובתכולתם, ככל שהעניין מצדיק זאת, הכל בזמן המתקבל על הדעת, ולגבי כל מטרה הקשורה במקרה זה, והמבוטח ייתן ויעשה למבטח את כל ההקלות הדרושות לשם כך."
 }

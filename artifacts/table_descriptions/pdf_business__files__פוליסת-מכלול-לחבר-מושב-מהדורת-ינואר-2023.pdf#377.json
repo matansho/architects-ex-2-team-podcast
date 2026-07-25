@@ -2,23 +2,24 @@
   "id": "pdf:business/files/פוליסת-מכלול-לחבר-מושב-מהדורת-ינואר-2023.pdf#377",
   "source": "llm",
   "description": {
-    "title": "פוליסת מכלול - כיסוי רכוש",
-    "summary": "This table details exclusions to property insurance coverage under the 'Mekhalel' policy. It lists scenarios where the insurer will not compensate the insured for loss or damage.",
-    "embed_passage": "פוליסת מכלול מספקת כיסוי לרכוש המבוטח, אך קיימים סייגים. לדוגמה, אובדן או נזק שנגרמו מחימום יתר או מחוסר לחץ שמן במנוע אינם מכוסים, אלא אם כן הותקן מתקן תקין לגרימת דימום מיידי של המנוע. כיסוי זה חל בתחום המדינה, במשך תקופת הביטוח.",
-    "row_axis": "exclusion scenario",
-    "column_axis": "details of exclusion",
+    "title": "סייגים לפרק שביעי",
+    "summary": "This table lists exclusions to insurance coverage for agricultural equipment, specifically relating to damage or loss. It details scenarios where the insurer will not provide compensation.",
+    "embed_passage": "טבלה זו מפרטת סייגים לפוליסת ביטוח, המתמקדת בציוד חקלאי מתנייע. מטרתה להבהיר מקרים בהם הכיסוי הביטוחי אינו תקף, כגון נזקים הנגרמים כתוצאה מחימום יתר או חוסר לחץ שמן במנוע. ניתן לחפש סייגים ספציפיים לפי סוג הנזק או התקלה. הסייגים כוללים אבדן או נזק, חבות שנגרמו מחימום יתר, מחוסר לחץ שמן במנוע, אבדן או נזק עקב המשכת פעולה של רכוש מבוטח לאחר נזק שלא תוקן. פוליסת מכלול לחבר מושב מהדורת ינואר 2023 מציעה כיסוי מותאם לצרכים הייחודיים של חברי מושבים.",
+    "row_axis": "סוגי נזק/סיכון",
+    "column_axis": "תיאור הסייג",
     "units": [],
     "notable_values": [
-      "exclusion: overheating/low oil pressure",
-      "exclusion: continued operation after damage",
-      "exclusion: failure to install spark arrestor"
+      "חימום יתר: לא ישפה",
+      "חוסר לחץ שמן במנוע: לא ישפה",
+      "נזק שלא תוקן: לא ישפה",
+      "המשכת פעולה לאחר נזק: לא ישפה"
     ],
     "product_hints": [
       "מכלול",
-      "פוליסת מכלול"
+      "פוליסת מכלול לחבר מושב"
     ]
   },
   "sketch": ", אבדן, נזק, חבות שנגרמו מחימום יתר, מחוסר לחץ שמן במנוע. יחד עם זאת .2.9 , ככל שקיים המבוטח אמצעי להקלת סיכון המבטח כאמור להלן: בפריט המבוטח בעת קרות מקרה הביטוח, היה מותקן מתקן תיקני תקין הגורם מיידית לדימום המנוע בכל עת של התחממות יתר או בעת שיורד לחץ השמן, חריג זה לא יחול;\n.  אבדן או נזק שייגרם עקב המשכת פעולתו/הפעלתו, בידיעת המבוטח, של פריט 2.10 רכוש מבוטח לאחר נזק שלא תוקן או שלא תוקן כהלכה;",
-  "embed_text": "פוליסת מכלול מספקת כיסוי לרכוש המבוטח, אך קיימים סייגים. לדוגמה, אובדן או נזק שנגרמו מחימום יתר או מחוסר לחץ שמן במנוע אינם מכוסים, אלא אם כן הותקן מתקן תקין לגרימת דימום מיידי של המנוע. כיסוי זה חל בתחום המדינה, במשך תקופת הביטוח.",
-  "payload": "טבלה: פוליסת מכלול - כיסוי רכוש\nThis table details exclusions to property insurance coverage under the 'Mekhalel' policy. It lists scenarios where the insurer will not compensate the insured for loss or damage.\nממדים: exclusion scenario, details of exclusion\n\n, אבדן, נזק, חבות שנגרמו מחימום יתר, מחוסר לחץ שמן במנוע. יחד עם זאת .2.9 , ככל שקיים המבוטח אמצעי להקלת סיכון המבטח כאמור להלן: בפריט המבוטח בעת קרות מקרה הביטוח, היה מותקן מתקן תיקני תקין הגורם מיידית לדימום המנוע בכל עת של התחממות יתר או בעת שיורד לחץ השמן, חריג זה לא יחול;\n.  אבדן או נזק שייגרם עקב המשכת פעולתו/הפעלתו, בידיעת המבוטח, של פריט 2.10 רכוש מבוטח לאחר נזק שלא תוקן או שלא תוקן כהלכה;"
+  "embed_text": "טבלה זו מפרטת סייגים לפוליסת ביטוח, המתמקדת בציוד חקלאי מתנייע. מטרתה להבהיר מקרים בהם הכיסוי הביטוחי אינו תקף, כגון נזקים הנגרמים כתוצאה מחימום יתר או חוסר לחץ שמן במנוע. ניתן לחפש סייגים ספציפיים לפי סוג הנזק או התקלה. הסייגים כוללים אבדן או נזק, חבות שנגרמו מחימום יתר, מחוסר לחץ שמן במנוע, אבדן או נזק עקב המשכת פעולה של רכוש מבוטח לאחר נזק שלא תוקן. פוליסת מכלול לחבר מושב מהדורת ינואר 2023 מציעה כיסוי מותאם לצרכים הייחודיים של חברי מושבים. This table lists exclusions to insurance coverage for agricultural equipment, specifically relating to damage or loss. It details scenarios where the insurer will not provide compensation. בין הערכים בטבלה: המשכת פעולה לאחר נזק: לא ישפה.",
+  "payload": "טבלה: סייגים לפרק שביעי\nThis table lists exclusions to insurance coverage for agricultural equipment, specifically relating to damage or loss. It details scenarios where the insurer will not provide compensation.\nממדים: סוגי נזק/סיכון, תיאור הסייג\n\n, אבדן, נזק, חבות שנגרמו מחימום יתר, מחוסר לחץ שמן במנוע. יחד עם זאת .2.9 , ככל שקיים המבוטח אמצעי להקלת סיכון המבטח כאמור להלן: בפריט המבוטח בעת קרות מקרה הביטוח, היה מותקן מתקן תיקני תקין הגורם מיידית לדימום המנוע בכל עת של התחממות יתר או בעת שיורד לחץ השמן, חריג זה לא יחול;\n.  אבדן או נזק שייגרם עקב המשכת פעולתו/הפעלתו, בידיעת המבוטח, של פריט 2.10 רכוש מבוטח לאחר נזק שלא תוקן או שלא תוקן כהלכה;"
 }

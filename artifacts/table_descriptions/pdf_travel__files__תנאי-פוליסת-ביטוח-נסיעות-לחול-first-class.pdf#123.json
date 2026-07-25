@@ -2,26 +2,29 @@
   "id": "pdf:travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-first-class.pdf#123",
   "source": "llm",
   "description": {
-    "title": "ביטוח נסיעות - הרחבות",
-    "summary": "This table details coverage amounts for various losses and damages during travel, such as theft or loss of personal belongings. It shows the maximum compensation available for items like phones, tablets, bicycles, and rental vehicles.",
-    "embed_passage": "פוליסת ביטוח נסיעות First Class מציעה כיסוי לגניבה או אובדן של ציוד אישי. סכום הפיצוי משתנה בהתאם לפריט, לדוגמה, עבור טלפון נייד ניתן לקבל עד 750 דולר, בעוד שעבור אופניים ניתן לקבל עד 6,000 דולר (בהתאם לערך האופניים). הכיסוי חל עד 90 ימים.",
-    "row_axis": "type of loss/damage (e.g., theft of phone, damage to rental car)",
-    "column_axis": "coverage amount / deductible",
+    "title": "תנאי פוליסת ביטוח נסיעות לחול - First Class",
+    "summary": "This table details coverage amounts for theft or loss of various items during travel, with different self-participation amounts. It is used to look up coverage based on the item and the level of coverage purchased.",
+    "embed_passage": "טבלה זו מתארת את תנאי פוליסת ביטוח נסיעות לחול First Class, ומפרטת סכומי כיסוי עבור גניבה או אובדן של פריטים שונים במהלך הנסיעה, תוך ציון השתתפות עצמית. ניתן לחפש מידע על כיסוי עבור פריט מסוים, כגון טלפון נייד או אופניים, וכן את גובה ההשתתפות העצמית המתאימה. הפריטים המופיעים בטבלה כוללים טלפון נייד, טאבלט, אופניים, מוביל אווירי, ורכב שכור. סכומי הכיסוי נעים בין 50$ ל-6,000$, וההשתתפות העצמית משתנה בהתאם לסוג הפריט ולגיל הנהג (עד גיל 75).",
+    "row_axis": "item covered (e.g., mobile phone, bicycle)",
+    "column_axis": "coverage amount / self-participation",
     "units": [
       "$"
     ],
     "notable_values": [
-      "phone theft: $750",
-      "tablet theft/loss: $200",
-      "bicycle theft/loss: up to $6,000",
-      "rental car damage deductible: $1,500",
-      "rental car damage deductible: $2,500"
+      "mobile phone theft/loss: $200",
+      "tablet theft/loss: $750",
+      "bicycle theft/loss: $50 - $250",
+      "aerial carrier damage/theft: $1,000",
+      "rental car damage: $1,500",
+      "rental caravan damage (age 24-75): $1,500",
+      "rental crown damage (age 24-75): $6,000",
+      "bicycle value: up to $6,000"
     ],
     "product_hints": [
-      "ביטוח נסיעות First Class"
+      "First Class"
     ]
   },
   "sketch": "אישי מחשב של גניבה או אובדן טאבלט,21 פרק\n$ 200,$750,נייד טלפון של גניבה או אובדן,22 פרק\n- כללי אובדן $50 - גניבה $250,\"$2,500 $4,500 $6,000\",ימים( 90 )עד גלגליים דו אופניים הביטוח לסכום )בהתאם גניבה או אובדן נרשם ואשר האופניים ערך פי על הנדרש הרשימה( בדף,23 פרק\n\"$1,000\",שנרכש לסכום בהתאם,אווירי מוביל בידי שהיו גניבה או נזק,\n,שכור מרכב/קראון תאונתי נזק של במקרה עצמית השתתפות ביטול א' 24 או 24 מהפרקים אחד לרכוש ניתן,שכור מרכב/קראון תאונתי נזק של במקרה עצמית השתתפות ביטול א' 24 או 24 מהפרקים אחד לרכוש ניתן,24 פרק\nה.ע ללא,\"$1,500\",של במקרה עצמית השתתפות ביטול )לנהג שכור קרוואן מרכב/ תאונתי נזק (75 גיל ועד 24 מגיל,24 פרק\n,\"$6,000\",של במקרה עצמית השתתפות ביטול )לנהג שכור קראון מרכב/ תאונתי נזק (75 גיל ועד 24 מגיל,פרק א 24",
-  "embed_text": "פוליסת ביטוח נסיעות First Class מציעה כיסוי לגניבה או אובדן של ציוד אישי. סכום הפיצוי משתנה בהתאם לפריט, לדוגמה, עבור טלפון נייד ניתן לקבל עד 750 דולר, בעוד שעבור אופניים ניתן לקבל עד 6,000 דולר (בהתאם לערך האופניים). הכיסוי חל עד 90 ימים.",
-  "payload": "טבלה: ביטוח נסיעות - הרחבות\nThis table details coverage amounts for various losses and damages during travel, such as theft or loss of personal belongings. It shows the maximum compensation available for items like phones, tablets, bicycles, and rental vehicles.\nממדים: type of loss/damage (e.g., theft of phone, damage to rental car), coverage amount / deductible\n\nאישי מחשב של גניבה או אובדן טאבלט,21 פרק\n$ 200,$750,נייד טלפון של גניבה או אובדן,22 פרק\n- כללי אובדן $50 - גניבה $250,\"$2,500 $4,500 $6,000\",ימים( 90 )עד גלגליים דו אופניים הביטוח לסכום )בהתאם גניבה או אובדן נרשם ואשר האופניים ערך פי על הנדרש הרשימה( בדף,23 פרק\n\"$1,000\",שנרכש לסכום בהתאם,אווירי מוביל בידי שהיו גניבה או נזק,\n,שכור מרכב/קראון תאונתי נזק של במקרה עצמית השתתפות ביטול א' 24 או 24 מהפרקים אחד לרכוש ניתן,שכור מרכב/קראון תאונתי נזק של במקרה עצמית השתתפות ביטול א' 24 או 24 מהפרקים אחד לרכוש ניתן,24 פרק\nה.ע ללא,\"$1,500\",של במקרה עצמית השתתפות ביטול )לנהג שכור קרוואן מרכב/ תאונתי נזק (75 גיל ועד 24 מגיל,24 פרק\n,\"$6,000\",של במקרה עצמית השתתפות ביטול )לנהג שכור קראון מרכב/ תאונתי נזק (75 גיל ועד 24 מגיל,פרק א 24"
+  "embed_text": "טבלה זו מתארת את תנאי פוליסת ביטוח נסיעות לחול First Class, ומפרטת סכומי כיסוי עבור גניבה או אובדן של פריטים שונים במהלך הנסיעה, תוך ציון השתתפות עצמית. ניתן לחפש מידע על כיסוי עבור פריט מסוים, כגון טלפון נייד או אופניים, וכן את גובה ההשתתפות העצמית המתאימה. הפריטים המופיעים בטבלה כוללים טלפון נייד, טאבלט, אופניים, מוביל אווירי, ורכב שכור. סכומי הכיסוי נעים בין 50$ ל-6,000$, וההשתתפות העצמית משתנה בהתאם לסוג הפריט ולגיל הנהג (עד גיל 75). This table details coverage amounts for theft or loss of various items during travel, with different self-participation amounts. It is used to look up coverage based on the item and the level of coverage purchased. בין הערכים בטבלה: mobile phone theft/loss: $200; tablet theft/loss: $750; bicycle theft/loss: $50 - $250; aerial carrier damage/theft: $1,000;…",
+  "payload": "טבלה: תנאי פוליסת ביטוח נסיעות לחול - First Class\nThis table details coverage amounts for theft or loss of various items during travel, with different self-participation amounts. It is used to look up coverage based on the item and the level of coverage purchased.\nממדים: item covered (e.g., mobile phone, bicycle), coverage amount / self-participation\n\nאישי מחשב של גניבה או אובדן טאבלט,21 פרק\n$ 200,$750,נייד טלפון של גניבה או אובדן,22 פרק\n- כללי אובדן $50 - גניבה $250,\"$2,500 $4,500 $6,000\",ימים( 90 )עד גלגליים דו אופניים הביטוח לסכום )בהתאם גניבה או אובדן נרשם ואשר האופניים ערך פי על הנדרש הרשימה( בדף,23 פרק\n\"$1,000\",שנרכש לסכום בהתאם,אווירי מוביל בידי שהיו גניבה או נזק,\n,שכור מרכב/קראון תאונתי נזק של במקרה עצמית השתתפות ביטול א' 24 או 24 מהפרקים אחד לרכוש ניתן,שכור מרכב/קראון תאונתי נזק של במקרה עצמית השתתפות ביטול א' 24 או 24 מהפרקים אחד לרכוש ניתן,24 פרק\nה.ע ללא,\"$1,500\",של במקרה עצמית השתתפות ביטול )לנהג שכור קרוואן מרכב/ תאונתי נזק (75 גיל ועד 24 מגיל,24 פרק\n,\"$6,000\",של במקרה עצמית השתתפות ביטול )לנהג שכור קראון מרכב/ תאונתי נזק (75 גיל ועד 24 מגיל,פרק א 24"
 }

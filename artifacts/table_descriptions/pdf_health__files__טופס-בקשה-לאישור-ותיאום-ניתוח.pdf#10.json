@@ -2,25 +2,27 @@
   "id": "pdf:health/files/טופס-בקשה-לאישור-ותיאום-ניתוח.pdf#10",
   "source": "llm",
   "description": {
-    "title": "בקשת ניתוח",
-    "summary": "This table is a request form for surgery approval from Harel Insurance. It collects patient details for claim processing and coordination.",
-    "embed_passage": "טופס זה נועד לתיאום ניתוח במסגרת ביטוח הבריאות של הראל. הטופס מבקש פרטים אישיים כגון מספר הפוליסה, תאריך לידה ומספר זהות, לצד פרטי קשר ופרטי הרופא המטפל. מילוי הטופס באופן מדויק יסייע לטיפול מהיר ויעיל בתביעה.",
-    "row_axis": "Patient / Policyholder",
-    "column_axis": "Personal details, contact information, medical details",
+    "title": "טופס בקשה לאישור ניתוח",
+    "summary": "This table is part of a health insurance claim form for surgery authorization. It collects policyholder and medical professional details to process the claim.",
+    "embed_passage": "טופס זה נועד לאישור ולתיאום ניתוח במסגרת ביטוח בריאות הראל. מילוי הטופס באופן מדויק ושלם יסייע לטיפול יעיל בתביעה. הטופס כולל פרטים אישיים של המבוטח, פרטי קופת החולים, ופרטי הרופא המטפל. יש לצרף מסמכים רפואיים רלוונטיים כגון תולדות מחלה וחשבוניות. פרטי המבוטח כוללים מספר פוליסה, תאריך לידה ומספר זהות. הרופא המטפל ימלא חלק נפרד בטופס. הראל תעדכן את פרטי המבוטח בכל מוצרי הביטוח והחיסכון ארוך הטווח.",
+    "row_axis": "claim form section / data field",
+    "column_axis": "data value",
     "units": [],
     "notable_values": [
-      "מספר פקס: 03-7348166",
+      "מספר הפוליסה: unknown",
+      "תאריך לידה: unknown",
+      "מספר זהות: unknown",
+      "שם פרטי: unknown",
+      "שם משפחה: unknown",
       "מיקוד: 10952",
-      "מספר טלפון סלולרי: 052-3235121",
-      "שעות ביממה: 24",
-      "שעות לאחר שליחת הטופס: 15:00"
+      "יישוב: רמת גן",
+      "קופת חולים: unknown"
     ],
     "product_hints": [
-      "Harel Insurance",
-      "ביטוח בריאות"
+      "ביטוח בריאות הראל"
     ]
   },
   "sketch": "אם המבוטח קטין, ימלא את הטופס אחד מהוריו, אך יחתמו שני ההורים. אנא קחו בכל פנייה לרופא המטפל או המקצועי, את הטופס הזה ובקשו מהם למלא את החלק המתאים במלואו.\nטופס זה אינו מהווה התחייבות לתשלום הניתוח ו/או הכרה בזכאות המבוטח לתשלום כלשהו.\nאנא צרף לטופס זה מסמכים רפואיים כולל תולדות מחלה, סיכומי מחלה או תעודות חדר מיון אם קיימים, חשבונית/קבלות מקוריות וכל מסמך הדרוש לטיפול בתביעה.",
-  "embed_text": "טופס זה נועד לתיאום ניתוח במסגרת ביטוח הבריאות של הראל. הטופס מבקש פרטים אישיים כגון מספר הפוליסה, תאריך לידה ומספר זהות, לצד פרטי קשר ופרטי הרופא המטפל. מילוי הטופס באופן מדויק יסייע לטיפול מהיר ויעיל בתביעה.",
-  "payload": "טבלה: בקשת ניתוח\nThis table is a request form for surgery approval from Harel Insurance. It collects patient details for claim processing and coordination.\nממדים: Patient / Policyholder, Personal details, contact information, medical details\n\nאם המבוטח קטין, ימלא את הטופס אחד מהוריו, אך יחתמו שני ההורים. אנא קחו בכל פנייה לרופא המטפל או המקצועי, את הטופס הזה ובקשו מהם למלא את החלק המתאים במלואו.\nטופס זה אינו מהווה התחייבות לתשלום הניתוח ו/או הכרה בזכאות המבוטח לתשלום כלשהו.\nאנא צרף לטופס זה מסמכים רפואיים כולל תולדות מחלה, סיכומי מחלה או תעודות חדר מיון אם קיימים, חשבונית/קבלות מקוריות וכל מסמך הדרוש לטיפול בתביעה."
+  "embed_text": "טופס זה נועד לאישור ולתיאום ניתוח במסגרת ביטוח בריאות הראל. מילוי הטופס באופן מדויק ושלם יסייע לטיפול יעיל בתביעה. הטופס כולל פרטים אישיים של המבוטח, פרטי קופת החולים, ופרטי הרופא המטפל. יש לצרף מסמכים רפואיים רלוונטיים כגון תולדות מחלה וחשבוניות. פרטי המבוטח כוללים מספר פוליסה, תאריך לידה ומספר זהות. הרופא המטפל ימלא חלק נפרד בטופס. הראל תעדכן את פרטי המבוטח בכל מוצרי הביטוח והחיסכון ארוך הטווח. This table is part of a health insurance claim form for surgery authorization. It collects policyholder and medical professional details to process the claim. בין הערכים בטבלה: מספר הפוליסה: unknown; שם פרטי: unknown; שם משפחה: unknown; מיקוד: 10952; יישוב: רמת גן; קופת חולים: unknown.",
+  "payload": "טבלה: טופס בקשה לאישור ניתוח\nThis table is part of a health insurance claim form for surgery authorization. It collects policyholder and medical professional details to process the claim.\nממדים: claim form section / data field, data value\n\nאם המבוטח קטין, ימלא את הטופס אחד מהוריו, אך יחתמו שני ההורים. אנא קחו בכל פנייה לרופא המטפל או המקצועי, את הטופס הזה ובקשו מהם למלא את החלק המתאים במלואו.\nטופס זה אינו מהווה התחייבות לתשלום הניתוח ו/או הכרה בזכאות המבוטח לתשלום כלשהו.\nאנא צרף לטופס זה מסמכים רפואיים כולל תולדות מחלה, סיכומי מחלה או תעודות חדר מיון אם קיימים, חשבונית/קבלות מקוריות וכל מסמך הדרוש לטיפול בתביעה."
 }

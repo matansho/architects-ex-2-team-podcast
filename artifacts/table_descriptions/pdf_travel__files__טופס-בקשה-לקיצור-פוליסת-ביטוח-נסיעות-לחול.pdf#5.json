@@ -3,21 +3,18 @@
   "source": "llm",
   "description": {
     "title": "קיצור פוליסת ביטוח נסיעות",
-    "summary": "This table describes the conditions for shortening a travel insurance policy. It details the implications of canceling coverage and potential future re-enrollment.",
-    "embed_passage": "פוליסת ביטוח נסיעות מאפשרת קיצור תקופת הכיסוי, אך בכיסוי שבוטל לא יכוסה מקרה ביטוח שאירע לאחר הביטול. במקרה של קיצור שהיה בחו״ל, המבוטח יהיה זכאי להחזר יחסי של דמי הביטוח היומיים שלא נוצלו. תנאי להחזר הוא הצגת צילום דרכון עם חותמת כניסה לישראל.",
-    "row_axis": "conditions/clauses related to policy shortening",
-    "column_axis": "aspects of policy shortening (e.g., coverage, future enrollment)",
+    "summary": "This table outlines the conditions for shortening a travel insurance policy. It details the implications of canceling coverage and potential re-enrollment.",
+    "embed_passage": "טופס זה מתייחס לקיצור פוליסת ביטוח נסיעות לחול, ומסביר את ההשלכות של ביטול כיסויים. הבקשה לקיצור הפוליסה מיועדת למבוטח שחזר לישראל לפני תום תקופת הביטוח. בכיסוי שבוטל לא יכוסה מקרה ביטוח שאירע לאחר ביטול הכיסוי. כמו כן, ככל שתאושר בקשתך להצטרף מחדש לביטוח, הפוליסה שתופק לך תהיה פוליסה חדשה לכל דבר ועניין.",
+    "row_axis": "conditions of policy shortening",
+    "column_axis": "policy implications",
     "units": [],
-    "notable_values": [
-      "coverage cancellation: no coverage for events after cancellation",
-      "re-enrollment: may require new underwriting",
-      "refund: proportional refund for unused daily premiums"
-    ],
+    "notable_values": [],
     "product_hints": [
-      "ביטוח נסיעות"
+      "ביטוח נסיעות",
+      "פוליסת ביטוח נסיעות לחול"
     ]
   },
   "sketch": ". בכיסוי שבוטל לא יכוסה מקרה ביטוח שאירע לאחר ביטול הכיסוי ולא תהיה זכאי לקבלת שיפוי או פיצוי כלשהו מכוח אותו כיסוי. כמו כן, ככל שבעתיד תבקש להצטרף מחדש לביטוח, הדבר עשוי להיות כרוך בתהליך מחודש של חיתום רפואי או אחר, בהסכמתה המחודשת של חברת הביטוח לקבלתך לביטוח ובתנאים ובתעריפים שיהיו נהוגים בחברה ביום בקשתך.\n. כמו כן, ככל שתאושר בקשתך להצטרף מחדש לביטוח, הפוליסה שתופק לך תהיה פוליסה חדשה לכל דבר ועניין.",
-  "embed_text": "פוליסת ביטוח נסיעות מאפשרת קיצור תקופת הכיסוי, אך בכיסוי שבוטל לא יכוסה מקרה ביטוח שאירע לאחר הביטול. במקרה של קיצור שהיה בחו״ל, המבוטח יהיה זכאי להחזר יחסי של דמי הביטוח היומיים שלא נוצלו. תנאי להחזר הוא הצגת צילום דרכון עם חותמת כניסה לישראל.",
-  "payload": "טבלה: קיצור פוליסת ביטוח נסיעות\nThis table describes the conditions for shortening a travel insurance policy. It details the implications of canceling coverage and potential future re-enrollment.\nממדים: conditions/clauses related to policy shortening, aspects of policy shortening (e.g., coverage, future enrollment)\n\n. בכיסוי שבוטל לא יכוסה מקרה ביטוח שאירע לאחר ביטול הכיסוי ולא תהיה זכאי לקבלת שיפוי או פיצוי כלשהו מכוח אותו כיסוי. כמו כן, ככל שבעתיד תבקש להצטרף מחדש לביטוח, הדבר עשוי להיות כרוך בתהליך מחודש של חיתום רפואי או אחר, בהסכמתה המחודשת של חברת הביטוח לקבלתך לביטוח ובתנאים ובתעריפים שיהיו נהוגים בחברה ביום בקשתך.\n. כמו כן, ככל שתאושר בקשתך להצטרף מחדש לביטוח, הפוליסה שתופק לך תהיה פוליסה חדשה לכל דבר ועניין."
+  "embed_text": "טופס זה מתייחס לקיצור פוליסת ביטוח נסיעות לחול, ומסביר את ההשלכות של ביטול כיסויים. הבקשה לקיצור הפוליסה מיועדת למבוטח שחזר לישראל לפני תום תקופת הביטוח. בכיסוי שבוטל לא יכוסה מקרה ביטוח שאירע לאחר ביטול הכיסוי. כמו כן, ככל שתאושר בקשתך להצטרף מחדש לביטוח, הפוליסה שתופק לך תהיה פוליסה חדשה לכל דבר ועניין. This table outlines the conditions for shortening a travel insurance policy. It details the implications of canceling coverage and potential re-enrollment.",
+  "payload": "טבלה: קיצור פוליסת ביטוח נסיעות\nThis table outlines the conditions for shortening a travel insurance policy. It details the implications of canceling coverage and potential re-enrollment.\nממדים: conditions of policy shortening, policy implications\n\n. בכיסוי שבוטל לא יכוסה מקרה ביטוח שאירע לאחר ביטול הכיסוי ולא תהיה זכאי לקבלת שיפוי או פיצוי כלשהו מכוח אותו כיסוי. כמו כן, ככל שבעתיד תבקש להצטרף מחדש לביטוח, הדבר עשוי להיות כרוך בתהליך מחודש של חיתום רפואי או אחר, בהסכמתה המחודשת של חברת הביטוח לקבלתך לביטוח ובתנאים ובתעריפים שיהיו נהוגים בחברה ביום בקשתך.\n. כמו כן, ככל שתאושר בקשתך להצטרף מחדש לביטוח, הפוליסה שתופק לך תהיה פוליסה חדשה לכל דבר ועניין."
 }

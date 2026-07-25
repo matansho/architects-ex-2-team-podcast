@@ -3,14 +3,16 @@
   "source": "llm",
   "description": {
     "title": "ביטוח אופניים",
-    "summary": "This table details the coverage for bicycle insurance as part of a home and contents policy. It outlines the risks covered, such as accidental damage and theft, and the conditions that apply.",
-    "embed_passage": "פוליסת ביטוח דירה ותכולתה כוללת כיסוי לאופניים, כאשר האחריות לאובדן או נזק לאופניים לא תעלה על סכום הביטוח הנקוב ברשימה. גניבת האופניים מכוסה בתנאי שהם היו נעולים בעת הגניבה, אך לא גניבת חלקים אם האופניים לא היו במקום סגור ונעול.",
-    "row_axis": "Covered risks related to bicycle insurance",
-    "column_axis": "Conditions and limitations of coverage",
+    "summary": "This table details the coverage for bicycle insurance as part of a home and contents policy. It outlines the covered risks and conditions for claiming compensation for loss or damage to bicycles.",
+    "embed_passage": "טבלה זו מתארת את הכיסוי הביטוחי לאופניים כחלק מפוליסת ביטוח דירה ותכולתה. הכיסוי חל על אובדן או נזק תאונתי לאופניים, וכן גניבה בתנאים מסוימים. הפוליסה מגדירה את סוגי הנזקים המכוסים, כגון נזק בזמן שימוש או גניבה, וכן תנאים כמו נעילת האופניים בעת גניבה. ביטוח אופניים, אובדן או נזק תאונתי לאופניים, גניבת האופניים, שימוש באופניים, בני משפחה, רכוש משותף.",
+    "row_axis": "covered risks (סיכונים מכוסים)",
+    "column_axis": "details of coverage (פרטי הכיסוי)",
     "units": [],
     "notable_values": [
-      "risk type: נזק תאונתי לאופניים",
-      "risk type: גניבת האופניים"
+      "אופניים: covered item",
+      "בני משפחה: eligible users",
+      "רכוש משותף: location of potential theft",
+      "נעולים: condition for theft coverage"
     ],
     "product_hints": [
       "ביטוח דירה ותכולתה",
@@ -18,6 +20,6 @@
     ]
   },
   "sketch": ".  הסיכונים המכוסים 1\nנזק לרכוש המבוטח כדלקמן:\nאובדן או נזק תאונתי לאופניים, תוך כדי שימושו של המבוטח, או אחד מבני משפחתו א. )כהגדרתם בפוליסה(. אחריות המבטח לאובדן או נזק לפי סעיף זה לא תעלה על סכום הביטוח הנקוב ברשימה לכל אופניים מבוטחים.\nגניבת האופניים בעת היותם מחוץ לדירה, לרבות היותם ברכוש המשותף, בתנאי שהאופניים ב. היו נעולים בעת קרות הגניבה, אך לא גניבת חלקים אם האופניים לא היו במקום סגור ונעול.",
-  "embed_text": "פוליסת ביטוח דירה ותכולתה כוללת כיסוי לאופניים, כאשר האחריות לאובדן או נזק לאופניים לא תעלה על סכום הביטוח הנקוב ברשימה. גניבת האופניים מכוסה בתנאי שהם היו נעולים בעת הגניבה, אך לא גניבת חלקים אם האופניים לא היו במקום סגור ונעול.",
-  "payload": "טבלה: ביטוח אופניים\nThis table details the coverage for bicycle insurance as part of a home and contents policy. It outlines the risks covered, such as accidental damage and theft, and the conditions that apply.\nממדים: Covered risks related to bicycle insurance, Conditions and limitations of coverage\n\n.  הסיכונים המכוסים 1\nנזק לרכוש המבוטח כדלקמן:\nאובדן או נזק תאונתי לאופניים, תוך כדי שימושו של המבוטח, או אחד מבני משפחתו א. )כהגדרתם בפוליסה(. אחריות המבטח לאובדן או נזק לפי סעיף זה לא תעלה על סכום הביטוח הנקוב ברשימה לכל אופניים מבוטחים.\nגניבת האופניים בעת היותם מחוץ לדירה, לרבות היותם ברכוש המשותף, בתנאי שהאופניים ב. היו נעולים בעת קרות הגניבה, אך לא גניבת חלקים אם האופניים לא היו במקום סגור ונעול."
+  "embed_text": "טבלה זו מתארת את הכיסוי הביטוחי לאופניים כחלק מפוליסת ביטוח דירה ותכולתה. הכיסוי חל על אובדן או נזק תאונתי לאופניים, וכן גניבה בתנאים מסוימים. הפוליסה מגדירה את סוגי הנזקים המכוסים, כגון נזק בזמן שימוש או גניבה, וכן תנאים כמו נעילת האופניים בעת גניבה. ביטוח אופניים, אובדן או נזק תאונתי לאופניים, גניבת האופניים, שימוש באופניים, בני משפחה, רכוש משותף. This table details the coverage for bicycle insurance as part of a home and contents policy. It outlines the covered risks and conditions for claiming compensation for loss or damage to bicycles. בין הערכים בטבלה: נעולים: condition for theft coverage.",
+  "payload": "טבלה: ביטוח אופניים\nThis table details the coverage for bicycle insurance as part of a home and contents policy. It outlines the covered risks and conditions for claiming compensation for loss or damage to bicycles.\nממדים: covered risks (סיכונים מכוסים), details of coverage (פרטי הכיסוי)\n\n.  הסיכונים המכוסים 1\nנזק לרכוש המבוטח כדלקמן:\nאובדן או נזק תאונתי לאופניים, תוך כדי שימושו של המבוטח, או אחד מבני משפחתו א. )כהגדרתם בפוליסה(. אחריות המבטח לאובדן או נזק לפי סעיף זה לא תעלה על סכום הביטוח הנקוב ברשימה לכל אופניים מבוטחים.\nגניבת האופניים בעת היותם מחוץ לדירה, לרבות היותם ברכוש המשותף, בתנאי שהאופניים ב. היו נעולים בעת קרות הגניבה, אך לא גניבת חלקים אם האופניים לא היו במקום סגור ונעול."
 }

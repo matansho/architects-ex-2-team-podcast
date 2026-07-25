@@ -2,16 +2,16 @@
   "id": "pdf:diseases-disabilities/files/הצעה-לביטוח-מענקית-זהב-ומענקית-סרטן-062025.pdf#16",
   "source": "llm",
   "description": {
-    "title": "מענקית זהב ומענקית סרטן - תנאי קבלה",
-    "summary": "This table details pre-acceptance conditions for 'מענקית זהב ומענקית סרטן' insurance. It lists candidates for insurance, their age, and potentially required underwriting conditions.",
-    "embed_passage": "פוליסת 'מענקית זהב ומענקית סרטן' דורשת אישור תנאי קבלה מראש. גיל המועמד משפיע על התנאים, לדוגמה, מועמדים מעל גיל 18. הטבלה מציינת את שם המועמד לביטוח, גילו, ומספר חתימה.",
-    "row_axis": "candidate for insurance",
-    "column_axis": "candidate details (name, age, signature number)",
+    "title": "תנאי קבלה מראש",
+    "summary": "This table lists pre-acceptance conditions for insurance applicants, categorized by age and applicant status. It is used to determine underwriting requirements for coverage.",
+    "embed_passage": "טבלה זו מציגה תנאי קבלה מראש לביטוח מענקית זהב ומענקית סרטן, ומסייעת לקבוע את תנאי החיתום הנדרשים בהתאם לגיל המבוטח. ניתן לחפש מידע על תנאים ספציפיים לפי גיל המועמד לביטוח, כגון ילד מעל גיל 18. הטבלה כוללת מידע על מבוטח ראש, בן/בת, וילדים מעל גיל 18. מענקית זהב ומענקית סרטן הן תוכניות ביטוח המציעות כיסויים מותאמים אישית. המידע בטבלה כולל מועמד לביטוח, שם מועמד לביטוח, גיל מעל 18, גיל מעל 18, גיל מעל 18, גיל מעל 18.",
+    "row_axis": "מועמד לביטוח",
+    "column_axis": "תנאי חיתום, תאריך, זהו מספר, ח לביטו המועמד, שם, ח לביטו מועמד",
     "units": [],
     "notable_values": [
-      "age: 18",
-      "signature number: ראש מבוטח",
-      "age: 18"
+      "מבוטח ראש: ,,,,י ראש",
+      "בן/בת: ,,,,ג זו /בת",
+      "גיל מעל 18: ,,,,18"
     ],
     "product_hints": [
       "מענקית זהב",
@@ -19,6 +19,6 @@
     ]
   },
   "sketch": "ה חתימ,ך תארי,ת זהו מספר,ח לביטו המועמד שם,ח לביטו מועמד\n,,,,י ראש מבוטח\n,,,,ג זו /בת בן\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד",
-  "embed_text": "פוליסת 'מענקית זהב ומענקית סרטן' דורשת אישור תנאי קבלה מראש. גיל המועמד משפיע על התנאים, לדוגמה, מועמדים מעל גיל 18. הטבלה מציינת את שם המועמד לביטוח, גילו, ומספר חתימה.",
-  "payload": "טבלה: מענקית זהב ומענקית סרטן - תנאי קבלה\nThis table details pre-acceptance conditions for 'מענקית זהב ומענקית סרטן' insurance. It lists candidates for insurance, their age, and potentially required underwriting conditions.\nממדים: candidate for insurance, candidate details (name, age, signature number)\n\nה חתימ,ך תארי,ת זהו מספר,ח לביטו המועמד שם,ח לביטו מועמד\n,,,,י ראש מבוטח\n,,,,ג זו /בת בן\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד"
+  "embed_text": "טבלה זו מציגה תנאי קבלה מראש לביטוח מענקית זהב ומענקית סרטן, ומסייעת לקבוע את תנאי החיתום הנדרשים בהתאם לגיל המבוטח. ניתן לחפש מידע על תנאים ספציפיים לפי גיל המועמד לביטוח, כגון ילד מעל גיל 18. הטבלה כוללת מידע על מבוטח ראש, בן/בת, וילדים מעל גיל 18. מענקית זהב ומענקית סרטן הן תוכניות ביטוח המציעות כיסויים מותאמים אישית. המידע בטבלה כולל מועמד לביטוח, שם מועמד לביטוח, גיל מעל 18, גיל מעל 18, גיל מעל 18, גיל מעל 18. This table lists pre-acceptance conditions for insurance applicants, categorized by age and applicant status. It is used to determine underwriting requirements for coverage.",
+  "payload": "טבלה: תנאי קבלה מראש\nThis table lists pre-acceptance conditions for insurance applicants, categorized by age and applicant status. It is used to determine underwriting requirements for coverage.\nממדים: מועמד לביטוח, תנאי חיתום, תאריך, זהו מספר, ח לביטו המועמד, שם, ח לביטו מועמד\n\nה חתימ,ך תארי,ת זהו מספר,ח לביטו המועמד שם,ח לביטו מועמד\n,,,,י ראש מבוטח\n,,,,ג זו /בת בן\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד"
 }

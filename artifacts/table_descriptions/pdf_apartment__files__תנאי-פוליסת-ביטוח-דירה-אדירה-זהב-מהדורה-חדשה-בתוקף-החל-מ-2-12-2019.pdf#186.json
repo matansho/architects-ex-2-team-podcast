@@ -3,21 +3,21 @@
   "source": "llm",
   "description": {
     "title": "הודעות",
-    "summary": "This table details how to submit notifications to the insurer. It specifies the acceptable methods and addresses for written notices from the insured or beneficiary.",
-    "embed_passage": "פוליסת ביטוח דירה אדירה זהב מספקת הוראות ברורות לגבי אופן מסירת הודעות למבטח. הודעה מהמבוטח או המוטב צריכה להימסר בכתב, למשרד המבטח או לסוכן הביטוח הרשום בפוליסה, וכתובות עדכניות יסופקו על ידי המבטח או הסוכן.",
-    "row_axis": "Notification method",
-    "column_axis": "Details of notification delivery",
+    "summary": "This table details how to submit notices to the insurer. It specifies acceptable methods and addresses for written communication.",
+    "embed_passage": "טבלה זו מתארת את אופן מסירת הודעות למבטח. ההודעות מהמבוטח או המוטב צריכות להימסר בכתב. ניתן לשלוח הודעה למשרד המבטח, כפי שמצוין בכותרת הפוליסה, או לכל כתובת אחרת בישראל שהמבטח יודיע עליה. ניתן גם לשלוח למשרד סוכן הביטוח הרשום בפוליסה, או לכל כתובת אחרת בישראל שהסוכן או המבטח יודיעו עליה. אדירה זהב היא פוליסת הביטוח הרלוונטית. הודעה, מבטח, מבוטח, סוכן ביטוח הם מושגים מרכזיים.",
+    "row_axis": "types of notice delivery",
+    "column_axis": "details of delivery method",
     "units": [],
     "notable_values": [
-      "19.1: Notification requirements",
-      "19.1.1: Delivery to insurer's office",
-      "19.1.2: Delivery to insurance agent's office"
+      "delivery method: written notice",
+      "address 1: insurer's office",
+      "address 2: agent's office"
     ],
     "product_hints": [
       "אדירה זהב"
     ]
   },
   "sketch": ". הודעות 19\n.  הודעה של המבוטח או של המוטב, למבטח, תימסר למבטח בכתב לאחד מאלה: 19.1\nמען משרדו של המבטח, כמצוין בכותרת לפוליסה זו או כל מען אחר בישראל .19.1.1 שעליו יודיע המבטח, למבוטח או למוטב, מזמן לזמן.",
-  "embed_text": "פוליסת ביטוח דירה אדירה זהב מספקת הוראות ברורות לגבי אופן מסירת הודעות למבטח. הודעה מהמבוטח או המוטב צריכה להימסר בכתב, למשרד המבטח או לסוכן הביטוח הרשום בפוליסה, וכתובות עדכניות יסופקו על ידי המבטח או הסוכן.",
-  "payload": "טבלה: הודעות\nThis table details how to submit notifications to the insurer. It specifies the acceptable methods and addresses for written notices from the insured or beneficiary.\nממדים: Notification method, Details of notification delivery\n\n. הודעות 19\n.  הודעה של המבוטח או של המוטב, למבטח, תימסר למבטח בכתב לאחד מאלה: 19.1\nמען משרדו של המבטח, כמצוין בכותרת לפוליסה זו או כל מען אחר בישראל .19.1.1 שעליו יודיע המבטח, למבוטח או למוטב, מזמן לזמן."
+  "embed_text": "טבלה זו מתארת את אופן מסירת הודעות למבטח. ההודעות מהמבוטח או המוטב צריכות להימסר בכתב. ניתן לשלוח הודעה למשרד המבטח, כפי שמצוין בכותרת הפוליסה, או לכל כתובת אחרת בישראל שהמבטח יודיע עליה. ניתן גם לשלוח למשרד סוכן הביטוח הרשום בפוליסה, או לכל כתובת אחרת בישראל שהסוכן או המבטח יודיעו עליה. אדירה זהב היא פוליסת הביטוח הרלוונטית. הודעה, מבטח, מבוטח, סוכן ביטוח הם מושגים מרכזיים. This table details how to submit notices to the insurer. It specifies acceptable methods and addresses for written communication. בין הערכים בטבלה: delivery method: written notice; address 1: insurer's office; address 2: agent's office.",
+  "payload": "טבלה: הודעות\nThis table details how to submit notices to the insurer. It specifies acceptable methods and addresses for written communication.\nממדים: types of notice delivery, details of delivery method\n\n. הודעות 19\n.  הודעה של המבוטח או של המוטב, למבטח, תימסר למבטח בכתב לאחד מאלה: 19.1\nמען משרדו של המבטח, כמצוין בכותרת לפוליסה זו או כל מען אחר בישראל .19.1.1 שעליו יודיע המבטח, למבוטח או למוטב, מזמן לזמן."
 }

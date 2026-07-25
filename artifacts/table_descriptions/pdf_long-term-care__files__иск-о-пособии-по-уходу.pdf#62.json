@@ -3,14 +3,14 @@
   "source": "llm",
   "description": {
     "title": "רמות תלות",
-    "summary": "This table defines levels of assistance needed for Activities of Daily Living (ADL) to determine insurance eligibility. It details the criteria for 'Moderate Assistance' and 'Severe Dependence' in performing actions.",
-    "embed_passage": "פוליסת \"סיודי מושלם\" של קופת חולים \"כללית\" מגדירה רמות תלות שונות, לדוגמה, סיוע מתון דורש יותר ממגע פיזי אך פחות מ־50% סיוע, ותלות חמורה מצריכה סיוע משמעותי או סיוע מתמיד. קביעת רמת התלות נעשית על ידי בדיקת יכולת ביצוע פעולות יומיומיות, כגון שליטה בסוגרים.",
-    "row_axis": "Level of Assistance Needed",
+    "summary": "This table defines levels of assistance needed for activities of daily living, used to determine eligibility for long-term care benefits. It categorizes the degree of dependence based on the percentage of an action a person can perform independently.",
+    "embed_passage": "טבלה זו מתארת רמות סיוע הנדרשות לפעולות יומיומיות, המשמשות לקביעת זכאות להטבות טיפול סיעודי במסגרת הפוליסה \"סיודי מושלם\" המיועדת לחברי קופת חולים \"כללית\". הרמות מוגדרות על פי אחוז הפעולה שהאדם יכול לבצע באופן עצמאי. רמת סיוע מתונה דורשת יותר ממגע פיזי, אך המבוטח מבצע יותר מ-50% מהפעולה, ואינה נחשבת לחוסר יכולת לבצע חלק מהותי ממנה. רמת תלות חמורה מצביעה על כך שהמבוטח יכול לבצע פחות מ-50% מהפעולה, ולכן נדרשת עזרה משמעותית או עזרה לאורך כל הפעולה, בלעדיה לא תתבצע. במצב זה, המבוטח נחשב ללא יכולת לבצע חלק מהותי מהפעולה באופן עצמאי.",
+    "row_axis": "Level of Assistance",
     "column_axis": "Description of Assistance Level",
     "units": [],
     "notable_values": [
-      "Moderate Assistance: >50% action completion",
-      "Severe Dependence: <50% action completion"
+      "Moderate Assistance: >50% action performed",
+      "Serious Dependence: <50% action performed"
     ],
     "product_hints": [
       "סיודי מושלם",
@@ -18,6 +18,6 @@
     ]
   },
   "sketch": "1.3.  Умеренная помощь для выполнения данного действия нужно больше, чем физический контакт, но застрахованный выполняет более 50% действия, и поэтому не считается, что он не способен выполнить существенную часть такового.\n1.4.  Серьезная зависимость застрахованный может выполнить менее 50% данного действия, и поэтому ему требуется существенная помощь, либо помощь на протяжении всего времени выполнения такового, в отсутствие которых данное действие не будет выполнено. В таком состоянии застрахованный считается неспособным к самостоятельному выполнению существенной части данного действия.",
-  "embed_text": "פוליסת \"סיודי מושלם\" של קופת חולים \"כללית\" מגדירה רמות תלות שונות, לדוגמה, סיוע מתון דורש יותר ממגע פיזי אך פחות מ־50% סיוע, ותלות חמורה מצריכה סיוע משמעותי או סיוע מתמיד. קביעת רמת התלות נעשית על ידי בדיקת יכולת ביצוע פעולות יומיומיות, כגון שליטה בסוגרים.",
-  "payload": "טבלה: רמות תלות\nThis table defines levels of assistance needed for Activities of Daily Living (ADL) to determine insurance eligibility. It details the criteria for 'Moderate Assistance' and 'Severe Dependence' in performing actions.\nממדים: Level of Assistance Needed, Description of Assistance Level\n\n1.3.  Умеренная помощь для выполнения данного действия нужно больше, чем физический контакт, но застрахованный выполняет более 50% действия, и поэтому не считается, что он не способен выполнить существенную часть такового.\n1.4.  Серьезная зависимость застрахованный может выполнить менее 50% данного действия, и поэтому ему требуется существенная помощь, либо помощь на протяжении всего времени выполнения такового, в отсутствие которых данное действие не будет выполнено. В таком состоянии застрахованный считается неспособным к самостоятельному выполнению существенной части данного действия."
+  "embed_text": "טבלה זו מתארת רמות סיוע הנדרשות לפעולות יומיומיות, המשמשות לקביעת זכאות להטבות טיפול סיעודי במסגרת הפוליסה \"סיודי מושלם\" המיועדת לחברי קופת חולים \"כללית\". הרמות מוגדרות על פי אחוז הפעולה שהאדם יכול לבצע באופן עצמאי. רמת סיוע מתונה דורשת יותר ממגע פיזי, אך המבוטח מבצע יותר מ-50% מהפעולה, ואינה נחשבת לחוסר יכולת לבצע חלק מהותי ממנה. רמת תלות חמורה מצביעה על כך שהמבוטח יכול לבצע פחות מ-50% מהפעולה, ולכן נדרשת עזרה משמעותית או עזרה לאורך כל הפעולה, בלעדיה לא תתבצע. במצב זה, המבוטח נחשב ללא יכולת לבצע חלק מהותי מהפעולה באופן עצמאי. This table defines levels of assistance needed for activities of daily living, used to determine eligibility for long-term care benefits. It categorizes the degree of dependence based on the percentage of an action a person can perform independently. בין הערכים בטבל…",
+  "payload": "טבלה: רמות תלות\nThis table defines levels of assistance needed for activities of daily living, used to determine eligibility for long-term care benefits. It categorizes the degree of dependence based on the percentage of an action a person can perform independently.\nממדים: Level of Assistance, Description of Assistance Level\n\n1.3.  Умеренная помощь для выполнения данного действия нужно больше, чем физический контакт, но застрахованный выполняет более 50% действия, и поэтому не считается, что он не способен выполнить существенную часть такового.\n1.4.  Серьезная зависимость застрахованный может выполнить менее 50% данного действия, и поэтому ему требуется существенная помощь, либо помощь на протяжении всего времени выполнения такового, в отсутствие которых данное действие не будет выполнено. В таком состоянии застрахованный считается неспособным к самостоятельному выполнению существенной части данного действия."
 }

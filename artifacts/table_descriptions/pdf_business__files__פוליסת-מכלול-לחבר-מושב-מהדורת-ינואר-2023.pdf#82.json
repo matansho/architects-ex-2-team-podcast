@@ -3,23 +3,27 @@
   "source": "llm",
   "description": {
     "title": "כוורות",
-    "summary": "This table details insurance coverage for beehives, outlining covered risks like fire, lightning, and explosion. It specifies that the insured property includes beehives and the bees within them.",
-    "embed_passage": "פוליסת מכלול מציעה כיסוי לכוורות ודבורים השייכות למבוטח, מפני סיכונים כמו אש, ברק והתפוצצות. אמצעי להקלת סיכון המבטח כולל שמירה על שטח נקי מעשבים ומחומרים דליקים בסביבת הכוורות. הכיסוי תקף אם צוין ברשימה.",
+    "summary": "This table details coverage for beehives as an extension to the main policy. It outlines what is insured (beehives and bees), the covered risks (fire, lightning, explosion, theft), and risk mitigation measures.",
+    "embed_passage": "טבלה זו מתארת כיסוי לכוורות כהרחבה לפוליסה הראשית. הכיסוי חל על אובדן או נזק לכוורות ודבורים השייכות למבוטח, כתוצאה מסיכונים מבוטחים כגון אש, ברק והתפוצצות. אמצעי להקלת סיכון המבטח כולל שמירה על שטח נקי מחומרים דליקים. הכיסוי תקף במקרה של גניבה או שוד, בתנאי שהמבוטח הודיע מיד לרשויות. כיסוי זה רלוונטי לכוורות ודבורים, במיוחד במקרה של אש, ברק, התפוצצות, גניבה או שוד. ברשימה מפורטות הכוורות המבוטחות.",
     "row_axis": "Coverage details for beehives",
-    "column_axis": "Aspects of the coverage (e.g., definitions, risks, risk mitigation)",
+    "column_axis": "Aspects of coverage (definitions, risks, mitigation)",
     "units": [],
     "notable_values": [
-      "risk mitigation: 5 meters",
-      "covered risks: אש",
-      "covered risks: ברק",
-      "covered risks: התפוצצות"
+      "כוורות: רכוש מבוטח",
+      "אש: סיכון מבוטח",
+      "ברק: סיכון מבוטח",
+      "התפוצצות: סיכון מבוטח",
+      "גניבה: סיכון מבוטח",
+      "שוד: סיכון מבוטח",
+      "מטרים: מרחק שמירה סביב הכוורות",
+      "5: רוחב רצועה נדרשת סביב הכוורות"
     ],
     "product_hints": [
-      "מכלול",
-      "פוליסת מכלול"
+      "פוליסת מכלול",
+      "כוורות"
     ]
   },
   "sketch": "כוורות .6.8\nפרק זה מורחב לכסות מקרה הביטוח , אם צוין ברשימה, כי כיסוי כוורות תקף כהגדרתו להלן: אובדן או נזק לרכוש המבוטח, או לחלק ממנו, שיגרמו כתוצאה מהסיכונים המבוטחים.\nהגדרות נוספות לכיסוי זו:\nהרכוש המבוטח: .6.8.1\nכוורות ודבורים שבהן, השייכות למבוטח.\nהסיכונים המבוטחים: .6.8.2\nאש, ברק, התפוצצות. .6.8.2.1 אמצעי להקלת סיכון המבטח בגין סיכון זה הינו שמירה מתמדת מטרים לפחות סביב השטח בו נמצאות הכוורות שהינה מבורא ונקייה ברציפות ובמהלך כל תקופת הביטוח מעשבים, משיחים, מקוצים, מענפים, מגזם ומכל",
-  "embed_text": "פוליסת מכלול מציעה כיסוי לכוורות ודבורים השייכות למבוטח, מפני סיכונים כמו אש, ברק והתפוצצות. אמצעי להקלת סיכון המבטח כולל שמירה על שטח נקי מעשבים ומחומרים דליקים בסביבת הכוורות. הכיסוי תקף אם צוין ברשימה.",
-  "payload": "טבלה: כוורות\nThis table details insurance coverage for beehives, outlining covered risks like fire, lightning, and explosion. It specifies that the insured property includes beehives and the bees within them.\nממדים: Coverage details for beehives, Aspects of the coverage (e.g., definitions, risks, risk mitigation)\n\nכוורות .6.8\nפרק זה מורחב לכסות מקרה הביטוח , אם צוין ברשימה, כי כיסוי כוורות תקף כהגדרתו להלן: אובדן או נזק לרכוש המבוטח, או לחלק ממנו, שיגרמו כתוצאה מהסיכונים המבוטחים.\nהגדרות נוספות לכיסוי זו:\nהרכוש המבוטח: .6.8.1\nכוורות ודבורים שבהן, השייכות למבוטח.\nהסיכונים המבוטחים: .6.8.2\nאש, ברק, התפוצצות. .6.8.2.1 אמצעי להקלת סיכון המבטח בגין סיכון זה הינו שמירה מתמדת מטרים לפחות סביב השטח בו נמצאות הכוורות שהינה מבורא ונקייה ברציפות ובמהלך כל תקופת הביטוח מעשבים, משיחים, מקוצים, מענפים, מגזם ומכל"
+  "embed_text": "טבלה זו מתארת כיסוי לכוורות כהרחבה לפוליסה הראשית. הכיסוי חל על אובדן או נזק לכוורות ודבורים השייכות למבוטח, כתוצאה מסיכונים מבוטחים כגון אש, ברק והתפוצצות. אמצעי להקלת סיכון המבטח כולל שמירה על שטח נקי מחומרים דליקים. הכיסוי תקף במקרה של גניבה או שוד, בתנאי שהמבוטח הודיע מיד לרשויות. כיסוי זה רלוונטי לכוורות ודבורים, במיוחד במקרה של אש, ברק, התפוצצות, גניבה או שוד. ברשימה מפורטות הכוורות המבוטחות. This table details coverage for beehives as an extension to the main policy. It outlines what is insured (beehives and bees), the covered risks (fire, lightning, explosion, theft), and risk mitigation measures. בין הערכים בטבלה: אש: סיכון מבוטח; מטרים: מרחק שמירה סביב הכוורות; 5: רוחב רצועה נדרשת סביב הכוורות.",
+  "payload": "טבלה: כוורות\nThis table details coverage for beehives as an extension to the main policy. It outlines what is insured (beehives and bees), the covered risks (fire, lightning, explosion, theft), and risk mitigation measures.\nממדים: Coverage details for beehives, Aspects of coverage (definitions, risks, mitigation)\n\nכוורות .6.8\nפרק זה מורחב לכסות מקרה הביטוח , אם צוין ברשימה, כי כיסוי כוורות תקף כהגדרתו להלן: אובדן או נזק לרכוש המבוטח, או לחלק ממנו, שיגרמו כתוצאה מהסיכונים המבוטחים.\nהגדרות נוספות לכיסוי זו:\nהרכוש המבוטח: .6.8.1\nכוורות ודבורים שבהן, השייכות למבוטח.\nהסיכונים המבוטחים: .6.8.2\nאש, ברק, התפוצצות. .6.8.2.1 אמצעי להקלת סיכון המבטח בגין סיכון זה הינו שמירה מתמדת מטרים לפחות סביב השטח בו נמצאות הכוורות שהינה מבורא ונקייה ברציפות ובמהלך כל תקופת הביטוח מעשבים, משיחים, מקוצים, מענפים, מגזם ומכל"
 }

@@ -2,26 +2,25 @@
   "id": "pdf:car/files/פוליסה-לביטוח-רכב-פרטי-ורכב-מסחרי-עד-35-טון-מבית-שירביט-מהדורת-יוני-2023.pdf#299",
   "source": "llm",
   "description": {
-    "title": "שירותי דרך וגרירה",
-    "summary": "This table details the extended roadside assistance and towing services provided by \"נותן השירות\" (Service Provider) to policyholders after a car accident. It outlines the services available, such as on-site assistance, transportation, and towing.",
-    "embed_passage": "פוליסת שירביט מציעה שירותי דרך וגרירה כחלק מההרחבה לשירות מורחב במקרה תאונת דרכים. המבוטח זכאי להסעה ממקום התאונה עד 250 ק״מ, וגרירת הרכב למוסך. השירות ניתן 24 שעות ביממה, למעט מגבלות ביטחוניות ויום הכיפורים.",
-    "row_axis": "types of roadside assistance services",
-    "column_axis": "service details (e.g., availability, distance limits)",
+    "title": "שירות מורחב",
+    "summary": "This table details the extended services provided to the insured following a car accident. It outlines the services offered, such as roadside assistance, towing, and transportation, and their conditions.",
+    "embed_passage": "טבלה זו מתארת שירותים מורחבים הניתנים למבוטח בעקבות תאונת דרכים, כחלק מ\"שירביט\". השירותים כוללים סיוע דרך, גרירה והסעת המבוטח. ניתן לקבל את השירותים ללא תמורה וללא הגבלת מספר הפניות במהלך תקופת הביטוח. השירותים כוללים הגעת נציג, הסעת המבוטח עד 250 ק״מ, גרירת הרכב, ואחסון הרכב. שירות מורחב יינתן רק אם משטרת ישראל אינה מעורבת או שהמבוטח קיבל אישורים נדרשים.",
+    "row_axis": "סוג שירות",
+    "column_axis": "תיאור השירות",
     "units": [],
     "notable_values": [
-      "distance: 250 ק״מ",
-      "hours of service: 24",
-      "service availability: ללא הגבלה של מספר הפניות",
-      "response time: שעתיים",
-      "police involvement: שירות מורחב יינתן רק אם משטרת ישראל אינה מעורבת"
+      "מרחק הסעה: 250 ק״מ",
+      "שירות: הגעת נציג",
+      "שירות: הסעת המבוטח",
+      "שירות: גרירת הרכב",
+      "שירות: אחסון הרכב"
     ],
     "product_hints": [
       "שירביט",
-      "הרחבה לשירות מורחב",
-      "נותן השירות"
+      "שירות מורחב"
     ]
   },
   "sketch": "המבוטח זכאי לקבל את השירותים הבאים ללא תמורה וללא הגבלה של מספר הפניות . 2 במשך תקופת הביטוח:\n, לרכב המבוטח שהיה מעורב בתאונת דרכים, למקום התאונה הגעת נציג \"נותן השירות\" ( א .(8 על מנת לשחרר את המבוטח לדרכו ולשם המשך טיפול ברכב )בכפוף לסעיף\nבאמצעות נציג \"נותן השירות\" או מונית ליעד המבוקש הסעת המבוטח ממקום התאונה ( ב ק״מ. 250 למרחק של עד\nג(  המשך טיפול בגרירת הרכב ליעד המבוקש.\nלמוסך, אם השרות מבוצע בשעות מעבר לשעות אחסנת הרכב, שמירתו וגרירתו ( ד הפעילות המקובלות.",
-  "embed_text": "פוליסת שירביט מציעה שירותי דרך וגרירה כחלק מההרחבה לשירות מורחב במקרה תאונת דרכים. המבוטח זכאי להסעה ממקום התאונה עד 250 ק״מ, וגרירת הרכב למוסך. השירות ניתן 24 שעות ביממה, למעט מגבלות ביטחוניות ויום הכיפורים.",
-  "payload": "טבלה: שירותי דרך וגרירה\nThis table details the extended roadside assistance and towing services provided by \"נותן השירות\" (Service Provider) to policyholders after a car accident. It outlines the services available, such as on-site assistance, transportation, and towing.\nממדים: types of roadside assistance services, service details (e.g., availability, distance limits)\n\nהמבוטח זכאי לקבל את השירותים הבאים ללא תמורה וללא הגבלה של מספר הפניות . 2 במשך תקופת הביטוח:\n, לרכב המבוטח שהיה מעורב בתאונת דרכים, למקום התאונה הגעת נציג \"נותן השירות\" ( א .(8 על מנת לשחרר את המבוטח לדרכו ולשם המשך טיפול ברכב )בכפוף לסעיף\nבאמצעות נציג \"נותן השירות\" או מונית ליעד המבוקש הסעת המבוטח ממקום התאונה ( ב ק״מ. 250 למרחק של עד\nג(  המשך טיפול בגרירת הרכב ליעד המבוקש.\nלמוסך, אם השרות מבוצע בשעות מעבר לשעות אחסנת הרכב, שמירתו וגרירתו ( ד הפעילות המקובלות."
+  "embed_text": "טבלה זו מתארת שירותים מורחבים הניתנים למבוטח בעקבות תאונת דרכים, כחלק מ\"שירביט\". השירותים כוללים סיוע דרך, גרירה והסעת המבוטח. ניתן לקבל את השירותים ללא תמורה וללא הגבלת מספר הפניות במהלך תקופת הביטוח. השירותים כוללים הגעת נציג, הסעת המבוטח עד 250 ק״מ, גרירת הרכב, ואחסון הרכב. שירות מורחב יינתן רק אם משטרת ישראל אינה מעורבת או שהמבוטח קיבל אישורים נדרשים. This table details the extended services provided to the insured following a car accident. It outlines the services offered, such as roadside assistance, towing, and transportation, and their conditions.",
+  "payload": "טבלה: שירות מורחב\nThis table details the extended services provided to the insured following a car accident. It outlines the services offered, such as roadside assistance, towing, and transportation, and their conditions.\nממדים: סוג שירות, תיאור השירות\n\nהמבוטח זכאי לקבל את השירותים הבאים ללא תמורה וללא הגבלה של מספר הפניות . 2 במשך תקופת הביטוח:\n, לרכב המבוטח שהיה מעורב בתאונת דרכים, למקום התאונה הגעת נציג \"נותן השירות\" ( א .(8 על מנת לשחרר את המבוטח לדרכו ולשם המשך טיפול ברכב )בכפוף לסעיף\nבאמצעות נציג \"נותן השירות\" או מונית ליעד המבוקש הסעת המבוטח ממקום התאונה ( ב ק״מ. 250 למרחק של עד\nג(  המשך טיפול בגרירת הרכב ליעד המבוקש.\nלמוסך, אם השרות מבוצע בשעות מעבר לשעות אחסנת הרכב, שמירתו וגרירתו ( ד הפעילות המקובלות."
 }

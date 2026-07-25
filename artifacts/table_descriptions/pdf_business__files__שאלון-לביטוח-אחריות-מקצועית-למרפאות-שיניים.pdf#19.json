@@ -2,24 +2,23 @@
   "id": "pdf:business/files/שאלון-לביטוח-אחריות-מקצועית-למרפאות-שיניים.pdf#19",
   "source": "llm",
   "description": {
-    "title": "הראל - אחריות מקצועית",
-    "summary": "This table describes how Harel insurance handles personal information and policy updates. It details how information, mailings, and documents related to a policy will be accessible through the \"Personal Area\" on the Harel website.",
-    "embed_passage": "חברת הראל משתמשת במידע אישי כדי לשפר את השירות ולתת הצעות מותאמות אישית. אם יש לך פוליסת ביטוח בתוקף, תוכל להוסיף כיסוי נוסף או הרחבה, אך שימי לב שבהיעדר כיסוי לפרק מסוים, לא ניתן לרכוש הרחבות לאותו פרק. המידע שלך יהיה זמין ב\"האזור האישי\" באתר הראל.",
-    "row_axis": "Policyholder information/consent regarding data usage",
-    "column_axis": "Data handling procedures and policy update options",
+    "title": "אחזור מידע אישי",
+    "summary": "This table describes how personal information is retrieved and managed by \"הראל\" (Harel) for insurance policyholders. It explains that information, mailings, and documents will be available in the policyholder's \"Personal Area\" on the Harel website.",
+    "embed_passage": "טבלה זו מתארת כיצד מידע אישי מאוחזר ומנוהל על ידי \"הראל\" עבור מבוטחים. המידע, הדיוורים והמסמכים אשר ישלחו אליך מחברת הראל, יופיעו במסגרת ה\"אזור האישי\" שלך באתר הראל. אם ברשותך פוליסת ביטוח בתוקף, עליה הנך מבקש להוסיף כיסוי נוסף, הרחבה או כתב שירות, הוספתם נתונה לבחירתך. \"הראל\" היא חברה לביטוח בע\"מ והראל פנסיה וגמל בע\"מ. ניתן לבחור בהם או לוותר עליהם, מבלי שהדבר יפגע ביתר תנאי הפוליסה.",
+    "row_axis": "Policyholder information retrieval options",
+    "column_axis": "Information about the retrieval process and options",
     "units": [],
     "notable_values": [
-      "product: הראל",
-      "data access: \"האזור האישי\"",
-      "policy updates: addition of coverage/extension",
-      "coverage requirement: coverage needed for extensions"
+      "Company: הראל",
+      "Area: \"האזור האישי\"",
+      "Website: harel-group.co.il"
     ],
     "product_hints": [
-      "הראל",
-      "ביטוח אחריות מקצועית"
+      "פוליסת ביטוח",
+      "הראל"
     ]
   },
   "sketch": "אחזור מידע אישי\nלידיעתך, לצורך ייעול ושיפור השירות הניתן על ידי \"הראל\", ככל שההצעה תאושר ותופק פוליסת ביטוח בהתאם - המידע, הדיוורים והמסמכים, אשר ישלחו אליך מחברת הראל, יופיעו במסגרת ה-\"האזור האישי\" שלך באתר הראל.\nאם ברשותך פוליסת ביטוח בתוקף, עליה הנך מבקש להוסיף כיסוי נוסף, הרחבה או כתב שירות, הוספתם נתונה לבחירתך, והנך רשאי לבחור בהם , לידיעתך תשומת ליבך כי בהיעדר כיסוי לפרק מסוים- לא ניתן לרכוש כיסוי להרחבות לאותו פרק. . או לוותר עליהם, מבלי שהדבר יפגע ביתר תנאי הפוליסה",
-  "embed_text": "חברת הראל משתמשת במידע אישי כדי לשפר את השירות ולתת הצעות מותאמות אישית. אם יש לך פוליסת ביטוח בתוקף, תוכל להוסיף כיסוי נוסף או הרחבה, אך שימי לב שבהיעדר כיסוי לפרק מסוים, לא ניתן לרכוש הרחבות לאותו פרק. המידע שלך יהיה זמין ב\"האזור האישי\" באתר הראל.",
-  "payload": "טבלה: הראל - אחריות מקצועית\nThis table describes how Harel insurance handles personal information and policy updates. It details how information, mailings, and documents related to a policy will be accessible through the \"Personal Area\" on the Harel website.\nממדים: Policyholder information/consent regarding data usage, Data handling procedures and policy update options\n\nאחזור מידע אישי\nלידיעתך, לצורך ייעול ושיפור השירות הניתן על ידי \"הראל\", ככל שההצעה תאושר ותופק פוליסת ביטוח בהתאם - המידע, הדיוורים והמסמכים, אשר ישלחו אליך מחברת הראל, יופיעו במסגרת ה-\"האזור האישי\" שלך באתר הראל.\nאם ברשותך פוליסת ביטוח בתוקף, עליה הנך מבקש להוסיף כיסוי נוסף, הרחבה או כתב שירות, הוספתם נתונה לבחירתך, והנך רשאי לבחור בהם , לידיעתך תשומת ליבך כי בהיעדר כיסוי לפרק מסוים- לא ניתן לרכוש כיסוי להרחבות לאותו פרק. . או לוותר עליהם, מבלי שהדבר יפגע ביתר תנאי הפוליסה"
+  "embed_text": "טבלה זו מתארת כיצד מידע אישי מאוחזר ומנוהל על ידי \"הראל\" עבור מבוטחים. המידע, הדיוורים והמסמכים אשר ישלחו אליך מחברת הראל, יופיעו במסגרת ה\"אזור האישי\" שלך באתר הראל. אם ברשותך פוליסת ביטוח בתוקף, עליה הנך מבקש להוסיף כיסוי נוסף, הרחבה או כתב שירות, הוספתם נתונה לבחירתך. \"הראל\" היא חברה לביטוח בע\"מ והראל פנסיה וגמל בע\"מ. ניתן לבחור בהם או לוותר עליהם, מבלי שהדבר יפגע ביתר תנאי הפוליסה. This table describes how personal information is retrieved and managed by \"הראל\" (Harel) for insurance policyholders. It explains that information, mailings, and documents will be available in the policyholder's \"Personal Area\" on the Harel website. בין הערכים בטבלה: Area: \"האזור האישי\"; Website: harel-group.co.il.",
+  "payload": "טבלה: אחזור מידע אישי\nThis table describes how personal information is retrieved and managed by \"הראל\" (Harel) for insurance policyholders. It explains that information, mailings, and documents will be available in the policyholder's \"Personal Area\" on the Harel website.\nממדים: Policyholder information retrieval options, Information about the retrieval process and options\n\nאחזור מידע אישי\nלידיעתך, לצורך ייעול ושיפור השירות הניתן על ידי \"הראל\", ככל שההצעה תאושר ותופק פוליסת ביטוח בהתאם - המידע, הדיוורים והמסמכים, אשר ישלחו אליך מחברת הראל, יופיעו במסגרת ה-\"האזור האישי\" שלך באתר הראל.\nאם ברשותך פוליסת ביטוח בתוקף, עליה הנך מבקש להוסיף כיסוי נוסף, הרחבה או כתב שירות, הוספתם נתונה לבחירתך, והנך רשאי לבחור בהם , לידיעתך תשומת ליבך כי בהיעדר כיסוי לפרק מסוים- לא ניתן לרכוש כיסוי להרחבות לאותו פרק. . או לוותר עליהם, מבלי שהדבר יפגע ביתר תנאי הפוליסה"
 }

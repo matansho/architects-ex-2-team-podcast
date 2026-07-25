@@ -3,23 +3,25 @@
   "source": "llm",
   "description": {
     "title": "ביטוח בכספת בנק",
-    "summary": "This table details insurance coverage for property kept in a bank safe deposit box. It outlines what is considered 'insured property' and lists exclusions to the coverage.",
-    "embed_passage": "ביטוח בכספת בנק מכסה אבדן או נזק תאונתי לרכוש המבוטח הנמצא בכספת בנק רשומה, כולל ניירות ערך, מזומנים ותווי קנייה. הכיסוי חל בתקופת הביטוח, בתנאי שהבנק וכתובתו רשומים במפרט. לדוגמה, ביטוח יכול לכסות אובדן של ניירות ערך למוכ\"ז או שטרי חוב.",
-    "row_axis": "Specific exclusion or condition related to bank safe deposit box insurance",
-    "column_axis": "Details of coverage, definitions, or limitations",
+    "summary": "This table details coverage for loss or accidental damage to insured property while located in a bank safe deposit box. It outlines what is considered 'insured property' and lists exclusions.",
+    "embed_passage": "טבלה זו מתארת ביטוח לכספת בנק, המכסה אובדן או נזק לרכוש המבוטח הנמצא אך ורק בכספת בנק הרשומה במפרט. הביטוח חל על תכולת הכספת, כולל דברי ערך, ניירות ערך, מזומנים ותווי קנייה. עם זאת, ישנם חריגים, כגון נזק כתוצאה מגורמים אטמוספריים או גניבה באמצעות מפתח. ביטוח בכספת בנק, רכוש מבוטח, ניירות ערך, מזומנים, תווי קנייה, אובדן, נזק תאונתי.",
+    "row_axis": "Coverage details / exclusions related to bank safe deposit box insurance",
+    "column_axis": "Description of coverage or exclusion",
     "units": [],
     "notable_values": [
-      "25: ביטוח בכספת בנק",
-      "25.1: אבדן או נזק כתוצאה מעש",
-      "25.2: גניבה באמצעות שימוש במפתח",
-      "25.3: היעלמות מסתורית",
-      "25.4: ערך המידע האגור"
+      "רכוש מבוטח: תכולת כספת בנק",
+      "ניירות ערך: ניירות ערך על שם",
+      "ניירות ערך: ניירות ערך למוכ\"ז",
+      "מזומנים: כלולים",
+      "תווי קנייה: כלולים",
+      "המחאות ושטרות: כלולים",
+      "אוסף בולים: 75% מערכם הנקוב בקטלוג"
     ],
     "product_hints": [
       "ביטוח בכספת בנק"
     ]
   },
   "sketch": "ביטוח בכספת בנק .25\nאם נרשם במפורש במפרט, הביטוח יכסה אבדן או נזק תאונתי אשר אירע לרכוש המבוטח בעת הימצאו אך ורק בכספת בנק, בחדר הכספות של הבנק, אשר שמו וכתובתו רשומים במפרט, בתקופת הביטוח.\nהגדרה - הרכוש המבוטח: תכולת כספת בנק הרשומה על-שם המבוטח והנמצאת בבנק הרשום במפרט, כולל דברי-ערך על-פי רשימה מפורטת או הערכת מעריך מוסמך שהומצאה , למבטח לפני קרות מקרה הביטוח, ניירות-ערך על-שם, ניירות-ערך למוכ\"ז, מניות, שטרי חוב אגרות חוב ומסמכים בעלי ערך, מזומנים, תווי-קנייה, המחאות ושטרות. ולמעט:",
-  "embed_text": "ביטוח בכספת בנק מכסה אבדן או נזק תאונתי לרכוש המבוטח הנמצא בכספת בנק רשומה, כולל ניירות ערך, מזומנים ותווי קנייה. הכיסוי חל בתקופת הביטוח, בתנאי שהבנק וכתובתו רשומים במפרט. לדוגמה, ביטוח יכול לכסות אובדן של ניירות ערך למוכ\"ז או שטרי חוב.",
-  "payload": "טבלה: ביטוח בכספת בנק\nThis table details insurance coverage for property kept in a bank safe deposit box. It outlines what is considered 'insured property' and lists exclusions to the coverage.\nממדים: Specific exclusion or condition related to bank safe deposit box insurance, Details of coverage, definitions, or limitations\n\nביטוח בכספת בנק .25\nאם נרשם במפורש במפרט, הביטוח יכסה אבדן או נזק תאונתי אשר אירע לרכוש המבוטח בעת הימצאו אך ורק בכספת בנק, בחדר הכספות של הבנק, אשר שמו וכתובתו רשומים במפרט, בתקופת הביטוח.\nהגדרה - הרכוש המבוטח: תכולת כספת בנק הרשומה על-שם המבוטח והנמצאת בבנק הרשום במפרט, כולל דברי-ערך על-פי רשימה מפורטת או הערכת מעריך מוסמך שהומצאה , למבטח לפני קרות מקרה הביטוח, ניירות-ערך על-שם, ניירות-ערך למוכ\"ז, מניות, שטרי חוב אגרות חוב ומסמכים בעלי ערך, מזומנים, תווי-קנייה, המחאות ושטרות. ולמעט:"
+  "embed_text": "טבלה זו מתארת ביטוח לכספת בנק, המכסה אובדן או נזק לרכוש המבוטח הנמצא אך ורק בכספת בנק הרשומה במפרט. הביטוח חל על תכולת הכספת, כולל דברי ערך, ניירות ערך, מזומנים ותווי קנייה. עם זאת, ישנם חריגים, כגון נזק כתוצאה מגורמים אטמוספריים או גניבה באמצעות מפתח. ביטוח בכספת בנק, רכוש מבוטח, ניירות ערך, מזומנים, תווי קנייה, אובדן, נזק תאונתי. This table details coverage for loss or accidental damage to insured property while located in a bank safe deposit box. It outlines what is considered 'insured property' and lists exclusions. בין הערכים בטבלה: המחאות ושטרות: כלולים; אוסף בולים: 75% מערכם הנקוב בקטלוג.",
+  "payload": "טבלה: ביטוח בכספת בנק\nThis table details coverage for loss or accidental damage to insured property while located in a bank safe deposit box. It outlines what is considered 'insured property' and lists exclusions.\nממדים: Coverage details / exclusions related to bank safe deposit box insurance, Description of coverage or exclusion\n\nביטוח בכספת בנק .25\nאם נרשם במפורש במפרט, הביטוח יכסה אבדן או נזק תאונתי אשר אירע לרכוש המבוטח בעת הימצאו אך ורק בכספת בנק, בחדר הכספות של הבנק, אשר שמו וכתובתו רשומים במפרט, בתקופת הביטוח.\nהגדרה - הרכוש המבוטח: תכולת כספת בנק הרשומה על-שם המבוטח והנמצאת בבנק הרשום במפרט, כולל דברי-ערך על-פי רשימה מפורטת או הערכת מעריך מוסמך שהומצאה , למבטח לפני קרות מקרה הביטוח, ניירות-ערך על-שם, ניירות-ערך למוכ\"ז, מניות, שטרי חוב אגרות חוב ומסמכים בעלי ערך, מזומנים, תווי-קנייה, המחאות ושטרות. ולמעט:"
 }

@@ -3,16 +3,17 @@
   "source": "llm",
   "description": {
     "title": "תנאי פוליסה",
-    "summary": "This table outlines conditions related to policy cancellation and premium adjustments. It details scenarios where the insurance company can void the policy and the resulting refund or coverage implications.",
-    "embed_passage": "פוליסת ביטוח בריאות מענקית זהב מתייחסת לתנאים בהם החברה רשאית לבטל את הפוליסה, למשל אם ניתנה תשובה שאינה מלאה וכנה. במקרה של ביטול, המבוטח זכאי להחזר דמי ביטוח ששילם, בניכוי הוצאות החברה. סעיף 4.2 מציין זכאות להחזר, וסעיף 4.3 מתייחס לתגמולים מופחתים אם מקרה הביטוח קרה לפני הביטול.",
-    "row_axis": "Cancellation conditions / policy adjustments",
-    "column_axis": "Policy implications (refunds, coverage)",
+    "summary": "This table outlines conditions for policy cancellation and premium adjustments. It details scenarios where the insurance company can cancel the policy and the resulting refund or reduced benefits.",
+    "embed_passage": "טבלה זו מתארת תנאי ביטול פוליסה והתאמות פרמיות עבור פוליסת ביטוח. היא מפרטת תרחישים בהם חברת הביטוח רשאית לבטל את הפוליסה וההחזר או ההטבות המופחתות שיינתנו. הפוליסה עשויה להתבטל אם ניתנה תשובה שאינה מלאה וכנה, והמבוטח זכאי להחזר דמי ביטוח בניכוי הוצאות החברה. במקרה של ביטול עקב מרמה, החברה פטורה מחובה לתשלום. מענקית זהב היא פוליסת ביטוח בריאות. החברה רשאית לשנות את טבלת הפרמיות ודמי הביטוח.",
+    "row_axis": "Cancellation conditions / Policy adjustments",
+    "column_axis": "Policy implications (refunds, benefits, company rights)",
     "units": [],
     "notable_values": [
-      "30 days: Timeframe for company to cancel policy after discovering incomplete/dishonest answer",
-      "4.1: Section regarding cancellation due to incomplete/dishonest answers",
-      "4.2: Section regarding refund of premiums upon cancellation",
-      "4.3: Section regarding reduced benefits if claim occurs before cancellation"
+      "Cancellation timeframe: 30 days",
+      "Refund deduction: Company expenses",
+      "Fraudulent intent: No refund",
+      "Policy cancellation: Section 4.1",
+      "Premium changes: Section 7.1"
     ],
     "product_hints": [
       "מענקית זהב",
@@ -20,6 +21,6 @@
     ]
   },
   "sketch": "4.1 ניתנה לשאלה בעניין מהותי תשובה שלא היתה מלאה וכנה, רשאית החברה, תוך שלושים ימים מהיום שנודע לה על כך וכל עוד  לא  קרה  מקרה  הביטוח,  לבטל  את הפוליסה בהודעה בכתב למבוטח.\n4.2 ביטלה החברה את הפוליסה מכוח סעיף זה,  זכאי  המבוטח  להחזר  דמי  הביטוח , ששילם  בעד  התקופה  שלאחר  הביטול בניכוי  הוצאות  החברה,  זולת  אם  פעל המבוטח בכוונת מרמה.",
-  "embed_text": "פוליסת ביטוח בריאות מענקית זהב מתייחסת לתנאים בהם החברה רשאית לבטל את הפוליסה, למשל אם ניתנה תשובה שאינה מלאה וכנה. במקרה של ביטול, המבוטח זכאי להחזר דמי ביטוח ששילם, בניכוי הוצאות החברה. סעיף 4.2 מציין זכאות להחזר, וסעיף 4.3 מתייחס לתגמולים מופחתים אם מקרה הביטוח קרה לפני הביטול.",
-  "payload": "טבלה: תנאי פוליסה\nThis table outlines conditions related to policy cancellation and premium adjustments. It details scenarios where the insurance company can void the policy and the resulting refund or coverage implications.\nממדים: Cancellation conditions / policy adjustments, Policy implications (refunds, coverage)\n\n4.1 ניתנה לשאלה בעניין מהותי תשובה שלא היתה מלאה וכנה, רשאית החברה, תוך שלושים ימים מהיום שנודע לה על כך וכל עוד  לא  קרה  מקרה  הביטוח,  לבטל  את הפוליסה בהודעה בכתב למבוטח.\n4.2 ביטלה החברה את הפוליסה מכוח סעיף זה,  זכאי  המבוטח  להחזר  דמי  הביטוח , ששילם  בעד  התקופה  שלאחר  הביטול בניכוי  הוצאות  החברה,  זולת  אם  פעל המבוטח בכוונת מרמה."
+  "embed_text": "טבלה זו מתארת תנאי ביטול פוליסה והתאמות פרמיות עבור פוליסת ביטוח. היא מפרטת תרחישים בהם חברת הביטוח רשאית לבטל את הפוליסה וההחזר או ההטבות המופחתות שיינתנו. הפוליסה עשויה להתבטל אם ניתנה תשובה שאינה מלאה וכנה, והמבוטח זכאי להחזר דמי ביטוח בניכוי הוצאות החברה. במקרה של ביטול עקב מרמה, החברה פטורה מחובה לתשלום. מענקית זהב היא פוליסת ביטוח בריאות. החברה רשאית לשנות את טבלת הפרמיות ודמי הביטוח. This table outlines conditions for policy cancellation and premium adjustments. It details scenarios where the insurance company can cancel the policy and the resulting refund or reduced benefits. בין הערכים בטבלה: Cancellation timeframe: 30 days; Refund deduction: Company expenses; Fraudulent intent: No refund; Policy cancellation: Section 4.1; Premium changes: Section 7.1.",
+  "payload": "טבלה: תנאי פוליסה\nThis table outlines conditions for policy cancellation and premium adjustments. It details scenarios where the insurance company can cancel the policy and the resulting refund or reduced benefits.\nממדים: Cancellation conditions / Policy adjustments, Policy implications (refunds, benefits, company rights)\n\n4.1 ניתנה לשאלה בעניין מהותי תשובה שלא היתה מלאה וכנה, רשאית החברה, תוך שלושים ימים מהיום שנודע לה על כך וכל עוד  לא  קרה  מקרה  הביטוח,  לבטל  את הפוליסה בהודעה בכתב למבוטח.\n4.2 ביטלה החברה את הפוליסה מכוח סעיף זה,  זכאי  המבוטח  להחזר  דמי  הביטוח , ששילם  בעד  התקופה  שלאחר  הביטול בניכוי  הוצאות  החברה,  זולת  אם  פעל המבוטח בכוונת מרמה."
 }

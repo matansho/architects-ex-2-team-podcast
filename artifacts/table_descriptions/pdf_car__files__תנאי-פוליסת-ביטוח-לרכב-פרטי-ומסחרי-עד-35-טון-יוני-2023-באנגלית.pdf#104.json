@@ -3,24 +3,26 @@
   "source": "llm",
   "description": {
     "title": "חומרים מהותיים",
-    "summary": "This table lists 'material matters' that must be disclosed when applying for car insurance. It details information about the vehicle, its owners, and past incidents that could affect the policy.",
-    "embed_passage": "פוליסת ביטוח לרכב פרטי ומסחרי עד 35 טון דורשת דיווח על פרטים מהותיים כמו סוג הרכב, שנת ייצור, מספר רישוי, יצרן ודגם, וכן תיאור אופן השימוש ברכב ומקום אחסונו. כמו כן, יש לדווח על נזקים שנגרמו לרכב או לצד שלישי בשלוש השנים האחרונות, ופרטים על חברות ביטוח קודמות. לדוגמה, שנת ייצור הרכב, סוג תיבת ההילוכים, וזהות בעלי הרכב.",
-    "row_axis": "Category of material matter to disclose",
-    "column_axis": "Details within each category",
+    "summary": "This table lists 'material matters' that must be disclosed when applying for car insurance. It details information about the vehicle, its use, the driver, and past incidents.",
+    "embed_passage": "טבלה זו מפרטת 'חומרים מהותיים' שיש לדווח עליהם בעת הגשת בקשה לביטוח רכב. המידע כולל פרטים על סוג הרכב, שנת ייצור, מספר רישוי, יצרן ודגם, סוג תיבת ההילוכים, פטור ממס על הרכב, תיאור השימוש ברכב והמקום בו הוא שמור בדרך כלל. כמו כן, נדרשים פרטים על בעלי הרכב או מחזיקים קבועים, תאונות בהן היו מעורבים ועבירות תנועה בהן הורשעו בשלוש השנים האחרונות. ביטוח רכב פרטי ומסחרי עד 35 טון יוני 2023 באנגלית מציג את החומרים הללו. סוג הרכב, שנת ייצור, מספר רישוי, יצרן ודגם, תיבת הילוכים, פטור ממס, תיאור שימוש, מקום אחסון, זהות הבעלים, תאונות קודמות, עבירות תנועה, נזקים קודמים, פרטי מבוטחים קודמים.",
+    "row_axis": "Material matter to disclose",
+    "column_axis": "Details of the material matter",
     "units": [],
     "notable_values": [
-      "Timeframe for accident history: 3 years",
-      "Type of vehicle details required",
-      "Owner's occupation is a material matter",
-      "Details of previous insurers are required",
-      "Damage history is a material matter"
+      "Type of vehicle: unspecified",
+      "Year of manufacture: unspecified",
+      "License number: unspecified",
+      "Make and model: unspecified",
+      "Type of gearbox: unspecified",
+      "Accidents involved: during the three years preceding insurance",
+      "Traffic offenses: during the three years preceding insurance",
+      "Damage sustained: during the last three years"
     ],
     "product_hints": [
-      "ביטוח לרכב פרטי ומסחרי",
-      "פוליסת ביטוח לרכב"
+      "ביטוח רכב פרטי ומסחרי עד 35 טון"
     ]
   },
   "sketch": "38.2 A material matter is a matter regarding which a question was posed in the insurance proposal or in any other manner, which shall be documented by the insurer, and without derogating from the generality of the aforementioned, also the following:\n38.2.1 Type of vehicle, year of manufacture, license number, make and model, type of gearbox.\n38.2.2 Exemption from tax on the vehicle, if any.\n38.2.3 Description of the vehicle's use and of the place where it is generally kept.\n38.2.4 The vehicle protective means\n38.2.5 Identity of the vehicle's owners or regular holders and their occupations; accidents in which they were involved and traffic offenses of which they were convicted during the three years preceding arrangement of the insurance under this policy, excluding traffic offenses for which a fine is optional.\n38.2.6 Damage sustained by the vehicle or a third party during the last three years, occurring as a result of the risks included in this insurance, except during a period when the vehicle was not owned by the insured, for which a claim was filed -as defined in paragraph 52.3.\n38.2.7 Details regarding previous insurers which insured the vehicle.",
-  "embed_text": "פוליסת ביטוח לרכב פרטי ומסחרי עד 35 טון דורשת דיווח על פרטים מהותיים כמו סוג הרכב, שנת ייצור, מספר רישוי, יצרן ודגם, וכן תיאור אופן השימוש ברכב ומקום אחסונו. כמו כן, יש לדווח על נזקים שנגרמו לרכב או לצד שלישי בשלוש השנים האחרונות, ופרטים על חברות ביטוח קודמות. לדוגמה, שנת ייצור הרכב, סוג תיבת ההילוכים, וזהות בעלי הרכב.",
-  "payload": "טבלה: חומרים מהותיים\nThis table lists 'material matters' that must be disclosed when applying for car insurance. It details information about the vehicle, its owners, and past incidents that could affect the policy.\nממדים: Category of material matter to disclose, Details within each category\n\n38.2 A material matter is a matter regarding which a question was posed in the insurance proposal or in any other manner, which shall be documented by the insurer, and without derogating from the generality of the aforementioned, also the following:\n38.2.1 Type of vehicle, year of manufacture, license number, make and model, type of gearbox.\n38.2.2 Exemption from tax on the vehicle, if any.\n38.2.3 Description of the vehicle's use and of the place where it is generally kept.\n38.2.4 The vehicle protective means\n38.2.5 Identity of the vehicle's owners or regular holders and their occupations; accidents in which they were involved and traffic offenses of which they were convicted during the three years preceding arrangement of the insurance under this policy, excluding traffic offenses for which a fine is optional.\n38.2.6 Damage sustained by the vehicle or a third party during the last three years, occurring as a result of the risks included in this insurance, except during a period when the vehicle was not owned by the insured, for which a claim was filed -as defined in paragraph 52.3.\n38.2.7 Details regarding previous insurers which insured the vehicle."
+  "embed_text": "טבלה זו מפרטת 'חומרים מהותיים' שיש לדווח עליהם בעת הגשת בקשה לביטוח רכב. המידע כולל פרטים על סוג הרכב, שנת ייצור, מספר רישוי, יצרן ודגם, סוג תיבת ההילוכים, פטור ממס על הרכב, תיאור השימוש ברכב והמקום בו הוא שמור בדרך כלל. כמו כן, נדרשים פרטים על בעלי הרכב או מחזיקים קבועים, תאונות בהן היו מעורבים ועבירות תנועה בהן הורשעו בשלוש השנים האחרונות. ביטוח רכב פרטי ומסחרי עד 35 טון יוני 2023 באנגלית מציג את החומרים הללו. סוג הרכב, שנת ייצור, מספר רישוי, יצרן ודגם, תיבת הילוכים, פטור ממס, תיאור שימוש, מקום אחסון, זהות הבעלים, תאונות קודמות, עבירות תנועה, נזקים קודמים, פרטי מבוטחים קודמים. This table lists 'material matters' that must be disclosed when applying for car insurance. It details information about the vehicle, its use, the driver, and past incidents. בין הערכים בטבלה: Type of vehicle: uns…",
+  "payload": "טבלה: חומרים מהותיים\nThis table lists 'material matters' that must be disclosed when applying for car insurance. It details information about the vehicle, its use, the driver, and past incidents.\nממדים: Material matter to disclose, Details of the material matter\n\n38.2 A material matter is a matter regarding which a question was posed in the insurance proposal or in any other manner, which shall be documented by the insurer, and without derogating from the generality of the aforementioned, also the following:\n38.2.1 Type of vehicle, year of manufacture, license number, make and model, type of gearbox.\n38.2.2 Exemption from tax on the vehicle, if any.\n38.2.3 Description of the vehicle's use and of the place where it is generally kept.\n38.2.4 The vehicle protective means\n38.2.5 Identity of the vehicle's owners or regular holders and their occupations; accidents in which they were involved and traffic offenses of which they were convicted during the three years preceding arrangement of the insurance under this policy, excluding traffic offenses for which a fine is optional.\n38.2.6 Damage sustained by the vehicle or a third party during the last three years, occurring as a result of the risks included in this insurance, except during a period when the vehicle was not owned by the insured, for which a claim was filed -as defined in paragraph 52.3.\n38.2.7 Details regarding previous insurers which insured the vehicle."
 }

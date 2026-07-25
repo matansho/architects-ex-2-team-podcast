@@ -2,23 +2,22 @@
   "id": "pdf:business/files/פוליסה-לביטוח-ימי-ליאכטות-וסירות-מבית-שירביט-מהדורת-יולי-2016.pdf#89",
   "source": "llm",
   "description": {
-    "title": "ביטוח ימי ליאכטות וסירות",
-    "summary": "This table details covered perils under a Harel Insurance Company marine hull policy for yachts and boats. It lists events that may cause loss or damage, and are covered by the insurance.",
-    "embed_passage": "פוליסת ביטוח ימי של שירביט מכסה הפסדים כתוצאה מאירועים כמו לכידה, מעצר או עיכוב, למעט ברירות שונות ופיראטיות. הכיסוי חל גם על נזקים כתוצאה ממוקשים, טורפדו או כלי נשק נטושים אחרים. הפוליסה מציעה הגנה מקיפה ליאכטות וסירות.",
-    "row_axis": "Covered Peril",
-    "column_axis": "Description of Coverage",
+    "title": "כיסוי יאכטה/סירה",
+    "summary": "This table details covered events under a yacht/boat insurance policy from Shirbit. It lists perils against which the insured vessel is protected.",
+    "embed_passage": "טבלה זו מתארת את הכיסוי הביטוחי ליאכטות וסירות של שירביט, ומפרטת את האירועים המכוסים במסגרת הפוליסה. הכיסוי חל על ספינה בשימוש או מחוץ לשימוש, כולל הרמה, גרירה, פירוק, התקנה, ותחזוקה שוטפת. הפוליסה מכסה אירועים כגון לכידה, מעצר, עיקול, וכן נזקים כתוצאה מכלי מלחמה נטושים. כיסוי יאכטה/סירה של שירביט מספק הגנה מפני מגוון סיכונים ימיים. אירועים מכוסים כוללים לכידה, מעצר, עיקול, נשק נטוש, ופיראטיות (למעט מרידה).",
+    "row_axis": "covered perils",
+    "column_axis": "description of coverage",
     "units": [],
     "notable_values": [
-      "Peril: capture, seizure, arrest",
-      "Peril: derelict, mines, torpedoes"
+      "barratry and piracy: excepted",
+      "derelict weapons of war: covered"
     ],
     "product_hints": [
-      "ביטוח ימי ליאכטות וסירות",
-      "שירביט",
-      "Harel Insurance Company"
+      "כיסוי יאכטה/סירה",
+      "שירביט"
     ]
   },
   "sketch": "1)\ncapture,  seizure,  arrest,  restraint  or  detainment  (barratry and piracy excepted), and the consequences thereof or any attempt thereat.\nderelict, mines, torpedoes, bombs or other derelict weapons of war.",
-  "embed_text": "פוליסת ביטוח ימי של שירביט מכסה הפסדים כתוצאה מאירועים כמו לכידה, מעצר או עיכוב, למעט ברירות שונות ופיראטיות. הכיסוי חל גם על נזקים כתוצאה ממוקשים, טורפדו או כלי נשק נטושים אחרים. הפוליסה מציעה הגנה מקיפה ליאכטות וסירות.",
-  "payload": "טבלה: ביטוח ימי ליאכטות וסירות\nThis table details covered perils under a Harel Insurance Company marine hull policy for yachts and boats. It lists events that may cause loss or damage, and are covered by the insurance.\nממדים: Covered Peril, Description of Coverage\n\n1)\ncapture,  seizure,  arrest,  restraint  or  detainment  (barratry and piracy excepted), and the consequences thereof or any attempt thereat.\nderelict, mines, torpedoes, bombs or other derelict weapons of war."
+  "embed_text": "טבלה זו מתארת את הכיסוי הביטוחי ליאכטות וסירות של שירביט, ומפרטת את האירועים המכוסים במסגרת הפוליסה. הכיסוי חל על ספינה בשימוש או מחוץ לשימוש, כולל הרמה, גרירה, פירוק, התקנה, ותחזוקה שוטפת. הפוליסה מכסה אירועים כגון לכידה, מעצר, עיקול, וכן נזקים כתוצאה מכלי מלחמה נטושים. כיסוי יאכטה/סירה של שירביט מספק הגנה מפני מגוון סיכונים ימיים. אירועים מכוסים כוללים לכידה, מעצר, עיקול, נשק נטוש, ופיראטיות (למעט מרידה). This table details covered events under a yacht/boat insurance policy from Shirbit. It lists perils against which the insured vessel is protected. בין הערכים בטבלה: barratry and piracy: excepted; derelict weapons of war: covered.",
+  "payload": "טבלה: כיסוי יאכטה/סירה\nThis table details covered events under a yacht/boat insurance policy from Shirbit. It lists perils against which the insured vessel is protected.\nממדים: covered perils, description of coverage\n\n1)\ncapture,  seizure,  arrest,  restraint  or  detainment  (barratry and piracy excepted), and the consequences thereof or any attempt thereat.\nderelict, mines, torpedoes, bombs or other derelict weapons of war."
 }

@@ -3,22 +3,20 @@
   "source": "llm",
   "description": {
     "title": "השתתפות עצמית",
-    "summary": "This table details the self-participation amount (deductible) the insured bears for covered insurance claims. It specifies how the deductible applies to expenses incurred during claim handling.",
-    "embed_passage": "פוליסת הראל ביט לעבודות קבלניות מגדירה את ההשתתפות העצמית כסכום שהמבוטח יישא מתוך סכום הפיצוי. סכום זה חל על הוצאות המבטח בטיפול בתביעה, גם אם לא שולמו פיצויים. ההשתתפות העצמית מהווה רובד ראשון בפוליסה וכלולה בגבולות האחריות.",
+    "summary": "This table details the self-participation amount (deductible) the insured bears from the compensation, reimbursement, and expenses paid by the insurer for an insured event. It applies to each insured event separately.",
+    "embed_passage": "טבלה זו מפרטת את סכום ההשתתפות העצמית, אותו נושא המבוטח מסכום הפיצוי, השיפוי וההוצאות המשולמים על ידי המבטח בעקבות מקרה ביטוח מכוסה. ניתן למצוא את הסכום הנקוב ברשימה עבור פרק ג׳, והוא חל על כל מקרה ביטוח בנפרד. ההשתתפות העצמית של המבוטח מהווה רובד ראשון בפוליסה וכלולה בגבולות האחריות. פוליסה לביטוח עבודות קבלניות הראל ביט מהדורת ינואר 2023. סכום, קביעה אחרת, הוצאות, תביעה, פיצוי.",
     "row_axis": "Details regarding self-participation",
-    "column_axis": "Explanation of self-participation terms",
+    "column_axis": "Description of self-participation terms",
     "units": [],
     "notable_values": [
-      "פרק ג': Self-participation applies to Chapter 3",
-      "השתתפות עצמית: The term for self-participation",
-      "רובד ראשון בפוליסה: Self-participation is the first layer of coverage"
+      "פרק ג׳: סכום ההשתתפות העצמית",
+      "השתתפות עצמית: רובד ראשון בפוליסה"
     ],
     "product_hints": [
-      "הראל ביט",
-      "עבודות קבלניות"
+      "פוליסה לביטוח עבודות קבלניות הראל ביט"
     ]
   },
   "sketch": ": השתתפות עצמית .9.8\nהסכום, או כל קביעה אחרת, הנקוב ברשימה לעניין פרק ג', שבו יישא המבוטח מתוך סכום הפיצוי, השיפוי וההוצאות שישלם המבטח, לפי העניין, עקב מקרה ביטוח המכוסה לפי פוליסה זו, לגבי כל מקרה ביטוח בנפרד.\nיובהר, כי ההשתתפות העצמית תחול לגבי הוצאות שהוציא המבטח תוך כדי טיפול בתביעה ו/או דרישה לפיצוי ו/או הודעה על כל אירוע העלול לגרום לתביעה, וזאת אף אם לא שולמו פיצויים בגינו.\nההשתתפות העצמית של המבוטח בגין מקרה ביטוח מהווה רובד ראשון בפוליסה וכלולה במסגרת גבולות האחריות בפוליסה, ואינה בנוסף עליהם.\n)תנאים כלליים לכל 3 לחלק 15.9 האמור בסעיף זה יחול בהתאם ובכפוף לתנאי חלקי הפוליסה(, להלן.",
-  "embed_text": "פוליסת הראל ביט לעבודות קבלניות מגדירה את ההשתתפות העצמית כסכום שהמבוטח יישא מתוך סכום הפיצוי. סכום זה חל על הוצאות המבטח בטיפול בתביעה, גם אם לא שולמו פיצויים. ההשתתפות העצמית מהווה רובד ראשון בפוליסה וכלולה בגבולות האחריות.",
-  "payload": "טבלה: השתתפות עצמית\nThis table details the self-participation amount (deductible) the insured bears for covered insurance claims. It specifies how the deductible applies to expenses incurred during claim handling.\nממדים: Details regarding self-participation, Explanation of self-participation terms\n\n: השתתפות עצמית .9.8\nהסכום, או כל קביעה אחרת, הנקוב ברשימה לעניין פרק ג', שבו יישא המבוטח מתוך סכום הפיצוי, השיפוי וההוצאות שישלם המבטח, לפי העניין, עקב מקרה ביטוח המכוסה לפי פוליסה זו, לגבי כל מקרה ביטוח בנפרד.\nיובהר, כי ההשתתפות העצמית תחול לגבי הוצאות שהוציא המבטח תוך כדי טיפול בתביעה ו/או דרישה לפיצוי ו/או הודעה על כל אירוע העלול לגרום לתביעה, וזאת אף אם לא שולמו פיצויים בגינו.\nההשתתפות העצמית של המבוטח בגין מקרה ביטוח מהווה רובד ראשון בפוליסה וכלולה במסגרת גבולות האחריות בפוליסה, ואינה בנוסף עליהם.\n)תנאים כלליים לכל 3 לחלק 15.9 האמור בסעיף זה יחול בהתאם ובכפוף לתנאי חלקי הפוליסה(, להלן."
+  "embed_text": "טבלה זו מפרטת את סכום ההשתתפות העצמית, אותו נושא המבוטח מסכום הפיצוי, השיפוי וההוצאות המשולמים על ידי המבטח בעקבות מקרה ביטוח מכוסה. ניתן למצוא את הסכום הנקוב ברשימה עבור פרק ג׳, והוא חל על כל מקרה ביטוח בנפרד. ההשתתפות העצמית של המבוטח מהווה רובד ראשון בפוליסה וכלולה בגבולות האחריות. פוליסה לביטוח עבודות קבלניות הראל ביט מהדורת ינואר 2023. סכום, קביעה אחרת, הוצאות, תביעה, פיצוי. This table details the self-participation amount (deductible) the insured bears from the compensation, reimbursement, and expenses paid by the insurer for an insured event. It applies to each insured event separately.",
+  "payload": "טבלה: השתתפות עצמית\nThis table details the self-participation amount (deductible) the insured bears from the compensation, reimbursement, and expenses paid by the insurer for an insured event. It applies to each insured event separately.\nממדים: Details regarding self-participation, Description of self-participation terms\n\n: השתתפות עצמית .9.8\nהסכום, או כל קביעה אחרת, הנקוב ברשימה לעניין פרק ג', שבו יישא המבוטח מתוך סכום הפיצוי, השיפוי וההוצאות שישלם המבטח, לפי העניין, עקב מקרה ביטוח המכוסה לפי פוליסה זו, לגבי כל מקרה ביטוח בנפרד.\nיובהר, כי ההשתתפות העצמית תחול לגבי הוצאות שהוציא המבטח תוך כדי טיפול בתביעה ו/או דרישה לפיצוי ו/או הודעה על כל אירוע העלול לגרום לתביעה, וזאת אף אם לא שולמו פיצויים בגינו.\nההשתתפות העצמית של המבוטח בגין מקרה ביטוח מהווה רובד ראשון בפוליסה וכלולה במסגרת גבולות האחריות בפוליסה, ואינה בנוסף עליהם.\n)תנאים כלליים לכל 3 לחלק 15.9 האמור בסעיף זה יחול בהתאם ובכפוף לתנאי חלקי הפוליסה(, להלן."
 }

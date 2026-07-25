@@ -3,21 +3,19 @@
   "source": "llm",
   "description": {
     "title": "הארכת תקופת הביטוח",
-    "summary": "This table details the automatic renewal terms for a property insurance policy. It specifies the extension period and conditions for opting out of renewal.",
-    "embed_passage": "פוליסת ביטוח רכוש בכספת מציעה הארכה אוטומטית של הביטוח לתקופות נוספות של 12 חודשים. אם המבוטח אינו מעוניין בהארכה, עליו להודיע בכתב למבטח לפני תאריך תחילת ההארכה. במקרה של אי-הודעה, הביטוח יוארך אוטומטית.",
+    "summary": "This table details the automatic renewal terms for the property insurance policy. It specifies the extension period and the conditions under which the insured can opt out of renewal.",
+    "embed_passage": "טבלה זו מתארת את תנאי החידוש האוטומטי של פוליסת ביטוח רכוש בכספת מהדורת ינואר 2023. הפוליסה תוארך אוטומטית לתקופות נוספות של 12 חודשים. אם המבוטח אינו מעוניין בהארכת הביטוח, עליו למסור הודעה בכתב למבטח לפני תאריך תחילת מועד הארכת הביטוח. הארכת תקופת הביטוח, 12 חודשים, הודעה בכתב, מועד הארכת הביטוח.",
     "row_axis": "Renewal conditions",
     "column_axis": "Renewal details",
     "units": [],
     "notable_values": [
-      "extension period: 12 חודשים",
-      "notice period: 30 יום",
-      "automatic renewal: yes"
+      "חודשים: 12"
     ],
     "product_hints": [
-      "ביטוח רכוש בכספת"
+      "ביטוח רכוש בכספת מהדורת ינואר 2023"
     ]
   },
   "sketch": ". הארכת תקופת הביטוח 17\nחודשים בכל פעם. 12 . ביטוח זה יוארך מאליו, על ידי המבטח, לתקופות נוספות של 17.1\n, . אם המבוטח אינו מעוניין בהארכת הביטוח, ימסור המבוטח הודעה בכתב למבטח 17.2 , לפני תאריך תחילת מועד הארכת הביטוח, ויבקש שלא להאריך את הביטוח ובמקרה כזה לא יוארך הביטוח.",
-  "embed_text": "פוליסת ביטוח רכוש בכספת מציעה הארכה אוטומטית של הביטוח לתקופות נוספות של 12 חודשים. אם המבוטח אינו מעוניין בהארכה, עליו להודיע בכתב למבטח לפני תאריך תחילת ההארכה. במקרה של אי-הודעה, הביטוח יוארך אוטומטית.",
-  "payload": "טבלה: הארכת תקופת הביטוח\nThis table details the automatic renewal terms for a property insurance policy. It specifies the extension period and conditions for opting out of renewal.\nממדים: Renewal conditions, Renewal details\n\n. הארכת תקופת הביטוח 17\nחודשים בכל פעם. 12 . ביטוח זה יוארך מאליו, על ידי המבטח, לתקופות נוספות של 17.1\n, . אם המבוטח אינו מעוניין בהארכת הביטוח, ימסור המבוטח הודעה בכתב למבטח 17.2 , לפני תאריך תחילת מועד הארכת הביטוח, ויבקש שלא להאריך את הביטוח ובמקרה כזה לא יוארך הביטוח."
+  "embed_text": "טבלה זו מתארת את תנאי החידוש האוטומטי של פוליסת ביטוח רכוש בכספת מהדורת ינואר 2023. הפוליסה תוארך אוטומטית לתקופות נוספות של 12 חודשים. אם המבוטח אינו מעוניין בהארכת הביטוח, עליו למסור הודעה בכתב למבטח לפני תאריך תחילת מועד הארכת הביטוח. הארכת תקופת הביטוח, 12 חודשים, הודעה בכתב, מועד הארכת הביטוח. This table details the automatic renewal terms for the property insurance policy. It specifies the extension period and the conditions under which the insured can opt out of renewal.",
+  "payload": "טבלה: הארכת תקופת הביטוח\nThis table details the automatic renewal terms for the property insurance policy. It specifies the extension period and the conditions under which the insured can opt out of renewal.\nממדים: Renewal conditions, Renewal details\n\n. הארכת תקופת הביטוח 17\nחודשים בכל פעם. 12 . ביטוח זה יוארך מאליו, על ידי המבטח, לתקופות נוספות של 17.1\n, . אם המבוטח אינו מעוניין בהארכת הביטוח, ימסור המבוטח הודעה בכתב למבטח 17.2 , לפני תאריך תחילת מועד הארכת הביטוח, ויבקש שלא להאריך את הביטוח ובמקרה כזה לא יוארך הביטוח."
 }

@@ -2,23 +2,22 @@
   "id": "pdf:car/files/תנאי-פוליסת-ביטוח-ציוד-מכני-הנדסי-צמה.pdf#35",
   "source": "llm",
   "description": {
-    "title": "הרחבת כיסוי גניבה",
-    "summary": "This table details extensions to coverage for theft, burglary, robbery, and malicious damage. It specifies conditions under which such damage is covered, referencing a separate list (רשימה) for specific details.",
-    "embed_passage": "פוליסת צמה מציעה הרחבה לכיסוי סיכוני גניבה, פריצה, שוד ונזק בזדון. הכיסוי ניתן אם צוין במפורש בדף הרשימה, למשל עבור סעיפים 5 ו-10. נזק בזדון שנגרם על ידי המבוטח עצמו אינו מכוסה בכל מקרה.",
-    "row_axis": "Conditions for coverage extension",
-    "column_axis": "Coverage details",
+    "title": "הרחבה לכיסוי סיכוני גניבה, פריצה, שוד ונזק בזדון",
+    "summary": "This table details coverage extensions for theft, burglary, robbery, and malicious damage. It specifies conditions under which such damage is covered, referencing a separate 'רשימה' (list) for specific details.",
+    "embed_passage": "טבלה זו מתארת הרחבות לכיסוי ביטוחי עבור סיכוני גניבה, פריצה, שוד ונזק בזדון, כפי שמפורט בפוליסת ביטוח ציוד מכני הנדסי צמה. הכיסוי ניתן בהתאם לתנאים המפורטים ברשימה נלווית, ומתייחס לנזקים שנגרמו על ידי צד שלישי. חשוב לבדוק את הרשימה כדי להבין את תנאי הכיסוי הספציפיים. הרחבה זו עוסקת בכיסוי לאבדן או נזק לרכוש המבוטח, ובמקרים בהם נזק בזדון שנגרם על ידי המבוטח או מי מטעמו אינו מכוסה. הרשימה, 5,10, ו-22 הם פרטים רלוונטיים לכיסוי.",
+    "row_axis": "conditions for coverage extension",
+    "column_axis": "coverage details",
     "units": [],
     "notable_values": [
-      "סעיף: 5",
-      "סעיף: 10",
-      "חריגים: 1"
+      "כיסוי: אבדן או נזק שנגרם לרכוש המבוטח עקב גניבה, פריצה, שוד ונזק בזדון",
+      "חריגים: 5, 10",
+      "נזק בזדון: לא מכוסה אם שנגרם על ידי המבוטח או מי מטעמו"
     ],
     "product_hints": [
-      "צמה",
-      "ביטוח ציוד מכני הנדסי"
+      "ביטוח ציוד מכני הנדסי צמה"
     ]
   },
   "sketch": "הרחבה לכיסוי סיכוני גניבה, פריצה, שוד ונזק בזדון\nיינתן כיסוי לאבדן או , אם צוין במפורש בדף הרשימה ,22ו 5,10 על אף האמור בחריגים .1 נזק שנגרם לרכוש המבוטח עקב גניבה, פריצה, שוד ונזק בזדון - שנגרם על ידי צד שלישי.\nיובהר כי נזק בזדון שנגרם על ידי המבוטח ו/או על ידי מי מטעמו ו/או עובדיו אינו מכוסה .2 בכל מקרה.",
-  "embed_text": "פוליסת צמה מציעה הרחבה לכיסוי סיכוני גניבה, פריצה, שוד ונזק בזדון. הכיסוי ניתן אם צוין במפורש בדף הרשימה, למשל עבור סעיפים 5 ו-10. נזק בזדון שנגרם על ידי המבוטח עצמו אינו מכוסה בכל מקרה.",
-  "payload": "טבלה: הרחבת כיסוי גניבה\nThis table details extensions to coverage for theft, burglary, robbery, and malicious damage. It specifies conditions under which such damage is covered, referencing a separate list (רשימה) for specific details.\nממדים: Conditions for coverage extension, Coverage details\n\nהרחבה לכיסוי סיכוני גניבה, פריצה, שוד ונזק בזדון\nיינתן כיסוי לאבדן או , אם צוין במפורש בדף הרשימה ,22ו 5,10 על אף האמור בחריגים .1 נזק שנגרם לרכוש המבוטח עקב גניבה, פריצה, שוד ונזק בזדון - שנגרם על ידי צד שלישי.\nיובהר כי נזק בזדון שנגרם על ידי המבוטח ו/או על ידי מי מטעמו ו/או עובדיו אינו מכוסה .2 בכל מקרה."
+  "embed_text": "טבלה זו מתארת הרחבות לכיסוי ביטוחי עבור סיכוני גניבה, פריצה, שוד ונזק בזדון, כפי שמפורט בפוליסת ביטוח ציוד מכני הנדסי צמה. הכיסוי ניתן בהתאם לתנאים המפורטים ברשימה נלווית, ומתייחס לנזקים שנגרמו על ידי צד שלישי. חשוב לבדוק את הרשימה כדי להבין את תנאי הכיסוי הספציפיים. הרחבה זו עוסקת בכיסוי לאבדן או נזק לרכוש המבוטח, ובמקרים בהם נזק בזדון שנגרם על ידי המבוטח או מי מטעמו אינו מכוסה. הרשימה, 5,10, ו-22 הם פרטים רלוונטיים לכיסוי. This table details coverage extensions for theft, burglary, robbery, and malicious damage. It specifies conditions under which such damage is covered, referencing a separate 'רשימה' (list) for specific details. בין הערכים בטבלה: חריגים: 5, 10.",
+  "payload": "טבלה: הרחבה לכיסוי סיכוני גניבה, פריצה, שוד ונזק בזדון\nThis table details coverage extensions for theft, burglary, robbery, and malicious damage. It specifies conditions under which such damage is covered, referencing a separate 'רשימה' (list) for specific details.\nממדים: conditions for coverage extension, coverage details\n\nהרחבה לכיסוי סיכוני גניבה, פריצה, שוד ונזק בזדון\nיינתן כיסוי לאבדן או , אם צוין במפורש בדף הרשימה ,22ו 5,10 על אף האמור בחריגים .1 נזק שנגרם לרכוש המבוטח עקב גניבה, פריצה, שוד ונזק בזדון - שנגרם על ידי צד שלישי.\nיובהר כי נזק בזדון שנגרם על ידי המבוטח ו/או על ידי מי מטעמו ו/או עובדיו אינו מכוסה .2 בכל מקרה."
 }

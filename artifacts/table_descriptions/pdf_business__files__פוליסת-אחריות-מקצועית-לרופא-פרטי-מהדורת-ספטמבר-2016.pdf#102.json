@@ -3,21 +3,22 @@
   "source": "llm",
   "description": {
     "title": "הקטנת גבול האחריות",
-    "summary": "This table details how the insurance coverage limits are reduced after a claim or damage. It outlines the reduction of liability limits following a payout or commitment to a third party.",
-    "embed_passage": "פוליסת אחריות מקצועית לרופא פרטי מסבירה כי גבולות האחריות של המבטח יוקטנו בסכום הפיצויים ששולמו לצד שלישי או בהתחייבות לתשלום פיצויים. הקטנת גבול האחריות מחושבת בהתאם לתנאי הפוליסה לאחר תביעה או נזק, וסכום ההקטנה תלוי בסכום הפיצויים ששולמו או הותחייבו.",
-    "row_axis": "scenarios related to claim settlement",
-    "column_axis": "details of liability reduction",
+    "summary": "This table details how the insurance liability limits are reduced after a claim or damage. It outlines the conditions under which the insurer will compensate the insured for compensation amounts, defense costs, and the calculation of reduced liability limits.",
+    "embed_passage": "טבלה זו עוסקת בהקטנת גבול האחריות בפוליסת ביטוח אחריות מקצועית לרופא פרטי. היא מפרטת כיצד יחושבו סכומי הפיצוי והוצאות ההגנה לאחר תביעה או נזק, ומהם התנאים לשיפוי המבוטח על ידי המבטח. ניתן לעיין בטבלה כדי להבין את ההשפעה של תשלום פיצויים לצד שלישי או שיפוי המבוטח על גבולות האחריות העתידיים. הנתונים בטבלה מתייחסים לסעיפים 4.11.2.2, 4.11.2.3 ו-4.12 בפוליסה. סכום הפיצוי, הוצאות הגנה סבירות, הקטנת גבול האחריות לאחר תביעה / נזק, ותגמולי ביטוח הם מושגים מרכזיים בטבלה זו.",
+    "row_axis": "conditions for liability reduction",
+    "column_axis": "reduction calculation and compensation",
     "units": [],
     "notable_values": [
-      "reduction of compensation amount: 4.11.2.2",
-      "reduction calculation: 4.11.2.3",
-      "liability limit reduction: 4.12"
+      "סכום הפיצוי: reduced amount",
+      "הוצאות הגנה סבירות: compensated",
+      "הקטנת גבול האחריות לאחר תביעה / נזק: calculated based on conditions",
+      "תגמולי ביטוח: already paid amounts"
     ],
     "product_hints": [
       "פוליסת אחריות מקצועית לרופא פרטי"
     ]
   },
   "sketch": ", .  הוקטן סכום הפיצוי, ונשא המבוטח בשל כך בהוצאות הגנה סבירות 4.11.2.2 ישפה המבטח את המבוטח בסכום הפיצוי, לאחר שנוכה, מגבולות אחריות המבטח על פי פוליסה זו כל סכום או סכומים שכבר שולמו להלן) על פי הפוליסה ובנוסף 4.12 בתור תגמולי ביטוח (כאמור בתנאי אך בשום מקרה , ישפה המבטח את המבוטח בגין הוצאות הגנה סבירות לא יותר מהסכום הכולל שהיה משלם המבטח במסגרת הפשרה.\n, .  מובהר, כי לעניין סכום או סכומים שכבר שולמו בתור תגמולי ביטוח 4.11.2.3 \"הקטנת גבול האחריות 4.12 יחושב הסכום בכפוף לאמור בתנאי לאחר תביעה / נזק\" להלן.",
-  "embed_text": "פוליסת אחריות מקצועית לרופא פרטי מסבירה כי גבולות האחריות של המבטח יוקטנו בסכום הפיצויים ששולמו לצד שלישי או בהתחייבות לתשלום פיצויים. הקטנת גבול האחריות מחושבת בהתאם לתנאי הפוליסה לאחר תביעה או נזק, וסכום ההקטנה תלוי בסכום הפיצויים ששולמו או הותחייבו.",
-  "payload": "טבלה: הקטנת גבול האחריות\nThis table details how the insurance coverage limits are reduced after a claim or damage. It outlines the reduction of liability limits following a payout or commitment to a third party.\nממדים: scenarios related to claim settlement, details of liability reduction\n\n, .  הוקטן סכום הפיצוי, ונשא המבוטח בשל כך בהוצאות הגנה סבירות 4.11.2.2 ישפה המבטח את המבוטח בסכום הפיצוי, לאחר שנוכה, מגבולות אחריות המבטח על פי פוליסה זו כל סכום או סכומים שכבר שולמו להלן) על פי הפוליסה ובנוסף 4.12 בתור תגמולי ביטוח (כאמור בתנאי אך בשום מקרה , ישפה המבטח את המבוטח בגין הוצאות הגנה סבירות לא יותר מהסכום הכולל שהיה משלם המבטח במסגרת הפשרה.\n, .  מובהר, כי לעניין סכום או סכומים שכבר שולמו בתור תגמולי ביטוח 4.11.2.3 \"הקטנת גבול האחריות 4.12 יחושב הסכום בכפוף לאמור בתנאי לאחר תביעה / נזק\" להלן."
+  "embed_text": "טבלה זו עוסקת בהקטנת גבול האחריות בפוליסת ביטוח אחריות מקצועית לרופא פרטי. היא מפרטת כיצד יחושבו סכומי הפיצוי והוצאות ההגנה לאחר תביעה או נזק, ומהם התנאים לשיפוי המבוטח על ידי המבטח. ניתן לעיין בטבלה כדי להבין את ההשפעה של תשלום פיצויים לצד שלישי או שיפוי המבוטח על גבולות האחריות העתידיים. הנתונים בטבלה מתייחסים לסעיפים 4.11.2.2, 4.11.2.3 ו-4.12 בפוליסה. סכום הפיצוי, הוצאות הגנה סבירות, הקטנת גבול האחריות לאחר תביעה / נזק, ותגמולי ביטוח הם מושגים מרכזיים בטבלה זו. This table details how the insurance liability limits are reduced after a claim or damage. It outlines the conditions under which the insurer will compensate the insured for compensation amounts, defense costs, and the calculation of reduced liability limits.",
+  "payload": "טבלה: הקטנת גבול האחריות\nThis table details how the insurance liability limits are reduced after a claim or damage. It outlines the conditions under which the insurer will compensate the insured for compensation amounts, defense costs, and the calculation of reduced liability limits.\nממדים: conditions for liability reduction, reduction calculation and compensation\n\n, .  הוקטן סכום הפיצוי, ונשא המבוטח בשל כך בהוצאות הגנה סבירות 4.11.2.2 ישפה המבטח את המבוטח בסכום הפיצוי, לאחר שנוכה, מגבולות אחריות המבטח על פי פוליסה זו כל סכום או סכומים שכבר שולמו להלן) על פי הפוליסה ובנוסף 4.12 בתור תגמולי ביטוח (כאמור בתנאי אך בשום מקרה , ישפה המבטח את המבוטח בגין הוצאות הגנה סבירות לא יותר מהסכום הכולל שהיה משלם המבטח במסגרת הפשרה.\n, .  מובהר, כי לעניין סכום או סכומים שכבר שולמו בתור תגמולי ביטוח 4.11.2.3 \"הקטנת גבול האחריות 4.12 יחושב הסכום בכפוף לאמור בתנאי לאחר תביעה / נזק\" להלן."
 }

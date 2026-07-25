@@ -3,21 +3,21 @@
   "source": "llm",
   "description": {
     "title": "תנאי הכנסה למשפחה",
-    "summary": "This table outlines conditions related to insurance payouts when information provided by the policyholder is incomplete or inaccurate. It details scenarios where the insurance company may reduce or deny claims.",
-    "embed_passage": "פוליסת תנאי הכנסה למשפחה עשויה להיות מבוטלת אם ניתנה תשובה שאינה מלאה וכנה. במקרה של ביטול, בעל הפוליסה זכאי להחזר הפרמיות ששילם בניכוי הוצאות החברה. החברה רשאית לבטל את הפוליסה בתוך 30 ימים מיום שנודע לה על כך.",
-    "row_axis": "Scenarios of incomplete or inaccurate information provided by the policyholder",
-    "column_axis": "Consequences for the insurance company (e.g., reduced payout, policy cancellation)",
+    "summary": "This table outlines conditions related to income for a family policy, specifically regarding misrepresentation and its impact on claim payouts. It details scenarios where the insurance company may reduce or deny benefits.",
+    "embed_passage": "טבלה זו מתארת תנאים הקשורים להכנסה בפוליסת משפחה, במיוחד בנוגע להטעיה והשפעתה על תשלום תביעות. הטבלה מפרטת תרחישים שבהם חברת הביטוח עשויה להפחית או לשלול תגמולים. ניתן לעיין בתנאים אלו בהתייחס למקרה ביטוח, כוונת מירמה, והפרמיות ששולמו. התנאים מתייחסים למצבים בהם ניתנה תשובה שאינה מלאה וכנה, או כאשר מבטח סביר לא היה מתקשר בפוליסה בתנאים הקיימים. הפוליסה הרלוונטית היא תנאי הכנסה למשפחה, וניתן לבדוק את התנאים בהתאם למצב לאמיתו.",
+    "row_axis": "Conditions related to misrepresentation",
+    "column_axis": "Impact on insurance coverage",
     "units": [],
     "notable_values": [
-      "30 ימים: Timeframe for cancellation after discovering inaccurate information",
-      "הפרמיות: Premiums paid by the policyholder",
-      "הוצאות החברה: Company expenses deducted from refunds"
+      "כוונת מירמה: תשובה ניתנה בכוונת מירמה",
+      "מבטח סביר: לא היה מתקשר בפוליסה",
+      "החזר פרמיות: בניכוי הוצאות החברה"
     ],
     "product_hints": [
       "תנאי הכנסה למשפחה"
     ]
   },
   "sketch": "5.4 קרה מקרה הביטוח לפני שנתבטלה הפוליסה מכוח האמור לעיל, אין החברה חייבת אלא בתגמולי ביטוח מופחתים בשיעור יחסי שהוא כיחס שבין הפרמיות שהיו משתלמות כמקובל אצלה, לפי המצב לאמיתו, לבין הפרמיות המוסכמות כמפורט בדף פרטי הביטוח והיא פטורה כליל בכל אחת מאלה:\n5.4.1 התשובה ניתנה בכוונת מירמה.\n5.4.2 מבטח סביר  לא היה מתקשר על פי פוליסה זו אף בפרמיה גבוהה , יותר אילו ידע את המצב לאמיתו. במקרה זה זכאי בעל הפוליסה , להחזר הפרמיות ששילם בעד התקופה שלאחר קרות מקרה הביטוח בניכוי הוצאות החברה.",
-  "embed_text": "פוליסת תנאי הכנסה למשפחה עשויה להיות מבוטלת אם ניתנה תשובה שאינה מלאה וכנה. במקרה של ביטול, בעל הפוליסה זכאי להחזר הפרמיות ששילם בניכוי הוצאות החברה. החברה רשאית לבטל את הפוליסה בתוך 30 ימים מיום שנודע לה על כך.",
-  "payload": "טבלה: תנאי הכנסה למשפחה\nThis table outlines conditions related to insurance payouts when information provided by the policyholder is incomplete or inaccurate. It details scenarios where the insurance company may reduce or deny claims.\nממדים: Scenarios of incomplete or inaccurate information provided by the policyholder, Consequences for the insurance company (e.g., reduced payout, policy cancellation)\n\n5.4 קרה מקרה הביטוח לפני שנתבטלה הפוליסה מכוח האמור לעיל, אין החברה חייבת אלא בתגמולי ביטוח מופחתים בשיעור יחסי שהוא כיחס שבין הפרמיות שהיו משתלמות כמקובל אצלה, לפי המצב לאמיתו, לבין הפרמיות המוסכמות כמפורט בדף פרטי הביטוח והיא פטורה כליל בכל אחת מאלה:\n5.4.1 התשובה ניתנה בכוונת מירמה.\n5.4.2 מבטח סביר  לא היה מתקשר על פי פוליסה זו אף בפרמיה גבוהה , יותר אילו ידע את המצב לאמיתו. במקרה זה זכאי בעל הפוליסה , להחזר הפרמיות ששילם בעד התקופה שלאחר קרות מקרה הביטוח בניכוי הוצאות החברה."
+  "embed_text": "טבלה זו מתארת תנאים הקשורים להכנסה בפוליסת משפחה, במיוחד בנוגע להטעיה והשפעתה על תשלום תביעות. הטבלה מפרטת תרחישים שבהם חברת הביטוח עשויה להפחית או לשלול תגמולים. ניתן לעיין בתנאים אלו בהתייחס למקרה ביטוח, כוונת מירמה, והפרמיות ששולמו. התנאים מתייחסים למצבים בהם ניתנה תשובה שאינה מלאה וכנה, או כאשר מבטח סביר לא היה מתקשר בפוליסה בתנאים הקיימים. הפוליסה הרלוונטית היא תנאי הכנסה למשפחה, וניתן לבדוק את התנאים בהתאם למצב לאמיתו. This table outlines conditions related to income for a family policy, specifically regarding misrepresentation and its impact on claim payouts. It details scenarios where the insurance company may reduce or deny benefits. בין הערכים בטבלה: החזר פרמיות: בניכוי הוצאות החברה.",
+  "payload": "טבלה: תנאי הכנסה למשפחה\nThis table outlines conditions related to income for a family policy, specifically regarding misrepresentation and its impact on claim payouts. It details scenarios where the insurance company may reduce or deny benefits.\nממדים: Conditions related to misrepresentation, Impact on insurance coverage\n\n5.4 קרה מקרה הביטוח לפני שנתבטלה הפוליסה מכוח האמור לעיל, אין החברה חייבת אלא בתגמולי ביטוח מופחתים בשיעור יחסי שהוא כיחס שבין הפרמיות שהיו משתלמות כמקובל אצלה, לפי המצב לאמיתו, לבין הפרמיות המוסכמות כמפורט בדף פרטי הביטוח והיא פטורה כליל בכל אחת מאלה:\n5.4.1 התשובה ניתנה בכוונת מירמה.\n5.4.2 מבטח סביר  לא היה מתקשר על פי פוליסה זו אף בפרמיה גבוהה , יותר אילו ידע את המצב לאמיתו. במקרה זה זכאי בעל הפוליסה , להחזר הפרמיות ששילם בעד התקופה שלאחר קרות מקרה הביטוח בניכוי הוצאות החברה."
 }

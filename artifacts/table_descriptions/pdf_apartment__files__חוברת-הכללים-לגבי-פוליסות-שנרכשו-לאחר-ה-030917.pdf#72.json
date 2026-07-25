@@ -2,24 +2,22 @@
   "id": "pdf:apartment/files/חוברת-הכללים-לגבי-פוליסות-שנרכשו-לאחר-ה-030917.pdf#72",
   "source": "llm",
   "description": {
-    "title": "תביעות נזקי מים",
-    "summary": "This table outlines the process for water damage claims. It details information gathered during the claim process and potential reimbursement for expenses related to damage prevention or mitigation.",
-    "embed_passage": "פוליסת הראל מכסה נזקי מים, והתהליך כולל איסוף נתונים, מסמכים ומידע רלוונטי. אם הוצאת הוצאות סבירות להקטנת הנזק, הינך זכאי לשיפוי. לדוגמה, אם הנזק דווח למשטרה (כן/לא) או אם יש עדי ראיה, זה ישפיע על הטיפול בתביעה.",
-    "row_axis": "claim details / claim questions",
-    "column_axis": "response / answer",
+    "title": "הודעה על הנזק",
+    "summary": "This table is a form to collect information about damage reports. It asks whether the damage was reported to the police and requests details of witnesses.",
+    "embed_passage": "טבלה זו משמשת לאיסוף מידע על דיווח נזקים, כגון האם הודיעו למשטרה ופרטי עדים. מטרתה לתעד את פרטי האירוע לצורך בירור התביעה. השדות כוללים שאלות לגבי הודעה למשטרה ופרטי עדים, כגון שם, כתובת ומספר טלפון נייד. האם ניתנה הודעה על הנזק למשטרה, כן או לא, הם שאלות מרכזיות. עדי ראיה (שם וכתובת מלאים + טלפון נייד) הם פרטים נדרשים. הראל היא החברה המבטחת.",
+    "row_axis": "question / item",
+    "column_axis": "answer / value",
     "units": [],
     "notable_values": [
-      "030917: date related to policy acquisition",
-      "9: reference to a plumber in the preceding text",
-      "12: section number referencing claim processing",
-      "13: section number referencing expense reimbursement",
-      "16: section number referencing third-party liability"
+      "האם ניתנה הודעה על הנזק למשטרה: כן",
+      "האם ניתנה הודעה על הנזק למשטרה: לא",
+      "עדי ראיה: שם וכתובת מלאים + טלפון נייד"
     ],
     "product_hints": [
       "הראל"
     ]
   },
   "sketch": ".  עם השלמת איסוף כל הנתונים, מסמכים והמידע הנדרש, ככל שהדבר רלוונטי, יבוצע 12 הליך בירור שבסופו תתקבל החלטה על תשלום / תשלום חלקי או דחיית התביעה. יודגש, כי תהליך טיפול בתביעה, לרבות משלוח שרברב לדירה, אינו מהווה הכרה בחבות החברה למקרה הביטוח.\n, .  לידיעתך, אם הוצאת הוצאות סבירות, בקרות הנזק או לאחריו, להקטנת הנזק או מניעתו 13 הינך זכאי לשיפוי בגינן.",
-  "embed_text": "פוליסת הראל מכסה נזקי מים, והתהליך כולל איסוף נתונים, מסמכים ומידע רלוונטי. אם הוצאת הוצאות סבירות להקטנת הנזק, הינך זכאי לשיפוי. לדוגמה, אם הנזק דווח למשטרה (כן/לא) או אם יש עדי ראיה, זה ישפיע על הטיפול בתביעה.",
-  "payload": "טבלה: תביעות נזקי מים\nThis table outlines the process for water damage claims. It details information gathered during the claim process and potential reimbursement for expenses related to damage prevention or mitigation.\nממדים: claim details / claim questions, response / answer\n\n.  עם השלמת איסוף כל הנתונים, מסמכים והמידע הנדרש, ככל שהדבר רלוונטי, יבוצע 12 הליך בירור שבסופו תתקבל החלטה על תשלום / תשלום חלקי או דחיית התביעה. יודגש, כי תהליך טיפול בתביעה, לרבות משלוח שרברב לדירה, אינו מהווה הכרה בחבות החברה למקרה הביטוח.\n, .  לידיעתך, אם הוצאת הוצאות סבירות, בקרות הנזק או לאחריו, להקטנת הנזק או מניעתו 13 הינך זכאי לשיפוי בגינן."
+  "embed_text": "טבלה זו משמשת לאיסוף מידע על דיווח נזקים, כגון האם הודיעו למשטרה ופרטי עדים. מטרתה לתעד את פרטי האירוע לצורך בירור התביעה. השדות כוללים שאלות לגבי הודעה למשטרה ופרטי עדים, כגון שם, כתובת ומספר טלפון נייד. האם ניתנה הודעה על הנזק למשטרה, כן או לא, הם שאלות מרכזיות. עדי ראיה (שם וכתובת מלאים + טלפון נייד) הם פרטים נדרשים. הראל היא החברה המבטחת. This table is a form to collect information about damage reports. It asks whether the damage was reported to the police and requests details of witnesses.",
+  "payload": "טבלה: הודעה על הנזק\nThis table is a form to collect information about damage reports. It asks whether the damage was reported to the police and requests details of witnesses.\nממדים: question / item, answer / value\n\n.  עם השלמת איסוף כל הנתונים, מסמכים והמידע הנדרש, ככל שהדבר רלוונטי, יבוצע 12 הליך בירור שבסופו תתקבל החלטה על תשלום / תשלום חלקי או דחיית התביעה. יודגש, כי תהליך טיפול בתביעה, לרבות משלוח שרברב לדירה, אינו מהווה הכרה בחבות החברה למקרה הביטוח.\n, .  לידיעתך, אם הוצאת הוצאות סבירות, בקרות הנזק או לאחריו, להקטנת הנזק או מניעתו 13 הינך זכאי לשיפוי בגינן."
 }

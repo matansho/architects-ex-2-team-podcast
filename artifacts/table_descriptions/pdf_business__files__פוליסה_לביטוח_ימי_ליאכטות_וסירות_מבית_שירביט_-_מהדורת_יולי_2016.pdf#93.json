@@ -2,26 +2,27 @@
   "id": "pdf:business/files/פוליסה_לביטוח_ימי_ליאכטות_וסירות_מבית_שירביט_-_מהדורת_יולי_2016.pdf#93",
   "source": "llm",
   "description": {
-    "title": "שירביט ביטוח ימי ליאכטות",
-    "summary": "This table details exclusions to a marine insurance policy for yachts and boats offered by Shirbit. It specifies conditions under which losses are not covered, particularly those related to war and pollution.",
-    "embed_passage": "פוליסת ביטוח ימי של שירביט ליאכטות וסירות אינה מכסה נזקים הנגרמים ממלחמה, מלחמה אזרחית, מהפכה או התקוממות. הפוליסה מציינת במפורש כי לא יכוסו הוצאות או נזקים הנובעים מפעולות עוינות של כוחות לוחמים. ביטוח זה אינו מכסה גם נזקים הנגרמים כתוצאה מחדירה או זיהום.",
-    "row_axis": "Exclusion Clause",
-    "column_axis": "Description of Exclusion",
+    "title": "פוליסת ביטוח ימי ליאכטות וסירות - חריגים",
+    "summary": "This table details exclusions to a marine hull insurance policy for yachts and boats from Shirbit. It lists circumstances under which coverage is denied, specifically related to war and related hostilities.",
+    "embed_passage": "טבלה זו מתארת חריגים לפוליסת ביטוח ימי לכלי שיט מבית שירביט. החריגים מגדירים מצבים בהם הכיסוי הביטוחי לא יחול, כגון נזקים הנגרמים כתוצאה ממלחמה או פעולות איבה. הפוליסה מכסה הפסדים, נזקים והוצאות, אך לא במקרים המפורטים כאן. החריגים גוברים על כל סעיף אחר בפוליסה שאינו עולה בקנה אחד איתם. החריגים כוללים מלחמה, מלחמת אזרחים, מהפכה, מרד, התקוממות, מאבק פנימי וכל מעשה עוין של כוח לוחם או נגדו. פוליסת שירביט מציעה כיסוי ליאכטות וסירות.",
+    "row_axis": "exclusion clause",
+    "column_axis": "description of excluded event",
     "units": [],
     "notable_values": [
-      "Clause Number: 7",
-      "Exclusion Type: Seepage and Pollution",
-      "Exclusion Type: War",
-      "Hostile Act: Against a belligerent power",
-      "Civil Strife: Arising from war"
+      "exclusion: seepage and pollution",
+      "exclusion: war",
+      "exclusion: civil war",
+      "exclusion: revolution",
+      "exclusion: rebellion",
+      "exclusion: insurrection",
+      "exclusion: civil strife"
     ],
     "product_hints": [
-      "שירביט ביטוח ימי",
-      "ביטוח ימי ליאכטות",
-      "ביטוח ימי לסירות"
+      "פוליסת ביטוח ימי ליאכטות וסירות",
+      "שירביט"
     ]
   },
   "sketch": "7) EXCLUDING SEEPAGE AND POLLUTION\nTHE  FOLLOWING  CLAUSES  SHALL  BE  PARAMOUNT  AND  SHALL OVERRIDE ANYTHING CONTAINED IN THIS INSURANCE INCONSISTENT THEREWITH.\nWAR EXLUSION In no case shall this insurance cover loss, damage, liability or\nexpense caused by\nwar,  civil  war,  revolution,  rebellion,  insurrection,  or  civil strife  arising    therefrom,  or  any  hostile  act  by  or  against  a belligerent power.",
-  "embed_text": "פוליסת ביטוח ימי של שירביט ליאכטות וסירות אינה מכסה נזקים הנגרמים ממלחמה, מלחמה אזרחית, מהפכה או התקוממות. הפוליסה מציינת במפורש כי לא יכוסו הוצאות או נזקים הנובעים מפעולות עוינות של כוחות לוחמים. ביטוח זה אינו מכסה גם נזקים הנגרמים כתוצאה מחדירה או זיהום.",
-  "payload": "טבלה: שירביט ביטוח ימי ליאכטות\nThis table details exclusions to a marine insurance policy for yachts and boats offered by Shirbit. It specifies conditions under which losses are not covered, particularly those related to war and pollution.\nממדים: Exclusion Clause, Description of Exclusion\n\n7) EXCLUDING SEEPAGE AND POLLUTION\nTHE  FOLLOWING  CLAUSES  SHALL  BE  PARAMOUNT  AND  SHALL OVERRIDE ANYTHING CONTAINED IN THIS INSURANCE INCONSISTENT THEREWITH.\nWAR EXLUSION In no case shall this insurance cover loss, damage, liability or\nexpense caused by\nwar,  civil  war,  revolution,  rebellion,  insurrection,  or  civil strife  arising    therefrom,  or  any  hostile  act  by  or  against  a belligerent power."
+  "embed_text": "טבלה זו מתארת חריגים לפוליסת ביטוח ימי לכלי שיט מבית שירביט. החריגים מגדירים מצבים בהם הכיסוי הביטוחי לא יחול, כגון נזקים הנגרמים כתוצאה ממלחמה או פעולות איבה. הפוליסה מכסה הפסדים, נזקים והוצאות, אך לא במקרים המפורטים כאן. החריגים גוברים על כל סעיף אחר בפוליסה שאינו עולה בקנה אחד איתם. החריגים כוללים מלחמה, מלחמת אזרחים, מהפכה, מרד, התקוממות, מאבק פנימי וכל מעשה עוין של כוח לוחם או נגדו. פוליסת שירביט מציעה כיסוי ליאכטות וסירות. This table details exclusions to a marine hull insurance policy for yachts and boats from Shirbit. It lists circumstances under which coverage is denied, specifically related to war and related hostilities. בין הערכים בטבלה: exclusion: seepage and pollution; exclusion: war; exclusion: civil war; exclusion: revolution; exclusion: rebellion; exclusion: insurrection;…",
+  "payload": "טבלה: פוליסת ביטוח ימי ליאכטות וסירות - חריגים\nThis table details exclusions to a marine hull insurance policy for yachts and boats from Shirbit. It lists circumstances under which coverage is denied, specifically related to war and related hostilities.\nממדים: exclusion clause, description of excluded event\n\n7) EXCLUDING SEEPAGE AND POLLUTION\nTHE  FOLLOWING  CLAUSES  SHALL  BE  PARAMOUNT  AND  SHALL OVERRIDE ANYTHING CONTAINED IN THIS INSURANCE INCONSISTENT THEREWITH.\nWAR EXLUSION In no case shall this insurance cover loss, damage, liability or\nexpense caused by\nwar,  civil  war,  revolution,  rebellion,  insurrection,  or  civil strife  arising    therefrom,  or  any  hostile  act  by  or  against  a belligerent power."
 }

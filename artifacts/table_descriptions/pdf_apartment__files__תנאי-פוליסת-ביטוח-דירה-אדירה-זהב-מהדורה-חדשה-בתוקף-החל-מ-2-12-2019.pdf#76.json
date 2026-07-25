@@ -2,25 +2,25 @@
   "id": "pdf:apartment/files/תנאי-פוליסת-ביטוח-דירה-אדירה-זהב-מהדורה-חדשה-בתוקף-החל-מ-2-12-2019.pdf#76",
   "source": "llm",
   "description": {
-    "title": "הרחבת כיסוי תכולה",
-    "summary": "This table details coverage extensions for apartment contents insurance. It specifies the percentage of the total contents insurance sum covered for various item categories when outside the apartment.",
-    "embed_passage": "פוליסת 'אדירה זהב' מרחיבה את כיסוי התכולה גם מחוץ לדירה, עד 10% מסכום ביטוח התכולה. הכיסוי חל על בגדים, חפצים אישיים וכבודה אישית, תכשיטים, אופניים וציוד ספורט, בתנאי שצוינו במפרט. לדוגמה, עבור בגדים וחפצים אישיים, הכיסוי הוא עד 8% מסכום ביטוח התכולה.",
-    "row_axis": "Category of contents (e.g., clothing, jewelry)",
-    "column_axis": "Coverage percentage of total contents insurance sum",
+    "title": "הרחבת כיסוי לתכולה מחוץ לדירה",
+    "summary": "This table details coverage extensions for personal belongings outside the apartment. It specifies the insured amount limits for different types of items when temporarily located outside the apartment.",
+    "embed_passage": "טבלה זו מתארת הרחבות כיסוי לתכולה הנמצאת מחוץ לדירה, כחלק מפוליסת ביטוח דירה אדירה זהב. ניתן למצוא מידע על סכומי הביטוח המורחבים עבור סוגי פריטים שונים, כגון בגדים, תכשיטים ואופניים. החיפוש נעשה לפי סוג הפריט והאחוז מסכום ביטוח התכולה. הרחבה זו מכסה בגדים, חפצים אישיים וכבודה אישית עד 10% מסכום ביטוח התכולה, תכשיטים, שעונים, פרוות, מצלמות, מסרטות ומשקפות, אופניים וציוד ספורט אשר צוינו במפורש במפרט. יודגש כי אם פריטים ספציפיים לא צוינו במפרט, ההרחבה לא תחול עליהם.",
+    "row_axis": "סוגי פריטים",
+    "column_axis": "תנאי הכיסוי / סכום הביטוח",
     "units": [
-      "%"
+      "% מסכום ביטוח התכולה"
     ],
     "notable_values": [
       "בגדים: 10%",
-      "תכשיטים: 8.1%",
-      "אופניים: 8.2%"
+      "תכשיטים: סעיף 8.2",
+      "אופניים: סעיף 8.2",
+      "חפצים אישיים: 10%"
     ],
     "product_hints": [
-      "אדירה זהב",
-      "ביטוח דירה"
+      "ביטוח דירה אדירה זהב"
     ]
   },
   "sketch": "מסכום ביטוח התכולה. 10% בגדים חפצים אישיים וכבודה אישית - עד .8.1\nתכשיטים, שעונים, פרוות, מצלמות, מסרטות ומשקפות, אופניים וציוד ספורט, אשר צוינו .8.2 במפורש במפרט לצורך הרחבה זו.\nיודגש, כי אם לא צוינו פריטים ספציפיים כאמור במפרט, הרחבה זו לא תחול על .8.2 פריטים המצוינים בסעיף",
-  "embed_text": "פוליסת 'אדירה זהב' מרחיבה את כיסוי התכולה גם מחוץ לדירה, עד 10% מסכום ביטוח התכולה. הכיסוי חל על בגדים, חפצים אישיים וכבודה אישית, תכשיטים, אופניים וציוד ספורט, בתנאי שצוינו במפרט. לדוגמה, עבור בגדים וחפצים אישיים, הכיסוי הוא עד 8% מסכום ביטוח התכולה.",
-  "payload": "טבלה: הרחבת כיסוי תכולה\nThis table details coverage extensions for apartment contents insurance. It specifies the percentage of the total contents insurance sum covered for various item categories when outside the apartment.\nממדים: Category of contents (e.g., clothing, jewelry), Coverage percentage of total contents insurance sum\n\nמסכום ביטוח התכולה. 10% בגדים חפצים אישיים וכבודה אישית - עד .8.1\nתכשיטים, שעונים, פרוות, מצלמות, מסרטות ומשקפות, אופניים וציוד ספורט, אשר צוינו .8.2 במפורש במפרט לצורך הרחבה זו.\nיודגש, כי אם לא צוינו פריטים ספציפיים כאמור במפרט, הרחבה זו לא תחול על .8.2 פריטים המצוינים בסעיף"
+  "embed_text": "טבלה זו מתארת הרחבות כיסוי לתכולה הנמצאת מחוץ לדירה, כחלק מפוליסת ביטוח דירה אדירה זהב. ניתן למצוא מידע על סכומי הביטוח המורחבים עבור סוגי פריטים שונים, כגון בגדים, תכשיטים ואופניים. החיפוש נעשה לפי סוג הפריט והאחוז מסכום ביטוח התכולה. הרחבה זו מכסה בגדים, חפצים אישיים וכבודה אישית עד 10% מסכום ביטוח התכולה, תכשיטים, שעונים, פרוות, מצלמות, מסרטות ומשקפות, אופניים וציוד ספורט אשר צוינו במפורש במפרט. יודגש כי אם פריטים ספציפיים לא צוינו במפרט, ההרחבה לא תחול עליהם. This table details coverage extensions for personal belongings outside the apartment. It specifies the insured amount limits for different types of items when temporarily located outside the apartment.",
+  "payload": "טבלה: הרחבת כיסוי לתכולה מחוץ לדירה\nThis table details coverage extensions for personal belongings outside the apartment. It specifies the insured amount limits for different types of items when temporarily located outside the apartment.\nממדים: סוגי פריטים, תנאי הכיסוי / סכום הביטוח\n\nמסכום ביטוח התכולה. 10% בגדים חפצים אישיים וכבודה אישית - עד .8.1\nתכשיטים, שעונים, פרוות, מצלמות, מסרטות ומשקפות, אופניים וציוד ספורט, אשר צוינו .8.2 במפורש במפרט לצורך הרחבה זו.\nיודגש, כי אם לא צוינו פריטים ספציפיים כאמור במפרט, הרחבה זו לא תחול על .8.2 פריטים המצוינים בסעיף"
 }

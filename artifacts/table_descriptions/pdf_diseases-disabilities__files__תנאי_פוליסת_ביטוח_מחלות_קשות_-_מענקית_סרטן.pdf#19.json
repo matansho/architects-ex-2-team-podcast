@@ -2,22 +2,22 @@
   "id": "pdf:diseases-disabilities/files/תנאי_פוליסת_ביטוח_מחלות_קשות_-_מענקית_סרטן.pdf#19",
   "source": "llm",
   "description": {
-    "title": "פוליסת ביטוח בריאות",
-    "summary": "This table outlines conditions related to health insurance policies, specifically regarding cancellation due to inaccurate information provided by the insured. It details the potential for policy cancellation and refund of premiums.",
-    "embed_passage": "פוליסת ביטוח בריאות מתייחסת למקרים בהם ניתנה תשובה שאינה מלאה וכנה לשאלה מהותית. החברה רשאית לבטל את הפוליסה תוך שלושים ימים מהיום שנודע לה על כך, כל עוד לא קרה מקרה הביטוח. במקרה של ביטול, המבוטח זכאי להחזר דמי הביטוח ששילם בניכוי הוצאות הביטול.",
-    "row_axis": "Conditions for policy cancellation",
-    "column_axis": "Details of cancellation process and rights",
+    "title": "תנאי פוליסת ביטוח",
+    "summary": "This table outlines conditions for health insurance policies, specifically regarding cancellation due to incomplete or dishonest answers provided by the insured. It details the potential for policy cancellation and refund of premiums.",
+    "embed_passage": "טבלה זו מתארת תנאי ביטוח בריאות, ובפרט סעיפים הנוגעים לביטול הפוליסה עקב תשובות לא מלאות או לא כנות שניתנו על ידי המבוטח. הפוליסה רשאית להתבטל בהודעה בכתב למבוטח תוך שלושים יום מיום גילוי התשובה הלא כנה. במקרה של ביטול, זכאי המבוטח להחזר דמי הביטוח ששולמו בניכוי הוצאות הביטול, אלא אם כן פעל בכוונת מרמה. סעיפים אלו מתייחסים למקרים של תשובה שאינה מלאה וכנה, ביטול הפוליסה, והחזר דמי הביטוח. תשובה שאינה מלאה וכנה, ביטול הפוליסה, החזר דמי ביטוח.",
+    "row_axis": "conditions for policy cancellation",
+    "column_axis": "details of cancellation and refund",
     "units": [],
     "notable_values": [
-      "Cancellation period: 30 days",
-      "Refund eligibility: Premiums paid minus cancellation costs",
-      "Condition for cancellation: Incomplete or dishonest answer to a material question"
+      "timeframe for cancellation: 30 days",
+      "refund eligibility: dependent on intent to defraud",
+      "cancellation reason: incomplete/dishonest answer"
     ],
     "product_hints": [
       "פוליסת ביטוח בריאות"
     ]
   },
   "sketch": "3\nפוליסת ביטוח בריאות\n06/2022\nמהדורה\n. תשובה שאינה מלאה וכנה\nניתנה לשאלה בעניין מהותי תשובה שלא היתה 4.1 מלאה וכנה, רשאית החברה, תוך שלושים ימים מהיום שנודע לה על כך וכל עוד לא קרה מקרה הביטוח,  לבטל  את  הפוליסה  בהודעה  בכתב למבוטח.\n, ביטלה  החברה  את  הפוליסה  מכוח  סעיף  זה 4.2 זכאי המבוטח להחזר דמי הביטוח ששילם בעד הוצאות בניכוי הביטול, שלאחר התקופה החברה, זולת אם פעל המבוטח בכוונת מרמה.",
-  "embed_text": "פוליסת ביטוח בריאות מתייחסת למקרים בהם ניתנה תשובה שאינה מלאה וכנה לשאלה מהותית. החברה רשאית לבטל את הפוליסה תוך שלושים ימים מהיום שנודע לה על כך, כל עוד לא קרה מקרה הביטוח. במקרה של ביטול, המבוטח זכאי להחזר דמי הביטוח ששילם בניכוי הוצאות הביטול.",
-  "payload": "טבלה: פוליסת ביטוח בריאות\nThis table outlines conditions related to health insurance policies, specifically regarding cancellation due to inaccurate information provided by the insured. It details the potential for policy cancellation and refund of premiums.\nממדים: Conditions for policy cancellation, Details of cancellation process and rights\n\n3\nפוליסת ביטוח בריאות\n06/2022\nמהדורה\n. תשובה שאינה מלאה וכנה\nניתנה לשאלה בעניין מהותי תשובה שלא היתה 4.1 מלאה וכנה, רשאית החברה, תוך שלושים ימים מהיום שנודע לה על כך וכל עוד לא קרה מקרה הביטוח,  לבטל  את  הפוליסה  בהודעה  בכתב למבוטח.\n, ביטלה  החברה  את  הפוליסה  מכוח  סעיף  זה 4.2 זכאי המבוטח להחזר דמי הביטוח ששילם בעד הוצאות בניכוי הביטול, שלאחר התקופה החברה, זולת אם פעל המבוטח בכוונת מרמה."
+  "embed_text": "טבלה זו מתארת תנאי ביטוח בריאות, ובפרט סעיפים הנוגעים לביטול הפוליסה עקב תשובות לא מלאות או לא כנות שניתנו על ידי המבוטח. הפוליסה רשאית להתבטל בהודעה בכתב למבוטח תוך שלושים יום מיום גילוי התשובה הלא כנה. במקרה של ביטול, זכאי המבוטח להחזר דמי הביטוח ששולמו בניכוי הוצאות הביטול, אלא אם כן פעל בכוונת מרמה. סעיפים אלו מתייחסים למקרים של תשובה שאינה מלאה וכנה, ביטול הפוליסה, והחזר דמי הביטוח. תשובה שאינה מלאה וכנה, ביטול הפוליסה, החזר דמי ביטוח. This table outlines conditions for health insurance policies, specifically regarding cancellation due to incomplete or dishonest answers provided by the insured. It details the potential for policy cancellation and refund of premiums. בין הערכים בטבלה: timeframe for cancellation: 30 days; refund eligibility: dependent on intent to defraud; cancellation…",
+  "payload": "טבלה: תנאי פוליסת ביטוח\nThis table outlines conditions for health insurance policies, specifically regarding cancellation due to incomplete or dishonest answers provided by the insured. It details the potential for policy cancellation and refund of premiums.\nממדים: conditions for policy cancellation, details of cancellation and refund\n\n3\nפוליסת ביטוח בריאות\n06/2022\nמהדורה\n. תשובה שאינה מלאה וכנה\nניתנה לשאלה בעניין מהותי תשובה שלא היתה 4.1 מלאה וכנה, רשאית החברה, תוך שלושים ימים מהיום שנודע לה על כך וכל עוד לא קרה מקרה הביטוח,  לבטל  את  הפוליסה  בהודעה  בכתב למבוטח.\n, ביטלה  החברה  את  הפוליסה  מכוח  סעיף  זה 4.2 זכאי המבוטח להחזר דמי הביטוח ששילם בעד הוצאות בניכוי הביטול, שלאחר התקופה החברה, זולת אם פעל המבוטח בכוונת מרמה."
 }

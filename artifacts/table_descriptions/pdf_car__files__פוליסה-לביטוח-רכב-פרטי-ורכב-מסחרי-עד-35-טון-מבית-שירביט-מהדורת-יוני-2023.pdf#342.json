@@ -2,25 +2,24 @@
   "id": "pdf:car/files/פוליסה-לביטוח-רכב-פרטי-ורכב-מסחרי-עד-35-טון-מבית-שירביט-מהדורת-יוני-2023.pdf#342",
   "source": "llm",
   "description": {
-    "title": "שירותי דרך שירביט",
-    "summary": "This table details roadside assistance services offered by Shirbit, including wheel changes and vehicle unlocking. It outlines the conditions under which these services are provided and the self-participation fee.",
-    "embed_passage": "פוליסת שירביט כוללת שירותי דרך שונים, כגון החלפת גלגל במקרה של תקר. השירות ניתן כל עוד קיים גלגל חלופי תקין ברכב, והתשלום עבור השירות הוא 59 ש״ח כולל מע״מ. שירותים אלו נועדו לסייע ללקוחות במצבי חירום בדרכים.",
-    "row_axis": "type of roadside assistance service (e.g., wheel change, vehicle unlocking)",
-    "column_axis": "service details (e.g., conditions, self-participation fee)",
+    "title": "שירותי דרך – שירביט",
+    "summary": "This table details roadside assistance services offered by Shirbit, specifically covering wheel changes and vehicle unlocking. It outlines the conditions under which these services are provided and the self-participation fee.",
+    "embed_passage": "טבלה זו מתארת שירותי דרך הניתנים על ידי שירביט, כגון החלפת גלגל ופריצת רכב. השירותים ניתנים כאשר מפתחות הרכב נעולים בתוכו או במקרה של תקר. על מנת לחפש מידע, יש להתייחס לשירות הספציפי ולתנאים הנדרשים לקבלתו. שירות החלפת גלגל, שירות פריצת רכב, ₪59 דמי השתתפות עצמית, גלגל חלופי תקין, ברגים ואומים תקינים, גרירה לפנצ'ריה.",
+    "row_axis": "שירות (סוג)",
+    "column_axis": "פירוט השירות",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "self-participation fee: 59 ₪",
-      "service: wheel change",
-      "service: vehicle unlocking"
+      "דמי השתתפות עצמית: 59 ₪",
+      "שירות החלפת גלגל: החלפה במקום",
+      "שירות פריצת רכב: ניסיון פריצה במקום"
     ],
     "product_hints": [
-      "שירביט",
-      "פוליסת רכב שירביט"
+      "שירביט"
     ]
   },
   "sketch": "שירות החלפת גלגל .3.2\nלצורך החלפת גלגל יגיע נציג מטעם נותן השירות למקום הרכב ויבצע במקום את ההחלפה.\nפירוט השירותים .3.2.1\nהשירותים המפורטים להלן יינתנו למקבל השירות באמצעות נותן השירות וכמפורט להלן:\nהגעת נציג מטעם נותן השירות למקום בו מצוי הרכב הזכאי לשירות, אשר יבצע את החלפת הגלגל עם התקר בגלגל החלופי שברכב, וזאת אך ורק אם:\nקיים גלגל חלופי תקין ברכב. .3.2.1.1\nחלקי הגלגלים המוחלפים וחלקיהם )ברגים, אומים( תקינים. .3.2.1.2\n, בכל מקרה של תקר בגלגל, אם הרכב מגיע מהיצרן ללא גלגל חלופי .3.2.1.3 יינתן שירות גרירה עד לפנצ'ריה הקרובה ביותר למקום בו מצוי הרכב הזכאי לשירות.",
-  "embed_text": "פוליסת שירביט כוללת שירותי דרך שונים, כגון החלפת גלגל במקרה של תקר. השירות ניתן כל עוד קיים גלגל חלופי תקין ברכב, והתשלום עבור השירות הוא 59 ש״ח כולל מע״מ. שירותים אלו נועדו לסייע ללקוחות במצבי חירום בדרכים.",
-  "payload": "טבלה: שירותי דרך שירביט\nThis table details roadside assistance services offered by Shirbit, including wheel changes and vehicle unlocking. It outlines the conditions under which these services are provided and the self-participation fee.\nממדים: type of roadside assistance service (e.g., wheel change, vehicle unlocking), service details (e.g., conditions, self-participation fee)\n\nשירות החלפת גלגל .3.2\nלצורך החלפת גלגל יגיע נציג מטעם נותן השירות למקום הרכב ויבצע במקום את ההחלפה.\nפירוט השירותים .3.2.1\nהשירותים המפורטים להלן יינתנו למקבל השירות באמצעות נותן השירות וכמפורט להלן:\nהגעת נציג מטעם נותן השירות למקום בו מצוי הרכב הזכאי לשירות, אשר יבצע את החלפת הגלגל עם התקר בגלגל החלופי שברכב, וזאת אך ורק אם:\nקיים גלגל חלופי תקין ברכב. .3.2.1.1\nחלקי הגלגלים המוחלפים וחלקיהם )ברגים, אומים( תקינים. .3.2.1.2\n, בכל מקרה של תקר בגלגל, אם הרכב מגיע מהיצרן ללא גלגל חלופי .3.2.1.3 יינתן שירות גרירה עד לפנצ'ריה הקרובה ביותר למקום בו מצוי הרכב הזכאי לשירות."
+  "embed_text": "טבלה זו מתארת שירותי דרך הניתנים על ידי שירביט, כגון החלפת גלגל ופריצת רכב. השירותים ניתנים כאשר מפתחות הרכב נעולים בתוכו או במקרה של תקר. על מנת לחפש מידע, יש להתייחס לשירות הספציפי ולתנאים הנדרשים לקבלתו. שירות החלפת גלגל, שירות פריצת רכב, ₪59 דמי השתתפות עצמית, גלגל חלופי תקין, ברגים ואומים תקינים, גרירה לפנצ'ריה. This table details roadside assistance services offered by Shirbit, specifically covering wheel changes and vehicle unlocking. It outlines the conditions under which these services are provided and the self-participation fee.",
+  "payload": "טבלה: שירותי דרך – שירביט\nThis table details roadside assistance services offered by Shirbit, specifically covering wheel changes and vehicle unlocking. It outlines the conditions under which these services are provided and the self-participation fee.\nממדים: שירות (סוג), פירוט השירות\n\nשירות החלפת גלגל .3.2\nלצורך החלפת גלגל יגיע נציג מטעם נותן השירות למקום הרכב ויבצע במקום את ההחלפה.\nפירוט השירותים .3.2.1\nהשירותים המפורטים להלן יינתנו למקבל השירות באמצעות נותן השירות וכמפורט להלן:\nהגעת נציג מטעם נותן השירות למקום בו מצוי הרכב הזכאי לשירות, אשר יבצע את החלפת הגלגל עם התקר בגלגל החלופי שברכב, וזאת אך ורק אם:\nקיים גלגל חלופי תקין ברכב. .3.2.1.1\nחלקי הגלגלים המוחלפים וחלקיהם )ברגים, אומים( תקינים. .3.2.1.2\n, בכל מקרה של תקר בגלגל, אם הרכב מגיע מהיצרן ללא גלגל חלופי .3.2.1.3 יינתן שירות גרירה עד לפנצ'ריה הקרובה ביותר למקום בו מצוי הרכב הזכאי לשירות."
 }

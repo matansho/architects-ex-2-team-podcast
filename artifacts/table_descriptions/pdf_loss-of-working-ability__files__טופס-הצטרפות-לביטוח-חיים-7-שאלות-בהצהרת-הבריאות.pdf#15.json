@@ -2,27 +2,26 @@
   "id": "pdf:loss-of-working-ability/files/טופס-הצטרפות-לביטוח-חיים-7-שאלות-בהצהרת-הבריאות.pdf#15",
   "source": "llm",
   "description": {
-    "title": "תוכנית מגן - נספחים",
-    "summary": "This table details supplemental coverage options for the 'מגן' insurance plan, specifically relating to accidental death, disability, and exclusions. It shows the minimum and maximum coverage amounts (in ₪) and age restrictions for certain riders.",
-    "embed_passage": "תוכנית 'מגן' מציעה נספחים לביטוח, כגון כיסוי לנכות מתאונה ומוות מתאונה. סכום הביטוח יכול לנוע בין ₪ 1,500,000 ל-₪ 50,000. לרכישת ביטול חריג לכלי רכב דו גלגלי, יש מגיל 21.",
-    "row_axis": "Type of supplemental coverage (e.g., accidental death, accidental disability)",
-    "column_axis": "Coverage amount (₪), age restrictions, exclusions",
+    "title": "נספחים לתוכנית מגן",
+    "summary": "This table details supplemental coverage options for the 'מגן' plan, specifically regarding accident disability, accidental death, and exclusions. It shows minimum and maximum insurance amounts and age restrictions for certain waivers.",
+    "embed_passage": "טבלה זו מציגה נספחים אפשריים לתוכנית הביטוח 'מגן', כולל כיסוי לנכות מתאונה ומוות מתאונה, עם טווחי סכום ביטוח שונים. ניתן לרכוש ביטול חריג לספורט אתגרי חובבני או לכלי רכב דו-גלגליים מגיל 21. סכומי הביטוח נעים בין ₪ 1,500,000 ל-₪ 50,000 כמינימום. נספחים אלו מאפשרים התאמה אישית של הפוליסה בהתאם לצרכי המבוטח. 'מגן' היא תוכנית ביטוח המציעה אפשרויות הרחבה שונות.",
+    "row_axis": "type of supplemental coverage (e.g., accident disability, accidental death)",
+    "column_axis": "coverage details (e.g., insurance amount, age restrictions, waivers)",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "minimum coverage: ₪ 1,500,000",
-      "maximum coverage: ₪ 50,000",
-      "age for motorized vehicle exclusion removal: 21",
-      "coverage type: נכות מתאונה",
-      "coverage type: מוות מתאונה"
+      "insurance amount: ₪ 1,500,000 - ₪ 50,000",
+      "age for waiver (extreme sports): 21",
+      "age for waiver (two-wheeled vehicles): 21",
+      "accident disability: 70 ₪",
+      "accidental death: 75 ₪"
     ],
     "product_hints": [
-      "מגן",
-      "תוכנית מגן"
+      "מגן"
     ]
   },
-  "sketch": "70\n₪\n3 נכות מתאונה\n₪\n…\n/ ביטול חריג דו גלגלי / אופניים חשמליים / קורקינט חשמלי / סגווי / כלי תחבורה דו גלגלי ממונע אחר ו/או בעל מנוע חשמלי (21 טרקטורון )לרכישה מגיל\n3 מוות מתאונה\n₪\n(₪  1,500,000 ועד ₪  50,000 )מינימום",
-  "embed_text": "תוכנית 'מגן' מציעה נספחים לביטוח, כגון כיסוי לנכות מתאונה ומוות מתאונה. סכום הביטוח יכול לנוע בין ₪ 1,500,000 ל-₪ 50,000. לרכישת ביטול חריג לכלי רכב דו גלגלי, יש מגיל 21.",
-  "payload": "טבלה: תוכנית מגן - נספחים\nThis table details supplemental coverage options for the 'מגן' insurance plan, specifically relating to accidental death, disability, and exclusions. It shows the minimum and maximum coverage amounts (in ₪) and age restrictions for certain riders.\nממדים: Type of supplemental coverage (e.g., accidental death, accidental disability), Coverage amount (₪), age restrictions, exclusions\n\n70\n₪\n3 נכות מתאונה\n₪\n(₪  1,500,000 ועד ₪  50,000 )מינימום\n75\n₪\n(₪  1,500,000 ועד ₪  50,000 )מינימום\n(21 ביטול חריג ספורט אתגרי חובבני )לרכישה מגיל\n/ ביטול חריג דו גלגלי / אופניים חשמליים / קורקינט חשמלי / סגווי / כלי תחבורה דו גלגלי ממונע אחר ו/או בעל מנוע חשמלי (21 טרקטורון )לרכישה מגיל\n3 מוות מתאונה\n₪\n(₪  1,500,000 ועד ₪  50,000 )מינימום"
+  "sketch": "70\n₪\n3 נכות מתאונה\n₪\n(₪  1,500,000 ועד ₪  50,000 )מינימום\n75\n…\n(₪  1,500,000 ועד ₪  50,000 )מינימום\n(21 ביטול חריג ספורט אתגרי חובבני )לרכישה מגיל\n/ ביטול חריג דו גלגלי / אופניים חשמליים / קורקינט חשמלי / סגווי / כלי תחבורה דו גלגלי ממונע אחר ו/או בעל מנוע חשמלי (21 טרקטורון )לרכישה מגיל\n3 מוות מתאונה\n₪\n(₪  1,500,000 ועד ₪  50,000 )מינימום",
+  "embed_text": "טבלה זו מציגה נספחים אפשריים לתוכנית הביטוח 'מגן', כולל כיסוי לנכות מתאונה ומוות מתאונה, עם טווחי סכום ביטוח שונים. ניתן לרכוש ביטול חריג לספורט אתגרי חובבני או לכלי רכב דו-גלגליים מגיל 21. סכומי הביטוח נעים בין ₪ 1,500,000 ל-₪ 50,000 כמינימום. נספחים אלו מאפשרים התאמה אישית של הפוליסה בהתאם לצרכי המבוטח. 'מגן' היא תוכנית ביטוח המציעה אפשרויות הרחבה שונות. This table details supplemental coverage options for the 'מגן' plan, specifically regarding accident disability, accidental death, and exclusions. It shows minimum and maximum insurance amounts and age restrictions for certain waivers. בין הערכים בטבלה: insurance amount: ₪ 1,500,000 - ₪ 50,000; accident disability: 70 ₪; accidental death: 75 ₪.",
+  "payload": "טבלה: נספחים לתוכנית מגן\nThis table details supplemental coverage options for the 'מגן' plan, specifically regarding accident disability, accidental death, and exclusions. It shows minimum and maximum insurance amounts and age restrictions for certain waivers.\nממדים: type of supplemental coverage (e.g., accident disability, accidental death), coverage details (e.g., insurance amount, age restrictions, waivers)\n\n70\n₪\n3 נכות מתאונה\n₪\n(₪  1,500,000 ועד ₪  50,000 )מינימום\n75\n₪\n(₪  1,500,000 ועד ₪  50,000 )מינימום\n(21 ביטול חריג ספורט אתגרי חובבני )לרכישה מגיל\n/ ביטול חריג דו גלגלי / אופניים חשמליים / קורקינט חשמלי / סגווי / כלי תחבורה דו גלגלי ממונע אחר ו/או בעל מנוע חשמלי (21 טרקטורון )לרכישה מגיל\n3 מוות מתאונה\n₪\n(₪  1,500,000 ועד ₪  50,000 )מינימום"
 }

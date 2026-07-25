@@ -3,22 +3,23 @@
   "source": "llm",
   "description": {
     "title": "ביטול פוליסה",
-    "summary": "This table details the conditions and calculations for policy cancellation and refunds. It specifies the notice periods required for cancellation and how the refund amount is determined based on the remaining policy period.",
-    "embed_passage": "פוליסה לביטוח רכב מטיילים בסיני ובירדן מאפשרת ביטול על ידי המבוטח או המבטח. במקרה של ביטול על ידי המבטח, יוחזר למבוטח חלק יחסי מדמי הביטוח ששולמו, בהתאם למספר הימים שנותרו בתקופת הביטוח המקורית. לדוגמה, הודעה על ביטול תישלח למבוטח 45 ימים מראש.",
-    "row_axis": "Cancellation scenarios / conditions",
-    "column_axis": "Cancellation details (notice period, refund calculation)",
+    "summary": "This table details the conditions and calculations for policy cancellation and refunds. It specifies the timeframe for cancellation notices and the proportional refund of premiums based on the remaining policy period.",
+    "embed_passage": "טבלה זו מתארת את תנאי ביטול הפוליסה והחזר דמי הביטוח, כולל תקופת ההודעה הנדרשת וחישוב ההחזר היחסי בהתאם לתקופה שנותרה. ניתן לבטל את הפוליסה לפני תום התקופה, אך יש לשלוח הודעה בדואר רשום 45 ימים מראש. החזר דמי הביטוח יחושב ביחס למספר הימים שנותרו עד לתום תקופת הביטוח המקורית. פוליסה לביטוח רכב מטיילים בסיני ובירדן, ביטול, החזר, ימים, דואר רשום.",
+    "row_axis": "Cancellation Scenarios",
+    "column_axis": "Cancellation Conditions & Refund Details",
     "units": [],
     "notable_values": [
-      "notice period: 45 days",
-      "refund timeframe: 14 days",
-      "refund calculation: proportional to remaining policy period"
+      "Notice Period: 45 ימים",
+      "Refund Deadline: 14 ימים",
+      "Cancellation due to ownership transfer: Refundable",
+      "Cancellation due to license return: Refundable",
+      "Cancellation due to driver death: Refundable"
     ],
     "product_hints": [
-      "ביטוח רכב מטיילים בסיני ובירדן",
-      "פוליסה לביטוח רכב"
+      "פוליסה לביטוח רכב מטיילים בסיני ובירדן"
     ]
   },
   "sketch": "7.3 . בלי לגרוע מזכויות המבטח על פי דין, רשאי המבטח לבטל את הביטוח לפני תום תקופת הביטוח, ובלבד שהודעה על כך, שבה ייכללו הנימוקים לביטול, תישלח למבוטח ימים לפחות לפני התאריך שבו יתבטל הביטוח. 45 בדואר רשום\n7.4 . ימים 14ביטל המבטח את הפוליסה, יחזיר המבטח למבוטח בהקדם, ולא יאוחר מ מהמועד שבו נכנס הביטול לתוקף, את החלק היחסי מדמי הביטוח ששולמו.",
-  "embed_text": "פוליסה לביטוח רכב מטיילים בסיני ובירדן מאפשרת ביטול על ידי המבוטח או המבטח. במקרה של ביטול על ידי המבטח, יוחזר למבוטח חלק יחסי מדמי הביטוח ששולמו, בהתאם למספר הימים שנותרו בתקופת הביטוח המקורית. לדוגמה, הודעה על ביטול תישלח למבוטח 45 ימים מראש.",
-  "payload": "טבלה: ביטול פוליסה\nThis table details the conditions and calculations for policy cancellation and refunds. It specifies the notice periods required for cancellation and how the refund amount is determined based on the remaining policy period.\nממדים: Cancellation scenarios / conditions, Cancellation details (notice period, refund calculation)\n\n7.3 . בלי לגרוע מזכויות המבטח על פי דין, רשאי המבטח לבטל את הביטוח לפני תום תקופת הביטוח, ובלבד שהודעה על כך, שבה ייכללו הנימוקים לביטול, תישלח למבוטח ימים לפחות לפני התאריך שבו יתבטל הביטוח. 45 בדואר רשום\n7.4 . ימים 14ביטל המבטח את הפוליסה, יחזיר המבטח למבוטח בהקדם, ולא יאוחר מ מהמועד שבו נכנס הביטול לתוקף, את החלק היחסי מדמי הביטוח ששולמו."
+  "embed_text": "טבלה זו מתארת את תנאי ביטול הפוליסה והחזר דמי הביטוח, כולל תקופת ההודעה הנדרשת וחישוב ההחזר היחסי בהתאם לתקופה שנותרה. ניתן לבטל את הפוליסה לפני תום התקופה, אך יש לשלוח הודעה בדואר רשום 45 ימים מראש. החזר דמי הביטוח יחושב ביחס למספר הימים שנותרו עד לתום תקופת הביטוח המקורית. פוליסה לביטוח רכב מטיילים בסיני ובירדן, ביטול, החזר, ימים, דואר רשום. This table details the conditions and calculations for policy cancellation and refunds. It specifies the timeframe for cancellation notices and the proportional refund of premiums based on the remaining policy period. בין הערכים בטבלה: Refund Deadline: 14 ימים; Cancellation due to ownership transfer: Refundable; Cancellation due to license return: Refundable; Cancellation due to driver death: Refundable.",
+  "payload": "טבלה: ביטול פוליסה\nThis table details the conditions and calculations for policy cancellation and refunds. It specifies the timeframe for cancellation notices and the proportional refund of premiums based on the remaining policy period.\nממדים: Cancellation Scenarios, Cancellation Conditions & Refund Details\n\n7.3 . בלי לגרוע מזכויות המבטח על פי דין, רשאי המבטח לבטל את הביטוח לפני תום תקופת הביטוח, ובלבד שהודעה על כך, שבה ייכללו הנימוקים לביטול, תישלח למבוטח ימים לפחות לפני התאריך שבו יתבטל הביטוח. 45 בדואר רשום\n7.4 . ימים 14ביטל המבטח את הפוליסה, יחזיר המבטח למבוטח בהקדם, ולא יאוחר מ מהמועד שבו נכנס הביטול לתוקף, את החלק היחסי מדמי הביטוח ששולמו."
 }

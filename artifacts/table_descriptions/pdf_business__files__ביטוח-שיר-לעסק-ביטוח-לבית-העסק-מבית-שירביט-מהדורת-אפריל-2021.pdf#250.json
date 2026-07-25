@@ -2,23 +2,22 @@
   "id": "pdf:business/files/ביטוח-שיר-לעסק-ביטוח-לבית-העסק-מבית-שירביט-מהדורת-אפריל-2021.pdf#250",
   "source": "llm",
   "description": {
-    "title": "בסיס ביטוח",
-    "summary": "This table defines the insurance basis and how premiums and payouts are calculated for business property insurance. It details how the cost of replacement is determined and used for premium calculations.",
-    "embed_passage": "ביטוח שיר לעסק מבית שירביט מספק כיסוי לעסקים. בסיס הביטוח לפרק זה ישקף את עלות ההחלפה של הרכוש המבוטח ברכוש חדש, כולל דמי הובלה והוצאות הקמה. דמי הביטוח יחושבו על פי הסכום שנקבע כבסיס הביטוח, בתוספת דמי ביטוח נוספים.",
-    "row_axis": "Calculation type (Insurance Basis Definition, Premium Calculation, Payout Calculation)",
-    "column_axis": "Description of calculation/definition",
+    "title": "ביטוח לעסק",
+    "summary": "This table outlines the basis for insurance calculation and premium computation for businesses. It details how the insured amount is determined and how insurance premiums are calculated based on that amount.",
+    "embed_passage": "טבלה זו מתארת את בסיס הביטוח לעסקים, ומפרטת כיצד מחושב סכום הביטוח וכיצד מחושבים דמי הביטוח בהתאם. בסיס הביטוח לפרק זה ישקף את עלות ההחלפה של הרכוש המבוטח ברכוש חדש מאותו סוג ובאותו כושר תפוקה. דמי הביטוח יחושבו על פי הסכום שנקבע כבסיס הביטוח, בתוספת דמי ביטוח נוספים תמורת הרחבות לכיסוי. ביטוח לעסק, בסיס הביטוח, דמי ביטוח, חישוב תגמולי ביטוח, עלות החלפה, כושר תפוקה.",
+    "row_axis": "Calculation method/definition",
+    "column_axis": "N/A - table consists of definitions and calculations",
     "units": [],
     "notable_values": [
-      "5.1: Insurance Basis Definition",
-      "5.2: Premium Calculation",
-      "5.3: Payout Calculation"
+      "בסיס הביטוח: עלות ההחלפה",
+      "דמי ביטוח: מחושבים על בסיס הביטוח"
     ],
     "product_hints": [
-      "ביטוח שיר לעסק",
+      "ביטוח לעסק",
       "שירביט"
     ]
   },
   "sketch": "הגדרת בסיס הביטוח 5.1\nבסיס הביטוח לפרק זה ישקף את עלות ההחלפה של הרכוש המבוטח ברכוש חדש מאוו סוג ובאותו כושר תפוקה, כולל דמי הובלה, הוצאות אין סכום זה מהווה בסיס .( הקמה, היטלי מכס ומס ערך מוסף )אם יחולו . לחישוב תגמולי ביטוח\nחישוב דמי הביטוח 5.2\n, דמי הביטוח יחושבו על פי הסכום שנקבע \"כבסיס הביטוח\", כמוגדר לעיל . בתוספת דמי ביטוח נוספים תמורת הרחבות לכיסוי, שעליהן יוסכם\nחישוב תגמולי ביטוח 5.3",
-  "embed_text": "ביטוח שיר לעסק מבית שירביט מספק כיסוי לעסקים. בסיס הביטוח לפרק זה ישקף את עלות ההחלפה של הרכוש המבוטח ברכוש חדש, כולל דמי הובלה והוצאות הקמה. דמי הביטוח יחושבו על פי הסכום שנקבע כבסיס הביטוח, בתוספת דמי ביטוח נוספים.",
-  "payload": "טבלה: בסיס ביטוח\nThis table defines the insurance basis and how premiums and payouts are calculated for business property insurance. It details how the cost of replacement is determined and used for premium calculations.\nממדים: Calculation type (Insurance Basis Definition, Premium Calculation, Payout Calculation), Description of calculation/definition\n\nהגדרת בסיס הביטוח 5.1\nבסיס הביטוח לפרק זה ישקף את עלות ההחלפה של הרכוש המבוטח ברכוש חדש מאוו סוג ובאותו כושר תפוקה, כולל דמי הובלה, הוצאות אין סכום זה מהווה בסיס .( הקמה, היטלי מכס ומס ערך מוסף )אם יחולו . לחישוב תגמולי ביטוח\nחישוב דמי הביטוח 5.2\n, דמי הביטוח יחושבו על פי הסכום שנקבע \"כבסיס הביטוח\", כמוגדר לעיל . בתוספת דמי ביטוח נוספים תמורת הרחבות לכיסוי, שעליהן יוסכם\nחישוב תגמולי ביטוח 5.3"
+  "embed_text": "טבלה זו מתארת את בסיס הביטוח לעסקים, ומפרטת כיצד מחושב סכום הביטוח וכיצד מחושבים דמי הביטוח בהתאם. בסיס הביטוח לפרק זה ישקף את עלות ההחלפה של הרכוש המבוטח ברכוש חדש מאותו סוג ובאותו כושר תפוקה. דמי הביטוח יחושבו על פי הסכום שנקבע כבסיס הביטוח, בתוספת דמי ביטוח נוספים תמורת הרחבות לכיסוי. ביטוח לעסק, בסיס הביטוח, דמי ביטוח, חישוב תגמולי ביטוח, עלות החלפה, כושר תפוקה. This table outlines the basis for insurance calculation and premium computation for businesses. It details how the insured amount is determined and how insurance premiums are calculated based on that amount.",
+  "payload": "טבלה: ביטוח לעסק\nThis table outlines the basis for insurance calculation and premium computation for businesses. It details how the insured amount is determined and how insurance premiums are calculated based on that amount.\nממדים: Calculation method/definition, N/A - table consists of definitions and calculations\n\nהגדרת בסיס הביטוח 5.1\nבסיס הביטוח לפרק זה ישקף את עלות ההחלפה של הרכוש המבוטח ברכוש חדש מאוו סוג ובאותו כושר תפוקה, כולל דמי הובלה, הוצאות אין סכום זה מהווה בסיס .( הקמה, היטלי מכס ומס ערך מוסף )אם יחולו . לחישוב תגמולי ביטוח\nחישוב דמי הביטוח 5.2\n, דמי הביטוח יחושבו על פי הסכום שנקבע \"כבסיס הביטוח\", כמוגדר לעיל . בתוספת דמי ביטוח נוספים תמורת הרחבות לכיסוי, שעליהן יוסכם\nחישוב תגמולי ביטוח 5.3"
 }

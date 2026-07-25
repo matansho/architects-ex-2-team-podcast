@@ -3,21 +3,19 @@
   "source": "llm",
   "description": {
     "title": "השתתפות עצמית",
-    "summary": "This table details the self-participation (deductible) amount the insured must pay before the insurance coverage applies. It outlines how this self-participation impacts claims and expenses.",
-    "embed_passage": "פוליסת אחריות מקצועית רפואה משלימה ופרא-רפואי מגדירה את ההשתתפות העצמית של המבוטח בכל מקרה של תביעה. סכום ההשתתפות העצמית משפיע על גבולות האחריות של הפוליסה, ומהווה רובד ראשון בתשלום עבור נזקים. לדוגמה, ההשתתפות העצמית חלה גם על הוצאות שהוציא המבטח במהלך טיפול בתביעה, גם אם לא שולמו פיצויים.",
-    "row_axis": "scenarios related to claims and expenses",
-    "column_axis": "details of self-participation",
+    "summary": "This table details the self-participation (deductible) amount the insured must pay in case of a claim. It clarifies that this participation applies to both claim payments and defense costs.",
+    "embed_passage": "טבלה זו מתארת את ההשתתפות העצמית של המבוטח במקרה של תביעה או הוצאות, כפי שהוגדרה בסעיף ההגדרות של פוליסת אחריות מקצועית רפואה משלימה ופרא רפואי. המבטח לא יהיה אחראי לפצות או לשפות אלא רק בסכום העולה על השתתפות זו. ההשתתפות העצמית מהווה רובד ראשון בפוליסה וכלולה במסגרת גבולות האחריות.  הטבלה עוסקת בהשתתפות עצמית, תביעות, הוצאות, פיצויים, וגבולות אחריות.  השתתפות עצמית חלה גם על הוצאות טיפול בתביעה, גם אם לא שולמו פיצויים.  המבטח ישפה את המבוטח בסכום הפיצוי לאחר ניכוי סכומים שכבר שולמו כתגמולי ביטוח.",
+    "row_axis": "conditions related to self-participation",
+    "column_axis": "details of self-participation application",
     "units": [],
     "notable_values": [
-      "סעיף ההגדרות: definition of self-participation",
-      "רובד ראשון בפוליסה: self-participation as the first layer of coverage",
-      "הוצאות שהוציא המבטח: self-participation applies to insurer's expenses"
+      "השתתפות עצמית: סכום כהגדרתה בסעיף ההגדרות"
     ],
     "product_hints": [
-      "אחריות מקצועית רפואה משלימה ופרא-רפואי"
+      "פוליסת אחריות מקצועית רפואה משלימה ופרא רפואי"
     ]
   },
   "sketch": "השתתפות עצמית .4.13\nבכל מקרה של תביעה ו/או הוצאות שיעמדו לתשלום, ישא המבוטח בהשתתפות עצמית כהגדרתה בסעיף ההגדרות, והמבטח לא יהיה אחראי לפצות / לשפות )לפי העניין( אלא רק בסכום העולה על השתתפות זו.\nלמען הסר ספק, סכום ההשתתפות העצמית יחול גם על הוצאות שהוציא המבטח תוך כדי טיפול בתביעה ו/או דרישה לפיצוי ו/או הודעה על כל אירוע העלול לגרום לתביעה, וזאת אף אם לא שולמו פיצויים בגינם.\n, השתתפותו העצמית של המבוטח בגין מקרה ביטוח מהווה רובד ראשון בפוליסה וכלולה במסגרת גבולות האחריות בפוליסה ובמסגרת ההוצאות שתוציא החברה בגין הטיפול בתביעה, ואינה בנוסף עליהם.",
-  "embed_text": "פוליסת אחריות מקצועית רפואה משלימה ופרא-רפואי מגדירה את ההשתתפות העצמית של המבוטח בכל מקרה של תביעה. סכום ההשתתפות העצמית משפיע על גבולות האחריות של הפוליסה, ומהווה רובד ראשון בתשלום עבור נזקים. לדוגמה, ההשתתפות העצמית חלה גם על הוצאות שהוציא המבטח במהלך טיפול בתביעה, גם אם לא שולמו פיצויים.",
-  "payload": "טבלה: השתתפות עצמית\nThis table details the self-participation (deductible) amount the insured must pay before the insurance coverage applies. It outlines how this self-participation impacts claims and expenses.\nממדים: scenarios related to claims and expenses, details of self-participation\n\nהשתתפות עצמית .4.13\nבכל מקרה של תביעה ו/או הוצאות שיעמדו לתשלום, ישא המבוטח בהשתתפות עצמית כהגדרתה בסעיף ההגדרות, והמבטח לא יהיה אחראי לפצות / לשפות )לפי העניין( אלא רק בסכום העולה על השתתפות זו.\nלמען הסר ספק, סכום ההשתתפות העצמית יחול גם על הוצאות שהוציא המבטח תוך כדי טיפול בתביעה ו/או דרישה לפיצוי ו/או הודעה על כל אירוע העלול לגרום לתביעה, וזאת אף אם לא שולמו פיצויים בגינם.\n, השתתפותו העצמית של המבוטח בגין מקרה ביטוח מהווה רובד ראשון בפוליסה וכלולה במסגרת גבולות האחריות בפוליסה ובמסגרת ההוצאות שתוציא החברה בגין הטיפול בתביעה, ואינה בנוסף עליהם."
+  "embed_text": "טבלה זו מתארת את ההשתתפות העצמית של המבוטח במקרה של תביעה או הוצאות, כפי שהוגדרה בסעיף ההגדרות של פוליסת אחריות מקצועית רפואה משלימה ופרא רפואי. המבטח לא יהיה אחראי לפצות או לשפות אלא רק בסכום העולה על השתתפות זו. ההשתתפות העצמית מהווה רובד ראשון בפוליסה וכלולה במסגרת גבולות האחריות.  הטבלה עוסקת בהשתתפות עצמית, תביעות, הוצאות, פיצויים, וגבולות אחריות.  השתתפות עצמית חלה גם על הוצאות טיפול בתביעה, גם אם לא שולמו פיצויים.  המבטח ישפה את המבוטח בסכום הפיצוי לאחר ניכוי סכומים שכבר שולמו כתגמולי ביטוח. This table details the self-participation (deductible) amount the insured must pay in case of a claim. It clarifies that this participation applies to both claim payments and defense costs.",
+  "payload": "טבלה: השתתפות עצמית\nThis table details the self-participation (deductible) amount the insured must pay in case of a claim. It clarifies that this participation applies to both claim payments and defense costs.\nממדים: conditions related to self-participation, details of self-participation application\n\nהשתתפות עצמית .4.13\nבכל מקרה של תביעה ו/או הוצאות שיעמדו לתשלום, ישא המבוטח בהשתתפות עצמית כהגדרתה בסעיף ההגדרות, והמבטח לא יהיה אחראי לפצות / לשפות )לפי העניין( אלא רק בסכום העולה על השתתפות זו.\nלמען הסר ספק, סכום ההשתתפות העצמית יחול גם על הוצאות שהוציא המבטח תוך כדי טיפול בתביעה ו/או דרישה לפיצוי ו/או הודעה על כל אירוע העלול לגרום לתביעה, וזאת אף אם לא שולמו פיצויים בגינם.\n, השתתפותו העצמית של המבוטח בגין מקרה ביטוח מהווה רובד ראשון בפוליסה וכלולה במסגרת גבולות האחריות בפוליסה ובמסגרת ההוצאות שתוציא החברה בגין הטיפול בתביעה, ואינה בנוסף עליהם."
 }

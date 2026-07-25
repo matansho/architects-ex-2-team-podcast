@@ -3,23 +3,24 @@
   "source": "llm",
   "description": {
     "title": "עדכון פוליסת ביטוח חיים",
-    "summary": "This table details updates to life insurance policies due to mortgage refinancing. It allows looking up policy details based on new loan balance and loan term.",
-    "embed_passage": "פוליסת ביטוח חיים של הראל מותאמת לשינויים בהלוואות משכנתא. ניתן לראות את הריבית השנתית, תקופת ההלוואה בשנים ויתרת ההלוואה החדשה. לדוגמה, מסלול הלוואה יכול להיות 'שפיצר' עם יתרת הלוואה חדשה של 3.",
-    "row_axis": "Loan details / mortgage update",
-    "column_axis": "Loan characteristics (loan path, balance, interest rate, term)",
+    "summary": "This table details loan details for life insurance policy updates due to mortgage refinancing. It allows looking up information based on loan track, new loan balance, annual interest, and loan term.",
+    "embed_passage": "טבלה זו מציגה פרטי הלוואה לצורך עדכון פוליסת ביטוח חיים בעקבות מחזור משכנתה. ניתן לחפש מידע לפי מסלול הלוואה, יתרת הלוואה חדשה, ריבית שנתית ותקופת ההלוואה בשנים. הראל מציעה אפשרויות שונות לניהול ביטוח חיים לצד משכנתא. הטבלה כוללת מסלול הלוואה, יתרת הלוואה חדשה, ריבית שנתית, תקופת הלוואה בשנים וסוג ההלוואה. לדוגמה, ניתן לראות מסלול הלוואה, יתרת הלוואה חדשה, ריבית שנתית וסוג ההלוואה.",
+    "row_axis": "Loan details",
+    "column_axis": "Loan track, new loan balance, annual interest, loan term, loan type",
     "units": [],
     "notable_values": [
-      "מסלול הלוואה: שפיצר",
-      "יתרת הלוואה חדשה: 3",
-      "תקופת הלוואה בשנים: not specified",
-      "ריבית שנתית*: not specified"
+      "מסלול הלוואה: …",
+      "יתרת הלוואה חדשה: …",
+      "ריבית שנתית*: …",
+      "תקופת הלוואה בשנים: …",
+      "סוג ההלוואה: …"
     ],
     "product_hints": [
-      "ביטוח חיים הראל",
-      "פוליסת ביטוח חיים"
+      "ביטוח חיים",
+      "הראל"
     ]
   },
-  "sketch": "מסלול הלוואה\nיתרת הלוואה חדשה\nריבית שנתית*\nתקופת הלוואה בשנים\n…\nראה מידע למבוטח בסעיף ח\nלדעת חשוב,שנפרעו ההלוואות פרטי את למלא יש חלקי בסילוק ג.הפירעון סכום,שנפרעו ההלוואות פרטי את למלא יש חלקי בסילוק ג.המקורי ההלוואה סכום\n\"יוקטן בתוקף, שתיוותר המקורית בפוליסה הביטוח סכום\",,\nשצויין הפרעון בסכום,,",
-  "embed_text": "פוליסת ביטוח חיים של הראל מותאמת לשינויים בהלוואות משכנתא. ניתן לראות את הריבית השנתית, תקופת ההלוואה בשנים ויתרת ההלוואה החדשה. לדוגמה, מסלול הלוואה יכול להיות 'שפיצר' עם יתרת הלוואה חדשה של 3.",
-  "payload": "טבלה: עדכון פוליסת ביטוח חיים\nThis table details updates to life insurance policies due to mortgage refinancing. It allows looking up policy details based on new loan balance and loan term.\nממדים: Loan details / mortgage update, Loan characteristics (loan path, balance, interest rate, term)\n\nמסלול הלוואה\nיתרת הלוואה חדשה\nריבית שנתית*\nתקופת הלוואה בשנים\nסוג ההלוואה\nראה מידע למבוטח בסעיף ח\nלדעת חשוב,שנפרעו ההלוואות פרטי את למלא יש חלקי בסילוק ג.הפירעון סכום,שנפרעו ההלוואות פרטי את למלא יש חלקי בסילוק ג.המקורי ההלוואה סכום\n\"יוקטן בתוקף, שתיוותר המקורית בפוליסה הביטוח סכום\",,\nשצויין הפרעון בסכום,,"
+  "sketch": "מסלול הלוואה\nיתרת הלוואה חדשה\nריבית שנתית*\nתקופת הלוואה בשנים\nסוג ההלוואה\nראה מידע למבוטח בסעיף ח\nלדעת חשוב,שנפרעו ההלוואות פרטי את למלא יש חלקי בסילוק ג.הפירעון סכום,שנפרעו ההלוואות פרטי את למלא יש חלקי בסילוק ג.המקורי ההלוואה סכום\n\"יוקטן בתוקף, שתיוותר המקורית בפוליסה הביטוח סכום\",,\nשצויין הפרעון בסכום,,",
+  "embed_text": "טבלה זו מציגה פרטי הלוואה לצורך עדכון פוליסת ביטוח חיים בעקבות מחזור משכנתה. ניתן לחפש מידע לפי מסלול הלוואה, יתרת הלוואה חדשה, ריבית שנתית ותקופת ההלוואה בשנים. הראל מציעה אפשרויות שונות לניהול ביטוח חיים לצד משכנתא. הטבלה כוללת מסלול הלוואה, יתרת הלוואה חדשה, ריבית שנתית, תקופת הלוואה בשנים וסוג ההלוואה. לדוגמה, ניתן לראות מסלול הלוואה, יתרת הלוואה חדשה, ריבית שנתית וסוג ההלוואה. This table details loan details for life insurance policy updates due to mortgage refinancing. It allows looking up information based on loan track, new loan balance, annual interest, and loan term. בין הערכים בטבלה: ריבית שנתית*: ….",
+  "payload": "טבלה: עדכון פוליסת ביטוח חיים\nThis table details loan details for life insurance policy updates due to mortgage refinancing. It allows looking up information based on loan track, new loan balance, annual interest, and loan term.\nממדים: Loan details, Loan track, new loan balance, annual interest, loan term, loan type\n\nמסלול הלוואה\nיתרת הלוואה חדשה\nריבית שנתית*\nתקופת הלוואה בשנים\nסוג ההלוואה\nראה מידע למבוטח בסעיף ח\nלדעת חשוב,שנפרעו ההלוואות פרטי את למלא יש חלקי בסילוק ג.הפירעון סכום,שנפרעו ההלוואות פרטי את למלא יש חלקי בסילוק ג.המקורי ההלוואה סכום\n\"יוקטן בתוקף, שתיוותר המקורית בפוליסה הביטוח סכום\",,\nשצויין הפרעון בסכום,,"
 }

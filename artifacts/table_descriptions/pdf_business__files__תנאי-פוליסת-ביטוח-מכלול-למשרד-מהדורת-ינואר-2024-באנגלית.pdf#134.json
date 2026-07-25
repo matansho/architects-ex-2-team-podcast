@@ -2,21 +2,23 @@
   "id": "pdf:business/files/תנאי-פוליסת-ביטוח-מכלול-למשרד-מהדורת-ינואר-2024-באנגלית.pdf#134",
   "source": "llm",
   "description": {
-    "title": "מקדמות ותשלומים שאינם שנויים במחלוקת",
-    "summary": "This table describes advance payments and benefits provided by 'מכלול' insurance following an insured event. It details how these payments are calculated, deducted from final benefits, and potentially repaid.",
-    "embed_passage": "פוליסת 'מכלול' מאפשרת קבלת מקדמות ותשלומים שאינם שנויים במחלוקת לאחר קרות נזק לרכוש המבוטח. תשלומים אלו מיועדים לכיסוי עלויות תיקון הנזק, ויופחתו מהפיצוי הסופי. החישוב מתבצע בהתאם לשינויים במדד, החל מיום המקדמה ועד לתשלום הפיצוי הסופי.",
-    "row_axis": "Scenarios related to advance payments and undisputed benefits",
-    "column_axis": "Details of advance payment conditions, calculation, and repayment",
+    "title": "תנאי פוליסת ביטוח מכלול",
+    "summary": "This table describes advance payments and benefits under the 'מכלול' insurance policy. It details how advance payments for repairs are handled and deducted from final benefits.",
+    "embed_passage": "טבלה זו מתייחסת לתנאי פוליסת הביטוח 'מכלול' ומפרטת את התשלומים המקדמים וההטבות שאינן שנויות במחלוקת במקרה של נזק לרכוש המבוטח. התשלומים המקדמים נועדו לאפשר קבלת שירותי תיקון, ויופחתו מהתשלומים הסופיים. החישוב של ההטבות מתבצע בהתאם לערכן המקושר למדד, החל מיום התשלום המקדים ועד ליום תשלום ההטבות הסופיות, או על בסיס דולרי עבור פוליסות דולריות. 'מכלול' מאפשרת קבלת תשלומים מקדמים או התחייבויות כספיות לתיקון נזקים. התשלומים המקדמים ינוכו מהתשלומים הסופיים. במקרה של תשלום מקדמי העולה על ההטבה הסופית, המבוטח יחזיר את ההפרש.",
+    "row_axis": "Conditions related to advance payments and benefits",
+    "column_axis": "Details of advance payments, benefit calculation, and repayment",
     "units": [],
     "notable_values": [
-      "payment timeframe: 30 days",
-      "deduction: advance payments deducted from final benefits"
+      "Advance payments: enable repair service",
+      "Final benefits: deducted by advance payments",
+      "Benefit calculation: linked to Index",
+      "Dollar-based policy: calculation on this basis"
     ],
     "product_hints": [
       "מכלול"
     ]
   },
   "sketch": "9.23 Advance payments and benefits which are not in dispute\n9.23.1 Upon the occurrence of an insured event involving the property which is insured under this policy, the insured shall be entitled to receive from the insurer advance payments or monetary undertakings, which shall enable it to obtain service to repair the damage, subject to underinsurance conditions. This, on account of the monies due to the insured form the insurer under the conditions of this policy.\nThese advance payments will be deducted from the final insurance benefits paid to the insured. The benefits shall be calculated on the basis of their value linked to the Index from the date of the advance payment and until the day the final insurance benefits are paid, and if the policy is a dollar based policy, the calculation will be made on this basis;",
-  "embed_text": "פוליסת 'מכלול' מאפשרת קבלת מקדמות ותשלומים שאינם שנויים במחלוקת לאחר קרות נזק לרכוש המבוטח. תשלומים אלו מיועדים לכיסוי עלויות תיקון הנזק, ויופחתו מהפיצוי הסופי. החישוב מתבצע בהתאם לשינויים במדד, החל מיום המקדמה ועד לתשלום הפיצוי הסופי.",
-  "payload": "טבלה: מקדמות ותשלומים שאינם שנויים במחלוקת\nThis table describes advance payments and benefits provided by 'מכלול' insurance following an insured event. It details how these payments are calculated, deducted from final benefits, and potentially repaid.\nממדים: Scenarios related to advance payments and undisputed benefits, Details of advance payment conditions, calculation, and repayment\n\n9.23 Advance payments and benefits which are not in dispute\n9.23.1 Upon the occurrence of an insured event involving the property which is insured under this policy, the insured shall be entitled to receive from the insurer advance payments or monetary undertakings, which shall enable it to obtain service to repair the damage, subject to underinsurance conditions. This, on account of the monies due to the insured form the insurer under the conditions of this policy.\nThese advance payments will be deducted from the final insurance benefits paid to the insured. The benefits shall be calculated on the basis of their value linked to the Index from the date of the advance payment and until the day the final insurance benefits are paid, and if the policy is a dollar based policy, the calculation will be made on this basis;"
+  "embed_text": "טבלה זו מתייחסת לתנאי פוליסת הביטוח 'מכלול' ומפרטת את התשלומים המקדמים וההטבות שאינן שנויות במחלוקת במקרה של נזק לרכוש המבוטח. התשלומים המקדמים נועדו לאפשר קבלת שירותי תיקון, ויופחתו מהתשלומים הסופיים. החישוב של ההטבות מתבצע בהתאם לערכן המקושר למדד, החל מיום התשלום המקדים ועד ליום תשלום ההטבות הסופיות, או על בסיס דולרי עבור פוליסות דולריות. 'מכלול' מאפשרת קבלת תשלומים מקדמים או התחייבויות כספיות לתיקון נזקים. התשלומים המקדמים ינוכו מהתשלומים הסופיים. במקרה של תשלום מקדמי העולה על ההטבה הסופית, המבוטח יחזיר את ההפרש. This table describes advance payments and benefits under the 'מכלול' insurance policy. It details how advance payments for repairs are handled and deducted from final benefits. בין הערכים בטבלה: Advance payments: enable repair service; Final benefits: deducted by advance payme…",
+  "payload": "טבלה: תנאי פוליסת ביטוח מכלול\nThis table describes advance payments and benefits under the 'מכלול' insurance policy. It details how advance payments for repairs are handled and deducted from final benefits.\nממדים: Conditions related to advance payments and benefits, Details of advance payments, benefit calculation, and repayment\n\n9.23 Advance payments and benefits which are not in dispute\n9.23.1 Upon the occurrence of an insured event involving the property which is insured under this policy, the insured shall be entitled to receive from the insurer advance payments or monetary undertakings, which shall enable it to obtain service to repair the damage, subject to underinsurance conditions. This, on account of the monies due to the insured form the insurer under the conditions of this policy.\nThese advance payments will be deducted from the final insurance benefits paid to the insured. The benefits shall be calculated on the basis of their value linked to the Index from the date of the advance payment and until the day the final insurance benefits are paid, and if the policy is a dollar based policy, the calculation will be made on this basis;"
 }

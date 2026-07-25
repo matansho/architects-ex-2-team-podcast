@@ -3,23 +3,22 @@
   "source": "llm",
   "description": {
     "title": "תנאי פוליסה - סעיף 5",
-    "summary": "This table details conditions related to misrepresentation in insurance policies, specifically regarding incomplete or dishonest answers to questions. It outlines the company's rights to cancel the policy or reduce benefits based on the intent and impact of the misrepresentation.",
-    "embed_passage": "פוליסת מגן מתייחסת למקרים בהם ניתנה תשובה שאינה מלאה וכנה, וכיצד הדבר משפיע על זכויות החברה והמבוטח. לדוגמה, אם התשובה ניתנה בכוונת מירמה, החברה רשאית לבטל את הפוליסה בתוך 30 ימים. במקרים מסוימים, החברה זכאית להחזר הפרמיות ששולמו, בניכוי הוצאות.",
+    "summary": "This table details conditions related to misrepresentation in insurance policies, specifically regarding incomplete or dishonest answers to questions. It outlines the company's rights to cancel the policy or reduce benefits based on the intent behind the misrepresentation.",
+    "embed_passage": "טבלה זו מתארת תנאים הקשורים לייצוג שקרי בפוליסות ביטוח, במיוחד בנוגע לתשובות לא שלמות או לא כנות לשאלות. היא מפרטת את זכויות החברה לבטל את הפוליסה או להפחית את ההטבות בהתבסס על הכוונה מאחורי הייצוג השקרי. ניתן להשתמש בטבלה זו כדי להבין את ההשלכות של מתן מידע שגוי בעת רכישת פוליסת ביטוח מגן. סעיפים רלוונטיים כוללים 5.4.1, 5.4.2, 5.5.1 ו-5.5.2. מגן היא פוליסת ביטוח למקרה מוות.",
     "row_axis": "conditions related to misrepresentation",
     "column_axis": "details of the condition and its consequences",
     "units": [],
     "notable_values": [
-      "30: number of days the company has to cancel the policy",
-      "5.3: section number related to company rights",
-      "5.4.1: condition regarding intentional misrepresentation",
-      "5.5.1: condition regarding knowledge of the true state",
-      "5.6: section number related to time limits"
+      "5.4.1: התשובה ניתנה בכוונת מירמה",
+      "5.4.2: גבוהה יותר אילו מבטח סביר לא היה מתקשר",
+      "5.5.1: היא ידעה או היה עליה לדעת את המצב לאמיתו",
+      "5.5.2: העובדה שעליה ניתנה תשובה חדלה להתקיים לפני שקרה מקרה הביטוח"
     ],
     "product_hints": [
       "מגן"
     ]
   },
   "sketch": "התשובה ניתנה בכוונת מירמה. 5.4.1\nגבוהה יותר אילו מבטח סביר  לא היה מתקשר על פי פוליסה זו אף בפרמיה 5.4.2 ידע את המצב לאמיתו. במקרה זה, זכאי בעל הפוליסה להחזר הפרמיות . ששילם בעד התקופה שלאחר קרות מקרה הביטוח, בניכוי הוצאות החברה\n, לעיל בכל אחת מאלה 5.3 החברה לא תהיה זכאית לתרופות המפורטות בסעיף 5.5 אלא אם התשובה שלא היתה מלאה וכנה ניתנה בכוונת מירמה:\nהיא ידעה או היה עליה לדעת את המצב לאמיתו בשעת כריתת החוזה או 5.5.1 לא היתה מלאה וכנה. שהיא גרמה לכך שהתשובה\nהעובדה שעליה ניתנה תשובה שלא היתה מלאה וכנה חדלה להתקיים לפני 5.5.2 שקרה מקרה הביטוח, או שלא השפיעה על מקרהו, על חבות החברה או על היקפה.",
-  "embed_text": "פוליסת מגן מתייחסת למקרים בהם ניתנה תשובה שאינה מלאה וכנה, וכיצד הדבר משפיע על זכויות החברה והמבוטח. לדוגמה, אם התשובה ניתנה בכוונת מירמה, החברה רשאית לבטל את הפוליסה בתוך 30 ימים. במקרים מסוימים, החברה זכאית להחזר הפרמיות ששולמו, בניכוי הוצאות.",
-  "payload": "טבלה: תנאי פוליסה - סעיף 5\nThis table details conditions related to misrepresentation in insurance policies, specifically regarding incomplete or dishonest answers to questions. It outlines the company's rights to cancel the policy or reduce benefits based on the intent and impact of the misrepresentation.\nממדים: conditions related to misrepresentation, details of the condition and its consequences\n\nהתשובה ניתנה בכוונת מירמה. 5.4.1\nגבוהה יותר אילו מבטח סביר  לא היה מתקשר על פי פוליסה זו אף בפרמיה 5.4.2 ידע את המצב לאמיתו. במקרה זה, זכאי בעל הפוליסה להחזר הפרמיות . ששילם בעד התקופה שלאחר קרות מקרה הביטוח, בניכוי הוצאות החברה\n, לעיל בכל אחת מאלה 5.3 החברה לא תהיה זכאית לתרופות המפורטות בסעיף 5.5 אלא אם התשובה שלא היתה מלאה וכנה ניתנה בכוונת מירמה:\nהיא ידעה או היה עליה לדעת את המצב לאמיתו בשעת כריתת החוזה או 5.5.1 לא היתה מלאה וכנה. שהיא גרמה לכך שהתשובה\nהעובדה שעליה ניתנה תשובה שלא היתה מלאה וכנה חדלה להתקיים לפני 5.5.2 שקרה מקרה הביטוח, או שלא השפיעה על מקרהו, על חבות החברה או על היקפה."
+  "embed_text": "טבלה זו מתארת תנאים הקשורים לייצוג שקרי בפוליסות ביטוח, במיוחד בנוגע לתשובות לא שלמות או לא כנות לשאלות. היא מפרטת את זכויות החברה לבטל את הפוליסה או להפחית את ההטבות בהתבסס על הכוונה מאחורי הייצוג השקרי. ניתן להשתמש בטבלה זו כדי להבין את ההשלכות של מתן מידע שגוי בעת רכישת פוליסת ביטוח מגן. סעיפים רלוונטיים כוללים 5.4.1, 5.4.2, 5.5.1 ו-5.5.2. מגן היא פוליסת ביטוח למקרה מוות. This table details conditions related to misrepresentation in insurance policies, specifically regarding incomplete or dishonest answers to questions. It outlines the company's rights to cancel the policy or reduce benefits based on the intent behind the misrepresentation.",
+  "payload": "טבלה: תנאי פוליסה - סעיף 5\nThis table details conditions related to misrepresentation in insurance policies, specifically regarding incomplete or dishonest answers to questions. It outlines the company's rights to cancel the policy or reduce benefits based on the intent behind the misrepresentation.\nממדים: conditions related to misrepresentation, details of the condition and its consequences\n\nהתשובה ניתנה בכוונת מירמה. 5.4.1\nגבוהה יותר אילו מבטח סביר  לא היה מתקשר על פי פוליסה זו אף בפרמיה 5.4.2 ידע את המצב לאמיתו. במקרה זה, זכאי בעל הפוליסה להחזר הפרמיות . ששילם בעד התקופה שלאחר קרות מקרה הביטוח, בניכוי הוצאות החברה\n, לעיל בכל אחת מאלה 5.3 החברה לא תהיה זכאית לתרופות המפורטות בסעיף 5.5 אלא אם התשובה שלא היתה מלאה וכנה ניתנה בכוונת מירמה:\nהיא ידעה או היה עליה לדעת את המצב לאמיתו בשעת כריתת החוזה או 5.5.1 לא היתה מלאה וכנה. שהיא גרמה לכך שהתשובה\nהעובדה שעליה ניתנה תשובה שלא היתה מלאה וכנה חדלה להתקיים לפני 5.5.2 שקרה מקרה הביטוח, או שלא השפיעה על מקרהו, על חבות החברה או על היקפה."
 }

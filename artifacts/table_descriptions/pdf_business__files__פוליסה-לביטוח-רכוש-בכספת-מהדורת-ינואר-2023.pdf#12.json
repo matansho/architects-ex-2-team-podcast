@@ -2,25 +2,23 @@
   "id": "pdf:business/files/פוליסה-לביטוח-רכוש-בכספת-מהדורת-ינואר-2023.pdf#12",
   "source": "llm",
   "description": {
-    "title": "פוליסת ביטוח רכוש",
-    "summary": "This table details exclusions to property insurance coverage. It lists events that, if they cause damage, will not be covered by the policy.",
-    "embed_passage": "פוליסת ביטוח רכוש מהדורת ינואר 2023 אינה מכסה הפסד או נזק שנגרמו בעקיפין או במישרין כתוצאה ממלחמה, פלישה או פעולת אויב זר. הפוליסה אינה מכסה גם נזקים שנגרמו כתוצאה ממעשה טרור, הכולל שימוש בכוח או אלימות. סעיף 2.1 מתייחס למלחמה, בין אם הוכרזה ובין אם לאו.",
-    "row_axis": "excluded event/cause of loss",
-    "column_axis": "description/details of exclusion",
+    "title": "כיסוי נזקים - רכוש בכספת",
+    "summary": "This table details exclusions to property insurance coverage within a safe, specifically listing events that are not covered by the policy. It is used to determine if a claim is valid based on the cause of damage.",
+    "embed_passage": "טבלה זו מתארת את הכיסויים וההחרגות לפוליסת ביטוח רכוש בכספת, מהדורת ינואר 2023. ניתן לבדוק את סוגי הנזקים הכלולים או הלא כלולים בכיסוי, בהתאם לנסיבות המפורטות. הפוליסה מתייחסת לנזקים ישירים ועקיפים כאחד. בין ההחרגות המפורטות: מלחמה, פעולות איבה, ופעולות מעין מלחמתיות. כיסוי רכוש בכספת, מלחמה, פעולות איבה, נזק ישיר, נזק עקיף.",
+    "row_axis": "סוג נזק / אירוע",
+    "column_axis": "תיאור הנזק / אירוע",
     "units": [],
     "notable_values": [
-      "event type: מלחמה",
-      "event type: פלישה",
-      "event type: פעולת אויב זר",
-      "event type: מעשה איבה",
-      "event type: מעשה טרור"
+      "מלחמה: פעולת אויב זר",
+      "פעולות איבה: מעשה איבה",
+      "פעולות מעין מלחמתיות: בין אם הוכרזה מלחמה ובין אם לאו"
     ],
     "product_hints": [
-      "ביטוח רכוש",
-      "פוליסת ביטוח רכוש"
+      "ביטוח רכוש בכספת",
+      "פוליסה-לביטוח-רכוש-בכספת"
     ]
   },
   "sketch": ". הפסד, נזק, עלות כספית, חבות מכל סוג שהם, שנגרמו במישרין ו/או בעקיפין ו/או בקשר 2 עם הנסיבות שיפורטו להלן, וזאת, מבלי להתייחס לכל סיבה ו/או אירוע אחר, שתרמו לגרימת הנזק בין אם בו-זמנית ו/או באיזשהו שלב של קרות הנזק:\n. מלחמה, פלישה, פעולת אויב זר, מעשה איבה ו/או פעולות מעין מלחמתיות )בין 2.1 ;( אם הוכרזה מלחמה ובין אם לאו",
-  "embed_text": "פוליסת ביטוח רכוש מהדורת ינואר 2023 אינה מכסה הפסד או נזק שנגרמו בעקיפין או במישרין כתוצאה ממלחמה, פלישה או פעולת אויב זר. הפוליסה אינה מכסה גם נזקים שנגרמו כתוצאה ממעשה טרור, הכולל שימוש בכוח או אלימות. סעיף 2.1 מתייחס למלחמה, בין אם הוכרזה ובין אם לאו.",
-  "payload": "טבלה: פוליסת ביטוח רכוש\nThis table details exclusions to property insurance coverage. It lists events that, if they cause damage, will not be covered by the policy.\nממדים: excluded event/cause of loss, description/details of exclusion\n\n. הפסד, נזק, עלות כספית, חבות מכל סוג שהם, שנגרמו במישרין ו/או בעקיפין ו/או בקשר 2 עם הנסיבות שיפורטו להלן, וזאת, מבלי להתייחס לכל סיבה ו/או אירוע אחר, שתרמו לגרימת הנזק בין אם בו-זמנית ו/או באיזשהו שלב של קרות הנזק:\n. מלחמה, פלישה, פעולת אויב זר, מעשה איבה ו/או פעולות מעין מלחמתיות )בין 2.1 ;( אם הוכרזה מלחמה ובין אם לאו"
+  "embed_text": "טבלה זו מתארת את הכיסויים וההחרגות לפוליסת ביטוח רכוש בכספת, מהדורת ינואר 2023. ניתן לבדוק את סוגי הנזקים הכלולים או הלא כלולים בכיסוי, בהתאם לנסיבות המפורטות. הפוליסה מתייחסת לנזקים ישירים ועקיפים כאחד. בין ההחרגות המפורטות: מלחמה, פעולות איבה, ופעולות מעין מלחמתיות. כיסוי רכוש בכספת, מלחמה, פעולות איבה, נזק ישיר, נזק עקיף. This table details exclusions to property insurance coverage within a safe, specifically listing events that are not covered by the policy. It is used to determine if a claim is valid based on the cause of damage.",
+  "payload": "טבלה: כיסוי נזקים - רכוש בכספת\nThis table details exclusions to property insurance coverage within a safe, specifically listing events that are not covered by the policy. It is used to determine if a claim is valid based on the cause of damage.\nממדים: סוג נזק / אירוע, תיאור הנזק / אירוע\n\n. הפסד, נזק, עלות כספית, חבות מכל סוג שהם, שנגרמו במישרין ו/או בעקיפין ו/או בקשר 2 עם הנסיבות שיפורטו להלן, וזאת, מבלי להתייחס לכל סיבה ו/או אירוע אחר, שתרמו לגרימת הנזק בין אם בו-זמנית ו/או באיזשהו שלב של קרות הנזק:\n. מלחמה, פלישה, פעולת אויב זר, מעשה איבה ו/או פעולות מעין מלחמתיות )בין 2.1 ;( אם הוכרזה מלחמה ובין אם לאו"
 }

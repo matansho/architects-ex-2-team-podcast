@@ -3,25 +3,23 @@
   "source": "llm",
   "description": {
     "title": "פיצוי מוסכם",
-    "summary": "This table details agreed-upon compensation amounts in cases where the policyholder provided incomplete or inaccurate answers during the underwriting process. It outlines payments due from the policyholder to the insurer based on the circumstances of the claim.",
-    "embed_passage": "פוליסת רכב שאינו רכב פרטי ומסחרי עד 35 טון מגדירה פיצוי מוסכם במקרים של אי-גילוי נאות. סכום הפיצוי המוסכם עבור נזק שאינו נזק ממון יכול להגיע עד 10,000 שקלים חדשים, וסכום הפיצוי המוסכם הכולל לא יעלה על 10,000 ₪.",
-    "row_axis": "Scenario of inaccurate/incomplete disclosure",
-    "column_axis": "Compensation amount",
+    "summary": "This table details agreed-upon compensation amounts related to incomplete or dishonest responses to underwriting questions. It outlines payments due from the policyholder to the insurer under specific circumstances.",
+    "embed_passage": "טבלה זו מתארת פיצוי מוסכם במקרה של תשובות לא מלאות או לא כנות לשאלות חיתום בפוליסת רכב שאינו רכב פרטי ומסחרי עד 35 טון, מהדורת ספטמבר 2021. ניתן למצוא כאן את הסכומים שישולמו על ידי בעל הפוליסה למבטח במצבים אלו, בהתאם לחוק הפיצויים. הסכומים המופיעים בטבלה הם בשקלים חדשים, וקשורים לנזק שאינו נזק ממון ולפיצוי לנפגעים אחרים. הפיצוי המוסכם יכול להגיע עד 10,000 שקלים חדשים לנפגע, או 2,500 שקלים חדשים לנפגע אחר.",
+    "row_axis": "תנאים לתשלום פיצוי מוסכם",
+    "column_axis": "סוג פיצוי / סכום",
     "units": [
-      "₪",
       "שקלים חדשים"
     ],
     "notable_values": [
-      "Maximum compensation for non-monetary damage: 10,000 ₪",
-      "Compensation per non-policyholder injured party: 2,500 ₪",
-      "Total agreed compensation cap: 10,000 ₪"
+      "נזק שאינו נזק ממון: 10,000 שקלים חדשים",
+      "פיצוי לנפגע אחר: 2,500 שקלים חדשים",
+      "סכום פיצוי כולל מקסימלי: 10,000 שקלים חדשים"
     ],
     "product_hints": [
-      "פוליסת רכב שאינו רכב פרטי ומסחרי",
-      "רכב מסחרי"
+      "פוליסת רכב שאינו רכב פרטי ומסחרי עד 35 טון"
     ]
   },
   "sketch": ", השיב בעל הפוליסה לשאלת חיתום תשובה שלא היתה מלאה וכנה בעת שניתנה .9.3 ובשל התשובה נקבעו דמי ביטוח נמוכים מדמי הביטוח שהיו נקבעים אילו היה בעל הפוליסה עונה תשובה מלאה וכנה, או שבשל התשובה כאמור הסכים המבטח לכרות את חוזה הביטוח אף שלא היה מסכים לכך אילו ניתנה תשובה מלאה וכנה, וקרה מקרה הביטוח בטרם בוטל חוזה הביטוח, יחולו הוראות אלה:\nנפגע בעל הפוליסה עקב מקרה הביטוח, ישלם בעל הפוליסה למבטח פיצוי .9.3.1 מוסכם בסכום השווה לפיצוי המגיע לבעל הפוליסה בשל נזק שאינו נזק ממון שקלים חדשים; 10,000( לחוק הפיצויים, אך לא יותר מ 3)( )א 4 לפי סעיף",
-  "embed_text": "פוליסת רכב שאינו רכב פרטי ומסחרי עד 35 טון מגדירה פיצוי מוסכם במקרים של אי-גילוי נאות. סכום הפיצוי המוסכם עבור נזק שאינו נזק ממון יכול להגיע עד 10,000 שקלים חדשים, וסכום הפיצוי המוסכם הכולל לא יעלה על 10,000 ₪.",
-  "payload": "טבלה: פיצוי מוסכם\nThis table details agreed-upon compensation amounts in cases where the policyholder provided incomplete or inaccurate answers during the underwriting process. It outlines payments due from the policyholder to the insurer based on the circumstances of the claim.\nממדים: Scenario of inaccurate/incomplete disclosure, Compensation amount\n\n, השיב בעל הפוליסה לשאלת חיתום תשובה שלא היתה מלאה וכנה בעת שניתנה .9.3 ובשל התשובה נקבעו דמי ביטוח נמוכים מדמי הביטוח שהיו נקבעים אילו היה בעל הפוליסה עונה תשובה מלאה וכנה, או שבשל התשובה כאמור הסכים המבטח לכרות את חוזה הביטוח אף שלא היה מסכים לכך אילו ניתנה תשובה מלאה וכנה, וקרה מקרה הביטוח בטרם בוטל חוזה הביטוח, יחולו הוראות אלה:\nנפגע בעל הפוליסה עקב מקרה הביטוח, ישלם בעל הפוליסה למבטח פיצוי .9.3.1 מוסכם בסכום השווה לפיצוי המגיע לבעל הפוליסה בשל נזק שאינו נזק ממון שקלים חדשים; 10,000( לחוק הפיצויים, אך לא יותר מ 3)( )א 4 לפי סעיף"
+  "embed_text": "טבלה זו מתארת פיצוי מוסכם במקרה של תשובות לא מלאות או לא כנות לשאלות חיתום בפוליסת רכב שאינו רכב פרטי ומסחרי עד 35 טון, מהדורת ספטמבר 2021. ניתן למצוא כאן את הסכומים שישולמו על ידי בעל הפוליסה למבטח במצבים אלו, בהתאם לחוק הפיצויים. הסכומים המופיעים בטבלה הם בשקלים חדשים, וקשורים לנזק שאינו נזק ממון ולפיצוי לנפגעים אחרים. הפיצוי המוסכם יכול להגיע עד 10,000 שקלים חדשים לנפגע, או 2,500 שקלים חדשים לנפגע אחר. This table details agreed-upon compensation amounts related to incomplete or dishonest responses to underwriting questions. It outlines payments due from the policyholder to the insurer under specific circumstances.",
+  "payload": "טבלה: פיצוי מוסכם\nThis table details agreed-upon compensation amounts related to incomplete or dishonest responses to underwriting questions. It outlines payments due from the policyholder to the insurer under specific circumstances.\nממדים: תנאים לתשלום פיצוי מוסכם, סוג פיצוי / סכום\n\n, השיב בעל הפוליסה לשאלת חיתום תשובה שלא היתה מלאה וכנה בעת שניתנה .9.3 ובשל התשובה נקבעו דמי ביטוח נמוכים מדמי הביטוח שהיו נקבעים אילו היה בעל הפוליסה עונה תשובה מלאה וכנה, או שבשל התשובה כאמור הסכים המבטח לכרות את חוזה הביטוח אף שלא היה מסכים לכך אילו ניתנה תשובה מלאה וכנה, וקרה מקרה הביטוח בטרם בוטל חוזה הביטוח, יחולו הוראות אלה:\nנפגע בעל הפוליסה עקב מקרה הביטוח, ישלם בעל הפוליסה למבטח פיצוי .9.3.1 מוסכם בסכום השווה לפיצוי המגיע לבעל הפוליסה בשל נזק שאינו נזק ממון שקלים חדשים; 10,000( לחוק הפיצויים, אך לא יותר מ 3)( )א 4 לפי סעיף"
 }

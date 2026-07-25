@@ -3,22 +3,20 @@
   "source": "llm",
   "description": {
     "title": "אובדן כושר עבודה - הראל מטריה",
-    "summary": "This table details adjustments to monthly disability payments based on other income sources. It outlines reductions to the payout if the insured receives compensation from other insurers or government entities, and specifies a minimum reduction of 30%.",
-    "embed_passage": "פוליסת הראל מטריה ביטוח אובדן כושר עבודה מתייחסת לחישוב הפיצוי החודשי בהתאם לשכר המבוטח ולמקורות הכנסה נוספים. לדוגמה, אם סך הפיצוי החודשי מהגורם הממשלתי והתכנית עולה על ממוצע השכר, החברה רשאית לקזז את ההפרש. במקרים מסוימים, הפיצוי החודשי יפחת בשיעור של 30% מסכום הפיצוי המקורי, כפי שמופיע בסעיף 8.2.4.",
-    "row_axis": "Conditions affecting disability payment adjustments",
-    "column_axis": "Adjustment rules and percentages",
+    "summary": "This table details adjustments to monthly compensation under the Harel Matria loss of working ability insurance plan. It outlines reductions and updates to the amount paid based on other income sources.",
+    "embed_passage": "טבלה זו מתייחסת לתנאי פוליסת ביטוח אובדן כושר עבודה של הראל מטריה, ומפרטת כיצד יחושב הפיצוי החודשי למבוטח. ניתן לעיין בטבלה כדי להבין את ההפחתות האפשריות בתשלום הפיצוי, בהתאם לתשלומים ממקורות אחרים. הפיצוי החודשי עשוי להיות מופחת בשיעור של 30% מסכום הפיצוי החודשי לו המבוטח זכאי, או לעבור התאמה בהתאם להפחתה בתשלומים ממבטחים אחרים או מהממשלה. מרכיב השחרור ישולם בהתאם להוראות התכנית. סעיפים רלוונטיים כוללים 8.2.1, 8.2.2, 8.2.3, 8.2.4 ו-8.2.5.",
+    "row_axis": "conditions for compensation adjustment",
+    "column_axis": "adjustment details",
     "units": [],
     "notable_values": [
-      "30%: Minimum reduction in monthly compensation",
-      "100%: Maximum combined compensation threshold",
-      "8.2.1, 8.2.2, 8.2.3, 8.2.4, 8.2.5: Section numbers referencing specific adjustment rules"
+      "reduction rate: 30%"
     ],
     "product_hints": [
-      "הראל מטריה",
-      "אובדן כושר עבודה"
+      "אובדן כושר עבודה הראל מטריה",
+      "Harel Matria"
     ]
   },
   "sketch": "הודיע המבוטח לחברה או נודע לחברה, לפי המוקדם, כי פחת או פסק תשלום הפיצוי 8.2.3 החודשי  ממבטחים  אחרים  או  מגורם  ממשלתי  כאמור  לעיל,  תעדכן  החברה  את הסכום המקוזז בהתאם החל מיום ההפחתה או ההפסקה כאמור.\nלעיל,  הפיצוי  החודשי  שישולם  למבוטח  לא 8.2.2ו 8.2.1 על אף האמור בסעיפים 8.2.4 מסכום הפיצוי החודשי לו הוא זכאי על פי תנאי 30% יפחת, בכל מקרה, משיעור של התכנית.\nלמען הסר ספק מובהר כי האמור בסעיף זה לא יחול לגבי מרכיב השחרור אשר 8.2.5 . ישולם בהתאם להוראות התכנית",
-  "embed_text": "פוליסת הראל מטריה ביטוח אובדן כושר עבודה מתייחסת לחישוב הפיצוי החודשי בהתאם לשכר המבוטח ולמקורות הכנסה נוספים. לדוגמה, אם סך הפיצוי החודשי מהגורם הממשלתי והתכנית עולה על ממוצע השכר, החברה רשאית לקזז את ההפרש. במקרים מסוימים, הפיצוי החודשי יפחת בשיעור של 30% מסכום הפיצוי המקורי, כפי שמופיע בסעיף 8.2.4.",
-  "payload": "טבלה: אובדן כושר עבודה - הראל מטריה\nThis table details adjustments to monthly disability payments based on other income sources. It outlines reductions to the payout if the insured receives compensation from other insurers or government entities, and specifies a minimum reduction of 30%.\nממדים: Conditions affecting disability payment adjustments, Adjustment rules and percentages\n\nהודיע המבוטח לחברה או נודע לחברה, לפי המוקדם, כי פחת או פסק תשלום הפיצוי 8.2.3 החודשי  ממבטחים  אחרים  או  מגורם  ממשלתי  כאמור  לעיל,  תעדכן  החברה  את הסכום המקוזז בהתאם החל מיום ההפחתה או ההפסקה כאמור.\nלעיל,  הפיצוי  החודשי  שישולם  למבוטח  לא 8.2.2ו 8.2.1 על אף האמור בסעיפים 8.2.4 מסכום הפיצוי החודשי לו הוא זכאי על פי תנאי 30% יפחת, בכל מקרה, משיעור של התכנית.\nלמען הסר ספק מובהר כי האמור בסעיף זה לא יחול לגבי מרכיב השחרור אשר 8.2.5 . ישולם בהתאם להוראות התכנית"
+  "embed_text": "טבלה זו מתייחסת לתנאי פוליסת ביטוח אובדן כושר עבודה של הראל מטריה, ומפרטת כיצד יחושב הפיצוי החודשי למבוטח. ניתן לעיין בטבלה כדי להבין את ההפחתות האפשריות בתשלום הפיצוי, בהתאם לתשלומים ממקורות אחרים. הפיצוי החודשי עשוי להיות מופחת בשיעור של 30% מסכום הפיצוי החודשי לו המבוטח זכאי, או לעבור התאמה בהתאם להפחתה בתשלומים ממבטחים אחרים או מהממשלה. מרכיב השחרור ישולם בהתאם להוראות התכנית. סעיפים רלוונטיים כוללים 8.2.1, 8.2.2, 8.2.3, 8.2.4 ו-8.2.5. This table details adjustments to monthly compensation under the Harel Matria loss of working ability insurance plan. It outlines reductions and updates to the amount paid based on other income sources.",
+  "payload": "טבלה: אובדן כושר עבודה - הראל מטריה\nThis table details adjustments to monthly compensation under the Harel Matria loss of working ability insurance plan. It outlines reductions and updates to the amount paid based on other income sources.\nממדים: conditions for compensation adjustment, adjustment details\n\nהודיע המבוטח לחברה או נודע לחברה, לפי המוקדם, כי פחת או פסק תשלום הפיצוי 8.2.3 החודשי  ממבטחים  אחרים  או  מגורם  ממשלתי  כאמור  לעיל,  תעדכן  החברה  את הסכום המקוזז בהתאם החל מיום ההפחתה או ההפסקה כאמור.\nלעיל,  הפיצוי  החודשי  שישולם  למבוטח  לא 8.2.2ו 8.2.1 על אף האמור בסעיפים 8.2.4 מסכום הפיצוי החודשי לו הוא זכאי על פי תנאי 30% יפחת, בכל מקרה, משיעור של התכנית.\nלמען הסר ספק מובהר כי האמור בסעיף זה לא יחול לגבי מרכיב השחרור אשר 8.2.5 . ישולם בהתאם להוראות התכנית"
 }

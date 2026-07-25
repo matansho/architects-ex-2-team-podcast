@@ -3,22 +3,22 @@
   "source": "llm",
   "description": {
     "title": "הרשאה לחיוב חשבון",
-    "summary": "This table outlines the terms for a direct debit authorization. It details the conditions under which the authorization is valid and can be cancelled, referencing periods of 14 and 24 months.",
-    "embed_passage": "הרשאה לחיוב חשבון הראל חברה לביטוח בע״מ תקפה כל עוד נעשה בה שימוש. הרשאה שלא יעשה בה שימוש במשך תקופה של 24 חודשים ממועד החיוב האחרון, בטלה. הבנק רשאי להוציא את הראל מן ההסדר אם תהיה לו סיבה סבירה לכך.",
-    "row_axis": "Conditions for direct debit authorization",
-    "column_axis": "Authorization terms and conditions",
+    "summary": "This table outlines the terms for a direct debit authorization. It details conditions for cancellation and bank responsibilities related to recurring insurance payments.",
+    "embed_passage": "טבלה זו מתארת את התנאים להרשאה לחיוב חשבון, הקשורה לתשלומי ביטוח קבועים. ההרשאה תקפה כל עוד נעשה בה שימוש במשך 24 חודשים ממועד החיוב האחרון. הבנק רשאי לבטל חיוב מסוים בהודעה בכתב, אם החיוב אינו תואם את הסכומים שנקבעו בהרשאה. הרשאה זו ניתנת לביטול על ידי הודעה בכתב מהראל חברה לביטוח בע\"מ לבנק. הראל חברה לביטוח בע\"מ, לקוח נכבד, סכום החיוב ומועדו ייקבעו מעת לעת. מועד התשלום בהוראת קבע הוא 25 לחודש או 14 לחודש.",
+    "row_axis": "תנאי הרשאה",
+    "column_axis": "סעיף בהרשאה",
     "units": [],
     "notable_values": [
-      "period: 24 חודשים",
-      "period: 14 לחודש",
-      "period: 25 לחודש"
+      "תקופה לביטול: 24 חודשים",
+      "מועד תשלום: 25 לחודש",
+      "מועד תשלום: 14 לחודש"
     ],
     "product_hints": [
       "הרשאה לחיוב חשבון",
-      "הראל חברה לביטוח בע״מ"
+      "הראל חברה לביטוח בע\"מ"
     ]
   },
   "sketch": "חודשים ממועד החיוב האחרון, בטלה. 24 הרשאה שלא יעשה בה שימוש במשך תקופה של ו.\nאם תענו לבקשתנו, הבנק יפעל בהתאם להוראות הרשאה זו, בכפוף להוראות כל דין והסכם שבינינו לבין הבנק. ז.\nח.  הבנק רשאי להוציאנו מן ההסדר המפורט בהרשאה זו, אם תהיה לו סיבה סבירה לכך, ויודיע לנו על כך מיד לאחר קבלת החלטתו תוך ציון הסיבה.",
-  "embed_text": "הרשאה לחיוב חשבון הראל חברה לביטוח בע״מ תקפה כל עוד נעשה בה שימוש. הרשאה שלא יעשה בה שימוש במשך תקופה של 24 חודשים ממועד החיוב האחרון, בטלה. הבנק רשאי להוציא את הראל מן ההסדר אם תהיה לו סיבה סבירה לכך.",
-  "payload": "טבלה: הרשאה לחיוב חשבון\nThis table outlines the terms for a direct debit authorization. It details the conditions under which the authorization is valid and can be cancelled, referencing periods of 14 and 24 months.\nממדים: Conditions for direct debit authorization, Authorization terms and conditions\n\nחודשים ממועד החיוב האחרון, בטלה. 24 הרשאה שלא יעשה בה שימוש במשך תקופה של ו.\nאם תענו לבקשתנו, הבנק יפעל בהתאם להוראות הרשאה זו, בכפוף להוראות כל דין והסכם שבינינו לבין הבנק. ז.\nח.  הבנק רשאי להוציאנו מן ההסדר המפורט בהרשאה זו, אם תהיה לו סיבה סבירה לכך, ויודיע לנו על כך מיד לאחר קבלת החלטתו תוך ציון הסיבה."
+  "embed_text": "טבלה זו מתארת את התנאים להרשאה לחיוב חשבון, הקשורה לתשלומי ביטוח קבועים. ההרשאה תקפה כל עוד נעשה בה שימוש במשך 24 חודשים ממועד החיוב האחרון. הבנק רשאי לבטל חיוב מסוים בהודעה בכתב, אם החיוב אינו תואם את הסכומים שנקבעו בהרשאה. הרשאה זו ניתנת לביטול על ידי הודעה בכתב מהראל חברה לביטוח בע\"מ לבנק. הראל חברה לביטוח בע\"מ, לקוח נכבד, סכום החיוב ומועדו ייקבעו מעת לעת. מועד התשלום בהוראת קבע הוא 25 לחודש או 14 לחודש. This table outlines the terms for a direct debit authorization. It details conditions for cancellation and bank responsibilities related to recurring insurance payments.",
+  "payload": "טבלה: הרשאה לחיוב חשבון\nThis table outlines the terms for a direct debit authorization. It details conditions for cancellation and bank responsibilities related to recurring insurance payments.\nממדים: תנאי הרשאה, סעיף בהרשאה\n\nחודשים ממועד החיוב האחרון, בטלה. 24 הרשאה שלא יעשה בה שימוש במשך תקופה של ו.\nאם תענו לבקשתנו, הבנק יפעל בהתאם להוראות הרשאה זו, בכפוף להוראות כל דין והסכם שבינינו לבין הבנק. ז.\nח.  הבנק רשאי להוציאנו מן ההסדר המפורט בהרשאה זו, אם תהיה לו סיבה סבירה לכך, ויודיע לנו על כך מיד לאחר קבלת החלטתו תוך ציון הסיבה."
 }

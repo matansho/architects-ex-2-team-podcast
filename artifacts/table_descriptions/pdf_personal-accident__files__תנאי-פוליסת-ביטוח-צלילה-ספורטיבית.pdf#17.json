@@ -2,24 +2,22 @@
   "id": "pdf:personal-accident/files/תנאי-פוליסת-ביטוח-צלילה-ספורטיבית.pdf#17",
   "source": "llm",
   "description": {
-    "title": "תנאי פוליסת ביטוח צלילה ספורטיבית",
-    "summary": "This table outlines conditions related to insurance claims for sports diving policies. It details scenarios where the insurance company's liability is reduced or voided, based on the insured's honesty and knowledge.",
-    "embed_passage": "פוליסת ביטוח צלילה ספורטיבית מגדירה תנאים שונים לקבלת תגמולים, בהתאם לנסיבות קרות מקרה הביטוח. לדוגמה, אם התשובה ניתנה בכוונת מרמה, החברה פטורה מתשלום. במקרה של מצג שווא, המבוטח זכאי להחזר דמי הביטוח ששילם בעד התקופה שלאחר קרות מקרה הביטוח בניכוי הוצאות החברה.",
-    "row_axis": "conditions for reduced or voided liability",
-    "column_axis": "details of the condition and its consequences",
+    "title": "תנאי פוליסה",
+    "summary": "This table outlines conditions related to insurance claims, specifically regarding instances of fraud or misrepresentation. It details scenarios where the insurance company may reduce or deny coverage.",
+    "embed_passage": "טבלה זו מתארת תנאים הקשורים לתביעות ביטוח, במיוחד במקרים של הונאה או מצג שווא. היא מפרטת תרחישים שבהם חברת הביטוח עשויה להפחית או לשלול כיסוי ביטוחי. הטבלה רלוונטית לפוליסת ביטוח צלילה ספורטיבית, והיא בוחנת מצבים בהם תשובות שגויות או חסרות ניתנו על ידי המבוטח. סעיפים אלו מתייחסים למקרים בהם המבטח לא היה מתקשר בחוזה אילו ידע את המצב האמיתי, או כאשר התשובה ניתנה בכוונה לרמות. לדוגמה, סעיף 3.4.1 מציין שהתשובה ניתנה בכוונת מרמה, וסעיף 3.4.2 מציין שמבטח סביר לא היה מתקשר בחוזה.",
+    "row_axis": "conditions for claim reduction/denial",
+    "column_axis": "condition details",
     "units": [],
     "notable_values": [
-      "3.4: Reduced insurance payouts proportionally",
-      "3.4.1: Fraudulent responses void coverage",
-      "3.4.2: Insurer not liable if a reasonable insurer wouldn't have agreed",
-      "3.5: Insurer remedies unavailable if response wasn't full and honest",
-      "4.1: Diver must have a valid sports diving certificate"
+      "fraudulent intent: present",
+      "reasonable insurer: would not have agreed",
+      "full and honest answer: not given"
     ],
     "product_hints": [
       "ביטוח צלילה ספורטיבית"
     ]
   },
   "sketch": "קרה מקרה הביטוח לפני שנתבטלה הפוליסה מכוח סעיף זה, אין החברה חייבת אלא .3.4 בתגמולי ביטוח מופחתים בשיעור יחסי, שהוא כיחס שבין דמי הביטוח שהיו משתלמים כמקובל אצלה לפי המצב לאמיתו לבין דמי הביטוח המוסכמים, והחברה פטורה כליל בכל אחת מאלה:\nהתשובה ניתנה בכוונת מרמה. .3.4.1\n, מבטח סביר לא היה מתקשר באותו חוזה, אף בדמי ביטוח מרובים יותר .3.4.2 אילו ידע את המצב לאמיתו; במקרה זה זכאי המבוטח להחזר דמי הביטוח ששילם בעד התקופה שלאחר קרות מקרה הביטוח בניכוי הוצאות החברה.",
-  "embed_text": "פוליסת ביטוח צלילה ספורטיבית מגדירה תנאים שונים לקבלת תגמולים, בהתאם לנסיבות קרות מקרה הביטוח. לדוגמה, אם התשובה ניתנה בכוונת מרמה, החברה פטורה מתשלום. במקרה של מצג שווא, המבוטח זכאי להחזר דמי הביטוח ששילם בעד התקופה שלאחר קרות מקרה הביטוח בניכוי הוצאות החברה.",
-  "payload": "טבלה: תנאי פוליסת ביטוח צלילה ספורטיבית\nThis table outlines conditions related to insurance claims for sports diving policies. It details scenarios where the insurance company's liability is reduced or voided, based on the insured's honesty and knowledge.\nממדים: conditions for reduced or voided liability, details of the condition and its consequences\n\nקרה מקרה הביטוח לפני שנתבטלה הפוליסה מכוח סעיף זה, אין החברה חייבת אלא .3.4 בתגמולי ביטוח מופחתים בשיעור יחסי, שהוא כיחס שבין דמי הביטוח שהיו משתלמים כמקובל אצלה לפי המצב לאמיתו לבין דמי הביטוח המוסכמים, והחברה פטורה כליל בכל אחת מאלה:\nהתשובה ניתנה בכוונת מרמה. .3.4.1\n, מבטח סביר לא היה מתקשר באותו חוזה, אף בדמי ביטוח מרובים יותר .3.4.2 אילו ידע את המצב לאמיתו; במקרה זה זכאי המבוטח להחזר דמי הביטוח ששילם בעד התקופה שלאחר קרות מקרה הביטוח בניכוי הוצאות החברה."
+  "embed_text": "טבלה זו מתארת תנאים הקשורים לתביעות ביטוח, במיוחד במקרים של הונאה או מצג שווא. היא מפרטת תרחישים שבהם חברת הביטוח עשויה להפחית או לשלול כיסוי ביטוחי. הטבלה רלוונטית לפוליסת ביטוח צלילה ספורטיבית, והיא בוחנת מצבים בהם תשובות שגויות או חסרות ניתנו על ידי המבוטח. סעיפים אלו מתייחסים למקרים בהם המבטח לא היה מתקשר בחוזה אילו ידע את המצב האמיתי, או כאשר התשובה ניתנה בכוונה לרמות. לדוגמה, סעיף 3.4.1 מציין שהתשובה ניתנה בכוונת מרמה, וסעיף 3.4.2 מציין שמבטח סביר לא היה מתקשר בחוזה. This table outlines conditions related to insurance claims, specifically regarding instances of fraud or misrepresentation. It details scenarios where the insurance company may reduce or deny coverage. בין הערכים בטבלה: fraudulent intent: present; reasonable insurer: would not have agreed; full and honest answer: not gi…",
+  "payload": "טבלה: תנאי פוליסה\nThis table outlines conditions related to insurance claims, specifically regarding instances of fraud or misrepresentation. It details scenarios where the insurance company may reduce or deny coverage.\nממדים: conditions for claim reduction/denial, condition details\n\nקרה מקרה הביטוח לפני שנתבטלה הפוליסה מכוח סעיף זה, אין החברה חייבת אלא .3.4 בתגמולי ביטוח מופחתים בשיעור יחסי, שהוא כיחס שבין דמי הביטוח שהיו משתלמים כמקובל אצלה לפי המצב לאמיתו לבין דמי הביטוח המוסכמים, והחברה פטורה כליל בכל אחת מאלה:\nהתשובה ניתנה בכוונת מרמה. .3.4.1\n, מבטח סביר לא היה מתקשר באותו חוזה, אף בדמי ביטוח מרובים יותר .3.4.2 אילו ידע את המצב לאמיתו; במקרה זה זכאי המבוטח להחזר דמי הביטוח ששילם בעד התקופה שלאחר קרות מקרה הביטוח בניכוי הוצאות החברה."
 }

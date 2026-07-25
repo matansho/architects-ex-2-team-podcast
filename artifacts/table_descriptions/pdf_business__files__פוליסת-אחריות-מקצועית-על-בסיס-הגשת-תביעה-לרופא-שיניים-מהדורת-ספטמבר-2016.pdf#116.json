@@ -3,17 +3,17 @@
   "source": "llm",
   "description": {
     "title": "השתתפות עצמית",
-    "summary": "This table details the self-participation amount the insured must pay in case of a claim. It outlines that the insurer is only responsible for amounts exceeding this self-participation.",
-    "embed_passage": "פוליסת אחריות מקצועית קובעת את גובה ההשתתפות העצמית במקרה של תביעה. סכום ההשתתפות העצמית יחול גם על הוצאות שהוציא המבטח בטיפול בתביעה, גם אם לא שולמו פיצויים. לדוגמה, במקרה של תביעה, המבוטח ישא בהשתתפות עצמית כהגדרתה בסעיף ההגדרות.",
-    "row_axis": "Claim scenarios / types",
-    "column_axis": "Self-participation amount",
+    "summary": "This table details the self-participation (deductible) amount the insured must pay in case of a claim. It specifies that this applies to both claims and expenses, even if no compensation is ultimately paid.",
+    "embed_passage": "טבלה זו מתארת את סכום ההשתתפות העצמית שהמבוטח יישא במקרה של תביעה. סכום ההשתתפות העצמית יחול גם על הוצאות שהוציא המבטח תוך כדי טיפול בתביעה. פוליסת אחריות מקצועית על בסיס הגשת תביעה לרופא שיניים מהדורת ספטמבר 2016 מגדירה את ההשתתפות העצמית כהגדרתה בסעיף ההגדרות. ההשתתפות העצמית, הוצאות, תביעה, פיצויים, טיפול בתביעה, דרישה לפיצוי, אירוע העלול לגרום לתביעה.",
+    "row_axis": "claim scenarios / expense types",
+    "column_axis": "self-participation amount",
     "units": [],
     "notable_values": [],
     "product_hints": [
-      "פוליסת אחריות מקצועית"
+      "פוליסת אחריות מקצועית לרופא שיניים"
     ]
   },
   "sketch": ".  השתתפות עצמית 4.13\nבכל מקרה של תביעה ו/או גם הוצאות שיעמדו לתשלום, ישא המבוטח בהשתתפות עצמית כהגדרתה בסעיף ההגדרות, והמבטח לא יהיה אחראי לפצות/ לשפות )לפי העניין( אלא רק בסכום העולה על השתתפות זו.\nלמען הסר ספק, סכום ההשתתפות העצמית יחול גם על הוצאות שהוציא המבטח תוך כדי טיפול בתביעה ו/או דרישה לפיצוי ו/או הודעה על כל אירוע העלול לגרום לתביעה, וזאת אף אם לא שולמו פיצויים בגינם.",
-  "embed_text": "פוליסת אחריות מקצועית קובעת את גובה ההשתתפות העצמית במקרה של תביעה. סכום ההשתתפות העצמית יחול גם על הוצאות שהוציא המבטח בטיפול בתביעה, גם אם לא שולמו פיצויים. לדוגמה, במקרה של תביעה, המבוטח ישא בהשתתפות עצמית כהגדרתה בסעיף ההגדרות.",
-  "payload": "טבלה: השתתפות עצמית\nThis table details the self-participation amount the insured must pay in case of a claim. It outlines that the insurer is only responsible for amounts exceeding this self-participation.\nממדים: Claim scenarios / types, Self-participation amount\n\n.  השתתפות עצמית 4.13\nבכל מקרה של תביעה ו/או גם הוצאות שיעמדו לתשלום, ישא המבוטח בהשתתפות עצמית כהגדרתה בסעיף ההגדרות, והמבטח לא יהיה אחראי לפצות/ לשפות )לפי העניין( אלא רק בסכום העולה על השתתפות זו.\nלמען הסר ספק, סכום ההשתתפות העצמית יחול גם על הוצאות שהוציא המבטח תוך כדי טיפול בתביעה ו/או דרישה לפיצוי ו/או הודעה על כל אירוע העלול לגרום לתביעה, וזאת אף אם לא שולמו פיצויים בגינם."
+  "embed_text": "טבלה זו מתארת את סכום ההשתתפות העצמית שהמבוטח יישא במקרה של תביעה. סכום ההשתתפות העצמית יחול גם על הוצאות שהוציא המבטח תוך כדי טיפול בתביעה. פוליסת אחריות מקצועית על בסיס הגשת תביעה לרופא שיניים מהדורת ספטמבר 2016 מגדירה את ההשתתפות העצמית כהגדרתה בסעיף ההגדרות. ההשתתפות העצמית, הוצאות, תביעה, פיצויים, טיפול בתביעה, דרישה לפיצוי, אירוע העלול לגרום לתביעה. This table details the self-participation (deductible) amount the insured must pay in case of a claim. It specifies that this applies to both claims and expenses, even if no compensation is ultimately paid.",
+  "payload": "טבלה: השתתפות עצמית\nThis table details the self-participation (deductible) amount the insured must pay in case of a claim. It specifies that this applies to both claims and expenses, even if no compensation is ultimately paid.\nממדים: claim scenarios / expense types, self-participation amount\n\n.  השתתפות עצמית 4.13\nבכל מקרה של תביעה ו/או גם הוצאות שיעמדו לתשלום, ישא המבוטח בהשתתפות עצמית כהגדרתה בסעיף ההגדרות, והמבטח לא יהיה אחראי לפצות/ לשפות )לפי העניין( אלא רק בסכום העולה על השתתפות זו.\nלמען הסר ספק, סכום ההשתתפות העצמית יחול גם על הוצאות שהוציא המבטח תוך כדי טיפול בתביעה ו/או דרישה לפיצוי ו/או הודעה על כל אירוע העלול לגרום לתביעה, וזאת אף אם לא שולמו פיצויים בגינם."
 }

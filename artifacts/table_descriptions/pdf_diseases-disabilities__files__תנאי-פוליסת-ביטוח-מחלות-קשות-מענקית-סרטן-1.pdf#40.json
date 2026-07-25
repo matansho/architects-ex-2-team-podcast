@@ -2,23 +2,24 @@
   "id": "pdf:diseases-disabilities/files/תנאי-פוליסת-ביטוח-מחלות-קשות-מענקית-סרטן-1.pdf#40",
   "source": "llm",
   "description": {
-    "title": "תנאי פוליסה - מענקית סרטן",
-    "summary": "This table details conditions related to insurance policy renewals and changes, specifically for 'מענקית סרטן' plans. It outlines scenarios where explicit insured consent is required or waived for policy modifications.",
-    "embed_passage": "פוליסת 'מענקית סרטן' מגדירה תנאים לחידוש או שינוי הכיסוי הביטוחי. לדוגמה, סעיף 11.7.1 מתייחס להגשת תביעה במהלך תקופת הביטוח, וסעיף 11.7.2 מציין תקופה של 120 ימים לפני החידוש בהם המבטח צריך ליידע את המבוטח על שינויים. ייתכן ששינויים בשער או בתנאי התכנית ידרשו הסכמה מראש.",
-    "row_axis": "policy conditions/scenarios",
-    "column_axis": "policy renewal/modification rules",
+    "title": "תנאי פוליסה - סעיפים 11.7",
+    "summary": "This table details conditions related to policy renewal and changes, specifically concerning claims made during the insurance period or the preceding one. It outlines requirements for explicit consent and notification of changes.",
+    "embed_passage": "טבלה זו מתארת תנאי פוליסת ביטוח מחלות קשות מענקית סרטן, ומתייחסת לסעיפים הנוגעים לחידוש הפוליסה ושינויים בתנאים. ניתן לעיין בתנאים אלו כדי להבין את הדרישות לקבלת הסכמה מפורשת של המבוטח, ואת ההודעות הנדרשות בנוגע לשינוי כתובת או תביעות קודמות. הטבלה כוללת מידע על תביעות שהוגשו במהלך תקופת הביטוח הנוכחית או הקודמת, תקופות זמן של 120 ימים, תכניות בסיס ותכניות נוספות, ושינויים שערך המבטח בתכנית. תנאי הפוליסה, תכנית בסיס, תכנית נוספת, 120 ימים, תביעה, שינוי כתובת.",
+    "row_axis": "Policy conditions related to renewal and changes",
+    "column_axis": "Specific clauses and requirements",
     "units": [],
     "notable_values": [
-      "11.7.1: claim submission during policy period",
-      "120: days before renewal for notification of changes",
-      "11.7.2: explicit notification of changes",
-      "11.7.3: pre-approval from supervisor for changes"
+      "תביעה: מימוש זכויות לפי תנאי הפוליסה",
+      "תקופה: 120 ימים",
+      "תכנית בסיס: תכנית שיווק למבטח",
+      "תכנית נוספת: תכנית שהותרה לשיווק יחד עם תכנית בסיס"
     ],
     "product_hints": [
-      "מענקית סרטן"
+      "מענקית סרטן",
+      "פוליסת ביטוח מחלות קשות"
     ]
   },
   "sketch": ", אם המבוטח הגיש במהלך תקופת הביטוח 11.7.1 הנוכחית או זו שקדמה לה, תביעה למימוש ; זכויות לפי תנאי הפוליסה\nשהצטרף למבוטח פירט המבטח אם 11.7.2 ימים 120 לראשונה  לתכנית  בתקופה  של שקדמו  למועד  החידוש  באופן  מפורש  את הביטוח ודמי הביטוח בתנאי השינויים שיחולו  במועד  החידוש  הקרוב,  והמבוטח\n, לעיל 10.1 על  אף  האמור  בסעיף 10.4.4 תכנית של שיווק למבטח הותר נוספת  מסוימת  רק  יחד  עם  תכנית בסיס מסוימת, ובוטלה ע\"י המבוטח גם תבוטל בסיס תכנית אותה התכנית  הנוספת  שהותרה  לשיווק . יחד עמה",
-  "embed_text": "פוליסת 'מענקית סרטן' מגדירה תנאים לחידוש או שינוי הכיסוי הביטוחי. לדוגמה, סעיף 11.7.1 מתייחס להגשת תביעה במהלך תקופת הביטוח, וסעיף 11.7.2 מציין תקופה של 120 ימים לפני החידוש בהם המבטח צריך ליידע את המבוטח על שינויים. ייתכן ששינויים בשער או בתנאי התכנית ידרשו הסכמה מראש.",
-  "payload": "טבלה: תנאי פוליסה - מענקית סרטן\nThis table details conditions related to insurance policy renewals and changes, specifically for 'מענקית סרטן' plans. It outlines scenarios where explicit insured consent is required or waived for policy modifications.\nממדים: policy conditions/scenarios, policy renewal/modification rules\n\n, אם המבוטח הגיש במהלך תקופת הביטוח 11.7.1 הנוכחית או זו שקדמה לה, תביעה למימוש ; זכויות לפי תנאי הפוליסה\nשהצטרף למבוטח פירט המבטח אם 11.7.2 ימים 120 לראשונה  לתכנית  בתקופה  של שקדמו  למועד  החידוש  באופן  מפורש  את הביטוח ודמי הביטוח בתנאי השינויים שיחולו  במועד  החידוש  הקרוב,  והמבוטח\n, לעיל 10.1 על  אף  האמור  בסעיף 10.4.4 תכנית של שיווק למבטח הותר נוספת  מסוימת  רק  יחד  עם  תכנית בסיס מסוימת, ובוטלה ע\"י המבוטח גם תבוטל בסיס תכנית אותה התכנית  הנוספת  שהותרה  לשיווק . יחד עמה"
+  "embed_text": "טבלה זו מתארת תנאי פוליסת ביטוח מחלות קשות מענקית סרטן, ומתייחסת לסעיפים הנוגעים לחידוש הפוליסה ושינויים בתנאים. ניתן לעיין בתנאים אלו כדי להבין את הדרישות לקבלת הסכמה מפורשת של המבוטח, ואת ההודעות הנדרשות בנוגע לשינוי כתובת או תביעות קודמות. הטבלה כוללת מידע על תביעות שהוגשו במהלך תקופת הביטוח הנוכחית או הקודמת, תקופות זמן של 120 ימים, תכניות בסיס ותכניות נוספות, ושינויים שערך המבטח בתכנית. תנאי הפוליסה, תכנית בסיס, תכנית נוספת, 120 ימים, תביעה, שינוי כתובת. This table details conditions related to policy renewal and changes, specifically concerning claims made during the insurance period or the preceding one. It outlines requirements for explicit consent and notification of changes.",
+  "payload": "טבלה: תנאי פוליסה - סעיפים 11.7\nThis table details conditions related to policy renewal and changes, specifically concerning claims made during the insurance period or the preceding one. It outlines requirements for explicit consent and notification of changes.\nממדים: Policy conditions related to renewal and changes, Specific clauses and requirements\n\n, אם המבוטח הגיש במהלך תקופת הביטוח 11.7.1 הנוכחית או זו שקדמה לה, תביעה למימוש ; זכויות לפי תנאי הפוליסה\nשהצטרף למבוטח פירט המבטח אם 11.7.2 ימים 120 לראשונה  לתכנית  בתקופה  של שקדמו  למועד  החידוש  באופן  מפורש  את הביטוח ודמי הביטוח בתנאי השינויים שיחולו  במועד  החידוש  הקרוב,  והמבוטח\n, לעיל 10.1 על  אף  האמור  בסעיף 10.4.4 תכנית של שיווק למבטח הותר נוספת  מסוימת  רק  יחד  עם  תכנית בסיס מסוימת, ובוטלה ע\"י המבוטח גם תבוטל בסיס תכנית אותה התכנית  הנוספת  שהותרה  לשיווק . יחד עמה"
 }

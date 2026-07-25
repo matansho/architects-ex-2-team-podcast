@@ -3,21 +3,22 @@
   "source": "llm",
   "description": {
     "title": "הרשאה לחיוב חשבון",
-    "summary": "This table outlines the terms for a direct debit authorization. It details conditions for cancellation and bank responsibilities regarding charges.",
-    "embed_passage": "הרשאה זו ניתנת לביטול ע״י הודעה בכתב, ובלבד שההודעה תימסר לבנק ימי עסקים לאחר מועד החיוב. הבנק רשאי לבטל חיוב מסוים אם אינו תואם את הסכומים שנקבעו בהרשאה. הרשאה של יעשה בה שימוש במשך תקופה של 24 חודשים ממועד החיוב האחרון.",
-    "row_axis": "conditions/clauses related to the direct debit authorization",
-    "column_axis": "details/specifications of the conditions",
+    "summary": "This table outlines the terms and conditions for a direct debit authorization. It details the duration of the authorization, conditions for cancellation, and the bank's rights regarding the agreement.",
+    "embed_passage": "טבלה זו מתארת את תנאי ההרשאה לחיוב חשבון, כולל תקופת תוקף ההרשאה, תנאי ביטול, וזכויות הבנק. ניתן להשתמש בהרשאה למשך תקופה של 24 חודשים ממועד החיוב האחרון. הרשאה זו ניתנת לביטול בהודעה בכתב לבנק. מענקית זהב ומענקית סרטן היא תוכנית ביטוח המאפשרת חיוב חשבון אוטומטי. ההרשאה תקפה בכפוף להוראות כל דין והסכם עם הבנק. הבנק רשאי לבטל את ההרשאה אם יש לו סיבה סבירה לכך.",
+    "row_axis": "סעיף בהרשאה",
+    "column_axis": "תנאי הרשאה",
     "units": [],
     "notable_values": [
-      "period: 24 חודשים",
-      "notice period: יום עסקים אחד",
-      "cancellation condition: הודעה בכתב"
+      "תקופת תוקף: 24 חודשים",
+      "ביטול: הודעה בכתב",
+      "בנק רשאי לבטל: סיבה סבירה"
     ],
     "product_hints": [
-      "הרשאה לחיוב חשבון"
+      "מענקית זהב",
+      "מענקית סרטן"
     ]
   },
   "sketch": "חודשים ממועד החיוב האחרון, בטלה. 24 הרשאה של יעשה בה שימוש במשך תקופה של ו.\nאם תעשו לבקשתנו, הבנק יפעל בהתאם להוראות הרשאה זו, בכפוף להוראות כל דין והסכם שבנינו לבין הבנק. ז.\nהבנק רשאי להוציאנו מן ההסדר המפורט בהרשאה זו, אם תהיה לו סיבה סבירה לכך, ויודיע לנו על כך מיד לאחר קבלת החלטתו תוך ציון ח. הסיבה.",
-  "embed_text": "הרשאה זו ניתנת לביטול ע״י הודעה בכתב, ובלבד שההודעה תימסר לבנק ימי עסקים לאחר מועד החיוב. הבנק רשאי לבטל חיוב מסוים אם אינו תואם את הסכומים שנקבעו בהרשאה. הרשאה של יעשה בה שימוש במשך תקופה של 24 חודשים ממועד החיוב האחרון.",
-  "payload": "טבלה: הרשאה לחיוב חשבון\nThis table outlines the terms for a direct debit authorization. It details conditions for cancellation and bank responsibilities regarding charges.\nממדים: conditions/clauses related to the direct debit authorization, details/specifications of the conditions\n\nחודשים ממועד החיוב האחרון, בטלה. 24 הרשאה של יעשה בה שימוש במשך תקופה של ו.\nאם תעשו לבקשתנו, הבנק יפעל בהתאם להוראות הרשאה זו, בכפוף להוראות כל דין והסכם שבנינו לבין הבנק. ז.\nהבנק רשאי להוציאנו מן ההסדר המפורט בהרשאה זו, אם תהיה לו סיבה סבירה לכך, ויודיע לנו על כך מיד לאחר קבלת החלטתו תוך ציון ח. הסיבה."
+  "embed_text": "טבלה זו מתארת את תנאי ההרשאה לחיוב חשבון, כולל תקופת תוקף ההרשאה, תנאי ביטול, וזכויות הבנק. ניתן להשתמש בהרשאה למשך תקופה של 24 חודשים ממועד החיוב האחרון. הרשאה זו ניתנת לביטול בהודעה בכתב לבנק. מענקית זהב ומענקית סרטן היא תוכנית ביטוח המאפשרת חיוב חשבון אוטומטי. ההרשאה תקפה בכפוף להוראות כל דין והסכם עם הבנק. הבנק רשאי לבטל את ההרשאה אם יש לו סיבה סבירה לכך. This table outlines the terms and conditions for a direct debit authorization. It details the duration of the authorization, conditions for cancellation, and the bank's rights regarding the agreement.",
+  "payload": "טבלה: הרשאה לחיוב חשבון\nThis table outlines the terms and conditions for a direct debit authorization. It details the duration of the authorization, conditions for cancellation, and the bank's rights regarding the agreement.\nממדים: סעיף בהרשאה, תנאי הרשאה\n\nחודשים ממועד החיוב האחרון, בטלה. 24 הרשאה של יעשה בה שימוש במשך תקופה של ו.\nאם תעשו לבקשתנו, הבנק יפעל בהתאם להוראות הרשאה זו, בכפוף להוראות כל דין והסכם שבנינו לבין הבנק. ז.\nהבנק רשאי להוציאנו מן ההסדר המפורט בהרשאה זו, אם תהיה לו סיבה סבירה לכך, ויודיע לנו על כך מיד לאחר קבלת החלטתו תוך ציון ח. הסיבה."
 }

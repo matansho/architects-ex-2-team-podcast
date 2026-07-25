@@ -2,24 +2,20 @@
   "id": "pdf:business/files/מכלול-למושב-ינואר-2023.pdf#392",
   "source": "llm",
   "description": {
-    "title": "מכלול פוליסה",
-    "summary": "This table details conditions related to policy cancellation and the impact of misrepresentation on insurance claims. It outlines scenarios where the insurer may be entitled to reduced or no compensation based on the insured's honesty and knowledge.",
-    "embed_passage": "פוליסת 'מכלול' מתייחסת למצבים בהם המבטח יכול לבטל את החוזה עקב מצג שווא, או חוסר גילוי. לדוגמה, אם המבוטח ידע שהמצב הוא כפי שהוא, אך מסר תשובה לא מלאה וכנה, המבטח לא יהיה זכאי לתרופות מסוימות. תנאי 2.9.2 מציין שמבטח סביר לא היה מתקשר באותה פוליסה בדמי ביטוח מרובים יותר.",
-    "row_axis": "Policy conditions related to misrepresentation or cancellation",
-    "column_axis": "Specific clauses and their implications",
+    "title": "תנאי ביטול פוליסה",
+    "summary": "This table outlines conditions under which an insurer can cancel a policy and the resulting refunds or reduced payouts. It details scenarios related to fraudulent intent and knowledge of the insured's condition.",
+    "embed_passage": "טבלה זו מתארת תנאים לביטול פוליסה, כולל החזר כספי או תגמולים מופחתים במקרה של ביטול. ניתן לעיין בתנאים אלו כדי להבין את הזכויות והחובות של המבטח והמבוטח, במיוחד במקרים של מצג שווא או אי-גילוי. התנאים מתייחסים למקרים בהם מבטח סביר לא היה מתקשר בפוליסה, או כאשר תשובה לא הייתה מלאה וכנה. המבטח אינו זכאי לתרופות מסוימות אלא אם התשובה ניתנה בכוונת מרמה. תנאי 2.9.2, 2.10.1 ו-2.10.2 מפרטים מצבים ספציפיים הקשורים לביטול הפוליסה.",
+    "row_axis": "תנאי ביטול",
+    "column_axis": "תיאור התנאי",
     "units": [],
     "notable_values": [
-      "2.8: Condition related to policy cancellation",
-      "2.9.2: Insurer's willingness to insure with full knowledge",
-      "2.10.1: Insurer's knowledge of the true state",
-      "2.10.2: Cessation of misrepresentation before claim",
-      "2.11: Prevention of legal remedies for the insurer"
+      "תנאי 2.9.2: מבטח סביר לא היה מתקשר בפוליסה",
+      "תנאי 2.10.1: המבטח ידע את המצב לאמיתו",
+      "תנאי 2.10.2: העובדה חדלה להתקיים לפני מקרה הביטוח"
     ],
-    "product_hints": [
-      "מכלול"
-    ]
+    "product_hints": []
   },
   "sketch": "מבטח סביר לא היה מתקשר באותה פוליסה, אף בדמי ביטוח מרובים .2.9.2 יותר, אילו ידע שהמצב הוא כפי שהוא.\nלעיל בתנאי זה בכל אחת 2.8ו 2.7 .  המבטח אינו זכאי לתרופות האמורות בתנאי 2.10 אלא אם התשובה שלא הייתה מלאה וכנה ניתנה בכוונת מרמה: , מאלה\n.  המבטח ידע או היה עליו לדעת את המצב לאמיתו בשעת כריתת החוזה או 2.10.1 שהוא גרם לכך שהתשובה לא הייתה מלאה וכנה;\n.  העובדה שעליה ניתנה תשובה שלא הייתה מלאה וכנה חדלה להתקיים לפני 2.10.2 שקרה מקרה הביטוח, או שלא השפיעה על מקרהו, על חבות המבטח או על היקפה.",
-  "embed_text": "פוליסת 'מכלול' מתייחסת למצבים בהם המבטח יכול לבטל את החוזה עקב מצג שווא, או חוסר גילוי. לדוגמה, אם המבוטח ידע שהמצב הוא כפי שהוא, אך מסר תשובה לא מלאה וכנה, המבטח לא יהיה זכאי לתרופות מסוימות. תנאי 2.9.2 מציין שמבטח סביר לא היה מתקשר באותה פוליסה בדמי ביטוח מרובים יותר.",
-  "payload": "טבלה: מכלול פוליסה\nThis table details conditions related to policy cancellation and the impact of misrepresentation on insurance claims. It outlines scenarios where the insurer may be entitled to reduced or no compensation based on the insured's honesty and knowledge.\nממדים: Policy conditions related to misrepresentation or cancellation, Specific clauses and their implications\n\nמבטח סביר לא היה מתקשר באותה פוליסה, אף בדמי ביטוח מרובים .2.9.2 יותר, אילו ידע שהמצב הוא כפי שהוא.\nלעיל בתנאי זה בכל אחת 2.8ו 2.7 .  המבטח אינו זכאי לתרופות האמורות בתנאי 2.10 אלא אם התשובה שלא הייתה מלאה וכנה ניתנה בכוונת מרמה: , מאלה\n.  המבטח ידע או היה עליו לדעת את המצב לאמיתו בשעת כריתת החוזה או 2.10.1 שהוא גרם לכך שהתשובה לא הייתה מלאה וכנה;\n.  העובדה שעליה ניתנה תשובה שלא הייתה מלאה וכנה חדלה להתקיים לפני 2.10.2 שקרה מקרה הביטוח, או שלא השפיעה על מקרהו, על חבות המבטח או על היקפה."
+  "embed_text": "טבלה זו מתארת תנאים לביטול פוליסה, כולל החזר כספי או תגמולים מופחתים במקרה של ביטול. ניתן לעיין בתנאים אלו כדי להבין את הזכויות והחובות של המבטח והמבוטח, במיוחד במקרים של מצג שווא או אי-גילוי. התנאים מתייחסים למקרים בהם מבטח סביר לא היה מתקשר בפוליסה, או כאשר תשובה לא הייתה מלאה וכנה. המבטח אינו זכאי לתרופות מסוימות אלא אם התשובה ניתנה בכוונת מרמה. תנאי 2.9.2, 2.10.1 ו-2.10.2 מפרטים מצבים ספציפיים הקשורים לביטול הפוליסה. This table outlines conditions under which an insurer can cancel a policy and the resulting refunds or reduced payouts. It details scenarios related to fraudulent intent and knowledge of the insured's condition. בין הערכים בטבלה: תנאי 2.10.1: המבטח ידע את המצב לאמיתו; תנאי 2.10.2: העובדה חדלה להתקיים לפני מקרה הביטוח.",
+  "payload": "טבלה: תנאי ביטול פוליסה\nThis table outlines conditions under which an insurer can cancel a policy and the resulting refunds or reduced payouts. It details scenarios related to fraudulent intent and knowledge of the insured's condition.\nממדים: תנאי ביטול, תיאור התנאי\n\nמבטח סביר לא היה מתקשר באותה פוליסה, אף בדמי ביטוח מרובים .2.9.2 יותר, אילו ידע שהמצב הוא כפי שהוא.\nלעיל בתנאי זה בכל אחת 2.8ו 2.7 .  המבטח אינו זכאי לתרופות האמורות בתנאי 2.10 אלא אם התשובה שלא הייתה מלאה וכנה ניתנה בכוונת מרמה: , מאלה\n.  המבטח ידע או היה עליו לדעת את המצב לאמיתו בשעת כריתת החוזה או 2.10.1 שהוא גרם לכך שהתשובה לא הייתה מלאה וכנה;\n.  העובדה שעליה ניתנה תשובה שלא הייתה מלאה וכנה חדלה להתקיים לפני 2.10.2 שקרה מקרה הביטוח, או שלא השפיעה על מקרהו, על חבות המבטח או על היקפה."
 }

@@ -2,25 +2,24 @@
   "id": "pdf:apartment/files/adira-silver-2025-apartment-plus-contents-אדירה-כסף-פברואר-25-באנגלית.pdf#34",
   "source": "llm",
   "description": {
-    "title": "אדירה כסף - כיסויים",
-    "summary": "This table details the covered perils under the Adira Silver apartment insurance policy. It lists events like explosions, winds exceeding 30 knots, and theft, specifying conditions and exclusions.",
-    "embed_passage": "פוליסת אדירה כסף מציעה כיסוי לנזקים הנגרמים כתוצאה מרוחות החורגות מ-30 קשר, התנגשות של רכב עם הדירה, ופיצוץ או בעירה. הכיסוי חל על נזקים ישירים לדירה ולתכולתה, בהתאם לתנאי הפוליסה. חשוב לבדוק את ההחרגות, כגון מקרים של שהייה ממושכת בדירה.",
-    "row_axis": "Covered Peril",
-    "column_axis": "Description of Coverage/Exclusion",
+    "title": "כיסויים - אדירה כסף",
+    "summary": "This table details coverage exclusions for the 'Adira Kesef' apartment insurance policy. It lists events that are generally covered, with specific exceptions noted.",
+    "embed_passage": "טבלה זו מתארת כיסויים ביטוחיים עבור פוליסת 'אדירה כסף' לדירה, ומפרטת מקרים שאינם כלולים בכיסוי הסטנדרטי. ניתן לחפש מידע על סוגי נזקים ספציפיים, כגון פיצוץ, שריפה, או גניבה, כדי להבין את תנאי הפוליסה. הנה דוגמאות לכיסויים: פיצוץ או בעירה, רוחות מעל 30 קשר, נפילת מטוסים, התנגשות רכב בדירה, מעשי ונדליזם (למעט מקרים מסוימים). מעשי ונדליזם שנעשו בזמן שהדירה ריקה אינם מכוסים. גניבה כאשר הדירה אינה מאוישת אינה כלולה בכיסוי.",
+    "row_axis": "סוג כיסוי / אירוע",
+    "column_axis": "תיאור הכיסוי / הגבלה",
     "units": [],
     "notable_values": [
-      "Wind speed: 30 knots",
-      "Silver items coverage: up to 10% of sum insured",
-      "Sculptures/art coverage: up to 10% of sum insured",
-      "Carpets coverage: up to 10% of sum insured",
-      "Stamp collection coverage: up to 5%"
+      "רוחות: 30 קשר",
+      "מעשי ונדליזם: לא מכוסים בדירה ריקה",
+      "גניבה: לא מכוסה בדירה ריקה",
+      "נפילת מטוסים: כלול"
     ],
     "product_hints": [
       "אדירה כסף",
-      "Adira Silver"
+      "Adira Kesef"
     ]
   },
   "sketch": "15.2 Explosion or combustion.\n15.3 Winds exceeding 30 knots, including rain falling at the same time, snow or hail, except for leakage of rainwater through walls or ceilings or absorption thereof.\n15.4 Falling aircraft, falling objects from aircraft, supersonic vibration caused by aircraft.\n15.5 Contact or collision of a vehicle with the apartment.",
-  "embed_text": "פוליסת אדירה כסף מציעה כיסוי לנזקים הנגרמים כתוצאה מרוחות החורגות מ-30 קשר, התנגשות של רכב עם הדירה, ופיצוץ או בעירה. הכיסוי חל על נזקים ישירים לדירה ולתכולתה, בהתאם לתנאי הפוליסה. חשוב לבדוק את ההחרגות, כגון מקרים של שהייה ממושכת בדירה.",
-  "payload": "טבלה: אדירה כסף - כיסויים\nThis table details the covered perils under the Adira Silver apartment insurance policy. It lists events like explosions, winds exceeding 30 knots, and theft, specifying conditions and exclusions.\nממדים: Covered Peril, Description of Coverage/Exclusion\n\n15.2 Explosion or combustion.\n15.3 Winds exceeding 30 knots, including rain falling at the same time, snow or hail, except for leakage of rainwater through walls or ceilings or absorption thereof.\n15.4 Falling aircraft, falling objects from aircraft, supersonic vibration caused by aircraft.\n15.5 Contact or collision of a vehicle with the apartment."
+  "embed_text": "טבלה זו מתארת כיסויים ביטוחיים עבור פוליסת 'אדירה כסף' לדירה, ומפרטת מקרים שאינם כלולים בכיסוי הסטנדרטי. ניתן לחפש מידע על סוגי נזקים ספציפיים, כגון פיצוץ, שריפה, או גניבה, כדי להבין את תנאי הפוליסה. הנה דוגמאות לכיסויים: פיצוץ או בעירה, רוחות מעל 30 קשר, נפילת מטוסים, התנגשות רכב בדירה, מעשי ונדליזם (למעט מקרים מסוימים). מעשי ונדליזם שנעשו בזמן שהדירה ריקה אינם מכוסים. גניבה כאשר הדירה אינה מאוישת אינה כלולה בכיסוי. This table details coverage exclusions for the 'Adira Kesef' apartment insurance policy. It lists events that are generally covered, with specific exceptions noted.",
+  "payload": "טבלה: כיסויים - אדירה כסף\nThis table details coverage exclusions for the 'Adira Kesef' apartment insurance policy. It lists events that are generally covered, with specific exceptions noted.\nממדים: סוג כיסוי / אירוע, תיאור הכיסוי / הגבלה\n\n15.2 Explosion or combustion.\n15.3 Winds exceeding 30 knots, including rain falling at the same time, snow or hail, except for leakage of rainwater through walls or ceilings or absorption thereof.\n15.4 Falling aircraft, falling objects from aircraft, supersonic vibration caused by aircraft.\n15.5 Contact or collision of a vehicle with the apartment."
 }

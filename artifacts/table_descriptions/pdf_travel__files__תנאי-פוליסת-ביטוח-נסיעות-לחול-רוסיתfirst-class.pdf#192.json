@@ -2,23 +2,24 @@
   "id": "pdf:travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-רוסיתfirst-class.pdf#192",
   "source": "llm",
   "description": {
-    "title": "ביטוח נסיעות - אובדן/גניבת אופניים",
-    "summary": "This table details the conditions for insurance claims related to bicycle loss or theft during travel. It outlines requirements for police reports, handling of recovered bicycles, and conditions for full loss claims.",
-    "embed_passage": "פוליסת ביטוח נסיעות לחול מספקת כיסוי במקרה של אובדן או גניבה של אופניים במהלך הנסיעה. במקרה של גניבה, נדרשת הצגת אישור משטרה מהמקום בו התרחשה הגניבה, כולל ציון מיקום האופניים בזמן הגניבה. אם האופניים נמצאים לאחר תשלום הפיצוי, הם הופכים לרכוש המבטח.",
-    "row_axis": "Scenario/Condition related to bicycle loss or theft",
-    "column_axis": "Claim condition/action",
+    "title": "אובדן/גניבת אופניים",
+    "summary": "This table details the conditions for insurance claims related to loss or theft of bicycles during travel. It outlines requirements for police reports, handling of recovered bicycles, and conditions for full loss claims.",
+    "embed_passage": "טבלה זו מתארת את התנאים לקבלת פיצוי בגין אובדן או גניבה של אופניים במהלך נסיעה, במסגרת פוליסת ביטוח נסיעות. הפיצוי מותנה בהצגת אישור משטרה, וכן בהתייחסות למצב האופניים במידה ויימצאו לאחר תשלום הפיצוי. הפוליסה מתייחסת גם למקרה של אובדן מוחלט של האופניים כתוצאה מתאונה במהלך הובלה. תנאי הפוליסה כוללים דרישה לאישור משטרה, טיפול באופניים שנמצאו, ואובדן מוחלט. האופניים, אישור משטרה, תאונה, הובלה, פיצוי.",
+    "row_axis": "Conditions for bicycle loss/theft claims",
+    "column_axis": "Claim details and procedures",
     "units": [],
     "notable_values": [
-      "Damage exceeding 50%: return of bicycle not covered",
-      "Police report: required for theft claims",
-      "Recovered bicycle: transferred to insurer if compensation already paid"
+      "Damage exceeding 50% : bicycle returned to insured",
+      "Police report: required from incident location",
+      "Recovered bicycle: transferred to insurer after payout",
+      "Full loss: due to accident during transport"
     ],
     "product_hints": [
-      "ביטוח נסיעות לחול",
+      "ביטוח נסיעות",
       "רוסיתfirst-class"
     ]
   },
   "sketch": "23.3.2.2.  Застрахованный представил справку из полиции , полученную на месте происшествия за границей, о том, что данный велосипед был украден, включая упоминание его местонахождения в то время, когда произошла кража.\n23.3.2.3.  Если украденный велосипед будет найден до того, как за него будет выплачено страховое вознаграждение в соответствии с этой главой, он будет возвращен застрахованному, и страховщик не станет выплачивать за него страховое вознаграждение, за исключением\nтех случаев, когда имела место полная потеря возвращенного велосипеда или если ему был нанесен ущерб, превышающий 50%.\n23.3.2.4.  Если украденный велосипед будет найден после того, как за него будет выплачено страховое вознаграждение, он будет передан в собственность страховщика.\n23.3.3. Полная потеря застрахованного велосипеда в результате аварии, имевшей место у перевозчика, которая произошла во время его перевозки в транспортном средстве или на таковом, и в соответствии со следующими суммарными условиями:",
-  "embed_text": "פוליסת ביטוח נסיעות לחול מספקת כיסוי במקרה של אובדן או גניבה של אופניים במהלך הנסיעה. במקרה של גניבה, נדרשת הצגת אישור משטרה מהמקום בו התרחשה הגניבה, כולל ציון מיקום האופניים בזמן הגניבה. אם האופניים נמצאים לאחר תשלום הפיצוי, הם הופכים לרכוש המבטח.",
-  "payload": "טבלה: ביטוח נסיעות - אובדן/גניבת אופניים\nThis table details the conditions for insurance claims related to bicycle loss or theft during travel. It outlines requirements for police reports, handling of recovered bicycles, and conditions for full loss claims.\nממדים: Scenario/Condition related to bicycle loss or theft, Claim condition/action\n\n23.3.2.2.  Застрахованный представил справку из полиции , полученную на месте происшествия за границей, о том, что данный велосипед был украден, включая упоминание его местонахождения в то время, когда произошла кража.\n23.3.2.3.  Если украденный велосипед будет найден до того, как за него будет выплачено страховое вознаграждение в соответствии с этой главой, он будет возвращен застрахованному, и страховщик не станет выплачивать за него страховое вознаграждение, за исключением\nтех случаев, когда имела место полная потеря возвращенного велосипеда или если ему был нанесен ущерб, превышающий 50%.\n23.3.2.4.  Если украденный велосипед будет найден после того, как за него будет выплачено страховое вознаграждение, он будет передан в собственность страховщика.\n23.3.3. Полная потеря застрахованного велосипеда в результате аварии, имевшей место у перевозчика, которая произошла во время его перевозки в транспортном средстве или на таковом, и в соответствии со следующими суммарными условиями:"
+  "embed_text": "טבלה זו מתארת את התנאים לקבלת פיצוי בגין אובדן או גניבה של אופניים במהלך נסיעה, במסגרת פוליסת ביטוח נסיעות. הפיצוי מותנה בהצגת אישור משטרה, וכן בהתייחסות למצב האופניים במידה ויימצאו לאחר תשלום הפיצוי. הפוליסה מתייחסת גם למקרה של אובדן מוחלט של האופניים כתוצאה מתאונה במהלך הובלה. תנאי הפוליסה כוללים דרישה לאישור משטרה, טיפול באופניים שנמצאו, ואובדן מוחלט. האופניים, אישור משטרה, תאונה, הובלה, פיצוי. This table details the conditions for insurance claims related to loss or theft of bicycles during travel. It outlines requirements for police reports, handling of recovered bicycles, and conditions for full loss claims. בין הערכים בטבלה: Damage exceeding 50% : bicycle returned to insured; Police report: required from incident location; Recovered bicycle: transferred to insurer after payout; Ful…",
+  "payload": "טבלה: אובדן/גניבת אופניים\nThis table details the conditions for insurance claims related to loss or theft of bicycles during travel. It outlines requirements for police reports, handling of recovered bicycles, and conditions for full loss claims.\nממדים: Conditions for bicycle loss/theft claims, Claim details and procedures\n\n23.3.2.2.  Застрахованный представил справку из полиции , полученную на месте происшествия за границей, о том, что данный велосипед был украден, включая упоминание его местонахождения в то время, когда произошла кража.\n23.3.2.3.  Если украденный велосипед будет найден до того, как за него будет выплачено страховое вознаграждение в соответствии с этой главой, он будет возвращен застрахованному, и страховщик не станет выплачивать за него страховое вознаграждение, за исключением\nтех случаев, когда имела место полная потеря возвращенного велосипеда или если ему был нанесен ущерб, превышающий 50%.\n23.3.2.4.  Если украденный велосипед будет найден после того, как за него будет выплачено страховое вознаграждение, он будет передан в собственность страховщика.\n23.3.3. Полная потеря застрахованного велосипеда в результате аварии, имевшей место у перевозчика, которая произошла во время его перевозки в транспортном средстве или на таковом, и в соответствии со следующими суммарными условиями:"
 }

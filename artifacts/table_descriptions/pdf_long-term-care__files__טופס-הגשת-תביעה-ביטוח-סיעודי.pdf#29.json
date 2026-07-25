@@ -2,25 +2,24 @@
   "id": "pdf:long-term-care/files/טופס-הגשת-תביעה-ביטוח-סיעודי.pdf#29",
   "source": "llm",
   "description": {
-    "title": "טופס תביעה סיעודי",
-    "summary": "This table is part of a long-term care claim form. It collects information about the insured's medical history and the healthcare professionals involved in their care.",
-    "embed_passage": "טופס זה מיועד לאיסוף מידע רפואי לצורך תביעת ביטוח סיעודי של הראל. נבקש לציין את שמות הרופאים המטפלים, קופת החולים, ותחום ההתמחות שלהם. לדוגמה, שם הרופא יכול להיות 'ד״ר כהן', קופת החולים 'לאומית', והתמחות 'גריאטריה'.",
-    "row_axis": "Healthcare professional / medical detail",
-    "column_axis": "Type of information requested (e.g., current/past care, doctor's name, clinic name)",
+    "title": "בדיקת זכאות לסיעוד",
+    "summary": "This table is for assessing eligibility for long-term care benefits. It collects information about the insured's medical history and the professionals who have treated them.",
+    "embed_passage": "טופס זה נועד לבדיקת זכאות לביטוח סיעודי של הראל, ומשמש לקביעת רמת התלות של המבוטח. יש לציין את שמות הרופאים המטפלים, קופת החולים, ופרטי המרפאה בהם טופל המבוטח בעבר ובהווה. המידע נאסף לצורך הערכת הצורך בסיעוד על ידי לאומי ביטוח והמוסד. ט.חולים, ט.סניף, והרופא המטפל הם חלק מהפרטים הנדרשים. ביטוח סיעודי הראל מסייע בהבטחת איכות החיים.",
+    "row_axis": "professional/doctor who treated the insured",
+    "column_axis": "details about the treatment/doctor (e.g., hospital name, specialty)",
     "units": [],
     "notable_values": [
-      "ביטוח לאומי: כן",
-      "קביעת הזכאות לסיעוד: ח",
-      "קופת חולים: לאומית",
-      "תלות: הערכת המוסד",
-      "רופא משפחה: שם הרופא"
+      "קופת חולים: ט.חולים",
+      "סניף: ט.סניף",
+      "רופא מטפל: שם הרופא",
+      "מרפאה: שם המרפאה"
     ],
     "product_hints": [
-      "ביטוח סיעודי הראל",
-      "פוליסת סיעוד"
+      "ביטוח סיעודי",
+      "הראל"
     ]
   },
   "sketch": "לאומי ביטוח בדיקת ח\nכן סמן אנא בסיעוד הזכאות קביעת לצורך תלות הערכת לך ביצע לאומי לביטוח והמוסד ככל\nובעבר כיום בך שטיפלו מקצועיים/מומחים ורופאים המשפחה רופאי שמות את לציין נבקשך ט.חולים קופת שם,ובעבר כיום בך שטיפלו מקצועיים/מומחים ורופאים המשפחה רופאי שמות את לציין נבקשך ט.סניף,ובעבר כיום בך שטיפלו מקצועיים/מומחים ורופאים המשפחה רופאי שמות את לציין נבקשך ט.המטפל הרופא שם\nהמרפאה שם,התמחות תחום,הרופא שם\nהמרפאה שם,התמחות תחום,הרופא שם",
-  "embed_text": "טופס זה מיועד לאיסוף מידע רפואי לצורך תביעת ביטוח סיעודי של הראל. נבקש לציין את שמות הרופאים המטפלים, קופת החולים, ותחום ההתמחות שלהם. לדוגמה, שם הרופא יכול להיות 'ד״ר כהן', קופת החולים 'לאומית', והתמחות 'גריאטריה'.",
-  "payload": "טבלה: טופס תביעה סיעודי\nThis table is part of a long-term care claim form. It collects information about the insured's medical history and the healthcare professionals involved in their care.\nממדים: Healthcare professional / medical detail, Type of information requested (e.g., current/past care, doctor's name, clinic name)\n\nלאומי ביטוח בדיקת ח\nכן סמן אנא בסיעוד הזכאות קביעת לצורך תלות הערכת לך ביצע לאומי לביטוח והמוסד ככל\nובעבר כיום בך שטיפלו מקצועיים/מומחים ורופאים המשפחה רופאי שמות את לציין נבקשך ט.חולים קופת שם,ובעבר כיום בך שטיפלו מקצועיים/מומחים ורופאים המשפחה רופאי שמות את לציין נבקשך ט.סניף,ובעבר כיום בך שטיפלו מקצועיים/מומחים ורופאים המשפחה רופאי שמות את לציין נבקשך ט.המטפל הרופא שם\nהמרפאה שם,התמחות תחום,הרופא שם\nהמרפאה שם,התמחות תחום,הרופא שם"
+  "embed_text": "טופס זה נועד לבדיקת זכאות לביטוח סיעודי של הראל, ומשמש לקביעת רמת התלות של המבוטח. יש לציין את שמות הרופאים המטפלים, קופת החולים, ופרטי המרפאה בהם טופל המבוטח בעבר ובהווה. המידע נאסף לצורך הערכת הצורך בסיעוד על ידי לאומי ביטוח והמוסד. ט.חולים, ט.סניף, והרופא המטפל הם חלק מהפרטים הנדרשים. ביטוח סיעודי הראל מסייע בהבטחת איכות החיים. This table is for assessing eligibility for long-term care benefits. It collects information about the insured's medical history and the professionals who have treated them. בין הערכים בטבלה: רופא מטפל: שם הרופא.",
+  "payload": "טבלה: בדיקת זכאות לסיעוד\nThis table is for assessing eligibility for long-term care benefits. It collects information about the insured's medical history and the professionals who have treated them.\nממדים: professional/doctor who treated the insured, details about the treatment/doctor (e.g., hospital name, specialty)\n\nלאומי ביטוח בדיקת ח\nכן סמן אנא בסיעוד הזכאות קביעת לצורך תלות הערכת לך ביצע לאומי לביטוח והמוסד ככל\nובעבר כיום בך שטיפלו מקצועיים/מומחים ורופאים המשפחה רופאי שמות את לציין נבקשך ט.חולים קופת שם,ובעבר כיום בך שטיפלו מקצועיים/מומחים ורופאים המשפחה רופאי שמות את לציין נבקשך ט.סניף,ובעבר כיום בך שטיפלו מקצועיים/מומחים ורופאים המשפחה רופאי שמות את לציין נבקשך ט.המטפל הרופא שם\nהמרפאה שם,התמחות תחום,הרופא שם\nהמרפאה שם,התמחות תחום,הרופא שם"
 }

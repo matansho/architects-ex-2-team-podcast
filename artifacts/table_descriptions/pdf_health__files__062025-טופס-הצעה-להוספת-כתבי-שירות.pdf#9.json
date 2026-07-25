@@ -3,19 +3,17 @@
   "source": "llm",
   "description": {
     "title": "טופס הצעה לכתבי שירות",
-    "summary": "This table is a health insurance quote request form. It asks about existing coverage to determine eligibility for adding new riders or services to an existing policy.",
-    "embed_passage": "טופס זה הוא הצעה להוספת כתבי שירות, והוא מתייחס למי שברשותו כבר כתב שירות ביטוח. השירות הקיים בפוליסה הקיימים הכיסויים, והתשובה מתייחסת רק לחלק מהמועמדים לביטוח. לדוגמה, האם מבקשים להצטרף לשירות דומה מסוג כתב ביטוח?",
-    "row_axis": "Applicant/Policyholder",
-    "column_axis": "Questions about existing insurance coverage",
+    "summary": "This table is a health questionnaire for adding service riders to an existing insurance policy. It asks whether applicants seeking to join a service wish to add a similar service rider to their existing insurance.",
+    "embed_passage": "טופס זה הוא הצעה להוספת כתבי שירות, והוא רלוונטי למבוטח הראשי, בן/בת הזוג וילדים מבוטחים. השאלות מתייחסות לבדיקה האם מועמדים מבקשים להצטרף לשירות דומה לכתב שירות קיים. התשובה צריכה להתייחס לכיסויים הקיימים בפוליסה הקיימת. כתב שירות, ביטוח, פוליסה קיימת, שירות קיים, הצטרפות לשירות, כיסויים קיימים.",
+    "row_axis": "Applicant response to a question about adding a service rider",
+    "column_axis": "Question about adding a service rider",
     "units": [],
-    "notable_values": [
-      "Question 1: האם מבקשים להצטרף לשירות דומה מסוג כתב ביטוח?"
-    ],
+    "notable_values": [],
     "product_hints": [
       "כתב שירות"
     ]
   },
   "sketch": "0,1,2\nן כ,לא,\"במסגרת להצטרף מבקשים אליו השירות לכתב דומה מסוג שירות כתב לביטוח מהמועמדים יותר או אחד ברשות קיימת האם .1 ? ( הקיים\"\" השירות \"\"כתב להלן- ) זה הצעה טופס ...........................................: הקיימת בפוליסה הקיימים הכיסויים .............................................................: למי ציין נא לביטוח, מהמועמדים לחלק רק מתייחסת והתשובה מידה\"",
-  "embed_text": "טופס זה הוא הצעה להוספת כתבי שירות, והוא מתייחס למי שברשותו כבר כתב שירות ביטוח. השירות הקיים בפוליסה הקיימים הכיסויים, והתשובה מתייחסת רק לחלק מהמועמדים לביטוח. לדוגמה, האם מבקשים להצטרף לשירות דומה מסוג כתב ביטוח?",
-  "payload": "טבלה: טופס הצעה לכתבי שירות\nThis table is a health insurance quote request form. It asks about existing coverage to determine eligibility for adding new riders or services to an existing policy.\nממדים: Applicant/Policyholder, Questions about existing insurance coverage\n\n0,1,2\nן כ,לא,\"במסגרת להצטרף מבקשים אליו השירות לכתב דומה מסוג שירות כתב לביטוח מהמועמדים יותר או אחד ברשות קיימת האם .1 ? ( הקיים\"\" השירות \"\"כתב להלן- ) זה הצעה טופס ...........................................: הקיימת בפוליסה הקיימים הכיסויים .............................................................: למי ציין נא לביטוח, מהמועמדים לחלק רק מתייחסת והתשובה מידה\""
+  "embed_text": "טופס זה הוא הצעה להוספת כתבי שירות, והוא רלוונטי למבוטח הראשי, בן/בת הזוג וילדים מבוטחים. השאלות מתייחסות לבדיקה האם מועמדים מבקשים להצטרף לשירות דומה לכתב שירות קיים. התשובה צריכה להתייחס לכיסויים הקיימים בפוליסה הקיימת. כתב שירות, ביטוח, פוליסה קיימת, שירות קיים, הצטרפות לשירות, כיסויים קיימים. This table is a health questionnaire for adding service riders to an existing insurance policy. It asks whether applicants seeking to join a service wish to add a similar service rider to their existing insurance.",
+  "payload": "טבלה: טופס הצעה לכתבי שירות\nThis table is a health questionnaire for adding service riders to an existing insurance policy. It asks whether applicants seeking to join a service wish to add a similar service rider to their existing insurance.\nממדים: Applicant response to a question about adding a service rider, Question about adding a service rider\n\n0,1,2\nן כ,לא,\"במסגרת להצטרף מבקשים אליו השירות לכתב דומה מסוג שירות כתב לביטוח מהמועמדים יותר או אחד ברשות קיימת האם .1 ? ( הקיים\"\" השירות \"\"כתב להלן- ) זה הצעה טופס ...........................................: הקיימת בפוליסה הקיימים הכיסויים .............................................................: למי ציין נא לביטוח, מהמועמדים לחלק רק מתייחסת והתשובה מידה\""
 }

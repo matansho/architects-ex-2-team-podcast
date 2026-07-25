@@ -2,28 +2,28 @@
   "id": "pdf:travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-אנגלית-first-class.pdf#103",
   "source": "llm",
   "description": {
-    "title": "ביטוח נסיעות חול - סקי",
-    "summary": "This table details coverage for trip cancellation or delay related to ski trips under a travel insurance policy. It outlines conditions and maximum indemnification amounts for scenarios like lack of snow or weather-related delays.",
-    "embed_passage": "פוליסת ביטוח הנסיעות First Class כוללת כיסוי לביטול נסיעה עקב מחסור בשלג באתרי סקי, וכן פיצוי על עיכובים בהגעה לאתר הסקי. גובה הפיצוי עבור עיכובים הוא עד 50$ ליום, למשך תקופה מקסימלית של 6 ימי סקי בפועל, ועד 300$ לכרטיס טיסה. הכיסוי תקף לתקופות נסיעה בין ה-15 בדצמבר ל-31 במרץ.",
-    "row_axis": "Specific scenarios affecting ski trips (e.g., lack of snow, weather delay)",
-    "column_axis": "Coverage details (e.g., indemnification amount, maximum period, deductible)",
+    "title": "תנאי פוליסת ביטוח נסיעות לחול",
+    "summary": "This table details coverage limits and conditions for trip-related issues, specifically regarding ski trips. It outlines indemnification amounts for trip cancellation due to lack of snow and delays in arrival or equipment.",
+    "embed_passage": "טבלה זו מתארת את תנאי הכיסוי והגבולות עבור ביטוח נסיעות, בדגש על נסיעות סקי. הכיסוי כולל החזר הוצאות ביטול נסיעה עקב מחסור בשלג ופיצוי על עיכובים בהגעה או בציוד סקי. הפוליסה רלוונטית לנסיעות בין ה־15 בדצמבר ל־31 במרץ, וסכום הפיצוי המקסימלי הוא 300 דולר לכרטיס טיסה ו־50 דולר ליום עבור שירותי קרקע, עד תקופה מקסימלית של 6 ימי סקי. הפוליסה First Class מציעה כיסוי מורחב לנסיעות סקי, כולל החזר הוצאות ביטול נסיעה עקב מחסור בשלג, עיכובים בהגעה, ועיכוב בציוד סקי.",
+    "row_axis": "Coverage scenario (e.g., Trip Cancellation, Delay)",
+    "column_axis": "Coverage details (e.g., Indemnification amount, Maximal Period, Deductible)",
     "units": [
-      "$",
-      "days"
+      "$"
     ],
     "notable_values": [
-      "Maximum coverage per plane ticket: $300",
-      "Daily coverage for ground services: $50",
-      "Maximum period for ski days: 6",
+      "Trip Cancellation: $300 per Plane Ticket",
+      "Ground services: $50 per day",
+      "Maximal Period: 6 actual ski days",
       "Deductible: $50",
-      "Trip purchase lead time: 30 days"
+      "Trip period: December 15 - March 31",
+      "Minimum ski package duration: 4 days",
+      "Purchase lead time: 30 days"
     ],
     "product_hints": [
-      "First Class",
-      "ביטוח נסיעות חול"
+      "ביטוח נסיעות לחול"
     ]
   },
   "sketch": "19.2.2. Trip Cancellation due to lack of snow at the ski resort: the Insurer will indemnify the Insured for Trip Cancellation to a ski resort following the decision of the authorities in the relevant country not to open the resort due to lack of snow, subject to producing to the Insurer a suitable confirmation of the competent authorities for the relevant period. The indemnification will be for payments made in advance by the Insured for a ski package for a period not less than 4 day that was purchased at least 30 days prior to the Insured's Trip, for Trip periods between the dates December 15 and March 31, for each calendar year and up to an amount of $300 per Plane Ticket and up to an amount of $50 per day for ground services for a Maximal Period of 6 actual ski days and subject to the Limits of Liability Table in the Policy. A deductible of $50 will apply to this section.\n19.2.3. Delay in arrival at the ski resort due to weather: in  an  event of a delay of more than 24 hours from the planned date in the Insured's arrival at the ski resort for the first time, which is caused as a result of entitling weather, the Insurer will indemnify the Insured for the period of delay up to an amount of $50 per day of delay and up to a Maximal Period of delay of 6 actual ski days and subject to the Limits of Liability Table in the Policy. A deductible of $50 will apply to this section.",
-  "embed_text": "פוליסת ביטוח הנסיעות First Class כוללת כיסוי לביטול נסיעה עקב מחסור בשלג באתרי סקי, וכן פיצוי על עיכובים בהגעה לאתר הסקי. גובה הפיצוי עבור עיכובים הוא עד 50$ ליום, למשך תקופה מקסימלית של 6 ימי סקי בפועל, ועד 300$ לכרטיס טיסה. הכיסוי תקף לתקופות נסיעה בין ה-15 בדצמבר ל-31 במרץ.",
-  "payload": "טבלה: ביטוח נסיעות חול - סקי\nThis table details coverage for trip cancellation or delay related to ski trips under a travel insurance policy. It outlines conditions and maximum indemnification amounts for scenarios like lack of snow or weather-related delays.\nממדים: Specific scenarios affecting ski trips (e.g., lack of snow, weather delay), Coverage details (e.g., indemnification amount, maximum period, deductible)\n\n19.2.2. Trip Cancellation due to lack of snow at the ski resort: the Insurer will indemnify the Insured for Trip Cancellation to a ski resort following the decision of the authorities in the relevant country not to open the resort due to lack of snow, subject to producing to the Insurer a suitable confirmation of the competent authorities for the relevant period. The indemnification will be for payments made in advance by the Insured for a ski package for a period not less than 4 day that was purchased at least 30 days prior to the Insured's Trip, for Trip periods between the dates December 15 and March 31, for each calendar year and up to an amount of $300 per Plane Ticket and up to an amount of $50 per day for ground services for a Maximal Period of 6 actual ski days and subject to the Limits of Liability Table in the Policy. A deductible of $50 will apply to this section.\n19.2.3. Delay in arrival at the ski resort due to weather: in  an  event of a delay of more than 24 hours from the planned date in the Insured's arrival at the ski resort for the first time, which is caused as a result of entitling weather, the Insurer will indemnify the Insured for the period of delay up to an amount of $50 per day of delay and up to a Maximal Period of delay of 6 actual ski days and subject to the Limits of Liability Table in the Policy. A deductible of $50 will apply to this section."
+  "embed_text": "טבלה זו מתארת את תנאי הכיסוי והגבולות עבור ביטוח נסיעות, בדגש על נסיעות סקי. הכיסוי כולל החזר הוצאות ביטול נסיעה עקב מחסור בשלג ופיצוי על עיכובים בהגעה או בציוד סקי. הפוליסה רלוונטית לנסיעות בין ה־15 בדצמבר ל־31 במרץ, וסכום הפיצוי המקסימלי הוא 300 דולר לכרטיס טיסה ו־50 דולר ליום עבור שירותי קרקע, עד תקופה מקסימלית של 6 ימי סקי. הפוליסה First Class מציעה כיסוי מורחב לנסיעות סקי, כולל החזר הוצאות ביטול נסיעה עקב מחסור בשלג, עיכובים בהגעה, ועיכוב בציוד סקי. This table details coverage limits and conditions for trip-related issues, specifically regarding ski trips. It outlines indemnification amounts for trip cancellation due to lack of snow and delays in arrival or equipment. בין הערכים בטבלה: Trip Cancellation: $300 per Plane Ticket; Ground services: $50 per day; Maximal Period: 6 actual sk…",
+  "payload": "טבלה: תנאי פוליסת ביטוח נסיעות לחול\nThis table details coverage limits and conditions for trip-related issues, specifically regarding ski trips. It outlines indemnification amounts for trip cancellation due to lack of snow and delays in arrival or equipment.\nממדים: Coverage scenario (e.g., Trip Cancellation, Delay), Coverage details (e.g., Indemnification amount, Maximal Period, Deductible)\n\n19.2.2. Trip Cancellation due to lack of snow at the ski resort: the Insurer will indemnify the Insured for Trip Cancellation to a ski resort following the decision of the authorities in the relevant country not to open the resort due to lack of snow, subject to producing to the Insurer a suitable confirmation of the competent authorities for the relevant period. The indemnification will be for payments made in advance by the Insured for a ski package for a period not less than 4 day that was purchased at least 30 days prior to the Insured's Trip, for Trip periods between the dates December 15 and March 31, for each calendar year and up to an amount of $300 per Plane Ticket and up to an amount of $50 per day for ground services for a Maximal Period of 6 actual ski days and subject to the Limits of Liability Table in the Policy. A deductible of $50 will apply to this section.\n19.2.3. Delay in arrival at the ski resort due to weather: in  an  event of a delay of more than 24 hours from the planned date in the Insured's arrival at the ski resort for the first time, which is caused as a result of entitling weather, the Insurer will indemnify the Insured for the period of delay up to an amount of $50 per day of delay and up to a Maximal Period of delay of 6 actual ski days and subject to the Limits of Liability Table in the Policy. A deductible of $50 will apply to this section."
 }

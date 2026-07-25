@@ -3,26 +3,28 @@
   "source": "llm",
   "description": {
     "title": "גבולות אחריות דרכון",
-    "summary": "This table details the coverage limits for various medical expenses under the 'דרכון' travel insurance policy. It shows the self-participation amount (השתתפות עצמית) and the maximum liability limit (האחריות גבול) for different types of medical expenses.",
-    "embed_passage": "פוליסת 'דרכון' מספקת כיסוי להוצאות רפואיות שונות בחו״ל, כאשר גבול האחריות משתנה בהתאם לסוג ההוצאה. לדוגמה, הכיסוי עבור הוצאות רפואיות כלליות יכול להגיע עד $ 5,000,000, בעוד שטיפול חירום בשיניים מוגבל ל-$ 400. פינוי יבשתי במקרה חירום כלול ללא השתתפות עצמית.",
-    "row_axis": "Type of medical expense (e.g., hospitalization, medication)",
-    "column_axis": "Coverage details: self-participation amount, liability limit",
+    "summary": "This table details the coverage limits for medical expenses under the 'דרכון' travel insurance policy. It shows the self-participation amount, coverage limit, and specific medical expenses covered.",
+    "embed_passage": "טבלה זו מתארת את גבולות האחריות עבור הוצאות רפואיות במסגרת פוליסת 'דרכון'. ניתן למצוא כאן את סכום ההשתתפות העצמית, גבול האחריות, ופירוט ההוצאות הרפואיות הכלולות בכיסוי. הפוליסה כוללת כיסוי להוצאות רפואיות כגון אשפוז בחו\"ל, פינוי, תרופות, וטיפולי חירום. גבול האחריות יכול להגיע עד $ 5,000,000. הוצאות רפואיות, אשפוז בעת בחו\"ל רפואיות הוצאות, קרוב לבי\"ח האירוע ממקום יבשתי פינוי, תרופות, בשיניים חירום טיפול, בחו\"ל פיזיותרפיה.",
+    "row_axis": "type of medical expense",
+    "column_axis": "coverage details (self-participation, coverage limit, coverage)",
     "units": [
       "$",
       "₪"
     ],
     "notable_values": [
-      "Maximum liability for medical expenses: $ 5,000,000",
-      "Emergency dental treatment limit: $ 400",
-      "Medication self-participation: ה.ע ללא",
-      "Physiotherapy limit: $ 500",
-      "Evacuation from the event location: ה.ע ללא"
+      "coverage limit (medical expenses)",
+      "self-participation (med expenses)",
+      "medication coverage limit",
+      "emergency dental treatment",
+      "physiotherapy (abroad)",
+      "physiotherapy sessions",
+      "physiotherapy cost per session"
     ],
     "product_hints": [
       "דרכון"
     ]
   },
-  "sketch": "השתתפות עצמית,האחריות גבול,הכיסוי,\n,\"$ 5,000,000\",רפואיות להוצאות המבטח אחריות גבול,רפואיות הוצאות\nה.ע ללא,רפואיות להוצאות האחריות בגבול כלול,\"אשפוז בעת בחו\"\"ל רפואיות הוצאות\",רפואיות הוצאות\nה.ע ללא,רפואיות להוצאות האחריות בגבול כלול,\"קרוב לבי\"\"ח האירוע ממקום יבשתי פינוי\",רפואיות הוצאות\n…\nה.ע ללא,\"$ 1,500\",תרופות,רפואיות הוצאות\nה.ע ללא,$ 400,בשיניים חירום טיפול,רפואיות הוצאות\n$ 50,טיפולים 6 ועד לטיפול $ 500,\"בחו\"\"ל פיזיותרפיה\",רפואיות הוצאות\nה.ע ללא,\"י",
-  "embed_text": "פוליסת 'דרכון' מספקת כיסוי להוצאות רפואיות שונות בחו״ל, כאשר גבול האחריות משתנה בהתאם לסוג ההוצאה. לדוגמה, הכיסוי עבור הוצאות רפואיות כלליות יכול להגיע עד $ 5,000,000, בעוד שטיפול חירום בשיניים מוגבל ל-$ 400. פינוי יבשתי במקרה חירום כלול ללא השתתפות עצמית.",
-  "payload": "טבלה: גבולות אחריות דרכון\nThis table details the coverage limits for various medical expenses under the 'דרכון' travel insurance policy. It shows the self-participation amount (השתתפות עצמית) and the maximum liability limit (האחריות גבול) for different types of medical expenses.\nממדים: Type of medical expense (e.g., hospitalization, medication), Coverage details: self-participation amount, liability limit\n\nהשתתפות עצמית,האחריות גבול,הכיסוי,\n,\"$ 5,000,000\",רפואיות להוצאות המבטח אחריות גבול,רפואיות הוצאות\nה.ע ללא,רפואיות להוצאות האחריות בגבול כלול,\"אשפוז בעת בחו\"\"ל רפואיות הוצאות\",רפואיות הוצאות\nה.ע ללא,רפואיות להוצאות האחריות בגבול כלול,\"קרוב לבי\"\"ח האירוע ממקום יבשתי פינוי\",רפואיות הוצאות\nה.ע ללא,רפואיות להוצאות האחריות בגבול כלול,\"קרוב לבי\"\"ח האירוע ממקום ימי ו/או אווירי פינוי\",רפואיות הוצאות\nה.ע ללא,רפואיות להוצאות האחריות בגבול כלול,לישראל רפואית הטסה,רפואיות הוצאות\nה.ע ללא,רפואיות להוצאות האחריות בגבול כלול,\"בדיקות רופא, כגון אשפוז בעת שלא בחו\"\"ל רפואיות הוצאות אבחון\",רפואיות הוצאות\nה.ע ללא,\"$ 1,500\",תרופות,רפואיות הוצאות\nה.ע ללא,$ 400,בשיניים חירום טיפול,רפואיות הוצאות\n$ 50,טיפולים 6 ועד לטיפול $ 500,\"בחו\"\"ל פיזיותרפיה\",רפואיות הוצאות\nה.ע ללא,\"י"
+  "sketch": "השתתפות עצמית,האחריות גבול,הכיסוי,\n,\"$ 5,000,000\",רפואיות להוצאות המבטח אחריות גבול,רפואיות הוצאות\nה.ע ללא,רפואיות להוצאות האחריות בגבול כלול,\"אשפוז בעת בחו\"\"ל רפואיות הוצאות\",רפואיות הוצאות\nה.ע ללא,רפואיות להוצאות האחריות בגבול כלול,\"קרוב לבי\"\"ח האירוע ממקום יבשתי פינוי\",רפואיות הוצאות\nה.ע ללא,רפואיות להוצאות האחריות בגבול כלול,\"קרוב לבי\"\"ח האירוע ממקום ימי ו/או אווירי פינוי\",רפואיות הוצאות\nה.ע ללא,רפואיות להוצאות האחריות בגבול כלול,לישראל רפואית הטסה,רפואיות הוצאות\nה.ע ללא,רפואיות להוצאות האחריות בגבול כלול,\"בדיקות רופא, כגון אשפוז בעת שלא בחו\"\"ל רפואיות הוצאות אבחון\",רפואיות הוצאות\nה.ע ללא,\"$ 1,500\",תרופות,רפואיות הוצאות\nה.ע ללא,$ 400,בשיניים חירום טיפול,רפואיות הוצאות\n$ 50,טיפולים 6 ועד לטיפול $ 500,\"בחו\"\"ל פיזיותרפיה\",רפואיות הוצאות\nה.ע ללא,\"י",
+  "embed_text": "טבלה זו מתארת את גבולות האחריות עבור הוצאות רפואיות במסגרת פוליסת 'דרכון'. ניתן למצוא כאן את סכום ההשתתפות העצמית, גבול האחריות, ופירוט ההוצאות הרפואיות הכלולות בכיסוי. הפוליסה כוללת כיסוי להוצאות רפואיות כגון אשפוז בחו\"ל, פינוי, תרופות, וטיפולי חירום. גבול האחריות יכול להגיע עד $ 5,000,000. הוצאות רפואיות, אשפוז בעת בחו\"ל רפואיות הוצאות, קרוב לבי\"ח האירוע ממקום יבשתי פינוי, תרופות, בשיניים חירום טיפול, בחו\"ל פיזיותרפיה. This table details the coverage limits for medical expenses under the 'דרכון' travel insurance policy. It shows the self-participation amount, coverage limit, and specific medical expenses covered. בין הערכים בטבלה: coverage limit (medical expenses); self-participation (med expenses); medication coverage limit; emergency dental treatment; physiotherapy (abroad); physiothe…",
+  "payload": "טבלה: גבולות אחריות דרכון\nThis table details the coverage limits for medical expenses under the 'דרכון' travel insurance policy. It shows the self-participation amount, coverage limit, and specific medical expenses covered.\nממדים: type of medical expense, coverage details (self-participation, coverage limit, coverage)\n\nהשתתפות עצמית,האחריות גבול,הכיסוי,\n,\"$ 5,000,000\",רפואיות להוצאות המבטח אחריות גבול,רפואיות הוצאות\nה.ע ללא,רפואיות להוצאות האחריות בגבול כלול,\"אשפוז בעת בחו\"\"ל רפואיות הוצאות\",רפואיות הוצאות\nה.ע ללא,רפואיות להוצאות האחריות בגבול כלול,\"קרוב לבי\"\"ח האירוע ממקום יבשתי פינוי\",רפואיות הוצאות\nה.ע ללא,רפואיות להוצאות האחריות בגבול כלול,\"קרוב לבי\"\"ח האירוע ממקום ימי ו/או אווירי פינוי\",רפואיות הוצאות\nה.ע ללא,רפואיות להוצאות האחריות בגבול כלול,לישראל רפואית הטסה,רפואיות הוצאות\nה.ע ללא,רפואיות להוצאות האחריות בגבול כלול,\"בדיקות רופא, כגון אשפוז בעת שלא בחו\"\"ל רפואיות הוצאות אבחון\",רפואיות הוצאות\nה.ע ללא,\"$ 1,500\",תרופות,רפואיות הוצאות\nה.ע ללא,$ 400,בשיניים חירום טיפול,רפואיות הוצאות\n$ 50,טיפולים 6 ועד לטיפול $ 500,\"בחו\"\"ל פיזיותרפיה\",רפואיות הוצאות\nה.ע ללא,\"י"
 }

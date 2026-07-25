@@ -3,19 +3,21 @@
   "source": "llm",
   "description": {
     "title": "בדיקת זכאות מחודשת",
-    "summary": "This table describes the process for re-evaluating eligibility for long-term care insurance benefits. It outlines how Harel assesses a policyholder’s medical and functional status to determine continued coverage.",
-    "embed_passage": "פוליסת ביטוח סיעודי של הראל עשויה לדרוש בדיקת זכאות מחודשת לאחר תקופה מסוימת, כגון 3 חודשים או פחות, במיוחד אם התביעה אושרה לתקופה קצובה. בבחינה מחודשת זו, יובאו בחשבון גורמים כמו גילו של המבוטח ומצבו הרפואי.",
-    "row_axis": "stages/conditions for re-evaluation",
-    "column_axis": "factors considered in re-evaluation",
+    "summary": "This table outlines the conditions for re-evaluating eligibility for long-term care insurance benefits. It details how Harel will assess a policyholder’s medical and functional status when considering continued payments.",
+    "embed_passage": "טבלה זו מתארת את תנאי הערכה מחודשת של זכאות לתגמולי ביטוח סיעודי של הראל. הבדיקה המחודשת של החבות ואופן ביצועה תובא בחשבון, בין היתר, מצבו הרפואי של המבוטח וגילו. תביעה שאושרה לתקופה של חודשים או פחות, אישורה של תביעה עיתית לתקופות קצובות נוספות מעבר לתקופה שאושרה, מצריך בחינה מחודשת של מצבו של המבוטח מבחינה רפואית ותפקודית. הראל תברר חבותה בהתאם למידע הרפואי שתעביר לה. תביעה שאושרה לתקופה של חודשים או פחות, אישורה של תביעה עיתית לתקופות קצובות נוספות מעבר לתקופה שאושרה, מצריך בתום התקופה בחינה מחודשת של מצבו של המבוטח מבחינה רפואית ותפקודית.",
+    "row_axis": "conditions for re-evaluation",
+    "column_axis": "aspects considered in re-evaluation",
     "units": [],
     "notable_values": [
-      "תקופה: 3 חודשים או פחות"
+      "תקופה: חודשים או פחות",
+      "תביעה עיתית: לתקופות קצובות נוספות"
     ],
     "product_hints": [
-      "Harel Long-Term Care Insurance"
+      "ביטוח סיעודי",
+      "הראל"
     ]
   },
   "sketch": "חודשים או פחות 3 תביעה שאושרה לתקופה  של .2\n, אישורה של תביעה עיתית לתקופות קצובות נוספות מעבר לתקופה שאושרה, מצריך בתום התקופה א. . שאושרה לתשלום, בחינה מחודשת של מצבו של המבוטח מבחינה רפואית ותפקודית\n, בעת הבחינה מחודשת של החבות ואופן ביצועה יובאו בחשבון, בין היתר, מצבו הרפואי של המבוטח ב. . גילו, המידע שמסר לחברה ותנאי הפוליסה",
-  "embed_text": "פוליסת ביטוח סיעודי של הראל עשויה לדרוש בדיקת זכאות מחודשת לאחר תקופה מסוימת, כגון 3 חודשים או פחות, במיוחד אם התביעה אושרה לתקופה קצובה. בבחינה מחודשת זו, יובאו בחשבון גורמים כמו גילו של המבוטח ומצבו הרפואי.",
-  "payload": "טבלה: בדיקת זכאות מחודשת\nThis table describes the process for re-evaluating eligibility for long-term care insurance benefits. It outlines how Harel assesses a policyholder’s medical and functional status to determine continued coverage.\nממדים: stages/conditions for re-evaluation, factors considered in re-evaluation\n\nחודשים או פחות 3 תביעה שאושרה לתקופה  של .2\n, אישורה של תביעה עיתית לתקופות קצובות נוספות מעבר לתקופה שאושרה, מצריך בתום התקופה א. . שאושרה לתשלום, בחינה מחודשת של מצבו של המבוטח מבחינה רפואית ותפקודית\n, בעת הבחינה מחודשת של החבות ואופן ביצועה יובאו בחשבון, בין היתר, מצבו הרפואי של המבוטח ב. . גילו, המידע שמסר לחברה ותנאי הפוליסה"
+  "embed_text": "טבלה זו מתארת את תנאי הערכה מחודשת של זכאות לתגמולי ביטוח סיעודי של הראל. הבדיקה המחודשת של החבות ואופן ביצועה תובא בחשבון, בין היתר, מצבו הרפואי של המבוטח וגילו. תביעה שאושרה לתקופה של חודשים או פחות, אישורה של תביעה עיתית לתקופות קצובות נוספות מעבר לתקופה שאושרה, מצריך בחינה מחודשת של מצבו של המבוטח מבחינה רפואית ותפקודית. הראל תברר חבותה בהתאם למידע הרפואי שתעביר לה. תביעה שאושרה לתקופה של חודשים או פחות, אישורה של תביעה עיתית לתקופות קצובות נוספות מעבר לתקופה שאושרה, מצריך בתום התקופה בחינה מחודשת של מצבו של המבוטח מבחינה רפואית ותפקודית. This table outlines the conditions for re-evaluating eligibility for long-term care insurance benefits. It details how Harel will assess a policyholder’s medical and functional status when considering continued payments.",
+  "payload": "טבלה: בדיקת זכאות מחודשת\nThis table outlines the conditions for re-evaluating eligibility for long-term care insurance benefits. It details how Harel will assess a policyholder’s medical and functional status when considering continued payments.\nממדים: conditions for re-evaluation, aspects considered in re-evaluation\n\nחודשים או פחות 3 תביעה שאושרה לתקופה  של .2\n, אישורה של תביעה עיתית לתקופות קצובות נוספות מעבר לתקופה שאושרה, מצריך בתום התקופה א. . שאושרה לתשלום, בחינה מחודשת של מצבו של המבוטח מבחינה רפואית ותפקודית\n, בעת הבחינה מחודשת של החבות ואופן ביצועה יובאו בחשבון, בין היתר, מצבו הרפואי של המבוטח ב. . גילו, המידע שמסר לחברה ותנאי הפוליסה"
 }

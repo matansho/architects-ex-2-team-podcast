@@ -3,26 +3,22 @@
   "source": "llm",
   "description": {
     "title": "תגמולי ביטוח",
-    "summary": "This table details how insurance payouts (תגמולי ביטוח) are calculated and adjusted, particularly concerning indexation, interest, and potential offsets. It outlines the timeframe for payment and how changes in the index affect the final amount.",
-    "embed_passage": "פוליסת הראל מתייחסת לתגמולי ביטוח המשולמים למבוטח או לצד שלישי, אשר משתנים בהתאם לשינויים במדד. תשלום תגמולי הביטוח ישולמו תוך 30 ימים מהיום שהיו בידי המבטח המידע הדרוש, ויווסף להם ריבית צמודה לפי חוק פסיקת ריבית והצמדה, התשכ״א-1961. המבטח רשאי לקזז סכומים קצובים מהתגמולים.",
-    "row_axis": "types of insurance payout adjustments",
-    "column_axis": "details of adjustment (indexation, interest, offsets)",
-    "units": [
-      "ימים",
-      "₪"
-    ],
+    "summary": "This table details insurance payouts to third parties or the insured, adjusted for changes in the index and including accrued interest. It outlines payment timelines and potential offsets against existing debts.",
+    "embed_passage": "טבלה זו מתארת את תגמולי הביטוח המשולמים לצד שלישי או למבוטח, אשר משתנים בהתאם לשינויים במדד ולריבית צמודה. ניתן למצוא כאן מידע על תשלום תגמולים תוך 30 ימים, קיזוז חובות קודמים, והתאמה למדד המחירים לצרכן. הפוליסה הרלוונטית היא הראל. התשלומים עשויים להיות מושפעים מ״הפרשי ימים 30 מתום 1961לחוק פסיקת ריבית והצמדה, התשכ״א״.  הטבלה עוסקת בתגמולי ביטוח, תשלומים, קיזוזים, ריבית והצמדה, חוק פסיקת ריבית והצמדה, התשכ״א, ומדד המחירים לצרכן.",
+    "row_axis": "conditions related to insurance payout adjustments",
+    "column_axis": "details of payout adjustments (index changes, interest, offsets)",
+    "units": [],
     "notable_values": [
-      "30 ימים: timeframe for payout of undisputed claims",
-      "1961: year of the Interest and Indexation Law",
-      "30: days for claim processing",
-      "47.6: reference to a section regarding indexation",
-      "47.7: reference to a section regarding offsets"
+      "חוק פסיקת ריבית והצמדה, התשכ״א: 1961",
+      "תשלום תגמולים: תוך 30 ימים",
+      "קיזוז חובות: אפשרי",
+      "התאמה למדד: קיימת"
     ],
     "product_hints": [
       "הראל"
     ]
   },
   "sketch": "תגמולי הביטוח המשולמים לצד שלישי או המשולמים למבוטח ישתנו בהתאם לשינויים במדד .47.6 בין המדד שפורסם סמוך לפני מועד קרות מקרה הביטוח לבין המדד שפורסם סמוך לפני מועד תשלומם בפועל, וכן תיווסף להם ריבית צמודה בשיעור שנקבע לפי ההגדרה \"הפרשי ימים 30 מתום 1961לחוק פסיקת ריבית והצמדה, התשכ\"א 1 הצמדה וריבית\", בסעיף מיום מסירת התביעה; אין בהוראה זו כדי לגרוע מסמכות בית המשפט לפי החוק האמור.\n.  המבטח רשאי לקזז מתגמולי הביטוח לפי פרק א בפוליסה, כל סכום קצוב שהמבוטח 47.7 , חייב לו בשל פוליסה זו או בשל פוליסה אחרת ואם קיים חשש ממשי לאי-פירעון החוב רשאי המבטח לקזז את יתרת דמי הביטוח שטרם הגיע מועד תשלומם או חיוב אחר שטרם הגיע מועד קיומו.",
-  "embed_text": "פוליסת הראל מתייחסת לתגמולי ביטוח המשולמים למבוטח או לצד שלישי, אשר משתנים בהתאם לשינויים במדד. תשלום תגמולי הביטוח ישולמו תוך 30 ימים מהיום שהיו בידי המבטח המידע הדרוש, ויווסף להם ריבית צמודה לפי חוק פסיקת ריבית והצמדה, התשכ״א-1961. המבטח רשאי לקזז סכומים קצובים מהתגמולים.",
-  "payload": "טבלה: תגמולי ביטוח\nThis table details how insurance payouts (תגמולי ביטוח) are calculated and adjusted, particularly concerning indexation, interest, and potential offsets. It outlines the timeframe for payment and how changes in the index affect the final amount.\nממדים: types of insurance payout adjustments, details of adjustment (indexation, interest, offsets)\n\nתגמולי הביטוח המשולמים לצד שלישי או המשולמים למבוטח ישתנו בהתאם לשינויים במדד .47.6 בין המדד שפורסם סמוך לפני מועד קרות מקרה הביטוח לבין המדד שפורסם סמוך לפני מועד תשלומם בפועל, וכן תיווסף להם ריבית צמודה בשיעור שנקבע לפי ההגדרה \"הפרשי ימים 30 מתום 1961לחוק פסיקת ריבית והצמדה, התשכ\"א 1 הצמדה וריבית\", בסעיף מיום מסירת התביעה; אין בהוראה זו כדי לגרוע מסמכות בית המשפט לפי החוק האמור.\n.  המבטח רשאי לקזז מתגמולי הביטוח לפי פרק א בפוליסה, כל סכום קצוב שהמבוטח 47.7 , חייב לו בשל פוליסה זו או בשל פוליסה אחרת ואם קיים חשש ממשי לאי-פירעון החוב רשאי המבטח לקזז את יתרת דמי הביטוח שטרם הגיע מועד תשלומם או חיוב אחר שטרם הגיע מועד קיומו."
+  "embed_text": "טבלה זו מתארת את תגמולי הביטוח המשולמים לצד שלישי או למבוטח, אשר משתנים בהתאם לשינויים במדד ולריבית צמודה. ניתן למצוא כאן מידע על תשלום תגמולים תוך 30 ימים, קיזוז חובות קודמים, והתאמה למדד המחירים לצרכן. הפוליסה הרלוונטית היא הראל. התשלומים עשויים להיות מושפעים מ״הפרשי ימים 30 מתום 1961לחוק פסיקת ריבית והצמדה, התשכ״א״.  הטבלה עוסקת בתגמולי ביטוח, תשלומים, קיזוזים, ריבית והצמדה, חוק פסיקת ריבית והצמדה, התשכ״א, ומדד המחירים לצרכן. This table details insurance payouts to third parties or the insured, adjusted for changes in the index and including accrued interest. It outlines payment timelines and potential offsets against existing debts.",
+  "payload": "טבלה: תגמולי ביטוח\nThis table details insurance payouts to third parties or the insured, adjusted for changes in the index and including accrued interest. It outlines payment timelines and potential offsets against existing debts.\nממדים: conditions related to insurance payout adjustments, details of payout adjustments (index changes, interest, offsets)\n\nתגמולי הביטוח המשולמים לצד שלישי או המשולמים למבוטח ישתנו בהתאם לשינויים במדד .47.6 בין המדד שפורסם סמוך לפני מועד קרות מקרה הביטוח לבין המדד שפורסם סמוך לפני מועד תשלומם בפועל, וכן תיווסף להם ריבית צמודה בשיעור שנקבע לפי ההגדרה \"הפרשי ימים 30 מתום 1961לחוק פסיקת ריבית והצמדה, התשכ\"א 1 הצמדה וריבית\", בסעיף מיום מסירת התביעה; אין בהוראה זו כדי לגרוע מסמכות בית המשפט לפי החוק האמור.\n.  המבטח רשאי לקזז מתגמולי הביטוח לפי פרק א בפוליסה, כל סכום קצוב שהמבוטח 47.7 , חייב לו בשל פוליסה זו או בשל פוליסה אחרת ואם קיים חשש ממשי לאי-פירעון החוב רשאי המבטח לקזז את יתרת דמי הביטוח שטרם הגיע מועד תשלומם או חיוב אחר שטרם הגיע מועד קיומו."
 }

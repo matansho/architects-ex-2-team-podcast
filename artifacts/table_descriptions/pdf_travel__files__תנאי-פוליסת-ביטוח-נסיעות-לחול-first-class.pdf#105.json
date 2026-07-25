@@ -2,25 +2,23 @@
   "id": "pdf:travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-first-class.pdf#105",
   "source": "llm",
   "description": {
-    "title": "הארכת פוליסה",
+    "title": "הארכת הפוליסה",
     "summary": "This table details the conditions for extending a travel insurance policy, specifically when a policyholder's stay abroad is prolonged due to medical reasons. It outlines the requirements for extension, such as medical documentation and additional premiums.",
-    "embed_passage": "פוליסת ביטוח נסיעות לחול מספקת כיסוי במקרה של אשפוז בחו״ל או אי יכולת לחזור לישראל עקב מצב רפואי. במקרים אלו, תקופת הביטוח עשויה להתארך עד להצהרת רופא שהמבוטח כשיר לחזור, תמורת דמי ביטוח נוספים. לדוגמה, אם המבוטח אושפז בחו״ל ותקופת הביטוח הסתיימה במהלך האשפוז, הפוליסה יכולה להיות מוארכת.",
-    "row_axis": "circumstances requiring policy extension",
-    "column_axis": "extension conditions and coverage",
+    "embed_passage": "טבלה זו מתארת את התנאים להארכת פוליסת ביטוח נסיעות, במיוחד כאשר שהותו של המבוטח בחו\"ל מוארכת עקב סיבות רפואיות. הפוליסה 'ביטוח נסיעות לחול first class' מאפשרת הארכה במקרים של אשפוז או מצב רפואי המונע חזרה לישראל. הארכת הפוליסה תלויה בהמצאת מסמכים רפואיים ובתשלום דמי ביטוח נוספים. המבוטח, רופא מוסמך, אשפוז, חוות דעת, דמי ביטוח נוספים, תקופת הביטוח, נתק, תנאים והגבלות, חזרה לישראל.",
+    "row_axis": "Scenario for policy extension",
+    "column_axis": "Conditions and requirements for extension",
     "units": [],
     "notable_values": [
-      "extension due to stay abroad: 11.2",
-      "medical certificate required",
-      "extension until return to Israel",
-      "additional premiums apply",
-      "no re-examination of pre-existing conditions"
+      "פוליסה זו: ביטוח נסיעות לחול first class",
+      "רופא מוסמך: חוות דעת נדרשת",
+      "אשפוז: דורש מסמכים רפואיים",
+      "תקופת הביטוח: מוארכת עד לחזרה אפשרית לישראל"
     ],
     "product_hints": [
-      "ביטוח נסיעות לחול",
-      "First Class"
+      "ביטוח נסיעות לחול first class"
     ]
   },
   "sketch": "אירע למבוטח מקרה -הארכת הפוליסה עקב שהות בחו\"ל מעבר לתקופת הביטוח . 11.2 ביטוח המכוסה עפ\"י פוליסה זו בעת היותו בחו\"ל במשך תקופת הביטוח ו/או אושפז המבוטח בחו\"ל ועקב האירוע או במהלך אשפוזו של המבוטח תמה תקופת הביטוח על פי פוליסה זו, ונמסרה למבטח חוות דעת של רופא מוסמך כי המבוטח אינו יכול לשוב לישראל עקב האירוע הרפואי או האשפוז, תוארך תקופת הביטוח עד המועד בו קבע הרופא כי המבוטח יכול לחזור לישראל.\nהבקשה להארכה תוגש למבטח והיא תבוצע לאחר שיומצאו למבטח המסמכים הרפואיים הנוגעים לאשפוז, תמורת דמי ביטוח נוספים, בתנאים ובהגבלות שייקבעו ע\"י המבטח.",
-  "embed_text": "פוליסת ביטוח נסיעות לחול מספקת כיסוי במקרה של אשפוז בחו״ל או אי יכולת לחזור לישראל עקב מצב רפואי. במקרים אלו, תקופת הביטוח עשויה להתארך עד להצהרת רופא שהמבוטח כשיר לחזור, תמורת דמי ביטוח נוספים. לדוגמה, אם המבוטח אושפז בחו״ל ותקופת הביטוח הסתיימה במהלך האשפוז, הפוליסה יכולה להיות מוארכת.",
-  "payload": "טבלה: הארכת פוליסה\nThis table details the conditions for extending a travel insurance policy, specifically when a policyholder's stay abroad is prolonged due to medical reasons. It outlines the requirements for extension, such as medical documentation and additional premiums.\nממדים: circumstances requiring policy extension, extension conditions and coverage\n\nאירע למבוטח מקרה -הארכת הפוליסה עקב שהות בחו\"ל מעבר לתקופת הביטוח . 11.2 ביטוח המכוסה עפ\"י פוליסה זו בעת היותו בחו\"ל במשך תקופת הביטוח ו/או אושפז המבוטח בחו\"ל ועקב האירוע או במהלך אשפוזו של המבוטח תמה תקופת הביטוח על פי פוליסה זו, ונמסרה למבטח חוות דעת של רופא מוסמך כי המבוטח אינו יכול לשוב לישראל עקב האירוע הרפואי או האשפוז, תוארך תקופת הביטוח עד המועד בו קבע הרופא כי המבוטח יכול לחזור לישראל.\nהבקשה להארכה תוגש למבטח והיא תבוצע לאחר שיומצאו למבטח המסמכים הרפואיים הנוגעים לאשפוז, תמורת דמי ביטוח נוספים, בתנאים ובהגבלות שייקבעו ע\"י המבטח."
+  "embed_text": "טבלה זו מתארת את התנאים להארכת פוליסת ביטוח נסיעות, במיוחד כאשר שהותו של המבוטח בחו\"ל מוארכת עקב סיבות רפואיות. הפוליסה 'ביטוח נסיעות לחול first class' מאפשרת הארכה במקרים של אשפוז או מצב רפואי המונע חזרה לישראל. הארכת הפוליסה תלויה בהמצאת מסמכים רפואיים ובתשלום דמי ביטוח נוספים. המבוטח, רופא מוסמך, אשפוז, חוות דעת, דמי ביטוח נוספים, תקופת הביטוח, נתק, תנאים והגבלות, חזרה לישראל. This table details the conditions for extending a travel insurance policy, specifically when a policyholder's stay abroad is prolonged due to medical reasons. It outlines the requirements for extension, such as medical documentation and additional premiums.",
+  "payload": "טבלה: הארכת הפוליסה\nThis table details the conditions for extending a travel insurance policy, specifically when a policyholder's stay abroad is prolonged due to medical reasons. It outlines the requirements for extension, such as medical documentation and additional premiums.\nממדים: Scenario for policy extension, Conditions and requirements for extension\n\nאירע למבוטח מקרה -הארכת הפוליסה עקב שהות בחו\"ל מעבר לתקופת הביטוח . 11.2 ביטוח המכוסה עפ\"י פוליסה זו בעת היותו בחו\"ל במשך תקופת הביטוח ו/או אושפז המבוטח בחו\"ל ועקב האירוע או במהלך אשפוזו של המבוטח תמה תקופת הביטוח על פי פוליסה זו, ונמסרה למבטח חוות דעת של רופא מוסמך כי המבוטח אינו יכול לשוב לישראל עקב האירוע הרפואי או האשפוז, תוארך תקופת הביטוח עד המועד בו קבע הרופא כי המבוטח יכול לחזור לישראל.\nהבקשה להארכה תוגש למבטח והיא תבוצע לאחר שיומצאו למבטח המסמכים הרפואיים הנוגעים לאשפוז, תמורת דמי ביטוח נוספים, בתנאים ובהגבלות שייקבעו ע\"י המבטח."
 }

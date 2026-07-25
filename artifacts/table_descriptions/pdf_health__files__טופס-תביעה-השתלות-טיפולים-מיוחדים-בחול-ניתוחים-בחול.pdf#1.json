@@ -2,23 +2,28 @@
   "id": "pdf:health/files/טופס-תביעה-השתלות-טיפולים-מיוחדים-בחול-ניתוחים-בחול.pdf#1",
   "source": "llm",
   "description": {
-    "title": "טופס תביעה - השתלות בחו״ל",
-    "summary": "This table describes the claim form for transplants, special treatments, and surgeries abroad. It outlines the required steps and information needed to submit a claim according to the policy.",
-    "embed_passage": "טופס זה מיועד להגשת תביעת בריאות בנושא השתלות, טיפולים מיוחדים וניתוחים בחו״ל. על פי הפוליסה, יש לפנות אלינו בטרם ביצוע ההשתלה או הניתוח, ואף בטרם יצירת קשר עם גורם כלשהו בחו״ל. הטופס כולל שני חלקים: חלק א' לפרטי המבוטח וחלק ב' למילוי על ידי הרופא המקצועי.",
-    "row_axis": "Claim form section / instruction",
-    "column_axis": "Claim process details",
+    "title": "השתלות, טיפולים מיוחדים וניתוחים בחו\"ל",
+    "summary": "This table describes the process for submitting a health insurance claim for transplants, specialized treatments, and surgeries abroad. It outlines the required steps and documentation before undergoing medical procedures overseas.",
+    "embed_passage": "טופס זה עוסק בהשתלות, טיפולים מיוחדים וניתוחים בחו\"ל, כפי שמפורט בפוליסה. יש לפנות לחברה בטרם ביצוע ההשתלה או הניתוח בחו\"ל, וכן לפני יצירת קשר עם גורם כלשהו בחו\"ל, זאת כתנאי לזכאות על פי הפוליסה. הטופס מחולק לשני חלקים: חלק א' למילוי על ידי המבוטח, וחלק ב' למילוי על ידי רופא מקצועי או רופא משפחה. יש לצרף מסמכים רפואיים המפרטים את הניתוח או הטיפול המבוקש, וחוות דעת של מומחה רפואי במקרה של טיפול מיוחד. הפוליסה, השתלות, טיפולים מיוחדים, ניתוחים בחו\"ל, רופא מקצועי, רופא משפחה הם מרכיבים מרכזיים בתהליך.",
+    "row_axis": "Claim submission step/requirement",
+    "column_axis": "Details/Instructions",
     "units": [],
     "notable_values": [
-      "Policy requirement: Contact before procedure",
-      "Form sections: 2"
+      "Procedure Type: השתלות",
+      "Procedure Type: טיפולים מיוחדים",
+      "Procedure Type: ניתוחים בחו\"ל",
+      "Requirement: פנייה לחברה לפני ביצוע ההשתלה",
+      "Requirement: פנייה לחברה לפני יצירת קשר עם גורם בחו\"ל",
+      "Form Part A: למילוי על ידי המבוטח",
+      "Form Part B: למילוי על ידי רופא מקצועי",
+      "Documentation: מסמכים רפואיים",
+      "Documentation: חוות דעת של מומחה רפואי"
     ],
     "product_hints": [
-      "השתלות",
-      "טיפולים מיוחדים",
-      "ניתוחים בחו״ל"
+      "השתלות, טיפולים מיוחדים וניתוחים בחו\"ל"
     ]
   },
   "sketch": "השתלות, טיפולים מיוחדים וניתוחים בחו\"ל\nעל פי הפוליסה, הנך מחויב לפנות אלינו בטרם ביצוע ההשתלה או הניתוח בחו\"ל ואף בטרם יצירת קשר עם גורם כלשהו בחו\"ל, שכן פניה כאמור . היא תנאי לזכאותך על פי הפוליסה\n, שבו יש למלא את שני החלקים הראשונים. להשתלות, טיפולים מיוחדים וניתוחים בחו\"ל בשלב הראשון עליך למלא ולהעביר אלינו את הטופס\n; א. חלק א', הכולל את פרטי המבוטח, עליך למלאו בעצמך - אנא מלא בו את כל הפרטים המבוקשים בקפידה, לשם שיפור וייעול הטיפול בפנייתך",
-  "embed_text": "טופס זה מיועד להגשת תביעת בריאות בנושא השתלות, טיפולים מיוחדים וניתוחים בחו״ל. על פי הפוליסה, יש לפנות אלינו בטרם ביצוע ההשתלה או הניתוח, ואף בטרם יצירת קשר עם גורם כלשהו בחו״ל. הטופס כולל שני חלקים: חלק א' לפרטי המבוטח וחלק ב' למילוי על ידי הרופא המקצועי.",
-  "payload": "טבלה: טופס תביעה - השתלות בחו״ל\nThis table describes the claim form for transplants, special treatments, and surgeries abroad. It outlines the required steps and information needed to submit a claim according to the policy.\nממדים: Claim form section / instruction, Claim process details\n\nהשתלות, טיפולים מיוחדים וניתוחים בחו\"ל\nעל פי הפוליסה, הנך מחויב לפנות אלינו בטרם ביצוע ההשתלה או הניתוח בחו\"ל ואף בטרם יצירת קשר עם גורם כלשהו בחו\"ל, שכן פניה כאמור . היא תנאי לזכאותך על פי הפוליסה\n, שבו יש למלא את שני החלקים הראשונים. להשתלות, טיפולים מיוחדים וניתוחים בחו\"ל בשלב הראשון עליך למלא ולהעביר אלינו את הטופס\n; א. חלק א', הכולל את פרטי המבוטח, עליך למלאו בעצמך - אנא מלא בו את כל הפרטים המבוקשים בקפידה, לשם שיפור וייעול הטיפול בפנייתך"
+  "embed_text": "טופס זה עוסק בהשתלות, טיפולים מיוחדים וניתוחים בחו\"ל, כפי שמפורט בפוליסה. יש לפנות לחברה בטרם ביצוע ההשתלה או הניתוח בחו\"ל, וכן לפני יצירת קשר עם גורם כלשהו בחו\"ל, זאת כתנאי לזכאות על פי הפוליסה. הטופס מחולק לשני חלקים: חלק א' למילוי על ידי המבוטח, וחלק ב' למילוי על ידי רופא מקצועי או רופא משפחה. יש לצרף מסמכים רפואיים המפרטים את הניתוח או הטיפול המבוקש, וחוות דעת של מומחה רפואי במקרה של טיפול מיוחד. הפוליסה, השתלות, טיפולים מיוחדים, ניתוחים בחו\"ל, רופא מקצועי, רופא משפחה הם מרכיבים מרכזיים בתהליך. This table describes the process for submitting a health insurance claim for transplants, specialized treatments, and surgeries abroad. It outlines the required steps and documentation before undergoing medical procedures overseas. בין הערכים בטבלה: Requirement: פנייה לחברה לפני ביצוע ההשתלה; R…",
+  "payload": "טבלה: השתלות, טיפולים מיוחדים וניתוחים בחו\"ל\nThis table describes the process for submitting a health insurance claim for transplants, specialized treatments, and surgeries abroad. It outlines the required steps and documentation before undergoing medical procedures overseas.\nממדים: Claim submission step/requirement, Details/Instructions\n\nהשתלות, טיפולים מיוחדים וניתוחים בחו\"ל\nעל פי הפוליסה, הנך מחויב לפנות אלינו בטרם ביצוע ההשתלה או הניתוח בחו\"ל ואף בטרם יצירת קשר עם גורם כלשהו בחו\"ל, שכן פניה כאמור . היא תנאי לזכאותך על פי הפוליסה\n, שבו יש למלא את שני החלקים הראשונים. להשתלות, טיפולים מיוחדים וניתוחים בחו\"ל בשלב הראשון עליך למלא ולהעביר אלינו את הטופס\n; א. חלק א', הכולל את פרטי המבוטח, עליך למלאו בעצמך - אנא מלא בו את כל הפרטים המבוקשים בקפידה, לשם שיפור וייעול הטיפול בפנייתך"
 }

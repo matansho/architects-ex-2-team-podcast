@@ -2,26 +2,26 @@
   "id": "pdf:business/files/טופס-הצעה-לביטוח-מכלול-למושב.pdf#31",
   "source": "llm",
   "description": {
-    "title": "מכלול - כיסוי נזקים",
-    "summary": "This table details coverage for various natural disaster risks under the 'מכלול' insurance policy. It specifies whether coverage exists for events like earthquakes, frost, and hail, and outlines self-participation amounts.",
-    "embed_passage": "פוליסת 'מכלול' מספקת כיסוי לנזקים הנגרמים מאחרים טבע ונזקי אדמה רעידת, כמו גם נזקי ברד ושדה. גובה ההשתתפות העצמית משתנה בהתאם לסיכון, לדוגמה M.128% או M.M58%. הכיסוי חל על יבולים, מטעים, ופריים, אך ישנם חריגים למבנים מאסיביים.",
-    "row_axis": "types of natural disaster risks (e.g., earthquake, frost)",
-    "column_axis": "coverage details (e.g., coverage exists, self-participation amount)",
-    "units": [
-      "%"
-    ],
+    "title": "כיסוי נזקים - מכלול",
+    "summary": "This table details coverage for various natural disaster risks (earthquake, hail, frost, etc.) under the 'מכלול' insurance policy. It specifies whether coverage exists and the self-participation rate for each risk.",
+    "embed_passage": "טבלה זו מתארת את הכיסויים עבור סיכונים שונים כגון רעידות אדמה, ברד ופגעי טבע אחרים במסגרת פוליסת 'מכלול'. ניתן לחפש מידע על כיסוי ספציפי לפי סוג הנזק (למשל, נזקי אדמה רעידת) וכן את שיעור ההשתתפות העצמית הנדרש. הטבלה כוללת מידע על נזקי טבע, נזקי אדמה רעידת, נזקי ברד, נזקים תוצאתיים, וכיסויים שונים למבנים ויבולים. לדוגמה, כיסוי לנזקי אדמה רעידת הוא M.128% או M.M58%, בעוד שלנזקים אחרים יש כיסוי חלקי או מלא. כמו כן, הטבלה מציינת כי כיסוי קיים ליבולים, מטעים, ופריים.",
+    "row_axis": "סוג נזק (Damage Type)",
+    "column_axis": "תנאי כיסוי והשתתפות עצמית (Coverage Conditions and Self-Participation)",
+    "units": [],
     "notable_values": [
-      "M.128%: self-participation rate",
-      "M.M58%: self-participation rate",
-      "5,000 ₪: minimum self-participation amount",
-      "2.5%: standard self-participation rate",
-      "20,000,000 ₪: liability limit"
+      "רעידת אדמה: M.128%",
+      "נזקי טבע: M.M58%",
+      "נזקים תוצאתיים: לא כן",
+      "נזקי ברד: לפוליסה",
+      "יבולים שדה: כן",
+      "מטעים: כן",
+      "פריים: כן"
     ],
     "product_hints": [
       "מכלול"
     ]
   },
   "sketch": "יג,אחרים טבע ונזקי אדמה רעידת\nלא כן M.128%,טבע( נזקי )ללא בלבד אדמה רעידת נזקי א.\nלא כן M.M58%,\"תוצאתיים נזקים כולל לא בלבד, טבע נזקי\"\nב. לפוליסה. הרשימה בדף כמפורט - טבע ונזקי אדמה רעידת סיכון בגין עצמית השתתפות לפוליסה. הרשימה בדף כמפורט - וברד שלג נזקי בגין עצמית השתתפות,ב. לפוליסה. הרשימה בדף כמפורט - טבע ונזקי אדמה רעידת סיכון בגין עצמית השתתפות לפוליסה. הרשימה בדף כמפורט - וברד שלג נזקי בגין עצמית השתתפות\n\"נזקי בפני הכיסוי כן כמו וכוורות. יבולים שדה, גידולי מטעים, פריים, על לעצים הנגרם נזק כולל לא אחרים טבע ונזקי אדמה רעידת נזקי בפני הכיסוי מהם החומרים עם נמנים שאינם חומרים העשויים אלו מבנים של תכולתם וכן אחרים כיסויים או מבנים של כיסויים מבנים, וחלקי מבנים מחריג טבע מאסיבי. מבנה בנו",
-  "embed_text": "פוליסת 'מכלול' מספקת כיסוי לנזקים הנגרמים מאחרים טבע ונזקי אדמה רעידת, כמו גם נזקי ברד ושדה. גובה ההשתתפות העצמית משתנה בהתאם לסיכון, לדוגמה M.128% או M.M58%. הכיסוי חל על יבולים, מטעים, ופריים, אך ישנם חריגים למבנים מאסיביים.",
-  "payload": "טבלה: מכלול - כיסוי נזקים\nThis table details coverage for various natural disaster risks under the 'מכלול' insurance policy. It specifies whether coverage exists for events like earthquakes, frost, and hail, and outlines self-participation amounts.\nממדים: types of natural disaster risks (e.g., earthquake, frost), coverage details (e.g., coverage exists, self-participation amount)\n\nיג,אחרים טבע ונזקי אדמה רעידת\nלא כן M.128%,טבע( נזקי )ללא בלבד אדמה רעידת נזקי א.\nלא כן M.M58%,\"תוצאתיים נזקים כולל לא בלבד, טבע נזקי\"\nב. לפוליסה. הרשימה בדף כמפורט - טבע ונזקי אדמה רעידת סיכון בגין עצמית השתתפות לפוליסה. הרשימה בדף כמפורט - וברד שלג נזקי בגין עצמית השתתפות,ב. לפוליסה. הרשימה בדף כמפורט - טבע ונזקי אדמה רעידת סיכון בגין עצמית השתתפות לפוליסה. הרשימה בדף כמפורט - וברד שלג נזקי בגין עצמית השתתפות\n\"נזקי בפני הכיסוי כן כמו וכוורות. יבולים שדה, גידולי מטעים, פריים, על לעצים הנגרם נזק כולל לא אחרים טבע ונזקי אדמה רעידת נזקי בפני הכיסוי מהם החומרים עם נמנים שאינם חומרים העשויים אלו מבנים של תכולתם וכן אחרים כיסויים או מבנים של כיסויים מבנים, וחלקי מבנים מחריג טבע מאסיבי. מבנה בנו"
+  "embed_text": "טבלה זו מתארת את הכיסויים עבור סיכונים שונים כגון רעידות אדמה, ברד ופגעי טבע אחרים במסגרת פוליסת 'מכלול'. ניתן לחפש מידע על כיסוי ספציפי לפי סוג הנזק (למשל, נזקי אדמה רעידת) וכן את שיעור ההשתתפות העצמית הנדרש. הטבלה כוללת מידע על נזקי טבע, נזקי אדמה רעידת, נזקי ברד, נזקים תוצאתיים, וכיסויים שונים למבנים ויבולים. לדוגמה, כיסוי לנזקי אדמה רעידת הוא M.128% או M.M58%, בעוד שלנזקים אחרים יש כיסוי חלקי או מלא. כמו כן, הטבלה מציינת כי כיסוי קיים ליבולים, מטעים, ופריים. This table details coverage for various natural disaster risks (earthquake, hail, frost, etc.) under the 'מכלול' insurance policy. It specifies whether coverage exists and the self-participation rate for each risk.",
+  "payload": "טבלה: כיסוי נזקים - מכלול\nThis table details coverage for various natural disaster risks (earthquake, hail, frost, etc.) under the 'מכלול' insurance policy. It specifies whether coverage exists and the self-participation rate for each risk.\nממדים: סוג נזק (Damage Type), תנאי כיסוי והשתתפות עצמית (Coverage Conditions and Self-Participation)\n\nיג,אחרים טבע ונזקי אדמה רעידת\nלא כן M.128%,טבע( נזקי )ללא בלבד אדמה רעידת נזקי א.\nלא כן M.M58%,\"תוצאתיים נזקים כולל לא בלבד, טבע נזקי\"\nב. לפוליסה. הרשימה בדף כמפורט - טבע ונזקי אדמה רעידת סיכון בגין עצמית השתתפות לפוליסה. הרשימה בדף כמפורט - וברד שלג נזקי בגין עצמית השתתפות,ב. לפוליסה. הרשימה בדף כמפורט - טבע ונזקי אדמה רעידת סיכון בגין עצמית השתתפות לפוליסה. הרשימה בדף כמפורט - וברד שלג נזקי בגין עצמית השתתפות\n\"נזקי בפני הכיסוי כן כמו וכוורות. יבולים שדה, גידולי מטעים, פריים, על לעצים הנגרם נזק כולל לא אחרים טבע ונזקי אדמה רעידת נזקי בפני הכיסוי מהם החומרים עם נמנים שאינם חומרים העשויים אלו מבנים של תכולתם וכן אחרים כיסויים או מבנים של כיסויים מבנים, וחלקי מבנים מחריג טבע מאסיבי. מבנה בנו"
 }

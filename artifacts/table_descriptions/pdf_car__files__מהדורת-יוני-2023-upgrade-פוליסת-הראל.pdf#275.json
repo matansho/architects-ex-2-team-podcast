@@ -2,27 +2,24 @@
   "id": "pdf:car/files/מהדורת-יוני-2023-upgrade-פוליסת-הראל.pdf#275",
   "source": "llm",
   "description": {
-    "title": "רכב חלופי - הראל",
-    "summary": "This table details the conditions for receiving a replacement vehicle (רכב חלופי) from Harel Insurance. It specifies the number of days of coverage based on repair time, accident type, or theft, with limits and exclusions.",
-    "embed_passage": "פוליסת הראל מספקת שירות רכב חלופי במקרה של תאונה או גניבה. מספר ימי השירות נקבע על סמך דו״ח שמאי, לדוגמה 4 ימים עבור תיקון, או 7 ימים במקרה של נזק מוחלט. ייתכן ויוענק רכב חלופי החל מהיום ה-8 לאחר דיווח על גניבה.",
-    "row_axis": "Scenario (accident, theft, total loss)",
-    "column_axis": "Replacement vehicle duration (days)",
-    "units": [
-      "ימים"
-    ],
+    "title": "רכב חלופי",
+    "summary": "This table details the duration of a replacement vehicle service provided by 'נותן השירות' following an accident or theft, contingent on insurance coverage. It specifies how the number of days is determined based on repair estimates and policy details.",
+    "embed_passage": "טבלה זו מתארת את מספר הימים לשירות רכב חלופי של הראל בעקבות תאונה או גניבה, בהתאם לתנאי הפוליסה. מספר הימים נקבע על סמך דו״ח שמאי, עלות תיקון הרכב, ותעריפי איגוד המוסכים. הפוליסה עשויה להגביל את התקופה המקסימלית לקבלת רכב חלופי, או להציע מספר ימים קבוע במקרה של נזק מוחלט. הראל, רכב חלופי, תאונה, גניבה, שמאי, מוסך, ימים, עלות תיקון.",
+    "row_axis": "Scenario (accident/theft) and conditions",
+    "column_axis": "Duration of replacement vehicle service (in days)",
+    "units": [],
     "notable_values": [
-      "תיקון רכב: 4 ימים",
-      "נזק מוחלט: 7 ימים",
-      "דיווח על גניבה: החל מהיום ה-8",
-      "תקופה מקסימלית: 7 ימים",
-      "שעות עבודה: 8"
+      "4 שעות: 8 ימים",
+      "5 ימים",
+      "7 ימים (נזק מוחלט)",
+      "8 ימים (גניבה)",
+      "30 יום (מינימום לגניבה)"
     ],
     "product_hints": [
-      "Harel",
-      "רכב חלופי"
+      "הראל"
     ]
   },
   "sketch": "קביעת מספר הימים תעשה על סמך דו\"ח השמאי שיוגש כמפורט להלן: עלות (4 שעות 8) עבודת תיקון הרכב המבוטח )ללא חלפים(, מחולקת במחיר יום עבודה במוסך(, בהתאם לתעריפי איגוד המוסכים לשעת עבודה, התקפים בזמן התיקון.\nלעיל, בו קבע 4 הרכב החלופי יינתן בהתאם לדו\"ח השמאי כמפורט בסעיף (5 ימים )אלא אם צוין 3 את מספר הימים הדרוש לתיקון כלי הרכב הניזוק, ובניכוי אחרת במפרט הביטוח(. אולם בכל מקרה לא יינתן הרכב לתקופה העולה על ימים )אלא אם צוין אחרת במפרט הפוליסה( ובכפוף לאי קבלת רכב חלופי 7 מגורם אחר בגין אותו מקרה.",
-  "embed_text": "פוליסת הראל מספקת שירות רכב חלופי במקרה של תאונה או גניבה. מספר ימי השירות נקבע על סמך דו״ח שמאי, לדוגמה 4 ימים עבור תיקון, או 7 ימים במקרה של נזק מוחלט. ייתכן ויוענק רכב חלופי החל מהיום ה-8 לאחר דיווח על גניבה.",
-  "payload": "טבלה: רכב חלופי - הראל\nThis table details the conditions for receiving a replacement vehicle (רכב חלופי) from Harel Insurance. It specifies the number of days of coverage based on repair time, accident type, or theft, with limits and exclusions.\nממדים: Scenario (accident, theft, total loss), Replacement vehicle duration (days)\n\nקביעת מספר הימים תעשה על סמך דו\"ח השמאי שיוגש כמפורט להלן: עלות (4 שעות 8) עבודת תיקון הרכב המבוטח )ללא חלפים(, מחולקת במחיר יום עבודה במוסך(, בהתאם לתעריפי איגוד המוסכים לשעת עבודה, התקפים בזמן התיקון.\nלעיל, בו קבע 4 הרכב החלופי יינתן בהתאם לדו\"ח השמאי כמפורט בסעיף (5 ימים )אלא אם צוין 3 את מספר הימים הדרוש לתיקון כלי הרכב הניזוק, ובניכוי אחרת במפרט הביטוח(. אולם בכל מקרה לא יינתן הרכב לתקופה העולה על ימים )אלא אם צוין אחרת במפרט הפוליסה( ובכפוף לאי קבלת רכב חלופי 7 מגורם אחר בגין אותו מקרה."
+  "embed_text": "טבלה זו מתארת את מספר הימים לשירות רכב חלופי של הראל בעקבות תאונה או גניבה, בהתאם לתנאי הפוליסה. מספר הימים נקבע על סמך דו״ח שמאי, עלות תיקון הרכב, ותעריפי איגוד המוסכים. הפוליסה עשויה להגביל את התקופה המקסימלית לקבלת רכב חלופי, או להציע מספר ימים קבוע במקרה של נזק מוחלט. הראל, רכב חלופי, תאונה, גניבה, שמאי, מוסך, ימים, עלות תיקון. This table details the duration of a replacement vehicle service provided by 'נותן השירות' following an accident or theft, contingent on insurance coverage. It specifies how the number of days is determined based on repair estimates and policy details. בין הערכים בטבלה: 4 שעות: 8 ימים; 5 ימים; 7 ימים (נזק מוחלט); 8 ימים (גניבה); 30 יום (מינימום לגניבה).",
+  "payload": "טבלה: רכב חלופי\nThis table details the duration of a replacement vehicle service provided by 'נותן השירות' following an accident or theft, contingent on insurance coverage. It specifies how the number of days is determined based on repair estimates and policy details.\nממדים: Scenario (accident/theft) and conditions, Duration of replacement vehicle service (in days)\n\nקביעת מספר הימים תעשה על סמך דו\"ח השמאי שיוגש כמפורט להלן: עלות (4 שעות 8) עבודת תיקון הרכב המבוטח )ללא חלפים(, מחולקת במחיר יום עבודה במוסך(, בהתאם לתעריפי איגוד המוסכים לשעת עבודה, התקפים בזמן התיקון.\nלעיל, בו קבע 4 הרכב החלופי יינתן בהתאם לדו\"ח השמאי כמפורט בסעיף (5 ימים )אלא אם צוין 3 את מספר הימים הדרוש לתיקון כלי הרכב הניזוק, ובניכוי אחרת במפרט הביטוח(. אולם בכל מקרה לא יינתן הרכב לתקופה העולה על ימים )אלא אם צוין אחרת במפרט הפוליסה( ובכפוף לאי קבלת רכב חלופי 7 מגורם אחר בגין אותו מקרה."
 }

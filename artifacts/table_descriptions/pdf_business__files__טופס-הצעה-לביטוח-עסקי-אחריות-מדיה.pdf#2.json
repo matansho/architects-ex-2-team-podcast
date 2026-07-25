@@ -2,24 +2,22 @@
   "id": "pdf:business/files/טופס-הצעה-לביטוח-עסקי-אחריות-מדיה.pdf#2",
   "source": "llm",
   "description": {
-    "title": "אחריות מדיה - פרסומים",
-    "summary": "This table details publications for Media Liability insurance. It's used to assess risk based on publication details like circulation and frequency.",
-    "embed_passage": "טופס הצעה לביטוח אחריות מדיה כולל פרטים על פרסומים שונים, כגון עיתונים ומגזינים. הנתונים כוללים את שם הפרסום, האם הוא מתמקד בנושא מסוים, תדירות ההוצאה לאור, ואומדן של מספר העותקים המודפסים, לדוגמה, 'Approximate circulation'.",
-    "row_axis": "Publication",
-    "column_axis": "Publication details (subject, frequency, circulation)",
+    "title": "פרסומים ומדפסים",
+    "summary": "This table lists publications for Media Liability insurance. It is used to assess risk based on publication details like subject matter, frequency, and circulation.",
+    "embed_passage": "טופס זה עוסק בביטוח אחריות מקצועית, סעיף פרסומים ומדפסים. המטרה היא לקבל מידע על כל הפרסומים של המבוטח, כדי להעריך את הסיכון הכרוך בהם. יש לציין את שם הפרסום, הנושא שלו (מקצועי, מסחרי, אמנותי, מדעי וכו׳), תדירות ההוצאה לאור, ואת סוג הפרסום (עיתון, כתב עת מקצועי וכו׳) וכן את ההפצה המשוערת. פרטים נדרשים עבור עיתונים, כתבי עת מקצועיים, ופרסומים אחרים. יש לציין את שם כל הפרסומים, האם הפרסום מתייחס לנושא מסוים (מקצועי, מסחרי, אמנותי, מדעי וכו׳), תדירות ההוצאה לאור, ואת סוג הפרסום (עיתון, כתב עת מקצועי וכו׳) וכן את ההפצה המשוערת.",
+    "row_axis": "publication",
+    "column_axis": "publication details (subject, frequency, type, circulation)",
     "units": [],
     "notable_values": [
-      "Approximate circulation: unknown",
-      "Whether the publication relates to any particular subject: unknown",
-      "How often publication takes place?: weekly or otherwise",
-      "Nature of publication: newspaper, trade journal, etc."
+      "publication: newspaper",
+      "publication: trade journal"
     ],
     "product_hints": [
-      "אחריות מדיה",
-      "Media Liability"
+      "Media Liability",
+      "Professional Indemnity Insurance"
     ]
   },
-  "sketch": "II. Publishers/Printers Section\nPlease ignore this section if you do not require cover as a publisher or printer.\nPlease state:\nName of all publications\n…\njournal, etc.)\nApproximate\ncirculation\nName of all publications,\"Whether the publication relates to any particular subject (professional trade art, science, etc.)\",How often publication takes place? (weekly or otherwise?),\"Nature of publication (newspaper, trade journal, etc.)\",Approximate circulation",
-  "embed_text": "טופס הצעה לביטוח אחריות מדיה כולל פרטים על פרסומים שונים, כגון עיתונים ומגזינים. הנתונים כוללים את שם הפרסום, האם הוא מתמקד בנושא מסוים, תדירות ההוצאה לאור, ואומדן של מספר העותקים המודפסים, לדוגמה, 'Approximate circulation'.",
-  "payload": "טבלה: אחריות מדיה - פרסומים\nThis table details publications for Media Liability insurance. It's used to assess risk based on publication details like circulation and frequency.\nממדים: Publication, Publication details (subject, frequency, circulation)\n\nII. Publishers/Printers Section\nPlease ignore this section if you do not require cover as a publisher or printer.\nPlease state:\nName of all publications\nWhether the publication relates to any particular subject (professional trade art, science, etc.)\nHow often\npublication takes\nplace? (weekly or\notherwise?)\nNature of\npublication\n(newspaper, trade\njournal, etc.)\nApproximate\ncirculation\nName of all publications,\"Whether the publication relates to any particular subject (professional trade art, science, etc.)\",How often publication takes place? (weekly or otherwise?),\"Nature of publication (newspaper, trade journal, etc.)\",Approximate circulation"
+  "sketch": "II. Publishers/Printers Section\nPlease ignore this section if you do not require cover as a publisher or printer.\nPlease state:\nName of all publications\nWhether the publication relates to any particular subject (professional trade art, science, etc.)\nHow often\n…\npublication\n(newspaper, trade\njournal, etc.)\nApproximate\ncirculation\nName of all publications,\"Whether the publication relates to any particular subject (professional trade art, science, etc.)\",How often publication takes place? (weekly or otherwise?),\"Nature of publication (newspaper, trade journal, etc.)\",Approximate circulation",
+  "embed_text": "טופס זה עוסק בביטוח אחריות מקצועית, סעיף פרסומים ומדפסים. המטרה היא לקבל מידע על כל הפרסומים של המבוטח, כדי להעריך את הסיכון הכרוך בהם. יש לציין את שם הפרסום, הנושא שלו (מקצועי, מסחרי, אמנותי, מדעי וכו׳), תדירות ההוצאה לאור, ואת סוג הפרסום (עיתון, כתב עת מקצועי וכו׳) וכן את ההפצה המשוערת. פרטים נדרשים עבור עיתונים, כתבי עת מקצועיים, ופרסומים אחרים. יש לציין את שם כל הפרסומים, האם הפרסום מתייחס לנושא מסוים (מקצועי, מסחרי, אמנותי, מדעי וכו׳), תדירות ההוצאה לאור, ואת סוג הפרסום (עיתון, כתב עת מקצועי וכו׳) וכן את ההפצה המשוערת. This table lists publications for Media Liability insurance. It is used to assess risk based on publication details like subject matter, frequency, and circulation. בין הערכים בטבלה: publication: newspaper; publication: trade journal.",
+  "payload": "טבלה: פרסומים ומדפסים\nThis table lists publications for Media Liability insurance. It is used to assess risk based on publication details like subject matter, frequency, and circulation.\nממדים: publication, publication details (subject, frequency, type, circulation)\n\nII. Publishers/Printers Section\nPlease ignore this section if you do not require cover as a publisher or printer.\nPlease state:\nName of all publications\nWhether the publication relates to any particular subject (professional trade art, science, etc.)\nHow often\npublication takes\nplace? (weekly or\notherwise?)\nNature of\npublication\n(newspaper, trade\njournal, etc.)\nApproximate\ncirculation\nName of all publications,\"Whether the publication relates to any particular subject (professional trade art, science, etc.)\",How often publication takes place? (weekly or otherwise?),\"Nature of publication (newspaper, trade journal, etc.)\",Approximate circulation"
 }

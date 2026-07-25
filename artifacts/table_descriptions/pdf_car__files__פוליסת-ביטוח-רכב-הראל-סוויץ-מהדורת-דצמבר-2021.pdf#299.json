@@ -2,25 +2,21 @@
   "id": "pdf:car/files/פוליסת-ביטוח-רכב-הראל-סוויץ-מהדורת-דצמבר-2021.pdf#299",
   "source": "llm",
   "description": {
-    "title": "הראל סוויץ' - שמאות",
-    "summary": "This table outlines the process for damage assessment and repair cost estimation for Harel Switch car insurance. It details the conditions under which a claimant or third party can appeal an appraiser's estimate.",
-    "embed_passage": "פוליסת ביטוח רכב הראל סוויץ' מסדירה את תהליך הערכת הנזק לרכב במקרה של תאונה. ניתן לערער על הצעת התיקון או השומה של שמאי חיצוני בפני שמאי מכריע, בתנאים מסוימים. לדוגמה, ערעור על השומה אפשרי רק על עניינים שלא נקבעו בהצעת התיקון, או על עניינים ששונו בשומה.",
-    "row_axis": "appeal conditions / dispute resolution steps",
-    "column_axis": "aspects of the appraisal process",
+    "title": "ערעור על שומה/הצעת תיקון",
+    "summary": "This table outlines the conditions for appealing a repair estimate or assessment from an external appraiser. It details the requirements for submitting a counter-offer and the scope of review by a deciding appraiser.",
+    "embed_passage": "טבלה זו מתארת את התנאים לערעור על הצעת תיקון או שומה של שמאי חיצוני, במסגרת פוליסת ביטוח רכב הראל סוויץ. ניתן לערער על הצעת התיקון או השומה בפני שמאי מכריע, בתנאי שמציגים הצעת תיקון נגדית או שומה נגדית. הערעור יכול להתייחס לעניינים שלא נקבעו בהצעת התיקון המקורית, לשינויים בשומה, או לעניינים שהתבררו רק במהלך התיקון. הראל סוויץ מאפשרת לבחור שמאי אחר, אך היא רשאית לבדוק את הרכב לפני התיקון. עניינים אלו רלוונטיים במקרה של מחלוקת בין שתי הצעות תיקון או שתי שומות.",
+    "row_axis": "conditions for appeal",
+    "column_axis": "appeal process details",
     "units": [],
     "notable_values": [
       "appeal timeframe: שבוע",
-      "cost coverage: הראל תישא במלוא עלות שכר הטרחה",
-      "dispute resolution: שמאי מכריע",
-      "counter-estimate requirement: הצעת תיקון נגדית",
-      "review period: יום עבודה אחד"
+      "cost coverage: הראל תישא במלוא עלות שכר הטרחה"
     ],
     "product_hints": [
-      "הראל סוויץ'",
-      "ביטוח רכב"
+      "הראל סוויץ"
     ]
   },
   "sketch": ". אתה או ניזוק צד ג' רשאים לערער על הצעת התיקון או על השומה של שמאי החוץ בפני שמאי 13 מכריע, ובלבד שתציגו הצעת תיקון נגדית ותודיעו על רצונכם לערער לפני תיקון הרכב, או תציגו שומה נגדית לא יאוחר משבוע לאחר שנמסרה לכם השומה של שמאי החוץ.\n. בערעור על השומה של שמאי החוץ בפני שמאי מכריע ניתן לערער רק על אותם עניינים שלא 14 נקבעו בהצעת התיקון, על אותם עניינים שנכללו בהצעת התיקון אך שונו בשומה, או על אותם עניינים שיכלו להתברר במהלך תיקון הרכב בלבד.",
-  "embed_text": "פוליסת ביטוח רכב הראל סוויץ' מסדירה את תהליך הערכת הנזק לרכב במקרה של תאונה. ניתן לערער על הצעת התיקון או השומה של שמאי חיצוני בפני שמאי מכריע, בתנאים מסוימים. לדוגמה, ערעור על השומה אפשרי רק על עניינים שלא נקבעו בהצעת התיקון, או על עניינים ששונו בשומה.",
-  "payload": "טבלה: הראל סוויץ' - שמאות\nThis table outlines the process for damage assessment and repair cost estimation for Harel Switch car insurance. It details the conditions under which a claimant or third party can appeal an appraiser's estimate.\nממדים: appeal conditions / dispute resolution steps, aspects of the appraisal process\n\n. אתה או ניזוק צד ג' רשאים לערער על הצעת התיקון או על השומה של שמאי החוץ בפני שמאי 13 מכריע, ובלבד שתציגו הצעת תיקון נגדית ותודיעו על רצונכם לערער לפני תיקון הרכב, או תציגו שומה נגדית לא יאוחר משבוע לאחר שנמסרה לכם השומה של שמאי החוץ.\n. בערעור על השומה של שמאי החוץ בפני שמאי מכריע ניתן לערער רק על אותם עניינים שלא 14 נקבעו בהצעת התיקון, על אותם עניינים שנכללו בהצעת התיקון אך שונו בשומה, או על אותם עניינים שיכלו להתברר במהלך תיקון הרכב בלבד."
+  "embed_text": "טבלה זו מתארת את התנאים לערעור על הצעת תיקון או שומה של שמאי חיצוני, במסגרת פוליסת ביטוח רכב הראל סוויץ. ניתן לערער על הצעת התיקון או השומה בפני שמאי מכריע, בתנאי שמציגים הצעת תיקון נגדית או שומה נגדית. הערעור יכול להתייחס לעניינים שלא נקבעו בהצעת התיקון המקורית, לשינויים בשומה, או לעניינים שהתבררו רק במהלך התיקון. הראל סוויץ מאפשרת לבחור שמאי אחר, אך היא רשאית לבדוק את הרכב לפני התיקון. עניינים אלו רלוונטיים במקרה של מחלוקת בין שתי הצעות תיקון או שתי שומות. This table outlines the conditions for appealing a repair estimate or assessment from an external appraiser. It details the requirements for submitting a counter-offer and the scope of review by a deciding appraiser. בין הערכים בטבלה: appeal timeframe: שבוע; cost coverage: הראל תישא במלוא עלות שכר הטרחה.",
+  "payload": "טבלה: ערעור על שומה/הצעת תיקון\nThis table outlines the conditions for appealing a repair estimate or assessment from an external appraiser. It details the requirements for submitting a counter-offer and the scope of review by a deciding appraiser.\nממדים: conditions for appeal, appeal process details\n\n. אתה או ניזוק צד ג' רשאים לערער על הצעת התיקון או על השומה של שמאי החוץ בפני שמאי 13 מכריע, ובלבד שתציגו הצעת תיקון נגדית ותודיעו על רצונכם לערער לפני תיקון הרכב, או תציגו שומה נגדית לא יאוחר משבוע לאחר שנמסרה לכם השומה של שמאי החוץ.\n. בערעור על השומה של שמאי החוץ בפני שמאי מכריע ניתן לערער רק על אותם עניינים שלא 14 נקבעו בהצעת התיקון, על אותם עניינים שנכללו בהצעת התיקון אך שונו בשומה, או על אותם עניינים שיכלו להתברר במהלך תיקון הרכב בלבד."
 }

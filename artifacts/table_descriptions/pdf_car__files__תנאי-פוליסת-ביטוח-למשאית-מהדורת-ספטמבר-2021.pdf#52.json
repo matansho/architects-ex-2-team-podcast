@@ -2,23 +2,25 @@
   "id": "pdf:car/files/תנאי-פוליסת-ביטוח-למשאית-מהדורת-ספטמבר-2021.pdf#52",
   "source": "llm",
   "description": {
-    "title": "השבתת רכב",
-    "summary": "This table details the conditions for temporarily suspending car insurance coverage. It outlines how to notify the insurer of a vehicle shutdown and the resulting limitations on coverage.",
-    "embed_passage": "פוליסת ביטוח למשאית מאפשרת השבתת הרכב לתקופה של ימים רצופים, כאשר חבות המבטח מוגבלת בתקופה זו. בעל הפוליסה רשאי להודיע מראש למבטח על השבתת הרכב, ובתעודת הביטוח החדשה יצוין שהרכב מושבת ולא ייעשה בו שימוש לנסיעה או להחניה. לדוגמה, ניתן להשבית רכב ל־30 ימים.",
-    "row_axis": "conditions related to vehicle shutdown",
-    "column_axis": "details of the shutdown process and its implications",
+    "title": "השבתה",
+    "summary": "This table details the conditions for vehicle immobilization coverage. It outlines how policyholders can request immobilization and how the insurer adjusts coverage and returns premiums.",
+    "embed_passage": "טבלה זו עוסקת בתנאי פוליסת ביטוח הכוללת כיסוי להשבתת רכב מנועי. בעל פוליסה יכול להודיע מראש למבטח על השבתת הרכב לתקופה של ימים ברציפות, ובתעודת הביטוח החדשה יצוין שהרכב מושבת ואינו מיועד לנסיעה או להחניה. הפוליסה רלוונטית לשימוש ברכב מנועי, וניתן לבטל אותה בהודעה למבטח. השבתה, בקשת השבתה, שימוש ברכב מנועי, תעודת ביטוח חדשה הם מושגים מרכזיים בטבלה זו.",
+    "row_axis": "conditions related to vehicle immobilization",
+    "column_axis": "details of immobilization request, coverage adjustment, and notification",
     "units": [],
     "notable_values": [
       "תקופה: 30 ימים",
       "סעיף: 22.1",
+      "סעיף: 22.2",
+      "סעיף: 22.3",
       "סעיף: 22.5"
     ],
     "product_hints": [
-      "ביטוח למשאית",
-      "פוליסת השבתה"
+      "פוליסת השבתה",
+      "ביטוח רכב מנועי"
     ]
   },
   "sketch": ". השבתה 22\n,22.5 .  בעל פוליסה או מי שמבקש שתוצא לו פוליסה לשימוש ברכב מנועי לפי סעיף 22.1 רשאי להודיע מראש למבטח, בכתב או בכל דרך אחרת, על השבתת הרכב לתקופה ימים ברציפות )בסעיף זה - בקשת השבתה(; על המבטח לתעד 30שלא תפחת מ את בקשת ההשבתה.\n; צוינה 22.5 .  המבטח ימסור לבעל הפוליסה תעודת ביטוח חדשה כאמור בסעיף 22.2 , לא ייעשה שימוש של נסיעה ברכב 22.5 ההשבתה בתעודת הביטוח כאמור בסעיף , ותוגבל חבות המבטח 1 או החנייתו, כאמור בהגדרת \"שימוש ברכב מנועי\" שבסעיף . כך שלא תחול על שימושים אלה 6ו 3 לפי סעיפים",
-  "embed_text": "פוליסת ביטוח למשאית מאפשרת השבתת הרכב לתקופה של ימים רצופים, כאשר חבות המבטח מוגבלת בתקופה זו. בעל הפוליסה רשאי להודיע מראש למבטח על השבתת הרכב, ובתעודת הביטוח החדשה יצוין שהרכב מושבת ולא ייעשה בו שימוש לנסיעה או להחניה. לדוגמה, ניתן להשבית רכב ל־30 ימים.",
-  "payload": "טבלה: השבתת רכב\nThis table details the conditions for temporarily suspending car insurance coverage. It outlines how to notify the insurer of a vehicle shutdown and the resulting limitations on coverage.\nממדים: conditions related to vehicle shutdown, details of the shutdown process and its implications\n\n. השבתה 22\n,22.5 .  בעל פוליסה או מי שמבקש שתוצא לו פוליסה לשימוש ברכב מנועי לפי סעיף 22.1 רשאי להודיע מראש למבטח, בכתב או בכל דרך אחרת, על השבתת הרכב לתקופה ימים ברציפות )בסעיף זה - בקשת השבתה(; על המבטח לתעד 30שלא תפחת מ את בקשת ההשבתה.\n; צוינה 22.5 .  המבטח ימסור לבעל הפוליסה תעודת ביטוח חדשה כאמור בסעיף 22.2 , לא ייעשה שימוש של נסיעה ברכב 22.5 ההשבתה בתעודת הביטוח כאמור בסעיף , ותוגבל חבות המבטח 1 או החנייתו, כאמור בהגדרת \"שימוש ברכב מנועי\" שבסעיף . כך שלא תחול על שימושים אלה 6ו 3 לפי סעיפים"
+  "embed_text": "טבלה זו עוסקת בתנאי פוליסת ביטוח הכוללת כיסוי להשבתת רכב מנועי. בעל פוליסה יכול להודיע מראש למבטח על השבתת הרכב לתקופה של ימים ברציפות, ובתעודת הביטוח החדשה יצוין שהרכב מושבת ואינו מיועד לנסיעה או להחניה. הפוליסה רלוונטית לשימוש ברכב מנועי, וניתן לבטל אותה בהודעה למבטח. השבתה, בקשת השבתה, שימוש ברכב מנועי, תעודת ביטוח חדשה הם מושגים מרכזיים בטבלה זו. This table details the conditions for vehicle immobilization coverage. It outlines how policyholders can request immobilization and how the insurer adjusts coverage and returns premiums. בין הערכים בטבלה: סעיף: 22.1; סעיף: 22.2; סעיף: 22.3; סעיף: 22.5.",
+  "payload": "טבלה: השבתה\nThis table details the conditions for vehicle immobilization coverage. It outlines how policyholders can request immobilization and how the insurer adjusts coverage and returns premiums.\nממדים: conditions related to vehicle immobilization, details of immobilization request, coverage adjustment, and notification\n\n. השבתה 22\n,22.5 .  בעל פוליסה או מי שמבקש שתוצא לו פוליסה לשימוש ברכב מנועי לפי סעיף 22.1 רשאי להודיע מראש למבטח, בכתב או בכל דרך אחרת, על השבתת הרכב לתקופה ימים ברציפות )בסעיף זה - בקשת השבתה(; על המבטח לתעד 30שלא תפחת מ את בקשת ההשבתה.\n; צוינה 22.5 .  המבטח ימסור לבעל הפוליסה תעודת ביטוח חדשה כאמור בסעיף 22.2 , לא ייעשה שימוש של נסיעה ברכב 22.5 ההשבתה בתעודת הביטוח כאמור בסעיף , ותוגבל חבות המבטח 1 או החנייתו, כאמור בהגדרת \"שימוש ברכב מנועי\" שבסעיף . כך שלא תחול על שימושים אלה 6ו 3 לפי סעיפים"
 }

@@ -2,25 +2,23 @@
   "id": "pdf:business/files/פוליסה-לביטוח-אחריות-מקצועית-הראל-מהדורת-ינואר-2023.pdf#76",
   "source": "llm",
   "description": {
-    "title": "ביטול פוליסה - הראל אחריות מקצועית",
-    "summary": "This table details conditions under which Harel Professional Liability Insurance can be cancelled. It outlines scenarios related to misrepresentation or withholding of 'material facts' by the insured.",
-    "embed_passage": "פוליסת הראל אחריות מקצועית יכולה להתבטל אם המבוטח הסתיר מידע מהותי בכוונת מרמה. לדוגמה, אם המבוטח לא גילה עניין שיש בו כדי להשפיע על נכונות המבטח לכרות את החוזה, המבטח רשאי לבטל את הפוליסה. שינוי בעניין מהותי במהלך תקופת הביטוח מחייב גילוי מידי בכתב.",
-    "row_axis": "Conditions for policy cancellation related to misrepresentation or non-disclosure",
-    "column_axis": "Specific scenarios of misrepresentation or non-disclosure",
+    "title": "הראל אחריות מקצועית - גילוי עניין",
+    "summary": "This table details conditions related to disclosure of material facts by the insured to Harel Professional Liability Insurance. It outlines scenarios where the insurer may cancel the policy or reduce coverage.",
+    "embed_passage": "טבלה זו מתייחסת לפוליסת ביטוח אחריות מקצועית של הראל, ומפרטת תנאים הנוגעים לחובת הגילוי של המבוטח. ניתן לעיין בטבלה כדי להבין מה נחשב 'עניין מהותי' וכיצד אי-גילוי או הסתרה של מידע עלולים להשפיע על תוקף הפוליסה. הטבלה עוסקת במקרים של הסתרה בכוונת מרמה, תשובות לא מלאות וכנות, ושינויים בעניין מהותי במהלך תקופת הביטוח. הראל, אחריות מקצועית, עניין מהותי, כוונת מרמה, גילוי, שינוי, ביטול פוליסה.",
+    "row_axis": "conditions for policy cancellation/reduction of coverage",
+    "column_axis": "description of the condition",
     "units": [],
     "notable_values": [
-      "5.2.1: Misrepresentation or incomplete answers",
-      "5.2.3: Concealment with intent to defraud",
-      "5.2.4: Broad questions without distinction",
-      "5.2.5: Disclosure of material changes during policy period",
-      "5.2.9: Exceptions to cancellation rights"
+      "עניין מהותי: השפעה על נכונות המבטח לכרות חוזה",
+      "הסתרה בכוונת מרמה: דינה כדין מתן תשובה שאינה מלאה",
+      "שאלה גורפת: אינה מחייבת תשובה אלא אם סבירה",
+      "שינוי בעניין מהותי: חובת גילוי בכתב באופן מידי"
     ],
     "product_hints": [
-      "אחריות מקצועית הראל",
-      "Harel Professional Liability"
+      "הראל אחריות מקצועית"
     ]
   },
   "sketch": ", הסתרה בכוונת מרמה מצד המבוטח של עניין שהוא ידע כי הוא עניין מהותי .5.2.3 דינה כדין מתן תשובה שאינה מלאה וכנה.\nשאלה גורפת שנשאלה על ידי המבטח, הכורכת עניינים שונים, ללא אבחנה .5.2.4 ביניהם, אינה מחייבת תשובה כאמור אלא אם הייתה סבירה בעת כריתת החוזה.\nבנוסף, במשך תקופת הביטוח יגלה המבוטח למבטח, בכתב, כל שינוי בעניין .5.2.5 מהותי, וזאת באופן מידי מעת שנודע לו על כך.",
-  "embed_text": "פוליסת הראל אחריות מקצועית יכולה להתבטל אם המבוטח הסתיר מידע מהותי בכוונת מרמה. לדוגמה, אם המבוטח לא גילה עניין שיש בו כדי להשפיע על נכונות המבטח לכרות את החוזה, המבטח רשאי לבטל את הפוליסה. שינוי בעניין מהותי במהלך תקופת הביטוח מחייב גילוי מידי בכתב.",
-  "payload": "טבלה: ביטול פוליסה - הראל אחריות מקצועית\nThis table details conditions under which Harel Professional Liability Insurance can be cancelled. It outlines scenarios related to misrepresentation or withholding of 'material facts' by the insured.\nממדים: Conditions for policy cancellation related to misrepresentation or non-disclosure, Specific scenarios of misrepresentation or non-disclosure\n\n, הסתרה בכוונת מרמה מצד המבוטח של עניין שהוא ידע כי הוא עניין מהותי .5.2.3 דינה כדין מתן תשובה שאינה מלאה וכנה.\nשאלה גורפת שנשאלה על ידי המבטח, הכורכת עניינים שונים, ללא אבחנה .5.2.4 ביניהם, אינה מחייבת תשובה כאמור אלא אם הייתה סבירה בעת כריתת החוזה.\nבנוסף, במשך תקופת הביטוח יגלה המבוטח למבטח, בכתב, כל שינוי בעניין .5.2.5 מהותי, וזאת באופן מידי מעת שנודע לו על כך."
+  "embed_text": "טבלה זו מתייחסת לפוליסת ביטוח אחריות מקצועית של הראל, ומפרטת תנאים הנוגעים לחובת הגילוי של המבוטח. ניתן לעיין בטבלה כדי להבין מה נחשב 'עניין מהותי' וכיצד אי-גילוי או הסתרה של מידע עלולים להשפיע על תוקף הפוליסה. הטבלה עוסקת במקרים של הסתרה בכוונת מרמה, תשובות לא מלאות וכנות, ושינויים בעניין מהותי במהלך תקופת הביטוח. הראל, אחריות מקצועית, עניין מהותי, כוונת מרמה, גילוי, שינוי, ביטול פוליסה. This table details conditions related to disclosure of material facts by the insured to Harel Professional Liability Insurance. It outlines scenarios where the insurer may cancel the policy or reduce coverage. בין הערכים בטבלה: שאלה גורפת: אינה מחייבת תשובה אלא אם סבירה; שינוי בעניין מהותי: חובת גילוי בכתב באופן מידי.",
+  "payload": "טבלה: הראל אחריות מקצועית - גילוי עניין\nThis table details conditions related to disclosure of material facts by the insured to Harel Professional Liability Insurance. It outlines scenarios where the insurer may cancel the policy or reduce coverage.\nממדים: conditions for policy cancellation/reduction of coverage, description of the condition\n\n, הסתרה בכוונת מרמה מצד המבוטח של עניין שהוא ידע כי הוא עניין מהותי .5.2.3 דינה כדין מתן תשובה שאינה מלאה וכנה.\nשאלה גורפת שנשאלה על ידי המבטח, הכורכת עניינים שונים, ללא אבחנה .5.2.4 ביניהם, אינה מחייבת תשובה כאמור אלא אם הייתה סבירה בעת כריתת החוזה.\nבנוסף, במשך תקופת הביטוח יגלה המבוטח למבטח, בכתב, כל שינוי בעניין .5.2.5 מהותי, וזאת באופן מידי מעת שנודע לו על כך."
 }

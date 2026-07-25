@@ -3,23 +3,25 @@
   "source": "llm",
   "description": {
     "title": "חרגות ביטוח אחריות זיהום",
-    "summary": "This table details exclusions to a pollution liability insurance policy. It specifies situations where coverage does *not* apply, such as contractual liability, financial assurance, and fines.",
-    "embed_passage": "פוליסת ביטוח אחריות זיהום אינה מכסה אחריות הנלקחת על ידי המבוטח במסגרת חוזה או הסכם. עם זאת, חריג זה לא חל על עלויות ניקיון, הפסדים או נזקים אחרים שהיו מצורפים למבוטח על פי דין ללא קיום חוזה זה. הפוליסה עשויה לכסות אחריות ספציפית בחוזה, כל עוד היא עולה בקנה אחד עם הכיסוי הקיים.",
-    "row_axis": "exclusion category (e.g., Contractual Liability)",
-    "column_axis": "details of the exclusion and any exceptions",
+    "summary": "This table details exclusions to coverage under a pollution liability insurance policy. It lists scenarios where claims, cleanup costs, or losses are not covered, with some exceptions.",
+    "embed_passage": "טבלה זו מתארת חריגות לפוליסת ביטוח אחריות זיהום, ומפרטת מקרים בהם תביעות, עלויות ניקיון או הפסדים אינם מכוסים. החיפוש נעשה לפי סוג האחריות החוזית או הפיננסית, וכן לפי סוג העלות או ההפסד. הפוליסה כוללת חריגות עבור אסבסט וליד, אחריות חוזית, הבטחה פיננסית וקנסות. החריגות כוללות אחריות שנלקחה על ידי המבוטח במסגרת חוזה או הסכם, אך ישנן חריגות לחריגות אלו, כגון עלויות ניקיון הנובעות מזיהום בקרקע או במי תהום. כמו כן, ישנן חריגות עבור חובות להדגים ביטחון פיננסי או לעמוד בדרישות רגולטוריות. ביטוח אחריות זיהום מכסה מגוון סיכונים, אך חשוב להבין את החריגות הקיימות.",
+    "row_axis": "exclusion category",
+    "column_axis": "details of exclusion / exception",
     "units": [],
     "notable_values": [
-      "exclusion: Asbestos and Lead",
-      "exclusion: Contractual Liability",
-      "exclusion: Financial Assurance",
-      "exclusion: Fines, Penalties",
-      "covered location: applicable to fixtures, buildings, or improvements"
+      "Asbestos: containing material",
+      "Lead: based paint",
+      "Contractual Liability: assumed by insured",
+      "Cleanup costs: attributable to soil/groundwater",
+      "Financial Assurance: federal/state/local law",
+      "Fines: penalties",
+      "Punitive Damages: exemplary/multiple"
     ],
     "product_hints": [
       "ביטוח אחריות זיהום"
     ]
   },
   "sketch": "B. Contractual Liability\nAny liability assumed by an 'insured' under any contract or agreement.  However, this exclusion does not apply to liability:\nFor  'cleanup  costs',  'loss',  or  \"other  loss\"  that  would  have  attached  to  an \"insured\" by operation of law in the absence of such contract or agreement; or\nThat is specifically assumed in an \"insured contract\" but only to the extent that any  indemnity  or  contractual  liability  assumed  thereby  is  consistent  with liability expressly covered under, and not otherwise excluded from coverage by, this policy.",
-  "embed_text": "פוליסת ביטוח אחריות זיהום אינה מכסה אחריות הנלקחת על ידי המבוטח במסגרת חוזה או הסכם. עם זאת, חריג זה לא חל על עלויות ניקיון, הפסדים או נזקים אחרים שהיו מצורפים למבוטח על פי דין ללא קיום חוזה זה. הפוליסה עשויה לכסות אחריות ספציפית בחוזה, כל עוד היא עולה בקנה אחד עם הכיסוי הקיים.",
-  "payload": "טבלה: חרגות ביטוח אחריות זיהום\nThis table details exclusions to a pollution liability insurance policy. It specifies situations where coverage does *not* apply, such as contractual liability, financial assurance, and fines.\nממדים: exclusion category (e.g., Contractual Liability), details of the exclusion and any exceptions\n\nB. Contractual Liability\nAny liability assumed by an 'insured' under any contract or agreement.  However, this exclusion does not apply to liability:\nFor  'cleanup  costs',  'loss',  or  \"other  loss\"  that  would  have  attached  to  an \"insured\" by operation of law in the absence of such contract or agreement; or\nThat is specifically assumed in an \"insured contract\" but only to the extent that any  indemnity  or  contractual  liability  assumed  thereby  is  consistent  with liability expressly covered under, and not otherwise excluded from coverage by, this policy."
+  "embed_text": "טבלה זו מתארת חריגות לפוליסת ביטוח אחריות זיהום, ומפרטת מקרים בהם תביעות, עלויות ניקיון או הפסדים אינם מכוסים. החיפוש נעשה לפי סוג האחריות החוזית או הפיננסית, וכן לפי סוג העלות או ההפסד. הפוליסה כוללת חריגות עבור אסבסט וליד, אחריות חוזית, הבטחה פיננסית וקנסות. החריגות כוללות אחריות שנלקחה על ידי המבוטח במסגרת חוזה או הסכם, אך ישנן חריגות לחריגות אלו, כגון עלויות ניקיון הנובעות מזיהום בקרקע או במי תהום. כמו כן, ישנן חריגות עבור חובות להדגים ביטחון פיננסי או לעמוד בדרישות רגולטוריות. ביטוח אחריות זיהום מכסה מגוון סיכונים, אך חשוב להבין את החריגות הקיימות. This table details exclusions to coverage under a pollution liability insurance policy. It lists scenarios where claims, cleanup costs, or losses are not covered, with some exceptions. בין הערכים בטבלה: Asbestos: containing material; Lead:…",
+  "payload": "טבלה: חרגות ביטוח אחריות זיהום\nThis table details exclusions to coverage under a pollution liability insurance policy. It lists scenarios where claims, cleanup costs, or losses are not covered, with some exceptions.\nממדים: exclusion category, details of exclusion / exception\n\nB. Contractual Liability\nAny liability assumed by an 'insured' under any contract or agreement.  However, this exclusion does not apply to liability:\nFor  'cleanup  costs',  'loss',  or  \"other  loss\"  that  would  have  attached  to  an \"insured\" by operation of law in the absence of such contract or agreement; or\nThat is specifically assumed in an \"insured contract\" but only to the extent that any  indemnity  or  contractual  liability  assumed  thereby  is  consistent  with liability expressly covered under, and not otherwise excluded from coverage by, this policy."
 }

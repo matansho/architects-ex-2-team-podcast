@@ -3,26 +3,24 @@
   "source": "llm",
   "description": {
     "title": "ביטול וקיצור נסיעה - מורחב",
-    "summary": "This table details the expanded cancellation and curtailment coverage limits for the 'דרכון פרימיום' travel insurance policy. It shows the maximum reimbursement amounts for trip cancellation or interruption, depending on whether it's for the insured individual or their nuclear family.",
-    "embed_passage": "פוליסת 'דרכון פרימיום' מציעה כיסוי מורחב לביטול או קיצור נסיעה, כאשר תקרת ההחזר עבור הפסד תשלומים בעקבות ביטול נסיעה יכולה להגיע עד $10,000 למבוטח או למשפחה גרעינית, עם השתתפות עצמית של $50.  הכיסוי תלוי ברכישת פרק ביטול וקיצור נסיעה מורחב ותשלום דמי ביטוח נוספים.",
-    "row_axis": "Types of loss covered under expanded cancellation/curtailment",
-    "column_axis": "Reimbursement limits",
+    "summary": "This table details the expanded coverage limits for trip cancellation and interruption insurance when the 'ביטול וקיצור נסיעה - מורחב' rider is purchased. It shows the maximum reimbursement amounts for trip cancellation and interruption costs.",
+    "embed_passage": "טבלה זו מתארת את תקרות ההחזר המורחבות עבור ביטול וקיצור נסיעה כאשר נרכש פרק 'ביטול וקיצור נסיעה - מורחב'. ניתן למצוא כאן את הסכומים המקסימליים להחזר עבור הפסד תשלומים בעקבות ביטול או קיצור נסיעה, בהתאם לתנאים המפורטים. פרק ביטול וקיצור נסיעה - מורחב, כרטיס נסיעה, השתתפות עצמית, $10,000, $12,000, $3,000, $50 הם חלק מהערכים המופיעים בטבלה זו. טבלה זו מסייעת להבין את גבולות האחריות בפוליסה.",
+    "row_axis": "סוג אירוע (ביטול נסיעה / קיצור נסיעה)",
+    "column_axis": "תנאי הכיסוי (הפסד תשלומים, כרטיס נסיעה, השתתפות עצמית)",
     "units": [
       "$"
     ],
     "notable_values": [
-      "Maximum reimbursement for trip cancellation: $10,000",
-      "Maximum reimbursement for flight tickets: $12,000",
-      "Self-participation amount: $50",
-      "Maximum reimbursement for accommodation: $5,000/night",
-      "Maximum reimbursement for accommodation: $2,000/ticket"
+      "כרטיס נסיעה: $10,000",
+      "השתתפות עצמית: $50",
+      "הפסד תשלומים (ביטול נסיעה): $3,000",
+      "הפסד תשלומים (קיצור נסיעה): $12,000"
     ],
     "product_hints": [
-      "דרכון פרימיום",
-      "ביטול וקיצור נסיעה - מורחב"
+      "דרכון פרימיום"
     ]
   },
   "sketch": ".ב ביטול וקיצור נסיעה - מורחב 15\nבתנאי שנרכש פרק ביטול וקיצור נסיעה - מורחב ותמורת דמי ביטוח נוספים, והדבר צוין . .א 15 - בפרק 15.3.1ו 15.2 במפורש בדף הרשימה - תהיה תקרת ההחזר בגין סעיפים לעיל, כדלקמן:\nהתחייבות המבטח בגין הפסד תשלומים בעקבות ביטול נסיעה :. .א 15 בפרק 15.2 סעיף ומתוכם כרטיס נסיעה $  10,000 תהיה עד לסך כולל של למבוטח ו/או למשפחה גרעינית: ובכפוף לנקוב בטבלת גבולות האחריות בפוליסה. בגין סעיף זה תחול $3,000 למבוטח עד למבוטח. $  50 השתתפות עצמית בגובה",
-  "embed_text": "פוליסת 'דרכון פרימיום' מציעה כיסוי מורחב לביטול או קיצור נסיעה, כאשר תקרת ההחזר עבור הפסד תשלומים בעקבות ביטול נסיעה יכולה להגיע עד $10,000 למבוטח או למשפחה גרעינית, עם השתתפות עצמית של $50.  הכיסוי תלוי ברכישת פרק ביטול וקיצור נסיעה מורחב ותשלום דמי ביטוח נוספים.",
-  "payload": "טבלה: ביטול וקיצור נסיעה - מורחב\nThis table details the expanded cancellation and curtailment coverage limits for the 'דרכון פרימיום' travel insurance policy. It shows the maximum reimbursement amounts for trip cancellation or interruption, depending on whether it's for the insured individual or their nuclear family.\nממדים: Types of loss covered under expanded cancellation/curtailment, Reimbursement limits\n\n.ב ביטול וקיצור נסיעה - מורחב 15\nבתנאי שנרכש פרק ביטול וקיצור נסיעה - מורחב ותמורת דמי ביטוח נוספים, והדבר צוין . .א 15 - בפרק 15.3.1ו 15.2 במפורש בדף הרשימה - תהיה תקרת ההחזר בגין סעיפים לעיל, כדלקמן:\nהתחייבות המבטח בגין הפסד תשלומים בעקבות ביטול נסיעה :. .א 15 בפרק 15.2 סעיף ומתוכם כרטיס נסיעה $  10,000 תהיה עד לסך כולל של למבוטח ו/או למשפחה גרעינית: ובכפוף לנקוב בטבלת גבולות האחריות בפוליסה. בגין סעיף זה תחול $3,000 למבוטח עד למבוטח. $  50 השתתפות עצמית בגובה"
+  "embed_text": "טבלה זו מתארת את תקרות ההחזר המורחבות עבור ביטול וקיצור נסיעה כאשר נרכש פרק 'ביטול וקיצור נסיעה - מורחב'. ניתן למצוא כאן את הסכומים המקסימליים להחזר עבור הפסד תשלומים בעקבות ביטול או קיצור נסיעה, בהתאם לתנאים המפורטים. פרק ביטול וקיצור נסיעה - מורחב, כרטיס נסיעה, השתתפות עצמית, $10,000, $12,000, $3,000, $50 הם חלק מהערכים המופיעים בטבלה זו. טבלה זו מסייעת להבין את גבולות האחריות בפוליסה. This table details the expanded coverage limits for trip cancellation and interruption insurance when the 'ביטול וקיצור נסיעה - מורחב' rider is purchased. It shows the maximum reimbursement amounts for trip cancellation and interruption costs.",
+  "payload": "טבלה: ביטול וקיצור נסיעה - מורחב\nThis table details the expanded coverage limits for trip cancellation and interruption insurance when the 'ביטול וקיצור נסיעה - מורחב' rider is purchased. It shows the maximum reimbursement amounts for trip cancellation and interruption costs.\nממדים: סוג אירוע (ביטול נסיעה / קיצור נסיעה), תנאי הכיסוי (הפסד תשלומים, כרטיס נסיעה, השתתפות עצמית)\n\n.ב ביטול וקיצור נסיעה - מורחב 15\nבתנאי שנרכש פרק ביטול וקיצור נסיעה - מורחב ותמורת דמי ביטוח נוספים, והדבר צוין . .א 15 - בפרק 15.3.1ו 15.2 במפורש בדף הרשימה - תהיה תקרת ההחזר בגין סעיפים לעיל, כדלקמן:\nהתחייבות המבטח בגין הפסד תשלומים בעקבות ביטול נסיעה :. .א 15 בפרק 15.2 סעיף ומתוכם כרטיס נסיעה $  10,000 תהיה עד לסך כולל של למבוטח ו/או למשפחה גרעינית: ובכפוף לנקוב בטבלת גבולות האחריות בפוליסה. בגין סעיף זה תחול $3,000 למבוטח עד למבוטח. $  50 השתתפות עצמית בגובה"
 }

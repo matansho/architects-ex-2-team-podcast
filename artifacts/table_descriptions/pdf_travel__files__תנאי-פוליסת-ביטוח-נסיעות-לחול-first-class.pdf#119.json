@@ -2,27 +2,26 @@
   "id": "pdf:travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-first-class.pdf#119",
   "source": "llm",
   "description": {
-    "title": "הרחבת כיסוי מגיפה",
-    "summary": "This table details the coverage extension for epidemic-related expenses during travel, specifically regarding trip cancellation and curtailment. It shows the additional premium and reimbursement limits for various scenarios.",
-    "embed_passage": "פוליסת ביטוח הנסיעות First Class כוללת הרחבה לתמורת מגיפה, המכסה הוצאות לינה בסך של עד $150 וביטול נסיעה עד $5,000, כאשר סכום ההחזר הכולל מתוך כרטיס הנסיעה הוא $2,000. הכיסוי מותנה בתשלום דמי ביטוח נוספים.",
-    "row_axis": "הרחבה להחזר תקרה",
-    "column_axis": "תמורת מגיפה: בזמן נסיעה וקיצור לביטול",
+    "title": "הרחבת החזר תמורת מגיפה",
+    "summary": "This table details the reimbursement terms for pandemic-related expenses during travel, specifically covering trip cancellation and related costs. It shows the coverage limits and associated fees for the 'First Class' travel insurance policy.",
+    "embed_passage": "טבלה זו מתארת את תנאי ההחזר עבור הרחבה לביטוח נסיעות 'First Class' במקרה של מגיפה, כולל החזר הוצאות לינה וביטול נסיעה. ניתן למצוא מידע על תקרת ההחזר ותמורת הביטוח הנוספים. הרחבה זו בתוקף רק אם נרכשה על ידי המבוטח תמורת דמי ביטוח נוספים. סכום ההחזר המקסימלי לביטול נסיעה הוא $5,000, כאשר $2,000 מתוכו מיועד להחזר כרטיס נסיעה. הוצאות לינה מכוסות עד $150. ביטוח מגיפה כולל תשלום נוסף של 15.7.",
+    "row_axis": "סוגי החזר (ביטול נסיעה, הוצאות לינה)",
+    "column_axis": "תנאי הרחבה (תקרה, תמורת ביטוח)",
     "units": [
       "$",
       "₪"
     ],
     "notable_values": [
-      "הוצאות לינה: $150",
-      "ביטול נסיעה: $5,000",
-      "החזר מתוך כרטיס נסיעה: $2,000",
-      "דמי ביטוח נוספים: 15.7"
+      "תקרה להחזר ביטול נסיעה: $5,000",
+      "החזר כרטיס נסיעה: $2,000",
+      "החזר הוצאות לינה: $150",
+      "תמורת מגיפה: 15.7"
     ],
     "product_hints": [
-      "First Class",
-      "ביטוח נסיעות"
+      "ביטוח נסיעות First Class"
     ]
   },
   "sketch": "דלת נוספים( ביטוח,דמי )תמורת מגיפה: בזמן נסיעה וקיצור לביטול להרחבה ההחזר תקרה הגדלת נוספים( ביטוח,15.7\n,\"לסך ועד לינה הוצאות $ 150 $ 5,000 של כולל $ 2,000\",נסיעה ביטול למבוטח נסיעה כרטיס ומתוכו:,15.7.1",
-  "embed_text": "פוליסת ביטוח הנסיעות First Class כוללת הרחבה לתמורת מגיפה, המכסה הוצאות לינה בסך של עד $150 וביטול נסיעה עד $5,000, כאשר סכום ההחזר הכולל מתוך כרטיס הנסיעה הוא $2,000. הכיסוי מותנה בתשלום דמי ביטוח נוספים.",
-  "payload": "טבלה: הרחבת כיסוי מגיפה\nThis table details the coverage extension for epidemic-related expenses during travel, specifically regarding trip cancellation and curtailment. It shows the additional premium and reimbursement limits for various scenarios.\nממדים: הרחבה להחזר תקרה, תמורת מגיפה: בזמן נסיעה וקיצור לביטול\n\nדלת נוספים( ביטוח,דמי )תמורת מגיפה: בזמן נסיעה וקיצור לביטול להרחבה ההחזר תקרה הגדלת נוספים( ביטוח,15.7\n,\"לסך ועד לינה הוצאות $ 150 $ 5,000 של כולל $ 2,000\",נסיעה ביטול למבוטח נסיעה כרטיס ומתוכו:,15.7.1"
+  "embed_text": "טבלה זו מתארת את תנאי ההחזר עבור הרחבה לביטוח נסיעות 'First Class' במקרה של מגיפה, כולל החזר הוצאות לינה וביטול נסיעה. ניתן למצוא מידע על תקרת ההחזר ותמורת הביטוח הנוספים. הרחבה זו בתוקף רק אם נרכשה על ידי המבוטח תמורת דמי ביטוח נוספים. סכום ההחזר המקסימלי לביטול נסיעה הוא $5,000, כאשר $2,000 מתוכו מיועד להחזר כרטיס נסיעה. הוצאות לינה מכוסות עד $150. ביטוח מגיפה כולל תשלום נוסף של 15.7. This table details the reimbursement terms for pandemic-related expenses during travel, specifically covering trip cancellation and related costs. It shows the coverage limits and associated fees for the 'First Class' travel insurance policy.",
+  "payload": "טבלה: הרחבת החזר תמורת מגיפה\nThis table details the reimbursement terms for pandemic-related expenses during travel, specifically covering trip cancellation and related costs. It shows the coverage limits and associated fees for the 'First Class' travel insurance policy.\nממדים: סוגי החזר (ביטול נסיעה, הוצאות לינה), תנאי הרחבה (תקרה, תמורת ביטוח)\n\nדלת נוספים( ביטוח,דמי )תמורת מגיפה: בזמן נסיעה וקיצור לביטול להרחבה ההחזר תקרה הגדלת נוספים( ביטוח,15.7\n,\"לסך ועד לינה הוצאות $ 150 $ 5,000 של כולל $ 2,000\",נסיעה ביטול למבוטח נסיעה כרטיס ומתוכו:,15.7.1"
 }

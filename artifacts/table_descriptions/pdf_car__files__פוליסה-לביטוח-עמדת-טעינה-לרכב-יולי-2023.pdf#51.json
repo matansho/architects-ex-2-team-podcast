@@ -2,21 +2,23 @@
   "id": "pdf:car/files/פוליסה-לביטוח-עמדת-טעינה-לרכב-יולי-2023.pdf#51",
   "source": "llm",
   "description": {
-    "title": "ביטוח עמדת טעינה לרכב",
-    "summary": "This table details conditions for policy cancellation related to inaccurate information provided by the insured regarding a vehicle charging station insurance policy. It outlines scenarios where the insurer can void the policy and the resulting reimbursement or coverage adjustments.",
-    "embed_passage": "פוליסת ביטוח עמדת טעינה לרכב מתייחסת למצבים בהם מידע שגוי או לא מלא ניתן על ידי המבוטח. לדוגמה, אם תשובה ניתנה בכוונת מרמה, המבטח אינו זכאי לתרופות מסוימות. במקרה של שינוי מהותי, המבטח רשאי לבטל את הפוליסה תוך 30 ימים, וזכאי להחזר דמי ביטוח ששילם בעד התקופה שלאחר הביטול.",
-    "row_axis": "Cancellation conditions / scenarios",
-    "column_axis": "Insurer's rights and insured's reimbursements",
+    "title": "פוליסה לביטוח עמדת טעינה לרכב",
+    "summary": "This table outlines conditions for policy cancellation related to inaccurate or incomplete information provided by the insured. It details scenarios where the insurer may void the policy and the resulting reimbursement rights.",
+    "embed_passage": "טבלה זו מתייחסת לפוליסה לביטוח עמדת טעינה לרכב, ומפרטת תנאים לביטול הפוליסה במקרה של מידע שגוי או חסר שסופק על ידי המבוטח. ניתן לעיין בתנאים אלו כדי להבין את זכויות המבוטח והחובות של המבטח במצבים שונים. הטבלה בוחנת מצבים כגון מתן תשובה לא מלאה או כנה, שינויים מהותיים שלא דווחו, והשפעתם על זכאות לתגמולים. בין הנתונים המופיעים בטבלה ניתן למצוא תנאים לביטול הפוליסה, החזר דמי ביטוח, ושיעורי החזר יחסיים. סעיפים 1.8.1 ו-1.8.2 מתארים מצבים בהם המבטח לא היה מתקשר בפוליסה גם בדמי ביטוח גבוהים יותר, וסעיף 1.9 מתייחס לידע המוקדם של המבטח לגבי המצב האמיתי.",
+    "row_axis": "Cancellation conditions based on inaccurate/incomplete information",
+    "column_axis": "Policy implications (reimbursement, cancellation rights)",
     "units": [],
     "notable_values": [
-      "30 ימים: Period for insurer to cancel policy after incomplete information",
-      "כוונת מרמה: Intentional misrepresentation voids certain insurer rights"
+      "סעיף 1.8.1: ניתנו בכוונת מרמה",
+      "סעיף 1.8.2: מבטח סביר לא היה מתקשר",
+      "סעיף 1.9.1: המבטח ידע את המצב לאמיתו",
+      "סעיף 1.9.2: העובדה חדלה להתקיים לפני מקרה הביטוח"
     ],
     "product_hints": [
       "ביטוח עמדת טעינה לרכב"
     ]
   },
   "sketch": "קרה מקרה הביטוח לפני שנתבטל החוזה מכוח תנאי זה, אין המבטח חייב אלא .1.8 בתגמולי ביטוח מופחתים בשיעור יחסי, שהוא כיחס שבין דמי הביטוח שהיו משתלמים כמקובל אצלו לפי המצב לאמיתו לבין דמי הביטוח המוסכמים, והוא פטור כליל בכל אחת מאלה:\n)לפי העניין(, ניתנו בכוונת 1.4 התשובה, או אי מתן הודעה כאמור בסעיף .1.8.1 מרמה;\nמבטח סביר לא היה מתקשר באותה פוליסה, אף בדמי ביטוח מרובים .1.8.2 יותר, אילו ידע שהמצב הוא כפי שהוא לאחר השינוי. במקרה זה זכאי המבוטח להחזר דמי הביטוח ששילם בעד התקופה שלאחר השינוי.",
-  "embed_text": "פוליסת ביטוח עמדת טעינה לרכב מתייחסת למצבים בהם מידע שגוי או לא מלא ניתן על ידי המבוטח. לדוגמה, אם תשובה ניתנה בכוונת מרמה, המבטח אינו זכאי לתרופות מסוימות. במקרה של שינוי מהותי, המבטח רשאי לבטל את הפוליסה תוך 30 ימים, וזכאי להחזר דמי ביטוח ששילם בעד התקופה שלאחר הביטול.",
-  "payload": "טבלה: ביטוח עמדת טעינה לרכב\nThis table details conditions for policy cancellation related to inaccurate information provided by the insured regarding a vehicle charging station insurance policy. It outlines scenarios where the insurer can void the policy and the resulting reimbursement or coverage adjustments.\nממדים: Cancellation conditions / scenarios, Insurer's rights and insured's reimbursements\n\nקרה מקרה הביטוח לפני שנתבטל החוזה מכוח תנאי זה, אין המבטח חייב אלא .1.8 בתגמולי ביטוח מופחתים בשיעור יחסי, שהוא כיחס שבין דמי הביטוח שהיו משתלמים כמקובל אצלו לפי המצב לאמיתו לבין דמי הביטוח המוסכמים, והוא פטור כליל בכל אחת מאלה:\n)לפי העניין(, ניתנו בכוונת 1.4 התשובה, או אי מתן הודעה כאמור בסעיף .1.8.1 מרמה;\nמבטח סביר לא היה מתקשר באותה פוליסה, אף בדמי ביטוח מרובים .1.8.2 יותר, אילו ידע שהמצב הוא כפי שהוא לאחר השינוי. במקרה זה זכאי המבוטח להחזר דמי הביטוח ששילם בעד התקופה שלאחר השינוי."
+  "embed_text": "טבלה זו מתייחסת לפוליסה לביטוח עמדת טעינה לרכב, ומפרטת תנאים לביטול הפוליסה במקרה של מידע שגוי או חסר שסופק על ידי המבוטח. ניתן לעיין בתנאים אלו כדי להבין את זכויות המבוטח והחובות של המבטח במצבים שונים. הטבלה בוחנת מצבים כגון מתן תשובה לא מלאה או כנה, שינויים מהותיים שלא דווחו, והשפעתם על זכאות לתגמולים. בין הנתונים המופיעים בטבלה ניתן למצוא תנאים לביטול הפוליסה, החזר דמי ביטוח, ושיעורי החזר יחסיים. סעיפים 1.8.1 ו-1.8.2 מתארים מצבים בהם המבטח לא היה מתקשר בפוליסה גם בדמי ביטוח גבוהים יותר, וסעיף 1.9 מתייחס לידע המוקדם של המבטח לגבי המצב האמיתי. This table outlines conditions for policy cancellation related to inaccurate or incomplete information provided by the insured. It details scenarios where the insurer may void the policy and the resulting reimbursement rights. בין הערכים בטבלה: סעי…",
+  "payload": "טבלה: פוליסה לביטוח עמדת טעינה לרכב\nThis table outlines conditions for policy cancellation related to inaccurate or incomplete information provided by the insured. It details scenarios where the insurer may void the policy and the resulting reimbursement rights.\nממדים: Cancellation conditions based on inaccurate/incomplete information, Policy implications (reimbursement, cancellation rights)\n\nקרה מקרה הביטוח לפני שנתבטל החוזה מכוח תנאי זה, אין המבטח חייב אלא .1.8 בתגמולי ביטוח מופחתים בשיעור יחסי, שהוא כיחס שבין דמי הביטוח שהיו משתלמים כמקובל אצלו לפי המצב לאמיתו לבין דמי הביטוח המוסכמים, והוא פטור כליל בכל אחת מאלה:\n)לפי העניין(, ניתנו בכוונת 1.4 התשובה, או אי מתן הודעה כאמור בסעיף .1.8.1 מרמה;\nמבטח סביר לא היה מתקשר באותה פוליסה, אף בדמי ביטוח מרובים .1.8.2 יותר, אילו ידע שהמצב הוא כפי שהוא לאחר השינוי. במקרה זה זכאי המבוטח להחזר דמי הביטוח ששילם בעד התקופה שלאחר השינוי."
 }

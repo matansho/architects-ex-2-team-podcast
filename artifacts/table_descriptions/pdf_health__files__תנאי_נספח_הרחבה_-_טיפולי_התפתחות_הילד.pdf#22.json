@@ -3,22 +3,22 @@
   "source": "llm",
   "description": {
     "title": "הצמדה למדד",
-    "summary": "This table details the index to which policy amounts are tied, specifically the Consumer Price Index (מדד). It shows the base index value and the date it was published.",
-    "embed_passage": "תכנית זו מצמידה את הסכומים המפורטים למדד 13396, שערכו בפברואר 2023. ההצמדה מתבצעת מידי חודש. לדוגמא, מדד זה משמש לחישוב דמי הביטוח בהתאם לגיל הילד.",
-    "row_axis": "Index details",
-    "column_axis": "Index value, date",
+    "summary": "This table details the index to which amounts in the plan are tied, and the base index value. It is used to look up the index used for monthly adjustments.",
+    "embed_passage": "טבלה זו מתארת את המדד אליו צמודים הסכומים בתכנית, ואת ערך המדד הבסיסי. ניתן להשתמש בה כדי למצוא את המדד המשמש להתאמות חודשיות בתכנית טיפולי התפתחות הילד של הראל. הסכומים המפורטים בתכנית נקובים בש״ח ויוצמדו למדד מידי חודש. מדד הבסיס הוא 13396, שערכו בפברואר 2023. הראל ביטוח מציעה תכנית טיפולים ואבחונים לילד.",
+    "row_axis": "מדד",
+    "column_axis": "תאריך",
     "units": [
-      "ש\"ח"
+      "ש״ח"
     ],
     "notable_values": [
-      "מדד הבסיס: 13396",
-      "תאריך המדד: פברואר 2023"
+      "מדד בסיס: 13396",
+      "תאריך מדד בסיס: פברואר 2023"
     ],
     "product_hints": [
       "הראל"
     ]
   },
   "sketch": "הצמד   ה .7\nר   מדד הבסיס הינו המדד שפורסם הסכומים המפורטים בתכנית זו נקובים בש\"ח ויוצמדו למדד   מידי חודש,   כאש . נקודות 13396 , שערכו 2023 לפברואר 15 ­ ב\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",האינטרנט אתר תובת כ www.harel-group.co.il",
-  "embed_text": "תכנית זו מצמידה את הסכומים המפורטים למדד 13396, שערכו בפברואר 2023. ההצמדה מתבצעת מידי חודש. לדוגמא, מדד זה משמש לחישוב דמי הביטוח בהתאם לגיל הילד.",
-  "payload": "טבלה: הצמדה למדד\nThis table details the index to which policy amounts are tied, specifically the Consumer Price Index (מדד). It shows the base index value and the date it was published.\nממדים: Index details, Index value, date\n\nהצמד   ה .7\nר   מדד הבסיס הינו המדד שפורסם הסכומים המפורטים בתכנית זו נקובים בש\"ח ויוצמדו למדד   מידי חודש,   כאש . נקודות 13396 , שערכו 2023 לפברואר 15 ­ ב\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",האינטרנט אתר תובת כ www.harel-group.co.il"
+  "embed_text": "טבלה זו מתארת את המדד אליו צמודים הסכומים בתכנית, ואת ערך המדד הבסיסי. ניתן להשתמש בה כדי למצוא את המדד המשמש להתאמות חודשיות בתכנית טיפולי התפתחות הילד של הראל. הסכומים המפורטים בתכנית נקובים בש״ח ויוצמדו למדד מידי חודש. מדד הבסיס הוא 13396, שערכו בפברואר 2023. הראל ביטוח מציעה תכנית טיפולים ואבחונים לילד. This table details the index to which amounts in the plan are tied, and the base index value. It is used to look up the index used for monthly adjustments.",
+  "payload": "טבלה: הצמדה למדד\nThis table details the index to which amounts in the plan are tied, and the base index value. It is used to look up the index used for monthly adjustments.\nממדים: מדד, תאריך\n\nהצמד   ה .7\nר   מדד הבסיס הינו המדד שפורסם הסכומים המפורטים בתכנית זו נקובים בש\"ח ויוצמדו למדד   מידי חודש,   כאש . נקודות 13396 , שערכו 2023 לפברואר 15 ­ ב\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",האינטרנט אתר תובת כ www.harel-group.co.il"
 }

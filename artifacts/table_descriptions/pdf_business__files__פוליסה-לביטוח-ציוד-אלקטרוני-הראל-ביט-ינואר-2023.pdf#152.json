@@ -2,25 +2,25 @@
   "id": "pdf:business/files/פוליסה-לביטוח-ציוד-אלקטרוני-הראל-ביט-ינואר-2023.pdf#152",
   "source": "llm",
   "description": {
-    "title": "פוליסת ביטוח ציוד אלקטרוני",
-    "summary": "This table details conditions related to policy cancellation and misrepresentation, specifically regarding the return of premiums and the insurer's right to void the policy. It outlines scenarios where the insurer may reduce or deny coverage based on incomplete or fraudulent information provided by the insured.",
-    "embed_passage": "פוליסת ביטוח ציוד אלקטרוני של הראל מתייחסת למקרים של הפרת חובת גילוי או החמרה בסיכון. לדוגמה, אם המבוטח לא ענה תשובות מלאות וכנות, המבטח רשאי לבטל את הפוליסה או להקטין את היקף חבותו. במקרה של ביטול על פי דרישת המבוטח, יוחזר למבוטח חלק מדמי הביטוח ששולמו, בהפחתת 5% או 0.3% ליום ביטוח.",
-    "row_axis": "Conditions related to policy cancellation or misrepresentation",
-    "column_axis": "Specific clauses and their implications",
+    "title": "סעיפי ביטול פוליסה",
+    "summary": "This table details conditions for policy cancellation and potential refunds. It outlines scenarios where the insurer can reduce liability or deny claims due to misrepresentation or lack of full disclosure.",
+    "embed_passage": "טבלה זו מתארת סעיפי ביטול בפוליסת ביטוח ציוד אלקטרוני של הראל. היא מפרטת תנאים לביטול הפוליסה והחזר דמי ביטוח, תוך התייחסות למקרים של העלמת מידע או מצג שווא. ניתן לחפש מידע על תנאי ביטול ספציפיים, כגון סעיף 21.6.7.2 או סעיף 21.6.8.1. הסעיפים כוללים תנאים כגון כוונה לרמות, מצב שהמבטח לא היה מתקשר בפוליסה, ידע על מצב אמיתי, או שהעובדה חדלה להתקיים לפני מקרה הביטוח. סעיפים אלו עוסקים בהפרת חובת הגילוי והחמרה בסיכון.  הטבלה מפרטת תנאים כמו 21.6.4, 21.6.6-21.6.7, 21.6.8.1, ו-21.6.8.2.",
+    "row_axis": "תנאי ביטול / הפרת חובת גילוי",
+    "column_axis": "תיאור התנאי / השלכות",
     "units": [],
     "notable_values": [
-      "5%: Reduction in premium refund for cancellation",
-      "0.3%: Daily deduction from premium refund after the 7th day",
-      "7: Number of days for which the policy is valid when calculating refunds",
-      "1981: Year of the Insurance Contract Law",
-      "21.6.8.1: Clause regarding insurer's knowledge of the true situation"
+      "סעיף: 21.6.4",
+      "סעיף: 21.6.7.2",
+      "סעיף: 21.6.6-21.6.7",
+      "סעיף: 21.6.8.1",
+      "סעיף: 21.6.8.2",
+      "חוק חוזה ביטוח: 1981"
     ],
     "product_hints": [
-      "ביטוח ציוד אלקטרוני הראל",
-      "פוליסת ביטוח ציוד אלקטרוני"
+      "ביטוח ציוד אלקטרוני הראל"
     ]
   },
   "sketch": ",( )לפי העניין 21.6.4 .  התשובה או אי מתן הודעה כאמור בסעיף 21.6.7.1 ניתנו בכוונת מרמה;\n.  מבטח סביר לא היה מתקשר באותה פוליסה, אף בדמי ביטוח 21.6.7.2 מרובים יותר, אילו ידע שהמצב הוא כפי שהוא לאחר השינוי.\nבמקרה זה זכאי המבוטח להחזר דמי הביטוח ששילם בעד התקופה שלאחר השינוי.\nבכל אחת 21.6.6-21.6.7 .  המבטח אינו זכאי לתרופות האמורות בסעיף 21.6.8 אלא אם התשובה שלא הייתה מלאה וכנה ניתנה בכוונת מרמה: , מאלה\n.  המבטח ידע או היה עליו לדעת את המצב לאמיתו בשעת כריתת 21.6.8.1 החוזה או שהוא גרם לכך שהתשובה לא הייתה מלאה וכנה;\n.  העובדה שעליה ניתנה תשובה שלא הייתה מלאה וכנה חדלה 21.6.8.2 , להתקיים לפני שקרה מקרה הביטוח, או שלא השפיעה על מקרהו על חבות המבטח או על היקפה.",
-  "embed_text": "פוליסת ביטוח ציוד אלקטרוני של הראל מתייחסת למקרים של הפרת חובת גילוי או החמרה בסיכון. לדוגמה, אם המבוטח לא ענה תשובות מלאות וכנות, המבטח רשאי לבטל את הפוליסה או להקטין את היקף חבותו. במקרה של ביטול על פי דרישת המבוטח, יוחזר למבוטח חלק מדמי הביטוח ששולמו, בהפחתת 5% או 0.3% ליום ביטוח.",
-  "payload": "טבלה: פוליסת ביטוח ציוד אלקטרוני\nThis table details conditions related to policy cancellation and misrepresentation, specifically regarding the return of premiums and the insurer's right to void the policy. It outlines scenarios where the insurer may reduce or deny coverage based on incomplete or fraudulent information provided by the insured.\nממדים: Conditions related to policy cancellation or misrepresentation, Specific clauses and their implications\n\n,( )לפי העניין 21.6.4 .  התשובה או אי מתן הודעה כאמור בסעיף 21.6.7.1 ניתנו בכוונת מרמה;\n.  מבטח סביר לא היה מתקשר באותה פוליסה, אף בדמי ביטוח 21.6.7.2 מרובים יותר, אילו ידע שהמצב הוא כפי שהוא לאחר השינוי.\nבמקרה זה זכאי המבוטח להחזר דמי הביטוח ששילם בעד התקופה שלאחר השינוי.\nבכל אחת 21.6.6-21.6.7 .  המבטח אינו זכאי לתרופות האמורות בסעיף 21.6.8 אלא אם התשובה שלא הייתה מלאה וכנה ניתנה בכוונת מרמה: , מאלה\n.  המבטח ידע או היה עליו לדעת את המצב לאמיתו בשעת כריתת 21.6.8.1 החוזה או שהוא גרם לכך שהתשובה לא הייתה מלאה וכנה;\n.  העובדה שעליה ניתנה תשובה שלא הייתה מלאה וכנה חדלה 21.6.8.2 , להתקיים לפני שקרה מקרה הביטוח, או שלא השפיעה על מקרהו על חבות המבטח או על היקפה."
+  "embed_text": "טבלה זו מתארת סעיפי ביטול בפוליסת ביטוח ציוד אלקטרוני של הראל. היא מפרטת תנאים לביטול הפוליסה והחזר דמי ביטוח, תוך התייחסות למקרים של העלמת מידע או מצג שווא. ניתן לחפש מידע על תנאי ביטול ספציפיים, כגון סעיף 21.6.7.2 או סעיף 21.6.8.1. הסעיפים כוללים תנאים כגון כוונה לרמות, מצב שהמבטח לא היה מתקשר בפוליסה, ידע על מצב אמיתי, או שהעובדה חדלה להתקיים לפני מקרה הביטוח. סעיפים אלו עוסקים בהפרת חובת הגילוי והחמרה בסיכון.  הטבלה מפרטת תנאים כמו 21.6.4, 21.6.6-21.6.7, 21.6.8.1, ו-21.6.8.2. This table details conditions for policy cancellation and potential refunds. It outlines scenarios where the insurer can reduce liability or deny claims due to misrepresentation or lack of full disclosure. בין הערכים בטבלה: חוק חוזה ביטוח: 1981.",
+  "payload": "טבלה: סעיפי ביטול פוליסה\nThis table details conditions for policy cancellation and potential refunds. It outlines scenarios where the insurer can reduce liability or deny claims due to misrepresentation or lack of full disclosure.\nממדים: תנאי ביטול / הפרת חובת גילוי, תיאור התנאי / השלכות\n\n,( )לפי העניין 21.6.4 .  התשובה או אי מתן הודעה כאמור בסעיף 21.6.7.1 ניתנו בכוונת מרמה;\n.  מבטח סביר לא היה מתקשר באותה פוליסה, אף בדמי ביטוח 21.6.7.2 מרובים יותר, אילו ידע שהמצב הוא כפי שהוא לאחר השינוי.\nבמקרה זה זכאי המבוטח להחזר דמי הביטוח ששילם בעד התקופה שלאחר השינוי.\nבכל אחת 21.6.6-21.6.7 .  המבטח אינו זכאי לתרופות האמורות בסעיף 21.6.8 אלא אם התשובה שלא הייתה מלאה וכנה ניתנה בכוונת מרמה: , מאלה\n.  המבטח ידע או היה עליו לדעת את המצב לאמיתו בשעת כריתת 21.6.8.1 החוזה או שהוא גרם לכך שהתשובה לא הייתה מלאה וכנה;\n.  העובדה שעליה ניתנה תשובה שלא הייתה מלאה וכנה חדלה 21.6.8.2 , להתקיים לפני שקרה מקרה הביטוח, או שלא השפיעה על מקרהו על חבות המבטח או על היקפה."
 }

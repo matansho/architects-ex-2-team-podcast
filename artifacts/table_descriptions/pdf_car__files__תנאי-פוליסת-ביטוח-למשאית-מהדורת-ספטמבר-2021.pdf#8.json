@@ -3,26 +3,22 @@
   "source": "llm",
   "description": {
     "title": "תנאי פוליסת ביטוח למשאית",
-    "summary": "This table outlines the terms of a truck insurance policy. It defines key terms and specifies the insurer's liability based on the Motor Vehicles Insurance Law.",
-    "embed_passage": "פוליסת ביטוח למשאית מגדירה מונחים כמו 'חבות המבטח' ו'השתתפות עצמית' בהתאם לחוק הפיצויים. במקרה של תאונת דרכים, המבטח עשוי לחוב סכומים שנקבעו בפקודת הביטוח, אך ייתכן שיהיה ניכוי של דמי השתתפות עצמית, עד לסכום של 2008 ש״ח.",
-    "row_axis": "Policy clauses / definitions",
-    "column_axis": "Clause number, description",
-    "units": [
-      "₪"
-    ],
+    "summary": "This table outlines the terms of a truck insurance policy. It defines interpretations of terms and the insurer's liability according to the Motor Vehicle Insurance Law.",
+    "embed_passage": "טבלה זו מפרטת את תנאי פוליסת ביטוח למשאית, ומגדירה מונחים ופרשנות שלהם בהתאם לחוק הפיצויים ופקודת ביטוח רכב מנועי. ניתן להשתמש בטבלה זו כדי להבין את חבות המבטח בתנאים שונים, כפי שנקבעו בפוליסה. הפוליסה מתייחסת למונחים כמו 'חבות המבטח' ו'השתתפות עצמית'. הפוליסה כוללת גם התייחסות לפקודת הביטוח, התש״ל.  הטבלה מפרטת את סעיפי הפוליסה, כגון פרשנות, חבות המבטח והשתתפות עצמית.  מונחים מרכזיים בפוליסה כוללים 'חוק הפיצויים', 'פקודת הביטוח', ו'תקנות ביטוח רכב מנועי'.",
+    "row_axis": "סעיף בפוליסה",
+    "column_axis": "תיאור הסעיף",
+    "units": [],
     "notable_values": [
-      "clause 1: definition of terms",
-      "clause 3: insurer's liability",
-      "clause 4: self-participation",
-      "year 2008: self-participation amount",
-      "clause 3.1: liability according to the Compensation Law"
+      "מונח שלא הוגדר: חוק הפיצויים",
+      "חבות המבטח: לפי הוראות סעיף 3 לפקודת הביטוח",
+      "השתתפות עצמית: 2008 תקנות ביטוח רכב מנועי"
     ],
     "product_hints": [
       "ביטוח למשאית",
-      "פוליסת ביטוח למשאית"
+      "פוליסת ביטוח"
     ]
   },
   "sketch": ".  פרשנות 2\nיפורש כמשמעותו, במועד קרות מקרה הביטוח, בחוק הפיצויים 1 מונח שלא הוגדר בסעיף או בפקודת הביטוח, לפי העניין.\n.  חבות המבטח 3\nלפקודת הביטוח, לאמור: 3 בכפוף לתנאי פוליסה זו, מבטח יחוב לפי הוראות סעיף",
-  "embed_text": "פוליסת ביטוח למשאית מגדירה מונחים כמו 'חבות המבטח' ו'השתתפות עצמית' בהתאם לחוק הפיצויים. במקרה של תאונת דרכים, המבטח עשוי לחוב סכומים שנקבעו בפקודת הביטוח, אך ייתכן שיהיה ניכוי של דמי השתתפות עצמית, עד לסכום של 2008 ש״ח.",
-  "payload": "טבלה: תנאי פוליסת ביטוח למשאית\nThis table outlines the terms of a truck insurance policy. It defines key terms and specifies the insurer's liability based on the Motor Vehicles Insurance Law.\nממדים: Policy clauses / definitions, Clause number, description\n\n.  פרשנות 2\nיפורש כמשמעותו, במועד קרות מקרה הביטוח, בחוק הפיצויים 1 מונח שלא הוגדר בסעיף או בפקודת הביטוח, לפי העניין.\n.  חבות המבטח 3\nלפקודת הביטוח, לאמור: 3 בכפוף לתנאי פוליסה זו, מבטח יחוב לפי הוראות סעיף"
+  "embed_text": "טבלה זו מפרטת את תנאי פוליסת ביטוח למשאית, ומגדירה מונחים ופרשנות שלהם בהתאם לחוק הפיצויים ופקודת ביטוח רכב מנועי. ניתן להשתמש בטבלה זו כדי להבין את חבות המבטח בתנאים שונים, כפי שנקבעו בפוליסה. הפוליסה מתייחסת למונחים כמו 'חבות המבטח' ו'השתתפות עצמית'. הפוליסה כוללת גם התייחסות לפקודת הביטוח, התש״ל.  הטבלה מפרטת את סעיפי הפוליסה, כגון פרשנות, חבות המבטח והשתתפות עצמית.  מונחים מרכזיים בפוליסה כוללים 'חוק הפיצויים', 'פקודת הביטוח', ו'תקנות ביטוח רכב מנועי'. This table outlines the terms of a truck insurance policy. It defines interpretations of terms and the insurer's liability according to the Motor Vehicle Insurance Law.",
+  "payload": "טבלה: תנאי פוליסת ביטוח למשאית\nThis table outlines the terms of a truck insurance policy. It defines interpretations of terms and the insurer's liability according to the Motor Vehicle Insurance Law.\nממדים: סעיף בפוליסה, תיאור הסעיף\n\n.  פרשנות 2\nיפורש כמשמעותו, במועד קרות מקרה הביטוח, בחוק הפיצויים 1 מונח שלא הוגדר בסעיף או בפקודת הביטוח, לפי העניין.\n.  חבות המבטח 3\nלפקודת הביטוח, לאמור: 3 בכפוף לתנאי פוליסה זו, מבטח יחוב לפי הוראות סעיף"
 }

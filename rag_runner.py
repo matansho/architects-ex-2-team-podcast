@@ -1,11 +1,16 @@
 """
-RAG runner (no citations): retrieve → generate from context → answers JSONL.
+RAG runner: retrieve → generate from context → answers JSONL.
+
+Citations (default: passage indices):
+  Model ends with USED_PASSAGES: 1, 3 — mapped to {file, page}.
+  Fallback --cite hits: top retrieval locations (no model indices).
+
+Answer body stays path-free (no מקורות section).
 
     export OPENAI_API_KEY=...
     export OPENAI_BASE_URL=https://api.tokenfactory.nebius.com/v1
-    python rag_runner.py --model deepseek-ai/DeepSeek-V4-Pro
-    python rag_runner.py --retrieve rerank --top-k 20 --window 2 --candidate-n 100
-    python run_eval.py --answers rag_answers.jsonl --no-citation-judge
+    python rag_runner.py --retrieve rerank --route --top-k 20 --window 2
+    python run_eval.py --answers rag_answers.jsonl
 """
 from __future__ import annotations
 
@@ -19,11 +24,19 @@ import litellm
 
 from rag.bm25 import build_chunk_bm25, build_file_bm25
 from rag.embed import DEFAULT_MODEL, Embedder
-from rag.generate import SYSTEM_NO_CITE, build_context, build_messages
+from rag.generate import (
+    SYSTEM_NO_CITE,
+    SYSTEM_PASSAGE_CITE,
+    build_context,
+    build_messages,
+    citations_from_passage_indices,
+    parse_answer_with_passages,
+)
 from rag.index_store import load_embeddings, load_vectors_meta
 from rag.rerank import DEFAULT_RERANK_MODEL, Reranker
 from rag.retrieve import (
     build_id_index,
+    citations_from_hits,
     idxs_excluding_faqs,
     intersect_idxs,
     search_cascade,
@@ -72,7 +85,24 @@ def render_prompt_preview(messages: list[dict]) -> str:
 
 
 def main() -> None:
-    ap = argparse.ArgumentParser(description="RAG runner (grounded, no citations)")
+    ap = argparse.ArgumentParser(
+        description="RAG runner (grounded answers; structured citations)"
+    )
+    ap.add_argument(
+        "--cite",
+        choices=("passages", "hits"),
+        default="passages",
+        help=(
+            "passages: model emits USED_PASSAGES indices → {file,page} "
+            "(default). hits: top retrieval locations (MVP)."
+        ),
+    )
+    ap.add_argument(
+        "--max-citations",
+        type=int,
+        default=5,
+        help="Max unique (file, page) citations",
+    )
     ap.add_argument("--questions", default="reference_questions.json")
     ap.add_argument("--index", default="data/index")
     ap.add_argument("--model", default="deepseek-ai/DeepSeek-V4-Pro")
@@ -176,6 +206,9 @@ def main() -> None:
             f"FAQ exclusion ON · {len(non_faq_idxs)}/{len(vectors)} chunks eligible",
             flush=True,
         )
+    if args.system_prompt == SYSTEM_NO_CITE and args.cite == "passages":
+        args.system_prompt = SYSTEM_PASSAGE_CITE
+    print(f"Cite mode: {args.cite}", flush=True)
     print(f"Embedding {len(questions)} queries…", flush=True)
     embedder = Embedder(model_name=embed_model)
     q_emb = embedder.embed_queries([q["question"] for q in questions])
@@ -317,11 +350,40 @@ def main() -> None:
                 **kwargs,
             )
             latency_ms = (time.time() - t0) * 1000
-            answer = resp.choices[0].message.content or ""
+            raw = resp.choices[0].message.content or ""
+            passage_meta: dict | None = None
+            if args.cite == "passages":
+                parsed = parse_answer_with_passages(raw)
+                answer = parsed.answer
+                if parsed.passage_indices:
+                    citations = citations_from_passage_indices(
+                        expanded,
+                        parsed.passage_indices,
+                        max_citations=args.max_citations,
+                    )
+                    cite_source = "passages"
+                else:
+                    # Fallback so we never ship empty cites on parse miss / none
+                    citations = citations_from_hits(
+                        expanded, max_citations=args.max_citations
+                    )
+                    cite_source = "hits_fallback"
+                passage_meta = {
+                    "parse_ok": parsed.parse_ok,
+                    "used_passages_raw": parsed.used_passages_raw,
+                    "passage_indices": parsed.passage_indices,
+                    "cite_source": cite_source,
+                }
+            else:
+                answer = raw
+                citations = citations_from_hits(
+                    expanded, max_citations=args.max_citations
+                )
+                cite_source = "hits"
             rec = {
                 "id": q["id"],
                 "answer": answer,
-                "citations": [],
+                "citations": citations,
                 "latency_ms": latency_ms,
                 "tokens": {
                     "prompt": resp.usage.prompt_tokens,
@@ -349,6 +411,8 @@ def main() -> None:
                     if args.route and args.retrieve == "rerank"
                     else None,
                     "exclude_faq": exclude_faq,
+                    "cite_mode": args.cite,
+                    "passage_cite": passage_meta,
                     "bm25_files": [
                         {"file": f, "score": round(s, 4)} for f, s in file_hits
                     ],
@@ -370,24 +434,31 @@ def main() -> None:
                     if args.route and args.retrieve == "rerank"
                     else ("+route" if args.route else "")
                 )
-                + ("" if args.include_faq else "+nofaq"),
+                + ("" if args.include_faq else "+nofaq")
+                + f"+cite_{args.cite}",
             }
             out.write(json.dumps(rec, ensure_ascii=False) + "\n")
             out.flush()
             preview = answer.replace("\n", " ")[:70]
             top = expanded[0].score if expanded else 0.0
+            cite_bit = ""
+            if passage_meta is not None:
+                cite_bit = (
+                    f"  cites={passage_meta['cite_source']}:"
+                    f"{passage_meta['passage_indices'] or '∅'}"
+                )
             print(
                 f"  {q['id']:28s} {mode:8s} "
                 f"retr={(t_retr - t0)*1000:.0f}ms  "
                 f"total={latency_ms:.0f}ms  "
                 f"top={top:.3f}  "
-                f"{preview!r}…",
+                f"{preview!r}…{cite_bit}",
                 flush=True,
             )
 
     print(
         f"\nwrote {args.out} — score with: "
-        f"python run_eval.py --answers {args.out} --no-citation-judge"
+        f"python run_eval.py --answers {args.out}"
     )
 
 

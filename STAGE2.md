@@ -4,9 +4,9 @@ Generation: `deepseek-ai/DeepSeek-V4-Pro` (Nebius Token Factory)
 Embed: `intfloat/multilingual-e5-base` · Rerank: `BAAI/bge-reranker-v2-m3`  
 Table describe / domain route: `google/gemma-3-27b-it`
 
-Stage 2: parse and chunk the Harel corpus, build a searchable index, retrieve grounded context, and answer the 48 dev questions without inventing policy facts. Index is on-disk numpy (no Qdrant yet). Structured citations + citation judge are the next Stage 2 todo.
+Stage 2: parse and chunk the Harel corpus, build a searchable index, retrieve grounded context, and answer the 48 dev questions without inventing policy facts. Index is on-disk numpy (no Qdrant yet).
 
-Best end-to-end result: **83.3% relevance** (vs **43.8%** Stage 1 no-cite, no retrieval; vs **79.2%** prior rerank + LLM tables).
+Best end-to-end result: **85.4% relevance** / **91.7% citation accuracy** with passage-index citations (vs **43.8%** Stage 1; vs **83.3%** / **81.2%** retrieval-hit cite MVP).
 
 ## Reports
 
@@ -36,6 +36,8 @@ Best end-to-end result: **83.3% relevance** (vs **43.8%** Stage 1 no-cite, no re
 13. **Exclude FAQs at retrieve** — scraped `*/pages/faq.txt` are question titles with almost no answers; dropped by default (`--include-faq` to opt in).
 14. **Domain router** — Gemma picks corpus domains before dense; pure domain filter → **81.2%** but some misroutes refused.
 15. **Hybrid route pool** — dense **80 from routed domains + 20 unique from full corpus**, then CE → **83.3%**, **0% refusal**.
+16. **Citation MVP (hits)** — structured `{file, page}` from top retrieval hits → **81.2%** cite acc.
+17. **Passage-index citations (B)** — model ends with `USED_PASSAGES: 1, 3`; map labels → `{file, page}`; path-free answer body → **85.4%** rel / **91.7%** cite (48/48 parse ok).
 
 ## What we built
 
@@ -67,8 +69,11 @@ question
        --route + rerank: hybrid route_n (80) + route_global_n (20 unique)
   → cross-encoder top_k (20)             [--retrieve rerank]
   → ±window neighbor expand              [--window 2]
-  → no-cite grounded generation
-  → answers JSONL (citations still [])
+  → grounded generation (path-free answer)
+       default --cite passages: final line USED_PASSAGES: 1, 3
+       fallback --cite hits: top unique hit (file, page)
+  → map indices / hits → structured {file, page}
+  → answers JSONL
 ```
 
 ### Retrieval (`rag/retrieve.py`, `rag/route.py`)
@@ -112,11 +117,21 @@ Describe with a **sketch** (headers + sample rows + neighbors). Gemma returns JS
 | Rerank + LLM tables | 79.2% | 10.4% | 4.2% | 14.4 s |
 | Rerank + nofaq | 75.0% | 14.6% | 4.2% | 17.5 s |
 | Rerank + route (domain-only) + nofaq | 81.2% | 12.5% | 6.2% | 22.1 s |
-| **Rerank + route80+20 + nofaq** | **83.3%** | **14.6%** | **0.0%** | 28.6 s |
+| Rerank + route80+20 + nofaq | 83.3% | 14.6% | 0.0% | 28.6 s |
+| **Rerank + route80+20 + passage cite** | **85.4%** | **12.5%** | 2.1% | 16.0 s |
 
-Citation accuracy is 0% — expected (`citations: []`, `--no-citation-judge`).
+### Citations
 
-Eval artifacts: `reports/rag_answers_rerank_k20_w2_route80_20_nofaq.jsonl`, `reports/stage2/rag_rerank_k20_w2_route80_20_nofaq_eval.json`.
+| Run | Citation acc | fully / partial / none | Notes |
+| --- | --- | --- | --- |
+| route80+20 + hits MVP | 81.2% | 34 / 10 / 4 | Backfilled top-5 hit locations onto 83.3% answers |
+| **route80+20 + passage cite (B)** | **91.7%** | **41 / 6 / 1** | Fresh gen; `USED_PASSAGES` → `{file,page}`; 48/48 parsed |
+
+`--cite passages` (default): `SYSTEM_PASSAGE_CITE` with worked examples; parse footer; strip from answer; map 1-based `[N]` to hit locations. `--cite hits` keeps the MVP. Skip paths missing under `corpus/`. Never put file paths in answer prose (Stage 1 lesson).
+
+Eval artifacts:
+- hits MVP: `reports/rag_answers_rerank_k20_w2_route80_20_nofaq_cite.jsonl` + `_cite_eval.json`
+- passage B: `reports/rag_answers_rerank_k20_w2_route80_20_passage_cite.jsonl` + `reports/stage2/rag_rerank_k20_w2_route80_20_passage_cite_eval.json`
 
 ### By difficulty (relevance)
 
@@ -174,20 +189,20 @@ Pure domain filter refused `dev-04` (gun legal fees) and `dev-10` (clinical tria
 
 ## Todos / gaps
 
-### Next: citations + citation judge
+### Citations (follow-ups)
 
-- [ ] Emit real `{file, page}` in `rag_runner.py` (today: `citations: []`)
-- [ ] Keep **no-cite** answer prompt (don’t reintroduce Hebrew `מקורות` — Stage 1 showed that hurts relevance)
-- [ ] MVP: fill citations from retrieved hit locations (dedupe top‑N unique `(file, page)`; TXT → `page: null`) — not free-form model paths
-- [ ] Re-run best RAG config → `run_eval.py` **without** `--no-citation-judge`
-- [ ] Check relevance/hallucination stay near 83.3% / 14.6%; note pypdf-vs-Docling risk on table pages (judge reads raw PDF text, not our CSV)
-- [ ] If cite score is weak while answers stay strong: hybrid (model returns passage indices `[1],[3]` → map to `{file, page}`)
+- [x] Hits MVP: `{file, page}` from retrieval (`citations_from_hits`)
+- [x] Passage-index B: `USED_PASSAGES` → map to `{file, page}` (**91.7%** cite / **85.4%** rel)
+- [x] Keep path-free answer body (no Hebrew `מקורות`)
+- [x] Skip stale index paths missing on disk when emitting citations
+- [ ] Note pypdf-vs-Docling risk on table pages (cite judge reads raw PDF text, not our CSV)
 
 ### Other open items
 
 - [x] **Reproducibility (table descriptions)** — shipped in `artifacts/table_descriptions/`; `embed_corpus.py` / `llm_describe_tables.py` load them (no API needed to rebuild embeddings from cache)
 - [x] **Lose FAQs (retrieve)** — excluded by default in `rag_runner.py`; optional: drop from index at build time
 - [x] **Domain routing + hybrid pool** — `rag/route.py` + `hybrid_dense_candidates` (80+20)
+- [x] **Citation MVP + passage indices** — `--cite hits|passages`
 - [ ] **Cascade eval** — `--retrieve cascade` implemented; no scored JSONL yet
 - [ ] **Qdrant** — client pinned; still on-disk numpy index (`rag/index_store.py`)
 - [ ] **Tighten `looks_like_table`** — detector is loose (comma-heavy prose/forms count as tables); require stronger signals (numeric cells, Docling `TableItem`, etc.)
@@ -208,10 +223,10 @@ Pure domain filter refused `dev-04` (gun legal fees) and `dev-10` (clinical tria
 | `artifacts/table_descriptions/` | Git-tracked LLM describe cache (~3.6k, prompt v2) |
 | `rag/embed.py` | multilingual-e5-base |
 | `rag/index_store.py` | On-disk vectors + embeddings.npy |
-| `rag/retrieve.py` / `rag/bm25.py` / `rag/rerank.py` | dense / cascade / rrf / rerank + FAQ filter + hybrid route pool |
+| `rag/retrieve.py` / `rag/bm25.py` / `rag/rerank.py` | dense / cascade / rrf / rerank + FAQ filter + hybrid route pool + `citations_from_hits` |
 | `rag/route.py` | Domain router (Gemma JSON) |
-| `rag/generate.py` | Grounded no-cite prompts |
-| `rag_runner.py` | End-to-end retrieve → generate |
+| `rag/generate.py` | Grounded prompts; `USED_PASSAGES` parse + index→cite map |
+| `rag_runner.py` | End-to-end retrieve → generate → structured citations (`--cite`) |
 | `scripts/embed_corpus.py` | Full index build (+ apply shipped descriptions) |
 | `scripts/llm_describe_tables.py` | Second-pass LLM describe + re-embed |
 | `scripts/check_table_desc_quality.py` | Heuristic quality gate on describe cache |
@@ -239,14 +254,14 @@ python scripts/embed_corpus.py
 # Optional: regenerate descriptions via API, then re-embed table rows
 python scripts/llm_describe_tables.py --workers 8
 
-# Best RAG config (hybrid domain route + FAQ exclusion)
+# Best RAG config (hybrid route + FAQ exclusion + passage-index cites)
 python rag_runner.py --retrieve rerank --candidate-n 100 --top-k 20 --window 2 \
-  --route --route-n 80 --route-global-n 20 \
-  --out reports/rag_answers_rerank_k20_w2_route80_20_nofaq.jsonl
+  --route --route-n 80 --route-global-n 20 --cite passages \
+  --out reports/rag_answers_rerank_k20_w2_route80_20_passage_cite.jsonl
 
-# Eval (citations still off until that todo lands)
-python run_eval.py --answers reports/rag_answers_rerank_k20_w2_route80_20_nofaq.jsonl \
-  --no-citation-judge --out reports/stage2/rag_rerank_k20_w2_route80_20_nofaq_eval.json
+# Eval with answer + citation judges
+python run_eval.py --answers reports/rag_answers_rerank_k20_w2_route80_20_passage_cite.jsonl \
+  --out reports/stage2/rag_rerank_k20_w2_route80_20_passage_cite_eval.json
 
 # Dashboard (Stage 1 + RAG)
 bash scripts/regen_dashboard.sh
@@ -254,7 +269,7 @@ bash scripts/regen_dashboard.sh
 
 ## Implications for Stage 3
 
-- Citations + judge are a near-term Stage 2 todo (see above); Stage 3 still needs `/ask` wiring.
+- Citations are wired for `/ask` (`--cite passages` preferred); Stage 3 still needs FastAPI wiring.
 - Optionally move the index to Qdrant (or similar) behind the same retrieve API.
-- Expose `/ask` via the course contract; keep the no-cite answer style unless the API requires citations in text.
-- Best inference knobs to wire behind `/ask`: `--retrieve rerank --route --route-n 80 --route-global-n 20` with FAQ exclusion.
+- Expose `/ask` via the course contract; keep path-free answer text; put `{file,page}` in the structured field.
+- Best inference knobs: `--retrieve rerank --route --route-n 80 --route-global-n 20 --cite passages` (FAQ exclusion on).

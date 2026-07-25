@@ -18,8 +18,6 @@ import sys
 import time
 from pathlib import Path
 
-import litellm
-
 DEFAULT_SYSTEM = (
     "You are a customer-support assistant for Harel Insurance (Israel). "
     "Answer the customer's question in the language it was asked. "
@@ -153,6 +151,8 @@ def main():
         print(render_prompt_preview(messages))
         print(f"\n({len(messages)} messages, {len(examples)} few-shot examples)")
         return
+
+    import litellm  # lazy: keep module import litellm-free (slow) for prompt reuse
 
     with open(args.out, "w", encoding="utf-8") as out:
         for q in questions:

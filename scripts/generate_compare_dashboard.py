@@ -26,7 +26,6 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from eval.citation import score_citations, score_citations_legacy
 from prompt_catalog import build_prompt_spec, render_prompt_section, resolve_preset
 from report_docs import render_deliverables_section
 
@@ -98,15 +97,6 @@ def build_run_stats(
         ev = (eval_rows or {}).get(qid, {})
         ce = (corpus_rows or {}).get(qid, {})
         cite_score = ev.get("citation_score")
-        if cite_score is None:
-            cite = score_citations(
-                question=q["question"],
-                ground_truth_answer=q["ground_truth_answer"],
-                citations=a.get("citations"),
-                corpus_root=ROOT / "corpus",
-                use_judge=False,
-            )
-            cite_score = cite.score
         rows.append(
             {
                 "id": qid,
@@ -180,7 +170,9 @@ def build_run_stats(
     return {
         "label": label,
         "count": len(rows),
-        "citation_accuracy": avg([r["citation_score"] for r in rows]),
+        "citation_accuracy": avg(
+            [r["citation_score"] for r in rows if r["citation_score"] is not None]
+        ),
         "latency_avg": avg([r["latency_ms"] for r in rows if r["latency_ms"]]),
         "latency_p50": p50([r["latency_ms"] for r in rows if r["latency_ms"]]),
         "answer_len_avg": avg([r["answer_len"] for r in rows]),
@@ -555,16 +547,6 @@ def question_payload(
             ev = (evmap or {}).get(qid, {})
             ce = (cemap or {}).get(qid, {})
             cite_score = ev.get("citation_score")
-            if cite_score is None:
-                cite = score_citations(
-                    question=q["question"],
-                    ground_truth_answer=q["ground_truth_answer"],
-                    citations=a.get("citations"),
-                    corpus_root=ROOT / "corpus",
-                    use_judge=False,
-                )
-                cite_score = cite.score
-            ref_legacy = score_citations_legacy(q["ground_truth_sources"], a.get("citations"))
             runs.append(
                 {
                     "label": label,
@@ -573,7 +555,6 @@ def question_payload(
                     "latency_ms": a.get("latency_ms"),
                     "tokens": a.get("tokens"),
                     "citation_score": cite_score,
-                    "citation_reference_score": ref_legacy.score,
                     "relevant": ev.get("relevant"),
                     "hallucination": ev.get("hallucination"),
                     "refusal": ev.get("refusal"),
@@ -613,37 +594,37 @@ def table_headers(runs: list[dict], has_eval: bool, has_corpus: bool) -> str:
         '<th class="sub sticky-col sticky-c3"></th>'
     )
     per_run = []
-    for r in runs:
+    for i, r in enumerate(runs):
         label = esc(r["label"])
         if has_eval and has_corpus:
-            per_run.append(f'<th colspan="9" class="run-group">{label}</th>')
+            per_run.append(f'<th colspan="9" class="run-group" data-run="{i}">{label}</th>')
         elif has_eval:
-            per_run.append(f'<th colspan="6" class="run-group">{label}</th>')
+            per_run.append(f'<th colspan="6" class="run-group" data-run="{i}">{label}</th>')
         else:
-            per_run.append(f'<th colspan="2" class="run-group">{label}</th>')
+            per_run.append(f'<th colspan="2" class="run-group" data-run="{i}">{label}</th>')
     sub = []
-    for _ in runs:
+    for i in range(len(runs)):
         if has_eval:
             sub.extend([
-                '<th class="sub sortable" data-key="relevant">Rel</th>',
-                '<th class="sub sortable" data-key="hallucination">Hall</th>',
-                '<th class="sub sortable" data-key="refusal">Ref</th>',
+                f'<th class="sub sortable" data-key="relevant" data-run="{i}">Rel</th>',
+                f'<th class="sub sortable" data-key="hallucination" data-run="{i}">Hall</th>',
+                f'<th class="sub sortable" data-key="refusal" data-run="{i}">Ref</th>',
             ])
             if has_corpus:
                 sub.extend([
-                    '<th class="sub sortable" data-key="gt_covered" title="GT facts covered by answer">Cov</th>',
-                    '<th class="sub sortable" data-key="fully_supported" title="Answer supported by citations">Supp</th>',
-                    '<th class="sub sortable" data-key="corpus_ok" title="GT covered and cite-supported">COk</th>',
+                    f'<th class="sub sortable" data-key="gt_covered" data-run="{i}" title="GT facts covered by answer">Cov</th>',
+                    f'<th class="sub sortable" data-key="fully_supported" data-run="{i}" title="Answer supported by citations">Supp</th>',
+                    f'<th class="sub sortable" data-key="corpus_ok" data-run="{i}" title="GT covered and cite-supported">COk</th>',
                 ])
             sub.extend([
-                '<th class="sub sortable" data-key="citation">Cite</th>',
-                '<th class="sub sortable" data-key="latency">Lat</th>',
-                '<th class="sub sortable" data-key="tokens">Tok</th>',
+                f'<th class="sub sortable" data-key="citation" data-run="{i}">Cite</th>',
+                f'<th class="sub sortable" data-key="latency" data-run="{i}">Lat</th>',
+                f'<th class="sub sortable" data-key="tokens" data-run="{i}">Tok</th>',
             ])
         else:
             sub.extend([
-                '<th class="sub sortable" data-key="citation">Cite</th>',
-                '<th class="sub sortable" data-key="latency">Lat</th>',
+                f'<th class="sub sortable" data-key="citation" data-run="{i}">Cite</th>',
+                f'<th class="sub sortable" data-key="latency" data-run="{i}">Lat</th>',
             ])
     return f"<tr>{fixed}{''.join(per_run)}</tr><tr>{fixed_sub}{''.join(sub)}</tr>"
 
@@ -702,6 +683,17 @@ def build_html(
     )
     qdata = question_payload(questions, run_answers, run_evals, run_corpus)
     run_labels = json.dumps([r["label"] for r in runs], ensure_ascii=False)
+    run_toggles = (
+        '<div class="run-toggle" id="run-toggle"><span class="run-toggle-label">Runs</span>'
+        + "".join(
+            f'<label class="run-check"><input type="checkbox" class="run-toggle-box" '
+            f'data-run="{i}" checked /> {esc(r["label"])}</label>'
+            for i, r in enumerate(runs)
+        )
+        + "</div>"
+        if len(runs) > 1
+        else ""
+    )
     prompts_html = render_prompt_section(prompt_specs) if prompt_specs else ""
     prompts_nav = '<a href="#prompts">Prompts</a>' if prompt_specs else ""
     report_nav = '<a href="#report">Report</a>' if deliverables_html else ""
@@ -830,6 +822,10 @@ def build_html(
     .outcome-pill.wrong {{ background: var(--neutral-bg); color: #94a3b8; }}
     .outcome-pill.missing {{ background: #1e293b; color: #64748b; }}
     .count-label {{ font-size: .78rem; color: var(--muted); margin-left: auto; }}
+    .run-toggle {{ display: flex; flex-wrap: wrap; align-items: center; gap: .35rem .6rem; padding: .3rem .5rem; border: 1px solid var(--border); border-radius: 8px; background: var(--input); }}
+    .run-toggle-label {{ font-size: .72rem; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }}
+    .run-check {{ display: inline-flex; align-items: center; gap: .3rem; font-size: .78rem; color: var(--text); cursor: pointer; }}
+    .run-check input {{ accent-color: var(--accent); cursor: pointer; }}
     .section-note {{ margin: 0 0 .85rem; color: var(--muted); font-size: .88rem; }}
     .prompt-list {{ display: grid; gap: .45rem; }}
     .prompt-meta {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: .35rem .75rem; font-size: .8rem; margin-bottom: .55rem; }}
@@ -937,6 +933,7 @@ def build_html(
         <label>Difficulty<select id="table-diff"><option value="">All</option>
           <option value="easy">Easy</option><option value="medium">Medium</option><option value="hard">Hard</option>
         </select></label>
+        {run_toggles}
         <span class="count-label" id="table-count"></span>
       </div>
       <div class="table-wrap">
@@ -956,6 +953,13 @@ def build_html(
     let sortKey = 'id';
     let sortAsc = true;
     let activeRowId = null;
+    const visibleRuns = new Set(RUN_LABELS.map((_, i) => i));
+
+    function applyRunVisibility() {{
+      document.querySelectorAll('#cmp-table [data-run]').forEach(el => {{
+        el.style.display = visibleRuns.has(Number(el.dataset.run)) ? '' : 'none';
+      }});
+    }}
 
     function esc(s) {{ return (s ?? '').toString().replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }}
     function hebrewHtml(s) {{ return esc(s).replace(/\\n/g, '<br>'); }}
@@ -1106,16 +1110,16 @@ def build_html(
       body.innerHTML = ids.map(id => {{
         const q = QDATA[id];
         const oc = primaryOutcome(q);
-        const cells = q.runs.map(r => {{
+        const cells = q.runs.map((r, ri) => {{
           const latency = r.latency_ms != null ? Math.round(r.latency_ms) : '<span class="cell-dash">—</span>';
           const tokens = r.tokens ? `${{r.tokens.prompt}}+${{r.tokens.completion}}` : '<span class="cell-dash">—</span>';
           if (HAS_EVAL) {{
             const corpusCells = HAS_CORPUS
-              ? `<td>${{yn(r.gt_covered)}}</td><td>${{yn(r.fully_supported)}}</td><td>${{yn(r.corpus_ok)}}</td>`
+              ? `<td data-run="${{ri}}">${{yn(r.gt_covered)}}</td><td data-run="${{ri}}">${{yn(r.fully_supported)}}</td><td data-run="${{ri}}">${{yn(r.corpus_ok)}}</td>`
               : '';
-            return `<td>${{yn(r.relevant)}}</td><td>${{yn(r.hallucination)}}</td><td>${{yn(r.refusal)}}</td>${{corpusCells}}<td>${{pct(r.citation_score)}}</td><td>${{latency}}</td><td>${{tokens}}</td>`;
+            return `<td data-run="${{ri}}">${{yn(r.relevant)}}</td><td data-run="${{ri}}">${{yn(r.hallucination)}}</td><td data-run="${{ri}}">${{yn(r.refusal)}}</td>${{corpusCells}}<td data-run="${{ri}}">${{pct(r.citation_score)}}</td><td data-run="${{ri}}">${{latency}}</td><td data-run="${{ri}}">${{tokens}}</td>`;
           }}
-          return `<td>${{pct(r.citation_score)}}</td><td>${{latency}}</td>`;
+          return `<td data-run="${{ri}}">${{pct(r.citation_score)}}</td><td data-run="${{ri}}">${{latency}}</td>`;
         }}).join('');
         return `<tr class="data-row${{activeRowId===id?' active':''}}" data-id="${{id}}" data-domain="${{q.domain}}" data-diff="${{q.difficulty}}">
           <td class="id-cell sticky-col sticky-c0">${{id}}</td>
@@ -1132,6 +1136,7 @@ def build_html(
           document.getElementById('explorer').scrollIntoView({{ behavior: 'smooth', block: 'start' }});
         }});
       }});
+      applyRunVisibility();
     }}
 
     document.getElementById('q-select').addEventListener('change', e => renderQuestion(e.target.value));
@@ -1142,6 +1147,13 @@ def build_html(
     }});
     ['table-filter','table-domain','table-diff'].forEach(id => {{
       document.getElementById(id).addEventListener('change', buildTable);
+    }});
+    document.querySelectorAll('.run-toggle-box').forEach(cb => {{
+      cb.addEventListener('change', () => {{
+        const ri = Number(cb.dataset.run);
+        if (cb.checked) visibleRuns.add(ri); else visibleRuns.delete(ri);
+        applyRunVisibility();
+      }});
     }});
     document.querySelectorAll('th.sortable').forEach(th => {{
       th.addEventListener('click', () => {{

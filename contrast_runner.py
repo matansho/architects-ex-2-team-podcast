@@ -19,8 +19,6 @@ import re
 import time
 from pathlib import Path
 
-import litellm
-
 from few_shot_runner import resolve_model
 
 # Helpers kept inline so this runner is self-contained (no cross-runner dependency).
@@ -162,6 +160,8 @@ def main():
         for m in build_messages(questions[0]["question"], examples):
             print(f"{'='*60}\n{m['role'].upper()}\n{'='*60}\n{m['content']}\n")
         return
+
+    import litellm  # lazy: keep module import litellm-free (slow) for prompt reuse
 
     Path(args.out).parent.mkdir(parents=True, exist_ok=True)
     with open(args.out, "w", encoding="utf-8") as out:

@@ -18,8 +18,6 @@ import json
 import os
 import time
 
-import litellm
-
 DEFAULT_SYSTEM = ("You are a customer-support assistant for Harel Insurance (Israel). "
                   "Answer the customer's question in the language it was asked. "
                   "If you cite a source, cite the exact document and page.")
@@ -46,6 +44,9 @@ def main():
     questions = json.load(open(args.questions, encoding="utf-8"))
     if isinstance(questions, dict):  # staff sets wrap the list in {"questions": [...]}
         questions = questions["questions"]
+
+    import litellm  # lazy: keep module import litellm-free (slow) for constant reuse
+
     with open(args.out, "w", encoding="utf-8") as out:
         for q in questions:
             t0 = time.time()

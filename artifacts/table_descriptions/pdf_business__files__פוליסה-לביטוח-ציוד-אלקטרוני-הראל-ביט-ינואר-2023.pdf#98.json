@@ -3,20 +3,24 @@
   "source": "llm",
   "description": {
     "title": "חובות פתוחים",
-    "summary": "This table details coverage for losses due to open debts that cannot be proven due to physical damage to data storage media. It outlines how the insurance covers outstanding debts following a covered event.",
-    "embed_passage": "פוליסת הראל ביטוח ציוד אלקטרוני מכסה הפסד בגין יתרת חובות פתוחים שלא ניתן להוכיחם עקב נזק פיזי לאמצעי אגירת מידע. הסכום לתשלום לא יעלה על יתרת החובות ביום הנזק, בניכוי תקבולים שהתקבלו. הכיסוי מוגבל לסכום המצוין ברשימה.",
-    "row_axis": "Coverage details for open debts",
-    "column_axis": "Conditions and limitations of coverage",
+    "summary": "This table details coverage for losses due to open debts that cannot be proven due to physical damage to information storage media. It outlines the conditions and limitations of this coverage under the policy.",
+    "embed_passage": "טבלה זו מתייחסת לביטוח חובות פתוחים, הרחבה לפוליסת ביטוח ציוד אלקטרוני של הראל. הכיסוי מתייחס להפסד יתרת חובות פתוחים שלא ניתן להוכיחם עקב נזק פיזי לאמצעי אגירת מידע, בתנאי שכיסוי זה נרשם כבתוקף ברשימה. סכום התשלום מוגבל ליתרת החובות ביום הנזק, בניכוי תקבולים שהתקבלו, בתוספת הוצאות איתור החובות. הראל ביטוח מכסה הפסדים הנובעים מנזק פיזי לאמצעי אגירת מידע, חובות פתוחים, יתרת חובות, הוצאות איתור חובות.",
+    "row_axis": "Coverage conditions for open debts",
+    "column_axis": "Coverage details and limitations",
     "units": [],
     "notable_values": [
-      "coverage type: חובות פתוחים",
-      "loss limit: יתרת חובות פתוחים ביום הנזק"
+      "חובות פתוחים: covered loss",
+      "אמצעי אגירת מידע: physical storage media",
+      "נזק פיזי: physical damage",
+      "יתרת חובות פתוחים: outstanding debt balance",
+      "תקבולים שהתקבלו: received payments",
+      "הוצאות נוספות: additional expenses"
     ],
     "product_hints": [
-      "הראל ביטוח ציוד אלקטרוני"
+      "ביטוח ציוד אלקטרוני הראל"
     ]
   },
   "sketch": "(Book Debts) חובות פתוחים .18.4\nהביטוח על פי פרק זה יורחב לכסות הפסד אם נרשם ברשימה כי כיסוי זה בתוקף, למבוטח בגין יתרת חובות פתוחים שלא ניתן להוכיחם עקב נזק פיזי לאמצעי אגירת .1 המידע שבהם הם מאוחסנים, שנגרם על ידי מקרה ביטוח המכוסה במסגרת פרק\nהסכום לתשלום בגין הפסד זה, לא יעלה על הסך המתקבל מיתרת חובות פתוחים ביום הנזק, בניכוי תקבולים שהתקבלו או שאותרו בגין אותם חובות, בתוספת ההוצאות הנוספות ההכרחיות שהוצאו לאחר הנזק לאיתור וזיהוי החובות והחייבים.",
-  "embed_text": "פוליסת הראל ביטוח ציוד אלקטרוני מכסה הפסד בגין יתרת חובות פתוחים שלא ניתן להוכיחם עקב נזק פיזי לאמצעי אגירת מידע. הסכום לתשלום לא יעלה על יתרת החובות ביום הנזק, בניכוי תקבולים שהתקבלו. הכיסוי מוגבל לסכום המצוין ברשימה.",
-  "payload": "טבלה: חובות פתוחים\nThis table details coverage for losses due to open debts that cannot be proven due to physical damage to data storage media. It outlines how the insurance covers outstanding debts following a covered event.\nממדים: Coverage details for open debts, Conditions and limitations of coverage\n\n(Book Debts) חובות פתוחים .18.4\nהביטוח על פי פרק זה יורחב לכסות הפסד אם נרשם ברשימה כי כיסוי זה בתוקף, למבוטח בגין יתרת חובות פתוחים שלא ניתן להוכיחם עקב נזק פיזי לאמצעי אגירת .1 המידע שבהם הם מאוחסנים, שנגרם על ידי מקרה ביטוח המכוסה במסגרת פרק\nהסכום לתשלום בגין הפסד זה, לא יעלה על הסך המתקבל מיתרת חובות פתוחים ביום הנזק, בניכוי תקבולים שהתקבלו או שאותרו בגין אותם חובות, בתוספת ההוצאות הנוספות ההכרחיות שהוצאו לאחר הנזק לאיתור וזיהוי החובות והחייבים."
+  "embed_text": "טבלה זו מתייחסת לביטוח חובות פתוחים, הרחבה לפוליסת ביטוח ציוד אלקטרוני של הראל. הכיסוי מתייחס להפסד יתרת חובות פתוחים שלא ניתן להוכיחם עקב נזק פיזי לאמצעי אגירת מידע, בתנאי שכיסוי זה נרשם כבתוקף ברשימה. סכום התשלום מוגבל ליתרת החובות ביום הנזק, בניכוי תקבולים שהתקבלו, בתוספת הוצאות איתור החובות. הראל ביטוח מכסה הפסדים הנובעים מנזק פיזי לאמצעי אגירת מידע, חובות פתוחים, יתרת חובות, הוצאות איתור חובות. This table details coverage for losses due to open debts that cannot be proven due to physical damage to information storage media. It outlines the conditions and limitations of this coverage under the policy. בין הערכים בטבלה: הוצאות נוספות: additional expenses.",
+  "payload": "טבלה: חובות פתוחים\nThis table details coverage for losses due to open debts that cannot be proven due to physical damage to information storage media. It outlines the conditions and limitations of this coverage under the policy.\nממדים: Coverage conditions for open debts, Coverage details and limitations\n\n(Book Debts) חובות פתוחים .18.4\nהביטוח על פי פרק זה יורחב לכסות הפסד אם נרשם ברשימה כי כיסוי זה בתוקף, למבוטח בגין יתרת חובות פתוחים שלא ניתן להוכיחם עקב נזק פיזי לאמצעי אגירת .1 המידע שבהם הם מאוחסנים, שנגרם על ידי מקרה ביטוח המכוסה במסגרת פרק\nהסכום לתשלום בגין הפסד זה, לא יעלה על הסך המתקבל מיתרת חובות פתוחים ביום הנזק, בניכוי תקבולים שהתקבלו או שאותרו בגין אותם חובות, בתוספת ההוצאות הנוספות ההכרחיות שהוצאו לאחר הנזק לאיתור וזיהוי החובות והחייבים."
 }

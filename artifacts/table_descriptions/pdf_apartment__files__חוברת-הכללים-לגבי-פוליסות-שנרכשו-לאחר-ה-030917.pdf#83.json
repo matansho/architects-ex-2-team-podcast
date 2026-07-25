@@ -2,23 +2,25 @@
   "id": "pdf:apartment/files/חוברת-הכללים-לגבי-פוליסות-שנרכשו-לאחר-ה-030917.pdf#83",
   "source": "llm",
   "description": {
-    "title": "תביעות נזקי צד ג'",
-    "summary": "This table details claims for third-party damages (property/body) related to an apartment insurance policy. It's used to look up claim information based on claimant details and damage descriptions.",
-    "embed_passage": "פוליסת הראל לביטוח דירה מכסה נזקים שנגרמו לצדדים שלישיים. טבלת תביעות זו כוללת פרטים על הניזוק, כגון שם, כתובת וטלפון, לצד תיאור הנזק וסכום התביעה. לדוגמה, ניתן למצוא מידע על תביעה שהוגשה ב-030917.",
-    "row_axis": "Claim record",
-    "column_axis": "Claimant details, claim information",
-    "units": [],
+    "title": "דיווח נזק לצד ג'",
+    "summary": "This table is for reporting third-party damage claims (property/body) related to an insurance policy. It collects details about the claimant and the damage.",
+    "embed_passage": "טופס זה מיועד לדיווח על נזק שנגרם לצד ג', בין אם מדובר ברכוש או בגוף. מילוי מדויק של הטופס יסייע בהליך בירור התביעה. יש למלא את פרטי הניזוק, תיאור הנזק, ופרטי חשבון הבנק להעברת התגמולים. הראל ביטוח מציעה פוליסות ביטוח מגוונות, כולל ביטוח דירה. הניזוק, תאריך, המבוטח חתימת, משפחה ושם פרטי שם הם חלק מהמידע הנדרש.",
+    "row_axis": "Claim details / Claimant information",
+    "column_axis": "Claimant details (name, ID, address, contact info), damage description, claim amount",
+    "units": [
+      "₪"
+    ],
     "notable_values": [
-      "030917: Date related to policy purchase",
-      "03-7549729: Fax number for claim submission",
-      "1951: Postcode",
-      "5281102: Claim number"
+      "ת.ד. 1951: address",
+      "גן רמת 5281102: address",
+      "03-7549729: fax number",
+      "tviot.rechush@harel-ins.co.il: email address"
     ],
     "product_hints": [
-      "הראל לביטוח דירה"
+      "ביטוח דירה"
     ]
   },
   "sketch": "\"החברה. חותמת בצירוף החברה, של המורשה רו\"\"ח להחתים יש - בע\"\"מ חברה\",\"החברה. חותמת בצירוף החברה, של המורשה רו\"\"ח להחתים יש - בע\"\"מ חברה\",\"החברה. חותמת בצירוף החברה, של המורשה רו\"\"ח להחתים יש - בע\"\"מ חברה\"\nהמבוטח חתימת,משפחה ושם פרטי שם,תאריך",
-  "embed_text": "פוליסת הראל לביטוח דירה מכסה נזקים שנגרמו לצדדים שלישיים. טבלת תביעות זו כוללת פרטים על הניזוק, כגון שם, כתובת וטלפון, לצד תיאור הנזק וסכום התביעה. לדוגמה, ניתן למצוא מידע על תביעה שהוגשה ב-030917.",
-  "payload": "טבלה: תביעות נזקי צד ג'\nThis table details claims for third-party damages (property/body) related to an apartment insurance policy. It's used to look up claim information based on claimant details and damage descriptions.\nממדים: Claim record, Claimant details, claim information\n\n\"החברה. חותמת בצירוף החברה, של המורשה רו\"\"ח להחתים יש - בע\"\"מ חברה\",\"החברה. חותמת בצירוף החברה, של המורשה רו\"\"ח להחתים יש - בע\"\"מ חברה\",\"החברה. חותמת בצירוף החברה, של המורשה רו\"\"ח להחתים יש - בע\"\"מ חברה\"\nהמבוטח חתימת,משפחה ושם פרטי שם,תאריך"
+  "embed_text": "טופס זה מיועד לדיווח על נזק שנגרם לצד ג', בין אם מדובר ברכוש או בגוף. מילוי מדויק של הטופס יסייע בהליך בירור התביעה. יש למלא את פרטי הניזוק, תיאור הנזק, ופרטי חשבון הבנק להעברת התגמולים. הראל ביטוח מציעה פוליסות ביטוח מגוונות, כולל ביטוח דירה. הניזוק, תאריך, המבוטח חתימת, משפחה ושם פרטי שם הם חלק מהמידע הנדרש. This table is for reporting third-party damage claims (property/body) related to an insurance policy. It collects details about the claimant and the damage. בין הערכים בטבלה: ת.ד. 1951: address; גן רמת 5281102: address; 03-7549729: fax number; tviot.rechush@harel-ins.co.il: email address.",
+  "payload": "טבלה: דיווח נזק לצד ג'\nThis table is for reporting third-party damage claims (property/body) related to an insurance policy. It collects details about the claimant and the damage.\nממדים: Claim details / Claimant information, Claimant details (name, ID, address, contact info), damage description, claim amount\n\n\"החברה. חותמת בצירוף החברה, של המורשה רו\"\"ח להחתים יש - בע\"\"מ חברה\",\"החברה. חותמת בצירוף החברה, של המורשה רו\"\"ח להחתים יש - בע\"\"מ חברה\",\"החברה. חותמת בצירוף החברה, של המורשה רו\"\"ח להחתים יש - בע\"\"מ חברה\"\nהמבוטח חתימת,משפחה ושם פרטי שם,תאריך"
 }

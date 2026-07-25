@@ -2,25 +2,24 @@
   "id": "pdf:long-term-care/files/טופס-הגשת-תביעה-ביטוח-סיעודי.pdf#106",
   "source": "llm",
   "description": {
-    "title": "טופס תביעה סיעודי",
-    "summary": "This table is a long-term care claim form, used to assess a claimant's cognitive and physical state. It details whether the insured requires supervision due to cognitive impairment, and provides space for detailed medical findings.",
-    "embed_passage": "טופס זה משמש להגשת תביעה ביטוח סיעודי של הראל. הוא בודק את מצבו הקוגניטיבי של המבוטח, האם הוא זקוק להשגחה עקב תשישות נפשית או מחלות כמו אלצהיימר, וכן את היקף הפגיעה בתפקוד היומיומי שלו. לדוגמה, נבדקת היכולת לבצע פעולות כמו רחצה והלבשה באופן עצמאי.",
-    "row_axis": "insured person",
-    "column_axis": "cognitive and physical assessment details",
+    "title": "בדיקת תשישות נפש",
+    "summary": "This table documents the assessment of cognitive impairment (תשישות נפש) for long-term care insurance claims. It is used to determine if the insured requires supervision due to cognitive decline, such as Alzheimer's or dementia.",
+    "embed_passage": "טופס זה משמש לבדיקת תשישות נפש לצורך תביעות ביטוח סיעודי של הראל. הבדיקה נועדה לקבוע האם המבוטח זקוק להשגחה עקב פגיעה קוגניטיבית, כגון אלצהיימר או צורות שונות של דמנציה. הנתונים נאספים על ידי רופא מומחה בתחום, תוך התייחסות למבחנים שבוצעו לקביעת מצבו הקוגניטיבי של המבוטח. הראל, תשוש, שם נפש תשישות שעות, פגיעה קוגניטיבית, מצב קוגניטיבי, מבחנים.",
+    "row_axis": "שם המבוטח",
+    "column_axis": "ממצאי הפעולה, תשוש אינו",
     "units": [],
     "notable_values": [
-      "product: ביטוח סיעודי",
-      "form type: תביעה",
-      "assessment area: תשישות נפשית",
-      "assessment area: פגיעה קוגניטיבית",
-      "assessment area: תפקוד יומיומי"
+      "שם המבוטח: תעודת זהות",
+      "תשוש אינו: כן",
+      "תשוש אינו: לא",
+      "שם נפש תשישות שעות: תשוש"
     ],
     "product_hints": [
-      "ביטוח סיעודי",
-      "הראל"
+      "הראל",
+      "פוליסת סיעודי מושלם מ"
     ]
   },
   "sketch": ",תשוש אינו,ממצאי הפעולה\n,/ תשוש,\"שם נפש תשישות שעות במרבית להשגחה נזקק המבוטח האם הקוגניטיבית, בפעילותו פגיעה בשל היממה שונות דמנטיות צורות או אלצהיימר כגון בלבד( בתחום מומחה רופא ידי על )ימולא הפגיעה לרקע התייחסות כולל פירוט ואילו קבוע או זמני המצב האם הקוגניטיבית, זה: מצב לקביעת בוצעו מבחנים\"\nנפש: תשישות בדיקת לעניין נוסף פירוט,נפש: תשישות בדיקת לעניין נוסף פירוט,נפש: תשישות בדיקת לעניין נוסף פירוט\n:\nשם המבוטח:                                           תעודת זהות",
-  "embed_text": "טופס זה משמש להגשת תביעה ביטוח סיעודי של הראל. הוא בודק את מצבו הקוגניטיבי של המבוטח, האם הוא זקוק להשגחה עקב תשישות נפשית או מחלות כמו אלצהיימר, וכן את היקף הפגיעה בתפקוד היומיומי שלו. לדוגמה, נבדקת היכולת לבצע פעולות כמו רחצה והלבשה באופן עצמאי.",
-  "payload": "טבלה: טופס תביעה סיעודי\nThis table is a long-term care claim form, used to assess a claimant's cognitive and physical state. It details whether the insured requires supervision due to cognitive impairment, and provides space for detailed medical findings.\nממדים: insured person, cognitive and physical assessment details\n\n,תשוש אינו,ממצאי הפעולה\n,/ תשוש,\"שם נפש תשישות שעות במרבית להשגחה נזקק המבוטח האם הקוגניטיבית, בפעילותו פגיעה בשל היממה שונות דמנטיות צורות או אלצהיימר כגון בלבד( בתחום מומחה רופא ידי על )ימולא הפגיעה לרקע התייחסות כולל פירוט ואילו קבוע או זמני המצב האם הקוגניטיבית, זה: מצב לקביעת בוצעו מבחנים\"\nנפש: תשישות בדיקת לעניין נוסף פירוט,נפש: תשישות בדיקת לעניין נוסף פירוט,נפש: תשישות בדיקת לעניין נוסף פירוט\n:\nשם המבוטח:                                           תעודת זהות"
+  "embed_text": "טופס זה משמש לבדיקת תשישות נפש לצורך תביעות ביטוח סיעודי של הראל. הבדיקה נועדה לקבוע האם המבוטח זקוק להשגחה עקב פגיעה קוגניטיבית, כגון אלצהיימר או צורות שונות של דמנציה. הנתונים נאספים על ידי רופא מומחה בתחום, תוך התייחסות למבחנים שבוצעו לקביעת מצבו הקוגניטיבי של המבוטח. הראל, תשוש, שם נפש תשישות שעות, פגיעה קוגניטיבית, מצב קוגניטיבי, מבחנים. This table documents the assessment of cognitive impairment (תשישות נפש) for long-term care insurance claims. It is used to determine if the insured requires supervision due to cognitive decline, such as Alzheimer's or dementia. בין הערכים בטבלה: שם המבוטח: תעודת זהות; תשוש אינו: כן; תשוש אינו: לא.",
+  "payload": "טבלה: בדיקת תשישות נפש\nThis table documents the assessment of cognitive impairment (תשישות נפש) for long-term care insurance claims. It is used to determine if the insured requires supervision due to cognitive decline, such as Alzheimer's or dementia.\nממדים: שם המבוטח, ממצאי הפעולה, תשוש אינו\n\n,תשוש אינו,ממצאי הפעולה\n,/ תשוש,\"שם נפש תשישות שעות במרבית להשגחה נזקק המבוטח האם הקוגניטיבית, בפעילותו פגיעה בשל היממה שונות דמנטיות צורות או אלצהיימר כגון בלבד( בתחום מומחה רופא ידי על )ימולא הפגיעה לרקע התייחסות כולל פירוט ואילו קבוע או זמני המצב האם הקוגניטיבית, זה: מצב לקביעת בוצעו מבחנים\"\nנפש: תשישות בדיקת לעניין נוסף פירוט,נפש: תשישות בדיקת לעניין נוסף פירוט,נפש: תשישות בדיקת לעניין נוסף פירוט\n:\nשם המבוטח:                                           תעודת זהות"
 }

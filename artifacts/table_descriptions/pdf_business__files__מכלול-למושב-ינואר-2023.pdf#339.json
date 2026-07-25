@@ -2,24 +2,24 @@
   "id": "pdf:business/files/מכלול-למושב-ינואר-2023.pdf#339",
   "source": "llm",
   "description": {
-    "title": "מכלול",
-    "summary": "This table outlines coverage and liability related to insurance claims, specifically regarding third-party claims and legal costs. It details scenarios where the insurer may pay a third party directly or handle legal expenses.",
-    "embed_passage": "פוליסת מכלול מכסה מגוון רחב של מקרים, כולל מוות, מחלה ופגיעה גופנית. במקרה של נזק לרכוש צד שלישי, המבטח רשאי לשלם לצד השלישי ישירות, בתנאים מסוימים. סעיף 28 מתייחס לטיפול בתביעות וסעיף 29 מכסה הוצאות משפט סבירות.",
-    "row_axis": "Specific coverage scenarios or clauses",
-    "column_axis": "Details of the coverage, liability, or process",
+    "title": "תביעות",
+    "summary": "This table details claim handling and liability related to insurance coverage. It outlines scenarios where the insurer may pay a third party directly or handle legal claims.",
+    "embed_passage": "טבלה זו עוסקת בטיפול בתביעות ביטוח, ובאחריות המבטח כלפי צדדים שלישיים. ניתן לעיין בסעיפים השונים כדי להבין את תנאי התשלום והכיסוי במקרים של נזק או אבדן. הטבלה מפרטת מצבים כגון מוות, מחלה, פגיעה, נזק לרכוש צד שלישי, ותשלום תגמולים לצד שלישי. סעיפים רלוונטיים כוללים 27.1, 27.2, 28.1, ו-28.2.  הטבלה מתייחסת גם לתביעות נגד המבוטח ולכיסוי הוצאות משפט.",
+    "row_axis": "סעיף ביטוח / תנאי",
+    "column_axis": "תיאור / הסבר",
     "units": [],
     "notable_values": [
-      "27.1: Covers death, illness, injury, physical disability, mental deficiency",
-      "27.2: Covers damage or loss to third-party property",
-      "28.1: Insurer may pay third party directly",
-      "28.2: Insurer may be obligated to pay third party",
-      "28.4: Relates to claims arising from a single incident or series of incidents"
+      "27.1: מוות, מחלה, פגיעה, ליקוי גופני, לקוי נפשי ליקוי שכלי",
+      "27.2: נזק או אבדן לרכוש צד שלישי",
+      "28.1: תשלום תגמולי ביטוח לצד שלישי",
+      "28.2: הודעה בכתב למבוטח",
+      "28.4: תביעה או תביעות נגד המבוטח"
     ],
     "product_hints": [
       "מכלול"
     ]
   },
   "sketch": ".  מוות, מחלה, פגיעה, ליקוי גופני, לקוי נפשי ליקוי שכלי. 27.1\n.  נזק או אבדן לרכוש צד שלישי. 27.2\nטיפול בתביעות .28\n.  המבטח רשאי, ולפי דרישת צד שלישי - חייב, לשלם לצד השלישי את תגמולי הביטוח 28.1 28.2 שהמבטח חייב למבוטח, ובלבד שהודיע על כך בכתב למבוטח כאמור בסעיף והמבוטח לא התנגד כאמור באותו הסעיף, ואולם טענה שהמבטח יכול לטעון כלפי מבוטח תעמוד לו גם כלפי צד שלישי.",
-  "embed_text": "פוליסת מכלול מכסה מגוון רחב של מקרים, כולל מוות, מחלה ופגיעה גופנית. במקרה של נזק לרכוש צד שלישי, המבטח רשאי לשלם לצד השלישי ישירות, בתנאים מסוימים. סעיף 28 מתייחס לטיפול בתביעות וסעיף 29 מכסה הוצאות משפט סבירות.",
-  "payload": "טבלה: מכלול\nThis table outlines coverage and liability related to insurance claims, specifically regarding third-party claims and legal costs. It details scenarios where the insurer may pay a third party directly or handle legal expenses.\nממדים: Specific coverage scenarios or clauses, Details of the coverage, liability, or process\n\n.  מוות, מחלה, פגיעה, ליקוי גופני, לקוי נפשי ליקוי שכלי. 27.1\n.  נזק או אבדן לרכוש צד שלישי. 27.2\nטיפול בתביעות .28\n.  המבטח רשאי, ולפי דרישת צד שלישי - חייב, לשלם לצד השלישי את תגמולי הביטוח 28.1 28.2 שהמבטח חייב למבוטח, ובלבד שהודיע על כך בכתב למבוטח כאמור בסעיף והמבוטח לא התנגד כאמור באותו הסעיף, ואולם טענה שהמבטח יכול לטעון כלפי מבוטח תעמוד לו גם כלפי צד שלישי."
+  "embed_text": "טבלה זו עוסקת בטיפול בתביעות ביטוח, ובאחריות המבטח כלפי צדדים שלישיים. ניתן לעיין בסעיפים השונים כדי להבין את תנאי התשלום והכיסוי במקרים של נזק או אבדן. הטבלה מפרטת מצבים כגון מוות, מחלה, פגיעה, נזק לרכוש צד שלישי, ותשלום תגמולים לצד שלישי. סעיפים רלוונטיים כוללים 27.1, 27.2, 28.1, ו-28.2.  הטבלה מתייחסת גם לתביעות נגד המבוטח ולכיסוי הוצאות משפט. This table details claim handling and liability related to insurance coverage. It outlines scenarios where the insurer may pay a third party directly or handle legal claims. בין הערכים בטבלה: 28.4: תביעה או תביעות נגד המבוטח.",
+  "payload": "טבלה: תביעות\nThis table details claim handling and liability related to insurance coverage. It outlines scenarios where the insurer may pay a third party directly or handle legal claims.\nממדים: סעיף ביטוח / תנאי, תיאור / הסבר\n\n.  מוות, מחלה, פגיעה, ליקוי גופני, לקוי נפשי ליקוי שכלי. 27.1\n.  נזק או אבדן לרכוש צד שלישי. 27.2\nטיפול בתביעות .28\n.  המבטח רשאי, ולפי דרישת צד שלישי - חייב, לשלם לצד השלישי את תגמולי הביטוח 28.1 28.2 שהמבטח חייב למבוטח, ובלבד שהודיע על כך בכתב למבוטח כאמור בסעיף והמבוטח לא התנגד כאמור באותו הסעיף, ואולם טענה שהמבטח יכול לטעון כלפי מבוטח תעמוד לו גם כלפי צד שלישי."
 }

@@ -3,24 +3,24 @@
   "source": "llm",
   "description": {
     "title": "שירותי דרך",
-    "summary": "This table details roadside assistance services offered, including wheel changes and vehicle unlocking. It outlines the conditions under which these services are provided and the self-participation fee.",
-    "embed_passage": "פוליסת ביטוח רכב פרטי ומסחרי כוללת שירותי דרך כמו החלפת גלגל או פריצת רכב. במקרה של תקר, השירות ניתן רק אם קיים גלגל חלופי תקין ברכב. דמי ההשתתפות העצמית עבור כל שירות הם 59 ש״ח כולל מע״מ.",
-    "row_axis": "type of roadside assistance service",
-    "column_axis": "service details (conditions, self-participation)",
+    "summary": "This table details roadside assistance services provided as part of a car insurance policy. It outlines the services offered, conditions for service, and self-participation fees.",
+    "embed_passage": "טבלה זו מתארת שירותי דרך הכלולים בפוליסת ביטוח רכב, כגון החלפת גלגל ופריצת רכב. ניתן לעיין בשירותים המוצעים, התנאים לקבלתם, וההשתתפות העצמית הנדרשת. השירותים ניתנים באמצעות נותן שירות מוסמך. שירות החלפת גלגל, שירות פריצת רכב, שירות טעינת רכב חשמלי, גלגל חלופי תקין, ברגים ואומים תקינים, ₪ 59 השתתפות עצמית.",
+    "row_axis": "שירות",
+    "column_axis": "פירוט השירותים, השתתפות עצמית",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "self-participation fee: 59 ₪",
-      "service: wheel change",
-      "service: vehicle unlocking"
+      "השתתפות עצמית: 59 ₪",
+      "שירות החלפת גלגל: נציג מגיע למקום הרכב",
+      "שירות פריצת רכב: נציג מנסה לפרוץ את הרכב",
+      "גלגל חלופי: חייב להיות תקין"
     ],
     "product_hints": [
-      "ביטוח רכב",
-      "פוליסת רכב"
+      "פוליסת ביטוח רכב פרטי ומסחרי עד 35 טון"
     ]
   },
   "sketch": "שירות החלפת גלגל .3.2\nלצורך החלפת גלגל יגיע נציג מטעם נותן השירות למקום הרכב ויבצע במקום את ההחלפה.\nפירוט השירותים .3.2.1\nהשירותים המפורטים להלן יינתנו למקבל השירות באמצעות נותן השירות וכמפורט להלן:\nהגעת נציג מטעם נותן השירות למקום בו מצוי הרכב הזכאי לשירות, אשר יבצע את החלפת הגלגל עם התקר בגלגל החלופי שברכב, וזאת אך ורק אם:\nקיים גלגל חלופי תקין ברכב. .3.2.1.1\nחלקי הגלגלים המוחלפים וחלקיהם )ברגים, אומים( תקינים. .3.2.1.2\n, בכל מקרה של תקר בגלגל, אם הרכב מגיע מהיצרן ללא גלגל חלופי .3.2.1.3 יינתן שירות גרירה עד לפנצ'ריה הקרובה ביותר למקום בו מצוי הרכב הזכאי לשירות.",
-  "embed_text": "פוליסת ביטוח רכב פרטי ומסחרי כוללת שירותי דרך כמו החלפת גלגל או פריצת רכב. במקרה של תקר, השירות ניתן רק אם קיים גלגל חלופי תקין ברכב. דמי ההשתתפות העצמית עבור כל שירות הם 59 ש״ח כולל מע״מ.",
-  "payload": "טבלה: שירותי דרך\nThis table details roadside assistance services offered, including wheel changes and vehicle unlocking. It outlines the conditions under which these services are provided and the self-participation fee.\nממדים: type of roadside assistance service, service details (conditions, self-participation)\n\nשירות החלפת גלגל .3.2\nלצורך החלפת גלגל יגיע נציג מטעם נותן השירות למקום הרכב ויבצע במקום את ההחלפה.\nפירוט השירותים .3.2.1\nהשירותים המפורטים להלן יינתנו למקבל השירות באמצעות נותן השירות וכמפורט להלן:\nהגעת נציג מטעם נותן השירות למקום בו מצוי הרכב הזכאי לשירות, אשר יבצע את החלפת הגלגל עם התקר בגלגל החלופי שברכב, וזאת אך ורק אם:\nקיים גלגל חלופי תקין ברכב. .3.2.1.1\nחלקי הגלגלים המוחלפים וחלקיהם )ברגים, אומים( תקינים. .3.2.1.2\n, בכל מקרה של תקר בגלגל, אם הרכב מגיע מהיצרן ללא גלגל חלופי .3.2.1.3 יינתן שירות גרירה עד לפנצ'ריה הקרובה ביותר למקום בו מצוי הרכב הזכאי לשירות."
+  "embed_text": "טבלה זו מתארת שירותי דרך הכלולים בפוליסת ביטוח רכב, כגון החלפת גלגל ופריצת רכב. ניתן לעיין בשירותים המוצעים, התנאים לקבלתם, וההשתתפות העצמית הנדרשת. השירותים ניתנים באמצעות נותן שירות מוסמך. שירות החלפת גלגל, שירות פריצת רכב, שירות טעינת רכב חשמלי, גלגל חלופי תקין, ברגים ואומים תקינים, ₪ 59 השתתפות עצמית. This table details roadside assistance services provided as part of a car insurance policy. It outlines the services offered, conditions for service, and self-participation fees.",
+  "payload": "טבלה: שירותי דרך\nThis table details roadside assistance services provided as part of a car insurance policy. It outlines the services offered, conditions for service, and self-participation fees.\nממדים: שירות, פירוט השירותים, השתתפות עצמית\n\nשירות החלפת גלגל .3.2\nלצורך החלפת גלגל יגיע נציג מטעם נותן השירות למקום הרכב ויבצע במקום את ההחלפה.\nפירוט השירותים .3.2.1\nהשירותים המפורטים להלן יינתנו למקבל השירות באמצעות נותן השירות וכמפורט להלן:\nהגעת נציג מטעם נותן השירות למקום בו מצוי הרכב הזכאי לשירות, אשר יבצע את החלפת הגלגל עם התקר בגלגל החלופי שברכב, וזאת אך ורק אם:\nקיים גלגל חלופי תקין ברכב. .3.2.1.1\nחלקי הגלגלים המוחלפים וחלקיהם )ברגים, אומים( תקינים. .3.2.1.2\n, בכל מקרה של תקר בגלגל, אם הרכב מגיע מהיצרן ללא גלגל חלופי .3.2.1.3 יינתן שירות גרירה עד לפנצ'ריה הקרובה ביותר למקום בו מצוי הרכב הזכאי לשירות."
 }

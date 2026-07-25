@@ -2,25 +2,23 @@
   "id": "pdf:apartment/files/תנאי-הפוליסה-לביטוח-אדירה-ארד-מהדורת-ספטמבר-2017.pdf#56",
   "source": "llm",
   "description": {
-    "title": "תנאי הפוליסה - אדירה ארד",
-    "summary": "This table details the conditions for insurance claims, specifically regarding third-party liability coverage. It outlines the timeframe for the insurer to respond to claims and their rights regarding managing defense against claims.",
-    "embed_passage": "פוליסת אדירה ארד מגדירה את תהליך הטיפול בתביעות של צדדים שלישיים. לדוגמה, סעיף 18.2 קובע כי המבטח צריך להודיע למבוטח בתוך 7 ימי עסקים מיום הדרישה, ואם לא תהיה התנגדות לתשלום הפיצוי בתוך 30 ימים, המבטח ישלם לצד השלישי. תנאים אלו חלים על תביעות הנובעות מחבות המבוטח לפי פקודת הנזיקין.",
-    "row_axis": "Claim handling procedures / Insurer's rights",
-    "column_axis": "Timeframes / Actions / Conditions",
+    "title": "תנאי הפוליסה - אחריות כלפי צד שלישי",
+    "summary": "This table outlines the conditions for insurance claims related to third-party liability. It details the process and timelines for notifying the insured and handling claims.",
+    "embed_passage": "טבלה זו מתייחסת לתנאי הפוליסה בנושא אחריות כלפי צד שלישי, ומפרטת את הנהלים והלוחות זמנים לטיפול בתביעות. הפוליסה של אדירה ארד מגדירה את חובות המבטח והמבוטח במקרה של דרישת תגמולי ביטוח מצד שלישי. ניתן לעיין בתנאים אלו כדי להבין את זכויות וחובות הצדדים. הטבלה עוסקת בסעיפים כגון הודעה על דרישה, תשלום פיצויים, וניהול הגנה משפטית. סעיף 18.1 מציין כי המבטח יודיע למבוטח בכתב תוך 7 ימי עסקים על דרישה מצד שלישי. סעיף 18.2 קובע כי בתוך 30 ימים, המבטח ישלם לצד השלישי אם לא תהיה התנגדות.",
+    "row_axis": "סעיפי הפוליסה (18.1, 18.2, 18.3, 18.4)",
+    "column_axis": "תנאים ונהלים (הודעה, תשלום, הגנה משפטית)",
     "units": [],
     "notable_values": [
-      "7: Number of business days for insurer to respond to a claim",
-      "30: Number of days for insurer to pay if no objection",
-      "18.1: Section number regarding written notification",
-      "18.2: Section number regarding claim payment timeframe",
-      "18.3: Section number regarding insurer's right to manage defense"
+      "7 ימי עסקים: זמן להודעה למבוטח",
+      "30 ימים: זמן לתשלום לצד שלישי",
+      "פקודת הנזיקין (נוסח חדש): מסגרת חוקית",
+      "אזור: הגדרה בחוק לתיקון ולהארכת תוקפן של תקנות שעת חירום"
     ],
     "product_hints": [
-      "אדירה ארד",
-      "ביטוח אחריות כלפי צד שלישי"
+      "אדירה ארד"
     ]
   },
   "sketch": ", יודיע המבטח למבוטח בכתב 18.1 . דרש צד שלישי מהמבטח תגמולי ביטוח כאמור בסעיף 18.2 ימי עסקים מיום הדרישה, על הדרישה כאמור וכי אם לא יודיע לו המבוטח על 7 בתוך ימים, ישלם המבטח לצד השלישי את תגמולי הביטוח 30 התנגדותו לתשלום הפיצוי בתוך שהוא חייב למבוטח, אם הוא חייב בתשלומם.\n. המבטח רשאי ליטול על עצמו או לנהל בשם המבוטח את ההגנה של כל תביעה והמבוטח 18.3 ייתן למבטח, לפי בקשתו, עזרה הנחוצה למבטח לצורך יישוב תביעה של צד שלישי.",
-  "embed_text": "פוליסת אדירה ארד מגדירה את תהליך הטיפול בתביעות של צדדים שלישיים. לדוגמה, סעיף 18.2 קובע כי המבטח צריך להודיע למבוטח בתוך 7 ימי עסקים מיום הדרישה, ואם לא תהיה התנגדות לתשלום הפיצוי בתוך 30 ימים, המבטח ישלם לצד השלישי. תנאים אלו חלים על תביעות הנובעות מחבות המבוטח לפי פקודת הנזיקין.",
-  "payload": "טבלה: תנאי הפוליסה - אדירה ארד\nThis table details the conditions for insurance claims, specifically regarding third-party liability coverage. It outlines the timeframe for the insurer to respond to claims and their rights regarding managing defense against claims.\nממדים: Claim handling procedures / Insurer's rights, Timeframes / Actions / Conditions\n\n, יודיע המבטח למבוטח בכתב 18.1 . דרש צד שלישי מהמבטח תגמולי ביטוח כאמור בסעיף 18.2 ימי עסקים מיום הדרישה, על הדרישה כאמור וכי אם לא יודיע לו המבוטח על 7 בתוך ימים, ישלם המבטח לצד השלישי את תגמולי הביטוח 30 התנגדותו לתשלום הפיצוי בתוך שהוא חייב למבוטח, אם הוא חייב בתשלומם.\n. המבטח רשאי ליטול על עצמו או לנהל בשם המבוטח את ההגנה של כל תביעה והמבוטח 18.3 ייתן למבטח, לפי בקשתו, עזרה הנחוצה למבטח לצורך יישוב תביעה של צד שלישי."
+  "embed_text": "טבלה זו מתייחסת לתנאי הפוליסה בנושא אחריות כלפי צד שלישי, ומפרטת את הנהלים והלוחות זמנים לטיפול בתביעות. הפוליסה של אדירה ארד מגדירה את חובות המבטח והמבוטח במקרה של דרישת תגמולי ביטוח מצד שלישי. ניתן לעיין בתנאים אלו כדי להבין את זכויות וחובות הצדדים. הטבלה עוסקת בסעיפים כגון הודעה על דרישה, תשלום פיצויים, וניהול הגנה משפטית. סעיף 18.1 מציין כי המבטח יודיע למבוטח בכתב תוך 7 ימי עסקים על דרישה מצד שלישי. סעיף 18.2 קובע כי בתוך 30 ימים, המבטח ישלם לצד השלישי אם לא תהיה התנגדות. This table outlines the conditions for insurance claims related to third-party liability. It details the process and timelines for notifying the insured and handling claims. בין הערכים בטבלה: פקודת הנזיקין (נוסח חדש): מסגרת חוקית; אזור: הגדרה בחוק לתיקון ולהארכת תוקפן של תקנות שעת חירום.",
+  "payload": "טבלה: תנאי הפוליסה - אחריות כלפי צד שלישי\nThis table outlines the conditions for insurance claims related to third-party liability. It details the process and timelines for notifying the insured and handling claims.\nממדים: סעיפי הפוליסה (18.1, 18.2, 18.3, 18.4), תנאים ונהלים (הודעה, תשלום, הגנה משפטית)\n\n, יודיע המבטח למבוטח בכתב 18.1 . דרש צד שלישי מהמבטח תגמולי ביטוח כאמור בסעיף 18.2 ימי עסקים מיום הדרישה, על הדרישה כאמור וכי אם לא יודיע לו המבוטח על 7 בתוך ימים, ישלם המבטח לצד השלישי את תגמולי הביטוח 30 התנגדותו לתשלום הפיצוי בתוך שהוא חייב למבוטח, אם הוא חייב בתשלומם.\n. המבטח רשאי ליטול על עצמו או לנהל בשם המבוטח את ההגנה של כל תביעה והמבוטח 18.3 ייתן למבטח, לפי בקשתו, עזרה הנחוצה למבטח לצורך יישוב תביעה של צד שלישי."
 }

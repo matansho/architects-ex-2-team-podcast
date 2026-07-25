@@ -3,21 +3,26 @@
   "source": "llm",
   "description": {
     "title": "הצהרת בריאות",
-    "summary": "This table is a health declaration form used to assess risk for health insurance. It lists various medical conditions to determine eligibility and potential premium adjustments.",
-    "embed_passage": "טופס הצהרת הבריאות בוחן היסטוריה משפחתית ומצב בריאותי קיים, כגון סרטן הערמונית, סרטן השחלות, סוכרת, או ניוון שרירים. תשובות 'כן' לשאלות אלו עשויות לדרוש שאלון מפורט יותר או תעודה מהרופא המטפל. לדוגמה, שאלה 24 בודקת היסטוריה של סרטן במשפחה, בעוד ששאלה 25 מתייחסת למחלות נוירולוגיות כמו אלצהיימר.",
-    "row_axis": "medical condition / health question",
-    "column_axis": "response (implicitly 'yes'/'no')",
+    "summary": "This table is a health declaration form used to assess medical conditions for health insurance. It lists various medical conditions to be answered with 'yes' or 'no'.",
+    "embed_passage": "טופס זה הוא הצהרת בריאות, המשמשת להערכת מצב בריאותי לצורך ביטוח בריאות. יש לענות על השאלות בסימון 'כן' או 'לא' לגבי קיום מצבים רפואיים שונים. המידע נדרש לצורך קביעת תנאי החיתום לפוליסה. המצבים הרפואיים כוללים סרטן הערמונית, סרטן השחלות, סרטן השד, ניוון שרירים, טרשת נפוצה, אלצהיימר, סוכרת, מחלת הנטינגטון ועוד. פוליפוזיס כולל המעי, כליות, מערכת העצבים, שומנים בדם, לחץ דם הם חלק מהמצבים הנבדקים.",
+    "row_axis": "Medical conditions",
+    "column_axis": "Response (Yes/No)",
     "units": [],
     "notable_values": [
-      "question number: 24",
-      "question number: 25",
-      "question number: 27"
+      "פוליפוזיס כולל המעי: unknown",
+      "סרטן הערמונית: unknown",
+      "סרטן השחלות: unknown",
+      "סרטן השד: unknown",
+      "ניוון שרירים: unknown",
+      "טרשת נפוצה: unknown",
+      "אלצהיימר: unknown",
+      "מחלת הנטינגטון: unknown"
     ],
     "product_hints": [
       "ביטוח בריאות"
     ]
   },
   "sketch": "משפחה קרובי משפחתי, פוליפוזיס כולל המעי סרטן ,) (פרוסטטה הערמונית סרטן השחלות, סרטן\",24\n,,,,,,,,,\"אצל השד, כליות שרירים, ניוון נפוצה, טרשת פרקינסון, אלצהיימר, העצבים: מערכת סוכרת, פוליציסטיות, ]27[ הנטינטון?\",25",
-  "embed_text": "טופס הצהרת הבריאות בוחן היסטוריה משפחתית ומצב בריאותי קיים, כגון סרטן הערמונית, סרטן השחלות, סוכרת, או ניוון שרירים. תשובות 'כן' לשאלות אלו עשויות לדרוש שאלון מפורט יותר או תעודה מהרופא המטפל. לדוגמה, שאלה 24 בודקת היסטוריה של סרטן במשפחה, בעוד ששאלה 25 מתייחסת למחלות נוירולוגיות כמו אלצהיימר.",
-  "payload": "טבלה: הצהרת בריאות\nThis table is a health declaration form used to assess risk for health insurance. It lists various medical conditions to determine eligibility and potential premium adjustments.\nממדים: medical condition / health question, response (implicitly 'yes'/'no')\n\nמשפחה קרובי משפחתי, פוליפוזיס כולל המעי סרטן ,) (פרוסטטה הערמונית סרטן השחלות, סרטן\",24\n,,,,,,,,,\"אצל השד, כליות שרירים, ניוון נפוצה, טרשת פרקינסון, אלצהיימר, העצבים: מערכת סוכרת, פוליציסטיות, ]27[ הנטינטון?\",25"
+  "embed_text": "טופס זה הוא הצהרת בריאות, המשמשת להערכת מצב בריאותי לצורך ביטוח בריאות. יש לענות על השאלות בסימון 'כן' או 'לא' לגבי קיום מצבים רפואיים שונים. המידע נדרש לצורך קביעת תנאי החיתום לפוליסה. המצבים הרפואיים כוללים סרטן הערמונית, סרטן השחלות, סרטן השד, ניוון שרירים, טרשת נפוצה, אלצהיימר, סוכרת, מחלת הנטינגטון ועוד. פוליפוזיס כולל המעי, כליות, מערכת העצבים, שומנים בדם, לחץ דם הם חלק מהמצבים הנבדקים. This table is a health declaration form used to assess medical conditions for health insurance. It lists various medical conditions to be answered with 'yes' or 'no'.",
+  "payload": "טבלה: הצהרת בריאות\nThis table is a health declaration form used to assess medical conditions for health insurance. It lists various medical conditions to be answered with 'yes' or 'no'.\nממדים: Medical conditions, Response (Yes/No)\n\nמשפחה קרובי משפחתי, פוליפוזיס כולל המעי סרטן ,) (פרוסטטה הערמונית סרטן השחלות, סרטן\",24\n,,,,,,,,,\"אצל השד, כליות שרירים, ניוון נפוצה, טרשת פרקינסון, אלצהיימר, העצבים: מערכת סוכרת, פוליציסטיות, ]27[ הנטינטון?\",25"
 }

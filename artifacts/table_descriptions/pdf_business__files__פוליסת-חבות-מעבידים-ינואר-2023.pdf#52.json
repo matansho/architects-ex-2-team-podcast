@@ -3,24 +3,22 @@
   "source": "llm",
   "description": {
     "title": "הצמדה למדד",
-    "summary": "This table details how policy limits and self-participation amounts are adjusted based on changes to the Consumer Price Index (CPI). It explains the index used for adjustments and how changes are applied to liability limits and self-pay amounts.",
-    "embed_passage": "פוליסת חבות מעבידים מצמידה את גבול האחריות וההשתתפות העצמית למדד המחירים לצרכן. השינוי מחושב בין המדד בתחילת תקופת הביטוח למדד סמוך למועד קרות מקרה הביטוח או תשלום ההשתתפות העצמית. לדוגמה, גבול האחריות הנקוב בש״ח ישתנה בהתאם לשינויים במדד.",
-    "row_axis": "types of policy amounts subject to indexation",
-    "column_axis": "details of indexation process",
+    "summary": "This table details how amounts in the employer liability policy are adjusted based on changes to the Consumer Price Index (CPI). It covers the adjustment of the liability limit and the self-participation amount.",
+    "embed_passage": "טבלה זו מתארת את אופן התאמת הסכומים בפוליסת חבות מעבידים בהתאם לשינויים במדד המחירים לצרכן המתפרסם על ידי הלשכה המרכזית לסטטיסטיקה. הפוליסה כוללת הצמדה של גבול האחריות וסכום ההשתתפות העצמית, כאשר ההתאמה מחושבת על בסיס השינוי במדד בין תחילת תקופת הביטוח למועד קרות מקרה הביטוח או תשלום ההשתתפות העצמית. פוליסת חבות מעבידים ינואר 2023 מציגה את תנאי ההצמדה לגבול האחריות, סכום ההשתתפות העצמית, מדד המחירים לצרכן, הלשכה המרכזית לסטטיסטיקה, ומועדי המדד.",
+    "row_axis": "types of amounts subject to CPI adjustment",
+    "column_axis": "details of the CPI adjustment process",
     "units": [
-      "ש״ח"
+      "₪"
     ],
     "notable_values": [
-      "מדד: CPI",
-      "תקופת הביטוח: relevant period for indexation",
-      "השתתפות עצמית: self-participation amount",
-      "גבול אחריות: liability limit"
+      "גבול האחריות: ש״ח",
+      "השתתפות עצמית: ש״ח"
     ],
     "product_hints": [
-      "פוליסת חבות מעבידים"
+      "פוליסת חבות מעבידים ינואר 2023"
     ]
   },
   "sketch": "הצמדה למדד .5.2\nהסכומים הנזכרים להלן יותאמו לשיעור השינוי במדד המחירים לצרכן המתפרסם על ידי הלשכה המרכזית לסטטיסטיקה.\nהצמדת גבול האחריות .5.2.1\n, גבול האחריות הנקוב בפוליסה זו בש״ח ישתנה בהתאם לשינויים במדד בין המדד שפורסם סמוך לפני תחילת תקופת הביטוח לבין המדד שיפורסם סמוך לפני קרות מקרה הביטוח )להלן: \"המדד\"(. אם במהלך תקופת הביטוח יחולו הגדלות בגבול האחריות על פי בקשת המבוטח, תהווה כל הגדלה כזאת סכום בסיסי נוסף עליו חלים תנאי ההצמדה שפורטו לעיל.\nהצמדת סכום ההשתתפות העצמית .5.2.2\nסכום ההשתתפות העצמית לגבי מקרי ביטוח המכוסים לפי פוליסה זו, ישתנה בהתאם לשינויים במדד, בין המדד שפורסם סמוך לפני תחילת תקופת הביטוח לבין המדד שיפורסם סמוך לפני תשלום ההשתתפות העצמית על ידי המבוטח.",
-  "embed_text": "פוליסת חבות מעבידים מצמידה את גבול האחריות וההשתתפות העצמית למדד המחירים לצרכן. השינוי מחושב בין המדד בתחילת תקופת הביטוח למדד סמוך למועד קרות מקרה הביטוח או תשלום ההשתתפות העצמית. לדוגמה, גבול האחריות הנקוב בש״ח ישתנה בהתאם לשינויים במדד.",
-  "payload": "טבלה: הצמדה למדד\nThis table details how policy limits and self-participation amounts are adjusted based on changes to the Consumer Price Index (CPI). It explains the index used for adjustments and how changes are applied to liability limits and self-pay amounts.\nממדים: types of policy amounts subject to indexation, details of indexation process\n\nהצמדה למדד .5.2\nהסכומים הנזכרים להלן יותאמו לשיעור השינוי במדד המחירים לצרכן המתפרסם על ידי הלשכה המרכזית לסטטיסטיקה.\nהצמדת גבול האחריות .5.2.1\n, גבול האחריות הנקוב בפוליסה זו בש״ח ישתנה בהתאם לשינויים במדד בין המדד שפורסם סמוך לפני תחילת תקופת הביטוח לבין המדד שיפורסם סמוך לפני קרות מקרה הביטוח )להלן: \"המדד\"(. אם במהלך תקופת הביטוח יחולו הגדלות בגבול האחריות על פי בקשת המבוטח, תהווה כל הגדלה כזאת סכום בסיסי נוסף עליו חלים תנאי ההצמדה שפורטו לעיל.\nהצמדת סכום ההשתתפות העצמית .5.2.2\nסכום ההשתתפות העצמית לגבי מקרי ביטוח המכוסים לפי פוליסה זו, ישתנה בהתאם לשינויים במדד, בין המדד שפורסם סמוך לפני תחילת תקופת הביטוח לבין המדד שיפורסם סמוך לפני תשלום ההשתתפות העצמית על ידי המבוטח."
+  "embed_text": "טבלה זו מתארת את אופן התאמת הסכומים בפוליסת חבות מעבידים בהתאם לשינויים במדד המחירים לצרכן המתפרסם על ידי הלשכה המרכזית לסטטיסטיקה. הפוליסה כוללת הצמדה של גבול האחריות וסכום ההשתתפות העצמית, כאשר ההתאמה מחושבת על בסיס השינוי במדד בין תחילת תקופת הביטוח למועד קרות מקרה הביטוח או תשלום ההשתתפות העצמית. פוליסת חבות מעבידים ינואר 2023 מציגה את תנאי ההצמדה לגבול האחריות, סכום ההשתתפות העצמית, מדד המחירים לצרכן, הלשכה המרכזית לסטטיסטיקה, ומועדי המדד. This table details how amounts in the employer liability policy are adjusted based on changes to the Consumer Price Index (CPI). It covers the adjustment of the liability limit and the self-participation amount. בין הערכים בטבלה: השתתפות עצמית: ש״ח.",
+  "payload": "טבלה: הצמדה למדד\nThis table details how amounts in the employer liability policy are adjusted based on changes to the Consumer Price Index (CPI). It covers the adjustment of the liability limit and the self-participation amount.\nממדים: types of amounts subject to CPI adjustment, details of the CPI adjustment process\n\nהצמדה למדד .5.2\nהסכומים הנזכרים להלן יותאמו לשיעור השינוי במדד המחירים לצרכן המתפרסם על ידי הלשכה המרכזית לסטטיסטיקה.\nהצמדת גבול האחריות .5.2.1\n, גבול האחריות הנקוב בפוליסה זו בש״ח ישתנה בהתאם לשינויים במדד בין המדד שפורסם סמוך לפני תחילת תקופת הביטוח לבין המדד שיפורסם סמוך לפני קרות מקרה הביטוח )להלן: \"המדד\"(. אם במהלך תקופת הביטוח יחולו הגדלות בגבול האחריות על פי בקשת המבוטח, תהווה כל הגדלה כזאת סכום בסיסי נוסף עליו חלים תנאי ההצמדה שפורטו לעיל.\nהצמדת סכום ההשתתפות העצמית .5.2.2\nסכום ההשתתפות העצמית לגבי מקרי ביטוח המכוסים לפי פוליסה זו, ישתנה בהתאם לשינויים במדד, בין המדד שפורסם סמוך לפני תחילת תקופת הביטוח לבין המדד שיפורסם סמוך לפני תשלום ההשתתפות העצמית על ידי המבוטח."
 }

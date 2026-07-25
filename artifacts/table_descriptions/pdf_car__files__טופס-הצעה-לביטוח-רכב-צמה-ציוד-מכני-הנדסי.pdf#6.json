@@ -2,24 +2,28 @@
   "id": "pdf:car/files/טופס-הצעה-לביטוח-רכב-צמה-ציוד-מכני-הנדסי.pdf#6",
   "source": "llm",
   "description": {
-    "title": "הצעת ביטוח ציוד מכני הנדסי",
-    "summary": "This table is a proposal form for insuring mechanical and engineering equipment. It details coverage options and equipment condition for a 'צמה' policy.",
-    "embed_passage": "טופס זה משמש להצעת ביטוח עבור ציוד מכני הנדסי, כגון ציוד המופעל במכרות או במחצבות. הערך הכולל של הכלי כחדש, כולל מיסים והיטלים, הוא פרט חשוב בהערכת הכיסוי. לדוגמה, השאלה האם הציוד תקין במצב הנוכחי שלו היא קריטית לקביעת תנאי הפוליסה.",
-    "row_axis": "Equipment details and coverage options",
-    "column_axis": "Yes/No answers to questions about equipment condition, operation, and desired coverage",
+    "title": "ציוד מכני הנדסי",
+    "summary": "This table details coverage options for mechanical and engineering equipment. It is used to determine if insurance applies based on equipment condition, operation location, and additional coverages.",
+    "embed_passage": "טבלה זו מתארת אפשרויות כיסוי לציוד מכני והנדסי, כחלק מביטוח רכב צמה. ניתן לבדוק את הכיסוי בהתאם למצב הציוד, מקום הפעולה שלו, והאם מדובר בציוד מורכב או עזר. הנתונים כוללים שאלות לגבי רישיון מפעילים, תקינות הציוד, וכיסוי במכרות או מחצבות. בין הציוד המכוסה ניתן למצוא ציוד מורכב וציוד עזר, וכן לבדוק האם יש ביטוח למזגן. ערך הציוד כחדש, כולל מיסים והיטלים, הוא פרט חשוב נוסף. ציוד מכני הנדסי, מפעילים, רישיון, תקינות, כיסוי במכרות, ציוד מורכב, ציוד עזר, ביטוח למזגן, ערך כחדש.",
+    "row_axis": "equipment details/coverage options",
+    "column_axis": "coverage questions/attributes",
     "units": [],
     "notable_values": [
-      "question: 7",
-      "question: 8",
-      "question: 9",
-      "question: 10",
-      "question: 11"
+      "מפעילים: .7",
+      "רישיון: .8",
+      "תקין? במצב: .9",
+      "ציוד מורכב, העזר: .10",
+      "כיסוי במכרות או במחצבות: .11",
+      "ביטוח למזגן: .12",
+      "ערך הכלי כחדש: .13",
+      "החברה לשימוש"
     ],
     "product_hints": [
-      "צמה"
+      "ביטוח רכב צמה",
+      "ציוד מכני הנדסי"
     ]
   },
   "sketch": "ם? מפעילים,.7\n,,,,,,,,,,בעלי הציוד מפעילי האם מתאים? רישיון,.8\n,,,,,,,,,,נמצא הציוד לדעתך האם תקין? במצב,.9\n,,,,,,,,,,\"פרט: המורכב, העזר ציוד .10\",\"פרט: המורכב, העזר ציוד .10\"\n,,,,,,,,,,מופעל שהציוד בעת כיסוי .11 במכרות או במחצבות,מופעל שהציוד בעת כיסוי .11 במכרות או במחצבות\nכן,לא,כן,לא,כן,לא,כן,לא,כן,לא,למזגן ביטוח .12,למזגן ביטוח .12\n,,,,,,,,,,כחדש הכלי של כולל ערך .13 והיטלים( מיסים )כולל,כחדש הכלי של כולל ערך .13 והיטלים( מיסים )כולל\n,,,,,,,,,,החברה לשימוש,החברה לשימוש",
-  "embed_text": "טופס זה משמש להצעת ביטוח עבור ציוד מכני הנדסי, כגון ציוד המופעל במכרות או במחצבות. הערך הכולל של הכלי כחדש, כולל מיסים והיטלים, הוא פרט חשוב בהערכת הכיסוי. לדוגמה, השאלה האם הציוד תקין במצב הנוכחי שלו היא קריטית לקביעת תנאי הפוליסה.",
-  "payload": "טבלה: הצעת ביטוח ציוד מכני הנדסי\nThis table is a proposal form for insuring mechanical and engineering equipment. It details coverage options and equipment condition for a 'צמה' policy.\nממדים: Equipment details and coverage options, Yes/No answers to questions about equipment condition, operation, and desired coverage\n\nם? מפעילים,.7\n,,,,,,,,,,בעלי הציוד מפעילי האם מתאים? רישיון,.8\n,,,,,,,,,,נמצא הציוד לדעתך האם תקין? במצב,.9\n,,,,,,,,,,\"פרט: המורכב, העזר ציוד .10\",\"פרט: המורכב, העזר ציוד .10\"\n,,,,,,,,,,מופעל שהציוד בעת כיסוי .11 במכרות או במחצבות,מופעל שהציוד בעת כיסוי .11 במכרות או במחצבות\nכן,לא,כן,לא,כן,לא,כן,לא,כן,לא,למזגן ביטוח .12,למזגן ביטוח .12\n,,,,,,,,,,כחדש הכלי של כולל ערך .13 והיטלים( מיסים )כולל,כחדש הכלי של כולל ערך .13 והיטלים( מיסים )כולל\n,,,,,,,,,,החברה לשימוש,החברה לשימוש"
+  "embed_text": "טבלה זו מתארת אפשרויות כיסוי לציוד מכני והנדסי, כחלק מביטוח רכב צמה. ניתן לבדוק את הכיסוי בהתאם למצב הציוד, מקום הפעולה שלו, והאם מדובר בציוד מורכב או עזר. הנתונים כוללים שאלות לגבי רישיון מפעילים, תקינות הציוד, וכיסוי במכרות או מחצבות. בין הציוד המכוסה ניתן למצוא ציוד מורכב וציוד עזר, וכן לבדוק האם יש ביטוח למזגן. ערך הציוד כחדש, כולל מיסים והיטלים, הוא פרט חשוב נוסף. ציוד מכני הנדסי, מפעילים, רישיון, תקינות, כיסוי במכרות, ציוד מורכב, ציוד עזר, ביטוח למזגן, ערך כחדש. This table details coverage options for mechanical and engineering equipment. It is used to determine if insurance applies based on equipment condition, operation location, and additional coverages. בין הערכים בטבלה: תקין? במצב: .9; ציוד מורכב, העזר: .10; כיסוי במכרות או במחצבות: .11; ערך הכלי כחדש: .13; החברה לשימוש.",
+  "payload": "טבלה: ציוד מכני הנדסי\nThis table details coverage options for mechanical and engineering equipment. It is used to determine if insurance applies based on equipment condition, operation location, and additional coverages.\nממדים: equipment details/coverage options, coverage questions/attributes\n\nם? מפעילים,.7\n,,,,,,,,,,בעלי הציוד מפעילי האם מתאים? רישיון,.8\n,,,,,,,,,,נמצא הציוד לדעתך האם תקין? במצב,.9\n,,,,,,,,,,\"פרט: המורכב, העזר ציוד .10\",\"פרט: המורכב, העזר ציוד .10\"\n,,,,,,,,,,מופעל שהציוד בעת כיסוי .11 במכרות או במחצבות,מופעל שהציוד בעת כיסוי .11 במכרות או במחצבות\nכן,לא,כן,לא,כן,לא,כן,לא,כן,לא,למזגן ביטוח .12,למזגן ביטוח .12\n,,,,,,,,,,כחדש הכלי של כולל ערך .13 והיטלים( מיסים )כולל,כחדש הכלי של כולל ערך .13 והיטלים( מיסים )כולל\n,,,,,,,,,,החברה לשימוש,החברה לשימוש"
 }

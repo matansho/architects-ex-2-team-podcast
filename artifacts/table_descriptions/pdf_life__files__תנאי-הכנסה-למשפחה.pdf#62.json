@@ -2,25 +2,22 @@
   "id": "pdf:life/files/תנאי-הכנסה-למשפחה.pdf#62",
   "source": "llm",
   "description": {
-    "title": "כתובות והודעות",
-    "summary": "This table details the notification procedures for Harel insurance policies, specifically regarding address changes and the validity of postal notices. It outlines the timeframe for considering a notice as received.",
-    "embed_passage": "פוליסות ביטוח של Harel מחייבות את בעל הפוליסה או המבוטח להודיע על כל שינוי בכתובת בכתב. הודעה שנשלחה בדואר נחשבת כהודעה שהתקבלה כדין תוך 72 שעות מרגע מסירתה בדואר ישראל. לדוגמה, אם מכתב נמסר ביום 1, הוא ייחשב כמתקבל ביום 4.",
-    "row_axis": "Notification/Address Change Scenarios",
-    "column_axis": "Details of Notification Process (e.g., timeframe, method)",
-    "units": [
-      "שעות"
-    ],
+    "title": "הודעות וכתובות",
+    "summary": "This table outlines the notification and address update procedures for insurance policies. It details how notices are delivered and considered received, and the responsibility of the policyholder to update their address.",
+    "embed_passage": "טבלה זו מתייחסת להודעות וכתובות הקשורות לפוליסות ביטוח של הראל. בעל הפוליסה או המבוטח חייבים להודיע לחברה על כל שינוי בכתובתם בכתב. החברה תשלח הודעות לכתובת האחרונה הידועה לה, והודעה שנשלחה בדואר תיחשב כהודעה שנתקבלה כדין תוך 72 שעות. הראל, כתובת אבא הלל 3 רמת גן, היא הכתובת הראשית למשלוח הודעות. שינוי כתובת, הודעה בדואר, כתובת מעודכנת הם מרכיבים מרכזיים.",
+    "row_axis": "סוג הודעה / פעולה",
+    "column_axis": "פרטי ההודעה / תנאים",
+    "units": [],
     "notable_values": [
-      "72 שעות: זמן קבלת הודעה בדואר",
-      "3 חודשים: תקופה לשליחת דו״ח שנתי",
-      "17.3: סעיף המתייחס לשינוי כתובת",
-      "17.4: סעיף המתייחס לקבלת הודעה בדואר"
+      "זמן קבלת הודעה בדואר: 72 שעות",
+      "כתובת החברה: אבא הלל 3, רמת גן",
+      "חובת עדכון כתובת: בעל הפוליסה / המבוטח"
     ],
     "product_hints": [
-      "Harel"
+      "הראל"
     ]
   },
   "sketch": "17.3 בכל מקרה של שינוי כתובת, חייב בעל הפוליסה או המבוטח, לפי העניין, להודיע על  כך  לחברה  בכתב.  החברה  תצא  ידי  חובתה  במשלוח  הודעותיה  לכתובת האחרונה הידועה לה. החברה מתחייבת להודיע לבעל הפוליסה או למבוטח (לפי העניין) על כל שינוי בכתובתה.\n17.4 כל הודעה שתישלח בדואר על ידי החברה למבוטח או למוטב או לבעל הפוליסה , או  על  ידיהם  לחברה  לפי  הכתובת  המעודכנת  הידועה  באותו  מועד,  תיחשב כהודעה שנתקבלה כדין על ידי הנמען בתוך 72 שעות מזמן הימסר המכתב בדואר ישראל, הכולל את ההודעה.",
-  "embed_text": "פוליסות ביטוח של Harel מחייבות את בעל הפוליסה או המבוטח להודיע על כל שינוי בכתובת בכתב. הודעה שנשלחה בדואר נחשבת כהודעה שהתקבלה כדין תוך 72 שעות מרגע מסירתה בדואר ישראל. לדוגמה, אם מכתב נמסר ביום 1, הוא ייחשב כמתקבל ביום 4.",
-  "payload": "טבלה: כתובות והודעות\nThis table details the notification procedures for Harel insurance policies, specifically regarding address changes and the validity of postal notices. It outlines the timeframe for considering a notice as received.\nממדים: Notification/Address Change Scenarios, Details of Notification Process (e.g., timeframe, method)\n\n17.3 בכל מקרה של שינוי כתובת, חייב בעל הפוליסה או המבוטח, לפי העניין, להודיע על  כך  לחברה  בכתב.  החברה  תצא  ידי  חובתה  במשלוח  הודעותיה  לכתובת האחרונה הידועה לה. החברה מתחייבת להודיע לבעל הפוליסה או למבוטח (לפי העניין) על כל שינוי בכתובתה.\n17.4 כל הודעה שתישלח בדואר על ידי החברה למבוטח או למוטב או לבעל הפוליסה , או  על  ידיהם  לחברה  לפי  הכתובת  המעודכנת  הידועה  באותו  מועד,  תיחשב כהודעה שנתקבלה כדין על ידי הנמען בתוך 72 שעות מזמן הימסר המכתב בדואר ישראל, הכולל את ההודעה."
+  "embed_text": "טבלה זו מתייחסת להודעות וכתובות הקשורות לפוליסות ביטוח של הראל. בעל הפוליסה או המבוטח חייבים להודיע לחברה על כל שינוי בכתובתם בכתב. החברה תשלח הודעות לכתובת האחרונה הידועה לה, והודעה שנשלחה בדואר תיחשב כהודעה שנתקבלה כדין תוך 72 שעות. הראל, כתובת אבא הלל 3 רמת גן, היא הכתובת הראשית למשלוח הודעות. שינוי כתובת, הודעה בדואר, כתובת מעודכנת הם מרכיבים מרכזיים. This table outlines the notification and address update procedures for insurance policies. It details how notices are delivered and considered received, and the responsibility of the policyholder to update their address. בין הערכים בטבלה: כתובת החברה: אבא הלל 3, רמת גן; חובת עדכון כתובת: בעל הפוליסה / המבוטח.",
+  "payload": "טבלה: הודעות וכתובות\nThis table outlines the notification and address update procedures for insurance policies. It details how notices are delivered and considered received, and the responsibility of the policyholder to update their address.\nממדים: סוג הודעה / פעולה, פרטי ההודעה / תנאים\n\n17.3 בכל מקרה של שינוי כתובת, חייב בעל הפוליסה או המבוטח, לפי העניין, להודיע על  כך  לחברה  בכתב.  החברה  תצא  ידי  חובתה  במשלוח  הודעותיה  לכתובת האחרונה הידועה לה. החברה מתחייבת להודיע לבעל הפוליסה או למבוטח (לפי העניין) על כל שינוי בכתובתה.\n17.4 כל הודעה שתישלח בדואר על ידי החברה למבוטח או למוטב או לבעל הפוליסה , או  על  ידיהם  לחברה  לפי  הכתובת  המעודכנת  הידועה  באותו  מועד,  תיחשב כהודעה שנתקבלה כדין על ידי הנמען בתוך 72 שעות מזמן הימסר המכתב בדואר ישראל, הכולל את ההודעה."
 }

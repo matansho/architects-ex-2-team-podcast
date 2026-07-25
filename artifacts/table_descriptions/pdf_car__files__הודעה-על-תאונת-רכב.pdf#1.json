@@ -2,24 +2,25 @@
   "id": "pdf:car/files/הודעה-על-תאונת-רכב.pdf#1",
   "source": "llm",
   "description": {
-    "title": "הודעה על תאונת רכב",
-    "summary": "This table is a car accident report form. It collects driver and accident details for insurance claims.",
-    "embed_passage": "טופס זה משמש לדיווח על תאונת רכב. הוא כולל פרטים אישיים של הנהג כמו תאריך לידה ומספר ת״ז, וכן פרטי רישיון הנהיגה כגון סוג הרישיון ושנת הוצאתו. לדוגמה, שנת הוצאת הרישיון יכולה להיות 2010.",
-    "row_axis": "Individual accident report",
-    "column_axis": "Driver details (name, ID, date of birth, license info, contact details, address)",
+    "title": "פרטי נהג",
+    "summary": "This table captures driver details for a car accident report. It is used to record information about the driver involved in the incident, including personal details and driver's license information.",
+    "embed_passage": "טופס זה משמש לרישום פרטי הנהג המעורב בתאונת רכב. המידע הנאסף כולל פרטים אישיים כגון שם, תאריך לידה ומספר תעודת זהות, לצד פרטי רישיון הנהיגה כגון סוג הרישיון ושנת הוצאתו. הנהג שם, תאריך לידה ת.ז. מס', רישיון סוג, רישיון מס', רחוב, ישוב, מיקוד, נייד טלפון, בית טלפון הם חלק מהנתונים המתועדים.",
+    "row_axis": "Driver",
+    "column_axis": "Driver Details (Personal Information, License Information, Contact Details)",
     "units": [],
     "notable_values": [
-      "ת.ז. מס': unknown",
-      "רישיון סוג: unknown",
-      "שנת הוצאת רישיון: unknown",
       "מין: ז",
-      "לידה תאריך: unknown"
+      "רישיון סוג: לא",
+      "רישיון הוצאת שנת: עד",
+      "ת.ז. מס': (missing)",
+      "לידה תאריך: (missing)",
+      "הנהג שם: (missing)",
+      "ישוב: (missing)",
+      "רחוב: (missing)"
     ],
-    "product_hints": [
-      "הראל ביטוח"
-    ]
+    "product_hints": []
   },
   "sketch": "זה( בפרק הפרטים כל את למלא )חובה הנהג פרטי ב,זה( בפרק הפרטים כל את למלא )חובה הנהג פרטי ב,זה( בפרק הפרטים כל את למלא )חובה הנהג פרטי ב,זה( בפרק הפרטים כל את למלא )חובה הנהג פרטי ב,זה( בפרק הפרטים כל את למלא )חובה הנהג פרטי ב,זה( בפרק הפרטים כל את למלא )חובה הנהג פרטי ב\nמין ז,לידה תאריך ת.ז. מס',לידה תאריך ת.ז. מס',לידה תאריך ת.ז. מס',הנהג שם,הנהג שם\nמיקוד,ישוב,ישוב,ישוב,רחוב,רחוב\nנייד טלפון,נייד טלפון,נייד טלפון,נייד טלפון,בית טלפון,בית טלפון\nמבוטח ברשות נהג האם לא כן,- עד בתוקף,רישיון הוצאת שנת,רישיון סוג,נהיגה רישיון מס',",
-  "embed_text": "טופס זה משמש לדיווח על תאונת רכב. הוא כולל פרטים אישיים של הנהג כמו תאריך לידה ומספר ת״ז, וכן פרטי רישיון הנהיגה כגון סוג הרישיון ושנת הוצאתו. לדוגמה, שנת הוצאת הרישיון יכולה להיות 2010.",
-  "payload": "טבלה: הודעה על תאונת רכב\nThis table is a car accident report form. It collects driver and accident details for insurance claims.\nממדים: Individual accident report, Driver details (name, ID, date of birth, license info, contact details, address)\n\nזה( בפרק הפרטים כל את למלא )חובה הנהג פרטי ב,זה( בפרק הפרטים כל את למלא )חובה הנהג פרטי ב,זה( בפרק הפרטים כל את למלא )חובה הנהג פרטי ב,זה( בפרק הפרטים כל את למלא )חובה הנהג פרטי ב,זה( בפרק הפרטים כל את למלא )חובה הנהג פרטי ב,זה( בפרק הפרטים כל את למלא )חובה הנהג פרטי ב\nמין ז,לידה תאריך ת.ז. מס',לידה תאריך ת.ז. מס',לידה תאריך ת.ז. מס',הנהג שם,הנהג שם\nמיקוד,ישוב,ישוב,ישוב,רחוב,רחוב\nנייד טלפון,נייד טלפון,נייד טלפון,נייד טלפון,בית טלפון,בית טלפון\nמבוטח ברשות נהג האם לא כן,- עד בתוקף,רישיון הוצאת שנת,רישיון סוג,נהיגה רישיון מס',"
+  "embed_text": "טופס זה משמש לרישום פרטי הנהג המעורב בתאונת רכב. המידע הנאסף כולל פרטים אישיים כגון שם, תאריך לידה ומספר תעודת זהות, לצד פרטי רישיון הנהיגה כגון סוג הרישיון ושנת הוצאתו. הנהג שם, תאריך לידה ת.ז. מס', רישיון סוג, רישיון מס', רחוב, ישוב, מיקוד, נייד טלפון, בית טלפון הם חלק מהנתונים המתועדים. This table captures driver details for a car accident report. It is used to record information about the driver involved in the incident, including personal details and driver's license information. בין הערכים בטבלה: לידה תאריך: (missing).",
+  "payload": "טבלה: פרטי נהג\nThis table captures driver details for a car accident report. It is used to record information about the driver involved in the incident, including personal details and driver's license information.\nממדים: Driver, Driver Details (Personal Information, License Information, Contact Details)\n\nזה( בפרק הפרטים כל את למלא )חובה הנהג פרטי ב,זה( בפרק הפרטים כל את למלא )חובה הנהג פרטי ב,זה( בפרק הפרטים כל את למלא )חובה הנהג פרטי ב,זה( בפרק הפרטים כל את למלא )חובה הנהג פרטי ב,זה( בפרק הפרטים כל את למלא )חובה הנהג פרטי ב,זה( בפרק הפרטים כל את למלא )חובה הנהג פרטי ב\nמין ז,לידה תאריך ת.ז. מס',לידה תאריך ת.ז. מס',לידה תאריך ת.ז. מס',הנהג שם,הנהג שם\nמיקוד,ישוב,ישוב,ישוב,רחוב,רחוב\nנייד טלפון,נייד טלפון,נייד טלפון,נייד טלפון,בית טלפון,בית טלפון\nמבוטח ברשות נהג האם לא כן,- עד בתוקף,רישיון הוצאת שנת,רישיון סוג,נהיגה רישיון מס',"
 }

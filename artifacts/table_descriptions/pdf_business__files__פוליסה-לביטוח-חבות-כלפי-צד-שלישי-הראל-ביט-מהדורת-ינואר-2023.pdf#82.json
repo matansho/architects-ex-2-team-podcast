@@ -3,22 +3,23 @@
   "source": "llm",
   "description": {
     "title": "חבות כלפי צד שלישי - הראל",
-    "summary": "This table outlines the insurer's rights and responsibilities regarding claim handling and defense against third-party claims under a liability insurance policy. It details scenarios where the insurer can take control of the defense and coordinate with the insured.",
-    "embed_passage": "פוליסת חבות כלפי צד שלישי של הראל מאפשרת למבטח ליטול ידיו ולנהל את ההגנה על המבוטח בתביעות. סכום התביעה משפיע על אופן הטיפול, כאשר במקרים של חריגה מגבול האחריות, המבטח והמבוטח פועלים בתיאום הדדי. לדוגמה, אם סכום התביעה חורג מגבול האחריות, יפעלו המבטח והמבוטח תוך תיאום הדדי.",
-    "row_axis": "Scenarios related to claim handling and insurer's rights",
-    "column_axis": "Details of the insurer's actions and responsibilities",
+    "summary": "This table outlines the insurer's rights and responsibilities regarding claim handling and defense against third-party claims under a third-party liability policy from Harel. It details scenarios where the insurer may take control of the defense or coordinate with the insured.",
+    "embed_passage": "טבלה זו מתארת את זכויות וחובות המבטח בטיפול בתביעות של צדדים שלישיים, במסגרת פוליסת חבות כלפי צד שלישי של הראל. הפוליסה מאפשרת למבטח ליטול לידיו את ניהול ההגנה בתביעות, או לפעול בתיאום עם המבוטח. ניתן לעיין בתנאים הנוגעים לסכום התביעה, חריגה מגבול האחריות, וזכות המבוטח להשתתף באופן פעיל בניהול ההגנה. סעיפים רלוונטיים כוללים סעיף 5.11.3, העוסק בליטול אחריות על ניהול ההגנה, וסעיף 5.11.4, המתייחס למקרים בהם סכום התביעה חורג מגבול האחריות. פוליסת חבות כלפי צד שלישי הראל, מהדורת ינואר 2023.",
+    "row_axis": "scenarios for claim handling",
+    "column_axis": "insurer's rights and actions",
     "units": [],
     "notable_values": [
-      "סעיף: 5.11.3",
-      "סעיף: 5.11.4",
-      "תקופה: 30 ימים"
+      "סעיף 5.11.3: ליטול לידיו את ניהול ההגנה",
+      "סעיף 5.11.4: תיאום הדדי בין המבטח למבוטח",
+      "גבול האחריות: חריגה מגבול האחריות",
+      "זכות המבוטח: השתתפות בניהול ההגנה"
     ],
     "product_hints": [
-      "חבות כלפי צד שלישי",
-      "הראל"
+      "פוליסת חבות כלפי צד שלישי הראל",
+      "Harel"
     ]
   },
   "sketch": "הכיר המבטח בחבותו על פי הפוליסה, יהיה רשאי לפי שיקול דעתו, ליטול .5.11.3 לידיו ולנהל בשם המבוטח את ההגנה כלפי כל תביעה או יישובה של כל תביעה. המבטח מתחייב לפעול בשיתוף פעולה עם המבוטח, במאמץ לשמור על האינטרסים הלגיטימיים של המבוטח לרבות שמו הטוב, בניהול ההגנה ועל המבוטח החובה למסור למבטח את כל המידע והמסמכים שיש לו . ולהושיט לו כל עזרה שתידרש ממנו בקשר עם העניינים הנדונים בסעיף זה\n.  היה וסכום התביעה חורג מגבול האחריות של המבטח, יפעלו המבטח 5.11.4 והמבוטח תוך תיאום הדדי, ומבלי לגרוע מכלליות האמור, תינתן למבוטח זכות להשתתף בניהול ההגנה באופן פעיל.",
-  "embed_text": "פוליסת חבות כלפי צד שלישי של הראל מאפשרת למבטח ליטול ידיו ולנהל את ההגנה על המבוטח בתביעות. סכום התביעה משפיע על אופן הטיפול, כאשר במקרים של חריגה מגבול האחריות, המבטח והמבוטח פועלים בתיאום הדדי. לדוגמה, אם סכום התביעה חורג מגבול האחריות, יפעלו המבטח והמבוטח תוך תיאום הדדי.",
-  "payload": "טבלה: חבות כלפי צד שלישי - הראל\nThis table outlines the insurer's rights and responsibilities regarding claim handling and defense against third-party claims under a liability insurance policy. It details scenarios where the insurer can take control of the defense and coordinate with the insured.\nממדים: Scenarios related to claim handling and insurer's rights, Details of the insurer's actions and responsibilities\n\nהכיר המבטח בחבותו על פי הפוליסה, יהיה רשאי לפי שיקול דעתו, ליטול .5.11.3 לידיו ולנהל בשם המבוטח את ההגנה כלפי כל תביעה או יישובה של כל תביעה. המבטח מתחייב לפעול בשיתוף פעולה עם המבוטח, במאמץ לשמור על האינטרסים הלגיטימיים של המבוטח לרבות שמו הטוב, בניהול ההגנה ועל המבוטח החובה למסור למבטח את כל המידע והמסמכים שיש לו . ולהושיט לו כל עזרה שתידרש ממנו בקשר עם העניינים הנדונים בסעיף זה\n.  היה וסכום התביעה חורג מגבול האחריות של המבטח, יפעלו המבטח 5.11.4 והמבוטח תוך תיאום הדדי, ומבלי לגרוע מכלליות האמור, תינתן למבוטח זכות להשתתף בניהול ההגנה באופן פעיל."
+  "embed_text": "טבלה זו מתארת את זכויות וחובות המבטח בטיפול בתביעות של צדדים שלישיים, במסגרת פוליסת חבות כלפי צד שלישי של הראל. הפוליסה מאפשרת למבטח ליטול לידיו את ניהול ההגנה בתביעות, או לפעול בתיאום עם המבוטח. ניתן לעיין בתנאים הנוגעים לסכום התביעה, חריגה מגבול האחריות, וזכות המבוטח להשתתף באופן פעיל בניהול ההגנה. סעיפים רלוונטיים כוללים סעיף 5.11.3, העוסק בליטול אחריות על ניהול ההגנה, וסעיף 5.11.4, המתייחס למקרים בהם סכום התביעה חורג מגבול האחריות. פוליסת חבות כלפי צד שלישי הראל, מהדורת ינואר 2023. This table outlines the insurer's rights and responsibilities regarding claim handling and defense against third-party claims under a third-party liability policy from Harel. It details scenarios where the insurer may take control of the defense or coordinate with the insured.",
+  "payload": "טבלה: חבות כלפי צד שלישי - הראל\nThis table outlines the insurer's rights and responsibilities regarding claim handling and defense against third-party claims under a third-party liability policy from Harel. It details scenarios where the insurer may take control of the defense or coordinate with the insured.\nממדים: scenarios for claim handling, insurer's rights and actions\n\nהכיר המבטח בחבותו על פי הפוליסה, יהיה רשאי לפי שיקול דעתו, ליטול .5.11.3 לידיו ולנהל בשם המבוטח את ההגנה כלפי כל תביעה או יישובה של כל תביעה. המבטח מתחייב לפעול בשיתוף פעולה עם המבוטח, במאמץ לשמור על האינטרסים הלגיטימיים של המבוטח לרבות שמו הטוב, בניהול ההגנה ועל המבוטח החובה למסור למבטח את כל המידע והמסמכים שיש לו . ולהושיט לו כל עזרה שתידרש ממנו בקשר עם העניינים הנדונים בסעיף זה\n.  היה וסכום התביעה חורג מגבול האחריות של המבטח, יפעלו המבטח 5.11.4 והמבוטח תוך תיאום הדדי, ומבלי לגרוע מכלליות האמור, תינתן למבוטח זכות להשתתף בניהול ההגנה באופן פעיל."
 }

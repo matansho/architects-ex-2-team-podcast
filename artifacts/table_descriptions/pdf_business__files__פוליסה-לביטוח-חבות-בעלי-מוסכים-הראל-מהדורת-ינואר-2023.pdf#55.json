@@ -2,25 +2,24 @@
   "id": "pdf:business/files/פוליסה-לביטוח-חבות-בעלי-מוסכים-הראל-מהדורת-ינואר-2023.pdf#55",
   "source": "llm",
   "description": {
-    "title": "פוליסת חבות בעלי מוסכים הראל",
-    "summary": "This table details exclusions to liability coverage under a garage keepers' liability insurance policy from Harel. It specifies situations where claims are not covered, such as punitive damages or financial loss claims.",
-    "embed_passage": "פוליסת חבות בעלי מוסכים הראל אינה מכסה פיצויים לדוגמה או פיצויי ענישה, כמו גם תביעות הנובעות מנזק פיננסי. לדוגמה, סעיף 25 מציין שקנסות והיטלים אינם כלולים, וסעיף 26 מתייחס לתביעות הנובעות מנזק פיננסי. הפוליסה עשויה שלא לכסות חבות הקשורה לתפקיד ניהולי, כפי שמפורט בסעיף 27.",
-    "row_axis": "exclusion clause",
-    "column_axis": "type of liability / damage",
+    "title": "חבות בעלי מוסכים - הראל",
+    "summary": "This table details exclusions to liability coverage under the 'Harel' garage owners' liability insurance policy. It lists scenarios where claims are not covered, such as punitive damages or financial loss claims.",
+    "embed_passage": "טבלה זו מתארת חריגים לכיסוי אחריות במסגרת פוליסת ביטוח אחריות בעלי מוסכים של הראל. ניתן לעיין בה כדי לבדוק אילו תביעות אינן מכוסות, כגון פיצויים עונשיים או תביעות הנובעות מנזק כספי. הפוליסה כוללת סייגים לגבי קנסות, פיצויים לדוגמה, חבות כדירקטור, ונזקים שנגרמו באופן עקיף. סייגים אלו רלוונטיים במקרים של נזק פיננסי, חבות אישית של נושאי משרה, או נזק שאינו ישיר לרכוש. פוליסת 'הראל' לביטוח חבות בעלי מוסכים כוללת סייגים ספציפיים לגבי קנסות, פיצויים לדוגמה, תביעות הנובעות מנזק פיננסי, וחבות של דירקטורים ונושאי משרה.",
+    "row_axis": "exclusion type",
+    "column_axis": "conditions/details",
     "units": [],
     "notable_values": [
-      "סעיף: 25",
       "פיצויים לדוגמה: Multiple damage",
-      "פיצויים ענישה: קנסות",
-      "סעיף: 26",
+      "פיצויי ענישה: קנסות, היטלים, כפל פיצויים",
+      "חבות כדירקטור: חבות כנושא מישרה",
       "נזק פיננסי: תביעות הנובעות מנזק פיננסי"
     ],
     "product_hints": [
-      "פוליסת חבות בעלי מוסכים הראל",
-      "חבות בעלי מוסכים"
+      "ביטוח חבות בעלי מוסכים הראל",
+      "הראל"
     ]
   },
   "sketch": "(, פיצויי ענישה, פיצויים לדוגמה; Multiple damage) . קנסות, היטלים, כפל פיצויים 25\nאלא אם נזק כזה נגרם באופן ישיר ובהמשך לנזק ממשי לרכוש; . תביעות הנובעות מנזק פיננסי, 26\nאלא אם אותה חבות , . חבות כדירקטור ו/או כנושא מישרה, ובכלל זה כמנהל, כפקיד בכיר 27 היתה חלה על הנתבע /המבוטח גם אלמלא היה נושא משרה;",
-  "embed_text": "פוליסת חבות בעלי מוסכים הראל אינה מכסה פיצויים לדוגמה או פיצויי ענישה, כמו גם תביעות הנובעות מנזק פיננסי. לדוגמה, סעיף 25 מציין שקנסות והיטלים אינם כלולים, וסעיף 26 מתייחס לתביעות הנובעות מנזק פיננסי. הפוליסה עשויה שלא לכסות חבות הקשורה לתפקיד ניהולי, כפי שמפורט בסעיף 27.",
-  "payload": "טבלה: פוליסת חבות בעלי מוסכים הראל\nThis table details exclusions to liability coverage under a garage keepers' liability insurance policy from Harel. It specifies situations where claims are not covered, such as punitive damages or financial loss claims.\nממדים: exclusion clause, type of liability / damage\n\n(, פיצויי ענישה, פיצויים לדוגמה; Multiple damage) . קנסות, היטלים, כפל פיצויים 25\nאלא אם נזק כזה נגרם באופן ישיר ובהמשך לנזק ממשי לרכוש; . תביעות הנובעות מנזק פיננסי, 26\nאלא אם אותה חבות , . חבות כדירקטור ו/או כנושא מישרה, ובכלל זה כמנהל, כפקיד בכיר 27 היתה חלה על הנתבע /המבוטח גם אלמלא היה נושא משרה;"
+  "embed_text": "טבלה זו מתארת חריגים לכיסוי אחריות במסגרת פוליסת ביטוח אחריות בעלי מוסכים של הראל. ניתן לעיין בה כדי לבדוק אילו תביעות אינן מכוסות, כגון פיצויים עונשיים או תביעות הנובעות מנזק כספי. הפוליסה כוללת סייגים לגבי קנסות, פיצויים לדוגמה, חבות כדירקטור, ונזקים שנגרמו באופן עקיף. סייגים אלו רלוונטיים במקרים של נזק פיננסי, חבות אישית של נושאי משרה, או נזק שאינו ישיר לרכוש. פוליסת 'הראל' לביטוח חבות בעלי מוסכים כוללת סייגים ספציפיים לגבי קנסות, פיצויים לדוגמה, תביעות הנובעות מנזק פיננסי, וחבות של דירקטורים ונושאי משרה. This table details exclusions to liability coverage under the 'Harel' garage owners' liability insurance policy. It lists scenarios where claims are not covered, such as punitive damages or financial loss claims. בין הערכים בטבלה: פיצויי ענישה: קנסות, היטלים, כפל פיצויים.",
+  "payload": "טבלה: חבות בעלי מוסכים - הראל\nThis table details exclusions to liability coverage under the 'Harel' garage owners' liability insurance policy. It lists scenarios where claims are not covered, such as punitive damages or financial loss claims.\nממדים: exclusion type, conditions/details\n\n(, פיצויי ענישה, פיצויים לדוגמה; Multiple damage) . קנסות, היטלים, כפל פיצויים 25\nאלא אם נזק כזה נגרם באופן ישיר ובהמשך לנזק ממשי לרכוש; . תביעות הנובעות מנזק פיננסי, 26\nאלא אם אותה חבות , . חבות כדירקטור ו/או כנושא מישרה, ובכלל זה כמנהל, כפקיד בכיר 27 היתה חלה על הנתבע /המבוטח גם אלמלא היה נושא משרה;"
 }

@@ -2,24 +2,23 @@
   "id": "pdf:business/files/פוליסה-משולבת-לביטוח-אש-מורחב-ואובדן-תוצאתי-הראל-ביט-ינואר-2023.pdf#207",
   "source": "llm",
   "description": {
-    "title": "גילוי עניין מהותי",
-    "summary": "This table details the policyholder's duty to disclose 'material facts' to the insurer, both before and during the insurance period. It outlines consequences for non-disclosure or misrepresentation.",
-    "embed_passage": "פוליסת הראל ביטוח אש מורחב ואובדן תוצאתי מחייבת את המבוטח לגלות כל עניין מהותי למבטח. לדוגמה, שינוי בעניין מהותי צריך להימסר בכתב באופן מידי, ואי גילוי או מתן תשובה שאינה כנה עלול להוביל לביטול הפוליסה תוך 30 ימים. גילוי נכון של עניינים אלו חיוני לשמירה על תנאי הפוליסה.",
-    "row_axis": "סעיפי חובת גילוי",
-    "column_axis": "תיאור הסעיף",
+    "title": "עניין מהותי",
+    "summary": "This table details conditions related to material facts and disclosure obligations under the insurance policy. It outlines scenarios where the insurer may cancel the policy or reduce liability due to non-disclosure or misrepresentation by the insured.",
+    "embed_passage": "טבלה זו מתארת תנאים הקשורים בעובדות מהותיות וחובות גילוי במסגרת פוליסת הביטוח הראל. היא מפרטת תרחישים שבהם המבטח רשאי לבטל את הפוליסה או להפחית את אחריותו עקב אי-גילוי או הצגה שגויה של מידע על ידי המבוטח. הטבלה רלוונטית להבנת חובות הגילוי של המבוטח ולזכויות המבטח במקרה של הפרת חובות אלו. ניתן לעיין בטבלה כדי להבין את ההשלכות של הסתרת מידע מהותי, מתן תשובות לא מלאות או שינויים בעניין מהותי במהלך תקופת הביטוח. עניין מהותי, תשובה שאינה מלאה וכנה, שינוי בעניין מהותי.",
+    "row_axis": "conditions related to material facts",
+    "column_axis": "description of the condition",
     "units": [],
     "notable_values": [
-      "סעיף: 13.6.2",
-      "תקופה לביטול: 30 ימים",
-      "סעיף: 13.6.6"
+      "עניין מהותי: הסתרה בכוונת מרמה",
+      "תשובה לא מלאה וכנה: דינה כדין הסתרה",
+      "שאלה גורפת: אינה מחייבת תשובה",
+      "שינוי בעניין מהותי: חובה לגלות בכתב"
     ],
     "product_hints": [
-      "הראל ביטוח אש",
-      "ביטוח אש מורחב",
-      "אובדן תוצאתי"
+      "פוליסה משולבת לביטוח אש מורחב ואובדן תוצאתי הראל"
     ]
   },
   "sketch": "הסתרה בכוונת מרמה מצד המבוטח של עניין שהוא ידע כי הוא עניין .13.6.2 מהותי, דינה כדין מתן תשובה שאינה מלאה וכנה;\n.  שאלה גורפת שנשאלה על ידי המבטח, הכורכת עניינים שונים, ללא אבחנה 13.6.3 אלא אם הייתה סבירה בעת כריתת ביניהם, אינה מחייבת תשובה כאמור החוזה;\nבנוסף, במשך תקופת הביטוח יגלה המבוטח למבטח, בכתב, כל שינוי .13.6.4 ; בעניין מהותי, וזאת באופן מידי מעת שנודע לו על כך",
-  "embed_text": "פוליסת הראל ביטוח אש מורחב ואובדן תוצאתי מחייבת את המבוטח לגלות כל עניין מהותי למבטח. לדוגמה, שינוי בעניין מהותי צריך להימסר בכתב באופן מידי, ואי גילוי או מתן תשובה שאינה כנה עלול להוביל לביטול הפוליסה תוך 30 ימים. גילוי נכון של עניינים אלו חיוני לשמירה על תנאי הפוליסה.",
-  "payload": "טבלה: גילוי עניין מהותי\nThis table details the policyholder's duty to disclose 'material facts' to the insurer, both before and during the insurance period. It outlines consequences for non-disclosure or misrepresentation.\nממדים: סעיפי חובת גילוי, תיאור הסעיף\n\nהסתרה בכוונת מרמה מצד המבוטח של עניין שהוא ידע כי הוא עניין .13.6.2 מהותי, דינה כדין מתן תשובה שאינה מלאה וכנה;\n.  שאלה גורפת שנשאלה על ידי המבטח, הכורכת עניינים שונים, ללא אבחנה 13.6.3 אלא אם הייתה סבירה בעת כריתת ביניהם, אינה מחייבת תשובה כאמור החוזה;\nבנוסף, במשך תקופת הביטוח יגלה המבוטח למבטח, בכתב, כל שינוי .13.6.4 ; בעניין מהותי, וזאת באופן מידי מעת שנודע לו על כך"
+  "embed_text": "טבלה זו מתארת תנאים הקשורים בעובדות מהותיות וחובות גילוי במסגרת פוליסת הביטוח הראל. היא מפרטת תרחישים שבהם המבטח רשאי לבטל את הפוליסה או להפחית את אחריותו עקב אי-גילוי או הצגה שגויה של מידע על ידי המבוטח. הטבלה רלוונטית להבנת חובות הגילוי של המבוטח ולזכויות המבטח במקרה של הפרת חובות אלו. ניתן לעיין בטבלה כדי להבין את ההשלכות של הסתרת מידע מהותי, מתן תשובות לא מלאות או שינויים בעניין מהותי במהלך תקופת הביטוח. עניין מהותי, תשובה שאינה מלאה וכנה, שינוי בעניין מהותי. This table details conditions related to material facts and disclosure obligations under the insurance policy. It outlines scenarios where the insurer may cancel the policy or reduce liability due to non-disclosure or misrepresentation by the insured. בין הערכים בטבלה: תשובה לא מלאה וכנה: דינה כדין הסתרה; שאלה גורפת: אינה מחייבת…",
+  "payload": "טבלה: עניין מהותי\nThis table details conditions related to material facts and disclosure obligations under the insurance policy. It outlines scenarios where the insurer may cancel the policy or reduce liability due to non-disclosure or misrepresentation by the insured.\nממדים: conditions related to material facts, description of the condition\n\nהסתרה בכוונת מרמה מצד המבוטח של עניין שהוא ידע כי הוא עניין .13.6.2 מהותי, דינה כדין מתן תשובה שאינה מלאה וכנה;\n.  שאלה גורפת שנשאלה על ידי המבטח, הכורכת עניינים שונים, ללא אבחנה 13.6.3 אלא אם הייתה סבירה בעת כריתת ביניהם, אינה מחייבת תשובה כאמור החוזה;\nבנוסף, במשך תקופת הביטוח יגלה המבוטח למבטח, בכתב, כל שינוי .13.6.4 ; בעניין מהותי, וזאת באופן מידי מעת שנודע לו על כך"
 }

@@ -2,22 +2,27 @@
   "id": "pdf:business/files/פוליסת-מכלול-לחבר-מושב-מהדורת-ינואר-2023.pdf#228",
   "source": "llm",
   "description": {
-    "title": "מכלול - כיסוי הוצאות",
-    "summary": "This table details covered expenses related to property damage under the 'Mekhalel' insurance policy. It lists various costs the policy will reimburse, such as professional services and debris removal.",
-    "embed_passage": "פוליסת מכלול מכסה הוצאות בשל שירותים שנתנו אדריכלים, שמאים, מהנדסים וקבלנים לצורך תיקון או בנייה מחדש של דירה. הכיסוי כולל גם הוצאות פינוי הריסות וחיבור מחדש לרשתות חשמל ומים. לדוגמה, הוצאות אדריכלים מכוסות, כמו גם הוצאות לשם פינוי הריסות.",
+    "title": "הוצאות בשל נזק לדירה",
+    "summary": "This table details covered expenses for damage to a home, specifically costs related to repair, rebuilding, and associated services. It outlines what is covered under the 'מכלול' insurance policy.",
+    "embed_passage": "טבלה זו מתארת הוצאות המכוסות בעקבות נזק לדירה, כחלק מפוליסת 'מכלול'. ניתן למצוא בה פירוט של עלויות הקשורות לתיקון, שיפוץ או בנייה מחדש של הדירה, וכן הוצאות נלוות כגון שירותי אדריכלים ופינוי הריסות. הפוליסה 'מכלול' מכסה הוצאות בשל שירותים שנתנו אדריכלים, שמאים, יועצי בנייה, מהנדסים וקבלנים, הוצאות משפטיות, פינוי הריסות, ניקוי הדירה, סיודה וחיבורה מחדש לרשתות החשמל, הטלפון, המים, הגז והביוב.",
     "row_axis": "types of covered expenses",
-    "column_axis": "details of coverage (implicitly)",
+    "column_axis": "details of coverage",
     "units": [],
     "notable_values": [
-      "coverage: אדריכלים, שמאים, מהנדסים",
-      "coverage: פינוי הריסות",
-      "coverage: חיבור לרשתות חשמל ומים"
+      "אדריכלים: שירותים",
+      "שמאים: שירותים",
+      "יועצי בנייה: שירותים",
+      "מהנדסים: שירותים",
+      "קבלנים: שירותים",
+      "הוצאות משפטיות: תיקון/שיפוץ",
+      "פינוי הריסות: הוצאות",
+      "חיבור מחדש לרשתות: הוצאות"
     ],
     "product_hints": [
       "מכלול"
     ]
   },
   "sketch": "הוצאות בשל שירותים שנתנו אדריכלים, שמאים, יועצי בנייה, מהנדסים .3.3.1 וקבלנים, והוצאות משפטיות, שהוצאו לשם תיקונה, שיפוצה או בנייתה מחדש של הדירה או של חלק ממנה, בתנאי שניתנה הודעה מראש למבטח.\nהוצאות לשם פינוי הריסות, ניקוי הדירה, סיודה וחיבורה מחדש לרשתות .3.3.2 החשמל, הטלפון, המים, הגז והביוב.",
-  "embed_text": "פוליסת מכלול מכסה הוצאות בשל שירותים שנתנו אדריכלים, שמאים, מהנדסים וקבלנים לצורך תיקון או בנייה מחדש של דירה. הכיסוי כולל גם הוצאות פינוי הריסות וחיבור מחדש לרשתות חשמל ומים. לדוגמה, הוצאות אדריכלים מכוסות, כמו גם הוצאות לשם פינוי הריסות.",
-  "payload": "טבלה: מכלול - כיסוי הוצאות\nThis table details covered expenses related to property damage under the 'Mekhalel' insurance policy. It lists various costs the policy will reimburse, such as professional services and debris removal.\nממדים: types of covered expenses, details of coverage (implicitly)\n\nהוצאות בשל שירותים שנתנו אדריכלים, שמאים, יועצי בנייה, מהנדסים .3.3.1 וקבלנים, והוצאות משפטיות, שהוצאו לשם תיקונה, שיפוצה או בנייתה מחדש של הדירה או של חלק ממנה, בתנאי שניתנה הודעה מראש למבטח.\nהוצאות לשם פינוי הריסות, ניקוי הדירה, סיודה וחיבורה מחדש לרשתות .3.3.2 החשמל, הטלפון, המים, הגז והביוב."
+  "embed_text": "טבלה זו מתארת הוצאות המכוסות בעקבות נזק לדירה, כחלק מפוליסת 'מכלול'. ניתן למצוא בה פירוט של עלויות הקשורות לתיקון, שיפוץ או בנייה מחדש של הדירה, וכן הוצאות נלוות כגון שירותי אדריכלים ופינוי הריסות. הפוליסה 'מכלול' מכסה הוצאות בשל שירותים שנתנו אדריכלים, שמאים, יועצי בנייה, מהנדסים וקבלנים, הוצאות משפטיות, פינוי הריסות, ניקוי הדירה, סיודה וחיבורה מחדש לרשתות החשמל, הטלפון, המים, הגז והביוב. This table details covered expenses for damage to a home, specifically costs related to repair, rebuilding, and associated services. It outlines what is covered under the 'מכלול' insurance policy.",
+  "payload": "טבלה: הוצאות בשל נזק לדירה\nThis table details covered expenses for damage to a home, specifically costs related to repair, rebuilding, and associated services. It outlines what is covered under the 'מכלול' insurance policy.\nממדים: types of covered expenses, details of coverage\n\nהוצאות בשל שירותים שנתנו אדריכלים, שמאים, יועצי בנייה, מהנדסים .3.3.1 וקבלנים, והוצאות משפטיות, שהוצאו לשם תיקונה, שיפוצה או בנייתה מחדש של הדירה או של חלק ממנה, בתנאי שניתנה הודעה מראש למבטח.\nהוצאות לשם פינוי הריסות, ניקוי הדירה, סיודה וחיבורה מחדש לרשתות .3.3.2 החשמל, הטלפון, המים, הגז והביוב."
 }

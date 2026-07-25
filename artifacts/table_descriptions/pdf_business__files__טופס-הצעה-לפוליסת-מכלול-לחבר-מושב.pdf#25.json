@@ -3,27 +3,28 @@
   "source": "llm",
   "description": {
     "title": "מכלול - רכוש משקי",
-    "summary": "This table details insurance coverage options for agricultural property (רכוש משקי) under the 'Mekhalel' policy. It allows looking up insurance premiums based on coverage type and amount.",
-    "embed_passage": "פוליסת מכלול מציעה כיסויים שונים לרכוש משקי, כאשר דמי הביטוח משתנים בהתאם לסוג הכיסוי ולסכום המבוטח. לדוגמה, ביטוח פוטו-וולטאי למתקן עשוי להיות כ-0.65% מסכום הביטוח, בעוד שביטוח רכוש ביתי במחסנים עולה ₪250. סכום הביטוח יכול להגיע עד ₪ 1,200,000.",
-    "row_axis": "Type of agricultural property insurance coverage (e.g., photovoltaic systems, property in warehouses)",
-    "column_axis": "Insurance details: percentage of insurance amount, currency, coverage amount, whether coverage was requested",
+    "summary": "This table details insurance coverage options for agricultural property (משקי רכוש) under the 'Mekhalel' policy. It lists different types of coverage, their rates, and whether coverage was requested.",
+    "embed_passage": "טבלה זו מתארת כיסויים ביטוחיים שונים עבור רכוש חקלאי (משקי רכוש) במסגרת פוליסת 'מכלול'. ניתן למצוא כאן את שיעורי הביטוח עבור סוגי רכוש שונים, כגון מערכות פוטו-וולטאיות, רכוש ביתי במחסנים, ואזעקות. הפוליסה 'מכלול' מאפשרת לבחור את גבול האחריות הרצוי, לדוגמה ₪ 200 למ״ר.  הטבלה כוללת מידע על ביטוח רכוש, ביטוח פוטו-וולטאי, ביטוח גניבה ואלימה, ושיפוי לנזקי רווחים.  ניתן לראות כאן כיסויים עבור מערכות סולאריות, התבקש ביטוח רכוש ביתי, וכן כיסוי לפוטו-וולטאי כולל גניבה ואלימה.  הטבלה מציינת גם האם הכיסוי התבקש (כן/לא) וכן את אחוז ההשתתפות העצמית (לדוגמה 0.4%, 0.15%).",
+    "row_axis": "type of agricultural property/coverage",
+    "column_axis": "insurance details (rate, amount, requested?)",
     "units": [
       "₪",
       "%"
     ],
     "notable_values": [
-      "Insurance amount: ₪ 200,000",
-      "Percentage: 0.4%",
-      "Insurance amount: ₪ 1,200,000",
-      "Coverage cost: ₪ 250",
-      "Percentage: 0.65%"
+      "rate: 0.4%",
+      "amount: ₪ 200,000",
+      "rate: 0.15%",
+      "amount: ₪ 40,000",
+      "rate: 0.65%",
+      "rate: 0.15%",
+      "rate: 0.25%"
     ],
     "product_hints": [
-      "מכלול",
-      "רכוש משקי"
+      "מכלול"
     ]
   },
   "sketch": "מעל ביטוח )סכום\"\n,0.4%,,,,לא כן,\"₪ 200,000 לסך עד פירוט אחר, משקי רכוש\"\n,₪ 250,\"ש\"\"ח\",\"₪ 40,000\",,לא כן,ביטוח התבקש לא שבגינו לענף השייך במחסנים ביתי רכוש\n,0.15%,\"ש\"\"ח\",,,לא ביטוח סכום לציין - סולאריות( )מערכות כן,פוטו-וולטאי למתקן הרחבה\n,0.65%,,,,לא כן,פוטו-וולטאי למתקן אלימה גניבה כולל האם\n,0.15%,,,,לא כן,שיפוי תקופת לציין נא - פוטו-וולטאי למתקן מנזק רווחים אובדן כולל האם\n,0.25%,,,,לא כן,הרכבה( )כולל אזעקה מערכת",
-  "embed_text": "פוליסת מכלול מציעה כיסויים שונים לרכוש משקי, כאשר דמי הביטוח משתנים בהתאם לסוג הכיסוי ולסכום המבוטח. לדוגמה, ביטוח פוטו-וולטאי למתקן עשוי להיות כ-0.65% מסכום הביטוח, בעוד שביטוח רכוש ביתי במחסנים עולה ₪250. סכום הביטוח יכול להגיע עד ₪ 1,200,000.",
-  "payload": "טבלה: מכלול - רכוש משקי\nThis table details insurance coverage options for agricultural property (רכוש משקי) under the 'Mekhalel' policy. It allows looking up insurance premiums based on coverage type and amount.\nממדים: Type of agricultural property insurance coverage (e.g., photovoltaic systems, property in warehouses), Insurance details: percentage of insurance amount, currency, coverage amount, whether coverage was requested\n\nמעל ביטוח )סכום\"\n,0.4%,,,,לא כן,\"₪ 200,000 לסך עד פירוט אחר, משקי רכוש\"\n,₪ 250,\"ש\"\"ח\",\"₪ 40,000\",,לא כן,ביטוח התבקש לא שבגינו לענף השייך במחסנים ביתי רכוש\n,0.15%,\"ש\"\"ח\",,,לא ביטוח סכום לציין - סולאריות( )מערכות כן,פוטו-וולטאי למתקן הרחבה\n,0.65%,,,,לא כן,פוטו-וולטאי למתקן אלימה גניבה כולל האם\n,0.15%,,,,לא כן,שיפוי תקופת לציין נא - פוטו-וולטאי למתקן מנזק רווחים אובדן כולל האם\n,0.25%,,,,לא כן,הרכבה( )כולל אזעקה מערכת"
+  "embed_text": "טבלה זו מתארת כיסויים ביטוחיים שונים עבור רכוש חקלאי (משקי רכוש) במסגרת פוליסת 'מכלול'. ניתן למצוא כאן את שיעורי הביטוח עבור סוגי רכוש שונים, כגון מערכות פוטו-וולטאיות, רכוש ביתי במחסנים, ואזעקות. הפוליסה 'מכלול' מאפשרת לבחור את גבול האחריות הרצוי, לדוגמה ₪ 200 למ״ר.  הטבלה כוללת מידע על ביטוח רכוש, ביטוח פוטו-וולטאי, ביטוח גניבה ואלימה, ושיפוי לנזקי רווחים.  ניתן לראות כאן כיסויים עבור מערכות סולאריות, התבקש ביטוח רכוש ביתי, וכן כיסוי לפוטו-וולטאי כולל גניבה ואלימה.  הטבלה מציינת גם האם הכיסוי התבקש (כן/לא) וכן את אחוז ההשתתפות העצמית (לדוגמה 0.4%, 0.15%). This table details insurance coverage options for agricultural property (משקי רכוש) under the 'Mekhalel' policy. It lists different types of coverage, their rates, and whether coverage was requested. בין הערכים בטבלה: amount: ₪ 200,000…",
+  "payload": "טבלה: מכלול - רכוש משקי\nThis table details insurance coverage options for agricultural property (משקי רכוש) under the 'Mekhalel' policy. It lists different types of coverage, their rates, and whether coverage was requested.\nממדים: type of agricultural property/coverage, insurance details (rate, amount, requested?)\n\nמעל ביטוח )סכום\"\n,0.4%,,,,לא כן,\"₪ 200,000 לסך עד פירוט אחר, משקי רכוש\"\n,₪ 250,\"ש\"\"ח\",\"₪ 40,000\",,לא כן,ביטוח התבקש לא שבגינו לענף השייך במחסנים ביתי רכוש\n,0.15%,\"ש\"\"ח\",,,לא ביטוח סכום לציין - סולאריות( )מערכות כן,פוטו-וולטאי למתקן הרחבה\n,0.65%,,,,לא כן,פוטו-וולטאי למתקן אלימה גניבה כולל האם\n,0.15%,,,,לא כן,שיפוי תקופת לציין נא - פוטו-וולטאי למתקן מנזק רווחים אובדן כולל האם\n,0.25%,,,,לא כן,הרכבה( )כולל אזעקה מערכת"
 }

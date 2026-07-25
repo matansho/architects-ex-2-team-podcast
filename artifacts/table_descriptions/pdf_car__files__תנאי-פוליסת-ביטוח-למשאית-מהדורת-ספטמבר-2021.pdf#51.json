@@ -3,23 +3,22 @@
   "source": "llm",
   "description": {
     "title": "דוח תביעות",
-    "summary": "This table details claim reports that an insurer sends to a policyholder. It outlines when these reports are issued and what information they contain.",
-    "embed_passage": "פוליסת ביטוח למשאית כוללת דוח תביעות שמפרט את כל התביעות שהוגשו. הדוח יפרט פרטי הנהג המעורב בתאונה בשלוש השנים האחרונות, או בתקופה שבה בעל הפוליסה היה מבוטח. עדכון לדוח התביעות ישלח מיד עם הגשת תביעה חדשה.",
-    "row_axis": "Report details / requirements",
-    "column_axis": "Report aspects (e.g., timing, content)",
+    "summary": "This table details claim reports that an insurer sends to a policyholder. It outlines when and what information is included in these reports regarding claims filed.",
+    "embed_passage": "טבלה זו מתארת דוחות תביעות שנשלחים על ידי המבטח לבעל הפוליסה. הדוח מפרט את כל התביעות שהוגשו עד למועד מסוים, וכולל פרטים על הנהג המעורב בתאונה. דוח תביעות ישלח חודש לפני תום תקופת הביטוח או מיד בסיומה. המידע בדוח יכלול תביעות שהוגשו בשלוש השנים האחרונות או בתקופת הביטוח, לפי המוקדם מביניהן. דוח תביעות, תאונה, נהג, תקופת ביטוח.",
+    "row_axis": "timing/condition for claim report",
+    "column_axis": "report details",
     "units": [],
     "notable_values": [
-      "סעיף: 21.1",
-      "סעיף: 21.2",
-      "סעיף: 21.3",
-      "שלוש שנים: period for claim details",
-      "חודש: timeframe for claim updates"
+      "report type: דוח תביעות",
+      "report timing: חודש לפני תום תקופת הביטוח",
+      "report timing: מיד בסיומה",
+      "claim period: שלוש השנים שקדמו למועד שליחת הדוח"
     ],
     "product_hints": [
-      "פוליסת ביטוח למשאית"
+      "פוליסת ביטוח"
     ]
   },
   "sketch": ". דוח תביעות 21\n, .  חודש לפני תום תקופת הביטוח או מיד בסיומה, אם היא מסתיימת באופן בלתי צפוי 21.1 ישלח המבטח לבעל הפוליסה דוח תביעות שיפרט בו את כל התביעות שהוגשו עד .( לאותו מועד, ככל שהוגשו )להלן - דוח תביעות\n.  בדוח התביעות יפרט המבטח, לגבי כל תביעה שהוגשה בשלוש השנים שקדמו למועד 21.2 שליחת הדוח או שהוגשה בתקופה שבה היה בעל הפוליסה מבוטח אצל המבטח, לפי הקצרה מביניהן, את פרטי הנהג המעורב בתאונה.\n.  הוגשה תביעה במהלך החודש שלפני תום תקופת הביטוח, ישלח המבטח עדכון לדוח 21.3 התביעות מיד עם הגשת התביעה.",
-  "embed_text": "פוליסת ביטוח למשאית כוללת דוח תביעות שמפרט את כל התביעות שהוגשו. הדוח יפרט פרטי הנהג המעורב בתאונה בשלוש השנים האחרונות, או בתקופה שבה בעל הפוליסה היה מבוטח. עדכון לדוח התביעות ישלח מיד עם הגשת תביעה חדשה.",
-  "payload": "טבלה: דוח תביעות\nThis table details claim reports that an insurer sends to a policyholder. It outlines when these reports are issued and what information they contain.\nממדים: Report details / requirements, Report aspects (e.g., timing, content)\n\n. דוח תביעות 21\n, .  חודש לפני תום תקופת הביטוח או מיד בסיומה, אם היא מסתיימת באופן בלתי צפוי 21.1 ישלח המבטח לבעל הפוליסה דוח תביעות שיפרט בו את כל התביעות שהוגשו עד .( לאותו מועד, ככל שהוגשו )להלן - דוח תביעות\n.  בדוח התביעות יפרט המבטח, לגבי כל תביעה שהוגשה בשלוש השנים שקדמו למועד 21.2 שליחת הדוח או שהוגשה בתקופה שבה היה בעל הפוליסה מבוטח אצל המבטח, לפי הקצרה מביניהן, את פרטי הנהג המעורב בתאונה.\n.  הוגשה תביעה במהלך החודש שלפני תום תקופת הביטוח, ישלח המבטח עדכון לדוח 21.3 התביעות מיד עם הגשת התביעה."
+  "embed_text": "טבלה זו מתארת דוחות תביעות שנשלחים על ידי המבטח לבעל הפוליסה. הדוח מפרט את כל התביעות שהוגשו עד למועד מסוים, וכולל פרטים על הנהג המעורב בתאונה. דוח תביעות ישלח חודש לפני תום תקופת הביטוח או מיד בסיומה. המידע בדוח יכלול תביעות שהוגשו בשלוש השנים האחרונות או בתקופת הביטוח, לפי המוקדם מביניהן. דוח תביעות, תאונה, נהג, תקופת ביטוח. This table details claim reports that an insurer sends to a policyholder. It outlines when and what information is included in these reports regarding claims filed. בין הערכים בטבלה: claim period: שלוש השנים שקדמו למועד שליחת הדוח.",
+  "payload": "טבלה: דוח תביעות\nThis table details claim reports that an insurer sends to a policyholder. It outlines when and what information is included in these reports regarding claims filed.\nממדים: timing/condition for claim report, report details\n\n. דוח תביעות 21\n, .  חודש לפני תום תקופת הביטוח או מיד בסיומה, אם היא מסתיימת באופן בלתי צפוי 21.1 ישלח המבטח לבעל הפוליסה דוח תביעות שיפרט בו את כל התביעות שהוגשו עד .( לאותו מועד, ככל שהוגשו )להלן - דוח תביעות\n.  בדוח התביעות יפרט המבטח, לגבי כל תביעה שהוגשה בשלוש השנים שקדמו למועד 21.2 שליחת הדוח או שהוגשה בתקופה שבה היה בעל הפוליסה מבוטח אצל המבטח, לפי הקצרה מביניהן, את פרטי הנהג המעורב בתאונה.\n.  הוגשה תביעה במהלך החודש שלפני תום תקופת הביטוח, ישלח המבטח עדכון לדוח 21.3 התביעות מיד עם הגשת התביעה."
 }

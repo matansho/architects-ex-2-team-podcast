@@ -2,24 +2,24 @@
   "id": "pdf:business/files/מכלול-למושב-ינואר-2023.pdf#388",
   "source": "llm",
   "description": {
-    "title": "מכלול - גילוי נאות",
-    "summary": "This table outlines the conditions under which an insurer can cancel a policy or reduce liability due to non-disclosure or misrepresentation by the insured. It details scenarios related to material facts and the insured's duty to inform the insurer of any changes.",
-    "embed_passage": "פוליסת 'מכלול' מגדירה את החובות של המבוטח לגלות מידע מהותי למבטח. אי גילוי עניין מהותי, או הסתרה בכוונת מרמה, עלול להוביל לביטול הפוליסה או להפחתת חבות המבטח. לדוגמה, המבוטח חייב לדווח על כל שינוי בעניין מהותי באופן מידי.",
-    "row_axis": "Conditions for policy cancellation/liability reduction",
-    "column_axis": "Details of the condition/right of the insurer",
+    "title": "תנאי הפוליסה",
+    "summary": "This table outlines conditions related to insurance policy validity, specifically regarding disclosure of material facts by the insured. It details scenarios where the insurer may cancel the policy or reduce liability.",
+    "embed_passage": "טבלה זו מתארת תנאים הקשורים לתוקף פוליסת ביטוח, בדגש על גילוי עובדות מהותיות על ידי המבוטח. היא מפרטת תרחישים שבהם המבטח רשאי לבטל את הפוליסה או להקטין את אחריותו. הטבלה רלוונטית להבנת חובות הגילוי של המבוטח ולתוצאות של אי-גילוי או גילוי לא כנה. סעיפים אלו עוסקים בהסתרה בכוונת מרמה, שאלות גורפות, וחובת גילוי שינויים בעניין מהותי. מכלול היא החברה המציעה את הפוליסה. גילוי עניין מהותי הוא קריטי לתוקף הפוליסה.",
+    "row_axis": "סעיף תנאי הפוליסה",
+    "column_axis": "תיאור התנאי",
     "units": [],
     "notable_values": [
-      "2.1: Cancellation due to non-disclosure or misrepresentation",
-      "2.3: Intentional concealment is treated as a false answer",
-      "2.5: Immediate written disclosure of material changes",
-      "2.8: Refund of premiums after cancellation (unless fraudulent)",
-      "2.9: Reduced insurance payout if cancellation occurs after incident"
+      "2.3: הסתרה בכוונת מרמה",
+      "2.4: שאלה גורפת",
+      "2.5: גילוי שינוי בעניין מהותי",
+      "2.8: החזר דמי ביטוח לאחר ביטול",
+      "2.9: מקרה ביטוח לפני ביטול החוזה"
     ],
     "product_hints": [
       "מכלול"
     ]
   },
   "sketch": "הסתרה בכוונת מרמה מצד המבוטח של עניין שהוא ידע כי הוא עניין מהותי, דינה .2.3 כדין מתן תשובה שאינה מלאה וכנה.\n, שאלה גורפת שנשאלה על ידי המבטח, הכורכת עניינים שונים, ללא אבחנה ביניהם .2.4 אלא אם הייתה סבירה בעת כריתת החוזה. אינה מחייבת תשובה כאמור\nבנוסף, במשך תקופת הביטוח יגלה המבוטח למבטח, בכתב, כל שינוי בעניין .2.5 מהותי, וזאת באופן מידי מעת שנודע לו על כך;",
-  "embed_text": "פוליסת 'מכלול' מגדירה את החובות של המבוטח לגלות מידע מהותי למבטח. אי גילוי עניין מהותי, או הסתרה בכוונת מרמה, עלול להוביל לביטול הפוליסה או להפחתת חבות המבטח. לדוגמה, המבוטח חייב לדווח על כל שינוי בעניין מהותי באופן מידי.",
-  "payload": "טבלה: מכלול - גילוי נאות\nThis table outlines the conditions under which an insurer can cancel a policy or reduce liability due to non-disclosure or misrepresentation by the insured. It details scenarios related to material facts and the insured's duty to inform the insurer of any changes.\nממדים: Conditions for policy cancellation/liability reduction, Details of the condition/right of the insurer\n\nהסתרה בכוונת מרמה מצד המבוטח של עניין שהוא ידע כי הוא עניין מהותי, דינה .2.3 כדין מתן תשובה שאינה מלאה וכנה.\n, שאלה גורפת שנשאלה על ידי המבטח, הכורכת עניינים שונים, ללא אבחנה ביניהם .2.4 אלא אם הייתה סבירה בעת כריתת החוזה. אינה מחייבת תשובה כאמור\nבנוסף, במשך תקופת הביטוח יגלה המבוטח למבטח, בכתב, כל שינוי בעניין .2.5 מהותי, וזאת באופן מידי מעת שנודע לו על כך;"
+  "embed_text": "טבלה זו מתארת תנאים הקשורים לתוקף פוליסת ביטוח, בדגש על גילוי עובדות מהותיות על ידי המבוטח. היא מפרטת תרחישים שבהם המבטח רשאי לבטל את הפוליסה או להקטין את אחריותו. הטבלה רלוונטית להבנת חובות הגילוי של המבוטח ולתוצאות של אי-גילוי או גילוי לא כנה. סעיפים אלו עוסקים בהסתרה בכוונת מרמה, שאלות גורפות, וחובת גילוי שינויים בעניין מהותי. מכלול היא החברה המציעה את הפוליסה. גילוי עניין מהותי הוא קריטי לתוקף הפוליסה. This table outlines conditions related to insurance policy validity, specifically regarding disclosure of material facts by the insured. It details scenarios where the insurer may cancel the policy or reduce liability. בין הערכים בטבלה: 2.4: שאלה גורפת; 2.5: גילוי שינוי בעניין מהותי; 2.8: החזר דמי ביטוח לאחר ביטול; 2.9: מקרה ביטוח לפני ביטול החוזה.",
+  "payload": "טבלה: תנאי הפוליסה\nThis table outlines conditions related to insurance policy validity, specifically regarding disclosure of material facts by the insured. It details scenarios where the insurer may cancel the policy or reduce liability.\nממדים: סעיף תנאי הפוליסה, תיאור התנאי\n\nהסתרה בכוונת מרמה מצד המבוטח של עניין שהוא ידע כי הוא עניין מהותי, דינה .2.3 כדין מתן תשובה שאינה מלאה וכנה.\n, שאלה גורפת שנשאלה על ידי המבטח, הכורכת עניינים שונים, ללא אבחנה ביניהם .2.4 אלא אם הייתה סבירה בעת כריתת החוזה. אינה מחייבת תשובה כאמור\nבנוסף, במשך תקופת הביטוח יגלה המבוטח למבטח, בכתב, כל שינוי בעניין .2.5 מהותי, וזאת באופן מידי מעת שנודע לו על כך;"
 }

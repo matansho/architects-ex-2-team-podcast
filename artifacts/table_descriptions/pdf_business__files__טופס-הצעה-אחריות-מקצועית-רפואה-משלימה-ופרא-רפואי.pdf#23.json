@@ -2,23 +2,25 @@
   "id": "pdf:business/files/טופס-הצעה-אחריות-מקצועית-רפואה-משלימה-ופרא-רפואי.pdf#23",
   "source": "llm",
   "description": {
-    "title": "אחריות מקצועית רפואה משלימה",
-    "summary": "This table collects information about an applicant's prior and current professional liability insurance coverage. It's used to assess risk and determine eligibility for a new policy.",
-    "embed_passage": "טופס זה בודק את ההיסטוריה הביטוחית של מועמדים לביטוח אחריות מקצועית בתחום הרפואה המשלימה. השאלות מתייחסות לשנים האחרונות, לדוגמה, האם היית מבוטח ב-5 השנים האחרונות, והאם הוגשו תביעות נגדך. המטרה היא להעריך את הסיכון הכרוך בביטוח המקצועי.",
-    "row_axis": "Applicant's history regarding professional liability insurance",
-    "column_axis": "Questions about prior/current insurance and claims",
+    "title": "הצעת ביטוח אחריות מקצועית",
+    "summary": "This table is for a professional liability insurance quote request. It collects information about prior and current insurance coverage, claims history, and potential liabilities.",
+    "embed_passage": "טופס זה משמש להגשת הצעה לביטוח אחריות מקצועית, בעיקר בתחומי רפואה משלימה ופרא-רפואי. מטרתו לאסוף מידע על ביטוחים קודמים, תביעות, ותנאים מיוחדים שהותנו בעבר. ניתן להשתמש במידע זה כדי להעריך את הסיכון ולתת הצעת מחיר מתאימה. השאלות מתייחסות לתקופת 5 השנים האחרונות. לדוגמה, נשאל האם המועמד היה מבוטח בגין אחריות מקצועית, שם החברה המבטחת, ותקופת הביטוח. כמו כן, נשאל האם הוגשו תביעות נגדו, ומהותן. טופס הצעה זה רלוונטי לביטוח אחריות מקצועית.",
+    "row_axis": "question about prior/current insurance or claims",
+    "column_axis": "response (yes/no/details)",
     "units": [],
     "notable_values": [
-      "שנים: 5",
-      "תביעות: לא",
-      "ביטול פוליסה: לא"
+      "תקופת הביטוח: מס' הפוליסה",
+      "5 שנים אחרונות: אחריות מקצועית",
+      "תביעות: סכום התביעה",
+      "תביעות: סכום הפיצוי ששולם"
     ],
     "product_hints": [
-      "אחריות מקצועית רפואה משלימה",
-      "אחריות מקצועית"
+      "אחריות מקצועית",
+      "רפואה משלימה",
+      "פרא-רפואי"
     ]
   },
-  "sketch": ".1 ? השנים האחרונות, או הינך מבוטח/ת כעת, בגין אחריות מקצועית 5- האם היית מבוטח/ת ב\nלא\n:\nשם החברה המבטחת\n…\nכן, פרט/י\n.4 ? האם ביטל מבטח כלשהו לך, או למי משותפיך, פוליסה\nלא\nכן,",
-  "embed_text": "טופס זה בודק את ההיסטוריה הביטוחית של מועמדים לביטוח אחריות מקצועית בתחום הרפואה המשלימה. השאלות מתייחסות לשנים האחרונות, לדוגמה, האם היית מבוטח ב-5 השנים האחרונות, והאם הוגשו תביעות נגדך. המטרה היא להעריך את הסיכון הכרוך בביטוח המקצועי.",
-  "payload": "טבלה: אחריות מקצועית רפואה משלימה\nThis table collects information about an applicant's prior and current professional liability insurance coverage. It's used to assess risk and determine eligibility for a new policy.\nממדים: Applicant's history regarding professional liability insurance, Questions about prior/current insurance and claims\n\n.1 ? השנים האחרונות, או הינך מבוטח/ת כעת, בגין אחריות מקצועית 5- האם היית מבוטח/ת ב\nלא\n:\nשם החברה המבטחת\n:\nתקופת הביטוח:                                                                                    מס' הפוליסה\nכן, פרט/י\n.2 ? השנים האחרונות, או של מי משותפיך, לביטוח אחריות מקצועית 5- האם נדחתה הצעתך ב\nלא\nכן, פרט/י\n.3 ? השנים האחרונות 5- האם הותנו תנאים מיוחדים להצעה כזו ב\nלא\nכן, פרט/י\n.4 ? האם ביטל מבטח כלשהו לך, או למי משותפיך, פוליסה\nלא\nכן,"
+  "sketch": ".1 ? השנים האחרונות, או הינך מבוטח/ת כעת, בגין אחריות מקצועית 5- האם היית מבוטח/ת ב\nלא\n:\nשם החברה המבטחת\n:\nתקופת הביטוח:                                                                                    מס' הפוליסה\n…\n.3 ? השנים האחרונות 5- האם הותנו תנאים מיוחדים להצעה כזו ב\nלא\nכן, פרט/י\n.4 ? האם ביטל מבטח כלשהו לך, או למי משותפיך, פוליסה\nלא\nכן,",
+  "embed_text": "טופס זה משמש להגשת הצעה לביטוח אחריות מקצועית, בעיקר בתחומי רפואה משלימה ופרא-רפואי. מטרתו לאסוף מידע על ביטוחים קודמים, תביעות, ותנאים מיוחדים שהותנו בעבר. ניתן להשתמש במידע זה כדי להעריך את הסיכון ולתת הצעת מחיר מתאימה. השאלות מתייחסות לתקופת 5 השנים האחרונות. לדוגמה, נשאל האם המועמד היה מבוטח בגין אחריות מקצועית, שם החברה המבטחת, ותקופת הביטוח. כמו כן, נשאל האם הוגשו תביעות נגדו, ומהותן. טופס הצעה זה רלוונטי לביטוח אחריות מקצועית. This table is for a professional liability insurance quote request. It collects information about prior and current insurance coverage, claims history, and potential liabilities.",
+  "payload": "טבלה: הצעת ביטוח אחריות מקצועית\nThis table is for a professional liability insurance quote request. It collects information about prior and current insurance coverage, claims history, and potential liabilities.\nממדים: question about prior/current insurance or claims, response (yes/no/details)\n\n.1 ? השנים האחרונות, או הינך מבוטח/ת כעת, בגין אחריות מקצועית 5- האם היית מבוטח/ת ב\nלא\n:\nשם החברה המבטחת\n:\nתקופת הביטוח:                                                                                    מס' הפוליסה\nכן, פרט/י\n.2 ? השנים האחרונות, או של מי משותפיך, לביטוח אחריות מקצועית 5- האם נדחתה הצעתך ב\nלא\nכן, פרט/י\n.3 ? השנים האחרונות 5- האם הותנו תנאים מיוחדים להצעה כזו ב\nלא\nכן, פרט/י\n.4 ? האם ביטל מבטח כלשהו לך, או למי משותפיך, פוליסה\nלא\nכן,"
 }

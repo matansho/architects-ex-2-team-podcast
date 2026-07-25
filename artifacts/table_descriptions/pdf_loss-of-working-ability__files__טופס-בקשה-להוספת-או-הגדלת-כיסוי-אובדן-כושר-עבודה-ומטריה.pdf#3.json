@@ -2,20 +2,19 @@
   "id": "pdf:loss-of-working-ability/files/טופס-בקשה-להוספת-או-הגדלת-כיסוי-אובדן-כושר-עבודה-ומטריה.pdf#3",
   "source": "llm",
   "description": {
-    "title": "אובדן כושר עבודה - הראל",
-    "summary": "This table relates to Harel's loss of working ability insurance. It's used to request changes to existing coverage, including increasing the insured amount or adding riders.",
-    "embed_passage": "טופס זה משמש לבקשת שינויים בתוכנית אובדן כושר עבודה של הראל. ניתן לבקש הגדלת כיסוי קיים או הוספת נספחים. סכום הפיצוי המבוקש מצוין בש״ח, בהתאם להכנסה החודשית המבוטחת.",
-    "row_axis": "Individual insurance application/request",
-    "column_axis": "Insurance policy details and request parameters",
+    "title": "בקשה לשינוי כיסוי אובדן כושר עבודה",
+    "summary": "This table is a request form for modifying loss of working ability insurance coverage. It collects information about the insured and the desired changes to the policy, such as increasing coverage or adding riders.",
+    "embed_passage": "טופס זה משמש לביצוע שינויים בפוליסת אובדן כושר עבודה של הראל, כולל הגדלת כיסוי או הוספת נספחים. המידע המבוקש כולל פרטים אישיים של המועמד לביטוח, הכנסה חודשית, וסכום הפיצוי המבוקש בש״ח. ניתן לבקש הגדלת כיסוי קיים או הוספת נספחים לכיסוי הקיים. הראל לעתיד חדש היא תוכנית פרמיה משתנה כל שנה. מסמכי הפוליסה, דף פרטי הביטוח, הדיווחים והמכתבים יישלחו באמצעות האמצעים הדיגיטליים של הראל.",
+    "row_axis": "בקשה לשינוי כיסוי",
+    "column_axis": "פרטי הפוליסה והבקשה",
     "units": [
-      "₪",
-      "₪/חודש"
+      "₪"
     ],
     "notable_values": [
-      "product: אובדן כושר עבודה",
-      "currency: ₪",
-      "delivery method: דיגיטלי",
-      "delivery method: דואר ישראל"
+      "סכום הפיצוי המבוקש: בש״ח",
+      "הכנסה חודשית: בש״ח",
+      "הכנסה חודשית שאינה מבוטחת: בש״ח",
+      "הראל לעתיד חדש: פרמיה משתנה כל שנה"
     ],
     "product_hints": [
       "אובדן כושר עבודה",
@@ -23,6 +22,6 @@
     ]
   },
   "sketch": "מסמכי הפוליסה, דף פרטי הביטוח, הדיווחים והמכתבים יישלחו אליך באמצעות האמצעים הדיגיטליים הקיימים ברשות הראל במועד המשלוח. אם ברצונך לקבל את מסמכי הפוליסה והדיווחים בדואר ישראל אנא סמן\nלתשומת לבך, ככל שלא קיימים אמצעים דיגיטליים ברשות הראל, המסמכים יישלחו בדואר ישראל",
-  "embed_text": "טופס זה משמש לבקשת שינויים בתוכנית אובדן כושר עבודה של הראל. ניתן לבקש הגדלת כיסוי קיים או הוספת נספחים. סכום הפיצוי המבוקש מצוין בש״ח, בהתאם להכנסה החודשית המבוטחת.",
-  "payload": "טבלה: אובדן כושר עבודה - הראל\nThis table relates to Harel's loss of working ability insurance. It's used to request changes to existing coverage, including increasing the insured amount or adding riders.\nממדים: Individual insurance application/request, Insurance policy details and request parameters\n\nמסמכי הפוליסה, דף פרטי הביטוח, הדיווחים והמכתבים יישלחו אליך באמצעות האמצעים הדיגיטליים הקיימים ברשות הראל במועד המשלוח. אם ברצונך לקבל את מסמכי הפוליסה והדיווחים בדואר ישראל אנא סמן\nלתשומת לבך, ככל שלא קיימים אמצעים דיגיטליים ברשות הראל, המסמכים יישלחו בדואר ישראל"
+  "embed_text": "טופס זה משמש לביצוע שינויים בפוליסת אובדן כושר עבודה של הראל, כולל הגדלת כיסוי או הוספת נספחים. המידע המבוקש כולל פרטים אישיים של המועמד לביטוח, הכנסה חודשית, וסכום הפיצוי המבוקש בש״ח. ניתן לבקש הגדלת כיסוי קיים או הוספת נספחים לכיסוי הקיים. הראל לעתיד חדש היא תוכנית פרמיה משתנה כל שנה. מסמכי הפוליסה, דף פרטי הביטוח, הדיווחים והמכתבים יישלחו באמצעות האמצעים הדיגיטליים של הראל. This table is a request form for modifying loss of working ability insurance coverage. It collects information about the insured and the desired changes to the policy, such as increasing coverage or adding riders.",
+  "payload": "טבלה: בקשה לשינוי כיסוי אובדן כושר עבודה\nThis table is a request form for modifying loss of working ability insurance coverage. It collects information about the insured and the desired changes to the policy, such as increasing coverage or adding riders.\nממדים: בקשה לשינוי כיסוי, פרטי הפוליסה והבקשה\n\nמסמכי הפוליסה, דף פרטי הביטוח, הדיווחים והמכתבים יישלחו אליך באמצעות האמצעים הדיגיטליים הקיימים ברשות הראל במועד המשלוח. אם ברצונך לקבל את מסמכי הפוליסה והדיווחים בדואר ישראל אנא סמן\nלתשומת לבך, ככל שלא קיימים אמצעים דיגיטליים ברשות הראל, המסמכים יישלחו בדואר ישראל"
 }

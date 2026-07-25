@@ -2,25 +2,29 @@
   "id": "pdf:business/files/טופס-הצעה-לביטוח-אחריות-מקצועית-לרופא-שיניים.pdf#15",
   "source": "llm",
   "description": {
-    "title": "הצעת ביטוח אחריות מקצועית",
-    "summary": "This table is for a professional liability insurance quote for dentists. It collects information about the applicant's past insurance coverage and legal history to assess risk.",
-    "embed_passage": "טופס הצעה לביטוח אחריות מקצועית לרופא שיניים בודק את העבר הביטוחי של המבקש, לדוגמה, האם היה מבוטח ב-10 השנים האחרונות. השאלות נועדו להעריך את הסיכון, תוך התייחסות להיסטוריה של תביעות או ביטולים קודמים.",
-    "row_axis": "questions about the applicant's history",
-    "column_axis": "response options (yes/no/details)",
+    "title": "הצעה לביטוח אחריות מקצועית",
+    "summary": "This table is part of a professional liability insurance proposal form for dentists. It collects information about the applicant's past and current insurance coverage and any legal issues.",
+    "embed_passage": "טופס זה משמש להצעת ביטוח אחריות מקצועית לרופא שיניים. השאלות נועדו לאסוף מידע על עבר ביטוחי, תביעות קודמות, והליכים משפטיים. המטרה היא להעריך את הסיכון הכרוך בביטוח. השאלות בטופס בודקות האם המציע היה מבוטח בעבר, האם ביטוח בוטל לו, והאם קיימים הליכים משפטיים תלויים ועומדים. בין הנתונים הנאספים: עבר ביטוחי, ביטול ביטוח, האשמות פליליות בהטרדה מינית או הפרת פרטיות.",
+    "row_axis": "questions about past/current insurance and legal issues",
+    "column_axis": "response (yes/no/details)",
     "units": [],
     "notable_values": [
-      "years: 10",
-      "question: עבר ביטוחי",
-      "response: כן, פרט/י",
-      "question: ביטול ביטוח",
-      "response: לא"
+      "שנים: 10",
+      "עבר ביטוחי: כן",
+      "עבר ביטוחי: לא",
+      "ביטול ביטוח: כן",
+      "ביטול ביטוח: לא",
+      "הטרדה מינית: כן",
+      "הטרדה מינית: לא",
+      "הפרת פרטיות: כן",
+      "הפרת פרטיות: לא"
     ],
     "product_hints": [
       "ביטוח אחריות מקצועית",
       "רופא שיניים"
     ]
   },
-  "sketch": "ט עבר ביטוחי\nשנים האחרנות, או הינך מבוטח/ת כעת, בגין אחריות מקצועית? 10- עבר ביטוחי האם היית מבוטח/ת ב\n:\nכן, פרט/י\n…\nהאם ביטל מבטח כלשהוא לך, או למי משותפיך, או למי מעובדיך את ביטוח אחריותם המקצועית אותה הינך מבקש לכסות?\n:\nכן, פרט/י\nלא",
-  "embed_text": "טופס הצעה לביטוח אחריות מקצועית לרופא שיניים בודק את העבר הביטוחי של המבקש, לדוגמה, האם היה מבוטח ב-10 השנים האחרונות. השאלות נועדו להעריך את הסיכון, תוך התייחסות להיסטוריה של תביעות או ביטולים קודמים.",
-  "payload": "טבלה: הצעת ביטוח אחריות מקצועית\nThis table is for a professional liability insurance quote for dentists. It collects information about the applicant's past insurance coverage and legal history to assess risk.\nממדים: questions about the applicant's history, response options (yes/no/details)\n\nט עבר ביטוחי\nשנים האחרנות, או הינך מבוטח/ת כעת, בגין אחריות מקצועית? 10- עבר ביטוחי האם היית מבוטח/ת ב\n:\nכן, פרט/י\nלא\n:\nשם החברה המבטחת:                                                        מהות הביטוח\n:\nתקופת הביטוח:                                                                  מס' פוליסה\n)נא צרף תצלום הפוליסה האחרונה(\nשנים האחרונות, או מי משותפיך, לביטוח אחריות מקצועית? 10- האם נדחתה הצעתך ב\n:\nכן, פרט/י\nלא\nשנים האחרונות? 10- האם הותנו תנאים מיוחדים להצעה כזו ב\n:\nכן, פרט/י\nלא\nהאם ביטל מבטח כלשהוא לך, או למי משותפיך, או למי מעובדיך את ביטוח אחריותם המקצועית אותה הינך מבקש לכסות?\n:\nכן, פרט/י\nלא"
+  "sketch": "ט עבר ביטוחי\nשנים האחרנות, או הינך מבוטח/ת כעת, בגין אחריות מקצועית? 10- עבר ביטוחי האם היית מבוטח/ת ב\n:\nכן, פרט/י\nלא\n:\n…\nכן, פרט/י\nלא\nהאם ביטל מבטח כלשהוא לך, או למי משותפיך, או למי מעובדיך את ביטוח אחריותם המקצועית אותה הינך מבקש לכסות?\n:\nכן, פרט/י\nלא",
+  "embed_text": "טופס זה משמש להצעת ביטוח אחריות מקצועית לרופא שיניים. השאלות נועדו לאסוף מידע על עבר ביטוחי, תביעות קודמות, והליכים משפטיים. המטרה היא להעריך את הסיכון הכרוך בביטוח. השאלות בטופס בודקות האם המציע היה מבוטח בעבר, האם ביטוח בוטל לו, והאם קיימים הליכים משפטיים תלויים ועומדים. בין הנתונים הנאספים: עבר ביטוחי, ביטול ביטוח, האשמות פליליות בהטרדה מינית או הפרת פרטיות. This table is part of a professional liability insurance proposal form for dentists. It collects information about the applicant's past and current insurance coverage and any legal issues. בין הערכים בטבלה: שנים: 10.",
+  "payload": "טבלה: הצעה לביטוח אחריות מקצועית\nThis table is part of a professional liability insurance proposal form for dentists. It collects information about the applicant's past and current insurance coverage and any legal issues.\nממדים: questions about past/current insurance and legal issues, response (yes/no/details)\n\nט עבר ביטוחי\nשנים האחרנות, או הינך מבוטח/ת כעת, בגין אחריות מקצועית? 10- עבר ביטוחי האם היית מבוטח/ת ב\n:\nכן, פרט/י\nלא\n:\nשם החברה המבטחת:                                                        מהות הביטוח\n:\nתקופת הביטוח:                                                                  מס' פוליסה\n)נא צרף תצלום הפוליסה האחרונה(\nשנים האחרונות, או מי משותפיך, לביטוח אחריות מקצועית? 10- האם נדחתה הצעתך ב\n:\nכן, פרט/י\nלא\nשנים האחרונות? 10- האם הותנו תנאים מיוחדים להצעה כזו ב\n:\nכן, פרט/י\nלא\nהאם ביטל מבטח כלשהוא לך, או למי משותפיך, או למי מעובדיך את ביטוח אחריותם המקצועית אותה הינך מבקש לכסות?\n:\nכן, פרט/י\nלא"
 }

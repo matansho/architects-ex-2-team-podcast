@@ -3,24 +3,26 @@
   "source": "llm",
   "description": {
     "title": "ביטול פוליסה",
-    "summary": "This table details the refund of insurance premiums upon policy cancellation by the insurer. It outlines how the proportional refund is calculated based on the remaining policy period.",
-    "embed_passage": "פוליסת הראל מאפשרת החזר דמי ביטוח במקרה של ביטול על ידי המבטח. החזר החלק היחסי מחושב ביחס למספר הימים שנותרו בתקופת הביטוח המקורית, לדוגמה, אם נותרו 7 ימים מתוך תקופה כוללת, יוחזר חלק יחסי בהתאם.",
-    "row_axis": "Cancellation conditions / refund calculations",
+    "summary": "This table details the conditions and calculations for insurance policy cancellation refunds. It outlines how the pro-rata portion of paid premiums is returned to the policyholder upon cancellation by the insurer.",
+    "embed_passage": "טבלה זו מתארת את תנאי והחישובים להחזר כספי עבור ביטול פוליסת ביטוח. היא מפרטת כיצד החלק היחסי מדמי הביטוח ששולמו מוחזר לבעל הפוליסה עם ביטול הפוליסה על ידי המבטח. החישוב מתבסס על היחס בין מספר הימים שנותרו עד לתום תקופת הביטוח המקורית, לבין מספר הימים בתקופת הביטוח המקורית. הפוליסה הרלוונטית היא הראל. ניתן לחשב את ההחזר על ידי הכפלת דמי הביטוח שגבה המבטח ביחס בין הימים שנותרו ובין הימים בתקופת הביטוח המקורית. סעיפים רלוונטיים: 16.1, 16.2, 16.3, 16.5, 16.6.",
+    "row_axis": "Cancellation conditions/calculations",
     "column_axis": "Details of refund process",
     "units": [],
     "notable_values": [
-      "7: Number of days before cancellation",
-      "21: Minimum days notice for cancellation",
-      "16.2: Section number regarding refund calculation",
-      "16.3: Section number regarding proportional calculation",
-      "16.5: Section number regarding indexation"
+      "סעיף: 16.1",
+      "סעיף: 16.2",
+      "סעיף: 16.3",
+      "סעיף: 16.5",
+      "סעיף: 16.6",
+      "ימים לפני המועד: 7",
+      "הודעה בכתב: נימוקים לביטול",
+      "הודעה בדואר רשום: 21 ימים"
     ],
     "product_hints": [
-      "הראל",
       "פוליסת הראל"
     ]
   },
   "sketch": "ימים לפני המועד 7ביטל המבטח את הפוליסה, יחזיר לבעל הפוליסה בהקדם ולא יאוחר מ .16.2 שבו תתבטל הפוליסה, את החלק היחסי מדמי הביטוח ששולמו.\n.  החלק היחסי כאמור יחושב על ידי הכפלת דמי הביטוח שגבה המבטח ביחס שבין מספר 16.3 הימים שנותרו, במועד הביטול עד תום תקופת הביטוח המקורית, ובין מספר הימים הנכללים בתקופת הביטוח המקורית.",
-  "embed_text": "פוליסת הראל מאפשרת החזר דמי ביטוח במקרה של ביטול על ידי המבטח. החזר החלק היחסי מחושב ביחס למספר הימים שנותרו בתקופת הביטוח המקורית, לדוגמה, אם נותרו 7 ימים מתוך תקופה כוללת, יוחזר חלק יחסי בהתאם.",
-  "payload": "טבלה: ביטול פוליסה\nThis table details the refund of insurance premiums upon policy cancellation by the insurer. It outlines how the proportional refund is calculated based on the remaining policy period.\nממדים: Cancellation conditions / refund calculations, Details of refund process\n\nימים לפני המועד 7ביטל המבטח את הפוליסה, יחזיר לבעל הפוליסה בהקדם ולא יאוחר מ .16.2 שבו תתבטל הפוליסה, את החלק היחסי מדמי הביטוח ששולמו.\n.  החלק היחסי כאמור יחושב על ידי הכפלת דמי הביטוח שגבה המבטח ביחס שבין מספר 16.3 הימים שנותרו, במועד הביטול עד תום תקופת הביטוח המקורית, ובין מספר הימים הנכללים בתקופת הביטוח המקורית."
+  "embed_text": "טבלה זו מתארת את תנאי והחישובים להחזר כספי עבור ביטול פוליסת ביטוח. היא מפרטת כיצד החלק היחסי מדמי הביטוח ששולמו מוחזר לבעל הפוליסה עם ביטול הפוליסה על ידי המבטח. החישוב מתבסס על היחס בין מספר הימים שנותרו עד לתום תקופת הביטוח המקורית, לבין מספר הימים בתקופת הביטוח המקורית. הפוליסה הרלוונטית היא הראל. ניתן לחשב את ההחזר על ידי הכפלת דמי הביטוח שגבה המבטח ביחס בין הימים שנותרו ובין הימים בתקופת הביטוח המקורית. סעיפים רלוונטיים: 16.1, 16.2, 16.3, 16.5, 16.6. This table details the conditions and calculations for insurance policy cancellation refunds. It outlines how the pro-rata portion of paid premiums is returned to the policyholder upon cancellation by the insurer. בין הערכים בטבלה: ימים לפני המועד: 7; הודעה בכתב: נימוקים לביטול; הודעה בדואר רשום: 21 ימים.",
+  "payload": "טבלה: ביטול פוליסה\nThis table details the conditions and calculations for insurance policy cancellation refunds. It outlines how the pro-rata portion of paid premiums is returned to the policyholder upon cancellation by the insurer.\nממדים: Cancellation conditions/calculations, Details of refund process\n\nימים לפני המועד 7ביטל המבטח את הפוליסה, יחזיר לבעל הפוליסה בהקדם ולא יאוחר מ .16.2 שבו תתבטל הפוליסה, את החלק היחסי מדמי הביטוח ששולמו.\n.  החלק היחסי כאמור יחושב על ידי הכפלת דמי הביטוח שגבה המבטח ביחס שבין מספר 16.3 הימים שנותרו, במועד הביטול עד תום תקופת הביטוח המקורית, ובין מספר הימים הנכללים בתקופת הביטוח המקורית."
 }

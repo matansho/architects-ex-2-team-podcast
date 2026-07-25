@@ -3,17 +3,20 @@
   "source": "llm",
   "description": {
     "title": "ביטוח כספים",
-    "summary": "This table outlines the terms for 'ביטוח כספים' (Cash Insurance) coverage under the 'מכלול' policy. It details the conditions under which the insurer will compensate the insured for loss or damage to cash.",
-    "embed_passage": "פוליסת 'מכלול' לעסק מציעה ביטוח כספים המכסה אובדן או נזק פיזי לכספים בתנאים מסוימים. התגמול ישולם בכפוף להגדרות, לסייגים ולתנאים הכלליים של הפוליסה, ובהתאם למקרה ביטוח שייגרם בתחום המדינה ובתקופת הביטוח. הכיסוי חל על כספים המוחזקים בבית העסק, בכספת או בחדר ביטחון, וגם בעת העברתם הישירה.",
-    "row_axis": "conditions/clauses related to cash insurance",
-    "column_axis": "details of coverage, limitations, and definitions",
+    "summary": "This table outlines the conditions for insurance coverage of funds (cash) under a 'Mekhalel' business policy. It details the circumstances under which the insurer will compensate the insured for loss or damage to funds.",
+    "embed_passage": "טבלה זו מתייחסת לפרק ביטוח כספים בפוליסת ביטוח מכלול לעסק, ומפרטת את התנאים להחזר כספי במקרה של אובדן או נזק לכספים. ניתן לבדוק את תנאי הכיסוי בהתאם למקרה הביטוח המוגדר, תחום המדינה ותקופת הביטוח. הפוליסה מכסה אובדן או נזק פיזי לכספים בעת הימצאם בבית העסק, בכספת או בחדר ביטחון, או בעת העברה ישירה תחת השגחה אישית. פרק שלישי, ביטוח כספים, בתוקף, המבטח ישפה את המבוטח בכפוף לאמור במבוא, בהגדרות, בסייגים ובתנאים הכלליים של הפוליסה. סכום הביטוח הנקוב ברשימה הינו על הבסיס לקביעת סכומי הביטוח.",
+    "row_axis": "Conditions for insurance coverage (e.g., validity of the 'ביטוח כספים' chapter)",
+    "column_axis": "Insurance terms and conditions",
     "units": [],
     "notable_values": [
       "פרק שלישי: ביטוח כספים",
-      "תקופת הביטוח: relevant time frame for coverage",
-      "בית העסק: location where coverage applies",
-      "חדר ביטחון: secure location covered by the policy",
-      "העברתם הישירה: direct transfer of funds is covered"
+      "תקופת הביטוח: relevant",
+      "תחום המדינה: relevant",
+      "בית העסק: location of funds",
+      "כספת בית העסק: location of funds",
+      "חדר ביטחון: location of funds",
+      "העברה ישירה: condition for coverage",
+      "השגחה אישית: condition for coverage"
     ],
     "product_hints": [
       "מכלול",
@@ -21,6 +24,6 @@
     ]
   },
   "sketch": "על אף האמור השבת סכום הביטוח לקדמותו בהתאם לבקשת המבוטח: .4.6.3 בתנאי הפוליסה הכלליים לעניין הקטנת סכום הביטוח לאחר קרות אבדן או , יושב סכום הביטוח על פי פרק זה לקדמותו על פי בקשת המבוטח , נזק ועל המבוטח לשלם למבטח את דמי הביטוח הנוספים המגיעים בגין דמי הביטוח לעניין השבה כזאת מיום ההשבה ועד תום תקופת הביטוח. זה, תהא משמעותם כפולת תגמולי הביטוח בשיעור דמי הביטוח לסיכוני הביטוח, מחושבת לתקופת הביטוח הנותרת.\nפרק שלישי: ביטוח כספים\nאם צוין ברשימה כי פרק שלישי - ביטוח כספים - בתוקף, המבטח ישפה את המבוטח בכפוף לאמור במבוא, בהגדרות, בסייגים ובתנאים הכלליים של הפוליסה, ובכפוף לסייגים ולתנאים המפורטים בפרק שלישי זה וברשימה, בגין מקרה ביטוח כהגדרתו להלן, שייגרם בתחום המדינה ובתקופת הביטוח, וזאת בהתאם לכל המפורט להלן:",
-  "embed_text": "פוליסת 'מכלול' לעסק מציעה ביטוח כספים המכסה אובדן או נזק פיזי לכספים בתנאים מסוימים. התגמול ישולם בכפוף להגדרות, לסייגים ולתנאים הכלליים של הפוליסה, ובהתאם למקרה ביטוח שייגרם בתחום המדינה ובתקופת הביטוח. הכיסוי חל על כספים המוחזקים בבית העסק, בכספת או בחדר ביטחון, וגם בעת העברתם הישירה.",
-  "payload": "טבלה: ביטוח כספים\nThis table outlines the terms for 'ביטוח כספים' (Cash Insurance) coverage under the 'מכלול' policy. It details the conditions under which the insurer will compensate the insured for loss or damage to cash.\nממדים: conditions/clauses related to cash insurance, details of coverage, limitations, and definitions\n\nעל אף האמור השבת סכום הביטוח לקדמותו בהתאם לבקשת המבוטח: .4.6.3 בתנאי הפוליסה הכלליים לעניין הקטנת סכום הביטוח לאחר קרות אבדן או , יושב סכום הביטוח על פי פרק זה לקדמותו על פי בקשת המבוטח , נזק ועל המבוטח לשלם למבטח את דמי הביטוח הנוספים המגיעים בגין דמי הביטוח לעניין השבה כזאת מיום ההשבה ועד תום תקופת הביטוח. זה, תהא משמעותם כפולת תגמולי הביטוח בשיעור דמי הביטוח לסיכוני הביטוח, מחושבת לתקופת הביטוח הנותרת.\nפרק שלישי: ביטוח כספים\nאם צוין ברשימה כי פרק שלישי - ביטוח כספים - בתוקף, המבטח ישפה את המבוטח בכפוף לאמור במבוא, בהגדרות, בסייגים ובתנאים הכלליים של הפוליסה, ובכפוף לסייגים ולתנאים המפורטים בפרק שלישי זה וברשימה, בגין מקרה ביטוח כהגדרתו להלן, שייגרם בתחום המדינה ובתקופת הביטוח, וזאת בהתאם לכל המפורט להלן:"
+  "embed_text": "טבלה זו מתייחסת לפרק ביטוח כספים בפוליסת ביטוח מכלול לעסק, ומפרטת את התנאים להחזר כספי במקרה של אובדן או נזק לכספים. ניתן לבדוק את תנאי הכיסוי בהתאם למקרה הביטוח המוגדר, תחום המדינה ותקופת הביטוח. הפוליסה מכסה אובדן או נזק פיזי לכספים בעת הימצאם בבית העסק, בכספת או בחדר ביטחון, או בעת העברה ישירה תחת השגחה אישית. פרק שלישי, ביטוח כספים, בתוקף, המבטח ישפה את המבוטח בכפוף לאמור במבוא, בהגדרות, בסייגים ובתנאים הכלליים של הפוליסה. סכום הביטוח הנקוב ברשימה הינו על הבסיס לקביעת סכומי הביטוח. This table outlines the conditions for insurance coverage of funds (cash) under a 'Mekhalel' business policy. It details the circumstances under which the insurer will compensate the insured for loss or damage to funds. בין הערכים בטבלה: כספת בית העסק: location of funds.",
+  "payload": "טבלה: ביטוח כספים\nThis table outlines the conditions for insurance coverage of funds (cash) under a 'Mekhalel' business policy. It details the circumstances under which the insurer will compensate the insured for loss or damage to funds.\nממדים: Conditions for insurance coverage (e.g., validity of the 'ביטוח כספים' chapter), Insurance terms and conditions\n\nעל אף האמור השבת סכום הביטוח לקדמותו בהתאם לבקשת המבוטח: .4.6.3 בתנאי הפוליסה הכלליים לעניין הקטנת סכום הביטוח לאחר קרות אבדן או , יושב סכום הביטוח על פי פרק זה לקדמותו על פי בקשת המבוטח , נזק ועל המבוטח לשלם למבטח את דמי הביטוח הנוספים המגיעים בגין דמי הביטוח לעניין השבה כזאת מיום ההשבה ועד תום תקופת הביטוח. זה, תהא משמעותם כפולת תגמולי הביטוח בשיעור דמי הביטוח לסיכוני הביטוח, מחושבת לתקופת הביטוח הנותרת.\nפרק שלישי: ביטוח כספים\nאם צוין ברשימה כי פרק שלישי - ביטוח כספים - בתוקף, המבטח ישפה את המבוטח בכפוף לאמור במבוא, בהגדרות, בסייגים ובתנאים הכלליים של הפוליסה, ובכפוף לסייגים ולתנאים המפורטים בפרק שלישי זה וברשימה, בגין מקרה ביטוח כהגדרתו להלן, שייגרם בתחום המדינה ובתקופת הביטוח, וזאת בהתאם לכל המפורט להלן:"
 }

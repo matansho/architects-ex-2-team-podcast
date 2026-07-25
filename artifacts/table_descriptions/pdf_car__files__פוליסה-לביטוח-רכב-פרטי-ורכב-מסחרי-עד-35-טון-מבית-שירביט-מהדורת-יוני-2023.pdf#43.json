@@ -3,23 +3,22 @@
   "source": "llm",
   "description": {
     "title": "ביטול פוליסה",
-    "summary": "This table details the refund of insurance premiums upon policy cancellation. It outlines how the proportional refund is calculated based on the remaining policy period.",
-    "embed_passage": "פוליסת שירביט מאפשרת החזר דמי ביטוח במקרה של ביטול. החלק היחסי מחושב על ידי הכפלת דמי הביטוח ביחס בין מספר הימים שנותרו עד תום התקופה המקורית, לבין מספר הימים בתקופה המקורית. לדוגמה, אם נותרו 7 ימים לתום הפוליסה, יוחזר חלק יחסי מדמי הביטוח.",
-    "row_axis": "Cancellation conditions / refund calculations",
-    "column_axis": "Policy cancellation process details",
+    "summary": "This table details the conditions and calculations for insurance policy cancellation refunds. It outlines how the proportional part of the insurance premium is returned to the policyholder upon cancellation.",
+    "embed_passage": "טבלה זו מתארת את תנאי והחישובים להחזר כספי עבור ביטול פוליסת ביטוח. הפוליסה רלוונטית לביטוח רכב פרטי ורכב מסחרי עד 35 טון מבית שירביט. ניתן לחשב את החלק היחסי של ההחזר על ידי הכפלת דמי הביטוח במספר הימים שנותרו בתקופת הביטוח המקורית, חלקי מספר הימים בתקופת הביטוח המקורית. הטבלה מפרטת גם את תנאי ביטול הפוליסה על ידי המבטח, כולל מקרים של מרמה או אי-גילוי נאות. החזר כספי יכלול גם הפרשי הצמדה למדד המחירים לצרכן. שירביט, ביטול פוליסה, דמי ביטוח, החזר כספי, מדד המחירים לצרכן.",
+    "row_axis": "Cancellation conditions/calculations",
+    "column_axis": "Details of cancellation process",
     "units": [],
     "notable_values": [
-      "7: Number of days before cancellation",
-      "16.2: Section number regarding refund calculation",
-      "16.3: Section number detailing the proportional calculation",
-      "21: Minimum days notice for cancellation"
+      "Cancellation notice period: 21 days",
+      "Refund calculation: proportional to remaining days",
+      "Indexation: מדד המחירים לצרכן"
     ],
     "product_hints": [
-      "שירביט",
-      "פוליסת רכב"
+      "שירביט רכב",
+      "פוליסת ביטוח רכב"
     ]
   },
   "sketch": "ימים לפני המועד 7ביטל המבטח את הפוליסה, יחזיר לבעל הפוליסה בהקדם ולא יאוחר מ .16.2 שבו תתבטל הפוליסה, את החלק היחסי מדמי הביטוח ששולמו.\n.  החלק היחסי כאמור יחושב על ידי הכפלת דמי הביטוח שגבה המבטח ביחס שבין מספר 16.3 הימים שנותרו, במועד הביטול עד תום תקופת הביטוח המקורית, ובין מספר הימים הנכללים בתקופת הביטוח המקורית.",
-  "embed_text": "פוליסת שירביט מאפשרת החזר דמי ביטוח במקרה של ביטול. החלק היחסי מחושב על ידי הכפלת דמי הביטוח ביחס בין מספר הימים שנותרו עד תום התקופה המקורית, לבין מספר הימים בתקופה המקורית. לדוגמה, אם נותרו 7 ימים לתום הפוליסה, יוחזר חלק יחסי מדמי הביטוח.",
-  "payload": "טבלה: ביטול פוליסה\nThis table details the refund of insurance premiums upon policy cancellation. It outlines how the proportional refund is calculated based on the remaining policy period.\nממדים: Cancellation conditions / refund calculations, Policy cancellation process details\n\nימים לפני המועד 7ביטל המבטח את הפוליסה, יחזיר לבעל הפוליסה בהקדם ולא יאוחר מ .16.2 שבו תתבטל הפוליסה, את החלק היחסי מדמי הביטוח ששולמו.\n.  החלק היחסי כאמור יחושב על ידי הכפלת דמי הביטוח שגבה המבטח ביחס שבין מספר 16.3 הימים שנותרו, במועד הביטול עד תום תקופת הביטוח המקורית, ובין מספר הימים הנכללים בתקופת הביטוח המקורית."
+  "embed_text": "טבלה זו מתארת את תנאי והחישובים להחזר כספי עבור ביטול פוליסת ביטוח. הפוליסה רלוונטית לביטוח רכב פרטי ורכב מסחרי עד 35 טון מבית שירביט. ניתן לחשב את החלק היחסי של ההחזר על ידי הכפלת דמי הביטוח במספר הימים שנותרו בתקופת הביטוח המקורית, חלקי מספר הימים בתקופת הביטוח המקורית. הטבלה מפרטת גם את תנאי ביטול הפוליסה על ידי המבטח, כולל מקרים של מרמה או אי-גילוי נאות. החזר כספי יכלול גם הפרשי הצמדה למדד המחירים לצרכן. שירביט, ביטול פוליסה, דמי ביטוח, החזר כספי, מדד המחירים לצרכן. This table details the conditions and calculations for insurance policy cancellation refunds. It outlines how the proportional part of the insurance premium is returned to the policyholder upon cancellation. בין הערכים בטבלה: Cancellation notice period: 21 days; Refund calculation: proportional to remaining days.",
+  "payload": "טבלה: ביטול פוליסה\nThis table details the conditions and calculations for insurance policy cancellation refunds. It outlines how the proportional part of the insurance premium is returned to the policyholder upon cancellation.\nממדים: Cancellation conditions/calculations, Details of cancellation process\n\nימים לפני המועד 7ביטל המבטח את הפוליסה, יחזיר לבעל הפוליסה בהקדם ולא יאוחר מ .16.2 שבו תתבטל הפוליסה, את החלק היחסי מדמי הביטוח ששולמו.\n.  החלק היחסי כאמור יחושב על ידי הכפלת דמי הביטוח שגבה המבטח ביחס שבין מספר 16.3 הימים שנותרו, במועד הביטול עד תום תקופת הביטוח המקורית, ובין מספר הימים הנכללים בתקופת הביטוח המקורית."
 }

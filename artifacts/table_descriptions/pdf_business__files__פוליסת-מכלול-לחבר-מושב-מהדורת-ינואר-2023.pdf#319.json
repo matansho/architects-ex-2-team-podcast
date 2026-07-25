@@ -2,24 +2,24 @@
   "id": "pdf:business/files/פוליסת-מכלול-לחבר-מושב-מהדורת-ינואר-2023.pdf#319",
   "source": "llm",
   "description": {
-    "title": "מכלול - אחריות כלפי צד שלישי",
-    "summary": "This table details coverage for various liability scenarios under the 'Mekhalel' insurance policy. It outlines the types of events covered and the conditions for payment to a third party.",
-    "embed_passage": "פוליסת מכלול מספקת כיסוי במקרים של מוות, מחלה, פגיעה, ליקוי גופני או נפשי. הכיסוי חל על נזק או אבדן לרכוש של צד שלישי. במקרה של תביעה, המבטח רשאי לשלם לצד השלישי את תגמולי הביטוח, בכפוף לתנאים מסוימים.",
-    "row_axis": "types of covered events/liability",
-    "column_axis": "conditions/details of coverage",
+    "title": "כיסויים וחריגים",
+    "summary": "This table outlines covered events and liability exclusions under the insurance policy. It details situations where the insurer is obligated to pay benefits, and circumstances where coverage is limited or denied.",
+    "embed_passage": "טבלה זו מתארת את הכיסויים והחריגים בפוליסת ביטוח מכלול לחבר מושב. ניתן לעיין בה כדי להבין אילו מקרים מכוסים, כגון מוות, מחלה, פגיעה, נזק לרכוש צד שלישי, וטיפול בתביעות. הפוליסה מאפשרת תשלום ישיר לצד שלישי בתנאים מסוימים, וכן קובעת את תנאי הכיסוי במקרה של תביעות מרובות. כיסויים כוללים מוות, מחלה, פגיעה, ליקוי גופני, ליקוי נפשי, ליקוי שכלי, ונזק או אבדן לרכוש צד שלישי.",
+    "row_axis": "סוגי אירועים / תנאים",
+    "column_axis": "תיאור הכיסוי / החריגה",
     "units": [],
     "notable_values": [
-      "event type: מוות, מחלה, פגיעה, ליקוי גופני, לקוי נפשי ליקוי שכלי",
-      "event type: נזק או אבדן לרכוש צד שלישי",
-      "section: טיפול בתביעות",
-      "clause: 28.1",
-      "clause: 28.2"
+      "מוות, מחלה, פגיעה, ליקוי גופני, ליקוי נפשי ליקוי שכלי: סעיף 27.1",
+      "נזק או אבדן לרכוש צד שלישי: סעיף 27.2",
+      "טיפול בתביעות: סעיף 28",
+      "תשלום לצד שלישי: סעיפים 28.1, 28.2"
     ],
     "product_hints": [
-      "מכלול"
+      "מכלול",
+      "לחבר מושב"
     ]
   },
   "sketch": ".  מוות, מחלה, פגיעה, ליקוי גופני, לקוי נפשי ליקוי שכלי. 27.1\n.  נזק או אבדן לרכוש צד שלישי. 27.2\n. טיפול בתביעות 28\n.  המבטח רשאי, ולפי דרישת צד שלישי - חייב, לשלם לצד השלישי את תגמולי הביטוח 28.1 28.2 שהמבטח חייב למבוטח, ובלבד שהודיע על כך בכתב למבוטח כאמור בסעיף והמבוטח לא התנגד כאמור באותו הסעיף, ואולם טענה שהמבטח יכול לטעון כלפי מבוטח תעמוד לו גם כלפי צד שלישי.",
-  "embed_text": "פוליסת מכלול מספקת כיסוי במקרים של מוות, מחלה, פגיעה, ליקוי גופני או נפשי. הכיסוי חל על נזק או אבדן לרכוש של צד שלישי. במקרה של תביעה, המבטח רשאי לשלם לצד השלישי את תגמולי הביטוח, בכפוף לתנאים מסוימים.",
-  "payload": "טבלה: מכלול - אחריות כלפי צד שלישי\nThis table details coverage for various liability scenarios under the 'Mekhalel' insurance policy. It outlines the types of events covered and the conditions for payment to a third party.\nממדים: types of covered events/liability, conditions/details of coverage\n\n.  מוות, מחלה, פגיעה, ליקוי גופני, לקוי נפשי ליקוי שכלי. 27.1\n.  נזק או אבדן לרכוש צד שלישי. 27.2\n. טיפול בתביעות 28\n.  המבטח רשאי, ולפי דרישת צד שלישי - חייב, לשלם לצד השלישי את תגמולי הביטוח 28.1 28.2 שהמבטח חייב למבוטח, ובלבד שהודיע על כך בכתב למבוטח כאמור בסעיף והמבוטח לא התנגד כאמור באותו הסעיף, ואולם טענה שהמבטח יכול לטעון כלפי מבוטח תעמוד לו גם כלפי צד שלישי."
+  "embed_text": "טבלה זו מתארת את הכיסויים והחריגים בפוליסת ביטוח מכלול לחבר מושב. ניתן לעיין בה כדי להבין אילו מקרים מכוסים, כגון מוות, מחלה, פגיעה, נזק לרכוש צד שלישי, וטיפול בתביעות. הפוליסה מאפשרת תשלום ישיר לצד שלישי בתנאים מסוימים, וכן קובעת את תנאי הכיסוי במקרה של תביעות מרובות. כיסויים כוללים מוות, מחלה, פגיעה, ליקוי גופני, ליקוי נפשי, ליקוי שכלי, ונזק או אבדן לרכוש צד שלישי. This table outlines covered events and liability exclusions under the insurance policy. It details situations where the insurer is obligated to pay benefits, and circumstances where coverage is limited or denied. בין הערכים בטבלה: מוות, מחלה, פגיעה, ליקוי גופני, ליקוי נפשי ליקוי שכלי: סעיף 27.1; תשלום לצד שלישי: סעיפים 28.1, 28.2.",
+  "payload": "טבלה: כיסויים וחריגים\nThis table outlines covered events and liability exclusions under the insurance policy. It details situations where the insurer is obligated to pay benefits, and circumstances where coverage is limited or denied.\nממדים: סוגי אירועים / תנאים, תיאור הכיסוי / החריגה\n\n.  מוות, מחלה, פגיעה, ליקוי גופני, לקוי נפשי ליקוי שכלי. 27.1\n.  נזק או אבדן לרכוש צד שלישי. 27.2\n. טיפול בתביעות 28\n.  המבטח רשאי, ולפי דרישת צד שלישי - חייב, לשלם לצד השלישי את תגמולי הביטוח 28.1 28.2 שהמבטח חייב למבוטח, ובלבד שהודיע על כך בכתב למבוטח כאמור בסעיף והמבוטח לא התנגד כאמור באותו הסעיף, ואולם טענה שהמבטח יכול לטעון כלפי מבוטח תעמוד לו גם כלפי צד שלישי."
 }

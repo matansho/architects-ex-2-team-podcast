@@ -2,23 +2,23 @@
   "id": "pdf:apartment/files/חוברת-כללים.pdf#85",
   "source": "llm",
   "description": {
-    "title": "תביעות רכוש דירות",
-    "summary": "This table outlines the process for filing property damage claims for apartments. It details steps like reporting the incident, cooperating with adjusters, and receiving payment.",
-    "embed_passage": "חברת הראל מציעה ביטוח רכוש לדירות, ובתהליך התביעה תוכל להתעדכן בסטטוס התביעה באתר החברה www.harel-group.co.il. לאחר פתיחת האירוע, תשלום תגמולי הביטוח יבוצעו בהעברה בנקאית או בהמחאה. במקרה של עוסק מורשה או חברה בע\"מ, חברת הראל תפחית את רכיב המע\"מ מהתשלום.",
-    "row_axis": "stages of a property claim",
-    "column_axis": "details/instructions for each stage",
+    "title": "הנחיות תביעת רכוש",
+    "summary": "This table outlines instructions for property claim procedures, specifically for apartment claims. It details how to update claim status and how payments are processed.",
+    "embed_passage": "טבלה זו מפרטת הנחיות לפעולה במקרה של תביעת רכוש לדירה, כולל עדכון סטטוס התביעה באתר החברה ואופן קבלת התשלום. ניתן להתעדכן בסטטוס התביעה באתר www.harel-group.co.il. הראל, תשלום, תביעה, דירה, נזק, מע״מ. בכל שלב לאחר פתיחת האירוע, תוכל להתעדכן בסטטוס תביעתך באתר החברה. תשלום תגמולי הביטוח יבוצעו בהעברה בנקאית או בהמחאה. אם מדובר בעוסק מורשה ו/או חברה בע״מ, חברתנו תפחית את רכיב המע״מ מהתשלום.",
+    "row_axis": "instructions for property claims",
+    "column_axis": "claim process details",
     "units": [],
     "notable_values": [
-      "website: www.harel-group.co.il",
-      "event number: provided after reporting",
-      "payment method: bank transfer or check"
+      "www.harel-group.co.il: website for claim status updates",
+      "מע״מ: VAT component for authorized dealers/Ltd. companies",
+      "העברה בנקאית: bank transfer payment method",
+      "המחאה: check payment method"
     ],
     "product_hints": [
-      "ביטוח רכוש דירות",
       "הראל"
     ]
   },
   "sketch": ".  כל הודעת תשלום מלא ו/או חלקי ו/או פשרה ו/או דחייה תישלח באופן מפורט אליך 8 ו/או לב\"כ, עם סיום בדיקת התביעה. תשלום תגמולי הביטוח יבוצעו בהעברה בנקאית או בהמחאה. אם מדובר בעוסק מורשה ו/או חברה בע\"מ, חברתנו תפחית את רכיב המע\"מ מהתשלום.\n: .  בכל שלב לאחר פתיחת האירוע, תוכל להתעדכן בסטטוס תביעתך, באתר החברה 9 .www.harel-group.co.il\n-הנחיות בדבר אופן הפעולה הנדרש מתובע רכוש דירות\n)למעט טיפול בנזק מים במסגרת כיסוי שרברב שבהסדר(\n*** ***המסמך נרשם בלשון זכר למען הנוחות בלבד",
-  "embed_text": "חברת הראל מציעה ביטוח רכוש לדירות, ובתהליך התביעה תוכל להתעדכן בסטטוס התביעה באתר החברה www.harel-group.co.il. לאחר פתיחת האירוע, תשלום תגמולי הביטוח יבוצעו בהעברה בנקאית או בהמחאה. במקרה של עוסק מורשה או חברה בע\"מ, חברת הראל תפחית את רכיב המע\"מ מהתשלום.",
-  "payload": "טבלה: תביעות רכוש דירות\nThis table outlines the process for filing property damage claims for apartments. It details steps like reporting the incident, cooperating with adjusters, and receiving payment.\nממדים: stages of a property claim, details/instructions for each stage\n\n.  כל הודעת תשלום מלא ו/או חלקי ו/או פשרה ו/או דחייה תישלח באופן מפורט אליך 8 ו/או לב\"כ, עם סיום בדיקת התביעה. תשלום תגמולי הביטוח יבוצעו בהעברה בנקאית או בהמחאה. אם מדובר בעוסק מורשה ו/או חברה בע\"מ, חברתנו תפחית את רכיב המע\"מ מהתשלום.\n: .  בכל שלב לאחר פתיחת האירוע, תוכל להתעדכן בסטטוס תביעתך, באתר החברה 9 .www.harel-group.co.il\n-הנחיות בדבר אופן הפעולה הנדרש מתובע רכוש דירות\n)למעט טיפול בנזק מים במסגרת כיסוי שרברב שבהסדר(\n*** ***המסמך נרשם בלשון זכר למען הנוחות בלבד"
+  "embed_text": "טבלה זו מפרטת הנחיות לפעולה במקרה של תביעת רכוש לדירה, כולל עדכון סטטוס התביעה באתר החברה ואופן קבלת התשלום. ניתן להתעדכן בסטטוס התביעה באתר www.harel-group.co.il. הראל, תשלום, תביעה, דירה, נזק, מע״מ. בכל שלב לאחר פתיחת האירוע, תוכל להתעדכן בסטטוס תביעתך באתר החברה. תשלום תגמולי הביטוח יבוצעו בהעברה בנקאית או בהמחאה. אם מדובר בעוסק מורשה ו/או חברה בע״מ, חברתנו תפחית את רכיב המע״מ מהתשלום. This table outlines instructions for property claim procedures, specifically for apartment claims. It details how to update claim status and how payments are processed.",
+  "payload": "טבלה: הנחיות תביעת רכוש\nThis table outlines instructions for property claim procedures, specifically for apartment claims. It details how to update claim status and how payments are processed.\nממדים: instructions for property claims, claim process details\n\n.  כל הודעת תשלום מלא ו/או חלקי ו/או פשרה ו/או דחייה תישלח באופן מפורט אליך 8 ו/או לב\"כ, עם סיום בדיקת התביעה. תשלום תגמולי הביטוח יבוצעו בהעברה בנקאית או בהמחאה. אם מדובר בעוסק מורשה ו/או חברה בע\"מ, חברתנו תפחית את רכיב המע\"מ מהתשלום.\n: .  בכל שלב לאחר פתיחת האירוע, תוכל להתעדכן בסטטוס תביעתך, באתר החברה 9 .www.harel-group.co.il\n-הנחיות בדבר אופן הפעולה הנדרש מתובע רכוש דירות\n)למעט טיפול בנזק מים במסגרת כיסוי שרברב שבהסדר(\n*** ***המסמך נרשם בלשון זכר למען הנוחות בלבד"
 }

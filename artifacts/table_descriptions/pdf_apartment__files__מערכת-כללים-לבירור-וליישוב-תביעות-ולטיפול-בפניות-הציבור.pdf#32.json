@@ -2,22 +2,22 @@
   "id": "pdf:apartment/files/מערכת-כללים-לבירור-וליישוב-תביעות-ולטיפול-בפניות-הציבור.pdf#32",
   "source": "llm",
   "description": {
-    "title": "שינוי תשלומים",
-    "summary": "This table details the rules for re-examining eligibility for periodic payments and modifying those payments. It outlines notification requirements when payments are reduced or stopped.",
-    "embed_passage": "פוליסות ביטוח של הראל עשויות לכלול תשלומים עיתיים, אשר עשויים להשתנות לאחר בדיקה מחודשת של הזכאות. לדוגמה, אם תחילת תקופת הביטוח היא 1/6/2011, הראל תצרף להודעת השינוי את הכללים שקבעה לבדיקה מחודשת. ההודעה תכלול את כל הנימוקים להפסקת התשלומים.",
-    "row_axis": "rules regarding changes to periodic payments",
-    "column_axis": "details of the notification process and conditions for payment modification",
+    "title": "כללי בירור תביעות",
+    "summary": "This table outlines the rules for re-examining eligibility for periodic payments and notifying claimants of changes. It details procedures for adjustments or cessation of payments, particularly concerning policies initiated on or after June 1, 2011.",
+    "embed_passage": "טבלה זו מתארת את הכללים לבירור תביעות, בדגש על בדיקה מחודשת של זכאות לתשלומים עיתיים ומתן הודעה על שינויים. הכללים חלים על פוליסות ביטוח, במיוחד אלו שתחילת תקופת הביטוח שלהן היא ביום 1/6/2011 ואילך. הראל פועלת על פי כללים סבירים או תנאי הפוליסה בעת בחינה מחודשת של זכאות. הודעה על שינוי בתשלומים תימסר לתובע לפחות שלושים יום מראש. הראל, בדיקה מחודשת, תשלומים עיתיים, 1/6/2011, הודעת שינוי.",
+    "row_axis": "סוגי תביעות / תנאי הפוליסה",
+    "column_axis": "הוראות / פעולות",
     "units": [],
     "notable_values": [
-      "date: 1/6/2011",
-      "notification period: 30-60 days",
-      "payment type: periodic payments"
+      "תאריך תחילת פוליסה: 1/6/2011",
+      "הודעה מראש על שינוי: לפחות 30 יום",
+      "השבת סכומים: אפשרית במקרה של תשלום ביתר"
     ],
     "product_hints": [
       "הראל"
     ]
   },
   "sketch": "הודעת שינוי תכלול את כל הנימוקים המונחים ביסוד ההחלטה להקטין או להפסיק את תשלום התשלומים העיתיים, ויחולו עליה ההוראות לעניין הודעת דחייה וחוות דעת מומחה, בשינויים המחויבים.\nבכל מקרה ייעשה השינוי רק לאחר שנמסרה לתובע הודעה על הכוונה להקטין או להפסיק את התשלומים; למען הסר ספק, אין באמור לעיל כדי לגרוע מזכותה של הראל לדרוש השבת סכומים בגין תשלומים ששולמו ביתר טרם מועד ביצוע השינוי האמור. , תצרף 1/6/2011 לגבי פוליסות שתחילת תקופת הביטוח הקבועה בהן היא לפני יום הראל להודעת השינוי את הכללים שקבעה לעניין בדיקה מחודשת של הזכאות.",
-  "embed_text": "פוליסות ביטוח של הראל עשויות לכלול תשלומים עיתיים, אשר עשויים להשתנות לאחר בדיקה מחודשת של הזכאות. לדוגמה, אם תחילת תקופת הביטוח היא 1/6/2011, הראל תצרף להודעת השינוי את הכללים שקבעה לבדיקה מחודשת. ההודעה תכלול את כל הנימוקים להפסקת התשלומים.",
-  "payload": "טבלה: שינוי תשלומים\nThis table details the rules for re-examining eligibility for periodic payments and modifying those payments. It outlines notification requirements when payments are reduced or stopped.\nממדים: rules regarding changes to periodic payments, details of the notification process and conditions for payment modification\n\nהודעת שינוי תכלול את כל הנימוקים המונחים ביסוד ההחלטה להקטין או להפסיק את תשלום התשלומים העיתיים, ויחולו עליה ההוראות לעניין הודעת דחייה וחוות דעת מומחה, בשינויים המחויבים.\nבכל מקרה ייעשה השינוי רק לאחר שנמסרה לתובע הודעה על הכוונה להקטין או להפסיק את התשלומים; למען הסר ספק, אין באמור לעיל כדי לגרוע מזכותה של הראל לדרוש השבת סכומים בגין תשלומים ששולמו ביתר טרם מועד ביצוע השינוי האמור. , תצרף 1/6/2011 לגבי פוליסות שתחילת תקופת הביטוח הקבועה בהן היא לפני יום הראל להודעת השינוי את הכללים שקבעה לעניין בדיקה מחודשת של הזכאות."
+  "embed_text": "טבלה זו מתארת את הכללים לבירור תביעות, בדגש על בדיקה מחודשת של זכאות לתשלומים עיתיים ומתן הודעה על שינויים. הכללים חלים על פוליסות ביטוח, במיוחד אלו שתחילת תקופת הביטוח שלהן היא ביום 1/6/2011 ואילך. הראל פועלת על פי כללים סבירים או תנאי הפוליסה בעת בחינה מחודשת של זכאות. הודעה על שינוי בתשלומים תימסר לתובע לפחות שלושים יום מראש. הראל, בדיקה מחודשת, תשלומים עיתיים, 1/6/2011, הודעת שינוי. This table outlines the rules for re-examining eligibility for periodic payments and notifying claimants of changes. It details procedures for adjustments or cessation of payments, particularly concerning policies initiated on or after June 1, 2011. בין הערכים בטבלה: הודעה מראש על שינוי: לפחות 30 יום; השבת סכומים: אפשרית במקרה של תשלום ביתר.",
+  "payload": "טבלה: כללי בירור תביעות\nThis table outlines the rules for re-examining eligibility for periodic payments and notifying claimants of changes. It details procedures for adjustments or cessation of payments, particularly concerning policies initiated on or after June 1, 2011.\nממדים: סוגי תביעות / תנאי הפוליסה, הוראות / פעולות\n\nהודעת שינוי תכלול את כל הנימוקים המונחים ביסוד ההחלטה להקטין או להפסיק את תשלום התשלומים העיתיים, ויחולו עליה ההוראות לעניין הודעת דחייה וחוות דעת מומחה, בשינויים המחויבים.\nבכל מקרה ייעשה השינוי רק לאחר שנמסרה לתובע הודעה על הכוונה להקטין או להפסיק את התשלומים; למען הסר ספק, אין באמור לעיל כדי לגרוע מזכותה של הראל לדרוש השבת סכומים בגין תשלומים ששולמו ביתר טרם מועד ביצוע השינוי האמור. , תצרף 1/6/2011 לגבי פוליסות שתחילת תקופת הביטוח הקבועה בהן היא לפני יום הראל להודעת השינוי את הכללים שקבעה לעניין בדיקה מחודשת של הזכאות."
 }

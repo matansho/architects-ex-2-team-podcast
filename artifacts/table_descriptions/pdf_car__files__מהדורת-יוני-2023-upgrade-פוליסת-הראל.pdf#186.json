@@ -2,26 +2,24 @@
   "id": "pdf:car/files/מהדורת-יוני-2023-upgrade-פוליסת-הראל.pdf#186",
   "source": "llm",
   "description": {
-    "title": "הראל - החלפת רכב",
-    "summary": "This table details adjustments to car insurance premiums when a vehicle is replaced during the policy period. It outlines how premium differences are handled proportionally to the remaining policy term.",
-    "embed_passage": "פוליסת הראל מאפשרת החלפת רכב במהלך תקופת הביטוח. במקרה של החלפה, דמי הביטוח מחושבים באופן יחסי לתקופת הביטוח שנותרה, למשל בתוך 30 ימים מיום ההחלפה. ההפרש בדמי הביטוח בין הרכב המוחלף לרכב החליפי יוחזר או ייגבה בהתאם.",
-    "row_axis": "Scenario of vehicle replacement and premium adjustment",
-    "column_axis": "Policy clauses related to vehicle replacement",
-    "units": [
-      "ימים"
-    ],
+    "title": "העברת כיסוי ביטוחי",
+    "summary": "This table details the adjustments to insurance premiums when a vehicle is replaced during the policy period. It outlines how premium differences are handled based on whether the replacement vehicle has higher or lower insurance costs.",
+    "embed_passage": "טבלה זו מתארת את ההתאמות בדמי הביטוח כאשר רכב מוחלף במהלך תקופת הפוליסה. הפוליסה היא פוליסת הראל, והטבלה מפרטת כיצד מחושב ההפרש בדמי הביטוח בין הרכב המוחלף לרכב החליפי, בהתאם לתקופה שנותרה בפוליסה. ניתן למצוא מידע על החלפת רכב, תשלום הפרשים בדמי ביטוח, וסעיפים הקשורים להעברת הכיסוי הביטוחי. סעיפים 44.1, 44.2, 44.3 ו-44.4 מופיעים בטבלה זו. הרכב המוחלף, הרכב החליפי, ותקופת הביטוח שנותרה הם מרכיבים מרכזיים בחישובים.",
+    "row_axis": "תנאי החלפת רכב",
+    "column_axis": "הפרש בדמי ביטוח",
+    "units": [],
     "notable_values": [
-      "30: Number of days for proportional adjustment",
-      "44.1: Clause regarding transferring coverage to a replacement vehicle",
-      "44.2: Clause regarding premium difference when replacement vehicle is cheaper",
-      "44.3: Clause regarding premium difference when replacement vehicle is more expensive",
-      "44.4: Clause preventing insurer from charging for coverage transfer"
+      "תקופה: 30 ימים",
+      "סעיף: 44.1",
+      "סעיף: 44.2",
+      "סעיף: 44.3",
+      "סעיף: 44.4"
     ],
     "product_hints": [
-      "הראל"
+      "פוליסת הראל"
     ]
   },
   "sketch": "היו ביום ההחלפה, דמי הביטוח בעבור הרכב המוחלף נמוכים מדמי הביטוח בעבור הרכב .44.2 החליפי, ישלם המבוטח למבטח את ההפרש, באופן יחסי לתקופת הביטוח שנותרה בתוך ימים מיום ההחלפה. 30\nהיו ביום ההחלפה, דמי הביטוח בעבור הרכב המוחלף גבוהים מדמי הביטוח בעבור הרכב .44.3 החליפי, ישלם המבטח למבוטח את ההפרש, באופן יחסי לתקופת הביטוח שנותרה בתוך ימים מיום ההחלפה. 30\nכדי למנוע ממבטח לדרוש תשלום לכיסוי 44.3 ,44.2 ,44.1 אין באמור בסעיפים קטנים .44.4 הוצאותיו בשל העברת הכיסוי הביטוחי לפי תעריפיו המאושרים.",
-  "embed_text": "פוליסת הראל מאפשרת החלפת רכב במהלך תקופת הביטוח. במקרה של החלפה, דמי הביטוח מחושבים באופן יחסי לתקופת הביטוח שנותרה, למשל בתוך 30 ימים מיום ההחלפה. ההפרש בדמי הביטוח בין הרכב המוחלף לרכב החליפי יוחזר או ייגבה בהתאם.",
-  "payload": "טבלה: הראל - החלפת רכב\nThis table details adjustments to car insurance premiums when a vehicle is replaced during the policy period. It outlines how premium differences are handled proportionally to the remaining policy term.\nממדים: Scenario of vehicle replacement and premium adjustment, Policy clauses related to vehicle replacement\n\nהיו ביום ההחלפה, דמי הביטוח בעבור הרכב המוחלף נמוכים מדמי הביטוח בעבור הרכב .44.2 החליפי, ישלם המבוטח למבטח את ההפרש, באופן יחסי לתקופת הביטוח שנותרה בתוך ימים מיום ההחלפה. 30\nהיו ביום ההחלפה, דמי הביטוח בעבור הרכב המוחלף גבוהים מדמי הביטוח בעבור הרכב .44.3 החליפי, ישלם המבטח למבוטח את ההפרש, באופן יחסי לתקופת הביטוח שנותרה בתוך ימים מיום ההחלפה. 30\nכדי למנוע ממבטח לדרוש תשלום לכיסוי 44.3 ,44.2 ,44.1 אין באמור בסעיפים קטנים .44.4 הוצאותיו בשל העברת הכיסוי הביטוחי לפי תעריפיו המאושרים."
+  "embed_text": "טבלה זו מתארת את ההתאמות בדמי הביטוח כאשר רכב מוחלף במהלך תקופת הפוליסה. הפוליסה היא פוליסת הראל, והטבלה מפרטת כיצד מחושב ההפרש בדמי הביטוח בין הרכב המוחלף לרכב החליפי, בהתאם לתקופה שנותרה בפוליסה. ניתן למצוא מידע על החלפת רכב, תשלום הפרשים בדמי ביטוח, וסעיפים הקשורים להעברת הכיסוי הביטוחי. סעיפים 44.1, 44.2, 44.3 ו-44.4 מופיעים בטבלה זו. הרכב המוחלף, הרכב החליפי, ותקופת הביטוח שנותרה הם מרכיבים מרכזיים בחישובים. This table details the adjustments to insurance premiums when a vehicle is replaced during the policy period. It outlines how premium differences are handled based on whether the replacement vehicle has higher or lower insurance costs.",
+  "payload": "טבלה: העברת כיסוי ביטוחי\nThis table details the adjustments to insurance premiums when a vehicle is replaced during the policy period. It outlines how premium differences are handled based on whether the replacement vehicle has higher or lower insurance costs.\nממדים: תנאי החלפת רכב, הפרש בדמי ביטוח\n\nהיו ביום ההחלפה, דמי הביטוח בעבור הרכב המוחלף נמוכים מדמי הביטוח בעבור הרכב .44.2 החליפי, ישלם המבוטח למבטח את ההפרש, באופן יחסי לתקופת הביטוח שנותרה בתוך ימים מיום ההחלפה. 30\nהיו ביום ההחלפה, דמי הביטוח בעבור הרכב המוחלף גבוהים מדמי הביטוח בעבור הרכב .44.3 החליפי, ישלם המבטח למבוטח את ההפרש, באופן יחסי לתקופת הביטוח שנותרה בתוך ימים מיום ההחלפה. 30\nכדי למנוע ממבטח לדרוש תשלום לכיסוי 44.3 ,44.2 ,44.1 אין באמור בסעיפים קטנים .44.4 הוצאותיו בשל העברת הכיסוי הביטוחי לפי תעריפיו המאושרים."
 }

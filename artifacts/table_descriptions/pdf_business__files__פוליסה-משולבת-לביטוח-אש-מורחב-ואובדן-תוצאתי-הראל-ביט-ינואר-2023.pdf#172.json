@@ -2,24 +2,24 @@
   "id": "pdf:business/files/פוליסה-משולבת-לביטוח-אש-מורחב-ואובדן-תוצאתי-הראל-ביט-ינואר-2023.pdf#172",
   "source": "llm",
   "description": {
-    "title": "הצהרת רואה חשבון",
-    "summary": "This table outlines the evidentiary weight given to accountant declarations regarding business records for insurance claims. It details how verified business data submitted by an accountant is considered prima facie evidence of accuracy.",
-    "embed_passage": "פוליסת הראל ביטוח אש מורחב ואובדן תוצאתי קובעת שכל נתון מספרי בית העסק המבוטח, שאושר על ידי רואה החשבון והועבר למבטח, ישמש כראיה לכאורה לנכונותו. הנתונים הללו משמשים לקביעת סכום הביטוח והשיפוי, בהתאם לתנאי הפוליסה. לדוגמה, אישור רואה חשבון לגבי מחזור שנתי או רווח גולמי יכול להשפיע על גובה הפיצוי.",
-    "row_axis": "aspects of accountant's declaration and its evidentiary value",
-    "column_axis": "details of the declaration and its acceptance as evidence",
+    "title": "הצהרת רואה חשבון / ביטוח חסר",
+    "summary": "This table outlines conditions related to accountant declarations and underinsurance in the 'הראל' policy. It details how verified business records are used as evidence and how payouts are adjusted in cases of underinsurance.",
+    "embed_passage": "טבלה זו עוסקת בהצהרות רואה חשבון וביטוח חסר בפוליסת 'הראל'. הנתונים מספרי העסק המבוטח, שאושרו על ידי רואה החשבון, ישמשו כראיה לכאורה. במקרה של ביטוח חסר, יופחת השיפוי באופן יחסי ליחס בין סכום הביטוח לסכום המתקבל מהכפלת שיעור הרווח הגולמי בסכום המחזור השנתי. הראל ביטוח, רואה חשבון, סכום הביטוח, שיעור הרווח הגולמי, מחזור שנתי, שיעור שכר העבודה.",
+    "row_axis": "conditions related to accountant declarations and underinsurance",
+    "column_axis": "description of the condition",
     "units": [],
     "notable_values": [
-      "סעיף: 11.5",
-      "ראיה לכאורה: נכונות הנתונים",
-      "אישור רואה חשבון: נדרש",
-      "ספרי בית העסק: מקור הנתונים"
+      "רואה חשבון: אישור נכונות נתונים",
+      "סכום הביטוח: קטן מהכפלת שיעור הרווח הגולמי בסכום המחזור השנתי",
+      "שיעור הרווח הגולמי: משמש לחישוב הפחתת שיפוי",
+      "מחזור שנתי: משמש לחישוב הפחתת שיפוי",
+      "שיעור שכר העבודה: משמש לחישוב הפחתת שיפוי"
     ],
     "product_hints": [
-      "הראל ביטוח אש מורחב",
-      "אובדן תוצאתי"
+      "הראל ביטוח"
     ]
   },
   "sketch": "הצהרת רואה חשבון .11.5\nכל נתון מתוך ספרי בית העסק המבוטח, אשר רואה החשבון של המבוטח אישר את נכונותו והעבירו אל המבטח, על פי דרישתו בכפוף לתנאי הפוליסה, ישמש כראיה לכאורה לעניין נכונותו.\nביטוח חסר .11.6\nהיה ובעת קרות מקרה הביטוח, סכום הביטוח הכולל קטן מהסכום המתקבל מהכפלת -שיעור הרווח הגולמי בסכום המחזור השנתי, ובמקרה בו שכר העבודה בוטח בנפרד",
-  "embed_text": "פוליסת הראל ביטוח אש מורחב ואובדן תוצאתי קובעת שכל נתון מספרי בית העסק המבוטח, שאושר על ידי רואה החשבון והועבר למבטח, ישמש כראיה לכאורה לנכונותו. הנתונים הללו משמשים לקביעת סכום הביטוח והשיפוי, בהתאם לתנאי הפוליסה. לדוגמה, אישור רואה חשבון לגבי מחזור שנתי או רווח גולמי יכול להשפיע על גובה הפיצוי.",
-  "payload": "טבלה: הצהרת רואה חשבון\nThis table outlines the evidentiary weight given to accountant declarations regarding business records for insurance claims. It details how verified business data submitted by an accountant is considered prima facie evidence of accuracy.\nממדים: aspects of accountant's declaration and its evidentiary value, details of the declaration and its acceptance as evidence\n\nהצהרת רואה חשבון .11.5\nכל נתון מתוך ספרי בית העסק המבוטח, אשר רואה החשבון של המבוטח אישר את נכונותו והעבירו אל המבטח, על פי דרישתו בכפוף לתנאי הפוליסה, ישמש כראיה לכאורה לעניין נכונותו.\nביטוח חסר .11.6\nהיה ובעת קרות מקרה הביטוח, סכום הביטוח הכולל קטן מהסכום המתקבל מהכפלת -שיעור הרווח הגולמי בסכום המחזור השנתי, ובמקרה בו שכר העבודה בוטח בנפרד"
+  "embed_text": "טבלה זו עוסקת בהצהרות רואה חשבון וביטוח חסר בפוליסת 'הראל'. הנתונים מספרי העסק המבוטח, שאושרו על ידי רואה החשבון, ישמשו כראיה לכאורה. במקרה של ביטוח חסר, יופחת השיפוי באופן יחסי ליחס בין סכום הביטוח לסכום המתקבל מהכפלת שיעור הרווח הגולמי בסכום המחזור השנתי. הראל ביטוח, רואה חשבון, סכום הביטוח, שיעור הרווח הגולמי, מחזור שנתי, שיעור שכר העבודה. This table outlines conditions related to accountant declarations and underinsurance in the 'הראל' policy. It details how verified business records are used as evidence and how payouts are adjusted in cases of underinsurance.",
+  "payload": "טבלה: הצהרת רואה חשבון / ביטוח חסר\nThis table outlines conditions related to accountant declarations and underinsurance in the 'הראל' policy. It details how verified business records are used as evidence and how payouts are adjusted in cases of underinsurance.\nממדים: conditions related to accountant declarations and underinsurance, description of the condition\n\nהצהרת רואה חשבון .11.5\nכל נתון מתוך ספרי בית העסק המבוטח, אשר רואה החשבון של המבוטח אישר את נכונותו והעבירו אל המבטח, על פי דרישתו בכפוף לתנאי הפוליסה, ישמש כראיה לכאורה לעניין נכונותו.\nביטוח חסר .11.6\nהיה ובעת קרות מקרה הביטוח, סכום הביטוח הכולל קטן מהסכום המתקבל מהכפלת -שיעור הרווח הגולמי בסכום המחזור השנתי, ובמקרה בו שכר העבודה בוטח בנפרד"
 }

@@ -2,18 +2,19 @@
   "id": "pdf:travel/files/פוליסת-ביטוח-נסיעות-לחו-ל-שיר-לנוסע-שירביט-מבית-הראל-חברה-לביטוח.pdf#4",
   "source": "llm",
   "description": {
-    "title": "הרחבות לפוליסת נסיעות",
-    "summary": "This table details optional extensions (הרחבות) to the 'שיר לנוסע' travel insurance policy offered by Harel. It lists different types of coverage and their associated limits.",
-    "embed_passage": "פוליסת 'שיר לנוסע' של הראל מציעה הרחבות שונות, כגון כיסוי למצב רפואי קודם שלא החמיר בשישה חודשים (עד $4820222), וכן כיסוי להחמרה של מצב רפואי קודם (עד $4820222). קיימת השתתפות עצמית של $82 עבור פרק זה.",
-    "row_axis": "Type of optional coverage (הרחבה)",
-    "column_axis": "Coverage details (תיאור הכיסוי, גבול האחריות)",
+    "title": "הרחבות הניתנות לרכישה",
+    "summary": "This table lists optional extensions (הרחבות) available for purchase with the 'שיר לנוסע' travel insurance policy from Harel. It details the coverage description (כיסוי) and the coverage limit (גבול האחריות).",
+    "embed_passage": "טבלה זו מציגה הרחבות הניתנות לרכישה במסגרת פוליסת 'שיר לנוסע' של הראל, ומפרטת את תיאור הכיסוי ואת גבול האחריות. ניתן למצוא מידע על כיסוי למצב רפואי קודם, הוצאות רפואיות הקשורות להריון, וסכום ההשתתפות העצמית. הפוליסה כוללת כיסוי להחמרה של מצב רפואי קודם שלא השתנה בששת החודשים שקדמו לרכישת הפוליסה (C), וכן כיסוי להחמרה של מצב רפואי קודם שהשתנה (S). כמו כן, קיימת אפשרות לכיסוי הוצאות הריון עד שבוע 32. סכום ההשתתפות העצמית עבור כל מבוטח עומד על $82.",
+    "row_axis": "Optional extension / Cover description",
+    "column_axis": "Coverage limit / Deductible",
     "units": [
       "$",
-      "שבוע"
+      "₪"
     ],
     "notable_values": [
-      "Maximum coverage for pre-existing condition (C or S): $4820222",
-      "Maximum coverage for pregnancy (up to week 32): $4820222",
+      "Cover for pre-existing condition (C): $4820222",
+      "Cover for pre-existing condition (S): $4820222",
+      "Pregnancy coverage (up to week 32): $4820222",
       "Deductible per insured: $82"
     ],
     "product_hints": [
@@ -22,6 +23,6 @@
     ]
   },
   "sketch": "Optional extensions\nהרחבות הניתנות לרכישה\nCover description,האחריות גבול,הכיסוי\nCover for a pre-existing medical condition which did not change in the 6 months that preceded the date of purchasing the policy (C),עד Up to $4820222,החמרה ללא קודם רפואי מצב לביטוח כיסוי רכישת למועד שקדמו החודשים בששת ( הפוליסה )C\nCover for a pre-existing medical condition which did change in the 6 months that preceded the date of purchasing the policy (S),עד Up to $4820222,בששת קודם רפואי מצב החמרת לביטוח כיסוי ( הפוליסה רכישת למועד שקדמו החודשים )S\nMedical expenses related to pregnancy other than a high risk pregnancy ( up to week 32),עד Up to $4820222,שבוע (עד בסיכון שאינו הריון )14\n\"Deductible for this clause, for each insured\",$82,זה לפרק עצמית השתתפות",
-  "embed_text": "פוליסת 'שיר לנוסע' של הראל מציעה הרחבות שונות, כגון כיסוי למצב רפואי קודם שלא החמיר בשישה חודשים (עד $4820222), וכן כיסוי להחמרה של מצב רפואי קודם (עד $4820222). קיימת השתתפות עצמית של $82 עבור פרק זה.",
-  "payload": "טבלה: הרחבות לפוליסת נסיעות\nThis table details optional extensions (הרחבות) to the 'שיר לנוסע' travel insurance policy offered by Harel. It lists different types of coverage and their associated limits.\nממדים: Type of optional coverage (הרחבה), Coverage details (תיאור הכיסוי, גבול האחריות)\n\nOptional extensions\nהרחבות הניתנות לרכישה\nCover description,האחריות גבול,הכיסוי\nCover for a pre-existing medical condition which did not change in the 6 months that preceded the date of purchasing the policy (C),עד Up to $4820222,החמרה ללא קודם רפואי מצב לביטוח כיסוי רכישת למועד שקדמו החודשים בששת ( הפוליסה )C\nCover for a pre-existing medical condition which did change in the 6 months that preceded the date of purchasing the policy (S),עד Up to $4820222,בששת קודם רפואי מצב החמרת לביטוח כיסוי ( הפוליסה רכישת למועד שקדמו החודשים )S\nMedical expenses related to pregnancy other than a high risk pregnancy ( up to week 32),עד Up to $4820222,שבוע (עד בסיכון שאינו הריון )14\n\"Deductible for this clause, for each insured\",$82,זה לפרק עצמית השתתפות"
+  "embed_text": "טבלה זו מציגה הרחבות הניתנות לרכישה במסגרת פוליסת 'שיר לנוסע' של הראל, ומפרטת את תיאור הכיסוי ואת גבול האחריות. ניתן למצוא מידע על כיסוי למצב רפואי קודם, הוצאות רפואיות הקשורות להריון, וסכום ההשתתפות העצמית. הפוליסה כוללת כיסוי להחמרה של מצב רפואי קודם שלא השתנה בששת החודשים שקדמו לרכישת הפוליסה (C), וכן כיסוי להחמרה של מצב רפואי קודם שהשתנה (S). כמו כן, קיימת אפשרות לכיסוי הוצאות הריון עד שבוע 32. סכום ההשתתפות העצמית עבור כל מבוטח עומד על $82. This table lists optional extensions (הרחבות) available for purchase with the 'שיר לנוסע' travel insurance policy from Harel. It details the coverage description (כיסוי) and the coverage limit (גבול האחריות). בין הערכים בטבלה: Cover for pre-existing condition (C): $4820222; Cover for pre-existing condition (S): $4820222; Pregnancy coverage (up to…",
+  "payload": "טבלה: הרחבות הניתנות לרכישה\nThis table lists optional extensions (הרחבות) available for purchase with the 'שיר לנוסע' travel insurance policy from Harel. It details the coverage description (כיסוי) and the coverage limit (גבול האחריות).\nממדים: Optional extension / Cover description, Coverage limit / Deductible\n\nOptional extensions\nהרחבות הניתנות לרכישה\nCover description,האחריות גבול,הכיסוי\nCover for a pre-existing medical condition which did not change in the 6 months that preceded the date of purchasing the policy (C),עד Up to $4820222,החמרה ללא קודם רפואי מצב לביטוח כיסוי רכישת למועד שקדמו החודשים בששת ( הפוליסה )C\nCover for a pre-existing medical condition which did change in the 6 months that preceded the date of purchasing the policy (S),עד Up to $4820222,בששת קודם רפואי מצב החמרת לביטוח כיסוי ( הפוליסה רכישת למועד שקדמו החודשים )S\nMedical expenses related to pregnancy other than a high risk pregnancy ( up to week 32),עד Up to $4820222,שבוע (עד בסיכון שאינו הריון )14\n\"Deductible for this clause, for each insured\",$82,זה לפרק עצמית השתתפות"
 }

@@ -3,19 +3,19 @@
   "source": "llm",
   "description": {
     "title": "הארכת תקופת הביטוח",
-    "summary": "This table details the automatic renewal terms for an insurance policy. It specifies the extension period and the conditions for opting out of renewal.",
-    "embed_passage": "פוליסת הביטוח תוארך מאליה על ידי המבטח לתקופות נוספות של 12 חודשים בכל פעם. אם המבוטח אינו מעוניין בהארכת הביטוח, עליו למסור הודעה בכתב למבטח לפני תאריך תחילת מועד הארכת הביטוח. לדוגמה, הארכה אוטומטית מתרחשת כל 12 חודשים.",
-    "row_axis": "Renewal conditions/clauses",
-    "column_axis": "Details of renewal process",
+    "summary": "This table details the automatic extension of the insurance policy and the conditions under which the insured can opt out or the insurer can decline renewal. It outlines the notification requirements for both parties.",
+    "embed_passage": "טבלה זו מתארת את הארכת תקופת הביטוח באופן אוטומטי ואת התנאים שבהם המבוטח יכול לבחור שלא להאריך את הביטוח או שהמבטח יכול לסרב להארכה. היא מפרטת את דרישות ההודעה לשני הצדדים. ביטוח זה יוארך מאליו לתקופות נוספות של 12 חודשים בכל פעם. אם המבוטח אינו מעוניין בהארכת הביטוח, עליו למסור הודעה בכתב למבטח לפני תאריך תחילת מועד הארכת הביטוח. במקרה כזה לא יוארך הביטוח. המבוטח הראשי ינהל כל משא ומתן עם המבטח בשם כל המבוטחים.",
+    "row_axis": "Extension conditions",
+    "column_axis": "Policy extension details",
     "units": [],
     "notable_values": [
-      "extension period: 12 חודשים"
+      "Extension period: 12 חודשים"
     ],
     "product_hints": [
       "ביטוח רכוש"
     ]
   },
   "sketch": ".17 הארכת תקופת הביטוח\n. 17.1 חודשים בכל פעם. 12 ביטוח זה יוארך מאליו, על ידי המבטח, לתקופות נוספות של\n. 17.2 , אם המבוטח אינו מעוניין בהארכת הביטוח, ימסור המבוטח הודעה בכתב למבטח , לפני תאריך תחילת מועד הארכת הביטוח, ויבקש שלא להאריך את הביטוח ובמקרה כזה לא יוארך הביטוח.",
-  "embed_text": "פוליסת הביטוח תוארך מאליה על ידי המבטח לתקופות נוספות של 12 חודשים בכל פעם. אם המבוטח אינו מעוניין בהארכת הביטוח, עליו למסור הודעה בכתב למבטח לפני תאריך תחילת מועד הארכת הביטוח. לדוגמה, הארכה אוטומטית מתרחשת כל 12 חודשים.",
-  "payload": "טבלה: הארכת תקופת הביטוח\nThis table details the automatic renewal terms for an insurance policy. It specifies the extension period and the conditions for opting out of renewal.\nממדים: Renewal conditions/clauses, Details of renewal process\n\n.17 הארכת תקופת הביטוח\n. 17.1 חודשים בכל פעם. 12 ביטוח זה יוארך מאליו, על ידי המבטח, לתקופות נוספות של\n. 17.2 , אם המבוטח אינו מעוניין בהארכת הביטוח, ימסור המבוטח הודעה בכתב למבטח , לפני תאריך תחילת מועד הארכת הביטוח, ויבקש שלא להאריך את הביטוח ובמקרה כזה לא יוארך הביטוח."
+  "embed_text": "טבלה זו מתארת את הארכת תקופת הביטוח באופן אוטומטי ואת התנאים שבהם המבוטח יכול לבחור שלא להאריך את הביטוח או שהמבטח יכול לסרב להארכה. היא מפרטת את דרישות ההודעה לשני הצדדים. ביטוח זה יוארך מאליו לתקופות נוספות של 12 חודשים בכל פעם. אם המבוטח אינו מעוניין בהארכת הביטוח, עליו למסור הודעה בכתב למבטח לפני תאריך תחילת מועד הארכת הביטוח. במקרה כזה לא יוארך הביטוח. המבוטח הראשי ינהל כל משא ומתן עם המבטח בשם כל המבוטחים. This table details the automatic extension of the insurance policy and the conditions under which the insured can opt out or the insurer can decline renewal. It outlines the notification requirements for both parties.",
+  "payload": "טבלה: הארכת תקופת הביטוח\nThis table details the automatic extension of the insurance policy and the conditions under which the insured can opt out or the insurer can decline renewal. It outlines the notification requirements for both parties.\nממדים: Extension conditions, Policy extension details\n\n.17 הארכת תקופת הביטוח\n. 17.1 חודשים בכל פעם. 12 ביטוח זה יוארך מאליו, על ידי המבטח, לתקופות נוספות של\n. 17.2 , אם המבוטח אינו מעוניין בהארכת הביטוח, ימסור המבוטח הודעה בכתב למבטח , לפני תאריך תחילת מועד הארכת הביטוח, ויבקש שלא להאריך את הביטוח ובמקרה כזה לא יוארך הביטוח."
 }

@@ -3,25 +3,22 @@
   "source": "llm",
   "description": {
     "title": "מועדי טיפול בתביעות",
-    "summary": "This table details the timeframes for handling claims, specifically regarding water damage, as outlined in circulars related to claim settlement and public inquiries. It specifies the number of business days required for various steps in the process.",
-    "embed_passage": "פוליסת ביטוח דירה כוללת מועדי טיפול מוגדרים בתביעות נזקי מים. לדוגמה, מסירת העתקים של הפוליסה תיעשה תוך 14 ימי עסקים ממועד הבקשה, או 21 ימי עסקים אם התובע חתם על מסמך. תיקון נזק באמצעות שרברב בהסדר יתחיל תוך 2 ימי עסקים.",
-    "row_axis": "Claim handling step",
-    "column_axis": "Timeframe (business days)",
-    "units": [
-      "ימי עסקים"
-    ],
+    "summary": "This table details timeframes for handling claims, specifically regarding damage repair and document delivery. It shows the number of business days required for various steps in the claims process.",
+    "embed_passage": "טבלה זו מציגה את מועדי הטיפול בתביעות, כפי שנקבעו בחוזרים של חברת הביטוח. המידע מיועד לשימוש בעת הגשת תביעה, ומפרט את מספר ימי העסקים הנדרשים לשלבים שונים בתהליך, כגון מסירת העתקים של הפוליסה ותחילת תיקון הנזק. ניתן לחפש מידע לפי סוג הפעולה (לדוגמה, מסירת העתקים) או לפי סוג ההסדר (לדוגמה, שרברב בהסדר). הפוליסות הרלוונטיות הן אלו שנרכשו לאחר ה-030917. מופיעים כאן זמני המתנה לשרברב בהסדר, מסירת העתקים של הפוליסה, וקבלת מענה בכתב. הנתונים כוללים 14 ימי עסקים, 21 ימי עסקים, 2 ימי עבודה ושעתיים.",
+    "row_axis": "סוג פעולה / שלב בתהליך",
+    "column_axis": "מספר ימי עסקים / זמן המתנה",
+    "units": [],
     "notable_values": [
-      "מסירת העתקים: 14",
-      "מסירת העתקים (חתם התובע): 21",
-      "תיקון נזק (שרברב): 2",
-      "זמן המתנה לשרברב: 3",
-      "ית בכתב מענה: 8"
+      "מסירת העתקים: 14 ימי עסקים",
+      "מסירת העתקים (חתם התובע): 21 ימי עסקים",
+      "תיקון נזק (שרברב בהסדר): 2 ימי עבודה",
+      "זמן המתנה לשרברב בהסדר: שעתיים"
     ],
     "product_hints": [
       "ביטוח דירה"
     ]
   },
   "sketch": "ית בכתב מענה,)יד( 8\nהבקשה. קבלת ממועד עסקים ימי 14,או מפוליסה העתקים מסירת מתקנון.,(1)( )טו 8\nהבקשה. קבלת ממועד עסקים ימי 21,שעליו מסמך מכל העתקים מסירת התובע. חתם,(3)( )טו 8\nהניהול. לחברת הפניה ממועד עבודה ימי 2,באמצעות הנזק תיקון תחילת שבהסדר. שרברב,(1) ה\nשעתיים. על יעלה לא,שבהסדר. לשרברב המתנה זמן,(3) ה",
-  "embed_text": "פוליסת ביטוח דירה כוללת מועדי טיפול מוגדרים בתביעות נזקי מים. לדוגמה, מסירת העתקים של הפוליסה תיעשה תוך 14 ימי עסקים ממועד הבקשה, או 21 ימי עסקים אם התובע חתם על מסמך. תיקון נזק באמצעות שרברב בהסדר יתחיל תוך 2 ימי עסקים.",
-  "payload": "טבלה: מועדי טיפול בתביעות\nThis table details the timeframes for handling claims, specifically regarding water damage, as outlined in circulars related to claim settlement and public inquiries. It specifies the number of business days required for various steps in the process.\nממדים: Claim handling step, Timeframe (business days)\n\nית בכתב מענה,)יד( 8\nהבקשה. קבלת ממועד עסקים ימי 14,או מפוליסה העתקים מסירת מתקנון.,(1)( )טו 8\nהבקשה. קבלת ממועד עסקים ימי 21,שעליו מסמך מכל העתקים מסירת התובע. חתם,(3)( )טו 8\nהניהול. לחברת הפניה ממועד עבודה ימי 2,באמצעות הנזק תיקון תחילת שבהסדר. שרברב,(1) ה\nשעתיים. על יעלה לא,שבהסדר. לשרברב המתנה זמן,(3) ה"
+  "embed_text": "טבלה זו מציגה את מועדי הטיפול בתביעות, כפי שנקבעו בחוזרים של חברת הביטוח. המידע מיועד לשימוש בעת הגשת תביעה, ומפרט את מספר ימי העסקים הנדרשים לשלבים שונים בתהליך, כגון מסירת העתקים של הפוליסה ותחילת תיקון הנזק. ניתן לחפש מידע לפי סוג הפעולה (לדוגמה, מסירת העתקים) או לפי סוג ההסדר (לדוגמה, שרברב בהסדר). הפוליסות הרלוונטיות הן אלו שנרכשו לאחר ה-030917. מופיעים כאן זמני המתנה לשרברב בהסדר, מסירת העתקים של הפוליסה, וקבלת מענה בכתב. הנתונים כוללים 14 ימי עסקים, 21 ימי עסקים, 2 ימי עבודה ושעתיים. This table details timeframes for handling claims, specifically regarding damage repair and document delivery. It shows the number of business days required for various steps in the claims process.",
+  "payload": "טבלה: מועדי טיפול בתביעות\nThis table details timeframes for handling claims, specifically regarding damage repair and document delivery. It shows the number of business days required for various steps in the claims process.\nממדים: סוג פעולה / שלב בתהליך, מספר ימי עסקים / זמן המתנה\n\nית בכתב מענה,)יד( 8\nהבקשה. קבלת ממועד עסקים ימי 14,או מפוליסה העתקים מסירת מתקנון.,(1)( )טו 8\nהבקשה. קבלת ממועד עסקים ימי 21,שעליו מסמך מכל העתקים מסירת התובע. חתם,(3)( )טו 8\nהניהול. לחברת הפניה ממועד עבודה ימי 2,באמצעות הנזק תיקון תחילת שבהסדר. שרברב,(1) ה\nשעתיים. על יעלה לא,שבהסדר. לשרברב המתנה זמן,(3) ה"
 }

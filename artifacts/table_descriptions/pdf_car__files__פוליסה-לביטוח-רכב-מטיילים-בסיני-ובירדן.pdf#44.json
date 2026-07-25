@@ -2,23 +2,23 @@
   "id": "pdf:car/files/פוליסה-לביטוח-רכב-מטיילים-בסיני-ובירדן.pdf#44",
   "source": "llm",
   "description": {
-    "title": "הרחב ביטול ניכוי בלאי",
-    "summary": "This table details the terms for waiving depreciation on vehicle parts in case of loss or damage. It outlines conditions related to vehicle age, repair costs, and ownership of damaged parts.",
-    "embed_passage": "פוליסת ביטוח רכב מטיילים בסיני ובירדן כוללת הרחב לביטול ניכוי בלאי לחלקי הרכב. הפיצוי הכולל לא יעלה על שווי הרכב או סכום הביטוח, הנמוך מביניהם. אם שנת יצור הרכב היא 9, המבטח יישא במלוא עלות החלפת מרכב או חלקים ממנו.",
-    "row_axis": "conditions/clauses related to depreciation waiver",
-    "column_axis": "aspects of the waiver (e.g., total compensation limit, ownership of parts, vehicle age)",
+    "title": "הרחב ביטול ניכוי בלאי לחלקי הרכב",
+    "summary": "This table details the conditions for waiving depreciation on vehicle parts in case of loss or damage. It outlines scenarios where the insurer covers the full replacement cost, excluding certain components.",
+    "embed_passage": "טבלה זו מתארת את התנאים לויתור על ניכוי בלאי בחלקי רכב במקרה של אובדן או נזק. היא מפרטת תרחישים שבהם המבטח מכסה את מלוא עלות ההחלפה, למעט רכיבים מסוימים. פוליסה לביטוח רכב מטיילים בסיני ובירדן מציעה הרחבה זו. ניתן לבדוק את הכיסוי עבור כלי רכב שנת ייצורם, החלפת מרכב או חלקים ממנו, ופנסים. הרחבה זו אינה חלה על צמיגים, מצברים ורדיאטורים. במקרה של נזק למרכב תחתון ולצמיגים, ישנה השתתפות עצמית בתנאים מסוימים.",
+    "row_axis": "conditions for waiving depreciation",
+    "column_axis": "details of coverage and exclusions",
     "units": [],
     "notable_values": [
-      "vehicle age: 9",
-      "total compensation limit: vehicle value or insurance amount",
-      "ownership: insurer gains ownership of damaged parts"
+      "שנים מתחילת הביטוח: 9",
+      "צמיגים: לא חל",
+      "מצברים: לא חל",
+      "רדיאטורים: לא חל"
     ],
     "product_hints": [
-      "ביטוח רכב מטיילים בסיני ובירדן",
-      "הרחב ביטול ניכוי בלאי"
+      "ביטוח רכב מטיילים בסיני ובירדן"
     ]
   },
   "sketch": "10.1 . הפיצוי הכולל כתוצאה ממקרה הנזק לא יעלה על סך הערך הממשי של כלי הרכב או סכום הביטוח הנקוב במפרט, הנמוך משניהם, וכן לא יחול פרק זה על אובדן גמור של כלי הרכב, כאשר ייקבע על-ידי המבטח.\n10.2 . המבטח יהיה זכאי לבעלות מלאה של החלקים הניזוקים לאחר החלפתם באחרים.\n10.3 . שנים מתחילת הביטוח 9הרחב זה לא יחול על כלי רכב ששנת יצורו קודמת ל על פי פוליסה זאת, אולם אם תיקון הרכב יחייב החלפת המרכב או חלקים ממנו או פנס, יישא המבטח במלוא עלות החלפה זו ללא ניכוי בלאי.",
-  "embed_text": "פוליסת ביטוח רכב מטיילים בסיני ובירדן כוללת הרחב לביטול ניכוי בלאי לחלקי הרכב. הפיצוי הכולל לא יעלה על שווי הרכב או סכום הביטוח, הנמוך מביניהם. אם שנת יצור הרכב היא 9, המבטח יישא במלוא עלות החלפת מרכב או חלקים ממנו.",
-  "payload": "טבלה: הרחב ביטול ניכוי בלאי\nThis table details the terms for waiving depreciation on vehicle parts in case of loss or damage. It outlines conditions related to vehicle age, repair costs, and ownership of damaged parts.\nממדים: conditions/clauses related to depreciation waiver, aspects of the waiver (e.g., total compensation limit, ownership of parts, vehicle age)\n\n10.1 . הפיצוי הכולל כתוצאה ממקרה הנזק לא יעלה על סך הערך הממשי של כלי הרכב או סכום הביטוח הנקוב במפרט, הנמוך משניהם, וכן לא יחול פרק זה על אובדן גמור של כלי הרכב, כאשר ייקבע על-ידי המבטח.\n10.2 . המבטח יהיה זכאי לבעלות מלאה של החלקים הניזוקים לאחר החלפתם באחרים.\n10.3 . שנים מתחילת הביטוח 9הרחב זה לא יחול על כלי רכב ששנת יצורו קודמת ל על פי פוליסה זאת, אולם אם תיקון הרכב יחייב החלפת המרכב או חלקים ממנו או פנס, יישא המבטח במלוא עלות החלפה זו ללא ניכוי בלאי."
+  "embed_text": "טבלה זו מתארת את התנאים לויתור על ניכוי בלאי בחלקי רכב במקרה של אובדן או נזק. היא מפרטת תרחישים שבהם המבטח מכסה את מלוא עלות ההחלפה, למעט רכיבים מסוימים. פוליסה לביטוח רכב מטיילים בסיני ובירדן מציעה הרחבה זו. ניתן לבדוק את הכיסוי עבור כלי רכב שנת ייצורם, החלפת מרכב או חלקים ממנו, ופנסים. הרחבה זו אינה חלה על צמיגים, מצברים ורדיאטורים. במקרה של נזק למרכב תחתון ולצמיגים, ישנה השתתפות עצמית בתנאים מסוימים. This table details the conditions for waiving depreciation on vehicle parts in case of loss or damage. It outlines scenarios where the insurer covers the full replacement cost, excluding certain components. בין הערכים בטבלה: שנים מתחילת הביטוח: 9.",
+  "payload": "טבלה: הרחב ביטול ניכוי בלאי לחלקי הרכב\nThis table details the conditions for waiving depreciation on vehicle parts in case of loss or damage. It outlines scenarios where the insurer covers the full replacement cost, excluding certain components.\nממדים: conditions for waiving depreciation, details of coverage and exclusions\n\n10.1 . הפיצוי הכולל כתוצאה ממקרה הנזק לא יעלה על סך הערך הממשי של כלי הרכב או סכום הביטוח הנקוב במפרט, הנמוך משניהם, וכן לא יחול פרק זה על אובדן גמור של כלי הרכב, כאשר ייקבע על-ידי המבטח.\n10.2 . המבטח יהיה זכאי לבעלות מלאה של החלקים הניזוקים לאחר החלפתם באחרים.\n10.3 . שנים מתחילת הביטוח 9הרחב זה לא יחול על כלי רכב ששנת יצורו קודמת ל על פי פוליסה זאת, אולם אם תיקון הרכב יחייב החלפת המרכב או חלקים ממנו או פנס, יישא המבטח במלוא עלות החלפה זו ללא ניכוי בלאי."
 }

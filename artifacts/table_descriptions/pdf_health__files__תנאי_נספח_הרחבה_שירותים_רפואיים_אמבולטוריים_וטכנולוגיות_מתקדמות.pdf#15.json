@@ -2,24 +2,24 @@
   "id": "pdf:health/files/תנאי_נספח_הרחבה_שירותים_רפואיים_אמבולטוריים_וטכנולוגיות_מתקדמות.pdf#15",
   "source": "llm",
   "description": {
-    "title": "הרחבה לשירותים רפואיים",
-    "summary": "This table details coverage amounts for various medical services under a health plan. It specifies the maximum reimbursement amounts for procedures like genetic testing during pregnancy, cancer lab tests, and cord blood preservation.",
-    "embed_passage": "תכנית זו מספקת כיסוי לבדיקות גנטיות טרום לידתי, בדיקות מעבדה לגידולים ממאירים, ושימור דם טבורי. לדוגמה, במקרה של גידול ממאיר, הכיסוי יכול להגיע עד ₪ 4,400. סכום הכיסוי לשימור דם טבורי הוא עד ₪ 500.",
-    "row_axis": "type of medical service / condition",
-    "column_axis": "coverage amount (₪)",
+    "title": "כיסויים רפואיים - נספח הרחבה",
+    "summary": "This table details coverage for medical services, including genetic testing during pregnancy and laboratory tests for malignant tumors. It specifies reimbursement amounts for eligible insured individuals.",
+    "embed_passage": "טבלה זו מתארת כיסויים רפואיים במסגרת תכנית זו, ומפרטת סכומי החזר עבור בדיקות שונות כגון בדיקות גנטיות טרום לידתי ובדיקות מעבדה לגידולים ממאירים. ניתן לחפש מידע על כיסויים ספציפיים לפי סוג הבדיקה או הטיפול. לדוגמה, בדיקות גנטיות טרום לידתי, בדיקות מעבדה לגידולים ממאירים, ושימור דם טבורי. סכומי הכיסוי כוללים ₪ 2,000 לבדיקות הריון, ₪ 500 לשימור דם טבורי, ו-₪ 4,400 לבדיקות מעבדה לגידולים ממאירים.",
+    "row_axis": "סוג בדיקה / טיפול רפואי",
+    "column_axis": "תנאי הכיסוי / סכום החזר",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "genetic testing: ₪ 2,000",
-      "cord blood preservation: ₪ 500",
-      "cancer lab tests: ₪ 4,400"
+      "בדיקות הריון: ₪ 2,000",
+      "שימור דם טבורי: ₪ 500",
+      "בדיקות מעבדה לגידולים ממאירים: ₪ 4,400"
     ],
     "product_hints": [
       "תכנית זו"
     ]
   },
   "sketch": "ם בתכנית ז  ו, יהיה כל אחד מהמבוטחים זכאי להחזר בגין יובהר, כי במקרה בו שני בני הזוג מבוטחי . לעיל 3.6   ו 3.5 הכיסויים המפורטים בסעיפים\nמבוטח אשר נתגלה בגופו גידול ממאיר, יהיה זכאי לבדיקות   גנומיות -בדיקות מעבדה לגידולים ממאירים .3.7 . למקרה ביטוח ₪ 4,400 לגידולים ממאירים, עד לסך של",
-  "embed_text": "תכנית זו מספקת כיסוי לבדיקות גנטיות טרום לידתי, בדיקות מעבדה לגידולים ממאירים, ושימור דם טבורי. לדוגמה, במקרה של גידול ממאיר, הכיסוי יכול להגיע עד ₪ 4,400. סכום הכיסוי לשימור דם טבורי הוא עד ₪ 500.",
-  "payload": "טבלה: הרחבה לשירותים רפואיים\nThis table details coverage amounts for various medical services under a health plan. It specifies the maximum reimbursement amounts for procedures like genetic testing during pregnancy, cancer lab tests, and cord blood preservation.\nממדים: type of medical service / condition, coverage amount (₪)\n\nם בתכנית ז  ו, יהיה כל אחד מהמבוטחים זכאי להחזר בגין יובהר, כי במקרה בו שני בני הזוג מבוטחי . לעיל 3.6   ו 3.5 הכיסויים המפורטים בסעיפים\nמבוטח אשר נתגלה בגופו גידול ממאיר, יהיה זכאי לבדיקות   גנומיות -בדיקות מעבדה לגידולים ממאירים .3.7 . למקרה ביטוח ₪ 4,400 לגידולים ממאירים, עד לסך של"
+  "embed_text": "טבלה זו מתארת כיסויים רפואיים במסגרת תכנית זו, ומפרטת סכומי החזר עבור בדיקות שונות כגון בדיקות גנטיות טרום לידתי ובדיקות מעבדה לגידולים ממאירים. ניתן לחפש מידע על כיסויים ספציפיים לפי סוג הבדיקה או הטיפול. לדוגמה, בדיקות גנטיות טרום לידתי, בדיקות מעבדה לגידולים ממאירים, ושימור דם טבורי. סכומי הכיסוי כוללים ₪ 2,000 לבדיקות הריון, ₪ 500 לשימור דם טבורי, ו-₪ 4,400 לבדיקות מעבדה לגידולים ממאירים. This table details coverage for medical services, including genetic testing during pregnancy and laboratory tests for malignant tumors. It specifies reimbursement amounts for eligible insured individuals.",
+  "payload": "טבלה: כיסויים רפואיים - נספח הרחבה\nThis table details coverage for medical services, including genetic testing during pregnancy and laboratory tests for malignant tumors. It specifies reimbursement amounts for eligible insured individuals.\nממדים: סוג בדיקה / טיפול רפואי, תנאי הכיסוי / סכום החזר\n\nם בתכנית ז  ו, יהיה כל אחד מהמבוטחים זכאי להחזר בגין יובהר, כי במקרה בו שני בני הזוג מבוטחי . לעיל 3.6   ו 3.5 הכיסויים המפורטים בסעיפים\nמבוטח אשר נתגלה בגופו גידול ממאיר, יהיה זכאי לבדיקות   גנומיות -בדיקות מעבדה לגידולים ממאירים .3.7 . למקרה ביטוח ₪ 4,400 לגידולים ממאירים, עד לסך של"
 }

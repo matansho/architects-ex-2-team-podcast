@@ -2,28 +2,28 @@
   "id": "pdf:apartment/files/adira-silver-2025-apartment-plus-contents-אדירה-כסף-פברואר-25-באנגלית.pdf#30",
   "source": "llm",
   "description": {
-    "title": "אדירה כסף - פברואר 25 - כיסוי תכולה",
-    "summary": "This table details limitations on insurance coverage for specific contents items under the Adira Silver February 25 policy. It specifies maximum benefit percentages of the total contents sum insured for items like cash, silver, and artwork.",
-    "embed_passage": "פוליסת אדירה כסף פברואר 25 מגדירה את גובה הפיצוי עבור תכולת הדירה. עבור פריטי כסף, הפיצוי מוגבל עד 10% מסכום הביטוח לתכולה, ופריטים כמו פסלים או עבודות אמנות גם כן מוגבלים ל-10%. סכום הביטוח לתכולה הוא הבסיס לחישוב הפיצוי.",
-    "row_axis": "Specific contents item (e.g., cash, silver, artwork)",
-    "column_axis": "Limitation on insurer's liability (percentage of sum insured)",
-    "units": [
-      "% מסכום הביטוח לתכולה"
-    ],
+    "title": "אדירה כסף - חריגים",
+    "summary": "This table lists exclusions to coverage under the Adira Silver apartment insurance policy. It details items not covered or with limited coverage, and is used to determine what is excluded from a claim.",
+    "embed_passage": "טבלה זו מתארת חריגים לפוליסת ביטוח דירה אדירה כסף, ומפרטת פריטים שאינם מכוסים או מכוסים באופן מוגבל. ניתן לחפש כאן מידע על חריגים ספציפיים, כגון בעלי חיים, ניירות ערך, או כלי נשק. החיפוש נעשה לפי סוג הפריט או הנכס. הפריטים המופיעים כאן כוללים בעלי חיים, ניירות ערך, חוזים, זהב, כסף, כלי נשק, כתבי יד, ציוד עסקי, צ׳קים, פריטים שנמצאו בחצר, מזומן, פריטי כסף, פסלים, שטיחים ופרוות. סכומי הביטוח המוגבלים עבור פריטים מסוימים, כגון מזומן (עד 0.5% מסכום הביטוח לתוכן) ופריטי כסף (עד 10% מסכום הביטוח לתוכן) מפורטים גם הם.",
+    "row_axis": "excluded item/asset",
+    "column_axis": "coverage details (implied)",
+    "units": [],
     "notable_values": [
-      "מזומן: 0.5%",
-      "פריטי כסף: 10%",
-      "פסלים: 10%",
-      "שטיחים: 10%",
-      "אוסף בולים: 5%"
+      "animals: excluded",
+      "securities: excluded",
+      "gold: excluded",
+      "silver: excluded",
+      "weapons: excluded (unless licensed)",
+      "manuscripts: excluded",
+      "business equipment: excluded (unless specified)",
+      "cash: up to 0.5% of contents sum insured"
     ],
     "product_hints": [
-      "אדירה כסף",
-      "פברואר 25",
-      "תכולת דירה"
+      "Adira Silver",
+      "אדירה כסף"
     ]
   },
-  "sketch": "13.2 Animals\n13.3 Securities, bonds, share certificates, loan certificates.\n13.4 Contracts, undertaking documents, deeds of sale, certificates and documents of all kinds.\n13.5 Gold, silver or precious metals in unrefined state, diamonds and precious stones not forming part of a piece of jewelry.\n…\n13.11 Items or objects which are found in the garden, stairwell, on fences or paved pathways constituting part of the apartment, on condition that same are not normally found outside the apartment.\nThe cover under this paragraph in regard to items or objects which are normally located outside the apartment is limited to 2% of the sum insured for the contents.\n14. Limitation on insurer's liability in regard to certain contents items\nIf no special sums insured are explicitly noted in the specification in regard to following contents items, the insurance benefits for loss or damage in respect of every such item shall be limited as follows:",
-  "embed_text": "פוליסת אדירה כסף פברואר 25 מגדירה את גובה הפיצוי עבור תכולת הדירה. עבור פריטי כסף, הפיצוי מוגבל עד 10% מסכום הביטוח לתכולה, ופריטים כמו פסלים או עבודות אמנות גם כן מוגבלים ל-10%. סכום הביטוח לתכולה הוא הבסיס לחישוב הפיצוי.",
-  "payload": "טבלה: אדירה כסף - פברואר 25 - כיסוי תכולה\nThis table details limitations on insurance coverage for specific contents items under the Adira Silver February 25 policy. It specifies maximum benefit percentages of the total contents sum insured for items like cash, silver, and artwork.\nממדים: Specific contents item (e.g., cash, silver, artwork), Limitation on insurer's liability (percentage of sum insured)\n\n13.2 Animals\n13.3 Securities, bonds, share certificates, loan certificates.\n13.4 Contracts, undertaking documents, deeds of sale, certificates and documents of all kinds.\n13.5 Gold, silver or precious metals in unrefined state, diamonds and precious stones not forming part of a piece of jewelry.\n13.6 Weapons, ammunition and explosives, except weapons held under a license.\n13.7 Manuscripts, plans, drawings, diagrams, patterns, molds.\n13.8 Books of account and other business books.\n13.9 Equipment and stock serving the business only, unless noted otherwise in the specification.\n13.10 Checks, t ravelers' c hecks, postal checks, promissory notes and bills of all kinds, travel, flight and sailing tickets and lottery tickets.\n13.11 Items or objects which are found in the garden, stairwell, on fences or paved pathways constituting part of the apartment, on condition that same are not normally found outside the apartment.\nThe cover under this paragraph in regard to items or objects which are normally located outside the apartment is limited to 2% of the sum insured for the contents.\n14. Limitation on insurer's liability in regard to certain contents items\nIf no special sums insured are explicitly noted in the specification in regard to following contents items, the insurance benefits for loss or damage in respect of every such item shall be limited as follows:"
+  "sketch": "13.2 Animals\n13.3 Securities, bonds, share certificates, loan certificates.\n13.4 Contracts, undertaking documents, deeds of sale, certificates and documents of all kinds.\n13.5 Gold, silver or precious metals in unrefined state, diamonds and precious stones not forming part of a piece of jewelry.\n13.6 Weapons, ammunition and explosives, except weapons held under a license.\n13.7 Manuscripts, plans, drawings, diagrams, patterns, molds.\n…\n13.9 Equipment and stock serving the business only, unless noted otherwise in the specification.\n13.10 Checks, t ravelers' c hecks, postal checks, promissory notes and bills of all kinds, travel, flight and sailing tickets and lottery tickets.\n13.11 Items or objects which are found in the garden, stairwell, on fences or paved pathways constituting part of the apartment, on condition that same are not normally found outside the apartment.\nThe cover under this paragraph in regard to items or objects which are normally located outside the apartment is limited to 2% of the sum insured for the contents.\n14. Limitation on insurer's liability in regard to certain contents items\nIf no special sums insured are explicitly noted in the specification in regard to following contents items, the insurance benefits for loss or damage in respect of every such item shall be limited as follows:",
+  "embed_text": "טבלה זו מתארת חריגים לפוליסת ביטוח דירה אדירה כסף, ומפרטת פריטים שאינם מכוסים או מכוסים באופן מוגבל. ניתן לחפש כאן מידע על חריגים ספציפיים, כגון בעלי חיים, ניירות ערך, או כלי נשק. החיפוש נעשה לפי סוג הפריט או הנכס. הפריטים המופיעים כאן כוללים בעלי חיים, ניירות ערך, חוזים, זהב, כסף, כלי נשק, כתבי יד, ציוד עסקי, צ׳קים, פריטים שנמצאו בחצר, מזומן, פריטי כסף, פסלים, שטיחים ופרוות. סכומי הביטוח המוגבלים עבור פריטים מסוימים, כגון מזומן (עד 0.5% מסכום הביטוח לתוכן) ופריטי כסף (עד 10% מסכום הביטוח לתוכן) מפורטים גם הם. This table lists exclusions to coverage under the Adira Silver apartment insurance policy. It details items not covered or with limited coverage, and is used to determine what is excluded from a claim. בין הערכים בטבלה: animals: excluded; securities: excluded; gold: excluded; silver…",
+  "payload": "טבלה: אדירה כסף - חריגים\nThis table lists exclusions to coverage under the Adira Silver apartment insurance policy. It details items not covered or with limited coverage, and is used to determine what is excluded from a claim.\nממדים: excluded item/asset, coverage details (implied)\n\n13.2 Animals\n13.3 Securities, bonds, share certificates, loan certificates.\n13.4 Contracts, undertaking documents, deeds of sale, certificates and documents of all kinds.\n13.5 Gold, silver or precious metals in unrefined state, diamonds and precious stones not forming part of a piece of jewelry.\n13.6 Weapons, ammunition and explosives, except weapons held under a license.\n13.7 Manuscripts, plans, drawings, diagrams, patterns, molds.\n13.8 Books of account and other business books.\n13.9 Equipment and stock serving the business only, unless noted otherwise in the specification.\n13.10 Checks, t ravelers' c hecks, postal checks, promissory notes and bills of all kinds, travel, flight and sailing tickets and lottery tickets.\n13.11 Items or objects which are found in the garden, stairwell, on fences or paved pathways constituting part of the apartment, on condition that same are not normally found outside the apartment.\nThe cover under this paragraph in regard to items or objects which are normally located outside the apartment is limited to 2% of the sum insured for the contents.\n14. Limitation on insurer's liability in regard to certain contents items\nIf no special sums insured are explicitly noted in the specification in regard to following contents items, the insurance benefits for loss or damage in respect of every such item shall be limited as follows:"
 }

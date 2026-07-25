@@ -3,25 +3,24 @@
   "source": "llm",
   "description": {
     "title": "תנאי פוליסת ביטוח מחלות קשות מענקית זהב",
-    "summary": "This table outlines the conditions for policy renewal and cancellation related to the 'מענקית זהב' critical illness insurance plan. It details what happens to supplemental plans when a base plan is cancelled.",
-    "embed_passage": "פוליסת ביטוח בריאות מענקית זהב מתייחסת לחידוש או ביטול של תכניות ביטוח. במקרה של ביטול תכנית בסיס, תכנית נוספת שהותרה לשיווק יחד עמה תבוטל גם היא. תנאי הפוליסה קובעים את ההשלכות של שינויים בתכניות ביטוח, תוך התייחסות למקרים בהם המבוטח לא נתן הסכמה לחידוש.",
-    "row_axis": "Cancellation/Renewal Scenarios",
-    "column_axis": "Policy Conditions & Consequences",
+    "summary": "This table outlines conditions for policy cancellation and the impact on associated plans. It details how the cancellation of a base plan affects supplementary plans.",
+    "embed_passage": "טבלה זו מתארת תנאים לביטול פוליסת ביטוח מחלות קשות מענקית זהב, ובפרט את ההשפעה של ביטול תכנית בסיס על תכניות נלוות. ניתן לעיין בתנאים אלו כדי להבין כיצד ביטול תכנית אחת משפיע על תכניות אחרות שנרכשו במסגרת הפוליסה. התנאים מתייחסים למקרים בהם נדרשת הסכמה מפורשת לחידוש, ביטול כיסוי, וביטול תכניות בסיס. תכנית בסיס, תכנית נוספת, ביטוח, מבוטח, הסכמה מפורשת, ביטול כיסוי, מפקח, שיווק.",
+    "row_axis": "Cancellation scenarios/conditions",
+    "column_axis": "Impact on coverage/plans",
     "units": [],
     "notable_values": [
-      "policy edition: 04/2021",
-      "section: 10.4",
-      "renewal requirement: explicit consent",
-      "cancellation consequence: termination of coverage",
-      "supplemental plan dependency: tied to base plan"
+      "תכנית בסיס: תבוטל גם התכנית הנוספת",
+      "תכנית נוספת: תבוטל גם התכנית הנוספת",
+      "ביטול כיסוי: תבוטל לא ביטוח",
+      "הסכמה מפורשת: נדרשת לחידוש"
     ],
     "product_hints": [
       "מענקית זהב",
-      "ביטוח מחלות קשות",
-      "פוליסת ביטוח בריאות"
+      "תכנית בסיס",
+      "תכנית נוספת"
     ]
   },
   "sketch": "10.4.3 במקרה  של  ביטול  כיסוי  ע\"פ תבוטל לא ביטוח, תכנית הנחה  בתכנית  אחרת,  למעט שניתן מופחת מחיר ביטול למבוטח בשל ש כך רכש מספר תכניות בסיס ושהמפקח לא התנגד לו.\n10.4.4 בסעיף האמור אף על 10.1 לעיל,  הותר  למבטח  שיווק  של תכנית  נוספת  מסוימת  רק  יחד עם תכנית מסוי בסיס מת , אותה המבוטח ע\"י ובוטלה תכנית בסיס תבוטל גם התכנית הנוספת  שהותרה  לשיווק  יחד . עמה\n10.4.5 על אף האמור בסעיף 10.1 לעיל,  בוטלו  כל  תכניות  הבסיס ה ע\"י מבוטח, יבוטלו גם התכניות הנוספות שנלוו לתכניות הבסיס כאמור.",
-  "embed_text": "פוליסת ביטוח בריאות מענקית זהב מתייחסת לחידוש או ביטול של תכניות ביטוח. במקרה של ביטול תכנית בסיס, תכנית נוספת שהותרה לשיווק יחד עמה תבוטל גם היא. תנאי הפוליסה קובעים את ההשלכות של שינויים בתכניות ביטוח, תוך התייחסות למקרים בהם המבוטח לא נתן הסכמה לחידוש.",
-  "payload": "טבלה: תנאי פוליסת ביטוח מחלות קשות מענקית זהב\nThis table outlines the conditions for policy renewal and cancellation related to the 'מענקית זהב' critical illness insurance plan. It details what happens to supplemental plans when a base plan is cancelled.\nממדים: Cancellation/Renewal Scenarios, Policy Conditions & Consequences\n\n10.4.3 במקרה  של  ביטול  כיסוי  ע\"פ תבוטל לא ביטוח, תכנית הנחה  בתכנית  אחרת,  למעט שניתן מופחת מחיר ביטול למבוטח בשל ש כך רכש מספר תכניות בסיס ושהמפקח לא התנגד לו.\n10.4.4 בסעיף האמור אף על 10.1 לעיל,  הותר  למבטח  שיווק  של תכנית  נוספת  מסוימת  רק  יחד עם תכנית מסוי בסיס מת , אותה המבוטח ע\"י ובוטלה תכנית בסיס תבוטל גם התכנית הנוספת  שהותרה  לשיווק  יחד . עמה\n10.4.5 על אף האמור בסעיף 10.1 לעיל,  בוטלו  כל  תכניות  הבסיס ה ע\"י מבוטח, יבוטלו גם התכניות הנוספות שנלוו לתכניות הבסיס כאמור."
+  "embed_text": "טבלה זו מתארת תנאים לביטול פוליסת ביטוח מחלות קשות מענקית זהב, ובפרט את ההשפעה של ביטול תכנית בסיס על תכניות נלוות. ניתן לעיין בתנאים אלו כדי להבין כיצד ביטול תכנית אחת משפיע על תכניות אחרות שנרכשו במסגרת הפוליסה. התנאים מתייחסים למקרים בהם נדרשת הסכמה מפורשת לחידוש, ביטול כיסוי, וביטול תכניות בסיס. תכנית בסיס, תכנית נוספת, ביטוח, מבוטח, הסכמה מפורשת, ביטול כיסוי, מפקח, שיווק. This table outlines conditions for policy cancellation and the impact on associated plans. It details how the cancellation of a base plan affects supplementary plans.",
+  "payload": "טבלה: תנאי פוליסת ביטוח מחלות קשות מענקית זהב\nThis table outlines conditions for policy cancellation and the impact on associated plans. It details how the cancellation of a base plan affects supplementary plans.\nממדים: Cancellation scenarios/conditions, Impact on coverage/plans\n\n10.4.3 במקרה  של  ביטול  כיסוי  ע\"פ תבוטל לא ביטוח, תכנית הנחה  בתכנית  אחרת,  למעט שניתן מופחת מחיר ביטול למבוטח בשל ש כך רכש מספר תכניות בסיס ושהמפקח לא התנגד לו.\n10.4.4 בסעיף האמור אף על 10.1 לעיל,  הותר  למבטח  שיווק  של תכנית  נוספת  מסוימת  רק  יחד עם תכנית מסוי בסיס מת , אותה המבוטח ע\"י ובוטלה תכנית בסיס תבוטל גם התכנית הנוספת  שהותרה  לשיווק  יחד . עמה\n10.4.5 על אף האמור בסעיף 10.1 לעיל,  בוטלו  כל  תכניות  הבסיס ה ע\"י מבוטח, יבוטלו גם התכניות הנוספות שנלוו לתכניות הבסיס כאמור."
 }

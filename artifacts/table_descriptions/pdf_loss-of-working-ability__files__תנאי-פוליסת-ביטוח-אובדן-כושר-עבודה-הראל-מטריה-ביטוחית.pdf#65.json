@@ -2,18 +2,18 @@
   "id": "pdf:loss-of-working-ability/files/תנאי-פוליסת-ביטוח-אובדן-כושר-עבודה-הראל-מטריה-ביטוחית.pdf#65",
   "source": "llm",
   "description": {
-    "title": "אובדן כושר עבודה",
-    "summary": "This table details the process for claiming and receiving benefits from an Harel 'Matria' loss of working ability insurance policy. It outlines timelines for claim decisions, investment options for payouts, and payment calculations.",
-    "embed_passage": "פוליסת ביטוח אובדן כושר עבודה של הראל מטריה ביטוחית מספקת פיצוי חודשי במקרה של אובדן כושר עבודה. סכום הפיצוי החודשי יכול להיות מוצמד לתשואת מסלול השקעה שנבחר על ידי המבוטח, או לתשואת מסלול ברירת מחדל. לדוגמה, סעיף 10.9 מתייחס לבחירת מסלול השקעה לפני תקופת הצמדת הפיצוי למדד.",
-    "row_axis": "claim process steps / policy conditions",
-    "column_axis": "details of the process (e.g., timelines, investment options)",
+    "title": "תנאי פוליסת ביטוח",
+    "summary": "This table outlines conditions related to insurance policy claims, specifically regarding the timing of claim decisions, payment of benefits, and investment options for monthly compensation. It details how the insurance company will notify the insured of claim decisions and how benefits are calculated and paid.",
+    "embed_passage": "טבלה זו מתארת תנאי פוליסת ביטוח אובדן כושר עבודה של הראל מטריה ביטוחית, ומפרטת את הנהלים לקבלת תגמולי ביטוח. ניתן לעיין בטבלה כדי להבין את מועדי קבלת ההחלטה על תביעה, אופן חישוב התגמולים, ואפשרויות ההשקעה עבור הפיצוי החודשי. הטבלה עוסקת בתקופת ההמתנה, הצמדת הפיצוי למדד, ובחירת מסלול השקעה. מסלול השקעה ברירת מחדל, תקופת ההמתנה, תגמולי ביטוח, וסכום הפיצוי החודשי הם מושגים מרכזיים בטבלה זו.",
+    "row_axis": "claim process steps / conditions",
+    "column_axis": "details of the process (timing, options, notifications)",
     "units": [],
     "notable_values": [
-      "30 days: time to notify decision on claim (10.8)",
-      "10.9: section regarding investment path selection",
-      "12.1: section regarding the amount of monthly compensation",
-      "10.10: premium payment during waiting period",
-      "11.1: proportional calculation of benefits for first/last payment month"
+      "תקופת ההמתנה: unspecified",
+      "מסלול השקעה ברירת מחדל: unspecified",
+      "תגמולי ביטוח: calculated proportionally",
+      "סכום הפיצוי החודשי: linked to investment return",
+      "תקופת הצמדת הפיצוי החודשי למדד: unspecified"
     ],
     "product_hints": [
       "אובדן כושר עבודה",
@@ -21,6 +21,6 @@
     ]
   },
   "sketch": "בתוך שלושים יום מיום שהומצאו לחברה כל המסמכים וההוכחות הנדרשות לה לצורך בירור 10.8 חבותה, תודיע החברה את החלטתה בדבר התביעה לתגמולי ביטוח, וככל שהתביעה התקבלה כולה או חלקה, תשלם את תגמולי הביטוח, ובלבד שמועד התשלום לא יחול לפני תום תקופת , ההמתנה. החברה תשלח למבוטח את פירוט אופן החישוב של תגמולי הביטוח ששולמו למבוטח את תקופת התשלום וכן מידע נוסף ככל שנדרש בהתאם להסדר התחיקתי.\nבמסגרת הגשת התביעה או לכל המאוחר קודם לתום תקופת הצמדת הפיצוי החודשי למדד 10.9 להלן, ייבחר המבוטח את מסלול ההשקעה אשר לתשואתו יוצמד סכום 12.1 כאמור בסעיף הפיצוי החודשי. לא בחר המבוטח מסלול להשקעה, יוצמד סכום הפיצוי החודשי לתשואת מסלול השקעה ברירת מחדל.",
-  "embed_text": "פוליסת ביטוח אובדן כושר עבודה של הראל מטריה ביטוחית מספקת פיצוי חודשי במקרה של אובדן כושר עבודה. סכום הפיצוי החודשי יכול להיות מוצמד לתשואת מסלול השקעה שנבחר על ידי המבוטח, או לתשואת מסלול ברירת מחדל. לדוגמה, סעיף 10.9 מתייחס לבחירת מסלול השקעה לפני תקופת הצמדת הפיצוי למדד.",
-  "payload": "טבלה: אובדן כושר עבודה\nThis table details the process for claiming and receiving benefits from an Harel 'Matria' loss of working ability insurance policy. It outlines timelines for claim decisions, investment options for payouts, and payment calculations.\nממדים: claim process steps / policy conditions, details of the process (e.g., timelines, investment options)\n\nבתוך שלושים יום מיום שהומצאו לחברה כל המסמכים וההוכחות הנדרשות לה לצורך בירור 10.8 חבותה, תודיע החברה את החלטתה בדבר התביעה לתגמולי ביטוח, וככל שהתביעה התקבלה כולה או חלקה, תשלם את תגמולי הביטוח, ובלבד שמועד התשלום לא יחול לפני תום תקופת , ההמתנה. החברה תשלח למבוטח את פירוט אופן החישוב של תגמולי הביטוח ששולמו למבוטח את תקופת התשלום וכן מידע נוסף ככל שנדרש בהתאם להסדר התחיקתי.\nבמסגרת הגשת התביעה או לכל המאוחר קודם לתום תקופת הצמדת הפיצוי החודשי למדד 10.9 להלן, ייבחר המבוטח את מסלול ההשקעה אשר לתשואתו יוצמד סכום 12.1 כאמור בסעיף הפיצוי החודשי. לא בחר המבוטח מסלול להשקעה, יוצמד סכום הפיצוי החודשי לתשואת מסלול השקעה ברירת מחדל."
+  "embed_text": "טבלה זו מתארת תנאי פוליסת ביטוח אובדן כושר עבודה של הראל מטריה ביטוחית, ומפרטת את הנהלים לקבלת תגמולי ביטוח. ניתן לעיין בטבלה כדי להבין את מועדי קבלת ההחלטה על תביעה, אופן חישוב התגמולים, ואפשרויות ההשקעה עבור הפיצוי החודשי. הטבלה עוסקת בתקופת ההמתנה, הצמדת הפיצוי למדד, ובחירת מסלול השקעה. מסלול השקעה ברירת מחדל, תקופת ההמתנה, תגמולי ביטוח, וסכום הפיצוי החודשי הם מושגים מרכזיים בטבלה זו. This table outlines conditions related to insurance policy claims, specifically regarding the timing of claim decisions, payment of benefits, and investment options for monthly compensation. It details how the insurance company will notify the insured of claim decisions and how benefits are calculated and paid. בין הערכים בטבלה: תקופת הצמדת הפיצוי החודשי למדד: unspecified.",
+  "payload": "טבלה: תנאי פוליסת ביטוח\nThis table outlines conditions related to insurance policy claims, specifically regarding the timing of claim decisions, payment of benefits, and investment options for monthly compensation. It details how the insurance company will notify the insured of claim decisions and how benefits are calculated and paid.\nממדים: claim process steps / conditions, details of the process (timing, options, notifications)\n\nבתוך שלושים יום מיום שהומצאו לחברה כל המסמכים וההוכחות הנדרשות לה לצורך בירור 10.8 חבותה, תודיע החברה את החלטתה בדבר התביעה לתגמולי ביטוח, וככל שהתביעה התקבלה כולה או חלקה, תשלם את תגמולי הביטוח, ובלבד שמועד התשלום לא יחול לפני תום תקופת , ההמתנה. החברה תשלח למבוטח את פירוט אופן החישוב של תגמולי הביטוח ששולמו למבוטח את תקופת התשלום וכן מידע נוסף ככל שנדרש בהתאם להסדר התחיקתי.\nבמסגרת הגשת התביעה או לכל המאוחר קודם לתום תקופת הצמדת הפיצוי החודשי למדד 10.9 להלן, ייבחר המבוטח את מסלול ההשקעה אשר לתשואתו יוצמד סכום 12.1 כאמור בסעיף הפיצוי החודשי. לא בחר המבוטח מסלול להשקעה, יוצמד סכום הפיצוי החודשי לתשואת מסלול השקעה ברירת מחדל."
 }

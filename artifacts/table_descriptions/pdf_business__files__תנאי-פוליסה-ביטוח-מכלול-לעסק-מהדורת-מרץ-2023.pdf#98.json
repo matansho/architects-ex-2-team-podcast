@@ -2,25 +2,30 @@
   "id": "pdf:business/files/תנאי-פוליסה-ביטוח-מכלול-לעסק-מהדורת-מרץ-2023.pdf#98",
   "source": "llm",
   "description": {
-    "title": "השלמה לכל הסיכונים",
-    "summary": "This table details supplemental 'all risks' coverage for insured contents, excluding forklifts. It specifies a maximum liability of ₪ 150,000 or 15% of the insurance sum, and lists exclusions.",
-    "embed_passage": "פוליסת מכלול לעסק מציעה השלמה לכיסוי 'כל הסיכונים' לתכולה מבוטחת, עד לסכום של ₪ 150,000 או 15% מסכום הביטוח. הכיסוי אינו חל על מלגזות, וקיימים סייגים מיוחדים לנזקים כגון שריטות או תכנון לקוי. סכום ההשתתפות העצמית במקרה של אובדן או נזק מכוסה הוא כפול מהסכום המצוין ברשימה.",
-    "row_axis": "Coverage details / exclusions",
-    "column_axis": "Coverage conditions / limitations",
+    "title": "השלמה ל\"כל הסיכונים\"",
+    "summary": "This table details supplemental 'All Risks' coverage for insured contents, specifying conditions and exclusions. It is used to determine the extent of coverage and limitations for accidental damage to property.",
+    "embed_passage": "טבלה זו מתארת השלמה לכיסוי 'כל הסיכונים' של פוליסת 'מכלול' לעסק. הכיסוי מורחב לנזק פיזי תאונתי לתכולה מבוטחת, למעט מלגזות. סכום הביטוח לתכולה לא יעלה על ₪ 150,000 או 15% מסכום הביטוח. סייגים מיוחדים כוללים חוסר הנובע מטעות, שריטות, ונזק למלגזה. ניתן לבדוק את הכיסוי על בסיס נזק ראשון, ובסה״כ לתקופת הביטוח.",
+    "row_axis": "conditions/exclusions for 'All Risks' coverage",
+    "column_axis": "coverage details, limitations, and exclusions",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "maximum liability: ₪ 150,000",
-      "maximum liability percentage: 15%",
-      "self-participation: doubled"
+      "maximum coverage: ₪ 150,000",
+      "maximum coverage percentage: 15%",
+      "exclusion: error, omission, or default",
+      "exclusion: scratches, grooves, distortion",
+      "exclusion: faulty design",
+      "exclusion: faulty materials",
+      "exclusion: damage to forklift",
+      "exclusion: damage to lifting platform"
     ],
     "product_hints": [
-      "מכלול לעסק",
-      "כל הסיכונים"
+      "כל הסיכונים",
+      "מכלול"
     ]
   },
   "sketch": ":\" השלמה ל\"כל הסיכונים .3.6.2\nיורחב הביטוח לפי חלק זה לכלול אם צוין במפורש ברשימה, .3.6.2.1 שייגרם לתכולה המבוטחת פיזי תאונתי, מקרי ובלתי צפוי נזק שלא נכללה (, בעת המצאה במבנה, מכל סיבה למעט למלגזות ) לעיל(, ובסיכונים 3.2.2 )בהתאם לסעיף בסיכונים המכוסים בהתאם לחלק ,( לעיל 3.3 הנוספים המכוסים )בהתאם לסעיף אלא זה - בין שצויין לגביהם ברשימה כי הם בתוקף ובין אם לאו. אחריות המבטח על פי כיסוי זה , אם צוין אחרת בדף הרשימה\nלפי ₪  150,000 מסכום הביטוח לתכולה או 15% לא תעלה על הגבוה, על בסיס נזק ראשון, למקרה ובסה\"כ לתקופת הביטוח.\n, סייגים מיוחדים לכיסוי זה: אלא אם צוין אחרת בדף הרשימה .3.6.2.2 המבטח לא יהיה אחראי לפי כיסוי זה בגין:\nחוסר הנובע מטעות, מחדל או השמטה; .3.6.2.2.1",
-  "embed_text": "פוליסת מכלול לעסק מציעה השלמה לכיסוי 'כל הסיכונים' לתכולה מבוטחת, עד לסכום של ₪ 150,000 או 15% מסכום הביטוח. הכיסוי אינו חל על מלגזות, וקיימים סייגים מיוחדים לנזקים כגון שריטות או תכנון לקוי. סכום ההשתתפות העצמית במקרה של אובדן או נזק מכוסה הוא כפול מהסכום המצוין ברשימה.",
-  "payload": "טבלה: השלמה לכל הסיכונים\nThis table details supplemental 'all risks' coverage for insured contents, excluding forklifts. It specifies a maximum liability of ₪ 150,000 or 15% of the insurance sum, and lists exclusions.\nממדים: Coverage details / exclusions, Coverage conditions / limitations\n\n:\" השלמה ל\"כל הסיכונים .3.6.2\nיורחב הביטוח לפי חלק זה לכלול אם צוין במפורש ברשימה, .3.6.2.1 שייגרם לתכולה המבוטחת פיזי תאונתי, מקרי ובלתי צפוי נזק שלא נכללה (, בעת המצאה במבנה, מכל סיבה למעט למלגזות ) לעיל(, ובסיכונים 3.2.2 )בהתאם לסעיף בסיכונים המכוסים בהתאם לחלק ,( לעיל 3.3 הנוספים המכוסים )בהתאם לסעיף אלא זה - בין שצויין לגביהם ברשימה כי הם בתוקף ובין אם לאו. אחריות המבטח על פי כיסוי זה , אם צוין אחרת בדף הרשימה\nלפי ₪  150,000 מסכום הביטוח לתכולה או 15% לא תעלה על הגבוה, על בסיס נזק ראשון, למקרה ובסה\"כ לתקופת הביטוח.\n, סייגים מיוחדים לכיסוי זה: אלא אם צוין אחרת בדף הרשימה .3.6.2.2 המבטח לא יהיה אחראי לפי כיסוי זה בגין:\nחוסר הנובע מטעות, מחדל או השמטה; .3.6.2.2.1"
+  "embed_text": "טבלה זו מתארת השלמה לכיסוי 'כל הסיכונים' של פוליסת 'מכלול' לעסק. הכיסוי מורחב לנזק פיזי תאונתי לתכולה מבוטחת, למעט מלגזות. סכום הביטוח לתכולה לא יעלה על ₪ 150,000 או 15% מסכום הביטוח. סייגים מיוחדים כוללים חוסר הנובע מטעות, שריטות, ונזק למלגזה. ניתן לבדוק את הכיסוי על בסיס נזק ראשון, ובסה״כ לתקופת הביטוח. This table details supplemental 'All Risks' coverage for insured contents, specifying conditions and exclusions. It is used to determine the extent of coverage and limitations for accidental damage to property. בין הערכים בטבלה: exclusion: error, omission, or default; exclusion: scratches, grooves, distortion; exclusion: faulty design; exclusion: faulty materials; exclusion: damage to forklift; exclusion: damage to lifting platform.",
+  "payload": "טבלה: השלמה ל\"כל הסיכונים\"\nThis table details supplemental 'All Risks' coverage for insured contents, specifying conditions and exclusions. It is used to determine the extent of coverage and limitations for accidental damage to property.\nממדים: conditions/exclusions for 'All Risks' coverage, coverage details, limitations, and exclusions\n\n:\" השלמה ל\"כל הסיכונים .3.6.2\nיורחב הביטוח לפי חלק זה לכלול אם צוין במפורש ברשימה, .3.6.2.1 שייגרם לתכולה המבוטחת פיזי תאונתי, מקרי ובלתי צפוי נזק שלא נכללה (, בעת המצאה במבנה, מכל סיבה למעט למלגזות ) לעיל(, ובסיכונים 3.2.2 )בהתאם לסעיף בסיכונים המכוסים בהתאם לחלק ,( לעיל 3.3 הנוספים המכוסים )בהתאם לסעיף אלא זה - בין שצויין לגביהם ברשימה כי הם בתוקף ובין אם לאו. אחריות המבטח על פי כיסוי זה , אם צוין אחרת בדף הרשימה\nלפי ₪  150,000 מסכום הביטוח לתכולה או 15% לא תעלה על הגבוה, על בסיס נזק ראשון, למקרה ובסה\"כ לתקופת הביטוח.\n, סייגים מיוחדים לכיסוי זה: אלא אם צוין אחרת בדף הרשימה .3.6.2.2 המבטח לא יהיה אחראי לפי כיסוי זה בגין:\nחוסר הנובע מטעות, מחדל או השמטה; .3.6.2.2.1"
 }

@@ -2,28 +2,29 @@
   "id": "pdf:health/files/תנאי-נספח-הרחבה-ניתוחים-פרטיים-וטיפולים-מחליפי-ניתוח-בחו-ל-1.pdf#16",
   "source": "llm",
   "description": {
-    "title": "הרחבה לניתוחים בחו\"ל",
-    "summary": "This table details coverage for expenses related to complex surgeries performed abroad, including rehabilitation, consultations, and potential death benefits. It outlines maximum amounts payable for various services, such as daily hospitalization and physiotherapy.",
-    "embed_passage": "פוליסת ביטוח הרחבה לניתוחים בחו״ל מכסה הוצאות עבו לאחר ניתוח מורכב, עד ₪ 100,000. החברה תשלם עד 400 ש״ח לכל יום עבור מוסד החלמה מוכר בישראל, למשך 10 ימים רצופים, ועד 1,500 ש״ח ליום למבוטח ושני מלווים.",
-    "row_axis": "types of post-surgery expenses (rehabilitation, consultations, hospitalization)",
-    "column_axis": "coverage details (maximum amount, duration)",
+    "title": "הרחבה לניתוחים פרטיים וטיפולים מחליפי ניתוח בחו\"ל",
+    "summary": "This table details coverage for expenses related to complex surgeries performed abroad and subsequent rehabilitation. It outlines daily allowances for hospitalization, physiotherapy, and consultations, as well as maximum coverage amounts.",
+    "embed_passage": "טבלה זו מתארת כיסוי להוצאות הקשורות לניתוחים מורכבים שבוצעו בחו\"ל ולשיקום לאחר מכן. ניתן למצוא כאן סכומים יומיים עבור אשפוז, פיזיותרפיה והתייעצויות, כמו גם סכומים מקסימליים לכיסוי. החיפוש נעשה לפי סוג ההוצאה, משך התקופה, והסכום היומי או הכולל. הרחבה לניתוחים פרטיים וטיפולים מחליפי ניתוח בחו\"ל כוללת הוצאות אשפוז עד 400 ש״ח ליום, הוצאות לטיפולי פיזיותרפיה עד 16 ש״ח לטיפול, והוצאות לבדיקות רפואיות עד 100,000 ש״ח.",
+    "row_axis": "type of expense / stage of recovery",
+    "column_axis": "coverage details (amount, duration)",
     "units": [
-      "₪",
-      "ימים",
-      "%"
+      "₪/יום",
+      "₪/טיפול",
+      "₪"
     ],
     "notable_values": [
-      "maximum coverage: ₪ 100,000",
-      "daily hospitalization (insured + 2 companions): 1,500 ₪",
-      "rehabilitation days: 90 ימים",
-      "daily rehabilitation cost: 400 ₪",
-      "self-participation: 20%"
+      "אשפוז: 400 ₪/יום",
+      "פיזיותרפיה: 16 ₪/טיפול",
+      "בדיקות רפואיות: 100,000 ₪",
+      "תקופה מרבית להחלמה: 90 ימים",
+      "תקופה מרבית לטיפולים: 3 חודשים",
+      "השתתפות עצמית: 20%"
     ],
     "product_hints": [
-      "הרחבה לניתוחים בחו״ל"
+      "הרחבה לניתוחים פרטיים"
     ]
   },
   "sketch": "חודשים 3 ח מורכב, בתוך תקופה של ר מוסד החלמה המוכר בישראל לאחר ניתו הוצאות עבו .3.5.6.4 ם, אם רופא מומחה בתחום ימים רצופי 10 ח המורכב   ולמשך תקופה של עד ממועד ביצוע הניתו ; ש\"ח לכל יו   ם 400 עד ­ הר   לבנטי החליט על הצורך בהחלמה\nלבדיקות והתייעצויות רפואיות מחוץ לישרא   ל, שדרש הרופא המנתח, ושבוצעו לאחר הוצאות .3.5.6.5 ­ ימים מיום ביצוע הניתו   ח 90 ב וכהמשך ישיר ממנו,   ובלבד שבוצעו בתוך ח המורכ ביצוע הניתו ;  ₪ 100,000 עד",
-  "embed_text": "פוליסת ביטוח הרחבה לניתוחים בחו״ל מכסה הוצאות עבו לאחר ניתוח מורכב, עד ₪ 100,000. החברה תשלם עד 400 ש״ח לכל יום עבור מוסד החלמה מוכר בישראל, למשך 10 ימים רצופים, ועד 1,500 ש״ח ליום למבוטח ושני מלווים.",
-  "payload": "טבלה: הרחבה לניתוחים בחו\"ל\nThis table details coverage for expenses related to complex surgeries performed abroad, including rehabilitation, consultations, and potential death benefits. It outlines maximum amounts payable for various services, such as daily hospitalization and physiotherapy.\nממדים: types of post-surgery expenses (rehabilitation, consultations, hospitalization), coverage details (maximum amount, duration)\n\nחודשים 3 ח מורכב, בתוך תקופה של ר מוסד החלמה המוכר בישראל לאחר ניתו הוצאות עבו .3.5.6.4 ם, אם רופא מומחה בתחום ימים רצופי 10 ח המורכב   ולמשך תקופה של עד ממועד ביצוע הניתו ; ש\"ח לכל יו   ם 400 עד ­ הר   לבנטי החליט על הצורך בהחלמה\nלבדיקות והתייעצויות רפואיות מחוץ לישרא   ל, שדרש הרופא המנתח, ושבוצעו לאחר הוצאות .3.5.6.5 ­ ימים מיום ביצוע הניתו   ח 90 ב וכהמשך ישיר ממנו,   ובלבד שבוצעו בתוך ח המורכ ביצוע הניתו ;  ₪ 100,000 עד"
+  "embed_text": "טבלה זו מתארת כיסוי להוצאות הקשורות לניתוחים מורכבים שבוצעו בחו\"ל ולשיקום לאחר מכן. ניתן למצוא כאן סכומים יומיים עבור אשפוז, פיזיותרפיה והתייעצויות, כמו גם סכומים מקסימליים לכיסוי. החיפוש נעשה לפי סוג ההוצאה, משך התקופה, והסכום היומי או הכולל. הרחבה לניתוחים פרטיים וטיפולים מחליפי ניתוח בחו\"ל כוללת הוצאות אשפוז עד 400 ש״ח ליום, הוצאות לטיפולי פיזיותרפיה עד 16 ש״ח לטיפול, והוצאות לבדיקות רפואיות עד 100,000 ש״ח. This table details coverage for expenses related to complex surgeries performed abroad and subsequent rehabilitation. It outlines daily allowances for hospitalization, physiotherapy, and consultations, as well as maximum coverage amounts. בין הערכים בטבלה: תקופה מרבית להחלמה: 90 ימים; תקופה מרבית לטיפולים: 3 חודשים; השתתפות עצמית: 20%.",
+  "payload": "טבלה: הרחבה לניתוחים פרטיים וטיפולים מחליפי ניתוח בחו\"ל\nThis table details coverage for expenses related to complex surgeries performed abroad and subsequent rehabilitation. It outlines daily allowances for hospitalization, physiotherapy, and consultations, as well as maximum coverage amounts.\nממדים: type of expense / stage of recovery, coverage details (amount, duration)\n\nחודשים 3 ח מורכב, בתוך תקופה של ר מוסד החלמה המוכר בישראל לאחר ניתו הוצאות עבו .3.5.6.4 ם, אם רופא מומחה בתחום ימים רצופי 10 ח המורכב   ולמשך תקופה של עד ממועד ביצוע הניתו ; ש\"ח לכל יו   ם 400 עד ­ הר   לבנטי החליט על הצורך בהחלמה\nלבדיקות והתייעצויות רפואיות מחוץ לישרא   ל, שדרש הרופא המנתח, ושבוצעו לאחר הוצאות .3.5.6.5 ­ ימים מיום ביצוע הניתו   ח 90 ב וכהמשך ישיר ממנו,   ובלבד שבוצעו בתוך ח המורכ ביצוע הניתו ;  ₪ 100,000 עד"
 }

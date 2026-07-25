@@ -3,22 +3,24 @@
   "source": "llm",
   "description": {
     "title": "הרשאה לחיוב חשבון",
-    "summary": "This table details the conditions for a direct debit authorization. It specifies the duration of the authorization and conditions for cancellation.",
-    "embed_passage": "הרשאה לחיוב חשבון ניתנת לביטול בהודעה בכתב לבנק. הרשאה שלא נעשה בה שימוש במשך 24 חודשים ממועד החיוב האחרון, בטלה. הבנק רשאי לבטל חיוב אם אינו תואם את הסכומים שנקבעו בהרשאה.",
+    "summary": "This table outlines the conditions for a direct debit authorization. It details the circumstances under which the authorization is valid, can be cancelled, or may be revoked by the bank.",
+    "embed_passage": "טבלה זו מתארת את התנאים להרשאה לחיוב חשבון, כפי שנקבעו על ידי הראל חברה לביטוח בע\"מ. הרשאה זו מאפשרת חיוב חשבון בגין סכום דמי הביטוח, ההצמדה והריבית, או יתרות החוב, בהתאם לפוליסה ותוספותיה. ניתן לבטל הרשאה זו בהודעה בכתב לבנק, או על פי הוראת כל דין. חשוב לדעת שהבנק אינו אחראי לעסקה שבין הראל למוטב. הרשאה שלא נעשה בה שימוש במשך 24 חודשים ממועד החיוב האחרון, בטלה. הראל חברה לביטוח בע\"מ רשאים לבטל חיוב מסוים בהודעה לבנק, אם ההודעה תימסר בכתב לא יאוחר מ-3 ימי עסקים לאחר מועד החיוב.",
     "row_axis": "conditions for direct debit authorization",
-    "column_axis": "authorization details and cancellation rules",
+    "column_axis": "authorization details and bank actions",
     "units": [],
     "notable_values": [
-      "duration for authorization validity: 24 חודשים",
+      "period for cancellation: 24 חודשים",
       "cancellation notice period: יום עסקים אחד",
-      "authorization cancellation method: הודעה בכתב"
+      "bank responsibility: הבנק אינו אחראי",
+      "authorization validity: הרשאה שלא יעשה בה שימוש"
     ],
     "product_hints": [
-      "הרשאה לחיוב חשבון",
-      "הראל חברה לביטוח בע״מ"
+      "הראל חברה לביטוח בע\"מ",
+      "ביטוח רפואי",
+      "ביטוח בריאות"
     ]
   },
   "sketch": "ו. חודשים ממועד החיוב האחרון, בטלה. 24 הרשאה שלא יעשה בה שימוש במשך תקופה של\nז. אם תעשו לבקשתנו, הבנק יפעל בהתאם להוראות הרשאה זו, בכפוף להוראות כל דין והסכם שבינינו לבין הבנק.\n. ח הבנק רשאי להוציאנו מן ההסדר המפורט בהרשאה זו, אם תהיה לו סיבה סבירה לכך, ויודיע לנו על כך מיד לאחר קבלת החלטתו תוך ציון הסיבה.",
-  "embed_text": "הרשאה לחיוב חשבון ניתנת לביטול בהודעה בכתב לבנק. הרשאה שלא נעשה בה שימוש במשך 24 חודשים ממועד החיוב האחרון, בטלה. הבנק רשאי לבטל חיוב אם אינו תואם את הסכומים שנקבעו בהרשאה.",
-  "payload": "טבלה: הרשאה לחיוב חשבון\nThis table details the conditions for a direct debit authorization. It specifies the duration of the authorization and conditions for cancellation.\nממדים: conditions for direct debit authorization, authorization details and cancellation rules\n\nו. חודשים ממועד החיוב האחרון, בטלה. 24 הרשאה שלא יעשה בה שימוש במשך תקופה של\nז. אם תעשו לבקשתנו, הבנק יפעל בהתאם להוראות הרשאה זו, בכפוף להוראות כל דין והסכם שבינינו לבין הבנק.\n. ח הבנק רשאי להוציאנו מן ההסדר המפורט בהרשאה זו, אם תהיה לו סיבה סבירה לכך, ויודיע לנו על כך מיד לאחר קבלת החלטתו תוך ציון הסיבה."
+  "embed_text": "טבלה זו מתארת את התנאים להרשאה לחיוב חשבון, כפי שנקבעו על ידי הראל חברה לביטוח בע\"מ. הרשאה זו מאפשרת חיוב חשבון בגין סכום דמי הביטוח, ההצמדה והריבית, או יתרות החוב, בהתאם לפוליסה ותוספותיה. ניתן לבטל הרשאה זו בהודעה בכתב לבנק, או על פי הוראת כל דין. חשוב לדעת שהבנק אינו אחראי לעסקה שבין הראל למוטב. הרשאה שלא נעשה בה שימוש במשך 24 חודשים ממועד החיוב האחרון, בטלה. הראל חברה לביטוח בע\"מ רשאים לבטל חיוב מסוים בהודעה לבנק, אם ההודעה תימסר בכתב לא יאוחר מ-3 ימי עסקים לאחר מועד החיוב. This table outlines the conditions for a direct debit authorization. It details the circumstances under which the authorization is valid, can be cancelled, or may be revoked by the bank. בין הערכים בטבלה: cancellation notice period: יום עסקים אחד; authorization validity: הרשאה שלא יעשה בה שימוש.",
+  "payload": "טבלה: הרשאה לחיוב חשבון\nThis table outlines the conditions for a direct debit authorization. It details the circumstances under which the authorization is valid, can be cancelled, or may be revoked by the bank.\nממדים: conditions for direct debit authorization, authorization details and bank actions\n\nו. חודשים ממועד החיוב האחרון, בטלה. 24 הרשאה שלא יעשה בה שימוש במשך תקופה של\nז. אם תעשו לבקשתנו, הבנק יפעל בהתאם להוראות הרשאה זו, בכפוף להוראות כל דין והסכם שבינינו לבין הבנק.\n. ח הבנק רשאי להוציאנו מן ההסדר המפורט בהרשאה זו, אם תהיה לו סיבה סבירה לכך, ויודיע לנו על כך מיד לאחר קבלת החלטתו תוך ציון הסיבה."
 }

@@ -3,22 +3,20 @@
   "source": "llm",
   "description": {
     "title": "הודעות",
-    "summary": "This table details how to submit notifications to the insurer under the 'Adira Cash' home insurance policy. It specifies acceptable methods and addresses for delivering written notices.",
-    "embed_passage": "פוליסת ביטוח דירה אדירה כסף מגדירה כי הודעה מהמבוטח או המוטב למבטח תימסר בכתב. ההודעה יכולה להישלח למשרדו של המבטח, או למשרדו של סוכן הביטוח הרשום בפוליסה, וכתובות עדכניות יסופקו על ידי המבטח או הסוכן לפי הצורך. לדוגמה, סעיף 54.1 מתייחס למענו של המבטח.",
-    "row_axis": "Notification method",
-    "column_axis": "Details of notification delivery",
+    "summary": "This table details how to submit notices to the insurer, specifying acceptable methods and addresses. It outlines options for written notification, including the insurer's office or the registered insurance agent's office.",
+    "embed_passage": "טבלה זו מתארת את אופן מסירת הודעות למבטח, כולל כתובות מקובלות. ניתן לשלוח הודעה בכתב למשרד המבטח או למשרד סוכן הביטוח הרשום בפוליסה. פוליסת ביטוח דירה אדירה כסף מהדורת פברואר 2025 מאפשרת מסירת הודעות למשרדו של סוכן הביטוח, או למשרד המבטח. כתובות אפשריות כוללות מען משרדו של המבטח, או כל מען אחר בישראל שהמבטח יודיע עליו. סוכן הביטוח יכול להודיע על מען אחר בישראל.",
+    "row_axis": "method of notice delivery",
+    "column_axis": "details of delivery address",
     "units": [],
     "notable_values": [
-      "סעיף: 54",
-      "סעיף 54.1: מען משרדו של המבטח",
-      "סעיף 54.2: משרדו של סוכן הביטוח"
+      "method: מען משרדו של המבטח",
+      "method: משרדו של סוכן הביטוח"
     ],
     "product_hints": [
-      "אדירה כסף",
-      "ביטוח דירה"
+      "ביטוח דירה אדירה כסף"
     ]
   },
   "sketch": ". הודעות 54\nהודעה של המבוטח או של המוטב, למבטח, תימסר למבטח בכתב, לאחד מאלה:\n.  מען משרדו של המבטח, כמצוין בכותרת לפוליסה זו, או כל מען אחר בישראל 54.1 שעליו יודיע המבטח, למבוטח או למוטב, מזמן לזמן.\n.  משרדו של סוכן הביטוח, הרשום בפוליסה - לפי מענו, כמפורט בה, או לפי כל 54.2 מען אחר בישראל שעליו יודיע סוכן הביטוח הנזכר או המבטח, למבוטח או למוטב, מזמן לזמן.",
-  "embed_text": "פוליסת ביטוח דירה אדירה כסף מגדירה כי הודעה מהמבוטח או המוטב למבטח תימסר בכתב. ההודעה יכולה להישלח למשרדו של המבטח, או למשרדו של סוכן הביטוח הרשום בפוליסה, וכתובות עדכניות יסופקו על ידי המבטח או הסוכן לפי הצורך. לדוגמה, סעיף 54.1 מתייחס למענו של המבטח.",
-  "payload": "טבלה: הודעות\nThis table details how to submit notifications to the insurer under the 'Adira Cash' home insurance policy. It specifies acceptable methods and addresses for delivering written notices.\nממדים: Notification method, Details of notification delivery\n\n. הודעות 54\nהודעה של המבוטח או של המוטב, למבטח, תימסר למבטח בכתב, לאחד מאלה:\n.  מען משרדו של המבטח, כמצוין בכותרת לפוליסה זו, או כל מען אחר בישראל 54.1 שעליו יודיע המבטח, למבוטח או למוטב, מזמן לזמן.\n.  משרדו של סוכן הביטוח, הרשום בפוליסה - לפי מענו, כמפורט בה, או לפי כל 54.2 מען אחר בישראל שעליו יודיע סוכן הביטוח הנזכר או המבטח, למבוטח או למוטב, מזמן לזמן."
+  "embed_text": "טבלה זו מתארת את אופן מסירת הודעות למבטח, כולל כתובות מקובלות. ניתן לשלוח הודעה בכתב למשרד המבטח או למשרד סוכן הביטוח הרשום בפוליסה. פוליסת ביטוח דירה אדירה כסף מהדורת פברואר 2025 מאפשרת מסירת הודעות למשרדו של סוכן הביטוח, או למשרד המבטח. כתובות אפשריות כוללות מען משרדו של המבטח, או כל מען אחר בישראל שהמבטח יודיע עליו. סוכן הביטוח יכול להודיע על מען אחר בישראל. This table details how to submit notices to the insurer, specifying acceptable methods and addresses. It outlines options for written notification, including the insurer's office or the registered insurance agent's office.",
+  "payload": "טבלה: הודעות\nThis table details how to submit notices to the insurer, specifying acceptable methods and addresses. It outlines options for written notification, including the insurer's office or the registered insurance agent's office.\nממדים: method of notice delivery, details of delivery address\n\n. הודעות 54\nהודעה של המבוטח או של המוטב, למבטח, תימסר למבטח בכתב, לאחד מאלה:\n.  מען משרדו של המבטח, כמצוין בכותרת לפוליסה זו, או כל מען אחר בישראל 54.1 שעליו יודיע המבטח, למבוטח או למוטב, מזמן לזמן.\n.  משרדו של סוכן הביטוח, הרשום בפוליסה - לפי מענו, כמפורט בה, או לפי כל 54.2 מען אחר בישראל שעליו יודיע סוכן הביטוח הנזכר או המבטח, למבוטח או למוטב, מזמן לזמן."
 }

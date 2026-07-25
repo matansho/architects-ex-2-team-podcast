@@ -2,24 +2,26 @@
   "id": "pdf:long-term-care/files/טופס-הגשת-תביעה-ביטוח-סיעודי.pdf#21",
   "source": "llm",
   "description": {
-    "title": "טופס תביעה סיעודי",
-    "summary": "This table is a claim form for long-term care insurance. It collects personal details of the insured and contact information for claim-related communication.",
-    "embed_passage": "טופס זה מיועד להגשת תביעה בביטוח סיעודי. לצורך קבלת עדכונים, יש לציין מספר טלפון נייד וכתובת דוא״ל. כל ההודעות הקשורות לתביעה ישלחו למספר הטלפון הנייד או לדוא״ל של המבוטח או איש הקשר, בהתאם לפרטים שנמסרו.",
-    "row_axis": "Individual claim / claimant",
-    "column_axis": "Personal details (date of birth, ID number, name, phone number, email address)",
+    "title": "טופס הגשת תביעה",
+    "summary": "This table is a claim form for long-term care insurance. It collects personal details of the insured and optionally, contact information for a designated contact person.",
+    "embed_passage": "טופס זה מיועד להגשת תביעה בביטוחי סיעוד, ונועד לאסוף פרטים אישיים של המבוטח לצורך טיפול יעיל בתביעה. הטופס כולל פרטים כגון תאריך לידה, מספר תעודת זהות ושמות. ניתן גם למלא פרטי איש קשר. טופס זה אינו מהווה הכרה בזכאות לתשלום כלשהו. הפרטים הנדרשים כוללים תאריך לידה, מספר ת.ז., שם פרטי, שם משפחה, טלפון נייד, טלפון בבית וכתובת דוא״ל. ניתן לבחור לקבל עדכונים בדוא״ל או בדואר ישראל.",
+    "row_axis": "Individual / Contact Person",
+    "column_axis": "Personal Details (Date of Birth, ID Number, First Name, Last Name, Mobile Phone, Home Phone, Email Address)",
     "units": [],
     "notable_values": [
-      "מיקוד: 10952",
-      "מספר פקס: 03-7348597",
-      "מספר מסרון: 052-3240345",
-      "ת.ד: 3",
-      "שעות מענה ממוחשב: 24"
+      "תאריך לידה: unknown",
+      "מספר ת.ז.: unknown",
+      "שם פרטי: unknown",
+      "שם משפחה: unknown",
+      "טלפון נייד: unknown",
+      "טלפון בבית: unknown",
+      "כתובת דוא״ל: unknown"
     ],
     "product_hints": [
-      "ביטוח סיעודי"
+      "ביטוחי סיעוד"
     ]
   },
-  "sketch": "א פרטים אישיים\nתאריך לידה\nמספר ת.ז.\nשם פרטי\n…\nטלפון בבית\nכתובת דוא\"ל, לתשומת ליבך, כדי לקבל עדכונים בדוא\"ל עליך לציין מספר טלפון נייד לצורך קבלת סיסמא\nכל ההודעות הקשורות לתביעתך יישלחו אליך, בהתאם לפרטייך האישיים כפי שציינת לעיל, למספר הטלפון הנייד שלך ו/או של איש הקשר )ככל ומסרת פרטי איש קשר(. אם ברצונך שהודעות אלו ישלחו לדוא\"ל שלך ו/או של לאיש הקשר אנא מלא פרטי כתובת דוא\"ל. לחילופין, אם ברצונך לקבל הודעות אלו בדואר ישראל אנא סמן זאת כאן:\nבדואר ישראל",
-  "embed_text": "טופס זה מיועד להגשת תביעה בביטוח סיעודי. לצורך קבלת עדכונים, יש לציין מספר טלפון נייד וכתובת דוא״ל. כל ההודעות הקשורות לתביעה ישלחו למספר הטלפון הנייד או לדוא״ל של המבוטח או איש הקשר, בהתאם לפרטים שנמסרו.",
-  "payload": "טבלה: טופס תביעה סיעודי\nThis table is a claim form for long-term care insurance. It collects personal details of the insured and contact information for claim-related communication.\nממדים: Individual claim / claimant, Personal details (date of birth, ID number, name, phone number, email address)\n\nא פרטים אישיים\nתאריך לידה\nמספר ת.ז.\nשם פרטי\nשם משפחה\nטלפון נייד\nטלפון בבית\nכתובת דוא\"ל, לתשומת ליבך, כדי לקבל עדכונים בדוא\"ל עליך לציין מספר טלפון נייד לצורך קבלת סיסמא\nכל ההודעות הקשורות לתביעתך יישלחו אליך, בהתאם לפרטייך האישיים כפי שציינת לעיל, למספר הטלפון הנייד שלך ו/או של איש הקשר )ככל ומסרת פרטי איש קשר(. אם ברצונך שהודעות אלו ישלחו לדוא\"ל שלך ו/או של לאיש הקשר אנא מלא פרטי כתובת דוא\"ל. לחילופין, אם ברצונך לקבל הודעות אלו בדואר ישראל אנא סמן זאת כאן:\nבדואר ישראל"
+  "sketch": "א פרטים אישיים\nתאריך לידה\nמספר ת.ז.\nשם פרטי\nשם משפחה\nטלפון נייד\nטלפון בבית\nכתובת דוא\"ל, לתשומת ליבך, כדי לקבל עדכונים בדוא\"ל עליך לציין מספר טלפון נייד לצורך קבלת סיסמא\nכל ההודעות הקשורות לתביעתך יישלחו אליך, בהתאם לפרטייך האישיים כפי שציינת לעיל, למספר הטלפון הנייד שלך ו/או של איש הקשר )ככל ומסרת פרטי איש קשר(. אם ברצונך שהודעות אלו ישלחו לדוא\"ל שלך ו/או של לאיש הקשר אנא מלא פרטי כתובת דוא\"ל. לחילופין, אם ברצונך לקבל הודעות אלו בדואר ישראל אנא סמן זאת כאן:\nבדואר ישראל",
+  "embed_text": "טופס זה מיועד להגשת תביעה בביטוחי סיעוד, ונועד לאסוף פרטים אישיים של המבוטח לצורך טיפול יעיל בתביעה. הטופס כולל פרטים כגון תאריך לידה, מספר תעודת זהות ושמות. ניתן גם למלא פרטי איש קשר. טופס זה אינו מהווה הכרה בזכאות לתשלום כלשהו. הפרטים הנדרשים כוללים תאריך לידה, מספר ת.ז., שם פרטי, שם משפחה, טלפון נייד, טלפון בבית וכתובת דוא״ל. ניתן לבחור לקבל עדכונים בדוא״ל או בדואר ישראל. This table is a claim form for long-term care insurance. It collects personal details of the insured and optionally, contact information for a designated contact person.",
+  "payload": "טבלה: טופס הגשת תביעה\nThis table is a claim form for long-term care insurance. It collects personal details of the insured and optionally, contact information for a designated contact person.\nממדים: Individual / Contact Person, Personal Details (Date of Birth, ID Number, First Name, Last Name, Mobile Phone, Home Phone, Email Address)\n\nא פרטים אישיים\nתאריך לידה\nמספר ת.ז.\nשם פרטי\nשם משפחה\nטלפון נייד\nטלפון בבית\nכתובת דוא\"ל, לתשומת ליבך, כדי לקבל עדכונים בדוא\"ל עליך לציין מספר טלפון נייד לצורך קבלת סיסמא\nכל ההודעות הקשורות לתביעתך יישלחו אליך, בהתאם לפרטייך האישיים כפי שציינת לעיל, למספר הטלפון הנייד שלך ו/או של איש הקשר )ככל ומסרת פרטי איש קשר(. אם ברצונך שהודעות אלו ישלחו לדוא\"ל שלך ו/או של לאיש הקשר אנא מלא פרטי כתובת דוא\"ל. לחילופין, אם ברצונך לקבל הודעות אלו בדואר ישראל אנא סמן זאת כאן:\nבדואר ישראל"
 }

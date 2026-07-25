@@ -3,25 +3,25 @@
   "source": "llm",
   "description": {
     "title": "מענקית סרטן - פיצוי למחלת הסרטן",
-    "summary": "This table details coverage and compensation amounts for the 'מענקית סרטן' cancer insurance policy. It shows how the insured sum changes with age, specifically around age 65.",
-    "embed_passage": "פוליסת 'מענקית סרטן' מספקת פיצוי במקרה של אבחון מחלת הסרטן. סכום הביטוח המקורי מוקטן בשיעור של 5% כאשר המבוטח מגיע לגיל 65, ויוקטן שוב בהגיעו לגיל 65. לדוגמה, סכום הביטוח יכול להיות ₪10,000.",
-    "row_axis": "Age/Policy Stage",
-    "column_axis": "Coverage Details/Compensation Amount",
+    "summary": "This table details coverage and compensation related to the 'מענקית סרטן' cancer insurance policy. It outlines how the insured sum is affected by age and policy start date.",
+    "embed_passage": "טבלה זו מתארת את תנאי הכיסוי בפוליסת 'מענקית סרטן' למחלת הסרטן, כולל גובה הפיצוי ושינויים בסכום הביטוח בהתאם לגיל המבוטח. ניתן לקבל מידע מפורט לגבי חריגים בסעיף 2.1 ו-1 בפוליסה. סכום הביטוח יוקטן בשיעור של 5% אם המבוטח הצטרף לביטוח בגיל 65 ומעלה. גובה הפיצוי הכספי שאקבל תלוי בגיל המבוטח, כאשר סכום הביטוח מוקטן בהתאם לגיל 65. סכום הביטוח לפי הפוליסה הוא ₪ 10,000, למעט בגיל 65. דמי הביטוח יקבעו בהתאם לגיל המבוטח במועד הצטרפותו לביטוח.",
+    "row_axis": "Policy conditions related to coverage and compensation",
+    "column_axis": "Age, coverage start date, insured sum reduction",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "Age 65: 5% reduction in coverage",
-      "Initial coverage amount: ₪10,000 (example)",
-      "Coverage begins after a waiting period (אכשרה)",
-      "Coverage amount is adjusted based on age",
-      "Policy details are specified on a separate private page"
+      "insured sum: ₪ 10,000",
+      "age 65: 5% reduction",
+      "coverage start: 90 days",
+      "policy section: 2.1",
+      "policy section: 1"
     ],
     "product_hints": [
       "מענקית סרטן"
     ]
   },
   "sketch": "ן קודם זה. בעניין מפורט מידע לקבלת,המבוטח את מכסה אינה הפוליסה בפוליסה( )חריגים הבאים במקרים\n\"יום 90 בפוליסה- הכיסויים לפרק 2.1 ,1 בסעיף כמפורט\",ניתן הביטוח מתחילת זמן כמה אחרי 1 )אכשרה( תגמול ולקבל לתבוע\n\"בתוקף ושהינו הביטוח פרטי בדף מפורט הסכום שרכשת, לסכום בהתאם מדי הביטוח סכום יוקטן ,65 לגיל המבוטח בהגיע .65 לגיל המבוטח הגיע בטרם סכום .65 לגיל הגיעו לפני בתוקף שהינו הביטוח מסכום 5% של בשיעור שנה לביטוח לראשונה ההצטרפות בעת המבוטח שגיל במקרה יוקטן לא הביטוח ומעלה. 65 מגיל הנו\",שאקבל הכספי הפיצוי גובה",
-  "embed_text": "פוליסת 'מענקית סרטן' מספקת פיצוי במקרה של אבחון מחלת הסרטן. סכום הביטוח המקורי מוקטן בשיעור של 5% כאשר המבוטח מגיע לגיל 65, ויוקטן שוב בהגיעו לגיל 65. לדוגמה, סכום הביטוח יכול להיות ₪10,000.",
-  "payload": "טבלה: מענקית סרטן - פיצוי למחלת הסרטן\nThis table details coverage and compensation amounts for the 'מענקית סרטן' cancer insurance policy. It shows how the insured sum changes with age, specifically around age 65.\nממדים: Age/Policy Stage, Coverage Details/Compensation Amount\n\nן קודם זה. בעניין מפורט מידע לקבלת,המבוטח את מכסה אינה הפוליסה בפוליסה( )חריגים הבאים במקרים\n\"יום 90 בפוליסה- הכיסויים לפרק 2.1 ,1 בסעיף כמפורט\",ניתן הביטוח מתחילת זמן כמה אחרי 1 )אכשרה( תגמול ולקבל לתבוע\n\"בתוקף ושהינו הביטוח פרטי בדף מפורט הסכום שרכשת, לסכום בהתאם מדי הביטוח סכום יוקטן ,65 לגיל המבוטח בהגיע .65 לגיל המבוטח הגיע בטרם סכום .65 לגיל הגיעו לפני בתוקף שהינו הביטוח מסכום 5% של בשיעור שנה לביטוח לראשונה ההצטרפות בעת המבוטח שגיל במקרה יוקטן לא הביטוח ומעלה. 65 מגיל הנו\",שאקבל הכספי הפיצוי גובה"
+  "embed_text": "טבלה זו מתארת את תנאי הכיסוי בפוליסת 'מענקית סרטן' למחלת הסרטן, כולל גובה הפיצוי ושינויים בסכום הביטוח בהתאם לגיל המבוטח. ניתן לקבל מידע מפורט לגבי חריגים בסעיף 2.1 ו-1 בפוליסה. סכום הביטוח יוקטן בשיעור של 5% אם המבוטח הצטרף לביטוח בגיל 65 ומעלה. גובה הפיצוי הכספי שאקבל תלוי בגיל המבוטח, כאשר סכום הביטוח מוקטן בהתאם לגיל 65. סכום הביטוח לפי הפוליסה הוא ₪ 10,000, למעט בגיל 65. דמי הביטוח יקבעו בהתאם לגיל המבוטח במועד הצטרפותו לביטוח. This table details coverage and compensation related to the 'מענקית סרטן' cancer insurance policy. It outlines how the insured sum is affected by age and policy start date. בין הערכים בטבלה: age 65: 5% reduction; coverage start: 90 days.",
+  "payload": "טבלה: מענקית סרטן - פיצוי למחלת הסרטן\nThis table details coverage and compensation related to the 'מענקית סרטן' cancer insurance policy. It outlines how the insured sum is affected by age and policy start date.\nממדים: Policy conditions related to coverage and compensation, Age, coverage start date, insured sum reduction\n\nן קודם זה. בעניין מפורט מידע לקבלת,המבוטח את מכסה אינה הפוליסה בפוליסה( )חריגים הבאים במקרים\n\"יום 90 בפוליסה- הכיסויים לפרק 2.1 ,1 בסעיף כמפורט\",ניתן הביטוח מתחילת זמן כמה אחרי 1 )אכשרה( תגמול ולקבל לתבוע\n\"בתוקף ושהינו הביטוח פרטי בדף מפורט הסכום שרכשת, לסכום בהתאם מדי הביטוח סכום יוקטן ,65 לגיל המבוטח בהגיע .65 לגיל המבוטח הגיע בטרם סכום .65 לגיל הגיעו לפני בתוקף שהינו הביטוח מסכום 5% של בשיעור שנה לביטוח לראשונה ההצטרפות בעת המבוטח שגיל במקרה יוקטן לא הביטוח ומעלה. 65 מגיל הנו\",שאקבל הכספי הפיצוי גובה"
 }

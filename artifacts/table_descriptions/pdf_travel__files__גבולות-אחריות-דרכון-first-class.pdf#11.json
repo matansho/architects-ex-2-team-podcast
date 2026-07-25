@@ -2,26 +2,29 @@
   "id": "pdf:travel/files/גבולות-אחריות-דרכון-first-class.pdf#11",
   "source": "llm",
   "description": {
-    "title": "גבולות אחריות דרכון",
-    "summary": "This table details coverage limits for the 'דרכון' travel insurance policy. It shows the maximum reimbursement amounts for various incidents like theft, loss, and damage, depending on the type of item and coverage level.",
-    "embed_passage": "פוליסת 'דרכון' מציעה כיסוי להוצאות במקרה של גניבה או אובדן של חפצים אישיים, כגון טלפון נייד או אופניים. גובה הפיצוי משתנה בהתאם לסוג החפץ ולערכו, לדוגמה, עד $2,000 עבור גניבה או אובדן של טאבלט/מחשב נישא אישי, ועד $6,000 עבור אופניים שנרכשו בסכום זהה. הכיסוי כולל גם נזק לרכב שכור, עם השתתפות עצמית הניתנת לביטול.",
-    "row_axis": "Type of loss/damage (e.g., theft of laptop, damage to rental car)",
-    "column_axis": "Coverage level/limit (e.g., basic policy inclusion, maximum reimbursement amount)",
+    "title": "גבולות אחריות דרכון First Class",
+    "summary": "This table details coverage limits for the 'דרכון First Class' travel insurance policy. It shows the maximum liability amounts for various incidents, such as theft, loss, and damage, depending on the coverage level.",
+    "embed_passage": "טבלה זו מתארת את גבולות האחריות של פוליסת הביטוח 'דרכון First Class' עבור מגוון אירועים, כגון גניבה, אובדן ונזק. ניתן לחפש כאן את סכום הכיסוי המקסימלי עבור פריטים ספציפיים, כגון מחשבים ניידים, טלפונים ניידים ואופניים, בהתאם לתנאי הפוליסה. הפוליסה כוללת כיסוי בסיסי לרפואיות, וכן כיסוי נוסף עבור עיסוק מקצועני בספורט. גבולות האחריות משתנים בהתאם לסוג הפריט ולתנאים הנוספים, כגון השתתפות עצמית. לדוגמה, גניבה או אובדן של טאבלט/מחשב נישא אישי מכוסה עד $2,000, בעוד שאובדן או גניבה של אופניים מכוסה עד $6,000 בהתאם לרשימה. כמו כן, יש כיסוי לנזק תאונתי לרכב שכור, עם השתתפות עצמית הניתנת לביטול.",
+    "row_axis": "type of loss/damage (e.g., theft of laptop, bicycle loss)",
+    "column_axis": "coverage amount/limit",
     "units": [
       "$"
     ],
     "notable_values": [
-      "Laptop/Personal Computer Theft/Loss: $2,000",
-      "Mobile Phone Theft/Loss: $200",
-      "Bicycle Theft/Loss: up to $6,000",
-      "Personal Lost Items: $50 - $250",
-      "Rental Car Damage: $1,500 (with optional waiver)"
+      "laptop/portable computer theft/loss: $2,000",
+      "mobile phone theft/loss: $200",
+      "personal loss (general): $50",
+      "personal loss (theft): $250",
+      "bicycle theft/loss: $6,000",
+      "rental car damage (accident): $6,000",
+      "driver age (T5): up to 24",
+      "bicycle value (insurance amount): $1,000"
     ],
     "product_hints": [
-      "דרכון"
+      "דרכון First Class"
     ]
   },
   "sketch": "כלול הבסיסית בפוליסה רפואיות,כספי( בשכר ואו עיקרי )עיסוק מקצועני ספורט,\n$ 50,להוצאות האחריות בגבול כלול הבסיסית בפוליסה רפואיות,2 מקצועני ספורט,מקצועני ספורט עיקרי )עיסוק כספי( בשכר ואו\n$ 100,\"$ 2,000\",3 טאבלט / נישא אישי מחשב של גניבה או אובדן,\n$ 200,$ T50,4 נייד טלפון של גניבה או אובדן,חפצים אובדן אישיים\n$ 50 - כללי אובדן $ 250 - גניבה,\"$ 2,500 $ 4,500 $ 6,000\",5 ימים( 90 )עד גלגליים דו אופניים ערך פי על הנדרש הביטוח לסכום )בהתאם גניבה או אובדן הרשימה( בדף נרשם ואשר האופניים,\n\"$ 1,000\",שנרכש לסכום בהתאם,אווירי מוביל בידי שהיו גניבה או נזק,אובדן/גניבה אופניים\n,\"$ 1,500\",6 קראון / מרכב תאונתי נזק של במקרה עצמית השתתפות ביטול (T5 גיל ועד 24 מגיל )לנהג שכור,\n,\"$ 6,000\",מרכב/קראון תאונתי נזק של במקרה עצמית השתתפות ביטול (",
-  "embed_text": "פוליסת 'דרכון' מציעה כיסוי להוצאות במקרה של גניבה או אובדן של חפצים אישיים, כגון טלפון נייד או אופניים. גובה הפיצוי משתנה בהתאם לסוג החפץ ולערכו, לדוגמה, עד $2,000 עבור גניבה או אובדן של טאבלט/מחשב נישא אישי, ועד $6,000 עבור אופניים שנרכשו בסכום זהה. הכיסוי כולל גם נזק לרכב שכור, עם השתתפות עצמית הניתנת לביטול.",
-  "payload": "טבלה: גבולות אחריות דרכון\nThis table details coverage limits for the 'דרכון' travel insurance policy. It shows the maximum reimbursement amounts for various incidents like theft, loss, and damage, depending on the type of item and coverage level.\nממדים: Type of loss/damage (e.g., theft of laptop, damage to rental car), Coverage level/limit (e.g., basic policy inclusion, maximum reimbursement amount)\n\nכלול הבסיסית בפוליסה רפואיות,כספי( בשכר ואו עיקרי )עיסוק מקצועני ספורט,\n$ 50,להוצאות האחריות בגבול כלול הבסיסית בפוליסה רפואיות,2 מקצועני ספורט,מקצועני ספורט עיקרי )עיסוק כספי( בשכר ואו\n$ 100,\"$ 2,000\",3 טאבלט / נישא אישי מחשב של גניבה או אובדן,\n$ 200,$ T50,4 נייד טלפון של גניבה או אובדן,חפצים אובדן אישיים\n$ 50 - כללי אובדן $ 250 - גניבה,\"$ 2,500 $ 4,500 $ 6,000\",5 ימים( 90 )עד גלגליים דו אופניים ערך פי על הנדרש הביטוח לסכום )בהתאם גניבה או אובדן הרשימה( בדף נרשם ואשר האופניים,\n\"$ 1,000\",שנרכש לסכום בהתאם,אווירי מוביל בידי שהיו גניבה או נזק,אובדן/גניבה אופניים\n,\"$ 1,500\",6 קראון / מרכב תאונתי נזק של במקרה עצמית השתתפות ביטול (T5 גיל ועד 24 מגיל )לנהג שכור,\n,\"$ 6,000\",מרכב/קראון תאונתי נזק של במקרה עצמית השתתפות ביטול ("
+  "embed_text": "טבלה זו מתארת את גבולות האחריות של פוליסת הביטוח 'דרכון First Class' עבור מגוון אירועים, כגון גניבה, אובדן ונזק. ניתן לחפש כאן את סכום הכיסוי המקסימלי עבור פריטים ספציפיים, כגון מחשבים ניידים, טלפונים ניידים ואופניים, בהתאם לתנאי הפוליסה. הפוליסה כוללת כיסוי בסיסי לרפואיות, וכן כיסוי נוסף עבור עיסוק מקצועני בספורט. גבולות האחריות משתנים בהתאם לסוג הפריט ולתנאים הנוספים, כגון השתתפות עצמית. לדוגמה, גניבה או אובדן של טאבלט/מחשב נישא אישי מכוסה עד $2,000, בעוד שאובדן או גניבה של אופניים מכוסה עד $6,000 בהתאם לרשימה. כמו כן, יש כיסוי לנזק תאונתי לרכב שכור, עם השתתפות עצמית הניתנת לביטול. This table details coverage limits for the 'דרכון First Class' travel insurance policy. It shows the maximum liability amounts for various incidents, such as theft, loss, and damage, depending on the coverage…",
+  "payload": "טבלה: גבולות אחריות דרכון First Class\nThis table details coverage limits for the 'דרכון First Class' travel insurance policy. It shows the maximum liability amounts for various incidents, such as theft, loss, and damage, depending on the coverage level.\nממדים: type of loss/damage (e.g., theft of laptop, bicycle loss), coverage amount/limit\n\nכלול הבסיסית בפוליסה רפואיות,כספי( בשכר ואו עיקרי )עיסוק מקצועני ספורט,\n$ 50,להוצאות האחריות בגבול כלול הבסיסית בפוליסה רפואיות,2 מקצועני ספורט,מקצועני ספורט עיקרי )עיסוק כספי( בשכר ואו\n$ 100,\"$ 2,000\",3 טאבלט / נישא אישי מחשב של גניבה או אובדן,\n$ 200,$ T50,4 נייד טלפון של גניבה או אובדן,חפצים אובדן אישיים\n$ 50 - כללי אובדן $ 250 - גניבה,\"$ 2,500 $ 4,500 $ 6,000\",5 ימים( 90 )עד גלגליים דו אופניים ערך פי על הנדרש הביטוח לסכום )בהתאם גניבה או אובדן הרשימה( בדף נרשם ואשר האופניים,\n\"$ 1,000\",שנרכש לסכום בהתאם,אווירי מוביל בידי שהיו גניבה או נזק,אובדן/גניבה אופניים\n,\"$ 1,500\",6 קראון / מרכב תאונתי נזק של במקרה עצמית השתתפות ביטול (T5 גיל ועד 24 מגיל )לנהג שכור,\n,\"$ 6,000\",מרכב/קראון תאונתי נזק של במקרה עצמית השתתפות ביטול ("
 }

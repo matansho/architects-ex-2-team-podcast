@@ -2,23 +2,27 @@
   "id": "pdf:apartment/files/תנאי-הפוליסה-לביטוח-אדירה-ארד-מהדורת-ספטמבר-2017.pdf#84",
   "source": "llm",
   "description": {
-    "title": "אדירה ארד - תנאי הפוליסה",
-    "summary": "This table details the conditions for an 'Adira Erd' insurance policy, specifically regarding property and contents. It's used to assess risk and determine coverage based on details about the apartment and its contents.",
-    "embed_passage": "פוליסת 'אדירה ארד' מתייחסת לדירה ולתכולתה, תוך התחשבות בגורמים כמו גיל הדירה, גודל הדירה, ערך הדירה, סוג המבנה וחומר הבניה. לדוגמה, גודל הדירה יכול להשפיע על עלות הביטוח, כמו גם ערך התכולה ופירוט חפצי הערך שבתוכה.",
-    "row_axis": "Category of information (apartment details, contents details)",
-    "column_axis": "Specific attributes within each category (address, value, construction material, etc.)",
+    "title": "תנאי הפוליסה - דירה ותכולה",
+    "summary": "This table outlines the details required for apartment and contents insurance. It lists information needed about the apartment itself and its contents for policy assessment.",
+    "embed_passage": "טבלה זו מתייחסת לתנאי פוליסת ביטוח אדירה ארד, ומפרטת את המידע הנדרש לצורך הערכת סיכונים של דירה ותכולתה. המידע נאסף על סמך תשובות המבוטח בהצעה לביטוח. יש למלא פרטים לגבי הדירה, כגון גודל, גיל ומיקום, וכן פרטים על התכולה, כולל מוצרים חשמליים וחפצי ערך. המידע נדרש לצורך קביעת תנאי הפוליסה וגובה הפרמיה. לדוגמה, יש לציין את ערך הדירה, סוג המבנה, חומר הבניה, גיל הדירה, תיאור הפריטים המרכיבים את התכולה, ערך התכולה, סוגם של מוצרים חשמליים, תוצרתם וגילם.",
+    "row_axis": "item/aspect of property or contents",
+    "column_axis": "detail/attribute",
     "units": [],
     "notable_values": [
-      "33.2.1: Apartment details",
-      "33.2.2: Contents details"
+      "סוג המבנה: בניין",
+      "ערך הדירה: …",
+      "ערך התכולה: …",
+      "מוצרים חשמליים: סוגם, תוצרתם, גילם וערכם",
+      "חפצי ערך: פירוט",
+      "גיל הדירה: …",
+      "גודל הדירה: …",
+      "מספר החדרים: …"
     ],
     "product_hints": [
-      "אדירה ארד",
-      "ביטוח דירה",
-      "ביטוח תכולה"
+      "אדירה ארד"
     ]
   },
   "sketch": "מען הדירה, ערך הדירה, סוג המבנה, חומר הבניה, מיקום הדירה : לגבי הדירה . 33.2.1 , בבניין, אמצעי בטיחות מכל סוג שהוא, גיל הדירה, גודל הדירה, מספר החדרים מספר האנשים המתגוררים בה דרך קבע, תוספות ושינויים מיוחדים.\nתיאור הפריטים המרכיבים את התכולה, ערך התכולה, פירוט לגבי התכולה: . 33.2.2 מוצרים חשמליים: סוגם, תוצרתם, גילם וערכם, ופירוט חפצי ערך.",
-  "embed_text": "פוליסת 'אדירה ארד' מתייחסת לדירה ולתכולתה, תוך התחשבות בגורמים כמו גיל הדירה, גודל הדירה, ערך הדירה, סוג המבנה וחומר הבניה. לדוגמה, גודל הדירה יכול להשפיע על עלות הביטוח, כמו גם ערך התכולה ופירוט חפצי הערך שבתוכה.",
-  "payload": "טבלה: אדירה ארד - תנאי הפוליסה\nThis table details the conditions for an 'Adira Erd' insurance policy, specifically regarding property and contents. It's used to assess risk and determine coverage based on details about the apartment and its contents.\nממדים: Category of information (apartment details, contents details), Specific attributes within each category (address, value, construction material, etc.)\n\nמען הדירה, ערך הדירה, סוג המבנה, חומר הבניה, מיקום הדירה : לגבי הדירה . 33.2.1 , בבניין, אמצעי בטיחות מכל סוג שהוא, גיל הדירה, גודל הדירה, מספר החדרים מספר האנשים המתגוררים בה דרך קבע, תוספות ושינויים מיוחדים.\nתיאור הפריטים המרכיבים את התכולה, ערך התכולה, פירוט לגבי התכולה: . 33.2.2 מוצרים חשמליים: סוגם, תוצרתם, גילם וערכם, ופירוט חפצי ערך."
+  "embed_text": "טבלה זו מתייחסת לתנאי פוליסת ביטוח אדירה ארד, ומפרטת את המידע הנדרש לצורך הערכת סיכונים של דירה ותכולתה. המידע נאסף על סמך תשובות המבוטח בהצעה לביטוח. יש למלא פרטים לגבי הדירה, כגון גודל, גיל ומיקום, וכן פרטים על התכולה, כולל מוצרים חשמליים וחפצי ערך. המידע נדרש לצורך קביעת תנאי הפוליסה וגובה הפרמיה. לדוגמה, יש לציין את ערך הדירה, סוג המבנה, חומר הבניה, גיל הדירה, תיאור הפריטים המרכיבים את התכולה, ערך התכולה, סוגם של מוצרים חשמליים, תוצרתם וגילם. This table outlines the details required for apartment and contents insurance. It lists information needed about the apartment itself and its contents for policy assessment. בין הערכים בטבלה: גודל הדירה: …; מספר החדרים: ….",
+  "payload": "טבלה: תנאי הפוליסה - דירה ותכולה\nThis table outlines the details required for apartment and contents insurance. It lists information needed about the apartment itself and its contents for policy assessment.\nממדים: item/aspect of property or contents, detail/attribute\n\nמען הדירה, ערך הדירה, סוג המבנה, חומר הבניה, מיקום הדירה : לגבי הדירה . 33.2.1 , בבניין, אמצעי בטיחות מכל סוג שהוא, גיל הדירה, גודל הדירה, מספר החדרים מספר האנשים המתגוררים בה דרך קבע, תוספות ושינויים מיוחדים.\nתיאור הפריטים המרכיבים את התכולה, ערך התכולה, פירוט לגבי התכולה: . 33.2.2 מוצרים חשמליים: סוגם, תוצרתם, גילם וערכם, ופירוט חפצי ערך."
 }

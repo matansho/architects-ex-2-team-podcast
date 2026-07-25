@@ -3,26 +3,22 @@
   "source": "llm",
   "description": {
     "title": "תנאי חידוש פוליסה",
-    "summary": "This table details the conditions for renewing an insurance policy. It outlines scenarios where the company may not automatically renew the policy, and conditions related to premium increases.",
-    "embed_passage": "פוליסה זו למבוטחים חדשים עד לביצוע השינויים האמורים. על אף האמור בסעיף 10.2, לא תחודש מאליה פוליסה כאמור באותו סעיף לעיל. יובהר כי במקרה זה לא תוכל החברה לשווק בפוליסה את הפוליסה באותם תנאים שהיו בה ערב החידוש.  הפוליסה עשויה שלא להתחדש אם חלה עלייה בדמי הביטוח החודשיים של יותר מ-10 ש״ח.",
-    "row_axis": "Renewal conditions / scenarios",
-    "column_axis": "Policy renewal terms",
-    "units": [
-      "₪",
-      "%"
-    ],
+    "summary": "This table outlines conditions related to policy renewal, specifically regarding changes to terms and automatic renewal. It details scenarios where the company may not renew a policy automatically or may change its conditions.",
+    "embed_passage": "טבלה זו מתארת תנאים הקשורים לחידוש פוליסה, במיוחד שינויים בתנאים וחידוש אוטומטי. ניתן למצוא כאן תרחישים בהם החברה עשויה שלא לחדש פוליסה באופן אוטומטי או לשנות את תנאיה. הפוליסה רלוונטית לחידוש פוליסה זו למבוטחים חדשים עד לביצוע השינויים האמורים. במקרים מסוימים, פוליסה לא תחודש מאליה, או חלקים ממנה, אם חלה עלייה בדמי הביטוח החודשיים של יותר מ-20% מהסכום ששולם קודם לכן. הפוליסה רלוונטית לחידוש פוליסה זו, וכן לחידוש פוליסות ששווקו על פי תכנית שהממונה אישר.",
+    "row_axis": "תנאי חידוש",
+    "column_axis": "סעיפי תנאים",
+    "units": [],
     "notable_values": [
-      "10: Section number referencing renewal conditions",
-      "10.2: Clause regarding non-automatic renewal",
-      "10.5: Clause regarding policies marketed under a plan approved by the supervisor",
-      "10 ש״ח: Threshold for premium increase triggering review",
-      "20 %: Maximum premium increase considered"
+      "24 חודשים: תקופת הביטוח",
+      "20%: עלייה מקסימלית בדמי הביטוח",
+      "פוליסה: סוג החוזה",
+      "מבוטחים חדשים: קהל יעד"
     ],
     "product_hints": [
       "פוליסה"
     ]
   },
   "sketch": "ה לשווק פוליסה זו ם בתנאים בפוליסה במועד החידוש, והחברה אינה ממשיכ נדרשה החברה לבצע שינו  יי 10.4 ם ם הקיימי למבוטחים חדשים, רשאית   ה  יא במועד החידוש שלא לבצע את השינויים, ולחדש לכלל המבוטחי ש. יובהר כי במקרה זה לא תוכל החברה לשווק בפוליסה את הפוליסה באותם תנאים שהיו בה ערב החידו . ם אשר יחול  ו על כלל המבוטחים פוליסה זו למבוטחים חדשים עד לביצוע השינו  יים האמורי\n, ל, לא תחודש מאליה פוליסה כאמור באותו סעיף לעיל, ו/או חלקים ממנה לעי 10.2 על אף האמור בסעיף 10.5 : לפי העניין במקרים הבאים",
-  "embed_text": "פוליסה זו למבוטחים חדשים עד לביצוע השינויים האמורים. על אף האמור בסעיף 10.2, לא תחודש מאליה פוליסה כאמור באותו סעיף לעיל. יובהר כי במקרה זה לא תוכל החברה לשווק בפוליסה את הפוליסה באותם תנאים שהיו בה ערב החידוש.  הפוליסה עשויה שלא להתחדש אם חלה עלייה בדמי הביטוח החודשיים של יותר מ-10 ש״ח.",
-  "payload": "טבלה: תנאי חידוש פוליסה\nThis table details the conditions for renewing an insurance policy. It outlines scenarios where the company may not automatically renew the policy, and conditions related to premium increases.\nממדים: Renewal conditions / scenarios, Policy renewal terms\n\nה לשווק פוליסה זו ם בתנאים בפוליסה במועד החידוש, והחברה אינה ממשיכ נדרשה החברה לבצע שינו  יי 10.4 ם ם הקיימי למבוטחים חדשים, רשאית   ה  יא במועד החידוש שלא לבצע את השינויים, ולחדש לכלל המבוטחי ש. יובהר כי במקרה זה לא תוכל החברה לשווק בפוליסה את הפוליסה באותם תנאים שהיו בה ערב החידו . ם אשר יחול  ו על כלל המבוטחים פוליסה זו למבוטחים חדשים עד לביצוע השינו  יים האמורי\n, ל, לא תחודש מאליה פוליסה כאמור באותו סעיף לעיל, ו/או חלקים ממנה לעי 10.2 על אף האמור בסעיף 10.5 : לפי העניין במקרים הבאים"
+  "embed_text": "טבלה זו מתארת תנאים הקשורים לחידוש פוליסה, במיוחד שינויים בתנאים וחידוש אוטומטי. ניתן למצוא כאן תרחישים בהם החברה עשויה שלא לחדש פוליסה באופן אוטומטי או לשנות את תנאיה. הפוליסה רלוונטית לחידוש פוליסה זו למבוטחים חדשים עד לביצוע השינויים האמורים. במקרים מסוימים, פוליסה לא תחודש מאליה, או חלקים ממנה, אם חלה עלייה בדמי הביטוח החודשיים של יותר מ-20% מהסכום ששולם קודם לכן. הפוליסה רלוונטית לחידוש פוליסה זו, וכן לחידוש פוליסות ששווקו על פי תכנית שהממונה אישר. This table outlines conditions related to policy renewal, specifically regarding changes to terms and automatic renewal. It details scenarios where the company may not renew a policy automatically or may change its conditions. בין הערכים בטבלה: 24 חודשים: תקופת הביטוח.",
+  "payload": "טבלה: תנאי חידוש פוליסה\nThis table outlines conditions related to policy renewal, specifically regarding changes to terms and automatic renewal. It details scenarios where the company may not renew a policy automatically or may change its conditions.\nממדים: תנאי חידוש, סעיפי תנאים\n\nה לשווק פוליסה זו ם בתנאים בפוליסה במועד החידוש, והחברה אינה ממשיכ נדרשה החברה לבצע שינו  יי 10.4 ם ם הקיימי למבוטחים חדשים, רשאית   ה  יא במועד החידוש שלא לבצע את השינויים, ולחדש לכלל המבוטחי ש. יובהר כי במקרה זה לא תוכל החברה לשווק בפוליסה את הפוליסה באותם תנאים שהיו בה ערב החידו . ם אשר יחול  ו על כלל המבוטחים פוליסה זו למבוטחים חדשים עד לביצוע השינו  יים האמורי\n, ל, לא תחודש מאליה פוליסה כאמור באותו סעיף לעיל, ו/או חלקים ממנה לעי 10.2 על אף האמור בסעיף 10.5 : לפי העניין במקרים הבאים"
 }

@@ -2,21 +2,23 @@
   "id": "pdf:apartment/files/פוליסה-לביטוח-דירה-ותכולתה-ש-מהדורת-אוגוסט-2020.pdf#84",
   "source": "llm",
   "description": {
-    "title": "כיסוי הוצאות משפט",
-    "summary": "This table details coverage for legal expenses related to insurance claims. It outlines situations where the insurer will cover the insured's legal costs, and exceptions to liability towards third parties.",
-    "embed_passage": "פוליסת ביטוח דירה ותכולתה שמהדורת אוגוסט 2020 כוללת כיסוי להוצאות משפט סבירות שהמבוטח נדרש לשאת בשל חבותו, גם מעבר לגבול האחריות. החריגים לחבות כלפי צד שלישי מפורטים בסעיף 3, כולל תביעות המוגשות מחוץ לגבולות מדינת ישראל. סעיף 4 מתייחס לכיסוי במקרה של שימוש במכשיר הרמה ביתי.",
-    "row_axis": "Coverage areas / exceptions",
-    "column_axis": "Details of coverage / exclusion",
+    "title": "חריגים לחבות כלפי צד שלישי",
+    "summary": "This table details exclusions to liability coverage for third parties under an apartment insurance policy. It lists scenarios where the insurer will not compensate the insured for claims.",
+    "embed_passage": "טבלה זו מתארת חריגים לחבות כלפי צד שלישי בפוליסת ביטוח דירה. ניתן לעיין בה כדי להבין אילו מקרים אינם מכוסים על ידי הפוליסה, כגון תביעה המוגשת בחוץ לארץ. הפוליסה לביטוח דירה ותכולתה, מהדורת אוגוסט 2020, מגדירה את תנאי הכיסוי. החריגים כוללים תביעות הנובעות משימוש במכשיר הרמה ביתי, תביעה מחוץ לגבולות ישראל, ומקרים אחרים המפורטים בטבלה. מכשיר הרמה ביתי מוגדר כמעלון כיסא או מכפיל חנייה. מעלון כיסא הוא כיסא מדרגון המחובר למסילות, ומכפיל חנייה מותקן בדירה או בבית משותף.",
+    "row_axis": "exclusion reason",
+    "column_axis": "description",
     "units": [],
     "notable_values": [
-      "כיסוי הוצאות משפט: 2",
-      "חריגים לחבות כלפי צד שלישי: 3"
+      "תביעה מחוץ לגבולות ישראל: 3.10",
+      "מכשיר הרמה ביתי: 3.5",
+      "מעלון כיסא: 4.2.1",
+      "מכפיל חנייה: 4.2.3"
     ],
     "product_hints": [
-      "ביטוח דירה ותכולתה"
+      "פוליסה לביטוח דירה ותכולתה"
     ]
   },
   "sketch": ".  כיסוי הוצאות משפט 2\nבמקרה של תביעה לתשלום תגמולי ביטוח לפי פרק זה, יישא המבטח בהוצאות משפט סבירות שבהן על המבוטח לשאת בשל חבותו, אף מעבר לגבול האחריות לפי פרק זה.\n.  חריגים לחבות כלפי צד שלישי 3\nהמבטח לא יהיה אחראי לשפות את המבוטח בשל סכום שיושת עליו, או שנשא בו, אם עילתו נובעת מאחד מאלה:",
-  "embed_text": "פוליסת ביטוח דירה ותכולתה שמהדורת אוגוסט 2020 כוללת כיסוי להוצאות משפט סבירות שהמבוטח נדרש לשאת בשל חבותו, גם מעבר לגבול האחריות. החריגים לחבות כלפי צד שלישי מפורטים בסעיף 3, כולל תביעות המוגשות מחוץ לגבולות מדינת ישראל. סעיף 4 מתייחס לכיסוי במקרה של שימוש במכשיר הרמה ביתי.",
-  "payload": "טבלה: כיסוי הוצאות משפט\nThis table details coverage for legal expenses related to insurance claims. It outlines situations where the insurer will cover the insured's legal costs, and exceptions to liability towards third parties.\nממדים: Coverage areas / exceptions, Details of coverage / exclusion\n\n.  כיסוי הוצאות משפט 2\nבמקרה של תביעה לתשלום תגמולי ביטוח לפי פרק זה, יישא המבטח בהוצאות משפט סבירות שבהן על המבוטח לשאת בשל חבותו, אף מעבר לגבול האחריות לפי פרק זה.\n.  חריגים לחבות כלפי צד שלישי 3\nהמבטח לא יהיה אחראי לשפות את המבוטח בשל סכום שיושת עליו, או שנשא בו, אם עילתו נובעת מאחד מאלה:"
+  "embed_text": "טבלה זו מתארת חריגים לחבות כלפי צד שלישי בפוליסת ביטוח דירה. ניתן לעיין בה כדי להבין אילו מקרים אינם מכוסים על ידי הפוליסה, כגון תביעה המוגשת בחוץ לארץ. הפוליסה לביטוח דירה ותכולתה, מהדורת אוגוסט 2020, מגדירה את תנאי הכיסוי. החריגים כוללים תביעות הנובעות משימוש במכשיר הרמה ביתי, תביעה מחוץ לגבולות ישראל, ומקרים אחרים המפורטים בטבלה. מכשיר הרמה ביתי מוגדר כמעלון כיסא או מכפיל חנייה. מעלון כיסא הוא כיסא מדרגון המחובר למסילות, ומכפיל חנייה מותקן בדירה או בבית משותף. This table details exclusions to liability coverage for third parties under an apartment insurance policy. It lists scenarios where the insurer will not compensate the insured for claims.",
+  "payload": "טבלה: חריגים לחבות כלפי צד שלישי\nThis table details exclusions to liability coverage for third parties under an apartment insurance policy. It lists scenarios where the insurer will not compensate the insured for claims.\nממדים: exclusion reason, description\n\n.  כיסוי הוצאות משפט 2\nבמקרה של תביעה לתשלום תגמולי ביטוח לפי פרק זה, יישא המבטח בהוצאות משפט סבירות שבהן על המבוטח לשאת בשל חבותו, אף מעבר לגבול האחריות לפי פרק זה.\n.  חריגים לחבות כלפי צד שלישי 3\nהמבטח לא יהיה אחראי לשפות את המבוטח בשל סכום שיושת עליו, או שנשא בו, אם עילתו נובעת מאחד מאלה:"
 }

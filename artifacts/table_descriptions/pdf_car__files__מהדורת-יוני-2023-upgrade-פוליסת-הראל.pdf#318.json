@@ -2,23 +2,24 @@
   "id": "pdf:car/files/מהדורת-יוני-2023-upgrade-פוליסת-הראל.pdf#318",
   "source": "llm",
   "description": {
-    "title": "שירותי דרך הראל",
-    "summary": "This table details the compensation provided by 'חבילת שירותי דרך מורחבת' from הראל when the service cannot be delivered. It specifies a fixed payment of 300 ₪ to the insured.",
-    "embed_passage": "פוליסת 'חבילת שירותי דרך מורחבת' של הראל מספקת פיצוי קבוע של שלוש מאות ש״ח (300 ₪) במקרים בהם השירות לא ניתן. סכום זה יבוא במקום מתן השירות, כפיצוי מוסכם, ונועד לכסות הוצאות הקשורות לבעיה.",
-    "row_axis": "scenarios where service cannot be provided",
+    "title": "תשלום במקום שירות",
+    "summary": "This table details compensation provided when the service provider cannot deliver a service. It specifies a fixed payment amount of 300 ₪, or the actual service cost (whichever is lower) after deducting any self-participation fee.",
+    "embed_passage": "טבלה זו מתארת את הפיצוי הניתן כאשר נותן השירות אינו יכול לספק שירות, כחלק מ\"חבילת שירותי דרך מורחבת\" של הראל. הפיצוי הקבוע הוא 300 ש״ח, או עלות השירות בפועל (הנמוך מביניהם) בניכוי השתתפות עצמית. השירותים ניתנים בתוך גבולות מדינת ישראל, כולל יהודה ושומרון (למעט שטחי האוטונומיה). הפיצוי יבוא במקום מתן השירות, כפיצוי קבוע ומוסכם. סכומים בטבלה כוללים 300 ש״ח, דמי השתתפות עצמית, וחשבונית.",
+    "row_axis": "circumstances where service cannot be provided",
     "column_axis": "compensation details",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "payment amount: 300 ₪"
+      "payment amount: 300 ₪",
+      "self-participation: applicable",
+      "invoice: required for reimbursement"
     ],
     "product_hints": [
-      "חבילת שירותי דרך מורחבת",
-      "הראל"
+      "חבילת שירותי דרך מורחבת"
     ]
   },
   "sketch": "נבצר מנותן השירות לספק את השירות מכל סיבה שבשליטתו, ישלם נותן השירות ישירות .2.6 )שלוש מאות ש״ח( או את הסכום הנדרש לביצוע השירות, אשר ₪  300 למבוטח סך של שולם על-ידי המבוטח, תמורת חשבונית - הנמוך ביניהם. זאת בניכוי דמי ההשתתפות העצמית - כמקובל.\nתשלום זה יבוא במקום מתן השירות, כפיצוי קבוע ומוסכם למקבל השירות, ולמקבל השירות לא תהיה כל טענה נגד נותן השירות בקשר לכך.",
-  "embed_text": "פוליסת 'חבילת שירותי דרך מורחבת' של הראל מספקת פיצוי קבוע של שלוש מאות ש״ח (300 ₪) במקרים בהם השירות לא ניתן. סכום זה יבוא במקום מתן השירות, כפיצוי מוסכם, ונועד לכסות הוצאות הקשורות לבעיה.",
-  "payload": "טבלה: שירותי דרך הראל\nThis table details the compensation provided by 'חבילת שירותי דרך מורחבת' from הראל when the service cannot be delivered. It specifies a fixed payment of 300 ₪ to the insured.\nממדים: scenarios where service cannot be provided, compensation details\n\nנבצר מנותן השירות לספק את השירות מכל סיבה שבשליטתו, ישלם נותן השירות ישירות .2.6 )שלוש מאות ש״ח( או את הסכום הנדרש לביצוע השירות, אשר ₪  300 למבוטח סך של שולם על-ידי המבוטח, תמורת חשבונית - הנמוך ביניהם. זאת בניכוי דמי ההשתתפות העצמית - כמקובל.\nתשלום זה יבוא במקום מתן השירות, כפיצוי קבוע ומוסכם למקבל השירות, ולמקבל השירות לא תהיה כל טענה נגד נותן השירות בקשר לכך."
+  "embed_text": "טבלה זו מתארת את הפיצוי הניתן כאשר נותן השירות אינו יכול לספק שירות, כחלק מ\"חבילת שירותי דרך מורחבת\" של הראל. הפיצוי הקבוע הוא 300 ש״ח, או עלות השירות בפועל (הנמוך מביניהם) בניכוי השתתפות עצמית. השירותים ניתנים בתוך גבולות מדינת ישראל, כולל יהודה ושומרון (למעט שטחי האוטונומיה). הפיצוי יבוא במקום מתן השירות, כפיצוי קבוע ומוסכם. סכומים בטבלה כוללים 300 ש״ח, דמי השתתפות עצמית, וחשבונית. This table details compensation provided when the service provider cannot deliver a service. It specifies a fixed payment amount of 300 ₪, or the actual service cost (whichever is lower) after deducting any self-participation fee. בין הערכים בטבלה: payment amount: 300 ₪; self-participation: applicable; invoice: required for reimbursement.",
+  "payload": "טבלה: תשלום במקום שירות\nThis table details compensation provided when the service provider cannot deliver a service. It specifies a fixed payment amount of 300 ₪, or the actual service cost (whichever is lower) after deducting any self-participation fee.\nממדים: circumstances where service cannot be provided, compensation details\n\nנבצר מנותן השירות לספק את השירות מכל סיבה שבשליטתו, ישלם נותן השירות ישירות .2.6 )שלוש מאות ש״ח( או את הסכום הנדרש לביצוע השירות, אשר ₪  300 למבוטח סך של שולם על-ידי המבוטח, תמורת חשבונית - הנמוך ביניהם. זאת בניכוי דמי ההשתתפות העצמית - כמקובל.\nתשלום זה יבוא במקום מתן השירות, כפיצוי קבוע ומוסכם למקבל השירות, ולמקבל השירות לא תהיה כל טענה נגד נותן השירות בקשר לכך."
 }

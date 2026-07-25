@@ -3,23 +3,22 @@
   "source": "llm",
   "description": {
     "title": "פרטי מועמדים לביטוח",
-    "summary": "This table lists details of insurance applicants. It is used to look up applicant information by name, ID number, and age.",
-    "embed_passage": "טופס זה מתעד פרטי מועמדים לביטוח בריאות. ניתן למצוא מידע על שם המועמד, מספר זהות, גיל (לדוגמה, 18), וכן פרטי בן/בת זוג. המידע משמש להערכת התאמת המועמד לתוכנית ביטוח פרימיום.",
-    "row_axis": "applicant",
-    "column_axis": "applicant details (signature, date, ID number, name, relationship, age)",
+    "summary": "This table lists details of insurance applicants. It is used to record applicant names, IDs, ages, and relationship to the primary applicant.",
+    "embed_passage": "טבלה זו מציגה פרטי מועמדים לביטוח במסגרת הצעה לטיפולים פרימיום. המידע כולל שם המועמד, מספר זהות, גיל, וקשר לראשי משפחה. ניתן לחפש מידע על מועמדים ספציפיים לפי שם או מספר זהות. הטבלה מתעדת מועמדים בגיל 18 ומעלה, וכן ראשי משפחה ובני/בנות זוג. פרטי המועמדים כוללים גם את תאריך החתימה על ההצעה. הצעה לטיפולים פרימיום כוללת מידע על מועמדים ראשיים, בני זוג וילדים מעל גיל 18.",
+    "row_axis": "מועמד לביטוח",
+    "column_axis": "פרטי מועמד (שם, זהות מספר, תאריך, חתימה, קשר)",
     "units": [],
     "notable_values": [
-      "age: 18",
-      "relationship: ראשי מועמד",
-      "relationship: הזוג בן/בת",
-      "age: 18",
-      "age: 18"
+      "גיל: 18+",
+      "קשר: ראשי מועמד",
+      "קשר: בן/בת",
+      "קשר: ילד"
     ],
     "product_hints": [
-      "ביטוח פרימיום"
+      "טיפולים פרימיום"
     ]
   },
   "sketch": "חתימה,תאריך,זהות מספר,לביטוח המועמד שם,לביטוח מועמד\n,,,,ראשי מועמד\n,,,,הזוג בן/בת\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד",
-  "embed_text": "טופס זה מתעד פרטי מועמדים לביטוח בריאות. ניתן למצוא מידע על שם המועמד, מספר זהות, גיל (לדוגמה, 18), וכן פרטי בן/בת זוג. המידע משמש להערכת התאמת המועמד לתוכנית ביטוח פרימיום.",
-  "payload": "טבלה: פרטי מועמדים לביטוח\nThis table lists details of insurance applicants. It is used to look up applicant information by name, ID number, and age.\nממדים: applicant, applicant details (signature, date, ID number, name, relationship, age)\n\nחתימה,תאריך,זהות מספר,לביטוח המועמד שם,לביטוח מועמד\n,,,,ראשי מועמד\n,,,,הזוג בן/בת\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד"
+  "embed_text": "טבלה זו מציגה פרטי מועמדים לביטוח במסגרת הצעה לטיפולים פרימיום. המידע כולל שם המועמד, מספר זהות, גיל, וקשר לראשי משפחה. ניתן לחפש מידע על מועמדים ספציפיים לפי שם או מספר זהות. הטבלה מתעדת מועמדים בגיל 18 ומעלה, וכן ראשי משפחה ובני/בנות זוג. פרטי המועמדים כוללים גם את תאריך החתימה על ההצעה. הצעה לטיפולים פרימיום כוללת מידע על מועמדים ראשיים, בני זוג וילדים מעל גיל 18. This table lists details of insurance applicants. It is used to record applicant names, IDs, ages, and relationship to the primary applicant.",
+  "payload": "טבלה: פרטי מועמדים לביטוח\nThis table lists details of insurance applicants. It is used to record applicant names, IDs, ages, and relationship to the primary applicant.\nממדים: מועמד לביטוח, פרטי מועמד (שם, זהות מספר, תאריך, חתימה, קשר)\n\nחתימה,תאריך,זהות מספר,לביטוח המועמד שם,לביטוח מועמד\n,,,,ראשי מועמד\n,,,,הזוג בן/בת\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד"
 }

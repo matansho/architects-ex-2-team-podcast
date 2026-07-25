@@ -2,26 +2,24 @@
   "id": "pdf:car/files/חוברת-כללים-תביעות-רכב-צד-ג-92017-82025.pdf#65",
   "source": "llm",
   "description": {
-    "title": "מוסך ושמאי - הראל",
-    "summary": "This table details the process for car repair after an accident with Harel insurance, specifically regarding choosing a garage and appraiser. It outlines payment procedures and timelines.",
-    "embed_passage": "בהראל חברה לביטוח בע״מ, בחירת המוסך נעשית על ידך, וזכותך לבחור כל מוסך. אם בחרת במוסך הסדר, תשלום הנזק יבוצע ישירות למוסך ותהיה זכאי להטבות. לאחר בחינת דוח השמאי, חברתנו תפצה אותך בתוך 30 ימים.",
-    "row_axis": "Scenario: Garage choice (מוסך הסדר / לא בהסדר), Appraiser choice (שמאי חוץ / אחר)",
-    "column_axis": "Process steps, Payment responsibility, Timelines",
-    "units": [
-      "ימים"
-    ],
+    "title": "בחירת מוסך ושמאי",
+    "summary": "This table details the process for choosing a repair shop (מוסך) and appraiser (שמאי) after a car accident, and how payment is handled depending on the choices made. It outlines options for using approved shops and appraisers versus independent ones.",
+    "embed_passage": "טבלה זו מתארת את תהליך בחירת מוסך ושמאי לאחר תאונת דרכים, ואת אופן התשלום בהתאם לבחירות שנעשו. ניתן לבחור מוסך הסדר או מוסך שאינו בהסדר, ושמאי חיצוני או שמאי אחר. בחירת מוסך הסדר מאפשרת תשלום ישיר למוסך והטבות באתר החברה. מוסכי הסדר, שמאי חיצוני, שמאי אחר, תשלום נזק, דוח שמאי, תיקון רכב, חברת הראל, תביעות ביטוח רכב.",
+    "row_axis": "Scenario: choice of repair shop and appraiser",
+    "column_axis": "Details of the process and payment terms",
+    "units": [],
     "notable_values": [
-      "30: Number of days for compensation after appraiser report review",
-      "עשרות: Number of authorized garages available",
-      "שמאי חוץ: Option to choose an external appraiser",
-      "מוסך הסדר: Option to choose a garage in the Harel network"
+      "מוסך הסדר: תשלום ישיר למוסך",
+      "מוסך שאינו בהסדר: תשלום על ידי הלקוח, החזר תוך 30 ימים",
+      "שמאי חוץ: תשלום שכר טרחה ישירות על ידי החברה",
+      "שמאי אחר: תשלום עלות שכ״ט סביר בלבד על ידי החברה"
     ],
     "product_hints": [
-      "Harel Car Insurance",
-      "ביטוח רכב הראל"
+      "ביטוח רכב",
+      "הראל"
     ]
   },
   "sketch": ". 3 , בחירת המוסך תעשה על ידך וזכותך לבחור כל מוסך שהוא. לנוחיותך -מוסך הנך יכול לבחור באחד מעשרות מוסכי ההסדר* הפזורים בכל רחבי הארץ. אם בחרת במוסך הסדר יבוצע תשלום הנזק ישירות למוסך ותהיה זכאי להטבות באתר החברה. המפורטות אם בחרת במוסך שאינו בהסדר המוסכים עם החברה, אתה תישא בתשלום , ימים, לאחר בחינת דוח השמאי 30 עלות תיקון רכבך וחברתנו תפצה אותך בתוך אימות ובחינת גובה הנזקים ועלות תיקונם. ,\"\n*לצפייה ברשימת מוסכי ההסדר, היכנס לאתר החברה, \"תביעות ביטוח רכב .\" \"חיפוש מוסך הסדר",
-  "embed_text": "בהראל חברה לביטוח בע״מ, בחירת המוסך נעשית על ידך, וזכותך לבחור כל מוסך. אם בחרת במוסך הסדר, תשלום הנזק יבוצע ישירות למוסך ותהיה זכאי להטבות. לאחר בחינת דוח השמאי, חברתנו תפצה אותך בתוך 30 ימים.",
-  "payload": "טבלה: מוסך ושמאי - הראל\nThis table details the process for car repair after an accident with Harel insurance, specifically regarding choosing a garage and appraiser. It outlines payment procedures and timelines.\nממדים: Scenario: Garage choice (מוסך הסדר / לא בהסדר), Appraiser choice (שמאי חוץ / אחר), Process steps, Payment responsibility, Timelines\n\n. 3 , בחירת המוסך תעשה על ידך וזכותך לבחור כל מוסך שהוא. לנוחיותך -מוסך הנך יכול לבחור באחד מעשרות מוסכי ההסדר* הפזורים בכל רחבי הארץ. אם בחרת במוסך הסדר יבוצע תשלום הנזק ישירות למוסך ותהיה זכאי להטבות באתר החברה. המפורטות אם בחרת במוסך שאינו בהסדר המוסכים עם החברה, אתה תישא בתשלום , ימים, לאחר בחינת דוח השמאי 30 עלות תיקון רכבך וחברתנו תפצה אותך בתוך אימות ובחינת גובה הנזקים ועלות תיקונם. ,\"\n*לצפייה ברשימת מוסכי ההסדר, היכנס לאתר החברה, \"תביעות ביטוח רכב .\" \"חיפוש מוסך הסדר"
+  "embed_text": "טבלה זו מתארת את תהליך בחירת מוסך ושמאי לאחר תאונת דרכים, ואת אופן התשלום בהתאם לבחירות שנעשו. ניתן לבחור מוסך הסדר או מוסך שאינו בהסדר, ושמאי חיצוני או שמאי אחר. בחירת מוסך הסדר מאפשרת תשלום ישיר למוסך והטבות באתר החברה. מוסכי הסדר, שמאי חיצוני, שמאי אחר, תשלום נזק, דוח שמאי, תיקון רכב, חברת הראל, תביעות ביטוח רכב. This table details the process for choosing a repair shop (מוסך) and appraiser (שמאי) after a car accident, and how payment is handled depending on the choices made. It outlines options for using approved shops and appraisers versus independent ones. בין הערכים בטבלה: שמאי חוץ: תשלום שכר טרחה ישירות על ידי החברה.",
+  "payload": "טבלה: בחירת מוסך ושמאי\nThis table details the process for choosing a repair shop (מוסך) and appraiser (שמאי) after a car accident, and how payment is handled depending on the choices made. It outlines options for using approved shops and appraisers versus independent ones.\nממדים: Scenario: choice of repair shop and appraiser, Details of the process and payment terms\n\n. 3 , בחירת המוסך תעשה על ידך וזכותך לבחור כל מוסך שהוא. לנוחיותך -מוסך הנך יכול לבחור באחד מעשרות מוסכי ההסדר* הפזורים בכל רחבי הארץ. אם בחרת במוסך הסדר יבוצע תשלום הנזק ישירות למוסך ותהיה זכאי להטבות באתר החברה. המפורטות אם בחרת במוסך שאינו בהסדר המוסכים עם החברה, אתה תישא בתשלום , ימים, לאחר בחינת דוח השמאי 30 עלות תיקון רכבך וחברתנו תפצה אותך בתוך אימות ובחינת גובה הנזקים ועלות תיקונם. ,\"\n*לצפייה ברשימת מוסכי ההסדר, היכנס לאתר החברה, \"תביעות ביטוח רכב .\" \"חיפוש מוסך הסדר"
 }

@@ -2,28 +2,27 @@
   "id": "pdf:apartment/files/adira-silver-2025-apartment-plus-contents-אדירה-כסף-פברואר-25-באנגלית.pdf#58",
   "source": "llm",
   "description": {
-    "title": "אדירה כסף - כיסוי חפצים יקרי ערך",
-    "summary": "This table details the 'All Risks' coverage for valuables under the Adira Silver insurance plan. It specifies conditions and exclusions for items like furs, cameras, artwork, and musical instruments, both inside and outside the insured apartment.",
-    "embed_passage": "ביטוח 'אדירה כסף' מרחיב את הכיסוי לחפצים יקרי ערך כמו פרוות, מצלמות, יצירות אמנות וכלי נגינה, בהתאם לפירוט בנספח. הכיסוי חל על חפצים הנמצאים בדירה או מחוצה לה באופן זמני, אך אינו כולל נזק לעדשות מצלמה אלא אם המצלמה עצמה ניזוקה, או מיתרים של כלי נגינה. סכום הביטוח עבור פריטים לא מפורטים לא יעלה על 10% מסכום הביטוח הכולל או 50,000 ש\"ח - הנמוך מביניהם.",
-    "row_axis": "Specific types of valuables or conditions related to coverage",
-    "column_axis": "Coverage details, exclusions, and requirements",
-    "units": [
-      "₪"
-    ],
+    "title": "כיסוי כל הסיכונים – חפצי ערך",
+    "summary": "This table details the 'All Risks' coverage for valuables under the Adira Silver policy. It specifies conditions and exclusions for items like furs, cameras, artwork, and musical instruments.",
+    "embed_passage": "טבלה זו מתארת את כיסוי 'כל הסיכונים' לחפצי ערך במסגרת פוליסת אדירה כסף. הכיסוי חל על פרוות, מצלמות, אביזרי צילום, יצירות אמנות וכלי נגינה, בתנאים המפורטים בפוליסה ובהתאם לרשימה מפורטת. חשוב לציין כי הכיסוי מותנה בהערכה של שמאי מוסמך לפני קרות מקרה ביטוח. הפוליסה כוללת חריגים כגון נזק לעדשות מצלמה (אלא אם המצלמה עצמה ניזוקה), נזק לנורות, סוללות, סרטים, מוליכים חשמליים וחומרים עזר מתכלים, וכן ציוד או פריטים בשימוש מקצועי. כמו כן, יש חריגים לגבי כלי נגינה שאינם מאוחסנים במקרה בעת העברה או כאשר אינם בשימוש, ונזק למיתרי כלי נגינה או שריטות. יצירות אמנות ונזקים להן מחוץ לדירה אינם מכוסים. אדירה כסף",
+    "row_axis": "exclusion/condition for 'All Risks' coverage of valuables",
+    "column_axis": "coverage detail",
+    "units": [],
     "notable_values": [
-      "maximum liability: 50,000 ₪",
-      "maximum liability percentage: 10%",
-      "coverage for furs: explicitly noted in specification",
-      "coverage for cameras: explicitly noted in specification",
-      "coverage for musical instruments: explicitly noted in specification"
+      "furs: covered",
+      "cameras: covered",
+      "photographic accessories: covered",
+      "works of art: covered",
+      "musical instruments: covered",
+      "camera lenses: excluded unless camera is damaged",
+      "light bulbs: excluded",
+      "professional use of musical instruments: excluded"
     ],
     "product_hints": [
-      "אדירה כסף",
-      "Adira Silver",
-      "ביטוח דירה"
+      "Adira Silver"
     ]
   },
   "sketch": "23.6 All Risks cover for valuables\nIf explicitly noted in the specification, the insurance will be extended to include All Risks cover for furs, cameras, photographic accessories, works of art and musical instruments, as stated in the specification and according to a detailed list, and according to an assessment by a qualified surveyor -which shall be provided to the insurer prior to the occurrence of an insured event -while same are in the insured's apartment or temporarily outside it, within the geographical boundaries, excluding:\n23.6.1 Damage to the camera lenses, unless the camera itself is damaged.\n23.6.2 Damage to light bulbs, batteries, film, electrical conductors or perishable auxiliary materials.\n23.6.3 Equipment or items, including musical instruments, which are in professional use of any type.\n23.6.4 A musical instrument which is not stored in its case when moved from place to place -if customarily kept in a case - and at any time the instrument is not in use.\n23.6.5 Loss or damage to the strings of a musical instrument, or a scratch caused to the musical instrument.\n23.6.6 Pictures and works of art when same are outside the apartment.",
-  "embed_text": "ביטוח 'אדירה כסף' מרחיב את הכיסוי לחפצים יקרי ערך כמו פרוות, מצלמות, יצירות אמנות וכלי נגינה, בהתאם לפירוט בנספח. הכיסוי חל על חפצים הנמצאים בדירה או מחוצה לה באופן זמני, אך אינו כולל נזק לעדשות מצלמה אלא אם המצלמה עצמה ניזוקה, או מיתרים של כלי נגינה. סכום הביטוח עבור פריטים לא מפורטים לא יעלה על 10% מסכום הביטוח הכולל או 50,000 ש\"ח - הנמוך מביניהם.",
-  "payload": "טבלה: אדירה כסף - כיסוי חפצים יקרי ערך\nThis table details the 'All Risks' coverage for valuables under the Adira Silver insurance plan. It specifies conditions and exclusions for items like furs, cameras, artwork, and musical instruments, both inside and outside the insured apartment.\nממדים: Specific types of valuables or conditions related to coverage, Coverage details, exclusions, and requirements\n\n23.6 All Risks cover for valuables\nIf explicitly noted in the specification, the insurance will be extended to include All Risks cover for furs, cameras, photographic accessories, works of art and musical instruments, as stated in the specification and according to a detailed list, and according to an assessment by a qualified surveyor -which shall be provided to the insurer prior to the occurrence of an insured event -while same are in the insured's apartment or temporarily outside it, within the geographical boundaries, excluding:\n23.6.1 Damage to the camera lenses, unless the camera itself is damaged.\n23.6.2 Damage to light bulbs, batteries, film, electrical conductors or perishable auxiliary materials.\n23.6.3 Equipment or items, including musical instruments, which are in professional use of any type.\n23.6.4 A musical instrument which is not stored in its case when moved from place to place -if customarily kept in a case - and at any time the instrument is not in use.\n23.6.5 Loss or damage to the strings of a musical instrument, or a scratch caused to the musical instrument.\n23.6.6 Pictures and works of art when same are outside the apartment."
+  "embed_text": "טבלה זו מתארת את כיסוי 'כל הסיכונים' לחפצי ערך במסגרת פוליסת אדירה כסף. הכיסוי חל על פרוות, מצלמות, אביזרי צילום, יצירות אמנות וכלי נגינה, בתנאים המפורטים בפוליסה ובהתאם לרשימה מפורטת. חשוב לציין כי הכיסוי מותנה בהערכה של שמאי מוסמך לפני קרות מקרה ביטוח. הפוליסה כוללת חריגים כגון נזק לעדשות מצלמה (אלא אם המצלמה עצמה ניזוקה), נזק לנורות, סוללות, סרטים, מוליכים חשמליים וחומרים עזר מתכלים, וכן ציוד או פריטים בשימוש מקצועי. כמו כן, יש חריגים לגבי כלי נגינה שאינם מאוחסנים במקרה בעת העברה או כאשר אינם בשימוש, ונזק למיתרי כלי נגינה או שריטות. יצירות אמנות ונזקים להן מחוץ לדירה אינם מכוסים. אדירה כסף This table details the 'All Risks' coverage for valuables under the Adira Silver policy. It specifies conditions and exclusions for items like furs, cameras, artwork, and musical instruments. בין הער…",
+  "payload": "טבלה: כיסוי כל הסיכונים – חפצי ערך\nThis table details the 'All Risks' coverage for valuables under the Adira Silver policy. It specifies conditions and exclusions for items like furs, cameras, artwork, and musical instruments.\nממדים: exclusion/condition for 'All Risks' coverage of valuables, coverage detail\n\n23.6 All Risks cover for valuables\nIf explicitly noted in the specification, the insurance will be extended to include All Risks cover for furs, cameras, photographic accessories, works of art and musical instruments, as stated in the specification and according to a detailed list, and according to an assessment by a qualified surveyor -which shall be provided to the insurer prior to the occurrence of an insured event -while same are in the insured's apartment or temporarily outside it, within the geographical boundaries, excluding:\n23.6.1 Damage to the camera lenses, unless the camera itself is damaged.\n23.6.2 Damage to light bulbs, batteries, film, electrical conductors or perishable auxiliary materials.\n23.6.3 Equipment or items, including musical instruments, which are in professional use of any type.\n23.6.4 A musical instrument which is not stored in its case when moved from place to place -if customarily kept in a case - and at any time the instrument is not in use.\n23.6.5 Loss or damage to the strings of a musical instrument, or a scratch caused to the musical instrument.\n23.6.6 Pictures and works of art when same are outside the apartment."
 }

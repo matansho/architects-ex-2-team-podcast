@@ -2,28 +2,29 @@
   "id": "pdf:travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-אנגלית-first-class.pdf#4",
   "source": "llm",
   "description": {
-    "title": "ביטוח נסיעות לחול - תנאי הפוליסה",
-    "summary": "This table details the coverage limits and deductibles for Harel’s overseas travel insurance policy. It allows you to look up coverage details by section number or type of expense.",
-    "embed_passage": "פוליסת ביטוח הנסיעות של Harel כוללת כיסוי עבור הוצאות רפואיות, פינוי, ואחריות כלפי צדדים שלישיים. סעיף 4.3.1, הוצאות רפואיות שאינן אשפוז בחו״ל, כלול במגבלת אחריות ההוצאות הרפואיות, עם השתתפות עצמית של $50. סעיף 5, הוצאות חיפוש, איתור והצלה דרך Harel 669, מכוסה עד $250,000.",
-    "row_axis": "Policy section / type of coverage",
-    "column_axis": "Coverage details (limit of liability, deductible)",
+    "title": "תנאי פוליסת ביטוח נסיעות לחול",
+    "summary": "This table details coverage limits and deductibles for various scenarios under the Harel Overseas Travel Insurance policy. It allows you to look up the financial terms for specific events like medical expenses or third-party liability.",
+    "embed_passage": "טבלה זו מתארת את הכיסויים והמגבלות הכספיות בפוליסת ביטוח הנסיעות לחו״ל של הראל. ניתן לחפש כאן את גובה ההשתתפות העצמית ומגבלת האחריות עבור מקרים שונים, כגון הוצאות רפואיות או נזק לצד שלישי. הפוליסה כוללת כיסוי להוצאות רפואיות שאינן מצריכות אשפוז, הוצאות אשפוז, הוצאות הובלת נפטר, הוצאות חיפוש וחילוץ דרך הראל 669, ואחריות כלפי צדדים שלישיים. סכום הכיסוי נע בין 50 דולר ל-250,000 דולר, כאשר במקרים מסוימים אין השתתפות עצמית. ביטוח נסיעות Harel מציע מגוון אפשרויות כיסוי.",
+    "row_axis": "Section in Policy / Coverage type",
+    "column_axis": "Coverage details (Limit of liability, Deductible)",
     "units": [
       "$",
       "₪"
     ],
     "notable_values": [
-      "Section 4.3.1: $50 deductible",
-      "Section 4.3.2: $50 deductible",
-      "Section 4.4: No deductible",
-      "Section 5: $250,000 limit",
-      "Section 6: $150,000 limit"
+      "Non-hospitalization Medical Expenses Abroad: $50",
+      "Hospitalization Medical Expenses: $50",
+      "Transportation of deceased expenses: Without Deductible",
+      "Search, location and rescue expenses through Harel 669: $250,000",
+      "Liability to third parties: $150,000"
     ],
     "product_hints": [
       "Harel",
-      "ביטוח נסיעות לחול"
+      "ביטוח נסיעות לחול",
+      "First Class"
     ]
   },
   "sketch": "Section in Policy,Coverage,Limit of liability,Deductible\n4.3.1,Non-hospitalization Medical Expenses Abroad,Included in limit Medical Expenses Liability Limit,$50\n4.3.2,Hospitalization Medical Expenses,Included in Medical Expenses Liability Limit,$50\n4.4,Transportation of deceased expenses,Included in Medical Expenses Liability Limit,Without Deductible\nChapter 5,\"Search, location and rescue expenses through Harel 669\",\"$250,000\",Without Deductible\nChapter 6,Liability to third parties,\"$150,000\",Without Deductible",
-  "embed_text": "פוליסת ביטוח הנסיעות של Harel כוללת כיסוי עבור הוצאות רפואיות, פינוי, ואחריות כלפי צדדים שלישיים. סעיף 4.3.1, הוצאות רפואיות שאינן אשפוז בחו״ל, כלול במגבלת אחריות ההוצאות הרפואיות, עם השתתפות עצמית של $50. סעיף 5, הוצאות חיפוש, איתור והצלה דרך Harel 669, מכוסה עד $250,000.",
-  "payload": "טבלה: ביטוח נסיעות לחול - תנאי הפוליסה\nThis table details the coverage limits and deductibles for Harel’s overseas travel insurance policy. It allows you to look up coverage details by section number or type of expense.\nממדים: Policy section / type of coverage, Coverage details (limit of liability, deductible)\n\nSection in Policy,Coverage,Limit of liability,Deductible\n4.3.1,Non-hospitalization Medical Expenses Abroad,Included in limit Medical Expenses Liability Limit,$50\n4.3.2,Hospitalization Medical Expenses,Included in Medical Expenses Liability Limit,$50\n4.4,Transportation of deceased expenses,Included in Medical Expenses Liability Limit,Without Deductible\nChapter 5,\"Search, location and rescue expenses through Harel 669\",\"$250,000\",Without Deductible\nChapter 6,Liability to third parties,\"$150,000\",Without Deductible"
+  "embed_text": "טבלה זו מתארת את הכיסויים והמגבלות הכספיות בפוליסת ביטוח הנסיעות לחו״ל של הראל. ניתן לחפש כאן את גובה ההשתתפות העצמית ומגבלת האחריות עבור מקרים שונים, כגון הוצאות רפואיות או נזק לצד שלישי. הפוליסה כוללת כיסוי להוצאות רפואיות שאינן מצריכות אשפוז, הוצאות אשפוז, הוצאות הובלת נפטר, הוצאות חיפוש וחילוץ דרך הראל 669, ואחריות כלפי צדדים שלישיים. סכום הכיסוי נע בין 50 דולר ל-250,000 דולר, כאשר במקרים מסוימים אין השתתפות עצמית. ביטוח נסיעות Harel מציע מגוון אפשרויות כיסוי. This table details coverage limits and deductibles for various scenarios under the Harel Overseas Travel Insurance policy. It allows you to look up the financial terms for specific events like medical expenses or third-party liability. בין הערכים בטבלה: Non-hospitalization Medical Expenses Abroad: $50; Hospitalization Medical Ex…",
+  "payload": "טבלה: תנאי פוליסת ביטוח נסיעות לחול\nThis table details coverage limits and deductibles for various scenarios under the Harel Overseas Travel Insurance policy. It allows you to look up the financial terms for specific events like medical expenses or third-party liability.\nממדים: Section in Policy / Coverage type, Coverage details (Limit of liability, Deductible)\n\nSection in Policy,Coverage,Limit of liability,Deductible\n4.3.1,Non-hospitalization Medical Expenses Abroad,Included in limit Medical Expenses Liability Limit,$50\n4.3.2,Hospitalization Medical Expenses,Included in Medical Expenses Liability Limit,$50\n4.4,Transportation of deceased expenses,Included in Medical Expenses Liability Limit,Without Deductible\nChapter 5,\"Search, location and rescue expenses through Harel 669\",\"$250,000\",Without Deductible\nChapter 6,Liability to third parties,\"$150,000\",Without Deductible"
 }

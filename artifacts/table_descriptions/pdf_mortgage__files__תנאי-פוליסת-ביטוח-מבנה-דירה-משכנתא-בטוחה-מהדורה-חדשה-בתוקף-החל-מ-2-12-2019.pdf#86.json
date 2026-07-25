@@ -3,21 +3,23 @@
   "source": "llm",
   "description": {
     "title": "הארכת ביטוח",
-    "summary": "This table details the automatic extension terms for a property insurance policy. It specifies how the policy renews and how the insured can opt out.",
-    "embed_passage": "פוליסת ביטוח מבנה דירה בטוחה מוארכת אוטומטית לתקופות נוספות של 12 חודשים, אלא אם המבוטח מודיע בכתב על אי רצונו בהארכה. ההודעה צריכה להימסר 21 ימים לפני תאריך הארכת הביטוח. במקרה של החלפת דירה, הכיסוי יורחב באופן אוטומטי בשיעור של 25% עד להודעה על ערך הדירה החדשה.",
-    "row_axis": "policy extension conditions",
-    "column_axis": "extension terms, notification requirements",
+    "summary": "This table details the automatic extension of insurance coverage and the conditions for opting out. It specifies extension periods and notification requirements.",
+    "embed_passage": "טבלה זו מתארת את הארכת הביטוח באופן אוטומטי לתקופות נוספות של 12 חודשים, וכן את האפשרות של המבוטח לבקש שלא להאריך את הביטוח. ניתן להעביר את הכיסוי לדירה חדשה, תוך התאמת סכומי הביטוח לערך הדירה החדשה. הארכת הביטוח, 12 חודשים, 25%, תום תקופת הביטוח, הודעה בכתב, סכום ביטוח נוסף, שיעור 29.1, מועד הארכת הביטוח.",
+    "row_axis": "extension conditions",
+    "column_axis": "details of extension",
     "units": [],
     "notable_values": [
       "extension period: 12 חודשים",
+      "automatic extension: כן",
       "notification period: 21 ימים",
-      "automatic increase: 25%"
+      "additional insurance amount: 25%"
     ],
     "product_hints": [
-      "ביטוח מבנה דירה בטוחה"
+      "ביטוח מבנה דירה",
+      "משכנתא בטוחה"
     ]
   },
   "sketch": "29.4 . מבלי לגרוע מהאמור לעיל, הביטוח יורחב לכסות, עד לקבלת הודעת המבוטח למבטח כאמור לעיל אודות ערך הדירה החדשה, סכום ביטוח נוסף, באופן אוטומטי, בשיעור 29.1 בסעיף מהסכום הנקוב במפרט לסעיף זה אולם תוקף הגדלה זו לא יחול לאחר תאריך 25% של תום תקופת הביטוח, או לאחר \t חודשים מיום החלפת הדירה - המוקדם מבין השניים.\n.\t0 הארכת הביטוח\nחודשים בכל פעם. אם המבוטח 12 ביטוח זה יוארך מאליו, על ידי המבטח, לתקופות נוספות של ימים לפני תאריך 21 אינו מעונין בהארכת הביטוח, ימסור המבוטח הודעה בכתב למבטח, עד תחילת מועד הארכת הביטוח, ויבקש שלא להאריך את הביטוח, ובמקרה כזה לא יוארך הביטוח.",
-  "embed_text": "פוליסת ביטוח מבנה דירה בטוחה מוארכת אוטומטית לתקופות נוספות של 12 חודשים, אלא אם המבוטח מודיע בכתב על אי רצונו בהארכה. ההודעה צריכה להימסר 21 ימים לפני תאריך הארכת הביטוח. במקרה של החלפת דירה, הכיסוי יורחב באופן אוטומטי בשיעור של 25% עד להודעה על ערך הדירה החדשה.",
-  "payload": "טבלה: הארכת ביטוח\nThis table details the automatic extension terms for a property insurance policy. It specifies how the policy renews and how the insured can opt out.\nממדים: policy extension conditions, extension terms, notification requirements\n\n29.4 . מבלי לגרוע מהאמור לעיל, הביטוח יורחב לכסות, עד לקבלת הודעת המבוטח למבטח כאמור לעיל אודות ערך הדירה החדשה, סכום ביטוח נוסף, באופן אוטומטי, בשיעור 29.1 בסעיף מהסכום הנקוב במפרט לסעיף זה אולם תוקף הגדלה זו לא יחול לאחר תאריך 25% של תום תקופת הביטוח, או לאחר \t חודשים מיום החלפת הדירה - המוקדם מבין השניים.\n.\t0 הארכת הביטוח\nחודשים בכל פעם. אם המבוטח 12 ביטוח זה יוארך מאליו, על ידי המבטח, לתקופות נוספות של ימים לפני תאריך 21 אינו מעונין בהארכת הביטוח, ימסור המבוטח הודעה בכתב למבטח, עד תחילת מועד הארכת הביטוח, ויבקש שלא להאריך את הביטוח, ובמקרה כזה לא יוארך הביטוח."
+  "embed_text": "טבלה זו מתארת את הארכת הביטוח באופן אוטומטי לתקופות נוספות של 12 חודשים, וכן את האפשרות של המבוטח לבקש שלא להאריך את הביטוח. ניתן להעביר את הכיסוי לדירה חדשה, תוך התאמת סכומי הביטוח לערך הדירה החדשה. הארכת הביטוח, 12 חודשים, 25%, תום תקופת הביטוח, הודעה בכתב, סכום ביטוח נוסף, שיעור 29.1, מועד הארכת הביטוח. This table details the automatic extension of insurance coverage and the conditions for opting out. It specifies extension periods and notification requirements. בין הערכים בטבלה: notification period: 21 ימים.",
+  "payload": "טבלה: הארכת ביטוח\nThis table details the automatic extension of insurance coverage and the conditions for opting out. It specifies extension periods and notification requirements.\nממדים: extension conditions, details of extension\n\n29.4 . מבלי לגרוע מהאמור לעיל, הביטוח יורחב לכסות, עד לקבלת הודעת המבוטח למבטח כאמור לעיל אודות ערך הדירה החדשה, סכום ביטוח נוסף, באופן אוטומטי, בשיעור 29.1 בסעיף מהסכום הנקוב במפרט לסעיף זה אולם תוקף הגדלה זו לא יחול לאחר תאריך 25% של תום תקופת הביטוח, או לאחר \t חודשים מיום החלפת הדירה - המוקדם מבין השניים.\n.\t0 הארכת הביטוח\nחודשים בכל פעם. אם המבוטח 12 ביטוח זה יוארך מאליו, על ידי המבטח, לתקופות נוספות של ימים לפני תאריך 21 אינו מעונין בהארכת הביטוח, ימסור המבוטח הודעה בכתב למבטח, עד תחילת מועד הארכת הביטוח, ויבקש שלא להאריך את הביטוח, ובמקרה כזה לא יוארך הביטוח."
 }

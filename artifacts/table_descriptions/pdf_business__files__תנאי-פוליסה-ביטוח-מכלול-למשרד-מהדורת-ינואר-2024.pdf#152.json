@@ -3,14 +3,16 @@
   "source": "llm",
   "description": {
     "title": "ביטוח כספים",
-    "summary": "This table details coverage for office funds, including during transport and while at private residences. It outlines conditions and limitations on the insurer's liability, such as maximum coverage percentages.",
-    "embed_passage": "פוליסת מכלול מספקת ביטוח לכספי המשרד במקרה של אובדן או נזק, גם כאשר הם נמצאים בדירות פרטיות של המבוטח או עובדיו לאחר שעות העבודה. הכיסוי חל על סיכונים כמו אש, התפוצצות, פריצה ושוד, בתנאי שאדם בגיל 17 ומעלה נוכח בדירה והכספים מאובטחים. אחריות המבטח על פי הרחבה זו לא תעלה על 25% מהביטוח שנקבע.",
-    "row_axis": "scenarios/locations of funds (e.g., in transit, private residence)",
-    "column_axis": "coverage details, conditions, liability limits",
+    "summary": "This table details coverage extensions for office funds under the 'מכלול' insurance policy. It specifies conditions and limitations for coverage related to funds held in private residences, during transfer, and damage to safes.",
+    "embed_passage": "טבלה זו מתארת הרחבות כיסוי לכספי משרד במסגרת פוליסת הביטוח 'מכלול'. היא מפרטת תנאים ומגבלות בנוגע לכיסוי כספים המוחזקים בבתים פרטיים, במהלך העברה ונזק לכספות. ניתן לחפש מידע על הרחבות ספציפיות לביטוח כספים, כגון כיסוי בעת המצאותם בדירות פרטיות או בעת העברתם. הרחבות אלו כפופות לתנאים כמו נוכחות אדם בגיל 17 ומעלה בדירה ונעילה של הכספים. סכום ההשתתפות העצמית מוגבל ל-25% או 10% מסכום הביטוח שנקבע ברשימה. ביטוח כספים, אש, התפוצצות, פריצה, שוד.",
+    "row_axis": "extension of coverage for office funds",
+    "column_axis": "conditions and limitations",
     "units": [],
     "notable_values": [
-      "age: 17",
-      "liability limit: 25%"
+      "age: 17+",
+      "maximum liability: 25% of funds insurance",
+      "maximum liability (safe damage): 10% of funds insurance",
+      "risks covered (private residence): fire, explosion, burglary, theft"
     ],
     "product_hints": [
       "מכלול",
@@ -18,6 +20,6 @@
     ]
   },
   "sketch": ".5.3.3.3 -כספים בעת המצאותם בדירות פרטיות הביטוח על פי פרק זה מורחב לכסות אבדן או נזק לכספי המשרד עקב מקרה ביטוח שייגרם בעת הימצאם בדירותיהם הפרטיות של המבוטח ו/או , זאת כנגד סיכוני אש , עובדיו המוסמכים לאחר שעות העבודה התפוצצות, פריצה ושוד בלבד.\nאמצעי להקלת סיכון המבטח לעניין הרחבה זו, הינו שאדם שנה ומעלה נכח בדירה בעת הימצא בה 17 מבוגר שגילו הכספים, ושהכספים יימצאו במקום נעול ומוגן.\nמסכום 25% אחריות המבטח על פי הרחבה זו לא תעלה על הביטוח שנקבע ברשימה לגבי ביטוח הכספים.",
-  "embed_text": "פוליסת מכלול מספקת ביטוח לכספי המשרד במקרה של אובדן או נזק, גם כאשר הם נמצאים בדירות פרטיות של המבוטח או עובדיו לאחר שעות העבודה. הכיסוי חל על סיכונים כמו אש, התפוצצות, פריצה ושוד, בתנאי שאדם בגיל 17 ומעלה נוכח בדירה והכספים מאובטחים. אחריות המבטח על פי הרחבה זו לא תעלה על 25% מהביטוח שנקבע.",
-  "payload": "טבלה: ביטוח כספים\nThis table details coverage for office funds, including during transport and while at private residences. It outlines conditions and limitations on the insurer's liability, such as maximum coverage percentages.\nממדים: scenarios/locations of funds (e.g., in transit, private residence), coverage details, conditions, liability limits\n\n.5.3.3.3 -כספים בעת המצאותם בדירות פרטיות הביטוח על פי פרק זה מורחב לכסות אבדן או נזק לכספי המשרד עקב מקרה ביטוח שייגרם בעת הימצאם בדירותיהם הפרטיות של המבוטח ו/או , זאת כנגד סיכוני אש , עובדיו המוסמכים לאחר שעות העבודה התפוצצות, פריצה ושוד בלבד.\nאמצעי להקלת סיכון המבטח לעניין הרחבה זו, הינו שאדם שנה ומעלה נכח בדירה בעת הימצא בה 17 מבוגר שגילו הכספים, ושהכספים יימצאו במקום נעול ומוגן.\nמסכום 25% אחריות המבטח על פי הרחבה זו לא תעלה על הביטוח שנקבע ברשימה לגבי ביטוח הכספים."
+  "embed_text": "טבלה זו מתארת הרחבות כיסוי לכספי משרד במסגרת פוליסת הביטוח 'מכלול'. היא מפרטת תנאים ומגבלות בנוגע לכיסוי כספים המוחזקים בבתים פרטיים, במהלך העברה ונזק לכספות. ניתן לחפש מידע על הרחבות ספציפיות לביטוח כספים, כגון כיסוי בעת המצאותם בדירות פרטיות או בעת העברתם. הרחבות אלו כפופות לתנאים כמו נוכחות אדם בגיל 17 ומעלה בדירה ונעילה של הכספים. סכום ההשתתפות העצמית מוגבל ל-25% או 10% מסכום הביטוח שנקבע ברשימה. ביטוח כספים, אש, התפוצצות, פריצה, שוד. This table details coverage extensions for office funds under the 'מכלול' insurance policy. It specifies conditions and limitations for coverage related to funds held in private residences, during transfer, and damage to safes. בין הערכים בטבלה: age: 17+; maximum liability: 25% of funds insurance; maximum liability (safe damage): 10% of funds insurance;…",
+  "payload": "טבלה: ביטוח כספים\nThis table details coverage extensions for office funds under the 'מכלול' insurance policy. It specifies conditions and limitations for coverage related to funds held in private residences, during transfer, and damage to safes.\nממדים: extension of coverage for office funds, conditions and limitations\n\n.5.3.3.3 -כספים בעת המצאותם בדירות פרטיות הביטוח על פי פרק זה מורחב לכסות אבדן או נזק לכספי המשרד עקב מקרה ביטוח שייגרם בעת הימצאם בדירותיהם הפרטיות של המבוטח ו/או , זאת כנגד סיכוני אש , עובדיו המוסמכים לאחר שעות העבודה התפוצצות, פריצה ושוד בלבד.\nאמצעי להקלת סיכון המבטח לעניין הרחבה זו, הינו שאדם שנה ומעלה נכח בדירה בעת הימצא בה 17 מבוגר שגילו הכספים, ושהכספים יימצאו במקום נעול ומוגן.\nמסכום 25% אחריות המבטח על פי הרחבה זו לא תעלה על הביטוח שנקבע ברשימה לגבי ביטוח הכספים."
 }

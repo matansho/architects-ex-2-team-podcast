@@ -3,22 +3,24 @@
   "source": "llm",
   "description": {
     "title": "הרשאה לחיוב חשבון",
-    "summary": "This table outlines the terms for a direct debit authorization. It details conditions for cancellation and bank responsibilities regarding charges.",
-    "embed_passage": "הרשאה זו ניתנת לביטול ע״י הודעה בכתב, וניתן להשתמש בה במשך תקופה של 24 חודשים ממועד החיוב האחרון. הבנק רשאי להוציא את המוטב מההסדר אם יש לו סיבה סבירה לכך. הראל חברה לביטוח בע״מ לקוח נכבד, סכום החיוב ומועדו ייקבעו מעת לעת.",
-    "row_axis": "conditions/clauses of the direct debit authorization",
-    "column_axis": "details/explanations of the conditions",
+    "summary": "This table outlines the terms for a direct debit authorization. It details conditions for cancellation, bank responsibilities, and the validity period of the authorization.",
+    "embed_passage": "טבלה זו מתארת את תנאי ההרשאה לחיוב חשבון, כולל תנאים לביטול, אחריות הבנק ותקופת תוקף ההרשאה. ניתן לבטל הרשאה בהודעה בכתב לבנק, וכן בהתאם להוראת כל דין. ההרשאה תקפה לשימוש במשך תקופה של 24 חודשים ממועד החיוב האחרון. הבנק רשאי להוציא את המוטב מההסדר אם יש לו סיבה סבירה לכך. הרשאה זו ניתנת לביטול ע״י הודעה בכתב מאתנו לבנק. סוגי כרטיסי אשראי אפשריים כוללים אמריקן אקספרס, דיינרס, ישראכרט, ויזה כאל ולאומי ויזה.",
+    "row_axis": "conditions/actions related to the authorization",
+    "column_axis": "details of the authorization terms",
     "units": [],
     "notable_values": [
       "period: 24 חודשים",
-      "cancellation notice: הודעה בכתב",
-      "bank discretion: סיבה סבירה"
+      "card type: אמריקן אקספרס",
+      "card type: דיינרס",
+      "card type: ישראכרט",
+      "card type: ויזה כאל",
+      "card type: לאומי ויזה"
     ],
     "product_hints": [
-      "הרשאה לחיוב חשבון",
-      "הראל חברה לביטוח בע\"מ"
+      "הרשאה לחיוב חשבון"
     ]
   },
   "sketch": "חודשים ממועד החיוב האחרון, בטלה. 24 הרשאה של יעשה בה שימוש במשך תקופה של ו.\nאם תעשו לבקשתנו, הבנק יפעל בהתאם להוראות הרשאה זו, בכפוף להוראות כל דין והסכם שבנינו לבין הבנק. ז.\nהבנק רשאי להוציאנו מן ההסדר המפורט בהרשאה זו, אם תהיה לו סיבה סבירה לכך, ויודיע לנו על כך מיד לאחר קבלת החלטתו תוך ציון ח. הסיבה.",
-  "embed_text": "הרשאה זו ניתנת לביטול ע״י הודעה בכתב, וניתן להשתמש בה במשך תקופה של 24 חודשים ממועד החיוב האחרון. הבנק רשאי להוציא את המוטב מההסדר אם יש לו סיבה סבירה לכך. הראל חברה לביטוח בע״מ לקוח נכבד, סכום החיוב ומועדו ייקבעו מעת לעת.",
-  "payload": "טבלה: הרשאה לחיוב חשבון\nThis table outlines the terms for a direct debit authorization. It details conditions for cancellation and bank responsibilities regarding charges.\nממדים: conditions/clauses of the direct debit authorization, details/explanations of the conditions\n\nחודשים ממועד החיוב האחרון, בטלה. 24 הרשאה של יעשה בה שימוש במשך תקופה של ו.\nאם תעשו לבקשתנו, הבנק יפעל בהתאם להוראות הרשאה זו, בכפוף להוראות כל דין והסכם שבנינו לבין הבנק. ז.\nהבנק רשאי להוציאנו מן ההסדר המפורט בהרשאה זו, אם תהיה לו סיבה סבירה לכך, ויודיע לנו על כך מיד לאחר קבלת החלטתו תוך ציון ח. הסיבה."
+  "embed_text": "טבלה זו מתארת את תנאי ההרשאה לחיוב חשבון, כולל תנאים לביטול, אחריות הבנק ותקופת תוקף ההרשאה. ניתן לבטל הרשאה בהודעה בכתב לבנק, וכן בהתאם להוראת כל דין. ההרשאה תקפה לשימוש במשך תקופה של 24 חודשים ממועד החיוב האחרון. הבנק רשאי להוציא את המוטב מההסדר אם יש לו סיבה סבירה לכך. הרשאה זו ניתנת לביטול ע״י הודעה בכתב מאתנו לבנק. סוגי כרטיסי אשראי אפשריים כוללים אמריקן אקספרס, דיינרס, ישראכרט, ויזה כאל ולאומי ויזה. This table outlines the terms for a direct debit authorization. It details conditions for cancellation, bank responsibilities, and the validity period of the authorization.",
+  "payload": "טבלה: הרשאה לחיוב חשבון\nThis table outlines the terms for a direct debit authorization. It details conditions for cancellation, bank responsibilities, and the validity period of the authorization.\nממדים: conditions/actions related to the authorization, details of the authorization terms\n\nחודשים ממועד החיוב האחרון, בטלה. 24 הרשאה של יעשה בה שימוש במשך תקופה של ו.\nאם תעשו לבקשתנו, הבנק יפעל בהתאם להוראות הרשאה זו, בכפוף להוראות כל דין והסכם שבנינו לבין הבנק. ז.\nהבנק רשאי להוציאנו מן ההסדר המפורט בהרשאה זו, אם תהיה לו סיבה סבירה לכך, ויודיע לנו על כך מיד לאחר קבלת החלטתו תוך ציון ח. הסיבה."
 }

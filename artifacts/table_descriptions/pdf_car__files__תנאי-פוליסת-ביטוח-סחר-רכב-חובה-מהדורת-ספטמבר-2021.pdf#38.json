@@ -2,22 +2,23 @@
   "id": "pdf:car/files/תנאי-פוליסת-ביטוח-סחר-רכב-חובה-מהדורת-ספטמבר-2021.pdf#38",
   "source": "llm",
   "description": {
-    "title": "דוח תביעות",
-    "summary": "This table describes the claims report provided by the insurer to the policyholder. It details how and when claims information is reported, covering the 3 years prior to the report or the policy duration, whichever is shorter.",
-    "embed_passage": "פוליסת ביטוח סחר רכב חובה כוללת דוח תביעות שמפרט את כל התביעות שהוגשו. הדוח נשלח לחודש לפני תום תקופת הביטוח או מיד בסיומה, ומכיל פרטי הנהג המעורב בתאונה. לדוגמה, אם הוגשה תביעה במהלך החודש שלפני תום הפוליסה, ישלח עדכון מיד עם הגשתה.",
-    "row_axis": "reporting requirements for claims",
-    "column_axis": "timing and content of the claims report",
+    "title": "דו״ח תביעות",
+    "summary": "This table describes the claims report that an insurer sends to a policyholder. It details how and when claims information is provided, covering the three years prior to the report date or the policy duration, whichever is shorter.",
+    "embed_passage": "טבלה זו מתארת את דו״ח התביעות שנשלח על ידי המבטח לבעל הפוליסה. הדו״ח מפרט את כל התביעות שהוגשו עד למועד מסוים, וכולל פרטים על הנהג המעורב בתאונה. בעל הפוליסה יקבל את הדו״ח חודש לפני תום תקופת הביטוח או מיד בסיומה. הדו״ח יכלול תביעות שהוגשו בשלוש השנים האחרונות או בתקופת הביטוח, לפי המוקדם מביניהן. ביטוח סחר רכב חובה מהדורת ספטמבר 2021 הוא המוצר הרלוונטי.",
+    "row_axis": "סעיף בדוח תביעות (21.1, 21.2, 21.3)",
+    "column_axis": "תיאור פרטי הדו״ח",
     "units": [],
     "notable_values": [
-      "reporting timeframe: 3 years",
-      "report delivery: month before policy end",
-      "update delivery: immediately upon claim submission"
+      "תקופת ביטוח: חודש לפני תום",
+      "תקופת ביטוח: מיד בסיומה",
+      "תביעות: שלוש שנים אחרונות",
+      "תביעות: תקופת הביטוח"
     ],
     "product_hints": [
       "ביטוח סחר רכב חובה"
     ]
   },
   "sketch": ". דו\"ח תביעות 21\n, .  חודש לפני תום תקופת הביטוח או מיד בסיומה, אם היא מסתיימת באופן בלתי צפוי 21.1 ישלח המבטח לבעל הפוליסה דוח תביעות שיפרט בו את כל התביעות שהוגשו עד .( לאותו מועד, ככל שהוגשו )להלן - דוח תביעות\n.  בדו\"ח התביעות יפרט המבטח, לגבי כל תביעה שהוגשה בשלוש השנים שקדמו למועד 21.2 שליחת הדוח או שהוגשה בתקופה שבה היה בעל הפוליסה מבוטח אצל המבטח, לפי הקצרה מביניהן, את פרטי הנהג המעורב בתאונה.\n.  הוגשה תביעה במהלך החודש שלפני תום תקופת הביטוח, ישלח המבטח עדכון לדוח 21.3 התביעות מיד עם הגשת התביעה.",
-  "embed_text": "פוליסת ביטוח סחר רכב חובה כוללת דוח תביעות שמפרט את כל התביעות שהוגשו. הדוח נשלח לחודש לפני תום תקופת הביטוח או מיד בסיומה, ומכיל פרטי הנהג המעורב בתאונה. לדוגמה, אם הוגשה תביעה במהלך החודש שלפני תום הפוליסה, ישלח עדכון מיד עם הגשתה.",
-  "payload": "טבלה: דוח תביעות\nThis table describes the claims report provided by the insurer to the policyholder. It details how and when claims information is reported, covering the 3 years prior to the report or the policy duration, whichever is shorter.\nממדים: reporting requirements for claims, timing and content of the claims report\n\n. דו\"ח תביעות 21\n, .  חודש לפני תום תקופת הביטוח או מיד בסיומה, אם היא מסתיימת באופן בלתי צפוי 21.1 ישלח המבטח לבעל הפוליסה דוח תביעות שיפרט בו את כל התביעות שהוגשו עד .( לאותו מועד, ככל שהוגשו )להלן - דוח תביעות\n.  בדו\"ח התביעות יפרט המבטח, לגבי כל תביעה שהוגשה בשלוש השנים שקדמו למועד 21.2 שליחת הדוח או שהוגשה בתקופה שבה היה בעל הפוליסה מבוטח אצל המבטח, לפי הקצרה מביניהן, את פרטי הנהג המעורב בתאונה.\n.  הוגשה תביעה במהלך החודש שלפני תום תקופת הביטוח, ישלח המבטח עדכון לדוח 21.3 התביעות מיד עם הגשת התביעה."
+  "embed_text": "טבלה זו מתארת את דו״ח התביעות שנשלח על ידי המבטח לבעל הפוליסה. הדו״ח מפרט את כל התביעות שהוגשו עד למועד מסוים, וכולל פרטים על הנהג המעורב בתאונה. בעל הפוליסה יקבל את הדו״ח חודש לפני תום תקופת הביטוח או מיד בסיומה. הדו״ח יכלול תביעות שהוגשו בשלוש השנים האחרונות או בתקופת הביטוח, לפי המוקדם מביניהן. ביטוח סחר רכב חובה מהדורת ספטמבר 2021 הוא המוצר הרלוונטי. This table describes the claims report that an insurer sends to a policyholder. It details how and when claims information is provided, covering the three years prior to the report date or the policy duration, whichever is shorter.",
+  "payload": "טבלה: דו״ח תביעות\nThis table describes the claims report that an insurer sends to a policyholder. It details how and when claims information is provided, covering the three years prior to the report date or the policy duration, whichever is shorter.\nממדים: סעיף בדוח תביעות (21.1, 21.2, 21.3), תיאור פרטי הדו״ח\n\n. דו\"ח תביעות 21\n, .  חודש לפני תום תקופת הביטוח או מיד בסיומה, אם היא מסתיימת באופן בלתי צפוי 21.1 ישלח המבטח לבעל הפוליסה דוח תביעות שיפרט בו את כל התביעות שהוגשו עד .( לאותו מועד, ככל שהוגשו )להלן - דוח תביעות\n.  בדו\"ח התביעות יפרט המבטח, לגבי כל תביעה שהוגשה בשלוש השנים שקדמו למועד 21.2 שליחת הדוח או שהוגשה בתקופה שבה היה בעל הפוליסה מבוטח אצל המבטח, לפי הקצרה מביניהן, את פרטי הנהג המעורב בתאונה.\n.  הוגשה תביעה במהלך החודש שלפני תום תקופת הביטוח, ישלח המבטח עדכון לדוח 21.3 התביעות מיד עם הגשת התביעה."
 }

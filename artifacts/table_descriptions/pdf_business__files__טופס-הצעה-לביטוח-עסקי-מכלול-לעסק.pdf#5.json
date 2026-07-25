@@ -2,23 +2,25 @@
   "id": "pdf:business/files/טופס-הצעה-לביטוח-עסקי-מכלול-לעסק.pdf#5",
   "source": "llm",
   "description": {
-    "title": "ביטוח עסקי מכלול",
-    "summary": "This table captures prior insurance experience and claim history for a business applying for insurance. It helps assess risk based on past coverage and incidents.",
-    "embed_passage": "ביטוח עסקי מכלול בוחן את הנסיון הביטוחי הקודם של העסק, כגון האם העסק בוטח בעבר באחד או יותר מהכיסויים המבוקשים. השאלות בטופס בודקות האם הוגשו תביעות בחמש השנים האחרונות, והאם ידוע על אירועים העלולים להוביל לתביעה. תשובות 'כן' או 'לא' משמשות להערכת הסיכון.",
-    "row_axis": "Applicant's prior insurance and claim history",
-    "column_axis": "Questions about prior insurance and claims (e.g., prior coverage, claims filed)",
+    "title": "נסיון ביטוחי קודם",
+    "summary": "This table collects prior insurance experience and claims history for a business insurance quote. It asks whether the applicant has had previous coverage and if any claims or incidents occurred.",
+    "embed_passage": "טופס זה נועד לאסוף מידע על ניסיון ביטוחי קודם של העסק המבוטח, וכן על תביעות או נזקים שארעו בעבר. המידע נדרש לצורך הערכת הסיכון וקביעת תנאי הביטוח של מכלול לעסק. השאלות מתייחסות לכיסויים המבוקשים בהצעה, תקופת הביטוח, ומספר הפוליסה הקודמת. כמו כן, נשאלים המציעים האם הוגשו תביעות או ארעו נזקים בחמש השנים האחרונות, ומהם האמצעים שננקטו לאחר הנזק או האירוע. נסיון ביטוחי קודם, שם החברה, תקופת הביטוח, מספר הפוליסה, תביעות, נזקים, ארועים.",
+    "row_axis": "Question about prior insurance or claims",
+    "column_axis": "Response (Yes/No, details)",
     "units": [],
     "notable_values": [
-      "נסיון ביטוחי קודם: כן",
-      "נסיון ביטוחי קודם: לא",
-      "תביעות בחמש השנים האחרונות: כן, נא לפרט",
-      "תביעות בחמש השנים האחרונות: לא"
+      "תקופת הביטוח: …",
+      "מס' הפוליסה: …",
+      "שם החברה: …",
+      "נזקים: כן",
+      "תביעות: כן",
+      "ארוע: כן"
     ],
     "product_hints": [
-      "ביטוח עסקי מכלול"
+      "מכלול לעסק"
     ]
   },
-  "sketch": "נסיון ביטוחי קודם ו\nכן\nלא\nהאם בוטחת בעבר באחד או יותר מהכיסויים המבוקשים בהצעה זו?\n…\nהאם הגשת תביעות, או ארעו נזקים כלשהם כתוצאה מהכיסויים המבוקשים בהצעה זו, במשך חמש השנים האחרונות, ו/או האם ידוע לך על ארוע\n:\nכן, נא לפרט\nלא",
-  "embed_text": "ביטוח עסקי מכלול בוחן את הנסיון הביטוחי הקודם של העסק, כגון האם העסק בוטח בעבר באחד או יותר מהכיסויים המבוקשים. השאלות בטופס בודקות האם הוגשו תביעות בחמש השנים האחרונות, והאם ידוע על אירועים העלולים להוביל לתביעה. תשובות 'כן' או 'לא' משמשות להערכת הסיכון.",
-  "payload": "טבלה: ביטוח עסקי מכלול\nThis table captures prior insurance experience and claim history for a business applying for insurance. It helps assess risk based on past coverage and incidents.\nממדים: Applicant's prior insurance and claim history, Questions about prior insurance and claims (e.g., prior coverage, claims filed)\n\nנסיון ביטוחי קודם ו\nכן\nלא\nהאם בוטחת בעבר באחד או יותר מהכיסויים המבוקשים בהצעה זו?\n:\nאם כן, נא לפרט שם החברה:                                            תקופת הביטוח:                                                     מס' הפוליסה\n:\nכן, נא לפרט\nלא\n? האם נדחתה אי פעם הצעתך, או בוטלה פוליסה שלך, בגין אחד או יותר מהכיסויים המבוקשים\nהאם הורשעת ו/או הורשע עובד המועסק על ידך בגין כל עבירה פלילית אשר לה קשר כלשהו עם סיכון אשר לגביו מתבקש ביטוח בהצעה זו?\n:\nכן, נא לפרט\nלא\nהאם הגשת תביעות, או ארעו נזקים כלשהם כתוצאה מהכיסויים המבוקשים בהצעה זו, במשך חמש השנים האחרונות, ו/או האם ידוע לך על ארוע\n:\nכן, נא לפרט\nלא"
+  "sketch": "נסיון ביטוחי קודם ו\nכן\nלא\nהאם בוטחת בעבר באחד או יותר מהכיסויים המבוקשים בהצעה זו?\n:\nאם כן, נא לפרט שם החברה:                                            תקופת הביטוח:                                                     מס' הפוליסה\n…\nכן, נא לפרט\nלא\nהאם הגשת תביעות, או ארעו נזקים כלשהם כתוצאה מהכיסויים המבוקשים בהצעה זו, במשך חמש השנים האחרונות, ו/או האם ידוע לך על ארוע\n:\nכן, נא לפרט\nלא",
+  "embed_text": "טופס זה נועד לאסוף מידע על ניסיון ביטוחי קודם של העסק המבוטח, וכן על תביעות או נזקים שארעו בעבר. המידע נדרש לצורך הערכת הסיכון וקביעת תנאי הביטוח של מכלול לעסק. השאלות מתייחסות לכיסויים המבוקשים בהצעה, תקופת הביטוח, ומספר הפוליסה הקודמת. כמו כן, נשאלים המציעים האם הוגשו תביעות או ארעו נזקים בחמש השנים האחרונות, ומהם האמצעים שננקטו לאחר הנזק או האירוע. נסיון ביטוחי קודם, שם החברה, תקופת הביטוח, מספר הפוליסה, תביעות, נזקים, ארועים. This table collects prior insurance experience and claims history for a business insurance quote. It asks whether the applicant has had previous coverage and if any claims or incidents occurred. בין הערכים בטבלה: מס' הפוליסה: ….",
+  "payload": "טבלה: נסיון ביטוחי קודם\nThis table collects prior insurance experience and claims history for a business insurance quote. It asks whether the applicant has had previous coverage and if any claims or incidents occurred.\nממדים: Question about prior insurance or claims, Response (Yes/No, details)\n\nנסיון ביטוחי קודם ו\nכן\nלא\nהאם בוטחת בעבר באחד או יותר מהכיסויים המבוקשים בהצעה זו?\n:\nאם כן, נא לפרט שם החברה:                                            תקופת הביטוח:                                                     מס' הפוליסה\n:\nכן, נא לפרט\nלא\n? האם נדחתה אי פעם הצעתך, או בוטלה פוליסה שלך, בגין אחד או יותר מהכיסויים המבוקשים\nהאם הורשעת ו/או הורשע עובד המועסק על ידך בגין כל עבירה פלילית אשר לה קשר כלשהו עם סיכון אשר לגביו מתבקש ביטוח בהצעה זו?\n:\nכן, נא לפרט\nלא\nהאם הגשת תביעות, או ארעו נזקים כלשהם כתוצאה מהכיסויים המבוקשים בהצעה זו, במשך חמש השנים האחרונות, ו/או האם ידוע לך על ארוע\n:\nכן, נא לפרט\nלא"
 }

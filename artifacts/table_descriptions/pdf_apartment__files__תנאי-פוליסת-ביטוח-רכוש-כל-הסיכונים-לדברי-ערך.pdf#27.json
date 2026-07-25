@@ -3,20 +3,22 @@
   "source": "llm",
   "description": {
     "title": "תנאי פוליסת ביטוח רכוש",
-    "summary": "This table outlines conditions related to a property insurance policy, specifically regarding disclosure of material facts and risk mitigation. It details scenarios where the insurer can cancel the policy or reduce liability if the insured fails to provide accurate information or take required safety measures.",
-    "embed_passage": "פוליסת ביטוח רכוש כל הסיכונים לדברי ערך מחייבת את המבוטח לגלות כל שינוי מהותי מיד עם היוודעו, אחרת המבטח רשאי לבטל את הפוליסה. עובדה מהותית יכולה להיות תיאור הרכוש המבוטח או נזקים שאירעו לרכוש ב-5 השנים האחרונות. אי גילוי עובדות עלול להוביל להקטנת חבות המבטח.",
-    "row_axis": "Conditions for policy cancellation or liability reduction",
-    "column_axis": "Type of non-disclosure or non-compliance",
+    "summary": "This table outlines conditions related to insurance policy cancellation or liability reduction due to inaccurate or incomplete information provided by the insured. It details scenarios where the insurer may adjust the policy based on undisclosed material facts or failure to mitigate risks.",
+    "embed_passage": "טבלה זו מתארת את תנאי פוליסת ביטוח רכוש כל הסיכונים לדברי ערך, ומפרטת את הזכויות של המבטח לבטל את הפוליסה או להקטין את היקף חבותו במקרים בהם המבוטח לא מסר מידע מלא וכנה. ניתן להשתמש בטבלה זו כדי להבין את החובות של המבוטח לגילוי שינויים מהותיים במהלך תקופת הביטוח. המבוטח, גילוי ושינוי בעניין מהותי, אמצעים להקלת הסיכון, ביטול הפוליסה, הקטנת היקף חבותו, עובדה מהותית, תיאור הרכוש המבוטח, זהות הבעלים, תיאור השימוש ברכוש המבוטח, אמצעי בטיחות.",
+    "row_axis": "Conditions for policy adjustment",
+    "column_axis": "Policy implications",
     "units": [],
     "notable_values": [
-      "years: 5"
+      "לא ענה המבוטח תשובות מלאות וכנות: ביטול הפוליסה / הקטנת חבות",
+      "לא גילה למבטח עניין מהותי: ביטול הפוליסה / הקטנת חבות",
+      "לא נקט באמצעים שנדרשו: ביטול הפוליסה / הקטנת חבות",
+      "שינוי מהותי: ביטול הפוליסה / הקטנת חבות"
     ],
     "product_hints": [
-      "ביטוח רכוש כל הסיכונים",
-      "פוליסת ביטוח רכוש"
+      "ביטוח רכוש כל הסיכונים לדברי ערך"
     ]
   },
   "sketch": "לא ענה המבוטח תשובות מלאות וכנות או לא גילה למבטח עניין מהותי, או לא נקט באמצעים שנדרשו על ידי המבטח להקלת הסיכונים המבוטחים על ידי פוליסה זו, יהיה המבטח רשאי לבטל את הפוליסה או להקטין את היקף חבותו על פי הוראות החוק.\nהמבוטח יגלה בכתב, במשך תקופת הביטוח, כל שינוי מהותי מיד עם היוודע לו על כך. לא ב. גילה המבוטח למבטח שינוי כזה יהיה המבטח רשאי לבטל את הפוליסה או להקטין את היקף חבותו על פי הוראות החוק.",
-  "embed_text": "פוליסת ביטוח רכוש כל הסיכונים לדברי ערך מחייבת את המבוטח לגלות כל שינוי מהותי מיד עם היוודעו, אחרת המבטח רשאי לבטל את הפוליסה. עובדה מהותית יכולה להיות תיאור הרכוש המבוטח או נזקים שאירעו לרכוש ב-5 השנים האחרונות. אי גילוי עובדות עלול להוביל להקטנת חבות המבטח.",
-  "payload": "טבלה: תנאי פוליסת ביטוח רכוש\nThis table outlines conditions related to a property insurance policy, specifically regarding disclosure of material facts and risk mitigation. It details scenarios where the insurer can cancel the policy or reduce liability if the insured fails to provide accurate information or take required safety measures.\nממדים: Conditions for policy cancellation or liability reduction, Type of non-disclosure or non-compliance\n\nלא ענה המבוטח תשובות מלאות וכנות או לא גילה למבטח עניין מהותי, או לא נקט באמצעים שנדרשו על ידי המבטח להקלת הסיכונים המבוטחים על ידי פוליסה זו, יהיה המבטח רשאי לבטל את הפוליסה או להקטין את היקף חבותו על פי הוראות החוק.\nהמבוטח יגלה בכתב, במשך תקופת הביטוח, כל שינוי מהותי מיד עם היוודע לו על כך. לא ב. גילה המבוטח למבטח שינוי כזה יהיה המבטח רשאי לבטל את הפוליסה או להקטין את היקף חבותו על פי הוראות החוק."
+  "embed_text": "טבלה זו מתארת את תנאי פוליסת ביטוח רכוש כל הסיכונים לדברי ערך, ומפרטת את הזכויות של המבטח לבטל את הפוליסה או להקטין את היקף חבותו במקרים בהם המבוטח לא מסר מידע מלא וכנה. ניתן להשתמש בטבלה זו כדי להבין את החובות של המבוטח לגילוי שינויים מהותיים במהלך תקופת הביטוח. המבוטח, גילוי ושינוי בעניין מהותי, אמצעים להקלת הסיכון, ביטול הפוליסה, הקטנת היקף חבותו, עובדה מהותית, תיאור הרכוש המבוטח, זהות הבעלים, תיאור השימוש ברכוש המבוטח, אמצעי בטיחות. This table outlines conditions related to insurance policy cancellation or liability reduction due to inaccurate or incomplete information provided by the insured. It details scenarios where the insurer may adjust the policy based on undisclosed material facts or failure to mitigate risks. בין הערכים בטבלה: לא ענה המבוטח תשובות מלאות וכנות: ביטול הפוליסה /…",
+  "payload": "טבלה: תנאי פוליסת ביטוח רכוש\nThis table outlines conditions related to insurance policy cancellation or liability reduction due to inaccurate or incomplete information provided by the insured. It details scenarios where the insurer may adjust the policy based on undisclosed material facts or failure to mitigate risks.\nממדים: Conditions for policy adjustment, Policy implications\n\nלא ענה המבוטח תשובות מלאות וכנות או לא גילה למבטח עניין מהותי, או לא נקט באמצעים שנדרשו על ידי המבטח להקלת הסיכונים המבוטחים על ידי פוליסה זו, יהיה המבטח רשאי לבטל את הפוליסה או להקטין את היקף חבותו על פי הוראות החוק.\nהמבוטח יגלה בכתב, במשך תקופת הביטוח, כל שינוי מהותי מיד עם היוודע לו על כך. לא ב. גילה המבוטח למבטח שינוי כזה יהיה המבטח רשאי לבטל את הפוליסה או להקטין את היקף חבותו על פי הוראות החוק."
 }

@@ -3,23 +3,24 @@
   "source": "llm",
   "description": {
     "title": "סייגים לחבות המבטח",
-    "summary": "This table details exclusions to the insurer's liability. It lists events or circumstances under which insurance coverage does not apply, helping to define the scope of the 'Adira Zahav' home insurance policy.",
-    "embed_passage": "פוליסת 'אדירה זהב' אינה מכסה נזק שנגרם מפעולות טרור או מלחמה, כולל מעשי איבה. כמו כן, הפוליסה אינה מכסה נזק תוצאתי מכל סוג, למעט אובדן שכר דירה. סייגים אלו מגדירים את תנאי הכיסוי של הפוליסה.",
-    "row_axis": "Specific exclusion clauses",
-    "column_axis": "Description of the exclusion",
+    "summary": "This table lists exclusions to the insurer's liability. It details events or causes for which coverage is not provided under the insurance policy.",
+    "embed_passage": "טבלה זו מפרטת סייגים לחבות המבטח בפוליסת ביטוח דירה אדירה זהב. הסייגים מתארים מצבים שאינם מכוסים על ידי הפוליסה, כגון נזקים שנגרמו מפעולות טרור או שימוש באמצעים לא קונבנציונליים. מטרת הטבלה היא להבהיר את גבולות הכיסוי הביטוחי. הסייגים כוללים נזק שנגרם מפריצה, פעולות מלחמה, שבר זכוכית בלבד, ונזק תוצאתי מכל סוג. כמו כן, מצוין סייג לנזקים שנגרמו משימוש באמצעים גרעיניים, ביולוגיים וכימיים. פוליסת אדירה זהב מציעה כיסוי מקיף, אך חשוב להבין את הסייגים הקיימים.",
+    "row_axis": "exclusion clause",
+    "column_axis": "description of exclusion",
     "units": [],
     "notable_values": [
-      "3.1: פריצה או גניבה",
-      "3.2: מלחמה, פלישה",
-      "3.4: נזק תוצאתי",
-      "3.5: אמצעים גרעיניים, ביולוגיים וכימיים"
+      "פריצה או גניבה: נזק שנגרם מפעולות אלו אינו מכוסה",
+      "פעולות טרור: אבדן או נזק כתוצאה מטרור אינו מכוסה",
+      "מלחמה: נזק שנגרם מפעולות מלחמה אינו מכוסה",
+      "שבר זכוכית: נזק שנגרם רק לשבר זכוכית אינו מכוסה",
+      "נזק תוצאתי: נזק תוצאתי מכל סוג אינו מכוסה (למעט אבדן שכר דירה)",
+      "אמצעים לא קונבנציונליים: נזק שנגרם משימוש באמצעים אלו אינו מכוסה"
     ],
     "product_hints": [
-      "אדירה זהב",
-      "ביטוח דירה"
+      "אדירה זהב"
     ]
   },
   "sketch": ".3.4 שהוא נזק תוצאתי מכל סוג, חוץ מן האמור בפוליסה בנוגע לאבדן שכר-דירה או הוצאות בגין שכר-דירה לצורך מגורים, עקב מקרה הביטוח.\nשנגרמו או נבעו כתוצאה משימוש באמצעים בלתי קונבנציונליים, לרבות אמצעים .3.5 . גרעיניים, ביולוגיים וכימיים",
-  "embed_text": "פוליסת 'אדירה זהב' אינה מכסה נזק שנגרם מפעולות טרור או מלחמה, כולל מעשי איבה. כמו כן, הפוליסה אינה מכסה נזק תוצאתי מכל סוג, למעט אובדן שכר דירה. סייגים אלו מגדירים את תנאי הכיסוי של הפוליסה.",
-  "payload": "טבלה: סייגים לחבות המבטח\nThis table details exclusions to the insurer's liability. It lists events or circumstances under which insurance coverage does not apply, helping to define the scope of the 'Adira Zahav' home insurance policy.\nממדים: Specific exclusion clauses, Description of the exclusion\n\n.3.4 שהוא נזק תוצאתי מכל סוג, חוץ מן האמור בפוליסה בנוגע לאבדן שכר-דירה או הוצאות בגין שכר-דירה לצורך מגורים, עקב מקרה הביטוח.\nשנגרמו או נבעו כתוצאה משימוש באמצעים בלתי קונבנציונליים, לרבות אמצעים .3.5 . גרעיניים, ביולוגיים וכימיים"
+  "embed_text": "טבלה זו מפרטת סייגים לחבות המבטח בפוליסת ביטוח דירה אדירה זהב. הסייגים מתארים מצבים שאינם מכוסים על ידי הפוליסה, כגון נזקים שנגרמו מפעולות טרור או שימוש באמצעים לא קונבנציונליים. מטרת הטבלה היא להבהיר את גבולות הכיסוי הביטוחי. הסייגים כוללים נזק שנגרם מפריצה, פעולות מלחמה, שבר זכוכית בלבד, ונזק תוצאתי מכל סוג. כמו כן, מצוין סייג לנזקים שנגרמו משימוש באמצעים גרעיניים, ביולוגיים וכימיים. פוליסת אדירה זהב מציעה כיסוי מקיף, אך חשוב להבין את הסייגים הקיימים. This table lists exclusions to the insurer's liability. It details events or causes for which coverage is not provided under the insurance policy. בין הערכים בטבלה: פריצה או גניבה: נזק שנגרם מפעולות אלו אינו מכוסה.",
+  "payload": "טבלה: סייגים לחבות המבטח\nThis table lists exclusions to the insurer's liability. It details events or causes for which coverage is not provided under the insurance policy.\nממדים: exclusion clause, description of exclusion\n\n.3.4 שהוא נזק תוצאתי מכל סוג, חוץ מן האמור בפוליסה בנוגע לאבדן שכר-דירה או הוצאות בגין שכר-דירה לצורך מגורים, עקב מקרה הביטוח.\nשנגרמו או נבעו כתוצאה משימוש באמצעים בלתי קונבנציונליים, לרבות אמצעים .3.5 . גרעיניים, ביולוגיים וכימיים"
 }

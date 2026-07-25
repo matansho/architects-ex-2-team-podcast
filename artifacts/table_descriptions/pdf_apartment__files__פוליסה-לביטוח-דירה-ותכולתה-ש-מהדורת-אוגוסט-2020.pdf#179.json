@@ -2,24 +2,27 @@
   "id": "pdf:apartment/files/פוליסה-לביטוח-דירה-ותכולתה-ש-מהדורת-אוגוסט-2020.pdf#179",
   "source": "llm",
   "description": {
-    "title": "פוליסת ביטוח דירה",
-    "summary": "This table details the conditions for renewing a home insurance policy, specifically regarding notifications of changes to premiums or policy terms. It outlines the timeframe for notifying the insured of such changes or non-renewal.",
-    "embed_passage": "פוליסת ביטוח דירה ותכולתה מספקת הגנה למבנה ולתכולתו. במקרה של עלייה בדמי הביטוח, המבטח יודיע למבוטח לפחות 30 ימים לפני מועד חידוש הפוליסה. אם המבטח מפסיק לשווק פוליסות חדשות, הוראות רציפות הביטוח לא תחולנה והמבטח יודיע על כך בכתב.",
-    "row_axis": "Renewal scenarios / conditions",
-    "column_axis": "Notification requirements / policy continuation",
+    "title": "רציפות ביטוח משכנתא",
+    "summary": "This table details the conditions for renewing a home insurance policy tied to a mortgage. It outlines notification periods for premium increases, policy changes, or non-renewal.",
+    "embed_passage": "טבלה זו מתארת את תנאי חידוש פוליסת ביטוח דירה הקשורה למשכנתא. הפוליסה תחודש אוטומטית, אלא אם המבטח מודיע אחרת, תוך שמירה על תנאים הוגנים למבוטח. במקרה של שינויים בתנאים או בדמי הביטוח, המבטח מחויב להודיע מראש. הפוליסה היא פוליסה לביטוח דירה ותכולתה מהדורת אוגוסט 2020. הוראות אלו חלות על מקרים של עלייה בדמי הביטוח, שינוי תנאי הפוליסה, או הפסקת שיווק פוליסות בענף מבנה. המבטח יודיע על כך למבוטח לפחות 30 ימים מראש.",
+    "row_axis": "תנאי חידוש פוליסה",
+    "column_axis": "התנהגות המבטח",
     "units": [],
     "notable_values": [
-      "notification period: 30 days",
-      "policy type: home insurance",
-      "renewal condition: mortgage period",
-      "non-renewal: if insurer stops marketing",
-      "notification method: written notice"
+      "הודעה מוקדמת: 30 ימים",
+      "תקופת חידוש: שנה אחת",
+      "סעיף: א",
+      "סעיף: ב",
+      "סעיף: ג",
+      "סעיף: ד",
+      "סעיף: ה"
     ],
     "product_hints": [
-      "פוליסת ביטוח דירה ותכולתה"
+      "פוליסה לביטוח דירה ותכולתה",
+      "ביטוח משכנתא"
     ]
   },
   "sketch": "בכל מקרה של עלייה בדמי הביטוח, או של שינוי תנאי הפוליסה לרעת המבוטח, המבטח ג. ימים לפני מועד חידוש הפוליסה. 30 יודיע על כך למבוטח, לפחות\n, במקרה שהמבטח יפסיק כליל לשווק פוליסות חדשות בענף מבנה לתקופת משכנתא ד. , הוראות סעיף זה בדבר רציפות הביטוח לא תחולנה, והמבטח יודיע על כך למבוטח, בכתב ימים לפני מועד סיום הפוליסה, ויפעל לחידוש הפוליסה לפי הוראות המבוטח. 30 לפחות",
-  "embed_text": "פוליסת ביטוח דירה ותכולתה מספקת הגנה למבנה ולתכולתו. במקרה של עלייה בדמי הביטוח, המבטח יודיע למבוטח לפחות 30 ימים לפני מועד חידוש הפוליסה. אם המבטח מפסיק לשווק פוליסות חדשות, הוראות רציפות הביטוח לא תחולנה והמבטח יודיע על כך בכתב.",
-  "payload": "טבלה: פוליסת ביטוח דירה\nThis table details the conditions for renewing a home insurance policy, specifically regarding notifications of changes to premiums or policy terms. It outlines the timeframe for notifying the insured of such changes or non-renewal.\nממדים: Renewal scenarios / conditions, Notification requirements / policy continuation\n\nבכל מקרה של עלייה בדמי הביטוח, או של שינוי תנאי הפוליסה לרעת המבוטח, המבטח ג. ימים לפני מועד חידוש הפוליסה. 30 יודיע על כך למבוטח, לפחות\n, במקרה שהמבטח יפסיק כליל לשווק פוליסות חדשות בענף מבנה לתקופת משכנתא ד. , הוראות סעיף זה בדבר רציפות הביטוח לא תחולנה, והמבטח יודיע על כך למבוטח, בכתב ימים לפני מועד סיום הפוליסה, ויפעל לחידוש הפוליסה לפי הוראות המבוטח. 30 לפחות"
+  "embed_text": "טבלה זו מתארת את תנאי חידוש פוליסת ביטוח דירה הקשורה למשכנתא. הפוליסה תחודש אוטומטית, אלא אם המבטח מודיע אחרת, תוך שמירה על תנאים הוגנים למבוטח. במקרה של שינויים בתנאים או בדמי הביטוח, המבטח מחויב להודיע מראש. הפוליסה היא פוליסה לביטוח דירה ותכולתה מהדורת אוגוסט 2020. הוראות אלו חלות על מקרים של עלייה בדמי הביטוח, שינוי תנאי הפוליסה, או הפסקת שיווק פוליסות בענף מבנה. המבטח יודיע על כך למבוטח לפחות 30 ימים מראש. This table details the conditions for renewing a home insurance policy tied to a mortgage. It outlines notification periods for premium increases, policy changes, or non-renewal. בין הערכים בטבלה: תקופת חידוש: שנה אחת.",
+  "payload": "טבלה: רציפות ביטוח משכנתא\nThis table details the conditions for renewing a home insurance policy tied to a mortgage. It outlines notification periods for premium increases, policy changes, or non-renewal.\nממדים: תנאי חידוש פוליסה, התנהגות המבטח\n\nבכל מקרה של עלייה בדמי הביטוח, או של שינוי תנאי הפוליסה לרעת המבוטח, המבטח ג. ימים לפני מועד חידוש הפוליסה. 30 יודיע על כך למבוטח, לפחות\n, במקרה שהמבטח יפסיק כליל לשווק פוליסות חדשות בענף מבנה לתקופת משכנתא ד. , הוראות סעיף זה בדבר רציפות הביטוח לא תחולנה, והמבטח יודיע על כך למבוטח, בכתב ימים לפני מועד סיום הפוליסה, ויפעל לחידוש הפוליסה לפי הוראות המבוטח. 30 לפחות"
 }

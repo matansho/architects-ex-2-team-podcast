@@ -3,23 +3,22 @@
   "source": "llm",
   "description": {
     "title": "שינוי מוטבים",
-    "summary": "This table details the rules for changing beneficiaries in a life insurance policy. It outlines scenarios regarding beneficiary changes before and after the insured's death.",
-    "embed_passage": "פוליסת 'מגן' קובעת את אופן שינוי המוטבים. בעל הפוליסה או המבוטח רשאים לקבוע יותר ממוטב אחד, ולציין את חלקו היחסי של כל אחד בסכום הביטוח. אם מספר מוטבים נקבע ללא ציון חלקם היחסי, סכום הביטוח יחולק בחלוקה שווה ביניהם.",
-    "row_axis": "scenarios related to beneficiary changes",
-    "column_axis": "rules and outcomes of beneficiary changes",
+    "summary": "This table details the conditions for changing beneficiaries in a life insurance policy. It outlines what happens when a beneficiary is changed, dies, or when a claim is made.",
+    "embed_passage": "טבלה זו עוסקת בשינוי מוטבים בפוליסת ביטוח למקרה מוות, כפי שמופיע בפוליסת 'מגן'. ניתן לעיין בתנאים לשינוי מוטב, זכויות היורשים במקרה של מוות המוטב לפני המבוטח, וההודעה על מקרה ביטוח. הפוליסה מאפשרת לבעל הפוליסה או למבוטח לקבוע מוטב או לשנותו, וכן לקבוע את חלקו היחסי של כל מוטב בסכום הביטוח. במקרה של שינוי מוטב, החברה משוחררת מחבות כלפי המוטב הקודם. מוטב, יורשים, סכום הביטוח, צו קיום צוואה, מקרה ביטוח.",
+    "row_axis": "Scenario regarding beneficiary changes",
+    "column_axis": "Conditions and outcomes of beneficiary changes",
     "units": [],
     "notable_values": [
-      "9.1: defines beneficiary designation",
-      "9.2: allows multiple beneficiaries",
-      "9.3: allows changes before the insured's death",
-      "9.5: beneficiary's heirs receive benefits if the beneficiary dies before the insured",
-      "9.6: requires company consent for irrevocable changes"
+      "מוטב: רשום בפוליסה",
+      "שינוי במוטבים: לפני המבוטח",
+      "מקרה ביטוח: לאחר מות המוטב",
+      "יורשים: זכאים לקבלת סכום הביטוח"
     ],
     "product_hints": [
       "מגן"
     ]
   },
   "sketch": "שילמה החברה את הסכום המגיע למוטב הרשום בפוליסה בטרם נרשם בה אחר 9.4 או המבוטח )לפי כמוטב במקומו בין על פי הוראה בכתב בחתימת בעל הפוליסה ובין על פי צו קיום צוואה המורה על תשלום לאחר, תהא החברה הענין( או המבוטח  )לפי משוחררת מכל חבות כלפי אותו אחר וכלפי בעל הפוליסה . וכל מי שיבוא במקומם לעיל(, עזבונם 9.1 כאמור בסעיף הענין\nנעשה ובטרם נפטר מוטב לפני המבוטח, וקרה מקרה הביטוח לאחר מות המוטב 9.5 של המוטב זכאים שינוי במוטבים כאמור בסעיף זה לעיל, יהיו יורשיו החוקיים לקבלת סכום הביטוח שהיה מגיע לאותו מוטב.",
-  "embed_text": "פוליסת 'מגן' קובעת את אופן שינוי המוטבים. בעל הפוליסה או המבוטח רשאים לקבוע יותר ממוטב אחד, ולציין את חלקו היחסי של כל אחד בסכום הביטוח. אם מספר מוטבים נקבע ללא ציון חלקם היחסי, סכום הביטוח יחולק בחלוקה שווה ביניהם.",
-  "payload": "טבלה: שינוי מוטבים\nThis table details the rules for changing beneficiaries in a life insurance policy. It outlines scenarios regarding beneficiary changes before and after the insured's death.\nממדים: scenarios related to beneficiary changes, rules and outcomes of beneficiary changes\n\nשילמה החברה את הסכום המגיע למוטב הרשום בפוליסה בטרם נרשם בה אחר 9.4 או המבוטח )לפי כמוטב במקומו בין על פי הוראה בכתב בחתימת בעל הפוליסה ובין על פי צו קיום צוואה המורה על תשלום לאחר, תהא החברה הענין( או המבוטח  )לפי משוחררת מכל חבות כלפי אותו אחר וכלפי בעל הפוליסה . וכל מי שיבוא במקומם לעיל(, עזבונם 9.1 כאמור בסעיף הענין\nנעשה ובטרם נפטר מוטב לפני המבוטח, וקרה מקרה הביטוח לאחר מות המוטב 9.5 של המוטב זכאים שינוי במוטבים כאמור בסעיף זה לעיל, יהיו יורשיו החוקיים לקבלת סכום הביטוח שהיה מגיע לאותו מוטב."
+  "embed_text": "טבלה זו עוסקת בשינוי מוטבים בפוליסת ביטוח למקרה מוות, כפי שמופיע בפוליסת 'מגן'. ניתן לעיין בתנאים לשינוי מוטב, זכויות היורשים במקרה של מוות המוטב לפני המבוטח, וההודעה על מקרה ביטוח. הפוליסה מאפשרת לבעל הפוליסה או למבוטח לקבוע מוטב או לשנותו, וכן לקבוע את חלקו היחסי של כל מוטב בסכום הביטוח. במקרה של שינוי מוטב, החברה משוחררת מחבות כלפי המוטב הקודם. מוטב, יורשים, סכום הביטוח, צו קיום צוואה, מקרה ביטוח. This table details the conditions for changing beneficiaries in a life insurance policy. It outlines what happens when a beneficiary is changed, dies, or when a claim is made.",
+  "payload": "טבלה: שינוי מוטבים\nThis table details the conditions for changing beneficiaries in a life insurance policy. It outlines what happens when a beneficiary is changed, dies, or when a claim is made.\nממדים: Scenario regarding beneficiary changes, Conditions and outcomes of beneficiary changes\n\nשילמה החברה את הסכום המגיע למוטב הרשום בפוליסה בטרם נרשם בה אחר 9.4 או המבוטח )לפי כמוטב במקומו בין על פי הוראה בכתב בחתימת בעל הפוליסה ובין על פי צו קיום צוואה המורה על תשלום לאחר, תהא החברה הענין( או המבוטח  )לפי משוחררת מכל חבות כלפי אותו אחר וכלפי בעל הפוליסה . וכל מי שיבוא במקומם לעיל(, עזבונם 9.1 כאמור בסעיף הענין\nנעשה ובטרם נפטר מוטב לפני המבוטח, וקרה מקרה הביטוח לאחר מות המוטב 9.5 של המוטב זכאים שינוי במוטבים כאמור בסעיף זה לעיל, יהיו יורשיו החוקיים לקבלת סכום הביטוח שהיה מגיע לאותו מוטב."
 }

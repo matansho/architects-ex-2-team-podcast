@@ -3,23 +3,21 @@
   "source": "llm",
   "description": {
     "title": "בירור ויישוב תביעה",
-    "summary": "This table details the process for claim investigation and settlement, specifically regarding property or bodily harm claims with a third party involved. It outlines how updates are provided to the claimant and how payments are made.",
-    "embed_passage": "בהראל, עם פתיחת אירוע תביעה, ניתן להתעדכן בסטטוס התביעה באתר החברה www.harel-group.co.il. כל הודעת תשלום, מלאה או חלקית, תישלח באופן מפורט ללקוח או לבא כוחו לאחר סיום בדיקת התביעה. תשלום תגמולי הביטוח יבוצע בהעברה בנקאית או בהמחאה.",
-    "row_axis": "Stages of the claim process",
-    "column_axis": "Communication and payment methods",
+    "summary": "This table details the process for claim review and settlement at Harel Insurance, specifically for property or bodily harm claims involving a third party. It outlines how claim status updates are provided and how payments are made.",
+    "embed_passage": "טבלה זו מתארת את הליך בירור ויישוב תביעה בהראל, עבור נזקי רכוש או גוף, כולל תביעות צד ג׳. ניתן להתעדכן בסטטוס התביעה באתר החברה www.harel-group.co.il. הודעת תשלום מלאה, חלקית, פשרה או דחייה תישלח באופן מפורט למבוטח או לבא כוחו לאחר סיום בדיקת התביעה. תשלום תגמולי הביטוח יבוצע בהעברה בנקאית או בהמחאה. במידה ומדובר בעוסק מורשה או חברה בע״מ, רכיב המע״מ יופחת מהתשלום. Harel Insurance",
+    "row_axis": "Stages of claim processing/communication",
+    "column_axis": "Details of claim handling",
     "units": [],
     "notable_values": [
-      "אירוע: opened upon notification",
-      "אתר החברה: www.harel-group.co.il",
-      "תשלום: bank transfer or check",
-      "מע\"מ: deducted for authorized businesses",
-      "סטטוס תביעה: updated online"
+      "Harel website: www.harel-group.co.il",
+      "Payment method: bank transfer or check",
+      "VAT deduction: applicable for authorized businesses/Ltd. companies"
     ],
     "product_hints": [
-      "הראל"
+      "Harel"
     ]
   },
   "sketch": ".  כל הודעת תשלום מלא ו/או חלקי ו/או פשרה ו/או דחייה תישלח באופן מפורט אליך 8 ו/או לב\"כ, עם סיום בדיקת התביעה. תשלום תגמולי הביטוח יבוצעו בהעברה בנקאית או בהמחאה. אם מדובר בעוסק מורשה ו/או חברה בע\"מ, חברתנו תפחית את רכיב המע\"מ מהתשלום.\n: .  בכל שלב לאחר פתיחת האירוע, תוכל להתעדכן בסטטוס תביעתך, באתר החברה 9 .www.harel-group.co.il",
-  "embed_text": "בהראל, עם פתיחת אירוע תביעה, ניתן להתעדכן בסטטוס התביעה באתר החברה www.harel-group.co.il. כל הודעת תשלום, מלאה או חלקית, תישלח באופן מפורט ללקוח או לבא כוחו לאחר סיום בדיקת התביעה. תשלום תגמולי הביטוח יבוצע בהעברה בנקאית או בהמחאה.",
-  "payload": "טבלה: בירור ויישוב תביעה\nThis table details the process for claim investigation and settlement, specifically regarding property or bodily harm claims with a third party involved. It outlines how updates are provided to the claimant and how payments are made.\nממדים: Stages of the claim process, Communication and payment methods\n\n.  כל הודעת תשלום מלא ו/או חלקי ו/או פשרה ו/או דחייה תישלח באופן מפורט אליך 8 ו/או לב\"כ, עם סיום בדיקת התביעה. תשלום תגמולי הביטוח יבוצעו בהעברה בנקאית או בהמחאה. אם מדובר בעוסק מורשה ו/או חברה בע\"מ, חברתנו תפחית את רכיב המע\"מ מהתשלום.\n: .  בכל שלב לאחר פתיחת האירוע, תוכל להתעדכן בסטטוס תביעתך, באתר החברה 9 .www.harel-group.co.il"
+  "embed_text": "טבלה זו מתארת את הליך בירור ויישוב תביעה בהראל, עבור נזקי רכוש או גוף, כולל תביעות צד ג׳. ניתן להתעדכן בסטטוס התביעה באתר החברה www.harel-group.co.il. הודעת תשלום מלאה, חלקית, פשרה או דחייה תישלח באופן מפורט למבוטח או לבא כוחו לאחר סיום בדיקת התביעה. תשלום תגמולי הביטוח יבוצע בהעברה בנקאית או בהמחאה. במידה ומדובר בעוסק מורשה או חברה בע״מ, רכיב המע״מ יופחת מהתשלום. Harel Insurance This table details the process for claim review and settlement at Harel Insurance, specifically for property or bodily harm claims involving a third party. It outlines how claim status updates are provided and how payments are made. בין הערכים בטבלה: Payment method: bank transfer or check; VAT deduction: applicable for authorized businesses/Ltd. companies.",
+  "payload": "טבלה: בירור ויישוב תביעה\nThis table details the process for claim review and settlement at Harel Insurance, specifically for property or bodily harm claims involving a third party. It outlines how claim status updates are provided and how payments are made.\nממדים: Stages of claim processing/communication, Details of claim handling\n\n.  כל הודעת תשלום מלא ו/או חלקי ו/או פשרה ו/או דחייה תישלח באופן מפורט אליך 8 ו/או לב\"כ, עם סיום בדיקת התביעה. תשלום תגמולי הביטוח יבוצעו בהעברה בנקאית או בהמחאה. אם מדובר בעוסק מורשה ו/או חברה בע\"מ, חברתנו תפחית את רכיב המע\"מ מהתשלום.\n: .  בכל שלב לאחר פתיחת האירוע, תוכל להתעדכן בסטטוס תביעתך, באתר החברה 9 .www.harel-group.co.il"
 }

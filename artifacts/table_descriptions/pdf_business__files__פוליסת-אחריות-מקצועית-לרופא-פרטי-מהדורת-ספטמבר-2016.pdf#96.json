@@ -2,24 +2,27 @@
   "id": "pdf:business/files/פוליסת-אחריות-מקצועית-לרופא-פרטי-מהדורת-ספטמבר-2016.pdf#96",
   "source": "llm",
   "description": {
-    "title": "אחריות מקצועית לרופא",
-    "summary": "This table outlines conditions under which the insurer is not liable for compensation, related to professional liability insurance for a private physician. It details scenarios involving prevention or mitigation of damages.",
-    "embed_passage": "פוליסת אחריות מקצועית לרופא פרטי מגדירה מקרים בהם המבטח לא חייב בתגמולי ביטוח, למשל כאשר הנזק ניתן היה למניעה או להקטנה בנקיטת אמצעים סבירים. סעיף 4.9.9 מתייחס למניעת נזק, וסעיף 4.9.10 עוסק בהוצאות סבירות למניעה או הקטנה של נזק, כאשר המבטח עשוי לשפות את המבוטח גם אם הנזק לא נמנע או הוקטן. לדוגמה, הוצאות סבירות למניעת נזק.",
+    "title": "פוליסת אחריות מקצועית",
+    "summary": "This table outlines conditions under which the insurer is not liable for compensation. It details scenarios related to preventing or mitigating damages after an insurance event.",
+    "embed_passage": "טבלה זו מתייחסת לפוליסת אחריות מקצועית, ומפרטת מצבים בהם המבטח לא יהיה חייב בתגמולי ביטוח. המידע מיועד לבחינת נסיבות בהן ניתן היה למנוע או להקטין נזק, או הוצאות סבירות למניעת נזק.  הטבלה עוסקת בסעיפים 4.9.9 ו-4.9.10, המתייחסים למניעת נזקים והוצאות סבירות.  היא כוללת סעיפים כגון נזק שהמבוטח יכול היה למנוע, הוצאות סבירות למניעת נזק, והוצאות בלתי סבירות.  הטבלה רלוונטית לרופא פרטי, כפי שניתן להסיק משם הפוליסה.",
     "row_axis": "conditions for non-liability",
-    "column_axis": "details of the condition/exception",
+    "column_axis": "details of the condition",
     "units": [],
     "notable_values": [
-      "סעיף: 4.9.9",
-      "סעיף: 4.9.10",
-      "אמצעים סבירים: נדרשים",
-      "הוצאות סבירות: עשויות להיות משופות",
-      "מניעת נזק: רלוונטי"
+      "4.9.9: preventing damage",
+      "4.9.10: reasonable expenses",
+      "reasonable measures: preventing damage",
+      "insurer's instructions: measures to take",
+      "reasonable expenses: reimbursement",
+      "unreasonable expenses: reasonable rate",
+      "mitigation of damage: reimbursement",
+      "prevention of damage: reimbursement"
     ],
     "product_hints": [
-      "אחריות מקצועית לרופא פרטי"
+      "פוליסת אחריות מקצועית לרופא פרטי"
     ]
   },
   "sketch": "אין המבטח חייב בתגמולי ביטוח בגין נזק שהמבוטח יכול היה למנוע, או להקטין .4.9.9 בקרות מקרה הביטוח או לאחר מכן, בנקיטת אמצעים סבירים או אמצעים שהמבטח הורה לו לנקוט.\n.  הוציא המבוטח, בקרות מקרה הביטוח או לאחר מכן, הוצאות סבירות למניעת 4.9.10 הנזק או להקטנתו, או שהתחייב לשם כך בהתחייבויות סבירות, חייב המבטח לשפותם, בין אם נמנע הנזק או הוקטן ובין אם לא; היו ההוצאות או ההתחייבויות בלתי סבירות, חייב המבטח בשיפוי כדי שיעורן הסביר בנסיבות העניין, והכל אף מעל לגבולות האחריות.",
-  "embed_text": "פוליסת אחריות מקצועית לרופא פרטי מגדירה מקרים בהם המבטח לא חייב בתגמולי ביטוח, למשל כאשר הנזק ניתן היה למניעה או להקטנה בנקיטת אמצעים סבירים. סעיף 4.9.9 מתייחס למניעת נזק, וסעיף 4.9.10 עוסק בהוצאות סבירות למניעה או הקטנה של נזק, כאשר המבטח עשוי לשפות את המבוטח גם אם הנזק לא נמנע או הוקטן. לדוגמה, הוצאות סבירות למניעת נזק.",
-  "payload": "טבלה: אחריות מקצועית לרופא\nThis table outlines conditions under which the insurer is not liable for compensation, related to professional liability insurance for a private physician. It details scenarios involving prevention or mitigation of damages.\nממדים: conditions for non-liability, details of the condition/exception\n\nאין המבטח חייב בתגמולי ביטוח בגין נזק שהמבוטח יכול היה למנוע, או להקטין .4.9.9 בקרות מקרה הביטוח או לאחר מכן, בנקיטת אמצעים סבירים או אמצעים שהמבטח הורה לו לנקוט.\n.  הוציא המבוטח, בקרות מקרה הביטוח או לאחר מכן, הוצאות סבירות למניעת 4.9.10 הנזק או להקטנתו, או שהתחייב לשם כך בהתחייבויות סבירות, חייב המבטח לשפותם, בין אם נמנע הנזק או הוקטן ובין אם לא; היו ההוצאות או ההתחייבויות בלתי סבירות, חייב המבטח בשיפוי כדי שיעורן הסביר בנסיבות העניין, והכל אף מעל לגבולות האחריות."
+  "embed_text": "טבלה זו מתייחסת לפוליסת אחריות מקצועית, ומפרטת מצבים בהם המבטח לא יהיה חייב בתגמולי ביטוח. המידע מיועד לבחינת נסיבות בהן ניתן היה למנוע או להקטין נזק, או הוצאות סבירות למניעת נזק.  הטבלה עוסקת בסעיפים 4.9.9 ו-4.9.10, המתייחסים למניעת נזקים והוצאות סבירות.  היא כוללת סעיפים כגון נזק שהמבוטח יכול היה למנוע, הוצאות סבירות למניעת נזק, והוצאות בלתי סבירות.  הטבלה רלוונטית לרופא פרטי, כפי שניתן להסיק משם הפוליסה. This table outlines conditions under which the insurer is not liable for compensation. It details scenarios related to preventing or mitigating damages after an insurance event. בין הערכים בטבלה: reasonable measures: preventing damage; insurer's instructions: measures to take; reasonable expenses: reimbursement; unreasonable expenses: reasonable rate; mitigation of damage: reimbursemen…",
+  "payload": "טבלה: פוליסת אחריות מקצועית\nThis table outlines conditions under which the insurer is not liable for compensation. It details scenarios related to preventing or mitigating damages after an insurance event.\nממדים: conditions for non-liability, details of the condition\n\nאין המבטח חייב בתגמולי ביטוח בגין נזק שהמבוטח יכול היה למנוע, או להקטין .4.9.9 בקרות מקרה הביטוח או לאחר מכן, בנקיטת אמצעים סבירים או אמצעים שהמבטח הורה לו לנקוט.\n.  הוציא המבוטח, בקרות מקרה הביטוח או לאחר מכן, הוצאות סבירות למניעת 4.9.10 הנזק או להקטנתו, או שהתחייב לשם כך בהתחייבויות סבירות, חייב המבטח לשפותם, בין אם נמנע הנזק או הוקטן ובין אם לא; היו ההוצאות או ההתחייבויות בלתי סבירות, חייב המבטח בשיפוי כדי שיעורן הסביר בנסיבות העניין, והכל אף מעל לגבולות האחריות."
 }

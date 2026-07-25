@@ -2,16 +2,16 @@
   "id": "pdf:loss-of-working-ability/files/טופס-בקשה-להוספת-או-הגדלת-כיסוי-אובדן-כושר-עבודה-ומטריה.pdf#20",
   "source": "llm",
   "description": {
-    "title": "בקשה לכיסוי אובדן כושר עבודה",
-    "summary": "This table is a request form for adding or increasing coverage for loss of working ability insurance with Harel. It collects information to assess eligibility and process the request.",
-    "embed_passage": "טופס זה משמש לבקשה לכיסוי נוסף או הגדלת כיסוי ביטוח אובדן כושר עבודה של הראל. חשוב לעדכן את הראל אם אתם 'אדם עם מוגבלות' כהגדרתו בחוק שוויון זכויות לאנשים עם מוגבלות, תשנ\"ח-1998, על מנת שבקשתכם תיבחן בהתאם להוראות החוק. יש לשים לב שבמקרה שלא ניתן לצרף כיסוי מסוים, יתר הכיסויים לא יופקו עד לקבלת אישור בכתב.",
-    "row_axis": "applicant / request details",
-    "column_axis": "information fields related to the request",
+    "title": "הוספת/הגדלת כיסוי אובדן כושר עבודה",
+    "summary": "This table is a request form for adding or increasing coverage for loss of working ability insurance. It gathers information about the insured, particularly regarding disabilities as defined by the 1998 Equal Rights for People with Disabilities Law.",
+    "embed_passage": "טופס זה משמש להוספת כיסוי או הגדלת כיסוי ביטוחי לאובדן כושר עבודה דרך חברת הראל. המטרה היא לאפשר למבוטחים לבחור בהרחבות לפוליסה הקיימת שלהם, תוך התחשבות בחוק שוויון זכויות לאנשים עם מוגבלות, תשנ\"ח-1998. יש לעדכן את הראל לגבי מוגבלות כלשהי כדי לבחון את הבקשה בהתאם לחוק. הראל, הראל חברה לביטוח בע\"מ והראל פנסיה וגמל בע\"מ אוספות מידע לצורך ניהול ושיפור השירותים. אדם עם לקות פיסית, נפשית או שכלית, לרבות קוגניטיבית, קבועה או זמנית, אשר בשלה מוגבל תפקודו באופן מהותי בתחום אחד או יותר מתחומי החיים העיקריים.",
+    "row_axis": "insured status/information",
+    "column_axis": "details related to disability and legal compliance",
     "units": [],
     "notable_values": [
-      "year: 1998",
-      "law: חוק שוויון זכויות לאנשים עם מוגבלות",
-      "company: הראל"
+      "חוק שוויון זכויות לאנשים עם מוגבלות: תשנ\"ח-1998",
+      "אדם עם לקות פיסית, נפשית או שכלית: definition provided",
+      "קוגניטיבית: included as a type of disability"
     ],
     "product_hints": [
       "אובדן כושר עבודה",
@@ -19,6 +19,6 @@
     ]
   },
   "sketch": "\" .  לידיעתך, לצורך ייעול ושיפור השירות הניתן לך על-ידי הראל, המידע, הדיוורים והמסמכים, אשר ישלחו אליך מחברת \"הראל\", יופיעו גם ב\"איזור האישי 4 שלך שבאתר החברה.\n, קרי \"אדם עם לקות פיסית, נפשית או שכלית 1998.  ככל שהינך אדם עם מוגבלות, כהגדרתו בחוק שוויון זכויות לאנשים עם מוגבלות, תשנ\"ח 5 לרבות קוגניטיבית, קבועה או זמנית, אשר בשלה מוגבל תפקודו באופן מהותי בתחום אחד או יותר מתחומי החיים העיקריים\", אנא עדכן אותנו על כך באמצעות סוכן הביטוח שלך על מנת שבקשתך לקבלה לביטוח תיבחן בהתאם להוראות החוק.",
-  "embed_text": "טופס זה משמש לבקשה לכיסוי נוסף או הגדלת כיסוי ביטוח אובדן כושר עבודה של הראל. חשוב לעדכן את הראל אם אתם 'אדם עם מוגבלות' כהגדרתו בחוק שוויון זכויות לאנשים עם מוגבלות, תשנ\"ח-1998, על מנת שבקשתכם תיבחן בהתאם להוראות החוק. יש לשים לב שבמקרה שלא ניתן לצרף כיסוי מסוים, יתר הכיסויים לא יופקו עד לקבלת אישור בכתב.",
-  "payload": "טבלה: בקשה לכיסוי אובדן כושר עבודה\nThis table is a request form for adding or increasing coverage for loss of working ability insurance with Harel. It collects information to assess eligibility and process the request.\nממדים: applicant / request details, information fields related to the request\n\n\" .  לידיעתך, לצורך ייעול ושיפור השירות הניתן לך על-ידי הראל, המידע, הדיוורים והמסמכים, אשר ישלחו אליך מחברת \"הראל\", יופיעו גם ב\"איזור האישי 4 שלך שבאתר החברה.\n, קרי \"אדם עם לקות פיסית, נפשית או שכלית 1998.  ככל שהינך אדם עם מוגבלות, כהגדרתו בחוק שוויון זכויות לאנשים עם מוגבלות, תשנ\"ח 5 לרבות קוגניטיבית, קבועה או זמנית, אשר בשלה מוגבל תפקודו באופן מהותי בתחום אחד או יותר מתחומי החיים העיקריים\", אנא עדכן אותנו על כך באמצעות סוכן הביטוח שלך על מנת שבקשתך לקבלה לביטוח תיבחן בהתאם להוראות החוק."
+  "embed_text": "טופס זה משמש להוספת כיסוי או הגדלת כיסוי ביטוחי לאובדן כושר עבודה דרך חברת הראל. המטרה היא לאפשר למבוטחים לבחור בהרחבות לפוליסה הקיימת שלהם, תוך התחשבות בחוק שוויון זכויות לאנשים עם מוגבלות, תשנ\"ח-1998. יש לעדכן את הראל לגבי מוגבלות כלשהי כדי לבחון את הבקשה בהתאם לחוק. הראל, הראל חברה לביטוח בע\"מ והראל פנסיה וגמל בע\"מ אוספות מידע לצורך ניהול ושיפור השירותים. אדם עם לקות פיסית, נפשית או שכלית, לרבות קוגניטיבית, קבועה או זמנית, אשר בשלה מוגבל תפקודו באופן מהותי בתחום אחד או יותר מתחומי החיים העיקריים. This table is a request form for adding or increasing coverage for loss of working ability insurance. It gathers information about the insured, particularly regarding disabilities as defined by the 1998 Equal Rights for People with Disabilities Law.",
+  "payload": "טבלה: הוספת/הגדלת כיסוי אובדן כושר עבודה\nThis table is a request form for adding or increasing coverage for loss of working ability insurance. It gathers information about the insured, particularly regarding disabilities as defined by the 1998 Equal Rights for People with Disabilities Law.\nממדים: insured status/information, details related to disability and legal compliance\n\n\" .  לידיעתך, לצורך ייעול ושיפור השירות הניתן לך על-ידי הראל, המידע, הדיוורים והמסמכים, אשר ישלחו אליך מחברת \"הראל\", יופיעו גם ב\"איזור האישי 4 שלך שבאתר החברה.\n, קרי \"אדם עם לקות פיסית, נפשית או שכלית 1998.  ככל שהינך אדם עם מוגבלות, כהגדרתו בחוק שוויון זכויות לאנשים עם מוגבלות, תשנ\"ח 5 לרבות קוגניטיבית, קבועה או זמנית, אשר בשלה מוגבל תפקודו באופן מהותי בתחום אחד או יותר מתחומי החיים העיקריים\", אנא עדכן אותנו על כך באמצעות סוכן הביטוח שלך על מנת שבקשתך לקבלה לביטוח תיבחן בהתאם להוראות החוק."
 }

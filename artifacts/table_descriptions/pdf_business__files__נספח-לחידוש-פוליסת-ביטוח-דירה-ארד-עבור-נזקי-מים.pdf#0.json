@@ -2,26 +2,27 @@
   "id": "pdf:business/files/נספח-לחידוש-פוליסת-ביטוח-דירה-ארד-עבור-נזקי-מים.pdf#0",
   "source": "llm",
   "description": {
-    "title": "ביטוח דירה - נזקי מים",
-    "summary": "This table outlines options for water damage coverage for a home insurance policy. It allows the insured to choose between self-repair with reimbursement or repair by a company-selected professional.",
-    "embed_passage": "פוליסת ביטוח לדירה של ארד מציעה כיסוי לנזקי דליפת מים ונוזלים אחרים. המבוטח יכול לבחור בין שתי אפשרויות שיפוי: תיקון עצמי עם החזר כספי, או תיקון על ידי בעל מקצוע מטעם החברה. לדוגמה, ניתן לסמן 'כן' או 'לא' לבחירת אפשרות השיפוי הרצויה.",
-    "row_axis": "Insurance policy options/choices for water damage claims",
-    "column_axis": "Policy details: policy number, branch, agent number, agent name, insured name",
+    "title": "נספח לחידוש פוליסת ביטוח דירה",
+    "summary": "This table is a supplement to a home insurance policy renewal, specifically covering water and liquid damage. It allows the insured to choose a preferred compensation option in case of damage.",
+    "embed_passage": "טופס זה הוא נספח לחידוש פוליסת ביטוח דירה, המיועד לכיסוי נזקי דליפת מים ונוזלים אחרים. המבוטח/ת יכול/ה לבחור מראש את אפשרות השיפוי הרצויה במקרה נזק למבנה, בין אפשרות של תיקון עצמי עם שיפוי כספי, לבין תיקון על ידי בעל מקצוע מטעם המבטח. הטופס דורש מילוי פרטים כגון מס. פוליסה, סניף, מס. סוכן ושם המבוטח/ת. האפשרויות העיקריות הן: תיקון ע״י בעל מקצוע מטעם המבטח, או תיקון ע״י המבוטח/ת וקבלת שיפוי. ניתן לבחור שיפוי במקרה נזק למבנה לפי האפשרות הרצויה על ידי סימון 'כן' או 'לא'. אפשרויות אלו רלוונטיות לפוליסת ביטוח דירה של ארד.",
+    "row_axis": "insured/policy details and compensation options",
+    "column_axis": "policy number, branch/district, agent number, agent name, insured name, compensation option choice",
     "units": [],
     "notable_values": [
       "מס. פוליסה: unknown",
       "סניף/מחוז: unknown",
       "מס. סוכן: unknown",
       "שם סוכן: unknown",
-      "שם המבוטח/ת: unknown"
+      "שם המבוטח/ת: unknown",
+      "תיקון ע״י בעל מקצוע מטעם המבטח: yes/no",
+      "תיקון ע״י המבוטח/ת: yes/no"
     ],
     "product_hints": [
-      "ארד",
       "ביטוח דירה",
-      "נזקי מים"
+      "ארד"
     ]
   },
   "sketch": "ביטוח לדירה - נזקי דליפת מים ונוזלים אחרים - נספח לחידוש פוליסה\n: מס. פוליסה : סניף/מחוז : מס. סוכן : שם סוכן : שם המבוטח/ת\n(המבוטח/ת מתבקש/ת למלא את הפרטים דלעיל ולמסור את הטופס לסוכן הביטוח, כשהוא ממולא וחתום)\nאם הכיסוי המבוקש ע\"י המציע/ה לביטוח המבנה, כולל סיכון נזקי מים ונוזלים אחרים, יכול/ה המבוטח/ת לבחור מראש את\nאפשרות השיפוי הרצויה במקרה נזק, מבין שתי האפשרויות המפורטות להלן, והאפשרות שנבחרה תצוין במפרט הפוליסה.\n:) במקום המתאים X אני מבקש/ת לקבל שיפוי במקרה נזק למבנה לפי האפשרות שלהלן (יש לסמן\nלא\nכן",
-  "embed_text": "פוליסת ביטוח לדירה של ארד מציעה כיסוי לנזקי דליפת מים ונוזלים אחרים. המבוטח יכול לבחור בין שתי אפשרויות שיפוי: תיקון עצמי עם החזר כספי, או תיקון על ידי בעל מקצוע מטעם החברה. לדוגמה, ניתן לסמן 'כן' או 'לא' לבחירת אפשרות השיפוי הרצויה.",
-  "payload": "טבלה: ביטוח דירה - נזקי מים\nThis table outlines options for water damage coverage for a home insurance policy. It allows the insured to choose between self-repair with reimbursement or repair by a company-selected professional.\nממדים: Insurance policy options/choices for water damage claims, Policy details: policy number, branch, agent number, agent name, insured name\n\nביטוח לדירה - נזקי דליפת מים ונוזלים אחרים - נספח לחידוש פוליסה\n: מס. פוליסה : סניף/מחוז : מס. סוכן : שם סוכן : שם המבוטח/ת\n(המבוטח/ת מתבקש/ת למלא את הפרטים דלעיל ולמסור את הטופס לסוכן הביטוח, כשהוא ממולא וחתום)\nאם הכיסוי המבוקש ע\"י המציע/ה לביטוח המבנה, כולל סיכון נזקי מים ונוזלים אחרים, יכול/ה המבוטח/ת לבחור מראש את\nאפשרות השיפוי הרצויה במקרה נזק, מבין שתי האפשרויות המפורטות להלן, והאפשרות שנבחרה תצוין במפרט הפוליסה.\n:) במקום המתאים X אני מבקש/ת לקבל שיפוי במקרה נזק למבנה לפי האפשרות שלהלן (יש לסמן\nלא\nכן"
+  "embed_text": "טופס זה הוא נספח לחידוש פוליסת ביטוח דירה, המיועד לכיסוי נזקי דליפת מים ונוזלים אחרים. המבוטח/ת יכול/ה לבחור מראש את אפשרות השיפוי הרצויה במקרה נזק למבנה, בין אפשרות של תיקון עצמי עם שיפוי כספי, לבין תיקון על ידי בעל מקצוע מטעם המבטח. הטופס דורש מילוי פרטים כגון מס. פוליסה, סניף, מס. סוכן ושם המבוטח/ת. האפשרויות העיקריות הן: תיקון ע״י בעל מקצוע מטעם המבטח, או תיקון ע״י המבוטח/ת וקבלת שיפוי. ניתן לבחור שיפוי במקרה נזק למבנה לפי האפשרות הרצויה על ידי סימון 'כן' או 'לא'. אפשרויות אלו רלוונטיות לפוליסת ביטוח דירה של ארד. This table is a supplement to a home insurance policy renewal, specifically covering water and liquid damage. It allows the insured to choose a preferred compensation option in case of damage. בין הערכים בטבלה: סניף/מחוז: unknown; שם סוכן: unknown.",
+  "payload": "טבלה: נספח לחידוש פוליסת ביטוח דירה\nThis table is a supplement to a home insurance policy renewal, specifically covering water and liquid damage. It allows the insured to choose a preferred compensation option in case of damage.\nממדים: insured/policy details and compensation options, policy number, branch/district, agent number, agent name, insured name, compensation option choice\n\nביטוח לדירה - נזקי דליפת מים ונוזלים אחרים - נספח לחידוש פוליסה\n: מס. פוליסה : סניף/מחוז : מס. סוכן : שם סוכן : שם המבוטח/ת\n(המבוטח/ת מתבקש/ת למלא את הפרטים דלעיל ולמסור את הטופס לסוכן הביטוח, כשהוא ממולא וחתום)\nאם הכיסוי המבוקש ע\"י המציע/ה לביטוח המבנה, כולל סיכון נזקי מים ונוזלים אחרים, יכול/ה המבוטח/ת לבחור מראש את\nאפשרות השיפוי הרצויה במקרה נזק, מבין שתי האפשרויות המפורטות להלן, והאפשרות שנבחרה תצוין במפרט הפוליסה.\n:) במקום המתאים X אני מבקש/ת לקבל שיפוי במקרה נזק למבנה לפי האפשרות שלהלן (יש לסמן\nלא\nכן"
 }

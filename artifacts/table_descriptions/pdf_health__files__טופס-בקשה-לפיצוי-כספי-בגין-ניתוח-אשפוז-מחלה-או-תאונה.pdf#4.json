@@ -2,20 +2,25 @@
   "id": "pdf:health/files/טופס-בקשה-לפיצוי-כספי-בגין-ניתוח-אשפוז-מחלה-או-תאונה.pdf#4",
   "source": "llm",
   "description": {
-    "title": "טופס בקשה לפיצוי",
-    "summary": "This table is a claim form for reimbursement of hospitalisation costs due to illness or accident. It requires details from the insured and their doctor.",
-    "embed_passage": "טופס זה מיועד להגשת בקשה לפיצוי כספי בגין אשפוז עקב מחלה או תאונה. יש למלא את כל הפרטים בקפידה, כולל פרטי המבוטח וסיכום אשפוז. הטופס מיועד לשיפור וייעול הטיפול בפנייתך.",
-    "row_axis": "Claim form sections / required information",
-    "column_axis": "Form instructions / details",
+    "title": "אשפוז בגין מחלה או תאונה",
+    "summary": "This table outlines the requirements for a claim related to hospitalization due to illness or accident. It details which sections of the claim form need to be completed by the insured, the specialist physician, or the family doctor.",
+    "embed_passage": "טופס זה עוסק בבקשה לפיצוי כספי בגין אשפוז עקב מחלה או תאונה. יש למלא חלק א׳ עם פרטי המבוטח, וחלק ב׳ על ידי הרופא המקצועי הקבוע בקופ״ח או רופא משפחה. נדרש לצרף סיכום מיון או סיכום אשפוז, וקבלה על השתתפות עצמית אם שולמה. הטופס מיועד לשיפור וייעול הטיפול בפנייתך. חלק ב׳ מיועד לרופא המטפל בקשר לבעיה הרפואית הקשורה לאשפוז, כגון אורטופד, רופא נשים או רופא עיניים.",
+    "row_axis": "Claim form section / requirement",
+    "column_axis": "Information type / responsible party",
     "units": [],
     "notable_values": [
-      "age: 12-0"
+      "אשפוז בגין מחלה או תאונה: description",
+      "חלק א׳: insured",
+      "חלק ב׳: specialist physician / family doctor",
+      "סיכום מיון: required document",
+      "סיכום אשפוז: required document",
+      "השתתפות עצמית: receipt required if paid"
     ],
     "product_hints": [
-      "פיצוי כספי בגין ניתוח אשפוז מחלה או תאונה"
+      "אשפוז בגין מחלה או תאונה"
     ]
   },
   "sketch": "אשפוז בגין מחלה או תאונה\n; א. חלק א׳, הכולל את פרטי המבוטח, עליך למלאו בעצמך - אנא מלא בו את כל הפרטים המבוקשים בקפידה, לשם שיפור וייעול הטיפול בפנייתך\nב. חלק ב׳, שנועד למילוי על ידי הרופא המקצועי הקבוע בקופ״ח )רופא מקצועי המטפל בך בקשר עם הבעיה הרפואית הקשורה לאשפוז, כגון אורטופד, רופא נשים, רופא עיניים וכד׳(, ובהעדר רופא מקצועי, יש למלא הטופס על ידי רופא משפחה או רופא ילדים.\nג.  סיכום מיון / סיכום אשפוז.\nד. במידה ושולמה על ידך השתתפות עצמית יש להעביר קבלה.",
-  "embed_text": "טופס זה מיועד להגשת בקשה לפיצוי כספי בגין אשפוז עקב מחלה או תאונה. יש למלא את כל הפרטים בקפידה, כולל פרטי המבוטח וסיכום אשפוז. הטופס מיועד לשיפור וייעול הטיפול בפנייתך.",
-  "payload": "טבלה: טופס בקשה לפיצוי\nThis table is a claim form for reimbursement of hospitalisation costs due to illness or accident. It requires details from the insured and their doctor.\nממדים: Claim form sections / required information, Form instructions / details\n\nאשפוז בגין מחלה או תאונה\n; א. חלק א׳, הכולל את פרטי המבוטח, עליך למלאו בעצמך - אנא מלא בו את כל הפרטים המבוקשים בקפידה, לשם שיפור וייעול הטיפול בפנייתך\nב. חלק ב׳, שנועד למילוי על ידי הרופא המקצועי הקבוע בקופ״ח )רופא מקצועי המטפל בך בקשר עם הבעיה הרפואית הקשורה לאשפוז, כגון אורטופד, רופא נשים, רופא עיניים וכד׳(, ובהעדר רופא מקצועי, יש למלא הטופס על ידי רופא משפחה או רופא ילדים.\nג.  סיכום מיון / סיכום אשפוז.\nד. במידה ושולמה על ידך השתתפות עצמית יש להעביר קבלה."
+  "embed_text": "טופס זה עוסק בבקשה לפיצוי כספי בגין אשפוז עקב מחלה או תאונה. יש למלא חלק א׳ עם פרטי המבוטח, וחלק ב׳ על ידי הרופא המקצועי הקבוע בקופ״ח או רופא משפחה. נדרש לצרף סיכום מיון או סיכום אשפוז, וקבלה על השתתפות עצמית אם שולמה. הטופס מיועד לשיפור וייעול הטיפול בפנייתך. חלק ב׳ מיועד לרופא המטפל בקשר לבעיה הרפואית הקשורה לאשפוז, כגון אורטופד, רופא נשים או רופא עיניים. This table outlines the requirements for a claim related to hospitalization due to illness or accident. It details which sections of the claim form need to be completed by the insured, the specialist physician, or the family doctor. בין הערכים בטבלה: אשפוז בגין מחלה או תאונה: description.",
+  "payload": "טבלה: אשפוז בגין מחלה או תאונה\nThis table outlines the requirements for a claim related to hospitalization due to illness or accident. It details which sections of the claim form need to be completed by the insured, the specialist physician, or the family doctor.\nממדים: Claim form section / requirement, Information type / responsible party\n\nאשפוז בגין מחלה או תאונה\n; א. חלק א׳, הכולל את פרטי המבוטח, עליך למלאו בעצמך - אנא מלא בו את כל הפרטים המבוקשים בקפידה, לשם שיפור וייעול הטיפול בפנייתך\nב. חלק ב׳, שנועד למילוי על ידי הרופא המקצועי הקבוע בקופ״ח )רופא מקצועי המטפל בך בקשר עם הבעיה הרפואית הקשורה לאשפוז, כגון אורטופד, רופא נשים, רופא עיניים וכד׳(, ובהעדר רופא מקצועי, יש למלא הטופס על ידי רופא משפחה או רופא ילדים.\nג.  סיכום מיון / סיכום אשפוז.\nד. במידה ושולמה על ידך השתתפות עצמית יש להעביר קבלה."
 }

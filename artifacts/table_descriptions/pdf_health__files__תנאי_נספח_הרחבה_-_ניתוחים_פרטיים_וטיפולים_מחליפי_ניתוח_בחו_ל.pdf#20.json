@@ -2,22 +2,25 @@
   "id": "pdf:health/files/תנאי_נספח_הרחבה_-_ניתוחים_פרטיים_וטיפולים_מחליפי_ניתוח_בחו_ל.pdf#20",
   "source": "llm",
   "description": {
-    "title": "הרחבה - ניתוחים פרטיים וטיפולים מחליפי ניתוח בחו\"ל",
-    "summary": "This table details exclusions to insurance coverage for private surgeries and alternative treatments abroad. It specifies conditions under which the company is not obligated to pay insurance benefits.",
-    "embed_passage": "נספח הרחבה זה מגדיר מקרים בהם החברה לא תשלם תגמולי ביטוח, כגון מצב רפואי קודם (סעיף 4.6) או ניתוחים מסיבות של היריון (סעיף 4.7). הניתוחים המפורטים כאן חלים על תכנית ביטוח זו, וחשוב להבין את התנאים וההחרגות.",
-    "row_axis": "exclusion reason / case of claim",
-    "column_axis": "condition / detail",
+    "title": "חריגים לביטוח ניתוחים",
+    "summary": "This table lists exclusions to insurance coverage for surgeries and alternative treatments, specifically under the 'הרחבה – ניתוחים פרטיים וטיפולים מחליפי ניתוח בחו\"ל' plan. It details conditions where the insurance company is not obligated to pay benefits.",
+    "embed_passage": "טבלה זו מפרטת חריגים לתגמולי ביטוח עבור ניתוחים וטיפולים מחליפי ניתוח, כחלק מתוכנית 'הרחבה – ניתוחים פרטיים וטיפולים מחליפי ניתוח בחו\"ל'. ניתן לעיין בחריגים אלו כדי להבין את תנאי הכיסוי. החריגים כוללים מצב רפואי קודם, ניתוחים הקשורים בהיריון, וניתוחים אסתטיים. כמו כן, מצוינים תנאים ספציפיים לניתוחים בריאטריים, כגון BMI וסכרת.  החריגים מפורטים בהתאם לתקנות הפיקוח על עסקי ביטוח.  מקרים נפוצים כוללים מצב רפואי קודם, ניתוחים הקשורים בהיריון, וניתוחים אסתטיים.",
+    "row_axis": "סוג מקרה ביטוח שאינו מכוסה",
+    "column_axis": "תנאי חריג",
     "units": [],
     "notable_values": [
-      "year: 2004",
-      "BMI threshold: 36",
-      "BMI threshold: 40"
+      "מצב רפואי קודם: תקנות הפיקוח על עסקי ביטוח (תשס\"ד 2004)",
+      "היריון: ניתוח או טיפול מחליף ניתוח מסיבות של היריון",
+      "ניתוחים אסתטיים: ניתוח או טיפול שאינו נובע מצורך רפואי",
+      "BMI: מעל 36",
+      "BMI: מעל 40",
+      "סכרת: בנוסף לבעיות של סכרת"
     ],
     "product_hints": [
-      "הרחבה - ניתוחים פרטיים וטיפולים מחליפי ניתוח בחו\"ל"
+      "הרחבה – ניתוחים פרטיים וטיפולים מחליפי ניתוח בחו\"ל"
     ]
   },
   "sketch": "מקרה ביטוח שארע עקב מצב רפואי קודם, בכפוף לתקנות הפיקוח על עסקי ביטוח )תנאים בחוזי .4.6 2 ; 2004­ ביטוח()הוראות לענין מצב רפואי קודם(, התשס\"   ד\n; ה ניתוח או טיפול מחליף נית  וח מסיבות של היריון, לידה, עקרות, פוריות, עיקור מרצו  ן, והפל .4.7",
-  "embed_text": "נספח הרחבה זה מגדיר מקרים בהם החברה לא תשלם תגמולי ביטוח, כגון מצב רפואי קודם (סעיף 4.6) או ניתוחים מסיבות של היריון (סעיף 4.7). הניתוחים המפורטים כאן חלים על תכנית ביטוח זו, וחשוב להבין את התנאים וההחרגות.",
-  "payload": "טבלה: הרחבה - ניתוחים פרטיים וטיפולים מחליפי ניתוח בחו\"ל\nThis table details exclusions to insurance coverage for private surgeries and alternative treatments abroad. It specifies conditions under which the company is not obligated to pay insurance benefits.\nממדים: exclusion reason / case of claim, condition / detail\n\nמקרה ביטוח שארע עקב מצב רפואי קודם, בכפוף לתקנות הפיקוח על עסקי ביטוח )תנאים בחוזי .4.6 2 ; 2004­ ביטוח()הוראות לענין מצב רפואי קודם(, התשס\"   ד\n; ה ניתוח או טיפול מחליף נית  וח מסיבות של היריון, לידה, עקרות, פוריות, עיקור מרצו  ן, והפל .4.7"
+  "embed_text": "טבלה זו מפרטת חריגים לתגמולי ביטוח עבור ניתוחים וטיפולים מחליפי ניתוח, כחלק מתוכנית 'הרחבה – ניתוחים פרטיים וטיפולים מחליפי ניתוח בחו\"ל'. ניתן לעיין בחריגים אלו כדי להבין את תנאי הכיסוי. החריגים כוללים מצב רפואי קודם, ניתוחים הקשורים בהיריון, וניתוחים אסתטיים. כמו כן, מצוינים תנאים ספציפיים לניתוחים בריאטריים, כגון BMI וסכרת.  החריגים מפורטים בהתאם לתקנות הפיקוח על עסקי ביטוח.  מקרים נפוצים כוללים מצב רפואי קודם, ניתוחים הקשורים בהיריון, וניתוחים אסתטיים. This table lists exclusions to insurance coverage for surgeries and alternative treatments, specifically under the 'הרחבה – ניתוחים פרטיים וטיפולים מחליפי ניתוח בחו\"ל' plan. It details conditions where the insurance company is not obligated to pay benefits.",
+  "payload": "טבלה: חריגים לביטוח ניתוחים\nThis table lists exclusions to insurance coverage for surgeries and alternative treatments, specifically under the 'הרחבה – ניתוחים פרטיים וטיפולים מחליפי ניתוח בחו\"ל' plan. It details conditions where the insurance company is not obligated to pay benefits.\nממדים: סוג מקרה ביטוח שאינו מכוסה, תנאי חריג\n\nמקרה ביטוח שארע עקב מצב רפואי קודם, בכפוף לתקנות הפיקוח על עסקי ביטוח )תנאים בחוזי .4.6 2 ; 2004­ ביטוח()הוראות לענין מצב רפואי קודם(, התשס\"   ד\n; ה ניתוח או טיפול מחליף נית  וח מסיבות של היריון, לידה, עקרות, פוריות, עיקור מרצו  ן, והפל .4.7"
 }

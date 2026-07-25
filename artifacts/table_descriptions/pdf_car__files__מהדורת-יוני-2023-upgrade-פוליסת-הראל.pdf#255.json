@@ -2,24 +2,23 @@
   "id": "pdf:car/files/מהדורת-יוני-2023-upgrade-פוליסת-הראל.pdf#255",
   "source": "llm",
   "description": {
-    "title": "הראל – שירותי דרך",
-    "summary": "This table details the costs and limitations of roadside assistance services provided by הראל. It outlines scenarios where service is not provided and associated fees.",
-    "embed_passage": "פוליסת הראל מספקת שירותי דרך שונים, כאשר מקבל השירות עשוי לשאת בעלות של עד ₪ 15 עבור כניסה לחניון או מעבר בכבישי אגרה. השירות אינו כולל מקרים של מלחמה, פעולות איבה או אירועים טבע קיצוניים. עלות דמי הטיפול לא תעלה על ₪ 15.",
-    "row_axis": "service limitations / cost conditions",
-    "column_axis": "details of limitation / cost",
+    "title": "חריגים לשירות",
+    "summary": "This table lists exclusions to the car service provided by הראל. It details situations where service will not be provided or will incur additional costs.",
+    "embed_passage": "טבלה זו מפרטת חריגים לשירותי דרך הניתנים במסגרת פוליסת הראל לרכב. השירותים מוגבלים על פי שיקול דעתו של נותן השירות, ובתשלום במקרים מסוימים. ניתן למצוא כאן מידע על מצבי חירום שאינם מכוסים, כגון מלחמה או אסונות טבע, וכן על עלויות נוספות כמו תשלום עבור כניסה לחניונים או נסיעה בכבישי אגרה. הראל, מלחמה, פעולות איבה, פיגוע חבלני, רעידת אדמה, הצפה, שיטפון, כבישי אגרה, חניון בתשלום, ₪ 15.",
+    "row_axis": "exclusion reason",
+    "column_axis": "details / cost",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "cost: ₪ 15",
-      "treatment fee limit: ₪ 15"
+      "cost for parking/toll: ₪ 15",
+      "handling fee limit: ₪ 15"
     ],
     "product_hints": [
-      "הראל",
-      "שירותי דרך"
+      "פוליסת הראל"
     ]
   },
   "sketch": "מקבל השירות יישא במלוא העלות שתחול על רכב השירות, לצורך מתן .2.9.12 , השירות, בכלל זה: כניסה למגרש חנייה/חניון בתשלום ומעבר בכבישי אגרה .₪  15 זאת בתוספת דמי-טיפול שלא יעלו על\n, נותן השירות לא ייתן שירות במצב מלחמה, פעולות איבה, פיגוע חבלני .2.9.13 גיוס כללי, רעידת אדמה, הצפה, שיטפון, אירוע טבע קיצוני, אירוע גרעיני או רדיואקטיבי, אירוע קטסטרופאלי ואירוע שהפיצוי בגינו ניתן על-ידי המדינה.",
-  "embed_text": "פוליסת הראל מספקת שירותי דרך שונים, כאשר מקבל השירות עשוי לשאת בעלות של עד ₪ 15 עבור כניסה לחניון או מעבר בכבישי אגרה. השירות אינו כולל מקרים של מלחמה, פעולות איבה או אירועים טבע קיצוניים. עלות דמי הטיפול לא תעלה על ₪ 15.",
-  "payload": "טבלה: הראל – שירותי דרך\nThis table details the costs and limitations of roadside assistance services provided by הראל. It outlines scenarios where service is not provided and associated fees.\nממדים: service limitations / cost conditions, details of limitation / cost\n\nמקבל השירות יישא במלוא העלות שתחול על רכב השירות, לצורך מתן .2.9.12 , השירות, בכלל זה: כניסה למגרש חנייה/חניון בתשלום ומעבר בכבישי אגרה .₪  15 זאת בתוספת דמי-טיפול שלא יעלו על\n, נותן השירות לא ייתן שירות במצב מלחמה, פעולות איבה, פיגוע חבלני .2.9.13 גיוס כללי, רעידת אדמה, הצפה, שיטפון, אירוע טבע קיצוני, אירוע גרעיני או רדיואקטיבי, אירוע קטסטרופאלי ואירוע שהפיצוי בגינו ניתן על-ידי המדינה."
+  "embed_text": "טבלה זו מפרטת חריגים לשירותי דרך הניתנים במסגרת פוליסת הראל לרכב. השירותים מוגבלים על פי שיקול דעתו של נותן השירות, ובתשלום במקרים מסוימים. ניתן למצוא כאן מידע על מצבי חירום שאינם מכוסים, כגון מלחמה או אסונות טבע, וכן על עלויות נוספות כמו תשלום עבור כניסה לחניונים או נסיעה בכבישי אגרה. הראל, מלחמה, פעולות איבה, פיגוע חבלני, רעידת אדמה, הצפה, שיטפון, כבישי אגרה, חניון בתשלום, ₪ 15. This table lists exclusions to the car service provided by הראל. It details situations where service will not be provided or will incur additional costs.",
+  "payload": "טבלה: חריגים לשירות\nThis table lists exclusions to the car service provided by הראל. It details situations where service will not be provided or will incur additional costs.\nממדים: exclusion reason, details / cost\n\nמקבל השירות יישא במלוא העלות שתחול על רכב השירות, לצורך מתן .2.9.12 , השירות, בכלל זה: כניסה למגרש חנייה/חניון בתשלום ומעבר בכבישי אגרה .₪  15 זאת בתוספת דמי-טיפול שלא יעלו על\n, נותן השירות לא ייתן שירות במצב מלחמה, פעולות איבה, פיגוע חבלני .2.9.13 גיוס כללי, רעידת אדמה, הצפה, שיטפון, אירוע טבע קיצוני, אירוע גרעיני או רדיואקטיבי, אירוע קטסטרופאלי ואירוע שהפיצוי בגינו ניתן על-ידי המדינה."
 }

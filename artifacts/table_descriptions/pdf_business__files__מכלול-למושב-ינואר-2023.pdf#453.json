@@ -2,23 +2,20 @@
   "id": "pdf:business/files/מכלול-למושב-ינואר-2023.pdf#453",
   "source": "llm",
   "description": {
-    "title": "הודעות למשטרה",
-    "summary": "This table details procedures for reporting incidents to the police under an insurance policy. It outlines actions to take in cases of loss or damage, and the handling of recovered stolen property.",
-    "embed_passage": "פוליסת 'מכלול' מחייבת את המבוטח להודיע למשטרה בכל מקרה של אבדן או נזק כתוצאה ממעשה זדון, פריצה או גניבה. אם רכוש שנגנב נמצא לאחר תשלום תגמולי ביטוח, הרכוש יעבור לבעלות המבטח. לדוגמה, סעיף 31.2 קובע שאם רכוש שנגנב נמצא לפני תשלום תגמולי ביטוח, הרכוש יוחזר למבוטח.",
-    "row_axis": "Specific scenarios related to police reporting and stolen property",
-    "column_axis": "Details of the procedure or outcome for each scenario",
+    "title": "הודעה למשטרה",
+    "summary": "This table details the policyholder's obligations to notify the police in case of loss or damage potentially covered by the insurance policy. It outlines scenarios regarding stolen property found before or after insurance compensation is paid.",
+    "embed_passage": "טבלה זו מתארת את חובותיו של המבוטח להודיע למשטרה במקרה של אובדן או נזק שעלולים להיות מכוסים על פי הפוליסה. ניתן לעיין בסעיפים הנוגעים לאובדן רכוש, גניבה, שוד ואבידה. הסעיפים מתייחסים למקרים בהם רכוש גנוב נמצא לפני או אחרי תשלום תגמולי ביטוח. הודעה למשטרה, אבדן, נזק, גניבה, שוד, אבידה, תגמולי ביטוח, רכוש גנוב.",
+    "row_axis": "circumstance of loss/recovery",
+    "column_axis": "policyholder obligation/outcome",
     "units": [],
     "notable_values": [
-      "31: הודעה למשטרה",
-      "31.1: Reporting requirements for loss/damage",
-      "31.2: Return of property found before insurance payment",
-      "31.3: Ownership of property found after insurance payment"
+      "אבדן או נזק: הודעה למשטרה",
+      "רכוש גנוב שנמצא לפני תשלום: החזרת הרכוש",
+      "רכוש גנוב שנמצא אחרי תשלום: מעבר בעלות למבטח"
     ],
-    "product_hints": [
-      "מכלול"
-    ]
+    "product_hints": []
   },
   "sketch": ". הודעה למשטרה 31\n.  על המבוטח להודיע למשטרה בכל מקרה של אבדן או נזק הנובעים לדעתו ממעשה 31.1 זדון, פריצה, גניבה, שוד או אבידה, אם ובמידה שזו מכוסה על-פי הפוליסה.\n.  נמצא רכוש שנגנב בטרם שולמו בעדו תגמולי ביטוח לפי פוליסה זו, יוחזר הרכוש 31.2 למבוטח והמבטח לא ישלם תגמולי ביטוח, אלא אם כן ניזוק הרכוש שהוחזר.",
-  "embed_text": "פוליסת 'מכלול' מחייבת את המבוטח להודיע למשטרה בכל מקרה של אבדן או נזק כתוצאה ממעשה זדון, פריצה או גניבה. אם רכוש שנגנב נמצא לאחר תשלום תגמולי ביטוח, הרכוש יעבור לבעלות המבטח. לדוגמה, סעיף 31.2 קובע שאם רכוש שנגנב נמצא לפני תשלום תגמולי ביטוח, הרכוש יוחזר למבוטח.",
-  "payload": "טבלה: הודעות למשטרה\nThis table details procedures for reporting incidents to the police under an insurance policy. It outlines actions to take in cases of loss or damage, and the handling of recovered stolen property.\nממדים: Specific scenarios related to police reporting and stolen property, Details of the procedure or outcome for each scenario\n\n. הודעה למשטרה 31\n.  על המבוטח להודיע למשטרה בכל מקרה של אבדן או נזק הנובעים לדעתו ממעשה 31.1 זדון, פריצה, גניבה, שוד או אבידה, אם ובמידה שזו מכוסה על-פי הפוליסה.\n.  נמצא רכוש שנגנב בטרם שולמו בעדו תגמולי ביטוח לפי פוליסה זו, יוחזר הרכוש 31.2 למבוטח והמבטח לא ישלם תגמולי ביטוח, אלא אם כן ניזוק הרכוש שהוחזר."
+  "embed_text": "טבלה זו מתארת את חובותיו של המבוטח להודיע למשטרה במקרה של אובדן או נזק שעלולים להיות מכוסים על פי הפוליסה. ניתן לעיין בסעיפים הנוגעים לאובדן רכוש, גניבה, שוד ואבידה. הסעיפים מתייחסים למקרים בהם רכוש גנוב נמצא לפני או אחרי תשלום תגמולי ביטוח. הודעה למשטרה, אבדן, נזק, גניבה, שוד, אבידה, תגמולי ביטוח, רכוש גנוב. This table details the policyholder's obligations to notify the police in case of loss or damage potentially covered by the insurance policy. It outlines scenarios regarding stolen property found before or after insurance compensation is paid. בין הערכים בטבלה: רכוש גנוב שנמצא לפני תשלום: החזרת הרכוש; רכוש גנוב שנמצא אחרי תשלום: מעבר בעלות למבטח.",
+  "payload": "טבלה: הודעה למשטרה\nThis table details the policyholder's obligations to notify the police in case of loss or damage potentially covered by the insurance policy. It outlines scenarios regarding stolen property found before or after insurance compensation is paid.\nממדים: circumstance of loss/recovery, policyholder obligation/outcome\n\n. הודעה למשטרה 31\n.  על המבוטח להודיע למשטרה בכל מקרה של אבדן או נזק הנובעים לדעתו ממעשה 31.1 זדון, פריצה, גניבה, שוד או אבידה, אם ובמידה שזו מכוסה על-פי הפוליסה.\n.  נמצא רכוש שנגנב בטרם שולמו בעדו תגמולי ביטוח לפי פוליסה זו, יוחזר הרכוש 31.2 למבוטח והמבטח לא ישלם תגמולי ביטוח, אלא אם כן ניזוק הרכוש שהוחזר."
 }

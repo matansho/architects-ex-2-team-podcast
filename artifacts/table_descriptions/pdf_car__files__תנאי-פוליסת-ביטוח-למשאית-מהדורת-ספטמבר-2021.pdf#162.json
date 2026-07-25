@@ -3,22 +3,21 @@
   "source": "llm",
   "description": {
     "title": "ביטול פוליסה",
-    "summary": "This table details the conditions and refund amounts for policy cancellation, both by the insured and the insurer. It outlines the timeframe for refunds and potential adjustments based on the remaining policy period.",
-    "embed_passage": "פוליסת ביטוח למשאית מספקת אפשרות ביטול על ידי המבוטח או המבטח. במקרה של ביטול על ידי המבטח, יוחזר למבוטח חלק יחסי מדמי הביטוח ששולמו, תוך 14 ימים ממועד הביטול. לדוגמה, אם נותרו 30 ימים לתום הפוליסה, יחושב החזר דמי הביטוח בהתאם.",
-    "row_axis": "Cancellation scenarios (insured/insurer initiated)",
-    "column_axis": "Cancellation conditions, refund timelines, and refund calculations",
-    "units": [
-      "ימים"
-    ],
+    "summary": "This table details the conditions for policy cancellation and the proportional refund of premiums. It outlines scenarios where both the insured and the insurer can cancel the policy and the associated refund calculations.",
+    "embed_passage": "טבלה זו מתארת את תנאי ביטול פוליסת ביטוח רכב, במיוחד פוליסת משאית, ואת החזר דמי הביטוח המגיע למבוטח במקרה של ביטול. ניתן לבדוק את התנאים לביטול על ידי המבטח או המבוטח, את מספר הימים להודעה מראש, ואת אופן חישוב ההחזר היחסי של דמי הביטוח. ביטול פוליסה, החזר דמי ביטוח, תקופת ביטוח, הודעה מראש, מספר ימים, החזר יחסי, פוליסת משאית. במקרה של ביטול על ידי המבטח, יוחזר למבוטח החלק היחסי מדמי הביטוח ששולמו, תוך התחשבות במספר הימים שנותרו בתקופת הביטוח המקורית.",
+    "row_axis": "Cancellation conditions / scenarios",
+    "column_axis": "Cancellation process details (notice period, refund calculation)",
+    "units": [],
     "notable_values": [
-      "refund timeframe: 14 ימים",
-      "notice period for insurer cancellation: 30 ימים"
+      "notice period: 30 days",
+      "refund timeframe: 14 days",
+      "refund calculation: proportional to remaining policy period"
     ],
     "product_hints": [
-      "ביטוח למשאית"
+      "פוליסת ביטוח למשאית"
     ]
   },
   "sketch": "בלי לגרוע מזכויות המבטח על פי דין, רשאי המבטח לבטל את הביטוח לפני תום .9.3 תקופת הביטוח, ובלבד שהודעה על כך, שבה ייכללו הנימוקים לביטול, תישלח למבוטח ימים לפחות לפני התאריך שבו יתבטל הביטוח. 30\nימים 14ביטל המבטח את הפוליסה, יחזיר המבטח למבוטח בהקדם, ולא יאוחר מ .9.4 מהמועד שבו נכנס הביטול לתוקף, את החלק היחסי מדמי הביטוח ששולמו.",
-  "embed_text": "פוליסת ביטוח למשאית מספקת אפשרות ביטול על ידי המבוטח או המבטח. במקרה של ביטול על ידי המבטח, יוחזר למבוטח חלק יחסי מדמי הביטוח ששולמו, תוך 14 ימים ממועד הביטול. לדוגמה, אם נותרו 30 ימים לתום הפוליסה, יחושב החזר דמי הביטוח בהתאם.",
-  "payload": "טבלה: ביטול פוליסה\nThis table details the conditions and refund amounts for policy cancellation, both by the insured and the insurer. It outlines the timeframe for refunds and potential adjustments based on the remaining policy period.\nממדים: Cancellation scenarios (insured/insurer initiated), Cancellation conditions, refund timelines, and refund calculations\n\nבלי לגרוע מזכויות המבטח על פי דין, רשאי המבטח לבטל את הביטוח לפני תום .9.3 תקופת הביטוח, ובלבד שהודעה על כך, שבה ייכללו הנימוקים לביטול, תישלח למבוטח ימים לפחות לפני התאריך שבו יתבטל הביטוח. 30\nימים 14ביטל המבטח את הפוליסה, יחזיר המבטח למבוטח בהקדם, ולא יאוחר מ .9.4 מהמועד שבו נכנס הביטול לתוקף, את החלק היחסי מדמי הביטוח ששולמו."
+  "embed_text": "טבלה זו מתארת את תנאי ביטול פוליסת ביטוח רכב, במיוחד פוליסת משאית, ואת החזר דמי הביטוח המגיע למבוטח במקרה של ביטול. ניתן לבדוק את התנאים לביטול על ידי המבטח או המבוטח, את מספר הימים להודעה מראש, ואת אופן חישוב ההחזר היחסי של דמי הביטוח. ביטול פוליסה, החזר דמי ביטוח, תקופת ביטוח, הודעה מראש, מספר ימים, החזר יחסי, פוליסת משאית. במקרה של ביטול על ידי המבטח, יוחזר למבוטח החלק היחסי מדמי הביטוח ששולמו, תוך התחשבות במספר הימים שנותרו בתקופת הביטוח המקורית. This table details the conditions for policy cancellation and the proportional refund of premiums. It outlines scenarios where both the insured and the insurer can cancel the policy and the associated refund calculations. בין הערכים בטבלה: notice period: 30 days; refund timeframe: 14 days; refund calculation: proportional to remaining policy…",
+  "payload": "טבלה: ביטול פוליסה\nThis table details the conditions for policy cancellation and the proportional refund of premiums. It outlines scenarios where both the insured and the insurer can cancel the policy and the associated refund calculations.\nממדים: Cancellation conditions / scenarios, Cancellation process details (notice period, refund calculation)\n\nבלי לגרוע מזכויות המבטח על פי דין, רשאי המבטח לבטל את הביטוח לפני תום .9.3 תקופת הביטוח, ובלבד שהודעה על כך, שבה ייכללו הנימוקים לביטול, תישלח למבוטח ימים לפחות לפני התאריך שבו יתבטל הביטוח. 30\nימים 14ביטל המבטח את הפוליסה, יחזיר המבטח למבוטח בהקדם, ולא יאוחר מ .9.4 מהמועד שבו נכנס הביטול לתוקף, את החלק היחסי מדמי הביטוח ששולמו."
 }

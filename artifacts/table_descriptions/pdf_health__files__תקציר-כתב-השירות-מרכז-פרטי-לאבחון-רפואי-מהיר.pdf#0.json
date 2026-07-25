@@ -2,24 +2,24 @@
   "id": "pdf:health/files/תקציר-כתב-השירות-מרכז-פרטי-לאבחון-רפואי-מהיר.pdf#0",
   "source": "llm",
   "description": {
-    "title": "הראל - פרטי חולים",
-    "summary": "This table provides contact information for Harel Insurance's private patient service for fast medical diagnosis. It includes phone number, fax, email, address, and website.",
-    "embed_passage": "הראל מעניקה שירות אבחון רפואי מהיר למנויים. ניתן ליצור קשר עם הראל בטלפון 037348178, או בדואר אלקטרוני polisotbs@harel-ins.co.il. כתובת החברה היא הלל אבא 5200901 גן רמת.",
+    "title": "פרטי התקשרות",
+    "summary": "This table provides contact information for Harel Insurance. It includes a phone number, fax, email address, mailing address, and website.",
+    "embed_passage": "טבלה זו מציגה את פרטי ההתקשרות של הראל ביטוח, כולל דרכי יצירת קשר. ניתן למצוא כאן מידע כגון טלפון, פקס, כתובת דואר אלקטרוני וכתובת למשלוח דואר. הראל ביטוח מציעה שירות אבחון רפואי מהיר. פרטי התקשרות: טלפון 037348178, פקס, דואר אלקטרוני polisotbs@harel-ins.co.il, ת.ד 10951, גן רמת 5200901, אתר www.harel-group.co.il.",
     "row_axis": "Contact details",
     "column_axis": "Contact type (phone, fax, email, address, website)",
     "units": [],
     "notable_values": [
-      "Phone: 037348178",
-      "Email: polisotbs@harel-ins.co.il",
-      "Address: הלל אבא 5200901 גן רמת",
-      "Postcode: 10951"
+      "טלפון: 037348178",
+      "דואר אלקטרוני: polisotbs@harel-ins.co.il",
+      "ת.ד: 10951",
+      "אתר: www.harel-group.co.il"
     ],
     "product_hints": [
-      "הראל",
-      "פרטי חולים"
+      "Harel Insurance",
+      "שירות אבחון רפואי מהיר"
     ]
   },
   "sketch": "0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",ט רנ האינט אתר תובת כ www.harel-group.co.il",
-  "embed_text": "הראל מעניקה שירות אבחון רפואי מהיר למנויים. ניתן ליצור קשר עם הראל בטלפון 037348178, או בדואר אלקטרוני polisotbs@harel-ins.co.il. כתובת החברה היא הלל אבא 5200901 גן רמת.",
-  "payload": "טבלה: הראל - פרטי חולים\nThis table provides contact information for Harel Insurance's private patient service for fast medical diagnosis. It includes phone number, fax, email, address, and website.\nממדים: Contact details, Contact type (phone, fax, email, address, website)\n\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",ט רנ האינט אתר תובת כ www.harel-group.co.il"
+  "embed_text": "טבלה זו מציגה את פרטי ההתקשרות של הראל ביטוח, כולל דרכי יצירת קשר. ניתן למצוא כאן מידע כגון טלפון, פקס, כתובת דואר אלקטרוני וכתובת למשלוח דואר. הראל ביטוח מציעה שירות אבחון רפואי מהיר. פרטי התקשרות: טלפון 037348178, פקס, דואר אלקטרוני polisotbs@harel-ins.co.il, ת.ד 10951, גן רמת 5200901, אתר www.harel-group.co.il. This table provides contact information for Harel Insurance. It includes a phone number, fax, email address, mailing address, and website.",
+  "payload": "טבלה: פרטי התקשרות\nThis table provides contact information for Harel Insurance. It includes a phone number, fax, email address, mailing address, and website.\nממדים: Contact details, Contact type (phone, fax, email, address, website)\n\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",ט רנ האינט אתר תובת כ www.harel-group.co.il"
 }

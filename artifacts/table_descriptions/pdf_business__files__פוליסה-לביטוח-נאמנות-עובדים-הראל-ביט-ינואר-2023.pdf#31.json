@@ -2,25 +2,23 @@
   "id": "pdf:business/files/פוליסה-לביטוח-נאמנות-עובדים-הראל-ביט-ינואר-2023.pdf#31",
   "source": "llm",
   "description": {
-    "title": "פוליסת נאמנות עובדים",
-    "summary": "This table details conditions related to employee fidelity insurance policies. It outlines how notifications of dishonesty and reductions in compensation affect claims.",
-    "embed_passage": "פוליסת נאמנות עובדים של הראל ביט מספקת כיסוי לנזקים שנגרמו כתוצאה ממעשי אי יושר של עובדים. במקרה של גילוי חשד לנזק, על המבוטח להודיע מיד למבטח. סכום השיפוי שעל המבטח לשלם יופחת מסכומים שהיו מגיעים לעובד אילו לא בוצע מעשה אי היושר.",
-    "row_axis": "Conditions related to claims and notifications",
-    "column_axis": "Details of the condition or action required",
+    "title": "פוליסת ביטוח נאמנות עובדים",
+    "summary": "This table outlines conditions related to reporting dishonesty and offsetting amounts due to an employee. It details how knowledge of dishonesty is attributed to the insured and how reimbursements are affected by employee-related financial rights.",
+    "embed_passage": "טבלה זו עוסקת בפוליסת ביטוח נאמנות עובדים של הראל, ומפרטת את הנהלים במקרה של מעשה אי יושר. היא מגדירה כיצד מועברת ידיעה על מעשה אי יושר בתאגיד, וכיצד סכומים המגיעים לעובד משפיעים על גובה הפיצוי. ניתן למצוא מידע על הפחתת סכומים שאינם מגיעים לעובד עקב מעשה אי היושר, וכן על אופן ייחוס הידיעה על המעשה. הראל ביטוח, מעשה אי יושר, סכום שיפוי, זכויות כספיות, מנהלים מוסמכים, אחראי על נושא הביטוח.",
+    "row_axis": "conditions related to reporting dishonesty and offsetting amounts",
+    "column_axis": "details of the conditions",
     "units": [],
     "notable_values": [
-      "28 ימים: period for full payment of premiums",
-      "21 ימים: maximum number of monthly payment installments",
-      "סעיף 5.1.10: refers to knowledge of the insured corporation",
-      "סעיף 5.1.1: notification of dishonest acts",
-      "סעיף 5.2: reduction of amounts due to the employee"
+      "insured type: תאגיד",
+      "knowledge attribution: מנהלים מוסמכים",
+      "knowledge attribution: אחראי על נושא הביטוח"
     ],
     "product_hints": [
-      "נאמנות עובדים",
-      "הראל ביט"
+      "פוליסת ביטוח נאמנות עובדים",
+      "הראל"
     ]
   },
   "sketch": ". אם המבוטח הינו תאגיד, אזי, לעניין סעיף זה ולכל עניין אחר לצורך 5.1.10 פוליסה זו, תיחשב ידיעה של המבוטח כידיעה מרגע שנודע לאחד ממנהליו המוסמכים של המבוטח או לאחראי על נושא הביטוח אצל המבוטח.\n. הפחתת סכומים שאינם מגיעים לעובד עקב מעשה אי היושר 5.2 כל זכות כספית שהייתה מגיעה לעובד מהמבוטח אלמלא מעשה אי היושר וכן כל זכות כספית של העובד המוחזקת בידי המבוטח, יופחתו מסכום השיפוי שעל המבטח לשלם על פי פוליסה זו, ככל ואין מניעה חוקית למבוטח להמשיך\nולהחזיק באותם כספים.",
-  "embed_text": "פוליסת נאמנות עובדים של הראל ביט מספקת כיסוי לנזקים שנגרמו כתוצאה ממעשי אי יושר של עובדים. במקרה של גילוי חשד לנזק, על המבוטח להודיע מיד למבטח. סכום השיפוי שעל המבטח לשלם יופחת מסכומים שהיו מגיעים לעובד אילו לא בוצע מעשה אי היושר.",
-  "payload": "טבלה: פוליסת נאמנות עובדים\nThis table details conditions related to employee fidelity insurance policies. It outlines how notifications of dishonesty and reductions in compensation affect claims.\nממדים: Conditions related to claims and notifications, Details of the condition or action required\n\n. אם המבוטח הינו תאגיד, אזי, לעניין סעיף זה ולכל עניין אחר לצורך 5.1.10 פוליסה זו, תיחשב ידיעה של המבוטח כידיעה מרגע שנודע לאחד ממנהליו המוסמכים של המבוטח או לאחראי על נושא הביטוח אצל המבוטח.\n. הפחתת סכומים שאינם מגיעים לעובד עקב מעשה אי היושר 5.2 כל זכות כספית שהייתה מגיעה לעובד מהמבוטח אלמלא מעשה אי היושר וכן כל זכות כספית של העובד המוחזקת בידי המבוטח, יופחתו מסכום השיפוי שעל המבטח לשלם על פי פוליסה זו, ככל ואין מניעה חוקית למבוטח להמשיך\nולהחזיק באותם כספים."
+  "embed_text": "טבלה זו עוסקת בפוליסת ביטוח נאמנות עובדים של הראל, ומפרטת את הנהלים במקרה של מעשה אי יושר. היא מגדירה כיצד מועברת ידיעה על מעשה אי יושר בתאגיד, וכיצד סכומים המגיעים לעובד משפיעים על גובה הפיצוי. ניתן למצוא מידע על הפחתת סכומים שאינם מגיעים לעובד עקב מעשה אי היושר, וכן על אופן ייחוס הידיעה על המעשה. הראל ביטוח, מעשה אי יושר, סכום שיפוי, זכויות כספיות, מנהלים מוסמכים, אחראי על נושא הביטוח. This table outlines conditions related to reporting dishonesty and offsetting amounts due to an employee. It details how knowledge of dishonesty is attributed to the insured and how reimbursements are affected by employee-related financial rights.",
+  "payload": "טבלה: פוליסת ביטוח נאמנות עובדים\nThis table outlines conditions related to reporting dishonesty and offsetting amounts due to an employee. It details how knowledge of dishonesty is attributed to the insured and how reimbursements are affected by employee-related financial rights.\nממדים: conditions related to reporting dishonesty and offsetting amounts, details of the conditions\n\n. אם המבוטח הינו תאגיד, אזי, לעניין סעיף זה ולכל עניין אחר לצורך 5.1.10 פוליסה זו, תיחשב ידיעה של המבוטח כידיעה מרגע שנודע לאחד ממנהליו המוסמכים של המבוטח או לאחראי על נושא הביטוח אצל המבוטח.\n. הפחתת סכומים שאינם מגיעים לעובד עקב מעשה אי היושר 5.2 כל זכות כספית שהייתה מגיעה לעובד מהמבוטח אלמלא מעשה אי היושר וכן כל זכות כספית של העובד המוחזקת בידי המבוטח, יופחתו מסכום השיפוי שעל המבטח לשלם על פי פוליסה זו, ככל ואין מניעה חוקית למבוטח להמשיך\nולהחזיק באותם כספים."
 }

@@ -2,23 +2,23 @@
   "id": "pdf:car/files/פוליסה-לביטוח-רכב-פרטי-ורכב-מסחרי-עד-35-טון-מבית-שירביט-מהדורת-יוני-2023.pdf#318",
   "source": "llm",
   "description": {
-    "title": "שירותי דרך שירביט",
-    "summary": "This table details the compensation provided by Shirbit for service disruptions. It outlines the amount a customer receives if Shirbit cannot provide a promised roadside assistance service.",
-    "embed_passage": "פוליסת הביטוח של שירביט כוללת חבילת שירותי דרך מורחבת. במקרה של נבצרות מתן שירות, יקבל המבוטח פיצוי קבוע של 300 ש״ח או את עלות השירות ששולם, הנמוך מביניהם. הפיצוי ניתן במקום מתן השירות עצמו.",
-    "row_axis": "circumstances of service failure",
-    "column_axis": "compensation details",
+    "title": "שירותי דרך - שירביט",
+    "summary": "This table details the compensation provided by Shirbit for service disruptions. It specifies a fixed payment of 300 ₪ when a service cannot be delivered.",
+    "embed_passage": "טבלה זו מתארת את הפיצוי שניתן על ידי שירביט במקרה של הפרעה בשירותי דרך. במקרה שנותן השירות אינו יכול לספק שירות מסיבה שבשליטתו, ישולם למבוטח סכום של 300 ש״ח או עלות השירות, הנמוך מביניהם. הפיצוי ניתן בניכוי דמי השתתפות עצמית. השירותים ניתנים לרכבים עד 3.5 טון. שירותי דרך כוללים פריצת רכב והחלפת גלגל. במקרה של החלפת גלגל, השירות ניתן רק אם קיים גלגל חלופי תקין ברכב.",
+    "row_axis": "Scenario of service disruption",
+    "column_axis": "Compensation details",
     "units": [
-      "ש״ח"
+      "₪"
     ],
     "notable_values": [
-      "compensation amount: 300 ש״ח"
+      "Compensation amount: 300 ₪",
+      "Vehicle weight limit: 3.5 טון"
     ],
     "product_hints": [
-      "שירביט",
-      "חבילת שירותי דרך מורחבת"
+      "שירביט"
     ]
   },
   "sketch": "נבצר מנותן השירות לספק את השירות מכל סיבה שבשליטתו, ישלם נותן השירות ישירות .2.6 )שלוש מאות ש״ח( או את הסכום הנדרש לביצוע השירות, אשר ₪  300 למבוטח סך של שולם על-ידי המבוטח, תמורת חשבונית - הנמוך ביניהם. זאת בניכוי דמי ההשתתפות העצמית - כמקובל.\nתשלום זה יבוא במקום מתן השירות, כפיצוי קבוע ומוסכם למקבל השירות, ולמקבל השירות לא תהיה כל טענה נגד נותן השירות בקשר לכך.",
-  "embed_text": "פוליסת הביטוח של שירביט כוללת חבילת שירותי דרך מורחבת. במקרה של נבצרות מתן שירות, יקבל המבוטח פיצוי קבוע של 300 ש״ח או את עלות השירות ששולם, הנמוך מביניהם. הפיצוי ניתן במקום מתן השירות עצמו.",
-  "payload": "טבלה: שירותי דרך שירביט\nThis table details the compensation provided by Shirbit for service disruptions. It outlines the amount a customer receives if Shirbit cannot provide a promised roadside assistance service.\nממדים: circumstances of service failure, compensation details\n\nנבצר מנותן השירות לספק את השירות מכל סיבה שבשליטתו, ישלם נותן השירות ישירות .2.6 )שלוש מאות ש״ח( או את הסכום הנדרש לביצוע השירות, אשר ₪  300 למבוטח סך של שולם על-ידי המבוטח, תמורת חשבונית - הנמוך ביניהם. זאת בניכוי דמי ההשתתפות העצמית - כמקובל.\nתשלום זה יבוא במקום מתן השירות, כפיצוי קבוע ומוסכם למקבל השירות, ולמקבל השירות לא תהיה כל טענה נגד נותן השירות בקשר לכך."
+  "embed_text": "טבלה זו מתארת את הפיצוי שניתן על ידי שירביט במקרה של הפרעה בשירותי דרך. במקרה שנותן השירות אינו יכול לספק שירות מסיבה שבשליטתו, ישולם למבוטח סכום של 300 ש״ח או עלות השירות, הנמוך מביניהם. הפיצוי ניתן בניכוי דמי השתתפות עצמית. השירותים ניתנים לרכבים עד 3.5 טון. שירותי דרך כוללים פריצת רכב והחלפת גלגל. במקרה של החלפת גלגל, השירות ניתן רק אם קיים גלגל חלופי תקין ברכב. This table details the compensation provided by Shirbit for service disruptions. It specifies a fixed payment of 300 ₪ when a service cannot be delivered. בין הערכים בטבלה: Compensation amount: 300 ₪.",
+  "payload": "טבלה: שירותי דרך - שירביט\nThis table details the compensation provided by Shirbit for service disruptions. It specifies a fixed payment of 300 ₪ when a service cannot be delivered.\nממדים: Scenario of service disruption, Compensation details\n\nנבצר מנותן השירות לספק את השירות מכל סיבה שבשליטתו, ישלם נותן השירות ישירות .2.6 )שלוש מאות ש״ח( או את הסכום הנדרש לביצוע השירות, אשר ₪  300 למבוטח סך של שולם על-ידי המבוטח, תמורת חשבונית - הנמוך ביניהם. זאת בניכוי דמי ההשתתפות העצמית - כמקובל.\nתשלום זה יבוא במקום מתן השירות, כפיצוי קבוע ומוסכם למקבל השירות, ולמקבל השירות לא תהיה כל טענה נגד נותן השירות בקשר לכך."
 }

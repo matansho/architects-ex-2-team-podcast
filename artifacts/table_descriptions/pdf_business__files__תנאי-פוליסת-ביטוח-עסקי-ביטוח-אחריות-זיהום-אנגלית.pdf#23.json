@@ -3,23 +3,27 @@
   "source": "llm",
   "description": {
     "title": "הגדרות פוליסה",
-    "summary": "This table defines key terms used in the insurance policy. It helps to understand the scope and limitations of coverage by clarifying the meaning of terms like \"Loss\", \"Insured\", and \"Microbial substance\".",
-    "embed_passage": "פוליסת ביטוח אחריות זיהום מגדירה 'נזק גופני' או 'נזק לרכוש' כחלק מ'הפסד'. הפוליסה אינה כוללת 'הפסד אחר'. לדוגמה, 'פטריה' נכללת כחלק מ'חומר מיקרוביאלי'.",
-    "row_axis": "Term defined in the policy",
-    "column_axis": "Definition of the term",
+    "summary": "This table defines key terms used in the insurance policy. It helps to understand the scope of coverage by clarifying what different terms mean within the context of the policy.",
+    "embed_passage": "טבלה זו מציגה הגדרות חשובות בפוליסת ביטוח אחריות זיהום של 'Named Insured'. ההגדרות מסייעות להבין את תנאי הפוליסה, כגון מה נחשב ל'Loss' או 'Insured', ומהם 'Microbial substance' ו'spores'. הפוליסה מגדירה 'Bodily injury', 'Property damage', 'fungus(i)', 'bacteria', 'viruses', ו'Named insured'. ההגדרות רלוונטיות לחישוב פיצויים במקרה של נזק או תביעה.  הטבלה מגדירה גם את המונחים 'spores', 'bacteria', 'fungus(i)', 'viruses', 'Named insured', 'Loss', 'Bodily injury', ו'Property damage'.",
+    "row_axis": "מונח מוגדר",
+    "column_axis": "הגדרה",
     "units": [],
     "notable_values": [
       "Loss: Compensatory damages",
-      "Microbial substance: includes bacteria, viruses",
+      "Bodily injury: part of Loss",
+      "Property damage: part of Loss",
+      "Microbial substance: includes bacteria",
+      "Microbial substance: includes viruses",
+      "Microbial substance: includes fungus(i)",
       "Named insured: Item 1 of the Declarations",
-      "Spores: released by microbial substances",
-      "Bodily injury: part of 'Loss'"
+      "spores: released by Microbial substance"
     ],
     "product_hints": [
-      "ביטוח אחריות זיהום"
+      "ביטוח אחריות זיהום",
+      "Named Insured"
     ]
   },
   "sketch": "N. \"Loss\" means:\nCompensatory damages, whether awarded by a court in a judgment or paid in settlement for:\n(a) 'Bodily injury\"; or\n(b) 'Property damage'; and\n\"Loss\" does not include \"other loss\".\n\"Microbial  substance\" means  any  substance  that  reproduces  through  release  of \"spores\"  or  the  splitting  of  cells  including  but  not  limited  to  bacteria,  viruses, \"fungus(i)\", protozoa, chlamydiae, or rickkettsaie, whether or not the substance is living.\n\"Named insured\" means the person or entity set forth in Item 1 of the Declarations, and  any  other  person  or  entity  listed  in  a  Named  Insured  endorsement  to  the policy, if any.",
-  "embed_text": "פוליסת ביטוח אחריות זיהום מגדירה 'נזק גופני' או 'נזק לרכוש' כחלק מ'הפסד'. הפוליסה אינה כוללת 'הפסד אחר'. לדוגמה, 'פטריה' נכללת כחלק מ'חומר מיקרוביאלי'.",
-  "payload": "טבלה: הגדרות פוליסה\nThis table defines key terms used in the insurance policy. It helps to understand the scope and limitations of coverage by clarifying the meaning of terms like \"Loss\", \"Insured\", and \"Microbial substance\".\nממדים: Term defined in the policy, Definition of the term\n\nN. \"Loss\" means:\nCompensatory damages, whether awarded by a court in a judgment or paid in settlement for:\n(a) 'Bodily injury\"; or\n(b) 'Property damage'; and\n\"Loss\" does not include \"other loss\".\n\"Microbial  substance\" means  any  substance  that  reproduces  through  release  of \"spores\"  or  the  splitting  of  cells  including  but  not  limited  to  bacteria,  viruses, \"fungus(i)\", protozoa, chlamydiae, or rickkettsaie, whether or not the substance is living.\n\"Named insured\" means the person or entity set forth in Item 1 of the Declarations, and  any  other  person  or  entity  listed  in  a  Named  Insured  endorsement  to  the policy, if any."
+  "embed_text": "טבלה זו מציגה הגדרות חשובות בפוליסת ביטוח אחריות זיהום של 'Named Insured'. ההגדרות מסייעות להבין את תנאי הפוליסה, כגון מה נחשב ל'Loss' או 'Insured', ומהם 'Microbial substance' ו'spores'. הפוליסה מגדירה 'Bodily injury', 'Property damage', 'fungus(i)', 'bacteria', 'viruses', ו'Named insured'. ההגדרות רלוונטיות לחישוב פיצויים במקרה של נזק או תביעה.  הטבלה מגדירה גם את המונחים 'spores', 'bacteria', 'fungus(i)', 'viruses', 'Named insured', 'Loss', 'Bodily injury', ו'Property damage'. This table defines key terms used in the insurance policy. It helps to understand the scope of coverage by clarifying what different terms mean within the context of the policy.",
+  "payload": "טבלה: הגדרות פוליסה\nThis table defines key terms used in the insurance policy. It helps to understand the scope of coverage by clarifying what different terms mean within the context of the policy.\nממדים: מונח מוגדר, הגדרה\n\nN. \"Loss\" means:\nCompensatory damages, whether awarded by a court in a judgment or paid in settlement for:\n(a) 'Bodily injury\"; or\n(b) 'Property damage'; and\n\"Loss\" does not include \"other loss\".\n\"Microbial  substance\" means  any  substance  that  reproduces  through  release  of \"spores\"  or  the  splitting  of  cells  including  but  not  limited  to  bacteria,  viruses, \"fungus(i)\", protozoa, chlamydiae, or rickkettsaie, whether or not the substance is living.\n\"Named insured\" means the person or entity set forth in Item 1 of the Declarations, and  any  other  person  or  entity  listed  in  a  Named  Insured  endorsement  to  the policy, if any."
 }

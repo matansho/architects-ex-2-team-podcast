@@ -2,26 +2,22 @@
   "id": "pdf:health/files/כתב-שירות-שירותי-רפואה-משלימה-אלטרנטיבית.pdf#36",
   "source": "llm",
   "description": {
-    "title": "דמי מנוי",
-    "summary": "This table details the fees and late payment terms for a subscription service. It outlines how late fees are calculated, including indexation differences and interest rates.",
-    "embed_passage": "כתב שירות זה עוסק בתשלום דמי המנוי עבור שירותי רפואה משלימה. במקרה של אי תשלום דמי הביטוח במלואם, יתווספו הפרשי הצמדה וריבית, אך שיעור הריבית לא יעלה על שיעור הריבית המרבי הקבוע בחוק הריבית, התשי״ז 1957.",
-    "row_axis": "Late payment conditions",
-    "column_axis": "Fee components (indexation difference, interest)",
-    "units": [
-      "₪"
-    ],
+    "title": "דמי מנוי ופיגורים",
+    "summary": "This table details late payment fees and interest applied to unpaid subscription fees. It outlines how adjustments and interest are calculated on overdue amounts.",
+    "embed_passage": "טבלה זו מתארת את דמי המנוי ושירותי רפואה משלימה אלטרנטיבית, וכן את הריבית וההצמדה במקרה של אי תשלום. ניתן לעיין בשיעור דמי המנוי בדף פרטי הביטוח. במקרה של פיגור בתשלום, יתווספו הפרשי הצמדה וריבית. הריבית לא תעלה על שיעור הריבית המרבי בהתאם לחוק הריבית, התשי״ז. דמי ביטוח, פיגור, הצמדה, ריבית, 1957, 1981.",
+    "row_axis": "תנאי אי תשלום דמי מנוי",
+    "column_axis": "סעיפי חיוב (הצמדה, ריבית)",
+    "units": [],
     "notable_values": [
-      "year: 1957",
-      "year: 1981",
-      "section: 9.3.1",
-      "section: 9.3.2",
-      "section: 10.1"
+      "חוק הריבית: 1957",
+      "חוק חוזה ביטוח: 1981",
+      "ריבית מרבית: שיעור הריבית המרבי בהתאם לחוק הריבית"
     ],
     "product_hints": [
-      "שירותי רפואה משלימה"
+      "שירותי רפואה משלימה אלטרנטיבית"
     ]
   },
   "sketch": ", מבלי לגרוע מכלליות האמור לעיל, לא שולמו דמי הביטוח, כולם או מקצתם במועד . 9.3.2 13 יתווספו לסכום שבפיגור וכחלק בלתי נפרד הימנו הפרשי הצמדה כאמור בסעיף ל-ידי החברה באותה עת, מיום היווצר הפיגור ועד להלן וכן ריבית כפי שתיקבע ע\nלפירעונו בפועל לחברה, ובלבד ששיעור הריבית לא יעלה על שיעור הריבית המרבי .1957 בהתאם לחוק הריבית, התשי\"ז",
-  "embed_text": "כתב שירות זה עוסק בתשלום דמי המנוי עבור שירותי רפואה משלימה. במקרה של אי תשלום דמי הביטוח במלואם, יתווספו הפרשי הצמדה וריבית, אך שיעור הריבית לא יעלה על שיעור הריבית המרבי הקבוע בחוק הריבית, התשי״ז 1957.",
-  "payload": "טבלה: דמי מנוי\nThis table details the fees and late payment terms for a subscription service. It outlines how late fees are calculated, including indexation differences and interest rates.\nממדים: Late payment conditions, Fee components (indexation difference, interest)\n\n, מבלי לגרוע מכלליות האמור לעיל, לא שולמו דמי הביטוח, כולם או מקצתם במועד . 9.3.2 13 יתווספו לסכום שבפיגור וכחלק בלתי נפרד הימנו הפרשי הצמדה כאמור בסעיף ל-ידי החברה באותה עת, מיום היווצר הפיגור ועד להלן וכן ריבית כפי שתיקבע ע\nלפירעונו בפועל לחברה, ובלבד ששיעור הריבית לא יעלה על שיעור הריבית המרבי .1957 בהתאם לחוק הריבית, התשי\"ז"
+  "embed_text": "טבלה זו מתארת את דמי המנוי ושירותי רפואה משלימה אלטרנטיבית, וכן את הריבית וההצמדה במקרה של אי תשלום. ניתן לעיין בשיעור דמי המנוי בדף פרטי הביטוח. במקרה של פיגור בתשלום, יתווספו הפרשי הצמדה וריבית. הריבית לא תעלה על שיעור הריבית המרבי בהתאם לחוק הריבית, התשי״ז. דמי ביטוח, פיגור, הצמדה, ריבית, 1957, 1981. This table details late payment fees and interest applied to unpaid subscription fees. It outlines how adjustments and interest are calculated on overdue amounts.",
+  "payload": "טבלה: דמי מנוי ופיגורים\nThis table details late payment fees and interest applied to unpaid subscription fees. It outlines how adjustments and interest are calculated on overdue amounts.\nממדים: תנאי אי תשלום דמי מנוי, סעיפי חיוב (הצמדה, ריבית)\n\n, מבלי לגרוע מכלליות האמור לעיל, לא שולמו דמי הביטוח, כולם או מקצתם במועד . 9.3.2 13 יתווספו לסכום שבפיגור וכחלק בלתי נפרד הימנו הפרשי הצמדה כאמור בסעיף ל-ידי החברה באותה עת, מיום היווצר הפיגור ועד להלן וכן ריבית כפי שתיקבע ע\nלפירעונו בפועל לחברה, ובלבד ששיעור הריבית לא יעלה על שיעור הריבית המרבי .1957 בהתאם לחוק הריבית, התשי\"ז"
 }

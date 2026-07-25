@@ -2,22 +2,22 @@
   "id": "pdf:health/files/62025-טופס-הצעה-לביטוח-רפואי-ביטוח-בריאות.pdf#19",
   "source": "llm",
   "description": {
-    "title": "הצעת ביטוח רפואי",
-    "summary": "This table captures details of applicants for health insurance. It records applicant names, IDs, ages, and signature dates as part of a health insurance proposal form.",
-    "embed_passage": "טופס הצעה לביטוח רפואי אוסף מידע על מועמדים לביטוח בריאות, כולל שם, מספר זהות, גיל (לדוגמה, 18), ותאריך חתימה. המידע משמש להתאמת המוצר ולבחינת כיסויים קיימים. טופס זה רלוונטי לביטוח בריאות.",
-    "row_axis": "applicant (candidate for insurance)",
-    "column_axis": "applicant details (name, ID, age, signature date)",
+    "title": "מועמדים לביטוח",
+    "summary": "This table lists candidates for health insurance, including their names, ID numbers, and ages. It is used to record information about applicants and their family members.",
+    "embed_passage": "טבלה זו מתעדת מועמדים לביטוח בריאות, ומכילה מידע כגון שם המועמד, מספר זהות וגיל. ניתן לחפש מידע על מועמד ספציפי לפי שם או מספר זהות. טופס הצעה לביטוח בריאות כולל פרטים על מועמדים ראשיים, בני זוג וילדים מעל גיל 18. המידע בטבלה משמש להערכת תנאי הקבלה וקביעת דמי הביטוח. ראשי מועמד, הזוג בן/בת, 18 גיל מעל ילד הם סוגי מועמדים. חתימה, תאריך, זהות מספר הם פרטים נוספים המופיעים בטבלה.",
+    "row_axis": "מועמד לביטוח",
+    "column_axis": "פרטי מועמד (שם, תאריך, זהות מספר, סוג מועמד)",
     "units": [],
     "notable_values": [
-      "age: 18",
+      "סוג מועמד: ראשי מועמד",
+      "סוג מועמד: הזוג בן/בת",
       "גיל מעל ילד: 18"
     ],
     "product_hints": [
-      "ביטוח רפואי",
       "ביטוח בריאות"
     ]
   },
   "sketch": "חתימה,תאריך,זהות מספר,לביטוח המועמד שם,לביטוח מועמד\n,,,,ראשי מועמד\n,,,,הזוג בן/בת\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד",
-  "embed_text": "טופס הצעה לביטוח רפואי אוסף מידע על מועמדים לביטוח בריאות, כולל שם, מספר זהות, גיל (לדוגמה, 18), ותאריך חתימה. המידע משמש להתאמת המוצר ולבחינת כיסויים קיימים. טופס זה רלוונטי לביטוח בריאות.",
-  "payload": "טבלה: הצעת ביטוח רפואי\nThis table captures details of applicants for health insurance. It records applicant names, IDs, ages, and signature dates as part of a health insurance proposal form.\nממדים: applicant (candidate for insurance), applicant details (name, ID, age, signature date)\n\nחתימה,תאריך,זהות מספר,לביטוח המועמד שם,לביטוח מועמד\n,,,,ראשי מועמד\n,,,,הזוג בן/בת\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד"
+  "embed_text": "טבלה זו מתעדת מועמדים לביטוח בריאות, ומכילה מידע כגון שם המועמד, מספר זהות וגיל. ניתן לחפש מידע על מועמד ספציפי לפי שם או מספר זהות. טופס הצעה לביטוח בריאות כולל פרטים על מועמדים ראשיים, בני זוג וילדים מעל גיל 18. המידע בטבלה משמש להערכת תנאי הקבלה וקביעת דמי הביטוח. ראשי מועמד, הזוג בן/בת, 18 גיל מעל ילד הם סוגי מועמדים. חתימה, תאריך, זהות מספר הם פרטים נוספים המופיעים בטבלה. This table lists candidates for health insurance, including their names, ID numbers, and ages. It is used to record information about applicants and their family members.",
+  "payload": "טבלה: מועמדים לביטוח\nThis table lists candidates for health insurance, including their names, ID numbers, and ages. It is used to record information about applicants and their family members.\nממדים: מועמד לביטוח, פרטי מועמד (שם, תאריך, זהות מספר, סוג מועמד)\n\nחתימה,תאריך,זהות מספר,לביטוח המועמד שם,לביטוח מועמד\n,,,,ראשי מועמד\n,,,,הזוג בן/בת\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד"
 }

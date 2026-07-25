@@ -3,25 +3,27 @@
   "source": "llm",
   "description": {
     "title": "שירותי דרך שירביט",
-    "summary": "This table details the costs and limitations of roadside assistance services provided by Shirbit. It outlines scenarios where service is not provided and associated fees, such as entry/toll costs.",
-    "embed_passage": "פוליסת שירביט כוללת שירותי דרך, אך ישנם מקרים בהם השירות לא יסופק, כמו בזמן מלחמה או אסון טבע. מקבל השירות יישא בעלות של 15 ₪ עבור כניסה לחניון בתשלום, בתוספת דמי טיפול שלא יעלו על סכום זה. השירותים ניתנים בכפוף לשיקול דעת נותן השירות.",
-    "row_axis": "service limitation / cost condition",
-    "column_axis": "details / cost",
+    "summary": "This table details conditions and costs associated with roadside assistance services provided by Shirbit. It outlines situations where service is not provided and associated fees.",
+    "embed_passage": "טבלה זו מתארת את תנאי העלות של שירותי דרך הניתנים על ידי שירביט. השירותים מיועדים לסיוע במצבי חירום שונים ברכב, אך ישנם חריגים ותנאים מיוחדים. ניתן לפנות למוקד השירות לקבלת סיוע, והעלות תלויה בסוג השירות ובנסיבות. בין היתרונות של שירותי שירביט ניתן למנות סיוע במקרה של תקלות מכניות, תאונות דרכים, או צורך בגרירה. שירביט, כבישי אגרה, מגרש חנייה, פעולות איבה, רעידת אדמה, הצפה, אירוע טבע קיצוני.",
+    "row_axis": "תנאי שירות / חריגים",
+    "column_axis": "תיאור / עלות",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "cost for parking/toll: 15 ₪",
-      "service not provided during wartime",
-      "service not provided during natural disasters",
-      "handling fee limit: 15 ₪"
+      "עלות כניסה למגרש חנייה/חניון: 15 ₪",
+      "דמי טיפול: עד 15 ₪",
+      "מצב מלחמה: שירות לא יינתן",
+      "פעולות איבה: שירות לא יינתן",
+      "רעידת אדמה: שירות לא יינתן",
+      "הצפה: שירות לא יינתן",
+      "אירוע טבע קיצוני: שירות לא יינתן"
     ],
     "product_hints": [
-      "שירביט",
-      "ביטוח רכב"
+      "שירביט"
     ]
   },
   "sketch": "מקבל השירות יישא במלוא העלות שתחול על רכב השירות, לצורך מתן .2.9.12 , השירות, בכלל זה: כניסה למגרש חנייה/חניון בתשלום ומעבר בכבישי אגרה .₪  15 זאת בתוספת דמי-טיפול שלא יעלו על\n, נותן השירות לא ייתן שירות במצב מלחמה, פעולות איבה, פיגוע חבלני .2.9.13 גיוס כללי, רעידת אדמה, הצפה, שיטפון, אירוע טבע קיצוני, אירוע גרעיני או רדיואקטיבי, אירוע קטסטרופאלי ואירוע שהפיצוי בגינו ניתן על-ידי המדינה.",
-  "embed_text": "פוליסת שירביט כוללת שירותי דרך, אך ישנם מקרים בהם השירות לא יסופק, כמו בזמן מלחמה או אסון טבע. מקבל השירות יישא בעלות של 15 ₪ עבור כניסה לחניון בתשלום, בתוספת דמי טיפול שלא יעלו על סכום זה. השירותים ניתנים בכפוף לשיקול דעת נותן השירות.",
-  "payload": "טבלה: שירותי דרך שירביט\nThis table details the costs and limitations of roadside assistance services provided by Shirbit. It outlines scenarios where service is not provided and associated fees, such as entry/toll costs.\nממדים: service limitation / cost condition, details / cost\n\nמקבל השירות יישא במלוא העלות שתחול על רכב השירות, לצורך מתן .2.9.12 , השירות, בכלל זה: כניסה למגרש חנייה/חניון בתשלום ומעבר בכבישי אגרה .₪  15 זאת בתוספת דמי-טיפול שלא יעלו על\n, נותן השירות לא ייתן שירות במצב מלחמה, פעולות איבה, פיגוע חבלני .2.9.13 גיוס כללי, רעידת אדמה, הצפה, שיטפון, אירוע טבע קיצוני, אירוע גרעיני או רדיואקטיבי, אירוע קטסטרופאלי ואירוע שהפיצוי בגינו ניתן על-ידי המדינה."
+  "embed_text": "טבלה זו מתארת את תנאי העלות של שירותי דרך הניתנים על ידי שירביט. השירותים מיועדים לסיוע במצבי חירום שונים ברכב, אך ישנם חריגים ותנאים מיוחדים. ניתן לפנות למוקד השירות לקבלת סיוע, והעלות תלויה בסוג השירות ובנסיבות. בין היתרונות של שירותי שירביט ניתן למנות סיוע במקרה של תקלות מכניות, תאונות דרכים, או צורך בגרירה. שירביט, כבישי אגרה, מגרש חנייה, פעולות איבה, רעידת אדמה, הצפה, אירוע טבע קיצוני. This table details conditions and costs associated with roadside assistance services provided by Shirbit. It outlines situations where service is not provided and associated fees. בין הערכים בטבלה: עלות כניסה למגרש חנייה/חניון: 15 ₪; דמי טיפול: עד 15 ₪; מצב מלחמה: שירות לא יינתן.",
+  "payload": "טבלה: שירותי דרך שירביט\nThis table details conditions and costs associated with roadside assistance services provided by Shirbit. It outlines situations where service is not provided and associated fees.\nממדים: תנאי שירות / חריגים, תיאור / עלות\n\nמקבל השירות יישא במלוא העלות שתחול על רכב השירות, לצורך מתן .2.9.12 , השירות, בכלל זה: כניסה למגרש חנייה/חניון בתשלום ומעבר בכבישי אגרה .₪  15 זאת בתוספת דמי-טיפול שלא יעלו על\n, נותן השירות לא ייתן שירות במצב מלחמה, פעולות איבה, פיגוע חבלני .2.9.13 גיוס כללי, רעידת אדמה, הצפה, שיטפון, אירוע טבע קיצוני, אירוע גרעיני או רדיואקטיבי, אירוע קטסטרופאלי ואירוע שהפיצוי בגינו ניתן על-ידי המדינה."
 }

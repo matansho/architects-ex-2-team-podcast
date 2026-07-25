@@ -3,19 +3,23 @@
   "source": "llm",
   "description": {
     "title": "הודעה למשטרה",
-    "summary": "This table details the requirements for notifying the police in cases of malicious acts, burglary, theft, or robbery under an insurance policy. It specifies the actions the insured must take and the timeframe for reporting.",
-    "embed_passage": "פוליסת ביטוח מבנה דירה משכנתא בטוחה מחייבת את המבוטח להודיע למשטרה בכל מקרה של אבדן או נזק הנובעים מפעולת זדון, פריצה, שוד או גניבה. ההודעה צריכה להיעשות על מנת לאפשר את בירור הנזק ותשלום התגמולים.",
-    "row_axis": "Scenario: malicious acts, burglary, theft, or robbery",
-    "column_axis": "Insured's obligation to notify the police",
+    "summary": "This table outlines the policyholder's obligation to notify the police in cases of malicious acts, burglary, theft, or vandalism. It details the requirement to report any loss or damage suspected to be caused by these events.",
+    "embed_passage": "טבלה זו מתארת את חובתו של המבוטח להודיע למשטרה במקרים של פעולות זדון, פריצה, שוד או גניבה. הפוליסה מחייבת דיווח על כל אובדן או נזק שנגרם כתוצאה מפעולות אלו. תנאי הפוליסה דורשים מהמבוטח לדווח למשטרה בכל מקרה של אבדן או נזק. הודעה למשטרה, פריצה, שוד, גניבה, פעולות זדון.",
+    "row_axis": "סוג אירוע (זדון, פריצה, שוד, גניבה)",
+    "column_axis": "חובות המבוטח",
     "units": [],
     "notable_values": [
-      "Event Type: פעולות זדון, פריצה, שוד או גניבה"
+      "אירוע: פעולות זדון",
+      "אירוע: פריצה",
+      "אירוע: שוד",
+      "אירוע: גניבה"
     ],
     "product_hints": [
-      "ביטוח מבנה דירה משכנתא בטוחה"
+      "ביטוח מבנה דירה",
+      "משכנתא בטוחה"
     ]
   },
   "sketch": ".20 הודעה למשטרה בפעולות זדון, פריצה, שוד או גניבה\n, על המבוטח להודיע למשטרה בכל מקרה של אבדן או נזק הנובעים לדעתו מפעולת זדון, פריצה שוד או גניבה.",
-  "embed_text": "פוליסת ביטוח מבנה דירה משכנתא בטוחה מחייבת את המבוטח להודיע למשטרה בכל מקרה של אבדן או נזק הנובעים מפעולת זדון, פריצה, שוד או גניבה. ההודעה צריכה להיעשות על מנת לאפשר את בירור הנזק ותשלום התגמולים.",
-  "payload": "טבלה: הודעה למשטרה\nThis table details the requirements for notifying the police in cases of malicious acts, burglary, theft, or robbery under an insurance policy. It specifies the actions the insured must take and the timeframe for reporting.\nממדים: Scenario: malicious acts, burglary, theft, or robbery, Insured's obligation to notify the police\n\n.20 הודעה למשטרה בפעולות זדון, פריצה, שוד או גניבה\n, על המבוטח להודיע למשטרה בכל מקרה של אבדן או נזק הנובעים לדעתו מפעולת זדון, פריצה שוד או גניבה."
+  "embed_text": "טבלה זו מתארת את חובתו של המבוטח להודיע למשטרה במקרים של פעולות זדון, פריצה, שוד או גניבה. הפוליסה מחייבת דיווח על כל אובדן או נזק שנגרם כתוצאה מפעולות אלו. תנאי הפוליסה דורשים מהמבוטח לדווח למשטרה בכל מקרה של אבדן או נזק. הודעה למשטרה, פריצה, שוד, גניבה, פעולות זדון. This table outlines the policyholder's obligation to notify the police in cases of malicious acts, burglary, theft, or vandalism. It details the requirement to report any loss or damage suspected to be caused by these events.",
+  "payload": "טבלה: הודעה למשטרה\nThis table outlines the policyholder's obligation to notify the police in cases of malicious acts, burglary, theft, or vandalism. It details the requirement to report any loss or damage suspected to be caused by these events.\nממדים: סוג אירוע (זדון, פריצה, שוד, גניבה), חובות המבוטח\n\n.20 הודעה למשטרה בפעולות זדון, פריצה, שוד או גניבה\n, על המבוטח להודיע למשטרה בכל מקרה של אבדן או נזק הנובעים לדעתו מפעולת זדון, פריצה שוד או גניבה."
 }

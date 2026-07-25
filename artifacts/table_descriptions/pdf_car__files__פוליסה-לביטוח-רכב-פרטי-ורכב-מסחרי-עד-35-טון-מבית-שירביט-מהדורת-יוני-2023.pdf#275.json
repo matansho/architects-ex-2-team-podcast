@@ -3,24 +3,23 @@
   "source": "llm",
   "description": {
     "title": "רכב חלופי",
-    "summary": "This table details the conditions for providing a replacement vehicle (רכב חלופי) under a Shirbit car insurance policy. It specifies how the duration of the replacement vehicle is determined based on repair time, accident severity, or theft.",
-    "embed_passage": "פוליסת שירביט מספקת שירות רכב חלופי במקרה של תאונה או גניבה. מספר הימים לרכב החלופי נקבע על סמך דו״ח השמאי, לדוגמה 4 ימים או 7 ימים, או בהתאם למשך התיקון, כאשר עלות עבודת התיקון מחולקת במחיר יום עבודה במוסך.",
-    "row_axis": "Scenario (accident, theft)",
-    "column_axis": "Conditions for replacement vehicle duration",
+    "summary": "This table details the provision of a replacement vehicle ('רכב חלופי') under an insurance policy. It specifies the number of days a replacement vehicle is provided based on repair time or theft, as determined by an assessor's report.",
+    "embed_passage": "טבלה זו מתארת את שירות רכב חלופי הניתן במסגרת פוליסת ביטוח רכב של שירביט. השירות מיועד למבוטחים שרכבם מושבת במוסך עקב תאונה או נגנב, והוא מותנה בתנאים המפורטים בפוליסה. מספר הימים שבהם יינתן הרכב החלופי מחושב על סמך דו״ח שמאי, או תקופה קבועה מראש במקרה של נזק מוחלט או גניבה. שירביט מציעה שירות רכב חלופי במקרה של תאונה או גניבה. במקרה של תאונה, מספר הימים מחושב על סמך עלות התיקון, ובמקרה של גניבה, הרכב החלופי ניתן החל מהיום השמיני לאחר ההודעה.",
+    "row_axis": "scenario (accident/theft)",
+    "column_axis": "replacement vehicle duration",
     "units": [],
     "notable_values": [
-      "4 שעות: 8",
-      "5 ימים: תקופה מקסימלית",
-      "7 ימים: במקרה של נזק מוחלט",
-      "8 ימים: לאחר הודעה למשטרה במקרה של גניבה",
-      "30 יום: תקופה מקסימלית במקרה של גניבה"
+      "4 שעות: 8 ימים",
+      "5 ימים",
+      "7 ימים (נזק מוחלט)",
+      "8 ימים (גניבה)",
+      "30 יום"
     ],
     "product_hints": [
-      "שירביט",
-      "ביטוח רכב"
+      "פוליסת ביטוח רכב שירביט"
     ]
   },
   "sketch": "קביעת מספר הימים תעשה על סמך דו\"ח השמאי שיוגש כמפורט להלן: עלות (4 שעות 8) עבודת תיקון הרכב המבוטח )ללא חלפים(, מחולקת במחיר יום עבודה במוסך(, בהתאם לתעריפי איגוד המוסכים לשעת עבודה, התקפים בזמן התיקון.\nלעיל, בו קבע 4 הרכב החלופי יינתן בהתאם לדו\"ח השמאי כמפורט בסעיף (5 ימים )אלא אם צוין 3 את מספר הימים הדרוש לתיקון כלי הרכב הניזוק, ובניכוי אחרת במפרט הביטוח(. אולם בכל מקרה לא יינתן הרכב לתקופה העולה על ימים )אלא אם צוין אחרת במפרט הפוליסה( ובכפוף לאי קבלת רכב חלופי 7 מגורם אחר בגין אותו מקרה.",
-  "embed_text": "פוליסת שירביט מספקת שירות רכב חלופי במקרה של תאונה או גניבה. מספר הימים לרכב החלופי נקבע על סמך דו״ח השמאי, לדוגמה 4 ימים או 7 ימים, או בהתאם למשך התיקון, כאשר עלות עבודת התיקון מחולקת במחיר יום עבודה במוסך.",
-  "payload": "טבלה: רכב חלופי\nThis table details the conditions for providing a replacement vehicle (רכב חלופי) under a Shirbit car insurance policy. It specifies how the duration of the replacement vehicle is determined based on repair time, accident severity, or theft.\nממדים: Scenario (accident, theft), Conditions for replacement vehicle duration\n\nקביעת מספר הימים תעשה על סמך דו\"ח השמאי שיוגש כמפורט להלן: עלות (4 שעות 8) עבודת תיקון הרכב המבוטח )ללא חלפים(, מחולקת במחיר יום עבודה במוסך(, בהתאם לתעריפי איגוד המוסכים לשעת עבודה, התקפים בזמן התיקון.\nלעיל, בו קבע 4 הרכב החלופי יינתן בהתאם לדו\"ח השמאי כמפורט בסעיף (5 ימים )אלא אם צוין 3 את מספר הימים הדרוש לתיקון כלי הרכב הניזוק, ובניכוי אחרת במפרט הביטוח(. אולם בכל מקרה לא יינתן הרכב לתקופה העולה על ימים )אלא אם צוין אחרת במפרט הפוליסה( ובכפוף לאי קבלת רכב חלופי 7 מגורם אחר בגין אותו מקרה."
+  "embed_text": "טבלה זו מתארת את שירות רכב חלופי הניתן במסגרת פוליסת ביטוח רכב של שירביט. השירות מיועד למבוטחים שרכבם מושבת במוסך עקב תאונה או נגנב, והוא מותנה בתנאים המפורטים בפוליסה. מספר הימים שבהם יינתן הרכב החלופי מחושב על סמך דו״ח שמאי, או תקופה קבועה מראש במקרה של נזק מוחלט או גניבה. שירביט מציעה שירות רכב חלופי במקרה של תאונה או גניבה. במקרה של תאונה, מספר הימים מחושב על סמך עלות התיקון, ובמקרה של גניבה, הרכב החלופי ניתן החל מהיום השמיני לאחר ההודעה. This table details the provision of a replacement vehicle ('רכב חלופי') under an insurance policy. It specifies the number of days a replacement vehicle is provided based on repair time or theft, as determined by an assessor's report. בין הערכים בטבלה: 4 שעות: 8 ימים; 5 ימים; 7 ימים (נזק מוחלט); 8 ימים (גניבה); 30 יום.",
+  "payload": "טבלה: רכב חלופי\nThis table details the provision of a replacement vehicle ('רכב חלופי') under an insurance policy. It specifies the number of days a replacement vehicle is provided based on repair time or theft, as determined by an assessor's report.\nממדים: scenario (accident/theft), replacement vehicle duration\n\nקביעת מספר הימים תעשה על סמך דו\"ח השמאי שיוגש כמפורט להלן: עלות (4 שעות 8) עבודת תיקון הרכב המבוטח )ללא חלפים(, מחולקת במחיר יום עבודה במוסך(, בהתאם לתעריפי איגוד המוסכים לשעת עבודה, התקפים בזמן התיקון.\nלעיל, בו קבע 4 הרכב החלופי יינתן בהתאם לדו\"ח השמאי כמפורט בסעיף (5 ימים )אלא אם צוין 3 את מספר הימים הדרוש לתיקון כלי הרכב הניזוק, ובניכוי אחרת במפרט הביטוח(. אולם בכל מקרה לא יינתן הרכב לתקופה העולה על ימים )אלא אם צוין אחרת במפרט הפוליסה( ובכפוף לאי קבלת רכב חלופי 7 מגורם אחר בגין אותו מקרה."
 }

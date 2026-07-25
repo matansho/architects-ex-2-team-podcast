@@ -2,22 +2,23 @@
   "id": "pdf:apartment/files/פוליסה-לביטוח-דירה-ותכולתה-ש-מהדורת-אוגוסט-2020.pdf#141",
   "source": "llm",
   "description": {
-    "title": "סייגים לפוליסה",
-    "summary": "This table lists general exclusions to all extensions of the insurance policy. It details events or causes that the insurer is not liable for, such as war, radiation, or government confiscation.",
-    "embed_passage": "פוליסה לביטוח דירה ותכולתה כוללת סייגים רבים, למשל סייג למלחמה (1), קרינה מיננת (3) ותפיסה על ידי הממשלה (4). סייגים אלו מגדירים מצבים בהם הכיסוי הביטוחי אינו חל.",
-    "row_axis": "exclusion type",
-    "column_axis": "description of exclusion",
+    "title": "סייגים כלליים",
+    "summary": "This table lists general exclusions to coverage under the apartment insurance policy. It details events that the insurer is not liable for, such as war, radiation, or government confiscation.",
+    "embed_passage": "טבלה זו מפרטת סייגים כלליים לפוליסת ביטוח דירה ותכולתה, מהדורת אוגוסט 2020. הסייגים מתארים מצבים בהם המבטח לא יהיה אחראי, כגון מלחמה, פעולות אויב, קרינה מיננת, או תפיסה על ידי הממשלה. טבלה זו מסייעת להבין את תנאי הפוליסה ולזהות אירועים שאינם מכוסים. הסייגים כוללים מלחמה, פעולות אויב, פיגועים חבלניים, מלחמת אזרחים, מרד, התקוממות צבאית או עממית, מהפכה, קרינה מיננת, זיהום רדיו אקטיבי, תהליכים גרעיניים, חומר גרעיני, פסולת גרעינית, תפיסה, הפקעה, החרמה, השמדה או הריסה של הרכוש על ידי הממשלה או הצבא.",
+    "row_axis": "סוג סייג",
+    "column_axis": "תיאור הסייג",
     "units": [],
     "notable_values": [
-      "war: 1",
-      "radiation: 3",
-      "government confiscation: 4"
+      "מלחמה: פעולות אויב, פיגועים חבלניים",
+      "קרינה מיננת: זיהום רדיו אקטיבי, תהליכים גרעיניים",
+      "תפיסה: הפקעה, החרמה, השמדה, הריסה"
     ],
     "product_hints": [
-      "ביטוח דירה ותכולתה"
+      "ביטוח דירה ותכולתה",
+      "פוליסה"
     ]
   },
   "sketch": "( מלחמת אזרחים, מרד, התקוממות צבאית או עממית, מהפכה. 2\n( קרינה מיננת, זיהום רדיו אקטיבי, תהליכים גרעיניים, וכל אובדן או נזק, עקב חומר 3 גרעיני או פסולת גרעינית.\n, ( תפיסה, הפקעה, החרמה, השמדה או הריסה של הרכוש, על ידי הממשלה, הצבא 4 רשות מקומית או אדם הפועל על פי דין.",
-  "embed_text": "פוליסה לביטוח דירה ותכולתה כוללת סייגים רבים, למשל סייג למלחמה (1), קרינה מיננת (3) ותפיסה על ידי הממשלה (4). סייגים אלו מגדירים מצבים בהם הכיסוי הביטוחי אינו חל.",
-  "payload": "טבלה: סייגים לפוליסה\nThis table lists general exclusions to all extensions of the insurance policy. It details events or causes that the insurer is not liable for, such as war, radiation, or government confiscation.\nממדים: exclusion type, description of exclusion\n\n( מלחמת אזרחים, מרד, התקוממות צבאית או עממית, מהפכה. 2\n( קרינה מיננת, זיהום רדיו אקטיבי, תהליכים גרעיניים, וכל אובדן או נזק, עקב חומר 3 גרעיני או פסולת גרעינית.\n, ( תפיסה, הפקעה, החרמה, השמדה או הריסה של הרכוש, על ידי הממשלה, הצבא 4 רשות מקומית או אדם הפועל על פי דין."
+  "embed_text": "טבלה זו מפרטת סייגים כלליים לפוליסת ביטוח דירה ותכולתה, מהדורת אוגוסט 2020. הסייגים מתארים מצבים בהם המבטח לא יהיה אחראי, כגון מלחמה, פעולות אויב, קרינה מיננת, או תפיסה על ידי הממשלה. טבלה זו מסייעת להבין את תנאי הפוליסה ולזהות אירועים שאינם מכוסים. הסייגים כוללים מלחמה, פעולות אויב, פיגועים חבלניים, מלחמת אזרחים, מרד, התקוממות צבאית או עממית, מהפכה, קרינה מיננת, זיהום רדיו אקטיבי, תהליכים גרעיניים, חומר גרעיני, פסולת גרעינית, תפיסה, הפקעה, החרמה, השמדה או הריסה של הרכוש על ידי הממשלה או הצבא. This table lists general exclusions to coverage under the apartment insurance policy. It details events that the insurer is not liable for, such as war, radiation, or government confiscation.",
+  "payload": "טבלה: סייגים כלליים\nThis table lists general exclusions to coverage under the apartment insurance policy. It details events that the insurer is not liable for, such as war, radiation, or government confiscation.\nממדים: סוג סייג, תיאור הסייג\n\n( מלחמת אזרחים, מרד, התקוממות צבאית או עממית, מהפכה. 2\n( קרינה מיננת, זיהום רדיו אקטיבי, תהליכים גרעיניים, וכל אובדן או נזק, עקב חומר 3 גרעיני או פסולת גרעינית.\n, ( תפיסה, הפקעה, החרמה, השמדה או הריסה של הרכוש, על ידי הממשלה, הצבא 4 רשות מקומית או אדם הפועל על פי דין."
 }

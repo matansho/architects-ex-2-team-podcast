@@ -2,21 +2,22 @@
   "id": "pdf:apartment/files/תנאי-פוליסת-ביטוח-עד-הגג-לביטוח-בית-משותף.pdf#227",
   "source": "llm",
   "description": {
-    "title": "קיזוז תגמולים",
-    "summary": "This table details the insurer's right to offset payments against outstanding debts. It applies to both this policy and other policies held by the insured, even in cases of total loss.",
-    "embed_passage": "פוליסת 'עד הגג' מאפשרת למבטח לקזז סכומים שהמבוטח חייב לו מתגמולי הביטוח, בין אם החוב קשור לפוליסה זו ובין אם לפוליסה אחרת. במקרה של נזק כללי, המבטח רשאי לקזז גם את יתרת דמי הביטוח, גם אם מועד התשלום טרם הגיע. סעיף 19 מתאר את תנאי הקיזוז.",
-    "row_axis": "scenarios related to offsetting insurance payments",
-    "column_axis": "conditions and rights regarding offsetting",
+    "title": "זכות קיזוז",
+    "summary": "This table details the insurer's right to offset payments against outstanding debts owed by the insured, whether related to this policy or others. It applies to both partial and total loss scenarios.",
+    "embed_passage": "טבלה זו מתארת את זכות המבטח לקזז סכומים מתגמולי הביטוח המגיעים למבוטח, בגין חובות קיימים. הקיזוז יכול להתבצע גם אם החוב אינו קשור ישירות לפוליסה זו, ואף במקרה של נזק כללי לרכוש המכוסה. ניתן לבצע קיזוז גם של יתרת דמי הביטוח, גם אם מועד התשלום טרם הגיע. זכות קיזוז, פוליסה זו, נזק כללי, דמי ביטוח.",
+    "row_axis": "Scenario of offset application",
+    "column_axis": "Details of offset rights",
     "units": [],
     "notable_values": [
-      "סעיף: 19",
-      "נזק כללי: קיזוז יתרת דמי ביטוח"
+      "קיזוז מתגמולי ביטוח: כל סכום חוב",
+      "נזק כללי: יתרת דמי הביטוח"
     ],
     "product_hints": [
-      "עד הגג"
+      "ביטוח עד הגג",
+      "ביטוח בית משותף"
     ]
   },
   "sketch": ". זכות קיזוז 19\n, המבטח רשאי לקזז מתגמולי הביטוח המגיעים למבוטח, כל סכום שהמבוטח חייב למבטח בין שחובו מתייחס לפוליסה זו ובין אם לפוליסה אחרת. במקרה של נזק כללי )טוטאלי( לרכוש\n, המבוטח המכוסה על פי פוליסה זו, רשאי המבטח לקזז את יתרת דמי הביטוח המגיעים לו גם אם טרם הגיע מועד תשלומם.",
-  "embed_text": "פוליסת 'עד הגג' מאפשרת למבטח לקזז סכומים שהמבוטח חייב לו מתגמולי הביטוח, בין אם החוב קשור לפוליסה זו ובין אם לפוליסה אחרת. במקרה של נזק כללי, המבטח רשאי לקזז גם את יתרת דמי הביטוח, גם אם מועד התשלום טרם הגיע. סעיף 19 מתאר את תנאי הקיזוז.",
-  "payload": "טבלה: קיזוז תגמולים\nThis table details the insurer's right to offset payments against outstanding debts. It applies to both this policy and other policies held by the insured, even in cases of total loss.\nממדים: scenarios related to offsetting insurance payments, conditions and rights regarding offsetting\n\n. זכות קיזוז 19\n, המבטח רשאי לקזז מתגמולי הביטוח המגיעים למבוטח, כל סכום שהמבוטח חייב למבטח בין שחובו מתייחס לפוליסה זו ובין אם לפוליסה אחרת. במקרה של נזק כללי )טוטאלי( לרכוש\n, המבוטח המכוסה על פי פוליסה זו, רשאי המבטח לקזז את יתרת דמי הביטוח המגיעים לו גם אם טרם הגיע מועד תשלומם."
+  "embed_text": "טבלה זו מתארת את זכות המבטח לקזז סכומים מתגמולי הביטוח המגיעים למבוטח, בגין חובות קיימים. הקיזוז יכול להתבצע גם אם החוב אינו קשור ישירות לפוליסה זו, ואף במקרה של נזק כללי לרכוש המכוסה. ניתן לבצע קיזוז גם של יתרת דמי הביטוח, גם אם מועד התשלום טרם הגיע. זכות קיזוז, פוליסה זו, נזק כללי, דמי ביטוח. This table details the insurer's right to offset payments against outstanding debts owed by the insured, whether related to this policy or others. It applies to both partial and total loss scenarios. בין הערכים בטבלה: קיזוז מתגמולי ביטוח: כל סכום חוב.",
+  "payload": "טבלה: זכות קיזוז\nThis table details the insurer's right to offset payments against outstanding debts owed by the insured, whether related to this policy or others. It applies to both partial and total loss scenarios.\nממדים: Scenario of offset application, Details of offset rights\n\n. זכות קיזוז 19\n, המבטח רשאי לקזז מתגמולי הביטוח המגיעים למבוטח, כל סכום שהמבוטח חייב למבטח בין שחובו מתייחס לפוליסה זו ובין אם לפוליסה אחרת. במקרה של נזק כללי )טוטאלי( לרכוש\n, המבוטח המכוסה על פי פוליסה זו, רשאי המבטח לקזז את יתרת דמי הביטוח המגיעים לו גם אם טרם הגיע מועד תשלומם."
 }

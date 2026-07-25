@@ -3,24 +3,22 @@
   "source": "llm",
   "description": {
     "title": "הקטנת גבול האחריות",
-    "summary": "This table details how the insurance coverage limits are reduced after a claim or damage event. It outlines how payments made to third parties or as insurance benefits impact the remaining available coverage.",
-    "embed_passage": "פוליסת אחריות מקצועית על בסיס הגשת תביעה לרופא שיניים מתייחסת להקטנת גבול האחריות לאחר תביעה או נזק. סכום הפיצוי מחושב בכפוף לתנאי הפוליסה, וגבולות האחריות מופחתים בסכום התשלום לצד השלישי או תגמולי הביטוח ששולמו. לדוגמה, אם המבטח התחייב לשלם 4.11.2.2 פיצויים, גבולות האחריות יוקטנו בסכום זה.",
-    "row_axis": "scenarios related to claim settlement and liability reduction",
-    "column_axis": "details of liability reduction calculations and conditions",
+    "summary": "This table details how the insurance liability limits are reduced after a claim or damage. It outlines the conditions under which the insurer will reimburse the insured for compensation amounts and defense costs.",
+    "embed_passage": "טבלה זו עוסקת בהקטנת גבול האחריות בפוליסת ביטוח אחריות מקצועית, ומפרטת כיצד יחושבו סכומי הפיצוי והוצאות ההגנה לאחר הגשת תביעה או התרחשות נזק. ניתן לעיין בטבלה כדי להבין את התנאים שבהם המבטח ישפה את המבוטח, ואת ההגבלות על סכום הפיצוי המקסימלי. הטבלה מתייחסת לסעיפים 4.11.2.2, 4.11.2.3 ו-4.12 בפוליסה. סעיף 4.11.2.2 עוסק בשיפוי המבוטח בסכום הפיצוי לאחר ניכוי מגבולות האחריות, וסעיף 4.11.2.3 מתייחס לחישוב סכום הקטנת גבול האחריות לאחר תביעה או נזק. סעיף 4.12 עוסק בהקטנת גבול האחריות לאחר תביעה או נזק.",
+    "row_axis": "תנאי הקטנת גבול האחריות",
+    "column_axis": "סוג הפיצוי / ההוצאה",
     "units": [],
     "notable_values": [
-      "4.11.2.2: scenario of reduced compensation",
-      "4.11.2.3: calculation of liability reduction",
-      "4.12: condition for liability reduction",
-      "3 years: statute of limitations for insurance claims",
-      "4.14: period of limitation"
+      "סכום הפיצוי: מוקטן",
+      "הוצאות הגנה סבירות: ישופה",
+      "גבולות אחריות המבטח: מוקטנים",
+      "תגמולי ביטוח: סכום שכבר שולם"
     ],
     "product_hints": [
-      "פוליסת אחריות מקצועית",
-      "אחריות מקצועית לרופא שיניים"
+      "פוליסת אחריות מקצועית"
     ]
   },
   "sketch": "-.  הוקטן סכום הפיצוי, ונשא המבוטח בשל כך בהוצאות הגנה סבירות 4.11.2.2 ישפה המבטח את המבוטח בסכום הפיצוי, לאחר שנוכה, מגבולות אחריות המבטח על פי פוליסה זו כל סכום או סכומים שכבר שולמו להלן( על פי הפוליסה ובנוסף 4.12 בתור תגמולי ביטוח )כאמור בתנאי אך בשום , ישפה המבטח את המבוטח בגין הוצאות הגנה סבירות מקרה לא יותר מהסכום שהיה משלם המבטח במסגרת הפשרה.\n, .  מובהר, כי לעניין סכום או סכומים שכבר שולמו בתור תגמולי ביטוח 4.11.2.3 \"הקטנת גבול האחריות 4.12 יחושב הסכום בכפוף לאמור בתנאי לאחר תביעה / נזק\" להלן.",
-  "embed_text": "פוליסת אחריות מקצועית על בסיס הגשת תביעה לרופא שיניים מתייחסת להקטנת גבול האחריות לאחר תביעה או נזק. סכום הפיצוי מחושב בכפוף לתנאי הפוליסה, וגבולות האחריות מופחתים בסכום התשלום לצד השלישי או תגמולי הביטוח ששולמו. לדוגמה, אם המבטח התחייב לשלם 4.11.2.2 פיצויים, גבולות האחריות יוקטנו בסכום זה.",
-  "payload": "טבלה: הקטנת גבול האחריות\nThis table details how the insurance coverage limits are reduced after a claim or damage event. It outlines how payments made to third parties or as insurance benefits impact the remaining available coverage.\nממדים: scenarios related to claim settlement and liability reduction, details of liability reduction calculations and conditions\n\n-.  הוקטן סכום הפיצוי, ונשא המבוטח בשל כך בהוצאות הגנה סבירות 4.11.2.2 ישפה המבטח את המבוטח בסכום הפיצוי, לאחר שנוכה, מגבולות אחריות המבטח על פי פוליסה זו כל סכום או סכומים שכבר שולמו להלן( על פי הפוליסה ובנוסף 4.12 בתור תגמולי ביטוח )כאמור בתנאי אך בשום , ישפה המבטח את המבוטח בגין הוצאות הגנה סבירות מקרה לא יותר מהסכום שהיה משלם המבטח במסגרת הפשרה.\n, .  מובהר, כי לעניין סכום או סכומים שכבר שולמו בתור תגמולי ביטוח 4.11.2.3 \"הקטנת גבול האחריות 4.12 יחושב הסכום בכפוף לאמור בתנאי לאחר תביעה / נזק\" להלן."
+  "embed_text": "טבלה זו עוסקת בהקטנת גבול האחריות בפוליסת ביטוח אחריות מקצועית, ומפרטת כיצד יחושבו סכומי הפיצוי והוצאות ההגנה לאחר הגשת תביעה או התרחשות נזק. ניתן לעיין בטבלה כדי להבין את התנאים שבהם המבטח ישפה את המבוטח, ואת ההגבלות על סכום הפיצוי המקסימלי. הטבלה מתייחסת לסעיפים 4.11.2.2, 4.11.2.3 ו-4.12 בפוליסה. סעיף 4.11.2.2 עוסק בשיפוי המבוטח בסכום הפיצוי לאחר ניכוי מגבולות האחריות, וסעיף 4.11.2.3 מתייחס לחישוב סכום הקטנת גבול האחריות לאחר תביעה או נזק. סעיף 4.12 עוסק בהקטנת גבול האחריות לאחר תביעה או נזק. This table details how the insurance liability limits are reduced after a claim or damage. It outlines the conditions under which the insurer will reimburse the insured for compensation amounts and defense costs. בין הערכים בטבלה: הוצאות הגנה סבירות: ישופה; גבולות אחריות המבטח: מוקטנים; תגמולי ביטו…",
+  "payload": "טבלה: הקטנת גבול האחריות\nThis table details how the insurance liability limits are reduced after a claim or damage. It outlines the conditions under which the insurer will reimburse the insured for compensation amounts and defense costs.\nממדים: תנאי הקטנת גבול האחריות, סוג הפיצוי / ההוצאה\n\n-.  הוקטן סכום הפיצוי, ונשא המבוטח בשל כך בהוצאות הגנה סבירות 4.11.2.2 ישפה המבטח את המבוטח בסכום הפיצוי, לאחר שנוכה, מגבולות אחריות המבטח על פי פוליסה זו כל סכום או סכומים שכבר שולמו להלן( על פי הפוליסה ובנוסף 4.12 בתור תגמולי ביטוח )כאמור בתנאי אך בשום , ישפה המבטח את המבוטח בגין הוצאות הגנה סבירות מקרה לא יותר מהסכום שהיה משלם המבטח במסגרת הפשרה.\n, .  מובהר, כי לעניין סכום או סכומים שכבר שולמו בתור תגמולי ביטוח 4.11.2.3 \"הקטנת גבול האחריות 4.12 יחושב הסכום בכפוף לאמור בתנאי לאחר תביעה / נזק\" להלן."
 }

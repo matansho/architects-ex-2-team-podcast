@@ -2,23 +2,24 @@
   "id": "pdf:business/files/פוליסה-לביטוח-עבודות-קבלניות-הראל-ביט-מהדורת-ינואר-2023.pdf#6",
   "source": "llm",
   "description": {
-    "title": "פוליסת ביטוח עבודות קבלניות",
-    "summary": "This table details the insurance coverage for construction and civil engineering works performed at a site. It outlines the conditions for coverage, specifically regarding physical loss or damage to the works during the insurance period.",
-    "embed_passage": "פוליסת ביטוח עבודות קבלניות הראל ביט מספקת כיסוי לאובדן או נזק פיזי פתאומי ובלתי צפוי שנגרם לעבודות באתר במהלך תקופת הביטוח. אחריות המבטח לא תעלה על הסכום הנמוך מבין סכומי הביטוח הנקובים ברשימה או סכום הנזק בפועל. סעיף 1.3.1 קובע כי סכום הביטוח לא יעלה על סכום הביטוח הכללי.",
-    "row_axis": "Insurance event / coverage condition",
-    "column_axis": "Details of coverage",
+    "title": "מקרי ביטוח - הראל ביט",
+    "summary": "This table defines the insurance coverage for construction works under a Harel Bit policy. It outlines the conditions for loss or damage to the works during the insurance period, and the maximum liability of the insurer.",
+    "embed_passage": "טבלה זו מתארת את מקרי הביטוח בפוליסת הראל ביט לעבודות קבלניות, ומפרטת את הכיסוי במקרה של אובדן או נזק פיזי לעבודות באתר במהלך תקופת הביטוח. ניתן לבדוק את סכומי הביטוח הרלוונטיים לכל סעיף ברשימה, תוך התחשבות בסכום הביטוח הכללי ובנזק בפועל. הראל ביט, אובדן, נזק, אתר העבודות, סכומי ביטוח, סעיף, נזק בפועל.",
+    "row_axis": "מקרה ביטוח",
+    "column_axis": "תנאי הכיסוי והגבלות",
     "units": [],
     "notable_values": [
-      "1.3.1: Maximum cumulative coverage cannot exceed the total insurance amount",
-      "1.3.2: Liability is limited to the actual damage incurred",
-      "1.4.1.1: Insurance start date is the later of the date in the list or after unloading property at the site"
+      "אבדן או נזק פיזי: פתאומי ובלתי צפוי",
+      "אחריות המבטח: הסכום הנמוך מבין הסכומים",
+      "סכום הביטוח: סעיף בנפרד",
+      "סכום הביטוח הכללי: נקוב בה"
     ],
     "product_hints": [
-      "ביטוח עבודות קבלניות",
-      "הראל ביט"
+      "הראל ביט",
+      "עבודות קבלניות"
     ]
   },
   "sketch": "מקרה הביטוח: .1.3\nאבדן או נזק פיזי פתאומי ובלתי צפוי שנגרם באתר במהלך תקופת הביטוח, לעבודות או לחלק מהן, וזאת מסיבה כלשהי אשר אינה מוחרגת על פי סייגי פוליסה זו.\nמובהר בזאת כי אחריות המבטח לא תעלה על הסכום הנמוך מבין הסכומים הבאים:\nסכומי הביטוח הנקובים ברשימה בגין כל סעיף וסעיף בנפרד ובכל מקרה .1.3.1 לא תעלה, במצטבר, על סכום הביטוח הכללי הנקוב בה.\nסכום הנזק בפועל שנגרם למבוטח מחמת שהעבודות אבדו או ניזוקו. .1.3.2",
-  "embed_text": "פוליסת ביטוח עבודות קבלניות הראל ביט מספקת כיסוי לאובדן או נזק פיזי פתאומי ובלתי צפוי שנגרם לעבודות באתר במהלך תקופת הביטוח. אחריות המבטח לא תעלה על הסכום הנמוך מבין סכומי הביטוח הנקובים ברשימה או סכום הנזק בפועל. סעיף 1.3.1 קובע כי סכום הביטוח לא יעלה על סכום הביטוח הכללי.",
-  "payload": "טבלה: פוליסת ביטוח עבודות קבלניות\nThis table details the insurance coverage for construction and civil engineering works performed at a site. It outlines the conditions for coverage, specifically regarding physical loss or damage to the works during the insurance period.\nממדים: Insurance event / coverage condition, Details of coverage\n\nמקרה הביטוח: .1.3\nאבדן או נזק פיזי פתאומי ובלתי צפוי שנגרם באתר במהלך תקופת הביטוח, לעבודות או לחלק מהן, וזאת מסיבה כלשהי אשר אינה מוחרגת על פי סייגי פוליסה זו.\nמובהר בזאת כי אחריות המבטח לא תעלה על הסכום הנמוך מבין הסכומים הבאים:\nסכומי הביטוח הנקובים ברשימה בגין כל סעיף וסעיף בנפרד ובכל מקרה .1.3.1 לא תעלה, במצטבר, על סכום הביטוח הכללי הנקוב בה.\nסכום הנזק בפועל שנגרם למבוטח מחמת שהעבודות אבדו או ניזוקו. .1.3.2"
+  "embed_text": "טבלה זו מתארת את מקרי הביטוח בפוליסת הראל ביט לעבודות קבלניות, ומפרטת את הכיסוי במקרה של אובדן או נזק פיזי לעבודות באתר במהלך תקופת הביטוח. ניתן לבדוק את סכומי הביטוח הרלוונטיים לכל סעיף ברשימה, תוך התחשבות בסכום הביטוח הכללי ובנזק בפועל. הראל ביט, אובדן, נזק, אתר העבודות, סכומי ביטוח, סעיף, נזק בפועל. This table defines the insurance coverage for construction works under a Harel Bit policy. It outlines the conditions for loss or damage to the works during the insurance period, and the maximum liability of the insurer. בין הערכים בטבלה: אבדן או נזק פיזי: פתאומי ובלתי צפוי; אחריות המבטח: הסכום הנמוך מבין הסכומים.",
+  "payload": "טבלה: מקרי ביטוח - הראל ביט\nThis table defines the insurance coverage for construction works under a Harel Bit policy. It outlines the conditions for loss or damage to the works during the insurance period, and the maximum liability of the insurer.\nממדים: מקרה ביטוח, תנאי הכיסוי והגבלות\n\nמקרה הביטוח: .1.3\nאבדן או נזק פיזי פתאומי ובלתי צפוי שנגרם באתר במהלך תקופת הביטוח, לעבודות או לחלק מהן, וזאת מסיבה כלשהי אשר אינה מוחרגת על פי סייגי פוליסה זו.\nמובהר בזאת כי אחריות המבטח לא תעלה על הסכום הנמוך מבין הסכומים הבאים:\nסכומי הביטוח הנקובים ברשימה בגין כל סעיף וסעיף בנפרד ובכל מקרה .1.3.1 לא תעלה, במצטבר, על סכום הביטוח הכללי הנקוב בה.\nסכום הנזק בפועל שנגרם למבוטח מחמת שהעבודות אבדו או ניזוקו. .1.3.2"
 }

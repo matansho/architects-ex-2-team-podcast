@@ -2,25 +2,23 @@
   "id": "pdf:business/files/טופס-הצעה-לביטוח-מכלול-למושב.pdf#76",
   "source": "llm",
   "description": {
-    "title": "מכלול למושב - ביטוח רכוש",
-    "summary": "This table outlines insurance coverage for property, specifically for a moshav (cooperative agricultural settlement). It details coverage for equipment like cooling systems and milking equipment, with a maximum coverage of ₪50,000 for new equipment.",
-    "embed_passage": "ביטוח מכלול למושב מכסה רכוש המשקי מפני נזקי שבר מכני, כולל מערכות קירור וציוד חליבה. גיל הציוד משפיע על סכום הביטוח, כאשר ציוד חדש עד שנה ניתן לביטוח בסכום של עד ₪50,000. כיסוי ביטוחי לסחורה בקירור, לנזק תוך כדי קירור.",
-    "row_axis": "Type of property/equipment",
-    "column_axis": "Coverage details, limits, and conditions",
-    "units": [
-      "₪"
-    ],
+    "title": "הצעה לביטוח מכלול",
+    "summary": "This table outlines conditions related to data sharing and coverage additions for 'הראל' insurance policies. It details how requests to remove data apply to existing and future policies and the implications of adding coverage or waivers.",
+    "embed_passage": "טופס זה מתייחס להצעה לביטוח מכלול של הראל, ומסביר את תהליך הסרת מידע אישי והוספת כיסויים לפוליסות קיימות. המידע המוצג כאן נועד להבהיר את תנאי הפוליסה ואפשרויות ההתאמה האישית שלה, כגון הוספת כיסוי נוסף או ויתור על כיסויים קיימים. חשוב לציין כי בהיעדר כיסוי לפרק מסוים, לא ניתן לרכוש הרחבות לאותו פרק. הראל מאפשרת לבחור להוסיף כיסויים או לוותר עליהם, מבלי לפגוע ביתר תנאי הפוליסה. ניתן לבטח ציוד חדש עד גיל שנה ובסכום של עד ₪ 50,000.  הוספת כיסוי, הרחבה או כתב שירות נתונה לבחירת המבוטח.",
+    "row_axis": "policy conditions / options",
+    "column_axis": "data sharing, coverage additions/waivers",
+    "units": [],
     "notable_values": [
-      "Maximum coverage: ₪50,000",
-      "New equipment age limit: 1 year",
-      "Survey required after 4 years"
+      "coverage amount: ₪ 50,000",
+      "equipment age: שנה",
+      "data removal: applies to existing and future policies"
     ],
     "product_hints": [
-      "מכלול למושב",
-      "ביטוח רכוש"
+      "ביטוח מכלול",
+      "הראל"
     ]
   },
   "sketch": "שים/י לב כי הגשת בקשה להסרת מידע, כאמור, חלה על פוליסות קיימות ועתידיות. כך, ככל שהודעת בעבר שאינך מעונין/ת בהעברת הנתונים, הנתונים לא יועברו גם לגבי פוליסה זו.\nאם ברשותך פוליסת ביטוח בתוקף, עליה הנך מבקש/ת להוסיף כיסוי נוסף, הרחבה או כתב שירות, הוספתם נתונה לבחירתך, והנך רשאי/ת לבחור , לידיעתך תשומת לבך כי בהיעדר כיסוי לפרק מסוים - לא ניתן לרכוש כיסוי להרחבות לאותו פרק. . בהם או לוותר עליהם, מבלי שהדבר יפגע ביתר תנאי הפוליסה",
-  "embed_text": "ביטוח מכלול למושב מכסה רכוש המשקי מפני נזקי שבר מכני, כולל מערכות קירור וציוד חליבה. גיל הציוד משפיע על סכום הביטוח, כאשר ציוד חדש עד שנה ניתן לביטוח בסכום של עד ₪50,000. כיסוי ביטוחי לסחורה בקירור, לנזק תוך כדי קירור.",
-  "payload": "טבלה: מכלול למושב - ביטוח רכוש\nThis table outlines insurance coverage for property, specifically for a moshav (cooperative agricultural settlement). It details coverage for equipment like cooling systems and milking equipment, with a maximum coverage of ₪50,000 for new equipment.\nממדים: Type of property/equipment, Coverage details, limits, and conditions\n\nשים/י לב כי הגשת בקשה להסרת מידע, כאמור, חלה על פוליסות קיימות ועתידיות. כך, ככל שהודעת בעבר שאינך מעונין/ת בהעברת הנתונים, הנתונים לא יועברו גם לגבי פוליסה זו.\nאם ברשותך פוליסת ביטוח בתוקף, עליה הנך מבקש/ת להוסיף כיסוי נוסף, הרחבה או כתב שירות, הוספתם נתונה לבחירתך, והנך רשאי/ת לבחור , לידיעתך תשומת לבך כי בהיעדר כיסוי לפרק מסוים - לא ניתן לרכוש כיסוי להרחבות לאותו פרק. . בהם או לוותר עליהם, מבלי שהדבר יפגע ביתר תנאי הפוליסה"
+  "embed_text": "טופס זה מתייחס להצעה לביטוח מכלול של הראל, ומסביר את תהליך הסרת מידע אישי והוספת כיסויים לפוליסות קיימות. המידע המוצג כאן נועד להבהיר את תנאי הפוליסה ואפשרויות ההתאמה האישית שלה, כגון הוספת כיסוי נוסף או ויתור על כיסויים קיימים. חשוב לציין כי בהיעדר כיסוי לפרק מסוים, לא ניתן לרכוש הרחבות לאותו פרק. הראל מאפשרת לבחור להוסיף כיסויים או לוותר עליהם, מבלי לפגוע ביתר תנאי הפוליסה. ניתן לבטח ציוד חדש עד גיל שנה ובסכום של עד ₪ 50,000.  הוספת כיסוי, הרחבה או כתב שירות נתונה לבחירת המבוטח. This table outlines conditions related to data sharing and coverage additions for 'הראל' insurance policies. It details how requests to remove data apply to existing and future policies and the implications of adding coverage or waivers. בין הערכים בטבלה: data removal: applies to existing and future policies.",
+  "payload": "טבלה: הצעה לביטוח מכלול\nThis table outlines conditions related to data sharing and coverage additions for 'הראל' insurance policies. It details how requests to remove data apply to existing and future policies and the implications of adding coverage or waivers.\nממדים: policy conditions / options, data sharing, coverage additions/waivers\n\nשים/י לב כי הגשת בקשה להסרת מידע, כאמור, חלה על פוליסות קיימות ועתידיות. כך, ככל שהודעת בעבר שאינך מעונין/ת בהעברת הנתונים, הנתונים לא יועברו גם לגבי פוליסה זו.\nאם ברשותך פוליסת ביטוח בתוקף, עליה הנך מבקש/ת להוסיף כיסוי נוסף, הרחבה או כתב שירות, הוספתם נתונה לבחירתך, והנך רשאי/ת לבחור , לידיעתך תשומת לבך כי בהיעדר כיסוי לפרק מסוים - לא ניתן לרכוש כיסוי להרחבות לאותו פרק. . בהם או לוותר עליהם, מבלי שהדבר יפגע ביתר תנאי הפוליסה"
 }

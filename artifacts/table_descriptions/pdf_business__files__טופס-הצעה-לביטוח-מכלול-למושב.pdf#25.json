@@ -2,28 +2,30 @@
   "id": "pdf:business/files/טופס-הצעה-לביטוח-מכלול-למושב.pdf#25",
   "source": "llm",
   "description": {
-    "title": "ביטוח מכלול למטעים",
-    "summary": "This table details insurance coverage for orchards, outlining various risks and associated costs. It allows users to look up coverage details based on factors like orchard type and potential damages.",
-    "embed_passage": "ביטוח מכלול למטעים מספק כיסוי לנזקים שונים, כולל גניבה ורעידת אדמה. ההשתתפות העצמית יכולה להיות 1M% מהנזק, אך לא פחות מ-₪5,000. ניתן לבטח מטעים עד לסכום של ₪35M, ולקבל הנחה של 40% בביטול הכיסוי לאובדן יבול.",
-    "row_axis": "Coverage options and conditions for orchards",
-    "column_axis": "Details of coverage, self-participation, and premium adjustments",
+    "title": "ביטוח מכלול למושב",
+    "summary": "This table details coverage options and self-participation rates for agricultural insurance, specifically for orchards and crops. It outlines conditions related to theft, earthquake, natural disasters, and yield loss.",
+    "embed_passage": "טופס זה עוסק בביטוח מכלול למושב, ומפרט תנאי כיסוי עבור סיכונים שונים כגון גניבה, רעידת אדמה ונזקי טבע. ניתן לבדוק את הכיסויים המוצעים עבור יחידות אירוח (צימרים) וכן את ההשתתפות העצמית הנדרשת עבור כל סיכון. הטבלה מציגה סכומי ביטוח עבור מבנה, תכולה ורכוש אחר, וכן הנחות אפשריות בגין ביטול כיסויים מסוימים. בין הנתונים המופיעים ניתן למצוא סכומי ביטוח של ₪ 1,200,000, ₪ 900,000 ו- ₪ 35M, וכן השתתפות עצמית של 0.25% או ₪ 5,000. כמו כן, מצוין כי כיסוי גניבה לראשי פיקוד מחייב אמצעים להקלת סיכון גניבה.",
+    "row_axis": "coverage options/conditions",
+    "column_axis": "details (e.g., self-participation rate, coverage amount, discount)",
     "units": [
       "₪",
       "%"
     ],
     "notable_values": [
-      "self-participation: 1M%",
-      "minimum damage coverage: ₪5,000",
-      "insurance amount: ₪35M",
-      "discount for coverage cancellation: 40%",
-      "irrigation system coverage: ₪10,000"
+      "self-participation (theft): 0.25%",
+      "earthquake coverage: כן/לא",
+      "other natural disaster coverage: כן/לא",
+      "insurance amount (structure): ₪ 1,200,000",
+      "insurance amount (contents): ₪ 900,000",
+      "discount (yield loss cancellation): 40%",
+      "minimum damage (self-participation): ₪ 5,000",
+      "irrigation system coverage: ₪ 10,000"
     ],
     "product_hints": [
-      "ביטוח מכלול",
-      "ביטוח מטעים"
+      "ביטוח מכלול"
     ]
   },
   "sketch": "5M%דונם מטע מניב, גבול האחריות מוקטן ב ½כל דונם מטע לא מניב, יחשב כ\nלא.\n.1 ? בגין ביטול הכיסוי לאובדן יבול ושינטוע עתידיים - האם לבטל הכיסוי 40% תינתן הנחה בשיעור\nכן\n.   הפרמיה שנתית. דמי הביטוח שנקבעו מחושבים על היות הגידול עונתי, ולפיכך אין ולא יבוצעו החזרים לתקופות הקצרות משנה. 2\nלאירוע. ₪  5,000מהנזק לא פחות מ 1M% השתתפות עצמית .3\n. ; מעל סכום זה ניתן לבטח תמורת פרמיה נוספת ₪  10,000 אם בוטחו המטעים על-פי פרק זה, יכלול הכיסוי גם ראשי פיקוד למערכות ההשקייה עד לסך .4",
-  "embed_text": "ביטוח מכלול למטעים מספק כיסוי לנזקים שונים, כולל גניבה ורעידת אדמה. ההשתתפות העצמית יכולה להיות 1M% מהנזק, אך לא פחות מ-₪5,000. ניתן לבטח מטעים עד לסכום של ₪35M, ולקבל הנחה של 40% בביטול הכיסוי לאובדן יבול.",
-  "payload": "טבלה: ביטוח מכלול למטעים\nThis table details insurance coverage for orchards, outlining various risks and associated costs. It allows users to look up coverage details based on factors like orchard type and potential damages.\nממדים: Coverage options and conditions for orchards, Details of coverage, self-participation, and premium adjustments\n\n5M%דונם מטע מניב, גבול האחריות מוקטן ב ½כל דונם מטע לא מניב, יחשב כ\nלא.\n.1 ? בגין ביטול הכיסוי לאובדן יבול ושינטוע עתידיים - האם לבטל הכיסוי 40% תינתן הנחה בשיעור\nכן\n.   הפרמיה שנתית. דמי הביטוח שנקבעו מחושבים על היות הגידול עונתי, ולפיכך אין ולא יבוצעו החזרים לתקופות הקצרות משנה. 2\nלאירוע. ₪  5,000מהנזק לא פחות מ 1M% השתתפות עצמית .3\n. ; מעל סכום זה ניתן לבטח תמורת פרמיה נוספת ₪  10,000 אם בוטחו המטעים על-פי פרק זה, יכלול הכיסוי גם ראשי פיקוד למערכות ההשקייה עד לסך .4"
+  "embed_text": "טופס זה עוסק בביטוח מכלול למושב, ומפרט תנאי כיסוי עבור סיכונים שונים כגון גניבה, רעידת אדמה ונזקי טבע. ניתן לבדוק את הכיסויים המוצעים עבור יחידות אירוח (צימרים) וכן את ההשתתפות העצמית הנדרשת עבור כל סיכון. הטבלה מציגה סכומי ביטוח עבור מבנה, תכולה ורכוש אחר, וכן הנחות אפשריות בגין ביטול כיסויים מסוימים. בין הנתונים המופיעים ניתן למצוא סכומי ביטוח של ₪ 1,200,000, ₪ 900,000 ו- ₪ 35M, וכן השתתפות עצמית של 0.25% או ₪ 5,000. כמו כן, מצוין כי כיסוי גניבה לראשי פיקוד מחייב אמצעים להקלת סיכון גניבה. This table details coverage options and self-participation rates for agricultural insurance, specifically for orchards and crops. It outlines conditions related to theft, earthquake, natural disasters, and yield loss. בין הערכים בטבלה: earthquake coverage: כן/לא; other natural disaster coverage: כן/לא;…",
+  "payload": "טבלה: ביטוח מכלול למושב\nThis table details coverage options and self-participation rates for agricultural insurance, specifically for orchards and crops. It outlines conditions related to theft, earthquake, natural disasters, and yield loss.\nממדים: coverage options/conditions, details (e.g., self-participation rate, coverage amount, discount)\n\n5M%דונם מטע מניב, גבול האחריות מוקטן ב ½כל דונם מטע לא מניב, יחשב כ\nלא.\n.1 ? בגין ביטול הכיסוי לאובדן יבול ושינטוע עתידיים - האם לבטל הכיסוי 40% תינתן הנחה בשיעור\nכן\n.   הפרמיה שנתית. דמי הביטוח שנקבעו מחושבים על היות הגידול עונתי, ולפיכך אין ולא יבוצעו החזרים לתקופות הקצרות משנה. 2\nלאירוע. ₪  5,000מהנזק לא פחות מ 1M% השתתפות עצמית .3\n. ; מעל סכום זה ניתן לבטח תמורת פרמיה נוספת ₪  10,000 אם בוטחו המטעים על-פי פרק זה, יכלול הכיסוי גם ראשי פיקוד למערכות ההשקייה עד לסך .4"
 }

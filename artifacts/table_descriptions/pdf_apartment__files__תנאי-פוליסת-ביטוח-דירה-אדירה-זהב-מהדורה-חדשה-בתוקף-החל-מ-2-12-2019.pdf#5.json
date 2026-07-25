@@ -3,21 +3,21 @@
   "source": "llm",
   "description": {
     "title": "תנאי פוליסת ביטוח דירה",
-    "summary": "This table outlines the terms of the 'Adira Zahav' apartment insurance policy. It details the insurance coverage, payment terms, and policy period for a given insured property.",
-    "embed_passage": "פוליסת 'אדירה זהב' לביטוח דירה מספקת כיסוי מקיף לדירה ותכולתה. דמי הביטוח משתנים בהתאם לסכום הביטוח הנקוב במפרט. הפוליסה תקפה לתקופת הביטוח המוגדרת, וכוללת תגמולים למבוטח במקרה של נזק.",
-    "row_axis": "Policy details / Coverage clauses",
-    "column_axis": "Policy terms (e.g., insurance premium, coverage period, insurance amount)",
+    "summary": "This table outlines the terms of an apartment insurance policy. It details the agreement between the insurer and the insured regarding coverage, premiums, and policy period.",
+    "embed_passage": "טבלה זו מתארת את תנאי פוליסת ביטוח דירה של 'אדירה זהב', המפרטת את ההסכמה בין המבטח למבוטח לגבי תגמולי ביטוח במקרה ביטוח, סכומי ביטוח ודמי ביטוח. ניתן למצוא מידע על הכיסוי הביטוחי, תקופת הביטוח וסכומי הביטוח במפרט המצורף לפוליסה. הפוליסה כוללת פרקים כגון ביטוח דירה, ביטוח תכולה, אחריות כלפי צד שלישי, וביטוח נזקי טרור. 'אדירה זהב' היא פוליסה לביטוח כל הסיכונים לדירה ותכולתה. המבטח הוא הראל חברה לביטוח בע\"מ. המבוטח הוא בעל הפוליסה ששמו מופיע במפרט.",
+    "row_axis": "clause/condition of the insurance policy",
+    "column_axis": "details of the clause (e.g., coverage, premium, period)",
     "units": [],
     "notable_values": [
-      "policy: Adira Zahav",
-      "year: 2019"
+      "product: אדירה זהב",
+      "insurer: הראל חברה לביטוח בע\"מ",
+      "insured: המבוטח ששמו נקוב במפרט"
     ],
     "product_hints": [
-      "אדירה זהב",
-      "ביטוח דירה"
+      "אדירה זהב"
     ]
   },
   "sketch": "לבין\nהמבוטח ששמו נקוב במפרט )להלן-המבוטח( לפיו מסכים המבטח לשלם למבוטח תגמולי ביטוח בשל מקרי ביטוח שאירעו בתקופת הביטוח, בגבולות סכומי הביטוח, תמורת דמי הביטוח.\nדמי הביטוח, תקופת הביטוח וסכומי הביטוח נקובים במפרט המהווה חלק בלתי נפרד מפוליסה זו.\nהכיסוי הביטוחי לפי כל אחד מפרקי הפוליסה ו/או כיסויים נוספים המצוינים בפוליסה, ייכנסו לתוקפם, אך ורק אם נרשם במפורש בפוליסה ו/או במפרט, כי הכיסוי הביטוחי בנוגע אליהם תקף או כלול.",
-  "embed_text": "פוליסת 'אדירה זהב' לביטוח דירה מספקת כיסוי מקיף לדירה ותכולתה. דמי הביטוח משתנים בהתאם לסכום הביטוח הנקוב במפרט. הפוליסה תקפה לתקופת הביטוח המוגדרת, וכוללת תגמולים למבוטח במקרה של נזק.",
-  "payload": "טבלה: תנאי פוליסת ביטוח דירה\nThis table outlines the terms of the 'Adira Zahav' apartment insurance policy. It details the insurance coverage, payment terms, and policy period for a given insured property.\nממדים: Policy details / Coverage clauses, Policy terms (e.g., insurance premium, coverage period, insurance amount)\n\nלבין\nהמבוטח ששמו נקוב במפרט )להלן-המבוטח( לפיו מסכים המבטח לשלם למבוטח תגמולי ביטוח בשל מקרי ביטוח שאירעו בתקופת הביטוח, בגבולות סכומי הביטוח, תמורת דמי הביטוח.\nדמי הביטוח, תקופת הביטוח וסכומי הביטוח נקובים במפרט המהווה חלק בלתי נפרד מפוליסה זו.\nהכיסוי הביטוחי לפי כל אחד מפרקי הפוליסה ו/או כיסויים נוספים המצוינים בפוליסה, ייכנסו לתוקפם, אך ורק אם נרשם במפורש בפוליסה ו/או במפרט, כי הכיסוי הביטוחי בנוגע אליהם תקף או כלול."
+  "embed_text": "טבלה זו מתארת את תנאי פוליסת ביטוח דירה של 'אדירה זהב', המפרטת את ההסכמה בין המבטח למבוטח לגבי תגמולי ביטוח במקרה ביטוח, סכומי ביטוח ודמי ביטוח. ניתן למצוא מידע על הכיסוי הביטוחי, תקופת הביטוח וסכומי הביטוח במפרט המצורף לפוליסה. הפוליסה כוללת פרקים כגון ביטוח דירה, ביטוח תכולה, אחריות כלפי צד שלישי, וביטוח נזקי טרור. 'אדירה זהב' היא פוליסה לביטוח כל הסיכונים לדירה ותכולתה. המבטח הוא הראל חברה לביטוח בע\"מ. המבוטח הוא בעל הפוליסה ששמו מופיע במפרט. This table outlines the terms of an apartment insurance policy. It details the agreement between the insurer and the insured regarding coverage, premiums, and policy period. בין הערכים בטבלה: insured: המבוטח ששמו נקוב במפרט.",
+  "payload": "טבלה: תנאי פוליסת ביטוח דירה\nThis table outlines the terms of an apartment insurance policy. It details the agreement between the insurer and the insured regarding coverage, premiums, and policy period.\nממדים: clause/condition of the insurance policy, details of the clause (e.g., coverage, premium, period)\n\nלבין\nהמבוטח ששמו נקוב במפרט )להלן-המבוטח( לפיו מסכים המבטח לשלם למבוטח תגמולי ביטוח בשל מקרי ביטוח שאירעו בתקופת הביטוח, בגבולות סכומי הביטוח, תמורת דמי הביטוח.\nדמי הביטוח, תקופת הביטוח וסכומי הביטוח נקובים במפרט המהווה חלק בלתי נפרד מפוליסה זו.\nהכיסוי הביטוחי לפי כל אחד מפרקי הפוליסה ו/או כיסויים נוספים המצוינים בפוליסה, ייכנסו לתוקפם, אך ורק אם נרשם במפורש בפוליסה ו/או במפרט, כי הכיסוי הביטוחי בנוגע אליהם תקף או כלול."
 }

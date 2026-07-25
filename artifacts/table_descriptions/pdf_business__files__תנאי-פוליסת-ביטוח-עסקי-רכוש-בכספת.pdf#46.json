@@ -2,24 +2,25 @@
   "id": "pdf:business/files/תנאי-פוליסת-ביטוח-עסקי-רכוש-בכספת.pdf#46",
   "source": "llm",
   "description": {
-    "title": "תנאי פוליסת ביטוח רכוש",
-    "summary": "This table outlines the conditions for reporting an insurance claim related to property damage. It details the responsibilities of the insured or beneficiary in notifying the insurer and providing necessary documentation.",
-    "embed_passage": "פוליסת ביטוח רכוש מחייבת את המבוטח להודיע למבטח על קרות מקרה ביטוח בתוך זמן סביר לאחר שנודע לו. מסירת מידע ומסמכים דרושים לבירור החבות היא חובה, ואי קיומה עלול להקטין את תגמולי הביטוח. לדוגמה, סעיף 8.1 מתייחס להודעה על מקרה ביטוח, וסעיף 8.3 דורש מסירת מידע.",
-    "row_axis": "Insurance claim reporting conditions",
-    "column_axis": "Specific requirements and consequences",
+    "title": "הודעה על מקרה ביטוח",
+    "summary": "This table outlines the notification requirements for insurance claims. It details the responsibilities of the insured or beneficiary in informing the insurer about an insurance event and providing necessary documentation.",
+    "embed_passage": "טבלה זו מתארת את דרישות ההודעה במקרה של תביעת ביטוח, כפי שמפורט בתנאי הפוליסה. המבוטח או המוטב נדרשים להודיע למבטח על קרות מקרה ביטוח בזמן סביר לאחר שנודע להם על כך. יש למסור למבטח מידע ומסמכים נדרשים לבירור החבות והיקפה. תנאי 8.1, 8.3 ו-8.4 מתארים את חובות ההודעה והשיתוף פעולה של המבוטח. במקרה של אי קיום חובות אלו, המבטח עשוי להקטין את חבותו. 8.1, 8.2, 8.3, 8.4, 8.4.1, 8.5",
+    "row_axis": "סעיף",
+    "column_axis": "דרישות/השלכות",
     "units": [],
     "notable_values": [
-      "8.1: Notification timeframe - זמן סביר",
-      "8.2: Claim submission method - טופס תביעה",
-      "8.3: Information provision timeframe - זמן סביר",
-      "8.4: Non-compliance consequence - הקטנת תגמולי ביטוח",
-      "8.5: Intentional obstruction consequence - הקטנת תגמולי ביטוח"
+      "8.1: הודעה על מקרה ביטוח",
+      "8.2: טופס תביעה",
+      "8.3: מסירת מידע ומסמכים",
+      "8.4: אי קיום חובה להודעה",
+      "8.4.1: סיבות מוצדקות לאיחור",
+      "8.5: מניעת בירור חבות"
     ],
     "product_hints": [
-      "ביטוח רכוש"
+      "פוליסת ביטוח רכוש"
     ]
   },
   "sketch": "8.1 . קרה מקרה הביטוח, על המבוטח או המוטב, להודיע למבטח על קרות מקרה ביטוח בתוך זמן סביר לאחר שנודע לו, ועל המוטב להודיע למבטח, מיד לאחר שנודע לו, על קרות המקרה; מתן הודעה מאת אחד מאלה תשחרר את השני מחבותו;\n8.2 . כל תביעה של המבוטח לשיפוי כמו גם לתשלום תגמולי ביטוח על פי הפוליסה תוגש באמצעות טופס תביעה שימציא המבטח למבוטח על פי בקשתו;\n8.3 . על המבוטח או על המוטב, לפי העניין, למסור למבטח בתוך זמן סביר מעת שנדרש , לכך, את המידע והמסמכים הדרושים לבירור החבות והיקפה, ואם אינם ברשותו עליו לעזור למבטח ככל שיוכל להשיגם;",
-  "embed_text": "פוליסת ביטוח רכוש מחייבת את המבוטח להודיע למבטח על קרות מקרה ביטוח בתוך זמן סביר לאחר שנודע לו. מסירת מידע ומסמכים דרושים לבירור החבות היא חובה, ואי קיומה עלול להקטין את תגמולי הביטוח. לדוגמה, סעיף 8.1 מתייחס להודעה על מקרה ביטוח, וסעיף 8.3 דורש מסירת מידע.",
-  "payload": "טבלה: תנאי פוליסת ביטוח רכוש\nThis table outlines the conditions for reporting an insurance claim related to property damage. It details the responsibilities of the insured or beneficiary in notifying the insurer and providing necessary documentation.\nממדים: Insurance claim reporting conditions, Specific requirements and consequences\n\n8.1 . קרה מקרה הביטוח, על המבוטח או המוטב, להודיע למבטח על קרות מקרה ביטוח בתוך זמן סביר לאחר שנודע לו, ועל המוטב להודיע למבטח, מיד לאחר שנודע לו, על קרות המקרה; מתן הודעה מאת אחד מאלה תשחרר את השני מחבותו;\n8.2 . כל תביעה של המבוטח לשיפוי כמו גם לתשלום תגמולי ביטוח על פי הפוליסה תוגש באמצעות טופס תביעה שימציא המבטח למבוטח על פי בקשתו;\n8.3 . על המבוטח או על המוטב, לפי העניין, למסור למבטח בתוך זמן סביר מעת שנדרש , לכך, את המידע והמסמכים הדרושים לבירור החבות והיקפה, ואם אינם ברשותו עליו לעזור למבטח ככל שיוכל להשיגם;"
+  "embed_text": "טבלה זו מתארת את דרישות ההודעה במקרה של תביעת ביטוח, כפי שמפורט בתנאי הפוליסה. המבוטח או המוטב נדרשים להודיע למבטח על קרות מקרה ביטוח בזמן סביר לאחר שנודע להם על כך. יש למסור למבטח מידע ומסמכים נדרשים לבירור החבות והיקפה. תנאי 8.1, 8.3 ו-8.4 מתארים את חובות ההודעה והשיתוף פעולה של המבוטח. במקרה של אי קיום חובות אלו, המבטח עשוי להקטין את חבותו. 8.1, 8.2, 8.3, 8.4, 8.4.1, 8.5 This table outlines the notification requirements for insurance claims. It details the responsibilities of the insured or beneficiary in informing the insurer about an insurance event and providing necessary documentation.",
+  "payload": "טבלה: הודעה על מקרה ביטוח\nThis table outlines the notification requirements for insurance claims. It details the responsibilities of the insured or beneficiary in informing the insurer about an insurance event and providing necessary documentation.\nממדים: סעיף, דרישות/השלכות\n\n8.1 . קרה מקרה הביטוח, על המבוטח או המוטב, להודיע למבטח על קרות מקרה ביטוח בתוך זמן סביר לאחר שנודע לו, ועל המוטב להודיע למבטח, מיד לאחר שנודע לו, על קרות המקרה; מתן הודעה מאת אחד מאלה תשחרר את השני מחבותו;\n8.2 . כל תביעה של המבוטח לשיפוי כמו גם לתשלום תגמולי ביטוח על פי הפוליסה תוגש באמצעות טופס תביעה שימציא המבטח למבוטח על פי בקשתו;\n8.3 . על המבוטח או על המוטב, לפי העניין, למסור למבטח בתוך זמן סביר מעת שנדרש , לכך, את המידע והמסמכים הדרושים לבירור החבות והיקפה, ואם אינם ברשותו עליו לעזור למבטח ככל שיוכל להשיגם;"
 }

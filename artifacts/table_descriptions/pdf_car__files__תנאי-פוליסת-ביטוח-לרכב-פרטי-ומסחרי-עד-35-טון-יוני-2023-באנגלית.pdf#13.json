@@ -3,24 +3,23 @@
   "source": "llm",
   "description": {
     "title": "נהגי רכב מורשים",
-    "summary": "This table details who is permitted to drive the insured vehicle under the policy. It specifies conditions related to policy owner, vehicle owner, and permitted drivers, especially for motorcycles and taxis.",
-    "embed_passage": "פוליסת ביטוח לרכב מכסה נהגים מורשים בלבד, כולל בעל הפוליסה ובעל הרכב. במקרה של אופנוע או רכב המסווג כמונית, הכיסוי מוגבל לנהג ששמו מופיע בתעודת הביטוח. נהיגה על ידי אדם שאינו מורשה עלולה לפסול את הכיסוי הביטוחי.",
-    "row_axis": "Scenario regarding permitted drivers",
-    "column_axis": "Conditions for driver authorization",
+    "summary": "This table details who is permitted to drive the insured vehicle according to the policy. It outlines conditions for permitted drivers and consequences of unauthorized driving.",
+    "embed_passage": "טבלה זו מתארת מי רשאי לנהוג ברכב המבוטח על פי הפוליסה. הפוליסה מגדירה תנאים לנהגים מורשים והשלכות של נהיגה לא מורשית. הפוליסה מכסה נהיגה על ידי בעל הפוליסה, בעל הרכב, מחזיק חוקי ברכב וכל משתמש ברכב בהרשאה. עם זאת, במקרה של אופנוע או רכב המסווג כמונית ברישיון הרכב, הכיסוי מוגבל לנהג ששמו מופיע בתעודת הביטוח. נהיגה על ידי אדם שאינו מורשה עלולה לפטור את המבטח מחבותו.",
+    "row_axis": "Conditions for permitted drivers",
+    "column_axis": "Driver authorization rules",
     "units": [],
     "notable_values": [
-      "Vehicle type: motorcycle/taxi",
-      "Driver authorization: policy owner",
-      "Driver authorization: vehicle owner",
-      "Driver authorization: lawful holder",
-      "Driver authorization: permitted user"
+      "Policy owner: permitted",
+      "Vehicle owner: permitted",
+      "Lawful holder: permitted",
+      "Authorized user: permitted",
+      "Motorcycle/Taxi: name on certificate required"
     ],
     "product_hints": [
-      "ביטוח לרכב",
-      "פוליסת רכב"
+      "ביטוח לרכב פרטי ומסחרי"
     ]
   },
   "sketch": "7. Persons permitted to drive the vehicle\n7.1 Only the policy owner, the vehicle owner, the lawful holder of the vehicle and anyone making use of the vehicle, with the permission of whomsoever of them is permitted to drive the vehicle.\n7.2 Notwithstanding whatsoever appearing in sub-paragraph 7.1, in the event that the insurance certificate - which is issued for a motorcycle or a vehicle classified as a 'taxi' on the vehicle license stipulates that the insurer 's liability shall cover driving the vehicle only by the person whose name appears on the insurance certificate, the vehicle may only be driven by the person whose name appears on the insurance certificate as aforementioned.\n7.3 In the event that the vehicle is driven by a person who may not drive the vehicle according to the provisions of this paragraph, the insurer shall be exempt of its liability in accordance with this policy.",
-  "embed_text": "פוליסת ביטוח לרכב מכסה נהגים מורשים בלבד, כולל בעל הפוליסה ובעל הרכב. במקרה של אופנוע או רכב המסווג כמונית, הכיסוי מוגבל לנהג ששמו מופיע בתעודת הביטוח. נהיגה על ידי אדם שאינו מורשה עלולה לפסול את הכיסוי הביטוחי.",
-  "payload": "טבלה: נהגי רכב מורשים\nThis table details who is permitted to drive the insured vehicle under the policy. It specifies conditions related to policy owner, vehicle owner, and permitted drivers, especially for motorcycles and taxis.\nממדים: Scenario regarding permitted drivers, Conditions for driver authorization\n\n7. Persons permitted to drive the vehicle\n7.1 Only the policy owner, the vehicle owner, the lawful holder of the vehicle and anyone making use of the vehicle, with the permission of whomsoever of them is permitted to drive the vehicle.\n7.2 Notwithstanding whatsoever appearing in sub-paragraph 7.1, in the event that the insurance certificate - which is issued for a motorcycle or a vehicle classified as a 'taxi' on the vehicle license stipulates that the insurer 's liability shall cover driving the vehicle only by the person whose name appears on the insurance certificate, the vehicle may only be driven by the person whose name appears on the insurance certificate as aforementioned.\n7.3 In the event that the vehicle is driven by a person who may not drive the vehicle according to the provisions of this paragraph, the insurer shall be exempt of its liability in accordance with this policy."
+  "embed_text": "טבלה זו מתארת מי רשאי לנהוג ברכב המבוטח על פי הפוליסה. הפוליסה מגדירה תנאים לנהגים מורשים והשלכות של נהיגה לא מורשית. הפוליסה מכסה נהיגה על ידי בעל הפוליסה, בעל הרכב, מחזיק חוקי ברכב וכל משתמש ברכב בהרשאה. עם זאת, במקרה של אופנוע או רכב המסווג כמונית ברישיון הרכב, הכיסוי מוגבל לנהג ששמו מופיע בתעודת הביטוח. נהיגה על ידי אדם שאינו מורשה עלולה לפטור את המבטח מחבותו. This table details who is permitted to drive the insured vehicle according to the policy. It outlines conditions for permitted drivers and consequences of unauthorized driving. בין הערכים בטבלה: Policy owner: permitted; Vehicle owner: permitted; Lawful holder: permitted; Authorized user: permitted; Motorcycle/Taxi: name on certificate required.",
+  "payload": "טבלה: נהגי רכב מורשים\nThis table details who is permitted to drive the insured vehicle according to the policy. It outlines conditions for permitted drivers and consequences of unauthorized driving.\nממדים: Conditions for permitted drivers, Driver authorization rules\n\n7. Persons permitted to drive the vehicle\n7.1 Only the policy owner, the vehicle owner, the lawful holder of the vehicle and anyone making use of the vehicle, with the permission of whomsoever of them is permitted to drive the vehicle.\n7.2 Notwithstanding whatsoever appearing in sub-paragraph 7.1, in the event that the insurance certificate - which is issued for a motorcycle or a vehicle classified as a 'taxi' on the vehicle license stipulates that the insurer 's liability shall cover driving the vehicle only by the person whose name appears on the insurance certificate, the vehicle may only be driven by the person whose name appears on the insurance certificate as aforementioned.\n7.3 In the event that the vehicle is driven by a person who may not drive the vehicle according to the provisions of this paragraph, the insurer shall be exempt of its liability in accordance with this policy."
 }

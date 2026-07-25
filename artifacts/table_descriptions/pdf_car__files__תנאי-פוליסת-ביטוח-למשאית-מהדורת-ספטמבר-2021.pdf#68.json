@@ -3,21 +3,20 @@
   "source": "llm",
   "description": {
     "title": "אבדן גמור לרכב",
-    "summary": "This table details the conditions for a 'total loss' (אבדן גמור) of a vehicle under an insurance policy. It specifies when a vehicle is considered a total loss and how the insurer will compensate the insured.",
-    "embed_passage": "פוליסת ביטוח למשאית מגדירה 'רכב באבדן גמור' כרכב ששמאי קבע לגביו כי נגרם נזק ישיר של 60 אחוזים ומעלה משווי הרכב כולל מיסים, או שאינו ניתן לשיקום. במקרה של אבדן גמור, ישלם המבטח למבוטח את מלוא ערך הרכב או יחליפו ברכב דומה. אם הרכב נגנב ולא נמצא תוך 30 ימים, הוא יוגדר כאבדן גמור.",
-    "row_axis": "Conditions for total loss determination",
-    "column_axis": "Criteria for declaring a vehicle a total loss",
+    "summary": "This table details the conditions for total loss of a vehicle under an insurance policy. It outlines when a vehicle is considered a total loss and the insurer's response.",
+    "embed_passage": "טבלה זו מתארת את התנאים לאובדן מוחלט של רכב במסגרת פוליסת ביטוח. הפוליסה מגדירה 'רכב באבדן גמור' כרכב ששמאי קבע לגביו שהוא יצא מכלל שימוש או שאינו ניתן לשיקום. במקרה של אבדן גמור, ישלם המבטח למבוטח את מלוא ערך הרכב או יחליפו ברכב דומה. הפוליסה מתייחסת גם למצב של גניבת רכב שלא נמצא תוך 30 ימים. תנאי הפוליסה כוללים אחוזים מירביים של ירידת ערך (60 אחוזים) וכן מצב של רכב שנועד לפירוק בלבד. פוליסת ביטוח למשאית מהדורת ספטמבר 2021.",
+    "row_axis": "Conditions for total loss",
+    "column_axis": "Loss criteria and insurer response",
     "units": [],
     "notable_values": [
       "אחוזים: 60",
       "ימים: 30"
     ],
     "product_hints": [
-      "ביטוח למשאית",
-      "פוליסת ביטוח"
+      "פוליסת ביטוח למשאית"
     ]
   },
   "sketch": "נגרם לרכב אבדן גמור, ישלם המבטח למבוטח את מלוא ערך הרכב,, ביום קרות .6.1 מקרה הביטוח או יחליפו ברכב מסוג ואיכות דומים.\nבפוליסה זו \"רכב באבדן גמור\" - רכב ששמאי רכב קבע לגביו כי נתקיימו אחד מאלה:\nהוא יצא מכלל שימוש והנזק הישיר שנגרם לו, למעט נזק ישיר שנגרם מירידת .6.1.1 אחוזים ומעלה משווי הרכב כולל מיסים. 60 ערך, הוא\nהרכב אינו ניתן עוד לשיקום והוא נועד לפירוק בלבד. .6.1.2\nימים. 30 אם הרכב נגנב ולא נמצא תוך .6.1.3",
-  "embed_text": "פוליסת ביטוח למשאית מגדירה 'רכב באבדן גמור' כרכב ששמאי קבע לגביו כי נגרם נזק ישיר של 60 אחוזים ומעלה משווי הרכב כולל מיסים, או שאינו ניתן לשיקום. במקרה של אבדן גמור, ישלם המבטח למבוטח את מלוא ערך הרכב או יחליפו ברכב דומה. אם הרכב נגנב ולא נמצא תוך 30 ימים, הוא יוגדר כאבדן גמור.",
-  "payload": "טבלה: אבדן גמור לרכב\nThis table details the conditions for a 'total loss' (אבדן גמור) of a vehicle under an insurance policy. It specifies when a vehicle is considered a total loss and how the insurer will compensate the insured.\nממדים: Conditions for total loss determination, Criteria for declaring a vehicle a total loss\n\nנגרם לרכב אבדן גמור, ישלם המבטח למבוטח את מלוא ערך הרכב,, ביום קרות .6.1 מקרה הביטוח או יחליפו ברכב מסוג ואיכות דומים.\nבפוליסה זו \"רכב באבדן גמור\" - רכב ששמאי רכב קבע לגביו כי נתקיימו אחד מאלה:\nהוא יצא מכלל שימוש והנזק הישיר שנגרם לו, למעט נזק ישיר שנגרם מירידת .6.1.1 אחוזים ומעלה משווי הרכב כולל מיסים. 60 ערך, הוא\nהרכב אינו ניתן עוד לשיקום והוא נועד לפירוק בלבד. .6.1.2\nימים. 30 אם הרכב נגנב ולא נמצא תוך .6.1.3"
+  "embed_text": "טבלה זו מתארת את התנאים לאובדן מוחלט של רכב במסגרת פוליסת ביטוח. הפוליסה מגדירה 'רכב באבדן גמור' כרכב ששמאי קבע לגביו שהוא יצא מכלל שימוש או שאינו ניתן לשיקום. במקרה של אבדן גמור, ישלם המבטח למבוטח את מלוא ערך הרכב או יחליפו ברכב דומה. הפוליסה מתייחסת גם למצב של גניבת רכב שלא נמצא תוך 30 ימים. תנאי הפוליסה כוללים אחוזים מירביים של ירידת ערך (60 אחוזים) וכן מצב של רכב שנועד לפירוק בלבד. פוליסת ביטוח למשאית מהדורת ספטמבר 2021. This table details the conditions for total loss of a vehicle under an insurance policy. It outlines when a vehicle is considered a total loss and the insurer's response.",
+  "payload": "טבלה: אבדן גמור לרכב\nThis table details the conditions for total loss of a vehicle under an insurance policy. It outlines when a vehicle is considered a total loss and the insurer's response.\nממדים: Conditions for total loss, Loss criteria and insurer response\n\nנגרם לרכב אבדן גמור, ישלם המבטח למבוטח את מלוא ערך הרכב,, ביום קרות .6.1 מקרה הביטוח או יחליפו ברכב מסוג ואיכות דומים.\nבפוליסה זו \"רכב באבדן גמור\" - רכב ששמאי רכב קבע לגביו כי נתקיימו אחד מאלה:\nהוא יצא מכלל שימוש והנזק הישיר שנגרם לו, למעט נזק ישיר שנגרם מירידת .6.1.1 אחוזים ומעלה משווי הרכב כולל מיסים. 60 ערך, הוא\nהרכב אינו ניתן עוד לשיקום והוא נועד לפירוק בלבד. .6.1.2\nימים. 30 אם הרכב נגנב ולא נמצא תוך .6.1.3"
 }

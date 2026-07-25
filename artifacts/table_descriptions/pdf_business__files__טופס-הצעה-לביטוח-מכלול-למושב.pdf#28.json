@@ -2,28 +2,27 @@
   "id": "pdf:business/files/טופס-הצעה-לביטוח-מכלול-למושב.pdf#28",
   "source": "llm",
   "description": {
-    "title": "מכלול ביטוח - פרק ראשון",
-    "summary": "This table details the insurance coverage and premiums for the 'Mekhalel' insurance policy, specifically for the first section. It outlines liability limits, self-participation amounts, and additional premium percentages.",
-    "embed_passage": "פוליסת 'מכלול' מספקת כיסוי לנזקים שונים, כאשר גבול אחריות המבטח לפרק ראשון אינו עולה על 10,000,000 ₪. במקרה של נזק בזדון או הצתה, ההשתתפות העצמית היא מינימום 1,000,000 ₪ או 10,000 ₪ מהנזק. עבור כל מיליון ש\"ח נוספים, ייגבו דמי ביטוח נוספים בשיעור של 1M%.",
-    "row_axis": "Coverage/Condition",
-    "column_axis": "Policy Details (Limits, Premiums, Self-Participation)",
+    "title": "כיסויים - מכלול",
+    "summary": "This table details insurance coverage limits and self-participation amounts for the 'מכלול' policy. It outlines the maximum liability, additional premiums for increased coverage, and specific limits for malicious damage and arson.",
+    "embed_passage": "טבלה זו מתארת כיסויים ביטוחיים ותנאים עבור פוליסת 'מכלול'. ניתן למצוא כאן גבולות אחריות, דמי ביטוח נוספים עבור כיסוי מורחב, והשתתפות עצמית במקרה של נזק זדון או הצתה. גבול אחריות המבטח לפרק ראשון לא יעלה על סך ₪ 10,000,000. סכום הביטוח לנזקי זדון והצתה בזדון לא יעלה על סך ₪ 500,000. השתתפות עצמית במקרה ביטוח נזק בזדון ו/או הצתה תהיה ₪ 10,000 מהנזק, מינימום 1M%.",
+    "row_axis": "coverage clauses / conditions",
+    "column_axis": "coverage details (limits, premiums, self-participation)",
     "units": [
       "₪",
       "%"
     ],
     "notable_values": [
-      "גבול אחריות: 10,000,000 ₪",
-      "השתתפות עצמית (נזק בזדון): 1,000,000 ₪",
-      "השתתפות עצמית (כללי): 5,000 ₪",
-      "סכום ביטוח לנזקי זדון: 500,000 ₪",
-      "תוספת פרמיה: 1M%"
+      "גבול אחריות המבטח: ₪ 10,000,000",
+      "סכום הביטוח לנזקי זדון והצתה: ₪ 500,000",
+      "השתתפות עצמית (נזק זדון/הצתה): ₪ 10,000",
+      "השתתפות עצמית (כללי): 2.5%",
+      "דמי ביטוח נוספים: 1M% לכל מיליון ש״ח נוספים"
     ],
     "product_hints": [
-      "מכלול",
-      "ביטוח מכלול"
+      "מכלול"
     ]
   },
   "sketch": "לאירוע. ₪  10,000,000 גבול אחריות המבטח לפרק ראשון לא יעלה על סך .1\nמסה\"כ דמי הביטוח של פרק ראשון לעיל. 1M% עבור כיסוי לכל מיליון ש\"ח נוספים ייגבו דמי ביטוח נוספים בשיעור של .2\n,( למקרה אחד וסה\"כ במצטבר לתקופת הביטוח )כחלק מסכום הביטוח הכללי ₪  500,000 סכום הביטוח לנזקי זדון והצתה בזדון לא יעלה על סך של .3 . אלא אם צוין אחרת ברשימה\n.₪  10,000 מהנזק, מינימום 1M% השתתפות עצמית שתחול במקרה ביטוח נזק בזדון ו/או הצתה תהיה .4",
-  "embed_text": "פוליסת 'מכלול' מספקת כיסוי לנזקים שונים, כאשר גבול אחריות המבטח לפרק ראשון אינו עולה על 10,000,000 ₪. במקרה של נזק בזדון או הצתה, ההשתתפות העצמית היא מינימום 1,000,000 ₪ או 10,000 ₪ מהנזק. עבור כל מיליון ש\"ח נוספים, ייגבו דמי ביטוח נוספים בשיעור של 1M%.",
-  "payload": "טבלה: מכלול ביטוח - פרק ראשון\nThis table details the insurance coverage and premiums for the 'Mekhalel' insurance policy, specifically for the first section. It outlines liability limits, self-participation amounts, and additional premium percentages.\nממדים: Coverage/Condition, Policy Details (Limits, Premiums, Self-Participation)\n\nלאירוע. ₪  10,000,000 גבול אחריות המבטח לפרק ראשון לא יעלה על סך .1\nמסה\"כ דמי הביטוח של פרק ראשון לעיל. 1M% עבור כיסוי לכל מיליון ש\"ח נוספים ייגבו דמי ביטוח נוספים בשיעור של .2\n,( למקרה אחד וסה\"כ במצטבר לתקופת הביטוח )כחלק מסכום הביטוח הכללי ₪  500,000 סכום הביטוח לנזקי זדון והצתה בזדון לא יעלה על סך של .3 . אלא אם צוין אחרת ברשימה\n.₪  10,000 מהנזק, מינימום 1M% השתתפות עצמית שתחול במקרה ביטוח נזק בזדון ו/או הצתה תהיה .4"
+  "embed_text": "טבלה זו מתארת כיסויים ביטוחיים ותנאים עבור פוליסת 'מכלול'. ניתן למצוא כאן גבולות אחריות, דמי ביטוח נוספים עבור כיסוי מורחב, והשתתפות עצמית במקרה של נזק זדון או הצתה. גבול אחריות המבטח לפרק ראשון לא יעלה על סך ₪ 10,000,000. סכום הביטוח לנזקי זדון והצתה בזדון לא יעלה על סך ₪ 500,000. השתתפות עצמית במקרה ביטוח נזק בזדון ו/או הצתה תהיה ₪ 10,000 מהנזק, מינימום 1M%. This table details insurance coverage limits and self-participation amounts for the 'מכלול' policy. It outlines the maximum liability, additional premiums for increased coverage, and specific limits for malicious damage and arson. בין הערכים בטבלה: השתתפות עצמית (כללי): 2.5%.",
+  "payload": "טבלה: כיסויים - מכלול\nThis table details insurance coverage limits and self-participation amounts for the 'מכלול' policy. It outlines the maximum liability, additional premiums for increased coverage, and specific limits for malicious damage and arson.\nממדים: coverage clauses / conditions, coverage details (limits, premiums, self-participation)\n\nלאירוע. ₪  10,000,000 גבול אחריות המבטח לפרק ראשון לא יעלה על סך .1\nמסה\"כ דמי הביטוח של פרק ראשון לעיל. 1M% עבור כיסוי לכל מיליון ש\"ח נוספים ייגבו דמי ביטוח נוספים בשיעור של .2\n,( למקרה אחד וסה\"כ במצטבר לתקופת הביטוח )כחלק מסכום הביטוח הכללי ₪  500,000 סכום הביטוח לנזקי זדון והצתה בזדון לא יעלה על סך של .3 . אלא אם צוין אחרת ברשימה\n.₪  10,000 מהנזק, מינימום 1M% השתתפות עצמית שתחול במקרה ביטוח נזק בזדון ו/או הצתה תהיה .4"
 }

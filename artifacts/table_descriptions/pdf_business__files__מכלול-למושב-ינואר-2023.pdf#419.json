@@ -3,21 +3,21 @@
   "source": "llm",
   "description": {
     "title": "תגמולי ביטוח",
-    "summary": "This table details insurance claim payments and coordination between the insurer and insured. It outlines conditions for direct payment to a third party and how liability limits are handled when claims exceed policy boundaries.",
-    "embed_passage": "פוליסת 'מכלול' עוסקת בתגמולי ביטוח, ומתארת את תהליך התשלום לצד שלישי במקרה של אחריות. לדוגמה, המבטח רשאי לשלם לצד השלישי את תגמולי הביטוח תוך 30 ימים, בתנאי שהודיע מראש למבוטח ולא התקבלה התנגדות. סעיף 12.4 מתייחס לתשלום תגמולים בהתאם לחוק חוזה הביטוח.",
-    "row_axis": "סעיפי הפוליסה הנוגעים לתגמולי ביטוח",
-    "column_axis": "תנאים ותיאורים של תגמולי ביטוח",
+    "summary": "This table details insurance claim payments according to the Insurance Contract Law. It outlines conditions for direct payment to a third party and coordination between insurer and insured when claim amounts exceed liability limits.",
+    "embed_passage": "טבלה זו עוסקת בתגמולי ביטוח, בהתאם לחוק חוזה הביטוח, ומפרטת את התנאים לתשלום ישיר לצד שלישי ואת התיאום בין המבטח למבוטח כאשר סכום התביעה עולה על גבולות האחריות. ניתן למצוא מידע על תשלום תגמולים לצד שלישי, תקופת התנגדות של המבוטח, ופעולות במקרה של חריגה מגבולות האחריות. המבטח רשאי לשלם לצד השלישי את תגמולי הביטוח, בכפוף להודעה מראש של 30 ימים למבוטח ולתקופת התנגדות. במקרה של חריגה מגבולות האחריות, המבטח והמבוטח יפעלו בתיאום הדדי. מכלול, ביטוח אחריות, תגמולי ביטוח, חוק חוזה הביטוח.",
+    "row_axis": "conditions for claim payment",
+    "column_axis": "legal clauses and procedures",
     "units": [],
     "notable_values": [
       "תקופה: 30 ימים",
-      "סעיף: 12.4",
-      "סעיף: 12.5"
+      "חוק חוזה הביטוח: 68"
     ],
     "product_hints": [
-      "מכלול"
+      "מכלול",
+      "ביטוח אחריות"
     ]
   },
   "sketch": "כאמור להלן: לחוק חוזה הביטוח, 68 תשלום תגמולי ביטוח יהיה, בהתאם לסעיף .12.4 \"בביטוח אחריות רשאי המבטח - ולפי דרישת הצד השלישי חייב הוא - לשלם לצד השלישי את תגמולי הביטוח שהמבטח חייב למבוטח, ובלבד שהודיע על כך ימים מראש והמבוטח לא התנגד תוך תקופה זו; אולם טענה 30 בכתב למבוטח ;\" שהמבטח יכול לטעון כלפי המבוטח תעמוד לו גם כלפי הצד השלישי\n.  אם סך התביעה חורג מגבולות האחריות של המבטח, יפעלו המבטח והמבוטח 12.5 בתיאום הדדי; ובלי לגרוע בכלליות האמור, למבוטח תינתן זכות להשתתף בניהול ההגנה באופן פעיל;",
-  "embed_text": "פוליסת 'מכלול' עוסקת בתגמולי ביטוח, ומתארת את תהליך התשלום לצד שלישי במקרה של אחריות. לדוגמה, המבטח רשאי לשלם לצד השלישי את תגמולי הביטוח תוך 30 ימים, בתנאי שהודיע מראש למבוטח ולא התקבלה התנגדות. סעיף 12.4 מתייחס לתשלום תגמולים בהתאם לחוק חוזה הביטוח.",
-  "payload": "טבלה: תגמולי ביטוח\nThis table details insurance claim payments and coordination between the insurer and insured. It outlines conditions for direct payment to a third party and how liability limits are handled when claims exceed policy boundaries.\nממדים: סעיפי הפוליסה הנוגעים לתגמולי ביטוח, תנאים ותיאורים של תגמולי ביטוח\n\nכאמור להלן: לחוק חוזה הביטוח, 68 תשלום תגמולי ביטוח יהיה, בהתאם לסעיף .12.4 \"בביטוח אחריות רשאי המבטח - ולפי דרישת הצד השלישי חייב הוא - לשלם לצד השלישי את תגמולי הביטוח שהמבטח חייב למבוטח, ובלבד שהודיע על כך ימים מראש והמבוטח לא התנגד תוך תקופה זו; אולם טענה 30 בכתב למבוטח ;\" שהמבטח יכול לטעון כלפי המבוטח תעמוד לו גם כלפי הצד השלישי\n.  אם סך התביעה חורג מגבולות האחריות של המבטח, יפעלו המבטח והמבוטח 12.5 בתיאום הדדי; ובלי לגרוע בכלליות האמור, למבוטח תינתן זכות להשתתף בניהול ההגנה באופן פעיל;"
+  "embed_text": "טבלה זו עוסקת בתגמולי ביטוח, בהתאם לחוק חוזה הביטוח, ומפרטת את התנאים לתשלום ישיר לצד שלישי ואת התיאום בין המבטח למבוטח כאשר סכום התביעה עולה על גבולות האחריות. ניתן למצוא מידע על תשלום תגמולים לצד שלישי, תקופת התנגדות של המבוטח, ופעולות במקרה של חריגה מגבולות האחריות. המבטח רשאי לשלם לצד השלישי את תגמולי הביטוח, בכפוף להודעה מראש של 30 ימים למבוטח ולתקופת התנגדות. במקרה של חריגה מגבולות האחריות, המבטח והמבוטח יפעלו בתיאום הדדי. מכלול, ביטוח אחריות, תגמולי ביטוח, חוק חוזה הביטוח. This table details insurance claim payments according to the Insurance Contract Law. It outlines conditions for direct payment to a third party and coordination between insurer and insured when claim amounts exceed liability limits.",
+  "payload": "טבלה: תגמולי ביטוח\nThis table details insurance claim payments according to the Insurance Contract Law. It outlines conditions for direct payment to a third party and coordination between insurer and insured when claim amounts exceed liability limits.\nממדים: conditions for claim payment, legal clauses and procedures\n\nכאמור להלן: לחוק חוזה הביטוח, 68 תשלום תגמולי ביטוח יהיה, בהתאם לסעיף .12.4 \"בביטוח אחריות רשאי המבטח - ולפי דרישת הצד השלישי חייב הוא - לשלם לצד השלישי את תגמולי הביטוח שהמבטח חייב למבוטח, ובלבד שהודיע על כך ימים מראש והמבוטח לא התנגד תוך תקופה זו; אולם טענה 30 בכתב למבוטח ;\" שהמבטח יכול לטעון כלפי המבוטח תעמוד לו גם כלפי הצד השלישי\n.  אם סך התביעה חורג מגבולות האחריות של המבטח, יפעלו המבטח והמבוטח 12.5 בתיאום הדדי; ובלי לגרוע בכלליות האמור, למבוטח תינתן זכות להשתתף בניהול ההגנה באופן פעיל;"
 }

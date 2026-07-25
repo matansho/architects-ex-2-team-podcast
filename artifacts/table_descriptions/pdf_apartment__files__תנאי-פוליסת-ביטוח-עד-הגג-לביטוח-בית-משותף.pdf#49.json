@@ -3,22 +3,22 @@
   "source": "llm",
   "description": {
     "title": "תנאי פוליסת ביטוח עד הגג",
-    "summary": "This table details the insurance compensation terms for apartment owners, specifically regarding loss or damage to their property. It outlines how compensation is calculated and paid, referencing coverage limits and potential deductions.",
-    "embed_passage": "פוליסת 'עד הגג' לביטוח בית משותף מחשבת את תגמולי הביטוח באופן שיביא את בעל הדירה למצב שהיה בו אלמלא קרה מקרה הביטוח. הפיצוי על אבדן הכנסות משכר דירה יכול להיות מחושב לתקופה של עד 12 חודשים, בהתאם לשכר דירה מקובל. סכום הביטוח הנקוב במפרט הוא המקסימום שניתן לקבל.",
-    "row_axis": "Compensation clauses / scenarios",
-    "column_axis": "Compensation details / conditions",
+    "summary": "This table outlines how insurance payouts are calculated for apartment owners. It details compensation for loss or damage, aiming to restore the owner to their pre-incident state.",
+    "embed_passage": "טבלה זו מתארת את אופן חישוב תגמולי הביטוח בפוליסת ביטוח עד הגג לדירה. החישוב נועד להחזיר את בעל הדירה למצב שהיה בו לפני קרות מקרה הביטוח, ככל האפשר. תגמולי הביטוח יכללו פיצוי על אבדן הכנסות משכר דירה או הוצאות שכר דירה, בתנאים מסוימים. הפוליסה רלוונטית לבעלי דירות בבניינים משותפים. תנאי הפוליסה כוללים סעיפים לגבי חישוב הפיצוי, סיכונים לא מכוסים, וסכום הביטוח המקסימלי. ביטוח עד הגג, אבדן הכנסות משכר דירה, הוצאות שכר דירה, חוק המהנדסים והאדריכלים, חוק חוזה הביטוח.",
+    "row_axis": "סעיפי חישוב הפיצוי",
+    "column_axis": "תנאים וסוגי פיצוי",
     "units": [],
     "notable_values": [
-      "period: 12 חודשים",
-      "law year: 1958",
-      "law year: 1981"
+      "תקופה: 12 חודשים",
+      "חוק המהנדסים והאדריכלים: 1958",
+      "חוק חוזה הביטוח: 1981"
     ],
     "product_hints": [
-      "עד הגג",
+      "ביטוח עד הגג",
       "ביטוח בית משותף"
     ]
   },
   "sketch": "תגמולי הביטוח יחושבו באופן שיביא את בעל הדירה, ככל האפשר, למצב שהיה נמצא .3.2 בו אלמלא קרה מקרה הביטוח.\n, גם: 3.1 תגמולי הביטוח שישתלמו לפי פרק זה יכללו, בכפוף לאמור בסעיף קטן .3.3",
-  "embed_text": "פוליסת 'עד הגג' לביטוח בית משותף מחשבת את תגמולי הביטוח באופן שיביא את בעל הדירה למצב שהיה בו אלמלא קרה מקרה הביטוח. הפיצוי על אבדן הכנסות משכר דירה יכול להיות מחושב לתקופה של עד 12 חודשים, בהתאם לשכר דירה מקובל. סכום הביטוח הנקוב במפרט הוא המקסימום שניתן לקבל.",
-  "payload": "טבלה: תנאי פוליסת ביטוח עד הגג\nThis table details the insurance compensation terms for apartment owners, specifically regarding loss or damage to their property. It outlines how compensation is calculated and paid, referencing coverage limits and potential deductions.\nממדים: Compensation clauses / scenarios, Compensation details / conditions\n\nתגמולי הביטוח יחושבו באופן שיביא את בעל הדירה, ככל האפשר, למצב שהיה נמצא .3.2 בו אלמלא קרה מקרה הביטוח.\n, גם: 3.1 תגמולי הביטוח שישתלמו לפי פרק זה יכללו, בכפוף לאמור בסעיף קטן .3.3"
+  "embed_text": "טבלה זו מתארת את אופן חישוב תגמולי הביטוח בפוליסת ביטוח עד הגג לדירה. החישוב נועד להחזיר את בעל הדירה למצב שהיה בו לפני קרות מקרה הביטוח, ככל האפשר. תגמולי הביטוח יכללו פיצוי על אבדן הכנסות משכר דירה או הוצאות שכר דירה, בתנאים מסוימים. הפוליסה רלוונטית לבעלי דירות בבניינים משותפים. תנאי הפוליסה כוללים סעיפים לגבי חישוב הפיצוי, סיכונים לא מכוסים, וסכום הביטוח המקסימלי. ביטוח עד הגג, אבדן הכנסות משכר דירה, הוצאות שכר דירה, חוק המהנדסים והאדריכלים, חוק חוזה הביטוח. This table outlines how insurance payouts are calculated for apartment owners. It details compensation for loss or damage, aiming to restore the owner to their pre-incident state. בין הערכים בטבלה: תקופה: 12 חודשים.",
+  "payload": "טבלה: תנאי פוליסת ביטוח עד הגג\nThis table outlines how insurance payouts are calculated for apartment owners. It details compensation for loss or damage, aiming to restore the owner to their pre-incident state.\nממדים: סעיפי חישוב הפיצוי, תנאים וסוגי פיצוי\n\nתגמולי הביטוח יחושבו באופן שיביא את בעל הדירה, ככל האפשר, למצב שהיה נמצא .3.2 בו אלמלא קרה מקרה הביטוח.\n, גם: 3.1 תגמולי הביטוח שישתלמו לפי פרק זה יכללו, בכפוף לאמור בסעיף קטן .3.3"
 }

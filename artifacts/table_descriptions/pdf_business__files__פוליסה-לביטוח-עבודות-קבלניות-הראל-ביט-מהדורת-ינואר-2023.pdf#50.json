@@ -3,26 +3,24 @@
   "source": "llm",
   "description": {
     "title": "השתתפות עצמית",
-    "summary": "This table details the self-participation amounts for insurance claims under the 'עבודות קבלניות' policy. It specifies the percentage or fixed amount the insured must bear for different risk types.",
-    "embed_passage": "פוליסת 'עבודות קבלניות' של הראל ביט מגדירה את ההשתתפות העצמית הנדרשת מהמבוטח במקרה של נזק. ההשתתפות העצמית משתנה בהתאם לסוג הסיכון, כגון רעידת אדמה או נזקי טבע, והיא מחושבת כאחוז משווי העבודות בפועל או כסכום קבוע. לדוגמה, במקרה של רעידת אדמה, ההשתתפות העצמית היא 10% משווי העבודות.",
-    "row_axis": "Risk type (e.g., earthquake, natural disaster)",
-    "column_axis": "Self-participation details (percentage, minimum/maximum amounts)",
-    "units": [
-      "% משווי העבודות",
-      "₪"
-    ],
+    "summary": "This table details the self-participation amounts for insurance claims covered under this chapter. It specifies the self-participation rate based on the type of insured risk, such as earthquake or natural disasters.",
+    "embed_passage": "טבלה זו מפרטת את סכומי ההשתתפות העצמית עבור תביעות ביטוח המכוסות במסגרת פרק זה. ההשתתפות העצמית משתנה בהתאם לסוג הסיכון המבוטח, כגון רעידת אדמה או נזקי טבע, ומוצגת כשיעור משווי העבודות בפועל או כסכום ספציפי. פוליסת הראל ביטוח עבודות קבלניות בינואר 2023 מציגה את ההשתתפות העצמית עבור מקרי ביטוח שנגרמו על ידי סיכון רעידת אדמה או נזקי טבע. רעידת אדמה, נזקי טבע, שווי העבודות בפועל, סכום מינימום, סכום מקסימום הם מושגים מרכזיים בטבלה זו.",
+    "row_axis": "Type of insurance case (earthquake risk, natural disaster risk)",
+    "column_axis": "Self-participation details",
+    "units": [],
     "notable_values": [
-      "רעידת אדמה: 10%",
-      "השתתפות עצמית: שווי העבודות בפועל",
-      "מינימום: לא מצוין",
-      "מקסימום: לא מצוין"
+      "earthquake risk: 10%",
+      "natural disaster risk: specific self-participation",
+      "self-participation rate: actual work value at the site",
+      "minimum amount: unspecified",
+      "maximum amount: unspecified"
     ],
     "product_hints": [
-      "עבודות קבלניות",
-      "הראל ביט"
+      "הראל ביטוח עבודות קבלניות",
+      "פוליסה לביטוח עבודות קבלניות הראל ביט"
     ]
   },
   "sketch": "השתתפות עצמית .4.6\nבכל מקרה ביטוח המכוסה על פי פרק זה, ישולמו תגמולי הביטוח בניכוי ההשתתפות העצמית, כאשר:\n1.6 בקרות מקרה ביטוח שנגרם על ידי סיכון רעידת אדמה כמוגדר בסעיף .4.6.1 מסכום 10% להגדרות לפרק א' המבוטח יישא בהשתתפות עצמית בשיעור של שווי העבודות בפועל באתר בו אירע הנזק, ביום קרות מקרה הביטוח, אך לא פחות מסכום המינימום ולא יותר מסכום המקסימום הנקובים ברשימה.\n1.7 בקרות מקרה ביטוח שנגרם על ידי סיכון נזקי טבע כמוגדר בסעיף .4.6.2 להגדרות לפרק א', המבוטח יישא בהשתתפות עצמית הספציפית הנקובה ברשימה בגין סיכון זה.",
-  "embed_text": "פוליסת 'עבודות קבלניות' של הראל ביט מגדירה את ההשתתפות העצמית הנדרשת מהמבוטח במקרה של נזק. ההשתתפות העצמית משתנה בהתאם לסוג הסיכון, כגון רעידת אדמה או נזקי טבע, והיא מחושבת כאחוז משווי העבודות בפועל או כסכום קבוע. לדוגמה, במקרה של רעידת אדמה, ההשתתפות העצמית היא 10% משווי העבודות.",
-  "payload": "טבלה: השתתפות עצמית\nThis table details the self-participation amounts for insurance claims under the 'עבודות קבלניות' policy. It specifies the percentage or fixed amount the insured must bear for different risk types.\nממדים: Risk type (e.g., earthquake, natural disaster), Self-participation details (percentage, minimum/maximum amounts)\n\nהשתתפות עצמית .4.6\nבכל מקרה ביטוח המכוסה על פי פרק זה, ישולמו תגמולי הביטוח בניכוי ההשתתפות העצמית, כאשר:\n1.6 בקרות מקרה ביטוח שנגרם על ידי סיכון רעידת אדמה כמוגדר בסעיף .4.6.1 מסכום 10% להגדרות לפרק א' המבוטח יישא בהשתתפות עצמית בשיעור של שווי העבודות בפועל באתר בו אירע הנזק, ביום קרות מקרה הביטוח, אך לא פחות מסכום המינימום ולא יותר מסכום המקסימום הנקובים ברשימה.\n1.7 בקרות מקרה ביטוח שנגרם על ידי סיכון נזקי טבע כמוגדר בסעיף .4.6.2 להגדרות לפרק א', המבוטח יישא בהשתתפות עצמית הספציפית הנקובה ברשימה בגין סיכון זה."
+  "embed_text": "טבלה זו מפרטת את סכומי ההשתתפות העצמית עבור תביעות ביטוח המכוסות במסגרת פרק זה. ההשתתפות העצמית משתנה בהתאם לסוג הסיכון המבוטח, כגון רעידת אדמה או נזקי טבע, ומוצגת כשיעור משווי העבודות בפועל או כסכום ספציפי. פוליסת הראל ביטוח עבודות קבלניות בינואר 2023 מציגה את ההשתתפות העצמית עבור מקרי ביטוח שנגרמו על ידי סיכון רעידת אדמה או נזקי טבע. רעידת אדמה, נזקי טבע, שווי העבודות בפועל, סכום מינימום, סכום מקסימום הם מושגים מרכזיים בטבלה זו. This table details the self-participation amounts for insurance claims covered under this chapter. It specifies the self-participation rate based on the type of insured risk, such as earthquake or natural disasters. בין הערכים בטבלה: earthquake risk: 10%; natural disaster risk: specific self-participation; self-participation rate: actual work value at the site;…",
+  "payload": "טבלה: השתתפות עצמית\nThis table details the self-participation amounts for insurance claims covered under this chapter. It specifies the self-participation rate based on the type of insured risk, such as earthquake or natural disasters.\nממדים: Type of insurance case (earthquake risk, natural disaster risk), Self-participation details\n\nהשתתפות עצמית .4.6\nבכל מקרה ביטוח המכוסה על פי פרק זה, ישולמו תגמולי הביטוח בניכוי ההשתתפות העצמית, כאשר:\n1.6 בקרות מקרה ביטוח שנגרם על ידי סיכון רעידת אדמה כמוגדר בסעיף .4.6.1 מסכום 10% להגדרות לפרק א' המבוטח יישא בהשתתפות עצמית בשיעור של שווי העבודות בפועל באתר בו אירע הנזק, ביום קרות מקרה הביטוח, אך לא פחות מסכום המינימום ולא יותר מסכום המקסימום הנקובים ברשימה.\n1.7 בקרות מקרה ביטוח שנגרם על ידי סיכון נזקי טבע כמוגדר בסעיף .4.6.2 להגדרות לפרק א', המבוטח יישא בהשתתפות עצמית הספציפית הנקובה ברשימה בגין סיכון זה."
 }

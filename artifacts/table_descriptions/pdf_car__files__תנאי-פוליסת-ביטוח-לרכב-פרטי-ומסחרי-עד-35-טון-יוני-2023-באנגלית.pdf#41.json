@@ -2,24 +2,23 @@
   "id": "pdf:car/files/תנאי-פוליסת-ביטוח-לרכב-פרטי-ומסחרי-עד-35-טון-יוני-2023-באנגלית.pdf#41",
   "source": "llm",
   "description": {
-    "title": "כיסויים ביטוחיים",
-    "summary": "This table lists the covered events under a car insurance policy. It details the types of damages and incidents for which the insurer will provide compensation.",
-    "embed_passage": "פוליסת ביטוח לרכב פרטי ומסחרי מכסה מגוון רחב של אירועים, כגון שריפה, התלקחות, התנגשות, גניבה, ופגעי טבע כמו שיטפון וברד. הכיסויים מפורטים בסעיפים 1.1 עד 1.5, ומטרתם להגן על המבוטח מפני הפסדים כספיים כתוצאה מנזקים אלו.",
-    "row_axis": "Type of covered event",
-    "column_axis": "Description of the event",
+    "title": "כיסויים",
+    "summary": "This table lists covered events under a car insurance policy. It details the types of incidents for which the insurer provides coverage.",
+    "embed_passage": "טבלה זו מפרטת את הכיסויים הכלולים בפוליסת ביטוח רכב, ומציינת סוגי האירועים המכוסים. ניתן לחפש כיסוי ספציפי לפי סוג הנזק או האירוע. הפוליסה כוללת כיסוי עבור שריפה, התלקחות, התנגשות, גניבה, נזקי טבע כמו שיטפון וברד. כיסויים אלו חלים על רכבים פרטיים ומסחריים עד 35 טון. סוגי נזקים כוללים שריפה, התלקחות, התנגשות, גניבה, ונזקי טבע. סוגי אירועים מכוסים: שריפה, התלקחות, פיצוץ, בעירה; התנגשות מקרית, התהפכות ותאונה מכל סוג; גניבה; כל נזק שנגרם כתוצאה מגניבה, במהלך גניבה ובמהלך ניסיון גניבה; שיטפון, סערה, שלג וברד, התפרצות געשית.",
+    "row_axis": "סוג כיסוי",
+    "column_axis": "תיאור האירוע",
     "units": [],
     "notable_values": [
-      "Fire: covered",
-      "Collision: covered",
-      "Theft: covered",
-      "Flood: covered",
-      "Hail: covered"
+      "שריפה: כיסוי לנזקי שריפה, התלקחות, פיצוץ ובעירה",
+      "התנגשות: כיסוי להתנגשות מקרית, התהפכות ותאונה מכל סוג",
+      "גניבה: כיסוי לנזקי גניבה, במהלך גניבה ובמהלך ניסיון גניבה",
+      "נזקי טבע: כיסוי לנזקי שיטפון, סערה, שלג וברד, התפרצות געשית"
     ],
     "product_hints": [
-      "ביטוח לרכב פרטי ומסחרי"
+      "ביטוח רכב"
     ]
   },
   "sketch": "1.1 Fire, lightning, explosion, combustion;\n1.2 Accidental collision, overturning and an accident of any kind;\n1.3 Theft;\n1.4 Any damage caused as a result of theft, in the course of theft and during attempted theft;\n1.5 Flood, storm, snow and hail, volcanic eruption;",
-  "embed_text": "פוליסת ביטוח לרכב פרטי ומסחרי מכסה מגוון רחב של אירועים, כגון שריפה, התלקחות, התנגשות, גניבה, ופגעי טבע כמו שיטפון וברד. הכיסויים מפורטים בסעיפים 1.1 עד 1.5, ומטרתם להגן על המבוטח מפני הפסדים כספיים כתוצאה מנזקים אלו.",
-  "payload": "טבלה: כיסויים ביטוחיים\nThis table lists the covered events under a car insurance policy. It details the types of damages and incidents for which the insurer will provide compensation.\nממדים: Type of covered event, Description of the event\n\n1.1 Fire, lightning, explosion, combustion;\n1.2 Accidental collision, overturning and an accident of any kind;\n1.3 Theft;\n1.4 Any damage caused as a result of theft, in the course of theft and during attempted theft;\n1.5 Flood, storm, snow and hail, volcanic eruption;"
+  "embed_text": "טבלה זו מפרטת את הכיסויים הכלולים בפוליסת ביטוח רכב, ומציינת סוגי האירועים המכוסים. ניתן לחפש כיסוי ספציפי לפי סוג הנזק או האירוע. הפוליסה כוללת כיסוי עבור שריפה, התלקחות, התנגשות, גניבה, נזקי טבע כמו שיטפון וברד. כיסויים אלו חלים על רכבים פרטיים ומסחריים עד 35 טון. סוגי נזקים כוללים שריפה, התלקחות, התנגשות, גניבה, ונזקי טבע. סוגי אירועים מכוסים: שריפה, התלקחות, פיצוץ, בעירה; התנגשות מקרית, התהפכות ותאונה מכל סוג; גניבה; כל נזק שנגרם כתוצאה מגניבה, במהלך גניבה ובמהלך ניסיון גניבה; שיטפון, סערה, שלג וברד, התפרצות געשית. This table lists covered events under a car insurance policy. It details the types of incidents for which the insurer provides coverage.",
+  "payload": "טבלה: כיסויים\nThis table lists covered events under a car insurance policy. It details the types of incidents for which the insurer provides coverage.\nממדים: סוג כיסוי, תיאור האירוע\n\n1.1 Fire, lightning, explosion, combustion;\n1.2 Accidental collision, overturning and an accident of any kind;\n1.3 Theft;\n1.4 Any damage caused as a result of theft, in the course of theft and during attempted theft;\n1.5 Flood, storm, snow and hail, volcanic eruption;"
 }

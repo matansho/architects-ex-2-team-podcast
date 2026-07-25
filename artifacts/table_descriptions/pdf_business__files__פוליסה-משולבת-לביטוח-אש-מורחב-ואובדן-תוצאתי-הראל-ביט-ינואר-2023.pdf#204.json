@@ -2,23 +2,23 @@
   "id": "pdf:business/files/פוליסה-משולבת-לביטוח-אש-מורחב-ואובדן-תוצאתי-הראל-ביט-ינואר-2023.pdf#204",
   "source": "llm",
   "description": {
-    "title": "ביטול ביטוח",
-    "summary": "This table details the conditions for policy cancellation by both the insurer and the insured. It outlines the notice periods required and potential refunds.",
-    "embed_passage": "פוליסת הראל ביטוח מאפשרת למבוטח לבטל את הביטוח בכל עת לפני תום תקופת הביטוח, בכפוף להודעה מראש. המבטח רשאי לבטל את הביטוח לפני תום התקופה, בהתאם לשיקול דעתו, ובלבד שתישלח הודעה בכתב לפחות 60 ימים מראש. במקרה של ביטול, המבוטח זכאי להחזר דמי ביטוח יחסיים לתקופה שלאחר הביטול.",
-    "row_axis": "Cancellation conditions (insurer/insured)",
-    "column_axis": "Cancellation rights, notice periods, refund eligibility",
+    "title": "ביטול הביטוח",
+    "summary": "This table details the conditions for policy cancellation by either the insurer or the insured. It outlines the required notice period and potential refunds.",
+    "embed_passage": "טבלה זו מתארת את תנאי ביטול הפוליסה על ידי המבטח או המבוטח. היא מפרטת את תקופת ההודעה הנדרשת והחזרים אפשריים. ביטול הביטוח רלוונטי לתקופת הביטוח, ודורש הודעה מוקדמת של 60 ימים. המבטח רשאי לבטל את הביטוח בכל עת, בעוד שהמבוטח רשאי לבטל בכל עת לפי שיקול דעתו. ביטול הביטוח כרוך בהחזר יחסי של דמי הביטוח. ביטול, דמי ביטוח, תקופת ביטוח, שיקול דעת.",
+    "row_axis": "Cancellation conditions (insurer or insured)",
+    "column_axis": "Cancellation details (notice period, refund eligibility)",
     "units": [],
     "notable_values": [
-      "notice period (insurer): 60 days",
+      "notice period: 60 days",
+      "refund eligibility: proportional premium",
       "cancellation by insurer: at any time",
       "cancellation by insured: at any time"
     ],
     "product_hints": [
-      "הראל ביטוח",
-      "פוליסת ביטוח"
+      "פוליסה משולבת לביטוח אש מורחב ואובדן תוצאתי הראל"
     ]
   },
   "sketch": "ביטול הביטוח .13.5\n, מבלי לגרוע מזכויות המבטח על פי דין או על פי הוראה אחרת כלשהי בפוליסה .13.5.1 המבטח רשאי לבטל את הביטוח בכל עת לפני תום תקופת הביטוח, לפי ימים 60 שיקול דעתו, ובלבד שהודעה על כך תישלח למבוטח בכתב לפחות לפני התאריך בו יתבטל הביטוח.\nבמקרה כאמור המבוטח יהיה זכאי להחזר / זיכוי )לפי העניין( בגין דמי ( הביטוח היחסיים ששילם למבטח / שהתחייב לשלם למבטח)לפי העניין בעד התקופה שלאחר ביטול הביטוח.\n.  המבוטח רשאי לבטל את הביטוח בכל עת לפני תום תקופת הביטוח, לפי 13.5.2 שיקול דעתו, ובלבד שהודעה על כך תישלח למבטח לפני התאריך בו יתבטל הביטוח.",
-  "embed_text": "פוליסת הראל ביטוח מאפשרת למבוטח לבטל את הביטוח בכל עת לפני תום תקופת הביטוח, בכפוף להודעה מראש. המבטח רשאי לבטל את הביטוח לפני תום התקופה, בהתאם לשיקול דעתו, ובלבד שתישלח הודעה בכתב לפחות 60 ימים מראש. במקרה של ביטול, המבוטח זכאי להחזר דמי ביטוח יחסיים לתקופה שלאחר הביטול.",
-  "payload": "טבלה: ביטול ביטוח\nThis table details the conditions for policy cancellation by both the insurer and the insured. It outlines the notice periods required and potential refunds.\nממדים: Cancellation conditions (insurer/insured), Cancellation rights, notice periods, refund eligibility\n\nביטול הביטוח .13.5\n, מבלי לגרוע מזכויות המבטח על פי דין או על פי הוראה אחרת כלשהי בפוליסה .13.5.1 המבטח רשאי לבטל את הביטוח בכל עת לפני תום תקופת הביטוח, לפי ימים 60 שיקול דעתו, ובלבד שהודעה על כך תישלח למבוטח בכתב לפחות לפני התאריך בו יתבטל הביטוח.\nבמקרה כאמור המבוטח יהיה זכאי להחזר / זיכוי )לפי העניין( בגין דמי ( הביטוח היחסיים ששילם למבטח / שהתחייב לשלם למבטח)לפי העניין בעד התקופה שלאחר ביטול הביטוח.\n.  המבוטח רשאי לבטל את הביטוח בכל עת לפני תום תקופת הביטוח, לפי 13.5.2 שיקול דעתו, ובלבד שהודעה על כך תישלח למבטח לפני התאריך בו יתבטל הביטוח."
+  "embed_text": "טבלה זו מתארת את תנאי ביטול הפוליסה על ידי המבטח או המבוטח. היא מפרטת את תקופת ההודעה הנדרשת והחזרים אפשריים. ביטול הביטוח רלוונטי לתקופת הביטוח, ודורש הודעה מוקדמת של 60 ימים. המבטח רשאי לבטל את הביטוח בכל עת, בעוד שהמבוטח רשאי לבטל בכל עת לפי שיקול דעתו. ביטול הביטוח כרוך בהחזר יחסי של דמי הביטוח. ביטול, דמי ביטוח, תקופת ביטוח, שיקול דעת. This table details the conditions for policy cancellation by either the insurer or the insured. It outlines the required notice period and potential refunds. בין הערכים בטבלה: notice period: 60 days; refund eligibility: proportional premium; cancellation by insurer: at any time; cancellation by insured: at any time.",
+  "payload": "טבלה: ביטול הביטוח\nThis table details the conditions for policy cancellation by either the insurer or the insured. It outlines the required notice period and potential refunds.\nממדים: Cancellation conditions (insurer or insured), Cancellation details (notice period, refund eligibility)\n\nביטול הביטוח .13.5\n, מבלי לגרוע מזכויות המבטח על פי דין או על פי הוראה אחרת כלשהי בפוליסה .13.5.1 המבטח רשאי לבטל את הביטוח בכל עת לפני תום תקופת הביטוח, לפי ימים 60 שיקול דעתו, ובלבד שהודעה על כך תישלח למבוטח בכתב לפחות לפני התאריך בו יתבטל הביטוח.\nבמקרה כאמור המבוטח יהיה זכאי להחזר / זיכוי )לפי העניין( בגין דמי ( הביטוח היחסיים ששילם למבטח / שהתחייב לשלם למבטח)לפי העניין בעד התקופה שלאחר ביטול הביטוח.\n.  המבוטח רשאי לבטל את הביטוח בכל עת לפני תום תקופת הביטוח, לפי 13.5.2 שיקול דעתו, ובלבד שהודעה על כך תישלח למבטח לפני התאריך בו יתבטל הביטוח."
 }

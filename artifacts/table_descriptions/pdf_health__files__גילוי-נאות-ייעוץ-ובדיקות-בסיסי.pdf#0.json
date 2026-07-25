@@ -3,24 +3,24 @@
   "source": "llm",
   "description": {
     "title": "דמי ביטוח - ייעוץ ובדיקות בסיסי",
-    "summary": "This table shows insurance premiums for 'ייעוץ ובדיקות בסיסי' based on the insured's age. It is used to look up the cost of insurance as a function of age.",
-    "embed_passage": "פוליסת 'ייעוץ ובדיקות בסיסי' מציגה את דמי הביטוח בהתאם לגיל המבוטח. לדוגמה, גיל 40 משפיע על חישוב דמי הביטוח, והמחיר משתנה בהתאם למצב הרפואי. ניתן למצוא פרטים נוספים באתר האינטרנט www.harel-group.co.il.",
-    "row_axis": "Age of the insured (as of the first day of the month of birth)",
-    "column_axis": "Insurance premium details (phone, fax, email, address, website)",
+    "summary": "This table shows insurance premiums for 'ייעוץ ובדיקות בסיסי' (Basic Consultation and Tests) based on the insured's age. It is used to look up the premium amount corresponding to a specific age.",
+    "embed_passage": "טבלה זו מציגה את דמי הביטוח עבור תכנית 'ייעוץ ובדיקות בסיסי' בהתאם לגיל המבוטח. ניתן לחפש את סכום הפרמיה המתאים לגיל מסוים. המידע כולל פרטי התקשרות של הראל חברה לביטוח, כגון טלפון, פקס, כתובת דואר אלקטרוני וכתובת אתר. גיל המבוטח משמש כציר מרכזי לחישוב דמי הביטוח. הראל, 037348178, polisotbs@harel-ins.co.il, www.harel-group.co.il, 1951, 5211802.",
+    "row_axis": "גיל המבוטח (insured's age)",
+    "column_axis": "פרטי התקשרות (contact details) ומידע כללי (general information)",
     "units": [],
     "notable_values": [
-      "Phone: 037348178",
-      "Email: polisotbs@harel-ins.co.il",
-      "Address: 5211802 גן, רמת 1951 ת\"ד, 3 הלל אבא",
-      "Website: www.harel-group.co.il",
-      "Edition number: 527"
+      "טלפון: 037348178",
+      "דואר אלקטרוני: polisotbs@harel-ins.co.il",
+      "ת.ד: 1951",
+      "מספר תכנית: 527",
+      "מהדורה: 09/2024"
     ],
     "product_hints": [
       "ייעוץ ובדיקות בסיסי",
-      "Harel"
+      "הראל"
     ]
   },
   "sketch": "0,1,2,3\n2735* טלפון 037348178 פקס,כ האלקטרוני הדואר תובת polisotbs@harel-ins.co.il,\"רמת ,1951 ת\"\"ד ,3 הלל אבא 5211802 גן\",ט רנ האינט אתר תובת כ www.harel-group.co.il",
-  "embed_text": "פוליסת 'ייעוץ ובדיקות בסיסי' מציגה את דמי הביטוח בהתאם לגיל המבוטח. לדוגמה, גיל 40 משפיע על חישוב דמי הביטוח, והמחיר משתנה בהתאם למצב הרפואי. ניתן למצוא פרטים נוספים באתר האינטרנט www.harel-group.co.il.",
-  "payload": "טבלה: דמי ביטוח - ייעוץ ובדיקות בסיסי\nThis table shows insurance premiums for 'ייעוץ ובדיקות בסיסי' based on the insured's age. It is used to look up the cost of insurance as a function of age.\nממדים: Age of the insured (as of the first day of the month of birth), Insurance premium details (phone, fax, email, address, website)\n\n0,1,2,3\n2735* טלפון 037348178 פקס,כ האלקטרוני הדואר תובת polisotbs@harel-ins.co.il,\"רמת ,1951 ת\"\"ד ,3 הלל אבא 5211802 גן\",ט רנ האינט אתר תובת כ www.harel-group.co.il"
+  "embed_text": "טבלה זו מציגה את דמי הביטוח עבור תכנית 'ייעוץ ובדיקות בסיסי' בהתאם לגיל המבוטח. ניתן לחפש את סכום הפרמיה המתאים לגיל מסוים. המידע כולל פרטי התקשרות של הראל חברה לביטוח, כגון טלפון, פקס, כתובת דואר אלקטרוני וכתובת אתר. גיל המבוטח משמש כציר מרכזי לחישוב דמי הביטוח. הראל, 037348178, polisotbs@harel-ins.co.il, www.harel-group.co.il, 1951, 5211802. This table shows insurance premiums for 'ייעוץ ובדיקות בסיסי' (Basic Consultation and Tests) based on the insured's age. It is used to look up the premium amount corresponding to a specific age. בין הערכים בטבלה: מספר תכנית: 527; מהדורה: 09/2024.",
+  "payload": "טבלה: דמי ביטוח - ייעוץ ובדיקות בסיסי\nThis table shows insurance premiums for 'ייעוץ ובדיקות בסיסי' (Basic Consultation and Tests) based on the insured's age. It is used to look up the premium amount corresponding to a specific age.\nממדים: גיל המבוטח (insured's age), פרטי התקשרות (contact details) ומידע כללי (general information)\n\n0,1,2,3\n2735* טלפון 037348178 פקס,כ האלקטרוני הדואר תובת polisotbs@harel-ins.co.il,\"רמת ,1951 ת\"\"ד ,3 הלל אבא 5211802 גן\",ט רנ האינט אתר תובת כ www.harel-group.co.il"
 }

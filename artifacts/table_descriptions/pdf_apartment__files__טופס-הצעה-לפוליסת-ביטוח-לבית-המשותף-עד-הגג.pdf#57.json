@@ -2,24 +2,27 @@
   "id": "pdf:apartment/files/טופס-הצעה-לפוליסת-ביטוח-לבית-המשותף-עד-הגג.pdf#57",
   "source": "llm",
   "description": {
-    "title": "ביטוח תכולת בית משותף",
-    "summary": "This table details coverage for common property within an apartment building, including potential damage from various risks. It outlines what is covered under 'פרק ב' (Chapter 2) of the policy.",
-    "embed_passage": "פוליסת ביטוח תכולת הבית המשותף מכסה נזקים לפריטים השייכים לכל דיירי הבית המשותף, כתוצאה מסיכונים כמו שריפה, התפוצצות, רוח במהירות של 30 או יותר, וגניבה. הכיסוי מתייחס גם לנזקים שנגרמו מגשם או ברד, למעט דליפת מי גשם.",
-    "row_axis": "types of risks covered under the common property insurance",
-    "column_axis": "details of coverage for each risk",
+    "title": "תכולת הבית המשותף",
+    "summary": "This table details coverage for property damage to common areas of an apartment building. It lists various risks covered under 'פרק ב' (Chapter B) of the insurance policy.",
+    "embed_passage": "טבלה זו מתארת כיסוי לנזקים לרכוש המשותף בבית המשותף, כחלק מ'פרק ב' בפוליסת הביטוח. הכיסוי כולל נזקים כתוצאה מסיכונים שונים כגון שריפה, התפוצצות, רוח חזקה, גניבה ורעידת אדמה. ניתן לרכוש כיסוי לנזקי מים ונוזלים, וחשוב לבדוק את תנאי הפוליסה לגבי דליפת מי גשם.  הטבלה מפרטת סיכונים כמו שריפה, התפוצצות, רוח שמהירותה עולה על 30 קשר, נפילת כלי טיס, פעולות זדון, גניבה, רעידת אדמה ושטפון.",
+    "row_axis": "covered risks",
+    "column_axis": "risk details/exclusions",
     "units": [],
     "notable_values": [
-      "wind speed: 30+",
+      "wind speed: 30 knots",
       "risk: fire",
       "risk: explosion",
       "risk: theft",
-      "risk: vandalism"
+      "risk: earthquake",
+      "risk: malicious acts",
+      "risk: aircraft fall",
+      "risk: flooding"
     ],
     "product_hints": [
-      "ביטוח תכולת בית משותף"
+      "ביטוח לבית המשותף"
     ]
   },
   "sketch": "פרק ב' - ביטוח תכולת הבית המשותף\nפרק זה מכסה נזקים שיגרמו לפריטי הרכוש המשותף הנמצאים בתוך מבנה הבית המשותף, וכן פריטים שמטבעם להימצא מחוץ למבנה הבית המשותף, השייכים לכלל דיירי הבית המשותף;\nקשר לרבות גשם שירד באותה עת, שלג 30 זאת כתוצאה מסיכונים שונים המפורטים בפוליסה, כגון: שריפה; התפוצצות; רוח שמהירותה עולה על או ברד, למעט דליפת מי גשם; נפילת כלי טיס; פעולות זדון; גניבה, שוד, פריצה; התקהלות אסורה והתפרעות; רעידת אדמה; שטפון.",
-  "embed_text": "פוליסת ביטוח תכולת הבית המשותף מכסה נזקים לפריטים השייכים לכל דיירי הבית המשותף, כתוצאה מסיכונים כמו שריפה, התפוצצות, רוח במהירות של 30 או יותר, וגניבה. הכיסוי מתייחס גם לנזקים שנגרמו מגשם או ברד, למעט דליפת מי גשם.",
-  "payload": "טבלה: ביטוח תכולת בית משותף\nThis table details coverage for common property within an apartment building, including potential damage from various risks. It outlines what is covered under 'פרק ב' (Chapter 2) of the policy.\nממדים: types of risks covered under the common property insurance, details of coverage for each risk\n\nפרק ב' - ביטוח תכולת הבית המשותף\nפרק זה מכסה נזקים שיגרמו לפריטי הרכוש המשותף הנמצאים בתוך מבנה הבית המשותף, וכן פריטים שמטבעם להימצא מחוץ למבנה הבית המשותף, השייכים לכלל דיירי הבית המשותף;\nקשר לרבות גשם שירד באותה עת, שלג 30 זאת כתוצאה מסיכונים שונים המפורטים בפוליסה, כגון: שריפה; התפוצצות; רוח שמהירותה עולה על או ברד, למעט דליפת מי גשם; נפילת כלי טיס; פעולות זדון; גניבה, שוד, פריצה; התקהלות אסורה והתפרעות; רעידת אדמה; שטפון."
+  "embed_text": "טבלה זו מתארת כיסוי לנזקים לרכוש המשותף בבית המשותף, כחלק מ'פרק ב' בפוליסת הביטוח. הכיסוי כולל נזקים כתוצאה מסיכונים שונים כגון שריפה, התפוצצות, רוח חזקה, גניבה ורעידת אדמה. ניתן לרכוש כיסוי לנזקי מים ונוזלים, וחשוב לבדוק את תנאי הפוליסה לגבי דליפת מי גשם.  הטבלה מפרטת סיכונים כמו שריפה, התפוצצות, רוח שמהירותה עולה על 30 קשר, נפילת כלי טיס, פעולות זדון, גניבה, רעידת אדמה ושטפון. This table details coverage for property damage to common areas of an apartment building. It lists various risks covered under 'פרק ב' (Chapter B) of the insurance policy. בין הערכים בטבלה: wind speed: 30 knots; risk: fire; risk: explosion; risk: theft; risk: earthquake; risk: malicious acts; risk: aircraft fall; risk: flooding.",
+  "payload": "טבלה: תכולת הבית המשותף\nThis table details coverage for property damage to common areas of an apartment building. It lists various risks covered under 'פרק ב' (Chapter B) of the insurance policy.\nממדים: covered risks, risk details/exclusions\n\nפרק ב' - ביטוח תכולת הבית המשותף\nפרק זה מכסה נזקים שיגרמו לפריטי הרכוש המשותף הנמצאים בתוך מבנה הבית המשותף, וכן פריטים שמטבעם להימצא מחוץ למבנה הבית המשותף, השייכים לכלל דיירי הבית המשותף;\nקשר לרבות גשם שירד באותה עת, שלג 30 זאת כתוצאה מסיכונים שונים המפורטים בפוליסה, כגון: שריפה; התפוצצות; רוח שמהירותה עולה על או ברד, למעט דליפת מי גשם; נפילת כלי טיס; פעולות זדון; גניבה, שוד, פריצה; התקהלות אסורה והתפרעות; רעידת אדמה; שטפון."
 }

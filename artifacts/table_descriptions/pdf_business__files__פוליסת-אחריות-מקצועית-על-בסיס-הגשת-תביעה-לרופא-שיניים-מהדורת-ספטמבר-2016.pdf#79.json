@@ -3,23 +3,23 @@
   "source": "llm",
   "description": {
     "title": "ביטול פוליסה",
-    "summary": "This table details the conditions under which an insurance policy can be canceled, specifically regarding incomplete or dishonest responses to inquiries. It outlines timeframes (30 days) for the insurer to act and the potential for refunding premiums.",
-    "embed_passage": "פוליסת אחריות מקצועית לרופא שיניים מאפשרת למבטח לבטל את הפוליסה תוך 30 ימים מהיום שנודע על מידע לא כנה. הביטול אפשרי כל עוד לא קרה מקרה הביטוח, והמבוטח זכאי להחזר דמי ביטוח עבור התקופה שלאחר הביטול, אלא אם פעל בכוונת מרמה. לדוגמה, אם המבטח קיבל תשובה שאינה מלאה תוך 30 יום, הוא רשאי לבטל את הפוליסה.",
-    "row_axis": "Cancellation conditions based on response accuracy",
-    "column_axis": "Timeframe for insurer action, refund eligibility",
-    "units": [
-      "ימים"
-    ],
+    "summary": "This table details the conditions under which an insurer can cancel a policy, specifically related to incomplete or dishonest responses from the insured. It outlines the timeframe for cancellation and the potential for premium refunds.",
+    "embed_passage": "טבלה זו מתארת את התנאים שבהם מבטח רשאי לבטל פוליסה, במיוחד בנוגע לתשובות לא שלמות או לא כנות מהמבוטח. הפוליסה עשויה להתבטל תוך 30 ימים מהיום שנודע למבטח על מידע חסר או שינוי מהותי, או תוך 30 ימים מהיום שנמסרה תשובה לא מלאה וכנה. ביטול החוזה על ידי המבטח מזכה את המבוטח בהחזר דמי ביטוח ששולמו עבור התקופה שלאחר הביטול, אלא אם המבוטח פעל בכוונת מרמה. הפוליסה רלוונטית לפוליסת אחריות מקצועית לרופא שיניים, מהדורת ספטמבר 2016. התנאים מתייחסים לביטול פוליסה, החזר דמי ביטוח, ופעולה בכוונת מרמה.",
+    "row_axis": "תנאי ביטול",
+    "column_axis": "סעיפי ביטול והשלכות",
+    "units": [],
     "notable_values": [
-      "timeframe: 30 ימים",
-      "refund eligibility: depends on intent",
-      "condition: incomplete/dishonest response"
+      "תקופת זמן לביטול: 30 ימים",
+      "החזר דמי ביטוח: זכאי (אלא אם מרמה)",
+      "תנאי לביטול: תשובה לא מלאה וכנה",
+      "תנאי לביטול: שינוי מהותי"
     ],
     "product_hints": [
-      "פוליסת אחריות מקצועית לרופא שיניים"
+      "פוליסת אחריות מקצועית לרופא שיניים",
+      "פוליסת אחריות מקצועית"
     ]
   },
   "sketch": "ימים מהיום שנמסרה למבטח תשובה שאינה מלאה וכנה או הודעה 30 תוך .4.2.7 ימים מהיום שנודע על מידע כאמור למבטח בדרך 30 על שינוי מהותי או תוך אחרת, רשאי המבטח, כל עוד לא קרה מקרה הביטוח, לבטל את הפוליסה מיד בהודעה בכתב למבוטח.\nביטל המבטח החוזה מכח סעיף זה, עובר לקרות מקרה ביטוח, זכאי המבוטח להחזר דמי ביטוח ששילם בעד התקופה שלאחר הביטול זולת אם המבוטח פעל בכוונת מרמה.",
-  "embed_text": "פוליסת אחריות מקצועית לרופא שיניים מאפשרת למבטח לבטל את הפוליסה תוך 30 ימים מהיום שנודע על מידע לא כנה. הביטול אפשרי כל עוד לא קרה מקרה הביטוח, והמבוטח זכאי להחזר דמי ביטוח עבור התקופה שלאחר הביטול, אלא אם פעל בכוונת מרמה. לדוגמה, אם המבטח קיבל תשובה שאינה מלאה תוך 30 יום, הוא רשאי לבטל את הפוליסה.",
-  "payload": "טבלה: ביטול פוליסה\nThis table details the conditions under which an insurance policy can be canceled, specifically regarding incomplete or dishonest responses to inquiries. It outlines timeframes (30 days) for the insurer to act and the potential for refunding premiums.\nממדים: Cancellation conditions based on response accuracy, Timeframe for insurer action, refund eligibility\n\nימים מהיום שנמסרה למבטח תשובה שאינה מלאה וכנה או הודעה 30 תוך .4.2.7 ימים מהיום שנודע על מידע כאמור למבטח בדרך 30 על שינוי מהותי או תוך אחרת, רשאי המבטח, כל עוד לא קרה מקרה הביטוח, לבטל את הפוליסה מיד בהודעה בכתב למבוטח.\nביטל המבטח החוזה מכח סעיף זה, עובר לקרות מקרה ביטוח, זכאי המבוטח להחזר דמי ביטוח ששילם בעד התקופה שלאחר הביטול זולת אם המבוטח פעל בכוונת מרמה."
+  "embed_text": "טבלה זו מתארת את התנאים שבהם מבטח רשאי לבטל פוליסה, במיוחד בנוגע לתשובות לא שלמות או לא כנות מהמבוטח. הפוליסה עשויה להתבטל תוך 30 ימים מהיום שנודע למבטח על מידע חסר או שינוי מהותי, או תוך 30 ימים מהיום שנמסרה תשובה לא מלאה וכנה. ביטול החוזה על ידי המבטח מזכה את המבוטח בהחזר דמי ביטוח ששולמו עבור התקופה שלאחר הביטול, אלא אם המבוטח פעל בכוונת מרמה. הפוליסה רלוונטית לפוליסת אחריות מקצועית לרופא שיניים, מהדורת ספטמבר 2016. התנאים מתייחסים לביטול פוליסה, החזר דמי ביטוח, ופעולה בכוונת מרמה. This table details the conditions under which an insurer can cancel a policy, specifically related to incomplete or dishonest responses from the insured. It outlines the timeframe for cancellation and the potential for premium refunds.",
+  "payload": "טבלה: ביטול פוליסה\nThis table details the conditions under which an insurer can cancel a policy, specifically related to incomplete or dishonest responses from the insured. It outlines the timeframe for cancellation and the potential for premium refunds.\nממדים: תנאי ביטול, סעיפי ביטול והשלכות\n\nימים מהיום שנמסרה למבטח תשובה שאינה מלאה וכנה או הודעה 30 תוך .4.2.7 ימים מהיום שנודע על מידע כאמור למבטח בדרך 30 על שינוי מהותי או תוך אחרת, רשאי המבטח, כל עוד לא קרה מקרה הביטוח, לבטל את הפוליסה מיד בהודעה בכתב למבוטח.\nביטל המבטח החוזה מכח סעיף זה, עובר לקרות מקרה ביטוח, זכאי המבוטח להחזר דמי ביטוח ששילם בעד התקופה שלאחר הביטול זולת אם המבוטח פעל בכוונת מרמה."
 }

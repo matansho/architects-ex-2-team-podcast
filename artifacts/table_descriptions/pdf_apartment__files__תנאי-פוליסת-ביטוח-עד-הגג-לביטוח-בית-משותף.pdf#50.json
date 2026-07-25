@@ -2,22 +2,28 @@
   "id": "pdf:apartment/files/תנאי-פוליסת-ביטוח-עד-הגג-לביטוח-בית-משותף.pdf#50",
   "source": "llm",
   "description": {
-    "title": "תנאי פוליסת ביטוח עד הגג",
-    "summary": "This table details covered expenses related to apartment damage claims under the 'עד הגג' insurance policy. It specifies what costs are reimbursable when an apartment requires repair or rebuilding after a covered event.",
-    "embed_passage": "פוליסת 'עד הגג' מכסה הוצאות בשל שירותים של אדריכלים, שמאים וקבלנים לצורך תיקון או בנייה מחדש של הדירה. הביטוח כולל גם הוצאות פינוי הריסות וחיבור מחדש לרשתות חשמל ומים. סכום הפיצוי מחושב לפי שווי הנזק, אך לא יעלה על סכום הביטוח הנקוב בפוליסה.",
+    "title": "כיסוי הוצאות",
+    "summary": "This table details covered expenses related to apartment damage. It lists specific services and costs that are covered under the insurance policy.",
+    "embed_passage": "טבלה זו מתארת הוצאות המכוסות כחלק מפוליסת ביטוח עד הגג לביטוח בית משותף. ניתן למצוא כאן פירוט של שירותים כגון אדריכלים, שמאים, וקבלנים, וכן הוצאות הקשורות לפינוי הריסות וחיבור מחדש לרשתות. הפוליסה מכסה הוצאות בשל שירותים שנתנו אדריכלים, שמאים, יועצי בנייה, מהנדסים וקבלנים, הוצאות לשם פינוי הריסות, ניקוי הדירה, סיודה וחיבורה מחדש לרשתות החשמל, הטלפון, המים, הגז והביוב. אדריכלים, שמאים, יועצי בנייה, מהנדסים, קבלנים, פינוי הריסות, ניקוי הדירה, חיבור לרשתות חשמל, מים, גז וביוב.",
     "row_axis": "types of covered expenses",
-    "column_axis": "details/conditions of coverage",
+    "column_axis": "expense details/conditions",
     "units": [],
     "notable_values": [
-      "period: 12 חודשים",
-      "year: 1958",
-      "year: 1981"
+      "אדריכלים: שירותים",
+      "שמאים: שירותים",
+      "יועצי בנייה: שירותים",
+      "מהנדסים: שירותים",
+      "קבלנים: שירותים",
+      "פינוי הריסות: הוצאות",
+      "ניקוי הדירה: הוצאות",
+      "חיבור לרשתות: הוצאות"
     ],
     "product_hints": [
-      "עד הגג"
+      "ביטוח עד הגג",
+      "ביטוח בית משותף"
     ]
   },
   "sketch": "הוצאות בשל שירותים שנתנו אדריכלים, שמאים, יועצי בנייה, מהנדסים .3.3.1 וקבלנים, והוצאות משפטיות שהוצאו לשם תיקונה, שיפוצה או בנייתה מחדש של הדירה או של חלק ממנה, בתנאי שניתנה הודעה מראש למבטח.\nהוצאות לשם פינוי הריסות, ניקוי הדירה, סיודה וחיבורה מחדש לרשתות .3.3.2 החשמל, הטלפון, המים, הגז והביוב.",
-  "embed_text": "פוליסת 'עד הגג' מכסה הוצאות בשל שירותים של אדריכלים, שמאים וקבלנים לצורך תיקון או בנייה מחדש של הדירה. הביטוח כולל גם הוצאות פינוי הריסות וחיבור מחדש לרשתות חשמל ומים. סכום הפיצוי מחושב לפי שווי הנזק, אך לא יעלה על סכום הביטוח הנקוב בפוליסה.",
-  "payload": "טבלה: תנאי פוליסת ביטוח עד הגג\nThis table details covered expenses related to apartment damage claims under the 'עד הגג' insurance policy. It specifies what costs are reimbursable when an apartment requires repair or rebuilding after a covered event.\nממדים: types of covered expenses, details/conditions of coverage\n\nהוצאות בשל שירותים שנתנו אדריכלים, שמאים, יועצי בנייה, מהנדסים .3.3.1 וקבלנים, והוצאות משפטיות שהוצאו לשם תיקונה, שיפוצה או בנייתה מחדש של הדירה או של חלק ממנה, בתנאי שניתנה הודעה מראש למבטח.\nהוצאות לשם פינוי הריסות, ניקוי הדירה, סיודה וחיבורה מחדש לרשתות .3.3.2 החשמל, הטלפון, המים, הגז והביוב."
+  "embed_text": "טבלה זו מתארת הוצאות המכוסות כחלק מפוליסת ביטוח עד הגג לביטוח בית משותף. ניתן למצוא כאן פירוט של שירותים כגון אדריכלים, שמאים, וקבלנים, וכן הוצאות הקשורות לפינוי הריסות וחיבור מחדש לרשתות. הפוליסה מכסה הוצאות בשל שירותים שנתנו אדריכלים, שמאים, יועצי בנייה, מהנדסים וקבלנים, הוצאות לשם פינוי הריסות, ניקוי הדירה, סיודה וחיבורה מחדש לרשתות החשמל, הטלפון, המים, הגז והביוב. אדריכלים, שמאים, יועצי בנייה, מהנדסים, קבלנים, פינוי הריסות, ניקוי הדירה, חיבור לרשתות חשמל, מים, גז וביוב. This table details covered expenses related to apartment damage. It lists specific services and costs that are covered under the insurance policy.",
+  "payload": "טבלה: כיסוי הוצאות\nThis table details covered expenses related to apartment damage. It lists specific services and costs that are covered under the insurance policy.\nממדים: types of covered expenses, expense details/conditions\n\nהוצאות בשל שירותים שנתנו אדריכלים, שמאים, יועצי בנייה, מהנדסים .3.3.1 וקבלנים, והוצאות משפטיות שהוצאו לשם תיקונה, שיפוצה או בנייתה מחדש של הדירה או של חלק ממנה, בתנאי שניתנה הודעה מראש למבטח.\nהוצאות לשם פינוי הריסות, ניקוי הדירה, סיודה וחיבורה מחדש לרשתות .3.3.2 החשמל, הטלפון, המים, הגז והביוב."
 }

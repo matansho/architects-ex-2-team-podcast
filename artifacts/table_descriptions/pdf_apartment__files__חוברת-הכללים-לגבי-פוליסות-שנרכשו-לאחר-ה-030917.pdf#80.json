@@ -3,25 +3,25 @@
   "source": "llm",
   "description": {
     "title": "דיווח נזק",
-    "summary": "This table is for reporting damage claims. It allows you to look up claim details based on location, damage amount, and event information.",
-    "embed_passage": "טופס זה מיועד לדיווח על נזק שנגרם, כגון נזק לרכוש או לגוף. ניתן לדווח על סכום נזק משוער בשקלים, ולספק פרטים על האירוע שגרם לנזק. לדוגמה, סכום נזק יכול להיות ₪, וניתן לציין את קוד הישוב של מקום האירוע.",
-    "row_axis": "Individual damage claim report",
-    "column_axis": "Claim details (damage amount, location, event, agent, contact info)",
+    "summary": "This table is for reporting damage claims. It collects details about the damage event, the claimant, and the requested compensation amount.",
+    "embed_passage": "טבלה זו מיועדת לדיווח על נזקים, וכוללת פרטים כגון קוד ישוב, כתובת דואר אלקטרוני, מקום משוער של הנזק, והערות. ניתן להשתמש בטבלה זו כדי לתעד נזקים לרכוש או לגוף, ולציין את סכום הפיצוי הנתבע. הנתונים נאספים לצורך טיפול יעיל ומהיר בתביעה. הטבלה כוללת שדות לתיאור הנזק, פרטי הניזוק, ופרטי סוכן הביטוח. בין הנתונים הנאספים ניתן למצוא קוד ישוב, דואר אלקטרוני, סכום נזק משוער, ושם הסוכן. חברת הביטוח: שם כן, אם כן. לא",
+    "row_axis": "Claim report",
+    "column_axis": "Claim details (location code, email, estimated damage amount, agent name, etc.)",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "קוד ישוב: unknown",
-      "סכום נזק משוער: unknown",
-      "דואר אלקטרוני: unknown",
-      "הביטוח: חברת שם כן, אם כן. לא",
-      "מס' ת.ז.: unknown"
+      "קוד ישוב: …",
+      "דואר אלקטרוני: …",
+      "מקום משוער כספי נזק: …",
+      "הסוכן שם: …",
+      "הביטוח: חברת שם כן, אם כן. לא"
     ],
     "product_hints": [
-      "חברת שם"
+      "חברת הביטוח: שם כן, אם כן. לא"
     ]
   },
   "sketch": "קוד ישוב,אלקטרוני דואר ],מקום משוער כספי נזק,האירוע,,,הערות,,,,,\"הביטוח: חברת שם כן, אם כן. לא\"\n,הסוכן שם,,,EMAIL,,,,,,,,,,",
-  "embed_text": "טופס זה מיועד לדיווח על נזק שנגרם, כגון נזק לרכוש או לגוף. ניתן לדווח על סכום נזק משוער בשקלים, ולספק פרטים על האירוע שגרם לנזק. לדוגמה, סכום נזק יכול להיות ₪, וניתן לציין את קוד הישוב של מקום האירוע.",
-  "payload": "טבלה: דיווח נזק\nThis table is for reporting damage claims. It allows you to look up claim details based on location, damage amount, and event information.\nממדים: Individual damage claim report, Claim details (damage amount, location, event, agent, contact info)\n\nקוד ישוב,אלקטרוני דואר ],מקום משוער כספי נזק,האירוע,,,הערות,,,,,\"הביטוח: חברת שם כן, אם כן. לא\"\n,הסוכן שם,,,EMAIL,,,,,,,,,,"
+  "embed_text": "טבלה זו מיועדת לדיווח על נזקים, וכוללת פרטים כגון קוד ישוב, כתובת דואר אלקטרוני, מקום משוער של הנזק, והערות. ניתן להשתמש בטבלה זו כדי לתעד נזקים לרכוש או לגוף, ולציין את סכום הפיצוי הנתבע. הנתונים נאספים לצורך טיפול יעיל ומהיר בתביעה. הטבלה כוללת שדות לתיאור הנזק, פרטי הניזוק, ופרטי סוכן הביטוח. בין הנתונים הנאספים ניתן למצוא קוד ישוב, דואר אלקטרוני, סכום נזק משוער, ושם הסוכן. חברת הביטוח: שם כן, אם כן. לא This table is for reporting damage claims. It collects details about the damage event, the claimant, and the requested compensation amount. בין הערכים בטבלה: מקום משוער כספי נזק: …; הסוכן שם: ….",
+  "payload": "טבלה: דיווח נזק\nThis table is for reporting damage claims. It collects details about the damage event, the claimant, and the requested compensation amount.\nממדים: Claim report, Claim details (location code, email, estimated damage amount, agent name, etc.)\n\nקוד ישוב,אלקטרוני דואר ],מקום משוער כספי נזק,האירוע,,,הערות,,,,,\"הביטוח: חברת שם כן, אם כן. לא\"\n,הסוכן שם,,,EMAIL,,,,,,,,,,"
 }

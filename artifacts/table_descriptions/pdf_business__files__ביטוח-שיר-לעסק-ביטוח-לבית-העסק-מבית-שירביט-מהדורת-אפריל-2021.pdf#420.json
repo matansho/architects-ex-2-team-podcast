@@ -3,21 +3,22 @@
   "source": "llm",
   "description": {
     "title": "שיתוף פעולה",
-    "summary": "This table outlines the policyholder's duty to cooperate with the insurer in investigating claims. It details scenarios where failure to cooperate may void insurance benefits.",
-    "embed_passage": "פוליסת ביטוח לעסק של שירביט דורשת שיתוף פעולה מצד המבוטח, על מנת לאפשר למבטח לברר את החבות. אי קיום חובה זו, כפי שמופיע בסעיפים 1, 2 ו-5, עלול להוביל לכך שהמבטח לא יהיה חייב בתגמולי ביטוח. לדוגמה, אם המבוטח לא מספק מידע בזמן סביר, חבות המבטח עשויה להיות מופחתת.",
-    "row_axis": "Conditions related to policyholder cooperation",
-    "column_axis": "Consequences of non-cooperation",
+    "summary": "This table outlines the policyholder's duty to cooperate with the insurer in investigating claims. It details conditions under which the insurer may not be liable for benefits due to non-cooperation.",
+    "embed_passage": "טבלה זו מתארת את חובת המבוטח לשתף פעולה עם המבטח בחקירת תביעות, ומפרטת תנאים שבהם המבטח לא יהיה חייב בתגמולים עקב אי שיתוף פעולה. על המבוטח למסור למבטח מידע ומסמכים נדרשים לבירור החבות. הוראה זו לא תחול אם החובה לא קוימה מסיבות מוצדקות או אם אי הקיום לא מנע את בירור חבותו של המבטח. סעיפים 1, 2, 5, ו-7.1 מתייחסים לחובות המבוטח. במקרה של הפרת סעיפים 7.2 או 7.3, או מסירת עובדות כוזבות, המבטח עשוי שלא להיות חייב בתגמולי ביטוח.",
+    "row_axis": "Conditions for insurer's liability regarding policyholder cooperation",
+    "column_axis": "Cooperation requirements and exceptions",
     "units": [],
     "notable_values": [
-      "סעיפים: 1, 2, 5",
-      "7.1: קיומה היה מאפשר למבטח להקטין חבותו"
+      "סעיף 1: סיבות מוצדקות",
+      "סעיף 2: אי מניעת בירור חבות",
+      "סעיף 5: קיום חובה במועדה",
+      "סעיף 7.1: אי קיום חובה",
+      "סעיף 7.2: מניעת בירור חבות במתכוון",
+      "סעיף 7.3: הפרת חובה"
     ],
-    "product_hints": [
-      "ביטוח לעסק",
-      "שירביט"
-    ]
+    "product_hints": []
   },
   "sketch": "שיתוף פעולה .7\nעל  המבוטח  למסור  למבטח,  תוך  זמן  סביר,  לאחר  שנדרש  לכך,  את  המידע והמסמכים הדרושים לבירור החבות, ואם אינם ברשותו, עליו לעזור למבטח, ככל . שיוכל, להשיגם\n, לעיל וכן לפי סעיף זה במועדה 5,ו 1,2 לא קוימה חובה לפי סעיפים 7.1 וקיומה היה מאפשר למבטח להקטין חבותו, אין הוא חייב בתגמולי . ביטוח, אלא במידה שהיה חייב בהם אילו קוימה החובה\n: הוראה זו לא תחול בכל אחת מאלה",
-  "embed_text": "פוליסת ביטוח לעסק של שירביט דורשת שיתוף פעולה מצד המבוטח, על מנת לאפשר למבטח לברר את החבות. אי קיום חובה זו, כפי שמופיע בסעיפים 1, 2 ו-5, עלול להוביל לכך שהמבטח לא יהיה חייב בתגמולי ביטוח. לדוגמה, אם המבוטח לא מספק מידע בזמן סביר, חבות המבטח עשויה להיות מופחתת.",
-  "payload": "טבלה: שיתוף פעולה\nThis table outlines the policyholder's duty to cooperate with the insurer in investigating claims. It details scenarios where failure to cooperate may void insurance benefits.\nממדים: Conditions related to policyholder cooperation, Consequences of non-cooperation\n\nשיתוף פעולה .7\nעל  המבוטח  למסור  למבטח,  תוך  זמן  סביר,  לאחר  שנדרש  לכך,  את  המידע והמסמכים הדרושים לבירור החבות, ואם אינם ברשותו, עליו לעזור למבטח, ככל . שיוכל, להשיגם\n, לעיל וכן לפי סעיף זה במועדה 5,ו 1,2 לא קוימה חובה לפי סעיפים 7.1 וקיומה היה מאפשר למבטח להקטין חבותו, אין הוא חייב בתגמולי . ביטוח, אלא במידה שהיה חייב בהם אילו קוימה החובה\n: הוראה זו לא תחול בכל אחת מאלה"
+  "embed_text": "טבלה זו מתארת את חובת המבוטח לשתף פעולה עם המבטח בחקירת תביעות, ומפרטת תנאים שבהם המבטח לא יהיה חייב בתגמולים עקב אי שיתוף פעולה. על המבוטח למסור למבטח מידע ומסמכים נדרשים לבירור החבות. הוראה זו לא תחול אם החובה לא קוימה מסיבות מוצדקות או אם אי הקיום לא מנע את בירור חבותו של המבטח. סעיפים 1, 2, 5, ו-7.1 מתייחסים לחובות המבוטח. במקרה של הפרת סעיפים 7.2 או 7.3, או מסירת עובדות כוזבות, המבטח עשוי שלא להיות חייב בתגמולי ביטוח. This table outlines the policyholder's duty to cooperate with the insurer in investigating claims. It details conditions under which the insurer may not be liable for benefits due to non-cooperation. בין הערכים בטבלה: סעיף 2: אי מניעת בירור חבות; סעיף 5: קיום חובה במועדה; סעיף 7.1: אי קיום חובה; סעיף 7.2: מניעת בירור חבות במתכוון; סעיף 7.3: הפרת חובה.",
+  "payload": "טבלה: שיתוף פעולה\nThis table outlines the policyholder's duty to cooperate with the insurer in investigating claims. It details conditions under which the insurer may not be liable for benefits due to non-cooperation.\nממדים: Conditions for insurer's liability regarding policyholder cooperation, Cooperation requirements and exceptions\n\nשיתוף פעולה .7\nעל  המבוטח  למסור  למבטח,  תוך  זמן  סביר,  לאחר  שנדרש  לכך,  את  המידע והמסמכים הדרושים לבירור החבות, ואם אינם ברשותו, עליו לעזור למבטח, ככל . שיוכל, להשיגם\n, לעיל וכן לפי סעיף זה במועדה 5,ו 1,2 לא קוימה חובה לפי סעיפים 7.1 וקיומה היה מאפשר למבטח להקטין חבותו, אין הוא חייב בתגמולי . ביטוח, אלא במידה שהיה חייב בהם אילו קוימה החובה\n: הוראה זו לא תחול בכל אחת מאלה"
 }

@@ -2,23 +2,24 @@
   "id": "pdf:personal-accident/files/תנאי-פוליסת-הראל-ביטוח-תאונות-אישיות.pdf#9",
   "source": "llm",
   "description": {
-    "title": "תנאי פוליסת הראל תאונות אישיות",
-    "summary": "This table outlines conditions related to insurance claims under a 'הראל' personal accident policy. It details scenarios where the insurance company may offer reduced or no benefits due to misrepresentation or fraud.",
-    "embed_passage": "פוליסת הראל ביטוח תאונות אישיות עשויה להציע תגמולים מופחתים במקרים של מצג שווא. לדוגמה, אם תשובה ניתנה בכוונת מרמה (2.4.1), החברה פטורה מחובה לתגמול. במקרים מסוימים, המבוטח עשוי להיות זכאי להחזר דמי ביטוח ששילם בניכוי הוצאות החברה.",
-    "row_axis": "Conditions for reduced or nullified insurance benefits",
-    "column_axis": "Specific scenarios related to misrepresentation or fraud",
+    "title": "תנאי פוליסת הראל ביטוח תאונות אישיות",
+    "summary": "This table details conditions related to insurance claim reductions or exemptions due to misrepresentation or fraud by the insured. It outlines scenarios where the insurance company may offer reduced benefits or be exempt from payment.",
+    "embed_passage": "טבלה זו מתארת תנאים הקשורים להפחתת תגמולי ביטוח או לפטור מחובה לתשלום עקב מצג שווא או הונאה מצד המבוטח. ניתן לעיין בתנאים אלו כדי להבין מתי חברת הביטוח עשויה להציע תגמולים מופחתים או להיות פטורה מתשלום, בהתאם לנסיבות. הפוליסה רלוונטית לביטוח תאונות אישיות של הראל. התנאים מתייחסים למקרים של מתן תשובה שאינה מלאה וכנה, מצג שווא בכוונת מרמה, ומצבים בהם מבטח סביר לא היה מתקשר בחוזה. מקרים אלו כוללים: תשובה שניתנה בכוונת מרמה, מצב בו מבטח סביר לא היה מתקשר בחוזה, והחזר דמי ביטוח לאחר ניכוי הוצאות החברה. ",
+    "row_axis": "conditions for claim reduction/exemption",
+    "column_axis": "details of the condition and its consequences",
     "units": [],
     "notable_values": [
-      "2.4.1: Intentional misrepresentation",
-      "2.4.2: A reasonable insurer would not have agreed",
-      "2.5: Events occurring before a false statement"
+      "סעיף זה: reduction of insurance benefits",
+      "תשובה שניתנה בכוונת מרמה: exemption from payment",
+      "מבטח סביר לא היה מתקשר: potential for claim denial",
+      "החזר דמי ביטוח: possible refund after expense deduction"
     ],
     "product_hints": [
-      "הראל ביטוח תאונות אישיות",
-      "פוליסת הראל"
+      "ביטוח תאונות אישיות",
+      "הראל"
     ]
   },
   "sketch": "שנתבטלה לפני הביטוח מקרה קרה .2.4 הפוליסה  מכוח  סעיף  זה,  אין  החברה חייבת  אלא  בתגמולי  ביטוח  מופחתים דמי שבין כיחס יחסי,   שהוא בשיעור הביטוח  שהיו  משתלמים  כמקובל  אצלה לפי  המצב  לאמיתו  לבין  דמי  הביטוח המוסכמים,  והחברה  פטורה  כליל  בכל : אחת מאלה\n. התשובה ניתנה בכוונת מרמה .2.4.1\nמבטח  סביר  לא  היה  מתקשר .2.4.2 באותו  חוזה,  אף  בדמי  ביטוח מרובים יותר, אילו ידע את המצב זכאי זה במקרה ; לאמיתו המבוטח  להחזר  דמי  הביטוח ששילם  בעד  התקופה  שלאחר בניכוי הביטוח מקרה קרות . הוצאות החבר   ה\nל המבטח   אינו זכאי לתרופות האמורות    לעי בכל אחת מאלה, אלא אם התשובה שלא : היתה מלאה וכנה ניתנה בכוונת מרמה",
-  "embed_text": "פוליסת הראל ביטוח תאונות אישיות עשויה להציע תגמולים מופחתים במקרים של מצג שווא. לדוגמה, אם תשובה ניתנה בכוונת מרמה (2.4.1), החברה פטורה מחובה לתגמול. במקרים מסוימים, המבוטח עשוי להיות זכאי להחזר דמי ביטוח ששילם בניכוי הוצאות החברה.",
-  "payload": "טבלה: תנאי פוליסת הראל תאונות אישיות\nThis table outlines conditions related to insurance claims under a 'הראל' personal accident policy. It details scenarios where the insurance company may offer reduced or no benefits due to misrepresentation or fraud.\nממדים: Conditions for reduced or nullified insurance benefits, Specific scenarios related to misrepresentation or fraud\n\nשנתבטלה לפני הביטוח מקרה קרה .2.4 הפוליסה  מכוח  סעיף  זה,  אין  החברה חייבת  אלא  בתגמולי  ביטוח  מופחתים דמי שבין כיחס יחסי,   שהוא בשיעור הביטוח  שהיו  משתלמים  כמקובל  אצלה לפי  המצב  לאמיתו  לבין  דמי  הביטוח המוסכמים,  והחברה  פטורה  כליל  בכל : אחת מאלה\n. התשובה ניתנה בכוונת מרמה .2.4.1\nמבטח  סביר  לא  היה  מתקשר .2.4.2 באותו  חוזה,  אף  בדמי  ביטוח מרובים יותר, אילו ידע את המצב זכאי זה במקרה ; לאמיתו המבוטח  להחזר  דמי  הביטוח ששילם  בעד  התקופה  שלאחר בניכוי הביטוח מקרה קרות . הוצאות החבר   ה\nל המבטח   אינו זכאי לתרופות האמורות    לעי בכל אחת מאלה, אלא אם התשובה שלא : היתה מלאה וכנה ניתנה בכוונת מרמה"
+  "embed_text": "טבלה זו מתארת תנאים הקשורים להפחתת תגמולי ביטוח או לפטור מחובה לתשלום עקב מצג שווא או הונאה מצד המבוטח. ניתן לעיין בתנאים אלו כדי להבין מתי חברת הביטוח עשויה להציע תגמולים מופחתים או להיות פטורה מתשלום, בהתאם לנסיבות. הפוליסה רלוונטית לביטוח תאונות אישיות של הראל. התנאים מתייחסים למקרים של מתן תשובה שאינה מלאה וכנה, מצג שווא בכוונת מרמה, ומצבים בהם מבטח סביר לא היה מתקשר בחוזה. מקרים אלו כוללים: תשובה שניתנה בכוונת מרמה, מצב בו מבטח סביר לא היה מתקשר בחוזה, והחזר דמי ביטוח לאחר ניכוי הוצאות החברה. This table details conditions related to insurance claim reductions or exemptions due to misrepresentation or fraud by the insured. It outlines scenarios where the insurance company may offer reduced benefits or be exempt from payment. בין הערכים בטבלה: סעיף זה: reduction of insurance benefits.",
+  "payload": "טבלה: תנאי פוליסת הראל ביטוח תאונות אישיות\nThis table details conditions related to insurance claim reductions or exemptions due to misrepresentation or fraud by the insured. It outlines scenarios where the insurance company may offer reduced benefits or be exempt from payment.\nממדים: conditions for claim reduction/exemption, details of the condition and its consequences\n\nשנתבטלה לפני הביטוח מקרה קרה .2.4 הפוליסה  מכוח  סעיף  זה,  אין  החברה חייבת  אלא  בתגמולי  ביטוח  מופחתים דמי שבין כיחס יחסי,   שהוא בשיעור הביטוח  שהיו  משתלמים  כמקובל  אצלה לפי  המצב  לאמיתו  לבין  דמי  הביטוח המוסכמים,  והחברה  פטורה  כליל  בכל : אחת מאלה\n. התשובה ניתנה בכוונת מרמה .2.4.1\nמבטח  סביר  לא  היה  מתקשר .2.4.2 באותו  חוזה,  אף  בדמי  ביטוח מרובים יותר, אילו ידע את המצב זכאי זה במקרה ; לאמיתו המבוטח  להחזר  דמי  הביטוח ששילם  בעד  התקופה  שלאחר בניכוי הביטוח מקרה קרות . הוצאות החבר   ה\nל המבטח   אינו זכאי לתרופות האמורות    לעי בכל אחת מאלה, אלא אם התשובה שלא : היתה מלאה וכנה ניתנה בכוונת מרמה"
 }

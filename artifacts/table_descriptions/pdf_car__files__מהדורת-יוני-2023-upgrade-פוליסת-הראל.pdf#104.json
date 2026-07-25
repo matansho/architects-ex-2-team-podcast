@@ -3,10 +3,10 @@
   "source": "llm",
   "description": {
     "title": "הראל - אחריות המבטח",
-    "summary": "This table details the insurer's liability and conditions regarding legal proceedings following an accident. It outlines requirements for providing documentation and reimbursement of legal fees.",
-    "embed_passage": "פוליסת הראל מגדירה את אחריות המבטח בהקשר להליכים משפטיים בעקבות תאונה. המבוטח נדרש להעמיד לרשות המבטח כתבי דין, פרוטוקולים וחוות דעת מומחים. המבטח ישלם שכר טרחה והוצאות הגנה לאחר המצאת המסמכים הנדרשים.",
-    "row_axis": "Conditions for insurer's liability / requirements for claim",
-    "column_axis": "Details of the condition/requirement",
+    "summary": "This table details the insurer's liability and conditions related to legal proceedings following an accident. It outlines requirements for providing documentation and payment of legal fees.",
+    "embed_passage": "טבלה זו מתארת את אחריות המבטח, הראל, בתנאי הפוליסה, במיוחד בנוגע להליכים משפטיים לאחר תאונה. המבוטח נדרש לספק מסמכים כגון כתבי בית דין וחוות דעת מומחים. תשלום שכר הטרחה והוצאות ההגנה ישולם לאחר המצאת המסמכים הנדרשים. הראל, כתבי בית דין, פרוטוקולים, חוות דעת מומחים, עדויות, החלטות, פסקי דין, שכר טרחה, הוצאות הגנה.",
+    "row_axis": "conditions for insurer liability",
+    "column_axis": "details of insurer's requirements and payments",
     "units": [],
     "notable_values": [
       "סעיף: 24.1.2",
@@ -19,6 +19,6 @@
     ]
   },
   "sketch": "המבטח יהא רשאי לדרוש מאת המבוטח כתבי בית דין, פרטיכלים, חוות דעת .24.4.2 מומחים, עדויות, החלטות, פסקי דין וכל חומר אחר המצוי בידי המבוטח או עורך הדין בשל ניהול ההליכים המשפטיים או בקשר אליהם, והמבוטח יורה לעורך הדין להעמיד כל חומר כאמור לרשות המבטח עם דרישתו.\nהמבטח ישלם שכר הטרחה והוצאות ההגנה, עבור ההליכים המשפטיים או .24.4.3 הערעור, לאחר שיומצאו לו כל המסמכים הדרושים לקיום ההליך ולביצוע התשלום.",
-  "embed_text": "פוליסת הראל מגדירה את אחריות המבטח בהקשר להליכים משפטיים בעקבות תאונה. המבוטח נדרש להעמיד לרשות המבטח כתבי דין, פרוטוקולים וחוות דעת מומחים. המבטח ישלם שכר טרחה והוצאות הגנה לאחר המצאת המסמכים הנדרשים.",
-  "payload": "טבלה: הראל - אחריות המבטח\nThis table details the insurer's liability and conditions regarding legal proceedings following an accident. It outlines requirements for providing documentation and reimbursement of legal fees.\nממדים: Conditions for insurer's liability / requirements for claim, Details of the condition/requirement\n\nהמבטח יהא רשאי לדרוש מאת המבוטח כתבי בית דין, פרטיכלים, חוות דעת .24.4.2 מומחים, עדויות, החלטות, פסקי דין וכל חומר אחר המצוי בידי המבוטח או עורך הדין בשל ניהול ההליכים המשפטיים או בקשר אליהם, והמבוטח יורה לעורך הדין להעמיד כל חומר כאמור לרשות המבטח עם דרישתו.\nהמבטח ישלם שכר הטרחה והוצאות ההגנה, עבור ההליכים המשפטיים או .24.4.3 הערעור, לאחר שיומצאו לו כל המסמכים הדרושים לקיום ההליך ולביצוע התשלום."
+  "embed_text": "טבלה זו מתארת את אחריות המבטח, הראל, בתנאי הפוליסה, במיוחד בנוגע להליכים משפטיים לאחר תאונה. המבוטח נדרש לספק מסמכים כגון כתבי בית דין וחוות דעת מומחים. תשלום שכר הטרחה והוצאות ההגנה ישולם לאחר המצאת המסמכים הנדרשים. הראל, כתבי בית דין, פרוטוקולים, חוות דעת מומחים, עדויות, החלטות, פסקי דין, שכר טרחה, הוצאות הגנה. This table details the insurer's liability and conditions related to legal proceedings following an accident. It outlines requirements for providing documentation and payment of legal fees. בין הערכים בטבלה: סעיף: 24.1.2; סעיף: 24.4.1; סעיף: 24.4.2; סעיף: 24.4.3.",
+  "payload": "טבלה: הראל - אחריות המבטח\nThis table details the insurer's liability and conditions related to legal proceedings following an accident. It outlines requirements for providing documentation and payment of legal fees.\nממדים: conditions for insurer liability, details of insurer's requirements and payments\n\nהמבטח יהא רשאי לדרוש מאת המבוטח כתבי בית דין, פרטיכלים, חוות דעת .24.4.2 מומחים, עדויות, החלטות, פסקי דין וכל חומר אחר המצוי בידי המבוטח או עורך הדין בשל ניהול ההליכים המשפטיים או בקשר אליהם, והמבוטח יורה לעורך הדין להעמיד כל חומר כאמור לרשות המבטח עם דרישתו.\nהמבטח ישלם שכר הטרחה והוצאות ההגנה, עבור ההליכים המשפטיים או .24.4.3 הערעור, לאחר שיומצאו לו כל המסמכים הדרושים לקיום ההליך ולביצוע התשלום."
 }

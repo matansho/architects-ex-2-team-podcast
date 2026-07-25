@@ -2,26 +2,24 @@
   "id": "pdf:business/files/פוליסת-חבות-מעבידים-ינואר-2023.pdf#50",
   "source": "llm",
   "description": {
-    "title": "חבות מעבידים - תשלומים",
-    "summary": "This table details the consequences of late insurance premium payments for Employer's Liability insurance. It outlines the grace periods and interest/indexation applied to overdue amounts.",
-    "embed_passage": "פוליסת חבות מעבידים קובעת שאם סכום כלשהו שבפיגור לא ישולם תוך 15 ימים לאחר דרישה בכתב מהמבטח, רשאי המבטח להודיע על ביטול הביטוח לאחר 21 ימים נוספים. סכום שלא שולם במועדו יישא הפרשי הצמדה וריבית לפי חוק פסיקת ריבית והצמדה, תשכ״א. דמי הביטוח צמודים למדד המחירים לצרכן.",
-    "row_axis": "Scenarios related to late premium payments",
-    "column_axis": "Consequences of late payments (grace periods, interest, cancellation)",
-    "units": [
-      "ימים"
-    ],
+    "title": "פיגורים בתשלום דמי ביטוח",
+    "summary": "This table details the consequences of late insurance premium payments. It outlines the timeframe for notification of arrears and potential policy cancellation, as well as the applicable interest and indexation rates.",
+    "embed_passage": "טבלה זו מתארת את ההשלכות של אי תשלום דמי ביטוח בזמן. היא מפרטת את מסגרת הזמן להודעה על פיגורים ואת ביטול הפוליסה האפשרי, כמו גם שיעורי הריבית וההצמדה החלים. ניתן לעיין בטבלה כדי להבין את התנאים הקשורים לתשלום דמי ביטוח בפוליסת חבות מעבידים ינואר 2023. הנתונים בטבלה מתייחסים ל: 15 ימים, 21 ימים, חוק פסיקת ריבית והצמדה תשכ״א, הפרשי הצמדה וריבית.",
+    "row_axis": "תנאי פיגור בתשלום",
+    "column_axis": "סעיף בפוליסה",
+    "units": [],
     "notable_values": [
-      "grace period after demand: 15 ימים",
-      "additional days before cancellation: 21 ימים",
-      "law reference: חוק פסיקת ריבית והצמדה, תשכ״א",
-      "indexation: מדד המחירים לצרכן"
+      "ימים לאחר שהמבטח דרש: 15",
+      "ימים נוספים: 21",
+      "חוק: פסיקת ריבית והצמדה, תשכ״א",
+      "סעיף: 5.1.6",
+      "סעיף: 5.1.7"
     ],
     "product_hints": [
-      "חבות מעבידים",
-      "פוליסת חבות מעבידים"
+      "פוליסת חבות מעבידים ינואר 2023"
     ]
   },
   "sketch": "ימים לאחר שהמבטח דרש 15 לא שולם סכום כלשהו שבפיגור כאמור תוך .5.1.6 מהמבוטח בכתב לשלמו, רשאי המבטח להודיע למבוטח בכתב, כי הביטוח ימים נוספים וזאת אם הסכום שבפיגור לא יסולק לפני כן; 21 יתבטל כעבור\nלא שולמו דמי הביטוח במועדם, יישא הסכום שבפיגור הפרשי הצמדה .5.1.7 וכן ריבית צמודה 1961כמשמעותם בחוק פסיקת ריבית והצמדה, תשכ\"א לחוק האמור לעניין ההגדרה \"הפרשי הצמדה 1 בשיעור שנקבע לפי סעיף .\" וריבית",
-  "embed_text": "פוליסת חבות מעבידים קובעת שאם סכום כלשהו שבפיגור לא ישולם תוך 15 ימים לאחר דרישה בכתב מהמבטח, רשאי המבטח להודיע על ביטול הביטוח לאחר 21 ימים נוספים. סכום שלא שולם במועדו יישא הפרשי הצמדה וריבית לפי חוק פסיקת ריבית והצמדה, תשכ״א. דמי הביטוח צמודים למדד המחירים לצרכן.",
-  "payload": "טבלה: חבות מעבידים - תשלומים\nThis table details the consequences of late insurance premium payments for Employer's Liability insurance. It outlines the grace periods and interest/indexation applied to overdue amounts.\nממדים: Scenarios related to late premium payments, Consequences of late payments (grace periods, interest, cancellation)\n\nימים לאחר שהמבטח דרש 15 לא שולם סכום כלשהו שבפיגור כאמור תוך .5.1.6 מהמבוטח בכתב לשלמו, רשאי המבטח להודיע למבוטח בכתב, כי הביטוח ימים נוספים וזאת אם הסכום שבפיגור לא יסולק לפני כן; 21 יתבטל כעבור\nלא שולמו דמי הביטוח במועדם, יישא הסכום שבפיגור הפרשי הצמדה .5.1.7 וכן ריבית צמודה 1961כמשמעותם בחוק פסיקת ריבית והצמדה, תשכ\"א לחוק האמור לעניין ההגדרה \"הפרשי הצמדה 1 בשיעור שנקבע לפי סעיף .\" וריבית"
+  "embed_text": "טבלה זו מתארת את ההשלכות של אי תשלום דמי ביטוח בזמן. היא מפרטת את מסגרת הזמן להודעה על פיגורים ואת ביטול הפוליסה האפשרי, כמו גם שיעורי הריבית וההצמדה החלים. ניתן לעיין בטבלה כדי להבין את התנאים הקשורים לתשלום דמי ביטוח בפוליסת חבות מעבידים ינואר 2023. הנתונים בטבלה מתייחסים ל: 15 ימים, 21 ימים, חוק פסיקת ריבית והצמדה תשכ״א, הפרשי הצמדה וריבית. This table details the consequences of late insurance premium payments. It outlines the timeframe for notification of arrears and potential policy cancellation, as well as the applicable interest and indexation rates. בין הערכים בטבלה: סעיף: 5.1.6; סעיף: 5.1.7.",
+  "payload": "טבלה: פיגורים בתשלום דמי ביטוח\nThis table details the consequences of late insurance premium payments. It outlines the timeframe for notification of arrears and potential policy cancellation, as well as the applicable interest and indexation rates.\nממדים: תנאי פיגור בתשלום, סעיף בפוליסה\n\nימים לאחר שהמבטח דרש 15 לא שולם סכום כלשהו שבפיגור כאמור תוך .5.1.6 מהמבוטח בכתב לשלמו, רשאי המבטח להודיע למבוטח בכתב, כי הביטוח ימים נוספים וזאת אם הסכום שבפיגור לא יסולק לפני כן; 21 יתבטל כעבור\nלא שולמו דמי הביטוח במועדם, יישא הסכום שבפיגור הפרשי הצמדה .5.1.7 וכן ריבית צמודה 1961כמשמעותם בחוק פסיקת ריבית והצמדה, תשכ\"א לחוק האמור לעניין ההגדרה \"הפרשי הצמדה 1 בשיעור שנקבע לפי סעיף .\" וריבית"
 }

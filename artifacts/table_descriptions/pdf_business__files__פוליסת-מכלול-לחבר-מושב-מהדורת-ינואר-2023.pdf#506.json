@@ -2,25 +2,23 @@
   "id": "pdf:business/files/פוליסת-מכלול-לחבר-מושב-מהדורת-ינואר-2023.pdf#506",
   "source": "llm",
   "description": {
-    "title": "הקטנת גבול אחריות",
-    "summary": "This table details how the insurance coverage limits are reduced after a claim or damage event under the 'Mekhalel' policy. It outlines adjustments to compensation amounts and liability limits.",
-    "embed_passage": "פוליסת מכלול לחבר מושב מתייחסת להקטנת גבול האחריות לאחר תביעה או נזק. לדוגמה, אם הוקטן סכום הפיצוי, המבטח ישפה את המבוטח בהוצאות הגנה סבירות. סכום ההקטנה מחושב בהתאם לתנאי הפוליסה, ומוגבל לסכום שהמבטח היה משלם במסגרת פשרה.",
-    "row_axis": "Scenarios related to claim settlements and liability adjustments",
-    "column_axis": "Details of compensation adjustments, liability limits, and expense reimbursements",
+    "title": "הקטנת גבול האחריות",
+    "summary": "This table details reductions to insurance coverage limits after a claim or damage. It outlines how the insurer adjusts liability and compensation based on settlements and prior payouts.",
+    "embed_passage": "טבלה זו מתארת את הקטנת גבול האחריות של פוליסת מכלול לאחר תביעה או נזק. הטבלה מפרטת כיצד מחושב הסכום המופחת, תוך התחשבות בתגמולי ביטוח שכבר שולמו והוצאות הגנה סבירות. ניתן לעיין בטבלה כדי להבין את ההשפעה של תביעה על גבולות האחריות העתידיים של הפוליסה. הקטנת גבול האחריות, סכום הפיצוי, תגמולי ביטוח, הוצאות הגנה סבירות, סכום הפשרה, הקטנת סכום ביטוח.",
+    "row_axis": "סעיף בפוליסה",
+    "column_axis": "אופן חישוב הקטנת האחריות",
     "units": [],
     "notable_values": [
-      "29.2: Limitation of liability after rejected settlement",
-      "29.2.1: Reimbursement of reasonable defense costs",
-      "29.2.2: Compensation for reduced settlement amount",
-      "29.3: Calculation of reduced liability limit",
-      "30: Reduction of insurance amount/liability limit after damage"
+      "סכום הפיצוי: מופחת",
+      "תגמולי ביטוח: מחושבים",
+      "הוצאות הגנה סבירות: ישופו",
+      "סכום הפשרה: משפיע על גבול האחריות"
     ],
     "product_hints": [
-      "מכלול",
-      "Mekhalel"
+      "מכלול"
     ]
   },
   "sketch": "הוקטן סכום הפיצוי, ונשא המבוטח בשל כך בהוצאות הגנה סבירות - ישפה .29.2.2 המבטח את המבוטח בסכום הפיצוי, לאחר שנוכה, מגבולות אחריות המבטח על פי פוליסה זו כל סכום או סכומים שכבר שולמו בתור תגמולי ביטוח על אך בשום , פי הפוליסה ובנוסף ישפה המבטח בגין הוצאות הגנה סבירות מקרה לא יותר מהסכום הכולל שהיה משלם המבטח במסגרת הפשרה;\n.  מובהר, כי לעניין סכום או סכומים שכבר שולמו בתור תגמולי ביטוח, יחושב 29.3 .( להלן )הקטנת גבול האחריות לאחר תביעה / נזק 30 הסכום בכפוף לאמור בתנאי",
-  "embed_text": "פוליסת מכלול לחבר מושב מתייחסת להקטנת גבול האחריות לאחר תביעה או נזק. לדוגמה, אם הוקטן סכום הפיצוי, המבטח ישפה את המבוטח בהוצאות הגנה סבירות. סכום ההקטנה מחושב בהתאם לתנאי הפוליסה, ומוגבל לסכום שהמבטח היה משלם במסגרת פשרה.",
-  "payload": "טבלה: הקטנת גבול אחריות\nThis table details how the insurance coverage limits are reduced after a claim or damage event under the 'Mekhalel' policy. It outlines adjustments to compensation amounts and liability limits.\nממדים: Scenarios related to claim settlements and liability adjustments, Details of compensation adjustments, liability limits, and expense reimbursements\n\nהוקטן סכום הפיצוי, ונשא המבוטח בשל כך בהוצאות הגנה סבירות - ישפה .29.2.2 המבטח את המבוטח בסכום הפיצוי, לאחר שנוכה, מגבולות אחריות המבטח על פי פוליסה זו כל סכום או סכומים שכבר שולמו בתור תגמולי ביטוח על אך בשום , פי הפוליסה ובנוסף ישפה המבטח בגין הוצאות הגנה סבירות מקרה לא יותר מהסכום הכולל שהיה משלם המבטח במסגרת הפשרה;\n.  מובהר, כי לעניין סכום או סכומים שכבר שולמו בתור תגמולי ביטוח, יחושב 29.3 .( להלן )הקטנת גבול האחריות לאחר תביעה / נזק 30 הסכום בכפוף לאמור בתנאי"
+  "embed_text": "טבלה זו מתארת את הקטנת גבול האחריות של פוליסת מכלול לאחר תביעה או נזק. הטבלה מפרטת כיצד מחושב הסכום המופחת, תוך התחשבות בתגמולי ביטוח שכבר שולמו והוצאות הגנה סבירות. ניתן לעיין בטבלה כדי להבין את ההשפעה של תביעה על גבולות האחריות העתידיים של הפוליסה. הקטנת גבול האחריות, סכום הפיצוי, תגמולי ביטוח, הוצאות הגנה סבירות, סכום הפשרה, הקטנת סכום ביטוח. This table details reductions to insurance coverage limits after a claim or damage. It outlines how the insurer adjusts liability and compensation based on settlements and prior payouts.",
+  "payload": "טבלה: הקטנת גבול האחריות\nThis table details reductions to insurance coverage limits after a claim or damage. It outlines how the insurer adjusts liability and compensation based on settlements and prior payouts.\nממדים: סעיף בפוליסה, אופן חישוב הקטנת האחריות\n\nהוקטן סכום הפיצוי, ונשא המבוטח בשל כך בהוצאות הגנה סבירות - ישפה .29.2.2 המבטח את המבוטח בסכום הפיצוי, לאחר שנוכה, מגבולות אחריות המבטח על פי פוליסה זו כל סכום או סכומים שכבר שולמו בתור תגמולי ביטוח על אך בשום , פי הפוליסה ובנוסף ישפה המבטח בגין הוצאות הגנה סבירות מקרה לא יותר מהסכום הכולל שהיה משלם המבטח במסגרת הפשרה;\n.  מובהר, כי לעניין סכום או סכומים שכבר שולמו בתור תגמולי ביטוח, יחושב 29.3 .( להלן )הקטנת גבול האחריות לאחר תביעה / נזק 30 הסכום בכפוף לאמור בתנאי"
 }

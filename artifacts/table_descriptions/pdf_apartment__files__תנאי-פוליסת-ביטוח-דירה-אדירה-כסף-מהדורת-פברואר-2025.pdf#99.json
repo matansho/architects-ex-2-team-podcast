@@ -2,20 +2,17 @@
   "id": "pdf:apartment/files/תנאי-פוליסת-ביטוח-דירה-אדירה-כסף-מהדורת-פברואר-2025.pdf#99",
   "source": "llm",
   "description": {
-    "title": "תנאי פוליסת ביטוח דירה",
-    "summary": "This table details coverage for specific valuable items under a home insurance policy. It outlines the conditions and limitations for 'all risks' coverage for items like jewelry, watches, and gold.",
-    "embed_passage": "פוליסת 'אדירה כסף' מציעה כיסוי כל הסיכונים לתכשיטים, שעוני יד ודברי-זהב, כאשר נרשם במפורש במפרט. אחריות המבטח מוגבלת לחלק היחסי החומרי המבוטח של הפריט שאבד או ניזוק, או עד 10% מסכום ביטוח התכולה לפריט, ובסך הכול 2%. הכיסוי תקף גם בעת הימצאם בדירת המבוטח או באופן ארעי מחוצה לה.",
-    "row_axis": "Specific types of valuable items or coverage conditions",
-    "column_axis": "Coverage details, limitations, and conditions",
-    "units": [
-      "%"
-    ],
+    "title": "כיסויים - תכשיטים, שעוני יד ודברי-זהב",
+    "summary": "This table details coverage for jewelry, wristwatches, and gold items under the 'Adira Cash' home insurance policy. It specifies the insurer's liability in case of an insurance event, based on whether an appraisal was provided.",
+    "embed_passage": "טבלה זו מתארת את הכיסויים עבור תכשיטים, שעוני יד ודברי זהב במסגרת פוליסת ביטוח דירה 'אדירה כסף'. הפוליסה מרחיבה את הכיסוי לכל הסיכונים עבור פריטים אלה, אם נרשם במפורש במפרט. אחריות המבטח מוגדרת בהתאם להימצאות הפריטים בדירת המבוטח או באופן ארעי מחוצה לה. הפוליסה מתייחסת גם למקרה של אובדן או נזק לפריטים שהם חלק ממערכת, או זוג פריטים. 'אדירה כסף' מכסה תכשיטים, שעוני יד, דברי-זהב, תמונות ודברי אמנות.",
+    "row_axis": "types of coverage/conditions",
+    "column_axis": "liability details",
+    "units": [],
     "notable_values": [
-      "2%: maximum liability if no certified appraisal is provided",
-      "10%: maximum coverage for an item",
-      "14.8/14.9: relevant policy sections",
-      "23.5: section number for jewelry coverage",
-      "23.7: section number for worldwide coverage"
+      "תכשיטים, שעוני יד ודברי-זהב: כיסוי כל הסיכונים",
+      "אובדן או נזק למיתרים של כלי נגינה",
+      "תמונות ודברי אמנות מחוץ לדירה",
+      "כיסוי כל הסיכונים לדברי-ערך בכל מקום בתבל"
     ],
     "product_hints": [
       "אדירה כסף",
@@ -23,6 +20,6 @@
     ]
   },
   "sketch": ".  כיסוי כל הסיכונים לתכשיטים, שעוני יד ודברי-זהב 23.5\nאם נרשם במפורש במפרט, יורחב הביטוח לכסות את פרטי התכולה המצוינים השייכים למבוטח, בכיסוי כל הסיכונים כמוגדר לעיל, וזאת 14.9 ו/או 14.8 בסעיפים בעת הימצאם בדירת המבוטח או באופן ארעי מחוצה לה, בשטח הגיאוגרפי.\nאחריות המבטח לעניין סעיף זה, בקרות מקרה ביטוח, תהיה כמפורט להלן:",
-  "embed_text": "פוליסת 'אדירה כסף' מציעה כיסוי כל הסיכונים לתכשיטים, שעוני יד ודברי-זהב, כאשר נרשם במפורש במפרט. אחריות המבטח מוגבלת לחלק היחסי החומרי המבוטח של הפריט שאבד או ניזוק, או עד 10% מסכום ביטוח התכולה לפריט, ובסך הכול 2%. הכיסוי תקף גם בעת הימצאם בדירת המבוטח או באופן ארעי מחוצה לה.",
-  "payload": "טבלה: תנאי פוליסת ביטוח דירה\nThis table details coverage for specific valuable items under a home insurance policy. It outlines the conditions and limitations for 'all risks' coverage for items like jewelry, watches, and gold.\nממדים: Specific types of valuable items or coverage conditions, Coverage details, limitations, and conditions\n\n.  כיסוי כל הסיכונים לתכשיטים, שעוני יד ודברי-זהב 23.5\nאם נרשם במפורש במפרט, יורחב הביטוח לכסות את פרטי התכולה המצוינים השייכים למבוטח, בכיסוי כל הסיכונים כמוגדר לעיל, וזאת 14.9 ו/או 14.8 בסעיפים בעת הימצאם בדירת המבוטח או באופן ארעי מחוצה לה, בשטח הגיאוגרפי.\nאחריות המבטח לעניין סעיף זה, בקרות מקרה ביטוח, תהיה כמפורט להלן:"
+  "embed_text": "טבלה זו מתארת את הכיסויים עבור תכשיטים, שעוני יד ודברי זהב במסגרת פוליסת ביטוח דירה 'אדירה כסף'. הפוליסה מרחיבה את הכיסוי לכל הסיכונים עבור פריטים אלה, אם נרשם במפורש במפרט. אחריות המבטח מוגדרת בהתאם להימצאות הפריטים בדירת המבוטח או באופן ארעי מחוצה לה. הפוליסה מתייחסת גם למקרה של אובדן או נזק לפריטים שהם חלק ממערכת, או זוג פריטים. 'אדירה כסף' מכסה תכשיטים, שעוני יד, דברי-זהב, תמונות ודברי אמנות. This table details coverage for jewelry, wristwatches, and gold items under the 'Adira Cash' home insurance policy. It specifies the insurer's liability in case of an insurance event, based on whether an appraisal was provided. בין הערכים בטבלה: תכשיטים, שעוני יד ודברי-זהב: כיסוי כל הסיכונים; אובדן או נזק למיתרים של כלי נגינה; תמונות ודברי אמנות מחוץ לדירה; כיסוי כל הסיכונים לדברי-ערך בכל מקום בת…",
+  "payload": "טבלה: כיסויים - תכשיטים, שעוני יד ודברי-זהב\nThis table details coverage for jewelry, wristwatches, and gold items under the 'Adira Cash' home insurance policy. It specifies the insurer's liability in case of an insurance event, based on whether an appraisal was provided.\nממדים: types of coverage/conditions, liability details\n\n.  כיסוי כל הסיכונים לתכשיטים, שעוני יד ודברי-זהב 23.5\nאם נרשם במפורש במפרט, יורחב הביטוח לכסות את פרטי התכולה המצוינים השייכים למבוטח, בכיסוי כל הסיכונים כמוגדר לעיל, וזאת 14.9 ו/או 14.8 בסעיפים בעת הימצאם בדירת המבוטח או באופן ארעי מחוצה לה, בשטח הגיאוגרפי.\nאחריות המבטח לעניין סעיף זה, בקרות מקרה ביטוח, תהיה כמפורט להלן:"
 }

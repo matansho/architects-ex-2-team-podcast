@@ -3,24 +3,24 @@
   "source": "llm",
   "description": {
     "title": "שומה",
-    "summary": "This table details valuation conditions for insured property, specifically regarding 'underinsurance' (ביטוח חסר) and how losses are assessed. It looks up the maximum claim amount based on the total insurance amount and the declared value of the property.",
-    "embed_passage": "פוליסת הראל ביטוח אש מורחב ואובדן תוצאתי קובעת כי במקרה של אובדן או נזק, סכום הפיצוי יהיה הנמוך מבין סכום האובדן או ₪ 4,000,000, או 10% מסכומי הביטוח. תנאי זה חל אלא אם צוין אחרת ברשימה, ומתייחס לערך הרכוש המבוטח שלא ניזוק.",
-    "row_axis": "valuation clause",
-    "column_axis": "underinsurance conditions / claim limits",
+    "summary": "This table outlines valuation conditions for insured property, specifically regarding underinsurance and loss assessment. It details how the insurer will determine payouts based on declared property value and loss amounts.",
+    "embed_passage": "טבלה זו עוסקת בתנאי שומה של רכוש מבוטח, במיוחד בנוגע לביטוח חסר ואופן חישוב תגמולי הביטוח. ניתן להשתמש בה כדי להבין כיצד המבטח יקבע את גובה הפיצוי במקרה של אובדן או נזק, בהתבסס על הערך המוצהר של הרכוש וסכום הנזק. הטבלה רלוונטית לפוליסת ביטוח אש מורחב ואובדן תוצאתי של הראל ביט. סעיפי שומה, ביטוח חסר, ביטוח נפרד, וביטוח עודף הם חלק מהנושאים המכוסים. ערכים כמו ₪ 4,000,000 ו-10% הם גורמים מרכזיים בקביעת גובה הפיצוי.",
+    "row_axis": "תנאי שומה / סוג ביטוח",
+    "column_axis": "תיאור התנאי / שיעור",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "maximum claim: ₪ 4,000,000",
-      "underinsurance limit: 10%"
+      "סכום האובדן: ₪ 4,000,000",
+      "אחוז הנזק: 10%",
+      "ביטוח חסר: תנאי 5.7",
+      "ביטוח נפרד: סעיפים מפורטים ברשימה"
     ],
     "product_hints": [
-      "הראל ביטוח אש",
-      "ביטוח אש מורחב",
-      "אובדן תוצאתי"
+      "הראל ביט"
     ]
   },
   "sketch": "סעיף שומה .5.8\nאם סכום האובדן או - \" \"ביטוח חסר 5.7 אלא אם צוין אחרת ברשימה לעניין תנאי יסתפק , הנמוך ביניהם, ₪  4,000,000 מסכומי הביטוח או 10% הנזק אינו עולה על המבטח, בהצהרתו של המבוטח בדבר ערכו של הרכוש המבוטח שלא ניזוק.\nביטוח נפרד .5.9\nבמקרה של אובדן או נזק לשניים או יותר מסוגי הרכוש המבוטח המפורטים ברשימה, רשאי המבוטח לדרוש כי תיערך שומה נפרדת עבור כל סוג רכוש, כאילו בוטח בפוליסה נפרדת.",
-  "embed_text": "פוליסת הראל ביטוח אש מורחב ואובדן תוצאתי קובעת כי במקרה של אובדן או נזק, סכום הפיצוי יהיה הנמוך מבין סכום האובדן או ₪ 4,000,000, או 10% מסכומי הביטוח. תנאי זה חל אלא אם צוין אחרת ברשימה, ומתייחס לערך הרכוש המבוטח שלא ניזוק.",
-  "payload": "טבלה: שומה\nThis table details valuation conditions for insured property, specifically regarding 'underinsurance' (ביטוח חסר) and how losses are assessed. It looks up the maximum claim amount based on the total insurance amount and the declared value of the property.\nממדים: valuation clause, underinsurance conditions / claim limits\n\nסעיף שומה .5.8\nאם סכום האובדן או - \" \"ביטוח חסר 5.7 אלא אם צוין אחרת ברשימה לעניין תנאי יסתפק , הנמוך ביניהם, ₪  4,000,000 מסכומי הביטוח או 10% הנזק אינו עולה על המבטח, בהצהרתו של המבוטח בדבר ערכו של הרכוש המבוטח שלא ניזוק.\nביטוח נפרד .5.9\nבמקרה של אובדן או נזק לשניים או יותר מסוגי הרכוש המבוטח המפורטים ברשימה, רשאי המבוטח לדרוש כי תיערך שומה נפרדת עבור כל סוג רכוש, כאילו בוטח בפוליסה נפרדת."
+  "embed_text": "טבלה זו עוסקת בתנאי שומה של רכוש מבוטח, במיוחד בנוגע לביטוח חסר ואופן חישוב תגמולי הביטוח. ניתן להשתמש בה כדי להבין כיצד המבטח יקבע את גובה הפיצוי במקרה של אובדן או נזק, בהתבסס על הערך המוצהר של הרכוש וסכום הנזק. הטבלה רלוונטית לפוליסת ביטוח אש מורחב ואובדן תוצאתי של הראל ביט. סעיפי שומה, ביטוח חסר, ביטוח נפרד, וביטוח עודף הם חלק מהנושאים המכוסים. ערכים כמו ₪ 4,000,000 ו-10% הם גורמים מרכזיים בקביעת גובה הפיצוי. This table outlines valuation conditions for insured property, specifically regarding underinsurance and loss assessment. It details how the insurer will determine payouts based on declared property value and loss amounts.",
+  "payload": "טבלה: שומה\nThis table outlines valuation conditions for insured property, specifically regarding underinsurance and loss assessment. It details how the insurer will determine payouts based on declared property value and loss amounts.\nממדים: תנאי שומה / סוג ביטוח, תיאור התנאי / שיעור\n\nסעיף שומה .5.8\nאם סכום האובדן או - \" \"ביטוח חסר 5.7 אלא אם צוין אחרת ברשימה לעניין תנאי יסתפק , הנמוך ביניהם, ₪  4,000,000 מסכומי הביטוח או 10% הנזק אינו עולה על המבטח, בהצהרתו של המבוטח בדבר ערכו של הרכוש המבוטח שלא ניזוק.\nביטוח נפרד .5.9\nבמקרה של אובדן או נזק לשניים או יותר מסוגי הרכוש המבוטח המפורטים ברשימה, רשאי המבוטח לדרוש כי תיערך שומה נפרדת עבור כל סוג רכוש, כאילו בוטח בפוליסה נפרדת."
 }

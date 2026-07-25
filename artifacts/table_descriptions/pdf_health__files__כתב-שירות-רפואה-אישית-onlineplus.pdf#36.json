@@ -3,25 +3,27 @@
   "source": "llm",
   "description": {
     "title": "חוות דעת רפואית שנייה",
-    "summary": "This table details the terms for a second medical opinion service provided by Bikur Ofek. It outlines eligibility, document submission, and cost sharing for consultations with specialists abroad.",
-    "embed_passage": "כתב שירות רפואה אישית OnlinePlus מאפשר למנויים לקבל חוות דעת רפואית שנייה על ידי רופא מומחה בחו״ל. עבור כל ייעוץ, המנוי ישלם השתתפות עצמית בשיעור של 20% מעלות הייעוץ. ניתן להעביר מסמכים רפואיים רלוונטיים באמצעות מייל לכתובת secondopinion@bikurofe.co.il.",
-    "row_axis": "Service details related to second medical opinions",
-    "column_axis": "Aspects of the service (e.g., eligibility, cost, process)",
-    "units": [
-      "%",
-      "₪"
-    ],
+    "summary": "This table details the conditions for receiving a second medical opinion from a specialist abroad through the Bikurofe service. It outlines the process, required documents, and cost-sharing arrangements.",
+    "embed_passage": "טבלה זו מתארת את התנאים לקבלת חוות דעת רפואית שנייה ממומחה בחו\"ל דרך שירות Bikurofe. השירות כולל קבלת חוות דעת רפואית שנייה על ידי רופא מומחה בחו\"ל, לאחר קבלת חוות דעת ראשונה בישראל. המנוי יעביר מסמכים רפואיים רלוונטיים באמצעות מייל יעודי. ניתן לקבל ייעוץ אחד בשנה. עבור כל ייעוץ, המנוי ישלם השתתפות עצמית בשיעור של 20% מהעלות. שירות זה, Onlineplus, מסופק על ידי Bikurofe. ניתן לקבל חוות דעת רפואית שנייה, ייעוץ, מסמכים רפואיים, צילומים, בדיקות, השתתפות עצמית, 20%.",
+    "row_axis": "stages of receiving a second opinion",
+    "column_axis": "details of the second opinion service",
+    "units": [],
     "notable_values": [
-      "service type: חוות דעת רפואית שנייה",
-      "cost sharing: 20%",
-      "email: secondopinion@bikurofe.co.il"
+      "חוות דעת רפואית שנייה: רופא מומחה בחו\"ל",
+      "ייעוץ: אחד בשנה",
+      "השתתפות עצמית: 20%",
+      "מייל: secondopinion@bikurofe.co.il",
+      "סעיף: 3.6.2",
+      "סעיף: 3.7.1",
+      "סעיף: 3.7.2",
+      "סעיף: 3.7.3"
     ],
     "product_hints": [
-      "OnlinePlus",
-      "Bikur Ofek"
+      "Onlineplus",
+      "Bikurofe"
     ]
   },
   "sketch": "3.6.2\nרופא מומחה מחו\"ל - חוות דעת רפואית שנייה 3.7 על ידי רופא מומחה בחו\"ל\nהמנוי  יהיה  זכאי  לקבלת  חוות  דעת 3.7.1 רפואית  שנייה  על  ידי  רופא  מומחה ( בחו\"ל  )שהנו  נותן  שירות  אצל  הספק ראשונה דעת חוות קבלת לאחר בישראל.\n, לצורך  קבלת  חוות  הדעת  הרפואית 3.7.2 המנוי  יעביר  את  המסמכים  הרפואיים (' וכו בדיקות צילומים, ) הרלוונטיים המסמכים את להעביר ניתן לספק. : יעודי מייל באמצעות באמצעות .secondopinion@bikurofe.co.il\nייעוץ אחד בשנת המנוי יהיה זכאי לקבל 3.7.3 . ביטוח\nעבור כל ייעוץ על פי סעיף זה, ישלם 3.7.4 המנוי    במישרין  לספק,  השתתפות מעלות 20% של בשיעור עצמית . הייעוץ",
-  "embed_text": "כתב שירות רפואה אישית OnlinePlus מאפשר למנויים לקבל חוות דעת רפואית שנייה על ידי רופא מומחה בחו״ל. עבור כל ייעוץ, המנוי ישלם השתתפות עצמית בשיעור של 20% מעלות הייעוץ. ניתן להעביר מסמכים רפואיים רלוונטיים באמצעות מייל לכתובת secondopinion@bikurofe.co.il.",
-  "payload": "טבלה: חוות דעת רפואית שנייה\nThis table details the terms for a second medical opinion service provided by Bikur Ofek. It outlines eligibility, document submission, and cost sharing for consultations with specialists abroad.\nממדים: Service details related to second medical opinions, Aspects of the service (e.g., eligibility, cost, process)\n\n3.6.2\nרופא מומחה מחו\"ל - חוות דעת רפואית שנייה 3.7 על ידי רופא מומחה בחו\"ל\nהמנוי  יהיה  זכאי  לקבלת  חוות  דעת 3.7.1 רפואית  שנייה  על  ידי  רופא  מומחה ( בחו\"ל  )שהנו  נותן  שירות  אצל  הספק ראשונה דעת חוות קבלת לאחר בישראל.\n, לצורך  קבלת  חוות  הדעת  הרפואית 3.7.2 המנוי  יעביר  את  המסמכים  הרפואיים (' וכו בדיקות צילומים, ) הרלוונטיים המסמכים את להעביר ניתן לספק. : יעודי מייל באמצעות באמצעות .secondopinion@bikurofe.co.il\nייעוץ אחד בשנת המנוי יהיה זכאי לקבל 3.7.3 . ביטוח\nעבור כל ייעוץ על פי סעיף זה, ישלם 3.7.4 המנוי    במישרין  לספק,  השתתפות מעלות 20% של בשיעור עצמית . הייעוץ"
+  "embed_text": "טבלה זו מתארת את התנאים לקבלת חוות דעת רפואית שנייה ממומחה בחו\"ל דרך שירות Bikurofe. השירות כולל קבלת חוות דעת רפואית שנייה על ידי רופא מומחה בחו\"ל, לאחר קבלת חוות דעת ראשונה בישראל. המנוי יעביר מסמכים רפואיים רלוונטיים באמצעות מייל יעודי. ניתן לקבל ייעוץ אחד בשנה. עבור כל ייעוץ, המנוי ישלם השתתפות עצמית בשיעור של 20% מהעלות. שירות זה, Onlineplus, מסופק על ידי Bikurofe. ניתן לקבל חוות דעת רפואית שנייה, ייעוץ, מסמכים רפואיים, צילומים, בדיקות, השתתפות עצמית, 20%. This table details the conditions for receiving a second medical opinion from a specialist abroad through the Bikurofe service. It outlines the process, required documents, and cost-sharing arrangements. בין הערכים בטבלה: סעיף: 3.6.2; סעיף: 3.7.1; סעיף: 3.7.2; סעיף: 3.7.3.",
+  "payload": "טבלה: חוות דעת רפואית שנייה\nThis table details the conditions for receiving a second medical opinion from a specialist abroad through the Bikurofe service. It outlines the process, required documents, and cost-sharing arrangements.\nממדים: stages of receiving a second opinion, details of the second opinion service\n\n3.6.2\nרופא מומחה מחו\"ל - חוות דעת רפואית שנייה 3.7 על ידי רופא מומחה בחו\"ל\nהמנוי  יהיה  זכאי  לקבלת  חוות  דעת 3.7.1 רפואית  שנייה  על  ידי  רופא  מומחה ( בחו\"ל  )שהנו  נותן  שירות  אצל  הספק ראשונה דעת חוות קבלת לאחר בישראל.\n, לצורך  קבלת  חוות  הדעת  הרפואית 3.7.2 המנוי  יעביר  את  המסמכים  הרפואיים (' וכו בדיקות צילומים, ) הרלוונטיים המסמכים את להעביר ניתן לספק. : יעודי מייל באמצעות באמצעות .secondopinion@bikurofe.co.il\nייעוץ אחד בשנת המנוי יהיה זכאי לקבל 3.7.3 . ביטוח\nעבור כל ייעוץ על פי סעיף זה, ישלם 3.7.4 המנוי    במישרין  לספק,  השתתפות מעלות 20% של בשיעור עצמית . הייעוץ"
 }

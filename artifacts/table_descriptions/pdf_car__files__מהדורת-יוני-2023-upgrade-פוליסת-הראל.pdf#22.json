@@ -2,24 +2,24 @@
   "id": "pdf:car/files/מהדורת-יוני-2023-upgrade-פוליסת-הראל.pdf#22",
   "source": "llm",
   "description": {
-    "title": "פיצויים לנפגעים",
-    "summary": "This table details the agreed-upon compensation amounts paid by the policyholder to the insurer for injuries sustained in an insured event. It outlines payments for the policyholder and other injured parties, with maximum limits.",
-    "embed_passage": "פוליסת הראל קובעת פיצוי מוסכם בסכום של 10,000 ₪ עבור נפגע בעל הפוליסה עקב מקרה ביטוח. עבור נפגע שאינו בעל הפוליסה, הפיצוי המוסכם הוא 2,500 ₪, אך לא יותר ממחצית סכום הפיצויים שישולם לנפגע אחר, וסכום הפיצוי הכולל לא יעלה על 10,000 ₪.",
-    "row_axis": "Scenario of injury claim (policyholder vs. other injured party)",
-    "column_axis": "Compensation amount",
+    "title": "פיצוי מוסכם לנפגעים",
+    "summary": "This table details agreed-upon compensation amounts for injured parties in the event of an insurance claim. It specifies amounts payable to the policyholder and to other injured individuals.",
+    "embed_passage": "טבלה זו מפרטת סכומי פיצוי מוסכמים לנפגעים במקרה של תביעת ביטוח, כחלק מפוליסת הראל. ניתן לעיין בטבלה כדי לברר את גובה הפיצוי המוסכם עבור בעל הפוליסה ועבור נפגעים אחרים. הפיצויים מחושבים בהתאם לנזק שאינו נזק ממון, ומוצגים בסכומים קבועים בשקלים חדשים. סכומי הפיצוי המוסכמים כוללים ₪ 10,000 עבור בעל הפוליסה ו-₪ 2,500 עבור נפגעים אחרים. הראל מציעה פיצוי מוסכם לנפגעים בתאונות דרכים, וסכומים אלו מפורטים בטבלה זו.",
+    "row_axis": "סוג הנפגע (בעל הפוליסה / נפגע אחר)",
+    "column_axis": "סכום הפיצוי המוסכם",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "Policyholder compensation: 10,000 ₪",
-      "Other injured party compensation: 2,500 ₪",
-      "Maximum total compensation: 10,000 ₪"
+      "פיצוי לבעל הפוליסה: ₪ 10,000",
+      "פיצוי לנפגע אחר: ₪ 2,500",
+      "סכום פיצוי מקסימלי כולל: ₪ 10,000"
     ],
     "product_hints": [
-      "הראל"
+      "פוליסת הראל"
     ]
   },
   "sketch": ". נפגע בעל הפוליסה עקב מקרה הביטוח, ישלם בעל הפוליסה למבטח פיצוי 9.3.1 מוסכם בסכום השווה לפיצוי המגיע לבעל הפוליסה בשל נזק שאינו נזק ממון ;₪  10,000( לחוק הפיצויים, אך לא יותר מ 3)( )א 4 לפי סעיף\n, ישלם בעל הפוליסה למבטח פיצוי 9.3.1 . בלי לגרוע מן האמור בפסקה 9.3.2 בעד כל נפגע שאינו בעל הפוליסה אשר יפוצה ₪  2,500 מוסכם בסכום של על ידי המבטח עקב מקרה הביטוח, אך לא יותר ממחצית סכום הפיצויים שישולם לכל נפגע כאמור, ובלבד שסכום הפיצוי המוסכם הכולל לפי פסקה .₪  10,000 זו לא יעלה על",
-  "embed_text": "פוליסת הראל קובעת פיצוי מוסכם בסכום של 10,000 ₪ עבור נפגע בעל הפוליסה עקב מקרה ביטוח. עבור נפגע שאינו בעל הפוליסה, הפיצוי המוסכם הוא 2,500 ₪, אך לא יותר ממחצית סכום הפיצויים שישולם לנפגע אחר, וסכום הפיצוי הכולל לא יעלה על 10,000 ₪.",
-  "payload": "טבלה: פיצויים לנפגעים\nThis table details the agreed-upon compensation amounts paid by the policyholder to the insurer for injuries sustained in an insured event. It outlines payments for the policyholder and other injured parties, with maximum limits.\nממדים: Scenario of injury claim (policyholder vs. other injured party), Compensation amount\n\n. נפגע בעל הפוליסה עקב מקרה הביטוח, ישלם בעל הפוליסה למבטח פיצוי 9.3.1 מוסכם בסכום השווה לפיצוי המגיע לבעל הפוליסה בשל נזק שאינו נזק ממון ;₪  10,000( לחוק הפיצויים, אך לא יותר מ 3)( )א 4 לפי סעיף\n, ישלם בעל הפוליסה למבטח פיצוי 9.3.1 . בלי לגרוע מן האמור בפסקה 9.3.2 בעד כל נפגע שאינו בעל הפוליסה אשר יפוצה ₪  2,500 מוסכם בסכום של על ידי המבטח עקב מקרה הביטוח, אך לא יותר ממחצית סכום הפיצויים שישולם לכל נפגע כאמור, ובלבד שסכום הפיצוי המוסכם הכולל לפי פסקה .₪  10,000 זו לא יעלה על"
+  "embed_text": "טבלה זו מפרטת סכומי פיצוי מוסכמים לנפגעים במקרה של תביעת ביטוח, כחלק מפוליסת הראל. ניתן לעיין בטבלה כדי לברר את גובה הפיצוי המוסכם עבור בעל הפוליסה ועבור נפגעים אחרים. הפיצויים מחושבים בהתאם לנזק שאינו נזק ממון, ומוצגים בסכומים קבועים בשקלים חדשים. סכומי הפיצוי המוסכמים כוללים ₪ 10,000 עבור בעל הפוליסה ו-₪ 2,500 עבור נפגעים אחרים. הראל מציעה פיצוי מוסכם לנפגעים בתאונות דרכים, וסכומים אלו מפורטים בטבלה זו. This table details agreed-upon compensation amounts for injured parties in the event of an insurance claim. It specifies amounts payable to the policyholder and to other injured individuals.",
+  "payload": "טבלה: פיצוי מוסכם לנפגעים\nThis table details agreed-upon compensation amounts for injured parties in the event of an insurance claim. It specifies amounts payable to the policyholder and to other injured individuals.\nממדים: סוג הנפגע (בעל הפוליסה / נפגע אחר), סכום הפיצוי המוסכם\n\n. נפגע בעל הפוליסה עקב מקרה הביטוח, ישלם בעל הפוליסה למבטח פיצוי 9.3.1 מוסכם בסכום השווה לפיצוי המגיע לבעל הפוליסה בשל נזק שאינו נזק ממון ;₪  10,000( לחוק הפיצויים, אך לא יותר מ 3)( )א 4 לפי סעיף\n, ישלם בעל הפוליסה למבטח פיצוי 9.3.1 . בלי לגרוע מן האמור בפסקה 9.3.2 בעד כל נפגע שאינו בעל הפוליסה אשר יפוצה ₪  2,500 מוסכם בסכום של על ידי המבטח עקב מקרה הביטוח, אך לא יותר ממחצית סכום הפיצויים שישולם לכל נפגע כאמור, ובלבד שסכום הפיצוי המוסכם הכולל לפי פסקה .₪  10,000 זו לא יעלה על"
 }

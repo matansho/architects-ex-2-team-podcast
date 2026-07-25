@@ -3,23 +3,21 @@
   "source": "llm",
   "description": {
     "title": "דוח תביעות",
-    "summary": "This table details the claims report provided by the insurer to the policyholder. It outlines when the report is sent and what information it contains regarding claims filed during the policy period.",
-    "embed_passage": "פוליסת ביטוח רכב הראל סוויץ׳ מספקת דוח תביעות לבעל הפוליסה, המפרט את כל התביעות שהוגשו עד למועד מסוים. הדוח יפרט פרטי הנהג המעורב בתאונה עבור תביעות שהוגשו בשלוש השנים האחרונות או בתקופת הביטוח, לפי המוקדם מביניהן. במקרה של תביעה בחודש האחרון של הפוליסה, יישלח עדכון מידי.",
-    "row_axis": "Timeframe/Condition for report delivery",
-    "column_axis": "Details of the claims report",
+    "summary": "This table details claim reports provided by the insurer to the policyholder. It outlines when and what information is included in these reports.",
+    "embed_passage": "טבלה זו עוסקת בדוחות תביעות הניתנים על ידי הראל סוויץ לבעלי הפוליסה. דוח תביעות מפרט את כל התביעות שהוגשו עד למועד מסוים, וכולל פרטים על הנהג המעורב בתאונה. ניתן לחפש מידע על דוחות תביעות לפי חודש לפני תום תקופת הביטוח או מיד בסיומה. הראל סוויץ, תביעות, דוח תביעות, תאונה, נהג, חודש, תקופת ביטוח.",
+    "row_axis": "מועד שליחת הדוח",
+    "column_axis": "סוג המידע בדוח",
     "units": [],
     "notable_values": [
-      "3: Number of years of claims history included in the report",
-      "21.1: Section number detailing the report delivery",
-      "21.2: Section number detailing report content",
-      "21.3: Section number detailing updates to the report"
+      "תקופת התיישנות: 7 שנים",
+      "תקופה לפרטי נהג: 3 שנים",
+      "חודש לפני תום תקופת הביטוח: עדכון דוח תביעות"
     ],
     "product_hints": [
-      "הראל סוויץ'",
-      "פוליסת ביטוח רכב"
+      "הראל סוויץ"
     ]
   },
   "sketch": ". דוח תביעות 21\n. חודש לפני תום תקופת הביטוח או מיד בסיומה, אם היא מסתיימת באופן בלתי צפוי, ישלח 21.1 , המבטח לבעל הפוליסה דוח תביעות שיפרט בו את כל התביעות שהוגשו עד לאותו מועד .( ככל שהוגשו )להלן - דוח תביעות\n. בדוח התביעות יפרט המבטח, לגבי כל תביעה שהוגשה בשלוש השנים שקדמו למועד 21.2 שליחת הדוח או שהוגשה בתקופה שבה היה בעל הפוליסה מבוטח אצל המבטח, לפי הקצרה מביניהן, את פרטי הנהג המעורב בתאונה.\n. הוגשה תביעה במהלך החודש שלפני תום תקופת הביטוח, ישלח המבטח עדכון לדוח 21.3 התביעות מיד עם הגשת התביעה.",
-  "embed_text": "פוליסת ביטוח רכב הראל סוויץ׳ מספקת דוח תביעות לבעל הפוליסה, המפרט את כל התביעות שהוגשו עד למועד מסוים. הדוח יפרט פרטי הנהג המעורב בתאונה עבור תביעות שהוגשו בשלוש השנים האחרונות או בתקופת הביטוח, לפי המוקדם מביניהן. במקרה של תביעה בחודש האחרון של הפוליסה, יישלח עדכון מידי.",
-  "payload": "טבלה: דוח תביעות\nThis table details the claims report provided by the insurer to the policyholder. It outlines when the report is sent and what information it contains regarding claims filed during the policy period.\nממדים: Timeframe/Condition for report delivery, Details of the claims report\n\n. דוח תביעות 21\n. חודש לפני תום תקופת הביטוח או מיד בסיומה, אם היא מסתיימת באופן בלתי צפוי, ישלח 21.1 , המבטח לבעל הפוליסה דוח תביעות שיפרט בו את כל התביעות שהוגשו עד לאותו מועד .( ככל שהוגשו )להלן - דוח תביעות\n. בדוח התביעות יפרט המבטח, לגבי כל תביעה שהוגשה בשלוש השנים שקדמו למועד 21.2 שליחת הדוח או שהוגשה בתקופה שבה היה בעל הפוליסה מבוטח אצל המבטח, לפי הקצרה מביניהן, את פרטי הנהג המעורב בתאונה.\n. הוגשה תביעה במהלך החודש שלפני תום תקופת הביטוח, ישלח המבטח עדכון לדוח 21.3 התביעות מיד עם הגשת התביעה."
+  "embed_text": "טבלה זו עוסקת בדוחות תביעות הניתנים על ידי הראל סוויץ לבעלי הפוליסה. דוח תביעות מפרט את כל התביעות שהוגשו עד למועד מסוים, וכולל פרטים על הנהג המעורב בתאונה. ניתן לחפש מידע על דוחות תביעות לפי חודש לפני תום תקופת הביטוח או מיד בסיומה. הראל סוויץ, תביעות, דוח תביעות, תאונה, נהג, חודש, תקופת ביטוח. This table details claim reports provided by the insurer to the policyholder. It outlines when and what information is included in these reports. בין הערכים בטבלה: תקופת התיישנות: 7 שנים; תקופה לפרטי נהג: 3 שנים.",
+  "payload": "טבלה: דוח תביעות\nThis table details claim reports provided by the insurer to the policyholder. It outlines when and what information is included in these reports.\nממדים: מועד שליחת הדוח, סוג המידע בדוח\n\n. דוח תביעות 21\n. חודש לפני תום תקופת הביטוח או מיד בסיומה, אם היא מסתיימת באופן בלתי צפוי, ישלח 21.1 , המבטח לבעל הפוליסה דוח תביעות שיפרט בו את כל התביעות שהוגשו עד לאותו מועד .( ככל שהוגשו )להלן - דוח תביעות\n. בדוח התביעות יפרט המבטח, לגבי כל תביעה שהוגשה בשלוש השנים שקדמו למועד 21.2 שליחת הדוח או שהוגשה בתקופה שבה היה בעל הפוליסה מבוטח אצל המבטח, לפי הקצרה מביניהן, את פרטי הנהג המעורב בתאונה.\n. הוגשה תביעה במהלך החודש שלפני תום תקופת הביטוח, ישלח המבטח עדכון לדוח 21.3 התביעות מיד עם הגשת התביעה."
 }

@@ -2,22 +2,21 @@
   "id": "pdf:health/files/טופס-בקשה-לאישור-ותיאום-ניתוח.pdf#38",
   "source": "llm",
   "description": {
-    "title": "בקשה לאישור ניתוח",
-    "summary": "This table is a medical request form for surgical approval. It details the patient's diagnosis, date of first diagnosis, and whether the current complaint is a result of an accident or work-related injury.",
-    "embed_passage": "טופס זה משמש לבקשה לאישור ניתוח עבור מבוטח. הוא מתעד את האבחנה הראשונית של המטופל, תאריך האבחנה, והאם התלונה הנוכחית נובעת מתאונה או פציעה בעבודה. לדוגמה, האבחנה יכולה להיות 'דרכים תאונת' והתאריך 'בתאריך: לראשונה אובחן בניתוח הצורך'.",
-    "row_axis": "Patient's medical history / diagnostic information",
-    "column_axis": "Details of diagnosis and complaint origin",
+    "title": "טופס בקשה לאישור ותיאום ניתוח",
+    "summary": "This table is part of a surgical approval request form. It documents the patient's diagnosis, date of first diagnosis, and whether the current complaint is a result of an accident or work-related injury.",
+    "embed_passage": "טופס זה משמש לתיאום ניתוח עבור מבוטחים. הרופא המטפל ממלא טופס זה כדי לתאר את האבחנה הראשונית של המטופל, תאריך האבחנה, והאם התלונה הנוכחית קשורה לתאונה או לעבודה. הטופס כולל שדות לתיאור האבחנה, תאריך התחלת התלונות, וציון האם התלונה היא תוצאה של תאונה או תאונת עבודה. בין האבחנות המופיעות: דרכים תאונת, עבודה תאונת. הרופא מציין האם פרט מסוים רלוונטי (כן, אם).",
+    "row_axis": "אבחנה (Diagnosis)",
+    "column_axis": "פרטי אבחנה (Diagnosis Details) - תאריך אבחנה, קשר לתאונה/עבודה",
     "units": [],
     "notable_values": [
-      "אבחנה: דרכים תאונת",
-      "תאריך: בתאריך: לראשונה אובחן בניתוח הצורך",
-      "פרט כן, אם: פרט כן, אם"
+      "דרכים תאונת: כן, אם",
+      "עבודה תאונת: כן, אם"
     ],
     "product_hints": [
-      "אישור ניתוח"
+      "טופס בקשה לאישור ותיאום ניתוח"
     ]
   },
   "sketch": "האבחנה.,האבחנה.,האבחנה.,האבחנה.,האבחנה.,ד.האבחנה\nבתאריך: לראשונה אובחן בניתוח הצורך,בתאריך: התחילו הנוכחית למחלה התלונות/הסימנים,בתאריך: התחילו הנוכחית למחלה התלונות/הסימנים,בתאריך: התחילו הנוכחית למחלה התלונות/הסימנים,מתאריך: החל זו לאבחנה בנוגע בטיפולי המבוטח,\nדרכים תאונת,דרכים תאונת,עבודה תאונת,של: תוצאה הן הנוכחית והתלונה האבחנה האם,של: תוצאה הן הנוכחית והתלונה האבחנה האם,\n\"פרט כן, אם\",\"פרט כן, אם\",\"פרט כן, אם\",\"פרט כן, אם\",\"פרט כן, אם\",\n:\nחותמת וחתימת הרופא\nתאריך:",
-  "embed_text": "טופס זה משמש לבקשה לאישור ניתוח עבור מבוטח. הוא מתעד את האבחנה הראשונית של המטופל, תאריך האבחנה, והאם התלונה הנוכחית נובעת מתאונה או פציעה בעבודה. לדוגמה, האבחנה יכולה להיות 'דרכים תאונת' והתאריך 'בתאריך: לראשונה אובחן בניתוח הצורך'.",
-  "payload": "טבלה: בקשה לאישור ניתוח\nThis table is a medical request form for surgical approval. It details the patient's diagnosis, date of first diagnosis, and whether the current complaint is a result of an accident or work-related injury.\nממדים: Patient's medical history / diagnostic information, Details of diagnosis and complaint origin\n\nהאבחנה.,האבחנה.,האבחנה.,האבחנה.,האבחנה.,ד.האבחנה\nבתאריך: לראשונה אובחן בניתוח הצורך,בתאריך: התחילו הנוכחית למחלה התלונות/הסימנים,בתאריך: התחילו הנוכחית למחלה התלונות/הסימנים,בתאריך: התחילו הנוכחית למחלה התלונות/הסימנים,מתאריך: החל זו לאבחנה בנוגע בטיפולי המבוטח,\nדרכים תאונת,דרכים תאונת,עבודה תאונת,של: תוצאה הן הנוכחית והתלונה האבחנה האם,של: תוצאה הן הנוכחית והתלונה האבחנה האם,\n\"פרט כן, אם\",\"פרט כן, אם\",\"פרט כן, אם\",\"פרט כן, אם\",\"פרט כן, אם\",\n:\nחותמת וחתימת הרופא\nתאריך:"
+  "embed_text": "טופס זה משמש לתיאום ניתוח עבור מבוטחים. הרופא המטפל ממלא טופס זה כדי לתאר את האבחנה הראשונית של המטופל, תאריך האבחנה, והאם התלונה הנוכחית קשורה לתאונה או לעבודה. הטופס כולל שדות לתיאור האבחנה, תאריך התחלת התלונות, וציון האם התלונה היא תוצאה של תאונה או תאונת עבודה. בין האבחנות המופיעות: דרכים תאונת, עבודה תאונת. הרופא מציין האם פרט מסוים רלוונטי (כן, אם). This table is part of a surgical approval request form. It documents the patient's diagnosis, date of first diagnosis, and whether the current complaint is a result of an accident or work-related injury.",
+  "payload": "טבלה: טופס בקשה לאישור ותיאום ניתוח\nThis table is part of a surgical approval request form. It documents the patient's diagnosis, date of first diagnosis, and whether the current complaint is a result of an accident or work-related injury.\nממדים: אבחנה (Diagnosis), פרטי אבחנה (Diagnosis Details) - תאריך אבחנה, קשר לתאונה/עבודה\n\nהאבחנה.,האבחנה.,האבחנה.,האבחנה.,האבחנה.,ד.האבחנה\nבתאריך: לראשונה אובחן בניתוח הצורך,בתאריך: התחילו הנוכחית למחלה התלונות/הסימנים,בתאריך: התחילו הנוכחית למחלה התלונות/הסימנים,בתאריך: התחילו הנוכחית למחלה התלונות/הסימנים,מתאריך: החל זו לאבחנה בנוגע בטיפולי המבוטח,\nדרכים תאונת,דרכים תאונת,עבודה תאונת,של: תוצאה הן הנוכחית והתלונה האבחנה האם,של: תוצאה הן הנוכחית והתלונה האבחנה האם,\n\"פרט כן, אם\",\"פרט כן, אם\",\"פרט כן, אם\",\"פרט כן, אם\",\"פרט כן, אם\",\n:\nחותמת וחתימת הרופא\nתאריך:"
 }

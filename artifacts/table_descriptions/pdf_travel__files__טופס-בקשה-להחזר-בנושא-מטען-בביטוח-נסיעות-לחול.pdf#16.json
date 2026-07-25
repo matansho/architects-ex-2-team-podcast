@@ -2,23 +2,24 @@
   "id": "pdf:travel/files/טופס-בקשה-להחזר-בנושא-מטען-בביטוח-נסיעות-לחול.pdf#16",
   "source": "llm",
   "description": {
-    "title": "החזר מטען",
-    "summary": "This table details claims for lost or damaged luggage in a travel insurance policy. It lists the items claimed, purchase date, purchase price, and the total claimed amount.",
-    "embed_passage": "פוליסת ביטוח הנסיעות של הראל מספקת החזר כספי עבור אובדן או נזק למטען. הטבלה מפרטת את תאריך הרכישה, מחיר הרכישה, וסכום התביעה הכולל עבור כל פריט. לדוגמה, ניתן לתבוע סכום של 5,000 ₪ עבור פריט שנרכש בתאריך מסוים.",
-    "row_axis": "claim item",
-    "column_axis": "claim details (purchase date, price, total amount)",
-    "units": [
-      "₪"
-    ],
+    "title": "פירוט תביעה - מטען",
+    "summary": "This table details claim items related to baggage loss during travel insurance. It is used to list the purchased items, their purchase dates and prices, and the claimed amounts.",
+    "embed_passage": "טופס זה משמש לפירוט רכיבי תביעה הנוגעים למטען שאבד או ניזוק במהלך נסיעה, כחלק מפוליסת ביטוח נסיעות של הראל חברה לביטוח בע\"מ. הנתונים כוללים את תאריך הרכישה של הפריט, מחירו, ואת הסכום הנתבע בגינו. ניתן להשתמש בטבלה זו כדי לתעד את כל הפריטים שאבדו או ניזוקו, ולסייע בתהליך קבלת ההחזר הכספי. הפריטים כוללים, לדוגמה, מטען, סוגי מטען, תאריכי רכישה, ומחירי רכישה. הסכום הנתבע מופיע במטבע המקורי. הראל חברה לביטוח בע\"מ",
+    "row_axis": "Claim item detail",
+    "column_axis": "Item description, purchase date, purchase price, claimed amount",
+    "units": [],
     "notable_values": [
-      "amount: 5,000"
+      "התביעה מרכיבי פירוט ד.פריט: מטען",
+      "התביעה מרכיבי פירוט ד.רכישה תאריך: …",
+      "התביעה מרכיבי פירוט ד.רכישה מחיר: …",
+      "המטבע וסוג הנתבע הסכום סה\"כ: …"
     ],
     "product_hints": [
-      "הראל ביטוח נסיעות",
-      "ביטוח מטען"
+      "ביטוח נסיעות",
+      "הראל חברה לביטוח בע\"מ"
     ]
   },
   "sketch": "התביעה מרכיבי פירוט ד.צורפה אם x לסמן נא תשלום קבלת,התביעה מרכיבי פירוט ד.רכישה תאריך,התביעה מרכיבי פירוט ד.רכישה מחיר,התביעה מרכיבי פירוט ד.פריט\n\"המטבע וסוג הנתבע הסכום סה\"\"כ\",\"המטבע וסוג הנתבע הסכום סה\"\"כ\",\"המטבע וסוג הנתבע הסכום סה\"\"כ\",\"המטבע וסוג הנתבע הסכום סה\"\"כ\"",
-  "embed_text": "פוליסת ביטוח הנסיעות של הראל מספקת החזר כספי עבור אובדן או נזק למטען. הטבלה מפרטת את תאריך הרכישה, מחיר הרכישה, וסכום התביעה הכולל עבור כל פריט. לדוגמה, ניתן לתבוע סכום של 5,000 ₪ עבור פריט שנרכש בתאריך מסוים.",
-  "payload": "טבלה: החזר מטען\nThis table details claims for lost or damaged luggage in a travel insurance policy. It lists the items claimed, purchase date, purchase price, and the total claimed amount.\nממדים: claim item, claim details (purchase date, price, total amount)\n\nהתביעה מרכיבי פירוט ד.צורפה אם x לסמן נא תשלום קבלת,התביעה מרכיבי פירוט ד.רכישה תאריך,התביעה מרכיבי פירוט ד.רכישה מחיר,התביעה מרכיבי פירוט ד.פריט\n\"המטבע וסוג הנתבע הסכום סה\"\"כ\",\"המטבע וסוג הנתבע הסכום סה\"\"כ\",\"המטבע וסוג הנתבע הסכום סה\"\"כ\",\"המטבע וסוג הנתבע הסכום סה\"\"כ\""
+  "embed_text": "טופס זה משמש לפירוט רכיבי תביעה הנוגעים למטען שאבד או ניזוק במהלך נסיעה, כחלק מפוליסת ביטוח נסיעות של הראל חברה לביטוח בע\"מ. הנתונים כוללים את תאריך הרכישה של הפריט, מחירו, ואת הסכום הנתבע בגינו. ניתן להשתמש בטבלה זו כדי לתעד את כל הפריטים שאבדו או ניזוקו, ולסייע בתהליך קבלת ההחזר הכספי. הפריטים כוללים, לדוגמה, מטען, סוגי מטען, תאריכי רכישה, ומחירי רכישה. הסכום הנתבע מופיע במטבע המקורי. הראל חברה לביטוח בע\"מ This table details claim items related to baggage loss during travel insurance. It is used to list the purchased items, their purchase dates and prices, and the claimed amounts. בין הערכים בטבלה: התביעה מרכיבי פירוט ד.רכישה תאריך: …; התביעה מרכיבי פירוט ד.רכישה מחיר: …; המטבע וסוג הנתבע הסכום סה\"כ: ….",
+  "payload": "טבלה: פירוט תביעה - מטען\nThis table details claim items related to baggage loss during travel insurance. It is used to list the purchased items, their purchase dates and prices, and the claimed amounts.\nממדים: Claim item detail, Item description, purchase date, purchase price, claimed amount\n\nהתביעה מרכיבי פירוט ד.צורפה אם x לסמן נא תשלום קבלת,התביעה מרכיבי פירוט ד.רכישה תאריך,התביעה מרכיבי פירוט ד.רכישה מחיר,התביעה מרכיבי פירוט ד.פריט\n\"המטבע וסוג הנתבע הסכום סה\"\"כ\",\"המטבע וסוג הנתבע הסכום סה\"\"כ\",\"המטבע וסוג הנתבע הסכום סה\"\"כ\",\"המטבע וסוג הנתבע הסכום סה\"\"כ\""
 }

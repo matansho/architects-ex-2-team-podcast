@@ -3,20 +3,22 @@
   "source": "llm",
   "description": {
     "title": "כתובות למתן הודעות",
-    "summary": "This table lists the addresses to which the insured or beneficiary must send notices to the insurer. It details options like the insurer's main office or the insurance agent's address.",
-    "embed_passage": "פוליסת 'עד הגג' לביטוח בית משותף דורשת שליחת הודעות בכתב. ניתן לשלוח למשרדו הראשי של המבטח, או למשרדו של סוכן הביטוח הרשום בפוליסה. המבטח יודיע למבוטח או למוטב על כתובת דואר אלקטרוני פעילה, מזמן לזמן.",
-    "row_axis": "Method of delivering a notice",
-    "column_axis": "Details of the address/method",
+    "summary": "This table lists the addresses to which the insured or beneficiary must send notices to the insurer. It details how notices can be delivered, including to the insurer’s main office or through an insurance agent.",
+    "embed_passage": "טבלה זו מפרטת כתובות למתן הודעות למבטח, הן ישירות למשרדו הראשי והן דרך סוכן ביטוח רשום בפוליסה. מטרת הטבלה היא להבטיח שהודעות יועברו בצורה תקינה, תוך ציון אפשרויות שונות למשלוח, כולל כתובת דואר אלקטרוני פעילה. הפוליסה 'עד הגג' לביטוח בית משותף דורשת העברת הודעות בכתב. ניתן לשלוח הודעה למשרדו הראשי של המבטח, או למשרדו של סוכן הביטוח הרשום בפוליסה. כתובות נוספות בישראל עשויות להיות תקפות אם המבטח או סוכן הביטוח הודיעו עליהן.",
+    "row_axis": "method of notification",
+    "column_axis": "address details",
     "units": [],
     "notable_values": [
-      "Notice method: insurer's main office",
-      "Notice method: insurance agent's office"
+      "notification method: insurer’s main office",
+      "notification method: insurance agent’s office",
+      "address type: written notice",
+      "address type: email address"
     ],
     "product_hints": [
       "עד הגג"
     ]
   },
   "sketch": ". כתובות למתן הודעות 23\n.  הודעה של המבוטח או של המוטב למבטח תימסר למבטח בכתב לאחד מאלה: 23.1\n.  למשרדו הראשי של המבטח, או לכל מען אחר בישראל, לרבות כתובת 23.1.1 דואר אלקטרוני פעילה, שעליו יודיע המבטח למבוטח או למוטב, מזמן לזמן.\nבמשרדו של סוכן הביטוח, הרשום בפוליסה - לפי מענו, כמפורט בה, או לפי .23.1.2 כל מען אחר בישראל שעליו יודיע סוכן הביטוח הנזכר או המבטח, למבוטח או למוטב, מזמן לזמן.",
-  "embed_text": "פוליסת 'עד הגג' לביטוח בית משותף דורשת שליחת הודעות בכתב. ניתן לשלוח למשרדו הראשי של המבטח, או למשרדו של סוכן הביטוח הרשום בפוליסה. המבטח יודיע למבוטח או למוטב על כתובת דואר אלקטרוני פעילה, מזמן לזמן.",
-  "payload": "טבלה: כתובות למתן הודעות\nThis table lists the addresses to which the insured or beneficiary must send notices to the insurer. It details options like the insurer's main office or the insurance agent's address.\nממדים: Method of delivering a notice, Details of the address/method\n\n. כתובות למתן הודעות 23\n.  הודעה של המבוטח או של המוטב למבטח תימסר למבטח בכתב לאחד מאלה: 23.1\n.  למשרדו הראשי של המבטח, או לכל מען אחר בישראל, לרבות כתובת 23.1.1 דואר אלקטרוני פעילה, שעליו יודיע המבטח למבוטח או למוטב, מזמן לזמן.\nבמשרדו של סוכן הביטוח, הרשום בפוליסה - לפי מענו, כמפורט בה, או לפי .23.1.2 כל מען אחר בישראל שעליו יודיע סוכן הביטוח הנזכר או המבטח, למבוטח או למוטב, מזמן לזמן."
+  "embed_text": "טבלה זו מפרטת כתובות למתן הודעות למבטח, הן ישירות למשרדו הראשי והן דרך סוכן ביטוח רשום בפוליסה. מטרת הטבלה היא להבטיח שהודעות יועברו בצורה תקינה, תוך ציון אפשרויות שונות למשלוח, כולל כתובת דואר אלקטרוני פעילה. הפוליסה 'עד הגג' לביטוח בית משותף דורשת העברת הודעות בכתב. ניתן לשלוח הודעה למשרדו הראשי של המבטח, או למשרדו של סוכן הביטוח הרשום בפוליסה. כתובות נוספות בישראל עשויות להיות תקפות אם המבטח או סוכן הביטוח הודיעו עליהן. This table lists the addresses to which the insured or beneficiary must send notices to the insurer. It details how notices can be delivered, including to the insurer’s main office or through an insurance agent. בין הערכים בטבלה: notification method: insurer’s main office; notification method: insurance agent’s office; address type: written notice; address type: email a…",
+  "payload": "טבלה: כתובות למתן הודעות\nThis table lists the addresses to which the insured or beneficiary must send notices to the insurer. It details how notices can be delivered, including to the insurer’s main office or through an insurance agent.\nממדים: method of notification, address details\n\n. כתובות למתן הודעות 23\n.  הודעה של המבוטח או של המוטב למבטח תימסר למבטח בכתב לאחד מאלה: 23.1\n.  למשרדו הראשי של המבטח, או לכל מען אחר בישראל, לרבות כתובת 23.1.1 דואר אלקטרוני פעילה, שעליו יודיע המבטח למבוטח או למוטב, מזמן לזמן.\nבמשרדו של סוכן הביטוח, הרשום בפוליסה - לפי מענו, כמפורט בה, או לפי .23.1.2 כל מען אחר בישראל שעליו יודיע סוכן הביטוח הנזכר או המבטח, למבוטח או למוטב, מזמן לזמן."
 }

@@ -3,24 +3,27 @@
   "source": "llm",
   "description": {
     "title": "שירותי דרך וגרירה",
-    "summary": "This table details the conditions for roadside assistance and towing services provided by Shirbit. It outlines service areas, limitations, and response times.",
-    "embed_passage": "פוליסת הביטוח של שירביט כוללת שירותי דרך וגרירה ברחבי ישראל, למעט אזורים מוגבלים דרומית לצומת הערבה ומזרחית למעלה אדומים. השירות ניתן 24 שעות ביממה, למעט יום כיפור, ובדרך כלל תוך שעתיים מקבלת הקריאה. השירות מורחב ניתן רק אם משטרת ישראל אינה מעורבת או שניתנו אישורים.",
-    "row_axis": "service conditions / limitations",
+    "summary": "This table details the conditions for roadside assistance and towing services provided by \"נותן השירות\". It specifies the geographical coverage and limitations of the \"שירות מורחב\" (extended service).",
+    "embed_passage": "טבלה זו מתארת את תנאי שירותי הדרך והגרירה הניתנים על ידי \"נותן השירות\" כחלק מ\"שירות מורחב\". השירות מיועד לרכבים מבוטחים ומפרט את הכיסוי הגיאוגרפי והמגבלות שלו. ניתן לקבל שירות מורחב ברחבי מדינת ישראל, למעט אזורים מוגדרים דרומית לצומת הערבה ומזרחית למעלה אדומים. השירות ניתן 24 שעות ביממה, למעט חריגים כגון יום כיפור, ימי חג, שבתות ושינויי מזג אוויר קיצוניים. שירות מורחב יינתן רק אם משטרת ישראל אינה מעורבת או שהמבוטח קיבל אישורים נדרשים.",
+    "row_axis": "conditions/locations for service",
     "column_axis": "service details",
     "units": [],
     "notable_values": [
-      "service availability: 24 hours",
-      "response time: 2 hours",
-      "service area: Israel (excluding certain areas)",
-      "exclusion: Yom Kippur",
-      "police involvement: service may be limited"
+      "שירות מורחב: ברחבי מדינת ישראל",
+      "אזורים מוגבלים: דרומית לצומת הערבה",
+      "אזורים מוגבלים: מזרחית למעלה אדומים",
+      "ערד: ניתן שירות גם בערד",
+      "זמן מתן שירות: תוך שעתיים",
+      "יום כיפור: לא יינתנו שירותים",
+      "ימי חג/שבת: חריגים לזמן מתן שירות",
+      "מזג אוויר קיצוני: חריגים לזמן מתן שירות"
     ],
     "product_hints": [
-      "שירביט",
-      "ביטוח רכב"
+      "שירות מורחב",
+      "שירביט"
     ]
   },
   "sketch": "\" ל\"שרותי דרך וגרירה יינתנו בהתאם לכתב השרות לרכב המבוטח, כל השירותים הניתנים . 3 של \"נותן השירות\", כמצוין בכתב השירות.\nשירות מורחב יינתן ברחבי מדינת ישראל בשטחים בשליטה ישראלית למעט דרומית לצומת . 4 הערבה, מזרחית למעלה אדומים ובשטחי האוטונומיה. למרות האמור לעיל, יינתן השירות גם בערד.",
-  "embed_text": "פוליסת הביטוח של שירביט כוללת שירותי דרך וגרירה ברחבי ישראל, למעט אזורים מוגבלים דרומית לצומת הערבה ומזרחית למעלה אדומים. השירות ניתן 24 שעות ביממה, למעט יום כיפור, ובדרך כלל תוך שעתיים מקבלת הקריאה. השירות מורחב ניתן רק אם משטרת ישראל אינה מעורבת או שניתנו אישורים.",
-  "payload": "טבלה: שירותי דרך וגרירה\nThis table details the conditions for roadside assistance and towing services provided by Shirbit. It outlines service areas, limitations, and response times.\nממדים: service conditions / limitations, service details\n\n\" ל\"שרותי דרך וגרירה יינתנו בהתאם לכתב השרות לרכב המבוטח, כל השירותים הניתנים . 3 של \"נותן השירות\", כמצוין בכתב השירות.\nשירות מורחב יינתן ברחבי מדינת ישראל בשטחים בשליטה ישראלית למעט דרומית לצומת . 4 הערבה, מזרחית למעלה אדומים ובשטחי האוטונומיה. למרות האמור לעיל, יינתן השירות גם בערד."
+  "embed_text": "טבלה זו מתארת את תנאי שירותי הדרך והגרירה הניתנים על ידי \"נותן השירות\" כחלק מ\"שירות מורחב\". השירות מיועד לרכבים מבוטחים ומפרט את הכיסוי הגיאוגרפי והמגבלות שלו. ניתן לקבל שירות מורחב ברחבי מדינת ישראל, למעט אזורים מוגדרים דרומית לצומת הערבה ומזרחית למעלה אדומים. השירות ניתן 24 שעות ביממה, למעט חריגים כגון יום כיפור, ימי חג, שבתות ושינויי מזג אוויר קיצוניים. שירות מורחב יינתן רק אם משטרת ישראל אינה מעורבת או שהמבוטח קיבל אישורים נדרשים. This table details the conditions for roadside assistance and towing services provided by \"נותן השירות\". It specifies the geographical coverage and limitations of the \"שירות מורחב\" (extended service). בין הערכים בטבלה: ערד: ניתן שירות גם בערד; זמן מתן שירות: תוך שעתיים; ימי חג/שבת: חריגים לזמן מתן שירות.",
+  "payload": "טבלה: שירותי דרך וגרירה\nThis table details the conditions for roadside assistance and towing services provided by \"נותן השירות\". It specifies the geographical coverage and limitations of the \"שירות מורחב\" (extended service).\nממדים: conditions/locations for service, service details\n\n\" ל\"שרותי דרך וגרירה יינתנו בהתאם לכתב השרות לרכב המבוטח, כל השירותים הניתנים . 3 של \"נותן השירות\", כמצוין בכתב השירות.\nשירות מורחב יינתן ברחבי מדינת ישראל בשטחים בשליטה ישראלית למעט דרומית לצומת . 4 הערבה, מזרחית למעלה אדומים ובשטחי האוטונומיה. למרות האמור לעיל, יינתן השירות גם בערד."
 }

@@ -3,22 +3,22 @@
   "source": "llm",
   "description": {
     "title": "פוליסת רכב",
-    "summary": "This table outlines the process and timelines for filing and receiving insurance claims related to a vehicle policy. It details the responsibilities of both the insured/beneficiary and the insurer.",
-    "embed_passage": "פוליסת רכב מספקת פירוט שלבים להגשת תביעה. לאחר שנודע על מקרה ביטוח, על המבוטח להודיע למבטח מיד. תגמולי הביטוח ישולמו תוך 30 ימים מהיום שהיו בידי המבטח המידע והמסמכים הדרושים לבירור חבותו.",
-    "row_axis": "Claim process step / Insured/Beneficiary/Insurer responsibility",
-    "column_axis": "Details of the process, timelines, and required actions",
+    "summary": "This table outlines the process and timeline for submitting and resolving car insurance claims. It details the responsibilities of the insured/beneficiary and the insurer regarding information provision and payment of benefits.",
+    "embed_passage": "טבלה זו מתארת את תהליך הגשת תביעה ובירורה בפוליסת רכב. המבוטח או המוטב נדרשים למסור למבטח מידע ומסמכים נדרשים לבירור החבות, והמבטח מחויב לברר את חבותו מיד לאחר קבלת ההודעה. תגמולי הביטוח ישולמו תוך 30 ימים מהיום שהיו בידי המבטח המידע הדרוש. הפוליסה כוללת סעיפים הנוגעים להודעה על מקרה ביטוח, הגשת תביעה בכתב, סיוע בהשגת מסמכים, בירור חבות, ותשלום תגמולים.  הטבלה מתייחסת לתביעה, מידע, מסמכים, חבות, תגמולי ביטוח, ומועד תשלום.",
+    "row_axis": "Steps in the insurance claim process",
+    "column_axis": "Responsibilities and timelines",
     "units": [],
     "notable_values": [
-      "30 ימים: Maximum timeframe for claim payment",
-      "28.1: Notification requirement after incident",
-      "28.5: Payment timeline",
-      "4%: Annual interest rate"
+      "תביעה: בכתב",
+      "מידע ומסמכים: זמן סביר",
+      "בירור חבות: מיד לאחר קבלת הודעה",
+      "תשלום תגמולים: תוך 30 ימים"
     ],
     "product_hints": [
       "פוליסת רכב"
     ]
   },
   "sketch": ", על המבוטח, או על המוטב, לפי העניין, למסור למבטח, תוך זמן סביר לאחר שנדרש לכך .28.3 את המידע והמסמכים הדרושים לבירור החבות והיקפה ואם אינם ברשותו, עליו לעזור למבטח, ככל שיוכל, להשיגם.\n.  המבטח, מיד לאחר שקיבל הודעה מהמבוטח או המוטב על קרות מקרה הביטוח, יעשה 28.4 את הדרוש לבירור חבותו.",
-  "embed_text": "פוליסת רכב מספקת פירוט שלבים להגשת תביעה. לאחר שנודע על מקרה ביטוח, על המבוטח להודיע למבטח מיד. תגמולי הביטוח ישולמו תוך 30 ימים מהיום שהיו בידי המבטח המידע והמסמכים הדרושים לבירור חבותו.",
-  "payload": "טבלה: פוליסת רכב\nThis table outlines the process and timelines for filing and receiving insurance claims related to a vehicle policy. It details the responsibilities of both the insured/beneficiary and the insurer.\nממדים: Claim process step / Insured/Beneficiary/Insurer responsibility, Details of the process, timelines, and required actions\n\n, על המבוטח, או על המוטב, לפי העניין, למסור למבטח, תוך זמן סביר לאחר שנדרש לכך .28.3 את המידע והמסמכים הדרושים לבירור החבות והיקפה ואם אינם ברשותו, עליו לעזור למבטח, ככל שיוכל, להשיגם.\n.  המבטח, מיד לאחר שקיבל הודעה מהמבוטח או המוטב על קרות מקרה הביטוח, יעשה 28.4 את הדרוש לבירור חבותו."
+  "embed_text": "טבלה זו מתארת את תהליך הגשת תביעה ובירורה בפוליסת רכב. המבוטח או המוטב נדרשים למסור למבטח מידע ומסמכים נדרשים לבירור החבות, והמבטח מחויב לברר את חבותו מיד לאחר קבלת ההודעה. תגמולי הביטוח ישולמו תוך 30 ימים מהיום שהיו בידי המבטח המידע הדרוש. הפוליסה כוללת סעיפים הנוגעים להודעה על מקרה ביטוח, הגשת תביעה בכתב, סיוע בהשגת מסמכים, בירור חבות, ותשלום תגמולים.  הטבלה מתייחסת לתביעה, מידע, מסמכים, חבות, תגמולי ביטוח, ומועד תשלום. This table outlines the process and timeline for submitting and resolving car insurance claims. It details the responsibilities of the insured/beneficiary and the insurer regarding information provision and payment of benefits.",
+  "payload": "טבלה: פוליסת רכב\nThis table outlines the process and timeline for submitting and resolving car insurance claims. It details the responsibilities of the insured/beneficiary and the insurer regarding information provision and payment of benefits.\nממדים: Steps in the insurance claim process, Responsibilities and timelines\n\n, על המבוטח, או על המוטב, לפי העניין, למסור למבטח, תוך זמן סביר לאחר שנדרש לכך .28.3 את המידע והמסמכים הדרושים לבירור החבות והיקפה ואם אינם ברשותו, עליו לעזור למבטח, ככל שיוכל, להשיגם.\n.  המבטח, מיד לאחר שקיבל הודעה מהמבוטח או המוטב על קרות מקרה הביטוח, יעשה 28.4 את הדרוש לבירור חבותו."
 }

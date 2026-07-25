@@ -2,25 +2,23 @@
   "id": "pdf:health/files/תנאי-פוליסת-ניתוחים-וטיפולים-מחליפי-ניתוח-בישראל-מהשקל-הראשון-1.pdf#40",
   "source": "llm",
   "description": {
-    "title": "תגמולי ביטוח ניתוחים הראל",
-    "summary": "This table details the maximum insurance payouts for surgeries and replacement treatments in Israel offered by Harel. It allows you to look up potential benefits based on the policy details.",
-    "embed_passage": "פוליסת ניתוחים של הראל מספקת כיסוי להוצאות רפואיות בישראל, כולל ניתוחים מחליפים וטיפולים. גובה תגמולי הביטוח משתנה בהתאם לתנאי הפוליסה, וניתן לברר פרטים נוספים במוקד הראל או באתר האינטרנט שלהם. לדוגמה, תגמול מרבי עשוי להיות 5,000 ₪.",
-    "row_axis": "סוגי כיסוי / תנאי פוליסה",
-    "column_axis": "גובה תגמול ביטוח מרבי",
+    "title": "תגמולי ביטוח מרביים",
+    "summary": "This table details maximum insurance payouts, potentially based on updated price lists available on the Harel company website. It appears to be used to determine the amount of coverage available under a policy.",
+    "embed_passage": "טבלה זו מציגה תגמולי ביטוח מרביים, אשר עשויים להתבסס על מחירי הסכם המתעדכנים באתר החברה. ניתן לברר את גובה התגמולים הנכללים בתכנית הביטוח באמצעות מוקד הראל או באתר האינטרנט של החברה. התגמולים עשויים להיות צמודים לסכום של 5,000 ₪. תכנית ביטוח הראל מציעה כיסוי להוצאות רפואיות בישראל, כולל ניתוחים מחליפים וטיפולים. הראל מאפשרת התייעצות עם מוסד רפואי או רופא.",
+    "row_axis": "סוג תגמול / כיסוי",
+    "column_axis": "ערך תגמול / סכום",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "תגמול מרבי: 5,000 ₪",
-      "אתר הראל: http://www.harel-group.co.il",
-      "טלפון הראל: 2735"
+      "תגמולי ביטוח מרביים: 5,000 ₪",
+      "השתתפות עצמית: 5,000 ₪"
     ],
     "product_hints": [
-      "ניתוחים הראל",
-      "Harel"
+      "הראל"
     ]
   },
   "sketch": "יובהר כי תגמולי ביטוח מרביים שאינם בערך נקוב, אם קיימים בפוליסה סכומים שאינם בערך נקוב: . שברשותך, מבוססים על מחירי הסכם המתעדכנים מעת לעת על פי המפורט באתר החברה\nלבירור גובה תגמולי הביטוח האמורים הנכללים בתכנית הביטוח שברשותך, ניתן לפנות למוקד הראל, בטלפון http://www.harel-group.co.il/wps/portal *( או באתר האינטרנט של החברה שכתובתו 2735) *הראל",
-  "embed_text": "פוליסת ניתוחים של הראל מספקת כיסוי להוצאות רפואיות בישראל, כולל ניתוחים מחליפים וטיפולים. גובה תגמולי הביטוח משתנה בהתאם לתנאי הפוליסה, וניתן לברר פרטים נוספים במוקד הראל או באתר האינטרנט שלהם. לדוגמה, תגמול מרבי עשוי להיות 5,000 ₪.",
-  "payload": "טבלה: תגמולי ביטוח ניתוחים הראל\nThis table details the maximum insurance payouts for surgeries and replacement treatments in Israel offered by Harel. It allows you to look up potential benefits based on the policy details.\nממדים: סוגי כיסוי / תנאי פוליסה, גובה תגמול ביטוח מרבי\n\nיובהר כי תגמולי ביטוח מרביים שאינם בערך נקוב, אם קיימים בפוליסה סכומים שאינם בערך נקוב: . שברשותך, מבוססים על מחירי הסכם המתעדכנים מעת לעת על פי המפורט באתר החברה\nלבירור גובה תגמולי הביטוח האמורים הנכללים בתכנית הביטוח שברשותך, ניתן לפנות למוקד הראל, בטלפון http://www.harel-group.co.il/wps/portal *( או באתר האינטרנט של החברה שכתובתו 2735) *הראל"
+  "embed_text": "טבלה זו מציגה תגמולי ביטוח מרביים, אשר עשויים להתבסס על מחירי הסכם המתעדכנים באתר החברה. ניתן לברר את גובה התגמולים הנכללים בתכנית הביטוח באמצעות מוקד הראל או באתר האינטרנט של החברה. התגמולים עשויים להיות צמודים לסכום של 5,000 ₪. תכנית ביטוח הראל מציעה כיסוי להוצאות רפואיות בישראל, כולל ניתוחים מחליפים וטיפולים. הראל מאפשרת התייעצות עם מוסד רפואי או רופא. This table details maximum insurance payouts, potentially based on updated price lists available on the Harel company website. It appears to be used to determine the amount of coverage available under a policy.",
+  "payload": "טבלה: תגמולי ביטוח מרביים\nThis table details maximum insurance payouts, potentially based on updated price lists available on the Harel company website. It appears to be used to determine the amount of coverage available under a policy.\nממדים: סוג תגמול / כיסוי, ערך תגמול / סכום\n\nיובהר כי תגמולי ביטוח מרביים שאינם בערך נקוב, אם קיימים בפוליסה סכומים שאינם בערך נקוב: . שברשותך, מבוססים על מחירי הסכם המתעדכנים מעת לעת על פי המפורט באתר החברה\nלבירור גובה תגמולי הביטוח האמורים הנכללים בתכנית הביטוח שברשותך, ניתן לפנות למוקד הראל, בטלפון http://www.harel-group.co.il/wps/portal *( או באתר האינטרנט של החברה שכתובתו 2735) *הראל"
 }

@@ -2,23 +2,23 @@
   "id": "pdf:car/files/פוליסה-לביטוח-רכב-פרטי-ומסחרי-עד-35-טון-מהדורת-יוני-2023.pdf#14",
   "source": "llm",
   "description": {
-    "title": "פוליסת ביטוח רכב",
-    "summary": "This table details coverage exclusions for a car insurance policy. It specifies situations where the policy does not provide coverage, such as using a vehicle for commercial purposes without explicit mention in the insurance certificate.",
-    "embed_passage": "פוליסת ביטוח רכב מכסה מטרות עסקיות של חילוץ או גרירה של רכב מנועי, אך לא מכסה שימוש ברכב על בסיס חוזה שכירות אם המשכיר השכיר את הרכב דרך עיסוק. הפוליסה אינה מכסה שימוש בכלי תחרותי אלא אם אושר במפורש. לדוגמה, סעיף 6.1.4 מתייחס לחילוץ רכב.",
-    "row_axis": "exclusion clause",
-    "column_axis": "description of exclusion",
+    "title": "כיסוי שימוש ברכב",
+    "summary": "This table details coverage exclusions related to vehicle use, specifically regarding commercial purposes, rentals, and competitive driving. It clarifies under what conditions the insurance policy does or does not apply to different types of vehicle operation.",
+    "embed_passage": "טבלה זו מתארת כיסויים וחרגות בפוליסת ביטוח רכב, תוך התמקדות בשימושים מסחריים, השכרות ונהיגה תחרותית. ניתן לחפש מידע על סוגי שימוש ספציפיים ברכב וכיסוי הביטוחי הרלוונטי. הפוליסה רלוונטית לביטוח רכב פרטי ומסחרי עד 35 טון.  הטבלה מתייחסת למטרות עסקיות של חילוץ או גרירה, שימוש ברכב על בסיס חוזה שכירות, ושימוש בכלי תחרותי.  החרגות כוללות שימוש ברכב ללא ציון מפורש בתעודת הביטוח, השכרת רכב דרך עיסוק ללא ציון מפורש, ושימוש בכלי תחרותי ללא רישיון מתאים או במירוצים אסורים.",
+    "row_axis": "סוג שימוש ברכב",
+    "column_axis": "תנאי הכיסוי",
     "units": [],
     "notable_values": [
-      "סעיף: 6.1.4",
-      "סעיף: 6.1",
-      "סעיף: 6.2",
-      "סעיף: 6.3"
+      "מטרה עסקית של חילוץ או גרירה: תשלום",
+      "חוזה שכירות: עיסוק",
+      "שימוש ברכב על בסיס חוזה שכירות: ללא כיסוי",
+      "שימוש בכלי תחרותי: רישיון"
     ],
     "product_hints": [
-      "פוליסת ביטוח רכב"
+      "פוליסה לביטוח רכב פרטי ומסחרי עד 35 טון"
     ]
   },
   "sketch": "מטרה עסקית של חילוץ או גרירה של רכב מנועי, כנגד תשלום, שכר או תמורה .6.1.4 אחרת, ובלבד שהמטרה צוינה במפורש בתעודת הביטוח.\n, אין פוליסה זו מכסה שימוש ברכב מנועי על בסיס 6.1 . על אף האמור בסעיף קטן 6.2 חוזה שכירות אם המשכיר השכיר את הרכב דרך עיסוק, אלא אם כן מטרה זו צוינה במפורש בתעודת הביטוח; לעניין זה, \"חוזה שכירות\" - למעט חוזה ליסינג-תפעולי או .( חוזה מקח-אגב-שכירות )ליסינג מימוני",
-  "embed_text": "פוליסת ביטוח רכב מכסה מטרות עסקיות של חילוץ או גרירה של רכב מנועי, אך לא מכסה שימוש ברכב על בסיס חוזה שכירות אם המשכיר השכיר את הרכב דרך עיסוק. הפוליסה אינה מכסה שימוש בכלי תחרותי אלא אם אושר במפורש. לדוגמה, סעיף 6.1.4 מתייחס לחילוץ רכב.",
-  "payload": "טבלה: פוליסת ביטוח רכב\nThis table details coverage exclusions for a car insurance policy. It specifies situations where the policy does not provide coverage, such as using a vehicle for commercial purposes without explicit mention in the insurance certificate.\nממדים: exclusion clause, description of exclusion\n\nמטרה עסקית של חילוץ או גרירה של רכב מנועי, כנגד תשלום, שכר או תמורה .6.1.4 אחרת, ובלבד שהמטרה צוינה במפורש בתעודת הביטוח.\n, אין פוליסה זו מכסה שימוש ברכב מנועי על בסיס 6.1 . על אף האמור בסעיף קטן 6.2 חוזה שכירות אם המשכיר השכיר את הרכב דרך עיסוק, אלא אם כן מטרה זו צוינה במפורש בתעודת הביטוח; לעניין זה, \"חוזה שכירות\" - למעט חוזה ליסינג-תפעולי או .( חוזה מקח-אגב-שכירות )ליסינג מימוני"
+  "embed_text": "טבלה זו מתארת כיסויים וחרגות בפוליסת ביטוח רכב, תוך התמקדות בשימושים מסחריים, השכרות ונהיגה תחרותית. ניתן לחפש מידע על סוגי שימוש ספציפיים ברכב וכיסוי הביטוחי הרלוונטי. הפוליסה רלוונטית לביטוח רכב פרטי ומסחרי עד 35 טון.  הטבלה מתייחסת למטרות עסקיות של חילוץ או גרירה, שימוש ברכב על בסיס חוזה שכירות, ושימוש בכלי תחרותי.  החרגות כוללות שימוש ברכב ללא ציון מפורש בתעודת הביטוח, השכרת רכב דרך עיסוק ללא ציון מפורש, ושימוש בכלי תחרותי ללא רישיון מתאים או במירוצים אסורים. This table details coverage exclusions related to vehicle use, specifically regarding commercial purposes, rentals, and competitive driving. It clarifies under what conditions the insurance policy does or does not apply to different types of vehicle operation. בין הערכים בטבלה: מטרה עסקית של חילוץ או גרירה: תשלום.",
+  "payload": "טבלה: כיסוי שימוש ברכב\nThis table details coverage exclusions related to vehicle use, specifically regarding commercial purposes, rentals, and competitive driving. It clarifies under what conditions the insurance policy does or does not apply to different types of vehicle operation.\nממדים: סוג שימוש ברכב, תנאי הכיסוי\n\nמטרה עסקית של חילוץ או גרירה של רכב מנועי, כנגד תשלום, שכר או תמורה .6.1.4 אחרת, ובלבד שהמטרה צוינה במפורש בתעודת הביטוח.\n, אין פוליסה זו מכסה שימוש ברכב מנועי על בסיס 6.1 . על אף האמור בסעיף קטן 6.2 חוזה שכירות אם המשכיר השכיר את הרכב דרך עיסוק, אלא אם כן מטרה זו צוינה במפורש בתעודת הביטוח; לעניין זה, \"חוזה שכירות\" - למעט חוזה ליסינג-תפעולי או .( חוזה מקח-אגב-שכירות )ליסינג מימוני"
 }

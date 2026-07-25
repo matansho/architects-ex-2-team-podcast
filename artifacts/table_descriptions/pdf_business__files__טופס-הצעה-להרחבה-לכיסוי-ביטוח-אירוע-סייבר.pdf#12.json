@@ -2,23 +2,23 @@
   "id": "pdf:business/files/טופס-הצעה-להרחבה-לכיסוי-ביטוח-אירוע-סייבר.pdf#12",
   "source": "llm",
   "description": {
-    "title": "הרחבת כיסוי ביטוח סייבר",
-    "summary": "This table gathers information about a proposer's past insurance and claims history related to cyber incidents. It's used to assess risk and determine coverage for a cyber insurance extension.",
-    "embed_passage": "הרחבת כיסוי ביטוח סייבר של הראל בודקת את היסטוריית התביעות הקודמות של המבוטח, כמו גם את השימוש במערכות אבטחה כגון Guardz. הציון של מערכת Guardz משוקלל בתהליך החיתום, וציון 'אדום' עלול להוביל לביטול הפוליסה. לדוגמה, אם הוגשו תביעות בעבר, או אם לא תוקנו ליקויים שנמצאו בסריקה, ייתכן שתגמולי הביטוח יופחתו.",
-    "row_axis": "Proposer's history of cyber-related claims and security measures",
-    "column_axis": "Question about past claims, security system usage, and agreement to provide details",
+    "title": "עבר ביטוחי ונסיון תביעות",
+    "summary": "This table collects information about past insurance claims and cybersecurity incidents related to the applicant's internet activity. It is used to assess risk and determine coverage for a cyber insurance extension.",
+    "embed_passage": "טופס זה עוסק בפרטים על עבר ביטוחי ונסיון תביעות, ונועד לאסוף מידע על תביעות קודמות או נזקים הקשורים לפעילות האינטרנט של המציע. המטרה היא להעריך את הסיכון ולבחון את הצורך בהרחבה לכיסוי ביטוח אירוע סייבר. השאלות בטופס בודקות האם הוגשו תביעות בעבר, והאם קיימת מדיניות אבטחת מידע. לדוגמה, נשאלת השאלה האם הוגשו תביעות הקשורות לפעילות האינטרנט של המציע, או לנזקים למערכת המחשב שלו. כמו כן, נבדק האם נעשה שימוש במערכת Guardz לצורך הערכת רמת האבטחה.",
+    "row_axis": "האם הוגשו תביעות בעבר",
+    "column_axis": "פרטי תביעות קודמות",
     "units": [],
     "notable_values": [
-      "Guardz: system used for security scanning",
-      "9: section number related to insurance history",
-      "21, 19, 18: sections related to insurance contract law"
+      "Guardz: מערכת סריקה",
+      "תביעות: קשורות לפעילות האינטרנט",
+      "תביעות: נזקים למערכת המחשב"
     ],
     "product_hints": [
-      "הרחבת כיסוי ביטוח סייבר",
-      "הראל"
+      "הרחבה לכיסוי ביטוח אירוע סייבר",
+      "Guardz"
     ]
   },
   "sketch": ". פרטים על עבר ביטוחי ונסיון תביעות: 9\nהאם הוגשו בעבר תביעות כלשהן הקשורות במישרין או בעקיפין, או שנגרמו לחברה עצמה נזקים כלשהם הקשורים במישרין או בעקיפין, לפעילות האינטרנט של המציע/ה או של כל מי מטעמו/ה, לתוכן אתר / אתרי אינטרנט של המציע/ה או של כל מי מטעמו/ה, למערכת המחשב של המציע/ה או של כל מי מטעמו/ה?\n:\nכן, אם \"כן\" נא לפרט\nלא\nעל-ידי המבוטח ובהסכמתו, הרי שתוצאות הסריקה והציון שניתן על-ידי המערכת Guardz במסגרת רכישת הרחבה זו, וככל שהותקנה מערכת שוקללו כחלק מתהליך החיתום ורכישת ההרחבה.",
-  "embed_text": "הרחבת כיסוי ביטוח סייבר של הראל בודקת את היסטוריית התביעות הקודמות של המבוטח, כמו גם את השימוש במערכות אבטחה כגון Guardz. הציון של מערכת Guardz משוקלל בתהליך החיתום, וציון 'אדום' עלול להוביל לביטול הפוליסה. לדוגמה, אם הוגשו תביעות בעבר, או אם לא תוקנו ליקויים שנמצאו בסריקה, ייתכן שתגמולי הביטוח יופחתו.",
-  "payload": "טבלה: הרחבת כיסוי ביטוח סייבר\nThis table gathers information about a proposer's past insurance and claims history related to cyber incidents. It's used to assess risk and determine coverage for a cyber insurance extension.\nממדים: Proposer's history of cyber-related claims and security measures, Question about past claims, security system usage, and agreement to provide details\n\n. פרטים על עבר ביטוחי ונסיון תביעות: 9\nהאם הוגשו בעבר תביעות כלשהן הקשורות במישרין או בעקיפין, או שנגרמו לחברה עצמה נזקים כלשהם הקשורים במישרין או בעקיפין, לפעילות האינטרנט של המציע/ה או של כל מי מטעמו/ה, לתוכן אתר / אתרי אינטרנט של המציע/ה או של כל מי מטעמו/ה, למערכת המחשב של המציע/ה או של כל מי מטעמו/ה?\n:\nכן, אם \"כן\" נא לפרט\nלא\nעל-ידי המבוטח ובהסכמתו, הרי שתוצאות הסריקה והציון שניתן על-ידי המערכת Guardz במסגרת רכישת הרחבה זו, וככל שהותקנה מערכת שוקללו כחלק מתהליך החיתום ורכישת ההרחבה."
+  "embed_text": "טופס זה עוסק בפרטים על עבר ביטוחי ונסיון תביעות, ונועד לאסוף מידע על תביעות קודמות או נזקים הקשורים לפעילות האינטרנט של המציע. המטרה היא להעריך את הסיכון ולבחון את הצורך בהרחבה לכיסוי ביטוח אירוע סייבר. השאלות בטופס בודקות האם הוגשו תביעות בעבר, והאם קיימת מדיניות אבטחת מידע. לדוגמה, נשאלת השאלה האם הוגשו תביעות הקשורות לפעילות האינטרנט של המציע, או לנזקים למערכת המחשב שלו. כמו כן, נבדק האם נעשה שימוש במערכת Guardz לצורך הערכת רמת האבטחה. This table collects information about past insurance claims and cybersecurity incidents related to the applicant's internet activity. It is used to assess risk and determine coverage for a cyber insurance extension.",
+  "payload": "טבלה: עבר ביטוחי ונסיון תביעות\nThis table collects information about past insurance claims and cybersecurity incidents related to the applicant's internet activity. It is used to assess risk and determine coverage for a cyber insurance extension.\nממדים: האם הוגשו תביעות בעבר, פרטי תביעות קודמות\n\n. פרטים על עבר ביטוחי ונסיון תביעות: 9\nהאם הוגשו בעבר תביעות כלשהן הקשורות במישרין או בעקיפין, או שנגרמו לחברה עצמה נזקים כלשהם הקשורים במישרין או בעקיפין, לפעילות האינטרנט של המציע/ה או של כל מי מטעמו/ה, לתוכן אתר / אתרי אינטרנט של המציע/ה או של כל מי מטעמו/ה, למערכת המחשב של המציע/ה או של כל מי מטעמו/ה?\n:\nכן, אם \"כן\" נא לפרט\nלא\nעל-ידי המבוטח ובהסכמתו, הרי שתוצאות הסריקה והציון שניתן על-ידי המערכת Guardz במסגרת רכישת הרחבה זו, וככל שהותקנה מערכת שוקללו כחלק מתהליך החיתום ורכישת ההרחבה."
 }

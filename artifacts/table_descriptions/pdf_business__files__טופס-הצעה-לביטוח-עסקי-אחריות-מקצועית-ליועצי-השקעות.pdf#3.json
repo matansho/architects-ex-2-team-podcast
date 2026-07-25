@@ -2,25 +2,27 @@
   "id": "pdf:business/files/טופס-הצעה-לביטוח-עסקי-אחריות-מקצועית-ליועצי-השקעות.pdf#3",
   "source": "llm",
   "description": {
-    "title": "דמי ביטוח והכנסות",
-    "summary": "This table captures the proposer's financial information, specifically turnover and salaries, for professional indemnity insurance. It's used to assess risk and determine premium costs.",
-    "embed_passage": "טופס הצעה לביטוח אחריות מקצועית דורש פירוט של ההכנסות והשכר של היועצים. לדוגמה, סך השכר (כולל בונוסים ועמלות) ששולם למנהלים ועובדים במהלך השנה הפיננסית האחרונה מצוין בדולרים אמריקאים (US$).  הטבלה בודקת גם אם יש בונוסים או עמלות המבוססים על ביצועים אישיים או מחלקתיים, וכן משרדים בארה\"ב/קנדה.",
-    "row_axis": "Financial year or compensation type",
-    "column_axis": "Financial details (turnover, salaries, compensation structure)",
+    "title": "דמי ושיעורי הכנסה",
+    "summary": "This table details the Proposer's Turnover and salaries paid to directors and employees over the past three financial years, broken down by office location (Israel, Overseas, USA/Canada). It is used to assess financial risk for Professional Indemnity Insurance.",
+    "embed_passage": "טופס זה מציג את ההכנסות והתשלומים של המציע לצורך ביטוח אחריות מקצועית. המידע נאסף עבור השנים האחרונות, ומחולק לפי משרדים בישראל, בחו״ל ובארה״ב/קנדה. ניתן להזין את סך ההכנסות ואת סך השכר (כולל בונוסים ועמלות) ששולמו למנהלים ועובדים. טופס הצעה לביטוח אחריות מקצועית עבור יועצי השקעות כולל מידע על הכנסות המציע בשנים האחרונות, כמו גם שכר המנהלים והעובדים. הנתונים מפורטים לפי משרדים בישראל, בחו״ל ובארה״ב/קנדה. סך השכר כולל בונוסים ועמלות. משרדים בישראל (i) בישראל עבור לקוחות ישראלים (ii) מחוץ לישראל ועבור, משרדים בחו״ל, משרדים בארה״ב/קנדה.",
+    "row_axis": "Office Location (Israel, Overseas, USA/Canada)",
+    "column_axis": "Financial Year (Current Year, Past financial year, Previous financial year)",
     "units": [
       "US$"
     ],
     "notable_values": [
-      "US$: currency used for reporting",
-      "USA / Canada offices: location-specific data requested",
-      "salaries (including bonus and commission): key financial metric"
+      "Israel offices (i) in Israel for Israeli clients: US$",
+      "Israel offices (ii) outside Israel and for: US$",
+      "Israel offices (iii) USA / Canada clients: US$",
+      "Overseas Offices: US$",
+      "USA / Canada offices: US$"
     ],
     "product_hints": [
-      "ביטוח אחריות מקצועית",
-      "Professional Indemnity Insurance"
+      "Professional Indemnity Insurance",
+      "ביטוח אחריות מקצועית"
     ]
   },
-  "sketch": "FEES AND INCOME\nPlease state the Proposer's Turnover received in respect of the following years:\na) Please state the total salaries (including bonus and commission) paid to directors and employees during the last financial year: US$\nAre any director or employee are compensated by bonus, profit commission, or similar performance related reward, which is based upon their own performance or that of their department/division and distinguished from the Insured company as a whole?\n…\nc) USA / Canada offices,US$,US$,US$\nNo / Yes\nIf Yes, provide details:\n.",
-  "embed_text": "טופס הצעה לביטוח אחריות מקצועית דורש פירוט של ההכנסות והשכר של היועצים. לדוגמה, סך השכר (כולל בונוסים ועמלות) ששולם למנהלים ועובדים במהלך השנה הפיננסית האחרונה מצוין בדולרים אמריקאים (US$).  הטבלה בודקת גם אם יש בונוסים או עמלות המבוססים על ביצועים אישיים או מחלקתיים, וכן משרדים בארה\"ב/קנדה.",
-  "payload": "טבלה: דמי ביטוח והכנסות\nThis table captures the proposer's financial information, specifically turnover and salaries, for professional indemnity insurance. It's used to assess risk and determine premium costs.\nממדים: Financial year or compensation type, Financial details (turnover, salaries, compensation structure)\n\nFEES AND INCOME\nPlease state the Proposer's Turnover received in respect of the following years:\na) Please state the total salaries (including bonus and commission) paid to directors and employees during the last financial year: US$\nAre any director or employee are compensated by bonus, profit commission, or similar performance related reward, which is based upon their own performance or that of their department/division and distinguished from the Insured company as a whole?\n,Estimation Current Year,Past financial year,Previous financial year\na) Israel offices (i) in Israel for Israeli clients (ii) outside Israel and for,US$ US$ US$,US$ US$ US$,US$ US$ US$\noverseas clients,,,\n(iii) USA / Canada clients,,,\nb) Overseas Offices,US$,US$,US$\nc) USA / Canada offices,US$,US$,US$\nNo / Yes\nIf Yes, provide details:\n."
+  "sketch": "FEES AND INCOME\nPlease state the Proposer's Turnover received in respect of the following years:\na) Please state the total salaries (including bonus and commission) paid to directors and employees during the last financial year: US$\nAre any director or employee are compensated by bonus, profit commission, or similar performance related reward, which is based upon their own performance or that of their department/division and distinguished from the Insured company as a whole?\n,Estimation Current Year,Past financial year,Previous financial year\na) Israel offices (i) in Israel for Israeli clients (ii) outside Israel and for,US$ US$ US$,US$ US$ US$,US$ US$ US$\n…\n(iii) USA / Canada clients,,,\nb) Overseas Offices,US$,US$,US$\nc) USA / Canada offices,US$,US$,US$\nNo / Yes\nIf Yes, provide details:\n.",
+  "embed_text": "טופס זה מציג את ההכנסות והתשלומים של המציע לצורך ביטוח אחריות מקצועית. המידע נאסף עבור השנים האחרונות, ומחולק לפי משרדים בישראל, בחו״ל ובארה״ב/קנדה. ניתן להזין את סך ההכנסות ואת סך השכר (כולל בונוסים ועמלות) ששולמו למנהלים ועובדים. טופס הצעה לביטוח אחריות מקצועית עבור יועצי השקעות כולל מידע על הכנסות המציע בשנים האחרונות, כמו גם שכר המנהלים והעובדים. הנתונים מפורטים לפי משרדים בישראל, בחו״ל ובארה״ב/קנדה. סך השכר כולל בונוסים ועמלות. משרדים בישראל (i) בישראל עבור לקוחות ישראלים (ii) מחוץ לישראל ועבור, משרדים בחו״ל, משרדים בארה״ב/קנדה. This table details the Proposer's Turnover and salaries paid to directors and employees over the past three financial years, broken down by office location (Israel, Overseas, USA/Canada). It is used to assess financial risk for Professional Indemnity Insuranc…",
+  "payload": "טבלה: דמי ושיעורי הכנסה\nThis table details the Proposer's Turnover and salaries paid to directors and employees over the past three financial years, broken down by office location (Israel, Overseas, USA/Canada). It is used to assess financial risk for Professional Indemnity Insurance.\nממדים: Office Location (Israel, Overseas, USA/Canada), Financial Year (Current Year, Past financial year, Previous financial year)\n\nFEES AND INCOME\nPlease state the Proposer's Turnover received in respect of the following years:\na) Please state the total salaries (including bonus and commission) paid to directors and employees during the last financial year: US$\nAre any director or employee are compensated by bonus, profit commission, or similar performance related reward, which is based upon their own performance or that of their department/division and distinguished from the Insured company as a whole?\n,Estimation Current Year,Past financial year,Previous financial year\na) Israel offices (i) in Israel for Israeli clients (ii) outside Israel and for,US$ US$ US$,US$ US$ US$,US$ US$ US$\noverseas clients,,,\n(iii) USA / Canada clients,,,\nb) Overseas Offices,US$,US$,US$\nc) USA / Canada offices,US$,US$,US$\nNo / Yes\nIf Yes, provide details:\n."
 }

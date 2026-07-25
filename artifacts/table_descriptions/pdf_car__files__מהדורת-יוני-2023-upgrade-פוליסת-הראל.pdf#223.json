@@ -2,25 +2,26 @@
   "id": "pdf:car/files/מהדורת-יוני-2023-upgrade-פוליסת-הראל.pdf#223",
   "source": "llm",
   "description": {
-    "title": "הראל – שירותי דרך",
-    "summary": "This table details the conditions and costs associated with roadside assistance services provided by הראל. It outlines situations where service is not provided and additional fees that may apply.",
-    "embed_passage": "פוליסת הראל מספקת שירותי דרך, אך השירות אינו כולל גרירת רכב בחניון מקורה או החלפת נורות. במקרים מסוימים, מקבל השירות יישא בעלות של עד ₪15 בתוספת דמי טיפול, ונותן השירות רשאי לספק שירותים על פי שיקול דעתו ובתשלום.",
-    "row_axis": "Service conditions / exclusions",
-    "column_axis": "Details of service provision",
+    "title": "חריגים לשירותי דרך",
+    "summary": "This table details exclusions to roadside assistance services provided by הראל. It lists situations where service will not be provided or will be provided at the customer's expense.",
+    "embed_passage": "טבלה זו מתארת חריגים לשירותי דרך של הראל, ומפרטת מצבים בהם השירות לא יינתן או יינתן בתשלום. ניתן לעיין בחריגים אלו כדי להבין את תנאי הכיסוי. החריגים כוללים מצבי מלחמה, אסונות טבע, תקלות נורות, גרירת רכב בחניון מקורה, רכב ללא רישוי שנתי, ותשלום עבור כניסה לחניון או מעבר בכבישי אגרה עד ₪ 15 בתוספת דמי טיפול שלא יעלו על ₪ 15. מצבים כמו תקרים בגלגלים או בעיות במנעולן גם הם חריגים. השירות ניתן על פי שיקול דעתו של נותן השירות ובתשלום בלבד.",
+    "row_axis": "exclusion reason",
+    "column_axis": "service condition / cost",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "cost: ₪15",
-      "treatment fee limit: שלא יעלו על ₪15",
-      "service activation delay: 7 ימים"
+      "cost limit: ₪ 15",
+      "handling fee limit: ₪ 15",
+      "war/hostilities: excluded",
+      "natural disaster: excluded",
+      "parking/toll cost: customer responsibility"
     ],
     "product_hints": [
-      "הראל",
-      "שירותי דרך"
+      "הראל"
     ]
   },
   "sketch": "2.9.1 . נותן השירות יוכל לספק את השירותים המפורטים בפרק זה )חריגים 2.9.11 ( על-פי שיקול דעתו, על-פי האפשר ובתשלום בלבד. 2.9.10 עד\n. מקבל השירות יישא במלוא העלות שתחול על רכב השירות, לצורך מתן 2.9.12 , השירות, בכלל זה: כניסה למגרש חנייה/חניון בתשלום ומעבר בכבישי אגרה .₪  15 זאת בתוספת דמי-טיפול שלא יעלו על\n, . נותן השירות לא ייתן שירות במצב מלחמה, פעולות איבה, פיגוע חבלני 2.9.13 גיוס כללי, רעידת אדמה, הצפה, שיטפון, אירוע טבע קיצוני, אירוע גרעיני או רדיואקטיבי, אירוע קטסטרופאלי ואירוע שהפיצוי בגינו ניתן על-ידי המדינה.",
-  "embed_text": "פוליסת הראל מספקת שירותי דרך, אך השירות אינו כולל גרירת רכב בחניון מקורה או החלפת נורות. במקרים מסוימים, מקבל השירות יישא בעלות של עד ₪15 בתוספת דמי טיפול, ונותן השירות רשאי לספק שירותים על פי שיקול דעתו ובתשלום.",
-  "payload": "טבלה: הראל – שירותי דרך\nThis table details the conditions and costs associated with roadside assistance services provided by הראל. It outlines situations where service is not provided and additional fees that may apply.\nממדים: Service conditions / exclusions, Details of service provision\n\n2.9.1 . נותן השירות יוכל לספק את השירותים המפורטים בפרק זה )חריגים 2.9.11 ( על-פי שיקול דעתו, על-פי האפשר ובתשלום בלבד. 2.9.10 עד\n. מקבל השירות יישא במלוא העלות שתחול על רכב השירות, לצורך מתן 2.9.12 , השירות, בכלל זה: כניסה למגרש חנייה/חניון בתשלום ומעבר בכבישי אגרה .₪  15 זאת בתוספת דמי-טיפול שלא יעלו על\n, . נותן השירות לא ייתן שירות במצב מלחמה, פעולות איבה, פיגוע חבלני 2.9.13 גיוס כללי, רעידת אדמה, הצפה, שיטפון, אירוע טבע קיצוני, אירוע גרעיני או רדיואקטיבי, אירוע קטסטרופאלי ואירוע שהפיצוי בגינו ניתן על-ידי המדינה."
+  "embed_text": "טבלה זו מתארת חריגים לשירותי דרך של הראל, ומפרטת מצבים בהם השירות לא יינתן או יינתן בתשלום. ניתן לעיין בחריגים אלו כדי להבין את תנאי הכיסוי. החריגים כוללים מצבי מלחמה, אסונות טבע, תקלות נורות, גרירת רכב בחניון מקורה, רכב ללא רישוי שנתי, ותשלום עבור כניסה לחניון או מעבר בכבישי אגרה עד ₪ 15 בתוספת דמי טיפול שלא יעלו על ₪ 15. מצבים כמו תקרים בגלגלים או בעיות במנעולן גם הם חריגים. השירות ניתן על פי שיקול דעתו של נותן השירות ובתשלום בלבד. This table details exclusions to roadside assistance services provided by הראל. It lists situations where service will not be provided or will be provided at the customer's expense. בין הערכים בטבלה: war/hostilities: excluded; natural disaster: excluded; parking/toll cost: customer responsibility.",
+  "payload": "טבלה: חריגים לשירותי דרך\nThis table details exclusions to roadside assistance services provided by הראל. It lists situations where service will not be provided or will be provided at the customer's expense.\nממדים: exclusion reason, service condition / cost\n\n2.9.1 . נותן השירות יוכל לספק את השירותים המפורטים בפרק זה )חריגים 2.9.11 ( על-פי שיקול דעתו, על-פי האפשר ובתשלום בלבד. 2.9.10 עד\n. מקבל השירות יישא במלוא העלות שתחול על רכב השירות, לצורך מתן 2.9.12 , השירות, בכלל זה: כניסה למגרש חנייה/חניון בתשלום ומעבר בכבישי אגרה .₪  15 זאת בתוספת דמי-טיפול שלא יעלו על\n, . נותן השירות לא ייתן שירות במצב מלחמה, פעולות איבה, פיגוע חבלני 2.9.13 גיוס כללי, רעידת אדמה, הצפה, שיטפון, אירוע טבע קיצוני, אירוע גרעיני או רדיואקטיבי, אירוע קטסטרופאלי ואירוע שהפיצוי בגינו ניתן על-ידי המדינה."
 }

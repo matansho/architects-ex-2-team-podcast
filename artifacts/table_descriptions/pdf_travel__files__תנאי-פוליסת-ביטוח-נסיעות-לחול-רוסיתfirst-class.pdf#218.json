@@ -2,26 +2,24 @@
   "id": "pdf:travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-רוסיתfirst-class.pdf#218",
   "source": "llm",
   "description": {
-    "title": "כיסוי כוויות - רוסית First Class",
-    "summary": "This table details the coverage for burns under the 'רוסית First Class' travel insurance policy. It specifies how payouts are calculated based on burn severity and percentage of body surface area affected.",
-    "embed_passage": "פוליסת 'רוסית First Class' מספקת כיסוי לנזקי כוויות בהתאם לחומרת הכוויה ואחוז השטח שנפגע. לדוגמה, כוויה דרגה שנייה בשטח של 30% תזכה את המבוטח ב־50% מסכום הביטוח המקסימלי, עד 1,000$. כוויה בשטח קטן מ־4.5% אינה מזכה בפיצוי.",
-    "row_axis": "Burn scenarios (severity and area)",
-    "column_axis": "Coverage details (e.g., payout calculation, minimum area for coverage)",
+    "title": "חישוב פיצוי עבור כוויות",
+    "summary": "This table details the calculation of insurance compensation for burns sustained during travel. It specifies how the payout is determined based on burn severity and affected surface area, referencing the insurance data page for maximum coverage amounts.",
+    "embed_passage": "טבלה זו מתארת את חישוב הפיצוי עבור כוויות שנגרמו במהלך נסיעה, בהתאם לחומרת הכוויה ואחוז השטח שנפגע. החישוב מתבסס על \"כלל התשע\" או אחוז שטח העור הפגוע (BSA), וקביעת חומרת הכוויה נעשית על ידי רופא מומחה – כירורג או כירורג פלסטי. הפוליסה רוסיתfirst-class מספקת כיסוי בהתאם לסכום הביטוח המקסימלי המצוין בדף נתוני הביטוח עבור כוויות. לדוגמה, כוויה מדרגה שנייה בשטח של 30% מזכה ב-50% מסכום הביטוח המקסימלי של 1,000$. כוויה בשטח קטן מ-4.5% אינה מזכה בפיצוי.",
+    "row_axis": "Burn severity and area",
+    "column_axis": "Compensation calculation details",
     "units": [
       "$"
     ],
     "notable_values": [
-      "Burn area threshold for payout: 4.5%",
-      "Maximum coverage for burns: 1,000$",
-      "Payout for 30% second-degree burn: 500$",
-      "Payout percentage: 50%"
+      "Burn degree 2: 30% area = 500$",
+      "Minimum burn area for compensation: 4.5%",
+      "Maximum insurance amount (burns): 1,000$"
     ],
     "product_hints": [
-      "רוסית First Class",
-      "ביטוח נסיעות"
+      "רוסיתfirst-class"
     ]
   },
   "sketch": "Пример: если будет установлено, что застрахованный страдает от ожогов второй степени, и площадь ожога составляет 30%, а максимальная страховая сумма, указанная на странице со страховыми данными в отношении ожогов, составляет 1,000$, застрахованный в данном случае получит следующую сумму: 50% х 1,000$ = 500$.\nВо избежание возникновения сомнений: ожог, площадь которого менее 4.5%, не дает права на получение страхового вознаграждения в рамках покрытия, предоставляемого в соответствии с данным расширением.\nВычисление площади ожога будет выполняться в соответствии с общепринятыми методами: с «правилом девяток» или в соответствии с процентом пострадавшей площади кожного покрова (BSA).\nРазъясним, что диагностирование и установление степени серьезности полученного ожога и объем такового в соответствии с этой частью будет выполняться врачом-специалистом - хирургом или пластическим хирургом, который осмотрит застрахованного.",
-  "embed_text": "פוליסת 'רוסית First Class' מספקת כיסוי לנזקי כוויות בהתאם לחומרת הכוויה ואחוז השטח שנפגע. לדוגמה, כוויה דרגה שנייה בשטח של 30% תזכה את המבוטח ב־50% מסכום הביטוח המקסימלי, עד 1,000$. כוויה בשטח קטן מ־4.5% אינה מזכה בפיצוי.",
-  "payload": "טבלה: כיסוי כוויות - רוסית First Class\nThis table details the coverage for burns under the 'רוסית First Class' travel insurance policy. It specifies how payouts are calculated based on burn severity and percentage of body surface area affected.\nממדים: Burn scenarios (severity and area), Coverage details (e.g., payout calculation, minimum area for coverage)\n\nПример: если будет установлено, что застрахованный страдает от ожогов второй степени, и площадь ожога составляет 30%, а максимальная страховая сумма, указанная на странице со страховыми данными в отношении ожогов, составляет 1,000$, застрахованный в данном случае получит следующую сумму: 50% х 1,000$ = 500$.\nВо избежание возникновения сомнений: ожог, площадь которого менее 4.5%, не дает права на получение страхового вознаграждения в рамках покрытия, предоставляемого в соответствии с данным расширением.\nВычисление площади ожога будет выполняться в соответствии с общепринятыми методами: с «правилом девяток» или в соответствии с процентом пострадавшей площади кожного покрова (BSA).\nРазъясним, что диагностирование и установление степени серьезности полученного ожога и объем такового в соответствии с этой частью будет выполняться врачом-специалистом - хирургом или пластическим хирургом, который осмотрит застрахованного."
+  "embed_text": "טבלה זו מתארת את חישוב הפיצוי עבור כוויות שנגרמו במהלך נסיעה, בהתאם לחומרת הכוויה ואחוז השטח שנפגע. החישוב מתבסס על \"כלל התשע\" או אחוז שטח העור הפגוע (BSA), וקביעת חומרת הכוויה נעשית על ידי רופא מומחה – כירורג או כירורג פלסטי. הפוליסה רוסיתfirst-class מספקת כיסוי בהתאם לסכום הביטוח המקסימלי המצוין בדף נתוני הביטוח עבור כוויות. לדוגמה, כוויה מדרגה שנייה בשטח של 30% מזכה ב-50% מסכום הביטוח המקסימלי של 1,000$. כוויה בשטח קטן מ-4.5% אינה מזכה בפיצוי. This table details the calculation of insurance compensation for burns sustained during travel. It specifies how the payout is determined based on burn severity and affected surface area, referencing the insurance data page for maximum coverage amounts. בין הערכים בטבלה: Burn degree 2: 30% area = 500$.",
+  "payload": "טבלה: חישוב פיצוי עבור כוויות\nThis table details the calculation of insurance compensation for burns sustained during travel. It specifies how the payout is determined based on burn severity and affected surface area, referencing the insurance data page for maximum coverage amounts.\nממדים: Burn severity and area, Compensation calculation details\n\nПример: если будет установлено, что застрахованный страдает от ожогов второй степени, и площадь ожога составляет 30%, а максимальная страховая сумма, указанная на странице со страховыми данными в отношении ожогов, составляет 1,000$, застрахованный в данном случае получит следующую сумму: 50% х 1,000$ = 500$.\nВо избежание возникновения сомнений: ожог, площадь которого менее 4.5%, не дает права на получение страхового вознаграждения в рамках покрытия, предоставляемого в соответствии с данным расширением.\nВычисление площади ожога будет выполняться в соответствии с общепринятыми методами: с «правилом девяток» или в соответствии с процентом пострадавшей площади кожного покрова (BSA).\nРазъясним, что диагностирование и установление степени серьезности полученного ожога и объем такового в соответствии с этой частью будет выполняться врачом-специалистом - хирургом или пластическим хирургом, который осмотрит застрахованного."
 }

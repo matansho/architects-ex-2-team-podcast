@@ -2,24 +2,23 @@
   "id": "pdf:business/files/פוליסה-לביטוח-ציוד-אלקטרוני-הראל-ביט-ינואר-2023.pdf#76",
   "source": "llm",
   "description": {
-    "title": "סכומי ביטוח - ביטוח אבדן תוצאתי",
-    "summary": "This table details the insured amounts for business interruption coverage under the Harel insurance policy. It defines how key financial metrics are calculated for coverage limits.",
-    "embed_passage": "פוליסת ביטוח אבדן תוצאתי של הראל מגדירה את סכומי הביטוח על בסיס רווח גולמי שנתי, שכר עבודה, ומחזור. לדוגמה, הרווח הגולמי השנתי של העסק כולל שכר עבודה, ותקופת השיפוי יכולה להיות קצרה או ארוכה משנה. סכום הביטוח משקף את הרווח הגולמי המלא לתקופה הרלוונטית.",
-    "row_axis": "insured amount type (e.g., gross profit, payroll)",
-    "column_axis": "definition/calculation method",
+    "title": "סכומי ביטוח - פרק 4",
+    "summary": "This table details the insured amounts for business interruption coverage under Chapter 4 of the Harel insurance policy. It specifies how different financial elements are calculated for claim purposes.",
+    "embed_passage": "טבלה זו מתארת את סכומי הביטוח עבור ביטוח אבדן תוצאתי לפי פרק 4 בפוליסת הביטוח של הראל. היא מפרטת כיצד יש לחשב אלמנטים פיננסיים שונים לצורך תביעה, כגון רווח גולמי ושכר עבודה. ניתן לחפש מידע על סכומי ביטוח ספציפיים לפי מרכיבי הרווח וההוצאות המפורטים. מרכיבים אלו כוללים רווח גולמי, שכר עבודה, הוצאות הכנת תביעה, מחזור ותקופת השיפוי. סכום הביטוח הבסיסי של פרק זה הוא הרווח הגולמי השנתי של העסק, כולל שכר עבודה.",
+    "row_axis": "סוג סכום ביטוח (insured amount type)",
+    "column_axis": "הגדרה / חישוב (definition / calculation)",
     "units": [],
     "notable_values": [
-      "רווח גולמי: calculated from total revenue, closing inventory, and deducting processing costs",
-      "שכר עבודה: includes social security expenses",
-      "תקופת השיפוי: begins on the date of the insured event",
-      "מחזור: funds paid or due for goods sold or services rendered"
+      "רווח גולמי: סך כל מחזור הכנסות בניכוי הוצאות עיבוד",
+      "שכר עבודה: סך התמורה לעובדים שכירים, כולל הוצאות סוציאליות",
+      "תקופת השיפוי: התקופה בה נפגעו תוצאות העסק"
     ],
     "product_hints": [
-      "ביטוח אבדן תוצאתי הראל",
-      "Harel Business Interruption Insurance"
+      "ביטוח ציוד אלקטרוני הראל",
+      "אבדן תוצאתי"
     ]
   },
   "sketch": "רווח גולמי .14.2\nהסכום המתקבל מסך כל מחזור הכנסות עסקו של המבוטח, בתוספת מלאי הסגירה ובניכוי סכום הוצאות העיבוד )הבלתי מבוטחות(המפורטות ברשימה, בניכוי מלאי פתיחה.\nשכר עבודה .14.3\nסך כל התמורה המשתלמת לכל עובדיו השכירים של המבוטח, לרבות ההוצאות הסוציאליות, למעט עובדים ששכרם נכלל בהוצאות הנהלה וכלליות.",
-  "embed_text": "פוליסת ביטוח אבדן תוצאתי של הראל מגדירה את סכומי הביטוח על בסיס רווח גולמי שנתי, שכר עבודה, ומחזור. לדוגמה, הרווח הגולמי השנתי של העסק כולל שכר עבודה, ותקופת השיפוי יכולה להיות קצרה או ארוכה משנה. סכום הביטוח משקף את הרווח הגולמי המלא לתקופה הרלוונטית.",
-  "payload": "טבלה: סכומי ביטוח - ביטוח אבדן תוצאתי\nThis table details the insured amounts for business interruption coverage under the Harel insurance policy. It defines how key financial metrics are calculated for coverage limits.\nממדים: insured amount type (e.g., gross profit, payroll), definition/calculation method\n\nרווח גולמי .14.2\nהסכום המתקבל מסך כל מחזור הכנסות עסקו של המבוטח, בתוספת מלאי הסגירה ובניכוי סכום הוצאות העיבוד )הבלתי מבוטחות(המפורטות ברשימה, בניכוי מלאי פתיחה.\nשכר עבודה .14.3\nסך כל התמורה המשתלמת לכל עובדיו השכירים של המבוטח, לרבות ההוצאות הסוציאליות, למעט עובדים ששכרם נכלל בהוצאות הנהלה וכלליות."
+  "embed_text": "טבלה זו מתארת את סכומי הביטוח עבור ביטוח אבדן תוצאתי לפי פרק 4 בפוליסת הביטוח של הראל. היא מפרטת כיצד יש לחשב אלמנטים פיננסיים שונים לצורך תביעה, כגון רווח גולמי ושכר עבודה. ניתן לחפש מידע על סכומי ביטוח ספציפיים לפי מרכיבי הרווח וההוצאות המפורטים. מרכיבים אלו כוללים רווח גולמי, שכר עבודה, הוצאות הכנת תביעה, מחזור ותקופת השיפוי. סכום הביטוח הבסיסי של פרק זה הוא הרווח הגולמי השנתי של העסק, כולל שכר עבודה. This table details the insured amounts for business interruption coverage under Chapter 4 of the Harel insurance policy. It specifies how different financial elements are calculated for claim purposes.",
+  "payload": "טבלה: סכומי ביטוח - פרק 4\nThis table details the insured amounts for business interruption coverage under Chapter 4 of the Harel insurance policy. It specifies how different financial elements are calculated for claim purposes.\nממדים: סוג סכום ביטוח (insured amount type), הגדרה / חישוב (definition / calculation)\n\nרווח גולמי .14.2\nהסכום המתקבל מסך כל מחזור הכנסות עסקו של המבוטח, בתוספת מלאי הסגירה ובניכוי סכום הוצאות העיבוד )הבלתי מבוטחות(המפורטות ברשימה, בניכוי מלאי פתיחה.\nשכר עבודה .14.3\nסך כל התמורה המשתלמת לכל עובדיו השכירים של המבוטח, לרבות ההוצאות הסוציאליות, למעט עובדים ששכרם נכלל בהוצאות הנהלה וכלליות."
 }

@@ -3,26 +3,27 @@
   "source": "llm",
   "description": {
     "title": "תעריפון דרכון - אופניים",
-    "summary": "This table details the daily rates for bicycle insurance coverage under the 'דרכון' plan. It allows you to look up the insurance amount based on the daily rate and maximum period.",
-    "embed_passage": "ביטוח 'דרכון' מספק כיסוי לאופניים, כאשר התעריף היומי עבור זוג אופניים נע בין $1.33 ל-$3.30 לתקופה מרבית של 90 יום. סכום הביטוח יכול להגיע עד $6,000, בהתאם לתעריף הנבחר. התעריפים מופיעים עבור זוג אופניים אחד.",
+    "summary": "This table details the daily rates for bicycle insurance coverage as part of the 'דרכון' travel insurance plan. It shows the insurance amount available based on the daily rate and maximum period.",
+    "embed_passage": "טבלה זו מציגה את תעריפי הביטוח היומיים עבור אופניים במסגרת תוכנית 'דרכון'. התעריפים משתנים בהתאם לסכום הביטוח המבוקש, כאשר מרבית התקופה היא עד 90 יום. ניתן לראות את התעריף היומי עבור זוג אופניים ואת סכום הביטוח המתאים. לדוגמה, תעריף יומי של $1.33 מקנה סכום ביטוח של $2,500. תעריף יומי של $2.46 מקנה סכום ביטוח של $4,500. תעריף יומי של $3.30 מקנה סכום ביטוח של $6,000.",
     "row_axis": "Daily rate and maximum period (up to 90 days)",
     "column_axis": "Daily rate, Insurance amount",
     "units": [
-      "$",
-      "יום"
+      "$"
     ],
     "notable_values": [
       "Daily rate: $1.33",
       "Insurance amount: $2,500",
       "Daily rate: $2.46",
       "Insurance amount: $4,500",
-      "Daily rate: $3.30"
+      "Daily rate: $3.30",
+      "Insurance amount: $6,000",
+      "Maximum period: 90 days"
     ],
     "product_hints": [
       "דרכון"
     ]
   },
   "sketch": "אופניים - תעריף יומי\nמרבית תקופה,יומי תעריף,הביטוח סכום\nיום 90 עד,$1.33 אחד אופניים זוג עבור הינו התעריף,$2.500\nיום 90 עד,$2.46 אחד אופניים זוג עבור הינו התעריף,$4.500\nיום 90 עד,$3.30 אחד אופניים זוג עבור הינו התעריף,$6.000\n*בכפוף לתנאי הפוליסה וסייגיה והנחיות החיתום של החברה.",
-  "embed_text": "ביטוח 'דרכון' מספק כיסוי לאופניים, כאשר התעריף היומי עבור זוג אופניים נע בין $1.33 ל-$3.30 לתקופה מרבית של 90 יום. סכום הביטוח יכול להגיע עד $6,000, בהתאם לתעריף הנבחר. התעריפים מופיעים עבור זוג אופניים אחד.",
-  "payload": "טבלה: תעריפון דרכון - אופניים\nThis table details the daily rates for bicycle insurance coverage under the 'דרכון' plan. It allows you to look up the insurance amount based on the daily rate and maximum period.\nממדים: Daily rate and maximum period (up to 90 days), Daily rate, Insurance amount\n\nאופניים - תעריף יומי\nמרבית תקופה,יומי תעריף,הביטוח סכום\nיום 90 עד,$1.33 אחד אופניים זוג עבור הינו התעריף,$2.500\nיום 90 עד,$2.46 אחד אופניים זוג עבור הינו התעריף,$4.500\nיום 90 עד,$3.30 אחד אופניים זוג עבור הינו התעריף,$6.000\n*בכפוף לתנאי הפוליסה וסייגיה והנחיות החיתום של החברה."
+  "embed_text": "טבלה זו מציגה את תעריפי הביטוח היומיים עבור אופניים במסגרת תוכנית 'דרכון'. התעריפים משתנים בהתאם לסכום הביטוח המבוקש, כאשר מרבית התקופה היא עד 90 יום. ניתן לראות את התעריף היומי עבור זוג אופניים ואת סכום הביטוח המתאים. לדוגמה, תעריף יומי של $1.33 מקנה סכום ביטוח של $2,500. תעריף יומי של $2.46 מקנה סכום ביטוח של $4,500. תעריף יומי של $3.30 מקנה סכום ביטוח של $6,000. This table details the daily rates for bicycle insurance coverage as part of the 'דרכון' travel insurance plan. It shows the insurance amount available based on the daily rate and maximum period. בין הערכים בטבלה: Maximum period: 90 days.",
+  "payload": "טבלה: תעריפון דרכון - אופניים\nThis table details the daily rates for bicycle insurance coverage as part of the 'דרכון' travel insurance plan. It shows the insurance amount available based on the daily rate and maximum period.\nממדים: Daily rate and maximum period (up to 90 days), Daily rate, Insurance amount\n\nאופניים - תעריף יומי\nמרבית תקופה,יומי תעריף,הביטוח סכום\nיום 90 עד,$1.33 אחד אופניים זוג עבור הינו התעריף,$2.500\nיום 90 עד,$2.46 אחד אופניים זוג עבור הינו התעריף,$4.500\nיום 90 עד,$3.30 אחד אופניים זוג עבור הינו התעריף,$6.000\n*בכפוף לתנאי הפוליסה וסייגיה והנחיות החיתום של החברה."
 }

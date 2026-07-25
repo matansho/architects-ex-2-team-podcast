@@ -2,16 +2,15 @@
   "id": "pdf:diseases-disabilities/files/הצעה-לביטוח-מענקית-זהב-ומענקית-סרטן-062025.pdf#39",
   "source": "llm",
   "description": {
-    "title": "מענקית זהב וסרטן - מועמדים",
-    "summary": "This table lists candidates for 'מענקית זהב וסרטן' insurance, detailing their name, date of birth, and age. It's used to record applicant information for potential coverage.",
-    "embed_passage": "ביטוח מענקית זהב וסרטן מציע כיסויים מותאמים אישית. גיל המועמד משפיע על תנאי ההצעה, לדוגמה, מועמדים מעל גיל 18. טופס זה מתעד את פרטי המועמדים, כולל תאריך לידה ושם.",
-    "row_axis": "candidate",
-    "column_axis": "candidate details (name, date of birth, age)",
+    "title": "מועמדים לביטוח",
+    "summary": "This table lists insurance applicants. It shows applicant names, dates of birth, and age (over 18).",
+    "embed_passage": "טבלה זו מציגה רשימת מועמדים לביטוח במסגרת תוכנית מענקית זהב ומענקית סרטן. המידע כולל את שם המועמד, תאריך לידה, וגיל (מעל 18). ניתן לחפש מועמדים לפי שם או תאריך לידה. המידע בטבלה משמש לבדיקת זכאות לביטוח. שמות המועמדים כוללים ראש מבוטח, וילדים מעל גיל 18. גיל המועמדים הוא מעל 18.",
+    "row_axis": "מועמד לביטוח",
+    "column_axis": "פרטי מועמד (שם, תאריך לידה, גיל)",
     "units": [],
     "notable_values": [
-      "גיל: 18",
-      "שם: ראש מבוטח",
-      "תארי,ת: זו /בת"
+      "גיל: מעל 18",
+      "ראש מבוטח: שם חתימ,ך"
     ],
     "product_hints": [
       "מענקית זהב",
@@ -19,6 +18,6 @@
     ]
   },
   "sketch": "ה חתימ,ך תארי,ת זהו מספר,ח לביטו המועמד שם,ח לביטו מועמד\n,,,,י ראש מבוטח\n,,,,ג זו /בת בן\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד",
-  "embed_text": "ביטוח מענקית זהב וסרטן מציע כיסויים מותאמים אישית. גיל המועמד משפיע על תנאי ההצעה, לדוגמה, מועמדים מעל גיל 18. טופס זה מתעד את פרטי המועמדים, כולל תאריך לידה ושם.",
-  "payload": "טבלה: מענקית זהב וסרטן - מועמדים\nThis table lists candidates for 'מענקית זהב וסרטן' insurance, detailing their name, date of birth, and age. It's used to record applicant information for potential coverage.\nממדים: candidate, candidate details (name, date of birth, age)\n\nה חתימ,ך תארי,ת זהו מספר,ח לביטו המועמד שם,ח לביטו מועמד\n,,,,י ראש מבוטח\n,,,,ג זו /בת בן\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד"
+  "embed_text": "טבלה זו מציגה רשימת מועמדים לביטוח במסגרת תוכנית מענקית זהב ומענקית סרטן. המידע כולל את שם המועמד, תאריך לידה, וגיל (מעל 18). ניתן לחפש מועמדים לפי שם או תאריך לידה. המידע בטבלה משמש לבדיקת זכאות לביטוח. שמות המועמדים כוללים ראש מבוטח, וילדים מעל גיל 18. גיל המועמדים הוא מעל 18. This table lists insurance applicants. It shows applicant names, dates of birth, and age (over 18).",
+  "payload": "טבלה: מועמדים לביטוח\nThis table lists insurance applicants. It shows applicant names, dates of birth, and age (over 18).\nממדים: מועמד לביטוח, פרטי מועמד (שם, תאריך לידה, גיל)\n\nה חתימ,ך תארי,ת זהו מספר,ח לביטו המועמד שם,ח לביטו מועמד\n,,,,י ראש מבוטח\n,,,,ג זו /בת בן\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד"
 }

@@ -2,23 +2,25 @@
   "id": "pdf:car/files/מהדורת-יוני-2023-upgrade-פוליסת-הראל.pdf#230",
   "source": "llm",
   "description": {
-    "title": "הראל - שירותי רכב",
-    "summary": "This table details the responsibilities regarding vehicle care and service completion provided by הראל. It outlines who is liable for the vehicle and its contents at different stages of the service process.",
-    "embed_passage": "פוליסת הראל מכסה שירותי רכב, אך האחריות על הרכב עוברת למקבל השירות ברגע שמירת הרכב. במקרים בהם נותן השירות לא יכול להביא את הרכב למוסך בשעות העבודה, הרכב יאוחסן וייגרר למחרת על חשבונו של נותן השירות. אם מקבל השירות ישאיר פריטים ברכב, הם יהיו באחריותו הבלעדית.",
-    "row_axis": "Service conditions / scenarios",
-    "column_axis": "Responsibility for the vehicle",
+    "title": "אחריות - שירותי רכב",
+    "summary": "This table details the responsibilities of the service provider and the vehicle owner regarding vehicle care during and after service. It outlines scenarios for vehicle storage, key handling, and potential damages.",
+    "embed_passage": "טבלה זו מתארת את אחריות נותן השירות ומקבל השירות בנוגע לשמירת הרכב במהלך וסיום השירות. הטבלה מפרטת תרחישים שונים, כגון אחסון הרכב, מסירת מפתחות, ופיצוי על נזקים אפשריים. ניתן לעיין בטבלה כדי להבין את החובות של כל צד במקרה של נזק או אובדן. הראל מציעה שירותי רכב מקיפים, וטבלה זו מסייעת להבהיר את תנאי השירות. נזקים, אחריות, מוסך, ושמירת הרכב הם נושאים מרכזיים בטבלה זו. שירותי רכב הראל כוללים גם כיסוי לנזקים שנגרמו כתוצאה ממתן שירות, בהתאם לפקודת הנזיקין.",
+    "row_axis": "תנאי שירות",
+    "column_axis": "אחריות",
     "units": [],
     "notable_values": [
-      "year: 1968",
-      "service completion: responsibility shifts to receiver",
-      "delay: towing cost covered by provider"
+      "שעות עבודה: מוסך",
+      "שבת וחג: איחור גרירה",
+      "פקודת הנזיקין: 1968",
+      "פריטים אישיים: אחריות מקבל השירות",
+      "מטען: אחריות מקבל השירות",
+      "ציוד אישי: אחריות מקבל השירות"
     ],
     "product_hints": [
-      "הראל",
-      "שירותי רכב"
+      "הראל"
     ]
   },
   "sketch": "נותן השירות רשאי להשאיר את הרכב במקום שצוין על-ידי מקבל השירות והאחריות .5.3 לקבלתו ולשמירתו, מאותו מועד ואילך, תהיה על אחריות מקבל השירות, אם היה מי שיקבל את הרכב ואם לאו.\n, אם נותן השירות לא יכול להביא את הרכב למוסך שציין מקבל השירות בשעות העבודה .5.4 וזאת מסיבות התלויות בנותן השירות, אזי הרכב יאוחסן וייגרר למוסך למחרת )למעט מקרה של שבת וחג( על-חשבונו של נותן השירות.",
-  "embed_text": "פוליסת הראל מכסה שירותי רכב, אך האחריות על הרכב עוברת למקבל השירות ברגע שמירת הרכב. במקרים בהם נותן השירות לא יכול להביא את הרכב למוסך בשעות העבודה, הרכב יאוחסן וייגרר למחרת על חשבונו של נותן השירות. אם מקבל השירות ישאיר פריטים ברכב, הם יהיו באחריותו הבלעדית.",
-  "payload": "טבלה: הראל - שירותי רכב\nThis table details the responsibilities regarding vehicle care and service completion provided by הראל. It outlines who is liable for the vehicle and its contents at different stages of the service process.\nממדים: Service conditions / scenarios, Responsibility for the vehicle\n\nנותן השירות רשאי להשאיר את הרכב במקום שצוין על-ידי מקבל השירות והאחריות .5.3 לקבלתו ולשמירתו, מאותו מועד ואילך, תהיה על אחריות מקבל השירות, אם היה מי שיקבל את הרכב ואם לאו.\n, אם נותן השירות לא יכול להביא את הרכב למוסך שציין מקבל השירות בשעות העבודה .5.4 וזאת מסיבות התלויות בנותן השירות, אזי הרכב יאוחסן וייגרר למוסך למחרת )למעט מקרה של שבת וחג( על-חשבונו של נותן השירות."
+  "embed_text": "טבלה זו מתארת את אחריות נותן השירות ומקבל השירות בנוגע לשמירת הרכב במהלך וסיום השירות. הטבלה מפרטת תרחישים שונים, כגון אחסון הרכב, מסירת מפתחות, ופיצוי על נזקים אפשריים. ניתן לעיין בטבלה כדי להבין את החובות של כל צד במקרה של נזק או אובדן. הראל מציעה שירותי רכב מקיפים, וטבלה זו מסייעת להבהיר את תנאי השירות. נזקים, אחריות, מוסך, ושמירת הרכב הם נושאים מרכזיים בטבלה זו. שירותי רכב הראל כוללים גם כיסוי לנזקים שנגרמו כתוצאה ממתן שירות, בהתאם לפקודת הנזיקין. This table details the responsibilities of the service provider and the vehicle owner regarding vehicle care during and after service. It outlines scenarios for vehicle storage, key handling, and potential damages. בין הערכים בטבלה: שבת וחג: איחור גרירה; פריטים אישיים: אחריות מקבל השירות; מטען: אחריות מקבל השירות; ציוד אישי: אחריות מקבל השיר…",
+  "payload": "טבלה: אחריות - שירותי רכב\nThis table details the responsibilities of the service provider and the vehicle owner regarding vehicle care during and after service. It outlines scenarios for vehicle storage, key handling, and potential damages.\nממדים: תנאי שירות, אחריות\n\nנותן השירות רשאי להשאיר את הרכב במקום שצוין על-ידי מקבל השירות והאחריות .5.3 לקבלתו ולשמירתו, מאותו מועד ואילך, תהיה על אחריות מקבל השירות, אם היה מי שיקבל את הרכב ואם לאו.\n, אם נותן השירות לא יכול להביא את הרכב למוסך שציין מקבל השירות בשעות העבודה .5.4 וזאת מסיבות התלויות בנותן השירות, אזי הרכב יאוחסן וייגרר למוסך למחרת )למעט מקרה של שבת וחג( על-חשבונו של נותן השירות."
 }

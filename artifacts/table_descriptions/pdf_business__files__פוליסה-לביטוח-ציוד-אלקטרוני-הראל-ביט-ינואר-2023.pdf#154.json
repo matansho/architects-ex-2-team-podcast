@@ -2,24 +2,23 @@
   "id": "pdf:business/files/פוליסה-לביטוח-ציוד-אלקטרוני-הראל-ביט-ינואר-2023.pdf#154",
   "source": "llm",
   "description": {
-    "title": "דיווח נזק - הראל",
-    "summary": "This table details the process for reporting insurance claims under a Harel policy. It outlines the responsibilities of the insured (or beneficiary) regarding notification of incidents and providing necessary documentation.",
-    "embed_passage": "פוליסת ביטוח ציוד אלקטרוני של הראל מחייבת את המבוטח להודיע מיד על קרות מקרה ביטוח. יש למסור למבטח מידע ומסמכים נדרשים לבירור החבות, ואם לא ברשותו, לעזור להשיגם. לדוגמה, במקרה של נזק מרעידת אדמה, המבוטח יישא בהשתתפות עצמית בשיעור של 10% מסכום הביטוח.",
-    "row_axis": "steps in the claims process",
-    "column_axis": "responsibilities of insured/beneficiary and insurer",
+    "title": "הודעה על קרות מקרה ביטוח",
+    "summary": "This table details the requirements for notifying the insurer of an insurance claim and providing necessary information for investigation. It outlines the insured's obligations following an incident.",
+    "embed_passage": "טבלה זו מתארת את הדרישות להודעה למבטח על קרות מקרה ביטוח, ואת המידע הנדרש לחקירת הנסיבות. הפוליסה, הראל ביטוח ציוד אלקטרוני, דורשת מהמבוטח להודיע מיד על כל תביעה לשיפוי, ולספק מסמכים רלוונטיים בתוך זמן סביר. בין היתרונות של הפוליסה: תגמולי ביטוח, טופס תביעה, מידע ומסמכים. במקרה של רעידת אדמה, המבוטח יישא בהשתתפות עצמית בשיעור של 10%.",
+    "row_axis": "סעיפי חובות המבוטח",
+    "column_axis": "תיאור החובה",
     "units": [],
     "notable_values": [
-      "10%: self-participation rate for earthquake damage",
-      "21.7.1: notification of incident",
-      "21.7.2: providing information and documents",
-      "21.7.3: consequences of non-compliance"
+      "רעידת אדמה: 10%",
+      "השתתפות עצמית: סכום המינימום",
+      "השתתפות עצמית: סכום המקסימום",
+      "טופס תביעה: יסופק על ידי המבטח"
     ],
     "product_hints": [
-      "ביטוח ציוד אלקטרוני הראל",
-      "פוליסת הראל"
+      "הראל ביטוח ציוד אלקטרוני"
     ]
   },
   "sketch": "בקרות מקרה הביטוח, על המבוטח או המוטב, להודיע למבטח מיד .21.7.1 . כל תביעה של המבוטח לשיפוי כמו לאחר שנודע לו על קרות המקרה\nגם לתשלום תגמולי ביטוח על פי הפוליסה תוגש באמצעות טופס תביעה שימציא המבטח למבוטח על פי בקשתו;\nעל המבוטח או על המוטב, לפי העניין, למסור למבטח בתוך זמן סביר .21.7.2 מעת שנדרש לכך, את המידע והמסמכים הדרושים לבירור החבות והיקפה, ואם אינם ברשותו, עליו לעזור למבטח ככל שיוכל להשיגם;",
-  "embed_text": "פוליסת ביטוח ציוד אלקטרוני של הראל מחייבת את המבוטח להודיע מיד על קרות מקרה ביטוח. יש למסור למבטח מידע ומסמכים נדרשים לבירור החבות, ואם לא ברשותו, לעזור להשיגם. לדוגמה, במקרה של נזק מרעידת אדמה, המבוטח יישא בהשתתפות עצמית בשיעור של 10% מסכום הביטוח.",
-  "payload": "טבלה: דיווח נזק - הראל\nThis table details the process for reporting insurance claims under a Harel policy. It outlines the responsibilities of the insured (or beneficiary) regarding notification of incidents and providing necessary documentation.\nממדים: steps in the claims process, responsibilities of insured/beneficiary and insurer\n\nבקרות מקרה הביטוח, על המבוטח או המוטב, להודיע למבטח מיד .21.7.1 . כל תביעה של המבוטח לשיפוי כמו לאחר שנודע לו על קרות המקרה\nגם לתשלום תגמולי ביטוח על פי הפוליסה תוגש באמצעות טופס תביעה שימציא המבטח למבוטח על פי בקשתו;\nעל המבוטח או על המוטב, לפי העניין, למסור למבטח בתוך זמן סביר .21.7.2 מעת שנדרש לכך, את המידע והמסמכים הדרושים לבירור החבות והיקפה, ואם אינם ברשותו, עליו לעזור למבטח ככל שיוכל להשיגם;"
+  "embed_text": "טבלה זו מתארת את הדרישות להודעה למבטח על קרות מקרה ביטוח, ואת המידע הנדרש לחקירת הנסיבות. הפוליסה, הראל ביטוח ציוד אלקטרוני, דורשת מהמבוטח להודיע מיד על כל תביעה לשיפוי, ולספק מסמכים רלוונטיים בתוך זמן סביר. בין היתרונות של הפוליסה: תגמולי ביטוח, טופס תביעה, מידע ומסמכים. במקרה של רעידת אדמה, המבוטח יישא בהשתתפות עצמית בשיעור של 10%. This table details the requirements for notifying the insurer of an insurance claim and providing necessary information for investigation. It outlines the insured's obligations following an incident.",
+  "payload": "טבלה: הודעה על קרות מקרה ביטוח\nThis table details the requirements for notifying the insurer of an insurance claim and providing necessary information for investigation. It outlines the insured's obligations following an incident.\nממדים: סעיפי חובות המבוטח, תיאור החובה\n\nבקרות מקרה הביטוח, על המבוטח או המוטב, להודיע למבטח מיד .21.7.1 . כל תביעה של המבוטח לשיפוי כמו לאחר שנודע לו על קרות המקרה\nגם לתשלום תגמולי ביטוח על פי הפוליסה תוגש באמצעות טופס תביעה שימציא המבטח למבוטח על פי בקשתו;\nעל המבוטח או על המוטב, לפי העניין, למסור למבטח בתוך זמן סביר .21.7.2 מעת שנדרש לכך, את המידע והמסמכים הדרושים לבירור החבות והיקפה, ואם אינם ברשותו, עליו לעזור למבטח ככל שיוכל להשיגם;"
 }

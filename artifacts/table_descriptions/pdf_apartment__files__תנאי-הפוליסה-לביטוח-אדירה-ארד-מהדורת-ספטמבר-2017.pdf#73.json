@@ -3,24 +3,20 @@
   "source": "llm",
   "description": {
     "title": "הודעה למשטרה",
-    "summary": "This table details the requirements for notifying the police in cases of malicious acts, burglary, theft, or robbery under the 'Adira Erd' insurance policy. It outlines the policyholder's obligations to report incidents to the police.",
-    "embed_passage": "פוליסת 'אדירה ארד' מחייבת את המבוטח להודיע למשטרה בכל מקרה של אבדן או נזק הנובעים מפעולת זדון, פריצה, שוד או גניבה. ההודעה צריכה להיעשות בפעולות אלו, וחשוב לזכור את סעיף 27.  התנאים משתנים בהתאם לסוג האירוע.",
-    "row_axis": "types of incidents requiring police notification",
-    "column_axis": "details of the notification requirement",
+    "summary": "This table details the notification requirements to the police in cases of malicious acts, burglary, theft, or robbery under the 'Adira Erd' insurance policy. It specifies the obligation of the insured to report such incidents.",
+    "embed_passage": "טבלה זו מתייחסת להודעה למשטרה במקרים של פעולות זדון, פריצה, שוד או גניבה, כחלק מפוליסת ביטוח אדירה ארד. במקרה של אבדן או נזק, על המבוטח להודיע למשטרה. הפוליסה כוללת סעיפים הנוגעים למציאת רכוש גנוב, מקדמה ותגמולים, וכן התחייבות כספית לתיקון נזקים. סעיף 27 מתייחס לחובת ההודעה למשטרה. סעיפים 28 ו-29 עוסקים במציאת רכוש גנוב ומקדמות לתשלום.",
+    "row_axis": "סוג אירוע",
+    "column_axis": "הנחיות",
     "units": [],
     "notable_values": [
       "סעיף: 27",
-      "סוג אירוע: פריצה",
-      "סוג אירוע: שוד",
-      "סוג אירוע: גניבה",
-      "סוג אירוע: פעולות זדון"
+      "פעולות זדון, פריצה, שוד או גניבה: על המבוטח להודיע למשטרה"
     ],
     "product_hints": [
-      "אדירה ארד",
-      "Adira Erd"
+      "אדירה ארד"
     ]
   },
   "sketch": ". הודעה למשטרה בפעולות זדון, פריצה, שוד או גניבה 27\n, על המבוטח להודיע למשטרה בכל מקרה של אבדן או נזק הנובעים לדעתו מפעולת זדון, פריצה שוד או גניבה.",
-  "embed_text": "פוליסת 'אדירה ארד' מחייבת את המבוטח להודיע למשטרה בכל מקרה של אבדן או נזק הנובעים מפעולת זדון, פריצה, שוד או גניבה. ההודעה צריכה להיעשות בפעולות אלו, וחשוב לזכור את סעיף 27.  התנאים משתנים בהתאם לסוג האירוע.",
-  "payload": "טבלה: הודעה למשטרה\nThis table details the requirements for notifying the police in cases of malicious acts, burglary, theft, or robbery under the 'Adira Erd' insurance policy. It outlines the policyholder's obligations to report incidents to the police.\nממדים: types of incidents requiring police notification, details of the notification requirement\n\n. הודעה למשטרה בפעולות זדון, פריצה, שוד או גניבה 27\n, על המבוטח להודיע למשטרה בכל מקרה של אבדן או נזק הנובעים לדעתו מפעולת זדון, פריצה שוד או גניבה."
+  "embed_text": "טבלה זו מתייחסת להודעה למשטרה במקרים של פעולות זדון, פריצה, שוד או גניבה, כחלק מפוליסת ביטוח אדירה ארד. במקרה של אבדן או נזק, על המבוטח להודיע למשטרה. הפוליסה כוללת סעיפים הנוגעים למציאת רכוש גנוב, מקדמה ותגמולים, וכן התחייבות כספית לתיקון נזקים. סעיף 27 מתייחס לחובת ההודעה למשטרה. סעיפים 28 ו-29 עוסקים במציאת רכוש גנוב ומקדמות לתשלום. This table details the notification requirements to the police in cases of malicious acts, burglary, theft, or robbery under the 'Adira Erd' insurance policy. It specifies the obligation of the insured to report such incidents.",
+  "payload": "טבלה: הודעה למשטרה\nThis table details the notification requirements to the police in cases of malicious acts, burglary, theft, or robbery under the 'Adira Erd' insurance policy. It specifies the obligation of the insured to report such incidents.\nממדים: סוג אירוע, הנחיות\n\n. הודעה למשטרה בפעולות זדון, פריצה, שוד או גניבה 27\n, על המבוטח להודיע למשטרה בכל מקרה של אבדן או נזק הנובעים לדעתו מפעולת זדון, פריצה שוד או גניבה."
 }

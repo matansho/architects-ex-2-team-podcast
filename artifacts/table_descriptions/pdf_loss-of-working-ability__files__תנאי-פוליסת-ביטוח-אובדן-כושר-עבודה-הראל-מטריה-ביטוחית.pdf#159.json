@@ -2,25 +2,24 @@
   "id": "pdf:loss-of-working-ability/files/תנאי-פוליסת-ביטוח-אובדן-כושר-עבודה-הראל-מטריה-ביטוחית.pdf#159",
   "source": "llm",
   "description": {
-    "title": "אובדן כושר עבודה הראל מטריה",
-    "summary": "This table details the release of premiums and contributions in case of partial or total loss of working ability under the Harel Matria insurance policy. It outlines how benefits are calculated based on the degree of disability.",
-    "embed_passage": "פוליסת ביטוח אובדן כושר עבודה הראל מטריה מגדירה את סכום השחרור מפרמיה והשחרור מהפקדות במקרה של אבדן חלקי או מוחלט של כושר העבודה. לדוגמה, במקרה של אובדן חלקי של כושר העבודה בין 25% ל 74%, התשלום מחושב כמכפלת סכום השחרור מפרמיה והשחרור מההפקדות.",
-    "row_axis": "Degree of disability / type of release",
-    "column_axis": "Release amount from premium / release from contributions",
+    "title": "תנאי פוליסת ביטוח אובדן כושר עבודה",
+    "summary": "This table outlines the release of premiums and contributions in case of partial or total loss of working ability. It details how the release amount is calculated based on the degree of disability.",
+    "embed_passage": "טבלה זו מתארת את תנאי פוליסת ביטוח אובדן כושר עבודה של הראל מטריה ביטוחית, ומפרטת את סכומי השחרור מפרמיה והפקדות במקרה של אובדן כושר עבודה חלקי או מוחלט. ניתן לחשב את סכום השחרור על ידי הכפלת סכום השחרור מפרמיה או הפקדות בשיעור האובדן החלקי של כושר העבודה שנקבע למבוטח. הראל מטריה ביטוחית מאפשרת למבוטח הזכאי לתשלום תגמולים לפי יותר מפרק כיסוי ביטוחי אחד, לקבל תשלום לפי הפרק הגבוה מבין השניים. לדוגמה, שיעורי אובדן כושר עבודה נעים בין 25% ל 74%. במקרה של הכנסה אחרת, החברה רשאית לקזז אותה מהפיצוי החודשי.",
+    "row_axis": "conditions for release of premiums/contributions",
+    "column_axis": "release amount calculation",
     "units": [],
     "notable_values": [
-      "25%: Lower bound of partial disability",
-      "74%: Upper bound of partial disability",
-      "4.3.4: Section number referencing release calculation",
-      "4.4: Section number referencing multiple coverage",
-      "12: Months for initial offset of other income"
+      "אובדן חלקי של כושר העבודה: 25% - 74%",
+      "אובדן מוחלט של כושר העבודה",
+      "תגמולי ביטוח לפי פרק כיסוי ביטוחי אחד",
+      "הכנסה אחרת: קיזוז מהפיצוי החודשי"
     ],
     "product_hints": [
-      "אובדן כושר עבודה הראל מטריה",
-      "Harel Matria"
+      "אובדן כושר עבודה",
+      "הראל מטריה ביטוחית"
     ]
   },
   "sketch": "סכום השחרור מפרמיה והשחרור מהפקדות שישולם במקרה של אבדן חלקי של 4.3.4 , כושר העבודה יהיה שווה למכפלת סכום השחרור מפרמיה ו/או השחרור מההפקדות לפי הענין, למקרה אובדן מוחלט של כושר העבודה בשיעור האובדן החלקי של כושר ( שנקבע למבוטח. 74% ל 25% העבודה )בין\nמבוטח הזכאי לתשלום תגמולי ביטוח לפי יותר מפרק כיסוי ביטוחי אחד, יהיה זכאי לתשלום 4.4 תגמולי ביטוח לפי אחד הפרקים בלבד, הגבוה מבין שניהם.",
-  "embed_text": "פוליסת ביטוח אובדן כושר עבודה הראל מטריה מגדירה את סכום השחרור מפרמיה והשחרור מהפקדות במקרה של אבדן חלקי או מוחלט של כושר העבודה. לדוגמה, במקרה של אובדן חלקי של כושר העבודה בין 25% ל 74%, התשלום מחושב כמכפלת סכום השחרור מפרמיה והשחרור מההפקדות.",
-  "payload": "טבלה: אובדן כושר עבודה הראל מטריה\nThis table details the release of premiums and contributions in case of partial or total loss of working ability under the Harel Matria insurance policy. It outlines how benefits are calculated based on the degree of disability.\nממדים: Degree of disability / type of release, Release amount from premium / release from contributions\n\nסכום השחרור מפרמיה והשחרור מהפקדות שישולם במקרה של אבדן חלקי של 4.3.4 , כושר העבודה יהיה שווה למכפלת סכום השחרור מפרמיה ו/או השחרור מההפקדות לפי הענין, למקרה אובדן מוחלט של כושר העבודה בשיעור האובדן החלקי של כושר ( שנקבע למבוטח. 74% ל 25% העבודה )בין\nמבוטח הזכאי לתשלום תגמולי ביטוח לפי יותר מפרק כיסוי ביטוחי אחד, יהיה זכאי לתשלום 4.4 תגמולי ביטוח לפי אחד הפרקים בלבד, הגבוה מבין שניהם."
+  "embed_text": "טבלה זו מתארת את תנאי פוליסת ביטוח אובדן כושר עבודה של הראל מטריה ביטוחית, ומפרטת את סכומי השחרור מפרמיה והפקדות במקרה של אובדן כושר עבודה חלקי או מוחלט. ניתן לחשב את סכום השחרור על ידי הכפלת סכום השחרור מפרמיה או הפקדות בשיעור האובדן החלקי של כושר העבודה שנקבע למבוטח. הראל מטריה ביטוחית מאפשרת למבוטח הזכאי לתשלום תגמולים לפי יותר מפרק כיסוי ביטוחי אחד, לקבל תשלום לפי הפרק הגבוה מבין השניים. לדוגמה, שיעורי אובדן כושר עבודה נעים בין 25% ל 74%. במקרה של הכנסה אחרת, החברה רשאית לקזז אותה מהפיצוי החודשי. This table outlines the release of premiums and contributions in case of partial or total loss of working ability. It details how the release amount is calculated based on the degree of disability. בין הערכים בטבלה: אובדן חלקי של כושר העבודה: 25% - 74%; אובדן מוחלט של כושר העבודה; תגמולי ביטו…",
+  "payload": "טבלה: תנאי פוליסת ביטוח אובדן כושר עבודה\nThis table outlines the release of premiums and contributions in case of partial or total loss of working ability. It details how the release amount is calculated based on the degree of disability.\nממדים: conditions for release of premiums/contributions, release amount calculation\n\nסכום השחרור מפרמיה והשחרור מהפקדות שישולם במקרה של אבדן חלקי של 4.3.4 , כושר העבודה יהיה שווה למכפלת סכום השחרור מפרמיה ו/או השחרור מההפקדות לפי הענין, למקרה אובדן מוחלט של כושר העבודה בשיעור האובדן החלקי של כושר ( שנקבע למבוטח. 74% ל 25% העבודה )בין\nמבוטח הזכאי לתשלום תגמולי ביטוח לפי יותר מפרק כיסוי ביטוחי אחד, יהיה זכאי לתשלום 4.4 תגמולי ביטוח לפי אחד הפרקים בלבד, הגבוה מבין שניהם."
 }

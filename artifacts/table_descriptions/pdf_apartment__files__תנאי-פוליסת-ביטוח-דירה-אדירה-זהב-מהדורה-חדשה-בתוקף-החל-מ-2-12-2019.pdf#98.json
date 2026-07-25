@@ -3,17 +3,16 @@
   "source": "llm",
   "description": {
     "title": "כיסוי תכולת כספת בנק",
-    "summary": "This table details coverage for property within a bank safe deposit box under the 'Adira Zahav' home insurance policy. It outlines exclusions and limitations on compensation for loss or damage.",
-    "embed_passage": "פוליסת ביטוח דירה אדירה זהב מכסה אבדן או נזק לרכוש המבוטח בכספת בנק, אך לא כולל גניבה באמצעות מפתח או היעלמות מסתורית. התשלום המקסימלי עבור אוסף בולים שאינם ישראליים הוא 75% מערכם הנקוב בקטלוג האחרון של סטנלי גיבונס, בעוד שניירות ערך יכוסו לפי ערכם בשוק ביום קרות מקרה הביטוח.",
-    "row_axis": "Specific exclusion or limitation of coverage for bank safe deposit box contents",
-    "column_axis": "Description of the exclusion/limitation",
+    "summary": "This table details exclusions and limitations for coverage of property held in a bank safe deposit box under the 'Adira Zahav' home insurance policy. It specifies what types of loss or damage are not covered and how claims are valued.",
+    "embed_passage": "טבלה זו מתארת את הכיסוי לתכולת כספת בנק בפוליסת ביטוח דירה 'אדירה זהב'. ניתן לבדוק את סוגי הנזקים או האובדן שאינם כלולים בכיסוי, כגון נזק הדרגתי או גניבה באמצעות מפתח, וכן את אופן הערכת שווי הפריטים השונים. הפריטים המופיעים בטבלה כוללים בולים, ניירות ערך, מזומנים, תכשיטים ואבנים יקרות. אובדן או נזק כתוצאה מחולדות, תולעים, או התבלות הדרגתית אינם מכוסים. גניבה באמצעות מפתח משוכפל, אלא אם הושג באלימות, אינה מכוסה. ערך המידע האגור ברכוש המבוטח אינו מכוסה.",
+    "row_axis": "סוגי אובדן או נזק",
+    "column_axis": "תיאור ההגבלה או אי הכיסוי",
     "units": [],
     "notable_values": [
-      "75%: Maximum coverage for non-Israeli stamp collections",
-      "15.1: Gradual deterioration exclusion",
-      "15.2: Theft with key exclusion",
-      "15.3: Mysterious disappearance exclusion",
-      "15.7: Catalog value for stamp collections"
+      "אוסף בולים (שאינם ישראליים): 75% מערכם הנקוב בקטלוג האחרון של סטנלי גיבונס",
+      "אוסף בולים ישראליים: ערכם בשוק ביום קרות מקרה הביטוח",
+      "ניירות ערך: ערכם בשוק ביום קרות מקרה הביטוח",
+      "תכשיטים, אבנים יקרות ואבני חן: ערך השוק ביום קרות מקרה הביטוח"
     ],
     "product_hints": [
       "אדירה זהב",
@@ -21,6 +20,6 @@
     ]
   },
   "sketch": "אבדן או נזק כתוצאה מעש, חרקים אחרים, תולעים, השחתה הדרגתית, התבלות .15.1 הדרגתית, גורמים אטמוספריים או אקלימיים בעלי השפעה הדרגתית.\n.15.2 גניבה באמצעות שימוש במפתח של הכספת או בשכפול של מפתח כאמור, אלא אם הושג המפתח כתוצאה מאיום או באלימות או ברמאות או בגניבה.\nהיעלמות מסתורית ובלתי מוסברת של הרכוש המבוטח או חוסר שאי-אפשר ליחסו .15.3 לנזק פיזי תאונתי.\nערך המידע האגור ברכוש המבוטח. .15.4\nנזק תוצאתי שייגרם למבוטח, לבני-משפחתו או למוטב כתוצאה ממקרה ביטוח, כולל .15.5 שינוי בשער ניירות-ערך או שינוי בערך המטבע.",
-  "embed_text": "פוליסת ביטוח דירה אדירה זהב מכסה אבדן או נזק לרכוש המבוטח בכספת בנק, אך לא כולל גניבה באמצעות מפתח או היעלמות מסתורית. התשלום המקסימלי עבור אוסף בולים שאינם ישראליים הוא 75% מערכם הנקוב בקטלוג האחרון של סטנלי גיבונס, בעוד שניירות ערך יכוסו לפי ערכם בשוק ביום קרות מקרה הביטוח.",
-  "payload": "טבלה: כיסוי תכולת כספת בנק\nThis table details coverage for property within a bank safe deposit box under the 'Adira Zahav' home insurance policy. It outlines exclusions and limitations on compensation for loss or damage.\nממדים: Specific exclusion or limitation of coverage for bank safe deposit box contents, Description of the exclusion/limitation\n\nאבדן או נזק כתוצאה מעש, חרקים אחרים, תולעים, השחתה הדרגתית, התבלות .15.1 הדרגתית, גורמים אטמוספריים או אקלימיים בעלי השפעה הדרגתית.\n.15.2 גניבה באמצעות שימוש במפתח של הכספת או בשכפול של מפתח כאמור, אלא אם הושג המפתח כתוצאה מאיום או באלימות או ברמאות או בגניבה.\nהיעלמות מסתורית ובלתי מוסברת של הרכוש המבוטח או חוסר שאי-אפשר ליחסו .15.3 לנזק פיזי תאונתי.\nערך המידע האגור ברכוש המבוטח. .15.4\nנזק תוצאתי שייגרם למבוטח, לבני-משפחתו או למוטב כתוצאה ממקרה ביטוח, כולל .15.5 שינוי בשער ניירות-ערך או שינוי בערך המטבע."
+  "embed_text": "טבלה זו מתארת את הכיסוי לתכולת כספת בנק בפוליסת ביטוח דירה 'אדירה זהב'. ניתן לבדוק את סוגי הנזקים או האובדן שאינם כלולים בכיסוי, כגון נזק הדרגתי או גניבה באמצעות מפתח, וכן את אופן הערכת שווי הפריטים השונים. הפריטים המופיעים בטבלה כוללים בולים, ניירות ערך, מזומנים, תכשיטים ואבנים יקרות. אובדן או נזק כתוצאה מחולדות, תולעים, או התבלות הדרגתית אינם מכוסים. גניבה באמצעות מפתח משוכפל, אלא אם הושג באלימות, אינה מכוסה. ערך המידע האגור ברכוש המבוטח אינו מכוסה. This table details exclusions and limitations for coverage of property held in a bank safe deposit box under the 'Adira Zahav' home insurance policy. It specifies what types of loss or damage are not covered and how claims are valued. בין הערכים בטבלה: אוסף בולים (שאינם ישראליים): 75% מערכם הנקוב בקטלוג האחרון של סטנלי גיבונס; אוסף בולים ישר…",
+  "payload": "טבלה: כיסוי תכולת כספת בנק\nThis table details exclusions and limitations for coverage of property held in a bank safe deposit box under the 'Adira Zahav' home insurance policy. It specifies what types of loss or damage are not covered and how claims are valued.\nממדים: סוגי אובדן או נזק, תיאור ההגבלה או אי הכיסוי\n\nאבדן או נזק כתוצאה מעש, חרקים אחרים, תולעים, השחתה הדרגתית, התבלות .15.1 הדרגתית, גורמים אטמוספריים או אקלימיים בעלי השפעה הדרגתית.\n.15.2 גניבה באמצעות שימוש במפתח של הכספת או בשכפול של מפתח כאמור, אלא אם הושג המפתח כתוצאה מאיום או באלימות או ברמאות או בגניבה.\nהיעלמות מסתורית ובלתי מוסברת של הרכוש המבוטח או חוסר שאי-אפשר ליחסו .15.3 לנזק פיזי תאונתי.\nערך המידע האגור ברכוש המבוטח. .15.4\nנזק תוצאתי שייגרם למבוטח, לבני-משפחתו או למוטב כתוצאה ממקרה ביטוח, כולל .15.5 שינוי בשער ניירות-ערך או שינוי בערך המטבע."
 }

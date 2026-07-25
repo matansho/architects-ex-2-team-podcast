@@ -2,24 +2,27 @@
   "id": "pdf:business/files/מכלול-למושב-ינואר-2023.pdf#103",
   "source": "llm",
   "description": {
-    "title": "מכלול",
-    "summary": "This table details safety measures for insured properties, particularly regarding fire prevention and response in agricultural settings. It outlines requirements for equipment, emergency communication, and vegetation control to mitigate risk.",
-    "embed_passage": "פוליסת 'מכלול' דורשת התקנת קולטי גיצים תקניים על קומביין וכל כלי ממונע אחר המשמש בעת הקציר (8.1.5). המבוטח חייב לנקוט בצעדים לאיתור וכיבוי שריפה (8.1.6), ולהצטייד במכשיר קשר או טלפון נייד (8.1.7). יש לוודא הוצאת חומרים דליקים מהמטע עד סוף אפריל ויולי (8.2.1).",
+    "title": "אמצעי להקלת סיכון",
+    "summary": "This table details safety measures to mitigate risk, specifically related to agricultural operations and fire prevention. It outlines requirements for equipment, emergency preparedness, and field maintenance.",
+    "embed_passage": "טבלה זו מפרטת אמצעי בטיחות להפחתת סיכונים, במיוחד בתחום החקלאות ומניעת שריפות. ניתן לעיין בהתאם לסוג הציוד החקלאי, כמו קומביין, או לצורך הכנה לשריפות יזומות. אמצעים אלו כוללים התקנת קולטי גיצים, נקיטת צעדים לכיבוי שריפות, הצטיידות באמצעי קשר וכיבוי, וסילוק חומרים דליקים מהמטע. הציוד המופיע כאן כולל קומביין וכלי ממונע אחר, וכן אמצעי קשר/טלפון נייד. יש לוודא הוצאת חומרים דליקים מהמטע עד סוף אפריל ויולי.",
     "row_axis": "Safety measure / requirement",
-    "column_axis": "Details of the safety measure",
+    "column_axis": "Details / instructions",
     "units": [],
     "notable_values": [
-      "8.1.5: קולטי גיצים תקניים",
-      "8.1.6: צעדים לאיתור וכיבוי שריפה",
-      "8.1.7: מכשיר קשר/טלפון נייד",
-      "8.2.1: סוף אפריל",
-      "8.2.1: סוף יולי"
+      "קומביין: קולטי גיצים תקניים",
+      "שריפה: צעדים לאיתור וכיבוי",
+      "מכשיר קשר/טלפון נייד: קריאה מידית לשירות חירום",
+      "שריפה יזומה: נוכחות אדם בוגר",
+      "חומרים דליקים: סילוק מהמטע עד סוף אפריל",
+      "חומרים דליקים: סילוק מהמטע עד סוף יולי",
+      "עשבייה וצמחייה: סילוק סביב המטע למרחק 7 מטר",
+      "שריפה: שהייה של 20 דקות לאחר כיבוי"
     ],
     "product_hints": [
       "מכלול"
     ]
   },
   "sketch": ", קומביין וכל כלי ממונע אחר, המשמש את המבוטח בעת הקציר והדייש .8.1.5 יצויד בקולטי גיצים תקניים. אין לאפשר גישת רכב, שאינו רכב יעודי לגידול או שלא למטרות שינוע סחורה.\nבכל מקרה של פריצת שריפה, חייב המבוטח לנקוט בצעדים המתאימים .8.1.6 לצורך איתור השריפה, כיבויה והפחתת הנזק.\nעל המבוטח להצטייד מראש, לפני הכניסה לשטח, במכשיר קשר/בטלפון .8.1.7 נייד )לקריאה מידית של שירות חירום( ואם אפשר גם באמצעי כיבוי.",
-  "embed_text": "פוליסת 'מכלול' דורשת התקנת קולטי גיצים תקניים על קומביין וכל כלי ממונע אחר המשמש בעת הקציר (8.1.5). המבוטח חייב לנקוט בצעדים לאיתור וכיבוי שריפה (8.1.6), ולהצטייד במכשיר קשר או טלפון נייד (8.1.7). יש לוודא הוצאת חומרים דליקים מהמטע עד סוף אפריל ויולי (8.2.1).",
-  "payload": "טבלה: מכלול\nThis table details safety measures for insured properties, particularly regarding fire prevention and response in agricultural settings. It outlines requirements for equipment, emergency communication, and vegetation control to mitigate risk.\nממדים: Safety measure / requirement, Details of the safety measure\n\n, קומביין וכל כלי ממונע אחר, המשמש את המבוטח בעת הקציר והדייש .8.1.5 יצויד בקולטי גיצים תקניים. אין לאפשר גישת רכב, שאינו רכב יעודי לגידול או שלא למטרות שינוע סחורה.\nבכל מקרה של פריצת שריפה, חייב המבוטח לנקוט בצעדים המתאימים .8.1.6 לצורך איתור השריפה, כיבויה והפחתת הנזק.\nעל המבוטח להצטייד מראש, לפני הכניסה לשטח, במכשיר קשר/בטלפון .8.1.7 נייד )לקריאה מידית של שירות חירום( ואם אפשר גם באמצעי כיבוי."
+  "embed_text": "טבלה זו מפרטת אמצעי בטיחות להפחתת סיכונים, במיוחד בתחום החקלאות ומניעת שריפות. ניתן לעיין בהתאם לסוג הציוד החקלאי, כמו קומביין, או לצורך הכנה לשריפות יזומות. אמצעים אלו כוללים התקנת קולטי גיצים, נקיטת צעדים לכיבוי שריפות, הצטיידות באמצעי קשר וכיבוי, וסילוק חומרים דליקים מהמטע. הציוד המופיע כאן כולל קומביין וכלי ממונע אחר, וכן אמצעי קשר/טלפון נייד. יש לוודא הוצאת חומרים דליקים מהמטע עד סוף אפריל ויולי. This table details safety measures to mitigate risk, specifically related to agricultural operations and fire prevention. It outlines requirements for equipment, emergency preparedness, and field maintenance. בין הערכים בטבלה: שריפה: צעדים לאיתור וכיבוי; מכשיר קשר/טלפון נייד: קריאה מידית לשירות חירום; שריפה יזומה: נוכחות אדם בוגר; עשבייה וצמחייה: סילוק סביב המטע למרחק 7 מטר; שריפה: שהייה של…",
+  "payload": "טבלה: אמצעי להקלת סיכון\nThis table details safety measures to mitigate risk, specifically related to agricultural operations and fire prevention. It outlines requirements for equipment, emergency preparedness, and field maintenance.\nממדים: Safety measure / requirement, Details / instructions\n\n, קומביין וכל כלי ממונע אחר, המשמש את המבוטח בעת הקציר והדייש .8.1.5 יצויד בקולטי גיצים תקניים. אין לאפשר גישת רכב, שאינו רכב יעודי לגידול או שלא למטרות שינוע סחורה.\nבכל מקרה של פריצת שריפה, חייב המבוטח לנקוט בצעדים המתאימים .8.1.6 לצורך איתור השריפה, כיבויה והפחתת הנזק.\nעל המבוטח להצטייד מראש, לפני הכניסה לשטח, במכשיר קשר/בטלפון .8.1.7 נייד )לקריאה מידית של שירות חירום( ואם אפשר גם באמצעי כיבוי."
 }

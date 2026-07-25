@@ -2,22 +2,25 @@
   "id": "pdf:business/files/תנאי-פוליסה-ביטוח-מכלול-לעסק-מהדורת-מרץ-2023.pdf#38",
   "source": "llm",
   "description": {
-    "title": "סייגים לביטוח אש מכלול",
-    "summary": "This table lists exclusions to coverage under the 'מכלול' fire insurance policy. It details scenarios where the insurer will not provide compensation for a claim.",
-    "embed_passage": "פוליסת 'מכלול' ביטוח אש לעסק כוללת סייגים רבים. לדוגמה, הפוליסה לא תכסה אובדן או נזק שנגרם מתהליך הדרגתי מכל סוג שהוא, כמו חימום או ייבוש. כמו כן, נזק למכונות חשמליות כתוצאה ממתח יתר או קצר חשמלי לא יכוסה, אלא אם הנזק נגרם ישירות מברק.",
-    "row_axis": "exclusion category",
-    "column_axis": "details of the exclusion",
+    "title": "סייגים לפרק ראשון",
+    "summary": "This table lists exclusions to the first chapter of the 'מכלול' insurance policy. It details situations where the insurer will not provide compensation for insurance claims.",
+    "embed_passage": "טבלה זו מפרטת סייגים לפרק הראשון של פוליסת הביטוח 'מכלול' לעסק. מטרתה להבהיר מקרים בהם המבטח לא ישפה את המבוטח. ניתן לחפש סייגים ספציפיים לפי תיאור הנזק או הסיבה לאי כיסוי. הסייגים כוללים אובדן או נזק שנגרם מתהליך הדרגתי, אובדן או נזק למכונות חשמליות כתוצאה ממתח יתר או קצר חשמלי. אובדן או נזק שנגרם מחימום עצמי, עומס יתר, קשת חשמלית, או התחממות עצמית. פוליסת 'מכלול' לעסק מספקת כיסוי מורחב, אך סייגים אלו מגדירים את גבולות הכיסוי.",
+    "row_axis": "exclusion reason",
+    "column_axis": "description of exclusion",
     "units": [],
     "notable_values": [
-      "exclusion number: 2",
-      "exclusion category: סייגים לפרק ראשון"
+      "תהליך הדרגתי: מכל סוג שהוא",
+      "מכונה חשמלית: מתח יתר",
+      "מכונה חשמלית: עומס יתר",
+      "מכונה חשמלית: קצר",
+      "מכונה חשמלית: קשת חשמלית",
+      "מכונה חשמלית: התחממות עצמית"
     ],
     "product_hints": [
-      "מכלול",
-      "ביטוח אש"
+      "מכלול לעסק"
     ]
   },
   "sketch": ".  סייגים לפרק ראשון: 2 מבלי לגרוע מהאמור בחלק שלישי )סייגים כלליים לכל פרקי הפוליסה(, המבטח לא ישפה את המבוטח וכן לא ישלם תגמולי ביטוח כלשהם על פי פרק ראשון זה, בגין או בקשר עם מקרה ביטוח שייגרם או הנובע, במישרין או\n, אלא אם צוין אחרת ברשימה בעקיפין, בקשר עם כל המפורט להלן:",
-  "embed_text": "פוליסת 'מכלול' ביטוח אש לעסק כוללת סייגים רבים. לדוגמה, הפוליסה לא תכסה אובדן או נזק שנגרם מתהליך הדרגתי מכל סוג שהוא, כמו חימום או ייבוש. כמו כן, נזק למכונות חשמליות כתוצאה ממתח יתר או קצר חשמלי לא יכוסה, אלא אם הנזק נגרם ישירות מברק.",
-  "payload": "טבלה: סייגים לביטוח אש מכלול\nThis table lists exclusions to coverage under the 'מכלול' fire insurance policy. It details scenarios where the insurer will not provide compensation for a claim.\nממדים: exclusion category, details of the exclusion\n\n.  סייגים לפרק ראשון: 2 מבלי לגרוע מהאמור בחלק שלישי )סייגים כלליים לכל פרקי הפוליסה(, המבטח לא ישפה את המבוטח וכן לא ישלם תגמולי ביטוח כלשהם על פי פרק ראשון זה, בגין או בקשר עם מקרה ביטוח שייגרם או הנובע, במישרין או\n, אלא אם צוין אחרת ברשימה בעקיפין, בקשר עם כל המפורט להלן:"
+  "embed_text": "טבלה זו מפרטת סייגים לפרק הראשון של פוליסת הביטוח 'מכלול' לעסק. מטרתה להבהיר מקרים בהם המבטח לא ישפה את המבוטח. ניתן לחפש סייגים ספציפיים לפי תיאור הנזק או הסיבה לאי כיסוי. הסייגים כוללים אובדן או נזק שנגרם מתהליך הדרגתי, אובדן או נזק למכונות חשמליות כתוצאה ממתח יתר או קצר חשמלי. אובדן או נזק שנגרם מחימום עצמי, עומס יתר, קשת חשמלית, או התחממות עצמית. פוליסת 'מכלול' לעסק מספקת כיסוי מורחב, אך סייגים אלו מגדירים את גבולות הכיסוי. This table lists exclusions to the first chapter of the 'מכלול' insurance policy. It details situations where the insurer will not provide compensation for insurance claims.",
+  "payload": "טבלה: סייגים לפרק ראשון\nThis table lists exclusions to the first chapter of the 'מכלול' insurance policy. It details situations where the insurer will not provide compensation for insurance claims.\nממדים: exclusion reason, description of exclusion\n\n.  סייגים לפרק ראשון: 2 מבלי לגרוע מהאמור בחלק שלישי )סייגים כלליים לכל פרקי הפוליסה(, המבטח לא ישפה את המבוטח וכן לא ישלם תגמולי ביטוח כלשהם על פי פרק ראשון זה, בגין או בקשר עם מקרה ביטוח שייגרם או הנובע, במישרין או\n, אלא אם צוין אחרת ברשימה בעקיפין, בקשר עם כל המפורט להלן:"
 }

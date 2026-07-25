@@ -3,24 +3,22 @@
   "source": "llm",
   "description": {
     "title": "עמלות חלפים",
-    "summary": "This table details the commission rates paid to non-agreement garages for parts, depending on whether the parts are original/used or replacement. It outlines how Harel calculates costs and potential reductions in insurance payouts.",
-    "embed_passage": "בהראל, עלות החלפים משפיעה על גובה הפיצוי. עבור חלקים מקוריים ומשומשים, עמלת החלפים היא 27% ממחיר נטו \"בר השגה\", ועבור חלקים תחליפיים העמלה היא 17%. במקרים מסוימים, ההשתתפות העצמית תהיה כאילו הרכב תוקן במוסך הסדר.",
-    "row_axis": "Type of part (original/used or replacement)",
-    "column_axis": "Commission rate",
+    "summary": "This table details commission rates for parts supplied to non-approved repair shops. It outlines the fees paid to the shop based on whether the parts are original/used or replacement.",
+    "embed_passage": "טבלה זו מתארת את שיעורי העמלות עבור חלפים המסופקים למוסכים שאינם בהסדר. העמלות משתנות בהתאם לסוג החלק – מקורי/משומש או חלופי. ניתן לבחור במוסך שאינו בהסדר, ובמקרה זה הראל תספק חלפים דרך ספקיה. הראל, חלפים מקוריים ומשומשים, חלפים תחליפיים, עמלת חלפים, מוסך הסדר, מוסך שאינו בהסדר.",
+    "row_axis": "סוג חלק",
+    "column_axis": "עמלה",
     "units": [
       "%"
     ],
     "notable_values": [
-      "חלקים מקוריים ומשומשים: 27%",
-      "חלקים תחליפיים: 17%",
-      "עמלה: מחושבת ממחיר נטו \"בר השגה\"",
-      "השתתפות עצמית: כאילו הרכב תוקן במוסך הסדר"
+      "חלפים מקוריים ומשומשים: 27%",
+      "חלפים תחליפיים: 17%"
     ],
     "product_hints": [
       "הראל"
     ]
   },
   "sketch": "כדלקמן: עבור חלקים מקוריים ומשומשים (\" \"עמלת חלפים : במסלול זה, ספק החלפים ישלם עמלה למוסך שאינו בהסדר )להלן .\" העמלה תחושב ממחיר נטו \"בר השגה ,27% , עבור חלקים תחליפיים עמלה של 17% עמלה של\nכמו כן, באפשרות המוסך שאינו בהסדר לתקן את רכבך בהתאם לעלות החלפים בני ההשגה לאחר הנחות, קרי מחיר זהה כמו במסלול של מוסך הסדר של הראל.\nבמקרים כאמור, בהם המוסך קיבל את תנאי ההסדר המלאים של החברה, ההשתתפות העצמית תהא כאילו הרכב תוקן במוסך הסדר כמפורט בדף פרטי הביטוח, וכן לא יופחתו דמי השבה לקדמות / כינון.",
-  "embed_text": "בהראל, עלות החלפים משפיעה על גובה הפיצוי. עבור חלקים מקוריים ומשומשים, עמלת החלפים היא 27% ממחיר נטו \"בר השגה\", ועבור חלקים תחליפיים העמלה היא 17%. במקרים מסוימים, ההשתתפות העצמית תהיה כאילו הרכב תוקן במוסך הסדר.",
-  "payload": "טבלה: עמלות חלפים\nThis table details the commission rates paid to non-agreement garages for parts, depending on whether the parts are original/used or replacement. It outlines how Harel calculates costs and potential reductions in insurance payouts.\nממדים: Type of part (original/used or replacement), Commission rate\n\nכדלקמן: עבור חלקים מקוריים ומשומשים (\" \"עמלת חלפים : במסלול זה, ספק החלפים ישלם עמלה למוסך שאינו בהסדר )להלן .\" העמלה תחושב ממחיר נטו \"בר השגה ,27% , עבור חלקים תחליפיים עמלה של 17% עמלה של\nכמו כן, באפשרות המוסך שאינו בהסדר לתקן את רכבך בהתאם לעלות החלפים בני ההשגה לאחר הנחות, קרי מחיר זהה כמו במסלול של מוסך הסדר של הראל.\nבמקרים כאמור, בהם המוסך קיבל את תנאי ההסדר המלאים של החברה, ההשתתפות העצמית תהא כאילו הרכב תוקן במוסך הסדר כמפורט בדף פרטי הביטוח, וכן לא יופחתו דמי השבה לקדמות / כינון."
+  "embed_text": "טבלה זו מתארת את שיעורי העמלות עבור חלפים המסופקים למוסכים שאינם בהסדר. העמלות משתנות בהתאם לסוג החלק – מקורי/משומש או חלופי. ניתן לבחור במוסך שאינו בהסדר, ובמקרה זה הראל תספק חלפים דרך ספקיה. הראל, חלפים מקוריים ומשומשים, חלפים תחליפיים, עמלת חלפים, מוסך הסדר, מוסך שאינו בהסדר. This table details commission rates for parts supplied to non-approved repair shops. It outlines the fees paid to the shop based on whether the parts are original/used or replacement.",
+  "payload": "טבלה: עמלות חלפים\nThis table details commission rates for parts supplied to non-approved repair shops. It outlines the fees paid to the shop based on whether the parts are original/used or replacement.\nממדים: סוג חלק, עמלה\n\nכדלקמן: עבור חלקים מקוריים ומשומשים (\" \"עמלת חלפים : במסלול זה, ספק החלפים ישלם עמלה למוסך שאינו בהסדר )להלן .\" העמלה תחושב ממחיר נטו \"בר השגה ,27% , עבור חלקים תחליפיים עמלה של 17% עמלה של\nכמו כן, באפשרות המוסך שאינו בהסדר לתקן את רכבך בהתאם לעלות החלפים בני ההשגה לאחר הנחות, קרי מחיר זהה כמו במסלול של מוסך הסדר של הראל.\nבמקרים כאמור, בהם המוסך קיבל את תנאי ההסדר המלאים של החברה, ההשתתפות העצמית תהא כאילו הרכב תוקן במוסך הסדר כמפורט בדף פרטי הביטוח, וכן לא יופחתו דמי השבה לקדמות / כינון."
 }

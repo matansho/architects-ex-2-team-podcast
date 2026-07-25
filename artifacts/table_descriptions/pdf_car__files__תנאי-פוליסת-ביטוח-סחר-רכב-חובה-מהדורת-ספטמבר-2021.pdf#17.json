@@ -2,24 +2,23 @@
   "id": "pdf:car/files/תנאי-פוליסת-ביטוח-סחר-רכב-חובה-מהדורת-ספטמבר-2021.pdf#17",
   "source": "llm",
   "description": {
-    "title": "דמי ביטוח מופחתים",
-    "summary": "This table details compensation amounts due from the policyholder if they provided incomplete or inaccurate information during the underwriting process, leading to lower premiums. It outlines payments based on injury and damages.",
-    "embed_passage": "פוליסת ביטוח סחר רכב חובה מגדירה פיצויים מוסכמים במקרים בהם בעל הפוליסה מספק מידע לא מדויק. לדוגמה, אם הנזק הממוני עקב מקרה הביטוח הוא ₪ 10,000, בעל הפוליסה ישלם פיצוי מוסכם. סכומים אלו יכולים להגיע עד ₪ 2,500 לנפגע שאינו בעל הפוליסה.",
-    "row_axis": "Scenario: inaccurate/incomplete disclosure during underwriting",
-    "column_axis": "Compensation amounts due from policyholder",
+    "title": "תשובות חיתום",
+    "summary": "This table details financial consequences for incomplete or dishonest answers to underwriting questions. It specifies agreed-upon compensation amounts payable by the policyholder to the insurer in case of a claim, based on the discrepancy in premium or acceptance.",
+    "embed_passage": "טבלה זו מתייחסת לתנאי פוליסת ביטוח סחר רכב חובה, ומפרטת את הפיצוי המוסכם שעל בעל הפוליסה לשלם למבטח במקרה של תשובה לא מלאה או לא כנה לשאלת חיתום. הפיצוי משולם אם התשובה השפיעה על גובה דמי הביטוח או על הסכמת המבטח לכרות את הפוליסה, וקרה מקרה ביטוח. הנתונים בטבלה כוללים סכומי פיצוי מוסכמים עבור בעל הפוליסה ועבור נפגעים אחרים, בהתאם לנזק שנגרם. סכומי הפיצוי המוסכמים הם ₪ 10,000 ו-₪ 2,500. פוליסת ביטוח סחר רכב חובה מהדורת ספטמבר 2021 מציגה את הפיצויים המוסכמים במקרה של אי-גילוי נאות.",
+    "row_axis": "תרחישים של תשובות חיתום לא מלאות/לא כנות",
+    "column_axis": "סוג פיצוי / סכום פיצוי",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "Maximum damage compensation: ₪ 10,000",
-      "Compensation per non-policyholder injured: ₪ 2,500",
-      "Compensation limit per non-policyholder: ₪ 10,000"
+      "פיצוי מוסכם (נזק ממון): ₪ 10,000",
+      "פיצוי מוסכם (נפגע אחר): ₪ 2,500"
     ],
     "product_hints": [
-      "ביטוח סחר רכב חובה"
+      "פוליסת ביטוח סחר רכב חובה"
     ]
   },
   "sketch": ", השיב בעל הפוליסה לשאלת חיתום תשובה שלא הייתה מלאה וכנה בעת שניתנה .9.3 ובשל התשובה נקבעו דמי ביטוח נמוכים מדמי הביטוח שהיו נקבעים אילו היה בעל הפוליסה עונה תשובה מלאה וכנה, או שבשל התשובה כאמור הסכים המבטח לכרות את חוזה הביטוח שעה שלא היה מסכים לכך אילו הייתה ניתנת תשובה מלאה וכנה, וקרה מקרה הביטוח בטרם בוטל חוזה הביטוח, יחולו הוראות אלה:\nאם נפגע בעל הפוליסה עקב מקרה הביטוח, ישלם בעל הפוליסה למבטח .9.3.1 פיצוי מוסכם בסכום השווה לפיצוי המגיע לבעל הפוליסה בשל נזק שאינו ;₪  10,000( לחוק הפיצויים, אך לא יותר מ 3)( )א 4 נזק ממון לפי סעיף",
-  "embed_text": "פוליסת ביטוח סחר רכב חובה מגדירה פיצויים מוסכמים במקרים בהם בעל הפוליסה מספק מידע לא מדויק. לדוגמה, אם הנזק הממוני עקב מקרה הביטוח הוא ₪ 10,000, בעל הפוליסה ישלם פיצוי מוסכם. סכומים אלו יכולים להגיע עד ₪ 2,500 לנפגע שאינו בעל הפוליסה.",
-  "payload": "טבלה: דמי ביטוח מופחתים\nThis table details compensation amounts due from the policyholder if they provided incomplete or inaccurate information during the underwriting process, leading to lower premiums. It outlines payments based on injury and damages.\nממדים: Scenario: inaccurate/incomplete disclosure during underwriting, Compensation amounts due from policyholder\n\n, השיב בעל הפוליסה לשאלת חיתום תשובה שלא הייתה מלאה וכנה בעת שניתנה .9.3 ובשל התשובה נקבעו דמי ביטוח נמוכים מדמי הביטוח שהיו נקבעים אילו היה בעל הפוליסה עונה תשובה מלאה וכנה, או שבשל התשובה כאמור הסכים המבטח לכרות את חוזה הביטוח שעה שלא היה מסכים לכך אילו הייתה ניתנת תשובה מלאה וכנה, וקרה מקרה הביטוח בטרם בוטל חוזה הביטוח, יחולו הוראות אלה:\nאם נפגע בעל הפוליסה עקב מקרה הביטוח, ישלם בעל הפוליסה למבטח .9.3.1 פיצוי מוסכם בסכום השווה לפיצוי המגיע לבעל הפוליסה בשל נזק שאינו ;₪  10,000( לחוק הפיצויים, אך לא יותר מ 3)( )א 4 נזק ממון לפי סעיף"
+  "embed_text": "טבלה זו מתייחסת לתנאי פוליסת ביטוח סחר רכב חובה, ומפרטת את הפיצוי המוסכם שעל בעל הפוליסה לשלם למבטח במקרה של תשובה לא מלאה או לא כנה לשאלת חיתום. הפיצוי משולם אם התשובה השפיעה על גובה דמי הביטוח או על הסכמת המבטח לכרות את הפוליסה, וקרה מקרה ביטוח. הנתונים בטבלה כוללים סכומי פיצוי מוסכמים עבור בעל הפוליסה ועבור נפגעים אחרים, בהתאם לנזק שנגרם. סכומי הפיצוי המוסכמים הם ₪ 10,000 ו-₪ 2,500. פוליסת ביטוח סחר רכב חובה מהדורת ספטמבר 2021 מציגה את הפיצויים המוסכמים במקרה של אי-גילוי נאות. This table details financial consequences for incomplete or dishonest answers to underwriting questions. It specifies agreed-upon compensation amounts payable by the policyholder to the insurer in case of a claim, based on the discrepancy in premium or acceptance.",
+  "payload": "טבלה: תשובות חיתום\nThis table details financial consequences for incomplete or dishonest answers to underwriting questions. It specifies agreed-upon compensation amounts payable by the policyholder to the insurer in case of a claim, based on the discrepancy in premium or acceptance.\nממדים: תרחישים של תשובות חיתום לא מלאות/לא כנות, סוג פיצוי / סכום פיצוי\n\n, השיב בעל הפוליסה לשאלת חיתום תשובה שלא הייתה מלאה וכנה בעת שניתנה .9.3 ובשל התשובה נקבעו דמי ביטוח נמוכים מדמי הביטוח שהיו נקבעים אילו היה בעל הפוליסה עונה תשובה מלאה וכנה, או שבשל התשובה כאמור הסכים המבטח לכרות את חוזה הביטוח שעה שלא היה מסכים לכך אילו הייתה ניתנת תשובה מלאה וכנה, וקרה מקרה הביטוח בטרם בוטל חוזה הביטוח, יחולו הוראות אלה:\nאם נפגע בעל הפוליסה עקב מקרה הביטוח, ישלם בעל הפוליסה למבטח .9.3.1 פיצוי מוסכם בסכום השווה לפיצוי המגיע לבעל הפוליסה בשל נזק שאינו ;₪  10,000( לחוק הפיצויים, אך לא יותר מ 3)( )א 4 נזק ממון לפי סעיף"
 }

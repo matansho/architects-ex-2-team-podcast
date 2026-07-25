@@ -2,11 +2,11 @@
   "id": "pdf:long-term-care/files/טופס-הגשת-תביעה-ביטוח-סיעודי.pdf#55",
   "source": "llm",
   "description": {
-    "title": "טופס הגשת תביעה ביטוח סיעודי",
-    "summary": "This table is a claim form for long-term care insurance. It collects details about healthcare providers and institutions where the claimant received services.",
-    "embed_passage": "טופס הגשת תביעה ביטוח סיעודי מבקש פירוט של שמות הרופאים, המכונים, מעבדות או מוסדות מהם קיבלת שירותים לצורך ייעול התהליך. יש לפרט את כל הגורמים הרלוונטיים שטיפלו או מטפלים בך. הטופס נועד לאפשר תיאור מקיף של הטיפול הרפואי שקיבלת.",
-    "row_axis": "Healthcare provider/institution",
-    "column_axis": "Details about the provider/institution (name, etc.)",
+    "title": "שירותים רפואיים",
+    "summary": "This table lists medical facilities, laboratories, and institutions where the claimant received services. It is used to detail healthcare providers for claim processing.",
+    "embed_passage": "טופס זה משמש לרישום שמות המכונים, המעבדות והמוסדות הרפואיים שבהם התקבלו שירותים רפואיים, כחלק מתהליך הגשת תביעה לביטוח סיעודי. המטרה היא לייעל את הטיפול בתביעה על ידי פירוט ספציפי של ספקי השירותים. ניתן לפרט שמות של רופאים, מכונים, מעבדות או מוסדות רפואיים. טופס הגשת תביעה ביטוח סיעודי כולל פרטים על העד/ה, תאריך, חתימה ומספר תעודת זהות. מכונים, מעבדות, מוסדות הם חלק מהמידע הנדרש.",
+    "row_axis": "ספק שירות רפואי (רופא, מכון, מעבדה, מוסד)",
+    "column_axis": "פרטי ספק השירות (שם, תאריך)",
     "units": [],
     "notable_values": [],
     "product_hints": [
@@ -14,6 +14,6 @@
     ]
   },
   "sketch": "ה לצורך ייעול התהליך אפשר לפרט את שמות הרופאים, המכונים, מעבדות או מוסדות\nמכונים, מעבדות, מוסדות מהם קיבלתי שירותים",
-  "embed_text": "טופס הגשת תביעה ביטוח סיעודי מבקש פירוט של שמות הרופאים, המכונים, מעבדות או מוסדות מהם קיבלת שירותים לצורך ייעול התהליך. יש לפרט את כל הגורמים הרלוונטיים שטיפלו או מטפלים בך. הטופס נועד לאפשר תיאור מקיף של הטיפול הרפואי שקיבלת.",
-  "payload": "טבלה: טופס הגשת תביעה ביטוח סיעודי\nThis table is a claim form for long-term care insurance. It collects details about healthcare providers and institutions where the claimant received services.\nממדים: Healthcare provider/institution, Details about the provider/institution (name, etc.)\n\nה לצורך ייעול התהליך אפשר לפרט את שמות הרופאים, המכונים, מעבדות או מוסדות\nמכונים, מעבדות, מוסדות מהם קיבלתי שירותים"
+  "embed_text": "טופס זה משמש לרישום שמות המכונים, המעבדות והמוסדות הרפואיים שבהם התקבלו שירותים רפואיים, כחלק מתהליך הגשת תביעה לביטוח סיעודי. המטרה היא לייעל את הטיפול בתביעה על ידי פירוט ספציפי של ספקי השירותים. ניתן לפרט שמות של רופאים, מכונים, מעבדות או מוסדות רפואיים. טופס הגשת תביעה ביטוח סיעודי כולל פרטים על העד/ה, תאריך, חתימה ומספר תעודת זהות. מכונים, מעבדות, מוסדות הם חלק מהמידע הנדרש. This table lists medical facilities, laboratories, and institutions where the claimant received services. It is used to detail healthcare providers for claim processing.",
+  "payload": "טבלה: שירותים רפואיים\nThis table lists medical facilities, laboratories, and institutions where the claimant received services. It is used to detail healthcare providers for claim processing.\nממדים: ספק שירות רפואי (רופא, מכון, מעבדה, מוסד), פרטי ספק השירות (שם, תאריך)\n\nה לצורך ייעול התהליך אפשר לפרט את שמות הרופאים, המכונים, מעבדות או מוסדות\nמכונים, מעבדות, מוסדות מהם קיבלתי שירותים"
 }

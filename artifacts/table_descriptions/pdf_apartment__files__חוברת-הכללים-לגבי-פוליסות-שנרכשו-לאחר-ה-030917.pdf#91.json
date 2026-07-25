@@ -2,22 +2,24 @@
   "id": "pdf:apartment/files/חוברת-הכללים-לגבי-פוליסות-שנרכשו-לאחר-ה-030917.pdf#91",
   "source": "llm",
   "description": {
-    "title": "מומחים - הראל",
-    "summary": "This table describes the use of experts (e.g., engineers, accountants) by Harel Insurance to investigate and assess claims. It outlines that Harel may appoint experts to determine the nature and extent of damage, but does not guarantee it for every claim.",
-    "embed_passage": "חברת הראל רשאית למנות מומחים מטעמה, כגון מהנדסים, רו״ח או רופאים, לצורך בירור תביעות. תפקיד המומחים הוא לברר את מהות התביעה ולהעריך את גובה הנזק. לדוגמא, חברת הראל עשויה למנות 5 מומחים.",
-    "row_axis": "Types of experts",
-    "column_axis": "Details regarding expert involvement in claims processing",
+    "title": "מומחים - תביעות",
+    "summary": "This table describes the role of experts appointed by Harel Insurance to investigate and assess claims. It outlines that the company may appoint experts like engineers, accountants, and doctors to determine the nature and extent of damage.",
+    "embed_passage": "טבלה זו מתארת את תפקידם של מומחים הממונים על ידי חברת הראל לצורך בירור והערכת תביעות. החברה רשאית למנות מומחים כגון מהנדסים, רו״ח, חוקרים, רופאים ואחרים כדי לבדוק את מהות התביעה ולהעריך את גובה הנזק. בכל מקרה, המבוטח רשאי להיות מיוצג על ידי מומחה מטעמו, אך עלויות אלו לא ישולמו על ידי החברה אלא על פי דין. מומחים, מהנדסים, רו״ח, חוקרים, חוקרי שריפות, רופאים.",
+    "row_axis": "type of expert",
+    "column_axis": "description of role",
     "units": [],
     "notable_values": [
-      "מומחים: מהנדסים, רו״ח, חוקרים",
-      "מספר מומחים לדוגמא: 5"
+      "מומחים: מהנדסים",
+      "מומחים: רו״ח",
+      "מומחים: חוקרים",
+      "מומחים: חוקרי שריפות",
+      "מומחים: רופאים"
     ],
     "product_hints": [
-      "הראל",
-      "פוליסות הראל"
+      "הראל"
     ]
   },
   "sketch": ": .  לידיעתך, לשם יישוב ובירור התביעה, יכול וחברתנו תמנה מומחים מטעמה. לדוגמא 5 .(\" מהנדסים, רו\"ח, חוקרים, חוקרי שריפות, רופאים וכיוצ\"ב )להלן: \"מומחים\nתפקיד המומחים הממונים ע\"י החברה הינו לברר את מהות התביעה ולהעריך גובה הנזק. אין באמור לעיל כדי לקבוע כי חברתנו תמנה בכל תביעה ותביעה מומחים. מינוי מומחים נקבע בהתאם למדיניות החברה ובהתאם לנסיבות האירוע.\n, בכל מקרה הינך רשאי להיות מיוצג או להיוועץ במומחה מטעמך במהלך בירור התביעה אולם עלויות אלו לא ישולמו ע\"י החברה, אלא עפ\"י דין.",
-  "embed_text": "חברת הראל רשאית למנות מומחים מטעמה, כגון מהנדסים, רו״ח או רופאים, לצורך בירור תביעות. תפקיד המומחים הוא לברר את מהות התביעה ולהעריך את גובה הנזק. לדוגמא, חברת הראל עשויה למנות 5 מומחים.",
-  "payload": "טבלה: מומחים - הראל\nThis table describes the use of experts (e.g., engineers, accountants) by Harel Insurance to investigate and assess claims. It outlines that Harel may appoint experts to determine the nature and extent of damage, but does not guarantee it for every claim.\nממדים: Types of experts, Details regarding expert involvement in claims processing\n\n: .  לידיעתך, לשם יישוב ובירור התביעה, יכול וחברתנו תמנה מומחים מטעמה. לדוגמא 5 .(\" מהנדסים, רו\"ח, חוקרים, חוקרי שריפות, רופאים וכיוצ\"ב )להלן: \"מומחים\nתפקיד המומחים הממונים ע\"י החברה הינו לברר את מהות התביעה ולהעריך גובה הנזק. אין באמור לעיל כדי לקבוע כי חברתנו תמנה בכל תביעה ותביעה מומחים. מינוי מומחים נקבע בהתאם למדיניות החברה ובהתאם לנסיבות האירוע.\n, בכל מקרה הינך רשאי להיות מיוצג או להיוועץ במומחה מטעמך במהלך בירור התביעה אולם עלויות אלו לא ישולמו ע\"י החברה, אלא עפ\"י דין."
+  "embed_text": "טבלה זו מתארת את תפקידם של מומחים הממונים על ידי חברת הראל לצורך בירור והערכת תביעות. החברה רשאית למנות מומחים כגון מהנדסים, רו״ח, חוקרים, רופאים ואחרים כדי לבדוק את מהות התביעה ולהעריך את גובה הנזק. בכל מקרה, המבוטח רשאי להיות מיוצג על ידי מומחה מטעמו, אך עלויות אלו לא ישולמו על ידי החברה אלא על פי דין. מומחים, מהנדסים, רו״ח, חוקרים, חוקרי שריפות, רופאים. This table describes the role of experts appointed by Harel Insurance to investigate and assess claims. It outlines that the company may appoint experts like engineers, accountants, and doctors to determine the nature and extent of damage.",
+  "payload": "טבלה: מומחים - תביעות\nThis table describes the role of experts appointed by Harel Insurance to investigate and assess claims. It outlines that the company may appoint experts like engineers, accountants, and doctors to determine the nature and extent of damage.\nממדים: type of expert, description of role\n\n: .  לידיעתך, לשם יישוב ובירור התביעה, יכול וחברתנו תמנה מומחים מטעמה. לדוגמא 5 .(\" מהנדסים, רו\"ח, חוקרים, חוקרי שריפות, רופאים וכיוצ\"ב )להלן: \"מומחים\nתפקיד המומחים הממונים ע\"י החברה הינו לברר את מהות התביעה ולהעריך גובה הנזק. אין באמור לעיל כדי לקבוע כי חברתנו תמנה בכל תביעה ותביעה מומחים. מינוי מומחים נקבע בהתאם למדיניות החברה ובהתאם לנסיבות האירוע.\n, בכל מקרה הינך רשאי להיות מיוצג או להיוועץ במומחה מטעמך במהלך בירור התביעה אולם עלויות אלו לא ישולמו ע\"י החברה, אלא עפ\"י דין."
 }

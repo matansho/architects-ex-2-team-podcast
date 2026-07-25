@@ -2,29 +2,29 @@
   "id": "pdf:business/files/טופס-הצעה-לביטוח-מכלול-למושב.pdf#45",
   "source": "llm",
   "description": {
-    "title": "ביטוח מכלול - אחריות צד שלישי",
-    "summary": "This table details insurance premiums and self-participation amounts for 'Mecholal' third-party liability coverage. It allows looking up costs based on liability limits and the type of damage.",
-    "embed_passage": "ביטוח מכלול מציע כיסוי אחריות כלפי צד שלישי, כאשר גבולות האחריות יכולים להגיע עד 1,000,000 ש\"ח. דמי הביטוח משתנים בהתאם לגבולות הכיסוי, וההשתתפות העצמית יכולה להיות 10,000 ש\"ח או יותר. לדוגמה, עבור נזקי גוף במרעה, דמי הביטוח הם 6,000 ש\"ח.",
-    "row_axis": "Type of damage/liability (e.g., bodily injury, property damage, spraying/fertilization)",
-    "column_axis": "Coverage details (e.g., liability limits, self-participation amount, premium)",
+    "title": "מכלול - אחריות כלפי צד שלישי",
+    "summary": "This table details insurance coverage and premiums for third-party liability under the 'מכלול' policy. It shows the premium (in ₪) based on the number of households and liability limits.",
+    "embed_passage": "טבלה זו מציגה את הכיסויים והדמי ביטוח עבור אחריות כלפי צד שלישי במסגרת פוליסת 'מכלול'. ניתן לראות את גבולות האחריות בש״ח ואת ההשתתפות העצמית הנדרשת. הפוליסה כוללת כיסוי לאחריות חוקית של האגודה או הועד המקומי. גבולות האחריות הם חלק מגבול האחריות הכללי לפרק רביעי. ניתן לבחור בין אפשרויות שונות של השתתפות עצמית. לדוגמה, השתתפות עצמית מזערית של ₪ 10,000, או השתתפות עצמית כללית של ₪ 15,000 מהנזק מינימום 1M%.",
+    "row_axis": "Liability coverage type",
+    "column_axis": "Premium (₪), Self-participation (₪), Liability limits (₪)",
     "units": [
-      "₪",
-      "₪/אירוע",
-      "%"
+      "₪"
     ],
     "notable_values": [
-      "Liability limit: 600,000 ₪",
-      "Self-participation: 10,000 ₪",
-      "Premium for grazing bodily injury: 6,000 ₪",
-      "Liability limit: 1,000,000 ₪",
-      "Self-participation for cash: 5,000 ₪"
+      "מספר בתי אב: 100",
+      "גבולות אחריות: 600,000",
+      "גבולות אחריות: 1,000,000",
+      "השתתפות עצמית מזערית: ₪ 10,000",
+      "השתתפות עצמית כללית: ₪ 15,000",
+      "נזקי גוף: ₪ 6,000",
+      "נזקי רכוש: ₪ 10,500",
+      "נזקי ריסוס/דישון: ₪ 7,500"
     ],
     "product_hints": [
-      "מכלול",
-      "ביטוח מכלול"
+      "מכלול"
     ]
   },
   "sketch": "1,000\n600,000\n1,500\n1,000,000\n₪ 10,000 :\nהשתתפות עצמית מזערית\nגבולות האחריות הנ\"ל )של ההרחבות הנוספות השונות( הם חלק מגבול האחריות הכללי לפרק רביעי )צד שלישי( ולא בנוסף לו. השתתפויות ₪  15,000 מהנזק מינימום 1M% - , בקר במרעה ₪  6,000 לנזקי גוף, בגין יחידות אירוח ₪  10,500 , לנזקי רכוש ₪  7,500 : עצמיות כלליות בפרק רביעי ₪  15,000 מהנזק מינימום 1M% : , בגין נזקי ריסוס/דישון ₪  25,000 , לגבי מזבלות/אתרי פסולת ₪  25,000 מהנזק מינימום 15% ומאירוע שני ואילך .₪  25,000 מהנזק מינימום 15% ומאירוע שני ואילך\nרק באחת מהאפשרויות הבאות( X )נא לסמן לא",
-  "embed_text": "ביטוח מכלול מציע כיסוי אחריות כלפי צד שלישי, כאשר גבולות האחריות יכולים להגיע עד 1,000,000 ש\"ח. דמי הביטוח משתנים בהתאם לגבולות הכיסוי, וההשתתפות העצמית יכולה להיות 10,000 ש\"ח או יותר. לדוגמה, עבור נזקי גוף במרעה, דמי הביטוח הם 6,000 ש\"ח.",
-  "payload": "טבלה: ביטוח מכלול - אחריות צד שלישי\nThis table details insurance premiums and self-participation amounts for 'Mecholal' third-party liability coverage. It allows looking up costs based on liability limits and the type of damage.\nממדים: Type of damage/liability (e.g., bodily injury, property damage, spraying/fertilization), Coverage details (e.g., liability limits, self-participation amount, premium)\n\n1,000\n600,000\n1,500\n1,000,000\n₪ 10,000 :\nהשתתפות עצמית מזערית\nגבולות האחריות הנ\"ל )של ההרחבות הנוספות השונות( הם חלק מגבול האחריות הכללי לפרק רביעי )צד שלישי( ולא בנוסף לו. השתתפויות ₪  15,000 מהנזק מינימום 1M% - , בקר במרעה ₪  6,000 לנזקי גוף, בגין יחידות אירוח ₪  10,500 , לנזקי רכוש ₪  7,500 : עצמיות כלליות בפרק רביעי ₪  15,000 מהנזק מינימום 1M% : , בגין נזקי ריסוס/דישון ₪  25,000 , לגבי מזבלות/אתרי פסולת ₪  25,000 מהנזק מינימום 15% ומאירוע שני ואילך .₪  25,000 מהנזק מינימום 15% ומאירוע שני ואילך\nרק באחת מהאפשרויות הבאות( X )נא לסמן לא"
+  "embed_text": "טבלה זו מציגה את הכיסויים והדמי ביטוח עבור אחריות כלפי צד שלישי במסגרת פוליסת 'מכלול'. ניתן לראות את גבולות האחריות בש״ח ואת ההשתתפות העצמית הנדרשת. הפוליסה כוללת כיסוי לאחריות חוקית של האגודה או הועד המקומי. גבולות האחריות הם חלק מגבול האחריות הכללי לפרק רביעי. ניתן לבחור בין אפשרויות שונות של השתתפות עצמית. לדוגמה, השתתפות עצמית מזערית של ₪ 10,000, או השתתפות עצמית כללית של ₪ 15,000 מהנזק מינימום 1M%. This table details insurance coverage and premiums for third-party liability under the 'מכלול' policy. It shows the premium (in ₪) based on the number of households and liability limits. בין הערכים בטבלה: מספר בתי אב: 100; גבולות אחריות: 600,000; גבולות אחריות: 1,000,000; נזקי גוף: ₪ 6,000; נזקי רכוש: ₪ 10,500; נזקי ריסוס/דישון: ₪ 7,500.",
+  "payload": "טבלה: מכלול - אחריות כלפי צד שלישי\nThis table details insurance coverage and premiums for third-party liability under the 'מכלול' policy. It shows the premium (in ₪) based on the number of households and liability limits.\nממדים: Liability coverage type, Premium (₪), Self-participation (₪), Liability limits (₪)\n\n1,000\n600,000\n1,500\n1,000,000\n₪ 10,000 :\nהשתתפות עצמית מזערית\nגבולות האחריות הנ\"ל )של ההרחבות הנוספות השונות( הם חלק מגבול האחריות הכללי לפרק רביעי )צד שלישי( ולא בנוסף לו. השתתפויות ₪  15,000 מהנזק מינימום 1M% - , בקר במרעה ₪  6,000 לנזקי גוף, בגין יחידות אירוח ₪  10,500 , לנזקי רכוש ₪  7,500 : עצמיות כלליות בפרק רביעי ₪  15,000 מהנזק מינימום 1M% : , בגין נזקי ריסוס/דישון ₪  25,000 , לגבי מזבלות/אתרי פסולת ₪  25,000 מהנזק מינימום 15% ומאירוע שני ואילך .₪  25,000 מהנזק מינימום 15% ומאירוע שני ואילך\nרק באחת מהאפשרויות הבאות( X )נא לסמן לא"
 }

@@ -2,24 +2,21 @@
   "id": "pdf:health/files/טופס-בקשה-לאישור-ותיאום-ניתוח.pdf#39",
   "source": "llm",
   "description": {
-    "title": "טופס ניתוח",
-    "summary": "This table is a surgical request form completed by a doctor. It collects details about the recommended surgery, the doctor's contact information, and any additional notes.",
-    "embed_passage": "טופס זה משמש לתיאור ניתוח מומלץ על ידי רופא מנתח. הטופס כולל פרטים על הניתוח המומלץ, תאריך ביצוע הבדיקות, ופרטי הרופא המנתח, כגון רחוב ומיקוד. לדוגמה, ניתן למצוא כאן מידע על ניתוח מומלץ בבית חולים מסוים.",
-    "row_axis": "Surgical request form",
-    "column_axis": "Doctor's details, surgery details, additional notes",
+    "title": "טופס בקשה לאישור ניתוח - חלק ג'",
+    "summary": "This table is part of a surgical approval request form, completed by the surgeon. It collects details about the recommended surgery, the surgeon's contact information, and any additional notes.",
+    "embed_passage": "טופס זה הוא חלק מבקשה לאישור ניתוח, ומיועד למילוי על ידי הרופא המנתח. הטופס אוסף פרטים על הניתוח המומלץ, תאריך ביצוע הבדיקות והטיפולים המומלצים, ופרטי התקשרות עם הרופא. חשוב לציין שטופס זה אינו מהווה התחייבות לתשלום הניתוח. פרטים נדרשים כוללים שם הניתוח המומלץ, בית חולים מומלץ, רחוב, מספר בית, יישוב, מיקוד, מספר פקס, הערות נוספות. הרופא פרטי א.",
+    "row_axis": "surgical procedure request",
+    "column_axis": "surgeon details, recommended procedure details, additional notes",
     "units": [],
     "notable_values": [
-      "פקס מספר: missing",
-      "מיקוד: missing",
-      "יישוב: missing",
-      "בית מספר: missing",
-      "רחוב: missing"
+      "טופס זה אינו מהווה התחייבות לתשלום הניתוח",
+      "הרופא פרטי א"
     ],
     "product_hints": [
-      "טופס ניתוח"
+      "אישור ניתוח"
     ]
   },
   "sketch": "חלק ג' - למילוי בידי רופא המנתח\nטופס זה אינו מהווה התחייבות לתשלום הניתוח ו/או הכרה בזכאות המבוטח לתשלום כלשהו.\n,,,,הרופא פרטי א\nפקס מספר,מיקוד,יישוב,בית מספר,רחוב\nבבית-חולים:.,המומלץ הניתוח על פרטים ב.המומלץ: הניתוח שם.על-ידי: מומלצים וטיפולים בדיקות..בתאריך: לערוך מומלץ הניתוח את\nנוספות הערות ג\n:\nחותמת וחתימת הרופא",
-  "embed_text": "טופס זה משמש לתיאור ניתוח מומלץ על ידי רופא מנתח. הטופס כולל פרטים על הניתוח המומלץ, תאריך ביצוע הבדיקות, ופרטי הרופא המנתח, כגון רחוב ומיקוד. לדוגמה, ניתן למצוא כאן מידע על ניתוח מומלץ בבית חולים מסוים.",
-  "payload": "טבלה: טופס ניתוח\nThis table is a surgical request form completed by a doctor. It collects details about the recommended surgery, the doctor's contact information, and any additional notes.\nממדים: Surgical request form, Doctor's details, surgery details, additional notes\n\nחלק ג' - למילוי בידי רופא המנתח\nטופס זה אינו מהווה התחייבות לתשלום הניתוח ו/או הכרה בזכאות המבוטח לתשלום כלשהו.\n,,,,הרופא פרטי א\nפקס מספר,מיקוד,יישוב,בית מספר,רחוב\nבבית-חולים:.,המומלץ הניתוח על פרטים ב.המומלץ: הניתוח שם.על-ידי: מומלצים וטיפולים בדיקות..בתאריך: לערוך מומלץ הניתוח את\nנוספות הערות ג\n:\nחותמת וחתימת הרופא"
+  "embed_text": "טופס זה הוא חלק מבקשה לאישור ניתוח, ומיועד למילוי על ידי הרופא המנתח. הטופס אוסף פרטים על הניתוח המומלץ, תאריך ביצוע הבדיקות והטיפולים המומלצים, ופרטי התקשרות עם הרופא. חשוב לציין שטופס זה אינו מהווה התחייבות לתשלום הניתוח. פרטים נדרשים כוללים שם הניתוח המומלץ, בית חולים מומלץ, רחוב, מספר בית, יישוב, מיקוד, מספר פקס, הערות נוספות. הרופא פרטי א. This table is part of a surgical approval request form, completed by the surgeon. It collects details about the recommended surgery, the surgeon's contact information, and any additional notes.",
+  "payload": "טבלה: טופס בקשה לאישור ניתוח - חלק ג'\nThis table is part of a surgical approval request form, completed by the surgeon. It collects details about the recommended surgery, the surgeon's contact information, and any additional notes.\nממדים: surgical procedure request, surgeon details, recommended procedure details, additional notes\n\nחלק ג' - למילוי בידי רופא המנתח\nטופס זה אינו מהווה התחייבות לתשלום הניתוח ו/או הכרה בזכאות המבוטח לתשלום כלשהו.\n,,,,הרופא פרטי א\nפקס מספר,מיקוד,יישוב,בית מספר,רחוב\nבבית-חולים:.,המומלץ הניתוח על פרטים ב.המומלץ: הניתוח שם.על-ידי: מומלצים וטיפולים בדיקות..בתאריך: לערוך מומלץ הניתוח את\nנוספות הערות ג\n:\nחותמת וחתימת הרופא"
 }

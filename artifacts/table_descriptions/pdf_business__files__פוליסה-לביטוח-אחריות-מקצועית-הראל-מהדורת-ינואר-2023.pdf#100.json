@@ -2,23 +2,23 @@
   "id": "pdf:business/files/פוליסה-לביטוח-אחריות-מקצועית-הראל-מהדורת-ינואר-2023.pdf#100",
   "source": "llm",
   "description": {
-    "title": "פטור מחבות בהראל",
-    "summary": "This table outlines conditions under which Harel insurance is exempt from liability. It details scenarios related to intentional acts, prevention of investigation, and failure to mitigate damages.",
-    "embed_passage": "פוליסת ביטוח אחריות מקצועית של הראל מפרטת מקרים בהם החבות של המבטח מוגבלת או מבוטלת. לדוגמה, אם נגרם מקרה הביטוח על ידי המבוטח במתכוון, המבטח פטור מחובתו. כמו כן, אם המבוטח מונע מהמבטח את בירור חבותו, ייתכן שהמבטח לא יהיה חייב בתגמולי ביטוח.",
-    "row_axis": "Exemption conditions",
-    "column_axis": "Legal clauses related to liability",
+    "title": "פטור מחבות",
+    "summary": "This table outlines conditions under which the insurer (הראל) is exempt from liability according to the professional liability insurance policy. It details scenarios related to intentional acts, prevention of investigation, and failure to mitigate damages.",
+    "embed_passage": "טבלה זו מתארת פטורים מחבות בפוליסת ביטוח אחריות מקצועית של הראל, כפי שפורסמה בינואר 2023. היא מפרטת תרחישים בהם המבטח פטור מחובה לתשלום, כגון מעשה מכוון של המבוטח, מניעת בירור חבות, או אי נקיטת אמצעים סבירים להקטנת נזק. ניתן להשתמש בטבלה זו כדי לבדוק את תנאי הפטורים השונים הקיימים בפוליסה. הראל, פטור מחובתו, מניעת בירור חבות, אמצעים סבירים, נזק, תגמולי ביטוח.",
+    "row_axis": "conditions for exemption from liability",
+    "column_axis": "exemption clause description",
     "units": [],
     "notable_values": [
-      "clause: 5.9.6 - Intentional act by insured",
-      "clause: 5.9.7 - Prevention of investigation",
-      "clause: 5.9.8 - Failure to mitigate damages"
+      "intentional act by the insured: exempt from duty",
+      "intentional prevention of investigation: limited insurance compensation",
+      "failure to mitigate damage: limited insurance compensation"
     ],
     "product_hints": [
       "ביטוח אחריות מקצועית הראל",
-      "הראל"
+      "פוליסה לביטוח אחריות מקצועית הראל"
     ]
   },
   "sketch": "נגרם מקרה הביטוח על ידי המבוטח במתכוון, פטור המבטח מחובתו. .5.9.6\nעשה המבוטח במתכוון דבר שהיה בו כדי למנוע מהמבטח את בירור חבותו .5.9.7 או להכביד עליו, אין המבטח חייב בתגמולי ביטוח, אלא במידה שהיה חייב בהם, אילו לא נעשה אותו דבר.\nאין המבטח חייב בתגמולי ביטוח בגין נזק שהמבוטח יכול היה למנוע, או .5.9.8 להקטין בקרות מקרה הביטוח או לאחר מכן, בנקיטת אמצעים סבירים או אמצעים שהמבטח הורה לו לנקוט.",
-  "embed_text": "פוליסת ביטוח אחריות מקצועית של הראל מפרטת מקרים בהם החבות של המבטח מוגבלת או מבוטלת. לדוגמה, אם נגרם מקרה הביטוח על ידי המבוטח במתכוון, המבטח פטור מחובתו. כמו כן, אם המבוטח מונע מהמבטח את בירור חבותו, ייתכן שהמבטח לא יהיה חייב בתגמולי ביטוח.",
-  "payload": "טבלה: פטור מחבות בהראל\nThis table outlines conditions under which Harel insurance is exempt from liability. It details scenarios related to intentional acts, prevention of investigation, and failure to mitigate damages.\nממדים: Exemption conditions, Legal clauses related to liability\n\nנגרם מקרה הביטוח על ידי המבוטח במתכוון, פטור המבטח מחובתו. .5.9.6\nעשה המבוטח במתכוון דבר שהיה בו כדי למנוע מהמבטח את בירור חבותו .5.9.7 או להכביד עליו, אין המבטח חייב בתגמולי ביטוח, אלא במידה שהיה חייב בהם, אילו לא נעשה אותו דבר.\nאין המבטח חייב בתגמולי ביטוח בגין נזק שהמבוטח יכול היה למנוע, או .5.9.8 להקטין בקרות מקרה הביטוח או לאחר מכן, בנקיטת אמצעים סבירים או אמצעים שהמבטח הורה לו לנקוט."
+  "embed_text": "טבלה זו מתארת פטורים מחבות בפוליסת ביטוח אחריות מקצועית של הראל, כפי שפורסמה בינואר 2023. היא מפרטת תרחישים בהם המבטח פטור מחובה לתשלום, כגון מעשה מכוון של המבוטח, מניעת בירור חבות, או אי נקיטת אמצעים סבירים להקטנת נזק. ניתן להשתמש בטבלה זו כדי לבדוק את תנאי הפטורים השונים הקיימים בפוליסה. הראל, פטור מחובתו, מניעת בירור חבות, אמצעים סבירים, נזק, תגמולי ביטוח. This table outlines conditions under which the insurer (הראל) is exempt from liability according to the professional liability insurance policy. It details scenarios related to intentional acts, prevention of investigation, and failure to mitigate damages. בין הערכים בטבלה: intentional act by the insured: exempt from duty; intentional prevention of investigation: limited insurance compensation; failure to mitigate damage: limited ins…",
+  "payload": "טבלה: פטור מחבות\nThis table outlines conditions under which the insurer (הראל) is exempt from liability according to the professional liability insurance policy. It details scenarios related to intentional acts, prevention of investigation, and failure to mitigate damages.\nממדים: conditions for exemption from liability, exemption clause description\n\nנגרם מקרה הביטוח על ידי המבוטח במתכוון, פטור המבטח מחובתו. .5.9.6\nעשה המבוטח במתכוון דבר שהיה בו כדי למנוע מהמבטח את בירור חבותו .5.9.7 או להכביד עליו, אין המבטח חייב בתגמולי ביטוח, אלא במידה שהיה חייב בהם, אילו לא נעשה אותו דבר.\nאין המבטח חייב בתגמולי ביטוח בגין נזק שהמבוטח יכול היה למנוע, או .5.9.8 להקטין בקרות מקרה הביטוח או לאחר מכן, בנקיטת אמצעים סבירים או אמצעים שהמבטח הורה לו לנקוט."
 }

@@ -2,25 +2,23 @@
   "id": "pdf:business/files/פוליסה-משולבת-לביטוח-אש-מורחב-ואובדן-תוצאתי-הראל-ביט-ינואר-2023.pdf#144",
   "source": "llm",
   "description": {
-    "title": "הרחבת כיסוי - מניעת גישה",
-    "summary": "This table details coverage extension for business interruption due to physical damage to a neighbor's property preventing access to the insured's property. It outlines the maximum liability limit, which is capped at ₪ 8,000,000 or 15% of the insurance amount.",
-    "embed_passage": "פוליסת הראל ביטוח מציעה הרחבה לכיסוי מניעת גישה לחצרי המבוטח עקב נזק פיזי לרכוש השכן. גובה הפיצוי מוגבל לסכום הביטוח או עד ₪ 8,000,000, הנמוך מביניהם, אך לא יעלה על 15% מסכום הביטוח. הכיסוי חל כאשר נמנעת הגישה או השימוש ברכוש המבוטח.",
-    "row_axis": "Coverage extension scenarios (e.g., access prevention)",
-    "column_axis": "Coverage details (e.g., liability limit)",
+    "title": "מניעת גישה",
+    "summary": "This table details coverage for business interruption due to physical damage to a neighbor's property preventing access to the insured's property. It specifies the limit of liability for this extension.",
+    "embed_passage": "טבלה זו מתארת כיסוי להפרעה או הפסקה בעסקו של המבוטח עקב נזק פיזי לרכוש השכן, המונע גישה לחצרי המבוטח. הכיסוי מורחב על פי פרק זה, כאשר האחריות של המבטח מוגבלת לסכום הביטוח או ל-15% ממנו, עד לסך של ₪ 8,000,000. מניעת גישה, סכום ביטוח, ₪ 8,000,000, 15%.",
+    "row_axis": "Coverage extension details",
+    "column_axis": "Coverage limits and conditions",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "limit: ₪ 8,000,000",
-      "percentage: 15%"
+      "סכום הביטוח: ₪ 8,000,000",
+      "אחריות המבטח: עד 15%"
     ],
     "product_hints": [
-      "הראל ביטוח",
-      "ביטוח אש מורחב",
-      "אובדן תוצאתי"
+      "פוליסה משולבת לביטוח אש מורחב ואובדן תוצאתי הראל"
     ]
   },
   "sketch": "מניעת גישה .10.4\n, הביטוח על פי פרק זה מורחב לכסות הפרעה או הפסקה במהלך עסקו של המבוטח ' עקב נזק פיזי לרכוש השכן לחצרי המבוטח, שנגרם על ידי סיכון מכוסה בפרק א של הפוליסה ואשר כתוצאה ממנו תימנע הגישה אל חצרי המבוטח או תימנע יכולת השימוש ברכוש המבוטח.\nאלא אם צוין אחרת ברשימה, אחריותו של המבטח על פי הרחבה זו מוגבלת עד .₪  8,000,000מסכום הביטוח אך לא יותר מ 15%לסכום השווה ל",
-  "embed_text": "פוליסת הראל ביטוח מציעה הרחבה לכיסוי מניעת גישה לחצרי המבוטח עקב נזק פיזי לרכוש השכן. גובה הפיצוי מוגבל לסכום הביטוח או עד ₪ 8,000,000, הנמוך מביניהם, אך לא יעלה על 15% מסכום הביטוח. הכיסוי חל כאשר נמנעת הגישה או השימוש ברכוש המבוטח.",
-  "payload": "טבלה: הרחבת כיסוי - מניעת גישה\nThis table details coverage extension for business interruption due to physical damage to a neighbor's property preventing access to the insured's property. It outlines the maximum liability limit, which is capped at ₪ 8,000,000 or 15% of the insurance amount.\nממדים: Coverage extension scenarios (e.g., access prevention), Coverage details (e.g., liability limit)\n\nמניעת גישה .10.4\n, הביטוח על פי פרק זה מורחב לכסות הפרעה או הפסקה במהלך עסקו של המבוטח ' עקב נזק פיזי לרכוש השכן לחצרי המבוטח, שנגרם על ידי סיכון מכוסה בפרק א של הפוליסה ואשר כתוצאה ממנו תימנע הגישה אל חצרי המבוטח או תימנע יכולת השימוש ברכוש המבוטח.\nאלא אם צוין אחרת ברשימה, אחריותו של המבטח על פי הרחבה זו מוגבלת עד .₪  8,000,000מסכום הביטוח אך לא יותר מ 15%לסכום השווה ל"
+  "embed_text": "טבלה זו מתארת כיסוי להפרעה או הפסקה בעסקו של המבוטח עקב נזק פיזי לרכוש השכן, המונע גישה לחצרי המבוטח. הכיסוי מורחב על פי פרק זה, כאשר האחריות של המבטח מוגבלת לסכום הביטוח או ל-15% ממנו, עד לסך של ₪ 8,000,000. מניעת גישה, סכום ביטוח, ₪ 8,000,000, 15%. This table details coverage for business interruption due to physical damage to a neighbor's property preventing access to the insured's property. It specifies the limit of liability for this extension. בין הערכים בטבלה: אחריות המבטח: עד 15%.",
+  "payload": "טבלה: מניעת גישה\nThis table details coverage for business interruption due to physical damage to a neighbor's property preventing access to the insured's property. It specifies the limit of liability for this extension.\nממדים: Coverage extension details, Coverage limits and conditions\n\nמניעת גישה .10.4\n, הביטוח על פי פרק זה מורחב לכסות הפרעה או הפסקה במהלך עסקו של המבוטח ' עקב נזק פיזי לרכוש השכן לחצרי המבוטח, שנגרם על ידי סיכון מכוסה בפרק א של הפוליסה ואשר כתוצאה ממנו תימנע הגישה אל חצרי המבוטח או תימנע יכולת השימוש ברכוש המבוטח.\nאלא אם צוין אחרת ברשימה, אחריותו של המבטח על פי הרחבה זו מוגבלת עד .₪  8,000,000מסכום הביטוח אך לא יותר מ 15%לסכום השווה ל"
 }

@@ -2,26 +2,24 @@
   "id": "pdf:business/files/ביטוח-שיר-לעסק-ביטוח-לבית-העסק-מבית-שירביט-מהדורת-אפריל-2021.pdf#99",
   "source": "llm",
   "description": {
-    "title": "סכומי ביטוח ומלאי",
-    "summary": "This table details insurance amounts and coverage for business property and inventory. It's used to look up the relationship between insured amount, actual value, and potential reimbursement rates.",
-    "embed_passage": "ביטוח שיר לעסק מציע כיסוי לנזקים לרכוש העסק והמלאי. במקרה של נזק מכוסה, תגמולי הביטוח ביחס למלאי לא יעלו על 0.5 מסכום הביטוח הנקוב. אם סכום הביטוח (לדוגמה, 0.6) נמוך מערך הרכוש, חבות המבטח תפחת בהתאם.",
-    "row_axis": "Insurance coverage condition/scenario (e.g., insured amount vs. actual value)",
-    "column_axis": "Insurance amount ratio/reimbursement rate",
-    "units": [
-      "%",
-      "סכום הביטוח"
-    ],
+    "title": "סכומי ביטוח ממוצעים",
+    "summary": "This table details insurance amounts related to business property, specifically concerning inventory and property value. It outlines how benefits are adjusted based on the relationship between the insured amount and the actual value of the property.",
+    "embed_passage": "טבלה זו מפרטת סכומי ביטוח הקשורים לרכוש עסקי, במיוחד בנוגע למלאי ושווי הנכס. היא מתארת כיצד התגמולים מותאמים בהתבסס על היחס בין סכום הביטוח לערך בפועל של הרכוש. במקרה של נזק מכוסה, המבטח ישא בהוצאות סבירות להצלה ומנע. ביטוח שיר לעסק מבית שירביט מספק כיסוי במקרה של איום על המבנה המבוטח. אם סכום הביטוח הנקוב ברשימה בגין הרכוש המבוטח יפחת מערכו, חבות המבטח תפחת בשיעור היחס בין ערכו של הרכוש לסכום הביטוח. 0.4, 0.5, 0.6 הם שיעורי יחס לדוגמה.",
+    "row_axis": "תנאים לגבי סכום הביטוח ביחס לשווי הנכוש/מלאי",
+    "column_axis": "שיעור/תנאי",
+    "units": [],
     "notable_values": [
-      "ratio: 0.4",
-      "ratio: 0.5",
-      "ratio: 0.6",
-      "maximum reimbursement: 50%"
+      "סכום הביטוח הממוצע: 0.4",
+      "הפרש מוחזר למבוטח: 50%",
+      "תגמולי ביטוח מקסימליים: 0.5",
+      "יחס בין ערך הרכוש לסכום הביטוח: 0.6"
     ],
     "product_hints": [
-      "ביטוח שיר לעסק"
+      "ביטוח שיר לעסק",
+      "שירביט"
     ]
   },
   "sketch": "יהיו \" \"סכום הביטוח הממוצע במידה ודמי הביטוח שיחושבו בהתאם ל 1 0.4 , נמוכים מדמי הביטוח הארעיים המצוינים ברשימה ואשר שולמו בפועל 50% בתנאי  שהסכום  המוחזר  לא  יעלה  על , יוחזר  ההפרש  למבוטח . מדמי הביטוח ששולמו בפועל בגין המלאי\nבכל  מקרה  לא  יעלו  תגמולי  הביטוח  על  סכום  הביטוח  ביחס  למלאי 1 0.5 . הנקוב ברשימה\nאם  בשעת  קרות  מקרה  ביטוח,  סכום  הביטוח  הנקוב  ברשימה  בגין 1 0.6 , הרכוש המבוטח הכפוף לתנאים אלה, יפחת מערכו של הרכוש המבוטח תפחת חבות המבטח בשיעור היחס שבין ערכו של הרכוש המבוטח לבין . סכום הביטוח",
-  "embed_text": "ביטוח שיר לעסק מציע כיסוי לנזקים לרכוש העסק והמלאי. במקרה של נזק מכוסה, תגמולי הביטוח ביחס למלאי לא יעלו על 0.5 מסכום הביטוח הנקוב. אם סכום הביטוח (לדוגמה, 0.6) נמוך מערך הרכוש, חבות המבטח תפחת בהתאם.",
-  "payload": "טבלה: סכומי ביטוח ומלאי\nThis table details insurance amounts and coverage for business property and inventory. It's used to look up the relationship between insured amount, actual value, and potential reimbursement rates.\nממדים: Insurance coverage condition/scenario (e.g., insured amount vs. actual value), Insurance amount ratio/reimbursement rate\n\nיהיו \" \"סכום הביטוח הממוצע במידה ודמי הביטוח שיחושבו בהתאם ל 1 0.4 , נמוכים מדמי הביטוח הארעיים המצוינים ברשימה ואשר שולמו בפועל 50% בתנאי  שהסכום  המוחזר  לא  יעלה  על , יוחזר  ההפרש  למבוטח . מדמי הביטוח ששולמו בפועל בגין המלאי\nבכל  מקרה  לא  יעלו  תגמולי  הביטוח  על  סכום  הביטוח  ביחס  למלאי 1 0.5 . הנקוב ברשימה\nאם  בשעת  קרות  מקרה  ביטוח,  סכום  הביטוח  הנקוב  ברשימה  בגין 1 0.6 , הרכוש המבוטח הכפוף לתנאים אלה, יפחת מערכו של הרכוש המבוטח תפחת חבות המבטח בשיעור היחס שבין ערכו של הרכוש המבוטח לבין . סכום הביטוח"
+  "embed_text": "טבלה זו מפרטת סכומי ביטוח הקשורים לרכוש עסקי, במיוחד בנוגע למלאי ושווי הנכס. היא מתארת כיצד התגמולים מותאמים בהתבסס על היחס בין סכום הביטוח לערך בפועל של הרכוש. במקרה של נזק מכוסה, המבטח ישא בהוצאות סבירות להצלה ומנע. ביטוח שיר לעסק מבית שירביט מספק כיסוי במקרה של איום על המבנה המבוטח. אם סכום הביטוח הנקוב ברשימה בגין הרכוש המבוטח יפחת מערכו, חבות המבטח תפחת בשיעור היחס בין ערכו של הרכוש לסכום הביטוח. 0.4, 0.5, 0.6 הם שיעורי יחס לדוגמה. This table details insurance amounts related to business property, specifically concerning inventory and property value. It outlines how benefits are adjusted based on the relationship between the insured amount and the actual value of the property. בין הערכים בטבלה: הפרש מוחזר למבוטח: 50%.",
+  "payload": "טבלה: סכומי ביטוח ממוצעים\nThis table details insurance amounts related to business property, specifically concerning inventory and property value. It outlines how benefits are adjusted based on the relationship between the insured amount and the actual value of the property.\nממדים: תנאים לגבי סכום הביטוח ביחס לשווי הנכוש/מלאי, שיעור/תנאי\n\nיהיו \" \"סכום הביטוח הממוצע במידה ודמי הביטוח שיחושבו בהתאם ל 1 0.4 , נמוכים מדמי הביטוח הארעיים המצוינים ברשימה ואשר שולמו בפועל 50% בתנאי  שהסכום  המוחזר  לא  יעלה  על , יוחזר  ההפרש  למבוטח . מדמי הביטוח ששולמו בפועל בגין המלאי\nבכל  מקרה  לא  יעלו  תגמולי  הביטוח  על  סכום  הביטוח  ביחס  למלאי 1 0.5 . הנקוב ברשימה\nאם  בשעת  קרות  מקרה  ביטוח,  סכום  הביטוח  הנקוב  ברשימה  בגין 1 0.6 , הרכוש המבוטח הכפוף לתנאים אלה, יפחת מערכו של הרכוש המבוטח תפחת חבות המבטח בשיעור היחס שבין ערכו של הרכוש המבוטח לבין . סכום הביטוח"
 }

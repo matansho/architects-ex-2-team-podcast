@@ -2,11 +2,11 @@
   "id": "pdf:business/files/פוליסה-לביטוח-ציוד-אלקטרוני-הראל-ביט-ינואר-2023.pdf#30",
   "source": "llm",
   "description": {
-    "title": "הרחבת כיסוי - נזק לרכוש סמוך",
-    "summary": "This table details coverage extensions for damage to property near the insured's property. It outlines the maximum liability amount for such incidents, which is capped at ₪60,000.",
-    "embed_passage": "פוליסת הראל ביטוח ציוד אלקטרוני מרחיבה את הכיסוי לאובדן או נזק פיזי לרכוש אחר של המבוטח הנמצא בחצריו, בתנאי שהנזק נגרם כתוצאה ישירה מנזק לרכוש המבוטח. אחריות המבטח מוגבלת לסך של 60,000 ש״ח, אלא אם צוין אחרת. הכיסוי חל על נזק ראשון שאינו כפוף לתנאי 'ביטוח חסר'.",
-    "row_axis": "types of coverage extensions",
-    "column_axis": "liability limits",
+    "title": "נזק לרכוש סמוך",
+    "summary": "This table details coverage for damage to property near the insured's property. It outlines the conditions and limits of liability for such incidents.",
+    "embed_passage": "טבלה זו מתארת את הכיסוי לנזק לרכוש סמוך לרכוש המבוטח, כחלק מפוליסת ביטוח ציוד אלקטרוני הראל. ניתן לבדוק את סכומי הכיסוי המרביים עבור נזק לרכוש סמוך, בהתאם לתנאים המפורטים. הרחבה זו מכסה אבדן או נזק פיזי לרכוש אחר של המבוטח הנמצא בחצרי המבוטח בסמוך לרכוש המבוטח. סכום הכיסוי מוגבל ל-60,000 ש״ח, אלא אם צוין אחרת ברשימה. הראל ביטוח מציעה פתרונות ביטוח מקיפים לציוד אלקטרוני.",
+    "row_axis": "types of adjacent property damage",
+    "column_axis": "coverage details (limits, conditions)",
     "units": [
       "₪"
     ],
@@ -14,10 +14,10 @@
       "limit: 60,000 ₪"
     ],
     "product_hints": [
-      "הראל ביטוח ציוד אלקטרוני"
+      "הראל"
     ]
   },
   "sketch": "נזק לרכוש סמוך .4.5\nהביטוח על פי פרק זה מורחב לכסות אבדן או נזק פיזי, פתאומי ובלתי צפוי שאירע לרכוש אחר של המבוטח )אף אם אינו נכלל ברשימת הרכוש המבוטח( הנמצא בחצרי המבוטח בסמוך לרכוש המבוטח על פי הפוליסה, בתנאי שהנזק נגרם כתוצאה ישירה ממקרה ביטוח שאירע לרכוש המבוטח.\nאחריות המבטח על פי הרחבה זו מוגבלת לסך של , אלא אם צוין אחרת ברשימה .₪  60,000",
-  "embed_text": "פוליסת הראל ביטוח ציוד אלקטרוני מרחיבה את הכיסוי לאובדן או נזק פיזי לרכוש אחר של המבוטח הנמצא בחצריו, בתנאי שהנזק נגרם כתוצאה ישירה מנזק לרכוש המבוטח. אחריות המבטח מוגבלת לסך של 60,000 ש״ח, אלא אם צוין אחרת. הכיסוי חל על נזק ראשון שאינו כפוף לתנאי 'ביטוח חסר'.",
-  "payload": "טבלה: הרחבת כיסוי - נזק לרכוש סמוך\nThis table details coverage extensions for damage to property near the insured's property. It outlines the maximum liability amount for such incidents, which is capped at ₪60,000.\nממדים: types of coverage extensions, liability limits\n\nנזק לרכוש סמוך .4.5\nהביטוח על פי פרק זה מורחב לכסות אבדן או נזק פיזי, פתאומי ובלתי צפוי שאירע לרכוש אחר של המבוטח )אף אם אינו נכלל ברשימת הרכוש המבוטח( הנמצא בחצרי המבוטח בסמוך לרכוש המבוטח על פי הפוליסה, בתנאי שהנזק נגרם כתוצאה ישירה ממקרה ביטוח שאירע לרכוש המבוטח.\nאחריות המבטח על פי הרחבה זו מוגבלת לסך של , אלא אם צוין אחרת ברשימה .₪  60,000"
+  "embed_text": "טבלה זו מתארת את הכיסוי לנזק לרכוש סמוך לרכוש המבוטח, כחלק מפוליסת ביטוח ציוד אלקטרוני הראל. ניתן לבדוק את סכומי הכיסוי המרביים עבור נזק לרכוש סמוך, בהתאם לתנאים המפורטים. הרחבה זו מכסה אבדן או נזק פיזי לרכוש אחר של המבוטח הנמצא בחצרי המבוטח בסמוך לרכוש המבוטח. סכום הכיסוי מוגבל ל-60,000 ש״ח, אלא אם צוין אחרת ברשימה. הראל ביטוח מציעה פתרונות ביטוח מקיפים לציוד אלקטרוני. This table details coverage for damage to property near the insured's property. It outlines the conditions and limits of liability for such incidents. בין הערכים בטבלה: limit: 60,000 ₪.",
+  "payload": "טבלה: נזק לרכוש סמוך\nThis table details coverage for damage to property near the insured's property. It outlines the conditions and limits of liability for such incidents.\nממדים: types of adjacent property damage, coverage details (limits, conditions)\n\nנזק לרכוש סמוך .4.5\nהביטוח על פי פרק זה מורחב לכסות אבדן או נזק פיזי, פתאומי ובלתי צפוי שאירע לרכוש אחר של המבוטח )אף אם אינו נכלל ברשימת הרכוש המבוטח( הנמצא בחצרי המבוטח בסמוך לרכוש המבוטח על פי הפוליסה, בתנאי שהנזק נגרם כתוצאה ישירה ממקרה ביטוח שאירע לרכוש המבוטח.\nאחריות המבטח על פי הרחבה זו מוגבלת לסך של , אלא אם צוין אחרת ברשימה .₪  60,000"
 }

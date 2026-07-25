@@ -2,26 +2,28 @@
   "id": "pdf:travel/files/תעריפון-דרכון-first-class.pdf#10",
   "source": "llm",
   "description": {
-    "title": "תעריפון דרכון First Class",
-    "summary": "This table details the pricing for optional add-ons to a 'דרכון First Class' travel insurance policy. It allows looking up the cost of coverage based on age range.",
-    "embed_passage": "ביטוח 'דרכון First Class' מציע הרחבות בתוספת תשלום, כגון כיסוי לרכוש אישי ותאונות. עלות ההרחבה משתנה בהתאם לגיל המבוטח, לדוגמה עבור גילאי 18-40 התעריף הוא $0.15, בעוד שעבור גילאי 61-70 התעריף הוא $1.08.",
-    "row_axis": "Insurance rider / coverage type (e.g., personal property, accident)",
-    "column_axis": "Age range and price",
+    "title": "תעריפון דרכון First Class - הרחבות",
+    "summary": "This table details the additional costs for optional extensions to the 'דרכון First Class' travel insurance policy. It allows looking up the price of an extension based on the age range of the insured.",
+    "embed_passage": "טבלה זו מציגה את תעריפי ההרחבות לביטוח הנסיעות 'דרכון First Class', כאשר המחיר נקבע לפי טווחי גיל. ניתן למצוא כאן את העלות עבור הרחבות כגון כיסוי לרכוש אישי, תאונות אישיות, ואתגרים לספורט, תוך ציון האפשרות לביטול הרחבה. טווחי הגילאים כוללים 0-17, 18-40, 41-50, 51-60 ו-61-70. הרחבות המוצגות הן 'אתגרי לספורט הרחבה אישיות בתאונות חריג( )ביטול' ו'נספח נרכש אם רק זה כיסוי לרכוש ניתן אישיות תאונות'. המחירים נעים בין $0.10 ל-$0.40.",
+    "row_axis": "הרחבה (extension)",
+    "column_axis": "טווח גיל (age range), מחיר (price)",
     "units": [
       "$"
     ],
     "notable_values": [
-      "Age 0-17: $0.10",
-      "Age 18-40: $0.15",
-      "Age 41-50: $0.25",
-      "Age 51-60: $0.35",
-      "Age 61-70: $1.08"
+      "0-17: $0.10",
+      "18-40: $0.15",
+      "41-50: $0.25",
+      "51-60: $0.35",
+      "61-70: $0.40",
+      "אתגרי לספורט הרחבה אישיות בתאונות חריג( )ביטול: available",
+      "נספח נרכש אם רק זה כיסוי לרכוש ניתן אישיות תאונות: available"
     ],
     "product_hints": [
       "דרכון First Class"
     ]
   },
   "sketch": "60,\n,$1.08,61-70,61-70,\nנספח נרכש אם רק זה כיסוי לרכוש ניתן אישיות תאונות,$0.10,0-17,אתגרי לספורט הרחבה אישיות בתאונות חריג( )ביטול,אתגרי לספורט הרחבה אישיות בתאונות חריג( )ביטול\nנספח נרכש אם רק זה כיסוי לרכוש ניתן אישיות תאונות,$0.15,18-40,18-40,\nנספח נרכש אם רק זה כיסוי לרכוש ניתן אישיות תאונות,$0.25,41-50,41-50,\nנספח נרכש אם רק זה כיסוי לרכוש ניתן אישיות תאונות,$0.35,51-60,51-60,\nנספח נרכש אם רק זה כיסוי לרכוש ניתן אישיות תאונות,$0.40,61-70,61-70,",
-  "embed_text": "ביטוח 'דרכון First Class' מציע הרחבות בתוספת תשלום, כגון כיסוי לרכוש אישי ותאונות. עלות ההרחבה משתנה בהתאם לגיל המבוטח, לדוגמה עבור גילאי 18-40 התעריף הוא $0.15, בעוד שעבור גילאי 61-70 התעריף הוא $1.08.",
-  "payload": "טבלה: תעריפון דרכון First Class\nThis table details the pricing for optional add-ons to a 'דרכון First Class' travel insurance policy. It allows looking up the cost of coverage based on age range.\nממדים: Insurance rider / coverage type (e.g., personal property, accident), Age range and price\n\n60,\n,$1.08,61-70,61-70,\nנספח נרכש אם רק זה כיסוי לרכוש ניתן אישיות תאונות,$0.10,0-17,אתגרי לספורט הרחבה אישיות בתאונות חריג( )ביטול,אתגרי לספורט הרחבה אישיות בתאונות חריג( )ביטול\nנספח נרכש אם רק זה כיסוי לרכוש ניתן אישיות תאונות,$0.15,18-40,18-40,\nנספח נרכש אם רק זה כיסוי לרכוש ניתן אישיות תאונות,$0.25,41-50,41-50,\nנספח נרכש אם רק זה כיסוי לרכוש ניתן אישיות תאונות,$0.35,51-60,51-60,\nנספח נרכש אם רק זה כיסוי לרכוש ניתן אישיות תאונות,$0.40,61-70,61-70,"
+  "embed_text": "טבלה זו מציגה את תעריפי ההרחבות לביטוח הנסיעות 'דרכון First Class', כאשר המחיר נקבע לפי טווחי גיל. ניתן למצוא כאן את העלות עבור הרחבות כגון כיסוי לרכוש אישי, תאונות אישיות, ואתגרים לספורט, תוך ציון האפשרות לביטול הרחבה. טווחי הגילאים כוללים 0-17, 18-40, 41-50, 51-60 ו-61-70. הרחבות המוצגות הן 'אתגרי לספורט הרחבה אישיות בתאונות חריג( )ביטול' ו'נספח נרכש אם רק זה כיסוי לרכוש ניתן אישיות תאונות'. המחירים נעים בין $0.10 ל-$0.40. This table details the additional costs for optional extensions to the 'דרכון First Class' travel insurance policy. It allows looking up the price of an extension based on the age range of the insured.",
+  "payload": "טבלה: תעריפון דרכון First Class - הרחבות\nThis table details the additional costs for optional extensions to the 'דרכון First Class' travel insurance policy. It allows looking up the price of an extension based on the age range of the insured.\nממדים: הרחבה (extension), טווח גיל (age range), מחיר (price)\n\n60,\n,$1.08,61-70,61-70,\nנספח נרכש אם רק זה כיסוי לרכוש ניתן אישיות תאונות,$0.10,0-17,אתגרי לספורט הרחבה אישיות בתאונות חריג( )ביטול,אתגרי לספורט הרחבה אישיות בתאונות חריג( )ביטול\nנספח נרכש אם רק זה כיסוי לרכוש ניתן אישיות תאונות,$0.15,18-40,18-40,\nנספח נרכש אם רק זה כיסוי לרכוש ניתן אישיות תאונות,$0.25,41-50,41-50,\nנספח נרכש אם רק זה כיסוי לרכוש ניתן אישיות תאונות,$0.35,51-60,51-60,\nנספח נרכש אם רק זה כיסוי לרכוש ניתן אישיות תאונות,$0.40,61-70,61-70,"
 }

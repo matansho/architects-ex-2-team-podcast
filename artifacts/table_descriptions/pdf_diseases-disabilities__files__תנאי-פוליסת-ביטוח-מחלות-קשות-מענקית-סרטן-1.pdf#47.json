@@ -3,25 +3,21 @@
   "source": "llm",
   "description": {
     "title": "תנאי פוליסה",
-    "summary": "This table outlines the terms of an insurance policy, specifically regarding taxes, limitations of actions, and the determination of an insurance event. It details conditions related to claims and the timing of payouts.",
-    "embed_passage": "פוליסת ביטוח בריאות מגדירה את תקופת ההתיישנות של תביעה לתשלום תגמולי ביטוח בגין מקרה ביטוח כשלוש שנים מיום קרות מקרה הביטוח. לדוגמה, אם עילת התביעה היא נכות שנגרמה ממחלה או מתאונה, יש להגיש את התביעה תוך 3 שנים. הפוליסה גם מציינת את חובת תשלום המיסים וההיטלים החלים על הפוליסה.",
-    "row_axis": "Policy conditions / clauses",
-    "column_axis": "Description of the condition",
+    "summary": "This table outlines conditions of an insurance policy, specifically regarding taxes, limitations of actions, and determination of an insurance event. It is used to look up policy terms related to claims and legal timelines.",
+    "embed_passage": "טבלה זו מפרטת תנאים של פוליסת ביטוח, לרבות מיסים והיטלים החלים על הפוליסה, תקופת התיישנות לתביעות תגמולים, וקביעת קרות מקרה ביטוח. ניתן לעיין בטבלה זו כדי להבין את התנאים המשפטיים והכספיים של הפוליסה, כגון מועדי הגשת תביעות וחיובים כספיים. הפוליסה עוסקת בתשלום מיסים והיטלים לממשלה, תקופת התיישנות של שלוש שנים לתביעות, וקביעת קרות מקרה ביטוח על ידי מומחה בתחום האונקולוגיה. פוליסת ביטוח בריאות, מקרה ביטוח, התיישנות, מסים והיטלים.",
+    "row_axis": "policy condition",
+    "column_axis": "description",
     "units": [],
     "notable_values": [
-      "מסים והיטלים: 13",
-      "התיישנות: 14",
       "תקופת התיישנות: 3 שנים",
-      "יום: 14",
-      "אחוז מסכום הביטוח: unspecified"
+      "מסים והיטלים: חלים על הפוליסה",
+      "מקרה ביטוח: קביעה על ידי מומחה אונקולוגיה"
     ],
     "product_hints": [
-      "פוליסת ביטוח בריאות",
-      "ביטוח מחלות קשות",
-      "מענקית סרטן"
+      "פוליסת ביטוח בריאות"
     ]
   },
   "sketch": ".  מסים והיטלים 13\nהמשלם  או  המבוטח  או  המוטב,  לפי  העניין,  חייב המיסים ואת הפרמיות את לחברה לשלם הממשלתיים  והאחרים  )הקיימים  במועד  עריכת הפוליסה או שיוטלו במועד לאחר מכן(, החלים על הפוליסה, או המוטלים על הפרמיות, או על סכומי . הביטוח\n.  התיישנות 14\nתקופת  התיישנות  של  תביעה  לתשלום  תגמולי ביטוח בגין מקרה ביטוח על פי פוליסה זו, היא שלוש שנים מיום קרות מקרה הביטוח. אם עילת התביעה , הנה נכות שנגרמה למבוטח ממחלה או  מתאונה\nפוליסת ביטוח בריאות\nמומחה  בתחום  האונקולוגיה  על  קרות . מקרה הביטוח",
-  "embed_text": "פוליסת ביטוח בריאות מגדירה את תקופת ההתיישנות של תביעה לתשלום תגמולי ביטוח בגין מקרה ביטוח כשלוש שנים מיום קרות מקרה הביטוח. לדוגמה, אם עילת התביעה היא נכות שנגרמה ממחלה או מתאונה, יש להגיש את התביעה תוך 3 שנים. הפוליסה גם מציינת את חובת תשלום המיסים וההיטלים החלים על הפוליסה.",
-  "payload": "טבלה: תנאי פוליסה\nThis table outlines the terms of an insurance policy, specifically regarding taxes, limitations of actions, and the determination of an insurance event. It details conditions related to claims and the timing of payouts.\nממדים: Policy conditions / clauses, Description of the condition\n\n.  מסים והיטלים 13\nהמשלם  או  המבוטח  או  המוטב,  לפי  העניין,  חייב המיסים ואת הפרמיות את לחברה לשלם הממשלתיים  והאחרים  )הקיימים  במועד  עריכת הפוליסה או שיוטלו במועד לאחר מכן(, החלים על הפוליסה, או המוטלים על הפרמיות, או על סכומי . הביטוח\n.  התיישנות 14\nתקופת  התיישנות  של  תביעה  לתשלום  תגמולי ביטוח בגין מקרה ביטוח על פי פוליסה זו, היא שלוש שנים מיום קרות מקרה הביטוח. אם עילת התביעה , הנה נכות שנגרמה למבוטח ממחלה או  מתאונה\nפוליסת ביטוח בריאות\nמומחה  בתחום  האונקולוגיה  על  קרות . מקרה הביטוח"
+  "embed_text": "טבלה זו מפרטת תנאים של פוליסת ביטוח, לרבות מיסים והיטלים החלים על הפוליסה, תקופת התיישנות לתביעות תגמולים, וקביעת קרות מקרה ביטוח. ניתן לעיין בטבלה זו כדי להבין את התנאים המשפטיים והכספיים של הפוליסה, כגון מועדי הגשת תביעות וחיובים כספיים. הפוליסה עוסקת בתשלום מיסים והיטלים לממשלה, תקופת התיישנות של שלוש שנים לתביעות, וקביעת קרות מקרה ביטוח על ידי מומחה בתחום האונקולוגיה. פוליסת ביטוח בריאות, מקרה ביטוח, התיישנות, מסים והיטלים. This table outlines conditions of an insurance policy, specifically regarding taxes, limitations of actions, and determination of an insurance event. It is used to look up policy terms related to claims and legal timelines.",
+  "payload": "טבלה: תנאי פוליסה\nThis table outlines conditions of an insurance policy, specifically regarding taxes, limitations of actions, and determination of an insurance event. It is used to look up policy terms related to claims and legal timelines.\nממדים: policy condition, description\n\n.  מסים והיטלים 13\nהמשלם  או  המבוטח  או  המוטב,  לפי  העניין,  חייב המיסים ואת הפרמיות את לחברה לשלם הממשלתיים  והאחרים  )הקיימים  במועד  עריכת הפוליסה או שיוטלו במועד לאחר מכן(, החלים על הפוליסה, או המוטלים על הפרמיות, או על סכומי . הביטוח\n.  התיישנות 14\nתקופת  התיישנות  של  תביעה  לתשלום  תגמולי ביטוח בגין מקרה ביטוח על פי פוליסה זו, היא שלוש שנים מיום קרות מקרה הביטוח. אם עילת התביעה , הנה נכות שנגרמה למבוטח ממחלה או  מתאונה\nפוליסת ביטוח בריאות\nמומחה  בתחום  האונקולוגיה  על  קרות . מקרה הביטוח"
 }

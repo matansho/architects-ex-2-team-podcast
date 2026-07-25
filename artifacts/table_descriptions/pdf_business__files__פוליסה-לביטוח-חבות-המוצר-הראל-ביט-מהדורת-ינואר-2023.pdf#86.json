@@ -2,25 +2,27 @@
   "id": "pdf:business/files/פוליסה-לביטוח-חבות-המוצר-הראל-ביט-מהדורת-ינואר-2023.pdf#86",
   "source": "llm",
   "description": {
-    "title": "פרטי התקשרות הראל",
-    "summary": "This table provides contact information for Harel Insurance, including phone numbers and addresses. It's used to look up contact details for different departments within the company.",
-    "embed_passage": "פוליסת ביטוח חבות המוצר של הראל מספקת דרכי התקשרות שונות. ניתן ליצור קשר עם המשרד הראשי בטלפון 02-6404444, ברחוב עם ועולמו 9 בירושלים, או באמצעות ת״ד 34259. מוקד תביעות ביטוח כללי זמין בטלפון 03-9294000.",
-    "row_axis": "Department / Contact Type",
-    "column_axis": "Contact Details (Phone, Address)",
+    "title": "פרטי התקשרות",
+    "summary": "This table lists contact details for Harel Insurance, including phone numbers and addresses for different branches and the general claims center. It is used to look up contact information for specific locations or departments.",
+    "embed_passage": "טבלה זו מציגה פרטי התקשרות של הראל ביטוח, כולל מספרי טלפון וכתובות של סניפים שונים ומוקד התביעות הכללי. ניתן לחפש כאן פרטי יצירת קשר עבור מיקומים או מחלקות ספציפיות. הראל ביטוח משרד ראשי ברמת גן, מחוז ירושלים, ומוקד תביעות ביטוח כללי הם חלק מהפרטים המוצגים. כתובות הת״ד כוללות 1951, 332, ו-34259. מספרי הטלפון כוללים 03-7547777, 02-6404444, ו-03-9294000.",
+    "row_axis": "Location/Department",
+    "column_axis": "Contact Information (Phone, Address)",
     "units": [],
     "notable_values": [
-      "משרד ראשי: 02-6404444",
-      "מוקד תביעות ביטוח כללי: 03-9294000",
-      "כתובת המשרד הראשי: רח' עם ועולמו 9, ירושלים",
-      "ת״ד: 34259",
-      "מיקוד: 9134102"
+      "Harel Main Office: 03-7547777",
+      "Harel Main Office Address: רח' אבא הלל 52, רמת גן",
+      "Harel Main Office P.O. Box: 1951",
+      "Jerusalem District: 02-6404444",
+      "Jerusalem District P.O. Box: 34259",
+      "General Insurance Claims Center: 03-9294000",
+      "Haifa P.O. Box: 332"
     ],
     "product_hints": [
-      "ביטוח חבות המוצר הראל",
-      "הראל"
+      "הראל ביטוח",
+      "ביטוח חבות המוצר הראל"
     ]
   },
-  "sketch": "הודעות .5.20\n.  הודעות של המבטח למבוטח בכל הקשור לפוליסה זו - תינתנה לפי מענם 5.20.1 האחרון הידוע למבטח.\n.  הודעות של המבוטח למבטח - תינתנה למבטח בכתב למען משרדו של 5.20.2 המבטח, כמצוין בכותרת לפוליסה או לכל מען אחר בישראל לרבות כתובת דואר אלקטרוני פעילה שעליהם יודיע המבטח בכתב למבוטח מזמן לזמן.\nפרטי התקשרות בית הראל משרד ראשי\n…\n02-6404444\n, , גבעת שאול 3 בית הראל, רח' עם ועולמו 9134102 , , ירושלים 34259 ת״ד\nמוקד תביעות ביטוח כללי\n03-9294000",
-  "embed_text": "פוליסת ביטוח חבות המוצר של הראל מספקת דרכי התקשרות שונות. ניתן ליצור קשר עם המשרד הראשי בטלפון 02-6404444, ברחוב עם ועולמו 9 בירושלים, או באמצעות ת״ד 34259. מוקד תביעות ביטוח כללי זמין בטלפון 03-9294000.",
-  "payload": "טבלה: פרטי התקשרות הראל\nThis table provides contact information for Harel Insurance, including phone numbers and addresses. It's used to look up contact details for different departments within the company.\nממדים: Department / Contact Type, Contact Details (Phone, Address)\n\nהודעות .5.20\n.  הודעות של המבטח למבוטח בכל הקשור לפוליסה זו - תינתנה לפי מענם 5.20.1 האחרון הידוע למבטח.\n.  הודעות של המבוטח למבטח - תינתנה למבטח בכתב למען משרדו של 5.20.2 המבטח, כמצוין בכותרת לפוליסה או לכל מען אחר בישראל לרבות כתובת דואר אלקטרוני פעילה שעליהם יודיע המבטח בכתב למבוטח מזמן לזמן.\nפרטי התקשרות בית הראל משרד ראשי\n03-7547777\n1951 , ת״ד 3 בית הראל, רח' אבא הלל 5211802 , רמת גן\nמחוז צפון\n04-8606444\n332 , ת״ד 2 שדרות פל-ים 3100202 , חיפה\nמחוז ירושלים\n02-6404444\n, , גבעת שאול 3 בית הראל, רח' עם ועולמו 9134102 , , ירושלים 34259 ת״ד\nמוקד תביעות ביטוח כללי\n03-9294000"
+  "sketch": "הודעות .5.20\n.  הודעות של המבטח למבוטח בכל הקשור לפוליסה זו - תינתנה לפי מענם 5.20.1 האחרון הידוע למבטח.\n.  הודעות של המבוטח למבטח - תינתנה למבטח בכתב למען משרדו של 5.20.2 המבטח, כמצוין בכותרת לפוליסה או לכל מען אחר בישראל לרבות כתובת דואר אלקטרוני פעילה שעליהם יודיע המבטח בכתב למבוטח מזמן לזמן.\nפרטי התקשרות בית הראל משרד ראשי\n03-7547777\n1951 , ת״ד 3 בית הראל, רח' אבא הלל 5211802 , רמת גן\n…\n332 , ת״ד 2 שדרות פל-ים 3100202 , חיפה\nמחוז ירושלים\n02-6404444\n, , גבעת שאול 3 בית הראל, רח' עם ועולמו 9134102 , , ירושלים 34259 ת״ד\nמוקד תביעות ביטוח כללי\n03-9294000",
+  "embed_text": "טבלה זו מציגה פרטי התקשרות של הראל ביטוח, כולל מספרי טלפון וכתובות של סניפים שונים ומוקד התביעות הכללי. ניתן לחפש כאן פרטי יצירת קשר עבור מיקומים או מחלקות ספציפיות. הראל ביטוח משרד ראשי ברמת גן, מחוז ירושלים, ומוקד תביעות ביטוח כללי הם חלק מהפרטים המוצגים. כתובות הת״ד כוללות 1951, 332, ו-34259. מספרי הטלפון כוללים 03-7547777, 02-6404444, ו-03-9294000. This table lists contact details for Harel Insurance, including phone numbers and addresses for different branches and the general claims center. It is used to look up contact information for specific locations or departments. בין הערכים בטבלה: Harel Main Office Address: רח' אבא הלל 52, רמת גן.",
+  "payload": "טבלה: פרטי התקשרות\nThis table lists contact details for Harel Insurance, including phone numbers and addresses for different branches and the general claims center. It is used to look up contact information for specific locations or departments.\nממדים: Location/Department, Contact Information (Phone, Address)\n\nהודעות .5.20\n.  הודעות של המבטח למבוטח בכל הקשור לפוליסה זו - תינתנה לפי מענם 5.20.1 האחרון הידוע למבטח.\n.  הודעות של המבוטח למבטח - תינתנה למבטח בכתב למען משרדו של 5.20.2 המבטח, כמצוין בכותרת לפוליסה או לכל מען אחר בישראל לרבות כתובת דואר אלקטרוני פעילה שעליהם יודיע המבטח בכתב למבוטח מזמן לזמן.\nפרטי התקשרות בית הראל משרד ראשי\n03-7547777\n1951 , ת״ד 3 בית הראל, רח' אבא הלל 5211802 , רמת גן\nמחוז צפון\n04-8606444\n332 , ת״ד 2 שדרות פל-ים 3100202 , חיפה\nמחוז ירושלים\n02-6404444\n, , גבעת שאול 3 בית הראל, רח' עם ועולמו 9134102 , , ירושלים 34259 ת״ד\nמוקד תביעות ביטוח כללי\n03-9294000"
 }

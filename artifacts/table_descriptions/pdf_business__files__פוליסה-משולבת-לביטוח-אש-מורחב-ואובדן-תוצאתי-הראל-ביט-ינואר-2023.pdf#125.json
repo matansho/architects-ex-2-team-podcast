@@ -2,26 +2,25 @@
   "id": "pdf:business/files/פוליסה-משולבת-לביטוח-אש-מורחב-ואובדן-תוצאתי-הראל-ביט-ינואר-2023.pdf#125",
   "source": "llm",
   "description": {
-    "title": "פוליסת ביטוח הראל",
-    "summary": "This table details coverage for business interruption losses under an Harel insurance policy. It outlines how compensation is calculated for lost gross profit and increased operating expenses due to an insured event.",
-    "embed_passage": "פוליסת ביטוח הראל מציעה כיסוי לאובדן רווח גולמי והגדלת הוצאות תפעול כתוצאה מנזק. החישוב מתבסס על שיעור הרווח הגולמי וצמצום במחזור, כאשר התגמול מחושב לתקופת השיפוי. לדוגמה, סכום ההוצאות הנוספות הנחוצות והסבירות יכוסו.",
-    "row_axis": "Types of loss covered (e.g., lost gross profit, increased operating expenses)",
-    "column_axis": "Calculation methods and limitations of coverage",
+    "title": "פוליסה משולבת - אובדן תוצאתי",
+    "summary": "This table details coverage for loss of gross profit and increased operating expenses due to business interruption caused by an insured event. It outlines how insurance payouts are calculated based on reduced turnover and additional expenses.",
+    "embed_passage": "טבלה זו מתייחסת לפוליסת ביטוח המכסה הפסד רווח גולמי והגדלת הוצאות תפעול כתוצאה מהפרעה לעסק. החישוב של תגמולי הביטוח מבוסס על צמצום במחזור ועלויות נוספות שננקטו למניעת הפסדים. הפוליסה של הראל ביטוח מספקת כיסוי למקרים של אובדן רווח גולמי והגדלת הוצאות תפעול. סכום ההוצאות הנוספות, שיעור הרווח הגולמי, והצמצום במחזור הם מרכיבים מרכזיים בחישוב הפיצוי. הפוליסה מתייחסת גם לשכר עבודה וחישובים על בסיס כפול.",
+    "row_axis": "סוג הוצאה / הפסד",
+    "column_axis": "חישוב / תנאי",
     "units": [],
     "notable_values": [
-      "שיעור הרווח הגולמי: used in calculations",
-      "תקופת השיפוי: period for which compensation is calculated",
-      "הוצאות נוספות: covered expenses",
-      "צמצום במחזור: reduction in turnover",
-      "סכום ההוצאות הנוספות: amount of additional expenses"
+      "רווח גולמי: סכום ביטוח",
+      "הוצאות נוספות: סכום נחוץ וסביר",
+      "צמצום מחזור: תקופת שיפוי",
+      "שיעור הרווח הגולמי: הכפלה בצמצום המחזור"
     ],
     "product_hints": [
-      "ביטוח אש מורחב",
+      "פוליסה משולבת",
       "אובדן תוצאתי",
-      "הראל"
+      "הראל ביטוח"
     ]
   },
   "sketch": "בגין הגדלת הוצאות התפעול: .8.1.2\n, על אף האמור, הכיסוי על פי תת סעיף זה כפוף לכך שהסכום שישולם לא יעלה, לגבי כל הוצאה כאמור, על הסכום המתקבל מהכפלת שיעור הרווח הגולמי באותו חלק של המחזור,\nסכום ההוצאות הנוספות, הנחוצות והסבירות, אשר הוצאו בלעדית למניעת או הקטנת הצמצום במחזור, אשר עלול היה להיגרם במשך תקופת השיפוי עקב מקרה הביטוח.\nשאובדנו נמנע על ידי ההוצאה הנוספת הזו, בניכוי כל סכום שנחסך בתקופת השיפוי בגין אותן הוצאות ועלויות של העסק, המשולמות מתוך הרווח הגולמי, אשר הוקטנו או הופסקו עקב מקרה הביטוח.",
-  "embed_text": "פוליסת ביטוח הראל מציעה כיסוי לאובדן רווח גולמי והגדלת הוצאות תפעול כתוצאה מנזק. החישוב מתבסס על שיעור הרווח הגולמי וצמצום במחזור, כאשר התגמול מחושב לתקופת השיפוי. לדוגמה, סכום ההוצאות הנוספות הנחוצות והסבירות יכוסו.",
-  "payload": "טבלה: פוליסת ביטוח הראל\nThis table details coverage for business interruption losses under an Harel insurance policy. It outlines how compensation is calculated for lost gross profit and increased operating expenses due to an insured event.\nממדים: Types of loss covered (e.g., lost gross profit, increased operating expenses), Calculation methods and limitations of coverage\n\nבגין הגדלת הוצאות התפעול: .8.1.2\n, על אף האמור, הכיסוי על פי תת סעיף זה כפוף לכך שהסכום שישולם לא יעלה, לגבי כל הוצאה כאמור, על הסכום המתקבל מהכפלת שיעור הרווח הגולמי באותו חלק של המחזור,\nסכום ההוצאות הנוספות, הנחוצות והסבירות, אשר הוצאו בלעדית למניעת או הקטנת הצמצום במחזור, אשר עלול היה להיגרם במשך תקופת השיפוי עקב מקרה הביטוח.\nשאובדנו נמנע על ידי ההוצאה הנוספת הזו, בניכוי כל סכום שנחסך בתקופת השיפוי בגין אותן הוצאות ועלויות של העסק, המשולמות מתוך הרווח הגולמי, אשר הוקטנו או הופסקו עקב מקרה הביטוח."
+  "embed_text": "טבלה זו מתייחסת לפוליסת ביטוח המכסה הפסד רווח גולמי והגדלת הוצאות תפעול כתוצאה מהפרעה לעסק. החישוב של תגמולי הביטוח מבוסס על צמצום במחזור ועלויות נוספות שננקטו למניעת הפסדים. הפוליסה של הראל ביטוח מספקת כיסוי למקרים של אובדן רווח גולמי והגדלת הוצאות תפעול. סכום ההוצאות הנוספות, שיעור הרווח הגולמי, והצמצום במחזור הם מרכיבים מרכזיים בחישוב הפיצוי. הפוליסה מתייחסת גם לשכר עבודה וחישובים על בסיס כפול. This table details coverage for loss of gross profit and increased operating expenses due to business interruption caused by an insured event. It outlines how insurance payouts are calculated based on reduced turnover and additional expenses. בין הערכים בטבלה: הוצאות נוספות: סכום נחוץ וסביר; צמצום מחזור: תקופת שיפוי.",
+  "payload": "טבלה: פוליסה משולבת - אובדן תוצאתי\nThis table details coverage for loss of gross profit and increased operating expenses due to business interruption caused by an insured event. It outlines how insurance payouts are calculated based on reduced turnover and additional expenses.\nממדים: סוג הוצאה / הפסד, חישוב / תנאי\n\nבגין הגדלת הוצאות התפעול: .8.1.2\n, על אף האמור, הכיסוי על פי תת סעיף זה כפוף לכך שהסכום שישולם לא יעלה, לגבי כל הוצאה כאמור, על הסכום המתקבל מהכפלת שיעור הרווח הגולמי באותו חלק של המחזור,\nסכום ההוצאות הנוספות, הנחוצות והסבירות, אשר הוצאו בלעדית למניעת או הקטנת הצמצום במחזור, אשר עלול היה להיגרם במשך תקופת השיפוי עקב מקרה הביטוח.\nשאובדנו נמנע על ידי ההוצאה הנוספת הזו, בניכוי כל סכום שנחסך בתקופת השיפוי בגין אותן הוצאות ועלויות של העסק, המשולמות מתוך הרווח הגולמי, אשר הוקטנו או הופסקו עקב מקרה הביטוח."
 }

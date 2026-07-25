@@ -2,21 +2,22 @@
   "id": "pdf:business/files/מכלול-למושב-ינואר-2023.pdf#299",
   "source": "llm",
   "description": {
-    "title": "חישוב פיצויים",
-    "summary": "This table details how insurance payouts are calculated for losses or damages. It outlines the principles used to determine compensation based on the policy's coverage and the extent of the loss.",
-    "embed_passage": "פוליסת 'מכלול' מספקת פיצוי במקרה של אבדן או נזק לתכולה, כאשר תגמולי הביטוח מחושבים לפי שווי האבדן אך לא יעלו על סכום הביטוח הנקוב במפרט. תגמולי הביטוח יביאו את המבוטח למצב שהיה בו אלמלא קרה מקרה הביטוח, ופיצוי עבור בגדים וחפצים אישיים של עובדי משק הבית מוגבל ל-5% מסכום ביטוח התכולה.",
-    "row_axis": "Calculation principles for insurance compensation",
-    "column_axis": "Details of compensation calculation (e.g., limitations, methods)",
+    "title": "חישוב הפיצוי",
+    "summary": "This table details how insurance compensation is calculated for loss or damage. It outlines how benefits are determined based on the loss value, the insurance amount, and specific conditions related to multiple items and household employee belongings.",
+    "embed_passage": "טבלה זו עוסקת בחישוב פיצויים במסגרת ביטוח תכולה. הפיצויים מחושבים על בסיס שווי האבדן או הנזק, אך לא יעלו על סכום הביטוח הנקוב במפרט. במקרה של אובדן או נזק למספר פריטים, הפיצוי הכולל לא יעלה על הסכום הנקוב עבור הפריטים, אם קיים. מטרת החישוב היא להחזיר את המבוטח למצב שהיה בו לפני מקרה הביטוח, ככל האפשר. הטבלה מתייחסת גם לפיצוי על אובדן או נזק לבגדים וחפצים אישיים של עובדי משק הבית. סכום הביטוח, אבדן, נזק, תכולה, פריטים הם מושגים מרכזיים.",
+    "row_axis": "Calculation rules for compensation",
+    "column_axis": "Compensation calculation details",
     "units": [],
     "notable_values": [
-      "Compensation limit: 5%",
-      "Calculation goal: Restore to pre-loss state"
+      "Compensation limit: 5% of the insurance amount for household employee belongings",
+      "Compensation calculation: Based on loss value or damage",
+      "Multiple items: Total compensation capped at the item's insurance amount (if specified)"
     ],
     "product_hints": [
-      "מכלול"
+      "ביטוח תכולה"
     ]
   },
   "sketch": "חישוב הפיצוי .18\n, .  תגמולי הביטוח שיגיעו למבוטח על פי חלק זה יחושבו וישולמו לפי שווי האבדן או הנזק 18.1 ואולם לא ישולם יותר מסכום הביטוח הנקוב במפרט כסכום ביטוח התכולה והכול להלן. תגמולי הביטוח בשל אבדן או נזק לכמה פריטים לא 38 בכפוף לאמור בסעיף יעלו על הסכום הנקוב במפרט, אם נקוב, כסכום הביטוח של הפריטים.\n.  תגמולי הביטוח יחושבו באופן שיביא את המבוטח, ככל האפשר, למצב שהיה נמצא 18.2 בו אלמלא קרה מקרה הביטוח.",
-  "embed_text": "פוליסת 'מכלול' מספקת פיצוי במקרה של אבדן או נזק לתכולה, כאשר תגמולי הביטוח מחושבים לפי שווי האבדן אך לא יעלו על סכום הביטוח הנקוב במפרט. תגמולי הביטוח יביאו את המבוטח למצב שהיה בו אלמלא קרה מקרה הביטוח, ופיצוי עבור בגדים וחפצים אישיים של עובדי משק הבית מוגבל ל-5% מסכום ביטוח התכולה.",
-  "payload": "טבלה: חישוב פיצויים\nThis table details how insurance payouts are calculated for losses or damages. It outlines the principles used to determine compensation based on the policy's coverage and the extent of the loss.\nממדים: Calculation principles for insurance compensation, Details of compensation calculation (e.g., limitations, methods)\n\nחישוב הפיצוי .18\n, .  תגמולי הביטוח שיגיעו למבוטח על פי חלק זה יחושבו וישולמו לפי שווי האבדן או הנזק 18.1 ואולם לא ישולם יותר מסכום הביטוח הנקוב במפרט כסכום ביטוח התכולה והכול להלן. תגמולי הביטוח בשל אבדן או נזק לכמה פריטים לא 38 בכפוף לאמור בסעיף יעלו על הסכום הנקוב במפרט, אם נקוב, כסכום הביטוח של הפריטים.\n.  תגמולי הביטוח יחושבו באופן שיביא את המבוטח, ככל האפשר, למצב שהיה נמצא 18.2 בו אלמלא קרה מקרה הביטוח."
+  "embed_text": "טבלה זו עוסקת בחישוב פיצויים במסגרת ביטוח תכולה. הפיצויים מחושבים על בסיס שווי האבדן או הנזק, אך לא יעלו על סכום הביטוח הנקוב במפרט. במקרה של אובדן או נזק למספר פריטים, הפיצוי הכולל לא יעלה על הסכום הנקוב עבור הפריטים, אם קיים. מטרת החישוב היא להחזיר את המבוטח למצב שהיה בו לפני מקרה הביטוח, ככל האפשר. הטבלה מתייחסת גם לפיצוי על אובדן או נזק לבגדים וחפצים אישיים של עובדי משק הבית. סכום הביטוח, אבדן, נזק, תכולה, פריטים הם מושגים מרכזיים. This table details how insurance compensation is calculated for loss or damage. It outlines how benefits are determined based on the loss value, the insurance amount, and specific conditions related to multiple items and household employee belongings. בין הערכים בטבלה: Compensation limit: 5% of the insurance amount for household employee belongings; Compens…",
+  "payload": "טבלה: חישוב הפיצוי\nThis table details how insurance compensation is calculated for loss or damage. It outlines how benefits are determined based on the loss value, the insurance amount, and specific conditions related to multiple items and household employee belongings.\nממדים: Calculation rules for compensation, Compensation calculation details\n\nחישוב הפיצוי .18\n, .  תגמולי הביטוח שיגיעו למבוטח על פי חלק זה יחושבו וישולמו לפי שווי האבדן או הנזק 18.1 ואולם לא ישולם יותר מסכום הביטוח הנקוב במפרט כסכום ביטוח התכולה והכול להלן. תגמולי הביטוח בשל אבדן או נזק לכמה פריטים לא 38 בכפוף לאמור בסעיף יעלו על הסכום הנקוב במפרט, אם נקוב, כסכום הביטוח של הפריטים.\n.  תגמולי הביטוח יחושבו באופן שיביא את המבוטח, ככל האפשר, למצב שהיה נמצא 18.2 בו אלמלא קרה מקרה הביטוח."
 }

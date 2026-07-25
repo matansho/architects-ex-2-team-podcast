@@ -2,28 +2,23 @@
   "id": "pdf:car/files/טופס-הצעה-לביטוח-רכב-פרטי-ומסחרי-עד-35-טון-מהדורת-דצמבר-2021.pdf#24",
   "source": "llm",
   "description": {
-    "title": "ביטוח רכב",
-    "summary": "This table details optional coverages and self-participation amounts for car insurance policies. It allows you to look up costs associated with different levels of liability and damage coverage.",
-    "embed_passage": "פוליסת ביטוח רכב מציעה אפשרויות שונות להגדלת גבולות אחריות כלפי צד ג׳ רכוש. לדוגמה, הגדלת גבולות אחריות יכולה להיות בשיעור של 1.5% או 5%. השתתפות עצמית בירידת ערך יכולה להיות ₪ 4,000,000 או ₪ 2,000,000.",
-    "row_axis": "Coverage options / Self-participation levels",
-    "column_axis": "Coverage details / Amounts",
+    "title": "כיסויים משלימים",
+    "summary": "This table details supplemental coverages for car insurance, specifically regarding self-participation amounts and liability limits. It allows looking up costs and conditions for various add-ons.",
+    "embed_passage": "טבלה זו מציגה כיסויים משלימים במסגרת ביטוח רכב פרטי ומסחרי עד 3.5 טון, ומפרטת את גובה ההשתתפות העצמית בירידת ערך ואת הגדלת גבולות האחריות כלפי צד ג׳ רכוש. ניתן למצוא כאן מידע על תנאים ספציפיים לרכישת כיסויים אלו. ביטוח רכב זה כולל אפשרויות להגדלת גבולות אחריות ולשינוי ההשתתפות העצמית בירידת ערך, עם סכומים של ₪ 4,000,000 ו-₪ 2,000,000. כיסויים משלימים אלו מאפשרים התאמה אישית של הפוליסה בהתאם לצרכי המבוטח.",
+    "row_axis": "type of coverage/condition",
+    "column_axis": "value/amount",
     "units": [
-      "₪",
-      "%"
+      "₪"
     ],
     "notable_values": [
       "השתתפות עצמית בירידת ערך: ₪ 4,000,000",
-      "השתתפות עצמית בירידת ערך: ₪ 2,000,000",
-      "הגדלת גבולות אחריות כלפי צד ג' רכוש: 1.5%",
-      "הגדלת גבולות אחריות כלפי צד ג' רכוש: 5%"
+      "השתתפות עצמית בירידת ערך: ₪ 2,000,000"
     ],
     "product_hints": [
-      "ביטוח רכב",
-      "רכב פרטי",
-      "רכב מסחרי"
+      "ביטוח רכב פרטי ומסחרי עד 3.5 טון"
     ]
   },
   "sketch": "1.5%\nהשתתפות עצמית בירידת ערך:\n₪  4,000,000\n₪  2,000,000\n:\nהגדלת גבולות אחריות כלפי צד ג' רכוש",
-  "embed_text": "פוליסת ביטוח רכב מציעה אפשרויות שונות להגדלת גבולות אחריות כלפי צד ג׳ רכוש. לדוגמה, הגדלת גבולות אחריות יכולה להיות בשיעור של 1.5% או 5%. השתתפות עצמית בירידת ערך יכולה להיות ₪ 4,000,000 או ₪ 2,000,000.",
-  "payload": "טבלה: ביטוח רכב\nThis table details optional coverages and self-participation amounts for car insurance policies. It allows you to look up costs associated with different levels of liability and damage coverage.\nממדים: Coverage options / Self-participation levels, Coverage details / Amounts\n\n1.5%\nהשתתפות עצמית בירידת ערך:\n₪  4,000,000\n₪  2,000,000\n:\nהגדלת גבולות אחריות כלפי צד ג' רכוש"
+  "embed_text": "טבלה זו מציגה כיסויים משלימים במסגרת ביטוח רכב פרטי ומסחרי עד 3.5 טון, ומפרטת את גובה ההשתתפות העצמית בירידת ערך ואת הגדלת גבולות האחריות כלפי צד ג׳ רכוש. ניתן למצוא כאן מידע על תנאים ספציפיים לרכישת כיסויים אלו. ביטוח רכב זה כולל אפשרויות להגדלת גבולות אחריות ולשינוי ההשתתפות העצמית בירידת ערך, עם סכומים של ₪ 4,000,000 ו-₪ 2,000,000. כיסויים משלימים אלו מאפשרים התאמה אישית של הפוליסה בהתאם לצרכי המבוטח. This table details supplemental coverages for car insurance, specifically regarding self-participation amounts and liability limits. It allows looking up costs and conditions for various add-ons.",
+  "payload": "טבלה: כיסויים משלימים\nThis table details supplemental coverages for car insurance, specifically regarding self-participation amounts and liability limits. It allows looking up costs and conditions for various add-ons.\nממדים: type of coverage/condition, value/amount\n\n1.5%\nהשתתפות עצמית בירידת ערך:\n₪  4,000,000\n₪  2,000,000\n:\nהגדלת גבולות אחריות כלפי צד ג' רכוש"
 }

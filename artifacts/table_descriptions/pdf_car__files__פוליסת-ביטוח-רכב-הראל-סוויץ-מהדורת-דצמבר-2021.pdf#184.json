@@ -3,22 +3,21 @@
   "source": "llm",
   "description": {
     "title": "הודעות",
-    "summary": "This table details how notifications related to the insurance policy should be delivered. It outlines acceptable methods for the insured or beneficiary to notify the insurer.",
-    "embed_passage": "פוליסת ביטוח רכב הראל סוויץ׳ מציגה דרכי הודעה למבטח, כגון מען משרדו של המבטח או משרד סוכן הביטוח הרשום בפוליסה. ההודעה יכולה להימסר גם בכל דרך אחרת שהמבטח יודיע עליה למבוטח. לדוגמה, סעיף 46.1 מציין את מען משרדו של המבטח כדרך תקפה להעברת הודעה.",
-    "row_axis": "Notification method",
-    "column_axis": "Details of the notification method",
+    "summary": "This table details how notifications must be delivered to the insurer. It lists acceptable methods for the insured or beneficiary to notify Harel of claims or other relevant information.",
+    "embed_passage": "טבלה זו מתארת את אופן העברת ההודעות למבטח. ניתן להעביר הודעה למבטח באמצעות כתובת משרדו המצוינת בפוליסה, או כתובת אחרת בישראל שהמבטח יודיע עליה. אפשרות נוספת היא באמצעות סוכן הביטוח הרשום בפוליסה, או כתובת אחרת שהסוכן או המבטח יודיעו עליה. הראל סוויץ׳ היא פוליסת ביטוח רכב המציעה דרכים שונות להעברת הודעות, כגון כתובת המשרד או סוכן הביטוח. 46.1, 46.2, 46.3 הם מספרי הסעיפים המפרטים את דרכי ההודעה.",
+    "row_axis": "method of notification",
+    "column_axis": "details of the notification method",
     "units": [],
     "notable_values": [
-      "46.1: Method via insurer's office",
-      "46.2: Method via insurance agent's office",
-      "46.3: Other methods as notified by the insurer"
+      "method: address of insurer's office",
+      "method: address of insurance agent",
+      "method: other method notified by insurer"
     ],
     "product_hints": [
-      "הראל סוויץ'",
-      "פוליסת ביטוח רכב"
+      "הראל סוויץ"
     ]
   },
   "sketch": ". הודעות 46\nהודעה של המבוטח או של המוטב למבטח תינתן למבטח לפי אחד מאלה:\n. מען משרדו של המבטח, כמצויין בכותרת לפוליסה, או כל מען אחר בישראל שעליו יודיע 46.1 המבטח, למבוטח או למוטב מזמן לזמן.\n. במשרדו של סוכן הביטוח, הרשום בפוליסה לפי מענו, כמפורט בה, או לפי כל מען אחר 46.2 בישראל שעליו יודיע סוכן הביטוח הנזכר או המבטח, למבוטח או למוטב מזמן לזמן.",
-  "embed_text": "פוליסת ביטוח רכב הראל סוויץ׳ מציגה דרכי הודעה למבטח, כגון מען משרדו של המבטח או משרד סוכן הביטוח הרשום בפוליסה. ההודעה יכולה להימסר גם בכל דרך אחרת שהמבטח יודיע עליה למבוטח. לדוגמה, סעיף 46.1 מציין את מען משרדו של המבטח כדרך תקפה להעברת הודעה.",
-  "payload": "טבלה: הודעות\nThis table details how notifications related to the insurance policy should be delivered. It outlines acceptable methods for the insured or beneficiary to notify the insurer.\nממדים: Notification method, Details of the notification method\n\n. הודעות 46\nהודעה של המבוטח או של המוטב למבטח תינתן למבטח לפי אחד מאלה:\n. מען משרדו של המבטח, כמצויין בכותרת לפוליסה, או כל מען אחר בישראל שעליו יודיע 46.1 המבטח, למבוטח או למוטב מזמן לזמן.\n. במשרדו של סוכן הביטוח, הרשום בפוליסה לפי מענו, כמפורט בה, או לפי כל מען אחר 46.2 בישראל שעליו יודיע סוכן הביטוח הנזכר או המבטח, למבוטח או למוטב מזמן לזמן."
+  "embed_text": "טבלה זו מתארת את אופן העברת ההודעות למבטח. ניתן להעביר הודעה למבטח באמצעות כתובת משרדו המצוינת בפוליסה, או כתובת אחרת בישראל שהמבטח יודיע עליה. אפשרות נוספת היא באמצעות סוכן הביטוח הרשום בפוליסה, או כתובת אחרת שהסוכן או המבטח יודיעו עליה. הראל סוויץ׳ היא פוליסת ביטוח רכב המציעה דרכים שונות להעברת הודעות, כגון כתובת המשרד או סוכן הביטוח. 46.1, 46.2, 46.3 הם מספרי הסעיפים המפרטים את דרכי ההודעה. This table details how notifications must be delivered to the insurer. It lists acceptable methods for the insured or beneficiary to notify Harel of claims or other relevant information. בין הערכים בטבלה: method: address of insurer's office; method: address of insurance agent; method: other method notified by insurer.",
+  "payload": "טבלה: הודעות\nThis table details how notifications must be delivered to the insurer. It lists acceptable methods for the insured or beneficiary to notify Harel of claims or other relevant information.\nממדים: method of notification, details of the notification method\n\n. הודעות 46\nהודעה של המבוטח או של המוטב למבטח תינתן למבטח לפי אחד מאלה:\n. מען משרדו של המבטח, כמצויין בכותרת לפוליסה, או כל מען אחר בישראל שעליו יודיע 46.1 המבטח, למבוטח או למוטב מזמן לזמן.\n. במשרדו של סוכן הביטוח, הרשום בפוליסה לפי מענו, כמפורט בה, או לפי כל מען אחר 46.2 בישראל שעליו יודיע סוכן הביטוח הנזכר או המבטח, למבוטח או למוטב מזמן לזמן."
 }

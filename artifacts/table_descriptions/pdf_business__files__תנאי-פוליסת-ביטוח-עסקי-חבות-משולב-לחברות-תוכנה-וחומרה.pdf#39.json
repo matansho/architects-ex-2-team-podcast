@@ -3,22 +3,27 @@
   "source": "llm",
   "description": {
     "title": "הגדרות פוליסה",
-    "summary": "This table defines key terms used in an insurance policy. It helps clarify the scope of coverage by explaining what specific events or actions are considered covered or excluded under the policy.",
-    "embed_passage": "פוליסת ביטוח עסקית מגדירה מונחים כמו 'מלחמה' ו'טרור' כדי לקבוע את תנאי הכיסוי. לדוגמה, פעולה הכוללת שימוש בכוח או איום, המבוצעת מטעמים פוליטיים, דתיים או אידיאולוגיים, עשויה להיחשב כטרור. הגדרות אלו קריטיות להבנת הכיסוי הביטוחי.",
-    "row_axis": "definitions of terms",
-    "column_axis": "details of the definition",
+    "summary": "This table defines terms used in the business liability insurance policy for software and hardware companies. It provides definitions for concepts like 'Subsidiary', 'Terrorism', and 'War' as they apply to the policy.",
+    "embed_passage": "טבלה זו מגדירה מונחים המשמשים בפוליסת ביטוח אחריות עסקית לחברות תוכנה וחומרה. מטרתה היא להבהיר את משמעותם של מונחים כמו 'חברה בת', 'טרור' ו'מלחמה' בהקשר של הפוליסה, כדי להבטיח הבנה אחידה של התנאים. ניתן לחפש הגדרות ספציפיות לפי מונח, כגון 'מלחמה' או 'טרור', כדי להבין את הכיסוי הביטוחי הרלוונטי. ההגדרות כוללות תיאורים מפורטים של פעולות, גורמים וארגונים הקשורים לכל מונח. לדוגמה, ההגדרה של 'מלחמה' כוללת פעולות עוינות, התקפות ושימוש בנשק גרעיני. הגדרות אלו מסייעות לקבוע את היקף הכיסוי הביטוחי במצבי קיצון.",
+    "row_axis": "definition",
+    "column_axis": "term",
     "units": [],
     "notable_values": [
-      "war meaning: hostile action",
-      "terrorism: use of force",
-      "Subsidiary: controls 50% or more of voting power"
+      "Subsidiary: controls board of directors",
+      "Subsidiary: controls 50% or more of voting power",
+      "Subsidiary: holds 50% or more of share capital",
+      "Terrorism: use of force or violence",
+      "War: hostile or warlike action",
+      "War: action in hindering attack",
+      "War: weapon of war employing atomic fission"
     ],
     "product_hints": [
       "ביטוח עסקי",
-      "פוליסת ביטוח"
+      "חבות משולב",
+      "לחברות תוכנה וחומרה"
     ]
   },
   "sketch": "20. War meaning:\nhostile or warlike action in time of peace or war, including action in hindering, combating or defending against an actual, impending or expected attack by:\n(a) any government or sovereign power (de jure or de facto) or by any  authority  maintaining  or  using  military,  naval  or  air forces, or;\n(b) military, naval or air forces, or;\n(c) any agent of any such government, power, authority or forces;\ninsurrection, rebellion, revolution, civil war, usurped power, or any activity of any organisation the objects of which are or include the overthrowing or influencing of any de jure of de facto government by terrorism or by any violent means, or action taken by governmental  authority  in  hindering,  combating  or  defending against such an occurrence;\nany weapon of war employing atomic fission, radioactive force or radioactive material, whether in time of peace or war.",
-  "embed_text": "פוליסת ביטוח עסקית מגדירה מונחים כמו 'מלחמה' ו'טרור' כדי לקבוע את תנאי הכיסוי. לדוגמה, פעולה הכוללת שימוש בכוח או איום, המבוצעת מטעמים פוליטיים, דתיים או אידיאולוגיים, עשויה להיחשב כטרור. הגדרות אלו קריטיות להבנת הכיסוי הביטוחי.",
-  "payload": "טבלה: הגדרות פוליסה\nThis table defines key terms used in an insurance policy. It helps clarify the scope of coverage by explaining what specific events or actions are considered covered or excluded under the policy.\nממדים: definitions of terms, details of the definition\n\n20. War meaning:\nhostile or warlike action in time of peace or war, including action in hindering, combating or defending against an actual, impending or expected attack by:\n(a) any government or sovereign power (de jure or de facto) or by any  authority  maintaining  or  using  military,  naval  or  air forces, or;\n(b) military, naval or air forces, or;\n(c) any agent of any such government, power, authority or forces;\ninsurrection, rebellion, revolution, civil war, usurped power, or any activity of any organisation the objects of which are or include the overthrowing or influencing of any de jure of de facto government by terrorism or by any violent means, or action taken by governmental  authority  in  hindering,  combating  or  defending against such an occurrence;\nany weapon of war employing atomic fission, radioactive force or radioactive material, whether in time of peace or war."
+  "embed_text": "טבלה זו מגדירה מונחים המשמשים בפוליסת ביטוח אחריות עסקית לחברות תוכנה וחומרה. מטרתה היא להבהיר את משמעותם של מונחים כמו 'חברה בת', 'טרור' ו'מלחמה' בהקשר של הפוליסה, כדי להבטיח הבנה אחידה של התנאים. ניתן לחפש הגדרות ספציפיות לפי מונח, כגון 'מלחמה' או 'טרור', כדי להבין את הכיסוי הביטוחי הרלוונטי. ההגדרות כוללות תיאורים מפורטים של פעולות, גורמים וארגונים הקשורים לכל מונח. לדוגמה, ההגדרה של 'מלחמה' כוללת פעולות עוינות, התקפות ושימוש בנשק גרעיני. הגדרות אלו מסייעות לקבוע את היקף הכיסוי הביטוחי במצבי קיצון. This table defines terms used in the business liability insurance policy for software and hardware companies. It provides definitions for concepts like 'Subsidiary', 'Terrorism', and 'War' as they apply to the policy. בין הערכים בטבלה: Subsidiary: controls board of directors; Subsidiary: con…",
+  "payload": "טבלה: הגדרות פוליסה\nThis table defines terms used in the business liability insurance policy for software and hardware companies. It provides definitions for concepts like 'Subsidiary', 'Terrorism', and 'War' as they apply to the policy.\nממדים: definition, term\n\n20. War meaning:\nhostile or warlike action in time of peace or war, including action in hindering, combating or defending against an actual, impending or expected attack by:\n(a) any government or sovereign power (de jure or de facto) or by any  authority  maintaining  or  using  military,  naval  or  air forces, or;\n(b) military, naval or air forces, or;\n(c) any agent of any such government, power, authority or forces;\ninsurrection, rebellion, revolution, civil war, usurped power, or any activity of any organisation the objects of which are or include the overthrowing or influencing of any de jure of de facto government by terrorism or by any violent means, or action taken by governmental  authority  in  hindering,  combating  or  defending against such an occurrence;\nany weapon of war employing atomic fission, radioactive force or radioactive material, whether in time of peace or war."
 }

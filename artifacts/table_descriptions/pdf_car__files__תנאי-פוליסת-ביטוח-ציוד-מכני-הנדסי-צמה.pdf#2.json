@@ -3,21 +3,25 @@
   "source": "llm",
   "description": {
     "title": "תנאי פוליסת ביטוח צ.מ.ה",
-    "summary": "This table outlines the terms of an engineering equipment insurance policy (צ.מ.ה). It details the agreement between 'Harel Insurance Company Ltd.' and the insured regarding coverage, premiums, and policy duration.",
-    "embed_passage": "פוליסה זו היא חוזה בין הראל חברה לביטוח בע״מ לבין המבוטח. המבטח מסכים לשפות את המבוטח בשל מקרה ביטוח לרכוש המבוטח, תמורת דמי ביטוח. דמי הביטוח, תקופת הביטוח, ההשתתפות העצמית וגבולות האחריות נקובים ברשימה המהווה חלק בלתי נפרד מפוליסה זו.",
-    "row_axis": "Policy clauses / conditions",
-    "column_axis": "Details of the agreement",
+    "summary": "This table outlines the terms of an insurance policy for Mechanical and Engineering Equipment (צ.מ.ה). It details the agreement between 'Harel Insurance Company Ltd.' and the insured, covering compensation for damage to the insured's property and potential third-party damage.",
+    "embed_passage": "טבלה זו מתארת את תנאי פוליסת ביטוח צ.מ.ה, הסכם בין הראל חברה לביטוח בע״מ לבין המבוטח. הפוליסה מכסה נזקים לרכוש המבוטח ולרכוש של צד שלישי, בתמורה לדמי ביטוח. דמי הביטוח, תקופת הביטוח, ההשתתפות העצמית וגבולות האחריות מפורטים ברשימה המצורפת לפוליסה. הראל חברה לביטוח בע״מ, המבוטח, דמי ביטוח, תקופת הביטוח, השתתפות עצמית, גבולות אחריות, רכוש המבוטח, רכוש צד שלישי.",
+    "row_axis": "Policy conditions / agreement details",
+    "column_axis": "Parties involved, coverage scope, financial terms",
     "units": [],
     "notable_values": [
-      "company: הראל חברה לביטוח בע״מ",
-      "policy type: ביטוח צ.מ.ה (ציוד מכני הנדסי)"
+      "Harel Insurance Company Ltd.: המבטח",
+      "המבוטח: The Insured",
+      "דמי ביטוח: Insurance premium",
+      "תקופת הביטוח: Insurance period",
+      "השתתפות עצמית: Self-participation",
+      "גבולות אחריות: Liability limits"
     ],
     "product_hints": [
       "ביטוח צ.מ.ה",
-      "הראל"
+      "Harel Insurance"
     ]
   },
   "sketch": "מבוא\nפוליסה זו היא חוזה בין\n)\" הראל חברה לביטוח בע\"מ (להלן 'המבטח או החברה\nלבין\n)\" המבוטח ששמו נקוב ברשימה (להלן 'המבוטח\nלפיה מסכים המבטח, תמורת דמי ביטוח, לשפות את המבוטח למשך תקופת הביטוח בשל מקרה ביטוח שיגרם לרכוש המבוטח ובשל נזק לרכוש צד שלישי, אם נרכש, הכול לפי תנאי .)\" פוליסה זו (להלן 'היקף הכיסוי\nדמי הביטוח, תקופת הביטוח, ההשתתפות העצמית וגבולות האחריות נקובים ברשימה המהווה חלק בלתי נפרד מפוליסה זו.",
-  "embed_text": "פוליסה זו היא חוזה בין הראל חברה לביטוח בע״מ לבין המבוטח. המבטח מסכים לשפות את המבוטח בשל מקרה ביטוח לרכוש המבוטח, תמורת דמי ביטוח. דמי הביטוח, תקופת הביטוח, ההשתתפות העצמית וגבולות האחריות נקובים ברשימה המהווה חלק בלתי נפרד מפוליסה זו.",
-  "payload": "טבלה: תנאי פוליסת ביטוח צ.מ.ה\nThis table outlines the terms of an engineering equipment insurance policy (צ.מ.ה). It details the agreement between 'Harel Insurance Company Ltd.' and the insured regarding coverage, premiums, and policy duration.\nממדים: Policy clauses / conditions, Details of the agreement\n\nמבוא\nפוליסה זו היא חוזה בין\n)\" הראל חברה לביטוח בע\"מ (להלן 'המבטח או החברה\nלבין\n)\" המבוטח ששמו נקוב ברשימה (להלן 'המבוטח\nלפיה מסכים המבטח, תמורת דמי ביטוח, לשפות את המבוטח למשך תקופת הביטוח בשל מקרה ביטוח שיגרם לרכוש המבוטח ובשל נזק לרכוש צד שלישי, אם נרכש, הכול לפי תנאי .)\" פוליסה זו (להלן 'היקף הכיסוי\nדמי הביטוח, תקופת הביטוח, ההשתתפות העצמית וגבולות האחריות נקובים ברשימה המהווה חלק בלתי נפרד מפוליסה זו."
+  "embed_text": "טבלה זו מתארת את תנאי פוליסת ביטוח צ.מ.ה, הסכם בין הראל חברה לביטוח בע״מ לבין המבוטח. הפוליסה מכסה נזקים לרכוש המבוטח ולרכוש של צד שלישי, בתמורה לדמי ביטוח. דמי הביטוח, תקופת הביטוח, ההשתתפות העצמית וגבולות האחריות מפורטים ברשימה המצורפת לפוליסה. הראל חברה לביטוח בע״מ, המבוטח, דמי ביטוח, תקופת הביטוח, השתתפות עצמית, גבולות אחריות, רכוש המבוטח, רכוש צד שלישי. This table outlines the terms of an insurance policy for Mechanical and Engineering Equipment (צ.מ.ה). It details the agreement between 'Harel Insurance Company Ltd.' and the insured, covering compensation for damage to the insured's property and potential third-party damage. בין הערכים בטבלה: Harel Insurance Company Ltd.: המבטח.",
+  "payload": "טבלה: תנאי פוליסת ביטוח צ.מ.ה\nThis table outlines the terms of an insurance policy for Mechanical and Engineering Equipment (צ.מ.ה). It details the agreement between 'Harel Insurance Company Ltd.' and the insured, covering compensation for damage to the insured's property and potential third-party damage.\nממדים: Policy conditions / agreement details, Parties involved, coverage scope, financial terms\n\nמבוא\nפוליסה זו היא חוזה בין\n)\" הראל חברה לביטוח בע\"מ (להלן 'המבטח או החברה\nלבין\n)\" המבוטח ששמו נקוב ברשימה (להלן 'המבוטח\nלפיה מסכים המבטח, תמורת דמי ביטוח, לשפות את המבוטח למשך תקופת הביטוח בשל מקרה ביטוח שיגרם לרכוש המבוטח ובשל נזק לרכוש צד שלישי, אם נרכש, הכול לפי תנאי .)\" פוליסה זו (להלן 'היקף הכיסוי\nדמי הביטוח, תקופת הביטוח, ההשתתפות העצמית וגבולות האחריות נקובים ברשימה המהווה חלק בלתי נפרד מפוליסה זו."
 }

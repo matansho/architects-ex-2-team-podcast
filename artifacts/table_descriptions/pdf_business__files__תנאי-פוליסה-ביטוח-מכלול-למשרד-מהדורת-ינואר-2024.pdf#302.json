@@ -2,23 +2,25 @@
   "id": "pdf:business/files/תנאי-פוליסה-ביטוח-מכלול-למשרד-מהדורת-ינואר-2024.pdf#302",
   "source": "llm",
   "description": {
-    "title": "תנאי פוליסה - מכלול",
-    "summary": "This table outlines the insurer's rights regarding loss or damage to insured property under the 'מכלול' policy. It details conditions under which the insurer's liability may be reduced if the insured hinders investigation.",
-    "embed_passage": "פוליסת 'מכלול' מאפשרת למבטח להיכנס לבניין או לחצרים שבהם אירע מקרה הביטוח לצורך בירור חבותו. אם המבוטח יפריע לבירור, חבות המבטח תתקנן, אך לא מעבר לסכום שהיה חייב בו אילו קוימה החובה. לדוגמה, אם החובה לא קוימה מסיבות מוצדקות, או שאי קיומה לא מנע את בירור החבות.",
-    "row_axis": "Conditions related to insurer's rights and insured's obligations",
-    "column_axis": "Specific clauses and sub-clauses regarding investigation and liability",
+    "title": "תנאי פוליסה – סמכויות המבטח",
+    "summary": "This table outlines the insurer's rights regarding loss or damage to insured property. It details conditions under which the insurer's liability may be reduced if the insured obstructs investigation.",
+    "embed_passage": "טבלה זו מתארת את סמכויות המבטח במקרה של אובדן או נזק לרכוש המבוטח על פי פוליסת מכלול. ניתן לעיין בתנאים המפורטים כדי להבין את זכויות המבטח ואת חובות המבוטח במקרה של תביעה. הטבלה מפרטת מצבים בהם חבות המבטח עשויה להיות מופחתת, כגון אי שיתוף פעולה מצד המבוטח. סעיפים אלו רלוונטיים במיוחד לפוליסת מכלול, ומסייעים בהבנת תהליך הטיפול בתביעות. המבטח רשאי להיכנס לבניין או לחצרים שבהם קרה מקרה הביטוח, לקבל לידיו רכוש של המבוטח, לבדוק אותו, למיין אותו, לסדר אותו, להעביר אותו או לטפל בו בדרך אחרת. במקרה של אי מילוי דרישות המבטח או הפרעה לבירור חבותו, חבות המבטח תוקטן.",
+    "row_axis": "תנאים להפחתת חבות המבטח",
+    "column_axis": "הוראות לגבי חבות המבטח",
     "units": [],
     "notable_values": [
-      "9.22.1.1: Entry to premises",
-      "9.22.1.2: Taking possession of insured property",
-      "9.22.2.1: Non-compliance with justified reasons",
-      "9.22.2.2: No hindrance to investigation"
+      "סמכויות המבטח: כניסה לבניין",
+      "סמכויות המבטח: קבלת רכוש המבוטח",
+      "סמכויות המבטח: בדיקת רכוש",
+      "הפחתת חבות המבטח: אי מילוי דרישות",
+      "הפחתת חבות המבטח: הפרעה לבירור",
+      "הפחתת חבות המבטח: מניעת שימוש בסמכויות"
     ],
     "product_hints": [
       "מכלול"
     ]
   },
   "sketch": ".9.22.2 אם המבוטח או כל אדם אחר הפועל בשמו לא ימלא את דרישות המבטח או יפריע למבטח או ימנע ממנו שימוש בסמכויותיו הניתנות בזה לבירור חבותו, תוקטן חבותו של המבטח, ואין המבטח חייב בתגמולי הביטוח הוראה זו לא תחול אלא במידה שהיה חייב בהם אילו קוימה החובה; בכל אחת מאלה:\n.9.22.2.1 החובה לא קוימה, או קוימה באיחור, מסיבות מוצדקות;\n.9.22.2.2 אי קיומה או איחורה לא מנע מן המבטח את בירור חבותו ולא הכביד על הבירור.",
-  "embed_text": "פוליסת 'מכלול' מאפשרת למבטח להיכנס לבניין או לחצרים שבהם אירע מקרה הביטוח לצורך בירור חבותו. אם המבוטח יפריע לבירור, חבות המבטח תתקנן, אך לא מעבר לסכום שהיה חייב בו אילו קוימה החובה. לדוגמה, אם החובה לא קוימה מסיבות מוצדקות, או שאי קיומה לא מנע את בירור החבות.",
-  "payload": "טבלה: תנאי פוליסה - מכלול\nThis table outlines the insurer's rights regarding loss or damage to insured property under the 'מכלול' policy. It details conditions under which the insurer's liability may be reduced if the insured hinders investigation.\nממדים: Conditions related to insurer's rights and insured's obligations, Specific clauses and sub-clauses regarding investigation and liability\n\n.9.22.2 אם המבוטח או כל אדם אחר הפועל בשמו לא ימלא את דרישות המבטח או יפריע למבטח או ימנע ממנו שימוש בסמכויותיו הניתנות בזה לבירור חבותו, תוקטן חבותו של המבטח, ואין המבטח חייב בתגמולי הביטוח הוראה זו לא תחול אלא במידה שהיה חייב בהם אילו קוימה החובה; בכל אחת מאלה:\n.9.22.2.1 החובה לא קוימה, או קוימה באיחור, מסיבות מוצדקות;\n.9.22.2.2 אי קיומה או איחורה לא מנע מן המבטח את בירור חבותו ולא הכביד על הבירור."
+  "embed_text": "טבלה זו מתארת את סמכויות המבטח במקרה של אובדן או נזק לרכוש המבוטח על פי פוליסת מכלול. ניתן לעיין בתנאים המפורטים כדי להבין את זכויות המבטח ואת חובות המבוטח במקרה של תביעה. הטבלה מפרטת מצבים בהם חבות המבטח עשויה להיות מופחתת, כגון אי שיתוף פעולה מצד המבוטח. סעיפים אלו רלוונטיים במיוחד לפוליסת מכלול, ומסייעים בהבנת תהליך הטיפול בתביעות. המבטח רשאי להיכנס לבניין או לחצרים שבהם קרה מקרה הביטוח, לקבל לידיו רכוש של המבוטח, לבדוק אותו, למיין אותו, לסדר אותו, להעביר אותו או לטפל בו בדרך אחרת. במקרה של אי מילוי דרישות המבטח או הפרעה לבירור חבותו, חבות המבטח תוקטן. This table outlines the insurer's rights regarding loss or damage to insured property. It details conditions under which the insurer's liability may be reduced if the insured obstructs investigation. בין הערכים בטבלה: הפחתת חבות המבטח: מ…",
+  "payload": "טבלה: תנאי פוליסה – סמכויות המבטח\nThis table outlines the insurer's rights regarding loss or damage to insured property. It details conditions under which the insurer's liability may be reduced if the insured obstructs investigation.\nממדים: תנאים להפחתת חבות המבטח, הוראות לגבי חבות המבטח\n\n.9.22.2 אם המבוטח או כל אדם אחר הפועל בשמו לא ימלא את דרישות המבטח או יפריע למבטח או ימנע ממנו שימוש בסמכויותיו הניתנות בזה לבירור חבותו, תוקטן חבותו של המבטח, ואין המבטח חייב בתגמולי הביטוח הוראה זו לא תחול אלא במידה שהיה חייב בהם אילו קוימה החובה; בכל אחת מאלה:\n.9.22.2.1 החובה לא קוימה, או קוימה באיחור, מסיבות מוצדקות;\n.9.22.2.2 אי קיומה או איחורה לא מנע מן המבטח את בירור חבותו ולא הכביד על הבירור."
 }

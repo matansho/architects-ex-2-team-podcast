@@ -2,26 +2,29 @@
   "id": "pdf:car/files/פוליסה-לביטוח-רכב-פרטי-ורכב-מסחרי-עד-35-טון-מבית-שירביט-מהדורת-יוני-2023.pdf#364",
   "source": "llm",
   "description": {
-    "title": "שירביט - חריגים לשבר שמשה",
-    "summary": "This table details exclusions to windshield damage coverage under a Shirbit car insurance policy. It lists specific scenarios where claims for windshield repair or replacement will not be honored.",
-    "embed_passage": "פוליסת שירביט לביטוח רכב פרטי ורכב מסחרי כוללת חריגים רבים לשבר שמשה. לדוגמה, שבר לשמשה שארע כתוצאה מתחרות או מבחן נהיגה אינו מכוסה (3.4). כמו כן, שריטות שאינן פולשות דרך עובי השמשה אינן כלולות (3.7).",
-    "row_axis": "exclusion reason",
-    "column_axis": "description of exclusion",
+    "title": "חריגים לשבר שמשה",
+    "summary": "This table lists exclusions to windshield damage coverage under a Shirbit car insurance policy. It details specific scenarios where claims for windshield repair or replacement will not be honored.",
+    "embed_passage": "טבלה זו מפרטת חריגים לפוליסת ביטוח רכב של שירביט, המתייחסים לנזקים לשמשות. החריגים מגדירים מצבים שבהם לא תינתן תגמול עבור שבר או נזק לשמשה, כגון נזק מכוון, תחרות נהיגה או רכבים ללא סוכנות בישראל. ניתן לחפש חריגים ספציפיים לפי סעיף או תיאור הנזק. החריגים כוללים: קלקולים במנגנונים לשמשות, שבר עקב תחרות, פיצוי על פי חוק המדינה, רכב בייבוא אישי ללא חלופות בישראל.",
+    "row_axis": "סעיף חריג",
+    "column_axis": "תיאור חריג",
     "units": [],
     "notable_values": [
-      "exclusion 3.1: intentional damage by insured",
-      "exclusion 3.2: special/non-factory windshields",
-      "exclusion 3.4: damage during competition/driving test",
-      "exclusion 3.6: vehicles without Israeli agency",
-      "exclusion 3.7: scratches not penetrating the glass"
+      "סעיף 3.1: שבר שמשה מכוון",
+      "סעיף 3.2: שמשות מיוחדות",
+      "סעיף 3.3: קלקולים במנגנונים לשמשות",
+      "סעיף 3.4: שבר בתחרות נהיגה",
+      "סעיף 3.5: פיצוי על פי חוק המדינה",
+      "סעיף 3.6: רכב ללא סוכנות בישראל",
+      "סעיף 3.7: שריטות שאינן פולשות",
+      "סעיף 3.8: גניבת שמשה"
     ],
     "product_hints": [
-      "שירביט רכב",
-      "ביטוח רכב שירביט",
-      "פוליסת רכב שירביט"
+      "פוליסת ביטוח רכב שירביט",
+      "ביטוח רכב פרטי",
+      "ביטוח רכב מסחרי"
     ]
   },
   "sketch": ". קלקולים מכל סוג שהוא למנגנונים, ניקלים, חיישנים, מצלמות ואביזרי עזר לשמשות. 3.3\n. שבר לשמשה שארע כתוצאה או עקב תחרות ו/או במבחן נהיגה ו/או בדיקת כושר נהיגה. 3.4\n. כל נזק אשר הפיצוי בגינו ניתן עפ\"י חוקי המדינה. 3.5\n. רכב שאין לו סוכנות בישראל וכן רכב שיובא בייבוא אישי, אלא אם יש לרכב שמשות 3.6 חלופיות בישראל, וניתן על כך אישור מראש על ידי המבטח.",
-  "embed_text": "פוליסת שירביט לביטוח רכב פרטי ורכב מסחרי כוללת חריגים רבים לשבר שמשה. לדוגמה, שבר לשמשה שארע כתוצאה מתחרות או מבחן נהיגה אינו מכוסה (3.4). כמו כן, שריטות שאינן פולשות דרך עובי השמשה אינן כלולות (3.7).",
-  "payload": "טבלה: שירביט - חריגים לשבר שמשה\nThis table details exclusions to windshield damage coverage under a Shirbit car insurance policy. It lists specific scenarios where claims for windshield repair or replacement will not be honored.\nממדים: exclusion reason, description of exclusion\n\n. קלקולים מכל סוג שהוא למנגנונים, ניקלים, חיישנים, מצלמות ואביזרי עזר לשמשות. 3.3\n. שבר לשמשה שארע כתוצאה או עקב תחרות ו/או במבחן נהיגה ו/או בדיקת כושר נהיגה. 3.4\n. כל נזק אשר הפיצוי בגינו ניתן עפ\"י חוקי המדינה. 3.5\n. רכב שאין לו סוכנות בישראל וכן רכב שיובא בייבוא אישי, אלא אם יש לרכב שמשות 3.6 חלופיות בישראל, וניתן על כך אישור מראש על ידי המבטח."
+  "embed_text": "טבלה זו מפרטת חריגים לפוליסת ביטוח רכב של שירביט, המתייחסים לנזקים לשמשות. החריגים מגדירים מצבים שבהם לא תינתן תגמול עבור שבר או נזק לשמשה, כגון נזק מכוון, תחרות נהיגה או רכבים ללא סוכנות בישראל. ניתן לחפש חריגים ספציפיים לפי סעיף או תיאור הנזק. החריגים כוללים: קלקולים במנגנונים לשמשות, שבר עקב תחרות, פיצוי על פי חוק המדינה, רכב בייבוא אישי ללא חלופות בישראל. This table lists exclusions to windshield damage coverage under a Shirbit car insurance policy. It details specific scenarios where claims for windshield repair or replacement will not be honored. בין הערכים בטבלה: סעיף 3.1: שבר שמשה מכוון; סעיף 3.2: שמשות מיוחדות; סעיף 3.4: שבר בתחרות נהיגה; סעיף 3.6: רכב ללא סוכנות בישראל; סעיף 3.7: שריטות שאינן פולשות; סעיף 3.8: גניבת שמשה.",
+  "payload": "טבלה: חריגים לשבר שמשה\nThis table lists exclusions to windshield damage coverage under a Shirbit car insurance policy. It details specific scenarios where claims for windshield repair or replacement will not be honored.\nממדים: סעיף חריג, תיאור חריג\n\n. קלקולים מכל סוג שהוא למנגנונים, ניקלים, חיישנים, מצלמות ואביזרי עזר לשמשות. 3.3\n. שבר לשמשה שארע כתוצאה או עקב תחרות ו/או במבחן נהיגה ו/או בדיקת כושר נהיגה. 3.4\n. כל נזק אשר הפיצוי בגינו ניתן עפ\"י חוקי המדינה. 3.5\n. רכב שאין לו סוכנות בישראל וכן רכב שיובא בייבוא אישי, אלא אם יש לרכב שמשות 3.6 חלופיות בישראל, וניתן על כך אישור מראש על ידי המבטח."
 }

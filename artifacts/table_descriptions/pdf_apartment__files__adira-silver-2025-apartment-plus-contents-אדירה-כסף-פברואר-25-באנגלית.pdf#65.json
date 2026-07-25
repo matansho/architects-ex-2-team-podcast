@@ -2,28 +2,27 @@
   "id": "pdf:apartment/files/adira-silver-2025-apartment-plus-contents-אדירה-כסף-פברואר-25-באנגלית.pdf#65",
   "source": "llm",
   "description": {
-    "title": "אדירה כסף - ביטוח תכולה",
-    "summary": "This table details the covered and excluded events for contents insurance under the Adira Kesef plan. It specifies what types of damage or loss are covered within the insured apartment.",
-    "embed_passage": "ביטוח תכולה של אדירה כסף מכסה אובדן או נזק פיזי מקרי, אקראי ובלתי צפוי לרכוש המבוטח, בתנאי שהאירוע התרחש במהלך תקופת הביטוח בדירה המבוטחת. הביטוח אינו מכסה נזק לטלפונים ניידים, טאבלטים ומחשבים ניידים, או נזק כתוצאה מתהליכי ניקוי, חידוש, תיקון או צביעה. סכום הביטוח המקסימלי עבור פריטים לא מפורטים עומד על 50,000 ש\"ח.",
-    "row_axis": "Specific insured event/exclusion",
-    "column_axis": "Description of the event/exclusion",
-    "units": [
-      "₪"
-    ],
+    "title": "כיסוי ביטוחי - תכולת דירה",
+    "summary": "This table details exclusions to contents insurance coverage under the 'Adira Silver' policy. It lists events that are *not* covered, such as damage from insects or mechanical breakdown.",
+    "embed_passage": "טבלה זו מתארת את החרגות הכיסוי הביטוחי לתכולת הדירה במסגרת פוליסת 'אדירה כסף'. הכיסוי אינו חל על אירועים מקריים, אקראיים ובלתי צפויים כגון נזק שנגרם על ידי חרקים, שחיקה, או תקלות מכניות. ניתן לעיין בפירוט החרגות השונות כדי להבין את היקף הכיסוי. החרגות כוללות: נזק לרהיטים, מקררים, משקפיים, טלפונים סלולריים, מחשבים ניידים, נזקי מים, תהליכי חלודה וקורוזיה, תנועת קרקע, תכנון לקוי, ועוד. פוליסת 'אדירה כסף' מציעה כיסוי מקיף, אך חשוב להכיר את תנאי הפוליסה והחרגות.",
+    "row_axis": "excluded event",
+    "column_axis": "description",
+    "units": [],
     "notable_values": [
-      "Maximum liability: 50,000 ₪",
-      "Laptop cover: Explicitly noted in specification",
-      "Content insurance: Covered events",
-      "All Risks cover: Certain content items",
-      "Mobile phones/tablets: Not covered"
+      "damage to eyeglasses: covered",
+      "damage to mobile phones: excluded",
+      "damage to laptops: excluded",
+      "damage from insects: excluded",
+      "damage from mechanical breakdown: excluded",
+      "damage from wear and tear: excluded",
+      "damage from rust: excluded",
+      "damage from soil movement: excluded"
     ],
     "product_hints": [
-      "אדירה כסף",
-      "Adira Silver",
-      "ביטוח תכולה"
+      "Adira Silver"
     ]
   },
-  "sketch": "26.2 The insured event\nAccidental, random and unexpected physical loss or damage to the insured property described in the specification, which occurs in the course of the insurance period, as a result of any reason while in the insured apartment, except as follows:\n26.2.1 An insured event which is covered or could be covered under this chapter (Contents Insurance) or in paragraph 23 (All Risks cover for certain content items).\n26.2.2 Direct mechanical breakdown or of electrical or electronic breakdown damages.\n…\n26.2.7 Damage to eye-glasses, contact lenses, hearing aids, dentures.\n26.2.8 Damage to mobile phones, tablets and laptop/ wearable computers.\n26.2.9 Damage due to cleaning, renewal, repair or painting processes.\n26.2.10 Consequential damage.",
-  "embed_text": "ביטוח תכולה של אדירה כסף מכסה אובדן או נזק פיזי מקרי, אקראי ובלתי צפוי לרכוש המבוטח, בתנאי שהאירוע התרחש במהלך תקופת הביטוח בדירה המבוטחת. הביטוח אינו מכסה נזק לטלפונים ניידים, טאבלטים ומחשבים ניידים, או נזק כתוצאה מתהליכי ניקוי, חידוש, תיקון או צביעה. סכום הביטוח המקסימלי עבור פריטים לא מפורטים עומד על 50,000 ש\"ח.",
-  "payload": "טבלה: אדירה כסף - ביטוח תכולה\nThis table details the covered and excluded events for contents insurance under the Adira Kesef plan. It specifies what types of damage or loss are covered within the insured apartment.\nממדים: Specific insured event/exclusion, Description of the event/exclusion\n\n26.2 The insured event\nAccidental, random and unexpected physical loss or damage to the insured property described in the specification, which occurs in the course of the insurance period, as a result of any reason while in the insured apartment, except as follows:\n26.2.1 An insured event which is covered or could be covered under this chapter (Contents Insurance) or in paragraph 23 (All Risks cover for certain content items).\n26.2.2 Direct mechanical breakdown or of electrical or electronic breakdown damages.\n26.2.3 Scratching or cracking of coating on furniture or household refrigerators or enamel coating of any type.\n26.2.4 Damage caused by moths, other insects, worms, rodents, gradual destruction, wear, moisture, rust and corrosion processes, atmospheric or climatic factors having a gradual effect.\n26.2.5 Damage resulting from soil movement and/or subsidence.\n26.2.6 Damage resulting from defective planning and/or construction and/or defective workmanship.\n26.2.7 Damage to eye-glasses, contact lenses, hearing aids, dentures.\n26.2.8 Damage to mobile phones, tablets and laptop/ wearable computers.\n26.2.9 Damage due to cleaning, renewal, repair or painting processes.\n26.2.10 Consequential damage."
+  "sketch": "26.2 The insured event\nAccidental, random and unexpected physical loss or damage to the insured property described in the specification, which occurs in the course of the insurance period, as a result of any reason while in the insured apartment, except as follows:\n26.2.1 An insured event which is covered or could be covered under this chapter (Contents Insurance) or in paragraph 23 (All Risks cover for certain content items).\n26.2.2 Direct mechanical breakdown or of electrical or electronic breakdown damages.\n26.2.3 Scratching or cracking of coating on furniture or household refrigerators or enamel coating of any type.\n26.2.4 Damage caused by moths, other insects, worms, rodents, gradual destruction, wear, moisture, rust and corrosion processes, atmospheric or climatic factors having a gradual effect.\n26.2.5 Damage resulting from soil movement and/or subsidence.\n26.2.6 Damage resulting from defective planning and/or construction and/or defective workmanship.\n26.2.7 Damage to eye-glasses, contact lenses, hearing aids, dentures.\n26.2.8 Damage to mobile phones, tablets and laptop/ wearable computers.\n26.2.9 Damage due to cleaning, renewal, repair or painting processes.\n26.2.10 Consequential damage.",
+  "embed_text": "טבלה זו מתארת את החרגות הכיסוי הביטוחי לתכולת הדירה במסגרת פוליסת 'אדירה כסף'. הכיסוי אינו חל על אירועים מקריים, אקראיים ובלתי צפויים כגון נזק שנגרם על ידי חרקים, שחיקה, או תקלות מכניות. ניתן לעיין בפירוט החרגות השונות כדי להבין את היקף הכיסוי. החרגות כוללות: נזק לרהיטים, מקררים, משקפיים, טלפונים סלולריים, מחשבים ניידים, נזקי מים, תהליכי חלודה וקורוזיה, תנועת קרקע, תכנון לקוי, ועוד. פוליסת 'אדירה כסף' מציעה כיסוי מקיף, אך חשוב להכיר את תנאי הפוליסה והחרגות. This table details exclusions to contents insurance coverage under the 'Adira Silver' policy. It lists events that are *not* covered, such as damage from insects or mechanical breakdown. בין הערכים בטבלה: damage to eyeglasses: covered; damage to mobile phones: excluded; damage to laptops: excluded; damage from insects: excluded; damage…",
+  "payload": "טבלה: כיסוי ביטוחי - תכולת דירה\nThis table details exclusions to contents insurance coverage under the 'Adira Silver' policy. It lists events that are *not* covered, such as damage from insects or mechanical breakdown.\nממדים: excluded event, description\n\n26.2 The insured event\nAccidental, random and unexpected physical loss or damage to the insured property described in the specification, which occurs in the course of the insurance period, as a result of any reason while in the insured apartment, except as follows:\n26.2.1 An insured event which is covered or could be covered under this chapter (Contents Insurance) or in paragraph 23 (All Risks cover for certain content items).\n26.2.2 Direct mechanical breakdown or of electrical or electronic breakdown damages.\n26.2.3 Scratching or cracking of coating on furniture or household refrigerators or enamel coating of any type.\n26.2.4 Damage caused by moths, other insects, worms, rodents, gradual destruction, wear, moisture, rust and corrosion processes, atmospheric or climatic factors having a gradual effect.\n26.2.5 Damage resulting from soil movement and/or subsidence.\n26.2.6 Damage resulting from defective planning and/or construction and/or defective workmanship.\n26.2.7 Damage to eye-glasses, contact lenses, hearing aids, dentures.\n26.2.8 Damage to mobile phones, tablets and laptop/ wearable computers.\n26.2.9 Damage due to cleaning, renewal, repair or painting processes.\n26.2.10 Consequential damage."
 }

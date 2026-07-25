@@ -2,28 +2,23 @@
   "id": "pdf:diseases-disabilities/files/תנאי-פוליסת-ביטוח-מחלות-קשות-מענקית-סרטן-1.pdf#69",
   "source": "llm",
   "description": {
-    "title": "מענקית סרטן",
-    "summary": "This table details the conditions of the 'מענקית סרטן' insurance policy, specifically regarding coverage start dates (waiting periods) and potential reductions in the insured amount based on the insured's age. It outlines how the coverage begins and how the sum insured may be affected.",
-    "embed_passage": "פוליסת 'מענקית סרטן' מספקת פיצוי במקרה של אבחון סרטן. סכום הביטוח עשוי להשתנות בהתאם לגיל המבוטח, כאשר ירידה של 5% מסכום הביטוח מתרחשת מדי שנה החל מגיל 65. לדוגמה, אם סכום הביטוח הראשוני הוא ₪10,000, הוא עשוי להיווצר בהתאם לגיל המבוטח.",
-    "row_axis": "Policy conditions/coverage aspects (e.g., waiting period, age-related sum insured reduction)",
-    "column_axis": "Details of the condition/aspect (e.g., waiting period duration, reduction percentage)",
-    "units": [
-      "₪",
-      "שנים",
-      "%"
-    ],
+    "title": "תנאי פוליסת ביטוח מחלות קשות מענקית סרטן",
+    "summary": "This table details conditions related to the 'מענקית סרטן' critical illness insurance policy, specifically regarding coverage start dates, age-related sum reductions, and claim eligibility. It outlines how the insured sum may be affected by the policyholder's age and the timing of cancer diagnoses.",
+    "embed_passage": "טבלה זו מתארת את תנאי פוליסת הביטוח 'מענקית סרטן', כולל מועדי תחילת הכיסוי, הפחתות בסכום הביטוח בהתאם לגיל, ותנאי זכאות לתביעה. ניתן לעיין בפרטי הכיסויים בסעיף 2.1, ולקבל מידע מפורט על אכשרה. הפוליסה מתייחסת למקרים של גילוי מחלת סרטן, מקרה ראשון ומקרה שני, וכן לגיל המבוטח בעת ההצטרפות ובעת תביעה. סכום הביטוח עשוי להשתנות בהתאם לגיל המבוטח, כאשר הפחתה של 5% מסכום הביטוח מתרחשת מדי שנה החל מגיל 65. גובה הפיצוי הכספי שאקבל תלוי בסכום הביטוח שרכשתי.",
+    "row_axis": "Policy conditions / coverage details",
+    "column_axis": "Coverage details, age-related adjustments, claim eligibility",
+    "units": [],
     "notable_values": [
-      "גיל 65: ירידה של 5% מסכום הביטוח",
-      "יום 90: תקופת אכשרה לתביעות",
-      "₪ 10,000: דוגמה לסכום ביטוח",
-      "5 שנים: תקופה מינימלית בין מקרי סרטן",
-      "65: גיל בו מתחילים שינויים בפרמיה"
+      "יום 90 בפוליסה: הכיסויים לפרק 2.1",
+      "גיל 65: הפחתת סכום הביטוח בשיעור 5% לשנה",
+      "גיל 65: סכום הביטוח יוקטן בהתאם",
+      "גיל המבוטח בעת ההצטרפות: סכום הביטוח מוקטן במקרה של גיל 65 ומעלה"
     ],
     "product_hints": [
       "מענקית סרטן"
     ]
   },
   "sketch": "וכן קודם זה. בעניין מפורט מידע לקבלת,המבוטח את מכסה אינה הפוליסה בפוליסה( )חריגים הבאים במקרים\n\"יום 90 בפוליסה- הכיסויים לפרק 2.1 ,1 בסעיף כמפורט\",ניתן הביטוח מתחילת זמן כמה אחרי 1 )אכשרה( תגמול ולקבל לתבוע\n\"בתוקף ושהינו הביטוח פרטי בדף מפורט הסכום שרכשת, לסכום בהתאם הביטוח סכום יוקטן ,65 לגיל המבוטח בהגיע .65 לגיל המבוטח הגיע בטרם .65 לגיל הגיעו לפני בתוקף שהינו הביטוח מסכום 5% של בשיעור שנה מדי לראשונה ההצטרפות בעת המבוטח שגיל במקרה יוקטן לא הביטוח סכום ומעלה. 65 מגיל הנו לביטוח\",שאקבל הכספי הפיצוי גובה",
-  "embed_text": "פוליסת 'מענקית סרטן' מספקת פיצוי במקרה של אבחון סרטן. סכום הביטוח עשוי להשתנות בהתאם לגיל המבוטח, כאשר ירידה של 5% מסכום הביטוח מתרחשת מדי שנה החל מגיל 65. לדוגמה, אם סכום הביטוח הראשוני הוא ₪10,000, הוא עשוי להיווצר בהתאם לגיל המבוטח.",
-  "payload": "טבלה: מענקית סרטן\nThis table details the conditions of the 'מענקית סרטן' insurance policy, specifically regarding coverage start dates (waiting periods) and potential reductions in the insured amount based on the insured's age. It outlines how the coverage begins and how the sum insured may be affected.\nממדים: Policy conditions/coverage aspects (e.g., waiting period, age-related sum insured reduction), Details of the condition/aspect (e.g., waiting period duration, reduction percentage)\n\nוכן קודם זה. בעניין מפורט מידע לקבלת,המבוטח את מכסה אינה הפוליסה בפוליסה( )חריגים הבאים במקרים\n\"יום 90 בפוליסה- הכיסויים לפרק 2.1 ,1 בסעיף כמפורט\",ניתן הביטוח מתחילת זמן כמה אחרי 1 )אכשרה( תגמול ולקבל לתבוע\n\"בתוקף ושהינו הביטוח פרטי בדף מפורט הסכום שרכשת, לסכום בהתאם הביטוח סכום יוקטן ,65 לגיל המבוטח בהגיע .65 לגיל המבוטח הגיע בטרם .65 לגיל הגיעו לפני בתוקף שהינו הביטוח מסכום 5% של בשיעור שנה מדי לראשונה ההצטרפות בעת המבוטח שגיל במקרה יוקטן לא הביטוח סכום ומעלה. 65 מגיל הנו לביטוח\",שאקבל הכספי הפיצוי גובה"
+  "embed_text": "טבלה זו מתארת את תנאי פוליסת הביטוח 'מענקית סרטן', כולל מועדי תחילת הכיסוי, הפחתות בסכום הביטוח בהתאם לגיל, ותנאי זכאות לתביעה. ניתן לעיין בפרטי הכיסויים בסעיף 2.1, ולקבל מידע מפורט על אכשרה. הפוליסה מתייחסת למקרים של גילוי מחלת סרטן, מקרה ראשון ומקרה שני, וכן לגיל המבוטח בעת ההצטרפות ובעת תביעה. סכום הביטוח עשוי להשתנות בהתאם לגיל המבוטח, כאשר הפחתה של 5% מסכום הביטוח מתרחשת מדי שנה החל מגיל 65. גובה הפיצוי הכספי שאקבל תלוי בסכום הביטוח שרכשתי. This table details conditions related to the 'מענקית סרטן' critical illness insurance policy, specifically regarding coverage start dates, age-related sum reductions, and claim eligibility. It outlines how the insured sum may be affected by the policyholder's age and the timing of cancer diagnoses. בין הערכים בטבלה: יום 90 בפוליסה: הכיסויים לפרק 2…",
+  "payload": "טבלה: תנאי פוליסת ביטוח מחלות קשות מענקית סרטן\nThis table details conditions related to the 'מענקית סרטן' critical illness insurance policy, specifically regarding coverage start dates, age-related sum reductions, and claim eligibility. It outlines how the insured sum may be affected by the policyholder's age and the timing of cancer diagnoses.\nממדים: Policy conditions / coverage details, Coverage details, age-related adjustments, claim eligibility\n\nוכן קודם זה. בעניין מפורט מידע לקבלת,המבוטח את מכסה אינה הפוליסה בפוליסה( )חריגים הבאים במקרים\n\"יום 90 בפוליסה- הכיסויים לפרק 2.1 ,1 בסעיף כמפורט\",ניתן הביטוח מתחילת זמן כמה אחרי 1 )אכשרה( תגמול ולקבל לתבוע\n\"בתוקף ושהינו הביטוח פרטי בדף מפורט הסכום שרכשת, לסכום בהתאם הביטוח סכום יוקטן ,65 לגיל המבוטח בהגיע .65 לגיל המבוטח הגיע בטרם .65 לגיל הגיעו לפני בתוקף שהינו הביטוח מסכום 5% של בשיעור שנה מדי לראשונה ההצטרפות בעת המבוטח שגיל במקרה יוקטן לא הביטוח סכום ומעלה. 65 מגיל הנו לביטוח\",שאקבל הכספי הפיצוי גובה"
 }

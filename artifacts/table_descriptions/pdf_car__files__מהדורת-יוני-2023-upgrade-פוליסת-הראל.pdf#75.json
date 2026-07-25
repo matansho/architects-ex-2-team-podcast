@@ -2,23 +2,23 @@
   "id": "pdf:car/files/מהדורת-יוני-2023-upgrade-פוליסת-הראל.pdf#75",
   "source": "llm",
   "description": {
-    "title": "מחירון רכב הראל",
-    "summary": "This table details how various factors affect the value of a used car for insurance purposes. It's used to determine insurance payouts based on vehicle characteristics.",
-    "embed_passage": "מחירון זה מופיע טבלאות המפרטות משתנים שונים המשפיעים על ערך מכונית משומשת, כגון גיל הרכב ומספר הבעלים הקודמים. לדוגמא, אם הרכב המבוטח הוא רכב ששנת ייצורו קודמת ליום קרות מקרה הביטוח ב־4 שנים והוא היה בבעלותם של שלושה בעלים קודמים - יופחתו תגמולי הביטוח. השינויים מחושבים לפי שעורי השינוי המופיעים במחירון הראל.",
-    "row_axis": "vehicle characteristics (e.g., age, prior owners)",
-    "column_axis": "adjustment factors to vehicle value",
+    "title": "מחירון רכב",
+    "summary": "This table details variables affecting the value of a used car, used to determine insurance payouts. It outlines how adjustments are made to insurance compensation based on factors like the car's age and number of previous owners.",
+    "embed_passage": "טבלה זו מפרטת משתנים שונים המשפיעים על ערך מכונית משומשת, המשמשים לקביעת ערך השוק של הרכב לצורך תגמולי ביטוח הראל. המשתנים ילקחו בחשבון בעת קביעת גובה התגמול, והתגמולים יוגדלו או יופחתו בהתאם לשיעורי השינוי המופיעים במחירון. לדוגמא, אם הרכב המבוטח הוא רכב ששנת ייצורו קודמת ליום קרות מקרה הביטוח ב-4 שנים והוא היה בבעלותם של שלושה בעלים קודמים, יופחתו תגמולי הביטוח. המחירון משמש להערכת שווי הרכב לצורך תגמולי ביטוח הראל. המשתנים כוללים שנת ייצור הרכב, מספר הבעלים הקודמים, וגורמים נוספים המשפיעים על ערך השוק.",
+    "row_axis": "variables affecting used car value",
+    "column_axis": "impact on insurance compensation",
     "units": [],
     "notable_values": [
-      "years: 4",
-      "prior owners: 3",
-      "value adjustment: 4%"
+      "שנת ייצור: קודמת ל-4 שנים",
+      "מספר בעלים קודמים: שלושה",
+      "הפחתה בתגמול: 4%"
     ],
     "product_hints": [
-      "הראל",
-      "פוליסת הראל"
+      "פוליסת הראל",
+      "ביטוח הראל"
     ]
   },
   "sketch": ". במחירון זה מופיעות טבלאות המפרטות משתנים שונים, המשפיעים על ערך מכונית משומשת משתנים אלו ילקחו בחשבון בעת קביעת ערך השוק של הרכב לצורך תגמולי הביטוח, ותגמולי בגין משתנים אלה על פי שעורי השינוי המופיעים במחירון הנ\"ל. יוגדלו או יופחתו הביטוח\nבשל משתנים אלה. לא הושפע מובהר בזאת, כי סכום דמי הביטוח )הפרמיה( בגין הרכב המבוטח , שנים 4לדוגמא: אם הרכב המבוטח הוא רכב ששנת ייצורו קודמת ליום קרות מקרה הביטוח ב משווי הרכב 4% , והוא היה בבעלותם של שלושה בעלים קודמים - יופחתו, עפ\"י המחירון הנ\"ל המופיע במחירון.",
-  "embed_text": "מחירון זה מופיע טבלאות המפרטות משתנים שונים המשפיעים על ערך מכונית משומשת, כגון גיל הרכב ומספר הבעלים הקודמים. לדוגמא, אם הרכב המבוטח הוא רכב ששנת ייצורו קודמת ליום קרות מקרה הביטוח ב־4 שנים והוא היה בבעלותם של שלושה בעלים קודמים - יופחתו תגמולי הביטוח. השינויים מחושבים לפי שעורי השינוי המופיעים במחירון הראל.",
-  "payload": "טבלה: מחירון רכב הראל\nThis table details how various factors affect the value of a used car for insurance purposes. It's used to determine insurance payouts based on vehicle characteristics.\nממדים: vehicle characteristics (e.g., age, prior owners), adjustment factors to vehicle value\n\n. במחירון זה מופיעות טבלאות המפרטות משתנים שונים, המשפיעים על ערך מכונית משומשת משתנים אלו ילקחו בחשבון בעת קביעת ערך השוק של הרכב לצורך תגמולי הביטוח, ותגמולי בגין משתנים אלה על פי שעורי השינוי המופיעים במחירון הנ\"ל. יוגדלו או יופחתו הביטוח\nבשל משתנים אלה. לא הושפע מובהר בזאת, כי סכום דמי הביטוח )הפרמיה( בגין הרכב המבוטח , שנים 4לדוגמא: אם הרכב המבוטח הוא רכב ששנת ייצורו קודמת ליום קרות מקרה הביטוח ב משווי הרכב 4% , והוא היה בבעלותם של שלושה בעלים קודמים - יופחתו, עפ\"י המחירון הנ\"ל המופיע במחירון."
+  "embed_text": "טבלה זו מפרטת משתנים שונים המשפיעים על ערך מכונית משומשת, המשמשים לקביעת ערך השוק של הרכב לצורך תגמולי ביטוח הראל. המשתנים ילקחו בחשבון בעת קביעת גובה התגמול, והתגמולים יוגדלו או יופחתו בהתאם לשיעורי השינוי המופיעים במחירון. לדוגמא, אם הרכב המבוטח הוא רכב ששנת ייצורו קודמת ליום קרות מקרה הביטוח ב-4 שנים והוא היה בבעלותם של שלושה בעלים קודמים, יופחתו תגמולי הביטוח. המחירון משמש להערכת שווי הרכב לצורך תגמולי ביטוח הראל. המשתנים כוללים שנת ייצור הרכב, מספר הבעלים הקודמים, וגורמים נוספים המשפיעים על ערך השוק. This table details variables affecting the value of a used car, used to determine insurance payouts. It outlines how adjustments are made to insurance compensation based on factors like the car's age and number of previous owners. בין הערכים בטבלה: הפחתה בתגמול: 4%.",
+  "payload": "טבלה: מחירון רכב\nThis table details variables affecting the value of a used car, used to determine insurance payouts. It outlines how adjustments are made to insurance compensation based on factors like the car's age and number of previous owners.\nממדים: variables affecting used car value, impact on insurance compensation\n\n. במחירון זה מופיעות טבלאות המפרטות משתנים שונים, המשפיעים על ערך מכונית משומשת משתנים אלו ילקחו בחשבון בעת קביעת ערך השוק של הרכב לצורך תגמולי הביטוח, ותגמולי בגין משתנים אלה על פי שעורי השינוי המופיעים במחירון הנ\"ל. יוגדלו או יופחתו הביטוח\nבשל משתנים אלה. לא הושפע מובהר בזאת, כי סכום דמי הביטוח )הפרמיה( בגין הרכב המבוטח , שנים 4לדוגמא: אם הרכב המבוטח הוא רכב ששנת ייצורו קודמת ליום קרות מקרה הביטוח ב משווי הרכב 4% , והוא היה בבעלותם של שלושה בעלים קודמים - יופחתו, עפ\"י המחירון הנ\"ל המופיע במחירון."
 }

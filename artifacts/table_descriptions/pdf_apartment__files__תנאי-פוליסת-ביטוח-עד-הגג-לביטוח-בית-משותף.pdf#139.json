@@ -2,21 +2,21 @@
   "id": "pdf:apartment/files/תנאי-פוליסת-ביטוח-עד-הגג-לביטוח-בית-משותף.pdf#139",
   "source": "llm",
   "description": {
-    "title": "ביטוח דירה בבית משותף",
-    "summary": "This table details the liability coverage for apartment residents within a shared building. It outlines the insurer's responsibility to a third party based on damage caused by the insured's apartment.",
-    "embed_passage": "פוליסת 'ביטוח הדירה בבית המשותף' מכסה את חבות הדייר כלפי צד שלישי בגין מבנה הדירה המבוטחת. גבול האחריות של המבטח משתנה בהתאם למקרה ולתקופה, כפי שמפורט במפרט הפוליסה. הכיסוי מורחב רק אם נרכש כיסוי למבנה הדירה לפי פרק א.",
-    "row_axis": "insured apartment",
-    "column_axis": "liability coverage details",
+    "title": "ביטוח דירה בבית משותף - אחריות כלפי צד שלישי",
+    "summary": "This table details the coverage for third-party liability related to apartments in a shared building, contingent on purchasing coverage for the apartment structure itself. It specifies the liability limit for the insured.",
+    "embed_passage": "טבלה זו מתייחסת לביטוח דירה בבית משותף, ספציפית אחריות כלפי צד שלישי, ומתארת את גבול האחריות של המבטח. הכיסוי מורחב לדייר בגין מבנה הדירה המבוטחת, בתנאי שנרכש כיסוי למבנה הדירה לפי פרק א. גבול אחריות המבטח נקבע במפרט למקרה ולתקופה. ביטוח הדירה בבית המשותף מכסה חבות הדייר כלפי צד שלישי. ניתן למצוא מידע נוסף במפרט הדירה המבוטחת.",
+    "row_axis": "דירה מבוטחת (פרטי הדירה מופיעים במפרט)",
+    "column_axis": "גבול אחריות המבטח כלפי צד שלישי",
     "units": [],
     "notable_values": [
-      "coverage type: third-party liability",
-      "coverage condition: if structure coverage purchased"
+      "ביטוח דירה בבית משותף: אחריות כלפי צד שלישי",
+      "גבול אחריות המבטח: כקבוע במפרט"
     ],
     "product_hints": [
-      "ביטוח הדירה בבית המשותף"
+      "ביטוח דירה בבית משותף"
     ]
   },
   "sketch": ",\" - \"ביטוח הדירה בבית המשותף 1' אם נרכש בפוליסה זו כיסוי למבנה הדירה לפי פרק א אזי בכפוף לתנאי וחריגי פרק זה, יורחב הכיסוי לכלול את חבות הדייר כלפי צד שלישי בגין .(\" מבנה הדירה המבוטחת אשר פרטיה נקובים במפרט )להלן: \"הדירה המבוטחת\nגבול אחריות המבטח כלפי צד שלישי, לפי פרק זה, בגין הדירה המבוטחת, יהיה כקבוע במפרט למקרה ולתקופה.",
-  "embed_text": "פוליסת 'ביטוח הדירה בבית המשותף' מכסה את חבות הדייר כלפי צד שלישי בגין מבנה הדירה המבוטחת. גבול האחריות של המבטח משתנה בהתאם למקרה ולתקופה, כפי שמפורט במפרט הפוליסה. הכיסוי מורחב רק אם נרכש כיסוי למבנה הדירה לפי פרק א.",
-  "payload": "טבלה: ביטוח דירה בבית משותף\nThis table details the liability coverage for apartment residents within a shared building. It outlines the insurer's responsibility to a third party based on damage caused by the insured's apartment.\nממדים: insured apartment, liability coverage details\n\n,\" - \"ביטוח הדירה בבית המשותף 1' אם נרכש בפוליסה זו כיסוי למבנה הדירה לפי פרק א אזי בכפוף לתנאי וחריגי פרק זה, יורחב הכיסוי לכלול את חבות הדייר כלפי צד שלישי בגין .(\" מבנה הדירה המבוטחת אשר פרטיה נקובים במפרט )להלן: \"הדירה המבוטחת\nגבול אחריות המבטח כלפי צד שלישי, לפי פרק זה, בגין הדירה המבוטחת, יהיה כקבוע במפרט למקרה ולתקופה."
+  "embed_text": "טבלה זו מתייחסת לביטוח דירה בבית משותף, ספציפית אחריות כלפי צד שלישי, ומתארת את גבול האחריות של המבטח. הכיסוי מורחב לדייר בגין מבנה הדירה המבוטחת, בתנאי שנרכש כיסוי למבנה הדירה לפי פרק א. גבול אחריות המבטח נקבע במפרט למקרה ולתקופה. ביטוח הדירה בבית המשותף מכסה חבות הדייר כלפי צד שלישי. ניתן למצוא מידע נוסף במפרט הדירה המבוטחת. This table details the coverage for third-party liability related to apartments in a shared building, contingent on purchasing coverage for the apartment structure itself. It specifies the liability limit for the insured.",
+  "payload": "טבלה: ביטוח דירה בבית משותף - אחריות כלפי צד שלישי\nThis table details the coverage for third-party liability related to apartments in a shared building, contingent on purchasing coverage for the apartment structure itself. It specifies the liability limit for the insured.\nממדים: דירה מבוטחת (פרטי הדירה מופיעים במפרט), גבול אחריות המבטח כלפי צד שלישי\n\n,\" - \"ביטוח הדירה בבית המשותף 1' אם נרכש בפוליסה זו כיסוי למבנה הדירה לפי פרק א אזי בכפוף לתנאי וחריגי פרק זה, יורחב הכיסוי לכלול את חבות הדייר כלפי צד שלישי בגין .(\" מבנה הדירה המבוטחת אשר פרטיה נקובים במפרט )להלן: \"הדירה המבוטחת\nגבול אחריות המבטח כלפי צד שלישי, לפי פרק זה, בגין הדירה המבוטחת, יהיה כקבוע במפרט למקרה ולתקופה."
 }

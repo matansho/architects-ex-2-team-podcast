@@ -3,26 +3,24 @@
   "source": "llm",
   "description": {
     "title": "פיענוח רדיולוגי",
-    "summary": "This table details coverage for radiological decoding of imaging tests (X-ray, ultrasound, CT, MRI) after a qualifying date. It outlines the process for submitting medical documents and the self-participation amount.",
-    "embed_passage": "שירות OnlinePlus מאפשר למנויים לקבל פיענוח רדיולוגי עבור בדיקות הדמיה כמו רנטגן ואולטרסאונד. עבור כל פיענוח רדיולוגי, המנוי ישלם לספק ישירות 100 ₪ כהשתתפות עצמית. השירות כולל העברת מסמכים רפואיים רלוונטיים לצורך הפיענוח.",
-    "row_axis": "aspects of radiological decoding service",
-    "column_axis": "details of the service, including eligibility and cost",
+    "summary": "This table details coverage for radiological decoding of imaging tests (X-ray, ultrasound, CT, MRI) under the OnlinePlus plan. It specifies eligibility, the process for submitting medical documents, and the self-participation amount.",
+    "embed_passage": "טבלה זו מתארת את הכיסוי לפיענוח רדיולוגי של בדיקות הדמיה כגון רנטגן, אולטרסאונד, CT ו-MRI במסגרת תוכנית OnlinePlus. ניתן להגיש בקשה לפיענוח תוך 24 שעות מקבלת אישור מקוון, והמנוי יקבל סיכום רפואי בסיום הפיענוח. המנוי זכאי לפיענוח אחד בשנה, וישלם השתתפות עצמית בסך 100 ₪ ישירות לספק. בדיקות הדמיה, רנטגן, אולטרסאונד, CT, MRI, פיענוח רדיולוגי, השתתפות עצמית, 100 ₪, שעות 24, בקשת שירות מקוונת.",
+    "row_axis": "aspect of radiological decoding service",
+    "column_axis": "details of the service",
     "units": [
-      "₪",
-      "שעות"
+      "₪"
     ],
     "notable_values": [
-      "סעיף: 3.5",
-      "השתתפות עצמית: ₪ 100",
-      "זמן קבלת אישור: 24 שעות",
-      "מספר פיענוחים בשנה: 1",
-      "סוגי בדיקות: רנטגן, אולטרסאונד, CT, MRI"
+      "בדיקות הדמיה: רנטגן, אולטראסאונד, CT ו MRI",
+      "השתתפות עצמית: 100 ₪",
+      "זמן תגובה: 24 שעות",
+      "מספר פיענוחים בשנה: 1"
     ],
     "product_hints": [
       "OnlinePlus"
     ]
   },
   "sketch": "פיענוח  רדיולוגי  עבור  בדיקות  הדמיה 3.5\nהמנוי  יהיה  זכאי  לקבל  פיענוח  עבור 3.5.1 , בדיקות  הדמיה  רנטגן,  אולטראסאונד , שבוצעו לאחר המועד הקובע CT ו MRI על ידי רדיולוג מוסמך )שהנו נותן שירות ממועד שעות 24 תוך אצל  הספק( בקשת של המקוון האישור קבלת . השירות\nבסיום הפיענוח יינתן סיכום רפואי למנוי. 3.5.2\nאת השירות לנותן יעביר המנוי 3.5.3 הרלוונטיים הרפואיים המסמכים . ) צילומים וכדו'( לצורך העברה לפיענוח ניתן  להעביר  את  המסמכים  באמצעות אתר  האינטרנט  של  הספק,  בפקס  או באמצעי אלקטרוני אחר אשר זמין באופן לספק. סביר פיענוח  אחד המנוי  יהיה  זכאי  לקבל 3.5.4 . ביטוח בשנת , ,\nעבור פיענוח רדיולוגי על פי סעיף זה 3.5.5 לספק במישרין המנוי ישלם .₪ 100 השתתפות עצמית בסך",
-  "embed_text": "שירות OnlinePlus מאפשר למנויים לקבל פיענוח רדיולוגי עבור בדיקות הדמיה כמו רנטגן ואולטרסאונד. עבור כל פיענוח רדיולוגי, המנוי ישלם לספק ישירות 100 ₪ כהשתתפות עצמית. השירות כולל העברת מסמכים רפואיים רלוונטיים לצורך הפיענוח.",
-  "payload": "טבלה: פיענוח רדיולוגי\nThis table details coverage for radiological decoding of imaging tests (X-ray, ultrasound, CT, MRI) after a qualifying date. It outlines the process for submitting medical documents and the self-participation amount.\nממדים: aspects of radiological decoding service, details of the service, including eligibility and cost\n\nפיענוח  רדיולוגי  עבור  בדיקות  הדמיה 3.5\nהמנוי  יהיה  זכאי  לקבל  פיענוח  עבור 3.5.1 , בדיקות  הדמיה  רנטגן,  אולטראסאונד , שבוצעו לאחר המועד הקובע CT ו MRI על ידי רדיולוג מוסמך )שהנו נותן שירות ממועד שעות 24 תוך אצל  הספק( בקשת של המקוון האישור קבלת . השירות\nבסיום הפיענוח יינתן סיכום רפואי למנוי. 3.5.2\nאת השירות לנותן יעביר המנוי 3.5.3 הרלוונטיים הרפואיים המסמכים . ) צילומים וכדו'( לצורך העברה לפיענוח ניתן  להעביר  את  המסמכים  באמצעות אתר  האינטרנט  של  הספק,  בפקס  או באמצעי אלקטרוני אחר אשר זמין באופן לספק. סביר פיענוח  אחד המנוי  יהיה  זכאי  לקבל 3.5.4 . ביטוח בשנת , ,\nעבור פיענוח רדיולוגי על פי סעיף זה 3.5.5 לספק במישרין המנוי ישלם .₪ 100 השתתפות עצמית בסך"
+  "embed_text": "טבלה זו מתארת את הכיסוי לפיענוח רדיולוגי של בדיקות הדמיה כגון רנטגן, אולטרסאונד, CT ו-MRI במסגרת תוכנית OnlinePlus. ניתן להגיש בקשה לפיענוח תוך 24 שעות מקבלת אישור מקוון, והמנוי יקבל סיכום רפואי בסיום הפיענוח. המנוי זכאי לפיענוח אחד בשנה, וישלם השתתפות עצמית בסך 100 ₪ ישירות לספק. בדיקות הדמיה, רנטגן, אולטרסאונד, CT, MRI, פיענוח רדיולוגי, השתתפות עצמית, 100 ₪, שעות 24, בקשת שירות מקוונת. This table details coverage for radiological decoding of imaging tests (X-ray, ultrasound, CT, MRI) under the OnlinePlus plan. It specifies eligibility, the process for submitting medical documents, and the self-participation amount.",
+  "payload": "טבלה: פיענוח רדיולוגי\nThis table details coverage for radiological decoding of imaging tests (X-ray, ultrasound, CT, MRI) under the OnlinePlus plan. It specifies eligibility, the process for submitting medical documents, and the self-participation amount.\nממדים: aspect of radiological decoding service, details of the service\n\nפיענוח  רדיולוגי  עבור  בדיקות  הדמיה 3.5\nהמנוי  יהיה  זכאי  לקבל  פיענוח  עבור 3.5.1 , בדיקות  הדמיה  רנטגן,  אולטראסאונד , שבוצעו לאחר המועד הקובע CT ו MRI על ידי רדיולוג מוסמך )שהנו נותן שירות ממועד שעות 24 תוך אצל  הספק( בקשת של המקוון האישור קבלת . השירות\nבסיום הפיענוח יינתן סיכום רפואי למנוי. 3.5.2\nאת השירות לנותן יעביר המנוי 3.5.3 הרלוונטיים הרפואיים המסמכים . ) צילומים וכדו'( לצורך העברה לפיענוח ניתן  להעביר  את  המסמכים  באמצעות אתר  האינטרנט  של  הספק,  בפקס  או באמצעי אלקטרוני אחר אשר זמין באופן לספק. סביר פיענוח  אחד המנוי  יהיה  זכאי  לקבל 3.5.4 . ביטוח בשנת , ,\nעבור פיענוח רדיולוגי על פי סעיף זה 3.5.5 לספק במישרין המנוי ישלם .₪ 100 השתתפות עצמית בסך"
 }

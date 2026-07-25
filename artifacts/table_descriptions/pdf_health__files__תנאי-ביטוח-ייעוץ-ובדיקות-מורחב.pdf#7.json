@@ -2,23 +2,24 @@
   "id": "pdf:health/files/תנאי-ביטוח-ייעוץ-ובדיקות-מורחב.pdf#7",
   "source": "llm",
   "description": {
-    "title": "חוות דעת רפואית",
-    "summary": "This table details coverage for medical second opinions, both in Israel and abroad. It outlines the maximum amounts reimbursed for initial and subsequent opinions.",
-    "embed_passage": "תכנית זו כוללת כיסוי עבור חוות דעת רפואית ראשונה וחוות דעת נוספות בישראל, על ידי רופא מומחה, עד לסך של ₪ 1,000. מבוטח זכאי גם לחוות דעת רפואית שניה בחו״ל, עבור מקרה ביטוח רפואי, עד לסך של ₪ 4,400.",
-    "row_axis": "Type of medical opinion (e.g., first opinion in Israel, second opinion abroad)",
-    "column_axis": "Coverage details (e.g., maximum reimbursement amount)",
+    "title": "חוות דעת רפואית ובדיקות",
+    "summary": "This table details coverage for medical second opinions and diagnostic tests. It specifies maximum amounts reimbursed for opinions from doctors in Israel and abroad.",
+    "embed_passage": "טבלה זו מתארת כיסוי לחוות דעת רפואית שנייה בישראל ובחו\"ל, וכן לבדיקות רפואיות אבחנתיות. ניתן לקבל החזר על חוות דעת רפואית ראשונה ונוספת בישראל, עד לסך של ₪ 1,000. כמו כן, הטבלה מפרטת את הכיסוי לחוות דעת רפואית שנייה בחו\"ל, עד לסך של ₪ 4,400. תכנית זו כוללת כיסוי עבור חוות דעת רפואית, בדיקות מעבדה, צילומי רנטגן, M.R.I, והשתתפות בהפריה חוץ גופית (IVF) בתנאים מסוימים. ניתן למצוא מידע על חוות דעת רפואית בישראל, חוות דעת רפואית בחו\"ל, וסכומים מקסימליים לכל טיפול.",
+    "row_axis": "type of medical service/opinion",
+    "column_axis": "coverage details (amount, location)",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "first opinion in Israel: ₪ 1,000",
-      "second opinion abroad: ₪ 4,400"
+      "חוות דעת רפואית בישראל: ₪ 1,000",
+      "חוות דעת רפואית שניה בחו\"ל: ₪ 4,400",
+      "IVF השתתפות: ₪ 8,800 לילד"
     ],
     "product_hints": [
-      "חוות דעת רפואית"
+      "ייעוץ ובדיקות מורחב"
     ]
   },
   "sketch": "ח חוות  דעת  ראשונה  וחוות  דעת  נוספות   שניתנו  בישראל,   ע  ל  ידי     רופא -ת  דעת רפואית בישראל וו .3.1 ם הרלוונטי, עד לסך לגבי בעיה רפואית פעילה בתחו ( )לא כולל רופא ילדים ו/או רופא משפחה מומחה . לחוו\"ד רפואית ₪ 1,000 של\nמבוטח יהא זכאי לחוות דעת רפואית שניה בחו\"ל, לאחר קבלת חוות דעת -חוות דעת רפואית שניה בחו\"   ל .3.2 . ת  ,      עבור   מקרה   ביטוח לחוות דעת רפואי ₪ 4,400 ל, כמוגדר לעיל, עד   לסך ש   ל ה   בישרא רפואית ראשונ",
-  "embed_text": "תכנית זו כוללת כיסוי עבור חוות דעת רפואית ראשונה וחוות דעת נוספות בישראל, על ידי רופא מומחה, עד לסך של ₪ 1,000. מבוטח זכאי גם לחוות דעת רפואית שניה בחו״ל, עבור מקרה ביטוח רפואי, עד לסך של ₪ 4,400.",
-  "payload": "טבלה: חוות דעת רפואית\nThis table details coverage for medical second opinions, both in Israel and abroad. It outlines the maximum amounts reimbursed for initial and subsequent opinions.\nממדים: Type of medical opinion (e.g., first opinion in Israel, second opinion abroad), Coverage details (e.g., maximum reimbursement amount)\n\nח חוות  דעת  ראשונה  וחוות  דעת  נוספות   שניתנו  בישראל,   ע  ל  ידי     רופא -ת  דעת רפואית בישראל וו .3.1 ם הרלוונטי, עד לסך לגבי בעיה רפואית פעילה בתחו ( )לא כולל רופא ילדים ו/או רופא משפחה מומחה . לחוו\"ד רפואית ₪ 1,000 של\nמבוטח יהא זכאי לחוות דעת רפואית שניה בחו\"ל, לאחר קבלת חוות דעת -חוות דעת רפואית שניה בחו\"   ל .3.2 . ת  ,      עבור   מקרה   ביטוח לחוות דעת רפואי ₪ 4,400 ל, כמוגדר לעיל, עד   לסך ש   ל ה   בישרא רפואית ראשונ"
+  "embed_text": "טבלה זו מתארת כיסוי לחוות דעת רפואית שנייה בישראל ובחו\"ל, וכן לבדיקות רפואיות אבחנתיות. ניתן לקבל החזר על חוות דעת רפואית ראשונה ונוספת בישראל, עד לסך של ₪ 1,000. כמו כן, הטבלה מפרטת את הכיסוי לחוות דעת רפואית שנייה בחו\"ל, עד לסך של ₪ 4,400. תכנית זו כוללת כיסוי עבור חוות דעת רפואית, בדיקות מעבדה, צילומי רנטגן, M.R.I, והשתתפות בהפריה חוץ גופית (IVF) בתנאים מסוימים. ניתן למצוא מידע על חוות דעת רפואית בישראל, חוות דעת רפואית בחו\"ל, וסכומים מקסימליים לכל טיפול. This table details coverage for medical second opinions and diagnostic tests. It specifies maximum amounts reimbursed for opinions from doctors in Israel and abroad. בין הערכים בטבלה: IVF השתתפות: ₪ 8,800 לילד.",
+  "payload": "טבלה: חוות דעת רפואית ובדיקות\nThis table details coverage for medical second opinions and diagnostic tests. It specifies maximum amounts reimbursed for opinions from doctors in Israel and abroad.\nממדים: type of medical service/opinion, coverage details (amount, location)\n\nח חוות  דעת  ראשונה  וחוות  דעת  נוספות   שניתנו  בישראל,   ע  ל  ידי     רופא -ת  דעת רפואית בישראל וו .3.1 ם הרלוונטי, עד לסך לגבי בעיה רפואית פעילה בתחו ( )לא כולל רופא ילדים ו/או רופא משפחה מומחה . לחוו\"ד רפואית ₪ 1,000 של\nמבוטח יהא זכאי לחוות דעת רפואית שניה בחו\"ל, לאחר קבלת חוות דעת -חוות דעת רפואית שניה בחו\"   ל .3.2 . ת  ,      עבור   מקרה   ביטוח לחוות דעת רפואי ₪ 4,400 ל, כמוגדר לעיל, עד   לסך ש   ל ה   בישרא רפואית ראשונ"
 }

@@ -3,27 +3,24 @@
   "source": "llm",
   "description": {
     "title": "הרשאה לחיוב חשבון",
-    "summary": "This table details authorization for debiting a bank account, specifying options for general or limited authorizations with expiration dates and maximum charge amounts. It's used to set up recurring payments to a beneficiary.",
-    "embed_passage": "טופס זה עוסק בהרשאה לחיוב חשבון בבנק. ניתן לבחור בהרשאה כללית ללא הגבלות, או בהרשאה הכוללת הגבלות כמו תקרת סכום חיוב ב₪ או מועד פקיעת תוקף ההרשאה. לדוגמה, ניתן להגביל את החיוב לסכום של ₪6 או לקבוע תוקף עד יום 0.",
-    "row_axis": "Authorization type (general vs. limited)",
-    "column_axis": "Authorization details (expiration date, maximum charge amount)",
+    "summary": "This table outlines options for authorizing account debits. It details choices regarding limitations on the authorization, such as an expiration date or a maximum charge amount.",
+    "embed_passage": "טופס זה עוסק בהרשאה לחיוב חשבון בבנק, המאפשרת למוטב לחייב את חשבון הלקוח בסכומים ובתאריכים שיומצאו. ניתן לבחור בהרשאה כללית ללא הגבלות, או בהרשאה הכוללת הגבלות כמו תקרת סכום חיוב או מועד פקיעת תוקף. בחירה בהרשאה עם הגבלות מחייבת ציון תקרת סכום ב₪ ומועד פקיעת תוקף ההרשאה. הרשאה כללית, הרשאה הכוללת הגבלות, תקרת סכום חיוב, מועד פקיעת תוקף ההרשאה הם מרכיבים מרכזיים.",
+    "row_axis": "סוג הרשאה",
+    "column_axis": "מאפייני הרשאה (תקרה, תוקף)",
     "units": [
-      "₪",
-      "יום"
+      "₪"
     ],
     "notable_values": [
-      "סכום חיוב: ₪6",
-      "מועד פקיעת תוקף: 0",
-      "סוג חשבון: לא מצוין",
-      "קוד מוסד: לא מצוין",
-      "קוד מסלקה: לא מצוין"
+      "הרשאה כללית: ללא הגבלות",
+      "הרשאה הכוללת הגבלות: דורשת ציון תקרת סכום ותוקף",
+      "תקרת סכום חיוב: ₪",
+      "מועד פקיעת תוקף ההרשאה: ביום …"
     ],
     "product_hints": [
-      "הרשאה לחיוב חשבון",
       "הראל"
     ]
   },
   "sketch": "8\nאו . הרשאה כללית, שאינה כוללת הגבלות\nהרשאה הכוללת לפחות אחת מההגבלות הבאות:\n.       /       / מועד פקיעת תוקף ההרשאה - ביום\n.₪                                - תקרת סכום החיוב\nלתשומת לבך,\nאי סימון אחת מהחלופות המוצגות לעיל, משמעה בחירה בהרשאה כללית, שאינה כוללת הגבלות.\nאם יישלחו על ידי המוטב חיובים שאינם עומדים בהגבלות שקבע הלקוח, הם יוחזרו על ידי הבנק, על כל המשמעויות הכרוכות בכך.",
-  "embed_text": "טופס זה עוסק בהרשאה לחיוב חשבון בבנק. ניתן לבחור בהרשאה כללית ללא הגבלות, או בהרשאה הכוללת הגבלות כמו תקרת סכום חיוב ב₪ או מועד פקיעת תוקף ההרשאה. לדוגמה, ניתן להגביל את החיוב לסכום של ₪6 או לקבוע תוקף עד יום 0.",
-  "payload": "טבלה: הרשאה לחיוב חשבון\nThis table details authorization for debiting a bank account, specifying options for general or limited authorizations with expiration dates and maximum charge amounts. It's used to set up recurring payments to a beneficiary.\nממדים: Authorization type (general vs. limited), Authorization details (expiration date, maximum charge amount)\n\n8\nאו . הרשאה כללית, שאינה כוללת הגבלות\nהרשאה הכוללת לפחות אחת מההגבלות הבאות:\n.       /       / מועד פקיעת תוקף ההרשאה - ביום\n.₪                                - תקרת סכום החיוב\nלתשומת לבך,\nאי סימון אחת מהחלופות המוצגות לעיל, משמעה בחירה בהרשאה כללית, שאינה כוללת הגבלות.\nאם יישלחו על ידי המוטב חיובים שאינם עומדים בהגבלות שקבע הלקוח, הם יוחזרו על ידי הבנק, על כל המשמעויות הכרוכות בכך."
+  "embed_text": "טופס זה עוסק בהרשאה לחיוב חשבון בבנק, המאפשרת למוטב לחייב את חשבון הלקוח בסכומים ובתאריכים שיומצאו. ניתן לבחור בהרשאה כללית ללא הגבלות, או בהרשאה הכוללת הגבלות כמו תקרת סכום חיוב או מועד פקיעת תוקף. בחירה בהרשאה עם הגבלות מחייבת ציון תקרת סכום ב₪ ומועד פקיעת תוקף ההרשאה. הרשאה כללית, הרשאה הכוללת הגבלות, תקרת סכום חיוב, מועד פקיעת תוקף ההרשאה הם מרכיבים מרכזיים. This table outlines options for authorizing account debits. It details choices regarding limitations on the authorization, such as an expiration date or a maximum charge amount.",
+  "payload": "טבלה: הרשאה לחיוב חשבון\nThis table outlines options for authorizing account debits. It details choices regarding limitations on the authorization, such as an expiration date or a maximum charge amount.\nממדים: סוג הרשאה, מאפייני הרשאה (תקרה, תוקף)\n\n8\nאו . הרשאה כללית, שאינה כוללת הגבלות\nהרשאה הכוללת לפחות אחת מההגבלות הבאות:\n.       /       / מועד פקיעת תוקף ההרשאה - ביום\n.₪                                - תקרת סכום החיוב\nלתשומת לבך,\nאי סימון אחת מהחלופות המוצגות לעיל, משמעה בחירה בהרשאה כללית, שאינה כוללת הגבלות.\nאם יישלחו על ידי המוטב חיובים שאינם עומדים בהגבלות שקבע הלקוח, הם יוחזרו על ידי הבנק, על כל המשמעויות הכרוכות בכך."
 }

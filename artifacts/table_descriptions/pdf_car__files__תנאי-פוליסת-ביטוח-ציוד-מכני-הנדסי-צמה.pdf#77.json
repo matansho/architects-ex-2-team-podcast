@@ -2,24 +2,23 @@
   "id": "pdf:car/files/תנאי-פוליסת-ביטוח-ציוד-מכני-הנדסי-צמה.pdf#77",
   "source": "llm",
   "description": {
-    "title": "תנאי פוליסה - ציוד מכני הנדסי צמה",
-    "summary": "This table outlines conditions related to insurance policies for mechanical and engineering equipment, specifically concerning misrepresentation and its impact on coverage. It details scenarios where the insurer may be relieved of obligations due to incomplete or dishonest responses from the insured.",
-    "embed_passage": "פוליסת ביטוח ציוד מכני הנדסי צמה מתייחסת למצבים בהם המבטח לא היה מתקשר באותה פוליסה, גם בדמי ביטוח מרובים יותר, אילו ידע שהמצב האמיתי שונה. תנאי 8.10 קובע שהמבטח אינו זכאי לתרופות מסוימות אלא אם התשובה שלא הייתה מלאה ניתנה בכוונת מרמה. לדוגמה, אם המבטח ידע או היה עליו לדעת את המצב האמיתי בשעת כריתת החוזה, הוא לא יוכל לתבוע.",
-    "row_axis": "Conditions related to misrepresentation or incomplete information provided by the insured.",
-    "column_axis": "Specific clauses and stipulations within the insurance policy.",
+    "title": "תנאי פוליסה",
+    "summary": "This table outlines conditions related to insurance policy cancellation and the insurer's remedies when inaccurate information is provided. It details scenarios where the insurer may be entitled to reduced compensation or be exempt from claims.",
+    "embed_passage": "טבלה זו מתארת תנאים הקשורים לביטול פוליסת ביטוח והסעדים העומדים לרשות המבטח כאשר ניתנו מידע שגוי. הפוליסה עוסקת במקרים בהם המבטח עשוי להיות זכאי לפיצוי מופחת או לפטור מתביעות. הטבלה בוחנת מצבים בהם מבטח סביר לא היה מתקשר בפוליסה, גם בדמי ביטוח מרובים יותר, אילו ידע את המצב האמיתי. כמו כן, היא מתייחסת לתרופות העומדות למבטח במקרים של תשובות לא מלאות או לא כנות, וכן לתנאים בהם המבטח ידע או היה עליו לדעת את המצב האמיתי. 8.9.2 מבטח סביר לא היה מתקשר באותה פוליסה, אף בדמי ביטוח מרובים יותר, אילו ידע שהמצב הוא כפי שהוא. 8.10 המבטח אינו זכאי לתרופות האמורות בתנאי 8.10 אלא אם התשובה שלא היתה מלאה וכנה ניתנה בכוונת מרמה.",
+    "row_axis": "תנאי ביטול / סעד",
+    "column_axis": "תיאור התנאי",
     "units": [],
     "notable_values": [
-      "8.9.2: Insurer wouldn't have entered the policy even with higher premiums.",
-      "8.10: Insurer's remedies are conditional on fraudulent intent.",
-      "8.10.1: Insurer knew or should have known the true state of affairs.",
-      "8.10.2: The inaccurate information ceased to exist before the incident."
+      "8.9.2: מבטח סביר לא היה מתקשר",
+      "8.10: המבטח אינו זכאי לתרופות",
+      "8.10.1: המבטח ידע את המצב",
+      "8.10.2: העובדה חדלה להתקיים"
     ],
     "product_hints": [
-      "ציוד מכני הנדסי צמה",
-      "פוליסת ביטוח ציוד"
+      "פוליסת ביטוח"
     ]
   },
   "sketch": "מבטח סביר לא היה מתקשר באותה פוליסה, אף בדמי ביטוח מרובים .8.9.2 יותר, אילו ידע שהמצב הוא כפי שהוא.\nלעיל בתנאי זה בכל אחת 8.8ו 8.7 .  המבטח אינו זכאי לתרופות האמורות בתנאי 8.10 אלא אם התשובה שלא היתה מלאה וכנה ניתנה בכוונת מרמה: , מאלה\n.  המבטח ידע או היה עליו לדעת את המצב לאמיתו בשעת כריתת החוזה או 8.10.1 שהוא גרם לכך שהתשובה לא הייתה מלאה וכנה;\n.  העובדה שעליה ניתנה תשובה שלא הייתה מלאה וכנה חדלה להתקיים לפני 8.10.2 שקרה מקרה הביטוח, או שלא השפיעה על מקרהו, על חבות המבטח או על היקפה.",
-  "embed_text": "פוליסת ביטוח ציוד מכני הנדסי צמה מתייחסת למצבים בהם המבטח לא היה מתקשר באותה פוליסה, גם בדמי ביטוח מרובים יותר, אילו ידע שהמצב האמיתי שונה. תנאי 8.10 קובע שהמבטח אינו זכאי לתרופות מסוימות אלא אם התשובה שלא הייתה מלאה ניתנה בכוונת מרמה. לדוגמה, אם המבטח ידע או היה עליו לדעת את המצב האמיתי בשעת כריתת החוזה, הוא לא יוכל לתבוע.",
-  "payload": "טבלה: תנאי פוליסה - ציוד מכני הנדסי צמה\nThis table outlines conditions related to insurance policies for mechanical and engineering equipment, specifically concerning misrepresentation and its impact on coverage. It details scenarios where the insurer may be relieved of obligations due to incomplete or dishonest responses from the insured.\nממדים: Conditions related to misrepresentation or incomplete information provided by the insured., Specific clauses and stipulations within the insurance policy.\n\nמבטח סביר לא היה מתקשר באותה פוליסה, אף בדמי ביטוח מרובים .8.9.2 יותר, אילו ידע שהמצב הוא כפי שהוא.\nלעיל בתנאי זה בכל אחת 8.8ו 8.7 .  המבטח אינו זכאי לתרופות האמורות בתנאי 8.10 אלא אם התשובה שלא היתה מלאה וכנה ניתנה בכוונת מרמה: , מאלה\n.  המבטח ידע או היה עליו לדעת את המצב לאמיתו בשעת כריתת החוזה או 8.10.1 שהוא גרם לכך שהתשובה לא הייתה מלאה וכנה;\n.  העובדה שעליה ניתנה תשובה שלא הייתה מלאה וכנה חדלה להתקיים לפני 8.10.2 שקרה מקרה הביטוח, או שלא השפיעה על מקרהו, על חבות המבטח או על היקפה."
+  "embed_text": "טבלה זו מתארת תנאים הקשורים לביטול פוליסת ביטוח והסעדים העומדים לרשות המבטח כאשר ניתנו מידע שגוי. הפוליסה עוסקת במקרים בהם המבטח עשוי להיות זכאי לפיצוי מופחת או לפטור מתביעות. הטבלה בוחנת מצבים בהם מבטח סביר לא היה מתקשר בפוליסה, גם בדמי ביטוח מרובים יותר, אילו ידע את המצב האמיתי. כמו כן, היא מתייחסת לתרופות העומדות למבטח במקרים של תשובות לא מלאות או לא כנות, וכן לתנאים בהם המבטח ידע או היה עליו לדעת את המצב האמיתי. 8.9.2 מבטח סביר לא היה מתקשר באותה פוליסה, אף בדמי ביטוח מרובים יותר, אילו ידע שהמצב הוא כפי שהוא. 8.10 המבטח אינו זכאי לתרופות האמורות בתנאי 8.10 אלא אם התשובה שלא היתה מלאה וכנה ניתנה בכוונת מרמה. This table outlines conditions related to insurance policy cancellation and the insurer's remedies when inaccurate information is provided. It details scenarios where the insurer m…",
+  "payload": "טבלה: תנאי פוליסה\nThis table outlines conditions related to insurance policy cancellation and the insurer's remedies when inaccurate information is provided. It details scenarios where the insurer may be entitled to reduced compensation or be exempt from claims.\nממדים: תנאי ביטול / סעד, תיאור התנאי\n\nמבטח סביר לא היה מתקשר באותה פוליסה, אף בדמי ביטוח מרובים .8.9.2 יותר, אילו ידע שהמצב הוא כפי שהוא.\nלעיל בתנאי זה בכל אחת 8.8ו 8.7 .  המבטח אינו זכאי לתרופות האמורות בתנאי 8.10 אלא אם התשובה שלא היתה מלאה וכנה ניתנה בכוונת מרמה: , מאלה\n.  המבטח ידע או היה עליו לדעת את המצב לאמיתו בשעת כריתת החוזה או 8.10.1 שהוא גרם לכך שהתשובה לא הייתה מלאה וכנה;\n.  העובדה שעליה ניתנה תשובה שלא הייתה מלאה וכנה חדלה להתקיים לפני 8.10.2 שקרה מקרה הביטוח, או שלא השפיעה על מקרהו, על חבות המבטח או על היקפה."
 }

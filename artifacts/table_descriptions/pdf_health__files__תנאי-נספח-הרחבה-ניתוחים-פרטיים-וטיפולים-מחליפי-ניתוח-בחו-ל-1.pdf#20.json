@@ -2,22 +2,26 @@
   "id": "pdf:health/files/תנאי-נספח-הרחבה-ניתוחים-פרטיים-וטיפולים-מחליפי-ניתוח-בחו-ל-1.pdf#20",
   "source": "llm",
   "description": {
-    "title": "הרחבה ניתוחים פרטיים",
-    "summary": "This table details exclusions to insurance coverage for private surgeries and alternative treatments, potentially including those abroad. It specifies conditions under which the insurance company is not obligated to pay benefits.",
-    "embed_passage": "נספח הרחבה ניתוחים פרטיים מגדיר מקרים בהם החברה לא תשלם תגמולי ביטוח, למשל במקרים של מצב רפואי קודם (סעיף 4.6) או ניתוחים מסיבות של הריון ולידה (סעיף 4.7). הניתוחים המוזכרים קשורים לטיפולים רפואיים שונים, והתנאים משתנים בהתאם לתקנות הפיקוח על עסקי ביטוח.",
-    "row_axis": "exclusion reason",
-    "column_axis": "exclusion details / conditions",
+    "title": "חריגים לביטוח ניתוחים",
+    "summary": "This table lists exclusions to insurance coverage for surgeries and alternative treatments, as defined in the policy. It details situations where the insurance company is not obligated to pay benefits.",
+    "embed_passage": "טבלה זו מפרטת חריגים לתנאי ביטוח ניתוחים פרטיים וטיפולים מחליפי ניתוח, כפי שמוגדר בתכנית. ניתן לעיין בחריגים אלו כדי להבין אילו מקרים אינם מכוסים על ידי הפוליסה. החריגים מפורטים לפי סעיפים שונים, כגון מצב רפואי קודם, הריון ולידה, וניתוחים אסתטיים. תכנית זו אינה מכסה מקרה ביטוח שארע לפני תחילת הביטוח או לאחר תום תקופת הביטוח. כמו כן, חריגים כוללים ניתוחים הקשורים בשיניים או בחניכיים, וניתוחים שנעשים עקב פעילות מלחמתית. ניתוח בריאטרי למבוטח עם BMI גבוה מ-40 אינו מכוסה.",
+    "row_axis": "סוג מקרה ביטוח",
+    "column_axis": "תנאי חריג",
     "units": [],
     "notable_values": [
-      "year: 2004",
-      "BMI threshold: 36",
-      "BMI threshold: 40"
+      "מצב רפואי קודם: בכפוף לתקנות הפיקוח על עסקי ביטוח",
+      "הריון ולידה: חריג לניתוחים או טיפולים מחליפי ניתוח",
+      "BMI: מעל 36 עבור ניתוח בריאטרי",
+      "BMI: גבוה מ-40 עבור ניתוח בריאטרי",
+      "שירות צבאי: מקרה ביטוח שארע במהלך שירות צבאי",
+      "פעילות מלחמתית: מקרה ביטוח שארע עקב פעילות מלחמתית"
     ],
     "product_hints": [
-      "הרחבה ניתוחים פרטיים"
+      "הרחבה ניתוחים פרטיים",
+      "טיפולים מחליפי ניתוח"
     ]
   },
   "sketch": "מקרה ביטוח שארע עקב מצב רפואי קודם, בכפוף לתקנות הפיקוח על עסקי ביטוח )תנאים בחוזי .4.6 2 ; 2004­ ביטוח()הוראות לענין מצב רפואי קודם(, התשס\"   ד\n; ה ניתוח או טיפול מחליף נית  וח מסיבות של היריון, לידה, עקרות, פוריות, עיקור מרצו  ן, והפל .4.7",
-  "embed_text": "נספח הרחבה ניתוחים פרטיים מגדיר מקרים בהם החברה לא תשלם תגמולי ביטוח, למשל במקרים של מצב רפואי קודם (סעיף 4.6) או ניתוחים מסיבות של הריון ולידה (סעיף 4.7). הניתוחים המוזכרים קשורים לטיפולים רפואיים שונים, והתנאים משתנים בהתאם לתקנות הפיקוח על עסקי ביטוח.",
-  "payload": "טבלה: הרחבה ניתוחים פרטיים\nThis table details exclusions to insurance coverage for private surgeries and alternative treatments, potentially including those abroad. It specifies conditions under which the insurance company is not obligated to pay benefits.\nממדים: exclusion reason, exclusion details / conditions\n\nמקרה ביטוח שארע עקב מצב רפואי קודם, בכפוף לתקנות הפיקוח על עסקי ביטוח )תנאים בחוזי .4.6 2 ; 2004­ ביטוח()הוראות לענין מצב רפואי קודם(, התשס\"   ד\n; ה ניתוח או טיפול מחליף נית  וח מסיבות של היריון, לידה, עקרות, פוריות, עיקור מרצו  ן, והפל .4.7"
+  "embed_text": "טבלה זו מפרטת חריגים לתנאי ביטוח ניתוחים פרטיים וטיפולים מחליפי ניתוח, כפי שמוגדר בתכנית. ניתן לעיין בחריגים אלו כדי להבין אילו מקרים אינם מכוסים על ידי הפוליסה. החריגים מפורטים לפי סעיפים שונים, כגון מצב רפואי קודם, הריון ולידה, וניתוחים אסתטיים. תכנית זו אינה מכסה מקרה ביטוח שארע לפני תחילת הביטוח או לאחר תום תקופת הביטוח. כמו כן, חריגים כוללים ניתוחים הקשורים בשיניים או בחניכיים, וניתוחים שנעשים עקב פעילות מלחמתית. ניתוח בריאטרי למבוטח עם BMI גבוה מ-40 אינו מכוסה. This table lists exclusions to insurance coverage for surgeries and alternative treatments, as defined in the policy. It details situations where the insurance company is not obligated to pay benefits. בין הערכים בטבלה: שירות צבאי: מקרה ביטוח שארע במהלך שירות צבאי.",
+  "payload": "טבלה: חריגים לביטוח ניתוחים\nThis table lists exclusions to insurance coverage for surgeries and alternative treatments, as defined in the policy. It details situations where the insurance company is not obligated to pay benefits.\nממדים: סוג מקרה ביטוח, תנאי חריג\n\nמקרה ביטוח שארע עקב מצב רפואי קודם, בכפוף לתקנות הפיקוח על עסקי ביטוח )תנאים בחוזי .4.6 2 ; 2004­ ביטוח()הוראות לענין מצב רפואי קודם(, התשס\"   ד\n; ה ניתוח או טיפול מחליף נית  וח מסיבות של היריון, לידה, עקרות, פוריות, עיקור מרצו  ן, והפל .4.7"
 }

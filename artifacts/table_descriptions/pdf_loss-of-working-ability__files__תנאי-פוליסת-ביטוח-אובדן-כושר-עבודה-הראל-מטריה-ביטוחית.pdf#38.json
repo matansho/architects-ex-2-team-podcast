@@ -3,24 +3,27 @@
   "source": "llm",
   "description": {
     "title": "תנאי פוליסה - אובדן כושר עבודה",
-    "summary": "This table details conditions related to misrepresentation in an אובדן כושר עבודה (loss of working ability) insurance policy from הראל. It outlines scenarios where the company may not be liable for remedies if a dishonest or incomplete answer was provided during the insurance application process.",
-    "embed_passage": "פוליסת אובדן כושר עבודה של הראל מתייחסת למקרים בהם תשובה לא מלאה או לא כנה ניתנה בכוונה לרמות. לדוגמה, אם מבטח סביר לא היה מתקשר בחוזה בפרמיה גבוהה יותר אילו ידע את המצב האמיתי, המבוטח זכאי להחזר פרמיה. סעיף 5.5.3 מציין כי העובדה שעליה ניתנה תשובה שאינה מלאה חדלה להתקיים לפני קרות מקרה הביטוח.",
-    "row_axis": "Conditions related to misrepresentation or incomplete answers",
-    "column_axis": "Legal clauses and consequences",
+    "summary": "This table outlines conditions related to fraudulent responses during the insurance application process for a loss of working ability policy. It details circumstances under which the insurance company may not be liable for claims.",
+    "embed_passage": "טבלה זו מתייחסת לתנאי פוליסת ביטוח אובדן כושר עבודה של הראל מטריה ביטוחית, ומפרטת את ההשלכות של מתן תשובות לא כנות או לא מלאות בהצעת הביטוח. מטרתה להבהיר מתי החברה לא תהיה זכאית לתרופות, כגון ביטול הפוליסה או דחיית תביעה, ומהן הזכויות של המבוטח במקרים כאלה. ניתן לעיין בתנאים אלו כדי להבין את חובות הגילוי של המבוטח ואת ההגנות העומדות לו. התנאים מתייחסים למקרים בהם תשובה ניתנה בכוונת מירמה, או כאשר המבוטח גרם לכך שהתשובה לא הייתה מלאה וכנה. כמו כן, הטבלה מציינת מצבים בהם העובדה שהתשובה לא הייתה מלאה חדלה להתקיים לפני קרות מקרה הביטוח. סעיפים 5.4, 5.5, ו-5.5.1, 5.5.2, 5.5.3 מופיעים בטבלה.",
+    "row_axis": "conditions related to fraudulent responses",
+    "column_axis": "details of the consequences",
     "units": [],
     "notable_values": [
-      "5.4.1: Intentional misrepresentation",
-      "5.4.2: Unwillingness to insure at a higher premium",
-      "5.5.1: Knowledge of the true state",
-      "5.5.2: Cessation of incomplete/dishonest answer before incident",
-      "5.5.3: 3 years"
+      "fraudulent intent: applicable",
+      "insurer's reasonable acceptance: not applicable",
+      "full and honest answer: not given",
+      "knowledge of true state: applicable",
+      "causation of incomplete answer: applicable",
+      "cessation of incomplete answer: before claim",
+      "impact on claim: none",
+      "time elapsed: 3 years"
     ],
     "product_hints": [
       "אובדן כושר עבודה",
-      "הראל"
+      "הראל מטריה ביטוחית"
     ]
   },
   "sketch": "התשובה ניתנה בכוונת מירמה. 5.4.1\nמבטח סביר  לא היה מתקשר על פי חוזה ביטוח זה אף בפרמיה גבוהה יותר אילו 5.4.2 ידע את המצב לאמיתו. במקרה זה, זכאי המבוטח להחזר הפרמיה ששילם בעד התקופה שלאחר קרות מקרה הביטוח, בניכוי הוצאות החברה.\n, לעיל בכל אחת מאלה 5.4ו 5.3 החברה לא תהיה זכאית לתרופות המפורטות בסעיפים 5.5 אלא אם התשובה שלא היתה מלאה וכנה ניתנה בכוונת מירמה:\nהיא ידעה או היה עליה לדעת את המצב לאמיתו בשעת כריתת החוזה או שהיא 5.5.1 גרמה לכך שהתשובה לא היתה מלאה וכנה.\nהעובדה  שעליה  ניתנה  תשובה  שלא  היתה  מלאה  וכנה  חדלה  להתקיים  לפני 5.5.2 שקרה מקרה הביטוח, או שלא השפיעה על מקרהו, על חבות החברה או על . היקפה",
-  "embed_text": "פוליסת אובדן כושר עבודה של הראל מתייחסת למקרים בהם תשובה לא מלאה או לא כנה ניתנה בכוונה לרמות. לדוגמה, אם מבטח סביר לא היה מתקשר בחוזה בפרמיה גבוהה יותר אילו ידע את המצב האמיתי, המבוטח זכאי להחזר פרמיה. סעיף 5.5.3 מציין כי העובדה שעליה ניתנה תשובה שאינה מלאה חדלה להתקיים לפני קרות מקרה הביטוח.",
-  "payload": "טבלה: תנאי פוליסה - אובדן כושר עבודה\nThis table details conditions related to misrepresentation in an אובדן כושר עבודה (loss of working ability) insurance policy from הראל. It outlines scenarios where the company may not be liable for remedies if a dishonest or incomplete answer was provided during the insurance application process.\nממדים: Conditions related to misrepresentation or incomplete answers, Legal clauses and consequences\n\nהתשובה ניתנה בכוונת מירמה. 5.4.1\nמבטח סביר  לא היה מתקשר על פי חוזה ביטוח זה אף בפרמיה גבוהה יותר אילו 5.4.2 ידע את המצב לאמיתו. במקרה זה, זכאי המבוטח להחזר הפרמיה ששילם בעד התקופה שלאחר קרות מקרה הביטוח, בניכוי הוצאות החברה.\n, לעיל בכל אחת מאלה 5.4ו 5.3 החברה לא תהיה זכאית לתרופות המפורטות בסעיפים 5.5 אלא אם התשובה שלא היתה מלאה וכנה ניתנה בכוונת מירמה:\nהיא ידעה או היה עליה לדעת את המצב לאמיתו בשעת כריתת החוזה או שהיא 5.5.1 גרמה לכך שהתשובה לא היתה מלאה וכנה.\nהעובדה  שעליה  ניתנה  תשובה  שלא  היתה  מלאה  וכנה  חדלה  להתקיים  לפני 5.5.2 שקרה מקרה הביטוח, או שלא השפיעה על מקרהו, על חבות החברה או על . היקפה"
+  "embed_text": "טבלה זו מתייחסת לתנאי פוליסת ביטוח אובדן כושר עבודה של הראל מטריה ביטוחית, ומפרטת את ההשלכות של מתן תשובות לא כנות או לא מלאות בהצעת הביטוח. מטרתה להבהיר מתי החברה לא תהיה זכאית לתרופות, כגון ביטול הפוליסה או דחיית תביעה, ומהן הזכויות של המבוטח במקרים כאלה. ניתן לעיין בתנאים אלו כדי להבין את חובות הגילוי של המבוטח ואת ההגנות העומדות לו. התנאים מתייחסים למקרים בהם תשובה ניתנה בכוונת מירמה, או כאשר המבוטח גרם לכך שהתשובה לא הייתה מלאה וכנה. כמו כן, הטבלה מציינת מצבים בהם העובדה שהתשובה לא הייתה מלאה חדלה להתקיים לפני קרות מקרה הביטוח. סעיפים 5.4, 5.5, ו-5.5.1, 5.5.2, 5.5.3 מופיעים בטבלה. This table outlines conditions related to fraudulent responses during the insurance application process for a loss of working ability policy. It details circumstances under which the insurance company may n…",
+  "payload": "טבלה: תנאי פוליסה - אובדן כושר עבודה\nThis table outlines conditions related to fraudulent responses during the insurance application process for a loss of working ability policy. It details circumstances under which the insurance company may not be liable for claims.\nממדים: conditions related to fraudulent responses, details of the consequences\n\nהתשובה ניתנה בכוונת מירמה. 5.4.1\nמבטח סביר  לא היה מתקשר על פי חוזה ביטוח זה אף בפרמיה גבוהה יותר אילו 5.4.2 ידע את המצב לאמיתו. במקרה זה, זכאי המבוטח להחזר הפרמיה ששילם בעד התקופה שלאחר קרות מקרה הביטוח, בניכוי הוצאות החברה.\n, לעיל בכל אחת מאלה 5.4ו 5.3 החברה לא תהיה זכאית לתרופות המפורטות בסעיפים 5.5 אלא אם התשובה שלא היתה מלאה וכנה ניתנה בכוונת מירמה:\nהיא ידעה או היה עליה לדעת את המצב לאמיתו בשעת כריתת החוזה או שהיא 5.5.1 גרמה לכך שהתשובה לא היתה מלאה וכנה.\nהעובדה  שעליה  ניתנה  תשובה  שלא  היתה  מלאה  וכנה  חדלה  להתקיים  לפני 5.5.2 שקרה מקרה הביטוח, או שלא השפיעה על מקרהו, על חבות החברה או על . היקפה"
 }

@@ -2,25 +2,25 @@
   "id": "pdf:car/files/חוברת-כללים-תביעות-רכב-צד-ג.pdf#23",
   "source": "llm",
   "description": {
-    "title": "תשלום חלקי של תביעה",
-    "summary": "This table details the notification process when a car insurance claim (תביעה) is partially approved. It outlines the information that must be provided to the claimant regarding both the approved payment and the reasons for any denial.",
-    "embed_passage": "הראל תמסור לתובע הודעה בכתב הכוללת שני חלקים במקרה של תשלום חלקי של תביעה. החלק הראשון יפרט את מרכיבי התשלום שאושר, והחלק השני יפרט את הנימוקים לדחיית חלק מהתביעה.  הודעה זו רלוונטית לכל תביעה, אך לא נדרשת אם התביעה נדונה בבית משפט או הוסכם על פשרה.",
-    "row_axis": "Scenario: partial claim approval",
-    "column_axis": "Notification requirements for partial claim payments",
+    "title": "הודעה על תשלום חלקי",
+    "summary": "This table outlines the notification requirements when an insurance claim is partially approved and part of it is rejected. It details what information must be provided to the claimant in writing.",
+    "embed_passage": "טבלה זו מתארת את הדרישות למתן הודעה כאשר תביעת ביטוח אושרה באופן חלקי וחלק ממנה נדחה. ההודעה צריכה לפרט את מרכיבי התשלום שאושרו, ואת הנימוקים לדחיית חלק מהתביעה. הטבלה רלוונטית במקרים של תביעות רכב צד ג׳, כפי שמפורט במסמך הכללים. הראל, תשלום חלקי, דחיית תביעה, נימוקים לדחייה, מרכיבי תשלום, הסדר פשרה.",
+    "row_axis": "תנאי תשלום חלקי",
+    "column_axis": "מרכיבי ההודעה לתובע",
     "units": [],
     "notable_values": [
-      "סעיף: 2",
-      "תשלום חלקי: required",
-      "הודעה בכתב: required",
-      "שני חלקים: notification structure",
-      "סעיף ד': documents not required (except rules)"
+      "תשלום חלקי: קיים",
+      "דחיית חלק מהתביעה: קיים",
+      "הודעה בכתב: נדרשת",
+      "חלק ראשון: מרכיבי התשלום שאושרו",
+      "חלק שני: נימוקים לדחיית התביעה"
     ],
     "product_hints": [
-      "הראל רכב",
-      "ביטוח רכב צד ג"
+      "רכב צד ג׳",
+      "הראל"
     ]
   },
   "sketch": "אם נתקבלה החלטה על תשלום חלקי של התביעה תוך דחיית חלק מהתביעה .2 לגבי סכומים שנדרשו או חלק מהעילות שנדרשו - תימסר לתובע במועד התשלום הודעה בכתב הכוללת שני חלקים כמפורט להלן:\nשיפרט את מרכיביו של התשלום שאושר בהתאם למפורט לעיל; , החלק הראשון שיפרט את הנימוקים לדחיית חלק מהתביעה, כמפורט בהמשך. , החלק השני\nבכל מקרה בו נתקבלה החלטה על תשלום התביעה, לא יהיה צורך במשלוח המסמכים המפורטים בסעיף ד' לעיל, למעט העתק מערכת כללים זו.",
-  "embed_text": "הראל תמסור לתובע הודעה בכתב הכוללת שני חלקים במקרה של תשלום חלקי של תביעה. החלק הראשון יפרט את מרכיבי התשלום שאושר, והחלק השני יפרט את הנימוקים לדחיית חלק מהתביעה.  הודעה זו רלוונטית לכל תביעה, אך לא נדרשת אם התביעה נדונה בבית משפט או הוסכם על פשרה.",
-  "payload": "טבלה: תשלום חלקי של תביעה\nThis table details the notification process when a car insurance claim (תביעה) is partially approved. It outlines the information that must be provided to the claimant regarding both the approved payment and the reasons for any denial.\nממדים: Scenario: partial claim approval, Notification requirements for partial claim payments\n\nאם נתקבלה החלטה על תשלום חלקי של התביעה תוך דחיית חלק מהתביעה .2 לגבי סכומים שנדרשו או חלק מהעילות שנדרשו - תימסר לתובע במועד התשלום הודעה בכתב הכוללת שני חלקים כמפורט להלן:\nשיפרט את מרכיביו של התשלום שאושר בהתאם למפורט לעיל; , החלק הראשון שיפרט את הנימוקים לדחיית חלק מהתביעה, כמפורט בהמשך. , החלק השני\nבכל מקרה בו נתקבלה החלטה על תשלום התביעה, לא יהיה צורך במשלוח המסמכים המפורטים בסעיף ד' לעיל, למעט העתק מערכת כללים זו."
+  "embed_text": "טבלה זו מתארת את הדרישות למתן הודעה כאשר תביעת ביטוח אושרה באופן חלקי וחלק ממנה נדחה. ההודעה צריכה לפרט את מרכיבי התשלום שאושרו, ואת הנימוקים לדחיית חלק מהתביעה. הטבלה רלוונטית במקרים של תביעות רכב צד ג׳, כפי שמפורט במסמך הכללים. הראל, תשלום חלקי, דחיית תביעה, נימוקים לדחייה, מרכיבי תשלום, הסדר פשרה. This table outlines the notification requirements when an insurance claim is partially approved and part of it is rejected. It details what information must be provided to the claimant in writing. בין הערכים בטבלה: הודעה בכתב: נדרשת; חלק שני: נימוקים לדחיית התביעה.",
+  "payload": "טבלה: הודעה על תשלום חלקי\nThis table outlines the notification requirements when an insurance claim is partially approved and part of it is rejected. It details what information must be provided to the claimant in writing.\nממדים: תנאי תשלום חלקי, מרכיבי ההודעה לתובע\n\nאם נתקבלה החלטה על תשלום חלקי של התביעה תוך דחיית חלק מהתביעה .2 לגבי סכומים שנדרשו או חלק מהעילות שנדרשו - תימסר לתובע במועד התשלום הודעה בכתב הכוללת שני חלקים כמפורט להלן:\nשיפרט את מרכיביו של התשלום שאושר בהתאם למפורט לעיל; , החלק הראשון שיפרט את הנימוקים לדחיית חלק מהתביעה, כמפורט בהמשך. , החלק השני\nבכל מקרה בו נתקבלה החלטה על תשלום התביעה, לא יהיה צורך במשלוח המסמכים המפורטים בסעיף ד' לעיל, למעט העתק מערכת כללים זו."
 }

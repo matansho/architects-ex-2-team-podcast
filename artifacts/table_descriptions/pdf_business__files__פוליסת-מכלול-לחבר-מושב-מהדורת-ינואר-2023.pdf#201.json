@@ -3,20 +3,24 @@
   "source": "llm",
   "description": {
     "title": "כיסוי קבלנים",
-    "summary": "This table details coverage for contractors, subcontractors, and temporary workers under the 'מכלול' policy. It outlines how claims are handled when other insurance applies and how contractor wages are declared.",
-    "embed_passage": "פוליסת 'מכלול' כוללת כיסוי לקבלנים, קבלני משנה ועובדי כוח אדם. הכיסוי חל על חבות המבוטח כלפיהם עקב מקרה ביטוח, בתנאי שהמבוטח נחשב למעבידם. אם קיימת השתתפות עצמית מביטוח אחר, היא תופחת מסכום הפיצוי על פי פוליסה זו.",
-    "row_axis": "Coverage conditions and stipulations related to contractors, subcontractors, and temporary workers",
-    "column_axis": "Details of the coverage, including liability, other insurance interactions, and wage declarations",
+    "summary": "This table details coverage for contractors, subcontractors, and temporary workers under the 'מכלול' policy. It outlines the conditions under which the insured is liable for their actions and how other insurance policies affect coverage.",
+    "embed_passage": "טבלה זו מתארת את הכיסוי עבור קבלנים, קבלני משנה ועובדי כוח אדם במסגרת פוליסת 'מכלול'. מטרת הטבלה היא להבהיר את חבותו של המבוטח כלפי גורמים אלו, ואת אופן הטיפול במקרים בהם קיימת השתתפות עצמית מביטוח אחר. ניתן לבדוק את הכיסוי בהתאם לסוג העובד (קבלן, קבלן משנה, עובד כוח אדם) והקשר שלו למקרה הביטוח. הטבלה מתייחסת לקבלנים, קבלני משנה, עובדי קבלנים, עובדי קבלני משנה ועובדי כוח אדם. הכיסוי חל כאשר המבוטח נחשב כמעבידם של העובדים הללו. במקרה של שיפוי כפול, ביטוח אחר ייחשב כהשתתפות עצמית.",
+    "row_axis": "conditions for coverage related to contractors, subcontractors, and temporary workers",
+    "column_axis": "coverage details and limitations",
     "units": [],
     "notable_values": [
-      "Policy Year: 2023",
-      "Coverage Type: Contractors, Subcontractors, Temporary Workers"
+      "קבלנים: covered",
+      "קבלני משנה: covered",
+      "עובדי כוח אדם: covered",
+      "עובדי קבלנים: covered",
+      "עובדי קבלני משנה: covered",
+      "שיפוי אחר: השתתפות עצמית"
     ],
     "product_hints": [
       "מכלול"
     ]
   },
   "sketch": "כיסוי קבלנים וגם/או קבלני משנה וגם/או עובדי כוח אדם .2.5\nפרק זה מורחב לכסות את חבותו , אם נקבע במפורש ברשימה כי כיסוי זה תקף החוקית של המבוטח כלפי קבלנים, עובדי קבלנים, קבלני משנה, עובדי קבלני משנה אך לא , עקב מקרה הביטוח , ובלבד שהמבוטח ייחשב כמעבידם , או עובדי כוח אדם , כאשר המבוטח זכאי לשיפוי כלפי המנויים בכיסוי זה, בגין אותו מקרה הביטוח על פי כל ביטוח אחר שנערך על ידו או לטובתו.\nהיה המבוטח זכאי לשיפוי בגין מקרה הביטוח על פי ביטוח אחר, יהווה הביטוח האחר השתתפות עצמית לעניין כיסוי זה והמבוטח יהיה זכאי לשיפוי על פי כיסוי זה רק בסכום/ים העודף/ים מעבר ומעל לביטוח האחר.\nשכר הקבלנים, קבלני המשנה ועובדי כוח אדם, ייכלל בהצהרות אשר על המבוטח למסור למבטח למטרת הביטוח על פי פוליסה זו.",
-  "embed_text": "פוליסת 'מכלול' כוללת כיסוי לקבלנים, קבלני משנה ועובדי כוח אדם. הכיסוי חל על חבות המבוטח כלפיהם עקב מקרה ביטוח, בתנאי שהמבוטח נחשב למעבידם. אם קיימת השתתפות עצמית מביטוח אחר, היא תופחת מסכום הפיצוי על פי פוליסה זו.",
-  "payload": "טבלה: כיסוי קבלנים\nThis table details coverage for contractors, subcontractors, and temporary workers under the 'מכלול' policy. It outlines how claims are handled when other insurance applies and how contractor wages are declared.\nממדים: Coverage conditions and stipulations related to contractors, subcontractors, and temporary workers, Details of the coverage, including liability, other insurance interactions, and wage declarations\n\nכיסוי קבלנים וגם/או קבלני משנה וגם/או עובדי כוח אדם .2.5\nפרק זה מורחב לכסות את חבותו , אם נקבע במפורש ברשימה כי כיסוי זה תקף החוקית של המבוטח כלפי קבלנים, עובדי קבלנים, קבלני משנה, עובדי קבלני משנה אך לא , עקב מקרה הביטוח , ובלבד שהמבוטח ייחשב כמעבידם , או עובדי כוח אדם , כאשר המבוטח זכאי לשיפוי כלפי המנויים בכיסוי זה, בגין אותו מקרה הביטוח על פי כל ביטוח אחר שנערך על ידו או לטובתו.\nהיה המבוטח זכאי לשיפוי בגין מקרה הביטוח על פי ביטוח אחר, יהווה הביטוח האחר השתתפות עצמית לעניין כיסוי זה והמבוטח יהיה זכאי לשיפוי על פי כיסוי זה רק בסכום/ים העודף/ים מעבר ומעל לביטוח האחר.\nשכר הקבלנים, קבלני המשנה ועובדי כוח אדם, ייכלל בהצהרות אשר על המבוטח למסור למבטח למטרת הביטוח על פי פוליסה זו."
+  "embed_text": "טבלה זו מתארת את הכיסוי עבור קבלנים, קבלני משנה ועובדי כוח אדם במסגרת פוליסת 'מכלול'. מטרת הטבלה היא להבהיר את חבותו של המבוטח כלפי גורמים אלו, ואת אופן הטיפול במקרים בהם קיימת השתתפות עצמית מביטוח אחר. ניתן לבדוק את הכיסוי בהתאם לסוג העובד (קבלן, קבלן משנה, עובד כוח אדם) והקשר שלו למקרה הביטוח. הטבלה מתייחסת לקבלנים, קבלני משנה, עובדי קבלנים, עובדי קבלני משנה ועובדי כוח אדם. הכיסוי חל כאשר המבוטח נחשב כמעבידם של העובדים הללו. במקרה של שיפוי כפול, ביטוח אחר ייחשב כהשתתפות עצמית. This table details coverage for contractors, subcontractors, and temporary workers under the 'מכלול' policy. It outlines the conditions under which the insured is liable for their actions and how other insurance policies affect coverage.",
+  "payload": "טבלה: כיסוי קבלנים\nThis table details coverage for contractors, subcontractors, and temporary workers under the 'מכלול' policy. It outlines the conditions under which the insured is liable for their actions and how other insurance policies affect coverage.\nממדים: conditions for coverage related to contractors, subcontractors, and temporary workers, coverage details and limitations\n\nכיסוי קבלנים וגם/או קבלני משנה וגם/או עובדי כוח אדם .2.5\nפרק זה מורחב לכסות את חבותו , אם נקבע במפורש ברשימה כי כיסוי זה תקף החוקית של המבוטח כלפי קבלנים, עובדי קבלנים, קבלני משנה, עובדי קבלני משנה אך לא , עקב מקרה הביטוח , ובלבד שהמבוטח ייחשב כמעבידם , או עובדי כוח אדם , כאשר המבוטח זכאי לשיפוי כלפי המנויים בכיסוי זה, בגין אותו מקרה הביטוח על פי כל ביטוח אחר שנערך על ידו או לטובתו.\nהיה המבוטח זכאי לשיפוי בגין מקרה הביטוח על פי ביטוח אחר, יהווה הביטוח האחר השתתפות עצמית לעניין כיסוי זה והמבוטח יהיה זכאי לשיפוי על פי כיסוי זה רק בסכום/ים העודף/ים מעבר ומעל לביטוח האחר.\nשכר הקבלנים, קבלני המשנה ועובדי כוח אדם, ייכלל בהצהרות אשר על המבוטח למסור למבטח למטרת הביטוח על פי פוליסה זו."
 }

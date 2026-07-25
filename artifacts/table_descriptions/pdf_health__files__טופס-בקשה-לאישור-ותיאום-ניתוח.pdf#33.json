@@ -2,24 +2,25 @@
   "id": "pdf:health/files/טופס-בקשה-לאישור-ותיאום-ניתוח.pdf#33",
   "source": "llm",
   "description": {
-    "title": "טופס בקשה לאישור ניתוח",
-    "summary": "This table describes the process for submitting a claim for surgery approval. It outlines details regarding the statute of limitations and contact information for the health claims department.",
-    "embed_passage": "טופס זה מיועד להגשת בקשה לאישור ניתוח. תקופת ההתיישנות תימנה ממועד קרות מקרה הביטוח, אך במקרה של תביעת קטין, תקופה בה טרם מלאו לו שמונה עשרה שנים לא תבוא במניין. ניתן להעלות מסמכים במסרון למספר 052-3235121.",
-    "row_axis": "Claim details / legal considerations",
-    "column_axis": "Information regarding claim submission and statute of limitations",
+    "title": "טופס בקשה לאישור ותיאום ניתוח",
+    "summary": "This table outlines details for a health insurance claim request form. It provides contact information for the claims department and instructions regarding the statute of limitations for filing a claim.",
+    "embed_passage": "טופס זה הוא טופס בקשה לאישור ותיאום ניתוח של הראל ביטוח. הטופס מנוסח בלשון זכר אך מיועד לנשים וגברים כאחד, וחשוב למלא אותו באופן מדויק ושלם. תקופת ההתיישנות תימנה ממועד קרות מקרה הביטוח, אך ישנם חריגים כגון תביעות של קטינים. ניתן ליצור קשר עם אגף תביעות בריאות וחו״ל של הראל במספר טלפון 03-7348166 או בדואר אלקטרוני tvbriut@harel-ins.co.il. כתובת למשלוח בדואר היא רח׳ אבא הלל 5252202, רמת גן, מיקוד 10952, ת.ד 3. העלאת מסמכים במסרון אפשרית למספר 052-3235121.",
+    "row_axis": "Instructions/Information",
+    "column_axis": "Details (Contact Info, Legal Notes)",
     "units": [],
     "notable_values": [
-      "Phone number: 03-7348166",
-      "Fax number: 03-7348166",
-      "Minor age limit: 18",
-      "Post address zip code: 10952",
-      "SMS upload number: 052-3235121"
+      "Phone Number: 03-7348166",
+      "Email: tvbriut@harel-ins.co.il",
+      "Postal Address: רח׳ אבא הלל 5252202, רמת גן, מיקוד 10952, ת.ד 3",
+      "SMS Upload Number: 052-3235121",
+      "Statute of Limitations: Calculated from date of incident",
+      "Minor Claims: Statute of limitations paused until age 18"
     ],
     "product_hints": [
-      "אישור ניתוח"
+      "הראל"
     ]
   },
   "sketch": "תקופת ההתיישנות תימנה ממועד קרות מקרה הביטוח.\n. אם מדובר בתביעת קטין, לא תבוא במניין תקופת ההתיישנות התקופה בה טרם מלאו לתובע שמונה עשרה שנים ככלל, הגשת תביעה לגוף מוסדי אינה עוצרת את מרוץ ההתיישנות, ורק הגשת תביעה לבית משפט עוצרת את מרוץ ההתיישנות.\nי\nהטופס מנוסח בלשון זכר, אך מיועד לנשים וגברים כאחד. נא הקפד למלא טופס זה באופן מדויק ושלם.\n.tvbriut@harel-ins.co.il 03-7348166 : אגף תביעות בריאות וחו\"ל מספר פקס\n.5252202 , רמת גן, מיקוד 10952 . , ת.ד 3 למשלוח בדואר: רח' אבא הלל\n.052-3235121 : העלאת מסמכים במסרון למספר",
-  "embed_text": "טופס זה מיועד להגשת בקשה לאישור ניתוח. תקופת ההתיישנות תימנה ממועד קרות מקרה הביטוח, אך במקרה של תביעת קטין, תקופה בה טרם מלאו לו שמונה עשרה שנים לא תבוא במניין. ניתן להעלות מסמכים במסרון למספר 052-3235121.",
-  "payload": "טבלה: טופס בקשה לאישור ניתוח\nThis table describes the process for submitting a claim for surgery approval. It outlines details regarding the statute of limitations and contact information for the health claims department.\nממדים: Claim details / legal considerations, Information regarding claim submission and statute of limitations\n\nתקופת ההתיישנות תימנה ממועד קרות מקרה הביטוח.\n. אם מדובר בתביעת קטין, לא תבוא במניין תקופת ההתיישנות התקופה בה טרם מלאו לתובע שמונה עשרה שנים ככלל, הגשת תביעה לגוף מוסדי אינה עוצרת את מרוץ ההתיישנות, ורק הגשת תביעה לבית משפט עוצרת את מרוץ ההתיישנות.\nי\nהטופס מנוסח בלשון זכר, אך מיועד לנשים וגברים כאחד. נא הקפד למלא טופס זה באופן מדויק ושלם.\n.tvbriut@harel-ins.co.il 03-7348166 : אגף תביעות בריאות וחו\"ל מספר פקס\n.5252202 , רמת גן, מיקוד 10952 . , ת.ד 3 למשלוח בדואר: רח' אבא הלל\n.052-3235121 : העלאת מסמכים במסרון למספר"
+  "embed_text": "טופס זה הוא טופס בקשה לאישור ותיאום ניתוח של הראל ביטוח. הטופס מנוסח בלשון זכר אך מיועד לנשים וגברים כאחד, וחשוב למלא אותו באופן מדויק ושלם. תקופת ההתיישנות תימנה ממועד קרות מקרה הביטוח, אך ישנם חריגים כגון תביעות של קטינים. ניתן ליצור קשר עם אגף תביעות בריאות וחו״ל של הראל במספר טלפון 03-7348166 או בדואר אלקטרוני tvbriut@harel-ins.co.il. כתובת למשלוח בדואר היא רח׳ אבא הלל 5252202, רמת גן, מיקוד 10952, ת.ד 3. העלאת מסמכים במסרון אפשרית למספר 052-3235121. This table outlines details for a health insurance claim request form. It provides contact information for the claims department and instructions regarding the statute of limitations for filing a claim. בין הערכים בטבלה: Statute of Limitations: Calculated from date of incident; Minor Claims: Statute of limitations paused until age 18.",
+  "payload": "טבלה: טופס בקשה לאישור ותיאום ניתוח\nThis table outlines details for a health insurance claim request form. It provides contact information for the claims department and instructions regarding the statute of limitations for filing a claim.\nממדים: Instructions/Information, Details (Contact Info, Legal Notes)\n\nתקופת ההתיישנות תימנה ממועד קרות מקרה הביטוח.\n. אם מדובר בתביעת קטין, לא תבוא במניין תקופת ההתיישנות התקופה בה טרם מלאו לתובע שמונה עשרה שנים ככלל, הגשת תביעה לגוף מוסדי אינה עוצרת את מרוץ ההתיישנות, ורק הגשת תביעה לבית משפט עוצרת את מרוץ ההתיישנות.\nי\nהטופס מנוסח בלשון זכר, אך מיועד לנשים וגברים כאחד. נא הקפד למלא טופס זה באופן מדויק ושלם.\n.tvbriut@harel-ins.co.il 03-7348166 : אגף תביעות בריאות וחו\"ל מספר פקס\n.5252202 , רמת גן, מיקוד 10952 . , ת.ד 3 למשלוח בדואר: רח' אבא הלל\n.052-3235121 : העלאת מסמכים במסרון למספר"
 }

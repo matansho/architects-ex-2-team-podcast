@@ -2,24 +2,27 @@
   "id": "pdf:business/files/טופס-הצעה-לביטוח-לעסק-נזקי-טרור.pdf#6",
   "source": "llm",
   "description": {
-    "title": "ביטוח נזקי טרור",
-    "summary": "This table outlines the terms for insuring business property against terror-related damages. It details coverage options and limitations based on whether the insurance is based on declared values or 'first loss' basis.",
-    "embed_passage": "ביטוח נזקי טרור מציע כיסוי לרכוש עסקי מפני נזקים כתוצאה מאירועי טרור. במקרה של נזק, תגמולי הביטוח יחושבו בהתאם לפוליסה, אך לא יעלו על סכום הביטוח. ניתן לבטח על בסיס סכומי ביטוח או על בסיס 'נזק ראשון'.",
-    "row_axis": "Insurance options and conditions",
-    "column_axis": "Coverage details and limitations",
+    "title": "הצעה לביטוח נזקי טרור",
+    "summary": "This table presents a proposal for terror damage insurance for a business. It outlines coverage options based on either declared insurance amounts or a 'first loss' basis.",
+    "embed_passage": "טופס זה מציג הצעה לביטוח לעסק מפני נזקי טרור, ומאפשר למבוטח לבחור בין ביטוח על בסיס סכומי ביטוח מפורטים לבין ביטוח על בסיס 'נזק ראשון'. במקרה של נזק, תגמולי הביטוח יחושבו בהתאם לפוליסה, תוך התחשבות בסכום הביטוח שנבחר. חשוב לציין את ההבדלים בין שתי אפשרויות הכיסוי, במיוחד בנוגע לסעיף ביטוח חסר. ניתן לבטח מכונות, מבנה, מלאי עסקי, ריהוט וקבועות, ציוד ואביזרים, ואובדן תוצאתי. סכום ביטוח לאבדן רווחים מחושב על בסיס רווח גולמי שנתי.",
+    "row_axis": "coverage options / property types",
+    "column_axis": "insurance basis (declared amount / first loss)",
     "units": [],
     "notable_values": [
-      "סכום ביטוח: unspecified",
-      "תקופת שיפוי: חודשים (unspecified number)",
-      "נזק ראשון: coverage option",
-      "ערך כינון: coverage option",
-      "אובדן תוצאתי: coverage option"
+      "מכונות: כן",
+      "מבנה: כן",
+      "מלאי עסקי: כן",
+      "ריהוט וקבועות: כן",
+      "ציוד ואביזרים: כן",
+      "אובדן תוצאתי: כן",
+      "תקופת שיפוי: חודשים",
+      "רווח גולמי שנתי"
     ],
     "product_hints": [
       "ביטוח נזקי טרור"
     ]
   },
   "sketch": "מבוטח נכבד! לתשומת ליבך, אם בחרת לבטח על בסיס סכומי ביטוח, אזי במקרה נזק יחושבו תגמולי הביטוח בהתאם לפוליסה ובכל מקרה לא יותר מהסכום שבוטח, בכפוף לסעיף ביטוח חסר.\nאם בחרת לבטח על בסיס \"נזק ראשון\", אזי במקרה נזק יהיו תגמולי הביטוח מוגבלים בסכום הביטוח על בסיס \"נזק ראשון\", גם אם הנזק שנגרם בפועל גבוה יותר. במקרה כזה, לא יחול סעיף ביטוח חסר שבפוליסה.",
-  "embed_text": "ביטוח נזקי טרור מציע כיסוי לרכוש עסקי מפני נזקים כתוצאה מאירועי טרור. במקרה של נזק, תגמולי הביטוח יחושבו בהתאם לפוליסה, אך לא יעלו על סכום הביטוח. ניתן לבטח על בסיס סכומי ביטוח או על בסיס 'נזק ראשון'.",
-  "payload": "טבלה: ביטוח נזקי טרור\nThis table outlines the terms for insuring business property against terror-related damages. It details coverage options and limitations based on whether the insurance is based on declared values or 'first loss' basis.\nממדים: Insurance options and conditions, Coverage details and limitations\n\nמבוטח נכבד! לתשומת ליבך, אם בחרת לבטח על בסיס סכומי ביטוח, אזי במקרה נזק יחושבו תגמולי הביטוח בהתאם לפוליסה ובכל מקרה לא יותר מהסכום שבוטח, בכפוף לסעיף ביטוח חסר.\nאם בחרת לבטח על בסיס \"נזק ראשון\", אזי במקרה נזק יהיו תגמולי הביטוח מוגבלים בסכום הביטוח על בסיס \"נזק ראשון\", גם אם הנזק שנגרם בפועל גבוה יותר. במקרה כזה, לא יחול סעיף ביטוח חסר שבפוליסה."
+  "embed_text": "טופס זה מציג הצעה לביטוח לעסק מפני נזקי טרור, ומאפשר למבוטח לבחור בין ביטוח על בסיס סכומי ביטוח מפורטים לבין ביטוח על בסיס 'נזק ראשון'. במקרה של נזק, תגמולי הביטוח יחושבו בהתאם לפוליסה, תוך התחשבות בסכום הביטוח שנבחר. חשוב לציין את ההבדלים בין שתי אפשרויות הכיסוי, במיוחד בנוגע לסעיף ביטוח חסר. ניתן לבטח מכונות, מבנה, מלאי עסקי, ריהוט וקבועות, ציוד ואביזרים, ואובדן תוצאתי. סכום ביטוח לאבדן רווחים מחושב על בסיס רווח גולמי שנתי. This table presents a proposal for terror damage insurance for a business. It outlines coverage options based on either declared insurance amounts or a 'first loss' basis. בין הערכים בטבלה: תקופת שיפוי: חודשים.",
+  "payload": "טבלה: הצעה לביטוח נזקי טרור\nThis table presents a proposal for terror damage insurance for a business. It outlines coverage options based on either declared insurance amounts or a 'first loss' basis.\nממדים: coverage options / property types, insurance basis (declared amount / first loss)\n\nמבוטח נכבד! לתשומת ליבך, אם בחרת לבטח על בסיס סכומי ביטוח, אזי במקרה נזק יחושבו תגמולי הביטוח בהתאם לפוליסה ובכל מקרה לא יותר מהסכום שבוטח, בכפוף לסעיף ביטוח חסר.\nאם בחרת לבטח על בסיס \"נזק ראשון\", אזי במקרה נזק יהיו תגמולי הביטוח מוגבלים בסכום הביטוח על בסיס \"נזק ראשון\", גם אם הנזק שנגרם בפועל גבוה יותר. במקרה כזה, לא יחול סעיף ביטוח חסר שבפוליסה."
 }

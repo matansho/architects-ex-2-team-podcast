@@ -3,25 +3,28 @@
   "source": "llm",
   "description": {
     "title": "שירותי דרך וגרירה",
-    "summary": "This table details the terms of roadside assistance and towing services provided by \"נותן השירות\". It outlines the service areas, conditions for service, and response times.",
-    "embed_passage": "פוליסת הראל מציעה שירותי דרך וגרירה ברחבי מדינת ישראל, למעט אזורים מוגבלים דרומית לצומת הערבה ומזרחית למעלה אדומים. השירות ניתן 24 שעות ביממה, למעט מגבלות ביטחוניות ובימי כיפור. זמן ההגעה הממוצע הוא שעתיים מקבלת הקריאה, למעט חריגים כגון ימי חג או תנאי מזג אוויר קיצוניים.",
-    "row_axis": "Service conditions / details",
-    "column_axis": "Service aspects (e.g., area, timing)",
+    "summary": "This table details the conditions for extended roadside assistance and towing services. It specifies the geographical coverage and limitations of the service.",
+    "embed_passage": "טבלה זו מתארת את תנאי שירותי דרך וגרירה מורחבים, כחלק מפוליסת הראל לרכב. השירותים ניתנים ברחבי מדינת ישראל, למעט אזורים מוגדרים, ובכפוף לאישור משטרת ישראל במקרים מסוימים. ניתן לקבל שירות מורחב תוך שעתיים מקבלת הקריאה, למעט חריגים כגון ימי חג או תנאי מזג אוויר קיצוניים. השירות כולל גרירת הרכב במקרה של תאונת דרכים או תקלה. אזורים מוגבלים כוללים דרומית לצומת הערבה, מזרחית למעלה אדומים, ושטחי האוטונומיה, אך השירות ניתן גם בערד. שירות מורחב, שירותי דרך וגרירה, תאונת דרכים, מדינת ישראל.",
+    "row_axis": "conditions/details of service",
+    "column_axis": "service aspects (coverage, limitations)",
     "units": [],
     "notable_values": [
-      "Service hours: 24",
-      "Service area: Israel (excluding certain areas)",
-      "Response time: 2 hours",
-      "Exclusion: South of Tzumet HaArava",
-      "Exclusion: East of Ma'ale Adumim"
+      "service availability: 24 hours/year",
+      "exclusion: Yom Kippur (with security limitations)",
+      "coverage area: Israel (except specified areas)",
+      "restricted areas: south of Tzumet HaArava",
+      "restricted areas: east of Ma'ale Adumim",
+      "restricted areas: autonomous territories",
+      "exception: service provided in Arad",
+      "police involvement: service limited if police are involved"
     ],
     "product_hints": [
       "הראל",
-      "שירותי דרך וגרירה",
-      "נותן השירות"
+      "שירות מורחב",
+      "שירותי דרך וגרירה"
     ]
   },
   "sketch": "\" ל\"שרותי דרך וגרירה יינתנו בהתאם לכתב השרות לרכב המבוטח, כל השירותים הניתנים . 3 של \"נותן השירות\", כמצוין בכתב השירות.\nשירות מורחב יינתן ברחבי מדינת ישראל בשטחים בשליטה ישראלית למעט דרומית לצומת . 4 הערבה, מזרחית למעלה אדומים ובשטחי האוטונומיה. למרות האמור לעיל, יינתן השירות גם בערד.",
-  "embed_text": "פוליסת הראל מציעה שירותי דרך וגרירה ברחבי מדינת ישראל, למעט אזורים מוגבלים דרומית לצומת הערבה ומזרחית למעלה אדומים. השירות ניתן 24 שעות ביממה, למעט מגבלות ביטחוניות ובימי כיפור. זמן ההגעה הממוצע הוא שעתיים מקבלת הקריאה, למעט חריגים כגון ימי חג או תנאי מזג אוויר קיצוניים.",
-  "payload": "טבלה: שירותי דרך וגרירה\nThis table details the terms of roadside assistance and towing services provided by \"נותן השירות\". It outlines the service areas, conditions for service, and response times.\nממדים: Service conditions / details, Service aspects (e.g., area, timing)\n\n\" ל\"שרותי דרך וגרירה יינתנו בהתאם לכתב השרות לרכב המבוטח, כל השירותים הניתנים . 3 של \"נותן השירות\", כמצוין בכתב השירות.\nשירות מורחב יינתן ברחבי מדינת ישראל בשטחים בשליטה ישראלית למעט דרומית לצומת . 4 הערבה, מזרחית למעלה אדומים ובשטחי האוטונומיה. למרות האמור לעיל, יינתן השירות גם בערד."
+  "embed_text": "טבלה זו מתארת את תנאי שירותי דרך וגרירה מורחבים, כחלק מפוליסת הראל לרכב. השירותים ניתנים ברחבי מדינת ישראל, למעט אזורים מוגדרים, ובכפוף לאישור משטרת ישראל במקרים מסוימים. ניתן לקבל שירות מורחב תוך שעתיים מקבלת הקריאה, למעט חריגים כגון ימי חג או תנאי מזג אוויר קיצוניים. השירות כולל גרירת הרכב במקרה של תאונת דרכים או תקלה. אזורים מוגבלים כוללים דרומית לצומת הערבה, מזרחית למעלה אדומים, ושטחי האוטונומיה, אך השירות ניתן גם בערד. שירות מורחב, שירותי דרך וגרירה, תאונת דרכים, מדינת ישראל. This table details the conditions for extended roadside assistance and towing services. It specifies the geographical coverage and limitations of the service. בין הערכים בטבלה: service availability: 24 hours/year; exclusion: Yom Kippur (with security limitations); coverage area: Israel (except specified areas);…",
+  "payload": "טבלה: שירותי דרך וגרירה\nThis table details the conditions for extended roadside assistance and towing services. It specifies the geographical coverage and limitations of the service.\nממדים: conditions/details of service, service aspects (coverage, limitations)\n\n\" ל\"שרותי דרך וגרירה יינתנו בהתאם לכתב השרות לרכב המבוטח, כל השירותים הניתנים . 3 של \"נותן השירות\", כמצוין בכתב השירות.\nשירות מורחב יינתן ברחבי מדינת ישראל בשטחים בשליטה ישראלית למעט דרומית לצומת . 4 הערבה, מזרחית למעלה אדומים ובשטחי האוטונומיה. למרות האמור לעיל, יינתן השירות גם בערד."
 }

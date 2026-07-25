@@ -2,26 +2,23 @@
   "id": "pdf:travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-דרכון-פרימיום.pdf#253",
   "source": "llm",
   "description": {
-    "title": "שברים בחו\"ל",
-    "summary": "This table details the coverage for fractures sustained abroad under the 'דרכון פרימיום' travel insurance plan. It specifies the percentage of coverage based on the fractured body part.",
-    "embed_passage": "פוליסת 'דרכון פרימיום' מספקת כיסוי לשברים שנגרמו בתאונה בחו\"ל, כאשר גובה הפיצוי תלוי באיבר שנשבר. לדוגמה, שבר בגולגולת יכוסה בשיעור של 35%, בעוד ששבר בחוליה יכוסה בשיעור של 100%. גבול האחריות לשברים עקב תאונה הוא $1,000.",
-    "row_axis": "type of fracture / body part",
-    "column_axis": "coverage percentage",
-    "units": [
-      "%"
-    ],
+    "title": "שברים",
+    "summary": "This table details how fractures are considered for insurance coverage under the 'דרכון פרימיום' travel insurance plan. It specifies how multiple fractures are counted and which bone structures are grouped together for claim purposes.",
+    "embed_passage": "טבלה זו מתארת את אופן התייחסות לשברים במסגרת פוליסת ביטוח הנסיעות 'דרכון פרימיום'. היא מפרטת כיצד מספר שברים נספרים ואילו מבני עצם מקובצים יחד לצורך תביעות ביטוח. הטבלה רלוונטית במקרה של תאונות בחו\"ל שגרמו לשברים באיברים המפורטים בה, והיא משמשת לקביעת שיעור הפיצוי בהתאם לסכום הביטוח המירבי. ניתן לחפש מידע על שברים ספציפיים, כגון שברים בחוליות, בצלעות, או ביד. הטבלה כוללת מידע על עצמות כמו הזיז הרוחבי, הזיז הקוצי, גוף החוליה, קשת החוליה, עצם החזה, ועצם הבריח. כמו כן, היא מציינת כי מספר שברים בחוליה אחת או במספר חוליות יחשבו כשבר אחד לצורך תוכנית הביטוח.",
+    "row_axis": "type of fracture/bone structure",
+    "column_axis": "description/grouping of fractures",
+    "units": [],
     "notable_values": [
-      "חוליה: 100%",
-      "אגן: 100%",
-      "גולגולת: 35%",
-      "חזה בית: 35%",
-      "יד: 35%"
+      "צלעות, עצם החזה ועצם הבריח: עצם אחת",
+      "קשת חולייה: הזיז הרוחבי, הזיז הקוצי והלוחית",
+      "גוף חולייה: שבר שאינו בקשת החוליה",
+      "שברים בחוליה: שבר אחד (לצורך תוכנית הביטוח)"
     ],
     "product_hints": [
       "דרכון פרימיום"
     ]
   },
   "sketch": "הצלעות, עצם החזה ועצם הבריח, אשר תחשבנה כעצם אחת. -בית חזה .( יחשבו כקשת חוליה הזיז הרוחבי, הזיז הקוצי והלוחית )הלמינה -קשת חולייה מספר שברים בחוליה אחת או במספר חוליות, יחשבו כשבר אחד לצורך תוכנית הביטוח.\n. כל שבר בחוליה, שאינו בקשת החוליה, יחשב כגוף חוליה -גוף חולייה מספר שברים בחוליה אחת או במספר חוליות, יחשבו כשבר אחד לצורך תוכנית הביטוח.",
-  "embed_text": "פוליסת 'דרכון פרימיום' מספקת כיסוי לשברים שנגרמו בתאונה בחו\"ל, כאשר גובה הפיצוי תלוי באיבר שנשבר. לדוגמה, שבר בגולגולת יכוסה בשיעור של 35%, בעוד ששבר בחוליה יכוסה בשיעור של 100%. גבול האחריות לשברים עקב תאונה הוא $1,000.",
-  "payload": "טבלה: שברים בחו\"ל\nThis table details the coverage for fractures sustained abroad under the 'דרכון פרימיום' travel insurance plan. It specifies the percentage of coverage based on the fractured body part.\nממדים: type of fracture / body part, coverage percentage\n\nהצלעות, עצם החזה ועצם הבריח, אשר תחשבנה כעצם אחת. -בית חזה .( יחשבו כקשת חוליה הזיז הרוחבי, הזיז הקוצי והלוחית )הלמינה -קשת חולייה מספר שברים בחוליה אחת או במספר חוליות, יחשבו כשבר אחד לצורך תוכנית הביטוח.\n. כל שבר בחוליה, שאינו בקשת החוליה, יחשב כגוף חוליה -גוף חולייה מספר שברים בחוליה אחת או במספר חוליות, יחשבו כשבר אחד לצורך תוכנית הביטוח."
+  "embed_text": "טבלה זו מתארת את אופן התייחסות לשברים במסגרת פוליסת ביטוח הנסיעות 'דרכון פרימיום'. היא מפרטת כיצד מספר שברים נספרים ואילו מבני עצם מקובצים יחד לצורך תביעות ביטוח. הטבלה רלוונטית במקרה של תאונות בחו\"ל שגרמו לשברים באיברים המפורטים בה, והיא משמשת לקביעת שיעור הפיצוי בהתאם לסכום הביטוח המירבי. ניתן לחפש מידע על שברים ספציפיים, כגון שברים בחוליות, בצלעות, או ביד. הטבלה כוללת מידע על עצמות כמו הזיז הרוחבי, הזיז הקוצי, גוף החוליה, קשת החוליה, עצם החזה, ועצם הבריח. כמו כן, היא מציינת כי מספר שברים בחוליה אחת או במספר חוליות יחשבו כשבר אחד לצורך תוכנית הביטוח. This table details how fractures are considered for insurance coverage under the 'דרכון פרימיום' travel insurance plan. It specifies how multiple fractures are counted and which bone structures are grouped together for claim purposes. בין ה…",
+  "payload": "טבלה: שברים\nThis table details how fractures are considered for insurance coverage under the 'דרכון פרימיום' travel insurance plan. It specifies how multiple fractures are counted and which bone structures are grouped together for claim purposes.\nממדים: type of fracture/bone structure, description/grouping of fractures\n\nהצלעות, עצם החזה ועצם הבריח, אשר תחשבנה כעצם אחת. -בית חזה .( יחשבו כקשת חוליה הזיז הרוחבי, הזיז הקוצי והלוחית )הלמינה -קשת חולייה מספר שברים בחוליה אחת או במספר חוליות, יחשבו כשבר אחד לצורך תוכנית הביטוח.\n. כל שבר בחוליה, שאינו בקשת החוליה, יחשב כגוף חוליה -גוף חולייה מספר שברים בחוליה אחת או במספר חוליות, יחשבו כשבר אחד לצורך תוכנית הביטוח."
 }

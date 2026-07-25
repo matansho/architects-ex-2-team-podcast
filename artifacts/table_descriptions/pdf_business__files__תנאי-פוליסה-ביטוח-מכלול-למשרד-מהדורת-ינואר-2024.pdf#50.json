@@ -2,23 +2,22 @@
   "id": "pdf:business/files/תנאי-פוליסה-ביטוח-מכלול-למשרד-מהדורת-ינואר-2024.pdf#50",
   "source": "llm",
   "description": {
-    "title": "תוספות ביטוח",
-    "summary": "This table details additional insurance coverage for building additions or contents, outlining the time period for which the additions are covered and the conditions for notification and payment of additional premiums. It specifies coverage limits and notification requirements.",
-    "embed_passage": "פוליסת מכלול מציעה ביטוח נוסף עבור תוספות למבנה או לתכולה, למשך 30 יום מתחילת ההקמה או ההתקנה. המבוטח מקבל על עצמו להודיע למבטח לפני תום 30 יום, ובתמורה לדמי ביטוח נוספים, הביטוח יחול גם על התוספות עד מועד תום תקופת הביטוח.",
-    "row_axis": "Conditions for additional insurance coverage",
-    "column_axis": "Coverage details (time period, notification, premiums)",
+    "title": "ביטוח נוסף",
+    "summary": "This table details additional insurance coverage for building additions or contents. It specifies a time limit for coverage and conditions for notifying the insurer.",
+    "embed_passage": "טבלה זו עוסקת בביטוח נוסף למבנה ולתכולה, כחלק מחלק א' לפרק ראשון בפוליסה. הביטוח מכסה תוספות למבנה או לתכולה, אך יש להודיע למבטח לפני תום ביצוע התוספות. ניתן להאריך את הכיסוי בתמורה לתשלום דמי ביטוח נוספים. התוספות, המבנה, התכולה, 10%, 30 יום הם מושגים מרכזיים בטבלה זו. הביטוח חל על תוספות למבנה או לתכולה, למשך 30 יום מיום תחילת ההקמה או ההתקנה או ההוספה של התוספות.",
+    "row_axis": "conditions for additional insurance",
+    "column_axis": "coverage details",
     "units": [],
     "notable_values": [
-      "coverage period: 30 יום",
-      "maximum coverage: 10%",
-      "notification deadline: 30 יום"
+      "תוספות למבנה ו/או לתכולה: 10%",
+      "תקופת ביטוח: 30 יום",
+      "הודעה למבטח: לפני תום ביצוע התוספות"
     ],
     "product_hints": [
-      "מכלול",
       "ביטוח מכלול"
     ]
   },
   "sketch": ".3.4.4 ביטוח נוסף\nהביטוח לפי חלק א' לפרק ראשון מכסה - מעבר לסכומי הביטוח של המבנה וזאת , תוספות למבנה או לתכולה -מהם 10%אך לא יותר מ והתכולה יום שמתחילת ההקמה או ההתקנה או ההוספה של התוספות 30 למשך למבנה או לתכולה.\nיום, כאמור, על 30 המבוטח מקבל על עצמו להודיע למבטח לפני תום ביצוע התוספות.\nיום, ובתמורת תשלום או התחייבות המבוטח לתשלום דמי 30 בתום ביטוח נוספים, ככל שיחולו, יחול הביטוח גם על התוספות האמורות עד מועד תום תקופת הביטוח הנקוב ברשימה.",
-  "embed_text": "פוליסת מכלול מציעה ביטוח נוסף עבור תוספות למבנה או לתכולה, למשך 30 יום מתחילת ההקמה או ההתקנה. המבוטח מקבל על עצמו להודיע למבטח לפני תום 30 יום, ובתמורה לדמי ביטוח נוספים, הביטוח יחול גם על התוספות עד מועד תום תקופת הביטוח.",
-  "payload": "טבלה: תוספות ביטוח\nThis table details additional insurance coverage for building additions or contents, outlining the time period for which the additions are covered and the conditions for notification and payment of additional premiums. It specifies coverage limits and notification requirements.\nממדים: Conditions for additional insurance coverage, Coverage details (time period, notification, premiums)\n\n.3.4.4 ביטוח נוסף\nהביטוח לפי חלק א' לפרק ראשון מכסה - מעבר לסכומי הביטוח של המבנה וזאת , תוספות למבנה או לתכולה -מהם 10%אך לא יותר מ והתכולה יום שמתחילת ההקמה או ההתקנה או ההוספה של התוספות 30 למשך למבנה או לתכולה.\nיום, כאמור, על 30 המבוטח מקבל על עצמו להודיע למבטח לפני תום ביצוע התוספות.\nיום, ובתמורת תשלום או התחייבות המבוטח לתשלום דמי 30 בתום ביטוח נוספים, ככל שיחולו, יחול הביטוח גם על התוספות האמורות עד מועד תום תקופת הביטוח הנקוב ברשימה."
+  "embed_text": "טבלה זו עוסקת בביטוח נוסף למבנה ולתכולה, כחלק מחלק א' לפרק ראשון בפוליסה. הביטוח מכסה תוספות למבנה או לתכולה, אך יש להודיע למבטח לפני תום ביצוע התוספות. ניתן להאריך את הכיסוי בתמורה לתשלום דמי ביטוח נוספים. התוספות, המבנה, התכולה, 10%, 30 יום הם מושגים מרכזיים בטבלה זו. הביטוח חל על תוספות למבנה או לתכולה, למשך 30 יום מיום תחילת ההקמה או ההתקנה או ההוספה של התוספות. This table details additional insurance coverage for building additions or contents. It specifies a time limit for coverage and conditions for notifying the insurer.",
+  "payload": "טבלה: ביטוח נוסף\nThis table details additional insurance coverage for building additions or contents. It specifies a time limit for coverage and conditions for notifying the insurer.\nממדים: conditions for additional insurance, coverage details\n\n.3.4.4 ביטוח נוסף\nהביטוח לפי חלק א' לפרק ראשון מכסה - מעבר לסכומי הביטוח של המבנה וזאת , תוספות למבנה או לתכולה -מהם 10%אך לא יותר מ והתכולה יום שמתחילת ההקמה או ההתקנה או ההוספה של התוספות 30 למשך למבנה או לתכולה.\nיום, כאמור, על 30 המבוטח מקבל על עצמו להודיע למבטח לפני תום ביצוע התוספות.\nיום, ובתמורת תשלום או התחייבות המבוטח לתשלום דמי 30 בתום ביטוח נוספים, ככל שיחולו, יחול הביטוח גם על התוספות האמורות עד מועד תום תקופת הביטוח הנקוב ברשימה."
 }

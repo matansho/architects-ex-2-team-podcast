@@ -2,22 +2,21 @@
   "id": "pdf:business/files/פוליסת-מכלול-לחבר-מושב-מהדורת-ינואר-2023.pdf#148",
   "source": "llm",
   "description": {
-    "title": "פוליסת מכלול",
-    "summary": "This table details liability exclusions within the 'Mekhalel' insurance policy. It specifies situations where coverage does not apply, such as incidents involving aircraft, asbestos-related illnesses, and more.",
-    "embed_passage": "פוליסת מכלול כוללת חבות בגין נזק שייגרם על ידי כלי טיס או כלי שיט. הפוליסה אינה מכסה מקרי ביטוח הקשורים לאסבסטוזיס או מחלות הנילוות לאסבסט, ללא קשר לטיפול, ייצור או שימוש בחומר. לדוגמה, חבות בגין שימוש בכלי טיס אינה כלולה.",
-    "row_axis": "Liability Exclusion",
-    "column_axis": "Description of Exclusion",
+    "title": "חבות - פוליסת מכלול",
+    "summary": "This table details liabilities covered under the 'Mekhalel' policy. It lists specific types of damages or incidents for which the insured may be held liable, and therefore covered by the policy.",
+    "embed_passage": "טבלה זו מתארת חבויות המכוסות במסגרת פוליסת 'מכלול'. מטרתה לפרט סוגי נזקים או אירועים שונים שבגינם המבוטח עשוי להיות אחראי, ובהתאם מכוסה על ידי הפוליסה. ניתן לחפש חבויות ספציפיות לפי סעיף הפוליסה או סוג הנזק. הפוליסה כוללת חבות בגין נזק שייגרם על ידי כלי טיס או כלי שיט, חבות הנובעת מאסבסטוזיס או מחלות הקשורות לאסבסט, וכן חבות הנובעת משימוש בכלי רכב מנועי. סעיפים רלוונטיים: 2.9, 2.10.",
+    "row_axis": "סוג חבות",
+    "column_axis": "תיאור החבות",
     "units": [],
     "notable_values": [
-      "exclusion: aircraft/watercraft",
-      "exclusion: asbestos-related illness"
+      "כלי טיס/שיט: 2.9",
+      "אסבסטוזיס: 2.10"
     ],
     "product_hints": [
-      "מכלול",
-      "Mekhalel"
+      "מכלול"
     ]
   },
   "sketch": "חבות בגין נזק שייגרם על ידי או תוך שימוש בכלי טיס, כלי שיט, לרבות טעינתם .2.9 ופריקתם של אלה.\n.  חבות כלשהי שעשויה לחול על המבוטח בגין מקרה ביטוח שמקורו או סיבתו נובעים 2.10 ( במישרין או בעקיפין וגם/או שהינו קשור בדרך כלשהי באסבסטוזיס )אמיינתית , או מחלה כלשהי הנילווית או הקשורה לאסבסט, ומבלי לגרוע מכלליות האמור לרבות מחלות כאמור הנובעות במישרין או בעקיפין מטיפול, יצור, עיבוד, מכירה איחסון, שיווק, או שימוש באסבסט ו/או במוצרי אסבסט או כאלה שמכילים אסבסט.",
-  "embed_text": "פוליסת מכלול כוללת חבות בגין נזק שייגרם על ידי כלי טיס או כלי שיט. הפוליסה אינה מכסה מקרי ביטוח הקשורים לאסבסטוזיס או מחלות הנילוות לאסבסט, ללא קשר לטיפול, ייצור או שימוש בחומר. לדוגמה, חבות בגין שימוש בכלי טיס אינה כלולה.",
-  "payload": "טבלה: פוליסת מכלול\nThis table details liability exclusions within the 'Mekhalel' insurance policy. It specifies situations where coverage does not apply, such as incidents involving aircraft, asbestos-related illnesses, and more.\nממדים: Liability Exclusion, Description of Exclusion\n\nחבות בגין נזק שייגרם על ידי או תוך שימוש בכלי טיס, כלי שיט, לרבות טעינתם .2.9 ופריקתם של אלה.\n.  חבות כלשהי שעשויה לחול על המבוטח בגין מקרה ביטוח שמקורו או סיבתו נובעים 2.10 ( במישרין או בעקיפין וגם/או שהינו קשור בדרך כלשהי באסבסטוזיס )אמיינתית , או מחלה כלשהי הנילווית או הקשורה לאסבסט, ומבלי לגרוע מכלליות האמור לרבות מחלות כאמור הנובעות במישרין או בעקיפין מטיפול, יצור, עיבוד, מכירה איחסון, שיווק, או שימוש באסבסט ו/או במוצרי אסבסט או כאלה שמכילים אסבסט."
+  "embed_text": "טבלה זו מתארת חבויות המכוסות במסגרת פוליסת 'מכלול'. מטרתה לפרט סוגי נזקים או אירועים שונים שבגינם המבוטח עשוי להיות אחראי, ובהתאם מכוסה על ידי הפוליסה. ניתן לחפש חבויות ספציפיות לפי סעיף הפוליסה או סוג הנזק. הפוליסה כוללת חבות בגין נזק שייגרם על ידי כלי טיס או כלי שיט, חבות הנובעת מאסבסטוזיס או מחלות הקשורות לאסבסט, וכן חבות הנובעת משימוש בכלי רכב מנועי. סעיפים רלוונטיים: 2.9, 2.10. This table details liabilities covered under the 'Mekhalel' policy. It lists specific types of damages or incidents for which the insured may be held liable, and therefore covered by the policy.",
+  "payload": "טבלה: חבות - פוליסת מכלול\nThis table details liabilities covered under the 'Mekhalel' policy. It lists specific types of damages or incidents for which the insured may be held liable, and therefore covered by the policy.\nממדים: סוג חבות, תיאור החבות\n\nחבות בגין נזק שייגרם על ידי או תוך שימוש בכלי טיס, כלי שיט, לרבות טעינתם .2.9 ופריקתם של אלה.\n.  חבות כלשהי שעשויה לחול על המבוטח בגין מקרה ביטוח שמקורו או סיבתו נובעים 2.10 ( במישרין או בעקיפין וגם/או שהינו קשור בדרך כלשהי באסבסטוזיס )אמיינתית , או מחלה כלשהי הנילווית או הקשורה לאסבסט, ומבלי לגרוע מכלליות האמור לרבות מחלות כאמור הנובעות במישרין או בעקיפין מטיפול, יצור, עיבוד, מכירה איחסון, שיווק, או שימוש באסבסט ו/או במוצרי אסבסט או כאלה שמכילים אסבסט."
 }

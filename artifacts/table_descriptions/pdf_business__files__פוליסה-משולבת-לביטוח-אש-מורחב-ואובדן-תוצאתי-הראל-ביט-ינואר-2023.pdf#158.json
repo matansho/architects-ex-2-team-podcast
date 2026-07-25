@@ -3,27 +3,24 @@
   "source": "llm",
   "description": {
     "title": "הוצאות הכנת תביעה",
-    "summary": "This table details coverage for 'הוצאות הכנת תביעה' (Claim Preparation Expenses) under a broader insurance policy. It outlines the limits of the insurer's liability for these expenses, referencing sections and conditions within the policy.",
-    "embed_passage": "פוליסת הראל ביטוח מציעה כיסוי להוצאות הכנת תביעה, אשר מוגבלות לסכום המצוין ברשימה או 15% מסכום הביטוח של פרק ב', הנמוך ביניהם, עד לסכום של ₪ 1,250,000. הכיסוי מורחב בהתאם להגדרות בסעיף 6.4 בפרק ב', והאחריות של המבטח מוגבלת בהתאם. במקרה של תביעה משולבת, הסכום המקסימלי יוגבל לגבוה מבין שני הפרקים.",
-    "row_axis": "Coverage details / conditions related to claim preparation expenses",
-    "column_axis": "Policy clauses, limitations, and definitions",
-    "units": [
-      "₪"
-    ],
+    "summary": "This table details coverage for claim preparation expenses under a combined fire and consequential loss insurance policy from Harel. It outlines the limits of the insurer's liability for these expenses.",
+    "embed_passage": "טבלה זו מתארת כיסוי להוצאות הכנת תביעה במסגרת פוליסת ביטוח אש משולבת ואובדן תוצאתי של הראל. ניתן לעיין בטבלה זו כדי להבין את גבולות אחריות המבטח בגין הוצאות אלו, בהתאם לסעיפים 6.4 ו-11.6. הוצאות הכנת תביעה, ביטוח חסר, סכום הביטוח, נזק ראשון הם מושגים מרכזיים בטבלה זו. אחריות המבטח מוגבלת לסכום המצוין ברשימה, או עד ₪ 1,250,000 או 15% מסכום הביטוח של פרק ב', הנמוך ביניהם.",
+    "row_axis": "Coverage details for claim preparation expenses",
+    "column_axis": "Details of coverage limits and conditions",
+    "units": [],
     "notable_values": [
-      "סכום הביטוח: ₪ 1,250,000",
-      "כיסוי: הוצאות הכנת תביעה",
-      "פרק ב': סעיף 6.4",
-      "הגבלה: 15% מסכום הביטוח",
-      "נזק ראשון: על בסיס נזק ראשון"
+      "סכום הביטוח: נזק ראשון",
+      "ביטוח חסר",
+      "הגדרות פרק ב 6.4",
+      "הוצאות הכנת תביעה",
+      "₪ 1,250,000",
+      "15%"
     ],
     "product_hints": [
-      "הראל ביטוח",
-      "ביטוח אש מורחב",
-      "אובדן תוצאתי"
+      "פוליסה משולבת לביטוח אש מורחב ואובדן תוצאתי הראל"
     ]
   },
   "sketch": "הוצאות הכנת תביעה .10.16\nהביטוח על פי פרק זה יורחב לכסות הוצאות , אם נרשם ברשימה כי כיסוי זה בתוקף .' בהגדרות פרק ב 6.4 הכנת תביעה, כהגדרתן בסעיף\nאחריותו של המבטח על פי כיסוי זה מוגבלת עד לסכום המצוין ברשימה.\n\"ביטוח 11.6 סכום הביטוח לכיסוי זה הינו על בסיס נזק ראשון שאינו כפוף לתנאי .' חסר\" בתנאים המיוחדים של פרק ב\n,' מובהר בזאת כי אם תוגש תביעה, הן במסגרת פרק א' והן במסגרת פרק ב 6.4 ההוצאות המכוסות בגין שני הפרקים גם יחד, יהיו אלו המוגדרות בסעיף .' \"הוצאות הכנת תביעה\" בהגדרת פרק ב\nבמקרה כזה אחריות המבטח בגין סך ההוצאות עבור שני הפרקים גם יחד, תוגבל לסכום הגבוה מבין השניים.",
-  "embed_text": "פוליסת הראל ביטוח מציעה כיסוי להוצאות הכנת תביעה, אשר מוגבלות לסכום המצוין ברשימה או 15% מסכום הביטוח של פרק ב', הנמוך ביניהם, עד לסכום של ₪ 1,250,000. הכיסוי מורחב בהתאם להגדרות בסעיף 6.4 בפרק ב', והאחריות של המבטח מוגבלת בהתאם. במקרה של תביעה משולבת, הסכום המקסימלי יוגבל לגבוה מבין שני הפרקים.",
-  "payload": "טבלה: הוצאות הכנת תביעה\nThis table details coverage for 'הוצאות הכנת תביעה' (Claim Preparation Expenses) under a broader insurance policy. It outlines the limits of the insurer's liability for these expenses, referencing sections and conditions within the policy.\nממדים: Coverage details / conditions related to claim preparation expenses, Policy clauses, limitations, and definitions\n\nהוצאות הכנת תביעה .10.16\nהביטוח על פי פרק זה יורחב לכסות הוצאות , אם נרשם ברשימה כי כיסוי זה בתוקף .' בהגדרות פרק ב 6.4 הכנת תביעה, כהגדרתן בסעיף\nאחריותו של המבטח על פי כיסוי זה מוגבלת עד לסכום המצוין ברשימה.\n\"ביטוח 11.6 סכום הביטוח לכיסוי זה הינו על בסיס נזק ראשון שאינו כפוף לתנאי .' חסר\" בתנאים המיוחדים של פרק ב\n,' מובהר בזאת כי אם תוגש תביעה, הן במסגרת פרק א' והן במסגרת פרק ב 6.4 ההוצאות המכוסות בגין שני הפרקים גם יחד, יהיו אלו המוגדרות בסעיף .' \"הוצאות הכנת תביעה\" בהגדרת פרק ב\nבמקרה כזה אחריות המבטח בגין סך ההוצאות עבור שני הפרקים גם יחד, תוגבל לסכום הגבוה מבין השניים."
+  "embed_text": "טבלה זו מתארת כיסוי להוצאות הכנת תביעה במסגרת פוליסת ביטוח אש משולבת ואובדן תוצאתי של הראל. ניתן לעיין בטבלה זו כדי להבין את גבולות אחריות המבטח בגין הוצאות אלו, בהתאם לסעיפים 6.4 ו-11.6. הוצאות הכנת תביעה, ביטוח חסר, סכום הביטוח, נזק ראשון הם מושגים מרכזיים בטבלה זו. אחריות המבטח מוגבלת לסכום המצוין ברשימה, או עד ₪ 1,250,000 או 15% מסכום הביטוח של פרק ב', הנמוך ביניהם. This table details coverage for claim preparation expenses under a combined fire and consequential loss insurance policy from Harel. It outlines the limits of the insurer's liability for these expenses. בין הערכים בטבלה: הגדרות פרק ב 6.4.",
+  "payload": "טבלה: הוצאות הכנת תביעה\nThis table details coverage for claim preparation expenses under a combined fire and consequential loss insurance policy from Harel. It outlines the limits of the insurer's liability for these expenses.\nממדים: Coverage details for claim preparation expenses, Details of coverage limits and conditions\n\nהוצאות הכנת תביעה .10.16\nהביטוח על פי פרק זה יורחב לכסות הוצאות , אם נרשם ברשימה כי כיסוי זה בתוקף .' בהגדרות פרק ב 6.4 הכנת תביעה, כהגדרתן בסעיף\nאחריותו של המבטח על פי כיסוי זה מוגבלת עד לסכום המצוין ברשימה.\n\"ביטוח 11.6 סכום הביטוח לכיסוי זה הינו על בסיס נזק ראשון שאינו כפוף לתנאי .' חסר\" בתנאים המיוחדים של פרק ב\n,' מובהר בזאת כי אם תוגש תביעה, הן במסגרת פרק א' והן במסגרת פרק ב 6.4 ההוצאות המכוסות בגין שני הפרקים גם יחד, יהיו אלו המוגדרות בסעיף .' \"הוצאות הכנת תביעה\" בהגדרת פרק ב\nבמקרה כזה אחריות המבטח בגין סך ההוצאות עבור שני הפרקים גם יחד, תוגבל לסכום הגבוה מבין השניים."
 }

@@ -2,22 +2,23 @@
   "id": "pdf:business/files/טופס-הצעה-לביטוח-עסקי-זיהום.pdf#9",
   "source": "llm",
   "description": {
-    "title": "כיסוי זיהום אתרים",
-    "summary": "This table details the locations covered by a pollution insurance policy. It allows lookup of coverage details based on location characteristics.",
-    "embed_passage": "ביטוח זיהום אתרים מכסה נכסים כגון משרדים ושטחים חקלאיים. הצעות הביטוח מתייחסות למיקום הנכס, כתובת הרחוב והעיר. לדוגמה, ניתן לבקש כיסוי עבור נכס מסוג 'משרד'.",
-    "row_axis": "covered location",
-    "column_axis": "location details (name, address, type)",
+    "title": "תיאור מיקום מבוטח",
+    "summary": "This table describes the covered locations for a pollution insurance policy. It is used to specify the address and type of location being insured.",
+    "embed_passage": "טופס זה מתאר מיקום מבוטח עבור ביטוח זיהום עסקי. המידע נאסף כדי לקבוע את הסיכון של כל מיקום, תוך התחשבות בסוג הנכס ובמיקומו הגיאוגרפי. הנתונים כוללים כתובת, עיר, מדינה ומיקוד. סוגי הנכסים כוללים מחסן/תעשייה קלה, קמעונאות, משרד, קרקע ריקה/חקלאית ואחר. ביטוח זיהום עסקי מכסה נזקים הנגרמים מזיהום.",
+    "row_axis": "מיקום מבוטח",
+    "column_axis": "פרטי מיקום",
     "units": [],
     "notable_values": [
-      "location type: Office",
-      "location type: Vacant land/Agricultural",
-      "radius: 5 miles"
+      "סוג נכס: מחסן/תעשייה קלה",
+      "סוג נכס: קמעונאות",
+      "סוג נכס: משרד",
+      "סוג נכס: קרקע ריקה/חקלאית"
     ],
     "product_hints": [
-      "ביטוח זיהום אתרים"
+      "ביטוח זיהום עסקי"
     ]
   },
-  "sketch": "III. Covered Location Description\nLocation name (if any)\nStreet address\nCity\n…\n Office\n Vacant land/Agricultural\n Other\nDoes the Named Insured or any of the persons or entities listed in Section Vl. below, or any of their respective subsidiaries or affiliates, own property adjacent to or within a 5 (five) mile radius of any of the locations for which this coverage is being purchase and if yes, please identify.",
-  "embed_text": "ביטוח זיהום אתרים מכסה נכסים כגון משרדים ושטחים חקלאיים. הצעות הביטוח מתייחסות למיקום הנכס, כתובת הרחוב והעיר. לדוגמה, ניתן לבקש כיסוי עבור נכס מסוג 'משרד'.",
-  "payload": "טבלה: כיסוי זיהום אתרים\nThis table details the locations covered by a pollution insurance policy. It allows lookup of coverage details based on location characteristics.\nממדים: covered location, location details (name, address, type)\n\nIII. Covered Location Description\nLocation name (if any)\nStreet address\nCity\nState\nZIP Code\nYear of building construction\nCurrent appraised property value\n$\nCurrent use of property (as of and after the application date): (check all that apply)\n Residential\n Hotel\n Manufacturing/industrial\n Warehouse/Light industrial\n Retail\n Office\n Vacant land/Agricultural\n Other\nFor  any  use  described  in  28  above  other  than  Residential,  Hotel,  Retail  or  Office,  please describe with particularity the operations conducted at the \"covered location(s)\". Include in your description any storage (above and below ground), waste management/ disposal/transportation operations.\nPrior use history (prior to the application date): (check all that apply)\n Known\n Residential\n Hotel\n Manufacturing/industrial\n Warehouse/Light industrial\n Unknown\n Retail\n Office\n Vacant land/Agricultural\n Other\n31. Future use of property (after the application date): (check all that apply)\n Residential\n Hotel\n Manufacturing/industrial\n Warehouse/Light industrial\n Retail\n Office\n Vacant land/Agricultural\n Other\nDoes the Named Insured or any of the persons or entities listed in Section Vl. below, or any of their respective subsidiaries or affiliates, own property adjacent to or within a 5 (five) mile radius of any of the locations for which this coverage is being purchase and if yes, please identify."
+  "sketch": "III. Covered Location Description\nLocation name (if any)\nStreet address\nCity\nState\nZIP Code\n…\n Warehouse/Light industrial\n Retail\n Office\n Vacant land/Agricultural\n Other\nDoes the Named Insured or any of the persons or entities listed in Section Vl. below, or any of their respective subsidiaries or affiliates, own property adjacent to or within a 5 (five) mile radius of any of the locations for which this coverage is being purchase and if yes, please identify.",
+  "embed_text": "טופס זה מתאר מיקום מבוטח עבור ביטוח זיהום עסקי. המידע נאסף כדי לקבוע את הסיכון של כל מיקום, תוך התחשבות בסוג הנכס ובמיקומו הגיאוגרפי. הנתונים כוללים כתובת, עיר, מדינה ומיקוד. סוגי הנכסים כוללים מחסן/תעשייה קלה, קמעונאות, משרד, קרקע ריקה/חקלאית ואחר. ביטוח זיהום עסקי מכסה נזקים הנגרמים מזיהום. This table describes the covered locations for a pollution insurance policy. It is used to specify the address and type of location being insured.",
+  "payload": "טבלה: תיאור מיקום מבוטח\nThis table describes the covered locations for a pollution insurance policy. It is used to specify the address and type of location being insured.\nממדים: מיקום מבוטח, פרטי מיקום\n\nIII. Covered Location Description\nLocation name (if any)\nStreet address\nCity\nState\nZIP Code\nYear of building construction\nCurrent appraised property value\n$\nCurrent use of property (as of and after the application date): (check all that apply)\n Residential\n Hotel\n Manufacturing/industrial\n Warehouse/Light industrial\n Retail\n Office\n Vacant land/Agricultural\n Other\nFor  any  use  described  in  28  above  other  than  Residential,  Hotel,  Retail  or  Office,  please describe with particularity the operations conducted at the \"covered location(s)\". Include in your description any storage (above and below ground), waste management/ disposal/transportation operations.\nPrior use history (prior to the application date): (check all that apply)\n Known\n Residential\n Hotel\n Manufacturing/industrial\n Warehouse/Light industrial\n Unknown\n Retail\n Office\n Vacant land/Agricultural\n Other\n31. Future use of property (after the application date): (check all that apply)\n Residential\n Hotel\n Manufacturing/industrial\n Warehouse/Light industrial\n Retail\n Office\n Vacant land/Agricultural\n Other\nDoes the Named Insured or any of the persons or entities listed in Section Vl. below, or any of their respective subsidiaries or affiliates, own property adjacent to or within a 5 (five) mile radius of any of the locations for which this coverage is being purchase and if yes, please identify."
 }

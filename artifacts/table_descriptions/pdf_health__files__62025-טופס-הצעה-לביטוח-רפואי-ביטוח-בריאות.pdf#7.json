@@ -2,27 +2,28 @@
   "id": "pdf:health/files/62025-טופס-הצעה-לביטוח-רפואי-ביטוח-בריאות.pdf#7",
   "source": "llm",
   "description": {
-    "title": "הצעת ביטוח בריאות",
-    "summary": "This table outlines requested insurance amounts for various health coverages, including cancer compensation, as part of a health insurance proposal. It allows customers to specify the desired coverage level in Shekels.",
-    "embed_passage": "פוליסת ביטוח בריאות של הראל מאפשרת לכם לבחור את סכום הביטוח המבוקש עבור כיסויים שונים, כמו פיצוי למחלת הסרטן. הסכומים מצוינים בש״ח, לדוגמה 4 ילד., 3 ילד., 2 ילד., 1 ילד., זוג בן/בת., ראשי. ניתן לרשום סכום ביטוח מבוקש עבור פירוט הכיסויים.",
-    "row_axis": "Coverage type (e.g., cancer compensation)",
-    "column_axis": "Number of children/family members (e.g., 1 ילד, 2 ילד, זוג בן/בת)",
+    "title": "פירוט כיסויים",
+    "summary": "This table details insurance coverage amounts requested in Israeli Shekels (₪) for different plans. It is used to look up the requested insurance amount for specific coverage types.",
+    "embed_passage": "טבלה זו מציגה פירוט של סכומי ביטוח מבוקשים עבור כיסויים שונים במסגרת פוליסת ביטוח בריאות של הראל. ניתן למצוא כאן את הסכומים המבוקשים עבור כיסויים כגון פיצוי למחלת הסרטן. המידע מוצג בש״ח, והטבלה מאפשרת לבדוק את הסכום המבוקש לכל כיסוי בנפרד. הראל מציעה מגוון תוכניות ביטוח בריאות, וטבלה זו מסייעת בהבנת הכיסויים המבוקשים. הסכומים המבוקשים עבור ביטוח סכום רשומים בש״ח, וניתן לראות פירוט של הכיסויים. לדוגמה, פיצוי למחלת הסרטן מענקית, קשות.",
+    "row_axis": "Coverage Type",
+    "column_axis": "Number of Children/Couple/Primary Insured",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "coverage: הסרטן למחלת פיצוי - סרטן מענקית,קשות",
-      "family_size: 1 ילד",
-      "family_size: 2 ילד",
-      "family_size: 3 ילד",
-      "family_size: 4 ילד"
+      "פיצוי למחלת הסרטן: סכום ביטוח",
+      "ילד. 1: סכום ביטוח",
+      "ילד. 2: סכום ביטוח",
+      "ילד. 3: סכום ביטוח",
+      "ילד. 4: סכום ביטוח",
+      "זוג בן/בת: סכום ביטוח",
+      "ראשי: סכום ביטוח"
     ],
     "product_hints": [
-      "ביטוח בריאות",
       "הראל"
     ]
   },
   "sketch": "4 ילד.,3 ילד.,2 ילד.,1 ילד.,זוג בן/בת.,ראשי.,\"בש\"\"ח) מבוקש ביטוח סכום לרשום (יש הכיסויים פירוט.בש\"\"ח הביטוח סכום\",\"בש\"\"ח) מבוקש ביטוח סכום לרשום (יש הכיסויים פירוט.מחלות\"\n,,,,,,הסרטן למחלת פיצוי - סרטן מענקית,קשות",
-  "embed_text": "פוליסת ביטוח בריאות של הראל מאפשרת לכם לבחור את סכום הביטוח המבוקש עבור כיסויים שונים, כמו פיצוי למחלת הסרטן. הסכומים מצוינים בש״ח, לדוגמה 4 ילד., 3 ילד., 2 ילד., 1 ילד., זוג בן/בת., ראשי. ניתן לרשום סכום ביטוח מבוקש עבור פירוט הכיסויים.",
-  "payload": "טבלה: הצעת ביטוח בריאות\nThis table outlines requested insurance amounts for various health coverages, including cancer compensation, as part of a health insurance proposal. It allows customers to specify the desired coverage level in Shekels.\nממדים: Coverage type (e.g., cancer compensation), Number of children/family members (e.g., 1 ילד, 2 ילד, זוג בן/בת)\n\n4 ילד.,3 ילד.,2 ילד.,1 ילד.,זוג בן/בת.,ראשי.,\"בש\"\"ח) מבוקש ביטוח סכום לרשום (יש הכיסויים פירוט.בש\"\"ח הביטוח סכום\",\"בש\"\"ח) מבוקש ביטוח סכום לרשום (יש הכיסויים פירוט.מחלות\"\n,,,,,,הסרטן למחלת פיצוי - סרטן מענקית,קשות"
+  "embed_text": "טבלה זו מציגה פירוט של סכומי ביטוח מבוקשים עבור כיסויים שונים במסגרת פוליסת ביטוח בריאות של הראל. ניתן למצוא כאן את הסכומים המבוקשים עבור כיסויים כגון פיצוי למחלת הסרטן. המידע מוצג בש״ח, והטבלה מאפשרת לבדוק את הסכום המבוקש לכל כיסוי בנפרד. הראל מציעה מגוון תוכניות ביטוח בריאות, וטבלה זו מסייעת בהבנת הכיסויים המבוקשים. הסכומים המבוקשים עבור ביטוח סכום רשומים בש״ח, וניתן לראות פירוט של הכיסויים. לדוגמה, פיצוי למחלת הסרטן מענקית, קשות. This table details insurance coverage amounts requested in Israeli Shekels (₪) for different plans. It is used to look up the requested insurance amount for specific coverage types. בין הערכים בטבלה: ילד. 1: סכום ביטוח; ילד. 2: סכום ביטוח; ילד. 3: סכום ביטוח; ילד. 4: סכום ביטוח; זוג בן/בת: סכום ביטוח; ראשי: סכום ביטוח.",
+  "payload": "טבלה: פירוט כיסויים\nThis table details insurance coverage amounts requested in Israeli Shekels (₪) for different plans. It is used to look up the requested insurance amount for specific coverage types.\nממדים: Coverage Type, Number of Children/Couple/Primary Insured\n\n4 ילד.,3 ילד.,2 ילד.,1 ילד.,זוג בן/בת.,ראשי.,\"בש\"\"ח) מבוקש ביטוח סכום לרשום (יש הכיסויים פירוט.בש\"\"ח הביטוח סכום\",\"בש\"\"ח) מבוקש ביטוח סכום לרשום (יש הכיסויים פירוט.מחלות\"\n,,,,,,הסרטן למחלת פיצוי - סרטן מענקית,קשות"
 }

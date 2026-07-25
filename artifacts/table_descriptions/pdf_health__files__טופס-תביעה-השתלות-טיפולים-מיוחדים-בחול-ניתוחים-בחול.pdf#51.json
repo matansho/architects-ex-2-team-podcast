@@ -2,22 +2,22 @@
   "id": "pdf:health/files/טופס-תביעה-השתלות-טיפולים-מיוחדים-בחול-ניתוחים-בחול.pdf#51",
   "source": "llm",
   "description": {
-    "title": "טופס תביעה",
-    "summary": "This table is a claim form, likely for medical procedures abroad. It details consent for sharing medical information with Harel Insurance and other relevant parties.",
-    "embed_passage": "הראל חברה לביטוח בע\"מ מאשרת להעביר מידע רפואי לחברות ביטוח אחרות וליועץ הביטוחי. טופס זה מאפשר שיתוף מידע רפואי לצורך טיפול בתביעות, בהתאם לחוק הגנת הפרטיות התשמ\"א 1981.",
-    "row_axis": "Claimant consent and authorization",
-    "column_axis": "Information sharing permissions and legal references",
+    "title": "אישור העברת מידע רפואי",
+    "summary": "This table outlines consent for Harel Insurance to share medical information with other insurance companies and relevant parties. It details the scope of information release and references privacy laws.",
+    "embed_passage": "טופס זה הוא אישור להראל חברה לביטוח בע\"מ להעביר מידע רפואי לצורך תביעות ביטוח. האישור יפה גם לפי חוק הגנת הפרטיות, התשמ\"א 1981. ניתן להעביר מידע לחברות ביטוח קיימות וליועץ הביטוחי של קולקטיב הביטוח. המידע יכול לכלול פרטים מכל המוסדות, קופות החולים ורופאיהם. עד מהימן יכול להיות רופא, אחות, עו״ד, עובד סוציאלי או סוכן ביטוח.  הראל חברה לביטוח בע\"מ, קולקטיב הביטוח, חוק הגנת הפרטיות, התשמ\"א 1981, רופא, אחות, עו״ד, עובד סוציאלי, סוכן ביטוח.",
+    "row_axis": "סוג אישור העברת מידע",
+    "column_axis": "פרטי הגורם המורשה לקבל מידע",
     "units": [],
     "notable_values": [
-      "year: 1981",
-      "legal reference: חוק הגנת הפרטיות, התשמ\"א"
+      "חוק הגנת הפרטיות: התשמ\"א 1981",
+      "Harel: הראל חברה לביטוח בע\"מ",
+      "עד מהימן: רופא/אחות/עו״ד/עובד סוציאלי/סוכן ביטוח"
     ],
     "product_hints": [
-      "הראל חברה לביטוח בע\"מ",
-      "פוליסת ביטוח"
+      "הראל חברה לביטוח בע\"מ"
     ]
   },
   "sketch": "בנוסף, הריני מאשר להראל חברה לביטוח בע\"מ ו/או מי מטעמה, להעביר מידע רפואי בענייני לכל אחת מחברות הביטוח הקיימות וליועץ הביטוחי .) של קולקטיב הביטוח (במידה וקיים\nוהיא על כל מידע רפואי או אחר המצוי במאגרי המידע של כל המוסדות, לרבות קופות החולים ו/או 1981   - בקשתי זו יפה גם לפי חוק הגנת הפרטיות, התשמ\"א רופאיהם ו/או עובדיהם ו/או מי מטעמם ו/או נותני השירותים שיפורטו להלן.\n**עד מהימן - רופא/אחות/עו\"ד/עובד סוציאלי/סוכן ביטוח",
-  "embed_text": "הראל חברה לביטוח בע\"מ מאשרת להעביר מידע רפואי לחברות ביטוח אחרות וליועץ הביטוחי. טופס זה מאפשר שיתוף מידע רפואי לצורך טיפול בתביעות, בהתאם לחוק הגנת הפרטיות התשמ\"א 1981.",
-  "payload": "טבלה: טופס תביעה\nThis table is a claim form, likely for medical procedures abroad. It details consent for sharing medical information with Harel Insurance and other relevant parties.\nממדים: Claimant consent and authorization, Information sharing permissions and legal references\n\nבנוסף, הריני מאשר להראל חברה לביטוח בע\"מ ו/או מי מטעמה, להעביר מידע רפואי בענייני לכל אחת מחברות הביטוח הקיימות וליועץ הביטוחי .) של קולקטיב הביטוח (במידה וקיים\nוהיא על כל מידע רפואי או אחר המצוי במאגרי המידע של כל המוסדות, לרבות קופות החולים ו/או 1981   - בקשתי זו יפה גם לפי חוק הגנת הפרטיות, התשמ\"א רופאיהם ו/או עובדיהם ו/או מי מטעמם ו/או נותני השירותים שיפורטו להלן.\n**עד מהימן - רופא/אחות/עו\"ד/עובד סוציאלי/סוכן ביטוח"
+  "embed_text": "טופס זה הוא אישור להראל חברה לביטוח בע\"מ להעביר מידע רפואי לצורך תביעות ביטוח. האישור יפה גם לפי חוק הגנת הפרטיות, התשמ\"א 1981. ניתן להעביר מידע לחברות ביטוח קיימות וליועץ הביטוחי של קולקטיב הביטוח. המידע יכול לכלול פרטים מכל המוסדות, קופות החולים ורופאיהם. עד מהימן יכול להיות רופא, אחות, עו״ד, עובד סוציאלי או סוכן ביטוח.  הראל חברה לביטוח בע\"מ, קולקטיב הביטוח, חוק הגנת הפרטיות, התשמ\"א 1981, רופא, אחות, עו״ד, עובד סוציאלי, סוכן ביטוח. This table outlines consent for Harel Insurance to share medical information with other insurance companies and relevant parties. It details the scope of information release and references privacy laws.",
+  "payload": "טבלה: אישור העברת מידע רפואי\nThis table outlines consent for Harel Insurance to share medical information with other insurance companies and relevant parties. It details the scope of information release and references privacy laws.\nממדים: סוג אישור העברת מידע, פרטי הגורם המורשה לקבל מידע\n\nבנוסף, הריני מאשר להראל חברה לביטוח בע\"מ ו/או מי מטעמה, להעביר מידע רפואי בענייני לכל אחת מחברות הביטוח הקיימות וליועץ הביטוחי .) של קולקטיב הביטוח (במידה וקיים\nוהיא על כל מידע רפואי או אחר המצוי במאגרי המידע של כל המוסדות, לרבות קופות החולים ו/או 1981   - בקשתי זו יפה גם לפי חוק הגנת הפרטיות, התשמ\"א רופאיהם ו/או עובדיהם ו/או מי מטעמם ו/או נותני השירותים שיפורטו להלן.\n**עד מהימן - רופא/אחות/עו\"ד/עובד סוציאלי/סוכן ביטוח"
 }

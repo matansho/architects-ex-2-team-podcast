@@ -2,21 +2,22 @@
   "id": "pdf:health/files/תנאי-פוליסת-upgrade-אקסטרה-ניתוחים-וטיפולים-מחליפי-ניתוח-בישראל.pdf#27",
   "source": "llm",
   "description": {
-    "title": "תנאי פוליסת Upgrade",
-    "summary": "This table details coverage conditions for the Upgrade insurance policy, specifically regarding surgical procedures and alternative treatments in Israel. It outlines eligibility based on the medical institution and doctor involved.",
-    "embed_passage": "פוליסת Upgrade מספקת כיסוי לניתוחים והסדרים רפואיים בישראל. הזכאות לכיסוי תלויה בקשר בין המוסד הרפואי והרופא להסדרים קיימים עם החברה, כמו גם בסעיפים 6.9 ו-6.10. לדוגמה, אם קיים ניתוח הסדר גם עם המוסד וגם עם הרופא, הביטוח מכסה את המקרה.",
-    "row_axis": "Conditions related to insurance coverage",
-    "column_axis": "Specific clauses or instructions within the policy",
+    "title": "הוראות בחוזי",
+    "summary": "This table details conditions related to insurance coverage, specifically regarding procedures performed at facilities with or without agreements with the insurance company. It outlines eligibility based on the medical institution and doctor involved.",
+    "embed_passage": "טבלה זו מתארת הוראות בחוזי הקשורות לכיסוי ביטוחי, במיוחד לגבי ניתוחים המתבצעים במוסדות רפואיים עם או בלי הסדרים עם החברה. הזכאות לכיסוי תלויה במוסד הרפואי וברופא המבצעים את הניתוח. טבלת תנאי הפוליסה 'Upgrade אקסטרה ניתוחים וטיפולים מחליפי ניתוח בישראל' מספקת מידע מפורט על תנאים אלו. ניתוח הסדר, מוסד רפואי, רופא, ביטוח מקרה, סעיף 3.1.2.",
+    "row_axis": "conditions related to insurance coverage",
+    "column_axis": "details of coverage eligibility",
     "units": [],
     "notable_values": [
-      "6.9: הוראות בחוזי",
-      "6.10: הזכאות קרי"
+      "6.9: אי מצב לענין ביטוח()",
+      "6.10: הזכאות קרי י. הרפוא המוסד ו/או הרופא עם"
     ],
     "product_hints": [
-      "Upgrade"
+      "Upgrade אקסטרה ניתוחים",
+      "טיפולים מחליפי ניתוח"
     ]
   },
   "sketch": "אי מצב לענין ביטוח()הוראות בחוזי\",6.9,\n\"הזכאות קרי י. הרפוא המוסד ו/או הרופא עם , ניתוח הסדר ר הסד לגביו לחברה שאין ביטוח מקרה למעט הרפואי, המוסד עם וגם הרופא עם ניתוח הסדר קיים לחברה אם רק הנה ביטוחי לכיסוי . לעיל 3.1.2 ף בסעי כאמור\",6.10,",
-  "embed_text": "פוליסת Upgrade מספקת כיסוי לניתוחים והסדרים רפואיים בישראל. הזכאות לכיסוי תלויה בקשר בין המוסד הרפואי והרופא להסדרים קיימים עם החברה, כמו גם בסעיפים 6.9 ו-6.10. לדוגמה, אם קיים ניתוח הסדר גם עם המוסד וגם עם הרופא, הביטוח מכסה את המקרה.",
-  "payload": "טבלה: תנאי פוליסת Upgrade\nThis table details coverage conditions for the Upgrade insurance policy, specifically regarding surgical procedures and alternative treatments in Israel. It outlines eligibility based on the medical institution and doctor involved.\nממדים: Conditions related to insurance coverage, Specific clauses or instructions within the policy\n\nאי מצב לענין ביטוח()הוראות בחוזי\",6.9,\n\"הזכאות קרי י. הרפוא המוסד ו/או הרופא עם , ניתוח הסדר ר הסד לגביו לחברה שאין ביטוח מקרה למעט הרפואי, המוסד עם וגם הרופא עם ניתוח הסדר קיים לחברה אם רק הנה ביטוחי לכיסוי . לעיל 3.1.2 ף בסעי כאמור\",6.10,"
+  "embed_text": "טבלה זו מתארת הוראות בחוזי הקשורות לכיסוי ביטוחי, במיוחד לגבי ניתוחים המתבצעים במוסדות רפואיים עם או בלי הסדרים עם החברה. הזכאות לכיסוי תלויה במוסד הרפואי וברופא המבצעים את הניתוח. טבלת תנאי הפוליסה 'Upgrade אקסטרה ניתוחים וטיפולים מחליפי ניתוח בישראל' מספקת מידע מפורט על תנאים אלו. ניתוח הסדר, מוסד רפואי, רופא, ביטוח מקרה, סעיף 3.1.2. This table details conditions related to insurance coverage, specifically regarding procedures performed at facilities with or without agreements with the insurance company. It outlines eligibility based on the medical institution and doctor involved. בין הערכים בטבלה: 6.9: אי מצב לענין ביטוח(); 6.10: הזכאות קרי י. הרפוא המוסד ו/או הרופא עם.",
+  "payload": "טבלה: הוראות בחוזי\nThis table details conditions related to insurance coverage, specifically regarding procedures performed at facilities with or without agreements with the insurance company. It outlines eligibility based on the medical institution and doctor involved.\nממדים: conditions related to insurance coverage, details of coverage eligibility\n\nאי מצב לענין ביטוח()הוראות בחוזי\",6.9,\n\"הזכאות קרי י. הרפוא המוסד ו/או הרופא עם , ניתוח הסדר ר הסד לגביו לחברה שאין ביטוח מקרה למעט הרפואי, המוסד עם וגם הרופא עם ניתוח הסדר קיים לחברה אם רק הנה ביטוחי לכיסוי . לעיל 3.1.2 ף בסעי כאמור\",6.10,"
 }

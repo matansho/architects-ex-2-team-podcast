@@ -2,27 +2,24 @@
   "id": "pdf:apartment/files/טופס-הצעה-לפוליסת-ביטוח-רכוש-כל-הסיכונים-לדברי-ערך.pdf#17",
   "source": "llm",
   "description": {
-    "title": "ביטוח רכוש כל הסיכונים",
-    "summary": "This table details all-risks property insurance for valuables. It's used to determine coverage based on the value of items being insured.",
-    "embed_passage": "פוליסת ביטוח רכוש כל הסיכונים של הראל מציעה כיסוי לדברי ערך כמו תכשיטים, שעונים וזהב. ערך התמונות המוצעות לביטוח מצוין בשקלים או דולרים, לדוגמה 1, 2, 3, 7, 8, 9 ו-10. יש לצרף הערכת מעריך מוסמך עבור כל התמונות.",
-    "row_axis": "Item being insured",
-    "column_axis": "Details related to the insured item (e.g., value, date of purchase)",
+    "title": "פוליסת ביטוח רכוש כל הסיכונים",
+    "summary": "This table details property insured under an 'All Risks' insurance policy. It appears to be a listing of items, potentially with associated row numbers.",
+    "embed_passage": "טופס זה מתייחס לפוליסת ביטוח רכוש כל הסיכונים של הראל, המאפשרת ביטוח לדברי ערך שונים. הפוליסה מכסה מגוון רחב של פריטים, כגון תמונות, יצירות אמנות, תכשיטים ודברי זהב. לצורך ביטוח, יש לצרף הערכת מעריך מוסמך לגבי כל הפריטים המוצעים לביטוח. שאלות נפוצות כוללות את ערך התמונות המוצעות לביטוח וערך התמונה היקרה ביותר. ר״ 1, ר״ 2, ר״ 3, ר״ 4, ר״ 5, ר״ 6, ר״ 7, ר״ 8, ר״ 9, ר״ 10 הם מספרי שורות לדוגמה.",
+    "row_axis": "מספר שורה (item number)",
+    "column_axis": "פרטי הרכוש (property details)",
     "units": [
       "ש\"ח/דולר"
     ],
     "notable_values": [
-      "Value 1",
-      "Value 2",
-      "Value 3",
-      "Value 7",
-      "Value 8"
+      "ערך התמונות המוצעות לביטוח: ש\"ח/דולר",
+      "ערך התמונה היקרה ביותר: ש\"ח/דולר"
     ],
     "product_hints": [
       "ביטוח רכוש כל הסיכונים",
       "הראל"
     ]
   },
-  "sketch": "ר\"\n,,,,.1\n,,,,.2\n,,,,.3\n…\n,,,,.7\n,,,,.8\n,,,,.9\n,,,,.10",
-  "embed_text": "פוליסת ביטוח רכוש כל הסיכונים של הראל מציעה כיסוי לדברי ערך כמו תכשיטים, שעונים וזהב. ערך התמונות המוצעות לביטוח מצוין בשקלים או דולרים, לדוגמה 1, 2, 3, 7, 8, 9 ו-10. יש לצרף הערכת מעריך מוסמך עבור כל התמונות.",
-  "payload": "טבלה: ביטוח רכוש כל הסיכונים\nThis table details all-risks property insurance for valuables. It's used to determine coverage based on the value of items being insured.\nממדים: Item being insured, Details related to the insured item (e.g., value, date of purchase)\n\nר\"\n,,,,.1\n,,,,.2\n,,,,.3\n,,,,.4\n,,,,.5\n,,,,.6\n,,,,.7\n,,,,.8\n,,,,.9\n,,,,.10"
+  "sketch": "ר\"\n,,,,.1\n,,,,.2\n,,,,.3\n,,,,.4\n,,,,.5\n,,,,.6\n,,,,.7\n,,,,.8\n,,,,.9\n,,,,.10",
+  "embed_text": "טופס זה מתייחס לפוליסת ביטוח רכוש כל הסיכונים של הראל, המאפשרת ביטוח לדברי ערך שונים. הפוליסה מכסה מגוון רחב של פריטים, כגון תמונות, יצירות אמנות, תכשיטים ודברי זהב. לצורך ביטוח, יש לצרף הערכת מעריך מוסמך לגבי כל הפריטים המוצעים לביטוח. שאלות נפוצות כוללות את ערך התמונות המוצעות לביטוח וערך התמונה היקרה ביותר. ר״ 1, ר״ 2, ר״ 3, ר״ 4, ר״ 5, ר״ 6, ר״ 7, ר״ 8, ר״ 9, ר״ 10 הם מספרי שורות לדוגמה. This table details property insured under an 'All Risks' insurance policy. It appears to be a listing of items, potentially with associated row numbers.",
+  "payload": "טבלה: פוליסת ביטוח רכוש כל הסיכונים\nThis table details property insured under an 'All Risks' insurance policy. It appears to be a listing of items, potentially with associated row numbers.\nממדים: מספר שורה (item number), פרטי הרכוש (property details)\n\nר\"\n,,,,.1\n,,,,.2\n,,,,.3\n,,,,.4\n,,,,.5\n,,,,.6\n,,,,.7\n,,,,.8\n,,,,.9\n,,,,.10"
 }

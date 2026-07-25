@@ -2,25 +2,22 @@
   "id": "pdf:health/files/כתב-שירות-שירותי-רפואה-משלימה-אלטרנטיבית.pdf#27",
   "source": "llm",
   "description": {
-    "title": "שירותי רפואה משלימה",
-    "summary": "This table details the terms of service for complementary medicine, outlining how to access services and requirements for referrals. It specifies service availability and communication protocols.",
-    "embed_passage": "כתב שירות זה מתאר את תנאי השירות לרפואה משלימה, כולל אופן הפנייה למוקד השירות. המוקד פעיל 24 שעות ביממה, למעט החל מערב יום הכיפורים ועד תום שעתיים לאחר שעת סיום צום יום כיפורים. המנוי יעביר לספק הפניה בכתב מהרופא לקבלת השירות.",
-    "row_axis": "service access conditions / operational details",
-    "column_axis": "time, procedure, communication",
+    "title": "כתב שירות רפואה משלימה",
+    "summary": "This table details the service access procedures for complementary medicine. It outlines how a member should contact the service center and provide necessary documentation to receive care.",
+    "embed_passage": "טבלה זו מתארת את אופן קבלת השירותים במסגרת כתב שירות רפואה משלימה. המנוי פונה למוקד השירות, מוסר פרטים מזהים, ומעביר הפניה מהרופא לקבלת השירות. מוקד השירות פעיל 24 שעות ביממה, למעט החל מערב יום הכיפורים ועד תום שעתיים לאחר שעת סיום צום יום כיפורים. כתב שירות זה, הפניה, הרופא, מוקד השירות, יום כיפורים, שעות ביממה הם מרכיבים מרכזיים.",
+    "row_axis": "procedure step",
+    "column_axis": "details",
     "units": [],
     "notable_values": [
-      "service availability: 24 hours/day",
-      "Yom Kippur service disruption: from evening until 2 hours after fast end",
-      "referral requirement: written referral from a doctor",
-      "contact method: phone call to service center",
-      "identification: presentation of ID to service provider"
+      "שעות ביממה: 24",
+      "יום כיפורים: ערב עד שעתיים לאחר סיום הצום"
     ],
     "product_hints": [
-      "שירותי רפואה משלימה",
-      "רפואה משלימה"
+      "רפואה משלימה",
+      "כתב שירות"
     ]
   },
   "sketch": "שעות ביממה, למעט החל מערב יום הכיפורים 24   , מוקד השירות יהא פעיל בכל ימות השנה . 6.2 ועד תום שעתיים לאחר שעת סיום צום יום כיפורים. הספק רשאי לשנות את 14:00 בשעה מספר הטלפון של מוקד השירות, בתיאום ובאישור החברה, ובלבד שימסור על כך הודעה . מראש בכתב למנויים\nהמנוי יעביר לספק, באופן שיורה לו מוקד השירות, את ההפניה בכתב מהרופא לקבלת . 6.3 . לעי   ל 5.1 השירות בשל מצבו הרפואי כאמור בסעיף",
-  "embed_text": "כתב שירות זה מתאר את תנאי השירות לרפואה משלימה, כולל אופן הפנייה למוקד השירות. המוקד פעיל 24 שעות ביממה, למעט החל מערב יום הכיפורים ועד תום שעתיים לאחר שעת סיום צום יום כיפורים. המנוי יעביר לספק הפניה בכתב מהרופא לקבלת השירות.",
-  "payload": "טבלה: שירותי רפואה משלימה\nThis table details the terms of service for complementary medicine, outlining how to access services and requirements for referrals. It specifies service availability and communication protocols.\nממדים: service access conditions / operational details, time, procedure, communication\n\nשעות ביממה, למעט החל מערב יום הכיפורים 24   , מוקד השירות יהא פעיל בכל ימות השנה . 6.2 ועד תום שעתיים לאחר שעת סיום צום יום כיפורים. הספק רשאי לשנות את 14:00 בשעה מספר הטלפון של מוקד השירות, בתיאום ובאישור החברה, ובלבד שימסור על כך הודעה . מראש בכתב למנויים\nהמנוי יעביר לספק, באופן שיורה לו מוקד השירות, את ההפניה בכתב מהרופא לקבלת . 6.3 . לעי   ל 5.1 השירות בשל מצבו הרפואי כאמור בסעיף"
+  "embed_text": "טבלה זו מתארת את אופן קבלת השירותים במסגרת כתב שירות רפואה משלימה. המנוי פונה למוקד השירות, מוסר פרטים מזהים, ומעביר הפניה מהרופא לקבלת השירות. מוקד השירות פעיל 24 שעות ביממה, למעט החל מערב יום הכיפורים ועד תום שעתיים לאחר שעת סיום צום יום כיפורים. כתב שירות זה, הפניה, הרופא, מוקד השירות, יום כיפורים, שעות ביממה הם מרכיבים מרכזיים. This table details the service access procedures for complementary medicine. It outlines how a member should contact the service center and provide necessary documentation to receive care.",
+  "payload": "טבלה: כתב שירות רפואה משלימה\nThis table details the service access procedures for complementary medicine. It outlines how a member should contact the service center and provide necessary documentation to receive care.\nממדים: procedure step, details\n\nשעות ביממה, למעט החל מערב יום הכיפורים 24   , מוקד השירות יהא פעיל בכל ימות השנה . 6.2 ועד תום שעתיים לאחר שעת סיום צום יום כיפורים. הספק רשאי לשנות את 14:00 בשעה מספר הטלפון של מוקד השירות, בתיאום ובאישור החברה, ובלבד שימסור על כך הודעה . מראש בכתב למנויים\nהמנוי יעביר לספק, באופן שיורה לו מוקד השירות, את ההפניה בכתב מהרופא לקבלת . 6.3 . לעי   ל 5.1 השירות בשל מצבו הרפואי כאמור בסעיף"
 }

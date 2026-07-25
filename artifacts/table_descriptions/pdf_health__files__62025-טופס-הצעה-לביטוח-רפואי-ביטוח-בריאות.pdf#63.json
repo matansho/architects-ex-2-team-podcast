@@ -3,23 +3,20 @@
   "source": "llm",
   "description": {
     "title": "הרשאה לחיוב חשבון",
-    "summary": "This table outlines the authorization for direct debit from a bank account. It specifies collection dates and allows for setting limitations on the charged amounts.",
-    "embed_passage": "טופס זה מתייחס להרשאה לחיוב חשבון, המאפשרת גביית תשלומים במועדים שונים, כגון 20-25, 10-15 או 1. ניתן לציין מועד גבייה מועדף, או לבחור בהרשאה כללית ללא הגבלות.",
+    "summary": "This table outlines the authorization for direct debit from a bank account. It details bank and branch information, as well as collection dates.",
+    "embed_passage": "טבלה זו מתארת הרשאה לחיוב חשבון בבנק, ומפרטת את פרטי הבנק והסניף, וכן את מועדי הגבייה. המידע מיועד לשימוש פנימי של החברה לצורך ביצוע חיובים חוזרים. ניתן לציין מועד גבייה מועדף, כגון 20-25 או 10-15. הרשאה זו ניתנת לביטול בהודעה בכתב לבנק. קוד מסלקה, בנק וסניף הם פרטים חיוניים להגדרת ההרשאה.  הטבלה כוללת מידע על קוד מסלקה, בנק, סניף ומועד גבייה.",
     "row_axis": "Bank account authorization details",
-    "column_axis": "Collection date options and related instructions",
+    "column_axis": "Bank details and collection date",
     "units": [],
     "notable_values": [
       "קוד מסלקה: 8",
-      "מועד גבייה: 20-25",
-      "מועד גבייה: 10-15",
-      "מועד גבייה: 1",
-      "קוד המוסד: 6"
+      "קוד מסלקה: 0",
+      "קוד מסלקה: 6",
+      "מועד גבייה: 20-25 / 10-15 / 1-5"
     ],
-    "product_hints": [
-      "הרשאה לחיוב חשבון"
-    ]
+    "product_hints": []
   },
-  "sketch": "8\n0\n6\nקוד מסלקה\n…\n20-25 / 10-15 / 1\t-5 : מועד גבייה □\nלתשומת לבך,\nאי סימון אחת מהחלופות המוצגות לעיל, משמעה בחירה בהרשאה כללית, שאינה כוללת הגבלות.\nאם יישלחו על ידי המוטב חיובים שאינם עומדים בהגבלות שקבע הלקוח, הם יוחזרו על ידי הבנק, על כל המשמעויות הכרוכות בכך.",
-  "embed_text": "טופס זה מתייחס להרשאה לחיוב חשבון, המאפשרת גביית תשלומים במועדים שונים, כגון 20-25, 10-15 או 1. ניתן לציין מועד גבייה מועדף, או לבחור בהרשאה כללית ללא הגבלות.",
-  "payload": "טבלה: הרשאה לחיוב חשבון\nThis table outlines the authorization for direct debit from a bank account. It specifies collection dates and allows for setting limitations on the charged amounts.\nממדים: Bank account authorization details, Collection date options and related instructions\n\n8\n0\n6\nקוד מסלקה\nבנק\nסניף\nסוג חשבון\nמספר חשבון בנק\n- הרשאה כללית, שאינה כוללת הגבלות. או □\nהרשאה הכוללת לפחות אחת מההגבלות הבאות: □\n□ מועד פקיעת תוקף ההרשאה - ביום\nתקרת סכום החיוב: .₪ □\n/\n/\n20-25 / 10-15 / 1\t-5 : מועד גבייה □\nלתשומת לבך,\nאי סימון אחת מהחלופות המוצגות לעיל, משמעה בחירה בהרשאה כללית, שאינה כוללת הגבלות.\nאם יישלחו על ידי המוטב חיובים שאינם עומדים בהגבלות שקבע הלקוח, הם יוחזרו על ידי הבנק, על כל המשמעויות הכרוכות בכך."
+  "sketch": "8\n0\n6\nקוד מסלקה\nבנק\nסניף\n…\n/\n/\n20-25 / 10-15 / 1\t-5 : מועד גבייה □\nלתשומת לבך,\nאי סימון אחת מהחלופות המוצגות לעיל, משמעה בחירה בהרשאה כללית, שאינה כוללת הגבלות.\nאם יישלחו על ידי המוטב חיובים שאינם עומדים בהגבלות שקבע הלקוח, הם יוחזרו על ידי הבנק, על כל המשמעויות הכרוכות בכך.",
+  "embed_text": "טבלה זו מתארת הרשאה לחיוב חשבון בבנק, ומפרטת את פרטי הבנק והסניף, וכן את מועדי הגבייה. המידע מיועד לשימוש פנימי של החברה לצורך ביצוע חיובים חוזרים. ניתן לציין מועד גבייה מועדף, כגון 20-25 או 10-15. הרשאה זו ניתנת לביטול בהודעה בכתב לבנק. קוד מסלקה, בנק וסניף הם פרטים חיוניים להגדרת ההרשאה.  הטבלה כוללת מידע על קוד מסלקה, בנק, סניף ומועד גבייה. This table outlines the authorization for direct debit from a bank account. It details bank and branch information, as well as collection dates.",
+  "payload": "טבלה: הרשאה לחיוב חשבון\nThis table outlines the authorization for direct debit from a bank account. It details bank and branch information, as well as collection dates.\nממדים: Bank account authorization details, Bank details and collection date\n\n8\n0\n6\nקוד מסלקה\nבנק\nסניף\nסוג חשבון\nמספר חשבון בנק\n- הרשאה כללית, שאינה כוללת הגבלות. או □\nהרשאה הכוללת לפחות אחת מההגבלות הבאות: □\n□ מועד פקיעת תוקף ההרשאה - ביום\nתקרת סכום החיוב: .₪ □\n/\n/\n20-25 / 10-15 / 1\t-5 : מועד גבייה □\nלתשומת לבך,\nאי סימון אחת מהחלופות המוצגות לעיל, משמעה בחירה בהרשאה כללית, שאינה כוללת הגבלות.\nאם יישלחו על ידי המוטב חיובים שאינם עומדים בהגבלות שקבע הלקוח, הם יוחזרו על ידי הבנק, על כל המשמעויות הכרוכות בכך."
 }

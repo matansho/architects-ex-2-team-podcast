@@ -2,24 +2,24 @@
   "id": "pdf:mortgage/files/נספח-משכנתא-לאנשים-עם-מוגבלות-מקצרת-חיים.pdf#27",
   "source": "llm",
   "description": {
-    "title": "סעיפי ביטול",
-    "summary": "This table details conditions under which an insurance policy can be cancelled, specifically related to misrepresentation. It outlines scenarios where the company may be entitled to remedies or be exempt from claims.",
-    "embed_passage": "פוליסת ביטוח זה מתייחסת למקרים בהם ניתנה תשובה שאינה מלאה וכנה. לדוגמה, אם מבטח סביר לא היה מתקשר על פי הפוליסה גם בפרמיה גבוהה יותר, המבוטח זכאי להחזר פרמיות בניכוי הוצאות החברה. סעיף 5.3 מציין שהחברה רשאית לבטל את הפוליסה בתוך 30 ימים.",
-    "row_axis": "Conditions for policy cancellation/remedies",
-    "column_axis": "Specific clauses related to misrepresentation and policy validity",
+    "title": "סעיפי ביטול פוליסה",
+    "summary": "This table details conditions under which an insurance policy can be cancelled, specifically related to misrepresentation or incomplete information provided by the insured. It outlines the insurer's rights and the insured's potential for premium refunds.",
+    "embed_passage": "טבלה זו מתארת סעיפי ביטול בפוליסת ביטוח, במקרים של מידע לא מלא או כוונת מירמה. ניתן לבטל את הפוליסה תוך 30 ימים אם ניתנה תשובה לא מלאה או כנה, ובלבד שלא קרה מקרה הביטוח. במקרים מסוימים, המבוטח זכאי להחזר פרמיות בניכוי הוצאות החברה. הסעיפים כוללים מצבים בהם מבטח סביר לא היה מתקשר בפוליסה, או שהתשובה הלא מלאה חדלה להתקיים לפני קרות מקרה הביטוח. 5.3, 5.4, 5.5 הם סעיפים מרכזיים המגדירים את תנאי הביטול וההחזרים.",
+    "row_axis": "תנאי ביטול פוליסה",
+    "column_axis": "תיאור הסעיף",
     "units": [],
     "notable_values": [
-      "30: days for cancellation notice",
-      "5.3: section number for cancellation rights",
-      "5.4.1: clause regarding fraudulent intent",
-      "5.5.1: knowledge of the true state at contract signing",
-      "5.6: 11 years after policy inception"
+      "תשובה ניתנה בכוונת מירמה: 5.4.1",
+      "מבטח סביר לא היה מתקשר: 5.4.2",
+      "תרופות בסעיף 5.5: 5.3",
+      "ידיעה על המצב לאמיתו: 5.5.1",
+      "הפסקת השפעת המידע: 5.5.2"
     ],
     "product_hints": [
       "פוליסה"
     ]
   },
   "sketch": "התשובה ניתנה בכוונת מירמה. 5.4.1\nמבטח סביר  לא היה מתקשר על פי פוליסה זו אף בפרמיה גבוהה יותר 5.4.2 אילו ידע את המצב לאמיתו. במקרה זה, זכאי המבוטח להחזר הפרמיות ששילם  בעד  התקופה  שלאחר  קרות  מקרה  הביטוח,  בניכוי  הוצאות החברה.\n, לעיל בכל אחת מאלה 5.3 החברה לא תהיה זכאית לתרופות המפורטות בסעיף 5.5 אלא אם התשובה שלא היתה מלאה וכנה ניתנה בכוונת מירמה:\nהיא ידעה או היה עליה לדעת את המצב לאמיתו בשעת כריתת החוזה 5.5.1 או שהיא גרמה לכך שהתשובה לא היתה מלאה וכנה.\nהעובדה שעליה ניתנה תשובה שלא היתה מלאה וכנה חדלה להתקיים 5.5.2 לפני  שקרה  מקרה  הביטוח,  או  שלא  השפיעה  על  מקרהו,  על  חבות החברה או על היקפה.",
-  "embed_text": "פוליסת ביטוח זה מתייחסת למקרים בהם ניתנה תשובה שאינה מלאה וכנה. לדוגמה, אם מבטח סביר לא היה מתקשר על פי הפוליסה גם בפרמיה גבוהה יותר, המבוטח זכאי להחזר פרמיות בניכוי הוצאות החברה. סעיף 5.3 מציין שהחברה רשאית לבטל את הפוליסה בתוך 30 ימים.",
-  "payload": "טבלה: סעיפי ביטול\nThis table details conditions under which an insurance policy can be cancelled, specifically related to misrepresentation. It outlines scenarios where the company may be entitled to remedies or be exempt from claims.\nממדים: Conditions for policy cancellation/remedies, Specific clauses related to misrepresentation and policy validity\n\nהתשובה ניתנה בכוונת מירמה. 5.4.1\nמבטח סביר  לא היה מתקשר על פי פוליסה זו אף בפרמיה גבוהה יותר 5.4.2 אילו ידע את המצב לאמיתו. במקרה זה, זכאי המבוטח להחזר הפרמיות ששילם  בעד  התקופה  שלאחר  קרות  מקרה  הביטוח,  בניכוי  הוצאות החברה.\n, לעיל בכל אחת מאלה 5.3 החברה לא תהיה זכאית לתרופות המפורטות בסעיף 5.5 אלא אם התשובה שלא היתה מלאה וכנה ניתנה בכוונת מירמה:\nהיא ידעה או היה עליה לדעת את המצב לאמיתו בשעת כריתת החוזה 5.5.1 או שהיא גרמה לכך שהתשובה לא היתה מלאה וכנה.\nהעובדה שעליה ניתנה תשובה שלא היתה מלאה וכנה חדלה להתקיים 5.5.2 לפני  שקרה  מקרה  הביטוח,  או  שלא  השפיעה  על  מקרהו,  על  חבות החברה או על היקפה."
+  "embed_text": "טבלה זו מתארת סעיפי ביטול בפוליסת ביטוח, במקרים של מידע לא מלא או כוונת מירמה. ניתן לבטל את הפוליסה תוך 30 ימים אם ניתנה תשובה לא מלאה או כנה, ובלבד שלא קרה מקרה הביטוח. במקרים מסוימים, המבוטח זכאי להחזר פרמיות בניכוי הוצאות החברה. הסעיפים כוללים מצבים בהם מבטח סביר לא היה מתקשר בפוליסה, או שהתשובה הלא מלאה חדלה להתקיים לפני קרות מקרה הביטוח. 5.3, 5.4, 5.5 הם סעיפים מרכזיים המגדירים את תנאי הביטול וההחזרים. This table details conditions under which an insurance policy can be cancelled, specifically related to misrepresentation or incomplete information provided by the insured. It outlines the insurer's rights and the insured's potential for premium refunds. בין הערכים בטבלה: תשובה ניתנה בכוונת מירמה: 5.4.1; ידיעה על המצב לאמיתו: 5.5.1; הפסקת השפעת המידע: 5.5.2.",
+  "payload": "טבלה: סעיפי ביטול פוליסה\nThis table details conditions under which an insurance policy can be cancelled, specifically related to misrepresentation or incomplete information provided by the insured. It outlines the insurer's rights and the insured's potential for premium refunds.\nממדים: תנאי ביטול פוליסה, תיאור הסעיף\n\nהתשובה ניתנה בכוונת מירמה. 5.4.1\nמבטח סביר  לא היה מתקשר על פי פוליסה זו אף בפרמיה גבוהה יותר 5.4.2 אילו ידע את המצב לאמיתו. במקרה זה, זכאי המבוטח להחזר הפרמיות ששילם  בעד  התקופה  שלאחר  קרות  מקרה  הביטוח,  בניכוי  הוצאות החברה.\n, לעיל בכל אחת מאלה 5.3 החברה לא תהיה זכאית לתרופות המפורטות בסעיף 5.5 אלא אם התשובה שלא היתה מלאה וכנה ניתנה בכוונת מירמה:\nהיא ידעה או היה עליה לדעת את המצב לאמיתו בשעת כריתת החוזה 5.5.1 או שהיא גרמה לכך שהתשובה לא היתה מלאה וכנה.\nהעובדה שעליה ניתנה תשובה שלא היתה מלאה וכנה חדלה להתקיים 5.5.2 לפני  שקרה  מקרה  הביטוח,  או  שלא  השפיעה  על  מקרהו,  על  חבות החברה או על היקפה."
 }

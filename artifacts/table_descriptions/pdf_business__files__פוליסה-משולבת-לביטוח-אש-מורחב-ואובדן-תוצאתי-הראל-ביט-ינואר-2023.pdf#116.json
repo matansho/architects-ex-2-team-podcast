@@ -3,24 +3,22 @@
   "source": "llm",
   "description": {
     "title": "שעבוד",
-    "summary": "This table details lienholder rights and payment procedures under the insurance policy. It specifies how payments are made to banks or institutions with a vested interest in the insured property.",
-    "embed_passage": "פוליסת הראל ביטוח אש מורחב ואובדן תוצאתי מגדירה את זכויות הבנקים ומוסדות המימון במקרה של תביעה. כל תשלום יועבר לבנקים המצוינים ברשימה, בהתאם לשיעור זכות ההנאה שלהם ברכוש המבוטח. לדוגמה, סעיף 5.14.2 קובע כי ביטול הפוליסה לא יהיה תקף אלא לאחר הודעה בכתב לבנקים לפחות 30 יום לפני מועד הביטול.",
-    "row_axis": "Policy clauses related to liens and payments",
-    "column_axis": "Details of lienholder rights and payment procedures",
+    "summary": "This table details lien conditions related to the insurance policy. It specifies how payments are made to banks/institutions with an interest in the insured property and outlines conditions regarding policy cancellation.",
+    "embed_passage": "טבלה זו עוסקת בתנאי שעבוד הקשורים לפוליסת הביטוח, ומפרטת כיצד תשלומים מועברים לבנקים ומוסדות בעלי זכות הנאה ברכוש המבוטח. היא גם מתווה תנאים לגבי ביטול הפוליסה. ניתן לעיין בטבלה זו כדי להבין את ההגבלות והתנאים הנוספים הקשורים לפוליסת ביטוח אש מורחב ואובדן תוצאתי של הראל. הפוליסה כוללת סעיפים כגון סעיף 5.14.1 וסעיף 5.14.2. הבנקים והמוסדות המפורטים ברשימה, ושיעור זכות ההנאה שלהם ברכוש המבוטח, הם מרכיבים מרכזיים בטבלה זו.",
+    "row_axis": "conditions related to liens",
+    "column_axis": "details of lien conditions and payment procedures",
     "units": [],
     "notable_values": [
       "סעיף: 5.14",
-      "תקופת הודעה: 30 יום",
       "תשלום: לבנקים/מוסדות",
-      "זכות הנאה: ברכוש המבוטח",
-      "ביטול: לא תקף ללא הודעה"
+      "ביטול ביטוח: 30 יום",
+      "זכות הנאה: ברכוש המבוטח"
     ],
     "product_hints": [
-      "הראל ביטוח אש מורחב",
-      "אובדן תוצאתי"
+      "פוליסה משולבת לביטוח אש מורחב ואובדן תוצאתי הראל"
     ]
   },
   "sketch": "שעבוד )סעיף זה בתוקף אך ורק אם צוין הדבר במפורש ברשימה( .5.14\n, כל תשלום, אם יגיע לפי הפרק, ישולם לבנקים/ מוסדות המצוינים ברשימה .5.14.1 ו/או בהתאם לסכומים לפי שיעור זכות ההנאה שיש להם ברכוש המבוטח הנקובים ברשימה ובהתאם לכל תנאי וסעיפי הפוליסה.\n.  למרות כל הרשום בפוליסה ו/או בתוספת כלשהי לפוליסה, בדבר ביטול 5.14.2 הביטוח עקב אי תשלום של דמי ביטוח או חלק מהם, או בדבר זכות ביטול הפוליסה על ידי המבטח מתוקף תנאי הפוליסה, לא יהיה תוקף לביטול 30 הביטוח, אלא ביום ובשעה הנקובים בהודעה שתימסר בכתב, לפחות יום לפני מועד הביטול, אל הבנקים /המוסדות להם זכות ההנאה בפוליסה.",
-  "embed_text": "פוליסת הראל ביטוח אש מורחב ואובדן תוצאתי מגדירה את זכויות הבנקים ומוסדות המימון במקרה של תביעה. כל תשלום יועבר לבנקים המצוינים ברשימה, בהתאם לשיעור זכות ההנאה שלהם ברכוש המבוטח. לדוגמה, סעיף 5.14.2 קובע כי ביטול הפוליסה לא יהיה תקף אלא לאחר הודעה בכתב לבנקים לפחות 30 יום לפני מועד הביטול.",
-  "payload": "טבלה: שעבוד\nThis table details lienholder rights and payment procedures under the insurance policy. It specifies how payments are made to banks or institutions with a vested interest in the insured property.\nממדים: Policy clauses related to liens and payments, Details of lienholder rights and payment procedures\n\nשעבוד )סעיף זה בתוקף אך ורק אם צוין הדבר במפורש ברשימה( .5.14\n, כל תשלום, אם יגיע לפי הפרק, ישולם לבנקים/ מוסדות המצוינים ברשימה .5.14.1 ו/או בהתאם לסכומים לפי שיעור זכות ההנאה שיש להם ברכוש המבוטח הנקובים ברשימה ובהתאם לכל תנאי וסעיפי הפוליסה.\n.  למרות כל הרשום בפוליסה ו/או בתוספת כלשהי לפוליסה, בדבר ביטול 5.14.2 הביטוח עקב אי תשלום של דמי ביטוח או חלק מהם, או בדבר זכות ביטול הפוליסה על ידי המבטח מתוקף תנאי הפוליסה, לא יהיה תוקף לביטול 30 הביטוח, אלא ביום ובשעה הנקובים בהודעה שתימסר בכתב, לפחות יום לפני מועד הביטול, אל הבנקים /המוסדות להם זכות ההנאה בפוליסה."
+  "embed_text": "טבלה זו עוסקת בתנאי שעבוד הקשורים לפוליסת הביטוח, ומפרטת כיצד תשלומים מועברים לבנקים ומוסדות בעלי זכות הנאה ברכוש המבוטח. היא גם מתווה תנאים לגבי ביטול הפוליסה. ניתן לעיין בטבלה זו כדי להבין את ההגבלות והתנאים הנוספים הקשורים לפוליסת ביטוח אש מורחב ואובדן תוצאתי של הראל. הפוליסה כוללת סעיפים כגון סעיף 5.14.1 וסעיף 5.14.2. הבנקים והמוסדות המפורטים ברשימה, ושיעור זכות ההנאה שלהם ברכוש המבוטח, הם מרכיבים מרכזיים בטבלה זו. This table details lien conditions related to the insurance policy. It specifies how payments are made to banks/institutions with an interest in the insured property and outlines conditions regarding policy cancellation. בין הערכים בטבלה: תשלום: לבנקים/מוסדות; ביטול ביטוח: 30 יום.",
+  "payload": "טבלה: שעבוד\nThis table details lien conditions related to the insurance policy. It specifies how payments are made to banks/institutions with an interest in the insured property and outlines conditions regarding policy cancellation.\nממדים: conditions related to liens, details of lien conditions and payment procedures\n\nשעבוד )סעיף זה בתוקף אך ורק אם צוין הדבר במפורש ברשימה( .5.14\n, כל תשלום, אם יגיע לפי הפרק, ישולם לבנקים/ מוסדות המצוינים ברשימה .5.14.1 ו/או בהתאם לסכומים לפי שיעור זכות ההנאה שיש להם ברכוש המבוטח הנקובים ברשימה ובהתאם לכל תנאי וסעיפי הפוליסה.\n.  למרות כל הרשום בפוליסה ו/או בתוספת כלשהי לפוליסה, בדבר ביטול 5.14.2 הביטוח עקב אי תשלום של דמי ביטוח או חלק מהם, או בדבר זכות ביטול הפוליסה על ידי המבטח מתוקף תנאי הפוליסה, לא יהיה תוקף לביטול 30 הביטוח, אלא ביום ובשעה הנקובים בהודעה שתימסר בכתב, לפחות יום לפני מועד הביטול, אל הבנקים /המוסדות להם זכות ההנאה בפוליסה."
 }

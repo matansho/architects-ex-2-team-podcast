@@ -2,24 +2,22 @@
   "id": "pdf:business/files/תנאי-פוליסה-ביטוח-מכלול-לעסק-מהדורת-מרץ-2023.pdf#3",
   "source": "llm",
   "description": {
-    "title": "מכלול לעסק - כיסויים",
-    "summary": "This table details coverage limits for the 'מכלול לעסק' business insurance policy. It shows the maximum payout ('סכום הביטוח') for different coverage areas, based on the policy's terms.",
-    "embed_passage": "פוליסת 'מכלול לעסק' של הראל חברה לביטוח בע״מ מגדירה את סכום הביטוח המקסימלי עבור כל כיסוי. סכום הביטוח / גבול האחריות משתנה בהתאם לפרק או להרחבה בפוליסה, אך לעולם לא יעלה על הנזק הממשי המכוסה. לדוגמה, סכום הביטוח יכול להיות מוגדר כך שלא יעלה על סכום מסוים.",
-    "row_axis": "Coverage area / policy section (פרק / הרחבה / כיסוי)",
-    "column_axis": "Coverage limit / liability limit (סכום הביטוח / גבול האחריות)",
+    "title": "כיסוי על פי הפוליסה",
+    "summary": "This table details the coverage limits according to the insurance policy. It is used to look up the maximum payout for each coverage section, extension, or overall policy coverage.",
+    "embed_passage": "טבלה זו מתארת את סכומי הכיסוי על פי פוליסת ביטוח מכלול לעסק. ניתן לבדוק בה את גבול האחריות המבטח עבור כל פרק, הרחבה או כיסוי בפוליסה. הטבלה מספקת מידע על סכום הביטוח המקסימלי שניתן לקבל, בהתאם לתנאי הפוליסה. סכום הביטוח / גבול אחריות המבטח, סכום הביטוח, גבול האחריות, פרק, הרחבה, כיסוי הם חלק מהמידע המופיע בטבלה.",
+    "row_axis": "Coverage section, extension, or overall policy coverage",
+    "column_axis": "Coverage limit details",
     "units": [],
     "notable_values": [
-      "product: מכלול לעסק",
-      "company: הראל חברה לביטוח בע״מ",
-      "limit type: סכום הביטוח / גבול האחריות",
-      "maximum payout: הנזק הממשי המכוסה"
+      "סכום הביטוח / גבול אחריות המבטח: לא ידוע",
+      "פרק / הרחבה / כיסוי: לא ידוע"
     ],
     "product_hints": [
       "מכלול לעסק",
-      "הראל חברה לביטוח בע״מ"
+      "ביטוח מכלול"
     ]
   },
   "sketch": "הסכום הנקוב לעניין הכיסוי על פי הפוליסה, ככל שנקוב, , אלא אם צוין אחרת בדף הרשימה לא יותר מסכום הביטוח או גבול האחריות )לפי העניין( הרשום בפוליסה -וככל שאינו נקוב .( לאותו פרק ו/או הרחבה ו/או כיסוי )לפי העניין\nבכל מקרה, אחריות המבטח על פי הפוליסה לא תעלה על הנזק הממשי המכוסה בהתאם לכיסוי על פי הפוליסה, וסכומי הביטוח / גבולות האחריות לא יחשבו כסכומי שיפוי מוסכמים.",
-  "embed_text": "פוליסת 'מכלול לעסק' של הראל חברה לביטוח בע״מ מגדירה את סכום הביטוח המקסימלי עבור כל כיסוי. סכום הביטוח / גבול האחריות משתנה בהתאם לפרק או להרחבה בפוליסה, אך לעולם לא יעלה על הנזק הממשי המכוסה. לדוגמה, סכום הביטוח יכול להיות מוגדר כך שלא יעלה על סכום מסוים.",
-  "payload": "טבלה: מכלול לעסק - כיסויים\nThis table details coverage limits for the 'מכלול לעסק' business insurance policy. It shows the maximum payout ('סכום הביטוח') for different coverage areas, based on the policy's terms.\nממדים: Coverage area / policy section (פרק / הרחבה / כיסוי), Coverage limit / liability limit (סכום הביטוח / גבול האחריות)\n\nהסכום הנקוב לעניין הכיסוי על פי הפוליסה, ככל שנקוב, , אלא אם צוין אחרת בדף הרשימה לא יותר מסכום הביטוח או גבול האחריות )לפי העניין( הרשום בפוליסה -וככל שאינו נקוב .( לאותו פרק ו/או הרחבה ו/או כיסוי )לפי העניין\nבכל מקרה, אחריות המבטח על פי הפוליסה לא תעלה על הנזק הממשי המכוסה בהתאם לכיסוי על פי הפוליסה, וסכומי הביטוח / גבולות האחריות לא יחשבו כסכומי שיפוי מוסכמים."
+  "embed_text": "טבלה זו מתארת את סכומי הכיסוי על פי פוליסת ביטוח מכלול לעסק. ניתן לבדוק בה את גבול האחריות המבטח עבור כל פרק, הרחבה או כיסוי בפוליסה. הטבלה מספקת מידע על סכום הביטוח המקסימלי שניתן לקבל, בהתאם לתנאי הפוליסה. סכום הביטוח / גבול אחריות המבטח, סכום הביטוח, גבול האחריות, פרק, הרחבה, כיסוי הם חלק מהמידע המופיע בטבלה. This table details the coverage limits according to the insurance policy. It is used to look up the maximum payout for each coverage section, extension, or overall policy coverage. בין הערכים בטבלה: פרק / הרחבה / כיסוי: לא ידוע.",
+  "payload": "טבלה: כיסוי על פי הפוליסה\nThis table details the coverage limits according to the insurance policy. It is used to look up the maximum payout for each coverage section, extension, or overall policy coverage.\nממדים: Coverage section, extension, or overall policy coverage, Coverage limit details\n\nהסכום הנקוב לעניין הכיסוי על פי הפוליסה, ככל שנקוב, , אלא אם צוין אחרת בדף הרשימה לא יותר מסכום הביטוח או גבול האחריות )לפי העניין( הרשום בפוליסה -וככל שאינו נקוב .( לאותו פרק ו/או הרחבה ו/או כיסוי )לפי העניין\nבכל מקרה, אחריות המבטח על פי הפוליסה לא תעלה על הנזק הממשי המכוסה בהתאם לכיסוי על פי הפוליסה, וסכומי הביטוח / גבולות האחריות לא יחשבו כסכומי שיפוי מוסכמים."
 }

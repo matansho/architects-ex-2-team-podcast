@@ -3,21 +3,20 @@
   "source": "llm",
   "description": {
     "title": "סייגים כלליים",
-    "summary": "This table lists general exclusions to coverage under a home insurance policy. It details events or causes for which the insurer will not provide compensation.",
-    "embed_passage": "פוליסה זו לא תכסה מקרים מסוימים, כגון אובדן או נזק כתוצאה ממפולת קרקע שלא נגרמה מרעידת אדמה. ביטוח הדירה בבית המשותף אינו מכסה נזקים הנגרמים ממלחמה או טרור.  הפוליסה כוללת סייגים כלליים לכל פרקי הפוליס, למעט פרק א'",
+    "summary": "This table lists general exclusions to all sections of the apartment insurance policy, except section A. It details events or causes for which the insurer will not provide compensation.",
+    "embed_passage": "טבלה זו מפרטת סייגים כלליים לכל פרקי פוליסת ביטוח הדירה בבית המשותף, למעט פרק א'. מטרתה להגדיר מצבים בהם הכיסוי הביטוחי אינו חל, כגון אובדן או נזק כתוצאה ממפולת או תזוזת קרקע. ניתן לעיין בסייגים אלו כדי להבין מה אינו מכוסה בפוליסה. הסייגים כוללים בין היתר: מפולת, תזוזת קרקע, שקיעת קרקע, מלחמה, טרור, פעולות חבלה ופלישה. פוליסה זו לא תכסה אובדן או נזק כתוצאה ממפולת או תזוזת קרקע שלא נגרמו על ידי רעידת אדמה.",
     "row_axis": "exclusion type",
-    "column_axis": "details of exclusion",
+    "column_axis": "description",
     "units": [],
     "notable_values": [
-      "exclusion type: מפולת קרקע",
-      "exclusion type: מלחמה",
-      "exclusion type: טרור"
+      "מפולת או תזוזת קרקע: שלא נגרמו על ידי רעידת אדמה",
+      "מלחמה וטרור: אבדן או נזק הקשורים לאירועים אלו"
     ],
     "product_hints": [
       "ביטוח הדירה בבית המשותף"
     ]
   },
   "sketch": "ה פרק ז': סייגים כלליים לכל פרקי הפוליס - ביטוח הדירה בבית המשותף( 1' )למעט פרק א\nפוליסה זו לא תכסה איזה מהמקרים המפורטים בפרק זה, אלא אם נאמר אחרת במפרט. המבטח לא ישפה את המבוטח בגין מקרה ביטוח, אובדן, נזק או חבות, שנגרמו במישרין או בעקיפין על ידי אחד או יותר מהגורמים שלהלן:\n, .  אובדן או נזק כתוצאה ממפולת או תזוזת קרקע, או שקיעת קרקע או גלישת קרקע 1 שלא נגרמו על ידי רעידת אדמה.",
-  "embed_text": "פוליסה זו לא תכסה מקרים מסוימים, כגון אובדן או נזק כתוצאה ממפולת קרקע שלא נגרמה מרעידת אדמה. ביטוח הדירה בבית המשותף אינו מכסה נזקים הנגרמים ממלחמה או טרור.  הפוליסה כוללת סייגים כלליים לכל פרקי הפוליס, למעט פרק א'",
-  "payload": "טבלה: סייגים כלליים\nThis table lists general exclusions to coverage under a home insurance policy. It details events or causes for which the insurer will not provide compensation.\nממדים: exclusion type, details of exclusion\n\nה פרק ז': סייגים כלליים לכל פרקי הפוליס - ביטוח הדירה בבית המשותף( 1' )למעט פרק א\nפוליסה זו לא תכסה איזה מהמקרים המפורטים בפרק זה, אלא אם נאמר אחרת במפרט. המבטח לא ישפה את המבוטח בגין מקרה ביטוח, אובדן, נזק או חבות, שנגרמו במישרין או בעקיפין על ידי אחד או יותר מהגורמים שלהלן:\n, .  אובדן או נזק כתוצאה ממפולת או תזוזת קרקע, או שקיעת קרקע או גלישת קרקע 1 שלא נגרמו על ידי רעידת אדמה."
+  "embed_text": "טבלה זו מפרטת סייגים כלליים לכל פרקי פוליסת ביטוח הדירה בבית המשותף, למעט פרק א'. מטרתה להגדיר מצבים בהם הכיסוי הביטוחי אינו חל, כגון אובדן או נזק כתוצאה ממפולת או תזוזת קרקע. ניתן לעיין בסייגים אלו כדי להבין מה אינו מכוסה בפוליסה. הסייגים כוללים בין היתר: מפולת, תזוזת קרקע, שקיעת קרקע, מלחמה, טרור, פעולות חבלה ופלישה. פוליסה זו לא תכסה אובדן או נזק כתוצאה ממפולת או תזוזת קרקע שלא נגרמו על ידי רעידת אדמה. This table lists general exclusions to all sections of the apartment insurance policy, except section A. It details events or causes for which the insurer will not provide compensation. בין הערכים בטבלה: מלחמה וטרור: אבדן או נזק הקשורים לאירועים אלו.",
+  "payload": "טבלה: סייגים כלליים\nThis table lists general exclusions to all sections of the apartment insurance policy, except section A. It details events or causes for which the insurer will not provide compensation.\nממדים: exclusion type, description\n\nה פרק ז': סייגים כלליים לכל פרקי הפוליס - ביטוח הדירה בבית המשותף( 1' )למעט פרק א\nפוליסה זו לא תכסה איזה מהמקרים המפורטים בפרק זה, אלא אם נאמר אחרת במפרט. המבטח לא ישפה את המבוטח בגין מקרה ביטוח, אובדן, נזק או חבות, שנגרמו במישרין או בעקיפין על ידי אחד או יותר מהגורמים שלהלן:\n, .  אובדן או נזק כתוצאה ממפולת או תזוזת קרקע, או שקיעת קרקע או גלישת קרקע 1 שלא נגרמו על ידי רעידת אדמה."
 }

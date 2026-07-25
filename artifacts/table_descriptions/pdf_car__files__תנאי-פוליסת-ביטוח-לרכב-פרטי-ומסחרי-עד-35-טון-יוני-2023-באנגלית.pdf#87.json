@@ -2,25 +2,23 @@
   "id": "pdf:car/files/תנאי-פוליסת-ביטוח-לרכב-פרטי-ומסחרי-עד-35-טון-יוני-2023-באנגלית.pdf#87",
   "source": "llm",
   "description": {
-    "title": "תיקון פגוש",
-    "summary": "This table details the service times and conditions for bumper repair under a car insurance policy. It specifies the timeframe for repair completion and the process for obtaining service.",
-    "embed_passage": "פוליסת ביטוח לרכב מספקת שירות לתיקון פגוש תוך 5 ימי עבודה מרגע הגעת הרכב למוסך. ימי עבודה מוגדרים כימים ראשון עד חמישי בין השעות 8:00 ל-16:00, למעט ערבי חג, שבת וחגים. במקרים מסוימים, תידרש בדיקת משטרה או אישור שמאי.",
-    "row_axis": "Service conditions / repair process steps",
-    "column_axis": "Timeframe / requirements",
+    "title": "תנאי פוליסת ביטוח לרכב",
+    "summary": "This table details the service conditions for bumper repair under a car insurance policy. It specifies the timeframe for service provision and the insurer's rights regarding damage inspection and repair approval.",
+    "embed_passage": "טבלה זו מתארת את תנאי השירות לתיקון פגוש במסגרת פוליסת ביטוח לרכב. היא מציינת את מסגרת הזמן למתן השירות ואת זכויות המבטח לבדיקת נזקים ואישור תיקון. השירות יסופק תוך 5 ימי עבודה מרגע הגעת הרכב למוסך, כאשר 'ימי עבודה' מוגדרים כימים ראשון עד חמישי (כולל) בין השעות 8:00 ל-16:00, למעט ערבי חג, שבתות וחגים. במקרה של אי יכולת להציג אישור זכאות, המוסך יספק שירות החלפת פגוש כנגד צ'ק דחוי ל-30 יום, אשר יוחזר תוך 15 יום לאחר הוכחת הזכאות. פגוש, ימי עבודה, אישור זכאות, צ'ק דחוי.",
+    "row_axis": "Service conditions",
+    "column_axis": "Timeframe, Insurer's rights, Payment terms",
     "units": [],
     "notable_values": [
-      "repair time: 5 ימי עבודה",
-      "work days: ראשון-חמישי",
-      "work hours: 8:00-16:00",
-      "check return time: 15 ימים",
-      "deferred check period: 30 יום"
+      "Service timeframe: 5 working days",
+      "Work days: Sunday-Thursday (8:00-16:00)",
+      "Check deferral: 30 days",
+      "Refund timeframe: 15 days"
     ],
     "product_hints": [
-      "ביטוח לרכב",
-      "פוליסת ביטוח לרכב"
+      "ביטוח לרכב"
     ]
   },
   "sketch": "28.4.2 The service will be provided and performed in accordance with the cover conditions in the following times:\nIn 5 working days of the vehicle arriving at the service station.\nFor the purpose of this paragraph, \"work days\" are SundayThursday (inclusive) from 8:00 to 16:00, excluding the eves of holidays, Saturdays and public holidays.\n28.4.3 The insurer shall have the right to inspect any damage before approving the repair and to require a police certificate (if relevant)/ a surveyor's approval in regard to the damage/damages at his discretion.\n28.4.4 It should be clarified that in the event that the insured cannot produce an approval, in terms of which it is entitled to the aforementioned cover, while at the Executor of the repair, the Executor of the repair will provide bumper replacement services to the insured who alleges to have purchased this cover, against a 30-day deferred check. This sum will be returned to the insured within 15 days of proving its eligibility for the cover.",
-  "embed_text": "פוליסת ביטוח לרכב מספקת שירות לתיקון פגוש תוך 5 ימי עבודה מרגע הגעת הרכב למוסך. ימי עבודה מוגדרים כימים ראשון עד חמישי בין השעות 8:00 ל-16:00, למעט ערבי חג, שבת וחגים. במקרים מסוימים, תידרש בדיקת משטרה או אישור שמאי.",
-  "payload": "טבלה: תיקון פגוש\nThis table details the service times and conditions for bumper repair under a car insurance policy. It specifies the timeframe for repair completion and the process for obtaining service.\nממדים: Service conditions / repair process steps, Timeframe / requirements\n\n28.4.2 The service will be provided and performed in accordance with the cover conditions in the following times:\nIn 5 working days of the vehicle arriving at the service station.\nFor the purpose of this paragraph, \"work days\" are SundayThursday (inclusive) from 8:00 to 16:00, excluding the eves of holidays, Saturdays and public holidays.\n28.4.3 The insurer shall have the right to inspect any damage before approving the repair and to require a police certificate (if relevant)/ a surveyor's approval in regard to the damage/damages at his discretion.\n28.4.4 It should be clarified that in the event that the insured cannot produce an approval, in terms of which it is entitled to the aforementioned cover, while at the Executor of the repair, the Executor of the repair will provide bumper replacement services to the insured who alleges to have purchased this cover, against a 30-day deferred check. This sum will be returned to the insured within 15 days of proving its eligibility for the cover."
+  "embed_text": "טבלה זו מתארת את תנאי השירות לתיקון פגוש במסגרת פוליסת ביטוח לרכב. היא מציינת את מסגרת הזמן למתן השירות ואת זכויות המבטח לבדיקת נזקים ואישור תיקון. השירות יסופק תוך 5 ימי עבודה מרגע הגעת הרכב למוסך, כאשר 'ימי עבודה' מוגדרים כימים ראשון עד חמישי (כולל) בין השעות 8:00 ל-16:00, למעט ערבי חג, שבתות וחגים. במקרה של אי יכולת להציג אישור זכאות, המוסך יספק שירות החלפת פגוש כנגד צ'ק דחוי ל-30 יום, אשר יוחזר תוך 15 יום לאחר הוכחת הזכאות. פגוש, ימי עבודה, אישור זכאות, צ'ק דחוי. This table details the service conditions for bumper repair under a car insurance policy. It specifies the timeframe for service provision and the insurer's rights regarding damage inspection and repair approval. בין הערכים בטבלה: Service timeframe: 5 working days; Work days: Sunday-Thursday (8:00-16:00); Check deferral: 30 d…",
+  "payload": "טבלה: תנאי פוליסת ביטוח לרכב\nThis table details the service conditions for bumper repair under a car insurance policy. It specifies the timeframe for service provision and the insurer's rights regarding damage inspection and repair approval.\nממדים: Service conditions, Timeframe, Insurer's rights, Payment terms\n\n28.4.2 The service will be provided and performed in accordance with the cover conditions in the following times:\nIn 5 working days of the vehicle arriving at the service station.\nFor the purpose of this paragraph, \"work days\" are SundayThursday (inclusive) from 8:00 to 16:00, excluding the eves of holidays, Saturdays and public holidays.\n28.4.3 The insurer shall have the right to inspect any damage before approving the repair and to require a police certificate (if relevant)/ a surveyor's approval in regard to the damage/damages at his discretion.\n28.4.4 It should be clarified that in the event that the insured cannot produce an approval, in terms of which it is entitled to the aforementioned cover, while at the Executor of the repair, the Executor of the repair will provide bumper replacement services to the insured who alleges to have purchased this cover, against a 30-day deferred check. This sum will be returned to the insured within 15 days of proving its eligibility for the cover."
 }

@@ -2,24 +2,23 @@
   "id": "pdf:business/files/פוליסת-מכלול-לחבר-מושב-מהדורת-ינואר-2023.pdf#489",
   "source": "llm",
   "description": {
-    "title": "חישוב שיפוי",
-    "summary": "This table details how insurance payouts are calculated under the 'מכלול' policy. It outlines that compensation is based on the property's value at the time of loss, up to the insured amount.",
-    "embed_passage": "פוליסת מכלול קובעת את חישוב השיפוי בהתאם לשווי הרכוש שאבד או ניזוק בעת קרות הנזק, אך לא יותר מסכום הביטוח. סכומי הביטוח המופיעים ברשימה הם סכומים מירביים בלבד, והמבוטח צריך להוכיח את סכום הנזק באופן סביר. לדוגמה, אם שווי הנזק הוא 20,000 ₪ וסכום הביטוח הוא 30,000 ₪, השיפוי יהיה עד 20,000 ₪.",
-    "row_axis": "Clauses related to compensation calculation",
-    "column_axis": "Details of compensation calculation",
+    "title": "חישוב השיפוי",
+    "summary": "This table details how compensation will be calculated under the policy. It outlines the basis for determining insurance payouts based on property loss or damage.",
+    "embed_passage": "טבלה זו עוסקת בחישוב השיפוי בפוליסת מכלול לחבר מושב, מהדורת ינואר 2023. חישוב תגמולי הביטוח יתבסס על שווי הרכוש שאבד או ניזוק בעת קרות הנזק, אך לא יעלה על סכום הביטוח. סכומי הביטוח המופיעים ברשימה הם סכומים מירביים בלבד, והמבוטח נדרש להוכיח את סכום הנזק באופן סביר.  הטבלה מתייחסת לחישוב השיפוי, סכומי ביטוח מירביים, והוכחת סכום הנזק.  הטבלה מפרטת את אופן חישוב השיפוי, סכומי ביטוח מירביים, והוכחת סכום הנזק.",
+    "row_axis": "clauses related to compensation calculation",
+    "column_axis": "details of compensation calculation",
     "units": [],
     "notable_values": [
-      "21: Section number for compensation calculation",
-      "21.1: Details how insurance payouts are calculated",
-      "21.2: Insurance amounts are maximum limits",
-      "21.3: Evaluations of property value do not determine compensation",
-      "21.4: Does not detract from underinsurance provisions"
+      "clause: 21.1",
+      "clause: 21.2",
+      "clause: 21.3",
+      "clause: 21.4"
     ],
     "product_hints": [
-      "מכלול"
+      "מכלול לחבר מושב"
     ]
   },
   "sketch": ". חישוב השיפוי 21\nאלא אם צוין אחרת באחד מפרקי/חלקי הפוליסה )לפי העניין(, יחול חישוב השיפוי .21.1 תגמולי הביטוח שיגיעו למבוטח לפי פוליסה זו יחושבו וישולמו : בהתאם למפורט להלן לפי שווי הרכוש שאבד או ניזוק כפי שהוא בעת קרות האבדן או הנזק, אולם לא יותר מסכום הביטוח של רכוש זה;\n.  מובהר בזה, כי סכומי הביטוח וגם/או גבולות האחריות המופיעים ברשימה הינם סכומי 21.2 ביטוח מירביים בלבד וכי שיעור השיפוי על פי פוליסה זאת אינו מוסכם, ועל המבוטח להוכיח באופן סביר את סכום הנזק, היקפו ושיעורו;",
-  "embed_text": "פוליסת מכלול קובעת את חישוב השיפוי בהתאם לשווי הרכוש שאבד או ניזוק בעת קרות הנזק, אך לא יותר מסכום הביטוח. סכומי הביטוח המופיעים ברשימה הם סכומים מירביים בלבד, והמבוטח צריך להוכיח את סכום הנזק באופן סביר. לדוגמה, אם שווי הנזק הוא 20,000 ₪ וסכום הביטוח הוא 30,000 ₪, השיפוי יהיה עד 20,000 ₪.",
-  "payload": "טבלה: חישוב שיפוי\nThis table details how insurance payouts are calculated under the 'מכלול' policy. It outlines that compensation is based on the property's value at the time of loss, up to the insured amount.\nממדים: Clauses related to compensation calculation, Details of compensation calculation\n\n. חישוב השיפוי 21\nאלא אם צוין אחרת באחד מפרקי/חלקי הפוליסה )לפי העניין(, יחול חישוב השיפוי .21.1 תגמולי הביטוח שיגיעו למבוטח לפי פוליסה זו יחושבו וישולמו : בהתאם למפורט להלן לפי שווי הרכוש שאבד או ניזוק כפי שהוא בעת קרות האבדן או הנזק, אולם לא יותר מסכום הביטוח של רכוש זה;\n.  מובהר בזה, כי סכומי הביטוח וגם/או גבולות האחריות המופיעים ברשימה הינם סכומי 21.2 ביטוח מירביים בלבד וכי שיעור השיפוי על פי פוליסה זאת אינו מוסכם, ועל המבוטח להוכיח באופן סביר את סכום הנזק, היקפו ושיעורו;"
+  "embed_text": "טבלה זו עוסקת בחישוב השיפוי בפוליסת מכלול לחבר מושב, מהדורת ינואר 2023. חישוב תגמולי הביטוח יתבסס על שווי הרכוש שאבד או ניזוק בעת קרות הנזק, אך לא יעלה על סכום הביטוח. סכומי הביטוח המופיעים ברשימה הם סכומים מירביים בלבד, והמבוטח נדרש להוכיח את סכום הנזק באופן סביר.  הטבלה מתייחסת לחישוב השיפוי, סכומי ביטוח מירביים, והוכחת סכום הנזק.  הטבלה מפרטת את אופן חישוב השיפוי, סכומי ביטוח מירביים, והוכחת סכום הנזק. This table details how compensation will be calculated under the policy. It outlines the basis for determining insurance payouts based on property loss or damage. בין הערכים בטבלה: clause: 21.1; clause: 21.2; clause: 21.3; clause: 21.4.",
+  "payload": "טבלה: חישוב השיפוי\nThis table details how compensation will be calculated under the policy. It outlines the basis for determining insurance payouts based on property loss or damage.\nממדים: clauses related to compensation calculation, details of compensation calculation\n\n. חישוב השיפוי 21\nאלא אם צוין אחרת באחד מפרקי/חלקי הפוליסה )לפי העניין(, יחול חישוב השיפוי .21.1 תגמולי הביטוח שיגיעו למבוטח לפי פוליסה זו יחושבו וישולמו : בהתאם למפורט להלן לפי שווי הרכוש שאבד או ניזוק כפי שהוא בעת קרות האבדן או הנזק, אולם לא יותר מסכום הביטוח של רכוש זה;\n.  מובהר בזה, כי סכומי הביטוח וגם/או גבולות האחריות המופיעים ברשימה הינם סכומי 21.2 ביטוח מירביים בלבד וכי שיעור השיפוי על פי פוליסה זאת אינו מוסכם, ועל המבוטח להוכיח באופן סביר את סכום הנזק, היקפו ושיעורו;"
 }

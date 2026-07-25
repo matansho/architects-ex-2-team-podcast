@@ -3,22 +3,20 @@
   "source": "llm",
   "description": {
     "title": "חבות כלפי צד שלישי",
-    "summary": "This table details the insurer's liability towards third parties for bodily injury resulting from a car accident. It defines the insurance case according to the Negligence Law and the Compensation for Road Accident Victims Law.",
-    "embed_passage": "פוליסת ביטוח רכב מטיילים בסיני ובירדן מגדירה את חבות המבוטח ו/או הנוהג ברכב כלפי צד שלישי בגין נזקי גוף, עקב תאונת דרכים. גבולות האחריות לאירוע ולכל תקופת הביטוח נקבעים במפרט, והמבטח יישא בהוצאות משפט סבירות. לדוגמה, חבות המבטח לפי פרק זה לא תעלה על הסך הנקוב במפרט.",
-    "row_axis": "Insurance case definition related to third-party bodily injury",
-    "column_axis": "Details of liability, legal basis, and exclusions",
+    "summary": "This table details liability coverage for bodily injury to third parties. It defines the insurance case and references the Road Accidents Compensation Law.",
+    "embed_passage": "טבלה זו מתארת את הכיסוי הביטוחי לחבות כלפי צד שלישי בגין נזקי גוף, בהתאם לפקודת הנזיקין וחוק הפיצויים לנפגעי תאונת דרכים (הפלת״ד). ניתן לעיין בטבלה כדי להבין את הגדרת מקרה הביטוח ואת חבות המבוטח והנוהג ברכב. פוליסה לביטוח רכב מטיילים בסיני ובירדן מספקת כיסוי זה. הטבלה מגדירה את המקרה הביטוח כנזק גוף לצד שלישי כתוצאה מתאונת דרכים. נוסעי הרכב אינם נחשבים כצד שלישי לעניין הגדרה זו.",
+    "row_axis": "מקרה ביטוח (Insurance case)",
+    "column_axis": "הגדרת מקרה הביטוח (Insurance case definition)",
     "units": [],
     "notable_values": [
-      "תשל\"ה: 1975 - Year of the Road Accident Victims Compensation Law",
-      "פקודת הנזיקין: Negligence Law - Legal basis for liability",
-      "צד שלישי: Third party - The injured party in an accident"
+      "חוק הפיצויים לנפגעי תאונת דרכים: הפלת״ד 1975",
+      "פקודת הנזיקין: הגדרת מקרה הביטוח"
     ],
     "product_hints": [
-      "ביטוח רכב מטיילים בסיני ובירדן",
-      "פוליסת ביטוח רכב"
+      "פוליסה לביטוח רכב מטיילים בסיני ובירדן"
     ]
   },
   "sketch": "פרק א': חבות כלפי צד שלישי בגין נזקי גוף\n. , חבותו של המבוטח ו/או של הנוהג ברכב ברשותו של המבוטח הגדרת מקרה הביטוח: לפי פקודת הנזיקין, בגין נזק גוף שיארע לצד שלישי, במשך תקופת הביטוח, עקב תאונת , דרכים הנובעת משימוש ברכב המבוטח כהגדרתם בחוק הפיצויים לנפגעי תאונת דרכים\n.) (להלן: הפלת\"ד 1975תשל\"ה\nיובהר, כי לעניין הגדרה זו, נוסעי הרכב לא ייחשבו כצד שלישי.",
-  "embed_text": "פוליסת ביטוח רכב מטיילים בסיני ובירדן מגדירה את חבות המבוטח ו/או הנוהג ברכב כלפי צד שלישי בגין נזקי גוף, עקב תאונת דרכים. גבולות האחריות לאירוע ולכל תקופת הביטוח נקבעים במפרט, והמבטח יישא בהוצאות משפט סבירות. לדוגמה, חבות המבטח לפי פרק זה לא תעלה על הסך הנקוב במפרט.",
-  "payload": "טבלה: חבות כלפי צד שלישי\nThis table details the insurer's liability towards third parties for bodily injury resulting from a car accident. It defines the insurance case according to the Negligence Law and the Compensation for Road Accident Victims Law.\nממדים: Insurance case definition related to third-party bodily injury, Details of liability, legal basis, and exclusions\n\nפרק א': חבות כלפי צד שלישי בגין נזקי גוף\n. , חבותו של המבוטח ו/או של הנוהג ברכב ברשותו של המבוטח הגדרת מקרה הביטוח: לפי פקודת הנזיקין, בגין נזק גוף שיארע לצד שלישי, במשך תקופת הביטוח, עקב תאונת , דרכים הנובעת משימוש ברכב המבוטח כהגדרתם בחוק הפיצויים לנפגעי תאונת דרכים\n.) (להלן: הפלת\"ד 1975תשל\"ה\nיובהר, כי לעניין הגדרה זו, נוסעי הרכב לא ייחשבו כצד שלישי."
+  "embed_text": "טבלה זו מתארת את הכיסוי הביטוחי לחבות כלפי צד שלישי בגין נזקי גוף, בהתאם לפקודת הנזיקין וחוק הפיצויים לנפגעי תאונת דרכים (הפלת״ד). ניתן לעיין בטבלה כדי להבין את הגדרת מקרה הביטוח ואת חבות המבוטח והנוהג ברכב. פוליסה לביטוח רכב מטיילים בסיני ובירדן מספקת כיסוי זה. הטבלה מגדירה את המקרה הביטוח כנזק גוף לצד שלישי כתוצאה מתאונת דרכים. נוסעי הרכב אינם נחשבים כצד שלישי לעניין הגדרה זו. This table details liability coverage for bodily injury to third parties. It defines the insurance case and references the Road Accidents Compensation Law.",
+  "payload": "טבלה: חבות כלפי צד שלישי\nThis table details liability coverage for bodily injury to third parties. It defines the insurance case and references the Road Accidents Compensation Law.\nממדים: מקרה ביטוח (Insurance case), הגדרת מקרה הביטוח (Insurance case definition)\n\nפרק א': חבות כלפי צד שלישי בגין נזקי גוף\n. , חבותו של המבוטח ו/או של הנוהג ברכב ברשותו של המבוטח הגדרת מקרה הביטוח: לפי פקודת הנזיקין, בגין נזק גוף שיארע לצד שלישי, במשך תקופת הביטוח, עקב תאונת , דרכים הנובעת משימוש ברכב המבוטח כהגדרתם בחוק הפיצויים לנפגעי תאונת דרכים\n.) (להלן: הפלת\"ד 1975תשל\"ה\nיובהר, כי לעניין הגדרה זו, נוסעי הרכב לא ייחשבו כצד שלישי."
 }

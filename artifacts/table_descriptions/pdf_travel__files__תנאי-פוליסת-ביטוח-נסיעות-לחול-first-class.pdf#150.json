@@ -2,25 +2,27 @@
   "id": "pdf:travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-first-class.pdf#150",
   "source": "llm",
   "description": {
-    "title": "ביטוח נסיעות First Class",
-    "summary": "This table details conditions for travel insurance cancellation. It outlines events that trigger cancellation coverage, such as medical emergencies or home incidents, and the timeframe before the trip during which these events must occur.",
-    "embed_passage": "פוליסת ביטוח נסיעות First Class מכסה ביטול נסיעה בתנאים מסוימים, כמו התקף לב או אירוע מוחי שמתגלים עד 14 ימים לפני מועד הנסיעה. במקרה של שריפה או פריצה לבית המבוטח, הכיסוי תקף עד מועד הנסיעה עצמו. הפוליסה מתייחסת גם למצבים של שירות מילואים.",
-    "row_axis": "Cancellation reason / covered event",
-    "column_axis": "Timeframe / conditions for coverage",
+    "title": "ביטול נסיעה",
+    "summary": "This table details conditions for travel cancellation coverage. It lists events that, if occurring within a specified timeframe before a trip, may qualify for cancellation reimbursement.",
+    "embed_passage": "טבלה זו מתארת תנאים לביטול נסיעה במסגרת פוליסת ביטוח נסיעות 'first class'. ניתן לעיין בטבלה כדי לבדוק האם אירוע מסוים, כגון התקף לב או שריפה בבית המבוטח, מזכה בביטול נסיעה. הטבלה מציינת את מספר הימים לפני הנסיעה שבהם האירוע חייב להתרחש כדי שהביטול יהיה מכוסה. בין האירועים המכוסים ניתן למצוא התקף לב, גילוי מחלת הסרטן, אירוע מוחי, שריפה, התפוצצות, נזק בזדון, סערה ושיטפון. כמו כן, נדרשת נוכחות המבוטח לחקירה משטרתית עקב פריצה. ביטול נסיעה בתקופה של 14 ימים לפני הנסיעה או במועד הנסיעה עצמו עשוי להיות מכוסה.",
+    "row_axis": "Cancellation reason/event",
+    "column_axis": "Conditions/Timeframe",
     "units": [],
     "notable_values": [
-      "Cancellation timeframe: 14 days",
-      "Heart attack/stroke coverage: up to 14 days before travel",
-      "Home incident coverage: up to travel date",
-      "Emergency reserve duty coverage: applicable",
-      "Operational activity coverage: applicable"
+      "התקף לב: 14 ימים לפני מועד הנסיעה",
+      "גילוי מחלת הסרטן: 14 ימים לפני מועד הנסיעה",
+      "אירוע מוחי: 14 ימים לפני מועד הנסיעה",
+      "שריפה: עד מועד הנסיעה",
+      "התפוצצות: עד מועד הנסיעה",
+      "נזק בזדון: עד מועד הנסיעה",
+      "סערה: עד מועד הנסיעה",
+      "שיטפון: עד מועד הנסיעה"
     ],
     "product_hints": [
-      "ביטוח נסיעות First Class",
-      "First Class"
+      "ביטוח נסיעות"
     ]
   },
   "sketch": ". התקף לב ו/או אירוע לב, גילוי מחלת הסרטן, אירוע מוחי 15.2.1.3.5\nימים לפני מועד הנסיעה 14 . ביטול נסיעה בתקופה שתחילתה 15.2.1.4 , וסיומה במועד הנסיעה, אם בביתו של המבוטח אירעו שריפה התפוצצות, נזק בזדון, סערה, שיטפון, כמו כן אם נדרשה נוכחותו האישית של המבוטח לצורך חקירה משטרתית עקב פריצה או ניסיון לפריצה לביתו או עסקו.",
-  "embed_text": "פוליסת ביטוח נסיעות First Class מכסה ביטול נסיעה בתנאים מסוימים, כמו התקף לב או אירוע מוחי שמתגלים עד 14 ימים לפני מועד הנסיעה. במקרה של שריפה או פריצה לבית המבוטח, הכיסוי תקף עד מועד הנסיעה עצמו. הפוליסה מתייחסת גם למצבים של שירות מילואים.",
-  "payload": "טבלה: ביטוח נסיעות First Class\nThis table details conditions for travel insurance cancellation. It outlines events that trigger cancellation coverage, such as medical emergencies or home incidents, and the timeframe before the trip during which these events must occur.\nממדים: Cancellation reason / covered event, Timeframe / conditions for coverage\n\n. התקף לב ו/או אירוע לב, גילוי מחלת הסרטן, אירוע מוחי 15.2.1.3.5\nימים לפני מועד הנסיעה 14 . ביטול נסיעה בתקופה שתחילתה 15.2.1.4 , וסיומה במועד הנסיעה, אם בביתו של המבוטח אירעו שריפה התפוצצות, נזק בזדון, סערה, שיטפון, כמו כן אם נדרשה נוכחותו האישית של המבוטח לצורך חקירה משטרתית עקב פריצה או ניסיון לפריצה לביתו או עסקו."
+  "embed_text": "טבלה זו מתארת תנאים לביטול נסיעה במסגרת פוליסת ביטוח נסיעות 'first class'. ניתן לעיין בטבלה כדי לבדוק האם אירוע מסוים, כגון התקף לב או שריפה בבית המבוטח, מזכה בביטול נסיעה. הטבלה מציינת את מספר הימים לפני הנסיעה שבהם האירוע חייב להתרחש כדי שהביטול יהיה מכוסה. בין האירועים המכוסים ניתן למצוא התקף לב, גילוי מחלת הסרטן, אירוע מוחי, שריפה, התפוצצות, נזק בזדון, סערה ושיטפון. כמו כן, נדרשת נוכחות המבוטח לחקירה משטרתית עקב פריצה. ביטול נסיעה בתקופה של 14 ימים לפני הנסיעה או במועד הנסיעה עצמו עשוי להיות מכוסה. This table details conditions for travel cancellation coverage. It lists events that, if occurring within a specified timeframe before a trip, may qualify for cancellation reimbursement.",
+  "payload": "טבלה: ביטול נסיעה\nThis table details conditions for travel cancellation coverage. It lists events that, if occurring within a specified timeframe before a trip, may qualify for cancellation reimbursement.\nממדים: Cancellation reason/event, Conditions/Timeframe\n\n. התקף לב ו/או אירוע לב, גילוי מחלת הסרטן, אירוע מוחי 15.2.1.3.5\nימים לפני מועד הנסיעה 14 . ביטול נסיעה בתקופה שתחילתה 15.2.1.4 , וסיומה במועד הנסיעה, אם בביתו של המבוטח אירעו שריפה התפוצצות, נזק בזדון, סערה, שיטפון, כמו כן אם נדרשה נוכחותו האישית של המבוטח לצורך חקירה משטרתית עקב פריצה או ניסיון לפריצה לביתו או עסקו."
 }

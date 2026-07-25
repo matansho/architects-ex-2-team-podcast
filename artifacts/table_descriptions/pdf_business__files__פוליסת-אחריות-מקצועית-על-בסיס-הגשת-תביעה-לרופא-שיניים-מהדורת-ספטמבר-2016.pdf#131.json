@@ -3,24 +3,24 @@
   "source": "llm",
   "description": {
     "title": "פרטי התקשרות",
-    "summary": "This table provides contact information for Beit Harel insurance, including addresses and phone numbers. It is used to find contact details for claims and general inquiries.",
-    "embed_passage": "פוליסת אחריות מקצועית של בית הראל מספקת פרטי התקשרות חשובים. ניתן למצוא את המשרד הראשי ברחוב עם ועולמו 34259 בירושלים, ומספר הטלפון למוקד תביעות ביטוח כללי הוא 03-9294000.",
-    "row_axis": "Contact type (e.g., main office, claims center)",
-    "column_axis": "Contact details (e.g., address, phone number)",
+    "summary": "This table lists contact details for Beit Harel insurance, including phone numbers for different districts and the general claims center. It is used to look up contact information based on location.",
+    "embed_passage": "טבלה זו מציגה פרטי התקשרות של חברת הביטוח בית הראל, כולל מספרי טלפון למחוזות שונים ומוקד תביעות ביטוח כללי. ניתן לחפש פרטי קשר לפי מיקום גיאוגרפי או סוג הפנייה. הפוליסה הרלוונטית היא פוליסת אחריות מקצועית על בסיס הגשת תביעה לרופא שיניים. בין פרטי ההתקשרות המופיעים כאן ניתן למצוא את מחוז מרכז, מחוז ירושלים ומוקד תביעות ביטוח כללי. בית הראל משרד ראשי מופיע עם מספר הטלפון 03-7547777.",
+    "row_axis": "location / department",
+    "column_axis": "contact information (phone number, address)",
     "units": [],
     "notable_values": [
-      "Main office address: רח' עם ועולמו 34259",
-      "Main office postal code: 9546303",
-      "Claims center phone: 03-9294000",
-      "Main office phone: 02-6404545",
-      "City: ירושלים"
+      "מחוז מרכז: 03-7547777",
+      "מחוז ירושלים: 04-8606444",
+      "מוקד תביעות ביטוח כללי: 03-9294000",
+      "בית הראל משרד ראשי: 03-7547777",
+      "כתובת: רח' עם ועולמו 34259, גבעת שאול, ירושלים"
     ],
     "product_hints": [
       "פוליסת אחריות מקצועית",
-      "בית הראל"
+      "רופא שיניים"
     ]
   },
-  "sketch": ".  דין ושיפוט 4.21\nעל כל תביעה לפי פוליסה זו תחול סמכות השיפוט כאמור בהגדרת \"סמכות שיפוט\" בסעיף לעיל. החברה לא תפצה וגם או לא תשפה את המבוטח בגין החלטה שנתנה סמכות 1.15 שיפוט אחרת שמקום מושבה אינו בהתאם להגדרה.\nפרטי התקשרות\nבית הראל משרד ראשי\n…\n,3 בית הראל, רח' עם ועולמו 34259 . גבעת שאול, ת.ד 9546303 , ירושלים\n02-6404545\nמוקד תביעות ביטוח כללי\n03-9294000",
-  "embed_text": "פוליסת אחריות מקצועית של בית הראל מספקת פרטי התקשרות חשובים. ניתן למצוא את המשרד הראשי ברחוב עם ועולמו 34259 בירושלים, ומספר הטלפון למוקד תביעות ביטוח כללי הוא 03-9294000.",
-  "payload": "טבלה: פרטי התקשרות\nThis table provides contact information for Beit Harel insurance, including addresses and phone numbers. It is used to find contact details for claims and general inquiries.\nממדים: Contact type (e.g., main office, claims center), Contact details (e.g., address, phone number)\n\n.  דין ושיפוט 4.21\nעל כל תביעה לפי פוליסה זו תחול סמכות השיפוט כאמור בהגדרת \"סמכות שיפוט\" בסעיף לעיל. החברה לא תפצה וגם או לא תשפה את המבוטח בגין החלטה שנתנה סמכות 1.15 שיפוט אחרת שמקום מושבה אינו בהתאם להגדרה.\nפרטי התקשרות\nבית הראל משרד ראשי\n03-7547777\nמחוז מרכז המשמר\n03-7547539\nמחוז דן וציון\n03-7549645\n1951 . , ת.ד 3 רח' אבא הלל 5211802 , רמת גן\nמחוז צפון\n,2 שדרות פל-ים 3100202 , חיפה 332 . ת.ד\n04-8606444\nמחוז ירושלים\n,3 בית הראל, רח' עם ועולמו 34259 . גבעת שאול, ת.ד 9546303 , ירושלים\n02-6404545\nמוקד תביעות ביטוח כללי\n03-9294000"
+  "sketch": ".  דין ושיפוט 4.21\nעל כל תביעה לפי פוליסה זו תחול סמכות השיפוט כאמור בהגדרת \"סמכות שיפוט\" בסעיף לעיל. החברה לא תפצה וגם או לא תשפה את המבוטח בגין החלטה שנתנה סמכות 1.15 שיפוט אחרת שמקום מושבה אינו בהתאם להגדרה.\nפרטי התקשרות\nבית הראל משרד ראשי\n03-7547777\nמחוז מרכז המשמר\n…\n04-8606444\nמחוז ירושלים\n,3 בית הראל, רח' עם ועולמו 34259 . גבעת שאול, ת.ד 9546303 , ירושלים\n02-6404545\nמוקד תביעות ביטוח כללי\n03-9294000",
+  "embed_text": "טבלה זו מציגה פרטי התקשרות של חברת הביטוח בית הראל, כולל מספרי טלפון למחוזות שונים ומוקד תביעות ביטוח כללי. ניתן לחפש פרטי קשר לפי מיקום גיאוגרפי או סוג הפנייה. הפוליסה הרלוונטית היא פוליסת אחריות מקצועית על בסיס הגשת תביעה לרופא שיניים. בין פרטי ההתקשרות המופיעים כאן ניתן למצוא את מחוז מרכז, מחוז ירושלים ומוקד תביעות ביטוח כללי. בית הראל משרד ראשי מופיע עם מספר הטלפון 03-7547777. This table lists contact details for Beit Harel insurance, including phone numbers for different districts and the general claims center. It is used to look up contact information based on location. בין הערכים בטבלה: כתובת: רח' עם ועולמו 34259, גבעת שאול, ירושלים.",
+  "payload": "טבלה: פרטי התקשרות\nThis table lists contact details for Beit Harel insurance, including phone numbers for different districts and the general claims center. It is used to look up contact information based on location.\nממדים: location / department, contact information (phone number, address)\n\n.  דין ושיפוט 4.21\nעל כל תביעה לפי פוליסה זו תחול סמכות השיפוט כאמור בהגדרת \"סמכות שיפוט\" בסעיף לעיל. החברה לא תפצה וגם או לא תשפה את המבוטח בגין החלטה שנתנה סמכות 1.15 שיפוט אחרת שמקום מושבה אינו בהתאם להגדרה.\nפרטי התקשרות\nבית הראל משרד ראשי\n03-7547777\nמחוז מרכז המשמר\n03-7547539\nמחוז דן וציון\n03-7549645\n1951 . , ת.ד 3 רח' אבא הלל 5211802 , רמת גן\nמחוז צפון\n,2 שדרות פל-ים 3100202 , חיפה 332 . ת.ד\n04-8606444\nמחוז ירושלים\n,3 בית הראל, רח' עם ועולמו 34259 . גבעת שאול, ת.ד 9546303 , ירושלים\n02-6404545\nמוקד תביעות ביטוח כללי\n03-9294000"
 }

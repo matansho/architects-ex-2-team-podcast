@@ -3,21 +3,21 @@
   "source": "llm",
   "description": {
     "title": "תיקוני ציוד מכני הנדסי",
-    "summary": "This table details the coverage for repairs to mechanical and engineering equipment under an Harel insurance policy. It outlines what the insurer will cover regarding material costs, labor, and general expenses when repairs are made.",
-    "embed_passage": "פוליסת ביטוח ציוד מכני הנדסי של הראל לתעשייה מגדירה את תנאי הכיסוי עבור תיקונים. אם התיקונים יבוצעו בבית מלאכה שבבעלות המבוטח, המבטח ישלם את עלות החומרים ושכר העבודה, בתוספת אחוזים סבירים לכיסוי הוצאות כלליות. הפוליסה אינה מכסה שינויים, תוספות או שיפורים כלליים שנעשים במהלך תיקונים.",
-    "row_axis": "repair scenarios / conditions",
-    "column_axis": "coverage details / insurer's responsibility",
+    "summary": "This table details the conditions under which the insurer will cover repair costs for mechanical and engineering equipment. It specifies coverage for materials, labor, and overhead, as well as exclusions for improvements and temporary repairs.",
+    "embed_passage": "טבלה זו מתייחסת לתיקוני ציוד מכני הנדסי במסגרת פוליסת ביטוח הראל לתעשייה. היא מפרטת את התנאים בהם המבטח ישפה עלויות תיקון, כולל חומרים, שכר עבודה והוצאות כלליות. ניתן לבדוק את הכיסוי עבור תיקונים בבית מלאכה בבעלות המבוטח, וכן את ההחרגות הקיימות לשינויים ושיפורים. הראל לתעשייה, תיקונים, חומרים, שכר עבודה, שיפוצים, תיקונים ארעיים.",
+    "row_axis": "תנאי תיקון",
+    "column_axis": "היבטי כיסוי",
     "units": [],
     "notable_values": [
-      "אחוזים סבירים: unspecified",
-      "תיקונים ארעיים: על חשבון המבוטח",
-      "שינויים/תוספות: לא מכוסים"
+      "תיקונים בבית מלאכה בבעלות המבוטח: עלות חומרים + שכר עבודה + אחוזים סבירים",
+      "שינויים/תוספות/שיפורים/שיפוצים: לא משולמים",
+      "תיקונים ארעיים: עלות המבוטח (אם חלק מהתיקון הסופי)"
     ],
     "product_hints": [
       "ביטוח ציוד מכני הנדסי הראל לתעשייה"
     ]
   },
   "sketch": "אם התיקונים יבוצעו בבית מלאכה שבבעלות המבוטח, ישלם המבטח את עלות החומרים ושכר העבודה שהוצאו לשם ביצוע התיקונים, בתוספת אחוזים סבירים משכר העבודה לכיסוי ההוצאות הכלליות.\nהמבטח לא ישלם בעבור שינויים, תוספות, שיפורים או שיפוצים כלליים אשר יבוצעו בעת ביצוע תיקונים המכוסים על פי הפוליסה.\nאלא אם הם מהווים המבוטח יישא על חשבונו בעלותם של תיקונים ארעיים כלשהם, חלק מעלות התיקונים הסופיים המכוסים על פי הפוליסה.",
-  "embed_text": "פוליסת ביטוח ציוד מכני הנדסי של הראל לתעשייה מגדירה את תנאי הכיסוי עבור תיקונים. אם התיקונים יבוצעו בבית מלאכה שבבעלות המבוטח, המבטח ישלם את עלות החומרים ושכר העבודה, בתוספת אחוזים סבירים לכיסוי הוצאות כלליות. הפוליסה אינה מכסה שינויים, תוספות או שיפורים כלליים שנעשים במהלך תיקונים.",
-  "payload": "טבלה: תיקוני ציוד מכני הנדסי\nThis table details the coverage for repairs to mechanical and engineering equipment under an Harel insurance policy. It outlines what the insurer will cover regarding material costs, labor, and general expenses when repairs are made.\nממדים: repair scenarios / conditions, coverage details / insurer's responsibility\n\nאם התיקונים יבוצעו בבית מלאכה שבבעלות המבוטח, ישלם המבטח את עלות החומרים ושכר העבודה שהוצאו לשם ביצוע התיקונים, בתוספת אחוזים סבירים משכר העבודה לכיסוי ההוצאות הכלליות.\nהמבטח לא ישלם בעבור שינויים, תוספות, שיפורים או שיפוצים כלליים אשר יבוצעו בעת ביצוע תיקונים המכוסים על פי הפוליסה.\nאלא אם הם מהווים המבוטח יישא על חשבונו בעלותם של תיקונים ארעיים כלשהם, חלק מעלות התיקונים הסופיים המכוסים על פי הפוליסה."
+  "embed_text": "טבלה זו מתייחסת לתיקוני ציוד מכני הנדסי במסגרת פוליסת ביטוח הראל לתעשייה. היא מפרטת את התנאים בהם המבטח ישפה עלויות תיקון, כולל חומרים, שכר עבודה והוצאות כלליות. ניתן לבדוק את הכיסוי עבור תיקונים בבית מלאכה בבעלות המבוטח, וכן את ההחרגות הקיימות לשינויים ושיפורים. הראל לתעשייה, תיקונים, חומרים, שכר עבודה, שיפוצים, תיקונים ארעיים. This table details the conditions under which the insurer will cover repair costs for mechanical and engineering equipment. It specifies coverage for materials, labor, and overhead, as well as exclusions for improvements and temporary repairs. בין הערכים בטבלה: שינויים/תוספות/שיפורים/שיפוצים: לא משולמים.",
+  "payload": "טבלה: תיקוני ציוד מכני הנדסי\nThis table details the conditions under which the insurer will cover repair costs for mechanical and engineering equipment. It specifies coverage for materials, labor, and overhead, as well as exclusions for improvements and temporary repairs.\nממדים: תנאי תיקון, היבטי כיסוי\n\nאם התיקונים יבוצעו בבית מלאכה שבבעלות המבוטח, ישלם המבטח את עלות החומרים ושכר העבודה שהוצאו לשם ביצוע התיקונים, בתוספת אחוזים סבירים משכר העבודה לכיסוי ההוצאות הכלליות.\nהמבטח לא ישלם בעבור שינויים, תוספות, שיפורים או שיפוצים כלליים אשר יבוצעו בעת ביצוע תיקונים המכוסים על פי הפוליסה.\nאלא אם הם מהווים המבוטח יישא על חשבונו בעלותם של תיקונים ארעיים כלשהם, חלק מעלות התיקונים הסופיים המכוסים על פי הפוליסה."
 }

@@ -3,22 +3,21 @@
   "source": "llm",
   "description": {
     "title": "תנאי פוליסת Upgrade",
-    "summary": "This table defines terms used in the 'Upgrade' insurance policy, specifically relating to medical procedures and qualifications. It looks up definitions for medical terms like 'specialist doctor' and 'implant'.",
-    "embed_passage": "פוליסת Upgrade מגדירה רופא מומחה כבעל תואר מומחה בתחום רפואי שאושר על ידי הרשויות המוסמכות בישראל, ושמו כלול ברשימת הרופאים המומחים משנת 1973. תקנות הרופאים (אישור תואר מומחה ובחינות), התשל\"ג, משמשות להגדרת התנאים. לדוגמה, אישור תואר מומחה פורסם לפי תקנה 34 בשנת 2013.",
-    "row_axis": "medical term / policy condition",
-    "column_axis": "definition / explanation",
+    "summary": "This table defines terms used in the 'Upgrade' insurance policy, specifically relating to specialist doctors. It details the requirements for a doctor to be recognized as a specialist ('רופא מומחה') for coverage under the plan.",
+    "embed_passage": "טבלה זו מגדירה מונחים המשמשים בפוליסת הביטוח 'Upgrade', במיוחד ביחס לרופאים מומחים. היא מפרטת את הדרישות לרופא כדי להיות מוכר כמומחה ('רופא מומחה') לצורך כיסוי במסגרת התוכנית. ניתן לחפש מידע על הכרה במומחיות רפואית לפי תקנות הרופאים (אישור תואר מומחה ובחינות), התשל\"ג 1973 ותקנה 34. התוכנית כוללת הגדרות מיוחדות ל'פעולה פולשנית', 'קופת חולים', 'שתל' ו'תקופת אכשרה'. רופא מומחה מוגדר כרופא אשר אושר בידי הרשויות המוסמכות בישראל, ושמו כלול ברשימת הרופאים המומחים.",
+    "row_axis": "definitions of terms",
+    "column_axis": "term name, details",
     "units": [],
     "notable_values": [
-      "year: 1973",
-      "regulation: 34",
-      "year: 2013",
-      "regulation: התשל\"ג"
+      "תקנות הרופאים: 1973",
+      "תקנה: 34",
+      "רופא מומחה: אישור תואר מומחה ובחינות"
     ],
     "product_hints": [
       "Upgrade"
     ]
   },
   "sketch": ": רופא מומחה 1.7\n: ם, לצורכי תכנית ז  ו, תחול ההגדרה שלהלן ם הכלליי על אף האמור בתנאי 2 בידי הרשויות המוסמכות בישראל תואר מומחה בתחום רפואי מסוים לפי תקנה ר לו רופא אשר אוש\n;  2013-\n, ושמו כלול ברשימת הרופאים המומחים 1973לתקנות הרופאים )אישור תואר מומחה ובחינות(, התשל\"  ג . לתקנות האמורו   ת 34 שפורסמה לפי תקנה",
-  "embed_text": "פוליסת Upgrade מגדירה רופא מומחה כבעל תואר מומחה בתחום רפואי שאושר על ידי הרשויות המוסמכות בישראל, ושמו כלול ברשימת הרופאים המומחים משנת 1973. תקנות הרופאים (אישור תואר מומחה ובחינות), התשל\"ג, משמשות להגדרת התנאים. לדוגמה, אישור תואר מומחה פורסם לפי תקנה 34 בשנת 2013.",
-  "payload": "טבלה: תנאי פוליסת Upgrade\nThis table defines terms used in the 'Upgrade' insurance policy, specifically relating to medical procedures and qualifications. It looks up definitions for medical terms like 'specialist doctor' and 'implant'.\nממדים: medical term / policy condition, definition / explanation\n\n: רופא מומחה 1.7\n: ם, לצורכי תכנית ז  ו, תחול ההגדרה שלהלן ם הכלליי על אף האמור בתנאי 2 בידי הרשויות המוסמכות בישראל תואר מומחה בתחום רפואי מסוים לפי תקנה ר לו רופא אשר אוש\n;  2013-\n, ושמו כלול ברשימת הרופאים המומחים 1973לתקנות הרופאים )אישור תואר מומחה ובחינות(, התשל\"  ג . לתקנות האמורו   ת 34 שפורסמה לפי תקנה"
+  "embed_text": "טבלה זו מגדירה מונחים המשמשים בפוליסת הביטוח 'Upgrade', במיוחד ביחס לרופאים מומחים. היא מפרטת את הדרישות לרופא כדי להיות מוכר כמומחה ('רופא מומחה') לצורך כיסוי במסגרת התוכנית. ניתן לחפש מידע על הכרה במומחיות רפואית לפי תקנות הרופאים (אישור תואר מומחה ובחינות), התשל\"ג 1973 ותקנה 34. התוכנית כוללת הגדרות מיוחדות ל'פעולה פולשנית', 'קופת חולים', 'שתל' ו'תקופת אכשרה'. רופא מומחה מוגדר כרופא אשר אושר בידי הרשויות המוסמכות בישראל, ושמו כלול ברשימת הרופאים המומחים. This table defines terms used in the 'Upgrade' insurance policy, specifically relating to specialist doctors. It details the requirements for a doctor to be recognized as a specialist ('רופא מומחה') for coverage under the plan.",
+  "payload": "טבלה: תנאי פוליסת Upgrade\nThis table defines terms used in the 'Upgrade' insurance policy, specifically relating to specialist doctors. It details the requirements for a doctor to be recognized as a specialist ('רופא מומחה') for coverage under the plan.\nממדים: definitions of terms, term name, details\n\n: רופא מומחה 1.7\n: ם, לצורכי תכנית ז  ו, תחול ההגדרה שלהלן ם הכלליי על אף האמור בתנאי 2 בידי הרשויות המוסמכות בישראל תואר מומחה בתחום רפואי מסוים לפי תקנה ר לו רופא אשר אוש\n;  2013-\n, ושמו כלול ברשימת הרופאים המומחים 1973לתקנות הרופאים )אישור תואר מומחה ובחינות(, התשל\"  ג . לתקנות האמורו   ת 34 שפורסמה לפי תקנה"
 }

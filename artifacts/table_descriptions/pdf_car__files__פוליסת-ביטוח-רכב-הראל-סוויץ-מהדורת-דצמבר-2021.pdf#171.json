@@ -2,25 +2,24 @@
   "id": "pdf:car/files/פוליסת-ביטוח-רכב-הראל-סוויץ-מהדורת-דצמבר-2021.pdf#171",
   "source": "llm",
   "description": {
-    "title": "תביעות ביטוח רכב",
-    "summary": "This table details the process for filing car insurance claims with Harel. It outlines the steps a policyholder or beneficiary must take, and the insurer's responsibilities, regarding notification, documentation, and payment timelines.",
-    "embed_passage": "פוליסת ביטוח רכב הראל סוויץ מתייחסת לתהליך הגשת תביעה. לדוגמה, סעיף 39.1 מציין כי על המבוטח להודיע מיד לאחר שנודע לו על מקרה הביטוח. תשלום תגמולי הביטוח, בהתאם לסעיף 39.5, ישולם תוך 7 ימים עד 30 ימים מיום קבלת המידע הדרוש.",
+    "title": "תביעה לתגמולי ביטוח",
+    "summary": "This table details the process for filing an insurance claim. It outlines the responsibilities of the insured and the insurer regarding notification, documentation, investigation, and payment of claims.",
+    "embed_passage": "טבלה זו מתארת את תהליך הגשת תביעה לביטוח רכב הראל סוויץ׳. מטרתה להבהיר את חובות המבוטח והמבטח בעת קרות מקרה ביטוח, החל מהודעה ראשונית ועד לתשלום הפיצוי. ניתן להשתמש בטבלה זו כדי להבין את השלבים הנדרשים להגשת תביעה, את המסמכים הנדרשים, ואת לוחות הזמנים הצפויים. הראל סוויץ׳, תביעה, ביטוח רכב, תשלום, מידע, מסמכים. סעיפים 39.1, 39.2, 39.3, 39.4, 39.5, 39.6 ו-39.7 מופיעים בטבלה זו.",
     "row_axis": "claim process step",
     "column_axis": "details of the step",
     "units": [],
     "notable_values": [
-      "סעיף: 39.1",
-      "סעיף: 39.2",
-      "סעיף: 39.3",
-      "סעיף: 39.5",
-      "7 ימים - 30 ימים"
+      "notification deadline: immediately after awareness",
+      "investigation timeframe: 30 days",
+      "payment timeframe (general): 7 days",
+      "payment timeframe (theft): 30 days"
     ],
     "product_hints": [
-      "הראל סוויץ",
+      "הראל סוויץ'",
       "ביטוח רכב"
     ]
   },
   "sketch": ". תביעה לתגמולי ביטוח 39\n. קרה מקרה הביטוח, על המבוטח או המוטב להודיע על כך למבטח מיד לאחר שנודע לו 39.1 על כך.\n. תביעה לתשלום תגמולי ביטוח על פי הפוליסה תוגש למבטח ותתועד אצלו; אין באמור 39.2 למנוע מהמבטח לדרוש שהתביעה תוגש בכתב.\n, . על המבוטח, או על המוטב, לפי העניין, למסור למבטח, תוך זמן סביר לאחר שנדרש לכך 39.3 את המידע והמסמכים הדרושים לבירור החבות והיקפה ואם אינם ברשותו, עליו לעזור למבטח, ככל שיוכל, להשיגם.\n. המבטח, מיד לאחר שקיבל הודעה מהמבוטח או המוטב על קרות מקרה הביטוח, יעשה 39.4 את הדרוש לבירור חבותו.",
-  "embed_text": "פוליסת ביטוח רכב הראל סוויץ מתייחסת לתהליך הגשת תביעה. לדוגמה, סעיף 39.1 מציין כי על המבוטח להודיע מיד לאחר שנודע לו על מקרה הביטוח. תשלום תגמולי הביטוח, בהתאם לסעיף 39.5, ישולם תוך 7 ימים עד 30 ימים מיום קבלת המידע הדרוש.",
-  "payload": "טבלה: תביעות ביטוח רכב\nThis table details the process for filing car insurance claims with Harel. It outlines the steps a policyholder or beneficiary must take, and the insurer's responsibilities, regarding notification, documentation, and payment timelines.\nממדים: claim process step, details of the step\n\n. תביעה לתגמולי ביטוח 39\n. קרה מקרה הביטוח, על המבוטח או המוטב להודיע על כך למבטח מיד לאחר שנודע לו 39.1 על כך.\n. תביעה לתשלום תגמולי ביטוח על פי הפוליסה תוגש למבטח ותתועד אצלו; אין באמור 39.2 למנוע מהמבטח לדרוש שהתביעה תוגש בכתב.\n, . על המבוטח, או על המוטב, לפי העניין, למסור למבטח, תוך זמן סביר לאחר שנדרש לכך 39.3 את המידע והמסמכים הדרושים לבירור החבות והיקפה ואם אינם ברשותו, עליו לעזור למבטח, ככל שיוכל, להשיגם.\n. המבטח, מיד לאחר שקיבל הודעה מהמבוטח או המוטב על קרות מקרה הביטוח, יעשה 39.4 את הדרוש לבירור חבותו."
+  "embed_text": "טבלה זו מתארת את תהליך הגשת תביעה לביטוח רכב הראל סוויץ׳. מטרתה להבהיר את חובות המבוטח והמבטח בעת קרות מקרה ביטוח, החל מהודעה ראשונית ועד לתשלום הפיצוי. ניתן להשתמש בטבלה זו כדי להבין את השלבים הנדרשים להגשת תביעה, את המסמכים הנדרשים, ואת לוחות הזמנים הצפויים. הראל סוויץ׳, תביעה, ביטוח רכב, תשלום, מידע, מסמכים. סעיפים 39.1, 39.2, 39.3, 39.4, 39.5, 39.6 ו-39.7 מופיעים בטבלה זו. This table details the process for filing an insurance claim. It outlines the responsibilities of the insured and the insurer regarding notification, documentation, investigation, and payment of claims. בין הערכים בטבלה: notification deadline: immediately after awareness; investigation timeframe: 30 days; payment timeframe (general): 7 days; payment timeframe (theft): 30 days.",
+  "payload": "טבלה: תביעה לתגמולי ביטוח\nThis table details the process for filing an insurance claim. It outlines the responsibilities of the insured and the insurer regarding notification, documentation, investigation, and payment of claims.\nממדים: claim process step, details of the step\n\n. תביעה לתגמולי ביטוח 39\n. קרה מקרה הביטוח, על המבוטח או המוטב להודיע על כך למבטח מיד לאחר שנודע לו 39.1 על כך.\n. תביעה לתשלום תגמולי ביטוח על פי הפוליסה תוגש למבטח ותתועד אצלו; אין באמור 39.2 למנוע מהמבטח לדרוש שהתביעה תוגש בכתב.\n, . על המבוטח, או על המוטב, לפי העניין, למסור למבטח, תוך זמן סביר לאחר שנדרש לכך 39.3 את המידע והמסמכים הדרושים לבירור החבות והיקפה ואם אינם ברשותו, עליו לעזור למבטח, ככל שיוכל, להשיגם.\n. המבטח, מיד לאחר שקיבל הודעה מהמבוטח או המוטב על קרות מקרה הביטוח, יעשה 39.4 את הדרוש לבירור חבותו."
 }

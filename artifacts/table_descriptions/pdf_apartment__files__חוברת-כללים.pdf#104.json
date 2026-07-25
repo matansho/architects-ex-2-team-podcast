@@ -2,16 +2,20 @@
   "id": "pdf:apartment/files/חוברת-כללים.pdf#104",
   "source": "llm",
   "description": {
-    "title": "הראל - סטטוס תביעה",
-    "summary": "This table provides information on how to check the status of a claim filed with Harel Insurance. It details where to find updates on your claim online.",
-    "embed_passage": "ניתן להתעדכן בסטטוס תביעתך בכל שלב לאחר פתיחת האירוע, באתר החברה www.harel-group.co.il, בלשונית 'ביטוח', 'ביטוח דירה', 'סטטוס התביעה שלך'.  הראל מספקת מידע מפורט על תהליך התביעה, כולל הודעות תשלום מלאות או חלקיות, ודחייה.",
-    "row_axis": "Claim status update options",
-    "column_axis": "Information about claim status updates",
+    "title": "סטטוס תביעה",
+    "summary": "This table describes how to check the status of a claim. It provides a website address for claim status updates and details how payment notifications will be sent.",
+    "embed_passage": "טבלה זו מתארת את אופן בדיקת סטטוס תביעה של ביטוח דירה בהראל. ניתן להתעדכן בסטטוס התביעה באתר החברה www.harel-group.co.il, בלשונית 'ביטוח דירה', 'סטטוס התביעה שלך'. כל הודעת תשלום מלא או חלקי, פשרה או דחייה תישלח באופן מפורט עם העתק לסוכן הביטוח. הראל תפחית את רכיב המע״מ מהתשלום אם מדובר בעוסק מורשה או חברה בע״מ. ביטוח דירה של הראל מאפשר מעקב אחר תביעות באופן מקוון. ניתן לבדוק סטטוס תביעה בכל שלב לאחר פתיחת האירוע.",
+    "row_axis": "claim status update method",
+    "column_axis": "details of notification/process",
     "units": [],
     "notable_values": [
       "website: www.harel-group.co.il",
-      "section: 'ביטוח דירה'",
-      "section: 'סטטוס התביעה שלך'"
+      "section: ביטוח דירה",
+      "section: סטטוס התביעה שלך",
+      "payment notification: מפורט",
+      "copy sent to: סוכן הביטוח",
+      "VAT reduction: עוסק מורשה",
+      "VAT reduction: חברה בע״מ"
     ],
     "product_hints": [
       "ביטוח דירה",
@@ -19,6 +23,6 @@
     ]
   },
   "sketch": ".  כל הודעת תשלום מלא ו/או חלקי ו/או פשרה ו/או דחייה תישלח באופן מפורט אליך עם 8 העתק לסוכן הביטוח שלך, עם סיום בדיקת התביעה. אם מדובר בעוסק מורשה ו/או חברה בע\"מ, חברתנו תפחית את רכיב המע\"מ מהתשלום.\n.  בכל שלב לאחר פתיחת האירוע, תוכל להתעדכן בסטטוס תביעתך, באתר החברה: 9 .\" , בלשונית 'ביטוח\", 'ביטוח דירה\", 'סטטוס התביעה שלך www.harel-group.co.il\n-הנחיות בדבר אופן הפעולה הנדרש מתובע צד ג' - רכוש/גוף דירות\n*** ***המסמך נרשם בלשון זכר למען הנוחות בלבד",
-  "embed_text": "ניתן להתעדכן בסטטוס תביעתך בכל שלב לאחר פתיחת האירוע, באתר החברה www.harel-group.co.il, בלשונית 'ביטוח', 'ביטוח דירה', 'סטטוס התביעה שלך'.  הראל מספקת מידע מפורט על תהליך התביעה, כולל הודעות תשלום מלאות או חלקיות, ודחייה.",
-  "payload": "טבלה: הראל - סטטוס תביעה\nThis table provides information on how to check the status of a claim filed with Harel Insurance. It details where to find updates on your claim online.\nממדים: Claim status update options, Information about claim status updates\n\n.  כל הודעת תשלום מלא ו/או חלקי ו/או פשרה ו/או דחייה תישלח באופן מפורט אליך עם 8 העתק לסוכן הביטוח שלך, עם סיום בדיקת התביעה. אם מדובר בעוסק מורשה ו/או חברה בע\"מ, חברתנו תפחית את רכיב המע\"מ מהתשלום.\n.  בכל שלב לאחר פתיחת האירוע, תוכל להתעדכן בסטטוס תביעתך, באתר החברה: 9 .\" , בלשונית 'ביטוח\", 'ביטוח דירה\", 'סטטוס התביעה שלך www.harel-group.co.il\n-הנחיות בדבר אופן הפעולה הנדרש מתובע צד ג' - רכוש/גוף דירות\n*** ***המסמך נרשם בלשון זכר למען הנוחות בלבד"
+  "embed_text": "טבלה זו מתארת את אופן בדיקת סטטוס תביעה של ביטוח דירה בהראל. ניתן להתעדכן בסטטוס התביעה באתר החברה www.harel-group.co.il, בלשונית 'ביטוח דירה', 'סטטוס התביעה שלך'. כל הודעת תשלום מלא או חלקי, פשרה או דחייה תישלח באופן מפורט עם העתק לסוכן הביטוח. הראל תפחית את רכיב המע״מ מהתשלום אם מדובר בעוסק מורשה או חברה בע״מ. ביטוח דירה של הראל מאפשר מעקב אחר תביעות באופן מקוון. ניתן לבדוק סטטוס תביעה בכל שלב לאחר פתיחת האירוע. This table describes how to check the status of a claim. It provides a website address for claim status updates and details how payment notifications will be sent.",
+  "payload": "טבלה: סטטוס תביעה\nThis table describes how to check the status of a claim. It provides a website address for claim status updates and details how payment notifications will be sent.\nממדים: claim status update method, details of notification/process\n\n.  כל הודעת תשלום מלא ו/או חלקי ו/או פשרה ו/או דחייה תישלח באופן מפורט אליך עם 8 העתק לסוכן הביטוח שלך, עם סיום בדיקת התביעה. אם מדובר בעוסק מורשה ו/או חברה בע\"מ, חברתנו תפחית את רכיב המע\"מ מהתשלום.\n.  בכל שלב לאחר פתיחת האירוע, תוכל להתעדכן בסטטוס תביעתך, באתר החברה: 9 .\" , בלשונית 'ביטוח\", 'ביטוח דירה\", 'סטטוס התביעה שלך www.harel-group.co.il\n-הנחיות בדבר אופן הפעולה הנדרש מתובע צד ג' - רכוש/גוף דירות\n*** ***המסמך נרשם בלשון זכר למען הנוחות בלבד"
 }

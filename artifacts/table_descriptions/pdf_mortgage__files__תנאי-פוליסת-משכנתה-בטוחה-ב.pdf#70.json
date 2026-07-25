@@ -3,21 +3,18 @@
   "source": "llm",
   "description": {
     "title": "הודעות",
-    "summary": "This table details how to submit notifications to the insurer. It specifies the acceptable methods and addresses for delivering written notices.",
-    "embed_passage": "פוליסת ביטוח בטוחה ב' מציינת כי הודעה מהמבוטח או המוטב למבטח תימסר בכתב. ההודעה יכולה להישלח למשרדו של המבטח, או למשרדו של סוכן הביטוח הרשום בפוליסה. כתובות אלו עשויות להשתנות ויועברו למבוטח או למוטב על ידי המבטח.",
-    "row_axis": "Notification method/condition",
-    "column_axis": "Details of notification delivery",
+    "summary": "This table details how to submit notices related to the insurance policy. It specifies the acceptable methods and addresses for delivering notices to the insurer.",
+    "embed_passage": "טבלה זו מתארת את אופן מסירת הודעות הקשורות לפוליסת הביטוח. ההודעות מהמבוטח או המוטב למבטח צריכות להימסר בכתב. ניתן לשלוח הודעה למשרדו של המבטח, כפי שמצוין בכותרת הפוליסה, או למשרדו של סוכן הביטוח הרשום בפוליסה. הודעה יכולה להימסר גם בדרך אחרת, אם המבטח הודיע על כך למבוטח או למוטב. כתובות המבטח וסוכן הביטוח משתנות מעת לעת. סעיף 25.1 קטן מתייחס לאופן מסירת ההודעה.",
+    "row_axis": "method of notice delivery",
+    "column_axis": "details of delivery address",
     "units": [],
     "notable_values": [
-      "סעיף: 25",
       "סעיף 25.1.1: מען משרדו של המבטח",
       "סעיף 25.1.2: משרדו של סוכן הביטוח"
     ],
-    "product_hints": [
-      "ביטוח בטוחה ב'"
-    ]
+    "product_hints": []
   },
   "sketch": ". הודעות 25\n.  הודעה של המבוטח או של המוטב, למבטח, תימסר למבטח בכתב לאחד מאלה: 25.1\n.25.1.1 מען משרדו של המבטח, כמצוין בכותרת לפוליסה זו או כל מען אחר בישראל שעליו יודיע המבטח, למבוטח או למוטב, מזמן לזמן.",
-  "embed_text": "פוליסת ביטוח בטוחה ב' מציינת כי הודעה מהמבוטח או המוטב למבטח תימסר בכתב. ההודעה יכולה להישלח למשרדו של המבטח, או למשרדו של סוכן הביטוח הרשום בפוליסה. כתובות אלו עשויות להשתנות ויועברו למבוטח או למוטב על ידי המבטח.",
-  "payload": "טבלה: הודעות\nThis table details how to submit notifications to the insurer. It specifies the acceptable methods and addresses for delivering written notices.\nממדים: Notification method/condition, Details of notification delivery\n\n. הודעות 25\n.  הודעה של המבוטח או של המוטב, למבטח, תימסר למבטח בכתב לאחד מאלה: 25.1\n.25.1.1 מען משרדו של המבטח, כמצוין בכותרת לפוליסה זו או כל מען אחר בישראל שעליו יודיע המבטח, למבוטח או למוטב, מזמן לזמן."
+  "embed_text": "טבלה זו מתארת את אופן מסירת הודעות הקשורות לפוליסת הביטוח. ההודעות מהמבוטח או המוטב למבטח צריכות להימסר בכתב. ניתן לשלוח הודעה למשרדו של המבטח, כפי שמצוין בכותרת הפוליסה, או למשרדו של סוכן הביטוח הרשום בפוליסה. הודעה יכולה להימסר גם בדרך אחרת, אם המבטח הודיע על כך למבוטח או למוטב. כתובות המבטח וסוכן הביטוח משתנות מעת לעת. סעיף 25.1 קטן מתייחס לאופן מסירת ההודעה. This table details how to submit notices related to the insurance policy. It specifies the acceptable methods and addresses for delivering notices to the insurer. בין הערכים בטבלה: סעיף 25.1.1: מען משרדו של המבטח.",
+  "payload": "טבלה: הודעות\nThis table details how to submit notices related to the insurance policy. It specifies the acceptable methods and addresses for delivering notices to the insurer.\nממדים: method of notice delivery, details of delivery address\n\n. הודעות 25\n.  הודעה של המבוטח או של המוטב, למבטח, תימסר למבטח בכתב לאחד מאלה: 25.1\n.25.1.1 מען משרדו של המבטח, כמצוין בכותרת לפוליסה זו או כל מען אחר בישראל שעליו יודיע המבטח, למבוטח או למוטב, מזמן לזמן."
 }

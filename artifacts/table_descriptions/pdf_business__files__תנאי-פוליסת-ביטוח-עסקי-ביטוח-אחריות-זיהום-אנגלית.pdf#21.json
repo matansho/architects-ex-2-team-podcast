@@ -3,20 +3,20 @@
   "source": "llm",
   "description": {
     "title": "הגדרות פוליסה",
-    "summary": "This table defines key terms used in the business insurance policy. It helps clarify the scope of coverage by explaining what specific words and phrases mean within the context of the policy.",
-    "embed_passage": "פוליסת ביטוח אחריות זיהום מגדירה מונחים כמו 'פטריות' ו'עובש' ככל צורה או סוג של תבנית, פטרייה או טחב, וכן תרכובות אורגניות נדיפות, מיקוטוקסינים וחלבונים אלרגניים הנוצרים כתוצאה מעובש. המונח 'רשות ממשלתית' מתייחס לחוקים, תקנות או צווים פדרליים, מדינתיים או מקומיים. הגדרות אלו מסייעות להבנת הכיסוי הביטוחי.",
-    "row_axis": "Term defined in the insurance policy",
-    "column_axis": "Definition of the term",
+    "summary": "This table defines terms used in the business insurance policy, specifically for pollution liability. It allows looking up the meaning of key terms like 'Fungus' and 'Governmental authority'.",
+    "embed_passage": "טבלה זו מציגה הגדרות מונחים המשמשים בפוליסת ביטוח אחריות זיהום עסקי. ניתן למצוא כאן הסברים למונחים כגון 'Fungus' ו'Governmental authority', החשובים להבנת תנאי הפוליסה. ההגדרות מסייעות להבהיר את היקף הכיסוי הביטוחי ואת החריגות הקיימות. המונחים כוללים סוגי עובש, פטריות, רשויות ממשלתיות, חוקים ותקנות. הגדרות אלו רלוונטיות לכל תביעה או עלות ניקוי הקשורה לזיהום. הפוליסה מגדירה גם 'Fungus' ו'Governmental authority'.",
+    "row_axis": "מונח מוגדר",
+    "column_axis": "הגדרה",
     "units": [],
     "notable_values": [
-      "Term: Fungus",
-      "Term: Governmental authority"
+      "Fungus: any form or type of mold",
+      "Governmental authority: applicable federal, state, or local statutes"
     ],
     "product_hints": [
-      "ביטוח אחריות זיהום"
+      "ביטוח אחריות זיהום עסקי"
     ]
   },
   "sketch": "\"Fungus' or 'fungi' means any:\nForm or type of mold, mushroom or mildew,\nOther fungal structure, and\nVolatile organic compounds, mycotoxins, allergenic proteins or other substances or  gases  produced  by  or  arising  out  of  any  mold,  mushroom,  mildew,  fungal structure or 'spores\".\n\"Governmental authority\" means applicable federal, state, or local statutes, regulations, ordinances or orders.",
-  "embed_text": "פוליסת ביטוח אחריות זיהום מגדירה מונחים כמו 'פטריות' ו'עובש' ככל צורה או סוג של תבנית, פטרייה או טחב, וכן תרכובות אורגניות נדיפות, מיקוטוקסינים וחלבונים אלרגניים הנוצרים כתוצאה מעובש. המונח 'רשות ממשלתית' מתייחס לחוקים, תקנות או צווים פדרליים, מדינתיים או מקומיים. הגדרות אלו מסייעות להבנת הכיסוי הביטוחי.",
-  "payload": "טבלה: הגדרות פוליסה\nThis table defines key terms used in the business insurance policy. It helps clarify the scope of coverage by explaining what specific words and phrases mean within the context of the policy.\nממדים: Term defined in the insurance policy, Definition of the term\n\n\"Fungus' or 'fungi' means any:\nForm or type of mold, mushroom or mildew,\nOther fungal structure, and\nVolatile organic compounds, mycotoxins, allergenic proteins or other substances or  gases  produced  by  or  arising  out  of  any  mold,  mushroom,  mildew,  fungal structure or 'spores\".\n\"Governmental authority\" means applicable federal, state, or local statutes, regulations, ordinances or orders."
+  "embed_text": "טבלה זו מציגה הגדרות מונחים המשמשים בפוליסת ביטוח אחריות זיהום עסקי. ניתן למצוא כאן הסברים למונחים כגון 'Fungus' ו'Governmental authority', החשובים להבנת תנאי הפוליסה. ההגדרות מסייעות להבהיר את היקף הכיסוי הביטוחי ואת החריגות הקיימות. המונחים כוללים סוגי עובש, פטריות, רשויות ממשלתיות, חוקים ותקנות. הגדרות אלו רלוונטיות לכל תביעה או עלות ניקוי הקשורה לזיהום. הפוליסה מגדירה גם 'Fungus' ו'Governmental authority'. This table defines terms used in the business insurance policy, specifically for pollution liability. It allows looking up the meaning of key terms like 'Fungus' and 'Governmental authority'.",
+  "payload": "טבלה: הגדרות פוליסה\nThis table defines terms used in the business insurance policy, specifically for pollution liability. It allows looking up the meaning of key terms like 'Fungus' and 'Governmental authority'.\nממדים: מונח מוגדר, הגדרה\n\n\"Fungus' or 'fungi' means any:\nForm or type of mold, mushroom or mildew,\nOther fungal structure, and\nVolatile organic compounds, mycotoxins, allergenic proteins or other substances or  gases  produced  by  or  arising  out  of  any  mold,  mushroom,  mildew,  fungal structure or 'spores\".\n\"Governmental authority\" means applicable federal, state, or local statutes, regulations, ordinances or orders."
 }

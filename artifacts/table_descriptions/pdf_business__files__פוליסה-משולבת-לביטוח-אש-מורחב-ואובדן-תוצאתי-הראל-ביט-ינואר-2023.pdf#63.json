@@ -2,26 +2,25 @@
   "id": "pdf:business/files/פוליסה-משולבת-לביטוח-אש-מורחב-ואובדן-תוצאתי-הראל-ביט-ינואר-2023.pdf#63",
   "source": "llm",
   "description": {
-    "title": "הרחבות ביטוח הראל",
-    "summary": "This table details coverage extensions for Harel insurance policies, specifically outlining limits for various types of damage. It allows you to look up the maximum coverage amount for different events.",
-    "embed_passage": "פוליסת ביטוח הראל מורחבת לכיסוי מגוון נזקים, כגון שבר זכוכית, התמוטטות מדפים והתמוטטות מבנים. סכום הכיסוי משתנה בהתאם לסוג הנזק, לדוגמה, עד ₪ 300,000 עבור שבר זכוכית, ועד ₪ 1,000,000 עבור התמוטטות מדפים. סכומים אלו מבוססים על נזק ראשון ואינם כפופים לתנאים מיוחדים.",
-    "row_axis": "type of damage covered by the extension (e.g., broken glass, shelf collapse)",
-    "column_axis": "coverage details (e.g., maximum coverage amount)",
+    "title": "הרחבות ביטוח - הראל",
+    "summary": "This table details coverage extensions for property insurance policies offered by Harel. It specifies limits for different types of damage, such as broken glass and shelf collapse, and references conditions within the 'ביטוח חסר' terms.",
+    "embed_passage": "טבלה זו מתארת הרחבות לביטוח רכוש של הראל, ומפרטת את גבולות הכיסוי עבור סוגי נזקים שונים, כמו שבר זכוכית והתמוטטות מדפים. ניתן לחפש מידע על הרחבה ספציפית לפי סוג הנזק המבוטח, כגון 'שבר זכוכית' או 'התמוטטות מדפים'. הרחבות אלו כפופות לתנאים המפורטים בסעיף 'ביטוח חסר' בתנאי הפוליסה. שבר זכוכית, התמוטטות מדפים, סכום ביטוח מקסימלי של ₪ 1,000,000, סכום ביטוח מקסימלי של ₪ 300,000, 'ביטוח חסר' תנאים 5.7, נזק ראשון.",
+    "row_axis": "type of damage covered (הרחבה)",
+    "column_axis": "coverage details (פרטי הכיסוי)",
     "units": [
       "₪"
     ],
     "notable_values": [
       "שבר זכוכית: ₪ 300,000",
       "התמוטטות מדפים: ₪ 1,000,000",
-      "התמוטטות מבנים: ₪ 4,000,000"
+      "ביטוח חסר: תנאים 5.7",
+      "נזק ראשון: ללא תנאים מיוחדים בפרק א"
     ],
     "product_hints": [
-      "ביטוח אש מורחב",
-      "ביטוח הראל",
-      "אובדן תוצאתי"
+      "הראל ביט"
     ]
   },
   "sketch": "שבר זכוכית .3.17\nהביטוח על פי פרק זה מורחב לכסות שבר פתאומי ובלתי צפוי לקירות מסך ו/או שמשות של חלונות ודלתות, אשר עשויים מזכוכית ו/או פרספקס, מסיבה כלשהיא שלא נכלל ה בסיכונים המבוטחים ובהרחבות לפרק זה ושאינה מוצאת מכלל כיסוי בסייגים הכלליים ו/או בסייגים לפרק זה.\nאלא אם צוין אחרת ברשימה, אחריותו של המבטח על פי הרחבה זו מוגבלת עד .₪  300,000 לסך של\n\"ביטוח חסר\" מהתנאים 5.7 סכום זה הינו על בסיס נזק ראשון שאינו כפוף לתנאי .' המיוחדים בפרק א",
-  "embed_text": "פוליסת ביטוח הראל מורחבת לכיסוי מגוון נזקים, כגון שבר זכוכית, התמוטטות מדפים והתמוטטות מבנים. סכום הכיסוי משתנה בהתאם לסוג הנזק, לדוגמה, עד ₪ 300,000 עבור שבר זכוכית, ועד ₪ 1,000,000 עבור התמוטטות מדפים. סכומים אלו מבוססים על נזק ראשון ואינם כפופים לתנאים מיוחדים.",
-  "payload": "טבלה: הרחבות ביטוח הראל\nThis table details coverage extensions for Harel insurance policies, specifically outlining limits for various types of damage. It allows you to look up the maximum coverage amount for different events.\nממדים: type of damage covered by the extension (e.g., broken glass, shelf collapse), coverage details (e.g., maximum coverage amount)\n\nשבר זכוכית .3.17\nהביטוח על פי פרק זה מורחב לכסות שבר פתאומי ובלתי צפוי לקירות מסך ו/או שמשות של חלונות ודלתות, אשר עשויים מזכוכית ו/או פרספקס, מסיבה כלשהיא שלא נכלל ה בסיכונים המבוטחים ובהרחבות לפרק זה ושאינה מוצאת מכלל כיסוי בסייגים הכלליים ו/או בסייגים לפרק זה.\nאלא אם צוין אחרת ברשימה, אחריותו של המבטח על פי הרחבה זו מוגבלת עד .₪  300,000 לסך של\n\"ביטוח חסר\" מהתנאים 5.7 סכום זה הינו על בסיס נזק ראשון שאינו כפוף לתנאי .' המיוחדים בפרק א"
+  "embed_text": "טבלה זו מתארת הרחבות לביטוח רכוש של הראל, ומפרטת את גבולות הכיסוי עבור סוגי נזקים שונים, כמו שבר זכוכית והתמוטטות מדפים. ניתן לחפש מידע על הרחבה ספציפית לפי סוג הנזק המבוטח, כגון 'שבר זכוכית' או 'התמוטטות מדפים'. הרחבות אלו כפופות לתנאים המפורטים בסעיף 'ביטוח חסר' בתנאי הפוליסה. שבר זכוכית, התמוטטות מדפים, סכום ביטוח מקסימלי של ₪ 1,000,000, סכום ביטוח מקסימלי של ₪ 300,000, 'ביטוח חסר' תנאים 5.7, נזק ראשון. This table details coverage extensions for property insurance policies offered by Harel. It specifies limits for different types of damage, such as broken glass and shelf collapse, and references conditions within the 'ביטוח חסר' terms.",
+  "payload": "טבלה: הרחבות ביטוח - הראל\nThis table details coverage extensions for property insurance policies offered by Harel. It specifies limits for different types of damage, such as broken glass and shelf collapse, and references conditions within the 'ביטוח חסר' terms.\nממדים: type of damage covered (הרחבה), coverage details (פרטי הכיסוי)\n\nשבר זכוכית .3.17\nהביטוח על פי פרק זה מורחב לכסות שבר פתאומי ובלתי צפוי לקירות מסך ו/או שמשות של חלונות ודלתות, אשר עשויים מזכוכית ו/או פרספקס, מסיבה כלשהיא שלא נכלל ה בסיכונים המבוטחים ובהרחבות לפרק זה ושאינה מוצאת מכלל כיסוי בסייגים הכלליים ו/או בסייגים לפרק זה.\nאלא אם צוין אחרת ברשימה, אחריותו של המבטח על פי הרחבה זו מוגבלת עד .₪  300,000 לסך של\n\"ביטוח חסר\" מהתנאים 5.7 סכום זה הינו על בסיס נזק ראשון שאינו כפוף לתנאי .' המיוחדים בפרק א"
 }

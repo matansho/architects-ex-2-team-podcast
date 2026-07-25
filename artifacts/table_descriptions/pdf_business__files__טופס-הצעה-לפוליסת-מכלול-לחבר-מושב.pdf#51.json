@@ -2,26 +2,28 @@
   "id": "pdf:business/files/טופס-הצעה-לפוליסת-מכלול-לחבר-מושב.pdf#51",
   "source": "llm",
   "description": {
-    "title": "מכלול - אחריות",
-    "summary": "This table details liability coverage and self-participation amounts for the 'מכלול' insurance policy. It allows looking up coverage limits and self-pay amounts for different types of damages.",
-    "embed_passage": "פוליסת 'מכלול' מציעה גבול אחריות של ₪4,000,000 בתמורה לפרמיה נוספת, כאשר השתתפות עצמית בגין נזקי גוף היא ₪7,500 ובגין נזקי רכוש ₪10,500. עבור ריסוס/דישון ועדרים במרעה טבעי, ההשתתפות העצמית היא ₪6,000, ומינימום ₪15,000 מהנזק.",
-    "row_axis": "Type of damage/coverage",
-    "column_axis": "Coverage limit / Self-participation amount",
+    "title": "מכלול - גבולות אחריות",
+    "summary": "This table details liability limits for the 'מכלול' insurance policy, specifying self-participation amounts and coverage limits for various damage types. It is used to look up coverage amounts based on the type of damage and the specific activity.",
+    "embed_passage": "טבלה זו מציגה את גבולות האחריות במסגרת פוליסת 'מכלול', ומפרטת את ההשתתפות העצמית הנדרשת ואת סכומי הכיסוי עבור סוגי נזקים שונים. ניתן למצוא כאן מידע על נזקי גוף, נזקי רכוש, ריסוס/דישון, ויחידות אירוח. גבולות אחריות אלו משמשים לקביעת סכום הפיצוי המקסימלי שניתן לקבל במקרה של תביעה. ההרחבות המוצגות כאן כלולות בגבולות האחריות הקיימים ואינן תוספת אליהם. סכום אחר של ₪ 4,000,000 מאפשר הגדלת גבול אחריות למשק פעיל. נזקי גוף: ₪ 7,500 השתתפות עצמית, נזקי רכוש: ₪ 10,500 השתתפות עצמית.",
+    "row_axis": "type of damage / activity",
+    "column_axis": "coverage details (limit, self-participation)",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "גבול אחריות: ₪4,000,000",
-      "השתתפות עצמית (נזקי גוף): ₪7,500",
-      "השתתפות עצמית (נזקי רכוש): ₪10,500",
-      "השתתפות עצמית (ריסוס/דישון): ₪6,000",
-      "מינימום נזק (ריסוס/דישון): ₪15,000"
+      "גבול אחריות משק פעיל: ₪ 4,000,000",
+      "נזקי גוף השתתפות עצמית: ₪ 7,500",
+      "נזקי רכוש השתתפות עצמית: ₪ 10,500",
+      "ריסוס/דישון: ₪ 6,000",
+      "יחידות אירוח: ₪ 25,000",
+      "מחלת מקצוע השתתפות עצמית: ₪ 10,000",
+      "עובדים השתתפות עצמית: ₪ 14,000"
     ],
     "product_hints": [
       "מכלול"
     ]
   },
   "sketch": ". בתמורה לפרמיה נוספת ₪ 4,000,000 ניתן להגדיל גבול אחריות של משק פעיל בלבד לסך\n;₪  10,500 ; בגין נזקי גוף ₪  7,500 השתתפות עצמית: בגין נזקי רכוש\n, מהנזק 15% , ומאירוע שני ואילך ₪15,000 מהנזק, מינימום 10% ; בגין ריסוס/ דישון ועדרים במרעה טבעי ₪6,000 בגין יחידות אירוח . ₪25,000 מינימום\n*גבולות אחריות ההרחבות לעיל כלולים בגבולות האחריות לפרק הרביעי ואינם בנוסף אליהם.",
-  "embed_text": "פוליסת 'מכלול' מציעה גבול אחריות של ₪4,000,000 בתמורה לפרמיה נוספת, כאשר השתתפות עצמית בגין נזקי גוף היא ₪7,500 ובגין נזקי רכוש ₪10,500. עבור ריסוס/דישון ועדרים במרעה טבעי, ההשתתפות העצמית היא ₪6,000, ומינימום ₪15,000 מהנזק.",
-  "payload": "טבלה: מכלול - אחריות\nThis table details liability coverage and self-participation amounts for the 'מכלול' insurance policy. It allows looking up coverage limits and self-pay amounts for different types of damages.\nממדים: Type of damage/coverage, Coverage limit / Self-participation amount\n\n. בתמורה לפרמיה נוספת ₪ 4,000,000 ניתן להגדיל גבול אחריות של משק פעיל בלבד לסך\n;₪  10,500 ; בגין נזקי גוף ₪  7,500 השתתפות עצמית: בגין נזקי רכוש\n, מהנזק 15% , ומאירוע שני ואילך ₪15,000 מהנזק, מינימום 10% ; בגין ריסוס/ דישון ועדרים במרעה טבעי ₪6,000 בגין יחידות אירוח . ₪25,000 מינימום\n*גבולות אחריות ההרחבות לעיל כלולים בגבולות האחריות לפרק הרביעי ואינם בנוסף אליהם."
+  "embed_text": "טבלה זו מציגה את גבולות האחריות במסגרת פוליסת 'מכלול', ומפרטת את ההשתתפות העצמית הנדרשת ואת סכומי הכיסוי עבור סוגי נזקים שונים. ניתן למצוא כאן מידע על נזקי גוף, נזקי רכוש, ריסוס/דישון, ויחידות אירוח. גבולות אחריות אלו משמשים לקביעת סכום הפיצוי המקסימלי שניתן לקבל במקרה של תביעה. ההרחבות המוצגות כאן כלולות בגבולות האחריות הקיימים ואינן תוספת אליהם. סכום אחר של ₪ 4,000,000 מאפשר הגדלת גבול אחריות למשק פעיל. נזקי גוף: ₪ 7,500 השתתפות עצמית, נזקי רכוש: ₪ 10,500 השתתפות עצמית. This table details liability limits for the 'מכלול' insurance policy, specifying self-participation amounts and coverage limits for various damage types. It is used to look up coverage amounts based on the type of damage and the specific activity. בין הערכים בטבלה: מחלת מקצוע השתתפות עצמית: ₪ 10,000; עובדים השתתפות עצמית…",
+  "payload": "טבלה: מכלול - גבולות אחריות\nThis table details liability limits for the 'מכלול' insurance policy, specifying self-participation amounts and coverage limits for various damage types. It is used to look up coverage amounts based on the type of damage and the specific activity.\nממדים: type of damage / activity, coverage details (limit, self-participation)\n\n. בתמורה לפרמיה נוספת ₪ 4,000,000 ניתן להגדיל גבול אחריות של משק פעיל בלבד לסך\n;₪  10,500 ; בגין נזקי גוף ₪  7,500 השתתפות עצמית: בגין נזקי רכוש\n, מהנזק 15% , ומאירוע שני ואילך ₪15,000 מהנזק, מינימום 10% ; בגין ריסוס/ דישון ועדרים במרעה טבעי ₪6,000 בגין יחידות אירוח . ₪25,000 מינימום\n*גבולות אחריות ההרחבות לעיל כלולים בגבולות האחריות לפרק הרביעי ואינם בנוסף אליהם."
 }

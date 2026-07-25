@@ -2,16 +2,17 @@
   "id": "pdf:diseases-disabilities/files/תנאי-פוליסת-ביטוח-מחלות-קשות-מענקית-זהב-1.pdf#6",
   "source": "llm",
   "description": {
-    "title": "הגדרות פוליסה",
-    "summary": "This table defines key terms used in the 'מענקית זהב' health insurance policy. It clarifies who the insurer, policyholder, payer, and beneficiary are.",
-    "embed_passage": "פוליסת ביטוח 'מענקית זהב' מגדירה את 'החברה' כהראל חברה לביטוח בע״מ. הפוליסה עצמה היא החוזה בין הצדדים, כולל הצעת הביטוח ודף פרטי הביטוח. המבוטח הוא האדם ששמו מופיע בדף פרטי הביטוח.",
-    "row_axis": "definition of a policy term",
-    "column_axis": "policy term",
+    "title": "הגדרות בפוליסה",
+    "summary": "This table defines key terms used in the 'מענקית זהב' health insurance policy. It provides definitions for entities involved in the policy, such as the company, the policy itself, the payer, and the insured.",
+    "embed_passage": "טבלה זו מגדירה מונחים מרכזיים בפוליסת ביטוח הבריאות 'מענקית זהב'. המטרה היא להבהיר את המשמעות של מונחים כמו 'החברה', 'הפוליסה', 'המשלם' ו'המבוטח' לצורך הבנת תנאי הפוליסה. ניתן לחפש הגדרות ספציפיות לפי המונח המוגדר. ההגדרות כוללות את הראל חברה לביטוח בע\"מ, חוזה ביטוח, המשלם, והמבוטח.",
+    "row_axis": "מונח מוגדר",
+    "column_axis": "הגדרה",
     "units": [],
     "notable_values": [
-      "החברה: הראל חברה לביטוח בע״מ",
+      "החברה: הראל חברה לביטוח בע\"מ",
       "הפוליסה: חוזה ביטוח",
-      "המשלם: האדם או התאגיד המשלם את הפרמיה"
+      "המשלם: האדם או התאגיד המתקשר עם החברה",
+      "המבוטח: אדם ששמו נקוב בדף פרטי הביטוח"
     ],
     "product_hints": [
       "מענקית זהב",
@@ -19,6 +20,6 @@
     ]
   },
   "sketch": "2.1 החברה  ו/או  המבטח: הראל    חברה לביטוח בע\"מ.\n2.2 הפוליסה: חוזה ביטוח זה, לרבות הצעת הביטוח,  דף  פרטי  הביטוח  וכל  נספח  או תוספת המצורפים לו.\n2.3 המשלם: האדם  או  התאגיד,  המתקשר עם  החברה  על-פי לצורך זו פוליסה תשלום  הפרמיה,  ואשר  שמו  נקוב  בדף פרטי הביטוח ובהצעה.\n2.4 המבוטח: אדם  ששמו  נקוב  בדף  פרטי הביטוח כ\"מבוטח\".",
-  "embed_text": "פוליסת ביטוח 'מענקית זהב' מגדירה את 'החברה' כהראל חברה לביטוח בע״מ. הפוליסה עצמה היא החוזה בין הצדדים, כולל הצעת הביטוח ודף פרטי הביטוח. המבוטח הוא האדם ששמו מופיע בדף פרטי הביטוח.",
-  "payload": "טבלה: הגדרות פוליסה\nThis table defines key terms used in the 'מענקית זהב' health insurance policy. It clarifies who the insurer, policyholder, payer, and beneficiary are.\nממדים: definition of a policy term, policy term\n\n2.1 החברה  ו/או  המבטח: הראל    חברה לביטוח בע\"מ.\n2.2 הפוליסה: חוזה ביטוח זה, לרבות הצעת הביטוח,  דף  פרטי  הביטוח  וכל  נספח  או תוספת המצורפים לו.\n2.3 המשלם: האדם  או  התאגיד,  המתקשר עם  החברה  על-פי לצורך זו פוליסה תשלום  הפרמיה,  ואשר  שמו  נקוב  בדף פרטי הביטוח ובהצעה.\n2.4 המבוטח: אדם  ששמו  נקוב  בדף  פרטי הביטוח כ\"מבוטח\"."
+  "embed_text": "טבלה זו מגדירה מונחים מרכזיים בפוליסת ביטוח הבריאות 'מענקית זהב'. המטרה היא להבהיר את המשמעות של מונחים כמו 'החברה', 'הפוליסה', 'המשלם' ו'המבוטח' לצורך הבנת תנאי הפוליסה. ניתן לחפש הגדרות ספציפיות לפי המונח המוגדר. ההגדרות כוללות את הראל חברה לביטוח בע\"מ, חוזה ביטוח, המשלם, והמבוטח. This table defines key terms used in the 'מענקית זהב' health insurance policy. It provides definitions for entities involved in the policy, such as the company, the policy itself, the payer, and the insured.",
+  "payload": "טבלה: הגדרות בפוליסה\nThis table defines key terms used in the 'מענקית זהב' health insurance policy. It provides definitions for entities involved in the policy, such as the company, the policy itself, the payer, and the insured.\nממדים: מונח מוגדר, הגדרה\n\n2.1 החברה  ו/או  המבטח: הראל    חברה לביטוח בע\"מ.\n2.2 הפוליסה: חוזה ביטוח זה, לרבות הצעת הביטוח,  דף  פרטי  הביטוח  וכל  נספח  או תוספת המצורפים לו.\n2.3 המשלם: האדם  או  התאגיד,  המתקשר עם  החברה  על-פי לצורך זו פוליסה תשלום  הפרמיה,  ואשר  שמו  נקוב  בדף פרטי הביטוח ובהצעה.\n2.4 המבוטח: אדם  ששמו  נקוב  בדף  פרטי הביטוח כ\"מבוטח\"."
 }

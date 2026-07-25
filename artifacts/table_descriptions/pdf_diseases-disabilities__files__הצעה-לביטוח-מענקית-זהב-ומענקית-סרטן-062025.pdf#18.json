@@ -2,16 +2,16 @@
   "id": "pdf:diseases-disabilities/files/הצעה-לביטוח-מענקית-זהב-ומענקית-סרטן-062025.pdf#18",
   "source": "llm",
   "description": {
-    "title": "כיסוי נוסף",
-    "summary": "This table outlines options for adding supplemental insurance coverage. It details choices regarding existing policies and premium adjustments.",
-    "embed_passage": "מענקית זהב ומענקית סרטן מציעות כיסוי נוסף למקרים ביטוחיים קיימים, וגביית פרמיה נוספת תלויה בסוג הכיסוי הנבחר. חשוב לדעת שרכישת כיסוי פיצוי משמעותה תשלום דמי ביטוח נוספים עבור כיסוי דומה לזה שכבר קיים. ניתן גם לבטל או להקטין את היקף הכיסוי הקיים.",
-    "row_axis": "Customer choices regarding supplemental coverage",
-    "column_axis": "Options for existing policies (keep, reduce, cancel)",
+    "title": "הצעה לביטוח",
+    "summary": "This table presents options related to existing insurance policies, specifically regarding adding coverage, reducing coverage, or cancelling a policy. It allows the applicant to indicate their choices and acknowledge additional premium costs.",
+    "embed_passage": "טבלה זו עוסקת בהצעות לביטוח, במיוחד בנוגע לפוליסות קיימות, כגון הוספת כיסוי, הקטנת כיסוי או ביטול פוליסה. ניתן להשתמש בה כדי לציין את הבחירות של המבקש ולהכיר בעלויות פרמיה נוספות. הפוליסה המוזכרת היא מענקית זהב ומענקית סרטן. האפשרויות כוללות אישור רכישת כיסוי נוסף וגביית פרמיה נוספת, הקטנת היקף הפיצוי בפוליסה קיימת, או ביטול הפוליסה הקיימת. חשוב לדעת שרכישת כיסוי מסוג פיצוי כרוכה בדמי ביטוח נוספים עבור כיסוי דומה לקיים.",
+    "row_axis": "Applicant's choice regarding existing policy",
+    "column_axis": "Policy action (add, reduce, cancel)",
     "units": [],
     "notable_values": [
-      "product: מענקית זהב ומענקית סרטן",
-      "coverage type: פיצוי",
-      "premium: נוספת"
+      "כיסוי מסוג פיצוי: פרמיה נוספת",
+      "הקטנת היקף הפיצוי: בקשה לחברה המבטחת",
+      "ביטול הפוליסה: שליחת בקשה לחברת הביטוח"
     ],
     "product_hints": [
       "מענקית זהב",
@@ -19,6 +19,6 @@
     ]
   },
   "sketch": ". אני מאשר/ת את רכישת הכיסוי וגביית פרמיה נוספת\n, חשוב לדעת: ברכישת כיסוי מסוג פיצוי, הכיסוי אליו את/ה מבקש/ת להצטרף הינו כיסוי נוסף המבטח מקרה ביטוח דומה לכיסוי הקיים שבידך וייגבו דמי ביטוח נוספים עבור כיסוי זה.\n.* אני מעוניינ/ת להשאיר את הפוליסה הקיימת ולהקטין בה את היקף הפיצוי\nאני מאשר/ת את רכישת הכיסוי וגביית הפרמיה הנוספת.\n, חשוב לדעת: ברכישת כיסוי מסוג פיצוי, הכיסוי אליו את/ה מבקש/ת להצטרף הינו כיסוי נוסף המבטח מקרה ביטוח דומה לכיסוי הקיים שבידך וייגבו דמי ביטוח נוספים עבור כיסוי זה.",
-  "embed_text": "מענקית זהב ומענקית סרטן מציעות כיסוי נוסף למקרים ביטוחיים קיימים, וגביית פרמיה נוספת תלויה בסוג הכיסוי הנבחר. חשוב לדעת שרכישת כיסוי פיצוי משמעותה תשלום דמי ביטוח נוספים עבור כיסוי דומה לזה שכבר קיים. ניתן גם לבטל או להקטין את היקף הכיסוי הקיים.",
-  "payload": "טבלה: כיסוי נוסף\nThis table outlines options for adding supplemental insurance coverage. It details choices regarding existing policies and premium adjustments.\nממדים: Customer choices regarding supplemental coverage, Options for existing policies (keep, reduce, cancel)\n\n. אני מאשר/ת את רכישת הכיסוי וגביית פרמיה נוספת\n, חשוב לדעת: ברכישת כיסוי מסוג פיצוי, הכיסוי אליו את/ה מבקש/ת להצטרף הינו כיסוי נוסף המבטח מקרה ביטוח דומה לכיסוי הקיים שבידך וייגבו דמי ביטוח נוספים עבור כיסוי זה.\n.* אני מעוניינ/ת להשאיר את הפוליסה הקיימת ולהקטין בה את היקף הפיצוי\nאני מאשר/ת את רכישת הכיסוי וגביית הפרמיה הנוספת.\n, חשוב לדעת: ברכישת כיסוי מסוג פיצוי, הכיסוי אליו את/ה מבקש/ת להצטרף הינו כיסוי נוסף המבטח מקרה ביטוח דומה לכיסוי הקיים שבידך וייגבו דמי ביטוח נוספים עבור כיסוי זה."
+  "embed_text": "טבלה זו עוסקת בהצעות לביטוח, במיוחד בנוגע לפוליסות קיימות, כגון הוספת כיסוי, הקטנת כיסוי או ביטול פוליסה. ניתן להשתמש בה כדי לציין את הבחירות של המבקש ולהכיר בעלויות פרמיה נוספות. הפוליסה המוזכרת היא מענקית זהב ומענקית סרטן. האפשרויות כוללות אישור רכישת כיסוי נוסף וגביית פרמיה נוספת, הקטנת היקף הפיצוי בפוליסה קיימת, או ביטול הפוליסה הקיימת. חשוב לדעת שרכישת כיסוי מסוג פיצוי כרוכה בדמי ביטוח נוספים עבור כיסוי דומה לקיים. This table presents options related to existing insurance policies, specifically regarding adding coverage, reducing coverage, or cancelling a policy. It allows the applicant to indicate their choices and acknowledge additional premium costs.",
+  "payload": "טבלה: הצעה לביטוח\nThis table presents options related to existing insurance policies, specifically regarding adding coverage, reducing coverage, or cancelling a policy. It allows the applicant to indicate their choices and acknowledge additional premium costs.\nממדים: Applicant's choice regarding existing policy, Policy action (add, reduce, cancel)\n\n. אני מאשר/ת את רכישת הכיסוי וגביית פרמיה נוספת\n, חשוב לדעת: ברכישת כיסוי מסוג פיצוי, הכיסוי אליו את/ה מבקש/ת להצטרף הינו כיסוי נוסף המבטח מקרה ביטוח דומה לכיסוי הקיים שבידך וייגבו דמי ביטוח נוספים עבור כיסוי זה.\n.* אני מעוניינ/ת להשאיר את הפוליסה הקיימת ולהקטין בה את היקף הפיצוי\nאני מאשר/ת את רכישת הכיסוי וגביית הפרמיה הנוספת.\n, חשוב לדעת: ברכישת כיסוי מסוג פיצוי, הכיסוי אליו את/ה מבקש/ת להצטרף הינו כיסוי נוסף המבטח מקרה ביטוח דומה לכיסוי הקיים שבידך וייגבו דמי ביטוח נוספים עבור כיסוי זה."
 }

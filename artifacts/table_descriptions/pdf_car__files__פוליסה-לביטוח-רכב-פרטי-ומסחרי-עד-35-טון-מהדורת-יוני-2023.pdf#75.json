@@ -3,22 +3,22 @@
   "source": "llm",
   "description": {
     "title": "מחירון רכב",
-    "summary": "This table details variables affecting the value of a used car, used to determine insurance payouts. It looks up adjustments to vehicle value based on factors like age and number of previous owners.",
-    "embed_passage": "מחירון זה מופיעות טבלאות המפרטות משתנים שונים, המשפיעים על ערך מכונית משומשת. לדוגמא: אם הרכב המבוטח הוא רכב ששנת ייצורו קודמת ליום קרות מקרה הביטוח ב־4 שנים והוא היה בבעלותם של שלושה בעלים קודמים - יופחתו, עפ״י המחירון הנ״ל, 4% משווי הרכב. המחירון משמש לקביעת ערך השוק של הרכב לצורך תגמולי הביטוח.",
-    "row_axis": "vehicle characteristics (e.g., age, number of owners)",
-    "column_axis": "adjustment factors (e.g., percentage increase/decrease in value)",
+    "summary": "This table details variables affecting the value of a used car, which are considered when determining insurance payouts. It outlines adjustments to insurance compensation based on factors like the car's age and number of previous owners.",
+    "embed_passage": "טבלה זו מפרטת משתנים שונים המשפיעים על ערך מכונית משומשת, המשמשים לקביעת ערך השוק של הרכב לצורך תגמולי ביטוח. המשתנים ילקחו בחשבון בעת קביעת ערך השוק של הרכב לצורך תגמולי הביטוח, ותגמולי בגין משתנים אלה יוגדלו או יופחתו. לדוגמא, אם הרכב המבוטח הוא רכב ששנת ייצורו קודמת ליום קרות מקרה הביטוח ב-4 שנים והוא היה בבעלותם של שלושה בעלים קודמים - יופחתו תגמולי הביטוח. המחירון הנ״ל משמש לקביעת ערך השוק של הרכב. גיל הרכב, שנת ייצור, ומספר הבעלים הקודמים הם משתנים מרכזיים.",
+    "row_axis": "variables affecting used car value",
+    "column_axis": "adjustment rates",
     "units": [],
     "notable_values": [
-      "years: 4",
-      "owners: 3",
-      "reduction: 4%"
+      "שנת ייצור: קודמת ל-4 שנים",
+      "מספר בעלים קודמים: שלושה",
+      "הפחתה בתגמול: 4%"
     ],
     "product_hints": [
-      "ביטוח רכב",
-      "פוליסה לביטוח רכב פרטי ומסחרי"
+      "ביטוח רכב פרטי",
+      "ביטוח רכב מסחרי"
     ]
   },
   "sketch": ". במחירון זה מופיעות טבלאות המפרטות משתנים שונים, המשפיעים על ערך מכונית משומשת משתנים אלו ילקחו בחשבון בעת קביעת ערך השוק של הרכב לצורך תגמולי הביטוח, ותגמולי בגין משתנים אלה על פי שעורי השינוי המופיעים במחירון הנ\"ל. יוגדלו או יופחתו הביטוח\nבשל משתנים אלה. לא הושפע מובהר בזאת, כי סכום דמי הביטוח )הפרמיה( בגין הרכב המבוטח , שנים 4לדוגמא: אם הרכב המבוטח הוא רכב ששנת ייצורו קודמת ליום קרות מקרה הביטוח ב משווי הרכב 4% , והוא היה בבעלותם של שלושה בעלים קודמים - יופחתו, עפ\"י המחירון הנ\"ל המופיע במחירון.",
-  "embed_text": "מחירון זה מופיעות טבלאות המפרטות משתנים שונים, המשפיעים על ערך מכונית משומשת. לדוגמא: אם הרכב המבוטח הוא רכב ששנת ייצורו קודמת ליום קרות מקרה הביטוח ב־4 שנים והוא היה בבעלותם של שלושה בעלים קודמים - יופחתו, עפ״י המחירון הנ״ל, 4% משווי הרכב. המחירון משמש לקביעת ערך השוק של הרכב לצורך תגמולי הביטוח.",
-  "payload": "טבלה: מחירון רכב\nThis table details variables affecting the value of a used car, used to determine insurance payouts. It looks up adjustments to vehicle value based on factors like age and number of previous owners.\nממדים: vehicle characteristics (e.g., age, number of owners), adjustment factors (e.g., percentage increase/decrease in value)\n\n. במחירון זה מופיעות טבלאות המפרטות משתנים שונים, המשפיעים על ערך מכונית משומשת משתנים אלו ילקחו בחשבון בעת קביעת ערך השוק של הרכב לצורך תגמולי הביטוח, ותגמולי בגין משתנים אלה על פי שעורי השינוי המופיעים במחירון הנ\"ל. יוגדלו או יופחתו הביטוח\nבשל משתנים אלה. לא הושפע מובהר בזאת, כי סכום דמי הביטוח )הפרמיה( בגין הרכב המבוטח , שנים 4לדוגמא: אם הרכב המבוטח הוא רכב ששנת ייצורו קודמת ליום קרות מקרה הביטוח ב משווי הרכב 4% , והוא היה בבעלותם של שלושה בעלים קודמים - יופחתו, עפ\"י המחירון הנ\"ל המופיע במחירון."
+  "embed_text": "טבלה זו מפרטת משתנים שונים המשפיעים על ערך מכונית משומשת, המשמשים לקביעת ערך השוק של הרכב לצורך תגמולי ביטוח. המשתנים ילקחו בחשבון בעת קביעת ערך השוק של הרכב לצורך תגמולי הביטוח, ותגמולי בגין משתנים אלה יוגדלו או יופחתו. לדוגמא, אם הרכב המבוטח הוא רכב ששנת ייצורו קודמת ליום קרות מקרה הביטוח ב-4 שנים והוא היה בבעלותם של שלושה בעלים קודמים - יופחתו תגמולי הביטוח. המחירון הנ״ל משמש לקביעת ערך השוק של הרכב. גיל הרכב, שנת ייצור, ומספר הבעלים הקודמים הם משתנים מרכזיים. This table details variables affecting the value of a used car, which are considered when determining insurance payouts. It outlines adjustments to insurance compensation based on factors like the car's age and number of previous owners. בין הערכים בטבלה: הפחתה בתגמול: 4%.",
+  "payload": "טבלה: מחירון רכב\nThis table details variables affecting the value of a used car, which are considered when determining insurance payouts. It outlines adjustments to insurance compensation based on factors like the car's age and number of previous owners.\nממדים: variables affecting used car value, adjustment rates\n\n. במחירון זה מופיעות טבלאות המפרטות משתנים שונים, המשפיעים על ערך מכונית משומשת משתנים אלו ילקחו בחשבון בעת קביעת ערך השוק של הרכב לצורך תגמולי הביטוח, ותגמולי בגין משתנים אלה על פי שעורי השינוי המופיעים במחירון הנ\"ל. יוגדלו או יופחתו הביטוח\nבשל משתנים אלה. לא הושפע מובהר בזאת, כי סכום דמי הביטוח )הפרמיה( בגין הרכב המבוטח , שנים 4לדוגמא: אם הרכב המבוטח הוא רכב ששנת ייצורו קודמת ליום קרות מקרה הביטוח ב משווי הרכב 4% , והוא היה בבעלותם של שלושה בעלים קודמים - יופחתו, עפ\"י המחירון הנ\"ל המופיע במחירון."
 }

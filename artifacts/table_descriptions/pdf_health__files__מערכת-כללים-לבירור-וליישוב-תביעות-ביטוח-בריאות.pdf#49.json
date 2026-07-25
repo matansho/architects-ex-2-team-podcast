@@ -2,23 +2,23 @@
   "id": "pdf:health/files/מערכת-כללים-לבירור-וליישוב-תביעות-ביטוח-בריאות.pdf#49",
   "source": "llm",
   "description": {
-    "title": "מועדי תגובה לפנייה",
-    "summary": "This table details the response times for requests related to health insurance claims and inquiries. It specifies the number of business days allowed to provide copies of policy documents or other signed materials.",
-    "embed_passage": "פוליסת הראל מחייבת מסירת העתקים של פוליסה או מתקנון בתוך 14 ימי עסקים ממועד קבלת הבקשה. כמו כן, מסירת העתקים של מסמכים עליהם התובע חתם תיעשה בתוך 21 ימי עסקים. טבלה זו מפרטת את המועדים הקבועים בחוזר 'יישוב תביעות וטיפול בפניות הציבור'.",
-    "row_axis": "Type of request (e.g., copy of policy, signed document)",
-    "column_axis": "Response time (business days)",
+    "title": "מועדי מענה לבקשות",
+    "summary": "This table details response times for requests related to health insurance claims. It specifies the number of business days allowed to provide copies of policy documents or other signed materials.",
+    "embed_passage": "טבלה זו מתארת את מועדי המענה לבקשות הקשורות לביטוח בריאות. המידע מציג את מספר ימי העסקים המוקצים למתן העתקים של פוליסות, תקנונים ומסמכים חתומים. המועדים מחושבים ממועד קבלת הבקשה.",
+    "row_axis": "סוג בקשה",
+    "column_axis": "מועד מענה (ימי עסקים)",
     "units": [
       "ימי עסקים"
     ],
     "notable_values": [
-      "מסירת העתקים מפוליסה: 14 ימי עסקים",
-      "מסירת העתקים ממסמכים חתומים: 21 ימי עסקים"
+      "מסירת העתקים מפוליסה או מתקנון: 14",
+      "מסירת העתקים של מסמך שעליו התובע חתם: 21"
     ],
     "product_hints": [
-      "הראל"
+      "ביטוח בריאות"
     ]
   },
   "sketch": "יאוחר לא - ותיק אזרח לעניין,ציבור לפניית בכתב מענה,)יד( 8\nהבקשה. קבלת ממועד עסקים ימי 14,מתקנון או מפוליסה העתקים מסירת,(1)( )טו 8\nהבקשה. קבלת ממועד עסקים ימי 21,התובע חתם שעליו מסמך מכל העתקים מסירת,(3)( )טו 8",
-  "embed_text": "פוליסת הראל מחייבת מסירת העתקים של פוליסה או מתקנון בתוך 14 ימי עסקים ממועד קבלת הבקשה. כמו כן, מסירת העתקים של מסמכים עליהם התובע חתם תיעשה בתוך 21 ימי עסקים. טבלה זו מפרטת את המועדים הקבועים בחוזר 'יישוב תביעות וטיפול בפניות הציבור'.",
-  "payload": "טבלה: מועדי תגובה לפנייה\nThis table details the response times for requests related to health insurance claims and inquiries. It specifies the number of business days allowed to provide copies of policy documents or other signed materials.\nממדים: Type of request (e.g., copy of policy, signed document), Response time (business days)\n\nיאוחר לא - ותיק אזרח לעניין,ציבור לפניית בכתב מענה,)יד( 8\nהבקשה. קבלת ממועד עסקים ימי 14,מתקנון או מפוליסה העתקים מסירת,(1)( )טו 8\nהבקשה. קבלת ממועד עסקים ימי 21,התובע חתם שעליו מסמך מכל העתקים מסירת,(3)( )טו 8"
+  "embed_text": "טבלה זו מתארת את מועדי המענה לבקשות הקשורות לביטוח בריאות. המידע מציג את מספר ימי העסקים המוקצים למתן העתקים של פוליסות, תקנונים ומסמכים חתומים. המועדים מחושבים ממועד קבלת הבקשה. This table details response times for requests related to health insurance claims. It specifies the number of business days allowed to provide copies of policy documents or other signed materials. בין הערכים בטבלה: מסירת העתקים מפוליסה או מתקנון: 14; מסירת העתקים של מסמך שעליו התובע חתם: 21.",
+  "payload": "טבלה: מועדי מענה לבקשות\nThis table details response times for requests related to health insurance claims. It specifies the number of business days allowed to provide copies of policy documents or other signed materials.\nממדים: סוג בקשה, מועד מענה (ימי עסקים)\n\nיאוחר לא - ותיק אזרח לעניין,ציבור לפניית בכתב מענה,)יד( 8\nהבקשה. קבלת ממועד עסקים ימי 14,מתקנון או מפוליסה העתקים מסירת,(1)( )טו 8\nהבקשה. קבלת ממועד עסקים ימי 21,התובע חתם שעליו מסמך מכל העתקים מסירת,(3)( )טו 8"
 }

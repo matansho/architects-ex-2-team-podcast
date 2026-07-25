@@ -3,25 +3,29 @@
   "source": "llm",
   "description": {
     "title": "ביטול פוליסות בריאות",
-    "summary": "This table details the conditions under which a health insurance policy can be cancelled by the company or the insured, including scenarios related to other policies held by the insured. It outlines rules for cancelling basic and supplemental health insurance plans.",
-    "embed_passage": "פוליסת בריאות בסיסית שנרכשה באוקטוב 2023 עשויה להתבטל אם בוטלה בתוך שישה חודשים ממועד הרכישה. חברת ביטוח תאפשר למבוטח שרכש פוליסת ניתוחים בישראל לבטלן בכל עת. תנאים אלו חלים על פוליסות בריאות ברבדים שונים, כגון פוליסת הרובד הרביעי.",
-    "row_axis": "Cancellation scenarios / conditions",
-    "column_axis": "Policy type, timeframes, and related regulations",
+    "summary": "This table details the conditions under which an insurance policy can be cancelled by the company, specifically relating to basic health insurance and higher-tier policies. It outlines scenarios involving cancellation timing and the impact on other policies held by the insured.",
+    "embed_passage": "טבלה זו מתארת את התנאים לביטול פוליסות בריאות, כולל פוליסות בריאות בסיסיות ופוליסות ברבדים גבוהים יותר. ניתן לבדוק את התנאים לביטול פוליסה שנרכשה באוקטובר 2023, ואת ההשפעה של ביטול פוליסה בסיסית על פוליסות אחרות. הפוליסה ניתנת לביטול על ידי החברה אם דמי הביטוח לא שולמו כסדרם, או במקרים אחרים המפורטים בחוק חוזה הביטוח. פוליסת ניתוחים בישראל, פוליסת הרחבה או פוליסת בריאות נוספת ניתנות לביטול בכל עת. אוקטובר 2023, רבד שני, רבד רביעי, ביטול פוליסה בסיסית, פוליסת ניתוחים בישראל.",
+    "row_axis": "Cancellation scenarios and conditions",
+    "column_axis": "Policy types and related clauses",
     "units": [],
     "notable_values": [
-      "2023: Year of policy purchase",
-      "שישה חודשים: Cancellation window for basic health insurance",
-      "רובד רביעי: Fourth tier policy",
-      "פוליסת ניתוחים בישראל: Israeli surgery policy",
-      "פוליסת הרחבה: Extension policy"
+      "אוקטובר 2023: date of policy purchase",
+      "שישה חודשים: cancellation window",
+      "פוליסת בריאות בסיסית: basic health insurance policy",
+      "רבד שני: second tier policy",
+      "רבד רביעי: fourth tier policy",
+      "פוליסת ניתוחים בישראל: surgery policy in Israel",
+      "פוליסת הרחבה: extension policy",
+      "פוליסת בריאות נוספת: additional health policy"
     ],
     "product_hints": [
-      "פוליסת בריאות בסיסית",
+      "פוליסת בריאות",
       "פוליסת ניתוחים בישראל",
-      "פוליסת הרחבה"
+      "פוליסת הרחבה",
+      "פוליסת בריאות נוספת"
     ]
   },
   "sketch": "ר באוקטוב 1 ת, כהגדרתה לעי   ל, שנרכשה ע\"י המבוטח לאחר יובהר, כי ככל שבוטלה פוליסת בריאות בסיסי 11.3 ,   ובוטלה   בתוך שישה חודשים ממועד הרכישה,   תבטל   החברה   את כל פוליסות הבריאות ברבדים 2023 , למעט אם קיימת למבוטח פוליסת 2023 באוקטוב   ר 1 ח   לאחר השני והרביעי שרכש אצלה אותו מבוט בריאות  בסיסית  בחברה  אחרת  או  אם  המבוטח  החליף  פוליסה  מקורית  לפוליסת  ניתוחים  בישראל  או . פוליסה של הרובד הרביעי, והכל בכפוף להוראות כל די   ן\nחברת ביטוח תאפשר למבוטח שרכש פוליסת ניתוחים בישראל, פוליסת הרחבה או פוליסת בריאות נוספת 11.4 לבטלן בכל עת, מבלי להתנות את הביטול האמור בביטול אחת א  ו יותר מפוליסות ביטוח בריאות אחרות . שבידי המבוטח",
-  "embed_text": "פוליסת בריאות בסיסית שנרכשה באוקטוב 2023 עשויה להתבטל אם בוטלה בתוך שישה חודשים ממועד הרכישה. חברת ביטוח תאפשר למבוטח שרכש פוליסת ניתוחים בישראל לבטלן בכל עת. תנאים אלו חלים על פוליסות בריאות ברבדים שונים, כגון פוליסת הרובד הרביעי.",
-  "payload": "טבלה: ביטול פוליסות בריאות\nThis table details the conditions under which a health insurance policy can be cancelled by the company or the insured, including scenarios related to other policies held by the insured. It outlines rules for cancelling basic and supplemental health insurance plans.\nממדים: Cancellation scenarios / conditions, Policy type, timeframes, and related regulations\n\nר באוקטוב 1 ת, כהגדרתה לעי   ל, שנרכשה ע\"י המבוטח לאחר יובהר, כי ככל שבוטלה פוליסת בריאות בסיסי 11.3 ,   ובוטלה   בתוך שישה חודשים ממועד הרכישה,   תבטל   החברה   את כל פוליסות הבריאות ברבדים 2023 , למעט אם קיימת למבוטח פוליסת 2023 באוקטוב   ר 1 ח   לאחר השני והרביעי שרכש אצלה אותו מבוט בריאות  בסיסית  בחברה  אחרת  או  אם  המבוטח  החליף  פוליסה  מקורית  לפוליסת  ניתוחים  בישראל  או . פוליסה של הרובד הרביעי, והכל בכפוף להוראות כל די   ן\nחברת ביטוח תאפשר למבוטח שרכש פוליסת ניתוחים בישראל, פוליסת הרחבה או פוליסת בריאות נוספת 11.4 לבטלן בכל עת, מבלי להתנות את הביטול האמור בביטול אחת א  ו יותר מפוליסות ביטוח בריאות אחרות . שבידי המבוטח"
+  "embed_text": "טבלה זו מתארת את התנאים לביטול פוליסות בריאות, כולל פוליסות בריאות בסיסיות ופוליסות ברבדים גבוהים יותר. ניתן לבדוק את התנאים לביטול פוליסה שנרכשה באוקטובר 2023, ואת ההשפעה של ביטול פוליסה בסיסית על פוליסות אחרות. הפוליסה ניתנת לביטול על ידי החברה אם דמי הביטוח לא שולמו כסדרם, או במקרים אחרים המפורטים בחוק חוזה הביטוח. פוליסת ניתוחים בישראל, פוליסת הרחבה או פוליסת בריאות נוספת ניתנות לביטול בכל עת. אוקטובר 2023, רבד שני, רבד רביעי, ביטול פוליסה בסיסית, פוליסת ניתוחים בישראל. This table details the conditions under which an insurance policy can be cancelled by the company, specifically relating to basic health insurance and higher-tier policies. It outlines scenarios involving cancellation timing and the impact on other policies held by the insured. בין הערכים בטבלה: שישה חודשים: cancellati…",
+  "payload": "טבלה: ביטול פוליסות בריאות\nThis table details the conditions under which an insurance policy can be cancelled by the company, specifically relating to basic health insurance and higher-tier policies. It outlines scenarios involving cancellation timing and the impact on other policies held by the insured.\nממדים: Cancellation scenarios and conditions, Policy types and related clauses\n\nר באוקטוב 1 ת, כהגדרתה לעי   ל, שנרכשה ע\"י המבוטח לאחר יובהר, כי ככל שבוטלה פוליסת בריאות בסיסי 11.3 ,   ובוטלה   בתוך שישה חודשים ממועד הרכישה,   תבטל   החברה   את כל פוליסות הבריאות ברבדים 2023 , למעט אם קיימת למבוטח פוליסת 2023 באוקטוב   ר 1 ח   לאחר השני והרביעי שרכש אצלה אותו מבוט בריאות  בסיסית  בחברה  אחרת  או  אם  המבוטח  החליף  פוליסה  מקורית  לפוליסת  ניתוחים  בישראל  או . פוליסה של הרובד הרביעי, והכל בכפוף להוראות כל די   ן\nחברת ביטוח תאפשר למבוטח שרכש פוליסת ניתוחים בישראל, פוליסת הרחבה או פוליסת בריאות נוספת 11.4 לבטלן בכל עת, מבלי להתנות את הביטול האמור בביטול אחת א  ו יותר מפוליסות ביטוח בריאות אחרות . שבידי המבוטח"
 }

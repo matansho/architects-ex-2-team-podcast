@@ -3,24 +3,23 @@
   "source": "llm",
   "description": {
     "title": "גבולות אחריות - כבודה",
-    "summary": "This table details the insurance coverage limits for baggage and valuables under a travel insurance policy. It specifies the maximum payout amounts for different categories of items, with varying levels of personal responsibility.",
-    "embed_passage": "פוליסת ביטוח נסיעות לחול רוסיתfirst-class מכסה נזקים לכבודה עד סכום של 300$ עבור פריטים שאינם יקרי ערך, ועד 500$ עבור חפצים יקרי ערך. השתתפות עצמית עשויה לחול, לדוגמה 50$ עבור פריטים שאינם יקרי ערך.",
-    "row_axis": "Type of item (valuable or not)",
-    "column_axis": "Coverage limit and personal responsibility",
+    "summary": "This table details the liability limits for baggage and valuables under a travel insurance policy. It specifies coverage amounts for different types of items and the applicable deductible.",
+    "embed_passage": "טבלה זו מפרטת את גבולות האחריות עבור כבודה וחפצים יקרי ערך במסגרת פוליסת ביטוח נסיעות רוסיתfirst-class. ניתן למצוא בה את סכומי הכיסוי עבור סוגי פריטים שונים, כולל פריטים יקרי ערך, וכן את ההשתתפות העצמית החלה. גבולות האחריות מפורטים עבור פריט או סט פריטים עד לסכום של 300$, וחפצים יקרי ערך עד לסכום של 500$. ההשתתפות העצמית עבור פריט או סט פריטים היא 50$.",
+    "row_axis": "Type of item (e.g., item or set of items, valuables)",
+    "column_axis": "Coverage details (e.g., limit, deductible)",
     "units": [
       "$"
     ],
     "notable_values": [
-      "Maximum coverage for non-valuables: 300$",
-      "Maximum coverage for valuables: 500$",
-      "Personal responsibility for non-valuables: 50$"
+      "Item or set of items limit: 300$",
+      "Valuables limit: 500$",
+      "Deductible (item/set): 50$"
     ],
     "product_hints": [
-      "רוסיתfirst-class",
-      "ביטוח נסיעות לחול"
+      "רוסיתfirst-class"
     ]
   },
   "sketch": "14.4.1. Предмет и\\или набор предметов (включая предметы, прилагающиеся к данному набору), идет ли речь о ценных вещах или не идет, до достижения суммы, составляющей 300$ и в соответствии с указанным в таблице границ ответственности, приведенной в полисе. На данный пункт будет распространяться личное участие в размере 50$.\n14.4.2. Любые ценные вещи, до достижения суммы, составляющей 500$, и в соответствии с указанным в таблице границ ответственности, приведенной в полисе. На данный пункт будет распространяться личная ответственность в соответствии со сказанным в таблице границ ответственности, приведенной в полисе в отношении ценных вещей.",
-  "embed_text": "פוליסת ביטוח נסיעות לחול רוסיתfirst-class מכסה נזקים לכבודה עד סכום של 300$ עבור פריטים שאינם יקרי ערך, ועד 500$ עבור חפצים יקרי ערך. השתתפות עצמית עשויה לחול, לדוגמה 50$ עבור פריטים שאינם יקרי ערך.",
-  "payload": "טבלה: גבולות אחריות - כבודה\nThis table details the insurance coverage limits for baggage and valuables under a travel insurance policy. It specifies the maximum payout amounts for different categories of items, with varying levels of personal responsibility.\nממדים: Type of item (valuable or not), Coverage limit and personal responsibility\n\n14.4.1. Предмет и\\или набор предметов (включая предметы, прилагающиеся к данному набору), идет ли речь о ценных вещах или не идет, до достижения суммы, составляющей 300$ и в соответствии с указанным в таблице границ ответственности, приведенной в полисе. На данный пункт будет распространяться личное участие в размере 50$.\n14.4.2. Любые ценные вещи, до достижения суммы, составляющей 500$, и в соответствии с указанным в таблице границ ответственности, приведенной в полисе. На данный пункт будет распространяться личная ответственность в соответствии со сказанным в таблице границ ответственности, приведенной в полисе в отношении ценных вещей."
+  "embed_text": "טבלה זו מפרטת את גבולות האחריות עבור כבודה וחפצים יקרי ערך במסגרת פוליסת ביטוח נסיעות רוסיתfirst-class. ניתן למצוא בה את סכומי הכיסוי עבור סוגי פריטים שונים, כולל פריטים יקרי ערך, וכן את ההשתתפות העצמית החלה. גבולות האחריות מפורטים עבור פריט או סט פריטים עד לסכום של 300$, וחפצים יקרי ערך עד לסכום של 500$. ההשתתפות העצמית עבור פריט או סט פריטים היא 50$. This table details the liability limits for baggage and valuables under a travel insurance policy. It specifies coverage amounts for different types of items and the applicable deductible.",
+  "payload": "טבלה: גבולות אחריות - כבודה\nThis table details the liability limits for baggage and valuables under a travel insurance policy. It specifies coverage amounts for different types of items and the applicable deductible.\nממדים: Type of item (e.g., item or set of items, valuables), Coverage details (e.g., limit, deductible)\n\n14.4.1. Предмет и\\или набор предметов (включая предметы, прилагающиеся к данному набору), идет ли речь о ценных вещах или не идет, до достижения суммы, составляющей 300$ и в соответствии с указанным в таблице границ ответственности, приведенной в полисе. На данный пункт будет распространяться личное участие в размере 50$.\n14.4.2. Любые ценные вещи, до достижения суммы, составляющей 500$, и в соответствии с указанным в таблице границ ответственности, приведенной в полисе. На данный пункт будет распространяться личная ответственность в соответствии со сказанным в таблице границ ответственности, приведенной в полисе в отношении ценных вещей."
 }

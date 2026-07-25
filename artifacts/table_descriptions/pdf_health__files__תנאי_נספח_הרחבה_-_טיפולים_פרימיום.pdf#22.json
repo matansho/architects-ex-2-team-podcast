@@ -3,26 +3,28 @@
   "source": "llm",
   "description": {
     "title": "סכומי שיפוי",
-    "summary": "This table details maximum compensation amounts for the 'טיפולים פרימיום' plan. It looks up compensation amounts based on an index, likely tied to a date.",
-    "embed_passage": "תכנית טיפולים פרימיום של הראל מציעה סכומי שיפוי מקסימליים הצמודים למדד 13396. סכומי השיפוי המירביים נקובים בש״ח ומתעדכנים מדי חודש. לדוגמה, בפברואר 2023 הסכומים היו כפי שמופיע בטבלה.",
-    "row_axis": "Date/Index (e.g., February 2023)",
-    "column_axis": "Compensation Amounts (in ₪)",
+    "summary": "This table details maximum reimbursement amounts, indexed to the Consumer Price Index (CPI). It is used to look up reimbursement limits based on the index number.",
+    "embed_passage": "טבלה זו מציגה סכומי שיפוי מקסימליים, הצמודים למדד המחירים לצרכן. ניתן לבדוק את גובה ההחזר המקסימלי בהתאם למספר המדד. תכנית זו כפופה לתנאי הפוליסה. הראל ביטוח מציעה סכומי שיפוי שונים בהתאם למדד 13396, 0,1,2,3. ניתן ליצור קשר בטלפון 037348178 או בדואר אלקטרוני polisotbs@harel-ins.co.il.",
+    "row_axis": "מדד (CPI)",
+    "column_axis": "סכומי שיפוי",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "index: 13396",
-      "year: 2023",
-      "month: פברואר",
-      "phone: 037348178",
-      "fax: 2735"
+      "מדד: 0",
+      "מדד: 1",
+      "מדד: 2",
+      "מדד: 3",
+      "טלפון: 037348178",
+      "דואר אלקטרוני: polisotbs@harel-ins.co.il",
+      "ת.ד: 10951",
+      "אתר אינטרנט: www.harel-group.co.il"
     ],
     "product_hints": [
-      "טיפולים פרימיום",
       "הראל"
     ]
   },
   "sketch": "הצמד   ה .7\nויוצמדו 2023 אר ם בפברו ר פורס ת אש נקודו 13396 ם למד   ד סכומי השיפוי המירביים לעיל נקובים בש\"ח וצמודי . ד מד  י חודש למד\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",האינטרנט אתר ת תוב כ www.harel-group.co.il",
-  "embed_text": "תכנית טיפולים פרימיום של הראל מציעה סכומי שיפוי מקסימליים הצמודים למדד 13396. סכומי השיפוי המירביים נקובים בש״ח ומתעדכנים מדי חודש. לדוגמה, בפברואר 2023 הסכומים היו כפי שמופיע בטבלה.",
-  "payload": "טבלה: סכומי שיפוי\nThis table details maximum compensation amounts for the 'טיפולים פרימיום' plan. It looks up compensation amounts based on an index, likely tied to a date.\nממדים: Date/Index (e.g., February 2023), Compensation Amounts (in ₪)\n\nהצמד   ה .7\nויוצמדו 2023 אר ם בפברו ר פורס ת אש נקודו 13396 ם למד   ד סכומי השיפוי המירביים לעיל נקובים בש\"ח וצמודי . ד מד  י חודש למד\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",האינטרנט אתר ת תוב כ www.harel-group.co.il"
+  "embed_text": "טבלה זו מציגה סכומי שיפוי מקסימליים, הצמודים למדד המחירים לצרכן. ניתן לבדוק את גובה ההחזר המקסימלי בהתאם למספר המדד. תכנית זו כפופה לתנאי הפוליסה. הראל ביטוח מציעה סכומי שיפוי שונים בהתאם למדד 13396, 0,1,2,3. ניתן ליצור קשר בטלפון 037348178 או בדואר אלקטרוני polisotbs@harel-ins.co.il. This table details maximum reimbursement amounts, indexed to the Consumer Price Index (CPI). It is used to look up reimbursement limits based on the index number. בין הערכים בטבלה: ת.ד: 10951; אתר אינטרנט: www.harel-group.co.il.",
+  "payload": "טבלה: סכומי שיפוי\nThis table details maximum reimbursement amounts, indexed to the Consumer Price Index (CPI). It is used to look up reimbursement limits based on the index number.\nממדים: מדד (CPI), סכומי שיפוי\n\nהצמד   ה .7\nויוצמדו 2023 אר ם בפברו ר פורס ת אש נקודו 13396 ם למד   ד סכומי השיפוי המירביים לעיל נקובים בש\"ח וצמודי . ד מד  י חודש למד\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",האינטרנט אתר ת תוב כ www.harel-group.co.il"
 }

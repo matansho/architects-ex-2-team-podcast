@@ -1,11 +1,16 @@
 """
-RAG runner (no citations): retrieve → generate from context → answers JSONL.
+RAG runner: retrieve → generate from context → answers JSONL.
+
+Citations (default: passage indices):
+  Model ends with USED_PASSAGES: 1, 3 — mapped to {file, page}.
+  Fallback --cite hits: top retrieval locations (no model indices).
+
+Answer body stays path-free (no מקורות section).
 
     export OPENAI_API_KEY=...
     export OPENAI_BASE_URL=https://api.tokenfactory.nebius.com/v1
-    python rag_runner.py --model deepseek-ai/DeepSeek-V4-Pro
-    python rag_runner.py --retrieve rerank --top-k 20 --window 2 --candidate-n 100
-    python run_eval.py --answers rag_answers.jsonl --no-citation-judge
+    python rag_runner.py --retrieve rerank --route --top-k 20 --window 2
+    python run_eval.py --answers rag_answers.jsonl
 """
 from __future__ import annotations
 
@@ -19,16 +24,27 @@ import litellm
 
 from rag.bm25 import build_chunk_bm25, build_file_bm25
 from rag.embed import DEFAULT_MODEL, Embedder
-from rag.generate import SYSTEM_NO_CITE, build_context, build_messages
+from rag.generate import (
+    SYSTEM_NO_CITE,
+    SYSTEM_PASSAGE_CITE,
+    build_context,
+    build_messages,
+    citations_from_passage_indices,
+    parse_answer_with_passages,
+)
 from rag.index_store import load_embeddings, load_vectors_meta
 from rag.rerank import DEFAULT_RERANK_MODEL, Reranker
 from rag.retrieve import (
     build_id_index,
+    citations_from_hits,
+    idxs_excluding_faqs,
+    intersect_idxs,
     search_cascade,
     search_expanded,
     search_reranked,
     search_rrf,
 )
+from rag.route import DEFAULT_ROUTE_MODEL, idxs_for_domains, route_question
 
 
 def resolve_model(model: str) -> tuple[str, dict]:
@@ -42,10 +58,20 @@ def resolve_model(model: str) -> tuple[str, dict]:
     return model, kwargs
 
 
-def load_questions(path: Path, limit: int | None) -> list[dict]:
+def load_questions(
+    path: Path,
+    limit: int | None,
+    ids: set[str] | None = None,
+) -> list[dict]:
     data = json.loads(path.read_text(encoding="utf-8"))
     if isinstance(data, dict):
         data = data["questions"]
+    if ids:
+        want = ids
+        data = [q for q in data if q.get("id") in want]
+        missing = want - {q["id"] for q in data}
+        if missing:
+            raise SystemExit(f"Unknown question ids: {sorted(missing)}")
     if limit:
         data = data[:limit]
     return data
@@ -59,7 +85,24 @@ def render_prompt_preview(messages: list[dict]) -> str:
 
 
 def main() -> None:
-    ap = argparse.ArgumentParser(description="RAG runner (grounded, no citations)")
+    ap = argparse.ArgumentParser(
+        description="RAG runner (grounded answers; structured citations)"
+    )
+    ap.add_argument(
+        "--cite",
+        choices=("passages", "hits"),
+        default="passages",
+        help=(
+            "passages: model emits USED_PASSAGES indices → {file,page} "
+            "(default). hits: top retrieval locations (MVP)."
+        ),
+    )
+    ap.add_argument(
+        "--max-citations",
+        type=int,
+        default=5,
+        help="Max unique (file, page) citations",
+    )
     ap.add_argument("--questions", default="reference_questions.json")
     ap.add_argument("--index", default="data/index")
     ap.add_argument("--model", default="deepseek-ai/DeepSeek-V4-Pro")
@@ -81,6 +124,42 @@ def main() -> None:
         help="RRF/rerank: first-stage candidate count (rerank default 100)",
     )
     ap.add_argument("--rerank-model", default=DEFAULT_RERANK_MODEL)
+    ap.add_argument(
+        "--route",
+        action="store_true",
+        help=(
+            "Pre-route question to corpus domains (LLM). For rerank: dense "
+            "route-n from those domains + route-global-n unique from the full "
+            "pool (default 80+20). Other retrieve modes stay domain-only."
+        ),
+    )
+    ap.add_argument(
+        "--route-model",
+        default=DEFAULT_ROUTE_MODEL,
+        help="Model for domain router (smaller/cheaper OK)",
+    )
+    ap.add_argument(
+        "--route-n",
+        type=int,
+        default=80,
+        help="With --route + rerank: dense candidates from routed domains",
+    )
+    ap.add_argument(
+        "--route-global-n",
+        type=int,
+        default=20,
+        help="With --route + rerank: extra unique dense candidates from full pool",
+    )
+    ap.add_argument(
+        "--include-faq",
+        action="store_true",
+        help="Allow retrieving from scraped */pages/faq.txt (excluded by default)",
+    )
+    ap.add_argument(
+        "--ids",
+        default=None,
+        help="Comma-separated question ids to run (e.g. dev-13-car-easy,dev-24-dental-hard)",
+    )
     ap.add_argument("--limit", type=int, help="Only run first N questions")
     ap.add_argument("--show-prompt", action="store_true")
     args = ap.parse_args()
@@ -114,7 +193,22 @@ def main() -> None:
         reranker._load()
         print("  ready", flush=True)
 
-    questions = load_questions(Path(args.questions), args.limit)
+    id_filter = (
+        {x.strip() for x in args.ids.split(",") if x.strip()} if args.ids else None
+    )
+    questions = load_questions(Path(args.questions), args.limit, id_filter)
+    if args.route:
+        print(f"Domain router ON · model={args.route_model}", flush=True)
+    exclude_faq = not args.include_faq
+    non_faq_idxs = idxs_excluding_faqs(vectors) if exclude_faq else None
+    if exclude_faq:
+        print(
+            f"FAQ exclusion ON · {len(non_faq_idxs)}/{len(vectors)} chunks eligible",
+            flush=True,
+        )
+    if args.system_prompt == SYSTEM_NO_CITE and args.cite == "passages":
+        args.system_prompt = SYSTEM_PASSAGE_CITE
+    print(f"Cite mode: {args.cite}", flush=True)
     print(f"Embedding {len(questions)} queries…", flush=True)
     embedder = Embedder(model_name=embed_model)
     q_emb = embedder.embed_queries([q["question"] for q in questions])
@@ -122,6 +216,43 @@ def main() -> None:
     llm_model, kwargs = resolve_model(args.model)
 
     def retrieve_one(qi: int, question: str):
+        route_meta = None
+        route_idxs = None  # domain filter for hybrid / domain-only modes
+        # Global pool always applies FAQ exclusion when enabled.
+        global_idxs = non_faq_idxs
+        if args.route:
+            route_meta = route_question(question, model=args.route_model)
+            if route_meta.fallback_all or not route_meta.domains:
+                print(
+                    f"    route fallback (all domains): {route_meta.reason}",
+                    flush=True,
+                )
+                route_idxs = None
+            else:
+                route_idxs = intersect_idxs(
+                    idxs_for_domains(vectors, route_meta.domains),
+                    non_faq_idxs,
+                )
+                if args.retrieve == "rerank":
+                    print(
+                        f"    route → {route_meta.domains} "
+                        f"(hybrid {args.route_n}+{args.route_global_n} "
+                        f"from {len(route_idxs)} domain chunks) · "
+                        f"{route_meta.reason}",
+                        flush=True,
+                    )
+                else:
+                    print(
+                        f"    route → {route_meta.domains} "
+                        f"({len(route_idxs)} chunks) · {route_meta.reason}",
+                        flush=True,
+                    )
+
+        # Non-rerank modes: restrict entirely to routed domains (old behavior).
+        domain_only_idxs = (
+            route_idxs if route_idxs is not None else global_idxs
+        )
+
         if args.retrieve == "cascade":
             assert file_bm25 is not None
             result = search_cascade(
@@ -134,8 +265,9 @@ def main() -> None:
                 window=args.window,
                 file_top_n=args.file_top_n,
                 id_to_idx=id_to_idx,
+                candidate_idxs=domain_only_idxs,
             )
-            return result.expanded, result.mode, result.file_hits
+            return result.expanded, result.mode, result.file_hits, route_meta
         if args.retrieve == "rrf":
             assert chunk_bm25 is not None
             result = search_rrf(
@@ -148,8 +280,9 @@ def main() -> None:
                 window=args.window,
                 candidate_n=args.candidate_n,
                 id_to_idx=id_to_idx,
+                candidate_idxs=domain_only_idxs,
             )
-            return result.expanded, result.mode, result.file_hits
+            return result.expanded, result.mode, result.file_hits, route_meta
         if args.retrieve == "rerank":
             assert reranker is not None
             result = search_reranked(
@@ -162,8 +295,12 @@ def main() -> None:
                 top_k=args.top_k,
                 window=args.window,
                 id_to_idx=id_to_idx,
+                candidate_idxs=global_idxs,
+                route_idxs=route_idxs,
+                route_n=args.route_n,
+                route_global_n=args.route_global_n,
             )
-            return result.expanded, result.mode, result.file_hits
+            return result.expanded, result.mode, result.file_hits, route_meta
         expanded = search_expanded(
             q_emb[qi],
             emb,
@@ -171,8 +308,9 @@ def main() -> None:
             top_k=args.top_k,
             window=args.window,
             id_to_idx=id_to_idx,
+            candidate_idxs=domain_only_idxs,
         )
-        return expanded, "dense", []
+        return expanded, "dense", [], route_meta
 
     approach = {
         "dense": "rag-no-cite",
@@ -182,7 +320,7 @@ def main() -> None:
     }[args.retrieve]
 
     if args.show_prompt:
-        expanded, mode, _ = retrieve_one(0, questions[0]["question"])
+        expanded, mode, _, route_meta = retrieve_one(0, questions[0]["question"])
         context = build_context(expanded)
         messages = build_messages(
             questions[0]["question"], context, system_prompt=args.system_prompt
@@ -191,6 +329,7 @@ def main() -> None:
         print(
             f"\n(retrieve={mode}, candidates={args.candidate_n}, top_k={args.top_k}, "
             f"window=±{args.window}, {len(expanded)} hits, "
+            f"route={None if route_meta is None else route_meta.domains}, "
             f"prompt chars≈{sum(len(m['content']) for m in messages)})"
         )
         return
@@ -198,7 +337,7 @@ def main() -> None:
     with open(args.out, "w", encoding="utf-8") as out:
         for qi, q in enumerate(questions):
             t0 = time.time()
-            expanded, mode, file_hits = retrieve_one(qi, q["question"])
+            expanded, mode, file_hits, route_meta = retrieve_one(qi, q["question"])
             context = build_context(expanded)
             messages = build_messages(
                 q["question"], context, system_prompt=args.system_prompt
@@ -211,11 +350,40 @@ def main() -> None:
                 **kwargs,
             )
             latency_ms = (time.time() - t0) * 1000
-            answer = resp.choices[0].message.content or ""
+            raw = resp.choices[0].message.content or ""
+            passage_meta: dict | None = None
+            if args.cite == "passages":
+                parsed = parse_answer_with_passages(raw)
+                answer = parsed.answer
+                if parsed.passage_indices:
+                    citations = citations_from_passage_indices(
+                        expanded,
+                        parsed.passage_indices,
+                        max_citations=args.max_citations,
+                    )
+                    cite_source = "passages"
+                else:
+                    # Fallback so we never ship empty cites on parse miss / none
+                    citations = citations_from_hits(
+                        expanded, max_citations=args.max_citations
+                    )
+                    cite_source = "hits_fallback"
+                passage_meta = {
+                    "parse_ok": parsed.parse_ok,
+                    "used_passages_raw": parsed.used_passages_raw,
+                    "passage_indices": parsed.passage_indices,
+                    "cite_source": cite_source,
+                }
+            else:
+                answer = raw
+                citations = citations_from_hits(
+                    expanded, max_citations=args.max_citations
+                )
+                cite_source = "hits"
             rec = {
                 "id": q["id"],
                 "answer": answer,
-                "citations": [],
+                "citations": citations,
                 "latency_ms": latency_ms,
                 "tokens": {
                     "prompt": resp.usage.prompt_tokens,
@@ -229,6 +397,22 @@ def main() -> None:
                     if args.retrieve in ("rrf", "rerank")
                     else None,
                     "rerank_model": args.rerank_model if args.retrieve == "rerank" else None,
+                    "route_domains": None
+                    if route_meta is None
+                    else route_meta.domains,
+                    "route_reason": None if route_meta is None else route_meta.reason,
+                    "route_fallback_all": None
+                    if route_meta is None
+                    else route_meta.fallback_all,
+                    "route_n": args.route_n
+                    if args.route and args.retrieve == "rerank"
+                    else None,
+                    "route_global_n": args.route_global_n
+                    if args.route and args.retrieve == "rerank"
+                    else None,
+                    "exclude_faq": exclude_faq,
+                    "cite_mode": args.cite,
+                    "passage_cite": passage_meta,
                     "bm25_files": [
                         {"file": f, "score": round(s, 4)} for f, s in file_hits
                     ],
@@ -239,28 +423,42 @@ def main() -> None:
                             "file": ex.match.location.file,
                             "page": ex.match.location.page,
                             "id": ex.match.id,
+                            "domain": ex.match.location.domain,
                         }
                         for ex in expanded
                     ],
                 },
-                "approach": approach,
+                "approach": approach
+                + (
+                    f"+route{args.route_n}+{args.route_global_n}"
+                    if args.route and args.retrieve == "rerank"
+                    else ("+route" if args.route else "")
+                )
+                + ("" if args.include_faq else "+nofaq")
+                + f"+cite_{args.cite}",
             }
             out.write(json.dumps(rec, ensure_ascii=False) + "\n")
             out.flush()
             preview = answer.replace("\n", " ")[:70]
             top = expanded[0].score if expanded else 0.0
+            cite_bit = ""
+            if passage_meta is not None:
+                cite_bit = (
+                    f"  cites={passage_meta['cite_source']}:"
+                    f"{passage_meta['passage_indices'] or '∅'}"
+                )
             print(
                 f"  {q['id']:28s} {mode:8s} "
                 f"retr={(t_retr - t0)*1000:.0f}ms  "
                 f"total={latency_ms:.0f}ms  "
                 f"top={top:.3f}  "
-                f"{preview!r}…",
+                f"{preview!r}…{cite_bit}",
                 flush=True,
             )
 
     print(
         f"\nwrote {args.out} — score with: "
-        f"python run_eval.py --answers {args.out} --no-citation-judge"
+        f"python run_eval.py --answers {args.out}"
     )
 
 

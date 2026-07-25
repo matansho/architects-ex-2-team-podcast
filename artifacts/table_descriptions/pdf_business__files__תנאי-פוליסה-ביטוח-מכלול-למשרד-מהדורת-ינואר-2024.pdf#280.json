@@ -3,21 +3,26 @@
   "source": "llm",
   "description": {
     "title": "המרת מטבע",
-    "summary": "This table details the currency conversion calculations for insurance policies, specifically how insurance amounts and liability limits are adjusted based on index changes. It outlines the index comparison points for different policy components.",
-    "embed_passage": "פוליסת מכלול מתאימה את סכומי הביטוח וגבולות האחריות בהתאם לשינויים במדד. החישוב נעשה בין המדד במועד תחילת הפוליסה למדד במועד קרות מקרה הביטוח, או מועד תשלום התגמול. לדוגמה, אם סכומי הביטוח נקובים בשקלים חדשים, ההתאמה תתבצע בהתאם לשינויים במדד.",
-    "row_axis": "Policy component (e.g., liability limits, insurance amounts, premium adjustments)",
-    "column_axis": "Index comparison points (start of policy period, date of loss, end of policy period, date of payment)",
+    "summary": "This table details the currency conversion calculations applied to insurance policies. It specifies how insurance amounts, liability limits, premiums, and deductibles are adjusted based on index changes.",
+    "embed_passage": "טבלה זו עוסקת בהמרת מטבע בפוליסות ביטוח מכלול, ומפרטת כיצד מחושבים סכומי הביטוח, גבולות האחריות, דמי הביטוח וההשתתפות העצמית בהתאם לשינויים במדד. החישובים מבוססים על השוואה בין המדד הידוע בסמוך לתחילת תקופת הביטוח לבין המדד הידוע בסמוך לקרות מקרה הביטוח או מועד התשלום. פוליסת מכלול מתאימה את הסכומים בהתאם לשינויים במדד, תוך התייחסות למועדי פרסום המדד הרלוונטיים. גבולות האחריות, סכומי הביטוח, דמי הביטוח, תגמולי הביטוח וההשתתפות העצמית כולם מחושבים בהתאם למדד.",
+    "row_axis": "types of insurance amounts/limits",
+    "column_axis": "calculation timing (start of policy, time of claim/payment)",
     "units": [],
     "notable_values": [
-      "period: 30 days",
-      "index: מדד",
-      "currency: שקלים חדשים"
+      "תקופת הביטוח: מועד תחילת",
+      "מקרה הביטוח: מועד קרות",
+      "תשלום: מועד תשלום בפועל",
+      "השתתפות עצמית: מועד ניכוי",
+      "גבולות האחריות: סוג סכום",
+      "סכומי הביטוח: סוג סכום",
+      "דמי הביטוח: סוג סכום",
+      "תגמולי הביטוח: סוג סכום"
     ],
     "product_hints": [
       "מכלול"
     ]
   },
   "sketch": ".9.13 המרת מטבע\n.9.13.1 אם סכומי הביטוח או גבולות האחריות נקובים בשקלים חדשים, ייערך החישוב:\n.9.13.1.1 לגבי גבולות האחריות / סכומי הביטוח - על פי השינויים שיחולו במדד, בין המדד הידוע שפורסם בסמוך לפני מועד תחילת תקופת הביטוח, לבין המדד הידוע שפורסם בסמוך לפני קרות מקרה הביטוח;\n.9.13.1.2 אם נקבע כי הפוליסה כפופה לתנאי התאמה, לגבי התאמת דמי הביטוח - על פי השינויים שיחולו במדד, בין המדד הידוע שפורסם בסמוך לפני מועד תחילת תקופת הביטוח, לבין המועד הסמוך לפני מועד תום תקופת הביטוח הנקוב ברשימה;\n.9.13.1.3 לגבי תגמולי הביטוח - על פי השינויים שיחולו במדד, בין המדד הידוע שפורסם בסמוך לפני קרות מקרה הביטוח, לבין המדד ;) הידוע בסמוך לפני תשלומם בפועל לניזוק או למבוטח (לפי העניין",
-  "embed_text": "פוליסת מכלול מתאימה את סכומי הביטוח וגבולות האחריות בהתאם לשינויים במדד. החישוב נעשה בין המדד במועד תחילת הפוליסה למדד במועד קרות מקרה הביטוח, או מועד תשלום התגמול. לדוגמה, אם סכומי הביטוח נקובים בשקלים חדשים, ההתאמה תתבצע בהתאם לשינויים במדד.",
-  "payload": "טבלה: המרת מטבע\nThis table details the currency conversion calculations for insurance policies, specifically how insurance amounts and liability limits are adjusted based on index changes. It outlines the index comparison points for different policy components.\nממדים: Policy component (e.g., liability limits, insurance amounts, premium adjustments), Index comparison points (start of policy period, date of loss, end of policy period, date of payment)\n\n.9.13 המרת מטבע\n.9.13.1 אם סכומי הביטוח או גבולות האחריות נקובים בשקלים חדשים, ייערך החישוב:\n.9.13.1.1 לגבי גבולות האחריות / סכומי הביטוח - על פי השינויים שיחולו במדד, בין המדד הידוע שפורסם בסמוך לפני מועד תחילת תקופת הביטוח, לבין המדד הידוע שפורסם בסמוך לפני קרות מקרה הביטוח;\n.9.13.1.2 אם נקבע כי הפוליסה כפופה לתנאי התאמה, לגבי התאמת דמי הביטוח - על פי השינויים שיחולו במדד, בין המדד הידוע שפורסם בסמוך לפני מועד תחילת תקופת הביטוח, לבין המועד הסמוך לפני מועד תום תקופת הביטוח הנקוב ברשימה;\n.9.13.1.3 לגבי תגמולי הביטוח - על פי השינויים שיחולו במדד, בין המדד הידוע שפורסם בסמוך לפני קרות מקרה הביטוח, לבין המדד ;) הידוע בסמוך לפני תשלומם בפועל לניזוק או למבוטח (לפי העניין"
+  "embed_text": "טבלה זו עוסקת בהמרת מטבע בפוליסות ביטוח מכלול, ומפרטת כיצד מחושבים סכומי הביטוח, גבולות האחריות, דמי הביטוח וההשתתפות העצמית בהתאם לשינויים במדד. החישובים מבוססים על השוואה בין המדד הידוע בסמוך לתחילת תקופת הביטוח לבין המדד הידוע בסמוך לקרות מקרה הביטוח או מועד התשלום. פוליסת מכלול מתאימה את הסכומים בהתאם לשינויים במדד, תוך התייחסות למועדי פרסום המדד הרלוונטיים. גבולות האחריות, סכומי הביטוח, דמי הביטוח, תגמולי הביטוח וההשתתפות העצמית כולם מחושבים בהתאם למדד. This table details the currency conversion calculations applied to insurance policies. It specifies how insurance amounts, liability limits, premiums, and deductibles are adjusted based on index changes. בין הערכים בטבלה: השתתפות עצמית: מועד ניכוי.",
+  "payload": "טבלה: המרת מטבע\nThis table details the currency conversion calculations applied to insurance policies. It specifies how insurance amounts, liability limits, premiums, and deductibles are adjusted based on index changes.\nממדים: types of insurance amounts/limits, calculation timing (start of policy, time of claim/payment)\n\n.9.13 המרת מטבע\n.9.13.1 אם סכומי הביטוח או גבולות האחריות נקובים בשקלים חדשים, ייערך החישוב:\n.9.13.1.1 לגבי גבולות האחריות / סכומי הביטוח - על פי השינויים שיחולו במדד, בין המדד הידוע שפורסם בסמוך לפני מועד תחילת תקופת הביטוח, לבין המדד הידוע שפורסם בסמוך לפני קרות מקרה הביטוח;\n.9.13.1.2 אם נקבע כי הפוליסה כפופה לתנאי התאמה, לגבי התאמת דמי הביטוח - על פי השינויים שיחולו במדד, בין המדד הידוע שפורסם בסמוך לפני מועד תחילת תקופת הביטוח, לבין המועד הסמוך לפני מועד תום תקופת הביטוח הנקוב ברשימה;\n.9.13.1.3 לגבי תגמולי הביטוח - על פי השינויים שיחולו במדד, בין המדד הידוע שפורסם בסמוך לפני קרות מקרה הביטוח, לבין המדד ;) הידוע בסמוך לפני תשלומם בפועל לניזוק או למבוטח (לפי העניין"
 }

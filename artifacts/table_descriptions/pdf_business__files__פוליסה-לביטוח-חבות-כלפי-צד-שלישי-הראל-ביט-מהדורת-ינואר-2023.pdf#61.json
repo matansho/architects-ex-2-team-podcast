@@ -2,24 +2,22 @@
   "id": "pdf:business/files/פוליסה-לביטוח-חבות-כלפי-צד-שלישי-הראל-ביט-מהדורת-ינואר-2023.pdf#61",
   "source": "llm",
   "description": {
-    "title": "ביטול פוליסה",
-    "summary": "This table details the conditions under which a policyholder can cancel their insurance policy with Harel, and the potential refunds they may receive. It outlines scenarios related to cancellation requests and prior commitments.",
-    "embed_passage": "פוליסת חבות כלפי צד שלישי של הראל ביט מאפשרת למבוטח לבטל את הביטוח בכל עת לפני תום התקופה, בהתאם לשיקול דעתו. במקרה של ביטול, המבוטח עשוי להיות זכאי להחזר דמי ביטוח יחסיים עבור התקופה שלאחר הביטול. לדוגמה, עבור תקופה של עד 7 ימים, יוחזר חלק מדמי הביטוח השנתיים.",
-    "row_axis": "Cancellation Scenarios/Conditions",
-    "column_axis": "Cancellation Terms/Refund Details",
+    "title": "ביטול ביטוח",
+    "summary": "This table details the conditions under which the insured can cancel the insurance policy. It outlines the notification requirements and potential refunds.",
+    "embed_passage": "טבלה זו מתארת את תנאי ביטול הפוליסה, כולל דרישות ההודעה מראש והחזרים אפשריים. ניתן לבטל את הביטוח בכל עת לפני תום התקופה, בכפוף להודעה בכתב. הפוליסה תבוטל בכפוף למתן הודעה למקבל ההתחייבות, אם נדרש אישור ביטוח או שיעבוד. ביטול על פי דרישת המבוטח יחזיר את דמי הביטוח ששולמו בעד התקופה שלאחר מועד הביטול, בהפחתת ימים בהם הפוליסה בתוקף. ביטול, אישורי ביטוח, שיעבוד, דמי ביטוח שנתיים, ימי ביטוח.",
+    "row_axis": "תנאי ביטול",
+    "column_axis": "סעיפי ביטול",
     "units": [],
     "notable_values": [
-      "60: Notice period for cancellation by the insurer (days)",
-      "7: Days for partial refund calculation",
-      "5%: Minimum refund threshold for longer periods",
-      "0.3%: Daily refund rate after the 7th day"
+      "תקופת הודעה מראש: 60 ימים",
+      "הפחתה בדמי ביטוח: עד 5%",
+      "הפחתה בדמי ביטוח: 0.3% ליום ביטוח (החל מהיום השמיני)"
     ],
     "product_hints": [
-      "Harel Bit",
-      "פוליסת חבות כלפי צד שלישי"
+      "פוליסה לביטוח חבות כלפי צד שלישי הראל ביט"
     ]
   },
   "sketch": "המבוטח רשאי לבטל את הביטוח בכל עת לפני תום תקופת הביטוח, לפי .5.4.2 שיקול דעתו, ובלבד שהודעה על כך תישלח בדואר למבטח לפני התאריך בו יתבטל הביטוח.\nעל אף האמור לעיל, היה והמבוטח דרש מהמבטח לחתום על אישורי ביטוח ו/או שיעבוד בהם נכללה התחייבות של המבטח לבטל את הביטוח רק לאחר מתן הודעה מראש למקבל ההתחייבות, תבוטל הפוליסה בכפוף למתן הודעה כאמור, לאחר תום התקופה שצוינה כמועד ביטולה באותו אישור או בסעיף השיעבוד.",
-  "embed_text": "פוליסת חבות כלפי צד שלישי של הראל ביט מאפשרת למבוטח לבטל את הביטוח בכל עת לפני תום התקופה, בהתאם לשיקול דעתו. במקרה של ביטול, המבוטח עשוי להיות זכאי להחזר דמי ביטוח יחסיים עבור התקופה שלאחר הביטול. לדוגמה, עבור תקופה של עד 7 ימים, יוחזר חלק מדמי הביטוח השנתיים.",
-  "payload": "טבלה: ביטול פוליסה\nThis table details the conditions under which a policyholder can cancel their insurance policy with Harel, and the potential refunds they may receive. It outlines scenarios related to cancellation requests and prior commitments.\nממדים: Cancellation Scenarios/Conditions, Cancellation Terms/Refund Details\n\nהמבוטח רשאי לבטל את הביטוח בכל עת לפני תום תקופת הביטוח, לפי .5.4.2 שיקול דעתו, ובלבד שהודעה על כך תישלח בדואר למבטח לפני התאריך בו יתבטל הביטוח.\nעל אף האמור לעיל, היה והמבוטח דרש מהמבטח לחתום על אישורי ביטוח ו/או שיעבוד בהם נכללה התחייבות של המבטח לבטל את הביטוח רק לאחר מתן הודעה מראש למקבל ההתחייבות, תבוטל הפוליסה בכפוף למתן הודעה כאמור, לאחר תום התקופה שצוינה כמועד ביטולה באותו אישור או בסעיף השיעבוד."
+  "embed_text": "טבלה זו מתארת את תנאי ביטול הפוליסה, כולל דרישות ההודעה מראש והחזרים אפשריים. ניתן לבטל את הביטוח בכל עת לפני תום התקופה, בכפוף להודעה בכתב. הפוליסה תבוטל בכפוף למתן הודעה למקבל ההתחייבות, אם נדרש אישור ביטוח או שיעבוד. ביטול על פי דרישת המבוטח יחזיר את דמי הביטוח ששולמו בעד התקופה שלאחר מועד הביטול, בהפחתת ימים בהם הפוליסה בתוקף. ביטול, אישורי ביטוח, שיעבוד, דמי ביטוח שנתיים, ימי ביטוח. This table details the conditions under which the insured can cancel the insurance policy. It outlines the notification requirements and potential refunds. בין הערכים בטבלה: תקופת הודעה מראש: 60 ימים; הפחתה בדמי ביטוח: עד 5%; הפחתה בדמי ביטוח: 0.3% ליום ביטוח (החל מהיום השמיני).",
+  "payload": "טבלה: ביטול ביטוח\nThis table details the conditions under which the insured can cancel the insurance policy. It outlines the notification requirements and potential refunds.\nממדים: תנאי ביטול, סעיפי ביטול\n\nהמבוטח רשאי לבטל את הביטוח בכל עת לפני תום תקופת הביטוח, לפי .5.4.2 שיקול דעתו, ובלבד שהודעה על כך תישלח בדואר למבטח לפני התאריך בו יתבטל הביטוח.\nעל אף האמור לעיל, היה והמבוטח דרש מהמבטח לחתום על אישורי ביטוח ו/או שיעבוד בהם נכללה התחייבות של המבטח לבטל את הביטוח רק לאחר מתן הודעה מראש למקבל ההתחייבות, תבוטל הפוליסה בכפוף למתן הודעה כאמור, לאחר תום התקופה שצוינה כמועד ביטולה באותו אישור או בסעיף השיעבוד."
 }

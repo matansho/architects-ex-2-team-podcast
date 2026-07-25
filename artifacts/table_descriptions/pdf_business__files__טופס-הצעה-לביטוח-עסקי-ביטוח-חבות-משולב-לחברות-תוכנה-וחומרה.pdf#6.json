@@ -2,24 +2,25 @@
   "id": "pdf:business/files/טופס-הצעה-לביטוח-עסקי-ביטוח-חבות-משולב-לחברות-תוכנה-וחומרה.pdf#6",
   "source": "llm",
   "description": {
-    "title": "חבות משולבת - יישומים",
-    "summary": "This table details the application areas of products/services offered by a company, and asks for the percentage of annual revenue derived from each. It's used to assess risk for combined liability insurance, specifically for software and hardware companies.",
-    "embed_passage": "ביטוח חבות משולב מכסה מגוון רחב של יישומים, כולל שימושים רפואיים, תעופה וביטחון, ואפליקציות חירום. החברה מעריכה את אחוז ההכנסות השנתיות מכל יישום, לדוגמה, עבור יישומים רפואיים.  הטבלה בוחנת גם את ההשפעות האפשריות של כשל במוצר או בשירות על הלקוחות.",
-    "row_axis": "Application area of products/services",
-    "column_axis": "Percentage of annual receipts",
-    "units": [
-      "%"
-    ],
+    "title": "יישום מוצרים/שירותים",
+    "summary": "This table lists products/services and asks about their application areas as a percentage of annual receipts. It's used to assess risk related to business liability insurance.",
+    "embed_passage": "טבלה זו מתייחסת ליישום של מוצרים ושירותים שונים, ומטרתה להעריך את חשיפת החברה לתביעות חבות. השאלות בטבלה בודקות את אחוזי ההכנסות השנתיים הקשורים ליישומים שונים, כגון שימושים רפואיים, תעופה וביטחון, ואבטחה מקוונת. הטבלה כוללת שאלות לגבי ההשפעות האפשריות של כשל במוצר או בשירות, כולל נזק פיננסי או גופני ללקוחות. בין המוצרים והשירותים הנבדקים ניתן למצוא: שימושים רפואיים, יישומי תעופה וביטחון, יישומי אבטחה, יישומי פרטיות, ומתן ייעוץ/מוצרים לאבטחה מקוונת.  הטבלה משמשת כחלק מהצעת ביטוח עסקי, ביטוח חבות משולב לחברות תוכנה וחומרה.",
+    "row_axis": "Products/Services Application",
+    "column_axis": "Percentage of Annual Receipts (Yes/No)",
+    "units": [],
     "notable_values": [
-      "Medical purposes: N/A",
-      "Aerospace/defence applications: N/A",
-      "Fire, security, or other emergency applications: N/A"
+      "Medical purposes: Yes",
+      "Aerospace/defence applications: No",
+      "Fire, security, or other emergency applications: Yes",
+      "Provide online security advice/products: Yes",
+      "Privacy application: Yes"
     ],
     "product_hints": [
-      "חבות משולבת"
+      "ביטוח חבות משולב",
+      "ביטוח עסקי"
     ]
   },
-  "sketch": "Products/Services Application,% of Annual Receipts\nMedical purposes,\nAerospace/defence applications,\n\"Fire, security, or other emergency applications\",\n…\nIf your service/software or product fails what is the worst case effect to your customers?\nIf your product or service fails how quickly would your customer (s) suffer a financial loss?\nIn your estimation how large a financial loss could your customers encounter if your product or service fails?\nIs it possible for your product or service to cause any physical injury to an individual if it fails? If so please describe:",
-  "embed_text": "ביטוח חבות משולב מכסה מגוון רחב של יישומים, כולל שימושים רפואיים, תעופה וביטחון, ואפליקציות חירום. החברה מעריכה את אחוז ההכנסות השנתיות מכל יישום, לדוגמה, עבור יישומים רפואיים.  הטבלה בוחנת גם את ההשפעות האפשריות של כשל במוצר או בשירות על הלקוחות.",
-  "payload": "טבלה: חבות משולבת - יישומים\nThis table details the application areas of products/services offered by a company, and asks for the percentage of annual revenue derived from each. It's used to assess risk for combined liability insurance, specifically for software and hardware companies.\nממדים: Application area of products/services, Percentage of annual receipts\n\nProducts/Services Application,% of Annual Receipts\nMedical purposes,\nAerospace/defence applications,\n\"Fire, security, or other emergency applications\",\nProvide online security advice/products,\nPrivacy application,\nManufacturing. Process controls,\nOil and Gas Power,\n\"Banking, financial transaction and inventory\",\nTypical End User:\nList any customer that represents 10% or more of your total revenue:\nCustomer Revenue Product/Service\nHave any of your products or services not been Year 2000 compliant?\nYes\nNo\nIf your service/software or product fails what is the worst case effect to your customers?\nIf your product or service fails how quickly would your customer (s) suffer a financial loss?\nIn your estimation how large a financial loss could your customers encounter if your product or service fails?\nIs it possible for your product or service to cause any physical injury to an individual if it fails? If so please describe:"
+  "sketch": "Products/Services Application,% of Annual Receipts\nMedical purposes,\nAerospace/defence applications,\n\"Fire, security, or other emergency applications\",\nProvide online security advice/products,\nPrivacy application,\n…\nYes\nNo\nIf your service/software or product fails what is the worst case effect to your customers?\nIf your product or service fails how quickly would your customer (s) suffer a financial loss?\nIn your estimation how large a financial loss could your customers encounter if your product or service fails?\nIs it possible for your product or service to cause any physical injury to an individual if it fails? If so please describe:",
+  "embed_text": "טבלה זו מתייחסת ליישום של מוצרים ושירותים שונים, ומטרתה להעריך את חשיפת החברה לתביעות חבות. השאלות בטבלה בודקות את אחוזי ההכנסות השנתיים הקשורים ליישומים שונים, כגון שימושים רפואיים, תעופה וביטחון, ואבטחה מקוונת. הטבלה כוללת שאלות לגבי ההשפעות האפשריות של כשל במוצר או בשירות, כולל נזק פיננסי או גופני ללקוחות. בין המוצרים והשירותים הנבדקים ניתן למצוא: שימושים רפואיים, יישומי תעופה וביטחון, יישומי אבטחה, יישומי פרטיות, ומתן ייעוץ/מוצרים לאבטחה מקוונת.  הטבלה משמשת כחלק מהצעת ביטוח עסקי, ביטוח חבות משולב לחברות תוכנה וחומרה. This table lists products/services and asks about their application areas as a percentage of annual receipts. It's used to assess risk related to business liability insurance. בין הערכים בטבלה: Medical purposes: Yes; Aerospace/defence applications: No; Fire, security, or…",
+  "payload": "טבלה: יישום מוצרים/שירותים\nThis table lists products/services and asks about their application areas as a percentage of annual receipts. It's used to assess risk related to business liability insurance.\nממדים: Products/Services Application, Percentage of Annual Receipts (Yes/No)\n\nProducts/Services Application,% of Annual Receipts\nMedical purposes,\nAerospace/defence applications,\n\"Fire, security, or other emergency applications\",\nProvide online security advice/products,\nPrivacy application,\nManufacturing. Process controls,\nOil and Gas Power,\n\"Banking, financial transaction and inventory\",\nTypical End User:\nList any customer that represents 10% or more of your total revenue:\nCustomer Revenue Product/Service\nHave any of your products or services not been Year 2000 compliant?\nYes\nNo\nIf your service/software or product fails what is the worst case effect to your customers?\nIf your product or service fails how quickly would your customer (s) suffer a financial loss?\nIn your estimation how large a financial loss could your customers encounter if your product or service fails?\nIs it possible for your product or service to cause any physical injury to an individual if it fails? If so please describe:"
 }

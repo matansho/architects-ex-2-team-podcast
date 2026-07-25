@@ -2,25 +2,23 @@
   "id": "pdf:business/files/טופס-הצעה-לביטוח-אחריות-מקצועית-לרופא-שיניים.pdf#5",
   "source": "llm",
   "description": {
-    "title": "ביטוח אחריות מקצועית לרופא שיניים",
-    "summary": "This table details professional liability insurance options for dentists. It allows you to look up coverage limits (גבול אחריות) based on factors like years of experience and professional affiliations.",
-    "embed_passage": "ביטוח אחריות מקצועית לרופא שיניים מציע כיסוי של עד ₪20,000,000 לגבול אחריות מקצועית רפואית בגין מקרה אחד. גבול האחריות משתנה בהתאם לשנות התמחות ולחברות בארגונים מקצועיים. הפוליסה מתאימה לרופאים עצמאיים ושכירים.",
-    "row_axis": "Insurance policy options / coverage levels",
-    "column_axis": "Coverage details (liability limit, professional affiliation, years of specialization)",
+    "title": "גבול אחריות",
+    "summary": "This table details the professional liability coverage limits for dentists. It allows you to view the requested professional medical liability limit per incident and for all claims during the insurance period.",
+    "embed_passage": "טופס זה מתייחס לפוליסה לאחריות מקצועית לרופא שיניים, ומאפשר לבחור גבול אחריות מקצועית רפואית. ניתן לבחור בין ₪ 20,000,000 לבין ₪ 10,000,000. השדות בטבלה כוללים גם אישור לחברה, תחום התמחות, שנות התמחות, וחברות באיגוד מקצועי. הטבלה מאפשרת לציין האם קיים העדר תביעות ו/או אירועים העשויים להביא לתביעות. גבול האחריות המקצועית הרפואית המבוקש בגין מקרה אחד וכל התביעות במשך תקופת הביטוח הוא נתון מרכזי.",
+    "row_axis": "Coverage Limit Options",
+    "column_axis": "Coverage Details (Approval, Specialty, Experience, Association)",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "גבול אחריות: ₪20,000,000",
-      "גבול אחריות: ₪10,000,000",
-      "שנות התמחות: unspecified",
-      "חבר/ה באיגוד/ ארגון מקצועי: כן/לא"
+      "גבול אחריות",
+      "אישור החברה"
     ],
     "product_hints": [
-      "ביטוח אחריות מקצועית לרופא שיניים"
+      "אחריות מקצועית"
     ]
   },
-  "sketch": "גבול אחריות ד\nגבול האחריות המקצועית הרפואית המבוקש בגין מקרה אחד וכל התביעות במשך תקופת הביטוח:\n₪  20,000,000\n₪  10,000,000\n…\nכן, פרט\nלא\n, מס' שנות התמחות:                        חבר/ה באיגוד/ ארגון מקצועי\n:",
-  "embed_text": "ביטוח אחריות מקצועית לרופא שיניים מציע כיסוי של עד ₪20,000,000 לגבול אחריות מקצועית רפואית בגין מקרה אחד. גבול האחריות משתנה בהתאם לשנות התמחות ולחברות בארגונים מקצועיים. הפוליסה מתאימה לרופאים עצמאיים ושכירים.",
-  "payload": "טבלה: ביטוח אחריות מקצועית לרופא שיניים\nThis table details professional liability insurance options for dentists. It allows you to look up coverage limits (גבול אחריות) based on factors like years of experience and professional affiliations.\nממדים: Insurance policy options / coverage levels, Coverage details (liability limit, professional affiliation, years of specialization)\n\nגבול אחריות ד\nגבול האחריות המקצועית הרפואית המבוקש בגין מקרה אחד וכל התביעות במשך תקופת הביטוח:\n₪  20,000,000\n₪  10,000,000\nלא\nכן\n? האם הנך מעוניין בהנחה בדמי הביטוח, תמורת השתתפותך העצמית בכל תביעה\n)ניתן באישור החברה מראש ורק במקרים בהם קיים העדר תביעות ו/או אירועים העשויים להביא לתביעות(\n:(' תחום ההתמחות ופירוט תפקידים ועיסוקים נלווים )ניהול, יעוץ לגופים, הנחיית סדנאות, פעילות באתרי אינטרנט, הדרכות, קידום מכירות וכו\nכן, פרט\nלא\n, מס' שנות התמחות:                        חבר/ה באיגוד/ ארגון מקצועי\n:"
+  "sketch": "גבול אחריות ד\nגבול האחריות המקצועית הרפואית המבוקש בגין מקרה אחד וכל התביעות במשך תקופת הביטוח:\n₪  20,000,000\n₪  10,000,000\nלא\nכן\n…\n)ניתן באישור החברה מראש ורק במקרים בהם קיים העדר תביעות ו/או אירועים העשויים להביא לתביעות(\n:(' תחום ההתמחות ופירוט תפקידים ועיסוקים נלווים )ניהול, יעוץ לגופים, הנחיית סדנאות, פעילות באתרי אינטרנט, הדרכות, קידום מכירות וכו\nכן, פרט\nלא\n, מס' שנות התמחות:                        חבר/ה באיגוד/ ארגון מקצועי\n:",
+  "embed_text": "טופס זה מתייחס לפוליסה לאחריות מקצועית לרופא שיניים, ומאפשר לבחור גבול אחריות מקצועית רפואית. ניתן לבחור בין ₪ 20,000,000 לבין ₪ 10,000,000. השדות בטבלה כוללים גם אישור לחברה, תחום התמחות, שנות התמחות, וחברות באיגוד מקצועי. הטבלה מאפשרת לציין האם קיים העדר תביעות ו/או אירועים העשויים להביא לתביעות. גבול האחריות המקצועית הרפואית המבוקש בגין מקרה אחד וכל התביעות במשך תקופת הביטוח הוא נתון מרכזי. This table details the professional liability coverage limits for dentists. It allows you to view the requested professional medical liability limit per incident and for all claims during the insurance period. בין הערכים בטבלה: אישור החברה.",
+  "payload": "טבלה: גבול אחריות\nThis table details the professional liability coverage limits for dentists. It allows you to view the requested professional medical liability limit per incident and for all claims during the insurance period.\nממדים: Coverage Limit Options, Coverage Details (Approval, Specialty, Experience, Association)\n\nגבול אחריות ד\nגבול האחריות המקצועית הרפואית המבוקש בגין מקרה אחד וכל התביעות במשך תקופת הביטוח:\n₪  20,000,000\n₪  10,000,000\nלא\nכן\n? האם הנך מעוניין בהנחה בדמי הביטוח, תמורת השתתפותך העצמית בכל תביעה\n)ניתן באישור החברה מראש ורק במקרים בהם קיים העדר תביעות ו/או אירועים העשויים להביא לתביעות(\n:(' תחום ההתמחות ופירוט תפקידים ועיסוקים נלווים )ניהול, יעוץ לגופים, הנחיית סדנאות, פעילות באתרי אינטרנט, הדרכות, קידום מכירות וכו\nכן, פרט\nלא\n, מס' שנות התמחות:                        חבר/ה באיגוד/ ארגון מקצועי\n:"
 }

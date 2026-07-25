@@ -3,18 +3,25 @@
   "source": "llm",
   "description": {
     "title": "הצעה לביטוח חיים ומבנה למשכנתא",
-    "summary": "This table is part of a form for proposing life and property insurance for a mortgage. It asks about existing insurance policies and the applicant's wishes regarding them.",
-    "embed_passage": "טופס זה עוסק בהצעה לביטוח חיים ומבנה למשכנתא. אם יש לך פוליסה קיימת, הכיסוי אליו אתה מבקש להצטרף הוא כיסוי נוסף, וייגבו דמי ביטוח נוספים. ניתן גם לבטל את הפוליסה הקיימת או להקטין את היקף הפיצוי.",
-    "row_axis": "Applicant (First/Second)",
-    "column_axis": "Options regarding existing insurance policies (e.g., adding additional coverage, reducing existing coverage, cancellation)",
+    "summary": "This table is part of a health declaration form for mortgage life and property insurance. It asks applicants if they already have similar insurance and if they want to add coverage, reduce existing coverage, or cancel a current policy.",
+    "embed_passage": "טופס זה עוסק בהצעה לביטוח חיים ומבנה למשכנתא, ובדיקת קיום פוליסות ביטוח קיימות. מטרתו לאסוף מידע על פוליסות קיימות של המועמדים לביטוח, ולבחון האם הם מעוניינים להוסיף כיסוי נוסף, להקטין את היקף הפיצוי בפוליסה קיימת, או לבטל פוליסה קיימת. השאלות מתייחסות הן למועמד הראשון והן למועמד השני לביטוח. טופס זה מאפשר למשכנתאים להעריך את הסיכונים הכרוכים בביטוח, ולגבות פרמיה נוספת במידת הצורך. הכיסוי הנוסף מבטח מקרה ביטוח דומה לכיסוי הקיים.",
+    "row_axis": "מועמד (ראשון/שני לביטוח)",
+    "column_axis": "אפשרויות פעולה לגבי פוליסה קיימת (הוספת כיסוי, הקטנת כיסוי, ביטול פוליסה)",
     "units": [],
-    "notable_values": [],
+    "notable_values": [
+      "פוליסה קיימת: כן",
+      "פוליסה קיימת: לא",
+      "הקטנת היקף הפיצוי: כן",
+      "הקטנת היקף הפיצוי: לא",
+      "ביטול פוליסה קיימת: כן",
+      "ביטול פוליסה קיימת: לא"
+    ],
     "product_hints": [
-      "ביטוח חיים ומבנה למשכנתא",
+      "ביטוח חיים למשכנתא",
       "פוליסה קיימת"
     ]
   },
   "sketch": "לידיעתך/כם, הכיסוי אליו אתה/ם מבקש/ים להצטרף הינו כיסוי נוסף, המבטח מקרה ביטוח דומה לכיסוי הקיים שבידך/ם וייגבו דמי\nביטוח נוספים עבור כיסוי זה. אני/ו מאשר/ים את רכישת הכיסוי וגביית הפרמיה הנוספת.\nאני/ו מעוניינ/ים להשאיר את הפוליסה הקיימת ולהקטין בה את היקף הפיצוי:\nלידיעתך/כם, הכיסוי אליו אתה/ם מבקש/ים להצטרף הינו כיסוי נוסף, המבטח מקרה ביטוח דומה לכיסוי הקיים שבידך/ם וייגבו דמי\n.\nביטוח נוספים עבור כיסוי זה. אתה/ם מאשר/ים את רכישת הכיסוי וגביית הפרמיה הנוספת",
-  "embed_text": "טופס זה עוסק בהצעה לביטוח חיים ומבנה למשכנתא. אם יש לך פוליסה קיימת, הכיסוי אליו אתה מבקש להצטרף הוא כיסוי נוסף, וייגבו דמי ביטוח נוספים. ניתן גם לבטל את הפוליסה הקיימת או להקטין את היקף הפיצוי.",
-  "payload": "טבלה: הצעה לביטוח חיים ומבנה למשכנתא\nThis table is part of a form for proposing life and property insurance for a mortgage. It asks about existing insurance policies and the applicant's wishes regarding them.\nממדים: Applicant (First/Second), Options regarding existing insurance policies (e.g., adding additional coverage, reducing existing coverage, cancellation)\n\nלידיעתך/כם, הכיסוי אליו אתה/ם מבקש/ים להצטרף הינו כיסוי נוסף, המבטח מקרה ביטוח דומה לכיסוי הקיים שבידך/ם וייגבו דמי\nביטוח נוספים עבור כיסוי זה. אני/ו מאשר/ים את רכישת הכיסוי וגביית הפרמיה הנוספת.\nאני/ו מעוניינ/ים להשאיר את הפוליסה הקיימת ולהקטין בה את היקף הפיצוי:\nלידיעתך/כם, הכיסוי אליו אתה/ם מבקש/ים להצטרף הינו כיסוי נוסף, המבטח מקרה ביטוח דומה לכיסוי הקיים שבידך/ם וייגבו דמי\n.\nביטוח נוספים עבור כיסוי זה. אתה/ם מאשר/ים את רכישת הכיסוי וגביית הפרמיה הנוספת"
+  "embed_text": "טופס זה עוסק בהצעה לביטוח חיים ומבנה למשכנתא, ובדיקת קיום פוליסות ביטוח קיימות. מטרתו לאסוף מידע על פוליסות קיימות של המועמדים לביטוח, ולבחון האם הם מעוניינים להוסיף כיסוי נוסף, להקטין את היקף הפיצוי בפוליסה קיימת, או לבטל פוליסה קיימת. השאלות מתייחסות הן למועמד הראשון והן למועמד השני לביטוח. טופס זה מאפשר למשכנתאים להעריך את הסיכונים הכרוכים בביטוח, ולגבות פרמיה נוספת במידת הצורך. הכיסוי הנוסף מבטח מקרה ביטוח דומה לכיסוי הקיים. This table is part of a health declaration form for mortgage life and property insurance. It asks applicants if they already have similar insurance and if they want to add coverage, reduce existing coverage, or cancel a current policy. בין הערכים בטבלה: הקטנת היקף הפיצוי: כן; ביטול פוליסה קיימת: כן.",
+  "payload": "טבלה: הצעה לביטוח חיים ומבנה למשכנתא\nThis table is part of a health declaration form for mortgage life and property insurance. It asks applicants if they already have similar insurance and if they want to add coverage, reduce existing coverage, or cancel a current policy.\nממדים: מועמד (ראשון/שני לביטוח), אפשרויות פעולה לגבי פוליסה קיימת (הוספת כיסוי, הקטנת כיסוי, ביטול פוליסה)\n\nלידיעתך/כם, הכיסוי אליו אתה/ם מבקש/ים להצטרף הינו כיסוי נוסף, המבטח מקרה ביטוח דומה לכיסוי הקיים שבידך/ם וייגבו דמי\nביטוח נוספים עבור כיסוי זה. אני/ו מאשר/ים את רכישת הכיסוי וגביית הפרמיה הנוספת.\nאני/ו מעוניינ/ים להשאיר את הפוליסה הקיימת ולהקטין בה את היקף הפיצוי:\nלידיעתך/כם, הכיסוי אליו אתה/ם מבקש/ים להצטרף הינו כיסוי נוסף, המבטח מקרה ביטוח דומה לכיסוי הקיים שבידך/ם וייגבו דמי\n.\nביטוח נוספים עבור כיסוי זה. אתה/ם מאשר/ים את רכישת הכיסוי וגביית הפרמיה הנוספת"
 }

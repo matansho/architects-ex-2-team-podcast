@@ -2,25 +2,24 @@
   "id": "pdf:travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-first-class.pdf#234",
   "source": "llm",
   "description": {
-    "title": "נכות מתאונה",
-    "summary": "This table details insurance payouts for disabilities resulting from accidents abroad under the First Class travel insurance policy. It looks up compensation based on the degree of disability and the total insurance amount.",
-    "embed_passage": "פוליסת ביטוח הנסיעות First Class מספקת פיצוי במקרה של נכות כתוצאה מתאונה בחו״ל. גובה הפיצוי תלוי באחוז הנכות שנקבע על ידי רופא מומחה, ביחס לסכום הביטוח המלא. לדוגמה, נכות מוחלטת של הרגל עשויה לזכות את המבוטח ב-$16,000, אם סכום הביטוח המלא הוא $40,000.",
-    "row_axis": "degree of disability (e.g., partial, total)",
-    "column_axis": "insurance payout calculation",
+    "title": "גבולות אחריות לנכות מתאונה",
+    "summary": "This table details the insurance payout for disability resulting from an accident abroad, specifically relating to the 'First Class' travel insurance policy. It shows how benefits are calculated based on the degree of disability and the total insurance amount.",
+    "embed_passage": "טבלה זו מתייחסת לביטוח נסיעות 'First Class' ומפרטת את גבולות האחריות לנכות כתוצאה מתאונה בחו\"ל. החישוב מתבסס על אחוז הנכות שנקבע על ידי רופא מומחה, תוך התייחסות לסכום הביטוח המלא. ניתן לחשב את תגמולי הביטוח במקרה של נכות מוחלטת של הרגל, לדוגמה, על ידי הכפלת אחוז הנכות בסכום הביטוח. נכות מוחלטת של הרגל, סכום ביטוח מלא, $40,000, אחוז נכות 40%, המוסד לביטוח לאומי, אגף נפגעי עבודה.",
+    "row_axis": "דרגת נכות (לדוגמה, נכות מוחלטת של הרגל)",
+    "column_axis": "חישוב תגמולי ביטוח",
     "units": [
       "$"
     ],
     "notable_values": [
-      "insurance amount: $40,000",
-      "disability percentage: 40%",
-      "payout for 40% disability: $16,000"
+      "סכום ביטוח מלא: $40,000",
+      "נכות מוחלטת של הרגל: 40%",
+      "תגמולי ביטוח (40% נכות): $16,000"
     ],
     "product_hints": [
-      "First Class",
-      "ביטוח נסיעות"
+      "ביטוח נסיעות First Class"
     ]
   },
   "sketch": "כאמור 11 נקבעה למבוטח על ידי רופא מומחה על פי תקנה דוגמא: , וסכום הביטוח המירבי 40% לעיל, נכות מוחלטת של הרגל בגובה .$  40,000 הנקוב בטבלת גבולות האחריות לנכות מתאונה הנו 40% X $  40,000= $  16,000 : תגמולי הביטוח יחושבו במקרה זה כך\n. היתה למבוטח עילה לתביעה עקב קרות מקרה הביטוח, גם מהמוסד 25.2.2.3 לביטוח לאומי - אגף נפגעי עבודה עקב קרות מקרה הביטוח, תחייב הקביעה של המוסד לביטוח לאומי לגבי שיעור נכותו הרפואית של . המבוטח הנובעת ממקרה הביטוח גם את הצדדים לפוליסה זו יודגש כי, קביעת המוסד לביטוח לאומי אגף נפגעי עבודה, תגבר , הן על החלטת הרופא התעסוקתי או רופא מומחה בתחום הפגיעה בין אם תטיב עם המבוטח ובין אם לאו.",
-  "embed_text": "פוליסת ביטוח הנסיעות First Class מספקת פיצוי במקרה של נכות כתוצאה מתאונה בחו״ל. גובה הפיצוי תלוי באחוז הנכות שנקבע על ידי רופא מומחה, ביחס לסכום הביטוח המלא. לדוגמה, נכות מוחלטת של הרגל עשויה לזכות את המבוטח ב-$16,000, אם סכום הביטוח המלא הוא $40,000.",
-  "payload": "טבלה: נכות מתאונה\nThis table details insurance payouts for disabilities resulting from accidents abroad under the First Class travel insurance policy. It looks up compensation based on the degree of disability and the total insurance amount.\nממדים: degree of disability (e.g., partial, total), insurance payout calculation\n\nכאמור 11 נקבעה למבוטח על ידי רופא מומחה על פי תקנה דוגמא: , וסכום הביטוח המירבי 40% לעיל, נכות מוחלטת של הרגל בגובה .$  40,000 הנקוב בטבלת גבולות האחריות לנכות מתאונה הנו 40% X $  40,000= $  16,000 : תגמולי הביטוח יחושבו במקרה זה כך\n. היתה למבוטח עילה לתביעה עקב קרות מקרה הביטוח, גם מהמוסד 25.2.2.3 לביטוח לאומי - אגף נפגעי עבודה עקב קרות מקרה הביטוח, תחייב הקביעה של המוסד לביטוח לאומי לגבי שיעור נכותו הרפואית של . המבוטח הנובעת ממקרה הביטוח גם את הצדדים לפוליסה זו יודגש כי, קביעת המוסד לביטוח לאומי אגף נפגעי עבודה, תגבר , הן על החלטת הרופא התעסוקתי או רופא מומחה בתחום הפגיעה בין אם תטיב עם המבוטח ובין אם לאו."
+  "embed_text": "טבלה זו מתייחסת לביטוח נסיעות 'First Class' ומפרטת את גבולות האחריות לנכות כתוצאה מתאונה בחו\"ל. החישוב מתבסס על אחוז הנכות שנקבע על ידי רופא מומחה, תוך התייחסות לסכום הביטוח המלא. ניתן לחשב את תגמולי הביטוח במקרה של נכות מוחלטת של הרגל, לדוגמה, על ידי הכפלת אחוז הנכות בסכום הביטוח. נכות מוחלטת של הרגל, סכום ביטוח מלא, $40,000, אחוז נכות 40%, המוסד לביטוח לאומי, אגף נפגעי עבודה. This table details the insurance payout for disability resulting from an accident abroad, specifically relating to the 'First Class' travel insurance policy. It shows how benefits are calculated based on the degree of disability and the total insurance amount. בין הערכים בטבלה: תגמולי ביטוח (40% נכות): $16,000.",
+  "payload": "טבלה: גבולות אחריות לנכות מתאונה\nThis table details the insurance payout for disability resulting from an accident abroad, specifically relating to the 'First Class' travel insurance policy. It shows how benefits are calculated based on the degree of disability and the total insurance amount.\nממדים: דרגת נכות (לדוגמה, נכות מוחלטת של הרגל), חישוב תגמולי ביטוח\n\nכאמור 11 נקבעה למבוטח על ידי רופא מומחה על פי תקנה דוגמא: , וסכום הביטוח המירבי 40% לעיל, נכות מוחלטת של הרגל בגובה .$  40,000 הנקוב בטבלת גבולות האחריות לנכות מתאונה הנו 40% X $  40,000= $  16,000 : תגמולי הביטוח יחושבו במקרה זה כך\n. היתה למבוטח עילה לתביעה עקב קרות מקרה הביטוח, גם מהמוסד 25.2.2.3 לביטוח לאומי - אגף נפגעי עבודה עקב קרות מקרה הביטוח, תחייב הקביעה של המוסד לביטוח לאומי לגבי שיעור נכותו הרפואית של . המבוטח הנובעת ממקרה הביטוח גם את הצדדים לפוליסה זו יודגש כי, קביעת המוסד לביטוח לאומי אגף נפגעי עבודה, תגבר , הן על החלטת הרופא התעסוקתי או רופא מומחה בתחום הפגיעה בין אם תטיב עם המבוטח ובין אם לאו."
 }

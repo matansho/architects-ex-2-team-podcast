@@ -2,23 +2,23 @@
   "id": "pdf:car/files/תנאי-פוליסת-ביטוח-לרכב-פרטי-ומסחרי-עד-35-טון-יוני-2023-באנגלית.pdf#63",
   "source": "llm",
   "description": {
-    "title": "הגנה משפטית",
-    "summary": "This table details the conditions for insurance coverage of legal defense fees and expenses. It specifies how the insurer covers advocate fees for appeals and limits liability for accidental occurrences.",
-    "embed_passage": "פוליסת ביטוח לרכב פרטי ומסחרי כוללת הגנה משפטית, המכסה את שכר הטרחה של עורך דין בערעורים עד למועד סופי. סכום ההחזר מוגבל לסכום המפורט בפוליסה, והתשלום מותנה באישור מראש של המבטח. לדוגמה, כיסוי ההוצאות המשפטיות מוגבל לתקופת הביטוח כולה.",
-    "row_axis": "Legal proceedings stage (appeal, initial defense)",
-    "column_axis": "Coverage conditions, liability limits",
+    "title": "החזר הוצאות שכר טרחת עורך דין",
+    "summary": "This table details the insurer's liability for attorney fees and defense expenses related to legal proceedings and appeals. It outlines conditions for coverage and limitations on the total amount paid.",
+    "embed_passage": "טבלה זו מתארת את אחריות המבטח להחזר הוצאות שכר טרחת עורך דין והוצאות הגנה הקשורות להליכים משפטיים וערעורים. הטבלה מפרטת תנאים לכיסוי ומגבלות על הסכום הכולל ששולם. ניתן לבדוק את הכיסוי עבור הליכים משפטיים, ערעורים, והגבלות אחריות. הטבלה רלוונטית לפוליסת ביטוח לרכב פרטי ומסחרי עד 35 טון. הערות חשובות כוללות את הצורך באישור מראש להגשת ערעור, וחוות דעת מפורטת מעורך הדין. סכום ההחזר מוגבל לסכום המצוין בפירוט.",
+    "row_axis": "type of legal action / condition",
+    "column_axis": "insurer liability / requirements",
     "units": [],
     "notable_values": [
-      "appeal coverage: up to final instance",
-      "insurer authorization: required for filing an appeal",
-      "advocate opinion: needed for authorization",
-      "liability limit: sum noted in specification"
+      "appeal: up to final instance",
+      "advocate authorization: required for appeal",
+      "advocate opinion: needed for appeal authorization",
+      "limitation of liability: total insurance period"
     ],
     "product_hints": [
-      "ביטוח לרכב פרטי ומסחרי"
+      "ביטוח לרכב פרטי ומסחרי עד 35 טון"
     ]
   },
   "sketch": "24.2 Appeal\nThe insurer shall indemnify the insured for the fees and defense expenses paid by it to an advocate in respect of an appeal, up to the final instance, including a judgment and/or verdict imposed on the insured in legal proceedings.\nThe insured shall obtain the insurer 's advance written authorization for filing an appeal as aforementioned.  The insurer shall provide the authorization after receiving a detailed opinion from the advocate who appeared before the court against which the appeal is sought, in terms of which in his opinion, there is a pertinent basis and good chances of the appeal succeeding as aforementioned.\n24.3 Limitation of liability\nThe insurer 's liability in accordance with paragraph 24.1.2 above in respect of any accidental occurrence and in total for the entire insurance period shall be limited to the sum noted in this paragraph in the specification.",
-  "embed_text": "פוליסת ביטוח לרכב פרטי ומסחרי כוללת הגנה משפטית, המכסה את שכר הטרחה של עורך דין בערעורים עד למועד סופי. סכום ההחזר מוגבל לסכום המפורט בפוליסה, והתשלום מותנה באישור מראש של המבטח. לדוגמה, כיסוי ההוצאות המשפטיות מוגבל לתקופת הביטוח כולה.",
-  "payload": "טבלה: הגנה משפטית\nThis table details the conditions for insurance coverage of legal defense fees and expenses. It specifies how the insurer covers advocate fees for appeals and limits liability for accidental occurrences.\nממדים: Legal proceedings stage (appeal, initial defense), Coverage conditions, liability limits\n\n24.2 Appeal\nThe insurer shall indemnify the insured for the fees and defense expenses paid by it to an advocate in respect of an appeal, up to the final instance, including a judgment and/or verdict imposed on the insured in legal proceedings.\nThe insured shall obtain the insurer 's advance written authorization for filing an appeal as aforementioned.  The insurer shall provide the authorization after receiving a detailed opinion from the advocate who appeared before the court against which the appeal is sought, in terms of which in his opinion, there is a pertinent basis and good chances of the appeal succeeding as aforementioned.\n24.3 Limitation of liability\nThe insurer 's liability in accordance with paragraph 24.1.2 above in respect of any accidental occurrence and in total for the entire insurance period shall be limited to the sum noted in this paragraph in the specification."
+  "embed_text": "טבלה זו מתארת את אחריות המבטח להחזר הוצאות שכר טרחת עורך דין והוצאות הגנה הקשורות להליכים משפטיים וערעורים. הטבלה מפרטת תנאים לכיסוי ומגבלות על הסכום הכולל ששולם. ניתן לבדוק את הכיסוי עבור הליכים משפטיים, ערעורים, והגבלות אחריות. הטבלה רלוונטית לפוליסת ביטוח לרכב פרטי ומסחרי עד 35 טון. הערות חשובות כוללות את הצורך באישור מראש להגשת ערעור, וחוות דעת מפורטת מעורך הדין. סכום ההחזר מוגבל לסכום המצוין בפירוט. This table details the insurer's liability for attorney fees and defense expenses related to legal proceedings and appeals. It outlines conditions for coverage and limitations on the total amount paid. בין הערכים בטבלה: appeal: up to final instance; advocate authorization: required for appeal; advocate opinion: needed for appeal authorization; limitation of liability: total insurance peri…",
+  "payload": "טבלה: החזר הוצאות שכר טרחת עורך דין\nThis table details the insurer's liability for attorney fees and defense expenses related to legal proceedings and appeals. It outlines conditions for coverage and limitations on the total amount paid.\nממדים: type of legal action / condition, insurer liability / requirements\n\n24.2 Appeal\nThe insurer shall indemnify the insured for the fees and defense expenses paid by it to an advocate in respect of an appeal, up to the final instance, including a judgment and/or verdict imposed on the insured in legal proceedings.\nThe insured shall obtain the insurer 's advance written authorization for filing an appeal as aforementioned.  The insurer shall provide the authorization after receiving a detailed opinion from the advocate who appeared before the court against which the appeal is sought, in terms of which in his opinion, there is a pertinent basis and good chances of the appeal succeeding as aforementioned.\n24.3 Limitation of liability\nThe insurer 's liability in accordance with paragraph 24.1.2 above in respect of any accidental occurrence and in total for the entire insurance period shall be limited to the sum noted in this paragraph in the specification."
 }

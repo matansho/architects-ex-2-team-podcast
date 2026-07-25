@@ -3,21 +3,20 @@
   "source": "llm",
   "description": {
     "title": "הודעות",
-    "summary": "This table details how to submit notifications to the insurer regarding the insurance policy. It specifies the acceptable methods and addresses for delivering written notices.",
-    "embed_passage": "פוליסת ביטוח מבנה דירה משכנתא בטוחה מגדירה כי הודעה מהמבוטח או המוטב למבטח תימסר בכתב. ההודעה יכולה להישלח למשרדו של המבטח, או למשרדו של סוכן הביטוח הרשום בפוליסה. לדוגמה, ניתן לשלוח את ההודעה למען המשרד המצוין בכותרת הפוליסה.",
-    "row_axis": "Notification method/address",
-    "column_axis": "Details of notification process",
+    "summary": "This table details how to submit notices to the insurer, specifying acceptable methods and addresses. It outlines options for delivering written notices, including the insurer's office or the registered insurance agent's office.",
+    "embed_passage": "טבלה זו מתארת את אופן מסירת הודעות למבטח, כולל כתובות מקובלות. ניתן להגיש הודעות בכתב למשרד המבטח או למשרד סוכן הביטוח הרשום בפוליסה. הפוליסה מציינת את מען משרדו של המבטח, או כל מען אחר בישראל שהמבטח יודיע עליו. מען סוכן הביטוח מפורט בפוליסה, או כל מען אחר בישראל שהסוכן או המבטח יודיעו עליו. הודעה, מבטח, סוכן ביטוח, כתובת.",
+    "row_axis": "Types of notice delivery",
+    "column_axis": "Details of delivery method",
     "units": [],
     "notable_values": [
-      "4.1: Notification details",
-      "4.1.1: Insurer's office address",
-      "4.1.2: Insurance agent's office address"
+      "מען משרדו של המבטח: as stated in the policy header",
+      "מען סוכן הביטוח: as detailed in the policy"
     ],
     "product_hints": [
-      "פוליסת ביטוח מבנה דירה משכנתא בטוחה"
+      "ביטוח מבנה דירה משכנתא בטוחה"
     ]
   },
   "sketch": ".\t4 הודעות\n4.1 . הודעה של המבוטח או של המוטב, למבטח, תימסר למבטח בכתב לאחד מאלה:\n4.1.1 . מען משרדו של המבטח, כמצוין בכותרת לפוליסה זו או כל מען אחר בישראל שעליו יודיע המבטח, למבוטח או למוטב, מזמן לזמן.\n4.1.2 . משרדו של סוכן הביטוח, הרשום בפוליסה - לפי מענו, כמפורט בה, או לפי כל מען אחר בישראל שעליו יודיע סוכן הביטוח הנזכר או המבטח, למבוטח או למוטב מזמן לזמן.",
-  "embed_text": "פוליסת ביטוח מבנה דירה משכנתא בטוחה מגדירה כי הודעה מהמבוטח או המוטב למבטח תימסר בכתב. ההודעה יכולה להישלח למשרדו של המבטח, או למשרדו של סוכן הביטוח הרשום בפוליסה. לדוגמה, ניתן לשלוח את ההודעה למען המשרד המצוין בכותרת הפוליסה.",
-  "payload": "טבלה: הודעות\nThis table details how to submit notifications to the insurer regarding the insurance policy. It specifies the acceptable methods and addresses for delivering written notices.\nממדים: Notification method/address, Details of notification process\n\n.\t4 הודעות\n4.1 . הודעה של המבוטח או של המוטב, למבטח, תימסר למבטח בכתב לאחד מאלה:\n4.1.1 . מען משרדו של המבטח, כמצוין בכותרת לפוליסה זו או כל מען אחר בישראל שעליו יודיע המבטח, למבוטח או למוטב, מזמן לזמן.\n4.1.2 . משרדו של סוכן הביטוח, הרשום בפוליסה - לפי מענו, כמפורט בה, או לפי כל מען אחר בישראל שעליו יודיע סוכן הביטוח הנזכר או המבטח, למבוטח או למוטב מזמן לזמן."
+  "embed_text": "טבלה זו מתארת את אופן מסירת הודעות למבטח, כולל כתובות מקובלות. ניתן להגיש הודעות בכתב למשרד המבטח או למשרד סוכן הביטוח הרשום בפוליסה. הפוליסה מציינת את מען משרדו של המבטח, או כל מען אחר בישראל שהמבטח יודיע עליו. מען סוכן הביטוח מפורט בפוליסה, או כל מען אחר בישראל שהסוכן או המבטח יודיעו עליו. הודעה, מבטח, סוכן ביטוח, כתובת. This table details how to submit notices to the insurer, specifying acceptable methods and addresses. It outlines options for delivering written notices, including the insurer's office or the registered insurance agent's office.",
+  "payload": "טבלה: הודעות\nThis table details how to submit notices to the insurer, specifying acceptable methods and addresses. It outlines options for delivering written notices, including the insurer's office or the registered insurance agent's office.\nממדים: Types of notice delivery, Details of delivery method\n\n.\t4 הודעות\n4.1 . הודעה של המבוטח או של המוטב, למבטח, תימסר למבטח בכתב לאחד מאלה:\n4.1.1 . מען משרדו של המבטח, כמצוין בכותרת לפוליסה זו או כל מען אחר בישראל שעליו יודיע המבטח, למבוטח או למוטב, מזמן לזמן.\n4.1.2 . משרדו של סוכן הביטוח, הרשום בפוליסה - לפי מענו, כמפורט בה, או לפי כל מען אחר בישראל שעליו יודיע סוכן הביטוח הנזכר או המבטח, למבוטח או למוטב מזמן לזמן."
 }

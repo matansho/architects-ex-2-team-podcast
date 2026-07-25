@@ -3,24 +3,21 @@
   "source": "llm",
   "description": {
     "title": "הרחבת סייבר רכוש",
-    "summary": "This table details the insurance coverage limits for expenses related to cyber property damage. It outlines the maximum insurance payouts for various costs incurred during restoration after a cyber incident.",
-    "embed_passage": "הרחבת סייבר רכוש מספקת כיסוי להוצאות ותשלומים כתוצאה מנזקי סייבר. תגמולי הביטוח שישולמו על ידי המבטח לא יעלו על סכומי הביטוח הנקובים ברשימה, ובשום מקרה לא יותר מההוצאות שהוצאו בפועל על ידי המבוטח. ההרחבה מגדירה גם מקרים בהם המבטח לא ישלם תגמולי ביטוח, כגון שיפורים שבוצעו במהלך שחזור.",
-    "row_axis": "Expense/Payment type related to cyber incident recovery",
-    "column_axis": "Insurance payout limits",
+    "summary": "This table details the insurance payout limits for expenses and payments related to cyber property damage, as outlined in section 4.3. Payouts are capped by the insurance amounts listed and actual expenses incurred.",
+    "embed_passage": "טבלה זו מתייחסת להרחבת סייבר רכוש, ומגדירה את תגמולי הביטוח שישולמו עבור הוצאות ותשלומים הקשורים לנזקי סייבר. סכומי התגמולים מוגבלים על ידי סכומי הביטוח הנקובים ברשימה ועל ידי ההוצאות בפועל של המבוטח. הרשימה מגדירה את הגבולות העליונים לתשלומים עבור הוצאות שונות. ההרחבה מתייחסת לשיקום תוכנה ונתונים, וכן לאובדן הכנסה עקב אירוע סייבר. הרחבת סייבר רכוש היא על בסיס 'נזק ראשון'. ההוצאות והתשלומים, טיוב, שיפור, שינוי, שחזור, תוכנה, נתונים.",
+    "row_axis": "types of expenses/payments related to cyber property damage (as per section 4.3)",
+    "column_axis": "insurance payout limits",
     "units": [],
     "notable_values": [
-      "סעיף 4.3: Refers to a section detailing covered expenses.",
-      "סעיף 4.4: Concerns payouts for software/data restoration.",
-      "סעיף 4.5: Relates to loss of income due to the cyber incident.",
-      "סעיף 4.6: Addresses income from products/services sold during recovery.",
-      "סעיף 4.7: Specifies 'first loss' basis for coverage."
+      "section 4.3: expense/payment limits",
+      "section 4.4: restoration without improvements",
+      "section 4.7: 'first damage' basis"
     ],
     "product_hints": [
-      "הרחבת סייבר רכוש",
-      "ביטוח אירוע סייבר"
+      "הרחבת סייבר רכוש"
     ]
   },
   "sketch": "תגמולי הביטוח שישולמו על ידי המבטח בגין הוצאות ותשלומים כאמור בסעיף .4.3 לעיל, לא יעלו על סכומי הביטוח הנקובים ברשימה לגבי ההוצאות והתשלומים 4.2 האמורים, ובשום מקרה לא יותר מההוצאות / מהתשלומים אשר הוצאו בפועל על ידי המבוטח.\nהמבטח לא ישלם תגמולי ביטוח עבור טיוב, שיפור, שינוי כלשהם שבוצעו במהלך שחזור .4.4 , אלא אם בלעדיהם לא ניתן היה לבצע את השחזור. התוכנה, הנתונים, או לאחר מכן",
-  "embed_text": "הרחבת סייבר רכוש מספקת כיסוי להוצאות ותשלומים כתוצאה מנזקי סייבר. תגמולי הביטוח שישולמו על ידי המבטח לא יעלו על סכומי הביטוח הנקובים ברשימה, ובשום מקרה לא יותר מההוצאות שהוצאו בפועל על ידי המבוטח. ההרחבה מגדירה גם מקרים בהם המבטח לא ישלם תגמולי ביטוח, כגון שיפורים שבוצעו במהלך שחזור.",
-  "payload": "טבלה: הרחבת סייבר רכוש\nThis table details the insurance coverage limits for expenses related to cyber property damage. It outlines the maximum insurance payouts for various costs incurred during restoration after a cyber incident.\nממדים: Expense/Payment type related to cyber incident recovery, Insurance payout limits\n\nתגמולי הביטוח שישולמו על ידי המבטח בגין הוצאות ותשלומים כאמור בסעיף .4.3 לעיל, לא יעלו על סכומי הביטוח הנקובים ברשימה לגבי ההוצאות והתשלומים 4.2 האמורים, ובשום מקרה לא יותר מההוצאות / מהתשלומים אשר הוצאו בפועל על ידי המבוטח.\nהמבטח לא ישלם תגמולי ביטוח עבור טיוב, שיפור, שינוי כלשהם שבוצעו במהלך שחזור .4.4 , אלא אם בלעדיהם לא ניתן היה לבצע את השחזור. התוכנה, הנתונים, או לאחר מכן"
+  "embed_text": "טבלה זו מתייחסת להרחבת סייבר רכוש, ומגדירה את תגמולי הביטוח שישולמו עבור הוצאות ותשלומים הקשורים לנזקי סייבר. סכומי התגמולים מוגבלים על ידי סכומי הביטוח הנקובים ברשימה ועל ידי ההוצאות בפועל של המבוטח. הרשימה מגדירה את הגבולות העליונים לתשלומים עבור הוצאות שונות. ההרחבה מתייחסת לשיקום תוכנה ונתונים, וכן לאובדן הכנסה עקב אירוע סייבר. הרחבת סייבר רכוש היא על בסיס 'נזק ראשון'. ההוצאות והתשלומים, טיוב, שיפור, שינוי, שחזור, תוכנה, נתונים. This table details the insurance payout limits for expenses and payments related to cyber property damage, as outlined in section 4.3. Payouts are capped by the insurance amounts listed and actual expenses incurred. בין הערכים בטבלה: section 4.3: expense/payment limits; section 4.4: restoration without improvements; section 4.7: 'first damage' basis.",
+  "payload": "טבלה: הרחבת סייבר רכוש\nThis table details the insurance payout limits for expenses and payments related to cyber property damage, as outlined in section 4.3. Payouts are capped by the insurance amounts listed and actual expenses incurred.\nממדים: types of expenses/payments related to cyber property damage (as per section 4.3), insurance payout limits\n\nתגמולי הביטוח שישולמו על ידי המבטח בגין הוצאות ותשלומים כאמור בסעיף .4.3 לעיל, לא יעלו על סכומי הביטוח הנקובים ברשימה לגבי ההוצאות והתשלומים 4.2 האמורים, ובשום מקרה לא יותר מההוצאות / מהתשלומים אשר הוצאו בפועל על ידי המבוטח.\nהמבטח לא ישלם תגמולי ביטוח עבור טיוב, שיפור, שינוי כלשהם שבוצעו במהלך שחזור .4.4 , אלא אם בלעדיהם לא ניתן היה לבצע את השחזור. התוכנה, הנתונים, או לאחר מכן"
 }

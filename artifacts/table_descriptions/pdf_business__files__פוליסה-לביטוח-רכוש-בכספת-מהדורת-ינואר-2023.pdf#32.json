@@ -2,25 +2,25 @@
   "id": "pdf:business/files/פוליסה-לביטוח-רכוש-בכספת-מהדורת-ינואר-2023.pdf#32",
   "source": "llm",
   "description": {
-    "title": "פוליסת רכוש",
-    "summary": "This table details conditions related to policy cancellation or reduction of liability due to misrepresentation by the insured. It outlines scenarios where the insurer can adjust coverage or deny claims based on incomplete or dishonest answers provided by the policyholder.",
-    "embed_passage": "פוליסת רכוש בכספת מהדורת ינואר 2023 מגדירה את התנאים לביטול החוזה או הקטנת חבות המבטח במקרה של מידע שגוי או חסר מהמבוטח. לדוגמה, אם המבוטח לא גילה עניין מהותי, המבטח רשאי לבטל את הפוליסה תוך 30 ימים. במקרה של מרמה, המבטח זכאי להחזר דמי הביטוח ששולמו עבור התקופה שלאחר הביטול.",
-    "row_axis": "Cancellation/Liability Adjustment Scenarios",
-    "column_axis": "Conditions & Rights",
+    "title": "תנאי ביטול פוליסה",
+    "summary": "This table outlines conditions under which an insurer can cancel a policy. It details scenarios related to incomplete or dishonest answers provided by the insured and the potential consequences.",
+    "embed_passage": "טבלה זו מתארת תנאים לביטול פוליסת ביטוח רכוש בכספת, מהדורת ינואר 2023. היא מפרטת מצבים בהם המבטח רשאי לבטל את החוזה, כגון תשובות לא מלאות או כנות מטעם המבוטח. ניתן לעיין בתנאים אלו כדי להבין את זכויות וחובות הצדדים במקרה של שינוי מהותי או הסתרה מכוונת. התנאים כוללים סעיפים לגבי החזר דמי ביטוח, תגמולים מופחתים, וביטול החוזה לפני קרות מקרה ביטוח. לדוגמה, סעיף 2.7 מתייחס להחזר דמי ביטוח במקרה של ביטול החוזה לפני קרות מקרה ביטוח, וסעיף 2.8 עוסק בתגמולים מופחתים. סעיפים 2.1, 2.5, 2.6, 2.7, 2.8, ו-2.9 מופיעים בטבלה.",
+    "row_axis": "תנאי ביטול",
+    "column_axis": "השלכות ביטול / תגמולים",
     "units": [],
     "notable_values": [
-      "30 ימים: Period for insurer to cancel policy after discovering incomplete/dishonest answer.",
-      "2.7: Clause regarding insurer's right to refund premiums if contract is cancelled.",
-      "2.8: Clause regarding reduced insurance payouts if an incident occurs before cancellation.",
-      "2.9: Exceptions where the insurer is not entitled to remedies.",
-      "מרמה: Fraudulent intent is a key factor in determining insurer's rights."
+      "תנאי 2.1: תשובות לא מלאות וכנות",
+      "תנאי 2.5: תשובה בכוונת מרמה",
+      "תנאי 2.6: ביטול תוך 30 ימים",
+      "תנאי 2.7: החזר דמי ביטוח",
+      "תנאי 2.8: תגמולים מופחתים",
+      "תנאי 2.9: תרופות המבטח"
     ],
     "product_hints": [
-      "פוליסת רכוש בכספת",
-      "רכוש"
+      "פוליסת ביטוח רכוש בכספת"
     ]
   },
   "sketch": "ביטל המבטח החוזה מכוח תנאי זה, עובר לקרות מקרה ביטוח, זכאי המבוטח להחזר .2.7 זולת אם המבוטח פעל בכוונת דמי ביטוח ששילם בעד התקופה שלאחר הביטול מרמה;\nזה, אין המבטח חייב 2 . קרה מקרה הביטוח לפני שנתבטל החוזה מכוח תנאי 2.8 אלא בתגמולי ביטוח מופחתים בשיעור יחסי, שהוא כיחס שבין דמי הביטוח שהיו משתלמים כמקובל אצלו לפי המצב לאמיתו לבין דמי הביטוח המוסכמים, והוא פטור כליל בכל אחת מאלה:\n)לפי העניין(, ניתנו בכוונת 2.5 . התשובה או אי מתן הודעה כאמור בתנאי 2.8.1 מרמה;\n. מבטח סביר לא היה מתקשר באותה פוליסה, אף בדמי ביטוח מרובים 2.8.2 יותר, אילו ידע שהמצב הוא כפי שהוא לאחר השינוי. במקרה כזה, זכאי המבוטח להחזר דמי הביטוח ששילם בעד התקופה שלאחר השינוי.",
-  "embed_text": "פוליסת רכוש בכספת מהדורת ינואר 2023 מגדירה את התנאים לביטול החוזה או הקטנת חבות המבטח במקרה של מידע שגוי או חסר מהמבוטח. לדוגמה, אם המבוטח לא גילה עניין מהותי, המבטח רשאי לבטל את הפוליסה תוך 30 ימים. במקרה של מרמה, המבטח זכאי להחזר דמי הביטוח ששולמו עבור התקופה שלאחר הביטול.",
-  "payload": "טבלה: פוליסת רכוש\nThis table details conditions related to policy cancellation or reduction of liability due to misrepresentation by the insured. It outlines scenarios where the insurer can adjust coverage or deny claims based on incomplete or dishonest answers provided by the policyholder.\nממדים: Cancellation/Liability Adjustment Scenarios, Conditions & Rights\n\nביטל המבטח החוזה מכוח תנאי זה, עובר לקרות מקרה ביטוח, זכאי המבוטח להחזר .2.7 זולת אם המבוטח פעל בכוונת דמי ביטוח ששילם בעד התקופה שלאחר הביטול מרמה;\nזה, אין המבטח חייב 2 . קרה מקרה הביטוח לפני שנתבטל החוזה מכוח תנאי 2.8 אלא בתגמולי ביטוח מופחתים בשיעור יחסי, שהוא כיחס שבין דמי הביטוח שהיו משתלמים כמקובל אצלו לפי המצב לאמיתו לבין דמי הביטוח המוסכמים, והוא פטור כליל בכל אחת מאלה:\n)לפי העניין(, ניתנו בכוונת 2.5 . התשובה או אי מתן הודעה כאמור בתנאי 2.8.1 מרמה;\n. מבטח סביר לא היה מתקשר באותה פוליסה, אף בדמי ביטוח מרובים 2.8.2 יותר, אילו ידע שהמצב הוא כפי שהוא לאחר השינוי. במקרה כזה, זכאי המבוטח להחזר דמי הביטוח ששילם בעד התקופה שלאחר השינוי."
+  "embed_text": "טבלה זו מתארת תנאים לביטול פוליסת ביטוח רכוש בכספת, מהדורת ינואר 2023. היא מפרטת מצבים בהם המבטח רשאי לבטל את החוזה, כגון תשובות לא מלאות או כנות מטעם המבוטח. ניתן לעיין בתנאים אלו כדי להבין את זכויות וחובות הצדדים במקרה של שינוי מהותי או הסתרה מכוונת. התנאים כוללים סעיפים לגבי החזר דמי ביטוח, תגמולים מופחתים, וביטול החוזה לפני קרות מקרה ביטוח. לדוגמה, סעיף 2.7 מתייחס להחזר דמי ביטוח במקרה של ביטול החוזה לפני קרות מקרה ביטוח, וסעיף 2.8 עוסק בתגמולים מופחתים. סעיפים 2.1, 2.5, 2.6, 2.7, 2.8, ו-2.9 מופיעים בטבלה. This table outlines conditions under which an insurer can cancel a policy. It details scenarios related to incomplete or dishonest answers provided by the insured and the potential consequences. בין הערכים בטבלה: תנאי 2.1: תשובות לא מלאות וכנות; תנאי 2.5: תשובה בכוונת מרמה; תנאי 2.6…",
+  "payload": "טבלה: תנאי ביטול פוליסה\nThis table outlines conditions under which an insurer can cancel a policy. It details scenarios related to incomplete or dishonest answers provided by the insured and the potential consequences.\nממדים: תנאי ביטול, השלכות ביטול / תגמולים\n\nביטל המבטח החוזה מכוח תנאי זה, עובר לקרות מקרה ביטוח, זכאי המבוטח להחזר .2.7 זולת אם המבוטח פעל בכוונת דמי ביטוח ששילם בעד התקופה שלאחר הביטול מרמה;\nזה, אין המבטח חייב 2 . קרה מקרה הביטוח לפני שנתבטל החוזה מכוח תנאי 2.8 אלא בתגמולי ביטוח מופחתים בשיעור יחסי, שהוא כיחס שבין דמי הביטוח שהיו משתלמים כמקובל אצלו לפי המצב לאמיתו לבין דמי הביטוח המוסכמים, והוא פטור כליל בכל אחת מאלה:\n)לפי העניין(, ניתנו בכוונת 2.5 . התשובה או אי מתן הודעה כאמור בתנאי 2.8.1 מרמה;\n. מבטח סביר לא היה מתקשר באותה פוליסה, אף בדמי ביטוח מרובים 2.8.2 יותר, אילו ידע שהמצב הוא כפי שהוא לאחר השינוי. במקרה כזה, זכאי המבוטח להחזר דמי הביטוח ששילם בעד התקופה שלאחר השינוי."
 }

@@ -2,24 +2,28 @@
   "id": "pdf:business/files/פוליסה-לביטוח-חבות-בעלי-מוסכים-הראל-מהדורת-ינואר-2023.pdf#96",
   "source": "llm",
   "description": {
-    "title": "פוליסת חבות בעלי מוסכים",
-    "summary": "This table details conditions related to policy cancellation due to material changes or incorrect information provided by the insured. It outlines scenarios where the insurer can void the policy and the potential refund of premiums, referencing timeframes of 30 days.",
-    "embed_passage": "פוליסת חבות בעלי מוסכים של הראל מתייחסת לשינויים מהותיים לאחר מסירת הפוליסה. במקרה של מסירת מידע שגוי או שינוי מהותי, המבטח רשאי לבטל את הפוליסה בהודעה בכתב תוך 30 ימים. אם מקרה הביטוח התרחש לפני הביטול, המבוטח עשוי לקבל תגמולים מופחתים, בהתאם ליחס בין דמי הביטוח האמיתיים לדמי הביטוח ששולמו.",
-    "row_axis": "Cancellation conditions / scenarios",
-    "column_axis": "Policy implications (e.g., refund eligibility, reduced coverage)",
+    "title": "תנאי פוליסה - חבות בעלי מוסכים",
+    "summary": "This table outlines conditions related to policy cancellation due to material changes or incorrect information provided by the insured. It details scenarios where the insurer may cancel the policy and the potential refund of premiums.",
+    "embed_passage": "טבלה זו מתארת תנאים הקשורים לביטול פוליסה עקב שינויים מהותיים או מידע שגוי שסופק על ידי המבוטח. הפוליסה היא פוליסת חבות בעלי מוסכים של הראל, מהדורת ינואר 2023. ניתן לבטל את הפוליסה בהודעה בכתב למבוטח, בתנאים מסוימים, ולקבל החזר דמי ביטוח. התנאים כוללים מצבים של מרמה, או מצב בו מבטח סביר לא היה מתקשר בפוליסה אילו ידע את המצב האמיתי. לדוגמה, סעיף 2.7.1 מתייחס למרמה, וסעיף 2.7.2 מתייחס למצב בו המבטח לא היה מתקשר בפוליסה. סעיף 2.4 עוסק בתשובה או אי מתן הודעה.",
+    "row_axis": "תנאי ביטול פוליסה",
+    "column_axis": "תיאור התנאי וההשלכות",
     "units": [],
     "notable_values": [
-      "30 days: timeframe for insurer response to incomplete/dishonest information",
-      "30 days: timeframe for insurer response to material change notification",
-      "2.7.1: Fraudulent intent impacts policy validity",
-      "2.7.2: Insurer's hypothetical reaction to known facts affects refund eligibility"
+      "סעיף 2.4: מרמה",
+      "סעיף 2.7.1: מרמה",
+      "סעיף 2.7.2: מצב בו מבטח סביר לא היה מתקשר בפוליסה",
+      "החזר דמי ביטוח",
+      "ביטול פוליסה בהודעה בכתב",
+      "תגמולי ביטוח מופחתים",
+      "30 ימים: תקופת הודעה",
+      "פוליסת חבות בעלי מוסכים הראל"
     ],
     "product_hints": [
-      "פוליסת חבות בעלי מוסכים",
+      "פוליסת חבות בעלי מוסכים הראל",
       "הראל"
     ]
   },
   "sketch": "זה, אין המבטח חייב 2 קרה מקרה הביטוח לפני שנתבטל החוזה מכוח תנאי .2.7 אלא בתגמולי ביטוח מופחתים בשיעור יחסי, שהוא כיחס שבין דמי הביטוח שהיו משתלמים כמקובל אצלו לפי המצב לאמיתו לבין דמי הביטוח המוסכמים, והוא פטור כליל בכל אחת מאלה:\n)לפי העניין(, ניתנו בכוונת 2.4 התשובה או אי מתן הודעה כאמור בסעיף .2.7.1 מרמה;\nמבטח סביר לא היה מתקשר באותה פוליסה, אף בדמי ביטוח מרובים .2.7.2 יותר, אילו ידע שהמצב הוא כפי שהוא לאחר השינוי. במקרה זה זכאי המבוטח להחזר דמי הביטוח ששילם בעד התקופה שלאחר השינוי.",
-  "embed_text": "פוליסת חבות בעלי מוסכים של הראל מתייחסת לשינויים מהותיים לאחר מסירת הפוליסה. במקרה של מסירת מידע שגוי או שינוי מהותי, המבטח רשאי לבטל את הפוליסה בהודעה בכתב תוך 30 ימים. אם מקרה הביטוח התרחש לפני הביטול, המבוטח עשוי לקבל תגמולים מופחתים, בהתאם ליחס בין דמי הביטוח האמיתיים לדמי הביטוח ששולמו.",
-  "payload": "טבלה: פוליסת חבות בעלי מוסכים\nThis table details conditions related to policy cancellation due to material changes or incorrect information provided by the insured. It outlines scenarios where the insurer can void the policy and the potential refund of premiums, referencing timeframes of 30 days.\nממדים: Cancellation conditions / scenarios, Policy implications (e.g., refund eligibility, reduced coverage)\n\nזה, אין המבטח חייב 2 קרה מקרה הביטוח לפני שנתבטל החוזה מכוח תנאי .2.7 אלא בתגמולי ביטוח מופחתים בשיעור יחסי, שהוא כיחס שבין דמי הביטוח שהיו משתלמים כמקובל אצלו לפי המצב לאמיתו לבין דמי הביטוח המוסכמים, והוא פטור כליל בכל אחת מאלה:\n)לפי העניין(, ניתנו בכוונת 2.4 התשובה או אי מתן הודעה כאמור בסעיף .2.7.1 מרמה;\nמבטח סביר לא היה מתקשר באותה פוליסה, אף בדמי ביטוח מרובים .2.7.2 יותר, אילו ידע שהמצב הוא כפי שהוא לאחר השינוי. במקרה זה זכאי המבוטח להחזר דמי הביטוח ששילם בעד התקופה שלאחר השינוי."
+  "embed_text": "טבלה זו מתארת תנאים הקשורים לביטול פוליסה עקב שינויים מהותיים או מידע שגוי שסופק על ידי המבוטח. הפוליסה היא פוליסת חבות בעלי מוסכים של הראל, מהדורת ינואר 2023. ניתן לבטל את הפוליסה בהודעה בכתב למבוטח, בתנאים מסוימים, ולקבל החזר דמי ביטוח. התנאים כוללים מצבים של מרמה, או מצב בו מבטח סביר לא היה מתקשר בפוליסה אילו ידע את המצב האמיתי. לדוגמה, סעיף 2.7.1 מתייחס למרמה, וסעיף 2.7.2 מתייחס למצב בו המבטח לא היה מתקשר בפוליסה. סעיף 2.4 עוסק בתשובה או אי מתן הודעה. This table outlines conditions related to policy cancellation due to material changes or incorrect information provided by the insured. It details scenarios where the insurer may cancel the policy and the potential refund of premiums. בין הערכים בטבלה: ביטול פוליסה בהודעה בכתב; תגמולי ביטוח מופחתים; 30 ימים: תקופת הודעה; פוליסת חבות בעלי…",
+  "payload": "טבלה: תנאי פוליסה - חבות בעלי מוסכים\nThis table outlines conditions related to policy cancellation due to material changes or incorrect information provided by the insured. It details scenarios where the insurer may cancel the policy and the potential refund of premiums.\nממדים: תנאי ביטול פוליסה, תיאור התנאי וההשלכות\n\nזה, אין המבטח חייב 2 קרה מקרה הביטוח לפני שנתבטל החוזה מכוח תנאי .2.7 אלא בתגמולי ביטוח מופחתים בשיעור יחסי, שהוא כיחס שבין דמי הביטוח שהיו משתלמים כמקובל אצלו לפי המצב לאמיתו לבין דמי הביטוח המוסכמים, והוא פטור כליל בכל אחת מאלה:\n)לפי העניין(, ניתנו בכוונת 2.4 התשובה או אי מתן הודעה כאמור בסעיף .2.7.1 מרמה;\nמבטח סביר לא היה מתקשר באותה פוליסה, אף בדמי ביטוח מרובים .2.7.2 יותר, אילו ידע שהמצב הוא כפי שהוא לאחר השינוי. במקרה זה זכאי המבוטח להחזר דמי הביטוח ששילם בעד התקופה שלאחר השינוי."
 }

@@ -3,22 +3,21 @@
   "source": "llm",
   "description": {
     "title": "תנאי פוליסת ביטוח למקרה מוות מגן",
-    "summary": "This table outlines the conditions of the 'מגן' death benefit insurance policy. It details how the policy interacts with supplementary schedules and statutory regulations, particularly in cases of conflicting terms.",
-    "embed_passage": "פוליסת 'מגן' ביטוח למקרה מוות מציגה תנאים שונים, כאשר במקרה של סתירה בין הפוליסה לנספח שצורף, תנאי הפוליסה יחולו. במקרה של סתירה בין הפוליסה להסדר התחיקתי, הוראות ההסדר התחיקתי יחולו. תנאים אלו חלים על הכיסוי הביטוחי הנובע מהפוליסה.",
-    "row_axis": "Policy condition / conflict scenario",
-    "column_axis": "Policy clause / schedule interaction",
+    "summary": "This table outlines conditions related to policy coverage and potential conflicts between the policy terms, attached supplements, and statutory regulations. It details how coverage applies in cases of contradiction between different components of the insurance plan.",
+    "embed_passage": "טבלה זו מתארת תנאים הקשורים לכיסוי הביטוחי במקרה מוות, ובמיוחד סתירות אפשריות בין תנאי הפוליסה, נספחים מצורפים והוראות חוקיות. הפוליסה משווקת כתוכנית, וניתן לצרף לה נספחים. במקרה של סתירה בין הפוליסה לנספח, יחולו תנאי הפוליסה. במקרה של סתירה בין הפוליסה להסדר התחיקתי, יחולו הוראות ההסדר התחיקתי. הפוליסה מגן, תנאי הפוליסה, נספח, הסדר תחיקתי, כיסוי ביטוחי, סתירה.",
+    "row_axis": "conditions/clauses related to policy coverage",
+    "column_axis": "description of the condition/clause",
     "units": [],
     "notable_values": [
-      "policy name: מגן",
-      "conflict resolution: policy terms prevail over schedules",
-      "conflict resolution: statutory regulations prevail over policy terms"
+      "פוליסה: תנאי הפוליסה",
+      "נספח: נספח מצורף",
+      "הסדר תחיקתי: הוראות חוקיות"
     ],
     "product_hints": [
-      "מגן",
-      "ביטוח למקרה מוות"
+      "מגן"
     ]
   },
   "sketch": "0,1\n\"סתירה של במקרה אזי עצמה בפני העומדת כתכנית הפוליסה שווקה ככל לפוליסה, שצורף מסוים נספח של התנאים לבין הפוליסה תנאי בין ותנאי ממנה הנובע הביטוחי הכיסוי על הפוליסה תנאי יחולו שצורף, נספח. מאותו הנובע הביטוחי הכיסוי על יחולו הנספח בין סתירה של במקרה אזי אחרת, לתכנית כנספח הפוליסה שווקה\",1.2.5\n\"של התנאים יחולו האחרת, התכנית לתנאי הפוליסה של התנאים האחרת התכנית ותנאי מהפוליסה הנובע הביטוחי הכיסוי על הפוליסה סתירה של במקרה האחרת. מהתכנית הנובע הביטוחי הכיסוי על יחולו תנאי יחולו האחרת, לתכנית שצורפו אחרים נספחים לבין הפוליסה בין נספח. מאותו הנובע הביטוחי הכיסוי על נספח כל\",\n\"בכל להן. כפופה והיא התחיקתי, ההסדר הוראות חלות זו פוליסה על בהסדר קוגנטיות להוראות הפוליסה הוראות בין סתירה של מקרה התחיקתי. ההסדר הוראות יחולו הת",
-  "embed_text": "פוליסת 'מגן' ביטוח למקרה מוות מציגה תנאים שונים, כאשר במקרה של סתירה בין הפוליסה לנספח שצורף, תנאי הפוליסה יחולו. במקרה של סתירה בין הפוליסה להסדר התחיקתי, הוראות ההסדר התחיקתי יחולו. תנאים אלו חלים על הכיסוי הביטוחי הנובע מהפוליסה.",
-  "payload": "טבלה: תנאי פוליסת ביטוח למקרה מוות מגן\nThis table outlines the conditions of the 'מגן' death benefit insurance policy. It details how the policy interacts with supplementary schedules and statutory regulations, particularly in cases of conflicting terms.\nממדים: Policy condition / conflict scenario, Policy clause / schedule interaction\n\n0,1\n\"סתירה של במקרה אזי עצמה בפני העומדת כתכנית הפוליסה שווקה ככל לפוליסה, שצורף מסוים נספח של התנאים לבין הפוליסה תנאי בין ותנאי ממנה הנובע הביטוחי הכיסוי על הפוליסה תנאי יחולו שצורף, נספח. מאותו הנובע הביטוחי הכיסוי על יחולו הנספח בין סתירה של במקרה אזי אחרת, לתכנית כנספח הפוליסה שווקה\",1.2.5\n\"של התנאים יחולו האחרת, התכנית לתנאי הפוליסה של התנאים האחרת התכנית ותנאי מהפוליסה הנובע הביטוחי הכיסוי על הפוליסה סתירה של במקרה האחרת. מהתכנית הנובע הביטוחי הכיסוי על יחולו תנאי יחולו האחרת, לתכנית שצורפו אחרים נספחים לבין הפוליסה בין נספח. מאותו הנובע הביטוחי הכיסוי על נספח כל\",\n\"בכל להן. כפופה והיא התחיקתי, ההסדר הוראות חלות זו פוליסה על בהסדר קוגנטיות להוראות הפוליסה הוראות בין סתירה של מקרה התחיקתי. ההסדר הוראות יחולו הת"
+  "embed_text": "טבלה זו מתארת תנאים הקשורים לכיסוי הביטוחי במקרה מוות, ובמיוחד סתירות אפשריות בין תנאי הפוליסה, נספחים מצורפים והוראות חוקיות. הפוליסה משווקת כתוכנית, וניתן לצרף לה נספחים. במקרה של סתירה בין הפוליסה לנספח, יחולו תנאי הפוליסה. במקרה של סתירה בין הפוליסה להסדר התחיקתי, יחולו הוראות ההסדר התחיקתי. הפוליסה מגן, תנאי הפוליסה, נספח, הסדר תחיקתי, כיסוי ביטוחי, סתירה. This table outlines conditions related to policy coverage and potential conflicts between the policy terms, attached supplements, and statutory regulations. It details how coverage applies in cases of contradiction between different components of the insurance plan.",
+  "payload": "טבלה: תנאי פוליסת ביטוח למקרה מוות מגן\nThis table outlines conditions related to policy coverage and potential conflicts between the policy terms, attached supplements, and statutory regulations. It details how coverage applies in cases of contradiction between different components of the insurance plan.\nממדים: conditions/clauses related to policy coverage, description of the condition/clause\n\n0,1\n\"סתירה של במקרה אזי עצמה בפני העומדת כתכנית הפוליסה שווקה ככל לפוליסה, שצורף מסוים נספח של התנאים לבין הפוליסה תנאי בין ותנאי ממנה הנובע הביטוחי הכיסוי על הפוליסה תנאי יחולו שצורף, נספח. מאותו הנובע הביטוחי הכיסוי על יחולו הנספח בין סתירה של במקרה אזי אחרת, לתכנית כנספח הפוליסה שווקה\",1.2.5\n\"של התנאים יחולו האחרת, התכנית לתנאי הפוליסה של התנאים האחרת התכנית ותנאי מהפוליסה הנובע הביטוחי הכיסוי על הפוליסה סתירה של במקרה האחרת. מהתכנית הנובע הביטוחי הכיסוי על יחולו תנאי יחולו האחרת, לתכנית שצורפו אחרים נספחים לבין הפוליסה בין נספח. מאותו הנובע הביטוחי הכיסוי על נספח כל\",\n\"בכל להן. כפופה והיא התחיקתי, ההסדר הוראות חלות זו פוליסה על בהסדר קוגנטיות להוראות הפוליסה הוראות בין סתירה של מקרה התחיקתי. ההסדר הוראות יחולו הת"
 }

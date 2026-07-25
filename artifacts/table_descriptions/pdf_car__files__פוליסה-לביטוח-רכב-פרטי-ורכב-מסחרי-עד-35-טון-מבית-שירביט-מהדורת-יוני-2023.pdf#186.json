@@ -3,26 +3,23 @@
   "source": "llm",
   "description": {
     "title": "החלפת רכב",
-    "summary": "This table details adjustments to insurance premiums when a vehicle is replaced during the policy term. It looks up the difference in premiums based on whether the replacement vehicle is more or less expensive.",
-    "embed_passage": "פוליסת שירביט מציעה כיסוי במקרה של החלפת רכב. אם דמי הביטוח עבור הרכב החליפי נמוכים יותר, המבוטח ישלם את ההפרש באופן יחסי לתקופה שנותרה, למשל בתוך 30 ימים. אם דמי הביטוח גבוהים יותר, שירביט תחזיר את ההפרש.",
-    "row_axis": "Scenario regarding vehicle replacement and premium difference",
-    "column_axis": "Policy clauses related to premium adjustment",
-    "units": [
-      "ימים"
-    ],
+    "summary": "This table details adjustments to insurance premiums when a vehicle is replaced during the policy period. It outlines how premium differences are handled based on whether the replacement vehicle has higher or lower insurance costs.",
+    "embed_passage": "טבלה זו מתארת את ההתאמות בדמי הביטוח כאשר רכב מוחלף במהלך תקופת הפוליסה. היא מפרטת כיצד הפרשי דמי הביטוח מטופלים בהתאם לכך אם לרכב החליפי יש עלויות ביטוח גבוהות יותר או נמוכות יותר. הפוליסה היא פוליסה לביטוח רכב פרטי ורכב מסחרי עד 35 טון מבית שירביט. ניתן לבדוק את ההפרש בדמי הביטוח בעת החלפת רכב, בהתאם לתקופה שנותרה בפוליסה. סעיפים רלוונטיים כוללים 44.1, 44.2, 44.3 ו-44.4. ההפרש בדמי הביטוח מחושב באופן יחסי לתקופת הביטוח שנותרה, תוך 30 ימים מיום ההחלפה.",
+    "row_axis": "Scenario of vehicle replacement (premium difference)",
+    "column_axis": "Policy adjustment related to premium difference",
+    "units": [],
     "notable_values": [
-      "30: Number of days for proportional premium adjustment",
-      "44.1: Clause regarding transferring coverage to a replacement vehicle",
-      "44.2: Scenario where replacement vehicle premiums are lower",
-      "44.3: Scenario where replacement vehicle premiums are higher",
-      "44.4: Clause preventing insurer from charging for coverage transfer"
+      "סעיף 44.1: אין תשלום להוצאות המבטח",
+      "סעיף 44.2: הפרש בדמי הביטוח (נמוכים)",
+      "סעיף 44.3: הפרש בדמי הביטוח (גבוהים)",
+      "תקופה: 30 ימים"
     ],
     "product_hints": [
-      "שירביט",
-      "ביטוח רכב"
+      "פוליסה לביטוח רכב פרטי ורכב מסחרי",
+      "שירביט"
     ]
   },
   "sketch": "היו ביום ההחלפה, דמי הביטוח בעבור הרכב המוחלף נמוכים מדמי הביטוח בעבור הרכב .44.2 החליפי, ישלם המבוטח למבטח את ההפרש, באופן יחסי לתקופת הביטוח שנותרה בתוך ימים מיום ההחלפה. 30\nהיו ביום ההחלפה, דמי הביטוח בעבור הרכב המוחלף גבוהים מדמי הביטוח בעבור הרכב .44.3 החליפי, ישלם המבטח למבוטח את ההפרש, באופן יחסי לתקופת הביטוח שנותרה בתוך ימים מיום ההחלפה. 30\nכדי למנוע ממבטח לדרוש תשלום לכיסוי 44.3 ,44.2 ,44.1 אין באמור בסעיפים קטנים .44.4 הוצאותיו בשל העברת הכיסוי הביטוחי לפי תעריפיו המאושרים.",
-  "embed_text": "פוליסת שירביט מציעה כיסוי במקרה של החלפת רכב. אם דמי הביטוח עבור הרכב החליפי נמוכים יותר, המבוטח ישלם את ההפרש באופן יחסי לתקופה שנותרה, למשל בתוך 30 ימים. אם דמי הביטוח גבוהים יותר, שירביט תחזיר את ההפרש.",
-  "payload": "טבלה: החלפת רכב\nThis table details adjustments to insurance premiums when a vehicle is replaced during the policy term. It looks up the difference in premiums based on whether the replacement vehicle is more or less expensive.\nממדים: Scenario regarding vehicle replacement and premium difference, Policy clauses related to premium adjustment\n\nהיו ביום ההחלפה, דמי הביטוח בעבור הרכב המוחלף נמוכים מדמי הביטוח בעבור הרכב .44.2 החליפי, ישלם המבוטח למבטח את ההפרש, באופן יחסי לתקופת הביטוח שנותרה בתוך ימים מיום ההחלפה. 30\nהיו ביום ההחלפה, דמי הביטוח בעבור הרכב המוחלף גבוהים מדמי הביטוח בעבור הרכב .44.3 החליפי, ישלם המבטח למבוטח את ההפרש, באופן יחסי לתקופת הביטוח שנותרה בתוך ימים מיום ההחלפה. 30\nכדי למנוע ממבטח לדרוש תשלום לכיסוי 44.3 ,44.2 ,44.1 אין באמור בסעיפים קטנים .44.4 הוצאותיו בשל העברת הכיסוי הביטוחי לפי תעריפיו המאושרים."
+  "embed_text": "טבלה זו מתארת את ההתאמות בדמי הביטוח כאשר רכב מוחלף במהלך תקופת הפוליסה. היא מפרטת כיצד הפרשי דמי הביטוח מטופלים בהתאם לכך אם לרכב החליפי יש עלויות ביטוח גבוהות יותר או נמוכות יותר. הפוליסה היא פוליסה לביטוח רכב פרטי ורכב מסחרי עד 35 טון מבית שירביט. ניתן לבדוק את ההפרש בדמי הביטוח בעת החלפת רכב, בהתאם לתקופה שנותרה בפוליסה. סעיפים רלוונטיים כוללים 44.1, 44.2, 44.3 ו-44.4. ההפרש בדמי הביטוח מחושב באופן יחסי לתקופת הביטוח שנותרה, תוך 30 ימים מיום ההחלפה. This table details adjustments to insurance premiums when a vehicle is replaced during the policy period. It outlines how premium differences are handled based on whether the replacement vehicle has higher or lower insurance costs. בין הערכים בטבלה: סעיף 44.1: אין תשלום להוצאות המבטח; סעיף 44.2: הפרש בדמי הביטוח (נמוכים); סעיף 44.3: הפרש ב…",
+  "payload": "טבלה: החלפת רכב\nThis table details adjustments to insurance premiums when a vehicle is replaced during the policy period. It outlines how premium differences are handled based on whether the replacement vehicle has higher or lower insurance costs.\nממדים: Scenario of vehicle replacement (premium difference), Policy adjustment related to premium difference\n\nהיו ביום ההחלפה, דמי הביטוח בעבור הרכב המוחלף נמוכים מדמי הביטוח בעבור הרכב .44.2 החליפי, ישלם המבוטח למבטח את ההפרש, באופן יחסי לתקופת הביטוח שנותרה בתוך ימים מיום ההחלפה. 30\nהיו ביום ההחלפה, דמי הביטוח בעבור הרכב המוחלף גבוהים מדמי הביטוח בעבור הרכב .44.3 החליפי, ישלם המבטח למבוטח את ההפרש, באופן יחסי לתקופת הביטוח שנותרה בתוך ימים מיום ההחלפה. 30\nכדי למנוע ממבטח לדרוש תשלום לכיסוי 44.3 ,44.2 ,44.1 אין באמור בסעיפים קטנים .44.4 הוצאותיו בשל העברת הכיסוי הביטוחי לפי תעריפיו המאושרים."
 }

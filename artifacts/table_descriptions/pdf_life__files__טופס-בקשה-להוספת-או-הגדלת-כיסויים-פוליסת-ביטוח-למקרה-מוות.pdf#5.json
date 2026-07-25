@@ -2,24 +2,24 @@
   "id": "pdf:life/files/טופס-בקשה-להוספת-או-הגדלת-כיסויים-פוליסת-ביטוח-למקרה-מוות.pdf#5",
   "source": "llm",
   "description": {
-    "title": "נכות מתאונה",
-    "summary": "This table details coverage for accidental disability under the 'מגן' insurance plan. It shows the insurance amount available, ranging from ₪50,000 to ₪1,500,000.",
-    "embed_passage": "פוליסת 'מגן' מציעה כיסוי לנכות מתאונה, כאשר סכום הביטוח נע בין ₪50,000 ל-₪1,500,000. גובה הפרמיה משתנה מדי שנה, והכיסוי תלוי בגיל המבוטח וסוג העיסוק שלו. ניתן לרכוש נספחים לביטול חריגים, כגון חריג ספורט אתגרי מגיל 21.",
-    "row_axis": "types of accidental disability coverage/riders",
-    "column_axis": "insurance amount (₪)",
+    "title": "נספחים למגן",
+    "summary": "This table details supplemental coverage options for the 'Magen' insurance plan, specifically for accidental death and disability. It shows the coverage amounts and conditions for waiving exclusions.",
+    "embed_passage": "טבלה זו מציגה נספחים אפשריים לפוליסת 'מגן', המתמקדת בכיסויים למקרה של נכות או מוות מתאונה. ניתן לרכוש נספחים אלו כדי להגדיל את סכום הביטוח או לבטל חריגים קיימים, כגון חריג ספורט אתגרי חובבני. סכום הביטוח נע בין ₪50,000 ל-₪1,500,000. הנספחים כוללים ביטול חריג ספורט אתגרי חובבני מגיל 21, וכן כיסוי לנכות מתאונה ומוות מתאונה. ניתן לרכוש נספח לביטול חריגים לכלי רכב דו גלגליים. 'מגן' הוא שם התוכנית.",
+    "row_axis": "type of supplemental coverage (e.g., נכות מתאונה, מוות מתאונה)",
+    "column_axis": "coverage details (amount, exclusion waiver conditions)",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "minimum amount: ₪50,000",
-      "maximum amount: ₪1,500,000",
-      "age for waiver: 21"
+      "סכום ביטוח: ₪50,000 - ₪1,500,000",
+      "ביטול חריג ספורט אתגרי חובבני: מגיל 21",
+      "תקופת המתנה לשחרור מתשלום פרמיה: 3 חודשים"
     ],
     "product_hints": [
       "מגן"
     ]
   },
-  "sketch": "1 נכות מתאונה\n₪\n)₪  1,500,000 ועד ₪  50,000 (מינימום\n₪\n…\n)₪  1,500,000 ועד ₪  50,000 (מינימום\n₪\n)₪  1,500,000 ועד ₪  50,000 (מינימום\n)21 ביטול חריג ספורט אתגרי חובבני (לרכישה מגיל",
-  "embed_text": "פוליסת 'מגן' מציעה כיסוי לנכות מתאונה, כאשר סכום הביטוח נע בין ₪50,000 ל-₪1,500,000. גובה הפרמיה משתנה מדי שנה, והכיסוי תלוי בגיל המבוטח וסוג העיסוק שלו. ניתן לרכוש נספחים לביטול חריגים, כגון חריג ספורט אתגרי מגיל 21.",
-  "payload": "טבלה: נכות מתאונה\nThis table details coverage for accidental disability under the 'מגן' insurance plan. It shows the insurance amount available, ranging from ₪50,000 to ₪1,500,000.\nממדים: types of accidental disability coverage/riders, insurance amount (₪)\n\n1 נכות מתאונה\n₪\n)₪  1,500,000 ועד ₪  50,000 (מינימום\n₪\n)₪  1,500,000 ועד ₪  50,000 (מינימום\n)21 ביטול חריג ספורט אתגרי חובבני (לרכישה מגיל\nביטול חריג דו גלגלי/ אופניים חשמליים/ קורקינט חשמלי/ / סגווי/ כלי תחבורה דו גלגלי ממונע אחר ו/או בעל מנוע חשמלי )21 טרקטורון (לרכישה מגיל\n1 מוות מתאונה\n₪\n)₪  1,500,000 ועד ₪  50,000 (מינימום\n₪\n)₪  1,500,000 ועד ₪  50,000 (מינימום\n)21 ביטול חריג ספורט אתגרי חובבני (לרכישה מגיל"
+  "sketch": "1 נכות מתאונה\n₪\n)₪  1,500,000 ועד ₪  50,000 (מינימום\n₪\n)₪  1,500,000 ועד ₪  50,000 (מינימום\n)21 ביטול חריג ספורט אתגרי חובבני (לרכישה מגיל\n…\n1 מוות מתאונה\n₪\n)₪  1,500,000 ועד ₪  50,000 (מינימום\n₪\n)₪  1,500,000 ועד ₪  50,000 (מינימום\n)21 ביטול חריג ספורט אתגרי חובבני (לרכישה מגיל",
+  "embed_text": "טבלה זו מציגה נספחים אפשריים לפוליסת 'מגן', המתמקדת בכיסויים למקרה של נכות או מוות מתאונה. ניתן לרכוש נספחים אלו כדי להגדיל את סכום הביטוח או לבטל חריגים קיימים, כגון חריג ספורט אתגרי חובבני. סכום הביטוח נע בין ₪50,000 ל-₪1,500,000. הנספחים כוללים ביטול חריג ספורט אתגרי חובבני מגיל 21, וכן כיסוי לנכות מתאונה ומוות מתאונה. ניתן לרכוש נספח לביטול חריגים לכלי רכב דו גלגליים. 'מגן' הוא שם התוכנית. This table details supplemental coverage options for the 'Magen' insurance plan, specifically for accidental death and disability. It shows the coverage amounts and conditions for waiving exclusions. בין הערכים בטבלה: סכום ביטוח: ₪50,000 - ₪1,500,000; תקופת המתנה לשחרור מתשלום פרמיה: 3 חודשים.",
+  "payload": "טבלה: נספחים למגן\nThis table details supplemental coverage options for the 'Magen' insurance plan, specifically for accidental death and disability. It shows the coverage amounts and conditions for waiving exclusions.\nממדים: type of supplemental coverage (e.g., נכות מתאונה, מוות מתאונה), coverage details (amount, exclusion waiver conditions)\n\n1 נכות מתאונה\n₪\n)₪  1,500,000 ועד ₪  50,000 (מינימום\n₪\n)₪  1,500,000 ועד ₪  50,000 (מינימום\n)21 ביטול חריג ספורט אתגרי חובבני (לרכישה מגיל\nביטול חריג דו גלגלי/ אופניים חשמליים/ קורקינט חשמלי/ / סגווי/ כלי תחבורה דו גלגלי ממונע אחר ו/או בעל מנוע חשמלי )21 טרקטורון (לרכישה מגיל\n1 מוות מתאונה\n₪\n)₪  1,500,000 ועד ₪  50,000 (מינימום\n₪\n)₪  1,500,000 ועד ₪  50,000 (מינימום\n)21 ביטול חריג ספורט אתגרי חובבני (לרכישה מגיל"
 }

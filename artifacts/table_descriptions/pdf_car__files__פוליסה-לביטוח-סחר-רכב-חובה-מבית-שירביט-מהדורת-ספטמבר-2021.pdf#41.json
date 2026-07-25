@@ -3,21 +3,21 @@
   "source": "llm",
   "description": {
     "title": "דוח תביעות",
-    "summary": "This table describes the claims report provided by Shirbit insurance. It details the information included in the report, such as claims filed within the last three years or during the policy period.",
-    "embed_passage": "פוליסת ביטוח סחר רכב חובה של שירביט כוללת דוח תביעות שמפרט את כל התביעות שהוגשו עד למועד מסוים. הדוח יפרט פרטי הנהג המעורב בתאונה עבור תביעות שהוגשו בשלוש השנים האחרונות או בתקופת הביטוח, לפי המוקדם מביניהם. עדכון לדוח התביעות ישלח מיד עם הגשת תביעה במהלך החודש שלפני תום תקופת הביטוח.",
-    "row_axis": "Time period / claim status",
-    "column_axis": "Claim details",
+    "summary": "This table describes the claims report provided by Shirbit insurance. It details when and what information is included in the report sent to the policyholder.",
+    "embed_passage": "טבלה זו מתארת את דוח התביעות של שירביט, המפרט את כל התביעות שהוגשו עד למועד מסוים. הדוח נשלח לבעל הפוליסה חודש לפני תום תקופת הביטוח או מיד בסיומה, ומפרט את פרטי הנהג המעורב בתאונה בשלוש השנים האחרונות או בתקופת הביטוח אצל שירביט, לפי המוקדם מביניהן. אם הוגשה תביעה במהלך החודש שלפני תום הביטוח, תישלח עדכון מידי לדוח התביעות. דוח תביעות, שירביט, תאונה, תביעה, נהג, עדכון.",
+    "row_axis": "Time period related to claims reporting",
+    "column_axis": "Details of claims report content and timing",
     "units": [],
     "notable_values": [
-      "3 שנים: period for which claim details are included",
-      "חודש: timeframe before policy end for updated report"
+      "Reporting timeframe: 3 years",
+      "Report sent: month before policy end",
+      "Report update: immediate upon claim filing"
     ],
     "product_hints": [
-      "ביטוח סחר רכב חובה",
-      "שירביט"
+      "ביטוח סחר רכב חובה שירביט"
     ]
   },
   "sketch": "דוח תביעות .  21\nחודש לפני תום תקופת הביטוח או מיד בסיומה, אם היא מסתיימת באופן )א( בלתי צפוי, ישלח המבטח לבעל הפוליסה דוח תביעות שיפרט בו את כל .( התביעות שהוגשו עד לאותו מועד, ככל שהוגשו )להלן - דוח תביעות\nבדוח  התביעות  יפרט  המבטח,  לגבי  כל  תביעה  שהוגשה  בשלוש  השנים )ב  ( שקדמו למועד שליחת הדוח או שהוגשה בתקופה שבה היה בעל הפוליסה מבוטח אצל המבטח, לפי הקצרה מביניהן, את פרטי הנהג המעורב בתאונה.\nהוגשה תביעה במהלך החודש שלפני תום תקופת הביטוח, ישלח המבטח )ג  ( עדכון לדוח התביעות מיד עם הגשת התביעה.",
-  "embed_text": "פוליסת ביטוח סחר רכב חובה של שירביט כוללת דוח תביעות שמפרט את כל התביעות שהוגשו עד למועד מסוים. הדוח יפרט פרטי הנהג המעורב בתאונה עבור תביעות שהוגשו בשלוש השנים האחרונות או בתקופת הביטוח, לפי המוקדם מביניהם. עדכון לדוח התביעות ישלח מיד עם הגשת תביעה במהלך החודש שלפני תום תקופת הביטוח.",
-  "payload": "טבלה: דוח תביעות\nThis table describes the claims report provided by Shirbit insurance. It details the information included in the report, such as claims filed within the last three years or during the policy period.\nממדים: Time period / claim status, Claim details\n\nדוח תביעות .  21\nחודש לפני תום תקופת הביטוח או מיד בסיומה, אם היא מסתיימת באופן )א( בלתי צפוי, ישלח המבטח לבעל הפוליסה דוח תביעות שיפרט בו את כל .( התביעות שהוגשו עד לאותו מועד, ככל שהוגשו )להלן - דוח תביעות\nבדוח  התביעות  יפרט  המבטח,  לגבי  כל  תביעה  שהוגשה  בשלוש  השנים )ב  ( שקדמו למועד שליחת הדוח או שהוגשה בתקופה שבה היה בעל הפוליסה מבוטח אצל המבטח, לפי הקצרה מביניהן, את פרטי הנהג המעורב בתאונה.\nהוגשה תביעה במהלך החודש שלפני תום תקופת הביטוח, ישלח המבטח )ג  ( עדכון לדוח התביעות מיד עם הגשת התביעה."
+  "embed_text": "טבלה זו מתארת את דוח התביעות של שירביט, המפרט את כל התביעות שהוגשו עד למועד מסוים. הדוח נשלח לבעל הפוליסה חודש לפני תום תקופת הביטוח או מיד בסיומה, ומפרט את פרטי הנהג המעורב בתאונה בשלוש השנים האחרונות או בתקופת הביטוח אצל שירביט, לפי המוקדם מביניהן. אם הוגשה תביעה במהלך החודש שלפני תום הביטוח, תישלח עדכון מידי לדוח התביעות. דוח תביעות, שירביט, תאונה, תביעה, נהג, עדכון. This table describes the claims report provided by Shirbit insurance. It details when and what information is included in the report sent to the policyholder. בין הערכים בטבלה: Reporting timeframe: 3 years; Report sent: month before policy end; Report update: immediate upon claim filing.",
+  "payload": "טבלה: דוח תביעות\nThis table describes the claims report provided by Shirbit insurance. It details when and what information is included in the report sent to the policyholder.\nממדים: Time period related to claims reporting, Details of claims report content and timing\n\nדוח תביעות .  21\nחודש לפני תום תקופת הביטוח או מיד בסיומה, אם היא מסתיימת באופן )א( בלתי צפוי, ישלח המבטח לבעל הפוליסה דוח תביעות שיפרט בו את כל .( התביעות שהוגשו עד לאותו מועד, ככל שהוגשו )להלן - דוח תביעות\nבדוח  התביעות  יפרט  המבטח,  לגבי  כל  תביעה  שהוגשה  בשלוש  השנים )ב  ( שקדמו למועד שליחת הדוח או שהוגשה בתקופה שבה היה בעל הפוליסה מבוטח אצל המבטח, לפי הקצרה מביניהן, את פרטי הנהג המעורב בתאונה.\nהוגשה תביעה במהלך החודש שלפני תום תקופת הביטוח, ישלח המבטח )ג  ( עדכון לדוח התביעות מיד עם הגשת התביעה."
 }

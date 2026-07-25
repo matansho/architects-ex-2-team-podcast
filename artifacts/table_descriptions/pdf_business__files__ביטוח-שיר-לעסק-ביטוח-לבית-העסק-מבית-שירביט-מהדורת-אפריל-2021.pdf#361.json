@@ -3,17 +3,16 @@
   "source": "llm",
   "description": {
     "title": "התאמת שכר",
-    "summary": "This table details the adjustment of insurance premiums based on the total annual salary paid to employees and the total number of employees. It outlines the process for submitting salary declarations and reconciling premium payments.",
-    "embed_passage": "ביטוח שיר לעסק מבית שירביט מספק כיסוי לעסקים, כאשר גובה הפרמיה מותאם על סמך סך השכר השנתי המשולם לעובדים ומספרם. לדוגמה, הצהרה על סך השכר ששולם לעובדים בתקופת הביטוח, או הצהרה 126, נדרשת תוך 30 יום מתום תקופת הביטוח. אם סך השכר ששולם שונה מההצהרה המקורית, יותאם החשבון הסופי של דמי הביטוח.",
-    "row_axis": "Details regarding salary adjustment process",
-    "column_axis": "Aspects of salary declaration and premium reconciliation",
+    "summary": "This table details the adjustment of wages paid to employees for insurance purposes. It outlines how the final insurance premium is calculated based on the total wages paid and the number of employees.",
+    "embed_passage": "טבלה זו עוסקת בהתאמת שכר לצורך חישוב דמי ביטוח לעסק, על בסיס הצהרת המבוטח בתחילת תקופת הביטוח. המטרה היא להתאים את החשבון הסופי של דמי הביטוח בהתאם לשכר בפועל ששולם לעובדים ולמספרם. הנתונים העיקריים כוללים את סך השכר השנתי המשולם לעובדים, מספר העובדים המועסקים, וטופס 126 או המוגש לביטוח הלאומי. ביטוח שיר לעסק מבית שירביט הוא המוצר הרלוונטי. נתונים לדוגמה כוללים את מהדורה 4529 ממרץ 2021.",
+    "row_axis": "Records related to wage adjustment calculations",
+    "column_axis": "Details of wage adjustment process (e.g., total wage, number of employees, reporting requirements)",
     "units": [],
     "notable_values": [
-      "30: Number of days to submit salary declaration",
-      "126: Form number for employee count declaration",
-      "5.2.1: Section number for initial salary basis",
-      "5.2.2: Section number for post-period declaration",
-      "4529: Edition number"
+      "מהדורה: 4529",
+      "תקופה: 3/2021",
+      "טופס: 126",
+      "תקופת הביטוח: 30 יום"
     ],
     "product_hints": [
       "ביטוח שיר לעסק",
@@ -21,6 +20,6 @@
     ]
   },
   "sketch": "התאמת שכר 5.2\nוהם חושבו על יסוד דמי הביטוח הנקובים ברשימה הינם ארעיים 5.2.1 סך  גובה  השכר  השנתי  המשולם  על  ידי  המבוטח  לעובדיו  ועל יסוד מספרם הכולל של עובדי המבוטח, הכל בהתאם להצהרת . המבוטח בתחילת תקופת הביטוח\nיום מתום תקופת הביטוח ימציא המבוטח למבטח הצהרה 30 תוך 5.2.2 , לגבי  סך  כל  השכר  ששילם  לעובדיו  במשך  תקופת  הביטוח המוגש לביטוח הלאומי, או הצהרה 126 הנתמכת בעותק מטופס , על  מספר העובדים המרבי אשר הועסקו במהלך תקופת הביטוח . לפי העניין\nאם  סך  כל  השכר  ששילם  המבטח  לעובדיו  או  מספרם  הכולל במשך תקופת הביטוח, יהיה שונה מהצהרת המבוטח שעל פיה\n4529 | 3/2021\nמהדורה\nשולמו דמי הביטוח, יותאם החשבון הסופי של דמי הביטוח, על ידי תשלום הפרש דמי הביטוח למבטח או החזר הפרש דמי הביטוח . למבוטח, כפי שיחייב המקרה",
-  "embed_text": "ביטוח שיר לעסק מבית שירביט מספק כיסוי לעסקים, כאשר גובה הפרמיה מותאם על סמך סך השכר השנתי המשולם לעובדים ומספרם. לדוגמה, הצהרה על סך השכר ששולם לעובדים בתקופת הביטוח, או הצהרה 126, נדרשת תוך 30 יום מתום תקופת הביטוח. אם סך השכר ששולם שונה מההצהרה המקורית, יותאם החשבון הסופי של דמי הביטוח.",
-  "payload": "טבלה: התאמת שכר\nThis table details the adjustment of insurance premiums based on the total annual salary paid to employees and the total number of employees. It outlines the process for submitting salary declarations and reconciling premium payments.\nממדים: Details regarding salary adjustment process, Aspects of salary declaration and premium reconciliation\n\nהתאמת שכר 5.2\nוהם חושבו על יסוד דמי הביטוח הנקובים ברשימה הינם ארעיים 5.2.1 סך  גובה  השכר  השנתי  המשולם  על  ידי  המבוטח  לעובדיו  ועל יסוד מספרם הכולל של עובדי המבוטח, הכל בהתאם להצהרת . המבוטח בתחילת תקופת הביטוח\nיום מתום תקופת הביטוח ימציא המבוטח למבטח הצהרה 30 תוך 5.2.2 , לגבי  סך  כל  השכר  ששילם  לעובדיו  במשך  תקופת  הביטוח המוגש לביטוח הלאומי, או הצהרה 126 הנתמכת בעותק מטופס , על  מספר העובדים המרבי אשר הועסקו במהלך תקופת הביטוח . לפי העניין\nאם  סך  כל  השכר  ששילם  המבטח  לעובדיו  או  מספרם  הכולל במשך תקופת הביטוח, יהיה שונה מהצהרת המבוטח שעל פיה\n4529 | 3/2021\nמהדורה\nשולמו דמי הביטוח, יותאם החשבון הסופי של דמי הביטוח, על ידי תשלום הפרש דמי הביטוח למבטח או החזר הפרש דמי הביטוח . למבוטח, כפי שיחייב המקרה"
+  "embed_text": "טבלה זו עוסקת בהתאמת שכר לצורך חישוב דמי ביטוח לעסק, על בסיס הצהרת המבוטח בתחילת תקופת הביטוח. המטרה היא להתאים את החשבון הסופי של דמי הביטוח בהתאם לשכר בפועל ששולם לעובדים ולמספרם. הנתונים העיקריים כוללים את סך השכר השנתי המשולם לעובדים, מספר העובדים המועסקים, וטופס 126 או המוגש לביטוח הלאומי. ביטוח שיר לעסק מבית שירביט הוא המוצר הרלוונטי. נתונים לדוגמה כוללים את מהדורה 4529 ממרץ 2021. This table details the adjustment of wages paid to employees for insurance purposes. It outlines how the final insurance premium is calculated based on the total wages paid and the number of employees. בין הערכים בטבלה: תקופה: 3/2021.",
+  "payload": "טבלה: התאמת שכר\nThis table details the adjustment of wages paid to employees for insurance purposes. It outlines how the final insurance premium is calculated based on the total wages paid and the number of employees.\nממדים: Records related to wage adjustment calculations, Details of wage adjustment process (e.g., total wage, number of employees, reporting requirements)\n\nהתאמת שכר 5.2\nוהם חושבו על יסוד דמי הביטוח הנקובים ברשימה הינם ארעיים 5.2.1 סך  גובה  השכר  השנתי  המשולם  על  ידי  המבוטח  לעובדיו  ועל יסוד מספרם הכולל של עובדי המבוטח, הכל בהתאם להצהרת . המבוטח בתחילת תקופת הביטוח\nיום מתום תקופת הביטוח ימציא המבוטח למבטח הצהרה 30 תוך 5.2.2 , לגבי  סך  כל  השכר  ששילם  לעובדיו  במשך  תקופת  הביטוח המוגש לביטוח הלאומי, או הצהרה 126 הנתמכת בעותק מטופס , על  מספר העובדים המרבי אשר הועסקו במהלך תקופת הביטוח . לפי העניין\nאם  סך  כל  השכר  ששילם  המבטח  לעובדיו  או  מספרם  הכולל במשך תקופת הביטוח, יהיה שונה מהצהרת המבוטח שעל פיה\n4529 | 3/2021\nמהדורה\nשולמו דמי הביטוח, יותאם החשבון הסופי של דמי הביטוח, על ידי תשלום הפרש דמי הביטוח למבטח או החזר הפרש דמי הביטוח . למבוטח, כפי שיחייב המקרה"
 }

@@ -3,22 +3,22 @@
   "source": "llm",
   "description": {
     "title": "תנאי פוליסת ביטוח חיים",
-    "summary": "This table outlines conditions related to life insurance policy claims when a material misrepresentation is discovered. It details scenarios where the insurance company may reduce or deny payouts.",
-    "embed_passage": "פוליסת ביטוח חיים להבטחת המשכנתה עשויה להיות מופחתת או מבוטלת אם ניתנה תשובה שאינה מלאה וכנה לשאלות מהותיות. לדוגמה, אם מבטח סביר לא היה מתקשר בפוליסה זו בפרמיה גבוהה יותר אילו ידע את המצב לאמיתו, ייתכן והתגמולים יופחתו באופן יחסי. במקרה של ביטול, המבוטח זכאי להחזר הפרמיות ששילם בניכוי הוצאות החברה.",
-    "row_axis": "Conditions for reduced or denied claims due to misrepresentation",
-    "column_axis": "Claim conditions and company rights",
+    "summary": "This table outlines conditions related to insurance claim reductions due to misrepresentation. It details scenarios where the insurance company may reduce payouts or cancel the policy if inaccurate information was provided.",
+    "embed_passage": "טבלה זו מתארת תנאים הקשורים להפחתת תביעות ביטוח עקב הצגה שגויה של מידע. הפוליסה להבטחת המשכנתה עשויה להפחית תגמולים או לבטל את הפוליסה אם מידע לא מדויק סופק. במקרה של תשובה שניתנה בכוונת מירמה, החברה פטורה מתשלום. אם מבטח סביר לא היה מתקשר בפוליסה זו גם בפרמיה גבוהה יותר, המבוטח זכאי להחזר פרמיות בניכוי הוצאות החברה. התנאים מתייחסים למקרים בהם תשובה ניתנה בכוונת מירמה או כאשר המצב האמיתי לא נחשף. הפוליסה להבטחת המשכנתה, פרמיה משתנה, תגמולים מופחתים, כוונת מירמה, מבטח סביר.",
+    "row_axis": "conditions for reduced insurance payout",
+    "column_axis": "scenario/reason for reduction",
     "units": [],
     "notable_values": [
-      "5.4.1: Intentional misrepresentation",
-      "5.4.2: Unwillingness to insure at a higher premium",
-      "30: Days to cancel the policy"
+      "intention to defraud: applicable",
+      "reasonable insurer: applicable",
+      "premium refund: applicable (with deductions)"
     ],
     "product_hints": [
-      "ביטוח חיים להבטחת המשכנתה",
-      "פוליסת ביטוח חיים"
+      "פוליסת ביטוח חיים",
+      "להבטחת המשכנתה"
     ]
   },
   "sketch": "5.4 קרה מקרה הביטוח לפני שנתבטלה הפוליסה מכוח האמור לעיל, אין החברה חייבת אלא בתגמולי ביטוח מופחתים בשיעור יחסי שהוא כיחס שבין הפרמיות שהיו משתלמות כמקובל אצלה, לפי המצב לאמיתו לבין הפרמיות המוסכמות כמפורט בדף פרטי הביטוח והיא פטורה כליל בכל אחת מאלה:\nהתשובה ניתנה בכוונת מירמה. 5.4.1\nמבטח סביר  לא היה מתקשר על פי פוליסה זו אף בפרמיה גבוהה יותר 5.4.2 אילו ידע את המצב לאמיתו. במקרה זה, זכאי המבוטח להחזר הפרמיות ששילם  בעד  התקופה  שלאחר  קרות  מקרה  הביטוח,  בניכוי  הוצאות החברה.",
-  "embed_text": "פוליסת ביטוח חיים להבטחת המשכנתה עשויה להיות מופחתת או מבוטלת אם ניתנה תשובה שאינה מלאה וכנה לשאלות מהותיות. לדוגמה, אם מבטח סביר לא היה מתקשר בפוליסה זו בפרמיה גבוהה יותר אילו ידע את המצב לאמיתו, ייתכן והתגמולים יופחתו באופן יחסי. במקרה של ביטול, המבוטח זכאי להחזר הפרמיות ששילם בניכוי הוצאות החברה.",
-  "payload": "טבלה: תנאי פוליסת ביטוח חיים\nThis table outlines conditions related to life insurance policy claims when a material misrepresentation is discovered. It details scenarios where the insurance company may reduce or deny payouts.\nממדים: Conditions for reduced or denied claims due to misrepresentation, Claim conditions and company rights\n\n5.4 קרה מקרה הביטוח לפני שנתבטלה הפוליסה מכוח האמור לעיל, אין החברה חייבת אלא בתגמולי ביטוח מופחתים בשיעור יחסי שהוא כיחס שבין הפרמיות שהיו משתלמות כמקובל אצלה, לפי המצב לאמיתו לבין הפרמיות המוסכמות כמפורט בדף פרטי הביטוח והיא פטורה כליל בכל אחת מאלה:\nהתשובה ניתנה בכוונת מירמה. 5.4.1\nמבטח סביר  לא היה מתקשר על פי פוליסה זו אף בפרמיה גבוהה יותר 5.4.2 אילו ידע את המצב לאמיתו. במקרה זה, זכאי המבוטח להחזר הפרמיות ששילם  בעד  התקופה  שלאחר  קרות  מקרה  הביטוח,  בניכוי  הוצאות החברה."
+  "embed_text": "טבלה זו מתארת תנאים הקשורים להפחתת תביעות ביטוח עקב הצגה שגויה של מידע. הפוליסה להבטחת המשכנתה עשויה להפחית תגמולים או לבטל את הפוליסה אם מידע לא מדויק סופק. במקרה של תשובה שניתנה בכוונת מירמה, החברה פטורה מתשלום. אם מבטח סביר לא היה מתקשר בפוליסה זו גם בפרמיה גבוהה יותר, המבוטח זכאי להחזר פרמיות בניכוי הוצאות החברה. התנאים מתייחסים למקרים בהם תשובה ניתנה בכוונת מירמה או כאשר המצב האמיתי לא נחשף. הפוליסה להבטחת המשכנתה, פרמיה משתנה, תגמולים מופחתים, כוונת מירמה, מבטח סביר. This table outlines conditions related to insurance claim reductions due to misrepresentation. It details scenarios where the insurance company may reduce payouts or cancel the policy if inaccurate information was provided. בין הערכים בטבלה: intention to defraud: applicable; reasonable insurer: applicable; premium refun…",
+  "payload": "טבלה: תנאי פוליסת ביטוח חיים\nThis table outlines conditions related to insurance claim reductions due to misrepresentation. It details scenarios where the insurance company may reduce payouts or cancel the policy if inaccurate information was provided.\nממדים: conditions for reduced insurance payout, scenario/reason for reduction\n\n5.4 קרה מקרה הביטוח לפני שנתבטלה הפוליסה מכוח האמור לעיל, אין החברה חייבת אלא בתגמולי ביטוח מופחתים בשיעור יחסי שהוא כיחס שבין הפרמיות שהיו משתלמות כמקובל אצלה, לפי המצב לאמיתו לבין הפרמיות המוסכמות כמפורט בדף פרטי הביטוח והיא פטורה כליל בכל אחת מאלה:\nהתשובה ניתנה בכוונת מירמה. 5.4.1\nמבטח סביר  לא היה מתקשר על פי פוליסה זו אף בפרמיה גבוהה יותר 5.4.2 אילו ידע את המצב לאמיתו. במקרה זה, זכאי המבוטח להחזר הפרמיות ששילם  בעד  התקופה  שלאחר  קרות  מקרה  הביטוח,  בניכוי  הוצאות החברה."
 }

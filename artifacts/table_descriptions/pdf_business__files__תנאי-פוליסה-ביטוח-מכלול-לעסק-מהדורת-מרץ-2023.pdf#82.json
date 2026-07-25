@@ -2,24 +2,23 @@
   "id": "pdf:business/files/תנאי-פוליסה-ביטוח-מכלול-לעסק-מהדורת-מרץ-2023.pdf#82",
   "source": "llm",
   "description": {
-    "title": "הרחבות ביטוח מכלול",
-    "summary": "This table details extensions to the 'מכלול' business insurance policy, specifically regarding liability limits for various coverage extensions. It outlines the maximum coverage amounts as a percentage of the total insured value.",
-    "embed_passage": "פוליסת 'מכלול' לעסק מציעה הרחבות שונות לכיסוי רכוש, כגון הרחבה לרכוש עובדים והרחבה לתכולה הנמצאת תחת כיפת השמים. האחריות של המבטח על פי הרחבה לרכוש עובדים לא תעלה על 3% מסכום הביטוח של התכולה לאדם אחד, או 1% מסכום ביטוח התכולה לתקופת הביטוח.",
-    "row_axis": "types of coverage extensions (e.g., employee property, outdoor property)",
-    "column_axis": "liability limits and special conditions",
-    "units": [
-      "%"
-    ],
+    "title": "הרחבות ביטוח תכולה",
+    "summary": "This table details extensions to property insurance coverage, specifically regarding employee property, property in the open, and goods in process/storage. It outlines the limits of liability for these extensions.",
+    "embed_passage": "טבלה זו מתארת הרחבות לביטוח תכולה, כגון אחריות המבטח על פי הרחבה לרכוש עובדים והרחבה לתכולה הנמצאת תחת כיפת השמים. ניתן למצוא מידע על סייגים מיוחדים להרחבות אלו, כמו גם את מגבלות האחריות של המבטח. הרחבות אלו מיועדות לעסק מהדורת מרץ 2023 של ביטוח מכלול. הרחבה לרכוש עובדים, הרחבה לתכולה תחת כיפת השמים, אחריות המבטח, סייג מיוחד להרחבה זו, מסכום ביטוח.",
+    "row_axis": "type of extension to property insurance",
+    "column_axis": "details of the extension (limitations, exclusions)",
+    "units": [],
     "notable_values": [
-      "maximum liability: 3%",
-      "maximum liability: 1%",
-      "liability limit: 10%"
+      "אחריות המבטח לרכוש עובדים: 3%",
+      "אחריות המבטח לתכולה: 1%",
+      "אחריות המבטח להרחבה זו: 10%",
+      "אבדן או נזק עקב סיכוני טבע: לא מכסה"
     ],
     "product_hints": [
-      "מכלול"
+      "ביטוח מכלול"
     ]
   },
   "sketch": ", סייג מיוחד להרחבה זו: אלא אם צוין אחרת בדף הרשימה .3.5.2.2 הרחבה זו אינה מכסה אבדן או נזק עקב סיכוני טבע, של תכולה ושל חומרים שבשל סיווגם ו/או איפיונם ו/או אופיים אינם כאלה אשר מטיבם ומטבעם אינם אמורים להימצא תחת כיפת השמיים.\nמסכום 10% אחריות המבטח על פי הרחבה זו לא תעלה על .3.5.2.3 אלא אם צוין הביטוח הנקוב ברשימה של התכולה, לפי העניין, אחרת בדף הרשימה.",
-  "embed_text": "פוליסת 'מכלול' לעסק מציעה הרחבות שונות לכיסוי רכוש, כגון הרחבה לרכוש עובדים והרחבה לתכולה הנמצאת תחת כיפת השמים. האחריות של המבטח על פי הרחבה לרכוש עובדים לא תעלה על 3% מסכום הביטוח של התכולה לאדם אחד, או 1% מסכום ביטוח התכולה לתקופת הביטוח.",
-  "payload": "טבלה: הרחבות ביטוח מכלול\nThis table details extensions to the 'מכלול' business insurance policy, specifically regarding liability limits for various coverage extensions. It outlines the maximum coverage amounts as a percentage of the total insured value.\nממדים: types of coverage extensions (e.g., employee property, outdoor property), liability limits and special conditions\n\n, סייג מיוחד להרחבה זו: אלא אם צוין אחרת בדף הרשימה .3.5.2.2 הרחבה זו אינה מכסה אבדן או נזק עקב סיכוני טבע, של תכולה ושל חומרים שבשל סיווגם ו/או איפיונם ו/או אופיים אינם כאלה אשר מטיבם ומטבעם אינם אמורים להימצא תחת כיפת השמיים.\nמסכום 10% אחריות המבטח על פי הרחבה זו לא תעלה על .3.5.2.3 אלא אם צוין הביטוח הנקוב ברשימה של התכולה, לפי העניין, אחרת בדף הרשימה."
+  "embed_text": "טבלה זו מתארת הרחבות לביטוח תכולה, כגון אחריות המבטח על פי הרחבה לרכוש עובדים והרחבה לתכולה הנמצאת תחת כיפת השמים. ניתן למצוא מידע על סייגים מיוחדים להרחבות אלו, כמו גם את מגבלות האחריות של המבטח. הרחבות אלו מיועדות לעסק מהדורת מרץ 2023 של ביטוח מכלול. הרחבה לרכוש עובדים, הרחבה לתכולה תחת כיפת השמים, אחריות המבטח, סייג מיוחד להרחבה זו, מסכום ביטוח. This table details extensions to property insurance coverage, specifically regarding employee property, property in the open, and goods in process/storage. It outlines the limits of liability for these extensions. בין הערכים בטבלה: אחריות המבטח לרכוש עובדים: 3%; אחריות המבטח לתכולה: 1%; אחריות המבטח להרחבה זו: 10%; אבדן או נזק עקב סיכוני טבע: לא מכסה.",
+  "payload": "טבלה: הרחבות ביטוח תכולה\nThis table details extensions to property insurance coverage, specifically regarding employee property, property in the open, and goods in process/storage. It outlines the limits of liability for these extensions.\nממדים: type of extension to property insurance, details of the extension (limitations, exclusions)\n\n, סייג מיוחד להרחבה זו: אלא אם צוין אחרת בדף הרשימה .3.5.2.2 הרחבה זו אינה מכסה אבדן או נזק עקב סיכוני טבע, של תכולה ושל חומרים שבשל סיווגם ו/או איפיונם ו/או אופיים אינם כאלה אשר מטיבם ומטבעם אינם אמורים להימצא תחת כיפת השמיים.\nמסכום 10% אחריות המבטח על פי הרחבה זו לא תעלה על .3.5.2.3 אלא אם צוין הביטוח הנקוב ברשימה של התכולה, לפי העניין, אחרת בדף הרשימה."
 }

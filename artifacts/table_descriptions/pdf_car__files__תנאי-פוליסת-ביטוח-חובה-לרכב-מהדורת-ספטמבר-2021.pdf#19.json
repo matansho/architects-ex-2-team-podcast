@@ -2,23 +2,23 @@
   "id": "pdf:car/files/תנאי-פוליסת-ביטוח-חובה-לרכב-מהדורת-ספטמבר-2021.pdf#19",
   "source": "llm",
   "description": {
-    "title": "פוליסת ביטוח חובה לרכב",
-    "summary": "This table details exceptions to the insurer's liability regarding a driver's license. It specifies conditions under which the insurer remains liable even if the driver did not have a valid license.",
-    "embed_passage": "פוליסת ביטוח חובה לרכב עוסקת במצבים בהם המבטח עדיין אחראי גם אם הנהג לא החזיק ברישיון נהיגה בתוקף. לדוגמה, אם הנהג החזיק ברישיון נהיגה בר-תוקף במשך 120 חודשים לפני התאונה, המבטח לא יהיה פטור מחבותו. התנאים מתייחסים גם למקרים של פסילה או צורך במבחנים רפואיים.",
-    "row_axis": "Exceptions to insurer liability",
-    "column_axis": "Conditions related to driver's license validity",
+    "title": "תנאי פוליסת ביטוח חובה לרכב",
+    "summary": "This table details exceptions to the insurer's liability regarding valid driver's licenses. It specifies conditions under which the insurer remains liable even if the driver's license was not fully valid.",
+    "embed_passage": "טבלה זו עוסקת בתנאי פוליסת ביטוח חובה לרכב, ובפרט בחריגים הנוגעים לרישיון נהיגה בר-תוקף. מטרתה להבהיר מתי המבטח עדיין אחראי במקרה של תאונה, גם אם לנהג לא היה רישיון תקף לחלוטין. ניתן לעיין בתנאים אלו בסעיפים 8.1 ו-8.2.1. הפוליסה מתייחסת למצבים כגון פסילה מלקבל רישיון, דרישות לקבלת רישיון (מבחן עיוני, מעשי, רפואי), ואי תשלום אגרה. תנאי הפוליסה, רישיון נהיגה, תאונת דרכים, מבחן נהיגה, בדיקות רפואיות.",
+    "row_axis": "exceptions to insurer liability",
+    "column_axis": "conditions related to driver's license validity",
     "units": [],
     "notable_values": [
-      "120: Number of months of valid license before accident",
-      "8.1: Section number referencing license validity",
-      "8.2.1.1: Clause regarding disqualification from holding a license",
-      "8.2.1.2: Clause regarding required tests for license acquisition"
+      "סעיף קטן: 8.1",
+      "סעיף קטן: 8.2.1",
+      "תקופת תוקף רישיון: 120 חודשים",
+      "חוק ההוצאה לפועל: תשכ\"ז 1967"
     ],
     "product_hints": [
       "ביטוח חובה לרכב"
     ]
   },
   "sketch": "8.1 על אף האמור בסעיף קטן .8.2\n.8.2.1 המבטח לא יהיה פטור מחבותו לפי פוליסה זו אם הנוהג ברכב היה בעל 120 , במועד כלשהו במשך 8.1 רישיון נהיגה בר- תוקף כאמור בסעיף קטן החודשים שקדמו למועד קרות תאונת הדרכים, ובלבד שבעת קרות מקרה הביטוח התקיים אחד מהבאים:\n.8.2.1.1 הנוהג ברכב לא היה פסול מלקבל או להחזיק ברשיון נהיגה כאמור לפי הוראות שבחיקוק, פסק דין, החלטות בית משפט או רשות , מוסמכת אחרת למעט החלטה שניתנה מכח חוק ההוצאה לפועל , ותקנות שהוצאו מכוחו ופקיעת תוקפו של רשיון 1967התשכ\"ז מחמת אי תשלום אגרה;\n.8.2.1.2 הנוהג ברכב לא היה צריך לעמוד לפי הדין באחת מהדרישות , הבאות כדי לקבל רשיון נהיגה: מבחן נהיגה עיוני, מבחן נהיגה מעשי בדיקות רפואיות כולל יכולת קוגניטיבית ובדיקת שימוש בסמים.",
-  "embed_text": "פוליסת ביטוח חובה לרכב עוסקת במצבים בהם המבטח עדיין אחראי גם אם הנהג לא החזיק ברישיון נהיגה בתוקף. לדוגמה, אם הנהג החזיק ברישיון נהיגה בר-תוקף במשך 120 חודשים לפני התאונה, המבטח לא יהיה פטור מחבותו. התנאים מתייחסים גם למקרים של פסילה או צורך במבחנים רפואיים.",
-  "payload": "טבלה: פוליסת ביטוח חובה לרכב\nThis table details exceptions to the insurer's liability regarding a driver's license. It specifies conditions under which the insurer remains liable even if the driver did not have a valid license.\nממדים: Exceptions to insurer liability, Conditions related to driver's license validity\n\n8.1 על אף האמור בסעיף קטן .8.2\n.8.2.1 המבטח לא יהיה פטור מחבותו לפי פוליסה זו אם הנוהג ברכב היה בעל 120 , במועד כלשהו במשך 8.1 רישיון נהיגה בר- תוקף כאמור בסעיף קטן החודשים שקדמו למועד קרות תאונת הדרכים, ובלבד שבעת קרות מקרה הביטוח התקיים אחד מהבאים:\n.8.2.1.1 הנוהג ברכב לא היה פסול מלקבל או להחזיק ברשיון נהיגה כאמור לפי הוראות שבחיקוק, פסק דין, החלטות בית משפט או רשות , מוסמכת אחרת למעט החלטה שניתנה מכח חוק ההוצאה לפועל , ותקנות שהוצאו מכוחו ופקיעת תוקפו של רשיון 1967התשכ\"ז מחמת אי תשלום אגרה;\n.8.2.1.2 הנוהג ברכב לא היה צריך לעמוד לפי הדין באחת מהדרישות , הבאות כדי לקבל רשיון נהיגה: מבחן נהיגה עיוני, מבחן נהיגה מעשי בדיקות רפואיות כולל יכולת קוגניטיבית ובדיקת שימוש בסמים."
+  "embed_text": "טבלה זו עוסקת בתנאי פוליסת ביטוח חובה לרכב, ובפרט בחריגים הנוגעים לרישיון נהיגה בר-תוקף. מטרתה להבהיר מתי המבטח עדיין אחראי במקרה של תאונה, גם אם לנהג לא היה רישיון תקף לחלוטין. ניתן לעיין בתנאים אלו בסעיפים 8.1 ו-8.2.1. הפוליסה מתייחסת למצבים כגון פסילה מלקבל רישיון, דרישות לקבלת רישיון (מבחן עיוני, מעשי, רפואי), ואי תשלום אגרה. תנאי הפוליסה, רישיון נהיגה, תאונת דרכים, מבחן נהיגה, בדיקות רפואיות. This table details exceptions to the insurer's liability regarding valid driver's licenses. It specifies conditions under which the insurer remains liable even if the driver's license was not fully valid. בין הערכים בטבלה: תקופת תוקף רישיון: 120 חודשים; חוק ההוצאה לפועל: תשכ\"ז 1967.",
+  "payload": "טבלה: תנאי פוליסת ביטוח חובה לרכב\nThis table details exceptions to the insurer's liability regarding valid driver's licenses. It specifies conditions under which the insurer remains liable even if the driver's license was not fully valid.\nממדים: exceptions to insurer liability, conditions related to driver's license validity\n\n8.1 על אף האמור בסעיף קטן .8.2\n.8.2.1 המבטח לא יהיה פטור מחבותו לפי פוליסה זו אם הנוהג ברכב היה בעל 120 , במועד כלשהו במשך 8.1 רישיון נהיגה בר- תוקף כאמור בסעיף קטן החודשים שקדמו למועד קרות תאונת הדרכים, ובלבד שבעת קרות מקרה הביטוח התקיים אחד מהבאים:\n.8.2.1.1 הנוהג ברכב לא היה פסול מלקבל או להחזיק ברשיון נהיגה כאמור לפי הוראות שבחיקוק, פסק דין, החלטות בית משפט או רשות , מוסמכת אחרת למעט החלטה שניתנה מכח חוק ההוצאה לפועל , ותקנות שהוצאו מכוחו ופקיעת תוקפו של רשיון 1967התשכ\"ז מחמת אי תשלום אגרה;\n.8.2.1.2 הנוהג ברכב לא היה צריך לעמוד לפי הדין באחת מהדרישות , הבאות כדי לקבל רשיון נהיגה: מבחן נהיגה עיוני, מבחן נהיגה מעשי בדיקות רפואיות כולל יכולת קוגניטיבית ובדיקת שימוש בסמים."
 }

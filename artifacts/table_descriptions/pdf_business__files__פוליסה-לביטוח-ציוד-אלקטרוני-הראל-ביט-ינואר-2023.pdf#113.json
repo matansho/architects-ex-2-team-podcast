@@ -3,22 +3,21 @@
   "source": "llm",
   "description": {
     "title": "מקדמות ותגמולי ביטוח",
-    "summary": "This table details the advance payments and insurance benefits provided by הראל ביטוח for electronic equipment insurance. It outlines how a percentage of the estimated monthly loss is paid as an advance, typically 75%, and how disputes are handled.",
-    "embed_passage": "פוליסת הראל ביטוח מספקת מקדמות ביטוח בתום החודש הראשון לתקופת השיפוי, ובכל חודש לאחר מכן. המבטח מתחייב לשלם 75% מסכום ההפסד החודשי המשוער, כפי שיוערך על ידי השמאי המטפל. במקרה של חילוקי דעות, המבטח ישלם את הסכום שאינו שנוי במחלוקת.",
-    "row_axis": "Time period (e.g., first month, subsequent months)",
-    "column_axis": "Payment details (e.g., advance percentage, dispute resolution)",
+    "summary": "This table details advance payments and insurance benefits. It specifies that 75% of the estimated monthly loss will be paid as an advance to the insured, as assessed by the adjuster.",
+    "embed_passage": "טבלה זו מתארת מקדמות ותגמולי ביטוח במסגרת פוליסת ביטוח ציוד אלקטרוני הראל. המבטח מתחייב לשלם למבוטח מקדמה על חשבון תביעתו, בשיעור של 75% מסכום ההפסד החודשי המשוער, כפי שיוערך על ידי השמאי המטפל. במקרה של חילוקי דעות לגבי גובה התשלום, המבטח ישלם את הסכום שאינו שנוי במחלוקת. הראל ביטוח מציעה תשלום מקדמות חודשיות למבוטחים. סכום ההפסד החודשי המשוער, שיעור הרווח הגולמי, ומחזור שנתי הם גורמים מרכזיים בקביעת גובה המקדמה.",
+    "row_axis": "תקופת שיפוי (חודש)",
+    "column_axis": "סוג תשלום / שיעור",
     "units": [],
     "notable_values": [
-      "advance percentage: 75%",
-      "payment timing: end of first month",
-      "dispute resolution: payment of undisputed amount"
+      "שיעור מקדמה: 75%",
+      "תקופת שיפוי: חודש ראשון",
+      "הערכת הפסד: שמאי מטפל"
     ],
     "product_hints": [
-      "הראל ביטוח",
-      "ביטוח ציוד אלקטרוני"
+      "ביטוח ציוד אלקטרוני הראל"
     ]
   },
   "sketch": "מקדמות ותגמולי ביטוח .19.7\nבתום החודש הראשון לתקופת השיפוי, ומדי חודש לאחר מכן, מתחייב המבטח לשלם , מסכום ההפסד החודשי המשוער 75% למבוטח מקדמה על חשבון תביעתו בשיעור של כפי שיוערך על ידי השמאי המטפל.\nבכל מקרה של חילוקי דעות בין המבוטח לבין המבטח בדבר גובה התשלום המגיע על פי פרק זה, מתחייב המבטח לשלם את הסכום שאינו שנוי במחלוקת, מבלי לפגוע בזכויות המבוטח או בזכויות המבטח.",
-  "embed_text": "פוליסת הראל ביטוח מספקת מקדמות ביטוח בתום החודש הראשון לתקופת השיפוי, ובכל חודש לאחר מכן. המבטח מתחייב לשלם 75% מסכום ההפסד החודשי המשוער, כפי שיוערך על ידי השמאי המטפל. במקרה של חילוקי דעות, המבטח ישלם את הסכום שאינו שנוי במחלוקת.",
-  "payload": "טבלה: מקדמות ותגמולי ביטוח\nThis table details the advance payments and insurance benefits provided by הראל ביטוח for electronic equipment insurance. It outlines how a percentage of the estimated monthly loss is paid as an advance, typically 75%, and how disputes are handled.\nממדים: Time period (e.g., first month, subsequent months), Payment details (e.g., advance percentage, dispute resolution)\n\nמקדמות ותגמולי ביטוח .19.7\nבתום החודש הראשון לתקופת השיפוי, ומדי חודש לאחר מכן, מתחייב המבטח לשלם , מסכום ההפסד החודשי המשוער 75% למבוטח מקדמה על חשבון תביעתו בשיעור של כפי שיוערך על ידי השמאי המטפל.\nבכל מקרה של חילוקי דעות בין המבוטח לבין המבטח בדבר גובה התשלום המגיע על פי פרק זה, מתחייב המבטח לשלם את הסכום שאינו שנוי במחלוקת, מבלי לפגוע בזכויות המבוטח או בזכויות המבטח."
+  "embed_text": "טבלה זו מתארת מקדמות ותגמולי ביטוח במסגרת פוליסת ביטוח ציוד אלקטרוני הראל. המבטח מתחייב לשלם למבוטח מקדמה על חשבון תביעתו, בשיעור של 75% מסכום ההפסד החודשי המשוער, כפי שיוערך על ידי השמאי המטפל. במקרה של חילוקי דעות לגבי גובה התשלום, המבטח ישלם את הסכום שאינו שנוי במחלוקת. הראל ביטוח מציעה תשלום מקדמות חודשיות למבוטחים. סכום ההפסד החודשי המשוער, שיעור הרווח הגולמי, ומחזור שנתי הם גורמים מרכזיים בקביעת גובה המקדמה. This table details advance payments and insurance benefits. It specifies that 75% of the estimated monthly loss will be paid as an advance to the insured, as assessed by the adjuster. בין הערכים בטבלה: תקופת שיפוי: חודש ראשון; הערכת הפסד: שמאי מטפל.",
+  "payload": "טבלה: מקדמות ותגמולי ביטוח\nThis table details advance payments and insurance benefits. It specifies that 75% of the estimated monthly loss will be paid as an advance to the insured, as assessed by the adjuster.\nממדים: תקופת שיפוי (חודש), סוג תשלום / שיעור\n\nמקדמות ותגמולי ביטוח .19.7\nבתום החודש הראשון לתקופת השיפוי, ומדי חודש לאחר מכן, מתחייב המבטח לשלם , מסכום ההפסד החודשי המשוער 75% למבוטח מקדמה על חשבון תביעתו בשיעור של כפי שיוערך על ידי השמאי המטפל.\nבכל מקרה של חילוקי דעות בין המבוטח לבין המבטח בדבר גובה התשלום המגיע על פי פרק זה, מתחייב המבטח לשלם את הסכום שאינו שנוי במחלוקת, מבלי לפגוע בזכויות המבוטח או בזכויות המבטח."
 }

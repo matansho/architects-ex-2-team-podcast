@@ -4,25 +4,19 @@
   "description": {
     "title": "הנחות ד",
     "summary": "This table details discounts available to the insured for car rental services, specifically regarding additional rental days and vehicle upgrades. It outlines the conditions and costs associated with these options.",
-    "embed_passage": "פוליסת הראל מציעה הנחות למבוטחים על שירותים כגון ימי השכרה נוספים והחלפת סוג הרכב. לדוגמה, עבור רכב בעל נפח מנוע עד 1,300 סמ״ק, המבוטח זכאי להנחה מהמחירון. במקרה של החלפת רכב, עלות נוספת של 150 ק״מ ליום עשויה לחול.",
-    "row_axis": "types of discounts/services (e.g., additional rental days, vehicle upgrade)",
-    "column_axis": "details of the discount/service (e.g., engine capacity, cost per km)",
-    "units": [
-      "סמ״ק",
-      "ק״מ ליום"
-    ],
+    "embed_passage": "טבלה זו מפרטת הנחות הניתנות למבוטח עבור שירותי השכרת רכב, בדגש על ימי השכרה נוספים והחלפת סוג הרכב. ניתן לעיין בהנחות אלו בהתאם לנפח המנוע של הרכב המקורי והרכב המשודרג, וכן בעלויות נוספות לקילומטראז׳. פוליסת הראל מאפשרת למבוטח לקבל הנחה מהמחירון בגין שירותים אלו. לדוגמה, עבור רכב בעל נפח מנוע עד 1,300 סמ״ק, המבוטח זכאי להנחה. כמו כן, במידה והמבוטח בוחר לשדרג את הרכב, הוא יישא בעלות הפרשי דמי הביטוח וק״מ נוספים מעבר ל-150 ק״מ ליום.",
+    "row_axis": "Discount conditions (e.g., vehicle upgrade scenarios)",
+    "column_axis": "Discount details (e.g., engine displacement, additional costs)",
+    "units": [],
     "notable_values": [
-      "נפח מנוע: 1,300 סמ״ק",
-      "ק״מ נוספים: 150 ק״מ ליום",
-      "סעיף: 1",
-      "סעיף: 2"
+      "engine displacement: 1,300 סמ״ק",
+      "additional kilometers: 150 ק״מ ליום"
     ],
     "product_hints": [
-      "הראל",
-      "פוליסת הראל"
+      "הראל"
     ]
   },
   "sketch": "הנחות ד.\n.  המבוטח זכאי להנחה )מהמחירון לבודד שבתוקף באותה עת( בגין השירותים הבאים: ימי 1 השכרה נוספים מעבר לתקופת הזכאות, והחלפת סוג המכונית מרכב אוטומטי קטן בעל נפח סמ\"ק )או כפי שמופיע בפוליסת הביטוח( לרכב בעל נפח מנוע גדול יותר. 1,300 מנוע עד\n1,300 .  בחר המבוטח להחליף את סוג המכונית מרכב אוטומטי קטן בעל נפח מנוע עד 2 סמ\"ק )או כפי שמופיע בפוליסת הביטוח( לרכב בעל נפח מנוע גדול יותר, יישא בעצמו ק\"מ ליום, זאת בנוסף לאמור 150בעלות הפרשי דמי הביטוח ובק״מ נוספים מעבר ל לעיל. 1 בסעיף",
-  "embed_text": "פוליסת הראל מציעה הנחות למבוטחים על שירותים כגון ימי השכרה נוספים והחלפת סוג הרכב. לדוגמה, עבור רכב בעל נפח מנוע עד 1,300 סמ״ק, המבוטח זכאי להנחה מהמחירון. במקרה של החלפת רכב, עלות נוספת של 150 ק״מ ליום עשויה לחול.",
-  "payload": "טבלה: הנחות ד\nThis table details discounts available to the insured for car rental services, specifically regarding additional rental days and vehicle upgrades. It outlines the conditions and costs associated with these options.\nממדים: types of discounts/services (e.g., additional rental days, vehicle upgrade), details of the discount/service (e.g., engine capacity, cost per km)\n\nהנחות ד.\n.  המבוטח זכאי להנחה )מהמחירון לבודד שבתוקף באותה עת( בגין השירותים הבאים: ימי 1 השכרה נוספים מעבר לתקופת הזכאות, והחלפת סוג המכונית מרכב אוטומטי קטן בעל נפח סמ\"ק )או כפי שמופיע בפוליסת הביטוח( לרכב בעל נפח מנוע גדול יותר. 1,300 מנוע עד\n1,300 .  בחר המבוטח להחליף את סוג המכונית מרכב אוטומטי קטן בעל נפח מנוע עד 2 סמ\"ק )או כפי שמופיע בפוליסת הביטוח( לרכב בעל נפח מנוע גדול יותר, יישא בעצמו ק\"מ ליום, זאת בנוסף לאמור 150בעלות הפרשי דמי הביטוח ובק״מ נוספים מעבר ל לעיל. 1 בסעיף"
+  "embed_text": "טבלה זו מפרטת הנחות הניתנות למבוטח עבור שירותי השכרת רכב, בדגש על ימי השכרה נוספים והחלפת סוג הרכב. ניתן לעיין בהנחות אלו בהתאם לנפח המנוע של הרכב המקורי והרכב המשודרג, וכן בעלויות נוספות לקילומטראז׳. פוליסת הראל מאפשרת למבוטח לקבל הנחה מהמחירון בגין שירותים אלו. לדוגמה, עבור רכב בעל נפח מנוע עד 1,300 סמ״ק, המבוטח זכאי להנחה. כמו כן, במידה והמבוטח בוחר לשדרג את הרכב, הוא יישא בעלות הפרשי דמי הביטוח וק״מ נוספים מעבר ל-150 ק״מ ליום. This table details discounts available to the insured for car rental services, specifically regarding additional rental days and vehicle upgrades. It outlines the conditions and costs associated with these options.",
+  "payload": "טבלה: הנחות ד\nThis table details discounts available to the insured for car rental services, specifically regarding additional rental days and vehicle upgrades. It outlines the conditions and costs associated with these options.\nממדים: Discount conditions (e.g., vehicle upgrade scenarios), Discount details (e.g., engine displacement, additional costs)\n\nהנחות ד.\n.  המבוטח זכאי להנחה )מהמחירון לבודד שבתוקף באותה עת( בגין השירותים הבאים: ימי 1 השכרה נוספים מעבר לתקופת הזכאות, והחלפת סוג המכונית מרכב אוטומטי קטן בעל נפח סמ\"ק )או כפי שמופיע בפוליסת הביטוח( לרכב בעל נפח מנוע גדול יותר. 1,300 מנוע עד\n1,300 .  בחר המבוטח להחליף את סוג המכונית מרכב אוטומטי קטן בעל נפח מנוע עד 2 סמ\"ק )או כפי שמופיע בפוליסת הביטוח( לרכב בעל נפח מנוע גדול יותר, יישא בעצמו ק\"מ ליום, זאת בנוסף לאמור 150בעלות הפרשי דמי הביטוח ובק״מ נוספים מעבר ל לעיל. 1 בסעיף"
 }

@@ -3,25 +3,23 @@
   "source": "llm",
   "description": {
     "title": "ביטול פוליסה - הראל",
-    "summary": "This table details the conditions under which Harel Insurance can cancel a policy due to incomplete or dishonest answers, or a material change in risk. It specifies timeframes (in days) for cancellation and refund eligibility.",
-    "embed_passage": "פוליסת ביטוח חבות כלפי צד שלישי של הראל מאפשרת למבטח לבטל את הפוליסה בתוך 30 ימים מיום שנודע לו על תשובה שאינה מלאה וכנה, או מיום שנמסרה הודעה על שינוי מהותי. במקרה של ביטול לפני קרות מקרה ביטוח מכוסה, זכאי המבוטח להחזר דמי ביטוח ששילם עבור התקופה שלאחר הביטול, אלא אם פעל בכוונת מרמה.",
-    "row_axis": "Cancellation conditions / scenarios",
-    "column_axis": "Timeframe for cancellation / refund",
-    "units": [
-      "ימים"
-    ],
+    "summary": "This table details the conditions under which Harel Insurance can cancel a policy due to incomplete or dishonest answers, or a material change in risk. It specifies the timeframe for cancellation and the potential refund of premiums.",
+    "embed_passage": "טבלה זו מתארת את התנאים שבהם הראל ביטוח רשאית לבטל פוליסה עקב תשובות לא שלמות או לא כנות, או שינוי מהותי בסיכון. היא מציינת את מסגרת הזמן לביטול ואת ההחזר האפשרי של דמי ביטוח. ניתן לבדוק את התנאים לביטול פוליסה בהתאם לתשובות שניתנו בטופס הצעת הביטוח או הודעה על שינוי מהותי. הראל ביטוח, ביטול פוליסה, שינוי מהותי, דמי ביטוח, כוונת מרמה. הטבלה מתייחסת לביטול פוליסה תוך 30 ימים מהיום שנודע למבטח על תשובה שאינה מלאה וכנה או תוך 30 ימים מהיום שנמסרה הודעה על שינוי מהותי.",
+    "row_axis": "Cancellation conditions and rights",
+    "column_axis": "Timeframe for action and consequences",
+    "units": [],
     "notable_values": [
-      "30 ימים: תקופה לביטול לאחר גילוי תשובה לא מלאה",
-      "30 ימים: תקופה לביטול לאחר הודעה על שינוי מהותי",
-      "החזר דמי ביטוח: זכאות במקרה של ביטול לפני מקרה ביטוח"
+      "Cancellation timeframe: 30 days",
+      "Premium refund: eligible before insured event",
+      "Fraudulent intent: impacts remedies",
+      "Material change: triggers cancellation rights"
     ],
     "product_hints": [
-      "ביטוח חבות כלפי צד שלישי",
-      "הראל",
-      "פוליסה"
+      "פוליסה לביטוח חבות כלפי צד שלישי הראל",
+      "הראל ביט"
     ]
   },
   "sketch": "ימים מהיום שנודע למבטח על תשובה שאינה מלאה וכנה או  תוך 30 תוך .5.5.6 ימים מהיום שנמסרה למבטח הודעה על שינוי מהותי או שנודע על 30 מידע כאמור למבטח בדרך אחרת, לפי המוקדם יותר )בהתייחס לשינוי מהותי(, רשאי המבטח, כל עוד לא קרה מקרה ביטוח מכוסה, לבטל את הפוליסה מיד בהודעה בכתב למבוטח;\n, ביטל המבטח החוזה מכח תנאי זה, עובר לקרות מקרה ביטוח מכוסה זכאי המבוטח להחזר דמי ביטוח ששילם בעד התקופה שלאחר הביטול , זולת אם המבוטח פעל בכוונת מרמה; לא ביטל המבטח את החוזה רואים אותו כמסכים להמשך קיומו על אף השינוי.",
-  "embed_text": "פוליסת ביטוח חבות כלפי צד שלישי של הראל מאפשרת למבטח לבטל את הפוליסה בתוך 30 ימים מיום שנודע לו על תשובה שאינה מלאה וכנה, או מיום שנמסרה הודעה על שינוי מהותי. במקרה של ביטול לפני קרות מקרה ביטוח מכוסה, זכאי המבוטח להחזר דמי ביטוח ששילם עבור התקופה שלאחר הביטול, אלא אם פעל בכוונת מרמה.",
-  "payload": "טבלה: ביטול פוליסה - הראל\nThis table details the conditions under which Harel Insurance can cancel a policy due to incomplete or dishonest answers, or a material change in risk. It specifies timeframes (in days) for cancellation and refund eligibility.\nממדים: Cancellation conditions / scenarios, Timeframe for cancellation / refund\n\nימים מהיום שנודע למבטח על תשובה שאינה מלאה וכנה או  תוך 30 תוך .5.5.6 ימים מהיום שנמסרה למבטח הודעה על שינוי מהותי או שנודע על 30 מידע כאמור למבטח בדרך אחרת, לפי המוקדם יותר )בהתייחס לשינוי מהותי(, רשאי המבטח, כל עוד לא קרה מקרה ביטוח מכוסה, לבטל את הפוליסה מיד בהודעה בכתב למבוטח;\n, ביטל המבטח החוזה מכח תנאי זה, עובר לקרות מקרה ביטוח מכוסה זכאי המבוטח להחזר דמי ביטוח ששילם בעד התקופה שלאחר הביטול , זולת אם המבוטח פעל בכוונת מרמה; לא ביטל המבטח את החוזה רואים אותו כמסכים להמשך קיומו על אף השינוי."
+  "embed_text": "טבלה זו מתארת את התנאים שבהם הראל ביטוח רשאית לבטל פוליסה עקב תשובות לא שלמות או לא כנות, או שינוי מהותי בסיכון. היא מציינת את מסגרת הזמן לביטול ואת ההחזר האפשרי של דמי ביטוח. ניתן לבדוק את התנאים לביטול פוליסה בהתאם לתשובות שניתנו בטופס הצעת הביטוח או הודעה על שינוי מהותי. הראל ביטוח, ביטול פוליסה, שינוי מהותי, דמי ביטוח, כוונת מרמה. הטבלה מתייחסת לביטול פוליסה תוך 30 ימים מהיום שנודע למבטח על תשובה שאינה מלאה וכנה או תוך 30 ימים מהיום שנמסרה הודעה על שינוי מהותי. This table details the conditions under which Harel Insurance can cancel a policy due to incomplete or dishonest answers, or a material change in risk. It specifies the timeframe for cancellation and the potential refund of premiums. בין הערכים בטבלה: Cancellation timeframe: 30 days; Premium refund: eligible before insured even…",
+  "payload": "טבלה: ביטול פוליסה - הראל\nThis table details the conditions under which Harel Insurance can cancel a policy due to incomplete or dishonest answers, or a material change in risk. It specifies the timeframe for cancellation and the potential refund of premiums.\nממדים: Cancellation conditions and rights, Timeframe for action and consequences\n\nימים מהיום שנודע למבטח על תשובה שאינה מלאה וכנה או  תוך 30 תוך .5.5.6 ימים מהיום שנמסרה למבטח הודעה על שינוי מהותי או שנודע על 30 מידע כאמור למבטח בדרך אחרת, לפי המוקדם יותר )בהתייחס לשינוי מהותי(, רשאי המבטח, כל עוד לא קרה מקרה ביטוח מכוסה, לבטל את הפוליסה מיד בהודעה בכתב למבוטח;\n, ביטל המבטח החוזה מכח תנאי זה, עובר לקרות מקרה ביטוח מכוסה זכאי המבוטח להחזר דמי ביטוח ששילם בעד התקופה שלאחר הביטול , זולת אם המבוטח פעל בכוונת מרמה; לא ביטל המבטח את החוזה רואים אותו כמסכים להמשך קיומו על אף השינוי."
 }

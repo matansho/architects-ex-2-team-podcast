@@ -3,22 +3,25 @@
   "source": "llm",
   "description": {
     "title": "רופא מלווה אישי",
-    "summary": "This table details the services provided by a personal accompanying doctor, outlining the number of meetings available with different specialists. It helps understand the scope of support offered to subscribers.",
-    "embed_passage": "שירות רופא מלווה אישי מספק ייעוץ אחד מקוון תוך 10 ימי עסקים על ידי רופא, ועד 4 פגישות עם אחות או עובד סוציאלי. השירות כולל גם הכוונה בנושא זכויות מול ביטוח לאומי ושירות התעסוקה. המטרה היא לספק תמיכה רפואית וסוציאלית מקיפה למנוי.",
-    "row_axis": "service type / support area",
-    "column_axis": "details / quantity",
+    "summary": "This table details services provided by a personal accompanying physician. It outlines the types of consultations and support offered, such as coordination with medical professionals, financial guidance, and assistance with benefit applications.",
+    "embed_passage": "טבלה זו מתארת שירותים הניתנים על ידי רופא מלווה אישי, כחלק מכתב שירות. השירות כולל ייעוץ מקוון, הכוונה בנושא זכויות, וסיוע בהגשת בקשות לגורמים שונים. ניתן לקבל מידע והכוונה בנושא מימוש זכויות ונושאים כלכליים ורווחתיים רלוונטיים למקרה הרפואי. השירות כולל גם ייעוץ עם עובד סוציאלי, אחות, וליווי על ידי מתאם שירות מוסמך. בין השירותים הניתנים: הכוונה בנושא ביטוח לאומי, שירות התעסוקה, קופות החולים, ורשות המיסים.",
+    "row_axis": "type of service/support",
+    "column_axis": "details of service (e.g., number of meetings, type of assistance)",
     "units": [],
     "notable_values": [
-      "פגישות אחות: 4",
-      "פגישות עובד סוציאלי: 4",
-      "ייעוץ רופא: 10 ימי עסקים",
-      "פגישות פסיכיאטר/פסיכולוג: עד 20"
+      "ייעוץ מקוון: 10 ימי עסקים",
+      "פגישות עם אחות: עד 4",
+      "פגישות עם עובד סוציאלי: עד 4",
+      "הכוונה בנושא זכויות: ביטוח לאומי",
+      "הכוונה בנושא זכויות: שירות התעסוקה",
+      "הכוונה בנושא זכויות: קופות החולים",
+      "הכוונה בנושא זכויות: רשות המיסים"
     ],
     "product_hints": [
       "רופא מלווה אישי"
     ]
   },
   "sketch": "ם עובד סוציאלי, או כל מתאם שירות מוסמך אחר שרלוונטי למקרה,  אשר יערוך מיפוי של הנושאים ע ץ מקוו  ן ייעו .14 . הכלכליים והרווחתים הרלוונטיים למקרה הרפואי. המנוי יקבל סיכום של המיפוי והספק יפעל לפי הסיכום האמור\n.   הכוונה בנושא הזכויות וסיוע בהגשת בקשות על פי המקרה - מול ביטוח לאומי, שירות התעסוקה, קופות החולים 15 . ורשות המיסים",
-  "embed_text": "שירות רופא מלווה אישי מספק ייעוץ אחד מקוון תוך 10 ימי עסקים על ידי רופא, ועד 4 פגישות עם אחות או עובד סוציאלי. השירות כולל גם הכוונה בנושא זכויות מול ביטוח לאומי ושירות התעסוקה. המטרה היא לספק תמיכה רפואית וסוציאלית מקיפה למנוי.",
-  "payload": "טבלה: רופא מלווה אישי\nThis table details the services provided by a personal accompanying doctor, outlining the number of meetings available with different specialists. It helps understand the scope of support offered to subscribers.\nממדים: service type / support area, details / quantity\n\nם עובד סוציאלי, או כל מתאם שירות מוסמך אחר שרלוונטי למקרה,  אשר יערוך מיפוי של הנושאים ע ץ מקוו  ן ייעו .14 . הכלכליים והרווחתים הרלוונטיים למקרה הרפואי. המנוי יקבל סיכום של המיפוי והספק יפעל לפי הסיכום האמור\n.   הכוונה בנושא הזכויות וסיוע בהגשת בקשות על פי המקרה - מול ביטוח לאומי, שירות התעסוקה, קופות החולים 15 . ורשות המיסים"
+  "embed_text": "טבלה זו מתארת שירותים הניתנים על ידי רופא מלווה אישי, כחלק מכתב שירות. השירות כולל ייעוץ מקוון, הכוונה בנושא זכויות, וסיוע בהגשת בקשות לגורמים שונים. ניתן לקבל מידע והכוונה בנושא מימוש זכויות ונושאים כלכליים ורווחתיים רלוונטיים למקרה הרפואי. השירות כולל גם ייעוץ עם עובד סוציאלי, אחות, וליווי על ידי מתאם שירות מוסמך. בין השירותים הניתנים: הכוונה בנושא ביטוח לאומי, שירות התעסוקה, קופות החולים, ורשות המיסים. This table details services provided by a personal accompanying physician. It outlines the types of consultations and support offered, such as coordination with medical professionals, financial guidance, and assistance with benefit applications. בין הערכים בטבלה: פגישות עם אחות: עד 4; פגישות עם עובד סוציאלי: עד 4.",
+  "payload": "טבלה: רופא מלווה אישי\nThis table details services provided by a personal accompanying physician. It outlines the types of consultations and support offered, such as coordination with medical professionals, financial guidance, and assistance with benefit applications.\nממדים: type of service/support, details of service (e.g., number of meetings, type of assistance)\n\nם עובד סוציאלי, או כל מתאם שירות מוסמך אחר שרלוונטי למקרה,  אשר יערוך מיפוי של הנושאים ע ץ מקוו  ן ייעו .14 . הכלכליים והרווחתים הרלוונטיים למקרה הרפואי. המנוי יקבל סיכום של המיפוי והספק יפעל לפי הסיכום האמור\n.   הכוונה בנושא הזכויות וסיוע בהגשת בקשות על פי המקרה - מול ביטוח לאומי, שירות התעסוקה, קופות החולים 15 . ורשות המיסים"
 }

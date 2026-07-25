@@ -2,24 +2,23 @@
   "id": "pdf:business/files/טופס-הצעה-אחריות-מקצועית-רפואה-משלימה-ופרא-רפואי.pdf#21",
   "source": "llm",
   "description": {
-    "title": "אחריות מקצועית רפואה משלימה",
-    "summary": "This table concerns professional liability insurance for complementary and paramedical medicine. It's used to determine coverage options and discounts based on factors like international practice and extended reporting periods.",
-    "embed_passage": "ביטוח אחריות מקצועית לרפואה משלימה מכסה פעילות מקצועית אקראית או מזדמנת ברחבי העולם, למעט ארה\"ב וקנדה. ויתור על כיסוי לתקופת דיווח מוארכת יכול להקנות הנחה בדמי הביטוח. לדוגמה, אם ברצונך לוותר על כיסוי לתקופת דיווח מוארכת, סמן 'לא' בסעיף 11.",
-    "row_axis": "Policyholder responses / declarations",
-    "column_axis": "Coverage options and related details",
+    "title": "הצעה לאחריות מקצועית",
+    "summary": "This table is for an insurance quote for professional liability, specifically for complementary and paramedical medicine. It asks about coverage preferences, foreign activity, and past claims.",
+    "embed_passage": "טופס זה נועד לקבלת הצעת מחיר לביטוח אחריות מקצועית בתחומי הרפואה המשלימה והפרא-רפואי. השאלות בטופס נועדו להבין את היקף העיסוק, פעילות בחו״ל והיסטוריית תביעות קודמות, על מנת להעריך את הסיכון ולתת הצעת מחיר מתאימה. ניתן לבחור לוותר על כיסוי לתקופת דיווח מוארכת תמורת הנחה בדמי הביטוח. הטופס שואל לגבי פעילות מקצועית בחו״ל, תוך ציון כי הביטוח אינו מכסה פעילות קבועה בחו״ל או שיפוט על פי חוקי ארה״ב וקנדה. כמו כן, נשאלת שאלה לגבי תביעות קודמות שהוגשו נגד המבוטח. טופס הצעה לאחריות מקצועית",
+    "row_axis": "question/option",
+    "column_axis": "response/details",
     "units": [],
     "notable_values": [
-      "Question 11: לא",
-      "Coverage exclusion: ארה\"ב ובקנדה",
-      "Activity type: אקראית או מזדמנת",
-      "Discount possibility: ויתור על כיסוי לתקופת דיווח מוארכת"
+      "כיסוי לתקופת דיווח מוארכת: לא",
+      "מדינות לא מכוסות: ארה\"ב, קנדה",
+      "פעילות מקצועית אקראית/מזדמנת: בכל רחבי העולם (למעט ארה\"ב וקנדה)",
+      "פעילות קבועה בחו\"ל: לא מכוסה"
     ],
     "product_hints": [
-      "אחריות מקצועית רפואה משלימה",
       "אחריות מקצועית"
     ]
   },
   "sketch": ".11 ? האם ברצונך לוותר על כיסוי לתקופת דיווח מוארכת תמורת הנחה בדמי הביטוח\nלא\n:\nשם המדינה, מהות העיסוק, שיעור העיסוק\nתשומת ליבך כי רק אם צוין במפורש ברשימה, הביטוח מכסה פעילות מקצועית אקראית וגם או מזדמנת בכל רחבי העולם למעט בארה\"ב ובקנדה - והמדינות המחילות את חוקיהן. הביטוח אינו מכסה שיפוט, בכל שלב, על פי חוקי ארה\"ב וקנדה והמדינות המחילות את חוקיהן. תשומת ליבך פעילות בחו\"ל המתבצעת על בסיס קבוע אינה מכוסה.",
-  "embed_text": "ביטוח אחריות מקצועית לרפואה משלימה מכסה פעילות מקצועית אקראית או מזדמנת ברחבי העולם, למעט ארה\"ב וקנדה. ויתור על כיסוי לתקופת דיווח מוארכת יכול להקנות הנחה בדמי הביטוח. לדוגמה, אם ברצונך לוותר על כיסוי לתקופת דיווח מוארכת, סמן 'לא' בסעיף 11.",
-  "payload": "טבלה: אחריות מקצועית רפואה משלימה\nThis table concerns professional liability insurance for complementary and paramedical medicine. It's used to determine coverage options and discounts based on factors like international practice and extended reporting periods.\nממדים: Policyholder responses / declarations, Coverage options and related details\n\n.11 ? האם ברצונך לוותר על כיסוי לתקופת דיווח מוארכת תמורת הנחה בדמי הביטוח\nלא\n:\nשם המדינה, מהות העיסוק, שיעור העיסוק\nתשומת ליבך כי רק אם צוין במפורש ברשימה, הביטוח מכסה פעילות מקצועית אקראית וגם או מזדמנת בכל רחבי העולם למעט בארה\"ב ובקנדה - והמדינות המחילות את חוקיהן. הביטוח אינו מכסה שיפוט, בכל שלב, על פי חוקי ארה\"ב וקנדה והמדינות המחילות את חוקיהן. תשומת ליבך פעילות בחו\"ל המתבצעת על בסיס קבוע אינה מכוסה."
+  "embed_text": "טופס זה נועד לקבלת הצעת מחיר לביטוח אחריות מקצועית בתחומי הרפואה המשלימה והפרא-רפואי. השאלות בטופס נועדו להבין את היקף העיסוק, פעילות בחו״ל והיסטוריית תביעות קודמות, על מנת להעריך את הסיכון ולתת הצעת מחיר מתאימה. ניתן לבחור לוותר על כיסוי לתקופת דיווח מוארכת תמורת הנחה בדמי הביטוח. הטופס שואל לגבי פעילות מקצועית בחו״ל, תוך ציון כי הביטוח אינו מכסה פעילות קבועה בחו״ל או שיפוט על פי חוקי ארה״ב וקנדה. כמו כן, נשאלת שאלה לגבי תביעות קודמות שהוגשו נגד המבוטח. טופס הצעה לאחריות מקצועית This table is for an insurance quote for professional liability, specifically for complementary and paramedical medicine. It asks about coverage preferences, foreign activity, and past claims. בין הערכים בטבלה: מדינות לא מכוסות: ארה\"ב, קנדה; פעילות מקצועית אקראית/מזדמנת: בכל רחבי העולם (למעט ארה\"ב וקנדה); פעילות…",
+  "payload": "טבלה: הצעה לאחריות מקצועית\nThis table is for an insurance quote for professional liability, specifically for complementary and paramedical medicine. It asks about coverage preferences, foreign activity, and past claims.\nממדים: question/option, response/details\n\n.11 ? האם ברצונך לוותר על כיסוי לתקופת דיווח מוארכת תמורת הנחה בדמי הביטוח\nלא\n:\nשם המדינה, מהות העיסוק, שיעור העיסוק\nתשומת ליבך כי רק אם צוין במפורש ברשימה, הביטוח מכסה פעילות מקצועית אקראית וגם או מזדמנת בכל רחבי העולם למעט בארה\"ב ובקנדה - והמדינות המחילות את חוקיהן. הביטוח אינו מכסה שיפוט, בכל שלב, על פי חוקי ארה\"ב וקנדה והמדינות המחילות את חוקיהן. תשומת ליבך פעילות בחו\"ל המתבצעת על בסיס קבוע אינה מכוסה."
 }

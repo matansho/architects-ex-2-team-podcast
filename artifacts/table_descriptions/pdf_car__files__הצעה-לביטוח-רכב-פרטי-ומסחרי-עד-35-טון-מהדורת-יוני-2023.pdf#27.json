@@ -3,22 +3,25 @@
   "source": "llm",
   "description": {
     "title": "ביטוח רכב פרטי ומסחרי",
-    "summary": "This table details coverage for car insurance, specifically relating to accidental damage and pet injury. It outlines potential payouts, such as ₪ 20,000 in the event of pet death following medical expenses.",
-    "embed_passage": "פוליסת ביטוח רכב פרטי ומסחרי כוללת סכום ביטוח לנזק תאונתי, ובמקרה של פטירת חיית מחמד לאחר הוצאות רפואיות, סכום התקבול למבוטח יכול להיות ₪ 20,000. חשוב לבדוק אם קיימת פוליסת בריאות לחיות מחמד, שכן ייתכן כי קיים כיסוי מקביל וכפל ביטוח.",
-    "row_axis": "Scenario/Condition (e.g., pet injury, accidental damage)",
-    "column_axis": "Coverage Details (e.g., payout amount, conditions)",
+    "summary": "This table details coverage for vehicle insurance, specifically relating to accidental damage and pet injury. It outlines potential payouts and considerations regarding duplicate coverage with pet health insurance.",
+    "embed_passage": "טבלה זו מתייחסת לביטוח רכב פרטי ומסחרי, ומפרטת את סכומי הביטוח לנזק תאונתי ומוות, תוך התייחסות להוצאות רפואיות ולכיסוי מקביל אפשרי בפוליסת בריאות לחיות מחמד. ניתן לבדוק את סכום הביטוח לנזק תאונתי, סכום הביטוח למוות, והאם יש כיסוי לנזקי רעידת אדמה או שביתות ומהומות. לדוגמה, במקרה של נזק תאונתי, סכום התקבול למבוטח יכול להיות ₪ 20,000 בלבד. סכום הביטוח למוות נכלל במסגרת סכום הביטוח לנזק תאונתי. נזקי רעידת אדמה, שביתות ומהומות, ₪ 20,000, הוצאות רפואיות.",
+    "row_axis": "תנאי ביטוח / סוג נזק",
+    "column_axis": "סכום ביטוח / תיאור",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "Payout Amount: ₪ 20,000",
-      "Pet Death Payout: ₪ 20,000"
+      "סכום ביטוח לנזק תאונתי: ₪ 20,000",
+      "סכום ביטוח למוות: נכלל בסכום לנזק תאונתי",
+      "הוצאות רפואיות: סכום האמור",
+      "נזקי רעידת אדמה: לא",
+      "שביתות ומהומות: לא"
     ],
     "product_hints": [
-      "ביטוח רכב פרטי ומסחרי"
+      "ביטוח רכב"
     ]
   },
   "sketch": "הבהרה: סכום הביטוח למוות נכלל במסגרת סכום הביטוח לנזק תאונתי.\nוהמבוטח נדרש לשלם הוצאות רפואיות בסכום האמור, שלאחריהן מתה חיית המחמד, סכום התקבול למבוטח ₪  20,000 דוגמה - במקרה שסכום הביטוח לנזק תאונתי הינו\nבלבד. ₪  20,000 יהיה\nתשומת לב כי ייתכן שיהיה כיסוי מקביל בפוליסת בריאות לחיות מחמד, ככל שנרכשה כזו, והמשמעות היא כי עשוי להיות כפל ביטוח.",
-  "embed_text": "פוליסת ביטוח רכב פרטי ומסחרי כוללת סכום ביטוח לנזק תאונתי, ובמקרה של פטירת חיית מחמד לאחר הוצאות רפואיות, סכום התקבול למבוטח יכול להיות ₪ 20,000. חשוב לבדוק אם קיימת פוליסת בריאות לחיות מחמד, שכן ייתכן כי קיים כיסוי מקביל וכפל ביטוח.",
-  "payload": "טבלה: ביטוח רכב פרטי ומסחרי\nThis table details coverage for car insurance, specifically relating to accidental damage and pet injury. It outlines potential payouts, such as ₪ 20,000 in the event of pet death following medical expenses.\nממדים: Scenario/Condition (e.g., pet injury, accidental damage), Coverage Details (e.g., payout amount, conditions)\n\nהבהרה: סכום הביטוח למוות נכלל במסגרת סכום הביטוח לנזק תאונתי.\nוהמבוטח נדרש לשלם הוצאות רפואיות בסכום האמור, שלאחריהן מתה חיית המחמד, סכום התקבול למבוטח ₪  20,000 דוגמה - במקרה שסכום הביטוח לנזק תאונתי הינו\nבלבד. ₪  20,000 יהיה\nתשומת לב כי ייתכן שיהיה כיסוי מקביל בפוליסת בריאות לחיות מחמד, ככל שנרכשה כזו, והמשמעות היא כי עשוי להיות כפל ביטוח."
+  "embed_text": "טבלה זו מתייחסת לביטוח רכב פרטי ומסחרי, ומפרטת את סכומי הביטוח לנזק תאונתי ומוות, תוך התייחסות להוצאות רפואיות ולכיסוי מקביל אפשרי בפוליסת בריאות לחיות מחמד. ניתן לבדוק את סכום הביטוח לנזק תאונתי, סכום הביטוח למוות, והאם יש כיסוי לנזקי רעידת אדמה או שביתות ומהומות. לדוגמה, במקרה של נזק תאונתי, סכום התקבול למבוטח יכול להיות ₪ 20,000 בלבד. סכום הביטוח למוות נכלל במסגרת סכום הביטוח לנזק תאונתי. נזקי רעידת אדמה, שביתות ומהומות, ₪ 20,000, הוצאות רפואיות. This table details coverage for vehicle insurance, specifically relating to accidental damage and pet injury. It outlines potential payouts and considerations regarding duplicate coverage with pet health insurance. בין הערכים בטבלה: סכום ביטוח למוות: נכלל בסכום לנזק תאונתי.",
+  "payload": "טבלה: ביטוח רכב פרטי ומסחרי\nThis table details coverage for vehicle insurance, specifically relating to accidental damage and pet injury. It outlines potential payouts and considerations regarding duplicate coverage with pet health insurance.\nממדים: תנאי ביטוח / סוג נזק, סכום ביטוח / תיאור\n\nהבהרה: סכום הביטוח למוות נכלל במסגרת סכום הביטוח לנזק תאונתי.\nוהמבוטח נדרש לשלם הוצאות רפואיות בסכום האמור, שלאחריהן מתה חיית המחמד, סכום התקבול למבוטח ₪  20,000 דוגמה - במקרה שסכום הביטוח לנזק תאונתי הינו\nבלבד. ₪  20,000 יהיה\nתשומת לב כי ייתכן שיהיה כיסוי מקביל בפוליסת בריאות לחיות מחמד, ככל שנרכשה כזו, והמשמעות היא כי עשוי להיות כפל ביטוח."
 }

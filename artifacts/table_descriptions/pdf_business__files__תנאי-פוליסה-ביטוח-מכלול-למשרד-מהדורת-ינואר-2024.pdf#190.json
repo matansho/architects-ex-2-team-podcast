@@ -2,25 +2,25 @@
   "id": "pdf:business/files/תנאי-פוליסה-ביטוח-מכלול-למשרד-מהדורת-ינואר-2024.pdf#190",
   "source": "llm",
   "description": {
-    "title": "מכלול - אחריות כלפי צד שלישי",
-    "summary": "This table details additional coverage for third-party liability under the 'Mekhalel' insurance policy. It specifies coverage limits for property damage caused by vehicles, with amounts varying based on whether the coverage is explicitly listed.",
-    "embed_passage": "פוליסת ביטוח מכלול מספקת כיסוי נוסף לאחריות כלפי צד שלישי, ובפרט נזק לרכוש שנגרם על ידי כלי רכב. גבולות האחריות יכולים להגיע עד ₪ 500,000, או עד ₪ 200,000 בהתאם לתנאי הפוליסה. הכיסוי מורחב רק אם הרחבת נזק לרכוש מכלי רכב נרשמה במפורש ברשימה.",
-    "row_axis": "types of additional coverage for third-party liability",
-    "column_axis": "coverage details, limits, and conditions",
+    "title": "כיסויים נוספים לאחריות כלפי צד שלישי",
+    "summary": "This table details additional coverage for third-party liability, specifically regarding property damage caused by vehicles and coverage for non-employee workers. Coverage applies only if explicitly listed.",
+    "embed_passage": "טבלה זו מתארת כיסויים נוספים לאחריות כלפי צד שלישי, כגון נזק לרכוש שנגרם על ידי כלי רכב או עובדים שאינם עובדי המבוטח. הכיסויים חלים רק אם צוינו במפורש ברשימה. ניתן לבדוק את גבולות האחריות עבור נזק לרכוש צד שלישי מכלי רכב, או כיסוי לעובדים שאינם של המבוטח. הרחבת נזק לרכוש מכלי רכב יכולה להגיע עד ₪ 500,000, או ₪ 200,000, בהתאם לגבוה מביניהם. הרחבת עובדים שאינם של המבוטח חלה על קבלנים, קבלני משנה ועובדיהם.",
+    "row_axis": "types of additional coverage",
+    "column_axis": "coverage details (limits, conditions)",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "coverage limit for vehicle property damage: ₪ 500,000",
-      "alternative coverage limit: ₪ 200,000",
-      "policy year: 2024"
+      "נזק לרכוש צד שלישי מכלי רכב: ₪ 500,000",
+      "נזק לרכוש צד שלישי מכלי רכב: ₪ 200,000",
+      "עובדים שאינם של המבוטח: קבלנים וקבלני משנה",
+      "עובדים שאינם של המבוטח: עובדים זמניים"
     ],
     "product_hints": [
-      "מכלול",
-      "Mekhalel"
+      "ביטוח מכלול"
     ]
   },
   "sketch": ".7.5 כיסויים נוספים לאחריות כלפי צד שלישי ,\nאם צוין הדבר במפורש ברשימה, יחולו הכיסויים המפורטים להלן, בכפוף למבוא להגדרות, לסייגים ולתנאים הכלליים בפוליסה ובפרק זה.\n.7.5.1 כיסוי נזק לרכוש צד שלישי מכלי רכב , אם נרשם במפורש ברשימה כי הרחבת נזק לרכוש מכלי רכב תקפה לשפות את המבוטח בגין חבותו של פרק שלישי אזי יורחב הביטוח על פי המבוטח לנזק שייגרם לרכוש צד שלישי הנובע משימוש בכלי רכב מנועי ,₪  500,000 וזאת מעבר לגבולות אחריות של , אשר בבעלותו של המבוטח או מעבר לגבולות האחריות על פי פוליסה אחרת לביטוח נזקי רכוש לצד שלישי משימוש בכלי רכב שברשותו של המבוטח, הגבוה ביניהם. (חבות לעניין נזקי רכוש כתוצאה משימוש ₪  200,000",
-  "embed_text": "פוליסת ביטוח מכלול מספקת כיסוי נוסף לאחריות כלפי צד שלישי, ובפרט נזק לרכוש שנגרם על ידי כלי רכב. גבולות האחריות יכולים להגיע עד ₪ 500,000, או עד ₪ 200,000 בהתאם לתנאי הפוליסה. הכיסוי מורחב רק אם הרחבת נזק לרכוש מכלי רכב נרשמה במפורש ברשימה.",
-  "payload": "טבלה: מכלול - אחריות כלפי צד שלישי\nThis table details additional coverage for third-party liability under the 'Mekhalel' insurance policy. It specifies coverage limits for property damage caused by vehicles, with amounts varying based on whether the coverage is explicitly listed.\nממדים: types of additional coverage for third-party liability, coverage details, limits, and conditions\n\n.7.5 כיסויים נוספים לאחריות כלפי צד שלישי ,\nאם צוין הדבר במפורש ברשימה, יחולו הכיסויים המפורטים להלן, בכפוף למבוא להגדרות, לסייגים ולתנאים הכלליים בפוליסה ובפרק זה.\n.7.5.1 כיסוי נזק לרכוש צד שלישי מכלי רכב , אם נרשם במפורש ברשימה כי הרחבת נזק לרכוש מכלי רכב תקפה לשפות את המבוטח בגין חבותו של פרק שלישי אזי יורחב הביטוח על פי המבוטח לנזק שייגרם לרכוש צד שלישי הנובע משימוש בכלי רכב מנועי ,₪  500,000 וזאת מעבר לגבולות אחריות של , אשר בבעלותו של המבוטח או מעבר לגבולות האחריות על פי פוליסה אחרת לביטוח נזקי רכוש לצד שלישי משימוש בכלי רכב שברשותו של המבוטח, הגבוה ביניהם. (חבות לעניין נזקי רכוש כתוצאה משימוש ₪  200,000"
+  "embed_text": "טבלה זו מתארת כיסויים נוספים לאחריות כלפי צד שלישי, כגון נזק לרכוש שנגרם על ידי כלי רכב או עובדים שאינם עובדי המבוטח. הכיסויים חלים רק אם צוינו במפורש ברשימה. ניתן לבדוק את גבולות האחריות עבור נזק לרכוש צד שלישי מכלי רכב, או כיסוי לעובדים שאינם של המבוטח. הרחבת נזק לרכוש מכלי רכב יכולה להגיע עד ₪ 500,000, או ₪ 200,000, בהתאם לגבוה מביניהם. הרחבת עובדים שאינם של המבוטח חלה על קבלנים, קבלני משנה ועובדיהם. This table details additional coverage for third-party liability, specifically regarding property damage caused by vehicles and coverage for non-employee workers. Coverage applies only if explicitly listed.",
+  "payload": "טבלה: כיסויים נוספים לאחריות כלפי צד שלישי\nThis table details additional coverage for third-party liability, specifically regarding property damage caused by vehicles and coverage for non-employee workers. Coverage applies only if explicitly listed.\nממדים: types of additional coverage, coverage details (limits, conditions)\n\n.7.5 כיסויים נוספים לאחריות כלפי צד שלישי ,\nאם צוין הדבר במפורש ברשימה, יחולו הכיסויים המפורטים להלן, בכפוף למבוא להגדרות, לסייגים ולתנאים הכלליים בפוליסה ובפרק זה.\n.7.5.1 כיסוי נזק לרכוש צד שלישי מכלי רכב , אם נרשם במפורש ברשימה כי הרחבת נזק לרכוש מכלי רכב תקפה לשפות את המבוטח בגין חבותו של פרק שלישי אזי יורחב הביטוח על פי המבוטח לנזק שייגרם לרכוש צד שלישי הנובע משימוש בכלי רכב מנועי ,₪  500,000 וזאת מעבר לגבולות אחריות של , אשר בבעלותו של המבוטח או מעבר לגבולות האחריות על פי פוליסה אחרת לביטוח נזקי רכוש לצד שלישי משימוש בכלי רכב שברשותו של המבוטח, הגבוה ביניהם. (חבות לעניין נזקי רכוש כתוצאה משימוש ₪  200,000"
 }

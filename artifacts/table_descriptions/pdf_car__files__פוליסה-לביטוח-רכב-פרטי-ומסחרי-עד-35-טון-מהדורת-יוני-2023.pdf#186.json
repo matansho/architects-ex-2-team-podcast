@@ -3,25 +3,23 @@
   "source": "llm",
   "description": {
     "title": "החלפת רכב",
-    "summary": "This table details adjustments to insurance premiums when a vehicle is replaced during the policy term. It looks up the difference in premiums based on whether the replacement vehicle is more or less expensive.",
-    "embed_passage": "פוליסת ביטוח רכב פרטי ומסחרי מתייחסת להפרשי דמי ביטוח בעת החלפת רכב. אם דמי הביטוח עבור הרכב החליפי נמוכים יותר, המבוטח ישלם את ההפרש באופן יחסי לתקופה שנותרה, למשל בתוך 30 ימים. אם דמי הביטוח גבוהים יותר, המבטח יחזיר את ההפרש.",
-    "row_axis": "Scenario of vehicle replacement (premium difference)",
-    "column_axis": "Policy adjustment rule",
-    "units": [
-      "ימים"
-    ],
+    "summary": "This table details adjustments to insurance premiums when a vehicle is replaced during the policy period. It outlines how premium differences are handled based on whether the replacement vehicle has higher or lower insurance costs.",
+    "embed_passage": "טבלה זו עוסקת בהחלפת רכב במסגרת פוליסת ביטוח רכב, ומפרטת את ההתאמות בדמי הביטוח במקרה של החלפת רכב במהלך תקופת הביטוח. ניתן לבדוק את ההפרש בדמי הביטוח בין הרכב המוחלף לרכב החליפי, ואת אופן החישוב של ההפרש ביחס לתקופה שנותרה בתוקף הפוליסה. סעיפים 44.1, 44.2, 44.3 ו-44.4 מתארים את התרחישים השונים של החלפת רכב וההשלכות הכספיות שלהם. פוליסה לביטוח רכב פרטי ומסחרי עד 35 טון, מהדורת יוני 2023.",
+    "row_axis": "Scenario of vehicle replacement",
+    "column_axis": "Premium adjustment rule",
+    "units": [],
     "notable_values": [
-      "30: Number of days for proportional adjustment",
-      "44.1: Section regarding transferring coverage to a replacement vehicle",
-      "44.2: Scenario where replacement vehicle premiums are lower",
-      "44.3: Scenario where replacement vehicle premiums are higher",
-      "44.4: Clause preventing insurer from charging for coverage transfer"
+      "period: 30 days",
+      "section: 44.1",
+      "section: 44.2",
+      "section: 44.3",
+      "section: 44.4"
     ],
     "product_hints": [
-      "ביטוח רכב פרטי ומסחרי"
+      "פוליסה לביטוח רכב פרטי ומסחרי עד 35 טון"
     ]
   },
   "sketch": "היו ביום ההחלפה, דמי הביטוח בעבור הרכב המוחלף נמוכים מדמי הביטוח בעבור הרכב .44.2 החליפי, ישלם המבוטח למבטח את ההפרש, באופן יחסי לתקופת הביטוח שנותרה בתוך ימים מיום ההחלפה. 30\nהיו ביום ההחלפה, דמי הביטוח בעבור הרכב המוחלף גבוהים מדמי הביטוח בעבור הרכב .44.3 החליפי, ישלם המבטח למבוטח את ההפרש, באופן יחסי לתקופת הביטוח שנותרה בתוך ימים מיום ההחלפה. 30\nכדי למנוע ממבטח לדרוש תשלום לכיסוי 44.3 ,44.2 ,44.1 אין באמור בסעיפים קטנים .44.4 הוצאותיו בשל העברת הכיסוי הביטוחי לפי תעריפיו המאושרים.",
-  "embed_text": "פוליסת ביטוח רכב פרטי ומסחרי מתייחסת להפרשי דמי ביטוח בעת החלפת רכב. אם דמי הביטוח עבור הרכב החליפי נמוכים יותר, המבוטח ישלם את ההפרש באופן יחסי לתקופה שנותרה, למשל בתוך 30 ימים. אם דמי הביטוח גבוהים יותר, המבטח יחזיר את ההפרש.",
-  "payload": "טבלה: החלפת רכב\nThis table details adjustments to insurance premiums when a vehicle is replaced during the policy term. It looks up the difference in premiums based on whether the replacement vehicle is more or less expensive.\nממדים: Scenario of vehicle replacement (premium difference), Policy adjustment rule\n\nהיו ביום ההחלפה, דמי הביטוח בעבור הרכב המוחלף נמוכים מדמי הביטוח בעבור הרכב .44.2 החליפי, ישלם המבוטח למבטח את ההפרש, באופן יחסי לתקופת הביטוח שנותרה בתוך ימים מיום ההחלפה. 30\nהיו ביום ההחלפה, דמי הביטוח בעבור הרכב המוחלף גבוהים מדמי הביטוח בעבור הרכב .44.3 החליפי, ישלם המבטח למבוטח את ההפרש, באופן יחסי לתקופת הביטוח שנותרה בתוך ימים מיום ההחלפה. 30\nכדי למנוע ממבטח לדרוש תשלום לכיסוי 44.3 ,44.2 ,44.1 אין באמור בסעיפים קטנים .44.4 הוצאותיו בשל העברת הכיסוי הביטוחי לפי תעריפיו המאושרים."
+  "embed_text": "טבלה זו עוסקת בהחלפת רכב במסגרת פוליסת ביטוח רכב, ומפרטת את ההתאמות בדמי הביטוח במקרה של החלפת רכב במהלך תקופת הביטוח. ניתן לבדוק את ההפרש בדמי הביטוח בין הרכב המוחלף לרכב החליפי, ואת אופן החישוב של ההפרש ביחס לתקופה שנותרה בתוקף הפוליסה. סעיפים 44.1, 44.2, 44.3 ו-44.4 מתארים את התרחישים השונים של החלפת רכב וההשלכות הכספיות שלהם. פוליסה לביטוח רכב פרטי ומסחרי עד 35 טון, מהדורת יוני 2023. This table details adjustments to insurance premiums when a vehicle is replaced during the policy period. It outlines how premium differences are handled based on whether the replacement vehicle has higher or lower insurance costs. בין הערכים בטבלה: period: 30 days.",
+  "payload": "טבלה: החלפת רכב\nThis table details adjustments to insurance premiums when a vehicle is replaced during the policy period. It outlines how premium differences are handled based on whether the replacement vehicle has higher or lower insurance costs.\nממדים: Scenario of vehicle replacement, Premium adjustment rule\n\nהיו ביום ההחלפה, דמי הביטוח בעבור הרכב המוחלף נמוכים מדמי הביטוח בעבור הרכב .44.2 החליפי, ישלם המבוטח למבטח את ההפרש, באופן יחסי לתקופת הביטוח שנותרה בתוך ימים מיום ההחלפה. 30\nהיו ביום ההחלפה, דמי הביטוח בעבור הרכב המוחלף גבוהים מדמי הביטוח בעבור הרכב .44.3 החליפי, ישלם המבטח למבוטח את ההפרש, באופן יחסי לתקופת הביטוח שנותרה בתוך ימים מיום ההחלפה. 30\nכדי למנוע ממבטח לדרוש תשלום לכיסוי 44.3 ,44.2 ,44.1 אין באמור בסעיפים קטנים .44.4 הוצאותיו בשל העברת הכיסוי הביטוחי לפי תעריפיו המאושרים."
 }

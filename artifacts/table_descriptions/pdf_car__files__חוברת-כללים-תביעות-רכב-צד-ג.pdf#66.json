@@ -3,23 +3,21 @@
   "source": "llm",
   "description": {
     "title": "מוסך שאינו בהסדר",
-    "summary": "This table details the process and timeframe for car repair cost reimbursement when a repair shop not affiliated with Harel is used. It outlines the steps after a surveyor's report is submitted.",
-    "embed_passage": "בהראל, אם בחרת במוסך שאינו בהסדר המוסכים עם החברה, אתה תישא בתשלום עלות תיקון רכבך. לאחר בחינת דוח השמאי, חברתנו תפצה אותך בתוך 30 ימים. תהליך אימות ובחינת גובה הנזקים ועלות תיקונם הוא חלק מהשירות.",
-    "row_axis": "Scenario: Repair shop not in Harel's network",
-    "column_axis": "Process steps and timeframes",
-    "units": [
-      "ימים"
-    ],
+    "summary": "This table details the process and timeframe for reimbursement when a vehicle is repaired at a garage not affiliated with Harel insurance. It outlines the steps for claim settlement and payment.",
+    "embed_passage": "טבלה זו מתארת את התהליך ואת מסגרת הזמן להחזר כאשר רכב מתוקן במוסך שאינו מזוהה עם הראל ביטוח. הטבלה מפרטת את השלבים ליישוב תביעה ותשלום. ניתן למצוא רשימת מוסכי הסדר באתר החברה. אם בחרת במוסך שאינו בהסדר המוסכים עם החברה, אתה תישא בתשלום, ימים 30 לאחר בחינת דוח השמאי. חברתנו תפצה אותך בתוך אימות ובחינת גובה הנזקים ועלות תיקונם.",
+    "row_axis": "בחירת מוסך שאינו בהסדר",
+    "column_axis": "תשלום ותיעוד",
+    "units": [],
     "notable_values": [
-      "timeframe: 30 ימים",
-      "repair shop: שאינו בהסדר"
+      "מוסך שאינו בהסדר: תשלום עצמי",
+      "זמן תשלום: 30 ימים",
+      "דוח שמאי: נדרש"
     ],
     "product_hints": [
-      "ביטוח רכב",
-      "Harel"
+      "ביטוח רכב"
     ]
   },
   "sketch": "אם בחרת במוסך שאינו בהסדר המוסכים עם החברה, אתה תישא בתשלום , ימים, לאחר בחינת דוח השמאי 30 עלות תיקון רכבך וחברתנו תפצה אותך בתוך אימות ובחינת גובה הנזקים ועלות תיקונם.\n,\" *לצפייה ברשימת מוסכי ההסדר, היכנס לאתר החברה, \"תביעות ביטוח רכב .\" \"חיפוש מוסך הסדר",
-  "embed_text": "בהראל, אם בחרת במוסך שאינו בהסדר המוסכים עם החברה, אתה תישא בתשלום עלות תיקון רכבך. לאחר בחינת דוח השמאי, חברתנו תפצה אותך בתוך 30 ימים. תהליך אימות ובחינת גובה הנזקים ועלות תיקונם הוא חלק מהשירות.",
-  "payload": "טבלה: מוסך שאינו בהסדר\nThis table details the process and timeframe for car repair cost reimbursement when a repair shop not affiliated with Harel is used. It outlines the steps after a surveyor's report is submitted.\nממדים: Scenario: Repair shop not in Harel's network, Process steps and timeframes\n\nאם בחרת במוסך שאינו בהסדר המוסכים עם החברה, אתה תישא בתשלום , ימים, לאחר בחינת דוח השמאי 30 עלות תיקון רכבך וחברתנו תפצה אותך בתוך אימות ובחינת גובה הנזקים ועלות תיקונם.\n,\" *לצפייה ברשימת מוסכי ההסדר, היכנס לאתר החברה, \"תביעות ביטוח רכב .\" \"חיפוש מוסך הסדר"
+  "embed_text": "טבלה זו מתארת את התהליך ואת מסגרת הזמן להחזר כאשר רכב מתוקן במוסך שאינו מזוהה עם הראל ביטוח. הטבלה מפרטת את השלבים ליישוב תביעה ותשלום. ניתן למצוא רשימת מוסכי הסדר באתר החברה. אם בחרת במוסך שאינו בהסדר המוסכים עם החברה, אתה תישא בתשלום, ימים 30 לאחר בחינת דוח השמאי. חברתנו תפצה אותך בתוך אימות ובחינת גובה הנזקים ועלות תיקונם. This table details the process and timeframe for reimbursement when a vehicle is repaired at a garage not affiliated with Harel insurance. It outlines the steps for claim settlement and payment. בין הערכים בטבלה: זמן תשלום: 30 ימים; דוח שמאי: נדרש.",
+  "payload": "טבלה: מוסך שאינו בהסדר\nThis table details the process and timeframe for reimbursement when a vehicle is repaired at a garage not affiliated with Harel insurance. It outlines the steps for claim settlement and payment.\nממדים: בחירת מוסך שאינו בהסדר, תשלום ותיעוד\n\nאם בחרת במוסך שאינו בהסדר המוסכים עם החברה, אתה תישא בתשלום , ימים, לאחר בחינת דוח השמאי 30 עלות תיקון רכבך וחברתנו תפצה אותך בתוך אימות ובחינת גובה הנזקים ועלות תיקונם.\n,\" *לצפייה ברשימת מוסכי ההסדר, היכנס לאתר החברה, \"תביעות ביטוח רכב .\" \"חיפוש מוסך הסדר"
 }

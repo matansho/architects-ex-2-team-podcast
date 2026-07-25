@@ -2,22 +2,22 @@
   "id": "pdf:apartment/files/חוברת-כללים.pdf#81",
   "source": "llm",
   "description": {
-    "title": "ביטוח דירה - נזקי רכוש",
-    "summary": "This table outlines the process for filing a property damage claim with Harel Insurance. It details the steps to take after an incident, including reporting the damage and providing necessary documentation.",
-    "embed_passage": "בהראל ביטוח דירה, בעת קיום נזק לרכוש, יש לפנות למוקד התביעות בהקדם האפשרי. החברה, על פי שיקול דעתה המקצועי, יכול ותמנה שמאי לבדיקת מקרה הביטוח, לרבות נסיבות וגובה הנזק.  במקביל, מיישב תביעות יחזור אליך לקבלת מידע ומסמכים נוספים.",
-    "row_axis": "Stages in the claims process",
-    "column_axis": "Actions/Information required",
+    "title": "בירור ויישוב תביעה",
+    "summary": "This table outlines the process for claim assessment and settlement. It details how the company will handle claims, including potential appraisal and information requests.",
+    "embed_passage": "טבלה זו מתארת את תהליך בירור ויישוב תביעה, וכוללת מידע על מינוי שמאי, קבלת מידע ומסמכים נוספים, וכן את הצורך בהודעה מוקדמת על הנזק. ניתן לעיין ברשימת המסמכים הנדרשים לסילוק התביעה במסמך נפרד. החברה, על פי שיקול דעתה המקצועי, יכול ותמנה שמאי לבדיקת מקרה הביטוח לרבות נסיבות וגובה הנזק. במקביל לאמור לעיל, כמו גם אם לא ימונה שמאי ע״י החברה, יחזור אליך מיישב תביעות טלפונית ו/או בכתב.  הראל, תביעה, נזק, שמאי, מידע, מסמכים.",
+    "row_axis": "שלבי בירור תביעה",
+    "column_axis": "פעולות החברה",
     "units": [],
     "notable_values": [
-      "step: 4",
-      "year: 1981"
+      "שמאי: מינוי אפשרי",
+      "מידע ומסמכים: בקשה בהתאם לצורך",
+      "הודעה על נזק: מוקדמת ככל האפשר"
     ],
     "product_hints": [
-      "ביטוח דירה",
       "הראל"
     ]
   },
   "sketch": ".  החברה, על פי שיקול דעתה המקצועי, יכול ותמנה שמאי לבדיקת מקרה הביטוח לרבות 4 . נסיבות וגובה הנזק\nבמקביל לאמור לעיל, כמו גם אם לא ימונה שמאי ע\"י החברה, יחזור אליך מיישב תביעות טלפונית ו/או בכתב, לצורך קבלת מידע ומסמכים נוספים, בהתאם לצורך. לצפייה ברשימת המסמכים הנדרשים לסילוק התביעה, ראה מסמך \"פירוט מידע .\" והמסמכים הנדרשים מתובע לשם בירור ויישוב תביעה",
-  "embed_text": "בהראל ביטוח דירה, בעת קיום נזק לרכוש, יש לפנות למוקד התביעות בהקדם האפשרי. החברה, על פי שיקול דעתה המקצועי, יכול ותמנה שמאי לבדיקת מקרה הביטוח, לרבות נסיבות וגובה הנזק.  במקביל, מיישב תביעות יחזור אליך לקבלת מידע ומסמכים נוספים.",
-  "payload": "טבלה: ביטוח דירה - נזקי רכוש\nThis table outlines the process for filing a property damage claim with Harel Insurance. It details the steps to take after an incident, including reporting the damage and providing necessary documentation.\nממדים: Stages in the claims process, Actions/Information required\n\n.  החברה, על פי שיקול דעתה המקצועי, יכול ותמנה שמאי לבדיקת מקרה הביטוח לרבות 4 . נסיבות וגובה הנזק\nבמקביל לאמור לעיל, כמו גם אם לא ימונה שמאי ע\"י החברה, יחזור אליך מיישב תביעות טלפונית ו/או בכתב, לצורך קבלת מידע ומסמכים נוספים, בהתאם לצורך. לצפייה ברשימת המסמכים הנדרשים לסילוק התביעה, ראה מסמך \"פירוט מידע .\" והמסמכים הנדרשים מתובע לשם בירור ויישוב תביעה"
+  "embed_text": "טבלה זו מתארת את תהליך בירור ויישוב תביעה, וכוללת מידע על מינוי שמאי, קבלת מידע ומסמכים נוספים, וכן את הצורך בהודעה מוקדמת על הנזק. ניתן לעיין ברשימת המסמכים הנדרשים לסילוק התביעה במסמך נפרד. החברה, על פי שיקול דעתה המקצועי, יכול ותמנה שמאי לבדיקת מקרה הביטוח לרבות נסיבות וגובה הנזק. במקביל לאמור לעיל, כמו גם אם לא ימונה שמאי ע״י החברה, יחזור אליך מיישב תביעות טלפונית ו/או בכתב.  הראל, תביעה, נזק, שמאי, מידע, מסמכים. This table outlines the process for claim assessment and settlement. It details how the company will handle claims, including potential appraisal and information requests. בין הערכים בטבלה: הודעה על נזק: מוקדמת ככל האפשר.",
+  "payload": "טבלה: בירור ויישוב תביעה\nThis table outlines the process for claim assessment and settlement. It details how the company will handle claims, including potential appraisal and information requests.\nממדים: שלבי בירור תביעה, פעולות החברה\n\n.  החברה, על פי שיקול דעתה המקצועי, יכול ותמנה שמאי לבדיקת מקרה הביטוח לרבות 4 . נסיבות וגובה הנזק\nבמקביל לאמור לעיל, כמו גם אם לא ימונה שמאי ע\"י החברה, יחזור אליך מיישב תביעות טלפונית ו/או בכתב, לצורך קבלת מידע ומסמכים נוספים, בהתאם לצורך. לצפייה ברשימת המסמכים הנדרשים לסילוק התביעה, ראה מסמך \"פירוט מידע .\" והמסמכים הנדרשים מתובע לשם בירור ויישוב תביעה"
 }

@@ -2,24 +2,28 @@
   "id": "pdf:loss-of-working-ability/files/תנאי-פוליסת-ביטוח-אובדן-כושר-עבודה-הראל-לעתיד-חדש.pdf#50",
   "source": "llm",
   "description": {
-    "title": "תנאי פוליסה - אובדן כושר עבודה",
-    "summary": "This table outlines conditions related to insurance policy claims for loss of working ability. It details scenarios where the insurance company may be exempt from full payment or may reduce benefits based on the accuracy of information provided by the insured.",
-    "embed_passage": "פוליסת הראל לעתיד חדש מגדירה תנאים לתגמול במקרה של אובדן כושר עבודה. גובה התגמול מושפע מגיל המבוטח, מצב בריאותו ועיסוקו. לדוגמה, סעיף 6.4.1 מתייחס למקרים בהם ניתנה תשובה שקרית בכוונה, וסעיף 6.5.2 עוסק במצב בו מידע שגוי לא השפיע על קרות מקרה הביטוח.",
-    "row_axis": "conditions related to policy validity/claim eligibility",
-    "column_axis": "specific clauses/scenarios regarding information disclosure and claim impact",
+    "title": "תנאי פוליסה - הראל לעתיד חדש",
+    "summary": "This table details conditions related to insurance policy responses and their impact on coverage under the 'Harel Le'atid Chadash' policy. It outlines scenarios where the company may be exempt from full compensation due to incomplete or dishonest answers provided by the insured.",
+    "embed_passage": "טבלה זו מתארת תנאים הקשורים לתשובות במסגרת פוליסת ביטוח אובדן כושר עבודה של הראל לעתיד חדש, והשפעתן על הכיסוי הביטוחי. היא מפרטת מצבים בהם החברה עשויה להיות פטורה מפיצוי מלא עקב תשובות לא מלאות או לא כנות שסופקו על ידי המבוטח. ניתן לעיין בתנאים אלו כדי להבין את הזכויות והחובות של המבוטח והחברה במקרה של אי-התאמה בתשובות. הטבלה מתייחסת לסעיפים 6.3, 6.4, ו-6.5, וכוללת מצבים כגון מתן תשובה בכוונת מירמה, מצב בו לא היה מתקשר בפרמיה סבירה, וידיעה או צריכה לדעת את המצב האמיתי. הראל לעתיד חדש, אובדן כושר עבודה, תשובה לא כנה, כוונת מירמה, החזר פרמיה.",
+    "row_axis": "conditions related to policy responses",
+    "column_axis": "policy response scenarios and their consequences",
     "units": [],
     "notable_values": [
-      "6.3: 30 days",
-      "6.4.1: intentional misrepresentation",
-      "6.4.2: unreasonable premium",
-      "6.5.3: 3 years"
+      "סעיף: 6.3",
+      "סעיף: 6.4",
+      "סעיף: 6.5",
+      "תשובה ניתנה בכוונת מירמה: 6.4.1",
+      "לא היה מתקשר בפרמיה סבירה: 6.4.2",
+      "ידיעה או צריכה לדעת את המצב האמיתי: 6.5.1",
+      "העובדה חדלה להתקיים לפני קרות מקרה הביטוח: 6.5.2",
+      "חלפו 3 שנים ממועד הקבלה לביטוח: 6.5.3"
     ],
     "product_hints": [
-      "אובדן כושר עבודה",
-      "הראל לעתיד חדש"
+      "הראל לעתיד חדש",
+      "אובדן כושר עבודה"
     ]
   },
   "sketch": "התשובה ניתנה בכוונת מירמה . 6.4.1\nלא היה מתקשר על פי חוזה ביטוח זה אף בפרמיה מבטח סביר 6.4.2 גבוהה יותר אילו ידע את המצב לאמיתו. במקרה זה, זכאי המבוטח מקרה להחזר  הפרמיה  ששילם  בעד  התקופה  שלאחר  קרות הביטוח, בניכוי הוצאות החברה .\nלעיל בכל 6.4ו 6.3 החברה לא תהיה זכאית לתרופות המפורטות בסעיפים 6.5 מלאה וכנה ניתנה בכוונת מירמה : אחת מאלה, אלא אם התשובה שלא היתה\nהיא ידעה או היה עליה לדעת את המצב לאמיתו בשעת כריתת 6.5.1 החוזה או שהיא גרמה לכך שהתשובה לא היתה מלאה וכנה .\nחדלה העובדה  שעליה  ניתנה  תשובה  שלא  היתה  מלאה  וכנה 6.5.2 , להתקיים לפני שקרה מקרה הביטוח, או שלא השפיעה על מקרהו . על חבות החברה או על היקפה",
-  "embed_text": "פוליסת הראל לעתיד חדש מגדירה תנאים לתגמול במקרה של אובדן כושר עבודה. גובה התגמול מושפע מגיל המבוטח, מצב בריאותו ועיסוקו. לדוגמה, סעיף 6.4.1 מתייחס למקרים בהם ניתנה תשובה שקרית בכוונה, וסעיף 6.5.2 עוסק במצב בו מידע שגוי לא השפיע על קרות מקרה הביטוח.",
-  "payload": "טבלה: תנאי פוליסה - אובדן כושר עבודה\nThis table outlines conditions related to insurance policy claims for loss of working ability. It details scenarios where the insurance company may be exempt from full payment or may reduce benefits based on the accuracy of information provided by the insured.\nממדים: conditions related to policy validity/claim eligibility, specific clauses/scenarios regarding information disclosure and claim impact\n\nהתשובה ניתנה בכוונת מירמה . 6.4.1\nלא היה מתקשר על פי חוזה ביטוח זה אף בפרמיה מבטח סביר 6.4.2 גבוהה יותר אילו ידע את המצב לאמיתו. במקרה זה, זכאי המבוטח מקרה להחזר  הפרמיה  ששילם  בעד  התקופה  שלאחר  קרות הביטוח, בניכוי הוצאות החברה .\nלעיל בכל 6.4ו 6.3 החברה לא תהיה זכאית לתרופות המפורטות בסעיפים 6.5 מלאה וכנה ניתנה בכוונת מירמה : אחת מאלה, אלא אם התשובה שלא היתה\nהיא ידעה או היה עליה לדעת את המצב לאמיתו בשעת כריתת 6.5.1 החוזה או שהיא גרמה לכך שהתשובה לא היתה מלאה וכנה .\nחדלה העובדה  שעליה  ניתנה  תשובה  שלא  היתה  מלאה  וכנה 6.5.2 , להתקיים לפני שקרה מקרה הביטוח, או שלא השפיעה על מקרהו . על חבות החברה או על היקפה"
+  "embed_text": "טבלה זו מתארת תנאים הקשורים לתשובות במסגרת פוליסת ביטוח אובדן כושר עבודה של הראל לעתיד חדש, והשפעתן על הכיסוי הביטוחי. היא מפרטת מצבים בהם החברה עשויה להיות פטורה מפיצוי מלא עקב תשובות לא מלאות או לא כנות שסופקו על ידי המבוטח. ניתן לעיין בתנאים אלו כדי להבין את הזכויות והחובות של המבוטח והחברה במקרה של אי-התאמה בתשובות. הטבלה מתייחסת לסעיפים 6.3, 6.4, ו-6.5, וכוללת מצבים כגון מתן תשובה בכוונת מירמה, מצב בו לא היה מתקשר בפרמיה סבירה, וידיעה או צריכה לדעת את המצב האמיתי. הראל לעתיד חדש, אובדן כושר עבודה, תשובה לא כנה, כוונת מירמה, החזר פרמיה. This table details conditions related to insurance policy responses and their impact on coverage under the 'Harel Le'atid Chadash' policy. It outlines scenarios where the company may be exempt from full compensation due to incomplete or dishonest answe…",
+  "payload": "טבלה: תנאי פוליסה - הראל לעתיד חדש\nThis table details conditions related to insurance policy responses and their impact on coverage under the 'Harel Le'atid Chadash' policy. It outlines scenarios where the company may be exempt from full compensation due to incomplete or dishonest answers provided by the insured.\nממדים: conditions related to policy responses, policy response scenarios and their consequences\n\nהתשובה ניתנה בכוונת מירמה . 6.4.1\nלא היה מתקשר על פי חוזה ביטוח זה אף בפרמיה מבטח סביר 6.4.2 גבוהה יותר אילו ידע את המצב לאמיתו. במקרה זה, זכאי המבוטח מקרה להחזר  הפרמיה  ששילם  בעד  התקופה  שלאחר  קרות הביטוח, בניכוי הוצאות החברה .\nלעיל בכל 6.4ו 6.3 החברה לא תהיה זכאית לתרופות המפורטות בסעיפים 6.5 מלאה וכנה ניתנה בכוונת מירמה : אחת מאלה, אלא אם התשובה שלא היתה\nהיא ידעה או היה עליה לדעת את המצב לאמיתו בשעת כריתת 6.5.1 החוזה או שהיא גרמה לכך שהתשובה לא היתה מלאה וכנה .\nחדלה העובדה  שעליה  ניתנה  תשובה  שלא  היתה  מלאה  וכנה 6.5.2 , להתקיים לפני שקרה מקרה הביטוח, או שלא השפיעה על מקרהו . על חבות החברה או על היקפה"
 }

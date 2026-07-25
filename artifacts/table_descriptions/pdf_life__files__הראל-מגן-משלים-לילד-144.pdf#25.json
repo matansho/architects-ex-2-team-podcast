@@ -2,24 +2,23 @@
   "id": "pdf:life/files/הראל-מגן-משלים-לילד-144.pdf#25",
   "source": "llm",
   "description": {
-    "title": "הראל מגן משלים לילד - תנאי ביטול",
-    "summary": "This table details conditions under which an insurance policy can be cancelled or have reduced benefits due to incomplete or dishonest answers provided by the policyholder. It outlines scenarios related to fraud and knowledge of material facts.",
-    "embed_passage": "פוליסת הראל מגן משלים לילד יכולה להתבטל אם ניתנה תשובה שאינה מלאה וכנה בכוונת מירמה. במקרה כזה, זכאי בעל הפוליסה להחזר הפרמיות ששילם, בניכוי הוצאות החברה. לדוגמה, אם המבטח סביר לא היה מתקשר על פי הפוליסה גם בפרמיה גבוהה יותר אילו ידע את המצב לאמיתו, בעל הפוליסה זכאי להחזר.",
-    "row_axis": "Conditions for policy cancellation/benefit reduction",
-    "column_axis": "Specific clauses related to misrepresentation and fraud",
+    "title": "סעיפי ביטול",
+    "summary": "This table details conditions under which an insurance policy can be cancelled, specifically related to fraudulent or incomplete answers provided by the policyholder. It outlines the company's rights and potential refunds.",
+    "embed_passage": "טבלה זו מתארת סעיפי ביטול בפוליסת ביטוח הראל מגן משלים לילד, ומפרטת תנאים בהם החברה רשאית לבטל את הפוליסה עקב מידע שגוי או חוסר תום לב מצד המבוטח. ניתן לבדוק את התנאים השונים לביטול, כגון מתן תשובה בכוונת מירמה או ידיעה על מצב לאמיתו. הסעיפים כוללים 5.4.1, 5.4.2, 5.5.1, 5.5.2, ומתייחסים לתרופות אפשריות לחברה במקרה של מצג שווא. הראל מגן משלים לילד היא הפוליסה הנדונה.",
+    "row_axis": "תנאי ביטול",
+    "column_axis": "השלכות ביטול / זכויות החברה",
     "units": [],
     "notable_values": [
-      "5.2: Material fact",
-      "30: Days for cancellation notice",
-      "5.3: Cancellation period",
-      "5.4.1: Intentional misrepresentation",
-      "5.5.2: Misrepresentation no longer relevant"
+      "5.4.1: התשובה ניתנה בכוונת מירמה",
+      "5.4.2: מבטח סביר לא היה מתקשר",
+      "5.5.1: ידיעה על המצב לאמיתו",
+      "5.5.2: העובדה חדלה להתקיים לפני מקרה הביטוח"
     ],
     "product_hints": [
       "הראל מגן משלים לילד"
     ]
   },
   "sketch": "התשובה ניתנה בכוונת מירמה. 5.4.1\nמבטח סביר  לא היה מתקשר על פי פוליסה זו אף בפרמיה גבוהה יותר 5.4.2 אילו ידע את המצב לאמיתו. במקרה זה, זכאי בעל הפוליסה להחזר הפרמיות ששילם בעד התקופה שלאחר קרות מקרה הביטוח, בניכוי הוצאות החברה.\n, לעיל בכל אחת מאלה 5.3 החברה לא תהיה זכאית לתרופות המפורטות בסעיף 5.5 אלא אם התשובה שלא היתה מלאה וכנה ניתנה בכוונת מירמה:\nהיא ידעה או היה עליה לדעת את המצב לאמיתו בשעת כריתת החוזה 5.5.1 או שהיא גרמה לכך שהתשובה לא היתה מלאה וכנה.\nהעובדה שעליה ניתנה תשובה שלא היתה מלאה וכנה חדלה להתקיים 5.5.2 לפני שקרה מקרה הביטוח, או שלא השפיעה על מקרהו, על חבות החברה או על היקפה.",
-  "embed_text": "פוליסת הראל מגן משלים לילד יכולה להתבטל אם ניתנה תשובה שאינה מלאה וכנה בכוונת מירמה. במקרה כזה, זכאי בעל הפוליסה להחזר הפרמיות ששילם, בניכוי הוצאות החברה. לדוגמה, אם המבטח סביר לא היה מתקשר על פי הפוליסה גם בפרמיה גבוהה יותר אילו ידע את המצב לאמיתו, בעל הפוליסה זכאי להחזר.",
-  "payload": "טבלה: הראל מגן משלים לילד - תנאי ביטול\nThis table details conditions under which an insurance policy can be cancelled or have reduced benefits due to incomplete or dishonest answers provided by the policyholder. It outlines scenarios related to fraud and knowledge of material facts.\nממדים: Conditions for policy cancellation/benefit reduction, Specific clauses related to misrepresentation and fraud\n\nהתשובה ניתנה בכוונת מירמה. 5.4.1\nמבטח סביר  לא היה מתקשר על פי פוליסה זו אף בפרמיה גבוהה יותר 5.4.2 אילו ידע את המצב לאמיתו. במקרה זה, זכאי בעל הפוליסה להחזר הפרמיות ששילם בעד התקופה שלאחר קרות מקרה הביטוח, בניכוי הוצאות החברה.\n, לעיל בכל אחת מאלה 5.3 החברה לא תהיה זכאית לתרופות המפורטות בסעיף 5.5 אלא אם התשובה שלא היתה מלאה וכנה ניתנה בכוונת מירמה:\nהיא ידעה או היה עליה לדעת את המצב לאמיתו בשעת כריתת החוזה 5.5.1 או שהיא גרמה לכך שהתשובה לא היתה מלאה וכנה.\nהעובדה שעליה ניתנה תשובה שלא היתה מלאה וכנה חדלה להתקיים 5.5.2 לפני שקרה מקרה הביטוח, או שלא השפיעה על מקרהו, על חבות החברה או על היקפה."
+  "embed_text": "טבלה זו מתארת סעיפי ביטול בפוליסת ביטוח הראל מגן משלים לילד, ומפרטת תנאים בהם החברה רשאית לבטל את הפוליסה עקב מידע שגוי או חוסר תום לב מצד המבוטח. ניתן לבדוק את התנאים השונים לביטול, כגון מתן תשובה בכוונת מירמה או ידיעה על מצב לאמיתו. הסעיפים כוללים 5.4.1, 5.4.2, 5.5.1, 5.5.2, ומתייחסים לתרופות אפשריות לחברה במקרה של מצג שווא. הראל מגן משלים לילד היא הפוליסה הנדונה. This table details conditions under which an insurance policy can be cancelled, specifically related to fraudulent or incomplete answers provided by the policyholder. It outlines the company's rights and potential refunds.",
+  "payload": "טבלה: סעיפי ביטול\nThis table details conditions under which an insurance policy can be cancelled, specifically related to fraudulent or incomplete answers provided by the policyholder. It outlines the company's rights and potential refunds.\nממדים: תנאי ביטול, השלכות ביטול / זכויות החברה\n\nהתשובה ניתנה בכוונת מירמה. 5.4.1\nמבטח סביר  לא היה מתקשר על פי פוליסה זו אף בפרמיה גבוהה יותר 5.4.2 אילו ידע את המצב לאמיתו. במקרה זה, זכאי בעל הפוליסה להחזר הפרמיות ששילם בעד התקופה שלאחר קרות מקרה הביטוח, בניכוי הוצאות החברה.\n, לעיל בכל אחת מאלה 5.3 החברה לא תהיה זכאית לתרופות המפורטות בסעיף 5.5 אלא אם התשובה שלא היתה מלאה וכנה ניתנה בכוונת מירמה:\nהיא ידעה או היה עליה לדעת את המצב לאמיתו בשעת כריתת החוזה 5.5.1 או שהיא גרמה לכך שהתשובה לא היתה מלאה וכנה.\nהעובדה שעליה ניתנה תשובה שלא היתה מלאה וכנה חדלה להתקיים 5.5.2 לפני שקרה מקרה הביטוח, או שלא השפיעה על מקרהו, על חבות החברה או על היקפה."
 }

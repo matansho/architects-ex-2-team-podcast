@@ -2,24 +2,21 @@
   "id": "pdf:apartment/files/תנאי-פוליסת-ביטוח-דירה-אדירה-כסף-מהדורת-פברואר-2025.pdf#79",
   "source": "llm",
   "description": {
-    "title": "חישוב פיצויים",
-    "summary": "This table details how insurance payouts are calculated for property loss or damage. It outlines how compensation is determined based on the loss value, the insured amount, and specific conditions.",
-    "embed_passage": "פוליסת ביטוח דירה אדירה כסף מספקת תגמולי ביטוח שיחושבו לפי שווי האבדן או הנזק, אך לא יעלו על סכום הביטוח הנקוב במפרט כסכום ביטוח התכולה. תגמולי הביטוח יביאו את המבוטח, ככל האפשר, למצב שהיה בו אלמלא קרה מקרה הביטוח. לדוגמה, הפיצוי בשל אבדן או נזק לכמה פריטים לא יעלה על 38.",
-    "row_axis": "Calculation method / condition for compensation",
-    "column_axis": "Details of compensation calculation",
+    "title": "חישוב הפיצוי",
+    "summary": "This table details how insurance compensation is calculated for losses or damages. It outlines the principles for determining payouts based on the policy’s coverage limits and the actual loss incurred.",
+    "embed_passage": "טבלה זו מתארת את אופן חישוב פיצויי הביטוח במקרה של אובדן או נזק, בהתאם לפוליסת ביטוח דירה אדירה כסף. החישוב מתבסס על שווי האובדן או הנזק, אך לא יעלה על סכום הביטוח הנקוב במפרט התכולה. תגמולי הביטוח יחושבו כך שיחזירו את המבוטח, ככל האפשר, למצב שהיה בו לפני קרות מקרה הביטוח. אובדן או נזק לכמה פריטים לא יעלו על הסכום הנקוב במפרט, אם קיים, כסכום הביטוח של הפריטים. סכום ביטוח התכולה, אובדן, נזק, תגמולי ביטוח, מקרה ביטוח.",
+    "row_axis": "calculation principles",
+    "column_axis": "details of compensation calculation",
     "units": [],
     "notable_values": [
-      "calculation: 18",
-      "maximum payout limit: 38",
-      "compensation goal: return to pre-loss state",
-      "employee belongings limit: 5%",
-      "insurance amount limit: סכום ביטוח התכולה"
+      "סכום ביטוח התכולה: limit for compensation",
+      "5%: maximum compensation for certain losses"
     ],
     "product_hints": [
       "ביטוח דירה אדירה כסף"
     ]
   },
   "sketch": ". חישוב הפיצוי 18\n, .  תגמולי הביטוח שיגיעו למבוטח על פי פרק זה יחושבו וישולמו לפי שווי האבדן או הנזק 18.1 ואולם לא ישולם יותר מסכום הביטוח הנקוב במפרט כסכום ביטוח התכולה, והכול להלן. תגמולי הביטוח בשל אבדן או נזק לכמה פריטים לא 38 בכפוף לאמור בסעיף יעלו על הסכום הנקוב במפרט, אם נקוב, כסכום הביטוח של הפריטים.\n.  תגמולי הביטוח יחושבו באופן שיביא את המבוטח, ככל האפשר, למצב שהיה נמצא 18.2 בו אלמלא קרה מקרה הביטוח.",
-  "embed_text": "פוליסת ביטוח דירה אדירה כסף מספקת תגמולי ביטוח שיחושבו לפי שווי האבדן או הנזק, אך לא יעלו על סכום הביטוח הנקוב במפרט כסכום ביטוח התכולה. תגמולי הביטוח יביאו את המבוטח, ככל האפשר, למצב שהיה בו אלמלא קרה מקרה הביטוח. לדוגמה, הפיצוי בשל אבדן או נזק לכמה פריטים לא יעלה על 38.",
-  "payload": "טבלה: חישוב פיצויים\nThis table details how insurance payouts are calculated for property loss or damage. It outlines how compensation is determined based on the loss value, the insured amount, and specific conditions.\nממדים: Calculation method / condition for compensation, Details of compensation calculation\n\n. חישוב הפיצוי 18\n, .  תגמולי הביטוח שיגיעו למבוטח על פי פרק זה יחושבו וישולמו לפי שווי האבדן או הנזק 18.1 ואולם לא ישולם יותר מסכום הביטוח הנקוב במפרט כסכום ביטוח התכולה, והכול להלן. תגמולי הביטוח בשל אבדן או נזק לכמה פריטים לא 38 בכפוף לאמור בסעיף יעלו על הסכום הנקוב במפרט, אם נקוב, כסכום הביטוח של הפריטים.\n.  תגמולי הביטוח יחושבו באופן שיביא את המבוטח, ככל האפשר, למצב שהיה נמצא 18.2 בו אלמלא קרה מקרה הביטוח."
+  "embed_text": "טבלה זו מתארת את אופן חישוב פיצויי הביטוח במקרה של אובדן או נזק, בהתאם לפוליסת ביטוח דירה אדירה כסף. החישוב מתבסס על שווי האובדן או הנזק, אך לא יעלה על סכום הביטוח הנקוב במפרט התכולה. תגמולי הביטוח יחושבו כך שיחזירו את המבוטח, ככל האפשר, למצב שהיה בו לפני קרות מקרה הביטוח. אובדן או נזק לכמה פריטים לא יעלו על הסכום הנקוב במפרט, אם קיים, כסכום הביטוח של הפריטים. סכום ביטוח התכולה, אובדן, נזק, תגמולי ביטוח, מקרה ביטוח. This table details how insurance compensation is calculated for losses or damages. It outlines the principles for determining payouts based on the policy’s coverage limits and the actual loss incurred. בין הערכים בטבלה: 5%: maximum compensation for certain losses.",
+  "payload": "טבלה: חישוב הפיצוי\nThis table details how insurance compensation is calculated for losses or damages. It outlines the principles for determining payouts based on the policy’s coverage limits and the actual loss incurred.\nממדים: calculation principles, details of compensation calculation\n\n. חישוב הפיצוי 18\n, .  תגמולי הביטוח שיגיעו למבוטח על פי פרק זה יחושבו וישולמו לפי שווי האבדן או הנזק 18.1 ואולם לא ישולם יותר מסכום הביטוח הנקוב במפרט כסכום ביטוח התכולה, והכול להלן. תגמולי הביטוח בשל אבדן או נזק לכמה פריטים לא 38 בכפוף לאמור בסעיף יעלו על הסכום הנקוב במפרט, אם נקוב, כסכום הביטוח של הפריטים.\n.  תגמולי הביטוח יחושבו באופן שיביא את המבוטח, ככל האפשר, למצב שהיה נמצא 18.2 בו אלמלא קרה מקרה הביטוח."
 }

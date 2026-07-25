@@ -2,26 +2,24 @@
   "id": "pdf:business/files/תנאי-פוליסת-ביטוח-מכלול-למשרד-מהדורת-ינואר-2024-באנגלית.pdf#50",
   "source": "llm",
   "description": {
-    "title": "מכלול - ביטוח משרד",
-    "summary": "This table details the conditions for underinsurance and loss of income insurance under the 'Mekhalel' office insurance policy. It outlines how claims are adjusted if the insured amount is less than the property's value and the conditions for loss of income coverage.",
-    "embed_passage": "פוליסת 'מכלול' למשרד כוללת ביטוח הכנסות במקרה של אובדן הכנסה או הוצאות תפעול מוגברות עקב שיבוש בפעילות המשרד. הפיצוי ייקבע בהתאם להוצאות הנוספות בפועל שנגרמו, וסכום הפיצוי היומי המקסימלי מופיע בתוספת הפוליסה. כל פריט בתוספת הפוליסה כפוף לתנאי זה בנפרד.",
-    "row_axis": "Specific coverage details or conditions within the policy",
-    "column_axis": "Policy clauses and conditions (e.g., underinsurance, loss of income)",
+    "title": "תנאי פוליסת ביטוח מכלול",
+    "summary": "This table outlines conditions related to underinsurance and loss of income insurance under the 'Makhol' policy. It details how the insurer's liability is calculated when the sum insured is less than the property's value, and the conditions for loss of income coverage.",
+    "embed_passage": "טבלה זו מתייחסת לתנאי פוליסת ביטוח מכלול, ספציפית לסעיפי ביטוח חסר וביטוח אובדן הכנסה. היא מפרטת כיצד יחושב שיעור הפיצוי במקרה של ביטוח חסר, בהתאם ליחס בין סכום הביטוח המצוין בנספח לערך הנכס בזמן האירוע הביטוחי. כל פריט בנספח כפוף לתנאי זה בנפרד. במקרה של ביטוח אובדן הכנסה, הפוליסה מכסה הפסדים כתוצאה מהשבתת פעילות המשרד עקב נזק לרכוש המבוטח, בתנאים המפורטים בפוליסה. נספח הפוליסה, הגדרות, חריגים ותנאים כלליים חלים. ביטוח מכלול, ביטוח חסר, אובדן הכנסה, נספח.",
+    "row_axis": "Insurance conditions (Underinsurance, Loss of Income)",
+    "column_axis": "Policy clauses and limitations",
     "units": [],
     "notable_values": [
-      "policy part: Part A",
-      "policy part: Part B",
-      "insured event: loss of income",
-      "insured event: corrosion and rust damages",
-      "underinsurance: pro-rata reduction"
+      "Makhol: policy name",
+      "Part A: building and contents insurance",
+      "Part B: loss of income insurance",
+      "3.7.1.1: paragraph reference",
+      "3.3.8: exclusion reference"
     ],
     "product_hints": [
-      "מכלול",
-      "ביטוח משרד",
-      "Mekhalel"
+      "Makhol"
     ]
   },
   "sketch": "3.7.2 Underinsurance\nUnless otherwise stated in regard to any of the specific covers under this Part A, if upon the occurrence of an insured event, the sum insured is lower than the value of the insured property in accordance with whatsoever appearing in paragraph 3.7.1.1 above, then the insurer's liability will be reduced pro-rata, according to the ratio between the sum insured specified in the schedule and the sum equal to the value of the property at the time of the insured event - in accordance with whatsoever appearing in paragraph 3.7.1.1 above. Each and every item in the schedule shall be subject to this condition separately.\nPart B of the First Chapter -Loss of Income Insurance\nIf the schedule notes that Part B of the First Chapter - loss of income insurance - is valid, then subject to the preamble, definitions, exclusions and general conditions of the policy, in the First Chapter and in this Part B hereunder, the insurer shall indemnify the insured for a covered insured event as defined hereunder, which occurs within the boundaries of the State, in the course of the insurance period, and all as detailed hereunder:",
-  "embed_text": "פוליסת 'מכלול' למשרד כוללת ביטוח הכנסות במקרה של אובדן הכנסה או הוצאות תפעול מוגברות עקב שיבוש בפעילות המשרד. הפיצוי ייקבע בהתאם להוצאות הנוספות בפועל שנגרמו, וסכום הפיצוי היומי המקסימלי מופיע בתוספת הפוליסה. כל פריט בתוספת הפוליסה כפוף לתנאי זה בנפרד.",
-  "payload": "טבלה: מכלול - ביטוח משרד\nThis table details the conditions for underinsurance and loss of income insurance under the 'Mekhalel' office insurance policy. It outlines how claims are adjusted if the insured amount is less than the property's value and the conditions for loss of income coverage.\nממדים: Specific coverage details or conditions within the policy, Policy clauses and conditions (e.g., underinsurance, loss of income)\n\n3.7.2 Underinsurance\nUnless otherwise stated in regard to any of the specific covers under this Part A, if upon the occurrence of an insured event, the sum insured is lower than the value of the insured property in accordance with whatsoever appearing in paragraph 3.7.1.1 above, then the insurer's liability will be reduced pro-rata, according to the ratio between the sum insured specified in the schedule and the sum equal to the value of the property at the time of the insured event - in accordance with whatsoever appearing in paragraph 3.7.1.1 above. Each and every item in the schedule shall be subject to this condition separately.\nPart B of the First Chapter -Loss of Income Insurance\nIf the schedule notes that Part B of the First Chapter - loss of income insurance - is valid, then subject to the preamble, definitions, exclusions and general conditions of the policy, in the First Chapter and in this Part B hereunder, the insurer shall indemnify the insured for a covered insured event as defined hereunder, which occurs within the boundaries of the State, in the course of the insurance period, and all as detailed hereunder:"
+  "embed_text": "טבלה זו מתייחסת לתנאי פוליסת ביטוח מכלול, ספציפית לסעיפי ביטוח חסר וביטוח אובדן הכנסה. היא מפרטת כיצד יחושב שיעור הפיצוי במקרה של ביטוח חסר, בהתאם ליחס בין סכום הביטוח המצוין בנספח לערך הנכס בזמן האירוע הביטוחי. כל פריט בנספח כפוף לתנאי זה בנפרד. במקרה של ביטוח אובדן הכנסה, הפוליסה מכסה הפסדים כתוצאה מהשבתת פעילות המשרד עקב נזק לרכוש המבוטח, בתנאים המפורטים בפוליסה. נספח הפוליסה, הגדרות, חריגים ותנאים כלליים חלים. ביטוח מכלול, ביטוח חסר, אובדן הכנסה, נספח. This table outlines conditions related to underinsurance and loss of income insurance under the 'Makhol' policy. It details how the insurer's liability is calculated when the sum insured is less than the property's value, and the conditions for loss of income coverage. בין הערכים בטבלה: Makhol: policy name; Part A: building and contents…",
+  "payload": "טבלה: תנאי פוליסת ביטוח מכלול\nThis table outlines conditions related to underinsurance and loss of income insurance under the 'Makhol' policy. It details how the insurer's liability is calculated when the sum insured is less than the property's value, and the conditions for loss of income coverage.\nממדים: Insurance conditions (Underinsurance, Loss of Income), Policy clauses and limitations\n\n3.7.2 Underinsurance\nUnless otherwise stated in regard to any of the specific covers under this Part A, if upon the occurrence of an insured event, the sum insured is lower than the value of the insured property in accordance with whatsoever appearing in paragraph 3.7.1.1 above, then the insurer's liability will be reduced pro-rata, according to the ratio between the sum insured specified in the schedule and the sum equal to the value of the property at the time of the insured event - in accordance with whatsoever appearing in paragraph 3.7.1.1 above. Each and every item in the schedule shall be subject to this condition separately.\nPart B of the First Chapter -Loss of Income Insurance\nIf the schedule notes that Part B of the First Chapter - loss of income insurance - is valid, then subject to the preamble, definitions, exclusions and general conditions of the policy, in the First Chapter and in this Part B hereunder, the insurer shall indemnify the insured for a covered insured event as defined hereunder, which occurs within the boundaries of the State, in the course of the insurance period, and all as detailed hereunder:"
 }

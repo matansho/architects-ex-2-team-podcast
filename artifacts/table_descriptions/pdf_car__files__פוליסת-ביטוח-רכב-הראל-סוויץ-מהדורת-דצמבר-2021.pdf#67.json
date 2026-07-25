@@ -3,24 +3,22 @@
   "source": "llm",
   "description": {
     "title": "אבדן לרכב",
-    "summary": "This table details compensation for vehicle loss, specifically when taxes haven't been paid. It outlines how 'Harel Switch' insurance handles total loss or constructive total loss scenarios.",
-    "embed_passage": "פוליסת ביטוח רכב הראל סוויץ׳ מתייחסת למקרי אבדן גמור או אבדן גמור להלכה, ומסבירה כיצד יחושב הפיצוי בהתאם לתשלום המיסים על הרכב. לדוגמה, אם הרכב נפגע ולא שולמו המיסים, הפיצוי ישולם לפי שווי הרכב ללא מיסים. במקרים מסוימים, הפיצוי יכול לכסות את שווי הרכב לפני התאונה כאילו שולמו כל המיסים.",
-    "row_axis": "loss scenarios related to unpaid taxes",
-    "column_axis": "compensation details and conditions",
+    "summary": "This table details insurance payouts for vehicle loss, specifically addressing situations where taxes haven't been paid on the vehicle. It outlines how the insurer will compensate the insured in cases of total or constructive total loss.",
+    "embed_passage": "טבלה זו עוסקת בתנאי הפיצוי במקרה של אבדן לרכב, בדגש על מצבים בהם לא שולמו מיסים על הרכב. ניתן לעיין בתנאים השונים בהתאם לסוג האבדן – אבדן גמור או אבדן גמור להלכה – וכן האם המבוטח זכאי לפטור ממסים. הפוליסה הרלוונטית היא פוליסת ביטוח רכב הראל סוויץ. הפיצוי יכול להיות תשלום לפי שווי הרכב או החלפה ברכב אחר. המקרים המכוסים כוללים אבדן גמור או אבדן גמור להלכה, מסים ממשלתיים, וקיזוז מס ערך מוסף.",
+    "row_axis": "loss scenarios (total loss, constructive total loss) and tax status",
+    "column_axis": "insurance payout conditions",
     "units": [],
     "notable_values": [
-      "section 7: loss of vehicle with unpaid taxes",
-      "section 5.2: refers to section 7.1",
-      "section 7.1: compensation calculation without taxes",
-      "section 7.2: proof of tax exemption",
-      "section 7.3: transfer of vehicle rights to insurer"
+      "אבדן גמור: compensation based on vehicle value without taxes",
+      "אבדן גמור להלכה: compensation based on vehicle value without taxes",
+      "מסים ממשלתיים: consideration in payout calculation",
+      "מס ערך מוסף: consideration in payout calculation"
     ],
     "product_hints": [
-      "הראל סוויץ'",
-      "Harel Switch"
+      "פוליסת ביטוח רכב הראל סוויץ"
     ]
   },
   "sketch": ". אבדן לרכב שלא שילמו בעדו מסים 7\n. 7.1 , אם נגרם אבדן גמור או אבדן גמור להלכה לרכב כתוצאה 5.2 על אף האמור בסעיף ממקרה ביטוח המכוסה בפוליסה זו ולא שולמו כל המיסים הממשלתיים בשל הרכב או שקוזז בגינו מס ערך מוסף, והמבטח החליט לא לתקן את הרכב, ישלם המבטח תגמולי ביטוח לפי שווי הרכב בלא מיסים או בלא מס ערך מוסף, לפי העניין, או יחליפו ברכב אחר מסוג ואיכות דומים.\n, מבוטח שימציא למבטח הוכחה כי אינו זכאי לפטור חוזר 7.1 . על אף האמור בסעיף קטן 7.2 ממסים או לקיזוו מס ערך מוסף, לפי העניין, על רכב חליפי שהוא מתכוון לרכוש במקום הרכב שנגרם לו אבדן גמור או אבדן גמור להלכה, ישלם לו המבטח תגמולי ביטוח לפי שווי הרכב עובר ליום קרות מקרה הביטוח כאילו שולמו כל המסים בעדו, או יחליפו ברכב מסוג ואיכות דומים.",
-  "embed_text": "פוליסת ביטוח רכב הראל סוויץ׳ מתייחסת למקרי אבדן גמור או אבדן גמור להלכה, ומסבירה כיצד יחושב הפיצוי בהתאם לתשלום המיסים על הרכב. לדוגמה, אם הרכב נפגע ולא שולמו המיסים, הפיצוי ישולם לפי שווי הרכב ללא מיסים. במקרים מסוימים, הפיצוי יכול לכסות את שווי הרכב לפני התאונה כאילו שולמו כל המיסים.",
-  "payload": "טבלה: אבדן לרכב\nThis table details compensation for vehicle loss, specifically when taxes haven't been paid. It outlines how 'Harel Switch' insurance handles total loss or constructive total loss scenarios.\nממדים: loss scenarios related to unpaid taxes, compensation details and conditions\n\n. אבדן לרכב שלא שילמו בעדו מסים 7\n. 7.1 , אם נגרם אבדן גמור או אבדן גמור להלכה לרכב כתוצאה 5.2 על אף האמור בסעיף ממקרה ביטוח המכוסה בפוליסה זו ולא שולמו כל המיסים הממשלתיים בשל הרכב או שקוזז בגינו מס ערך מוסף, והמבטח החליט לא לתקן את הרכב, ישלם המבטח תגמולי ביטוח לפי שווי הרכב בלא מיסים או בלא מס ערך מוסף, לפי העניין, או יחליפו ברכב אחר מסוג ואיכות דומים.\n, מבוטח שימציא למבטח הוכחה כי אינו זכאי לפטור חוזר 7.1 . על אף האמור בסעיף קטן 7.2 ממסים או לקיזוו מס ערך מוסף, לפי העניין, על רכב חליפי שהוא מתכוון לרכוש במקום הרכב שנגרם לו אבדן גמור או אבדן גמור להלכה, ישלם לו המבטח תגמולי ביטוח לפי שווי הרכב עובר ליום קרות מקרה הביטוח כאילו שולמו כל המסים בעדו, או יחליפו ברכב מסוג ואיכות דומים."
+  "embed_text": "טבלה זו עוסקת בתנאי הפיצוי במקרה של אבדן לרכב, בדגש על מצבים בהם לא שולמו מיסים על הרכב. ניתן לעיין בתנאים השונים בהתאם לסוג האבדן – אבדן גמור או אבדן גמור להלכה – וכן האם המבוטח זכאי לפטור ממסים. הפוליסה הרלוונטית היא פוליסת ביטוח רכב הראל סוויץ. הפיצוי יכול להיות תשלום לפי שווי הרכב או החלפה ברכב אחר. המקרים המכוסים כוללים אבדן גמור או אבדן גמור להלכה, מסים ממשלתיים, וקיזוז מס ערך מוסף. This table details insurance payouts for vehicle loss, specifically addressing situations where taxes haven't been paid on the vehicle. It outlines how the insurer will compensate the insured in cases of total or constructive total loss.",
+  "payload": "טבלה: אבדן לרכב\nThis table details insurance payouts for vehicle loss, specifically addressing situations where taxes haven't been paid on the vehicle. It outlines how the insurer will compensate the insured in cases of total or constructive total loss.\nממדים: loss scenarios (total loss, constructive total loss) and tax status, insurance payout conditions\n\n. אבדן לרכב שלא שילמו בעדו מסים 7\n. 7.1 , אם נגרם אבדן גמור או אבדן גמור להלכה לרכב כתוצאה 5.2 על אף האמור בסעיף ממקרה ביטוח המכוסה בפוליסה זו ולא שולמו כל המיסים הממשלתיים בשל הרכב או שקוזז בגינו מס ערך מוסף, והמבטח החליט לא לתקן את הרכב, ישלם המבטח תגמולי ביטוח לפי שווי הרכב בלא מיסים או בלא מס ערך מוסף, לפי העניין, או יחליפו ברכב אחר מסוג ואיכות דומים.\n, מבוטח שימציא למבטח הוכחה כי אינו זכאי לפטור חוזר 7.1 . על אף האמור בסעיף קטן 7.2 ממסים או לקיזוו מס ערך מוסף, לפי העניין, על רכב חליפי שהוא מתכוון לרכוש במקום הרכב שנגרם לו אבדן גמור או אבדן גמור להלכה, ישלם לו המבטח תגמולי ביטוח לפי שווי הרכב עובר ליום קרות מקרה הביטוח כאילו שולמו כל המסים בעדו, או יחליפו ברכב מסוג ואיכות דומים."
 }

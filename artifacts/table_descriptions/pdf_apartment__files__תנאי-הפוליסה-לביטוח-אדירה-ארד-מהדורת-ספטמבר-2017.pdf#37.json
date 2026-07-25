@@ -2,25 +2,23 @@
   "id": "pdf:apartment/files/תנאי-הפוליסה-לביטוח-אדירה-ארד-מהדורת-ספטמבר-2017.pdf#37",
   "source": "llm",
   "description": {
-    "title": "אדירה ארד - תנאי פוליסה",
-    "summary": "This table details covered perils under the 'Adira Erd' apartment insurance policy. It lists events that constitute a covered loss, allowing policyholders to understand what damages are insured against.",
-    "embed_passage": "פוליסת 'אדירה ארד' מכסה נזקים שנגרמו כתוצאה מאש, ברק, רעם ועשן חריג. מהירות רוח מעל 30 עלולה לגרום לנזק, כמו גם דליפת מי גשם. הפוליסה מגדירה תנאים ספציפיים לגבי פעולות זדון וגניבה, בהתאם לתפוסת הדירה.",
-    "row_axis": "covered peril",
-    "column_axis": "peril description",
+    "title": "תנאי הפוליסה - אדירה ארד",
+    "summary": "This table details covered incidents under the 'Adira Ard' insurance policy. It lists specific events that constitute a covered loss, with some exclusions.",
+    "embed_passage": "טבלה זו מתארת את מקרי הביטוח המכוסים בפוליסת 'אדירה ארד', ומפרטת אירועים ספציפיים אשר מהווים נזק מכוסה, עם מספר סייגים. ניתן לחפש מידע על סוגי נזקים ספציפיים כמו אש, התפוצצות, או רוח. הטבלה כוללת מידע על אש, ברק, רעם, התפוצצות, רוח מעל 30 קמ״ש, ופעולות זדון.  היא מפרטת גם סייגים לגבי גניבה ופעולות זדון בתנאים מסוימים.  הפוליסה 'אדירה ארד' מכסה נזקים כתוצאה מאש, ברק, רעם, התפוצצות, רוח חזקה, ופעולות זדון, אך קיימים חריגים לגבי גניבה ופעולות זדון בתנאים מסוימים.",
+    "row_axis": "מקרה ביטוח (covered incident)",
+    "column_axis": "תיאור (description)",
     "units": [],
     "notable_values": [
-      "wind speed: 30",
-      "peril 11.1: fire, lightning, thunder",
-      "peril 11.2: explosion or ignition",
-      "peril 11.3: wind over 30",
-      "peril 11.7: theft, burglary"
+      "רוח: 30 קמ״ש",
+      "אש: ברק, רעם",
+      "התפוצצות: התלקחות",
+      "פעולות זדון: סייגים קיימים"
     ],
     "product_hints": [
-      "אדירה ארד",
-      "ביטוח דירה"
+      "אדירה ארד"
     ]
   },
   "sketch": ". אש, ברק, רעם וכן עשן שהוא תופעה יוצאת דופן ולא תופעה קבועה. 11.1\n. התפוצצות או התלקחות. 11.2\nלמעט , קשר לרבות גשם שירד באותה עת, שלג או ברד 30 . רוח שמהירותה עולה על 11.3 דליפת מי גשם מבעד לקירות או לתקרה או ספיגתם בהם.",
-  "embed_text": "פוליסת 'אדירה ארד' מכסה נזקים שנגרמו כתוצאה מאש, ברק, רעם ועשן חריג. מהירות רוח מעל 30 עלולה לגרום לנזק, כמו גם דליפת מי גשם. הפוליסה מגדירה תנאים ספציפיים לגבי פעולות זדון וגניבה, בהתאם לתפוסת הדירה.",
-  "payload": "טבלה: אדירה ארד - תנאי פוליסה\nThis table details covered perils under the 'Adira Erd' apartment insurance policy. It lists events that constitute a covered loss, allowing policyholders to understand what damages are insured against.\nממדים: covered peril, peril description\n\n. אש, ברק, רעם וכן עשן שהוא תופעה יוצאת דופן ולא תופעה קבועה. 11.1\n. התפוצצות או התלקחות. 11.2\nלמעט , קשר לרבות גשם שירד באותה עת, שלג או ברד 30 . רוח שמהירותה עולה על 11.3 דליפת מי גשם מבעד לקירות או לתקרה או ספיגתם בהם."
+  "embed_text": "טבלה זו מתארת את מקרי הביטוח המכוסים בפוליסת 'אדירה ארד', ומפרטת אירועים ספציפיים אשר מהווים נזק מכוסה, עם מספר סייגים. ניתן לחפש מידע על סוגי נזקים ספציפיים כמו אש, התפוצצות, או רוח. הטבלה כוללת מידע על אש, ברק, רעם, התפוצצות, רוח מעל 30 קמ״ש, ופעולות זדון.  היא מפרטת גם סייגים לגבי גניבה ופעולות זדון בתנאים מסוימים.  הפוליסה 'אדירה ארד' מכסה נזקים כתוצאה מאש, ברק, רעם, התפוצצות, רוח חזקה, ופעולות זדון, אך קיימים חריגים לגבי גניבה ופעולות זדון בתנאים מסוימים. This table details covered incidents under the 'Adira Ard' insurance policy. It lists specific events that constitute a covered loss, with some exclusions.",
+  "payload": "טבלה: תנאי הפוליסה - אדירה ארד\nThis table details covered incidents under the 'Adira Ard' insurance policy. It lists specific events that constitute a covered loss, with some exclusions.\nממדים: מקרה ביטוח (covered incident), תיאור (description)\n\n. אש, ברק, רעם וכן עשן שהוא תופעה יוצאת דופן ולא תופעה קבועה. 11.1\n. התפוצצות או התלקחות. 11.2\nלמעט , קשר לרבות גשם שירד באותה עת, שלג או ברד 30 . רוח שמהירותה עולה על 11.3 דליפת מי גשם מבעד לקירות או לתקרה או ספיגתם בהם."
 }

@@ -2,24 +2,24 @@
   "id": "pdf:business/files/תנאי-פוליסת-ביטוח-מכלול-לעסק-מהדורת-מרץ-2023-באנגלית.pdf#150",
   "source": "llm",
   "description": {
-    "title": "מכלול - חריגות",
-    "summary": "This table lists exclusions to coverage under the 'מכלול' insurance policy for businesses. It details situations where the policy will not provide coverage, such as fines or damage from defamation.",
-    "embed_passage": "פוליסת 'מכלול' אינה מכסה קנסות, היטלים או נזקים עונשיים (3.16). כמו כן, הפוליסה לא תכסה תביעות הנובעות מנזק כספי, אלא אם כן הנזק נגרם ישירות כתוצאה מנזק לרכוש (3.17). הפוליסה גם לא מכסה אחריות כנושא משרה או דירקטור, אלא אם כן האחריות הייתה חלה גם אם המבוטח לא היה נושא משרה (3.18).",
-    "row_axis": "Type of exclusion",
-    "column_axis": "N/A - each row is a distinct exclusion",
+    "title": "חרגות פוליסה",
+    "summary": "This table lists exclusions to an insurance policy. It details situations where coverage is not provided under the 'Mecholal' policy.",
+    "embed_passage": "טבלה זו מתארת חריגות לפוליסת ביטוח מכלול לעסק. היא מפרטת מצבים שבהם הכיסוי אינו תקף, כגון קנסות, נזקים כספיים, אחריות כנושא משרה, אובדן מסמכים, והוצאת דיבה. ניתן לחפש חריגות ספציפיות לפי סעיף הפוליסה או סוג הנזק. החריגות כוללות קנסות, נזקים מרובים, נזקים עונשיים, תביעות הנובעות מנזק כספי, אחריות כנושא משרה, אובדן מסמכים, הוצאת דיבה, לענה או לשון הרע בכל צורה.",
+    "row_axis": "exclusion type",
+    "column_axis": "policy section",
     "units": [],
     "notable_values": [
-      "exclusion: fines",
-      "exclusion: financial damage",
-      "exclusion: defamation",
-      "exclusion: director liability",
-      "exclusion: document loss"
+      "fines: 3.16",
+      "financial damage: 3.17",
+      "director/officer liability: 3.18",
+      "document loss: 3.19",
+      "defamation: 3.20"
     ],
     "product_hints": [
       "מכלול"
     ]
   },
   "sketch": "3.16 Fines, levies, multiple damages, punitive damages, exemplary damages.\n3.17 Claims arising from financial damage, unless such damage is caused directly and subsequent to actual property damage.\n3.18 Liability as a director and/or officer, including as a manager or senior official, unless such would have applied to the defendant/ insured had he not been an officer.\n3.19 Loss of documents, loss of ability or right to use them or their delay.\n3.20 Advertisement, defamation, slander, reviling or libel in any form.",
-  "embed_text": "פוליסת 'מכלול' אינה מכסה קנסות, היטלים או נזקים עונשיים (3.16). כמו כן, הפוליסה לא תכסה תביעות הנובעות מנזק כספי, אלא אם כן הנזק נגרם ישירות כתוצאה מנזק לרכוש (3.17). הפוליסה גם לא מכסה אחריות כנושא משרה או דירקטור, אלא אם כן האחריות הייתה חלה גם אם המבוטח לא היה נושא משרה (3.18).",
-  "payload": "טבלה: מכלול - חריגות\nThis table lists exclusions to coverage under the 'מכלול' insurance policy for businesses. It details situations where the policy will not provide coverage, such as fines or damage from defamation.\nממדים: Type of exclusion, N/A - each row is a distinct exclusion\n\n3.16 Fines, levies, multiple damages, punitive damages, exemplary damages.\n3.17 Claims arising from financial damage, unless such damage is caused directly and subsequent to actual property damage.\n3.18 Liability as a director and/or officer, including as a manager or senior official, unless such would have applied to the defendant/ insured had he not been an officer.\n3.19 Loss of documents, loss of ability or right to use them or their delay.\n3.20 Advertisement, defamation, slander, reviling or libel in any form."
+  "embed_text": "טבלה זו מתארת חריגות לפוליסת ביטוח מכלול לעסק. היא מפרטת מצבים שבהם הכיסוי אינו תקף, כגון קנסות, נזקים כספיים, אחריות כנושא משרה, אובדן מסמכים, והוצאת דיבה. ניתן לחפש חריגות ספציפיות לפי סעיף הפוליסה או סוג הנזק. החריגות כוללות קנסות, נזקים מרובים, נזקים עונשיים, תביעות הנובעות מנזק כספי, אחריות כנושא משרה, אובדן מסמכים, הוצאת דיבה, לענה או לשון הרע בכל צורה. This table lists exclusions to an insurance policy. It details situations where coverage is not provided under the 'Mecholal' policy. בין הערכים בטבלה: fines: 3.16; financial damage: 3.17; director/officer liability: 3.18; document loss: 3.19; defamation: 3.20.",
+  "payload": "טבלה: חרגות פוליסה\nThis table lists exclusions to an insurance policy. It details situations where coverage is not provided under the 'Mecholal' policy.\nממדים: exclusion type, policy section\n\n3.16 Fines, levies, multiple damages, punitive damages, exemplary damages.\n3.17 Claims arising from financial damage, unless such damage is caused directly and subsequent to actual property damage.\n3.18 Liability as a director and/or officer, including as a manager or senior official, unless such would have applied to the defendant/ insured had he not been an officer.\n3.19 Loss of documents, loss of ability or right to use them or their delay.\n3.20 Advertisement, defamation, slander, reviling or libel in any form."
 }

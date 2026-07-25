@@ -2,22 +2,28 @@
   "id": "pdf:business/files/פוליסה_לביטוח_ימי_ליאכטות_וסירות_מבית_שירביט_-_מהדורת_יולי_2016.pdf#89",
   "source": "llm",
   "description": {
-    "title": "פוליסת ביטוח ימי ליאכטות וסירות",
-    "summary": "This table details covered perils under a marine hull insurance policy for yachts and boats. It outlines events that are insured against, such as capture or derelict weapons of war.",
-    "embed_passage": "פוליסת ביטוח ימי מבית שירביט מכסה את היאכטה או הסירה שלך מפני נזקים הנגרמים כתוצאה מאירועים שונים, כולל לכידה, מעצר או עיקול. הכיסוי חל גם על נזקים הנגרמים על ידי כלי מלחמה נטושים. הפוליסה מפרטת את התנאים וההגבלות של הכיסוי.",
-    "row_axis": "Covered Peril",
-    "column_axis": "Description of Coverage",
+    "title": "כיסוי יאכטה/סירה",
+    "summary": "This table details covered events under a yacht/boat insurance policy from Shirbit. It lists perils against which the insured vessel is protected.",
+    "embed_passage": "טבלה זו מתארת את הכיסוי הביטוחי ליאכטות וסירות של שירביט, ומפרטת את האירועים המכוסים במסגרת הפוליסה. הכיסוי חל על הוצאות הנובעות מנזקים או אובדן כתוצאה מאירועים שונים, כגון לכידה, מעצר או עיכוב של כלי השיט. הפוליסה מכסה גם נזקים הנגרמים על ידי כלי מלחמה נטושים, מוקשים או טורפדו. כיסוי יאכטה/סירה של שירביט מספק הגנה מפני מגוון סיכונים ימיים. אירועים מכוסים כוללים לכידה, מעצר, מוקשים, טורפדו, ופצצות.",
+    "row_axis": "covered perils",
+    "column_axis": "description of coverage",
     "units": [],
     "notable_values": [
-      "Peril: capture, seizure, arrest",
-      "Peril: derelict, mines, torpedoes"
+      "capture: covered",
+      "seizure: covered",
+      "arrest: covered",
+      "derelict weapons of war: covered",
+      "mines: covered",
+      "torpedoes: covered",
+      "barratry: excepted",
+      "piracy: excepted"
     ],
     "product_hints": [
-      "ביטוח ימי ליאכטות וסירות",
+      "כיסוי יאכטה/סירה",
       "שירביט"
     ]
   },
   "sketch": "1)\ncapture,  seizure,  arrest,  restraint  or  detainment  (barratry and piracy excepted), and the consequences thereof or any attempt thereat.\nderelict, mines, torpedoes, bombs or other derelict weapons of war.",
-  "embed_text": "פוליסת ביטוח ימי מבית שירביט מכסה את היאכטה או הסירה שלך מפני נזקים הנגרמים כתוצאה מאירועים שונים, כולל לכידה, מעצר או עיקול. הכיסוי חל גם על נזקים הנגרמים על ידי כלי מלחמה נטושים. הפוליסה מפרטת את התנאים וההגבלות של הכיסוי.",
-  "payload": "טבלה: פוליסת ביטוח ימי ליאכטות וסירות\nThis table details covered perils under a marine hull insurance policy for yachts and boats. It outlines events that are insured against, such as capture or derelict weapons of war.\nממדים: Covered Peril, Description of Coverage\n\n1)\ncapture,  seizure,  arrest,  restraint  or  detainment  (barratry and piracy excepted), and the consequences thereof or any attempt thereat.\nderelict, mines, torpedoes, bombs or other derelict weapons of war."
+  "embed_text": "טבלה זו מתארת את הכיסוי הביטוחי ליאכטות וסירות של שירביט, ומפרטת את האירועים המכוסים במסגרת הפוליסה. הכיסוי חל על הוצאות הנובעות מנזקים או אובדן כתוצאה מאירועים שונים, כגון לכידה, מעצר או עיכוב של כלי השיט. הפוליסה מכסה גם נזקים הנגרמים על ידי כלי מלחמה נטושים, מוקשים או טורפדו. כיסוי יאכטה/סירה של שירביט מספק הגנה מפני מגוון סיכונים ימיים. אירועים מכוסים כוללים לכידה, מעצר, מוקשים, טורפדו, ופצצות. This table details covered events under a yacht/boat insurance policy from Shirbit. It lists perils against which the insured vessel is protected. בין הערכים בטבלה: capture: covered; seizure: covered; arrest: covered; derelict weapons of war: covered; mines: covered; torpedoes: covered; barratry: excepted; piracy: excepted.",
+  "payload": "טבלה: כיסוי יאכטה/סירה\nThis table details covered events under a yacht/boat insurance policy from Shirbit. It lists perils against which the insured vessel is protected.\nממדים: covered perils, description of coverage\n\n1)\ncapture,  seizure,  arrest,  restraint  or  detainment  (barratry and piracy excepted), and the consequences thereof or any attempt thereat.\nderelict, mines, torpedoes, bombs or other derelict weapons of war."
 }

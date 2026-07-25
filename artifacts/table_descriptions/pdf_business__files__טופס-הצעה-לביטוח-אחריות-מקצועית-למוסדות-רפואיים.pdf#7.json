@@ -2,24 +2,28 @@
   "id": "pdf:business/files/טופס-הצעה-לביטוח-אחריות-מקצועית-למוסדות-רפואיים.pdf#7",
   "source": "llm",
   "description": {
-    "title": "ביטוח אחריות מקצועית - צוות פארה-רפואי",
-    "summary": "This table details information about the para-medical staff of a medical institution for professional liability insurance. It's used to assess risk and determine premiums based on staff details.",
-    "embed_passage": "טופס הצעה לביטוח אחריות מקצועית למוסדות רפואיים כולל מידע על צוות פארה-רפואי. לדוגמה, מספר המועסקים, אחוזי משרה, ושעות עבודה שבועיות משפיעים על עלות הביטוח. ניתן לראות בטבלה מידע על מוסמכות אחיות, חובשים ופרמדיקים.",
-    "row_axis": "Type of para-medical staff (e.g., nurses, paramedics)",
-    "column_axis": "Employment details (e.g., number employed, percentage of full-time position, total weekly hours)",
+    "title": "צוות פארה-רפואי",
+    "summary": "This table details the para-medical staff employed by a medical institution. It is used to collect information about the number and type of para-medical professionals, their employment status, and working hours.",
+    "embed_passage": "טופס זה משמש לאיסוף מידע על הצוות הפארה-רפואי המועסק במוסד רפואי, כחלק מהצעת ביטוח אחריות מקצועית. המידע כולל את סוג המקצוע, מספר המועסקים, ואחוזי משרה עבור עובדים שכירים, או מספר שעות עבודה עבור עצמאיים. ניתן לחפש מידע על צוות ספציפי, כגון אחיות מוסמכות או פסיכולוגים, וכן את היקף העסקתם. הנתונים כוללים מוסמכות אחיות, מוסמכות מיילדות, מעבדה עובדי, פסיכולוגים, אחיות לא סיעודיות מטפלות, חובשים ופרמדיקים. כמו כן, מצוינים פרטים נוספים כגון 'אחרים'.",
+    "row_axis": "מקצועי עיסוק (para-medical profession)",
+    "column_axis": "פרטי העסקה (employment details)",
     "units": [],
     "notable_values": [
-      "צוות פארה-רפואי: 8",
       "מקצועי עיסוק: מוסמכות אחיות",
-      "עצמאיים: בשבוע עבודה שעות הכל סך",
-      "שכירים:.משרה אחוזי הכל סך"
+      "מקצועי עיסוק: מוסמכות מיילדות",
+      "מקצועי עיסוק: מעבדה עובדי",
+      "מקצועי עיסוק: פסיכולוגים",
+      "מקצועי עיסוק: אחיות( )לא סיעודיות מטפלות",
+      "מקצועי עיסוק: חובשים",
+      "מקצועי עיסוק: פרמדיקים",
+      "מקצועי עיסוק: אחרים"
     ],
     "product_hints": [
       "ביטוח אחריות מקצועית",
-      "מוסדות רפואיים"
+      "אחריות מקצועית למוסדות רפואיים"
     ]
   },
-  "sketch": "צוות פארה-רפואי\n8\nעצמאיים: בשבוע עבודה שעות הכל סך.,שכירים:.משרה אחוזי הכל סך,המועסקים מספר.,מקצועי עיסוק.\n,,,מוסמכות אחיות\n…\n,,,חובשים:\n,,,פרמדיקים:\n,,,פרט: אחרים:\n,,,פרט: אחרים:",
-  "embed_text": "טופס הצעה לביטוח אחריות מקצועית למוסדות רפואיים כולל מידע על צוות פארה-רפואי. לדוגמה, מספר המועסקים, אחוזי משרה, ושעות עבודה שבועיות משפיעים על עלות הביטוח. ניתן לראות בטבלה מידע על מוסמכות אחיות, חובשים ופרמדיקים.",
-  "payload": "טבלה: ביטוח אחריות מקצועית - צוות פארה-רפואי\nThis table details information about the para-medical staff of a medical institution for professional liability insurance. It's used to assess risk and determine premiums based on staff details.\nממדים: Type of para-medical staff (e.g., nurses, paramedics), Employment details (e.g., number employed, percentage of full-time position, total weekly hours)\n\nצוות פארה-רפואי\n8\nעצמאיים: בשבוע עבודה שעות הכל סך.,שכירים:.משרה אחוזי הכל סך,המועסקים מספר.,מקצועי עיסוק.\n,,,מוסמכות אחיות\n,,,מוסמכות מיילדות\n,,,מעבדה עובדי\n,,,רוקחים\n,,,רנטגן טכנאי\n,,,פיזיותרפיסטים\n,,,סוציאליים עובדים\n,,,דיאטניות\n,,,פסיכולוגים\n,,,אחיות( )לא סיעודיות מטפלות\n,,,חובשים:\n,,,פרמדיקים:\n,,,פרט: אחרים:\n,,,פרט: אחרים:"
+  "sketch": "צוות פארה-רפואי\n8\nעצמאיים: בשבוע עבודה שעות הכל סך.,שכירים:.משרה אחוזי הכל סך,המועסקים מספר.,מקצועי עיסוק.\n,,,מוסמכות אחיות\n,,,מוסמכות מיילדות\n,,,מעבדה עובדי\n…\n,,,פסיכולוגים\n,,,אחיות( )לא סיעודיות מטפלות\n,,,חובשים:\n,,,פרמדיקים:\n,,,פרט: אחרים:\n,,,פרט: אחרים:",
+  "embed_text": "טופס זה משמש לאיסוף מידע על הצוות הפארה-רפואי המועסק במוסד רפואי, כחלק מהצעת ביטוח אחריות מקצועית. המידע כולל את סוג המקצוע, מספר המועסקים, ואחוזי משרה עבור עובדים שכירים, או מספר שעות עבודה עבור עצמאיים. ניתן לחפש מידע על צוות ספציפי, כגון אחיות מוסמכות או פסיכולוגים, וכן את היקף העסקתם. הנתונים כוללים מוסמכות אחיות, מוסמכות מיילדות, מעבדה עובדי, פסיכולוגים, אחיות לא סיעודיות מטפלות, חובשים ופרמדיקים. כמו כן, מצוינים פרטים נוספים כגון 'אחרים'. This table details the para-medical staff employed by a medical institution. It is used to collect information about the number and type of para-medical professionals, their employment status, and working hours. בין הערכים בטבלה: מקצועי עיסוק: אחיות( )לא סיעודיות מטפלות.",
+  "payload": "טבלה: צוות פארה-רפואי\nThis table details the para-medical staff employed by a medical institution. It is used to collect information about the number and type of para-medical professionals, their employment status, and working hours.\nממדים: מקצועי עיסוק (para-medical profession), פרטי העסקה (employment details)\n\nצוות פארה-רפואי\n8\nעצמאיים: בשבוע עבודה שעות הכל סך.,שכירים:.משרה אחוזי הכל סך,המועסקים מספר.,מקצועי עיסוק.\n,,,מוסמכות אחיות\n,,,מוסמכות מיילדות\n,,,מעבדה עובדי\n,,,רוקחים\n,,,רנטגן טכנאי\n,,,פיזיותרפיסטים\n,,,סוציאליים עובדים\n,,,דיאטניות\n,,,פסיכולוגים\n,,,אחיות( )לא סיעודיות מטפלות\n,,,חובשים:\n,,,פרמדיקים:\n,,,פרט: אחרים:\n,,,פרט: אחרים:"
 }

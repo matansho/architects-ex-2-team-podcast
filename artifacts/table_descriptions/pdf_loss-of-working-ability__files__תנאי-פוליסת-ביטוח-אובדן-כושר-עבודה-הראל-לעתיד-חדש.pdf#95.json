@@ -2,25 +2,25 @@
   "id": "pdf:loss-of-working-ability/files/תנאי-פוליסת-ביטוח-אובדן-כושר-עבודה-הראל-לעתיד-חדש.pdf#95",
   "source": "llm",
   "description": {
-    "title": "תנאי פוליסה - אובדן כושר עבודה",
-    "summary": "This table outlines the conditions for insurance policy claims related to loss of working ability. It details the process for claim submission, decision notification, and payment of benefits, including investment track selection and indexation.",
-    "embed_passage": "פוליסת הראל לעתיד חדש מתייחסת לתגמולי ביטוח עבור אובדן כושר עבודה. סכום הפיצוי החודשי יוצמד לתשואת מסלול השקעה, כאשר במקרה של אי-בחירה על ידי המבוטח, יוצמד למסלול ברירת מחדל. לדוגמה, בתוך שלושים יום מיום הגשת המסמכים, החברה תודיע על החלטתה בדבר התביעה.",
-    "row_axis": "claim process steps / conditions",
-    "column_axis": "details of the process (e.g., timeframes, payment methods, investment options)",
+    "title": "תנאי פוליסת ביטוח",
+    "summary": "This table outlines conditions related to insurance policy claims, specifically regarding the notification of decisions, payment of benefits, and indexation of monthly compensation. It details how Harel will handle claims and compensation adjustments.",
+    "embed_passage": "טבלה זו מתארת תנאים הקשורים לתביעות ביטוח, במיוחד בנוגע להודעה על החלטות, תשלום הטבות והצמדה של פיצוי חודשי. פוליסת ביטוח אובדן כושר עבודה של הראל לעתיד חדש מציעה מסלולי השקעה שונים, כאשר סכום הפיצוי החודשי יכול להיות מוצמד לתשואת מסלול השקעה שנבחר על ידי המבוטח או למסלול ברירת מחדל. במידה והמבוטח לא בחר מסלול השקעה, הפיצוי החודשי יוצמד לתשואת מסלול השקעה ברירת מחדל. החברה תודיע על החלטתה בדבר התביעה תוך שלושים יום ממועד המצאת המסמכים הנדרשים. מסלול השקעה, תקופת הצמדה, וחישוב תגמולי הביטוח הם מרכיבים מרכזיים.",
+    "row_axis": "policy conditions / claim stages",
+    "column_axis": "details of process / options",
     "units": [],
     "notable_values": [
-      "30 יום: timeframe for company decision on claim",
-      "9.7: reference to a section detailing claim notification",
-      "9.8: reference to a section detailing compensation indexation",
-      "5 חודשים: period for temporary risk arrangement",
-      "11.1: reference to an index for compensation adjustment"
+      "תקופת המתנה: לא מצוין",
+      "תקופת בירור חבות: שלושים יום",
+      "מסלול השקעה ברירת מחדל: מצוין",
+      "תקופת הצמדה: לא מצוין",
+      "תשלום תגמולי ביטוח: ככל שהתביעה התקבלה"
     ],
     "product_hints": [
-      "אובדן כושר עבודה",
+      "ביטוח אובדן כושר עבודה",
       "הראל לעתיד חדש"
     ]
   },
   "sketch": "בתוך  שלושים  יום  מיום  שהומצאו  לחברה  כל  המסמכים  וההוכחות  הנדרשות  לה 9.7 , לצורך בירור חבותה, תודיע החברה את החלטתה בדבר התביעה לתגמולי ביטוח וככל שהתביעה התקבלה כולה או חלקה, תשלם את תגמולי הביטוח, ובלבד שמועד תשלח למבוטח את פירוט אופ ן התשלום לא יחול לפני תום תקופת ההמתנה. החברה החישוב של תגמולי הביטוח ששולמו למבוטח, את תקופת התשלום וכן מידע נוסף ככל שנדרש בהתאם להסדר התחיקת י .\nבמסגרת הגשת התביעה או לכל המאוחר קודם לתום תקופת הצמדת הפיצוי החודשי 9.8 להלן, ייבחר המבוטח את מסלול ההשקעה אשר לתשואת ו 11.1 למדד כאמור בסעיף יוצמד סכום הפיצוי החודשי. לא בחר המבוטח מסלול להשקעה, יוצמד סכום ה פ י צ ו י החודשי לתשואת מסלול השקעה ברירת מחד ל .",
-  "embed_text": "פוליסת הראל לעתיד חדש מתייחסת לתגמולי ביטוח עבור אובדן כושר עבודה. סכום הפיצוי החודשי יוצמד לתשואת מסלול השקעה, כאשר במקרה של אי-בחירה על ידי המבוטח, יוצמד למסלול ברירת מחדל. לדוגמה, בתוך שלושים יום מיום הגשת המסמכים, החברה תודיע על החלטתה בדבר התביעה.",
-  "payload": "טבלה: תנאי פוליסה - אובדן כושר עבודה\nThis table outlines the conditions for insurance policy claims related to loss of working ability. It details the process for claim submission, decision notification, and payment of benefits, including investment track selection and indexation.\nממדים: claim process steps / conditions, details of the process (e.g., timeframes, payment methods, investment options)\n\nבתוך  שלושים  יום  מיום  שהומצאו  לחברה  כל  המסמכים  וההוכחות  הנדרשות  לה 9.7 , לצורך בירור חבותה, תודיע החברה את החלטתה בדבר התביעה לתגמולי ביטוח וככל שהתביעה התקבלה כולה או חלקה, תשלם את תגמולי הביטוח, ובלבד שמועד תשלח למבוטח את פירוט אופ ן התשלום לא יחול לפני תום תקופת ההמתנה. החברה החישוב של תגמולי הביטוח ששולמו למבוטח, את תקופת התשלום וכן מידע נוסף ככל שנדרש בהתאם להסדר התחיקת י .\nבמסגרת הגשת התביעה או לכל המאוחר קודם לתום תקופת הצמדת הפיצוי החודשי 9.8 להלן, ייבחר המבוטח את מסלול ההשקעה אשר לתשואת ו 11.1 למדד כאמור בסעיף יוצמד סכום הפיצוי החודשי. לא בחר המבוטח מסלול להשקעה, יוצמד סכום ה פ י צ ו י החודשי לתשואת מסלול השקעה ברירת מחד ל ."
+  "embed_text": "טבלה זו מתארת תנאים הקשורים לתביעות ביטוח, במיוחד בנוגע להודעה על החלטות, תשלום הטבות והצמדה של פיצוי חודשי. פוליסת ביטוח אובדן כושר עבודה של הראל לעתיד חדש מציעה מסלולי השקעה שונים, כאשר סכום הפיצוי החודשי יכול להיות מוצמד לתשואת מסלול השקעה שנבחר על ידי המבוטח או למסלול ברירת מחדל. במידה והמבוטח לא בחר מסלול השקעה, הפיצוי החודשי יוצמד לתשואת מסלול השקעה ברירת מחדל. החברה תודיע על החלטתה בדבר התביעה תוך שלושים יום ממועד המצאת המסמכים הנדרשים. מסלול השקעה, תקופת הצמדה, וחישוב תגמולי הביטוח הם מרכיבים מרכזיים. This table outlines conditions related to insurance policy claims, specifically regarding the notification of decisions, payment of benefits, and indexation of monthly compensation. It details how Harel will handle claims and compensation adjustments. בין הערכים בטבלה: תקופת המתנה: ל…",
+  "payload": "טבלה: תנאי פוליסת ביטוח\nThis table outlines conditions related to insurance policy claims, specifically regarding the notification of decisions, payment of benefits, and indexation of monthly compensation. It details how Harel will handle claims and compensation adjustments.\nממדים: policy conditions / claim stages, details of process / options\n\nבתוך  שלושים  יום  מיום  שהומצאו  לחברה  כל  המסמכים  וההוכחות  הנדרשות  לה 9.7 , לצורך בירור חבותה, תודיע החברה את החלטתה בדבר התביעה לתגמולי ביטוח וככל שהתביעה התקבלה כולה או חלקה, תשלם את תגמולי הביטוח, ובלבד שמועד תשלח למבוטח את פירוט אופ ן התשלום לא יחול לפני תום תקופת ההמתנה. החברה החישוב של תגמולי הביטוח ששולמו למבוטח, את תקופת התשלום וכן מידע נוסף ככל שנדרש בהתאם להסדר התחיקת י .\nבמסגרת הגשת התביעה או לכל המאוחר קודם לתום תקופת הצמדת הפיצוי החודשי 9.8 להלן, ייבחר המבוטח את מסלול ההשקעה אשר לתשואת ו 11.1 למדד כאמור בסעיף יוצמד סכום הפיצוי החודשי. לא בחר המבוטח מסלול להשקעה, יוצמד סכום ה פ י צ ו י החודשי לתשואת מסלול השקעה ברירת מחד ל ."
 }

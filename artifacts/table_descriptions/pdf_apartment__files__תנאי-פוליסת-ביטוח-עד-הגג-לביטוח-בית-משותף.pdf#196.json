@@ -3,20 +3,23 @@
   "source": "llm",
   "description": {
     "title": "הודעה למשטרה",
-    "summary": "This table details the requirements for notifying the police after a loss or damage event covered by the insurance policy. It specifies the obligation to report incidents like theft, burglary, or malicious acts.",
-    "embed_passage": "פוליסת 'עד הגג' לביטוח בית משותף מחייבת את המבוטח להודיע למשטרה בכל מקרה של אבדן או נזק הנובעים מפעולת זדון, פריצה, שוד או גניבה. ההודעה צריכה להיעשות מיד לאחר קרות האירוע. סעיף 7 מתייחס לחובת הדיווח.",
-    "row_axis": "Type of incident requiring police notification",
-    "column_axis": "Details of the notification requirement",
+    "summary": "This table outlines the requirement to notify the police in cases of malicious acts, burglary, theft, or robbery. It details the obligation of the insured to report such incidents.",
+    "embed_passage": "טבלה זו מתייחסת להודעה למשטרה במקרים של פעולת זדון, פריצה, שוד או גניבה, כחלק מפוליסת ביטוח עד הגג לביטוח בית משותף. המבוטח נדרש להודיע למשטרה בכל מקרה של אבדן או נזק הנובעים מפעולות אלו. ההודעה צריכה להיעשות על ידי המבוטח. הפעולות הרלוונטיות כוללות פעולת זדון, פריצה, שוד וגניבה. פוליסת ביטוח עד הגג לביטוח בית משותף דורשת דיווח למשטרה.",
+    "row_axis": "סוג אירוע (פעולת זדון, פריצה, שוד, גניבה)",
+    "column_axis": "חובת המבוטח",
     "units": [],
     "notable_values": [
-      "incident type: זדון, פריצה, שוד או גניבה",
-      "reporting obligation: על המבוטח להודיע למשטרה"
+      "סוג אירוע: פעולת זדון",
+      "סוג אירוע: פריצה",
+      "סוג אירוע: שוד",
+      "סוג אירוע: גניבה"
     ],
     "product_hints": [
-      "עד הגג"
+      "ביטוח עד הגג",
+      "ביטוח בית משותף"
     ]
   },
   "sketch": ".  הודעה למשטרה בפעולת זדון, פריצה, שוד או גניבה 7\n, על המבוטח להודיע למשטרה בכל מקרה של אבדן או נזק הנובעים לדעתו מפעולת זדון פריצה, שוד או גניבה.",
-  "embed_text": "פוליסת 'עד הגג' לביטוח בית משותף מחייבת את המבוטח להודיע למשטרה בכל מקרה של אבדן או נזק הנובעים מפעולת זדון, פריצה, שוד או גניבה. ההודעה צריכה להיעשות מיד לאחר קרות האירוע. סעיף 7 מתייחס לחובת הדיווח.",
-  "payload": "טבלה: הודעה למשטרה\nThis table details the requirements for notifying the police after a loss or damage event covered by the insurance policy. It specifies the obligation to report incidents like theft, burglary, or malicious acts.\nממדים: Type of incident requiring police notification, Details of the notification requirement\n\n.  הודעה למשטרה בפעולת זדון, פריצה, שוד או גניבה 7\n, על המבוטח להודיע למשטרה בכל מקרה של אבדן או נזק הנובעים לדעתו מפעולת זדון פריצה, שוד או גניבה."
+  "embed_text": "טבלה זו מתייחסת להודעה למשטרה במקרים של פעולת זדון, פריצה, שוד או גניבה, כחלק מפוליסת ביטוח עד הגג לביטוח בית משותף. המבוטח נדרש להודיע למשטרה בכל מקרה של אבדן או נזק הנובעים מפעולות אלו. ההודעה צריכה להיעשות על ידי המבוטח. הפעולות הרלוונטיות כוללות פעולת זדון, פריצה, שוד וגניבה. פוליסת ביטוח עד הגג לביטוח בית משותף דורשת דיווח למשטרה. This table outlines the requirement to notify the police in cases of malicious acts, burglary, theft, or robbery. It details the obligation of the insured to report such incidents.",
+  "payload": "טבלה: הודעה למשטרה\nThis table outlines the requirement to notify the police in cases of malicious acts, burglary, theft, or robbery. It details the obligation of the insured to report such incidents.\nממדים: סוג אירוע (פעולת זדון, פריצה, שוד, גניבה), חובת המבוטח\n\n.  הודעה למשטרה בפעולת זדון, פריצה, שוד או גניבה 7\n, על המבוטח להודיע למשטרה בכל מקרה של אבדן או נזק הנובעים לדעתו מפעולת זדון פריצה, שוד או גניבה."
 }

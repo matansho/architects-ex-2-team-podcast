@@ -2,22 +2,23 @@
   "id": "pdf:business/files/תנאי-פוליסה-ביטוח-מכלול-למשרד-מהדורת-ינואר-2024.pdf#166",
   "source": "llm",
   "description": {
-    "title": "עבודות בחום - מכלול",
-    "summary": "This table details safety procedures for 'hot work' (עבודות בחום) performed at a worksite, covered under the 'Makhalol' insurance policy. It outlines the responsibilities of designated personnel and required distances from flammable materials.",
-    "embed_passage": "פוליסת 'מכלול' דורשת הקפדה על נהלי בטיחות בעבודות בחום. האחראי על העבודות חייב לוודא הרחקת חומרים דליקים ברדיוס של 10 מטרים ממקום העבודה, וכי חפצים דליקים קבועים מכוסים במעטה בלתי דליק. לדוגמה, יש להרחיק חומרים דליקים לפחות 10 מטרים ממקום ביצוע העבודות.",
-    "row_axis": "Procedure step / Responsibility",
-    "column_axis": "Details of hot work safety requirements",
+    "title": "עבודות בחום",
+    "summary": "This table details safety procedures for 'hot work' on a construction site, outlining responsibilities and precautions. It specifies distances for removing flammable materials and the need for a fire watch.",
+    "embed_passage": "טבלה זו מתארת את הנהלים הבטיחותיים לעבודות חמות באתר בנייה, ומפרטת את האחריות והאמצעים שיש לנקוט. יש לבדוק את השטח לפני ביצוע עבודות חמות ולהרחיק חומרים דליקים. הטבלה מתייחסת לעובד, אחראי, קבלן, קבלן משנה, צופה אש, ואמצעי כיבוי אש. עבודות בחום, חומרים דליקים, מטרים 10, מעטה בלתי דליק, צופה אש, ביצוע עבודות.",
+    "row_axis": "procedure step",
+    "column_axis": "responsibility / requirement",
     "units": [],
     "notable_values": [
-      "distance: 10 מטרים",
-      "time: דקות"
+      "עבודות בחום: מטרים 10",
+      "חומרים דליקים: הרחקה",
+      "מעטה בלתי דליק: כיסוי חפצים קבועים",
+      "צופה אש: נוכחות בזמן ביצוע העבודות"
     ],
     "product_hints": [
-      "מכלול",
-      "Makhalol"
+      "ביטוח מכלול"
     ]
   },
   "sketch": ".7.3.2.4.3 , לא תבוצענה עבודות בחום בתחום אתר העבודות אלא בהתאם למפורט להלן:\n.7.3.2.4.3.1 עובד שמונה על ידי המבוטח כאחראי ו/או קבלן ו/או קבלן משנה, אשר הוטל עליו ביצוע עבודות הכולל \"עבודות : בחום\", ימנה אחראי מטעמו (להלן \"האחראי\") אשר תפקידו לוודא כי לא תבוצענה עבודות בחום שלא בהתאם לאמור בנוהל זה.\n.7.3.2.4.3.2 לפני התחלת ביצוע העבודות בחום יסייר האחראי בשטח המיועד לביצוע העבודות בחום ויוודא הרחקת חומרים מטרים 10 דליקים מכל סוג ברדיוס של , לפחות ממקום ביצוע העבודות בחום ואילו חפצים דליקים קבועים, שאי אפשר להזיזם, יכוסו במעטה בלתי דליק.",
-  "embed_text": "פוליסת 'מכלול' דורשת הקפדה על נהלי בטיחות בעבודות בחום. האחראי על העבודות חייב לוודא הרחקת חומרים דליקים ברדיוס של 10 מטרים ממקום העבודה, וכי חפצים דליקים קבועים מכוסים במעטה בלתי דליק. לדוגמה, יש להרחיק חומרים דליקים לפחות 10 מטרים ממקום ביצוע העבודות.",
-  "payload": "טבלה: עבודות בחום - מכלול\nThis table details safety procedures for 'hot work' (עבודות בחום) performed at a worksite, covered under the 'Makhalol' insurance policy. It outlines the responsibilities of designated personnel and required distances from flammable materials.\nממדים: Procedure step / Responsibility, Details of hot work safety requirements\n\n.7.3.2.4.3 , לא תבוצענה עבודות בחום בתחום אתר העבודות אלא בהתאם למפורט להלן:\n.7.3.2.4.3.1 עובד שמונה על ידי המבוטח כאחראי ו/או קבלן ו/או קבלן משנה, אשר הוטל עליו ביצוע עבודות הכולל \"עבודות : בחום\", ימנה אחראי מטעמו (להלן \"האחראי\") אשר תפקידו לוודא כי לא תבוצענה עבודות בחום שלא בהתאם לאמור בנוהל זה.\n.7.3.2.4.3.2 לפני התחלת ביצוע העבודות בחום יסייר האחראי בשטח המיועד לביצוע העבודות בחום ויוודא הרחקת חומרים מטרים 10 דליקים מכל סוג ברדיוס של , לפחות ממקום ביצוע העבודות בחום ואילו חפצים דליקים קבועים, שאי אפשר להזיזם, יכוסו במעטה בלתי דליק."
+  "embed_text": "טבלה זו מתארת את הנהלים הבטיחותיים לעבודות חמות באתר בנייה, ומפרטת את האחריות והאמצעים שיש לנקוט. יש לבדוק את השטח לפני ביצוע עבודות חמות ולהרחיק חומרים דליקים. הטבלה מתייחסת לעובד, אחראי, קבלן, קבלן משנה, צופה אש, ואמצעי כיבוי אש. עבודות בחום, חומרים דליקים, מטרים 10, מעטה בלתי דליק, צופה אש, ביצוע עבודות. This table details safety procedures for 'hot work' on a construction site, outlining responsibilities and precautions. It specifies distances for removing flammable materials and the need for a fire watch.",
+  "payload": "טבלה: עבודות בחום\nThis table details safety procedures for 'hot work' on a construction site, outlining responsibilities and precautions. It specifies distances for removing flammable materials and the need for a fire watch.\nממדים: procedure step, responsibility / requirement\n\n.7.3.2.4.3 , לא תבוצענה עבודות בחום בתחום אתר העבודות אלא בהתאם למפורט להלן:\n.7.3.2.4.3.1 עובד שמונה על ידי המבוטח כאחראי ו/או קבלן ו/או קבלן משנה, אשר הוטל עליו ביצוע עבודות הכולל \"עבודות : בחום\", ימנה אחראי מטעמו (להלן \"האחראי\") אשר תפקידו לוודא כי לא תבוצענה עבודות בחום שלא בהתאם לאמור בנוהל זה.\n.7.3.2.4.3.2 לפני התחלת ביצוע העבודות בחום יסייר האחראי בשטח המיועד לביצוע העבודות בחום ויוודא הרחקת חומרים מטרים 10 דליקים מכל סוג ברדיוס של , לפחות ממקום ביצוע העבודות בחום ואילו חפצים דליקים קבועים, שאי אפשר להזיזם, יכוסו במעטה בלתי דליק."
 }

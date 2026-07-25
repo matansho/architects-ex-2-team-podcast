@@ -3,24 +3,21 @@
   "source": "llm",
   "description": {
     "title": "אבדן גמור",
-    "summary": "This table details the conditions for total loss (אבדן גמור) of a vehicle under an Harel insurance policy. It outlines scenarios where the insurer will pay the full value of the vehicle or replace it, and the implications for ownership and insurance premiums.",
-    "embed_passage": "פוליסת הראל מתייחסת לאבדן גמור של רכב כאשר נזק ישיר לרכב מגיע ל־50 אחוזים משווי הרכב ביום קרות מקרה הביטוח. במקרה של אבדן גמור או אבדן גמור להלכה, המבטח ישלם למבוטח את מלוא שווי הרכב או יחליפו ברכב אחר. תוקף הפוליסה יפקע עם שיפוי המבוטח, ולא תהיה לו זכות להחזר דמי ביטוח.",
-    "row_axis": "conditions for total loss settlement",
-    "column_axis": "settlement terms and consequences",
+    "summary": "This table details the conditions for total loss (אבדן גמור) or constructive total loss (אבדן גמור להלכה) of a vehicle under the Harel insurance policy. It outlines how compensation is provided and when the policy terminates.",
+    "embed_passage": "טבלה זו מתארת את התנאים לאבדן גמור או אבדן גמור להלכה של רכב במסגרת פוליסת הראל. היא מפרטת כיצד פיצוי משולם ומתי הפוליסה מסתיימת. הפוליסה עוסקת בערך הרכב ביום קרות מקרה הביטוח, החלפה ברכב דומה, ושיפוי מלא. אבדן גמור להלכה מתרחש כאשר נזק לרכב מגיע ל-50 אחוזים משווי הרכב. במקרה של אבדן גמור או אבדן גמור להלכה, הבעלות על שרידי הרכב עוברת למבטח. אבדן גמור, אבדן גמור להלכה, שווי הרכב, החלפת רכב.",
+    "row_axis": "conditions for total loss",
+    "column_axis": "loss type and consequences",
     "units": [],
     "notable_values": [
-      "damage threshold: 50%",
-      "maximum search period: 30 days",
-      "policy expiration: after compensation",
-      "no premium refund: after compensation",
-      "full vehicle value: paid in total loss"
+      "אבדן גמור להלכה: 50 אחוזים",
+      "אבדן גמור: שיפוי מלא",
+      "תוקף פוליסה: פקיעה עם שיפוי"
     ],
     "product_hints": [
-      "הראל",
       "פוליסת הראל"
     ]
   },
   "sketch": "קבע שמאי רכב מוסמך, כי שיעור הנזק שנגרם לרכב, למעט נזק ישיר שנגרם מירידת .6.2 אחוזים משווי הרכב ביום קרות מקרה הביטוח, רשאי המבטח 50 ערך הרכב, הוא לפחות .( בהסכמת המבוטח לפצות את המבוטח כאילו היה אבדן גמור )להלן: אבדן גמור להלכה\nשילם המבטח למבוטח את מלוא שווי הרכב או החליפו ברכב מסוג ואיכות דומים בשל .6.3 אבדן גמור או בשל אבדן גמור להלכה, תעבור הבעלות בשרידי הרכב למבטח.\n, תוקף פוליסה זו יפקע עם שיפוי המבוטח בשל אבדן גמור או בשל אבדן גמור להלכה .6.4 , ולא תהיה למבוטח זכות להחזר דמי ביטוח. 9 כאמור בסעיף זה ובסעיף",
-  "embed_text": "פוליסת הראל מתייחסת לאבדן גמור של רכב כאשר נזק ישיר לרכב מגיע ל־50 אחוזים משווי הרכב ביום קרות מקרה הביטוח. במקרה של אבדן גמור או אבדן גמור להלכה, המבטח ישלם למבוטח את מלוא שווי הרכב או יחליפו ברכב אחר. תוקף הפוליסה יפקע עם שיפוי המבוטח, ולא תהיה לו זכות להחזר דמי ביטוח.",
-  "payload": "טבלה: אבדן גמור\nThis table details the conditions for total loss (אבדן גמור) of a vehicle under an Harel insurance policy. It outlines scenarios where the insurer will pay the full value of the vehicle or replace it, and the implications for ownership and insurance premiums.\nממדים: conditions for total loss settlement, settlement terms and consequences\n\nקבע שמאי רכב מוסמך, כי שיעור הנזק שנגרם לרכב, למעט נזק ישיר שנגרם מירידת .6.2 אחוזים משווי הרכב ביום קרות מקרה הביטוח, רשאי המבטח 50 ערך הרכב, הוא לפחות .( בהסכמת המבוטח לפצות את המבוטח כאילו היה אבדן גמור )להלן: אבדן גמור להלכה\nשילם המבטח למבוטח את מלוא שווי הרכב או החליפו ברכב מסוג ואיכות דומים בשל .6.3 אבדן גמור או בשל אבדן גמור להלכה, תעבור הבעלות בשרידי הרכב למבטח.\n, תוקף פוליסה זו יפקע עם שיפוי המבוטח בשל אבדן גמור או בשל אבדן גמור להלכה .6.4 , ולא תהיה למבוטח זכות להחזר דמי ביטוח. 9 כאמור בסעיף זה ובסעיף"
+  "embed_text": "טבלה זו מתארת את התנאים לאבדן גמור או אבדן גמור להלכה של רכב במסגרת פוליסת הראל. היא מפרטת כיצד פיצוי משולם ומתי הפוליסה מסתיימת. הפוליסה עוסקת בערך הרכב ביום קרות מקרה הביטוח, החלפה ברכב דומה, ושיפוי מלא. אבדן גמור להלכה מתרחש כאשר נזק לרכב מגיע ל-50 אחוזים משווי הרכב. במקרה של אבדן גמור או אבדן גמור להלכה, הבעלות על שרידי הרכב עוברת למבטח. אבדן גמור, אבדן גמור להלכה, שווי הרכב, החלפת רכב. This table details the conditions for total loss (אבדן גמור) or constructive total loss (אבדן גמור להלכה) of a vehicle under the Harel insurance policy. It outlines how compensation is provided and when the policy terminates. בין הערכים בטבלה: תוקף פוליסה: פקיעה עם שיפוי.",
+  "payload": "טבלה: אבדן גמור\nThis table details the conditions for total loss (אבדן גמור) or constructive total loss (אבדן גמור להלכה) of a vehicle under the Harel insurance policy. It outlines how compensation is provided and when the policy terminates.\nממדים: conditions for total loss, loss type and consequences\n\nקבע שמאי רכב מוסמך, כי שיעור הנזק שנגרם לרכב, למעט נזק ישיר שנגרם מירידת .6.2 אחוזים משווי הרכב ביום קרות מקרה הביטוח, רשאי המבטח 50 ערך הרכב, הוא לפחות .( בהסכמת המבוטח לפצות את המבוטח כאילו היה אבדן גמור )להלן: אבדן גמור להלכה\nשילם המבטח למבוטח את מלוא שווי הרכב או החליפו ברכב מסוג ואיכות דומים בשל .6.3 אבדן גמור או בשל אבדן גמור להלכה, תעבור הבעלות בשרידי הרכב למבטח.\n, תוקף פוליסה זו יפקע עם שיפוי המבוטח בשל אבדן גמור או בשל אבדן גמור להלכה .6.4 , ולא תהיה למבוטח זכות להחזר דמי ביטוח. 9 כאמור בסעיף זה ובסעיף"
 }

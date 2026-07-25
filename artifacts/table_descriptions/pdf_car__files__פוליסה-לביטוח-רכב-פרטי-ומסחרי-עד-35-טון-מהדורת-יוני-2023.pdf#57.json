@@ -3,22 +3,24 @@
   "source": "llm",
   "description": {
     "title": "פוליסת ביטוח רכב",
-    "summary": "This table outlines the terms of a car insurance policy from הראל חברה לביטוח בע\"מ. It details the agreement between the insurer and the insured regarding coverage for vehicle loss or damage and third-party property damage.",
-    "embed_passage": "פוליסה זו היא חוזה בין הראל חברה לביטוח בע\"מ, המבטח, לבין המבוטח. הפוליסה מכסה אבדן או נזק לרכב המבוטח עקב מקרה ביטוח, וכן נזק לרכוש צד שלישי. דמי הביטוח, תקופת הביטוח, וההשתתפות העצמית נקובים במפרט.",
-    "row_axis": "Policy details / contract clauses",
-    "column_axis": "Aspects of the insurance agreement (e.g., coverage scope, parties involved)",
+    "summary": "This table outlines the terms of a car insurance policy offered by 'הראל חברה לביטוח בע\"מ'. It details the agreement between the insurer and the insured regarding coverage for vehicle loss or damage and third-party property damage.",
+    "embed_passage": "טבלה זו מתארת את תנאי פוליסת ביטוח רכב המוצעת על ידי 'הראל חברה לביטוח בע\"מ'. הפוליסה היא חוזה בין המבטח, 'הראל חברה לביטוח בע\"מ', לבין המבוטח, ששמו מצוין במפרט. הפוליסה מספקת כיסוי לאובדן או נזק לרכב המבוטח, וכן לנזק לרכוש צד שלישי, בתמורה לדמי ביטוח. דמי הביטוח, תקופת הביטוח, ההשתתפות העצמית ושם המחירון מצוינים במפרט. 'הראל חברה לביטוח בע\"מ', המבוטח, נזקי רכוש, נזקי רכוש צד שלישי, אבדן או נזק לרכב.",
+    "row_axis": "policy details",
+    "column_axis": "policy elements",
     "units": [],
     "notable_values": [
-      "product: פוליסת ביטוח רכב פרטי ומסחרי עד 3.5 טון",
-      "insurer: הראל חברה לביטוח בע\"מ",
-      "coverage: נזקי רכוש ונזקי רכוש צד שלישי"
+      "מבטח: הראל חברה לביטוח בע\"מ",
+      "רכב: רכב המבוטח",
+      "כיסוי: נזקי רכוש ונזקי רכוש צד שלישי",
+      "תקופת הביטוח: תקופת הביטוח",
+      "דמי ביטוח: דמי ביטוח"
     ],
     "product_hints": [
-      "פוליסת ביטוח רכב",
+      "פוליסת ביטוח רכב פרטי ומסחרי עד 3.5 טון",
       "הראל חברה לביטוח בע\"מ"
     ]
   },
   "sketch": "טון 3.5 - פוליסת ביטוח רכב פרטי ומסחרי עד 2 חלק נזקי רכוש ונזקי רכוש צד שלישי\nמבוא\n(\" הראל חברה לביטוח בע\"מ )להלן 'המבטח\nפוליסה זו היא חוזה בין\n(\" המבוטח ששמו נקוב במפרט )להלן 'המבוטח\nלבין\nלפיה מסכים המבטח, תמורת דמי ביטוח, לשפות את המבוטח למשך תקופת הביטוח בשל אבדן או נזק שיגרם לרכב המבוטח עקב מקרה הביטוח ובשל נזק לרכוש צד שלישי, .(\" הכל לפי תנאי פוליסה זו )להלן 'היקף הכיסוי\nדמי הביטוח, תקופת הביטוח, ההשתתפות העצמית, שם המחירון וגבולות האחריות על פי פרק ב נקובים במפרט המהווה חלק בלתי נפרד מפוליסה זו.",
-  "embed_text": "פוליסה זו היא חוזה בין הראל חברה לביטוח בע\"מ, המבטח, לבין המבוטח. הפוליסה מכסה אבדן או נזק לרכב המבוטח עקב מקרה ביטוח, וכן נזק לרכוש צד שלישי. דמי הביטוח, תקופת הביטוח, וההשתתפות העצמית נקובים במפרט.",
-  "payload": "טבלה: פוליסת ביטוח רכב\nThis table outlines the terms of a car insurance policy from הראל חברה לביטוח בע\"מ. It details the agreement between the insurer and the insured regarding coverage for vehicle loss or damage and third-party property damage.\nממדים: Policy details / contract clauses, Aspects of the insurance agreement (e.g., coverage scope, parties involved)\n\nטון 3.5 - פוליסת ביטוח רכב פרטי ומסחרי עד 2 חלק נזקי רכוש ונזקי רכוש צד שלישי\nמבוא\n(\" הראל חברה לביטוח בע\"מ )להלן 'המבטח\nפוליסה זו היא חוזה בין\n(\" המבוטח ששמו נקוב במפרט )להלן 'המבוטח\nלבין\nלפיה מסכים המבטח, תמורת דמי ביטוח, לשפות את המבוטח למשך תקופת הביטוח בשל אבדן או נזק שיגרם לרכב המבוטח עקב מקרה הביטוח ובשל נזק לרכוש צד שלישי, .(\" הכל לפי תנאי פוליסה זו )להלן 'היקף הכיסוי\nדמי הביטוח, תקופת הביטוח, ההשתתפות העצמית, שם המחירון וגבולות האחריות על פי פרק ב נקובים במפרט המהווה חלק בלתי נפרד מפוליסה זו."
+  "embed_text": "טבלה זו מתארת את תנאי פוליסת ביטוח רכב המוצעת על ידי 'הראל חברה לביטוח בע\"מ'. הפוליסה היא חוזה בין המבטח, 'הראל חברה לביטוח בע\"מ', לבין המבוטח, ששמו מצוין במפרט. הפוליסה מספקת כיסוי לאובדן או נזק לרכב המבוטח, וכן לנזק לרכוש צד שלישי, בתמורה לדמי ביטוח. דמי הביטוח, תקופת הביטוח, ההשתתפות העצמית ושם המחירון מצוינים במפרט. 'הראל חברה לביטוח בע\"מ', המבוטח, נזקי רכוש, נזקי רכוש צד שלישי, אבדן או נזק לרכב. This table outlines the terms of a car insurance policy offered by 'הראל חברה לביטוח בע\"מ'. It details the agreement between the insurer and the insured regarding coverage for vehicle loss or damage and third-party property damage.",
+  "payload": "טבלה: פוליסת ביטוח רכב\nThis table outlines the terms of a car insurance policy offered by 'הראל חברה לביטוח בע\"מ'. It details the agreement between the insurer and the insured regarding coverage for vehicle loss or damage and third-party property damage.\nממדים: policy details, policy elements\n\nטון 3.5 - פוליסת ביטוח רכב פרטי ומסחרי עד 2 חלק נזקי רכוש ונזקי רכוש צד שלישי\nמבוא\n(\" הראל חברה לביטוח בע\"מ )להלן 'המבטח\nפוליסה זו היא חוזה בין\n(\" המבוטח ששמו נקוב במפרט )להלן 'המבוטח\nלבין\nלפיה מסכים המבטח, תמורת דמי ביטוח, לשפות את המבוטח למשך תקופת הביטוח בשל אבדן או נזק שיגרם לרכב המבוטח עקב מקרה הביטוח ובשל נזק לרכוש צד שלישי, .(\" הכל לפי תנאי פוליסה זו )להלן 'היקף הכיסוי\nדמי הביטוח, תקופת הביטוח, ההשתתפות העצמית, שם המחירון וגבולות האחריות על פי פרק ב נקובים במפרט המהווה חלק בלתי נפרד מפוליסה זו."
 }

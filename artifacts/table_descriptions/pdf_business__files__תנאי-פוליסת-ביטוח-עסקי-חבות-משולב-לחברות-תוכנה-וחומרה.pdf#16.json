@@ -3,24 +3,24 @@
   "source": "llm",
   "description": {
     "title": "הגדרות פוליסה",
-    "summary": "This table defines terms used in an insurance policy. It helps clarify what is and isn't covered by looking up a concept to see its specific meaning within the policy.",
-    "embed_passage": "פוליסת ביטוח עסקית מגדירה מונחים שונים, כגון 'זיהום' המתייחס לנזק כתוצאה מפריקת חומרים מזהמים לקרקע, לאוויר או למים. כמו כן, מוגדרים 'קנסות' ו'עונשים' כנזקים שאינם מכוסים. הפוליסה גם מתייחסת להפרה של זכויות קניין רוחני.",
-    "row_axis": "Insurance policy term / exclusion",
-    "column_axis": "Definition of the term",
+    "summary": "This table defines terms used in the 'חבות משולב לחברות תוכנה וחומרה' insurance policy. It lists exclusions and clarifies the meaning of specific events or damages.",
+    "embed_passage": "טבלה זו מפרטת הגדרות חשובות בפוליסת ביטוח חבות משולב לחברות תוכנה וחומרה, ומבהירה אילו נסיבות אינן מכוסות על ידי הפוליסה. ניתן לחפש הגדרות ספציפיות כגון 'זיהום', 'הפרת קניין רוחני' או 'פגיעה אישית'. ההגדרות כוללות תיאור מפורט של סוגי הנזקים, ההפסדים או הפגיעות הכלולים או לא כלולים בפוליסה. בין ההגדרות המופיעות בטבלה ניתן למצוא 'קנסות, עונשים או נזקים לדוגמה', 'הפרה של זכויות יוצרים', ו'פגיעה אישית בפרסום'. כמו כן, מוגדרים מקרים הנוגעים לנושאי משרה או עובדים של המבוטח, וכן מצבי פשיטת רגל או חדלות פירעון.",
+    "row_axis": "exclusion/defined term",
+    "column_axis": "definition",
     "units": [],
     "notable_values": [
-      "Pollution: Damage arising from discharge of chemicals",
-      "Fines: Penalties resulting from multiplication of damages",
-      "Infringement: Alleged violation of patent or copyright",
-      "Personal injury: Coverage for advertising injury",
-      "Insolvency: Bankruptcy of the Insured"
+      "Pollution: Damage, Loss or Injury arising out of the discharge…",
+      "Fines, Penalties: …resulting from the multiplication of compensatory damages",
+      "Infringement: Actual or alleged infringement of patent copyright…",
+      "Personal injury: Personal injury of advertising injury",
+      "Directors, officers: Directors, officers or employees…",
+      "Insolvency: Insolvency or bankruptcy of the Insured"
     ],
     "product_hints": [
-      "ביטוח עסקי",
-      "פוליסת ביטוח"
+      "חבות משולב לחברות תוכנה וחומרה"
     ]
   },
   "sketch": "12. Pollution meaning\nDamage, Loss or Injury arising out of the discharge, dispersal, release or escape  of  smoke,  vapours,  soot,  fumes,  acids,  alkalis,  toxic  chemicals, liquids or gases, waste materials or irritants, contaminants into or upon land, the atmosphere or any watercourse or body of water.\nFines,  Penalties,  Punitive  or  Exemplary  Damages  or  any  other  damage resulting from the multiplication of compensatory damages.\nActual  or  alleged  infringement  of  patent  copyright,  trademark,  service mark, design right, registered design right, passing off, theft or misuse of confidential information or other intellectual property, computer systems or programmes of others.\nPersonal injury of advertising injury.\nDirectors,  officers  or  employees  of  the  Insured  acting  as  directors  or officers of any company or organisation.\nInsolvency or bankruptcy of the Insured.",
-  "embed_text": "פוליסת ביטוח עסקית מגדירה מונחים שונים, כגון 'זיהום' המתייחס לנזק כתוצאה מפריקת חומרים מזהמים לקרקע, לאוויר או למים. כמו כן, מוגדרים 'קנסות' ו'עונשים' כנזקים שאינם מכוסים. הפוליסה גם מתייחסת להפרה של זכויות קניין רוחני.",
-  "payload": "טבלה: הגדרות פוליסה\nThis table defines terms used in an insurance policy. It helps clarify what is and isn't covered by looking up a concept to see its specific meaning within the policy.\nממדים: Insurance policy term / exclusion, Definition of the term\n\n12. Pollution meaning\nDamage, Loss or Injury arising out of the discharge, dispersal, release or escape  of  smoke,  vapours,  soot,  fumes,  acids,  alkalis,  toxic  chemicals, liquids or gases, waste materials or irritants, contaminants into or upon land, the atmosphere or any watercourse or body of water.\nFines,  Penalties,  Punitive  or  Exemplary  Damages  or  any  other  damage resulting from the multiplication of compensatory damages.\nActual  or  alleged  infringement  of  patent  copyright,  trademark,  service mark, design right, registered design right, passing off, theft or misuse of confidential information or other intellectual property, computer systems or programmes of others.\nPersonal injury of advertising injury.\nDirectors,  officers  or  employees  of  the  Insured  acting  as  directors  or officers of any company or organisation.\nInsolvency or bankruptcy of the Insured."
+  "embed_text": "טבלה זו מפרטת הגדרות חשובות בפוליסת ביטוח חבות משולב לחברות תוכנה וחומרה, ומבהירה אילו נסיבות אינן מכוסות על ידי הפוליסה. ניתן לחפש הגדרות ספציפיות כגון 'זיהום', 'הפרת קניין רוחני' או 'פגיעה אישית'. ההגדרות כוללות תיאור מפורט של סוגי הנזקים, ההפסדים או הפגיעות הכלולים או לא כלולים בפוליסה. בין ההגדרות המופיעות בטבלה ניתן למצוא 'קנסות, עונשים או נזקים לדוגמה', 'הפרה של זכויות יוצרים', ו'פגיעה אישית בפרסום'. כמו כן, מוגדרים מקרים הנוגעים לנושאי משרה או עובדים של המבוטח, וכן מצבי פשיטת רגל או חדלות פירעון. This table defines terms used in the 'חבות משולב לחברות תוכנה וחומרה' insurance policy. It lists exclusions and clarifies the meaning of specific events or damages. בין הערכים בטבלה: Pollution: Damage, Loss or Injury arising out of the discharge…; Fines, Penalties: …resulting from the mult…",
+  "payload": "טבלה: הגדרות פוליסה\nThis table defines terms used in the 'חבות משולב לחברות תוכנה וחומרה' insurance policy. It lists exclusions and clarifies the meaning of specific events or damages.\nממדים: exclusion/defined term, definition\n\n12. Pollution meaning\nDamage, Loss or Injury arising out of the discharge, dispersal, release or escape  of  smoke,  vapours,  soot,  fumes,  acids,  alkalis,  toxic  chemicals, liquids or gases, waste materials or irritants, contaminants into or upon land, the atmosphere or any watercourse or body of water.\nFines,  Penalties,  Punitive  or  Exemplary  Damages  or  any  other  damage resulting from the multiplication of compensatory damages.\nActual  or  alleged  infringement  of  patent  copyright,  trademark,  service mark, design right, registered design right, passing off, theft or misuse of confidential information or other intellectual property, computer systems or programmes of others.\nPersonal injury of advertising injury.\nDirectors,  officers  or  employees  of  the  Insured  acting  as  directors  or officers of any company or organisation.\nInsolvency or bankruptcy of the Insured."
 }

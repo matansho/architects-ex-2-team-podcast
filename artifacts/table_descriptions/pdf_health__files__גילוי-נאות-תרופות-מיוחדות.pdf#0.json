@@ -2,24 +2,23 @@
   "id": "pdf:health/files/גילוי-נאות-תרופות-מיוחדות.pdf#0",
   "source": "llm",
   "description": {
-    "title": "דמי ביטוח - הראל",
-    "summary": "This table shows insurance premiums for Harel insurance. It appears to be used to look up the cost of insurance based on the insured's age.",
-    "embed_passage": "דמי הביטוח של הראל משתנים בהתאם לגיל המבוטח. לדוגמה, גיל המבוטח יקבע את דמי הביטוח בפוליסה. ניתן להשוות בין מחירי השירות מדד וציון הביטוח באמצעות מחשבון באתר רשות ההון שוק הביטוח.",
-    "row_axis": "insured's age",
-    "column_axis": "premium details (phone, fax, address, website)",
+    "title": "פרטי התקשרות",
+    "summary": "This table provides contact information for Harel Insurance. It lists a phone number, fax number, email address, mailing address, and website.",
+    "embed_passage": "טבלה זו מציגה את פרטי ההתקשרות של חברת הביטוח הראל, כולל דרכי יצירת קשר שונות. ניתן למצוא כאן את הטלפון, הפקס, כתובת הדואר האלקטרוני, כתובת למשלוח דואר וכתובת אתר האינטרנט של החברה. הראל ביטוח מציעה מגוון שירותים בתחום הביטוח. פרטי התקשרות: טלפון 037348178, פקס, polisotbs@harel-ins.co.il, ת\"ד 10951, גן רמת 5200901, www.harel-group.co.il.",
+    "row_axis": "Contact details",
+    "column_axis": "Contact type (phone, fax, email, address, website)",
     "units": [],
     "notable_values": [
-      "phone: 037348178",
-      "fax: 037348178",
-      "postcode: 5200901",
-      "website: www.harel-group.co.il",
-      "post office box: 10951"
+      "Phone: 037348178",
+      "Email: polisotbs@harel-ins.co.il",
+      "Post Office Box: 10951",
+      "Website: www.harel-group.co.il"
     ],
     "product_hints": [
-      "הראל"
+      "Harel Insurance"
     ]
   },
   "sketch": "0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",ט רנ האינט אתר תובת כ www.harel-group.co.il",
-  "embed_text": "דמי הביטוח של הראל משתנים בהתאם לגיל המבוטח. לדוגמה, גיל המבוטח יקבע את דמי הביטוח בפוליסה. ניתן להשוות בין מחירי השירות מדד וציון הביטוח באמצעות מחשבון באתר רשות ההון שוק הביטוח.",
-  "payload": "טבלה: דמי ביטוח - הראל\nThis table shows insurance premiums for Harel insurance. It appears to be used to look up the cost of insurance based on the insured's age.\nממדים: insured's age, premium details (phone, fax, address, website)\n\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",ט רנ האינט אתר תובת כ www.harel-group.co.il"
+  "embed_text": "טבלה זו מציגה את פרטי ההתקשרות של חברת הביטוח הראל, כולל דרכי יצירת קשר שונות. ניתן למצוא כאן את הטלפון, הפקס, כתובת הדואר האלקטרוני, כתובת למשלוח דואר וכתובת אתר האינטרנט של החברה. הראל ביטוח מציעה מגוון שירותים בתחום הביטוח. פרטי התקשרות: טלפון 037348178, פקס, polisotbs@harel-ins.co.il, ת\"ד 10951, גן רמת 5200901, www.harel-group.co.il. This table provides contact information for Harel Insurance. It lists a phone number, fax number, email address, mailing address, and website.",
+  "payload": "טבלה: פרטי התקשרות\nThis table provides contact information for Harel Insurance. It lists a phone number, fax number, email address, mailing address, and website.\nממדים: Contact details, Contact type (phone, fax, email, address, website)\n\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",ט רנ האינט אתר תובת כ www.harel-group.co.il"
 }

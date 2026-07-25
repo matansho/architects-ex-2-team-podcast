@@ -2,25 +2,23 @@
   "id": "pdf:business/files/פוליסה-משולבת-לביטוח-אש-מורחב-ואובדן-תוצאתי-הראל-ביט-ינואר-2023.pdf#211",
   "source": "llm",
   "description": {
-    "title": "פוליסת ביטוח הראל",
-    "summary": "This table details conditions for policy cancellation by Harel insurance due to incomplete or dishonest responses from the insured. It outlines scenarios where the insurer can void the policy and the resulting refund implications.",
-    "embed_passage": "פוליסת ביטוח הראל מפרטת תנאים לביטול הפוליסה במקרה של מידע לא מלא או כוזב. לדוגמה, סעיף 13.6.6 קובע כי תוך 30 ימים, המבטח רשאי לבטל את הפוליסה אם נודע לו על תשובה שאינה מלאה. במקרה של ביטול, המבוטח זכאי להחזר דמי ביטוח עבור התקופה שלאחר הביטול.",
-    "row_axis": "Cancellation conditions / scenarios related to inaccurate information",
-    "column_axis": "Legal clauses and consequences of providing incomplete/dishonest information",
+    "title": "תנאי ביטול פוליסה",
+    "summary": "This table outlines conditions under which an insurer can cancel a policy. It details scenarios related to incomplete or dishonest responses from the insured and the impact on premium refunds.",
+    "embed_passage": "טבלה זו מתארת תנאים לביטול פוליסה, במיוחד סעיפים הקשורים לתשובות לא מלאות או כוזבות מהמבוטח. מטרתה להבהיר את זכויות המבטח והמבוטח במקרה של שינוי מהותי או מידע חסר. ניתן לחפש מידע על תנאי ביטול ספציפיים, כגון סעיפים 13.6.6 עד 13.6.8. הפוליסה הרלוונטית היא פוליסה משולבת לביטוח אש מורחב ואובדן תוצאתי הראל. סעיפים אלו עוסקים במקרים בהם המבטח רשאי לבטל את הפוליסה, זכאות להחזר דמי ביטוח, ותנאים בהם המבטח אינו זכאי לתרופות. המונחים המרכזיים כוללים 'תשובה לא מלאה וכנה', 'שינוי מהותי', ו'כוונת מרמה'.",
+    "row_axis": "תנאי ביטול",
+    "column_axis": "השלכות ביטול / זכויות",
     "units": [],
     "notable_values": [
-      "30 ימים: Timeframe for insurer to cancel policy after discovering incomplete information.",
-      "13.6.6: Refers to a specific clause regarding policy cancellation.",
-      "13.6.7: Refers to a specific clause regarding refund of premiums.",
-      "13.6.8: Refers to a specific clause regarding insurer's remedies."
+      "סעיף: 13.6.6",
+      "סעיף: 13.6.7",
+      "סעיף: 13.6.8",
+      "כוונת מרמה: תשובה ניתנה בכוונת מרמה"
     ],
     "product_hints": [
-      "פוליסת ביטוח הראל",
-      "ביטוח אש מורחב",
-      "אובדן תוצאתי"
+      "פוליסה משולבת לביטוח אש מורחב ואובדן תוצאתי הראל"
     ]
   },
   "sketch": "מבטח סביר לא היה מתקשר באותה פוליסה, אף בדמי ביטוח .13.6.7.2 . מרובים יותר, אילו ידע שהמצב הוא כפי שהוא לאחר השינוי במקרה זה זכאי המבוטח להחזר דמי הביטוח ששילם בעד התקופה שלאחר השינוי\nבכל אחת 13.6.6-13.6.7 .  המבטח אינו זכאי לתרופות האמורות בסעיף 13.6.8 אלא אם התשובה שלא הייתה מלאה וכנה ניתנה בכוונת מרמה: , מאלה\n.  המבטח ידע או היה עליו לדעת את המצב לאמיתו בשעת כריתת 13.6.8.1 ; החוזה או שהוא גרם לכך שהתשובה לא הייתה מלאה וכנה\n.  העובדה שעליה ניתנה תשובה שלא הייתה מלאה וכנה חדלה 13.6.8.2 , להתקיים לפני שקרה מקרה הביטוח, או שלא השפיעה על מקרהו על חבות המבטח או על היקפה.",
-  "embed_text": "פוליסת ביטוח הראל מפרטת תנאים לביטול הפוליסה במקרה של מידע לא מלא או כוזב. לדוגמה, סעיף 13.6.6 קובע כי תוך 30 ימים, המבטח רשאי לבטל את הפוליסה אם נודע לו על תשובה שאינה מלאה. במקרה של ביטול, המבוטח זכאי להחזר דמי ביטוח עבור התקופה שלאחר הביטול.",
-  "payload": "טבלה: פוליסת ביטוח הראל\nThis table details conditions for policy cancellation by Harel insurance due to incomplete or dishonest responses from the insured. It outlines scenarios where the insurer can void the policy and the resulting refund implications.\nממדים: Cancellation conditions / scenarios related to inaccurate information, Legal clauses and consequences of providing incomplete/dishonest information\n\nמבטח סביר לא היה מתקשר באותה פוליסה, אף בדמי ביטוח .13.6.7.2 . מרובים יותר, אילו ידע שהמצב הוא כפי שהוא לאחר השינוי במקרה זה זכאי המבוטח להחזר דמי הביטוח ששילם בעד התקופה שלאחר השינוי\nבכל אחת 13.6.6-13.6.7 .  המבטח אינו זכאי לתרופות האמורות בסעיף 13.6.8 אלא אם התשובה שלא הייתה מלאה וכנה ניתנה בכוונת מרמה: , מאלה\n.  המבטח ידע או היה עליו לדעת את המצב לאמיתו בשעת כריתת 13.6.8.1 ; החוזה או שהוא גרם לכך שהתשובה לא הייתה מלאה וכנה\n.  העובדה שעליה ניתנה תשובה שלא הייתה מלאה וכנה חדלה 13.6.8.2 , להתקיים לפני שקרה מקרה הביטוח, או שלא השפיעה על מקרהו על חבות המבטח או על היקפה."
+  "embed_text": "טבלה זו מתארת תנאים לביטול פוליסה, במיוחד סעיפים הקשורים לתשובות לא מלאות או כוזבות מהמבוטח. מטרתה להבהיר את זכויות המבטח והמבוטח במקרה של שינוי מהותי או מידע חסר. ניתן לחפש מידע על תנאי ביטול ספציפיים, כגון סעיפים 13.6.6 עד 13.6.8. הפוליסה הרלוונטית היא פוליסה משולבת לביטוח אש מורחב ואובדן תוצאתי הראל. סעיפים אלו עוסקים במקרים בהם המבטח רשאי לבטל את הפוליסה, זכאות להחזר דמי ביטוח, ותנאים בהם המבטח אינו זכאי לתרופות. המונחים המרכזיים כוללים 'תשובה לא מלאה וכנה', 'שינוי מהותי', ו'כוונת מרמה'. This table outlines conditions under which an insurer can cancel a policy. It details scenarios related to incomplete or dishonest responses from the insured and the impact on premium refunds. בין הערכים בטבלה: סעיף: 13.6.7.",
+  "payload": "טבלה: תנאי ביטול פוליסה\nThis table outlines conditions under which an insurer can cancel a policy. It details scenarios related to incomplete or dishonest responses from the insured and the impact on premium refunds.\nממדים: תנאי ביטול, השלכות ביטול / זכויות\n\nמבטח סביר לא היה מתקשר באותה פוליסה, אף בדמי ביטוח .13.6.7.2 . מרובים יותר, אילו ידע שהמצב הוא כפי שהוא לאחר השינוי במקרה זה זכאי המבוטח להחזר דמי הביטוח ששילם בעד התקופה שלאחר השינוי\nבכל אחת 13.6.6-13.6.7 .  המבטח אינו זכאי לתרופות האמורות בסעיף 13.6.8 אלא אם התשובה שלא הייתה מלאה וכנה ניתנה בכוונת מרמה: , מאלה\n.  המבטח ידע או היה עליו לדעת את המצב לאמיתו בשעת כריתת 13.6.8.1 ; החוזה או שהוא גרם לכך שהתשובה לא הייתה מלאה וכנה\n.  העובדה שעליה ניתנה תשובה שלא הייתה מלאה וכנה חדלה 13.6.8.2 , להתקיים לפני שקרה מקרה הביטוח, או שלא השפיעה על מקרהו על חבות המבטח או על היקפה."
 }

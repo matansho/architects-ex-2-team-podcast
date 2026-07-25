@@ -2,22 +2,25 @@
   "id": "pdf:car/files/תנאי-פוליסת-ביטוח-למשאית-מהדורת-ספטמבר-2021.pdf#43",
   "source": "llm",
   "description": {
-    "title": "ביטול פוליסה",
-    "summary": "This table details the conditions for policy cancellation and the proportional refund of insurance premiums. It outlines how the refund is calculated based on the remaining policy period.",
-    "embed_passage": "פוליסת ביטוח למשאית מספקת החזר חלקי של דמי הביטוח במקרה של ביטול. החזר זה מחושב ביחס למספר הימים שנותרו בתקופת הביטוח המקורית, לדוגמה, אם נותרו 10 ימים מתוך 365 ימים, יוחזר חלק יחסי מדמי הביטוח.",
-    "row_axis": "Cancellation scenarios / conditions",
-    "column_axis": "Refund details / calculations",
+    "title": "החזר דמי ביטוח",
+    "summary": "This table details the conditions for returning insurance premiums. It outlines how the proportional part of the premiums is calculated and returned when the policy is cancelled by the insurer.",
+    "embed_passage": "טבלה זו מתארת את תנאי החזר דמי ביטוח בפוליסת ביטוח למשאית. החזר דמי הביטוח מחושב באופן יחסי לתקופה שנותרה בפוליסה, ובהתאם למדד המחירים לצרכן. ניתן לבטל את הפוליסה על ידי המבטח במקרים של מרמה או אי-גילוי נאות. הפוליסה רלוונטית לביטוח למשאית, והחישוב מתבסס על יחס ימים בתקופת הביטוח המקורית. סעיפים רלוונטיים כוללים 16.1, 16.2, 16.3, 16.4, 16.5 ו-16.6. החזר דמי הביטוח יתבצע בהקדם ולא יאוחר ממועד ביטול הפוליסה.",
+    "row_axis": "תנאי ביטול הפוליסה",
+    "column_axis": "סעיפי הפוליסה",
     "units": [],
     "notable_values": [
-      "16.2: Refund deadline is the policy cancellation date",
-      "16.3: Refund calculation involves a ratio of remaining days to original policy days",
-      "21: Notice period before cancellation (days)"
+      "סעיף 16.1: ביטול הפוליסה בשל מרמה או אי-גילוי נאות",
+      "סעיף 16.2: הוספת הפרשי הצמדה למדד המחירים לצרכן",
+      "סעיף 16.3: חישוב החלק היחסי של דמי הביטוח",
+      "סעיף 16.4: העברת בעלות על הרכב",
+      "סעיף 16.5: הצמדה למדד המחירים לצרכן",
+      "סעיף 16.6: זכאות להחזר גם אם הוגשה תביעה"
     ],
     "product_hints": [
       "ביטוח למשאית"
     ]
   },
   "sketch": "ימים לפני 7.  ביטל המבטח את הפוליסה, יחזיר לבעל הפוליסה בהקדם ולא יאוחר מ 16.2 המועד שבו תתבטל הפוליסה, את החלק היחסי מדמי הביטוח ששולמו.\n.  החלק היחסי כאמור יחושב על ידי הכפלת דמי הביטוח שגבה המבטח ביחס שבין 16.3 מספר הימים שנותרו, במועד הביטול עד תום תקופת הביטוח המקורית, ובין מספר הימים הנכללים בתקופת הביטוח המקורית.",
-  "embed_text": "פוליסת ביטוח למשאית מספקת החזר חלקי של דמי הביטוח במקרה של ביטול. החזר זה מחושב ביחס למספר הימים שנותרו בתקופת הביטוח המקורית, לדוגמה, אם נותרו 10 ימים מתוך 365 ימים, יוחזר חלק יחסי מדמי הביטוח.",
-  "payload": "טבלה: ביטול פוליסה\nThis table details the conditions for policy cancellation and the proportional refund of insurance premiums. It outlines how the refund is calculated based on the remaining policy period.\nממדים: Cancellation scenarios / conditions, Refund details / calculations\n\nימים לפני 7.  ביטל המבטח את הפוליסה, יחזיר לבעל הפוליסה בהקדם ולא יאוחר מ 16.2 המועד שבו תתבטל הפוליסה, את החלק היחסי מדמי הביטוח ששולמו.\n.  החלק היחסי כאמור יחושב על ידי הכפלת דמי הביטוח שגבה המבטח ביחס שבין 16.3 מספר הימים שנותרו, במועד הביטול עד תום תקופת הביטוח המקורית, ובין מספר הימים הנכללים בתקופת הביטוח המקורית."
+  "embed_text": "טבלה זו מתארת את תנאי החזר דמי ביטוח בפוליסת ביטוח למשאית. החזר דמי הביטוח מחושב באופן יחסי לתקופה שנותרה בפוליסה, ובהתאם למדד המחירים לצרכן. ניתן לבטל את הפוליסה על ידי המבטח במקרים של מרמה או אי-גילוי נאות. הפוליסה רלוונטית לביטוח למשאית, והחישוב מתבסס על יחס ימים בתקופת הביטוח המקורית. סעיפים רלוונטיים כוללים 16.1, 16.2, 16.3, 16.4, 16.5 ו-16.6. החזר דמי הביטוח יתבצע בהקדם ולא יאוחר ממועד ביטול הפוליסה. This table details the conditions for returning insurance premiums. It outlines how the proportional part of the premiums is calculated and returned when the policy is cancelled by the insurer. בין הערכים בטבלה: סעיף 16.1: ביטול הפוליסה בשל מרמה או אי-גילוי נאות; סעיף 16.2: הוספת הפרשי הצמדה למדד המחירים לצרכן; סעיף 16.3: חישוב החלק היחסי של דמי הביטוח; סעיף 16.4: העברת בעלות על הרכב; ס…",
+  "payload": "טבלה: החזר דמי ביטוח\nThis table details the conditions for returning insurance premiums. It outlines how the proportional part of the premiums is calculated and returned when the policy is cancelled by the insurer.\nממדים: תנאי ביטול הפוליסה, סעיפי הפוליסה\n\nימים לפני 7.  ביטל המבטח את הפוליסה, יחזיר לבעל הפוליסה בהקדם ולא יאוחר מ 16.2 המועד שבו תתבטל הפוליסה, את החלק היחסי מדמי הביטוח ששולמו.\n.  החלק היחסי כאמור יחושב על ידי הכפלת דמי הביטוח שגבה המבטח ביחס שבין 16.3 מספר הימים שנותרו, במועד הביטול עד תום תקופת הביטוח המקורית, ובין מספר הימים הנכללים בתקופת הביטוח המקורית."
 }

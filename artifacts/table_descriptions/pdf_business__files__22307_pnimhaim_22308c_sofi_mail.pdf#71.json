@@ -3,21 +3,18 @@
   "source": "llm",
   "description": {
     "title": "תגמולי ביטוח וקיזוז",
-    "summary": "This table details the payment of insurance benefits and potential offsets. It outlines how the insurer can deduct amounts owed by the insured from benefits, and the timeframe for initial payments.",
-    "embed_passage": "פוליסה זו מתייחסת לתגמולי ביטוח וקיזוזים. התשלום החודשי למבוטח ישולם לראשונה בתוך 30 יום ממועד הגשת המסמכים הנדרשים. המבטח רשאי לקזז סכומים שהמבוטח חייב לו, גם אם החוב בגין פוליסה אחרת.",
-    "row_axis": "Situations related to benefit payment and offsets",
-    "column_axis": "Details of the payment/offset process",
+    "summary": "This table details the payment of insurance benefits and offsets. It outlines the insurer's rights to deduct amounts owed by the insured, timing of monthly payments, and recovery of improperly paid benefits.",
+    "embed_passage": "טבלה זו מתארת את תשלום תגמולי הביטוח וקיזוזים אפשריים, כחלק מפוליסת ביטוח. היא מפרטת את זכות המבטח לקזז חובות של המבוטח, את מועד התשלום החודשי הראשוני, ואת האפשרות לנכות תשלומים ששולמו שלא כדין. המבטח רשאי לקזז מתגמולי הביטוח סכומים שהמבוטח חייב לו, גם אם החוב בגין פוליסה אחרת. תשלום חודשי למבוטח ישולם לראשונה בתוך 30 יום ממועד הגשת המסמכים הנדרשים. אם המבטח שילם תגמולים לתקופה שהמבוטח לא היה זכאי לה, הוא רשאי לנכות זאת מפיצויים עתידיים.",
+    "row_axis": "conditions for benefit payment and offset",
+    "column_axis": "details of payment and offset procedures",
     "units": [],
     "notable_values": [
-      "payment timeframe: 30 days",
-      "offset eligibility: any debt owed by the insured",
-      "offset source: other policies"
+      "payment timing: 30 days",
+      "offset eligibility: any debt owed by the insured"
     ],
-    "product_hints": [
-      "פוליסה"
-    ]
+    "product_hints": []
   },
   "sketch": ".  תשלום תגמולי הביטוח וקיזוז 5.19\nהמבטח רשאי לקזז מתגמולי הביטוח כל סכום שהמבוטח חייב לו, בין אם חובו . א בגין פוליסה זו ובין אם בגין פוליסה אחרת. במקרה שבו מיצה המבוטח חלק וגם או את מלוא גבול אחריותו על פי פוליסה זו, רשאי המבטח לקזז את יתרת דמי הביטוח המגיעים לה גם אם טרם הגיע מועד תשלומם.\nיום ממועד הגשת כל 30 התשלום החודשי למבוטח ישולם לראשונה בתוך . ב המסמכים הנדרשים על פי פוליסה זו.\n, שילם המבטח תגמולי ביטוח בעבור תקופה אשר המבוטח לא היה זכאי לה ג. הרי היא תוכל לנכות את תשלומיה מכל פיצוי שיגיע למבוטח, וגם או לתבוע את הסכומים ששולמו למבוטח שלא כדין.",
-  "embed_text": "פוליסה זו מתייחסת לתגמולי ביטוח וקיזוזים. התשלום החודשי למבוטח ישולם לראשונה בתוך 30 יום ממועד הגשת המסמכים הנדרשים. המבטח רשאי לקזז סכומים שהמבוטח חייב לו, גם אם החוב בגין פוליסה אחרת.",
-  "payload": "טבלה: תגמולי ביטוח וקיזוז\nThis table details the payment of insurance benefits and potential offsets. It outlines how the insurer can deduct amounts owed by the insured from benefits, and the timeframe for initial payments.\nממדים: Situations related to benefit payment and offsets, Details of the payment/offset process\n\n.  תשלום תגמולי הביטוח וקיזוז 5.19\nהמבטח רשאי לקזז מתגמולי הביטוח כל סכום שהמבוטח חייב לו, בין אם חובו . א בגין פוליסה זו ובין אם בגין פוליסה אחרת. במקרה שבו מיצה המבוטח חלק וגם או את מלוא גבול אחריותו על פי פוליסה זו, רשאי המבטח לקזז את יתרת דמי הביטוח המגיעים לה גם אם טרם הגיע מועד תשלומם.\nיום ממועד הגשת כל 30 התשלום החודשי למבוטח ישולם לראשונה בתוך . ב המסמכים הנדרשים על פי פוליסה זו.\n, שילם המבטח תגמולי ביטוח בעבור תקופה אשר המבוטח לא היה זכאי לה ג. הרי היא תוכל לנכות את תשלומיה מכל פיצוי שיגיע למבוטח, וגם או לתבוע את הסכומים ששולמו למבוטח שלא כדין."
+  "embed_text": "טבלה זו מתארת את תשלום תגמולי הביטוח וקיזוזים אפשריים, כחלק מפוליסת ביטוח. היא מפרטת את זכות המבטח לקזז חובות של המבוטח, את מועד התשלום החודשי הראשוני, ואת האפשרות לנכות תשלומים ששולמו שלא כדין. המבטח רשאי לקזז מתגמולי הביטוח סכומים שהמבוטח חייב לו, גם אם החוב בגין פוליסה אחרת. תשלום חודשי למבוטח ישולם לראשונה בתוך 30 יום ממועד הגשת המסמכים הנדרשים. אם המבטח שילם תגמולים לתקופה שהמבוטח לא היה זכאי לה, הוא רשאי לנכות זאת מפיצויים עתידיים. This table details the payment of insurance benefits and offsets. It outlines the insurer's rights to deduct amounts owed by the insured, timing of monthly payments, and recovery of improperly paid benefits. בין הערכים בטבלה: payment timing: 30 days; offset eligibility: any debt owed by the insured.",
+  "payload": "טבלה: תגמולי ביטוח וקיזוז\nThis table details the payment of insurance benefits and offsets. It outlines the insurer's rights to deduct amounts owed by the insured, timing of monthly payments, and recovery of improperly paid benefits.\nממדים: conditions for benefit payment and offset, details of payment and offset procedures\n\n.  תשלום תגמולי הביטוח וקיזוז 5.19\nהמבטח רשאי לקזז מתגמולי הביטוח כל סכום שהמבוטח חייב לו, בין אם חובו . א בגין פוליסה זו ובין אם בגין פוליסה אחרת. במקרה שבו מיצה המבוטח חלק וגם או את מלוא גבול אחריותו על פי פוליסה זו, רשאי המבטח לקזז את יתרת דמי הביטוח המגיעים לה גם אם טרם הגיע מועד תשלומם.\nיום ממועד הגשת כל 30 התשלום החודשי למבוטח ישולם לראשונה בתוך . ב המסמכים הנדרשים על פי פוליסה זו.\n, שילם המבטח תגמולי ביטוח בעבור תקופה אשר המבוטח לא היה זכאי לה ג. הרי היא תוכל לנכות את תשלומיה מכל פיצוי שיגיע למבוטח, וגם או לתבוע את הסכומים ששולמו למבוטח שלא כדין."
 }

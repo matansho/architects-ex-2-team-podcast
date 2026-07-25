@@ -2,25 +2,27 @@
   "id": "pdf:apartment/files/תנאי-הפוליסה-לביטוח-אדירה-ארד-מהדורת-ספטמבר-2017.pdf#8",
   "source": "llm",
   "description": {
-    "title": "כיסוי ביטוחי - אדירה ארד",
-    "summary": "This table details the coverage provided by the 'Adira Erd' apartment insurance policy for various risks. It lists specific incidents and whether they are covered under the policy.",
-    "embed_passage": "פוליסת 'אדירה ארד' מציעה כיסוי לנזקים לדירה כתוצאה ממגוון סיכונים, כגון אש, ברק ורעם (1.1), התפוצצות (1.2), ורוח במהירות העולה על 30 (1.3). הכיסוי אינו כולל פעולות זדון שנעשו בדירה שאינה תפוסה (1.6.1).",
-    "row_axis": "Specific insured risks/incidents",
-    "column_axis": "Risk description and coverage details",
+    "title": "כיסוי ביטוח דירה – אדירה ארד",
+    "summary": "This table details the covered risks under the 'ביטוח דירה' (apartment insurance) policy from 'אדירה ארד'. It lists specific events that are covered, along with exclusions to those coverages.",
+    "embed_passage": "טבלה זו מתארת את הכיסויים במסגרת פוליסת 'ביטוח דירה' של 'אדירה ארד', ומפרטת את מקרי הביטוח השונים הכלולים בפוליסה. ניתן לעיין בטבלה כדי לבדוק האם נזק ספציפי מכוסה על ידי הפוליסה, תוך התייחסות לסייגים הרלוונטיים. מקרי הביטוח העיקריים כוללים אש, ברק, התפוצצות, רוח, ונזקים מכלי טיס. סייגים נפוצים כוללים פעולות זדון, במיוחד בדירות לא תפוסות או שנעשו על ידי המבוטח או בני משפחתו. אדירה ארד מציעה כיסויים מגוונים לדירות.",
+    "row_axis": "מקרי ביטוח (covered events)",
+    "column_axis": "תיאור מקרה הביטוח / סייגים (event description / exclusions)",
     "units": [],
     "notable_values": [
       "אש, ברק, רעם: 1.1",
-      "התפוצצות: 1.2",
-      "מהירות רוח: 30",
-      "פעולות זדון - דירה לא תפוסה: 1.6.1",
-      "פעולות זדון - המבוטח/משפחה: 1.6.2"
+      "התפוצצות או התלקחות: 1.2",
+      "רוח מעל 30 קמ״ש: 1.3",
+      "פעולות זדון: 1.6",
+      "פעולות זדון בדירה לא תפוסה: 1.6.1",
+      "פעולות זדון על ידי המבוטח או משפחתו: 1.6.2",
+      "פעולות זדון על ידי דיירים ברשות המבוטח: 1.6.3"
     ],
     "product_hints": [
-      "אדירה ארד",
-      "ביטוח דירה"
+      "ביטוח דירה",
+      "אדירה ארד"
     ]
   },
   "sketch": ". אש, ברק, רעם וכן עשן שהוא תופעה יוצאת דופן ולא תופעה קבועה. 1.1\n. התפוצצות או התלקחות. 1.2\nלמעט קשר, לרבות גשם שירד באותה עת, שלג או ברד, ו 30 . רוח שמהירותה עולה על 1.3 דליפת מי גשם מבעד לקירות או לתקרה או ספיגתם בהם.",
-  "embed_text": "פוליסת 'אדירה ארד' מציעה כיסוי לנזקים לדירה כתוצאה ממגוון סיכונים, כגון אש, ברק ורעם (1.1), התפוצצות (1.2), ורוח במהירות העולה על 30 (1.3). הכיסוי אינו כולל פעולות זדון שנעשו בדירה שאינה תפוסה (1.6.1).",
-  "payload": "טבלה: כיסוי ביטוחי - אדירה ארד\nThis table details the coverage provided by the 'Adira Erd' apartment insurance policy for various risks. It lists specific incidents and whether they are covered under the policy.\nממדים: Specific insured risks/incidents, Risk description and coverage details\n\n. אש, ברק, רעם וכן עשן שהוא תופעה יוצאת דופן ולא תופעה קבועה. 1.1\n. התפוצצות או התלקחות. 1.2\nלמעט קשר, לרבות גשם שירד באותה עת, שלג או ברד, ו 30 . רוח שמהירותה עולה על 1.3 דליפת מי גשם מבעד לקירות או לתקרה או ספיגתם בהם."
+  "embed_text": "טבלה זו מתארת את הכיסויים במסגרת פוליסת 'ביטוח דירה' של 'אדירה ארד', ומפרטת את מקרי הביטוח השונים הכלולים בפוליסה. ניתן לעיין בטבלה כדי לבדוק האם נזק ספציפי מכוסה על ידי הפוליסה, תוך התייחסות לסייגים הרלוונטיים. מקרי הביטוח העיקריים כוללים אש, ברק, התפוצצות, רוח, ונזקים מכלי טיס. סייגים נפוצים כוללים פעולות זדון, במיוחד בדירות לא תפוסות או שנעשו על ידי המבוטח או בני משפחתו. אדירה ארד מציעה כיסויים מגוונים לדירות. This table details the covered risks under the 'ביטוח דירה' (apartment insurance) policy from 'אדירה ארד'. It lists specific events that are covered, along with exclusions to those coverages. בין הערכים בטבלה: אש, ברק, רעם: 1.1; התפוצצות או התלקחות: 1.2; רוח מעל 30 קמ״ש: 1.3; פעולות זדון בדירה לא תפוסה: 1.6.1; פעולות זדון על ידי המבוטח או משפחתו: 1.6.2; פעולות זדון על ידי דיירים…",
+  "payload": "טבלה: כיסוי ביטוח דירה – אדירה ארד\nThis table details the covered risks under the 'ביטוח דירה' (apartment insurance) policy from 'אדירה ארד'. It lists specific events that are covered, along with exclusions to those coverages.\nממדים: מקרי ביטוח (covered events), תיאור מקרה הביטוח / סייגים (event description / exclusions)\n\n. אש, ברק, רעם וכן עשן שהוא תופעה יוצאת דופן ולא תופעה קבועה. 1.1\n. התפוצצות או התלקחות. 1.2\nלמעט קשר, לרבות גשם שירד באותה עת, שלג או ברד, ו 30 . רוח שמהירותה עולה על 1.3 דליפת מי גשם מבעד לקירות או לתקרה או ספיגתם בהם."
 }

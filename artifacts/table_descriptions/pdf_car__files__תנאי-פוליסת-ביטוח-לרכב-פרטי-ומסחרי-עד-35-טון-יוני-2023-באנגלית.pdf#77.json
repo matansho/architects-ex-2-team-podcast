@@ -2,22 +2,24 @@
   "id": "pdf:car/files/תנאי-פוליסת-ביטוח-לרכב-פרטי-ומסחרי-עד-35-טון-יוני-2023-באנגלית.pdf#77",
   "source": "llm",
   "description": {
-    "title": "תנאי פוליסת ביטוח רכב",
-    "summary": "This table outlines the duties of the insured and exclusions related to legal handling services and coverage for electrical devices and accessories in a car insurance policy. It details conditions for coverage based on the vehicle's specification.",
-    "embed_passage": "פוליסת ביטוח לרכב פרטי ומסחרי עד 35 טון כוללת שירותים משפטיים מקדימים בגין תביעה, וכן כיסוי לנזק או אובדן של התקנים חשמליים, אביזרים והרכבות בהתאם לתנאי הכיסוי. במקרה של תביעה מעל סמכות בית המשפט לתביעות קטנות, תידרש תשלום אגרה מוסכמת מראש, שתותנה בהצלחת הטיפול המשפטי.",
-    "row_axis": "Policy conditions / exclusions",
-    "column_axis": "Description of coverage or duty",
+    "title": "תנאי פוליסת ביטוח לרכב",
+    "summary": "This table outlines the insured's duties and exclusions related to legal handling services and coverage for electrical devices and accessories in a car insurance policy. It details conditions for coverage based on the vehicle's specification.",
+    "embed_passage": "טבלה זו מתארת את תנאי פוליסת ביטוח לרכב, בדגש על חובות המבוטח והחרגות הקשורות לשירותי טיפול משפטי וכיסוי עבור מכשירים ואביזרים חשמליים. הפוליסה מכסה אובדן או נזק למכשירים ואביזרים חשמליים בהתאם לתנאי הכיסוי המפורטים, בתנאי שצוין במפורש במפרט שהכיסוי תקף. ניתן לקבל החזר כספי עבור שירותי טיפול משפטי בתביעות נגד צד שלישי, אך רק באישור מראש של המבטח. המכשירים, האביזרים וההרכבות שאינם חלק מהחבילה הבסיסית המפורטת במפרט היבואן לרכב, אינם מכוסים אלא אם צוין אחרת. כיסוי נוסף לבמפרים תקף רק אם צוין במפורש במפרט.",
+    "row_axis": "condition/exclusion",
+    "column_axis": "coverage details",
     "units": [],
     "notable_values": [
-      "Vehicle weight: עד 35 טון",
-      "Court: Small Claims Court"
+      "Small Claims Court: assistance preparing a statement of claim",
+      "fee: pre-agreed rate (conditioned on success)",
+      "electrical devices, accessories and assemblies: coverage based on importer's specification",
+      "bumpers: repair/replacement covered if specified"
     ],
     "product_hints": [
-      "ביטוח לרכב פרטי ומסחרי",
-      "פוליסת ביטוח רכב"
+      "ביטוח לרכב",
+      "פוליסת ביטוח לרכב"
     ]
   },
   "sketch": "26.4 The insured's duties\nProducing all the relevant documents for the purpose of substantiating the claim.\n26.5 Exclusions\nThe insured shall not be entitled to any financial reimbursement for legal handling services in claims against a third party, which are provided not in accordance with whatsoever appearing in this cover, unless approval is given in advance by the insurer.\nInsurance of the electrical devices, accessories and assemblies which do not constitute part of the basic package specified in the importer's specification for the vehicle model.\nIf explicitly noted in the specification that insurance for the devices, accessories and assemblies which do not constitute part of the basic package specified in the importer's specification for the vehicle model is valid, the policy shall cover loss or damage to electrical devices, accessories and assemblies in accordance with the following cover conditions:",
-  "embed_text": "פוליסת ביטוח לרכב פרטי ומסחרי עד 35 טון כוללת שירותים משפטיים מקדימים בגין תביעה, וכן כיסוי לנזק או אובדן של התקנים חשמליים, אביזרים והרכבות בהתאם לתנאי הכיסוי. במקרה של תביעה מעל סמכות בית המשפט לתביעות קטנות, תידרש תשלום אגרה מוסכמת מראש, שתותנה בהצלחת הטיפול המשפטי.",
-  "payload": "טבלה: תנאי פוליסת ביטוח רכב\nThis table outlines the duties of the insured and exclusions related to legal handling services and coverage for electrical devices and accessories in a car insurance policy. It details conditions for coverage based on the vehicle's specification.\nממדים: Policy conditions / exclusions, Description of coverage or duty\n\n26.4 The insured's duties\nProducing all the relevant documents for the purpose of substantiating the claim.\n26.5 Exclusions\nThe insured shall not be entitled to any financial reimbursement for legal handling services in claims against a third party, which are provided not in accordance with whatsoever appearing in this cover, unless approval is given in advance by the insurer.\nInsurance of the electrical devices, accessories and assemblies which do not constitute part of the basic package specified in the importer's specification for the vehicle model.\nIf explicitly noted in the specification that insurance for the devices, accessories and assemblies which do not constitute part of the basic package specified in the importer's specification for the vehicle model is valid, the policy shall cover loss or damage to electrical devices, accessories and assemblies in accordance with the following cover conditions:"
+  "embed_text": "טבלה זו מתארת את תנאי פוליסת ביטוח לרכב, בדגש על חובות המבוטח והחרגות הקשורות לשירותי טיפול משפטי וכיסוי עבור מכשירים ואביזרים חשמליים. הפוליסה מכסה אובדן או נזק למכשירים ואביזרים חשמליים בהתאם לתנאי הכיסוי המפורטים, בתנאי שצוין במפורש במפרט שהכיסוי תקף. ניתן לקבל החזר כספי עבור שירותי טיפול משפטי בתביעות נגד צד שלישי, אך רק באישור מראש של המבטח. המכשירים, האביזרים וההרכבות שאינם חלק מהחבילה הבסיסית המפורטת במפרט היבואן לרכב, אינם מכוסים אלא אם צוין אחרת. כיסוי נוסף לבמפרים תקף רק אם צוין במפורש במפרט. This table outlines the insured's duties and exclusions related to legal handling services and coverage for electrical devices and accessories in a car insurance policy. It details conditions for coverage based on the vehicle's specification. בין הערכים בטבלה: Small Claims Court: assistance…",
+  "payload": "טבלה: תנאי פוליסת ביטוח לרכב\nThis table outlines the insured's duties and exclusions related to legal handling services and coverage for electrical devices and accessories in a car insurance policy. It details conditions for coverage based on the vehicle's specification.\nממדים: condition/exclusion, coverage details\n\n26.4 The insured's duties\nProducing all the relevant documents for the purpose of substantiating the claim.\n26.5 Exclusions\nThe insured shall not be entitled to any financial reimbursement for legal handling services in claims against a third party, which are provided not in accordance with whatsoever appearing in this cover, unless approval is given in advance by the insurer.\nInsurance of the electrical devices, accessories and assemblies which do not constitute part of the basic package specified in the importer's specification for the vehicle model.\nIf explicitly noted in the specification that insurance for the devices, accessories and assemblies which do not constitute part of the basic package specified in the importer's specification for the vehicle model is valid, the policy shall cover loss or damage to electrical devices, accessories and assemblies in accordance with the following cover conditions:"
 }

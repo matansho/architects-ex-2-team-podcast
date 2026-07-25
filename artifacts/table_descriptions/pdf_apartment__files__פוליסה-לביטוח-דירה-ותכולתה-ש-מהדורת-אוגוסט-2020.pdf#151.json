@@ -3,20 +3,22 @@
   "source": "llm",
   "description": {
     "title": "תביעה לתגמולי ביטוח",
-    "summary": "This table outlines the process and timelines for filing insurance claims. It details the steps a policyholder must take and the timeframe within which the insurer must respond and provide compensation.",
-    "embed_passage": "פוליסה לביטוח דירה ותכולתה מתייחסת לתביעה לתגמולי ביטוח. לאחר שנודע על מקרה הביטוח, המבוטח יודיע למבטח מיד. תגמולי ביטוח שאינם שנויים במחלוקת ישולמו תוך 30 ימים מהיום שהגיש המבוטח תביעה.",
-    "row_axis": "Steps in the insurance claim process",
-    "column_axis": "Details of each step (e.g., notification, documentation, payment)",
+    "summary": "This table outlines the process for filing an insurance claim. It details the steps a policyholder must take to notify the insurer and provide necessary documentation.",
+    "embed_passage": "טבלה זו מתארת את תהליך הגשת תביעה לביטוח, ומפרטת את השלבים שהמבוטח צריך לנקוט כדי להודיע למבטח ולספק את התיעוד הנדרש. ניתן להשתמש בטבלה זו כדי להבין את החובות של המבוטח בעת הגשת תביעה, וכן את הציפיות של המבטח. הפוליסה לביטוח דירה ותכולתה ש מהדורת אוגוסט 2020 מספקת הנחיות מפורטות לגבי אופן הגשת תביעה. תביעה לתגמולי ביטוח, המידע והמסמכים הדרושים לבירור החבות והיקפה, תגמולי ביטוח שאינם שנויים במחלוקת.",
+    "row_axis": "Steps in the claim process",
+    "column_axis": "Claim requirements and insurer actions",
     "units": [],
     "notable_values": [
-      "30 ימים: Timeframe for undisputed claim payment",
-      "מיד: Immediacy of notification after learning of an incident"
+      "Claim notification: immediate",
+      "Documentation request: reasonable time",
+      "Insurer review: immediate",
+      "Payment of undisputed claims: 30 days"
     ],
     "product_hints": [
-      "פוליסה לביטוח דירה ותכולתה"
+      "פוליסה לביטוח דירה ותכולתה ש מהדורת אוגוסט 2020"
     ]
   },
   "sketch": ".  תביעה לתגמולי ביטוח 5\n)א( קרה מקרה ביטוח, יודיע המבוטח על כך למבטח מיד לאחר שנודע לו הדבר.\n)ב( תביעה לתשלום תגמולי ביטוח לפי הפוליסה תתועד אצל המבטח; אין באמור כדי למנוע מהמבטח לדרוש שהתביעה תוגש בכתב.\n)ג(  על המבוטח למסור למבטח, תוך זמן סביר לאחר שנדרש לכך, את המידע והמסמכים , הדרושים לבירור החבות והיקפה, ואם אינם ברשותו, עליו לעזור למבטח, ככל שיוכל להשיגם.\n)ד(  המבטח, מיד לאחר שקיבל הודעה מהמבוטח אודות מקרה הביטוח, יעשה את הדרוש לבירור חבותו.",
-  "embed_text": "פוליסה לביטוח דירה ותכולתה מתייחסת לתביעה לתגמולי ביטוח. לאחר שנודע על מקרה הביטוח, המבוטח יודיע למבטח מיד. תגמולי ביטוח שאינם שנויים במחלוקת ישולמו תוך 30 ימים מהיום שהגיש המבוטח תביעה.",
-  "payload": "טבלה: תביעה לתגמולי ביטוח\nThis table outlines the process and timelines for filing insurance claims. It details the steps a policyholder must take and the timeframe within which the insurer must respond and provide compensation.\nממדים: Steps in the insurance claim process, Details of each step (e.g., notification, documentation, payment)\n\n.  תביעה לתגמולי ביטוח 5\n)א( קרה מקרה ביטוח, יודיע המבוטח על כך למבטח מיד לאחר שנודע לו הדבר.\n)ב( תביעה לתשלום תגמולי ביטוח לפי הפוליסה תתועד אצל המבטח; אין באמור כדי למנוע מהמבטח לדרוש שהתביעה תוגש בכתב.\n)ג(  על המבוטח למסור למבטח, תוך זמן סביר לאחר שנדרש לכך, את המידע והמסמכים , הדרושים לבירור החבות והיקפה, ואם אינם ברשותו, עליו לעזור למבטח, ככל שיוכל להשיגם.\n)ד(  המבטח, מיד לאחר שקיבל הודעה מהמבוטח אודות מקרה הביטוח, יעשה את הדרוש לבירור חבותו."
+  "embed_text": "טבלה זו מתארת את תהליך הגשת תביעה לביטוח, ומפרטת את השלבים שהמבוטח צריך לנקוט כדי להודיע למבטח ולספק את התיעוד הנדרש. ניתן להשתמש בטבלה זו כדי להבין את החובות של המבוטח בעת הגשת תביעה, וכן את הציפיות של המבטח. הפוליסה לביטוח דירה ותכולתה ש מהדורת אוגוסט 2020 מספקת הנחיות מפורטות לגבי אופן הגשת תביעה. תביעה לתגמולי ביטוח, המידע והמסמכים הדרושים לבירור החבות והיקפה, תגמולי ביטוח שאינם שנויים במחלוקת. This table outlines the process for filing an insurance claim. It details the steps a policyholder must take to notify the insurer and provide necessary documentation. בין הערכים בטבלה: Claim notification: immediate; Documentation request: reasonable time; Insurer review: immediate; Payment of undisputed claims: 30 days.",
+  "payload": "טבלה: תביעה לתגמולי ביטוח\nThis table outlines the process for filing an insurance claim. It details the steps a policyholder must take to notify the insurer and provide necessary documentation.\nממדים: Steps in the claim process, Claim requirements and insurer actions\n\n.  תביעה לתגמולי ביטוח 5\n)א( קרה מקרה ביטוח, יודיע המבוטח על כך למבטח מיד לאחר שנודע לו הדבר.\n)ב( תביעה לתשלום תגמולי ביטוח לפי הפוליסה תתועד אצל המבטח; אין באמור כדי למנוע מהמבטח לדרוש שהתביעה תוגש בכתב.\n)ג(  על המבוטח למסור למבטח, תוך זמן סביר לאחר שנדרש לכך, את המידע והמסמכים , הדרושים לבירור החבות והיקפה, ואם אינם ברשותו, עליו לעזור למבטח, ככל שיוכל להשיגם.\n)ד(  המבטח, מיד לאחר שקיבל הודעה מהמבוטח אודות מקרה הביטוח, יעשה את הדרוש לבירור חבותו."
 }

@@ -2,22 +2,22 @@
   "id": "pdf:business/files/פוליסה-משולבת-לביטוח-אש-מורחב-ואובדן-תוצאתי-הראל-ביט-ינואר-2023.pdf#176",
   "source": "llm",
   "description": {
-    "title": "תפוקה מול מחזור",
-    "summary": "This table details how a policyholder can choose to base a claim on production reduction ('תפוקה') instead of turnover reduction ('מחזור') after an insured event. It outlines how terms change when this option is selected.",
-    "embed_passage": "פוליסת הראל ביטוח מציעה אפשרות לבסס תביעה על צמצום בתפוקה במקום צמצום במחזור לאחר מקרה ביטוח. תפוקה מוגדרת ככמות יחידות ייצור סטנדרטיות של טובין או שירותים שניתנו בחצרים המבוטחים במשך תקופת הביטוח. הבחירה נעשית פעם אחת לכל מקרה ביטוח.",
-    "row_axis": "conditions/options related to claim basis (production vs. turnover)",
-    "column_axis": "details of how the claim calculation changes",
+    "title": "בחירת תפוקה במקום מחזור",
+    "summary": "This table details the option for an insured to base a claim on production reduction instead of turnover reduction following an insured event. It outlines how the term 'מחזור' (turnover) is replaced with 'תפוקה' (production) in certain contexts.",
+    "embed_passage": "טבלה זו עוסקת באפשרות לבסס תביעה על צמצום בתפוקה במקום צמצום במחזור לאחר מקרה ביטוח מכוסה, כפי שמוגדר בפוליסת ביטוח אש מורחב ואובדן תוצאתי של הראל. הבחירה בין מחזור לתפוקה נעשית פעם אחת לכל מקרה ביטוח. תפוקה מוגדרת ככמות יחידות ייצור סטנדרטיות של טובין או שירותים שיוצרו או ניתנו על ידי המבוטח. במקרה של מכירת סחורות או מתן שירותים במקום אחר בעקבות מקרה ביטוח, תנאי הביטוח ישתנו בהתאם. מכירת ניצולת גם היא משפיעה על חישוב המחזור בתקופת השיפוי.",
+    "row_axis": "conditions/clauses related to choosing production over turnover",
+    "column_axis": "details of the change in calculation/application",
     "units": [],
     "notable_values": [
-      "11.9.1: Replacement of 'מחזור' with 'תפוקה'",
-      "11.9.2: Choice is made once per insured event"
+      "בחירת תפוקה במקום מחזור: 11.9",
+      "החלפת מחזור בתפוקה: 11.9.1",
+      "בחירה חד פעמית לכל מקרה ביטוח: 11.9.2"
     ],
     "product_hints": [
-      "הראל ביטוח",
-      "פוליסה משולבת לביטוח אש מורחב ואובדן תוצאתי"
+      "פוליסה משולבת לביטוח אש מורחב ואובדן תוצאתי הראל"
     ]
   },
   "sketch": "בחירת תפוקה במקום מחזור .11.9\nלאחר קרות מקרה הביטוח המכוסה על פי פרק זה, רשאי המבוטח לבחור לבסס את תביעתו על יסוד צמצום בתפוקה, במקום צמצום במחזור; בכל מקרה של בחירה כאמור, יחולו בפרק השינויים הבאים:\n.  בכל מקום בפרק בו מופיעה המילה מחזור, היא תוחלף במילה תפוקה, פרט 11.9.1 להגדרת רווח גולמי.\n.  הבחירה, כאמור, תעשה פעם אחת בגין כל מקרה ביטוח. 11.9.2\nתפוקה לעניין סעיף זה, פירושה: כמות יחידות ייצור סטנדרטיות של טובין שיוצרו על ידי המבוטח או שירותים שניתנו על ידו בחצרים המבוטחים במשך תקופת הביטוח. למטרת סעיף זה יחידות ייצור סטנדרטיות ימדדו כמקובל אצל המבוטח בעסקו המוגדר בפוליסה. לעיל מכירת סחורות או מתן שירותים במקום אחר בעקבות מקרה 11.8 לפיכך, תנאי ביטוח ישתנה בהתאם ויקרא כדלקמן:",
-  "embed_text": "פוליסת הראל ביטוח מציעה אפשרות לבסס תביעה על צמצום בתפוקה במקום צמצום במחזור לאחר מקרה ביטוח. תפוקה מוגדרת ככמות יחידות ייצור סטנדרטיות של טובין או שירותים שניתנו בחצרים המבוטחים במשך תקופת הביטוח. הבחירה נעשית פעם אחת לכל מקרה ביטוח.",
-  "payload": "טבלה: תפוקה מול מחזור\nThis table details how a policyholder can choose to base a claim on production reduction ('תפוקה') instead of turnover reduction ('מחזור') after an insured event. It outlines how terms change when this option is selected.\nממדים: conditions/options related to claim basis (production vs. turnover), details of how the claim calculation changes\n\nבחירת תפוקה במקום מחזור .11.9\nלאחר קרות מקרה הביטוח המכוסה על פי פרק זה, רשאי המבוטח לבחור לבסס את תביעתו על יסוד צמצום בתפוקה, במקום צמצום במחזור; בכל מקרה של בחירה כאמור, יחולו בפרק השינויים הבאים:\n.  בכל מקום בפרק בו מופיעה המילה מחזור, היא תוחלף במילה תפוקה, פרט 11.9.1 להגדרת רווח גולמי.\n.  הבחירה, כאמור, תעשה פעם אחת בגין כל מקרה ביטוח. 11.9.2\nתפוקה לעניין סעיף זה, פירושה: כמות יחידות ייצור סטנדרטיות של טובין שיוצרו על ידי המבוטח או שירותים שניתנו על ידו בחצרים המבוטחים במשך תקופת הביטוח. למטרת סעיף זה יחידות ייצור סטנדרטיות ימדדו כמקובל אצל המבוטח בעסקו המוגדר בפוליסה. לעיל מכירת סחורות או מתן שירותים במקום אחר בעקבות מקרה 11.8 לפיכך, תנאי ביטוח ישתנה בהתאם ויקרא כדלקמן:"
+  "embed_text": "טבלה זו עוסקת באפשרות לבסס תביעה על צמצום בתפוקה במקום צמצום במחזור לאחר מקרה ביטוח מכוסה, כפי שמוגדר בפוליסת ביטוח אש מורחב ואובדן תוצאתי של הראל. הבחירה בין מחזור לתפוקה נעשית פעם אחת לכל מקרה ביטוח. תפוקה מוגדרת ככמות יחידות ייצור סטנדרטיות של טובין או שירותים שיוצרו או ניתנו על ידי המבוטח. במקרה של מכירת סחורות או מתן שירותים במקום אחר בעקבות מקרה ביטוח, תנאי הביטוח ישתנו בהתאם. מכירת ניצולת גם היא משפיעה על חישוב המחזור בתקופת השיפוי. This table details the option for an insured to base a claim on production reduction instead of turnover reduction following an insured event. It outlines how the term 'מחזור' (turnover) is replaced with 'תפוקה' (production) in certain contexts. בין הערכים בטבלה: בחירת תפוקה במקום מחזור: 11.9; החלפת מחזור בתפוקה: 11.9.1; בחירה חד פעמית לכל מקרה ביטוח: 1…",
+  "payload": "טבלה: בחירת תפוקה במקום מחזור\nThis table details the option for an insured to base a claim on production reduction instead of turnover reduction following an insured event. It outlines how the term 'מחזור' (turnover) is replaced with 'תפוקה' (production) in certain contexts.\nממדים: conditions/clauses related to choosing production over turnover, details of the change in calculation/application\n\nבחירת תפוקה במקום מחזור .11.9\nלאחר קרות מקרה הביטוח המכוסה על פי פרק זה, רשאי המבוטח לבחור לבסס את תביעתו על יסוד צמצום בתפוקה, במקום צמצום במחזור; בכל מקרה של בחירה כאמור, יחולו בפרק השינויים הבאים:\n.  בכל מקום בפרק בו מופיעה המילה מחזור, היא תוחלף במילה תפוקה, פרט 11.9.1 להגדרת רווח גולמי.\n.  הבחירה, כאמור, תעשה פעם אחת בגין כל מקרה ביטוח. 11.9.2\nתפוקה לעניין סעיף זה, פירושה: כמות יחידות ייצור סטנדרטיות של טובין שיוצרו על ידי המבוטח או שירותים שניתנו על ידו בחצרים המבוטחים במשך תקופת הביטוח. למטרת סעיף זה יחידות ייצור סטנדרטיות ימדדו כמקובל אצל המבוטח בעסקו המוגדר בפוליסה. לעיל מכירת סחורות או מתן שירותים במקום אחר בעקבות מקרה 11.8 לפיכך, תנאי ביטוח ישתנה בהתאם ויקרא כדלקמן:"
 }

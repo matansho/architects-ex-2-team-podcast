@@ -2,24 +2,22 @@
   "id": "pdf:business/files/תנאי-פוליסת-ביטוח-עסקי-ביטוח-אחריות-זיהום-אנגלית.pdf#39",
   "source": "llm",
   "description": {
-    "title": "ביטוח אחריות זיהום",
-    "summary": "This table details exclusions related to claims under a pollution liability insurance policy. It specifies scenarios where claims between insured parties or related organizations are not covered.",
-    "embed_passage": "פוליסת ביטוח אחריות זיהום מגדירה מקרים בהם תביעה לא תכוסה, כגון תביעה של 'מבוטח' כנגד 'מבוטח' אחר. הפוליסה מתייחסת גם לתביעות מצד ארגון או אדם השולט, מחזיק, מפעיל או מנהל 'מבוטח'. תנאים אלו נועדו להגדיר את גבולות הכיסוי של הפוליסה.",
-    "row_axis": "Types of claims/relationships between parties",
-    "column_axis": "Conditions for exclusion of coverage",
+    "title": "ביטוח אחריות זיהום - גורמים קשורים",
+    "summary": "This table details exclusions related to claims made between 'insured' parties and those who control or are controlled by them. It defines scenarios where coverage does not apply under the policy.",
+    "embed_passage": "טבלה זו מתארת חריגים לפוליסת ביטוח אחריות זיהום, הנוגעים לתביעות בין גורמים קשורים – 'insured' כנגד 'insured' אחר, או כנגד גורם השולט או נשלט על ידי 'insured'. מטרת הטבלה היא להבהיר מקרים בהם הכיסוי הביטוחי אינו תקף. הטבלה מתייחסת לתביעות שנעשות על ידי או כנגד 'insured', ארגונים או יחידים השולטים, בבעלותם, מפעילים או מנהלים 'insured', או שנשלטים, בבעלותם, מופעלים או מנוהלים על ידי ה'insured'. החריגים כוללים תביעות בין 'insured' לבין גורמים קשורים.",
+    "row_axis": "Types of claims between related parties",
+    "column_axis": "Relationship between claimant and insured",
     "units": [],
     "notable_values": [
-      "Claim type: 'insured' against 'insured'",
-      "Control: wholly or partially controls",
-      "Ownership: wholly or partially owns",
-      "Operation: operates",
-      "Management: manages"
+      "claim: made by an insured against another insured",
+      "claim: made against an insured by an organization",
+      "claim: made against an insured by an individual"
     ],
     "product_hints": [
       "ביטוח אחריות זיהום"
     ]
   },
   "sketch": "K. Related Persons and Organizations\nAny 'claim' made:\nBy an 'insured' against any other 'insured\"; or\nAgainst an 'insured' by an organization or individual:\nThat wholly or partially controls, owns, operates or manages an 'insured\"; or\nThat is wholly or partially controlled, owned, operated or managed by the 'insured'.",
-  "embed_text": "פוליסת ביטוח אחריות זיהום מגדירה מקרים בהם תביעה לא תכוסה, כגון תביעה של 'מבוטח' כנגד 'מבוטח' אחר. הפוליסה מתייחסת גם לתביעות מצד ארגון או אדם השולט, מחזיק, מפעיל או מנהל 'מבוטח'. תנאים אלו נועדו להגדיר את גבולות הכיסוי של הפוליסה.",
-  "payload": "טבלה: ביטוח אחריות זיהום\nThis table details exclusions related to claims under a pollution liability insurance policy. It specifies scenarios where claims between insured parties or related organizations are not covered.\nממדים: Types of claims/relationships between parties, Conditions for exclusion of coverage\n\nK. Related Persons and Organizations\nAny 'claim' made:\nBy an 'insured' against any other 'insured\"; or\nAgainst an 'insured' by an organization or individual:\nThat wholly or partially controls, owns, operates or manages an 'insured\"; or\nThat is wholly or partially controlled, owned, operated or managed by the 'insured'."
+  "embed_text": "טבלה זו מתארת חריגים לפוליסת ביטוח אחריות זיהום, הנוגעים לתביעות בין גורמים קשורים – 'insured' כנגד 'insured' אחר, או כנגד גורם השולט או נשלט על ידי 'insured'. מטרת הטבלה היא להבהיר מקרים בהם הכיסוי הביטוחי אינו תקף. הטבלה מתייחסת לתביעות שנעשות על ידי או כנגד 'insured', ארגונים או יחידים השולטים, בבעלותם, מפעילים או מנהלים 'insured', או שנשלטים, בבעלותם, מופעלים או מנוהלים על ידי ה'insured'. החריגים כוללים תביעות בין 'insured' לבין גורמים קשורים. This table details exclusions related to claims made between 'insured' parties and those who control or are controlled by them. It defines scenarios where coverage does not apply under the policy. בין הערכים בטבלה: claim: made by an insured against another insured; claim: made against an insured by an organization; claim: made against an insured…",
+  "payload": "טבלה: ביטוח אחריות זיהום - גורמים קשורים\nThis table details exclusions related to claims made between 'insured' parties and those who control or are controlled by them. It defines scenarios where coverage does not apply under the policy.\nממדים: Types of claims between related parties, Relationship between claimant and insured\n\nK. Related Persons and Organizations\nAny 'claim' made:\nBy an 'insured' against any other 'insured\"; or\nAgainst an 'insured' by an organization or individual:\nThat wholly or partially controls, owns, operates or manages an 'insured\"; or\nThat is wholly or partially controlled, owned, operated or managed by the 'insured'."
 }

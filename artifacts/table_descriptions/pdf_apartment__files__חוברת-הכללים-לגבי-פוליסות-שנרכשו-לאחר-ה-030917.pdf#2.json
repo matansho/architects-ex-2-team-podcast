@@ -2,16 +2,16 @@
   "id": "pdf:apartment/files/חוברת-הכללים-לגבי-פוליסות-שנרכשו-לאחר-ה-030917.pdf#2",
   "source": "llm",
   "description": {
-    "title": "הראל - כללי תביעות דירה",
-    "summary": "This table outlines the rules and procedures for handling apartment insurance claims with Harel. It details required information and documents, claim processing timelines, and relevant circulars.",
-    "embed_passage": "חברת הראל מפרטת את הליך בירור ויישוב תביעות ביטוח דירה, כולל תקופות התיישנות ודרישות מסמכים. לדוגמה, יש להגיש הודעה על תביעה תוך 32 עמודים, ובירור התביעה כפוף להוראות בחוזרים שונים כמו חוזר מספר 33 עמודים. הראל מסייעת למבוטחים בתביעות רכוש וגוף.",
-    "row_axis": "Claim process step / requirement",
-    "column_axis": "Details related to claim handling (e.g., document requirements, deadlines, circular references)",
+    "title": "כללי הראל לבירור תביעות",
+    "summary": "This table outlines the rules for claim settlement and processing at Harel Insurance. It details required information and documents for filing a claim, referencing specific circulars and timeframes.",
+    "embed_passage": "טבלה זו מתארת את כללי הראל לבירור תביעות, ומפרטת מידע ומסמכים הנדרשים למתובע לצורך טיפול בתביעה. ניתן למצוא מידע על תקופות התיישנות, הוראות מתוך חוזרים שונים של הראל, וכן הוראות ספציפיות לגבי נזקי מים. הטבלה מסייעת בהבנת הליך בירור ויישוב התביעה בהראל חברה לביטוח בע\"מ. הראל מתייחסת ל\"יישוב בחוזר הקבועות והתקופות המועדים טבלת דירה\" ול\"תיקון\" וכן ל\"נזקי מים\".  הטבלה כוללת הפניות לעמודים 31, 32 ו-33.",
+    "row_axis": "נושא/סעיף בהליך בירור תביעות",
+    "column_axis": "פרטי מידע/הוראות",
     "units": [],
     "notable_values": [
-      "תקופת התיישנות: 32",
-      "חוזר: 33",
-      "עמ': 31"
+      "יישוב בירור לשם מתובע הנדרשים והמסמכים המידע פירוט: עמ' 31",
+      "התיישנות תקופת על הודעה: עמ' 32",
+      "נזקי מים: עמ' 33"
     ],
     "product_hints": [
       "ביטוח דירה",
@@ -19,6 +19,6 @@
     ]
   },
   "sketch": "יישוב בירור לשם מתובע הנדרשים והמסמכים המידע פירוט בהראל המבוטחת מדירה ג' צד רכוש/גוף ותביעת מבוטח,31,עמ'\nהתיישנות תקופת על הודעה,32,עמ'\n\"בפניות וטיפול תביעות \"\"יישוב בחוזר הקבועות והתקופות המועדים טבלת דירה\"\" ביטוח בענף הוראות - המאוחד החוזר הוראות \"\"תיקון \"\"ובחוזר הציבור מים נזקי לגבי\",33,עמ'",
-  "embed_text": "חברת הראל מפרטת את הליך בירור ויישוב תביעות ביטוח דירה, כולל תקופות התיישנות ודרישות מסמכים. לדוגמה, יש להגיש הודעה על תביעה תוך 32 עמודים, ובירור התביעה כפוף להוראות בחוזרים שונים כמו חוזר מספר 33 עמודים. הראל מסייעת למבוטחים בתביעות רכוש וגוף.",
-  "payload": "טבלה: הראל - כללי תביעות דירה\nThis table outlines the rules and procedures for handling apartment insurance claims with Harel. It details required information and documents, claim processing timelines, and relevant circulars.\nממדים: Claim process step / requirement, Details related to claim handling (e.g., document requirements, deadlines, circular references)\n\nיישוב בירור לשם מתובע הנדרשים והמסמכים המידע פירוט בהראל המבוטחת מדירה ג' צד רכוש/גוף ותביעת מבוטח,31,עמ'\nהתיישנות תקופת על הודעה,32,עמ'\n\"בפניות וטיפול תביעות \"\"יישוב בחוזר הקבועות והתקופות המועדים טבלת דירה\"\" ביטוח בענף הוראות - המאוחד החוזר הוראות \"\"תיקון \"\"ובחוזר הציבור מים נזקי לגבי\",33,עמ'"
+  "embed_text": "טבלה זו מתארת את כללי הראל לבירור תביעות, ומפרטת מידע ומסמכים הנדרשים למתובע לצורך טיפול בתביעה. ניתן למצוא מידע על תקופות התיישנות, הוראות מתוך חוזרים שונים של הראל, וכן הוראות ספציפיות לגבי נזקי מים. הטבלה מסייעת בהבנת הליך בירור ויישוב התביעה בהראל חברה לביטוח בע\"מ. הראל מתייחסת ל\"יישוב בחוזר הקבועות והתקופות המועדים טבלת דירה\" ול\"תיקון\" וכן ל\"נזקי מים\".  הטבלה כוללת הפניות לעמודים 31, 32 ו-33. This table outlines the rules for claim settlement and processing at Harel Insurance. It details required information and documents for filing a claim, referencing specific circulars and timeframes. בין הערכים בטבלה: יישוב בירור לשם מתובע הנדרשים והמסמכים המידע פירוט: עמ' 31; התיישנות תקופת על הודעה: עמ' 32.",
+  "payload": "טבלה: כללי הראל לבירור תביעות\nThis table outlines the rules for claim settlement and processing at Harel Insurance. It details required information and documents for filing a claim, referencing specific circulars and timeframes.\nממדים: נושא/סעיף בהליך בירור תביעות, פרטי מידע/הוראות\n\nיישוב בירור לשם מתובע הנדרשים והמסמכים המידע פירוט בהראל המבוטחת מדירה ג' צד רכוש/גוף ותביעת מבוטח,31,עמ'\nהתיישנות תקופת על הודעה,32,עמ'\n\"בפניות וטיפול תביעות \"\"יישוב בחוזר הקבועות והתקופות המועדים טבלת דירה\"\" ביטוח בענף הוראות - המאוחד החוזר הוראות \"\"תיקון \"\"ובחוזר הציבור מים נזקי לגבי\",33,עמ'"
 }

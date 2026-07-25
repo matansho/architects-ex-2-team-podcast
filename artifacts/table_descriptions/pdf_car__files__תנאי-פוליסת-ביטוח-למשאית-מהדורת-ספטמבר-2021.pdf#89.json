@@ -3,22 +3,21 @@
   "source": "llm",
   "description": {
     "title": "כיסויים נוספים",
-    "summary": "This table details additional coverages available under the insurance policy. It outlines the conditions and limitations for each coverage, referencing the policy's introduction, definitions, exclusions, and general terms.",
-    "embed_passage": "פוליסת ביטוח למשאית מציעה כיסויים נוספים שונים, כגון כיסוי שביתות אלימות ומהומות וכיסוי רעידת אדמה. גבולות האחריות מצוינים ביחס לכל כיסוי, בהתאם להגדרת סכום הביטוח במבוא לפוליסה. לדוגמה, כיסוי רעידת אדמה מורחב לכסות אובדן או נזק כתוצאה מרעידת אדמה בניגוד לכתוב בחריג אדמה.",
-    "row_axis": "Additional coverages (e.g., שביתות אלימות ומהומות, רעידת אדמה, הגנה משפטית)",
-    "column_axis": "Coverage conditions and limitations",
+    "summary": "This table details additional coverages available under the insurance policy. It specifies conditions for each coverage, referencing policy introductions, definitions, exclusions, and general conditions.",
+    "embed_passage": "טבלה זו מתארת כיסויים נוספים הזמינים במסגרת פוליסת הביטוח. ניתן לעיין בכיסויים המפורטים בפרק זה, בכפוף לתנאים הרשומים, בהגדרות, בסייגים ובתנאים הכלליים של הפוליסה. אחריות המבטח על פי כל כיסוי מוגבלת לגבולות האחריות המצוינים, אם צוינו, ובכפוף להגדרת סכום הביטוח. כיסוי שביתות אלימות ומהומות, כיסוי \"רעש\" - רעידת אדמה, וכיסוי הגנה משפטית הם חלק מהכיסויים המוצעים. פוליסת ביטוח למשאית, מהדורת ספטמבר 2021.",
+    "row_axis": "additional coverages",
+    "column_axis": "conditions and limitations",
     "units": [],
     "notable_values": [
-      "פרק ג׳: כיסויים נוספים",
-      "שעות 72: פרק זמן רצוף לאירוע רעידת אדמה",
-      "כתב אישום: הליכים משפטיים בהם מוגש כתב אישום",
-      "ברירת קנס: אישומים להם ברירת קנס אינם כלולים בהגנה משפטית"
+      "coverage: שביתות אלימות ומהומות",
+      "coverage: \"רעש\" - רעידת אדמה",
+      "coverage: הגנה משפטית"
     ],
     "product_hints": [
-      "ביטוח למשאית"
+      "פוליסת ביטוח למשאית"
     ]
   },
   "sketch": "פרק ג׳: כיסויים נוספים\nאם צוין במפורש ברשימה כי כיסוי מהכיסויים המפורטים בפרק זה בתוקף אזי, יחולו עליו התנאים הרשומים להלן, בכפוף לאמור במבוא, בהגדרות, בסייגים ובתנאים הכלליים של הפוליסה ובכפוף לסייגים ולתנאים המפורטים להלן וברשימה.\nלמען הסדר הטוב, מובהר, כי אחריות המבטח על פי כל כיסוי כמפורט להלן, הינה בכפוף לגבולות האחריות המצוינים ביחס לאותו כיסוי, אם צוינו, ובכפוף להגדרת סכום הביטוח/ גבול האחריות במבוא לפוליסה זו.",
-  "embed_text": "פוליסת ביטוח למשאית מציעה כיסויים נוספים שונים, כגון כיסוי שביתות אלימות ומהומות וכיסוי רעידת אדמה. גבולות האחריות מצוינים ביחס לכל כיסוי, בהתאם להגדרת סכום הביטוח במבוא לפוליסה. לדוגמה, כיסוי רעידת אדמה מורחב לכסות אובדן או נזק כתוצאה מרעידת אדמה בניגוד לכתוב בחריג אדמה.",
-  "payload": "טבלה: כיסויים נוספים\nThis table details additional coverages available under the insurance policy. It outlines the conditions and limitations for each coverage, referencing the policy's introduction, definitions, exclusions, and general terms.\nממדים: Additional coverages (e.g., שביתות אלימות ומהומות, רעידת אדמה, הגנה משפטית), Coverage conditions and limitations\n\nפרק ג׳: כיסויים נוספים\nאם צוין במפורש ברשימה כי כיסוי מהכיסויים המפורטים בפרק זה בתוקף אזי, יחולו עליו התנאים הרשומים להלן, בכפוף לאמור במבוא, בהגדרות, בסייגים ובתנאים הכלליים של הפוליסה ובכפוף לסייגים ולתנאים המפורטים להלן וברשימה.\nלמען הסדר הטוב, מובהר, כי אחריות המבטח על פי כל כיסוי כמפורט להלן, הינה בכפוף לגבולות האחריות המצוינים ביחס לאותו כיסוי, אם צוינו, ובכפוף להגדרת סכום הביטוח/ גבול האחריות במבוא לפוליסה זו."
+  "embed_text": "טבלה זו מתארת כיסויים נוספים הזמינים במסגרת פוליסת הביטוח. ניתן לעיין בכיסויים המפורטים בפרק זה, בכפוף לתנאים הרשומים, בהגדרות, בסייגים ובתנאים הכלליים של הפוליסה. אחריות המבטח על פי כל כיסוי מוגבלת לגבולות האחריות המצוינים, אם צוינו, ובכפוף להגדרת סכום הביטוח. כיסוי שביתות אלימות ומהומות, כיסוי \"רעש\" - רעידת אדמה, וכיסוי הגנה משפטית הם חלק מהכיסויים המוצעים. פוליסת ביטוח למשאית, מהדורת ספטמבר 2021. This table details additional coverages available under the insurance policy. It specifies conditions for each coverage, referencing policy introductions, definitions, exclusions, and general conditions.",
+  "payload": "טבלה: כיסויים נוספים\nThis table details additional coverages available under the insurance policy. It specifies conditions for each coverage, referencing policy introductions, definitions, exclusions, and general conditions.\nממדים: additional coverages, conditions and limitations\n\nפרק ג׳: כיסויים נוספים\nאם צוין במפורש ברשימה כי כיסוי מהכיסויים המפורטים בפרק זה בתוקף אזי, יחולו עליו התנאים הרשומים להלן, בכפוף לאמור במבוא, בהגדרות, בסייגים ובתנאים הכלליים של הפוליסה ובכפוף לסייגים ולתנאים המפורטים להלן וברשימה.\nלמען הסדר הטוב, מובהר, כי אחריות המבטח על פי כל כיסוי כמפורט להלן, הינה בכפוף לגבולות האחריות המצוינים ביחס לאותו כיסוי, אם צוינו, ובכפוף להגדרת סכום הביטוח/ גבול האחריות במבוא לפוליסה זו."
 }

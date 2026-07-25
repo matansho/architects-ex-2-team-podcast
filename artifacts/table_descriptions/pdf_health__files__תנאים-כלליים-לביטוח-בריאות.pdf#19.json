@@ -2,24 +2,25 @@
   "id": "pdf:health/files/תנאים-כלליים-לביטוח-בריאות.pdf#19",
   "source": "llm",
   "description": {
-    "title": "השתתפות עצמית",
-    "summary": "This table details self-participation (deductible) amounts in health insurance. It outlines how the insured's share of costs is calculated and applied to covered medical expenses.",
-    "embed_passage": "השתתפות עצמית מובהרת בדף פרטי הביטוח, עד לתקרה הקבועה בפוליסה. חבות החברה לתשלום תהיה בניכוי ההשתתפות העצמית של המבוטח. לדוגמה, עבור אביזר המושתל בגופו של המבוטח במהלך ניתוח מכוסה, לא תכלול הפוליסה תותבת שיניים.",
-    "row_axis": "Specific conditions or items related to self-participation",
-    "column_axis": "Details regarding the self-participation amount or explanation",
+    "title": "השתתפות עצמית ושתלים",
+    "summary": "This table details self-participation and exclusions related to implants covered under the health insurance policy. It specifies conditions for coverage and limitations regarding self-pay amounts and implant types.",
+    "embed_passage": "טבלה זו מתארת את ההשתתפות העצמית של המבוטח ואת הכיסוי עבור שתלים במסגרת ביטוח הבריאות. ניתן למצוא מידע על תקרות השתתפות עצמית וסוגי שתלים שאינם כלולים בכיסוי. השתתפות עצמית קיימת עד לתקרה הקבועה בפוליסה, והיא מנוכה מהוצאות המבוטח.  הטבלה מתייחסת לאביזרים, איברים טבעיים, איברים מלאכותיים, מפרקים מלאכותיים או טבעיים המושתלים בגוף המבוטח, למעט תותבות שיניים ושתלים דנטליים.",
+    "row_axis": "conditions/exclusions related to self-participation and implants",
+    "column_axis": "details/explanations of the conditions/exclusions",
     "units": [],
     "notable_values": [
-      "השתתפות עצמית: מובהר",
-      "תקרה: קבועה בפוליסה",
-      "תותבת שיניים: לא מכוסה",
-      "שתל דנטל: לא מכוסה"
+      "השתתפות עצמית: עד לתקרה הקבועה בפוליסה",
+      "תותבת שיניים: לא כלולה",
+      "שתל דנטל: לא כלול",
+      "איבר מלאכותי: כלול (למעט שתלים דנטליים)",
+      "מפרק מלאכותי: כלול",
+      "איבר טבעי: כלול"
     ],
     "product_hints": [
-      "ביטוח בריאות",
-      "פוליסת בריאות בסיסי"
+      "ביטוח בריאות"
     ]
   },
   "sketch": ": השתתפות עצמית 1.27\nמובהר . בדף פרטי הביטוח ח, עד לתקרה הקבועה בפוליסה או חלקו של המבוטח בהוצאה בגין מקרה ביטו ל-פי  כל  נספח, תהיה  בניכוי    ההשתתפות העצמית  של בזאת כי חבות החברה לתשלום  כלשהו  ע . המבוטח ורק לגבי הוצאות המבוטח שמעבר להשתתפות זו\n: שת   ל\n1.28\nכל אביזר, איבר טבעי או חלק מאיבר טבעי, או איבר מלאכותי, מפרק מלאכותי או טבעי המושתלים או למעט תותבת שיניים ושתל , המורכבים בגופו של המבוטח במהלך  ניתוח המכוסה במסגרת הביטוח . דנטל  י",
-  "embed_text": "השתתפות עצמית מובהרת בדף פרטי הביטוח, עד לתקרה הקבועה בפוליסה. חבות החברה לתשלום תהיה בניכוי ההשתתפות העצמית של המבוטח. לדוגמה, עבור אביזר המושתל בגופו של המבוטח במהלך ניתוח מכוסה, לא תכלול הפוליסה תותבת שיניים.",
-  "payload": "טבלה: השתתפות עצמית\nThis table details self-participation (deductible) amounts in health insurance. It outlines how the insured's share of costs is calculated and applied to covered medical expenses.\nממדים: Specific conditions or items related to self-participation, Details regarding the self-participation amount or explanation\n\n: השתתפות עצמית 1.27\nמובהר . בדף פרטי הביטוח ח, עד לתקרה הקבועה בפוליסה או חלקו של המבוטח בהוצאה בגין מקרה ביטו ל-פי  כל  נספח, תהיה  בניכוי    ההשתתפות העצמית  של בזאת כי חבות החברה לתשלום  כלשהו  ע . המבוטח ורק לגבי הוצאות המבוטח שמעבר להשתתפות זו\n: שת   ל\n1.28\nכל אביזר, איבר טבעי או חלק מאיבר טבעי, או איבר מלאכותי, מפרק מלאכותי או טבעי המושתלים או למעט תותבת שיניים ושתל , המורכבים בגופו של המבוטח במהלך  ניתוח המכוסה במסגרת הביטוח . דנטל  י"
+  "embed_text": "טבלה זו מתארת את ההשתתפות העצמית של המבוטח ואת הכיסוי עבור שתלים במסגרת ביטוח הבריאות. ניתן למצוא מידע על תקרות השתתפות עצמית וסוגי שתלים שאינם כלולים בכיסוי. השתתפות עצמית קיימת עד לתקרה הקבועה בפוליסה, והיא מנוכה מהוצאות המבוטח.  הטבלה מתייחסת לאביזרים, איברים טבעיים, איברים מלאכותיים, מפרקים מלאכותיים או טבעיים המושתלים בגוף המבוטח, למעט תותבות שיניים ושתלים דנטליים. This table details self-participation and exclusions related to implants covered under the health insurance policy. It specifies conditions for coverage and limitations regarding self-pay amounts and implant types. בין הערכים בטבלה: תותבת שיניים: לא כלולה; שתל דנטל: לא כלול; איבר מלאכותי: כלול (למעט שתלים דנטליים).",
+  "payload": "טבלה: השתתפות עצמית ושתלים\nThis table details self-participation and exclusions related to implants covered under the health insurance policy. It specifies conditions for coverage and limitations regarding self-pay amounts and implant types.\nממדים: conditions/exclusions related to self-participation and implants, details/explanations of the conditions/exclusions\n\n: השתתפות עצמית 1.27\nמובהר . בדף פרטי הביטוח ח, עד לתקרה הקבועה בפוליסה או חלקו של המבוטח בהוצאה בגין מקרה ביטו ל-פי  כל  נספח, תהיה  בניכוי    ההשתתפות העצמית  של בזאת כי חבות החברה לתשלום  כלשהו  ע . המבוטח ורק לגבי הוצאות המבוטח שמעבר להשתתפות זו\n: שת   ל\n1.28\nכל אביזר, איבר טבעי או חלק מאיבר טבעי, או איבר מלאכותי, מפרק מלאכותי או טבעי המושתלים או למעט תותבת שיניים ושתל , המורכבים בגופו של המבוטח במהלך  ניתוח המכוסה במסגרת הביטוח . דנטל  י"
 }

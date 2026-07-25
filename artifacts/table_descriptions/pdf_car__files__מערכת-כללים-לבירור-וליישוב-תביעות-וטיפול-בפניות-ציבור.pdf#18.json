@@ -2,23 +2,23 @@
   "id": "pdf:car/files/מערכת-כללים-לבירור-וליישוב-תביעות-וטיפול-בפניות-ציבור.pdf#18",
   "source": "llm",
   "description": {
-    "title": "כללי תשלום תביעה",
-    "summary": "This table outlines the rules for notifying claimants about partial or full claim payments. It details the information that must be included in written notices regarding approved payments and reasons for denial.",
-    "embed_passage": "הראל תציע לתובע הצעת פשרה סבירה למועד ההצעה. בכל מקרה בו הסכימו הצדדים על תשלום במסגרת הסדר פשרה, תהיה הראל פטורה ממתן הודעה לפי סעיף זה החל מאותו מועד. הצעת הפשרה הכתובה תכלול את מקרה הביטוח, הנימוקים שביסוד הפשרה, מרכיבי התשלום שאינם שנויים במחלוקת ככל שישנם.",
-    "row_axis": "Scenario regarding claim payment decision",
-    "column_axis": "Notification requirements",
+    "title": "כללים לבירור תביעות",
+    "summary": "This table outlines the rules for claim investigation and settlement, specifically regarding partial payments and reasons for denial. It details the information that must be provided to the claimant in case of a partial approval or denial of a claim.",
+    "embed_passage": "טבלה זו מתארת את הכללים לבירור תביעות ויישובן, בדגש על תשלומים חלקיים וסיבות לדחייה. הראל תמסור לתובע הודעה בכתב הכוללת פירוט מרכיבי התשלום שאושרו ונימוקים לדחיית חלק מהתביעה. במקרה של תשלום מלא, לא נדרש משלוח מסמכים מסוימים, למעט העתק של מערכת כללים זו. הראל תציע הצעת פשרה סבירה, שתכלול את מקרה הביטוח, נימוקי הפשרה, ומרכיבי התשלום הלא שנויים במחלוקת. הצעת הפשרה תפרט גם את הסכום שנקבע בפשרה, הסכום לתשלום, ואת הפער ביניהם, אם קיים.  הטבלה רלוונטית לתביעות המטופלות על ידי הראל.",
+    "row_axis": "סוג החלטה / שלב בתהליך",
+    "column_axis": "פרטי ההודעה / תנאי ההצעה",
     "units": [],
     "notable_values": [
-      "סעיף ד': Documentation requirements (except for these rules)",
-      "1: Reasonable settlement offer",
-      "2: Written settlement offer with reasonable review time",
-      "3: Settlement offer details (case, reasons, undisputed amounts)"
+      "תשלום חלקי: הודעה בכתב",
+      "דחיית חלק מהתביעה: נימוקים מפורטים",
+      "תשלום מלא: פטור משליחת מסמכים (למעט מערכת כללים זו)",
+      "הצעת פשרה: זמן סביר לעיון בתנאים"
     ],
     "product_hints": [
       "הראל"
     ]
   },
   "sketch": ".  אם נתקבלה החלטה על תשלום חלקי של התביעה תוך דחיית חלק מהתביעה לגבי סכומים שנדרשו או חלק מהעילות שנדרשו - תימסר 2\nלתובע במועד התשלום הודעה בכתב הכוללת שני חלקים כמפורט להלן: שיפרט את מרכיביו של התשלום שאושר בהתאם למפורט לעיל; החלק הראשון,\n, שיפרט את הנימוקים לדחיית חלק מהתביעה, כמפורט בהמשך. החלק השני\nבכל מקרה בו נתקבלה החלטה על תשלום התביעה, לא יהיה צורך במשלוח המסמכים המפורטים בסעיף ד' לעיל, למעט העתק מערכת כללים זו.",
-  "embed_text": "הראל תציע לתובע הצעת פשרה סבירה למועד ההצעה. בכל מקרה בו הסכימו הצדדים על תשלום במסגרת הסדר פשרה, תהיה הראל פטורה ממתן הודעה לפי סעיף זה החל מאותו מועד. הצעת הפשרה הכתובה תכלול את מקרה הביטוח, הנימוקים שביסוד הפשרה, מרכיבי התשלום שאינם שנויים במחלוקת ככל שישנם.",
-  "payload": "טבלה: כללי תשלום תביעה\nThis table outlines the rules for notifying claimants about partial or full claim payments. It details the information that must be included in written notices regarding approved payments and reasons for denial.\nממדים: Scenario regarding claim payment decision, Notification requirements\n\n.  אם נתקבלה החלטה על תשלום חלקי של התביעה תוך דחיית חלק מהתביעה לגבי סכומים שנדרשו או חלק מהעילות שנדרשו - תימסר 2\nלתובע במועד התשלום הודעה בכתב הכוללת שני חלקים כמפורט להלן: שיפרט את מרכיביו של התשלום שאושר בהתאם למפורט לעיל; החלק הראשון,\n, שיפרט את הנימוקים לדחיית חלק מהתביעה, כמפורט בהמשך. החלק השני\nבכל מקרה בו נתקבלה החלטה על תשלום התביעה, לא יהיה צורך במשלוח המסמכים המפורטים בסעיף ד' לעיל, למעט העתק מערכת כללים זו."
+  "embed_text": "טבלה זו מתארת את הכללים לבירור תביעות ויישובן, בדגש על תשלומים חלקיים וסיבות לדחייה. הראל תמסור לתובע הודעה בכתב הכוללת פירוט מרכיבי התשלום שאושרו ונימוקים לדחיית חלק מהתביעה. במקרה של תשלום מלא, לא נדרש משלוח מסמכים מסוימים, למעט העתק של מערכת כללים זו. הראל תציע הצעת פשרה סבירה, שתכלול את מקרה הביטוח, נימוקי הפשרה, ומרכיבי התשלום הלא שנויים במחלוקת. הצעת הפשרה תפרט גם את הסכום שנקבע בפשרה, הסכום לתשלום, ואת הפער ביניהם, אם קיים.  הטבלה רלוונטית לתביעות המטופלות על ידי הראל. This table outlines the rules for claim investigation and settlement, specifically regarding partial payments and reasons for denial. It details the information that must be provided to the claimant in case of a partial approval or denial of a claim.",
+  "payload": "טבלה: כללים לבירור תביעות\nThis table outlines the rules for claim investigation and settlement, specifically regarding partial payments and reasons for denial. It details the information that must be provided to the claimant in case of a partial approval or denial of a claim.\nממדים: סוג החלטה / שלב בתהליך, פרטי ההודעה / תנאי ההצעה\n\n.  אם נתקבלה החלטה על תשלום חלקי של התביעה תוך דחיית חלק מהתביעה לגבי סכומים שנדרשו או חלק מהעילות שנדרשו - תימסר 2\nלתובע במועד התשלום הודעה בכתב הכוללת שני חלקים כמפורט להלן: שיפרט את מרכיביו של התשלום שאושר בהתאם למפורט לעיל; החלק הראשון,\n, שיפרט את הנימוקים לדחיית חלק מהתביעה, כמפורט בהמשך. החלק השני\nבכל מקרה בו נתקבלה החלטה על תשלום התביעה, לא יהיה צורך במשלוח המסמכים המפורטים בסעיף ד' לעיל, למעט העתק מערכת כללים זו."
 }

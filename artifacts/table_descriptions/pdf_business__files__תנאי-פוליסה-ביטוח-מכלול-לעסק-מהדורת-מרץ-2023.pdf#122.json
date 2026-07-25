@@ -2,23 +2,24 @@
   "id": "pdf:business/files/תנאי-פוליסה-ביטוח-מכלול-לעסק-מהדורת-מרץ-2023.pdf#122",
   "source": "llm",
   "description": {
-    "title": "מכלול - אבדן רווח",
-    "summary": "This table defines terms related to business interruption insurance (אבדן רווח) under the 'מכלול' policy. It details how losses are calculated, considering factors like lost revenue and increased operating expenses.",
-    "embed_passage": "פוליסת 'מכלול' לעסק מכסה הפסקה חלקית או מוחלטת של מכירת מוצרים או מתן שירותים. החישוב מתייחס לתקופת השיפוי, אשר יכולה להיות עד 12 חודשים, ולמחזור העסקי של המבוטח. לדוגמה, המחזור השנתי מחושב על סמך 12 החודשים שקדמו למועד קרות הנזק.",
-    "row_axis": "definitions of loss calculation components",
-    "column_axis": "aspects of business interruption loss",
+    "title": "הגדרת מקרה ביטוח - אבדן רווח",
+    "summary": "This table defines cases of insurance for loss of profit and increased operating expenses. It details how losses are calculated based on business interruption and related costs.",
+    "embed_passage": "טבלה זו מגדירה מקרי ביטוח הנוגעים לאבדן רווח גולמי והוצאות תפעול מוגדלות במסגרת פוליסת ביטוח מכלול לעסק. החישוב מתבסס על הפסקה או הפרעה בתפעול העסק, הוצאות נוספות סבירות, ותקופת השיפוי. ניתן לעיין בנתונים כגון הפסקה חלקית או מוחלטת של מכירת מוצרים, הוצאות תפעול מוגדלות, תקופת השיפוי, מחזור, ומחזור שנתי. הטבלה כוללת הגדרות כגון הפסקה חלקית או מוחלטת של מכירת מוצרים, הוצאות נוספות סבירות, תקופת השיפוי, מחזור, ומחזור שנתי.",
+    "row_axis": "סוג ההגדרה / מרכיב החישוב",
+    "column_axis": "תיאור ההגדרה",
     "units": [],
     "notable_values": [
-      "period: 12 חודשים",
-      "מחזור שנתי: 12 חודשים",
-      "תקופת השיפוי: עד 12 חודשים"
+      "הפסקה חלקית או מוחלטת של מכירת מוצרים: תיאור",
+      "הוצאות נוספות סבירות: תיאור",
+      "תקופת השיפוי: תיאור",
+      "מחזור: תיאור",
+      "מחזור שנתי: תיאור"
     ],
     "product_hints": [
-      "מכלול",
-      "ביטוח מכלול"
+      "מכלול לעסק"
     ]
   },
   "sketch": "הפסקה חלקית או מוחלטת של מכירת מוצרים הפסקה או הפרעה בתפעול: .4.2.3 או מתן השירותים, הכל לפי העניין, בין במקום המבוטח ובין במקומות אחרים.\nהוצאות נוספות סבירות אשר הוצאו למטרת הוצאות תפעול מוגדלות: .4.2.4 אך לא מעבר לסכום שאותן ההוצאות , מניעה או הקטנה של הפסד הכנסה , הנוספות בתוספת ההפסד תעלינה מעל הפסד ההכנסה שהיה נגרם אלמלא הוצאו הוצאות אלו.",
-  "embed_text": "פוליסת 'מכלול' לעסק מכסה הפסקה חלקית או מוחלטת של מכירת מוצרים או מתן שירותים. החישוב מתייחס לתקופת השיפוי, אשר יכולה להיות עד 12 חודשים, ולמחזור העסקי של המבוטח. לדוגמה, המחזור השנתי מחושב על סמך 12 החודשים שקדמו למועד קרות הנזק.",
-  "payload": "טבלה: מכלול - אבדן רווח\nThis table defines terms related to business interruption insurance (אבדן רווח) under the 'מכלול' policy. It details how losses are calculated, considering factors like lost revenue and increased operating expenses.\nממדים: definitions of loss calculation components, aspects of business interruption loss\n\nהפסקה חלקית או מוחלטת של מכירת מוצרים הפסקה או הפרעה בתפעול: .4.2.3 או מתן השירותים, הכל לפי העניין, בין במקום המבוטח ובין במקומות אחרים.\nהוצאות נוספות סבירות אשר הוצאו למטרת הוצאות תפעול מוגדלות: .4.2.4 אך לא מעבר לסכום שאותן ההוצאות , מניעה או הקטנה של הפסד הכנסה , הנוספות בתוספת ההפסד תעלינה מעל הפסד ההכנסה שהיה נגרם אלמלא הוצאו הוצאות אלו."
+  "embed_text": "טבלה זו מגדירה מקרי ביטוח הנוגעים לאבדן רווח גולמי והוצאות תפעול מוגדלות במסגרת פוליסת ביטוח מכלול לעסק. החישוב מתבסס על הפסקה או הפרעה בתפעול העסק, הוצאות נוספות סבירות, ותקופת השיפוי. ניתן לעיין בנתונים כגון הפסקה חלקית או מוחלטת של מכירת מוצרים, הוצאות תפעול מוגדלות, תקופת השיפוי, מחזור, ומחזור שנתי. הטבלה כוללת הגדרות כגון הפסקה חלקית או מוחלטת של מכירת מוצרים, הוצאות נוספות סבירות, תקופת השיפוי, מחזור, ומחזור שנתי. This table defines cases of insurance for loss of profit and increased operating expenses. It details how losses are calculated based on business interruption and related costs.",
+  "payload": "טבלה: הגדרת מקרה ביטוח - אבדן רווח\nThis table defines cases of insurance for loss of profit and increased operating expenses. It details how losses are calculated based on business interruption and related costs.\nממדים: סוג ההגדרה / מרכיב החישוב, תיאור ההגדרה\n\nהפסקה חלקית או מוחלטת של מכירת מוצרים הפסקה או הפרעה בתפעול: .4.2.3 או מתן השירותים, הכל לפי העניין, בין במקום המבוטח ובין במקומות אחרים.\nהוצאות נוספות סבירות אשר הוצאו למטרת הוצאות תפעול מוגדלות: .4.2.4 אך לא מעבר לסכום שאותן ההוצאות , מניעה או הקטנה של הפסד הכנסה , הנוספות בתוספת ההפסד תעלינה מעל הפסד ההכנסה שהיה נגרם אלמלא הוצאו הוצאות אלו."
 }

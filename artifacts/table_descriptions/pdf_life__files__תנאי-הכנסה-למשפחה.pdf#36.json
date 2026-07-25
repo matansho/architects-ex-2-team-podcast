@@ -3,21 +3,20 @@
   "source": "llm",
   "description": {
     "title": "תנאי הכנסה למשפחה",
-    "summary": "This table outlines the terms regarding premium payments for a life insurance policy. It details late payment interest and policy cancellation conditions.",
-    "embed_passage": "פוליסת הכנסה למשפחה קובעת ריבית על פיגורים בתשלום הפרמיה, החל מ-30 יום לאחר מועד התשלום. החברה רשאית לבטל את הפוליסה אם הפרמיה לא שולמה במועדה, בהתאם לחוק חוזה הביטוח. יובהר כי לא ייגבו פרמיות עבור תקופה שמאוחרת למועד ביטול הפוליסה.",
-    "row_axis": "Scenarios related to premium payment (late payment, non-payment)",
-    "column_axis": "Conditions and consequences of premium payment issues (interest, policy cancellation)",
+    "summary": "This table outlines the conditions related to premium payments for a family insurance policy. It details the consequences of late or non-payment, including interest accrual and potential policy cancellation.",
+    "embed_passage": "טבלה זו מתארת את תנאי תשלום הפרמיות עבור פוליסת ביטוח למשפחה. ניתן למצוא כאן מידע על ריבית פיגורים במקרה של אי תשלום בזמן, וכן על אפשרות ביטול הפוליסה. החיפוש מתבצע לפי סעיפי החוק הרלוונטיים, כגון סעיף 15 לחוק חוזה הביטוח. התנאים מתייחסים לתקנות הפיקוח על עסקי ביטוח (תנאי הצמדה בחוזה לביטוח חיים) התשמ״ב 1982.  הטבלה כוללת מידע על ריבית, ביטול פוליסה, חוק חוזה הביטוח, ותקנות הפיקוח על עסקי ביטוח.",
+    "row_axis": "Conditions related to premium payment",
+    "column_axis": "Details of consequences (interest, cancellation)",
     "units": [],
     "notable_values": [
-      "30 ימים: תקופה שלאחר מועד התשלום בה מחושבת ריבית",
-      "1982: שנת התקנות לפיקוח על עסקי ביטוח",
-      "סעיף 15: סעיף בחוק חוזה הביטוח המאפשר ביטול הפוליסה"
+      "year: 1982",
+      "days for interest calculation: 30"
     ],
     "product_hints": [
-      "הכנסה למשפחה"
+      "תנאי הכנסה למשפחה"
     ]
   },
   "sketch": "6.6 לא שולמה פרמיה כלשהי במועדה, תתווסף לסכום שבפיגור - כחלק בלתי נפרד ממנו  -  ריבית בשעור שנקבע בתקנות הפיקוח על עסקי ביטוח (תנאי הצמדה בחוזה לביטוח חיים) התשמ\"ב 1982 , כשהיא מחושבת על התקופה שלאחר 30 . ימים מהיום שנקבע לתשלום ועד לתשלומה בפועל\n6.7 לא שולמה הפרמיה, כולה או חלקה במועדה, תהיה החברה רשאית לבטל את הפוליסה  בהתאם  להוראות  סעיף 15 לחוק  חוזה  הביטוח.  יובהר  כי  לא  ייגבו פרמיות, הפרשי הצמדה וריבית עבור תקופה שמאוחרת למועדים שבהם רשאית החברה לבטל את הפוליסה בהתאם לסעיף 15 לחוק חוזה הביטוח.",
-  "embed_text": "פוליסת הכנסה למשפחה קובעת ריבית על פיגורים בתשלום הפרמיה, החל מ-30 יום לאחר מועד התשלום. החברה רשאית לבטל את הפוליסה אם הפרמיה לא שולמה במועדה, בהתאם לחוק חוזה הביטוח. יובהר כי לא ייגבו פרמיות עבור תקופה שמאוחרת למועד ביטול הפוליסה.",
-  "payload": "טבלה: תנאי הכנסה למשפחה\nThis table outlines the terms regarding premium payments for a life insurance policy. It details late payment interest and policy cancellation conditions.\nממדים: Scenarios related to premium payment (late payment, non-payment), Conditions and consequences of premium payment issues (interest, policy cancellation)\n\n6.6 לא שולמה פרמיה כלשהי במועדה, תתווסף לסכום שבפיגור - כחלק בלתי נפרד ממנו  -  ריבית בשעור שנקבע בתקנות הפיקוח על עסקי ביטוח (תנאי הצמדה בחוזה לביטוח חיים) התשמ\"ב 1982 , כשהיא מחושבת על התקופה שלאחר 30 . ימים מהיום שנקבע לתשלום ועד לתשלומה בפועל\n6.7 לא שולמה הפרמיה, כולה או חלקה במועדה, תהיה החברה רשאית לבטל את הפוליסה  בהתאם  להוראות  סעיף 15 לחוק  חוזה  הביטוח.  יובהר  כי  לא  ייגבו פרמיות, הפרשי הצמדה וריבית עבור תקופה שמאוחרת למועדים שבהם רשאית החברה לבטל את הפוליסה בהתאם לסעיף 15 לחוק חוזה הביטוח."
+  "embed_text": "טבלה זו מתארת את תנאי תשלום הפרמיות עבור פוליסת ביטוח למשפחה. ניתן למצוא כאן מידע על ריבית פיגורים במקרה של אי תשלום בזמן, וכן על אפשרות ביטול הפוליסה. החיפוש מתבצע לפי סעיפי החוק הרלוונטיים, כגון סעיף 15 לחוק חוזה הביטוח. התנאים מתייחסים לתקנות הפיקוח על עסקי ביטוח (תנאי הצמדה בחוזה לביטוח חיים) התשמ״ב 1982.  הטבלה כוללת מידע על ריבית, ביטול פוליסה, חוק חוזה הביטוח, ותקנות הפיקוח על עסקי ביטוח. This table outlines the conditions related to premium payments for a family insurance policy. It details the consequences of late or non-payment, including interest accrual and potential policy cancellation. בין הערכים בטבלה: days for interest calculation: 30.",
+  "payload": "טבלה: תנאי הכנסה למשפחה\nThis table outlines the conditions related to premium payments for a family insurance policy. It details the consequences of late or non-payment, including interest accrual and potential policy cancellation.\nממדים: Conditions related to premium payment, Details of consequences (interest, cancellation)\n\n6.6 לא שולמה פרמיה כלשהי במועדה, תתווסף לסכום שבפיגור - כחלק בלתי נפרד ממנו  -  ריבית בשעור שנקבע בתקנות הפיקוח על עסקי ביטוח (תנאי הצמדה בחוזה לביטוח חיים) התשמ\"ב 1982 , כשהיא מחושבת על התקופה שלאחר 30 . ימים מהיום שנקבע לתשלום ועד לתשלומה בפועל\n6.7 לא שולמה הפרמיה, כולה או חלקה במועדה, תהיה החברה רשאית לבטל את הפוליסה  בהתאם  להוראות  סעיף 15 לחוק  חוזה  הביטוח.  יובהר  כי  לא  ייגבו פרמיות, הפרשי הצמדה וריבית עבור תקופה שמאוחרת למועדים שבהם רשאית החברה לבטל את הפוליסה בהתאם לסעיף 15 לחוק חוזה הביטוח."
 }

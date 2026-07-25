@@ -2,25 +2,27 @@
   "id": "pdf:apartment/files/טופס-הצעה-אדירה-כסף-מהדורת-פברואר-2025.pdf#8",
   "source": "llm",
   "description": {
-    "title": "הצעת ביטוח דירה",
-    "summary": "This table captures details about an apartment for insurance purposes. It's used to assess risk and determine coverage options, looking up details like construction, security features, and existing surveys.",
-    "embed_passage": "טופס זה משמש להצעת ביטוח לדירה, תוך התייחסות למאפיינים כמו סוג הדלת הראשית, קיום כספת, ומבנה הדירה. לדוגמה, השטח המבוקש יכול להיות 0 מ\"ר, והדירה יכולה להיות בקומה 0 בבניין. המידע נאסף כדי להעריך את הסיכון ולספק הצעת מחיר מתאימה.",
-    "row_axis": "Apartment/Property",
-    "column_axis": "Property Features & Security",
+    "title": "מיגונים",
+    "summary": "This table details the security features of an apartment, including door types, locks, window protection, and the presence of a safe. It is used to assess the apartment’s security level for insurance purposes.",
+    "embed_passage": "טופס זה מתאר את המיגונים הקיימים בדירה, כגון סוג דלת הכניסה הראשית, דלתות נוספות, מיגון המחסן, וקיום כספת. המידע נאסף לצורך הערכת רמת האבטחה של הנכס במסגרת הצעת ביטוח. נתוני המיגון כוללים פרטים על דלתות, מנעולים, חלונות, וגג. לדוגמה, סוג הדלת הראשית, סוגי המנעולים, ופרטי מיגון המחסן. האם קיימת כספת בדירה, ומהו סוג הגג.",
+    "row_axis": "Security Feature (e.g., entrance door, storage room)",
+    "column_axis": "Details (e.g., type, locks, safe)",
     "units": [],
     "notable_values": [
-      "קומה: 0",
-      "שטח הדירה: 0 מ\"ר",
-      "סוג הדלת: עץ/פלדלת",
-      "קיום כספת: כן/לא",
-      "מספר קומות בבניין: 0"
+      "דלת הכניסה הראשית: עץ, פלדלת",
+      "מנעולים: מספרם",
+      "מחסן: דלתות (מנעולים)",
+      "מחסן: חלונות",
+      "הגג עשוי מ: לא",
+      "כספת בדירה: כן, נא לפרט",
+      "כספת בדירה: לא"
     ],
     "product_hints": [
       "ביטוח דירה",
       "הראל"
     ]
   },
-  "sketch": "מיגונים ו\n:(\nדלת הכניסה הראשית לדירה )נא לציין סוג הדלת, כגון: עץ, פלדלת; סוגי המנעולים ומספרם\n:\n…\n:(\nכן, נא לפרט )סוג, משקל, חיבור, עיגון\nלא\n? האם קיימת כספת בדירה",
-  "embed_text": "טופס זה משמש להצעת ביטוח לדירה, תוך התייחסות למאפיינים כמו סוג הדלת הראשית, קיום כספת, ומבנה הדירה. לדוגמה, השטח המבוקש יכול להיות 0 מ\"ר, והדירה יכולה להיות בקומה 0 בבניין. המידע נאסף כדי להעריך את הסיכון ולספק הצעת מחיר מתאימה.",
-  "payload": "טבלה: הצעת ביטוח דירה\nThis table captures details about an apartment for insurance purposes. It's used to assess risk and determine coverage options, looking up details like construction, security features, and existing surveys.\nממדים: Apartment/Property, Property Features & Security\n\nמיגונים ו\n:(\nדלת הכניסה הראשית לדירה )נא לציין סוג הדלת, כגון: עץ, פלדלת; סוגי המנעולים ומספרם\n:\nדלתות כניסה אחרות לדירה\n:\nחלונות:                                                                              פתחים אחרים כולל פתחי מזגנים\n:\nכן, נא לפרט\nלא\n? האם קיימת מערכת אזעקה\nקווי אלחוטי\nאלחוטי\nקווי\n:\nכן                        חיבור\nלא\n? כן         האם מחובר לחייגן טלפון\nלא\n? האם קיים חיבור למוקד\n:\nכן, נא לפרט\nלא\n? שעות ביממה בלובי הבנין 24 שמירה מאויישת\n:\nפירוט המיגון למחסן: דלתות )מנעולים(:                                            חלונות:                                            הגג עשוי מ\n:(\nכן, נא לפרט )סוג, משקל, חיבור, עיגון\nלא\n? האם קיימת כספת בדירה"
+  "sketch": "מיגונים ו\n:(\nדלת הכניסה הראשית לדירה )נא לציין סוג הדלת, כגון: עץ, פלדלת; סוגי המנעולים ומספרם\n:\nדלתות כניסה אחרות לדירה\n:\n…\n:\nפירוט המיגון למחסן: דלתות )מנעולים(:                                            חלונות:                                            הגג עשוי מ\n:(\nכן, נא לפרט )סוג, משקל, חיבור, עיגון\nלא\n? האם קיימת כספת בדירה",
+  "embed_text": "טופס זה מתאר את המיגונים הקיימים בדירה, כגון סוג דלת הכניסה הראשית, דלתות נוספות, מיגון המחסן, וקיום כספת. המידע נאסף לצורך הערכת רמת האבטחה של הנכס במסגרת הצעת ביטוח. נתוני המיגון כוללים פרטים על דלתות, מנעולים, חלונות, וגג. לדוגמה, סוג הדלת הראשית, סוגי המנעולים, ופרטי מיגון המחסן. האם קיימת כספת בדירה, ומהו סוג הגג. This table details the security features of an apartment, including door types, locks, window protection, and the presence of a safe. It is used to assess the apartment’s security level for insurance purposes. בין הערכים בטבלה: הגג עשוי מ: לא.",
+  "payload": "טבלה: מיגונים\nThis table details the security features of an apartment, including door types, locks, window protection, and the presence of a safe. It is used to assess the apartment’s security level for insurance purposes.\nממדים: Security Feature (e.g., entrance door, storage room), Details (e.g., type, locks, safe)\n\nמיגונים ו\n:(\nדלת הכניסה הראשית לדירה )נא לציין סוג הדלת, כגון: עץ, פלדלת; סוגי המנעולים ומספרם\n:\nדלתות כניסה אחרות לדירה\n:\nחלונות:                                                                              פתחים אחרים כולל פתחי מזגנים\n:\nכן, נא לפרט\nלא\n? האם קיימת מערכת אזעקה\nקווי אלחוטי\nאלחוטי\nקווי\n:\nכן                        חיבור\nלא\n? כן         האם מחובר לחייגן טלפון\nלא\n? האם קיים חיבור למוקד\n:\nכן, נא לפרט\nלא\n? שעות ביממה בלובי הבנין 24 שמירה מאויישת\n:\nפירוט המיגון למחסן: דלתות )מנעולים(:                                            חלונות:                                            הגג עשוי מ\n:(\nכן, נא לפרט )סוג, משקל, חיבור, עיגון\nלא\n? האם קיימת כספת בדירה"
 }

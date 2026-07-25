@@ -2,25 +2,28 @@
   "id": "pdf:car/files/פוליסת-ביטוח-רכב-הראל-סוויץ-מהדורת-דצמבר-2021.pdf#217",
   "source": "llm",
   "description": {
-    "title": "רכב חלופי - הראל סוויץ׳",
-    "summary": "This table details the conditions for providing a replacement vehicle (רכב חלופי) under a Harel Switch car insurance policy. It specifies the number of days of coverage based on repair time, accident severity, or theft, with limits and exclusions.",
-    "embed_passage": "פוליסת הראל סוויץ׳ לרכב מספקת שירות רכב חלופי במקרה של תאונה או גניבה. מספר ימי השירות נקבע על סמך דו״ח שמאי, לדוגמה 4 ימים עבור תיקון, או 7 ימים במקרה של נזק מוחלט. התעריפים מבוססים על מחיר יום עבודה במוסך, בהתאם לאיגוד המוסכים.",
-    "row_axis": "Scenario for replacement vehicle provision (accident, theft)",
-    "column_axis": "Conditions and duration of replacement vehicle coverage",
+    "title": "רכב חלופי",
+    "summary": "This table details the conditions for providing a replacement vehicle (רכב חלופי) under the Harel Switch car insurance policy. It specifies how the number of days of coverage is determined based on repair estimates and claim types.",
+    "embed_passage": "טבלה זו מתארת את תנאי מתן רכב חלופי במסגרת פוליסת ביטוח רכב הראל סוויץ׳. מספר הימים לקבלת רכב חלופי נקבע על סמך דו״ח שמאי, עלות תיקון הרכב, ותעריפי איגוד המוסכים. הפוליסה מאפשרת קבלת רכב חלופי במקרה של תאונה או גניבה, בהתאם לתנאים המפורטים. במקרה של תאונה, מספר הימים מחושב על סמך שעות עבודה במוסך. במקרה של נזק מוחלט, הרכב החלופי יינתן לשבעה ימים. במקרה של גניבה, הרכב החלופי יינתן החל מהיום השמיני לאחר ההודעה למשטרה ולחברת הביטוח. הראל סוויץ׳ היא פוליסת ביטוח רכב המציעה שירות רכב חלופי.",
+    "row_axis": "scenario (accident, theft)",
+    "column_axis": "conditions for replacement vehicle duration",
     "units": [],
     "notable_values": [
-      "4 שעות: 8 - זמן עבודה בסיסי לחישוב ימי רכב חלופי",
-      "5 ימים: משך רכב חלופי אפשרי לפי דו״ח שמאי",
-      "7 ימים: משך רכב חלופי במקרה של נזק מוחלט",
-      "8 ימים: מינימום ימים לאחר הודעה על גניבה לפני קבלת רכב חלופי",
-      "30 יום: תקרה מקסימלית למתן רכב חלופי במקרה של גניבה"
+      "repair time calculation: cost of repair / hourly rate",
+      "maximum duration: 7 days",
+      "accident duration: based on appraiser report",
+      "theft duration: from 8 days after police report",
+      "appraiser report: basis for day calculation",
+      "total loss: 7 days",
+      "competitive sports: no replacement vehicle",
+      "workshop labor rate: based on garage association rates"
     ],
     "product_hints": [
       "הראל סוויץ'",
-      "רכב חלופי"
+      "Harel Switch"
     ]
   },
   "sketch": "קביעת מספר הימים תעשה על סמך דו\"ח השמאי שיוגש כמפורט להלן: עלות ( 4 שעות 8) עבודת תיקון הרכב המבוטח )ללא חלפים(, מחולקת במחיר יום עבודה במוסך(, בהתאם לתעריפי איגוד המוסכים לשעת עבודה, התקפים בזמן התיקון.\nלעיל, בו קבע 4 הרכב החלופי יינתן בהתאם לדו\"ח השמאי כמפורט בסעיף ( 5 ימים )אלא אם צוין 3 את מספר הימים הדרוש לתיקון כלי הרכב הניזוק, ובניכוי אחרת במפרט הביטוח(. אולם בכל מקרה לא יינתן הרכב לתקופה העולה על ימים )אלא אם צוין אחרת במפרט הפוליסה( ובכפוף לאי קבלת רכב חלופי 7 מגורם אחר בגין אותו מקרה.",
-  "embed_text": "פוליסת הראל סוויץ׳ לרכב מספקת שירות רכב חלופי במקרה של תאונה או גניבה. מספר ימי השירות נקבע על סמך דו״ח שמאי, לדוגמה 4 ימים עבור תיקון, או 7 ימים במקרה של נזק מוחלט. התעריפים מבוססים על מחיר יום עבודה במוסך, בהתאם לאיגוד המוסכים.",
-  "payload": "טבלה: רכב חלופי - הראל סוויץ׳\nThis table details the conditions for providing a replacement vehicle (רכב חלופי) under a Harel Switch car insurance policy. It specifies the number of days of coverage based on repair time, accident severity, or theft, with limits and exclusions.\nממדים: Scenario for replacement vehicle provision (accident, theft), Conditions and duration of replacement vehicle coverage\n\nקביעת מספר הימים תעשה על סמך דו\"ח השמאי שיוגש כמפורט להלן: עלות ( 4 שעות 8) עבודת תיקון הרכב המבוטח )ללא חלפים(, מחולקת במחיר יום עבודה במוסך(, בהתאם לתעריפי איגוד המוסכים לשעת עבודה, התקפים בזמן התיקון.\nלעיל, בו קבע 4 הרכב החלופי יינתן בהתאם לדו\"ח השמאי כמפורט בסעיף ( 5 ימים )אלא אם צוין 3 את מספר הימים הדרוש לתיקון כלי הרכב הניזוק, ובניכוי אחרת במפרט הביטוח(. אולם בכל מקרה לא יינתן הרכב לתקופה העולה על ימים )אלא אם צוין אחרת במפרט הפוליסה( ובכפוף לאי קבלת רכב חלופי 7 מגורם אחר בגין אותו מקרה."
+  "embed_text": "טבלה זו מתארת את תנאי מתן רכב חלופי במסגרת פוליסת ביטוח רכב הראל סוויץ׳. מספר הימים לקבלת רכב חלופי נקבע על סמך דו״ח שמאי, עלות תיקון הרכב, ותעריפי איגוד המוסכים. הפוליסה מאפשרת קבלת רכב חלופי במקרה של תאונה או גניבה, בהתאם לתנאים המפורטים. במקרה של תאונה, מספר הימים מחושב על סמך שעות עבודה במוסך. במקרה של נזק מוחלט, הרכב החלופי יינתן לשבעה ימים. במקרה של גניבה, הרכב החלופי יינתן החל מהיום השמיני לאחר ההודעה למשטרה ולחברת הביטוח. הראל סוויץ׳ היא פוליסת ביטוח רכב המציעה שירות רכב חלופי. This table details the conditions for providing a replacement vehicle (רכב חלופי) under the Harel Switch car insurance policy. It specifies how the number of days of coverage is determined based on repair estimates and claim types. בין הערכים בטבלה: repair time calculation: cost of repair / hourly rate; max…",
+  "payload": "טבלה: רכב חלופי\nThis table details the conditions for providing a replacement vehicle (רכב חלופי) under the Harel Switch car insurance policy. It specifies how the number of days of coverage is determined based on repair estimates and claim types.\nממדים: scenario (accident, theft), conditions for replacement vehicle duration\n\nקביעת מספר הימים תעשה על סמך דו\"ח השמאי שיוגש כמפורט להלן: עלות ( 4 שעות 8) עבודת תיקון הרכב המבוטח )ללא חלפים(, מחולקת במחיר יום עבודה במוסך(, בהתאם לתעריפי איגוד המוסכים לשעת עבודה, התקפים בזמן התיקון.\nלעיל, בו קבע 4 הרכב החלופי יינתן בהתאם לדו\"ח השמאי כמפורט בסעיף ( 5 ימים )אלא אם צוין 3 את מספר הימים הדרוש לתיקון כלי הרכב הניזוק, ובניכוי אחרת במפרט הביטוח(. אולם בכל מקרה לא יינתן הרכב לתקופה העולה על ימים )אלא אם צוין אחרת במפרט הפוליסה( ובכפוף לאי קבלת רכב חלופי 7 מגורם אחר בגין אותו מקרה."
 }

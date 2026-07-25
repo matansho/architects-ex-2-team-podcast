@@ -2,24 +2,22 @@
   "id": "pdf:business/files/פוליסה-משולבת-לביטוח-אש-מורחב-ואובדן-תוצאתי-הראל-ביט-ינואר-2023.pdf#50",
   "source": "llm",
   "description": {
-    "title": "הראל - אובדן תוצאתי",
-    "summary": "This table details covered expenses related to business interruption insurance from Harel. It outlines costs for restoring documents/data and other related expenses following an insured event.",
-    "embed_passage": "פוליסת ביטוח אש מורחב ואובדן תוצאתי של הראל מכסה הוצאות שחזור מסמכים ומידע שניזוקו עקב סיכון מבוטח. הכיסוי מוגבל עד לסך של ₪ 350,000, בהתאם לתנאי הפוליסה. הפוליסה מסייעת לעסקים לשקם את פעילותם לאחר נזק.",
-    "row_axis": "types of covered expenses",
-    "column_axis": "expense details, coverage limits",
+    "title": "הוצאות שחזור מסמכים / מידע",
+    "summary": "This table details coverage for expenses related to restoring documents and information damaged by a covered risk. It specifies limits on the insurer's liability as a percentage of the insurance payout or a fixed sum.",
+    "embed_passage": "טבלה זו מתארת כיסוי להוצאות הקשורות לשחזור מסמכים ומידע שניזוקו כתוצאה מסיכון מכוסה בפוליסת ביטוח אש מורחב והראל. ניתן לבדוק את גובה ההחזר עבור הוצאות שחזור מסמכים, כתבי יד, סרטים מגנטיים, דיסקים ואמצעי אגירת מידע אחרים. הוצאות שחזור מסמכים / מידע, נתוני ענ״א, פנקסי חשבונות, דפוסים וספרי עסק, סרטים מגנטיים, דיסקים ואמצעי אגירת מידע אחרים ניזוקו עקב סיכון מבוטח. אחריות המבטח מוגבלת עד לסך של ₪ 350,000.",
+    "row_axis": "types of restoration expenses",
+    "column_axis": "coverage details (limitations, amounts)",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "coverage limit: ₪ 350,000"
+      "סכום: 350,000 ₪"
     ],
     "product_hints": [
-      "ביטוח אש מורחב",
-      "אובדן תוצאתי",
-      "הראל"
+      "ביטוח אש מורחב הראל"
     ]
   },
   "sketch": "הוצאות שחזור מסמכים / מידע .3.11.4\nהוצאות עבור שחזור מסמכים, כתבי-יד, תכניות, שרטוטים, תרשימים, נתוני , ענ״א, סרטים מגנטיים, דיסקים, אמצעי אגירת מידע אחרים, פנקסי חשבונות דפוסים וספרי עסק, שניזוקו עקב סיכון מבוטח.\nאלא אם צוין אחרת ברשימה, אחריות המבטח על פי הרחבה זו מוגבלת .₪  350,000 עד לסך של",
-  "embed_text": "פוליסת ביטוח אש מורחב ואובדן תוצאתי של הראל מכסה הוצאות שחזור מסמכים ומידע שניזוקו עקב סיכון מבוטח. הכיסוי מוגבל עד לסך של ₪ 350,000, בהתאם לתנאי הפוליסה. הפוליסה מסייעת לעסקים לשקם את פעילותם לאחר נזק.",
-  "payload": "טבלה: הראל - אובדן תוצאתי\nThis table details covered expenses related to business interruption insurance from Harel. It outlines costs for restoring documents/data and other related expenses following an insured event.\nממדים: types of covered expenses, expense details, coverage limits\n\nהוצאות שחזור מסמכים / מידע .3.11.4\nהוצאות עבור שחזור מסמכים, כתבי-יד, תכניות, שרטוטים, תרשימים, נתוני , ענ״א, סרטים מגנטיים, דיסקים, אמצעי אגירת מידע אחרים, פנקסי חשבונות דפוסים וספרי עסק, שניזוקו עקב סיכון מבוטח.\nאלא אם צוין אחרת ברשימה, אחריות המבטח על פי הרחבה זו מוגבלת .₪  350,000 עד לסך של"
+  "embed_text": "טבלה זו מתארת כיסוי להוצאות הקשורות לשחזור מסמכים ומידע שניזוקו כתוצאה מסיכון מכוסה בפוליסת ביטוח אש מורחב והראל. ניתן לבדוק את גובה ההחזר עבור הוצאות שחזור מסמכים, כתבי יד, סרטים מגנטיים, דיסקים ואמצעי אגירת מידע אחרים. הוצאות שחזור מסמכים / מידע, נתוני ענ״א, פנקסי חשבונות, דפוסים וספרי עסק, סרטים מגנטיים, דיסקים ואמצעי אגירת מידע אחרים ניזוקו עקב סיכון מבוטח. אחריות המבטח מוגבלת עד לסך של ₪ 350,000. This table details coverage for expenses related to restoring documents and information damaged by a covered risk. It specifies limits on the insurer's liability as a percentage of the insurance payout or a fixed sum. בין הערכים בטבלה: סכום: 350,000 ₪.",
+  "payload": "טבלה: הוצאות שחזור מסמכים / מידע\nThis table details coverage for expenses related to restoring documents and information damaged by a covered risk. It specifies limits on the insurer's liability as a percentage of the insurance payout or a fixed sum.\nממדים: types of restoration expenses, coverage details (limitations, amounts)\n\nהוצאות שחזור מסמכים / מידע .3.11.4\nהוצאות עבור שחזור מסמכים, כתבי-יד, תכניות, שרטוטים, תרשימים, נתוני , ענ״א, סרטים מגנטיים, דיסקים, אמצעי אגירת מידע אחרים, פנקסי חשבונות דפוסים וספרי עסק, שניזוקו עקב סיכון מבוטח.\nאלא אם צוין אחרת ברשימה, אחריות המבטח על פי הרחבה זו מוגבלת .₪  350,000 עד לסך של"
 }

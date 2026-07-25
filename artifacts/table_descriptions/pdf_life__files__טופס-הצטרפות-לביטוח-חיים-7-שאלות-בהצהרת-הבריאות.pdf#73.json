@@ -3,22 +3,22 @@
   "source": "llm",
   "description": {
     "title": "הרשאה לחיוב חשבון",
-    "summary": "This table outlines the terms for a direct debit authorization for insurance payments. It details the conditions under which the authorization is valid and can be cancelled.",
-    "embed_passage": "הרשאה לחיוב חשבון של הראל חברה לביטוח בע״מ מאפשרת תשלום דמי ביטוח באופן קבוע. הרשאה שלא יעשה בה שימוש במשך 24 חודשים ממועד החיוב האחרון, בטלה. הבנק רשאי להוציא את הראל מן ההסדר אם תהיה לו סיבה סבירה לכך.",
-    "row_axis": "Conditions for direct debit authorization",
-    "column_axis": "Authorization terms and conditions",
+    "summary": "This table outlines the terms for a direct debit authorization. It details conditions for cancellation and bank responsibilities regarding the authorization.",
+    "embed_passage": "טבלה זו מתארת את התנאים להרשאה לחיוב חשבון, כולל תנאים לביטול ואחריות הבנק בנוגע להרשאה. ניתן להשתמש בטבלה זו כדי להבין את התקופות וההגבלות הקשורות להרשאה לחיוב חשבון של הראל חברה לביטוח בע\"מ. הרשאה שלא יעשה בה שימוש במשך 24 חודשים ממועד החיוב האחרון, בטלה. הבנק רשאי להוציא את הראל חברה לביטוח בע\"מ מן ההסדר אם תהיה לו סיבה סבירה לכך. תאריך החיוב וסכום החיוב ייקבעו מעת לעת על ידי הראל חברה לביטוח בע\"מ, בהתאם לפוליסה.",
+    "row_axis": "תנאי הרשאה",
+    "column_axis": "מאפייני הרשאה",
     "units": [],
     "notable_values": [
-      "period: 24 חודשים",
-      "authorization cancellation period: 24 חודשים",
-      "bank discretion: סיבה סבירה"
+      "תקופת ביטול: 24 חודשים",
+      "סכום החיוב: על-פי סכום דמי הביטוח",
+      "מועד התשלום: לחודש 25",
+      "מועד התשלום: לחודש 14"
     ],
     "product_hints": [
-      "הראל חברה לביטוח בע״מ",
-      "ביטוח חיים"
+      "הראל חברה לביטוח בע\"מ"
     ]
   },
   "sketch": "חודשים ממועד החיוב האחרון, בטלה. 24 הרשאה שלא יעשה בה שימוש במשך תקופה של ו.\nאם תענו לבקשתנו, הבנק יפעל בהתאם להוראות הרשאה זו, בכפוף להוראות כל דין והסכם שבינינו לבין הבנק. ז.\nח.  הבנק רשאי להוציאנו מן ההסדר המפורט בהרשאה זו, אם תהיה לו סיבה סבירה לכך, ויודיע לנו על כך מיד לאחר קבלת החלטתו תוך ציון הסיבה.",
-  "embed_text": "הרשאה לחיוב חשבון של הראל חברה לביטוח בע״מ מאפשרת תשלום דמי ביטוח באופן קבוע. הרשאה שלא יעשה בה שימוש במשך 24 חודשים ממועד החיוב האחרון, בטלה. הבנק רשאי להוציא את הראל מן ההסדר אם תהיה לו סיבה סבירה לכך.",
-  "payload": "טבלה: הרשאה לחיוב חשבון\nThis table outlines the terms for a direct debit authorization for insurance payments. It details the conditions under which the authorization is valid and can be cancelled.\nממדים: Conditions for direct debit authorization, Authorization terms and conditions\n\nחודשים ממועד החיוב האחרון, בטלה. 24 הרשאה שלא יעשה בה שימוש במשך תקופה של ו.\nאם תענו לבקשתנו, הבנק יפעל בהתאם להוראות הרשאה זו, בכפוף להוראות כל דין והסכם שבינינו לבין הבנק. ז.\nח.  הבנק רשאי להוציאנו מן ההסדר המפורט בהרשאה זו, אם תהיה לו סיבה סבירה לכך, ויודיע לנו על כך מיד לאחר קבלת החלטתו תוך ציון הסיבה."
+  "embed_text": "טבלה זו מתארת את התנאים להרשאה לחיוב חשבון, כולל תנאים לביטול ואחריות הבנק בנוגע להרשאה. ניתן להשתמש בטבלה זו כדי להבין את התקופות וההגבלות הקשורות להרשאה לחיוב חשבון של הראל חברה לביטוח בע\"מ. הרשאה שלא יעשה בה שימוש במשך 24 חודשים ממועד החיוב האחרון, בטלה. הבנק רשאי להוציא את הראל חברה לביטוח בע\"מ מן ההסדר אם תהיה לו סיבה סבירה לכך. תאריך החיוב וסכום החיוב ייקבעו מעת לעת על ידי הראל חברה לביטוח בע\"מ, בהתאם לפוליסה. This table outlines the terms for a direct debit authorization. It details conditions for cancellation and bank responsibilities regarding the authorization. בין הערכים בטבלה: מועד התשלום: לחודש 25; מועד התשלום: לחודש 14.",
+  "payload": "טבלה: הרשאה לחיוב חשבון\nThis table outlines the terms for a direct debit authorization. It details conditions for cancellation and bank responsibilities regarding the authorization.\nממדים: תנאי הרשאה, מאפייני הרשאה\n\nחודשים ממועד החיוב האחרון, בטלה. 24 הרשאה שלא יעשה בה שימוש במשך תקופה של ו.\nאם תענו לבקשתנו, הבנק יפעל בהתאם להוראות הרשאה זו, בכפוף להוראות כל דין והסכם שבינינו לבין הבנק. ז.\nח.  הבנק רשאי להוציאנו מן ההסדר המפורט בהרשאה זו, אם תהיה לו סיבה סבירה לכך, ויודיע לנו על כך מיד לאחר קבלת החלטתו תוך ציון הסיבה."
 }

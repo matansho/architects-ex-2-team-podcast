@@ -2,27 +2,23 @@
   "id": "pdf:business/files/תנאי-פוליסת-ביטוח-מכלול-לעסק-מהדורת-מרץ-2023-באנגלית.pdf#72",
   "source": "llm",
   "description": {
-    "title": "מכלול - חישוב הפסד הכנסות",
-    "summary": "This table details how losses are calculated under the 'Mecholal' business interruption insurance policy. It outlines how reduced turnover and increased operating expenses are factored into claim settlements.",
-    "embed_passage": "פוליסת מכלול לעסק מכסה הפסד הכנסות כתוצאה מנזק. סכום הביטוח מחושב על בסיס הרווח הגולמי השנתי של העסק, תוך התחשבות בהפרש בין ההכנסות הצפויות להכנסות בפועל בתקופת ההתייעצות. לדוגמה, אם הרווח הגולמי השנתי הוא 100,000 ₪ וההכנסות בפועל ירדו ב-10%, החישוב יתבסס על הפרש של 10,000 ₪.",
-    "row_axis": "Types of loss adjustment (reduction in turnover, increased operating expenses)",
-    "column_axis": "Calculation method / conditions",
-    "units": [
-      "₪"
-    ],
+    "title": "חישוב סכום הביטוח - הפחתה במחזור",
+    "summary": "This table details how the insurance sum is calculated for business interruption, specifically focusing on reductions in turnover. It outlines how actual turnover is compared to standard turnover to determine the insured amount.",
+    "embed_passage": "טבלה זו עוסקת בחישוב סכום הביטוח במסגרת פוליסת מכלול לעסק, כאשר ישנה הפחתה במחזור. החישוב מתבסס על הכפלת שיעור הרווח הגולמי בהפרש בין המחזור הרגיל למחזור בפועל בתקופת הפיצוי. סכום הביטוח מחושב בהתאם להפרש בין מחזור רגיל למחזור בפועל, תוך התחשבות בהכנסות ממכירת מוצרים או שירותים. הפחתה במחזור, הוצאות תפעול מוגברות, ושיעור הרווח הגולמי הם מרכיבים מרכזיים בחישוב. הפוליסה מכלול לעסק מתייחסת גם להוצאות הכנה לתביעה.",
+    "row_axis": "calculation method for insured amount",
+    "column_axis": "components of the calculation",
+    "units": [],
     "notable_values": [
-      "rate of gross profit: not specified",
-      "indemnification period: not specified",
-      "actual turnover: calculated based on sales/services",
-      "insured event: triggers expense coverage",
-      "claim preparation expenses: covered if claim is valid"
+      "rate of gross profit: multiplier",
+      "standard turnover: baseline for comparison",
+      "actual turnover: turnover during the indemnification period",
+      "indemnification period: time frame for calculation"
     ],
     "product_hints": [
-      "מכלול",
-      "Mecholal"
+      "מכלול לעסק"
     ]
   },
   "sketch": "4.5.2.1  Reduction in turnover\nThe sum obtained from multiplying the rate of gross profit by the sum of the difference between the standard turnover and the actual turnover in the course of the indemnification period.\n4.5.2.2  If during the indemnification period products are sold or services are rendered by the insured or by others on its behalf, the monies paid or payable (in regard to such products or services) shall be taken into account for the purpose of determining the actual turnover.\n4.5.2.3  Increased operating expenses\nIncreased and necessary operating expenses, actually incurred by the insured in the course of the indemnification period, which were expended in order to reduce or prevent the reduction in turnover in the course of the indemnification period due to an insured event;\nHowever, the indemnification under this paragraph shall not exceed the sum obtained from multiplying the rate of gross profits by that part of the turnover, whose loss is avoided by the additional expenses, less the sums saved in the sphere of the indemnification period in respect of expenses or costs which were prevented or reduced as a result of the insured event.",
-  "embed_text": "פוליסת מכלול לעסק מכסה הפסד הכנסות כתוצאה מנזק. סכום הביטוח מחושב על בסיס הרווח הגולמי השנתי של העסק, תוך התחשבות בהפרש בין ההכנסות הצפויות להכנסות בפועל בתקופת ההתייעצות. לדוגמה, אם הרווח הגולמי השנתי הוא 100,000 ₪ וההכנסות בפועל ירדו ב-10%, החישוב יתבסס על הפרש של 10,000 ₪.",
-  "payload": "טבלה: מכלול - חישוב הפסד הכנסות\nThis table details how losses are calculated under the 'Mecholal' business interruption insurance policy. It outlines how reduced turnover and increased operating expenses are factored into claim settlements.\nממדים: Types of loss adjustment (reduction in turnover, increased operating expenses), Calculation method / conditions\n\n4.5.2.1  Reduction in turnover\nThe sum obtained from multiplying the rate of gross profit by the sum of the difference between the standard turnover and the actual turnover in the course of the indemnification period.\n4.5.2.2  If during the indemnification period products are sold or services are rendered by the insured or by others on its behalf, the monies paid or payable (in regard to such products or services) shall be taken into account for the purpose of determining the actual turnover.\n4.5.2.3  Increased operating expenses\nIncreased and necessary operating expenses, actually incurred by the insured in the course of the indemnification period, which were expended in order to reduce or prevent the reduction in turnover in the course of the indemnification period due to an insured event;\nHowever, the indemnification under this paragraph shall not exceed the sum obtained from multiplying the rate of gross profits by that part of the turnover, whose loss is avoided by the additional expenses, less the sums saved in the sphere of the indemnification period in respect of expenses or costs which were prevented or reduced as a result of the insured event."
+  "embed_text": "טבלה זו עוסקת בחישוב סכום הביטוח במסגרת פוליסת מכלול לעסק, כאשר ישנה הפחתה במחזור. החישוב מתבסס על הכפלת שיעור הרווח הגולמי בהפרש בין המחזור הרגיל למחזור בפועל בתקופת הפיצוי. סכום הביטוח מחושב בהתאם להפרש בין מחזור רגיל למחזור בפועל, תוך התחשבות בהכנסות ממכירת מוצרים או שירותים. הפחתה במחזור, הוצאות תפעול מוגברות, ושיעור הרווח הגולמי הם מרכיבים מרכזיים בחישוב. הפוליסה מכלול לעסק מתייחסת גם להוצאות הכנה לתביעה. This table details how the insurance sum is calculated for business interruption, specifically focusing on reductions in turnover. It outlines how actual turnover is compared to standard turnover to determine the insured amount. בין הערכים בטבלה: rate of gross profit: multiplier; standard turnover: baseline for comparison; actual turnover: turnover during the indemnification period;…",
+  "payload": "טבלה: חישוב סכום הביטוח - הפחתה במחזור\nThis table details how the insurance sum is calculated for business interruption, specifically focusing on reductions in turnover. It outlines how actual turnover is compared to standard turnover to determine the insured amount.\nממדים: calculation method for insured amount, components of the calculation\n\n4.5.2.1  Reduction in turnover\nThe sum obtained from multiplying the rate of gross profit by the sum of the difference between the standard turnover and the actual turnover in the course of the indemnification period.\n4.5.2.2  If during the indemnification period products are sold or services are rendered by the insured or by others on its behalf, the monies paid or payable (in regard to such products or services) shall be taken into account for the purpose of determining the actual turnover.\n4.5.2.3  Increased operating expenses\nIncreased and necessary operating expenses, actually incurred by the insured in the course of the indemnification period, which were expended in order to reduce or prevent the reduction in turnover in the course of the indemnification period due to an insured event;\nHowever, the indemnification under this paragraph shall not exceed the sum obtained from multiplying the rate of gross profits by that part of the turnover, whose loss is avoided by the additional expenses, less the sums saved in the sphere of the indemnification period in respect of expenses or costs which were prevented or reduced as a result of the insured event."
 }

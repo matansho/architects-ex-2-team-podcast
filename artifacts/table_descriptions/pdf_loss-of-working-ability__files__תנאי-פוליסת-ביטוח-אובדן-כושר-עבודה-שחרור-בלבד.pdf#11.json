@@ -2,22 +2,22 @@
   "id": "pdf:loss-of-working-ability/files/תנאי-פוליסת-ביטוח-אובדן-כושר-עבודה-שחרור-בלבד.pdf#11",
   "source": "llm",
   "description": {
-    "title": "אובדן כושר עבודה - שחרור",
-    "summary": "This table details conditions of the 'שחרור' loss of working ability insurance policy. It outlines aspects like hobby details, insurance period, and waiting period.",
-    "embed_passage": "פוליסת 'שחרור' ביטוח אובדן כושר עבודה מתייחסת לתקופת ביטוח הנמשכת חודשים, ותקופת המתנה של 3 חודשים בה לא ישולמו תגמולים. הפוליסה מכסה מצבים הנובעים מפעילות פנאי קבועה או תחביב.",
-    "row_axis": "Policy conditions / details",
-    "column_axis": "Condition type (e.g., hobby, insurance period, waiting period)",
+    "title": "תנאי פוליסה",
+    "summary": "This table outlines conditions of an insurance policy, specifically regarding hobbies, insurance duration, and waiting periods. It details how long the insurance is valid and the waiting period before benefits are paid.",
+    "embed_passage": "טבלה זו מתארת תנאים לפוליסת ביטוח אובדן כושר עבודה של 'שחרור'. ניתן למצוא מידע על פעילות פנאי קבועה (תחביב), תקופת הביטוח, ותקופת המתנה. החיפוש נעשה לפי סוג הפעילות, משך התקופה, והתנאים הספציפיים לפוליסה. התנאים כוללים תחביב, תקופת ביטוח, תקופת המתנה של עד 3 חודשים, וכן תנאים להרחבה לקיצור תקופת ההמתנה.",
+    "row_axis": "סעיף בפוליסה",
+    "column_axis": "תנאי הפוליסה",
     "units": [],
     "notable_values": [
-      "תקופת המתנה: 3 חודשים",
-      "תקופת הביטוח: לא מוגדרת (תלויה בדף פרטי ביטוח)"
+      "תחביב: פעילות פנאי בה עוסק המבוטח על בסיס קבוע",
+      "תקופת הביטוח: תקופה בה יעמוד הביטוח על פי פוליסה זו בתוקפו",
+      "תקופת המתנה: 3 חודשים"
     ],
     "product_hints": [
-      "שחרור",
-      "אובדן כושר עבודה"
+      "שחרור"
     ]
   },
   "sketch": "פעילות פנאי בה עוסק המבוטח על בסיס קבוע . -תחביב 1.24\n, התקופה בה יעמוד הביטוח על פי פוליסה זו בתוקפו -תקופת הביטוח 1.25 בכפוף להוראות הפוליסה, אשר ראשיתה ביום תחילת תקופת הביטוח . וסיומה במועד  כמפורט בדף פרטי ביטוח\nחודשים  )אם  נרכשה  הרחבה  לקיצור 3 תקופה בת -תקופת המתנה 1.26 תקופת ההמתנה, בהתאם לתנאי ההרחבה(, אשר תחילתה לאחר קרות מקרה הביטוח, במהלכה לא ישולמו תגמולי ביטוח על פי הפוליסה. על",
-  "embed_text": "פוליסת 'שחרור' ביטוח אובדן כושר עבודה מתייחסת לתקופת ביטוח הנמשכת חודשים, ותקופת המתנה של 3 חודשים בה לא ישולמו תגמולים. הפוליסה מכסה מצבים הנובעים מפעילות פנאי קבועה או תחביב.",
-  "payload": "טבלה: אובדן כושר עבודה - שחרור\nThis table details conditions of the 'שחרור' loss of working ability insurance policy. It outlines aspects like hobby details, insurance period, and waiting period.\nממדים: Policy conditions / details, Condition type (e.g., hobby, insurance period, waiting period)\n\nפעילות פנאי בה עוסק המבוטח על בסיס קבוע . -תחביב 1.24\n, התקופה בה יעמוד הביטוח על פי פוליסה זו בתוקפו -תקופת הביטוח 1.25 בכפוף להוראות הפוליסה, אשר ראשיתה ביום תחילת תקופת הביטוח . וסיומה במועד  כמפורט בדף פרטי ביטוח\nחודשים  )אם  נרכשה  הרחבה  לקיצור 3 תקופה בת -תקופת המתנה 1.26 תקופת ההמתנה, בהתאם לתנאי ההרחבה(, אשר תחילתה לאחר קרות מקרה הביטוח, במהלכה לא ישולמו תגמולי ביטוח על פי הפוליסה. על"
+  "embed_text": "טבלה זו מתארת תנאים לפוליסת ביטוח אובדן כושר עבודה של 'שחרור'. ניתן למצוא מידע על פעילות פנאי קבועה (תחביב), תקופת הביטוח, ותקופת המתנה. החיפוש נעשה לפי סוג הפעילות, משך התקופה, והתנאים הספציפיים לפוליסה. התנאים כוללים תחביב, תקופת ביטוח, תקופת המתנה של עד 3 חודשים, וכן תנאים להרחבה לקיצור תקופת ההמתנה. This table outlines conditions of an insurance policy, specifically regarding hobbies, insurance duration, and waiting periods. It details how long the insurance is valid and the waiting period before benefits are paid.",
+  "payload": "טבלה: תנאי פוליסה\nThis table outlines conditions of an insurance policy, specifically regarding hobbies, insurance duration, and waiting periods. It details how long the insurance is valid and the waiting period before benefits are paid.\nממדים: סעיף בפוליסה, תנאי הפוליסה\n\nפעילות פנאי בה עוסק המבוטח על בסיס קבוע . -תחביב 1.24\n, התקופה בה יעמוד הביטוח על פי פוליסה זו בתוקפו -תקופת הביטוח 1.25 בכפוף להוראות הפוליסה, אשר ראשיתה ביום תחילת תקופת הביטוח . וסיומה במועד  כמפורט בדף פרטי ביטוח\nחודשים  )אם  נרכשה  הרחבה  לקיצור 3 תקופה בת -תקופת המתנה 1.26 תקופת ההמתנה, בהתאם לתנאי ההרחבה(, אשר תחילתה לאחר קרות מקרה הביטוח, במהלכה לא ישולמו תגמולי ביטוח על פי הפוליסה. על"
 }

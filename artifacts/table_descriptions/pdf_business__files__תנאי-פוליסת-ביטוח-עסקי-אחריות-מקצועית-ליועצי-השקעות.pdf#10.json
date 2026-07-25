@@ -2,25 +2,28 @@
   "id": "pdf:business/files/תנאי-פוליסת-ביטוח-עסקי-אחריות-מקצועית-ליועצי-השקעות.pdf#10",
   "source": "llm",
   "description": {
-    "title": "אחריות מקצועית - עובדים לא נאמנים",
-    "summary": "This table details coverage for direct financial loss due to employee dishonesty or fraud, as part of a professional liability insurance policy. It outlines the conditions under which the insurer will indemnify the assured for losses discovered during the insurance period.",
-    "embed_passage": "פוליסת אחריות מקצועית זו מכסה הפסדים כספיים ישירים הנגרמים כתוצאה ממעשי הונאה או חוסר נאמנות של עובדים, עד לסכום המפורט בתוכנית. הכיסוי חל על הפסדים שהתגלו במהלך תקופת הביטוח, ומתייחס למקרים של הונאה או אי-נאמנות, בין אם בוצעו לבד או בשיתוף פעולה. הפוליסה עשויה לחול על הלוואות ופעולות דומות, אך רק כאשר יש כוונה ברורה לגרום הפסד למבוטח או להשיג רווח אישי.",
-    "row_axis": "Specific loss scenarios related to employee dishonesty",
-    "column_axis": "Coverage details and conditions",
+    "title": "אחריות מקצועית - עובדים",
+    "summary": "This table outlines the terms of coverage for losses due to employee dishonesty under a professional liability insurance policy. It details the conditions under which the insurer will indemnify the assured for financial losses caused by employee fraud.",
+    "embed_passage": "טבלה זו מתארת את תנאי הכיסוי במקרה של אובדן כספי כתוצאה ממעשי הונאה או אי-יושר של עובדים, כחלק מפוליסת אחריות מקצועית ליועצי השקעות. הכיסוי חל על אובדנים של כסף, ניירות ערך או רכוש של צדדים שלישיים, אשר התגלו במהלך תקופת הביטוח המפורטת בתוספת לפוליסה. סכום הפיצוי המקסימלי מוגדר בתוספת לפוליסה. הכיסוי מתייחס למעשי הונאה שבוצעו על ידי עובד לבדו או בשיתוף פעולה עם אחרים, במטרה לגרום הפסד למבוטח או להשיג רווח אישי. אובדן כולל גם הלוואות והרחבות אשראי. \nהטבלה עוסקת בכיסוי במקרה של מעשי הונאה או אי-יושר של עובדים, כאשר סכום הכיסוי מוגדר בתוספת לפוליסה. מדובר בכיסוי לאובדן כספי, ניירות ערך או רכוש של צדדים שלישיים.",
+    "row_axis": "types of employee dishonesty",
+    "column_axis": "coverage details",
     "units": [],
     "notable_values": [
-      "Coverage Limit: sum in all",
-      "Discovery Period: during the insurance period",
-      "Employee Actions: fraud and/or dishonesty",
-      "Loss Types: loss of money, securities, or property",
-      "Intent: manifest intent to cause loss or gain"
+      "loss of money: covered",
+      "loss of securities: covered",
+      "loss of property of third parties: covered",
+      "fraudulent acts: covered",
+      "dishonest acts: covered",
+      "loans: covered with intent to cause loss",
+      "extensions of credit: covered with intent to cause loss",
+      "manifest intent to cause loss: required for loans"
     ],
     "product_hints": [
       "אחריות מקצועית",
-      "ביטוח אחריות מקצועית"
+      "ביטוח עסקי אחריות מקצועית ליועצי השקעות"
     ]
   },
   "sketch": "PART II\nINFIDELITY OF EMPLOYEES\nThe Insurer hereby agrees to indemnify the Assured for direct financial loss including loss of money, securities or other property of third  parties  sustained  by  the  Assured  and  discovered during the insurance period as stated in the Schedule, through any act or acts of fraud and/or dishonesty  committed  by  any  Employee  of  the  Assured  working  alone  or  in  collusion  with others, whenever  or wherever the same was or may have been committed, to an amount not exceeding the sum in all, as set out in the said Schedule.\nIt  is  hereby further agreed that with regard to loans, including. Transactions in the nature of a loan  or  other  extensions  of  credit,  this  part  will  cover  only  those  dishonest  or  fraudulent  acts committed by an employee with the manifest intent to cause the Assured to sustain a loss or to obtain a personal financial gain, other than salary, fees, commissions and other emoluments.",
-  "embed_text": "פוליסת אחריות מקצועית זו מכסה הפסדים כספיים ישירים הנגרמים כתוצאה ממעשי הונאה או חוסר נאמנות של עובדים, עד לסכום המפורט בתוכנית. הכיסוי חל על הפסדים שהתגלו במהלך תקופת הביטוח, ומתייחס למקרים של הונאה או אי-נאמנות, בין אם בוצעו לבד או בשיתוף פעולה. הפוליסה עשויה לחול על הלוואות ופעולות דומות, אך רק כאשר יש כוונה ברורה לגרום הפסד למבוטח או להשיג רווח אישי.",
-  "payload": "טבלה: אחריות מקצועית - עובדים לא נאמנים\nThis table details coverage for direct financial loss due to employee dishonesty or fraud, as part of a professional liability insurance policy. It outlines the conditions under which the insurer will indemnify the assured for losses discovered during the insurance period.\nממדים: Specific loss scenarios related to employee dishonesty, Coverage details and conditions\n\nPART II\nINFIDELITY OF EMPLOYEES\nThe Insurer hereby agrees to indemnify the Assured for direct financial loss including loss of money, securities or other property of third  parties  sustained  by  the  Assured  and  discovered during the insurance period as stated in the Schedule, through any act or acts of fraud and/or dishonesty  committed  by  any  Employee  of  the  Assured  working  alone  or  in  collusion  with others, whenever  or wherever the same was or may have been committed, to an amount not exceeding the sum in all, as set out in the said Schedule.\nIt  is  hereby further agreed that with regard to loans, including. Transactions in the nature of a loan  or  other  extensions  of  credit,  this  part  will  cover  only  those  dishonest  or  fraudulent  acts committed by an employee with the manifest intent to cause the Assured to sustain a loss or to obtain a personal financial gain, other than salary, fees, commissions and other emoluments."
+  "embed_text": "טבלה זו מתארת את תנאי הכיסוי במקרה של אובדן כספי כתוצאה ממעשי הונאה או אי-יושר של עובדים, כחלק מפוליסת אחריות מקצועית ליועצי השקעות. הכיסוי חל על אובדנים של כסף, ניירות ערך או רכוש של צדדים שלישיים, אשר התגלו במהלך תקופת הביטוח המפורטת בתוספת לפוליסה. סכום הפיצוי המקסימלי מוגדר בתוספת לפוליסה. הכיסוי מתייחס למעשי הונאה שבוצעו על ידי עובד לבדו או בשיתוף פעולה עם אחרים, במטרה לגרום הפסד למבוטח או להשיג רווח אישי. אובדן כולל גם הלוואות והרחבות אשראי. \nהטבלה עוסקת בכיסוי במקרה של מעשי הונאה או אי-יושר של עובדים, כאשר סכום הכיסוי מוגדר בתוספת לפוליסה. מדובר בכיסוי לאובדן כספי, ניירות ערך או רכוש של צדדים שלישיים. This table outlines the terms of coverage for losses due to employee dishonesty under a professional liability insurance policy. It details the conditions under which the insurer will…",
+  "payload": "טבלה: אחריות מקצועית - עובדים\nThis table outlines the terms of coverage for losses due to employee dishonesty under a professional liability insurance policy. It details the conditions under which the insurer will indemnify the assured for financial losses caused by employee fraud.\nממדים: types of employee dishonesty, coverage details\n\nPART II\nINFIDELITY OF EMPLOYEES\nThe Insurer hereby agrees to indemnify the Assured for direct financial loss including loss of money, securities or other property of third  parties  sustained  by  the  Assured  and  discovered during the insurance period as stated in the Schedule, through any act or acts of fraud and/or dishonesty  committed  by  any  Employee  of  the  Assured  working  alone  or  in  collusion  with others, whenever  or wherever the same was or may have been committed, to an amount not exceeding the sum in all, as set out in the said Schedule.\nIt  is  hereby further agreed that with regard to loans, including. Transactions in the nature of a loan  or  other  extensions  of  credit,  this  part  will  cover  only  those  dishonest  or  fraudulent  acts committed by an employee with the manifest intent to cause the Assured to sustain a loss or to obtain a personal financial gain, other than salary, fees, commissions and other emoluments."
 }

@@ -2,25 +2,27 @@
   "id": "pdf:health/files/062025-טופס-הצעה-להוספת-כתבי-שירות.pdf#8",
   "source": "llm",
   "description": {
-    "title": "הצעה לכתבי שירות",
-    "summary": "This table is a health questionnaire used to assess an applicant's medical history for insurance coverage. It asks about recent diagnoses, hospitalizations, and medical tests performed within the last 5 years.",
-    "embed_passage": "טופס זה משמש להערכת מצב בריאותי לצורך הוספת כתבי שירות. השאלות מתייחסות לאבחנות רפואיות, אשפוזים ובדיקות דימות שבוצעו ב־5 השנים האחרונות, כגון אולטרסאונד, MRI ו־CT. אם גילך מעלה 65, אנו מבקשים לצרף תעודה רפואית.",
-    "row_axis": "insured individual (primary insured, spouse, child)",
-    "column_axis": "medical conditions/tests within the last 5 years",
+    "title": "הצהרת בריאות",
+    "summary": "This table is a health declaration form used to assess medical conditions for insurance coverage. It asks about recent medical history, diagnoses, and tests performed within the last five years for the primary insured, spouse, and children.",
+    "embed_passage": "טופס זה, הצהרת בריאות, משמש לאבחון רפואי מהיר לצורך הוספת כתבי שירות. יש לענות על השאלות בסימון ✓ ולצרף תעודה עדכנית מהרופא המטפל במקרה של תשובה חיובית. הטבלה בודקת האם הופנית לבדיקות או למומחה, האם נקבעה אבחנה סופית, ואילו בדיקות מיוחדות בוצעו, כגון אולטרסאונד, MRI, CT, מיפוי עצמות וממוגרפיה. השאלות מתייחסות למבוטח ראש, בן/בת זוג, וילדים (1, 2, 3, 4).",
+    "row_axis": "insured person (מבוטח ראש, בן/בת זוג, ילד/ה)",
+    "column_axis": "medical history questions (referral to specialist, final diagnosis, specific tests performed)",
     "units": [],
     "notable_values": [
       "age: 65+",
-      "years considered: 5",
-      "tests: אולטרסאונד, MRI, CT",
-      "child: 1",
-      "spouse: 1"
+      "test type: אולטרסאונד",
+      "test type: MRI",
+      "test type: CT",
+      "test type: מיפוי עצמות",
+      "test type: ממוגרפיה",
+      "test type: קולונוסקופיה",
+      "test type: גסטרוסקופיה"
     ],
     "product_hints": [
-      "כתבי שירות",
-      "פוליסה בהראל"
+      "כתבי שירות"
     ]
   },
   "sketch": ", אנו מבקשים לצרף תעודה רפואית המתייחסת למצבך הרפואי כולל התייחסות לניתוחים, תרופות קבועות , ומעלה 65 אם גילך . 3 השנים האחרונות. 5אבחנות רפואיות, אשפוזים ותוצאות בדיקות דימות מיוחדות שבוצעו ב\n4 ילד.,4 ילד.ן כ ל א,3 ילד.לא,2 ילד.ן כ,2 ילד.ל א,1 ילד.ן כ,1 ילד.ל א,בן/ בת זוג.ן כ,בן/ בת זוג.ל א,מבוטח י ראש.ן כ,מבוטח י ראש.\n,,,,,,,,,,\"ם בשנתיי הופנית אליו מחלה או תופעה של ברור הליך סיימת וטרם הופנית האם ו/או מומחה רופא אצל לבדיקה )הפניה ? סופית אבחנה נקבעה לא ועדיין האחרונות, ב ממעק כחלק שלא - אולטרסאונד , MRI , CT עצמות, מיפוי ממוגרפיה, כגון: לבדיקות פולשנית בדיקה ו/או קולפוסקופיה, גסטרוסקופיה, קולונוסקופיה, סמוי, דם ביופסיה, הריון, הרדמה( בטשטוש/ הכרוכה\"",
-  "embed_text": "טופס זה משמש להערכת מצב בריאותי לצורך הוספת כתבי שירות. השאלות מתייחסות לאבחנות רפואיות, אשפוזים ובדיקות דימות שבוצעו ב־5 השנים האחרונות, כגון אולטרסאונד, MRI ו־CT. אם גילך מעלה 65, אנו מבקשים לצרף תעודה רפואית.",
-  "payload": "טבלה: הצעה לכתבי שירות\nThis table is a health questionnaire used to assess an applicant's medical history for insurance coverage. It asks about recent diagnoses, hospitalizations, and medical tests performed within the last 5 years.\nממדים: insured individual (primary insured, spouse, child), medical conditions/tests within the last 5 years\n\n, אנו מבקשים לצרף תעודה רפואית המתייחסת למצבך הרפואי כולל התייחסות לניתוחים, תרופות קבועות , ומעלה 65 אם גילך . 3 השנים האחרונות. 5אבחנות רפואיות, אשפוזים ותוצאות בדיקות דימות מיוחדות שבוצעו ב\n4 ילד.,4 ילד.ן כ ל א,3 ילד.לא,2 ילד.ן כ,2 ילד.ל א,1 ילד.ן כ,1 ילד.ל א,בן/ בת זוג.ן כ,בן/ בת זוג.ל א,מבוטח י ראש.ן כ,מבוטח י ראש.\n,,,,,,,,,,\"ם בשנתיי הופנית אליו מחלה או תופעה של ברור הליך סיימת וטרם הופנית האם ו/או מומחה רופא אצל לבדיקה )הפניה ? סופית אבחנה נקבעה לא ועדיין האחרונות, ב ממעק כחלק שלא - אולטרסאונד , MRI , CT עצמות, מיפוי ממוגרפיה, כגון: לבדיקות פולשנית בדיקה ו/או קולפוסקופיה, גסטרוסקופיה, קולונוסקופיה, סמוי, דם ביופסיה, הריון, הרדמה( בטשטוש/ הכרוכה\""
+  "embed_text": "טופס זה, הצהרת בריאות, משמש לאבחון רפואי מהיר לצורך הוספת כתבי שירות. יש לענות על השאלות בסימון ✓ ולצרף תעודה עדכנית מהרופא המטפל במקרה של תשובה חיובית. הטבלה בודקת האם הופנית לבדיקות או למומחה, האם נקבעה אבחנה סופית, ואילו בדיקות מיוחדות בוצעו, כגון אולטרסאונד, MRI, CT, מיפוי עצמות וממוגרפיה. השאלות מתייחסות למבוטח ראש, בן/בת זוג, וילדים (1, 2, 3, 4). This table is a health declaration form used to assess medical conditions for insurance coverage. It asks about recent medical history, diagnoses, and tests performed within the last five years for the primary insured, spouse, and children. בין הערכים בטבלה: age: 65+; test type: קולונוסקופיה; test type: גסטרוסקופיה.",
+  "payload": "טבלה: הצהרת בריאות\nThis table is a health declaration form used to assess medical conditions for insurance coverage. It asks about recent medical history, diagnoses, and tests performed within the last five years for the primary insured, spouse, and children.\nממדים: insured person (מבוטח ראש, בן/בת זוג, ילד/ה), medical history questions (referral to specialist, final diagnosis, specific tests performed)\n\n, אנו מבקשים לצרף תעודה רפואית המתייחסת למצבך הרפואי כולל התייחסות לניתוחים, תרופות קבועות , ומעלה 65 אם גילך . 3 השנים האחרונות. 5אבחנות רפואיות, אשפוזים ותוצאות בדיקות דימות מיוחדות שבוצעו ב\n4 ילד.,4 ילד.ן כ ל א,3 ילד.לא,2 ילד.ן כ,2 ילד.ל א,1 ילד.ן כ,1 ילד.ל א,בן/ בת זוג.ן כ,בן/ בת זוג.ל א,מבוטח י ראש.ן כ,מבוטח י ראש.\n,,,,,,,,,,\"ם בשנתיי הופנית אליו מחלה או תופעה של ברור הליך סיימת וטרם הופנית האם ו/או מומחה רופא אצל לבדיקה )הפניה ? סופית אבחנה נקבעה לא ועדיין האחרונות, ב ממעק כחלק שלא - אולטרסאונד , MRI , CT עצמות, מיפוי ממוגרפיה, כגון: לבדיקות פולשנית בדיקה ו/או קולפוסקופיה, גסטרוסקופיה, קולונוסקופיה, סמוי, דם ביופסיה, הריון, הרדמה( בטשטוש/ הכרוכה\""
 }

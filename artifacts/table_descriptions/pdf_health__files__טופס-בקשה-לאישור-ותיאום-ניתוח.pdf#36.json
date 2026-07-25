@@ -2,24 +2,21 @@
   "id": "pdf:health/files/טופס-בקשה-לאישור-ותיאום-ניתוח.pdf#36",
   "source": "llm",
   "description": {
-    "title": "טופס בקשה לאישור ניתוח - פרטי רופא ומבוטח",
-    "summary": "This table is a form for requesting surgery approval, collecting details about the treating physician and the patient. It's used to look up information based on doctor or patient identifiers.",
-    "embed_passage": "טופס זה משמש לבקשת אישור לניתוח ומיועד למילוי על ידי רופא מקצועי או רופא משפחה. הטופס כולל פרטים כגון מספר זהות של המבוטח, שם משפחה, כתובת, והתמחות של הרופא המטפל. לדוגמה, ניתן למצוא כאן את מספר הזהות של המבוטח ואת שם המשפחה שלו.",
-    "row_axis": "Individual request for surgery approval",
-    "column_axis": "Details of the treating physician and the patient (name, address, ID)",
+    "title": "פרטי רופא ומבוטח",
+    "summary": "This table captures details about the treating physician and the insured patient for a medical procedure request. It is used to record the doctor's information and the patient's identification details.",
+    "embed_passage": "טופס זה משמש לתיאום ניתוח ומיועד למילוי על ידי רופא מקצועי המטפל במבוטח, או על ידי רופא משפחה/ילדים בהיעדר רופא מומחה. הטופס כולל פרטים אישיים של הרופא, כגון שם משפחה, התמחות, ומספר פקס, וכן פרטים מזהים של המבוטח, כמו מספר זהות ושם משפחה.",
+    "row_axis": "Physician/Insured details",
+    "column_axis": "Data fields (e.g., name, specialization, ID)",
     "units": [],
     "notable_values": [
-      "מספר: מספר",
-      "התמחות: פרטי",
-      "שם משפחה: פרטי",
-      "מיקוד: מספר",
+      "התמחות: מספר",
+      "רופא פרטי א: משפחה שם",
+      "מבוטח פרטי ב: משפחה שם",
       "מספר זהות: מספר"
     ],
-    "product_hints": [
-      "אישור ניתוח"
-    ]
+    "product_hints": []
   },
   "sketch": "חלק ב' - למילוי בידי רופא מקצועי מטפל\nחלק זה ימולא על ידי רופא מקצועי המטפל במבוטח, ובהיעדר רופא מקצועי מטפל, ימולא על-ידי רופא משפחה/ילדים.\nמספר,מספר,ההתמחות,פרטי,הרופא פרטי א משפחה שם\nפקס מספר,מיקוד,יישוב,בית מספר,רחוב\nזהות מספר,המבוטח פרטי ב.משפחה שם",
-  "embed_text": "טופס זה משמש לבקשת אישור לניתוח ומיועד למילוי על ידי רופא מקצועי או רופא משפחה. הטופס כולל פרטים כגון מספר זהות של המבוטח, שם משפחה, כתובת, והתמחות של הרופא המטפל. לדוגמה, ניתן למצוא כאן את מספר הזהות של המבוטח ואת שם המשפחה שלו.",
-  "payload": "טבלה: טופס בקשה לאישור ניתוח - פרטי רופא ומבוטח\nThis table is a form for requesting surgery approval, collecting details about the treating physician and the patient. It's used to look up information based on doctor or patient identifiers.\nממדים: Individual request for surgery approval, Details of the treating physician and the patient (name, address, ID)\n\nחלק ב' - למילוי בידי רופא מקצועי מטפל\nחלק זה ימולא על ידי רופא מקצועי המטפל במבוטח, ובהיעדר רופא מקצועי מטפל, ימולא על-ידי רופא משפחה/ילדים.\nמספר,מספר,ההתמחות,פרטי,הרופא פרטי א משפחה שם\nפקס מספר,מיקוד,יישוב,בית מספר,רחוב\nזהות מספר,המבוטח פרטי ב.משפחה שם"
+  "embed_text": "טופס זה משמש לתיאום ניתוח ומיועד למילוי על ידי רופא מקצועי המטפל במבוטח, או על ידי רופא משפחה/ילדים בהיעדר רופא מומחה. הטופס כולל פרטים אישיים של הרופא, כגון שם משפחה, התמחות, ומספר פקס, וכן פרטים מזהים של המבוטח, כמו מספר זהות ושם משפחה. This table captures details about the treating physician and the insured patient for a medical procedure request. It is used to record the doctor's information and the patient's identification details. בין הערכים בטבלה: רופא פרטי א: משפחה שם; מבוטח פרטי ב: משפחה שם.",
+  "payload": "טבלה: פרטי רופא ומבוטח\nThis table captures details about the treating physician and the insured patient for a medical procedure request. It is used to record the doctor's information and the patient's identification details.\nממדים: Physician/Insured details, Data fields (e.g., name, specialization, ID)\n\nחלק ב' - למילוי בידי רופא מקצועי מטפל\nחלק זה ימולא על ידי רופא מקצועי המטפל במבוטח, ובהיעדר רופא מקצועי מטפל, ימולא על-ידי רופא משפחה/ילדים.\nמספר,מספר,ההתמחות,פרטי,הרופא פרטי א משפחה שם\nפקס מספר,מיקוד,יישוב,בית מספר,רחוב\nזהות מספר,המבוטח פרטי ב.משפחה שם"
 }

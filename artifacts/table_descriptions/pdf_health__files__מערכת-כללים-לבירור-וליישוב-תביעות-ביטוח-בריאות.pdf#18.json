@@ -2,25 +2,23 @@
   "id": "pdf:health/files/מערכת-כללים-לבירור-וליישוב-תביעות-ביטוח-בריאות.pdf#18",
   "source": "llm",
   "description": {
-    "title": "כללי תביעות בריאות",
-    "summary": "This table outlines the rules for claim review and settlement in health insurance. It details the information provided to the claimant regarding payment, including reasons for partial denial and payment components.",
-    "embed_passage": "כללי תביעות בריאות של הראל מפרטים את מרכיבי התשלום שאושרו, וכן את הנימוקים לדחיית חלק מהתביעה. במקרה של תשלום, לא נדרש משלוח מסמכים נוספים מלבד העתק של מערכת כללים זו. הראל תציע לתובע הצעת פשרה סבירה למועד ההצעה.",
-    "row_axis": "Decision/Action regarding a claim",
-    "column_axis": "Details of the notification/process",
+    "title": "כללים לבירור תביעות",
+    "summary": "This table outlines the rules for claim investigation and settlement in health insurance. It details the information that must be included in written notices to the claimant regarding claim decisions.",
+    "embed_passage": "טבלה זו מתארת את הכללים לבירור וליישוב תביעות ביטוח בריאות, ומפרטת את המידע שיש לכלול בהודעה בכתב לתובע בנוגע להחלטות בנוגע לתביעה. המטרה היא להבטיח שקיפות והסבר מפורט של מרכיבי התשלום, נימוקי הדחייה (אם יש), והצעות פשרה. טבלה זו רלוונטית לכל תביעה, אך עשויה להיות מותאמת לנסיבות ספציפיות, כגון תביעות שנדונות בבית משפט או הסדרי פשרה. הראל, מערכת כללים, תשלום, דחייה, פשרה.",
+    "row_axis": "Claim decision notification requirements",
+    "column_axis": "Elements of the written notice to the claimant",
     "units": [],
     "notable_values": [
-      "סעיף ד': Reference to a section detailing required documents.",
-      "הראל: The insurance company name.",
-      "1: Refers to a reasonable offer of settlement.",
-      "2: Refers to a reasonable time to review settlement terms.",
-      "3: Refers to components of the payment not in dispute."
+      "הודעה בכתב: כוללת שני חלקים",
+      "תשלום שאושר: מרכיביו יפורטו",
+      "דחיית חלק מהתביעה: נימוקים יפורטו",
+      "הסדר פשרה: הראל פטורה ממתן הודעה"
     ],
     "product_hints": [
-      "ביטוח בריאות",
       "הראל"
     ]
   },
   "sketch": "2 לתובע במועד התשלום הודעה בכתב הכוללת שני חלקים כמפורט להלן: שיפרט את מרכיביו של התשלום שאושר בהתאם למפורט לעיל; החלק הראשון, , שיפרט את הנימוקים לדחיית חלק מהתביעה, כמפורט בהמשך. החלק השני\nבכל מקרה בו נתקבלה החלטה על תשלום התביעה, לא יהיה צורך במשלוח המסמכים המפורטים בסעיף ד' לעיל, למעט העתק מערכת כללים זו.\nבכל מקרה בו מדובר על תביעה שנדונה בבית משפט, יחולו הוראות סעיף זה בשינויים המחויבים לפי נסיבות העניין.",
-  "embed_text": "כללי תביעות בריאות של הראל מפרטים את מרכיבי התשלום שאושרו, וכן את הנימוקים לדחיית חלק מהתביעה. במקרה של תשלום, לא נדרש משלוח מסמכים נוספים מלבד העתק של מערכת כללים זו. הראל תציע לתובע הצעת פשרה סבירה למועד ההצעה.",
-  "payload": "טבלה: כללי תביעות בריאות\nThis table outlines the rules for claim review and settlement in health insurance. It details the information provided to the claimant regarding payment, including reasons for partial denial and payment components.\nממדים: Decision/Action regarding a claim, Details of the notification/process\n\n2 לתובע במועד התשלום הודעה בכתב הכוללת שני חלקים כמפורט להלן: שיפרט את מרכיביו של התשלום שאושר בהתאם למפורט לעיל; החלק הראשון, , שיפרט את הנימוקים לדחיית חלק מהתביעה, כמפורט בהמשך. החלק השני\nבכל מקרה בו נתקבלה החלטה על תשלום התביעה, לא יהיה צורך במשלוח המסמכים המפורטים בסעיף ד' לעיל, למעט העתק מערכת כללים זו.\nבכל מקרה בו מדובר על תביעה שנדונה בבית משפט, יחולו הוראות סעיף זה בשינויים המחויבים לפי נסיבות העניין."
+  "embed_text": "טבלה זו מתארת את הכללים לבירור וליישוב תביעות ביטוח בריאות, ומפרטת את המידע שיש לכלול בהודעה בכתב לתובע בנוגע להחלטות בנוגע לתביעה. המטרה היא להבטיח שקיפות והסבר מפורט של מרכיבי התשלום, נימוקי הדחייה (אם יש), והצעות פשרה. טבלה זו רלוונטית לכל תביעה, אך עשויה להיות מותאמת לנסיבות ספציפיות, כגון תביעות שנדונות בבית משפט או הסדרי פשרה. הראל, מערכת כללים, תשלום, דחייה, פשרה. This table outlines the rules for claim investigation and settlement in health insurance. It details the information that must be included in written notices to the claimant regarding claim decisions. בין הערכים בטבלה: תשלום שאושר: מרכיביו יפורטו; דחיית חלק מהתביעה: נימוקים יפורטו; הסדר פשרה: הראל פטורה ממתן הודעה.",
+  "payload": "טבלה: כללים לבירור תביעות\nThis table outlines the rules for claim investigation and settlement in health insurance. It details the information that must be included in written notices to the claimant regarding claim decisions.\nממדים: Claim decision notification requirements, Elements of the written notice to the claimant\n\n2 לתובע במועד התשלום הודעה בכתב הכוללת שני חלקים כמפורט להלן: שיפרט את מרכיביו של התשלום שאושר בהתאם למפורט לעיל; החלק הראשון, , שיפרט את הנימוקים לדחיית חלק מהתביעה, כמפורט בהמשך. החלק השני\nבכל מקרה בו נתקבלה החלטה על תשלום התביעה, לא יהיה צורך במשלוח המסמכים המפורטים בסעיף ד' לעיל, למעט העתק מערכת כללים זו.\nבכל מקרה בו מדובר על תביעה שנדונה בבית משפט, יחולו הוראות סעיף זה בשינויים המחויבים לפי נסיבות העניין."
 }

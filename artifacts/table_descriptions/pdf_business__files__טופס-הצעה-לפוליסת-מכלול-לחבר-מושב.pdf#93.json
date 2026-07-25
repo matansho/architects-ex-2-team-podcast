@@ -2,26 +2,24 @@
   "id": "pdf:business/files/טופס-הצעה-לפוליסת-מכלול-לחבר-מושב.pdf#93",
   "source": "llm",
   "description": {
-    "title": "מכלול - פוליסת ביטוח",
-    "summary": "This table outlines the terms and conditions for a 'Mecholal' insurance policy from Harel. It details coverage options, data sharing preferences, and potential impacts on claims.",
-    "embed_passage": "פוליסת מכלול של הראל מציעה כיסוי למבנה הדירה ולתכולתה, כולל אפשרות לכיסוי מפני רעידות אדמה. תעריף הביטוח לרעידת אדמה נקבע לפי מסכום הביטוח, וקיימת השתתפות עצמית של 0.1%. חשוב לציין כי בהיעדר כיסוי לפרק מסוים, לא ניתן לרכוש הרחבות לאותו פרק.",
-    "row_axis": "Insurance policy details / options",
-    "column_axis": "Policy terms, data sharing preferences, coverage details",
+    "title": "הצעה לפוליסת מכלול",
+    "summary": "This table outlines conditions related to data sharing preferences for 'Harel' insurance policies. It details how requests to remove data apply to existing and future policies.",
+    "embed_passage": "טבלה זו מתייחסת לתנאים הקשורים להעדפות שיתוף נתונים עבור פוליסות ביטוח 'הראל'. ניתן להסיר מידע מפוליסות קיימות ועתידיות. אם בעבר ביקשת לא להעביר נתונים, הם לא יועברו גם לגבי פוליסה זו. חשוב לדעת שבהיעדר כיסוי לפרק מסוים, לא ניתן לרכוש כיסוי להרחבות לאותו פרק. פוליסה זו מכסה אובדן או נזק שנגרמו כתוצאה מרעידת אדמה למבנה הדירה ו/או לתכולתה. ניתן לשנות תנאים על-פי תקנות הפיקוח על עסקי הביטוח.",
+    "row_axis": "Data sharing preference / Policy condition",
+    "column_axis": "Policy details / Data transfer options",
     "units": [],
     "notable_values": [
-      "0.1%: self-participation rate for earthquake coverage",
-      "10%: discount mentioned in relation to earthquake coverage",
-      "1986: year of the Insurance Supervision Regulations referenced",
-      "תשמ\"ו: Hebrew year corresponding to 1986",
-      "5: regulation number within the Insurance Supervision Regulations"
+      "פוליסה מס': unknown",
+      "תקנות הפיקוח על עסקי הביטוח: 1986",
+      "השתתפות עצמית: 0.1%",
+      "תעריף רעידת אדמה: 10%"
     ],
     "product_hints": [
       "מכלול",
-      "פוליסת ביטוח",
       "הראל"
     ]
   },
   "sketch": "שים/י לב כי הגשת בקשה להסרת מידע, כאמור, חלה על פוליסות קיימות ועתידיות. כך, ככל שהודעת בעבר שאינך מעונין/ת בהעברת הנתונים, הנתונים לא יועברו גם לגבי פוליסה זו.\nאם ברשותך פוליסת ביטוח בתוקף, עליה הנך מבקש/ת להוסיף כיסוי נוסף, הרחבה או כתב שירות, הוספתם נתונה לבחירתך, והנך רשאי/ת לבחור , לידיעתך תשומת לבך כי בהיעדר כיסוי לפרק מסוים - לא ניתן לרכוש כיסוי להרחבות לאותו פרק. . בהם או לוותר עליהם, מבלי שהדבר יפגע ביתר תנאי הפוליסה",
-  "embed_text": "פוליסת מכלול של הראל מציעה כיסוי למבנה הדירה ולתכולתה, כולל אפשרות לכיסוי מפני רעידות אדמה. תעריף הביטוח לרעידת אדמה נקבע לפי מסכום הביטוח, וקיימת השתתפות עצמית של 0.1%. חשוב לציין כי בהיעדר כיסוי לפרק מסוים, לא ניתן לרכוש הרחבות לאותו פרק.",
-  "payload": "טבלה: מכלול - פוליסת ביטוח\nThis table outlines the terms and conditions for a 'Mecholal' insurance policy from Harel. It details coverage options, data sharing preferences, and potential impacts on claims.\nממדים: Insurance policy details / options, Policy terms, data sharing preferences, coverage details\n\nשים/י לב כי הגשת בקשה להסרת מידע, כאמור, חלה על פוליסות קיימות ועתידיות. כך, ככל שהודעת בעבר שאינך מעונין/ת בהעברת הנתונים, הנתונים לא יועברו גם לגבי פוליסה זו.\nאם ברשותך פוליסת ביטוח בתוקף, עליה הנך מבקש/ת להוסיף כיסוי נוסף, הרחבה או כתב שירות, הוספתם נתונה לבחירתך, והנך רשאי/ת לבחור , לידיעתך תשומת לבך כי בהיעדר כיסוי לפרק מסוים - לא ניתן לרכוש כיסוי להרחבות לאותו פרק. . בהם או לוותר עליהם, מבלי שהדבר יפגע ביתר תנאי הפוליסה"
+  "embed_text": "טבלה זו מתייחסת לתנאים הקשורים להעדפות שיתוף נתונים עבור פוליסות ביטוח 'הראל'. ניתן להסיר מידע מפוליסות קיימות ועתידיות. אם בעבר ביקשת לא להעביר נתונים, הם לא יועברו גם לגבי פוליסה זו. חשוב לדעת שבהיעדר כיסוי לפרק מסוים, לא ניתן לרכוש כיסוי להרחבות לאותו פרק. פוליסה זו מכסה אובדן או נזק שנגרמו כתוצאה מרעידת אדמה למבנה הדירה ו/או לתכולתה. ניתן לשנות תנאים על-פי תקנות הפיקוח על עסקי הביטוח. This table outlines conditions related to data sharing preferences for 'Harel' insurance policies. It details how requests to remove data apply to existing and future policies. בין הערכים בטבלה: פוליסה מס': unknown; השתתפות עצמית: 0.1%; תעריף רעידת אדמה: 10%.",
+  "payload": "טבלה: הצעה לפוליסת מכלול\nThis table outlines conditions related to data sharing preferences for 'Harel' insurance policies. It details how requests to remove data apply to existing and future policies.\nממדים: Data sharing preference / Policy condition, Policy details / Data transfer options\n\nשים/י לב כי הגשת בקשה להסרת מידע, כאמור, חלה על פוליסות קיימות ועתידיות. כך, ככל שהודעת בעבר שאינך מעונין/ת בהעברת הנתונים, הנתונים לא יועברו גם לגבי פוליסה זו.\nאם ברשותך פוליסת ביטוח בתוקף, עליה הנך מבקש/ת להוסיף כיסוי נוסף, הרחבה או כתב שירות, הוספתם נתונה לבחירתך, והנך רשאי/ת לבחור , לידיעתך תשומת לבך כי בהיעדר כיסוי לפרק מסוים - לא ניתן לרכוש כיסוי להרחבות לאותו פרק. . בהם או לוותר עליהם, מבלי שהדבר יפגע ביתר תנאי הפוליסה"
 }

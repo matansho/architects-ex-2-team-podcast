@@ -2,25 +2,27 @@
   "id": "pdf:travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-רוסיתfirst-class.pdf#140",
   "source": "llm",
   "description": {
-    "title": "ביטוח נסיעות רוסיתfirst-class",
-    "summary": "This table details conditions under which travel insurance claims are valid due to trip cancellation. It lists specific medical conditions and events that qualify for reimbursement.",
-    "embed_passage": "פוליסת ביטוח נסיעות רוסיתfirst-class מכסה מקרים של ביטול נסיעה עקב מצבים רפואיים כמו ניתוח לב, שבר או דלקת ריאות. הכיסוי חל על המבוטח, בני משפחתו או מלווים בנסיעה, בתנאי שהמצב התרחש לאחר רכישת הפוליסה. לדוגמה, במקרה של התקף לב או גילוי מחלת סרטן, ניתן לקבל החזר.",
-    "row_axis": "Reasons for trip cancellation (medical conditions/events)",
-    "column_axis": "Details of the condition/event",
+    "title": "תנאי פוליסת ביטוח נסיעות לחול",
+    "summary": "This table details conditions for trip cancellation coverage under a travel insurance policy. It lists specific medical conditions and events that qualify for reimbursement.",
+    "embed_passage": "טבלה זו מתארת את התנאים לכיסוי ביטול נסיעה במסגרת פוליסת ביטוח נסיעות. ניתן לבדוק את הכיסוי עבור מצבים רפואיים ספציפיים, כגון ניתוחי לב, שברים, דלקת ריאות, או סיבוכי הריון. הפוליסה מכסה גם מקרים של התרחשות אסון בבית המבוטח, כגון שריפה או פריצה. מצבים רפואיים הכלולים: ניתוח לב, שבר, דלקת ריאות, הריון בסיכון גבוה, התקף לב, גילוי מחלת סרטן, שבץ. אירועים מכוסים: שריפה, פיצוץ, נזק מכוון, סערה, הצפה.",
+    "row_axis": "covered reasons for trip cancellation",
+    "column_axis": "condition/event details",
     "units": [],
     "notable_values": [
-      "7 days: Minimum time before travel for pneumonia/ear inflammation",
-      "14 days: Cancellation period before trip start",
-      "Operation or heart catheterization: Covered condition",
-      "Fracture: Covered condition",
-      "High-risk pregnancy: Covered condition"
+      "heart surgery: covered",
+      "bone fracture: covered",
+      "pneumonia: covered (with IV medication)",
+      "high-risk pregnancy: covered",
+      "heart attack: covered",
+      "cancer detection: covered",
+      "stroke: covered"
     ],
     "product_hints": [
-      "רוסיתfirst-class",
-      "ביטוח נסיעות"
+      "ביטוח נסיעות לחול",
+      "רוסיתfirst-class"
     ]
   },
   "sketch": "15.2.1.3.  Медицинское состояние в соответствии с определением такового, приведенным ниже, которое имело место или было обнаружено, в соответствии с обстоятельствами, после приобретения данного расширения, для застрахованного и\\или для члена его семейной ячейки и\\или для сопровождающего лица в поездке, вследствие чего данная поездка была отменена по указанию врача, имеется в виду только одно из следующих:\n15.2.1.3.1. Операция или катетеризация сердца\n15.2.1.3.2. Перелом,  включая  повреждение целостности кости, разрыв связки и\\или сухожилия и\\или мениска.\n15.2.1.3.3. Воспаление легких и\\или воспаление ушей, требующее внутривенного приема лекарств, имевшее место как минимум за 7 дней до даты поездки и после приобретения данного расширения.\n15.2.1.3.4. Если женщина ложится на сохранение беременности, либо если ее беременность объявляется «беременностью высокого риска».\n15.2.1.3.5. Сердечный  приступ,  обнаружение онкологического заболевания, инсульт.",
-  "embed_text": "פוליסת ביטוח נסיעות רוסיתfirst-class מכסה מקרים של ביטול נסיעה עקב מצבים רפואיים כמו ניתוח לב, שבר או דלקת ריאות. הכיסוי חל על המבוטח, בני משפחתו או מלווים בנסיעה, בתנאי שהמצב התרחש לאחר רכישת הפוליסה. לדוגמה, במקרה של התקף לב או גילוי מחלת סרטן, ניתן לקבל החזר.",
-  "payload": "טבלה: ביטוח נסיעות רוסיתfirst-class\nThis table details conditions under which travel insurance claims are valid due to trip cancellation. It lists specific medical conditions and events that qualify for reimbursement.\nממדים: Reasons for trip cancellation (medical conditions/events), Details of the condition/event\n\n15.2.1.3.  Медицинское состояние в соответствии с определением такового, приведенным ниже, которое имело место или было обнаружено, в соответствии с обстоятельствами, после приобретения данного расширения, для застрахованного и\\или для члена его семейной ячейки и\\или для сопровождающего лица в поездке, вследствие чего данная поездка была отменена по указанию врача, имеется в виду только одно из следующих:\n15.2.1.3.1. Операция или катетеризация сердца\n15.2.1.3.2. Перелом,  включая  повреждение целостности кости, разрыв связки и\\или сухожилия и\\или мениска.\n15.2.1.3.3. Воспаление легких и\\или воспаление ушей, требующее внутривенного приема лекарств, имевшее место как минимум за 7 дней до даты поездки и после приобретения данного расширения.\n15.2.1.3.4. Если женщина ложится на сохранение беременности, либо если ее беременность объявляется «беременностью высокого риска».\n15.2.1.3.5. Сердечный  приступ,  обнаружение онкологического заболевания, инсульт."
+  "embed_text": "טבלה זו מתארת את התנאים לכיסוי ביטול נסיעה במסגרת פוליסת ביטוח נסיעות. ניתן לבדוק את הכיסוי עבור מצבים רפואיים ספציפיים, כגון ניתוחי לב, שברים, דלקת ריאות, או סיבוכי הריון. הפוליסה מכסה גם מקרים של התרחשות אסון בבית המבוטח, כגון שריפה או פריצה. מצבים רפואיים הכלולים: ניתוח לב, שבר, דלקת ריאות, הריון בסיכון גבוה, התקף לב, גילוי מחלת סרטן, שבץ. אירועים מכוסים: שריפה, פיצוץ, נזק מכוון, סערה, הצפה. This table details conditions for trip cancellation coverage under a travel insurance policy. It lists specific medical conditions and events that qualify for reimbursement. בין הערכים בטבלה: heart surgery: covered; bone fracture: covered; pneumonia: covered (with IV medication); high-risk pregnancy: covered; heart attack: covered; cancer detection: covered; stroke: covered.",
+  "payload": "טבלה: תנאי פוליסת ביטוח נסיעות לחול\nThis table details conditions for trip cancellation coverage under a travel insurance policy. It lists specific medical conditions and events that qualify for reimbursement.\nממדים: covered reasons for trip cancellation, condition/event details\n\n15.2.1.3.  Медицинское состояние в соответствии с определением такового, приведенным ниже, которое имело место или было обнаружено, в соответствии с обстоятельствами, после приобретения данного расширения, для застрахованного и\\или для члена его семейной ячейки и\\или для сопровождающего лица в поездке, вследствие чего данная поездка была отменена по указанию врача, имеется в виду только одно из следующих:\n15.2.1.3.1. Операция или катетеризация сердца\n15.2.1.3.2. Перелом,  включая  повреждение целостности кости, разрыв связки и\\или сухожилия и\\или мениска.\n15.2.1.3.3. Воспаление легких и\\или воспаление ушей, требующее внутривенного приема лекарств, имевшее место как минимум за 7 дней до даты поездки и после приобретения данного расширения.\n15.2.1.3.4. Если женщина ложится на сохранение беременности, либо если ее беременность объявляется «беременностью высокого риска».\n15.2.1.3.5. Сердечный  приступ,  обнаружение онкологического заболевания, инсульт."
 }

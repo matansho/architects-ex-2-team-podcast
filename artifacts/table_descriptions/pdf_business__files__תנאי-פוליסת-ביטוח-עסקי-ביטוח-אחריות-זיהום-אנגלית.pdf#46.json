@@ -3,20 +3,22 @@
   "source": "llm",
   "description": {
     "title": "מגבלות אחריות וניכוי",
-    "summary": "This table details the limits of liability and deductible amounts for a pollution insurance policy. It specifies the maximum payout for individual pollution events and the aggregate policy limit.",
-    "embed_passage": "פוליסת ביטוח אחריות זיהום מגדירה את סכום הפיצוי המקסימלי עבור כל אירוע זיהום, כפי שמצוין בסעיף 3 בנספוחים, וכן את סכום הפיצוי המצטבר הכולל. סכום הפיצוי עבור כל אירוע זיהום מוגבל, ואיננו מחויבים לשלם מעבר לסכום שהוגש לבית המשפט או שנוצל לתשלום עבור עלויות ניקיון, הפסדים או הפסדים אחרים.",
-    "row_axis": "Liability limits and deductible conditions",
-    "column_axis": "Types of limits (Each Pollution Event, Aggregate Policy)",
+    "summary": "This table details the limits of liability and deductible amounts for a pollution insurance policy. It specifies limits for each pollution event and the aggregate policy limit.",
+    "embed_passage": "טבלה זו מתארת את מגבלות האחריות והסכום שייגבה (ניכוי) בפוליסת ביטוח זיהום. היא מפרטת את המגבלות עבור כל אירוע זיהום ואת מגבלת הפוליסה הכוללת. הפוליסה רלוונטית ל'עלויות ניקיון', 'הפסד' או 'הפסד אחר' הנובעים מ'אירוע זיהום'. ניתן למצוא את המגבלות בפוליסה בסעיף 3 של ההצהרות. ביטוח אחריות זיהום מכסה 'תביעה' או 'אירוע זיהום'.",
+    "row_axis": "סוג מגבלה (Each Pollution Event Limit, Aggregate Policy Limit)",
+    "column_axis": "תיאור המגבלה, תנאים",
     "units": [],
     "notable_values": [
-      "Item 3: Declarations reference",
-      "60: Days for extended reporting period (no additional charge)"
+      "Each Pollution Event Limit: Item 3 of the Declarations",
+      "Aggregate Policy Limit: Item 3 of the Declarations",
+      "Extended Reporting Period: 60 days",
+      "Discovery: final thirty (30) days of the policy period"
     ],
     "product_hints": [
       "ביטוח אחריות זיהום"
     ]
   },
   "sketch": "VI. LIMITS OF LIABILITY AND DEDUCTIBLE\nA.  EACH POLLUTION EVENT LIMIT\nSubject to the Aggregate Policy Limit, the most we will pay for all 'cleanup costs', 'loss',  or  \"other  loss\"  arising  out  of  the  same,  continuous  or  repeated  \"pollution event\" or series of related \"pollution events\" is the Each Pollution Event Limit set forth in Item 3 of the Declarations.\nWe shall  not  be  obligated  to  pay  any  'cleanup  costs',  'loss',  or  \"other  loss\",  or undertake or continue the defense of any 'claim\", pending or future, after the Each Pollution Event Limit has been tendered into court or exhausted by payments for 'cleanup costs', 'loss', or \"other loss\".",
-  "embed_text": "פוליסת ביטוח אחריות זיהום מגדירה את סכום הפיצוי המקסימלי עבור כל אירוע זיהום, כפי שמצוין בסעיף 3 בנספוחים, וכן את סכום הפיצוי המצטבר הכולל. סכום הפיצוי עבור כל אירוע זיהום מוגבל, ואיננו מחויבים לשלם מעבר לסכום שהוגש לבית המשפט או שנוצל לתשלום עבור עלויות ניקיון, הפסדים או הפסדים אחרים.",
-  "payload": "טבלה: מגבלות אחריות וניכוי\nThis table details the limits of liability and deductible amounts for a pollution insurance policy. It specifies the maximum payout for individual pollution events and the aggregate policy limit.\nממדים: Liability limits and deductible conditions, Types of limits (Each Pollution Event, Aggregate Policy)\n\nVI. LIMITS OF LIABILITY AND DEDUCTIBLE\nA.  EACH POLLUTION EVENT LIMIT\nSubject to the Aggregate Policy Limit, the most we will pay for all 'cleanup costs', 'loss',  or  \"other  loss\"  arising  out  of  the  same,  continuous  or  repeated  \"pollution event\" or series of related \"pollution events\" is the Each Pollution Event Limit set forth in Item 3 of the Declarations.\nWe shall  not  be  obligated  to  pay  any  'cleanup  costs',  'loss',  or  \"other  loss\",  or undertake or continue the defense of any 'claim\", pending or future, after the Each Pollution Event Limit has been tendered into court or exhausted by payments for 'cleanup costs', 'loss', or \"other loss\"."
+  "embed_text": "טבלה זו מתארת את מגבלות האחריות והסכום שייגבה (ניכוי) בפוליסת ביטוח זיהום. היא מפרטת את המגבלות עבור כל אירוע זיהום ואת מגבלת הפוליסה הכוללת. הפוליסה רלוונטית ל'עלויות ניקיון', 'הפסד' או 'הפסד אחר' הנובעים מ'אירוע זיהום'. ניתן למצוא את המגבלות בפוליסה בסעיף 3 של ההצהרות. ביטוח אחריות זיהום מכסה 'תביעה' או 'אירוע זיהום'. This table details the limits of liability and deductible amounts for a pollution insurance policy. It specifies limits for each pollution event and the aggregate policy limit. בין הערכים בטבלה: Each Pollution Event Limit: Item 3 of the Declarations; Aggregate Policy Limit: Item 3 of the Declarations; Extended Reporting Period: 60 days; Discovery: final thirty (30) days of the policy period.",
+  "payload": "טבלה: מגבלות אחריות וניכוי\nThis table details the limits of liability and deductible amounts for a pollution insurance policy. It specifies limits for each pollution event and the aggregate policy limit.\nממדים: סוג מגבלה (Each Pollution Event Limit, Aggregate Policy Limit), תיאור המגבלה, תנאים\n\nVI. LIMITS OF LIABILITY AND DEDUCTIBLE\nA.  EACH POLLUTION EVENT LIMIT\nSubject to the Aggregate Policy Limit, the most we will pay for all 'cleanup costs', 'loss',  or  \"other  loss\"  arising  out  of  the  same,  continuous  or  repeated  \"pollution event\" or series of related \"pollution events\" is the Each Pollution Event Limit set forth in Item 3 of the Declarations.\nWe shall  not  be  obligated  to  pay  any  'cleanup  costs',  'loss',  or  \"other  loss\",  or undertake or continue the defense of any 'claim\", pending or future, after the Each Pollution Event Limit has been tendered into court or exhausted by payments for 'cleanup costs', 'loss', or \"other loss\"."
 }

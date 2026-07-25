@@ -2,22 +2,22 @@
   "id": "pdf:apartment/files/תנאי-הפוליסה-לביטוח-אדירה-ארד-מהדורת-ספטמבר-2017.pdf#49",
   "source": "llm",
   "description": {
-    "title": "חישוב פיצויים - אדירה ארד",
-    "summary": "This table details how insurance payouts are calculated for losses under the 'Adira Erd' policy. It outlines how compensation is determined based on loss value, policy limits, and specific conditions.",
-    "embed_passage": "פוליסת 'אדירה ארד' מגדירה את חישוב הפיצויים על סמך שווי האבדן או הנזק, אך לא יעלה על סכום הביטוח הנקוב במפרט התכולה. תגמולי הביטוח בשל אבדן או נזק לכמה פריטים לא יעלו על 23. המטרה היא להחזיר את המבוטח למצב שהיה בו לפני מקרה הביטוח.",
-    "row_axis": "Compensation calculation rules/clauses",
-    "column_axis": "Details of compensation calculation",
+    "title": "חישוב הפיצוי",
+    "summary": "This table details how insurance compensation is calculated for loss or damage. It outlines how benefits are determined based on the loss value, the insured amount, and specific limitations.",
+    "embed_passage": "טבלה זו עוסקת בחישוב הפיצויים במסגרת פוליסת ביטוח אדירה ארד. החישוב מתבסס על שווי האבדן או הנזק, אך לא יעלה על סכום הביטוח הנקוב במפרט כסכום ביטוח התכולה. תגמולי הביטוח יחושבו כך שיחזירו את המבוטח, ככל האפשר, למצב שהיה בו לפני מקרה הביטוח. אדירה ארד, סכום ביטוח התכולה, אבדן, נזק, תגמולי ביטוח, מקרה ביטוח הם מושגים מרכזיים בטבלה זו.",
+    "row_axis": "Calculation rules for compensation",
+    "column_axis": "Details of the compensation calculation",
     "units": [],
     "notable_values": [
-      "Maximum compensation for multiple items: 23",
-      "Compensation aims to restore pre-loss condition"
+      "סכום ביטוח התכולה: maximum compensation limit",
+      "23: maximum compensation for multiple items",
+      "5%: limit on compensation for items in certain situations"
     ],
     "product_hints": [
-      "אדירה ארד",
-      "ביטוח תכולה"
+      "אדירה ארד"
     ]
   },
   "sketch": ". חישוב הפיצוי 14\n, . תגמולי הביטוח שיגיעו למבוטח על פי פרק זה יחושבו וישולמו לפי שווי האבדן או הנזק 14.1 ואולם לא ישולם יותר מסכום הביטוח הנקוב במפרט כסכום ביטוח התכולה והכול בכפוף להלן. תגמולי הביטוח בשל אבדן או נזק לכמה פריטים לא יעלו על 23 לאמור בסעיף הסכום הנקוב במפרט, אם נקוב, כסכום הביטוח של הפריטים.\n. תגמולי הביטוח יחושבו באופן שיביא את המבוטח, ככל האפשר, למצב שהיה נמצא בו 14.2 אלמלא קרה מקרה הביטוח.",
-  "embed_text": "פוליסת 'אדירה ארד' מגדירה את חישוב הפיצויים על סמך שווי האבדן או הנזק, אך לא יעלה על סכום הביטוח הנקוב במפרט התכולה. תגמולי הביטוח בשל אבדן או נזק לכמה פריטים לא יעלו על 23. המטרה היא להחזיר את המבוטח למצב שהיה בו לפני מקרה הביטוח.",
-  "payload": "טבלה: חישוב פיצויים - אדירה ארד\nThis table details how insurance payouts are calculated for losses under the 'Adira Erd' policy. It outlines how compensation is determined based on loss value, policy limits, and specific conditions.\nממדים: Compensation calculation rules/clauses, Details of compensation calculation\n\n. חישוב הפיצוי 14\n, . תגמולי הביטוח שיגיעו למבוטח על פי פרק זה יחושבו וישולמו לפי שווי האבדן או הנזק 14.1 ואולם לא ישולם יותר מסכום הביטוח הנקוב במפרט כסכום ביטוח התכולה והכול בכפוף להלן. תגמולי הביטוח בשל אבדן או נזק לכמה פריטים לא יעלו על 23 לאמור בסעיף הסכום הנקוב במפרט, אם נקוב, כסכום הביטוח של הפריטים.\n. תגמולי הביטוח יחושבו באופן שיביא את המבוטח, ככל האפשר, למצב שהיה נמצא בו 14.2 אלמלא קרה מקרה הביטוח."
+  "embed_text": "טבלה זו עוסקת בחישוב הפיצויים במסגרת פוליסת ביטוח אדירה ארד. החישוב מתבסס על שווי האבדן או הנזק, אך לא יעלה על סכום הביטוח הנקוב במפרט כסכום ביטוח התכולה. תגמולי הביטוח יחושבו כך שיחזירו את המבוטח, ככל האפשר, למצב שהיה בו לפני מקרה הביטוח. אדירה ארד, סכום ביטוח התכולה, אבדן, נזק, תגמולי ביטוח, מקרה ביטוח הם מושגים מרכזיים בטבלה זו. This table details how insurance compensation is calculated for loss or damage. It outlines how benefits are determined based on the loss value, the insured amount, and specific limitations. בין הערכים בטבלה: 23: maximum compensation for multiple items; 5%: limit on compensation for items in certain situations.",
+  "payload": "טבלה: חישוב הפיצוי\nThis table details how insurance compensation is calculated for loss or damage. It outlines how benefits are determined based on the loss value, the insured amount, and specific limitations.\nממדים: Calculation rules for compensation, Details of the compensation calculation\n\n. חישוב הפיצוי 14\n, . תגמולי הביטוח שיגיעו למבוטח על פי פרק זה יחושבו וישולמו לפי שווי האבדן או הנזק 14.1 ואולם לא ישולם יותר מסכום הביטוח הנקוב במפרט כסכום ביטוח התכולה והכול בכפוף להלן. תגמולי הביטוח בשל אבדן או נזק לכמה פריטים לא יעלו על 23 לאמור בסעיף הסכום הנקוב במפרט, אם נקוב, כסכום הביטוח של הפריטים.\n. תגמולי הביטוח יחושבו באופן שיביא את המבוטח, ככל האפשר, למצב שהיה נמצא בו 14.2 אלמלא קרה מקרה הביטוח."
 }

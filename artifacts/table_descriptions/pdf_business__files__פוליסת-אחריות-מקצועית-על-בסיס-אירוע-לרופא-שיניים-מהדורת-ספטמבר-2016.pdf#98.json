@@ -2,24 +2,24 @@
   "id": "pdf:business/files/פוליסת-אחריות-מקצועית-על-בסיס-אירוע-לרופא-שיניים-מהדורת-ספטמבר-2016.pdf#98",
   "source": "llm",
   "description": {
-    "title": "אחריות מקצועית - רופא שיניים",
-    "summary": "This table outlines conditions under which the insurer is not liable to pay benefits under a professional liability policy for dentists. It details scenarios related to preventing investigation, false information, and failure to mitigate damages.",
-    "embed_passage": "פוליסת אחריות מקצועית לרופא שיניים מגדירה מקרים בהם התגמולים לא ישולמו, לדוגמה, אם המבוטח עשה דבר במתכוון כדי למנוע מהמבטח את בירור חבותו.  הפוליסה בוחנת את התנהגות המבוטח לפני ואחרי קרות מקרה הביטוח, וכן את נקיטת אמצעים סבירים להקטנת נזקים. לדוגמה, סעיף 4.9.8 מציין שאם המבוטח הכביד על בירור חבות המבטח, המבטח לא חייב בתגמולי ביטוח.",
-    "row_axis": "conditions for non-liability",
-    "column_axis": "policy clauses/explanations",
+    "title": "פוליסת אחריות מקצועית",
+    "summary": "This table outlines conditions under which the insurer may be exempt from coverage under a professional liability policy. It details scenarios related to intentional acts, failure to cooperate, and preventable damages.",
+    "embed_passage": "טבלה זו מתארת תנאים בפוליסת אחריות מקצועית לרופא שיניים, המפרטים מקרים בהם המבטח לא יהיה חייב בתגמולי ביטוח. המידע מציג מצבים כגון מניעת בירור חבות המבטח, מסירת עובדות כוזבות, או אי נקיטת אמצעים סבירים למניעת נזק. ניתן לעיין בתנאים אלה כדי להבין את היקף הכיסוי והחרגות בפוליסה. התנאים כוללים: מניעת בירור חבות המבטח, מסירת עובדות כוזבות, נזק שניתן היה למנוע, הוצאות סבירות למניעת נזק או הקטנתו. ",
+    "row_axis": "conditions for exemption from coverage",
+    "column_axis": "details of the condition and its impact on coverage",
     "units": [],
     "notable_values": [
-      "4.9.8: intentional prevention of investigation",
-      "4.9.9: failure to mitigate damages",
-      "4.9.10: reasonable expenses for damage control are reimbursed",
-      "4.10.1: insurer can manage claims on behalf of the insured"
+      "intentional prevention of investigation: full exemption",
+      "false statements: full exemption",
+      "preventable damage: full exemption",
+      "reasonable expenses for damage prevention: reimbursement"
     ],
     "product_hints": [
-      "אחריות מקצועית",
-      "רופא שיניים"
+      "פוליסת אחריות מקצועית",
+      "אחריות מקצועית לרופא שיניים"
     ]
   },
   "sketch": "עשה המבוטח במתכוון דבר שהיה בו כדי למנוע מהמבטח את בירור חבותו .4.9.8 או להכביד עליו, אין המבטח חייב בתגמולי ביטוח, אלא במידה שהיה חייב בהם, אילו לא נעשה אותו דבר.\nאין המבטח חייב בתגמולי ביטוח בגין נזק שהמבוטח יכול היה למנוע, או .4.9.9 להקטין בקרות מקרה הביטוח או לאחר מכן, בנקיטת אמצעים סבירים או אמצעים שהמבטח הורה לו לנקוט.",
-  "embed_text": "פוליסת אחריות מקצועית לרופא שיניים מגדירה מקרים בהם התגמולים לא ישולמו, לדוגמה, אם המבוטח עשה דבר במתכוון כדי למנוע מהמבטח את בירור חבותו.  הפוליסה בוחנת את התנהגות המבוטח לפני ואחרי קרות מקרה הביטוח, וכן את נקיטת אמצעים סבירים להקטנת נזקים. לדוגמה, סעיף 4.9.8 מציין שאם המבוטח הכביד על בירור חבות המבטח, המבטח לא חייב בתגמולי ביטוח.",
-  "payload": "טבלה: אחריות מקצועית - רופא שיניים\nThis table outlines conditions under which the insurer is not liable to pay benefits under a professional liability policy for dentists. It details scenarios related to preventing investigation, false information, and failure to mitigate damages.\nממדים: conditions for non-liability, policy clauses/explanations\n\nעשה המבוטח במתכוון דבר שהיה בו כדי למנוע מהמבטח את בירור חבותו .4.9.8 או להכביד עליו, אין המבטח חייב בתגמולי ביטוח, אלא במידה שהיה חייב בהם, אילו לא נעשה אותו דבר.\nאין המבטח חייב בתגמולי ביטוח בגין נזק שהמבוטח יכול היה למנוע, או .4.9.9 להקטין בקרות מקרה הביטוח או לאחר מכן, בנקיטת אמצעים סבירים או אמצעים שהמבטח הורה לו לנקוט."
+  "embed_text": "טבלה זו מתארת תנאים בפוליסת אחריות מקצועית לרופא שיניים, המפרטים מקרים בהם המבטח לא יהיה חייב בתגמולי ביטוח. המידע מציג מצבים כגון מניעת בירור חבות המבטח, מסירת עובדות כוזבות, או אי נקיטת אמצעים סבירים למניעת נזק. ניתן לעיין בתנאים אלה כדי להבין את היקף הכיסוי והחרגות בפוליסה. התנאים כוללים: מניעת בירור חבות המבטח, מסירת עובדות כוזבות, נזק שניתן היה למנוע, הוצאות סבירות למניעת נזק או הקטנתו. This table outlines conditions under which the insurer may be exempt from coverage under a professional liability policy. It details scenarios related to intentional acts, failure to cooperate, and preventable damages. בין הערכים בטבלה: intentional prevention of investigation: full exemption; false statements: full exemption; preventable damage: full exemption; reasonable expenses for damage preventio…",
+  "payload": "טבלה: פוליסת אחריות מקצועית\nThis table outlines conditions under which the insurer may be exempt from coverage under a professional liability policy. It details scenarios related to intentional acts, failure to cooperate, and preventable damages.\nממדים: conditions for exemption from coverage, details of the condition and its impact on coverage\n\nעשה המבוטח במתכוון דבר שהיה בו כדי למנוע מהמבטח את בירור חבותו .4.9.8 או להכביד עליו, אין המבטח חייב בתגמולי ביטוח, אלא במידה שהיה חייב בהם, אילו לא נעשה אותו דבר.\nאין המבטח חייב בתגמולי ביטוח בגין נזק שהמבוטח יכול היה למנוע, או .4.9.9 להקטין בקרות מקרה הביטוח או לאחר מכן, בנקיטת אמצעים סבירים או אמצעים שהמבטח הורה לו לנקוט."
 }

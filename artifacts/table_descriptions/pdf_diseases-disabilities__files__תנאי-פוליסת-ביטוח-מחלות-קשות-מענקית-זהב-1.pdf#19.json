@@ -3,23 +3,22 @@
   "source": "llm",
   "description": {
     "title": "תנאי פוליסת ביטוח מחלות קשות מענקית זהב",
-    "summary": "This table outlines conditions where the insurer is not entitled to remedies under the 'מענקית זהב' critical illness insurance policy. It details scenarios related to incomplete or dishonest responses provided by the insured.",
-    "embed_passage": "פוליסת 'מענקית זהב' מגדירה תנאים בהם המבטח לא יהיה זכאי לתרופות, למשל אם המבוטח ידע על מצבו הרפואי ולא מסר מידע מלא וכנה בעת כריתת החוזה. תנאים אלו חלים אלא אם המצב הרפואי לא השפיע על חבות המבטח או על היקפה. לאחר שלוש שנים ממועד כריתת החוזה, המבטח לא יהיה זכאי לתרופות אלא אם פעל המבוטח בכוונת מרמה.",
+    "summary": "This table outlines conditions under which the insurer is not entitled to remedies, specifically related to incomplete or dishonest responses provided by the insured. It details scenarios where the insurer's liability may be affected.",
+    "embed_passage": "טבלה זו מתארת תנאים בפוליסת ביטוח מחלות קשות מענקית זהב, המפרטים מקרים בהם המבטח אינו זכאי לתרופות עקב תשובות לא מלאות או לא כנות מהמבוטח. המטרה היא להבהיר את חובות הגילוי של המבוטח ואת השפעתן על תביעות עתידיות. הטבלה בודקת מצבים כגון ידע מוקדם של המצב הרפואי, השפעת המצב על מקרה הביטוח, ומשך הזמן שחלף מאז כריתת החוזה. המבטח אינו זכאי לתרופות אם התשובה לא הייתה מלאה וכנה, אם העובדה שעליה ניתנה התשובה חדלה להתקיים לפני מקרה הביטוח, או לאחר שלוש שנים מכריתת החוזה (אלא אם פעל בכוונת מרמה).",
     "row_axis": "Conditions for insurer's lack of remedies",
-    "column_axis": "Specific scenarios related to insured's disclosures",
+    "column_axis": "Specific scenarios related to insured's responses",
     "units": [],
     "notable_values": [
-      "4.4: General condition for lack of remedies",
-      "4.4.1: Insured knew the condition",
-      "4.4.2: Condition did not affect the risk",
-      "4.4.3: Three years after contract signing"
+      "כוונת מרמה: applicable",
+      "שלוש שנים: time period after contract",
+      "תשובה לא מלאה: condition for remedies",
+      "תשובה לא כנה: condition for remedies"
     ],
     "product_hints": [
-      "מענקית זהב",
-      "ביטוח מחלות קשות"
+      "מענקית זהב"
     ]
   },
   "sketch": "4.4 המבטח  אינו  זכאי  לתרופות  האמורות לעיל בכל אחת מאלה, אלא אם התשובה שלא  היתה  מלאה  וכנה  ניתנה  בכוונת מרמה:\n4.4.1 הוא  ידע  או היה עליו לדעת את המצב  לאמיתו  בשעת  כריתת לכך גרם שהוא או החוזה מלאה היתה לא שהתשובה וכנה.\n4.4.2 העובדה  שעליה  ניתנה  תשובה שלא  היתה  מלאה  וכנה  חדלה מקרה שקרה לפני להתקיים הביטוח,  או  שלא  השפיעה  על מקרהו, על חבות המבטח או על היקפה.\n4.4.3 בתגמולי שמדובר במידה פיצוי מסוג ביטוח בתגמולי לתרופות זכאי אינו המבטח, האמורות  לעיל,  לאחר  שעברו , החוזה מכריתת שלוש  שנים זולת  אם  המבוטח  פעל  בכוונת מרמה.",
-  "embed_text": "פוליסת 'מענקית זהב' מגדירה תנאים בהם המבטח לא יהיה זכאי לתרופות, למשל אם המבוטח ידע על מצבו הרפואי ולא מסר מידע מלא וכנה בעת כריתת החוזה. תנאים אלו חלים אלא אם המצב הרפואי לא השפיע על חבות המבטח או על היקפה. לאחר שלוש שנים ממועד כריתת החוזה, המבטח לא יהיה זכאי לתרופות אלא אם פעל המבוטח בכוונת מרמה.",
-  "payload": "טבלה: תנאי פוליסת ביטוח מחלות קשות מענקית זהב\nThis table outlines conditions where the insurer is not entitled to remedies under the 'מענקית זהב' critical illness insurance policy. It details scenarios related to incomplete or dishonest responses provided by the insured.\nממדים: Conditions for insurer's lack of remedies, Specific scenarios related to insured's disclosures\n\n4.4 המבטח  אינו  זכאי  לתרופות  האמורות לעיל בכל אחת מאלה, אלא אם התשובה שלא  היתה  מלאה  וכנה  ניתנה  בכוונת מרמה:\n4.4.1 הוא  ידע  או היה עליו לדעת את המצב  לאמיתו  בשעת  כריתת לכך גרם שהוא או החוזה מלאה היתה לא שהתשובה וכנה.\n4.4.2 העובדה  שעליה  ניתנה  תשובה שלא  היתה  מלאה  וכנה  חדלה מקרה שקרה לפני להתקיים הביטוח,  או  שלא  השפיעה  על מקרהו, על חבות המבטח או על היקפה.\n4.4.3 בתגמולי שמדובר במידה פיצוי מסוג ביטוח בתגמולי לתרופות זכאי אינו המבטח, האמורות  לעיל,  לאחר  שעברו , החוזה מכריתת שלוש  שנים זולת  אם  המבוטח  פעל  בכוונת מרמה."
+  "embed_text": "טבלה זו מתארת תנאים בפוליסת ביטוח מחלות קשות מענקית זהב, המפרטים מקרים בהם המבטח אינו זכאי לתרופות עקב תשובות לא מלאות או לא כנות מהמבוטח. המטרה היא להבהיר את חובות הגילוי של המבוטח ואת השפעתן על תביעות עתידיות. הטבלה בודקת מצבים כגון ידע מוקדם של המצב הרפואי, השפעת המצב על מקרה הביטוח, ומשך הזמן שחלף מאז כריתת החוזה. המבטח אינו זכאי לתרופות אם התשובה לא הייתה מלאה וכנה, אם העובדה שעליה ניתנה התשובה חדלה להתקיים לפני מקרה הביטוח, או לאחר שלוש שנים מכריתת החוזה (אלא אם פעל בכוונת מרמה). This table outlines conditions under which the insurer is not entitled to remedies, specifically related to incomplete or dishonest responses provided by the insured. It details scenarios where the insurer's liability may be affected. בין הערכים בטבלה: תשובה לא מלאה: condition for remedies; תשובה לא כנה: co…",
+  "payload": "טבלה: תנאי פוליסת ביטוח מחלות קשות מענקית זהב\nThis table outlines conditions under which the insurer is not entitled to remedies, specifically related to incomplete or dishonest responses provided by the insured. It details scenarios where the insurer's liability may be affected.\nממדים: Conditions for insurer's lack of remedies, Specific scenarios related to insured's responses\n\n4.4 המבטח  אינו  זכאי  לתרופות  האמורות לעיל בכל אחת מאלה, אלא אם התשובה שלא  היתה  מלאה  וכנה  ניתנה  בכוונת מרמה:\n4.4.1 הוא  ידע  או היה עליו לדעת את המצב  לאמיתו  בשעת  כריתת לכך גרם שהוא או החוזה מלאה היתה לא שהתשובה וכנה.\n4.4.2 העובדה  שעליה  ניתנה  תשובה שלא  היתה  מלאה  וכנה  חדלה מקרה שקרה לפני להתקיים הביטוח,  או  שלא  השפיעה  על מקרהו, על חבות המבטח או על היקפה.\n4.4.3 בתגמולי שמדובר במידה פיצוי מסוג ביטוח בתגמולי לתרופות זכאי אינו המבטח, האמורות  לעיל,  לאחר  שעברו , החוזה מכריתת שלוש  שנים זולת  אם  המבוטח  פעל  בכוונת מרמה."
 }

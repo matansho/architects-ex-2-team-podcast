@@ -2,25 +2,21 @@
   "id": "pdf:car/files/חוברת-כללים-תביעות-רכב-צד-ג.pdf#86",
   "source": "llm",
   "description": {
-    "title": "מועדי טיפול בפניות",
-    "summary": "This table details the response times for written requests related to Harel insurance policies. It specifies the number of business days required to provide copies of documents or respond to requests.",
-    "embed_passage": "בהראל חברה לביטוח, זמן הטיפול בפנייה בכתב לקבלת העתקים מהפוליסה הוא עד 14 ימי עסקים. במקרים מסוימים, כמו קבלת מסמך חתום מהתובע, זמן הטיפול עשוי להתארך עד 21 ימי עסקים. טבלה זו מפרטת את המועדים הקבועים בחוזר 'יישוב תביעות וטיפול בפניות הציבור'.",
-    "row_axis": "Type of request",
-    "column_axis": "Response time (business days)",
-    "units": [
-      "ימי עסקים"
-    ],
+    "title": "מועדי מענה לפניות",
+    "summary": "This table details response times for written requests, specifically regarding policy copies and signed documents. It outlines the number of business days allowed for providing these items.",
+    "embed_passage": "טבלה זו מתארת את מועדי המענה לפניות בכתב, כפי שנקבעו בחוזר 'יישוב תביעות וטיפול בפניות הציבור'. המידע מציג את מספר ימי העסקים המוקצים למענה על בקשות לקבלת העתקים מפוליסה או מסמכים חתומים על ידי התובע. הראל חברה לביטוח מציינת את המועדים הקבועים לטיפול בפניות אזרחים. לדוגמה, מענה לבקשה לקבלת העתקים מהפוליסה הוא עד 14 ימי עסקים, בעוד שמענה לבקשה לקבלת מסמך חתום על ידי התובע הוא עד 21 ימי עסקים. הראל, מועדי מענה, פוליסה, תובע, ימי עסקים.",
+    "row_axis": "סוג הפנייה (בקשה לקבלת העתקים / מסמך חתום)",
+    "column_axis": "מועד מענה (ימי עסקים)",
+    "units": [],
     "notable_values": [
-      "request type: 8",
-      "response time: 14",
-      "request type: 8",
-      "response time: 21"
+      "הבקשה. קבלת ממועד עסקים ימי 14",
+      "הבקשה. קבלת ממועד עסקים ימי 21"
     ],
     "product_hints": [
-      "Harel"
+      "הראל"
     ]
   },
   "sketch": "ר. לפניית בכתב מענה אזרח של ציבור לפניית בכתב מענה ותיק,)יד( 8\nהבקשה. קבלת ממועד עסקים ימי 14,או מפוליסה העתקים מסירת מתקנון.,(1)( )טו 8\nהבקשה. קבלת ממועד עסקים ימי 21,שעליו מסמך מכל העתקים מסירת התובע. חתם,(3)( )טו 8",
-  "embed_text": "בהראל חברה לביטוח, זמן הטיפול בפנייה בכתב לקבלת העתקים מהפוליסה הוא עד 14 ימי עסקים. במקרים מסוימים, כמו קבלת מסמך חתום מהתובע, זמן הטיפול עשוי להתארך עד 21 ימי עסקים. טבלה זו מפרטת את המועדים הקבועים בחוזר 'יישוב תביעות וטיפול בפניות הציבור'.",
-  "payload": "טבלה: מועדי טיפול בפניות\nThis table details the response times for written requests related to Harel insurance policies. It specifies the number of business days required to provide copies of documents or respond to requests.\nממדים: Type of request, Response time (business days)\n\nר. לפניית בכתב מענה אזרח של ציבור לפניית בכתב מענה ותיק,)יד( 8\nהבקשה. קבלת ממועד עסקים ימי 14,או מפוליסה העתקים מסירת מתקנון.,(1)( )טו 8\nהבקשה. קבלת ממועד עסקים ימי 21,שעליו מסמך מכל העתקים מסירת התובע. חתם,(3)( )טו 8"
+  "embed_text": "טבלה זו מתארת את מועדי המענה לפניות בכתב, כפי שנקבעו בחוזר 'יישוב תביעות וטיפול בפניות הציבור'. המידע מציג את מספר ימי העסקים המוקצים למענה על בקשות לקבלת העתקים מפוליסה או מסמכים חתומים על ידי התובע. הראל חברה לביטוח מציינת את המועדים הקבועים לטיפול בפניות אזרחים. לדוגמה, מענה לבקשה לקבלת העתקים מהפוליסה הוא עד 14 ימי עסקים, בעוד שמענה לבקשה לקבלת מסמך חתום על ידי התובע הוא עד 21 ימי עסקים. הראל, מועדי מענה, פוליסה, תובע, ימי עסקים. This table details response times for written requests, specifically regarding policy copies and signed documents. It outlines the number of business days allowed for providing these items. בין הערכים בטבלה: הבקשה. קבלת ממועד עסקים ימי 14; הבקשה. קבלת ממועד עסקים ימי 21.",
+  "payload": "טבלה: מועדי מענה לפניות\nThis table details response times for written requests, specifically regarding policy copies and signed documents. It outlines the number of business days allowed for providing these items.\nממדים: סוג הפנייה (בקשה לקבלת העתקים / מסמך חתום), מועד מענה (ימי עסקים)\n\nר. לפניית בכתב מענה אזרח של ציבור לפניית בכתב מענה ותיק,)יד( 8\nהבקשה. קבלת ממועד עסקים ימי 14,או מפוליסה העתקים מסירת מתקנון.,(1)( )טו 8\nהבקשה. קבלת ממועד עסקים ימי 21,שעליו מסמך מכל העתקים מסירת התובע. חתם,(3)( )טו 8"
 }

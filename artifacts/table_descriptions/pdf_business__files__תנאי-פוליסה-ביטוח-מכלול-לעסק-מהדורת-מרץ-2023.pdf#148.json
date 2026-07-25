@@ -2,24 +2,23 @@
   "id": "pdf:business/files/תנאי-פוליסה-ביטוח-מכלול-לעסק-מהדורת-מרץ-2023.pdf#148",
   "source": "llm",
   "description": {
-    "title": "מכלול ביטוח לעסק",
-    "summary": "This table outlines insurance coverage details for businesses, specifically regarding loss of income and property in transit. It's used to determine the amount of compensation based on factors like daily income and the insured amount.",
-    "embed_passage": "פוליסת מכלול ביטוח לעסק מספקת כיסוי לאובדן הכנסה והוצאות תפעול מוגדלות, כאשר גובה הפיצוי היומי מחושב על בסיס ההכנסה הממוצעת היומית של העסק. לדוגמה, אם סכום הביטוח הנקוב קטן מהסכום הנדרש, התגמול ישולם באופן חלקי. סכום הביטוח יכול להשפיע על גובה הפיצוי.",
-    "row_axis": "Insurance clause / condition",
-    "column_axis": "Details of coverage, calculation methods, and limitations",
+    "title": "ביטוח מכלול לעסק",
+    "summary": "This table outlines conditions related to insurance coverage for businesses, specifically concerning underinsurance and property in transit. It details how payouts are adjusted if the insured amount is less than required and the conditions for coverage during transport.",
+    "embed_passage": "טבלה זו מתייחסת לפוליסת ביטוח מכלול לעסק, ומפרטת תנאים מיוחדים הנוגעים לסכום הביטוח במקרה של חסר ביטוח וכן ביטוח רכוש במעבר. ניתן לבדוק את חבות המבטח במקרה של סכום ביטוח נמוך מהנדרש, בהתאם לרשימה המציינת את הבסיס לקביעת סכום הביטוח. כמו כן, הטבלה מתייחסת לתנאים לביטוח רכוש בזמן מעבר בתחום המדינה. סעיפים רלוונטיים כוללים סכום הביטוח, פרק שני - רכוש במעבר, ותקופת הביטוח. ביטוח חסר, סכום הביטוח הנקוב, וסכום הביטוח אשר היה צריך לבטחו הם מושגים מרכזיים.",
+    "row_axis": "conditions related to insurance coverage",
+    "column_axis": "insurance details and conditions",
     "units": [],
     "notable_values": [
-      "סעיף: 5.4.1",
-      "סעיף: 5.4.2.1",
-      "סעיף: 5.4.2.2",
-      "סעיף: 5.4.3 ג'",
-      "פרק שני: ביטוח רכוש במעבר"
+      "ביטוח חסר: סכום הביטוח הנקוב קטן מסכום הביטוח אשר היה צריך לבטחו",
+      "פרק שני: ביטוח רכוש במעבר - בתוקף",
+      "סכום הביטוח: 5.4.1",
+      "תקופת הביטוח: תחום המדינה"
     ],
     "product_hints": [
-      "מכלול ביטוח לעסק"
+      "ביטוח מכלול לעסק"
     ]
   },
   "sketch": "ביטוח חסר: היה בשעת קרות מקרה הביטוח סכום הביטוח הנקוב .5.4.3 ג' קטן מסכום הביטוח אשר היה צריך לבטחו בהתאם 1 ברשימה בחלק לעיל )הבסיס לקביעת סכום הביטוח(, תפחת חבות 5.4.1 לאמור בסעיף המבטח, ותגמולי הביטוח ישולמו באופן חלקי בלבד בהתאם ליחס שבין ג' לבין סכום הביטוח אשר היה 1 סכום הביטוח הנקוב ברשימה בחלק לעיל )הבסיס לקביעת 5.4.1 צריך להיות מבוטח בהתאם לאמור בסעיף .( סכום הביטוח\nפרק שני: ביטוח רכוש במעבר\nאם צוין ברשימה כי פרק שני - רכוש במעבר - בתוקף, המבטח ישפה את המבוטח בכפוף לאמור במבוא, בהגדרות, בסייגים ובתנאים הכלליים של הפוליסה, ובכפוף לסייגים ולתנאים המפורטים בפרק שני זה וברשימה, בגין מקרה ביטוח כהגדרתו להלן, שייגרם בתחום המדינה ובתקופת הביטוח, וזאת בהתאם לכל המפורט להלן:",
-  "embed_text": "פוליסת מכלול ביטוח לעסק מספקת כיסוי לאובדן הכנסה והוצאות תפעול מוגדלות, כאשר גובה הפיצוי היומי מחושב על בסיס ההכנסה הממוצעת היומית של העסק. לדוגמה, אם סכום הביטוח הנקוב קטן מהסכום הנדרש, התגמול ישולם באופן חלקי. סכום הביטוח יכול להשפיע על גובה הפיצוי.",
-  "payload": "טבלה: מכלול ביטוח לעסק\nThis table outlines insurance coverage details for businesses, specifically regarding loss of income and property in transit. It's used to determine the amount of compensation based on factors like daily income and the insured amount.\nממדים: Insurance clause / condition, Details of coverage, calculation methods, and limitations\n\nביטוח חסר: היה בשעת קרות מקרה הביטוח סכום הביטוח הנקוב .5.4.3 ג' קטן מסכום הביטוח אשר היה צריך לבטחו בהתאם 1 ברשימה בחלק לעיל )הבסיס לקביעת סכום הביטוח(, תפחת חבות 5.4.1 לאמור בסעיף המבטח, ותגמולי הביטוח ישולמו באופן חלקי בלבד בהתאם ליחס שבין ג' לבין סכום הביטוח אשר היה 1 סכום הביטוח הנקוב ברשימה בחלק לעיל )הבסיס לקביעת 5.4.1 צריך להיות מבוטח בהתאם לאמור בסעיף .( סכום הביטוח\nפרק שני: ביטוח רכוש במעבר\nאם צוין ברשימה כי פרק שני - רכוש במעבר - בתוקף, המבטח ישפה את המבוטח בכפוף לאמור במבוא, בהגדרות, בסייגים ובתנאים הכלליים של הפוליסה, ובכפוף לסייגים ולתנאים המפורטים בפרק שני זה וברשימה, בגין מקרה ביטוח כהגדרתו להלן, שייגרם בתחום המדינה ובתקופת הביטוח, וזאת בהתאם לכל המפורט להלן:"
+  "embed_text": "טבלה זו מתייחסת לפוליסת ביטוח מכלול לעסק, ומפרטת תנאים מיוחדים הנוגעים לסכום הביטוח במקרה של חסר ביטוח וכן ביטוח רכוש במעבר. ניתן לבדוק את חבות המבטח במקרה של סכום ביטוח נמוך מהנדרש, בהתאם לרשימה המציינת את הבסיס לקביעת סכום הביטוח. כמו כן, הטבלה מתייחסת לתנאים לביטוח רכוש בזמן מעבר בתחום המדינה. סעיפים רלוונטיים כוללים סכום הביטוח, פרק שני - רכוש במעבר, ותקופת הביטוח. ביטוח חסר, סכום הביטוח הנקוב, וסכום הביטוח אשר היה צריך לבטחו הם מושגים מרכזיים. This table outlines conditions related to insurance coverage for businesses, specifically concerning underinsurance and property in transit. It details how payouts are adjusted if the insured amount is less than required and the conditions for coverage during transport.",
+  "payload": "טבלה: ביטוח מכלול לעסק\nThis table outlines conditions related to insurance coverage for businesses, specifically concerning underinsurance and property in transit. It details how payouts are adjusted if the insured amount is less than required and the conditions for coverage during transport.\nממדים: conditions related to insurance coverage, insurance details and conditions\n\nביטוח חסר: היה בשעת קרות מקרה הביטוח סכום הביטוח הנקוב .5.4.3 ג' קטן מסכום הביטוח אשר היה צריך לבטחו בהתאם 1 ברשימה בחלק לעיל )הבסיס לקביעת סכום הביטוח(, תפחת חבות 5.4.1 לאמור בסעיף המבטח, ותגמולי הביטוח ישולמו באופן חלקי בלבד בהתאם ליחס שבין ג' לבין סכום הביטוח אשר היה 1 סכום הביטוח הנקוב ברשימה בחלק לעיל )הבסיס לקביעת 5.4.1 צריך להיות מבוטח בהתאם לאמור בסעיף .( סכום הביטוח\nפרק שני: ביטוח רכוש במעבר\nאם צוין ברשימה כי פרק שני - רכוש במעבר - בתוקף, המבטח ישפה את המבוטח בכפוף לאמור במבוא, בהגדרות, בסייגים ובתנאים הכלליים של הפוליסה, ובכפוף לסייגים ולתנאים המפורטים בפרק שני זה וברשימה, בגין מקרה ביטוח כהגדרתו להלן, שייגרם בתחום המדינה ובתקופת הביטוח, וזאת בהתאם לכל המפורט להלן:"
 }

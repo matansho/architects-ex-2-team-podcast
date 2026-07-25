@@ -2,22 +2,23 @@
   "id": "pdf:apartment/files/חוברת-הכללים-לגבי-פוליסות-שנרכשו-לאחר-ה-030917.pdf#52",
   "source": "llm",
   "description": {
-    "title": "תביעות ביטוח",
-    "summary": "This table outlines the claims process for insurance policies, detailing steps from initial reporting to claim resolution. It explains how the insurance company investigates claims and may involve experts.",
-    "embed_passage": "חברת הראל עשויה למנות מומחים כמו מהנדסים או רו״ח כדי לברר את מהות התביעה ולהעריך את גובה הנזק. תהליך הטיפול בתביעה כולל איסוף נתונים, מסמכים ומידע, ובסופו תתקבל החלטה על תשלום או דחייה. לידיעתך, לשם יישוב ובירור התביעה, יכול וחברתנו תמנה מומחים נוספים מטעמה.",
-    "row_axis": "stages of the claims process",
-    "column_axis": "details of each stage (e.g., expert involvement, data required)",
+    "title": "מומחים",
+    "summary": "This table describes the use of experts (מומחים) by the insurance company to investigate and assess claims. It outlines the roles of these experts and clarifies that their appointment is not automatic.",
+    "embed_passage": "טבלה זו מתארת את השימוש במומחים על ידי חברת הביטוח לצורך חקירת הערכת תביעות. תפקיד המומחים הממונים על ידי החברה הוא לברר את מהות התביעה ולהעריך את גובה הנזק. חברת הראל רשאית למנות מומחים כגון מהנדסים, רו״ח, חוקרים וחוקרי שריפות. מינוי מומחים נקבע בהתאם למדיניות החברה ולנסיבות האירוע. מומחים, מהנדסים, רו״ח, חוקרים, חוקרי שריפות.",
+    "row_axis": "types of experts",
+    "column_axis": "details about expert use",
     "units": [],
     "notable_values": [
-      "מומחים: מהנדסים, רו״ח, חוקרים",
-      "אירוע: מספר אירוע",
-      "תביעה: תשלום / תשלום חלקי / דחייה"
+      "מומחים: מהנדסים",
+      "מומחים: רו״ח",
+      "מומחים: חוקרים",
+      "מומחים: חוקרי שריפות"
     ],
     "product_hints": [
       "הראל"
     ]
   },
   "sketch": ". .  לידיעתך, לשם יישוב ובירור התביעה, יכול וחברתנו תמנה מומחים נוספים מטעמה 6 תפקיד המומחים הממונים ע\"י החברה הינו לברר את מהות התביעה, ולהעריך את\n.(\" לדוגמא, מהנדסים, רו\"ח, חוקרים, חוקרי שריפות וכיוצ\"ב )להלן: \"מומחים גובה הנזק. אין באמור לעיל כדי לקבוע, כי חברתנו תמנה בכל תביעה ותביעה מומחים. מינוי מומחים\nנקבע בהתאם למדיניות החברה ובהתאם לנסיבות האירוע.",
-  "embed_text": "חברת הראל עשויה למנות מומחים כמו מהנדסים או רו״ח כדי לברר את מהות התביעה ולהעריך את גובה הנזק. תהליך הטיפול בתביעה כולל איסוף נתונים, מסמכים ומידע, ובסופו תתקבל החלטה על תשלום או דחייה. לידיעתך, לשם יישוב ובירור התביעה, יכול וחברתנו תמנה מומחים נוספים מטעמה.",
-  "payload": "טבלה: תביעות ביטוח\nThis table outlines the claims process for insurance policies, detailing steps from initial reporting to claim resolution. It explains how the insurance company investigates claims and may involve experts.\nממדים: stages of the claims process, details of each stage (e.g., expert involvement, data required)\n\n. .  לידיעתך, לשם יישוב ובירור התביעה, יכול וחברתנו תמנה מומחים נוספים מטעמה 6 תפקיד המומחים הממונים ע\"י החברה הינו לברר את מהות התביעה, ולהעריך את\n.(\" לדוגמא, מהנדסים, רו\"ח, חוקרים, חוקרי שריפות וכיוצ\"ב )להלן: \"מומחים גובה הנזק. אין באמור לעיל כדי לקבוע, כי חברתנו תמנה בכל תביעה ותביעה מומחים. מינוי מומחים\nנקבע בהתאם למדיניות החברה ובהתאם לנסיבות האירוע."
+  "embed_text": "טבלה זו מתארת את השימוש במומחים על ידי חברת הביטוח לצורך חקירת הערכת תביעות. תפקיד המומחים הממונים על ידי החברה הוא לברר את מהות התביעה ולהעריך את גובה הנזק. חברת הראל רשאית למנות מומחים כגון מהנדסים, רו״ח, חוקרים וחוקרי שריפות. מינוי מומחים נקבע בהתאם למדיניות החברה ולנסיבות האירוע. מומחים, מהנדסים, רו״ח, חוקרים, חוקרי שריפות. This table describes the use of experts (מומחים) by the insurance company to investigate and assess claims. It outlines the roles of these experts and clarifies that their appointment is not automatic.",
+  "payload": "טבלה: מומחים\nThis table describes the use of experts (מומחים) by the insurance company to investigate and assess claims. It outlines the roles of these experts and clarifies that their appointment is not automatic.\nממדים: types of experts, details about expert use\n\n. .  לידיעתך, לשם יישוב ובירור התביעה, יכול וחברתנו תמנה מומחים נוספים מטעמה 6 תפקיד המומחים הממונים ע\"י החברה הינו לברר את מהות התביעה, ולהעריך את\n.(\" לדוגמא, מהנדסים, רו\"ח, חוקרים, חוקרי שריפות וכיוצ\"ב )להלן: \"מומחים גובה הנזק. אין באמור לעיל כדי לקבוע, כי חברתנו תמנה בכל תביעה ותביעה מומחים. מינוי מומחים\nנקבע בהתאם למדיניות החברה ובהתאם לנסיבות האירוע."
 }

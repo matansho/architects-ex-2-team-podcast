@@ -2,24 +2,26 @@
   "id": "pdf:business/files/מכלול-למושב-ינואר-2023.pdf#186",
   "source": "llm",
   "description": {
-    "title": "כיסוי סוסים",
-    "summary": "This table details insurance coverage for horses, outlining exclusions related to horse usage and health. It specifies conditions under which the insurer will not compensate the insured for incidents involving horses.",
-    "embed_passage": "פוליסת 'מכלול' מספקת כיסוי לחבות בגין סוסים, אך ישנם תנאים. לדוגמה, הכיסוי אינו תקף אם הסוס משמש כנגד תשלום או שכר, או אם נגרם נזק עקב מחלה או וירוס שהועברו על ידי הסוס. גובה הגידרה סביב האורווה חייב להיות לפחות 2 מטר.",
-    "row_axis": "exclusion scenarios related to horse incidents",
-    "column_axis": "conditions and limitations of horse-related insurance coverage",
+    "title": "כיסוי סוס",
+    "summary": "This table details exclusions to insurance coverage for horses. It specifies scenarios where the insurer will not compensate the insured for incidents involving horses.",
+    "embed_passage": "טבלה זו מתארת את החרגות לכיסוי ביטוחי עבור סוסים. מטרתה להבהיר מקרים בהם המבטח לא ישפה את המבוטח בגין נזקים הנגרמים על ידי סוסים, תוך התייחסות לשימוש מסחרי, בעלות, ותחרויות. ניתן לעיין בטבלה זו כדי להבין את תנאי הכיסוי עבור סוסים, בהתאם לסעיפים 3.7.1 עד 3.7.6. סוס, שימוש מסחרי, תחרות, מחלה, וירוס, תולעים, אורווה, גובה גידרה, מספר סוסים הם מושגים מרכזיים בטבלה זו.",
+    "row_axis": "סעיף חרג",
+    "column_axis": "תיאור תרחיש חרג",
     "units": [],
     "notable_values": [
-      "height: 2 מטר",
-      "exclusion: usage for payment",
-      "exclusion: disease transmission",
-      "exclusion: horse not owned by insured",
-      "exclusion: participation in competitions"
+      "גובה גידרה: 2 מטר",
+      "סעיף: 3.7.1",
+      "סעיף: 3.7.2",
+      "סעיף: 3.7.3",
+      "סעיף: 3.7.4",
+      "סעיף: 3.7.5",
+      "סעיף: 3.7.6"
     ],
     "product_hints": [
       "מכלול"
     ]
   },
   "sketch": "על ידי סוס בעת שנעשה בו שימוש כנגד תשלום, שכר, תמורה או טובת .3.7.1 ; הנאה אחרת כלשהי\nעל ידי סוס שאינו בבעלותו של המבוטח; .3.7.2\nעל ידי סוס המוחזק על ידי / אצל המבוטח בתשלום, כנגד שכר, תמורה .3.7.3 אלא אם נקבע במפורש אחרת ברשימה; , או טובת הנאה אחרת כלשהי\nבעת שסוס השתתף בתחרות, במירוץ; .3.7.4\nשייוחס לעובש, למחלה, לוירוס, או להדבקה במחלה, בוירוס או בהעברת .3.7.5 , חרקים / תולעים, אשר הועברו על ידי סוס בין שאלה הועברו באורווה בחצרי המבוטח ובין מחוצה להם; באורווה של המבוטח או בתחום הגדרה הצמודה לה על ידי סוס של המבוטח לסוס השייך לצד שלישי.",
-  "embed_text": "פוליסת 'מכלול' מספקת כיסוי לחבות בגין סוסים, אך ישנם תנאים. לדוגמה, הכיסוי אינו תקף אם הסוס משמש כנגד תשלום או שכר, או אם נגרם נזק עקב מחלה או וירוס שהועברו על ידי הסוס. גובה הגידרה סביב האורווה חייב להיות לפחות 2 מטר.",
-  "payload": "טבלה: כיסוי סוסים\nThis table details insurance coverage for horses, outlining exclusions related to horse usage and health. It specifies conditions under which the insurer will not compensate the insured for incidents involving horses.\nממדים: exclusion scenarios related to horse incidents, conditions and limitations of horse-related insurance coverage\n\nעל ידי סוס בעת שנעשה בו שימוש כנגד תשלום, שכר, תמורה או טובת .3.7.1 ; הנאה אחרת כלשהי\nעל ידי סוס שאינו בבעלותו של המבוטח; .3.7.2\nעל ידי סוס המוחזק על ידי / אצל המבוטח בתשלום, כנגד שכר, תמורה .3.7.3 אלא אם נקבע במפורש אחרת ברשימה; , או טובת הנאה אחרת כלשהי\nבעת שסוס השתתף בתחרות, במירוץ; .3.7.4\nשייוחס לעובש, למחלה, לוירוס, או להדבקה במחלה, בוירוס או בהעברת .3.7.5 , חרקים / תולעים, אשר הועברו על ידי סוס בין שאלה הועברו באורווה בחצרי המבוטח ובין מחוצה להם; באורווה של המבוטח או בתחום הגדרה הצמודה לה על ידי סוס של המבוטח לסוס השייך לצד שלישי."
+  "embed_text": "טבלה זו מתארת את החרגות לכיסוי ביטוחי עבור סוסים. מטרתה להבהיר מקרים בהם המבטח לא ישפה את המבוטח בגין נזקים הנגרמים על ידי סוסים, תוך התייחסות לשימוש מסחרי, בעלות, ותחרויות. ניתן לעיין בטבלה זו כדי להבין את תנאי הכיסוי עבור סוסים, בהתאם לסעיפים 3.7.1 עד 3.7.6. סוס, שימוש מסחרי, תחרות, מחלה, וירוס, תולעים, אורווה, גובה גידרה, מספר סוסים הם מושגים מרכזיים בטבלה זו. This table details exclusions to insurance coverage for horses. It specifies scenarios where the insurer will not compensate the insured for incidents involving horses. בין הערכים בטבלה: סעיף: 3.7.2; סעיף: 3.7.3; סעיף: 3.7.4; סעיף: 3.7.5.",
+  "payload": "טבלה: כיסוי סוס\nThis table details exclusions to insurance coverage for horses. It specifies scenarios where the insurer will not compensate the insured for incidents involving horses.\nממדים: סעיף חרג, תיאור תרחיש חרג\n\nעל ידי סוס בעת שנעשה בו שימוש כנגד תשלום, שכר, תמורה או טובת .3.7.1 ; הנאה אחרת כלשהי\nעל ידי סוס שאינו בבעלותו של המבוטח; .3.7.2\nעל ידי סוס המוחזק על ידי / אצל המבוטח בתשלום, כנגד שכר, תמורה .3.7.3 אלא אם נקבע במפורש אחרת ברשימה; , או טובת הנאה אחרת כלשהי\nבעת שסוס השתתף בתחרות, במירוץ; .3.7.4\nשייוחס לעובש, למחלה, לוירוס, או להדבקה במחלה, בוירוס או בהעברת .3.7.5 , חרקים / תולעים, אשר הועברו על ידי סוס בין שאלה הועברו באורווה בחצרי המבוטח ובין מחוצה להם; באורווה של המבוטח או בתחום הגדרה הצמודה לה על ידי סוס של המבוטח לסוס השייך לצד שלישי."
 }

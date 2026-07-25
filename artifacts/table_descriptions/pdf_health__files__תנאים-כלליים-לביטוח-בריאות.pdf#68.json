@@ -3,22 +3,22 @@
   "source": "llm",
   "description": {
     "title": "תנאי פוליסה - תכנית בסיס",
-    "summary": "This table details modifications, waivers, or deviations from the general policy conditions, specifically concerning the 'תכנית בסיס' (Basic Plan). It clarifies how changes apply to the Basic Plan and resolves conflicts between the Basic Plan and other insurance programs.",
-    "embed_passage": "הפוליסה כוללת 'תכנית בסיס' אשר כפופה לתנאים הכלליים. כל שינוי או ויתור בתנאים הכלליים יחייב את תכנית הבסיס רק אם נכלל במפורש בתכנית זו. במקרה של סתירה בין תכנית הבסיס לתוכניות ביטוח אחרות, יחייבו הוראות תכנית בסיס זו.",
-    "row_axis": "clause number (e.g., 17, 17.1, 17.2, 17.3)",
-    "column_axis": "policy condition modification/waiver/deviation rule",
+    "summary": "This table outlines conditions related to changes, waivers, or deviations from the general policy terms, specifically concerning the 'תכנית בסיס' (Basic Plan). It clarifies how modifications apply to the basic plan and resolves conflicts between the basic plan and other insurance programs.",
+    "embed_passage": "טבלה זו מתארת תנאים הנוגעים לשינויים, ויתורים או סטיות בתנאי הפוליסה, בדגש על 'תכנית בסיס'. שינויים בתנאים הכלליים יחייבו את תכנית הבסיס רק אם הם מצוינים במפורש בתכנית זו. במקרה של סתירה בין תכנית הבסיס לתוכניות ביטוח אחרות, יחייבו הוראות תכנית בסיס זו. תכנית בסיס, שינויים, ויתורים, סטיות, תכניות ביטוח אחרות.",
+    "row_axis": "Policy condition/clause",
+    "column_axis": "Details of the condition/clause",
     "units": [],
     "notable_values": [
-      "clause 17: שינויים, ויתורים או סטיות בתנאי הפוליס",
-      "clause 17.1: תכנית בסיס אשר מצורפת לתנאים כלליים אלו",
-      "clause 17.2: שינוי ו/או ויתור ו/או סטייה",
-      "clause 17.3: סתירה בין תכנית הבסיס לתוכניות ביטוח אחרות"
+      "תכנית בסיס: referenced throughout",
+      "שינויים: a key topic of the table",
+      "ויתורים: a key topic of the table",
+      "סטיות: a key topic of the table"
     ],
     "product_hints": [
       "תכנית בסיס"
     ]
   },
   "sketch": ".      שינויים, ויתורים או סטיות בתנאי הפוליס   ה 17\n. תכנית בסיס אשר מצורפת לתנאים כלליים אלו, תהיה כפופה לכל התנאים הכלליי   ם 17.1 כל שינוי ו/או ויתור ו/או סטייה מהאמור בתנאים הכלליים, יחייב לעניין תכנית הבסיס רק אם נכלל במפורש 17.2 . בתכנית ז   ו\nה   ו/או ת  של הפוליס במקרה  של  סתירה בין האמור  בתכנית  הבסיס  לבין האמור  בתוכניות ביטוח אחרו 17.3 . בתנאים הכלליים, יחייבו לעניין מקרי הביטוח המפורטים בתכנית זו, הוראות תכנית בסיס ז   ו",
-  "embed_text": "הפוליסה כוללת 'תכנית בסיס' אשר כפופה לתנאים הכלליים. כל שינוי או ויתור בתנאים הכלליים יחייב את תכנית הבסיס רק אם נכלל במפורש בתכנית זו. במקרה של סתירה בין תכנית הבסיס לתוכניות ביטוח אחרות, יחייבו הוראות תכנית בסיס זו.",
-  "payload": "טבלה: תנאי פוליסה - תכנית בסיס\nThis table details modifications, waivers, or deviations from the general policy conditions, specifically concerning the 'תכנית בסיס' (Basic Plan). It clarifies how changes apply to the Basic Plan and resolves conflicts between the Basic Plan and other insurance programs.\nממדים: clause number (e.g., 17, 17.1, 17.2, 17.3), policy condition modification/waiver/deviation rule\n\n.      שינויים, ויתורים או סטיות בתנאי הפוליס   ה 17\n. תכנית בסיס אשר מצורפת לתנאים כלליים אלו, תהיה כפופה לכל התנאים הכלליי   ם 17.1 כל שינוי ו/או ויתור ו/או סטייה מהאמור בתנאים הכלליים, יחייב לעניין תכנית הבסיס רק אם נכלל במפורש 17.2 . בתכנית ז   ו\nה   ו/או ת  של הפוליס במקרה  של  סתירה בין האמור  בתכנית  הבסיס  לבין האמור  בתוכניות ביטוח אחרו 17.3 . בתנאים הכלליים, יחייבו לעניין מקרי הביטוח המפורטים בתכנית זו, הוראות תכנית בסיס ז   ו"
+  "embed_text": "טבלה זו מתארת תנאים הנוגעים לשינויים, ויתורים או סטיות בתנאי הפוליסה, בדגש על 'תכנית בסיס'. שינויים בתנאים הכלליים יחייבו את תכנית הבסיס רק אם הם מצוינים במפורש בתכנית זו. במקרה של סתירה בין תכנית הבסיס לתוכניות ביטוח אחרות, יחייבו הוראות תכנית בסיס זו. תכנית בסיס, שינויים, ויתורים, סטיות, תכניות ביטוח אחרות. This table outlines conditions related to changes, waivers, or deviations from the general policy terms, specifically concerning the 'תכנית בסיס' (Basic Plan). It clarifies how modifications apply to the basic plan and resolves conflicts between the basic plan and other insurance programs.",
+  "payload": "טבלה: תנאי פוליסה - תכנית בסיס\nThis table outlines conditions related to changes, waivers, or deviations from the general policy terms, specifically concerning the 'תכנית בסיס' (Basic Plan). It clarifies how modifications apply to the basic plan and resolves conflicts between the basic plan and other insurance programs.\nממדים: Policy condition/clause, Details of the condition/clause\n\n.      שינויים, ויתורים או סטיות בתנאי הפוליס   ה 17\n. תכנית בסיס אשר מצורפת לתנאים כלליים אלו, תהיה כפופה לכל התנאים הכלליי   ם 17.1 כל שינוי ו/או ויתור ו/או סטייה מהאמור בתנאים הכלליים, יחייב לעניין תכנית הבסיס רק אם נכלל במפורש 17.2 . בתכנית ז   ו\nה   ו/או ת  של הפוליס במקרה  של  סתירה בין האמור  בתכנית  הבסיס  לבין האמור  בתוכניות ביטוח אחרו 17.3 . בתנאים הכלליים, יחייבו לעניין מקרי הביטוח המפורטים בתכנית זו, הוראות תכנית בסיס ז   ו"
 }

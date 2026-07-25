@@ -2,29 +2,23 @@
   "id": "pdf:car/files/פוליסת-ביטוח-רכב-הראל-סוויץ-מהדורת-דצמבר-2021.pdf#77",
   "source": "llm",
   "description": {
-    "title": "הראל סוויץ' - שווי רכב",
-    "summary": "This table details how the value of a vehicle is determined for insurance purposes, based on its age (years) and mileage (kilometers). It's used to calculate payouts in case of a covered loss.",
-    "embed_passage": "פוליסת ביטוח רכב הראל סוויץ' מתייחסת לשווי הרכב בהתאם לגיל ולמספר הקילומטרים שנסע. לדוגמא, אם שנת הייצור של הרכב קודמת ליום קרות מקרה הביטוח, יווספו 4% לשווי הרכב המופיע במחירון, בהתאם לקילומטרז׳. לדוגמה, אם הרכב נסע 44,000 ק״מ, או 60,000 ק״מ.",
-    "row_axis": "Vehicle age (years) and mileage (kilometers)",
-    "column_axis": "Value adjustment factors",
-    "units": [
-      "₪",
-      "%",
-      "ק״מ"
-    ],
+    "title": "שווי רכב לפי ק״מ ושנים",
+    "summary": "This table details how the value of a vehicle is determined based on its age (years) and mileage (kilometers). It's used to calculate compensation in case of a covered insurance event.",
+    "embed_passage": "טבלה זו מציגה את שווי הרכב בהתאם לגילו בקילומטרים. החישוב נעשה על פי מחירון מותאם, תוך התחשבות בשנים ובקילומטרים שנסע הרכב. לדוגמא, אם שנת הייצור של הרכב קודמת ליום קרות מקרה הביטוח, יווספו 4% לשווי הרכב המופיע במחירון. הראל סוויץ׳ משתמשת בטבלה זו כדי לקבוע את גובה הפיצוי במקרה של נזק לרכב. אם הרכב נסע 44,000 ק״מ בממוצע, או 60,000 ק״מ, המחירון יותאם בהתאם. ",
+    "row_axis": "שנת ייצור הרכב / ק״מ",
+    "column_axis": "חישוב שווי הרכב",
+    "units": [],
     "notable_values": [
-      "4%: Value adjustment for older vehicles",
-      "44,000 ק״מ: Example mileage",
-      "60,000 ק״מ: Example mileage",
-      "שנים: Vehicle age is a factor",
-      "מחירון: Reference to a vehicle price list"
+      "שנים: 4",
+      "ק״מ: 44,000",
+      "ק״מ: 60,000",
+      "תוספת שווי: 4%"
     ],
     "product_hints": [
-      "הראל סוויץ'",
-      "ביטוח רכב"
+      "הראל סוויץ'"
     ]
   },
   "sketch": "שנים, מחירו 4ולדוגמא: אם שנת הייצור של הרכב המבוטח קודמת ליום קרות מקרה הביטוח ב ק\"מ בממוצע. 60,000 במחירון מותאם לרכב שנסע במשך זמן זה\nלשווי הרכב המופיע במחירון. 4% , ק\"מ - יווספו, עפ\"י המחירון הנ\"ל 44,000 אם הרכב נסע רק\nפרק ב׳: ביטוח אחריות כלפי צד שלישי בשל נזקי רכוש\n. מקרה הביטוח 11\nמקרה הביטוח הוא חבות המבוטח בשל נזק שיגרם לרכוש של צד שלישי כתוצאה משימוש ברכב בתקופת הביטוח.",
-  "embed_text": "פוליסת ביטוח רכב הראל סוויץ' מתייחסת לשווי הרכב בהתאם לגיל ולמספר הקילומטרים שנסע. לדוגמא, אם שנת הייצור של הרכב קודמת ליום קרות מקרה הביטוח, יווספו 4% לשווי הרכב המופיע במחירון, בהתאם לקילומטרז׳. לדוגמה, אם הרכב נסע 44,000 ק״מ, או 60,000 ק״מ.",
-  "payload": "טבלה: הראל סוויץ' - שווי רכב\nThis table details how the value of a vehicle is determined for insurance purposes, based on its age (years) and mileage (kilometers). It's used to calculate payouts in case of a covered loss.\nממדים: Vehicle age (years) and mileage (kilometers), Value adjustment factors\n\nשנים, מחירו 4ולדוגמא: אם שנת הייצור של הרכב המבוטח קודמת ליום קרות מקרה הביטוח ב ק\"מ בממוצע. 60,000 במחירון מותאם לרכב שנסע במשך זמן זה\nלשווי הרכב המופיע במחירון. 4% , ק\"מ - יווספו, עפ\"י המחירון הנ\"ל 44,000 אם הרכב נסע רק\nפרק ב׳: ביטוח אחריות כלפי צד שלישי בשל נזקי רכוש\n. מקרה הביטוח 11\nמקרה הביטוח הוא חבות המבוטח בשל נזק שיגרם לרכוש של צד שלישי כתוצאה משימוש ברכב בתקופת הביטוח."
+  "embed_text": "טבלה זו מציגה את שווי הרכב בהתאם לגילו בקילומטרים. החישוב נעשה על פי מחירון מותאם, תוך התחשבות בשנים ובקילומטרים שנסע הרכב. לדוגמא, אם שנת הייצור של הרכב קודמת ליום קרות מקרה הביטוח, יווספו 4% לשווי הרכב המופיע במחירון. הראל סוויץ׳ משתמשת בטבלה זו כדי לקבוע את גובה הפיצוי במקרה של נזק לרכב. אם הרכב נסע 44,000 ק״מ בממוצע, או 60,000 ק״מ, המחירון יותאם בהתאם. This table details how the value of a vehicle is determined based on its age (years) and mileage (kilometers). It's used to calculate compensation in case of a covered insurance event.",
+  "payload": "טבלה: שווי רכב לפי ק״מ ושנים\nThis table details how the value of a vehicle is determined based on its age (years) and mileage (kilometers). It's used to calculate compensation in case of a covered insurance event.\nממדים: שנת ייצור הרכב / ק״מ, חישוב שווי הרכב\n\nשנים, מחירו 4ולדוגמא: אם שנת הייצור של הרכב המבוטח קודמת ליום קרות מקרה הביטוח ב ק\"מ בממוצע. 60,000 במחירון מותאם לרכב שנסע במשך זמן זה\nלשווי הרכב המופיע במחירון. 4% , ק\"מ - יווספו, עפ\"י המחירון הנ\"ל 44,000 אם הרכב נסע רק\nפרק ב׳: ביטוח אחריות כלפי צד שלישי בשל נזקי רכוש\n. מקרה הביטוח 11\nמקרה הביטוח הוא חבות המבוטח בשל נזק שיגרם לרכוש של צד שלישי כתוצאה משימוש ברכב בתקופת הביטוח."
 }

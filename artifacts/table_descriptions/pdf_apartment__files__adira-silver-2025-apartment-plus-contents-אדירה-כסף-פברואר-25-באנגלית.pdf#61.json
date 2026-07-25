@@ -2,25 +2,26 @@
   "id": "pdf:apartment/files/adira-silver-2025-apartment-plus-contents-אדירה-כסף-פברואר-25-באנגלית.pdf#61",
   "source": "llm",
   "description": {
-    "title": "אדירה כסף - ביטוח תכולה",
-    "summary": "This table details coverage for contents insurance under the Adira Kesef plan. It specifies how benefits are calculated based on the age of the insured items, with a maximum payout related to the insured sum.",
-    "embed_passage": "ביטוח תכולה של אדירה כסף מספק כיסוי לנזק או אובדן של פריטים, כאשר גיל הפריט עולה על 3 שנים, הפיצוי ישולם לפי ערך השוק, אך לא יותר מסכום הביטוח. לדוגמה, במקרה של מחשב נייד, הכיסוי מורחב למחשב ביתי, בהתאם להצגת הוכחת רכישה. סכום הביטוח המקסימלי יכול להגיע עד 50,000 ש\"ח.",
-    "row_axis": "Insured item / type of content",
-    "column_axis": "Coverage details, age-based benefit calculation",
-    "units": [
-      "₪"
-    ],
+    "title": "אדירה כסף - כיסויים נוספים",
+    "summary": "This table details additional insurance coverage options available under the Adira Kesef plan, specifically for laptops and bicycles. It outlines conditions related to age, proof of purchase, and coverage limits.",
+    "embed_passage": "טבלה זו מתארת כיסויים נוספים במסגרת תוכנית אדירה כסף, כולל כיסוי למחשבים ניידים ואופניים. ניתן לחפש מידע על תנאי הכיסוי, גיל המחשב הנייד, וסכום הביטוח המקסימלי. הכיסוי לאופניים מוגבל לנזקים שנגרמו כתוצאה מסיכונים ספציפיים המפורטים במפרט. מחשבים ניידים מעל גיל 3 שנים יקבלו פיצוי לפי ערך השוק, אך לא יותר מסכום הביטוח. אופניים, מחשבים ניידים, וערך השוק הם נושאים מרכזיים בטבלה זו.",
+    "row_axis": "insured item (laptop, bicycle)",
+    "column_axis": "coverage conditions and limits",
+    "units": [],
     "notable_values": [
+      "laptop: All Risks cover",
       "age: 3 years",
-      "maximum payout: 50,000 ₪"
+      "indemnification value: calculated based on age",
+      "bicycle: coverage up to sum in specification",
+      "proof of purchase: required for laptop cover",
+      "certified appraiser: estimate accepted for laptop cover"
     ],
     "product_hints": [
-      "אדירה כסף",
       "Adira Kesef",
-      "ביטוח תכולה"
+      "אדירה כסף"
     ]
   },
   "sketch": "23.9.2 In the event of loss or damage to the items insured under this paragraph - whose age exceeds 3 years - the insurance benefits due to the insured will be calculated and paid according to indemnification value, however, no more than the sums insured in regard to the damaged items.\n24. Insurance cover for bicycles\nIf explicitly noted in the specification, the insurance will be extended and include cover for bicycles belonging to the insured or his family members, up to the sum noted in the specification, only in regard to the following risks:",
-  "embed_text": "ביטוח תכולה של אדירה כסף מספק כיסוי לנזק או אובדן של פריטים, כאשר גיל הפריט עולה על 3 שנים, הפיצוי ישולם לפי ערך השוק, אך לא יותר מסכום הביטוח. לדוגמה, במקרה של מחשב נייד, הכיסוי מורחב למחשב ביתי, בהתאם להצגת הוכחת רכישה. סכום הביטוח המקסימלי יכול להגיע עד 50,000 ש\"ח.",
-  "payload": "טבלה: אדירה כסף - ביטוח תכולה\nThis table details coverage for contents insurance under the Adira Kesef plan. It specifies how benefits are calculated based on the age of the insured items, with a maximum payout related to the insured sum.\nממדים: Insured item / type of content, Coverage details, age-based benefit calculation\n\n23.9.2 In the event of loss or damage to the items insured under this paragraph - whose age exceeds 3 years - the insurance benefits due to the insured will be calculated and paid according to indemnification value, however, no more than the sums insured in regard to the damaged items.\n24. Insurance cover for bicycles\nIf explicitly noted in the specification, the insurance will be extended and include cover for bicycles belonging to the insured or his family members, up to the sum noted in the specification, only in regard to the following risks:"
+  "embed_text": "טבלה זו מתארת כיסויים נוספים במסגרת תוכנית אדירה כסף, כולל כיסוי למחשבים ניידים ואופניים. ניתן לחפש מידע על תנאי הכיסוי, גיל המחשב הנייד, וסכום הביטוח המקסימלי. הכיסוי לאופניים מוגבל לנזקים שנגרמו כתוצאה מסיכונים ספציפיים המפורטים במפרט. מחשבים ניידים מעל גיל 3 שנים יקבלו פיצוי לפי ערך השוק, אך לא יותר מסכום הביטוח. אופניים, מחשבים ניידים, וערך השוק הם נושאים מרכזיים בטבלה זו. This table details additional insurance coverage options available under the Adira Kesef plan, specifically for laptops and bicycles. It outlines conditions related to age, proof of purchase, and coverage limits. בין הערכים בטבלה: laptop: All Risks cover; age: 3 years; indemnification value: calculated based on age; bicycle: coverage up to sum in specification; proof of purchase: required for laptop cover; certified…",
+  "payload": "טבלה: אדירה כסף - כיסויים נוספים\nThis table details additional insurance coverage options available under the Adira Kesef plan, specifically for laptops and bicycles. It outlines conditions related to age, proof of purchase, and coverage limits.\nממדים: insured item (laptop, bicycle), coverage conditions and limits\n\n23.9.2 In the event of loss or damage to the items insured under this paragraph - whose age exceeds 3 years - the insurance benefits due to the insured will be calculated and paid according to indemnification value, however, no more than the sums insured in regard to the damaged items.\n24. Insurance cover for bicycles\nIf explicitly noted in the specification, the insurance will be extended and include cover for bicycles belonging to the insured or his family members, up to the sum noted in the specification, only in regard to the following risks:"
 }

@@ -3,22 +3,25 @@
   "source": "llm",
   "description": {
     "title": "בירור תביעות",
-    "summary": "This table outlines the claims process, detailing the steps from data collection to a final decision. It describes how Harel handles claims and provides information on timelines and communication.",
-    "embed_passage": "פוליסת הראל לביטוח דירה כוללת הליך בירור שבסופו תתקבל החלטה - תיקון הנזק, תשלום, תשלום חלקי או פשרה או דחיית התביעה. לאחר איסוף כל המידע והמסמכים מהתובע, תקבל הודעת המשך בירור. תהליך טיפול בתביעה, לרבות איסוף מסמכים, אינו מהווה הכרה בחבות.",
-    "row_axis": "stages of the claims process",
-    "column_axis": "details of each stage (e.g., actions taken, timelines)",
+    "summary": "This table outlines the claims process, detailing the steps from data collection to a final decision. It describes how a claim is handled and the possible outcomes.",
+    "embed_passage": "טבלה זו מתארת את הליך בירור התביעות, החל מאיסוף נתונים ועד לקבלת החלטה סופית. הליך הבירור כולל תיקון נזק, תשלום מלא או חלקי, פשרה או דחיית התביעה. ניתן להתעדכן בסטטוס התביעה באתר החברה. גופים מוסדיים, ביטוח דירה, תשלום, פשרה, דחיית התביעה, איסוף מסמכים, בירור ויישוב תביעות.",
+    "row_axis": "שלבי בירור תביעה",
+    "column_axis": "תיאור הליך",
     "units": [],
     "notable_values": [
-      "30: חוזר על 'בירור ויישוב תביעות'",
-      "2011-9-5: date of a circular regarding claims",
-      "6: stage of the claims process - decision making"
+      "החלטה: תיקון הנזק",
+      "החלטה: תשלום",
+      "החלטה: תשלום חלקי",
+      "החלטה: פשרה",
+      "החלטה: דחיית התביעה",
+      "חוזר: 30",
+      "תאריך: 2011-9-5"
     ],
     "product_hints": [
-      "ביטוח דירה",
-      "פוליסת הראל"
+      "ביטוח דירה"
     ]
   },
   "sketch": ".  ככל שהדבר רלוונטי,  עם השלמת איסוף כל הנתונים, מסמכים והמידע הנדרש, יבוצע 6 הליך בירור שבסופו תתקבל החלטה - תיקון הנזק, תשלום, תשלום חלקי או פשרה או דחיית התביעה.\nככל שלאחר השלמת איסוף כל המידע והמסמכים מהתובע יידרש זמן לחברה העולה יום לקבלת החלטה בתביעה, תקבל הודעת המשך בירור בעניין זה ראה חוזר 30 על .\" 'בירור ויישוב תביעות וטיפול בפניות הציבור 2011-9-5 גופים מוסדיים יודגש כי, תהליך טיפול בתביעה, לרבות איסוף מסמכים, אינו מהווה הכרה בחבות\nהמבוטח ו/או החברה לתביעה שהוגשה על ידך.",
-  "embed_text": "פוליסת הראל לביטוח דירה כוללת הליך בירור שבסופו תתקבל החלטה - תיקון הנזק, תשלום, תשלום חלקי או פשרה או דחיית התביעה. לאחר איסוף כל המידע והמסמכים מהתובע, תקבל הודעת המשך בירור. תהליך טיפול בתביעה, לרבות איסוף מסמכים, אינו מהווה הכרה בחבות.",
-  "payload": "טבלה: בירור תביעות\nThis table outlines the claims process, detailing the steps from data collection to a final decision. It describes how Harel handles claims and provides information on timelines and communication.\nממדים: stages of the claims process, details of each stage (e.g., actions taken, timelines)\n\n.  ככל שהדבר רלוונטי,  עם השלמת איסוף כל הנתונים, מסמכים והמידע הנדרש, יבוצע 6 הליך בירור שבסופו תתקבל החלטה - תיקון הנזק, תשלום, תשלום חלקי או פשרה או דחיית התביעה.\nככל שלאחר השלמת איסוף כל המידע והמסמכים מהתובע יידרש זמן לחברה העולה יום לקבלת החלטה בתביעה, תקבל הודעת המשך בירור בעניין זה ראה חוזר 30 על .\" 'בירור ויישוב תביעות וטיפול בפניות הציבור 2011-9-5 גופים מוסדיים יודגש כי, תהליך טיפול בתביעה, לרבות איסוף מסמכים, אינו מהווה הכרה בחבות\nהמבוטח ו/או החברה לתביעה שהוגשה על ידך."
+  "embed_text": "טבלה זו מתארת את הליך בירור התביעות, החל מאיסוף נתונים ועד לקבלת החלטה סופית. הליך הבירור כולל תיקון נזק, תשלום מלא או חלקי, פשרה או דחיית התביעה. ניתן להתעדכן בסטטוס התביעה באתר החברה. גופים מוסדיים, ביטוח דירה, תשלום, פשרה, דחיית התביעה, איסוף מסמכים, בירור ויישוב תביעות. This table outlines the claims process, detailing the steps from data collection to a final decision. It describes how a claim is handled and the possible outcomes. בין הערכים בטבלה: חוזר: 30; תאריך: 2011-9-5.",
+  "payload": "טבלה: בירור תביעות\nThis table outlines the claims process, detailing the steps from data collection to a final decision. It describes how a claim is handled and the possible outcomes.\nממדים: שלבי בירור תביעה, תיאור הליך\n\n.  ככל שהדבר רלוונטי,  עם השלמת איסוף כל הנתונים, מסמכים והמידע הנדרש, יבוצע 6 הליך בירור שבסופו תתקבל החלטה - תיקון הנזק, תשלום, תשלום חלקי או פשרה או דחיית התביעה.\nככל שלאחר השלמת איסוף כל המידע והמסמכים מהתובע יידרש זמן לחברה העולה יום לקבלת החלטה בתביעה, תקבל הודעת המשך בירור בעניין זה ראה חוזר 30 על .\" 'בירור ויישוב תביעות וטיפול בפניות הציבור 2011-9-5 גופים מוסדיים יודגש כי, תהליך טיפול בתביעה, לרבות איסוף מסמכים, אינו מהווה הכרה בחבות\nהמבוטח ו/או החברה לתביעה שהוגשה על ידך."
 }

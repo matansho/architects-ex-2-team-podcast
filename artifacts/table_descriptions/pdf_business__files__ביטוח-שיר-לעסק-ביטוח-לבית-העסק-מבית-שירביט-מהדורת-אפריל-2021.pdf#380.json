@@ -2,25 +2,22 @@
   "id": "pdf:business/files/ביטוח-שיר-לעסק-ביטוח-לבית-העסק-מבית-שירביט-מהדורת-אפריל-2021.pdf#380",
   "source": "llm",
   "description": {
-    "title": "נכות צמיתה - שיר לעסק",
-    "summary": "This table details insurance payouts for permanent disability based on the percentage of disability and the insured amount. It's used to look up compensation amounts for partial or total permanent disability.",
-    "embed_passage": "פוליסת 'שיר לעסק' מבית שירביט מספקת פיצוי במקרה של נכות צמיתה. גובה הפיצוי מחושב כאחוז מסכום הביטוח, לדוגמה, במקרה של סכום ביטוח של 100,000 ש\"ח ונכות של 40%, הפיצוי יהיה 40,000 ש\"ח. חישוב זה מתייחס לנכות באיבר ספציפי או לנכות כוללת שלא תעלה על 140%.",
-    "row_axis": "Percentage of permanent disability determined for the insured",
-    "column_axis": "Pre-existing disability percentage in the affected organ (if any)",
-    "units": [
-      "%"
-    ],
+    "title": "נכות צמיתה",
+    "summary": "This table details how insurance payouts are calculated for permanent disability. It looks up benefits based on the percentage of permanent disability determined after an incident, considering pre-existing disabilities.",
+    "embed_passage": "טבלה זו עוסקת בחישוב תגמולי ביטוח במקרה של נכות צמיתה, הן חלקית והן מלאה. החישוב מתבסס על אחוזי הנכות שנקבעו למבוטח לאחר מקרה הביטוח, תוך התחשבות באחוזי נכות קודמים שהיו למבוטח באותו איבר. ניתן לחפש מידע על תגמולים בהתאם לאחוזי הנכות שנקבעו, תוך התייחסות לסכום הביטוח הנקוב. ביטוח שיר לעסק מבית שירביט מספק כיסוי לנכות צמיתה. אחוזי נכות צמיתה באיבר טרם מקרה הביטוח, נכות צמיתה באותו איבר כתוצאה ממקרה הביטוח, וחישוב תגמולי הביטוח הם מרכיבים מרכזיים בטבלה זו.",
+    "row_axis": "אחוזי נכות צמיתה",
+    "column_axis": "תנאי חישוב תגמולי ביטוח",
+    "units": [],
     "notable_values": [
-      "סכום ביטוח: 100,000 ש\"ח",
-      "נכות חלקית: 40%",
-      "תקרת נכות כוללת: 140%"
+      "נכות צמיתה: אחוזי נכות באיבר טרם מקרה הביטוח",
+      "נכות צמיתה: אחוזי נכות באותו איבר כתוצאה ממקרה הביטוח",
+      "תקרה: 140%"
     ],
     "product_hints": [
-      "שיר לעסק",
-      "שירביט"
+      "ביטוח שיר לעסק"
     ]
   },
   "sketch": "נקבעו למבוטח  אחוזי נכות צמיתה באיבר טרם מקרה הביטוח 4 .4.2 , ונגרמה  נכות  צמיתה  באותו  איבר  כתוצאה  ממקרה  הביטוח יחושבו תגמולי הביטוח  מתוך אחוזי הנכות שהיו למבוטח טרם לאחר  שנוכו  אחוזי  הנכות  הצמיתה  שהיו  למבוטח , המקרה . באותו איבר טרם קרות מקרה הביטוח\nאם למבוטח נקבעו אחוזי נכות צמיתה באיבר אחר טרם מקרה הביטוח, ישולמו תגמולי הביטוח בגין אחוזי הנכות, כאשר סכום אחוזי הנכות טרם מקרה הביטוח ואחוזי הנכות בגין מקרה הביטוח . נכות כוללת 140% לא יעלה על תקרה של",
-  "embed_text": "פוליסת 'שיר לעסק' מבית שירביט מספקת פיצוי במקרה של נכות צמיתה. גובה הפיצוי מחושב כאחוז מסכום הביטוח, לדוגמה, במקרה של סכום ביטוח של 100,000 ש\"ח ונכות של 40%, הפיצוי יהיה 40,000 ש\"ח. חישוב זה מתייחס לנכות באיבר ספציפי או לנכות כוללת שלא תעלה על 140%.",
-  "payload": "טבלה: נכות צמיתה - שיר לעסק\nThis table details insurance payouts for permanent disability based on the percentage of disability and the insured amount. It's used to look up compensation amounts for partial or total permanent disability.\nממדים: Percentage of permanent disability determined for the insured, Pre-existing disability percentage in the affected organ (if any)\n\nנקבעו למבוטח  אחוזי נכות צמיתה באיבר טרם מקרה הביטוח 4 .4.2 , ונגרמה  נכות  צמיתה  באותו  איבר  כתוצאה  ממקרה  הביטוח יחושבו תגמולי הביטוח  מתוך אחוזי הנכות שהיו למבוטח טרם לאחר  שנוכו  אחוזי  הנכות  הצמיתה  שהיו  למבוטח , המקרה . באותו איבר טרם קרות מקרה הביטוח\nאם למבוטח נקבעו אחוזי נכות צמיתה באיבר אחר טרם מקרה הביטוח, ישולמו תגמולי הביטוח בגין אחוזי הנכות, כאשר סכום אחוזי הנכות טרם מקרה הביטוח ואחוזי הנכות בגין מקרה הביטוח . נכות כוללת 140% לא יעלה על תקרה של"
+  "embed_text": "טבלה זו עוסקת בחישוב תגמולי ביטוח במקרה של נכות צמיתה, הן חלקית והן מלאה. החישוב מתבסס על אחוזי הנכות שנקבעו למבוטח לאחר מקרה הביטוח, תוך התחשבות באחוזי נכות קודמים שהיו למבוטח באותו איבר. ניתן לחפש מידע על תגמולים בהתאם לאחוזי הנכות שנקבעו, תוך התייחסות לסכום הביטוח הנקוב. ביטוח שיר לעסק מבית שירביט מספק כיסוי לנכות צמיתה. אחוזי נכות צמיתה באיבר טרם מקרה הביטוח, נכות צמיתה באותו איבר כתוצאה ממקרה הביטוח, וחישוב תגמולי הביטוח הם מרכיבים מרכזיים בטבלה זו. This table details how insurance payouts are calculated for permanent disability. It looks up benefits based on the percentage of permanent disability determined after an incident, considering pre-existing disabilities. בין הערכים בטבלה: תקרה: 140%.",
+  "payload": "טבלה: נכות צמיתה\nThis table details how insurance payouts are calculated for permanent disability. It looks up benefits based on the percentage of permanent disability determined after an incident, considering pre-existing disabilities.\nממדים: אחוזי נכות צמיתה, תנאי חישוב תגמולי ביטוח\n\nנקבעו למבוטח  אחוזי נכות צמיתה באיבר טרם מקרה הביטוח 4 .4.2 , ונגרמה  נכות  צמיתה  באותו  איבר  כתוצאה  ממקרה  הביטוח יחושבו תגמולי הביטוח  מתוך אחוזי הנכות שהיו למבוטח טרם לאחר  שנוכו  אחוזי  הנכות  הצמיתה  שהיו  למבוטח , המקרה . באותו איבר טרם קרות מקרה הביטוח\nאם למבוטח נקבעו אחוזי נכות צמיתה באיבר אחר טרם מקרה הביטוח, ישולמו תגמולי הביטוח בגין אחוזי הנכות, כאשר סכום אחוזי הנכות טרם מקרה הביטוח ואחוזי הנכות בגין מקרה הביטוח . נכות כוללת 140% לא יעלה על תקרה של"
 }

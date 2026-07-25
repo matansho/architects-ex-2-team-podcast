@@ -2,25 +2,22 @@
   "id": "pdf:health/files/תקציר-כתב-השירות-רופא-מלווה-אישי.pdf#0",
   "source": "llm",
   "description": {
-    "title": "רופא מלווה אישי",
-    "summary": "This table provides contact information for the 'רופא מלווה אישי' (Personal Accompanying Doctor) service offered by Harel Insurance. It allows customers to find details like phone number, fax, email, and website address.",
-    "embed_passage": "שירות 'רופא מלווה אישי' של הראל ביטוח מספק ליווי רפואי וטיפולים במצבים רפואיים משמעותיים. ניתן ליצור קשר עם השירות דרך טלפון 037348178, פקס, או בדואר אלקטרוני polisotbs@harel-ins.co.il. אתר האינטרנט של הראל הוא www.harel-group.co.il.",
+    "title": "פרטי התקשרות",
+    "summary": "This table provides contact information for Harel Insurance. It lists the phone number, fax, email address, mailing address, and website.",
+    "embed_passage": "טבלה זו מציגה את פרטי ההתקשרות של חברת הביטוח הראל, כולל טלפון, פקס, כתובת דואר אלקטרוני וכתובת למשלוח דואר. ניתן למצוא מידע נוסף באתר האינטרנט של החברה. פרטי התקשרות אלו רלוונטיים לתכנית 526. הראל ביטוח, 037348178, polisotbs@harel-ins.co.il, 5200901 גן רמת, www.harel-group.co.il.",
     "row_axis": "Contact details",
-    "column_axis": "Contact method (Phone, Fax, Email, Website, Address)",
+    "column_axis": "Contact type (phone, fax, email, address, website)",
     "units": [],
     "notable_values": [
       "Phone: 037348178",
       "Email: polisotbs@harel-ins.co.il",
-      "Website: www.harel-group.co.il",
-      "Post Office Box: 10951",
-      "Address: 5200901 גן רמת, 3 הלל אבא"
+      "Postal address: ת\"ד 10951, 5200901 גן רמת"
     ],
     "product_hints": [
-      "רופא מלווה אישי",
       "Harel"
     ]
   },
   "sketch": "0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",ט רנ האינט אתר תובת כ www.harel-group.co.il",
-  "embed_text": "שירות 'רופא מלווה אישי' של הראל ביטוח מספק ליווי רפואי וטיפולים במצבים רפואיים משמעותיים. ניתן ליצור קשר עם השירות דרך טלפון 037348178, פקס, או בדואר אלקטרוני polisotbs@harel-ins.co.il. אתר האינטרנט של הראל הוא www.harel-group.co.il.",
-  "payload": "טבלה: רופא מלווה אישי\nThis table provides contact information for the 'רופא מלווה אישי' (Personal Accompanying Doctor) service offered by Harel Insurance. It allows customers to find details like phone number, fax, email, and website address.\nממדים: Contact details, Contact method (Phone, Fax, Email, Website, Address)\n\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",ט רנ האינט אתר תובת כ www.harel-group.co.il"
+  "embed_text": "טבלה זו מציגה את פרטי ההתקשרות של חברת הביטוח הראל, כולל טלפון, פקס, כתובת דואר אלקטרוני וכתובת למשלוח דואר. ניתן למצוא מידע נוסף באתר האינטרנט של החברה. פרטי התקשרות אלו רלוונטיים לתכנית 526. הראל ביטוח, 037348178, polisotbs@harel-ins.co.il, 5200901 גן רמת, www.harel-group.co.il. This table provides contact information for Harel Insurance. It lists the phone number, fax, email address, mailing address, and website. בין הערכים בטבלה: Postal address: ת\"ד 10951, 5200901 גן רמת.",
+  "payload": "טבלה: פרטי התקשרות\nThis table provides contact information for Harel Insurance. It lists the phone number, fax, email address, mailing address, and website.\nממדים: Contact details, Contact type (phone, fax, email, address, website)\n\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",ט רנ האינט אתר תובת כ www.harel-group.co.il"
 }

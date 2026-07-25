@@ -2,24 +2,24 @@
   "id": "pdf:life/files/טופס-בקשה-להוספת-או-הגדלת-כיסויים-פוליסת-ביטוח-למקרה-מוות.pdf#13",
   "source": "llm",
   "description": {
-    "title": "בקשת כיסוי נוסף",
-    "summary": "This table is a request form for adding or increasing coverage to an existing life insurance policy. It determines if the applicant already has a similar policy and their intentions regarding the existing policy when adding new coverage.",
-    "embed_passage": "טופס זה משמש לבקשת כיסוי נוסף לפוליסת ביטוח קיימת של הראל. הכיסוי הנוסף מבטח מקרה ביטוח דומה לקיים, וייגבו דמי ביטוח נוספים. לדוגמה, ניתן להקטין את היקף הפיצוי בפוליסה קיימת או לבטל אותה לחלוטין.",
-    "row_axis": "Applicant's choice regarding existing policy",
-    "column_axis": "Action related to existing policy (keep, reduce, cancel)",
+    "title": "בקשה לשינוי פוליסה",
+    "summary": "This table is part of a request form for modifying an existing life insurance policy, specifically regarding coverage additions, reductions, or cancellations. It helps determine the policyholder's intentions regarding existing coverage when applying for a new or modified policy.",
+    "embed_passage": "טופס זה משמש לשינוי פוליסת ביטוח קיימת, כגון הוספת כיסוי נוסף או הקטנת היקף הפיצוי. המטרה היא לאפשר ללקוחות להתאים את הפוליסה לצרכים המשתנים שלהם, תוך שמירה על פוליסה קיימת או ביטולה. ניתן לבקש להשאיר את הפוליסה הקיימת בתוקף, להקטין את היקף הפיצוי בכיסוי נכויות, או לבטל את הפוליסה הקיימת לחלוטין. הראל, נכויות, הקטנת היקף הפיצוי, ביטול פוליסה, כיסוי נוסף, רכישת כיסוי.",
+    "row_axis": "אפשרויות פעולה לגבי פוליסה קיימת",
+    "column_axis": "אין עמודות מוגדרות בטבלה",
     "units": [],
     "notable_values": [
-      "product: הראל",
-      "action: להשאיר את הפוליסה הקיימת",
-      "action: להקטין את היקף הפיצוי",
-      "action: לבטל את הפוליסה הקיימת"
+      "פוליסה קיימת: כן/לא",
+      "נכויות: הקטנת היקף הפיצוי",
+      "הראל: חברת הביטוח"
     ],
     "product_hints": [
-      "הראל",
-      "פוליסת ביטוח"
+      "פוליסת ביטוח למקרה מוות",
+      "פוליסת נכויות",
+      "הראל"
     ]
   },
   "sketch": "לידיעתך, הכיסוי אליו את/ה מבקש/ת להצטרף הינו כיסוי נוסף, המבטח מקרה ביטוח דומה לכיסוי הקיים שבידך וייגבו דמי ביטוח נוספים עבור כיסוי זה. אני מאשר/ת את רכישת הכיסוי וגביית הפרמיה הנוספת.\nאני מעוניין/ת להשאיר את הפוליסה הקיימת ולהקטין בה את היקף הפיצוי: ברכישת כיסוי מסוג נכויות:\nלידיעתך/כם, הכיסוי אליו את/ה מבקש/ת להצטרף הינו כיסוי נוסף, המבטח מקרה ביטוח דומה לכיסוי הקיים שבידך וייגבו דמי ביטוח נוספים עבור . כיסוי זה. את/ה מאשר/ת את רכישת הכיסוי וגביית הפרמיה הנוספת",
-  "embed_text": "טופס זה משמש לבקשת כיסוי נוסף לפוליסת ביטוח קיימת של הראל. הכיסוי הנוסף מבטח מקרה ביטוח דומה לקיים, וייגבו דמי ביטוח נוספים. לדוגמה, ניתן להקטין את היקף הפיצוי בפוליסה קיימת או לבטל אותה לחלוטין.",
-  "payload": "טבלה: בקשת כיסוי נוסף\nThis table is a request form for adding or increasing coverage to an existing life insurance policy. It determines if the applicant already has a similar policy and their intentions regarding the existing policy when adding new coverage.\nממדים: Applicant's choice regarding existing policy, Action related to existing policy (keep, reduce, cancel)\n\nלידיעתך, הכיסוי אליו את/ה מבקש/ת להצטרף הינו כיסוי נוסף, המבטח מקרה ביטוח דומה לכיסוי הקיים שבידך וייגבו דמי ביטוח נוספים עבור כיסוי זה. אני מאשר/ת את רכישת הכיסוי וגביית הפרמיה הנוספת.\nאני מעוניין/ת להשאיר את הפוליסה הקיימת ולהקטין בה את היקף הפיצוי: ברכישת כיסוי מסוג נכויות:\nלידיעתך/כם, הכיסוי אליו את/ה מבקש/ת להצטרף הינו כיסוי נוסף, המבטח מקרה ביטוח דומה לכיסוי הקיים שבידך וייגבו דמי ביטוח נוספים עבור . כיסוי זה. את/ה מאשר/ת את רכישת הכיסוי וגביית הפרמיה הנוספת"
+  "embed_text": "טופס זה משמש לשינוי פוליסת ביטוח קיימת, כגון הוספת כיסוי נוסף או הקטנת היקף הפיצוי. המטרה היא לאפשר ללקוחות להתאים את הפוליסה לצרכים המשתנים שלהם, תוך שמירה על פוליסה קיימת או ביטולה. ניתן לבקש להשאיר את הפוליסה הקיימת בתוקף, להקטין את היקף הפיצוי בכיסוי נכויות, או לבטל את הפוליסה הקיימת לחלוטין. הראל, נכויות, הקטנת היקף הפיצוי, ביטול פוליסה, כיסוי נוסף, רכישת כיסוי. This table is part of a request form for modifying an existing life insurance policy, specifically regarding coverage additions, reductions, or cancellations. It helps determine the policyholder's intentions regarding existing coverage when applying for a new or modified policy.",
+  "payload": "טבלה: בקשה לשינוי פוליסה\nThis table is part of a request form for modifying an existing life insurance policy, specifically regarding coverage additions, reductions, or cancellations. It helps determine the policyholder's intentions regarding existing coverage when applying for a new or modified policy.\nממדים: אפשרויות פעולה לגבי פוליסה קיימת, אין עמודות מוגדרות בטבלה\n\nלידיעתך, הכיסוי אליו את/ה מבקש/ת להצטרף הינו כיסוי נוסף, המבטח מקרה ביטוח דומה לכיסוי הקיים שבידך וייגבו דמי ביטוח נוספים עבור כיסוי זה. אני מאשר/ת את רכישת הכיסוי וגביית הפרמיה הנוספת.\nאני מעוניין/ת להשאיר את הפוליסה הקיימת ולהקטין בה את היקף הפיצוי: ברכישת כיסוי מסוג נכויות:\nלידיעתך/כם, הכיסוי אליו את/ה מבקש/ת להצטרף הינו כיסוי נוסף, המבטח מקרה ביטוח דומה לכיסוי הקיים שבידך וייגבו דמי ביטוח נוספים עבור . כיסוי זה. את/ה מאשר/ת את רכישת הכיסוי וגביית הפרמיה הנוספת"
 }

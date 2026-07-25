@@ -2,26 +2,24 @@
   "id": "pdf:business/files/פוליסה-משולבת-לביטוח-אש-מורחב-ואובדן-תוצאתי-הראל-ביט-ינואר-2023.pdf#104",
   "source": "llm",
   "description": {
-    "title": "פוליסת ביטוח אש והרחבות",
-    "summary": "This table details conditions related to insurance claims for fire and consequential loss, specifically defining the 'determining date' for declarations and claim calculations. It outlines how property value is assessed for different types of assets.",
-    "embed_passage": "פוליסת הראל לביטוח אש מורחב ואובדן תוצאתי מגדירה את המועד הקובע לצורך הצהרה וחישוב תגמולי ביטוח. לדוגמה, לצורך הצהרה המועד הקובע הוא היום האחרון של החודש, בעוד שלצורך חישוב תגמולים הוא מועד הרכישה מחדש לאחר מקרה הביטוח, או חודש מיום 12 למקרה, ובלבד שהרכישה תתבצע תוך 10% על הנזק.",
-    "row_axis": "conditions for determining date",
-    "column_axis": "type of calculation (declaration vs. claim)",
+    "title": "הראל ביטוח אש ואובדן תוצאתי",
+    "summary": "This table details conditions related to the 'determining date' for insurance claims under a fire and consequential loss policy from Harel. It outlines how the determining date is defined for declarations and claim calculations.",
+    "embed_passage": "טבלה זו עוסקת בתנאים לקביעת ערך רכוש מבוטח בפוליסת ביטוח אש ואובדן תוצאתי של הראל. מטרתה להגדיר את ״המועד הקובע״ לצורך הצהרות וחישוב תגמולים, תוך התייחסות לרכישה או ייצור מחדש לאחר מקרה ביטוח. ניתן למצוא כאן התייחסות לביטול פוליסה, חבות מרבית של המבטח, והתאמה בגין תקופת הפוליסה. המונחים המרכזיים כוללים: חומרי גלם, מוצרים בתהליך, מוצרים מוגמרים, סכום הביטוח, ורכישה מחדש. במקרה של ביטול פוליסה, תיערך התאמה בגין התקופה שבה הייתה הפוליסה בתוקף. החבות המרבית של המבטח לא תעלה על סכום הביטוח הנקוב ברשימה.",
+    "row_axis": "conditions related to the 'determining date'",
+    "column_axis": "definition and application of the 'determining date'",
     "units": [],
     "notable_values": [
-      "10%: maximum additional payment due to late purchase",
-      "12: days from incident to claim calculation date",
-      "13.5: adjustment made upon policy cancellation",
-      "90%: reduction in insurance amount if property value decreases",
-      "20%: maximum transfer amount for overinsurance"
+      "ביטול פוליסה: התאמה תקופתית",
+      "חבות מרבית: סכום הביטוח הנקוב",
+      "רכישה מחדש: עד 10% תוספת",
+      "המועד הקובע (הצהרה): סוף החודש",
+      "המועד הקובע (חישוב): מועד הרכישה/ייצור מחדש"
     ],
     "product_hints": [
-      "ביטוח אש מורחב",
-      "אובדן תוצאתי",
-      "הראל"
+      "פוליסה משולבת לביטוח אש מורחב ואובדן תוצאתי הראל ביט"
     ]
   },
   "sketch": "לעניין סעיף זה המונח ״המועד הקובע״ פירושו: .5.6.3\nלצורך הצהרה: היום האחרון של החודש לגביו נמסרה ההצהרה. .5.6.3.1\nלצורך חישוב תגמולי ביטוח: מועד עריכת ההצהרה או מועד .5.6.3.2 הרכישה/הייצור מחדש לאחר קרות מקרה הביטוח, בהתאם חודש מיום 12 למקרה, ובלבד שהרכישה מחדש תתבצע תוך הנזק וסכום התשלום הנוסף עקב רכישה מאוחרת זו לא יעלה מסכום השיפוי ביום קרות הנזק. 10% על\n' בכל מקרה של ביטול פוליסה זו, אזי בכפוף לאמור בתנאי מס .5.6.3.3 ״ביטול הביטוח״ בתנאים הכלליים של הפוליסה, תיערך 13.5 התאמה כאמור לעיל בגין התקופה שבה הייתה הפוליסה בתוקף.\nהחבות המרבית של המבטח לא תעלה על סכום הביטוח הנקוב ברשימה בגין הרכוש המבוטח הכפוף לתנאים אלה. המבטח אינו רשאי לדרוש דמי ביטוח נוספים בגין סכומים עודפים מעבר לסכום הביטוח הנקוב ברשימה.\n.5.6.3.4",
-  "embed_text": "פוליסת הראל לביטוח אש מורחב ואובדן תוצאתי מגדירה את המועד הקובע לצורך הצהרה וחישוב תגמולי ביטוח. לדוגמה, לצורך הצהרה המועד הקובע הוא היום האחרון של החודש, בעוד שלצורך חישוב תגמולים הוא מועד הרכישה מחדש לאחר מקרה הביטוח, או חודש מיום 12 למקרה, ובלבד שהרכישה תתבצע תוך 10% על הנזק.",
-  "payload": "טבלה: פוליסת ביטוח אש והרחבות\nThis table details conditions related to insurance claims for fire and consequential loss, specifically defining the 'determining date' for declarations and claim calculations. It outlines how property value is assessed for different types of assets.\nממדים: conditions for determining date, type of calculation (declaration vs. claim)\n\nלעניין סעיף זה המונח ״המועד הקובע״ פירושו: .5.6.3\nלצורך הצהרה: היום האחרון של החודש לגביו נמסרה ההצהרה. .5.6.3.1\nלצורך חישוב תגמולי ביטוח: מועד עריכת ההצהרה או מועד .5.6.3.2 הרכישה/הייצור מחדש לאחר קרות מקרה הביטוח, בהתאם חודש מיום 12 למקרה, ובלבד שהרכישה מחדש תתבצע תוך הנזק וסכום התשלום הנוסף עקב רכישה מאוחרת זו לא יעלה מסכום השיפוי ביום קרות הנזק. 10% על\n' בכל מקרה של ביטול פוליסה זו, אזי בכפוף לאמור בתנאי מס .5.6.3.3 ״ביטול הביטוח״ בתנאים הכלליים של הפוליסה, תיערך 13.5 התאמה כאמור לעיל בגין התקופה שבה הייתה הפוליסה בתוקף.\nהחבות המרבית של המבטח לא תעלה על סכום הביטוח הנקוב ברשימה בגין הרכוש המבוטח הכפוף לתנאים אלה. המבטח אינו רשאי לדרוש דמי ביטוח נוספים בגין סכומים עודפים מעבר לסכום הביטוח הנקוב ברשימה.\n.5.6.3.4"
+  "embed_text": "טבלה זו עוסקת בתנאים לקביעת ערך רכוש מבוטח בפוליסת ביטוח אש ואובדן תוצאתי של הראל. מטרתה להגדיר את ״המועד הקובע״ לצורך הצהרות וחישוב תגמולים, תוך התייחסות לרכישה או ייצור מחדש לאחר מקרה ביטוח. ניתן למצוא כאן התייחסות לביטול פוליסה, חבות מרבית של המבטח, והתאמה בגין תקופת הפוליסה. המונחים המרכזיים כוללים: חומרי גלם, מוצרים בתהליך, מוצרים מוגמרים, סכום הביטוח, ורכישה מחדש. במקרה של ביטול פוליסה, תיערך התאמה בגין התקופה שבה הייתה הפוליסה בתוקף. החבות המרבית של המבטח לא תעלה על סכום הביטוח הנקוב ברשימה. This table details conditions related to the 'determining date' for insurance claims under a fire and consequential loss policy from Harel. It outlines how the determining date is defined for declarations and claim calculations. בין הערכים בטבלה: המועד הקובע (הצהרה): סוף החודש; המועד הקובע (חיש…",
+  "payload": "טבלה: הראל ביטוח אש ואובדן תוצאתי\nThis table details conditions related to the 'determining date' for insurance claims under a fire and consequential loss policy from Harel. It outlines how the determining date is defined for declarations and claim calculations.\nממדים: conditions related to the 'determining date', definition and application of the 'determining date'\n\nלעניין סעיף זה המונח ״המועד הקובע״ פירושו: .5.6.3\nלצורך הצהרה: היום האחרון של החודש לגביו נמסרה ההצהרה. .5.6.3.1\nלצורך חישוב תגמולי ביטוח: מועד עריכת ההצהרה או מועד .5.6.3.2 הרכישה/הייצור מחדש לאחר קרות מקרה הביטוח, בהתאם חודש מיום 12 למקרה, ובלבד שהרכישה מחדש תתבצע תוך הנזק וסכום התשלום הנוסף עקב רכישה מאוחרת זו לא יעלה מסכום השיפוי ביום קרות הנזק. 10% על\n' בכל מקרה של ביטול פוליסה זו, אזי בכפוף לאמור בתנאי מס .5.6.3.3 ״ביטול הביטוח״ בתנאים הכלליים של הפוליסה, תיערך 13.5 התאמה כאמור לעיל בגין התקופה שבה הייתה הפוליסה בתוקף.\nהחבות המרבית של המבטח לא תעלה על סכום הביטוח הנקוב ברשימה בגין הרכוש המבוטח הכפוף לתנאים אלה. המבטח אינו רשאי לדרוש דמי ביטוח נוספים בגין סכומים עודפים מעבר לסכום הביטוח הנקוב ברשימה.\n.5.6.3.4"
 }

@@ -3,23 +3,22 @@
   "source": "llm",
   "description": {
     "title": "תביעות צד שלישי",
-    "summary": "This table details the process for handling third-party claims related to a car insurance policy. It outlines the timeframe for notifying the insured and the conditions for payment to the third party.",
-    "embed_passage": "פוליסת הראל מתייחסת לטיפול בתביעות צד שלישי, ומגדירה מסגרת זמן של 7 ימי עסקים להודעה על דרישה, ועד 30 ימים לתגובה. במקרה של דרישה מצד שלישי, המבטח רשאי לשלם את התגמולים למבוטח, ובתנאי שהמבוטח לא התנגד לכך בכתב.",
-    "row_axis": "Stages in the third-party claim process",
-    "column_axis": "Actions and timeframes related to claim handling",
+    "summary": "This table details the process for handling third-party claims related to an insurance policy. It outlines the timeframe for notifying the insured and the conditions for payment to a third party.",
+    "embed_passage": "טבלה זו מתארת את הטיפול בתביעות צד שלישי הקשורות לפוליסת ביטוח. היא מפרטת את מסגרת הזמן להודעה למבוטח ואת התנאים לתשלום לצד שלישי. הטבלה רלוונטית במקרים בהם צד שלישי דורש תגמולי ביטוח מהמבטח. ניתן לחפש מידע על תהליך הטיפול בתביעות, מספר ימי עסקים להודעה, ותנאי תשלום לצד שלישי. סעיפים רלוונטיים: 14.1, 14.2, 14.3.",
+    "row_axis": "סעיף",
+    "column_axis": "תיאור תהליך תביעה",
     "units": [],
     "notable_values": [
-      "7: Number of business days for notification of a claim",
-      "30: Number of days to respond to a claim",
-      "14.1: Section number regarding notification to the insured",
-      "14.2: Section number regarding payment to a third party"
+      "סעיף 14.1: יודיע המבטח",
+      "סעיף 14.2: 7 ימי עסקים",
+      "סעיף 14.2: 30 ימים",
+      "סעיף 14.3: עזרה למבטח"
     ],
     "product_hints": [
-      "הראל",
       "פוליסת הראל"
     ]
   },
   "sketch": ", יודיע המבטח 14.1 .  דרש צד שלישי מהמבטח את תגמולי הביטוח כאמור בסעיף קטן 14.2 ימי עסקים מיום הדרישה על הדרישה כאמור וכי אם לא יודיע 7 למבוטח בכתב בתוך ימים, ישלם לצד השלישי את תגמולי הביטוח 30 לו על התנגדותו לתשלום הפיצוי בתוך שהוא חייב למבוטח, ככל שהוא חייב בתשלומם.\n.  המבטח רשאי ליטול על עצמו או לנהל בשם המבוטח את ההגנה של כל תביעה והמבוטח 14.3 יושיט למבטח, לפי בקשתו, עזרה הנחוצה למבטח לצורך יישוב תביעה של צד שלישי.",
-  "embed_text": "פוליסת הראל מתייחסת לטיפול בתביעות צד שלישי, ומגדירה מסגרת זמן של 7 ימי עסקים להודעה על דרישה, ועד 30 ימים לתגובה. במקרה של דרישה מצד שלישי, המבטח רשאי לשלם את התגמולים למבוטח, ובתנאי שהמבוטח לא התנגד לכך בכתב.",
-  "payload": "טבלה: תביעות צד שלישי\nThis table details the process for handling third-party claims related to a car insurance policy. It outlines the timeframe for notifying the insured and the conditions for payment to the third party.\nממדים: Stages in the third-party claim process, Actions and timeframes related to claim handling\n\n, יודיע המבטח 14.1 .  דרש צד שלישי מהמבטח את תגמולי הביטוח כאמור בסעיף קטן 14.2 ימי עסקים מיום הדרישה על הדרישה כאמור וכי אם לא יודיע 7 למבוטח בכתב בתוך ימים, ישלם לצד השלישי את תגמולי הביטוח 30 לו על התנגדותו לתשלום הפיצוי בתוך שהוא חייב למבוטח, ככל שהוא חייב בתשלומם.\n.  המבטח רשאי ליטול על עצמו או לנהל בשם המבוטח את ההגנה של כל תביעה והמבוטח 14.3 יושיט למבטח, לפי בקשתו, עזרה הנחוצה למבטח לצורך יישוב תביעה של צד שלישי."
+  "embed_text": "טבלה זו מתארת את הטיפול בתביעות צד שלישי הקשורות לפוליסת ביטוח. היא מפרטת את מסגרת הזמן להודעה למבוטח ואת התנאים לתשלום לצד שלישי. הטבלה רלוונטית במקרים בהם צד שלישי דורש תגמולי ביטוח מהמבטח. ניתן לחפש מידע על תהליך הטיפול בתביעות, מספר ימי עסקים להודעה, ותנאי תשלום לצד שלישי. סעיפים רלוונטיים: 14.1, 14.2, 14.3. This table details the process for handling third-party claims related to an insurance policy. It outlines the timeframe for notifying the insured and the conditions for payment to a third party. בין הערכים בטבלה: סעיף 14.1: יודיע המבטח; סעיף 14.2: 7 ימי עסקים; סעיף 14.2: 30 ימים; סעיף 14.3: עזרה למבטח.",
+  "payload": "טבלה: תביעות צד שלישי\nThis table details the process for handling third-party claims related to an insurance policy. It outlines the timeframe for notifying the insured and the conditions for payment to a third party.\nממדים: סעיף, תיאור תהליך תביעה\n\n, יודיע המבטח 14.1 .  דרש צד שלישי מהמבטח את תגמולי הביטוח כאמור בסעיף קטן 14.2 ימי עסקים מיום הדרישה על הדרישה כאמור וכי אם לא יודיע 7 למבוטח בכתב בתוך ימים, ישלם לצד השלישי את תגמולי הביטוח 30 לו על התנגדותו לתשלום הפיצוי בתוך שהוא חייב למבוטח, ככל שהוא חייב בתשלומם.\n.  המבטח רשאי ליטול על עצמו או לנהל בשם המבוטח את ההגנה של כל תביעה והמבוטח 14.3 יושיט למבטח, לפי בקשתו, עזרה הנחוצה למבטח לצורך יישוב תביעה של צד שלישי."
 }

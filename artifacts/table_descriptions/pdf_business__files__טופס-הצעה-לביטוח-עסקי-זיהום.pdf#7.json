@@ -2,28 +2,28 @@
   "id": "pdf:business/files/טופס-הצעה-לביטוח-עסקי-זיהום.pdf#7",
   "source": "llm",
   "description": {
-    "title": "ביטוח זיהום",
-    "summary": "This table details coverage options for a pollution insurance policy. Users can look up coverage limits and policy terms to determine the cost of insurance.",
-    "embed_passage": "ביטוח זיהום מציע אפשרויות כיסוי לתקופות של שנה אחת או שלוש שנים. סכום הכיסוי יכול להיות 1,000,000$, 2,000,000$, או 5,000,000$, וניתן לבחור סכום אחר לפי הצורך. הכיסוי מגן מפני נזקים הנגרמים מזיהום.",
+    "title": "אפשרויות כיסוי",
+    "summary": "This table presents coverage options for a business pollution insurance policy. It allows users to select the policy term and the total policy limit.",
+    "embed_passage": "טבלה זו מציגה אפשרויות כיסוי עבור פוליסת ביטוח זיהום עסקי. ניתן לבחור כאן את תקופת הפוליסה ואת סכום הכיסוי הכולל. אפשרויות התקופה כוללות שנה אחת, שלוש שנים, חמש שנים ועשר שנים. סכומי הכיסוי כוללים 1,000,000$, 2,000,000$, 5,000,000$ ואפשרות אחרת בסכום מותאם אישית. ביטוח זיהום עסקי",
     "row_axis": "Coverage option",
-    "column_axis": "Policy details (term, coverage limit, deductible)",
+    "column_axis": "Option value",
     "units": [
-      "$",
-      "שנה",
-      "שנים"
+      "$"
     ],
     "notable_values": [
       "Policy term: One year",
       "Policy term: Three years",
-      "Coverage limit: $1,000,000",
-      "Coverage limit: $2,000,000",
-      "Coverage limit: $5,000,000"
+      "Policy term: Five years",
+      "Policy term: Ten years",
+      "Limit of liability: $1,000,000",
+      "Limit of liability: $2,000,000",
+      "Limit of liability: $5,000,000"
     ],
     "product_hints": [
-      "ביטוח זיהום"
+      "ביטוח זיהום עסקי"
     ]
   },
-  "sketch": "II.  Coverage options\nPolicy term\n One year\n Three years\n…\n $1,000,000\n $2,000,000\n $5,000,000\n Other $",
-  "embed_text": "ביטוח זיהום מציע אפשרויות כיסוי לתקופות של שנה אחת או שלוש שנים. סכום הכיסוי יכול להיות 1,000,000$, 2,000,000$, או 5,000,000$, וניתן לבחור סכום אחר לפי הצורך. הכיסוי מגן מפני נזקים הנגרמים מזיהום.",
-  "payload": "טבלה: ביטוח זיהום\nThis table details coverage options for a pollution insurance policy. Users can look up coverage limits and policy terms to determine the cost of insurance.\nממדים: Coverage option, Policy details (term, coverage limit, deductible)\n\nII.  Coverage options\nPolicy term\n One year\n Three years\n Five years\n Ten years\n Other\nyears\nLimit of liability - Each Pollution Event Limit\n $1,000,000\n $2,000,000\n $5,000,000\n Other $\nLimit of liability- Total Policy Limit\n $1,000,000\n $2,000,000\n $5,000,000\n Other $"
+  "sketch": "II.  Coverage options\nPolicy term\n One year\n Three years\n Five years\n Ten years\n…\n Other $\nLimit of liability- Total Policy Limit\n $1,000,000\n $2,000,000\n $5,000,000\n Other $",
+  "embed_text": "טבלה זו מציגה אפשרויות כיסוי עבור פוליסת ביטוח זיהום עסקי. ניתן לבחור כאן את תקופת הפוליסה ואת סכום הכיסוי הכולל. אפשרויות התקופה כוללות שנה אחת, שלוש שנים, חמש שנים ועשר שנים. סכומי הכיסוי כוללים 1,000,000$, 2,000,000$, 5,000,000$ ואפשרות אחרת בסכום מותאם אישית. ביטוח זיהום עסקי This table presents coverage options for a business pollution insurance policy. It allows users to select the policy term and the total policy limit. בין הערכים בטבלה: Policy term: One year; Policy term: Three years; Policy term: Five years; Policy term: Ten years; Limit of liability: $1,000,000; Limit of liability: $2,000,000; Limit of liability: $5,000,000.",
+  "payload": "טבלה: אפשרויות כיסוי\nThis table presents coverage options for a business pollution insurance policy. It allows users to select the policy term and the total policy limit.\nממדים: Coverage option, Option value\n\nII.  Coverage options\nPolicy term\n One year\n Three years\n Five years\n Ten years\n Other\nyears\nLimit of liability - Each Pollution Event Limit\n $1,000,000\n $2,000,000\n $5,000,000\n Other $\nLimit of liability- Total Policy Limit\n $1,000,000\n $2,000,000\n $5,000,000\n Other $"
 }

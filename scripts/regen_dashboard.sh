@@ -26,6 +26,11 @@ python scripts/generate_compare_dashboard.py \
   --run "RAG RRF k20±2|rag_answers_rrf_k20_w2.jsonl" \
   --run "RAG rerank 100→20±2|rag_answers_rerank_k20_w2.jsonl" \
   --run "RAG rerank + LLM tables|rag_answers_rerank_k20_w2_llm_tables.jsonl" \
+  --run "RAG rerank + route + nofaq|reports/rag_answers_rerank_k20_w2_route_nofaq.jsonl" \
+  --run "RAG rerank + nofaq|reports/rag_answers_rerank_k20_w2_nofaq.jsonl" \
+  --run "RAG rerank + route80+20 + nofaq|reports/rag_answers_rerank_k20_w2_route80_20_nofaq.jsonl" \
+  --run "RAG rerank + route80+20 + hits cite|reports/rag_answers_rerank_k20_w2_route80_20_nofaq_cite.jsonl" \
+  --run "RAG rerank + route80+20 + passage cite|reports/rag_answers_rerank_k20_w2_route80_20_passage_cite.jsonl" \
   --eval "Baseline|reports/stage1/baseline_eval.json" \
   --eval "Few-shot + cite|reports/stage1/few_shot_eval.json" \
   --eval "Few-shot + concise|reports/stage1/concise_few_shot_eval.json" \
@@ -41,6 +46,11 @@ python scripts/generate_compare_dashboard.py \
   --eval "RAG RRF k20±2|reports/stage2/rag_rrf_k20_w2_eval.json" \
   --eval "RAG rerank 100→20±2|reports/stage2/rag_rerank_k20_w2_eval.json" \
   --eval "RAG rerank + LLM tables|reports/stage2/rag_rerank_k20_w2_llm_tables_eval.json" \
+  --eval "RAG rerank + route + nofaq|reports/stage2/rag_rerank_k20_w2_route_nofaq_eval.json" \
+  --eval "RAG rerank + nofaq|reports/stage2/rag_rerank_k20_w2_nofaq_eval.json" \
+  --eval "RAG rerank + route80+20 + nofaq|reports/stage2/rag_rerank_k20_w2_route80_20_nofaq_eval.json" \
+  --eval "RAG rerank + route80+20 + hits cite|reports/stage2/rag_rerank_k20_w2_route80_20_nofaq_cite_eval.json" \
+  --eval "RAG rerank + route80+20 + passage cite|reports/stage2/rag_rerank_k20_w2_route80_20_passage_cite_eval.json" \
   --prompt "RAG no-cite|rag-no-cite" \
   --prompt "RAG no-cite k10±2|rag-no-cite" \
   --prompt "RAG no-cite k20±2|rag-no-cite" \
@@ -48,6 +58,11 @@ python scripts/generate_compare_dashboard.py \
   --prompt "RAG RRF k20±2|rag-no-cite" \
   --prompt "RAG rerank 100→20±2|rag-no-cite" \
   --prompt "RAG rerank + LLM tables|rag-no-cite" \
+  --prompt "RAG rerank + route + nofaq|rag-no-cite" \
+  --prompt "RAG rerank + nofaq|rag-no-cite" \
+  --prompt "RAG rerank + route80+20 + nofaq|rag-no-cite" \
+  --prompt "RAG rerank + route80+20 + hits cite|rag-no-cite" \
+  --prompt "RAG rerank + route80+20 + passage cite|rag-no-cite" \
   --out reports/stage1/stage1_prompt_strategy_comparison.html
 
 cp reports/stage1/stage1_prompt_strategy_comparison.html deliverables/stage1_prompt_strategy_comparison.html

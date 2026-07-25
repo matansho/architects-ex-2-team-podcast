@@ -3,22 +3,21 @@
   "source": "llm",
   "description": {
     "title": "נזקי טרור לתעשייה",
-    "summary": "This table details the conditions under which an insurer can cancel a terrorism insurance policy for industrial properties. It specifies timeframes (in days) for responding to inquiries and notifying the insured of cancellation.",
-    "embed_passage": "פוליסת נזקי טרור לתעשייה מאפשרת למבטח לבטל את הפוליסה אם המבוטח לא מסר תשובות מלאות וכנות. לדוגמה, תוך 30 ימים מהיום שנמסרה תשובה שאינה מלאה, או תוך 30 ימים מהיום שנודע על מידע כאמור בדרך אחרת, רשאי המבטח לבטל את הפוליסה בהודעה בכתב. ביטול החוזה מזכה את המבוטח בהחזר דמי ביטוח ששולמו עבור התקופה שלאחר הביטול, אלא אם כן פעל בכוונת מרמה.",
-    "row_axis": "Cancellation conditions related to incomplete or dishonest responses",
-    "column_axis": "Timeframes for insurer action (days)",
-    "units": [
-      "ימים"
-    ],
+    "summary": "This table outlines the conditions under which an insurer can cancel a policy due to material misrepresentation or incomplete disclosure. It specifies the timeframes within which the insurer must act and the potential for premium refunds.",
+    "embed_passage": "טבלה זו מתארת את התנאים שבהם מבטח רשאי לבטל פוליסה עקב הצגה לא מלאה או לא כנה של מידע מהותי. הפוליסה רלוונטית לנזקי טרור לתעשייה, והיא מפרטת את מסגרות הזמן שבהן המבטח חייב לפעול ואת האפשרות להחזר דמי ביטוח. במקרה של ביטול חוזה מכוח תנאי זה, לפני קרות מקרה ביטוח, זכאי המבוטח להחזר דמי ביטוח ששילם בעד התקופה שלאחר הביטול. נזקי טרור לתעשייה, ביטול פוליסה, עניין מהותי, דמי ביטוח, החזר, 30 ימים.",
+    "row_axis": "Conditions for policy cancellation",
+    "column_axis": "Timeframes and rights",
+    "units": [],
     "notable_values": [
-      "30 ימים: תגובה לא מלאה",
-      "30 ימים: מידע שהתקבל בדרך אחרת"
+      "Timeframe for insurer response: 30 days",
+      "Cancellation right timeframe: 30 days",
+      "Premium refund eligibility: Before insurance event"
     ],
     "product_hints": [
       "נזקי טרור לתעשייה"
     ]
   },
   "sketch": "ימים מהיום שנמסרה למבטח תשובה שאינה מלאה וכנה או הודעה על 30 תוך .13.7 , ימים מהיום שנודע על מידע כאמור למבטח בדרך אחרת 30 שינוי מהותי או תוך רשאי המבטח, כל עוד לא קרה מקרה הביטוח, לבטל את הפוליסה מיד בהודעה בכתב למבוטח.\nביטל המבטח החוזה מכח תנאי זה, עובר לקרות מקרה ביטוח, זכאי המבוטח להחזר דמי ביטוח ששילם בעד התקופה שלאחר הביטול זולת אם המבוטח פעל בכוונת מרמה.",
-  "embed_text": "פוליסת נזקי טרור לתעשייה מאפשרת למבטח לבטל את הפוליסה אם המבוטח לא מסר תשובות מלאות וכנות. לדוגמה, תוך 30 ימים מהיום שנמסרה תשובה שאינה מלאה, או תוך 30 ימים מהיום שנודע על מידע כאמור בדרך אחרת, רשאי המבטח לבטל את הפוליסה בהודעה בכתב. ביטול החוזה מזכה את המבוטח בהחזר דמי ביטוח ששולמו עבור התקופה שלאחר הביטול, אלא אם כן פעל בכוונת מרמה.",
-  "payload": "טבלה: נזקי טרור לתעשייה\nThis table details the conditions under which an insurer can cancel a terrorism insurance policy for industrial properties. It specifies timeframes (in days) for responding to inquiries and notifying the insured of cancellation.\nממדים: Cancellation conditions related to incomplete or dishonest responses, Timeframes for insurer action (days)\n\nימים מהיום שנמסרה למבטח תשובה שאינה מלאה וכנה או הודעה על 30 תוך .13.7 , ימים מהיום שנודע על מידע כאמור למבטח בדרך אחרת 30 שינוי מהותי או תוך רשאי המבטח, כל עוד לא קרה מקרה הביטוח, לבטל את הפוליסה מיד בהודעה בכתב למבוטח.\nביטל המבטח החוזה מכח תנאי זה, עובר לקרות מקרה ביטוח, זכאי המבוטח להחזר דמי ביטוח ששילם בעד התקופה שלאחר הביטול זולת אם המבוטח פעל בכוונת מרמה."
+  "embed_text": "טבלה זו מתארת את התנאים שבהם מבטח רשאי לבטל פוליסה עקב הצגה לא מלאה או לא כנה של מידע מהותי. הפוליסה רלוונטית לנזקי טרור לתעשייה, והיא מפרטת את מסגרות הזמן שבהן המבטח חייב לפעול ואת האפשרות להחזר דמי ביטוח. במקרה של ביטול חוזה מכוח תנאי זה, לפני קרות מקרה ביטוח, זכאי המבוטח להחזר דמי ביטוח ששילם בעד התקופה שלאחר הביטול. נזקי טרור לתעשייה, ביטול פוליסה, עניין מהותי, דמי ביטוח, החזר, 30 ימים. This table outlines the conditions under which an insurer can cancel a policy due to material misrepresentation or incomplete disclosure. It specifies the timeframes within which the insurer must act and the potential for premium refunds. בין הערכים בטבלה: Timeframe for insurer response: 30 days; Cancellation right timeframe: 30 days; Premium refund eligibility: Before insurance event.",
+  "payload": "טבלה: נזקי טרור לתעשייה\nThis table outlines the conditions under which an insurer can cancel a policy due to material misrepresentation or incomplete disclosure. It specifies the timeframes within which the insurer must act and the potential for premium refunds.\nממדים: Conditions for policy cancellation, Timeframes and rights\n\nימים מהיום שנמסרה למבטח תשובה שאינה מלאה וכנה או הודעה על 30 תוך .13.7 , ימים מהיום שנודע על מידע כאמור למבטח בדרך אחרת 30 שינוי מהותי או תוך רשאי המבטח, כל עוד לא קרה מקרה הביטוח, לבטל את הפוליסה מיד בהודעה בכתב למבוטח.\nביטל המבטח החוזה מכח תנאי זה, עובר לקרות מקרה ביטוח, זכאי המבוטח להחזר דמי ביטוח ששילם בעד התקופה שלאחר הביטול זולת אם המבוטח פעל בכוונת מרמה."
 }

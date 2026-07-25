@@ -2,24 +2,27 @@
   "id": "pdf:business/files/טופס-הצעה-לביטוח-רכוש-במעבר.pdf#1",
   "source": "llm",
   "description": {
-    "title": "הצעת ביטוח רכוש במעבר",
-    "summary": "This table details an insurance quote for property in transit. It's used to look up agent details and policy period information.",
-    "embed_passage": "טופס הצעה לביטוח רכוש במעבר מכסה אובדן או נזק לסחורות במהלך הובלה. פרטי הסוכן כוללים שם הסוכנות, שם הסוכן ומספר הסוכן. תקופת הביטוח מצוינת החל מיום מסוים ועד בחצות יום אחר.",
-    "row_axis": "Individual insurance quote/proposal",
-    "column_axis": "Details related to the agent, contact information, and policy period",
+    "title": "טופס הצעה לביטוח רכוש במעבר",
+    "summary": "This table captures agent and applicant details for a property-in-transit insurance proposal. It is used to record information for quoting and policy issuance.",
+    "embed_passage": "טופס זה משמש להצעת ביטוח רכוש במעבר, ומאפשר רישום פרטי הסוכן ופרטי המועמד לביטוח. המידע נאסף לצורך הערכת סיכונים וחישוב פרמיה. השדות כוללים מס׳ סוכן, שם סוכנות, פרטי שם ומשפחה של המועמד לביטוח, כתובות, עיסוק, ופרטי יצירת קשר. טופס הצעה לביטוח רכוש במעבר כולל מס׳ סוכן, שם סוכן, טלפון, ת.זהות, רחוב, שכונה/עיר, מיקוד, עיסוק, כתובת דואר אלקטרוני ותקופת ביטוח.",
+    "row_axis": "Applicant/Agent details",
+    "column_axis": "Applicant/Agent information fields (Agent Number, Agency Name, Agent Name, Applicant Details, Phone Number, ID Number, Applicant Name, Family Name, Address, Occupation, Email Address, Insurance Period)",
     "units": [],
     "notable_values": [
-      "מס' הסוכן: unknown",
-      "תקופת ביטוח: unknown",
-      "שם הסוכנות: unknown",
-      "שם הסוכן: unknown",
-      "כתובת דואר אלקטרוני: unknown"
+      "מס' הסוכן: (appears as a header)",
+      "שם הסוכנות: (appears as a header)",
+      "שם הסוכן: (appears as a header)",
+      "ת.זהות מס': (appears as a header)",
+      "רחוב: (appears as a header)",
+      "שכונה/עיר: (appears as a header)",
+      "מיקוד: (appears as a header)",
+      "עיסוק: (appears as a header)"
     ],
     "product_hints": [
       "ביטוח רכוש במעבר"
     ]
   },
-  "sketch": "א פרטי הסוכן\nמס' הסוכן\nשם הסוכנות\nשם הסוכן\n…\nמיקוד,שכונה/עיר,מס׳,רחוב\nעיסוק,עיסוק,עיסוק,עיסוק\nדיוורים קבלת לצורך אלקטרוני דואר כתובת,דיוורים קבלת לצורך אלקטרוני דואר כתובת,דיוורים קבלת לצורך אלקטרוני דואר כתובת,דיוורים קבלת לצורך אלקטרוני דואר כתובת\n/ /.בחצות.יום:,ביטוח תקופת ג./ מיום:..",
-  "embed_text": "טופס הצעה לביטוח רכוש במעבר מכסה אובדן או נזק לסחורות במהלך הובלה. פרטי הסוכן כוללים שם הסוכנות, שם הסוכן ומספר הסוכן. תקופת הביטוח מצוינת החל מיום מסוים ועד בחצות יום אחר.",
-  "payload": "טבלה: הצעת ביטוח רכוש במעבר\nThis table details an insurance quote for property in transit. It's used to look up agent details and policy period information.\nממדים: Individual insurance quote/proposal, Details related to the agent, contact information, and policy period\n\nא פרטי הסוכן\nמס' הסוכן\nשם הסוכנות\nשם הסוכן\nלביטוח המועמד פרטי ב,לביטוח המועמד פרטי ב,לביטוח המועמד פרטי ב,לביטוח המועמד פרטי ב\n)+קידומת( טלפון,ת.זהות מס',פרטי שם,חברה / משפחה שם\n)+קידומת( טלפון,ת.זהות מס',פרטי שם,משפחה שם\nמיקוד,שכונה/עיר,מס׳,רחוב\nעיסוק,עיסוק,עיסוק,עיסוק\nדיוורים קבלת לצורך אלקטרוני דואר כתובת,דיוורים קבלת לצורך אלקטרוני דואר כתובת,דיוורים קבלת לצורך אלקטרוני דואר כתובת,דיוורים קבלת לצורך אלקטרוני דואר כתובת\n/ /.בחצות.יום:,ביטוח תקופת ג./ מיום:.."
+  "sketch": "א פרטי הסוכן\nמס' הסוכן\nשם הסוכנות\nשם הסוכן\nלביטוח המועמד פרטי ב,לביטוח המועמד פרטי ב,לביטוח המועמד פרטי ב,לביטוח המועמד פרטי ב\n)+קידומת( טלפון,ת.זהות מס',פרטי שם,חברה / משפחה שם\n)+קידומת( טלפון,ת.זהות מס',פרטי שם,משפחה שם\nמיקוד,שכונה/עיר,מס׳,רחוב\nעיסוק,עיסוק,עיסוק,עיסוק\nדיוורים קבלת לצורך אלקטרוני דואר כתובת,דיוורים קבלת לצורך אלקטרוני דואר כתובת,דיוורים קבלת לצורך אלקטרוני דואר כתובת,דיוורים קבלת לצורך אלקטרוני דואר כתובת\n/ /.בחצות.יום:,ביטוח תקופת ג./ מיום:..",
+  "embed_text": "טופס זה משמש להצעת ביטוח רכוש במעבר, ומאפשר רישום פרטי הסוכן ופרטי המועמד לביטוח. המידע נאסף לצורך הערכת סיכונים וחישוב פרמיה. השדות כוללים מס׳ סוכן, שם סוכנות, פרטי שם ומשפחה של המועמד לביטוח, כתובות, עיסוק, ופרטי יצירת קשר. טופס הצעה לביטוח רכוש במעבר כולל מס׳ סוכן, שם סוכן, טלפון, ת.זהות, רחוב, שכונה/עיר, מיקוד, עיסוק, כתובת דואר אלקטרוני ותקופת ביטוח. This table captures agent and applicant details for a property-in-transit insurance proposal. It is used to record information for quoting and policy issuance. בין הערכים בטבלה: מס' הסוכן: (appears as a header); שם הסוכנות: (appears as a header); שם הסוכן: (appears as a header); ת.זהות מס': (appears as a header).",
+  "payload": "טבלה: טופס הצעה לביטוח רכוש במעבר\nThis table captures agent and applicant details for a property-in-transit insurance proposal. It is used to record information for quoting and policy issuance.\nממדים: Applicant/Agent details, Applicant/Agent information fields (Agent Number, Agency Name, Agent Name, Applicant Details, Phone Number, ID Number, Applicant Name, Family Name, Address, Occupation, Email Address, Insurance Period)\n\nא פרטי הסוכן\nמס' הסוכן\nשם הסוכנות\nשם הסוכן\nלביטוח המועמד פרטי ב,לביטוח המועמד פרטי ב,לביטוח המועמד פרטי ב,לביטוח המועמד פרטי ב\n)+קידומת( טלפון,ת.זהות מס',פרטי שם,חברה / משפחה שם\n)+קידומת( טלפון,ת.זהות מס',פרטי שם,משפחה שם\nמיקוד,שכונה/עיר,מס׳,רחוב\nעיסוק,עיסוק,עיסוק,עיסוק\nדיוורים קבלת לצורך אלקטרוני דואר כתובת,דיוורים קבלת לצורך אלקטרוני דואר כתובת,דיוורים קבלת לצורך אלקטרוני דואר כתובת,דיוורים קבלת לצורך אלקטרוני דואר כתובת\n/ /.בחצות.יום:,ביטוח תקופת ג./ מיום:.."
 }

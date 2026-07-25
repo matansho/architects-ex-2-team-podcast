@@ -2,23 +2,23 @@
   "id": "pdf:car/files/פוליסה-לביטוח-רכב-פרטי-ורכב-מסחרי-עד-35-טון-מבית-שירביט-מהדורת-יוני-2023.pdf#33",
   "source": "llm",
   "description": {
-    "title": "פוליסת ביטוח רכב שירביט",
-    "summary": "This table details the policy for Shirbit car insurance, specifically regarding the transfer of ownership and cancellation of the policy after the policyholder's death. It outlines how premiums are handled in such cases.",
-    "embed_passage": "פוליסת ביטוח רכב מבית שירביט מתייחסת למקרה של פטירת בעל הפוליסה, ומסבירה כי הבעלות תעבור ליורש הרכב. במקרה של ביטוח נוסף, הפוליסה המקורית תבוטל והמבטח ישיב חלק יחסי מדמי הביטוח ששולמו. לדוגמה, אם נותרו 10 ימים לתום תקופת הביטוח המקורית מתוך 365 ימים, יוחזר החלק היחסי.",
-    "row_axis": "policy conditions related to death of policyholder",
-    "column_axis": "policy details and actions",
+    "title": "פטירת בעל הפוליסה",
+    "summary": "This table details what happens to the insurance policy upon the death of the policyholder. It outlines the transfer of ownership to the vehicle heir and conditions for policy cancellation if another insurance is taken out.",
+    "embed_passage": "טבלה זו מתארת את הטיפול בפוליסת ביטוח רכב במקרה של פטירת בעל הפוליסה. במקרה של פטירה, הבעלות על הפוליסה עוברת ליורש הרכב, אשר ייראה כבעל הפוליסה. ניתן לחפש מידע על תנאי העברת הבעלות וביטול הפוליסה במקרה של ביטוח נוסף. הפוליסה רלוונטית לביטוח רכב פרטי ורכב מסחרי עד 35 טון מבית שירביט. במקרה של ביטוח נוסף, הפוליסה תתבטל והמבטח ישיב ליורש חלק יחסי מדמי הביטוח. החלק היחסי מחושב על בסיס הימים שנותרו בתקופת הביטוח המקורית.",
+    "row_axis": "conditions related to the death of the policyholder",
+    "column_axis": "policy implications",
     "units": [],
     "notable_values": [
-      "policy owner death: ownership transfer to heir",
+      "policyholder death: ownership transfer",
       "additional insurance: policy cancellation",
-      "premium refund: proportional to remaining term"
+      "refund calculation: proportional to remaining days"
     ],
     "product_hints": [
-      "פוליסת ביטוח רכב שירביט",
+      "פוליסה לביטוח רכב",
       "שירביט"
     ]
   },
   "sketch": ". פטירת בעל הפוליסה 14\nנפטר בעל הפוליסה, תעבור הבעלות בפוליסה לידי יורש הרכב, ויראו את היורש כבעל .14.1 הפוליסה.\n.  אם לאחר פטירת בעל הפוליסה בוטח הרכב בפוליסת ביטוח נוספת לפוליסה זו אשר 14.2 הוצאה לפי דרישות פקודת הביטוח, תתבטל פוליסה זו ביום כניסתו לתוקף של הביטוח הנוסף כאמור, והמבטח ישיב ליורש הרכב את החלק היחסי מדמי הביטוח ששולמו; החלק היחסי כאמור יחושב על ידי הכפלת דמי הביטוח שגבה המבטח, ביחס שבין מספר הימים שנותרו במועד הביטול עד תום תקופת הביטוח המקורית, ובין מספר הימים שבתקופת הביטוח המקורית.",
-  "embed_text": "פוליסת ביטוח רכב מבית שירביט מתייחסת למקרה של פטירת בעל הפוליסה, ומסבירה כי הבעלות תעבור ליורש הרכב. במקרה של ביטוח נוסף, הפוליסה המקורית תבוטל והמבטח ישיב חלק יחסי מדמי הביטוח ששולמו. לדוגמה, אם נותרו 10 ימים לתום תקופת הביטוח המקורית מתוך 365 ימים, יוחזר החלק היחסי.",
-  "payload": "טבלה: פוליסת ביטוח רכב שירביט\nThis table details the policy for Shirbit car insurance, specifically regarding the transfer of ownership and cancellation of the policy after the policyholder's death. It outlines how premiums are handled in such cases.\nממדים: policy conditions related to death of policyholder, policy details and actions\n\n. פטירת בעל הפוליסה 14\nנפטר בעל הפוליסה, תעבור הבעלות בפוליסה לידי יורש הרכב, ויראו את היורש כבעל .14.1 הפוליסה.\n.  אם לאחר פטירת בעל הפוליסה בוטח הרכב בפוליסת ביטוח נוספת לפוליסה זו אשר 14.2 הוצאה לפי דרישות פקודת הביטוח, תתבטל פוליסה זו ביום כניסתו לתוקף של הביטוח הנוסף כאמור, והמבטח ישיב ליורש הרכב את החלק היחסי מדמי הביטוח ששולמו; החלק היחסי כאמור יחושב על ידי הכפלת דמי הביטוח שגבה המבטח, ביחס שבין מספר הימים שנותרו במועד הביטול עד תום תקופת הביטוח המקורית, ובין מספר הימים שבתקופת הביטוח המקורית."
+  "embed_text": "טבלה זו מתארת את הטיפול בפוליסת ביטוח רכב במקרה של פטירת בעל הפוליסה. במקרה של פטירה, הבעלות על הפוליסה עוברת ליורש הרכב, אשר ייראה כבעל הפוליסה. ניתן לחפש מידע על תנאי העברת הבעלות וביטול הפוליסה במקרה של ביטוח נוסף. הפוליסה רלוונטית לביטוח רכב פרטי ורכב מסחרי עד 35 טון מבית שירביט. במקרה של ביטוח נוסף, הפוליסה תתבטל והמבטח ישיב ליורש חלק יחסי מדמי הביטוח. החלק היחסי מחושב על בסיס הימים שנותרו בתקופת הביטוח המקורית. This table details what happens to the insurance policy upon the death of the policyholder. It outlines the transfer of ownership to the vehicle heir and conditions for policy cancellation if another insurance is taken out. בין הערכים בטבלה: policyholder death: ownership transfer; additional insurance: policy cancellation; refund calculation: proportional to remaining days.",
+  "payload": "טבלה: פטירת בעל הפוליסה\nThis table details what happens to the insurance policy upon the death of the policyholder. It outlines the transfer of ownership to the vehicle heir and conditions for policy cancellation if another insurance is taken out.\nממדים: conditions related to the death of the policyholder, policy implications\n\n. פטירת בעל הפוליסה 14\nנפטר בעל הפוליסה, תעבור הבעלות בפוליסה לידי יורש הרכב, ויראו את היורש כבעל .14.1 הפוליסה.\n.  אם לאחר פטירת בעל הפוליסה בוטח הרכב בפוליסת ביטוח נוספת לפוליסה זו אשר 14.2 הוצאה לפי דרישות פקודת הביטוח, תתבטל פוליסה זו ביום כניסתו לתוקף של הביטוח הנוסף כאמור, והמבטח ישיב ליורש הרכב את החלק היחסי מדמי הביטוח ששולמו; החלק היחסי כאמור יחושב על ידי הכפלת דמי הביטוח שגבה המבטח, ביחס שבין מספר הימים שנותרו במועד הביטול עד תום תקופת הביטוח המקורית, ובין מספר הימים שבתקופת הביטוח המקורית."
 }

@@ -2,24 +2,22 @@
   "id": "pdf:car/files/פוליסה-לביטוח-עמדת-טעינה-לרכב-יולי-2023.pdf#67",
   "source": "llm",
   "description": {
-    "title": "ביטול ביטוח עמדת טעינה",
-    "summary": "This table details the conditions and refund amounts related to canceling a charging station insurance policy. It outlines scenarios where the insurer or insured can cancel the policy and the associated refund timelines.",
-    "embed_passage": "פוליסת ביטוח עמדת טעינה לרכב מאפשרת ביטול על ידי המבוטח או המבטח. במקרה של ביטול על ידי המבטח, יוחזר החלק היחסי מדמי הביטוח ששולמו בעד התקופה שלאחר ביטול הביטוח, תוך 14 ימים. במקרה של ביטול על ידי המבוטח, יוחזר החלק היחסי של דמי הביטוח.",
-    "row_axis": "Cancellation scenario (insurer or insured initiated)",
+    "title": "ביטול הביטוח",
+    "summary": "This table details the conditions and refund amounts related to policy cancellation by either the insurer or the insured. It outlines the timelines for notifications and reimbursements.",
+    "embed_passage": "טבלה זו מתארת את תנאי ביטול פוליסת ביטוח עמדת טעינה לרכב, ואת החזר הכספים המגיע למבוטח במקרה של ביטול. ניתן לבדוק את ההחזרים הצפויים בהתאם לתקופת הביטוח שנותרה ולתאריך ביטול הפוליסה. סעיפים אלו עוסקים בביטול על ידי המבטח והמבוטח, וכן בהחזר כספי יחסי. ביטול הביטוח אפשרי בכל עת על ידי המבוטח, וכן על ידי המבטח בתנאים מסוימים. ההחזרים מחושבים בהתאם לתקופה שלאחר הביטול, ומושפעים משינויים במדד. סעיף 8.1 מתייחס לביטול על ידי המבוטח, סעיף 8.2 לביטול על ידי המבטח, וסעיף 8.3 להחזר כספי.",
+    "row_axis": "Cancellation scenario (insurer or insured)",
     "column_axis": "Cancellation conditions and refund timelines",
-    "units": [
-      "ימים"
-    ],
+    "units": [],
     "notable_values": [
       "ביטול על ידי המבטח: 30 ימים",
       "החזר כספי: 14 ימים",
-      "תקופת ביטול: לפני תום תקופת הביטוח"
+      "החלק היחסי מדמי הביטוח"
     ],
     "product_hints": [
       "ביטוח עמדת טעינה לרכב"
     ]
   },
   "sketch": "בלי לגרוע מזכויות המבטח על פי דין, רשאי המבטח לבטל את הביטוח לפני תום .8.2 ימים לפחות לפני 30 תקופת הביטוח, ובלבד שהודעה על כך תישלח למבוטח בכתב התאריך שבו יתבטל הביטוח.\nימים 14ביטל המבטח את הביטוח, יחזיר המבטח למבוטח בהקדם, ולא יאוחר מ .8.3 מהמועד שבו נכנס הביטול לתוקף, את החלק היחסי מדמי הביטוח ששולמו בעד התקופה שלאחר ביטול הביטוח.",
-  "embed_text": "פוליסת ביטוח עמדת טעינה לרכב מאפשרת ביטול על ידי המבוטח או המבטח. במקרה של ביטול על ידי המבטח, יוחזר החלק היחסי מדמי הביטוח ששולמו בעד התקופה שלאחר ביטול הביטוח, תוך 14 ימים. במקרה של ביטול על ידי המבוטח, יוחזר החלק היחסי של דמי הביטוח.",
-  "payload": "טבלה: ביטול ביטוח עמדת טעינה\nThis table details the conditions and refund amounts related to canceling a charging station insurance policy. It outlines scenarios where the insurer or insured can cancel the policy and the associated refund timelines.\nממדים: Cancellation scenario (insurer or insured initiated), Cancellation conditions and refund timelines\n\nבלי לגרוע מזכויות המבטח על פי דין, רשאי המבטח לבטל את הביטוח לפני תום .8.2 ימים לפחות לפני 30 תקופת הביטוח, ובלבד שהודעה על כך תישלח למבוטח בכתב התאריך שבו יתבטל הביטוח.\nימים 14ביטל המבטח את הביטוח, יחזיר המבטח למבוטח בהקדם, ולא יאוחר מ .8.3 מהמועד שבו נכנס הביטול לתוקף, את החלק היחסי מדמי הביטוח ששולמו בעד התקופה שלאחר ביטול הביטוח."
+  "embed_text": "טבלה זו מתארת את תנאי ביטול פוליסת ביטוח עמדת טעינה לרכב, ואת החזר הכספים המגיע למבוטח במקרה של ביטול. ניתן לבדוק את ההחזרים הצפויים בהתאם לתקופת הביטוח שנותרה ולתאריך ביטול הפוליסה. סעיפים אלו עוסקים בביטול על ידי המבטח והמבוטח, וכן בהחזר כספי יחסי. ביטול הביטוח אפשרי בכל עת על ידי המבוטח, וכן על ידי המבטח בתנאים מסוימים. ההחזרים מחושבים בהתאם לתקופה שלאחר הביטול, ומושפעים משינויים במדד. סעיף 8.1 מתייחס לביטול על ידי המבוטח, סעיף 8.2 לביטול על ידי המבטח, וסעיף 8.3 להחזר כספי. This table details the conditions and refund amounts related to policy cancellation by either the insurer or the insured. It outlines the timelines for notifications and reimbursements. בין הערכים בטבלה: החלק היחסי מדמי הביטוח.",
+  "payload": "טבלה: ביטול הביטוח\nThis table details the conditions and refund amounts related to policy cancellation by either the insurer or the insured. It outlines the timelines for notifications and reimbursements.\nממדים: Cancellation scenario (insurer or insured), Cancellation conditions and refund timelines\n\nבלי לגרוע מזכויות המבטח על פי דין, רשאי המבטח לבטל את הביטוח לפני תום .8.2 ימים לפחות לפני 30 תקופת הביטוח, ובלבד שהודעה על כך תישלח למבוטח בכתב התאריך שבו יתבטל הביטוח.\nימים 14ביטל המבטח את הביטוח, יחזיר המבטח למבוטח בהקדם, ולא יאוחר מ .8.3 מהמועד שבו נכנס הביטול לתוקף, את החלק היחסי מדמי הביטוח ששולמו בעד התקופה שלאחר ביטול הביטוח."
 }

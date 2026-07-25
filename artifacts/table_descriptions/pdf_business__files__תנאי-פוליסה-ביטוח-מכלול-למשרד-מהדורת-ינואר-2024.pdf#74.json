@@ -2,23 +2,26 @@
   "id": "pdf:business/files/תנאי-פוליסה-ביטוח-מכלול-למשרד-מהדורת-ינואר-2024.pdf#74",
   "source": "llm",
   "description": {
-    "title": "ביטוח מכלול - טרור",
-    "summary": "This table defines coverage for physical loss or damage to the insured's property resulting from acts of terror under the 'Mecholal' insurance policy. It outlines the requirements for claim approval and defines terms like 'hostile organization'.",
-    "embed_passage": "פוליסת ביטוח מכלול מכסה אובדן או נזק פיזי לרכוש מוחשי של המבוטח כתוצאה מפעולות טרור. אישור הנזק מחייב אישור ממשטרת ישראל או ממנהל מס רכוש וקרן פיצויים. ארגונים עוינים כוללים ישויות כמו חמאס, חיזבאללה ואל קעידה.",
-    "row_axis": "definitions related to terror coverage",
-    "column_axis": "definition category (case, approval, hostile organization)",
+    "title": "כיסוי טרור",
+    "summary": "This table defines coverage for loss or damage due to acts of terror under an insurance policy. It outlines the conditions for a claim, including required approvals and definitions of hostile organizations.",
+    "embed_passage": "טבלה זו מתארת כיסוי ביטוחי לנזקים כתוצאה מפעולות טרור, כחלק מפוליסת ביטוח מכלול. ניתן לבדוק את תנאי הכיסוי בהתאם לסוג הנזק, אישורי הגורמים המוסמכים, והגדרת ארגונים עוינים. הפוליסה מגדירה 'מקרה ביטוח' כאובדן או נזק פיזי לרכוש, ודורשת אישור ממשטרת ישראל או מנהל מס רכוש וקרן פיצויים. ארגון עוין מוגדר כאדם או קבוצה המעורבים בפעולות טרור, כולל חמאס, חיזבאללה ואל קעידה. כיסוי זה רלוונטי לנזקים ישירים או עקיפים מפעולות טרור.",
+    "row_axis": "סוג הגדרה / תנאי",
+    "column_axis": "תיאור",
     "units": [],
     "notable_values": [
-      "year: 1961 (reference to מס רכוש וקרן פיצויים)",
-      "organization: חמאס",
-      "organization: חיזבאללה",
-      "organization: אל קעידה"
+      "מקרה ביטוח: אובדן או נזק פיזי לרכוש",
+      "אישור: משטרת ישראל",
+      "אישור: משרד הבטחון",
+      "אישור: מנהל מס רכוש וקרן פיצויים",
+      "ארגון עוין: חמאס",
+      "ארגון עוין: חיזבאללה",
+      "ארגון עוין: אל קעידה"
     ],
     "product_hints": [
       "מכלול"
     ]
   },
   "sketch": ".3.6.3.1.2 מקרה ביטוח: אובדן או נזק פיזי לרכוש מוחשי של המבוטח, הנובע במישרין או בעקיפין מפעולת טרור.\n.3.6.3.1.3 : אישור אישור מפורש של משטרת ישראל או של , משרד הבטחון או של מנהל מס רכוש וקרן פיצויים 1961בהתאם לחוק מס רכוש וקרן פיצויים, תשכ\"א ,) \"חוק מס רכוש וקרן פיצויים\" : על כל תיקוניו (להלן המאשר כי הנזק נגרם במישרין או בעקיפין כתוצאה מפעולת טרור.\n.3.6.3.1.4 ארגון עוין: ארגון, ישות, אדם או קבוצת אנשים המעורבים בפעולות טרור, ומבלי לגרוע מכלליות ,\" האמור לעיל, כולל ישויות המוכרות כ\"חמאס\n.\" \"חיזבאללה\" ו\"אל קעידה",
-  "embed_text": "פוליסת ביטוח מכלול מכסה אובדן או נזק פיזי לרכוש מוחשי של המבוטח כתוצאה מפעולות טרור. אישור הנזק מחייב אישור ממשטרת ישראל או ממנהל מס רכוש וקרן פיצויים. ארגונים עוינים כוללים ישויות כמו חמאס, חיזבאללה ואל קעידה.",
-  "payload": "טבלה: ביטוח מכלול - טרור\nThis table defines coverage for physical loss or damage to the insured's property resulting from acts of terror under the 'Mecholal' insurance policy. It outlines the requirements for claim approval and defines terms like 'hostile organization'.\nממדים: definitions related to terror coverage, definition category (case, approval, hostile organization)\n\n.3.6.3.1.2 מקרה ביטוח: אובדן או נזק פיזי לרכוש מוחשי של המבוטח, הנובע במישרין או בעקיפין מפעולת טרור.\n.3.6.3.1.3 : אישור אישור מפורש של משטרת ישראל או של , משרד הבטחון או של מנהל מס רכוש וקרן פיצויים 1961בהתאם לחוק מס רכוש וקרן פיצויים, תשכ\"א ,) \"חוק מס רכוש וקרן פיצויים\" : על כל תיקוניו (להלן המאשר כי הנזק נגרם במישרין או בעקיפין כתוצאה מפעולת טרור.\n.3.6.3.1.4 ארגון עוין: ארגון, ישות, אדם או קבוצת אנשים המעורבים בפעולות טרור, ומבלי לגרוע מכלליות ,\" האמור לעיל, כולל ישויות המוכרות כ\"חמאס\n.\" \"חיזבאללה\" ו\"אל קעידה"
+  "embed_text": "טבלה זו מתארת כיסוי ביטוחי לנזקים כתוצאה מפעולות טרור, כחלק מפוליסת ביטוח מכלול. ניתן לבדוק את תנאי הכיסוי בהתאם לסוג הנזק, אישורי הגורמים המוסמכים, והגדרת ארגונים עוינים. הפוליסה מגדירה 'מקרה ביטוח' כאובדן או נזק פיזי לרכוש, ודורשת אישור ממשטרת ישראל או מנהל מס רכוש וקרן פיצויים. ארגון עוין מוגדר כאדם או קבוצה המעורבים בפעולות טרור, כולל חמאס, חיזבאללה ואל קעידה. כיסוי זה רלוונטי לנזקים ישירים או עקיפים מפעולות טרור. This table defines coverage for loss or damage due to acts of terror under an insurance policy. It outlines the conditions for a claim, including required approvals and definitions of hostile organizations.",
+  "payload": "טבלה: כיסוי טרור\nThis table defines coverage for loss or damage due to acts of terror under an insurance policy. It outlines the conditions for a claim, including required approvals and definitions of hostile organizations.\nממדים: סוג הגדרה / תנאי, תיאור\n\n.3.6.3.1.2 מקרה ביטוח: אובדן או נזק פיזי לרכוש מוחשי של המבוטח, הנובע במישרין או בעקיפין מפעולת טרור.\n.3.6.3.1.3 : אישור אישור מפורש של משטרת ישראל או של , משרד הבטחון או של מנהל מס רכוש וקרן פיצויים 1961בהתאם לחוק מס רכוש וקרן פיצויים, תשכ\"א ,) \"חוק מס רכוש וקרן פיצויים\" : על כל תיקוניו (להלן המאשר כי הנזק נגרם במישרין או בעקיפין כתוצאה מפעולת טרור.\n.3.6.3.1.4 ארגון עוין: ארגון, ישות, אדם או קבוצת אנשים המעורבים בפעולות טרור, ומבלי לגרוע מכלליות ,\" האמור לעיל, כולל ישויות המוכרות כ\"חמאס\n.\" \"חיזבאללה\" ו\"אל קעידה"
 }

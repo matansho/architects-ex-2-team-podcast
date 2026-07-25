@@ -2,25 +2,25 @@
   "id": "pdf:business/files/פוליסה_לביטוח_סחורה_בהעברה-_הראל_ביט_-_ינואר_2023.pdf#25",
   "source": "llm",
   "description": {
-    "title": "פוליסת סחורה בהעברה - הראל",
-    "summary": "This table details exclusions related to pandemic/coronavirus (COVID-19) under a cargo insurance policy from Harel. It outlines situations where coverage is denied due to losses or damages connected to the virus or declared epidemics.",
-    "embed_passage": "פוליסת סחורה בהעברה של הראל כוללת חריגים הקשורים למגיפות, כגון וירוס הקורונה COVID-19, ומוטציות שלו. הפוליסה אינה מכסה הפסדים הנובעים מזיהום, מחלה או וירוס, בין אם אסימפטומטי ובין אם לאו. נטל ההוכחה כי התקיימו הנסיבות המפורטות בחריג המגיפה מוטל על המבטח.",
-    "row_axis": "Specific exclusion clauses related to pandemic/coronavirus",
-    "column_axis": "Description of the exclusion",
+    "title": "חריגי פוליסה - הראל ביט",
+    "summary": "This table details exclusions to an insurance policy issued by Harel Bit. It lists specific events or circumstances under which the insurer is not liable for damages or losses.",
+    "embed_passage": "טבלה זו מפרטת חריגים לפוליסת ביטוח של הראל ביט, ומציינת נסיבות בהן המבטח לא יישא באחריות לנזקים או הפסדים. ניתן לחפש חריגים ספציפיים לפי נושא, כגון מגיפה או וירוס קורונה. החריגים כוללים וירוס הקורונה (COVID-19), מחלות זיהומיות, מגיפות שהוכרזו על ידי ארגון הבריאות הבינלאומי, וכן נזקים הנובעים מרשלנות פזיזה.  החריגים כוללים גם COVID 19, וירוס הקורונה, מגיפה שהוכרזה על ידי ארגון הבריאות הבינלאומי, וזיהום, מחלה, מחלה זיהומית, וירוס, או חיידק.",
+    "row_axis": "חריג ביטוחי (exclusion)",
+    "column_axis": "תיאור החריג (description of exclusion)",
     "units": [],
     "notable_values": [
-      "COVID-19: Refers to the coronavirus and its variations.",
-      "2.1.14: Section number for pandemic exclusions.",
-      "2.1.14.1: Covers infection, illness, viruses, or microorganisms.",
-      "2.1.14.2: Specifically mentions the Coronavirus (COVID-19).",
-      "2.1.14.3: Refers to a pandemic declared by WHO or governmental authority."
+      "COVID 19: 2.1.14",
+      "וירוס הקורונה: 2.1.14.2",
+      "מגיפה שהוכרזה על ידי ארגון הבריאות הבינלאומי: 2.1.14.3",
+      "זיהום: 2.1.14.1",
+      "מחלה זיהומית: 2.1.14.1"
     ],
     "product_hints": [
-      "פוליסת סחורה בהעברה",
-      "הראל"
+      "פוליסה לביטוח סחורה בהעברה - הראל ביט",
+      "הראל ביט"
     ]
   },
   "sketch": "(COVID 19) .  מגיפה/קורונה 2.1.14\n, כל הפסד, נזק )לרבות נזק פיננסי טהור, נזק גוף, נזק נפשי( , חבות כלשהי הוצאה מכל סוג שהיא )לרבות הוצאה מניעתית(, קנסות, עונשים או כל סכום אחר )להלן: \"נזק\"( הנגרם במישרין ו/או בעקיפין ו/או בקשר עם ו/או כתוצאה מאיזה מהדברים המצוינים להלן, בין אם אירעו בפועל ובין אם לאו, לרבות אם הנזק נבע כתוצאה מחשש או איום לאותם דברים המצוינים להלן:\n.  זיהום, מחלה, מחלה זיהומית, וירוס, או חיידק או מיקרואורגניזם 2.1.14.1 )בין אם אסימפטומטי ובין אם לאו(\n( לרבות כל מוטציה או וריאציה שלו COVID-19) .  וירוס הקורונה 2.1.14.2\n.  מגיפה שהוכרזה על ידי ארגון הבריאות הבינלאומי או על ידי 2.1.14.3 רשות ממשלתית אחרת.\nנטל ההוכחה כי התקיימו הנסיבות המפורטות בחריג המגיפה הנ\"ל מוטל על המבטח.",
-  "embed_text": "פוליסת סחורה בהעברה של הראל כוללת חריגים הקשורים למגיפות, כגון וירוס הקורונה COVID-19, ומוטציות שלו. הפוליסה אינה מכסה הפסדים הנובעים מזיהום, מחלה או וירוס, בין אם אסימפטומטי ובין אם לאו. נטל ההוכחה כי התקיימו הנסיבות המפורטות בחריג המגיפה מוטל על המבטח.",
-  "payload": "טבלה: פוליסת סחורה בהעברה - הראל\nThis table details exclusions related to pandemic/coronavirus (COVID-19) under a cargo insurance policy from Harel. It outlines situations where coverage is denied due to losses or damages connected to the virus or declared epidemics.\nממדים: Specific exclusion clauses related to pandemic/coronavirus, Description of the exclusion\n\n(COVID 19) .  מגיפה/קורונה 2.1.14\n, כל הפסד, נזק )לרבות נזק פיננסי טהור, נזק גוף, נזק נפשי( , חבות כלשהי הוצאה מכל סוג שהיא )לרבות הוצאה מניעתית(, קנסות, עונשים או כל סכום אחר )להלן: \"נזק\"( הנגרם במישרין ו/או בעקיפין ו/או בקשר עם ו/או כתוצאה מאיזה מהדברים המצוינים להלן, בין אם אירעו בפועל ובין אם לאו, לרבות אם הנזק נבע כתוצאה מחשש או איום לאותם דברים המצוינים להלן:\n.  זיהום, מחלה, מחלה זיהומית, וירוס, או חיידק או מיקרואורגניזם 2.1.14.1 )בין אם אסימפטומטי ובין אם לאו(\n( לרבות כל מוטציה או וריאציה שלו COVID-19) .  וירוס הקורונה 2.1.14.2\n.  מגיפה שהוכרזה על ידי ארגון הבריאות הבינלאומי או על ידי 2.1.14.3 רשות ממשלתית אחרת.\nנטל ההוכחה כי התקיימו הנסיבות המפורטות בחריג המגיפה הנ\"ל מוטל על המבטח."
+  "embed_text": "טבלה זו מפרטת חריגים לפוליסת ביטוח של הראל ביט, ומציינת נסיבות בהן המבטח לא יישא באחריות לנזקים או הפסדים. ניתן לחפש חריגים ספציפיים לפי נושא, כגון מגיפה או וירוס קורונה. החריגים כוללים וירוס הקורונה (COVID-19), מחלות זיהומיות, מגיפות שהוכרזו על ידי ארגון הבריאות הבינלאומי, וכן נזקים הנובעים מרשלנות פזיזה.  החריגים כוללים גם COVID 19, וירוס הקורונה, מגיפה שהוכרזה על ידי ארגון הבריאות הבינלאומי, וזיהום, מחלה, מחלה זיהומית, וירוס, או חיידק. This table details exclusions to an insurance policy issued by Harel Bit. It lists specific events or circumstances under which the insurer is not liable for damages or losses.",
+  "payload": "טבלה: חריגי פוליסה - הראל ביט\nThis table details exclusions to an insurance policy issued by Harel Bit. It lists specific events or circumstances under which the insurer is not liable for damages or losses.\nממדים: חריג ביטוחי (exclusion), תיאור החריג (description of exclusion)\n\n(COVID 19) .  מגיפה/קורונה 2.1.14\n, כל הפסד, נזק )לרבות נזק פיננסי טהור, נזק גוף, נזק נפשי( , חבות כלשהי הוצאה מכל סוג שהיא )לרבות הוצאה מניעתית(, קנסות, עונשים או כל סכום אחר )להלן: \"נזק\"( הנגרם במישרין ו/או בעקיפין ו/או בקשר עם ו/או כתוצאה מאיזה מהדברים המצוינים להלן, בין אם אירעו בפועל ובין אם לאו, לרבות אם הנזק נבע כתוצאה מחשש או איום לאותם דברים המצוינים להלן:\n.  זיהום, מחלה, מחלה זיהומית, וירוס, או חיידק או מיקרואורגניזם 2.1.14.1 )בין אם אסימפטומטי ובין אם לאו(\n( לרבות כל מוטציה או וריאציה שלו COVID-19) .  וירוס הקורונה 2.1.14.2\n.  מגיפה שהוכרזה על ידי ארגון הבריאות הבינלאומי או על ידי 2.1.14.3 רשות ממשלתית אחרת.\nנטל ההוכחה כי התקיימו הנסיבות המפורטות בחריג המגיפה הנ\"ל מוטל על המבטח."
 }

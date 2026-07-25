@@ -2,25 +2,22 @@
   "id": "pdf:health/files/הצעה-לטיפולים-פרימיום-62025.pdf#12",
   "source": "llm",
   "description": {
-    "title": "הצעת ביטוח בריאות",
-    "summary": "This table captures applicant details for a health insurance policy. It records the applicant's name, ID number, date, and signature, along with details about family members being insured and their ages.",
-    "embed_passage": "פוליסת טיפולים פרימיום מציעה כיסויים מיוחדים, כולל השתלות וטיפולים מיוחדים. טופס זה אוסף פרטים על המועמד לביטוח, כגון שם, מספר זהות ותאריך, וכן פרטים על בני משפחה מעל גיל 18. לדוגמה, ניתן לראות שגיל המועמד הוא 18.",
-    "row_axis": "applicant / family member",
-    "column_axis": "applicant details (name, ID, date, signature)",
+    "title": "מועמדים לביטוח",
+    "summary": "This table lists candidates for insurance, including their names, ID numbers, and ages. It is used to record details of applicants and their family members for a health insurance policy.",
+    "embed_passage": "טבלה זו מתעדת מועמדים לביטוח במסגרת תוכנית טיפולים פרימיום. המידע כולל פרטים מזהים כמו שם, מספר זהות ותאריך חתימה, וכן גיל המועמד. ניתן לחפש מידע על מועמדים ספציפיים לפי שם או מספר זהות. המידע בטבלה משמש להערכת סיכונים וקביעת תנאי הפוליסה. בין המועמדים הרשומים ניתן למצוא ראשי מועמדים, בני/בנות זוג וילדים מעל גיל 18. שמות המועמדים, מספרי הזהות שלהם ותאריכי החתימה הם נתונים מרכזיים בטבלה זו.",
+    "row_axis": "מועמד לביטוח",
+    "column_axis": "פרטי מועמד (שם, תאריך, זהות מספר, גיל)",
     "units": [],
     "notable_values": [
-      "גיל מעל 18: 18",
-      "שם מועמד: ראשי מועמד",
-      "תאריך: missing",
-      "זהות מספר: missing",
-      "חתימה: missing"
+      "גיל מעל 18: ילד",
+      "ראשי מועמד: שם",
+      "הזוג בן/בת: שם"
     ],
     "product_hints": [
-      "טיפולים פרימיום",
-      "פוליסת בריאות"
+      "טיפולים פרימיום"
     ]
   },
   "sketch": "חתימה,תאריך,זהות מספר,לביטוח המועמד שם,לביטוח מועמד\n,,,,ראשי מועמד\n,,,,הזוג בן/בת\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד",
-  "embed_text": "פוליסת טיפולים פרימיום מציעה כיסויים מיוחדים, כולל השתלות וטיפולים מיוחדים. טופס זה אוסף פרטים על המועמד לביטוח, כגון שם, מספר זהות ותאריך, וכן פרטים על בני משפחה מעל גיל 18. לדוגמה, ניתן לראות שגיל המועמד הוא 18.",
-  "payload": "טבלה: הצעת ביטוח בריאות\nThis table captures applicant details for a health insurance policy. It records the applicant's name, ID number, date, and signature, along with details about family members being insured and their ages.\nממדים: applicant / family member, applicant details (name, ID, date, signature)\n\nחתימה,תאריך,זהות מספר,לביטוח המועמד שם,לביטוח מועמד\n,,,,ראשי מועמד\n,,,,הזוג בן/בת\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד"
+  "embed_text": "טבלה זו מתעדת מועמדים לביטוח במסגרת תוכנית טיפולים פרימיום. המידע כולל פרטים מזהים כמו שם, מספר זהות ותאריך חתימה, וכן גיל המועמד. ניתן לחפש מידע על מועמדים ספציפיים לפי שם או מספר זהות. המידע בטבלה משמש להערכת סיכונים וקביעת תנאי הפוליסה. בין המועמדים הרשומים ניתן למצוא ראשי מועמדים, בני/בנות זוג וילדים מעל גיל 18. שמות המועמדים, מספרי הזהות שלהם ותאריכי החתימה הם נתונים מרכזיים בטבלה זו. This table lists candidates for insurance, including their names, ID numbers, and ages. It is used to record details of applicants and their family members for a health insurance policy.",
+  "payload": "טבלה: מועמדים לביטוח\nThis table lists candidates for insurance, including their names, ID numbers, and ages. It is used to record details of applicants and their family members for a health insurance policy.\nממדים: מועמד לביטוח, פרטי מועמד (שם, תאריך, זהות מספר, גיל)\n\nחתימה,תאריך,זהות מספר,לביטוח המועמד שם,לביטוח מועמד\n,,,,ראשי מועמד\n,,,,הזוג בן/בת\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד\n,,,,18 גיל מעל ילד"
 }

@@ -2,25 +2,28 @@
   "id": "pdf:business/files/פוליסה-לביטוח-רכוש-בכספת-מהדורת-ינואר-2023.pdf#30",
   "source": "llm",
   "description": {
-    "title": "פוליסת רכוש",
-    "summary": "This table outlines the conditions regarding disclosure of material facts by the insured to the insurer for a property insurance policy. It details the insurer's rights to cancel the policy or reduce coverage if the insured fails to disclose relevant information.",
-    "embed_passage": "פוליסה זו חלה על הוראות חוק חוזה הביטוח, התשמ\"א. המבוטח חייב לגלות למבטח כל שינוי בעניין מהותי באופן מידי. לדוגמה, אם תשובה שניתנה לשאלה בעניין מהותי הייתה לא נכונה ויש בה כדי להחמיר את סיכון המבטח, יראו בה כ'עניין מהותי'.",
-    "row_axis": "Conditions related to disclosure of material facts",
-    "column_axis": "Details of disclosure requirements and insurer's rights",
+    "title": "עניין מהותי",
+    "summary": "This table details conditions related to 'material matters' (עניין מהותי) in an insurance policy. It outlines the insured's duty to disclose and report changes to material information, and the insurer's rights in case of non-disclosure or misrepresentation.",
+    "embed_passage": "טבלה זו מתייחסת לתנאים הנוגעים ל'עניין מהותי' בפוליסת ביטוח רכוש בכספת, מהדורת ינואר 2023. מטרתה להגדיר את חובת הגילוי של המבוטח ואת זכויות המבטח במקרה של אי-גילוי או הצגה שגויה של מידע. יש לעיין בתנאים 2.1 עד 2.9 כדי להבין את ההשלכות של אי-עמידה בדרישות אלו. העניינים המהותיים כוללים תשובות לא מלאות או לא כנות בשאלות המבטח, וכן שינויים שחלו לאחר מסירת הפוליסה. לדוגמה, שינוי בנושא שצוין כ'עניין מהותי' או גילוי שתשובה שניתנה הייתה לא נכונה, עלולים להוביל לביטול הפוליסה. פוליסה זו חלה הוראות חוק חוזה הביטוח, התשמ״א.",
+    "row_axis": "conditions related to material matters",
+    "column_axis": "description of the condition",
     "units": [],
     "notable_values": [
-      "30 days: timeframe for insurer to respond to incomplete/dishonest answers",
-      "30 days: timeframe for insurer to respond to material changes",
-      "2.1: reference to section regarding incomplete/dishonest answers",
-      "2.4: reference to section regarding disclosure of material changes",
-      "2.6: reference to section regarding insurer's remedies"
+      "חוק חוזה הביטוח: התשמ״א",
+      "תקופת הביטוח: unspecified",
+      "תשובה לא מלאה: unspecified",
+      "שינוי מהותי: unspecified",
+      "הודעה בכתב: required",
+      "ביטול הפוליסה: possible outcome",
+      "כוונת מרמה: relevant factor",
+      "30 ימים: timeframe for insurer response"
     ],
     "product_hints": [
-      "פוליסת רכוש",
+      "פוליסת ביטוח רכוש בכספת",
       "ביטוח רכוש"
     ]
   },
   "sketch": ", שאלה גורפת שנשאלה על ידי המבטח, הכורכת עניינים שונים, ללא אבחנה ביניהם .2.3 אלא אם הייתה סבירה בעת כריתת החוזה. אינה מחייבת תשובה כאמור\n. בנוסף, במשך תקופת הביטוח יגלה המבוטח למבטח, בכתב, כל שינוי בעניין 2.4 מהותי, וזאת באופן מידי מעת שנודע לו על כך;\n. לעניין זה יובהר, כי שינוי שחל אחרי מסירת הפוליסה למבוטח, בנושא שצוין בה 2.5 כעניין מהותי וכן דבר המגלה כי תשובה שניתנה לשאלה בעניין מהותי הייתה לא נכונה ויש בה כדי להחמיר את סיכון המבטח החמרה של ממש, יראו בהן גם ;\" כחלק מ\"עניין מהותי",
-  "embed_text": "פוליסה זו חלה על הוראות חוק חוזה הביטוח, התשמ\"א. המבוטח חייב לגלות למבטח כל שינוי בעניין מהותי באופן מידי. לדוגמה, אם תשובה שניתנה לשאלה בעניין מהותי הייתה לא נכונה ויש בה כדי להחמיר את סיכון המבטח, יראו בה כ'עניין מהותי'.",
-  "payload": "טבלה: פוליסת רכוש\nThis table outlines the conditions regarding disclosure of material facts by the insured to the insurer for a property insurance policy. It details the insurer's rights to cancel the policy or reduce coverage if the insured fails to disclose relevant information.\nממדים: Conditions related to disclosure of material facts, Details of disclosure requirements and insurer's rights\n\n, שאלה גורפת שנשאלה על ידי המבטח, הכורכת עניינים שונים, ללא אבחנה ביניהם .2.3 אלא אם הייתה סבירה בעת כריתת החוזה. אינה מחייבת תשובה כאמור\n. בנוסף, במשך תקופת הביטוח יגלה המבוטח למבטח, בכתב, כל שינוי בעניין 2.4 מהותי, וזאת באופן מידי מעת שנודע לו על כך;\n. לעניין זה יובהר, כי שינוי שחל אחרי מסירת הפוליסה למבוטח, בנושא שצוין בה 2.5 כעניין מהותי וכן דבר המגלה כי תשובה שניתנה לשאלה בעניין מהותי הייתה לא נכונה ויש בה כדי להחמיר את סיכון המבטח החמרה של ממש, יראו בהן גם ;\" כחלק מ\"עניין מהותי"
+  "embed_text": "טבלה זו מתייחסת לתנאים הנוגעים ל'עניין מהותי' בפוליסת ביטוח רכוש בכספת, מהדורת ינואר 2023. מטרתה להגדיר את חובת הגילוי של המבוטח ואת זכויות המבטח במקרה של אי-גילוי או הצגה שגויה של מידע. יש לעיין בתנאים 2.1 עד 2.9 כדי להבין את ההשלכות של אי-עמידה בדרישות אלו. העניינים המהותיים כוללים תשובות לא מלאות או לא כנות בשאלות המבטח, וכן שינויים שחלו לאחר מסירת הפוליסה. לדוגמה, שינוי בנושא שצוין כ'עניין מהותי' או גילוי שתשובה שניתנה הייתה לא נכונה, עלולים להוביל לביטול הפוליסה. פוליסה זו חלה הוראות חוק חוזה הביטוח, התשמ״א. This table details conditions related to 'material matters' (עניין מהותי) in an insurance policy. It outlines the insured's duty to disclose and report changes to material information, and the insurer's rights in case of non-disclosure or misrepresentation. בין הערכים בטבלה: תקופ…",
+  "payload": "טבלה: עניין מהותי\nThis table details conditions related to 'material matters' (עניין מהותי) in an insurance policy. It outlines the insured's duty to disclose and report changes to material information, and the insurer's rights in case of non-disclosure or misrepresentation.\nממדים: conditions related to material matters, description of the condition\n\n, שאלה גורפת שנשאלה על ידי המבטח, הכורכת עניינים שונים, ללא אבחנה ביניהם .2.3 אלא אם הייתה סבירה בעת כריתת החוזה. אינה מחייבת תשובה כאמור\n. בנוסף, במשך תקופת הביטוח יגלה המבוטח למבטח, בכתב, כל שינוי בעניין 2.4 מהותי, וזאת באופן מידי מעת שנודע לו על כך;\n. לעניין זה יובהר, כי שינוי שחל אחרי מסירת הפוליסה למבוטח, בנושא שצוין בה 2.5 כעניין מהותי וכן דבר המגלה כי תשובה שניתנה לשאלה בעניין מהותי הייתה לא נכונה ויש בה כדי להחמיר את סיכון המבטח החמרה של ממש, יראו בהן גם ;\" כחלק מ\"עניין מהותי"
 }

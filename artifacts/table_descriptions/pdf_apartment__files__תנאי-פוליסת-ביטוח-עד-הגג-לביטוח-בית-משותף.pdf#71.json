@@ -3,22 +3,23 @@
   "source": "llm",
   "description": {
     "title": "שחזור מסמכים",
-    "summary": "This table details coverage for document restoration costs under a home insurance policy. It specifies the maximum insured amount as a percentage of the content insurance sum, up to a fixed limit.",
-    "embed_passage": "פוליסת 'עד הגג' מציעה כיסוי לשחזור מסמכים כגון חוזים, שטרי מכר ותעודות שנפגעו כתוצאה מנזקי מים. סכום הביטוח להרחבה זו אינו יעלה על 1% מסכום ביטוח התכולה, אך לא יעלה על 10,000 ₪ למקרה ולכל תקופת הביטוח.",
+    "summary": "This table details coverage for reasonable and necessary expenses to restore lost documents due to insured events. It specifies a maximum coverage amount based on the content insurance sum.",
+    "embed_passage": "טבלה זו מתארת את הכיסוי להוצאות סבירות והכרחיות לשחזור מסמכים שאבדו כתוצאה מנזק ביטוחי, כגון חוזים, שטרי מכר ותעודות. סכום הביטוח להרחבה זו אינו יעלה על אחוז אחד מסכום ביטוח התכולה, אך לא יעלה על 10,000 ₪ למקרה ולכל תקופת הביטוח. הרחבה זו רלוונטית למבוטחים על פי סעיף 2 לפרק ב׳. בין המסמכים המכוסים נמנים פנקסי חשבונות, כתבי יד, שרטוטים, ותעודות. ביטוח עד הגג לביטוח בית משותף.",
     "row_axis": "Coverage details for document restoration",
-    "column_axis": "Policy terms and limits",
+    "column_axis": "Coverage limits and conditions",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "maximum coverage: 10,000 ₪",
-      "percentage of content insurance: 1%"
+      "סכום ביטוח מקסימלי: 10,000 ₪",
+      "אחוז מסכום ביטוח התכולה: 1%",
+      "סעיף רלוונטי: 2 לפרק ב׳"
     ],
     "product_hints": [
-      "עד הגג"
+      "ביטוח עד הגג"
     ]
   },
   "sketch": ".  שחזור מסמכים 4\nהביטוח מורחב לכסות הוצאות סבירות והכרחיות אשר הוצאו בפועל על ידי המבוטח, לצורך שחזור חוזים, מסמכי התחייבות, שטרי מכר, תעודות ומסמכים למיניהם, פנקסי חשבונות, כתבי יד, שרטוטים, תרשימים, תעודות, מסמכים, בשל מקרה ביטוח שנגרם כתוצאה מהסיכונים אך לא את עלות המידע שאבד או ניזוק. , לפרק ב' לעיל 2 המבוטחים על פי סעיף\n, מסכום ביטוח התכולה הנקוב במפרט 1% סכום הביטוח על פי הרחבה זו לא יעלה על למקרה ולכל תקופת הביטוח. ₪  10,000 ובכל מקרה לא יעלה על סך של",
-  "embed_text": "פוליסת 'עד הגג' מציעה כיסוי לשחזור מסמכים כגון חוזים, שטרי מכר ותעודות שנפגעו כתוצאה מנזקי מים. סכום הביטוח להרחבה זו אינו יעלה על 1% מסכום ביטוח התכולה, אך לא יעלה על 10,000 ₪ למקרה ולכל תקופת הביטוח.",
-  "payload": "טבלה: שחזור מסמכים\nThis table details coverage for document restoration costs under a home insurance policy. It specifies the maximum insured amount as a percentage of the content insurance sum, up to a fixed limit.\nממדים: Coverage details for document restoration, Policy terms and limits\n\n.  שחזור מסמכים 4\nהביטוח מורחב לכסות הוצאות סבירות והכרחיות אשר הוצאו בפועל על ידי המבוטח, לצורך שחזור חוזים, מסמכי התחייבות, שטרי מכר, תעודות ומסמכים למיניהם, פנקסי חשבונות, כתבי יד, שרטוטים, תרשימים, תעודות, מסמכים, בשל מקרה ביטוח שנגרם כתוצאה מהסיכונים אך לא את עלות המידע שאבד או ניזוק. , לפרק ב' לעיל 2 המבוטחים על פי סעיף\n, מסכום ביטוח התכולה הנקוב במפרט 1% סכום הביטוח על פי הרחבה זו לא יעלה על למקרה ולכל תקופת הביטוח. ₪  10,000 ובכל מקרה לא יעלה על סך של"
+  "embed_text": "טבלה זו מתארת את הכיסוי להוצאות סבירות והכרחיות לשחזור מסמכים שאבדו כתוצאה מנזק ביטוחי, כגון חוזים, שטרי מכר ותעודות. סכום הביטוח להרחבה זו אינו יעלה על אחוז אחד מסכום ביטוח התכולה, אך לא יעלה על 10,000 ₪ למקרה ולכל תקופת הביטוח. הרחבה זו רלוונטית למבוטחים על פי סעיף 2 לפרק ב׳. בין המסמכים המכוסים נמנים פנקסי חשבונות, כתבי יד, שרטוטים, ותעודות. ביטוח עד הגג לביטוח בית משותף. This table details coverage for reasonable and necessary expenses to restore lost documents due to insured events. It specifies a maximum coverage amount based on the content insurance sum. בין הערכים בטבלה: אחוז מסכום ביטוח התכולה: 1%.",
+  "payload": "טבלה: שחזור מסמכים\nThis table details coverage for reasonable and necessary expenses to restore lost documents due to insured events. It specifies a maximum coverage amount based on the content insurance sum.\nממדים: Coverage details for document restoration, Coverage limits and conditions\n\n.  שחזור מסמכים 4\nהביטוח מורחב לכסות הוצאות סבירות והכרחיות אשר הוצאו בפועל על ידי המבוטח, לצורך שחזור חוזים, מסמכי התחייבות, שטרי מכר, תעודות ומסמכים למיניהם, פנקסי חשבונות, כתבי יד, שרטוטים, תרשימים, תעודות, מסמכים, בשל מקרה ביטוח שנגרם כתוצאה מהסיכונים אך לא את עלות המידע שאבד או ניזוק. , לפרק ב' לעיל 2 המבוטחים על פי סעיף\n, מסכום ביטוח התכולה הנקוב במפרט 1% סכום הביטוח על פי הרחבה זו לא יעלה על למקרה ולכל תקופת הביטוח. ₪  10,000 ובכל מקרה לא יעלה על סך של"
 }

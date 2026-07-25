@@ -3,21 +3,25 @@
   "source": "llm",
   "description": {
     "title": "תנאי פוליסת ביטוח עד הגג",
-    "summary": "This table details the insurance coverage for a shared apartment building, specifically regarding mechanical breakdown of building facilities. It outlines the insured amount and conditions for claims related to mechanical failures.",
-    "embed_passage": "פוליסת 'עד הגג' מכסה נזקים הנגרמים משבר מכני למתקני הבית המשותף, כגון מעלית או ציוד הסקה. סכום הביטוח מוגבל לסכומים הנקובים במפרט, ומשתנה בהתאם לתקופת הביטוח. לדוגמה, סכום הביטוח יכול להיות 4.",
-    "row_axis": "Coverage details for mechanical breakdown of building facilities",
-    "column_axis": "Policy conditions, insured amount, covered risks, and exclusions",
+    "summary": "This table outlines the insurance coverage for a shared apartment building, specifically regarding the insured amount for shared funds held by the insured and their transfer. It details coverage for mechanical breakdown of building facilities.",
+    "embed_passage": "טבלה זו מתייחסת לתנאי פוליסת ביטוח \"עד הגג\" לביטוח בית משותף, ומפרטת את סכומי הביטוח המוגבלים לכספי הבית המשותף המוחזקים אצל המבוטח, וכן את הכיסוי במקרה של שבר מכני למתקני הבית המשותף. ניתן לבדוק את סכומי הביטוח הרלוונטיים בהתאם למפרט הפוליסה ולתקופת הביטוח. הטבלה כוללת מידע על אחריות המבטח, שבר מכני למתקני הבית המשותף, סכומי ביטוח, מעלית, ציוד הסקה משותף, מתקני מיזוג אויר, גנרטור ומשאבות. סכומי הביטוח מוגבלים לסכומים הנקובים במפרט הפוליסה.",
+    "row_axis": "Coverage details (e.g., insured amount, mechanical breakdown)",
+    "column_axis": "Policy conditions and limitations",
     "units": [],
     "notable_values": [
       "סכום הביטוח: 4",
-      "פרק ד': שבר מכני למתקני הבית המשותף",
-      "אחריות המבטח: מוגבלת לסכומי הביטוח הנקובים במפרט"
+      "אחריות המבטח: סכומי הביטוח הנקובים במפרט",
+      "מתקנים מכוסים: מעלית",
+      "מתקנים מכוסים: ציוד הסקה משותף",
+      "מתקנים מכוסים: מתקני מיזוג אויר",
+      "מתקנים מכוסים: גנרטור",
+      "מתקנים מכוסים: משאבות"
     ],
     "product_hints": [
-      "עד הגג"
+      "ביטוח בית משותף"
     ]
   },
   "sketch": ".  סכום הביטוח 4\n1.1 אחריות המבטח בגין כספי הבית המשותף המוחזקים בבית המבוטח, כמפורט בסעיף מוגבלת לסכומי הביטוח הנקובים במפרט , לעיל 1.2 לעיל ובגין העברתם כאמור בסעיף למקרה או העברה בודדת, לפי העניין, ולכל תקופת הביטוח.\nפרק ד': שבר מכני למתקני הבית המשותף\nאם צוין ברשימה כי פרק ד' - שבר מכני למתקני הבית המשותף - בתוקף, המבטח ישפה את המבוטח בכפוף לאמור במבוא, בהגדרות, בסייגים ובתנאים הכלליים של הפוליסה ובכפוף לסייגים ולתנאים המפורטים בפרק זה וברשימה, וזאת בהתאם לכל המפורט להלן:",
-  "embed_text": "פוליסת 'עד הגג' מכסה נזקים הנגרמים משבר מכני למתקני הבית המשותף, כגון מעלית או ציוד הסקה. סכום הביטוח מוגבל לסכומים הנקובים במפרט, ומשתנה בהתאם לתקופת הביטוח. לדוגמה, סכום הביטוח יכול להיות 4.",
-  "payload": "טבלה: תנאי פוליסת ביטוח עד הגג\nThis table details the insurance coverage for a shared apartment building, specifically regarding mechanical breakdown of building facilities. It outlines the insured amount and conditions for claims related to mechanical failures.\nממדים: Coverage details for mechanical breakdown of building facilities, Policy conditions, insured amount, covered risks, and exclusions\n\n.  סכום הביטוח 4\n1.1 אחריות המבטח בגין כספי הבית המשותף המוחזקים בבית המבוטח, כמפורט בסעיף מוגבלת לסכומי הביטוח הנקובים במפרט , לעיל 1.2 לעיל ובגין העברתם כאמור בסעיף למקרה או העברה בודדת, לפי העניין, ולכל תקופת הביטוח.\nפרק ד': שבר מכני למתקני הבית המשותף\nאם צוין ברשימה כי פרק ד' - שבר מכני למתקני הבית המשותף - בתוקף, המבטח ישפה את המבוטח בכפוף לאמור במבוא, בהגדרות, בסייגים ובתנאים הכלליים של הפוליסה ובכפוף לסייגים ולתנאים המפורטים בפרק זה וברשימה, וזאת בהתאם לכל המפורט להלן:"
+  "embed_text": "טבלה זו מתייחסת לתנאי פוליסת ביטוח \"עד הגג\" לביטוח בית משותף, ומפרטת את סכומי הביטוח המוגבלים לכספי הבית המשותף המוחזקים אצל המבוטח, וכן את הכיסוי במקרה של שבר מכני למתקני הבית המשותף. ניתן לבדוק את סכומי הביטוח הרלוונטיים בהתאם למפרט הפוליסה ולתקופת הביטוח. הטבלה כוללת מידע על אחריות המבטח, שבר מכני למתקני הבית המשותף, סכומי ביטוח, מעלית, ציוד הסקה משותף, מתקני מיזוג אויר, גנרטור ומשאבות. סכומי הביטוח מוגבלים לסכומים הנקובים במפרט הפוליסה. This table outlines the insurance coverage for a shared apartment building, specifically regarding the insured amount for shared funds held by the insured and their transfer. It details coverage for mechanical breakdown of building facilities. בין הערכים בטבלה: סכום הביטוח: 4.",
+  "payload": "טבלה: תנאי פוליסת ביטוח עד הגג\nThis table outlines the insurance coverage for a shared apartment building, specifically regarding the insured amount for shared funds held by the insured and their transfer. It details coverage for mechanical breakdown of building facilities.\nממדים: Coverage details (e.g., insured amount, mechanical breakdown), Policy conditions and limitations\n\n.  סכום הביטוח 4\n1.1 אחריות המבטח בגין כספי הבית המשותף המוחזקים בבית המבוטח, כמפורט בסעיף מוגבלת לסכומי הביטוח הנקובים במפרט , לעיל 1.2 לעיל ובגין העברתם כאמור בסעיף למקרה או העברה בודדת, לפי העניין, ולכל תקופת הביטוח.\nפרק ד': שבר מכני למתקני הבית המשותף\nאם צוין ברשימה כי פרק ד' - שבר מכני למתקני הבית המשותף - בתוקף, המבטח ישפה את המבוטח בכפוף לאמור במבוא, בהגדרות, בסייגים ובתנאים הכלליים של הפוליסה ובכפוף לסייגים ולתנאים המפורטים בפרק זה וברשימה, וזאת בהתאם לכל המפורט להלן:"
 }

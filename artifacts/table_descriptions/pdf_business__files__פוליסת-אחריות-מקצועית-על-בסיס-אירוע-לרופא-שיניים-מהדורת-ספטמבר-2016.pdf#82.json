@@ -3,21 +3,21 @@
   "source": "llm",
   "description": {
     "title": "איסור הודאה",
-    "summary": "This table outlines restrictions on admissions of fault by the insured. It details conditions under which acknowledging liability could affect coverage under the policy.",
-    "embed_passage": "פוליסת אחריות מקצועית לרופא שיניים מגדירה מגבלות על הודאה באחריות. סעיף 4.4.1 קובע שאין לעשות או לתת הודאה, הצעה, התחייבות, הבטחה או פיצוי כלשהו ללא הסכמה מראש ובכתב של המבטח, בקשר למקרה שעלול להוביל לתביעה מכוסה. הוראות אלו אינן חלות על מסירת עובדות לרשויות החוק או על מתן עדות בבית משפט.",
-    "row_axis": "Specific restrictions regarding admissions of liability",
-    "column_axis": "Details of the restriction (e.g., type of admission, exceptions)",
+    "summary": "This table details restrictions on admissions or acknowledgements of liability by the insured. It outlines conditions under which such admissions are prohibited and exceptions to this rule.",
+    "embed_passage": "טבלה זו עוסקת באיסור הודאה, כלומר הגבלות על הודאות או הכרה באחריות על ידי המבוטח. חשוב להבין את התנאים שבהם אסור למבוטח להודות באחריות, ומהן החריגות לחוק זה. הפוליסה מתייחסת ל\"הודאה\" (ADMISSION) כהצעה, התחייבות, הבטחה או פיצוי כלשהו. הטבלה מפרטת כי אין לעשות או לתת הודאה כזו ללא הסכמה מראש ובכתב של המבטח, בקשר למקרה שעלול להוביל לתביעה מכוסה. חריגים כוללים מסירת עובדות למשטרה או לגורם מוסמך אחר, ומתן עדות בבית משפט.",
+    "row_axis": "סעיף איסור הודאה",
+    "column_axis": "תיאור האיסור / חריגים",
     "units": [],
     "notable_values": [
       "סעיף: 4.4",
-      "4.4.1: איסור הודאה",
-      "הסכמה: נדרשת הסכמה מראש ובכתב של המבטח"
+      "ADMISSION: איסור הודאה",
+      "4.4.1: איסור הודאה ללא הסכמה"
     ],
     "product_hints": [
       "פוליסת אחריות מקצועית לרופא שיניים"
     ]
   },
   "sketch": "איסור הודאה .4.4\n(, הצעה, התחייבות, הבטחה, או פיצוי כלשהו לא ADMISSION ) שום הודאה .4.4.1 ייעשו ולא יינתנו על ידי המבוטח או מי מטעמו בלי הסכמתו מראש ובכתב של המבוטח בקשר עם כל מקרה אשר בגינו תיתכן תביעה המכוסה על פי פוליסה זו.\nאין הוראות תנאי זה חלות על מסירת עובדות במשטרה או לכל גורם מוסמך על פי כל דין, לפי דרישתם, וכן על מתן עדות במשפט.",
-  "embed_text": "פוליסת אחריות מקצועית לרופא שיניים מגדירה מגבלות על הודאה באחריות. סעיף 4.4.1 קובע שאין לעשות או לתת הודאה, הצעה, התחייבות, הבטחה או פיצוי כלשהו ללא הסכמה מראש ובכתב של המבטח, בקשר למקרה שעלול להוביל לתביעה מכוסה. הוראות אלו אינן חלות על מסירת עובדות לרשויות החוק או על מתן עדות בבית משפט.",
-  "payload": "טבלה: איסור הודאה\nThis table outlines restrictions on admissions of fault by the insured. It details conditions under which acknowledging liability could affect coverage under the policy.\nממדים: Specific restrictions regarding admissions of liability, Details of the restriction (e.g., type of admission, exceptions)\n\nאיסור הודאה .4.4\n(, הצעה, התחייבות, הבטחה, או פיצוי כלשהו לא ADMISSION ) שום הודאה .4.4.1 ייעשו ולא יינתנו על ידי המבוטח או מי מטעמו בלי הסכמתו מראש ובכתב של המבוטח בקשר עם כל מקרה אשר בגינו תיתכן תביעה המכוסה על פי פוליסה זו.\nאין הוראות תנאי זה חלות על מסירת עובדות במשטרה או לכל גורם מוסמך על פי כל דין, לפי דרישתם, וכן על מתן עדות במשפט."
+  "embed_text": "טבלה זו עוסקת באיסור הודאה, כלומר הגבלות על הודאות או הכרה באחריות על ידי המבוטח. חשוב להבין את התנאים שבהם אסור למבוטח להודות באחריות, ומהן החריגות לחוק זה. הפוליסה מתייחסת ל\"הודאה\" (ADMISSION) כהצעה, התחייבות, הבטחה או פיצוי כלשהו. הטבלה מפרטת כי אין לעשות או לתת הודאה כזו ללא הסכמה מראש ובכתב של המבטח, בקשר למקרה שעלול להוביל לתביעה מכוסה. חריגים כוללים מסירת עובדות למשטרה או לגורם מוסמך אחר, ומתן עדות בבית משפט. This table details restrictions on admissions or acknowledgements of liability by the insured. It outlines conditions under which such admissions are prohibited and exceptions to this rule. בין הערכים בטבלה: סעיף: 4.4; 4.4.1: איסור הודאה ללא הסכמה.",
+  "payload": "טבלה: איסור הודאה\nThis table details restrictions on admissions or acknowledgements of liability by the insured. It outlines conditions under which such admissions are prohibited and exceptions to this rule.\nממדים: סעיף איסור הודאה, תיאור האיסור / חריגים\n\nאיסור הודאה .4.4\n(, הצעה, התחייבות, הבטחה, או פיצוי כלשהו לא ADMISSION ) שום הודאה .4.4.1 ייעשו ולא יינתנו על ידי המבוטח או מי מטעמו בלי הסכמתו מראש ובכתב של המבוטח בקשר עם כל מקרה אשר בגינו תיתכן תביעה המכוסה על פי פוליסה זו.\nאין הוראות תנאי זה חלות על מסירת עובדות במשטרה או לכל גורם מוסמך על פי כל דין, לפי דרישתם, וכן על מתן עדות במשפט."
 }

@@ -3,26 +3,24 @@
   "source": "llm",
   "description": {
     "title": "הגנה על שם מותג",
-    "summary": "This table details coverage for brand protection following damage to finished goods inventory. It outlines compensation for destruction of damaged items to protect brand name, product name, or trademark, up to a limit.",
-    "embed_passage": "פוליסת הראל ביטוח מציעה הגנה על שם מותג במקרה של נזק למלאי מוצרים מוגמרים. הפיצוי לפריטים שניזוקו יחושב על בסיס אובדן כללי, כאשר סכום ההגנה מוגבל עד ₪ 1,000,000. המבטח ישלם גם את הוצאות הפינוי וההשמדה.",
-    "row_axis": "Scenario: Damage to finished goods inventory requiring brand protection",
-    "column_axis": "Coverage details, compensation limits",
+    "summary": "This table details coverage for brand name protection following insured damage to finished goods inventory. It outlines conditions for destruction of damaged items and compensation limits.",
+    "embed_passage": "טבלה זו מתארת את הכיסוי להגנה על שם מותג בעקבות מקרה ביטוח למלאי מוצרים מוגמרים. הפיצוי לפריטים שניזוקו יחושב על בסיס אובדן כללי (Total Loss) בהמלצת השמאי ובאישור המבטח. אחריות המבטח מוגבלת עד לסך של ₪ 1,000,000. הרחבה זו כפופה לתנאי 'ביטוח חסר' 5.7.  הטבלה רלוונטית לפוליסה משולבת לביטוח אש מורחב ואובדן תוצאתי הראל ביט.  היא עוסקת בהשמדת פריטים שניזוקו לשם הגנה על שם המותג, שם המוצר או סימן מסחרי.",
+    "row_axis": "conditions for brand protection claim",
+    "column_axis": "coverage details, limits",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "coverage limit: ₪ 1,000,000",
-      "loss basis: Total Loss",
-      "coverage applies to: brand name, product name, trademark",
-      "includes: disposal and removal costs"
+      "limit: ₪ 1,000,000",
+      "condition: recommendation from appraiser",
+      "condition: approval by insurer",
+      "loss basis: Total Loss"
     ],
     "product_hints": [
-      "הראל ביטוח",
-      "ביטוח אש מורחב",
-      "אובדן תוצאתי"
+      "פוליסה משולבת לביטוח אש מורחב ואובדן תוצאתי הראל ביט"
     ]
   },
   "sketch": "הגנה על שם מותג .3.15\nהיה ובעקבות מקרה ביטוח למלאי מוצרים מוגמרים, יטען המבוטח כי לשם הגנת שמו , ו/או שם המוצר ו/או שם המותג ו/או סימון מסחרי, יש להשמיד את הפריטים שניזוקו וטענה זו תסתמך על המלצת אף אם מדובר בנזק חלקי ו/או נזק שניתן לשיקום אזי הפיצוי לפריטים שניזוקו יחושב , השמאי המטפל בנזק ותאושר על ידי המבטח .( Total Loss ) על בסיס אובדן כללי\nהמבטח ישלם במקרה זה גם את הוצאות הפינוי וההשמדה.\nאלא אם צוין אחרת ברשימה, אחריות המבטח על פי הרחבה זו מוגבלת עד לסך .₪  1,000,000 של\n\"ביטוח חסר\" מהתנאים 5.7 סכום זה הינו על בסיס נזק ראשון שאינו כפוף לתנאי .' המיוחדים בפרק א",
-  "embed_text": "פוליסת הראל ביטוח מציעה הגנה על שם מותג במקרה של נזק למלאי מוצרים מוגמרים. הפיצוי לפריטים שניזוקו יחושב על בסיס אובדן כללי, כאשר סכום ההגנה מוגבל עד ₪ 1,000,000. המבטח ישלם גם את הוצאות הפינוי וההשמדה.",
-  "payload": "טבלה: הגנה על שם מותג\nThis table details coverage for brand protection following damage to finished goods inventory. It outlines compensation for destruction of damaged items to protect brand name, product name, or trademark, up to a limit.\nממדים: Scenario: Damage to finished goods inventory requiring brand protection, Coverage details, compensation limits\n\nהגנה על שם מותג .3.15\nהיה ובעקבות מקרה ביטוח למלאי מוצרים מוגמרים, יטען המבוטח כי לשם הגנת שמו , ו/או שם המוצר ו/או שם המותג ו/או סימון מסחרי, יש להשמיד את הפריטים שניזוקו וטענה זו תסתמך על המלצת אף אם מדובר בנזק חלקי ו/או נזק שניתן לשיקום אזי הפיצוי לפריטים שניזוקו יחושב , השמאי המטפל בנזק ותאושר על ידי המבטח .( Total Loss ) על בסיס אובדן כללי\nהמבטח ישלם במקרה זה גם את הוצאות הפינוי וההשמדה.\nאלא אם צוין אחרת ברשימה, אחריות המבטח על פי הרחבה זו מוגבלת עד לסך .₪  1,000,000 של\n\"ביטוח חסר\" מהתנאים 5.7 סכום זה הינו על בסיס נזק ראשון שאינו כפוף לתנאי .' המיוחדים בפרק א"
+  "embed_text": "טבלה זו מתארת את הכיסוי להגנה על שם מותג בעקבות מקרה ביטוח למלאי מוצרים מוגמרים. הפיצוי לפריטים שניזוקו יחושב על בסיס אובדן כללי (Total Loss) בהמלצת השמאי ובאישור המבטח. אחריות המבטח מוגבלת עד לסך של ₪ 1,000,000. הרחבה זו כפופה לתנאי 'ביטוח חסר' 5.7.  הטבלה רלוונטית לפוליסה משולבת לביטוח אש מורחב ואובדן תוצאתי הראל ביט.  היא עוסקת בהשמדת פריטים שניזוקו לשם הגנה על שם המותג, שם המוצר או סימן מסחרי. This table details coverage for brand name protection following insured damage to finished goods inventory. It outlines conditions for destruction of damaged items and compensation limits. בין הערכים בטבלה: condition: recommendation from appraiser; condition: approval by insurer.",
+  "payload": "טבלה: הגנה על שם מותג\nThis table details coverage for brand name protection following insured damage to finished goods inventory. It outlines conditions for destruction of damaged items and compensation limits.\nממדים: conditions for brand protection claim, coverage details, limits\n\nהגנה על שם מותג .3.15\nהיה ובעקבות מקרה ביטוח למלאי מוצרים מוגמרים, יטען המבוטח כי לשם הגנת שמו , ו/או שם המוצר ו/או שם המותג ו/או סימון מסחרי, יש להשמיד את הפריטים שניזוקו וטענה זו תסתמך על המלצת אף אם מדובר בנזק חלקי ו/או נזק שניתן לשיקום אזי הפיצוי לפריטים שניזוקו יחושב , השמאי המטפל בנזק ותאושר על ידי המבטח .( Total Loss ) על בסיס אובדן כללי\nהמבטח ישלם במקרה זה גם את הוצאות הפינוי וההשמדה.\nאלא אם צוין אחרת ברשימה, אחריות המבטח על פי הרחבה זו מוגבלת עד לסך .₪  1,000,000 של\n\"ביטוח חסר\" מהתנאים 5.7 סכום זה הינו על בסיס נזק ראשון שאינו כפוף לתנאי .' המיוחדים בפרק א"
 }

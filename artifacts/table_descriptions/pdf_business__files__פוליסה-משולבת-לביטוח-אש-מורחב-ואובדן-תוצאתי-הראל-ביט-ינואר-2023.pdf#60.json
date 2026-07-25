@@ -2,26 +2,25 @@
   "id": "pdf:business/files/פוליסה-משולבת-לביטוח-אש-מורחב-ואובדן-תוצאתי-הראל-ביט-ינואר-2023.pdf#60",
   "source": "llm",
   "description": {
-    "title": "ביטוח חסר",
-    "summary": "This table details coverage for 'loss of use' of property due to an insured event, specifically regarding replacement cost and limitations. It outlines the maximum payout amount for property rendered unusable.",
-    "embed_passage": "פוליסת 'ביטוח חסר' של הראל מכסה עלויות שכירות או ניהול עבור מבנה חלופי במקרה של נזק. הסכום המקסימלי לפיצוי מוגבל עד ₪1,000,000, והוא מחושב על בסיס נזק ראשון, ללא תנאים מיוחדים. הכיסוי חל על רכוש שהפך לחסר שימוש בעקבות החלפת רכוש ניזוק.",
-    "row_axis": "Scenario: Property rendered unusable due to an insured event",
-    "column_axis": "Coverage details: Maximum payout amount, conditions",
+    "title": "רכוש שיצא מכלל שימוש",
+    "summary": "This table details coverage for property rendered unusable due to an insured event. It specifies limits and conditions for compensation related to lost use of property.",
+    "embed_passage": "טבלה זו מתייחסת לביטוח רכוש שיצא מכלל שימוש, כחלק מפוליסת ביטוח אש מורחב ואובדן תוצאתי של הראל. הפיצוי ניתן כאשר רכוש ניזוק ויצא מכלל שימוש, והמבוטח זכאי להחזר עבור דמי שכירות או התאמת מבנה חלופי. סכום הפיצוי מוגבל עד ₪ 1,000,000, על בסיס נזק ראשון, בהתאם לתנאי 'ביטוח חסר' 5.7. הרחבה זו חלה על רכוש שהוחלף ברכוש אחר, וערך הפיצוי מחושב בניכוי ערך הניצולת. סכום הפיצוי המקסימלי הוא ₪ 1,000,000.",
+    "row_axis": "conditions for unusable property",
+    "column_axis": "coverage details and limits",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "Maximum payout: ₪1,000,000",
-      "Coverage type: Loss of use",
-      "Basis of payout: First loss",
-      "Exclusion: Special conditions in Chapter A do not apply"
+      "limit: ₪ 1,000,000",
+      "condition: replacement of damaged property",
+      "basis: first loss",
+      "reference: 'ביטוח חסר' 5.7"
     ],
     "product_hints": [
-      "ביטוח חסר",
-      "הראל"
+      "פוליסה משולבת לביטוח אש מורחב ואובדן תוצאתי הראל"
     ]
   },
   "sketch": "רכוש שיצא מכלל שימוש .3.14\nאם בשל מקרה ביטוח שבגינו הוחלף הרכוש הניזוק ברכוש אחר, הפך הרכוש המבוטח שלא ניזוק )למעט מבנים(, לחסר שימוש - אזי ישפה המבטח את המבוטח בערך עלות הרכוש הנ״ל בניכוי ערך הניצולת בפועל.\nאלא אם צוין אחרת ברשימה, אחריות המבטח על פי הרחבה זו מוגבלת עד לסך .₪  1,000,000 של\n\"ביטוח חסר\" מהתנאים 5.7 סכום זה הינו על בסיס נזק ראשון שאינו כפוף לתנאי .' המיוחדים בפרק א",
-  "embed_text": "פוליסת 'ביטוח חסר' של הראל מכסה עלויות שכירות או ניהול עבור מבנה חלופי במקרה של נזק. הסכום המקסימלי לפיצוי מוגבל עד ₪1,000,000, והוא מחושב על בסיס נזק ראשון, ללא תנאים מיוחדים. הכיסוי חל על רכוש שהפך לחסר שימוש בעקבות החלפת רכוש ניזוק.",
-  "payload": "טבלה: ביטוח חסר\nThis table details coverage for 'loss of use' of property due to an insured event, specifically regarding replacement cost and limitations. It outlines the maximum payout amount for property rendered unusable.\nממדים: Scenario: Property rendered unusable due to an insured event, Coverage details: Maximum payout amount, conditions\n\nרכוש שיצא מכלל שימוש .3.14\nאם בשל מקרה ביטוח שבגינו הוחלף הרכוש הניזוק ברכוש אחר, הפך הרכוש המבוטח שלא ניזוק )למעט מבנים(, לחסר שימוש - אזי ישפה המבטח את המבוטח בערך עלות הרכוש הנ״ל בניכוי ערך הניצולת בפועל.\nאלא אם צוין אחרת ברשימה, אחריות המבטח על פי הרחבה זו מוגבלת עד לסך .₪  1,000,000 של\n\"ביטוח חסר\" מהתנאים 5.7 סכום זה הינו על בסיס נזק ראשון שאינו כפוף לתנאי .' המיוחדים בפרק א"
+  "embed_text": "טבלה זו מתייחסת לביטוח רכוש שיצא מכלל שימוש, כחלק מפוליסת ביטוח אש מורחב ואובדן תוצאתי של הראל. הפיצוי ניתן כאשר רכוש ניזוק ויצא מכלל שימוש, והמבוטח זכאי להחזר עבור דמי שכירות או התאמת מבנה חלופי. סכום הפיצוי מוגבל עד ₪ 1,000,000, על בסיס נזק ראשון, בהתאם לתנאי 'ביטוח חסר' 5.7. הרחבה זו חלה על רכוש שהוחלף ברכוש אחר, וערך הפיצוי מחושב בניכוי ערך הניצולת. סכום הפיצוי המקסימלי הוא ₪ 1,000,000. This table details coverage for property rendered unusable due to an insured event. It specifies limits and conditions for compensation related to lost use of property. בין הערכים בטבלה: condition: replacement of damaged property; basis: first loss.",
+  "payload": "טבלה: רכוש שיצא מכלל שימוש\nThis table details coverage for property rendered unusable due to an insured event. It specifies limits and conditions for compensation related to lost use of property.\nממדים: conditions for unusable property, coverage details and limits\n\nרכוש שיצא מכלל שימוש .3.14\nאם בשל מקרה ביטוח שבגינו הוחלף הרכוש הניזוק ברכוש אחר, הפך הרכוש המבוטח שלא ניזוק )למעט מבנים(, לחסר שימוש - אזי ישפה המבטח את המבוטח בערך עלות הרכוש הנ״ל בניכוי ערך הניצולת בפועל.\nאלא אם צוין אחרת ברשימה, אחריות המבטח על פי הרחבה זו מוגבלת עד לסך .₪  1,000,000 של\n\"ביטוח חסר\" מהתנאים 5.7 סכום זה הינו על בסיס נזק ראשון שאינו כפוף לתנאי .' המיוחדים בפרק א"
 }

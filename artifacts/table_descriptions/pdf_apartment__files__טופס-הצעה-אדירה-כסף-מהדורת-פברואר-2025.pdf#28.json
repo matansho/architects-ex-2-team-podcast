@@ -2,24 +2,29 @@
   "id": "pdf:apartment/files/טופס-הצעה-אדירה-כסף-מהדורת-פברואר-2025.pdf#28",
   "source": "llm",
   "description": {
-    "title": "הרחבות לכיסוי תכולה",
-    "summary": "This table details coverage extensions for personal contents insurance, specifically for valuable items. It allows looking up insurance amounts based on the type of content and whether an expert appraisal is provided.",
-    "embed_passage": "ביטוח 'אדירה כסף' מציע הרחבות לכיסוי כל הסיכונים עבור תכולה מסוימת בישראל, כאשר סכום הביטוח יכול להגיע עד 50,000 ₪. עבור דברי ערך כמו פרוות, מצלמות או כלי נגינה, נדרשת הערכת מעריך מומחה. הכיסוי מתייחס לערך הכספי של הפריטים בבית.",
-    "row_axis": "Type of valuable content (e.g., furs, cameras, musical instruments)",
-    "column_axis": "Insurance details (e.g., required appraisal, insurance amount)",
+    "title": "הרחבות לכיסוי כל הסיכונים",
+    "summary": "This table details extensions to 'כל הסיכונים' (all-risks) coverage for specific personal property items in Israel. It allows users to indicate whether they want coverage and specify the insured amount.",
+    "embed_passage": "טופס זה מתייחס להרחבות לכיסוי 'כל הסיכונים' בישראל עבור תכולה מסוימת, כגון תכשיטים ודברי זהב. ניתן לבחור האם לקבל כיסוי, ולציין את סכום הביטוח הרצוי בש״ח.  הטופס דורש לעיתים הערכת מעריך מומחה עבור פריטים יקרי ערך.  הכיסויים המוצגים כוללים תכשיטים, שעוני-יד, דברי זהב, פרוות, מצלמות, אביזרי צילום, דברי אומנות וכלי נגינה.  ניתן לבקש הרחבה לכיסוי בחו״ל עבור תכשיטים וציוד צילום. סכום ביטוח יכול להגיע עד 50,000 ₪.",
+    "row_axis": "item covered (תכשיטים, שעוני-יד, פרוות, etc.)",
+    "column_axis": "coverage decision (כן/לא), insured amount (₪)",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "Insurance amount: 50,000 ₪",
-      "Appraisal required: Yes (for certain items)",
-      "Coverage area: Israel only"
+      "תכשיטים, שעוני-יד ודברי זהב: covered",
+      "סכום ביטוח: 50,000 ₪ (maximum)",
+      "דברי ערך אחרים: covered",
+      "פרוות: covered",
+      "מצלמות: covered",
+      "אביזרי צילום: covered",
+      "דברי אומנות: covered",
+      "כלי נגינה: covered"
     ],
     "product_hints": [
       "אדירה כסף"
     ]
   },
-  "sketch": "יד הרחבות לכיסוי כל הסיכונים בישראל בלבד לפרטי תכולה מסויימים\n)יש לצרף הערכת מעריך מומחה(\n₪                                                        :\nכן, סכום ביטוח\n…\n( דברי ערך אחרים )פרוות, מצלמות, אביזרי צילום, דברי אומנות, כלי נגינה\n)יש לצרף הערכת מעריך מומחה(\n₪                                                 :\nסכום הביטוח",
-  "embed_text": "ביטוח 'אדירה כסף' מציע הרחבות לכיסוי כל הסיכונים עבור תכולה מסוימת בישראל, כאשר סכום הביטוח יכול להגיע עד 50,000 ₪. עבור דברי ערך כמו פרוות, מצלמות או כלי נגינה, נדרשת הערכת מעריך מומחה. הכיסוי מתייחס לערך הכספי של הפריטים בבית.",
-  "payload": "טבלה: הרחבות לכיסוי תכולה\nThis table details coverage extensions for personal contents insurance, specifically for valuable items. It allows looking up insurance amounts based on the type of content and whether an expert appraisal is provided.\nממדים: Type of valuable content (e.g., furs, cameras, musical instruments), Insurance details (e.g., required appraisal, insurance amount)\n\nיד הרחבות לכיסוי כל הסיכונים בישראל בלבד לפרטי תכולה מסויימים\n)יש לצרף הערכת מעריך מומחה(\n₪                                                        :\nכן, סכום ביטוח\nלא\n* תכשיטים, שעוני-יד ודברי זהב בכיסוי כל הסיכונים\n*אם סומן ויתור על תכשיטים, דברי זהב ושעוני-יד בפסקה י\"ב, לא ניתן לרכוש כיסוי זה.\n:\nכן, נא לפרט\nלא\n( דברי ערך אחרים )פרוות, מצלמות, אביזרי צילום, דברי אומנות, כלי נגינה\n)יש לצרף הערכת מעריך מומחה(\n₪                                                 :\nסכום הביטוח"
+  "sketch": "יד הרחבות לכיסוי כל הסיכונים בישראל בלבד לפרטי תכולה מסויימים\n)יש לצרף הערכת מעריך מומחה(\n₪                                                        :\nכן, סכום ביטוח\nלא\n* תכשיטים, שעוני-יד ודברי זהב בכיסוי כל הסיכונים\n…\nכן, נא לפרט\nלא\n( דברי ערך אחרים )פרוות, מצלמות, אביזרי צילום, דברי אומנות, כלי נגינה\n)יש לצרף הערכת מעריך מומחה(\n₪                                                 :\nסכום הביטוח",
+  "embed_text": "טופס זה מתייחס להרחבות לכיסוי 'כל הסיכונים' בישראל עבור תכולה מסוימת, כגון תכשיטים ודברי זהב. ניתן לבחור האם לקבל כיסוי, ולציין את סכום הביטוח הרצוי בש״ח.  הטופס דורש לעיתים הערכת מעריך מומחה עבור פריטים יקרי ערך.  הכיסויים המוצגים כוללים תכשיטים, שעוני-יד, דברי זהב, פרוות, מצלמות, אביזרי צילום, דברי אומנות וכלי נגינה.  ניתן לבקש הרחבה לכיסוי בחו״ל עבור תכשיטים וציוד צילום. סכום ביטוח יכול להגיע עד 50,000 ₪. This table details extensions to 'כל הסיכונים' (all-risks) coverage for specific personal property items in Israel. It allows users to indicate whether they want coverage and specify the insured amount. בין הערכים בטבלה: תכשיטים, שעוני-יד ודברי זהב: covered; דברי ערך אחרים: covered.",
+  "payload": "טבלה: הרחבות לכיסוי כל הסיכונים\nThis table details extensions to 'כל הסיכונים' (all-risks) coverage for specific personal property items in Israel. It allows users to indicate whether they want coverage and specify the insured amount.\nממדים: item covered (תכשיטים, שעוני-יד, פרוות, etc.), coverage decision (כן/לא), insured amount (₪)\n\nיד הרחבות לכיסוי כל הסיכונים בישראל בלבד לפרטי תכולה מסויימים\n)יש לצרף הערכת מעריך מומחה(\n₪                                                        :\nכן, סכום ביטוח\nלא\n* תכשיטים, שעוני-יד ודברי זהב בכיסוי כל הסיכונים\n*אם סומן ויתור על תכשיטים, דברי זהב ושעוני-יד בפסקה י\"ב, לא ניתן לרכוש כיסוי זה.\n:\nכן, נא לפרט\nלא\n( דברי ערך אחרים )פרוות, מצלמות, אביזרי צילום, דברי אומנות, כלי נגינה\n)יש לצרף הערכת מעריך מומחה(\n₪                                                 :\nסכום הביטוח"
 }

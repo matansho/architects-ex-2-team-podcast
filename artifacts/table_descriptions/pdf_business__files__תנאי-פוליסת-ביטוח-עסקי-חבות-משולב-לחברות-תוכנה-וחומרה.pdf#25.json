@@ -2,25 +2,27 @@
   "id": "pdf:business/files/תנאי-פוליסת-ביטוח-עסקי-חבות-משולב-לחברות-תוכנה-וחומרה.pdf#25",
   "source": "llm",
   "description": {
-    "title": "מבוטחים",
-    "summary": "This table defines who is considered an 'Insured' under the policy. It details the various individuals and entities covered, based on their relationship to the Named Insured.",
-    "embed_passage": "פוליסת ביטוח חבות משולב לחברות תוכנה וחומרה מגדירה את המבוטחים ככוללים את המבוטח הנקוב, נושאי תפקידים, עובדים ומתנדבים הפועלים במסגרת תפקידם. הכיסוי חל גם על מיזמים משותפים בהם למבוטח יש עניין שולט ועל חברות בנות. המבוטחים צריכים לעמוד בתנאי הפוליסה.",
-    "row_axis": "Type of Insured Person/Entity",
-    "column_axis": "Definition/Conditions of Coverage",
+    "title": "מבוטח",
+    "summary": "This table defines who is considered an 'Insured' under the policy. It lists different categories of individuals and entities covered, such as officers, employees, subsidiaries, and customers, based on their relationship to the Named Insured.",
+    "embed_passage": "טבלה זו מגדירה מי נחשב 'מבוטח' במסגרת הפוליסה, תוך פירוט קטגוריות שונות של יחידים וגופים המכוסים, כגון נושאי תפקידים, עובדים, חברות בנות ולקוחות, בהתאם לקשר שלהם עם 'המבוטח הנקוב'. הפוליסה 'ביטוח חבות משולב לחברות תוכנה וחומרה' מכסה גם מקרים של מיזמים משותפים בהם למבוטח הנקוב יש עניין שולט, וכן לקוחות עבורם המבוטח מבצע עבודה. חשוב לציין שהכיסוי חל על אותם גורמים בתנאי שהם מקיימים את תנאי הפוליסה והטיפול בכל התביעות נתון בידי החברה. המבוטח הנקוב, נושא תפקיד, דירקטור, בעל מניות, נאמן או חבר ועד מנהל, עובד או מתנדב.",
+    "row_axis": "Category of Insured",
+    "column_axis": "Description of Coverage",
     "units": [],
     "notable_values": [
-      "Named Insured: Specified in the schedule",
-      "Executive officer: Covered while acting within duties",
-      "Joint ventures: Covered with controlling interest",
-      "Subsidiary: Covered as part of the insured",
-      "Customer/principle: Covered for claims arising from work"
+      "Named Insured: specified in the schedule",
+      "Executive officer: covered while acting within scope of duties",
+      "Director: covered while acting within scope of duties",
+      "Stockholder: covered while acting within scope of duties",
+      "Trustee: covered while acting within scope of duties",
+      "Member of the board of governors: covered while acting within scope of duties",
+      "Employee: covered while acting within scope of duties",
+      "Volunteer worker: covered while acting within scope of duties"
     ],
     "product_hints": [
-      "ביטוח חבות משולב",
-      "לחברות תוכנה וחומרה"
+      "ביטוח חבות משולב לחברות תוכנה וחומרה"
     ]
   },
   "sketch": "6. Insured meaning:\nThe Named Insured specified in the schedule (herein: The Named Insured);\nAny  executive  officer,  director,  stockholder,  trustee  or  member  of the  board  of  governors  thereof  and  any  employee  or  volunteer worker of the Name Insured but only while acting within the scope of their duties as such;\nAny joint ventures where the Named Insured is engaged in a joint venture that has, by virtue of its share holdings in the joint venture or by any contract has the controlling interest in a joint venture;\nAny subsidiary of the Named Insured;\nAny customer or principle for whom the Insured is carrying out any work  and  against  whom  a  claim  is  brought  arising  from  an Occurrence for which the insured is responsible arising in connection with the carrying out of such work;\nProvided that such persons or organisations shall observe, fulfill and be subject to the terms, conditions and limits of this insurance and that the conduct and control of all Claims be vested in the Company.",
-  "embed_text": "פוליסת ביטוח חבות משולב לחברות תוכנה וחומרה מגדירה את המבוטחים ככוללים את המבוטח הנקוב, נושאי תפקידים, עובדים ומתנדבים הפועלים במסגרת תפקידם. הכיסוי חל גם על מיזמים משותפים בהם למבוטח יש עניין שולט ועל חברות בנות. המבוטחים צריכים לעמוד בתנאי הפוליסה.",
-  "payload": "טבלה: מבוטחים\nThis table defines who is considered an 'Insured' under the policy. It details the various individuals and entities covered, based on their relationship to the Named Insured.\nממדים: Type of Insured Person/Entity, Definition/Conditions of Coverage\n\n6. Insured meaning:\nThe Named Insured specified in the schedule (herein: The Named Insured);\nAny  executive  officer,  director,  stockholder,  trustee  or  member  of the  board  of  governors  thereof  and  any  employee  or  volunteer worker of the Name Insured but only while acting within the scope of their duties as such;\nAny joint ventures where the Named Insured is engaged in a joint venture that has, by virtue of its share holdings in the joint venture or by any contract has the controlling interest in a joint venture;\nAny subsidiary of the Named Insured;\nAny customer or principle for whom the Insured is carrying out any work  and  against  whom  a  claim  is  brought  arising  from  an Occurrence for which the insured is responsible arising in connection with the carrying out of such work;\nProvided that such persons or organisations shall observe, fulfill and be subject to the terms, conditions and limits of this insurance and that the conduct and control of all Claims be vested in the Company."
+  "embed_text": "טבלה זו מגדירה מי נחשב 'מבוטח' במסגרת הפוליסה, תוך פירוט קטגוריות שונות של יחידים וגופים המכוסים, כגון נושאי תפקידים, עובדים, חברות בנות ולקוחות, בהתאם לקשר שלהם עם 'המבוטח הנקוב'. הפוליסה 'ביטוח חבות משולב לחברות תוכנה וחומרה' מכסה גם מקרים של מיזמים משותפים בהם למבוטח הנקוב יש עניין שולט, וכן לקוחות עבורם המבוטח מבצע עבודה. חשוב לציין שהכיסוי חל על אותם גורמים בתנאי שהם מקיימים את תנאי הפוליסה והטיפול בכל התביעות נתון בידי החברה. המבוטח הנקוב, נושא תפקיד, דירקטור, בעל מניות, נאמן או חבר ועד מנהל, עובד או מתנדב. This table defines who is considered an 'Insured' under the policy. It lists different categories of individuals and entities covered, such as officers, employees, subsidiaries, and customers, based on their relationship to the Named Insured. בין הערכים בטבלה: Named Insured: spec…",
+  "payload": "טבלה: מבוטח\nThis table defines who is considered an 'Insured' under the policy. It lists different categories of individuals and entities covered, such as officers, employees, subsidiaries, and customers, based on their relationship to the Named Insured.\nממדים: Category of Insured, Description of Coverage\n\n6. Insured meaning:\nThe Named Insured specified in the schedule (herein: The Named Insured);\nAny  executive  officer,  director,  stockholder,  trustee  or  member  of the  board  of  governors  thereof  and  any  employee  or  volunteer worker of the Name Insured but only while acting within the scope of their duties as such;\nAny joint ventures where the Named Insured is engaged in a joint venture that has, by virtue of its share holdings in the joint venture or by any contract has the controlling interest in a joint venture;\nAny subsidiary of the Named Insured;\nAny customer or principle for whom the Insured is carrying out any work  and  against  whom  a  claim  is  brought  arising  from  an Occurrence for which the insured is responsible arising in connection with the carrying out of such work;\nProvided that such persons or organisations shall observe, fulfill and be subject to the terms, conditions and limits of this insurance and that the conduct and control of all Claims be vested in the Company."
 }

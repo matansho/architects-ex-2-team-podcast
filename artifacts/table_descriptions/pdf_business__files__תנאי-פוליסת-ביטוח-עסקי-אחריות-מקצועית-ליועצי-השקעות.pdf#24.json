@@ -2,23 +2,24 @@
   "id": "pdf:business/files/תנאי-פוליסת-ביטוח-עסקי-אחריות-מקצועית-ליועצי-השקעות.pdf#24",
   "source": "llm",
   "description": {
-    "title": "פוליסת אחריות מקצועית",
-    "summary": "This table outlines conditions related to mergers, amalgamations, and take-overs for a professional liability insurance policy. It details how coverage is affected when the insured business undergoes a structural change.",
-    "embed_passage": "פוליסת אחריות מקצועית מספקת כיסוי לאירועים שהתרחשו לפני תאריך האפקטיבי של מיזוג, איחוד או רכישה. במקרה של שינוי מבני בעסק המבוטח, הכיסוי יחול רק על אירועים שהתרחשו קודם לכן. אין כיסוי לעסק השני אלא אם המבטח הסכים מראש.",
-    "row_axis": "Scenario: Merger, Amalgamation, or Take-over",
-    "column_axis": "Policy Coverage Conditions",
+    "title": "תנאי פוליסת ביטוח אחריות מקצועית",
+    "summary": "This table outlines conditions related to mergers, amalgamations, and take-overs as they affect professional liability insurance coverage. It details how coverage is impacted by such events and the requirements for extending coverage to other involved businesses.",
+    "embed_passage": "טבלה זו מתארת את תנאי פוליסת ביטוח אחריות מקצועית ליועצי השקעות, במיוחד במקרים של מיזוג, איחוד או רכישה של העסק המבוטח. הפוליסה מכסה אירועים שהתרחשו לפני תאריך האפקטיבי של המיזוג, האיחוד או הרכישה. כדי להרחיב את הכיסוי לחברה אחרת, נדרשת הסכמה מפורשת בכתב מהמבטח, בתנאים מוסכמים. מיזוג, איחוד ורכישה הם אירועים מרכזיים המשפיעים על תוקף הפוליסה. פוליסת ביטוח אחריות מקצועית זו מיועדת ליועצי השקעות.",
+    "row_axis": "Event Type (Merger, Amalgamation, Take-over)",
+    "column_axis": "Coverage Condition",
     "units": [],
     "notable_values": [
-      "Merger/Amalgamation/Take-over: Coverage applies to events prior to effective date",
-      "Other Concern Coverage: Requires insurer agreement in writing",
-      "No coverage: to the other concern without prior insurer agreement"
+      "Merger: Coverage applies to events prior to effective date",
+      "Amalgamation: Coverage applies to events prior to effective date",
+      "Take-over: Coverage applies to events prior to effective date",
+      "Additional coverage: Requires written insurer agreement"
     ],
     "product_hints": [
-      "אחריות מקצועית",
-      "פוליסת אחריות מקצועית"
+      "ביטוח אחריות מקצועית",
+      "פוליסת ביטוח אחריות מקצועית ליועצי השקעות"
     ]
   },
   "sketch": "5. Merger, Amalgamation, Take-over\nIf the business of the assured shall be merged and amalgamated with some other concern or  if  the  business  of  some  other  concern  shall  be  consolidated  with  the  business  of  the Assured or if the business of the Assured shall become a party to a take-over, then the cover provided under this policy is amended to apply only to an event committed prior to the effective date of the said merger, amalgamation or take over. There shall be no cover whatsoever to the other concern or business as mentioned above unless the insurer has agreed in writing prior to the said effective date and subject to any terms and conditions as agreed by the insurer.",
-  "embed_text": "פוליסת אחריות מקצועית מספקת כיסוי לאירועים שהתרחשו לפני תאריך האפקטיבי של מיזוג, איחוד או רכישה. במקרה של שינוי מבני בעסק המבוטח, הכיסוי יחול רק על אירועים שהתרחשו קודם לכן. אין כיסוי לעסק השני אלא אם המבטח הסכים מראש.",
-  "payload": "טבלה: פוליסת אחריות מקצועית\nThis table outlines conditions related to mergers, amalgamations, and take-overs for a professional liability insurance policy. It details how coverage is affected when the insured business undergoes a structural change.\nממדים: Scenario: Merger, Amalgamation, or Take-over, Policy Coverage Conditions\n\n5. Merger, Amalgamation, Take-over\nIf the business of the assured shall be merged and amalgamated with some other concern or  if  the  business  of  some  other  concern  shall  be  consolidated  with  the  business  of  the Assured or if the business of the Assured shall become a party to a take-over, then the cover provided under this policy is amended to apply only to an event committed prior to the effective date of the said merger, amalgamation or take over. There shall be no cover whatsoever to the other concern or business as mentioned above unless the insurer has agreed in writing prior to the said effective date and subject to any terms and conditions as agreed by the insurer."
+  "embed_text": "טבלה זו מתארת את תנאי פוליסת ביטוח אחריות מקצועית ליועצי השקעות, במיוחד במקרים של מיזוג, איחוד או רכישה של העסק המבוטח. הפוליסה מכסה אירועים שהתרחשו לפני תאריך האפקטיבי של המיזוג, האיחוד או הרכישה. כדי להרחיב את הכיסוי לחברה אחרת, נדרשת הסכמה מפורשת בכתב מהמבטח, בתנאים מוסכמים. מיזוג, איחוד ורכישה הם אירועים מרכזיים המשפיעים על תוקף הפוליסה. פוליסת ביטוח אחריות מקצועית זו מיועדת ליועצי השקעות. This table outlines conditions related to mergers, amalgamations, and take-overs as they affect professional liability insurance coverage. It details how coverage is impacted by such events and the requirements for extending coverage to other involved businesses. בין הערכים בטבלה: Merger: Coverage applies to events prior to effective date; Amalgamation: Coverage applies to events prior to effective…",
+  "payload": "טבלה: תנאי פוליסת ביטוח אחריות מקצועית\nThis table outlines conditions related to mergers, amalgamations, and take-overs as they affect professional liability insurance coverage. It details how coverage is impacted by such events and the requirements for extending coverage to other involved businesses.\nממדים: Event Type (Merger, Amalgamation, Take-over), Coverage Condition\n\n5. Merger, Amalgamation, Take-over\nIf the business of the assured shall be merged and amalgamated with some other concern or  if  the  business  of  some  other  concern  shall  be  consolidated  with  the  business  of  the Assured or if the business of the Assured shall become a party to a take-over, then the cover provided under this policy is amended to apply only to an event committed prior to the effective date of the said merger, amalgamation or take over. There shall be no cover whatsoever to the other concern or business as mentioned above unless the insurer has agreed in writing prior to the said effective date and subject to any terms and conditions as agreed by the insurer."
 }

@@ -2,25 +2,24 @@
   "id": "pdf:business/files/ביטוח-שיר-לעסק-ביטוח-לבית-העסק-מבית-שירביט-מהדורת-אפריל-2021.pdf#146",
   "source": "llm",
   "description": {
-    "title": "כיסויים לביטוח לעסק",
-    "summary": "This table details the covered risks under a business insurance policy, specifically for goods in transit. It lists various events that are covered, such as fire, collision, and water damage.",
-    "embed_passage": "ביטוח 'שיר לעסק' מבית שירביט מכסה מגוון סיכונים לרכוש המבוטח במהלך הובלה, כולל אש, ברק והתפוצצות (4.1), התהפכות או התנגשות של כלי הרכב (4.2), ונזק ממי גשם בתנאים מסוימים (4.3). הכיסויים בתוקף רק אם צוינו ברשימה.",
-    "row_axis": "Covered risks during transport of business property",
-    "column_axis": "Risk description and coverage conditions",
+    "title": "סיכונים מכוסים",
+    "summary": "This table details covered risks under a business insurance policy. It lists specific events that are covered, such as fire, lightning, and collisions, and is used to determine the scope of coverage.",
+    "embed_passage": "טבלה זו מתארת את הסיכונים המכוסים במסגרת פוליסת ביטוח לעסק של שירביט. ניתן לבדוק את הכיסויים השונים עבור מקרים ספציפיים כמו התנגשות, אש או התהפכות. הפוליסה כוללת כיסויים כגון אש, ברק, התפוצצות, התהפכות או התנגשות של כלי הרכב, והתנגשות פיזית של כלי הרכב המוביל. רשימת הסיכונים המכוסים כוללת אש, ברק, התפוצצות, התהפכות, התנגשות פיזית, ונזק הנגרם על ידי מי גשם.",
+    "row_axis": "סיכונים",
+    "column_axis": "תיאור הסיכון",
     "units": [],
     "notable_values": [
-      "Fire, lightning, explosion: 4.1",
-      "Collision of the vehicle: 3.2",
-      "Water damage: 4.3",
-      "Coverage is valid only if explicitly listed.",
-      "First-loss basis up to the insured amount (5)"
+      "אש: ברק, התפוצצות",
+      "התנגשות: פיזית של כלי הרכב המוביל",
+      "התהפכות: של כלי הרכב עליו הוטען הרכוש",
+      "נזק מגשם: בתנאי שהמקום מוגן"
     ],
     "product_hints": [
-      "שיר לעסק",
+      "ביטוח לעסק",
       "שירביט"
     ]
   },
   "sketch": ". התנגשות פיזית של כלי הרכב המוביל או נגרר הצמוד אליו : התנגשות 3.2\nהסיכונים המכוסים .4\nכיסויים אלה יהיו בתוקף רק אם הדבר צוין במפורש ברשימה.\nאש, ברק, התפוצצות. 4 .1\nהתהפכות או התנגשות של כלי הרכב עליו הוטען והועבר הרכוש המבוטח. 4 .2\nוזאת בתנאי מפורש, שהמקום בכלי הרכב , נזק הנגרם על ידי מי גשם 4.3 בו מוטען הרכוש המבוטח, מוגן בכיסוי בלתי חדיר למים הנמצא במצב תקין.",
-  "embed_text": "ביטוח 'שיר לעסק' מבית שירביט מכסה מגוון סיכונים לרכוש המבוטח במהלך הובלה, כולל אש, ברק והתפוצצות (4.1), התהפכות או התנגשות של כלי הרכב (4.2), ונזק ממי גשם בתנאים מסוימים (4.3). הכיסויים בתוקף רק אם צוינו ברשימה.",
-  "payload": "טבלה: כיסויים לביטוח לעסק\nThis table details the covered risks under a business insurance policy, specifically for goods in transit. It lists various events that are covered, such as fire, collision, and water damage.\nממדים: Covered risks during transport of business property, Risk description and coverage conditions\n\n. התנגשות פיזית של כלי הרכב המוביל או נגרר הצמוד אליו : התנגשות 3.2\nהסיכונים המכוסים .4\nכיסויים אלה יהיו בתוקף רק אם הדבר צוין במפורש ברשימה.\nאש, ברק, התפוצצות. 4 .1\nהתהפכות או התנגשות של כלי הרכב עליו הוטען והועבר הרכוש המבוטח. 4 .2\nוזאת בתנאי מפורש, שהמקום בכלי הרכב , נזק הנגרם על ידי מי גשם 4.3 בו מוטען הרכוש המבוטח, מוגן בכיסוי בלתי חדיר למים הנמצא במצב תקין."
+  "embed_text": "טבלה זו מתארת את הסיכונים המכוסים במסגרת פוליסת ביטוח לעסק של שירביט. ניתן לבדוק את הכיסויים השונים עבור מקרים ספציפיים כמו התנגשות, אש או התהפכות. הפוליסה כוללת כיסויים כגון אש, ברק, התפוצצות, התהפכות או התנגשות של כלי הרכב, והתנגשות פיזית של כלי הרכב המוביל. רשימת הסיכונים המכוסים כוללת אש, ברק, התפוצצות, התהפכות, התנגשות פיזית, ונזק הנגרם על ידי מי גשם. This table details covered risks under a business insurance policy. It lists specific events that are covered, such as fire, lightning, and collisions, and is used to determine the scope of coverage. בין הערכים בטבלה: נזק מגשם: בתנאי שהמקום מוגן.",
+  "payload": "טבלה: סיכונים מכוסים\nThis table details covered risks under a business insurance policy. It lists specific events that are covered, such as fire, lightning, and collisions, and is used to determine the scope of coverage.\nממדים: סיכונים, תיאור הסיכון\n\n. התנגשות פיזית של כלי הרכב המוביל או נגרר הצמוד אליו : התנגשות 3.2\nהסיכונים המכוסים .4\nכיסויים אלה יהיו בתוקף רק אם הדבר צוין במפורש ברשימה.\nאש, ברק, התפוצצות. 4 .1\nהתהפכות או התנגשות של כלי הרכב עליו הוטען והועבר הרכוש המבוטח. 4 .2\nוזאת בתנאי מפורש, שהמקום בכלי הרכב , נזק הנגרם על ידי מי גשם 4.3 בו מוטען הרכוש המבוטח, מוגן בכיסוי בלתי חדיר למים הנמצא במצב תקין."
 }

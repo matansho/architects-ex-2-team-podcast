@@ -3,25 +3,22 @@
   "source": "llm",
   "description": {
     "title": "תנאי הפוליסה - אדירה ארד",
-    "summary": "This table details the conditions for insurance payouts according to the 'Adira Erd' policy, specifically regarding reconstruction or replacement of damaged property. It outlines timeframes and limitations on reimbursements.",
-    "embed_passage": "פוליסת 'אדירה ארד' מגדירה את תגמולי הביטוח לפי ערך כינון או שיפוי, בהתאם לנסיבות. לדוגמה, יש להתחיל בביצוע כינון תוך 90 ימים מתאריך קרות מקרה הביטוח עבור הדירה, ו-12 ימים עבור התכולה. אחריות המבטח לא תעלה על סכום הביטוח הנקוב במפרט.",
-    "row_axis": "Policy clauses regarding claim settlements",
-    "column_axis": "Conditions, timeframes, and limitations of insurance payouts",
+    "summary": "This table details conditions related to insurance payouts for loss or damage, specifically regarding reconstruction, replacement, and time limits. It outlines how compensation is calculated and the responsibilities of both the insurer and the insured.",
+    "embed_passage": "טבלה זו מתייחסת לתנאי פוליסת ביטוח אדירה ארד, ומפרטת את התנאים לקבלת תגמולים במקרה של אובדן או נזק לרכוש. הטבלה עוסקת בשיעורי כינון, שיפוי, ותקופות זמן לביצוע תיקונים או החלפות. ניתן למצוא מידע על תגמולים לפי ערך כינון, סכום ביטוח נפרד לפריטים, ותקופות זמן להשלמת כינון. בין הנתונים המופיעים בטבלה: בגדים, 90 ימים, 12 חודשים, וסכום הביטוח הנקוב במפרט. תגמולי ביטוח לפי סעיף זה ישולמו לפי שווי הרכוש כחדש.",
+    "row_axis": "conditions for insurance payout",
+    "column_axis": "details of payout conditions (reconstruction, time limits, etc.)",
     "units": [],
     "notable_values": [
-      "90 days: timeframe for reconstruction of the apartment",
-      "12 days: timeframe for reconstruction of contents",
-      "25.5: Clause regarding clothing",
-      "25.8: Liability limit based on insurance amount",
-      "25.6: Reimbursement based on new value"
+      "בגדים: לא ישולמו תגמולי ביטוח לפי ערך כינון",
+      "תקופת זמן לכינון (דירה): 90 ימים",
+      "תקופת זמן לכינון (תכולה): 12 חודשים",
+      "סכום אחריות המבטח: סכום הביטוח הנקוב במפרט"
     ],
     "product_hints": [
-      "אדירה ארד",
-      "ביטוח דירה",
-      "ביטוח תכולה"
+      "אדירה ארד"
     ]
   },
   "sketch": "לא ישולמו תגמולי ביטוח לפי ערך כינון בשל אבדן או נזק שנגרם לבגדים בלבד. .25.5\n. תגמולי ביטוח לפי סעיף זה ישולמו לפי שווי הרכוש כחדש ביום ביצוע הכינון או לפי שוויו 25.6 כחדש ביום תשלום תגמולי הביטוח, לפי המוקדם משני התאריכים.\n. יש להתחיל בביצוע הכינון תוך זמן סביר לאחר קרות האבדן או הנזק, ובכל מקרה יש 25.7 חדשים מתאריך קרות מקרה הביטוח ולגבי התכולה - תוך 12 להשלימו לגבי הדירה תוך ימים מתאריך קרות מקרה הביטוח. באין אפשרות להשלים את הכינון תוך התקופות 90 האמורות מסיבות שאינן תלויות במבוטח, תוארך תקופת ביצוע הכינון תוך תיאום בין המבוטח למבטח.\n, . אחריות המבטח לפי סעיף זה לא תעלה על סכום הביטוח הנקוב במפרט לגבי הדירה 25.8 התכולה, או הפריט, לפי העניין.",
-  "embed_text": "פוליסת 'אדירה ארד' מגדירה את תגמולי הביטוח לפי ערך כינון או שיפוי, בהתאם לנסיבות. לדוגמה, יש להתחיל בביצוע כינון תוך 90 ימים מתאריך קרות מקרה הביטוח עבור הדירה, ו-12 ימים עבור התכולה. אחריות המבטח לא תעלה על סכום הביטוח הנקוב במפרט.",
-  "payload": "טבלה: תנאי הפוליסה - אדירה ארד\nThis table details the conditions for insurance payouts according to the 'Adira Erd' policy, specifically regarding reconstruction or replacement of damaged property. It outlines timeframes and limitations on reimbursements.\nממדים: Policy clauses regarding claim settlements, Conditions, timeframes, and limitations of insurance payouts\n\nלא ישולמו תגמולי ביטוח לפי ערך כינון בשל אבדן או נזק שנגרם לבגדים בלבד. .25.5\n. תגמולי ביטוח לפי סעיף זה ישולמו לפי שווי הרכוש כחדש ביום ביצוע הכינון או לפי שוויו 25.6 כחדש ביום תשלום תגמולי הביטוח, לפי המוקדם משני התאריכים.\n. יש להתחיל בביצוע הכינון תוך זמן סביר לאחר קרות האבדן או הנזק, ובכל מקרה יש 25.7 חדשים מתאריך קרות מקרה הביטוח ולגבי התכולה - תוך 12 להשלימו לגבי הדירה תוך ימים מתאריך קרות מקרה הביטוח. באין אפשרות להשלים את הכינון תוך התקופות 90 האמורות מסיבות שאינן תלויות במבוטח, תוארך תקופת ביצוע הכינון תוך תיאום בין המבוטח למבטח.\n, . אחריות המבטח לפי סעיף זה לא תעלה על סכום הביטוח הנקוב במפרט לגבי הדירה 25.8 התכולה, או הפריט, לפי העניין."
+  "embed_text": "טבלה זו מתייחסת לתנאי פוליסת ביטוח אדירה ארד, ומפרטת את התנאים לקבלת תגמולים במקרה של אובדן או נזק לרכוש. הטבלה עוסקת בשיעורי כינון, שיפוי, ותקופות זמן לביצוע תיקונים או החלפות. ניתן למצוא מידע על תגמולים לפי ערך כינון, סכום ביטוח נפרד לפריטים, ותקופות זמן להשלמת כינון. בין הנתונים המופיעים בטבלה: בגדים, 90 ימים, 12 חודשים, וסכום הביטוח הנקוב במפרט. תגמולי ביטוח לפי סעיף זה ישולמו לפי שווי הרכוש כחדש. This table details conditions related to insurance payouts for loss or damage, specifically regarding reconstruction, replacement, and time limits. It outlines how compensation is calculated and the responsibilities of both the insurer and the insured.",
+  "payload": "טבלה: תנאי הפוליסה - אדירה ארד\nThis table details conditions related to insurance payouts for loss or damage, specifically regarding reconstruction, replacement, and time limits. It outlines how compensation is calculated and the responsibilities of both the insurer and the insured.\nממדים: conditions for insurance payout, details of payout conditions (reconstruction, time limits, etc.)\n\nלא ישולמו תגמולי ביטוח לפי ערך כינון בשל אבדן או נזק שנגרם לבגדים בלבד. .25.5\n. תגמולי ביטוח לפי סעיף זה ישולמו לפי שווי הרכוש כחדש ביום ביצוע הכינון או לפי שוויו 25.6 כחדש ביום תשלום תגמולי הביטוח, לפי המוקדם משני התאריכים.\n. יש להתחיל בביצוע הכינון תוך זמן סביר לאחר קרות האבדן או הנזק, ובכל מקרה יש 25.7 חדשים מתאריך קרות מקרה הביטוח ולגבי התכולה - תוך 12 להשלימו לגבי הדירה תוך ימים מתאריך קרות מקרה הביטוח. באין אפשרות להשלים את הכינון תוך התקופות 90 האמורות מסיבות שאינן תלויות במבוטח, תוארך תקופת ביצוע הכינון תוך תיאום בין המבוטח למבטח.\n, . אחריות המבטח לפי סעיף זה לא תעלה על סכום הביטוח הנקוב במפרט לגבי הדירה 25.8 התכולה, או הפריט, לפי העניין."
 }

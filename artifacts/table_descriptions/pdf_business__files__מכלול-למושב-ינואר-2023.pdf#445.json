@@ -3,20 +3,17 @@
   "source": "llm",
   "description": {
     "title": "קימום",
-    "summary": "This table details the insurer's right to restore or replace damaged property instead of paying a cash settlement. It outlines the requirements for the insured to cooperate with the restoration process.",
-    "embed_passage": "פוליסת 'מכלול' מאפשרת למבטח לקומם או להחליף רכוש שניזוק, במקום לשלם סכום אובדן. המבוטח נדרש לספק תכניות, מידות וכמויות כפי שהמבטח ידרוש. תהליך זה חל על כל חלק של הרכוש הניזוק.",
-    "row_axis": "Clauses regarding restoration/replacement of damaged property",
-    "column_axis": "Details of the restoration process and insured's obligations",
+    "summary": "This table details the insurer's right to restore or replace damaged property instead of paying a loss. It outlines the process and the insured's obligations in such cases.",
+    "embed_passage": "טבלה זו עוסקת בזכות המבטח לקומם או להחליף רכוש שניזוק במקום לשלם פיצוי כספי. המבוטח נדרש לספק תכניות ופרטים רלוונטיים למבטח לצורך הקמה או החלפה של הרכוש. קימום רכוש הוא חלק מפוליסת 'מכלול', והוא מוסדר בסעיף 26. המבטח רשאי לבחור לקומם או להחליף רכוש ניזוק, או להשתתף עם מבטח אחר. במקרה של קימום, המבוטח צריך לספק תכניות, מידות וכמויות כפי שהמבטח ידרוש. אין לפרש פעולות של המבטח כבחירה לקומם או להחליף.",
+    "row_axis": "סעיף קימום",
+    "column_axis": "תיאור",
     "units": [],
-    "notable_values": [
-      "clause: 26.1",
-      "clause: 26.2"
-    ],
+    "notable_values": [],
     "product_hints": [
       "מכלול"
     ]
   },
   "sketch": "קימום .26\n.  המבטח רשאי, לפי רצונו, לקומם או להחליף את הרכוש הניזוק או הנשמד, או חלק 26.1 כלשהו ממנו, במקום לשלם את סכום האובדן או הנזק, או רשאי להשתתף עם מבטח אחר כלשהו או עם מבטחים אחרים כלשהם בעשותו זאת;\n.  אם המבטח יבחר לקומם או לחלף רכוש כלשהו, על המבוטח להמציא למבטח את 26.2 כל אותן התכניות, הפירוטים, המידות, הכמויות וכל הפרטים האחרים כפי שהמבטח ידרוש, ושום פעולות שנעשו או שעשייתן נגרמה ע\"י המבטח מתוך כוונה לקומם או להחליף, לא תתפרשנה כבחירת המבטח לקומם או להחליף.",
-  "embed_text": "פוליסת 'מכלול' מאפשרת למבטח לקומם או להחליף רכוש שניזוק, במקום לשלם סכום אובדן. המבוטח נדרש לספק תכניות, מידות וכמויות כפי שהמבטח ידרוש. תהליך זה חל על כל חלק של הרכוש הניזוק.",
-  "payload": "טבלה: קימום\nThis table details the insurer's right to restore or replace damaged property instead of paying a cash settlement. It outlines the requirements for the insured to cooperate with the restoration process.\nממדים: Clauses regarding restoration/replacement of damaged property, Details of the restoration process and insured's obligations\n\nקימום .26\n.  המבטח רשאי, לפי רצונו, לקומם או להחליף את הרכוש הניזוק או הנשמד, או חלק 26.1 כלשהו ממנו, במקום לשלם את סכום האובדן או הנזק, או רשאי להשתתף עם מבטח אחר כלשהו או עם מבטחים אחרים כלשהם בעשותו זאת;\n.  אם המבטח יבחר לקומם או לחלף רכוש כלשהו, על המבוטח להמציא למבטח את 26.2 כל אותן התכניות, הפירוטים, המידות, הכמויות וכל הפרטים האחרים כפי שהמבטח ידרוש, ושום פעולות שנעשו או שעשייתן נגרמה ע\"י המבטח מתוך כוונה לקומם או להחליף, לא תתפרשנה כבחירת המבטח לקומם או להחליף."
+  "embed_text": "טבלה זו עוסקת בזכות המבטח לקומם או להחליף רכוש שניזוק במקום לשלם פיצוי כספי. המבוטח נדרש לספק תכניות ופרטים רלוונטיים למבטח לצורך הקמה או החלפה של הרכוש. קימום רכוש הוא חלק מפוליסת 'מכלול', והוא מוסדר בסעיף 26. המבטח רשאי לבחור לקומם או להחליף רכוש ניזוק, או להשתתף עם מבטח אחר. במקרה של קימום, המבוטח צריך לספק תכניות, מידות וכמויות כפי שהמבטח ידרוש. אין לפרש פעולות של המבטח כבחירה לקומם או להחליף. This table details the insurer's right to restore or replace damaged property instead of paying a loss. It outlines the process and the insured's obligations in such cases.",
+  "payload": "טבלה: קימום\nThis table details the insurer's right to restore or replace damaged property instead of paying a loss. It outlines the process and the insured's obligations in such cases.\nממדים: סעיף קימום, תיאור\n\nקימום .26\n.  המבטח רשאי, לפי רצונו, לקומם או להחליף את הרכוש הניזוק או הנשמד, או חלק 26.1 כלשהו ממנו, במקום לשלם את סכום האובדן או הנזק, או רשאי להשתתף עם מבטח אחר כלשהו או עם מבטחים אחרים כלשהם בעשותו זאת;\n.  אם המבטח יבחר לקומם או לחלף רכוש כלשהו, על המבוטח להמציא למבטח את 26.2 כל אותן התכניות, הפירוטים, המידות, הכמויות וכל הפרטים האחרים כפי שהמבטח ידרוש, ושום פעולות שנעשו או שעשייתן נגרמה ע\"י המבטח מתוך כוונה לקומם או להחליף, לא תתפרשנה כבחירת המבטח לקומם או להחליף."
 }

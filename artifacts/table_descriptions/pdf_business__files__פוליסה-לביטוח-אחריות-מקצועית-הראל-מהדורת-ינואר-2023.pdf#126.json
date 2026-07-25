@@ -3,20 +3,20 @@
   "source": "llm",
   "description": {
     "title": "איסור הודאה",
-    "summary": "This table outlines restrictions on admissions or acknowledgments of liability by the insured. It details that no such statements can be made without the insurer's prior written consent in relation to a potentially covered claim.",
-    "embed_passage": "פוליסת הראל אחריות מקצועית מגדירה מגבלות על הודאה באחריות. סעיף 5.22 קובע כי לא תתבצע הודאה, הצעה, הבטחה או פיצוי כלשהו ללא הסכמה מראש ובכתב מהמבטח, במקרה של תביעה אפשרית. הוראות אלו אינן חלות על מסירת עובדות לרשויות החוק או מתן עדות בבית משפט.",
-    "row_axis": "Policy Clause",
-    "column_axis": "Details of Restriction",
+    "summary": "This table outlines restrictions on admissions or acknowledgements of liability by the insured. It details when prior written consent from the insurer is required before making any statement related to a potentially covered claim.",
+    "embed_passage": "טבלה זו מתייחסת לאיסור הודאה בפוליסת ביטוח אחריות מקצועית של הראל, ומפרטת את התנאים בהם נדרשת הסכמה מראש ובכתב מהמבטח לפני מתן הודאה כלשהי הקשורה לתביעה אפשרית. ניתן לעיין בתנאי הפוליסה כדי להבין את המגבלות על הודאות מצד המבוטח. הראל ביטוח אחריות מקצועית מגדירה את הכללים לגבי הודאה, הבטחה, התחייבות או פיצוי כלשהו.  הטבלה עוסקת באיסור הודאה (ADMISSION) ומתייחסת למקרים בהם תיתכן תביעה מכוסה.  התנאים חלים על המבוטח או מטעמו.",
+    "row_axis": "clause regarding admissions",
+    "column_axis": "details of the admission restriction",
     "units": [],
     "notable_values": [
-      "סעיף: 5.22",
-      "איסור הודאה: ללא הסכמה מראש ובכתב של המבטח"
+      "clause: 5.22",
+      "restriction type: הודאה (ADMISSION)"
     ],
     "product_hints": [
-      "הראל אחריות מקצועית"
+      "ביטוח אחריות מקצועית הראל"
     ]
   },
   "sketch": "איסור הודאה .5.22\n(, הצעה, הבטחה, התחייבות או פיצוי כלשהו לא ייעשו ולא ADMISSION ) שום הודאה יינתנו על ידי המבוטח או מטעמו, בלי הסכמתו מראש ובכתב של המבטח, בקשר\nעם מקרה בו תיתכן תביעה המכוסה על פי פוליסה זו. אין הוראות תנאי זה חלות על מסירת עובדות במשטרה או לכל גורם מוסמך על פי דין, לפי דרישתם, וכן על מתן עדות במשפט.",
-  "embed_text": "פוליסת הראל אחריות מקצועית מגדירה מגבלות על הודאה באחריות. סעיף 5.22 קובע כי לא תתבצע הודאה, הצעה, הבטחה או פיצוי כלשהו ללא הסכמה מראש ובכתב מהמבטח, במקרה של תביעה אפשרית. הוראות אלו אינן חלות על מסירת עובדות לרשויות החוק או מתן עדות בבית משפט.",
-  "payload": "טבלה: איסור הודאה\nThis table outlines restrictions on admissions or acknowledgments of liability by the insured. It details that no such statements can be made without the insurer's prior written consent in relation to a potentially covered claim.\nממדים: Policy Clause, Details of Restriction\n\nאיסור הודאה .5.22\n(, הצעה, הבטחה, התחייבות או פיצוי כלשהו לא ייעשו ולא ADMISSION ) שום הודאה יינתנו על ידי המבוטח או מטעמו, בלי הסכמתו מראש ובכתב של המבטח, בקשר\nעם מקרה בו תיתכן תביעה המכוסה על פי פוליסה זו. אין הוראות תנאי זה חלות על מסירת עובדות במשטרה או לכל גורם מוסמך על פי דין, לפי דרישתם, וכן על מתן עדות במשפט."
+  "embed_text": "טבלה זו מתייחסת לאיסור הודאה בפוליסת ביטוח אחריות מקצועית של הראל, ומפרטת את התנאים בהם נדרשת הסכמה מראש ובכתב מהמבטח לפני מתן הודאה כלשהי הקשורה לתביעה אפשרית. ניתן לעיין בתנאי הפוליסה כדי להבין את המגבלות על הודאות מצד המבוטח. הראל ביטוח אחריות מקצועית מגדירה את הכללים לגבי הודאה, הבטחה, התחייבות או פיצוי כלשהו.  הטבלה עוסקת באיסור הודאה (ADMISSION) ומתייחסת למקרים בהם תיתכן תביעה מכוסה.  התנאים חלים על המבוטח או מטעמו. This table outlines restrictions on admissions or acknowledgements of liability by the insured. It details when prior written consent from the insurer is required before making any statement related to a potentially covered claim. בין הערכים בטבלה: clause: 5.22.",
+  "payload": "טבלה: איסור הודאה\nThis table outlines restrictions on admissions or acknowledgements of liability by the insured. It details when prior written consent from the insurer is required before making any statement related to a potentially covered claim.\nממדים: clause regarding admissions, details of the admission restriction\n\nאיסור הודאה .5.22\n(, הצעה, הבטחה, התחייבות או פיצוי כלשהו לא ייעשו ולא ADMISSION ) שום הודאה יינתנו על ידי המבוטח או מטעמו, בלי הסכמתו מראש ובכתב של המבטח, בקשר\nעם מקרה בו תיתכן תביעה המכוסה על פי פוליסה זו. אין הוראות תנאי זה חלות על מסירת עובדות במשטרה או לכל גורם מוסמך על פי דין, לפי דרישתם, וכן על מתן עדות במשפט."
 }

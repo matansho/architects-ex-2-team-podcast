@@ -3,24 +3,26 @@
   "source": "llm",
   "description": {
     "title": "הצמדה",
-    "summary": "This table details the index to which policy amounts are tied, based on the Consumer Price Index published by the Central Bureau of Statistics. It's used to adjust policy values over time.",
-    "embed_passage": "הסכומים המפורטים בתכנית זו יהיו צמודים למדד המחירים לצרכן שמפרסמת השלכה המרכזית לסטטיסטיקה. שער המדד לפברואר 2023 הוא 13396, והוא יוצמד למדד מידי חודש. תכנית Upgrade אקסטרה ניתוחים וטיפולים מחליפי ניתוח בישראל משתמשת במדד זה לצורך הצמדת סכומי הביטוח.",
-    "row_axis": "Index values (e.g., 0, 1, 2, 3)",
-    "column_axis": "Details related to indexation (e.g., index number, date, contact information)",
+    "summary": "This table details indexation of policy amounts to the Consumer Price Index (CPI) published by the Central Bureau of Statistics. It specifies the base index and how adjustments are made monthly.",
+    "embed_passage": "טבלה זו מתארת את הצמדת סכומי הפוליסה למדד המחירים לצרכן שמפרסמת הלשכה המרכזית לסטטיסטיקה, לצורך שמירה על ערך הכיסוי לאורך זמן. ניתן למצוא כאן את מדד הבסיס, שערכו בפברואר 2023, ואת אופן ההצמדה החודשית. הפוליסה upgrade אקסטרה ניתוחים וטיפולים מחליפי ניתוח בישראל משתמשת במדד זה. המדד הרלוונטי הוא 13396, וניתן ליצור קשר בטלפון 037348178 או בדואר אלקטרוני polisotbs@harel-ins.co.il. כתובת האתר היא www.harel-group.co.il.",
+    "row_axis": "index number (0, 1, 2, 3)",
+    "column_axis": "details regarding indexation (index number, CPI value, contact information)",
     "units": [],
     "notable_values": [
-      "מדד בסיס: המדד שפורסם",
-      "שער המדד לפברואר 2023: 13396",
-      "טלפון: 037348178",
-      "ת\"ד: 10951",
-      "כתובת אתר: www.harel-group.co.il"
+      "index number: 0",
+      "index number: 1",
+      "index number: 2",
+      "index number: 3",
+      "CPI index: 13396",
+      "CPI date: February 2023",
+      "phone: 037348178",
+      "email: polisotbs@harel-ins.co.il"
     ],
     "product_hints": [
-      "Upgrade אקסטרה ניתוחים וטיפולים מחליפי ניתוח בישראל",
-      "Harel"
+      "upgrade אקסטרה ניתוחים וטיפולים מחליפי ניתוח בישראל"
     ]
   },
   "sketch": "ה הצמד .12\n, הסכומים המפורטים בתכנית זו יהיו צמודים למדד המחירים לצרכן שמפרסמת השלכה המרכזית לסטטיסטיקה ת נקודו 13396 , שערכו 2023 לפברואר 15 ויוצמדו למדד מידי חודש, כאשר מדד הבסיס הינו המדד שפורסם  ב\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",האינטרנט אתר כתובת www.harel-group.co.il",
-  "embed_text": "הסכומים המפורטים בתכנית זו יהיו צמודים למדד המחירים לצרכן שמפרסמת השלכה המרכזית לסטטיסטיקה. שער המדד לפברואר 2023 הוא 13396, והוא יוצמד למדד מידי חודש. תכנית Upgrade אקסטרה ניתוחים וטיפולים מחליפי ניתוח בישראל משתמשת במדד זה לצורך הצמדת סכומי הביטוח.",
-  "payload": "טבלה: הצמדה\nThis table details the index to which policy amounts are tied, based on the Consumer Price Index published by the Central Bureau of Statistics. It's used to adjust policy values over time.\nממדים: Index values (e.g., 0, 1, 2, 3), Details related to indexation (e.g., index number, date, contact information)\n\nה הצמד .12\n, הסכומים המפורטים בתכנית זו יהיו צמודים למדד המחירים לצרכן שמפרסמת השלכה המרכזית לסטטיסטיקה ת נקודו 13396 , שערכו 2023 לפברואר 15 ויוצמדו למדד מידי חודש, כאשר מדד הבסיס הינו המדד שפורסם  ב\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",האינטרנט אתר כתובת www.harel-group.co.il"
+  "embed_text": "טבלה זו מתארת את הצמדת סכומי הפוליסה למדד המחירים לצרכן שמפרסמת הלשכה המרכזית לסטטיסטיקה, לצורך שמירה על ערך הכיסוי לאורך זמן. ניתן למצוא כאן את מדד הבסיס, שערכו בפברואר 2023, ואת אופן ההצמדה החודשית. הפוליסה upgrade אקסטרה ניתוחים וטיפולים מחליפי ניתוח בישראל משתמשת במדד זה. המדד הרלוונטי הוא 13396, וניתן ליצור קשר בטלפון 037348178 או בדואר אלקטרוני polisotbs@harel-ins.co.il. כתובת האתר היא www.harel-group.co.il. This table details indexation of policy amounts to the Consumer Price Index (CPI) published by the Central Bureau of Statistics. It specifies the base index and how adjustments are made monthly. בין הערכים בטבלה: CPI date: February 2023.",
+  "payload": "טבלה: הצמדה\nThis table details indexation of policy amounts to the Consumer Price Index (CPI) published by the Central Bureau of Statistics. It specifies the base index and how adjustments are made monthly.\nממדים: index number (0, 1, 2, 3), details regarding indexation (index number, CPI value, contact information)\n\nה הצמד .12\n, הסכומים המפורטים בתכנית זו יהיו צמודים למדד המחירים לצרכן שמפרסמת השלכה המרכזית לסטטיסטיקה ת נקודו 13396 , שערכו 2023 לפברואר 15 ויוצמדו למדד מידי חודש, כאשר מדד הבסיס הינו המדד שפורסם  ב\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\",10951 ת\"\"ד ,3 הלל אבא 5200901 גן רמת\",האינטרנט אתר כתובת www.harel-group.co.il"
 }

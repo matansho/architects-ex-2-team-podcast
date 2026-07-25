@@ -3,22 +3,22 @@
   "source": "llm",
   "description": {
     "title": "דוח עבר ביטוחי",
-    "summary": "This table details the reporting of insurance claims history. It specifies when an insurance report is sent to the policyholder and how claims are documented.",
-    "embed_passage": "פוליסת ביטוח רכב הראל סוויץ׳ מספקת דוח עבר ביטוחי למבוטח לאחר 11 חודשים מתחילת תקופת הביטוח, או בתום תקופת הביטוח בביטוח לתקופה קצרה משנה. הדוח מציין האם הוגשה תביעה, ומפרט את מספר הרכב, מועד התביעה, והסכום ששולם, כאשר תביעה מעל 5,000 ₪ לא נכללת בדוח.",
-    "row_axis": "stages/conditions for insurance report",
-    "column_axis": "report details/timing",
+    "summary": "This table details the reporting of insurance claims history. It specifies when an insurance report must be sent to the insured, and how claims are categorized for inclusion in the report.",
+    "embed_passage": "טבלה זו מתארת את דיווח היסטוריית תביעות הביטוח, ומפרטת מתי יש לשלוח דוח ביטוח למבוטח וכיצד תביעות מסווגות לצורך הכללה בדוח. דוח עבר ביטוחי נשלח בתום 11 חודשים מתחילת תקופת הביטוח, או בתום תקופת הביטוח בביטוח לתקופה קצרה משנה. תביעה ששולמו בשלה תגמולי ביטוח בסכום העולה על 5,000 ₪ לא תיכלל בדוח. הראל סוויץ' היא פוליסת ביטוח רכב המציעה כיסוי מקיף. תביעה ראשונה מדווחת מיד עם הגשתה.",
+    "row_axis": "תנאי דיווח",
+    "column_axis": "סוגי תביעות / פרטי דיווח",
     "units": [],
     "notable_values": [
-      "11 חודשים: time to first report",
-      "5,000 ₪: claim amount threshold",
-      "75%: subrogation rate"
+      "תביעה: תביעה ששולמו בשלה תגמולי ביטוח",
+      "סכום: 5,000 ₪",
+      "תקופה: 11 חודשים",
+      "דיווח ראשון: מיד עם הגשת התביעה"
     ],
     "product_hints": [
-      "הראל סוויץ'",
-      "ביטוח רכב"
+      "הראל סוויץ'"
     ]
   },
   "sketch": "חודשים מתחילת תקופת הביטוח, ישלח המבטח 11 . הוגשה תביעה, ראשונה לאחר תום 44.2 דו\"ח מתקן מיד עם הגשת התביעה.\nבניכוי השתתפות 39 . בסעיף זה, \"תביעה\" - תביעה ששולמו בשלה תגמולי ביטוח לפי סעיף 44.3 .₪  5,000 עצמית, בסכום העולה על",
-  "embed_text": "פוליסת ביטוח רכב הראל סוויץ׳ מספקת דוח עבר ביטוחי למבוטח לאחר 11 חודשים מתחילת תקופת הביטוח, או בתום תקופת הביטוח בביטוח לתקופה קצרה משנה. הדוח מציין האם הוגשה תביעה, ומפרט את מספר הרכב, מועד התביעה, והסכום ששולם, כאשר תביעה מעל 5,000 ₪ לא נכללת בדוח.",
-  "payload": "טבלה: דוח עבר ביטוחי\nThis table details the reporting of insurance claims history. It specifies when an insurance report is sent to the policyholder and how claims are documented.\nממדים: stages/conditions for insurance report, report details/timing\n\nחודשים מתחילת תקופת הביטוח, ישלח המבטח 11 . הוגשה תביעה, ראשונה לאחר תום 44.2 דו\"ח מתקן מיד עם הגשת התביעה.\nבניכוי השתתפות 39 . בסעיף זה, \"תביעה\" - תביעה ששולמו בשלה תגמולי ביטוח לפי סעיף 44.3 .₪  5,000 עצמית, בסכום העולה על"
+  "embed_text": "טבלה זו מתארת את דיווח היסטוריית תביעות הביטוח, ומפרטת מתי יש לשלוח דוח ביטוח למבוטח וכיצד תביעות מסווגות לצורך הכללה בדוח. דוח עבר ביטוחי נשלח בתום 11 חודשים מתחילת תקופת הביטוח, או בתום תקופת הביטוח בביטוח לתקופה קצרה משנה. תביעה ששולמו בשלה תגמולי ביטוח בסכום העולה על 5,000 ₪ לא תיכלל בדוח. הראל סוויץ' היא פוליסת ביטוח רכב המציעה כיסוי מקיף. תביעה ראשונה מדווחת מיד עם הגשתה. This table details the reporting of insurance claims history. It specifies when an insurance report must be sent to the insured, and how claims are categorized for inclusion in the report. בין הערכים בטבלה: דיווח ראשון: מיד עם הגשת התביעה.",
+  "payload": "טבלה: דוח עבר ביטוחי\nThis table details the reporting of insurance claims history. It specifies when an insurance report must be sent to the insured, and how claims are categorized for inclusion in the report.\nממדים: תנאי דיווח, סוגי תביעות / פרטי דיווח\n\nחודשים מתחילת תקופת הביטוח, ישלח המבטח 11 . הוגשה תביעה, ראשונה לאחר תום 44.2 דו\"ח מתקן מיד עם הגשת התביעה.\nבניכוי השתתפות 39 . בסעיף זה, \"תביעה\" - תביעה ששולמו בשלה תגמולי ביטוח לפי סעיף 44.3 .₪  5,000 עצמית, בסכום העולה על"
 }

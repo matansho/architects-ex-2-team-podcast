@@ -2,25 +2,27 @@
   "id": "pdf:car/files/פוליסת-ביטוח-רכב-הראל-סוויץ-מהדורת-דצמבר-2021.pdf#71",
   "source": "llm",
   "description": {
-    "title": "הראל סוויץ' - נזקי רכב",
-    "summary": "This table details how Harel Switch car insurance handles partial damage claims, specifically regarding part replacement or cash payment based on the vehicle's age. It outlines the conditions for covering the cost of replacement parts or providing a cash value for the damage.",
-    "embed_passage": "פוליסת ביטוח רכב הראל סוויץ' מסבירה כיצד יחושב הפיצוי עבור נזק לרכב, בהתאם לגיל הרכב. עבור רכב שגילו עד 9 שנים ישולם הנזק לפי ערכו של חלק דומה לזה שאבד או ניזוק ללא ניכוי בלאי, ואילו לגבי רכב שגילו מעל 9 שנים ישולם לפי ערכו הממשי של החלק (בניכוי בלאי).",
-    "row_axis": "Scenario for part replacement or cash payment",
-    "column_axis": "Conditions and calculations for damage coverage",
+    "title": "תשלום עבור חלפים",
+    "summary": "This table details how Harel Switch car insurance handles payment for damaged or lost parts, based on the vehicle's age. It specifies whether the insurer will replace the part, pay cash value, or use original/new parts.",
+    "embed_passage": "טבלה זו מתארת את אופן הטיפול של ביטוח רכב הראל סוויץ' בתשלום עבור חלקים פגומים או אבודים, בהתאם לגיל הרכב. הטבלה מציינת האם המבטח יחליף את החלק, ישלם את שווי הנזק במזומן, או ישתמש בחלקים מקוריים/חדשים. ניתן לחפש מידע לפי גיל הרכב וסוג החלק. גיל הרכב מוגדר כזמן שחלף מתאריך הרישום הראשוני של הרכב. החלקים כוללים חלקים באיכות, בתכונות ובתיאור המתאימים. גיל הרכב, החלפה בחלק מקורי או חדש, תשלום לפי ערך החלק, הוצאות התקנה.",
+    "row_axis": "Vehicle age and replacement/payment options",
+    "column_axis": "Replacement/payment method",
     "units": [],
     "notable_values": [
-      "age: 9 years",
-      "age: 2 years",
-      "year: 1998",
-      "age: until 9 years - no depreciation",
-      "age: over 9 years - depreciation applied"
+      "Vehicle age: עד שנתיים",
+      "Replacement part: חלק מקורי או חדש",
+      "Vehicle age: מעל שנתיים",
+      "Payment method: ערכו הממשי של החלק (בניכוי בלאי)",
+      "Vehicle age: עד 9 שנים",
+      "Payment method: ללא ניכוי בלאי",
+      "Law reference: התשנ\"ח (1998) מניעת גניבות"
     ],
     "product_hints": [
       "הראל סוויץ'",
-      "Harel Switch"
+      "ביטוח רכב"
     ]
   },
   "sketch": ". 8.2.1 בחר המבטח להחליף את החלק שאבד או ניזוק, יוחלף החלק בחלק המתאים לו באיכותו, בתכונותיו ובתיאורו בצרוף הוצאות התקנה.\n. בחר המבטח לשלם את ערך הנזק או האבדן במזומן - יחושב הסכום לתשלום 8.2.2 שנים ישולם הנזק לפי ערכו של חלק דומה לזה 9 כך שעבור רכב שגילו עד שנים ישולם הנזק 9 שאבד או ניזוק ללא ניכוי בלאי, ואילו לגבי רכב שגילו מעל לפי ערכו הממשי של החלק שאבד או ניזוק )דהיינו - בניכוי בלאי(; לתשלומים האמורים יתווספו הוצאות התקנה\n. בלי לגרוע מהוראות חוק הגבלת השימוש ורישום פעולות בחלקי רכב משומשים 8.2.3 , בחר המבטח להחליף את החלק שאבד או ניזוק 1998)מניעת גניבות(, התשנ\"ח ברכב שגילו עד שנתיים ביום קרות מקרה הביטוח, יוחלף החלק שאבד או ניזק , בחלק מקורי או חדש, ובלבד שהוא מתאים לחלק המוחלף באיכותו, בתכונותיו בתיאורו ובצרוף הוצאות התקנה.",
-  "embed_text": "פוליסת ביטוח רכב הראל סוויץ' מסבירה כיצד יחושב הפיצוי עבור נזק לרכב, בהתאם לגיל הרכב. עבור רכב שגילו עד 9 שנים ישולם הנזק לפי ערכו של חלק דומה לזה שאבד או ניזוק ללא ניכוי בלאי, ואילו לגבי רכב שגילו מעל 9 שנים ישולם לפי ערכו הממשי של החלק (בניכוי בלאי).",
-  "payload": "טבלה: הראל סוויץ' - נזקי רכב\nThis table details how Harel Switch car insurance handles partial damage claims, specifically regarding part replacement or cash payment based on the vehicle's age. It outlines the conditions for covering the cost of replacement parts or providing a cash value for the damage.\nממדים: Scenario for part replacement or cash payment, Conditions and calculations for damage coverage\n\n. 8.2.1 בחר המבטח להחליף את החלק שאבד או ניזוק, יוחלף החלק בחלק המתאים לו באיכותו, בתכונותיו ובתיאורו בצרוף הוצאות התקנה.\n. בחר המבטח לשלם את ערך הנזק או האבדן במזומן - יחושב הסכום לתשלום 8.2.2 שנים ישולם הנזק לפי ערכו של חלק דומה לזה 9 כך שעבור רכב שגילו עד שנים ישולם הנזק 9 שאבד או ניזוק ללא ניכוי בלאי, ואילו לגבי רכב שגילו מעל לפי ערכו הממשי של החלק שאבד או ניזוק )דהיינו - בניכוי בלאי(; לתשלומים האמורים יתווספו הוצאות התקנה\n. בלי לגרוע מהוראות חוק הגבלת השימוש ורישום פעולות בחלקי רכב משומשים 8.2.3 , בחר המבטח להחליף את החלק שאבד או ניזוק 1998)מניעת גניבות(, התשנ\"ח ברכב שגילו עד שנתיים ביום קרות מקרה הביטוח, יוחלף החלק שאבד או ניזק , בחלק מקורי או חדש, ובלבד שהוא מתאים לחלק המוחלף באיכותו, בתכונותיו בתיאורו ובצרוף הוצאות התקנה."
+  "embed_text": "טבלה זו מתארת את אופן הטיפול של ביטוח רכב הראל סוויץ' בתשלום עבור חלקים פגומים או אבודים, בהתאם לגיל הרכב. הטבלה מציינת האם המבטח יחליף את החלק, ישלם את שווי הנזק במזומן, או ישתמש בחלקים מקוריים/חדשים. ניתן לחפש מידע לפי גיל הרכב וסוג החלק. גיל הרכב מוגדר כזמן שחלף מתאריך הרישום הראשוני של הרכב. החלקים כוללים חלקים באיכות, בתכונות ובתיאור המתאימים. גיל הרכב, החלפה בחלק מקורי או חדש, תשלום לפי ערך החלק, הוצאות התקנה. This table details how Harel Switch car insurance handles payment for damaged or lost parts, based on the vehicle's age. It specifies whether the insurer will replace the part, pay cash value, or use original/new parts. בין הערכים בטבלה: Vehicle age: עד שנתיים; Vehicle age: מעל שנתיים; Payment method: ערכו הממשי של החלק (בניכוי בלאי); Vehicle age: עד 9 שנים; Payment method: לל…",
+  "payload": "טבלה: תשלום עבור חלפים\nThis table details how Harel Switch car insurance handles payment for damaged or lost parts, based on the vehicle's age. It specifies whether the insurer will replace the part, pay cash value, or use original/new parts.\nממדים: Vehicle age and replacement/payment options, Replacement/payment method\n\n. 8.2.1 בחר המבטח להחליף את החלק שאבד או ניזוק, יוחלף החלק בחלק המתאים לו באיכותו, בתכונותיו ובתיאורו בצרוף הוצאות התקנה.\n. בחר המבטח לשלם את ערך הנזק או האבדן במזומן - יחושב הסכום לתשלום 8.2.2 שנים ישולם הנזק לפי ערכו של חלק דומה לזה 9 כך שעבור רכב שגילו עד שנים ישולם הנזק 9 שאבד או ניזוק ללא ניכוי בלאי, ואילו לגבי רכב שגילו מעל לפי ערכו הממשי של החלק שאבד או ניזוק )דהיינו - בניכוי בלאי(; לתשלומים האמורים יתווספו הוצאות התקנה\n. בלי לגרוע מהוראות חוק הגבלת השימוש ורישום פעולות בחלקי רכב משומשים 8.2.3 , בחר המבטח להחליף את החלק שאבד או ניזוק 1998)מניעת גניבות(, התשנ\"ח ברכב שגילו עד שנתיים ביום קרות מקרה הביטוח, יוחלף החלק שאבד או ניזק , בחלק מקורי או חדש, ובלבד שהוא מתאים לחלק המוחלף באיכותו, בתכונותיו בתיאורו ובצרוף הוצאות התקנה."
 }

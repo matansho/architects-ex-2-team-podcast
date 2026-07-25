@@ -3,22 +3,24 @@
   "source": "llm",
   "description": {
     "title": "הרשאה לחיוב חשבון",
-    "summary": "This table details the terms of a direct debit authorization. It outlines conditions for cancellation and bank responsibilities regarding charges.",
-    "embed_passage": "הרשאה זו ניתנת לביטול ע״י הודעה בכתב, ונהיה רשאים לבטל חיוב מסוים אם הודעה על כך תימסר לבנק לא יאוחר מ-24 חודשים ממועד החיוב האחרון. הבנק רשאי להוציא את הראל חברה לביטוח בע״מ מן ההסדר אם תהיה לו סיבה סבירה לכך.",
-    "row_axis": "Conditions/Clauses of the direct debit authorization",
-    "column_axis": "Details/Actions related to the authorization",
+    "summary": "This table outlines the terms and conditions for a direct debit authorization. It details conditions for cancellation, bank responsibilities, and usage limitations of the authorization.",
+    "embed_passage": "טבלה זו מתארת את התנאים וההגבלות להרשאה לחיוב חשבון, כולל תנאים לביטול, אחריות הבנק, ושימוש בהרשאה. ניתן להשתמש במידע זה כדי להבין את תוקף ההרשאה, תנאי הביטול שלה, ואת זכויות הבנק והמוטב. הרשאה שלא נעשה בה שימוש במשך 24 חודשים ממועד החיוב האחרון, בטלה. כרטיסי אשראי מקובלים כוללים אמריקן אקספרס, דיינרס, ישראכרט, ויזה כאל ולאומי ויזה. יש למלא את מספר הכרטיס ותוקף הכרטיס.",
+    "row_axis": "תנאי הרשאה",
+    "column_axis": "סעיף בהרשאה",
     "units": [],
     "notable_values": [
-      "Cancellation Period: 24 חודשים",
-      "Cancellation Notice: הודעה בכתב",
-      "Bank Discretion: סיבה סבירה"
+      "תקופה לביטול הרשאה: 24 חודשים",
+      "סוג כרטיס אשראי: אמריקן אקספרס",
+      "סוג כרטיס אשראי: דיינרס",
+      "סוג כרטיס אשראי: ישראכרט",
+      "סוג כרטיס אשראי: ויזה כאל",
+      "סוג כרטיס אשראי: לאומי ויזה"
     ],
     "product_hints": [
-      "הראל חברה לביטוח בע״מ",
       "הרשאה לחיוב חשבון"
     ]
   },
   "sketch": "חודשים ממועד החיוב האחרון, בטלה. 24 הרשאה שלא יעשה בה שימוש במשך תקופה של ו.\nאם תעשו לבקשתנו, הבנק יפעל בהתאם להוראות הרשאה זו, בכפוף להוראות כל דין והסכם שבינינו לבין הבנק. ז.\nח.  הבנק רשאי להוציאנו מן ההסדר המפורט בהרשאה זו, אם תהיה לו סיבה סבירה לכך, ויודיע לנו על כך מיד לאחר קבלת החלטתו תוך ציון הסיבה.",
-  "embed_text": "הרשאה זו ניתנת לביטול ע״י הודעה בכתב, ונהיה רשאים לבטל חיוב מסוים אם הודעה על כך תימסר לבנק לא יאוחר מ-24 חודשים ממועד החיוב האחרון. הבנק רשאי להוציא את הראל חברה לביטוח בע״מ מן ההסדר אם תהיה לו סיבה סבירה לכך.",
-  "payload": "טבלה: הרשאה לחיוב חשבון\nThis table details the terms of a direct debit authorization. It outlines conditions for cancellation and bank responsibilities regarding charges.\nממדים: Conditions/Clauses of the direct debit authorization, Details/Actions related to the authorization\n\nחודשים ממועד החיוב האחרון, בטלה. 24 הרשאה שלא יעשה בה שימוש במשך תקופה של ו.\nאם תעשו לבקשתנו, הבנק יפעל בהתאם להוראות הרשאה זו, בכפוף להוראות כל דין והסכם שבינינו לבין הבנק. ז.\nח.  הבנק רשאי להוציאנו מן ההסדר המפורט בהרשאה זו, אם תהיה לו סיבה סבירה לכך, ויודיע לנו על כך מיד לאחר קבלת החלטתו תוך ציון הסיבה."
+  "embed_text": "טבלה זו מתארת את התנאים וההגבלות להרשאה לחיוב חשבון, כולל תנאים לביטול, אחריות הבנק, ושימוש בהרשאה. ניתן להשתמש במידע זה כדי להבין את תוקף ההרשאה, תנאי הביטול שלה, ואת זכויות הבנק והמוטב. הרשאה שלא נעשה בה שימוש במשך 24 חודשים ממועד החיוב האחרון, בטלה. כרטיסי אשראי מקובלים כוללים אמריקן אקספרס, דיינרס, ישראכרט, ויזה כאל ולאומי ויזה. יש למלא את מספר הכרטיס ותוקף הכרטיס. This table outlines the terms and conditions for a direct debit authorization. It details conditions for cancellation, bank responsibilities, and usage limitations of the authorization.",
+  "payload": "טבלה: הרשאה לחיוב חשבון\nThis table outlines the terms and conditions for a direct debit authorization. It details conditions for cancellation, bank responsibilities, and usage limitations of the authorization.\nממדים: תנאי הרשאה, סעיף בהרשאה\n\nחודשים ממועד החיוב האחרון, בטלה. 24 הרשאה שלא יעשה בה שימוש במשך תקופה של ו.\nאם תעשו לבקשתנו, הבנק יפעל בהתאם להוראות הרשאה זו, בכפוף להוראות כל דין והסכם שבינינו לבין הבנק. ז.\nח.  הבנק רשאי להוציאנו מן ההסדר המפורט בהרשאה זו, אם תהיה לו סיבה סבירה לכך, ויודיע לנו על כך מיד לאחר קבלת החלטתו תוך ציון הסיבה."
 }

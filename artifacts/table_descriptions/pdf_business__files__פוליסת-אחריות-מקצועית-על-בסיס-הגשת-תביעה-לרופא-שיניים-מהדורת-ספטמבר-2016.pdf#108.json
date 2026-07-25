@@ -2,21 +2,24 @@
   "id": "pdf:business/files/פוליסת-אחריות-מקצועית-על-בסיס-הגשת-תביעה-לרופא-שיניים-מהדורת-ספטמבר-2016.pdf#108",
   "source": "llm",
   "description": {
-    "title": "אחריות מקצועית רופא שיניים",
-    "summary": "This table outlines conditions under which the insurer is not liable for compensation in a professional liability policy for dentists. It details scenarios related to prevention and mitigation of damages.",
-    "embed_passage": "פוליסת אחריות מקצועית לרופא שיניים מגדירה מקרים בהם המבטח לא חייב בתגמולי ביטוח, למשל כאשר הנזק ניתן היה למניעה או להקטנה בנקיטת אמצעים סבירים. ההוצאות הסבירות למניעת נזק או להקטנתו יושבו למבוטח, גם אם הנזק לא נמנע, ושיעור ההחזר תלוי בסבירות ההוצאות בנסיבות העניין. לדוגמה, סעיף 4.9.9 מתייחס למניעת נזק.",
-    "row_axis": "conditions for non-liability",
-    "column_axis": "details of the condition/exception",
+    "title": "פוליסת אחריות מקצועית",
+    "summary": "This table outlines conditions under which the insurer is not obligated to pay insurance benefits. It details scenarios related to preventing or mitigating damage after an insurance event.",
+    "embed_passage": "טבלה זו מתארת תנאים בפוליסת אחריות מקצועית, ובפרט מקרים בהם המבטח לא חייב בתגמולי ביטוח. הטבלה עוסקת בנזקים שהמבוטח יכול היה למנוע או להקטין, הוצאות סבירות למניעת נזק, ושיפוי בגין הוצאות אלו. ניתן לעיין בתנאים אלו כדי להבין את חובות המבוטח ואת גבולות האחריות של המבטח. הפוליסה רלוונטית לרופא שיניים, כפי שניתן להסיק משם המסמך. תנאים אלו כוללים מניעת נזק, הקטנת נזק, הוצאות סבירות, התחייבויות סבירות, ושיפוי. המבטח רשאי ליטול לידיו את ניהול ההגנה או הסידור כלפי כל תביעה.",
+    "row_axis": "conditions for non-payment of benefits",
+    "column_axis": "details of the condition",
     "units": [],
     "notable_values": [
-      "סעיף: 4.9.9",
-      "סעיף: 4.9.10"
+      "4.9.9: preventing damage",
+      "4.9.10: reasonable expenses",
+      "reasonable measures: preventing damage",
+      "reasonable commitments: reducing damage"
     ],
     "product_hints": [
-      "אחריות מקצועית לרופא שיניים"
+      "פוליסת אחריות מקצועית",
+      "רופא שיניים"
     ]
   },
   "sketch": "אין המבטח חייב בתגמולי ביטוח בגין נזק שהמבוטח יכול היה למנוע, או להקטין .4.9.9 בקרות מקרה הביטוח או לאחר מכן, בנקיטת אמצעים סבירים או אמצעים שהמבטח הורה לו לנקוט.\n.  הוציא המבוטח, בקרות מקרה הביטוח או לאחר מכן, הוצאות סבירות למניעת 4.9.10 הנזק או להקטנתו, או שהתחייב לשם כך בהתחייבויות סבירות, חייב המבטח לשפותם, בין אם נמנע הנזק או הוקטן ובין אם לא; היו ההוצאות או ההתחייבויות בלתי סבירות, חייב המבטח בשיפוי כדי שיעורן הסביר בנסיבות העניין, והכל אף מעל לגבולות האחריות.",
-  "embed_text": "פוליסת אחריות מקצועית לרופא שיניים מגדירה מקרים בהם המבטח לא חייב בתגמולי ביטוח, למשל כאשר הנזק ניתן היה למניעה או להקטנה בנקיטת אמצעים סבירים. ההוצאות הסבירות למניעת נזק או להקטנתו יושבו למבוטח, גם אם הנזק לא נמנע, ושיעור ההחזר תלוי בסבירות ההוצאות בנסיבות העניין. לדוגמה, סעיף 4.9.9 מתייחס למניעת נזק.",
-  "payload": "טבלה: אחריות מקצועית רופא שיניים\nThis table outlines conditions under which the insurer is not liable for compensation in a professional liability policy for dentists. It details scenarios related to prevention and mitigation of damages.\nממדים: conditions for non-liability, details of the condition/exception\n\nאין המבטח חייב בתגמולי ביטוח בגין נזק שהמבוטח יכול היה למנוע, או להקטין .4.9.9 בקרות מקרה הביטוח או לאחר מכן, בנקיטת אמצעים סבירים או אמצעים שהמבטח הורה לו לנקוט.\n.  הוציא המבוטח, בקרות מקרה הביטוח או לאחר מכן, הוצאות סבירות למניעת 4.9.10 הנזק או להקטנתו, או שהתחייב לשם כך בהתחייבויות סבירות, חייב המבטח לשפותם, בין אם נמנע הנזק או הוקטן ובין אם לא; היו ההוצאות או ההתחייבויות בלתי סבירות, חייב המבטח בשיפוי כדי שיעורן הסביר בנסיבות העניין, והכל אף מעל לגבולות האחריות."
+  "embed_text": "טבלה זו מתארת תנאים בפוליסת אחריות מקצועית, ובפרט מקרים בהם המבטח לא חייב בתגמולי ביטוח. הטבלה עוסקת בנזקים שהמבוטח יכול היה למנוע או להקטין, הוצאות סבירות למניעת נזק, ושיפוי בגין הוצאות אלו. ניתן לעיין בתנאים אלו כדי להבין את חובות המבוטח ואת גבולות האחריות של המבטח. הפוליסה רלוונטית לרופא שיניים, כפי שניתן להסיק משם המסמך. תנאים אלו כוללים מניעת נזק, הקטנת נזק, הוצאות סבירות, התחייבויות סבירות, ושיפוי. המבטח רשאי ליטול לידיו את ניהול ההגנה או הסידור כלפי כל תביעה. This table outlines conditions under which the insurer is not obligated to pay insurance benefits. It details scenarios related to preventing or mitigating damage after an insurance event. בין הערכים בטבלה: 4.9.9: preventing damage; 4.9.10: reasonable expenses; reasonable measures: preventing damage; reasonable commitments: re…",
+  "payload": "טבלה: פוליסת אחריות מקצועית\nThis table outlines conditions under which the insurer is not obligated to pay insurance benefits. It details scenarios related to preventing or mitigating damage after an insurance event.\nממדים: conditions for non-payment of benefits, details of the condition\n\nאין המבטח חייב בתגמולי ביטוח בגין נזק שהמבוטח יכול היה למנוע, או להקטין .4.9.9 בקרות מקרה הביטוח או לאחר מכן, בנקיטת אמצעים סבירים או אמצעים שהמבטח הורה לו לנקוט.\n.  הוציא המבוטח, בקרות מקרה הביטוח או לאחר מכן, הוצאות סבירות למניעת 4.9.10 הנזק או להקטנתו, או שהתחייב לשם כך בהתחייבויות סבירות, חייב המבטח לשפותם, בין אם נמנע הנזק או הוקטן ובין אם לא; היו ההוצאות או ההתחייבויות בלתי סבירות, חייב המבטח בשיפוי כדי שיעורן הסביר בנסיבות העניין, והכל אף מעל לגבולות האחריות."
 }

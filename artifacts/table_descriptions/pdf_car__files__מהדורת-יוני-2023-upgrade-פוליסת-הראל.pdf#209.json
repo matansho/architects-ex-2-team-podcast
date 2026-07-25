@@ -3,17 +3,16 @@
   "source": "llm",
   "description": {
     "title": "כתבי שירות",
-    "summary": "This table details the methods for submitting notifications to the insurer, Harel, and outlines the terms of the 'שירותי דרך וגרירה' (roadside assistance and towing) service. It specifies how to submit notices and the availability of the service.",
-    "embed_passage": "פוליסת הראל מציעה שירותי דרך וגרירה לרכב שאינו חשמלי, בתוקף לפי המפורט במפרט. ניתן להגיש הודעה למבטח במענו המצויין בפוליסה, במשרד סוכן הביטוח הרשום, או בכל דרך אחרת שהמבטח יודיע עליה. השירות זמין 24 שעות ביממה, 365 ימים בשנה, למעט ערב יום הכיפורים.",
-    "row_axis": "Method of Notification / Service Details",
-    "column_axis": "Details of Notification Method / Service Terms",
+    "summary": "This table details methods for submitting notices to the insurer and outlines the terms of the 'שירותי דרך וגרירה' (roadside assistance and towing) service. It specifies how to deliver notifications and the scope of the service when included in the policy.",
+    "embed_passage": "טבלה זו מתארת את אופני הגשת הודעות למבטח ואת תנאי 'כתב שירות שירותי דרך וגרירה' המצורף לפוליסה. ניתן להגיש הודעה למבטח באמצעות מען משרדו, סוכן הביטוח הרשום בפוליסה, או כל דרך אחרת שהמבטח יודיע עליה. כאשר 'כתב שירות שירותי דרך וגרירה' בתוקף, המבטח אחראי על השירות הניתן. הפוליסה של הראל כוללת אפשרות לקבלת שירותי רכב 24 שעות ביממה, 364 ימים בשנה, למעט ערב יום הכיפורים. כתב שירות, נותן השירות, מוקד השירות, מקבל השירות הם מושגים מרכזיים.",
+    "row_axis": "אופן מסירת הודעה / תנאי שירות",
+    "column_axis": "פרטי השירות / הוראות",
     "units": [],
     "notable_values": [
-      "54.1: Notification via insurer's office",
-      "54.2: Notification via insurance agent's office",
-      "54.3: Notification via other methods",
-      "365: Days of service per year",
-      "24: Hours of service per day"
+      "שירותי דרך וגרירה: לרכב שאינו חשמלי",
+      "שעות פעילות: 24 שעות ביממה",
+      "ימי פעילות: 364 ימים בשנה",
+      "יום כיפור: מ-14:00 עד צאת היום"
     ],
     "product_hints": [
       "הראל",
@@ -21,6 +20,6 @@
     ]
   },
   "sketch": "מען משרדו של המבטח, כמצויין בכותרת לפוליסה, או כל מען אחר בישראל שעליו יודיע .54.1 המבטח, למבוטח או למוטב מזמן לזמן.\nבמשרדו של סוכן הביטוח, הרשום בפוליסה לפי מענו, כמפורט בה, או לפי כל מען אחר .54.2 בישראל שעליו יודיע סוכן הביטוח הנזכר או המבטח, למבוטח או למוטב מזמן לזמן.\n.  כל דרך אחרת שהמבטח יודיע עליה למבוטח מזמן לזמן. 54.3\nכתבי שירות\nאם צויין במפורש במפרט כי \"כתב שירות שירותי דרך וגרירה )לרכב שאינו חשמלי(\" בתוקף, אזי יחולו הוראות כתב השירות שלהלן:\nלידיעתך, המבטח יהיה אחראי על השירות הניתן במסגרת כתב השירות.",
-  "embed_text": "פוליסת הראל מציעה שירותי דרך וגרירה לרכב שאינו חשמלי, בתוקף לפי המפורט במפרט. ניתן להגיש הודעה למבטח במענו המצויין בפוליסה, במשרד סוכן הביטוח הרשום, או בכל דרך אחרת שהמבטח יודיע עליה. השירות זמין 24 שעות ביממה, 365 ימים בשנה, למעט ערב יום הכיפורים.",
-  "payload": "טבלה: כתבי שירות\nThis table details the methods for submitting notifications to the insurer, Harel, and outlines the terms of the 'שירותי דרך וגרירה' (roadside assistance and towing) service. It specifies how to submit notices and the availability of the service.\nממדים: Method of Notification / Service Details, Details of Notification Method / Service Terms\n\nמען משרדו של המבטח, כמצויין בכותרת לפוליסה, או כל מען אחר בישראל שעליו יודיע .54.1 המבטח, למבוטח או למוטב מזמן לזמן.\nבמשרדו של סוכן הביטוח, הרשום בפוליסה לפי מענו, כמפורט בה, או לפי כל מען אחר .54.2 בישראל שעליו יודיע סוכן הביטוח הנזכר או המבטח, למבוטח או למוטב מזמן לזמן.\n.  כל דרך אחרת שהמבטח יודיע עליה למבוטח מזמן לזמן. 54.3\nכתבי שירות\nאם צויין במפורש במפרט כי \"כתב שירות שירותי דרך וגרירה )לרכב שאינו חשמלי(\" בתוקף, אזי יחולו הוראות כתב השירות שלהלן:\nלידיעתך, המבטח יהיה אחראי על השירות הניתן במסגרת כתב השירות."
+  "embed_text": "טבלה זו מתארת את אופני הגשת הודעות למבטח ואת תנאי 'כתב שירות שירותי דרך וגרירה' המצורף לפוליסה. ניתן להגיש הודעה למבטח באמצעות מען משרדו, סוכן הביטוח הרשום בפוליסה, או כל דרך אחרת שהמבטח יודיע עליה. כאשר 'כתב שירות שירותי דרך וגרירה' בתוקף, המבטח אחראי על השירות הניתן. הפוליסה של הראל כוללת אפשרות לקבלת שירותי רכב 24 שעות ביממה, 364 ימים בשנה, למעט ערב יום הכיפורים. כתב שירות, נותן השירות, מוקד השירות, מקבל השירות הם מושגים מרכזיים. This table details methods for submitting notices to the insurer and outlines the terms of the 'שירותי דרך וגרירה' (roadside assistance and towing) service. It specifies how to deliver notifications and the scope of the service when included in the policy. בין הערכים בטבלה: יום כיפור: מ-14:00 עד צאת היום.",
+  "payload": "טבלה: כתבי שירות\nThis table details methods for submitting notices to the insurer and outlines the terms of the 'שירותי דרך וגרירה' (roadside assistance and towing) service. It specifies how to deliver notifications and the scope of the service when included in the policy.\nממדים: אופן מסירת הודעה / תנאי שירות, פרטי השירות / הוראות\n\nמען משרדו של המבטח, כמצויין בכותרת לפוליסה, או כל מען אחר בישראל שעליו יודיע .54.1 המבטח, למבוטח או למוטב מזמן לזמן.\nבמשרדו של סוכן הביטוח, הרשום בפוליסה לפי מענו, כמפורט בה, או לפי כל מען אחר .54.2 בישראל שעליו יודיע סוכן הביטוח הנזכר או המבטח, למבוטח או למוטב מזמן לזמן.\n.  כל דרך אחרת שהמבטח יודיע עליה למבוטח מזמן לזמן. 54.3\nכתבי שירות\nאם צויין במפורש במפרט כי \"כתב שירות שירותי דרך וגרירה )לרכב שאינו חשמלי(\" בתוקף, אזי יחולו הוראות כתב השירות שלהלן:\nלידיעתך, המבטח יהיה אחראי על השירות הניתן במסגרת כתב השירות."
 }

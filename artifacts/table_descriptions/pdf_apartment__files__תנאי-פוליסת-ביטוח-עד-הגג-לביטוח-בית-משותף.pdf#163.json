@@ -3,21 +3,22 @@
   "source": "llm",
   "description": {
     "title": "חריגים לפוליסה",
-    "summary": "This table lists exclusions to an insurance policy, specifically for 'עד הגג' home insurance. It details events that are not covered, such as war, terror, and government seizure.",
-    "embed_passage": "פוליסת 'עד הגג' אינה מכסה נזקים הנגרמים כתוצאה ממלחמה, פעולות טרור, או תפיסה של רכוש על ידי הממשלה. לדוגמה, סעיף 3 מתייחס לקרינה מייננת, וסעיף 4 עוסק בהפקעה של רכוש על ידי רשות מקומית. הפוליסה אינה מכסה נזקים שנגרמו על ידי גורמים אלו.",
-    "row_axis": "exclusion type",
-    "column_axis": "description of exclusion",
+    "summary": "This table lists exclusions to an insurance policy, specifically those related to events or causes that are not covered. It is used to determine if a claim is valid based on the circumstances of the loss.",
+    "embed_passage": "טבלה זו מפרטת חריגים לפוליסת ביטוח, המציינת אירועים או גורמים שאינם מכוסים. ניתן לחפש חריגים ספציפיים לפי סוג הנזק או הגורם לו. הפוליסה היא 'ביטוח עד הגג לביטוח בית משותף'. החריגים כוללים קרינה מייננת, תפיסה של רכוש על ידי הממשלה, ופעולות טרור. חריגים אלו רלוונטיים לנזקים שנגרמו כתוצאה ממלחמה, פעולות חבלה, או גורמים גרעיניים. קרינה מייננת, תהליכים גרעיניים, תפיסה על ידי הממשלה, והחרמה הם דוגמאות לחריגים.",
+    "row_axis": "סוג חריג",
+    "column_axis": "תיאור החריג",
     "units": [],
     "notable_values": [
-      "סעיף 3: קרינה מייננת",
-      "סעיף 4: תפיסה על ידי הממשלה",
-      "מלחמה וטרור: אירועים שאינם מכוסים"
+      "קרינה מייננת: תהליכים גרעיניים",
+      "תפיסה: הפקעה",
+      "החרמה: השמדה"
     ],
     "product_hints": [
-      "עד הגג"
+      "ביטוח עד הגג",
+      "ביטוח בית משותף"
     ]
   },
   "sketch": ".  קרינה מייננת, זיהום רדיואקטיבי, תהליכים גרעיניים, חומר גרעיני או פסולת גרעינית. 3\n.  תפיסה, הפקעה, החרמה, השמדה או הריסה של רכוש בידי הממשלה, הצבא, רשות 4 מקומית, או אדם הפועל על פי דין.",
-  "embed_text": "פוליסת 'עד הגג' אינה מכסה נזקים הנגרמים כתוצאה ממלחמה, פעולות טרור, או תפיסה של רכוש על ידי הממשלה. לדוגמה, סעיף 3 מתייחס לקרינה מייננת, וסעיף 4 עוסק בהפקעה של רכוש על ידי רשות מקומית. הפוליסה אינה מכסה נזקים שנגרמו על ידי גורמים אלו.",
-  "payload": "טבלה: חריגים לפוליסה\nThis table lists exclusions to an insurance policy, specifically for 'עד הגג' home insurance. It details events that are not covered, such as war, terror, and government seizure.\nממדים: exclusion type, description of exclusion\n\n.  קרינה מייננת, זיהום רדיואקטיבי, תהליכים גרעיניים, חומר גרעיני או פסולת גרעינית. 3\n.  תפיסה, הפקעה, החרמה, השמדה או הריסה של רכוש בידי הממשלה, הצבא, רשות 4 מקומית, או אדם הפועל על פי דין."
+  "embed_text": "טבלה זו מפרטת חריגים לפוליסת ביטוח, המציינת אירועים או גורמים שאינם מכוסים. ניתן לחפש חריגים ספציפיים לפי סוג הנזק או הגורם לו. הפוליסה היא 'ביטוח עד הגג לביטוח בית משותף'. החריגים כוללים קרינה מייננת, תפיסה של רכוש על ידי הממשלה, ופעולות טרור. חריגים אלו רלוונטיים לנזקים שנגרמו כתוצאה ממלחמה, פעולות חבלה, או גורמים גרעיניים. קרינה מייננת, תהליכים גרעיניים, תפיסה על ידי הממשלה, והחרמה הם דוגמאות לחריגים. This table lists exclusions to an insurance policy, specifically those related to events or causes that are not covered. It is used to determine if a claim is valid based on the circumstances of the loss.",
+  "payload": "טבלה: חריגים לפוליסה\nThis table lists exclusions to an insurance policy, specifically those related to events or causes that are not covered. It is used to determine if a claim is valid based on the circumstances of the loss.\nממדים: סוג חריג, תיאור החריג\n\n.  קרינה מייננת, זיהום רדיואקטיבי, תהליכים גרעיניים, חומר גרעיני או פסולת גרעינית. 3\n.  תפיסה, הפקעה, החרמה, השמדה או הריסה של רכוש בידי הממשלה, הצבא, רשות 4 מקומית, או אדם הפועל על פי דין."
 }

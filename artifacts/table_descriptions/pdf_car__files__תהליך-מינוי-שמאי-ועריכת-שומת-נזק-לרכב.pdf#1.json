@@ -3,21 +3,22 @@
   "source": "llm",
   "description": {
     "title": "תהליך מינוי שמאי",
-    "summary": "This table describes the process for appointing an appraiser and preparing a damage assessment for a vehicle insurance claim. It outlines the steps a policyholder should take after an accident, including appraiser selection and dispute resolution.",
-    "embed_passage": "תהליך מינוי שמאי לרכב מתחיל לאחר קבלת דיווח על נזק. על פי הנחיות המפקח על הביטוח, קודקס הרגולציה בעניין שמאות ביטוח רכב מספק מידע על בחירת שמאי ודרכי קבלת מידע לגבי הנזק. המטרה היא לסייע למבוטח במקרה של נזק לרכב ולהבטיח נסיעה בטוחה.",
-    "row_axis": "Stages/aspects of the appraisal process",
-    "column_axis": "Details/information related to each stage",
+    "summary": "This table describes the process for appointing an assessor and preparing a vehicle damage assessment in the event of a car insurance claim. It outlines the reporting process, assessor selection, information access, and appeal options.",
+    "embed_passage": "טבלה זו מתארת את תהליך מינוי שמאי לצורך הערכת נזקים לרכב במסגרת ביטוח רכב. המידע מיועד למבוטחים ומפרט את השלבים לאחר קרות נזק, כולל בחירת שמאי וקבלת מידע על הנזק. הטבלה מספקת גם אפשרויות ערעור. סוגי שמאים כוללים שמאי, שמאי בית ושמאי אחר. שמאי רשום בפנקס השמאים, ושמאי בית עשוי להיות עובד של קבוצת הביטוח או מקבל למעלה מ-30% מהכנסותיו מקבוצת הביטוח.",
+    "row_axis": "stages/definitions in the claims process",
+    "column_axis": "details of the process/definition elements",
     "units": [],
     "notable_values": [
       "שמאי: מי שרשום בפנקס השמאים",
       "שמאי בית: עובד של קבוצת הביטוח",
-      "שמאי אחר: כל שמאי שאינו שמאי בית או שמאי חוץ"
+      "שמאי אחר: כל שמאי שאינו שמאי בית או שמאי חוץ",
+      "30%: סף הכנסות מקבוצת הביטוח לשמאי בית"
     ],
     "product_hints": [
       "ביטוח רכב"
     ]
   },
   "sketch": "דף הסבר - תהליך מינוי שמאי ועריכת שומת נזק בקרות מקרה ביטוח לרכב\nמבוטח יקר,\nעל פי הנחיות המפקח על הביטוח בקודקס הרגולציה בעניין שמאות ביטוח רכב )רכוש וצד ג'(, אנו נפרט להלן את תיאור תהליך הדיווח על הנזק, בחירת שמאי, דרכי קבלת המידע לגבי הנזק ואפשרויות הערעור השונות.\nאנו מקווים כי המידע יסייע לך במקרה שרכבך יינזק, חלילה, ומאחלים לך נסיעה בטוחה ודרך צלחה.",
-  "embed_text": "תהליך מינוי שמאי לרכב מתחיל לאחר קבלת דיווח על נזק. על פי הנחיות המפקח על הביטוח, קודקס הרגולציה בעניין שמאות ביטוח רכב מספק מידע על בחירת שמאי ודרכי קבלת מידע לגבי הנזק. המטרה היא לסייע למבוטח במקרה של נזק לרכב ולהבטיח נסיעה בטוחה.",
-  "payload": "טבלה: תהליך מינוי שמאי\nThis table describes the process for appointing an appraiser and preparing a damage assessment for a vehicle insurance claim. It outlines the steps a policyholder should take after an accident, including appraiser selection and dispute resolution.\nממדים: Stages/aspects of the appraisal process, Details/information related to each stage\n\nדף הסבר - תהליך מינוי שמאי ועריכת שומת נזק בקרות מקרה ביטוח לרכב\nמבוטח יקר,\nעל פי הנחיות המפקח על הביטוח בקודקס הרגולציה בעניין שמאות ביטוח רכב )רכוש וצד ג'(, אנו נפרט להלן את תיאור תהליך הדיווח על הנזק, בחירת שמאי, דרכי קבלת המידע לגבי הנזק ואפשרויות הערעור השונות.\nאנו מקווים כי המידע יסייע לך במקרה שרכבך יינזק, חלילה, ומאחלים לך נסיעה בטוחה ודרך צלחה."
+  "embed_text": "טבלה זו מתארת את תהליך מינוי שמאי לצורך הערכת נזקים לרכב במסגרת ביטוח רכב. המידע מיועד למבוטחים ומפרט את השלבים לאחר קרות נזק, כולל בחירת שמאי וקבלת מידע על הנזק. הטבלה מספקת גם אפשרויות ערעור. סוגי שמאים כוללים שמאי, שמאי בית ושמאי אחר. שמאי רשום בפנקס השמאים, ושמאי בית עשוי להיות עובד של קבוצת הביטוח או מקבל למעלה מ-30% מהכנסותיו מקבוצת הביטוח. This table describes the process for appointing an assessor and preparing a vehicle damage assessment in the event of a car insurance claim. It outlines the reporting process, assessor selection, information access, and appeal options.",
+  "payload": "טבלה: תהליך מינוי שמאי\nThis table describes the process for appointing an assessor and preparing a vehicle damage assessment in the event of a car insurance claim. It outlines the reporting process, assessor selection, information access, and appeal options.\nממדים: stages/definitions in the claims process, details of the process/definition elements\n\nדף הסבר - תהליך מינוי שמאי ועריכת שומת נזק בקרות מקרה ביטוח לרכב\nמבוטח יקר,\nעל פי הנחיות המפקח על הביטוח בקודקס הרגולציה בעניין שמאות ביטוח רכב )רכוש וצד ג'(, אנו נפרט להלן את תיאור תהליך הדיווח על הנזק, בחירת שמאי, דרכי קבלת המידע לגבי הנזק ואפשרויות הערעור השונות.\nאנו מקווים כי המידע יסייע לך במקרה שרכבך יינזק, חלילה, ומאחלים לך נסיעה בטוחה ודרך צלחה."
 }

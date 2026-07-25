@@ -3,21 +3,23 @@
   "source": "llm",
   "description": {
     "title": "תשישות נפש",
-    "summary": "This table details the criteria for claiming benefits related to mental exhaustion (תשישות נפש) under a long-term care insurance policy. It outlines the medical evaluation process and specialist requirements.",
-    "embed_passage": "פוליסת \"סיעודי מושלם\" לחברי שירותי בריאות כללית מכסה מצבים של תשישות נפש, אשר מזכים בקבלת גמלת סיעוד. קביעה לגבי תשישות נפש נעשית על ידי רופא מומחה בתחום, כגון גריאטר או פסיכיאטר. הרופא יבחן תולדות מחלה, התרשמות כללית ומעקב רפואי.",
-    "row_axis": "Criteria for mental exhaustion claim",
-    "column_axis": "Details of evaluation process",
+    "summary": "This table details the criteria for claiming benefits related to mental exhaustion (תשישות נפש) under a long-term care policy. It outlines the required medical expertise for assessment.",
+    "embed_passage": "טבלה זו עוסקת בקריטריונים לקבלת גמלה בגין תשישות נפש בפוליסת ביטוח סיעודי. לצורך קבלת החלטה, הרופא המומחה יבחן תולדות מחלה, התרשמות כללית ומעקב רפואי. קביעה לעניין תשישות נפש תעשה רק על ידי רופא מומחה בתחום, כגון גריאטר, פסיכיאטר או נוירולוג. תשישות נפש, הינו מצב המזכה בקבלת גמלת סיעוד, אך המבוטח יהיה זכאי לתגמולים בגין מצב מזכה אחד בלבד. גריאטר, פסיכיאטר, פסיכוגריאטר ונוירולוג הם מומחים רלוונטיים. תולדות המחלה, התרשמות כללית ומעקב רפואי הם גורמים נבחנים.",
+    "row_axis": "criteria for mental exhaustion claim",
+    "column_axis": "details of assessment process",
     "units": [],
     "notable_values": [
       "תשישות נפש: 2",
-      "Claim limit: one qualifying condition",
-      "Specialist required: גריאטר, פסיכיאטר, פסיכוגריאטר, נוירולוג"
+      "מומחה: גריאטר",
+      "מומחה: פסיכיאטר",
+      "מומחה: פסיכוגריאטר",
+      "מומחה: נוירולוג"
     ],
     "product_hints": [
       "סיעודי מושלם"
     ]
   },
   "sketch": ". תשישות נפש 2\n( כאמור לעיל, תשישות נפש, הינו מצב נוסף המזכה בקבלת גמלת סיעוד. )בכל מקרה יהיה המבוטח זכאי לתגמולים בגין מצב מזכה אחד בלבד קביעה לעניין תשישות נפש תעשה רק ע\"י רופא מומחה בתחום, דהיינו גריאטר, פסיכיאטר ופסיכוגריאטר ו/או נוירולוג.\nלצורך קבלת החלטה זו, יבחנו על-ידי הרופא המומחה, בין היתר,תולדות המחלה, התרשמות כללית, מעקב רפואי, וטיפול תרופתי.",
-  "embed_text": "פוליסת \"סיעודי מושלם\" לחברי שירותי בריאות כללית מכסה מצבים של תשישות נפש, אשר מזכים בקבלת גמלת סיעוד. קביעה לגבי תשישות נפש נעשית על ידי רופא מומחה בתחום, כגון גריאטר או פסיכיאטר. הרופא יבחן תולדות מחלה, התרשמות כללית ומעקב רפואי.",
-  "payload": "טבלה: תשישות נפש\nThis table details the criteria for claiming benefits related to mental exhaustion (תשישות נפש) under a long-term care insurance policy. It outlines the medical evaluation process and specialist requirements.\nממדים: Criteria for mental exhaustion claim, Details of evaluation process\n\n. תשישות נפש 2\n( כאמור לעיל, תשישות נפש, הינו מצב נוסף המזכה בקבלת גמלת סיעוד. )בכל מקרה יהיה המבוטח זכאי לתגמולים בגין מצב מזכה אחד בלבד קביעה לעניין תשישות נפש תעשה רק ע\"י רופא מומחה בתחום, דהיינו גריאטר, פסיכיאטר ופסיכוגריאטר ו/או נוירולוג.\nלצורך קבלת החלטה זו, יבחנו על-ידי הרופא המומחה, בין היתר,תולדות המחלה, התרשמות כללית, מעקב רפואי, וטיפול תרופתי."
+  "embed_text": "טבלה זו עוסקת בקריטריונים לקבלת גמלה בגין תשישות נפש בפוליסת ביטוח סיעודי. לצורך קבלת החלטה, הרופא המומחה יבחן תולדות מחלה, התרשמות כללית ומעקב רפואי. קביעה לעניין תשישות נפש תעשה רק על ידי רופא מומחה בתחום, כגון גריאטר, פסיכיאטר או נוירולוג. תשישות נפש, הינו מצב המזכה בקבלת גמלת סיעוד, אך המבוטח יהיה זכאי לתגמולים בגין מצב מזכה אחד בלבד. גריאטר, פסיכיאטר, פסיכוגריאטר ונוירולוג הם מומחים רלוונטיים. תולדות המחלה, התרשמות כללית ומעקב רפואי הם גורמים נבחנים. This table details the criteria for claiming benefits related to mental exhaustion (תשישות נפש) under a long-term care policy. It outlines the required medical expertise for assessment.",
+  "payload": "טבלה: תשישות נפש\nThis table details the criteria for claiming benefits related to mental exhaustion (תשישות נפש) under a long-term care policy. It outlines the required medical expertise for assessment.\nממדים: criteria for mental exhaustion claim, details of assessment process\n\n. תשישות נפש 2\n( כאמור לעיל, תשישות נפש, הינו מצב נוסף המזכה בקבלת גמלת סיעוד. )בכל מקרה יהיה המבוטח זכאי לתגמולים בגין מצב מזכה אחד בלבד קביעה לעניין תשישות נפש תעשה רק ע\"י רופא מומחה בתחום, דהיינו גריאטר, פסיכיאטר ופסיכוגריאטר ו/או נוירולוג.\nלצורך קבלת החלטה זו, יבחנו על-ידי הרופא המומחה, בין היתר,תולדות המחלה, התרשמות כללית, מעקב רפואי, וטיפול תרופתי."
 }

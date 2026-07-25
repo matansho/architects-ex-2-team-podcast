@@ -2,23 +2,22 @@
   "id": "pdf:business/files/פוליסה-לביטוח-חבות-כלפי-צד-שלישי-הראל-ביט-מהדורת-ינואר-2023.pdf#70",
   "source": "llm",
   "description": {
-    "title": "הראל חבות כלפי צד שלישי",
-    "summary": "This table outlines the policyholder's obligations following an insurance event under the 'Harel' third-party liability insurance policy. It details requirements for notification, claim submission, and providing information for liability assessment.",
-    "embed_passage": "פוליסת הראל חבות כלפי צד שלישי דורשת מהמבוטח להודיע מיד לאחר שנודע לו על קרות מקרה ביטוח. יש להגיש כל תביעה לשיפוי באמצעות טופס תביעה, ולספק מידע ומסמכים נדרשים לבירור החבות בזמן סביר. לדוגמה, סעיף 5.6.1 מציין את חובת ההודעה המיידית, וסעיף 5.6.2 עוסק במסירת מידע ומסמכים.",
-    "row_axis": "Policyholder obligations following an incident",
-    "column_axis": "Details of the obligation (e.g., notification, information provision)",
+    "title": "הודעה על קרות מקרה ביטוח",
+    "summary": "This table outlines the requirements for notifying the insurer (המבטח) of an insurance event (קרות מקרה ביטוח) and providing information for claim processing. It details the insured's (המבוטח) obligations regarding reporting, documentation, and cooperation.",
+    "embed_passage": "טבלה זו מתארת את הדרישות להודעה למבטח על קרות מקרה ביטוח, ואת חובותיו של המבוטח לספק מידע לצורך טיפול בתביעה. הפוליסה היא פוליסה לביטוח חבות כלפי צד שלישי הראל ביט, מהדורת ינואר 2023. יש להגיש כל תביעה לשיפוי באמצעות טופס תביעה. המבוטח צריך למסור מידע ומסמכים נדרשים לבירור החבות והיקפה. קרות מקרה ביטוח, תגמולי ביטוח, טופס תביעה, מידע, מסמכים, בירור חבות, היקף.",
+    "row_axis": "requirements for reporting an insurance event",
+    "column_axis": "details of the requirement (e.g., timing, method)",
     "units": [],
     "notable_values": [
-      "5.6.1: Immediate notification of incident",
-      "5.6.2: Provide information/documents within a reasonable time",
-      "5.6.3: Failure to comply may affect coverage"
+      "קרות מקרה ביטוח: מיד לאחר שנודע למבוטח",
+      "תביעה: באמצעות טופס תביעה",
+      "מידע ומסמכים: בתוך זמן סביר"
     ],
     "product_hints": [
-      "הראל חבות כלפי צד שלישי",
-      "Harel third-party liability"
+      "פוליסה לביטוח חבות כלפי צד שלישי הראל ביט"
     ]
   },
   "sketch": "קרה מקרה ביטוח, על המבוטח להודיע למבטח, מיד לאחר שנודע לו על .5.6.1 קרות המקרה.\nכל תביעה של המבוטח לשיפוי כמו גם לתשלום תגמולי ביטוח על פי הפוליסה באמצעות טופס תביעה שימציא המבטח למבוטח על פי בקשתו. תוגש למבטח\nעל המבוטח למסור למבטח בתוך זמן סביר מעת שנדרש לכך, את המידע .5.6.2 והמסמכים הדרושים לבירור החבות והיקפה, ואם אינם ברשותו, עליו לעזור למבטח ככל שיוכל להשיגם.",
-  "embed_text": "פוליסת הראל חבות כלפי צד שלישי דורשת מהמבוטח להודיע מיד לאחר שנודע לו על קרות מקרה ביטוח. יש להגיש כל תביעה לשיפוי באמצעות טופס תביעה, ולספק מידע ומסמכים נדרשים לבירור החבות בזמן סביר. לדוגמה, סעיף 5.6.1 מציין את חובת ההודעה המיידית, וסעיף 5.6.2 עוסק במסירת מידע ומסמכים.",
-  "payload": "טבלה: הראל חבות כלפי צד שלישי\nThis table outlines the policyholder's obligations following an insurance event under the 'Harel' third-party liability insurance policy. It details requirements for notification, claim submission, and providing information for liability assessment.\nממדים: Policyholder obligations following an incident, Details of the obligation (e.g., notification, information provision)\n\nקרה מקרה ביטוח, על המבוטח להודיע למבטח, מיד לאחר שנודע לו על .5.6.1 קרות המקרה.\nכל תביעה של המבוטח לשיפוי כמו גם לתשלום תגמולי ביטוח על פי הפוליסה באמצעות טופס תביעה שימציא המבטח למבוטח על פי בקשתו. תוגש למבטח\nעל המבוטח למסור למבטח בתוך זמן סביר מעת שנדרש לכך, את המידע .5.6.2 והמסמכים הדרושים לבירור החבות והיקפה, ואם אינם ברשותו, עליו לעזור למבטח ככל שיוכל להשיגם."
+  "embed_text": "טבלה זו מתארת את הדרישות להודעה למבטח על קרות מקרה ביטוח, ואת חובותיו של המבוטח לספק מידע לצורך טיפול בתביעה. הפוליסה היא פוליסה לביטוח חבות כלפי צד שלישי הראל ביט, מהדורת ינואר 2023. יש להגיש כל תביעה לשיפוי באמצעות טופס תביעה. המבוטח צריך למסור מידע ומסמכים נדרשים לבירור החבות והיקפה. קרות מקרה ביטוח, תגמולי ביטוח, טופס תביעה, מידע, מסמכים, בירור חבות, היקף. This table outlines the requirements for notifying the insurer (המבטח) of an insurance event (קרות מקרה ביטוח) and providing information for claim processing. It details the insured's (המבוטח) obligations regarding reporting, documentation, and cooperation.",
+  "payload": "טבלה: הודעה על קרות מקרה ביטוח\nThis table outlines the requirements for notifying the insurer (המבטח) of an insurance event (קרות מקרה ביטוח) and providing information for claim processing. It details the insured's (המבוטח) obligations regarding reporting, documentation, and cooperation.\nממדים: requirements for reporting an insurance event, details of the requirement (e.g., timing, method)\n\nקרה מקרה ביטוח, על המבוטח להודיע למבטח, מיד לאחר שנודע לו על .5.6.1 קרות המקרה.\nכל תביעה של המבוטח לשיפוי כמו גם לתשלום תגמולי ביטוח על פי הפוליסה באמצעות טופס תביעה שימציא המבטח למבוטח על פי בקשתו. תוגש למבטח\nעל המבוטח למסור למבטח בתוך זמן סביר מעת שנדרש לכך, את המידע .5.6.2 והמסמכים הדרושים לבירור החבות והיקפה, ואם אינם ברשותו, עליו לעזור למבטח ככל שיוכל להשיגם."
 }

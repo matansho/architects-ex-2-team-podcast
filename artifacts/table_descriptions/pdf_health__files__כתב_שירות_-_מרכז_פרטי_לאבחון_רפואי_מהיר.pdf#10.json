@@ -2,23 +2,23 @@
   "id": "pdf:health/files/כתב_שירות_-_מרכז_פרטי_לאבחון_רפואי_מהיר.pdf#10",
   "source": "llm",
   "description": {
-    "title": "אבחון רפואי מהיר",
-    "summary": "This table details medical diagnostic processes and hospitalization conditions covered under a health insurance plan. It outlines what constitutes a diagnosis and hospitalization, including required durations and exclusions.",
-    "embed_passage": "פוליסת ביטוח בריאות הראל כוללת תהליך אבחון רפואי, שבו מנוי עובר בדיקות רפואיות על פי סימנים ותסמינים באמצעות רופא מומחה. אשפוז מוגדר כשהייה רצופה של המבוטח בבית חולים למשך 24 שעות לפחות, למעט מחלקות שיקום. תהליך האבחון קובע את אופי המחלה או ההפרעה.",
-    "row_axis": "types of medical services/events",
-    "column_axis": "definitions/conditions",
+    "title": "תהליך אבחון ואשפוז",
+    "summary": "This table details medical processes covered under a health insurance policy, specifically diagnosis and hospitalization. It outlines conditions and limitations for these services.",
+    "embed_passage": "טבלה זו מתארת תהליכי אבחון וטיפול רפואי הכלולים במסגרת פוליסת ביטוח בריאות של הראל. ניתן לעיין בטבלה כדי להבין את תנאי הכיסוי עבור תהליך אבחון, המוגדר כקביעת אופי המחלה או ההפרעה, ואשפוז, הכולל שהייה רצופה בבית חולים. הטבלה מפרטת גם את ההחרגות הקיימות, כגון מחלקות שיקום. הראל מציעה שירותים אלו למנויים, וחשוב להבין את ההשתתפות העצמית הנדרשת. אשפוז מוגדר כשהייה רצופה של המבוטח בבית חולים למשך 24 שעות לפחות. תהליך אבחון, אשפוז, מחלקות שיקום.",
+    "row_axis": "סוג שירות רפואי (אבחון, אשפוז)",
+    "column_axis": "הגדרות ותנאים לשירותים רפואיים",
     "units": [],
     "notable_values": [
-      "אבחון: תהליך רפואי לקביעת אופי המחלה",
-      "אשפוז: שהייה רצופה של 24 שעות",
-      "אשפוז: למעט מחלקות שיקום"
+      "אשפוז: 24 שעות",
+      "תהליך אבחון: קביעת אופי המחלה",
+      "אשפוז: בית חולים ציבורי או פרטי",
+      "אשפוז: מחלקות מוגדרות על ידי בית החולים ומשרד הבריאות"
     ],
     "product_hints": [
-      "הראל",
-      "ביטוח בריאות"
+      "הראל"
     ]
   },
   "sketch": ", ( - תהליך רפואי שעובר מנוי כדי לקבוע את אופי המחלה או ההפרעה Diagnosis) תהליך אבחון .1.12 . בחנתיות על פי סימנים ותסמינים, באמצעות רופא מומחה ובדיקות רפואיות   א\n, שהייה רצופה של המבוטח בבית חולים ציבורי או פרטי על פי הוראה מפורשת של רופא מוסמך : אשפוז .1.13 שעות ברציפות, במחלקות המוגדרות על ידי בית החולים ו/או משרד הבריאות כמחלקות 24 לפחות . למעט מחלקות שיקום , אשפוז",
-  "embed_text": "פוליסת ביטוח בריאות הראל כוללת תהליך אבחון רפואי, שבו מנוי עובר בדיקות רפואיות על פי סימנים ותסמינים באמצעות רופא מומחה. אשפוז מוגדר כשהייה רצופה של המבוטח בבית חולים למשך 24 שעות לפחות, למעט מחלקות שיקום. תהליך האבחון קובע את אופי המחלה או ההפרעה.",
-  "payload": "טבלה: אבחון רפואי מהיר\nThis table details medical diagnostic processes and hospitalization conditions covered under a health insurance plan. It outlines what constitutes a diagnosis and hospitalization, including required durations and exclusions.\nממדים: types of medical services/events, definitions/conditions\n\n, ( - תהליך רפואי שעובר מנוי כדי לקבוע את אופי המחלה או ההפרעה Diagnosis) תהליך אבחון .1.12 . בחנתיות על פי סימנים ותסמינים, באמצעות רופא מומחה ובדיקות רפואיות   א\n, שהייה רצופה של המבוטח בבית חולים ציבורי או פרטי על פי הוראה מפורשת של רופא מוסמך : אשפוז .1.13 שעות ברציפות, במחלקות המוגדרות על ידי בית החולים ו/או משרד הבריאות כמחלקות 24 לפחות . למעט מחלקות שיקום , אשפוז"
+  "embed_text": "טבלה זו מתארת תהליכי אבחון וטיפול רפואי הכלולים במסגרת פוליסת ביטוח בריאות של הראל. ניתן לעיין בטבלה כדי להבין את תנאי הכיסוי עבור תהליך אבחון, המוגדר כקביעת אופי המחלה או ההפרעה, ואשפוז, הכולל שהייה רצופה בבית חולים. הטבלה מפרטת גם את ההחרגות הקיימות, כגון מחלקות שיקום. הראל מציעה שירותים אלו למנויים, וחשוב להבין את ההשתתפות העצמית הנדרשת. אשפוז מוגדר כשהייה רצופה של המבוטח בבית חולים למשך 24 שעות לפחות. תהליך אבחון, אשפוז, מחלקות שיקום. This table details medical processes covered under a health insurance policy, specifically diagnosis and hospitalization. It outlines conditions and limitations for these services.",
+  "payload": "טבלה: תהליך אבחון ואשפוז\nThis table details medical processes covered under a health insurance policy, specifically diagnosis and hospitalization. It outlines conditions and limitations for these services.\nממדים: סוג שירות רפואי (אבחון, אשפוז), הגדרות ותנאים לשירותים רפואיים\n\n, ( - תהליך רפואי שעובר מנוי כדי לקבוע את אופי המחלה או ההפרעה Diagnosis) תהליך אבחון .1.12 . בחנתיות על פי סימנים ותסמינים, באמצעות רופא מומחה ובדיקות רפואיות   א\n, שהייה רצופה של המבוטח בבית חולים ציבורי או פרטי על פי הוראה מפורשת של רופא מוסמך : אשפוז .1.13 שעות ברציפות, במחלקות המוגדרות על ידי בית החולים ו/או משרד הבריאות כמחלקות 24 לפחות . למעט מחלקות שיקום , אשפוז"
 }

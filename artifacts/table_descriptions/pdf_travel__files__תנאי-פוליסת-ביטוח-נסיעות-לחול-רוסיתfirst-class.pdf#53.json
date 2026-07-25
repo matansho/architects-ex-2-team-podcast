@@ -2,23 +2,23 @@
   "id": "pdf:travel/files/תנאי-פוליסת-ביטוח-נסיעות-לחול-רוסיתfirst-class.pdf#53",
   "source": "llm",
   "description": {
-    "title": "רוסית First Class - החרגות",
-    "summary": "This table details exclusions to coverage under the 'רוסית First Class' travel insurance policy. It specifies situations where medical expenses will not be reimbursed.",
-    "embed_passage": "פוליסת 'רוסית First Class' אינה מכסה הפלות שנעשו מרצון ללא סיבה רפואית. כמו כן, הפוליסה אינה מכסה הוצאות מעקב הריון, בדיקות שגרתיות ובדיקות גנטיות, למעט בדיקות לאבחון ראשוני של הריון. הוצאות לאחר שבוע 12 להריון אינן מכוסות אלא אם קיימת חוות דעת רפואית על סכנה לחיי האישה או העובר.",
-    "row_axis": "Specific exclusion to medical coverage",
-    "column_axis": "N/A - list of exclusions",
+    "title": "החרגות ביטוח נסיעות",
+    "summary": "This table lists exclusions to travel insurance coverage. It details specific situations and treatments not covered by the policy.",
+    "embed_passage": "טבלה זו מפרטת החרגות לפוליסת ביטוח נסיעות, ומציינת מקרים וטיפולים ספציפיים שאינם מכוסים. ניתן לחפש החרגות לפי סוג הטיפול או המצב הרפואי. הפוליסה רוסיתfirst-class כוללת החרגות כגון הפלה יזומה שאינה מסיבות רפואיות, הוצאות מעקב הריון, והוצאות לאחר שבוע 12 להריון אלא אם קיימת סכנה לחיי האישה או העובר. החרגות אלו רלוונטיות לכל מקרה ביטוחי המתרחש במהלך תקופת הביטוח. הפלה יזומה, מעקב הריון, שבוע 12 להריון, סכנה לחיי האישה, סכנה לחיי העובר.",
+    "row_axis": "exclusion",
+    "column_axis": "description",
     "units": [],
     "notable_values": [
-      "exclusion: הפלה שנעשתה מרצון",
-      "exclusion: מעקב הריון",
-      "exclusion: הוצאות לאחר שבוע 12",
-      "week: 12"
+      "abortion (non-medical): excluded",
+      "pregnancy monitoring: excluded",
+      "12th week of pregnancy: exclusion limit",
+      "risk to woman's health: potential coverage"
     ],
     "product_hints": [
-      "רוסית First Class"
+      "רוסיתfirst-class"
     ]
   },
   "sketch": "4.3.3.1.  Добровольно сделанный аборт не по медицинским показаниям.\n4.3.3.2.  Расходы на наблюдение за беременностью, рутинные обследования и генетические анализы за исключением проверок, проводимых только в целях первичного диагностирования беременности.\n4.3.3.3.  Расходы, понесенные после завершения 12-той недели беременности, за исключением случаев, когда существует мнение дипломированного врача о том, что существует опасность для здоровья женщины и\\или для здоровья эмбриона и\\или для жизни женщины и\\или для жизни эмбриона.",
-  "embed_text": "פוליסת 'רוסית First Class' אינה מכסה הפלות שנעשו מרצון ללא סיבה רפואית. כמו כן, הפוליסה אינה מכסה הוצאות מעקב הריון, בדיקות שגרתיות ובדיקות גנטיות, למעט בדיקות לאבחון ראשוני של הריון. הוצאות לאחר שבוע 12 להריון אינן מכוסות אלא אם קיימת חוות דעת רפואית על סכנה לחיי האישה או העובר.",
-  "payload": "טבלה: רוסית First Class - החרגות\nThis table details exclusions to coverage under the 'רוסית First Class' travel insurance policy. It specifies situations where medical expenses will not be reimbursed.\nממדים: Specific exclusion to medical coverage, N/A - list of exclusions\n\n4.3.3.1.  Добровольно сделанный аборт не по медицинским показаниям.\n4.3.3.2.  Расходы на наблюдение за беременностью, рутинные обследования и генетические анализы за исключением проверок, проводимых только в целях первичного диагностирования беременности.\n4.3.3.3.  Расходы, понесенные после завершения 12-той недели беременности, за исключением случаев, когда существует мнение дипломированного врача о том, что существует опасность для здоровья женщины и\\или для здоровья эмбриона и\\или для жизни женщины и\\или для жизни эмбриона."
+  "embed_text": "טבלה זו מפרטת החרגות לפוליסת ביטוח נסיעות, ומציינת מקרים וטיפולים ספציפיים שאינם מכוסים. ניתן לחפש החרגות לפי סוג הטיפול או המצב הרפואי. הפוליסה רוסיתfirst-class כוללת החרגות כגון הפלה יזומה שאינה מסיבות רפואיות, הוצאות מעקב הריון, והוצאות לאחר שבוע 12 להריון אלא אם קיימת סכנה לחיי האישה או העובר. החרגות אלו רלוונטיות לכל מקרה ביטוחי המתרחש במהלך תקופת הביטוח. הפלה יזומה, מעקב הריון, שבוע 12 להריון, סכנה לחיי האישה, סכנה לחיי העובר. This table lists exclusions to travel insurance coverage. It details specific situations and treatments not covered by the policy. בין הערכים בטבלה: abortion (non-medical): excluded; pregnancy monitoring: excluded; 12th week of pregnancy: exclusion limit; risk to woman's health: potential coverage.",
+  "payload": "טבלה: החרגות ביטוח נסיעות\nThis table lists exclusions to travel insurance coverage. It details specific situations and treatments not covered by the policy.\nממדים: exclusion, description\n\n4.3.3.1.  Добровольно сделанный аборт не по медицинским показаниям.\n4.3.3.2.  Расходы на наблюдение за беременностью, рутинные обследования и генетические анализы за исключением проверок, проводимых только в целях первичного диагностирования беременности.\n4.3.3.3.  Расходы, понесенные после завершения 12-той недели беременности, за исключением случаев, когда существует мнение дипломированного врача о том, что существует опасность для здоровья женщины и\\или для здоровья эмбриона и\\или для жизни женщины и\\или для жизни эмбриона."
 }

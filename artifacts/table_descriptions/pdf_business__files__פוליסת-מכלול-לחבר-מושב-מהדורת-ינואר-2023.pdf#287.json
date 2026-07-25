@@ -3,23 +3,28 @@
   "source": "llm",
   "description": {
     "title": "הוצאות החלפת מפתח",
-    "summary": "This table details coverage for expenses incurred to replace keys or locks due to an insured event. It specifies a maximum liability of 1,000 ₪ per incident or for all incidents during the insurance period.",
-    "embed_passage": "פוליסת מכלול מורחבת לכסות הוצאות החלפת מפתח או מנעולים לדלתות חיצוניות, לדירת מגורים או לרכוש אחר השייך למבוטח. הכיסוי הוא עד 1,000 ש״ח למקרה אחד או לסך-כל המקרים בתקופת הביטוח, ומתייחס למפתחות שאבדו או ניזוקו כתוצאה מאירוע ביטוחי מכוסה.",
+    "summary": "This table details coverage for expenses incurred to replace keys or locks as a result of an insured event. It specifies a maximum liability amount per incident or during the policy period.",
+    "embed_passage": "טבלה זו מתייחסת להרחבה בפוליסת \"מכלול\" לחבר מושב, המכסה הוצאות החלפת מפתחות או מנעולים כתוצאה מאירוע ביטוח. ניתן לעיין בטבלה זו כדי להבין את גובה ההחזר המקסימלי עבור מקרה בודד או סך כל המקרים בתקופת הביטוח. הרחבה זו מכסה הוצאות שהוצאו על ידי המבוטח או בני משפחתו עבור החלפת מפתחות או מנעולים לדלתות חיצוניות, לדירה או לרכוש אחר, כולל שלט לרכב או לשער חשמלי. סכום ההחזר המקסימלי הוא 1,000 ש״ח למקרה אחד או לסך כל המקרים. מפתח, מנעול, החלפה, ש״ח, 1,000.",
     "row_axis": "Coverage details for key/lock replacement",
-    "column_axis": "Coverage limits and conditions",
+    "column_axis": "Coverage conditions and limits",
     "units": [
-      "₪"
+      "ש״ח"
     ],
     "notable_values": [
-      "Maximum liability: 1,000 ₪",
-      "Coverage applies to keys/locks for external doors",
-      "Coverage applies to residential properties"
+      "הוצאות החלפת מפתח: covered",
+      "אחריות המבטח: 1,000 ש״ח",
+      "מפתח או מנעול: covered",
+      "דלתות חיצוניות: covered",
+      "דירת מגורים: covered",
+      "רכוש אחר: covered",
+      "שלט לרכב: covered",
+      "שער חשמלי: covered"
     ],
     "product_hints": [
-      "מכלול"
+      "מכלול לחבר מושב"
     ]
   },
   "sketch": "הוצאות החלפת מפתח .21.3\n, הביטוח מורחב לכסות הוצאות שהוצאו בפועל על-ידי המבוטח או על-ידי בני-משפחתו לשם החלפת מפתחות או מנעולים לדלתות חיצוניות או לדירת מגורים או לרכוש אחר השייך למבוטח או בשימושו, כולל שלט לרכב או לשער חשמלי, כתוצאה ממקרה ביטוח המכוסה על-פי פרק זה.\nש״ח למקרה אחד או לסך-כל 1,000 אחריות המבטח בגין סעיף קטן זה, לא תעלה על המקרים שישולמו במהלך תקופת הביטוח.\nאין בהרחבה זו, כדי לגרוע או להגביל את זכאותו של המבוטח לתגמולי ביטוח, בשל מקרה ביטוח למפתח או למנעול כלשהו, על-פי פרק זה.",
-  "embed_text": "פוליסת מכלול מורחבת לכסות הוצאות החלפת מפתח או מנעולים לדלתות חיצוניות, לדירת מגורים או לרכוש אחר השייך למבוטח. הכיסוי הוא עד 1,000 ש״ח למקרה אחד או לסך-כל המקרים בתקופת הביטוח, ומתייחס למפתחות שאבדו או ניזוקו כתוצאה מאירוע ביטוחי מכוסה.",
-  "payload": "טבלה: הוצאות החלפת מפתח\nThis table details coverage for expenses incurred to replace keys or locks due to an insured event. It specifies a maximum liability of 1,000 ₪ per incident or for all incidents during the insurance period.\nממדים: Coverage details for key/lock replacement, Coverage limits and conditions\n\nהוצאות החלפת מפתח .21.3\n, הביטוח מורחב לכסות הוצאות שהוצאו בפועל על-ידי המבוטח או על-ידי בני-משפחתו לשם החלפת מפתחות או מנעולים לדלתות חיצוניות או לדירת מגורים או לרכוש אחר השייך למבוטח או בשימושו, כולל שלט לרכב או לשער חשמלי, כתוצאה ממקרה ביטוח המכוסה על-פי פרק זה.\nש״ח למקרה אחד או לסך-כל 1,000 אחריות המבטח בגין סעיף קטן זה, לא תעלה על המקרים שישולמו במהלך תקופת הביטוח.\nאין בהרחבה זו, כדי לגרוע או להגביל את זכאותו של המבוטח לתגמולי ביטוח, בשל מקרה ביטוח למפתח או למנעול כלשהו, על-פי פרק זה."
+  "embed_text": "טבלה זו מתייחסת להרחבה בפוליסת \"מכלול\" לחבר מושב, המכסה הוצאות החלפת מפתחות או מנעולים כתוצאה מאירוע ביטוח. ניתן לעיין בטבלה זו כדי להבין את גובה ההחזר המקסימלי עבור מקרה בודד או סך כל המקרים בתקופת הביטוח. הרחבה זו מכסה הוצאות שהוצאו על ידי המבוטח או בני משפחתו עבור החלפת מפתחות או מנעולים לדלתות חיצוניות, לדירה או לרכוש אחר, כולל שלט לרכב או לשער חשמלי. סכום ההחזר המקסימלי הוא 1,000 ש״ח למקרה אחד או לסך כל המקרים. מפתח, מנעול, החלפה, ש״ח, 1,000. This table details coverage for expenses incurred to replace keys or locks as a result of an insured event. It specifies a maximum liability amount per incident or during the policy period. בין הערכים בטבלה: מפתח או מנעול: covered; דירת מגורים: covered.",
+  "payload": "טבלה: הוצאות החלפת מפתח\nThis table details coverage for expenses incurred to replace keys or locks as a result of an insured event. It specifies a maximum liability amount per incident or during the policy period.\nממדים: Coverage details for key/lock replacement, Coverage conditions and limits\n\nהוצאות החלפת מפתח .21.3\n, הביטוח מורחב לכסות הוצאות שהוצאו בפועל על-ידי המבוטח או על-ידי בני-משפחתו לשם החלפת מפתחות או מנעולים לדלתות חיצוניות או לדירת מגורים או לרכוש אחר השייך למבוטח או בשימושו, כולל שלט לרכב או לשער חשמלי, כתוצאה ממקרה ביטוח המכוסה על-פי פרק זה.\nש״ח למקרה אחד או לסך-כל 1,000 אחריות המבטח בגין סעיף קטן זה, לא תעלה על המקרים שישולמו במהלך תקופת הביטוח.\nאין בהרחבה זו, כדי לגרוע או להגביל את זכאותו של המבוטח לתגמולי ביטוח, בשל מקרה ביטוח למפתח או למנעול כלשהו, על-פי פרק זה."
 }

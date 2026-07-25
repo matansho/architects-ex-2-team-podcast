@@ -3,22 +3,23 @@
   "source": "llm",
   "description": {
     "title": "שירותי דרך",
-    "summary": "This table details the compensation provided when a roadside assistance service cannot be delivered. It specifies a fixed payment of 300 ₪ to the insured.",
-    "embed_passage": "פוליסת ביטוח רכב פרטי ומסחרי עד 3.5 טון כוללת שירותי דרך מורחבים. במקרה של נבצר מנותן השירות לספק שירות, ישולם למבוטח סך של 300 ש״ח או עלות השירות ששולם, הנמוך מביניהם. תשלום זה מהווה פיצוי קבוע ומוסכם.",
-    "row_axis": "Scenarios where service cannot be provided",
+    "summary": "This table details the compensation provided when a 'חבילת שירותי דרך מורחבת' service cannot be delivered. It specifies a fixed payment amount of 300 ₪, minus any applicable self-participation fee.",
+    "embed_passage": "טבלה זו מתארת את הפיצוי הניתן כאשר שירות מ״חבילת שירותי דרך מורחבת״ אינו ניתן לביצוע. הפיצוי הקבוע הוא סך של 300 ש״ח, בניכוי השתתפות עצמית. השירותים ניתנים לרכב עד 3.5 טון. במקרה של נזק, סכום הפיצוי יהיה הנמוך מבין 300 ש״ח או עלות השירות ששולם על ידי המבוטח.",
+    "row_axis": "Scenario where service cannot be provided",
     "column_axis": "Compensation details",
     "units": [
       "₪"
     ],
     "notable_values": [
-      "payment amount: 300 ₪"
+      "Compensation amount: 300 ₪",
+      "Service: חבילת שירותי דרך מורחבת",
+      "Vehicle weight limit: 3.5 טון"
     ],
     "product_hints": [
-      "ביטוח רכב",
       "חבילת שירותי דרך מורחבת"
     ]
   },
   "sketch": "נבצר מנותן השירות לספק את השירות מכל סיבה שבשליטתו, ישלם נותן השירות ישירות .2.6 )שלוש מאות ש״ח( או את הסכום הנדרש לביצוע השירות, אשר ₪  300 למבוטח סך של שולם על-ידי המבוטח, תמורת חשבונית - הנמוך ביניהם. זאת בניכוי דמי ההשתתפות העצמית - כמקובל.\nתשלום זה יבוא במקום מתן השירות, כפיצוי קבוע ומוסכם למקבל השירות, ולמקבל השירות לא תהיה כל טענה נגד נותן השירות בקשר לכך.",
-  "embed_text": "פוליסת ביטוח רכב פרטי ומסחרי עד 3.5 טון כוללת שירותי דרך מורחבים. במקרה של נבצר מנותן השירות לספק שירות, ישולם למבוטח סך של 300 ש״ח או עלות השירות ששולם, הנמוך מביניהם. תשלום זה מהווה פיצוי קבוע ומוסכם.",
-  "payload": "טבלה: שירותי דרך\nThis table details the compensation provided when a roadside assistance service cannot be delivered. It specifies a fixed payment of 300 ₪ to the insured.\nממדים: Scenarios where service cannot be provided, Compensation details\n\nנבצר מנותן השירות לספק את השירות מכל סיבה שבשליטתו, ישלם נותן השירות ישירות .2.6 )שלוש מאות ש״ח( או את הסכום הנדרש לביצוע השירות, אשר ₪  300 למבוטח סך של שולם על-ידי המבוטח, תמורת חשבונית - הנמוך ביניהם. זאת בניכוי דמי ההשתתפות העצמית - כמקובל.\nתשלום זה יבוא במקום מתן השירות, כפיצוי קבוע ומוסכם למקבל השירות, ולמקבל השירות לא תהיה כל טענה נגד נותן השירות בקשר לכך."
+  "embed_text": "טבלה זו מתארת את הפיצוי הניתן כאשר שירות מ״חבילת שירותי דרך מורחבת״ אינו ניתן לביצוע. הפיצוי הקבוע הוא סך של 300 ש״ח, בניכוי השתתפות עצמית. השירותים ניתנים לרכב עד 3.5 טון. במקרה של נזק, סכום הפיצוי יהיה הנמוך מבין 300 ש״ח או עלות השירות ששולם על ידי המבוטח. This table details the compensation provided when a 'חבילת שירותי דרך מורחבת' service cannot be delivered. It specifies a fixed payment amount of 300 ₪, minus any applicable self-participation fee. בין הערכים בטבלה: Compensation amount: 300 ₪.",
+  "payload": "טבלה: שירותי דרך\nThis table details the compensation provided when a 'חבילת שירותי דרך מורחבת' service cannot be delivered. It specifies a fixed payment amount of 300 ₪, minus any applicable self-participation fee.\nממדים: Scenario where service cannot be provided, Compensation details\n\nנבצר מנותן השירות לספק את השירות מכל סיבה שבשליטתו, ישלם נותן השירות ישירות .2.6 )שלוש מאות ש״ח( או את הסכום הנדרש לביצוע השירות, אשר ₪  300 למבוטח סך של שולם על-ידי המבוטח, תמורת חשבונית - הנמוך ביניהם. זאת בניכוי דמי ההשתתפות העצמית - כמקובל.\nתשלום זה יבוא במקום מתן השירות, כפיצוי קבוע ומוסכם למקבל השירות, ולמקבל השירות לא תהיה כל טענה נגד נותן השירות בקשר לכך."
 }

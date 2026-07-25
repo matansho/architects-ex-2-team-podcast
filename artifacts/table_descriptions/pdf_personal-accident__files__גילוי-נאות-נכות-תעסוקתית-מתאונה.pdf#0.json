@@ -2,17 +2,16 @@
   "id": "pdf:personal-accident/files/גילוי-נאות-נכות-תעסוקתית-מתאונה.pdf#0",
   "source": "llm",
   "description": {
-    "title": "פרטי התקשרות הראל",
-    "summary": "This table provides contact information for Harel Insurance. It includes phone number, fax, email address, and website.",
-    "embed_passage": "Harel Insurance can be reached at phone number 037348178, fax, or email polisotbs@harel-ins.co.il. Their address is 5211802 גן, 3 הלל אבא, ת״ד 1951, רמת. You can also find more information on their website www.harel-group.co.il.",
+    "title": "פרטי התקשרות",
+    "summary": "This table provides contact information for Harel Insurance. It includes a phone number, fax number, email address, and physical address.",
+    "embed_passage": "טבלה זו מציגה את פרטי ההתקשרות של חברת ביטוח הראל, כולל טלפון, פקס, דואר אלקטרוני וכתובת. ניתן להשתמש במידע זה לפניות בנוגע לפוליסות ביטוח, כגון ביטוח תאונות אישיות. הראל מציעה שירותים שונים, וניתן למצוא מידע נוסף באתר האינטרנט שלהם. פרטי התקשרות: טלפון 037348178, פקס, דואר אלקטרוני polisotbs@harel-ins.co.il, כתובת: רמת 1951 ת\"ד 3, הלל אבא 5211802 גן.",
     "row_axis": "Contact details",
     "column_axis": "Contact type (phone, fax, email, address, website)",
     "units": [],
     "notable_values": [
       "Phone: 037348178",
       "Email: polisotbs@harel-ins.co.il",
-      "Address: 5211802 גן, 3 הלל אבא",
-      "ת״ד: 1951",
+      "Address: רמת 1951 ת\"ד 3, הלל אבא 5211802 גן",
       "Website: www.harel-group.co.il"
     ],
     "product_hints": [
@@ -20,6 +19,6 @@
     ]
   },
   "sketch": "0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\"רמת ,1951 ת\"\"ד ,3 הלל אבא 5211802 גן\",ט רנ האינט אתר תובת כ www.harel-group.co.il",
-  "embed_text": "Harel Insurance can be reached at phone number 037348178, fax, or email polisotbs@harel-ins.co.il. Their address is 5211802 גן, 3 הלל אבא, ת״ד 1951, רמת. You can also find more information on their website www.harel-group.co.il.",
-  "payload": "טבלה: פרטי התקשרות הראל\nThis table provides contact information for Harel Insurance. It includes phone number, fax, email address, and website.\nממדים: Contact details, Contact type (phone, fax, email, address, website)\n\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\"רמת ,1951 ת\"\"ד ,3 הלל אבא 5211802 גן\",ט רנ האינט אתר תובת כ www.harel-group.co.il"
+  "embed_text": "טבלה זו מציגה את פרטי ההתקשרות של חברת ביטוח הראל, כולל טלפון, פקס, דואר אלקטרוני וכתובת. ניתן להשתמש במידע זה לפניות בנוגע לפוליסות ביטוח, כגון ביטוח תאונות אישיות. הראל מציעה שירותים שונים, וניתן למצוא מידע נוסף באתר האינטרנט שלהם. פרטי התקשרות: טלפון 037348178, פקס, דואר אלקטרוני polisotbs@harel-ins.co.il, כתובת: רמת 1951 ת\"ד 3, הלל אבא 5211802 גן. This table provides contact information for Harel Insurance. It includes a phone number, fax number, email address, and physical address. בין הערכים בטבלה: Website: www.harel-group.co.il.",
+  "payload": "טבלה: פרטי התקשרות\nThis table provides contact information for Harel Insurance. It includes a phone number, fax number, email address, and physical address.\nממדים: Contact details, Contact type (phone, fax, email, address, website)\n\n0,1,2,3\n2735* טלפון 037348178 פקס,האלקטרוני הדואר כתובת polisotbs@harel-ins.co.il,\"רמת ,1951 ת\"\"ד ,3 הלל אבא 5211802 גן\",ט רנ האינט אתר תובת כ www.harel-group.co.il"
 }

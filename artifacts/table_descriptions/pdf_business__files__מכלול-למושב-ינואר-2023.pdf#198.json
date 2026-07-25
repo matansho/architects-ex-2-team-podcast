@@ -2,23 +2,27 @@
   "id": "pdf:business/files/מכלול-למושב-ינואר-2023.pdf#198",
   "source": "llm",
   "description": {
-    "title": "ביטוח כלי ירייה",
-    "summary": "This table details the insurance coverage for firearms, outlining conditions and exclusions. It specifies scenarios where coverage applies and does not apply, particularly regarding licensed owners and professional use.",
-    "embed_passage": "פוליסת 'מכלול' מספקת כיסוי ביטוח לכלי ירייה, אך ישנם תנאים. לדוגמה, הביטוח אינו מכסה חבות או הוצאות אם המבוטח משתמש בכלי ירייה כחייל צה\"ל או כשוטר. חשוב לציין שכלי הירייה אינו טעון בכדורים אלא בהימצאו בידי בעל הרישיון.",
-    "row_axis": "conditions/exclusions related to firearm insurance",
-    "column_axis": "details of coverage or lack thereof",
+    "title": "כיסוי כלי ירייה",
+    "summary": "This table details coverage related to firearms. It specifies conditions under which liability is covered or excluded when using firearms, particularly concerning licensed owners and specific professions.",
+    "embed_passage": "טבלה זו מתארת כיסוי ביטוחי הנוגע לכלי ירייה, ומפרטת תנאים שבהם חבות מכוסה או אינה מכוסה בעת שימוש בכלי ירייה. הכיסוי חל על בעלי רישיון, אך אינו מכסה שימוש כחייל צה״ל, שוטר או שומר. הפוליסה של מכלול למושב ינואר 2023 בוחנת את השימוש בכלי ירייה, רישיונות, צה״ל, משטרת ישראל, משמר הגבול, שומרים, תפקידים המחייבים נשיאת נשק, כלי ירייה טעונים, כדורים, חבות, הוצאות, מקרה ביטוח, מילוי תפקיד, עבודה, תחמושת.",
+    "row_axis": "conditions for firearm liability coverage",
+    "column_axis": "coverage details",
     "units": [],
     "notable_values": [
-      "כלי ירייה: לא טעון בכדורים",
-      "צה\"ל: לא מכוסה",
-      "משטרת ישראל: לא מכוסה",
-      "משמר הגבול: לא מכוסה"
+      "כלי ירייה טעון בכדורים: לא",
+      "בעל רישיון: כן",
+      "חייל צה״ל: לא מכוסה",
+      "שוטר במשטרת ישראל: לא מכוסה",
+      "משמר הגבול: לא מכוסה",
+      "שומר: לא מכוסה",
+      "תפקיד המחייב נשיאת נשק: לא מכוסה"
     ],
     "product_hints": [
-      "מכלול"
+      "מכלול",
+      "מושב ינואר 2023"
     ]
   },
   "sketch": "( כלי הירייה אינו טעון בכדורים, אלא בהימצאו בידי בעל הרישיון, בעת שהחזיק 3) את הנשק בפועל.\nואולם, מובהר בזאת כי הביטוח על פי פרק זה אינו מכסה חבות וגם או הוצאה כלשהם בגין מקרה ביטוח שיארע בזמן שהמבוטח משתמש בכלי-ירייה לצורך מילוי תפקידו כחייל צה\"ל, כשוטר במשטרת ישראל או במשמר הגבול או כשומר או כבעל תפקיד או עיסוק אחר המחייב לשאת נשק לצורך מילוי תפקידו או ביצוע עבודתו, אפילו אם כלי הירייה מוחזק על ידי המבוטח / בעל הרישיון לכלי הירייה כדין.",
-  "embed_text": "פוליסת 'מכלול' מספקת כיסוי ביטוח לכלי ירייה, אך ישנם תנאים. לדוגמה, הביטוח אינו מכסה חבות או הוצאות אם המבוטח משתמש בכלי ירייה כחייל צה\"ל או כשוטר. חשוב לציין שכלי הירייה אינו טעון בכדורים אלא בהימצאו בידי בעל הרישיון.",
-  "payload": "טבלה: ביטוח כלי ירייה\nThis table details the insurance coverage for firearms, outlining conditions and exclusions. It specifies scenarios where coverage applies and does not apply, particularly regarding licensed owners and professional use.\nממדים: conditions/exclusions related to firearm insurance, details of coverage or lack thereof\n\n( כלי הירייה אינו טעון בכדורים, אלא בהימצאו בידי בעל הרישיון, בעת שהחזיק 3) את הנשק בפועל.\nואולם, מובהר בזאת כי הביטוח על פי פרק זה אינו מכסה חבות וגם או הוצאה כלשהם בגין מקרה ביטוח שיארע בזמן שהמבוטח משתמש בכלי-ירייה לצורך מילוי תפקידו כחייל צה\"ל, כשוטר במשטרת ישראל או במשמר הגבול או כשומר או כבעל תפקיד או עיסוק אחר המחייב לשאת נשק לצורך מילוי תפקידו או ביצוע עבודתו, אפילו אם כלי הירייה מוחזק על ידי המבוטח / בעל הרישיון לכלי הירייה כדין."
+  "embed_text": "טבלה זו מתארת כיסוי ביטוחי הנוגע לכלי ירייה, ומפרטת תנאים שבהם חבות מכוסה או אינה מכוסה בעת שימוש בכלי ירייה. הכיסוי חל על בעלי רישיון, אך אינו מכסה שימוש כחייל צה״ל, שוטר או שומר. הפוליסה של מכלול למושב ינואר 2023 בוחנת את השימוש בכלי ירייה, רישיונות, צה״ל, משטרת ישראל, משמר הגבול, שומרים, תפקידים המחייבים נשיאת נשק, כלי ירייה טעונים, כדורים, חבות, הוצאות, מקרה ביטוח, מילוי תפקיד, עבודה, תחמושת. This table details coverage related to firearms. It specifies conditions under which liability is covered or excluded when using firearms, particularly concerning licensed owners and specific professions. בין הערכים בטבלה: כלי ירייה טעון בכדורים: לא; בעל רישיון: כן; שוטר במשטרת ישראל: לא מכוסה; תפקיד המחייב נשיאת נשק: לא מכוסה.",
+  "payload": "טבלה: כיסוי כלי ירייה\nThis table details coverage related to firearms. It specifies conditions under which liability is covered or excluded when using firearms, particularly concerning licensed owners and specific professions.\nממדים: conditions for firearm liability coverage, coverage details\n\n( כלי הירייה אינו טעון בכדורים, אלא בהימצאו בידי בעל הרישיון, בעת שהחזיק 3) את הנשק בפועל.\nואולם, מובהר בזאת כי הביטוח על פי פרק זה אינו מכסה חבות וגם או הוצאה כלשהם בגין מקרה ביטוח שיארע בזמן שהמבוטח משתמש בכלי-ירייה לצורך מילוי תפקידו כחייל צה\"ל, כשוטר במשטרת ישראל או במשמר הגבול או כשומר או כבעל תפקיד או עיסוק אחר המחייב לשאת נשק לצורך מילוי תפקידו או ביצוע עבודתו, אפילו אם כלי הירייה מוחזק על ידי המבוטח / בעל הרישיון לכלי הירייה כדין."
 }

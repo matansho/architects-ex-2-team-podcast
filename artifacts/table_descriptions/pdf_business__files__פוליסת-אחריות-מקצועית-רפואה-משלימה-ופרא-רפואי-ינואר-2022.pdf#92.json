@@ -2,22 +2,24 @@
   "id": "pdf:business/files/פוליסת-אחריות-מקצועית-רפואה-משלימה-ופרא-רפואי-ינואר-2022.pdf#92",
   "source": "llm",
   "description": {
-    "title": "פוליסת אחריות מקצועית",
-    "summary": "This table details the refund of insurance premiums and reduced benefits in cases of contract cancellation due to material changes or misrepresentation. It outlines the conditions under which the insurer can cancel the policy and the corresponding financial implications for the insured.",
-    "embed_passage": "פוליסת אחריות מקצועית רפואה משלימה ופרא-רפואי מגדירה את תנאי ההחזר של דמי ביטוח במקרה של ביטול חוזה. לדוגמה, אם המבטח מבטל את החוזה לפני קרות מקרה ביטוח, המבוטח זכאי להחזר דמי ביטוח ששילם עבור התקופה שלאחר הביטול, אלא אם כן פעל בכוונת מרמה. יחס דמי הביטוח המופחתים מחושב ביחס למצב האמיתי.",
-    "row_axis": "Cancellation scenarios and conditions",
-    "column_axis": "Insured's rights and insurer's obligations",
+    "title": "ביטול פוליסה",
+    "summary": "This table details the conditions under which an insurance policy can be cancelled and the resulting refund or reduced payout to the insured. It outlines scenarios related to material changes and misrepresentations.",
+    "embed_passage": "טבלה זו מתארת את התנאים לביטול פוליסת ביטוח ואת ההחזר או התשלום המופחת למבוטח. הפוליסה רלוונטית לביטוח אחריות מקצועית רפואה משלימה ופרא רפואי, ינואר 2022. ניתן לבטל את הפוליסה אם המבטח גילה מידע שגוי או שינוי מהותי שלא דווח. במקרה של ביטול לפני קרות מקרה ביטוח, המבוטח זכאי להחזר דמי ביטוח. אם מקרה הביטוח קרה לפני הביטול, המבטח חייב בתגמולים מופחתים. ביטול החוזה, תגמולי ביטוח מופחתים, דמי ביטוח, כוונת מרמה.",
+    "row_axis": "תנאי ביטול",
+    "column_axis": "השלכות ביטול",
     "units": [],
     "notable_values": [
-      "30 days: Timeframe for insurer to respond to incomplete or dishonest information",
-      "4.2.8: Clause regarding refund of premiums after cancellation",
-      "4.2.9: Clause regarding reduced benefits if an insurance event occurs before cancellation"
+      "תנאי זה: ביטול החוזה",
+      "החזר דמי ביטוח: לאחר הביטול",
+      "תגמולי ביטוח מופחתים: לפני קרות מקרה ביטוח",
+      "כוונת מרמה: פגיעה בזכויות המבוטח"
     ],
     "product_hints": [
-      "פוליסת אחריות מקצועית רפואה משלימה ופרא-רפואי"
+      "פוליסת אחריות מקצועית רפואה משלימה ופרא רפואי",
+      "ביטוח אחריות מקצועית"
     ]
   },
   "sketch": "ביטל המבטח את החוזה מכח תנאי זה עובר לקרות מקרה ביטוח, זכאי .4.2.8 המבוטח להחזר דמי ביטוח ששילם בעד התקופה שלאחר הביטול, זולת אם המבוטח פעל בכוונת מרמה.\nזה, אין המבטח 4.2 קרה מקרה הביטוח לפני שנתבטל החוזה מכוח תנאי .4.2.9 חייב אלא בתגמולי ביטוח מופחתים בשיעור יחסי, שהוא כיחס שבין דמי הביטוח שהיו משתלמים כמקובל אצלו לפי המצב לאמיתו לבין דמי הביטוח המוסכמים, והוא פטור כליל בכל אחת מאלה:",
-  "embed_text": "פוליסת אחריות מקצועית רפואה משלימה ופרא-רפואי מגדירה את תנאי ההחזר של דמי ביטוח במקרה של ביטול חוזה. לדוגמה, אם המבטח מבטל את החוזה לפני קרות מקרה ביטוח, המבוטח זכאי להחזר דמי ביטוח ששילם עבור התקופה שלאחר הביטול, אלא אם כן פעל בכוונת מרמה. יחס דמי הביטוח המופחתים מחושב ביחס למצב האמיתי.",
-  "payload": "טבלה: פוליסת אחריות מקצועית\nThis table details the refund of insurance premiums and reduced benefits in cases of contract cancellation due to material changes or misrepresentation. It outlines the conditions under which the insurer can cancel the policy and the corresponding financial implications for the insured.\nממדים: Cancellation scenarios and conditions, Insured's rights and insurer's obligations\n\nביטל המבטח את החוזה מכח תנאי זה עובר לקרות מקרה ביטוח, זכאי .4.2.8 המבוטח להחזר דמי ביטוח ששילם בעד התקופה שלאחר הביטול, זולת אם המבוטח פעל בכוונת מרמה.\nזה, אין המבטח 4.2 קרה מקרה הביטוח לפני שנתבטל החוזה מכוח תנאי .4.2.9 חייב אלא בתגמולי ביטוח מופחתים בשיעור יחסי, שהוא כיחס שבין דמי הביטוח שהיו משתלמים כמקובל אצלו לפי המצב לאמיתו לבין דמי הביטוח המוסכמים, והוא פטור כליל בכל אחת מאלה:"
+  "embed_text": "טבלה זו מתארת את התנאים לביטול פוליסת ביטוח ואת ההחזר או התשלום המופחת למבוטח. הפוליסה רלוונטית לביטוח אחריות מקצועית רפואה משלימה ופרא רפואי, ינואר 2022. ניתן לבטל את הפוליסה אם המבטח גילה מידע שגוי או שינוי מהותי שלא דווח. במקרה של ביטול לפני קרות מקרה ביטוח, המבוטח זכאי להחזר דמי ביטוח. אם מקרה הביטוח קרה לפני הביטול, המבטח חייב בתגמולים מופחתים. ביטול החוזה, תגמולי ביטוח מופחתים, דמי ביטוח, כוונת מרמה. This table details the conditions under which an insurance policy can be cancelled and the resulting refund or reduced payout to the insured. It outlines scenarios related to material changes and misrepresentations.",
+  "payload": "טבלה: ביטול פוליסה\nThis table details the conditions under which an insurance policy can be cancelled and the resulting refund or reduced payout to the insured. It outlines scenarios related to material changes and misrepresentations.\nממדים: תנאי ביטול, השלכות ביטול\n\nביטל המבטח את החוזה מכח תנאי זה עובר לקרות מקרה ביטוח, זכאי .4.2.8 המבוטח להחזר דמי ביטוח ששילם בעד התקופה שלאחר הביטול, זולת אם המבוטח פעל בכוונת מרמה.\nזה, אין המבטח 4.2 קרה מקרה הביטוח לפני שנתבטל החוזה מכוח תנאי .4.2.9 חייב אלא בתגמולי ביטוח מופחתים בשיעור יחסי, שהוא כיחס שבין דמי הביטוח שהיו משתלמים כמקובל אצלו לפי המצב לאמיתו לבין דמי הביטוח המוסכמים, והוא פטור כליל בכל אחת מאלה:"
 }

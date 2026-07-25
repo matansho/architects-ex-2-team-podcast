@@ -3,22 +3,21 @@
   "source": "llm",
   "description": {
     "title": "תחלוף",
-    "summary": "This table details the subrogation rights of the insurer. It outlines how the insurer can recover payments made to the insured from a third party responsible for the loss.",
-    "embed_passage": "פוליסת הביטוח מתייחסת לתחלוף, כלומר זכות המבטח לקבל פיצוי מצד שלישי. אם המבוטח קיבל פיצוי מצד שלישי, הוא צריך להעביר אותו למבטח. לדוגמה, אם שילם המבטח 500 ₪ למבוטח, והמבוטח קיבל 300 ₪ מצד שלישי, המבוטח צריך להעביר 300 ₪ למבטח.",
-    "row_axis": "Scenarios related to subrogation rights",
-    "column_axis": "Conditions and actions regarding subrogation",
+    "summary": "This table details subrogation rights (תחלוף) for insurance claims. It outlines how the insurer can recover payments made to the insured from third parties.",
+    "embed_passage": "טבלה זו עוסקת בזכויות תחלוף של המבטח, כלומר הזכות של המבטח לגבות תשלומים ששולמו למבוטח מצד שלישי. במקרה של תביעה, אם למבוטח יש זכות לפיצוי מצד שלישי, זכות זו עוברת למבטח לאחר תשלום התגמולים. המבטח אינו רשאי לפגוע בזכות המבוטח לגבות פיצוי מעבר לתגמולים שקיבל מהמבטח. אם המבוטח קיבל פיצוי מצד שלישי שהיה מגיע למבטח, עליו להעבירו למבטח. תנאי זה חל גם על פשרה או ויתור על זכות תביעה, גם אם נעשתה לפני תחילת הביטוח. תחלוף, פיצוי, שיפוי, תגמולים.",
+    "row_axis": "Conditions of subrogation (א, ב, ג)",
+    "column_axis": "Subrogation rights and obligations",
     "units": [],
     "notable_values": [
-      "5.13: Section number for subrogation",
-      "5.11: Section number for insurance amount reduction",
-      "5.12: Section number for self-participation",
-      "5.15: Section number for insurance period extension"
+      "condition א: transfer of rights upon payment",
+      "condition ב: insurer's limitations",
+      "condition ג: insured's obligation to transfer funds"
     ],
     "product_hints": [
-      "פוליסת ביטוח"
+      "תחלוף"
     ]
   },
   "sketch": ".  תחלוף 5.13\n, א. אם בשל מקרה הביטוח הייתה למבוטח, גם זכות פיצוי או שיפוי כלפי צד שלישי שלא מכוח חוזה ביטוח, עוברת זכות זו למבטח מששילם למבוטח את תגמולי הביטוח ו/או לאחר ששיפה את המבוטח בתגמולים (לפי העניין), ובשיעור התגמולים ששילם או שיפה.\nב. המבטח אינו רשאי להשתמש בזכות שעברה אליו לפי תנאי זה באופן שיפגע בזכותו של המבוטח לגבות מן הצד השלישי פיצוי או שיפוי מעבר לתגמולים שקיבל מן המבטח.\n, ג.  קיבל המבוטח מן הצד השלישי פיצוי או שיפוי שהיה מגיע למבטח לפי תנאי זה עליו להעבירו למבטח. עשה פשרה, ויתור או פעולה אחרת הפוגעת בזכות שעברה למבטח, אף אם נעשתה לפני תחילת הביטוח, עליו לפצותה בשל כך.",
-  "embed_text": "פוליסת הביטוח מתייחסת לתחלוף, כלומר זכות המבטח לקבל פיצוי מצד שלישי. אם המבוטח קיבל פיצוי מצד שלישי, הוא צריך להעביר אותו למבטח. לדוגמה, אם שילם המבטח 500 ₪ למבוטח, והמבוטח קיבל 300 ₪ מצד שלישי, המבוטח צריך להעביר 300 ₪ למבטח.",
-  "payload": "טבלה: תחלוף\nThis table details the subrogation rights of the insurer. It outlines how the insurer can recover payments made to the insured from a third party responsible for the loss.\nממדים: Scenarios related to subrogation rights, Conditions and actions regarding subrogation\n\n.  תחלוף 5.13\n, א. אם בשל מקרה הביטוח הייתה למבוטח, גם זכות פיצוי או שיפוי כלפי צד שלישי שלא מכוח חוזה ביטוח, עוברת זכות זו למבטח מששילם למבוטח את תגמולי הביטוח ו/או לאחר ששיפה את המבוטח בתגמולים (לפי העניין), ובשיעור התגמולים ששילם או שיפה.\nב. המבטח אינו רשאי להשתמש בזכות שעברה אליו לפי תנאי זה באופן שיפגע בזכותו של המבוטח לגבות מן הצד השלישי פיצוי או שיפוי מעבר לתגמולים שקיבל מן המבטח.\n, ג.  קיבל המבוטח מן הצד השלישי פיצוי או שיפוי שהיה מגיע למבטח לפי תנאי זה עליו להעבירו למבטח. עשה פשרה, ויתור או פעולה אחרת הפוגעת בזכות שעברה למבטח, אף אם נעשתה לפני תחילת הביטוח, עליו לפצותה בשל כך."
+  "embed_text": "טבלה זו עוסקת בזכויות תחלוף של המבטח, כלומר הזכות של המבטח לגבות תשלומים ששולמו למבוטח מצד שלישי. במקרה של תביעה, אם למבוטח יש זכות לפיצוי מצד שלישי, זכות זו עוברת למבטח לאחר תשלום התגמולים. המבטח אינו רשאי לפגוע בזכות המבוטח לגבות פיצוי מעבר לתגמולים שקיבל מהמבטח. אם המבוטח קיבל פיצוי מצד שלישי שהיה מגיע למבטח, עליו להעבירו למבטח. תנאי זה חל גם על פשרה או ויתור על זכות תביעה, גם אם נעשתה לפני תחילת הביטוח. תחלוף, פיצוי, שיפוי, תגמולים. This table details subrogation rights (תחלוף) for insurance claims. It outlines how the insurer can recover payments made to the insured from third parties. בין הערכים בטבלה: condition א: transfer of rights upon payment; condition ב: insurer's limitations; condition ג: insured's obligation to transfer funds.",
+  "payload": "טבלה: תחלוף\nThis table details subrogation rights (תחלוף) for insurance claims. It outlines how the insurer can recover payments made to the insured from third parties.\nממדים: Conditions of subrogation (א, ב, ג), Subrogation rights and obligations\n\n.  תחלוף 5.13\n, א. אם בשל מקרה הביטוח הייתה למבוטח, גם זכות פיצוי או שיפוי כלפי צד שלישי שלא מכוח חוזה ביטוח, עוברת זכות זו למבטח מששילם למבוטח את תגמולי הביטוח ו/או לאחר ששיפה את המבוטח בתגמולים (לפי העניין), ובשיעור התגמולים ששילם או שיפה.\nב. המבטח אינו רשאי להשתמש בזכות שעברה אליו לפי תנאי זה באופן שיפגע בזכותו של המבוטח לגבות מן הצד השלישי פיצוי או שיפוי מעבר לתגמולים שקיבל מן המבטח.\n, ג.  קיבל המבוטח מן הצד השלישי פיצוי או שיפוי שהיה מגיע למבטח לפי תנאי זה עליו להעבירו למבטח. עשה פשרה, ויתור או פעולה אחרת הפוגעת בזכות שעברה למבטח, אף אם נעשתה לפני תחילת הביטוח, עליו לפצותה בשל כך."
 }

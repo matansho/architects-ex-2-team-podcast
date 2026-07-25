@@ -3,20 +3,17 @@
   "source": "llm",
   "description": {
     "title": "השתתפות עצמית",
-    "summary": "This table details the self-participation amounts the insured must pay in case of a claim covered by the policy. It outlines the insured's obligation to pay these amounts immediately upon opening a claim.",
-    "embed_passage": "פוליסת שירביט לביטוח ימי ליאכטות וסירות מגדירה את גובה ההשתתפות העצמית שהמבוטח ישלם במקרה של תביעת שיפוי. גובה ההשתתפות העצמית משתנה בהתאם לנסיבות המקרה, והמבוטח חייב לשלם את הסכום מיד עם פתיחת התביעה. לדוגמה, במקרה של חבות מכוסה, המבוטח יישא בהשתתפות עצמית כמפורט ברשימה.",
-    "row_axis": "claim type / coverage",
-    "column_axis": "self-participation amount",
+    "summary": "This table details the self-participation amounts the insured must pay in case of a claim covered by the policy. It outlines the insured's obligation to cover self-participation even for expenses incurred by the company.",
+    "embed_passage": "טבלה זו מתארת את סכומי ההשתתפות העצמית שהמבוטח חייב לשלם במקרה של תביעה המכוסה על פי הפוליסה. הפוליסה היא פוליסה לביטוח ימי ליאכטות וסירות מבית שירביט. המבוטח יישא בהשתתפות עצמית כמפורט ברשימה, מיד עם פתיחת התביעה בחברה. הטבלה מפרטת את חובת המבוטח לשאת בהשתתפות עצמית גם לגבי הוצאות שהוצאו עקב הגשת התביעה. ההשתתפות העצמית חלה גם אם לא שולם סכום כלשהו לצד ג' על ידי החברה.",
+    "row_axis": "סוג תביעה (implied)",
+    "column_axis": "סכום השתתפות עצמית",
     "units": [],
-    "notable_values": [
-      "policy type: ימי ליאכטות וסירות",
-      "self-participation: varies by claim type"
-    ],
+    "notable_values": [],
     "product_hints": [
-      "שירביט לביטוח ימי ליאכטות וסירות"
+      "פוליסה לביטוח ימי ליאכטות וסירות שירביט"
     ]
   },
   "sketch": "השתתפות עצמית .9\nבמקרה של תביעת שיפוי בגין חבות המכוסה על פי פוליסה זו, יישא המבוטח על המבוטח לשלם דמי השתתפות . בהשתתפות עצמית כמפורט ברשימה . עצמית, מיד עם פתיחת התביעה בחברה\nחובת המבוטח לשאת בהשתתפות עצמית חלה גם לגבי כל סכום בו נשאה החברה, לרבות הוצאות שהוצאו עקב הגשת התביעה, ו/או קבלת הודעה על\nמקרה הביטוח וזאת גם אם לא שולמו תגמולי ביטוח או פיצויים לצד שלישי. המבוטח  חייב  לשאת  בהשתתפות  עצמית  גם  אם  לא  שולם  לצד  ג' סכום . כלשהו ע\"י החברה, בהתאם לאמור  לעיל",
-  "embed_text": "פוליסת שירביט לביטוח ימי ליאכטות וסירות מגדירה את גובה ההשתתפות העצמית שהמבוטח ישלם במקרה של תביעת שיפוי. גובה ההשתתפות העצמית משתנה בהתאם לנסיבות המקרה, והמבוטח חייב לשלם את הסכום מיד עם פתיחת התביעה. לדוגמה, במקרה של חבות מכוסה, המבוטח יישא בהשתתפות עצמית כמפורט ברשימה.",
-  "payload": "טבלה: השתתפות עצמית\nThis table details the self-participation amounts the insured must pay in case of a claim covered by the policy. It outlines the insured's obligation to pay these amounts immediately upon opening a claim.\nממדים: claim type / coverage, self-participation amount\n\nהשתתפות עצמית .9\nבמקרה של תביעת שיפוי בגין חבות המכוסה על פי פוליסה זו, יישא המבוטח על המבוטח לשלם דמי השתתפות . בהשתתפות עצמית כמפורט ברשימה . עצמית, מיד עם פתיחת התביעה בחברה\nחובת המבוטח לשאת בהשתתפות עצמית חלה גם לגבי כל סכום בו נשאה החברה, לרבות הוצאות שהוצאו עקב הגשת התביעה, ו/או קבלת הודעה על\nמקרה הביטוח וזאת גם אם לא שולמו תגמולי ביטוח או פיצויים לצד שלישי. המבוטח  חייב  לשאת  בהשתתפות  עצמית  גם  אם  לא  שולם  לצד  ג' סכום . כלשהו ע\"י החברה, בהתאם לאמור  לעיל"
+  "embed_text": "טבלה זו מתארת את סכומי ההשתתפות העצמית שהמבוטח חייב לשלם במקרה של תביעה המכוסה על פי הפוליסה. הפוליסה היא פוליסה לביטוח ימי ליאכטות וסירות מבית שירביט. המבוטח יישא בהשתתפות עצמית כמפורט ברשימה, מיד עם פתיחת התביעה בחברה. הטבלה מפרטת את חובת המבוטח לשאת בהשתתפות עצמית גם לגבי הוצאות שהוצאו עקב הגשת התביעה. ההשתתפות העצמית חלה גם אם לא שולם סכום כלשהו לצד ג' על ידי החברה. This table details the self-participation amounts the insured must pay in case of a claim covered by the policy. It outlines the insured's obligation to cover self-participation even for expenses incurred by the company.",
+  "payload": "טבלה: השתתפות עצמית\nThis table details the self-participation amounts the insured must pay in case of a claim covered by the policy. It outlines the insured's obligation to cover self-participation even for expenses incurred by the company.\nממדים: סוג תביעה (implied), סכום השתתפות עצמית\n\nהשתתפות עצמית .9\nבמקרה של תביעת שיפוי בגין חבות המכוסה על פי פוליסה זו, יישא המבוטח על המבוטח לשלם דמי השתתפות . בהשתתפות עצמית כמפורט ברשימה . עצמית, מיד עם פתיחת התביעה בחברה\nחובת המבוטח לשאת בהשתתפות עצמית חלה גם לגבי כל סכום בו נשאה החברה, לרבות הוצאות שהוצאו עקב הגשת התביעה, ו/או קבלת הודעה על\nמקרה הביטוח וזאת גם אם לא שולמו תגמולי ביטוח או פיצויים לצד שלישי. המבוטח  חייב  לשאת  בהשתתפות  עצמית  גם  אם  לא  שולם  לצד  ג' סכום . כלשהו ע\"י החברה, בהתאם לאמור  לעיל"
 }

@@ -598,7 +598,20 @@ def question_payload(
 
 
 def table_headers(runs: list[dict], has_eval: bool, has_corpus: bool) -> str:
-    fixed = '<th class="sortable" data-key="id">ID</th><th class="sortable" data-key="domain">Domain</th><th class="sortable" data-key="difficulty">Diff</th><th class="sortable" data-key="outcome">Outcome</th>'
+    # sticky-c0..c3 = question columns pinned on horizontal scroll
+    fixed = (
+        '<th class="sortable sticky-col sticky-c0" data-key="id">ID</th>'
+        '<th class="sortable sticky-col sticky-c1" data-key="domain">Domain</th>'
+        '<th class="sortable sticky-col sticky-c2" data-key="difficulty">Diff</th>'
+        '<th class="sortable sticky-col sticky-c3" data-key="outcome">Outcome</th>'
+    )
+    # Second header row needs one cell per sticky col (colspan breaks position:sticky).
+    fixed_sub = (
+        '<th class="sub sticky-col sticky-c0"></th>'
+        '<th class="sub sticky-col sticky-c1"></th>'
+        '<th class="sub sticky-col sticky-c2"></th>'
+        '<th class="sub sticky-col sticky-c3"></th>'
+    )
     per_run = []
     for r in runs:
         label = esc(r["label"])
@@ -632,7 +645,7 @@ def table_headers(runs: list[dict], has_eval: bool, has_corpus: bool) -> str:
                 '<th class="sub sortable" data-key="citation">Cite</th>',
                 '<th class="sub sortable" data-key="latency">Lat</th>',
             ])
-    return f"<tr>{fixed}{''.join(per_run)}</tr><tr><th colspan=\"4\"></th>{''.join(sub)}</tr>"
+    return f"<tr>{fixed}{''.join(per_run)}</tr><tr>{fixed_sub}{''.join(sub)}</tr>"
 
 
 def build_html(
@@ -781,20 +794,32 @@ def build_html(
     .sources code {{ background: #1e3a5f; padding: .08rem .28rem; border-radius: 4px; font-size: .74rem; color: #93c5fd; }}
     .table-toolbar {{ display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; margin-bottom: .6rem; }}
     .table-wrap {{ max-height: 620px; overflow: auto; border: 1px solid var(--border); border-radius: 10px; }}
-    table {{ width: 100%; border-collapse: separate; border-spacing: 0; font-size: .78rem; }}
+    table {{ width: max-content; min-width: 100%; border-collapse: separate; border-spacing: 0; font-size: .78rem; }}
     th, td {{ border-bottom: 1px solid var(--border); padding: .38rem .45rem; text-align: center; vertical-align: middle; }}
     th {{ background: #1a222d; position: sticky; top: 0; z-index: 2; color: #cbd5e1; }}
     th.run-group {{ background: #1e3a5f; color: #93c5fd; font-size: .76rem; border-left: 2px solid #3b82f6; }}
     th.sub {{ top: 28px; font-size: .7rem; color: var(--muted); font-weight: 500; }}
     th.sortable {{ cursor: pointer; user-select: none; }}
     th.sortable:hover {{ background: #243044; }}
+    /* Pin question columns while scrolling run metrics horizontally */
+    .sticky-col {{ position: sticky; z-index: 1; background: var(--bg); }}
+    th.sticky-col {{ z-index: 5; background: #1a222d; }}
+    th.sticky-col.sub {{ z-index: 4; top: 28px; background: #1a222d; }}
+    .sticky-c0 {{ left: 0; min-width: 210px; max-width: 240px; }}
+    .sticky-c1 {{ left: 210px; min-width: 110px; }}
+    .sticky-c2 {{ left: 320px; min-width: 72px; }}
+    .sticky-c3 {{ left: 392px; min-width: 100px; box-shadow: 2px 0 0 #2a3544; }}
     td.id-cell {{ text-align: left; font-weight: 500; color: #e2e8f0; white-space: nowrap; }}
     td.domain-cell {{ text-align: left; color: var(--muted); }}
     tr.data-row {{ cursor: pointer; }}
-    tr.data-row:hover {{ background: #1e293b; }}
-    tr.data-row.active {{ background: #1e3a5f; }}
-    tr.data-row:nth-child(even) {{ background: #121820; }}
-    tr.data-row:nth-child(even):hover {{ background: #1e293b; }}
+    tr.data-row td.sticky-col {{ background: var(--bg); }}
+    tr.data-row:nth-child(even) td.sticky-col {{ background: #121820; }}
+    tr.data-row:hover td {{ background: #1e293b; }}
+    tr.data-row:hover td.sticky-col {{ background: #1e293b; }}
+    tr.data-row.active td {{ background: #1e3a5f; }}
+    tr.data-row.active td.sticky-col {{ background: #1e3a5f; }}
+    tr.data-row:nth-child(even) td:not(.sticky-col) {{ background: #121820; }}
+    tr.data-row:nth-child(even):hover td {{ background: #1e293b; }}
     .cell-yes {{ color: var(--good); font-weight: 700; }}
     .cell-no {{ color: var(--bad); font-weight: 700; }}
     .cell-dash {{ color: #64748b; }}
@@ -1093,10 +1118,10 @@ def build_html(
           return `<td>${{pct(r.citation_score)}}</td><td>${{latency}}</td>`;
         }}).join('');
         return `<tr class="data-row${{activeRowId===id?' active':''}}" data-id="${{id}}" data-domain="${{q.domain}}" data-diff="${{q.difficulty}}">
-          <td class="id-cell">${{id}}</td>
-          <td class="domain-cell">${{q.domain}}</td>
-          <td><span class="badge ${{q.difficulty}}">${{q.difficulty}}</span></td>
-          <td><span class="outcome-pill ${{oc}}">${{oc}}</span></td>
+          <td class="id-cell sticky-col sticky-c0">${{id}}</td>
+          <td class="domain-cell sticky-col sticky-c1">${{q.domain}}</td>
+          <td class="sticky-col sticky-c2"><span class="badge ${{q.difficulty}}">${{q.difficulty}}</span></td>
+          <td class="sticky-col sticky-c3"><span class="outcome-pill ${{oc}}">${{oc}}</span></td>
           ${{cells}}
         </tr>`;
       }}).join('');

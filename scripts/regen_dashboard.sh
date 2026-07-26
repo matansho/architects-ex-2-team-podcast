@@ -31,6 +31,9 @@ python scripts/generate_compare_dashboard.py \
   --run "RAG rerank + route80+20 + nofaq|reports/rag_answers_rerank_k20_w2_route80_20_nofaq.jsonl" \
   --run "RAG rerank + route80+20 + hits cite|reports/rag_answers_rerank_k20_w2_route80_20_nofaq_cite.jsonl" \
   --run "RAG rerank + route80+20 + passage cite|reports/rag_answers_rerank_k20_w2_route80_20_passage_cite.jsonl" \
+  --run "RAG rerank + route40+10 + passage cite|reports/rag_answers_rerank_k20_w2_route40_10_passage_cite.jsonl" \
+  --corpus-eval "RAG rerank + route80+20 + passage cite|reports/stage2/rag_rerank_k20_w2_route80_20_corpus_judge_eval.json" \
+  --corpus-eval "RAG rerank + route40+10 + passage cite|reports/stage2/rag_rerank_k20_w2_route40_10_corpus_judge_eval.json" \
   --eval "Baseline|reports/stage1/baseline_eval.json" \
   --eval "Few-shot + cite|reports/stage1/few_shot_eval.json" \
   --eval "Few-shot + concise|reports/stage1/concise_few_shot_eval.json" \
@@ -51,6 +54,7 @@ python scripts/generate_compare_dashboard.py \
   --eval "RAG rerank + route80+20 + nofaq|reports/stage2/rag_rerank_k20_w2_route80_20_nofaq_eval.json" \
   --eval "RAG rerank + route80+20 + hits cite|reports/stage2/rag_rerank_k20_w2_route80_20_nofaq_cite_eval.json" \
   --eval "RAG rerank + route80+20 + passage cite|reports/stage2/rag_rerank_k20_w2_route80_20_passage_cite_eval.json" \
+  --eval "RAG rerank + route40+10 + passage cite|reports/stage2/rag_rerank_k20_w2_route40_10_passage_cite_eval.json" \
   --prompt "RAG no-cite|rag-no-cite" \
   --prompt "RAG no-cite k10±2|rag-no-cite" \
   --prompt "RAG no-cite k20±2|rag-no-cite" \
@@ -63,6 +67,7 @@ python scripts/generate_compare_dashboard.py \
   --prompt "RAG rerank + route80+20 + nofaq|rag-no-cite" \
   --prompt "RAG rerank + route80+20 + hits cite|rag-no-cite" \
   --prompt "RAG rerank + route80+20 + passage cite|rag-no-cite" \
+  --prompt "RAG rerank + route40+10 + passage cite|rag-no-cite" \
   --out reports/stage1/stage1_prompt_strategy_comparison.html
 
 cp reports/stage1/stage1_prompt_strategy_comparison.html deliverables/stage1_prompt_strategy_comparison.html

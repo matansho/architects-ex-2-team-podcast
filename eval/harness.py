@@ -9,7 +9,12 @@ from pathlib import Path
 from typing import Any
 
 from eval.citation import score_citations
-from eval.judge import JudgeScore, judge_answer
+from eval.corpus import (
+    enrich_resolved_with_tables,
+    load_table_payloads_by_location,
+    resolve_citations,
+)
+from eval.judge import CorpusJudgeScore, JudgeScore, judge_answer, judge_answer_corpus
 
 
 @dataclass
@@ -208,3 +213,130 @@ def print_summary(report: EvalReport) -> None:
             f"    {diff:6s}  rel={stats['relevance_rate']:.0%}  "
             f"hall={stats['hallucination_rate']:.0%}  cite={stats['citation_accuracy']:.0%}"
         )
+
+
+@dataclass
+class CorpusQuestionResult:
+    id: str
+    domain: str
+    difficulty: str
+    question: str
+    answer: str
+    ground_truth_answer: str
+    gt_covered: bool
+    fully_supported: bool
+    refusal: bool
+    ok: bool
+    citations_resolved: int
+    citations_total: int
+    tables_attached: int
+    judge_reasoning: str
+    judge_cost_usd: float
+
+
+@dataclass
+class CorpusEvalReport:
+    run_label: str
+    total: int
+    gt_covered_rate: float
+    fully_supported_rate: float
+    refusal_rate: float
+    ok_rate: float
+    judge_cost_usd: float
+    results: list[CorpusQuestionResult] = field(default_factory=list)
+
+
+def run_corpus_judge_eval(
+    answers_path: str | Path,
+    questions_path: str | Path = "reference_questions.json",
+    corpus_path: str | Path = "corpus",
+    index_dir: str | Path = "data/index",
+    run_label: str = "corpus-judge",
+    judge_model: str = "deepseek-ai/DeepSeek-V4-Pro",
+    limit: int | None = None,
+    quiet_judge: bool = False,
+) -> CorpusEvalReport:
+    """Second judge only: GT ⊆ answer and answer ⊆ cited sources (+ index tables)."""
+    questions = load_questions(questions_path)
+    answers = load_answers(answers_path)
+    ids = [qid for qid in questions if qid in answers]
+    if limit:
+        ids = ids[:limit]
+
+    print("Loading index table payloads…", flush=True)
+    table_by_loc = load_table_payloads_by_location(index_dir)
+    print(f"  {len(table_by_loc)} (file,page) locations with tables", flush=True)
+
+    results: list[CorpusQuestionResult] = []
+    judge_cost = 0.0
+    corpus_root = Path(corpus_path)
+
+    for qid in ids:
+        q = questions[qid]
+        a = answers[qid]
+        print(f"scoring {qid}...", flush=True)
+        citations = a.get("citations") or []
+        resolved = resolve_citations(corpus_root, citations)
+        enrich_resolved_with_tables(resolved, table_by_loc)
+        tables_attached = sum(len(r.table_payloads or []) for r in resolved)
+
+        js: CorpusJudgeScore = judge_answer_corpus(
+            question=q["question"],
+            ground_truth=q["ground_truth_answer"],
+            answer=a.get("answer", ""),
+            resolved=resolved,
+            model=judge_model,
+            quiet=quiet_judge,
+        )
+        judge_cost += js.cost_usd
+        results.append(
+            CorpusQuestionResult(
+                id=qid,
+                domain=q["domain"],
+                difficulty=q["difficulty"],
+                question=q["question"],
+                answer=a.get("answer", ""),
+                ground_truth_answer=q["ground_truth_answer"],
+                gt_covered=js.gt_covered,
+                fully_supported=js.fully_supported,
+                refusal=js.refusal,
+                ok=js.ok,
+                citations_resolved=sum(1 for r in resolved if r.ok),
+                citations_total=len(resolved),
+                tables_attached=tables_attached,
+                judge_reasoning=js.reasoning,
+                judge_cost_usd=js.cost_usd,
+            )
+        )
+
+    return CorpusEvalReport(
+        run_label=run_label,
+        total=len(results),
+        gt_covered_rate=_rate([r.gt_covered for r in results]),
+        fully_supported_rate=_rate([r.fully_supported for r in results]),
+        refusal_rate=_rate([r.refusal for r in results]),
+        ok_rate=_rate([r.ok for r in results]),
+        judge_cost_usd=judge_cost,
+        results=results,
+    )
+
+
+def print_corpus_summary(report: CorpusEvalReport) -> None:
+    print(f"\n=== {report.run_label} ({report.total} questions) ===")
+    print(f"  gt_covered:       {report.gt_covered_rate:.1%}")
+    print(f"  fully_supported:  {report.fully_supported_rate:.1%}")
+    print(f"  refusal:          {report.refusal_rate:.1%}")
+    print(f"  ok (both):        {report.ok_rate:.1%}")
+    if report.judge_cost_usd:
+        print(f"  judge cost:       ~${report.judge_cost_usd:.4f}")
+
+    fails = [r for r in report.results if not r.ok]
+    if fails:
+        print(f"\n  failures ({len(fails)}):")
+        for r in fails:
+            print(
+                f"    {r.id}: covered={r.gt_covered} supported={r.fully_supported} "
+                f"refusal={r.refusal} tables={r.tables_attached}"
+            )
+            if r.judge_reasoning:
+                print(f"      {r.judge_reasoning}")

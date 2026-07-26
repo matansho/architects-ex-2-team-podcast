@@ -74,8 +74,55 @@ def _format_sources(resolved: list) -> str:
     blocks: list[str] = []
     for i, r in enumerate(resolved, start=1):
         page = f" (page {r.page})" if r.page else ""
-        blocks.append(f"--- Citation {i}: {r.file}{page} ---\n{r.text}")
+        body = r.text_for_judge() if hasattr(r, "text_for_judge") else (r.text or "")
+        blocks.append(f"--- Citation {i}: {r.file}{page} ---\n{body}")
     return "\n\n".join(blocks)
+
+
+CORPUS_JUDGE_SYSTEM = """You are an evaluation judge for a Hebrew insurance Q&A system.
+Score ONE model answer with two independent checks against (1) a ground-truth
+reference answer and (2) the text of the model's cited corpus pages (which may
+include extracted page text and table payloads from our index).
+
+Return ONLY valid JSON with these fields:
+- gt_covered (bool): true if EVERY core fact in the ground-truth answer is present
+  and correct in the model answer. Minor wording differences are fine. Extra
+  details in the model answer are allowed and do NOT make this false. On a
+  multi-part ground truth, all required facts must appear.
+- fully_supported (bool): true if EVERY specific checkable fact in the model
+  answer — a number, date, duration, monetary amount, percentage, yes/no on
+  coverage, or named exclusion/inclusion — is supported by the cited source
+  texts below. If the model answer has no such checkable facts, true only when
+  it is a refusal or empty. If there are no usable cited sources, false (unless
+  the answer is a pure refusal with no checkable facts).
+- refusal (bool): true if the model declines to answer, says it lacks information,
+  or gives only a generic disclaimer without committing to a fact.
+- reasoning (string): one or two sentences explaining your verdict."""
+
+CORPUS_JUDGE_USER = """Question: {question}
+
+Ground-truth answer: {ground_truth}
+
+Model answer: {answer}
+
+Cited source pages (model citations):
+{sources}
+
+Respond with JSON only."""
+
+
+@dataclass
+class CorpusJudgeScore:
+    gt_covered: bool
+    fully_supported: bool
+    refusal: bool
+    reasoning: str
+    raw: str
+    cost_usd: float
+
+    @property
+    def ok(self) -> bool:
+        return self.gt_covered and self.fully_supported and not self.refusal
 
 
 def judge_citations(
@@ -153,6 +200,73 @@ def _extract_json(text: str) -> dict[str, Any]:
     if match:
         return json.loads(match.group())
     raise ValueError(f"Judge returned non-JSON: {text[:200]!r}")
+
+
+def judge_answer_corpus(
+    question: str,
+    ground_truth: str,
+    answer: str,
+    resolved: list,
+    model: str = DEFAULT_JUDGE_MODEL,
+    quiet: bool = False,
+) -> CorpusJudgeScore:
+    """Second judge: GT ⊆ answer, and answer ⊆ cited sources (+ tables)."""
+    key = os.environ.get("NEBIUS_API_KEY") or os.environ.get("OPENAI_API_KEY")
+    if not key:
+        sys.exit("NEBIUS_API_KEY (or OPENAI_API_KEY) not set")
+
+    usable = [r for r in resolved if getattr(r, "ok", False)]
+    sources = _format_sources(usable) if usable else "(no usable citations resolved)"
+
+    messages = [
+        {"role": "system", "content": CORPUS_JUDGE_SYSTEM},
+        {
+            "role": "user",
+            "content": CORPUS_JUDGE_USER.format(
+                question=question,
+                ground_truth=ground_truth,
+                answer=answer or "(empty answer)",
+                sources=sources,
+            ),
+        },
+    ]
+
+    resp = litellm.completion(
+        model=f"openai/{model}",
+        api_base=BASE_URL,
+        api_key=key,
+        messages=messages,
+        max_tokens=512,
+        temperature=0.0,
+        timeout=120,
+        response_format={"type": "json_object"},
+    )
+    raw = resp.choices[0].message.content or ""
+    parsed = _extract_json(raw)
+    gt_covered = bool(parsed.get("gt_covered", False))
+    fully_supported = bool(parsed.get("fully_supported", False))
+    refusal = bool(parsed.get("refusal", False))
+    if refusal:
+        gt_covered = False
+    u = resp.usage
+    cost = (u.prompt_tokens * EST_PRICE[0] + u.completion_tokens * EST_PRICE[1]) / 1e6
+    if not quiet:
+        ok = gt_covered and fully_supported and not refusal
+        print(
+            f"  [corpus-judge] {u.prompt_tokens}+{u.completion_tokens} tokens "
+            f"~${cost:.4f} -> covered={gt_covered} supported={fully_supported} "
+            f"refusal={refusal} ok={ok}",
+            file=sys.stderr,
+        )
+
+    return CorpusJudgeScore(
+        gt_covered=gt_covered,
+        fully_supported=fully_supported,
+        refusal=refusal,
+        reasoning=str(parsed.get("reasoning", "")),
+        raw=raw,
+        cost_usd=cost,
+    )
 
 
 def judge_answer(

@@ -15,6 +15,7 @@ import html
 import json
 import statistics
 import sys
+from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -120,6 +121,7 @@ def build_run_stats(
                 "gt_covered": ce.get("gt_covered"),
                 "fully_supported": ce.get("fully_supported"),
                 "corpus_ok": ce.get("ok"),
+                "corpus_refusal": ce.get("refusal"),
             }
         )
 
@@ -144,7 +146,7 @@ def build_run_stats(
         denom = n_rel + n_hall
         precision = (n_rel / denom) if denom else 1.0
 
-    corpus_judged = [r for r in rows if r["gt_covered"] is not None]
+    corpus_judged = [r for r in rows if r["corpus_ok"] is not None]
     gt_covered_rate = (
         avg([1.0 if r["gt_covered"] else 0.0 for r in corpus_judged])
         if corpus_judged
@@ -160,6 +162,20 @@ def build_run_stats(
         if corpus_judged
         else None
     )
+    # Corpus PR: hit = both checks true (ok).
+    #   recall    = fraction of questions with ok
+    #   precision = ok / (ok + assertive failures)  — refusals excluded from denom
+    corpus_recall = corpus_ok_rate
+    corpus_precision = None
+    if corpus_judged:
+        n_ok = sum(1 for r in corpus_judged if r["corpus_ok"])
+        n_fail = sum(
+            1
+            for r in corpus_judged
+            if not r["corpus_ok"] and not r.get("corpus_refusal")
+        )
+        denom = n_ok + n_fail
+        corpus_precision = (n_ok / denom) if denom else 1.0
 
     return {
         "label": label,
@@ -176,6 +192,8 @@ def build_run_stats(
         "gt_covered_rate": gt_covered_rate,
         "fully_supported_rate": fully_supported_rate,
         "corpus_ok_rate": corpus_ok_rate,
+        "corpus_recall": corpus_recall,
+        "corpus_precision": corpus_precision,
         "rows": rows,
     }
 
@@ -183,6 +201,7 @@ def build_run_stats(
 RUN_COLORS = ["#4C78A8", "#F58518", "#E45756", "#B279A2", "#54A24B", "#EECA3B", "#9D755D", "#FF9DA6"]
 PLOTLY_CONFIG = {"responsive": True, "displayModeBar": False}
 CHART_HEIGHT = 520
+PR_CHART_HEIGHT = 340
 CHART_MARGIN_TOP = 72
 CHART_MARGIN_LEFT = 60
 CHART_MARGIN_RIGHT = 35
@@ -218,6 +237,7 @@ def _apply_chart_layout(
     legend: bool = False,
     n_series: int = 0,
     margin_bottom: int = 48,
+    height: int | None = None,
 ) -> None:
     bottom = margin_bottom
     axis = dict(
@@ -228,7 +248,7 @@ def _apply_chart_layout(
         title_font=dict(color="#94a3b8"),
     )
     layout: dict = dict(
-        height=CHART_HEIGHT,
+        height=CHART_HEIGHT if height is None else height,
         autosize=True,
         paper_bgcolor="#151b24",
         plot_bgcolor="#151b24",
@@ -287,6 +307,98 @@ def fig_metric_bars(runs: list[dict], metric: str, title: str, as_pct: bool = Fa
     return _chart_html(fig)
 
 
+def _pr_axis_range(xy: list[tuple[float, float]], *, pad: float = 6.0) -> list[float]:
+    """Tight axis window around points (still within 0–100)."""
+    xs = [p[0] for p in xy]
+    ys = [p[1] for p in xy]
+    lo = max(0.0, min(xs + ys) - pad)
+    hi = min(100.0, max(xs + ys) + pad)
+    if hi - lo < 20:
+        mid = (lo + hi) / 2
+        lo = max(0.0, mid - 10)
+        hi = min(100.0, mid + 10)
+    return [lo, hi]
+
+
+def _fig_pr_scatter(
+    pts: list[dict],
+    *,
+    xy: list[tuple[float, float]],
+    title: str,
+    hover_lines: list[str],
+) -> str:
+    """Shared PR scatter: xy are (recall%, precision%) in [0,100].
+
+    Coincident points stay stacked at the true coordinates; hover lists every
+    run that shares the point.
+    """
+    if not pts:
+        return ""
+
+    by_coord: dict[tuple[float, float], list[str]] = defaultdict(list)
+    for r, (rec, prec) in zip(pts, xy):
+        by_coord[(round(rec, 3), round(prec, 3))].append(r["label"])
+
+    colors = _run_colors(len(pts))
+    fig = go.Figure()
+    for r, color, (rec, prec), hover in zip(pts, colors, xy, hover_lines):
+        peers = by_coord[(round(rec, 3), round(prec, 3))]
+        if len(peers) > 1:
+            peer_note = "<br><br><b>Runs at this point:</b><br>• " + "<br>• ".join(
+                peers
+            )
+            hover = hover.replace("<extra></extra>", peer_note + "<extra></extra>")
+        fig.add_trace(
+            go.Scatter(
+                x=[rec],
+                y=[prec],
+                mode="markers",
+                name=r["label"],
+                marker=dict(
+                    size=11,
+                    color=color,
+                    line=dict(width=1, color="#e2e8f0"),
+                ),
+                hovertemplate=hover,
+            )
+        )
+
+    axis_range = _pr_axis_range(xy)
+    fig.update_layout(
+        title=dict(text=title, font=dict(size=13)),
+        xaxis_title="Recall (%)",
+        yaxis_title="Precision (%)",
+        showlegend=True,
+    )
+    # Side legend — bottom legend eats the plot when many runs share a compact chart.
+    legend_w = 168 if len(pts) <= 8 else 200
+    _apply_chart_layout(
+        fig,
+        y_vals=axis_range,
+        as_pct=True,
+        legend=False,
+        margin_bottom=40,
+        height=PR_CHART_HEIGHT,
+    )
+    fig.update_layout(
+        margin=dict(t=56, r=legend_w, b=40, l=48),
+        xaxis=dict(range=axis_range),
+        yaxis=dict(range=axis_range, scaleanchor="x", scaleratio=1),
+        legend=dict(
+            orientation="v",
+            yanchor="middle",
+            y=0.5,
+            xanchor="left",
+            x=1.02,
+            font=dict(size=9, color="#cbd5e1"),
+            bgcolor="rgba(0,0,0,0)",
+            itemsizing="constant",
+            tracegroupgap=2,
+        ),
+    )
+    return _chart_html(fig)
+
+
 def fig_precision_recall_scatter(runs: list[dict]) -> str:
     """One point per run: recall (x) vs precision (y) from answer-judge metrics."""
     pts = [
@@ -296,71 +408,64 @@ def fig_precision_recall_scatter(runs: list[dict]) -> str:
     ]
     if not pts:
         return ""
-
-    colors = _run_colors(len(pts))
-    fig = go.Figure()
-    for r, color in zip(pts, colors):
-        prec = float(r["precision"]) * 100
-        rec = float(r["recall"]) * 100
-        fig.add_trace(
-            go.Scatter(
-                x=[rec],
-                y=[prec],
-                mode="markers",
-                name=r["label"],
-                marker=dict(size=14, color=color, line=dict(width=1, color="#e2e8f0")),
-                hovertemplate=(
-                    f"<b>{r['label']}</b><br>"
-                    f"Recall: {rec:.1f}%<br>"
-                    f"Precision: {prec:.1f}%<br>"
-                    f"Relevance: {(r['relevance_rate'] or 0)*100:.1f}%<br>"
-                    f"Hallucination: {(r['hallucination_rate'] or 0)*100:.1f}%"
-                    "<extra></extra>"
-                ),
-            )
+    xy = [(float(r["recall"]) * 100, float(r["precision"]) * 100) for r in pts]
+    hovers = [
+        (
+            f"<b>{r['label']}</b><br>"
+            f"Recall: {xy[i][0]:.1f}%<br>"
+            f"Precision: {xy[i][1]:.1f}%<br>"
+            f"Relevance: {(r['relevance_rate'] or 0)*100:.1f}%<br>"
+            f"Hallucination: {(r['hallucination_rate'] or 0)*100:.1f}%"
+            "<extra></extra>"
         )
-
-    # Ideal corner guide
-    fig.add_shape(
-        type="line",
-        x0=0,
-        y0=100,
-        x1=100,
-        y1=100,
-        line=dict(color="#475569", width=1, dash="dot"),
-    )
-    fig.add_shape(
-        type="line",
-        x0=100,
-        y0=0,
-        x1=100,
-        y1=100,
-        line=dict(color="#475569", width=1, dash="dot"),
-    )
-
-    fig.update_layout(
+        for i, r in enumerate(pts)
+    ]
+    return _fig_pr_scatter(
+        pts,
+        xy=xy,
         title=(
             "Precision–recall (answer judge)<br>"
             "<sup>Recall = % relevant · Precision = relevant / (relevant + hallucinated)</sup>"
         ),
-        xaxis_title="Recall (%)",
-        yaxis_title="Precision (%)",
-        showlegend=True,
+        hover_lines=hovers,
     )
-    _apply_chart_layout(
-        fig,
-        y_vals=[0, 100],
-        as_pct=True,
-        legend=True,
-        n_series=len(pts),
-        margin_bottom=48,
+
+
+def fig_corpus_precision_recall_scatter(runs: list[dict]) -> str:
+    """PR from corpus judge: hit = both GT covered and cite-supported (ok)."""
+    pts = [
+        r
+        for r in runs
+        if r.get("corpus_recall") is not None and r.get("corpus_precision") is not None
+    ]
+    if not pts:
+        return ""
+    xy = [
+        (float(r["corpus_recall"]) * 100, float(r["corpus_precision"]) * 100)
+        for r in pts
+    ]
+    hovers = [
+        (
+            f"<b>{r['label']}</b><br>"
+            f"Recall: {xy[i][0]:.1f}%<br>"
+            f"Precision: {xy[i][1]:.1f}%<br>"
+            f"Corpus OK (hit): {(r.get('corpus_ok_rate') or 0)*100:.1f}%<br>"
+            f"GT covered: {(r.get('gt_covered_rate') or 0)*100:.1f}%<br>"
+            f"Cite-supported: {(r.get('fully_supported_rate') or 0)*100:.1f}%"
+            "<extra></extra>"
+        )
+        for i, r in enumerate(pts)
+    ]
+    return _fig_pr_scatter(
+        pts,
+        xy=xy,
+        title=(
+            "Precision–recall (corpus judge)<br>"
+            "<sup>Hit = GT covered ∧ cite-supported · "
+            "Recall = % hit · Precision = hit / (hit + assertive miss)</sup>"
+        ),
+        hover_lines=hovers,
     )
-    # Keep square-ish axes at 0–105 without wiping dark-theme axis colors
-    fig.update_layout(
-        xaxis=dict(range=[0, 105]),
-        yaxis=dict(range=[0, 105], scaleanchor="x", scaleratio=1),
-    )
-    return _chart_html(fig)
 
 
 def fig_grouped_metric_by_difficulty(runs: list[dict], metric: str, title: str) -> str:
@@ -550,7 +655,7 @@ def build_html(
     if has_eval:
         pr_scatter = fig_precision_recall_scatter(runs)
         if pr_scatter:
-            charts.append(("wide", pr_scatter))
+            charts.append(("pr", pr_scatter))
         charts.extend([
             ("", fig_metric_bars(runs, "relevance_rate", "Relevance rate", as_pct=True, color="#54A24B")),
             ("", fig_metric_bars(runs, "hallucination_rate", "Hallucination rate", as_pct=True, color="#E45756")),
@@ -559,6 +664,9 @@ def build_html(
             ("", fig_grouped_metric_by_difficulty(runs, "hallucination", "Hallucination by difficulty")),
         ])
     if has_corpus:
+        corpus_pr = fig_corpus_precision_recall_scatter(runs)
+        if corpus_pr:
+            charts.append(("pr", corpus_pr))
         charts.extend([
             ("", fig_metric_bars(runs, "gt_covered_rate", "Corpus judge: GT covered", as_pct=True, color="#54A24B")),
             ("", fig_metric_bars(runs, "fully_supported_rate", "Corpus judge: cite-supported", as_pct=True, color="#72B7B2")),
@@ -569,9 +677,15 @@ def build_html(
         ("", fig_metric_bars(runs, "citation_accuracy", "Citation accuracy", as_pct=True, color="#72B7B2")),
     ])
 
+    def _chart_class(kind: str) -> str:
+        if kind == "wide":
+            return "chart chart-wide"
+        if kind == "pr":
+            return "chart chart-pr"
+        return "chart"
+
     chart_sections = "".join(
-        f'<div class="chart{" chart-wide" if kind == "wide" else ""}">{c}</div>'
-        for kind, c in charts
+        f'<div class="{_chart_class(kind)}">{c}</div>' for kind, c in charts
     )
     qdata = question_payload(questions, run_answers, run_evals, run_corpus)
     run_labels = json.dumps([r["label"] for r in runs], ensure_ascii=False)
@@ -629,8 +743,15 @@ def build_html(
     .charts {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(520px, 1fr)); gap: 1rem; align-items: start; }}
     .chart {{ min-width: 0; overflow: visible; min-height: {CHART_HEIGHT}px; }}
     .chart-wide {{ grid-column: 1 / -1; }}
+    .chart-pr {{
+      max-width: 560px;
+      min-height: {PR_CHART_HEIGHT}px;
+      justify-self: start;
+    }}
     .chart > div {{ overflow: visible !important; height: {CHART_HEIGHT}px !important; }}
     .chart .plotly-graph-div {{ overflow: visible !important; height: {CHART_HEIGHT}px !important; }}
+    .chart-pr > div,
+    .chart-pr .plotly-graph-div {{ height: {PR_CHART_HEIGHT}px !important; }}
     .controls {{ display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; margin-bottom: .75rem; }}
     .controls label {{ font-size: .78rem; color: var(--muted); display: flex; flex-direction: column; gap: .15rem; }}
     select, input {{ padding: .4rem .55rem; border: 1px solid var(--border); border-radius: 8px; font-size: .88rem; background: var(--input); color: var(--text); }}

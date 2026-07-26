@@ -87,6 +87,7 @@ def build_run_stats(
     answers: dict[str, dict],
     questions: dict[str, dict],
     eval_rows: dict[str, dict] | None,
+    corpus_rows: dict[str, dict] | None = None,
 ) -> dict:
     rows = []
     for qid, q in questions.items():
@@ -94,6 +95,7 @@ def build_run_stats(
             continue
         a = answers[qid]
         ev = (eval_rows or {}).get(qid, {})
+        ce = (corpus_rows or {}).get(qid, {})
         cite_score = ev.get("citation_score")
         if cite_score is None:
             cite = score_citations(
@@ -115,6 +117,9 @@ def build_run_stats(
                 "relevant": ev.get("relevant"),
                 "hallucination": ev.get("hallucination"),
                 "refusal": ev.get("refusal"),
+                "gt_covered": ce.get("gt_covered"),
+                "fully_supported": ce.get("fully_supported"),
+                "corpus_ok": ce.get("ok"),
             }
         )
 
@@ -139,6 +144,23 @@ def build_run_stats(
         denom = n_rel + n_hall
         precision = (n_rel / denom) if denom else 1.0
 
+    corpus_judged = [r for r in rows if r["gt_covered"] is not None]
+    gt_covered_rate = (
+        avg([1.0 if r["gt_covered"] else 0.0 for r in corpus_judged])
+        if corpus_judged
+        else None
+    )
+    fully_supported_rate = (
+        avg([1.0 if r["fully_supported"] else 0.0 for r in corpus_judged])
+        if corpus_judged
+        else None
+    )
+    corpus_ok_rate = (
+        avg([1.0 if r["corpus_ok"] else 0.0 for r in corpus_judged])
+        if corpus_judged
+        else None
+    )
+
     return {
         "label": label,
         "count": len(rows),
@@ -151,6 +173,9 @@ def build_run_stats(
         "refusal_rate": refusal_rate,
         "recall": recall,
         "precision": precision,
+        "gt_covered_rate": gt_covered_rate,
+        "fully_supported_rate": fully_supported_rate,
+        "corpus_ok_rate": corpus_ok_rate,
         "rows": rows,
     }
 
@@ -374,6 +399,16 @@ def summary_cards(runs: list[dict]) -> str:
         ref_s = f"{ref:.0%}" if ref is not None else "—"
         rel_cls = "good" if rel and rel >= 0.5 else "bad" if rel is not None else ""
         hall_cls = "bad" if hall and hall >= 0.3 else "good" if hall is not None else ""
+        cok = run.get("corpus_ok_rate")
+        cov = run.get("gt_covered_rate")
+        supp = run.get("fully_supported_rate")
+        corpus_metrics = ""
+        if cok is not None:
+            corpus_metrics = f"""
+                <div><span class="k">GT covered</span><span class="v">{cov:.0%}</span></div>
+                <div><span class="k">Cite-supported</span><span class="v">{supp:.0%}</span></div>
+                <div><span class="k">Corpus OK</span><span class="v">{cok:.0%}</span></div>
+            """
         cards.append(
             f"""
             <div class="run-card">
@@ -385,6 +420,7 @@ def summary_cards(runs: list[dict]) -> str:
               <div class="metrics">
                 <div><span class="k">Refusal</span><span class="v">{ref_s}</span></div>
                 <div><span class="k">Citation</span><span class="v">{run['citation_accuracy']:.0%}</span></div>
+                {corpus_metrics}
                 <div><span class="k">Latency avg</span><span class="v">{run['latency_avg']:.0f} ms</span></div>
                 <div><span class="k">Latency p50</span><span class="v">{run['latency_p50']:.0f} ms</span></div>
                 <div><span class="k">Answer len</span><span class="v">{run['answer_len_avg']:.0f}</span></div>
@@ -400,13 +436,19 @@ def question_payload(
     questions: dict[str, dict],
     run_answers: list[tuple[str, dict[str, dict]]],
     run_evals: list[tuple[str, dict[str, dict] | None]],
+    run_corpus: list[tuple[str, dict[str, dict] | None]] | None = None,
 ) -> str:
+    if run_corpus is None:
+        run_corpus = [(label, None) for label, _ in run_answers]
     payload: dict[str, dict] = {}
     for qid, q in questions.items():
         runs = []
-        for (label, answers), (_, evmap) in zip(run_answers, run_evals):
+        for (label, answers), (_, evmap), (_, cemap) in zip(
+            run_answers, run_evals, run_corpus
+        ):
             a = answers.get(qid, {})
             ev = (evmap or {}).get(qid, {})
+            ce = (cemap or {}).get(qid, {})
             cite_score = ev.get("citation_score")
             if cite_score is None:
                 cite = score_citations(
@@ -432,6 +474,10 @@ def question_payload(
                     "refusal": ev.get("refusal"),
                     "judge_reasoning": ev.get("judge_reasoning"),
                     "citation_reasoning": ev.get("citation_reasoning"),
+                    "gt_covered": ce.get("gt_covered"),
+                    "fully_supported": ce.get("fully_supported"),
+                    "corpus_ok": ce.get("ok"),
+                    "corpus_judge_reasoning": ce.get("judge_reasoning"),
                 }
             )
         payload[qid] = {
@@ -446,15 +492,15 @@ def question_payload(
     return json.dumps(payload, ensure_ascii=False)
 
 
-def table_headers(runs: list[dict], has_eval: bool) -> str:
+def table_headers(runs: list[dict], has_eval: bool, has_corpus: bool) -> str:
     fixed = '<th class="sortable" data-key="id">ID</th><th class="sortable" data-key="domain">Domain</th><th class="sortable" data-key="difficulty">Diff</th><th class="sortable" data-key="outcome">Outcome</th>'
     per_run = []
     for r in runs:
         label = esc(r["label"])
-        if has_eval:
-            per_run.append(
-                f'<th colspan="6" class="run-group">{label}</th>'
-            )
+        if has_eval and has_corpus:
+            per_run.append(f'<th colspan="9" class="run-group">{label}</th>')
+        elif has_eval:
+            per_run.append(f'<th colspan="6" class="run-group">{label}</th>')
         else:
             per_run.append(f'<th colspan="2" class="run-group">{label}</th>')
     sub = []
@@ -464,6 +510,14 @@ def table_headers(runs: list[dict], has_eval: bool) -> str:
                 '<th class="sub sortable" data-key="relevant">Rel</th>',
                 '<th class="sub sortable" data-key="hallucination">Hall</th>',
                 '<th class="sub sortable" data-key="refusal">Ref</th>',
+            ])
+            if has_corpus:
+                sub.extend([
+                    '<th class="sub sortable" data-key="gt_covered" title="GT facts covered by answer">Cov</th>',
+                    '<th class="sub sortable" data-key="fully_supported" title="Answer supported by citations">Supp</th>',
+                    '<th class="sub sortable" data-key="corpus_ok" title="GT covered and cite-supported">COk</th>',
+                ])
+            sub.extend([
                 '<th class="sub sortable" data-key="citation">Cite</th>',
                 '<th class="sub sortable" data-key="latency">Lat</th>',
                 '<th class="sub sortable" data-key="tokens">Tok</th>',
@@ -481,11 +535,15 @@ def build_html(
     questions: dict[str, dict],
     run_answers: list[tuple[str, dict[str, dict]]],
     run_evals: list[tuple[str, dict[str, dict] | None]],
+    run_corpus: list[tuple[str, dict[str, dict] | None]] | None = None,
     title: str = "Run Comparison Dashboard",
     prompt_specs: list[tuple[str, dict]] | None = None,
     deliverables_html: str = "",
 ) -> str:
+    if run_corpus is None:
+        run_corpus = [(label, None) for label, _ in run_answers]
     has_eval = any(r["relevance_rate"] is not None for r in runs)
+    has_corpus = any(r.get("corpus_ok_rate") is not None for r in runs)
     generated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
     charts = []
@@ -500,6 +558,12 @@ def build_html(
             ("", fig_grouped_metric_by_difficulty(runs, "relevant", "Relevance by difficulty")),
             ("", fig_grouped_metric_by_difficulty(runs, "hallucination", "Hallucination by difficulty")),
         ])
+    if has_corpus:
+        charts.extend([
+            ("", fig_metric_bars(runs, "gt_covered_rate", "Corpus judge: GT covered", as_pct=True, color="#54A24B")),
+            ("", fig_metric_bars(runs, "fully_supported_rate", "Corpus judge: cite-supported", as_pct=True, color="#72B7B2")),
+            ("", fig_metric_bars(runs, "corpus_ok_rate", "Corpus judge: OK (both)", as_pct=True, color="#B279A2")),
+        ])
     charts.extend([
         ("", fig_metric_bars(runs, "latency_avg", "Average latency (ms)", color="#4C78A8")),
         ("", fig_metric_bars(runs, "citation_accuracy", "Citation accuracy", as_pct=True, color="#72B7B2")),
@@ -509,7 +573,7 @@ def build_html(
         f'<div class="chart{" chart-wide" if kind == "wide" else ""}">{c}</div>'
         for kind, c in charts
     )
-    qdata = question_payload(questions, run_answers, run_evals)
+    qdata = question_payload(questions, run_answers, run_evals, run_corpus)
     run_labels = json.dumps([r["label"] for r in runs], ensure_ascii=False)
     prompts_html = render_prompt_section(prompt_specs) if prompt_specs else ""
     prompts_nav = '<a href="#prompts">Prompts</a>' if prompt_specs else ""
@@ -718,6 +782,8 @@ def build_html(
           <option value="relevant">Relevant only</option>
           <option value="refusal">Refusals only</option>
           <option value="wrong">Wrong (not relevant, not refusal)</option>
+          <option value="corpus_fail">Corpus judge fail</option>
+          <option value="corpus_ok">Corpus judge OK</option>
         </select></label>
         <label>Domain<select id="table-domain"><option value="">All</option>
           {''.join(f'<option value="{d}">{DOMAIN_LABELS.get(d,d)}</option>' for d in sorted({q['domain'] for q in questions.values()}))}
@@ -729,7 +795,7 @@ def build_html(
       </div>
       <div class="table-wrap">
         <table id="cmp-table">
-          <thead>{table_headers(runs, has_eval)}</thead>
+          <thead>{table_headers(runs, has_eval, has_corpus)}</thead>
           <tbody id="cmp-body"></tbody>
         </table>
       </div>
@@ -740,6 +806,7 @@ def build_html(
     const QDATA = {qdata};
     const RUN_LABELS = {run_labels};
     const HAS_EVAL = {str(has_eval).lower()};
+    const HAS_CORPUS = {str(has_corpus).lower()};
     let sortKey = 'id';
     let sortAsc = true;
     let activeRowId = null;
@@ -758,6 +825,13 @@ def build_html(
     function primaryOutcome(q) {{
       const r = q.runs[0];
       return outcome(r);
+    }}
+
+    function primaryCorpusOk(q) {{
+      for (const r of q.runs) {{
+        if (r.corpus_ok != null) return r.corpus_ok;
+      }}
+      return null;
     }}
 
     function yn(val) {{
@@ -796,16 +870,24 @@ def build_html(
         const cardCls = oc === 'relevant' ? 'ok' : (oc === 'hallucination' || oc === 'wrong') ? 'fail' : '';
         const latency = r.latency_ms != null ? `${{Math.round(r.latency_ms)}} ms` : '—';
         const tokens = r.tokens ? `${{r.tokens.prompt}}+${{r.tokens.completion}}` : '—';
+        const corpusPills = HAS_CORPUS
+          ? pill('Cov', r.gt_covered) + pill('Supp', r.fully_supported) + pill('COk', r.corpus_ok)
+          : '';
+        const corpusJudge = r.corpus_judge_reasoning
+          ? `<div class="judge-box"><strong>Corpus judge:</strong> ${{esc(r.corpus_judge_reasoning)}}</div>`
+          : '';
         return `<div class="run-answer ${{cardCls}}">
           <h5>${{esc(r.label)}}</h5>
           <div class="pills">
             ${{HAS_EVAL ? pill('Rel', r.relevant) + pill('Hall', r.hallucination) + pill('Ref', r.refusal) : ''}}
+            ${{corpusPills}}
             <span class="pill neutral">Cite ${{Math.round((r.citation_score||0)*100)}}%</span>
             <span class="pill neutral">${{latency}}</span>
             <span class="pill neutral">${{tokens}} tok</span>
           </div>
           <div class="hebrew" dir="rtl">${{hebrewHtml(r.answer)}}</div>
           ${{r.judge_reasoning ? `<div class="judge-box"><strong>Judge:</strong> ${{esc(r.judge_reasoning)}}</div>` : ''}}
+          ${{corpusJudge}}
         </div>`;
       }}).join('');
     }}
@@ -818,6 +900,7 @@ def build_html(
       return Object.keys(QDATA).filter(id => {{
         const q = QDATA[id];
         const oc = primaryOutcome(q);
+        const cok = primaryCorpusOk(q);
         if (dom && q.domain !== dom) return false;
         if (diff && q.difficulty !== diff) return false;
         if (search && !q.question.toLowerCase().includes(search) && !id.toLowerCase().includes(search)) return false;
@@ -825,6 +908,8 @@ def build_html(
         if (tableFilter === 'relevant' && oc !== 'relevant') return false;
         if (tableFilter === 'refusal' && oc !== 'refusal') return false;
         if (tableFilter === 'wrong' && oc !== 'wrong') return false;
+        if (tableFilter === 'corpus_fail' && cok !== false) return false;
+        if (tableFilter === 'corpus_ok' && cok !== true) return false;
         return true;
       }});
     }}
@@ -850,6 +935,12 @@ def build_html(
       if (key === 'relevant') return r.relevant ? 1 : 0;
       if (key === 'hallucination') return r.hallucination ? 1 : 0;
       if (key === 'refusal') return r.refusal ? 1 : 0;
+      if (key === 'gt_covered' || key === 'fully_supported' || key === 'corpus_ok') {{
+        for (const rr of q.runs) {{
+          if (rr[key] != null) return rr[key] ? 1 : 0;
+        }}
+        return -1;
+      }}
       if (key === 'citation') return r.citation_score || 0;
       if (key === 'latency') return r.latency_ms || 0;
       if (key === 'tokens') return (r.tokens?.prompt || 0) + (r.tokens?.completion || 0);
@@ -873,7 +964,10 @@ def build_html(
           const latency = r.latency_ms != null ? Math.round(r.latency_ms) : '<span class="cell-dash">—</span>';
           const tokens = r.tokens ? `${{r.tokens.prompt}}+${{r.tokens.completion}}` : '<span class="cell-dash">—</span>';
           if (HAS_EVAL) {{
-            return `<td>${{yn(r.relevant)}}</td><td>${{yn(r.hallucination)}}</td><td>${{yn(r.refusal)}}</td><td>${{pct(r.citation_score)}}</td><td>${{latency}}</td><td>${{tokens}}</td>`;
+            const corpusCells = HAS_CORPUS
+              ? `<td>${{yn(r.gt_covered)}}</td><td>${{yn(r.fully_supported)}}</td><td>${{yn(r.corpus_ok)}}</td>`
+              : '';
+            return `<td>${{yn(r.relevant)}}</td><td>${{yn(r.hallucination)}}</td><td>${{yn(r.refusal)}}</td>${{corpusCells}}<td>${{pct(r.citation_score)}}</td><td>${{latency}}</td><td>${{tokens}}</td>`;
           }}
           return `<td>${{pct(r.citation_score)}}</td><td>${{latency}}</td>`;
         }}).join('');
@@ -931,7 +1025,13 @@ def main() -> None:
     ap = argparse.ArgumentParser(description="Generate run comparison dashboard")
     ap.add_argument("--questions", default="reference_questions.json")
     ap.add_argument("--run", action="append", required=True, help='Label|path.jsonl')
-    ap.add_argument("--eval", action="append", default=[], help='Optional eval JSON: "Label|path.jsonl"')
+    ap.add_argument("--eval", action="append", default=[], help='Optional eval JSON: "Label|path.json"')
+    ap.add_argument(
+        "--corpus-eval",
+        action="append",
+        default=[],
+        help='Optional corpus-judge JSON joined by label: "Label|path.json"',
+    )
     ap.add_argument("--out", default="reports/stage1/compare_dashboard.html")
     ap.add_argument("--title", default="Run Comparison Dashboard", help="Page title shown in browser and header")
     ap.add_argument(
@@ -950,6 +1050,9 @@ def main() -> None:
     questions = load_questions(ROOT / args.questions)
     run_specs = [parse_labeled_arg(r) for r in args.run]
     eval_map = {label: path for label, path in (parse_labeled_arg(e) for e in args.eval)}
+    corpus_map = {
+        label: path for label, path in (parse_labeled_arg(e) for e in args.corpus_eval)
+    }
     prompt_map: dict[str, str] = {}
     for raw in args.prompt:
         label, preset = parse_labeled_arg(raw)
@@ -957,6 +1060,7 @@ def main() -> None:
 
     run_answers: list[tuple[str, dict[str, dict]]] = []
     run_evals: list[tuple[str, dict[str, dict] | None]] = []
+    run_corpus: list[tuple[str, dict[str, dict] | None]] = []
     runs: list[dict] = []
     prompt_specs: list[tuple[str, dict]] = []
 
@@ -964,9 +1068,14 @@ def main() -> None:
         answers = load_answers(ROOT / path)
         ev_path = eval_map.get(label)
         ev_rows = load_eval(ROOT / ev_path) if ev_path and (ROOT / ev_path).exists() else None
+        ce_path = corpus_map.get(label)
+        ce_rows = (
+            load_eval(ROOT / ce_path) if ce_path and (ROOT / ce_path).exists() else None
+        )
         run_answers.append((label, answers))
         run_evals.append((label, ev_rows))
-        runs.append(build_run_stats(label, answers, questions, ev_rows))
+        run_corpus.append((label, ce_rows))
+        runs.append(build_run_stats(label, answers, questions, ev_rows, ce_rows))
         preset = resolve_preset(label, ROOT / path, prompt_map.get(label))
         prompt_specs.append((label, build_prompt_spec(preset)))
 
@@ -983,6 +1092,7 @@ def main() -> None:
             questions,
             run_answers,
             run_evals,
+            run_corpus=run_corpus,
             title=args.title,
             prompt_specs=prompt_specs,
             deliverables_html=deliverables_html,

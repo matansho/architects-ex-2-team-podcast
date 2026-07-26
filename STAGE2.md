@@ -38,6 +38,8 @@ Best end-to-end result: **85.4% relevance** / **91.7% citation accuracy** with p
 15. **Hybrid route pool** — dense **80 from routed domains + 20 unique from full corpus**, then CE → **83.3%**, **0% refusal**.
 16. **Citation MVP (hits)** — structured `{file, page}` from top retrieval hits → **81.2%** cite acc.
 17. **Passage-index citations (B)** — model ends with `USED_PASSAGES: 1, 3`; map labels → `{file, page}`; path-free answer body → **85.4%** rel / **91.7%** cite (48/48 parse ok).
+18. **Smaller hybrid pool (40+10)** — same stack as B with dense **40 routed + 10 global** → **85.4%** rel / **89.6%** cite (answer metrics match 80+20).
+19. **Corpus judge** — second judge: GT ⊆ answer and answer ⊆ cites (+ index tables) → **91.7%** OK on route80+20 / **87.5%** on route40+10; wired into the comparison dashboard.
 
 ## What we built
 
@@ -119,6 +121,7 @@ Describe with a **sketch** (headers + sample rows + neighbors). Gemma returns JS
 | Rerank + route (domain-only) + nofaq | 81.2% | 12.5% | 6.2% | 22.1 s |
 | Rerank + route80+20 + nofaq | 83.3% | 14.6% | 0.0% | 28.6 s |
 | **Rerank + route80+20 + passage cite** | **85.4%** | **12.5%** | 2.1% | 16.0 s |
+| Rerank + route40+10 + passage cite | 85.4% | 12.5% | 0.0% | 11.7 s |
 
 ### Citations
 
@@ -126,12 +129,27 @@ Describe with a **sketch** (headers + sample rows + neighbors). Gemma returns JS
 | --- | --- | --- | --- |
 | route80+20 + hits MVP | 81.2% | 34 / 10 / 4 | Backfilled top-5 hit locations onto 83.3% answers |
 | **route80+20 + passage cite (B)** | **91.7%** | **41 / 6 / 1** | Fresh gen; `USED_PASSAGES` → `{file,page}`; 48/48 parsed |
+| route40+10 + passage cite | 89.6% | 41 / 4 / 3 | Same answer metrics as B; slightly lower cite |
+
+### Corpus judge (second judge)
+
+GT ⊆ answer and answer ⊆ cited pages (+ index table payloads). Does not replace the GT answer judge.
+
+| Run | GT covered | Cite-supported | OK (both) | Refusal |
+| --- | --- | --- | --- | --- |
+| route80+20 + passage cite | 91.7% | **100%** | **91.7%** | 0% |
+| route40+10 + passage cite | 89.6% | 91.7% | 87.5% | 0% |
+
+Joined onto the comparison dashboard (`Cov` / `Supp` / `COk`). Re-run: `python run_eval.py --answers … --corpus-judge`.
 
 `--cite passages` (default): `SYSTEM_PASSAGE_CITE` with worked examples; parse footer; strip from answer; map 1-based `[N]` to hit locations. `--cite hits` keeps the MVP. Skip paths missing under `corpus/`. Never put file paths in answer prose (Stage 1 lesson).
 
 Eval artifacts:
 - hits MVP: `reports/rag_answers_rerank_k20_w2_route80_20_nofaq_cite.jsonl` + `_cite_eval.json`
 - passage B: `reports/rag_answers_rerank_k20_w2_route80_20_passage_cite.jsonl` + `reports/stage2/rag_rerank_k20_w2_route80_20_passage_cite_eval.json`
+- route40+10: `reports/rag_answers_rerank_k20_w2_route40_10_passage_cite.jsonl` + `reports/stage2/rag_rerank_k20_w2_route40_10_passage_cite_eval.json`
+- corpus judge 80+20: `reports/stage2/rag_rerank_k20_w2_route80_20_corpus_judge_eval.json`
+- corpus judge 40+10: `reports/stage2/rag_rerank_k20_w2_route40_10_corpus_judge_eval.json`
 
 ### By difficulty (relevance)
 
@@ -242,8 +260,34 @@ What is / isn’t in git:
 | --- | --- | --- |
 | Code + `STAGE2.md` | yes | |
 | `artifacts/table_descriptions/` | yes | LLM `embed_text` + payloads; no API needed to apply |
-| `data/index/`, `data/cache/pdf_chunks/` | no | Rebuild locally (Docling + E5) |
-| `.env` / API keys | no | Needed only to regenerate descriptions or run RAG/eval |
+| `data/index/` | **release asset** | ~204 MB tarball (not in git; too large) |
+| `data/cache/pdf_chunks/` | optional release | speeds rebuild; not required if you use the index |
+| `.env` / API keys | no | Needed for RAG/eval API calls; not for applying shipped descriptions |
+
+### Teammates: get chunk + embed data (no Docling)
+
+Prebuilt index is published as a GitHub Release on the team fork:
+
+- Repo: `matansho/architects-ex-2-team-podcast`
+- Tag: `stage2-index-v1`
+- Assets: `harel-rag-index-v1.tar.gz` (required), `harel-pdf-chunks-cache-v1.tar.gz` (optional)
+
+```bash
+source scripts/activate.sh
+bash scripts/fetch_index.sh                 # → data/index/
+bash scripts/fetch_index.sh --with-pdf-cache  # also → data/cache/pdf_chunks/
+```
+
+Manual:
+
+```bash
+mkdir -p data
+curl -fL -o dist/harel-rag-index-v1.tar.gz \
+  "https://github.com/matansho/architects-ex-2-team-podcast/releases/download/stage2-index-v1/harel-rag-index-v1.tar.gz"
+tar -xzf dist/harel-rag-index-v1.tar.gz -C data
+```
+
+### Rebuild from corpus (slow)
 
 ```bash
 source scripts/activate.sh   # venv + .env (for RAG / eval; not for applying shipped descriptions)

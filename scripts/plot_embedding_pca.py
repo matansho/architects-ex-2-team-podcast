@@ -11,6 +11,7 @@
 from __future__ import annotations
 
 import argparse
+import colorsys
 import html
 import json
 import sys
@@ -106,6 +107,19 @@ def _gt_files(q: dict) -> set[str]:
     return files
 
 
+def _file_basename(path: str) -> str:
+    return path.rsplit("/", 1)[-1] if path else path
+
+
+def _file_color(idx: int) -> str:
+    """Stable distinct hex color for source-document coloring."""
+    h = (idx * 0.61803398875) % 1.0
+    s = 0.55 + (idx % 3) * 0.12
+    l = 0.40 + (idx % 4) * 0.06
+    r, g, b = colorsys.hls_to_rgb(h, l, s)
+    return f"#{int(r * 255):02x}{int(g * 255):02x}{int(b * 255):02x}"
+
+
 def _pca_project(X: np.ndarray, n_components: int) -> tuple[np.ndarray, np.ndarray]:
     """Center + SVD PCA. Returns (coords, explained_variance_ratio for kept comps)."""
     X = np.asarray(X, dtype=np.float64)
@@ -161,7 +175,8 @@ def reduce_2d(
 
 def build_html(
     *,
-    domain_traces: list[dict],
+    corpus: dict,
+    domain_colors: dict[str, str],
     question_trace: dict,
     gt_answer_trace: dict,
     gt_chunk_trace: dict | None,
@@ -171,10 +186,12 @@ def build_html(
     model: str,
     n_corpus: int,
     n_questions: int,
+    n_files: int,
 ) -> str:
     generated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     payload = {
-        "domains": domain_traces,
+        "corpus": corpus,
+        "domain_colors": domain_colors,
         "questions": question_trace,
         "gt_answers": gt_answer_trace,
         "gt_chunks": gt_chunk_trace,
@@ -194,36 +211,59 @@ def build_html(
     .wrap {{ max-width:1200px; margin:0 auto; padding:1rem 1.25rem 2rem; }}
     .note {{ background:#fff; border:1px solid #e2e8f0; border-radius:10px; padding:.75rem 1rem;
              font-size:.86rem; color:var(--muted); margin-bottom:1rem; line-height:1.5; }}
+    .controls {{ display:flex; flex-wrap:wrap; gap:.75rem 1.25rem; align-items:center;
+                 margin-bottom:1rem; background:#fff; border:1px solid #e2e8f0; border-radius:10px;
+                 padding:.65rem 1rem; font-size:.86rem; }}
+    .controls label {{ color:var(--muted); margin-right:.35rem; }}
+    .seg {{ display:inline-flex; border:1px solid #cbd5e1; border-radius:8px; overflow:hidden; }}
+    .seg button {{ border:0; background:#f8fafc; color:#334155; padding:.35rem .85rem;
+                   font:inherit; cursor:pointer; }}
+    .seg button + button {{ border-left:1px solid #cbd5e1; }}
+    .seg button.active {{ background:#0f172a; color:#fff; }}
+    .controls select {{ max-width:min(420px, 70vw); font:inherit; padding:.3rem .5rem;
+                        border:1px solid #cbd5e1; border-radius:6px; background:#fff; }}
     #plot {{ background:#fff; border:1px solid #e2e8f0; border-radius:12px; min-height:720px; }}
     .legend-hint span {{ display:inline-block; margin-right:1rem; font-size:.8rem; }}
     .sw {{ display:inline-block; width:.7rem; height:.7rem; border-radius:2px; margin-right:.3rem; vertical-align:middle; }}
-    /* Widen / soften Plotly hover cards */
     .hoverlayer .hovertext path {{ opacity: 0.96 !important; }}
   </style>
 </head>
 <body>
   <header>
     <h1>Corpus embeddings — {html.escape(method_title)}</h1>
-    <p>{html.escape(model)} · {n_corpus} corpus vectors · {n_questions} dev questions · {generated}</p>
+    <p>{html.escape(model)} · {n_corpus} corpus vectors · {n_files} source docs · {n_questions} dev questions · {generated}</p>
   </header>
   <div class="wrap">
     <div class="note">
       {html.escape(note)}
       <br/>
       <span class="legend-hint">
-        <span><i class="sw" style="background:#0f172a;border-radius:50%"></i><strong>★ Questions</strong></span>
+        <span><i class="sw" style="background:#fbbf24;border-radius:50%;border:1px solid #0f172a"></i><strong>★ Questions</strong></span>
         <span><i class="sw" style="background:#b91c1c"></i><strong>■ GT answers</strong></span>
-        <span><i class="sw" style="background:#fff;border:2px solid #0f172a"></i><strong>○ GT source chunks</strong> (all chunks from GT-cited files)</span>
-        <span>Colored dots = corpus by domain</span>
+        <span><i class="sw" style="background:#fff;border:2px solid #0f172a"></i><strong>○ GT source chunks</strong></span>
+        <span id="color-hint">Colored dots = corpus by domain</span>
       </span>
       Hover any point for text.
+    </div>
+    <div class="controls">
+      <div>
+        <label>Color by</label>
+        <div class="seg" id="color-mode">
+          <button type="button" data-mode="domain" class="active">Domain</button>
+          <button type="button" data-mode="document">Source document</button>
+        </div>
+      </div>
+      <div id="doc-filter-wrap" style="display:none">
+        <label for="doc-filter">Highlight doc</label>
+        <select id="doc-filter"><option value="">All documents</option></select>
+      </div>
     </div>
     <div id="plot"></div>
   </div>
   <script id="data" type="application/json">{json.dumps(payload, ensure_ascii=False)}</script>
   <script>
     const D = JSON.parse(document.getElementById('data').textContent);
-    const traces = [];
+    const C = D.corpus;
     const hoverlabel = {{
       bgcolor: '#ffffff',
       bordercolor: '#94a3b8',
@@ -236,99 +276,194 @@ def build_html(
       }},
     }};
 
-    for (const dom of D.domains) {{
-      traces.push({{
-        type: 'scattergl',
-        mode: 'markers',
-        name: dom.name,
-        x: dom.x, y: dom.y,
-        text: dom.hover,
-        hoverlabel,
-        marker: {{
-          size: 7,
-          color: dom.color,
-          opacity: 0.55,
-          line: {{ width: 0 }},
-        }},
-        hovertemplate: '%{{text}}<extra></extra>',
-      }});
-    }}
-
-    if (D.gt_chunks && D.gt_chunks.x.length) {{
-      traces.push({{
-        type: 'scatter',
-        mode: 'markers',
-        name: 'GT source chunk',
-        x: D.gt_chunks.x, y: D.gt_chunks.y,
-        text: D.gt_chunks.hover,
-        customdata: D.gt_chunks.ids,
-        hoverlabel,
-        marker: {{
-          size: 14,
-          symbol: 'circle-open',
-          color: '#0f172a',
-          line: {{ width: 2.5, color: '#0f172a' }},
-        }},
-        hovertemplate: '%{{text}}<extra></extra>',
-      }});
-    }}
-
-    traces.push({{
-      type: 'scatter',
-      mode: 'markers+text',
-      name: 'GT answer',
-      x: D.gt_answers.x, y: D.gt_answers.y,
-      text: D.gt_answers.labels,
-      customdata: D.gt_answers.hover,
-      textposition: 'top center',
-      textfont: {{ size: 8, color: '#7f1d1d' }},
-      hoverlabel,
-      marker: {{
-        size: 12,
-        symbol: 'square',
-        color: '#dc2626',
-        line: {{ width: 1, color: '#7f1d1d' }},
-      }},
-      hovertemplate: '%{{customdata}}<extra></extra>',
-    }});
-
-    traces.push({{
-      type: 'scatter',
-      mode: 'markers+text',
-      name: 'Question',
-      x: D.questions.x, y: D.questions.y,
-      text: D.questions.labels,
-      customdata: D.questions.hover,
-      textposition: 'bottom center',
-      textfont: {{ size: 8, color: '#0f172a' }},
-      hoverlabel,
-      marker: {{
-        size: 14,
-        symbol: 'star',
-        color: '#fbbf24',
-        line: {{ width: 1.5, color: '#0f172a' }},
-      }},
-      hovertemplate: '%{{customdata}}<extra></extra>',
-    }});
-
-    Plotly.newPlot('plot', traces, {{
+    const layout = {{
       margin: {{ t: 24, r: 20, b: 48, l: 56 }},
       height: 740,
       paper_bgcolor: 'rgba(0,0,0,0)',
       plot_bgcolor: '#fff',
       font: {{ size: 12, color: '#334155' }},
-      xaxis: {{
-        title: '{axis} 1',
-        zeroline: true, gridcolor: '#f1f5f9',
-      }},
-      yaxis: {{
-        title: '{axis} 2',
-        zeroline: true, gridcolor: '#f1f5f9',
-      }},
+      xaxis: {{ title: '{axis} 1', zeroline: true, gridcolor: '#f1f5f9' }},
+      yaxis: {{ title: '{axis} 2', zeroline: true, gridcolor: '#f1f5f9' }},
       legend: {{ orientation: 'h', y: 1.12, font: {{ size: 11 }} }},
       hovermode: 'closest',
       hoverlabel,
-    }}, {{ responsive: true, displayModeBar: true }});
+      uirevision: 'embedding',
+    }};
+    const config = {{ responsive: true, displayModeBar: true }};
+
+    // Populate document filter (basename → full path; disambiguate collisions)
+    const fileByShort = {{}};
+    const shorts = [];
+    for (let i = 0; i < C.file.length; i++) {{
+      const f = C.file[i];
+      const short = C.file_short[i];
+      if (!fileByShort[short]) {{
+        fileByShort[short] = f;
+        shorts.push(short);
+      }} else if (fileByShort[short] !== f) {{
+        // rare basename collision — keep first mapping; hover still has full path
+      }}
+    }}
+    shorts.sort((a, b) => a.localeCompare(b, 'he'));
+    const sel = document.getElementById('doc-filter');
+    for (const s of shorts) {{
+      const opt = document.createElement('option');
+      opt.value = fileByShort[s];
+      opt.textContent = s;
+      sel.appendChild(opt);
+    }}
+
+    function overlayTraces() {{
+      const out = [];
+      if (D.gt_chunks && D.gt_chunks.x.length) {{
+        out.push({{
+          type: 'scatter',
+          mode: 'markers',
+          name: 'GT source chunk',
+          x: D.gt_chunks.x, y: D.gt_chunks.y,
+          text: D.gt_chunks.hover,
+          customdata: D.gt_chunks.ids,
+          hoverlabel,
+          marker: {{
+            size: 14,
+            symbol: 'circle-open',
+            color: '#0f172a',
+            line: {{ width: 2.5, color: '#0f172a' }},
+          }},
+          hovertemplate: '%{{text}}<extra></extra>',
+        }});
+      }}
+      out.push({{
+        type: 'scatter',
+        mode: 'markers+text',
+        name: 'GT answer',
+        x: D.gt_answers.x, y: D.gt_answers.y,
+        text: D.gt_answers.labels,
+        customdata: D.gt_answers.hover,
+        textposition: 'top center',
+        textfont: {{ size: 8, color: '#7f1d1d' }},
+        hoverlabel,
+        marker: {{
+          size: 12,
+          symbol: 'square',
+          color: '#dc2626',
+          line: {{ width: 1, color: '#7f1d1d' }},
+        }},
+        hovertemplate: '%{{customdata}}<extra></extra>',
+      }});
+      out.push({{
+        type: 'scatter',
+        mode: 'markers+text',
+        name: 'Question',
+        x: D.questions.x, y: D.questions.y,
+        text: D.questions.labels,
+        customdata: D.questions.hover,
+        textposition: 'bottom center',
+        textfont: {{ size: 8, color: '#0f172a' }},
+        hoverlabel,
+        marker: {{
+          size: 14,
+          symbol: 'star',
+          color: '#fbbf24',
+          line: {{ width: 1.5, color: '#0f172a' }},
+        }},
+        hovertemplate: '%{{customdata}}<extra></extra>',
+      }});
+      return out;
+    }}
+
+    function corpusTracesDomain() {{
+      const by = {{}};
+      for (let i = 0; i < C.x.length; i++) {{
+        const d = C.domain[i];
+        if (!by[d]) by[d] = {{ x: [], y: [], hover: [] }};
+        by[d].x.push(C.x[i]);
+        by[d].y.push(C.y[i]);
+        by[d].hover.push(C.hover[i]);
+      }}
+      return Object.keys(by).sort().map(d => ({{
+        type: 'scattergl',
+        mode: 'markers',
+        name: d,
+        x: by[d].x, y: by[d].y,
+        text: by[d].hover,
+        hoverlabel,
+        marker: {{
+          size: 7,
+          color: D.domain_colors[d] || '#64748b',
+          opacity: 0.55,
+          line: {{ width: 0 }},
+        }},
+        hovertemplate: '%{{text}}<extra></extra>',
+      }}));
+    }}
+
+    function corpusTracesDocument(highlightFile) {{
+      const opacity = C.file.map(f =>
+        (!highlightFile || f === highlightFile) ? 0.7 : 0.06
+      );
+      const size = C.file.map(f =>
+        (!highlightFile || f === highlightFile) ? 7 : 5
+      );
+      return [{{
+        type: 'scattergl',
+        mode: 'markers',
+        name: 'corpus (by document)',
+        x: C.x, y: C.y,
+        text: C.hover,
+        hoverlabel,
+        showlegend: false,
+        marker: {{
+          size,
+          color: C.file_color,
+          opacity,
+          line: {{ width: 0 }},
+        }},
+        hovertemplate: '%{{text}}<extra></extra>',
+      }}];
+    }}
+
+    let colorMode = 'domain';
+    let plotted = false;
+
+    function render() {{
+      const hint = document.getElementById('color-hint');
+      const docWrap = document.getElementById('doc-filter-wrap');
+      let corpus;
+      if (colorMode === 'document') {{
+        hint.textContent = 'Colored dots = corpus by source document (' + {n_files} + ' files; hover for name)';
+        docWrap.style.display = '';
+        corpus = corpusTracesDocument(sel.value || '');
+        layout.showlegend = true;
+      }} else {{
+        hint.textContent = 'Colored dots = corpus by domain';
+        docWrap.style.display = 'none';
+        corpus = corpusTracesDomain();
+        layout.showlegend = true;
+      }}
+      const traces = corpus.concat(overlayTraces());
+      if (!plotted) {{
+        Plotly.newPlot('plot', traces, layout, config);
+        plotted = true;
+      }} else {{
+        Plotly.react('plot', traces, layout, config);
+      }}
+    }}
+
+    document.getElementById('color-mode').addEventListener('click', (e) => {{
+      const btn = e.target.closest('button[data-mode]');
+      if (!btn) return;
+      colorMode = btn.dataset.mode;
+      for (const b of document.querySelectorAll('#color-mode button')) {{
+        b.classList.toggle('active', b === btn);
+      }}
+      render();
+    }});
+    sel.addEventListener('change', () => {{
+      if (colorMode === 'document') render();
+    }});
+
+    render();
   </script>
 </body>
 </html>"""
@@ -421,43 +556,41 @@ def main() -> None:
         flush=True,
     )
 
-    by_domain: dict[str, list[int]] = defaultdict(list)
-    for i, v in enumerate(vectors):
-        by_domain[v.location.domain or "unknown"].append(i)
+    gt_set = set(gt_chunk_idx)
+    # Corpus cloud excludes GT-source markers (they get their own layer).
+    cloud_idxs = [i for i in range(n_c) if i not in gt_set]
 
-    domain_traces = []
-    for domain in sorted(by_domain.keys()):
-        idxs = by_domain[domain]
-        # exclude GT-source chunks from domain cloud (they get their own layer)
-        idxs = [i for i in idxs if i not in set(gt_chunk_idx)]
-        if not idxs:
-            continue
-        color = DOMAIN_COLORS.get(domain, "#64748b")
-        domain_traces.append(
-            {
-                "name": domain,
-                "color": color,
-                "x": corpus_xy[idxs, 0].tolist(),
-                "y": corpus_xy[idxs, 1].tolist(),
-                "hover": [
-                    _hover_html(
-                        f"{domain} · {vectors[i].location.file}"
-                        + (
-                            f" · p{vectors[i].location.page}"
-                            if vectors[i].location.page
-                            else ""
-                        )
-                        + (
-                            f" · {vectors[i].location.label}"
-                            if vectors[i].location.label
-                            else ""
-                        ),
-                        vectors[i].text,
-                        max_chars=args.hover_chars,
-                    )
-                    for i in idxs
-                ],
-            }
+    unique_files = sorted({vectors[i].location.file for i in cloud_idxs})
+    file_to_color = {f: _file_color(j) for j, f in enumerate(unique_files)}
+    domain_colors = {
+        d: DOMAIN_COLORS.get(d, "#64748b")
+        for d in sorted({vectors[i].location.domain or "unknown" for i in cloud_idxs})
+    }
+
+    corpus: dict = {
+        "x": corpus_xy[cloud_idxs, 0].tolist(),
+        "y": corpus_xy[cloud_idxs, 1].tolist(),
+        "domain": [],
+        "file": [],
+        "file_short": [],
+        "file_color": [],
+        "hover": [],
+    }
+    for i in cloud_idxs:
+        v = vectors[i]
+        domain = v.location.domain or "unknown"
+        fpath = v.location.file
+        meta = f"{domain} · {fpath}"
+        if v.location.page:
+            meta += f" · p{v.location.page}"
+        if v.location.label:
+            meta += f" · {v.location.label}"
+        corpus["domain"].append(domain)
+        corpus["file"].append(fpath)
+        corpus["file_short"].append(_file_basename(fpath))
+        corpus["file_color"].append(file_to_color[fpath])
+        corpus["hover"].append(
+            _hover_html(meta, v.text, max_chars=args.hover_chars)
         )
 
     q_labels = [q["id"].replace("dev-", "") for q in questions]
@@ -513,7 +646,8 @@ def main() -> None:
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(
         build_html(
-            domain_traces=domain_traces,
+            corpus=corpus,
+            domain_colors=domain_colors,
             question_trace=question_trace,
             gt_answer_trace=gt_answer_trace,
             gt_chunk_trace=gt_chunk_trace,
@@ -523,10 +657,14 @@ def main() -> None:
             model=model_name,
             n_corpus=n_c,
             n_questions=n_q,
+            n_files=len(unique_files),
         ),
         encoding="utf-8",
     )
-    print(f"Wrote {out} · {method_title} · {len(gt_chunk_idx)} GT source chunks in index")
+    print(
+        f"Wrote {out} · {method_title} · {len(unique_files)} docs · "
+        f"{len(gt_chunk_idx)} GT source chunks"
+    )
 
 
 if __name__ == "__main__":

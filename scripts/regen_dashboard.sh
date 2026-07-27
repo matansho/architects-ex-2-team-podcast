@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 #
-# Regenerate the prompt-strategy comparison report as a two-tab dashboard:
-#   Train      → reference_questions.json (48 dev questions, ids dev-*)
-#   Eval/Test  → eval_questions.json      (32 held-out questions, ids dev2-*)
+# Regenerate the prompt-strategy comparison report as a multi-tab dashboard:
+#   Train           → reference_questions.json (48 dev questions, ids dev-*)
+#   Eval/Test       → eval_questions.json      (32 held-out questions, ids dev2-*)
+#   Eval questions2 → eval_questions2.json     (61Q = 32 + 29 extend, ids eval-*)
 #
 # Each tab is a full comparison dashboard (its own runs/evals/corpus-evals)
 # isolated in an iframe. Pure local render — reads the *_answers.jsonl /
@@ -81,7 +82,13 @@ python scripts/generate_compare_dashboard.py \
   --run "RAG rerank + route80+20 + passage cite|reports/rag_answers_rerank_k20_w2_route80_20_passage_cite_eval_questions.jsonl" \
   --run "RAG rerank + route40+10 + passage cite|reports/rag_answers_rerank_k10_w2_route40_10_passage_cite_eval_questions.jsonl" \
   --eval "RAG rerank + route80+20 + passage cite|reports/stage2/rag_rerank_k20_w2_route80_20_passage_cite_eval_questions_eval.json" \
-  --eval "RAG rerank + route40+10 + passage cite|reports/stage2/rag_rerank_k10_w2_route40_10_passage_cite_eval_questions_eval.json"
+  --eval "RAG rerank + route40+10 + passage cite|reports/stage2/rag_rerank_k10_w2_route40_10_passage_cite_eval_questions_eval.json" \
+  \
+  --tab "Eval questions2 (eval · 61Q)|eval_questions2.json" \
+  --run "RAG rerank + route80+20 + passage cite|reports/rag_answers_rerank_k20_w2_route80_20_passage_cite_eval_questions2.jsonl" \
+  --eval "RAG rerank + route80+20 + passage cite|reports/stage2/rag_rerank_k20_w2_route80_20_passage_cite_eval_questions2_eval.json" \
+  --corpus-eval "RAG rerank + route80+20 + passage cite|reports/stage2/rag_rerank_k20_w2_route80_20_passage_cite_eval_questions2_corpus_judge_eval.json" \
+  --prompt "RAG rerank + route80+20 + passage cite|rag-no-cite"
 
 cp reports/stage1/stage1_prompt_strategy_comparison.html deliverables/stage1_prompt_strategy_comparison.html
 echo "Copied to deliverables/stage1_prompt_strategy_comparison.html"

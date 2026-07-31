@@ -45,6 +45,36 @@ Question:
 Return the JSON object now.
 """
 
+# When a dense preview is available (named products, jargon), prefer corpus evidence.
+ROUTE_SYSTEM_CTX = """\
+You route Hebrew insurance-customer questions to corpus domains for retrieval.
+Pick ONLY from the allowed domain list. Prefer the smallest set that can answer
+the question (usually 1, at most 3). If the question clearly spans domains,
+include all relevant ones.
+
+You are also given a PREVIEW of the top dense-retrieved corpus snippets for this
+question (domain, file, page, short text). Use them as evidence of where the
+answer likely lives — especially for named products/policies — but do not invent
+domains that are not in the allowed list. If the preview domains disagree with
+your prior, prefer the preview when it clearly matches the product or topic.
+
+Return ONLY valid JSON:
+  {"domains": ["domain-id", ...], "reason": "short English or Hebrew reason"}
+"""
+
+ROUTE_USER_CTX = """\
+Allowed domains (use these exact ids):
+{domain_list}
+
+Question:
+{question}
+
+Top retrieved snippets (dense preview — may be imperfect):
+{snippets}
+
+Return the JSON object now.
+"""
+
 
 @dataclass
 class RouteResult:
@@ -52,6 +82,7 @@ class RouteResult:
     reason: str = ""
     raw: str = ""
     fallback_all: bool = False  # True if we ignored a bad/empty route
+    used_preview: bool = False
 
 
 def _strip_json_fences(raw: str) -> str:
@@ -102,24 +133,65 @@ def parse_route_json(raw: str, *, allowed: tuple[str, ...] = CORPUS_DOMAINS) -> 
     return out[:3]
 
 
+def format_preview_snippets(
+    hits,
+    *,
+    max_chars: int = 220,
+) -> str:
+    """Format dense Hit list for the context-aware router prompt."""
+    lines: list[str] = []
+    for rank, h in enumerate(hits, start=1):
+        v = h.vector if hasattr(h, "vector") else h
+        loc = getattr(v, "location", None)
+        domain = (getattr(loc, "domain", None) or "?") if loc else "?"
+        path = (getattr(loc, "file", None) or "") if loc else ""
+        page = getattr(loc, "page", None) if loc else None
+        base = path.rsplit("/", 1)[-1] if path else "?"
+        body = getattr(v, "embed_text", None) or getattr(v, "text", None) or ""
+        body = " ".join(str(body).split())[:max_chars]
+        lines.append(
+            f"{rank}. domain={domain} | file={base[:55]} | page={page} | {body}"
+        )
+    return "\n".join(lines)
+
+
 def route_question(
     question: str,
     *,
     model: str = DEFAULT_ROUTE_MODEL,
     allowed: tuple[str, ...] = CORPUS_DOMAINS,
     complete=None,
+    preview_hits=None,
 ) -> RouteResult:
-    """Call LLM router. On failure / empty → fallback_all with empty domains."""
+    """Call LLM router. On failure / empty → fallback_all with empty domains.
+
+    If `preview_hits` is a non-empty list of Hits (or objects with `.vector`),
+    the router gets those snippets as corpus evidence.
+    """
     domain_list = "\n".join(f"- {d}" for d in allowed)
-    messages = [
-        {"role": "system", "content": ROUTE_SYSTEM},
-        {
-            "role": "user",
-            "content": ROUTE_USER.format(
-                domain_list=domain_list, question=question.strip()
-            ),
-        },
-    ]
+    use_preview = bool(preview_hits)
+    if use_preview:
+        messages = [
+            {"role": "system", "content": ROUTE_SYSTEM_CTX},
+            {
+                "role": "user",
+                "content": ROUTE_USER_CTX.format(
+                    domain_list=domain_list,
+                    question=question.strip(),
+                    snippets=format_preview_snippets(preview_hits),
+                ),
+            },
+        ]
+    else:
+        messages = [
+            {"role": "system", "content": ROUTE_SYSTEM},
+            {
+                "role": "user",
+                "content": ROUTE_USER.format(
+                    domain_list=domain_list, question=question.strip()
+                ),
+            },
+        ]
 
     def _call() -> str:
         import os
@@ -135,7 +207,7 @@ def route_question(
         elif "/" not in model:
             m = f"openai/{model}"
         resp = litellm.completion(
-            model=m, messages=messages, temperature=0, timeout=60, **kwargs
+            model=m, messages=messages, temperature=0, timeout=60, num_retries=0, **kwargs
         )
         return resp.choices[0].message.content or ""
 
@@ -149,15 +221,26 @@ def route_question(
             pass
         if not domains:
             return RouteResult(
-                domains=[], reason=reason or "empty route", raw=raw, fallback_all=True
+                domains=[],
+                reason=reason or "empty route",
+                raw=raw,
+                fallback_all=True,
+                used_preview=use_preview,
             )
-        return RouteResult(domains=domains, reason=reason, raw=raw, fallback_all=False)
+        return RouteResult(
+            domains=domains,
+            reason=reason,
+            raw=raw,
+            fallback_all=False,
+            used_preview=use_preview,
+        )
     except Exception as e:
         return RouteResult(
             domains=[],
             reason=f"route failed: {e!r}",
             raw="",
             fallback_all=True,
+            used_preview=use_preview,
         )
 
 

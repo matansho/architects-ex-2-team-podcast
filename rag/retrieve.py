@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import time
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -135,6 +136,8 @@ class CascadeResult:
     expanded: list[ExpandedHit]
     mode: str  # cascade | dense-fallback | rrf
     file_hits: list[tuple[str, float]] = field(default_factory=list)
+    # Optional stage timings in milliseconds (dense/CE/expand, etc.).
+    timings_ms: dict[str, float] = field(default_factory=dict)
 
 
 def rrf_fuse(rank_lists: list[list[int]], *, k: int = 60, top_k: int = 20) -> list[int]:
@@ -291,11 +294,16 @@ def hybrid_dense_candidates(
     global_idxs: list[int] | None = None,
     route_n: int = 80,
     global_n: int = 20,
+    global_seed: list[Hit] | None = None,
 ) -> list[Hit]:
     """Dense top-`route_n` in routed domains, plus `global_n` unique from full pool.
 
     The global leg searches everything in `global_idxs` (or the full corpus),
     including routed domains, and skips ids already taken by the route leg.
+
+    If `global_seed` is set (e.g. dense preview already computed for the router),
+    those hits are reused as the global leg first — no second global dense pass
+    unless the seed is short of `global_n` uniques after route dedupe.
     """
     routed = search(
         query_emb,
@@ -306,14 +314,23 @@ def hybrid_dense_candidates(
     )
     seen = {h.vector.id for h in routed}
 
+    extras: list[Hit] = []
+    if global_n > 0 and global_seed:
+        for h in global_seed:
+            if h.vector.id in seen:
+                continue
+            extras.append(h)
+            seen.add(h.vector.id)
+            if len(extras) >= global_n:
+                break
+
     # Worst case the global top-route_n mirror the route hits; fetch that many
     # extras so we can still collect global_n uniques.
     fetch_n = route_n + global_n
     pool_size = len(global_idxs) if global_idxs is not None else len(vectors)
     fetch_n = min(fetch_n, pool_size)
 
-    extras: list[Hit] = []
-    if global_n > 0 and fetch_n > 0:
+    if global_n > 0 and len(extras) < global_n and fetch_n > 0:
         global_hits = search(
             query_emb,
             corpus_emb,
@@ -475,6 +492,7 @@ def search_reranked(
     route_idxs: list[int] | None = None,
     route_n: int = 80,
     route_global_n: int = 20,
+    global_seed: list[Hit] | None = None,
 ) -> CascadeResult:
     """Dense top-candidate_n → cross-encoder top_k → neighbor expand.
 
@@ -484,8 +502,10 @@ def search_reranked(
 
     When `route_idxs` is set: dense `route_n` from routed domains + `route_global_n`
     unique from the general pool (`candidate_idxs` / full corpus), then CE.
+    Optional `global_seed` reuses a precomputed dense preview as the global leg.
     """
     index = id_to_idx if id_to_idx is not None else build_id_index(vectors)
+    t0 = time.perf_counter()
     if route_idxs is not None:
         candidates = hybrid_dense_candidates(
             query_emb,
@@ -495,6 +515,7 @@ def search_reranked(
             global_idxs=candidate_idxs,
             route_n=route_n,
             global_n=route_global_n,
+            global_seed=global_seed,
         )
     else:
         candidates = search(
@@ -504,14 +525,22 @@ def search_reranked(
             top_k=candidate_n,
             candidate_idxs=candidate_idxs,
         )
+    dense_ms = (time.perf_counter() - t0) * 1000
     if not candidates:
-        return CascadeResult(expanded=[], mode="rerank", file_hits=[])
+        return CascadeResult(
+            expanded=[],
+            mode="rerank",
+            file_hits=[],
+            timings_ms={"dense_candidates_ms": round(dense_ms, 1)},
+        )
 
     # Rank the same string we embed (description for tables; else payload).
     passages = [
         (h.vector.embed_text or h.vector.text or "") for h in candidates
     ]
+    t1 = time.perf_counter()
     scores = reranker.score(query, passages)
+    ce_ms = (time.perf_counter() - t1) * 1000
     order = np.argsort(-scores)[: min(top_k, len(candidates))]
 
     hits: list[Hit] = []
@@ -525,8 +554,19 @@ def search_reranked(
                 role="match",
             )
         )
+    t2 = time.perf_counter()
     expanded = [expand_hit(h, vectors, index, window=window) for h in hits]
-    return CascadeResult(expanded=expanded, mode="rerank", file_hits=[])
+    expand_ms = (time.perf_counter() - t2) * 1000
+    return CascadeResult(
+        expanded=expanded,
+        mode="rerank",
+        file_hits=[],
+        timings_ms={
+            "dense_candidates_ms": round(dense_ms, 1),
+            "cross_encoder_ms": round(ce_ms, 1),
+            "expand_ms": round(expand_ms, 1),
+        },
+    )
 
 
 

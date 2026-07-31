@@ -81,7 +81,7 @@ def score_citations(
     *,
     corpus_root: Path | str = "corpus",
     use_judge: bool = True,
-    judge_model: str = "deepseek-ai/DeepSeek-V4-Pro",
+    judge_model: str = "google/gemma-3-27b-it",
     quiet: bool = False,
 ) -> CitationScore:
     citations = citations or []

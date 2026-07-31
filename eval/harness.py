@@ -111,7 +111,7 @@ def run_eval(
     run_label: str = "eval",
     judge: bool = True,
     citation_judge: bool = True,
-    judge_model: str = "deepseek-ai/DeepSeek-V4-Pro",
+    judge_model: str = "google/gemma-3-27b-it",
     limit: int | None = None,
     quiet_judge: bool = False,
 ) -> EvalReport:

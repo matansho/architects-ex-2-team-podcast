@@ -13,7 +13,8 @@ import litellm
 
 from tf_client import BASE_URL, EST_PRICE
 
-DEFAULT_JUDGE_MODEL = "deepseek-ai/DeepSeek-V4-Pro"
+DEFAULT_JUDGE_MODEL = "google/gemma-3-27b-it"
+MAX_JUDGE_PARSE_RETRIES = 3
 
 JUDGE_SYSTEM = """You are an evaluation judge for a Hebrew insurance Q&A system.
 Score ONE model answer against a ground-truth reference answer.
@@ -148,27 +149,19 @@ def judge_citations(
         },
     ]
 
-    resp = litellm.completion(
-        model=f"openai/{model}",
-        api_base=BASE_URL,
-        api_key=key,
+    parsed, raw, prompt_tokens, completion_tokens = _completion_json_with_retry(
+        model=model,
+        key=key,
         messages=messages,
-        max_tokens=512,
-        temperature=0.0,
-        timeout=120,
-        response_format={"type": "json_object"},
     )
-    raw = resp.choices[0].message.content or ""
-    parsed = _extract_json(raw)
     establishes = str(parsed.get("establishes", "not_at_all")).strip().lower()
     if establishes not in {"fully", "partially", "not_at_all"}:
         establishes = "not_at_all"
 
-    u = resp.usage
-    cost = (u.prompt_tokens * EST_PRICE[0] + u.completion_tokens * EST_PRICE[1]) / 1e6
+    cost = (prompt_tokens * EST_PRICE[0] + completion_tokens * EST_PRICE[1]) / 1e6
     if not quiet:
         print(
-            f"  [cite-judge] {u.prompt_tokens}+{u.completion_tokens} tokens ~${cost:.4f} -> {establishes}",
+            f"  [cite-judge] {prompt_tokens}+{completion_tokens} tokens ~${cost:.4f} -> {establishes}",
             file=sys.stderr,
         )
 
@@ -190,6 +183,51 @@ class JudgeScore:
     cost_usd: float
 
 
+def _completion_json_with_retry(
+    *,
+    model: str,
+    key: str,
+    messages: list[dict[str, str]],
+    max_tokens: int = 512,
+    timeout: int = 120,
+    retries: int = MAX_JUDGE_PARSE_RETRIES,
+) -> tuple[dict[str, Any], str, int, int]:
+    """Call judge model and retry if it returns malformed JSON."""
+    total_prompt_tokens = 0
+    total_completion_tokens = 0
+    last_raw = ""
+    last_err: Exception | None = None
+
+    for _ in range(max(1, retries)):
+        resp = litellm.completion(
+            model=f"openai/{model}",
+            api_base=BASE_URL,
+            api_key=key,
+            messages=messages,
+            max_tokens=max_tokens,
+            temperature=0.0,
+            timeout=timeout,
+            response_format={"type": "json_object"},
+        )
+        raw = resp.choices[0].message.content or ""
+        usage = resp.usage
+        total_prompt_tokens += usage.prompt_tokens
+        total_completion_tokens += usage.completion_tokens
+
+        try:
+            parsed = _extract_json(raw)
+            return parsed, raw, total_prompt_tokens, total_completion_tokens
+        except ValueError as err:
+            last_err = err
+            last_raw = raw
+
+    if last_err is not None:
+        raise ValueError(
+            f"Judge returned non-JSON after {max(1, retries)} attempts: {last_raw[:200]!r}"
+        ) from last_err
+    raise ValueError("Judge returned non-JSON and no retry attempts were executed")
+
+
 def _extract_json(text: str) -> dict[str, Any]:
     text = text.strip()
     try:
@@ -198,7 +236,33 @@ def _extract_json(text: str) -> dict[str, Any]:
         pass
     match = re.search(r"\{.*\}", text, re.DOTALL)
     if match:
-        return json.loads(match.group())
+        try:
+            return json.loads(match.group())
+        except json.JSONDecodeError:
+            pass
+
+    # Fallback: extract expected fields from malformed/truncated JSON-like text.
+    parsed: dict[str, Any] = {}
+    for key in ("relevant", "hallucination", "refusal", "gt_covered", "fully_supported"):
+        m = re.search(rf'"{key}"\s*:\s*(true|false)', text, re.IGNORECASE)
+        if m:
+            parsed[key] = m.group(1).lower() == "true"
+
+    for key in ("establishes", "reasoning"):
+        m = re.search(rf'"{key}"\s*:\s*"((?:\\.|[^"\\])*)"', text, re.DOTALL)
+        if m:
+            try:
+                parsed[key] = json.loads(f'"{m.group(1)}"')
+            except json.JSONDecodeError:
+                parsed[key] = m.group(1)
+
+    if "reasoning" not in parsed:
+        m = re.search(r'"reasoning"\s*:\s*"(.*)$', text, re.DOTALL)
+        if m:
+            parsed["reasoning"] = m.group(1).strip().rstrip("}").strip()
+
+    if parsed:
+        return parsed
     raise ValueError(f"Judge returned non-JSON: {text[:200]!r}")
 
 
@@ -231,29 +295,21 @@ def judge_answer_corpus(
         },
     ]
 
-    resp = litellm.completion(
-        model=f"openai/{model}",
-        api_base=BASE_URL,
-        api_key=key,
+    parsed, raw, prompt_tokens, completion_tokens = _completion_json_with_retry(
+        model=model,
+        key=key,
         messages=messages,
-        max_tokens=512,
-        temperature=0.0,
-        timeout=120,
-        response_format={"type": "json_object"},
     )
-    raw = resp.choices[0].message.content or ""
-    parsed = _extract_json(raw)
     gt_covered = bool(parsed.get("gt_covered", False))
     fully_supported = bool(parsed.get("fully_supported", False))
     refusal = bool(parsed.get("refusal", False))
     if refusal:
         gt_covered = False
-    u = resp.usage
-    cost = (u.prompt_tokens * EST_PRICE[0] + u.completion_tokens * EST_PRICE[1]) / 1e6
+    cost = (prompt_tokens * EST_PRICE[0] + completion_tokens * EST_PRICE[1]) / 1e6
     if not quiet:
         ok = gt_covered and fully_supported and not refusal
         print(
-            f"  [corpus-judge] {u.prompt_tokens}+{u.completion_tokens} tokens "
+            f"  [corpus-judge] {prompt_tokens}+{completion_tokens} tokens "
             f"~${cost:.4f} -> covered={gt_covered} supported={fully_supported} "
             f"refusal={refusal} ok={ok}",
             file=sys.stderr,
@@ -292,28 +348,20 @@ def judge_answer(
         },
     ]
 
-    resp = litellm.completion(
-        model=f"openai/{model}",
-        api_base=BASE_URL,
-        api_key=key,
+    parsed, raw, prompt_tokens, completion_tokens = _completion_json_with_retry(
+        model=model,
+        key=key,
         messages=messages,
-        max_tokens=512,
-        temperature=0.0,
-        timeout=120,
-        response_format={"type": "json_object"},
     )
-    raw = resp.choices[0].message.content or ""
-    parsed = _extract_json(raw)
     relevant = bool(parsed.get("relevant", False))
     hallucination = bool(parsed.get("hallucination", False))
     refusal = bool(parsed.get("refusal", False))
     if hallucination:
         relevant = False  # contradiction/invented fact cannot be relevant
-    u = resp.usage
-    cost = (u.prompt_tokens * EST_PRICE[0] + u.completion_tokens * EST_PRICE[1]) / 1e6
+    cost = (prompt_tokens * EST_PRICE[0] + completion_tokens * EST_PRICE[1]) / 1e6
     if not quiet:
         print(
-            f"  [judge] {u.prompt_tokens}+{u.completion_tokens} tokens ~${cost:.4f}",
+            f"  [judge] {prompt_tokens}+{completion_tokens} tokens ~${cost:.4f}",
             file=sys.stderr,
         )
 

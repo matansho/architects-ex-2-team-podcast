@@ -40,7 +40,7 @@ def main():
     ap.add_argument("--index", default="data/index", help="Index dir (table payloads for --corpus-judge)")
     ap.add_argument("--out", help="Write full JSON report to this path")
     ap.add_argument("--label", default="eval", help="Label for this run")
-    ap.add_argument("--judge-model", default="deepseek-ai/DeepSeek-V4-Pro")
+    ap.add_argument("--judge-model", default="google/gemma-3-27b-it")
     ap.add_argument("--no-judge", action="store_true", help="Skip all LLM judges (citation resolve only)")
     ap.add_argument(
         "--no-citation-judge",

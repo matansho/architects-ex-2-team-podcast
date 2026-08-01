@@ -112,6 +112,7 @@ def run_eval(
     judge: bool = True,
     citation_judge: bool = True,
     judge_model: str = "deepseek-ai/DeepSeek-V4-Pro",
+    judge_reasoning_effort: str | None = None,
     limit: int | None = None,
     quiet_judge: bool = False,
 ) -> EvalReport:
@@ -136,6 +137,7 @@ def run_eval(
             corpus_root=corpus_path,
             use_judge=judge and citation_judge,
             judge_model=judge_model,
+            judge_reasoning_effort=judge_reasoning_effort,
             quiet=quiet_judge,
         )
 
@@ -162,6 +164,7 @@ def run_eval(
                 answer=a.get("answer", ""),
                 model=judge_model,
                 quiet=quiet_judge,
+                reasoning_effort=judge_reasoning_effort,
             )
             result.relevant = js.relevant
             result.hallucination = js.hallucination
@@ -253,6 +256,7 @@ def run_corpus_judge_eval(
     index_dir: str | Path = "data/index",
     run_label: str = "corpus-judge",
     judge_model: str = "deepseek-ai/DeepSeek-V4-Pro",
+    judge_reasoning_effort: str | None = None,
     limit: int | None = None,
     quiet_judge: bool = False,
 ) -> CorpusEvalReport:
@@ -287,6 +291,7 @@ def run_corpus_judge_eval(
             resolved=resolved,
             model=judge_model,
             quiet=quiet_judge,
+            reasoning_effort=judge_reasoning_effort,
         )
         judge_cost += js.cost_usd
         results.append(

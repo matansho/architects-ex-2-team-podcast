@@ -1,0 +1,110 @@
+[
+  {
+    "id": "dev-01-apartment-easy",
+    "bge_ms": 20158.2,
+    "mini_ms": 1984.1,
+    "speedup": 10.16,
+    "top5_jacc": 0.4,
+    "top20_jacc": 0.55,
+    "same_top1": false
+  },
+  {
+    "id": "dev-06-apartment-hard",
+    "bge_ms": 36518.7,
+    "mini_ms": 2516.2,
+    "speedup": 14.51,
+    "top5_jacc": 0.0,
+    "top20_jacc": 0.3,
+    "same_top1": false
+  },
+  {
+    "id": "dev-13-car-easy",
+    "bge_ms": 30834.6,
+    "mini_ms": 2507.0,
+    "speedup": 12.3,
+    "top5_jacc": 1.0,
+    "top20_jacc": 0.6,
+    "same_top1": false
+  },
+  {
+    "id": "dev-17-car-hard",
+    "bge_ms": 39379.6,
+    "mini_ms": 2356.0,
+    "speedup": 16.71,
+    "top5_jacc": 0.2,
+    "top20_jacc": 0.3,
+    "same_top1": true
+  },
+  {
+    "id": "dev-19-dental-easy",
+    "bge_ms": 15710.4,
+    "mini_ms": 2055.3,
+    "speedup": 7.64,
+    "top5_jacc": 0.4,
+    "top20_jacc": 0.65,
+    "same_top1": true
+  },
+  {
+    "id": "dev-23-dental-hard",
+    "bge_ms": 16704.2,
+    "mini_ms": 3507.8,
+    "speedup": 4.76,
+    "top5_jacc": 0.4,
+    "top20_jacc": 0.5,
+    "same_top1": true
+  },
+  {
+    "id": "dev-25-health-easy",
+    "bge_ms": 37148.5,
+    "mini_ms": 3759.4,
+    "speedup": 9.88,
+    "top5_jacc": 0.4,
+    "top20_jacc": 0.3,
+    "same_top1": false
+  },
+  {
+    "id": "dev-28-health-medium",
+    "bge_ms": 58779.6,
+    "mini_ms": 3095.4,
+    "speedup": 18.99,
+    "top5_jacc": 0.8,
+    "top20_jacc": 0.35,
+    "same_top1": false
+  },
+  {
+    "id": "dev-31-life-easy",
+    "bge_ms": 37209.8,
+    "mini_ms": 3262.7,
+    "speedup": 11.4,
+    "top5_jacc": 0.8,
+    "top20_jacc": 0.8,
+    "same_top1": false
+  },
+  {
+    "id": "dev-37-mortgage-easy",
+    "bge_ms": 61215.6,
+    "mini_ms": 19738.1,
+    "speedup": 3.1,
+    "top5_jacc": 0.2,
+    "top20_jacc": 0.6,
+    "same_top1": true
+  },
+  {
+    "id": "dev-43-travel-easy",
+    "bge_ms": 95012.4,
+    "mini_ms": 20379.5,
+    "speedup": 4.66,
+    "top5_jacc": 0.8,
+    "top20_jacc": 0.65,
+    "same_top1": false
+  },
+  {
+    "id": "dev-47-travel-hard",
+    "bge_ms": 109859.9,
+    "mini_ms": 13864.1,
+    "speedup": 7.92,
+    "top5_jacc": 0.6,
+    "top20_jacc": 0.5,
+    "same_top1": false
+  }
+]

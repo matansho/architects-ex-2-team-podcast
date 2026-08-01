@@ -13,9 +13,9 @@ SYSTEM_NO_CITE = (
     "Answer in the language of the question. "
     "Be direct: start yes/no questions with כן or לא when appropriate. "
     "For numeric questions, state the exact number, limit, or period. "
-    "Keep answers short: only what was asked — no extra procedures, hours, "
-    "phone numbers, waiting periods, or caps the customer did not ask about. "
-    "Once you have stated the figure/rule that answers the question, stop. "
+    "Cover every part of a multi-part question (amounts, caps, timing, who is paid, "
+    "conditions that decide yes/no) when those facts appear in the context — then "
+    "stop. Do not pad with unrelated procedures, phone hours, or side topics. "
     "If the question is underspecified but the context lists distinct options "
     "(plans, tracks, policy types), briefly cover each relevant option — do not "
     "stop at asking for more details when those options are already in context. "
@@ -38,12 +38,20 @@ SYSTEM_PASSAGE_CITE = (
     "Do not write document paths, file names, page numbers, or a מקורות section "
     "in the answer body.\n\n"
     "How to answer:\n"
-    "- Answer only what was asked. Do not add related procedures, hours, phone "
-    "numbers, waiting periods, aggregate caps, or side conditions the question "
-    "did not ask for. Once you have stated the figure/rule that answers the "
-    "question, stop — do not append further policy limits.\n"
+    "- Scope: answer every clause of the customer's question (amounts, caps, "
+    "timing/effective date, who is paid, purchase prerequisites, and conditions "
+    "that decide כן/לא) when those facts are in the passages. Then stop. Do not "
+    "pad with unrelated procedures, service hours, phone numbers, or side topics "
+    "the question did not ask about.\n"
+    "- Completeness check: before finishing, re-read the question and confirm each "
+    "asked sub-point is answered or explicitly marked as missing from the context. "
+    "Do not stop after the first figure if the question also asks for a condition, "
+    "cap, beneficiary, or effective-date rule present in the passages.\n"
     "- Every specific checkable fact you state MUST be supported by a passage "
-    "you list in USED_PASSAGES. If you cannot point to a passage, omit the fact.\n"
+    "you list in USED_PASSAGES. If you cannot point to a passage, omit the fact. "
+    "Never invent exceptions, age cutoffs, refund destinations, purchase "
+    "prerequisites, or medical carve-outs. Do not reuse a condition from a "
+    "different section/coverage as if it applied here.\n"
     "- If the question is underspecified but the context lists distinct options "
     "(plans, tracks, ages, codes, diagnoses), briefly cover each relevant option "
     "from the context. Prefer \"זה תלוי ב…\" + short bullets over asking for more "
@@ -63,8 +71,11 @@ SYSTEM_PASSAGE_CITE = (
     "relied on, using exactly this format (comma-separated integers, no brackets):\n"
     "USED_PASSAGES: 1, 3\n\n"
     "Rules for USED_PASSAGES:\n"
-    "- Include every passage that supports a fact in your answer.\n"
+    "- Include every passage [N] that supports a fact in your answer.\n"
     "- Use only numbers that appear as [N] labels in the context.\n"
+    "- Each [N] block may list primary + neighbor chunk ids/pages — pick the [N] "
+    "whose text (including neighbors) actually states the fact. Do not cite a "
+    "different [N] that is merely related (e.g. boilers vs garden extension).\n"
     "- Prefer the fewest passages that establish the answer (usually 1–3).\n"
     "- If you refuse for lack of information, use: USED_PASSAGES: none\n"
     "- Put USED_PASSAGES on the last line by itself — nothing after it.\n\n"
@@ -95,6 +106,9 @@ SYSTEM_PASSAGE_CITE = (
     "- Using brackets in the footer: USED_PASSAGES: [1], [2]\n"
     "- Omitting the USED_PASSAGES line\n"
     "- Writing USED_PASSAGES before the answer\n"
+    "- Answering only the first number when the question also asks who is paid, "
+    "a time limit, a cap, or a purchase prerequisite that appears in context\n"
+    "- Inventing exceptions or rules not stated in the cited passages\n"
     "- Padding with extra facts the customer did not ask about\n"
     "- Picking one plan/track as certain when several options appear in context\n"
     "- Saying only \"חסר מידע\" when the context already lists the possible options\n"
@@ -162,29 +176,66 @@ def citations_from_passage_indices(
     max_citations: int = 5,
     corpus_root: str | None = "corpus",
 ) -> list[dict[str, str | int | None]]:
-    """Map 1-based passage labels to `{file, page}` (context order = expanded order)."""
+    """Map 1-based passage labels to `{file, page}`.
+
+    Includes the primary hit and its attached neighbors (same expanded block),
+    so citing [N] can surface the page that actually holds a windowed clause.
+    """
     locs: list[tuple[str, int | None]] = []
+    seen: set[tuple[str, int | None]] = set()
     n = len(expanded)
     for i in indices:
-        if 1 <= i <= n:
-            loc = expanded[i - 1].match.location
-            locs.append((loc.file, loc.page))
+        if not (1 <= i <= n):
+            continue
+        for chunk in expanded[i - 1].chunks:
+            loc = chunk.location
+            key = (loc.file, loc.page)
+            if key in seen:
+                continue
+            seen.add(key)
+            locs.append(key)
     return citations_from_locations(
         locs, max_citations=max_citations, corpus_root=corpus_root
     )
 
 
 def format_passage(ex: ExpandedHit, *, index: int) -> str:
-    """One expanded hit as a labeled context block."""
+    """One expanded hit as a labeled context block (primary + neighbors)."""
+    from rag.peek import title_from_text
+
     loc = ex.match.location
-    page = loc.page
-    pages = sorted(set(loc.pages or []) | ({page} if page is not None else set()))
-    page_bit = f", page {pages[0]}" if len(pages) == 1 else (
-        f", pages {pages[0]}-{pages[-1]}" if pages else ""
+    pages = sorted(
+        {
+            c.location.page
+            for c in ex.chunks
+            if c.location.page is not None
+        }
+        | ({loc.page} if loc.page is not None else set())
     )
+    if len(pages) == 1:
+        page_bit = f", page {pages[0]}"
+    elif pages:
+        page_bit = f", pages {pages[0]}-{pages[-1]}"
+    else:
+        page_bit = ""
     header = f"[{index}] {loc.file}{page_bit} (score={ex.score:.3f})"
+    # Explicit sub-chunk map so the model cites the block that holds the fact.
+    sub: list[str] = []
+    for c in ex.chunks:
+        role = "primary" if c.id == ex.match.id else "neighbor"
+        title = title_from_text(c.text or "")
+        sub.append(
+            f"  ({role}) id={c.id} page={c.location.page}"
+            + (f" — {title}" if title else "")
+        )
+    map_block = "\n".join(sub)
     body = ex.merged_text().strip()
-    return f"{header}\n{body}" if body else header
+    parts = [header]
+    if map_block:
+        parts.append(map_block)
+    if body:
+        parts.append(body)
+    return "\n".join(parts)
 
 
 def build_context(
@@ -214,9 +265,11 @@ def build_messages(
             "Reply with your answer, then a final line exactly like:\n"
             "USED_PASSAGES: 1, 3\n"
             "(or USED_PASSAGES: none if you cannot answer from the context).\n\n"
-            "Reminders: cover all relevant options if the question is underspecified; "
-            "do not add caps/hours/procedures not needed to answer; if a named "
-            "activity is excepted from an exclusion list in a passage, treat it as covered."
+            "Reminders: answer every part of a multi-part question when those facts "
+            "are in the passages (amounts, caps, timing, who is paid, conditions); "
+            "do not invent facts; do not pad with unrelated procedures/hours; "
+            "if underspecified, cover the listed options; if a named activity is "
+            "excepted from an exclusion list, treat it as covered."
         )
     return [
         {"role": "system", "content": system_prompt},

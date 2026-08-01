@@ -49,6 +49,39 @@ def parse_labeled_arg(raw: str) -> tuple[str, Path]:
     return label.strip(), Path(path)
 
 
+def infer_stage(label: str, path: Path | str = "") -> int:
+    """Map a run to exercise stage 1 / 2 / 3 for dashboard filtering."""
+    l = (label or "").lower().strip()
+    p = str(path or "").lower().replace("\\", "/")
+    blob = f"{l} {p}"
+
+    # Stage 3: catalog / agent / verify (agentic layer on top of RAG).
+    if any(k in blob for k in ("agent", "verify", "decompose", "peek", "agentic", "catalog")):
+        return 3
+
+    # Stage 1: bare / few-shot prompt runs (not RAG).
+    if l.startswith("baseline") or l.startswith("few-shot") or l.startswith("few shot"):
+        return 1
+    if "rag" not in l and any(
+        k in p for k in ("/stage1/", "baseline_answers", "few_shot", "contrast_")
+    ):
+        return 1
+
+    # Stage 2: retrieval RAG core.
+    return 2
+
+
+def parse_stage_arg(raw: str) -> tuple[str, int]:
+    """Parse ``Label|N`` where N is 1, 2, or 3."""
+    if "|" not in raw:
+        raise ValueError(f"stage override must be Label|N, got {raw!r}")
+    label, stage_s = raw.rsplit("|", 1)
+    stage = int(stage_s.strip())
+    if stage not in (1, 2, 3):
+        raise ValueError(f"stage must be 1, 2, or 3, got {stage}")
+    return label.strip(), stage
+
+
 def load_questions(path: Path) -> dict[str, dict]:
     data = json.loads(path.read_text(encoding="utf-8"))
     if isinstance(data, dict):
@@ -88,6 +121,9 @@ def build_run_stats(
     questions: dict[str, dict],
     eval_rows: dict[str, dict] | None,
     corpus_rows: dict[str, dict] | None = None,
+    *,
+    stage: int | None = None,
+    path: Path | str = "",
 ) -> dict:
     rows = []
     for qid, q in questions.items():
@@ -97,6 +133,13 @@ def build_run_stats(
         ev = (eval_rows or {}).get(qid, {})
         ce = (corpus_rows or {}).get(qid, {})
         cite_score = ev.get("citation_score")
+        if cite_score is None:
+            # Fall back to corpus-judge citation resolution when answer-judge
+            # was never run for this run (common for stage-3 catalog/agent).
+            resolved = ce.get("citations_resolved")
+            total = ce.get("citations_total")
+            if isinstance(resolved, (int, float)) and isinstance(total, (int, float)) and total > 0:
+                cite_score = float(resolved) / float(total)
         rows.append(
             {
                 "id": qid,
@@ -167,12 +210,13 @@ def build_run_stats(
         denom = n_ok + n_fail
         corpus_precision = (n_ok / denom) if denom else 1.0
 
+    resolved_stage = stage if stage in (1, 2, 3) else infer_stage(label, path)
+    cite_vals = [r["citation_score"] for r in rows if r["citation_score"] is not None]
     return {
         "label": label,
+        "stage": resolved_stage,
         "count": len(rows),
-        "citation_accuracy": avg(
-            [r["citation_score"] for r in rows if r["citation_score"] is not None]
-        ),
+        "citation_accuracy": avg(cite_vals) if cite_vals else None,
         "latency_avg": avg([r["latency_ms"] for r in rows if r["latency_ms"]]),
         "latency_p50": p50([r["latency_ms"] for r in rows if r["latency_ms"]]),
         "answer_len_avg": avg([r["answer_len"] for r in rows]),
@@ -186,6 +230,8 @@ def build_run_stats(
         "corpus_ok_rate": corpus_ok_rate,
         "corpus_recall": corpus_recall,
         "corpus_precision": corpus_precision,
+        "has_answer_judge": relevance_rate is not None,
+        "has_corpus_judge": corpus_ok_rate is not None,
         "rows": rows,
     }
 
@@ -485,38 +531,76 @@ def fig_grouped_metric_by_difficulty(runs: list[dict], metric: str, title: str) 
     return _chart_html(fig)
 
 
+STAGE_LABELS = {1: "Stage 1", 2: "Stage 2", 3: "Stage 3"}
+
+
 def summary_cards(runs: list[dict]) -> str:
     cards = []
-    for run in runs:
+    for i, run in enumerate(runs):
         rel = run["relevance_rate"]
         hall = run["hallucination_rate"]
         ref = run["refusal_rate"]
-        rel_s = f"{rel:.0%}" if rel is not None else "—"
-        hall_s = f"{hall:.0%}" if hall is not None else "—"
-        ref_s = f"{ref:.0%}" if ref is not None else "—"
-        rel_cls = "good" if rel and rel >= 0.5 else "bad" if rel is not None else ""
-        hall_cls = "bad" if hall and hall >= 0.3 else "good" if hall is not None else ""
         cok = run.get("corpus_ok_rate")
         cov = run.get("gt_covered_rate")
         supp = run.get("fully_supported_rate")
+        cite = run.get("citation_accuracy")
+        cite_s = f"{cite:.0%}" if cite is not None else "—"
+        stage = run.get("stage", 2)
+        # Prefer answer-judge heroes; if those were never run, promote corpus metrics
+        # so stage-3 / corpus-only runs don't look empty.
+        if rel is not None:
+            hero_a_s = f"{rel:.0%}"
+            hero_a_l = "Relevance"
+            hero_a_cls = "good" if rel >= 0.5 else "bad"
+            hero_b_s = f"{hall:.0%}" if hall is not None else "—"
+            hero_b_l = "Hallucination"
+            hero_b_cls = (
+                "bad" if hall is not None and hall >= 0.3
+                else "good" if hall is not None
+                else ""
+            )
+        elif cok is not None:
+            hero_a_s = f"{cok:.0%}"
+            hero_a_l = "Corpus OK"
+            hero_a_cls = "good" if cok >= 0.5 else "bad"
+            hero_b_s = f"{cov:.0%}" if cov is not None else "—"
+            hero_b_l = "GT covered"
+            hero_b_cls = (
+                "good" if cov is not None and cov >= 0.5
+                else "bad" if cov is not None
+                else ""
+            )
+        else:
+            hero_a_s, hero_a_l, hero_a_cls = "—", "Relevance", ""
+            hero_b_s, hero_b_l, hero_b_cls = "—", "Hallucination", ""
+
+        ref_s = f"{ref:.0%}" if ref is not None else "—"
         corpus_metrics = ""
         if cok is not None:
-            corpus_metrics = f"""
+            # Avoid duplicating the promoted heroes in the detail grid.
+            extra = ""
+            if rel is not None:
+                extra = f"""
                 <div><span class="k">GT covered</span><span class="v">{cov:.0%}</span></div>
                 <div><span class="k">Cite-supported</span><span class="v">{supp:.0%}</span></div>
                 <div><span class="k">Corpus OK</span><span class="v">{cok:.0%}</span></div>
-            """
+                """
+            else:
+                extra = f"""
+                <div><span class="k">Cite-supported</span><span class="v">{supp:.0%}</span></div>
+                """
+            corpus_metrics = extra
         cards.append(
             f"""
-            <div class="run-card">
-              <h3>{esc(run['label'])}</h3>
+            <div class="run-card" data-run="{i}" data-stage="{stage}">
+              <h3>{esc(run['label'])} <span class="stage-pill s{stage}">{STAGE_LABELS.get(stage, f'Stage {stage}')}</span></h3>
               <div class="hero-metrics">
-                <div class="hero {rel_cls}"><span class="n">{rel_s}</span><span class="l">Relevance</span></div>
-                <div class="hero {hall_cls}"><span class="n">{hall_s}</span><span class="l">Hallucination</span></div>
+                <div class="hero {hero_a_cls}"><span class="n">{hero_a_s}</span><span class="l">{hero_a_l}</span></div>
+                <div class="hero {hero_b_cls}"><span class="n">{hero_b_s}</span><span class="l">{hero_b_l}</span></div>
               </div>
               <div class="metrics">
                 <div><span class="k">Refusal</span><span class="v">{ref_s}</span></div>
-                <div><span class="k">Citation</span><span class="v">{run['citation_accuracy']:.0%}</span></div>
+                <div><span class="k">Citation</span><span class="v">{cite_s}</span></div>
                 {corpus_metrics}
                 <div><span class="k">Latency avg</span><span class="v">{run['latency_avg']:.0f} ms</span></div>
                 <div><span class="k">Latency p50</span><span class="v">{run['latency_p50']:.0f} ms</span></div>
@@ -547,6 +631,15 @@ def question_payload(
             ev = (evmap or {}).get(qid, {})
             ce = (cemap or {}).get(qid, {})
             cite_score = ev.get("citation_score")
+            if cite_score is None:
+                resolved = ce.get("citations_resolved")
+                total = ce.get("citations_total")
+                if (
+                    isinstance(resolved, (int, float))
+                    and isinstance(total, (int, float))
+                    and total > 0
+                ):
+                    cite_score = float(resolved) / float(total)
             runs.append(
                 {
                     "label": label,
@@ -683,10 +776,20 @@ def build_html(
     )
     qdata = question_payload(questions, run_answers, run_evals, run_corpus)
     run_labels = json.dumps([r["label"] for r in runs], ensure_ascii=False)
+    run_stages = json.dumps([int(r.get("stage", 2)) for r in runs])
+    stage_toggles = (
+        '<div class="stage-bar" id="stage-bar">'
+        '<span class="stage-bar-label">Exercise parts</span>'
+        '<label class="stage-check"><input type="checkbox" class="stage-box" data-stage="1" checked /> Stage 1 · prompts</label>'
+        '<label class="stage-check"><input type="checkbox" class="stage-box" data-stage="2" checked /> Stage 2 · RAG</label>'
+        '<label class="stage-check"><input type="checkbox" class="stage-box" data-stage="3" checked /> Stage 3 · agentic</label>'
+        "</div>"
+    )
     run_toggles = (
         '<div class="run-toggle" id="run-toggle"><span class="run-toggle-label">Runs</span>'
         + "".join(
-            f'<label class="run-check"><input type="checkbox" class="run-toggle-box" '
+            f'<label class="run-check" data-run="{i}" data-stage="{int(r.get("stage", 2))}">'
+            f'<input type="checkbox" class="run-toggle-box" '
             f'data-run="{i}" checked /> {esc(r["label"])}</label>'
             for i, r in enumerate(runs)
         )
@@ -735,7 +838,16 @@ def build_html(
     h2 {{ margin: 0 0 .75rem; font-size: 1.05rem; font-weight: 650; color: #f1f5f9; }}
     .run-cards {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: .75rem; }}
     .run-card {{ border: 1px solid var(--border); border-radius: 12px; padding: .85rem; background: var(--surface); }}
-    .run-card h3 {{ margin: 0 0 .55rem; color: var(--accent); font-size: .95rem; }}
+    .run-card h3 {{ margin: 0 0 .55rem; color: var(--accent); font-size: .95rem; display: flex; flex-wrap: wrap; align-items: center; gap: .4rem; }}
+    .stage-pill {{ font-size: .68rem; font-weight: 700; padding: .1rem .4rem; border-radius: 999px; letter-spacing: .02em; }}
+    .stage-pill.s1 {{ background: #1e3a5f; color: #93c5fd; }}
+    .stage-pill.s2 {{ background: #14532d; color: #86efac; }}
+    .stage-pill.s3 {{ background: #4c1d95; color: #c4b5fd; }}
+    .stage-bar {{ display: flex; flex-wrap: wrap; align-items: center; gap: .45rem .75rem; padding: .55rem 1.25rem; background: #121820; border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 20; }}
+    .stage-bar-label {{ font-size: .72rem; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; margin-right: .25rem; }}
+    .stage-check {{ display: inline-flex; align-items: center; gap: .35rem; font-size: .84rem; color: var(--text); cursor: pointer; padding: .25rem .55rem; border: 1px solid var(--border); border-radius: 999px; background: var(--surface); }}
+    .stage-check:has(input:not(:checked)) {{ opacity: .45; }}
+    .stage-check input {{ accent-color: var(--accent); cursor: pointer; }}
     .hero-metrics {{ display: grid; grid-template-columns: 1fr 1fr; gap: .45rem; margin-bottom: .55rem; }}
     .hero {{ border-radius: 10px; padding: .45rem .55rem; text-align: center; background: var(--neutral-bg); }}
     .hero.good {{ background: var(--good-bg); }}
@@ -774,7 +886,7 @@ def build_html(
     .run-answer {{ border: 1px solid var(--border); border-radius: 10px; padding: .75rem; background: var(--surface); }}
     .run-answer.fail {{ border-color: #7f1d1d; background: #1a1010; }}
     .run-answer.ok {{ border-color: #065f46; background: #0f1a16; }}
-    .run-answer h5 {{ margin: 0 0 .35rem; color: var(--accent); font-size: .88rem; }}
+    .run-answer h5 {{ margin: 0 0 .35rem; color: var(--accent); font-size: .88rem; display: flex; flex-wrap: wrap; align-items: center; gap: .35rem; }}
     .pills {{ display: flex; flex-wrap: wrap; gap: .3rem; margin-bottom: .45rem; }}
     .pill {{ font-size: .7rem; font-weight: 600; padding: .12rem .4rem; border-radius: 999px; }}
     .pill.yes {{ background: var(--good-bg); color: var(--good); }}
@@ -871,6 +983,7 @@ def build_html(
       <a href="#table">All questions</a>
     </nav>
   </header>
+  {stage_toggles}
   <main>
     <section id="summary">
       <h2>Run summary</h2>
@@ -948,17 +1061,95 @@ def build_html(
   <script>
     const QDATA = {qdata};
     const RUN_LABELS = {run_labels};
+    const RUN_STAGES = {run_stages};
     const HAS_EVAL = {str(has_eval).lower()};
     const HAS_CORPUS = {str(has_corpus).lower()};
     let sortKey = 'id';
     let sortAsc = true;
     let activeRowId = null;
     const visibleRuns = new Set(RUN_LABELS.map((_, i) => i));
+    const enabledStages = new Set([1, 2, 3]);
+
+    function runAllowed(i) {{
+      return enabledStages.has(RUN_STAGES[i]) && visibleRuns.has(i);
+    }}
+
+    function ensureChartCache(gd) {{
+      if (gd._dashCache) return;
+      gd._dashCache = (gd.data || []).map(t => ({{
+        x: t.x ? Array.from(t.x) : null,
+        y: t.y ? Array.from(t.y) : null,
+        text: (t.text != null && Array.isArray(t.text)) ? Array.from(t.text) : t.text,
+        name: t.name,
+      }}));
+    }}
+
+    function applyChartFilter() {{
+      document.querySelectorAll('.plotly-graph-div').forEach(gd => {{
+        if (!gd.data || !gd.data.length) return;
+        ensureChartCache(gd);
+        const n = RUN_LABELS.length;
+        const cache = gd._dashCache;
+        const multiNamed = cache.length > 1 || (
+          cache.length === 1 && cache[0].name && RUN_LABELS.includes(cache[0].name)
+          && !(cache[0].x && cache[0].x.length === n)
+        );
+        if (multiNamed) {{
+          const vis = cache.map(t => {{
+            const ri = RUN_LABELS.indexOf(t.name);
+            return ri < 0 ? true : runAllowed(ri);
+          }});
+          Plotly.restyle(gd, {{ visible: vis }});
+          return;
+        }}
+        if (cache.length === 1 && cache[0].x && cache[0].x.length === n) {{
+          const idxs = [...Array(n).keys()].filter(i => runAllowed(i));
+          const t0 = cache[0];
+          const patch = {{
+            x: [idxs.map(i => t0.x[i])],
+            y: [idxs.map(i => t0.y[i])],
+          }};
+          if (Array.isArray(t0.text)) patch.text = [idxs.map(i => t0.text[i])];
+          Plotly.restyle(gd, patch);
+        }}
+      }});
+    }}
 
     function applyRunVisibility() {{
       document.querySelectorAll('#cmp-table [data-run]').forEach(el => {{
-        el.style.display = visibleRuns.has(Number(el.dataset.run)) ? '' : 'none';
+        el.style.display = runAllowed(Number(el.dataset.run)) ? '' : 'none';
       }});
+      document.querySelectorAll('.run-card[data-run]').forEach(el => {{
+        el.style.display = runAllowed(Number(el.dataset.run)) ? '' : 'none';
+      }});
+      document.querySelectorAll('.run-check[data-run]').forEach(el => {{
+        el.style.display = enabledStages.has(Number(el.dataset.stage)) ? '' : 'none';
+      }});
+      document.querySelectorAll('.run-answer[data-run]').forEach(el => {{
+        el.style.display = runAllowed(Number(el.dataset.run)) ? '' : 'none';
+      }});
+      applyChartFilter();
+    }}
+
+    function setEnabledStages(stages) {{
+      enabledStages.clear();
+      stages.forEach(s => enabledStages.add(Number(s)));
+      document.querySelectorAll('.stage-box').forEach(cb => {{
+        cb.checked = enabledStages.has(Number(cb.dataset.stage));
+      }});
+      applyRunVisibility();
+      const qid = document.getElementById('q-select')?.value;
+      if (qid) renderQuestion(qid);
+    }}
+
+    function syncStagesFromBoxes() {{
+      enabledStages.clear();
+      document.querySelectorAll('.stage-box:checked').forEach(cb => {{
+        enabledStages.add(Number(cb.dataset.stage));
+      }});
+      applyRunVisibility();
+      const qid = document.getElementById('q-select')?.value;
+      if (qid) renderQuestion(qid);
     }}
 
     function esc(s) {{ return (s ?? '').toString().replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }}
@@ -1015,7 +1206,8 @@ def build_html(
         return `Group ${{i+1}}: ${{opts}}`;
       }}).join('<br>');
 
-      document.getElementById('runs-grid').innerHTML = q.runs.map(r => {{
+      document.getElementById('runs-grid').innerHTML = q.runs.map((r, ri) => {{
+        if (!runAllowed(ri)) return '';
         const oc = outcome(r);
         const cardCls = oc === 'relevant' ? 'ok' : (oc === 'hallucination' || oc === 'wrong') ? 'fail' : '';
         const latency = r.latency_ms != null ? `${{Math.round(r.latency_ms)}} ms` : '—';
@@ -1026,8 +1218,9 @@ def build_html(
         const corpusJudge = r.corpus_judge_reasoning
           ? `<div class="judge-box"><strong>Corpus judge:</strong> ${{esc(r.corpus_judge_reasoning)}}</div>`
           : '';
-        return `<div class="run-answer ${{cardCls}}">
-          <h5>${{esc(r.label)}}</h5>
+        const stage = RUN_STAGES[ri];
+        return `<div class="run-answer ${{cardCls}}" data-run="${{ri}}" data-stage="${{stage}}">
+          <h5>${{esc(r.label)}} <span class="stage-pill s${{stage}}">Stage ${{stage}}</span></h5>
           <div class="pills">
             ${{HAS_EVAL ? pill('Rel', r.relevant) + pill('Hall', r.hallucination) + pill('Ref', r.refusal) : ''}}
             ${{corpusPills}}
@@ -1153,7 +1346,27 @@ def build_html(
         const ri = Number(cb.dataset.run);
         if (cb.checked) visibleRuns.add(ri); else visibleRuns.delete(ri);
         applyRunVisibility();
+        const qid = document.getElementById('q-select')?.value;
+        if (qid) renderQuestion(qid);
       }});
+    }});
+    document.querySelectorAll('.stage-box').forEach(cb => {{
+      cb.addEventListener('change', () => {{
+        syncStagesFromBoxes();
+        if (window.parent && window.parent !== window) {{
+          try {{
+            window.parent.postMessage({{
+              type: 'stageFilterFromChild',
+              stages: [...enabledStages],
+            }}, '*');
+          }} catch (_) {{}}
+        }}
+      }});
+    }});
+    window.addEventListener('message', (e) => {{
+      if (e.data?.type === 'stageFilter' && Array.isArray(e.data.stages)) {{
+        setEnabledStages(e.data.stages);
+      }}
     }});
     document.querySelectorAll('th.sortable').forEach(th => {{
       th.addEventListener('click', () => {{
@@ -1169,10 +1382,16 @@ def build_html(
       }});
     }}
 
+    // In the multi-tab shell, the parent owns the stage toggles — hide the local bar.
+    if (window.parent && window.parent !== window) {{
+      const bar = document.getElementById('stage-bar');
+      if (bar) bar.style.display = 'none';
+    }}
+
     refreshSelect();
     buildTable();
     if (document.getElementById('q-select').value) renderQuestion(document.getElementById('q-select').value);
-    window.addEventListener('load', resizeCharts);
+    window.addEventListener('load', () => {{ resizeCharts(); applyChartFilter(); }});
     window.addEventListener('resize', resizeCharts);
   </script>
 </body>
@@ -1189,7 +1408,15 @@ class _TabAction(argparse.Action):
             setattr(namespace, "tabs", tabs)
         name, qpath = parse_labeled_arg(value)
         tabs.append(
-            {"name": name, "questions": qpath, "run": [], "eval": [], "corpus": [], "prompt": []}
+            {
+                "name": name,
+                "questions": qpath,
+                "run": [],
+                "eval": [],
+                "corpus": [],
+                "prompt": [],
+                "stage": [],
+            }
         )
 
 
@@ -1200,7 +1427,15 @@ def _current_bucket(namespace) -> dict:
         return tabs[-1]
     bucket = getattr(namespace, "_default_bucket", None)
     if bucket is None:
-        bucket = {"name": None, "questions": None, "run": [], "eval": [], "corpus": [], "prompt": []}
+        bucket = {
+            "name": None,
+            "questions": None,
+            "run": [],
+            "eval": [],
+            "corpus": [],
+            "prompt": [],
+            "stage": [],
+        }
         setattr(namespace, "_default_bucket", bucket)
     return bucket
 
@@ -1223,6 +1458,10 @@ def build_dataset_doc(ds: dict, args, deliverables_html: str) -> tuple[str, int]
     for raw in ds["prompt"]:
         label, preset = parse_labeled_arg(raw)
         prompt_map[label] = str(preset)
+    stage_overrides: dict[str, int] = {}
+    for raw in ds.get("stage") or []:
+        label, st = parse_stage_arg(raw)
+        stage_overrides[label] = st
 
     run_answers: list[tuple[str, dict[str, dict]]] = []
     run_evals: list[tuple[str, dict[str, dict] | None]] = []
@@ -1230,7 +1469,11 @@ def build_dataset_doc(ds: dict, args, deliverables_html: str) -> tuple[str, int]
     runs: list[dict] = []
     prompt_specs: list[tuple[str, dict]] = []
     for label, path in run_specs:
-        answers = load_answers(ROOT / path)
+        ans_path = ROOT / path
+        if not ans_path.exists():
+            print(f"  skip missing answers: {label} ({path})", flush=True)
+            continue
+        answers = load_answers(ans_path)
         ev_path = eval_map.get(label)
         ev_rows = load_eval(ROOT / ev_path) if ev_path and (ROOT / ev_path).exists() else None
         ce_path = corpus_map.get(label)
@@ -1240,8 +1483,18 @@ def build_dataset_doc(ds: dict, args, deliverables_html: str) -> tuple[str, int]
         run_answers.append((label, answers))
         run_evals.append((label, ev_rows))
         run_corpus.append((label, ce_rows))
-        runs.append(build_run_stats(label, answers, questions, ev_rows, ce_rows))
-        preset = resolve_preset(label, ROOT / path, prompt_map.get(label))
+        runs.append(
+            build_run_stats(
+                label,
+                answers,
+                questions,
+                ev_rows,
+                ce_rows,
+                stage=stage_overrides.get(label),
+                path=path,
+            )
+        )
+        preset = resolve_preset(label, ans_path, prompt_map.get(label))
         prompt_specs.append((label, build_prompt_spec(preset)))
 
     doc = build_html(
@@ -1289,9 +1542,9 @@ def build_tab_shell(title: str, tabs: list[tuple[str, str, int]]) -> str:
   * {{ box-sizing: border-box; }}
   body {{ margin: 0; background: #0d0f14; color: #e6e6e6;
          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }}
-  .tabbar {{ display: flex; gap: 6px; align-items: center; padding: 8px 12px;
-            background: #14171f; border-bottom: 1px solid #262b36;
-            position: sticky; top: 0; z-index: 10; }}
+  .topbar {{ position: sticky; top: 0; z-index: 30; background: #14171f;
+            border-bottom: 1px solid #262b36; }}
+  .tabbar {{ display: flex; gap: 6px; align-items: center; padding: 8px 12px; flex-wrap: wrap; }}
   .tabbar .brand {{ font-weight: 600; font-size: 14px; margin-right: 12px; color: #9aa4b2; }}
   .tabbtn {{ padding: 7px 16px; cursor: pointer; border: 1px solid #2a2f3a;
             background: #1b1f28; color: #b9c1cc; border-radius: 8px; font-size: 13px;
@@ -1300,25 +1553,81 @@ def build_tab_shell(title: str, tabs: list[tuple[str, str, int]]) -> str:
   .tabbtn.active {{ background: #2f6feb; border-color: #2f6feb; color: #fff; }}
   .tabbtn .cnt {{ font-size: 11px; opacity: .8;
                  background: rgba(255,255,255,.14); padding: 1px 6px; border-radius: 999px; }}
-  .tabframe {{ width: 100%; height: calc(100vh - 49px); border: 0; display: none;
+  .stage-bar {{ display: flex; flex-wrap: wrap; align-items: center; gap: .45rem .75rem;
+               padding: 6px 12px 10px; border-top: 1px solid #262b36; }}
+  .stage-bar-label {{ font-size: 11px; color: #9aa4b2; text-transform: uppercase;
+                     letter-spacing: .04em; margin-right: 4px; }}
+  .stage-check {{ display: inline-flex; align-items: center; gap: 6px; font-size: 13px;
+                 color: #e6e6e6; cursor: pointer; padding: 4px 10px; border: 1px solid #2a2f3a;
+                 border-radius: 999px; background: #1b1f28; }}
+  .stage-check:has(input:not(:checked)) {{ opacity: .45; }}
+  .stage-check input {{ accent-color: #2f6feb; cursor: pointer; }}
+  .tabframe {{ width: 100%; height: calc(100vh - 88px); border: 0; display: none;
               background: #0d0f14; }}
   .tabframe.active {{ display: block; }}
 </style>
 </head>
 <body>
-  <div class="tabbar">
-    <span class="brand">{_html.escape(title)}</span>
-    {''.join(buttons)}
+  <div class="topbar">
+    <div class="tabbar">
+      <span class="brand">{_html.escape(title)}</span>
+      {''.join(buttons)}
+    </div>
+    <div class="stage-bar" id="stage-bar">
+      <span class="stage-bar-label">Exercise parts</span>
+      <label class="stage-check"><input type="checkbox" class="stage-box" data-stage="1" checked /> Stage 1 · prompts</label>
+      <label class="stage-check"><input type="checkbox" class="stage-box" data-stage="2" checked /> Stage 2 · RAG</label>
+      <label class="stage-check"><input type="checkbox" class="stage-box" data-stage="3" checked /> Stage 3 · agentic</label>
+    </div>
   </div>
   {''.join(frames)}
 <script>
   const btns = [...document.querySelectorAll('.tabbtn')];
   const frames = [...document.querySelectorAll('.tabframe')];
+  const enabledStages = new Set([1, 2, 3]);
+
+  function broadcastStages() {{
+    const stages = [...enabledStages];
+    frames.forEach(f => {{
+      try {{
+        f.contentWindow?.postMessage({{ type: 'stageFilter', stages }}, '*');
+      }} catch (_) {{}}
+    }});
+  }}
+
+  function syncFromBoxes() {{
+    enabledStages.clear();
+    document.querySelectorAll('.stage-box:checked').forEach(cb => {{
+      enabledStages.add(Number(cb.dataset.stage));
+    }});
+    broadcastStages();
+  }}
+
   btns.forEach(b => b.addEventListener('click', () => {{
     const i = +b.dataset.i;
     btns.forEach(x => x.classList.toggle('active', x === b));
     frames.forEach(f => f.classList.toggle('active', +f.dataset.i === i));
+    // Re-apply filter after the newly shown iframe finishes painting.
+    setTimeout(broadcastStages, 50);
   }}));
+
+  document.querySelectorAll('.stage-box').forEach(cb => {{
+    cb.addEventListener('change', syncFromBoxes);
+  }});
+
+  window.addEventListener('message', (e) => {{
+    if (e.data?.type === 'stageFilterFromChild' && Array.isArray(e.data.stages)) {{
+      enabledStages.clear();
+      e.data.stages.forEach(s => enabledStages.add(Number(s)));
+      document.querySelectorAll('.stage-box').forEach(cb => {{
+        cb.checked = enabledStages.has(Number(cb.dataset.stage));
+      }});
+      broadcastStages();
+    }}
+  }});
+
+  frames.forEach(f => f.addEventListener('load', () => broadcastStages()));
+  window.addEventListener('load', () => setTimeout(broadcastStages, 100));
 </script>
 </body>
 </html>"""
@@ -1353,6 +1662,12 @@ def main() -> None:
         help='Optional preset per run: "Label|baseline|default|concise|no-cite"',
     )
     ap.add_argument(
+        "--stage",
+        action=_BucketAction,
+        help='Optional stage override per run: "Label|1" (or 2 / 3). '
+        "Default is inferred from the label/path.",
+    )
+    ap.add_argument(
         "--deliverables-dir",
         default="deliverables",
         help="Directory of *.md deliverables to embed (set empty to skip)",
@@ -1364,7 +1679,13 @@ def main() -> None:
         datasets = tabs
     else:
         bucket = getattr(args, "_default_bucket", None) or {
-            "name": None, "questions": None, "run": [], "eval": [], "prompt": []
+            "name": None,
+            "questions": None,
+            "run": [],
+            "eval": [],
+            "corpus": [],
+            "prompt": [],
+            "stage": [],
         }
         bucket["questions"] = Path(args.questions)
         datasets = [bucket]

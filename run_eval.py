@@ -41,6 +41,11 @@ def main():
     ap.add_argument("--out", help="Write full JSON report to this path")
     ap.add_argument("--label", default="eval", help="Label for this run")
     ap.add_argument("--judge-model", default="deepseek-ai/DeepSeek-V4-Pro")
+    ap.add_argument(
+        "--judge-reasoning-effort",
+        choices=["low", "high", "max"],
+        help="Pass reasoning_effort to the judge LLM (auto-low for Kimi if omitted)",
+    )
     ap.add_argument("--no-judge", action="store_true", help="Skip all LLM judges (citation resolve only)")
     ap.add_argument(
         "--no-citation-judge",
@@ -64,6 +69,7 @@ def main():
             index_dir=args.index,
             run_label=args.label if args.label != "eval" else "corpus-judge",
             judge_model=args.judge_model,
+            judge_reasoning_effort=args.judge_reasoning_effort,
             limit=args.limit,
             quiet_judge=args.quiet_judge,
         )
@@ -78,6 +84,7 @@ def main():
             judge=not args.no_judge,
             citation_judge=not args.no_citation_judge,
             judge_model=args.judge_model,
+            judge_reasoning_effort=args.judge_reasoning_effort,
             limit=args.limit,
             quiet_judge=args.quiet_judge,
         )

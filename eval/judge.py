@@ -70,6 +70,42 @@ class CitationJudgeScore:
     cost_usd: float
 
 
+def _default_reasoning_effort(model: str) -> str | None:
+    """Kimi always thinks; without a low budget, content often comes back empty."""
+    name = model.lower()
+    if "kimi" in name or "moonshot" in name:
+        return "low"
+    return None
+
+
+def _judge_call_kwargs(model: str, *, reasoning_effort: str | None = None) -> dict[str, Any]:
+    effort = reasoning_effort if reasoning_effort is not None else _default_reasoning_effort(model)
+    kwargs: dict[str, Any] = {}
+    if effort:
+        # Nebius OpenAI-compat: litellm rejects top-level reasoning_effort.
+        kwargs["extra_body"] = {"reasoning_effort": effort}
+    return kwargs
+
+
+def _assistant_text(message: Any) -> str:
+    """Prefer content; fall back to reasoning_content (Kimi sometimes empties content)."""
+    content = getattr(message, "content", None) or ""
+    if isinstance(content, str) and content.strip():
+        return content
+    extra = getattr(message, "reasoning_content", None)
+    if extra is None and hasattr(message, "model_extra") and isinstance(message.model_extra, dict):
+        extra = message.model_extra.get("reasoning_content")
+    if isinstance(extra, str) and extra.strip():
+        return extra
+    if hasattr(message, "model_dump"):
+        d = message.model_dump()
+        for key in ("content", "reasoning_content", "reasoning"):
+            val = d.get(key)
+            if isinstance(val, str) and val.strip():
+                return val
+    return content if isinstance(content, str) else ""
+
+
 def _format_sources(resolved: list) -> str:
     blocks: list[str] = []
     for i, r in enumerate(resolved, start=1):
@@ -80,24 +116,56 @@ def _format_sources(resolved: list) -> str:
 
 
 CORPUS_JUDGE_SYSTEM = """You are an evaluation judge for a Hebrew insurance Q&A system.
-Score ONE model answer with two independent checks against (1) a ground-truth
-reference answer and (2) the text of the model's cited corpus pages (which may
-include extracted page text and table payloads from our index).
+Score ONE model answer with two INDEPENDENT checks:
+  (A) gt_covered  — does the answer contain the ground-truth facts?
+  (B) fully_supported — is everything the answer asserts backed by its own cited
+      corpus pages (extracted page text and table payloads from our index)?
+Never let one check decide the other: (A) looks only at the ground truth, (B)
+only at the cited sources. An answer can be supported but not covered, or
+covered but not supported.
 
-Return ONLY valid JSON with these fields:
-- gt_covered (bool): true if EVERY core fact in the ground-truth answer is present
-  and correct in the model answer. Minor wording differences are fine. Extra
-  details in the model answer are allowed and do NOT make this false. On a
-  multi-part ground truth, all required facts must appear.
+Return ONLY valid JSON, exactly these keys in this order:
+{"reasoning": "...", "gt_covered": true, "fully_supported": true, "refusal": false}
+
+- reasoning (string): first, in ONE or TWO sentences of English, name the GT
+  facts you checked and the decisive evidence. Decide the booleans from it.
+- gt_covered (bool): true if EVERY core *policy fact* in the ground-truth answer
+  is present and correct in the model answer. Minor wording differences are fine.
+  The model MAY add extra details; that alone does NOT make this false.
+  But the model may NOT omit a core ground-truth fact — especially any fact that
+  answers a part of the customer's question. On a multi-part question/GT, all
+  asked parts must be answered with the GT facts.
+
+  Hedging / "not in the documents" is NOT coverage: if the ground truth states a
+  specific fact (e.g. where a refund is paid) and the model says it does not know
+  or that the documents omit it, gt_covered is false for that fact.
+
+  Framing exception (כן/לא polarity only): judge policy substance, not the
+  opening yes/no. Example — GT: "לא. הפרק מחריג חבות כלפי קבלן משנה ועובדיו."
+  Model: "כן, אך בתנאי… ככלל החבות מוחרגת… עם זאת אם נרכשה הרחבה X אז יש כיסוי."
+  → gt_covered true (default exclusion is stated; optional rider is allowed
+  extra). Do NOT fail solely for opening with כן while stating the GT exclusion.
+  Still fail if the model never states the GT exclusion/rule, or claims
+  unconditional coverage when GT says excluded.
 - fully_supported (bool): true if EVERY specific checkable fact in the model
   answer — a number, date, duration, monetary amount, percentage, yes/no on
   coverage, or named exclusion/inclusion — is supported by the cited source
-  texts below. If the model answer has no such checkable facts, true only when
-  it is a refusal or empty. If there are no usable cited sources, false (unless
-  the answer is a pure refusal with no checkable facts).
-- refusal (bool): true if the model declines to answer, says it lacks information,
-  or gives only a generic disclaimer without committing to a fact.
-- reasoning (string): one or two sentences explaining your verdict."""
+  texts below. Judge this against the sources ONLY: a fact that the sources
+  support stays supported even if it goes beyond or conflicts with the ground
+  truth. Generic procedural advice ("check your schedule", "contact your agent")
+  asserts no checkable fact and never makes this false. If the model answer has
+  no checkable facts, true only when it is a refusal or empty. If there are no
+  usable cited sources, false (unless the answer is a pure refusal with no
+  checkable facts).
+- refusal (bool): true only if the answer AS A WHOLE declines — it commits to no
+  policy fact, or is only a generic disclaimer. An answer that resolves the main
+  question but hedges one detail is NOT a refusal (it just fails gt_covered).
+  A refusal always implies gt_covered false.
+
+Treat as the SAME fact: equivalent number/currency formats (24,000 ₪ / 24 אלף
+ש"ח / ILS 24000), equivalent date or duration phrasings, and Hebrew vs English
+product names. Extraction noise in the source text (garbled Hebrew, broken
+tables, RTL artifacts) is not evidence of a contradiction — judge substance."""
 
 CORPUS_JUDGE_USER = """Question: {question}
 
@@ -131,6 +199,7 @@ def judge_citations(
     resolved: list,
     model: str = DEFAULT_JUDGE_MODEL,
     quiet: bool = False,
+    reasoning_effort: str | None = None,
 ) -> CitationJudgeScore:
     key = os.environ.get("NEBIUS_API_KEY") or os.environ.get("OPENAI_API_KEY")
     if not key:
@@ -153,12 +222,13 @@ def judge_citations(
         api_base=BASE_URL,
         api_key=key,
         messages=messages,
-        max_tokens=512,
+        max_tokens=2048,
         temperature=0.0,
-        timeout=120,
+        timeout=180,
         response_format={"type": "json_object"},
+        **_judge_call_kwargs(model, reasoning_effort=reasoning_effort),
     )
-    raw = resp.choices[0].message.content or ""
+    raw = _assistant_text(resp.choices[0].message)
     parsed = _extract_json(raw)
     establishes = str(parsed.get("establishes", "not_at_all")).strip().lower()
     if establishes not in {"fully", "partially", "not_at_all"}:
@@ -209,6 +279,7 @@ def judge_answer_corpus(
     resolved: list,
     model: str = DEFAULT_JUDGE_MODEL,
     quiet: bool = False,
+    reasoning_effort: str | None = None,
 ) -> CorpusJudgeScore:
     """Second judge: GT ⊆ answer, and answer ⊆ cited sources (+ tables)."""
     key = os.environ.get("NEBIUS_API_KEY") or os.environ.get("OPENAI_API_KEY")
@@ -236,12 +307,13 @@ def judge_answer_corpus(
         api_base=BASE_URL,
         api_key=key,
         messages=messages,
-        max_tokens=512,
+        max_tokens=2048,
         temperature=0.0,
-        timeout=120,
+        timeout=180,
         response_format={"type": "json_object"},
+        **_judge_call_kwargs(model, reasoning_effort=reasoning_effort),
     )
-    raw = resp.choices[0].message.content or ""
+    raw = _assistant_text(resp.choices[0].message)
     parsed = _extract_json(raw)
     gt_covered = bool(parsed.get("gt_covered", False))
     fully_supported = bool(parsed.get("fully_supported", False))
@@ -275,6 +347,7 @@ def judge_answer(
     answer: str,
     model: str = DEFAULT_JUDGE_MODEL,
     quiet: bool = False,
+    reasoning_effort: str | None = None,
 ) -> JudgeScore:
     key = os.environ.get("NEBIUS_API_KEY") or os.environ.get("OPENAI_API_KEY")
     if not key:
@@ -297,12 +370,13 @@ def judge_answer(
         api_base=BASE_URL,
         api_key=key,
         messages=messages,
-        max_tokens=512,
+        max_tokens=2048,
         temperature=0.0,
-        timeout=120,
+        timeout=180,
         response_format={"type": "json_object"},
+        **_judge_call_kwargs(model, reasoning_effort=reasoning_effort),
     )
-    raw = resp.choices[0].message.content or ""
+    raw = _assistant_text(resp.choices[0].message)
     parsed = _extract_json(raw)
     relevant = bool(parsed.get("relevant", False))
     hallucination = bool(parsed.get("hallucination", False))

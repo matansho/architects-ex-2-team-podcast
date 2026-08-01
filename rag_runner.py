@@ -45,6 +45,9 @@ from rag.retrieve import (
     search_reranked,
     search_rrf,
 )
+from rag.peek import apply_title_peek, peek_summary
+from rag.agent import agent_meta, run_agent
+from rag.agent_tools import RetrievalBundle
 from rag.catalog import (
     DEFAULT_CATALOG_PATH,
     catalog_files_for_query,
@@ -243,6 +246,84 @@ def main() -> None:
         help="Allow retrieving from scraped */pages/faq.txt (excluded by default)",
     )
     ap.add_argument(
+        "--peek-titles",
+        action="store_true",
+        help=(
+            "After retrieve, scan first-line titles of chunks near top hits "
+            "(±peek-radius) and fetch exclusion/limit-like sections not already "
+            "in the expand window."
+        ),
+    )
+    ap.add_argument(
+        "--peek-radius",
+        type=int,
+        default=6,
+        help="Sequential chunk radius for title peek (default 6)",
+    )
+    ap.add_argument(
+        "--peek-max-fetches",
+        type=int,
+        default=6,
+        help="Max extra chunks to pull in via title peek (default 6)",
+    )
+    ap.add_argument(
+        "--peek-always",
+        action="store_true",
+        help=(
+            "Fetch interesting titles even when the question lacks carve-out cues "
+            "(default: only when the question looks like a coverage/exception ask)"
+        ),
+    )
+    ap.add_argument(
+        "--agent",
+        action="store_true",
+        help=(
+            "Hybrid ReAct: seed retrieve (route+catalog+CE), then up to "
+            "--agent-max-rounds tool calls (peek/fetch/search), then answer. "
+            "Implies --retrieve rerank, --route, --catalog, --cite passages. "
+            "Does not use auto --peek-titles (peek is a tool)."
+        ),
+    )
+    ap.add_argument(
+        "--agent-max-rounds",
+        type=int,
+        default=2,
+        help="Max tool rounds after seed retrieve before forcing final_answer (default 2)",
+    )
+    ap.add_argument(
+        "--agent-grep",
+        action="store_true",
+        help=(
+            "Sandbox: expose lexical grep tool (bm25/literal) to the agent. "
+            "Off by default; does not change seed retrieve."
+        ),
+    )
+    ap.add_argument(
+        "--verify",
+        action="store_true",
+        help=(
+            "After answer: gated tiny-model grounding check on cited passages; "
+            "strip unsupported sentences. On verify timeout keep answer as-is. "
+            "Intended for --agent (also works if you call run_agent)."
+        ),
+    )
+    ap.add_argument(
+        "--verify-model",
+        default=None,
+        help="Verifier model (default: google/gemma-3-27b-it)",
+    )
+    ap.add_argument(
+        "--verify-timeout",
+        type=float,
+        default=15.0,
+        help="Hard verifier timeout seconds; on timeout keep answer (default 15)",
+    )
+    ap.add_argument(
+        "--verify-force",
+        action="store_true",
+        help="Run verifier even when the risk gate would skip",
+    )
+    ap.add_argument(
         "--ids",
         default=None,
         help="Comma-separated question ids to run (e.g. dev-13-car-easy,dev-24-dental-hard)",
@@ -264,6 +345,12 @@ def main() -> None:
     )
     ap.add_argument("--show-prompt", action="store_true")
     args = ap.parse_args()
+    if args.agent:
+        args.retrieve = "rerank"
+        args.route = True
+        args.catalog = True
+        args.cite = "passages"
+        args.peek_titles = False
 
     index_dir = Path(args.index)
     config = json.loads((index_dir / "config.json").read_text(encoding="utf-8"))
@@ -307,6 +394,8 @@ def main() -> None:
                 if not line:
                     continue
                 try:
+                    if not line:
+                        continue
                     done.add(json.loads(line)["id"])
                 except (json.JSONDecodeError, KeyError):
                     continue
@@ -346,13 +435,17 @@ def main() -> None:
             f"FAQ exclusion ON · {len(non_faq_idxs)}/{len(vectors)} chunks eligible",
             flush=True,
         )
+    if args.peek_titles:
+        print(
+            f"Title peek ON · radius=±{args.peek_radius} · "
+            f"max_fetches={args.peek_max_fetches}"
+            + (" · always" if args.peek_always else " · question-gated"),
+            flush=True,
+        )
     if args.system_prompt == SYSTEM_NO_CITE and args.cite == "passages":
         args.system_prompt = SYSTEM_PASSAGE_CITE
     print(f"Cite mode: {args.cite}", flush=True)
-    print(f"Embedding {len(questions)} queries…", flush=True)
     embedder = Embedder(model_name=embed_model)
-    q_emb = embedder.embed_queries([q["question"] for q in questions])
-
     llm_model, kwargs = resolve_model(args.model)
     llm_extra: dict = {}
     extra_body: dict = {}
@@ -364,6 +457,160 @@ def main() -> None:
     if extra_body:
         llm_extra["extra_body"] = extra_body
         print(f"Answer LLM extras: {extra_body}", flush=True)
+
+    if args.agent:
+        assert reranker is not None
+        if catalog is None:
+            catalog = load_catalog(Path(args.catalog_path))
+        print(
+            f"Agent ON · max_tool_rounds={args.agent_max_rounds} · "
+            f"seed=route+catalog+CE (no auto-peek)"
+            + (" · grep=ON" if args.agent_grep else ""),
+            flush=True,
+        )
+        if args.verify:
+            from rag.verify import DEFAULT_VERIFY_MODEL
+
+            vmodel = args.verify_model or DEFAULT_VERIFY_MODEL
+            print(
+                f"Verify ON · model={vmodel} · timeout={args.verify_timeout:.0f}s"
+                + (" · force" if args.verify_force else " · gated"),
+                flush=True,
+            )
+        bundle = RetrievalBundle(
+            vectors=vectors,
+            emb=emb,
+            id_to_idx=id_to_idx,
+            embedder=embedder,
+            reranker=reranker,
+            catalog=catalog,
+            non_faq_idxs=non_faq_idxs,
+            catalog_min_score=args.catalog_min_score,
+            top_k=args.top_k,
+            window=args.window,
+            candidate_n=args.candidate_n,
+            route_n=args.route_n,
+            route_global_n=args.route_global_n,
+            route_preview_n=args.route_preview_n,
+            route_model=args.route_model,
+            use_route=True,
+            use_catalog=True,
+            enable_grep=bool(args.agent_grep),
+        )
+        if args.agent_grep:
+            from rag.agent_tools import ensure_chunk_bm25
+
+            print("  building chunk BM25 for grep …", flush=True)
+            ensure_chunk_bm25(bundle)
+            print("  BM25 ready", flush=True)
+        latency_rows: list[dict[str, float]] = []
+        with open(args.out, out_mode, encoding="utf-8") as out:
+            for q in questions:
+                t0 = time.perf_counter()
+                print(f"  {q['id']} …", flush=True)
+                from rag.verify import DEFAULT_VERIFY_MODEL
+
+                agent_kwargs = dict(
+                    model=llm_model,
+                    model_kwargs=kwargs,
+                    max_tool_rounds=args.agent_max_rounds,
+                    llm_timeout=args.llm_timeout,
+                    llm_extra=llm_extra,
+                    max_citations=args.max_citations,
+                    verbose=True,
+                    verify=bool(args.verify),
+                    verify_model=args.verify_model or DEFAULT_VERIFY_MODEL,
+                    verify_timeout=float(args.verify_timeout),
+                    verify_force=bool(args.verify_force),
+                )
+                try:
+                    result = run_agent(bundle, q["question"], **agent_kwargs)
+                except Exception as e:
+                    name = type(e).__name__
+                    if "Timeout" not in name and "timeout" not in str(e).lower():
+                        raise
+                    print(
+                        f"    agent timeout on {q['id']}: {e}",
+                        flush=True,
+                    )
+                    time.sleep(2)
+                    result = run_agent(bundle, q["question"], **agent_kwargs)
+                latency_ms = (time.perf_counter() - t0) * 1000
+                stage_ms = dict(result.latency_ms)
+                stage_ms["total_ms"] = round(latency_ms, 1)
+                latency_rows.append(stage_ms)
+                meta = agent_meta(result)
+                meta["max_tool_rounds"] = args.agent_max_rounds
+                rec = {
+                    "id": q["id"],
+                    "answer": result.answer,
+                    "citations": result.citations,
+                    "latency_ms": latency_ms,
+                    "latency_breakdown_ms": stage_ms,
+                    "reasoning_effort": args.reasoning_effort,
+                    "no_thinking": bool(args.no_thinking),
+                    "tokens": result.tokens,
+                    "cost_usd": result.cost_usd,
+                    "domain": result.domain,
+                    "retrieval": {
+                        "mode": "agent",
+                        "top_k": args.top_k,
+                        "window": args.window,
+                        "candidate_n": args.candidate_n,
+                        "rerank_model": args.rerank_model,
+                        "route_domains": result.state.route_domains,
+                        "catalog": {
+                            "files": result.state.catalog_files,
+                            "matched": result.state.catalog_matched,
+                        },
+                        "exclude_faq": exclude_faq,
+                        "cite_mode": "passages",
+                        "passage_cite": result.passage_meta,
+                        "agent": meta,
+                        "hits": [
+                            {
+                                "rank": ex.rank,
+                                "score": round(ex.score, 4),
+                                "file": ex.match.location.file,
+                                "page": ex.match.location.page,
+                                "id": ex.match.id,
+                                "domain": ex.match.location.domain,
+                            }
+                            for ex in result.state.passages
+                        ],
+                    },
+                    "approach": (
+                        f"rag-agent+route{args.route_n}+{args.route_global_n}"
+                        f"+routectx+nofaq+catalog+cite_passages"
+                        + ("+verify" if args.verify else "")
+                    ),
+                }
+                out.write(json.dumps(rec, ensure_ascii=False) + "\n")
+                out.flush()
+                tools = ",".join(t.name for t in result.state.tool_trace) or "∅"
+                preview = result.answer.replace("\n", " ")[:70]
+                print(
+                    f"  {q['id']:28s} agent   "
+                    f"total={latency_ms:.0f}ms  tools=[{tools}]  "
+                    f"fetch={len(result.state.fetched_ids)}  {preview!r}…",
+                    flush=True,
+                )
+        if latency_rows:
+            keys = sorted({k for row in latency_rows for k in row})
+            print("\nLatency summary (ms):", flush=True)
+            for key in keys:
+                vals = [row[key] for row in latency_rows if key in row]
+                if vals:
+                    print(
+                        f"  {key}: n={len(vals)} mean={sum(vals)/len(vals):.0f} "
+                        f"p50={sorted(vals)[len(vals)//2]:.0f}",
+                        flush=True,
+                    )
+        print(f"Wrote {len(questions)} answers → {args.out}", flush=True)
+        return
+
+    print(f"Embedding {len(questions)} queries…", flush=True)
+    q_emb = embedder.embed_queries([q["question"] for q in questions])
 
     def retrieve_one(qi: int, question: str):
         route_meta = None
@@ -671,10 +918,34 @@ def main() -> None:
         "rerank": "rag-rerank-no-cite",
     }[args.retrieve]
 
+    def maybe_peek(expanded, question: str, stage_ms: dict | None = None):
+        """Optional title peek + fetch; returns (expanded, peek_info|None)."""
+        if not args.peek_titles:
+            return expanded, None
+        t_peek = time.perf_counter()
+        expanded, peek_results = apply_title_peek(
+            expanded,
+            vectors,
+            id_to_idx,
+            question,
+            radius=args.peek_radius,
+            max_fetches=args.peek_max_fetches,
+            always_interesting=args.peek_always,
+        )
+        info = peek_summary(peek_results)
+        ms = round((time.perf_counter() - t_peek) * 1000, 1)
+        if stage_ms is not None:
+            stage_ms["peek_ms"] = ms
+        n = info.get("n_fetched", 0)
+        if n:
+            print(f"    peek → fetched {n} section(s)", flush=True)
+        return expanded, info
+
     if args.show_prompt:
         expanded, mode, _, route_meta, _seed, _timings, _decomp, _cat = retrieve_one(
             0, questions[0]["question"]
         )
+        expanded, peek_info = maybe_peek(expanded, questions[0]["question"])
         context = build_context(expanded)
         messages = build_messages(
             questions[0]["question"], context, system_prompt=args.system_prompt
@@ -685,11 +956,14 @@ def main() -> None:
             preview_note = (
                 f", preview={'on' if route_meta.used_preview else 'off'}"
             )
+        peek_note = ""
+        if peek_info is not None:
+            peek_note = f", peek_fetched={peek_info.get('n_fetched', 0)}"
         print(
             f"\n(retrieve={mode}, candidates={args.candidate_n}, top_k={args.top_k}, "
             f"window=±{args.window}, {len(expanded)} hits, "
             f"route={None if route_meta is None else route_meta.domains}"
-            f"{preview_note}, "
+            f"{preview_note}{peek_note}, "
             f"prompt chars≈{sum(len(m['content']) for m in messages)})"
         )
         return
@@ -708,6 +982,9 @@ def main() -> None:
                 decomp,
                 catalog_info,
             ) = retrieve_one(qi, q["question"])
+            expanded, peek_info = maybe_peek(
+                expanded, q["question"], stage_ms=stage_ms
+            )
             t_prompt0 = time.perf_counter()
             context = build_context(expanded)
             messages = build_messages(
@@ -775,15 +1052,18 @@ def main() -> None:
             if args.cite == "passages":
                 parsed = parse_answer_with_passages(raw)
                 answer = parsed.answer
-                if parsed.passage_indices:
+                if parsed.parse_ok and parsed.passage_indices:
                     citations = citations_from_passage_indices(
                         expanded,
                         parsed.passage_indices,
                         max_citations=args.max_citations,
                     )
                     cite_source = "passages"
+                elif parsed.parse_ok and not parsed.passage_indices:
+                    # Explicit USED_PASSAGES: none
+                    citations = []
+                    cite_source = "none"
                 else:
-                    # Fallback so we never ship empty cites on parse miss / none
                     citations = citations_from_hits(
                         expanded, max_citations=args.max_citations
                     )
@@ -852,6 +1132,7 @@ def main() -> None:
                         "notes": decomp.field_notes,
                     },
                     "catalog": catalog_info,
+                    "peek": peek_info,
                     "exclude_faq": exclude_faq,
                     "cite_mode": args.cite,
                     "passage_cite": passage_meta,
@@ -883,6 +1164,7 @@ def main() -> None:
                 )
                 + ("" if args.include_faq else "+nofaq")
                 + ("+catalog" if args.catalog else "")
+                + ("+peek" if args.peek_titles else "")
                 + f"+cite_{args.cite}",
             }
             out.write(json.dumps(rec, ensure_ascii=False) + "\n")

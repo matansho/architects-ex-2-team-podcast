@@ -82,6 +82,7 @@ def score_citations(
     corpus_root: Path | str = "corpus",
     use_judge: bool = True,
     judge_model: str = "deepseek-ai/DeepSeek-V4-Pro",
+    judge_reasoning_effort: str | None = None,
     quiet: bool = False,
 ) -> CitationScore:
     citations = citations or []
@@ -135,6 +136,7 @@ def score_citations(
         resolved=valid,
         model=judge_model,
         quiet=quiet,
+        reasoning_effort=judge_reasoning_effort,
     )
     score = ESTABLISHES_SCORE.get(judged.establishes, 0.0)
     return CitationScore(

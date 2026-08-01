@@ -1,0 +1,251 @@
+{
+  "base": "google/gemma-3-27b-it",
+  "cand": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+  "rows": [
+    {
+      "id": "dev-06-apartment-hard",
+      "domain_gt": "apartment",
+      "base_domains": [
+        "apartment"
+      ],
+      "cand_domains": [
+        "apartment"
+      ],
+      "exact_match": true,
+      "jaccard": 1.0,
+      "gt_in_base": true,
+      "gt_in_cand": true,
+      "base_ms": 3463.8,
+      "cand_ms": 1141.4,
+      "base_fallback": false,
+      "cand_fallback": false,
+      "base_reason": "The question explicitly concerns damage to a garden at an apartment. The retrieved snippets all relate to apartment insu",
+      "cand_reason": "The query involves a residential apartment insurance policy and garden damage, which is covered under the apartment doma"
+    },
+    {
+      "id": "dev-28-health-medium",
+      "domain_gt": "health",
+      "base_domains": [
+        "health"
+      ],
+      "cand_domains": [
+        "health"
+      ],
+      "exact_match": true,
+      "jaccard": 1.0,
+      "gt_in_base": true,
+      "gt_in_cand": true,
+      "base_ms": 1472.2,
+      "cand_ms": 2202.9,
+      "base_fallback": false,
+      "cand_fallback": false,
+      "base_reason": "The question is about skin acne and whether it's covered under a personal physician service, which clearly falls under t",
+      "cand_reason": "השאלה עוסקת בקבלת שירות רפואי עבור אקנה, במסגרת כתב שירות רופא מלווה אישי בתחום מחלות העור, ולכן שייך לתחום הבריאות."
+    },
+    {
+      "id": "dev-47-travel-hard",
+      "domain_gt": "travel",
+      "base_domains": [
+        "travel"
+      ],
+      "cand_domains": [
+        "travel"
+      ],
+      "exact_match": true,
+      "jaccard": 1.0,
+      "gt_in_base": true,
+      "gt_in_cand": true,
+      "base_ms": 1374.3,
+      "cand_ms": 1232.5,
+      "base_fallback": false,
+      "cand_fallback": false,
+      "base_reason": "The question explicitly asks about coverage under the 'Passport First Class' travel insurance policy for damage caused t",
+      "cand_reason": "The query asks about liability coverage under the First Class passport travel insurance for accidental damage to a third"
+    },
+    {
+      "id": "dev-17-car-hard",
+      "domain_gt": "car",
+      "base_domains": [
+        "car"
+      ],
+      "cand_domains": [
+        "car"
+      ],
+      "exact_match": true,
+      "jaccard": 1.0,
+      "gt_in_base": true,
+      "gt_in_cand": true,
+      "base_ms": 947.7,
+      "cand_ms": 896.3,
+      "base_fallback": false,
+      "cand_fallback": false,
+      "base_reason": "The question is specifically about car insurance (ביטוח רכב), comparing 'Harel Switch' to comprehensive insurance, and h",
+      "cand_reason": "The query is about the Harel Switch comprehensive car insurance product and how it differs from a standard comprehensive"
+    },
+    {
+      "id": "dev-01-apartment-easy",
+      "domain_gt": "apartment",
+      "base_domains": [
+        "health"
+      ],
+      "cand_domains": [
+        "health"
+      ],
+      "exact_match": true,
+      "jaccard": 1.0,
+      "gt_in_base": false,
+      "gt_in_cand": false,
+      "base_ms": 7325.2,
+      "cand_ms": 2141.1,
+      "base_fallback": false,
+      "cand_fallback": false,
+      "base_reason": "The question is about the statute of limitations for an insurance claim. The retrieved snippets (especially 1, 2, 3, 14,",
+      "cand_reason": "הגשת תביעה לגוף מוסדי אינה עוצרת את מרוץ ההתיישנות; רק הגשת תביעה לבית המשפט עוצרת אותו"
+    },
+    {
+      "id": "dev-13-car-easy",
+      "domain_gt": "car",
+      "base_domains": [
+        "car"
+      ],
+      "cand_domains": [
+        "car"
+      ],
+      "exact_match": true,
+      "jaccard": 1.0,
+      "gt_in_base": true,
+      "gt_in_cand": true,
+      "base_ms": 1031.8,
+      "cand_ms": 706.6,
+      "base_fallback": false,
+      "cand_fallback": false,
+      "base_reason": "The question is specifically about car keys being locked inside a vehicle and whether roadside assistance covers unlocki",
+      "cand_reason": "The query concerns a car lockout and entitlement to unlocking service under a car insurance policy."
+    },
+    {
+      "id": "dev-19-dental-easy",
+      "domain_gt": "dental",
+      "base_domains": [
+        "dental"
+      ],
+      "cand_domains": [
+        "dental"
+      ],
+      "exact_match": true,
+      "jaccard": 1.0,
+      "gt_in_base": true,
+      "gt_in_cand": true,
+      "base_ms": 1324.1,
+      "cand_ms": 848.3,
+      "base_fallback": false,
+      "cand_fallback": false,
+      "base_reason": "The question is about submitting a dental claim. The retrieved snippets (1, 2, 3, 5, 6) all relate to dental claims, for",
+      "cand_reason": "The query concerns filing a reimbursement claim for completed dental treatment and requesting the claim form and submiss"
+    },
+    {
+      "id": "dev-25-health-easy",
+      "domain_gt": "health",
+      "base_domains": [
+        "car",
+        "health"
+      ],
+      "cand_domains": [
+        "car"
+      ],
+      "exact_match": false,
+      "jaccard": 0.5,
+      "gt_in_base": true,
+      "gt_in_cand": false,
+      "base_ms": 1352.0,
+      "cand_ms": 2664.3,
+      "base_fallback": false,
+      "cand_fallback": false,
+      "base_reason": "The snippets discuss 'הצעת פשרה' (settlement offer) and explicitly state that it is not binding until approved. The snip",
+      "cand_reason": "ההצעה לא נחשבת מחייבת עד לאישור התובע, לפי הוראות סעיף הפשרה בתיקי רכב"
+    },
+    {
+      "id": "dev-31-life-easy",
+      "domain_gt": "life",
+      "base_domains": [
+        "health",
+        "life",
+        "loss-of-working-ability"
+      ],
+      "cand_domains": [
+        "life"
+      ],
+      "exact_match": false,
+      "jaccard": 0.333,
+      "gt_in_base": true,
+      "gt_in_cand": true,
+      "base_ms": 2520.4,
+      "cand_ms": 2186.7,
+      "base_fallback": false,
+      "cand_fallback": false,
+      "base_reason": "The question is about changing the insurance rate after quitting smoking. The retrieved snippets consistently mention up",
+      "cand_reason": "Relevant to life insurance premium adjustment after quitting smoking."
+    },
+    {
+      "id": "dev-37-mortgage-easy",
+      "domain_gt": "mortgage",
+      "base_domains": [
+        "apartment",
+        "mortgage"
+      ],
+      "cand_domains": [
+        "apartment",
+        "mortgage"
+      ],
+      "exact_match": true,
+      "jaccard": 1.0,
+      "gt_in_base": true,
+      "gt_in_cand": true,
+      "base_ms": 1626.3,
+      "cand_ms": 2051.9,
+      "base_fallback": false,
+      "cand_fallback": false,
+      "base_reason": "The question is about water damage to an apartment, and the snippets discuss both apartment and mortgage insurance polic",
+      "cand_reason": "ההרחבה אינה מכסה נזק לדירה לא תפוסה אלא אם מצוין במפורש; בפוליסה של משכנתא יש חריג ובפוליסת דירה יש אפשרות להרחבה אם מצו"
+    },
+    {
+      "id": "dev-43-travel-easy",
+      "domain_gt": "travel",
+      "base_domains": [
+        "travel"
+      ],
+      "cand_domains": [
+        "travel"
+      ],
+      "exact_match": true,
+      "jaccard": 1.0,
+      "gt_in_base": true,
+      "gt_in_cand": true,
+      "base_ms": 1490.0,
+      "cand_ms": 1595.1,
+      "base_fallback": false,
+      "cand_fallback": false,
+      "base_reason": "The question explicitly concerns hospitalization abroad and coverage for a companion's travel and lodging, which is dire",
+      "cand_reason": "The question involves reimbursement for a companion's flight and lodging after a hospitalization abroad, which is covere"
+    },
+    {
+      "id": "dev-23-dental-hard",
+      "domain_gt": "dental",
+      "base_domains": [
+        "dental"
+      ],
+      "cand_domains": [
+        "dental"
+      ],
+      "exact_match": true,
+      "jaccard": 1.0,
+      "gt_in_base": true,
+      "gt_in_cand": true,
+      "base_ms": 1574.0,
+      "cand_ms": 971.5,
+      "base_fallback": false,
+      "cand_fallback": false,
+      "base_reason": "The question is specifically about canceling dental insurance and inquiring about a dental claim. All relevant snippets ",
+      "cand_reason": "מבקש לבטל ביטוח שיניים ולברר תביעה – relevant to dental insurance cancellation and claim"
+    }
+  ]
+}

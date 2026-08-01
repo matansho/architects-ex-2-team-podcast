@@ -41,8 +41,20 @@ python scripts/generate_compare_dashboard.py \
   --run "RAG rerank + route80+20 + hits cite|reports/rag_answers_rerank_k20_w2_route80_20_nofaq_cite.jsonl" \
   --run "RAG rerank + route80+20 + passage cite|reports/rag_answers_rerank_k20_w2_route80_20_passage_cite.jsonl" \
   --run "RAG rerank + route40+10 + passage cite|reports/rag_answers_rerank_k20_w2_route40_10_passage_cite.jsonl" \
+  --run "RAG route80+20 passage (Kimi judge)|reports/rag_answers_rerank_k20_w2_route80_20_passage_cite.jsonl" \
+  --run "RAG route40+10 passage (Kimi judge)|reports/rag_answers_rerank_k20_w2_route40_10_passage_cite.jsonl" \
+  --run "RAG routectx 80+20 + Kimi-K3 (low)|reports/rag_answers_rerank_k20_w2_route80_20_routectx_kimik3_low.jsonl" \
+  --run "RAG routectx + catalog + Kimi-K3 (low)|reports/rag_answers_routectx_kimik3_low_catalog_48q.jsonl" \
+  --run "RAG agent routectx+catalog + Kimi-K3 (low)|reports/rag_answers_routectx_kimik3_low_agent_48q.jsonl" \
+  --run "RAG agent+verify + Kimi-K3 (low)|reports/rag_answers_routectx_kimik3_low_agent_verify_48q.jsonl" \
   --corpus-eval "RAG rerank + route80+20 + passage cite|reports/stage2/rag_rerank_k20_w2_route80_20_corpus_judge_eval.json" \
   --corpus-eval "RAG rerank + route40+10 + passage cite|reports/stage2/rag_rerank_k20_w2_route40_10_corpus_judge_eval.json" \
+  --corpus-eval "RAG route80+20 passage (Kimi judge)|reports/stage2/rag_rerank_k20_w2_route80_20_passage_cite_kimik3_corpus_judge_eval.json" \
+  --corpus-eval "RAG route40+10 passage (Kimi judge)|reports/stage2/rag_rerank_k20_w2_route40_10_passage_cite_kimik3_corpus_judge_eval.json" \
+  --corpus-eval "RAG routectx 80+20 + Kimi-K3 (low)|reports/stage2/rag_rerank_k20_w2_route80_20_routectx_kimik3_low_corpus_judge_eval.json" \
+  --corpus-eval "RAG routectx + catalog + Kimi-K3 (low)|reports/stage2/rag_routectx_kimik3_low_catalog_48q_corpus_judge_eval.json" \
+  --corpus-eval "RAG agent routectx+catalog + Kimi-K3 (low)|reports/stage2/rag_routectx_kimik3_low_agent_48q_corpus_judge_eval.json" \
+  --corpus-eval "RAG agent+verify + Kimi-K3 (low)|reports/stage2/rag_routectx_kimik3_low_agent_verify_48q_corpus_judge_eval.json" \
   --eval "Baseline|reports/stage1/baseline_eval.json" \
   --eval "Few-shot + cite|reports/stage1/few_shot_eval.json" \
   --eval "Few-shot + concise|reports/stage1/concise_few_shot_eval.json" \
@@ -64,6 +76,9 @@ python scripts/generate_compare_dashboard.py \
   --eval "RAG rerank + route80+20 + hits cite|reports/stage2/rag_rerank_k20_w2_route80_20_nofaq_cite_eval.json" \
   --eval "RAG rerank + route80+20 + passage cite|reports/stage2/rag_rerank_k20_w2_route80_20_passage_cite_eval.json" \
   --eval "RAG rerank + route40+10 + passage cite|reports/stage2/rag_rerank_k20_w2_route40_10_passage_cite_eval.json" \
+  --eval "RAG route80+20 passage (Kimi judge)|reports/stage2/rag_rerank_k20_w2_route80_20_passage_cite_kimik3_judge_eval.json" \
+  --eval "RAG route40+10 passage (Kimi judge)|reports/stage2/rag_rerank_k20_w2_route40_10_passage_cite_kimik3_judge_eval.json" \
+  --eval "RAG routectx 80+20 + Kimi-K3 (low)|reports/stage2/rag_rerank_k20_w2_route80_20_routectx_kimik3_low_eval.json" \
   --prompt "RAG no-cite|rag-no-cite" \
   --prompt "RAG no-cite k10±2|rag-no-cite" \
   --prompt "RAG no-cite k20±2|rag-no-cite" \
@@ -77,6 +92,12 @@ python scripts/generate_compare_dashboard.py \
   --prompt "RAG rerank + route80+20 + hits cite|rag-no-cite" \
   --prompt "RAG rerank + route80+20 + passage cite|rag-no-cite" \
   --prompt "RAG rerank + route40+10 + passage cite|rag-no-cite" \
+  --prompt "RAG route80+20 passage (Kimi judge)|rag-no-cite" \
+  --prompt "RAG route40+10 passage (Kimi judge)|rag-no-cite" \
+  --prompt "RAG routectx 80+20 + Kimi-K3 (low)|rag-no-cite" \
+  --prompt "RAG routectx + catalog + Kimi-K3 (low)|rag-no-cite" \
+  --prompt "RAG agent routectx+catalog + Kimi-K3 (low)|rag-no-cite" \
+  --prompt "RAG agent+verify + Kimi-K3 (low)|rag-no-cite" \
   \
   --tab "Eval / Test (dev2 · 32Q)|eval_questions.json" \
   --run "RAG rerank + route80+20 + passage cite|reports/rag_answers_rerank_k20_w2_route80_20_passage_cite_eval_questions.jsonl" \
@@ -86,9 +107,20 @@ python scripts/generate_compare_dashboard.py \
   \
   --tab "Eval questions2 (eval · 61Q)|eval_questions2.json" \
   --run "RAG rerank + route80+20 + passage cite|reports/rag_answers_rerank_k20_w2_route80_20_passage_cite_eval_questions2.jsonl" \
+  --run "RAG routectx 80+20 + Qwen3-235B|reports/rag_answers_rerank_k20_w2_route80_20_routectx_qwen235_eval_questions2.jsonl" \
+  --run "RAG routectx 80+20 + Kimi-K3 (low)|reports/rag_answers_rerank_k20_w2_route80_20_routectx_kimik3_low_eval_questions2.jsonl" \
+  --run "RAG agent routectx+catalog + Kimi-K3 (low)|reports/rag_answers_routectx_kimik3_low_agent_eval61q.jsonl" \
   --eval "RAG rerank + route80+20 + passage cite|reports/stage2/rag_rerank_k20_w2_route80_20_passage_cite_eval_questions2_eval.json" \
+  --eval "RAG routectx 80+20 + Qwen3-235B|reports/stage2/rag_rerank_k20_w2_route80_20_routectx_qwen235_eval_questions2_eval.json" \
+  --eval "RAG routectx 80+20 + Kimi-K3 (low)|reports/stage2/rag_rerank_k20_w2_route80_20_routectx_kimik3_low_eval_questions2_eval.json" \
   --corpus-eval "RAG rerank + route80+20 + passage cite|reports/stage2/rag_rerank_k20_w2_route80_20_passage_cite_eval_questions2_corpus_judge_eval.json" \
-  --prompt "RAG rerank + route80+20 + passage cite|rag-no-cite"
+  --corpus-eval "RAG routectx 80+20 + Qwen3-235B|reports/stage2/rag_rerank_k20_w2_route80_20_routectx_qwen235_eval_questions2_corpus_judge_eval.json" \
+  --corpus-eval "RAG routectx 80+20 + Kimi-K3 (low)|reports/stage2/rag_rerank_k20_w2_route80_20_routectx_kimik3_low_eval_questions2_corpus_judge_eval.json" \
+  --corpus-eval "RAG agent routectx+catalog + Kimi-K3 (low)|reports/stage2/rag_routectx_kimik3_low_agent_eval61q_corpus_judge_eval.json" \
+  --prompt "RAG rerank + route80+20 + passage cite|rag-no-cite" \
+  --prompt "RAG routectx 80+20 + Qwen3-235B|rag-no-cite" \
+  --prompt "RAG routectx 80+20 + Kimi-K3 (low)|rag-no-cite" \
+  --prompt "RAG agent routectx+catalog + Kimi-K3 (low)|rag-no-cite"
 
 cp reports/stage1/stage1_prompt_strategy_comparison.html deliverables/stage1_prompt_strategy_comparison.html
 echo "Copied to deliverables/stage1_prompt_strategy_comparison.html"

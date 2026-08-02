@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0f1419">
+<title>Champion pipeline briefing — staff Q&amp;A</title>
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap");
+
+  :root {
+    --bg: #0f1419;
+    --bg-elev: #171d25;
+    --ink: #e8edf2;
+    --muted: #8b97a8;
+    --line: #2a3340;
+    --accent: #3d8bfd;
+    --accent-dim: #1e3a5f;
+    --good: #3dba7a;
+    --bad: #e25c5c;
+    --warn: #d4a017;
+    --mono: "IBM Plex Mono", ui-monospace, monospace;
+    --sans: "IBM Plex Sans", system-ui, sans-serif;
+    --pad: max(1rem, env(safe-area-inset-left));
+    --padr: max(1rem, env(safe-area-inset-right));
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: var(--sans); font-size: 16px; line-height: 1.55;
+    padding-bottom: calc(4rem + env(safe-area-inset-bottom));
+  }
+
+  .top {
+    position: sticky; top: 0; z-index: 20;
+    background: color-mix(in srgb, var(--bg) 94%, transparent);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--line);
+    padding: .65rem var(--padr) .65rem var(--pad);
+  }
+  .top .brand { font-weight: 700; font-size: .95rem; }
+  .top .sub { font-size: .75rem; color: var(--muted); margin-top: .15rem; }
+  .toc {
+    display: flex; gap: .4rem; overflow-x: auto; -webkit-overflow-scrolling: touch;
+    padding: .55rem 0 0; margin: 0 calc(-1 * var(--pad)) 0;
+    padding-left: var(--pad); padding-right: var(--padr);
+    scrollbar-width: none;
+  }
+  .toc::-webkit-scrollbar { display: none; }
+  .toc a {
+    flex: 0 0 auto; text-decoration: none; color: var(--muted);
+    font-size: .72rem; font-weight: 600; letter-spacing: .02em;
+    border: 1px solid var(--line); border-radius: 999px;
+    padding: .35rem .7rem; background: var(--bg-elev); white-space: nowrap;
+  }
+  .toc a:hover, .toc a:focus { color: var(--accent); border-color: var(--accent); }
+
+  main { max-width: 40rem; margin: 0 auto; padding: 1.25rem var(--padr) 2rem var(--pad); }
+  section {
+    margin: 0 0 2rem; padding-top: .25rem;
+    scroll-margin-top: 6.5rem;
+  }
+  .eyebrow {
+    font-size: .7rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+    color: var(--accent); margin-bottom: .35rem;
+  }
+  h1 { font-size: 1.65rem; line-height: 1.2; letter-spacing: -.02em; margin: 0 0 .75rem; }
+  h2 { font-size: 1.25rem; line-height: 1.25; margin: 0 0 .65rem; letter-spacing: -.015em; }
+  h3 { font-size: 1rem; margin: 1rem 0 .4rem; }
+  p { margin: 0 0 .75rem; color: var(--ink); }
+  .muted { color: var(--muted); }
+  ul, ol { margin: 0 0 .85rem; padding-left: 1.2rem; }
+  li { margin: .35rem 0; }
+  li::marker { color: var(--accent); }
+
+  .card {
+    background: var(--bg-elev); border: 1px solid var(--line);
+    border-radius: 12px; padding: .9rem 1rem; margin: .75rem 0;
+  }
+  .card.good { border-color: color-mix(in srgb, var(--good) 45%, var(--line)); }
+  .card.warn { border-color: color-mix(in srgb, var(--warn) 45%, var(--line)); }
+  .card.bad { border-color: color-mix(in srgb, var(--bad) 45%, var(--line)); }
+
+  .stats { display: grid; grid-template-columns: 1fr 1fr; gap: .6rem; margin: .75rem 0; }
+  .stat {
+    background: var(--bg-elev); border: 1px solid var(--line);
+    border-radius: 12px; padding: .75rem .85rem;
+  }
+  .stat .v { font-size: 1.45rem; font-weight: 700; letter-spacing: -.02em; }
+  .stat .l { font-size: .72rem; color: var(--muted); margin-top: .2rem; }
+  .stat.good .v { color: var(--good); }
+  .stat.accent .v { color: var(--accent); }
+
+  .flow {
+    display: flex; flex-direction: column; gap: .35rem; margin: .75rem 0 1rem;
+  }
+  .flow .step {
+    background: var(--bg-elev); border: 1px solid var(--line);
+    border-radius: 10px; padding: .55rem .75rem; font-size: .92rem; font-weight: 500;
+  }
+  .flow .step small { display: block; font-weight: 400; color: var(--muted); font-size: .78rem; margin-top: .2rem; }
+  .flow .arrow { color: var(--muted); text-align: center; font-size: .8rem; }
+
+  table {
+    width: 100%; border-collapse: collapse; font-size: .86rem;
+    display: block; overflow-x: auto; -webkit-overflow-scrolling: touch;
+  }
+  thead, tbody, tr { display: table; width: 100%; table-layout: fixed; }
+  th, td { text-align: left; padding: .5rem .45rem; border-bottom: 1px solid var(--line); vertical-align: top; word-wrap: break-word; }
+  th { color: var(--muted); font-size: .68rem; text-transform: uppercase; letter-spacing: .04em; }
+  td.num, td.mono { font-family: var(--mono); font-size: .8rem; }
+  col.k { width: 38%; } col.v { width: 62%; }
+
+  code, .mono {
+    font-family: var(--mono); font-size: .84em;
+    background: var(--bg-elev); border: 1px solid var(--line);
+    padding: .05em .3em; border-radius: 4px;
+  }
+  pre {
+    font-family: var(--mono); font-size: .72rem; line-height: 1.45;
+    background: var(--bg-elev); border: 1px solid var(--line); border-radius: 12px;
+    padding: .85rem; overflow-x: auto; white-space: pre; -webkit-overflow-scrolling: touch;
+  }
+
+  .tag {
+    display: inline-block; font-size: .68rem; font-weight: 700;
+    padding: .12rem .4rem; border-radius: 4px; margin-right: .25rem;
+    background: var(--accent-dim); color: var(--accent);
+  }
+  .tag.good { background: color-mix(in srgb, var(--good) 18%, transparent); color: var(--good); }
+  .tag.bad { background: color-mix(in srgb, var(--bad) 18%, transparent); color: var(--bad); }
+  .tag.warn { background: color-mix(in srgb, var(--warn) 18%, transparent); color: var(--warn); }
+
+  .qa { border-left: 3px solid var(--accent); padding-left: .75rem; margin: 1rem 0; }
+  .qa .q { font-weight: 600; margin-bottom: .25rem; }
+  .qa .a { color: var(--muted); font-size: .95rem; }
+
+  .foot {
+    margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid var(--line);
+    font-size: .8rem; color: var(--muted);
+  }
+  .foot a { color: var(--accent); }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="brand">Champion pipeline briefing</div>
+  <div class="sub">Agent v2 · MiniLM→BGE@40 · top-k 25 · optional LLM verify · staff Q&amp;A</div>
+  <nav class="toc" aria-label="Sections">
+    <a href="#overview">Overview</a>
+    <a href="#flow">Flow</a>
+    <a href="#offline">Offline</a>
+    <a href="#route">Route</a>
+    <a href="#catalog">Catalog</a>
+    <a href="#retrieve">Retrieve</a>
+    <a href="#agent">Agent</a>
+    <a href="#tools">Tools</a>
+    <a href="#answer">Answer</a>
+    <a href="#verify">Verify</a>
+    <a href="#latency">Latency</a>
+    <a href="#off">Off</a>
+    <a href="#cli">CLI</a>
+    <a href="#scores">Scores</a>
+    <a href="#faq">FAQ</a>
+  </nav>
+</header>
+
+<main>
+
+<section id="overview">
+  <div class="eyebrow">00 · Purpose</div>
+  <h1>What ships today</h1>
+  <p>Hebrew insurance RAG over the Harel corpus. Core retrieve+agent: <code>scripts/run_agent_v2_hybrid_48q.sh</code>. Recommended add-on: <strong>LLM verify</strong> (sentence-level extras trim) — measured lift on Train &amp; Eval.</p>
+  <div class="stats">
+    <div class="stat good"><div class="v">91.7%</div><div class="l">Train-48Q OK + verify</div></div>
+    <div class="stat accent"><div class="v">83.6%</div><div class="l">Eval-61Q OK + verify</div></div>
+    <div class="stat"><div class="v">24s</div><div class="l">Train mean latency (no verify)</div></div>
+    <div class="stat"><div class="v">+1.5s</div><div class="l">Typical verify add-on</div></div>
+  </div>
+  <div class="card">
+    <strong>Success metric:</strong> corpus judge <code>gt_covered</code> ∧ <code>fully_supported</code> → OK.<br>
+    <span class="muted">Without verify: 87.5% / 82.0%. Answer + verify + judge: <code>Kimi-K3</code>, <code>reasoning_effort=low</code>.</span>
+  </div>
+</section>
+
+<section id="flow">
+  <div class="eyebrow">01 · End-to-end</div>
+  <h2>Request path (online)</h2>
+  <div class="flow">
+    <div class="step">1. Question<small>Hebrew customer text</small></div>
+    <div class="arrow">↓</div>
+    <div class="step">2. Route<small>Gemma · preview 20 · pool 80 routed + 20 global</small></div>
+    <div class="arrow">↓</div>
+    <div class="step">3. Catalog<small>Lexical product match · min-score 8.0 · may narrow files</small></div>
+    <div class="arrow">↓</div>
+    <div class="step">4. Dense + hybrid CE<small>candidate 100 → MiniLM → BGE refine 40 → top-k 25 ±2</small></div>
+    <div class="arrow">↓</div>
+    <div class="step">5. Agent v2<small>≤2 tool rounds · seed hygiene · 6 tools</small></div>
+    <div class="arrow">↓</div>
+    <div class="step">6. Answer LLM<small>Kimi-K3 · passage cite · short grounded answer</small></div>
+    <div class="arrow">↓</div>
+    <div class="step">7. LLM verify <span class="tag good">recommended</span><small>Split units S1…Sn · drop unasked ancillary · ~+1.5s</small></div>
+  </div>
+  <p class="muted">Grep / FAQ retrieve stay <strong>off</strong>. Verify is opt-in via <code>--verify</code> / <code>RAG_VERIFY=1</code> (see Verify).</p>
+</section>
+
+<section id="offline">
+  <div class="eyebrow">02 · Offline</div>
+  <h2>Ingest → index</h2>
+  <table>
+    <colgroup><col class="k"><col class="v"></colgroup>
+    <thead><tr><th>Stage</th><th>Detail</th></tr></thead>
+    <tbody>
+      <tr><td>Parse</td><td class="mono">Docling PDF + TXT packs · <code>rag/parse.py</code></td></tr>
+      <tr><td>Chunk</td><td>Structural pack · target <strong>500</strong> / max <strong>700</strong> tokens · no sliding-window overlap</td></tr>
+      <tr><td>Tables</td><td>Dual-rep: NL <code>embed_text</code> for search · CSV <code>text</code> for answer · ~3612 LLM descs</td></tr>
+      <tr><td>Embed</td><td class="mono">intfloat/multilingual-e5-base · dim 768 · L2</td></tr>
+      <tr><td>Index</td><td class="mono">data/index/ · 20,520 vectors</td></tr>
+      <tr><td>Catalog</td><td class="mono">artifacts/catalog.json · 557 files · 77 products</td></tr>
+    </tbody>
+  </table>
+  <div class="card">
+    <h3>Why structural chunks</h3>
+    <p class="muted" style="margin:0">Insurance PDFs are hierarchical. Packs keep clause boundaries; context at query time uses <code>--window 2</code> (±2 same-file neighbors by chunk id), not token overlap at index time.</p>
+  </div>
+</section>
+
+<section id="route">
+  <div class="eyebrow">03 · Route</div>
+  <h2>Domain router</h2>
+  <table>
+    <colgroup><col class="k"><col class="v"></colgroup>
+    <tbody>
+      <tr><td>Model</td><td class="mono">google/gemma-3-27b-it</td></tr>
+      <tr><td>Preview</td><td class="mono">--route-preview-n 20</td></tr>
+      <tr><td>Context</td><td class="mono">--route-context</td> (preview feeds router)</td></tr>
+      <tr><td>Routed dense</td><td class="mono">--route-n 80</td></tr>
+      <tr><td>Global dense</td><td class="mono">--route-global-n 20</td> unique from full non-FAQ pool</td></tr>
+      <tr><td>Pick</td><td>1–3 of 12 domains</td></tr>
+    </tbody>
+  </table>
+  <div class="card warn">
+    <strong>Why 80+20, not hard filter:</strong> pure domain filter caused refusals on misroute. Global leg is the safety valve; routed leg is precision.
+  </div>
+</section>
+
+<section id="catalog">
+  <div class="eyebrow">04 · Catalog</div>
+  <h2>Product / file catalog</h2>
+  <ul>
+    <li>Lexical search over titles, aliases, blurbs — scoped to routed domains</li>
+    <li>Activate if best score ≥ <code>--catalog-min-score 8.0</code></li>
+    <li>Prefer product hits; attach related branded PDFs</li>
+    <li>Intersect chunk idxs into the dense pool (needs enough chunks; else keep domain pool)</li>
+    <li>Global dense leg still full corpus (non-FAQ)</li>
+  </ul>
+  <p class="muted">Module: <code>rag/catalog.py</code> · build: <code>scripts/build_catalog.py</code></p>
+</section>
+
+<section id="retrieve">
+  <div class="eyebrow">05 · Retrieve</div>
+  <h2>Hybrid cross-encoder</h2>
+  <table>
+    <colgroup><col class="k"><col class="v"></colgroup>
+    <tbody>
+      <tr><td>Mode</td><td class="mono">--retrieve rerank</td></tr>
+      <tr><td>Candidates</td><td class="mono">--candidate-n 100</td></tr>
+      <tr><td>Stage-1 CE</td><td class="mono">mmarco-mMiniLMv2-L12-H384-v1</td></tr>
+      <tr><td>Stage-2 refine</td><td class="mono">BAAI/bge-reranker-v2-m3</td> on top <code>--rerank-refine-n 40</code></td></tr>
+      <tr><td>Return</td><td class="mono">--top-k 25</td></tr>
+      <tr><td>Expand</td><td class="mono">--window 2</td> (±2 same-file neighbors)</td></tr>
+      <tr><td>FAQ</td><td><span class="tag bad">excluded</span> default (<code>faq.txt</code>)</td></tr>
+    </tbody>
+  </table>
+  <p>CE scores table <code>embed_text</code> when present. Order matters: MiniLM shortlist → BGE refine (reverse order is worse offline).</p>
+</section>
+
+<section id="agent">
+  <div class="eyebrow">06 · Agent v2</div>
+  <h2>Controller + seed hygiene</h2>
+  <p>Seed = route + catalog + hybrid CE + window. Controller LLM ≤ <code>--agent-max-rounds 2</code>. Then answer LLM (separate call).</p>
+  <h3>Seed hygiene (automatic)</h3>
+  <ul>
+    <li><strong>File-diverse reorder</strong> — first brief page prefers distinct files</li>
+    <li><strong>Unread title map</strong> — titles for seed primaries not yet shown</li>
+    <li><strong>Auto page-2</strong> — multi-part / compare questions call <code>more_passages</code> once before first controller turn</li>
+    <li><strong>Early-final deferral</strong> — block premature <code>final_answer</code> if multi-part + unread seed remain</li>
+    <li><strong>Lexical nudge</strong> — if title/filename token coverage is poor, nudge catalog once</li>
+    <li><strong>Cite hygiene</strong> — drop DummyText / OCR junk before answer gen</li>
+  </ul>
+  <p class="muted"><code>BRIEF_BATCH=5</code> primaries shown per brief page. Paging via <code>more_passages</code> does not consume tool-round budget.</p>
+</section>
+
+<section id="tools">
+  <div class="eyebrow">07 · Tools</div>
+  <h2>What the controller can call</h2>
+  <p>Champion exposes <strong>6 tools</strong> (<code>grep</code> only with <code>--agent-grep</code> — off):</p>
+  <table>
+    <colgroup><col class="k"><col class="v"></colgroup>
+    <thead><tr><th>Tool</th><th>Purpose</th></tr></thead>
+    <tbody>
+      <tr><td class="mono">peek_titles</td><td>Scan first-line titles ±radius around a chunk id</td></tr>
+      <tr><td class="mono">fetch_chunks</td><td>Load up to 4 chunk ids into working passages</td></tr>
+      <tr><td class="mono">catalog_lookup</td><td>Search product/file catalog when seed looks wrong</td></tr>
+      <tr><td class="mono">search</td><td>Another hybrid retrieve+rerank; optional catalog narrow</td></tr>
+      <tr><td class="mono">more_passages</td><td>Next brief page of seed · free vs round budget</td></tr>
+      <tr><td class="mono">final_answer</td><td>Stop gathering · trigger answer LLM</td></tr>
+    </tbody>
+  </table>
+  <div class="card">
+    <strong>Mental model:</strong> agent improves use of a strong seed; it is not the primary search engine. Prefer paging unread seed over burning rounds on search.
+  </div>
+</section>
+
+<section id="answer">
+  <div class="eyebrow">08 · Answer</div>
+  <h2>Generation + citations</h2>
+  <table>
+    <colgroup><col class="k"><col class="v"></colgroup>
+    <tbody>
+      <tr><td>Model</td><td class="mono">moonshotai/Kimi-K3</td></tr>
+      <tr><td>Reasoning</td><td class="mono">--reasoning-effort low</td></tr>
+      <tr><td>Timeout</td><td class="mono">--llm-timeout 300</td></tr>
+      <tr><td>Cite mode</td><td class="mono">--cite passages</td></tr>
+      <tr><td>Prompt</td><td class="mono">SYSTEM_PASSAGE_CITE</td> in <code>rag/generate.py</code></td></tr>
+    </tbody>
+  </table>
+  <ul>
+    <li>Body stays path-free (readable Hebrew)</li>
+    <li>Footer: <code>USED_PASSAGES: 1, 3</code> → mapped to <code>{file, page}</code></li>
+    <li>≤2 short paragraphs (or ≤3 bullets for compares)</li>
+    <li>No unasked phones, hours, side caps</li>
+    <li>Must cover every asked sub-point</li>
+  </ul>
+</section>
+
+<section id="verify">
+  <div class="eyebrow">09 · Verify (measured)</div>
+  <h2>LLM sentence-level extras trim</h2>
+  <p>After the answer is written, code splits it into units <code>S1…Sn</code> (paragraphs/sentences; caveat tails like <code>שים לב:</code> get their own unit). <strong>Kimi-K3</strong> returns which unit ids to drop — only <em>ancillary / unasked</em> content. Safety net reverts if the ask would break.</p>
+  <div class="card good">
+    <strong>Results (postprocess on frozen champion answers):</strong>
+    <ul style="margin-bottom:0">
+      <li>Train-48Q: <strong>87.5% → 91.7%</strong> OK · fully_supported <strong>100%</strong> · fixed extras 41/43/46</li>
+      <li>Eval-61Q: <strong>82.0% → 83.6%</strong> OK · GT 88.5% → 90.2% · <strong>0 regressions</strong></li>
+      <li>Verify call: ~<strong>1.4–1.6s</strong> mean when it runs (gate skips short answers)</li>
+    </ul>
+  </div>
+  <table>
+    <colgroup><col class="k"><col class="v"></colgroup>
+    <tbody>
+      <tr><td>Flags</td><td class="mono">--verify --verify-mode extras</td></tr>
+      <tr><td>Model</td><td class="mono">moonshotai/Kimi-K3</td> (same family as answer)</td></tr>
+      <tr><td>Env</td><td class="mono">RAG_VERIFY=1</td></tr>
+      <tr><td>Not default in</td><td>bare <code>/ask</code> until you set the env</td></tr>
+    </tbody>
+  </table>
+  <p class="muted">v1 Gemma “strip unsupported” regressed to 68.8% — do not use that. Scripts: <code>run_verify_llm_postprocess_48q.sh</code> / <code>_61q.sh</code>.</p>
+</section>
+
+<section id="latency">
+  <div class="eyebrow">10 · Latency</div>
+  <h2>Where the time goes</h2>
+  <p class="muted">Measured on batch Nebius runs (wall-clock per question). Live GUI similar order of magnitude; first request also pays model load.</p>
+  <h3>End-to-end (champion, no verify)</h3>
+  <table>
+    <thead><tr><th>Set</th><th>Mean</th><th>p50</th><th>p90</th><th>p95</th></tr></thead>
+    <tbody>
+      <tr><td>Train 48Q</td><td class="num">24.2s</td><td class="num">22.2s</td><td class="num">34.3s</td><td class="num">40.8s</td></tr>
+      <tr><td>Eval 61Q</td><td class="num">45.9s</td><td class="num">32.8s</td><td class="num">53.4s</td><td class="num">70.8s</td></tr>
+      <tr><td>Eval 61Q*</td><td class="num">34.4s</td><td class="num">—</td><td class="num">—</td><td class="num">—</td></tr>
+    </tbody>
+  </table>
+  <p class="muted">*Mean after dropping 2 outliers &gt;120s (max was ~436s).</p>
+  <h3>Stage breakdown (mean, Train-48Q)</h3>
+  <table>
+    <thead><tr><th>Stage</th><th>Mean</th><th>Share</th></tr></thead>
+    <tbody>
+      <tr><td>Retrieve / CE</td><td class="num">7.4s</td><td class="num">~31%</td></tr>
+      <tr><td>Agent loop</td><td class="num">7.9s</td><td class="num">~33%</td></tr>
+      <tr><td>Answer LLM</td><td class="num">7.1s</td><td class="num">~29%</td></tr>
+      <tr><td>Route</td><td class="num">1.5s</td><td class="num">~6%</td></tr>
+      <tr><td>Embed</td><td class="num">0.3s</td><td class="num">~1%</td></tr>
+    </tbody>
+  </table>
+  <h3>With LLM verify</h3>
+  <ul>
+    <li>Train verify: mean <strong>1.49s</strong> all-Q · <strong>1.59s</strong> when it runs (p50 1.56 · p95 2.08) · 45/48 ran</li>
+    <li>Eval verify: mean <strong>1.44s</strong> all-Q · <strong>1.57s</strong> when it runs (56/61)</li>
+    <li>Expected e2e ≈ champion + verify ≈ <strong>~25.7s</strong> Train / <strong>~36–47s</strong> Eval</li>
+  </ul>
+  <div class="card">
+    <strong>Staff takeaway:</strong> most time is CE + agent tools + answer LLM (~3× equal). Verify is cheap vs quality gain on Train extras.
+  </div>
+</section>
+
+<section id="off">
+  <div class="eyebrow">11 · Explicitly off</div>
+  <h2>Still not in the default path</h2>
+  <ul>
+    <li><span class="tag bad">OFF</span> <code>--agent-grep</code> / <code>RAG_AGENT_GREP</code> (hurt 48Q)</li>
+    <li><span class="tag warn">OPT-IN</span> <code>--verify</code> / <code>RAG_VERIFY</code> — recommended; enable explicitly</li>
+    <li><span class="tag bad">OFF</span> FAQ pages in retrieve (indexed but filtered)</li>
+    <li><span class="tag bad">OFF</span> <code>--decompose</code>, auto peek, RRF/cascade</li>
+    <li><span class="tag bad">OFF</span> legacy deterministic-only aside regex (hack; LLM verify supersedes)</li>
+  </ul>
+  <div class="card good">
+    <strong>Serving:</strong> <code>contract.py</code> / <code>scripts/run_gui.sh</code> now default to the champion stack (MiniLM→BGE@40 · top-k 25 · verify ON). Blind submit: <code>scripts/run_submit.sh</code> (timeout 300s).
+  </div>
+</section>
+
+<section id="cli">
+  <div class="eyebrow">12 · Reproduce</div>
+  <h2>Exact CLI (+ verify)</h2>
+  <pre>python rag_runner.py \
+  --agent --agent-max-rounds 2 \
+  --retrieve rerank --top-k 25 --window 2 \
+  --candidate-n 100 \
+  --rerank-model cross-encoder/mmarco-mMiniLMv2-L12-H384-v1 \
+  --rerank-refine-model BAAI/bge-reranker-v2-m3 \
+  --rerank-refine-n 40 \
+  --route --route-n 80 --route-global-n 20 \
+  --route-context --route-preview-n 20 \
+  --catalog --catalog-min-score 8.0 \
+  --cite passages \
+  --verify --verify-mode extras --verify-timeout 45 \
+  --verify-model moonshotai/Kimi-K3 \
+  --model moonshotai/Kimi-K3 \
+  --reasoning-effort low \
+  --llm-timeout 300</pre>
+  <p class="muted">Core script: <code>scripts/run_agent_v2_hybrid_48q.sh</code> · verify postprocess: <code>scripts/run_verify_llm_postprocess_{48,61}q.sh</code></p>
+</section>
+
+<section id="scores">
+  <div class="eyebrow">13 · Scores</div>
+  <h2>Measured results</h2>
+  <table>
+    <thead><tr><th>Config</th><th>OK</th><th>GT</th><th>Supported</th><th>Latency</th></tr></thead>
+    <tbody>
+      <tr><td>Train 48Q</td><td class="num">87.5%</td><td class="num">93.8%</td><td class="num">93.8%</td><td class="num">24.2s mean</td></tr>
+      <tr><td>Train + verify</td><td class="num">91.7%</td><td class="num">91.7%</td><td class="num">100%</td><td class="num">~+1.5s</td></tr>
+      <tr><td>Eval 61Q</td><td class="num">82.0%</td><td class="num">88.5%</td><td class="num">91.8%</td><td class="num">45.9s mean</td></tr>
+      <tr><td>Eval + verify</td><td class="num">83.6%</td><td class="num">90.2%</td><td class="num">90.2%</td><td class="num">~+1.5s</td></tr>
+    </tbody>
+  </table>
+  <p class="muted">Artifacts: <code>reports/stage2/rag_agent_v2_hybrid_topk25_*verify_llm*</code></p>
+</section>
+
+<section id="faq">
+  <div class="eyebrow">14 · Staff FAQ</div>
+  <h2>Questions you should be able to answer</h2>
+
+  <div class="qa">
+    <div class="q">Does the agent search the whole corpus from scratch?</div>
+    <div class="a">No. Dense+CE builds a strong seed first. The agent mostly pages, peeks, fetches, and occasionally re-searches. Max 2 tool rounds.</div>
+  </div>
+  <div class="qa">
+    <div class="q">Why both MiniLM and BGE?</div>
+    <div class="a">MiniLM cheaply ranks 100 candidates; BGE re-ranks the top 40 more accurately. Offline GT recall peaks with this order + top-k 25.</div>
+  </div>
+  <div class="qa">
+    <div class="q">Why not filter hard by domain?</div>
+    <div class="a">Misroutes caused refusals. 80 from routed domains + 20 global keeps cross-domain gold without discarding the router.</div>
+  </div>
+  <div class="qa">
+    <div class="q">Are FAQs deleted?</div>
+    <div class="a">No — still in the index. They are excluded at retrieve time because scraped FAQs are mostly question titles without answers.</div>
+  </div>
+  <div class="qa">
+    <div class="q">Where do citations come from?</div>
+    <div class="a">Answer body has no paths. Footer <code>USED_PASSAGES: 1,3</code> maps indices to passage file+page. Cite hygiene drops OCR junk before generation.</div>
+  </div>
+  <div class="qa">
+    <div class="q">Is verify part of production?</div>
+    <div class="a">Recommended opt-in. LLM verify (Kimi, extras mode) lifted Train 87.5%→91.7% and Eval 82%→83.6% with ~+1.5s. Enable with <code>--verify</code> or <code>RAG_VERIFY=1</code>. Old Gemma strip-to-68% is dead — do not use.</div>
+  </div>
+  <div class="qa">
+    <div class="q">Why is latency ~25–45s?</div>
+    <div class="a">Roughly three equal buckets on Train: cross-encoder retrieve (~7s), agent tool loop (~8s), answer LLM (~7s). Route ~1.5s. Verify adds ~1.5s when it runs.</div>
+  </div>
+  <div class="qa">
+    <div class="q">Why is grep off?</div>
+    <div class="a">Measured regressions on full 48Q (controller burned rounds / bad queries). Lexical catalog nudge remains without grep.</div>
+  </div>
+  <div class="qa">
+    <div class="q">Chunk size?</div>
+    <div class="a">Structural packs toward 500 tokens, hard max 700. No index-time sliding overlap; neighbors via window=2 at retrieve.</div>
+  </div>
+  <div class="qa">
+    <div class="q">How are tables handled?</div>
+    <div class="a">Dual representation: short NL description for embedding/CE; full CSV in payload for the answer model.</div>
+  </div>
+  <div class="qa">
+    <div class="q">What can still fail?</div>
+    <div class="a">Gold pages never in seed (~15% offline full-group miss), OCR/DummyText forms, unasked extras (fully_supported), underspecified branching questions.</div>
+  </div>
+</section>
+
+<div class="foot">
+  Full architecture deck (embeds + history):
+  <a href="project_architecture_presentation.html">project_architecture_presentation.html</a><br>
+  This page is pipeline-only · mobile scroll · no keyboard required.
+</div>
+
+</main>
+</body>
+</html>

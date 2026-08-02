@@ -493,6 +493,8 @@ def search_reranked(
     route_n: int = 80,
     route_global_n: int = 20,
     global_seed: list[Hit] | None = None,
+    refine_reranker=None,
+    refine_n: int = 40,
 ) -> CascadeResult:
     """Dense top-candidate_n → cross-encoder top_k → neighbor expand.
 
@@ -503,6 +505,9 @@ def search_reranked(
     When `route_idxs` is set: dense `route_n` from routed domains + `route_global_n`
     unique from the general pool (`candidate_idxs` / full corpus), then CE.
     Optional `global_seed` reuses a precomputed dense preview as the global leg.
+
+    Optional `refine_reranker`: stage-1 CE ranks all dense candidates, then
+    stage-2 CE re-ranks the top `refine_n` (e.g. MiniLM → BGE on top-40).
     """
     index = id_to_idx if id_to_idx is not None else build_id_index(vectors)
     t0 = time.perf_counter()
@@ -540,32 +545,77 @@ def search_reranked(
     ]
     t1 = time.perf_counter()
     scores = reranker.score(query, passages)
-    ce_ms = (time.perf_counter() - t1) * 1000
-    order = np.argsort(-scores)[: min(top_k, len(candidates))]
-
-    hits: list[Hit] = []
-    for rank, j in enumerate(order, start=1):
-        base = candidates[int(j)]
-        hits.append(
-            Hit(
-                rank=rank,
-                score=float(scores[int(j)]),
-                vector=base.vector,
-                role="match",
+    stage1_ms = (time.perf_counter() - t1) * 1000
+    refine_ms = 0.0
+    if refine_reranker is not None and refine_n > 0 and len(candidates) > 1:
+        # Stage-1 shortlist ∪ dense head: fast CE can bury docs that dense
+        # already ranked well (seen with MiniLM on Hebrew marketing pages).
+        keep = min(int(refine_n), len(candidates))
+        stage1_order = [int(j) for j in np.argsort(-scores)[:keep]]
+        # Same width as stage-1: MiniLM can bury a dense hit that BGE would
+        # keep (e.g. car.txt#4 at dense~30 / MiniLM~70).
+        dense_keep = min(keep, len(candidates))
+        seen: set[int] = set()
+        short_idxs: list[int] = []
+        for j in stage1_order:
+            if j not in seen:
+                short_idxs.append(j)
+                seen.add(j)
+        for j in range(dense_keep):
+            if j not in seen:
+                short_idxs.append(j)
+                seen.add(j)
+        shortlist = [candidates[j] for j in short_idxs]
+        short_passages = [
+            (h.vector.embed_text or h.vector.text or "") for h in shortlist
+        ]
+        t1b = time.perf_counter()
+        refine_scores = refine_reranker.score(query, short_passages)
+        refine_ms = (time.perf_counter() - t1b) * 1000
+        order_local = np.argsort(-refine_scores)[: min(top_k, len(shortlist))]
+        hits: list[Hit] = []
+        for rank, j in enumerate(order_local, start=1):
+            base = shortlist[int(j)]
+            hits.append(
+                Hit(
+                    rank=rank,
+                    score=float(refine_scores[int(j)]),
+                    vector=base.vector,
+                    role="match",
+                )
             )
-        )
+        mode = "rerank-refine"
+    else:
+        order = np.argsort(-scores)[: min(top_k, len(candidates))]
+        hits = []
+        for rank, j in enumerate(order, start=1):
+            base = candidates[int(j)]
+            hits.append(
+                Hit(
+                    rank=rank,
+                    score=float(scores[int(j)]),
+                    vector=base.vector,
+                    role="match",
+                )
+            )
+        mode = "rerank"
+    ce_ms = stage1_ms + refine_ms
     t2 = time.perf_counter()
     expanded = [expand_hit(h, vectors, index, window=window) for h in hits]
     expand_ms = (time.perf_counter() - t2) * 1000
+    timings = {
+        "dense_candidates_ms": round(dense_ms, 1),
+        "cross_encoder_ms": round(ce_ms, 1),
+        "cross_encoder_stage1_ms": round(stage1_ms, 1),
+        "expand_ms": round(expand_ms, 1),
+    }
+    if refine_ms:
+        timings["cross_encoder_refine_ms"] = round(refine_ms, 1)
     return CascadeResult(
         expanded=expanded,
-        mode="rerank",
+        mode=mode,
         file_hits=[],
-        timings_ms={
-            "dense_candidates_ms": round(dense_ms, 1),
-            "cross_encoder_ms": round(ce_ms, 1),
-            "expand_ms": round(expand_ms, 1),
-        },
+        timings_ms=timings,
     )
 
 

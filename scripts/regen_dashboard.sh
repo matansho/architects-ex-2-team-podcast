@@ -47,6 +47,15 @@ python scripts/generate_compare_dashboard.py \
   --run "RAG routectx + catalog + Kimi-K3 (low)|reports/rag_answers_routectx_kimik3_low_catalog_48q.jsonl" \
   --run "RAG agent routectx+catalog + Kimi-K3 (low)|reports/rag_answers_routectx_kimik3_low_agent_48q.jsonl" \
   --run "RAG agent+verify + Kimi-K3 (low)|reports/rag_answers_routectx_kimik3_low_agent_verify_48q.jsonl" \
+  --run "RAG agent paged brief + BGE|reports/rag_answers_agent_paged_48q.jsonl" \
+  --run "RAG agent focused + MiniLM-L12|reports/rag_answers_agent_minilm_l12_focused_48q.jsonl" \
+  --run "RAG agent integrated + MiniLM-L12|reports/rag_answers_agent_minilm_l12_integrated_48q.jsonl" \
+  --run "RAG agent hybrid MiniLM→BGE|reports/rag_answers_agent_hybrid_ce_48q.jsonl" \
+  --run "RAG no-agent hybrid MiniLM→BGE|reports/rag_answers_noagent_hybrid_ce_48q.jsonl" \
+  --run "RAG agent v2 hybrid topk25|reports/rag_answers_agent_v2_hybrid_topk25_48q.jsonl" \
+  --run "RAG agent v2 hybrid topk20|reports/rag_answers_agent_v2_hybrid_topk20_48q.jsonl" \
+  --run "RAG no-agent hybrid topk25|reports/rag_answers_noagent_hybrid_topk25_48q.jsonl" \
+  --run "RAG agent v2 fewshot+grep 48Q|reports/rag_answers_agent_v2_fewshot_grep_48q.jsonl" \
   --corpus-eval "RAG rerank + route80+20 + passage cite|reports/stage2/rag_rerank_k20_w2_route80_20_corpus_judge_eval.json" \
   --corpus-eval "RAG rerank + route40+10 + passage cite|reports/stage2/rag_rerank_k20_w2_route40_10_corpus_judge_eval.json" \
   --corpus-eval "RAG route80+20 passage (Kimi judge)|reports/stage2/rag_rerank_k20_w2_route80_20_passage_cite_kimik3_corpus_judge_eval.json" \
@@ -55,6 +64,15 @@ python scripts/generate_compare_dashboard.py \
   --corpus-eval "RAG routectx + catalog + Kimi-K3 (low)|reports/stage2/rag_routectx_kimik3_low_catalog_48q_corpus_judge_eval.json" \
   --corpus-eval "RAG agent routectx+catalog + Kimi-K3 (low)|reports/stage2/rag_routectx_kimik3_low_agent_48q_corpus_judge_eval.json" \
   --corpus-eval "RAG agent+verify + Kimi-K3 (low)|reports/stage2/rag_routectx_kimik3_low_agent_verify_48q_corpus_judge_eval.json" \
+  --corpus-eval "RAG agent paged brief + BGE|reports/stage2/rag_agent_paged_48q_corpus_judge_eval.json" \
+  --corpus-eval "RAG agent focused + MiniLM-L12|reports/stage2/rag_agent_minilm_l12_focused_48q_corpus_judge_eval.json" \
+  --corpus-eval "RAG agent integrated + MiniLM-L12|reports/stage2/rag_agent_minilm_l12_integrated_48q_corpus_judge_eval.json" \
+  --corpus-eval "RAG agent hybrid MiniLM→BGE|reports/stage2/rag_agent_hybrid_ce_48q_corpus_judge_eval.json" \
+  --corpus-eval "RAG no-agent hybrid MiniLM→BGE|reports/stage2/rag_noagent_hybrid_ce_48q_corpus_judge_eval.json" \
+  --corpus-eval "RAG agent v2 hybrid topk25|reports/stage2/rag_agent_v2_hybrid_topk25_48q_corpus_judge_eval.json" \
+  --corpus-eval "RAG agent v2 hybrid topk20|reports/stage2/rag_agent_v2_hybrid_topk20_48q_corpus_judge_eval.json" \
+  --corpus-eval "RAG no-agent hybrid topk25|reports/stage2/rag_noagent_hybrid_topk25_48q_corpus_judge_eval.json" \
+  --corpus-eval "RAG agent v2 fewshot+grep 48Q|reports/stage2/rag_agent_v2_fewshot_grep_48q_corpus_judge_eval.json" \
   --eval "Baseline|reports/stage1/baseline_eval.json" \
   --eval "Few-shot + cite|reports/stage1/few_shot_eval.json" \
   --eval "Few-shot + concise|reports/stage1/concise_few_shot_eval.json" \
@@ -98,6 +116,10 @@ python scripts/generate_compare_dashboard.py \
   --prompt "RAG routectx + catalog + Kimi-K3 (low)|rag-no-cite" \
   --prompt "RAG agent routectx+catalog + Kimi-K3 (low)|rag-no-cite" \
   --prompt "RAG agent+verify + Kimi-K3 (low)|rag-no-cite" \
+  --prompt "RAG agent paged brief + BGE|rag-no-cite" \
+  --prompt "RAG agent focused + MiniLM-L12|rag-no-cite" \
+  --prompt "RAG agent integrated + MiniLM-L12|rag-no-cite" \
+  --prompt "RAG agent hybrid MiniLM→BGE|rag-no-cite" \
   \
   --tab "Eval / Test (dev2 · 32Q)|eval_questions.json" \
   --run "RAG rerank + route80+20 + passage cite|reports/rag_answers_rerank_k20_w2_route80_20_passage_cite_eval_questions.jsonl" \
@@ -110,6 +132,7 @@ python scripts/generate_compare_dashboard.py \
   --run "RAG routectx 80+20 + Qwen3-235B|reports/rag_answers_rerank_k20_w2_route80_20_routectx_qwen235_eval_questions2.jsonl" \
   --run "RAG routectx 80+20 + Kimi-K3 (low)|reports/rag_answers_rerank_k20_w2_route80_20_routectx_kimik3_low_eval_questions2.jsonl" \
   --run "RAG agent routectx+catalog + Kimi-K3 (low)|reports/rag_answers_routectx_kimik3_low_agent_eval61q.jsonl" \
+  --run "RAG agent v2 hybrid topk25 61Q|reports/rag_answers_agent_v2_hybrid_topk25_eval61q.jsonl" \
   --eval "RAG rerank + route80+20 + passage cite|reports/stage2/rag_rerank_k20_w2_route80_20_passage_cite_eval_questions2_eval.json" \
   --eval "RAG routectx 80+20 + Qwen3-235B|reports/stage2/rag_rerank_k20_w2_route80_20_routectx_qwen235_eval_questions2_eval.json" \
   --eval "RAG routectx 80+20 + Kimi-K3 (low)|reports/stage2/rag_rerank_k20_w2_route80_20_routectx_kimik3_low_eval_questions2_eval.json" \
@@ -117,6 +140,7 @@ python scripts/generate_compare_dashboard.py \
   --corpus-eval "RAG routectx 80+20 + Qwen3-235B|reports/stage2/rag_rerank_k20_w2_route80_20_routectx_qwen235_eval_questions2_corpus_judge_eval.json" \
   --corpus-eval "RAG routectx 80+20 + Kimi-K3 (low)|reports/stage2/rag_rerank_k20_w2_route80_20_routectx_kimik3_low_eval_questions2_corpus_judge_eval.json" \
   --corpus-eval "RAG agent routectx+catalog + Kimi-K3 (low)|reports/stage2/rag_routectx_kimik3_low_agent_eval61q_corpus_judge_eval.json" \
+  --corpus-eval "RAG agent v2 hybrid topk25 61Q|reports/stage2/rag_agent_v2_hybrid_topk25_eval61q_corpus_judge_eval.json" \
   --prompt "RAG rerank + route80+20 + passage cite|rag-no-cite" \
   --prompt "RAG routectx 80+20 + Qwen3-235B|rag-no-cite" \
   --prompt "RAG routectx 80+20 + Kimi-K3 (low)|rag-no-cite" \

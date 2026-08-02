@@ -1,0 +1,1225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Harel Insurance RAG — Architecture & Design Choices</title>
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap");
+
+  :root {
+    --bg: #0f1419;
+    --bg-elev: #171d25;
+    --ink: #e8edf2;
+    --muted: #8b97a8;
+    --line: #2a3340;
+    --accent: #3d8bfd;
+    --accent-dim: #1e3a5f;
+    --good: #3dba7a;
+    --bad: #e25c5c;
+    --warn: #d4a017;
+    --mono: "IBM Plex Mono", ui-monospace, monospace;
+    --sans: "IBM Plex Sans", system-ui, sans-serif;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; background: var(--bg); color: var(--ink); font-family: var(--sans); }
+  body { overflow: hidden; }
+
+  .deck { height: 100%; position: relative; }
+  .slide {
+    display: none; height: 100%; padding: clamp(2rem, 5vh, 3.5rem) clamp(2rem, 6vw, 5rem);
+    flex-direction: column; justify-content: center; gap: 1.25rem;
+    max-width: 1100px; margin: 0 auto;
+  }
+  .slide.active { display: flex; animation: in .28s ease; }
+  @keyframes in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+
+  .eyebrow {
+    font-size: 12px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--accent); margin-bottom: .25rem;
+  }
+  h1 { font-size: clamp(2rem, 4.2vw, 3.1rem); font-weight: 700; line-height: 1.15; letter-spacing: -.02em; }
+  h2 { font-size: clamp(1.55rem, 3vw, 2.25rem); font-weight: 700; line-height: 1.2; letter-spacing: -.015em; }
+  h3 { font-size: 1.05rem; font-weight: 600; margin-bottom: .4rem; }
+  .sub { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--muted); line-height: 1.5; max-width: 42em; }
+  p, li { font-size: 1.05rem; line-height: 1.55; color: var(--ink); }
+  .muted { color: var(--muted); }
+  ul { padding-left: 1.15rem; display: flex; flex-direction: column; gap: .45rem; }
+  li::marker { color: var(--accent); }
+
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+  .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+  .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: .75rem; }
+  @media (max-width: 800px) {
+    .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
+  }
+
+  .card {
+    background: var(--bg-elev); border: 1px solid var(--line); border-radius: 10px;
+    padding: 1rem 1.15rem;
+  }
+  .card.good { border-color: color-mix(in srgb, var(--good) 45%, var(--line)); }
+  .card.bad { border-color: color-mix(in srgb, var(--bad) 45%, var(--line)); }
+  .card.warn { border-color: color-mix(in srgb, var(--warn) 45%, var(--line)); }
+
+  .stat-row { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: .5rem; }
+  .stat {
+    min-width: 140px; flex: 1;
+    background: var(--bg-elev); border: 1px solid var(--line); border-radius: 10px;
+    padding: .9rem 1rem;
+  }
+  .stat .v { font-size: 1.85rem; font-weight: 700; font-variant-numeric: tabular-nums; letter-spacing: -.02em; }
+  .stat .l { font-size: .8rem; color: var(--muted); margin-top: .2rem; }
+  .stat.accent .v { color: var(--accent); }
+  .stat.good .v { color: var(--good); }
+  .stat.bad .v { color: var(--bad); }
+
+  table { width: 100%; border-collapse: collapse; font-size: .95rem; }
+  th, td { text-align: left; padding: .55rem .65rem; border-bottom: 1px solid var(--line); }
+  th { color: var(--muted); font-weight: 600; font-size: .78rem; text-transform: uppercase; letter-spacing: .04em; }
+  td.num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+  tr.champ td { background: color-mix(in srgb, var(--accent) 12%, transparent); }
+  .tag {
+    display: inline-block; font-size: .72rem; font-weight: 600; padding: .15rem .45rem;
+    border-radius: 4px; background: var(--accent-dim); color: var(--accent); margin-right: .35rem;
+  }
+  .tag.good { background: color-mix(in srgb, var(--good) 18%, transparent); color: var(--good); }
+  .tag.bad { background: color-mix(in srgb, var(--bad) 18%, transparent); color: var(--bad); }
+  .tag.warn { background: color-mix(in srgb, var(--warn) 18%, transparent); color: var(--warn); }
+
+  code, .mono {
+    font-family: var(--mono); font-size: .88em;
+    background: var(--bg-elev); border: 1px solid var(--line);
+    padding: .1em .35em; border-radius: 4px;
+  }
+  pre {
+    font-family: var(--mono); font-size: .78rem; line-height: 1.45;
+    background: var(--bg-elev); border: 1px solid var(--line); border-radius: 10px;
+    padding: 1rem 1.15rem; overflow: auto; white-space: pre-wrap;
+  }
+
+  .flow {
+    display: flex; flex-wrap: wrap; align-items: center; gap: .5rem;
+    font-size: .92rem; font-weight: 500;
+  }
+  .flow .step {
+    background: var(--bg-elev); border: 1px solid var(--line); border-radius: 8px;
+    padding: .45rem .7rem;
+  }
+  .flow .arrow { color: var(--muted); }
+
+  .footer {
+    position: fixed; bottom: 0; left: 0; right: 0; height: 44px;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 1.25rem; background: color-mix(in srgb, var(--bg) 92%, transparent);
+    border-top: 1px solid var(--line); font-size: 12px; color: var(--muted); z-index: 10;
+  }
+  .progress { height: 3px; background: var(--line); position: fixed; top: 0; left: 0; right: 0; z-index: 11; }
+  .progress > i { display: block; height: 100%; background: var(--accent); width: 0; transition: width .2s ease; }
+
+  .nav-hint kbd {
+    font-family: var(--mono); font-size: 11px; border: 1px solid var(--line);
+    border-radius: 4px; padding: 1px 5px; background: var(--bg-elev);
+  }
+
+  .two-col { display: grid; grid-template-columns: 1.1fr .9fr; gap: 1.5rem; align-items: start; }
+  @media (max-width: 800px) { .two-col { grid-template-columns: 1fr; } }
+
+  .title-slide { justify-content: flex-end; padding-bottom: 18vh; }
+  .title-slide .meta { margin-top: 1.5rem; color: var(--muted); font-size: .95rem; line-height: 1.6; }
+  .big-num { font-size: 3rem; font-weight: 700; color: var(--accent); letter-spacing: -.03em; }
+
+  .compare { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  .compare .head { font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; margin-bottom: .5rem; }
+
+  /* Live report embeds */
+  .slide.embed {
+    max-width: none; margin: 0; padding: 0;
+    justify-content: stretch; gap: 0;
+  }
+  .embed-chrome {
+    flex: 0 0 auto;
+    display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+    padding: .55rem 1rem .55rem 1.25rem;
+    background: var(--bg-elev); border-bottom: 1px solid var(--line);
+    z-index: 2;
+  }
+  .embed-chrome .left { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+  .embed-chrome .eyebrow { margin: 0; }
+  .embed-chrome .title-line {
+    font-size: .95rem; font-weight: 600; white-space: nowrap;
+    overflow: hidden; text-overflow: ellipsis;
+  }
+  .embed-chrome .actions { display: flex; gap: .45rem; flex-shrink: 0; align-items: center; }
+  .embed-chrome a, .embed-chrome button {
+    font: inherit; font-size: 12px; font-weight: 600; color: var(--ink);
+    background: var(--bg); border: 1px solid var(--line); border-radius: 6px;
+    padding: .35rem .65rem; cursor: pointer; text-decoration: none;
+  }
+  .embed-chrome a:hover, .embed-chrome button:hover {
+    border-color: var(--accent); color: var(--accent);
+  }
+  .embed-frame-wrap {
+    flex: 1 1 auto; min-height: 0; position: relative; background: #fff;
+  }
+  .embed-frame-wrap iframe {
+    position: absolute; inset: 0; width: 100%; height: 100%; border: 0; background: #fff;
+  }
+  .slide.embed.active {
+    height: calc(100vh - 44px); margin-top: 3px;
+  }
+  .artifact-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: .75rem; margin-top: .5rem;
+  }
+  @media (max-width: 900px) { .artifact-grid { grid-template-columns: 1fr 1fr; } }
+  .artifact {
+    text-align: left; cursor: pointer;
+    background: var(--bg-elev); border: 1px solid var(--line); border-radius: 10px;
+    padding: .85rem 1rem; color: inherit; font: inherit;
+    display: flex; flex-direction: column; gap: .35rem; transition: border-color .15s;
+  }
+  .artifact:hover { border-color: var(--accent); }
+  .artifact .kicker {
+    font-size: 11px; font-weight: 700; letter-spacing: .08em;
+    text-transform: uppercase; color: var(--accent);
+  }
+  .artifact .name { font-size: 1rem; font-weight: 600; }
+  .artifact .desc { font-size: .85rem; color: var(--muted); line-height: 1.4; }
+</style>
+</head>
+<body>
+<div class="progress"><i id="bar"></i></div>
+<div class="deck" id="deck">
+
+<!-- 0 -->
+<section class="slide title-slide active" data-title="Title">
+  <div class="eyebrow">Architects Exercise 2 · Stage 1 → 3</div>
+  <h1>Hebrew Insurance RAG<br>Architecture &amp; Design Choices</h1>
+  <p class="sub">From chunking and FAQ exclusion through routing, catalog, hybrid rerank, and agent v2 — what we built, what we tried, and what we kept.</p>
+  <div class="meta">
+    Corpus: Harel (~571 docs · 12 domains · 20,520 vectors)<br>
+    Champion + LLM verify: <strong style="color:var(--ink)">91.7% Train / 83.6% Eval</strong> · core retrieve 87.5% / 82.0%<br>
+    Starts with detailed pipeline briefing · then design history + live embeds<br>
+    Mobile pipeline-only: <a href="pipeline_briefing_mobile.html" style="color:var(--accent)">pipeline_briefing_mobile.html</a><br>
+    ← → / Space · F fullscreen
+  </div>
+</section>
+
+
+<!-- PIPELINE BRIEFING START -->
+<section class="slide" data-title="Pipeline · Overview">
+  <div class="eyebrow">Pipeline briefing · 00</div>
+  <h2>Champion system — what ships</h2>
+  <p class="sub">Agent v2 · MiniLM→BGE refine40 · top-k 25 · route 80+20 · catalog@8 · passage cite · optional LLM verify · Kimi-K3 low.</p>
+  <div class="stat-row">
+    <div class="stat good"><div class="v">91.7%</div><div class="l">Train OK + verify</div></div>
+    <div class="stat accent"><div class="v">83.6%</div><div class="l">Eval OK + verify</div></div>
+    <div class="stat"><div class="v">24s</div><div class="l">Train mean (no verify)</div></div>
+    <div class="stat"><div class="v">+1.5s</div><div class="l">Verify add-on</div></div>
+  </div>
+  <div class="card" style="margin-top:.25rem">
+    <strong>Metric:</strong> <code>gt_covered</code> ∧ <code>fully_supported</code>.
+    Without verify: 87.5% / 82.0%. Scripts: <code>run_agent_v2_hybrid_48q.sh</code> + <code>--verify</code>
+    · Mobile: <code>pipeline_briefing_mobile.html</code>
+  </div>
+</section>
+
+<section class="slide" data-title="Pipeline · Flow">
+  <div class="eyebrow">Pipeline briefing · 01</div>
+  <h2>Online request path</h2>
+  <div class="flow" style="margin:1rem 0">
+    <span class="step">Q</span><span class="arrow">→</span>
+    <span class="step">Route 80+20</span><span class="arrow">→</span>
+    <span class="step">Catalog ≥8</span><span class="arrow">→</span>
+    <span class="step">Dense 100</span><span class="arrow">→</span>
+    <span class="step">MiniLM</span><span class="arrow">→</span>
+    <span class="step">BGE@40</span><span class="arrow">→</span>
+    <span class="step">top-k 25 ±2</span><span class="arrow">→</span>
+    <span class="step">Agent ≤2</span><span class="arrow">→</span>
+    <span class="step">Kimi answer</span><span class="arrow">→</span>
+    <span class="step">LLM verify</span>
+  </div>
+  <div class="grid-3">
+    <div class="card"><h3>Offline</h3><p class="muted">Docling · pack 500/700 · table dual-rep · E5 · catalog JSON</p></div>
+    <div class="card"><h3>Retrieve</h3><p class="muted">Soft route · catalog boost · hybrid CE · no FAQ</p></div>
+    <div class="card"><h3>Reason</h3><p class="muted">Seed hygiene · 6 tools · passage cite · LLM verify opt-in</p></div>
+  </div>
+</section>
+
+<section class="slide" data-title="Pipeline · Offline">
+  <div class="eyebrow">Pipeline briefing · 02</div>
+  <h2>Offline ingest → index</h2>
+  <table>
+    <thead><tr><th>Stage</th><th>Parameters / artifact</th></tr></thead>
+    <tbody>
+      <tr><td>Parse</td><td><code>rag/parse.py</code> Docling PDF + TXT</td></tr>
+      <tr><td>Chunk</td><td>Structural pack · <strong>target 500</strong> / <strong>max 700</strong> · no sliding overlap</td></tr>
+      <tr><td>Tables</td><td>Dual-rep: NL <code>embed_text</code> + CSV <code>text</code> · ~3612 descs</td></tr>
+      <tr><td>Embed</td><td><code>intfloat/multilingual-e5-base</code> · dim 768</td></tr>
+      <tr><td>Index</td><td><code>data/index/</code> · <strong>20,520</strong> vectors</td></tr>
+      <tr><td>Catalog</td><td><code>artifacts/catalog.json</code> · 557 files · 77 products</td></tr>
+    </tbody>
+  </table>
+  <p class="muted">Neighbors at query time via <code>--window 2</code>, not index-time token overlap.</p>
+</section>
+
+<section class="slide" data-title="Pipeline · Route+Catalog">
+  <div class="eyebrow">Pipeline briefing · 03</div>
+  <h2>Route + catalog knobs</h2>
+  <div class="grid-2">
+    <div class="card">
+      <h3>Router (Gemma)</h3>
+      <ul>
+        <li><code>--route-context</code> · preview <code>20</code></li>
+        <li><code>--route-n 80</code> from chosen domains</li>
+        <li><code>--route-global-n 20</code> unique global</li>
+        <li>Picks 1–3 of 12 domains</li>
+        <li>Model: <code>gemma-3-27b-it</code></li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Catalog</h3>
+      <ul>
+        <li><code>--catalog-min-score 8.0</code></li>
+        <li>Lexical titles / aliases / blurbs</li>
+        <li>May narrow dense pool to product files</li>
+        <li>Related PDFs attached when matched</li>
+        <li>Global dense leg still full corpus</li>
+      </ul>
+    </div>
+  </div>
+  <p class="muted" style="margin-top:.5rem"><span class="tag warn">Why 80+20</span> Hard domain filter → refusals on misroute. Global leg is the safety valve.</p>
+</section>
+
+<section class="slide" data-title="Pipeline · Retrieve">
+  <div class="eyebrow">Pipeline briefing · 04</div>
+  <h2>Hybrid retrieve parameters</h2>
+  <table>
+    <thead><tr><th>Flag</th><th>Value</th><th>Role</th></tr></thead>
+    <tbody>
+      <tr><td class="num">--retrieve</td><td>rerank</td><td>Dense + CE path</td></tr>
+      <tr><td class="num">--candidate-n</td><td>100</td><td>Dense shortlist</td></tr>
+      <tr><td class="num">--rerank-model</td><td>MiniLM mmarco…L12</td><td>Stage-1 CE</td></tr>
+      <tr><td class="num">--rerank-refine-model</td><td>BGE-m3</td><td>Stage-2 CE</td></tr>
+      <tr><td class="num">--rerank-refine-n</td><td>40</td><td>Refine shortlist size</td></tr>
+      <tr class="champ"><td class="num">--top-k</td><td>25</td><td>Primaries kept</td></tr>
+      <tr><td class="num">--window</td><td>2</td><td>± neighbors same file</td></tr>
+      <tr><td>FAQ</td><td>excluded</td><td><code>faq.txt</code> filtered at retrieve</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="slide" data-title="Pipeline · Agent">
+  <div class="eyebrow">Pipeline briefing · 05</div>
+  <h2>Agent v2 — seed hygiene</h2>
+  <div class="grid-2">
+    <ul>
+      <li><strong>File-diverse reorder</strong> of first brief page</li>
+      <li><strong>Unread title map</strong> for remaining seed</li>
+      <li><strong>Auto page-2</strong> on multi-part / compare asks</li>
+      <li><strong>Defer early final</strong> if unread seed remains</li>
+    </ul>
+    <ul>
+      <li><strong>Lexical nudge</strong> → catalog when titles miss Q tokens</li>
+      <li><strong>Cite hygiene</strong> drops DummyText / OCR soup</li>
+      <li><code>BRIEF_BATCH=5</code> · <code>more_passages</code> is free vs rounds</li>
+      <li><code>--agent-max-rounds 2</code></li>
+    </ul>
+  </div>
+  <div class="card" style="margin-top:.5rem">
+    Mental model: agent improves use of a <em>strong seed</em> — it is not the primary search engine.
+  </div>
+</section>
+
+<section class="slide" data-title="Pipeline · Tools">
+  <div class="eyebrow">Pipeline briefing · 06</div>
+  <h2>Controller tools (champion = 6)</h2>
+  <table>
+    <thead><tr><th>Tool</th><th>Purpose</th></tr></thead>
+    <tbody>
+      <tr><td class="num">peek_titles</td><td>Scan titles ±radius around a chunk id</td></tr>
+      <tr><td class="num">fetch_chunks</td><td>Load ≤4 chunk ids into working set</td></tr>
+      <tr><td class="num">catalog_lookup</td><td>Lexical product/file catalog search</td></tr>
+      <tr><td class="num">search</td><td>Hybrid retrieve again; optional catalog narrow</td></tr>
+      <tr><td class="num">more_passages</td><td>Next seed brief page (free vs budget)</td></tr>
+      <tr><td class="num">final_answer</td><td>Stop tools → answer LLM</td></tr>
+    </tbody>
+  </table>
+  <p class="muted"><code>grep</code> exists but is <strong>OFF</strong> (<code>--agent-grep</code> / <code>RAG_AGENT_GREP=0</code>).</p>
+</section>
+
+<section class="slide" data-title="Pipeline · Answer">
+  <div class="eyebrow">Pipeline briefing · 07</div>
+  <h2>Answer generation</h2>
+  <div class="grid-2">
+    <div class="card">
+      <h3>Model</h3>
+      <ul>
+        <li><code>moonshotai/Kimi-K3</code></li>
+        <li><code>--reasoning-effort low</code></li>
+        <li><code>--llm-timeout 300</code></li>
+        <li><code>--cite passages</code></li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Contract</h3>
+      <ul>
+        <li>Body path-free Hebrew</li>
+        <li>Footer <code>USED_PASSAGES: 1, 3</code></li>
+        <li>≤2 paragraphs / ≤3 bullets</li>
+        <li>No unasked phones / side caps</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-title="Pipeline · Verify">
+  <div class="eyebrow">Pipeline briefing · 08</div>
+  <h2>LLM verify — sentence-level extras trim</h2>
+  <p class="sub">Code splits answer into <code>S1…Sn</code>; Kimi drops only ancillary / unasked units. Reverts if the ask would break. ~+1.5s.</p>
+  <div class="stat-row">
+    <div class="stat good"><div class="v">91.7%</div><div class="l">Train 87.5% → 91.7% · supp 100%</div></div>
+    <div class="stat accent"><div class="v">83.6%</div><div class="l">Eval 82% → 83.6% · 0 regressions</div></div>
+    <div class="stat"><div class="v">1.5s</div><div class="l">Verify mean when it runs</div></div>
+  </div>
+  <p class="muted" style="margin-top:.5rem"><code>--verify --verify-mode extras</code> · <code>RAG_VERIFY=1</code> · not bare <code>/ask</code> default.
+  Old Gemma strip 87.5%→68.8% is dead.</p>
+</section>
+
+<section class="slide" data-title="Pipeline · Latency">
+  <div class="eyebrow">Pipeline briefing · 09</div>
+  <h2>Latency — where the time goes</h2>
+  <div class="grid-2">
+    <div>
+      <h3>E2E (no verify)</h3>
+      <table>
+        <thead><tr><th>Set</th><th>Mean</th><th>p50</th><th>p90</th></tr></thead>
+        <tbody>
+          <tr><td>Train 48Q</td><td class="num">24.2s</td><td class="num">22.2s</td><td class="num">34.3s</td></tr>
+          <tr><td>Eval 61Q</td><td class="num">45.9s</td><td class="num">32.8s</td><td class="num">53.4s</td></tr>
+          <tr><td>Eval*</td><td class="num">34.4s</td><td class="num">—</td><td class="num">—</td></tr>
+        </tbody>
+      </table>
+      <p class="muted">*Drop 2 outliers &gt;120s</p>
+    </div>
+    <div>
+      <h3>Train stage means</h3>
+      <table>
+        <thead><tr><th>Stage</th><th>Mean</th><th>Share</th></tr></thead>
+        <tbody>
+          <tr><td>Retrieve / CE</td><td class="num">7.4s</td><td class="num">31%</td></tr>
+          <tr><td>Agent loop</td><td class="num">7.9s</td><td class="num">33%</td></tr>
+          <tr><td>Answer LLM</td><td class="num">7.1s</td><td class="num">29%</td></tr>
+          <tr><td>Route</td><td class="num">1.5s</td><td class="num">6%</td></tr>
+          <tr><td>Verify (add)</td><td class="num">~1.5s</td><td class="num">+6%</td></tr>
+        </tbody>
+      </table>
+      <p class="muted">Train e2e + verify ≈ <strong>25.7s</strong> mean · Eval verify ran mean 1.57s (56/61).</p>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-title="Pipeline · Off + CLI">
+  <div class="eyebrow">Pipeline briefing · 10</div>
+  <h2>OFF vs opt-in · exact CLI</h2>
+  <p><span class="tag bad">OFF</span> grep · FAQ retrieve · decompose · RRF/cascade
+     · <span class="tag warn">OPT-IN</span> <code>--verify</code> (recommended)</p>
+  <pre style="font-size:.72rem;max-height:38vh">--agent --agent-max-rounds 2
+--retrieve rerank --top-k 25 --window 2 --candidate-n 100
+--rerank-model cross-encoder/mmarco-mMiniLMv2-L12-H384-v1
+--rerank-refine-model BAAI/bge-reranker-v2-m3 --rerank-refine-n 40
+--route --route-n 80 --route-global-n 20 --route-context --route-preview-n 20
+--catalog --catalog-min-score 8.0
+--cite passages
+--verify --verify-mode extras --verify-timeout 45
+--model moonshotai/Kimi-K3 --reasoning-effort low --llm-timeout 300</pre>
+  <p class="muted"><code>contract.py</code> / <code>run_gui.sh</code> default to this stack · blind: <code>scripts/run_submit.sh</code> (timeout 300s).</p>
+</section>
+
+<section class="slide" data-title="Pipeline · Staff FAQ">
+  <div class="eyebrow">Pipeline briefing · 11</div>
+  <h2>Staff questions — short answers</h2>
+  <div class="grid-2" style="font-size:.95rem">
+    <ul>
+      <li><strong>Whole-corpus agent search?</strong> No — strong seed first; ≤2 rounds.</li>
+      <li><strong>Why MiniLM+BGE?</strong> Cheap shortlist → accurate refine; order matters.</li>
+      <li><strong>Hard domain filter?</strong> No — misroute refusals; use 80+20.</li>
+      <li><strong>FAQs deleted?</strong> No — excluded at retrieve only.</li>
+      <li><strong>Why ~25–45s?</strong> CE + agent + answer ≈ thirds; verify +1.5s.</li>
+    </ul>
+    <ul>
+      <li><strong>Citations?</strong> <code>USED_PASSAGES</code> indices → file+page.</li>
+      <li><strong>Verify in prod?</strong> Recommended opt-in — 91.7% / 83.6% measured.</li>
+      <li><strong>Grep?</strong> Off — regressed 48Q.</li>
+      <li><strong>Chunk size?</strong> Pack 500 / max 700; window=2 neighbors.</li>
+    </ul>
+  </div>
+</section>
+<!-- PIPELINE BRIEFING END -->
+<!-- 1 -->
+<section class="slide" data-title="Agenda">
+  <div class="eyebrow">Overview</div>
+  <h2>Agenda</h2>
+  <div class="grid-2" style="margin-top:.5rem">
+    <ul>
+      <li><strong>Pipeline briefing</strong> (tools, params, CLI) — first</li>
+      <li>Problem, metrics, and evaluation sets</li>
+      <li>Ingestion &amp; FAQ exclusion choices</li>
+      <li>Retrieval / router / catalog history</li>
+      <li>Agent v1→v2 and negative results</li>
+    </ul>
+    <ul>
+      <li>Answer generation &amp; citation mode</li>
+      <li>Agent v1 → v2 controller hygiene</li>
+      <li>Negative results (verify, grep, RRF…)</li>
+      <li>Champion config &amp; live dashboards</li>
+      <li>Ceiling · t-SNE · chunking reports</li>
+    </ul>
+  </div>
+</section>
+
+
+<!-- Artifacts hub -->
+<section class="slide" data-title="Live artifacts">
+  <div class="eyebrow">Overview · Artifacts</div>
+  <h2>Live reports (embedded in this deck)</h2>
+  <p class="sub">Click a card to jump to the embedded HTML. Serve from <code>reports/</code> (<code>python3 -m http.server</code>) so relative iframes resolve. On embed slides: <strong>Open ↗</strong> or <kbd style="font-family:var(--mono);border:1px solid var(--line);padding:0 5px;border-radius:4px">O</kbd> · “Focus deck” then ← → if the iframe stole keys.</p>
+  <div class="artifact-grid">
+    <button type="button" class="artifact" data-jump-key="dashboard"><span class="kicker">Scoreboard</span><span class="name">Strategy comparison</span><span class="desc">Train / Eval tabs · corpus-judge OK across Stage 1–3 runs</span></button>
+    <button type="button" class="artifact" data-jump-key="tsne"><span class="kicker">Embeddings</span><span class="name">2D t-SNE</span><span class="desc">Corpus + questions + GT neighborhoods</span></button>
+    <button type="button" class="artifact" data-jump-key="retrieval"><span class="kicker">Retrieval</span><span class="name">Dense retrieval eval</span><span class="desc">E5 cosine hit rates / diagnostics</span></button>
+    <button type="button" class="artifact" data-jump-key="chunk_pdf"><span class="kicker">Ingest</span><span class="name">PDF chunking report</span><span class="desc">Structural pack stats &amp; samples</span></button>
+    <button type="button" class="artifact" data-jump-key="chunk_txt"><span class="kicker">Ingest</span><span class="name">TXT chunking report</span><span class="desc">Web pages packing</span></button>
+    <button type="button" class="artifact" data-jump-key="docling"><span class="kicker">Ingest</span><span class="name">Docling explorer</span><span class="desc">Parsed PDF hierarchy sample</span></button>
+    <button type="button" class="artifact" data-jump-key="explore"><span class="kicker">Corpus</span><span class="name">Data exploration</span><span class="desc">Domain mix, sizes, scrape overview</span></button>
+    <button type="button" class="artifact" data-jump-key="compare"><span class="kicker">Stage 1</span><span class="name">Run comparison</span><span class="desc">Earlier prompt / baseline compare</span></button>
+    <button type="button" class="artifact" data-jump-key="latency"><span class="kicker">Infra</span><span class="name">Gemma latency</span><span class="desc">Nebius tiny-call latency chart</span></button>
+  </div>
+</section>
+<!-- 2 -->
+<section class="slide" data-title="Problem">
+  <div class="eyebrow">01 · Goal</div>
+  <h2>Grounded Hebrew support, not fluent invention</h2>
+  <p class="sub">Customers ask Harel-specific policy questions. Bare LLMs sound right and invent limits, premiums, and procedures.</p>
+  <div class="stat-row">
+    <div class="stat bad"><div class="v">27%</div><div class="l">Stage 1 baseline relevance (no docs)</div></div>
+    <div class="stat"><div class="v">44%</div><div class="l">Best Stage 1 prompt (few-shot, still no RAG)</div></div>
+    <div class="stat good"><div class="v">87.5%</div><div class="l">Champion Train-48Q corpus OK</div></div>
+    <div class="stat accent"><div class="v">82%</div><div class="l">Held-out Eval-61Q corpus OK</div></div>
+  </div>
+  <div class="card" style="margin-top:.5rem">
+    <strong>Success = corpus judge:</strong> <code>gt_covered</code> ∧ <code>fully_supported</code> → OK.
+    Latency is secondary but tracked (Train ~24s mean).
+  </div>
+</section>
+
+<!-- 3 -->
+<section class="slide" data-title="Corpus & metrics">
+  <div class="eyebrow">01 · Data</div>
+  <h2>Corpus, sets, metrics</h2>
+  <div class="grid-2">
+    <div class="card">
+      <h3>Corpus</h3>
+      <ul>
+        <li>~571 docs · 12 product domains</li>
+        <li>PDFs + scraped <code>pages/*.txt</code></li>
+        <li>Index: 20,520 vectors · dim 768</li>
+        <li>Embed: <code>multilingual-e5-base</code></li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Evaluation</h3>
+      <ul>
+        <li><strong>Train / dev:</strong> 48Q <code>reference_questions.json</code></li>
+        <li><strong>Eval:</strong> 61Q <code>eval_questions2.json</code></li>
+        <li>GT answers + source hints (debug)</li>
+        <li>Judge cares that cites establish GT — not exact source match</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+<!-- embed:explore -->
+<section class="slide embed" data-title="Data exploration report" data-embed-key="explore">
+  <div class="embed-chrome">
+    <div class="left">
+      <div class="eyebrow">Live · Corpus</div>
+      <div class="title-line">Data exploration report</div>
+    </div>
+    <div class="actions">
+      <span class="muted" style="font-size:11px">domains · doc mix</span>
+      <a class="open-ext" href="exploration/data_exploration.html" target="_blank" rel="noopener">Open ↗</a>
+      <button type="button" class="focus-deck" title="Click deck chrome, then use arrows">Focus deck</button>
+    </div>
+  </div>
+  <div class="embed-frame-wrap">
+    <iframe data-src="exploration/data_exploration.html" title="Data exploration report" loading="lazy"></iframe>
+  </div>
+</section>
+<!-- 4 -->
+<section class="slide" data-title="Pipeline">
+  <div class="eyebrow">02 · End-to-end</div>
+  <h2>System pipeline</h2>
+  <div class="flow" style="margin:1rem 0 1.5rem">
+    <span class="step">Question</span><span class="arrow">→</span>
+    <span class="step">Route</span><span class="arrow">→</span>
+    <span class="step">Catalog</span><span class="arrow">→</span>
+    <span class="step">Dense 100</span><span class="arrow">→</span>
+    <span class="step">MiniLM</span><span class="arrow">→</span>
+    <span class="step">BGE@40</span><span class="arrow">→</span>
+    <span class="step">top-k 25 ±2</span><span class="arrow">→</span>
+    <span class="step">Agent v2</span><span class="arrow">→</span>
+    <span class="step">Kimi answer</span>
+  </div>
+  <div class="grid-3">
+    <div class="card"><h3>Offline</h3><p class="muted">Docling parse · structural chunk · table dual-rep · E5 index · catalog JSON</p></div>
+    <div class="card"><h3>Online retrieve</h3><p class="muted">Domain route 80+20 · catalog boost · hybrid CE · window expand · no FAQ</p></div>
+    <div class="card"><h3>Online reason</h3><p class="muted">Agent controller (≤2 rounds) · passage cite · short grounded answer</p></div>
+  </div>
+</section>
+
+<!-- 5 -->
+<section class="slide" data-title="Chunking">
+  <div class="eyebrow">03 · Ingestion</div>
+  <h2>Chunking: structural pack, not sliding window</h2>
+  <div class="two-col">
+    <div>
+      <ul>
+        <li>Docling hierarchy → section / clause / subclause</li>
+        <li>Pack toward <code>target_tokens=500</code>, hard <code>max=700</code></li>
+        <li>Fold parent+children when they fit; pack sibling leftovers</li>
+        <li>Split only when a node exceeds max</li>
+        <li><strong>No token-overlap sliding window</strong></li>
+      </ul>
+      <p class="muted" style="margin-top:1rem">Context at retrieve time comes from <code>--window 2</code>: ±2 same-file neighbor chunks by sequential id.</p>
+    </div>
+    <div class="card">
+      <h3>Why this shape</h3>
+      <p>Insurance PDFs are hierarchical. Sliding windows smear clause boundaries and duplicate headers. Structural packs keep “one idea ≈ one chunk” and preserve page lists for citations.</p>
+      <p class="muted" style="margin-top:.75rem">Key files: <code>rag/chunk.py</code>, <code>rag/corpus_chunks.py</code>, <code>rag/txt.py</code></p>
+    </div>
+  </div>
+</section>
+
+
+<!-- embed:docling -->
+<section class="slide embed" data-title="Docling explorer (sample PDF)" data-embed-key="docling">
+  <div class="embed-chrome">
+    <div class="left">
+      <div class="eyebrow">Live · Ingest</div>
+      <div class="title-line">Docling explorer (sample PDF)</div>
+    </div>
+    <div class="actions">
+      
+      <a class="open-ext" href="stage2/docling_explorer.html" target="_blank" rel="noopener">Open ↗</a>
+      <button type="button" class="focus-deck" title="Click deck chrome, then use arrows">Focus deck</button>
+    </div>
+  </div>
+  <div class="embed-frame-wrap">
+    <iframe data-src="stage2/docling_explorer.html" title="Docling explorer (sample PDF)" loading="lazy"></iframe>
+  </div>
+</section>
+
+<!-- embed:chunk_pdf -->
+<section class="slide embed" data-title="PDF chunking report" data-embed-key="chunk_pdf">
+  <div class="embed-chrome">
+    <div class="left">
+      <div class="eyebrow">Live · Chunking</div>
+      <div class="title-line">PDF chunking report</div>
+    </div>
+    <div class="actions">
+      
+      <a class="open-ext" href="stage2/chunking_report.html" target="_blank" rel="noopener">Open ↗</a>
+      <button type="button" class="focus-deck" title="Click deck chrome, then use arrows">Focus deck</button>
+    </div>
+  </div>
+  <div class="embed-frame-wrap">
+    <iframe data-src="stage2/chunking_report.html" title="PDF chunking report" loading="lazy"></iframe>
+  </div>
+</section>
+
+<!-- embed:chunk_txt -->
+<section class="slide embed" data-title="TXT chunking report" data-embed-key="chunk_txt">
+  <div class="embed-chrome">
+    <div class="left">
+      <div class="eyebrow">Live · Chunking</div>
+      <div class="title-line">TXT chunking report</div>
+    </div>
+    <div class="actions">
+      
+      <a class="open-ext" href="stage2/txt_chunking_report.html" target="_blank" rel="noopener">Open ↗</a>
+      <button type="button" class="focus-deck" title="Click deck chrome, then use arrows">Focus deck</button>
+    </div>
+  </div>
+  <div class="embed-frame-wrap">
+    <iframe data-src="stage2/txt_chunking_report.html" title="TXT chunking report" loading="lazy"></iframe>
+  </div>
+</section>
+<!-- 6 -->
+<section class="slide" data-title="Tables & pages">
+  <div class="eyebrow">03 · Ingestion</div>
+  <h2>Tables, pages, citations</h2>
+  <div class="grid-2">
+    <div class="card">
+      <h3>Table dual representation</h3>
+      <ul>
+        <li><code>embed_text</code>: short NL description (search + CE)</li>
+        <li>payload <code>text</code>: full CSV for generation</li>
+        <li>~3.6k Gemma descriptions (prompt v2)</li>
+      </ul>
+      <p class="muted" style="margin-top:.75rem">Flagship win: UPGRADE premium calc on <code>dev-30</code> (59.12×12).</p>
+    </div>
+    <div class="card">
+      <h3>Page awareness</h3>
+      <ul>
+        <li>Each chunk stores <code>pages: list[int]</code></li>
+        <li>Citations are <code>{file, page}</code></li>
+        <li>TXT pages have <code>page: null</code></li>
+      </ul>
+      <p class="muted" style="margin-top:.75rem">Files: <code>rag/table_describe.py</code>, <code>artifacts/table_descriptions/</code></p>
+    </div>
+  </div>
+</section>
+
+<!-- 7 -->
+<section class="slide" data-title="FAQ exclusion">
+  <div class="eyebrow">03 · Design choice</div>
+  <h2>Exclude FAQs at retrieve (keep in index)</h2>
+  <div class="compare">
+    <div class="card bad">
+      <div class="head" style="color:var(--bad)">Problem</div>
+      <p>Scraped <code>*/pages/faq.txt</code> are mostly question titles with almost no answers. Dense retrieval loved them — high lexical overlap, empty evidence.</p>
+    </div>
+    <div class="card good">
+      <div class="head" style="color:var(--good)">Decision</div>
+      <p>Default: filter FAQ files out of the candidate pool (<code>is_faq_file</code>). Opt-in via <code>--include-faq</code>. Still indexed if we ever want them.</p>
+    </div>
+  </div>
+  <p class="muted" style="margin-top:1rem">Same class of choice as “don’t let marketing blurbs crowd out policy PDFs.”</p>
+</section>
+
+<!-- 8 -->
+<section class="slide" data-title="Retrieval ladder">
+  <div class="eyebrow">04 · Retrieval</div>
+  <h2>Stage 2 relevance ladder (historical)</h2>
+  <table>
+    <thead><tr><th>Step</th><th>Config</th><th>Relevance</th></tr></thead>
+    <tbody>
+      <tr><td>Dense</td><td>k20 ±2 window</td><td class="num">68.8%</td></tr>
+      <tr><td>+ Cross-encoder</td><td>BGE / MiniLM family</td><td class="num">70.8%</td></tr>
+      <tr><td>+ LLM table descriptions</td><td>dual-rep tables</td><td class="num">79.2%</td></tr>
+      <tr><td>+ Route 80+20, no FAQ</td><td>hybrid domain pool</td><td class="num">83.3%</td></tr>
+      <tr class="champ"><td>+ Passage cite</td><td>USED_PASSAGES footer</td><td class="num">85.4%</td></tr>
+    </tbody>
+  </table>
+  <p class="muted">Later Stage 3 moved the scoreboard to corpus-judge OK under Kimi — same stack bones, agent on top.</p>
+</section>
+
+<!-- 9 -->
+<section class="slide" data-title="Hybrid CE">
+  <div class="eyebrow">04 · Retrieval</div>
+  <h2>Hybrid rerank: MiniLM → BGE refine</h2>
+  <div class="grid-2">
+    <div>
+      <ul>
+        <li>Dense pool: <code>--candidate-n 100</code></li>
+        <li>Stage 1 CE: multilingual MiniLM (fast shortlist)</li>
+        <li>Stage 2: BGE-m3 on union of MiniLM∪dense top <code>--rerank-refine-n 40</code></li>
+        <li>Return <code>--top-k 25</code>, expand <code>--window 2</code></li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Offline GT recall (full group)</h3>
+      <table>
+        <tr><td>MiniLM only</td><td class="num">68.8%</td></tr>
+        <tr><td>BGE only</td><td class="num">77.1%</td></tr>
+        <tr><td>BGE→MiniLM (wrong order)</td><td class="num">70.8%</td></tr>
+        <tr class="champ"><td>hybrid40 + topk25</td><td class="num">85.4%</td></tr>
+      </table>
+      <p class="muted" style="margin-top:.75rem">Order matters. Cheap CE first, strong CE on a shortlist.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- embed:tsne -->
+<section class="slide embed" data-title="Corpus embeddings — 2D t-SNE" data-embed-key="tsne">
+  <div class="embed-chrome">
+    <div class="left">
+      <div class="eyebrow">Live · Embeddings</div>
+      <div class="title-line">Corpus embeddings — 2D t-SNE</div>
+    </div>
+    <div class="actions">
+      <span class="muted" style="font-size:11px">needs network for Plotly</span>
+      <a class="open-ext" href="stage2/embedding_tsne.html" target="_blank" rel="noopener">Open ↗</a>
+      <button type="button" class="focus-deck" title="Click deck chrome, then use arrows">Focus deck</button>
+    </div>
+  </div>
+  <div class="embed-frame-wrap">
+    <iframe data-src="stage2/embedding_tsne.html" title="Corpus embeddings — 2D t-SNE" loading="lazy"></iframe>
+  </div>
+</section>
+
+<!-- embed:retrieval -->
+<section class="slide embed" data-title="Retrieval eval — dense cosine (E5)" data-embed-key="retrieval">
+  <div class="embed-chrome">
+    <div class="left">
+      <div class="eyebrow">Live · Retrieval</div>
+      <div class="title-line">Retrieval eval — dense cosine (E5)</div>
+    </div>
+    <div class="actions">
+      
+      <a class="open-ext" href="stage2/retrieval_eval.html" target="_blank" rel="noopener">Open ↗</a>
+      <button type="button" class="focus-deck" title="Click deck chrome, then use arrows">Focus deck</button>
+    </div>
+  </div>
+  <div class="embed-frame-wrap">
+    <iframe data-src="stage2/retrieval_eval.html" title="Retrieval eval — dense cosine (E5)" loading="lazy"></iframe>
+  </div>
+</section>
+<!-- 10 -->
+<section class="slide" data-title="Router">
+  <div class="eyebrow">05 · Router</div>
+  <h2>Domain router: 80 routed + 20 global</h2>
+  <div class="two-col">
+    <div>
+      <p class="sub" style="margin-bottom:1rem">Gemma picks 1–3 of 12 domains before dense search.</p>
+      <ul>
+        <li><span class="tag bad">Rejected</span> Pure domain filter → 81.2%, refusals on misroute</li>
+        <li><span class="tag good">Kept</span> 80 from routed domains + 20 unique global</li>
+        <li><span class="tag good">Kept</span> <code>--route-context</code>: dense preview feeds the router</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Why hybrid, not hard filter</h3>
+      <p>Apartment questions sometimes need health / claims booklets. A hard domain gate caused empty refusals. The global leg is the safety valve; the routed leg is the precision boost.</p>
+      <p class="muted" style="margin-top:.75rem"><code>rag/route.py</code> · model <code>gemma-3-27b-it</code></p>
+    </div>
+  </div>
+</section>
+
+<!-- 11 -->
+<section class="slide" data-title="Catalog">
+  <div class="eyebrow">06 · Catalog</div>
+  <h2>Deterministic product catalog</h2>
+  <div class="grid-2">
+    <div class="card">
+      <h3>What it is</h3>
+      <ul>
+        <li>557 file entries · 77 products · 12 domains</li>
+        <li>Titles, aliases, blurbs, related PDFs</li>
+        <li>Built offline: <code>scripts/build_catalog.py</code></li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>When it fires</h3>
+      <ul>
+        <li>Lexical search scoped to routed domains</li>
+        <li>Activate if best score ≥ <code>8.0</code></li>
+        <li>Prefer product hits; attach related brand PDFs</li>
+        <li>Intersect chunk idxs into route pool</li>
+      </ul>
+    </div>
+  </div>
+  <p style="margin-top:.5rem"><span class="tag good">+2 OK</span> Train 40/48 → 41/48 (83.3% → 85.4%) before agent — wins on Switch vs km and travel liability.</p>
+</section>
+
+<!-- 12 -->
+<section class="slide" data-title="Generation">
+  <div class="eyebrow">07 · Generation</div>
+  <h2>Answer model &amp; citation contract</h2>
+  <div class="grid-2">
+    <div class="card">
+      <h3>Kimi-K3 · reasoning low</h3>
+      <ul>
+        <li>Stage 3 answer + judge model</li>
+        <li>Short answers: ≤2 paragraphs / ≤3 bullets</li>
+        <li>No unasked phones, hours, side caps</li>
+        <li>Multi-part completeness check in prompt</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3><code>--cite passages</code></h3>
+      <ul>
+        <li>Body stays path-free (readable Hebrew)</li>
+        <li>Footer: <code>USED_PASSAGES: 1, 3</code></li>
+        <li>Runner maps indices → <code>{file,page}</code></li>
+        <li>Beat “hits cite” MVP (91.7% cite acc vs 81%)</li>
+      </ul>
+    </div>
+  </div>
+  <p class="muted">Completeness prompt v6 tried → longer noisy answers, grounding regressions → reverted.</p>
+</section>
+
+<!-- 13 -->
+<section class="slide" data-title="Agent v1">
+  <div class="eyebrow">08 · Agent</div>
+  <h2>Agent v1: hybrid ReAct on a strong seed</h2>
+  <ul>
+    <li>Seed = route + catalog + CE + window (no auto-peek)</li>
+    <li>Controller ≤ <code>--agent-max-rounds 2</code></li>
+    <li>Tools: <code>peek_titles</code>, <code>fetch_chunks</code>, <code>search</code>, <code>catalog_lookup</code>, <code>final_answer</code>, <code>more_passages</code></li>
+    <li>Final write uses same passage-cite answer prompt</li>
+  </ul>
+  <div class="stat-row">
+    <div class="stat good"><div class="v">87.5%</div><div class="l">Train OK (42/48)</div></div>
+    <div class="stat"><div class="v">78.7%</div><div class="l">Eval-61Q OK (agent v1)</div></div>
+    <div class="stat"><div class="v">~46s</div><div class="l">Mean latency (v1 era)</div></div>
+  </div>
+</section>
+
+<!-- 14 -->
+<section class="slide" data-title="Agent v2">
+  <div class="eyebrow">08 · Agent</div>
+  <h2>Agent v2: controller / seed hygiene</h2>
+  <div class="grid-2">
+    <div class="card">
+      <h3>What changed</h3>
+      <ul>
+        <li><strong>Unread seed title map</strong> in the brief</li>
+        <li><strong>Defer early final</strong> on multi-part + unread seed</li>
+        <li><strong>Auto page-2</strong> before first LLM turn</li>
+        <li><strong>File-diverse reorder</strong> of first brief page</li>
+        <li><strong>Lexical nudge</strong> (generic title↔Q coverage)</li>
+        <li><strong>Cite hygiene</strong> — drop DummyText / symbol soup</li>
+      </ul>
+    </div>
+    <div class="card good">
+      <h3>Effect</h3>
+      <p>Same Train OK peak <strong>87.5%</strong> with better GT (93.8%) and ~2× lower latency (~24s) under hybrid CE.</p>
+      <p style="margin-top:.75rem">Eval-61Q: <strong>78.7% → 82.0%</strong> OK.</p>
+      <p class="muted" style="margin-top:.75rem"><code>rag/agent.py</code>, <code>rag/cite_hygiene.py</code></p>
+    </div>
+  </div>
+</section>
+
+<!-- 15 -->
+<section class="slide" data-title="Negatives">
+  <div class="eyebrow">09 · Negative results</div>
+  <h2>What we tried and rejected</h2>
+  <table>
+    <thead><tr><th>Experiment</th><th>Result</th><th>Verdict</th></tr></thead>
+    <tbody>
+      <tr><td>RRF dense+BM25</td><td class="num">64.6% rel</td><td><span class="tag bad">drop</span></td></tr>
+      <tr><td>Pure domain route</td><td class="num">81.2% + refusals</td><td><span class="tag bad">→ 80+20</span></td></tr>
+      <tr><td>FAQ in retrieve</td><td>noise</td><td><span class="tag bad">exclude</span></td></tr>
+      <tr><td>Verify / strip</td><td class="num">68.8% OK</td><td><span class="tag bad">−19 pts</span></td></tr>
+      <tr><td>Agent + grep</td><td class="num">85.4%</td><td><span class="tag bad">below champ</span></td></tr>
+      <tr><td>Fewshot + grep stack</td><td class="num">83.3%</td><td><span class="tag bad">regressed</span></td></tr>
+      <tr><td>No-agent hybrid</td><td class="num">81.2% / ~16s</td><td><span class="tag warn">faster, worse</span></td></tr>
+      <tr><td>Agent 3 rounds</td><td class="num">83.3%</td><td><span class="tag bad">worse than 2</span></td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- 16 -->
+<section class="slide" data-title="Verify failure">
+  <div class="eyebrow">09 · Deep dive</div>
+  <h2>Why verify/strip failed</h2>
+  <div class="grid-2">
+    <div class="card bad">
+      <h3>Design</h3>
+      <p>Gate → tiny Gemma on <em>cited</em> passages → delete unsupported sentences → no regen.</p>
+    </div>
+    <div class="card bad">
+      <h3>Reality (48Q)</h3>
+      <p><strong>87.5% → 68.8%</strong>. Fixed ~1 Q; regressed ~10. Stripped GT numbers/conditions when under-cited or misjudged.</p>
+    </div>
+  </div>
+  <ul style="margin-top:1rem">
+    <li>Gate too wide (<code>used_tools</code> ≈ always on for agent)</li>
+    <li>Evidence too narrow (cited only ≠ true)</li>
+    <li>Sentence-level delete removes the asked fact with the extra</li>
+    <li>No “still answers the question?” revert check</li>
+  </ul>
+</section>
+
+<!-- 17 -->
+<section class="slide" data-title="Grep failure">
+  <div class="eyebrow">09 · Deep dive</div>
+  <h2>Why agent-grep / few-shots failed</h2>
+  <div class="grid-2">
+    <div>
+      <ul>
+        <li>Grep returns hits, not attached text — needs <code>fetch_chunks</code></li>
+        <li>Controller often grepped answer-shaped phrases</li>
+        <li>Burned rounds even when seed was enough</li>
+        <li>Few-shots improved query shape on smoke, hurt full 48Q</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>48Q corpus OK</h3>
+      <table>
+        <tr class="champ"><td>v2 hybrid topk25</td><td class="num">87.5%</td></tr>
+        <tr><td>+ grep</td><td class="num">85.4%</td></tr>
+        <tr><td>+ fewshot + grep</td><td class="num">83.3%</td></tr>
+      </table>
+      <p class="muted" style="margin-top:.75rem">Default: <code>RAG_AGENT_GREP=0</code></p>
+    </div>
+  </div>
+</section>
+
+<!-- 18 -->
+<section class="slide" data-title="Champion">
+  <div class="eyebrow">10 · Champion</div>
+  <h2>Winning stack</h2>
+  <div class="stat-row">
+    <div class="stat good"><div class="v">87.5%</div><div class="l">Train OK · GT 93.8% · ~24s</div></div>
+    <div class="stat accent"><div class="v">82.0%</div><div class="l">Eval-61Q OK · GT 88.5% · ~46s</div></div>
+  </div>
+  <pre style="margin-top:.5rem">--agent --agent-max-rounds 2
+--retrieve rerank --top-k 25 --window 2 --candidate-n 100
+--rerank-model cross-encoder/mmarco-mMiniLMv2-L12-H384-v1
+--rerank-refine-model BAAI/bge-reranker-v2-m3 --rerank-refine-n 40
+--route --route-n 80 --route-global-n 20 --route-context --route-preview-n 20
+--catalog --catalog-min-score 8.0
+--cite passages
+--model moonshotai/Kimi-K3 --reasoning-effort low
+# no --agent-grep · no --verify</pre>
+</section>
+
+<!-- 19 -->
+<section class="slide" data-title="8-pass board">
+  <div class="eyebrow">10 · Leaderboard</div>
+  <h2>8-pass Train-48Q (corpus OK)</h2>
+  <table>
+    <thead><tr><th>Run</th><th>OK</th><th>GT</th><th>Note</th></tr></thead>
+    <tbody>
+      <tr class="champ"><td>agent v2 hybrid topk25</td><td class="num">87.5%</td><td class="num">93.8%</td><td>champion</td></tr>
+      <tr><td>agent v2 hybrid topk20</td><td class="num">87.5%</td><td class="num">91.7%</td><td>tie OK, worse GT</td></tr>
+      <tr><td>agent v2 + grep</td><td class="num">85.4%</td><td class="num">87.5%</td><td>rejected</td></tr>
+      <tr><td>agent BGE-only topk25</td><td class="num">85.4%</td><td class="num">—</td><td>below hybrid</td></tr>
+      <tr><td>agent 3 rounds</td><td class="num">83.3%</td><td class="num">—</td><td>rejected</td></tr>
+      <tr><td>no-agent hybrid</td><td class="num">81.2%</td><td class="num">—</td><td>faster</td></tr>
+      <tr><td>agent hybrid30 refine</td><td class="num">75.0%</td><td class="num">—</td><td>rejected</td></tr>
+    </tbody>
+  </table>
+</section>
+
+
+<!-- embed:dashboard -->
+<section class="slide embed" data-title="Prompt / strategy comparison dashboard" data-embed-key="dashboard">
+  <div class="embed-chrome">
+    <div class="left">
+      <div class="eyebrow">Live · Scoreboard</div>
+      <div class="title-line">Prompt / strategy comparison dashboard</div>
+    </div>
+    <div class="actions">
+      <span class="muted" style="font-size:11px">Train 48Q · Eval 32Q · Eval 61Q</span>
+      <a class="open-ext" href="stage1/stage1_prompt_strategy_comparison.html" target="_blank" rel="noopener">Open ↗</a>
+      <button type="button" class="focus-deck" title="Click deck chrome, then use arrows">Focus deck</button>
+    </div>
+  </div>
+  <div class="embed-frame-wrap">
+    <iframe data-src="stage1/stage1_prompt_strategy_comparison.html" title="Prompt / strategy comparison dashboard" loading="lazy"></iframe>
+  </div>
+</section>
+
+<!-- embed:compare -->
+<section class="slide embed" data-title="Run comparison dashboard" data-embed-key="compare">
+  <div class="embed-chrome">
+    <div class="left">
+      <div class="eyebrow">Live · Stage 1</div>
+      <div class="title-line">Run comparison dashboard</div>
+    </div>
+    <div class="actions">
+      
+      <a class="open-ext" href="stage1/compare_dashboard.html" target="_blank" rel="noopener">Open ↗</a>
+      <button type="button" class="focus-deck" title="Click deck chrome, then use arrows">Focus deck</button>
+    </div>
+  </div>
+  <div class="embed-frame-wrap">
+    <iframe data-src="stage1/compare_dashboard.html" title="Run comparison dashboard" loading="lazy"></iframe>
+  </div>
+</section>
+
+<!-- embed:latency -->
+<section class="slide embed" data-title="Nebius Gemma latency chart" data-embed-key="latency">
+  <div class="embed-chrome">
+    <div class="left">
+      <div class="eyebrow">Live · Latency</div>
+      <div class="title-line">Nebius Gemma latency chart</div>
+    </div>
+    <div class="actions">
+      
+      <a class="open-ext" href="nebius_gemma_latency_chart.html" target="_blank" rel="noopener">Open ↗</a>
+      <button type="button" class="focus-deck" title="Click deck chrome, then use arrows">Focus deck</button>
+    </div>
+  </div>
+  <div class="embed-frame-wrap">
+    <iframe data-src="nebius_gemma_latency_chart.html" title="Nebius Gemma latency chart" loading="lazy"></iframe>
+  </div>
+</section>
+<!-- 20 -->
+<section class="slide" data-title="Design principles">
+  <div class="eyebrow">11 · Principles</div>
+  <h2>Design principles that stuck</h2>
+  <div class="grid-2">
+    <ul>
+      <li><strong>Structure over windows</strong> for insurance PDFs</li>
+      <li><strong>Dual-rep tables</strong> — search NL, answer CSV</li>
+      <li><strong>Soft route</strong> — precision + global safety</li>
+      <li><strong>Exclude empty FAQs</strong> from retrieve</li>
+      <li><strong>Catalog for products</strong>, dense for clauses</li>
+    </ul>
+    <ul>
+      <li><strong>Cheap CE → strong CE</strong>, never reverse</li>
+      <li><strong>Agent on a good seed</strong>, not agent as search</li>
+      <li><strong>2 rounds max</strong> — more tools ≠ more OK</li>
+      <li><strong>Passage cite</strong> over path soup in the body</li>
+      <li><strong>Measure strip before shipping</strong> — verify taught that</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 21 -->
+<section class="slide" data-title="Ceiling">
+  <div class="eyebrow">12 · Ceiling</div>
+  <h2>What still fails</h2>
+  <div class="grid-2">
+    <div class="card warn">
+      <h3>Chronic Train misses</h3>
+      <ul>
+        <li><code>dev-29</code> incomplete skin-service GT</li>
+        <li><code>dev-32</code> life sum / retro form not retrieved</li>
+        <li><code>dev-35</code> health-declaration fax path</li>
+        <li><code>dev-41/43/46</code> extras → not fully_supported</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Structural limits</h3>
+      <ul>
+        <li>Offline full GT-group recall tops ~85%</li>
+        <li>OCR / DummyText forms (hygiene helps)</li>
+        <li>Extra-claim side conditions</li>
+        <li>Underspecified eval branches (53–55)</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- 22 -->
+<section class="slide" data-title="Key files">
+  <div class="eyebrow">13 · Code map</div>
+  <h2>Where to look</h2>
+  <div class="grid-3">
+    <div class="card"><h3>Ingest</h3><p class="mono" style="border:0;background:transparent;padding:0;font-size:.85rem;line-height:1.6">rag/parse.py<br>rag/chunk.py<br>rag/txt.py<br>rag/table_describe.py<br>scripts/embed_corpus.py</p></div>
+    <div class="card"><h3>Retrieve</h3><p class="mono" style="border:0;background:transparent;padding:0;font-size:.85rem;line-height:1.6">rag/retrieve.py<br>rag/rerank.py<br>rag/route.py<br>rag/catalog.py<br>rag/embed.py</p></div>
+    <div class="card"><h3>Agent / answer</h3><p class="mono" style="border:0;background:transparent;padding:0;font-size:.85rem;line-height:1.6">rag/agent.py<br>rag/agent_tools.py<br>rag/cite_hygiene.py<br>rag/generate.py<br>rag/verify.py<br>rag_runner.py</p></div>
+  </div>
+  <p class="muted" style="margin-top:.5rem">Docs: <code>STAGE1.md</code> · <code>STAGE2.md</code> · <code>reports/stage3/agentic_progress.md</code></p>
+</section>
+
+<!-- 23 -->
+<section class="slide title-slide" data-title="Close">
+  <div class="eyebrow">Close</div>
+  <h1>One sentence</h1>
+  <p class="sub" style="font-size:1.35rem;color:var(--ink);max-width:36em">
+    A structural Hebrew corpus index, soft-routed and catalog-boosted, reranked MiniLM→BGE, then agent-v2 hygiene on a strong seed — with optional LLM verify trimming unasked extras (~+1.5s).
+  </p>
+  <div class="meta" style="margin-top:2rem">
+    <span class="big-num" style="font-size:2rem">91.7% / 83.6%</span><br>
+    Train · Eval corpus-judge OK · agent v2 hybrid topk25 + LLM verify
+  </div>
+</section>
+
+</div>
+
+<div class="footer">
+  <span>Harel Insurance RAG · Architecture presentation</span>
+  <span class="nav-hint"><kbd>←</kbd> <kbd>→</kbd> <kbd>Space</kbd> · <kbd>F</kbd> fullscreen · <kbd>O</kbd> open embed · <span id="pos">1 / 1</span></span>
+</div>
+
+<script>
+(function () {
+  const slides = [...document.querySelectorAll(".slide")];
+  const bar = document.getElementById("bar");
+  const pos = document.getElementById("pos");
+  let i = 0;
+
+  const keyIndex = {};
+  slides.forEach((s, idx) => {
+    const k = s.getAttribute("data-embed-key");
+    if (k) keyIndex[k] = idx;
+  });
+
+  function loadEmbed(slide) {
+    if (!slide || !slide.classList.contains("embed")) return;
+    const iframe = slide.querySelector("iframe[data-src]");
+    if (iframe && !iframe.getAttribute("src")) {
+      iframe.setAttribute("src", iframe.getAttribute("data-src"));
+    }
+  }
+
+  function show(n) {
+    i = Math.max(0, Math.min(slides.length - 1, n));
+    slides.forEach((s, k) => s.classList.toggle("active", k === i));
+    bar.style.width = ((i + 1) / slides.length * 100) + "%";
+    const title = slides[i].getAttribute("data-title") || "";
+    pos.textContent = (i + 1) + " / " + slides.length + (title ? " · " + title : "");
+    history.replaceState(null, "", "#" + (i + 1));
+    loadEmbed(slides[i]);
+    if (i + 1 < slides.length) loadEmbed(slides[i + 1]);
+  }
+
+  function fromHash() {
+    const m = location.hash.match(/(\d+)/);
+    return m ? parseInt(m[1], 10) - 1 : 0;
+  }
+
+  function currentEmbedUrl() {
+    const s = slides[i];
+    if (!s || !s.classList.contains("embed")) return null;
+    const iframe = s.querySelector("iframe");
+    return (iframe && (iframe.getAttribute("src") || iframe.getAttribute("data-src"))) || null;
+  }
+
+  document.addEventListener("keydown", (e) => {
+    const tag = (e.target && e.target.tagName) || "";
+    if (tag === "INPUT" || tag === "TEXTAREA") return;
+    if (e.key === "ArrowRight" || e.key === " " || e.key === "PageDown") {
+      e.preventDefault(); show(i + 1);
+    } else if (e.key === "ArrowLeft" || e.key === "PageUp") {
+      e.preventDefault(); show(i - 1);
+    } else if (e.key === "Home") { show(0); }
+    else if (e.key === "End") { show(slides.length - 1); }
+    else if (e.key === "f" || e.key === "F") {
+      if (!document.fullscreenElement) document.documentElement.requestFullscreen();
+      else document.exitFullscreen();
+    } else if (e.key === "o" || e.key === "O") {
+      const url = currentEmbedUrl();
+      if (url) window.open(url, "_blank", "noopener");
+    }
+  });
+
+  document.querySelectorAll("[data-jump-key]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const k = btn.getAttribute("data-jump-key");
+      if (k in keyIndex) show(keyIndex[k]);
+    });
+  });
+
+  document.querySelectorAll(".focus-deck").forEach((btn) => {
+    btn.addEventListener("click", () => { btn.focus(); });
+  });
+
+  let tx = null;
+  document.addEventListener("touchstart", (e) => {
+    tx = e.changedTouches[0].screenX;
+  }, { passive: true });
+  document.addEventListener("touchend", (e) => {
+    if (tx == null) return;
+    const dx = e.changedTouches[0].screenX - tx;
+    if (Math.abs(dx) > 70) show(i + (dx < 0 ? 1 : -1));
+    tx = null;
+  }, { passive: true });
+
+  show(fromHash());
+  window.addEventListener("hashchange", () => show(fromHash()));
+})();
+</script>
+
+</body>
+</html>

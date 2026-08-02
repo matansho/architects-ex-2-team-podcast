@@ -24,6 +24,7 @@ import litellm
 
 from rag.bm25 import build_chunk_bm25, build_file_bm25
 from rag.embed import DEFAULT_MODEL, Embedder
+from rag.cite_hygiene import sanitize_passages_for_answer
 from rag.generate import (
     SYSTEM_NO_CITE,
     SYSTEM_PASSAGE_CITE,
@@ -158,6 +159,20 @@ def main() -> None:
         help="RRF/rerank: first-stage candidate count (rerank default 100)",
     )
     ap.add_argument("--rerank-model", default=DEFAULT_RERANK_MODEL)
+    ap.add_argument(
+        "--rerank-refine-model",
+        default=None,
+        help=(
+            "Optional stage-2 cross-encoder: re-rank the top --rerank-refine-n "
+            "from stage-1 (e.g. MiniLM then BAAI/bge-reranker-v2-m3)."
+        ),
+    )
+    ap.add_argument(
+        "--rerank-refine-n",
+        type=int,
+        default=40,
+        help="Shortlist size for --rerank-refine-model (default 40)",
+    )
     ap.add_argument(
         "--route",
         action="store_true",
@@ -302,26 +317,45 @@ def main() -> None:
         "--verify",
         action="store_true",
         help=(
-            "After answer: gated tiny-model grounding check on cited passages; "
-            "strip unsupported sentences. On verify timeout keep answer as-is. "
-            "Intended for --agent (also works if you call run_agent)."
+            "After answer: LLM verifier (sentence-level, question-aware) strips "
+            "ancillary unasked/unsupported units. Timeout → keep answer. "
+            "Intended for --agent."
         ),
     )
     ap.add_argument(
         "--verify-model",
         default=None,
-        help="Verifier model (default: google/gemma-3-27b-it)",
+        help="Verifier model (default: moonshotai/Kimi-K3)",
     )
     ap.add_argument(
         "--verify-timeout",
         type=float,
-        default=15.0,
-        help="Hard verifier timeout seconds; on timeout keep answer (default 15)",
+        default=45.0,
+        help="Hard verifier timeout seconds; on timeout keep answer (default 45)",
     )
     ap.add_argument(
         "--verify-force",
         action="store_true",
         help="Run verifier even when the risk gate would skip",
+    )
+    ap.add_argument(
+        "--verify-mode",
+        choices=("extras", "strict"),
+        default="extras",
+        help=(
+            "extras (default): only unasked unsupported side claims; "
+            "strict: legacy grounding strip (more aggressive)"
+        ),
+    )
+    ap.add_argument(
+        "--verify-deterministic-only",
+        action="store_true",
+        help="Skip LLM verify; only run legacy aside regex trim",
+    )
+    ap.add_argument(
+        "--verify-apply-deterministic",
+        action="store_true",
+        help="Also run legacy aside regex trim before the LLM verifier",
     )
     ap.add_argument(
         "--ids",
@@ -367,6 +401,7 @@ def main() -> None:
     file_bm25 = None
     chunk_bm25 = None
     reranker = None
+    refine_reranker = None
     if args.retrieve == "cascade":
         print("Building file-level BM25…", flush=True)
         file_bm25 = build_file_bm25(vectors)
@@ -380,6 +415,15 @@ def main() -> None:
         reranker = Reranker(model_name=args.rerank_model)
         reranker._load()
         print("  ready", flush=True)
+        if args.rerank_refine_model:
+            print(
+                f"Loading refine reranker {args.rerank_refine_model} "
+                f"(top-{args.rerank_refine_n})…",
+                flush=True,
+            )
+            refine_reranker = Reranker(model_name=args.rerank_refine_model)
+            refine_reranker._load()
+            print("  refine ready", flush=True)
 
     id_filter = (
         {x.strip() for x in args.ids.split(",") if x.strip()} if args.ids else None
@@ -473,7 +517,18 @@ def main() -> None:
 
             vmodel = args.verify_model or DEFAULT_VERIFY_MODEL
             print(
-                f"Verify ON · model={vmodel} · timeout={args.verify_timeout:.0f}s"
+                f"Verify ON · mode={args.verify_mode}"
+                + (
+                    " · deterministic-only"
+                    if args.verify_deterministic_only
+                    else f" · model={vmodel} · timeout={args.verify_timeout:.0f}s"
+                )
+                + (
+                    " · +det"
+                    if args.verify_apply_deterministic
+                    and not args.verify_deterministic_only
+                    else ""
+                )
                 + (" · force" if args.verify_force else " · gated"),
                 flush=True,
             )
@@ -495,6 +550,8 @@ def main() -> None:
             route_model=args.route_model,
             use_route=True,
             use_catalog=True,
+            refine_reranker=refine_reranker,
+            refine_n=int(args.rerank_refine_n),
             enable_grep=bool(args.agent_grep),
         )
         if args.agent_grep:
@@ -522,6 +579,9 @@ def main() -> None:
                     verify_model=args.verify_model or DEFAULT_VERIFY_MODEL,
                     verify_timeout=float(args.verify_timeout),
                     verify_force=bool(args.verify_force),
+                    verify_mode=str(args.verify_mode),
+                    verify_deterministic_only=bool(args.verify_deterministic_only),
+                    verify_apply_deterministic=bool(args.verify_apply_deterministic),
                 )
                 try:
                     result = run_agent(bundle, q["question"], **agent_kwargs)
@@ -558,6 +618,10 @@ def main() -> None:
                         "window": args.window,
                         "candidate_n": args.candidate_n,
                         "rerank_model": args.rerank_model,
+                        "rerank_refine_model": args.rerank_refine_model,
+                        "rerank_refine_n": args.rerank_refine_n
+                        if args.rerank_refine_model
+                        else None,
                         "route_domains": result.state.route_domains,
                         "catalog": {
                             "files": result.state.catalog_files,
@@ -868,6 +932,8 @@ def main() -> None:
                     route_n=route_budget[si],
                     route_global_n=gseed_budget[si],
                     global_seed=global_seed if sub_route is not None else None,
+                    refine_reranker=refine_reranker,
+                    refine_n=int(args.rerank_refine_n),
                 )
                 per_sub.append(result.expanded)
                 mode = result.mode
@@ -946,6 +1012,7 @@ def main() -> None:
             0, questions[0]["question"]
         )
         expanded, peek_info = maybe_peek(expanded, questions[0]["question"])
+        expanded, _hyg = sanitize_passages_for_answer(expanded)
         context = build_context(expanded)
         messages = build_messages(
             questions[0]["question"], context, system_prompt=args.system_prompt
@@ -985,6 +1052,14 @@ def main() -> None:
             expanded, peek_info = maybe_peek(
                 expanded, q["question"], stage_ms=stage_ms
             )
+            expanded, hyg = sanitize_passages_for_answer(expanded)
+            if hyg["dropped_primary"] or hyg["dropped_neighbors"]:
+                stage_ms["cite_hygiene_dropped_primary"] = float(
+                    hyg["dropped_primary"]
+                )
+                stage_ms["cite_hygiene_dropped_neighbors"] = float(
+                    hyg["dropped_neighbors"]
+                )
             t_prompt0 = time.perf_counter()
             context = build_context(expanded)
             messages = build_messages(
@@ -1100,6 +1175,16 @@ def main() -> None:
                     if args.retrieve in ("rrf", "rerank")
                     else None,
                     "rerank_model": args.rerank_model if args.retrieve == "rerank" else None,
+                    "rerank_refine_model": (
+                        args.rerank_refine_model
+                        if args.retrieve == "rerank"
+                        else None
+                    ),
+                    "rerank_refine_n": (
+                        args.rerank_refine_n
+                        if args.retrieve == "rerank" and args.rerank_refine_model
+                        else None
+                    ),
                     "route_domains": None
                     if route_meta is None
                     else route_meta.domains,

@@ -30,8 +30,8 @@ from rag.route import idxs_for_domains, route_question
 MAX_OBS_CHARS = 3500
 MAX_SNIPPET = 280  # primary text in agent brief (neighbors listed separately)
 MAX_NEIGHBOR_SNIPPET = 140
-# Primaries shown per seed / more_passages page. Answer LLM gets the revealed
-# prefix plus any post-seed additions (search / standalone fetch), not unread pages.
+# Primaries shown per seed / more_passages page (controller only).
+# Answer LLM still receives the full working passage set.
 BRIEF_BATCH = 5
 MAX_FETCH_PER_CALL = 4
 MAX_EXTRA_FETCHED = 6
@@ -94,6 +94,10 @@ class AgentState:
     brief_shown: int = 0
     # Passage count right after seed retrieve (before search/fetch appends).
     seed_passage_n: int = 0
+    # One-shot guard: blocked early final_answer on multi-target + unread seed.
+    early_final_blocked: bool = False
+    # One-shot guard: question tokens poorly covered by seed titles → lexical tool.
+    lexical_nudge_done: bool = False
     done: bool = False
     timings_ms: dict[str, float] = field(default_factory=dict)
     messages: list[dict[str, Any]] = field(default_factory=list)
@@ -120,6 +124,9 @@ class RetrievalBundle:
     route_model: str | None = None
     use_route: bool = True
     use_catalog: bool = True
+    # Optional stage-2 CE over MiniLM shortlist (e.g. BGE refine).
+    refine_reranker: Any | None = None
+    refine_n: int = 40
     # Sandbox: expose lexical grep tool (off by default).
     enable_grep: bool = False
     chunk_bm25: ChunkBM25Index | None = None
@@ -360,11 +367,93 @@ def format_passages_brief(
     return "\n\n".join(blocks) if blocks else "(no passages)"
 
 
+def diversify_passages_by_file(
+    passages: list[ExpandedHit],
+    *,
+    head_n: int = BRIEF_BATCH,
+) -> list[ExpandedHit]:
+    """Reorder so the first `head_n` primaries prefer distinct files.
+
+    Score order is preserved within the diversified head and the remainder.
+    Helps the controller see a second product/file on page 1 without an
+    extra search when dense/CE clump one PDF at the top.
+    """
+    if len(passages) <= 1 or head_n <= 1:
+        return list(passages)
+    head_n = min(int(head_n), len(passages))
+    remaining = list(enumerate(passages))
+    head: list[ExpandedHit] = []
+    used_files: set[str] = set()
+    # Pass 1: take next unseen-file hit until head full or no more uniques.
+    still: list[tuple[int, ExpandedHit]] = []
+    for i, ex in remaining:
+        if len(head) >= head_n:
+            still.append((i, ex))
+            continue
+        f = (ex.match.location.file or "").replace("\\", "/")
+        if f and f not in used_files:
+            head.append(ex)
+            used_files.add(f)
+        else:
+            still.append((i, ex))
+    # Pass 2: fill head from leftovers (score order).
+    for i, ex in still:
+        if len(head) >= head_n:
+            break
+        head.append(ex)
+    head_ids = {id(ex) for ex in head}
+    rest = [ex for ex in passages if id(ex) not in head_ids]
+    return head + rest
+
+
+def format_unread_seed_map(
+    passages: list[ExpandedHit],
+    *,
+    shown: int,
+    seed_n: int | None = None,
+    max_titles: int = 15,
+) -> str:
+    """One-line titles for seed primaries not yet revealed in the brief.
+
+    Lets the controller see what ranks (shown+1)…seed_n contain without
+    spending a tool round — addresses early final_answer blindness.
+    """
+    from rag.peek import is_interesting_title, title_from_text
+
+    if not passages:
+        return ""
+    n = len(passages)
+    shown = max(0, min(int(shown or 0), n))
+    end = n if seed_n is None else max(0, min(int(seed_n), n))
+    if shown >= end:
+        return ""
+    lines: list[str] = []
+    for i, ex in enumerate(passages[shown:end], start=shown + 1):
+        if len(lines) >= max_titles:
+            left = end - (shown + len(lines))
+            if left > 0:
+                lines.append(f"  … +{left} more")
+            break
+        title = title_from_text(ex.match.text or "") or "(no title)"
+        flag = " ★" if is_interesting_title(title) else ""
+        loc = ex.match.location
+        file_tip = (loc.file or "").split("/")[-1][:40]
+        lines.append(
+            f"  [{i}] {file_tip} · {title[:70]}{flag}"
+        )
+    return (
+        "Unread seed primaries (titles only — already in answer context; "
+        "call more_passages to read snippets, or final_answer if a title "
+        "clearly covers the ask):\n" + "\n".join(lines)
+    )
+
+
 def brief_page_footer(
     *,
     shown: int,
     total: int,
     batch: int = BRIEF_BATCH,
+    unread_map: str = "",
 ) -> str:
     """Short paging note for seed / more_passages observations."""
     if total <= 0:
@@ -373,11 +462,160 @@ def brief_page_footer(
         return f"Showing all {total} passages. No further batches."
     remaining = total - shown
     nxt = min(batch, remaining)
-    return (
+    base = (
         f"Showing primaries 1–{shown} of {total}. "
         f"Call more_passages for the next {nxt} "
         f"(does not consume tool-round budget)."
     )
+    if unread_map:
+        return f"{base}\n\n{unread_map}"
+    return base
+
+
+def looks_multi_target_question(question: str) -> bool:
+    """Heuristic: compare / both-products / multi-part asks."""
+    q = (question or "").strip().lower()
+    if not q:
+        return False
+    strong = (
+        "גם",
+        "וגם",
+        "לעומת",
+        "השווה",
+        "הבדל",
+        "שני ה",
+        "שתי ה",
+        "both",
+        "compare",
+        "versus",
+        " vs ",
+        "difference",
+    )
+    if any(c in q for c in strong):
+        return True
+    if q.count("?") >= 2 or q.count("؟") >= 2:
+        return True
+    if "1." in q and "2." in q:
+        return True
+    return False
+
+
+def should_block_early_final(state: AgentState) -> bool:
+    """Block first final_answer when unread seed may still hold a 2nd product."""
+    if getattr(state, "early_final_blocked", False):
+        return False
+    seed_n = int(state.seed_passage_n or 0)
+    shown = int(state.brief_shown or 0)
+    if seed_n <= 0 or shown >= seed_n:
+        return False
+    return looks_multi_target_question(state.question)
+
+
+# Function words / noise — language-agnostic length cut handles most Hebrew clitics.
+_TITLE_OVERLAP_STOP = frozenset(
+    {
+        "של",
+        "את",
+        "על",
+        "עם",
+        "או",
+        "אם",
+        "זה",
+        "זו",
+        "היא",
+        "הוא",
+        "יש",
+        "אין",
+        "גם",
+        "כי",
+        "לא",
+        "כן",
+        "מה",
+        "איך",
+        "אני",
+        "לי",
+        "כל",
+        "רק",
+        "עוד",
+        "the",
+        "a",
+        "an",
+        "to",
+        "of",
+        "in",
+        "for",
+        "is",
+        "are",
+        "and",
+        "or",
+        "my",
+        "me",
+        "do",
+        "does",
+        "can",
+        "will",
+    }
+)
+
+
+def _content_tokens(text: str) -> list[str]:
+    return [
+        t
+        for t in tokenize(text or "")
+        if len(t) >= 3 and t not in _TITLE_OVERLAP_STOP
+    ]
+
+
+def question_seed_title_coverage(
+    question: str,
+    passages: list[ExpandedHit],
+    *,
+    seed_n: int | None = None,
+) -> tuple[float, list[str]]:
+    """Fraction of question content tokens that appear in seed titles/filenames.
+
+    Returns (coverage in [0,1], uncovered tokens). Empty question → (1.0, []).
+    """
+    from rag.peek import title_from_text
+
+    q_toks = _content_tokens(question)
+    if not q_toks:
+        return 1.0, []
+    n = len(passages) if seed_n is None else max(0, min(int(seed_n), len(passages)))
+    blob_parts: list[str] = []
+    for ex in passages[:n]:
+        # Titles + filenames only (not body text — generic policy prose
+        # inflates overlap and hides wrong-doc clusters).
+        blob_parts.append(title_from_text(ex.match.text or "") or "")
+        blob_parts.append(ex.match.location.file or "")
+    title_toks = set(_content_tokens(" ".join(blob_parts)))
+    missing = [t for t in q_toks if t not in title_toks]
+    covered = (len(q_toks) - len(missing)) / len(q_toks)
+    return covered, missing
+
+
+def should_nudge_lexical(state: AgentState) -> tuple[bool, float, list[str]]:
+    """True when seed evidence looks lexically mismatched to the question.
+
+    Generic uncertainty — no keyword lists for specific forms/products.
+    Skips if already nudged or a lexical tool already ran.
+    """
+    if getattr(state, "lexical_nudge_done", False):
+        return False, 1.0, []
+    used = {t.name for t in state.tool_trace}
+    if used & {"grep", "catalog_lookup"}:
+        return False, 1.0, []
+    if not state.passages:
+        return False, 1.0, []
+    cov, missing = question_seed_title_coverage(
+        state.question,
+        state.passages,
+        seed_n=state.seed_passage_n or len(state.passages),
+    )
+    # Low title/filename overlap → likely wrong-doc cluster.
+    if cov < 0.33 and len(missing) >= 3:
+        return True, cov, missing
+    return False, cov, missing
 
 
 def seed_retrieve(bundle: RetrievalBundle, question: str) -> AgentState:
@@ -464,12 +702,16 @@ def seed_retrieve(bundle: RetrievalBundle, question: str) -> AgentState:
         route_n=bundle.route_n,
         route_global_n=bundle.route_global_n,
         global_seed=global_seed,
+        refine_reranker=bundle.refine_reranker,
+        refine_n=bundle.refine_n,
     )
     state.timings_ms["retrieve_ms"] = round(
         (time.perf_counter() - t_ret) * 1000, 1
     )
     state.timings_ms.update(result.timings_ms or {})
-    state.passages = list(result.expanded)
+    state.passages = diversify_passages_by_file(
+        list(result.expanded), head_n=BRIEF_BATCH
+    )
     state.seed_passage_n = len(state.passages)
     return state
 
@@ -477,32 +719,22 @@ def seed_retrieve(bundle: RetrievalBundle, question: str) -> AgentState:
 def passages_for_answer(state: AgentState) -> list[ExpandedHit]:
     """Passages the answer LLM should see.
 
-    Includes the controller-revealed seed prefix (`brief_shown`) plus any
-    passages appended after seed (search / standalone fetch). Unread seed
-    pages stay out of the answer prompt until revealed via more_passages.
+    Full working set (seed + search/fetch adds). Controller briefing stays
+    paged via `brief_shown` / more_passages; the answer model still gets
+    everything so unread seed pages can support the final reply (old-agent
+    quality behavior). Drops OCR/DummyText garbage so it cannot be cited.
     """
-    passages = state.passages
-    if not passages:
-        return []
-    n = len(passages)
-    shown = max(0, min(int(state.brief_shown or 0), n))
-    seed_n = max(0, min(int(state.seed_passage_n or 0), n))
-    if shown <= 0 and seed_n <= 0:
-        # Fallback if state was built outside the agent loop.
-        return list(passages)
+    from rag.cite_hygiene import sanitize_passages_for_answer
 
-    out: list[ExpandedHit] = []
-    seen: set[str] = set()
-    for ex in passages[:shown]:
-        out.append(ex)
-        seen.add(ex.match.id)
-    # Post-seed additions (even if middle seed pages were never revealed).
-    for ex in passages[seed_n:]:
-        if ex.match.id in seen:
-            continue
-        out.append(ex)
-        seen.add(ex.match.id)
-    return out or list(passages[: min(BRIEF_BATCH, n)])
+    cleaned, stats = sanitize_passages_for_answer(list(state.passages))
+    if stats["dropped_primary"] or stats["dropped_neighbors"]:
+        state.timings_ms["cite_hygiene_dropped_primary"] = float(
+            stats["dropped_primary"]
+        )
+        state.timings_ms["cite_hygiene_dropped_neighbors"] = float(
+            stats["dropped_neighbors"]
+        )
+    return cleaned
 
 
 def tool_peek_titles(
@@ -813,6 +1045,8 @@ def tool_search(
         route_idxs=route_idxs,
         route_n=min(40, bundle.route_n),
         route_global_n=min(10, bundle.route_global_n),
+        refine_reranker=bundle.refine_reranker,
+        refine_n=min(bundle.refine_n, 40),
     )
     # Merge new primary matches not already present.
     have = {ex.match.id for ex in state.passages}
@@ -830,7 +1064,42 @@ def tool_search(
     )
 
 
-def tool_final_answer(state: AgentState, *, reason: str = "") -> str:
+def tool_final_answer(
+    state: AgentState,
+    *,
+    reason: str = "",
+    enable_grep: bool = False,
+) -> str:
+    if should_block_early_final(state):
+        state.early_final_blocked = True
+        unread = format_unread_seed_map(
+            state.passages,
+            shown=state.brief_shown,
+            seed_n=state.seed_passage_n,
+        )
+        return (
+            "final_answer deferred: question looks multi-part / multi-product "
+            "and unread seed primaries remain. Call more_passages once to scan "
+            "them (free vs tool-round budget), then final_answer.\n\n"
+            f"{unread}"
+        )
+    nudge, cov, missing = should_nudge_lexical(state)
+    if nudge:
+        state.lexical_nudge_done = True
+        miss_s = ", ".join(missing[:8])
+        # Prefer distinctive uncovered tokens as the lexical query.
+        q_hint = " ".join(missing[:6]) or state.question
+        tools = "catalog_lookup"
+        if enable_grep:
+            tools = "grep (preferred) or catalog_lookup"
+        return (
+            "final_answer deferred: seed titles/filenames cover only "
+            f"{cov:.0%} of the question's content words "
+            f"(missing e.g. {miss_s}). Before answering, run {tools} "
+            f'with a SHORT verbatim query (form/title/code tokens), e.g. '
+            f'"{q_hint}" — not a paraphrased answer sentence. '
+            "Then fetch_chunks on new ids, then final_answer."
+        )
     state.done = True
     return f"ready_to_answer: {reason or 'ok'}"
 
@@ -852,7 +1121,12 @@ def tool_more_passages(
     end = min(start + batch, total)
     body = format_passages_brief(state.passages, offset=start, max_n=end - start)
     state.brief_shown = end
-    footer = brief_page_footer(shown=end, total=total, batch=batch)
+    unread = format_unread_seed_map(
+        state.passages, shown=end, seed_n=state.seed_passage_n or total
+    )
+    footer = brief_page_footer(
+        shown=end, total=total, batch=batch, unread_map=unread
+    )
     return _truncate(f"Passages {start + 1}–{end} of {total}:\n\n{body}\n\n{footer}")
 
 
@@ -908,7 +1182,9 @@ def dispatch_tool(
                 )
         elif name == "final_answer":
             obs = tool_final_answer(
-                state, reason=str(arguments.get("reason", ""))
+                state,
+                reason=str(arguments.get("reason", "")),
+                enable_grep=bool(bundle.enable_grep),
             )
         else:
             obs = f"Unknown tool: {name}"

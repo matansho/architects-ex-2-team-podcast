@@ -17,8 +17,11 @@ from rag.agent_tools import (
     brief_page_footer,
     dispatch_tool,
     format_passages_brief,
+    format_unread_seed_map,
+    looks_multi_target_question,
     passages_for_answer,
     seed_retrieve,
+    tool_more_passages,
     tool_schemas,
     trace_as_json,
 )
@@ -37,6 +40,57 @@ from rag.verify import (
     verify_meta,
 )
 
+# Generic lexical few-shots (synthetic — not from eval / corpus questions).
+_LEXICAL_FEWSHOT_CATALOG = """
+Lexical / catalog examples (patterns only — invent queries from the customer
+question; do not memorize these scenarios):
+
+Example A — wrong product family in seed:
+  Customer asks about a named rider the seed never titles.
+  Good: catalog_lookup query="שם המוצר או סוג הכיסוי המדויק מהשאלה"
+  Then: search with use_catalog=true, or fetch_chunks on catalog hits.
+  Bad: final_answer from a related-but-different policy in seed.
+
+Example B — need a form / schedule by type:
+  Customer mentions submitting a change/request form; seed is general T&Cs.
+  Good: catalog_lookup query="טופס בקשה [סוג השינוי] [סוג הפוליסה]"
+  Bad: paraphrasing the legal conclusion you hope to find.
+"""
+
+_LEXICAL_FEWSHOT_GREP = """
+Lexical search examples (patterns only — invent queries from the customer
+question; do not memorize these scenarios):
+
+Example A — exact contact / code missing from seed:
+  Need a fax, email, shortcode, or product code the snippets never show.
+  Good: grep query="03-1234567" or grep query="*1234" or the exact mailbox
+  token from the question/domain docs you expect.
+  Then: fetch_chunks on promising ids.
+  Bad: grep query="לאן שולחים את המסמך ואיך יוצרים קשר" (full-sentence paraphrase).
+
+Example B — form / endorsement title words:
+  Customer asks about a procedural request (add a beneficiary, update
+  address, cancel a rider); seed titles are unrelated general conditions.
+  Good: grep query="טופס בקשה להוספת מוטב" or the distinctive noun phrase
+  from the question (document-type + action), mode=bm25.
+  Bad: grep query="השינוי ייכנס לתוקף רק לאחר אישור בכתב של החברה"
+  (answer-shaped prose — lexical search will miss the form).
+
+Example C — rare statute / clause label:
+  Good: grep query="סעיף 14" plus a unique nearby term, or the Hebrew name of
+  the rider/endorsement.
+  Bad: grep with only stopwords or a whole rewritten answer.
+
+Example D — catalog then narrow:
+  Good: catalog_lookup query="[שם מוצר] [סוג מסמך]" → then grep/search inside
+  those files (use_catalog=true on search).
+  Bad: dense search alone when seed filenames clearly mismatch the ask.
+
+Rule of thumb: lexical query = short distinctive tokens likely to appear
+verbatim in a filename, form title, phone, or clause heading — not a
+restatement of the answer you want.
+"""
+
 AGENT_SYSTEM = """You are a retrieval controller for a Harel Insurance support system.
 You do NOT answer the customer yourself. You gather evidence with tools, then call final_answer.
 
@@ -45,21 +99,25 @@ Neighbors are already in the answer context. Titles marked ★ look like
 exclusions/limits/extensions.
 
 Policy:
-1. Only a first page of primaries is shown. If those are insufficient, call
-   more_passages for the next page before search (paging does not use tool-round
-   budget). [N] labels match the answer context.
-2. Read primaries and neighbor titles/snippets carefully before any tool call.
-3. If a neighbor already has the needed fact (cap, exclusion, waiting period,
-   amount) → call final_answer. Do not search/grep for text that is already listed.
+1. Only a first page of primaries is shown in full. Unread seed titles are
+   listed below the page — scan them. For compare / both-products / multi-part
+   questions, call more_passages before final_answer or search (paging is free
+   vs tool-round budget). [N] labels match the answer context.
+2. Read primaries, neighbor titles/snippets, AND the unread title map before
+   any tool call.
+3. If a neighbor or unread title already has the needed fact (cap, exclusion,
+   waiting period, amount, second product) → more_passages if you need the
+   snippet, else final_answer. Do not search/grep for text already listed.
 4. If you need fuller text for an id that is listed but truncated → fetch_chunks
    on that id (skip if observation says already_in_context).
 5. If titles near a hit look promising but you lack the right id → peek_titles,
    then fetch_chunks for interesting titles not yet listed.
 6. Wrong product → catalog_lookup with product keywords, then search with a
    tighter query and use_catalog=true (reuses those files; search does not
-   re-run catalog on its own).
+   re-run catalog on its own). Prefer paging unread seed over search when the
+   unread map already names the missing product/file.
 7. Prefer few tool calls. Never invent policy facts.
-"""
+""" + _LEXICAL_FEWSHOT_CATALOG
 
 AGENT_SYSTEM_GREP = """You are a retrieval controller for a Harel Insurance support system.
 You do NOT answer the customer yourself. You gather evidence with tools, then call final_answer.
@@ -69,24 +127,28 @@ Neighbors are already in the answer context. Titles marked ★ look like
 exclusions/limits/extensions.
 
 Policy:
-1. Only a first page of primaries is shown. If those are insufficient, call
-   more_passages for the next page before search (paging does not use tool-round
-   budget). [N] labels match the answer context.
-2. Read primaries and neighbor titles/snippets carefully before any tool call.
-3. If a neighbor already has the needed fact (cap, exclusion, waiting period,
-   amount) → call final_answer. Do not search/grep for text that is already listed.
+1. Only a first page of primaries is shown in full. Unread seed titles are
+   listed below the page — scan them. For compare / both-products / multi-part
+   questions, call more_passages before final_answer or search (paging is free
+   vs tool-round budget). [N] labels match the answer context.
+2. Read primaries, neighbor titles/snippets, AND the unread title map before
+   any tool call.
+3. If a neighbor or unread title already has the needed fact (cap, exclusion,
+   waiting period, amount, second product) → more_passages if you need the
+   snippet, else final_answer. Do not search/grep for text already listed.
 4. If you need fuller text for an id that is listed but truncated → fetch_chunks
    on that id (skip if observation says already_in_context).
 5. If titles near a hit look promising but you lack the right id → peek_titles,
    then fetch_chunks for interesting titles not yet listed.
 6. Wrong product → catalog_lookup with product keywords, then search with a
    tighter query and use_catalog=true (reuses those files; search does not
-   re-run catalog on its own).
-7. Exact tokens missing from seed (product codes, phones, statute names) → grep
-   then fetch_chunks on new hits. Prefer grep over search only for distinctive
-   wording you already know.
+   re-run catalog on its own). Prefer paging unread seed over search when the
+   unread map already names the missing product/file.
+7. Exact tokens missing from seed (product codes, phones, statute names,
+   form-title phrases) → grep then fetch_chunks on new hits. Prefer grep over
+   search only for distinctive wording likely to appear verbatim.
 8. Prefer few tool calls. Never invent policy facts.
-"""
+""" + _LEXICAL_FEWSHOT_GREP
 
 
 @dataclass
@@ -164,13 +226,26 @@ def run_agent_loop(
         )
 
     total_passages = len(state.passages)
+    # Multi-part / compare asks: auto-reveal page 2 so the controller brief
+    # already covers a second product/file (no Nebius round spent).
     seed_n = min(BRIEF_BATCH, total_passages)
+    state.brief_shown = seed_n
+    if looks_multi_target_question(question) and total_passages > BRIEF_BATCH:
+        tool_more_passages(state, batch=BRIEF_BATCH)
+        seed_n = state.brief_shown
     seed_block = format_passages_brief(
         state.passages, offset=0, max_n=seed_n
     )
-    state.brief_shown = seed_n
+    unread = format_unread_seed_map(
+        state.passages,
+        shown=state.brief_shown,
+        seed_n=state.seed_passage_n or total_passages,
+    )
     page_note = brief_page_footer(
-        shown=state.brief_shown, total=total_passages, batch=BRIEF_BATCH
+        shown=state.brief_shown,
+        total=total_passages,
+        batch=BRIEF_BATCH,
+        unread_map=unread,
     )
     cat_note = ""
     if state.catalog_matched:
@@ -196,7 +271,9 @@ def run_agent_loop(
         f"Seed passages (first page; neighbors already in answer context):\n"
         f"{seed_block}\n\n"
         f"{page_note}\n"
-        f"If neighbors already answer the question, call final_answer.\n"
+        f"If neighbors / unread titles already cover the ask, prefer "
+        f"final_answer (or more_passages for a second product on multi-part "
+        f"questions) over search.\n"
         f"Decide: {tool_hint}."
     )
     messages: list[dict[str, Any]] = [
@@ -319,7 +396,7 @@ def generate_answer(
     max_citations: int = 5,
     system_prompt: str = SYSTEM_PASSAGE_CITE,
 ) -> tuple[str, list[dict[str, Any]], dict[str, Any] | None, dict[str, int], float | None]:
-    """Final grounded answer from controller-revealed passages (cite path)."""
+    """Final grounded answer from the full working passage set (cite path)."""
     answer_passages = passages_for_answer(state)
     context = build_context(answer_passages)
     messages = build_messages(
@@ -395,6 +472,9 @@ def run_agent(
     verify_model: str = DEFAULT_VERIFY_MODEL,
     verify_timeout: float = DEFAULT_VERIFY_TIMEOUT_S,
     verify_force: bool = False,
+    verify_mode: str = "extras",
+    verify_deterministic_only: bool = False,
+    verify_apply_deterministic: bool = False,
 ) -> AgentResult:
     """Full hybrid agent: seed → tools → grounded answer → optional verify/strip."""
     t0 = time.perf_counter()
@@ -436,6 +516,9 @@ def run_agent(
             model=verify_model,
             timeout_s=verify_timeout,
             force=verify_force,
+            mode=verify_mode if verify_mode in ("extras", "strict") else "extras",
+            deterministic_only=bool(verify_deterministic_only),
+            apply_deterministic=bool(verify_apply_deterministic),
         )
         verify_info = verify_meta(v)
         state.timings_ms["verify_ms"] = v.latency_ms
@@ -446,10 +529,15 @@ def run_agent(
                 f"    verify skipped → answer as-is ({v.skip_reason})",
                 flush=True,
             )
-        elif v.ran and verbose:
+        elif verbose and (
+            v.ran or v.deterministic_stripped or v.reverted
+        ):
             print(
-                f"    verify → unsupported={len(v.unsupported)} "
-                f"stripped={len(v.stripped)} ({v.latency_ms:.0f}ms)",
+                f"    verify → mode={v.mode} unsupported={len(v.unsupported)} "
+                f"stripped={len(v.stripped)} "
+                f"det={len(v.deterministic_stripped)}"
+                + (f" reverted={v.revert_reason}" if v.reverted else "")
+                + f" ({v.latency_ms:.0f}ms)",
                 flush=True,
             )
         if v.answer_after and v.answer_after != answer:

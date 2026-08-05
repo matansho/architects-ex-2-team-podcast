@@ -20,7 +20,7 @@ import time
 from pathlib import Path
 from typing import List, Optional
 
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
@@ -43,6 +43,34 @@ CHAMPION_REFINE_MODEL = "BAAI/bge-reranker-v2-m3"
 
 def _env_bool(name: str, default: str = "0") -> bool:
     return os.environ.get(name, default).lower() in ("1", "true", "yes")
+
+
+def _is_transient_llm_error(exc: BaseException) -> bool:
+    """Nebius / network blips worth retrying inside /ask (same question, same stack)."""
+    name = type(exc).__name__
+    msg = str(exc).lower()
+    if name in {
+        "Timeout",
+        "APITimeoutError",
+        "APIConnectionError",
+        "InternalServerError",
+        "RateLimitError",
+        "ServiceUnavailableError",
+        "APIError",
+    }:
+        return True
+    needles = (
+        "timeout",
+        "timed out",
+        "connection error",
+        "connection reset",
+        "temporarily unavailable",
+        "rate limit",
+        "503",
+        "502",
+        "504",
+    )
+    return any(n in msg for n in needles)
 
 
 def _env_optional_model(name: str, default: str) -> str | None:
@@ -205,22 +233,26 @@ def gui_root():
     index = _UI_DIR / "index.html"
     if not index.is_file():
         return {"status": "ok", "ui": "missing", "ask": "/ask"}
-    return FileResponse(index)
+    # Allow mic for Web Speech on this origin (Chrome needs an explicit grant path).
+    return FileResponse(
+        index,
+        headers={"Permissions-Policy": "microphone=(self)"},
+    )
 
 
-def answer_question(question: str) -> AskResponse:
+def _run_ask_once(question: str):
+    """Single champion agent pass. Raises on LLM/transport failure."""
     bundle = _load_bundle()
     assert _LLM_MODEL is not None
-    t0 = time.perf_counter()
-    # Default ON — measured Train 91.7% / Eval 83.6%. Disable with RAG_VERIFY=0.
     verify_on = _env_bool("RAG_VERIFY", "1")
-    result = run_agent(
+    return run_agent(
         bundle,
         question,
         model=_LLM_MODEL,
         model_kwargs=_LLM_KWARGS,
         max_tool_rounds=int(os.environ.get("RAG_AGENT_MAX_ROUNDS", "2")),
-        llm_timeout=float(os.environ.get("RAG_LLM_TIMEOUT", "300")),
+        # Bound each Nebius call so a hang cannot wedge the worker forever.
+        llm_timeout=float(os.environ.get("RAG_LLM_TIMEOUT", "120")),
         llm_extra=_LLM_EXTRA,
         max_citations=5,
         verbose=False,
@@ -232,30 +264,76 @@ def answer_question(question: str) -> AskResponse:
         verify_deterministic_only=_env_bool("RAG_VERIFY_DETERMINISTIC_ONLY", "0"),
         verify_apply_deterministic=_env_bool("RAG_VERIFY_APPLY_DETERMINISTIC", "0"),
     )
-    latency_ms = (time.perf_counter() - t0) * 1000
-    citations = [
-        Citation(
-            file=c.get("file", ""),
-            page=c.get("page"),
-            quote=c.get("quote"),
-        )
-        for c in result.citations
-        if c.get("file")
-    ]
-    # Crude confidence: more tools without fetches → lower; fetched evidence helps.
-    n_fetch = len(result.state.fetched_ids)
-    n_pass = len(result.state.passages)
-    confidence = min(0.95, 0.45 + 0.03 * n_pass + 0.05 * n_fetch)
-    if not result.answer or "אין בידי" in result.answer or "לא מספיק" in result.answer:
-        confidence = min(confidence, 0.35)
-    return AskResponse(
-        answer=result.answer,
-        citations=citations,
-        domain=result.domain,
-        confidence=confidence,
-        latency_ms=round(latency_ms, 1),
-        cost_usd=result.cost_usd,
+
+
+def answer_question(question: str) -> AskResponse:
+    """
+    Pipeline entry used by POST /ask.
+
+    AskRequest/AskResponse are unchanged. On transient Nebius/timeout errors we
+    retry the *same* question in-process (RAG_ASK_ATTEMPTS, default 3) so the
+    stock submit_runner.py can keep a single POST per question and still get
+    an answer when the first attempt flakes.
+    """
+    attempts = max(1, int(os.environ.get("RAG_ASK_ATTEMPTS", "3")))
+    t0 = time.perf_counter()
+    last_exc: BaseException | None = None
+
+    for attempt in range(1, attempts + 1):
+        try:
+            result = _run_ask_once(question)
+            latency_ms = (time.perf_counter() - t0) * 1000
+            citations = [
+                Citation(
+                    file=c.get("file", ""),
+                    page=c.get("page"),
+                    quote=c.get("quote"),
+                )
+                for c in result.citations
+                if c.get("file")
+            ]
+            n_fetch = len(result.state.fetched_ids)
+            n_pass = len(result.state.passages)
+            confidence = min(0.95, 0.45 + 0.03 * n_pass + 0.05 * n_fetch)
+            if (
+                not result.answer
+                or "אין בידי" in result.answer
+                or "לא מספיק" in result.answer
+            ):
+                confidence = min(confidence, 0.35)
+            if attempt > 1:
+                print(
+                    f"[contract] /ask succeeded on attempt {attempt}/{attempts}",
+                    flush=True,
+                )
+            return AskResponse(
+                answer=result.answer,
+                citations=citations,
+                domain=result.domain,
+                confidence=confidence,
+                latency_ms=round(latency_ms, 1),
+                cost_usd=result.cost_usd,
+            )
+        except Exception as e:
+            last_exc = e
+            if attempt >= attempts or not _is_transient_llm_error(e):
+                break
+            print(
+                f"[contract] /ask attempt {attempt}/{attempts} failed "
+                f"({type(e).__name__}: {e}); retrying same question …",
+                flush=True,
+            )
+
+    assert last_exc is not None
+    print(
+        f"[contract] /ask giving up after {attempts} attempt(s): "
+        f"{type(last_exc).__name__}: {last_exc}",
+        flush=True,
     )
+    raise HTTPException(
+        status_code=500,
+        detail=f"ask_failed_after_{attempts}_attempts: {type(last_exc).__name__}: {last_exc}",
+    ) from last_exc
 
 
 @app.post("/ask", response_model=AskResponse)

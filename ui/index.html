@@ -4,7 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#050e10">
-<title>הראל · תמיכה חכמה</title>
+<title>הראל × Apex · תמיכה חכמה</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 56 56'%3E%3Crect width='56' height='56' rx='15' fill='%2306141a'/%3E%3Cpath d='M12 40 L28 15' stroke='%23d4b06a' stroke-width='5' stroke-linecap='round' fill='none'/%3E%3Cpath d='M28 15 L44 40' stroke='%233ecfbe' stroke-width='5' stroke-linecap='round' fill='none'/%3E%3Cpath d='M19.5 31.5 H36.5' stroke='%23f0d79a' stroke-width='3' stroke-linecap='round' opacity='.6'/%3E%3Ccircle cx='28' cy='15' r='3.1' fill='%23fff6d8'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;700&family=Assistant:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -106,29 +107,57 @@
   .brand-row {
     display: flex; align-items: center; justify-content: space-between; gap: 1rem;
   }
-  .brand {
+
+  /* Co-brand lockup: Harel (הר־אל, "mountain of God") × Apex — both mean summit,
+     so the mark is a single ridge climbing to one shared peak. */
+  .brand-lockup {
     position: relative;
+    display: flex; align-items: center; gap: .72rem;
+  }
+  .brand-mark {
+    width: clamp(42px, 9vw, 54px);
+    height: clamp(42px, 9vw, 54px);
+    flex: 0 0 auto;
+    filter: drop-shadow(0 6px 18px rgba(212,176,106,.28));
+    animation: mark-in .9s cubic-bezier(.2,.8,.2,1) both;
+  }
+  .brand-words {
+    display: flex; align-items: baseline; gap: .5rem;
+    line-height: .95;
+  }
+  .brand-he {
     font-family: var(--font-display);
     font-weight: 700;
-    font-size: clamp(2.35rem, 7vw, 3.4rem);
+    font-size: clamp(2rem, 6vw, 2.85rem);
     letter-spacing: -.03em;
-    line-height: .95;
     background: linear-gradient(115deg, #fff6d8 0%, var(--brass-soft) 28%, var(--brass) 55%, var(--brass-deep) 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    filter: drop-shadow(0 0 28px rgba(212,176,106,.25));
+    filter: drop-shadow(0 0 28px rgba(212,176,106,.22));
   }
-  .brand::after {
-    content: "";
-    position: absolute;
-    inset-inline-start: 0;
-    bottom: -.15em;
-    width: 2.2em;
-    height: 2px;
-    border-radius: 2px;
-    background: linear-gradient(90deg, var(--brass-soft), transparent);
-    opacity: .7;
+  .brand-sep {
+    font-size: clamp(.95rem, 2.6vw, 1.25rem);
+    font-weight: 400;
+    color: var(--ink-dim);
+    opacity: .65;
+    transform: translateY(-.12em);
+  }
+  .brand-apex {
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-size: clamp(1rem, 2.9vw, 1.35rem);
+    letter-spacing: .22em;
+    text-transform: uppercase;
+    background: linear-gradient(120deg, #eafffb 0%, var(--teal) 55%, var(--teal-dim) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(0 0 18px rgba(62,207,190,.28));
+  }
+  @media (max-width: 430px) {
+    .brand-words { gap: .38rem; }
+    .brand-apex { letter-spacing: .14em; }
   }
   .status {
     display: inline-flex; align-items: center; gap: .45rem;
@@ -254,10 +283,26 @@
     color: transparent;
   }
   .empty p {
-    margin: 0 0 1.35rem;
+    margin: 0 0 .55rem;
     color: var(--ink-dim);
     font-size: .98rem;
     line-height: 1.55;
+  }
+  .empty .empty-note {
+    margin: 0 0 1.35rem;
+    font-size: .8rem;
+    opacity: .62;
+  }
+  .empty .empty-note code {
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    font-size: .95em;
+    color: var(--brass-soft);
+    background: rgba(240,215,154,.07);
+    border: 1px solid var(--line);
+    border-radius: 5px;
+    padding: .05em .35em;
+    direction: ltr;
+    display: inline-block;
   }
   .hints {
     display: flex;
@@ -619,7 +664,39 @@
 <div class="app">
   <header class="hero">
     <div class="brand-row">
-      <div class="brand">הראל</div>
+      <div class="brand-lockup">
+        <svg class="brand-mark" viewBox="0 0 56 56" role="img" aria-label="הראל × Apex">
+          <defs>
+            <linearGradient id="mkTile" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#123036"/>
+              <stop offset="100%" stop-color="#06141a"/>
+            </linearGradient>
+            <linearGradient id="mkBrass" x1="0" y1="1" x2="1" y2="0">
+              <stop offset="0%" stop-color="#8a6a2e"/>
+              <stop offset="45%" stop-color="#d4b06a"/>
+              <stop offset="100%" stop-color="#fff6d8"/>
+            </linearGradient>
+            <linearGradient id="mkTeal" x1="0" y1="1" x2="1" y2="0">
+              <stop offset="0%" stop-color="#1a7a70"/>
+              <stop offset="100%" stop-color="#6ef0dd"/>
+            </linearGradient>
+          </defs>
+          <rect x="1.2" y="1.2" width="53.6" height="53.6" rx="15" fill="url(#mkTile)"
+                stroke="rgba(240,215,154,.28)" stroke-width="1.2"/>
+          <!-- shared summit: brass flank rises, teal flank descends -->
+          <path d="M 12 40 L 28 15" stroke="url(#mkBrass)" stroke-width="5" stroke-linecap="round" fill="none"/>
+          <path d="M 28 15 L 44 40" stroke="url(#mkTeal)" stroke-width="5" stroke-linecap="round" fill="none"/>
+          <!-- ridge line -->
+          <path d="M 19.5 31.5 H 36.5" stroke="rgba(240,215,154,.55)" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="28" cy="15" r="3.1" fill="#fff6d8"/>
+          <circle cx="28" cy="15" r="6.2" fill="none" stroke="rgba(255,246,216,.28)" stroke-width="1.1"/>
+        </svg>
+        <div class="brand-words">
+          <span class="brand-he">הראל</span>
+          <span class="brand-sep">×</span>
+          <span class="brand-apex">Apex</span>
+        </div>
+      </div>
       <div class="status" id="status"><span class="dot"></span><span id="statusText">מתחבר…</span></div>
     </div>
     <p class="tagline">תשובות מבוססות <em>מסמכי החברה</em> — הקלידו, או לחצו מיקרופון ודברו.</p>
@@ -629,9 +706,16 @@
     <div class="thread-wrap">
       <div class="thread" id="thread">
         <div class="empty" id="empty">
-          <div class="empty-mark" aria-hidden="true">ה</div>
+          <div class="empty-mark" aria-hidden="true">
+            <svg viewBox="0 0 56 56" width="60%" height="60%">
+              <path d="M 12 40 L 28 15" stroke="#2a2008" stroke-width="5.5" stroke-linecap="round" fill="none"/>
+              <path d="M 28 15 L 44 40" stroke="#2a2008" stroke-width="5.5" stroke-linecap="round" fill="none" opacity=".55"/>
+              <path d="M 19.5 31.5 H 36.5" stroke="#2a2008" stroke-width="3.2" stroke-linecap="round" opacity=".8"/>
+            </svg>
+          </div>
           <h2>במה אפשר לעזור?</h2>
-          <p>פוליסות, תביעות וכיסויים — עם ציטוט למקור. בחרו דוגמה או שאלו חופשי.</p>
+          <p>פוליסות, תביעות וכיסויים — עם ציטוט למקור.<br>בחרו דוגמה או שאלו חופשי.</p>
+          <p class="empty-note">למענה קולי: Chrome בכתובת <code>127.0.0.1:8000</code></p>
           <div class="hints" id="hints">
             <button type="button" class="hint" data-q="הגשתי תביעה לחברת הביטוח. האם זה עוצר את מרוץ ההתיישנות?">התיישנות תביעה</button>
             <button type="button" class="hint" data-q="אושפזתי בחו״ל מעל שלושה ימים — האם משלמים על כרטיס טיסה למלווה?">מלווה בחו״ל</button>
@@ -841,16 +925,55 @@
   });
 
   const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
-  if (!SR) {
-    micBtn.title = "הדפדפן לא תומך בזיהוי דיבור (נסו Chrome)";
+  const micHostOk = (() => {
+    const h = location.hostname;
+    return (
+      window.isSecureContext ||
+      h === "localhost" ||
+      h === "127.0.0.1" ||
+      h === "[::1]"
+    );
+  })();
+  const micErrorHe = {
+    "not-allowed": "אין הרשאה למיקרופון. בדפדפן: מנעול ליד הכתובת → מיקרופון → אפשר. גם ב־System Settings → Privacy → Microphone אשרו ל־Chrome.",
+    "service-not-allowed": "הדפדפן חסם את שירות הזיהוי. פתחו ב־Chrome מ־http://127.0.0.1:8000",
+    "audio-capture": "לא נמצא מיקרופון, או שהוא בשימוש באפליקציה אחרת.",
+    "network": "זיהוי דיבור של Chrome דורש רשת (שירות ענן). בדקו חיבור לאינטרנט.",
+    "no-speech": "לא נשמע דיבור — נסו שוב קרוב למיקרופון.",
+    "aborted": null,
+  };
+
+  function micBlockedReason() {
+    if (!SR) {
+      return "זיהוי דיבור דורש Chrome או Edge (לא Safari / לא תצוגת Cursor). אפשר להקליד.";
+    }
+    if (!micHostOk) {
+      return `מיקרופון חסום בכתובת הזו (${location.host}). פתחו במקום: http://127.0.0.1:8000/`;
+    }
+    if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+      return "הדפדפן לא מאפשר גישה למיקרופון בהקשר הנוכחי. השתמשו ב־Chrome ב־http://127.0.0.1:8000/";
+    }
+    return null;
+  }
+
+  async function ensureMicPermission() {
+    const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+    stream.getTracks().forEach((t) => t.stop());
+  }
+
+  if (!SR || !micHostOk) {
+    const why = micBlockedReason();
+    micBtn.title = why || "מיקרופון לא זמין";
     micBtn.addEventListener("click", () => {
-      addRow("system", "זיהוי דיבור דורש Chrome / Edge. אפשר להקליד.");
+      addRow("system", why || "מיקרופון לא זמין.");
     });
   } else {
     recognition = new SR();
     recognition.lang = "he-IL";
     recognition.interimResults = true;
-    recognition.continuous = true;
+    // false + restart-on-end is more reliable on Chrome/macOS than continuous=true
+    recognition.continuous = false;
+    recognition.maxAlternatives = 1;
 
     recognition.onstart = () => {
       listening = true;
@@ -859,14 +982,22 @@
       voiceLabel.textContent = "מקשיב… דברו בעברית";
     };
     recognition.onerror = (ev) => {
-      voiceLabel.textContent = `שגיאת מיקרופון: ${ev.error}`;
-      if (ev.error === "not-allowed") {
-        addRow("system", "אין הרשאה למיקרופון. אשרו גישה בדפדפן.");
+      const code = ev.error || "unknown";
+      const msg = micErrorHe[code];
+      if (code === "aborted") return;
+      voiceLabel.textContent = msg ? `שגיאה: ${code}` : `שגיאת מיקרופון: ${code}`;
+      if (msg) addRow("system", msg);
+      if (code === "not-allowed" || code === "service-not-allowed" || code === "audio-capture") {
+        stopVoice(false);
       }
     };
     recognition.onend = () => {
-      if (listening) {
-        try { recognition.start(); } catch (_) { stopVoice(false); }
+      if (!listening) return;
+      // Keep listening until the user taps the mic again.
+      try {
+        recognition.start();
+      } catch (_) {
+        stopVoice(false);
       }
     };
     recognition.onresult = (event) => {
@@ -878,7 +1009,11 @@
         else interim += t;
       }
       if (final) {
-        baseBeforeVoice = (baseBeforeVoice + (baseBeforeVoice && !baseBeforeVoice.endsWith(" ") ? " " : "") + final).trim();
+        baseBeforeVoice = (
+          baseBeforeVoice +
+          (baseBeforeVoice && !/\s$/.test(baseBeforeVoice) ? " " : "") +
+          final
+        ).trim();
         input.value = baseBeforeVoice;
       } else {
         input.value = (baseBeforeVoice + (baseBeforeVoice ? " " : "") + interim).trim();
@@ -886,19 +1021,41 @@
       autosize();
     };
 
-    micBtn.addEventListener("click", () => {
+    micBtn.addEventListener("click", async () => {
       if (busy) return;
       if (listening) {
         stopVoice(true);
         return;
       }
+      const blocked = micBlockedReason();
+      if (blocked) {
+        addRow("system", blocked);
+        return;
+      }
       baseBeforeVoice = input.value.trim();
+      voiceBar.classList.add("on");
+      voiceLabel.textContent = "מבקש גישה למיקרופון…";
+      try {
+        await ensureMicPermission();
+      } catch (e) {
+        voiceBar.classList.remove("on");
+        const name = (e && e.name) || "";
+        if (name === "NotAllowedError" || name === "PermissionDeniedError") {
+          addRow("system", micErrorHe["not-allowed"]);
+        } else if (name === "NotFoundError") {
+          addRow("system", micErrorHe["audio-capture"]);
+        } else {
+          addRow("system", "לא הצלחנו לפתוח את המיקרופון. בדקו Chrome + http://127.0.0.1:8000/");
+        }
+        return;
+      }
       listening = true;
       try {
         recognition.start();
       } catch (e) {
         listening = false;
-        addRow("system", "לא הצלחנו להתחיל האזנה.");
+        voiceBar.classList.remove("on");
+        addRow("system", "לא הצלחנו להתחיל האזנה. נסו שוב בעוד רגע.");
       }
     });
   }
